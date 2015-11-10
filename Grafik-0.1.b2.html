@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Indikator 0.1.b1: Blabla ... ?</title>
+  <title>Indikator 0.1.b2: Blabla ... ?</title>
 
   <style type="text/css">
     a {
@@ -69,8 +69,8 @@ var chartOptions = {
         "enabled": true,
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
           formatter: function() {
-            var last  = this.series.data[this.series.data.length - 1];
-            if (this.point.category === last.category  && this.point.y === last.y) {
+            var last  = this.series.data[this.series.data.length - 2];
+            if (this.point.category === last.category  &&  this.point.y === last.y ) {
               return this.series.name;
             }
             return "";
@@ -184,7 +184,7 @@ var chartOptions = {
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Indikator 0.1.b1: Blablaentwicklung nach Kategorie",
+    "text": "Indikator 0.1.b2: Blablaentwicklung nach Kategorie",
     "align": "left"
   },
   "subtitle": {
@@ -208,7 +208,7 @@ var chartOptions = {
   }
 };
 
-$.get("Grafik-0.1.b1.csv", function(data){  
+$.get("Grafik-0.1.b2.csv", function(data){  
   parseData(function (dataOptions) {
     // Merge series configs
     if (chartOptions.series && dataOptions) {
