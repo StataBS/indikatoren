@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Indikator 0.1.a: Wie zufrieden sind Sie mit ... ?</title>
+  <title>Titel</title>
 
   <style type="text/css">
     a {
@@ -41,7 +41,7 @@
   "columnTypes": [
     "string"
   ],
-  csv: data
+  "csv": data
 };
 		dataOptions.sort = true
 		dataOptions.complete = completeHandler;
@@ -109,10 +109,6 @@ var chartOptions = {
       }
     }, 
     "tickColor": "#FFFFFF"
-  },
-  tooltip: {
-    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>',
-    shared: false
   },
   "exporting": {
     "sourceWidth": null, 
@@ -195,7 +191,34 @@ var chartOptions = {
   }
 };
 
+var csvFile = $.get("Grafik-0.1.a.csv");
+var dataOptionsFile = $.getJSON("DataOptions1.json"); 
 
+$.when(csvFile, dataOptionsFile)
+  .done(function(csvFile, dataOptionsFile){
+    //var item={"csv": csvFile};
+    //dataOptionsFile["csv"]=csvFile;
+    console.log(JSON.stringify(dataOptionsFile));
+  })
+  .fail(function(data){
+    alert("fail");
+});
+
+/*
+$.when(csvFile).done(function(csvFile){
+  parseData(function (dataOptions) {
+    // Merge series configs
+    if (chartOptions.series && dataOptions) {
+      Highcharts.each(chartOptions.series, function (series, i) {
+        chartOptions.series[i] = Highcharts.merge(series, dataOptions.series[i]);
+      });
+    }
+    var options = Highcharts.merge(dataOptions, chartOptions, template);
+    var chart = new Highcharts['Chart'](options);
+  }, chartOptions, csvFile);
+});
+*/
+/*
 $.get("Grafik-0.1.a.csv", function(data){  
   parseData(function (dataOptions) {
     // Merge series configs
@@ -209,6 +232,7 @@ $.get("Grafik-0.1.a.csv", function(data){
   }, chartOptions, data);
 
 });
+*/
   </script>
 </body>
 

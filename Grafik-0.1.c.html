@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Indikator 0.1.a: Wie zufrieden sind Sie mit ... ?</title>
+  <title>Indikator 0.1.c: Anteil nach Kategorie</title>
 
   <style type="text/css">
     a {
@@ -111,7 +112,7 @@ var chartOptions = {
     "tickColor": "#FFFFFF"
   },
   tooltip: {
-    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>',
+    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.2f}%)<br/>',
     shared: false
   },
   "exporting": {
@@ -143,24 +144,20 @@ var chartOptions = {
   },
   "series": [
     {
-      "color": "#6f6f6f",
-      "index": 2
+      "color": "#73B97C",
+      "index": 0
     },
     {
-      "color": "#dc440e",
-      "index": 4
-    },
-    {
-      "color": "#ffbb58",
-      "index": 3
-    },
-    {
-      "color": "#689199",
+      "color": "#008AC3",
       "index": 1
     },
     {
-      "color": "#246370",
-      "index": 0
+      "color": "#CD9C00",
+      "index": 2
+    },
+    {
+      "color": "#662673",
+      "index": 3
     }
   ],
   "title": {
@@ -170,7 +167,7 @@ var chartOptions = {
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Indikator 0.1.a: Wie zufrieden sind Sie mit ... ?",
+    "text": "Indikator 0.1.c:Anteil nach Kategorie",
     "align": "left"
   },
   "subtitle": {
@@ -181,7 +178,7 @@ var chartOptions = {
       "color": "#000000"
 
     },
-    "text": "Quelle: Befragung ABC Frage X_Y",
+    "text": "Quelle: Register ABC",
     "align": "left"
   },
   "chart": {
@@ -196,7 +193,7 @@ var chartOptions = {
 };
 
 
-$.get("Grafik-0.1.a.csv", function(data){  
+$.get("Grafik-0.1.c.csv", function(data){  
   parseData(function (dataOptions) {
     // Merge series configs
     if (chartOptions.series && dataOptions) {
