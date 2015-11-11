@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Indikator 1.2.c1: Netto XYZ</title>
+<title>Indikator 1.2.c2: XYZ Saldo</title>
 
   <style type="text/css">
     a {
@@ -33,27 +33,6 @@
 function parseData(completeHandler, chartOptions, data) {
 	try {
 		var dataOptions = {
-  "seriesMapping": [
-    {
-      "x": 0
-    },
-    {
-      "x": 0
-    },
-    {
-      "x": 0
-    },
-    {
-      "x": 0
-    }
-  ],
-  "columnTypes": [
-    "float",
-    "float",
-    "float",
-    "float",
-    "float"
-  ],
   csv: data
 };
 		dataOptions.sort = true
@@ -86,6 +65,11 @@ Highcharts.setOptions({
 	};
 
 var chartOptions = {
+  "plotOptions": {
+    "series": {
+      "stacking": "normal"
+    }
+  },
   "yAxis": {
     "title": {
       "style": {
@@ -150,34 +134,41 @@ var chartOptions = {
 
   "series": [
     {
-      "color": "#2e1435",
+      "color": "#fabd24",
       "marker": {
         "enabled": false
       },
-      "index": 3,
+      "index": 5,
       "type": "line"
     },
     {
-      "color": "#68ab2b",
+      "color": "#007a2f",
       "index": 0
     },
     {
-      "color": "#cd9c00",
+      "color": "#73b97c",
+      "index": 3
+    },
+    {
+      "color": "#2f656b",
       "index": 1
     },
     {
-      "color": "#008ac3",
+      "color": "#990300",
+      "index": 4
+    },
+    {
+      "color": "#923f8d",
       "index": 2
     }
-  ],
-    "title": {
+  ],    "title": {
     "style": {
       "fontSize": 14,
       "fontWeight": "bold",
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Indikator 1.2.c1: Netto XYZ",
+    "text": "Indikator 1.2.c2: XYZ Saldo",
     "align": "left"
   },
   "subtitle": {
@@ -204,7 +195,7 @@ var chartOptions = {
 };
 
 
-$.get("Grafik-1.2.c1.csv", function(data){  
+$.get("Grafik-1.2.c2.csv", function(data){  
 parseData(function (dataOptions) {
 	// Merge series configs
 	if (chartOptions.series && dataOptions) {
