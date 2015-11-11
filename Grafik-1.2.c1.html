@@ -113,7 +113,8 @@ var chartOptions = {
         "color": "#000000"
       }
     }, 
-    "tickColor": "#FFFFFF"
+    "tickColor": "#FFFFFF",
+    "tickInterval": 1
   },
   tooltip: {
     pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.2f}%)<br/>',
@@ -197,7 +198,7 @@ var chartOptions = {
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "y",
+    "zoomType": "xy",
     "type": "column"    
   }
 };
