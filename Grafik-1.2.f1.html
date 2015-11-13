@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Indikator 1.2.f1: XYZ </title>
+
+  <style type="text/css">
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    
+    #container .highcharts-container {
+      margin: 0 auto;
+    }
+  </style>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script>
+  <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script>
+  <script type="text/javascript" src="//code.highcharts.com/modules/exporting.js"></script>
+  <script type="text/javascript" src="//highslide-software.github.io/export-csv/export-csv.js"></script>
+
+
+</head>
+
+<body style="margin: 0;" class="show-page">
+  <div id="container" style="width:100%; height:100%;max-width:1000px;margin: 0 auto"></div>
+
+<script type="text/javascript">
+function parseData(completeHandler, chartOptions, data) {
+	try {
+		var dataOptions = {
+  csv: data
+};
+		dataOptions.sort = true
+		dataOptions.complete = completeHandler;
+		Highcharts.data(dataOptions, chartOptions);
+	} catch (error) {
+		console.log(error);
+		completeHandler(undefined);
+	}
+}
+
+Highcharts.setOptions({
+  "lang": {
+    "decimalPoint": ",",
+    "thousandsSep": " "
+  }
+});
+
+
+	var template = {
+		chart: {
+			renderTo: 'container'
+		},
+		navigation: {
+			menuItemStyle: {
+				fontFamily: Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
+				padding: '2px 10px'
+			}
+		}
+	};
+
+var chartOptions = {
+  "plotOptions": {
+    "series": {
+      "stacking": null
+    }
+  },
+  "yAxis": [
+   {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value:,.0f}", 
+      "style": {
+        "color": "#000000"
+      }
+
+    }
+  },
+  {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value}", 
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "opposite": true
+  },
+  ],
+  "xAxis": {
+    "title": {
+      "style": {
+        "color": "#000000" 
+      }
+    }, 
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }, 
+    "tickColor": "#FFFFFF",
+    "tickInterval": 1
+  },
+  tooltip: {
+    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.2f}%)<br/>',
+    shared: false
+  },
+  "exporting": {
+    "sourceWidth": null, 
+    "scale": 5 
+  },
+  "credits": {
+    "text": "Statistisches Amt Basel-Stadt",
+    "href": "http://www.statistik.bs.ch",     
+    "enabled": true, 
+    "style": {
+      "color": "#000000", 
+      "fontSize": 10
+    }, 
+    "position": {
+      "align": "left", 
+      "verticalAlign": "bottom", 
+      x: 10, 
+      y: 0
+    }
+  },
+  "legend": {
+		"verticalAlign": "top",
+		"floating": false,
+		"y": 40,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+
+  "series": [
+    {
+      "color": "#ffbb58",
+      "index": 0
+    },
+    {
+      "color": "#73b97c",
+      "index": 1
+    },
+    {
+      "color": "#007a2f",
+      "index": 2
+    },
+    {
+      "color": "#689199",
+      "index": 3
+    },
+    {
+      "color": "#923f8d",
+      "index": 4
+    },
+    {
+      "color": "#b00000",
+      "index": 5,
+      "type": "line",
+      "yAxis": 1
+    },
+    {
+      "color": "#ffbb58",
+      "index": 6,
+      "type": "line",
+      "yAxis": 1
+    },
+    {
+      "color": "#73b97c",
+      "index": 7,
+      "type": "line",
+      "yAxis": 1
+    },
+    {
+      "color": "#007a2f",
+      "index": 8,
+      "type": "line",
+      "yAxis": 1
+    },
+    {
+      "color": "#689199",
+      "index": 9,
+      "type": "line",
+      "yAxis": 1
+    },
+    {
+      "color": "#923f8d",
+      "index": 10,
+      "type": "line",
+      "yAxis": 1
+    }
+  ],  
+"title": {
+    "style": {
+      "fontSize": 14,
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Indikator 1.2.f1: XYZ ",
+    "align": "left"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+
+    },
+    "text": "Quelle: Register ABC",
+    "align": "left"
+  },
+
+  "chart": {
+    "borderColor": "#9f9f9f",
+    "width": 485,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column"    
+  }
+};
+
+
+$.get("Grafik-1.2.f1.csv", function(data){  
+parseData(function (dataOptions) {
+	// Merge series configs
+	if (chartOptions.series && dataOptions) {
+		Highcharts.each(chartOptions.series, function (series, i) {
+			chartOptions.series[i] = Highcharts.merge(series, dataOptions.series[i]);
+		});
+	}
+	var options = Highcharts.merge(dataOptions, chartOptions, template);
+	var chart = new Highcharts['Chart'](options);
+}, chartOptions, data);
+
+});
+
+	
+</script>
+</body>
+</html>
