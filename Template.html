@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 
+<html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Type" content="text/§; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Titel</title>
+  <title>Indikator XYZ</title>
 
   <style type="text/css">
     a {
@@ -31,208 +32,181 @@
 
   <script type="text/javascript">
     function parseData(completeHandler, chartOptions, data) {
-	try {  
-		var dataOptions = {
-  "seriesMapping": [
-    {
-      "x": 0
+    	try {  
+    		var dataOptions = {
+          "seriesMapping": [
+            {
+              "x": 0
+            }
+          ],
+          "columnTypes": [
+            "string"
+          ],
+          csv: data
+        };
+        dataOptions.sort = true
+        dataOptions.complete = completeHandler;
+        Highcharts.data(dataOptions, chartOptions);
+      } catch (error) {
+        console.log(error);
+        completeHandler(undefined);
+      }
     }
-  ],
-  "columnTypes": [
-    "string"
-  ],
-  "csv": data
-};
-		dataOptions.sort = true
-		dataOptions.complete = completeHandler;
-		Highcharts.data(dataOptions, chartOptions);
-	} catch (error) {
-		console.log(error);
-		completeHandler(undefined);
-	}
-}
 
-Highcharts.setOptions({
-  "lang": {
-    "decimalPoint": ",",
-    "thousandsSep": " "
-  }
-});
-
-var template = {
-	chart: {
-		renderTo: 'container'
-	},
-	navigation: {
-		menuItemStyle: {
-			fontFamily: Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
-			padding: '2px 10px'
-		}
-	}
-};
-var chartOptions = {
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "style": {
-          "fontSize": 10
+    Highcharts.setOptions({
+      "lang": {
+        "decimalPoint": ",",
+        "thousandsSep": " "
+      }
+    });
+    
+    var template = {
+      chart: {
+        renderTo: 'container'
+      },
+      navigation: {
+        menuItemStyle: {
+          fontFamily: Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
+          padding: '2px 10px'
+        }
+      }
+    };
+    
+    var chartOptions = {
+      "plotOptions": {
+        "series": {
+          "dataLabels": {
+            "style": {
+              "fontSize": 10
+            }
+          },
+          "stacking": "percent"
         }
       },
-      "stacking": "percent"
-    }
-  },
-  "yAxis": {
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
+      "yAxis": {
+        "title": {
+          "style": {
+            "color": "#000000",
+            "fontSize": null
+          },
+          "text": null
+        },
+        "labels": {
+          "format": "{value}%", 
+          "style": {
+            "color": "#000000"
+          }
+    
+        }
       },
-      "text": null
-    },
-    "labels": {
-      "format": "{value}%", 
-      "style": {
-        "color": "#000000"
+      "xAxis": {
+        "title": {
+          "style": {
+            "color": "#000000" 
+          }
+        }, 
+        "labels": {
+          "style": {
+            "color": "#000000"
+          }
+        }, 
+        "tickColor": "#FFFFFF"
+      },
+      "exporting": {
+        "sourceWidth": null, 
+        "scale": 5 
+      },
+      "credits": {
+        "text": "Statistisches Amt Basel-Stadt",
+        "href": "http://www.statistik.bs.ch",     
+        "enabled": true, 
+        "style": {
+          "color": "#000000", 
+          "fontSize": 10
+        }, 
+        "position": {
+          "align": "left", 
+          "verticalAlign": "bottom", 
+          x: 10, 
+          y: 0
+        }
+      },
+      "legend": {
+        "layout": "vertical",
+        "verticalAlign": "middle",
+        "align": "right", 
+        "itemStyle": {
+          "fontWeight": "normal"
+        }
+      },
+      "series": [
+        {
+          "color": "#6f6f6f",
+          "index": 2
+        },
+        {
+          "color": "#dc440e",
+          "index": 4
+        },
+        {
+          "color": "#ffbb58",
+          "index": 3
+        },
+        {
+          "color": "#689199",
+          "index": 1
+        },
+        {
+          "color": "#246370",
+          "index": 0
+        }
+      ],
+      "title": {
+        "style": {
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "fontFamily": "Arial",
+          "color": "#000000"
+        },
+        "text": "Indikator 0.1.a: Wie zufrieden sind Sie mit ... ?",
+        "align": "left"
+      },
+      "subtitle": {
+        "style": {
+          "fontSize": 12,
+          "fontWeight": "normal",
+          "fontFamily": "Arial",
+          "color": "#000000"
+    
+        },
+        "text": "Quelle: Befragung ABC Frage X_Y",
+        "align": "left"
+      },
+      "chart": {
+        "borderColor": "#9f9f9f",
+        "width": 485,
+        "style": {
+          "fontFamily": "Arial"
+        },
+        "zoomType": "y",
+        "type": "column"    
       }
+    };
 
-    }
-  },
-  "xAxis": {
-    "title": {
-      "style": {
-        "color": "#000000" 
-      }
-    }, 
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    }, 
-    "tickColor": "#FFFFFF"
-  },
-  "exporting": {
-    "sourceWidth": null, 
-    "scale": 5 
-  },
-  "credits": {
-    "text": "Statistisches Amt Basel-Stadt",
-    "href": "http://www.statistik.bs.ch",     
-    "enabled": true, 
-    "style": {
-      "color": "#000000", 
-      "fontSize": 10
-    }, 
-    "position": {
-      "align": "left", 
-      "verticalAlign": "bottom", 
-      x: 10, 
-      y: 0
-    }
-  },
-  "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right", 
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
-  },
-  "series": [
-    {
-      "color": "#6f6f6f",
-      "index": 2
-    },
-    {
-      "color": "#dc440e",
-      "index": 4
-    },
-    {
-      "color": "#ffbb58",
-      "index": 3
-    },
-    {
-      "color": "#689199",
-      "index": 1
-    },
-    {
-      "color": "#246370",
-      "index": 0
-    }
-  ],
-  "title": {
-    "style": {
-      "fontSize": 14,
-      "fontWeight": "bold",
-      "fontFamily": "Arial",
-      "color": "#000000"
-    },
-    "text": "Indikator 0.1.a: Wie zufrieden sind Sie mit ... ?",
-    "align": "left"
-  },
-  "subtitle": {
-    "style": {
-      "fontSize": 12,
-      "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
 
-    },
-    "text": "Quelle: Befragung ABC Frage X_Y",
-    "align": "left"
-  },
-  "chart": {
-    "borderColor": "#9f9f9f",
-    "width": 485,
-    "style": {
-      "fontFamily": "Arial"
-    },
-    "zoomType": "y",
-    "type": "column"    
-  }
-};
-
-var csvFile = $.get("Grafik-0.1.a.csv");
-var dataOptionsFile = $.getJSON("DataOptions1.json"); 
-
-$.when(csvFile, dataOptionsFile)
-  .done(function(csvFile, dataOptionsFile){
-    //var item={"csv": csvFile};
-    //dataOptionsFile["csv"]=csvFile;
-    console.log(JSON.stringify(dataOptionsFile));
-  })
-  .fail(function(data){
-    alert("fail");
-});
-
-/*
-$.when(csvFile).done(function(csvFile){
-  parseData(function (dataOptions) {
-    // Merge series configs
-    if (chartOptions.series && dataOptions) {
-      Highcharts.each(chartOptions.series, function (series, i) {
-        chartOptions.series[i] = Highcharts.merge(series, dataOptions.series[i]);
-      });
-    }
-    var options = Highcharts.merge(dataOptions, chartOptions, template);
-    var chart = new Highcharts['Chart'](options);
-  }, chartOptions, csvFile);
-});
-*/
-/*
-$.get("Grafik-0.1.a.csv", function(data){  
-  parseData(function (dataOptions) {
-    // Merge series configs
-    if (chartOptions.series && dataOptions) {
-      Highcharts.each(chartOptions.series, function (series, i) {
-        chartOptions.series[i] = Highcharts.merge(series, dataOptions.series[i]);
-      });
-    }
-    var options = Highcharts.merge(dataOptions, chartOptions, template);
-    var chart = new Highcharts['Chart'](options);
-  }, chartOptions, data);
-
-});
-*/
+    $.get("Grafik-0.1.a.csv", function(data){  
+      parseData(function (dataOptions) {
+        // Merge series configs
+        if (chartOptions.series && dataOptions) {
+          Highcharts.each(chartOptions.series, function (series, i) {
+            chartOptions.series[i] = Highcharts.merge(series, dataOptions.series[i]);
+          });
+        }
+        var options = Highcharts.merge(dataOptions, chartOptions, template);
+        var chart = new Highcharts['Chart'](options);
+      }, chartOptions, data);
+    
+    });
   </script>
 </body>
 
