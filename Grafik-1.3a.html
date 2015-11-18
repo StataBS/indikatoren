@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Indikator 0.1.b1: Blabla ... ?</title>
+  <title>Indikator 1.3.a: WFl</title>
 
   <style type="text/css">
     a {
@@ -22,20 +22,12 @@
   <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script>
   <script type="text/javascript" src="//code.highcharts.com/modules/exporting.js"></script>
   <script type="text/javascript" src="//highslide-software.github.io/export-csv/export-csv.js"></script>
-  <!--link rel="stylesheet" type="text/css" href="http://www.statistik.bs.ch/resources/templating-kit/themes/basel-stadt/2.19.0-7409/css/styles.css" media="screen" /-->
 
 
 </head>
 
 <body style="margin: 0;">
   <div id="container" style="width:100%; height:100%;max-width:1000px;margin: 0 auto"></div>
-  
-  <!--div class="text-section">
-      <h2>Kommentar</h2> 
-      <p>Seit 2008 ist bei allen Zimmerzahlkategorien ein leichter Anstieg der Mietpreise zu beobachten.&nbsp;</p>
-  </div-->
-
-
 
   <script type="text/javascript">
     function parseData(completeHandler, chartOptions, data) {
@@ -78,8 +70,9 @@ var chartOptions = {
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
           formatter: function() {
             var last  = this.series.data[this.series.data.length - 1];
-            if (this.point.category === last.category  && this.point.y === last.y) {
-              return this.series.name;
+            var first  = this.series.data[0];
+            if (this.point.y === first.y || this.point.y === last.y ) {
+              return Highcharts.numberFormat(this.point.y, 0, ",", " ");
             }
             return "";
           }        
@@ -95,12 +88,12 @@ var chartOptions = {
       "text": null
     },
     "labels": {
-      "format": "{value}", 
+      "format": "{value:,.0f}", 
       "style": {
         "color": "#000000"
       }
-
-    }
+    },
+    "min": 0
   },
   "xAxis": {
     "title": {
@@ -114,7 +107,9 @@ var chartOptions = {
       }
     }, 
     "tickColor": "#FFFFFF",
-    "tickInterval": 1
+    "tickInterval": 5,
+    "showLastLabel": true,
+    "endOnTick": true
   },
   "exporting": {
     "sourceWidth": null, 
@@ -145,38 +140,6 @@ var chartOptions = {
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true        
-      },
-      "index": 4, 
-      "color": "#008AC3"
-    },
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "index": 3,
-      "color": "#008AC3"
-    },
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "index": 2,
-      "color": "#008AC3"
-    },
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true        
-      },
-      "index": 1,
-      "color": "#008AC3"
-    },
-    {
-      "marker": {
-        "symbol": "circle",
         "enabled": true
       },
       "index": 0,
@@ -192,7 +155,7 @@ var chartOptions = {
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Indikator 0.1.b1: Blablaentwicklung nach Kategorie",
+    "text": "Indikator 1.3.a: WFl",
     "align": "left"
   },
   "subtitle": {
@@ -202,7 +165,7 @@ var chartOptions = {
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Quelle: Blablaerhebung",
+    "text": "Quelle: Register XYZ",
     "align": "left"
   },
 
@@ -216,7 +179,7 @@ var chartOptions = {
   }
 };
 
-$.get("Grafik-0.1.b1.csv", function(data){  
+$.get("Grafik-1.3a.csv", function(data){  
   parseData(function (dataOptions) {
     // Merge series configs
     if (chartOptions.series && dataOptions) {
