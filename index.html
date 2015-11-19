@@ -1,14 +1,14 @@
 <html>
-	
+
 	<head>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script type="text/javascript" src="js/FileTreeView.js"></script>
 		<link rel="stylesheet" href="css/FileTreeView.css" />
 	</head>
-	
-	<body>	
+
+	<body>
 		<a id="expandAll" href="javascript:void(0)">Expand All</a> | <a id="collapseAll" href="javascript:void(0)">Collapse All</a>
-		<ul id="root_tree">			
+		<ul id="root_tree">
 			<li>ABC-Monitoring
 				<ol>
 					<li><a href="Grafik-0.1.a.html">Indikator 0.1.a</a></li>
@@ -44,10 +44,10 @@
 					<li><a href="https://google.ch">Google</a></li>
 					<li><a href="https://facebook.com">Facebook</a></li>
 				</ol>
-			</li>					
-					
+			</li>
+
 		</ul>
-		
+
 		<script type="text/javascript">
 			$(function() {
 				$('#root_tree').fileTreeView('#expandAll', '#collapseAll', 'folder');
