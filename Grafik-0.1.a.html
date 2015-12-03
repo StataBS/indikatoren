@@ -11,7 +11,7 @@
       text-decoration: none;
       color: inherit;
     }
-    
+
     #container .highcharts-container {
       margin: 0 auto;
     }
@@ -21,7 +21,7 @@
   <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script>
   <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script>
   <script type="text/javascript" src="//code.highcharts.com/modules/exporting.js"></script>
-  <script type="text/javascript" src="//highslide-software.github.io/export-csv/export-csv.js"></script>
+  <script type="text/javascript" src="//highcharts.github.io/export-csv/export-csv.js"></script>
 
 
 </head>
@@ -31,7 +31,7 @@
 
   <script type="text/javascript">
     function parseData(completeHandler, chartOptions, data) {
-	try {  
+	try {
 		var dataOptions = {
   "seriesMapping": [
     {
@@ -90,7 +90,7 @@ var chartOptions = {
       "text": null
     },
     "labels": {
-      "format": "{value}%", 
+      "format": "{value}%",
       "style": {
         "color": "#000000"
       }
@@ -100,14 +100,14 @@ var chartOptions = {
   "xAxis": {
     "title": {
       "style": {
-        "color": "#000000" 
+        "color": "#000000"
       }
-    }, 
+    },
     "labels": {
       "style": {
         "color": "#000000"
       }
-    }, 
+    },
     "tickColor": "#FFFFFF"
   },
   tooltip: {
@@ -115,28 +115,28 @@ var chartOptions = {
     shared: false
   },
   "exporting": {
-    "sourceWidth": null, 
-    "scale": 5 
+    "sourceWidth": null,
+    "scale": 5
   },
   "credits": {
     "text": "Statistisches Amt Basel-Stadt",
-    "href": "http://www.statistik.bs.ch",     
-    "enabled": true, 
+    "href": "http://www.statistik.bs.ch",
+    "enabled": true,
     "style": {
-      "color": "#000000", 
+      "color": "#000000",
       "fontSize": 10
-    }, 
+    },
     "position": {
-      "align": "left", 
-      "verticalAlign": "bottom", 
-      x: 10, 
+      "align": "left",
+      "verticalAlign": "bottom",
+      x: 10,
       y: 0
     }
   },
   "legend": {
     "layout": "vertical",
     "verticalAlign": "middle",
-    "align": "right", 
+    "align": "right",
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -191,12 +191,12 @@ var chartOptions = {
       "fontFamily": "Arial"
     },
     "zoomType": "y",
-    "type": "column"    
+    "type": "column"
   }
 };
 
 
-$.get("Grafik-0.1.a.csv", function(data){  
+$.get("Grafik-0.1.a.csv", function(data){
   parseData(function (dataOptions) {
     // Merge series configs
     if (chartOptions.series && dataOptions) {
