@@ -53,7 +53,17 @@ Highcharts.setOptions({
 
 var template = {
 	chart: {
-		renderTo: 'container'
+		renderTo: 'container', 
+    events:{
+    load: function() {
+        this.credits.element.onclick = function() {
+            window.open(
+              "http://www.statistik.bs.ch",
+              '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+            );
+          }
+        }
+    }
 	},
 	navigation: {
 		menuItemStyle: {
@@ -117,7 +127,6 @@ var chartOptions = {
   },
   "credits": {
     "text": "Statistisches Amt Basel-Stadt",
-    "href": "http://www.statistik.bs.ch",     
     "enabled": true, 
     "style": {
       "color": "#000000", 
