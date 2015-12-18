@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Indikator 1.2.c1: Netto XYZ</title>
+<title>Indikator 1.2.c1: Nettoproduktion an neuen Wohnungen</title>
 
   <style type="text/css">
     a {
@@ -96,6 +96,12 @@ Highcharts.setOptions({
 	};
 
 var chartOptions = {
+  "plotOptions": {
+    "series": {
+      "stacking": null,
+      "groupPadding": 0.05
+    }
+  },
   "yAxis": {
     "title": {
       "style": {
@@ -135,7 +141,7 @@ var chartOptions = {
     "scale": 5 
   },
   "credits": {
-    "text": "Statistisches Amt Basel-Stadt",
+    "text": "Quelle: Kantonale Gebäude- und Wohnungsstatistik; Statistisches Amt des Kantons Basel-Stadt",
     "enabled": true, 
     "style": {
       "color": "#000000", 
@@ -186,7 +192,7 @@ var chartOptions = {
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Indikator 1.2.c1: Netto XYZ",
+    "text": "Indikator 1.2.c1: Nettoproduktion an neuen Wohnungen",
     "align": "left"
   },
   "subtitle": {
@@ -197,7 +203,7 @@ var chartOptions = {
       "color": "#000000"
 
     },
-    "text": "Quelle: Register ABC",
+    "text": "",
     "align": "left"
   },
 

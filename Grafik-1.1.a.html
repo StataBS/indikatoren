@@ -11,7 +11,7 @@
       text-decoration: none;
       color: inherit;
     }
-    
+
     #container .highcharts-container {
       margin: 0 auto;
     }
@@ -31,7 +31,7 @@
 
   <script type="text/javascript">
     function parseData(completeHandler, chartOptions, data) {
-	try {  
+	try {
 		var dataOptions = {
       csv: data
   };
@@ -53,7 +53,7 @@ Highcharts.setOptions({
 
 var template = {
 	chart: {
-		renderTo: 'container', 
+		renderTo: 'container',
     events:{
     load: function() {
         this.credits.element.onclick = function() {
@@ -85,7 +85,7 @@ var chartOptions = {
               return Highcharts.numberFormat(this.point.y, 0, ",", " ");
             }
             return "";
-          }        
+          }
       }
     }
   },
@@ -98,7 +98,7 @@ var chartOptions = {
       "text": null
     },
     "labels": {
-      "format": "{value:,.0f}", 
+      "format": "{value:,.0f}",
       "style": {
         "color": "#000000"
       }
@@ -108,33 +108,33 @@ var chartOptions = {
   "xAxis": {
     "title": {
       "style": {
-        "color": "#000000" 
+        "color": "#000000"
       }
-    }, 
+    },
     "labels": {
       "style": {
         "color": "#000000"
       }
-    }, 
+    },
     "tickColor": "#FFFFFF",
     "tickInterval": 1
   },
   "exporting": {
-    "sourceWidth": null, 
-    "scale": 5 
+    "sourceWidth": null,
+    "scale": 5
   },
   "credits": {
-    "text": "Statistisches Amt Basel-Stadt",
-    "href": "http://www.statistik.bs.ch",     
-    "enabled": true, 
+    "text": "Quelle: Kantonale Bevölkerungsstatisstik; Statistisches Amt des Kantons Basel-Stadt",
+    "href": "http://www.statistik.bs.ch",
+    "enabled": true,
     "style": {
-      "color": "#000000", 
+      "color": "#000000",
       "fontSize": 10
-    }, 
+    },
     "position": {
-      "align": "left", 
-      "verticalAlign": "bottom", 
-      x: 10, 
+      "align": "left",
+      "verticalAlign": "bottom",
+      x: 10,
       y: 0
     }
   },
@@ -148,9 +148,9 @@ var chartOptions = {
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true        
+        "enabled": true
       },
-      "index": 4, 
+      "index": 4,
       "color": "#008AC3"
     },
     {
@@ -172,7 +172,7 @@ var chartOptions = {
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true        
+        "enabled": true
       },
       "index": 1,
       "color": "#008AC3"
@@ -205,7 +205,7 @@ var chartOptions = {
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Quelle: Kantonale Einwohnerstatistik ",
+    "text": "",
     "align": "left"
   },
 
@@ -219,7 +219,7 @@ var chartOptions = {
   }
 };
 
-$.get("Grafik-1.1.a.csv", function(data){  
+$.get("Grafik-1.1.a.csv", function(data){
   parseData(function (dataOptions) {
     // Merge series configs
     if (chartOptions.series && dataOptions) {
@@ -236,5 +236,3 @@ $.get("Grafik-1.1.a.csv", function(data){
 </body>
 
 </html>
-
-

@@ -5,14 +5,14 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Indikator 0.1.c: Anteil nach Kategorie</title>
+  <title>Indikator 0.1.c: Wohnungsbelegung nach Belegungsart</title>
 
   <style type="text/css">
     a {
       text-decoration: none;
       color: inherit;
     }
-    
+
     #container .highcharts-container {
       margin: 0 auto;
     }
@@ -32,7 +32,7 @@
 
   <script type="text/javascript">
     function parseData(completeHandler, chartOptions, data) {
-	try {  
+	try {
 		var dataOptions = {
   "seriesMapping": [
     {
@@ -62,7 +62,7 @@ Highcharts.setOptions({
 
 var template = {
 	chart: {
-		renderTo: 'container', 
+		renderTo: 'container',
     events:{
     load: function() {
         this.credits.element.onclick = function() {
@@ -101,7 +101,7 @@ var chartOptions = {
       "text": null
     },
     "labels": {
-      "format": "{value}%", 
+      "format": "{value}%",
       "style": {
         "color": "#000000"
       }
@@ -111,14 +111,14 @@ var chartOptions = {
   "xAxis": {
     "title": {
       "style": {
-        "color": "#000000" 
+        "color": "#000000"
       }
-    }, 
+    },
     "labels": {
       "style": {
         "color": "#000000"
       }
-    }, 
+    },
     "tickColor": "#FFFFFF"
   },
   tooltip: {
@@ -126,28 +126,28 @@ var chartOptions = {
     shared: false
   },
   "exporting": {
-    "sourceWidth": null, 
-    "scale": 5 
+    "sourceWidth": null,
+    "scale": 5
   },
   "credits": {
-    "text": "Statistisches Amt Basel-Stadt",
-    "href": "http://www.statistik.bs.ch",     
-    "enabled": true, 
+    "text": "Quelle: Kantonale Gebäude- und Wohnungsstatistik; Statistisches Amt des Kantons Basel-Stadt",
+    "href": "http://www.statistik.bs.ch",
+    "enabled": true,
     "style": {
-      "color": "#000000", 
+      "color": "#000000",
       "fontSize": 10
-    }, 
+    },
     "position": {
-      "align": "left", 
-      "verticalAlign": "bottom", 
-      x: 10, 
+      "align": "left",
+      "verticalAlign": "bottom",
+      x: 10,
       y: 0
     }
   },
   "legend": {
     "layout": "vertical",
     "verticalAlign": "middle",
-    "align": "right", 
+    "align": "right",
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -155,19 +155,19 @@ var chartOptions = {
   "series": [
     {
       "color": "#73B97C",
-      "index": 0
-    },
-    {
-      "color": "#008AC3",
       "index": 1
     },
     {
-      "color": "#CD9C00",
+      "color": "#008AC3",
       "index": 2
     },
     {
-      "color": "#662673",
+      "color": "#CD9C00",
       "index": 3
+    },
+    {
+      "color": "#662673",
+      "index": 0
     }
   ],
   "title": {
@@ -177,7 +177,7 @@ var chartOptions = {
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Indikator 0.1.c:Anteil nach Kategorie",
+    "text": "Indikator 0.1.c: Wohnungsbelegung nach Belegungsart",
     "align": "left"
   },
   "subtitle": {
@@ -188,7 +188,7 @@ var chartOptions = {
       "color": "#000000"
 
     },
-    "text": "Quelle: Register ABC",
+    "text": "",
     "align": "left"
   },
   "chart": {
@@ -198,12 +198,12 @@ var chartOptions = {
       "fontFamily": "Arial"
     },
     "zoomType": "y",
-    "type": "column"    
+    "type": "column"
   }
 };
 
 
-$.get("Grafik-0.1.c.csv", function(data){  
+$.get("Grafik-0.1.c.csv", function(data){
   parseData(function (dataOptions) {
     // Merge series configs
     if (chartOptions.series && dataOptions) {
