@@ -1,0 +1,53 @@
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script>
+  <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script>
+  <script type="text/javascript" src="//code.highcharts.com/modules/exporting.js"></script>
+  <script type="text/javascript" src="//highcharts.github.io/export-csv/export-csv.js"></script>
+
+  <style type="text/css">
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+  </style>
+
+</head>
+
+<body>
+  <div id="container" style="width:100%; height:400px;"></div>
+
+<script>
+  $(function () {
+      $('#container').highcharts({
+          chart: {
+              type: 'bar'
+          },
+          title: {
+              text: 'Fruit Consumption'
+          },
+          xAxis: {
+              categories: ['Apples', 'Bananas', 'Oranges']
+          },
+          yAxis: {
+              title: {
+                  text: 'Fruit eaten'
+              }
+          },
+          series: [{
+              name: 'Jane',
+              data: [1, 0, 4]
+          }, {
+              name: 'John',
+              data: [5, 7, 3]
+          }]
+      });
+  });
+</script>
+
+</body>
+</html>

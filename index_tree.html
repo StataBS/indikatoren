@@ -1,0 +1,68 @@
+<html>
+
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="js/FileTreeView.js"></script>
+		<link rel="stylesheet" href="css/FileTreeView.css" />
+	</head>
+
+	<body>
+		<a id="expandAll" href="javascript:void(0)">Expand All</a> | <a id="collapseAll" href="javascript:void(0)">Collapse All</a>
+		<ul id="root_tree">
+			<li>ABC-Monitoring
+				<ol>
+					<li><a href="Grafik-0.1.a.html">Indikator 0.1.a</a></li>
+					<li><a href="Grafik-0.1.b1.html">Indikator 0.1.b1</a></li>
+					<li><a href="Grafik-0.1.b2.html">Indikator 0.1.b2</a></li>
+					<li><a href="Grafik-0.1.b3.html">Indikator 0.1.b3</a></li>
+					<li><a href="Grafik-0.1.c.html">Indikator 0.1.c</a></li>
+					<li><a href="Grafik-1.1.a.html">Indikator 1.1.a</a></li>
+					<li><a href="Grafik-1.2.a.html">Indikator 1.2.a</a></li>
+					<li><a href="Grafik-1.2.b.html">Indikator 1.2.b</a></li>
+					<li><a href="Grafik-1.2.c1.html">Indikator 1.2.c1</a></li>
+					<li><a href="Grafik-1.2.c2.html">Indikator 1.2.c2</a></li>
+					<li><a href="Grafik-1.2.e.html">Indikator 1.2.e</a></li>
+					<li><a href="Grafik-1.2.f1.html">Indikator 1.2.f1</a></li>
+					<li><a href="Grafik-1.2.f2.html">Indikator 1.2.f2</a></li>
+					<li><a href="Grafik-1.3a.html">Indikator 1.3a</a></li>
+					<li><a href="Grafik-1.4.a1.html">Indikator 1.4.a1</a></li>
+					<li><a href="Grafik-1.4.a2.html">Indikator 1.4.a2</a></li>
+					<li><a href="Grafik-1.4.b.html">Indikator 1.4.b</a></li>
+					<li><a href="Grafik-1.4.c.html">Indikator 1.4.c</a></li>
+					<li><a href="Grafik-1.7.a.html">Indikator 1.7.a</a></li>	
+					<li><a href="Grafik-2.1.b.html">Indikator 2.1.b</a></li>	
+					<li><a href="Grafik-2.2.a.html">Indikator 2.2.a</a></li>
+					<li><a href="Grafik-3.2.a.html">Indikator 3.2.a</a></li>
+					<li><a href="Grafik-3.2.b.html">Indikator 3.2.b</a></li>
+					<li><a href="Grafik-3.3.a.html">Indikator 3.3.a</a></li>
+					<li><a href="Grafik-4.1.d.html">Indikator 4.1.d</a></li>
+					<li><a href="Grafik-4.2.a.html">Indikator 4.2.a</a></li>
+					<li><a href="Grafik-4.2.c.html">Indikator 4.2.c</a></li>	
+			</ol>
+			</li>
+			<li>DEF Bericht
+				<ol>
+					<li><a href="Grafik-0.1.a.html">Indikator 0.1.a</a></li>
+					<li><a href="Grafik-0.1.b1.html">Indikator 0.1.b1</a></li>
+					<li><a href="Grafik-0.1.b2.html">Indikator 0.1.b2</a></li>
+					<li><a href="Grafik-0.1.b3.html">Indikator 0.1.b3</a></li>
+					<li><a href="Grafik-1.1.a.html">Indikator 1.1.a</a></li>
+				</ol>
+			</li>
+			<li>Sonstige Links
+				<ol>
+					<li><a href="https://google.ch">Google</a></li>
+					<li><a href="https://facebook.com">Facebook</a></li>
+				</ol>
+			</li>
+
+		</ul>
+
+		<script type="text/javascript">
+			$(function() {
+				$('#root_tree').fileTreeView('#expandAll', '#collapseAll', 'folder');
+			});
+		</script>
+	</body>
+
+</html>

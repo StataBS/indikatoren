@@ -1,239 +1,281 @@
-<!DOCTYPE html>
-
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Indikator 0.1.b1: Mietpreisentwicklung nach Zimmerzahl</title>
-
-  <style type="text/css">
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
-
-    #container .highcharts-container {
-      margin: 0 auto;
-    }
-  </style>
-
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script>
-  <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script>
-  <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script>
-  <script type="text/javascript" src="//code.highcharts.com/modules/exporting.js"></script>
-  <script type="text/javascript" src="//highcharts.github.io/export-csv/export-csv.js"></script>
-  <!--link rel="stylesheet" type="text/css" href="http://www.statistik.bs.ch/resources/templating-kit/themes/basel-stadt/2.19.0-7409/css/styles.css" media="screen" /-->
-
-
-</head>
-
-<body style="margin: 0;">
-  <div id="container" style="width:100%; height:100%;max-width:1000px;margin: 0 auto"></div>
-
-  <script type="text/javascript">
-    function parseData(completeHandler, chartOptions, data) {
-	try {
-		var dataOptions = {
-      csv: data
-  };
-		dataOptions.sort = true
-		dataOptions.complete = completeHandler;
-		Highcharts.data(dataOptions, chartOptions);
-	} catch (error) {
-		console.log(error);
-		completeHandler(undefined);
-	}
-}
-
-Highcharts.setOptions({
-  "lang": {
-    "decimalPoint": ",",
-    "thousandsSep": " "
-  }
-});
-
-var template = {
-	chart: {
-		renderTo: 'container', 
-    events:{
-    load: function() {
-        this.credits.element.onclick = function() {
-            window.open(
-              "http://www.statistik.bs.ch",
-              '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
-            );
-          }
-        }
-    }
-	},
-	navigation: {
-		menuItemStyle: {
-			fontFamily: Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
-			padding: '2px 10px'
-		}
-	}
-};
-var chartOptions = {
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "enabled": true,
-          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
-          formatter: function() {
-            var last  = this.series.data[this.series.data.length - 1];
-            if (this.point.category === last.category  && this.point.y === last.y) {
-              return this.series.name;
-            }
-            return "";
-          }
-      }
-    }
-  },
-  "yAxis": {
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
-      "text": null
-    },
-    "labels": {
-      "format": "{value}",
-      "style": {
-        "color": "#000000"
-      }
-
-    }
-  },
-  "xAxis": {
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickColor": "#FFFFFF",
-    "tickInterval": 1
-  },
-  "exporting": {
-    "sourceWidth": null,
-    "scale": 5
-  },
-  "credits": {
-    "text": "Quelle: Mietpreiserhebung; Statistisches Amt des Kantons Basel-Stadt",
-    "href": "http://www.statistik.bs.ch",
-    "target": "_top",
-    "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": 10
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      x: 10,
-      y: 0
-    }
-  },
-  "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right"
-  },
-  "series": [
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "index": 4,
-      "color": "#DC440E"
-    },
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "index": 3,
-      "color": "#933F8D"
-    },
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "index": 2,
-      "color": "#68AB2B"
-    },
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "index": 1,
-      "color": "#689199"
-    },
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "index": 0,
-      "color": "#008AC3"
-    }
-  ],
-  "tooltip": {
-    "shared": false
-  },
-  "title": {
-    "style": {
-      "fontSize": 14,
-      "fontWeight": "bold",
-      "color": "#000000"
-    },
-    "text": "Indikator 0.1.b1: Mietpreisentwicklung nach Zimmerzahl",
-    "align": "left"
-  },
-  "subtitle": {
-    "style": {
-      "fontSize": 12,
-      "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
-    },
-    "text": " ",
-    "align": "left"
-  },
-
-  "chart": {
-    "zoomType": "xy",
-    "width": 485,
-    "style": {
-      "fontFamily": "Arial"
-    },
-    "type": "line"
-  }
-};
-
-$.get("Grafik-0.1.b1.csv", function(data){
-  parseData(function (dataOptions) {
-    // Merge series configs
-    if (chartOptions.series && dataOptions) {
-      Highcharts.each(chartOptions.series, function (series, i) {
-        chartOptions.series[i] = Highcharts.merge(series, dataOptions.series[i]);
-      });
-    }
-    var options = Highcharts.merge(dataOptions, chartOptions, template);
-    var chart = new Highcharts['Chart'](options);
-  }, chartOptions, data);
-
-});
-  </script>
-</body>
-
-</html>
+﻿<!DOCTYPE html> 
+ 
+<head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ 
+  <title>Indikator 0.1.b-1: Mietpreisentwicklung nach Zimmerzahl</title> 
+ 
+  <style type="text/css"> 
+    a { 
+      text-decoration: none; 
+      color: inherit; 
+    } 
+ 
+    #container .highcharts-container { 
+      margin: 0 auto; 
+    } 
+  </style> 
+ 
+  <link rel=stylesheet type="text/css" href="style.css"> 
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script> 
+  <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script> 
+  <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script> 
+  <script type="text/javascript" src="//code.highcharts.com/modules/exporting.js"></script> 
+  <script type="text/javascript" src="//highcharts.github.io/export-csv/export-csv.js"></script> 
+  <!--link rel="stylesheet" type="text/css" href="http://www.statistik.bs.ch/resources/templating-kit/themes/basel-stadt/2.19.0-7409/css/styles.css" media="screen" /--> 
+ 
+ 
+</head> 
+ 
+<body style="margin: 0;"> 
+  <!-- Google Tag Manager --> 
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KGK459" 
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': 
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], 
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); 
+  })(window,document,'script','dataLayer','GTM-KGK459');</script> 
+  <!-- End Google Tag Manager --> 
+  <div id="container" style="width:100%; height:100%;max-width:1000px;margin: 0 auto"></div> 
+ 
+  <script type="text/javascript"> 
+    function parseData(completeHandler, chartOptions, data) { 
+	try { 
+		var dataOptions = { 
+      csv: data 
+  }; 
+		dataOptions.sort = true 
+		dataOptions.complete = completeHandler; 
+		Highcharts.data(dataOptions, chartOptions); 
+	} catch (error) { 
+		console.log(error); 
+		completeHandler(undefined); 
+	} 
+} 
+ 
+Highcharts.setOptions({ 
+  "lang": { 
+    "decimalPoint": ",", 
+    "thousandsSep": " " 
+  } 
+}); 
+ 
+var template = { 
+	chart: { 
+		renderTo: 'container',		marginRight: 15, 
+    events:{ 
+    load: function() { 
+        this.credits.element.onclick = function() { 
+            window.open( 
+              "http://www.statistik.bs.ch", 
+              '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab 
+            ); 
+          } 
+        } 
+    } 
+	}, 
+	navigation: { 
+		menuItemStyle: { 
+			fontFamily: Highcharts.SVGRenderer.prototype.getStyle().fontFamily, 
+			padding: '2px 10px' 
+		} 
+	} 
+}; 
+var chartOptions = { 
+  "plotOptions": { 
+    "series": { 
+      "dataLabels": { 
+        "enabled": true, 
+        "allowOverlap": true, 
+          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869 
+          formatter: function() { 
+            var last  = this.series.data[this.series.data.length - 1]; 
+            if (this.point.category === last.category  && this.point.y === last.y) { 
+              return this.series.name; 
+            } 
+            return ""; 
+          } 
+      } 
+    } 
+  }, 
+  "yAxis": { 
+    "max": 3000, 
+    "title": { 
+      "style": { 
+        "color": "#000000", 
+        "fontSize": null 
+      }, 
+      "text": null 
+    }, 
+    "labels": { 
+      "format": "{value:,.0f}", 
+      "style": { 
+        "color": "#000000" 
+      } 
+ 
+    } 
+  }, 
+  "xAxis": { 
+    "title": { 
+      "style": { 
+        "color": "#000000" 
+      } 
+    }, 
+    "labels": { 
+      "style": { 
+        "color": "#000000" 
+      } 
+    }, 
+    "tickColor": "#FFFFFF", 
+    "tickInterval": 1 
+  }, 
+"exporting": {
+	    "sourceWidth": null,
+	    "scale": 5,
+	    buttons: {
+	      contextButton: {
+	        menuItems: Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8)
+	      }
+	    }
+	  },  "credits": { 
+    "text": "Quelle: Mietpreiserhebung;<br/>Statistisches Amt des Kantons Basel-Stadt", 
+    "href": "http://www.statistik.bs.ch", 
+    "target": "_top", 
+    "enabled": true, 
+    "style": { 
+      "color": "#000000", 
+      "fontSize": 10 
+    }, 
+    "position": { 
+      "align": "left", 
+      "verticalAlign": "bottom", 
+      x: 10, 
+      y: -17 
+    } 
+  }, 
+  "legend": { 
+    "enabled": false, 
+    "layout": "vertical", 
+    "verticalAlign": "middle", 
+    "align": "right" 
+  }, 
+  "series": [ 
+    { 
+      "marker": { 
+        "symbol": "circle", 
+        "enabled": true 
+      }, 
+      "index": 4, 
+      "color": "#DC440E" 
+    }, 
+    { 
+      "marker": { 
+        "symbol": "circle", 
+        "enabled": true 
+      }, 
+      "index": 3, 
+      "color": "#933F8D" 
+    }, 
+    { 
+      "marker": { 
+        "symbol": "circle", 
+        "enabled": true 
+      }, 
+      "index": 2, 
+      "color": "#68AB2B" 
+    }, 
+    { 
+      "marker": { 
+        "symbol": "circle", 
+        "enabled": true 
+      }, 
+      "index": 1, 
+      "color": "#689199" 
+    }, 
+    { 
+      "marker": { 
+        "symbol": "circle", 
+        "enabled": true 
+      }, 
+      "index": 0, 
+      "color": "#008AC3" 
+    } 
+  ], 
+  "tooltip": { 
+    "shared": false 
+  }, 
+ 
+  "title": { 
+    "style": { 
+      "fontSize": 14, 
+      "fontWeight": "bold", 
+      "color": "#000000" 
+    }, 
+    "text": "Indikator 0.1.b-1: Mietpreisentwicklung nach Zimmerzahl", 
+    "align": "left" 
+  }, 
+  "subtitle": { 
+    "style": { 
+      "fontSize": 12, 
+      "fontWeight": "normal", 
+      "fontFamily": "Arial", 
+      "color": "#000000" 
+    }, 
+    "text": " ", 
+    "align": "left" 
+  }, 
+ 
+  "chart": { 
+    "borderColor": "#fbfbfb", 
+    "backgroundColor": "#fbfbfb", 
+    "zoomType": "xy", 
+    "width": 485, 
+    "marginBottom": 75, 
+    "marginTop": 75, 
+    "style": { 
+      "fontFamily": "Arial" 
+    }, 
+    "type": "line" 
+  } 
+}; 
+ 
+$.get("Grafik-0.1.b1.csv", function(data){ 
+  parseData(function (dataOptions) { 
+    // Merge series configs 
+    if (chartOptions.series && dataOptions) { 
+      Highcharts.each(chartOptions.series, function (series, i) { 
+        chartOptions.series[i] = Highcharts.merge(series, dataOptions.series[i]); 
+      }); 
+    } 
+    var options = Highcharts.merge(dataOptions, chartOptions, template); 
+    var chart = new Highcharts['Chart'](options); 
+  }, chartOptions, data); 
+ 
+}); 
+  </script> 
+<table align="center" width="470" border="0" cellspacing="0" cellpadding="0">
+ 
+   <tr>
+     <td width="2">&nbsp;</td>
+ 
+    <td height="5">&nbsp;</td>
+  </tr>
+ 
+  <tr>
+    <td valign="middle">&nbsp;</td>
+ 
+    <td height="20" valign="middle"><h1>Lesehilfe</h1></td>
+  </tr>
+ 
+  <tr>
+    <td>&nbsp;</td>
+ 
+    <td><p>Seit 2008 ist bei allen Zimmerkategorien eine steigende Tendenz der Mietpreise (Nettomieten) zu beobachten. Es handelt sich hier im Gegensatz zu den Mietpreisen der Leerwohnungen um Bestandsmieten. </p></td>
+  </tr>
+</table>
+ 
+</body> 
+ 
+</html> 

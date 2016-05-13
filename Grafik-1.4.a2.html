@@ -1,22 +1,23 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Indikator 1.4.a2: Familienhaushalte nach Art der Zusammensetzung</title>
+  <title>Indikator 1.4.a-2: Familienhaushalte nach Art der Zusammensetzung</title>
 
   <style type="text/css">
     a {
       text-decoration: none;
       color: inherit;
     }
-    
+
     #container .highcharts-container {
       margin: 0 auto;
     }
   </style>
 
+  <link rel=stylesheet type="text/css" href="style.css">
   <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script>
   <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script>
   <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script>
@@ -27,11 +28,20 @@
 </head>
 
 <body style="margin: 0;">
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KGK459"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KGK459');</script>
+  <!-- End Google Tag Manager -->
   <div id="container" style="width:100%; height:100%;max-width:1000px;margin: 0 auto"></div>
 
   <script type="text/javascript">
     function parseData(completeHandler, chartOptions, data) {
-	try {  
+	try {
 		var dataOptions = {
       csv: data
   };
@@ -53,7 +63,7 @@ Highcharts.setOptions({
 
 var template = {
 	chart: {
-		renderTo: 'container', 
+		renderTo: 'container',
     events:{
     load: function() {
         this.credits.element.onclick = function() {
@@ -77,7 +87,8 @@ var chartOptions = {
     "series": {
       "dataLabels": {
         "enabled": false
-      }
+      },
+      "stacking": "percent"
     }
   },
   "yAxis": {
@@ -89,59 +100,59 @@ var chartOptions = {
       "text": null
     },
     "labels": {
-      "format": "{value:,.0f}", 
+      "format": "{value}%",
       "style": {
         "color": "#000000"
       }
     },
-    "min": 0
   },
   "xAxis": {
     "title": {
       "style": {
-        "color": "#000000" 
+        "color": "#000000"
       }
-    }, 
+    },
     "labels": {
       "style": {
         "color": "#000000"
       }
-    }, 
+    },
     "tickColor": "#FFFFFF"
   },
   "exporting": {
-    "sourceWidth": null, 
-    "scale": 5 
-  },
+	    "sourceWidth": null,
+	    "scale": 5,
+	    buttons: {
+	      contextButton: {
+	        menuItems: Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8)
+	      }
+	    }
+	  },
   "credits": {
-    "text": "Quelle: Kantonale Bevölkerungsstatisstik; Statistisches Amt des Kantons Basel-Stadt",
-    "enabled": true, 
+    "text": "Quelle: Kantonale Bevölkerungsstatisstik;<br/>Statistisches Amt des Kantons Basel-Stadt",
+    "enabled": true,
     "style": {
-      "color": "#000000", 
+      "color": "#000000",
       "fontSize": 10
-    }, 
+    },
     "position": {
-      "align": "left", 
-      "verticalAlign": "bottom", 
-      x: 10, 
-      y: 0
+      "align": "left",
+      "verticalAlign": "bottom",
+      x: 10,
+      y: -17
     }
   },
   "legend": {
     "enabled": true,
-    "layout": "horizontal",
+    "layout": "vertical",
     "verticalAlign": "top",
-    "align": "left",
+    "align": "top",
 		"y": 40,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "series": [
-    {
-      "color": "#73b97c",
-      "index": 0
-    },
     {
       "color": "#2f656b",
       "index": 1
@@ -159,8 +170,9 @@ var chartOptions = {
       "index": 4
     }
   ],
-  "tooltip": {
-    "shared": false
+  tooltip: {
+    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>',
+    shared: false
   },
   "title": {
     "style": {
@@ -168,7 +180,7 @@ var chartOptions = {
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Indikator 1.4.a2: Familienhaushalte nach Art der Zusammensetzung",
+    "text": "Indikator 1.4.a-2: Familienhaushalte nach Art der Zusammensetzung",
     "align": "left"
   },
   "subtitle": {
@@ -183,8 +195,12 @@ var chartOptions = {
   },
 
   "chart": {
+    "borderColor": "#fbfbfb", 
+    "backgroundColor": "#fbfbfb", 
     "zoomType": "xy",
     "width": 485,
+    "marginBottom": 65,
+    "marginTop": 150,
     "style": {
       "fontFamily": "Arial"
     },
@@ -192,7 +208,7 @@ var chartOptions = {
   }
 };
 
-$.get("Grafik-1.4.a2.csv", function(data){  
+$.get("Grafik-1.4.a2.csv", function(data){
   parseData(function (dataOptions) {
     // Merge series configs
     if (chartOptions.series && dataOptions) {
@@ -206,8 +222,20 @@ $.get("Grafik-1.4.a2.csv", function(data){
 
 });
   </script>
+<table align="center" width="470" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+     <td width="2">&nbsp;</td>
+    <td height="5">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="middle">&nbsp;</td>
+    <td height="20" valign="middle"><h1>Lesehilfe</h1></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><p>Der Anteil kinderloser Familien ist leicht rückläufig. Er sank von 41,3% im Jahr 2011 auf 39,1% im Jahr 2014.</p></td>
+  </tr>
+</table>
 </body>
 
 </html>
-
-

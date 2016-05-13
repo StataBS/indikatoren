@@ -1,22 +1,23 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Indikator 1.2.c1: Nettoproduktion an neuen Wohnungen</title>
+<title>Indikator 1.2.c-1: Nettowohnungsproduktion</title>
 
   <style type="text/css">
     a {
       text-decoration: none;
       color: inherit;
     }
-    
+
     #container .highcharts-container {
       margin: 0 auto;
     }
   </style>
 
+  <link rel=stylesheet type="text/css" href="style.css">
   <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script>
   <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script>
   <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script>
@@ -27,6 +28,15 @@
 </head>
 
 <body style="margin: 0;" class="show-page">
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KGK459"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KGK459');</script>
+  <!-- End Google Tag Manager -->
   <div id="container" style="width:100%; height:100%;max-width:1000px;margin: 0 auto"></div>
 
 <script type="text/javascript">
@@ -75,7 +85,7 @@ Highcharts.setOptions({
 
 	var template = {
 		chart: {
-			renderTo: 'container', 
+			renderTo: 'container',
     events:{
     load: function() {
         this.credits.element.onclick = function() {
@@ -111,7 +121,7 @@ var chartOptions = {
       "text": null
     },
     "labels": {
-      "format": "{value:,.0f}", 
+      "format": "{value:,.0f}",
       "style": {
         "color": "#000000"
       }
@@ -121,14 +131,14 @@ var chartOptions = {
   "xAxis": {
     "title": {
       "style": {
-        "color": "#000000" 
+        "color": "#000000"
       }
-    }, 
+    },
     "labels": {
       "style": {
         "color": "#000000"
       }
-    }, 
+    },
     "tickColor": "#FFFFFF",
     "tickInterval": 1
   },
@@ -137,27 +147,33 @@ var chartOptions = {
     shared: false
   },
   "exporting": {
-    "sourceWidth": null, 
-    "scale": 5 
-  },
+	    "sourceWidth": null,
+	    "scale": 5,
+	    buttons: {
+	      contextButton: {
+	        menuItems: Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8)
+	      }
+	    }
+	  },
   "credits": {
-    "text": "Quelle: Kantonale Gebäude- und Wohnungsstatistik; Statistisches Amt des Kantons Basel-Stadt",
-    "enabled": true, 
+    "text": "Quelle: Kantonale Gebäude- und Wohnungsstatistik;<br/>Statistisches Amt des Kantons Basel-Stadt",
+    "enabled": true,
     "style": {
-      "color": "#000000", 
+      "color": "#000000",
       "fontSize": 10
-    }, 
+    },
     "position": {
-      "align": "left", 
-      "verticalAlign": "bottom", 
-      x: 10, 
-      y: 0
+      "align": "left",
+      "verticalAlign": "bottom",
+      x: 10,
+      y: -17
     }
   },
   "legend": {
 		"verticalAlign": "top",
 		"floating": false,
-		"y": 40,
+		"y": 20,
+    "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -192,7 +208,7 @@ var chartOptions = {
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Indikator 1.2.c1: Nettoproduktion an neuen Wohnungen",
+    "text": "Indikator 1.2.c-1: Nettowohnungsproduktion",
     "align": "left"
   },
   "subtitle": {
@@ -208,18 +224,21 @@ var chartOptions = {
   },
 
   "chart": {
-    "borderColor": "#9f9f9f",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "width": 485,
+    "marginBottom": 65,
+    "marginTop": 100,
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
-    "type": "column"    
+    "type": "column"
   }
 };
 
 
-$.get("Grafik-1.2.c1.csv", function(data){  
+$.get("Grafik-1.2.c1.csv", function(data){
 parseData(function (dataOptions) {
 	// Merge series configs
 	if (chartOptions.series && dataOptions) {
@@ -233,7 +252,27 @@ parseData(function (dataOptions) {
 
 });
 
-	
+
 </script>
+<table align="center" width="470" border="0" cellspacing="0" cellpadding="0">
+
+   <tr>
+     <td width="2">&nbsp;</td>
+
+    <td height="5">&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td valign="middle">&nbsp;</td>
+
+    <td height="20" valign="middle"><h1>Lesehilfe</h1></td>
+  </tr>
+
+  <tr>
+    <td>&nbsp;</td>
+
+    <td><p>2015 wurde dank einer sehr hohen Anzahl Neubauten trotz verhältnismässig vielen Abbrüchen eine Nettowohnungsproduktion von über 600 Wohnungen verzeichnet.</p></td>
+  </tr>
+</table>
 </body>
 </html>
