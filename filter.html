@@ -9,18 +9,24 @@
     <script src="assets/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
     <script src="js/filter.js" type="text/javascript"></script>
     <script src="data/indikatoren.js" type="text/javascript"></script>
-    <script src="js/auto.js" type="text/javascript"></script>
+    <script src="js/indikatoren-filter.js" type="text/javascript"></script>
   </head>
 
   <body>
     <div class="container-fluid">
-      <div class="sidebar col-md-3">
+      <div class="sidebar col-md-2">
+        <!--
         <div>
-          <h4 class='col-md-6'>Charts: <span id="total_movies">0</span></h4>
+          <h4>Charts: <span id="total_movies">0</span></h4>
         </div>
+      -->
+        <div><button class="btn btn-block" onclick="location.reload();">Filter zurücksetzen</button>
+        </div>
+        <br>
+
         <div>
           <label class="sr-only" for="searchbox">Search</label>
-          <input type="text" class="form-control" id="searchbox" placeholder="Search &hellip;" fjs-search>
+          <input type="text" class="form-control" id="searchbox" placeholder="Suche &hellip;" fjs-search>
           <span class="glyphicon glyphicon-search search-icon"></span>
         </div>
         <br>
@@ -28,8 +34,8 @@
         <div class="well">
           <fieldset id="thema_criteria">
             <legend>Thema</legend>
-            <select class="form-control" id="thema_filter" fjs-criteria="field=thema,all=all">
-              <option value="all">Alle</option>
+            <select class="form-control" id="thema_filter">
+              <option value="all"></option>
               <option value="Bevölkerung">Bevölkerung</option>
               <option value="Raum und Umwelt">Raum und Umwelt</option>
             </select>
@@ -39,8 +45,8 @@
         <div class="well">
           <fieldset id="kennzahlenset_criteria">
             <legend>Kennzahlenset</legend>
-            <select class="form-control" id="kennzahlenset_filter" fjs-criteria="field=kennzahlenset,all=all">
-              <option value="all">Alle</option>
+            <select class="form-control" id="kennzahlenset_filter">
+              <option value="all"></option>
               <option value="Wohnraum">Wohnraum</option>
               <option value="Arbeitsmarkt">Arbeitsmarkt</option>
               <option value="Integration">Integration</option>
@@ -51,47 +57,43 @@
       <div class="well">
         <fieldset id="raeumlicheGliederung_criteria">
           <legend>Räumliche Gliederung</legend>
+          <!--
           <div class="checkbox">
             <label>
               <input type="checkbox" value="All" id="all_raeumlicheGliederung">
               <span>Alle</span>
             </label>
           </div>
+        -->
           <div id="raeumlicheGliederungen">
-            <div class="checkbox" fjs-criteria="field=raeumlicheGliederung,ele=#raeumlicheGliederungen input:checkbox">
+            <div class="checkbox">
               <label>
-                <input type="checkbox" value="Kanton">
-                <span>Kanton</span>
+                <input type="checkbox" value="Kanton"> <span>Kanton</span>
               </label>
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox" value="Gemeinde">
-                <span>Gemeinde</span>
+                <input type="checkbox" value="Gemeinde"> <span>Gemeinde</span>
               </label>
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox" value="Wohnviertel">
-                <span>Wohnviertel</span>
+                <input type="checkbox" value="Wohnviertel"> <span>Wohnviertel</span>
               </label>
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox" value="Bezirk">
-                <span> Bezirk </span>
+                <input type="checkbox" value="Bezirk"> <span> Bezirk </span>
               </label>
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox" value="Block">
-                <span> Block </span>
+                <input type="checkbox" value="Block"> <span> Block </span>
               </label>
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox" value="Blockseite">
-                <span> Blockseite </span>
+                <input type="checkbox" value="Blockseite"> <span> Blockseite </span>
               </label>
             </div>
           </div>
@@ -101,71 +103,63 @@
       <div class="well">
         <fieldset id="schlagwort_criteria">
           <legend>Schlagwort</legend>
+          <!--
           <div class="checkbox">
             <label>
               <input type="checkbox" value="All" id="all_schlagwort">
               <span>Alle</span>
             </label>
           </div>
+        -->
           <div id="schlagworte">
             <div class="checkbox" fjs-criteria="field=schlagwort,ele=#schlagworte input:checkbox">
               <label>
-                <input type="checkbox" value="Heimat">
-                <span>Heimat</span>
+                <input type="checkbox" value="Heimat"> <span>Heimat</span>
               </label>
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox" value="Gebäude">
-                <span>Gebäude</span>
+                <input type="checkbox" value="Gebäude"> <span>Gebäude</span>
               </label>
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox" value="Personal">
-                <span>Personal</span>
+                <input type="checkbox" value="Personal"> <span>Personal</span>
               </label>
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox" value="Einkommen">
-                <span> Einkommen </span>
+                <input type="checkbox" value="Einkommen"> <span> Einkommen </span>
               </label>
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox" value="EuroAirport">
-                <span> EuroAirport </span>
+                <input type="checkbox" value="EuroAirport"> <span> EuroAirport </span>
               </label>
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox" value="Geschlecht">
-                <span> Geschlecht </span>
+                <input type="checkbox" value="Geschlecht"> <span> Geschlecht </span>
               </label>
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox" value="Haushalt">
-                <span> Haushalt </span>
+                <input type="checkbox" value="Haushalt"> <span> Haushalt </span>
               </label>
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox" value="Ausländer">
-                <span> Ausländer </span>
+                <input type="checkbox" value="Ausländer"> <span> Ausländer </span>
               </label>
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox" value="Alter">
-                <span/>Alter</span>
+                <input type="checkbox" value="Alter"> <span/>Alter</span>
               </label>
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox" value="Religion">
-                <span>Religion</span>
+                <input type="checkbox" value="Religion"> <span>Religion</span>
               </label>
             </div>
           </div>
@@ -178,6 +172,16 @@
 
 
       <div class="col-md-9">
+        <!--
+        <div class="row">
+          <div class="content col-md-12">
+            <div id="pagination" class="movies-pagination col-md-9"></div>
+            <div class="col-md-3 content">
+              Per Page: <span id="per_page" class="content"></span>
+            </div>
+          </div>
+        </div>
+      -->
         <div class="movies content row" id="movies" fjs-items="template=#movie-template"></div>
       </div>
     </div>
@@ -188,14 +192,10 @@
 <script id="movie-template" type="text/html">
   <div class="col-md-2 movie">
     <div class="thumbnail">
-      <span class="label label-success rating"><%= title %>
-      </span>
-      <div class="caption">
         <h5><%= description %></h5>
           <a href="<%= url %>" title="<%= title %>: <%= description %>">
           <img src="<%= image %>" alt="<%= title %>: <%= description %> " title="<%= title %>: <%= description %> " class="img-responsive"/>
           </a>
-      </div>
     </div>
   </div>
 </script>

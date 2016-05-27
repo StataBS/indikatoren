@@ -23,6 +23,10 @@ select:focus, textarea:focus, input:focus{
   border-color: #CCC !important;
 }
 
+button {
+    margin-top: 15px;
+}
+
 .container{
   margin:0 auto;
 }
@@ -73,7 +77,9 @@ select:focus, textarea:focus, input:focus{
 
 .sidebar legend{
   font-size: 18px;
-  font-weight: 300
+  font-weight: 300;
+  border-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .criteria{
@@ -97,7 +103,7 @@ select:focus, textarea:focus, input:focus{
 
 .thumbnail{
   /* background-color: #EEE; */
-  min-height: 255px;
+  min-height: 220px;
   border-radius: 0;
 }
 

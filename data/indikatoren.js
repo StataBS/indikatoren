@@ -18,7 +18,7 @@ var indikatoren = [
 "id":"16",
 "thema":"Bevölkerung",
 "kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":"",
+"raeumlicheGliederung":["Blockseite"],
 "schlagwort":["Einkommen","EuroAirport","Geschlecht","Haushalt"],
 },
                 {
@@ -29,7 +29,7 @@ var indikatoren = [
 "id":"17",
 "thema":"Bevölkerung",
 "kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Wohnblockseite"],
+"raeumlicheGliederung":["Blockseite"],
 "schlagwort":["Einkommen","EuroAirport","Geschlecht","Haushalt"],
 },
                 {
@@ -73,7 +73,7 @@ var indikatoren = [
 "id":"23",
 "thema":"Bevölkerung",
 "kennzahlenset":"Wohnraum",
-"raeumlicheGliederung":["Block","Wohnblockseite"],
+"raeumlicheGliederung":["Block","Blockseite"],
 "schlagwort":["Heimat","Gebäude","Personal"],
 },
                 {
@@ -84,7 +84,7 @@ var indikatoren = [
 "id":"24",
 "thema":"Bevölkerung",
 "kennzahlenset":"Wohnraum",
-"raeumlicheGliederung":"",
+"raeumlicheGliederung":["Bezirk"],
 "schlagwort":["Heimat","Gebäude","Personal"],
 },
                 {
@@ -95,7 +95,7 @@ var indikatoren = [
 "id":"39",
 "thema":"Bevölkerung",
 "kennzahlenset":"Integration",
-"raeumlicheGliederung":"",
+"raeumlicheGliederung":["Bezirk"],
 "schlagwort":["Haushalt","Ausländer","Religion"],
 },
                 {
@@ -106,7 +106,7 @@ var indikatoren = [
 "id":"40",
 "thema":"Bevölkerung",
 "kennzahlenset":"Wohnraum",
-"raeumlicheGliederung":"",
+"raeumlicheGliederung":["Block"],
 "schlagwort":["Heimat","Gebäude","Personal"],
 },
                 {
@@ -117,7 +117,7 @@ var indikatoren = [
 "id":"63",
 "thema":"Bevölkerung",
 "kennzahlenset":"Integration",
-"raeumlicheGliederung":["Block","Wohnblockseite"],
+"raeumlicheGliederung":["Block","Blockseite"],
 "schlagwort":["Haushalt","Ausländer","Religion"],
 },
                 {
@@ -139,7 +139,7 @@ var indikatoren = [
 "id":"15",
 "thema":"Raum und Umwelt",
 "kennzahlenset":"Wohnraum",
-"raeumlicheGliederung":"",
+"raeumlicheGliederung":["Blockseite"],
 "schlagwort":["Heimat","Gebäude","Personal"],
 },
                 {
@@ -150,7 +150,7 @@ var indikatoren = [
 "id":"19",
 "thema":"Raum und Umwelt",
 "kennzahlenset":"Wohnraum",
-"raeumlicheGliederung":"",
+"raeumlicheGliederung":["Blockseite"],
 "schlagwort":["Heimat","Gebäude","Personal"],
 },
                 {
@@ -161,7 +161,7 @@ var indikatoren = [
 "id":"20",
 "thema":"Raum und Umwelt",
 "kennzahlenset":"Wohnraum",
-"raeumlicheGliederung":"",
+"raeumlicheGliederung":["Blockseite"],
 "schlagwort":["Heimat","Gebäude","Personal"],
 },
                 {
