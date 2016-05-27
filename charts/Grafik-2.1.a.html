@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
  
-  <title>Indikator 3.2.b: Wie zufrieden sind Sie mit den Grünanlagen und Parks an Ihrem Wohnort?</title> 
+  <title>Indikator 2.1.a: Wohnungen mit mehr als vier Zimmern</title> 
  
   <style type="text/css"> 
     a { 
@@ -17,7 +17,7 @@
     } 
   </style> 
  
-  <link rel=stylesheet type="text/css" href="style.css"> 
+  <link rel="stylesheet" type="text/css" href="../css/style.css"/> 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script> 
@@ -43,16 +43,8 @@
     function parseData(completeHandler, chartOptions, data) { 
 	try { 
 		var dataOptions = { 
-  "seriesMapping": [ 
-    { 
-      "x": 0 
-    } 
-  ], 
-  "columnTypes": [ 
-    "string" 
-  ], 
-  csv: data 
-}; 
+      csv: data 
+  }; 
 		dataOptions.sort = true 
 		dataOptions.complete = completeHandler; 
 		Highcharts.data(dataOptions, chartOptions); 
@@ -94,16 +86,12 @@ var chartOptions = {
   "plotOptions": { 
     "series": { 
       "dataLabels": { 
-        "style": { 
-          "fontSize": 10 
-        } 
-      }, 
-      "stacking": "percent" 
+        "enabled": false 
+      } 
     } 
   }, 
-  "yAxis": { 
-"tickInterval":10, 
-"title": { 
+  "yAxis": [{ 
+    "title": { 
       "style": { 
         "color": "#000000", 
         "fontSize": null 
@@ -111,13 +99,31 @@ var chartOptions = {
       "text": null 
     }, 
     "labels": { 
-      "format": "{value}%", 
+      "format": "{value:,.0f}", 
       "style": { 
         "color": "#000000" 
       } 
- 
-    } 
+    }, 
+    "min": 0 
   }, 
+  { 
+    "title": { 
+      "style": { 
+        "color": "#000000", 
+        "fontSize": null 
+      }, 
+      "text": null 
+    }, 
+    "labels": { 
+      "format": "{value:,.0f}%", 
+      "style": { 
+        "color": "#000000" 
+      } 
+    }, 
+    "min": 0, 
+    "opposite": true 
+  } 
+  ], 
   "xAxis": { 
     "title": { 
       "style": { 
@@ -129,11 +135,8 @@ var chartOptions = {
         "color": "#000000" 
       } 
     }, 
-    "tickColor": "#FFFFFF" 
-  }, 
-  tooltip: { 
-    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>', 
-    shared: false 
+    "tickColor": "#FFFFFF", 
+    "tickInterval": 5 
   }, 
   "exporting": {
 	    "sourceWidth": null,
@@ -145,7 +148,7 @@ var chartOptions = {
 	    }
 	  },
   "credits": { 
-    "text": "Quelle:  Kantonale Bevölkerungsbefragungen;<br/>Statistisches Amt des Kantons Basel-Stadt", 
+    "text": "Quelle: Kantonale Gebäude- und Wohnungsstatistik;<br/>Statistisches Amt des Kantons Basel-Stadt", 
     "enabled": true, 
     "style": { 
       "color": "#000000", 
@@ -159,44 +162,38 @@ var chartOptions = {
     } 
   }, 
   "legend": { 
-    "layout": "vertical", 
-    "verticalAlign": "middle", 
-    "itemMarginBottom": 5,      
-    "align": "right", 
+    "enabled": true, 
+    "layout": "horizontal", 
+    "verticalAlign": "top", 
+    "align": "left", 
+		"y": 25, 
     "itemStyle": { 
       "fontWeight": "normal" 
     } 
   }, 
   "series": [ 
     { 
-      "color": "#999999", 
-      "index": 2 
+      "color": "#73b97c", 
+      "index": 0, 
+      "type": "column", 
+      "pointWidth": "10" 
     }, 
     { 
-      "color": "#dc440e", 
-      "index": 0 
-    }, 
-    { 
-      "color": "#ffbb58", 
-      "index": 1 
-    }, 
-    { 
-      "color": "#68ab2b", 
-      "index": 3 
-    }, 
-    { 
-      "color": "#007a2f", 
-      "index": 4 
+      "color": "#cd9c00", 
+      "index": 1, 
+      "type": "line", 
+      "yAxis": 1 
     } 
-  ], 
+  ],  "tooltip": { 
+    "shared": true 
+  }, 
   "title": { 
     "style": { 
       "fontSize": 14, 
       "fontWeight": "bold", 
-      "fontFamily": "Arial", 
       "color": "#000000" 
     }, 
-    "text": "Indikator 3.2.b: Wie zufrieden sind Sie mit den Grünanlagen und Parks an Ihrem Wohnort?", 
+    "text": "Indikator 2.1.a: Wohnungen mit mehr als vier Zimmern", 
     "align": "left" 
   }, 
   "subtitle": { 
@@ -205,27 +202,26 @@ var chartOptions = {
       "fontWeight": "normal", 
       "fontFamily": "Arial", 
       "color": "#000000" 
- 
     }, 
     "text": "", 
     "align": "left" 
   }, 
+ 
   "chart": { 
     "borderColor": "#fbfbfb", 
     "backgroundColor": "#fbfbfb", 
+    "zoomType": "xy", 
     "width": 485, 
     "marginBottom": 65, 
     "marginTop": 75, 
     "style": { 
       "fontFamily": "Arial" 
     }, 
-    "zoomType": "y", 
-    "type": "column" 
+    "type": "line" 
   } 
 }; 
  
- 
-$.get("Grafik-3.2.b.csv", function(data){ 
+$.get("../data/Grafik-2.1.a.csv", function(data){ 
   parseData(function (dataOptions) { 
     // Merge series configs 
     if (chartOptions.series && dataOptions) { 
@@ -239,6 +235,7 @@ $.get("Grafik-3.2.b.csv", function(data){
  
 }); 
   </script> 
+ 
 <table align="center" width="470" border="0" cellspacing="0" cellpadding="0">
  
    <tr>
@@ -256,10 +253,9 @@ $.get("Grafik-3.2.b.csv", function(data){
   <tr>
     <td>&nbsp;</td>
  
-    <td><p>Über 90% der Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2007 jeweils leicht angestiegen.</p></td>
+    <td><p>Der Anteil Wohnungen mit mehr als vier Zimmern stieg zum einen in der Dekade der 1970er Jahre, und zwar um 2,6 Prozentpunkte. Zum anderen nimmt der Anteil seit 2010 wieder zu. Dazwischen war kaum oder nur marginales Wachstum zu verzeichnen.</p></td>
   </tr>
 </table>
- 
 </body> 
  
 </html> 

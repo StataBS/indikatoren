@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
  
-  <title>Indikator 2.2.a: Anzahl Personen mit Hauptwohnsitz im Kanton Basel-Stadt</title> 
+  <title>Indikator 0.1.b-3: Mietpreisentwicklung der 3-Zimmerwohnungen</title> 
  
   <style type="text/css"> 
     a { 
@@ -17,7 +17,7 @@
     } 
   </style> 
  
-  <link rel="stylesheet" type="text/css" href="style.css"/> 
+  <link rel=stylesheet type="text/css" href="../css/style.css"> 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script> 
@@ -64,6 +64,7 @@ Highcharts.setOptions({
 var template = { 
 	chart: { 
 		renderTo: 'container', 
+		marginRight: 15,
     events:{ 
     load: function() { 
         this.credits.element.onclick = function() { 
@@ -90,9 +91,8 @@ var chartOptions = {
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869 
           formatter: function() { 
             var last  = this.series.data[this.series.data.length - 1]; 
-            var first  = this.series.data[0]; 
-            if (this.point.y === first.y || this.point.y === last.y ) { 
-              return Highcharts.numberFormat(this.point.y, 0, ",", " "); 
+            if (this.point.category === last.category  &&  this.point.y === last.y ) { 
+              return this.series.name; 
             } 
             return ""; 
           } 
@@ -100,10 +100,7 @@ var chartOptions = {
     } 
   }, 
   "yAxis": { 
-    "min": 150000, 
-    "max": 175000, 
-    "tickInterval": 5000, 
-   "title": { 
+    "title": { 
       "style": { 
         "color": "#000000", 
         "fontSize": null 
@@ -116,10 +113,10 @@ var chartOptions = {
         "color": "#000000" 
       } 
     }, 
- 
+    "min": 0 
   }, 
   "xAxis": { 
-   "title": { 
+    "title": { 
       "style": { 
         "color": "#000000" 
       } 
@@ -132,12 +129,18 @@ var chartOptions = {
     "tickColor": "#FFFFFF", 
     "tickInterval": 1 
   }, 
-  "exporting": { 
-    "sourceWidth": null, 
-    "scale": 5 
-  }, 
+ "exporting": {
+	    "sourceWidth": null,
+	    "scale": 5,
+	    buttons: {
+	      contextButton: {
+	        menuItems: Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8)
+	      }
+	    }
+	  },
   "credits": { 
-    "text": "Quelle:  Statistik der Bevölkerung und Haushalte (STATPOP);<br/>Bundesamt für Statistik.", 
+    "text": "Quelle: Mietpreiserhebung;<br/>Statistisches Amt des Kantons Basel-Stadt", 
+    "href": "http://www.statistik.bs.ch", 
     "enabled": true, 
     "style": { 
       "color": "#000000", 
@@ -163,7 +166,15 @@ var chartOptions = {
         "enabled": true 
       }, 
       "index": 0, 
-      "color": "#B375AB" 
+      "color": "#008AC3" 
+    }, 
+    { 
+      "marker": { 
+        "symbol": "circle", 
+        "enabled": true 
+      }, 
+      "index": 1, 
+      "color": "#990300" 
     } 
   ], 
   "tooltip": { 
@@ -175,7 +186,7 @@ var chartOptions = {
       "fontWeight": "bold", 
       "color": "#000000" 
     }, 
-    "text": "Indikator 2.2.a: Anzahl Personen mit Hauptwohnsitz im Kanton Basel-Stadt", 
+    "text": "Indikator 0.1.b-3: Mietpreisentwicklung der 3-Zimmer-Wohnungen", 
     "align": "left" 
   }, 
   "subtitle": { 
@@ -185,7 +196,7 @@ var chartOptions = {
       "fontFamily": "Arial", 
       "color": "#000000" 
     }, 
-    "text": "", 
+    "text": " ", 
     "align": "left" 
   }, 
  
@@ -194,7 +205,7 @@ var chartOptions = {
     "backgroundColor": "#fbfbfb", 
     "zoomType": "xy", 
     "width": 485, 
-    "marginBottom": 65, 
+    "marginBottom": 75, 
     "marginTop": 75, 
     "style": { 
       "fontFamily": "Arial" 
@@ -203,7 +214,7 @@ var chartOptions = {
   } 
 }; 
  
-$.get("Grafik-2.2.a.csv", function(data){ 
+$.get("../data/Grafik-0.1.b3.csv", function(data){ 
   parseData(function (dataOptions) { 
     // Merge series configs 
     if (chartOptions.series && dataOptions) { 
@@ -234,22 +245,10 @@ $.get("Grafik-2.2.a.csv", function(data){
   <tr>
     <td>&nbsp;</td>
  
-    <td><p>Die Anzahl volljähriger Personen mit Hauptwohnsitz in Basel-Stadt nimmt stetig leicht zu. Diese Personen versteuern ihr Einkommen oder ihre Vermögenswerte, falls vorhanden, in der Regel in Basel-Stadt.</p></td>
-  </tr>
- 
- <tr>
-   <td valign="middle">&nbsp;</td>
- 
-    <td height="10" valign="middle"><hr /></td>
-  </tr>
- 
-   <tr>
-     <td>&nbsp;</td>
- 
-    <td height="5">&nbsp;</td>
+    <td><p>Die Nettomietpreise der Genossenschaftswohnungen sind in den letzten 10 Jahren im Durchschnitt ein Drittel günstiger als die Mietpreise der Mietwohnungen.</p></td>
   </tr>
 </table>
- 
+ 
 </body> 
  
 </html> 

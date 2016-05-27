@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Indikator 1.2.f-2: Anzahl Leerwohnungen und Leerwohnungsquote nach Wohnflächenkategorie</title>
+<title>Indikator 1.2.c-1: Nettowohnungsproduktion</title>
 
   <style type="text/css">
     a {
@@ -17,7 +17,7 @@
     }
   </style>
 
-  <link rel=stylesheet type="text/css" href="style.css">
+  <link rel=stylesheet type="text/css" href="../css/style.css">
   <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script>
   <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script>
   <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script>
@@ -43,6 +43,27 @@
 function parseData(completeHandler, chartOptions, data) {
 	try {
 		var dataOptions = {
+  "seriesMapping": [
+    {
+      "x": 0
+    },
+    {
+      "x": 0
+    },
+    {
+      "x": 0
+    },
+    {
+      "x": 0
+    }
+  ],
+  "columnTypes": [
+    "float",
+    "float",
+    "float",
+    "float",
+    "float"
+  ],
   csv: data
 };
 		dataOptions.sort = true
@@ -88,11 +109,10 @@ var chartOptions = {
   "plotOptions": {
     "series": {
       "stacking": null,
-      "groupPadding": 0.1
+      "groupPadding": 0.05
     }
   },
-  "yAxis": [
-   {
+  "yAxis": {
     "title": {
       "style": {
         "color": "#000000",
@@ -105,26 +125,9 @@ var chartOptions = {
       "style": {
         "color": "#000000"
       }
+
     }
   },
-  {
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
-      "text": null
-    },
-    "labels": {
-      "format": "{value}%",
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "gridLineWidth": 0,
-    "opposite": true
-  },
-  ],
   "xAxis": {
     "title": {
       "style": {
@@ -140,8 +143,8 @@ var chartOptions = {
     "tickInterval": 1
   },
   tooltip: {
-    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b><br/>',
-    shared: true
+    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.2f}%)<br/>',
+    shared: false
   },
   "exporting": {
 	    "sourceWidth": null,
@@ -153,7 +156,7 @@ var chartOptions = {
 	    }
 	  },
   "credits": {
-    "text": "Quellen: Kantonale Gebäude- und Wohnungsstatistik, Leerstanderhebung; <br/> Statistisches Amt des Kantons Basel-Stadt",
+    "text": "Quelle: Kantonale Gebäude- und Wohnungsstatistik;<br/>Statistisches Amt des Kantons Basel-Stadt",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -167,68 +170,45 @@ var chartOptions = {
     }
   },
   "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 7,
-    "align": "right",
+		"verticalAlign": "top",
+		"floating": false,
+		"y": 20,
+    "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
+
   "series": [
     {
-      "color": "#0a3b19",
-      "index": 2
-    },
-    {
-      "color": "#b00000",
+      "color": "#2e1435",
       "marker": {
         "enabled": false
       },
-      "yAxis": 1,
-      "index": 5,
-      "type": "line",
+      "index": 3,
+      "type": "line"
     },
     {
       "color": "#68ab2b",
-      "index": 1,
-      "visible": false
+      "index": 0
     },
     {
-      "color": "#923f8d",
-      "marker": {
-        "enabled": false
-      },
-      "yAxis": 1,
-      "index": 4,
-      "type": "line",
-      "visible": false
+      "color": "#cd9c00",
+      "index": 1
     },
     {
-      "color": "#d7e8d2",
-      "index": 0,
-      "visible": false
-    },
-    {
-      "color": "#ff8028",
-      "marker": {
-        "enabled": false
-      },
-      "yAxis": 1,
-      "index": 3,
-      "type": "line",
-      "visible": false
+      "color": "#008ac3",
+      "index": 2
     }
   ],
-
-"title": {
+    "title": {
     "style": {
       "fontSize": 14,
       "fontWeight": "bold",
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Indikator 1.2.f-2: Anzahl Leerwohnungen und Leerwohnungsquote nach Wohnflächenkategorie",
+    "text": "Indikator 1.2.c-1: Nettowohnungsproduktion",
     "align": "left"
   },
   "subtitle": {
@@ -247,8 +227,8 @@ var chartOptions = {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "marginBottom": 95,
-    "marginTop": 75,
+    "marginBottom": 65,
+    "marginTop": 100,
     "style": {
       "fontFamily": "Arial"
     },
@@ -258,7 +238,7 @@ var chartOptions = {
 };
 
 
-$.get("Grafik-1.2.f2.csv", function(data){
+$.get("../data/Grafik-1.2.c1.csv", function(data){
 parseData(function (dataOptions) {
 	// Merge series configs
 	if (chartOptions.series && dataOptions) {
@@ -291,7 +271,7 @@ parseData(function (dataOptions) {
   <tr>
     <td>&nbsp;</td>
 
-    <td><p>Die Leerwohnungsquote liegt 2015 für Wohnungen aller Flächenkategorien höher als noch 2014. Sowohl 2014 wie auch 2015 stieg die Leerwohnungsquote bei den Wohnungen ab 50 Quadratmetern mit zunehmender Wohnfläche.</p></td>
+    <td><p>2015 wurde dank einer sehr hohen Anzahl Neubauten trotz verhältnismässig vielen Abbrüchen eine Nettowohnungsproduktion von über 600 Wohnungen verzeichnet.</p></td>
   </tr>
 </table>
 </body>

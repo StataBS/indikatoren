@@ -1,10 +1,11 @@
-﻿<!DOCTYPE html> 
+﻿ 
+<!DOCTYPE html> 
  
 <head> 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
  
-  <title>Indikator 4.2.a: Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte Menschen?</title> 
+  <title>Indikator 4.2.c: Wie zufrieden sind Sie mit der altersangepassten Gestaltung des Wohngebäudes?</title> 
  
   <style type="text/css"> 
     a { 
@@ -17,13 +18,12 @@
     } 
   </style> 
  
-  <link rel=stylesheet type="text/css" href="style.css"> 
+  <link rel=stylesheet type="text/css" href="../css/style.css"> 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/modules/exporting.js"></script> 
   <script type="text/javascript" src="//highcharts.github.io/export-csv/export-csv.js"></script> 
- 
  
 </head> 
  
@@ -145,7 +145,7 @@ var chartOptions = {
 	    }
 	  },
   "credits": { 
-    "text": "Quelle: Kantonale Bevölkerungsbefragungen;<br/>Statistisches Amt des Kantons Basel-Stadt", 
+    "text": "Quelle: Kantonale Befragung 55plus;<br/>Statistisches Amt des Kantons Basel-Stadt", 
     "enabled": true, 
     "style": { 
       "color": "#000000", 
@@ -196,7 +196,7 @@ var chartOptions = {
       "fontFamily": "Arial", 
       "color": "#000000" 
     }, 
-    "text": "Indikator 4.2.a: Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte Menschen?", 
+    "text": "Indikator 4.2.c: Wie zufrieden sind Sie mit der altersangepassten Gestaltung des Wohngebäudes?", 
     "align": "left" 
   }, 
   "subtitle": { 
@@ -205,7 +205,6 @@ var chartOptions = {
       "fontWeight": "normal", 
       "fontFamily": "Arial", 
       "color": "#000000" 
- 
     }, 
     "text": "", 
     "align": "left" 
@@ -225,7 +224,7 @@ var chartOptions = {
 }; 
  
  
-$.get("Grafik-4.2.a.csv", function(data){ 
+$.get("../data/Grafik-4.2.c.csv", function(data){ 
   parseData(function (dataOptions) { 
     // Merge series configs 
     if (chartOptions.series && dataOptions) { 
@@ -238,7 +237,7 @@ $.get("Grafik-4.2.a.csv", function(data){
   }, chartOptions, data); 
  
 }); 
-  </script> 
+  </script>
 <table align="center" width="470" border="0" cellspacing="0" cellpadding="0">
  
    <tr>
@@ -256,7 +255,7 @@ $.get("Grafik-4.2.a.csv", function(data){
   <tr>
     <td>&nbsp;</td>
  
-    <td><p>Fast 60% der Befragten sind 2015 mit den Einrichtungen und dem Angebot für Behinderte eher bis sehr zufrieden. Dieser Wert lag 2007 noch bei 40%.</p></td>
+    <td><p>Gut zwei Drittel der Befragten sind mit der altersangepassten Gestaltung des Wohngebäudes eher bis sehr zufrieden.</p></td>
   </tr>
 </table>
 </body> 

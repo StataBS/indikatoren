@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
  
-  <title>Indikator 1.4.b: Genossenschaftswohnungen</title> 
+  <title>Indikator 2.1.b: Saldo des Steuerertrages zwischen Zu- und Wegzügern</title> 
  
   <style type="text/css"> 
     a { 
@@ -17,7 +17,7 @@
     } 
   </style> 
  
-  <link rel=stylesheet type="text/css" href="style.css"> 
+  <link rel="stylesheet" type="text/css" href="../css/style.css"/> 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script> 
@@ -86,11 +86,23 @@ var chartOptions = {
   "plotOptions": { 
     "series": { 
       "dataLabels": { 
-        "enabled": false 
+        "enabled": true, 
+          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869 
+          formatter: function() { 
+            var last  = this.series.data[this.series.data.length - 1]; 
+            var first  = this.series.data[0]; 
+            if (this.point.y === first.y || this.point.y === last.y ) { 
+              return Highcharts.numberFormat(this.point.y, 0, ",", " "); 
+            } 
+            return ""; 
+          } 
       } 
     } 
   }, 
-  "yAxis": [{ 
+  "yAxis": { 
+    "min": -15, 
+    "max": 15, 
+    "tickInterval": 5, 
     "title": { 
       "style": { 
         "color": "#000000", 
@@ -104,31 +116,10 @@ var chartOptions = {
         "color": "#000000" 
       } 
     }, 
-    "min": 0 
+ 
   }, 
-  { 
-    "title": { 
-      "style": { 
-        "color": "#000000", 
-        "fontSize": null 
-      }, 
-      "text": null 
-    }, 
-    "labels": { 
-      "format": "{value:,.0f}%", 
-      "step": 2, 
-      "style": { 
-        "color": "#000000" 
-      } 
-    }, 
-    "min": 0, 
-    "max": 24, 
-    "gridLineWidth": 0, 
-    "opposite": true 
-  } 
-  ], 
   "xAxis": { 
-    "title": { 
+   "title": { 
       "style": { 
         "color": "#000000" 
       } 
@@ -139,7 +130,7 @@ var chartOptions = {
       } 
     }, 
     "tickColor": "#FFFFFF", 
-    "tickInterval": 5 
+    "tickInterval": 1 
   }, 
   "exporting": {
 	    "sourceWidth": null,
@@ -165,30 +156,23 @@ var chartOptions = {
     } 
   }, 
   "legend": { 
-    "enabled": true, 
-    "layout": "horizontal", 
-    "verticalAlign": "top", 
-    "align": "left", 
-		"y": 35, 
-    "itemStyle": { 
-      "fontWeight": "normal" 
-    } 
+    "enabled": false, 
+    "layout": "vertical", 
+    "verticalAlign": "middle", 
+    "align": "right" 
   }, 
   "series": [ 
     { 
-      "color": "#73b97c", 
+      "marker": { 
+        "symbol": "circle", 
+        "enabled": true 
+      }, 
       "index": 0, 
-      "type": "column", 
-      "pointWidth": "10" 
-    }, 
-    { 
-      "color": "#cd9c00", 
-      "index": 1, 
-      "type": "line", 
-      "yAxis": 1 
+      "color": "#008AC3" 
     } 
-  ],  "tooltip": { 
-    "shared": true 
+  ], 
+  "tooltip": { 
+    "shared": false 
   }, 
   "title": { 
     "style": { 
@@ -196,7 +180,7 @@ var chartOptions = {
       "fontWeight": "bold", 
       "color": "#000000" 
     }, 
-    "text": "Indikator 1.4.b: Genossenschaftswohnungen", 
+    "text": "Indikator 2.1.b: Saldo des Steuerertrages zwischen Zu- und Wegzügern", 
     "align": "left" 
   }, 
   "subtitle": { 
@@ -216,15 +200,15 @@ var chartOptions = {
     "zoomType": "xy", 
     "width": 485, 
     "marginBottom": 65, 
+    "marginTop": 75, 
     "style": { 
       "fontFamily": "Arial" 
     }, 
-    "type": "line", 
-    "alignTicks": false 
+    "type": "column" 
   } 
 }; 
  
-$.get("Grafik-1.4.b.csv", function(data){ 
+$.get("../data/Grafik-2.1.b.csv", function(data){ 
   parseData(function (dataOptions) { 
     // Merge series configs 
     if (chartOptions.series && dataOptions) { 
@@ -239,19 +223,20 @@ $.get("Grafik-1.4.b.csv", function(data){
 }); 
   </script> 
 <table align="center" width="470" border="0" cellspacing="0" cellpadding="0">
-   <tr>
+    <tr>
      <td width="2">&nbsp;</td>
-    <td height="5">&nbsp;</td>
+     <td height="5">&nbsp;</td>
   </tr>
-  <tr>
+   <tr>
     <td valign="middle">&nbsp;</td>
-    <td height="20" valign="middle"><h1>Lesehilfe</h1></td>
+     <td height="20" valign="middle"><h1>Lesehilfe</h1></td>
   </tr>
-  <tr>
+   <tr>
     <td>&nbsp;</td>
-    <td><p>Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2015 rund 10%. Er ist leicht rückläufig.</p></td>
+     <td><p>Seit 2009 ist der Saldo des Steuerertrages bei den Zugezogenen höher als bei den Wegzügern. Bei den Weggezogenen wurden die Steuerdaten des jeweiligen Vorjahres verwendet. Zugezogene Ausländer wurden ab Vorliegen einer Niederlassungsbewilligung mitberücksichtigt.</p></td>
   </tr>
 </table>
+ 
 </body> 
  
 </html> 

@@ -1,10 +1,10 @@
 ﻿<!DOCTYPE html> 
-<html> 
-<head> 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
  
-<title>Indikator 1.2.c-2: Umbausaldo nach Art des Umbaus</title> 
+<head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ 
+  <title>Indikator 0.1.b-2: Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl</title> 
  
   <style type="text/css"> 
     a { 
@@ -16,7 +16,8 @@
       margin: 0 auto; 
     } 
   </style> 
-   <link rel=stylesheet type="text/css" href="style.css">
+ 
+  <link rel=stylesheet type="text/css" href="../css/style.css"> 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script> 
@@ -26,7 +27,7 @@
  
 </head> 
  
-<body style="margin: 0;" class="show-page"> 
+<body style="margin: 0;"> 
   <!-- Google Tag Manager --> 
   <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KGK459" 
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> 
@@ -38,12 +39,12 @@
   <!-- End Google Tag Manager --> 
   <div id="container" style="width:100%; height:100%;max-width:1000px;margin: 0 auto"></div> 
  
-<script type="text/javascript"> 
-function parseData(completeHandler, chartOptions, data) { 
+  <script type="text/javascript"> 
+    function parseData(completeHandler, chartOptions, data) { 
 	try { 
 		var dataOptions = { 
-  csv: data 
-}; 
+      csv: data 
+  }; 
 		dataOptions.sort = true 
 		dataOptions.complete = completeHandler; 
 		Highcharts.data(dataOptions, chartOptions); 
@@ -60,10 +61,10 @@ Highcharts.setOptions({
   } 
 }); 
  
- 
-	var template = { 
-		chart: { 
-			renderTo: 'container', 
+var template = { 
+	chart: { 
+		renderTo: 'container', 
+		marginRight: 15,
     events:{ 
     load: function() { 
         this.credits.element.onclick = function() { 
@@ -74,25 +75,34 @@ Highcharts.setOptions({
           } 
         } 
     } 
-		}, 
-		navigation: { 
-			menuItemStyle: { 
-				fontFamily: Highcharts.SVGRenderer.prototype.getStyle().fontFamily, 
-				padding: '2px 10px' 
-			} 
+	}, 
+	navigation: { 
+		menuItemStyle: { 
+			fontFamily: Highcharts.SVGRenderer.prototype.getStyle().fontFamily, 
+			padding: '2px 10px' 
 		} 
-	}; 
- 
+	} 
+}; 
 var chartOptions = { 
   "plotOptions": { 
     "series": { 
-      "stacking": "normal" 
+      "dataLabels": { 
+        "enabled": true, 
+        "allowOverlap": true, 
+        "verticalAlign": "top", 
+          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869 
+          formatter: function() { 
+            var last  = this.series.data[this.series.data.length - 1]; 
+            if (this.point.category === last.category  &&  this.point.y === last.y ) { 
+              return this.series.name; 
+            } 
+            return ""; 
+          } 
+      } 
     } 
   }, 
   "yAxis": { 
-    "min": -100, 
-    "max": 250, 
-    "tickInterval": 50, 
+    "max": 3000, 
     "title": { 
       "style": { 
         "color": "#000000", 
@@ -105,7 +115,6 @@ var chartOptions = {
       "style": { 
         "color": "#000000" 
       } 
- 
     } 
   }, 
   "xAxis": { 
@@ -122,11 +131,7 @@ var chartOptions = {
     "tickColor": "#FFFFFF", 
     "tickInterval": 1 
   }, 
-  tooltip: { 
-    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.2f}%)<br/>', 
-    shared: false 
-  }, 
-  "exporting": {
+"exporting": {
 	    "sourceWidth": null,
 	    "scale": 5,
 	    buttons: {
@@ -136,7 +141,9 @@ var chartOptions = {
 	    }
 	  },
   "credits": { 
-    "text": "Quelle: Kantonale Gebäude- und Wohnungsstatistik;<br/>Statistisches Amt des Kantons Basel-Stadt", 
+    "text": "Quelle: Leerstandserhebung;<br/>Statistisches Amt des Kantons Basel-Stadt", 
+    "href": "http://www.statistik.bs.ch", 
+    "target": "_parent", 
     "enabled": true, 
     "style": { 
       "color": "#000000", 
@@ -150,51 +157,63 @@ var chartOptions = {
     } 
   }, 
   "legend": { 
+    "enabled": false, 
     "layout": "vertical", 
     "verticalAlign": "middle", 
-    "itemMarginBottom": 7, 
-    "align": "right", 
-    "itemStyle": { 
-      "fontWeight": "normal" 
-    } 
+    "align": "right" 
   }, 
   "series": [ 
     { 
-      "color": "#fabd24", 
       "marker": { 
-        "enabled": false 
+        "symbol": "circle", 
+        "enabled": true 
       }, 
-      "index": 5, 
-      "type": "line" 
+      "index": 4, 
+      "color": "#DC440E" 
     }, 
     { 
-      "color": "#007a2f", 
-      "index": 0 
+      "marker": { 
+        "symbol": "circle", 
+        "enabled": true 
+      }, 
+      "index": 3, 
+      "color": "#933F8D" 
     }, 
     { 
-      "color": "#73b97c", 
-      "index": 3 
+      "marker": { 
+        "symbol": "circle", 
+        "enabled": true 
+      }, 
+      "index": 2, 
+      "color": "#68AB2B" 
     }, 
     { 
-      "color": "#2f656b", 
-      "index": 1 
+      "marker": { 
+        "symbol": "circle", 
+        "enabled": true 
+      }, 
+      "index": 1, 
+      "color": "#689199" 
     }, 
     { 
-      "color": "#990300", 
-      "index": 4 
-    }, 
-    { 
-      "color": "#923f8d", 
-      "index": 2 
+      "marker": { 
+        "symbol": "circle", 
+        "enabled": true 
+      }, 
+      "index": 0, 
+      "color": "#008AC3" 
     } 
-  ],    "title": { 
+  ], 
+  "tooltip": { 
+    "shared": false 
+  }, 
+  "title": { 
     "style": { 
       "fontSize": 14, 
       "fontWeight": "bold", 
-      "fontFamily": "Arial", 
       "color": "#000000" 
     }, 
-    "text": "Indikator 1.2.c-2: Umbausaldo nach Art des Umbaus", 
+    "text": "Indikator 0.1.b-2: Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl", 
     "align": "left" 
   }, 
   "subtitle": { 
@@ -203,43 +222,40 @@ var chartOptions = {
       "fontWeight": "normal", 
       "fontFamily": "Arial", 
       "color": "#000000" 
- 
     }, 
-    "text": "", 
+    "text": " ", 
     "align": "left" 
   }, 
  
   "chart": { 
     "borderColor": "#fbfbfb", 
     "backgroundColor": "#fbfbfb", 
+    "zoomType": "xy", 
     "width": 485, 
-    "marginBottom": 65, 
+    "marginBottom": 75, 
     "marginTop": 75, 
     "style": { 
       "fontFamily": "Arial" 
     }, 
-    "zoomType": "xy", 
-    "type": "column" 
+    "type": "line" 
   } 
 }; 
  
- 
-$.get("Grafik-1.2.c2.csv", function(data){ 
-parseData(function (dataOptions) { 
-	// Merge series configs 
-	if (chartOptions.series && dataOptions) { 
-		Highcharts.each(chartOptions.series, function (series, i) { 
-			chartOptions.series[i] = Highcharts.merge(series, dataOptions.series[i]); 
-		}); 
-	} 
-	var options = Highcharts.merge(dataOptions, chartOptions, template); 
-	var chart = new Highcharts['Chart'](options); 
-}, chartOptions, data); 
+$.get("../data/Grafik-0.1.b2.csv", function(data){ 
+  parseData(function (dataOptions) { 
+    // Merge series configs 
+    if (chartOptions.series && dataOptions) { 
+      Highcharts.each(chartOptions.series, function (series, i) { 
+        chartOptions.series[i] = Highcharts.merge(series, dataOptions.series[i]); 
+      }); 
+    } 
+    var options = Highcharts.merge(dataOptions, chartOptions, template); 
+    var chart = new Highcharts['Chart'](options); 
+  }, chartOptions, data); 
  
 }); 
+  </script> 
  
- 
-</script> 
 <table align="center" width="470" border="0" cellspacing="0" cellpadding="0">
  
    <tr>
@@ -257,9 +273,11 @@ parseData(function (dataOptions) {
   <tr>
     <td>&nbsp;</td>
  
-    <td><p>Seit 2011 ist der Umbausaldo positiv. Der sprunghafte Anstieg 2014 ist auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume (Büros) zu Wohnungen zurückzuführen. 2015 prägten neben Dachstockausbauten viele Zweckentfremdungen von Wohnungen den Umbausaldo.</p></td>
+    <td><p>Die Mietpreisentwicklung der Leerwohnungen ist im Zehnjahresvergleich leicht ansteigend. Da es grundsätzlich wenig leerstehende 5-Zimmerwohnungen gibt, sind die ausgewiesenen Durchschnittsmieten in dieser Kategorie grösseren Schwankungen unterworfen bzw. können wie im Jahr 2014 aufgrund zu kleiner Stichprobe gar nicht berechnet werden. 
+Bei den Mietpreisen für Leerwohnungen handelt es sich um Angebotsmieten nicht um Bestandsmieten.</p></td>
   </tr>
 </table>
-
+ 
 </body> 
+ 
 </html> 

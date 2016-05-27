@@ -1,10 +1,11 @@
-﻿<!DOCTYPE html> 
+﻿ 
+<!DOCTYPE html> 
  
 <head> 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
  
-  <title>Indikator 4.1.b: Ausbezahlte Familienmietzinsbeiträge</title> 
+  <title>Indikator 1.2.a: Wohnungsbestand nach Zimmerzahl</title> 
  
   <style type="text/css"> 
     a { 
@@ -16,14 +17,12 @@
       margin: 0 auto; 
     } 
   </style> 
- 
-  <link rel="stylesheet" type="text/css" href="style.css"/> 
+  <link rel=stylesheet type="text/css" href="../css/style.css">
   <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/modules/exporting.js"></script> 
   <script type="text/javascript" src="//highcharts.github.io/export-csv/export-csv.js"></script> 
- 
  
 </head> 
  
@@ -43,8 +42,16 @@
     function parseData(completeHandler, chartOptions, data) { 
 	try { 
 		var dataOptions = { 
-      csv: data 
-  }; 
+  "seriesMapping": [ 
+    { 
+      "x": 0 
+    } 
+  ], 
+  "columnTypes": [ 
+    "string" 
+  ], 
+  csv: data 
+}; 
 		dataOptions.sort = true 
 		dataOptions.complete = completeHandler; 
 		Highcharts.data(dataOptions, chartOptions); 
@@ -64,7 +71,6 @@ Highcharts.setOptions({
 var template = { 
 	chart: { 
 		renderTo: 'container', 
-		marginRight: 15,
     events:{ 
     load: function() { 
         this.credits.element.onclick = function() { 
@@ -87,24 +93,15 @@ var chartOptions = {
   "plotOptions": { 
     "series": { 
       "dataLabels": { 
-        "enabled": true, 
-          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869 
-          formatter: function() { 
-            var last  = this.series.data[this.series.data.length - 1]; 
-            var first  = this.series.data[0]; 
-            if (this.point.y === first.y || this.point.y === last.y ) { 
-              return Highcharts.numberFormat(this.point.y, 0, ",", " "); 
-            } 
-            return ""; 
-          } 
-      } 
+        "style": { 
+          "fontSize": 10 
+        } 
+      }, 
+      "stacking": "normal" 
     } 
   }, 
   "yAxis": { 
-    "min": 0, 
-    "max": 10000000, 
-    "tickInterval": 2000000, 
-   "title": { 
+    "title": { 
       "style": { 
         "color": "#000000", 
         "fontSize": null 
@@ -116,11 +113,11 @@ var chartOptions = {
       "style": { 
         "color": "#000000" 
       } 
-    }, 
  
+    } 
   }, 
   "xAxis": { 
-   "title": { 
+    "title": { 
       "style": { 
         "color": "#000000" 
       } 
@@ -130,8 +127,11 @@ var chartOptions = {
         "color": "#000000" 
       } 
     }, 
-    "tickColor": "#FFFFFF", 
-    "tickInterval": 1 
+    "tickColor": "#FFFFFF" 
+  }, 
+  tooltip: { 
+    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.2f}%)<br/>', 
+    shared: false 
   }, 
   "exporting": {
 	    "sourceWidth": null,
@@ -143,7 +143,8 @@ var chartOptions = {
 	    }
 	  },
   "credits": { 
-    "text": "Quelle:  Sozialhilfestatistik des Statistischen Amtes Basel-Stadt", 
+    "text": "Quelle: Kantonale Gebäude- und Wohnungsstatistik;<br/>Statistisches Amt des Kantons Basel-Stadt", 
+    "href": "http://www.statistik.bs.ch", 
     "enabled": true, 
     "style": { 
       "color": "#000000", 
@@ -157,31 +158,48 @@ var chartOptions = {
     } 
   }, 
   "legend": { 
-    "enabled": false, 
     "layout": "vertical", 
     "verticalAlign": "middle", 
-    "align": "right" 
+    "itemMarginBottom": 5,      
+    "align": "right", 
+    "itemStyle": { 
+      "fontWeight": "normal" 
+    } 
   }, 
   "series": [ 
     { 
-      "marker": { 
-        "symbol": "circle", 
-        "enabled": true 
-      }, 
-      "index": 0, 
-      "color": "#923f8d" 
+      "color": "#DC440E", 
+      "index": 5 
+    }, 
+    { 
+      "color": "#923F8D", 
+      "index": 4 
+    }, 
+    { 
+      "color": "#68AB2B", 
+      "index": 3 
+    }, 
+    { 
+      "color": "#689199", 
+      "index": 2 
+    }, 
+    { 
+      "color": "#CD9C00", 
+      "index": 1 
+    }, 
+    { 
+      "color": "#B00000", 
+      "index": 0 
     } 
   ], 
-  "tooltip": { 
-    "shared": false 
-  }, 
   "title": { 
     "style": { 
       "fontSize": 14, 
       "fontWeight": "bold", 
+      "fontFamily": "Arial", 
       "color": "#000000" 
     }, 
-    "text": "Indikator 4.1.b: Ausbezahlte Familienmietzinsbeiträge", 
+    "text": "Indikator 1.2.a: Wohnungsbestand nach Zimmerzahl", 
     "align": "left" 
   }, 
   "subtitle": { 
@@ -194,22 +212,22 @@ var chartOptions = {
     "text": "", 
     "align": "left" 
   }, 
- 
   "chart": { 
     "borderColor": "#fbfbfb", 
     "backgroundColor": "#fbfbfb", 
-    "zoomType": "xy", 
     "width": 485, 
-    "marginBottom": 65, 
+    "marginBottom": 75, 
     "marginTop": 75, 
     "style": { 
       "fontFamily": "Arial" 
     }, 
-    "type": "line" 
+    "zoomType": "y", 
+    "type": "column" 
   } 
 }; 
  
-$.get("Grafik-4.1.b.csv", function(data){ 
+ 
+$.get("../data/Grafik-1.2.a.csv", function(data){ 
   parseData(function (dataOptions) { 
     // Merge series configs 
     if (chartOptions.series && dataOptions) { 
@@ -240,10 +258,10 @@ $.get("Grafik-4.1.b.csv", function(data){
   <tr>
     <td>&nbsp;</td>
  
-    <td><p>Die ausbezahlten Familienmietzinsbeiträge sind seit 2007 stark angestiegen. Der durchschnittliche Beitrag pro Haushalt wuchs in diesem Zeitraum von knapp 3000 Franken auf rund 4800 Franken.</p></td>
+    <td><p>Seit 2008 steigt der gesamte Wohnungsbestand leicht und stetig an. Am stärksten war das Wachstum bei den Fünfzimmerwohnungen (+13% seit 2005). Rückläufig bzw. nahezu unverändert war dagegen die Entwicklung bei den Ein- und Zweizimmerwohnungen (-7% bzw. +0,3%).</p></td>
   </tr>
 </table>
- 
+
 </body> 
  
 </html> 

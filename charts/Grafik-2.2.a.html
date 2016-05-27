@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
  
-  <title>Indikator 1.7.a: Wohneigentumsquote in Prozent</title> 
+  <title>Indikator 2.2.a: Anzahl Personen mit Hauptwohnsitz im Kanton Basel-Stadt</title> 
  
   <style type="text/css"> 
     a { 
@@ -17,7 +17,7 @@
     } 
   </style> 
  
-  <link rel="stylesheet" type="text/css" href="style.css"/> 
+  <link rel="stylesheet" type="text/css" href="../css/style.css"/> 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script> 
@@ -43,8 +43,8 @@
     function parseData(completeHandler, chartOptions, data) { 
 	try { 
 		var dataOptions = { 
-    csv: data 
-}; 
+      csv: data 
+  }; 
 		dataOptions.sort = true 
 		dataOptions.complete = completeHandler; 
 		Highcharts.data(dataOptions, chartOptions); 
@@ -100,10 +100,10 @@ var chartOptions = {
     } 
   }, 
   "yAxis": { 
-    "min": 0, 
-    "max": 16, 
-    "tickInterval": 2, 
-    "title": { 
+    "min": 150000, 
+    "max": 175000, 
+    "tickInterval": 5000, 
+   "title": { 
       "style": { 
         "color": "#000000", 
         "fontSize": null 
@@ -111,15 +111,15 @@ var chartOptions = {
       "text": null 
     }, 
     "labels": { 
-      "format": "{value}%", 
+      "format": "{value:,.0f}", 
       "style": { 
         "color": "#000000" 
       } 
     }, 
+ 
   }, 
   "xAxis": { 
-    "max": 2015, 
-    "title": { 
+   "title": { 
       "style": { 
         "color": "#000000" 
       } 
@@ -130,21 +130,14 @@ var chartOptions = {
       } 
     }, 
     "tickColor": "#FFFFFF", 
-    "tickInterval": 5, 
-    "showLastLabel": true, 
-    "endOnTick": true 
+    "tickInterval": 1 
   }, 
-  "exporting": {
-	    "sourceWidth": null,
-	    "scale": 4,
-	    buttons: {
-	      contextButton: {
-	        menuItems: Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8)
-	      }
-	    }
-	  },
+  "exporting": { 
+    "sourceWidth": null, 
+    "scale": 5 
+  }, 
   "credits": { 
-    "text": "Quelle: Kantonale Gebäude- und Wohnungsstatistik;<br/>Statistisches Amt des Kantons Basel-Stadt", 
+    "text": "Quelle:  Statistik der Bevölkerung und Haushalte (STATPOP);<br/>Bundesamt für Statistik.", 
     "enabled": true, 
     "style": { 
       "color": "#000000", 
@@ -161,7 +154,7 @@ var chartOptions = {
     "enabled": false, 
     "layout": "vertical", 
     "verticalAlign": "middle", 
-    "align": "right", 
+    "align": "right" 
   }, 
   "series": [ 
     { 
@@ -170,21 +163,19 @@ var chartOptions = {
         "enabled": true 
       }, 
       "index": 0, 
-      "color": "#008AC3" 
+      "color": "#B375AB" 
     } 
   ], 
- tooltip: { 
-    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b>%<br/>', 
-    shared: true 
+  "tooltip": { 
+    "shared": false 
   }, 
   "title": { 
     "style": { 
       "fontSize": 14, 
       "fontWeight": "bold", 
-      "fontFamily": "Arial", 
       "color": "#000000" 
     }, 
-    "text": "Indikator 1.7.a: Wohneigentumsquote in Prozent", 
+    "text": "Indikator 2.2.a: Anzahl Personen mit Hauptwohnsitz im Kanton Basel-Stadt", 
     "align": "left" 
   }, 
   "subtitle": { 
@@ -193,14 +184,14 @@ var chartOptions = {
       "fontWeight": "normal", 
       "fontFamily": "Arial", 
       "color": "#000000" 
- 
     }, 
     "text": "", 
     "align": "left" 
   }, 
+ 
   "chart": { 
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#fbfbfb", 
+    "backgroundColor": "#fbfbfb", 
     "zoomType": "xy", 
     "width": 485, 
     "marginBottom": 65, 
@@ -212,8 +203,7 @@ var chartOptions = {
   } 
 }; 
  
- 
-$.get("Grafik-1.7.a.csv", function(data){ 
+$.get("../data/Grafik-2.2.a.csv", function(data){ 
   parseData(function (dataOptions) { 
     // Merge series configs 
     if (chartOptions.series && dataOptions) { 
@@ -244,7 +234,7 @@ $.get("Grafik-1.7.a.csv", function(data){
   <tr>
     <td>&nbsp;</td>
  
-    <td><p>Die Eigentumsquote steigt langsam an. Gezählt werden Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt werden. Bei unbelegten Wohnungen gilt die letzte Belegung. </p></td>
+    <td><p>Die Anzahl volljähriger Personen mit Hauptwohnsitz in Basel-Stadt nimmt stetig leicht zu. Diese Personen versteuern ihr Einkommen oder ihre Vermögenswerte, falls vorhanden, in der Regel in Basel-Stadt.</p></td>
   </tr>
  
  <tr>
@@ -258,8 +248,8 @@ $.get("Grafik-1.7.a.csv", function(data){
  
     <td height="5">&nbsp;</td>
   </tr>
-</table> 
- 
+</table>
+ 
 </body> 
  
 </html> 

@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
  
-  <title>Indikator 0.1.b-1: Mietpreisentwicklung nach Zimmerzahl</title> 
+  <title>Indikator 4.1.b: Ausbezahlte Familienmietzinsbeiträge</title> 
  
   <style type="text/css"> 
     a { 
@@ -17,13 +17,12 @@
     } 
   </style> 
  
-  <link rel=stylesheet type="text/css" href="style.css"> 
+  <link rel="stylesheet" type="text/css" href="../css/style.css"/> 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/modules/exporting.js"></script> 
   <script type="text/javascript" src="//highcharts.github.io/export-csv/export-csv.js"></script> 
-  <!--link rel="stylesheet" type="text/css" href="http://www.statistik.bs.ch/resources/templating-kit/themes/basel-stadt/2.19.0-7409/css/styles.css" media="screen" /--> 
  
  
 </head> 
@@ -64,7 +63,8 @@ Highcharts.setOptions({
  
 var template = { 
 	chart: { 
-		renderTo: 'container',		marginRight: 15, 
+		renderTo: 'container', 
+		marginRight: 15,
     events:{ 
     load: function() { 
         this.credits.element.onclick = function() { 
@@ -88,12 +88,12 @@ var chartOptions = {
     "series": { 
       "dataLabels": { 
         "enabled": true, 
-        "allowOverlap": true, 
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869 
           formatter: function() { 
             var last  = this.series.data[this.series.data.length - 1]; 
-            if (this.point.category === last.category  && this.point.y === last.y) { 
-              return this.series.name; 
+            var first  = this.series.data[0]; 
+            if (this.point.y === first.y || this.point.y === last.y ) { 
+              return Highcharts.numberFormat(this.point.y, 0, ",", " "); 
             } 
             return ""; 
           } 
@@ -101,8 +101,10 @@ var chartOptions = {
     } 
   }, 
   "yAxis": { 
-    "max": 3000, 
-    "title": { 
+    "min": 0, 
+    "max": 10000000, 
+    "tickInterval": 2000000, 
+   "title": { 
       "style": { 
         "color": "#000000", 
         "fontSize": null 
@@ -114,11 +116,11 @@ var chartOptions = {
       "style": { 
         "color": "#000000" 
       } 
+    }, 
  
-    } 
   }, 
   "xAxis": { 
-    "title": { 
+   "title": { 
       "style": { 
         "color": "#000000" 
       } 
@@ -131,7 +133,7 @@ var chartOptions = {
     "tickColor": "#FFFFFF", 
     "tickInterval": 1 
   }, 
-"exporting": {
+  "exporting": {
 	    "sourceWidth": null,
 	    "scale": 5,
 	    buttons: {
@@ -139,10 +141,9 @@ var chartOptions = {
 	        menuItems: Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8)
 	      }
 	    }
-	  },  "credits": { 
-    "text": "Quelle: Mietpreiserhebung;<br/>Statistisches Amt des Kantons Basel-Stadt", 
-    "href": "http://www.statistik.bs.ch", 
-    "target": "_top", 
+	  },
+  "credits": { 
+    "text": "Quelle:  Sozialhilfestatistik des Statistischen Amtes Basel-Stadt", 
     "enabled": true, 
     "style": { 
       "color": "#000000", 
@@ -167,53 +168,20 @@ var chartOptions = {
         "symbol": "circle", 
         "enabled": true 
       }, 
-      "index": 4, 
-      "color": "#DC440E" 
-    }, 
-    { 
-      "marker": { 
-        "symbol": "circle", 
-        "enabled": true 
-      }, 
-      "index": 3, 
-      "color": "#933F8D" 
-    }, 
-    { 
-      "marker": { 
-        "symbol": "circle", 
-        "enabled": true 
-      }, 
-      "index": 2, 
-      "color": "#68AB2B" 
-    }, 
-    { 
-      "marker": { 
-        "symbol": "circle", 
-        "enabled": true 
-      }, 
-      "index": 1, 
-      "color": "#689199" 
-    }, 
-    { 
-      "marker": { 
-        "symbol": "circle", 
-        "enabled": true 
-      }, 
       "index": 0, 
-      "color": "#008AC3" 
+      "color": "#923f8d" 
     } 
   ], 
   "tooltip": { 
     "shared": false 
   }, 
- 
   "title": { 
     "style": { 
       "fontSize": 14, 
       "fontWeight": "bold", 
       "color": "#000000" 
     }, 
-    "text": "Indikator 0.1.b-1: Mietpreisentwicklung nach Zimmerzahl", 
+    "text": "Indikator 4.1.b: Ausbezahlte Familienmietzinsbeiträge", 
     "align": "left" 
   }, 
   "subtitle": { 
@@ -223,7 +191,7 @@ var chartOptions = {
       "fontFamily": "Arial", 
       "color": "#000000" 
     }, 
-    "text": " ", 
+    "text": "", 
     "align": "left" 
   }, 
  
@@ -232,7 +200,7 @@ var chartOptions = {
     "backgroundColor": "#fbfbfb", 
     "zoomType": "xy", 
     "width": 485, 
-    "marginBottom": 75, 
+    "marginBottom": 65, 
     "marginTop": 75, 
     "style": { 
       "fontFamily": "Arial" 
@@ -241,7 +209,7 @@ var chartOptions = {
   } 
 }; 
  
-$.get("Grafik-0.1.b1.csv", function(data){ 
+$.get("../data/Grafik-4.1.b.csv", function(data){ 
   parseData(function (dataOptions) { 
     // Merge series configs 
     if (chartOptions.series && dataOptions) { 
@@ -272,7 +240,7 @@ $.get("Grafik-0.1.b1.csv", function(data){
   <tr>
     <td>&nbsp;</td>
  
-    <td><p>Seit 2008 ist bei allen Zimmerkategorien eine steigende Tendenz der Mietpreise (Nettomieten) zu beobachten. Es handelt sich hier im Gegensatz zu den Mietpreisen der Leerwohnungen um Bestandsmieten. </p></td>
+    <td><p>Die ausbezahlten Familienmietzinsbeiträge sind seit 2007 stark angestiegen. Der durchschnittliche Beitrag pro Haushalt wuchs in diesem Zeitraum von knapp 3000 Franken auf rund 4800 Franken.</p></td>
   </tr>
 </table>
  

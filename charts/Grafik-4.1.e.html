@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
  
-  <title>Indikator 4.1.a: Haushalte mit Familienmietzinsbeiträgen</title> 
+  <title>Indikator 4.1.e: Bestand an Notwohnungen und ihre Belegung</title> 
  
   <style type="text/css"> 
     a { 
@@ -17,7 +17,7 @@
     } 
   </style> 
  
-  <link rel=stylesheet type="text/css" href="style.css"> 
+  <link rel="stylesheet" type="text/css" href="../css/style.css"/> 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script> 
@@ -91,6 +91,9 @@ var chartOptions = {
     } 
   }, 
   "yAxis": [{ 
+    "min": 0,
+ "max": 160, 
+    "tickInterval": 40,
     "title": { 
       "style": { 
         "color": "#000000", 
@@ -104,9 +107,11 @@ var chartOptions = {
         "color": "#000000" 
       } 
     }, 
-    "min": 0 
   }, 
   { 
+    "min": 0, 
+ "max": 100, 
+    "tickInterval": 25,
     "title": { 
       "style": { 
         "color": "#000000", 
@@ -120,9 +125,6 @@ var chartOptions = {
         "color": "#000000" 
       } 
     }, 
-    "min": 0, 
-"max": 5, 
- 
     "opposite": true 
   } 
   ], 
@@ -150,7 +152,7 @@ var chartOptions = {
 	    }
 	  },
   "credits": { 
-    "text": "Quelle: Sozialhilfestatisstik des Statistischen Amtes Basel-Stadt", 
+    "text": "Quelle: Sozialhilfe des Kantons Basel-Stadt, Notschlafstelle und Notwohnungen", 
     "enabled": true, 
     "style": { 
       "color": "#000000", 
@@ -160,7 +162,7 @@ var chartOptions = {
       "align": "left", 
       "verticalAlign": "bottom", 
       x: 10, 
-      y: -3 
+      y: -17 
     } 
   }, 
   "legend": { 
@@ -168,18 +170,24 @@ var chartOptions = {
     "layout": "horizontal", 
     "verticalAlign": "top", 
     "align": "left", 
-		"y": 25, 
+		"y": 35, 
     "itemStyle": { 
       "fontWeight": "normal" 
     } 
   }, 
   "series": [ 
     { 
-      "color": "#923f8d", 
+      "color": "#73b97c", 
       "index": 0, 
       "type": "column" 
     }, 
-    { 
+  { 
+      "color": "#007A2F", 
+      "index": 1, 
+      "type": "column" 
+    }, 
+ 
+   { 
       "color": "#cd9c00", 
       "index": 1, 
       "type": "line", 
@@ -194,7 +202,7 @@ var chartOptions = {
       "fontWeight": "bold", 
       "color": "#000000" 
     }, 
-    "text": "Indikator 4.1.a: Haushalte mit Familienmietzinsbeiträgen", 
+    "text": "Indikator 4.1.e: Bestand an Notwohnungen und ihre Belegung", 
     "align": "left" 
   }, 
   "subtitle": { 
@@ -213,8 +221,8 @@ var chartOptions = {
     "backgroundColor": "#fbfbfb", 
     "zoomType": "xy", 
     "width": 485, 
-    "marginBottom": 50, 
-    "marginTop": 75, 
+    "marginBottom": 65, 
+ 
     "style": { 
       "fontFamily": "Arial" 
     }, 
@@ -222,7 +230,7 @@ var chartOptions = {
   } 
 }; 
  
-$.get("Grafik-4.1.a.csv", function(data){ 
+$.get("../data/Grafik-4.1.e.csv", function(data){ 
   parseData(function (dataOptions) { 
     // Merge series configs 
     if (chartOptions.series && dataOptions) { 
@@ -236,7 +244,7 @@ $.get("Grafik-4.1.a.csv", function(data){
  
 }); 
   </script> 
-<table align="center" width="470" border="0" cellspacing="0" cellpadding="0">
+<table align="center" width="470" border="0" cellspacing="0" cellpadding="0">
  
    <tr>
      <td width="2">&nbsp;</td>
@@ -253,9 +261,9 @@ $.get("Grafik-4.1.a.csv", function(data){
   <tr>
     <td>&nbsp;</td>
  
-    <td><p>Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist seit 2008 stark angestiegen.</p></td>
+    <td><p>Die wenigen Notwohnungen - 2015 machten sie 0,17% des Wohnungsbestandes aus - waren immer zu über 90% belegt. Durch Aufstockungen bestehender Blockrandsiedlungen konnte das Angebot seit 2013 um 50 Logis erhöht werden.</p></td>
   </tr>
-</table>
+</table> 
 </body> 
  
 </html> 

@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
  
-  <title>Indikator 1.1.a: Bevölkerung am Jahresende</title> 
+  <title>Indikator 1.4.b: Genossenschaftswohnungen</title> 
  
   <style type="text/css"> 
     a { 
@@ -17,7 +17,7 @@
     } 
   </style> 
  
-  <link rel=stylesheet type="text/css" href="style.css"> 
+  <link rel=stylesheet type="text/css" href="../css/style.css"> 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script> 
@@ -64,7 +64,6 @@ Highcharts.setOptions({
 var template = { 
 	chart: { 
 		renderTo: 'container', 
-		marginRight: 15,
     events:{ 
     load: function() { 
         this.credits.element.onclick = function() { 
@@ -87,20 +86,11 @@ var chartOptions = {
   "plotOptions": { 
     "series": { 
       "dataLabels": { 
-        "enabled": true, 
-          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869 
-          formatter: function() { 
-            var last  = this.series.data[this.series.data.length - 1]; 
-            var first  = this.series.data[0]; 
-            if (this.point.y === first.y || this.point.y === last.y ) { 
-              return Highcharts.numberFormat(this.point.y, 0, ",", " "); 
-            } 
-            return ""; 
-          } 
+        "enabled": false 
       } 
     } 
   }, 
-  "yAxis": { 
+  "yAxis": [{ 
     "title": { 
       "style": { 
         "color": "#000000", 
@@ -116,6 +106,27 @@ var chartOptions = {
     }, 
     "min": 0 
   }, 
+  { 
+    "title": { 
+      "style": { 
+        "color": "#000000", 
+        "fontSize": null 
+      }, 
+      "text": null 
+    }, 
+    "labels": { 
+      "format": "{value:,.0f}%", 
+      "step": 2, 
+      "style": { 
+        "color": "#000000" 
+      } 
+    }, 
+    "min": 0, 
+    "max": 24, 
+    "gridLineWidth": 0, 
+    "opposite": true 
+  } 
+  ], 
   "xAxis": { 
     "title": { 
       "style": { 
@@ -128,7 +139,7 @@ var chartOptions = {
       } 
     }, 
     "tickColor": "#FFFFFF", 
-    "tickInterval": 1 
+    "tickInterval": 5 
   }, 
   "exporting": {
 	    "sourceWidth": null,
@@ -140,8 +151,7 @@ var chartOptions = {
 	    }
 	  },
   "credits": { 
-    "text": "Quelle: Kantonale Bevölkerungsstatisstik;<br/>Statistisches Amt des Kantons Basel-Stadt", 
-    "href": "http://www.statistik.bs.ch", 
+    "text": "Quelle: Kantonale Gebäude- und Wohnungsstatistik;<br/>Statistisches Amt des Kantons Basel-Stadt", 
     "enabled": true, 
     "style": { 
       "color": "#000000", 
@@ -155,55 +165,30 @@ var chartOptions = {
     } 
   }, 
   "legend": { 
-    "enabled": false, 
-    "layout": "vertical", 
-    "verticalAlign": "middle", 
-    "align": "right" 
+    "enabled": true, 
+    "layout": "horizontal", 
+    "verticalAlign": "top", 
+    "align": "left", 
+		"y": 35, 
+    "itemStyle": { 
+      "fontWeight": "normal" 
+    } 
   }, 
   "series": [ 
     { 
-      "marker": { 
-        "symbol": "circle", 
-        "enabled": true 
-      }, 
-      "index": 4, 
-      "color": "#008AC3" 
-    }, 
-    { 
-      "marker": { 
-        "symbol": "circle", 
-        "enabled": true 
-      }, 
-      "index": 3, 
-      "color": "#008AC3" 
-    }, 
-    { 
-      "marker": { 
-        "symbol": "circle", 
-        "enabled": true 
-      }, 
-      "index": 2, 
-      "color": "#008AC3" 
-    }, 
-    { 
-      "marker": { 
-        "symbol": "circle", 
-        "enabled": true 
-      }, 
-      "index": 1, 
-      "color": "#008AC3" 
-    }, 
-    { 
-      "marker": { 
-        "symbol": "circle", 
-        "enabled": true 
-      }, 
+      "color": "#73b97c", 
       "index": 0, 
-      "color": "#008AC3" 
+      "type": "column", 
+      "pointWidth": "10" 
+    }, 
+    { 
+      "color": "#cd9c00", 
+      "index": 1, 
+      "type": "line", 
+      "yAxis": 1 
     } 
-  ], 
-  "tooltip": { 
-    "shared": false 
+  ],  "tooltip": { 
+    "shared": true 
   }, 
   "title": { 
     "style": { 
@@ -211,7 +196,7 @@ var chartOptions = {
       "fontWeight": "bold", 
       "color": "#000000" 
     }, 
-    "text": "Indikator 1.1.a: Bevölkerung am Jahresende", 
+    "text": "Indikator 1.4.b: Genossenschaftswohnungen", 
     "align": "left" 
   }, 
   "subtitle": { 
@@ -231,15 +216,15 @@ var chartOptions = {
     "zoomType": "xy", 
     "width": 485, 
     "marginBottom": 65, 
-    "marginTop": 75, 
     "style": { 
       "fontFamily": "Arial" 
     }, 
-    "type": "line" 
+    "type": "line", 
+    "alignTicks": false 
   } 
 }; 
  
-$.get("Grafik-1.1.a.csv", function(data){ 
+$.get("../data/Grafik-1.4.b.csv", function(data){ 
   parseData(function (dataOptions) { 
     // Merge series configs 
     if (chartOptions.series && dataOptions) { 
@@ -254,40 +239,19 @@ $.get("Grafik-1.1.a.csv", function(data){
 }); 
   </script> 
 <table align="center" width="470" border="0" cellspacing="0" cellpadding="0">
- 
    <tr>
      <td width="2">&nbsp;</td>
- 
     <td height="5">&nbsp;</td>
   </tr>
- 
   <tr>
     <td valign="middle">&nbsp;</td>
- 
     <td height="20" valign="middle"><h1>Lesehilfe</h1></td>
   </tr>
- 
   <tr>
     <td>&nbsp;</td>
- 
-    <td><p>Von 2005 bis 2015 ist die Anzahl Einwohnerinnen und Einwohner im Kanton Basel-Stadt um 4,9% angestiegen.</p></td>
-  </tr>
- 
- <tr>
-   <td valign="middle">&nbsp;</td>
- 
-    <td height="10" valign="middle"><hr /></td>
-  </tr>
- 
-   <tr>
-     <td>&nbsp;</td>
- 
-    <td height="5">&nbsp;</td>
+    <td><p>Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2015 rund 10%. Er ist leicht rückläufig.</p></td>
   </tr>
 </table>
-
-
- 
 </body> 
  
 </html> 

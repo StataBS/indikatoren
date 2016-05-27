@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
  
-  <title>Indikator 3.2.a: Freiraumfläche und ihr Anteil an der Gesamtfläche</title> 
+  <title>Indikator 4.1.a: Haushalte mit Familienmietzinsbeiträgen</title> 
  
   <style type="text/css"> 
     a { 
@@ -17,7 +17,7 @@
     } 
   </style> 
  
-  <link rel=stylesheet type="text/css" href="style.css"> 
+  <link rel=stylesheet type="text/css" href="../css/style.css"> 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script> 
@@ -150,7 +150,7 @@ var chartOptions = {
 	    }
 	  },
   "credits": { 
-    "text": "Quelle: Geodaten Kanton Basel-Stadt", 
+    "text": "Quelle: Sozialhilfestatisstik des Statistischen Amtes Basel-Stadt", 
     "enabled": true, 
     "style": { 
       "color": "#000000", 
@@ -168,14 +168,14 @@ var chartOptions = {
     "layout": "horizontal", 
     "verticalAlign": "top", 
     "align": "left", 
-		"y": 35, 
+		"y": 25, 
     "itemStyle": { 
       "fontWeight": "normal" 
     } 
   }, 
   "series": [ 
     { 
-      "color": "#73b97c", 
+      "color": "#923f8d", 
       "index": 0, 
       "type": "column" 
     }, 
@@ -194,7 +194,7 @@ var chartOptions = {
       "fontWeight": "bold", 
       "color": "#000000" 
     }, 
-    "text": "Indikator 3.2.a: Freiraumfläche und ihr Anteil an der Gesamtfläche", 
+    "text": "Indikator 4.1.a: Haushalte mit Familienmietzinsbeiträgen", 
     "align": "left" 
   }, 
   "subtitle": { 
@@ -214,7 +214,7 @@ var chartOptions = {
     "zoomType": "xy", 
     "width": 485, 
     "marginBottom": 50, 
-    "marginTop": 85, 
+    "marginTop": 75, 
     "style": { 
       "fontFamily": "Arial" 
     }, 
@@ -222,7 +222,7 @@ var chartOptions = {
   } 
 }; 
  
-$.get("Grafik-3.2.a.csv", function(data){ 
+$.get("../data/Grafik-4.1.a.csv", function(data){ 
   parseData(function (dataOptions) { 
     // Merge series configs 
     if (chartOptions.series && dataOptions) { 
@@ -253,7 +253,7 @@ $.get("Grafik-3.2.a.csv", function(data){
   <tr>
     <td>&nbsp;</td>
  
-    <td><p>Die Freiraumflächen erreichten 2012 ihren Höchstwert. Seither reduzierten sich diese Flächen leicht, weil Schulhauserweiterungen auf Kosten von Sportanlagen vorgenommen worden waren oder die Voltamatte umgestaltet worden war. Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen.</p></td>
+    <td><p>Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist seit 2008 stark angestiegen.</p></td>
   </tr>
 </table>
 </body> 

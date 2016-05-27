@@ -16,7 +16,7 @@
       margin: 0 auto; 
     } 
   </style> 
-   <link rel=stylesheet type="text/css" href="style.css"> 
+   <link rel=stylesheet type="text/css" href="../css/style.css"> 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script> 
@@ -230,7 +230,7 @@ var chartOptions = {
 }; 
  
  
-$.get("Grafik-1.2.b.csv", function(data){ 
+$.get("../data/Grafik-1.2.b.csv", function(data){ 
   parseData(function (dataOptions) { 
     // Merge series configs 
     if (chartOptions.series && dataOptions) { 

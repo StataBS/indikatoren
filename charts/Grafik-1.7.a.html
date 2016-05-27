@@ -1,11 +1,10 @@
-﻿ 
-<!DOCTYPE html> 
+﻿<!DOCTYPE html> 
  
 <head> 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
  
-  <title>Indikator 4.2.c: Wie zufrieden sind Sie mit der altersangepassten Gestaltung des Wohngebäudes?</title> 
+  <title>Indikator 1.7.a: Wohneigentumsquote in Prozent</title> 
  
   <style type="text/css"> 
     a { 
@@ -18,12 +17,13 @@
     } 
   </style> 
  
-  <link rel=stylesheet type="text/css" href="style.css"> 
+  <link rel="stylesheet" type="text/css" href="../css/style.css"/> 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/modules/exporting.js"></script> 
   <script type="text/javascript" src="//highcharts.github.io/export-csv/export-csv.js"></script> 
+ 
  
 </head> 
  
@@ -43,15 +43,7 @@
     function parseData(completeHandler, chartOptions, data) { 
 	try { 
 		var dataOptions = { 
-  "seriesMapping": [ 
-    { 
-      "x": 0 
-    } 
-  ], 
-  "columnTypes": [ 
-    "string" 
-  ], 
-  csv: data 
+    csv: data 
 }; 
 		dataOptions.sort = true 
 		dataOptions.complete = completeHandler; 
@@ -94,16 +86,24 @@ var chartOptions = {
   "plotOptions": { 
     "series": { 
       "dataLabels": { 
-        "style": { 
-          "fontSize": 10 
-        } 
-      }, 
-      "stacking": "percent" 
+        "enabled": true, 
+          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869 
+          formatter: function() { 
+            var last  = this.series.data[this.series.data.length - 1]; 
+            var first  = this.series.data[0]; 
+            if (this.point.y === first.y || this.point.y === last.y ) { 
+              return Highcharts.numberFormat(this.point.y, 0, ",", " "); 
+            } 
+            return ""; 
+          } 
+      } 
     } 
   }, 
   "yAxis": { 
-"tickInterval":10, 
-"title": { 
+    "min": 0, 
+    "max": 16, 
+    "tickInterval": 2, 
+    "title": { 
       "style": { 
         "color": "#000000", 
         "fontSize": null 
@@ -115,10 +115,10 @@ var chartOptions = {
       "style": { 
         "color": "#000000" 
       } 
- 
-    } 
+    }, 
   }, 
   "xAxis": { 
+    "max": 2015, 
     "title": { 
       "style": { 
         "color": "#000000" 
@@ -129,15 +129,14 @@ var chartOptions = {
         "color": "#000000" 
       } 
     }, 
-    "tickColor": "#FFFFFF" 
-  }, 
-  tooltip: { 
-    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>', 
-    shared: false 
+    "tickColor": "#FFFFFF", 
+    "tickInterval": 5, 
+    "showLastLabel": true, 
+    "endOnTick": true 
   }, 
   "exporting": {
 	    "sourceWidth": null,
-	    "scale": 5,
+	    "scale": 4,
 	    buttons: {
 	      contextButton: {
 	        menuItems: Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8)
@@ -145,7 +144,7 @@ var chartOptions = {
 	    }
 	  },
   "credits": { 
-    "text": "Quelle: Kantonale Befragung 55plus;<br/>Statistisches Amt des Kantons Basel-Stadt", 
+    "text": "Quelle: Kantonale Gebäude- und Wohnungsstatistik;<br/>Statistisches Amt des Kantons Basel-Stadt", 
     "enabled": true, 
     "style": { 
       "color": "#000000", 
@@ -159,36 +158,25 @@ var chartOptions = {
     } 
   }, 
   "legend": { 
+    "enabled": false, 
     "layout": "vertical", 
     "verticalAlign": "middle", 
-    "itemMarginBottom": 5,      
     "align": "right", 
-    "itemStyle": { 
-      "fontWeight": "normal" 
-    } 
   }, 
   "series": [ 
     { 
-      "color": "#999999", 
-      "index": 2 
-    }, 
-    { 
-      "color": "#dc440e", 
-      "index": 0 
-    }, 
-    { 
-      "color": "#ffbb58", 
-      "index": 1 
-    }, 
-    { 
-      "color": "#68ab2b", 
-      "index": 3 
-    }, 
-    { 
-      "color": "#007a2f", 
-      "index": 4 
+      "marker": { 
+        "symbol": "circle", 
+        "enabled": true 
+      }, 
+      "index": 0, 
+      "color": "#008AC3" 
     } 
   ], 
+ tooltip: { 
+    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b>%<br/>', 
+    shared: true 
+  }, 
   "title": { 
     "style": { 
       "fontSize": 14, 
@@ -196,7 +184,7 @@ var chartOptions = {
       "fontFamily": "Arial", 
       "color": "#000000" 
     }, 
-    "text": "Indikator 4.2.c: Wie zufrieden sind Sie mit der altersangepassten Gestaltung des Wohngebäudes?", 
+    "text": "Indikator 1.7.a: Wohneigentumsquote in Prozent", 
     "align": "left" 
   }, 
   "subtitle": { 
@@ -205,26 +193,27 @@ var chartOptions = {
       "fontWeight": "normal", 
       "fontFamily": "Arial", 
       "color": "#000000" 
+ 
     }, 
     "text": "", 
     "align": "left" 
   }, 
   "chart": { 
-    "borderColor": "#fbfbfb", 
-    "backgroundColor": "#fbfbfb", 
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy", 
     "width": 485, 
     "marginBottom": 65, 
     "marginTop": 75, 
     "style": { 
       "fontFamily": "Arial" 
     }, 
-    "zoomType": "y", 
-    "type": "column" 
+    "type": "line" 
   } 
 }; 
  
  
-$.get("Grafik-4.2.c.csv", function(data){ 
+$.get("../data/Grafik-1.7.a.csv", function(data){ 
   parseData(function (dataOptions) { 
     // Merge series configs 
     if (chartOptions.series && dataOptions) { 
@@ -237,7 +226,7 @@ $.get("Grafik-4.2.c.csv", function(data){
   }, chartOptions, data); 
  
 }); 
-  </script>
+  </script> 
 <table align="center" width="470" border="0" cellspacing="0" cellpadding="0">
  
    <tr>
@@ -255,9 +244,22 @@ $.get("Grafik-4.2.c.csv", function(data){
   <tr>
     <td>&nbsp;</td>
  
-    <td><p>Gut zwei Drittel der Befragten sind mit der altersangepassten Gestaltung des Wohngebäudes eher bis sehr zufrieden.</p></td>
+    <td><p>Die Eigentumsquote steigt langsam an. Gezählt werden Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt werden. Bei unbelegten Wohnungen gilt die letzte Belegung. </p></td>
   </tr>
-</table>
+ 
+ <tr>
+   <td valign="middle">&nbsp;</td>
+ 
+    <td height="10" valign="middle"><hr /></td>
+  </tr>
+ 
+   <tr>
+     <td>&nbsp;</td>
+ 
+    <td height="5">&nbsp;</td>
+  </tr>
+</table> 
+ 
 </body> 
  
 </html> 

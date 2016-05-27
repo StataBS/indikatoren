@@ -1,10 +1,10 @@
-﻿<!DOCTYPE html>
+﻿<!DOCTYPE html> 
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Indikator 1.2.c-1: Nettowohnungsproduktion</title>
+<title>Indikator 1.2.e: Anzahl neu erstellte Wohnungen </title>
 
   <style type="text/css">
     a {
@@ -16,8 +16,7 @@
       margin: 0 auto;
     }
   </style>
-
-  <link rel=stylesheet type="text/css" href="style.css">
+   <link rel=stylesheet type="text/css" href="../css/style.css">
   <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script>
   <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script>
   <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script>
@@ -43,27 +42,6 @@
 function parseData(completeHandler, chartOptions, data) {
 	try {
 		var dataOptions = {
-  "seriesMapping": [
-    {
-      "x": 0
-    },
-    {
-      "x": 0
-    },
-    {
-      "x": 0
-    },
-    {
-      "x": 0
-    }
-  ],
-  "columnTypes": [
-    "float",
-    "float",
-    "float",
-    "float",
-    "float"
-  ],
   csv: data
 };
 		dataOptions.sort = true
@@ -108,8 +86,7 @@ Highcharts.setOptions({
 var chartOptions = {
   "plotOptions": {
     "series": {
-      "stacking": null,
-      "groupPadding": 0.05
+      "stacking": "normal"
     }
   },
   "yAxis": {
@@ -171,9 +148,9 @@ var chartOptions = {
   },
   "legend": {
 		"verticalAlign": "top",
+    "align": "left",
 		"floating": false,
 		"y": 20,
-    "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -181,34 +158,33 @@ var chartOptions = {
 
   "series": [
     {
-      "color": "#2e1435",
+      "color": "#007a2f",
+      "index": 0,
+      "type": "column"
+    },
+    {
+      "color": "rgba(0, 122, 47, 0.38)",
+      "index": 1,
+      "type": "column"
+    },
+    {
+      "color": "#b00000",
       "marker": {
         "enabled": false
       },
-      "index": 3,
+      "index": 2,
       "type": "line"
-    },
-    {
-      "color": "#68ab2b",
-      "index": 0
-    },
-    {
-      "color": "#cd9c00",
-      "index": 1
-    },
-    {
-      "color": "#008ac3",
-      "index": 2
     }
   ],
-    "title": {
+
+"title": {
     "style": {
       "fontSize": 14,
       "fontWeight": "bold",
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Indikator 1.2.c-1: Nettowohnungsproduktion",
+    "text": "Indikator 1.2.e: Anzahl neu erstellte Wohnungen",
     "align": "left"
   },
   "subtitle": {
@@ -238,7 +214,7 @@ var chartOptions = {
 };
 
 
-$.get("Grafik-1.2.c1.csv", function(data){
+$.get("../data/Grafik-1.2.e.csv", function(data){
 parseData(function (dataOptions) {
 	// Merge series configs
 	if (chartOptions.series && dataOptions) {
@@ -271,8 +247,7 @@ parseData(function (dataOptions) {
   <tr>
     <td>&nbsp;</td>
 
-    <td><p>2015 wurde dank einer sehr hohen Anzahl Neubauten trotz verhältnismässig vielen Abbrüchen eine Nettowohnungsproduktion von über 600 Wohnungen verzeichnet.</p></td>
+    <td><p>Es werden nur neu erstellte Wohnungen in Neubauten berücksichtigt. Neue Wohnungen aus Umbauten sind demnach nicht enthalten. Dank der Grossprojekte im Gebiet Erlenmatt West wurden im Jahr 2015 an die 800 Wohnungen neu erstellt. Der Zehnjahresdurchschnitt steigt damit auf rund 350.</p></td>
   </tr>
-</table>
 </body>
 </html>

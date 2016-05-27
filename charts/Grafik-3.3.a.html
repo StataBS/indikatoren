@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
  
-  <title>Indikator 4.1.e: Bestand an Notwohnungen und ihre Belegung</title> 
+  <title>Indikator 3.3.a: Wie zufrieden sind Sie mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild?</title> 
  
   <style type="text/css"> 
     a { 
@@ -17,7 +17,7 @@
     } 
   </style> 
  
-  <link rel="stylesheet" type="text/css" href="style.css"/> 
+  <link rel=stylesheet type="text/css" href="../css/style.css"> 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script> 
@@ -43,8 +43,16 @@
     function parseData(completeHandler, chartOptions, data) { 
 	try { 
 		var dataOptions = { 
-      csv: data 
-  }; 
+  "seriesMapping": [ 
+    { 
+      "x": 0 
+    } 
+  ], 
+  "columnTypes": [ 
+    "string" 
+  ], 
+  csv: data 
+}; 
 		dataOptions.sort = true 
 		dataOptions.complete = completeHandler; 
 		Highcharts.data(dataOptions, chartOptions); 
@@ -86,15 +94,16 @@ var chartOptions = {
   "plotOptions": { 
     "series": { 
       "dataLabels": { 
-        "enabled": false 
-      } 
+        "style": { 
+          "fontSize": 10 
+        } 
+      }, 
+      "stacking": "percent" 
     } 
   }, 
-  "yAxis": [{ 
-    "min": 0,
- "max": 160, 
-    "tickInterval": 40,
-    "title": { 
+  "yAxis": { 
+"tickInterval":10, 
+"title": { 
       "style": { 
         "color": "#000000", 
         "fontSize": null 
@@ -102,32 +111,13 @@ var chartOptions = {
       "text": null 
     }, 
     "labels": { 
-      "format": "{value:,.0f}", 
+      "format": "{value}%", 
       "style": { 
         "color": "#000000" 
       } 
-    }, 
+ 
+    } 
   }, 
-  { 
-    "min": 0, 
- "max": 100, 
-    "tickInterval": 25,
-    "title": { 
-      "style": { 
-        "color": "#000000", 
-        "fontSize": null 
-      }, 
-      "text": null 
-    }, 
-    "labels": { 
-      "format": "{value:,.0f}%", 
-      "style": { 
-        "color": "#000000" 
-      } 
-    }, 
-    "opposite": true 
-  } 
-  ], 
   "xAxis": { 
     "title": { 
       "style": { 
@@ -139,8 +129,11 @@ var chartOptions = {
         "color": "#000000" 
       } 
     }, 
-    "tickColor": "#FFFFFF", 
-    "tickInterval": 1 
+    "tickColor": "#FFFFFF" 
+  }, 
+  tooltip: { 
+    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>', 
+    shared: false 
   }, 
   "exporting": {
 	    "sourceWidth": null,
@@ -152,7 +145,7 @@ var chartOptions = {
 	    }
 	  },
   "credits": { 
-    "text": "Quelle: Sozialhilfe des Kantons Basel-Stadt, Notschlafstelle und Notwohnungen", 
+    "text": "Quelle:  Kantonale Bevölkerungsbefragungen;<br/>Statistisches Amt des Kantons Basel-Stadt", 
     "enabled": true, 
     "style": { 
       "color": "#000000", 
@@ -166,43 +159,44 @@ var chartOptions = {
     } 
   }, 
   "legend": { 
-    "enabled": true, 
-    "layout": "horizontal", 
-    "verticalAlign": "top", 
-    "align": "left", 
-		"y": 35, 
+    "layout": "vertical", 
+    "verticalAlign": "middle", 
+    "itemMarginBottom": 5,      
+    "align": "right", 
     "itemStyle": { 
       "fontWeight": "normal" 
     } 
   }, 
   "series": [ 
     { 
-      "color": "#73b97c", 
-      "index": 0, 
-      "type": "column" 
+      "color": "#999999", 
+      "index": 2 
     }, 
-  { 
-      "color": "#007A2F", 
-      "index": 1, 
-      "type": "column" 
+    { 
+      "color": "#dc440e", 
+      "index": 0 
     }, 
- 
-   { 
-      "color": "#cd9c00", 
-      "index": 1, 
-      "type": "line", 
-      "yAxis": 1 
+    { 
+      "color": "#ffbb58", 
+      "index": 1 
+    }, 
+    { 
+      "color": "#68ab2b", 
+      "index": 3 
+    }, 
+    { 
+      "color": "#007a2f", 
+      "index": 4 
     } 
-  ],  "tooltip": { 
-    "shared": true 
-  }, 
+  ], 
   "title": { 
     "style": { 
       "fontSize": 14, 
       "fontWeight": "bold", 
+      "fontFamily": "Arial", 
       "color": "#000000" 
     }, 
-    "text": "Indikator 4.1.e: Bestand an Notwohnungen und ihre Belegung", 
+    "text": "Indikator 3.3.a: Wie zufrieden sind Sie mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild?", 
     "align": "left" 
   }, 
   "subtitle": { 
@@ -211,26 +205,27 @@ var chartOptions = {
       "fontWeight": "normal", 
       "fontFamily": "Arial", 
       "color": "#000000" 
+ 
     }, 
     "text": "", 
     "align": "left" 
   }, 
- 
   "chart": { 
     "borderColor": "#fbfbfb", 
     "backgroundColor": "#fbfbfb", 
-    "zoomType": "xy", 
     "width": 485, 
     "marginBottom": 65, 
- 
+    "marginTop": 75, 
     "style": { 
       "fontFamily": "Arial" 
     }, 
-    "type": "line" 
+    "zoomType": "y", 
+    "type": "column" 
   } 
 }; 
  
-$.get("Grafik-4.1.e.csv", function(data){ 
+ 
+$.get("../data/Grafik-3.3.a.csv", function(data){ 
   parseData(function (dataOptions) { 
     // Merge series configs 
     if (chartOptions.series && dataOptions) { 
@@ -244,7 +239,7 @@ $.get("Grafik-4.1.e.csv", function(data){
  
 }); 
   </script> 
-<table align="center" width="470" border="0" cellspacing="0" cellpadding="0">
+<table align="center" width="470" border="0" cellspacing="0" cellpadding="0">
  
    <tr>
      <td width="2">&nbsp;</td>
@@ -261,9 +256,10 @@ $.get("Grafik-4.1.e.csv", function(data){
   <tr>
     <td>&nbsp;</td>
  
-    <td><p>Die wenigen Notwohnungen - 2015 machten sie 0,17% des Wohnungsbestandes aus - waren immer zu über 90% belegt. Durch Aufstockungen bestehender Blockrandsiedlungen konnte das Angebot seit 2013 um 50 Logis erhöht werden.</p></td>
+    <td><p>Die Gesamtzufriedenheit (eher und sehr zufrieden) der Bevölkerung mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild erreicht 2015 mit 84% den höchsten Wert seit Befragungsbeginn 2003.</p></td>
   </tr>
-</table> 
+</table>
+ 
 </body> 
  
 </html> 

@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
  
-  <title>Indikator 0.1.b-2: Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl</title> 
+  <title>Indikator 1.4.c: Wie zufrieden sind Familien mit dem Wohnungsangebot?</title> 
  
   <style type="text/css"> 
     a { 
@@ -17,7 +17,7 @@
     } 
   </style> 
  
-  <link rel=stylesheet type="text/css" href="style.css"> 
+  <link rel=stylesheet type="text/css" href="../css/style.css"> 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script> 
@@ -43,8 +43,16 @@
     function parseData(completeHandler, chartOptions, data) { 
 	try { 
 		var dataOptions = { 
-      csv: data 
-  }; 
+  "seriesMapping": [ 
+    { 
+      "x": 0 
+    } 
+  ], 
+  "columnTypes": [ 
+    "string" 
+  ], 
+  csv: data 
+}; 
 		dataOptions.sort = true 
 		dataOptions.complete = completeHandler; 
 		Highcharts.data(dataOptions, chartOptions); 
@@ -64,7 +72,6 @@ Highcharts.setOptions({
 var template = { 
 	chart: { 
 		renderTo: 'container', 
-		marginRight: 15,
     events:{ 
     load: function() { 
         this.credits.element.onclick = function() { 
@@ -87,23 +94,16 @@ var chartOptions = {
   "plotOptions": { 
     "series": { 
       "dataLabels": { 
-        "enabled": true, 
-        "allowOverlap": true, 
-        "verticalAlign": "top", 
-          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869 
-          formatter: function() { 
-            var last  = this.series.data[this.series.data.length - 1]; 
-            if (this.point.category === last.category  &&  this.point.y === last.y ) { 
-              return this.series.name; 
-            } 
-            return ""; 
-          } 
-      } 
+        "style": { 
+          "fontSize": 10 
+        } 
+      }, 
+      "stacking": "percent" 
     } 
   }, 
   "yAxis": { 
-    "max": 3000, 
-    "title": { 
+"tickInterval":10, 
+"title": { 
       "style": { 
         "color": "#000000", 
         "fontSize": null 
@@ -111,10 +111,11 @@ var chartOptions = {
       "text": null 
     }, 
     "labels": { 
-      "format": "{value:,.0f}", 
+      "format": "{value}%", 
       "style": { 
         "color": "#000000" 
       } 
+ 
     } 
   }, 
   "xAxis": { 
@@ -128,10 +129,13 @@ var chartOptions = {
         "color": "#000000" 
       } 
     }, 
-    "tickColor": "#FFFFFF", 
-    "tickInterval": 1 
+    "tickColor": "#FFFFFF" 
   }, 
-"exporting": {
+  tooltip: { 
+    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>', 
+    shared: false 
+  }, 
+  "exporting": {
 	    "sourceWidth": null,
 	    "scale": 5,
 	    buttons: {
@@ -141,9 +145,7 @@ var chartOptions = {
 	    }
 	  },
   "credits": { 
-    "text": "Quelle: Leerstandserhebung;<br/>Statistisches Amt des Kantons Basel-Stadt", 
-    "href": "http://www.statistik.bs.ch", 
-    "target": "_parent", 
+    "text": "Quelle:  Kantonale Bevölkerungsbefragungen;<br/>Statistisches Amt des Kantons Basel-Stadt", 
     "enabled": true, 
     "style": { 
       "color": "#000000", 
@@ -157,63 +159,44 @@ var chartOptions = {
     } 
   }, 
   "legend": { 
-    "enabled": false, 
     "layout": "vertical", 
     "verticalAlign": "middle", 
-    "align": "right" 
+    "itemMarginBottom": 5,      
+    "align": "right", 
+    "itemStyle": { 
+      "fontWeight": "normal" 
+    } 
   }, 
   "series": [ 
     { 
-      "marker": { 
-        "symbol": "circle", 
-        "enabled": true 
-      }, 
-      "index": 4, 
-      "color": "#DC440E" 
+      "color": "#999999", 
+      "index": 2 
     }, 
     { 
-      "marker": { 
-        "symbol": "circle", 
-        "enabled": true 
-      }, 
-      "index": 3, 
-      "color": "#933F8D" 
+      "color": "#dc440e", 
+      "index": 0 
     }, 
     { 
-      "marker": { 
-        "symbol": "circle", 
-        "enabled": true 
-      }, 
-      "index": 2, 
-      "color": "#68AB2B" 
+      "color": "#ffbb58", 
+      "index": 1 
     }, 
     { 
-      "marker": { 
-        "symbol": "circle", 
-        "enabled": true 
-      }, 
-      "index": 1, 
-      "color": "#689199" 
+      "color": "#68ab2b", 
+      "index": 3 
     }, 
     { 
-      "marker": { 
-        "symbol": "circle", 
-        "enabled": true 
-      }, 
-      "index": 0, 
-      "color": "#008AC3" 
+      "color": "#007a2f", 
+      "index": 4 
     } 
   ], 
-  "tooltip": { 
-    "shared": false 
-  }, 
   "title": { 
     "style": { 
       "fontSize": 14, 
       "fontWeight": "bold", 
+      "fontFamily": "Arial", 
       "color": "#000000" 
     }, 
-    "text": "Indikator 0.1.b-2: Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl", 
+    "text": "Indikator 1.4.c: Wie zufrieden sind Familien mit dem Wohnungsangebot?", 
     "align": "left" 
   }, 
   "subtitle": { 
@@ -222,26 +205,27 @@ var chartOptions = {
       "fontWeight": "normal", 
       "fontFamily": "Arial", 
       "color": "#000000" 
+ 
     }, 
-    "text": " ", 
+    "text": "", 
     "align": "left" 
   }, 
- 
   "chart": { 
     "borderColor": "#fbfbfb", 
     "backgroundColor": "#fbfbfb", 
-    "zoomType": "xy", 
     "width": 485, 
-    "marginBottom": 75, 
+    "marginBottom": 65, 
     "marginTop": 75, 
     "style": { 
       "fontFamily": "Arial" 
     }, 
-    "type": "line" 
+    "zoomType": "y", 
+    "type": "column" 
   } 
 }; 
  
-$.get("Grafik-0.1.b2.csv", function(data){ 
+ 
+$.get("../data/Grafik-1.4.c.csv", function(data){ 
   parseData(function (dataOptions) { 
     // Merge series configs 
     if (chartOptions.series && dataOptions) { 
@@ -255,7 +239,6 @@ $.get("Grafik-0.1.b2.csv", function(data){
  
 }); 
   </script> 
- 
 <table align="center" width="470" border="0" cellspacing="0" cellpadding="0">
  
    <tr>
@@ -273,8 +256,7 @@ $.get("Grafik-0.1.b2.csv", function(data){
   <tr>
     <td>&nbsp;</td>
  
-    <td><p>Die Mietpreisentwicklung der Leerwohnungen ist im Zehnjahresvergleich leicht ansteigend. Da es grundsätzlich wenig leerstehende 5-Zimmerwohnungen gibt, sind die ausgewiesenen Durchschnittsmieten in dieser Kategorie grösseren Schwankungen unterworfen bzw. können wie im Jahr 2014 aufgrund zu kleiner Stichprobe gar nicht berechnet werden. 
-Bei den Mietpreisen für Leerwohnungen handelt es sich um Angebotsmieten nicht um Bestandsmieten.</p></td>
+    <td><p>Knapp die Hälfte der befragten Familien ist mit dem Wohnungsangebot im Kanton Basel-Stadt sehr oder eher zufrieden.</p></td>
   </tr>
 </table>
  

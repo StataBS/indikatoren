@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
  
-  <title>Indikator 2.1.b: Saldo des Steuerertrages zwischen Zu- und Wegzügern</title> 
+  <title>Indikator 4.2.a: Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte Menschen?</title> 
  
   <style type="text/css"> 
     a { 
@@ -17,7 +17,7 @@
     } 
   </style> 
  
-  <link rel="stylesheet" type="text/css" href="style.css"/> 
+  <link rel=stylesheet type="text/css" href="../css/style.css"> 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script> 
   <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script> 
@@ -43,8 +43,16 @@
     function parseData(completeHandler, chartOptions, data) { 
 	try { 
 		var dataOptions = { 
-      csv: data 
-  }; 
+  "seriesMapping": [ 
+    { 
+      "x": 0 
+    } 
+  ], 
+  "columnTypes": [ 
+    "string" 
+  ], 
+  csv: data 
+}; 
 		dataOptions.sort = true 
 		dataOptions.complete = completeHandler; 
 		Highcharts.data(dataOptions, chartOptions); 
@@ -86,24 +94,16 @@ var chartOptions = {
   "plotOptions": { 
     "series": { 
       "dataLabels": { 
-        "enabled": true, 
-          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869 
-          formatter: function() { 
-            var last  = this.series.data[this.series.data.length - 1]; 
-            var first  = this.series.data[0]; 
-            if (this.point.y === first.y || this.point.y === last.y ) { 
-              return Highcharts.numberFormat(this.point.y, 0, ",", " "); 
-            } 
-            return ""; 
-          } 
-      } 
+        "style": { 
+          "fontSize": 10 
+        } 
+      }, 
+      "stacking": "percent" 
     } 
   }, 
   "yAxis": { 
-    "min": -15, 
-    "max": 15, 
-    "tickInterval": 5, 
-    "title": { 
+"tickInterval":10, 
+"title": { 
       "style": { 
         "color": "#000000", 
         "fontSize": null 
@@ -111,15 +111,15 @@ var chartOptions = {
       "text": null 
     }, 
     "labels": { 
-      "format": "{value:,.0f}", 
+      "format": "{value}%", 
       "style": { 
         "color": "#000000" 
       } 
-    }, 
  
+    } 
   }, 
   "xAxis": { 
-   "title": { 
+    "title": { 
       "style": { 
         "color": "#000000" 
       } 
@@ -129,8 +129,11 @@ var chartOptions = {
         "color": "#000000" 
       } 
     }, 
-    "tickColor": "#FFFFFF", 
-    "tickInterval": 1 
+    "tickColor": "#FFFFFF" 
+  }, 
+  tooltip: { 
+    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>', 
+    shared: false 
   }, 
   "exporting": {
 	    "sourceWidth": null,
@@ -142,7 +145,7 @@ var chartOptions = {
 	    }
 	  },
   "credits": { 
-    "text": "Quelle: Kantonale Gebäude- und Wohnungsstatistik;<br/>Statistisches Amt des Kantons Basel-Stadt", 
+    "text": "Quelle: Kantonale Bevölkerungsbefragungen;<br/>Statistisches Amt des Kantons Basel-Stadt", 
     "enabled": true, 
     "style": { 
       "color": "#000000", 
@@ -156,31 +159,44 @@ var chartOptions = {
     } 
   }, 
   "legend": { 
-    "enabled": false, 
     "layout": "vertical", 
     "verticalAlign": "middle", 
-    "align": "right" 
+    "itemMarginBottom": 5,      
+    "align": "right", 
+    "itemStyle": { 
+      "fontWeight": "normal" 
+    } 
   }, 
   "series": [ 
     { 
-      "marker": { 
-        "symbol": "circle", 
-        "enabled": true 
-      }, 
-      "index": 0, 
-      "color": "#008AC3" 
+      "color": "#999999", 
+      "index": 2 
+    }, 
+    { 
+      "color": "#dc440e", 
+      "index": 0 
+    }, 
+    { 
+      "color": "#ffbb58", 
+      "index": 1 
+    }, 
+    { 
+      "color": "#68ab2b", 
+      "index": 3 
+    }, 
+    { 
+      "color": "#007a2f", 
+      "index": 4 
     } 
   ], 
-  "tooltip": { 
-    "shared": false 
-  }, 
   "title": { 
     "style": { 
       "fontSize": 14, 
       "fontWeight": "bold", 
+      "fontFamily": "Arial", 
       "color": "#000000" 
     }, 
-    "text": "Indikator 2.1.b: Saldo des Steuerertrages zwischen Zu- und Wegzügern", 
+    "text": "Indikator 4.2.a: Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte Menschen?", 
     "align": "left" 
   }, 
   "subtitle": { 
@@ -189,26 +205,27 @@ var chartOptions = {
       "fontWeight": "normal", 
       "fontFamily": "Arial", 
       "color": "#000000" 
+ 
     }, 
     "text": "", 
     "align": "left" 
   }, 
- 
   "chart": { 
     "borderColor": "#fbfbfb", 
     "backgroundColor": "#fbfbfb", 
-    "zoomType": "xy", 
     "width": 485, 
     "marginBottom": 65, 
     "marginTop": 75, 
     "style": { 
       "fontFamily": "Arial" 
     }, 
+    "zoomType": "y", 
     "type": "column" 
   } 
 }; 
  
-$.get("Grafik-2.1.b.csv", function(data){ 
+ 
+$.get("../data/Grafik-4.2.a.csv", function(data){ 
   parseData(function (dataOptions) { 
     // Merge series configs 
     if (chartOptions.series && dataOptions) { 
@@ -223,20 +240,25 @@ $.get("Grafik-2.1.b.csv", function(data){
 }); 
   </script> 
 <table align="center" width="470" border="0" cellspacing="0" cellpadding="0">
-    <tr>
+ 
+   <tr>
      <td width="2">&nbsp;</td>
-     <td height="5">&nbsp;</td>
+ 
+    <td height="5">&nbsp;</td>
   </tr>
-   <tr>
+ 
+  <tr>
     <td valign="middle">&nbsp;</td>
-     <td height="20" valign="middle"><h1>Lesehilfe</h1></td>
+ 
+    <td height="20" valign="middle"><h1>Lesehilfe</h1></td>
   </tr>
-   <tr>
+ 
+  <tr>
     <td>&nbsp;</td>
-     <td><p>Seit 2009 ist der Saldo des Steuerertrages bei den Zugezogenen höher als bei den Wegzügern. Bei den Weggezogenen wurden die Steuerdaten des jeweiligen Vorjahres verwendet. Zugezogene Ausländer wurden ab Vorliegen einer Niederlassungsbewilligung mitberücksichtigt.</p></td>
+ 
+    <td><p>Fast 60% der Befragten sind 2015 mit den Einrichtungen und dem Angebot für Behinderte eher bis sehr zufrieden. Dieser Wert lag 2007 noch bei 40%.</p></td>
   </tr>
 </table>
- 
 </body> 
  
 </html> 

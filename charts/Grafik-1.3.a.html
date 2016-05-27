@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Indikator 0.1.c: Wohnungsbelegung nach Belegungsart</title>
+  <title>Indikator 1.3.a: Indikator 1.3.a: Wohnfläche pro Person</title>
 
   <style type="text/css">
     a {
@@ -17,7 +17,7 @@
     }
   </style>
 
-  <link rel=stylesheet type="text/css" href="style.css">
+  <link rel=stylesheet type="text/css" href="../css/style.css">
   <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script>
   <script type="text/javascript" src="//code.highcharts.com/highcharts.js"></script>
   <script type="text/javascript" src="//code.highcharts.com/modules/data.js"></script>
@@ -43,16 +43,8 @@
     function parseData(completeHandler, chartOptions, data) {
 	try {
 		var dataOptions = {
-  "seriesMapping": [
-    {
-      "x": 0
-    }
-  ],
-  "columnTypes": [
-    "string"
-  ],
-  csv: data
-};
+      csv: data
+  };
 		dataOptions.sort = true
 		dataOptions.complete = completeHandler;
 		Highcharts.data(dataOptions, chartOptions);
@@ -94,11 +86,18 @@ var chartOptions = {
   "plotOptions": {
     "series": {
       "dataLabels": {
-        "style": {
-          "fontSize": 10
-        }
-      },
-      "stacking": "percent"
+        "enabled": true,
+        "allowOverlap": true,
+          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
+          formatter: function() {
+            var last  = this.series.data[this.series.data.length - 1];
+            var first  = this.series.data[0];
+            if (this.point.y === first.y || this.point.y === last.y ) {
+              return Highcharts.numberFormat(this.point.y, 1, ",", " ");
+            }
+            return "";
+          }
+      }
     }
   },
   "yAxis": {
@@ -110,12 +109,12 @@ var chartOptions = {
       "text": null
     },
     "labels": {
-      "format": "{value}%",
+      "format": "{value:,.0f}",
       "style": {
         "color": "#000000"
       }
-
-    }
+    },
+    "min": 0
   },
   "xAxis": {
     "title": {
@@ -128,16 +127,20 @@ var chartOptions = {
         "color": "#000000"
       }
     },
-    "tickColor": "#FFFFFF"
+    "tickColor": "#FFFFFF",
+    "tickInterval": 5
   },
-  tooltip: {
-    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.2f}%)<br/>',
-    shared: false
-  },
-  "exporting": {	    "sourceWidth": null,	    "scale": 5,	    buttons: {	      contextButton: {	        menuItems: Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8)	      }	    }	  },
+  "exporting": {
+	    "sourceWidth": null,
+	    "scale": 5,
+	    buttons: {
+	      contextButton: {
+	        menuItems: Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8)
+	      }
+	    }
+	  },
   "credits": {
     "text": "Quelle: Kantonale Gebäude- und Wohnungsstatistik;<br/>Statistisches Amt des Kantons Basel-Stadt",
-    "href": "http://www.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -151,40 +154,32 @@ var chartOptions = {
     }
   },
   "legend": {
+    "enabled": false,
     "layout": "vertical",
     "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "align": "right"
   },
   "series": [
     {
-      "color": "#73B97C",
-      "index": 1
-    },
-    {
-      "color": "#008AC3",
-      "index": 2
-    },
-    {
-      "color": "#CD9C00",
-      "index": 3
-    },
-    {
-      "color": "#662673",
-      "index": 0
+      "marker": {
+        "symbol": "circle",
+        "enabled": true
+      },
+      "index": 0,
+      "color": "#008AC3"
     }
   ],
+  "tooltip": {
+    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y:.1f}</b><br/>',
+    "shared": false
+  },
   "title": {
     "style": {
       "fontSize": 14,
       "fontWeight": "bold",
-      "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Indikator 0.1.c: Wohnungsbelegung nach Belegungsart",
+    "text": "Indikator 1.3.a: Wohnfläche pro Person",
     "align": "left"
   },
   "subtitle": {
@@ -193,27 +188,26 @@ var chartOptions = {
       "fontWeight": "normal",
       "fontFamily": "Arial",
       "color": "#000000"
-
     },
     "text": "",
     "align": "left"
   },
+
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
     "width": 485,
     "marginBottom": 65,
     "marginTop": 75,
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "y",
-    "type": "column"
+    "type": "line"
   }
 };
 
-
-$.get("Grafik-0.1.c.csv", function(data){
+$.get("../data/Grafik-1.3.a.csv", function(data){
   parseData(function (dataOptions) {
     // Merge series configs
     if (chartOptions.series && dataOptions) {
@@ -226,9 +220,27 @@ $.get("Grafik-0.1.c.csv", function(data){
   }, chartOptions, data);
 
 });
-  </script><table align="center" width="470" border="0" cellspacing="0" cellpadding="0">    <tr>     <td width="2">&nbsp;</td>     <td height="5">&nbsp;</td>  </tr>   <tr>    <td valign="middle">&nbsp;</td>     <td height="20" valign="middle"><h1>Lesehilfe</h1></td>  </tr>   <tr>    <td>&nbsp;</td>     <td><p>Der Anteil der selbstgenutzten Eigentümerwohnungen, das heisst Wohnungen, welche vom Wohnungs- bzw. Gebäudeeigentümer selber bewohnt werden, ist nahezu unverändert.</p></td>  </tr>  <tr>   <td valign="middle">&nbsp;</td>     <td height="10" valign="middle"><hr /></td>  </tr>    <tr>     <td>&nbsp;</td>     <td height="5">&nbsp;</td>  </tr></table>
+  </script>
+<table align="center" width="470" border="0" cellspacing="0" cellpadding="0">
 
+   <tr>
+     <td width="2">&nbsp;</td>
 
+    <td height="5">&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td valign="middle">&nbsp;</td>
+
+    <td height="20" valign="middle"><h1>Lesehilfe</h1></td>
+  </tr>
+
+  <tr>
+    <td>&nbsp;</td>
+
+    <td><p>Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Seither liegt die Zahl bei rund 42 Quadratmetern.</p></td>
+  </tr>
+</table>
 </body>
 
 </html>
