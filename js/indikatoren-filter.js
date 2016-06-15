@@ -15,12 +15,28 @@ $(document).ready(function(){
 
   initFilters();
 
+  var afterFilter = function(result, jQ){
+    //$('#total_movies').text(result.length);
+
+    var checkboxes  = $("#raeumlicheGliederung_criteria :input:gt(0)");
+
+    checkboxes.each(function(){
+      var c = $(this), count = 0
+
+      if(result.length > 0){
+        count = jQ.where({ 'raeumlicheGliederung': c.val() }).count;
+      }
+      c.next().text(c.val() + '(' + count + ')')
+    });
+  }
+  
   //var FJS = FilterJS.auto(indikatoren); //auto does not seem to work with pagination
   var FJS = FilterJS(indikatoren, '#movies', {
     template: '#movie-template',
-    search: { ele: '#searchbox' }
-    /*
-    ,
+    search: { ele: '#searchbox' },
+    callbacks: {
+          afterFilter: afterFilter 
+    },    
     pagination: {
       container: '#pagination',
       visiblePages: 5,
@@ -29,11 +45,7 @@ $(document).ready(function(){
         container: '#per_page'
       },
     }
-    */
-  });
 
-  FJS.addCallback('afterFilter', function(result){
-    $('#total_movies').text(result.length);
   });
 
   FJS.addCriteria({field: "thema", ele: "#thema_filter", all: "all"});
@@ -54,10 +66,8 @@ function initFilters(){
     $('#schlagwort_criteria :checkbox').prop('checked', $(this).is(':checked'));
   });
   */
-  $('#raeumlicheGliederung_criteria :checkbox').prop('checked', false);
-  /*
+  $('#raeumlicheGliederung_criteria :checkbox').prop('checked', true);
   $('#all_raeumlicheGliederung').on('click', function(){
     $('#raeumlicheGliederung_criteria :checkbox').prop('checked', $(this).is(':checked'));
   });
-  */
 };
