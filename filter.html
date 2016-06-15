@@ -10,11 +10,12 @@
     <script src="js/filter.js" type="text/javascript"></script>
     <script src="data/indikatoren.js" type="text/javascript"></script>
     <script src="js/indikatoren-filter.js" type="text/javascript"></script>
+    <script src="node_modules/mustache/mustache.min.js" type="text/javascript"></script>
   </head>
 
   <body>
     <div class="container-fluid">
-      <div class="sidebar col-md-2">
+      <div class="sidebar col-sm-2">
         <!--
         <div>
           <h4>Charts: <span id="total_movies">0</span></h4>
@@ -171,12 +172,12 @@
     </div>
 
 
-      <div class="col-md-9">
+      <div class="col-sm-9">
         <!--
         <div class="row">
-          <div class="content col-md-12">
-            <div id="pagination" class="movies-pagination col-md-9"></div>
-            <div class="col-md-3 content">
+          <div class="content col-sm-12">
+            <div id="pagination" class="movies-pagination col-sm-9"></div>
+            <div class="col-sm-3 content">
               Per Page: <span id="per_page" class="content"></span>
             </div>
           </div>
@@ -190,7 +191,7 @@
 
 
 <script id="movie-template" type="text/html">
-  <div class="col-md-2 movie">
+  <div class="col-sm-2 movie">
     <div class="thumbnail">
         <h5><%= description %></h5>
           <a href="<%= url %>" title="<%= title %>: <%= description %>">
