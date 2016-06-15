@@ -21,7 +21,7 @@
           <h4>Charts: <span id="total_movies">0</span></h4>
         </div>
       -->
-        <div><button class="btn btn-block" onclick="location.reload();">Filter zurücksetzen</button>
+        <div><button class="btn btn-block" onclick="location.reload();">Reset</button>
         </div>
         <br>
 
@@ -191,7 +191,7 @@
 
 
 <script id="movie-template" type="text/html">
-  <div class="col-sm-2 movie">
+  <div class="col-sm-4 movie">
     <div class="thumbnail">
         <h5><%= description %></h5>
           <a href="<%= url %>" title="<%= title %>: <%= description %>">
