@@ -1,5 +1,5 @@
 /*
- * auto.js, an example as part of filter.js (https://github.com/jiren/filter.js/)
+ * based on auto.js, an example as part of filter.js (https://github.com/jiren/filter.js/)
  * 2.1.0 (2015-10-17)
  *
  * Released under the MIT license
@@ -17,17 +17,31 @@ $(document).ready(function(){
 
   var afterFilter = function(result, jQ){
     //$('#total_movies').text(result.length);
+    
+    /*
+    * Add Counts in brackets after each checkbox
+    * @param {String} selector - CSS Selector String
+    * @param {String} key - Key in json data for which occurrences are to be counted
+    */
+    var updateCounts = function(result, jQ, selector, key){
+          var checkboxes  = $(selector);
 
-    var checkboxes  = $("#raeumlicheGliederung_criteria :input:gt(0)");
+          checkboxes.each(function(){
+            
+            var c = $(this), count = 0
 
-    checkboxes.each(function(){
-      var c = $(this), count = 0
+            if(result.length > 0){
+              var queryString = new Object();
+              queryString[key] = c.val();
+              count = jQ.where(queryString).count;
+            }
+            c.next().text(c.val() + ' (' + count + ')')
+          });      
+    }
 
-      if(result.length > 0){
-        count = jQ.where({ 'raeumlicheGliederung': c.val() }).count;
-      }
-      c.next().text(c.val() + '(' + count + ')')
-    });
+    updateCounts(result, jQ, '#raeumlicheGliederung_criteria :input:gt(0)', 'raeumlicheGliederung');
+    updateCounts(result, jQ, '#schlagwort_criteria :input:gt(0)', 'schlagwort');   
+    
   }
   
   //var FJS = FilterJS.auto(indikatoren); //auto does not seem to work with pagination
@@ -60,12 +74,11 @@ $(document).ready(function(){
 
 function initFilters(){
 
-  $('#schlagwort_criteria :checkbox').prop('checked', false);
-  /*
+  $('#schlagwort_criteria :checkbox').prop('checked', true);
   $('#all_schlagwort').on('click', function(){
     $('#schlagwort_criteria :checkbox').prop('checked', $(this).is(':checked'));
   });
-  */
+
   $('#raeumlicheGliederung_criteria :checkbox').prop('checked', true);
   $('#all_raeumlicheGliederung').on('click', function(){
     $('#raeumlicheGliederung_criteria :checkbox').prop('checked', $(this).is(':checked'));
