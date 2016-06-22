@@ -55,7 +55,7 @@ $(document).ready(function(){
       container: '#pagination',
       visiblePages: 5,
       perPage: {
-        values: [12, 15, 30],
+        values: [15, 30, 100],
         container: '#per_page'
       },
     }
