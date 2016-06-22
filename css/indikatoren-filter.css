@@ -1,0 +1,57 @@
+.well, .btn, .pagination{
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+legend{
+    font-size: 1em;
+    margin-bottom: 0px;
+    border-bottom: none;
+}
+
+.search-icon{
+  position: relative;
+  margin-top: -25px;
+  display: inline-block;
+  width: 28px;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  background-color: transparent;
+  font-size: 20px;
+  color: #222;
+  float: right;
+}
+
+.checkbox, .radio{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.thumbnail {    
+    min-height: 190px;
+    border: none;
+}
+
+.thumbnail .caption{
+    padding-top: 0px;
+}
+
+.movies-pagination{
+    text-align: right;  
+}
+
+.pagination>li>a, .pagination>li>a:hover{
+    color: black;    
+}
+
+.pagination>.active>a, .pagination>.active>a:hover{
+    background-color: #222;
+    border-color: #222;    
+}
+
+.per-page {
+    display: none;
+}

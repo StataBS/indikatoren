@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <link href="assets/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="assets/css/jquery-ui-1.10.2.custom.min.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="assets/css/stream.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="assets/css/jquery-ui-1.10.2.custom.min.css" media="screen" rel="stylesheet" type="text/css">            
+    <link href="css/indikatoren-filter.css" media="screen" rel="stylesheet" type="text/css">    
     <script src="assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
     <script src="assets/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
     <script src="js/filter.js" type="text/javascript"></script>
@@ -21,16 +21,14 @@
           <h4>Charts: <span id="total_movies">0</span></h4>
         </div>
       -->
-        <div><button class="btn btn-block" onclick="location.reload();">Reset</button>
+        <div><button class="btn btn-block" onclick="location.reload();">Zurücksetzen</button>
         </div>
-        <br>
 
         <div>
           <label class="sr-only" for="searchbox">Search</label>
           <input type="text" class="form-control" id="searchbox" placeholder="Suche &hellip;" fjs-search>
           <span class="glyphicon glyphicon-search search-icon"></span>
         </div>
-        <br>
 
         <div class="well">
           <fieldset id="thema_criteria">
@@ -171,17 +169,15 @@
 
 
       <div class="col-sm-9">
-        
+        <div class="movies content row" id="movies" fjs-items="template=#movie-template"></div>
         <div class="row">
-          <div class="content col-sm-12">
-            <div id="pagination" class="movies-pagination col-sm-9"></div>
-            <div class="col-sm-3 content">
+          <div class="content col-sm-12">                        
+            <div class="col-sm-3 per-page">
               Per Page: <span id="per_page" class="content"></span>
-            </div>
+            </div>            
+            <div id="pagination" class="movies-pagination col-sm-9 pull-right"></div>
           </div>
         </div>
-      
-        <div class="movies content row" id="movies" fjs-items="template=#movie-template"></div>
       </div>
     </div>
   </div>
@@ -189,13 +185,15 @@
 
 
 <script id="movie-template" type="text/html">
-  <div class="col-sm-4 movie">
+  <div class="col-sm-4 movie">    
     <div class="thumbnail">
+      <div class="caption">
         <h5><%= description %></h5>
           <a href="<%= url %>" title="<%= title %>: <%= description %>">
-          <img src="<%= image %>" alt="<%= title %>: <%= description %> " title="<%= title %>: <%= description %> " class="img-responsive"/>
+          <img src="<%= image %>" alt="<%= title %>: <%= description %> " title="<%= title %>: <%= description %> " class="img-responsive pull-left"/>
           </a>
-    </div>
+      </div>
+    </div>    
   </div>
 </script>
 
