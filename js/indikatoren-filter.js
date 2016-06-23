@@ -64,8 +64,8 @@ $(document).ready(function(){
 
   FJS.addCriteria({field: "thema", ele: "#thema_filter", all: "all"});
   FJS.addCriteria({field: "kennzahlenset", ele: "#kennzahlenset_filter", all: "all"});
-  FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederungen input:checkbox"});
-  FJS.addCriteria({field: "schlagwort", ele: "#schlagworte input:checkbox"});
+  FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_criteria input:checkbox"});
+  FJS.addCriteria({field: "schlagwort", ele: "#schlagwort_criteria input:checkbox",});
 
   FJS.filter();
 
