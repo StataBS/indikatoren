@@ -43,6 +43,10 @@ legend{
     text-align: right;  
 }
 
+ul.pagination{
+    margin: 0px;
+}
+
 .pagination>li>a, .pagination>li>a:hover{
     color: black;    
 }
