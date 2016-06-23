@@ -1,7 +1,15 @@
-div, span, legend, h5, .form-control {
+div, 
+span, 
+legend, 
+h5, 
+.form-control, 
+.btn{
     font-size: 10pt;    
 }
-.well, .btn, .pagination{
+
+.well, 
+.btn, 
+.pagination{
     text-align: left;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -27,7 +35,8 @@ legend{
   float: right;
 }
 
-.checkbox, .radio{
+.checkbox, 
+.radio{
     margin-bottom: 5px;
     margin-top: 5px;
 }
@@ -49,11 +58,13 @@ ul.pagination{
     margin: 0px;
 }
 
-.pagination>li>a, .pagination>li>a:hover{
+.pagination>li>a, 
+.pagination>li>a:hover{
     color: black;    
 }
 
-.pagination>.active>a, .pagination>.active>a:hover{
+.pagination>.active>a, 
+.pagination>.active>a:hover{
     background-color: #222;
     border-color: #222;    
 }
@@ -61,3 +72,14 @@ ul.pagination{
 .per-page {
     display: none;
 }
+
+.modal-header, 
+.modal-footer{
+    border-bottom: none;
+    border-top: none;
+}
+
+.thumbnail>.caption>img,
+.thumbnail>.caption>h5{
+    cursor: pointer;
+} 
