@@ -1,3 +1,6 @@
+div, span, legend, h5, .form-control {
+    font-size: 10pt;    
+}
 .well, .btn, .pagination{
     text-align: left;
     margin-top: 5px;
@@ -5,8 +8,7 @@
     padding: 5px;
 }
 
-legend{
-    font-size: 1em;
+legend{    
     margin-bottom: 0px;
     border-bottom: none;
 }
