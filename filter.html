@@ -175,10 +175,22 @@
     <div class="col-sm-9">
       <div class="row">
         <div class="content col-sm-12">
-          <div class="col-sm-3 per-page">
+          <div class="col-sm-5">
+              <form class="form-inline" role="form">
+                <div class="form-group">
+                  <label for="sortBy">Sortierung:</label>
+                  <select class="form-control" id="sortBy">
+                  <option value="standard"> </option>
+                  <option value="description_asc">Beschreibung aufsteigend</option>
+                  <option value="description_desc">Beschreibung absteigend</option>
+                  </select>
+                </div>
+              </form>
+            </div>          
+          <div class="col-sm-1 per-page">
             Per Page: <span id="per_page" class="content"></span>
           </div>
-          <div id="pagination" class="movies-pagination col-sm-9 pull-right"></div>
+          <div id="pagination" class="movies-pagination col-sm-4 pull-right"></div>
         </div>
       </div>
       <div class="movies content row" id="movies" fjs-items="template=#movie-template"></div>

@@ -49,7 +49,8 @@ $(document).ready(function(){
     template: '#movie-template',
     search: { ele: '#searchbox' },
     callbacks: {
-          afterFilter: afterFilter 
+          afterFilter: afterFilter, 
+          shortResult: sortResult
     },    
     pagination: {
       container: '#pagination',
@@ -67,13 +68,25 @@ $(document).ready(function(){
   FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_criteria input:checkbox"});
   FJS.addCriteria({field: "schlagwort", ele: "#schlagwort_criteria input:checkbox",});
 
-  FJS.filter();
+  var sortOptions = {'id': 'asc'};
 
+  $("#sortBy").on('change', function(e){
+    sortOptions = getSortOptions($(this).val());
+    FJS.filter();
+    e.preventDefault();
+  });
+
+  function sortResult(query){
+    if(sortOptions){
+      query.order(sortOptions);
+    }
+  }
+
+  FJS.filter();
   window.FJS = FJS;
 });
 
 function initFilters(){
-
   $('#schlagwort_criteria :checkbox').prop('checked', true);
   $('#all_schlagwort').on('click', function(){
     $('#schlagwort_criteria :checkbox').prop('checked', $(this).is(':checked'));
@@ -83,4 +96,16 @@ function initFilters(){
   $('#all_raeumlicheGliederung').on('click', function(){
     $('#raeumlicheGliederung_criteria :checkbox').prop('checked', $(this).is(':checked'));
   });
+};
+
+
+function getSortOptions(name){
+  switch(name){
+    case 'description_asc': 
+      return {'description': 'asc'};
+    case 'description_desc': 
+      return {'description': 'desc'};         
+    default : 
+      return {'id': 'asc'};     
+  }
 };

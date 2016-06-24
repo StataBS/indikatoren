@@ -1,10 +1,6 @@
-div, 
-span, 
-legend, 
-h5, 
-.form-control, 
-.btn{
-    font-size: 10pt;    
+div, span, legend, label, h5, .form-control, .btn{
+    font-size: 10pt;
+    font-weight: normal;
 }
 
 .well, 
@@ -13,7 +9,7 @@ h5,
     text-align: left;
     margin-top: 5px;
     margin-bottom: 5px;
-    padding: 5px;
+    padding: 0px;
 }
 
 legend{    
