@@ -3,8 +3,5 @@
   "version": "1.0.0",
   "scripts": {
     "start": "ws"
-  },
-  "dependencies": {
-    "mustache": "^2.2.1"
   }
 }
