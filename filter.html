@@ -192,8 +192,8 @@
     <div class="col-sm-4 movie">
       <div class="thumbnail">
         <div class="caption">
-          <h5 onclick="eModal.iframe({'url': '<%= url %>', 'title': ' ', 'size': 'md'});"><%= description %></h5>                                          
-          <img src="<%= image %>" alt="<%= title %>: <%= description %>" title="<%= title %>: <%= description %>" class="img-responsive pull-left" onclick="eModal.iframe({'url': '<%= url %>', 'title': ' ', 'size': 'md'}); "/>
+          <h5 onclick="eModal.iframe({'url': '<%= url.replace('https://', '//') %>', 'title': ' ', 'size': 'md'});"><%= description %></h5>                                          
+          <img src="<%= image %>" alt="<%= title %>: <%= description %>" title="<%= title %>: <%= description %>" class="img-responsive pull-left" onclick="eModal.iframe({'url': '<%= url.replace('https://', '//') %>', 'title': ' ', 'size': 'md'}); "/>
         </div>
       </div>
     </div>
