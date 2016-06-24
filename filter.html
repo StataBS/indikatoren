@@ -11,6 +11,7 @@
   <script src="assets/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
   <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>  
   <script src="js/filter.js" type="text/javascript"></script>
+  <script src="assets/js/eModal-1.2.6.min.js" type="text/javascript"></script>
   <script src="data/indikatoren.js" type="text/javascript"></script>
   <script src="js/indikatoren-filter.js" type="text/javascript"></script>
 </head>
@@ -186,34 +187,17 @@
   </div>
   </div>
   </div>
-
+    
   <script id="movie-template" type="text/html">
     <div class="col-sm-4 movie">
       <div class="thumbnail">
         <div class="caption">
-          <h5 data-toggle="modal" data-target="#myModal<%= id %>"><%= description %></h5>                                          
-          <img data-toggle="modal" data-target="#myModal<%= id %>" src="<%= image %>" alt="<%= title %>: <%= description %> " title="<%= title %>: <%= description %> " class="img-responsive pull-left"/>
-          <!-- Modal -->
-          <div class="modal fade" id="myModal<%= id %>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>                  
-                </div>
-                <div class="modal-body">
-                    <iframe src="<%= url %>" width="500" height="700" frameborder="0" allowtransparency="true"></iframe>  
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Schliessen</button>
-                </div>
-              </div>
-            </div>
-          </div>
+          <h5 onclick="eModal.iframe({'url': '<%= url %>', 'title': ' ', 'size': 'md'});"><%= description %></h5>                                          
+          <img src="<%= image %>" alt="<%= title %>: <%= description %>" title="<%= title %>: <%= description %>" class="img-responsive pull-left" onclick="eModal.iframe({'url': '<%= url %>', 'title': ' ', 'size': 'md'}); "/>
         </div>
       </div>
     </div>
   </script>
-
 
 </body>
 
