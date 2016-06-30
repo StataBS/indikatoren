@@ -14,7 +14,7 @@
 "description":"Mietpreisentwicklung nach Zimmerzahl",
 "id":"4128",
 "thema":"Bau- und Wohnungswesen",
-"kennzahlenset":"Wohnraum",
+"kennzahlenset":"Kurzbericht Integration",
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"]
 },
@@ -34,7 +34,7 @@
 "description":"Mietpreisentwicklung der 3-Zimmer-Wohnungen",
 "id":"4130",
 "thema":"Bau- und Wohnungswesen",
-"kennzahlenset":"Wohnraum",
+"kennzahlenset":"Kurzbericht Integration",
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"]
 },
