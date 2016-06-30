@@ -15,7 +15,8 @@ $(document).ready(function(){
 
   renderRaeumlicheGliederung(); 
   renderThema();
-  initFilters();
+  renderSchlagworte();
+  checkCheckboxes();
     
 
   
@@ -61,7 +62,7 @@ $(document).ready(function(){
   window.FJS = FJS;
 });
 
-function initFilters(){
+function checkCheckboxes(){
   $('#schlagwort_criteria :checkbox').prop('checked', true);
   $('#all_schlagwort').on('click', function(){
     $('#schlagwort_criteria :checkbox').prop('checked', $(this).is(':checked'));
@@ -93,6 +94,7 @@ function renderRaeumlicheGliederung(){
   var templateFunction = FilterJS.templateBuilder(html);
   var container = $('#raeumlicheGliederung_criteria');
 
+  //render checkboxes
   $.each(values, function(i, c){
     container.append(templateFunction({  value: c }))
   });
@@ -105,10 +107,31 @@ function renderThema(){
   var html = $('#option-template').html();
   var templateFunction = FilterJS.templateBuilder(html);
   var container = $('#thema_filter');
-
+  
+  //render checkboxes
   $.each(values, function(i, c){
     var themaName = (i+1) + " " + c;
     container.append(templateFunction({ key: c, value: themaName }))
+  });
+    
+};
+
+
+function renderSchlagworte(){
+  var indikatorenJQ = JsonQuery(indikatoren);
+  //get array of arrays  
+  var schlagworteNested = indikatorenJQ.pluck('schlagwort').all;
+  //reduce array dimensionality 
+  var schlagworteAll = [].concat.apply([], schlagworteNested).sort();
+  //get unique values  
+  var schlagworteUnique = schlagworteAll.filter(function(item, i, ar){ return ar.indexOf(item) === i; });
+
+  var html = $('#checkbox-template').html();
+  var templateFunction = FilterJS.templateBuilder(html);
+  var container = $('#schlagwort_criteria');
+  //render checkboxes
+  $.each(schlagworteUnique, function(i, c){
+    container.append(templateFunction({  value: c }))
   });
     
 };
@@ -136,7 +159,12 @@ function renderThema(){
             c.next().text(c.val() + ' (' + count + ')')
           });      
     }
-   
+
+    /*
+    * Add Counts in brackets after each option
+    * @param {String} selector - CSS Selector String
+    * @param {String} key - Key in json data for which occurrences are to be counted
+    */   
     var updateOptionCounts = function(result, jQ, selector, key){
           var checkboxes  = $(selector);
 
@@ -148,10 +176,9 @@ function renderThema(){
               var queryString = new Object();
               queryString[key] = c.val();              
               count = jQ.where(queryString).count;
-              console.log(queryString);
-              console.log(count);
             }
             //c.next().text(c.val() + ' (' + count + ')')
+            //todo: implement
           });      
     }
     
