@@ -1,4 +1,4 @@
-﻿var indikatoren = [{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-0.1.a.html",
+﻿var indikatoren = [{"url": "charts/Grafik-0.1.a.html",
 "title":"Indikator 0.1.a",
 "image":"images/0-1-a.jpg",
 "description":"Wie zufrieden sind Sie mit dem Wohnungsangebot?",
@@ -8,7 +8,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt","Zufriedenheit"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-0.1.b-1.html",
+{"url": "charts/Grafik-0.1.b-1.html",
 "title":"Indikator 0.1.b-1",
 "image":"images/0-1-b-1.jpg",
 "description":"Mietpreisentwicklung nach Zimmerzahl",
@@ -18,7 +18,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-0.1.b-2.html",
+{"url": "charts/Grafik-0.1.b-2.html",
 "title":"Indikator 0.1.b-2",
 "image":"images/0-1-b-2.jpg",
 "description":"Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl",
@@ -28,7 +28,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-0.1.b-3.html",
+{"url": "charts/Grafik-0.1.b-3.html",
 "title":"Indikator 0.1.b-3",
 "image":"images/0-1-b-3.jpg",
 "description":"Mietpreisentwicklung der 3-Zimmer-Wohnungen",
@@ -38,7 +38,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-0.1.c.html",
+{"url": "charts/Grafik-0.1.c.html",
 "title":"Indikator 0.1.c",
 "image":"images/0-1-c.jpg",
 "description":"Wohnungsbelegung nach Belegungsart",
@@ -48,7 +48,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-1.1.a.html",
+{"url": "charts/Grafik-1.1.a.html",
 "title":"Indikator 1.1.a",
 "image":"images/1-1-a.jpg",
 "description":"Bevölkerung am Jahresende",
@@ -58,7 +58,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Heimat","Geschlecht","Ausländer/Schweizer"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-1.2.a.html",
+{"url": "charts/Grafik-1.2.a.html",
 "title":"Indikator 1.2.a",
 "image":"images/1-2-a.jpg",
 "description":"Wohnungsbestand nach Zimmerzahl",
@@ -68,7 +68,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-1.2.b.html",
+{"url": "charts/Grafik-1.2.b.html",
 "title":"Indikator 1.2.b",
 "image":"images/1-2-b.jpg",
 "description":"Wohnungsbestand nach Zimerzahl und Wohnflächenkategorie 2014",
@@ -78,7 +78,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-1.2.c-1.html",
+{"url": "charts/Grafik-1.2.c-1.html",
 "title":"Indikator 1.2.c-1",
 "image":"images/1-2-c-1.jpg",
 "description":"Nettowohnungsproduktion",
@@ -88,7 +88,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-1.2.c-2.html",
+{"url": "charts/Grafik-1.2.c-2.html",
 "title":"Indikator 1.2.c-2",
 "image":"images/1-2-c-2.jpg",
 "description":"Umbausaldo nach Art des Umbaus",
@@ -98,7 +98,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-1.2.e.html",
+{"url": "charts/Grafik-1.2.e.html",
 "title":"Indikator 1.2.e",
 "image":"images/1-2-e.jpg",
 "description":"Anzahl neu erstellte Wohnungen",
@@ -108,7 +108,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-1.2.f-1.html",
+{"url": "charts/Grafik-1.2.f-1.html",
 "title":"Indikator 1.2.f-1",
 "image":"images/1-2-f-1.jpg",
 "description":"Anzahl Leerwohnungen und Leerwohnungsquote nach Zimmerzahl",
@@ -118,7 +118,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-1.2.f-2.html",
+{"url": "charts/Grafik-1.2.f-2.html",
 "title":"Indikator 1.2.f-2",
 "image":"images/1-2-f-2.jpg",
 "description":"Anzahl Leerwohnungen und Leerwohnungsquote nach Wohnflächenkategorie",
@@ -128,7 +128,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-1.3.a.html",
+{"url": "charts/Grafik-1.3.a.html",
 "title":"Indikator 1.3.a",
 "image":"images/1-3-a.jpg",
 "description":"Wohnfläche pro Person",
@@ -138,7 +138,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-1.4.a-1.html",
+{"url": "charts/Grafik-1.4.a-1.html",
 "title":"Indikator 1.4.a-1",
 "image":"images/1-4-a-1.jpg",
 "description":"Haushalte nach Art des Haushalts",
@@ -148,7 +148,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-1.4.a2.html",
+{"url": "charts/Grafik-1.4.a2.html",
 "title":"Indikator 1.4.a2",
 "image":"images/1-4-a2.jpg",
 "description":"Familienhaushalte nach Art der Zusammensetzung",
@@ -158,7 +158,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-1.4.b.html",
+{"url": "charts/Grafik-1.4.b.html",
 "title":"Indikator 1.4.b",
 "image":"images/1-4-b.jpg",
 "description":"Genossenschaftswohnungen",
@@ -168,7 +168,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-1.4.c.html",
+{"url": "charts/Grafik-1.4.c.html",
 "title":"Indikator 1.4.c",
 "image":"images/1-4-c.jpg",
 "description":"Wie zufrieden sind Familien mit dem Wohnungsangebot?",
@@ -178,7 +178,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-1.7.a.html",
+{"url": "charts/Grafik-1.7.a.html",
 "title":"Indikator 1.7.a",
 "image":"images/1-7-a.jpg",
 "description":"Wohneigentumsquote in Prozent",
@@ -188,7 +188,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-2.1.a.html",
+{"url": "charts/Grafik-2.1.a.html",
 "title":"Indikator 2.1.a",
 "image":"images/2-1-a.jpg",
 "description":"Wohnungen mit >4 Zimmern",
@@ -198,7 +198,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-2.1.b.html",
+{"url": "charts/Grafik-2.1.b.html",
 "title":"Indikator 2.1.b",
 "image":"images/2-1-b.jpg",
 "description":"Saldo des Steuerertrages zwischen Zu- und Wegzügern",
@@ -208,7 +208,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-2.2.a.html",
+{"url": "charts/Grafik-2.2.a.html",
 "title":"Indikator 2.2.a",
 "image":"images/2-2-a.jpg",
 "description":"Einwohner mit Hauptwohnsitz im Kanton Basel-Stadt",
@@ -218,7 +218,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-3.2.a.html",
+{"url": "charts/Grafik-3.2.a.html",
 "title":"Indikator 3.2.a",
 "image":"images/3-2-a.jpg",
 "description":"Freiraumfläche und ihr Anteil an der Gesamtfläche",
@@ -228,7 +228,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-3.2.b.html",
+{"url": "charts/Grafik-3.2.b.html",
 "title":"Indikator 3.2.b",
 "image":"images/3-2-b.jpg",
 "description":"Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?",
@@ -238,7 +238,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt","Zufriedenheit"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-3.3.a.html",
+{"url": "charts/Grafik-3.3.a.html",
 "title":"Indikator 3.3.a",
 "image":"images/3-3-a.jpg",
 "description":"Wie zufrieden sind Sie mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild?",
@@ -248,7 +248,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Zufriedenheit"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-4.1.a.html",
+{"url": "charts/Grafik-4.1.a.html",
 "title":"Indikator 4.1.a",
 "image":"images/4-1-a.jpg",
 "description":"Haushalte mit Familienmietzinsbeiträgen",
@@ -258,7 +258,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Familie"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-4.1.b.html",
+{"url": "charts/Grafik-4.1.b.html",
 "title":"Indikator 4.1.b",
 "image":"images/4-1-b.jpg",
 "description":"Ausbezahlte Familienmietzinsbeiträge",
@@ -268,7 +268,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Familie"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-4.1.e.html",
+{"url": "charts/Grafik-4.1.e.html",
 "title":"Indikator 4.1.e",
 "image":"images/4-1-e.jpg",
 "description":"Bestand an Notwohnungen und ihre Belegung",
@@ -278,7 +278,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-4.2.a.html",
+{"url": "charts/Grafik-4.2.a.html",
 "title":"Indikator 4.2.a",
 "image":"images/4-2-a.jpg",
 "description":"Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte Menschen?",
@@ -288,7 +288,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Zufriedenheit"]
 },
-{"url": "https://charts.basleratlas.ch/indikatoren/Grafik-4.2.c.html",
+{"url": "charts/Grafik-4.2.c.html",
 "title":"Indikator 4.2.c",
 "image":"images/4-2-c.jpg",
 "description":"Wie zufrieden sind Sie mit der altersangepassten Gestaltung des Wohngebäudes?",
