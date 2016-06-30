@@ -21,8 +21,7 @@ $(document).ready(function(){
   checkCheckboxes();
     
   
-  //var FJS = FilterJS.auto(indikatoren); //auto does not seem to work with pagination
-  var FJS = FilterJS(indikatoren, '#movies', {
+    var FJS = FilterJS(indikatoren, '#movies', {
     template: '#movie-template',
     search: { ele: '#searchbox' },
     callbacks: {
@@ -109,11 +108,15 @@ function renderThema(){
   var templateFunction = FilterJS.templateBuilder(html);
   var container = $('#thema_filter');
   
-  //render options
+  //render options  
+  
   $.each(values, function(i, c){
-    var themaName = (i+1) + " " + c;
-    container.append(templateFunction({ key: c, value: themaName }))
+    //var themaName = (i+1) + " " + c;
+    //container.append(templateFunction({ key: c, value: themaName }))
+    container.append(templateFunction({ key: c, value: c }))
   });
+  
+  
     
 };
 
@@ -194,8 +197,7 @@ var afterFilter = function(result, jQ){
               queryString[key] = c.val();              
               count = jQ.where(queryString).count;
             }
-            //c.next().text(c.val() + ' (' + count + ')')
-            //todo: implement
+            c.text(c.val() + ' (' + count + ')')   
           });      
     }
     
@@ -203,5 +205,6 @@ var afterFilter = function(result, jQ){
     updateCheckboxCounts(result, jQ, '#raeumlicheGliederung_criteria :input:gt(0)', 'raeumlicheGliederung');
     updateCheckboxCounts(result, jQ, '#schlagwort_criteria :input:gt(0)', 'schlagwort');   
     updateOptionCounts(result, jQ, '#thema_filter > option:gt(0)', 'thema');
+    updateOptionCounts(result, jQ, '#kennzahlenset_filter > option:gt(0)', 'kennzahlenset');
     
   };
