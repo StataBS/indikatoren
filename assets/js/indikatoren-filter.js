@@ -16,9 +16,10 @@ $(document).ready(function(){
   renderRaeumlicheGliederung(); 
   renderThema();
   renderSchlagworte();
+  renderKennzahlenset();
+  
   checkCheckboxes();
     
-
   
   //var FJS = FilterJS.auto(indikatoren); //auto does not seem to work with pagination
   var FJS = FilterJS(indikatoren, '#movies', {
@@ -108,7 +109,7 @@ function renderThema(){
   var templateFunction = FilterJS.templateBuilder(html);
   var container = $('#thema_filter');
   
-  //render checkboxes
+  //render options
   $.each(values, function(i, c){
     var themaName = (i+1) + " " + c;
     container.append(templateFunction({ key: c, value: themaName }))
@@ -132,11 +133,27 @@ function renderSchlagworte(){
   //render checkboxes
   $.each(schlagworteUnique, function(i, c){
     container.append(templateFunction({  value: c }))
-  });
-    
+  });    
 };
 
-  var afterFilter = function(result, jQ){
+
+function renderKennzahlenset(){
+  var indikatorenJQ = JsonQuery(indikatoren);
+  var kennzahlensetAll = indikatorenJQ.pluck('kennzahlenset').all;
+  //get unique values  
+  var kennzahlensetUnique = kennzahlensetAll.filter(function(item, i, ar){ return ar.indexOf(item) === i; }); 
+
+  var html = $('#option-template').html();
+  var templateFunction = FilterJS.templateBuilder(html);
+  var container = $('#kennzahlenset_filter');
+    
+  //render options
+  $.each(kennzahlensetUnique, function(i, c){
+    container.append(templateFunction({ key: c, value: c }))
+  });
+};
+
+var afterFilter = function(result, jQ){
     //$('#total_movies').text(result.length);
     
     /*
