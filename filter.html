@@ -43,8 +43,7 @@
           <legend>Thema</legend>
           <select class="form-control" id="thema_filter">
               <option value="all"></option>
-              <option value="Bevölkerung">Bevölkerung</option>
-              <option value="Raum und Umwelt">Raum und Umwelt</option>
+              <!-- Options are dynamically added here -->
             </select>
         </fieldset>
       </div>
@@ -61,6 +60,7 @@
         </fieldset>
       </div>
 
+
       <div class="well">
         <fieldset id="raeumlicheGliederung_criteria">
           <legend>Räumliche Gliederung</legend>
@@ -71,39 +71,13 @@
               <span>Alle</span>
             </label>
           </div>
-
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="Kanton"> <span>Kanton</span>
-            </label>
-          </div>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="Gemeinde"> <span>Gemeinde</span>
-            </label>
-          </div>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="Wohnviertel"> <span>Wohnviertel</span>
-            </label>
-          </div>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="Bezirk"> <span>Bezirk</span>
-            </label>
-          </div>          
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="Block"> <span>Block</span>
-            </label>
-          </div>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="Blockseite"> <span>Blockseite</span>
-            </label>
-          </div>
+          
+          <!-- Checkboxes are dynamically added here -->
+          
         </fieldset>
-      </div>
+      </div>          
+
+
 
 
 
@@ -134,27 +108,27 @@
           </div>
           <div class="checkbox">
             <label>
-              <input type="checkbox" value="Einkommen"> <span> Einkommen </span>
+              <input type="checkbox" value="Einkommen"> <span>Einkommen</span>
             </label>
           </div>
           <div class="checkbox">
             <label>
-              <input type="checkbox" value="EuroAirport"> <span> EuroAirport </span>
+              <input type="checkbox" value="EuroAirport"> <span>EuroAirport</span>
             </label>
           </div>
           <div class="checkbox">
             <label>
-              <input type="checkbox" value="Geschlecht"> <span> Geschlecht </span>
+              <input type="checkbox" value="Geschlecht"> <span>Geschlecht</span>
             </label>
           </div>
           <div class="checkbox">
             <label>
-              <input type="checkbox" value="Haushalt"> <span> Haushalt </span>
+              <input type="checkbox" value="Haushalt"> <span>Haushalt</span>
             </label>
           </div>
           <div class="checkbox">
             <label>
-              <input type="checkbox" value="Ausländer"> <span> Ausländer </span>
+              <input type="checkbox" value="Ausländer"> <span>Ausländer</span>
             </label>
           </div>
           <div class="checkbox">
@@ -211,6 +185,18 @@
         </div>
       </div>
     </div>
+  </script>
+  
+  <script id="checkbox-template" type="text/html">
+  	<div class="checkbox">
+      <label>
+        <input type="checkbox" value="<%= value %>"> <span><%= value %></span>
+      </label>
+  	</div>
+  </script>
+
+  <script id="option-template" type="text/html">
+      <option value="<%= key %>"><%= value %></option>
   </script>
 
 </body>

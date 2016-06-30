@@ -13,36 +13,11 @@
 
 $(document).ready(function(){
 
+  renderRaeumlicheGliederung(); 
+  renderThema();
   initFilters();
-
-  var afterFilter = function(result, jQ){
-    //$('#total_movies').text(result.length);
     
-    /*
-    * Add Counts in brackets after each checkbox
-    * @param {String} selector - CSS Selector String
-    * @param {String} key - Key in json data for which occurrences are to be counted
-    */
-    var updateCounts = function(result, jQ, selector, key){
-          var checkboxes  = $(selector);
 
-          checkboxes.each(function(){
-            
-            var c = $(this), count = 0
-
-            if(result.length > 0){
-              var queryString = new Object();
-              queryString[key] = c.val();
-              count = jQ.where(queryString).count;
-            }
-            c.next().text(c.val() + ' (' + count + ')')
-          });      
-    }
-
-    updateCounts(result, jQ, '#raeumlicheGliederung_criteria :input:gt(0)', 'raeumlicheGliederung');
-    updateCounts(result, jQ, '#schlagwort_criteria :input:gt(0)', 'schlagwort');   
-    
-  }
   
   //var FJS = FilterJS.auto(indikatoren); //auto does not seem to work with pagination
   var FJS = FilterJS(indikatoren, '#movies', {
@@ -109,3 +84,80 @@ function getSortOptions(name){
       return {'id': 'asc'};     
   }
 };
+
+
+function renderRaeumlicheGliederung(){
+  var values = ["Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite"];
+
+  var html = $('#checkbox-template').html();
+  var templateFunction = FilterJS.templateBuilder(html);
+  var container = $('#raeumlicheGliederung_criteria');
+
+  $.each(values, function(i, c){
+    container.append(templateFunction({  value: c }))
+  });
+};
+
+
+function renderThema(){
+  var values = ["Bevölkerung", "Raum, Landschaft, Umwelt", "Erwerbsleben", "Volkswirtschaft", "Preise", "Produktion und Handel", "Land- und Forstwirtschaft", "Energie", "Bau- und Wohnungswesen", "Tourismus", "Verkehr", "Finanzmärkte und Banken", "Soziale Sicherheit", "Gesundheit", "Bildung und Wissenschaft", "Kultur und Sport", "Politik", "Öffentliche Finanzen", "Rechtspflege"];
+
+  var html = $('#option-template').html();
+  var templateFunction = FilterJS.templateBuilder(html);
+  var container = $('#thema_filter');
+
+  $.each(values, function(i, c){
+    var themaName = (i+1) + " " + c;
+    container.append(templateFunction({ key: c, value: themaName }))
+  });
+    
+};
+
+  var afterFilter = function(result, jQ){
+    //$('#total_movies').text(result.length);
+    
+    /*
+    * Add Counts in brackets after each checkbox
+    * @param {String} selector - CSS Selector String
+    * @param {String} key - Key in json data for which occurrences are to be counted
+    */
+    var updateCheckboxCounts = function(result, jQ, selector, key){
+          var checkboxes  = $(selector);
+
+          checkboxes.each(function(){
+            
+            var c = $(this), count = 0
+
+            if(result.length > 0){
+              var queryString = new Object();
+              queryString[key] = c.val();
+              count = jQ.where(queryString).count;
+            }
+            c.next().text(c.val() + ' (' + count + ')')
+          });      
+    }
+   
+    var updateOptionCounts = function(result, jQ, selector, key){
+          var checkboxes  = $(selector);
+
+          checkboxes.each(function(){
+            
+            var c = $(this), count = 0
+
+            if(result.length > 0){
+              var queryString = new Object();
+              queryString[key] = c.val();              
+              count = jQ.where(queryString).count;
+              console.log(queryString);
+              console.log(count);
+            }
+            //c.next().text(c.val() + ' (' + count + ')')
+          });      
+    }
+    
+
+    updateCheckboxCounts(result, jQ, '#raeumlicheGliederung_criteria :input:gt(0)', 'raeumlicheGliederung');
+    updateCheckboxCounts(result, jQ, '#schlagwort_criteria :input:gt(0)', 'schlagwort');   
+    updateOptionCounts(result, jQ, '#thema_filter > option:gt(0)', 'thema');
+    
+  };
