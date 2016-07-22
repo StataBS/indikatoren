@@ -1,4 +1,4 @@
-﻿var indikatoren = [{"url": "charts/Grafik-I.50.1.0005.html",
+﻿var indikatoren = [{"url": "charts/I.50.1.0005.html",
 "title":"Indikator 0.1.a",
 "kuerzel":"I.50.1.0005",
 "image":"images/I.50.1.0005.jpg",
@@ -14,7 +14,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.09.5.0001.html",
+{"url": "charts/I.09.5.0001.html",
 "title":"Indikator 0.1.b-1",
 "kuerzel":"I.09.5.0001",
 "image":"images/I.09.5.0001.jpg",
@@ -30,7 +30,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.09.4.0003.html",
+{"url": "charts/I.09.4.0003.html",
 "title":"Indikator 0.1.b-2",
 "kuerzel":"I.09.4.0003",
 "image":"images/I.09.4.0003.jpg",
@@ -46,7 +46,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.09.5.0003.html",
+{"url": "charts/I.09.5.0003.html",
 "title":"Indikator 0.1.b-3",
 "kuerzel":"I.09.5.0003",
 "image":"images/I.09.5.0003.jpg",
@@ -62,7 +62,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.09.1.0002.html",
+{"url": "charts/I.09.1.0002.html",
 "title":"Indikator 0.1.c",
 "kuerzel":"I.09.1.0002",
 "image":"images/I.09.1.0002.jpg",
@@ -78,7 +78,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.01.1.0023.html",
+{"url": "charts/I.01.1.0023.html",
 "title":"Indikator 1.1.a",
 "kuerzel":"I.01.1.0023",
 "image":"images/I.01.1.0023.jpg",
@@ -94,7 +94,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.09.1.0003.html",
+{"url": "charts/I.09.1.0003.html",
 "title":"Indikator 1.2.a",
 "kuerzel":"I.09.1.0003",
 "image":"images/I.09.1.0003.jpg",
@@ -110,7 +110,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.09.1.0004.html",
+{"url": "charts/I.09.1.0004.html",
 "title":"Indikator 1.2.b",
 "kuerzel":"I.09.1.0004",
 "image":"images/I.09.1.0004.jpg",
@@ -126,7 +126,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.09.1.0013.html",
+{"url": "charts/I.09.1.0013.html",
 "title":"Indikator 1.2.c-1",
 "kuerzel":"I.09.1.0013",
 "image":"images/I.09.1.0013.jpg",
@@ -142,7 +142,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.09.1.0005.html",
+{"url": "charts/I.09.1.0005.html",
 "title":"Indikator 1.2.c-2",
 "kuerzel":"I.09.1.0005",
 "image":"images/I.09.1.0005.jpg",
@@ -158,7 +158,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.09.3.0002.html",
+{"url": "charts/I.09.3.0002.html",
 "title":"Indikator 1.2.e",
 "kuerzel":"I.09.3.0002",
 "image":"images/I.09.3.0002.jpg",
@@ -174,7 +174,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.09.4.0004.html",
+{"url": "charts/I.09.4.0004.html",
 "title":"Indikator 1.2.f-1",
 "kuerzel":"I.09.4.0004",
 "image":"images/I.09.4.0004.jpg",
@@ -190,7 +190,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.09.4.0005.html",
+{"url": "charts/I.09.4.0005.html",
 "title":"Indikator 1.2.f-2",
 "kuerzel":"I.09.4.0005",
 "image":"images/I.09.4.0005.jpg",
@@ -206,7 +206,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.09.1.0006.html",
+{"url": "charts/I.09.1.0006.html",
 "title":"Indikator 1.3.a",
 "kuerzel":"I.09.1.0006",
 "image":"images/I.09.1.0006.jpg",
@@ -222,7 +222,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.01.2.0001.html",
+{"url": "charts/I.01.2.0001.html",
 "title":"Indikator 1.4.a-1",
 "kuerzel":"I.01.2.0001",
 "image":"images/I.01.2.0001.jpg",
@@ -238,7 +238,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.01.2.0002.html",
+{"url": "charts/I.01.2.0002.html",
 "title":"Indikator 1.4.a2",
 "kuerzel":"I.01.2.0002",
 "image":"images/I.01.2.0002.jpg",
@@ -254,7 +254,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.09.1.0007.html",
+{"url": "charts/I.09.1.0007.html",
 "title":"Indikator 1.4.b",
 "kuerzel":"I.09.1.0007",
 "image":"images/I.09.1.0007.jpg",
@@ -270,7 +270,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.50.1.0006.html",
+{"url": "charts/I.50.1.0006.html",
 "title":"Indikator 1.4.c",
 "kuerzel":"I.50.1.0006",
 "image":"images/I.50.1.0006.jpg",
@@ -286,7 +286,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.01.1.0024.html",
+{"url": "charts/I.01.1.0024.html",
 "title":"Indikator 1.7.a",
 "kuerzel":"I.01.1.0024",
 "image":"images/I.01.1.0024.jpg",
@@ -302,7 +302,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.09.1.0008.html",
+{"url": "charts/I.09.1.0008.html",
 "title":"Indikator 2.1.a",
 "kuerzel":"I.09.1.0008",
 "image":"images/I.09.1.0008.jpg",
@@ -318,7 +318,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.18.2.0001.html",
+{"url": "charts/I.18.2.0001.html",
 "title":"Indikator 2.1.b",
 "kuerzel":"I.18.2.0001",
 "image":"images/I.18.2.0001.jpg",
@@ -334,7 +334,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.01.1.0025.html",
+{"url": "charts/I.01.1.0025.html",
 "title":"Indikator 2.2.a",
 "kuerzel":"I.01.1.0025",
 "image":"images/I.01.1.0025.jpg",
@@ -350,7 +350,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.02.1.0015.html",
+{"url": "charts/I.02.1.0015.html",
 "title":"Indikator 3.2.a",
 "kuerzel":"I.02.1.0015",
 "image":"images/I.02.1.0015.jpg",
@@ -366,7 +366,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.50.1.0007.html",
+{"url": "charts/I.50.1.0007.html",
 "title":"Indikator 3.2.b",
 "kuerzel":"I.50.1.0007",
 "image":"images/I.50.1.0007.jpg",
@@ -382,7 +382,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.50.1.0008.html",
+{"url": "charts/I.50.1.0008.html",
 "title":"Indikator 3.3.a",
 "kuerzel":"I.50.1.0008",
 "image":"images/I.50.1.0008.jpg",
@@ -398,7 +398,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.13.2.0002.html",
+{"url": "charts/I.13.2.0002.html",
 "title":"Indikator 4.1.a",
 "kuerzel":"I.13.2.0002",
 "image":"images/I.13.2.0002.jpg",
@@ -414,7 +414,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.13.2.0003.html",
+{"url": "charts/I.13.2.0003.html",
 "title":"Indikator 4.1.b",
 "kuerzel":"I.13.2.0003",
 "image":"images/I.13.2.0003.jpg",
@@ -430,7 +430,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.13.3.0002.html",
+{"url": "charts/I.13.3.0002.html",
 "title":"Indikator 4.1.e",
 "kuerzel":"I.13.3.0002",
 "image":"images/I.13.3.0002.jpg",
@@ -446,7 +446,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.50.1.0009.html",
+{"url": "charts/I.50.1.0009.html",
 "title":"Indikator 4.2.a",
 "kuerzel":"I.50.1.0009",
 "image":"images/I.50.1.0009.jpg",
@@ -462,7 +462,7 @@
 "stufe4":"",
 "stufe5":"" 
 },
-{"url": "charts/Grafik-I.50.4.0001.html",
+{"url": "charts/I.50.4.0001.html",
 "title":"Indikator 4.2.c",
 "kuerzel":"I.50.4.0001",
 "image":"images/I.50.4.0001.jpg",
@@ -472,22 +472,6 @@
 "kennzahlenset":"Wohnraum",
 "raeumlicheGliederung":[],
 "schlagwort":["Gebäude","Haushalt","Zufriedenheit"],
-"stufe1":"",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"" 
-},
-{"url": "charts/Grafik-BI.09.0021.html",
-"title":"Indikator ",
-"kuerzel":"BI.09.0021",
-"image":"images/BI.09.0021.jpg",
-"description":"Anzahl Wohnungen nach Zimmerzahl und Fläche in m2",
-"id":"4751",
-"thema":"09 Bau- und Wohnungswesen",
-"kennzahlenset":"Wohnraum",
-"raeumlicheGliederung":[],
-"schlagwort":[],
 "stufe1":"",
 "stufe2":"",
 "stufe3":"",

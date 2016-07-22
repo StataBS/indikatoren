@@ -1,10 +1,10 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+﻿<!DOCTYPE html> 
 
-<title>Indikator 1.2.c-1: Nettowohnungsproduktion</title>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Indikator 0.1.c: Wohnungsbelegung nach Belegungsart</title>
 
   <style type="text/css">
     a {
@@ -27,7 +27,7 @@
 
 </head>
 
-<body style="margin: 0;" class="show-page">
+<body style="margin: 0;">
   <!-- Google Tag Manager -->
   <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KGK459"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -39,30 +39,17 @@
   <!-- End Google Tag Manager -->
   <div id="container" style="width:100%; height:100%;max-width:1000px;margin: 0 auto"></div>
 
-<script type="text/javascript">
-function parseData(completeHandler, chartOptions, data) {
+  <script type="text/javascript">
+    function parseData(completeHandler, chartOptions, data) {
 	try {
 		var dataOptions = {
   "seriesMapping": [
     {
       "x": 0
-    },
-    {
-      "x": 0
-    },
-    {
-      "x": 0
-    },
-    {
-      "x": 0
     }
   ],
   "columnTypes": [
-    "float",
-    "float",
-    "float",
-    "float",
-    "float"
+    "string"
   ],
   csv: data
 };
@@ -82,10 +69,9 @@ Highcharts.setOptions({
   }
 });
 
-
-	var template = {
-		chart: {
-			renderTo: 'container',
+var template = {
+	chart: {
+		renderTo: 'container',
     events:{
     load: function() {
         this.credits.element.onclick = function() {
@@ -96,20 +82,23 @@ Highcharts.setOptions({
           }
         }
     }
-		},
-		navigation: {
-			menuItemStyle: {
-				fontFamily: Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
-				padding: '2px 10px'
-			}
+	},
+	navigation: {
+		menuItemStyle: {
+			fontFamily: Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
+			padding: '2px 10px'
 		}
-	};
-
+	}
+};
 var chartOptions = {
   "plotOptions": {
     "series": {
-      "stacking": null,
-      "groupPadding": 0.05
+      "dataLabels": {
+        "style": {
+          "fontSize": 10
+        }
+      },
+      "stacking": "percent"
     }
   },
   "yAxis": {
@@ -121,7 +110,7 @@ var chartOptions = {
       "text": null
     },
     "labels": {
-      "format": "{value:,.0f}",
+      "format": "{value}%",
       "style": {
         "color": "#000000"
       }
@@ -139,24 +128,16 @@ var chartOptions = {
         "color": "#000000"
       }
     },
-    "tickColor": "#FFFFFF",
-    "tickInterval": 1
+    "tickColor": "#FFFFFF"
   },
   tooltip: {
     pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.2f}%)<br/>',
     shared: false
   },
-  "exporting": {
-	    "sourceWidth": null,
-	    "scale": 5,
-	    buttons: {
-	      contextButton: {
-	        menuItems: Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8)
-	      }
-	    }
-	  },
+  "exporting": {	    "sourceWidth": null,	    "scale": 5,	    buttons: {	      contextButton: {	        menuItems: Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8)	      }	    }	  },
   "credits": {
     "text": "Quelle: Kantonale Gebäude- und Wohnungsstatistik;<br/>Statistisches Amt des Kantons Basel-Stadt",
+    "href": "http://www.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -170,45 +151,40 @@ var chartOptions = {
     }
   },
   "legend": {
-		"verticalAlign": "top",
-		"floating": false,
-		"y": 20,
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
-
   "series": [
     {
-      "color": "#2e1435",
-      "marker": {
-        "enabled": false
-      },
-      "index": 3,
-      "type": "line"
-    },
-    {
-      "color": "#68ab2b",
-      "index": 0
-    },
-    {
-      "color": "#cd9c00",
+      "color": "#73B97C",
       "index": 1
     },
     {
-      "color": "#008ac3",
+      "color": "#008AC3",
       "index": 2
+    },
+    {
+      "color": "#CD9C00",
+      "index": 3
+    },
+    {
+      "color": "#662673",
+      "index": 0
     }
   ],
-    "title": {
+  "title": {
     "style": {
       "fontSize": 14,
       "fontWeight": "bold",
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Indikator 1.2.c-1: Nettowohnungsproduktion",
+    "text": "Indikator 0.1.c: Wohnungsbelegung nach Belegungsart",
     "align": "left"
   },
   "subtitle": {
@@ -222,57 +198,37 @@ var chartOptions = {
     "text": "",
     "align": "left"
   },
-
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "marginBottom": 65,
-    "marginTop": 100,
+    "marginTop": 75,
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "xy",
+    "zoomType": "y",
     "type": "column"
   }
 };
 
 
-$.get("../data/Grafik-1.2.c1.csv", function(data){
-parseData(function (dataOptions) {
-	// Merge series configs
-	if (chartOptions.series && dataOptions) {
-		Highcharts.each(chartOptions.series, function (series, i) {
-			chartOptions.series[i] = Highcharts.merge(series, dataOptions.series[i]);
-		});
-	}
-	var options = Highcharts.merge(dataOptions, chartOptions, template);
-	var chart = new Highcharts['Chart'](options);
-}, chartOptions, data);
+$.get("../data/I.09.1.0002.csv", function(data){
+  parseData(function (dataOptions) {
+    // Merge series configs
+    if (chartOptions.series && dataOptions) {
+      Highcharts.each(chartOptions.series, function (series, i) {
+        chartOptions.series[i] = Highcharts.merge(series, dataOptions.series[i]);
+      });
+    }
+    var options = Highcharts.merge(dataOptions, chartOptions, template);
+    var chart = new Highcharts['Chart'](options);
+  }, chartOptions, data);
 
 });
+  </script><table align="center" width="470" border="0" cellspacing="0" cellpadding="0">    <tr>     <td width="2">&nbsp;</td>     <td height="5">&nbsp;</td>  </tr>   <tr>    <td valign="middle">&nbsp;</td>     <td height="20" valign="middle"><h1>Lesehilfe</h1></td>  </tr>   <tr>    <td>&nbsp;</td>     <td><p>Der Anteil der selbstgenutzten Eigentümerwohnungen, das heisst Wohnungen, welche vom Wohnungs- bzw. Gebäudeeigentümer selber bewohnt werden, ist nahezu unverändert.</p></td>  </tr>  <tr>   <td valign="middle">&nbsp;</td>     <td height="10" valign="middle"><hr /></td>  </tr>    <tr>     <td>&nbsp;</td>     <td height="5">&nbsp;</td>  </tr></table>
 
 
-</script>
-<table align="center" width="470" border="0" cellspacing="0" cellpadding="0">
-
-   <tr>
-     <td width="2">&nbsp;</td>
-
-    <td height="5">&nbsp;</td>
-  </tr>
-
-  <tr>
-    <td valign="middle">&nbsp;</td>
-
-    <td height="20" valign="middle"><h1>Lesehilfe</h1></td>
-  </tr>
-
-  <tr>
-    <td>&nbsp;</td>
-
-    <td><p>2015 wurde dank einer sehr hohen Anzahl Neubauten trotz verhältnismässig vielen Abbrüchen eine Nettowohnungsproduktion von über 600 Wohnungen verzeichnet.</p></td>
-  </tr>
-</table>
 </body>
+
 </html>
