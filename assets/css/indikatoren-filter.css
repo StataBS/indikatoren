@@ -41,6 +41,7 @@ legend{
     min-height: 190px;
     border-color: #cccccc;
     border-radius: 0;
+    margin-bottom: 8px;
 }
 
 .thumbnail .caption{
