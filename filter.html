@@ -88,21 +88,23 @@
     <div class="col-sm-9">
       <div class="row">
         <div class="content col-sm-12">
-          <div class="col-sm-5">
-              <form class="form-inline" role="form">
-                <div class="form-group">
-                  <label for="sortBy" class="sr-only">Sortierung:</label>
-                  <select class="form-control" id="sortBy">
-                  <option value="thema_asc">Sortiert nach Thema 1-50</option>
-                  <option value="thema_desc">Sortiert nach Thema 50-1</option>
-                  </select>
-                </div>
-              </form>
-            </div>          
-          <div class="col-sm-1 per-page">
-            Per Page: <span id="per_page" class="content"></span>
-          </div>
-          <div id="pagination" class="movies-pagination col-sm-6 pull-right"></div>
+          <div class="row small-gutter">
+            <div class="col-sm-5">
+                <form class="form-inline" role="form">
+                  <div class="form-group">
+                    <label for="sortBy" class="sr-only">Sortierung:</label>
+                    <select class="form-control" id="sortBy">
+                    <option value="thema_asc">Sortiert nach Thema 1-50</option>
+                    <option value="thema_desc">Sortiert nach Thema 50-1</option>
+                    </select>
+                  </div>
+                </form>
+              </div>          
+            <div class="col-sm-1 per-page">
+              Per Page: <span id="per_page" class="content"></span>
+            </div>
+            <div id="pagination" class="movies-pagination col-sm-6 pull-right"></div>
+          </div> 
         </div>
       </div>
       <div class="movies content row small-gutter" id="movies" fjs-items="template=#movie-template"></div>

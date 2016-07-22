@@ -1,6 +1,6 @@
 div, span, legend, label, h5, .form-control, .btn{
     font-size: 10pt;
-    font-weight: normal;
+    font-weight: normal;    
 }
 
 .well, 
@@ -38,7 +38,7 @@ legend{
 }
 
 .thumbnail {    
-    min-height: 190px;
+    min-height: 164px;
     border-color: #cccccc;
     border-radius: 0;
     margin-bottom: 8px;
@@ -80,6 +80,8 @@ ul.pagination{
 .thumbnail>.caption>img,
 .thumbnail>.caption>h5{
     cursor: pointer;
+    margin-top: 4px;
+    margin-bottom: 2px;
 } 
 
 .small-gutter > [class*='col-'] {
