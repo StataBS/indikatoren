@@ -38,23 +38,72 @@
         <span class="glyphicon glyphicon-search search-icon"></span>
       </div>
 
+
+
       <div class="well">
         <fieldset id="thema_criteria">
           <legend>Thema</legend>
-          <select class="form-control" id="thema_filter">
-              <option value="all"></option>
-              <!-- Options are dynamically added here -->
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="All" id="all_thema">
+              <span>Alle</span>
+            </label>
+          </div>
+          <!-- Checkboxes are dynamically added here -->         
+        </fieldset>
+      </div>
+
+      <div class="well">
+        <fieldset id="schlagwort_criteria">
+          <legend>Schlagwort</legend>
+          <select class="form-control" id="schlagwort_filter">
+              <option value="all"></option>    
             </select>
         </fieldset>
       </div>
 
       <div class="well">
+        <fieldset id="raeumlicheGliederung_criteria">
+          <legend>Räumliche Gliederung</legend>
+          <select class="form-control" id="raeumlicheGliederung_filter">
+              <option value="all"></option>    
+            </select>
+        </fieldset>
+      </div>
+
+
+
+<!--
+      <div class="well">
+        <fieldset id="thema_criteria">
+          <legend>Thema</legend>
+          <select class="form-control" id="thema_filter">
+              <option value="all"></option>    
+            </select>
+        </fieldset>
+      </div>
+
+
+      <div class="well">
         <fieldset id="kennzahlenset_criteria">
           <legend>Kennzahlenset</legend>
           <select class="form-control" id="kennzahlenset_filter">
-              <option value="all"></option>
-              <!-- Options are dynamically added here -->
+              <option value="all"></option>    
             </select>
+        </fieldset>
+      </div>
+
+
+
+      <div class="well">
+        <fieldset id="schlagwort_criteria">
+          <legend>Schlagwort</legend>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="All" id="all_schlagwort">
+              <span>Alle</span>
+            </label>
+          </div>         
         </fieldset>
       </div>
 
@@ -67,29 +116,10 @@
               <input type="checkbox" value="All" id="all_raeumlicheGliederung">
               <span>Alle</span>
             </label>
-          </div>          
-          <!-- Checkboxes are dynamically added here -->          
+          </div>                       
         </fieldset>
       </div>          
-
-
-
-
-
-      <div class="well">
-        <fieldset id="schlagwort_criteria">
-          <legend>Schlagwort</legend>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="All" id="all_schlagwort">
-              <span>Alle</span>
-            </label>
-          </div>
-          <!-- Checkboxes are dynamically added here -->         
-        </fieldset>
-      </div>
-
-
+-->
 
     </div>
 
@@ -122,7 +152,7 @@
   </div>
     
   <script id="movie-template" type="text/html">
-    <div class="col-sm-4 movie">
+    <div class="col-sm-3 movie">
       <div class="thumbnail">
         <div class="caption">
           <h5 onclick="eModal.iframe({'url': '<%= url.replace('https://', '//') %>', 'title': ' ', 'size': 'md'});"><%= description %></h5>                                          

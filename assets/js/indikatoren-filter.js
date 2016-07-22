@@ -13,15 +13,13 @@
 
 $(document).ready(function(){
 
-  renderRaeumlicheGliederung(); 
   renderThema();
   renderSchlagworte();
-  renderKennzahlenset();
-  
+  renderRaeumlicheGliederung(); 
+  //renderKennzahlenset();
   checkCheckboxes();
     
-  
-    var FJS = FilterJS(indikatoren, '#movies', {
+  var FJS = FilterJS(indikatoren, '#movies', {
     template: '#movie-template',
     search: { ele: '#searchbox' },
     callbacks: {
@@ -32,17 +30,18 @@ $(document).ready(function(){
       container: '#pagination',
       visiblePages: 5,
       perPage: {
-        values: [12, 30, 100],
+        values: [16, 30, 100],
         container: '#per_page'
       },
     }
 
   });
 
-  FJS.addCriteria({field: "thema", ele: "#thema_filter", all: "all"});
-  FJS.addCriteria({field: "kennzahlenset", ele: "#kennzahlenset_filter", all: "all"});
-  FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_criteria input:checkbox"});
-  FJS.addCriteria({field: "schlagwort", ele: "#schlagwort_criteria input:checkbox",});
+  FJS.addCriteria({field: "thema", ele: "#thema_criteria input:checkbox"});
+  FJS.addCriteria({field: "schlagwort", ele: "#schlagwort_filter", all: "all"});
+  FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});  
+  //FJS.addCriteria({field: "kennzahlenset", ele: "#kennzahlenset_filter", all: "all"});
+  
 
   var sortOptions = {'id': 'asc'};
 
@@ -63,14 +62,9 @@ $(document).ready(function(){
 });
 
 function checkCheckboxes(){
-  $('#schlagwort_criteria :checkbox').prop('checked', true);
-  $('#all_schlagwort').on('click', function(){
-    $('#schlagwort_criteria :checkbox').prop('checked', $(this).is(':checked'));
-  });
-
-  $('#raeumlicheGliederung_criteria :checkbox').prop('checked', true);
-  $('#all_raeumlicheGliederung').on('click', function(){
-    $('#raeumlicheGliederung_criteria :checkbox').prop('checked', $(this).is(':checked'));
+  $('#thema_criteria :checkbox').prop('checked', true);
+  $('#all_thema').on('click', function(){
+    $('#thema_criteria :checkbox').prop('checked', $(this).is(':checked'));
   });
 };
 
@@ -90,13 +84,12 @@ function getSortOptions(name){
 function renderRaeumlicheGliederung(){
   var values = ["Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite"];
 
-  var html = $('#checkbox-template').html();
+  var html = $('#option-template').html();
   var templateFunction = FilterJS.templateBuilder(html);
-  var container = $('#raeumlicheGliederung_criteria');
+  var container = $('#raeumlicheGliederung_filter');
 
-  //render checkboxes
   $.each(values, function(i, c){
-    container.append(templateFunction({  value: c }))
+    container.append(templateFunction({ key: c,  value: c }))
   });
 };
 
@@ -104,20 +97,15 @@ function renderRaeumlicheGliederung(){
 function renderThema(){
   var values = ["Bevölkerung", "Raum, Landschaft, Umwelt", "Erwerbsleben", "Volkswirtschaft", "Preise", "Produktion und Handel", "Land- und Forstwirtschaft", "Energie", "Bau- und Wohnungswesen", "Tourismus", "Verkehr", "Finanzmärkte und Banken", "Soziale Sicherheit", "Gesundheit", "Bildung und Wissenschaft", "Kultur und Sport", "Politik", "Öffentliche Finanzen", "Rechtspflege"];
 
-  var html = $('#option-template').html();
+  var html = $('#checkbox-template').html();
   var templateFunction = FilterJS.templateBuilder(html);
-  var container = $('#thema_filter');
-  
-  //render options  
+  var container = $('#thema_criteria');
   
   $.each(values, function(i, c){
     //var themaName = (i+1) + " " + c;
     //container.append(templateFunction({ key: c, value: themaName }))
-    container.append(templateFunction({ key: c, value: c }))
+    container.append(templateFunction({ value: c }))
   });
-  
-  
-    
 };
 
 
@@ -130,16 +118,16 @@ function renderSchlagworte(){
   //get unique values  
   var schlagworteUnique = schlagworteAll.filter(function(item, i, ar){ return ar.indexOf(item) === i; });
 
-  var html = $('#checkbox-template').html();
+  var html = $('#option-template').html();
   var templateFunction = FilterJS.templateBuilder(html);
-  var container = $('#schlagwort_criteria');
-  //render checkboxes
+  var container = $('#schlagwort_filter');
+  //render options
   $.each(schlagworteUnique, function(i, c){
-    container.append(templateFunction({  value: c }))
+    container.append(templateFunction({ key: c, value: c }))
   });    
 };
 
-
+/*
 function renderKennzahlenset(){
   var indikatorenJQ = JsonQuery(indikatoren);
   var kennzahlensetAll = indikatorenJQ.pluck('kennzahlenset').all;
@@ -155,6 +143,7 @@ function renderKennzahlenset(){
     container.append(templateFunction({ key: c, value: c }))
   });
 };
+*/
 
 var afterFilter = function(result, jQ){
     //$('#total_movies').text(result.length);
@@ -202,9 +191,9 @@ var afterFilter = function(result, jQ){
     }
     
 
-    updateCheckboxCounts(result, jQ, '#raeumlicheGliederung_criteria :input:gt(0)', 'raeumlicheGliederung');
-    updateCheckboxCounts(result, jQ, '#schlagwort_criteria :input:gt(0)', 'schlagwort');   
-    updateOptionCounts(result, jQ, '#thema_filter > option:gt(0)', 'thema');
-    updateOptionCounts(result, jQ, '#kennzahlenset_filter > option:gt(0)', 'kennzahlenset');
+    updateOptionCounts(result, jQ, '#raeumlicheGliederung_filter > option:gt(0)', 'raeumlicheGliederung');
+    updateOptionCounts(result, jQ, '#schlagwort_filter > option:gt(0)', 'schlagwort');   
+    updateCheckboxCounts(result, jQ, '#thema_criteria :input:gt(0)', 'thema');
+    //updateOptionCounts(result, jQ, '#kennzahlenset_filter > option:gt(0)', 'kennzahlenset');
     
   };
