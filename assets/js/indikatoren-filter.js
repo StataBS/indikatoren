@@ -71,10 +71,10 @@ function checkCheckboxes(){
 
 function getSortOptions(name){
   switch(name){
-    case 'description_asc': 
-      return {'description': 'asc'};
-    case 'description_desc': 
-      return {'description': 'desc'};         
+    case 'thema_asc': 
+      return {'thema': 'asc'};
+    case 'thema_desc': 
+      return {'thema': 'desc'};         
     default : 
       return {'id': 'asc'};     
   }
