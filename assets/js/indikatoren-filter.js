@@ -146,54 +146,28 @@ function renderKennzahlenset(){
 */
 
 var afterFilter = function(result, jQ){
-    //$('#total_movies').text(result.length);
-    
-    /*
-    * Add Counts in brackets after each checkbox
-    * @param {String} selector - CSS Selector String
-    * @param {String} key - Key in json data for which occurrences are to be counted
-    */
-    var updateCheckboxCounts = function(result, jQ, selector, key){
+    //$('#total_movies').text(result.length);    
+
+    //Add Counts in brackets after each option
+    var updateCounts = function(result, jQ, selector, key, renderFunction){
           var checkboxes  = $(selector);
 
-          checkboxes.each(function(){
-            
+          checkboxes.each(function(){            
             var c = $(this), count = 0
-
-            if(result.length > 0){
-              var queryString = new Object();
-              queryString[key] = c.val();
-              count = jQ.where(queryString).count;
-            }
-            c.next().text(c.val() + ' (' + count + ')')
-          });      
-    }
-
-    /*
-    * Add Counts in brackets after each option
-    * @param {String} selector - CSS Selector String
-    * @param {String} key - Key in json data for which occurrences are to be counted
-    */   
-    var updateOptionCounts = function(result, jQ, selector, key){
-          var checkboxes  = $(selector);
-
-          checkboxes.each(function(){
-            
-            var c = $(this), count = 0
-
             if(result.length > 0){
               var queryString = new Object();
               queryString[key] = c.val();              
               count = jQ.where(queryString).count;
             }
-            c.text(c.val() + ' (' + count + ')')   
+            renderFunction(c, count);
           });      
     }
-    
 
-    updateOptionCounts(result, jQ, '#raeumlicheGliederung_filter > option:gt(0)', 'raeumlicheGliederung');
-    updateOptionCounts(result, jQ, '#schlagwort_filter > option:gt(0)', 'schlagwort');   
-    updateCheckboxCounts(result, jQ, '#thema_criteria :input:gt(0)', 'thema');
-    //updateOptionCounts(result, jQ, '#kennzahlenset_filter > option:gt(0)', 'kennzahlenset');
-    
+    //define how counts are rendered 
+    var optionCountRenderFunction = function(c, count){c.text(c.val() + ' (' + count + ')') };
+    var checkboxCountRenderFunction = function(c, count){c.next().text(c.val() + ' (' + count + ')')};
+
+    updateCounts(result, jQ, '#thema_criteria :input:gt(0)', 'thema', checkboxCountRenderFunction);    
+    updateCounts(result, jQ, '#schlagwort_filter > option:gt(0)', 'schlagwort', optionCountRenderFunction);    
+    updateCounts(result, jQ, '#raeumlicheGliederung_filter > option:gt(0)', 'raeumlicheGliederung', optionCountRenderFunction);
   };
