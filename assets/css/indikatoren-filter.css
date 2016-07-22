@@ -80,3 +80,8 @@ ul.pagination{
 .thumbnail>.caption>h5{
     cursor: pointer;
 } 
+
+.small-gutter > [class*='col-'] {
+    padding-right: 4px;
+    padding-left: 4px;
+}
