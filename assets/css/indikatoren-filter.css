@@ -82,6 +82,7 @@ ul.pagination{
 } 
 
 .small-gutter > [class*='col-'] {
+    /* https://scotch.io/bar-talk/bootstrap-3-tips-and-tricks-you-still-might-not-know */
     padding-right: 4px;
     padding-left: 4px;
 }

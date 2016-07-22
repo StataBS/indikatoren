@@ -71,19 +71,7 @@
         </fieldset>
       </div>
 
-
-
-<!--
-      <div class="well">
-        <fieldset id="thema_criteria">
-          <legend>Thema</legend>
-          <select class="form-control" id="thema_filter">
-              <option value="all"></option>    
-            </select>
-        </fieldset>
-      </div>
-
-
+      <!--
       <div class="well">
         <fieldset id="kennzahlenset_criteria">
           <legend>Kennzahlenset</legend>
@@ -92,34 +80,7 @@
             </select>
         </fieldset>
       </div>
-
-
-
-      <div class="well">
-        <fieldset id="schlagwort_criteria">
-          <legend>Schlagwort</legend>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="All" id="all_schlagwort">
-              <span>Alle</span>
-            </label>
-          </div>         
-        </fieldset>
-      </div>
-
-
-      <div class="well">
-        <fieldset id="raeumlicheGliederung_criteria">
-          <legend>Räumliche Gliederung</legend>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="All" id="all_raeumlicheGliederung">
-              <span>Alle</span>
-            </label>
-          </div>                       
-        </fieldset>
-      </div>          
--->
+      -->
 
     </div>
 
@@ -155,7 +116,7 @@
     <div class="col-sm-3 movie">
       <div class="thumbnail">
         <div class="caption">
-          <h5 onclick="eModal.iframe({'url': '<%= url.replace('https://', '//') %>', 'title': ' ', 'size': 'md'});"><%= description %></h5>                                          
+          <h5 onclick="eModal.iframe({'url': '<%= url.replace('https://', '//') %>', 'title': ' ', 'size': 'md'});"><%= title %></h5>                                          
           <img src="<%= image %>" alt="<%= title %>: <%= description %>" title="<%= title %>: <%= description %>" class="img-responsive pull-left" onclick="eModal.iframe({'url': '<%= url.replace('https://', '//') %>', 'title': ' ', 'size': 'md'}); "/>
         </div>
       </div>
