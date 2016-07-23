@@ -34,7 +34,7 @@
 
       <div>
         <label class="sr-only" for="searchbox">Search</label>
-        <input type="text" class="form-control" id="searchbox" placeholder="Suche &hellip;" fjs-search>
+        <input type="text" class="form-control" id="searchbox" placeholder="Suche&hellip;" fjs-search>
         <span class="glyphicon glyphicon-search search-icon"></span>
       </div>
 
@@ -70,6 +70,42 @@
             </select>
         </fieldset>
       </div>
+
+
+      <!-- multiselect test -->
+      <div class="well">
+        <fieldset id="test_criteria">
+          <legend>Multiselect Test</legend>
+            <select class="form-control" id="example-getting-started" multiple="multiple">
+                <option value="cheese">Cheese</option>
+                <option value="tomatoes">Tomatoes</option>
+                <option value="mozarella">Mozzarella</option>
+                <option value="mushrooms">Mushrooms</option>
+                <option value="pepperoni">Pepperoni</option>
+                <option value="onions">Onions</option>
+            </select>
+          </fieldset>
+      </div>
+
+
+      <script type="text/javascript">
+          $(document).ready(function() {
+              $('#example-getting-started').multiselect({
+                  buttonWidth: '100%', 
+                  inheritClass: true, 
+                  includeSelectAllOption: true, 
+                  selectAllText: 'Alle', 
+                  enableFiltering: true, 
+                  enableCaseInsensitiveFiltering: true,
+                  filterPlaceholder: 'Suche...'
+                }
+                /*
+                  maxHeight: 400,
+                  dropUp: true,
+                */
+              );
+          });
+      </script>
 
       <!--
       <div class="well">
