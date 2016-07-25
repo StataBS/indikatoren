@@ -17,6 +17,7 @@ $(document).ready(function(){
   renderSchlagworte();
   renderRaeumlicheGliederung(); 
   //renderKennzahlenset();
+  renderTest();
   checkCheckboxes();
     
   var FJS = FilterJS(indikatoren, '#movies', {
@@ -41,6 +42,11 @@ $(document).ready(function(){
   FJS.addCriteria({field: "schlagwort", ele: "#schlagwort_filter", all: "all"});
   FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});  
   //FJS.addCriteria({field: "kennzahlenset", ele: "#kennzahlenset_filter", all: "all"});
+  FJS.addCriteria({field: "test", ele: "#test_criteria input:checkbox", all: "multiselect-all"});
+  //Manually add event handler to multiselect checkboxes. No idea why this is necessary. Todo: fix
+  $("#test_criteria input:checkbox").click(function() {
+    FJS.filter();
+  });
   
 
   var sortOptions = {'id': 'asc'};
@@ -126,6 +132,26 @@ function renderSchlagworte(){
   $.each(schlagworteUnique, function(i, c){
     container.append(templateFunction({ key: c, value: c }))
   });    
+};
+
+function renderTest(){
+  $('#test-filter').multiselect({
+      buttonWidth: '100%', 
+      inheritClass: true, 
+      includeSelectAllOption: true, 
+      selectAllText: 'Alle', 
+      enableFiltering: true, 
+      enableCaseInsensitiveFiltering: true,
+      filterPlaceholder: 'Suche...', 
+      checkboxName: function(option) {
+          return 'multiselect_test';
+      }
+    }
+    /*
+      maxHeight: 400,
+      dropUp: true,
+    */
+  );
 };
 
 /*

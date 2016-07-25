@@ -12,7 +12,8 @@
 "stufe2":"Anteil an Hauptwohnsitznehmern",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"" , 
+"test": "mozzarella"
 },
 {"url": "charts/I.09.5.0001.html",
 "title":"Indikator 0.1.b-1",
@@ -28,7 +29,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "mozzarella"
 },
 {"url": "charts/I.09.4.0003.html",
 "title":"Indikator 0.1.b-2",
@@ -44,7 +46,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "tomatoes"
 },
 {"url": "charts/I.09.5.0003.html",
 "title":"Indikator 0.1.b-3",
@@ -60,7 +63,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "tomatoes" 
 },
 {"url": "charts/I.09.1.0002.html",
 "title":"Indikator 0.1.c",
@@ -76,7 +80,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "onions"
 },
 {"url": "charts/I.01.1.0023.html",
 "title":"Indikator 1.1.a",
@@ -92,7 +97,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "onions" 
 },
 {"url": "charts/I.09.1.0003.html",
 "title":"Indikator 1.2.a",
@@ -108,7 +114,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "onions" 
 },
 {"url": "charts/I.09.1.0004.html",
 "title":"Indikator 1.2.b",
@@ -124,7 +131,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "onions" 
 },
 {"url": "charts/I.09.1.0013.html",
 "title":"Indikator 1.2.c-1",
@@ -140,7 +148,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "onions" 
 },
 {"url": "charts/I.09.1.0005.html",
 "title":"Indikator 1.2.c-2",
@@ -156,7 +165,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "onions" 
 },
 {"url": "charts/I.09.3.0002.html",
 "title":"Indikator 1.2.e",
@@ -172,7 +182,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "onions" 
 },
 {"url": "charts/I.09.4.0004.html",
 "title":"Indikator 1.2.f-1",
@@ -188,7 +199,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "onions" 
 },
 {"url": "charts/I.09.4.0005.html",
 "title":"Indikator 1.2.f-2",
@@ -204,7 +216,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "onions" 
 },
 {"url": "charts/I.09.1.0006.html",
 "title":"Indikator 1.3.a",
@@ -220,7 +233,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "onions" 
 },
 {"url": "charts/I.01.2.0001.html",
 "title":"Indikator 1.4.a-1",
@@ -236,7 +250,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "onions" 
 },
 {"url": "charts/I.01.2.0002.html",
 "title":"Indikator 1.4.a2",
@@ -252,7 +267,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "onions" 
 },
 {"url": "charts/I.09.1.0007.html",
 "title":"Indikator 1.4.b",
@@ -268,7 +284,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "onions" 
 },
 {"url": "charts/I.50.1.0006.html",
 "title":"Indikator 1.4.c",
@@ -284,7 +301,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "mushrooms" 
 },
 {"url": "charts/I.01.1.0024.html",
 "title":"Indikator 1.7.a",
@@ -300,7 +318,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "mushrooms" 
 },
 {"url": "charts/I.09.1.0008.html",
 "title":"Indikator 2.1.a",
@@ -316,7 +335,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "mushrooms" 
 },
 {"url": "charts/I.18.2.0001.html",
 "title":"Indikator 2.1.b",
@@ -332,7 +352,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "mushrooms" 
 },
 {"url": "charts/I.01.1.0025.html",
 "title":"Indikator 2.2.a",
@@ -348,7 +369,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "mushrooms" 
 },
 {"url": "charts/I.02.1.0015.html",
 "title":"Indikator 3.2.a",
@@ -364,7 +386,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "mushrooms" 
 },
 {"url": "charts/I.50.1.0007.html",
 "title":"Indikator 3.2.b",
@@ -380,7 +403,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "mushrooms" 
 },
 {"url": "charts/I.50.1.0008.html",
 "title":"Indikator 3.3.a",
@@ -396,7 +420,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "mushrooms" 
 },
 {"url": "charts/I.13.2.0002.html",
 "title":"Indikator 4.1.a",
@@ -412,7 +437,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "mushrooms" 
 },
 {"url": "charts/I.13.2.0003.html",
 "title":"Indikator 4.1.b",
@@ -428,7 +454,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "mushrooms" 
 },
 {"url": "charts/I.13.3.0002.html",
 "title":"Indikator 4.1.e",
@@ -444,7 +471,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "mushrooms" 
 },
 {"url": "charts/I.50.1.0009.html",
 "title":"Indikator 4.2.a",
@@ -460,7 +488,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"test": "mushrooms" 
 },
 {"url": "charts/I.50.4.0001.html",
 "title":"Indikator 4.2.c",
@@ -476,6 +505,7 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
-},
+"stufe5":"",
+"test": "cheese" 
+}
 ];
