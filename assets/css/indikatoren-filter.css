@@ -91,3 +91,8 @@ ul.pagination{
     padding-right: 4px;
     padding-left: 4px;
 }
+
+.multiselect-clear-filter {
+    border: none;
+    margin-left: 1px !important;
+}
