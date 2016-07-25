@@ -14,10 +14,9 @@
 $(document).ready(function(){
 
   renderThema();
-  renderSchlagworte();
+  renderSchlagwort();
   renderRaeumlicheGliederung(); 
   //renderKennzahlenset();
-  renderTest();
   checkCheckboxes();
     
   var FJS = FilterJS(indikatoren, '#movies', {
@@ -42,11 +41,6 @@ $(document).ready(function(){
   FJS.addCriteria({field: "schlagwort", ele: "#schlagwort_filter", all: "all"});
   FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});  
   //FJS.addCriteria({field: "kennzahlenset", ele: "#kennzahlenset_filter", all: "all"});
-  FJS.addCriteria({field: "test", ele: "#test_criteria input:checkbox", all: "multiselect-all"});
-  //Manually add event handler to multiselect checkboxes. No idea why this is necessary. Todo: fix
-  $("#test_criteria input:checkbox").click(function() {
-    FJS.filter();
-  });
   
 
   var sortOptions = {'id': 'asc'};
@@ -87,18 +81,6 @@ function getSortOptions(name){
 };
 
 
-function renderRaeumlicheGliederung(){
-  var values = ["Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite"];
-
-  var html = $('#option-template').html();
-  var templateFunction = FilterJS.templateBuilder(html);
-  var container = $('#raeumlicheGliederung_filter');
-
-  $.each(values, function(i, c){
-    container.append(templateFunction({ key: c,  value: c }))
-  });
-};
-
 
 function renderThema(){
   
@@ -115,8 +97,37 @@ function renderThema(){
   });
 };
 
+function configureMultiselect(selector){
+  //configure multiselect
+  $(selector).multiselect({
+      buttonWidth: '100%', 
+      inheritClass: true, 
+      includeSelectAllOption: true, 
+      selectAllText: 'Alle', 
+      enableFiltering: true, 
+      enableCaseInsensitiveFiltering: true,
+      filterPlaceholder: 'Suche...', 
+      nonSelectedText: 'Keines ausgewählt', 
+      allSelectedText: 'Alle ausgewählt', 
+      nSelectedText: 'ausgewählt'
+    }
+    /*
+      maxHeight: 400,
+      dropUp: true,
+      checkboxName: function(option) {
+          return 'multiselect_test';
+      }
+      selectAllValue: 'all',
+    */
+  );
 
-function renderSchlagworte(){
+  //check all boxes
+  $(selector).multiselect('selectAll', false);
+  $(selector).multiselect('updateButtonText');
+};
+
+
+function renderSchlagwort(){
   var indikatorenJQ = JsonQuery(indikatoren);
   //get array of arrays  
   var schlagworteNested = indikatorenJQ.pluck('schlagwort').all;
@@ -132,26 +143,23 @@ function renderSchlagworte(){
   $.each(schlagworteUnique, function(i, c){
     container.append(templateFunction({ key: c, value: c }))
   });    
+  //convert select control to multiselect dropdown
+  configureMultiselect('#schlagwort_filter');
 };
 
-function renderTest(){
-  $('#test-filter').multiselect({
-      buttonWidth: '100%', 
-      inheritClass: true, 
-      includeSelectAllOption: true, 
-      selectAllText: 'Alle', 
-      enableFiltering: true, 
-      enableCaseInsensitiveFiltering: true,
-      filterPlaceholder: 'Suche...', 
-      checkboxName: function(option) {
-          return 'multiselect_test';
-      }
-    }
-    /*
-      maxHeight: 400,
-      dropUp: true,
-    */
-  );
+function renderRaeumlicheGliederung(){
+  var values = ["Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite"];
+
+  var html = $('#option-template').html();
+  var templateFunction = FilterJS.templateBuilder(html);
+  var container = $('#raeumlicheGliederung_filter');
+
+  $.each(values, function(i, c){
+    container.append(templateFunction({ key: c,  value: c }))
+  });
+
+  //convert select control to multiselect dropdown
+  configureMultiselect('#raeumlicheGliederung_filter');
 };
 
 /*
@@ -194,7 +202,11 @@ var afterFilter = function(result, jQ){
     var optionCountRenderFunction = function(c, count){c.text(c.val() + ' (' + count + ')') };
     var checkboxCountRenderFunction = function(c, count){c.next().text(c.val() + ' (' + count + ')')};
 
-    updateCounts(result, jQ, '#thema_criteria :input:gt(0)', 'thema', checkboxCountRenderFunction);    
-    updateCounts(result, jQ, '#schlagwort_filter > option:gt(0)', 'schlagwort', optionCountRenderFunction);    
-    updateCounts(result, jQ, '#raeumlicheGliederung_filter > option:gt(0)', 'raeumlicheGliederung', optionCountRenderFunction);
+    updateCounts(result, jQ, '#thema_criteria :input:gt(0)', 'thema', checkboxCountRenderFunction);        
+    updateCounts(result, jQ, '#schlagwort_filter > option', 'schlagwort', optionCountRenderFunction);
+    updateCounts(result, jQ, '#raeumlicheGliederung_filter > option', 'raeumlicheGliederung', optionCountRenderFunction);
+
+    //for multiselect dropdowns: rebuild control after select tag is updated
+    $('#schlagwort_filter').multiselect('rebuild');
+    $('#raeumlicheGliederung_filter').multiselect('rebuild');
   };
