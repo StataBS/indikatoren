@@ -43,7 +43,7 @@ $(document).ready(function(){
   //FJS.addCriteria({field: "kennzahlenset", ele: "#kennzahlenset_filter", all: "all"});
   
 
-  var sortOptions = {'id': 'asc'};
+  var sortOptions = {'kuerzel': 'asc'};
 
   $("#sortBy").on('change', function(e){
     sortOptions = getSortOptions($(this).val());
@@ -71,12 +71,12 @@ function checkCheckboxes(){
 
 function getSortOptions(name){
   switch(name){
-    case 'thema_asc': 
-      return {'thema': 'asc'};
-    case 'thema_desc': 
-      return {'thema': 'desc'};         
+    case 'kuerzel_asc': 
+      return {'kuerzel': 'asc'};
+    case 'kuerzel_desc': 
+      return {'kuerzel': 'desc'};         
     default : 
-      return {'id': 'asc'};     
+      return {'kuerzel': 'asc'};     
   }
 };
 
