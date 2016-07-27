@@ -3,12 +3,12 @@ body {
 }
 
 div, span, legend, label, h5, .form-control, .btn{
-    /* font-size: 9pt; */
     font-weight: normal;
 }
 
+
 .well, 
-.btn, 
+.btn,
 .pagination{
     text-align: left;
     margin-top: 5px;
@@ -16,9 +16,14 @@ div, span, legend, label, h5, .form-control, .btn{
     padding: 0px;
 }
 
-legend{    
+.well, .btn {
+    padding: 3px;
+}
+
+legend{
     margin-bottom: 0px;
     border-bottom: none;
+    font-size: 14px;
 }
 
 .search-icon{
@@ -83,6 +88,7 @@ ul.pagination{
 
 .thumbnail>.caption>img,
 .thumbnail>.caption>h5{
+    font-size: 9pt;
     font-weight: bold;
     color: #336666;
     cursor: pointer;
