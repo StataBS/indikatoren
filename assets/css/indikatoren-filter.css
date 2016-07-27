@@ -1,6 +1,10 @@
+body {
+    background-color: #fcfcfc;
+}
+
 div, span, legend, label, h5, .form-control, .btn{
-    font-size: 9pt;
-    font-weight: normal;    
+    /* font-size: 9pt; */
+    font-weight: normal;
 }
 
 .well, 
