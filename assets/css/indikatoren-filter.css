@@ -23,8 +23,9 @@ div, span, legend, label, h5, .form-control, .btn{
 legend{
     margin-bottom: 0px;
     border-bottom: none;
-    font-size: 14px;
+    font-size: 12px;
 }
+
 
 .search-icon{
   position: relative;
@@ -39,6 +40,7 @@ legend{
   color: #222;
   float: right;
 }
+
 
 .checkbox, 
 .radio{
@@ -87,8 +89,7 @@ ul.pagination{
 }
 
 .thumbnail>.caption>img,
-.thumbnail>.caption>h5{
-    font-size: 9pt;
+.thumbnail>.caption>h5{   
     font-weight: bold;
     color: #336666;
     cursor: pointer;
@@ -96,8 +97,10 @@ ul.pagination{
     margin-bottom: 2px;
 } 
 
+/* https://scotch.io/bar-talk/bootstrap-3-tips-and-tricks-you-still-might-not-know */
+
 .small-gutter > [class*='col-'] {
-    /* https://scotch.io/bar-talk/bootstrap-3-tips-and-tricks-you-still-might-not-know */
+
     padding-right: 4px;
     padding-left: 4px;
 }
