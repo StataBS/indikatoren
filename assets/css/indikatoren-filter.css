@@ -41,13 +41,6 @@ legend{
   float: right;
 }
 
-
-.checkbox, 
-.radio{
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
-
 .thumbnail {    
     min-height: 164px;
     border-color: #cccccc;
@@ -108,4 +101,17 @@ ul.pagination{
 .multiselect-clear-filter {
     border: none;
     margin-left: 1px !important;
+}
+
+.checkbox, 
+.radio{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+.multiselect-container>li>a>label, .checkbox>label {
+    padding-bottom: 1px;
+    padding-top: 1px;
+    margin-top: 0px;
 }
