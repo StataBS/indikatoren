@@ -15,12 +15,13 @@ $(document).ready(function(){
 
   //remove elements 
   //$("#sidebar-element").remove();
-  $("#main-control-element-portal").remove();
+  //$("#main-control-element-portal").remove();
+  $("#main-control-element-indikatorenset").remove();  
 
   renderThema();
   renderSchlagwort();
   renderRaeumlicheGliederung(); 
-  //renderKennzahlenset();
+  renderKennzahlenset();
   checkCheckboxes();
     
   var FJS = FilterJS(indikatoren, '#movies', {
@@ -44,7 +45,7 @@ $(document).ready(function(){
   FJS.addCriteria({field: "thema", ele: "#thema_criteria input:checkbox"});
   FJS.addCriteria({field: "schlagwort", ele: "#schlagwort_filter", all: "all"});
   FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});  
-  //FJS.addCriteria({field: "kennzahlenset", ele: "#kennzahlenset_filter", all: "all"});
+  FJS.addCriteria({field: "kennzahlenset", ele: "#kennzahlenset_filter", all: "all"});
   
 
   var sortOptions = {'kuerzel': 'asc'};
@@ -166,7 +167,7 @@ function renderRaeumlicheGliederung(){
   configureMultiselect('#raeumlicheGliederung_filter');
 };
 
-/*
+
 function renderKennzahlenset(){
   var indikatorenJQ = JsonQuery(indikatoren);
   var kennzahlensetAll = indikatorenJQ.pluck('kennzahlenset').all;
@@ -182,7 +183,7 @@ function renderKennzahlenset(){
     container.append(templateFunction({ key: c, value: c }))
   });
 };
-*/
+
 
 var afterFilter = function(result, jQ){
     //$('#total_movies').text(result.length);    

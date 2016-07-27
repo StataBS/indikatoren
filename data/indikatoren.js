@@ -5,7 +5,7 @@
 "description":"Bevölkerung am Jahresende",
 "id":"4132",
 "thema":"01 Bevölkerung",
-"kennzahlenset":"Wohnraum",
+"kennzahlenset":"Test",
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Heimat","Geschlecht","Ausländer"],
 "stufe1":"",
