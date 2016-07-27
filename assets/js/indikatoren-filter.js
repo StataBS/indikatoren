@@ -13,6 +13,10 @@
 
 $(document).ready(function(){
 
+  //remove elements 
+  //$("#sidebar-element").remove();
+  $("#main-control-element-portal").remove();
+
   renderThema();
   renderSchlagwort();
   renderRaeumlicheGliederung(); 
