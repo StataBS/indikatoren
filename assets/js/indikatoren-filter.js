@@ -13,10 +13,8 @@
 
 
 $(document).ready(function(){ 
-  //prepareIndikatorensetView();
-  preparePortalView();
-    
-  var FJS = FilterJS(indikatoren, '#movies', {
+  
+  var fjsConfig = {
     template: '#movie-template',
     search: { ele: '#searchbox' },
     callbacks: {
@@ -31,15 +29,24 @@ $(document).ready(function(){
         container: '#per_page'
       },
     }
-
-  });
-
-  FJS.addCriteria({field: "thema", ele: "#thema_criteria input:checkbox"});
-  FJS.addCriteria({field: "schlagwort", ele: "#schlagwort_filter", all: "all"});
-  FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});  
-  //FJS.addCriteria({field: "kennzahlenset", ele: "#kennzahlenset_filter", all: "all"});
-  //FJS.addCriteria({field: "stufe1", ele: "#stufe1_filter", all: "all"});
-  //FJS.addCriteria({field: "stufe2", ele: "#stufe2_filter", all: "all"});
+  };
+  
+  //Render page differently depending on url query string  
+  var indikatorenset = $.url('?Indikatorenset'); 
+  if (indikatorenset){ 
+    prepareIndikatorensetView(indikatorenset);
+    var FJS = FilterJS(indikatoren, '#movies', fjsConfig);
+    FJS.addCriteria({field: "kennzahlenset", ele: "#kennzahlenset_filter", all: "all"});
+    //FJS.addCriteria({field: "stufe1", ele: "#stufe1_filter", all: "all"});
+    //FJS.addCriteria({field: "stufe2", ele: "#stufe2_filter", all: "all"});
+  }  
+  else {
+    preparePortalView();
+    var FJS = FilterJS(indikatoren, '#movies', fjsConfig);
+    FJS.addCriteria({field: "thema", ele: "#thema_criteria input:checkbox"});
+    FJS.addCriteria({field: "schlagwort", ele: "#schlagwort_filter", all: "all"});
+    FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});  
+  }
   
 
   var sortOptions = {'kuerzel': 'asc'};
@@ -81,14 +88,14 @@ function preparePortalView(){
   renderRaeumlicheGliederung();   
 };
 
-function prepareIndikatorensetView(){
+function prepareIndikatorensetView(indikatorenset){
   $("#sidebar-element").remove();
   //Change bootstrap col size in order to fill width 
   $("#main-element").removeClass();
   $("#main-element").addClass('col-xs-12');
   $("#main-control-element-portal").remove();
   
-  renderKennzahlenset();  
+  renderKennzahlenset(indikatorenset);  
   renderMultiselectDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter');
   renderMultiselectDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter');
 
@@ -150,7 +157,7 @@ function renderRaeumlicheGliederung(){
 };
 
 
-function renderKennzahlenset(){
+function renderKennzahlenset(indikatorenset){
   var indikatorenJQ = JsonQuery(indikatoren);
   var kennzahlensetAll = indikatorenJQ.pluck('kennzahlenset').all;
   //get unique values  
@@ -162,13 +169,16 @@ function renderKennzahlenset(){
   $.each(kennzahlensetUnique, function(i, c){
     container.append(templateFunction({ key: c, value: c }))
   });
+  //select requested Indikatorenset
+  $('#kennzahlenset_filter').val(indikatorenset);
 };
 
 
-function renderMultiselectDropdownFromJson(data, field, selector){
+
+function renderMultiselectDropdownFromJson(data, field, selector, multiselect){
   var JQ = JsonQuery(data);
   var allValues = JQ.pluck(field).all;
-  //get unique values  
+  //get unique values and filter out empty string 
   var uniqueValues = allValues.filter(function(item, i, ar){ return ar.indexOf(item) === i && item != ""; }); 
   var html = $('#option-template').html();
   var templateFunction = FilterJS.templateBuilder(html);

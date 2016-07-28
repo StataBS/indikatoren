@@ -21,7 +21,7 @@
 "description":"Wohneigentumsquote in Prozent",
 "id":"4145",
 "thema":"01 Bevölkerung",
-"kennzahlenset":"Wohnraum",
+"kennzahlenset":"Test",
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"],
 "stufe1":"",
