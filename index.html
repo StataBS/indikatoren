@@ -22,7 +22,7 @@
   <!-- Hide everything until DOM creation has been finished -->
   <script>document.body.style.display = "none";</script>
   <div class="container-fluid">
-    <div class="small-gutter" id="sidebar-element">
+    <div id="sidebar-element">
       <div class="sidebar col-xs-3">
         <!--
           <div>
@@ -38,7 +38,7 @@
         <div>
           <label class="sr-only" for="searchbox">Search</label>
           <input type="text" class="form-control" id="searchbox" placeholder="Suche&hellip;" fjs-search>
-          <span class="glyphicon glyphicon-search search-icon"></span>
+          <!--span class="glyphicon glyphicon-search search-icon"></span-->
         </div>
 
         <!-- invisible, only used for filtering if in Indikatorenset View -->
@@ -49,7 +49,6 @@
                 </select>
             </fieldset>
         </div>
-
 
         <div class="well">
           <fieldset id="thema_criteria">
@@ -88,7 +87,7 @@
       <!-- Controls for Portal view -->
       <div class="row" id="main-control-element-portal">
         <div class="content col-xs-12">
-          <div class="row small-gutter">
+          <div class="row">
             <div class="col-xs-5">
                 <form class="form-inline" role="form">
                   <div class="form-group">
@@ -109,73 +108,53 @@
       </div>
       
       <!-- Controls for Indikatorenset view -->
-      <div class="row" id="main-control-element-indikatorenset">
-        <div class="content col-xs-12">
-          <div class="row small-gutter">
-
-            <div class="col-xs-3">
-              <label class="sr-only" for="searchbox">Search</label>
-              <input type="text" class="form-control" id="searchbox" placeholder="Suche&hellip;" fjs-search>
-              <span class="glyphicon glyphicon-search search-icon"></span>
-            </div>
-                       
-            <div class="col-xs-3">
-                <form class="form-inline" role="form">
-                  <div class="form-group">
-                    <label for="sortBy" class="sr-only">Sortierung:</label>
-                    <select class="form-control" id="sortBy">
-                      <option value="kuerzel_asc">Sortiert nach Thema &uarr;</option>
-                      <option value="kuerzel_desc">Sortiert nach Thema &darr;</option>
+      <div id="main-control-element-indikatorenset">
+        <div class="row">
+          <div class="content col-xs-12">            
+            <div class="row">
+              <form class="form-inline" role="form">              
+                <div class="col-xs-4">
+                  <label class="sr-only" for="searchbox">Search</label>
+                  <input type="text" class="form-control" id="searchbox" placeholder="Suche&hellip;" fjs-search>
+                  <!--span class="glyphicon glyphicon-search search-icon"></span-->
+                </div>
+                          
+                <div class="col-xs-4">
+                    <form class="form-inline" role="form">
+                      <div class="form-group">
+                        <label for="sortBy" class="sr-only">Sortierung:</label>
+                        <select class="form-control" id="sortBy">
+                          <option value="kuerzel_asc">Sortiert nach Thema &uarr;</option>
+                          <option value="kuerzel_desc">Sortiert nach Thema &darr;</option>
+                        </select>
+                      </div>
+                    </form>
+                </div>
+                            
+                <div class="col-xs-1 per-page">
+                  Per Page: <span id="per_page" class="content"></span>
+                </div>
+                          
+                <div id="pagination" class="movies-pagination col-xs-3 pull-right"></div>
+              </form>
+            </div>     
+            <div class="row">                
+                <div class="col-xs-6" id="stufe1_criteria">                          
+                    <select class="form-control" id="stufe1_filter" multiple="multiple">
                     </select>
-                  </div>
-                </form>
-            </div>
-                        
-            <div class="col-xs-1 per-page">
-              Per Page: <span id="per_page" class="content"></span>
-            </div>
-            
-            <div class="well">
-              <fieldset id="stufe1_criteria">
-                <legend>Stufe1</legend>
-                <select class="form-control" id="stufe1_filter" multiple="multiple">
-                </select>
-              </fieldset>
-            </div>
-
-            <div class="well">
-              <fieldset id="stufe2_criteria">
-                <legend>Stufe1</legend>
-                <select class="form-control" id="stufe2_filter" multiple="multiple">
-                </select>
-              </fieldset>
-            </div>            
-            
-            <div id="pagination" class="movies-pagination col-xs-3 pull-right"></div>
-            
-          </div> 
+                </div>
+                
+                <div class="col-xs-6" id="stufe2_criteria" >
+                  <select class="form-control" id="stufe2_filter" multiple="multiple">
+                  </select>
+                </div>               
+            </div>      
+          </div>
         </div>
-      </div>   
-      
-      <div class="row">
-        <form class="form-inline" role="form">
-          <div class="form-group">
-            <label for="email">Email address:</label>
-            <input type="email" class="form-control" id="email">
-          </div>
-          <div class="form-group">
-            <label for="pwd">Password:</label>
-            <input type="password" class="form-control" id="pwd">
-          </div>
-          <div class="checkbox">
-            <label><input type="checkbox"> Remember me</label>
-          </div>
-          <button type="submit" class="btn btn-default">Submit</button>
-        </form>
-      </div>
+      </div>          
       <!-- End of controls for Indikatorenset view -->
          
-      <div class="movies content row small-gutter" id="movies" fjs-items="template=#movie-template"></div>
+      <div class="movies content row" id="movies" fjs-items="template=#movie-template"></div>
     </div>
   </div>
   </div>
