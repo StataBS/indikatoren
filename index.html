@@ -41,15 +41,6 @@
           <!--span class="glyphicon glyphicon-search search-icon"></span-->
         </div>
 
-        <!-- invisible, only used for filtering if in Indikatorenset View -->
-        <div class="well" id="kennzahlenset-filter-control">
-            <fieldset id="kennzahlenset_criteria">
-              <select class="form-control" id="kennzahlenset_filter">
-                  <option value="all">Kennzahlenset</option>    
-                </select>
-            </fieldset>
-        </div>
-
         <div class="well">
           <fieldset id="thema_criteria">
             <legend>Thema</legend>
@@ -77,8 +68,7 @@
             <select class="form-control" id="raeumlicheGliederung_filter"  multiple="multiple">
             </select>
           </fieldset>
-        </div>
-       
+        </div>       
       </div>
     </div>
 
@@ -112,7 +102,8 @@
         <div class="row">
           <div class="content col-xs-12">            
             <div class="row">
-              <form class="form-inline" role="form">                                       
+              <form class="form-inline" role="form">    
+                                                                 
                 <div class="col-xs-4">
                   <label for="sortBy" class="sr-only">Sortierung:</label>
                   <select class="form-control" id="sortBy">
@@ -120,6 +111,16 @@
                     <option value="kuerzel_desc">Sortiert nach Thema &darr;</option>
                   </select>
                 </div>
+
+                <!-- Invisible, only used for filtering if in Indikatorenset View -->
+                <div class="col-xs-3" id="kennzahlenset-filter-control"> <!-- style="display: none;"-->
+                    <fieldset id="kennzahlenset_criteria">
+                      <select class="form-control" id="kennzahlenset_filter">
+                          <option value="all">Kennzahlenset</option>    
+                        </select>
+                    </fieldset>
+                </div>                
+
                             
                 <div class="col-xs-1 per-page">
                   Per Page: <span id="per_page" class="content"></span>

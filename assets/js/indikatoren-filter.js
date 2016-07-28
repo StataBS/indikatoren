@@ -11,20 +11,10 @@
  *  jQuery(v1.9 >=)
  */
 
-$(document).ready(function(){
-  //remove elements 
-  $("#sidebar-element").remove();
-  $("#main-control-element-portal").remove();
-  //$("#main-control-element-indikatorenset").remove();  
 
-  renderThema();
-  renderSchlagwort();
-  renderRaeumlicheGliederung(); 
-  renderKennzahlenset();  
-  renderMultiselectDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter');
-  renderMultiselectDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter');
-  
-  
+$(document).ready(function(){ 
+  //prepareIndikatorensetView();
+  preparePortalView();
     
   var FJS = FilterJS(indikatoren, '#movies', {
     template: '#movie-template',
@@ -47,7 +37,9 @@ $(document).ready(function(){
   FJS.addCriteria({field: "thema", ele: "#thema_criteria input:checkbox"});
   FJS.addCriteria({field: "schlagwort", ele: "#schlagwort_filter", all: "all"});
   FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});  
-  FJS.addCriteria({field: "kennzahlenset", ele: "#kennzahlenset_filter", all: "all"});
+  //FJS.addCriteria({field: "kennzahlenset", ele: "#kennzahlenset_filter", all: "all"});
+  //FJS.addCriteria({field: "stufe1", ele: "#stufe1_filter", all: "all"});
+  //FJS.addCriteria({field: "stufe2", ele: "#stufe2_filter", all: "all"});
   
 
   var sortOptions = {'kuerzel': 'asc'};
@@ -82,6 +74,25 @@ function getSortOptions(name){
   }
 };
 
+function preparePortalView(){
+  $("#main-control-element-indikatorenset").remove();    
+  renderThema();
+  renderSchlagwort();
+  renderRaeumlicheGliederung();   
+};
+
+function prepareIndikatorensetView(){
+  $("#sidebar-element").remove();
+  //Change bootstrap col size in order to fill width 
+  $("#main-element").removeClass();
+  $("#main-element").addClass('col-xs-12');
+  $("#main-control-element-portal").remove();
+  
+  renderKennzahlenset();  
+  renderMultiselectDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter');
+  renderMultiselectDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter');
+
+};
 
 function renderThema(){  
   var values = ["01 Bevölkerung",	"02 Raum, Landschaft, Umwelt",	"03 Erwerbsleben",	"04 Volkswirtschaft",	"05 Preise",	"06 Produktion und Handel",	"07 Land- und Forstwirtschaft",	"08 Energie",	"09 Bau- und Wohnungswesen",	"10 Tourismus",	"11 Verkehr",	"12 Finanzmärkte und Banken",	"13 Soziale Sicherheit",	"14 Gesundheit",	"15 Bildung und Wissenschaft",	"16 Kultur und Sport",	"17 Politik",	"18 Öffentliche Finanzen",	"19 Rechtspflege", "50 Regelmässige Befragungen"];
@@ -158,7 +169,7 @@ function renderMultiselectDropdownFromJson(data, field, selector){
   var JQ = JsonQuery(data);
   var allValues = JQ.pluck(field).all;
   //get unique values  
-  var uniqueValues = allValues.filter(function(item, i, ar){ return ar.indexOf(item) === i; }); 
+  var uniqueValues = allValues.filter(function(item, i, ar){ return ar.indexOf(item) === i && item != ""; }); 
   var html = $('#option-template').html();
   var templateFunction = FilterJS.templateBuilder(html);
   var container = $(selector);
