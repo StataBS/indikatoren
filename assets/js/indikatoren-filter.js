@@ -37,8 +37,8 @@ $(document).ready(function(){
     prepareIndikatorensetView(indikatorenset);
     var FJS = FilterJS(indikatoren, '#movies', fjsConfig);
     FJS.addCriteria({field: "kennzahlenset", ele: "#kennzahlenset_filter", all: "all"});
-    //FJS.addCriteria({field: "stufe1", ele: "#stufe1_filter", all: "all"});
-    //FJS.addCriteria({field: "stufe2", ele: "#stufe2_filter", all: "all"});
+    FJS.addCriteria({field: "stufe1", ele: "#stufe1_filter", all: "all"});
+    FJS.addCriteria({field: "stufe2", ele: "#stufe2_filter", all: "all"});
   }  
   else {
     preparePortalView();
@@ -96,8 +96,8 @@ function prepareIndikatorensetView(indikatorenset){
   $("#main-control-element-portal").remove();
   
   renderKennzahlenset(indikatorenset);  
-  renderMultiselectDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter');
-  renderMultiselectDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter');
+  renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter');
+  renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter');
 
 };
 
@@ -173,9 +173,22 @@ function renderKennzahlenset(indikatorenset){
   $('#kennzahlenset_filter').val(indikatorenset);
 };
 
+function renderDropdownFromJson(data, field, selector){
+  var JQ = JsonQuery(data);
+  var allValues = JQ.pluck(field).all;
+  //get unique values  
+  var uniqueValues = allValues.filter(function(item, i, ar){ return ar.indexOf(item) === i && item != ""; }); 
+  var html = $('#option-template').html();
+  var templateFunction = FilterJS.templateBuilder(html);
+  var container = $(selector);
+  //render options
+  $.each(uniqueValues, function(i, c){
+    container.append(templateFunction({ key: c, value: c }))
+  });
+};
 
 
-function renderMultiselectDropdownFromJson(data, field, selector, multiselect){
+function renderMultiselectDropdownFromJson(data, field, selector){
   var JQ = JsonQuery(data);
   var allValues = JQ.pluck(field).all;
   //get unique values and filter out empty string 
