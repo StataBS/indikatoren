@@ -116,6 +116,10 @@ ul.pagination{
     margin-top: 0px;
 }
 
+.multiselect {
+    margin-top: 0px;   
+}
+
 #kennzahlenset-filter-control {
     display: none;
 }

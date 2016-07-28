@@ -13,7 +13,7 @@
 
 $(document).ready(function(){
   //remove elements 
-  //$("#sidebar-element").remove();
+  $("#sidebar-element").remove();
   $("#main-control-element-portal").remove();
   //$("#main-control-element-indikatorenset").remove();  
 
