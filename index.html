@@ -27,7 +27,7 @@
       <div class="sidebar col-xs-3">
         <!--
           <div>
-            <h4>Charts: <span id="total_movies">0</span></h4>
+            <h4>Charts: <span id="total_indikatoren">0</span></h4>
           </div>
           -->
 
@@ -93,7 +93,7 @@
             <div class="col-xs-1 per-page">
               Per Page: <span id="per_page" class="content"></span>
             </div>
-            <div id="pagination" class="movies-pagination col-xs-6 pull-right"></div>
+            <div id="pagination" class="indikatoren-pagination col-xs-6 pull-right"></div>
           </div> 
         </div>
       </div>
@@ -128,7 +128,7 @@
                     Per Page: <span id="per_page" class="content"></span>
                   </div>
                             
-                  <div id="pagination" class="movies-pagination col-xs-3 pull-right"></div>
+                  <div id="pagination" class="indikatoren-pagination col-xs-3 pull-right"></div>
                 </form>
               </div>     
               <div class="row">                
@@ -156,14 +156,14 @@
       </div>          
       <!-- End of controls for Indikatorenset view -->
          
-      <div class="movies content row" id="movies" fjs-items="template=#movie-template"></div>
+      <div class="indikatoren content row" id="indikatoren" fjs-items="template=#indikator-template"></div>
     </div>
   </div>
   </div>
   </div>
     
-  <script id="movie-template" type="text/html">
-    <div class="col-xs-3 movie">
+  <script id="indikator-template" type="text/html">
+    <div class="col-xs-3 indikator">
       <div class="thumbnail">
         <div class="caption">
           <h5 onclick="eModal.iframe({'url': '<%= url.replace('https://', '//') %>', 'title': ' ', 'size': 'md'});"><%= kuerzel %></h5>                                          

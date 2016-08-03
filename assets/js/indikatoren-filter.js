@@ -15,7 +15,7 @@
 $(document).ready(function(){ 
   
   var fjsConfig = {
-    template: '#movie-template',
+    template: '#indikator-template',
     search: { ele: '#searchbox' },
     callbacks: {
           afterFilter: afterFilter, 
@@ -35,14 +35,14 @@ $(document).ready(function(){
   var indikatorenset = $.url('?Indikatorenset'); 
   if (indikatorenset){ 
     prepareIndikatorensetView(indikatorenset);
-    var FJS = FilterJS(indikatoren, '#movies', fjsConfig);
+    var FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
     FJS.addCriteria({field: "kennzahlenset", ele: "#kennzahlenset_filter", all: "all"});
     FJS.addCriteria({field: "stufe1", ele: "#stufe1_filter", all: "all"});
     FJS.addCriteria({field: "stufe2", ele: "#stufe2_filter", all: "all"});
   }  
   else {
     preparePortalView();
-    var FJS = FilterJS(indikatoren, '#movies', fjsConfig);
+    var FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
     FJS.addCriteria({field: "thema", ele: "#thema_criteria input:checkbox"});
     FJS.addCriteria({field: "schlagwort", ele: "#schlagwort_filter", all: "all"});
     FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});  
@@ -241,7 +241,7 @@ function configureMultiselect(selector){
 
 
 var afterFilter = function(result, jQ){
-    //$('#total_movies').text(result.length);    
+    //$('#total_indikatoren').text(result.length);    
     //Add Counts in brackets after each option
     var updateCounts = function(result, jQ, selector, key, renderFunction){
           var checkboxes  = $(selector);
