@@ -283,6 +283,6 @@ var afterFilter = function(result, jQ){
     $('#schlagwort_filter').multiselect('rebuild');
     $('#raeumlicheGliederung_filter').multiselect('rebuild');
     
-    //if only 1 page would be displayed: hide pagination
-    (result.length <= 16) ? $('#pagination').hide() : $('#pagination').show();
+    //if only 1 page would be displayed: hide pagination, use bootstrap invisible class to leave row height intact    
+    (result.length <= 16) ? $('#pagination').addClass('invisible') : $('#pagination').removeClass('invisible');
 };
