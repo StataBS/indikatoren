@@ -101,6 +101,12 @@ function prepareIndikatorensetView(indikatorenset){
   renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'stufe1', 'kennzahlenset', indikatorenset);
   renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'stufe2', 'kennzahlenset', indikatorenset);
 
+  //cascaded dropdowns: remove selection on 2nd level dropdown upon change in first level dropdown
+  $('#stufe1_filter').change(function(){
+    $('#stufe2_filter :nth-child(1)').prop('selected', true);
+    $('#stufe2_filter').change();
+  });  
+
 };
 
 function renderThema(){  
