@@ -22,7 +22,7 @@
 "id":"4145",
 "thema":"01 Bevölkerung",
 "kennzahlenset":"Test",
-"raeumlicheGliederung":["Kanton"],
+"raeumlicheGliederung":["Block", "Blockseite"],
 "schlagwort":["Gebäude","Haushalt"],
 "stufe1":"Test1",
 "stufe2":"ABCTest2_2",

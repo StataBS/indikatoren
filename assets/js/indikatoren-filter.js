@@ -12,8 +12,7 @@
  */
 
 
-$(document).ready(function(){ 
-  
+$(document).ready(function(){   
   var fjsConfig = {
     template: '#indikator-template',
     search: { ele: '#searchbox' },
@@ -46,8 +45,7 @@ $(document).ready(function(){
     FJS.addCriteria({field: "thema", ele: "#thema_criteria input:checkbox"});
     FJS.addCriteria({field: "schlagwort", ele: "#schlagwort_filter", all: "all"});
     FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});  
-  }
-  
+  }  
 
   var sortOptions = {'kuerzel': 'asc'};
 
@@ -81,12 +79,14 @@ function getSortOptions(name){
   }
 };
 
+
 function preparePortalView(){
   $("#main-control-element-indikatorenset").remove();    
   renderThema();
-  renderSchlagwort();
-  renderRaeumlicheGliederung();   
+  renderMultiselectDropdownFromJson(indikatoren, 'schlagwort', '#schlagwort_filter');    
+  renderMultiselectDropdownFromJson(["Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite"], '', '#raeumlicheGliederung_filter');   
 };
+
 
 function prepareIndikatorensetView(indikatorenset){
   $("#sidebar-element").remove();
@@ -119,8 +119,8 @@ function prepareIndikatorensetView(indikatorenset){
     }
     renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'stufe2', stufe2QueryString);
   });  
-
 };
+
 
 function renderThema(){  
   var values = ["01 Bevölkerung",	"02 Raum, Landschaft, Umwelt",	"03 Erwerbsleben",	"04 Volkswirtschaft",	"05 Preise",	"06 Produktion und Handel",	"07 Land- und Forstwirtschaft",	"08 Energie",	"09 Bau- und Wohnungswesen",	"10 Tourismus",	"11 Verkehr",	"12 Finanzmärkte und Banken",	"13 Soziale Sicherheit",	"14 Gesundheit",	"15 Bildung und Wissenschaft",	"16 Kultur und Sport",	"17 Politik",	"18 Öffentliche Finanzen",	"19 Rechtspflege", "50 Regelmässige Befragungen"];
@@ -140,41 +140,6 @@ function renderThema(){
   $('#all_thema').on('click', function(){
     $('#thema_criteria :checkbox').prop('checked', $(this).is(':checked'));
   });
-
-};
-
-
-function renderSchlagwort(){
-  var indikatorenJQ = JsonQuery(indikatoren);
-  //get array of arrays  
-  var schlagworteNested = indikatorenJQ.pluck('schlagwort').all;
-  //reduce array dimensionality 
-  var schlagworteAll = [].concat.apply([], schlagworteNested).sort();
-  //get unique values  
-  var schlagworteUnique = schlagworteAll.filter(function(item, i, ar){ return ar.indexOf(item) === i; });
-
-  var html = $('#option-template').html();
-  var templateFunction = FilterJS.templateBuilder(html);
-  var container = $('#schlagwort_filter');
-  //render options
-  $.each(schlagworteUnique, function(i, c){
-    container.append(templateFunction({ key: c, value: c }))
-  });    
-  //convert select control to multiselect dropdown
-  configureMultiselect('#schlagwort_filter');
-};
-
-
-function renderRaeumlicheGliederung(){
-  var values = ["Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite"];
-  var html = $('#option-template').html();
-  var templateFunction = FilterJS.templateBuilder(html);
-  var container = $('#raeumlicheGliederung_filter');
-  $.each(values, function(i, c){
-    container.append(templateFunction({ key: c,  value: c }))
-  });
-  //convert select control to multiselect dropdown
-  configureMultiselect('#raeumlicheGliederung_filter');
 };
 
 
@@ -191,7 +156,7 @@ function renderDropdownFromJson(data, field, selector, sortKey, filterQueryStrin
     JQ=JQ.order(sortOptions);
   }
   var allValues = JQ.pluck(field).all;
-  //get unique values  
+  //get unique values and filter out empty string 
   var uniqueValues = allValues.filter(function(item, i, ar){ return ar.indexOf(item) === i && item != ""; }); 
   var html = $('#option-template').html();
   var templateFunction = FilterJS.templateBuilder(html);
@@ -208,7 +173,9 @@ function renderDropdownFromJson(data, field, selector, sortKey, filterQueryStrin
 
 function renderMultiselectDropdownFromJson(data, field, selector){
   var JQ = JsonQuery(data);
-  var allValues = JQ.pluck(field).all;
+  var allValuesNested = JQ.pluck(field).all;
+  //reduce array of arrayy of values to array of values if applicable
+  var allValues = [].concat.apply([], allValuesNested);
   //get unique values and filter out empty string 
   var uniqueValues = allValues.filter(function(item, i, ar){ return ar.indexOf(item) === i && item != ""; }); 
   var html = $('#option-template').html();
@@ -221,7 +188,6 @@ function renderMultiselectDropdownFromJson(data, field, selector){
   //convert select control to multiselect dropdown
   configureMultiselect(selector);  
 };
-
 
 
 function configureMultiselect(selector){
@@ -247,7 +213,6 @@ function configureMultiselect(selector){
       selectAllValue: 'all',
     */
   );
-
   //check all boxes
   $(selector).multiselect('selectAll', false);
   $(selector).multiselect('updateButtonText');
