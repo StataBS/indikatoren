@@ -95,11 +95,11 @@ function prepareIndikatorensetView(indikatorenset){
   $("#main-element").addClass('col-xs-12');
   $("#main-control-element-portal").remove();
     
-  renderDropdownFromJson(indikatoren, 'kennzahlenset', '#kennzahlenset_filter');
+  renderDropdownFromJson(indikatoren, 'kennzahlenset', '#kennzahlenset_filter', 'kennzahlenset');
   //select requested Indikatorenset in dropdown
   $('#kennzahlenset_filter').val(indikatorenset);  
-  renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'kennzahlenset', indikatorenset);
-  renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'kennzahlenset', indikatorenset);
+  renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'stufe1', 'kennzahlenset', indikatorenset);
+  renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'stufe2', 'kennzahlenset', indikatorenset);
 
 };
 
@@ -159,14 +159,20 @@ function renderRaeumlicheGliederung(){
 };
 
 
-function renderDropdownFromJson(data, field, selector, filterKey, filterValue){
+function renderDropdownFromJson(data, field, selector, sortKey, filterKey, filterValue){
   var JQ = JsonQuery(data);
   //If filterKey and filterValue are given: filter data before rendering dropdowns
   if (typeof filterKey !== 'undefined' && typeof filterValue !== 'undefined') {
     var queryString = new Object();
     queryString[filterKey] = filterValue;              
     JQ = JQ.where(queryString);
-  }  
+  } 
+  //Sort if sortKey is given 
+  if (typeof sortKey !== 'undefined'){
+    var sortOptions = new Object();
+    sortOptions[sortKey] = 'asc';
+    JQ=JQ.order(sortOptions);
+  }
   var allValues = JQ.pluck(field).all;
   //get unique values  
   var uniqueValues = allValues.filter(function(item, i, ar){ return ar.indexOf(item) === i && item != ""; }); 

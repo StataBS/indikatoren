@@ -25,7 +25,7 @@
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"],
 "stufe1":"Test1",
-"stufe2":"Test2_2",
+"stufe2":"ABCTest2_2",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"" 
