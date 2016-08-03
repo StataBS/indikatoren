@@ -282,4 +282,7 @@ var afterFilter = function(result, jQ){
     //for multiselect dropdowns: rebuild control after select tag is updated
     $('#schlagwort_filter').multiselect('rebuild');
     $('#raeumlicheGliederung_filter').multiselect('rebuild');
+    
+    //if only 1 page would be displayed: hide pagination
+    (result.length <= 16) ? $('#pagination').hide() : $('#pagination').show();
 };
