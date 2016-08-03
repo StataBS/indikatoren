@@ -166,8 +166,8 @@
     <div class="col-xs-3 indikator">
       <div class="thumbnail">
         <div class="caption">
-          <h5 onclick="eModal.iframe({'url': '<%= url.replace('https://', '//') %>', 'title': ' ', 'size': 'md'});"><%= kuerzel %></h5>                                          
-          <img src="<%= image %>" alt="<%= title %>: <%= description %>" title="<%= title %>: <%= description %>" class="img-responsive pull-left" onclick="eModal.iframe({'url': '<%= url.replace('https://', '//') %>', 'title': ' ', 'size': 'md'}); "/>
+          <h5 onclick="displayModal(<%= id  %>);"><%= kuerzel %></h5>                                                    
+          <img src="<%= image %>" alt="<%= title %>: <%= description %>" title="<%= title %>: <%= description %>" class="img-responsive pull-left" onclick="displayModal(<%= id  %>);"/>
         </div>
       </div>
     </div>

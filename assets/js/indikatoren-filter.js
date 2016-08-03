@@ -251,3 +251,18 @@ var afterFilter = function(result, jQ){
     //if only 1 page would be displayed: hide pagination, use bootstrap invisible class to leave row height intact    
     (result.length <= 16) ? $('#pagination').addClass('invisible') : $('#pagination').removeClass('invisible');
 };
+
+
+//open chart in bootstrap modal 
+function displayModal(indikatorId){
+  //get indikator with matching id
+  var lastResult = FJS.lastResult();
+  
+  var JQ = JsonQuery(lastResult);
+  //var searchResults = JQ.where({'id': indikatorId}).exec();
+  //var chart = searchResults[0];
+  var chart = JQ.find(indikatorId);
+  //alternatives to eModal: (iframe, no carousel) http://www.bootply.com/61676, (carousel, no iframe) https://codepen.io/krnlde/pen/pGijB 
+  //eModal.iframe({'url': chart.url, 'title': ' ', 'size': 'md', 'buttons': [{text: '<', style: 'info',   close: true }, {text: '>', style: 'info', close: true }] });  
+  eModal.iframe({'url': chart.url, 'title': ' ', 'size': 'md'});
+}
