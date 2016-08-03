@@ -119,3 +119,7 @@ ul.pagination{
 .multiselect {
     margin-top: 0px;   
 }
+
+.multiselect-search {
+    height: 33px;
+}
