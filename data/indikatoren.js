@@ -8,8 +8,8 @@
 "kennzahlenset":"Test",
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Heimat","Geschlecht","Ausländer"],
-"stufe1":"",
-"stufe2":"",
+"stufe1":"Test1",
+"stufe2":"Test2",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"" 
@@ -24,8 +24,8 @@
 "kennzahlenset":"Test",
 "raeumlicheGliederung":["Kanton"],
 "schlagwort":["Gebäude","Haushalt"],
-"stufe1":"",
-"stufe2":"",
+"stufe1":"Test1",
+"stufe2":"Test2_2",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"" 

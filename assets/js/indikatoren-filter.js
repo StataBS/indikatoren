@@ -94,10 +94,12 @@ function prepareIndikatorensetView(indikatorenset){
   $("#main-element").removeClass();
   $("#main-element").addClass('col-xs-12');
   $("#main-control-element-portal").remove();
-  
-  renderKennzahlenset(indikatorenset);  
-  renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter');
-  renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter');
+    
+  renderDropdownFromJson(indikatoren, 'kennzahlenset', '#kennzahlenset_filter');
+  //select requested Indikatorenset in dropdown
+  $('#kennzahlenset_filter').val(indikatorenset);  
+  renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'kennzahlenset', indikatorenset);
+  renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'kennzahlenset', indikatorenset);
 
 };
 
@@ -157,24 +159,14 @@ function renderRaeumlicheGliederung(){
 };
 
 
-function renderKennzahlenset(indikatorenset){
-  var indikatorenJQ = JsonQuery(indikatoren);
-  var kennzahlensetAll = indikatorenJQ.pluck('kennzahlenset').all;
-  //get unique values  
-  var kennzahlensetUnique = kennzahlensetAll.filter(function(item, i, ar){ return ar.indexOf(item) === i; }); 
-  var html = $('#option-template').html();
-  var templateFunction = FilterJS.templateBuilder(html);
-  var container = $('#kennzahlenset_filter');
-  //render options
-  $.each(kennzahlensetUnique, function(i, c){
-    container.append(templateFunction({ key: c, value: c }))
-  });
-  //select requested Indikatorenset
-  $('#kennzahlenset_filter').val(indikatorenset);
-};
-
-function renderDropdownFromJson(data, field, selector){
+function renderDropdownFromJson(data, field, selector, filterKey, filterValue){
   var JQ = JsonQuery(data);
+  //If filterKey and filterValue are given: filter data before rendering dropdowns
+  if (typeof filterKey !== 'undefined' && typeof filterValue !== 'undefined') {
+    var queryString = new Object();
+    queryString[filterKey] = filterValue;              
+    JQ = JQ.where(queryString);
+  }  
   var allValues = JQ.pluck(field).all;
   //get unique values  
   var uniqueValues = allValues.filter(function(item, i, ar){ return ar.indexOf(item) === i && item != ""; }); 
@@ -236,24 +228,6 @@ function configureMultiselect(selector){
 };
 
 
-/*
-function renderStufe1(){
-  var indikatorenJQ = JsonQuery(indikatoren);
-  var stufe1All = indikatorenJQ.pluck('stufe1').all;
-  //get unique values  
-  var stufe1Unique = stufe1All.filter(function(item, i, ar){ return ar.indexOf(item) === i; }); 
-  var html = $('#option-template').html();
-  var templateFunction = FilterJS.templateBuilder(html);
-  var container = $('#stufe1_filter');
-  //render options
-  $.each(stufe1Unique, function(i, c){
-    container.append(templateFunction({ key: c, value: c }))
-  });
-  //convert select control to multiselect dropdown
-  configureMultiselect('#stufe1_filter');
-};
-*/
-
 var afterFilter = function(result, jQ){
     //$('#total_movies').text(result.length);    
     //Add Counts in brackets after each option
@@ -266,6 +240,7 @@ var afterFilter = function(result, jQ){
               queryString[key] = c.val();              
               count = jQ.where(queryString).count;
             }
+            //render text using the appropriate function
             renderFunction(c, count);
           });      
     }
