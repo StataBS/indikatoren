@@ -98,13 +98,26 @@ function prepareIndikatorensetView(indikatorenset){
   renderDropdownFromJson(indikatoren, 'kennzahlenset', '#kennzahlenset_filter', 'kennzahlenset');
   //select requested Indikatorenset in dropdown
   $('#kennzahlenset_filter').val(indikatorenset);  
-  renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'stufe1', 'kennzahlenset', indikatorenset);
-  renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'stufe2', 'kennzahlenset', indikatorenset);
+  
+  //prepare query String object for filtering stufe1 and stufe2
+  var baseQueryString = new Object();
+  baseQueryString['kennzahlenset'] = indikatorenset;              
 
-  //cascaded dropdowns: remove selection on 2nd level dropdown upon change in first level dropdown
+  renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'stufe1', baseQueryString);
+  renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'stufe2', baseQueryString);
+
+  //add cascaded dropdowns functionality to stufe1 and stufe2
   $('#stufe1_filter').change(function(){
+    //remove selection on 2nd level dropdown upon change in first level dropdown
     $('#stufe2_filter :nth-child(1)').prop('selected', true);
     $('#stufe2_filter').change();
+    //filter stufe2 to include only values that occur together with selected stufe1 value
+    //deep copy baseQueryString object
+    var stufe2QueryString = $.extend(true, {}, baseQueryString); 
+    if ($('#stufe1_filter').val() != 'all') {
+      stufe2QueryString['stufe1'] = $('#stufe1_filter').val();
+    }
+    renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'stufe2', stufe2QueryString);
   });  
 
 };
@@ -165,13 +178,11 @@ function renderRaeumlicheGliederung(){
 };
 
 
-function renderDropdownFromJson(data, field, selector, sortKey, filterKey, filterValue){
+function renderDropdownFromJson(data, field, selector, sortKey, filterQueryString){
   var JQ = JsonQuery(data);
-  //If filterKey and filterValue are given: filter data before rendering dropdowns
-  if (typeof filterKey !== 'undefined' && typeof filterValue !== 'undefined') {
-    var queryString = new Object();
-    queryString[filterKey] = filterValue;              
-    JQ = JQ.where(queryString);
+  //If filterQueryString is given: filter data before rendering dropdowns
+  if (typeof filterQueryString !== 'undefined') {
+    JQ = JQ.where(filterQueryString);
   } 
   //Sort if sortKey is given 
   if (typeof sortKey !== 'undefined'){
@@ -185,6 +196,9 @@ function renderDropdownFromJson(data, field, selector, sortKey, filterKey, filte
   var html = $('#option-template').html();
   var templateFunction = FilterJS.templateBuilder(html);
   var container = $(selector);
+  //remove options if any are present, but leave the first one
+  var optionsToRemove = selector+' > option:gt(0)';  
+  $(optionsToRemove).remove();
   //render options
   $.each(uniqueValues, function(i, c){
     container.append(templateFunction({ key: c, value: c }))
