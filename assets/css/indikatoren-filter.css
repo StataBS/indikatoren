@@ -123,3 +123,8 @@ ul.pagination{
 .multiselect-search {
     height: 33px;
 }
+
+/* Carousel modal test */
+.modal.and.carousel {
+  position: absolute; /* Needed because the carousel overrides the position property*/
+}
