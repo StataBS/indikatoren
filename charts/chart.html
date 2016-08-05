@@ -23,6 +23,7 @@
   <script type="text/javascript" src="../assets/js/highcharts-data-4.2.6.min.js"></script>
   <script type="text/javascript" src="../assets/js/highcharts-exporting-4.2.6.min.js"></script>
   <script type="text/javascript" src="../assets/js/highcharts-export-csv-1.4.2.js"></script>
+  <script type="text/javascript" src="../assets/js/indikatoren.js"></script>
 
 
 </head>
@@ -39,40 +40,26 @@
   <!-- End Google Tag Manager -->
   <div id="container" style="width:100%; height:100%;max-width:1000px;margin: 0 auto"></div>
 
+  
   <script type="text/javascript">
-    function parseData(completeHandler, chartOptions, data) {
-	try {
-		var dataOptions = {
-      csv: data
-  };
-		dataOptions.sort = true
-		dataOptions.complete = completeHandler;
-		Highcharts.data(dataOptions, chartOptions);
-	} catch (error) {
-		console.log(error);
-		completeHandler(undefined);
-	}
-}
-
-//load global options, template, chartOptions
-$.getScript('options.js')
-$.getScript('template.js');
-$.getScript('I.01.2.0002.js');
-
-$.get("../data/I.01.2.0002.csv", function(data){
-  parseData(function (dataOptions) {
-    // Merge series configs
-    if (chartOptions.series && dataOptions) {
-      Highcharts.each(chartOptions.series, function (series, i) {
-        chartOptions.series[i] = Highcharts.merge(series, dataOptions.series[i]);
+    //draw chart
+    //load data from different files first, source: http://stackoverflow.com/questions/11803215/how-to-include-multiple-js-files-using-jquery-getscript-method
+    $.when(
+      //load global options, template, chartOptions
+      $.getScript('options001.js'),
+      $.getScript('template001.js'),
+      $.getScript('I.01.1.0023.js'),
+      $.Deferred(function( deferred ){
+          $(deferred.resolve);
+      })
+    ).done(function(){
+      //load csv and draw chart      
+      $.get("../data/I.01.1.0023.csv", function(data){
+        drawChart(data, chartOptions)
       });
-    }
-    var options = Highcharts.merge(dataOptions, chartOptions, template);
-    var chart = new Highcharts['Chart'](options);
-  }, chartOptions, data);
-
-});
+    })    
   </script>
+  
 <table align="center" width="470" border="0" cellspacing="0" cellpadding="0">
    <tr>
      <td width="2">&nbsp;</td>
@@ -84,7 +71,7 @@ $.get("../data/I.01.2.0002.csv", function(data){
   </tr>
   <tr>
     <td>&nbsp;</td>
-    <td><p>Der Anteil kinderloser Familien ist leicht rückläufig. Er sank von 41,3% im Jahr 2011 auf 39,1% im Jahr 2014.</p></td>
+    <td><p>Hier kommt die Lesehilfe.</p></td>
   </tr>
 </table>
 </body>
