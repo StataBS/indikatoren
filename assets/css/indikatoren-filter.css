@@ -145,6 +145,7 @@ ul.pagination{
 
 .carousel-indicators {
     top: 15px;
+    height: 15px;
 }
 
 .carousel-indicators li {
