@@ -1,4 +1,4 @@
-var chartOptions = {
+chartOptions['I.01.2.0002'] = {
   "plotOptions": {
     "series": {
       "dataLabels": {
@@ -111,10 +111,9 @@ var chartOptions = {
   },
 
   "chart": {
+    "renderTo": "container-I.01.2.0002",
     "borderColor": "#fbfbfb",
- 
     "backgroundColor": "#fbfbfb",
- 
     "zoomType": "xy",
     "width": 485,
     "marginBottom": 65,

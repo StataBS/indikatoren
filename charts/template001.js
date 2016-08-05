@@ -1,6 +1,5 @@
 var template = {
-	chart: {
-		renderTo: 'container',
+	chart: {		
     events:{
     load: function() {
         this.credits.element.onclick = function() {

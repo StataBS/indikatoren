@@ -130,16 +130,10 @@ ul.pagination{
 }
 
 /* Carousel next / prev changes, from http://stackoverflow.com/questions/29464207/bootstrap-3-carousel-controls-on-outside */
-.carousel-inner .item {
-    font-size:10px;
-    color:#0404B4
-    }
-
 .carousel-control {
     z-index: 10;
     top: 2%;
-    width: 30px; // no more gray thing
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    width: 30px; // no more gray thing    
 }
 
 .carousel-control.left,
@@ -149,9 +143,39 @@ ul.pagination{
 .carousel-control.right { right: -5px; }
 */
 
-.carousel-indicators li {    
-    background-color: #0000ff;    
+.carousel-indicators {
+    top: 15px;
 }
+
+.carousel-indicators li {
+    border-color: black;
+    background-color:white;
+}
+
 .carousel-indicators .active {
-    background-color: #ffff99;
+    border-color: white;
+    background-color:black;
+}
+
+.carousel-inner {
+    margin-top: 30px;
+}
+
+
+.carousel-inner .item h1{
+    font-size: 8pt;
+    text-transform: uppercase;
+    letter-spacing: none;
+    font-weight: bold;
+    color: #496c78;
+    line-height: 100%;
+    margin-top: 34px;
+    margin-bottom: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.carousel-inner .item .lesehilfe {
+    margin-left: 10px;  
+    margin-right: 10px;
 }
