@@ -26,3 +26,25 @@ var drawChart = function(data, chartOptions){
     var chart = new Highcharts['Chart'](options);
     }, chartOptions, data);      
 };
+
+function renderChart(globalOptions, template, chart, csv, chartId){   
+    $.when(
+        //load global options, template, chartOptions
+        /*
+        $.getScript('charts/options001.js'),
+        $.getScript('charts/template001.js'),
+        $.getScript('charts/I.01.2.0002.js'),
+        */
+        $.getScript(globalOptions),
+        $.getScript(template),
+        $.getScript(chart),
+        $.Deferred(function( deferred ){
+            $(deferred.resolve);
+        })
+    ).done(function(){
+        //load csv and draw chart      
+        $.get(csv, function(data){
+        drawChart(data, chartOptions[chartId])
+        });
+    });
+};

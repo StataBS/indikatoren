@@ -14,7 +14,7 @@
 
 $(document).ready(function(){   
   var fjsConfig = {
-    template: '#indikator-template',
+    template: '#indikator-template-carousel',
     search: { ele: '#searchbox' },
     callbacks: {
           afterFilter: afterFilter, 

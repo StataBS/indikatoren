@@ -81,8 +81,8 @@ ul.pagination{
     border-top: none;
 }
 
-.thumbnail>.caption>img,
-.thumbnail>.caption>h5{   
+.thumbnail>.caption>a>h5,
+.thumbnail>.caption>a>img{   
     font-weight: bold;
     color: #336666;
     cursor: pointer;

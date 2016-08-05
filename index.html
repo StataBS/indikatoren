@@ -31,17 +31,15 @@
 
 <!-- carousel modal test https://codepen.io/krnlde/pen/pGijB -->
 <div class="container"> <!--style="display: none;"-->
-
-  <ul class="nav nav-pills nav-stacked">
-    <li><a href="#lightbox" data-toggle="modal">Open Lightbox</a></li>
-    <!--
-    <li><a href="#lightbox" data-toggle="modal" data-slide-to="1">2nd Image</a></li>
-    <li><a href="#lightbox" data-toggle="modal" data-slide-to="2">3rd Image</a></li>
-    <li><a href="#lightbox" data-toggle="modal" data-slide-to="15">Open non existing Image</a></li>
-    -->
+  <!--
+  <ul class="nav nav-pills nav-stacked" id='carousel-links'>
+    <li><a href="#lightbox" data-toggle="modal">Open Lightbox</a></li>    
+    <li><a href="#lightbox" data-toggle="modal" data-slide-to="1">2nd Image</a></li>    
   </ul>
+  -->
   
   <script type="text/javascript">   
+    //holds config of each chart
     var chartOptions = new Object();
   </script>                
   
@@ -54,22 +52,7 @@
             <div class="item active">
               <div id="container-I.01.1.0023"></div>
               <script type="text/javascript">
-                //draw chart
-                var chartOptions = new Object();                
-                $.when(
-                  //load global options, template, chartOptions
-                  $.getScript('charts/options001.js'),
-                  $.getScript('charts/template001.js'),
-                  $.getScript('charts/I.01.1.0023.js'),
-                  $.Deferred(function( deferred ){
-                      $(deferred.resolve);
-                  })
-                ).done(function(){
-                  //load csv and draw chart      
-                  $.get("../data/I.01.1.0023.csv", function(data){
-                    drawChart(data, chartOptions['I.01.1.0023'])
-                  });
-                })    
+                renderChart('charts/options001.js', 'charts/template001.js', 'charts/I.01.1.0023.js', "../data/I.01.1.0023.csv", 'I.01.1.0023');
               </script>
               <h1>Lesehilfe</h1>
               <div class='lesehilfe'>Hier kommt die Maus.</div>              
@@ -77,21 +60,7 @@
             <div class="item">
               <div id="container-I.01.2.0002"></div>
               <script type="text/javascript">
-                //draw chart   
-                $.when(
-                  //load global options, template, chartOptions
-                  $.getScript('charts/options001.js'),
-                  $.getScript('charts/template001.js'),
-                  $.getScript('charts/I.01.2.0002.js'),
-                  $.Deferred(function( deferred ){
-                      $(deferred.resolve);
-                  })
-                ).done(function(){
-                  //load csv and draw chart      
-                  $.get("../data/I.01.2.0002.csv", function(data){
-                    drawChart(data, chartOptions['I.01.2.0002'])
-                  });
-                })    
+                renderChart('charts/options001.js', 'charts/template001.js', 'charts/I.01.2.0002.js', "../data/I.01.2.0002.csv", 'I.01.2.0002');
               </script>
               <h1>Lesehilfe</h1>
               <div class='lesehilfe'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>              
@@ -262,7 +231,7 @@
   </div>
   </div>
   </div>  
-
+<!--
   <script id="indikator-template" type="text/html">
     <div class="col-xs-3 indikator">
       <div class="thumbnail">
@@ -273,6 +242,29 @@
       </div>
     </div>
   </script>
+-->  
+  
+  <script id="indikator-template-carousel" type="text/html">  
+    <div class="col-xs-3 indikator">
+      <div class="thumbnail">
+        <div class="caption">
+          <a href="#lightbox" data-toggle="modal" data-slide-to="1">
+            <h5><%= kuerzel %></h5>                                                    
+            <img src="<%= image %>" alt="<%= title %>: <%= description %>" title="<%= title %>: <%= description %>" class="img-responsive pull-left"/>
+          </a>
+        </div>
+      </div>
+    </div>
+  </script> 
+
+  <script id="indikator-template-modal" type="text/html">
+    <div class="item">
+      <div id="container-I.01.2.0002"></div>
+      <% renderChart('charts/options001.js', 'charts/template001.js', 'charts/I.01.2.0002.js', "../data/I.01.2.0002.csv", 'I.01.2.0002');  %>
+      <h1>Lesehilfe</h1>
+      <div class='lesehilfe'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>              
+    </div>
+</script> 
   
   <script id="checkbox-template" type="text/html">
   	<div class="checkbox">
