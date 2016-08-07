@@ -75,10 +75,6 @@
           </a>
         </div><!-- /.modal-body -->
         <ol class="carousel-indicators" id="carousel-indicators">
-          <!--
-          <li data-target="#lightbox" data-slide-to="0" class="active"></li>
-          <li data-target="#lightbox" data-slide-to="1"></li>
-          -->
         </ol>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
@@ -257,8 +253,7 @@
   <script id="indikator-template-modal" type="text/html">
     <div class="item">
       <div id="container-<%= kuerzel %>"></div>
-      <%= _fid %> 
-      <!-- renderChart('charts/options001.js', 'charts/template001.js', 'charts/I.01.2.0002.js', "../data/I.01.2.0002.csv", 'I.01.2.0002');  -->
+      <!--%= renderChart('charts/options001.js', 'charts/template001.js', 'charts/I.01.2.0002.js', "data/I.01.2.0002.csv", 'I.01.2.0002')  %-->
       <h1>Lesehilfe</h1>
       <div class='lesehilfe'><%= kuerzel %>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>              
     </div>
@@ -277,7 +272,7 @@
   </script>
 
   <script id="carousel-indicator-template" type="text/html">
-    <li data-target="#lightbox" data-slide-to="<%= _fid-1 %>" class=""></li>
+    <li data-target="#lightbox"></li>
   </script>
 
 </body>
