@@ -133,7 +133,7 @@ ul.pagination{
 .carousel-control {
     z-index: 10;
     top: 2%;
-    width: 30px; // no more gray thing    
+    width: 30px; /* no more gray thing */    
 }
 
 .carousel-control.left,

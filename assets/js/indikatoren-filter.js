@@ -13,7 +13,7 @@
 
 
 $(document).ready(function(){ 
-
+/*
   //append elements to different containers at the same time: links and carousel
   var appendFn = function(html_ele, record) {
     //add element to the container defined in FJS configuration
@@ -24,11 +24,10 @@ $(document).ready(function(){
     //create element based on different template
     var html = $('#indikator-template-modal').html();
     var templateFunction = this.templateBuilder(html);
-
+    $('#carousel-inner').children().remove();
     $('#carousel-inner').append(templateFunction(record))
-
-
   }
+  */
 
   var fjsConfig = {
     template: '#indikator-template-carousel',    
@@ -44,10 +43,9 @@ $(document).ready(function(){
         values: [16, 30, 100],
         container: '#per_page'
       },
-    },
-    appendToContainer: appendFn
+    }
   };
-  
+  //appendToContainer: appendFn
 
 
   //Render page differently depending on url query string  
@@ -270,6 +268,17 @@ var afterFilter = function(result, jQ){
     
     //if only 1 page would be displayed: hide pagination, use bootstrap invisible class to leave row height intact    
     (result.length <= 16) ? $('#pagination').addClass('invisible') : $('#pagination').removeClass('invisible');
+
+    //add a carousel div for each thumbnail
+    var html = $('#indikator-template-modal').html();
+    var templateFunction = FilterJS.templateBuilder(html);
+    var container = $('#carousel-inner');
+    //first remove all carousel divs
+    //container.children().remove();
+    //add a new carousel for each result
+    $.each(result, function(i, item){
+      container.append(templateFunction(item))
+    });
 };
 
 
