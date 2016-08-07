@@ -269,6 +269,7 @@ var afterFilter = function(result, jQ){
     //if only 1 page would be displayed: hide pagination, use bootstrap invisible class to leave row height intact    
     (result.length <= 16) ? $('#pagination').addClass('invisible') : $('#pagination').removeClass('invisible');
 
+    //todo: reuse code
     //add a carousel div for each thumbnail
     var html = $('#indikator-template-modal').html();
     var templateFunction = FilterJS.templateBuilder(html);
@@ -279,6 +280,24 @@ var afterFilter = function(result, jQ){
     $.each(result, function(i, item){
       container.append(templateFunction(item))
     });
+    //set first child to active
+    container.children().first().addClass("active");
+
+
+    //add an indicator for each carousel
+    var html = $('#carousel-indicator-template').html();
+    var templateFunction = FilterJS.templateBuilder(html);
+    var container = $('#carousel-indicators');
+    //first remove all carousel divs
+    container.children().remove();
+    //add a new carousel for each result
+    $.each(result, function(i, item){
+      container.append(templateFunction(item))
+    });
+    //set first child to active
+    container.children().first().addClass("active");
+
+    
 };
 
 

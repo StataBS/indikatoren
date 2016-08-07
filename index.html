@@ -47,6 +47,7 @@
       <div class="modal-content">
         <div class="modal-body">
           <div class="carousel-inner" id="carousel-inner">
+            <!--
             <div class="item active">
               <div id="container-I.01.1.0023"></div>
               <script type="text/javascript">
@@ -64,6 +65,7 @@
               <h1>Lesehilfe</h1>
               <div class='lesehilfe'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>              
             </div>
+            -->
           </div><!-- /.carousel-inner -->
           <a class="left carousel-control" href="#lightbox" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
@@ -72,9 +74,11 @@
             <span class="glyphicon glyphicon-chevron-right"></span>
           </a>
         </div><!-- /.modal-body -->
-        <ol class="carousel-indicators">
+        <ol class="carousel-indicators" id="carousel-indicators">
+          <!--
           <li data-target="#lightbox" data-slide-to="0" class="active"></li>
           <li data-target="#lightbox" data-slide-to="1"></li>
+          -->
         </ol>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
@@ -270,6 +274,10 @@
 
   <script id="option-template" type="text/html">
       <option value="<%= key %>"><%= value %></option>
+  </script>
+
+  <script id="carousel-indicator-template" type="text/html">
+    <li data-target="#lightbox" data-slide-to="<%= _fid-1 %>" class=""></li>
   </script>
 
 </body>
