@@ -254,6 +254,49 @@ var afterFilter = function(result, jQ){
           });      
     }
 
+    function createCarousel(result){
+      //todo: reuse code
+      //add a carousel div for each thumbnail
+      var html = $('#indikator-template-modal').html();
+      var templateFunction = FilterJS.templateBuilder(html);
+      var container = $('#carousel-inner');
+      //first remove all carousel divs
+      container.children().remove();
+      //add a new carousel for each result
+      $.each(result, function(i, item){
+        container.append(templateFunction(item))
+      });
+      //set first child to active
+      container.children().first().addClass("active");
+
+
+      //add an indicator for each carousel
+      var html = $('#carousel-indicator-template').html();
+      var templateFunction = FilterJS.templateBuilder(html);
+      var container = $('#carousel-indicators');
+      //first remove all carousel divs
+      container.children().remove();
+      //add a new carousel for each result    
+      $.each(result, function(i, item){
+        var element = container.append(templateFunction(item));      
+      });
+      //set first child to active
+      container.children().first().addClass("active");
+      //set value of data-slide-to
+      var items = $(container).children();
+      $.each($(container).children(), function(i, item){
+        $(item).attr("data-slide-to", i);
+      });
+      
+      //reset data-slide-to of the thumbnail links
+      //todo: handle pages > 1
+      var j=0;
+      var links = $(".caption a[href='#lightbox']");
+      $.each(links, function(i, item){
+        $(item).attr("data-slide-to", j++);
+      });      
+    };
+
     //define how counts are rendered 
     var optionCountRenderFunction = function(c, count){c.text(c.val() + ' (' + count + ')') };
     var checkboxCountRenderFunction = function(c, count){c.next().text(c.val() + ' (' + count + ')')};
@@ -269,40 +312,7 @@ var afterFilter = function(result, jQ){
     //if only 1 page would be displayed: hide pagination, use bootstrap invisible class to leave row height intact    
     (result.length <= 16) ? $('#pagination').addClass('invisible') : $('#pagination').removeClass('invisible');
 
-    //todo: reuse code
-    //add a carousel div for each thumbnail
-    var html = $('#indikator-template-modal').html();
-    var templateFunction = FilterJS.templateBuilder(html);
-    var container = $('#carousel-inner');
-    //first remove all carousel divs
-    container.children().remove();
-    //add a new carousel for each result
-    $.each(result, function(i, item){
-      container.append(templateFunction(item))
-    });
-    //set first child to active
-    container.children().first().addClass("active");
-
-
-    //add an indicator for each carousel
-    var html = $('#carousel-indicator-template').html();
-    var templateFunction = FilterJS.templateBuilder(html);
-    var container = $('#carousel-indicators');
-    //first remove all carousel divs
-    container.children().remove();
-    //add a new carousel for each result    
-    $.each(result, function(i, item){
-      var element = container.append(templateFunction(item));      
-    });
-    //set first child to active
-    container.children().first().addClass("active");
-    //set value of data-slide-to
-    var items = $(container).children();
-    $.each($(container).children(), function(i, item){
-      $(item).attr("data-slide-to", i);
-    });
-    
-    
+    createCarousel(result);
 };
 
 

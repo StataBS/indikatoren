@@ -238,10 +238,10 @@
 -->  
   
   <script id="indikator-template-carousel" type="text/html">  
-    <div class="col-xs-3 indikator" indikator-fid-data="<%= _fid-1 %>" indikator-kuerzel-data="<%= kuerzel %>">
+    <div class="col-xs-3 indikator" indikator-fid-data="<%= _fid %>" indikator-kuerzel-data="<%= kuerzel %>">
       <div class="thumbnail">
         <div class="caption">
-          <a href="#lightbox" data-toggle="modal" data-slide-to="<%= _fid-1 %>">
+          <a id="thumbnail-lightbox-link-<%= _fid %>" href="#lightbox" data-toggle="modal" data-slide-to="">
             <h5><%= kuerzel %></h5>                                                    
             <img src="<%= image %>" alt="<%= title %>: <%= description %>" title="<%= title %>: <%= description %>" class="img-responsive pull-left"/>
           </a>
