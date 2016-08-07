@@ -295,7 +295,7 @@ var afterFilter = function(result, jQ){
       var element = container.append(templateFunction(item));      
     });
     //set first child to active
-    //container.children().first().addClass("active");
+    container.children().first().addClass("active");
     //set value of data-slide-to
     var items = $(container).children();
     $.each($(container).children(), function(i, item){
