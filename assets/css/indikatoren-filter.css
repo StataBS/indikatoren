@@ -163,7 +163,7 @@ ul.pagination{
 }
 
 
-.carousel-inner .item h1{
+h1{
     font-size: 8pt;
     text-transform: uppercase;
     letter-spacing: none;
@@ -176,7 +176,7 @@ ul.pagination{
     margin-right: 10px;
 }
 
-.carousel-inner .item .lesehilfe {
+.lesehilfe {
     margin-left: 10px;  
     margin-right: 10px;
 }

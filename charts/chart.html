@@ -17,13 +17,14 @@
     }
   </style>
 
-  <link rel=stylesheet type="text/css" href="../css/style.css">
+  <link href="../assets/bootstrap/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">   
+  <link href="../assets/css/indikatoren-filter.css" media="screen" rel="stylesheet" type="text/css">
   <script type="text/javascript" src="../assets/js/jquery-1.11.3.min.js"></script>
   <script type="text/javascript" src="../assets/js/highcharts-4.2.6.min.js"></script>
   <script type="text/javascript" src="../assets/js/highcharts-data-4.2.6.min.js"></script>
   <script type="text/javascript" src="../assets/js/highcharts-exporting-4.2.6.min.js"></script>
   <script type="text/javascript" src="../assets/js/highcharts-export-csv-1.4.2.js"></script>
-  <script type="text/javascript" src="../assets/js/indikatoren.js"></script>
+  <script type="text/javascript" src="../assets/js/indikatoren-highcharts.js"></script>
 
 
 </head>
@@ -38,42 +39,16 @@
   '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-KGK459');</script>
   <!-- End Google Tag Manager -->
-  <div id="container" style="width:100%; height:100%;max-width:1000px;margin: 0 auto"></div>
+  <div id="container-I.01.2.0002" style="width:100%; height:100%;max-width:1000px;margin: 0 auto"></div>
 
   
   <script type="text/javascript">
-    //draw chart
-    //load data from different files first, source: http://stackoverflow.com/questions/11803215/how-to-include-multiple-js-files-using-jquery-getscript-method
-    $.when(
-      //load global options, template, chartOptions
-      $.getScript('options001.js'),
-      $.getScript('template001.js'),
-      $.getScript('I.01.1.0023.js'),
-      $.Deferred(function( deferred ){
-          $(deferred.resolve);
-      })
-    ).done(function(){
-      //load csv and draw chart      
-      $.get("../data/I.01.1.0023.csv", function(data){
-        drawChart(data, chartOptions)
-      });
-    })    
+    var chartOptions = new Object();
+    renderChart('options001.js', 'template001.js', 'I.01.2.0002.js', "../data/I.01.2.0002.csv", 'I.01.2.0002');
   </script>
-  
-<table align="center" width="470" border="0" cellspacing="0" cellpadding="0">
-   <tr>
-     <td width="2">&nbsp;</td>
-    <td height="5">&nbsp;</td>
-  </tr>
-  <tr>
-    <td valign="middle">&nbsp;</td>
-    <td height="20" valign="middle"><h1>Lesehilfe</h1></td>
-  </tr>
-  <tr>
-    <td>&nbsp;</td>
-    <td><p>Hier kommt die Lesehilfe.</p></td>
-  </tr>
-</table>
+  <h1>Lesehilfe</h1>
+  <div class='lesehilfe'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>              
+  </div>
 </body>
 
 </html>
