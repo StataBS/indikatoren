@@ -241,7 +241,7 @@
     <div class="col-xs-3 indikator" indikator-fid-data="<%= _fid %>" indikator-kuerzel-data="<%= kuerzel %>">
       <div class="thumbnail">
         <div class="caption">
-          <a id="thumbnail-lightbox-link-<%= _fid %>" href="#lightbox" data-toggle="modal" data-slide-to="">
+          <a id="thumbnail-lightbox-link-<%= _fid %>" href="#lightbox" data-toggle="modal" data-slide-to="<%= getIndexByFid(_fid) %>">
             <h5><%= kuerzel %></h5>                                                    
             <img src="<%= image %>" alt="<%= title %>: <%= description %>" title="<%= title %>: <%= description %>" class="img-responsive pull-left"/>
           </a>
@@ -272,7 +272,7 @@
   </script>
 
   <script id="carousel-indicator-template" type="text/html">
-    <li data-target="#lightbox"></li>
+    <li data-target="#lightbox" data-slide-to="<%= _fid-1 %>"></li>
   </script>
 
 </body>

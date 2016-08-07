@@ -11,7 +11,6 @@
  *  jQuery(v1.9 >=)
  */
 
-
 $(document).ready(function(){ 
 /*
   //append elements to different containers at the same time: links and carousel
@@ -79,8 +78,8 @@ $(document).ready(function(){
     }
   }
 
-  FJS.filter();
   window.FJS = FJS;  
+  FJS.filter();  
   //Only now display page
   $('body').show();
 });
@@ -237,6 +236,24 @@ function configureMultiselect(selector){
 };
 
 
+//find index of a given _fid in the FJS.last_result array
+function getIndexByFid(fid){
+  //http://stackoverflow.com/questions/15997879/get-the-index-of-the-object-inside-an-array-matching-a-condition
+  try{
+    indexes = $.map(window.FJS.last_result, function(obj, index) {
+      if(obj._fid== fid) {
+          return index;
+      }
+    })
+    firstIndex = indexes[0];
+    return firstIndex;
+    }
+  catch (e) {
+    return 'undefined';
+  }
+}
+
+
 var afterFilter = function(result, jQ){
     //$('#total_indikatoren').text(result.length);    
     //Add Counts in brackets after each option
@@ -254,7 +271,7 @@ var afterFilter = function(result, jQ){
           });      
     }
 
-    function createCarousel(result){
+    function createCarousel(result){      
       //todo: reuse code
       //add a carousel div for each thumbnail
       var html = $('#indikator-template-modal').html();
@@ -282,19 +299,13 @@ var afterFilter = function(result, jQ){
       });
       //set first child to active
       container.children().first().addClass("active");
+      
       //set value of data-slide-to
       var items = $(container).children();
       $.each($(container).children(), function(i, item){
         $(item).attr("data-slide-to", i);
       });
-      
-      //reset data-slide-to of the thumbnail links
-      //todo: handle pages > 1
-      var j=0;
-      var links = $(".caption a[href='#lightbox']");
-      $.each(links, function(i, item){
-        $(item).attr("data-slide-to", j++);
-      });      
+  
     };
 
     //define how counts are rendered 
