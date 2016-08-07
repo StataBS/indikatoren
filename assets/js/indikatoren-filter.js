@@ -12,9 +12,26 @@
  */
 
 
-$(document).ready(function(){   
+$(document).ready(function(){ 
+
+  //append elements to different containers at the same time: links and carousel
+  var appendFn = function(html_ele, record) {
+    //add element to the container defined in FJS configuration
+    var defaultContainer = this.$container.selector;
+    $(defaultContainer).append(html_ele);
+    //$("#indikatoren").append(html_ele);
+    
+    //create element based on different template
+    var html = $('#indikator-template-modal').html();
+    var templateFunction = this.templateBuilder(html);
+
+    $('#carousel-inner').append(templateFunction(record))
+
+
+  }
+
   var fjsConfig = {
-    template: '#indikator-template-carousel',
+    template: '#indikator-template-carousel',    
     search: { ele: '#searchbox' },
     callbacks: {
           afterFilter: afterFilter, 
@@ -27,9 +44,12 @@ $(document).ready(function(){
         values: [16, 30, 100],
         container: '#per_page'
       },
-    }
+    },
+    appendToContainer: appendFn
   };
   
+
+
   //Render page differently depending on url query string  
   var indikatorenset = $.url('?Indikatorenset'); 
   if (indikatorenset){ 
@@ -266,3 +286,57 @@ function displayModal(indikatorId){
   //eModal.iframe({'url': chart.url, 'title': ' ', 'size': 'md', 'buttons': [{text: '<', style: 'info',   close: true }, {text: '>', style: 'info', close: true }] });  
   eModal.iframe({'url': chart.url, 'title': ' ', 'size': 'md'});
 }
+
+
+//parse csv and configure HighCharts object
+function parseData(completeHandler, chartOptions, data) {
+    try {
+    var dataOptions = {
+        csv: data
+    };
+    dataOptions.sort = true
+    dataOptions.complete = completeHandler;
+    Highcharts.data(dataOptions, chartOptions);
+    } catch (error) {
+    console.log(error);
+    completeHandler(undefined);
+    }
+};
+
+
+//merge series with all options and draw chart
+var drawChart = function(data, chartOptions){            
+    parseData(function (dataOptions) {
+    // Merge series configs
+    if (chartOptions.series && dataOptions) {
+        Highcharts.each(chartOptions.series, function (series, i) {
+        chartOptions.series[i] = Highcharts.merge(series, dataOptions.series[i]);
+        });
+    }
+    var options = Highcharts.merge(dataOptions, chartOptions, template);
+    var chart = new Highcharts['Chart'](options);
+    }, chartOptions, data);      
+};
+
+
+//load global options, template, chartOptions from external scripts and render chart to designated div
+function renderChart(globalOptions, template, chart, csv, chartId){   
+    $.when(        
+        /*
+        $.getScript('charts/options001.js'),
+        $.getScript('charts/template001.js'),
+        $.getScript('charts/I.01.2.0002.js'),
+        */
+        $.getScript(globalOptions),
+        $.getScript(template),
+        $.getScript(chart),
+        $.Deferred(function( deferred ){
+            $(deferred.resolve);
+        })
+    ).done(function(){
+        //load csv and draw chart      
+        $.get(csv, function(data){
+        drawChart(data, chartOptions[chartId])
+        });
+    });
+};
