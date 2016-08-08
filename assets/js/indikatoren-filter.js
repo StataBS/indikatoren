@@ -82,6 +82,22 @@ $(document).ready(function(){
   FJS.filter();  
   //Only now display page
   $('body').show();
+
+  //test lazy loading
+  $('#lightbox').bind('slide.bs.carousel', function (e) {      
+      var slideFrom = $(this).find('.active').index();
+      var slideTo = $(e.relatedTarget).index();
+      console.log(slideFrom+' => '+slideTo);
+      //console.log($(e.relatedTarget));
+      //console.log("Slide: Active div id:" + $('#lightbox .item.active :first-child()').attr("id"));
+      console.log("Slide event, to: " + $(e.relatedTarget).children().first().attr('id'));
+  });
+  
+  //test modal show event
+  $("#lightbox").on('show.bs.modal', function (e) {
+    console.log("Modal Show: Active div id:" + $('#lightbox .item.active :first-child()').attr("id"));
+    //console.log(e);
+  });
 });
 
 
