@@ -80,7 +80,7 @@ $(document).ready(function(){
       var targetKuerzel = $(e.relatedTarget).children().first().attr('indikator-kuerzel-data');
       renderChartByKuerzel(targetKuerzel);
   });
-});//$(document).ready(function()
+  });//$(document).ready(function()
 
 
 //interpret sort configuration received from dropdown
@@ -336,7 +336,22 @@ var afterFilter = function(result, jQ){
       var items = $(container).children();
       $.each($(container).children(), function(i, item){
         $(item).attr("data-slide-to", i);
-      });  
+      });
+      
+      //bind keyboard to carousel: arrow left/right, esc
+      //source: http://stackoverflow.com/questions/15720776/bootstrap-carousel-with-keyboard-controls
+      $(document).bind('keyup', function(e) {
+        if(e.which == 39){
+          $('.carousel').carousel('next');
+        }
+        else if(e.which == 37){
+          $('.carousel').carousel('prev');
+        }
+        else if (e.which == 27){
+          $('.carousel').modal('hide');
+        }
+    });
+  
     };
 };
 
