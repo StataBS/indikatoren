@@ -149,7 +149,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": ""
+"lesehilfe": "Am zahlreichsten sind 2014 nach Zimmerzahl betrachtet die 3-Zimmerwohnungen (37%) und nach Wohnungsflächenkategorie Logis zwischen 70 und 99 Quadratmetern (35%)."
 },
 {"url": "charts/I.09.1.0005.html",
 "title":"Indikator 1.2.c-2",
@@ -166,7 +166,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": ""
+"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Der sprunghafte Anstieg 2014 ist auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume (Büros) zu Wohnungen zurückzuführen. 2015 prägten neben Dachstockausbauten viele Zweckentfremdungen von Wohnungen den Umbausaldo."
 },
 {"url": "charts/I.09.1.0006.html",
 "title":"Indikator 1.3.a",
@@ -183,7 +183,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": ""
+"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Seither liegt die Zahl bei rund 42 Quadratmetern."
 },
 {"url": "charts/I.09.1.0007.html",
 "title":"Indikator 1.4.b",
@@ -200,7 +200,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": ""
+"lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2015 rund 10%. Er ist leicht rückläufig."
 },
 {"url": "charts/I.09.1.0008.html",
 "title":"Indikator 2.1.a",
