@@ -1,4 +1,5 @@
-chartOptions['I.01.1.0023'] = {
+﻿
+chartOptions['I.01.1.0025'] = {
   "plotOptions": {
     "series": {
       "dataLabels": {
@@ -16,7 +17,10 @@ chartOptions['I.01.1.0023'] = {
     }
   },
   "yAxis": {
-    "title": {
+    "min": 150000,
+    "max": 175000,
+    "tickInterval": 5000,
+   "title": {
       "style": {
         "color": "#000000",
         "fontSize": null
@@ -29,10 +33,10 @@ chartOptions['I.01.1.0023'] = {
         "color": "#000000"
       }
     },
-    "min": 0
+
   },
   "xAxis": {
-    "title": {
+   "title": {
       "style": {
         "color": "#000000"
       }
@@ -46,17 +50,11 @@ chartOptions['I.01.1.0023'] = {
     "tickInterval": 1
   },
   "exporting": {
-	    "sourceWidth": null,
-	    "scale": 5,
-	    buttons: {
-	      contextButton: {
-	        menuItems: Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8)
-	      }
-	    }
-	  },
+    "sourceWidth": null,
+    "scale": 5
+  },
   "credits": {
-    "text": "Quelle: Kantonale Bevölkerungsstatisstik;<br/>Statistisches Amt des Kantons Basel-Stadt",
-    "href": "http://www.statistik.bs.ch",
+    "text": "Quelle:  Statistik der Bevölkerung und Haushalte (STATPOP);<br/>Bundesamt für Statistik.",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -81,40 +79,8 @@ chartOptions['I.01.1.0023'] = {
         "symbol": "circle",
         "enabled": true
       },
-      "index": 4,
-      "color": "#008AC3"
-    },
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "index": 3,
-      "color": "#008AC3"
-    },
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      }, 
-      "index": 2,
-      "color": "#008AC3"
-    },
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "index": 1,
-      "color": "#008AC3"
-    },
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "index": 0,
-      "color": "#008AC3"
+      "color": "#B375AB"
     }
   ],
   "tooltip": {
@@ -126,7 +92,7 @@ chartOptions['I.01.1.0023'] = {
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Indikator 1.1.a: Bevölkerung am Jahresende",
+    "text": "Indikator 2.2.a: Anzahl Personen mit Hauptwohnsitz im Kanton Basel-Stadt",
     "align": "left"
   },
   "subtitle": {
@@ -139,8 +105,9 @@ chartOptions['I.01.1.0023'] = {
     "text": "",
     "align": "left"
   },
+
   "chart": {
-    "renderTo": "container-I.01.1.0023",
+    "renderTo": "container-I.01.1.0025",
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
@@ -150,6 +117,6 @@ chartOptions['I.01.1.0023'] = {
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line"    
+    "type": "line"
   }
-};
+}

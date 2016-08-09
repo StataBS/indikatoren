@@ -1,21 +1,16 @@
-chartOptions['I.01.1.0023'] = {
+﻿chartOptions['I.01.2.0001'] = {
   "plotOptions": {
     "series": {
       "dataLabels": {
-        "enabled": true,
-          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
-          formatter: function() {
-            var last  = this.series.data[this.series.data.length - 1];
-            var first  = this.series.data[0];
-            if (this.point.y === first.y || this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 0, ",", " ");
-            }
-            return "";
-          }
-      }
+        "style": {
+          "fontSize": 10
+        }
+      },
+      "stacking": "percent"
     }
   },
   "yAxis": {
+"tickInterval":10,
     "title": {
       "style": {
         "color": "#000000",
@@ -24,7 +19,7 @@ chartOptions['I.01.1.0023'] = {
       "text": null
     },
     "labels": {
-      "format": "{value:,.0f}",
+      "format": "{value}%",
       "style": {
         "color": "#000000"
       }
@@ -42,8 +37,11 @@ chartOptions['I.01.1.0023'] = {
         "color": "#000000"
       }
     },
-    "tickColor": "#FFFFFF",
-    "tickInterval": 1
+    "tickColor": "#FFFFFF"
+  },
+  tooltip: {
+    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>',
+    shared: false
   },
   "exporting": {
 	    "sourceWidth": null,
@@ -56,7 +54,6 @@ chartOptions['I.01.1.0023'] = {
 	  },
   "credits": {
     "text": "Quelle: Kantonale Bevölkerungsstatisstik;<br/>Statistisches Amt des Kantons Basel-Stadt",
-    "href": "http://www.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -70,63 +67,35 @@ chartOptions['I.01.1.0023'] = {
     }
   },
   "legend": {
-    "enabled": false,
     "layout": "vertical",
     "verticalAlign": "middle",
-    "align": "right"
+    "itemMarginBottom": 5,
+    "align": "right",
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
   },
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "index": 4,
-      "color": "#008AC3"
+      "color": "#2f656b",
+      "index": 0
     },
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "index": 3,
-      "color": "#008AC3"
+      "color": "#73b97c",
+      "index": 1
     },
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      }, 
-      "index": 2,
-      "color": "#008AC3"
-    },
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "index": 1,
-      "color": "#008AC3"
-    },
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "index": 0,
-      "color": "#008AC3"
+      "color": "#cd9c00",
+      "index": 2
     }
   ],
-  "tooltip": {
-    "shared": false
-  },
   "title": {
     "style": {
       "fontSize": 14,
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Indikator 1.1.a: Bevölkerung am Jahresende",
+    "text": "Indikator 1.4.a-1: Haushalte nach Typ",
     "align": "left"
   },
   "subtitle": {
@@ -139,8 +108,9 @@ chartOptions['I.01.1.0023'] = {
     "text": "",
     "align": "left"
   },
+
   "chart": {
-    "renderTo": "container-I.01.1.0023",
+    "renderTo": "container-I.01.2.0001",
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
@@ -150,6 +120,8 @@ chartOptions['I.01.1.0023'] = {
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line"    
+    "zoomType": "y",
+    "type": "column"
   }
 };
+

@@ -1,50 +1,91 @@
-chartOptions['I.01.1.0023'] = {
+﻿chartOptions['I.09.1.0003'] = {
+ 
   "plotOptions": {
+ 
     "series": {
+ 
       "dataLabels": {
-        "enabled": true,
-          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
-          formatter: function() {
-            var last  = this.series.data[this.series.data.length - 1];
-            var first  = this.series.data[0];
-            if (this.point.y === first.y || this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 0, ",", " ");
-            }
-            return "";
-          }
-      }
-    }
-  },
-  "yAxis": {
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
+ 
+        "style": {
+ 
+          "fontSize": 10
+ 
+        }
+ 
       },
-      "text": null
-    },
-    "labels": {
-      "format": "{value:,.0f}",
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "min": 0
+ 
+      "stacking": "normal"
+ 
+    }
+ 
   },
-  "xAxis": {
+ 
+  "yAxis": {
+ 
     "title": {
+ 
       "style": {
-        "color": "#000000"
-      }
+ 
+        "color": "#000000",
+ 
+        "fontSize": null
+ 
+      },
+ 
+      "text": null
+ 
     },
+ 
     "labels": {
+ 
+      "format": "{value:,.0f}",
+ 
       "style": {
+ 
         "color": "#000000"
+ 
       }
-    },
-    "tickColor": "#FFFFFF",
-    "tickInterval": 1
+ 
+
+ 
+    }
+ 
   },
+ 
+  "xAxis": {
+ 
+    "title": {
+ 
+      "style": {
+ 
+        "color": "#000000"
+ 
+      }
+ 
+    },
+ 
+    "labels": {
+ 
+      "style": {
+ 
+        "color": "#000000"
+ 
+      }
+ 
+    },
+ 
+    "tickColor": "#FFFFFF"
+ 
+  },
+ 
+  tooltip: {
+ 
+    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.2f}%)<br/>',
+ 
+    shared: false
+ 
+  },
+ 
   "exporting": {
 	    "sourceWidth": null,
 	    "scale": 5,
@@ -55,101 +96,168 @@ chartOptions['I.01.1.0023'] = {
 	    }
 	  },
   "credits": {
-    "text": "Quelle: Kantonale Bevölkerungsstatisstik;<br/>Statistisches Amt des Kantons Basel-Stadt",
+ 
+    "text": "Quelle: Kantonale Gebäude- und Wohnungsstatistik;<br/>Statistisches Amt des Kantons Basel-Stadt",
+ 
     "href": "http://www.statistik.bs.ch",
+ 
     "enabled": true,
+ 
     "style": {
+ 
       "color": "#000000",
+ 
       "fontSize": 10
+ 
     },
+ 
     "position": {
+ 
       "align": "left",
+ 
       "verticalAlign": "bottom",
+ 
       x: 10,
+ 
       y: -17
+ 
     }
+ 
   },
+ 
   "legend": {
-    "enabled": false,
+ 
     "layout": "vertical",
+ 
     "verticalAlign": "middle",
-    "align": "right"
-  },
-  "series": [
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "index": 4,
-      "color": "#008AC3"
-    },
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "index": 3,
-      "color": "#008AC3"
-    },
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      }, 
-      "index": 2,
-      "color": "#008AC3"
-    },
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "index": 1,
-      "color": "#008AC3"
-    },
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "index": 0,
-      "color": "#008AC3"
+ 
+    "itemMarginBottom": 5,     
+ 
+    "align": "right",
+ 
+    "itemStyle": {
+ 
+      "fontWeight": "normal"
+ 
     }
+ 
+  },
+ 
+  "series": [
+ 
+    {
+ 
+      "color": "#DC440E",
+ 
+      "index": 5
+ 
+    },
+ 
+    {
+ 
+      "color": "#923F8D",
+ 
+      "index": 4
+ 
+    },
+ 
+    {
+ 
+      "color": "#68AB2B",
+ 
+      "index": 3
+ 
+    },
+ 
+    {
+ 
+      "color": "#689199",
+ 
+      "index": 2
+ 
+    },
+ 
+    {
+ 
+      "color": "#CD9C00",
+ 
+      "index": 1
+ 
+    },
+ 
+    {
+ 
+      "color": "#B00000",
+ 
+      "index": 0
+ 
+    }
+ 
   ],
-  "tooltip": {
-    "shared": false
-  },
+ 
   "title": {
+ 
     "style": {
+ 
       "fontSize": 14,
+ 
       "fontWeight": "bold",
-      "color": "#000000"
-    },
-    "text": "Indikator 1.1.a: Bevölkerung am Jahresende",
-    "align": "left"
-  },
-  "subtitle": {
-    "style": {
-      "fontSize": 12,
-      "fontWeight": "normal",
+ 
       "fontFamily": "Arial",
+ 
       "color": "#000000"
+ 
     },
-    "text": "",
+ 
+    "text": "Indikator 1.2.a: Wohnungsbestand nach Zimmerzahl",
+ 
     "align": "left"
+ 
   },
-  "chart": {
-    "renderTo": "container-I.01.1.0023",
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
-    "width": 485,
-    "marginBottom": 65,
-    "marginTop": 75,
+ 
+  "subtitle": {
+ 
     "style": {
-      "fontFamily": "Arial"
+ 
+      "fontSize": 12,
+ 
+      "fontWeight": "normal",
+ 
+      "fontFamily": "Arial",
+ 
+      "color": "#000000"
+ 
     },
-    "type": "line"    
+ 
+    "text": "",
+ 
+    "align": "left"
+ 
+  },
+ 
+  "chart": {
+    "renderTo": "container-I.09.1.0003",
+ 
+    "borderColor": "#fbfbfb",
+ 
+    "backgroundColor": "#fbfbfb",
+ 
+    "width": 485,
+ 
+    "marginBottom": 75,
+ 
+    "marginTop": 75,
+ 
+    "style": {
+ 
+      "fontFamily": "Arial"
+ 
+    },
+ 
+    "zoomType": "y",
+ 
+    "type": "column"
+ 
   }
+ 
 };

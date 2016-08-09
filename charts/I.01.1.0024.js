@@ -1,4 +1,5 @@
-chartOptions['I.01.1.0023'] = {
+﻿
+chartOptions['I.01.1.0024'] = {
   "plotOptions": {
     "series": {
       "dataLabels": {
@@ -16,6 +17,9 @@ chartOptions['I.01.1.0023'] = {
     }
   },
   "yAxis": {
+    "min": 0,
+    "max": 16,
+    "tickInterval": 2,
     "title": {
       "style": {
         "color": "#000000",
@@ -24,14 +28,14 @@ chartOptions['I.01.1.0023'] = {
       "text": null
     },
     "labels": {
-      "format": "{value:,.0f}",
+      "format": "{value}%",
       "style": {
         "color": "#000000"
       }
     },
-    "min": 0
   },
   "xAxis": {
+    "max": 2015,
     "title": {
       "style": {
         "color": "#000000"
@@ -43,11 +47,13 @@ chartOptions['I.01.1.0023'] = {
       }
     },
     "tickColor": "#FFFFFF",
-    "tickInterval": 1
+    "tickInterval": 5,
+    "showLastLabel": true,
+    "endOnTick": true
   },
   "exporting": {
 	    "sourceWidth": null,
-	    "scale": 5,
+	    "scale": 4,
 	    buttons: {
 	      contextButton: {
 	        menuItems: Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8)
@@ -55,8 +61,7 @@ chartOptions['I.01.1.0023'] = {
 	    }
 	  },
   "credits": {
-    "text": "Quelle: Kantonale Bevölkerungsstatisstik;<br/>Statistisches Amt des Kantons Basel-Stadt",
-    "href": "http://www.statistik.bs.ch",
+    "text": "Quelle: Kantonale Gebäude- und Wohnungsstatistik;<br/>Statistisches Amt des Kantons Basel-Stadt",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -73,41 +78,9 @@ chartOptions['I.01.1.0023'] = {
     "enabled": false,
     "layout": "vertical",
     "verticalAlign": "middle",
-    "align": "right"
+    "align": "right",
   },
   "series": [
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "index": 4,
-      "color": "#008AC3"
-    },
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "index": 3,
-      "color": "#008AC3"
-    },
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      }, 
-      "index": 2,
-      "color": "#008AC3"
-    },
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "index": 1,
-      "color": "#008AC3"
-    },
     {
       "marker": {
         "symbol": "circle",
@@ -117,16 +90,18 @@ chartOptions['I.01.1.0023'] = {
       "color": "#008AC3"
     }
   ],
-  "tooltip": {
-    "shared": false
+ tooltip: {
+    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b>%<br/>',
+    shared: true
   },
   "title": {
     "style": {
       "fontSize": 14,
       "fontWeight": "bold",
+      "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Indikator 1.1.a: Bevölkerung am Jahresende",
+    "text": "Indikator 1.7.a: Wohneigentumsquote in Prozent",
     "align": "left"
   },
   "subtitle": {
@@ -135,12 +110,13 @@ chartOptions['I.01.1.0023'] = {
       "fontWeight": "normal",
       "fontFamily": "Arial",
       "color": "#000000"
+
     },
     "text": "",
     "align": "left"
   },
   "chart": {
-    "renderTo": "container-I.01.1.0023",
+    "renderTo": "container-I.01.1.0024",
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
@@ -150,6 +126,6 @@ chartOptions['I.01.1.0023'] = {
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line"    
+    "type": "line"
   }
 };

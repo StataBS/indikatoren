@@ -12,7 +12,8 @@
 "stufe2":"Test2",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"",
+"lesehilfe": "Von 2005 bis 2015 ist die Anzahl Einwohnerinnen und Einwohner im Kanton Basel-Stadt um 4,9% angestiegen." 
 },
 {"url": "charts/I.01.1.0024.html",
 "title":"Indikator 1.7.a",
@@ -28,7 +29,8 @@
 "stufe2":"ABCTest2_2",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": "Die Eigentumsquote steigt langsam an. Gezählt werden Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt werden. Bei unbelegten Wohnungen gilt die letzte Belegung."
 },
 {"url": "charts/I.01.1.0025.html",
 "title":"Indikator 2.2.a",
@@ -44,7 +46,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": "Die Anzahl volljähriger Personen mit Hauptwohnsitz in Basel-Stadt nimmt stetig leicht zu. Diese Personen versteuern ihr Einkommen oder ihre Vermögenswerte, falls vorhanden, in der Regel in Basel-Stadt."
 },
 {"url": "charts/I.01.2.0001.html",
 "title":"Indikator 1.4.a-1",
@@ -60,7 +63,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen rund 47% aus."
 },
 {"url": "charts/I.01.2.0002.html",
 "title":"Indikator 1.4.a2",
@@ -76,7 +80,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": "Der Anteil kinderloser Familien ist leicht rückläufig. Er sank von 41,3% im Jahr 2011 auf 39,1% im Jahr 2014."
 },
 {"url": "charts/I.02.1.0015.html",
 "title":"Indikator 3.2.a",
@@ -92,7 +97,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": "Die Freiraumflächen erreichten 2012 ihren Höchstwert. Seither reduzierten sich diese Flächen leicht, weil Schulhauserweiterungen auf Kosten von Sportanlagen vorgenommen worden waren oder die Voltamatte umgestaltet worden war. Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen."
 },
 {"url": "charts/I.09.1.0002.html",
 "title":"Indikator 0.1.c",
@@ -108,7 +114,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": "Der Anteil der selbstgenutzten Eigentümerwohnungen, das heisst Wohnungen, welche vom Wohnungs- bzw. Gebäudeeigentümer selber bewohnt werden, ist nahezu unverändert."
 },
 {"url": "charts/I.09.1.0003.html",
 "title":"Indikator 1.2.a",
@@ -124,7 +131,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": "Seit 2008 steigt der gesamte Wohnungsbestand leicht und stetig an. Am stärksten war das Wachstum bei den Fünfzimmerwohnungen (+13% seit 2005). Rückläufig bzw. nahezu unverändert war dagegen die Entwicklung bei den Ein- und Zweizimmerwohnungen (-7% bzw. +0,3%)."
 },
 {"url": "charts/I.09.1.0004.html",
 "title":"Indikator 1.2.b",
@@ -140,7 +148,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": ""
 },
 {"url": "charts/I.09.1.0005.html",
 "title":"Indikator 1.2.c-2",
@@ -156,7 +165,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": ""
 },
 {"url": "charts/I.09.1.0006.html",
 "title":"Indikator 1.3.a",
@@ -172,7 +182,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": ""
 },
 {"url": "charts/I.09.1.0007.html",
 "title":"Indikator 1.4.b",
@@ -188,7 +199,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": ""
 },
 {"url": "charts/I.09.1.0008.html",
 "title":"Indikator 2.1.a",
@@ -204,7 +216,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": ""
 },
 {"url": "charts/I.09.1.0013.html",
 "title":"Indikator 1.2.c-1",
@@ -220,7 +233,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": ""
 },
 {"url": "charts/I.09.3.0002.html",
 "title":"Indikator 1.2.e",
@@ -236,7 +250,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": ""
 },
 {"url": "charts/I.09.4.0003.html",
 "title":"Indikator 0.1.b-2",
@@ -252,7 +267,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": ""
 },
 {"url": "charts/I.09.4.0004.html",
 "title":"Indikator 1.2.f-1",
@@ -268,7 +284,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": ""
 },
 {"url": "charts/I.09.4.0005.html",
 "title":"Indikator 1.2.f-2",
@@ -284,7 +301,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": ""
 },
 {"url": "charts/I.09.5.0001.html",
 "title":"Indikator 0.1.b-1",
@@ -300,7 +318,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": ""
 },
 {"url": "charts/I.09.5.0003.html",
 "title":"Indikator 0.1.b-3",
@@ -316,7 +335,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": ""
 },
 {"url": "charts/I.13.2.0002.html",
 "title":"Indikator 4.1.a",
@@ -332,7 +352,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": ""
 },
 {"url": "charts/I.13.2.0003.html",
 "title":"Indikator 4.1.b",
@@ -348,7 +369,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": ""
 },
 {"url": "charts/I.13.3.0002.html",
 "title":"Indikator 4.1.e",
@@ -364,7 +386,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": ""
 },
 {"url": "charts/I.18.2.0001.html",
 "title":"Indikator 2.1.b",
@@ -380,7 +403,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": ""
 },
 {"url": "charts/I.50.1.0005.html",
 "title":"Indikator 0.1.a",
@@ -396,7 +420,8 @@
 "stufe2":"Anteil an Hauptwohnsitznehmern",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": ""
 },
 {"url": "charts/I.50.1.0006.html",
 "title":"Indikator 1.4.c",
@@ -412,7 +437,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": ""
 },
 {"url": "charts/I.50.1.0007.html",
 "title":"Indikator 3.2.b",
@@ -428,7 +454,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": ""
 },
 {"url": "charts/I.50.1.0008.html",
 "title":"Indikator 3.3.a",
@@ -444,7 +471,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": ""
 },
 {"url": "charts/I.50.1.0009.html",
 "title":"Indikator 4.2.a",
@@ -460,7 +488,8 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": ""
 },
 {"url": "charts/I.50.4.0001.html",
 "title":"Indikator 4.2.c",
@@ -476,6 +505,7 @@
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
-"stufe5":"" 
+"stufe5":"", 
+"lesehilfe": ""
 },
 ];
