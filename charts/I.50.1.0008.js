@@ -27,6 +27,7 @@
     }
   },
   "xAxis": {
+    "type": "category",
     "title": {
       "style": {
         "color": "#000000"
