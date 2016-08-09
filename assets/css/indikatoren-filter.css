@@ -124,7 +124,7 @@ ul.pagination{
     height: 33px;
 }
 
-/* Carousel modal test */
+
 .modal.and.carousel {
   position: absolute; /* Needed because the carousel overrides the position property*/
 }
@@ -172,11 +172,15 @@ h1{
     line-height: 100%;
     margin-top: 34px;
     margin-bottom: 17px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .lesehilfe {
-    margin-left: 10px;  
-    margin-right: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.highcharts-container {
+    margin: 0 40px;
 }
