@@ -217,7 +217,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": ""
+"lesehilfe": "Der Anteil Wohnungen mit mehr als vier Zimmern stieg zum einen in der Dekade der 1970er Jahre, und zwar um 2,6 Prozentpunkte. Zum anderen nimmt der Anteil seit 2010 wieder zu. Dazwischen war kaum oder nur marginales Wachstum zu verzeichnen."
 },
 {"url": "charts/I.09.1.0013.html",
 "title":"Indikator 1.2.c-1",
@@ -234,7 +234,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": ""
+"lesehilfe": "2015 wurde dank einer sehr hohen Anzahl Neubauten trotz verhältnismässig vielen Abbrüchen eine Nettowohnungsproduktion von über 600 Wohnungen verzeichnet."
 },
 {"url": "charts/I.09.3.0002.html",
 "title":"Indikator 1.2.e",
@@ -251,7 +251,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": ""
+"lesehilfe": "Es werden nur neu erstellte Wohnungen in Neubauten berücksichtigt. Neue Wohnungen aus Umbauten sind demnach nicht enthalten. Dank der Grossprojekte im Gebiet Erlenmatt West wurden im Jahr 2015 an die 800 Wohnungen neu erstellt. Der Zehnjahresdurchschnitt steigt damit auf rund 350."
 },
 {"url": "charts/I.09.4.0003.html",
 "title":"Indikator 0.1.b-2",
@@ -268,7 +268,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": ""
+"lesehilfe": "Die Mietpreisentwicklung der Leerwohnungen ist im Zehnjahresvergleich leicht ansteigend. Da es grundsätzlich wenig leerstehende 5-Zimmerwohnungen gibt, sind die ausgewiesenen Durchschnittsmieten in dieser Kategorie grösseren Schwankungen unterworfen bzw. können wie im Jahr 2014 aufgrund zu kleiner Stichprobe gar nicht berechnet werden. <br/>Bei den Mietpreisen für Leerwohnungen handelt es sich um Angebotsmieten, nicht um Bestandsmieten."
 },
 {"url": "charts/I.09.4.0004.html",
 "title":"Indikator 1.2.f-1",
@@ -285,7 +285,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": ""
+"lesehilfe": "Die kantonale Leerwohnungsquote erfuhr von 2006 bis 2014 einen steten Rückgang. Von 2014 bis 2015 ist sie für alle Wohnungstypen unabhängig von der Zimmerzahl angestiegen."
 },
 {"url": "charts/I.09.4.0005.html",
 "title":"Indikator 1.2.f-2",
@@ -302,7 +302,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": ""
+"lesehilfe": "Die Leerwohnungsquote liegt 2015 für Wohnungen aller Flächenkategorien höher als noch 2014. Sowohl 2014 wie auch 2015 stieg die Leerwohnungsquote bei den Wohnungen ab 50 Quadratmetern mit zunehmender Wohnfläche."
 },
 {"url": "charts/I.09.5.0001.html",
 "title":"Indikator 0.1.b-1",
@@ -319,7 +319,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": ""
+"lesehilfe": "Seit 2008 ist bei allen Zimmerkategorien eine steigende Tendenz der Mietpreise (Nettomieten) zu beobachten. Es handelt sich hier im Gegensatz zu den Mietpreisen der Leerwohnungen um Bestandsmieten."
 },
 {"url": "charts/I.09.5.0003.html",
 "title":"Indikator 0.1.b-3",
@@ -336,7 +336,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": ""
+"lesehilfe": "Die Nettomietpreise der Genossenschaftswohnungen sind in den letzten 10 Jahren im Durchschnitt ein Drittel günstiger als die Mietpreise der Mietwohnungen."
 },
 {"url": "charts/I.13.2.0002.html",
 "title":"Indikator 4.1.a",
@@ -353,7 +353,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": ""
+"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist seit 2008 stark angestiegen."
 },
 {"url": "charts/I.13.2.0003.html",
 "title":"Indikator 4.1.b",
@@ -370,7 +370,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": ""
+"lesehilfe": "Die ausbezahlten Familienmietzinsbeiträge sind seit 2007 stark angestiegen. Der durchschnittliche Beitrag pro Haushalt wuchs in diesem Zeitraum von knapp 3000 Franken auf rund 4800 Franken."
 },
 {"url": "charts/I.13.3.0002.html",
 "title":"Indikator 4.1.e",
@@ -387,7 +387,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": ""
+"lesehilfe": "Die wenigen Notwohnungen - 2015 machten sie 0,17% des Wohnungsbestandes aus - waren immer zu über 90% belegt. Durch Aufstockungen bestehender Blockrandsiedlungen konnte das Angebot seit 2013 um 50 Logis erhöht werden."
 },
 {"url": "charts/I.18.2.0001.html",
 "title":"Indikator 2.1.b",
@@ -404,7 +404,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": ""
+"lesehilfe": "Seit 2009 ist der Saldo des Steuerertrages bei den Zugezogenen höher als bei den Wegzügern. Bei den Weggezogenen wurden die Steuerdaten des jeweiligen Vorjahres verwendet. Zugezogene Ausländer wurden ab Vorliegen einer Niederlassungsbewilligung mitberücksichtigt."
 },
 {"url": "charts/I.50.1.0005.html",
 "title":"Indikator 0.1.a",
@@ -421,7 +421,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": ""
+"lesehilfe": "Die Hälfte der Befragten ist mit dem Wohnungsangebot &quot;eher zufrieden&quot; oder &quot;sehr zufrieden&quot;. Seit der ersten Bevölkerungbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte."
 },
 {"url": "charts/I.50.1.0006.html",
 "title":"Indikator 1.4.c",
@@ -438,7 +438,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": ""
+"lesehilfe": "Knapp die Hälfte der befragten Familien ist mit dem Wohnungsangebot im Kanton Basel-Stadt sehr oder eher zufrieden."
 },
 {"url": "charts/I.50.1.0007.html",
 "title":"Indikator 3.2.b",
@@ -455,7 +455,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": ""
+"lesehilfe": "Über 90% der Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2007 jeweils leicht angestiegen."
 },
 {"url": "charts/I.50.1.0008.html",
 "title":"Indikator 3.3.a",
@@ -472,7 +472,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": ""
+"lesehilfe": "Die Gesamtzufriedenheit (eher und sehr zufrieden) der Bevölkerung mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild erreicht 2015 mit 84% den höchsten Wert seit Befragungsbeginn 2003."
 },
 {"url": "charts/I.50.1.0009.html",
 "title":"Indikator 4.2.a",
@@ -489,7 +489,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": ""
+"lesehilfe": "Fast 60% der Befragten sind 2015 mit den Einrichtungen und dem Angebot für Behinderte eher bis sehr zufrieden. Dieser Wert lag 2007 noch bei 40%."
 },
 {"url": "charts/I.50.4.0001.html",
 "title":"Indikator 4.2.c",
@@ -506,6 +506,6 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": ""
+"lesehilfe": "Gut zwei Drittel der Befragten sind mit der altersangepassten Gestaltung des Wohngebäudes eher bis sehr zufrieden."
 },
 ];

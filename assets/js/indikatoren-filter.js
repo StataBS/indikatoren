@@ -366,17 +366,18 @@ function renderChart(globalOptions, template, chart, csv, chartId){
   
   //parse csv and configure HighCharts object
   function parseData(completeHandler, chartOptions, data) {
-      try {
+      //try {
         var dataOptions = {
             csv: data
         };
         dataOptions.sort = true
         dataOptions.complete = completeHandler;
         Highcharts.data(dataOptions, chartOptions);
-      } catch (error) {
+      /*} catch (error) {
         console.log(error);
         completeHandler(undefined);
       }
+      */
   };
 
 

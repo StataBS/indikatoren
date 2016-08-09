@@ -1,61 +1,103 @@
-﻿chartOptions['I.02.1.0015'] = {
+﻿ chartOptions['I.18.2.0001'] = {
+ 
   "plotOptions": {
+ 
     "series": {
+ 
       "dataLabels": {
-        "enabled": false
+ 
+        "enabled": true,
+ 
+          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
+ 
+          formatter: function() {
+ 
+            var last  = this.series.data[this.series.data.length - 1];
+ 
+            var first  = this.series.data[0];
+ 
+            if (this.point.y === first.y || this.point.y === last.y ) {
+ 
+              return Highcharts.numberFormat(this.point.y, 0, ",", " ");
+ 
+            }
+ 
+            return "";
+ 
+          }
+ 
       }
+ 
     }
+ 
   },
-  "yAxis": [{
+ 
+  "yAxis": {
+ 
+    "min": -15,
+ 
+    "max": 15,
+ 
+    "tickInterval": 5,
+ 
     "title": {
+ 
       "style": {
+ 
         "color": "#000000",
+ 
         "fontSize": null
+ 
       },
+ 
       "text": null
+ 
     },
+ 
     "labels": {
+ 
       "format": "{value:,.0f}",
+ 
       "style": {
+ 
         "color": "#000000"
+ 
       }
+ 
     },
-    "min": 0
-  },
-  {
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
-      "text": null
-    },
-    "labels": {
-      "format": "{value:,.0f}%",
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "min": 0,
-"max": 5,
+ 
 
-    "opposite": true
-  }
-  ],
-  "xAxis": {
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickColor": "#FFFFFF",
-    "tickInterval": 1
+ 
   },
+ 
+  "xAxis": {
+ 
+   "title": {
+ 
+      "style": {
+ 
+        "color": "#000000"
+ 
+      }
+ 
+    },
+ 
+    "labels": {
+ 
+      "style": {
+ 
+        "color": "#000000"
+ 
+      }
+ 
+    },
+ 
+    "tickColor": "#FFFFFF",
+ 
+    "tickInterval": 1
+ 
+  },
+ 
   "exporting": {
 	    "sourceWidth": null,
 	    "scale": 5,
@@ -66,81 +108,134 @@
 	    }
 	  },
   "credits": {
-    "text": "Quelle: Geodaten Kanton Basel-Stadt",
+ 
+    "text": "Quelle: Kantonale Gebäude- und Wohnungsstatistik;<br/>Statistisches Amt des Kantons Basel-Stadt",
+ 
     "enabled": true,
+ 
     "style": {
+ 
       "color": "#000000",
+ 
       "fontSize": 10
+ 
     },
+ 
     "position": {
+ 
       "align": "left",
+ 
       "verticalAlign": "bottom",
+ 
       x: 10,
-      y: -3
+ 
+      y: -17
+ 
     }
+ 
   },
+ 
   "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-		"y": 35,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+ 
+    "enabled": false,
+ 
+    "layout": "vertical",
+ 
+    "verticalAlign": "middle",
+ 
+    "align": "right"
+ 
   },
+ 
   "series": [
+ 
     {
-      "color": "#73b97c",
+ 
+      "marker": {
+ 
+        "symbol": "circle",
+ 
+        "enabled": true
+ 
+      },
+ 
       "index": 0,
-      "type": "column"
-    },
-    {
-      "color": "#cd9c00",
-      "index": 1,
-      "type": "line",
-      "yAxis": 1
-    },
-    {
-      "color": "#cd9c00",
-      "index": 1,
-      "type": "line",
-      "yAxis": 1
+ 
+      "color": "#008AC3"
+ 
     }
-  ],  "tooltip": {
-    "shared": true
+ 
+  ],
+ 
+  "tooltip": {
+ 
+    "shared": false
+ 
   },
+ 
   "title": {
+ 
     "style": {
+ 
       "fontSize": 14,
+ 
       "fontWeight": "bold",
+ 
       "color": "#000000"
+ 
     },
-    "text": "Indikator 3.2.a: Freiraumfläche und ihr Anteil an der Gesamtfläche",
+ 
+    "text": "Indikator 2.1.b: Saldo des Steuerertrages zwischen Zu- und Wegzügern",
+ 
     "align": "left"
+ 
   },
+ 
   "subtitle": {
+ 
     "style": {
+ 
       "fontSize": 12,
+ 
       "fontWeight": "normal",
+ 
       "fontFamily": "Arial",
+ 
       "color": "#000000"
+ 
     },
+ 
     "text": "",
+ 
     "align": "left"
+ 
   },
+ 
 
+ 
   "chart": {
-    "renderTo": "container-I.02.1.0015",
+    "renderTo": "container-I.18.2.0001",
+ 
     "borderColor": "#fbfbfb",
+ 
     "backgroundColor": "#fbfbfb",
+ 
     "zoomType": "xy",
+ 
     "width": 485,
-    "marginBottom": 50,
-    "marginTop": 85,
+ 
+    "marginBottom": 65,
+ 
+    "marginTop": 75,
+ 
     "style": {
+ 
       "fontFamily": "Arial"
+ 
     },
-    "type": "line"
+ 
+    "type": "column"
+ 
   }
-}
+ 
+};

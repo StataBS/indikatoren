@@ -1,90 +1,4 @@
-﻿<!DOCTYPE html> 
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Indikator 1.2.f-1: Anzahl Leerwohnungen und Leerwohnungsquote nach Zimmerzahl</title>
-
-  <style type="text/css">
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
-
-    #container .highcharts-container {
-      margin: 0 auto;
-    }
-  </style>
-
-  <link rel=stylesheet type="text/css" href="../css/style.css">
-  <script type="text/javascript" src="../assets/js/jquery-1.11.3.min.js"></script>
-  <script type="text/javascript" src="../assets/js/highcharts-4.2.6.min.js"></script>
-  <script type="text/javascript" src="../assets/js/highcharts-data-4.2.6.min.js"></script>
-  <script type="text/javascript" src="../assets/js/highcharts-exporting-4.2.6.min.js"></script>
-  <script type="text/javascript" src="../assets/js/highcharts-export-csv-1.4.2.js"></script>
-
-
-</head>
-
-<body style="margin: 0;" class="show-page">
-  <!-- Google Tag Manager -->
-  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KGK459"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-KGK459');</script>
-  <!-- End Google Tag Manager -->
-  <div id="container" style="width:100%; height:100%;max-width:1000px;margin: 0 auto"></div>
-
-<script type="text/javascript">
-function parseData(completeHandler, chartOptions, data) {
-	try {
-		var dataOptions = {
-  csv: data
-};
-		dataOptions.sort = true
-		dataOptions.complete = completeHandler;
-		Highcharts.data(dataOptions, chartOptions);
-	} catch (error) {
-		console.log(error);
-		completeHandler(undefined);
-	}
-}
-
-Highcharts.setOptions({
-  "lang": {
-    "decimalPoint": ",",
-    "thousandsSep": " "
-  }
-});
-
-
-	var template = {
-		chart: {
-			renderTo: 'container',
-    events:{
-    load: function() {
-        this.credits.element.onclick = function() {
-            window.open(
-              "http://www.statistik.bs.ch",
-              '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
-            );
-          }
-        }
-    }
-		},
-		navigation: {
-			menuItemStyle: {
-				fontFamily: Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
-				padding: '2px 10px'
-			}
-		}
-	};
-
-var chartOptions = {
+﻿chartOptions["I.09.4.0004"] = {
   "plotOptions": {
     "series": {
       "stacking": null,
@@ -281,6 +195,7 @@ var chartOptions = {
   },
 
   "chart": {
+    "renderTo": "container-I.09.4.0004",
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
@@ -293,43 +208,3 @@ var chartOptions = {
     "type": "column"
   }
 };
-
-
-$.get("../data/I.09.4.0004.csv", function(data){
-parseData(function (dataOptions) {
-	// Merge series configs
-	if (chartOptions.series && dataOptions) {
-		Highcharts.each(chartOptions.series, function (series, i) {
-			chartOptions.series[i] = Highcharts.merge(series, dataOptions.series[i]);
-		});
-	}
-	var options = Highcharts.merge(dataOptions, chartOptions, template);
-	var chart = new Highcharts['Chart'](options);
-}, chartOptions, data);
-
-});
-
-
-</script>
-<table align="center" width="470" border="0" cellspacing="0" cellpadding="0">
-
-   <tr>
-     <td width="2">&nbsp;</td>
-
-    <td height="5">&nbsp;</td>
-  </tr>
-
-  <tr>
-    <td valign="middle">&nbsp;</td>
-
-    <td height="20" valign="middle"><h1>Lesehilfe</h1></td>
-  </tr>
-
-  <tr>
-    <td>&nbsp;</td>
-
-    <td><p>Die kantonale Leerwohnungsquote erfuhr von 2006 bis 2014 einen steten Rückgang. Von 2014 bis 2015 ist sie für alle Wohnungstypen unabhängig von der Zimmerzahl angestiegen.</p></td>
-  </tr>
-</table>
-</body>
-</html>

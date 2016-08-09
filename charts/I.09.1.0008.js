@@ -1,61 +1,115 @@
-﻿chartOptions['I.02.1.0015'] = {
+﻿chartOptions["I.09.1.0008"] = {
+ 
   "plotOptions": {
+ 
     "series": {
+ 
       "dataLabels": {
+ 
         "enabled": false
+ 
       }
+ 
     }
+ 
   },
+ 
   "yAxis": [{
+ 
     "title": {
+ 
       "style": {
+ 
         "color": "#000000",
+ 
         "fontSize": null
+ 
       },
+ 
       "text": null
+ 
     },
+ 
     "labels": {
+ 
       "format": "{value:,.0f}",
+ 
       "style": {
+ 
         "color": "#000000"
+ 
       }
+ 
     },
+ 
     "min": 0
+ 
   },
+ 
   {
+ 
     "title": {
+ 
       "style": {
+ 
         "color": "#000000",
+ 
         "fontSize": null
+ 
       },
+ 
       "text": null
+ 
     },
+ 
     "labels": {
+ 
       "format": "{value:,.0f}%",
+ 
       "style": {
+ 
         "color": "#000000"
+ 
       }
+ 
     },
+ 
     "min": 0,
-"max": 5,
-
+ 
     "opposite": true
+ 
   }
+ 
   ],
+ 
   "xAxis": {
+ 
     "title": {
+ 
       "style": {
+ 
         "color": "#000000"
+ 
       }
+ 
     },
+ 
     "labels": {
+ 
       "style": {
+ 
         "color": "#000000"
+ 
       }
+ 
     },
+ 
     "tickColor": "#FFFFFF",
-    "tickInterval": 1
+ 
+    "tickInterval": 5
+ 
   },
+ 
   "exporting": {
 	    "sourceWidth": null,
 	    "scale": 5,
@@ -66,81 +120,148 @@
 	    }
 	  },
   "credits": {
-    "text": "Quelle: Geodaten Kanton Basel-Stadt",
+ 
+    "text": "Quelle: Kantonale Gebäude- und Wohnungsstatistik;<br/>Statistisches Amt des Kantons Basel-Stadt",
+ 
     "enabled": true,
+ 
     "style": {
+ 
       "color": "#000000",
+ 
       "fontSize": 10
+ 
     },
+ 
     "position": {
+ 
       "align": "left",
+ 
       "verticalAlign": "bottom",
+ 
       x: 10,
-      y: -3
+ 
+      y: -17
+ 
     }
+ 
   },
+ 
   "legend": {
+ 
     "enabled": true,
+ 
     "layout": "horizontal",
+ 
     "verticalAlign": "top",
+ 
     "align": "left",
-		"y": 35,
+ 
+		"y": 25,
+ 
     "itemStyle": {
+ 
       "fontWeight": "normal"
+ 
     }
+ 
   },
+ 
   "series": [
+ 
     {
+ 
       "color": "#73b97c",
+ 
       "index": 0,
-      "type": "column"
+ 
+      "type": "column",
+ 
+      "pointWidth": "10"
+ 
     },
+ 
     {
+ 
       "color": "#cd9c00",
+ 
       "index": 1,
+ 
       "type": "line",
+ 
       "yAxis": 1
-    },
-    {
-      "color": "#cd9c00",
-      "index": 1,
-      "type": "line",
-      "yAxis": 1
+ 
     }
+ 
   ],  "tooltip": {
+ 
     "shared": true
+ 
   },
+ 
   "title": {
+ 
     "style": {
+ 
       "fontSize": 14,
+ 
       "fontWeight": "bold",
+ 
       "color": "#000000"
+ 
     },
-    "text": "Indikator 3.2.a: Freiraumfläche und ihr Anteil an der Gesamtfläche",
+ 
+    "text": "Indikator 2.1.a: Wohnungen mit mehr als vier Zimmern",
+ 
     "align": "left"
+ 
   },
+ 
   "subtitle": {
+ 
     "style": {
+ 
       "fontSize": 12,
+ 
       "fontWeight": "normal",
+ 
       "fontFamily": "Arial",
+ 
       "color": "#000000"
+ 
     },
+ 
     "text": "",
+ 
     "align": "left"
+ 
   },
+ 
 
+ 
   "chart": {
-    "renderTo": "container-I.02.1.0015",
+    "renderTo": "container-I.09.1.0008",
+ 
     "borderColor": "#fbfbfb",
+ 
     "backgroundColor": "#fbfbfb",
+ 
     "zoomType": "xy",
+ 
     "width": 485,
-    "marginBottom": 50,
-    "marginTop": 85,
+ 
+    "marginBottom": 65,
+ 
+    "marginTop": 75,
+ 
     "style": {
+ 
       "fontFamily": "Arial"
+ 
     },
+ 
     "type": "line"
+ 
   }
-}
+ 
+};
