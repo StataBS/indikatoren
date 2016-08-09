@@ -1,5 +1,4 @@
-﻿
-chartOptions['I.01.1.0024'] = {
+﻿chartOptions['I.01.1.0024'] = {
   "plotOptions": {
     "series": {
       "dataLabels": {
