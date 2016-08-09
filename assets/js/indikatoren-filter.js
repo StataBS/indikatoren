@@ -357,7 +357,7 @@ var afterFilter = function(result, jQ){
 
 
 //load global options, template, chartOptions from external scripts, load csv data from external file, and render chart to designated div
-function renderChart(globalOptions, template, chart, csv, chartId){   
+function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, chartId){   
   //load scripts one after the other, then load csv and draw the chart
   $.when(        
       /*
@@ -365,34 +365,33 @@ function renderChart(globalOptions, template, chart, csv, chartId){
       $.getScript('charts/template001.js'),
       $.getScript('charts/I.01.2.0002.js'),
       */
-      $.getScript(globalOptions),
-      $.getScript(template),
-      $.getScript(chart),
+      $.getScript(globalOptionsUrl),
+      $.getScript(templateUrl),
+      $.getScript(chartUrl),
       $.Deferred(function( deferred ){
           $(deferred.resolve);
       })
   ).done(function(){
       //load csv and draw chart      
-      $.get(csv, function(data){
-      drawChart(data, chartOptions[chartId])
+      $.get(csvUrl, function(data){
+        drawChart(data, chartOptions[chartId])
       });
   });
   
   
   //parse csv and configure HighCharts object
   function parseData(completeHandler, chartOptions, data) {
-      //try {
+      try {
         var dataOptions = {
             csv: data
         };
         dataOptions.sort = true
         dataOptions.complete = completeHandler;
         Highcharts.data(dataOptions, chartOptions);
-      /*} catch (error) {
+      } catch (error) {
         console.log(error);
         completeHandler(undefined);
-      }
-      */
+      }      
   };
 
 
