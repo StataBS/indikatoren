@@ -11,6 +11,9 @@
  *  jQuery(v1.9 >=)
  */
 
+//holds config of each chart
+var chartOptions = new Object();
+
 $(document).ready(function(){
   //define filter.js configuration 
   var fjsConfig = {
@@ -298,7 +301,8 @@ var afterFilter = function(result, jQ){
           });      
     }
     
-    //create a div that will contain the chart and an indicator dot for each chart in the result. the result contains charts over all pages.   
+    //create a div that will contain the chart and an indicator dot for each chart in the result. the result contains charts over all pages. 
+    //bootstrap carousel combined with modal inspired by https://codepen.io/krnlde/pen/pGijB
     function createCarousel(result){            
       //add a carousel-inner div for each thumbnail
       //build template function using template from DOM
