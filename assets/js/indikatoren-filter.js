@@ -83,20 +83,31 @@ $(document).ready(function(){
   //Only now display page
   $('body').show();
 
+  //test modal show event
+  $("#lightbox").on('show.bs.modal', function (e) {
+    //console.log("Modal Show: Active div id:" + $('#lightbox .item.active :first-child()').attr("id"));    
+    var targetKuerzel = $(e.relatedTarget).attr("indikator-kuerzel-data");
+    //console.log("Modal Show Event, to: " + $(e.relatedTarget).attr("indikator-kuerzel-data"));    
+    //$(escapeCssChars('#container-' + targetKuerzel)).after('Chart with kuerzel ' + targetKuerzel + 'will be rendered here...');
+    //console.log("Modal Show Event, to: " + targetKuerzel);
+    renderChartByKuerzel(targetKuerzel);
+  });
+
   //test lazy loading
-  $('#lightbox').bind('slide.bs.carousel', function (e) {      
+  $('#lightbox').on('slide.bs.carousel', function (e) {
+      /*      
       var slideFrom = $(this).find('.active').index();
       var slideTo = $(e.relatedTarget).index();
       console.log(slideFrom+' => '+slideTo);
+      */
       //console.log($(e.relatedTarget));
       //console.log("Slide: Active div id:" + $('#lightbox .item.active :first-child()').attr("id"));
-      console.log("Slide event, to: " + $(e.relatedTarget).children().first().attr('id'));
-  });
-  
-  //test modal show event
-  $("#lightbox").on('show.bs.modal', function (e) {
-    console.log("Modal Show: Active div id:" + $('#lightbox .item.active :first-child()').attr("id"));
-    //console.log(e);
+      //console.log("Slide event, to: " + $(e.relatedTarget).children().first().attr('id'));
+      var targetKuerzel = $(e.relatedTarget).children().first().attr('indikator-kuerzel-data');
+      //console.log(e);
+      //$(escapeCssChars('#container-' + targetKuerzel)).after('Chart with kuerzel ' + targetKuerzel + 'will be rendered here...');
+      //console.log("Slide event, to: " + targetKuerzel);
+      renderChartByKuerzel(targetKuerzel);
   });
 });
 
@@ -111,6 +122,12 @@ function getSortOptions(name){
       return {'kuerzel': 'asc'};     
   }
 };
+
+
+//dom ids may contain . or :, if used in jquery these must be escaped. http://learn.jquery.com/using-jquery-core/faq/how-do-i-select-an-element-by-an-id-that-has-characters-used-in-css-notation/
+function escapeCssChars(myid) {
+    return myid.replace( /(:|\.|\[|\]|,)/g, "\\$1" );
+}
 
 
 function preparePortalView(){
@@ -298,7 +315,7 @@ var afterFilter = function(result, jQ){
       //add a new carousel for each result
       $.each(result, function(i, item){
         container.append(templateFunction(item))
-      });
+      });      
       //set first child to active
       container.children().first().addClass("active");
 
@@ -410,3 +427,10 @@ function renderChart(globalOptions, template, chart, csv, chartId){
         });
     });
 };
+
+
+function renderChartByKuerzel(kuerzel){
+  var chartUrl = 'charts/' + kuerzel + '.js';
+  var csvUrl = 'data/' + kuerzel + '.csv';
+  renderChart('charts/options001.js', 'charts/template001.js', chartUrl, csvUrl, kuerzel);
+}
