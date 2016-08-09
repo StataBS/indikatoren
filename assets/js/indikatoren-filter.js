@@ -11,13 +11,10 @@
  *  jQuery(v1.9 >=)
  */
 
-//holds config of each chart
-var chartOptions = new Object();
 
-$(document).ready(function(){
-  //define filter.js configuration 
+$(document).ready(function(){   
   var fjsConfig = {
-    template: '#indikator-template-carousel',    
+    template: '#indikator-template',
     search: { ele: '#searchbox' },
     callbacks: {
           afterFilter: afterFilter, 
@@ -32,8 +29,8 @@ $(document).ready(function(){
       },
     }
   };
-
-  //Render page differently depending on url query string 'Indikatorenset'  
+  
+  //Render page differently depending on url query string  
   var indikatorenset = $.url('?Indikatorenset'); 
   if (indikatorenset){ 
     prepareIndikatorensetView(indikatorenset);
@@ -50,8 +47,8 @@ $(document).ready(function(){
     FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});  
   }  
 
-  //implement default sorting, add event listener, and implement sortResult function
   var sortOptions = {'kuerzel': 'asc'};
+
   $("#sortBy").on('change', function(e){
     sortOptions = getSortOptions($(this).val());
     FJS.filter();
@@ -64,26 +61,13 @@ $(document).ready(function(){
     }
   }
 
+  FJS.filter();
   window.FJS = FJS;  
-  FJS.filter();  
-  //only now display page
+  //Only now display page
   $('body').show();
-
-  //add event listener to render chart on modal show
-  $("#lightbox").on('show.bs.modal', function (e) {    
-    var targetKuerzel = $(e.relatedTarget).attr("indikator-kuerzel-data");
-    renderChartByKuerzel(targetKuerzel);
-  });
-
-  //add event listener to render chart on carousel slide
-  $('#lightbox').on('slide.bs.carousel', function (e) {
-      var targetKuerzel = $(e.relatedTarget).children().first().attr('indikator-kuerzel-data');
-      renderChartByKuerzel(targetKuerzel);
-  });
-  });//$(document).ready(function()
+});
 
 
-//interpret sort configuration received from dropdown
 function getSortOptions(name){
   switch(name){
     case 'kuerzel_asc': 
@@ -96,13 +80,6 @@ function getSortOptions(name){
 };
 
 
-//dom ids may contain . or :, if used in jquery these must be escaped. http://learn.jquery.com/using-jquery-core/faq/how-do-i-select-an-element-by-an-id-that-has-characters-used-in-css-notation/
-function escapeCssChars(myid) {
-    return myid.replace( /(:|\.|\[|\]|,)/g, "\\$1" );
-}
-
-
-//change DOM and render controls to accomodate portal view
 function preparePortalView(){
   $("#main-control-element-indikatorenset").remove();    
   renderThema();
@@ -111,7 +88,6 @@ function preparePortalView(){
 };
 
 
-//change DOM and render controls to accomodate indikatorenset view
 function prepareIndikatorensetView(indikatorenset){
   $("#sidebar-element").remove();
   //Change bootstrap col size in order to fill width 
@@ -167,7 +143,6 @@ function renderThema(){
 };
 
 
-//create a single-select dropdown that contain values from a given json object at a specified place in the DOM 
 function renderDropdownFromJson(data, field, selector, sortKey, filterQueryString){
   var JQ = JsonQuery(data);
   //If filterQueryString is given: filter data before rendering dropdowns
@@ -196,7 +171,6 @@ function renderDropdownFromJson(data, field, selector, sortKey, filterQueryStrin
 };
 
 
-//create a multi-select dropdown that contain values from a given json object at a specified place in the DOM 
 function renderMultiselectDropdownFromJson(data, field, selector){
   var JQ = JsonQuery(data);
   var allValuesNested = JQ.pluck(field).all;
@@ -216,7 +190,6 @@ function renderMultiselectDropdownFromJson(data, field, selector){
 };
 
 
-//convert a normal html select given via its css selector to a multiselect dropdown
 function configureMultiselect(selector){
   //configure multiselect
   $(selector).multiselect({
@@ -246,48 +219,10 @@ function configureMultiselect(selector){
 };
 
 
-//find index of a given _fid in the FJS.last_result array. 
-//this is necessary for carousel since links to charts in the carousel contain the array index which changes upon paging. 
-function getIndexByFid(fid){
-  //source: http://stackoverflow.com/questions/15997879/get-the-index-of-the-object-inside-an-array-matching-a-condition
-  try{
-    indexes = $.map(window.FJS.last_result, function(obj, index) {
-      if(obj._fid== fid) {
-          return index;
-      }
-    })
-    firstIndex = indexes[0];
-    return firstIndex;
-    }
-  catch (e) {
-    return 'undefined';
-  }
-}
-
-
-//after filtering is done: update counts in dropdowns and create all carousel components
 var afterFilter = function(result, jQ){
     //$('#total_indikatoren').text(result.length);    
-
-    //define how counts in dropdowns or checkboxes are rendered 
-    var optionCountRenderFunction = function(c, count){c.text(c.val() + ' (' + count + ')') };
-    var checkboxCountRenderFunction = function(c, count){c.next().text(c.val() + ' (' + count + ')')};
-    //render new counts after each control
-    updateCounts(result, jQ, '#thema_criteria :input:gt(0)', 'thema', checkboxCountRenderFunction);        
-    updateCounts(result, jQ, '#schlagwort_filter > option', 'schlagwort', optionCountRenderFunction);
-    updateCounts(result, jQ, '#raeumlicheGliederung_filter > option', 'raeumlicheGliederung', optionCountRenderFunction);
-
-    //for multiselect dropdowns: rebuild control after select tag is updated
-    $('#schlagwort_filter').multiselect('rebuild');
-    $('#raeumlicheGliederung_filter').multiselect('rebuild');
-    
-    //if results fit in a single page: hide pagination, use bootstrap invisible class to leave row height intact    
-    (result.length <= 16) ? $('#pagination').addClass('invisible') : $('#pagination').removeClass('invisible');
-
-    createCarousel(result);
-    
     //Add Counts in brackets after each option
-    function updateCounts(result, jQ, selector, key, renderFunction){
+    var updateCounts = function(result, jQ, selector, key, renderFunction){
           var checkboxes  = $(selector);
           checkboxes.each(function(){            
             var c = $(this), count = 0
@@ -300,58 +235,34 @@ var afterFilter = function(result, jQ){
             renderFunction(c, count);
           });      
     }
+
+    //define how counts are rendered 
+    var optionCountRenderFunction = function(c, count){c.text(c.val() + ' (' + count + ')') };
+    var checkboxCountRenderFunction = function(c, count){c.next().text(c.val() + ' (' + count + ')')};
+
+    updateCounts(result, jQ, '#thema_criteria :input:gt(0)', 'thema', checkboxCountRenderFunction);        
+    updateCounts(result, jQ, '#schlagwort_filter > option', 'schlagwort', optionCountRenderFunction);
+    updateCounts(result, jQ, '#raeumlicheGliederung_filter > option', 'raeumlicheGliederung', optionCountRenderFunction);
+
+    //for multiselect dropdowns: rebuild control after select tag is updated
+    $('#schlagwort_filter').multiselect('rebuild');
+    $('#raeumlicheGliederung_filter').multiselect('rebuild');
     
-    //create a div that will contain the chart and an indicator dot for each chart in the result. the result contains charts over all pages. 
-    //bootstrap carousel combined with modal inspired by https://codepen.io/krnlde/pen/pGijB
-    function createCarousel(result){            
-      //add a carousel-inner div for each thumbnail
-      //build template function using template from DOM
-      var html = $('#indikator-template-modal').html();
-      var templateFunction = FilterJS.templateBuilder(html);
-      var container = $('#carousel-inner');
-      //first remove all carousel divs
-      container.children().remove();
-      //add a new carousel for each chart in results
-      $.each(result, function(i, item){
-        container.append(templateFunction(item))
-      });      
-      //set first child to active, only now the carousel is visible
-      container.children().first().addClass("active");
-
-
-      //add an indicator (dot that links to a chart) for each chart
-      //build template function using template from DOM
-      var html = $('#carousel-indicator-template').html();
-      var templateFunction = FilterJS.templateBuilder(html);
-      var container = $('#carousel-indicators');
-      //first remove all carousel divs
-      container.children().remove();
-      //add a new indicator for each chart in results    
-      $.each(result, function(i, item){
-        var element = container.append(templateFunction(item));      
-      });
-      //set first child to active, otherwise when clicking on the first thumbnail the indicator does not display the currently displayed chart 
-      container.children().first().addClass("active");      
-      //set value of data-slide-to: must be the 0-based index of the indicator 
-      var items = $(container).children();
-      $.each($(container).children(), function(i, item){
-        $(item).attr("data-slide-to", i);
-      });
-      
-      //bind keyboard to carousel: arrow left/right, esc
-      //source: http://stackoverflow.com/questions/15720776/bootstrap-carousel-with-keyboard-controls
-      $(document).bind('keyup', function(e) {
-        if(e.which == 39){
-          $('.carousel').carousel('next');
-        }
-        else if(e.which == 37){
-          $('.carousel').carousel('prev');
-        }
-        else if (e.which == 27){
-          $('.carousel').modal('hide');
-        }
-    });
-  
-    };
+    //if only 1 page would be displayed: hide pagination, use bootstrap invisible class to leave row height intact    
+    (result.length <= 16) ? $('#pagination').addClass('invisible') : $('#pagination').removeClass('invisible');
 };
 
+
+//open chart in bootstrap modal 
+function displayModal(indikatorId){
+  //get indikator with matching id
+  var lastResult = FJS.lastResult();
+  
+  var JQ = JsonQuery(lastResult);
+  //var searchResults = JQ.where({'id': indikatorId}).exec();
+  //var chart = searchResults[0];
+  var chart = JQ.find(indikatorId);
+  //alternatives to eModal: (iframe, no carousel) http://www.bootply.com/61676, (carousel, no iframe) https://codepen.io/krnlde/pen/pGijB 
+  //eModal.iframe({'url': chart.url, 'title': ' ', 'size': 'md', 'buttons': [{text: '<', style: 'info',   close: true }, {text: '>', style: 'info', close: true }] });  
+  eModal.iframe({'url': chart.url, 'title': ' ', 'size': 'md'});
+}
