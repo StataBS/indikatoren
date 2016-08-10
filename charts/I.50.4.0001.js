@@ -10,8 +10,8 @@
     }
   },
   "yAxis": {
-"tickInterval":10,
-"title": {
+    "tickInterval":10,
+    "title": {
       "style": {
         "color": "#000000",
         "fontSize": null
