@@ -56,7 +56,24 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, chartId){
 
 //construct urls by chart kuerzel and render to designated div
 function renderChartByKuerzel(kuerzel){
-  var chartUrl = 'charts/' + kuerzel + '.js';
-  var csvUrl = 'data/' + kuerzel + '.csv';
-  renderChart('charts/options001.js', 'charts/template001.js', chartUrl, csvUrl, kuerzel);
+  var container = $(escapeCssChars('#container-'+kuerzel));
+  //check if a highcharts-container below the container is already present. 
+  //no highcharts container yet: load data and draw chart. 
+  if (!container.find('div.highcharts-container').length) {  
+    //console.log('chart does not exist yet. loading data for '+kuerzel);
+    var chartUrl = 'charts/' + kuerzel + '.js';
+    var csvUrl = 'data/' + kuerzel + '.csv';    
+    renderChart('charts/options001.js', 'charts/template001.js', chartUrl, csvUrl, kuerzel);
+  }
+  //highcharts container exists already: redraw chart without reloading data from network
+  else {
+    //console.log('already drawn, redrawing without reloading data for ' +  kuerzel);    
+    //find chart in highchart's array of charts
+    var chartIndex = container.attr("data-highcharts-chart");
+    //get chartOptions, destroy and recreate
+    var currentChartOptions = Highcharts.charts[chartIndex].options;
+    //destroy and redraw in order to get nice animation
+    Highcharts.charts[chartIndex].destroy();
+    container.highcharts(currentChartOptions);
+  };
 }
