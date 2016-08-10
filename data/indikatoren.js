@@ -518,7 +518,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe": "Fast 60% der Befragten sind 2015 mit den Einrichtungen und dem Angebot für Behinderte eher bis sehr zufrieden. Dieser Wert lag 2007 noch bei 40%.",
-"template": "template001" 
+"template": "befragungen001" 
 },
 {"url": "charts/I.50.4.0001.html",
 "title":"Indikator 4.2.c",

@@ -74,19 +74,19 @@ var template = {
 
     }
     },
-    "xAxis": {
-    "type": "category",
-    "title": {
-        "style": {
-        "color": "#000000"
-        }
-    },
-    "labels": {
-        "style": {
-        "color": "#000000"
-        }
-    },
-    "tickColor": "#FFFFFF"
+    "xAxis": {    
+        "title": {
+            "style": {
+            "color": "#000000"
+            }
+        },
+        "labels": {
+            "style": {
+            "color": "#000000"
+            }
+        },
+        "tickColor": "#FFFFFF",
+        "type": "category"        
     },
     tooltip: {
     pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>',
@@ -116,12 +116,12 @@ var template = {
     }
     },
     "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,     
-    "align": "right",
-    "itemStyle": {
-        "fontWeight": "normal"
-    }
-    },    
+        "layout": "vertical",
+        "verticalAlign": "middle",
+        "itemMarginBottom": 5,     
+        "align": "right",
+        "itemStyle": {
+            "fontWeight": "normal"
+        }
+    }    
 };
