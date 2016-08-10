@@ -50,7 +50,12 @@
   },
   "exporting": {
     "sourceWidth": null,
-    "scale": 5
+    "scale": 5,
+    buttons: {
+      contextButton: {
+        menuItems: Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8)
+      }
+    }
   },
   "credits": {
     "text": "Quelle:  Statistik der Bevölkerung und Haushalte (STATPOP);<br/>Bundesamt für Statistik.",
