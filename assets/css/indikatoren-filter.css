@@ -184,3 +184,14 @@ h1{
 .highcharts-container {
     margin: 0 40px;
 }
+
+.lesehilfe>hr{
+    border: none;
+    height: 1px;
+    background-color: darkgrey; /* Modern Browsers */
+}
+
+.lesehilfe>a {
+    font-weight: bold;
+    color: #496c78;
+}
