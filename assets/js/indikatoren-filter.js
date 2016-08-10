@@ -246,15 +246,14 @@ function getIndexByFid(fid){
   //source: http://stackoverflow.com/questions/15997879/get-the-index-of-the-object-inside-an-array-matching-a-condition
   try{
     indexes = $.map(window.FJS.last_result, function(obj, index) {
-      if(obj._fid== fid) {
+      if(obj._fid == fid) {
           return index;
       }
-    })
-    firstIndex = indexes[0];
-    return firstIndex;
+    })    
+    return indexes[0];
     }
   catch (e) {
-    return 'undefined';
+    return undefined;
   }
 }
 
