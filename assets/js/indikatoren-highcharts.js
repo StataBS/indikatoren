@@ -63,7 +63,16 @@ function renderChartByKuerzel(kuerzel){
     //console.log('chart does not exist yet. loading data for '+kuerzel);
     var chartUrl = 'charts/' + kuerzel + '.js';
     var csvUrl = 'data/' + kuerzel + '.csv';    
-    renderChart('charts/options001.js', 'charts/template001.js', chartUrl, csvUrl, kuerzel);
+    //get template for requested chart
+    
+    var chart = indikatoren.filter(function(item, i, ar){
+      if (item.kuerzel === kuerzel) { 
+        return item.template;
+      } 
+    })[0];    
+    var templateUrl = 'charts/' + chart.template + '.js';
+        
+    renderChart('charts/options001.js', templateUrl, chartUrl, csvUrl, kuerzel);
   }
   //highcharts container exists already: redraw chart without reloading data from network
   else {
@@ -82,3 +91,5 @@ function renderChartByKuerzel(kuerzel){
 function escapeCssChars(myid) {
     return myid.replace( /(:|\.|\[|\]|,)/g, "\\$1" );
 }
+
+
