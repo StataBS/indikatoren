@@ -13,7 +13,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"",
-"lesehilfe": "Von 2005 bis 2015 ist die Anzahl Einwohnerinnen und Einwohner im Kanton Basel-Stadt um 4,9% angestiegen." 
+"lesehilfe": "Von 2005 bis 2015 ist die Anzahl Einwohnerinnen und Einwohner im Kanton Basel-Stadt um 4,9% angestiegen.",
+"template": "template001" 
 },
 {"url": "charts/I.01.1.0024.html",
 "title":"Indikator 1.7.a",
@@ -30,7 +31,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Die Eigentumsquote steigt langsam an. Gezählt werden Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt werden. Bei unbelegten Wohnungen gilt die letzte Belegung."
+"lesehilfe": "Die Eigentumsquote steigt langsam an. Gezählt werden Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt werden. Bei unbelegten Wohnungen gilt die letzte Belegung.",
+"template": "template001" 
 },
 {"url": "charts/I.01.1.0025.html",
 "title":"Indikator 2.2.a",
@@ -47,7 +49,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Die Anzahl volljähriger Personen mit Hauptwohnsitz in Basel-Stadt nimmt stetig leicht zu. Diese Personen versteuern ihr Einkommen oder ihre Vermögenswerte, falls vorhanden, in der Regel in Basel-Stadt."
+"lesehilfe": "Die Anzahl volljähriger Personen mit Hauptwohnsitz in Basel-Stadt nimmt stetig leicht zu. Diese Personen versteuern ihr Einkommen oder ihre Vermögenswerte, falls vorhanden, in der Regel in Basel-Stadt.",
+"template": "template001" 
 },
 {"url": "charts/I.01.2.0001.html",
 "title":"Indikator 1.4.a-1",
@@ -64,7 +67,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen rund 47% aus."
+"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen rund 47% aus.",
+"template": "template001" 
 },
 {"url": "charts/I.01.2.0002.html",
 "title":"Indikator 1.4.a2",
@@ -81,7 +85,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Der Anteil kinderloser Familien ist leicht rückläufig. Er sank von 41,3% im Jahr 2011 auf 39,1% im Jahr 2014."
+"lesehilfe": "Der Anteil kinderloser Familien ist leicht rückläufig. Er sank von 41,3% im Jahr 2011 auf 39,1% im Jahr 2014.",
+"template": "template001" 
 },
 {"url": "charts/I.02.1.0015.html",
 "title":"Indikator 3.2.a",
@@ -98,7 +103,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Die Freiraumflächen erreichten 2012 ihren Höchstwert. Seither reduzierten sich diese Flächen leicht, weil Schulhauserweiterungen auf Kosten von Sportanlagen vorgenommen worden waren oder die Voltamatte umgestaltet worden war. Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen."
+"lesehilfe": "Die Freiraumflächen erreichten 2012 ihren Höchstwert. Seither reduzierten sich diese Flächen leicht, weil Schulhauserweiterungen auf Kosten von Sportanlagen vorgenommen worden waren oder die Voltamatte umgestaltet worden war. Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen.",
+"template": "template001" 
 },
 {"url": "charts/I.09.1.0002.html",
 "title":"Indikator 0.1.c",
@@ -115,7 +121,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Der Anteil der selbstgenutzten Eigentümerwohnungen, das heisst Wohnungen, welche vom Wohnungs- bzw. Gebäudeeigentümer selber bewohnt werden, ist nahezu unverändert."
+"lesehilfe": "Der Anteil der selbstgenutzten Eigentümerwohnungen, das heisst Wohnungen, welche vom Wohnungs- bzw. Gebäudeeigentümer selber bewohnt werden, ist nahezu unverändert.",
+"template": "template001" 
 },
 {"url": "charts/I.09.1.0003.html",
 "title":"Indikator 1.2.a",
@@ -132,7 +139,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Seit 2008 steigt der gesamte Wohnungsbestand leicht und stetig an. Am stärksten war das Wachstum bei den Fünfzimmerwohnungen (+13% seit 2005). Rückläufig bzw. nahezu unverändert war dagegen die Entwicklung bei den Ein- und Zweizimmerwohnungen (-7% bzw. +0,3%)."
+"lesehilfe": "Seit 2008 steigt der gesamte Wohnungsbestand leicht und stetig an. Am stärksten war das Wachstum bei den Fünfzimmerwohnungen (+13% seit 2005). Rückläufig bzw. nahezu unverändert war dagegen die Entwicklung bei den Ein- und Zweizimmerwohnungen (-7% bzw. +0,3%).",
+"template": "template001" 
 },
 {"url": "charts/I.09.1.0004.html",
 "title":"Indikator 1.2.b",
@@ -149,7 +157,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Am zahlreichsten sind 2014 nach Zimmerzahl betrachtet die 3-Zimmerwohnungen (37%) und nach Wohnungsflächenkategorie Logis zwischen 70 und 99 Quadratmetern (35%)."
+"lesehilfe": "Am zahlreichsten sind 2014 nach Zimmerzahl betrachtet die 3-Zimmerwohnungen (37%) und nach Wohnungsflächenkategorie Logis zwischen 70 und 99 Quadratmetern (35%).",
+"template": "template001" 
 },
 {"url": "charts/I.09.1.0005.html",
 "title":"Indikator 1.2.c-2",
@@ -166,7 +175,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Der sprunghafte Anstieg 2014 ist auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume (Büros) zu Wohnungen zurückzuführen. 2015 prägten neben Dachstockausbauten viele Zweckentfremdungen von Wohnungen den Umbausaldo."
+"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Der sprunghafte Anstieg 2014 ist auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume (Büros) zu Wohnungen zurückzuführen. 2015 prägten neben Dachstockausbauten viele Zweckentfremdungen von Wohnungen den Umbausaldo.",
+"template": "template001" 
 },
 {"url": "charts/I.09.1.0006.html",
 "title":"Indikator 1.3.a",
@@ -183,7 +193,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Seither liegt die Zahl bei rund 42 Quadratmetern."
+"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Seither liegt die Zahl bei rund 42 Quadratmetern.",
+"template": "template001" 
 },
 {"url": "charts/I.09.1.0007.html",
 "title":"Indikator 1.4.b",
@@ -200,7 +211,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2015 rund 10%. Er ist leicht rückläufig."
+"lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2015 rund 10%. Er ist leicht rückläufig.",
+"template": "template001" 
 },
 {"url": "charts/I.09.1.0008.html",
 "title":"Indikator 2.1.a",
@@ -217,7 +229,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Der Anteil Wohnungen mit mehr als vier Zimmern stieg zum einen in der Dekade der 1970er Jahre, und zwar um 2,6 Prozentpunkte. Zum anderen nimmt der Anteil seit 2010 wieder zu. Dazwischen war kaum oder nur marginales Wachstum zu verzeichnen."
+"lesehilfe": "Der Anteil Wohnungen mit mehr als vier Zimmern stieg zum einen in der Dekade der 1970er Jahre, und zwar um 2,6 Prozentpunkte. Zum anderen nimmt der Anteil seit 2010 wieder zu. Dazwischen war kaum oder nur marginales Wachstum zu verzeichnen.",
+"template": "template001" 
 },
 {"url": "charts/I.09.1.0013.html",
 "title":"Indikator 1.2.c-1",
@@ -234,7 +247,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "2015 wurde dank einer sehr hohen Anzahl Neubauten trotz verhältnismässig vielen Abbrüchen eine Nettowohnungsproduktion von über 600 Wohnungen verzeichnet."
+"lesehilfe": "2015 wurde dank einer sehr hohen Anzahl Neubauten trotz verhältnismässig vielen Abbrüchen eine Nettowohnungsproduktion von über 600 Wohnungen verzeichnet.",
+"template": "template001" 
 },
 {"url": "charts/I.09.3.0002.html",
 "title":"Indikator 1.2.e",
@@ -251,7 +265,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Es werden nur neu erstellte Wohnungen in Neubauten berücksichtigt. Neue Wohnungen aus Umbauten sind demnach nicht enthalten. Dank der Grossprojekte im Gebiet Erlenmatt West wurden im Jahr 2015 an die 800 Wohnungen neu erstellt. Der Zehnjahresdurchschnitt steigt damit auf rund 350."
+"lesehilfe": "Es werden nur neu erstellte Wohnungen in Neubauten berücksichtigt. Neue Wohnungen aus Umbauten sind demnach nicht enthalten. Dank der Grossprojekte im Gebiet Erlenmatt West wurden im Jahr 2015 an die 800 Wohnungen neu erstellt. Der Zehnjahresdurchschnitt steigt damit auf rund 350.",
+"template": "template001" 
 },
 {"url": "charts/I.09.4.0003.html",
 "title":"Indikator 0.1.b-2",
@@ -268,7 +283,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Die Mietpreisentwicklung der Leerwohnungen ist im Zehnjahresvergleich leicht ansteigend. Da es grundsätzlich wenig leerstehende 5-Zimmerwohnungen gibt, sind die ausgewiesenen Durchschnittsmieten in dieser Kategorie grösseren Schwankungen unterworfen bzw. können wie im Jahr 2014 aufgrund zu kleiner Stichprobe gar nicht berechnet werden. <br/>Bei den Mietpreisen für Leerwohnungen handelt es sich um Angebotsmieten, nicht um Bestandsmieten."
+"lesehilfe": "Die Mietpreisentwicklung der Leerwohnungen ist im Zehnjahresvergleich leicht ansteigend. Da es grundsätzlich wenig leerstehende 5-Zimmerwohnungen gibt, sind die ausgewiesenen Durchschnittsmieten in dieser Kategorie grösseren Schwankungen unterworfen bzw. können wie im Jahr 2014 aufgrund zu kleiner Stichprobe gar nicht berechnet werden. <br/>Bei den Mietpreisen für Leerwohnungen handelt es sich um Angebotsmieten, nicht um Bestandsmieten.",
+"template": "template001" 
 },
 {"url": "charts/I.09.4.0004.html",
 "title":"Indikator 1.2.f-1",
@@ -285,7 +301,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Die kantonale Leerwohnungsquote erfuhr von 2006 bis 2014 einen steten Rückgang. Von 2014 bis 2015 ist sie für alle Wohnungstypen unabhängig von der Zimmerzahl angestiegen."
+"lesehilfe": "Die kantonale Leerwohnungsquote erfuhr von 2006 bis 2014 einen steten Rückgang. Von 2014 bis 2015 ist sie für alle Wohnungstypen unabhängig von der Zimmerzahl angestiegen.",
+"template": "template001" 
 },
 {"url": "charts/I.09.4.0005.html",
 "title":"Indikator 1.2.f-2",
@@ -302,7 +319,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Die Leerwohnungsquote liegt 2015 für Wohnungen aller Flächenkategorien höher als noch 2014. Sowohl 2014 wie auch 2015 stieg die Leerwohnungsquote bei den Wohnungen ab 50 Quadratmetern mit zunehmender Wohnfläche."
+"lesehilfe": "Die Leerwohnungsquote liegt 2015 für Wohnungen aller Flächenkategorien höher als noch 2014. Sowohl 2014 wie auch 2015 stieg die Leerwohnungsquote bei den Wohnungen ab 50 Quadratmetern mit zunehmender Wohnfläche.",
+"template": "template001" 
 },
 {"url": "charts/I.09.5.0001.html",
 "title":"Indikator 0.1.b-1",
@@ -319,7 +337,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Seit 2008 ist bei allen Zimmerkategorien eine steigende Tendenz der Mietpreise (Nettomieten) zu beobachten. Es handelt sich hier im Gegensatz zu den Mietpreisen der Leerwohnungen um Bestandsmieten."
+"lesehilfe": "Seit 2008 ist bei allen Zimmerkategorien eine steigende Tendenz der Mietpreise (Nettomieten) zu beobachten. Es handelt sich hier im Gegensatz zu den Mietpreisen der Leerwohnungen um Bestandsmieten.",
+"template": "template001" 
 },
 {"url": "charts/I.09.5.0003.html",
 "title":"Indikator 0.1.b-3",
@@ -336,7 +355,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Die Nettomietpreise der Genossenschaftswohnungen sind in den letzten 10 Jahren im Durchschnitt ein Drittel günstiger als die Mietpreise der Mietwohnungen."
+"lesehilfe": "Die Nettomietpreise der Genossenschaftswohnungen sind in den letzten 10 Jahren im Durchschnitt ein Drittel günstiger als die Mietpreise der Mietwohnungen.",
+"template": "template001" 
 },
 {"url": "charts/I.13.2.0002.html",
 "title":"Indikator 4.1.a",
@@ -353,7 +373,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist seit 2008 stark angestiegen."
+"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist seit 2008 stark angestiegen.",
+"template": "template001" 
 },
 {"url": "charts/I.13.2.0003.html",
 "title":"Indikator 4.1.b",
@@ -370,7 +391,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Die ausbezahlten Familienmietzinsbeiträge sind seit 2007 stark angestiegen. Der durchschnittliche Beitrag pro Haushalt wuchs in diesem Zeitraum von knapp 3000 Franken auf rund 4800 Franken."
+"lesehilfe": "Die ausbezahlten Familienmietzinsbeiträge sind seit 2007 stark angestiegen. Der durchschnittliche Beitrag pro Haushalt wuchs in diesem Zeitraum von knapp 3000 Franken auf rund 4800 Franken.",
+"template": "template001" 
 },
 {"url": "charts/I.13.3.0002.html",
 "title":"Indikator 4.1.e",
@@ -387,7 +409,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Die wenigen Notwohnungen - 2015 machten sie 0,17% des Wohnungsbestandes aus - waren immer zu über 90% belegt. Durch Aufstockungen bestehender Blockrandsiedlungen konnte das Angebot seit 2013 um 50 Logis erhöht werden."
+"lesehilfe": "Die wenigen Notwohnungen - 2015 machten sie 0,17% des Wohnungsbestandes aus - waren immer zu über 90% belegt. Durch Aufstockungen bestehender Blockrandsiedlungen konnte das Angebot seit 2013 um 50 Logis erhöht werden.",
+"template": "template001" 
 },
 {"url": "charts/I.18.2.0001.html",
 "title":"Indikator 2.1.b",
@@ -404,7 +427,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Seit 2009 ist der Saldo des Steuerertrages bei den Zugezogenen höher als bei den Wegzügern. Bei den Weggezogenen wurden die Steuerdaten des jeweiligen Vorjahres verwendet. Zugezogene Ausländer wurden ab Vorliegen einer Niederlassungsbewilligung mitberücksichtigt."
+"lesehilfe": "Seit 2009 ist der Saldo des Steuerertrages bei den Zugezogenen höher als bei den Wegzügern. Bei den Weggezogenen wurden die Steuerdaten des jeweiligen Vorjahres verwendet. Zugezogene Ausländer wurden ab Vorliegen einer Niederlassungsbewilligung mitberücksichtigt.",
+"template": "template001" 
 },
 {"url": "charts/I.50.1.0005.html",
 "title":"Indikator 0.1.a",
@@ -421,7 +445,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Die Hälfte der Befragten ist mit dem Wohnungsangebot &quot;eher zufrieden&quot; oder &quot;sehr zufrieden&quot;. Seit der ersten Bevölkerungbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte."
+"lesehilfe": "Die Hälfte der Befragten ist mit dem Wohnungsangebot &quot;eher zufrieden&quot; oder &quot;sehr zufrieden&quot;. Seit der ersten Bevölkerungbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte.",
+"template": "template001" 
 },
 {"url": "charts/I.50.1.0006.html",
 "title":"Indikator 1.4.c",
@@ -438,7 +463,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Knapp die Hälfte der befragten Familien ist mit dem Wohnungsangebot im Kanton Basel-Stadt sehr oder eher zufrieden."
+"lesehilfe": "Knapp die Hälfte der befragten Familien ist mit dem Wohnungsangebot im Kanton Basel-Stadt sehr oder eher zufrieden.",
+"template": "template001" 
 },
 {"url": "charts/I.50.1.0007.html",
 "title":"Indikator 3.2.b",
@@ -455,7 +481,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Über 90% der Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2007 jeweils leicht angestiegen."
+"lesehilfe": "Über 90% der Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2007 jeweils leicht angestiegen.",
+"template": "template001" 
 },
 {"url": "charts/I.50.1.0008.html",
 "title":"Indikator 3.3.a",
@@ -472,7 +499,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Die Gesamtzufriedenheit (eher und sehr zufrieden) der Bevölkerung mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild erreicht 2015 mit 84% den höchsten Wert seit Befragungsbeginn 2003."
+"lesehilfe": "Die Gesamtzufriedenheit (eher und sehr zufrieden) der Bevölkerung mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild erreicht 2015 mit 84% den höchsten Wert seit Befragungsbeginn 2003.",
+"template": "template001" 
 },
 {"url": "charts/I.50.1.0009.html",
 "title":"Indikator 4.2.a",
@@ -489,7 +517,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Fast 60% der Befragten sind 2015 mit den Einrichtungen und dem Angebot für Behinderte eher bis sehr zufrieden. Dieser Wert lag 2007 noch bei 40%."
+"lesehilfe": "Fast 60% der Befragten sind 2015 mit den Einrichtungen und dem Angebot für Behinderte eher bis sehr zufrieden. Dieser Wert lag 2007 noch bei 40%.",
+"template": "template001" 
 },
 {"url": "charts/I.50.4.0001.html",
 "title":"Indikator 4.2.c",
@@ -506,6 +535,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe": "Gut zwei Drittel der Befragten sind mit der altersangepassten Gestaltung des Wohngebäudes eher bis sehr zufrieden."
+"lesehilfe": "Gut zwei Drittel der Befragten sind mit der altersangepassten Gestaltung des Wohngebäudes eher bis sehr zufrieden.",
+"template": "befragungen001"
 },
 ];
