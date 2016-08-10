@@ -77,3 +77,8 @@ function renderChartByKuerzel(kuerzel){
     container.highcharts(currentChartOptions);
   };
 }
+
+//dom ids may contain . or :, if used in jquery these must be escaped. http://learn.jquery.com/using-jquery-core/faq/how-do-i-select-an-element-by-an-id-that-has-characters-used-in-css-notation/
+function escapeCssChars(myid) {
+    return myid.replace( /(:|\.|\[|\]|,)/g, "\\$1" );
+}
