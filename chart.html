@@ -68,6 +68,10 @@
         renderChart('charts/' + safeKuerzel+'.js', 'charts/template001.js', 'charts/' + safeKuerzel + '.js', 'data/' + safeKuerzel + '.csv', safeKuerzel);
         //renderChartByKuerzel(safeKuerzel);
       }
+      else {
+        //display error message
+        $('body').append('<div class="container"><div class="jumbotron"><h1>Ooops...</h1><p>Kein chart mit dem angegebenen Kürzel gefunden.</p></div></div>');
+      }
     </script>
   </body>
 </html>
