@@ -49,9 +49,9 @@ var template = {
     "plotOptions": {
         "series": {
             "dataLabels": {
-            "style": {
-                "fontSize": 10
-            }
+                "style": {
+                    "fontSize": 10
+                }
             },
             "stacking": "percent"
         }
