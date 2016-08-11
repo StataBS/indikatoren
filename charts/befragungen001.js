@@ -30,7 +30,6 @@ var template = {
         },        
         "align": "left"
     },
-
     "subtitle": {
         "style": {
         "fontSize": 12,
@@ -48,31 +47,30 @@ var template = {
         }
     },
     "plotOptions": {
-    "series": {
-        "dataLabels": {
-        "style": {
-            "fontSize": 10
+        "series": {
+            "dataLabels": {
+            "style": {
+                "fontSize": 10
+            }
+            },
+            "stacking": "percent"
         }
-        },
-        "stacking": "percent"
-    }
     },
     "yAxis": {
-    "tickInterval":10,
-    "title": {
-        "style": {
-        "color": "#000000",
-        "fontSize": null
+        "tickInterval":10,
+        "title": {
+            "style": {
+            "color": "#000000",
+            "fontSize": null
+            },
+            "text": null
         },
-        "text": null
-    },
-    "labels": {
-        "format": "{value}%",
-        "style": {
-        "color": "#000000"
+        "labels": {
+            "format": "{value}%",
+            "style": {
+            "color": "#000000"
+            }
         }
-
-    }
     },
     "xAxis": {    
         "title": {
@@ -89,8 +87,8 @@ var template = {
         "type": "category"        
     },
     tooltip: {
-    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>',
-    shared: false
+        pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>',
+        shared: false
     },
     "exporting": {
         "sourceWidth": null,
@@ -102,18 +100,18 @@ var template = {
         }
         },
     "credits": {
-    "text": "Quelle: Kantonale Befragung 55plus;<br/>Statistisches Amt des Kantons Basel-Stadt",
-    "enabled": true,
-    "style": {
-        "color": "#000000",
-        "fontSize": 10
-    },
-    "position": {
-        "align": "left",
-        "verticalAlign": "bottom",
-        x: 10,
-        y: -17
-    }
+        "text": "Quelle: Kantonale Befragung 55plus;<br/>Statistisches Amt des Kantons Basel-Stadt",
+        "enabled": true,
+        "style": {
+            "color": "#000000",
+            "fontSize": 10
+        },
+        "position": {
+            "align": "left",
+            "verticalAlign": "bottom",
+            x: 10,
+            y: -17
+        }
     },
     "legend": {
         "layout": "vertical",
