@@ -98,7 +98,7 @@ var template = {
             menuItems: Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8)
             }
         }
-        },
+    },
     "credits": {
         "text": "Quelle: Kantonale Befragung 55plus;<br/>Statistisches Amt des Kantons Basel-Stadt",
         "enabled": true,
