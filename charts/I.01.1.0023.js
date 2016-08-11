@@ -1,5 +1,4 @@
 chartOptions['I.01.1.0023'] = {
-
   "chart": {
     "renderTo": "container-I.01.1.0023"
   },
@@ -10,7 +9,7 @@ chartOptions['I.01.1.0023'] = {
     "min": 0,
     "labels": {
       "format": "{value:,.0f}"
-	}
+	  }
   },
   "xAxis": {
       "tickInterval": 1
@@ -34,12 +33,12 @@ chartOptions['I.01.1.0023'] = {
         "enabled": true,
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
           formatter: function() {
-		    var first = this.series.data[0];
-			var last  = this.series.data[this.series.data.length - 1];
-		    if (this.point.y === first.y || this.point.y === last.y ) {
-			  return Highcharts.numberFormat(this.point.y, 0, ",", " ");
-			}
-			return "";
+            var first = this.series.data[0];
+            var last  = this.series.data[this.series.data.length - 1];
+            if (this.point.y === first.y || this.point.y === last.y ) {
+              return Highcharts.numberFormat(this.point.y, 0, ",", " ");
+            }
+            return "";
           }
       }
     }
