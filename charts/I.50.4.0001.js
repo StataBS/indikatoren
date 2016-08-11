@@ -26,6 +26,9 @@
   },
   "chart": {
     "renderTo": "container-I.50.4.0001"
+  },
+  "credits": {
+    "text": "Quelle: Kantonale Befragung 55plus;<br/>Statistisches Amt des Kantons Basel-Stadt"
   }
 };
 

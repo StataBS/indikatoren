@@ -29,5 +29,8 @@
   },
   "chart": {
     "renderTo": "container-I.50.1.0005"
+  },
+  "credits": {
+    "text": "Quelle: Kantonale Bevölkerungsbefragungen;<br/>Statistisches Amt des Kantons Basel-Stadt"
   }
 };

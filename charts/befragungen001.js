@@ -100,7 +100,6 @@ var template = {
         }
     },
     "credits": {
-        "text": "Quelle: Kantonale Befragung 55plus;<br/>Statistisches Amt des Kantons Basel-Stadt",
         "enabled": true,
         "style": {
             "color": "#000000",
