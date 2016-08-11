@@ -91,7 +91,7 @@ var template = {
     },
     tooltip: {
         "pointFormatter": function(){
-            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.y*100),1)+'%</b><br/>'                
+            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.y*100),2)+'%</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
         },
         
         shared: false
