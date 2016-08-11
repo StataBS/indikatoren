@@ -1,3 +1,4 @@
+"use strict";
 
 //load global options, template, chartOptions from external scripts, load csv data from external file, and render chart to designated div
 function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, chartId){   
