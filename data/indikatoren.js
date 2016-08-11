@@ -14,7 +14,7 @@
 "stufe4":"",
 "stufe5":"",
 "lesehilfe": "Von 2005 bis 2015 ist die Anzahl Einwohnerinnen und Einwohner im Kanton Basel-Stadt um 4,9% angestiegen.",
-"template": "template001" 
+"template": "template_line001" 
 },
 {"url": "charts/I.01.1.0024.html",
 "title":"Indikator 1.7.a",
@@ -32,7 +32,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe": "Die Eigentumsquote steigt langsam an. Gezählt werden Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt werden. Bei unbelegten Wohnungen gilt die letzte Belegung.",
-"template": "template001" 
+"template": "template_line001" 
 },
 {"url": "charts/I.01.1.0025.html",
 "title":"Indikator 2.2.a",
@@ -50,7 +50,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe": "Die Anzahl volljähriger Personen mit Hauptwohnsitz in Basel-Stadt nimmt stetig leicht zu. Diese Personen versteuern ihr Einkommen oder ihre Vermögenswerte, falls vorhanden, in der Regel in Basel-Stadt.",
-"template": "template001" 
+"template": "template_line001" 
 },
 {"url": "charts/I.01.2.0001.html",
 "title":"Indikator 1.4.a-1",
@@ -194,7 +194,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Seither liegt die Zahl bei rund 42 Quadratmetern.",
-"template": "template001" 
+"template": "template_line001" 
 },
 {"url": "charts/I.09.1.0007.html",
 "title":"Indikator 1.4.b",
@@ -284,7 +284,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe": "Die Mietpreisentwicklung der Leerwohnungen ist im Zehnjahresvergleich leicht ansteigend. Da es grundsätzlich wenig leerstehende 5-Zimmerwohnungen gibt, sind die ausgewiesenen Durchschnittsmieten in dieser Kategorie grösseren Schwankungen unterworfen bzw. können wie im Jahr 2014 aufgrund zu kleiner Stichprobe gar nicht berechnet werden. <br/>Bei den Mietpreisen für Leerwohnungen handelt es sich um Angebotsmieten, nicht um Bestandsmieten.",
-"template": "template001" 
+"template": "template_line001" 
 },
 {"url": "charts/I.09.4.0004.html",
 "title":"Indikator 1.2.f-1",
@@ -338,7 +338,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe": "Seit 2008 ist bei allen Zimmerkategorien eine steigende Tendenz der Mietpreise (Nettomieten) zu beobachten. Es handelt sich hier im Gegensatz zu den Mietpreisen der Leerwohnungen um Bestandsmieten.",
-"template": "template001" 
+"template": "template_line001" 
 },
 {"url": "charts/I.09.5.0003.html",
 "title":"Indikator 0.1.b-3",
@@ -356,7 +356,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe": "Die Nettomietpreise der Genossenschaftswohnungen sind in den letzten 10 Jahren im Durchschnitt ein Drittel günstiger als die Mietpreise der Mietwohnungen.",
-"template": "template001" 
+"template": "template_line001" 
 },
 {"url": "charts/I.13.2.0002.html",
 "title":"Indikator 4.1.a",
@@ -392,7 +392,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe": "Die ausbezahlten Familienmietzinsbeiträge sind seit 2007 stark angestiegen. Der durchschnittliche Beitrag pro Haushalt wuchs in diesem Zeitraum von knapp 3000 Franken auf rund 4800 Franken.",
-"template": "template001" 
+"template": "template_line001" 
 },
 {"url": "charts/I.13.3.0002.html",
 "title":"Indikator 4.1.e",
