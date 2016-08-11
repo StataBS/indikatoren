@@ -13,9 +13,9 @@ var template = {
         "borderColor": "#fbfbfb",
         "backgroundColor": "#fbfbfb",
         "width": 485,
-        "height": 410,
+        "height": 415,
         "marginBottom": 65,
-        "marginTop": 30,
+        "marginTop": 35,
         "style": {
         "fontFamily": "Arial"
         },
@@ -42,12 +42,6 @@ var template = {
         "text": "",
         "align": "left"
     },
-    navigation: {
-        menuItemStyle: {
-            fontFamily: Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
-            padding: '2px 10px'
-        }
-    },
     "plotOptions": {
         "series": {
             "dataLabels": {
@@ -57,7 +51,10 @@ var template = {
                 "enabled": false,
                 "style": {
                     "fontSize": 10
-                }
+                },
+                "formatter": function(){
+                    return Highcharts.numberFormat((this.y*100),1)+'%';                
+                },
             }
         }
     },
@@ -70,7 +67,9 @@ var template = {
             "text": null
         },
         "labels": {
-            "format": "{value}",
+            "formatter": function(){
+                return Highcharts.numberFormat((this.value*100),0)+'%';                
+            },
             "style": {
                 "color": "#000000"
             }
@@ -91,17 +90,11 @@ var template = {
         "type": "category"        
     },
     tooltip: {
-        pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>',
+        "pointFormatter": function(){
+            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.y*100),1)+'%</b><br/>'                
+        },
+        
         shared: false
-    },
-    "exporting": {
-        "sourceWidth": null,
-        "scale": 5,
-        buttons: {
-            contextButton: {
-            menuItems: Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8)
-            }
-        }
     },
     "credits": {
         "enabled": true,
