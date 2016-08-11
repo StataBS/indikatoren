@@ -11,7 +11,6 @@
  *  jQuery(v1.9 >=)
  */
 
-"use strict";
 
 //holds config of each chart
 var chartOptions = new Object();
