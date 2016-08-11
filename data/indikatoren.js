@@ -446,7 +446,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe": "Die Hälfte der Befragten ist mit dem Wohnungsangebot &quot;eher zufrieden&quot; oder &quot;sehr zufrieden&quot;. Seit der ersten Bevölkerungbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte.",
-"template": "template001" 
+"template": "befragungen001" 
 },
 {"url": "charts/I.50.1.0006.html",
 "title":"Indikator 1.4.c",
@@ -464,7 +464,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe": "Knapp die Hälfte der befragten Familien ist mit dem Wohnungsangebot im Kanton Basel-Stadt sehr oder eher zufrieden.",
-"template": "template001" 
+"template": "befragungen001" 
 },
 {"url": "charts/I.50.1.0007.html",
 "title":"Indikator 3.2.b",
@@ -482,7 +482,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe": "Über 90% der Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2007 jeweils leicht angestiegen.",
-"template": "template001" 
+"template": "befragungen001" 
 },
 {"url": "charts/I.50.1.0008.html",
 "title":"Indikator 3.3.a",
@@ -500,7 +500,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe": "Die Gesamtzufriedenheit (eher und sehr zufrieden) der Bevölkerung mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild erreicht 2015 mit 84% den höchsten Wert seit Befragungsbeginn 2003.",
-"template": "template001" 
+"template": "befragungen001" 
 },
 {"url": "charts/I.50.1.0009.html",
 "title":"Indikator 4.2.a",

@@ -1,6 +1,7 @@
 Highcharts.setOptions({
   "lang": {
     "decimalPoint": ",",
-    "thousandsSep": " "
+    "resetZoom": "Zoom zurücksetzen",
+    "thousandsSep": " "  
   }
 });
