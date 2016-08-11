@@ -11,5 +11,7 @@ chartOptions['sozialhilfequote'] = {
 	"legend": {
 		"enabled": false
 	},
-	"series": [{}]
+	"series": [{
+		"color": "#923F8D"
+	}]
 };
