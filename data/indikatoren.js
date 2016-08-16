@@ -648,5 +648,23 @@
 "template":"befragungen001",
 "option":"options001",
 "quellenangabe":[]
+},
+{"url": "charts/sozialhilfequote.html",
+"title":"sozialhilfequote",
+"kuerzel":"sozialhilfequote",
+"image":"images/sozialhilfequote.jpg",
+"description":"sozialhilfequote",
+"id":"4157",
+"thema":"13 Soziale Sicherheit",
+"kennzahlenset":"Sozialhilfe",
+"raeumlicheGliederung":["Kanton", "Wohnviertel"],
+"schlagwort":["Sozialhilfe"],
+"stufe1":"",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe": "Lorem ipsum etc. ",
+"template": "dotplot"
 }
 ];
