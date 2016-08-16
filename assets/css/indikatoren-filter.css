@@ -109,6 +109,9 @@ ul.pagination{
     margin-top: 5px;
 }
 
+input[type="radio"] {
+    bottom: 3px; /* vertically align radio with corresponding label */
+}
 
 .multiselect-container>li>a>label, .checkbox>label {
     padding-bottom: 1px;
