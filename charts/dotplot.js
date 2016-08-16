@@ -73,7 +73,8 @@ var template = {
             "style": {
                 "color": "#000000"
             }
-        }
+        }, 
+        "min": 0
     },
     "xAxis": {
         "title": {
