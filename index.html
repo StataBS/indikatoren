@@ -87,16 +87,10 @@
           </div>
 
           <div class="well">
-            <fieldset id="thema_criteria">
-              <legend>Thema</legend>
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox" value="All" id="all_thema">
-                  <span>Alle</span>
-                </label>
-              </div>
-              <!-- Checkboxes are dynamically added here -->         
-            </fieldset>
+            <form role="form" id="thema_criteria">
+              <legend>Thema</legend>              
+              <!-- Radio Buttons are dynamically added here -->         
+            </form>
           </div>
 
           <div class="well">
@@ -236,6 +230,15 @@
         </label>
       </div>
     </script>
+
+    <script id="radio-template" type="text/html">
+      <div class="radio">
+        <label>
+          <input type="radio" name="<%= radioGroupName %>" value="<%= value %>"> <span><%= value %></span>
+        </label>
+      </div>
+    </script>
+
 
     <script id="option-template" type="text/html">
         <option value="<%= key %>"><%= value %></option>

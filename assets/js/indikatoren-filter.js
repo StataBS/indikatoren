@@ -46,7 +46,7 @@ $(document).ready(function(){
   else {
     preparePortalView();
     var FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
-    FJS.addCriteria({field: "thema", ele: "#thema_criteria input:checkbox"});
+    FJS.addCriteria({field: "thema", ele: "#thema_criteria input:radio", all: "Alle"});
     FJS.addCriteria({field: "schlagwort", ele: "#schlagwort_filter", all: "all"});
     FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});  
   }  
@@ -142,23 +142,18 @@ function prepareIndikatorensetView(indikatorenset){
 
 
 function renderThema(){  
-  var values = ["01 Bevölkerung",	"02 Raum, Landschaft, Umwelt",	"03 Erwerbsleben",	"04 Volkswirtschaft",	"05 Preise",	"06 Produktion und Handel",	"07 Land- und Forstwirtschaft",	"08 Energie",	"09 Bau- und Wohnungswesen",	"10 Tourismus",	"11 Verkehr",	"12 Finanzmärkte und Banken",	"13 Soziale Sicherheit",	"14 Gesundheit",	"15 Bildung und Wissenschaft",	"16 Kultur und Sport",	"17 Politik",	"18 Öffentliche Finanzen",	"19 Rechtspflege", "50 Regelmässige Befragungen"];
+  var values = ["Alle", "01 Bevölkerung",	"02 Raum, Landschaft, Umwelt",	"03 Erwerbsleben",	"04 Volkswirtschaft",	"05 Preise",	"06 Produktion und Handel",	"07 Land- und Forstwirtschaft",	"08 Energie",	"09 Bau- und Wohnungswesen",	"10 Tourismus",	"11 Verkehr",	"12 Finanzmärkte und Banken",	"13 Soziale Sicherheit",	"14 Gesundheit",	"15 Bildung und Wissenschaft",	"16 Kultur und Sport",	"17 Politik",	"18 Öffentliche Finanzen",	"19 Rechtspflege", "50 Regelmässige Befragungen"];
 
-  var html = $('#checkbox-template').html();
+  var html = $('#radio-template').html();
   var templateFunction = FilterJS.templateBuilder(html);
   var container = $('#thema_criteria');
   
   $.each(values, function(i, c){
-    //var themaName = (i+1) + " " + c;
-    //container.append(templateFunction({ key: c, value: themaName }))
-    container.append(templateFunction({ value: c }))
+    container.append(templateFunction({ value: c , radioGroupName: "themaRadioGroup"}))
   });
 
-  //Check checkboxes  
-  $('#thema_criteria :checkbox').prop('checked', true);
-  $('#all_thema').on('click', function(){
-    $('#thema_criteria :checkbox').prop('checked', $(this).is(':checked'));
-  });
+  //check first radio ('Alle')
+  $("#thema_criteria :radio:first()").prop('checked', true);
 };
 
 
