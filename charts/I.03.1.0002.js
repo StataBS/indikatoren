@@ -5,13 +5,6 @@ chartOptions['I.03.1.0002'] = {
 	"title": {
 		"text": "Erwerbstätigenquote"
 	},
-	"yAxis": {
-		"labels": {
-			"formatter": function(){
-				return Highcharts.numberFormat((this.value),2);                
-			}
-		}
-    },
 	"credits": {
 		"text": "Quellenangabe: woher kommen die Daten?"
 	},
@@ -19,7 +12,7 @@ chartOptions['I.03.1.0002'] = {
 		"enabled": false
 	},
 	"series": [{
-		"color": "#923F8D"
+		"color": "#689199"
 	}]
 };
 

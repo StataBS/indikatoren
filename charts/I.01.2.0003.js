@@ -12,7 +12,7 @@ chartOptions['I.01.2.0003'] = {
 		"enabled": false
 	},
 	"series": [{
-		"color": "#923F8D"
+		"color": "#68AB2B"
 	}]
 };
 
