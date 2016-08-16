@@ -48,7 +48,7 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, chartId){
               chartOptions.series[i] = Highcharts.merge(series, dataOptions.series[i]);
             });
         }
-        var options = Highcharts.merge(dataOptions, chartOptions, template);
+        var options = Highcharts.merge(true, dataOptions, template, chartOptions);
         var chart = new Highcharts['Chart'](options);
       }, chartOptions, data);      
   };          
