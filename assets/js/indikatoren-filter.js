@@ -236,12 +236,13 @@ function configureMultiselect(selector){
 };
 
 
-//find index of a given _fid in the FJS.last_result array. 
+//find index of a given _fid in the results array. if full-text search is used (search_text has some minimum length), FJS uses a different results array than if not. 
 //this is necessary for carousel since links to charts in the carousel contain the array index which changes upon paging. 
 function getIndexByFid(fid){
   //source: http://stackoverflow.com/questions/15997879/get-the-index-of-the-object-inside-an-array-matching-a-condition
   try{
-    indexes = $.map(window.FJS.last_result, function(obj, index) {
+    var results = (window.FJS.search_text.length > FJS.opts.search.start_length) ? window.FJS.search_result : window.FJS.last_result;
+    indexes = $.map(results, function(obj, index) {
       if(obj._fid == fid) {
           return index;
       }
