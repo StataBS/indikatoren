@@ -47,6 +47,7 @@ $(document).ready(function(){
     preparePortalView();
     var FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
     FJS.addCriteria({field: "thema", ele: "#thema_criteria input:radio", all: "Alle"});
+    FJS.addCriteria({field: "unterthema", ele: "#unterthema_filter", all: "all"});
     FJS.addCriteria({field: "schlagwort", ele: "#schlagwort_filter", all: "all"});
     FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});  
   }  
@@ -102,7 +103,8 @@ function preparePortalView(){
   $("#main-control-element-indikatorenset").remove();    
   renderThema();
   renderMultiselectDropdownFromJson(indikatoren, 'schlagwort', '#schlagwort_filter');    
-  renderMultiselectDropdownFromJson(["Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite"], '', '#raeumlicheGliederung_filter');   
+  renderMultiselectDropdownFromJson(["Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite"], '', '#raeumlicheGliederung_filter');
+  renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema');   
 };
 
 
