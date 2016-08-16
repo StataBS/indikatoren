@@ -1,6 +1,6 @@
-chartOptions['sozialhilfequote'] = {
+chartOptions['I.13.3.0004'] = {
 	"chart": {
-		"renderTo": "container-sozialhilfequote"
+		"renderTo": "container-I.13.3.0004"
 	},
 	"title": {
 		"text": "Sozialhilfequote 2015"

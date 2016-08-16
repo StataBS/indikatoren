@@ -649,11 +649,10 @@
 "option":"options001",
 "quellenangabe":[]
 },
-{"url": "charts/sozialhilfequote.html",
-"title":"sozialhilfequote",
-"kuerzel":"sozialhilfequote",
-"image":"images/sozialhilfequote.jpg",
-"description":"sozialhilfequote",
+{"title":"Sozialhilfequote",
+"kuerzel":"I.13.3.0004",
+"image":"images/I.13.3.0004.jpg",
+"description":"Sozialhilfequote",
 "id":"4157",
 "thema":"13 Soziale Sicherheit",
 "kennzahlenset":"Sozialhilfe",
@@ -665,6 +664,8 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe": "Lorem ipsum etc. ",
-"template": "dotplot"
+"template": "dotplot",
+"option":"options001",
+"quellenangabe":[]
 }
 ];
