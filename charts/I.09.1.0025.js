@@ -1,9 +1,9 @@
-﻿chartOptions['I.01.1.0024'] = {
+﻿chartOptions['I.09.1.0025'] = {
   "title": {
     "text": "Indikator 1.7.a: Wohneigentumsquote in Prozent"
   },
   "chart": {
-    "renderTo": "container-I.01.1.0024"
+    "renderTo": "container-I.09.1.0025"
   },
   "xAxis": {
     "max": 2015,
