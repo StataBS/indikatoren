@@ -15,6 +15,8 @@
 //holds config of each chart
 var chartOptions = new Object();
 var sortOptions = new Object();
+//Indikatorenset or Portal view
+var indikatorensetView = false;
 
 $(document).ready(function(){
   //template: '#indikator-template-carousel', 
@@ -37,9 +39,10 @@ $(document).ready(function(){
   };
 
 
-  //Render page differently depending on url query string 'Indikatorenset'  
-  var indikatorenset = $.url('?Indikatorenset'); 
-  if (indikatorenset){ 
+  //Render page differently depending on url query string 'Indikatorenset'
+  var indikatorenset = $.url('?Indikatorenset');
+  indikatorensetView = indikatorenset ? true : false; 
+  if (indikatorensetView){ 
     //Indikatorenset View
     sortOptions = {'kuerzelKunde': 'asc'};
     prepareIndikatorensetView(indikatorenset);
@@ -95,7 +98,7 @@ $(document).ready(function(){
       var targetKuerzel = $(e.relatedTarget).children().first().attr('indikator-kuerzel-data');
       renderChartByKuerzel(targetKuerzel);
   });
-  });//$(document).ready(function()
+});
 
 
 //interpret sort configuration received from dropdown
@@ -329,7 +332,8 @@ var afterFilter = function(result, jQ){
     function createCarousel(result){            
       //add a carousel-inner div for each thumbnail
       //build template function using template from DOM
-      var html = $('#indikator-template-modal').html();
+      var template = (indikatorensetView) ? '#indikator-template-modal-indikatorenset' : '#indikator-template-modal-portal';
+      var html = $(template).html();
       var templateFunction = FilterJS.templateBuilder(html);
       var container = $('#carousel-inner');
       //first remove all carousel divs

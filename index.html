@@ -201,6 +201,7 @@
     
     
     <!-- html templates -->
+    <!-- chart thumbnail template for portal view -->
     <script id="indikator-template-carousel-portal" type="text/html">  
       <div class="col-xs-3 indikator" indikator-fid-data="<%= _fid %>" indikator-kuerzel-data="<%= kuerzel %>">
         <div class="thumbnail">
@@ -214,6 +215,7 @@
       </div>
     </script> 
 
+    <!-- chart thumbnail template for indikatorenset view -->
     <script id="indikator-template-carousel-indikatorenset" type="text/html">  
       <div class="col-xs-3 indikator" indikator-fid-data="<%= _fid %>" indikator-kuerzel-data="<%= kuerzel %>">
         <div class="thumbnail">
@@ -227,8 +229,8 @@
       </div>
     </script> 
 
-
-    <script id="indikator-template-modal" type="text/html">
+    <!-- full modal chart template for portal view -->
+    <script id="indikator-template-modal-portal" type="text/html">
       <div class="item">
         <div id="container-<%= kuerzel %>" indikator-kuerzel-data="<%= kuerzel %>"></div>      
         <h1>Lesehilfe</h1>
@@ -238,7 +240,18 @@
         </div>
       </div>
     </script> 
-    
+
+    <!-- full modal chart template for indikatorenset view -->
+    <script id="indikator-template-modal-indikatorenset" type="text/html">
+      <div class="item">
+        <div id="container-<%= kuerzel %>" indikator-kuerzel-data="<%= kuerzel %>"></div>      
+        <h1>Lesehilfe</h1>
+        <div class='lesehilfe'><%= lesehilfe %>
+        </div>
+      </div>
+    </script> 
+
+
     <script id="checkbox-template" type="text/html">
       <div class="checkbox">
         <label>
@@ -260,6 +273,7 @@
         <option value="<%= key %>"><%= value %></option>
     </script>
 
+    <!-- template for dot in carousel that links to nth chart -->
     <script id="carousel-indicator-template" type="text/html">
       <li data-target="#lightbox" data-slide-to="<%= _fid-1 %>" indikator-kuerzel-data="<%= kuerzel %>" </li>
     </script>
