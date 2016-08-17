@@ -48,7 +48,8 @@ $(document).ready(function(){
     var FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
     FJS.addCriteria({field: "thema", ele: "#thema_criteria input:radio", all: "Alle"});
     FJS.addCriteria({field: "schlagwort", ele: "#schlagwort_filter", all: "all"});
-    FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});  
+    FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});
+    FJS.addCriteria({field: "unterthema", ele: "#unterthema_filter", all: "all"});  
   }  
 
   //implement default sorting, add event listener, and implement sortResult function
@@ -102,7 +103,15 @@ function preparePortalView(){
   $("#main-control-element-indikatorenset").remove();    
   renderThema();
   renderMultiselectDropdownFromJson(indikatoren, 'schlagwort', '#schlagwort_filter');    
-  renderMultiselectDropdownFromJson(["Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite"], '', '#raeumlicheGliederung_filter');   
+  renderMultiselectDropdownFromJson(["Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite"], '', '#raeumlicheGliederung_filter');
+
+  //prepare query String object for filtering stufe1 and stufe2
+  var baseQuery = new Object();
+  //render unterthema dropdown for the first time   
+  renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema', baseQuery);
+  
+  //configure unterthema to be filtered correctly upon change of thema           
+  configureCascadedControls('#thema_criteria', '#unterthema_filter', "#thema_criteria :checked", 'Alle', 'thema', 'unterthema', baseQuery);  
 };
 
 
@@ -119,25 +128,32 @@ function prepareIndikatorensetView(indikatorenset){
   $('#kennzahlenset_filter').val(indikatorenset);  
   
   //prepare query String object for filtering stufe1 and stufe2
-  var baseQueryString = new Object();
-  baseQueryString['kennzahlenset'] = indikatorenset;              
+  var baseQuery = new Object();
+  baseQuery['kennzahlenset'] = indikatorenset;              
 
-  renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'stufe1', baseQueryString);
-  renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'stufe2', baseQueryString);
+  renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'stufe1', baseQuery);
+  renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'stufe2', baseQuery);
 
   //add cascaded dropdowns functionality to stufe1 and stufe2
-  $('#stufe1_filter').change(function(){
-    //remove selection on 2nd level dropdown upon change in first level dropdown
-    $('#stufe2_filter :nth-child(1)').prop('selected', true);
-    $('#stufe2_filter').change();
-    //filter stufe2 to include only values that occur together with selected stufe1 value
-    //deep copy baseQueryString object
-    var stufe2QueryString = $.extend(true, {}, baseQueryString); 
-    if ($('#stufe1_filter').val() != 'all') {
-      stufe2QueryString['stufe1'] = $('#stufe1_filter').val();
+  configureCascadedControls('#stufe1_filter', '#stufe2_filter', '#stufe1_filter', 'all', 'stufe1', 'stufe2',baseQuery); 
+};
+
+
+function configureCascadedControls(level1selector, level2selector, level1ValueSelector, level1AllValue, level1field, level2Field, baseQuery){
+  //add cascaded dropdowns functionality to level1 and level2
+  $(level1selector).change(function(){
+    //remove selection on 2nd level dropdown upon change in first level dropdown (set to first = all)
+    $(level2selector + ' :nth-child(1)').prop('selected', true);
+    $(level2selector).change();
+    //filter 2nd level to include only values that occur together with selected 1st level value
+    //deep copy baseQuery object
+    var level2QueryString = $.extend(true, {}, baseQuery); 
+    var selectedValue = $(level1ValueSelector).val();
+    if (selectedValue !== level1AllValue) {
+      level2QueryString[level1field] = selectedValue;
     }
-    renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'stufe2', stufe2QueryString);
-  });  
+    renderDropdownFromJson(indikatoren, level2Field, level2selector, level2Field, level2QueryString);
+  })
 };
 
 
@@ -162,7 +178,7 @@ function renderDropdownFromJson(data, field, selector, sortKey, filterQueryStrin
   var JQ = JsonQuery(data);
   //If filterQueryString is given: filter data before rendering dropdowns
   if (typeof filterQueryString !== 'undefined') {
-    JQ = JQ.where(filterQueryString);
+    JQ = JQ.where(filterQueryString);    
   } 
   //Sort if sortKey is given 
   if (typeof sortKey !== 'undefined'){
