@@ -19,6 +19,24 @@ var sortOptions = new Object();
 $(document).ready(function(){
   //template: '#indikator-template-carousel', 
 
+  var fjsConfig = {      
+    template: undefined,
+    search: { ele: '#searchbox' },
+    callbacks: {
+          afterFilter: afterFilter, 
+          shortResult: sortResult
+    },    
+    pagination: {
+      container: '#pagination',
+      visiblePages: 5,
+      perPage: {
+        values: [16, 30, 100],
+        container: '#per_page'
+      },
+    }
+  };
+
+
   //Render page differently depending on url query string 'Indikatorenset'  
   var indikatorenset = $.url('?Indikatorenset'); 
   if (indikatorenset){ 
@@ -27,22 +45,7 @@ $(document).ready(function(){
     prepareIndikatorensetView(indikatorenset);
 
     //define filter.js configuration 
-    var fjsConfig = {      
-      template: '#indikator-template-carousel-indikatorenset',
-      search: { ele: '#searchbox' },
-      callbacks: {
-            afterFilter: afterFilter, 
-            shortResult: sortResult
-      },    
-      pagination: {
-        container: '#pagination',
-        visiblePages: 5,
-        perPage: {
-          values: [16, 30, 100],
-          container: '#per_page'
-        },
-      }
-    };
+    fjsConfig['template'] = '#indikator-template-carousel-indikatorenset';
 
     var FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
     FJS.addCriteria({field: "kennzahlenset", ele: "#kennzahlenset_filter", all: "all"});
@@ -54,22 +57,7 @@ $(document).ready(function(){
     sortOptions = {'kuerzel': 'asc'};
     preparePortalView();    
     //define filter.js configuration 
-    var fjsConfig = {      
-      template: '#indikator-template-carousel-portal',
-      search: { ele: '#searchbox' },
-      callbacks: {
-            afterFilter: afterFilter, 
-            shortResult: sortResult
-      },    
-      pagination: {
-        container: '#pagination',
-        visiblePages: 5,
-        perPage: {
-          values: [16, 30, 100],
-          container: '#per_page'
-        },
-      }
-    };
+    fjsConfig['template'] = '#indikator-template-carousel-portal';
 
     var FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
     FJS.addCriteria({field: "thema", ele: "#thema_criteria input:radio", all: "Alle"});
