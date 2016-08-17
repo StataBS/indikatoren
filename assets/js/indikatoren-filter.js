@@ -14,6 +14,7 @@
 
 //holds config of each chart
 var chartOptions = new Object();
+var sortOptions = new Object();
 
 $(document).ready(function(){
   //template: '#indikator-template-carousel', 
@@ -21,6 +22,8 @@ $(document).ready(function(){
   //Render page differently depending on url query string 'Indikatorenset'  
   var indikatorenset = $.url('?Indikatorenset'); 
   if (indikatorenset){ 
+    //Indikatorenset View
+    sortOptions = {'kuerzelKunde': 'asc'};
     prepareIndikatorensetView(indikatorenset);
 
     //define filter.js configuration 
@@ -47,8 +50,9 @@ $(document).ready(function(){
     FJS.addCriteria({field: "stufe2", ele: "#stufe2_filter", all: "all"});
   }  
   else {
-    preparePortalView();
-
+    //Portal view
+    sortOptions = {'kuerzel': 'asc'};
+    preparePortalView();    
     //define filter.js configuration 
     var fjsConfig = {      
       template: '#indikator-template-carousel-portal',
@@ -74,8 +78,7 @@ $(document).ready(function(){
     FJS.addCriteria({field: "unterthema", ele: "#unterthema_filter", all: "all"});  
   }  
 
-  //implement default sorting, add event listener, and implement sortResult function
-  var sortOptions = {'kuerzel': 'asc'};
+  //implement default sorting, add event listener, and implement sortResult function  
   $("#sortBy").on('change', function(e){
     sortOptions = getSortOptions($(this).val());
     FJS.filter();
@@ -113,7 +116,11 @@ function getSortOptions(name){
     case 'kuerzel_asc': 
       return {'kuerzel': 'asc'};
     case 'kuerzel_desc': 
-      return {'kuerzel': 'desc'};         
+      return {'kuerzel': 'desc'};  
+    case 'kuerzelkunde_asc':
+      return {'kuerzelKunde': 'asc'};
+    case 'kuerzelkunde_desc':
+      return {'kuerzelKunde': 'desc'};
     default : 
       return {'kuerzel': 'asc'};     
   }
