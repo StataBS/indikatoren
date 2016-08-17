@@ -16,28 +16,31 @@
 var chartOptions = new Object();
 
 $(document).ready(function(){
-  //define filter.js configuration 
-  var fjsConfig = {
-    template: '#indikator-template-carousel',    
-    search: { ele: '#searchbox' },
-    callbacks: {
-          afterFilter: afterFilter, 
-          shortResult: sortResult
-    },    
-    pagination: {
-      container: '#pagination',
-      visiblePages: 5,
-      perPage: {
-        values: [16, 30, 100],
-        container: '#per_page'
-      },
-    }
-  };
+  //template: '#indikator-template-carousel', 
 
   //Render page differently depending on url query string 'Indikatorenset'  
   var indikatorenset = $.url('?Indikatorenset'); 
   if (indikatorenset){ 
     prepareIndikatorensetView(indikatorenset);
+
+    //define filter.js configuration 
+    var fjsConfig = {      
+      template: '#indikator-template-carousel-indikatorenset',
+      search: { ele: '#searchbox' },
+      callbacks: {
+            afterFilter: afterFilter, 
+            shortResult: sortResult
+      },    
+      pagination: {
+        container: '#pagination',
+        visiblePages: 5,
+        perPage: {
+          values: [16, 30, 100],
+          container: '#per_page'
+        },
+      }
+    };
+
     var FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
     FJS.addCriteria({field: "kennzahlenset", ele: "#kennzahlenset_filter", all: "all"});
     FJS.addCriteria({field: "stufe1", ele: "#stufe1_filter", all: "all"});
@@ -45,6 +48,25 @@ $(document).ready(function(){
   }  
   else {
     preparePortalView();
+
+    //define filter.js configuration 
+    var fjsConfig = {      
+      template: '#indikator-template-carousel-portal',
+      search: { ele: '#searchbox' },
+      callbacks: {
+            afterFilter: afterFilter, 
+            shortResult: sortResult
+      },    
+      pagination: {
+        container: '#pagination',
+        visiblePages: 5,
+        perPage: {
+          values: [16, 30, 100],
+          container: '#per_page'
+        },
+      }
+    };
+
     var FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
     FJS.addCriteria({field: "thema", ele: "#thema_criteria input:radio", all: "Alle"});
     FJS.addCriteria({field: "schlagwort", ele: "#schlagwort_filter", all: "all"});
