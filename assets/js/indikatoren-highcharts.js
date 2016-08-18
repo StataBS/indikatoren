@@ -1,7 +1,7 @@
 "use strict";
 
 //load global options, template, chartOptions from external scripts, load csv data from external file, and render chart to designated div
-function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, chartId){   
+function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel){   
   //load scripts one after the other, then load csv and draw the chart
   $.when(        
       /*
@@ -18,7 +18,7 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, chartId){
   ).done(function(){
       //load csv and draw chart      
       $.get(csvUrl, function(data){
-        drawChart(data, chartOptions[chartId])
+        drawChart(data, chartOptions[kuerzel])
       });
   });
   
@@ -40,24 +40,46 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, chartId){
 
 
   //merge series with all options and draw chart
-  var drawChart = function(data, chartOptions){            
-      parseData(function (dataOptions) {
-        // Merge series configs
-        if (chartOptions.series && dataOptions) {
-            Highcharts.each(chartOptions.series, function (series, i) {
-              chartOptions.series[i] = Highcharts.merge(series, dataOptions.series[i]);
-            });
-        }
-        var options = Highcharts.merge(true, dataOptions, template, chartOptions);
-        var chart = new Highcharts['Chart'](options);
-      }, chartOptions, data);      
-  };          
+  function drawChart(data, chartOptions){                
+
+    parseData(function (dataOptions) {
+      // Merge series configs
+      if (chartOptions.series && dataOptions) {
+          Highcharts.each(chartOptions.series, function (series, i) {
+            chartOptions.series[i] = Highcharts.merge(series, dataOptions.series[i]);
+          });
+      }
+      //merge all highcharts configs
+      var options = Highcharts.merge(true, dataOptions, template, chartOptions);
+      //inject metadata to highcharts options
+      injectMetadataToChartConfig(options, findChartByKuerzel(indikatoren, kuerzel));
+      //draw chart
+      var chart = new Highcharts['Chart'](options);
+    }, chartOptions, data);      
+  };
+
+
+  //Add data from database to chart config
+  function injectMetadataToChartConfig(options, data){
+    options['title']['text'] = data.title;
+    options['chart']['renderTo'] = 'container-' + data.kuerzel;
+    options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join('; ');
+  };
+};
+
+
+//todo: imporve speed so that not all data items are traversed
+function findChartByKuerzel(data, kuerzel){
+  var matchingCharts = $.map(data, function(val) {
+    return val.kuerzel == kuerzel ? val : null;
+  });
+  return matchingCharts[0];
 };
 
 
 //construct urls by chart kuerzel and render to designated div
 function renderChartByKuerzel(kuerzel){
-  var container = $(escapeCssChars('#container-'+kuerzel));
+  var container = $(escapeCssChars('#container-' + kuerzel));
   //check if a highcharts-container below the container is already present. 
   //no highcharts container yet: load data and draw chart. 
   if (!container.find('div.highcharts-container').length) {  
@@ -65,13 +87,7 @@ function renderChartByKuerzel(kuerzel){
     var chartUrl = 'charts/' + kuerzel + '.js';
     var csvUrl = 'data/' + kuerzel + '.csv';    
     //get template for requested chart
-    
-    var chart = indikatoren.filter(function(item, i, ar){
-      if (item.kuerzel === kuerzel) { 
-        return item.template;
-      } 
-    })[0];    
-    var templateUrl = 'charts/' + chart.template + '.js';
+    var templateUrl = 'charts/' + findChartByKuerzel(indikatoren, kuerzel).template + '.js';
         
     renderChart('charts/options001.js', templateUrl, chartUrl, csvUrl, kuerzel);
   }
