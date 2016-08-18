@@ -126,11 +126,11 @@ function preparePortalView(){
   renderMultiselectDropdownFromJson(indikatoren, 'schlagwort', '#schlagwort_filter');    
   renderMultiselectDropdownFromJson(["Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite"], '', '#raeumlicheGliederung_filter');
 
-  //prepare query String object for filtering stufe1 and stufe2
+  //prepare query String object for filtering thema and unterthema
   var baseQuery = new Object();
   //render unterthema dropdown for the first time   
   renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema', baseQuery);
-  
+      
   //configure unterthema to be filtered correctly upon change of thema           
   configureCascadedControls('#thema_criteria', '#unterthema_filter', "#thema_criteria :checked", 'Alle', 'thema', 'unterthema', baseQuery);  
 };
@@ -304,6 +304,10 @@ var afterFilter = function(result, jQ){
     updateCounts(result, jQ, '#schlagwort_filter > option', 'schlagwort', optionCountRenderFunction);
     updateCounts(result, jQ, '#raeumlicheGliederung_filter > option', 'raeumlicheGliederung', optionCountRenderFunction);
 
+    //hide dropdowns if no specific values present, or select the single specific value
+    selectSingleEntryOrHideDropdown('#unterthema_filter');
+    selectSingleEntryOrHideDropdown('#stufe2_filter');
+
     //for multiselect dropdowns: rebuild control after select tag is updated
     $('#schlagwort_filter').multiselect('rebuild');
     $('#raeumlicheGliederung_filter').multiselect('rebuild');
@@ -327,6 +331,27 @@ var afterFilter = function(result, jQ){
             renderFunction(c, count);
           });      
     }
+
+
+    //hide dropdown if no specific entry present, select the  specific entry if it is the only one present  
+    function selectSingleEntryOrHideDropdown(selector){
+      //if only 1 item present besides the 'all' option: select it  
+      var optionsCount = $(selector + " > option").length;
+      if (optionsCount == 1){
+        //no item present besides 'all', hide dropdown      
+        $(selector).addClass('hide');
+      }
+      else {
+        //show dropdown
+        $(selector).removeClass('hide');
+        if (optionsCount == 2) {
+          //select the one existing entry         
+          $(selector).prop('selectedIndex', 1);
+          //$("#unterthema_filter > option:first()").remove();
+        }
+      } 
+    };
+
     
     //create a div that will contain the chart and an indicator dot for each chart in the result. the result contains charts over all pages. 
     //bootstrap carousel combined with modal inspired by https://codepen.io/krnlde/pen/pGijB
