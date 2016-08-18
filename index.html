@@ -234,7 +234,7 @@
         <h1>Lesehilfe</h1>
         <div class='lesehilfe'><%= lesehilfe %>
           <hr/>
-          Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/<%= kennzahlenset.toLowerCase() %>.html' target='_blank'><%= kennzahlenset %></a>.
+          Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/<%= kennzahlenset.toLowerCase().replace(" ", "-") %>.html' target='_blank'><%= kennzahlenset %></a>.
         </div>
       </div>
     </script> 
