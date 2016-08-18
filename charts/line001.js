@@ -1,15 +1,10 @@
 var template = {
 	chart: {		
-        events:{
-            load: function() {
-                this.credits.element.onclick = function() {
-                    window.open(
-                    "http://www.statistik.bs.ch",
-                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
-                    );
-                }
-            }
-        },
+    events:{
+          load: function() {
+              this.credits.element.onclick = function() {}
+          }
+      },
 		"borderColor": "#fbfbfb",
 		"backgroundColor": "#fbfbfb",
 		"zoomType": "xy",
@@ -20,12 +15,6 @@ var template = {
 		  "fontFamily": "Arial"
 		},
 		"type": "line"    
-	},
-	navigation: {
-		menuItemStyle: {
-			fontFamily: Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
-			padding: '2px 10px'
-		}
 	},
   "title": {
     "style": {
@@ -70,21 +59,13 @@ var template = {
     },
     tickLength: 0
   },
-  "exporting": {
-	    "sourceWidth": null,
-	    "scale": 5,
-	    buttons: {
-	      contextButton: {
-	        menuItems: Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8)
-	      }
-	    }
-  },
   "credits": {
     "href": "http://www.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
-      "fontSize": 10
+      "fontSize": 10,
+      "cursor": "default"
     },
     "position": {
       "align": "left",

@@ -1,10 +1,4 @@
 chartOptions['I.01.1.0023'] = {
-  "chart": {
-    "renderTo": "container-I.01.1.0023"
-  },
-  "title": {
-    "text": "Indikator 1.1.a: Bevölkerung am Jahresende",
-  },
   "yAxis": {
     "min": 0,
     "labels": {
@@ -14,9 +8,6 @@ chartOptions['I.01.1.0023'] = {
   "xAxis": {
       "tickInterval": 1
   },
-  "credits": {
-    "text": "Quelle: Kantonale Bevölkerungsstatisstik;<br/>Statistisches Amt des Kantons Basel-Stadt",
-  },  
   "series": [
     {
       "marker": {
