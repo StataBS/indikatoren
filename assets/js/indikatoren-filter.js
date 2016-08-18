@@ -11,6 +11,7 @@
  *  jQuery(v1.9 >=)
  */
 
+"use strict";
 
 //holds config of each chart
 var chartOptions = new Object();
@@ -279,7 +280,7 @@ function getIndexByFid(fid){
   //source: http://stackoverflow.com/questions/15997879/get-the-index-of-the-object-inside-an-array-matching-a-condition
   try{
     var results = (window.FJS.search_text.length > FJS.opts.search.start_length) ? window.FJS.search_result : window.FJS.last_result;
-    indexes = $.map(results, function(obj, index) {
+    var indexes = $.map(results, function(obj, index) {
       if(obj._fid == fid) {
           return index;
       }
