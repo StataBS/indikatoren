@@ -8,6 +8,7 @@ var template = {
         "style": {
             "fontFamily": "Arial"
         },
+        "zoomType": "xy",
         events:{
                 load: function() {
                     this.credits.element.onclick = function() {}
