@@ -1,13 +1,15 @@
 var template = {
     "chart": {		
         events:{
-            load: function() {
+            load: function() {                
                 this.credits.element.onclick = function() {
+                    /*
                     window.open(
                     "http://www.statistik.bs.ch",
                     '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
                     );
-                }
+                    */
+                };
             }
         },
         "borderColor": "#fbfbfb",
@@ -101,7 +103,8 @@ var template = {
         "enabled": true,
         "style": {
             "color": "#000000",
-            "fontSize": 10
+            "fontSize": 10,
+            "cursor": "default"
         },
         "position": {
             "align": "left",
