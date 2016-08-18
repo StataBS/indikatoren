@@ -20,18 +20,9 @@
       "color": "#007a2f",
       "index": 4
     }
-  ],
-  "title": {
-    "text": "Indikator 4.2.a: Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte Menschen?"
-  },
-  "chart": {
-    "renderTo": "container-I.50.1.0009"
-  },
+  ],  
   "xAxis": {
     "type": "category"
-  },
-  "credits": {
-    "text": "Quelle: Kantonale Befragung 55plus;<br/>Statistisches Amt des Kantons Basel-Stadt"
-  }  
+  }    
 };
  

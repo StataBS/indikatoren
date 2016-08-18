@@ -1,10 +1,4 @@
 ﻿chartOptions['I.09.5.0001'] = {
-  "title": {
-    "text": "Indikator 0.1.b-1: Mietpreisentwicklung nach Zimmerzahl"
-  },
-  "chart": {
-    "renderTo": "container-I.09.5.0001"
-  },
   "yAxis": {
     "max": 3000,
     "labels": {
@@ -13,9 +7,6 @@
   },
   "xAxis": {
     "tickInterval": 1
-  },
-  "credits": {
-    "text": "Quelle: Mietpreiserhebung;<br/>Statistisches Amt des Kantons Basel-Stadt",
   },
   "series": [
     {

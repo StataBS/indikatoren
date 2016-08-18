@@ -1,10 +1,4 @@
 ﻿chartOptions["I.09.5.0003"] = {
-  "title": {
-    "text": "Indikator 0.1.b-3: Mietpreisentwicklung der 3-Zimmer-Wohnungen"
-  },
-  "chart": {
-    "renderTo": "container-I.09.5.0003"
-  },
   "yAxis": {
     "labels": {
       "format": "{value:,.0f}",
@@ -13,9 +7,6 @@
   },
   "xAxis": {
     "tickInterval": 1
-  },
-  "credits": {
-    "text": "Quelle: Mietpreiserhebung;<br/>Statistisches Amt des Kantons Basel-Stadt"
   },
   "series": [
     {

@@ -1,13 +1,4 @@
 chartOptions['I.09.1.0010'] = {
-	"chart": {
-		"renderTo": "container-I.09.1.0010"
-	},
-	"title": {
-		"text": "Anteil Einfamilienhäuser"
-	},
-	"credits": {
-		"text": "Quellenangabe: woher kommen die Daten?"
-	},
 	"legend": {
 		"enabled": false
 	},

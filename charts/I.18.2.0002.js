@@ -1,13 +1,4 @@
 chartOptions['I.18.2.0002'] = {
-	"chart": {
-		"renderTo": "container-I.18.2.0002"
-	},
-	"title": {
-		"text": "Vermögenssteuer pro Veranlagung"
-	},
-	"credits": {
-		"text": "Quellenangabe: woher kommen die Daten?"
-	},
 	"legend": {
 		"enabled": false
 	},

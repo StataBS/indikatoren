@@ -1,13 +1,4 @@
 chartOptions['I.13.3.0004'] = {
-	"chart": {
-		"renderTo": "container-I.13.3.0004"
-	},
-	"title": {
-		"text": "Sozialhilfequote 2015"
-	},
-	"credits": {
-		"text": "Quellenangabe: woher kommen die Daten?"
-	},
 	"legend": {
 		"enabled": false
 	},

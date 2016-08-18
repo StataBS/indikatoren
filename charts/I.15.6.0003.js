@@ -1,13 +1,4 @@
 chartOptions['I.15.6.0003'] = {
-	"chart": {
-		"renderTo": "container-I.15.6.0003"
-	},
-	"title": {
-		"text": "Gymnasialquote"
-	},
-	"credits": {
-		"text": "Quellenangabe: woher kommen die Daten?"
-	},
 	"legend": {
 		"enabled": false
 	},

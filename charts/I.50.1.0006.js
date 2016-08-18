@@ -23,14 +23,5 @@
       "color": "#007a2f",
       "index": 4
     }
-  ],
-  "title": {
-    "text": "Indikator 1.4.c: Wie zufrieden sind Familien mit dem Wohnungsangebot?"
-  },
-  "chart": {
-    "renderTo": "container-I.50.1.0006"
-  },
-  "credits": {
-    "text": "Quelle: Kantonale Bevölkerungsbefragungen;<br/>Statistisches Amt des Kantons Basel-Stadt"
-  }
+  ]
 };

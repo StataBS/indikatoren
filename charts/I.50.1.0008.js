@@ -23,14 +23,5 @@
       "color": "#007a2f",
       "index": 4
     }
-  ],
-  "title": {
-    "text": "Indikator 3.3.a: Wie zufrieden sind Sie mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild?"
-  },
-  "chart": {
-    "renderTo": "container-I.50.1.0008"
-  },
-  "credits": {
-    "text": "Quelle: Kantonale Bevölkerungsbefragungen;<br/>Statistisches Amt des Kantons Basel-Stadt"
-  }
+  ]
 };

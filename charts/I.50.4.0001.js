@@ -20,16 +20,7 @@
       "color": "#007a2f",
       "index": 4
     }
-  ],
-  "title": {
-    "text": "Indikator 4.2.c: Wie zufrieden sind Sie mit der altersangepassten Gestaltung des Wohngebäudes?"
-  },
-  "chart": {
-    "renderTo": "container-I.50.4.0001"
-  },
-  "credits": {
-    "text": "Quelle: Kantonale Befragung 55plus;<br/>Statistisches Amt des Kantons Basel-Stadt"
-  }
+  ]
 };
 
  

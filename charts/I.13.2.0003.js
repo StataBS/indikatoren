@@ -1,10 +1,4 @@
 ﻿chartOptions['I.13.2.0003'] = {
-  "title": {
-    "text": "Indikator 4.1.b: Ausbezahlte Familienmietzinsbeiträge"
-  },
-  "chart": {
-    "renderTo": "container-I.13.2.0003",
-  },
   "yAxis": {
     "min": 0,
     "max": 10000000,
@@ -12,13 +6,9 @@
     "labels": {
       "format": "{value:,.0f}",
     },
-
   },
   "xAxis": {
     "tickInterval": 1
-  },
-  "credits": {
-    "text": "Quelle:  Sozialhilfestatistik des Statistischen Amtes Basel-Stadt",
   },
   "series": [
     {

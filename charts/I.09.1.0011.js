@@ -1,13 +1,4 @@
 chartOptions['I.09.1.0011'] = {
-	"chart": {
-		"renderTo": "container-I.09.1.0011"
-	},
-	"title": {
-		"text": "Fläche pro Wohnung"
-	},
-	"credits": {
-		"text": "Quellenangabe: woher kommen die Daten?"
-	},
 	"legend": {
 		"enabled": false
 	},

@@ -23,14 +23,5 @@
       "color": "#007a2f",
       "index": 4
     }
-  ],
-  "title": {
-    "text": "Indikator 3.2.b: Wie zufrieden sind Sie mit den Grünanlagen und Parks an Ihrem Wohnort?"
-  },
-  "chart": {
-    "renderTo":  "container-I.50.1.0007" 
-  },
-  "credits": {
-    "text": "Quelle: Kantonale Bevölkerungsbefragungen;<br/>Statistisches Amt des Kantons Basel-Stadt"
-  }
+  ]
 };

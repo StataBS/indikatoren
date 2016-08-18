@@ -1,13 +1,4 @@
 chartOptions['I.09.1.0012'] = {
-	"chart": {
-		"renderTo": "container-I.09.1.0012"
-	},
-	"title": {
-		"text": "Wohnfläche pro Kopf"
-	},
-	"credits": {
-		"text": "Quellenangabe: woher kommen die Daten?"
-	},
 	"legend": {
 		"enabled": false
 	},

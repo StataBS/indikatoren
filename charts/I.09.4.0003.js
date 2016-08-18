@@ -1,27 +1,4 @@
 ﻿chartOptions["I.09.4.0003"] = {
-  "title": {
-    "text": "Indikator 0.1.b-2: Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl"
-  },
-  "chart": {
-    "renderTo": "container-I.09.4.0003"
-  },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "enabled": true,
-        "allowOverlap": true,
-        "verticalAlign": "top",
-          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
-          formatter: function() {
-            var last  = this.series.data[this.series.data.length - 1];
-            if (this.point.category === last.category  &&  this.point.y === last.y ) {
-              return this.series.name;
-            }
-            return "";
-          }
-      }
-    }
-  },
   "yAxis": {
     "max": 3000,
     "labels": {
@@ -30,9 +7,6 @@
   },
   "xAxis": {
     "tickInterval": 1
-  },
-  "credits": {
-    "text": "Quelle: Leerstandserhebung;<br/>Statistisches Amt des Kantons Basel-Stadt",
   },
   "tooltip": {
     "shared": false
@@ -85,11 +59,11 @@
         "enabled": true,
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
           formatter: function() {
-		    var last  = this.series.data[this.series.data.length - 1];
-		    if (this.point.category === last.category  &&  this.point.y === last.y ) {
-			  return this.series.name;
-			}
-			return "";
+            var last  = this.series.data[this.series.data.length - 1];
+            if (this.point.category === last.category  &&  this.point.y === last.y ) {
+              return this.series.name;
+            }
+            return "";
           }
       }
     }
