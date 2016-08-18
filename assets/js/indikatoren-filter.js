@@ -14,11 +14,15 @@
 
 //holds config of each chart
 var chartOptions = new Object();
+var sortOptions = new Object();
+//Indikatorenset or Portal view
+var indikatorensetView = false;
 
 $(document).ready(function(){
-  //define filter.js configuration 
-  var fjsConfig = {
-    template: '#indikator-template-carousel',    
+  //template: '#indikator-template-carousel', 
+
+  var fjsConfig = {      
+    template: undefined,
     search: { ele: '#searchbox' },
     callbacks: {
           afterFilter: afterFilter, 
@@ -34,26 +38,39 @@ $(document).ready(function(){
     }
   };
 
-  //Render page differently depending on url query string 'Indikatorenset'  
-  var indikatorenset = $.url('?Indikatorenset'); 
-  if (indikatorenset){ 
+
+  //Render page differently depending on url query string 'Indikatorenset'
+  var indikatorenset = $.url('?Indikatorenset');
+  indikatorensetView = indikatorenset ? true : false; 
+  if (indikatorensetView){ 
+    //Indikatorenset View
+    sortOptions = {'kuerzelKunde': 'asc'};
     prepareIndikatorensetView(indikatorenset);
+
+    //define filter.js configuration 
+    fjsConfig['template'] = '#indikator-template-carousel-indikatorenset';
+
     var FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
     FJS.addCriteria({field: "kennzahlenset", ele: "#kennzahlenset_filter", all: "all"});
     FJS.addCriteria({field: "stufe1", ele: "#stufe1_filter", all: "all"});
     FJS.addCriteria({field: "stufe2", ele: "#stufe2_filter", all: "all"});
   }  
   else {
-    preparePortalView();
+    //Portal view
+    sortOptions = {'kuerzel': 'asc'};
+    preparePortalView();    
+    //define filter.js configuration 
+    fjsConfig['template'] = '#indikator-template-carousel-portal';
+
     var FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
     FJS.addCriteria({field: "thema", ele: "#thema_criteria input:radio", all: "Alle"});
     FJS.addCriteria({field: "unterthema", ele: "#unterthema_filter", all: "all"});
     FJS.addCriteria({field: "schlagwort", ele: "#schlagwort_filter", all: "all"});
-    FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});  
+    FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});
+    FJS.addCriteria({field: "unterthema", ele: "#unterthema_filter", all: "all"});  
   }  
 
-  //implement default sorting, add event listener, and implement sortResult function
-  var sortOptions = {'kuerzel': 'asc'};
+  //implement default sorting, add event listener, and implement sortResult function  
   $("#sortBy").on('change', function(e){
     sortOptions = getSortOptions($(this).val());
     FJS.filter();
@@ -82,7 +99,7 @@ $(document).ready(function(){
       var targetKuerzel = $(e.relatedTarget).children().first().attr('indikator-kuerzel-data');
       renderChartByKuerzel(targetKuerzel);
   });
-  });//$(document).ready(function()
+});
 
 
 //interpret sort configuration received from dropdown
@@ -91,7 +108,11 @@ function getSortOptions(name){
     case 'kuerzel_asc': 
       return {'kuerzel': 'asc'};
     case 'kuerzel_desc': 
-      return {'kuerzel': 'desc'};         
+      return {'kuerzel': 'desc'};  
+    case 'kuerzelkunde_asc':
+      return {'kuerzelKunde': 'asc'};
+    case 'kuerzelkunde_desc':
+      return {'kuerzelKunde': 'desc'};
     default : 
       return {'kuerzel': 'asc'};     
   }
@@ -104,7 +125,14 @@ function preparePortalView(){
   renderThema();
   renderMultiselectDropdownFromJson(indikatoren, 'schlagwort', '#schlagwort_filter');    
   renderMultiselectDropdownFromJson(["Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite"], '', '#raeumlicheGliederung_filter');
-  renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema');   
+
+  //prepare query String object for filtering stufe1 and stufe2
+  var baseQuery = new Object();
+  //render unterthema dropdown for the first time   
+  renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema', baseQuery);
+  
+  //configure unterthema to be filtered correctly upon change of thema           
+  configureCascadedControls('#thema_criteria', '#unterthema_filter', "#thema_criteria :checked", 'Alle', 'thema', 'unterthema', baseQuery);  
 };
 
 
@@ -121,25 +149,32 @@ function prepareIndikatorensetView(indikatorenset){
   $('#kennzahlenset_filter').val(indikatorenset);  
   
   //prepare query String object for filtering stufe1 and stufe2
-  var baseQueryString = new Object();
-  baseQueryString['kennzahlenset'] = indikatorenset;              
+  var baseQuery = new Object();
+  baseQuery['kennzahlenset'] = indikatorenset;              
 
-  renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'stufe1', baseQueryString);
-  renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'stufe2', baseQueryString);
+  renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'stufe1', baseQuery);
+  renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'stufe2', baseQuery);
 
   //add cascaded dropdowns functionality to stufe1 and stufe2
-  $('#stufe1_filter').change(function(){
-    //remove selection on 2nd level dropdown upon change in first level dropdown
-    $('#stufe2_filter :nth-child(1)').prop('selected', true);
-    $('#stufe2_filter').change();
-    //filter stufe2 to include only values that occur together with selected stufe1 value
-    //deep copy baseQueryString object
-    var stufe2QueryString = $.extend(true, {}, baseQueryString); 
-    if ($('#stufe1_filter').val() != 'all') {
-      stufe2QueryString['stufe1'] = $('#stufe1_filter').val();
+  configureCascadedControls('#stufe1_filter', '#stufe2_filter', '#stufe1_filter', 'all', 'stufe1', 'stufe2',baseQuery); 
+};
+
+
+function configureCascadedControls(level1selector, level2selector, level1ValueSelector, level1AllValue, level1field, level2Field, baseQuery){
+  //add cascaded dropdowns functionality to level1 and level2
+  $(level1selector).change(function(){
+    //remove selection on 2nd level dropdown upon change in first level dropdown (set to first = all)
+    $(level2selector + ' :nth-child(1)').prop('selected', true);
+    $(level2selector).change();
+    //filter 2nd level to include only values that occur together with selected 1st level value
+    //deep copy baseQuery object
+    var level2QueryString = $.extend(true, {}, baseQuery); 
+    var selectedValue = $(level1ValueSelector).val();
+    if (selectedValue !== level1AllValue) {
+      level2QueryString[level1field] = selectedValue;
     }
-    renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'stufe2', stufe2QueryString);
-  });  
+    renderDropdownFromJson(indikatoren, level2Field, level2selector, level2Field, level2QueryString);
+  })
 };
 
 
@@ -164,7 +199,7 @@ function renderDropdownFromJson(data, field, selector, sortKey, filterQueryStrin
   var JQ = JsonQuery(data);
   //If filterQueryString is given: filter data before rendering dropdowns
   if (typeof filterQueryString !== 'undefined') {
-    JQ = JQ.where(filterQueryString);
+    JQ = JQ.where(filterQueryString);    
   } 
   //Sort if sortKey is given 
   if (typeof sortKey !== 'undefined'){
@@ -238,12 +273,13 @@ function configureMultiselect(selector){
 };
 
 
-//find index of a given _fid in the FJS.last_result array. 
+//find index of a given _fid in the results array. if full-text search is used (search_text has some minimum length), FJS uses a different results array than if not. 
 //this is necessary for carousel since links to charts in the carousel contain the array index which changes upon paging. 
 function getIndexByFid(fid){
   //source: http://stackoverflow.com/questions/15997879/get-the-index-of-the-object-inside-an-array-matching-a-condition
   try{
-    indexes = $.map(window.FJS.last_result, function(obj, index) {
+    var results = (window.FJS.search_text.length > FJS.opts.search.start_length) ? window.FJS.search_result : window.FJS.last_result;
+    indexes = $.map(results, function(obj, index) {
       if(obj._fid == fid) {
           return index;
       }
@@ -297,7 +333,8 @@ var afterFilter = function(result, jQ){
     function createCarousel(result){            
       //add a carousel-inner div for each thumbnail
       //build template function using template from DOM
-      var html = $('#indikator-template-modal').html();
+      var template = (indikatorensetView) ? '#indikator-template-modal-indikatorenset' : '#indikator-template-modal-portal';
+      var html = $(template).html();
       var templateFunction = FilterJS.templateBuilder(html);
       var container = $('#carousel-inner');
       //first remove all carousel divs
