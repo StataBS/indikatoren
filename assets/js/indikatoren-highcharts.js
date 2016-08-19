@@ -53,8 +53,8 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel){
       }
       //merge all highcharts configs
       var options = Highcharts.merge(true, dataOptions, template, chartOptions);
-      //inject metadata to highcharts options
-      injectMetadataToChartConfig(options, chartData);
+      //inject metadata to highcharts options - only if indikatorensetView is defined
+      if (indikatorensetView !== undefined) {injectMetadataToChartConfig(options, chartData);}
       //draw chart
       var chart = new Highcharts['Chart'](options);
     }, chartOptions, data);      
