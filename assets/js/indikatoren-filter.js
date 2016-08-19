@@ -303,7 +303,7 @@ var afterFilter = function(result, jQ){
     var checkboxCountRenderFunction = function(c, count){c.next().text(c.val() + ' (' + count + ')')};
     //render new counts after each control
     updateCountsExclusive('#thema_criteria :input:gt(0)', 'thema', checkboxCountRenderFunction);        
-    updateCountsInclusive(result, jQ,'#schlagwort_filter > option', 'schlagwort', optionCountRenderFunction);
+    updateCountsExclusive('#schlagwort_filter > option', 'schlagwort', optionCountRenderFunction);
     updateCountsInclusive(result, jQ,'#raeumlicheGliederung_filter > option', 'raeumlicheGliederung', optionCountRenderFunction);
 
     //hide dropdowns if no specific values present, or select the single specific value
@@ -333,10 +333,16 @@ var afterFilter = function(result, jQ){
               var jsonQ = window.FJS.lastQuery           
               //jsonQ.where().criteria.where[key + '.$in'] = [];              
               var newArray = [c.val()];
+              //console.log(newArray);
+              //save array to restore later
+              var origArray = jsonQ.where().criteria.where[key + '.$in']
+              //console.log(origArray);
               jsonQ.where().criteria.where[key + '.$in'] = newArray;
               //invoke JsonQuery and get length of result
               count = jsonQ.all.length
               //console.log(key + '."' + c.val() + '" (' + count + ')');
+              //restore original array
+              jsonQ.where().criteria.where[key + '.$in'] = origArray;
             }
             catch(e){
               //no filter after first page load, thus no criteria. Silently dismiss exception. 
