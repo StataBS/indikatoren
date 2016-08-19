@@ -1,7 +1,9 @@
 "use strict";
+var indikatorensetView; 
 
 //load global options, template, chartOptions from external scripts, load csv data from external file, and render chart to designated div
-function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel){   
+function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel){
+  var chartData = findChartByKuerzel(indikatoren, kuerzel);   
   //load scripts one after the other, then load csv and draw the chart
   $.when(        
       /*
@@ -52,7 +54,7 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel){
       //merge all highcharts configs
       var options = Highcharts.merge(true, dataOptions, template, chartOptions);
       //inject metadata to highcharts options
-      injectMetadataToChartConfig(options, findChartByKuerzel(indikatoren, kuerzel));
+      injectMetadataToChartConfig(options, chartData);
       //draw chart
       var chart = new Highcharts['Chart'](options);
     }, chartOptions, data);      
@@ -61,7 +63,7 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel){
 
   //Add data from database to chart config
   function injectMetadataToChartConfig(options, data){
-    options['title']['text'] = data.title;
+    options['title']['text'] = (indikatorensetView) ? data.kuerzelKunde + ' ' + data.title : data.kuerzel + ' ' + data.title;
     options['chart']['renderTo'] = 'container-' + data.kuerzel;
     options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join('; ');
   };
@@ -87,7 +89,8 @@ function renderChartByKuerzel(kuerzel){
     var chartUrl = 'charts/' + kuerzel + '.js';
     var csvUrl = 'data/' + kuerzel + '.csv';    
     //get template for requested chart
-    var templateUrl = 'charts/' + findChartByKuerzel(indikatoren, kuerzel).template + '.js';
+    var chartData = findChartByKuerzel(indikatoren, kuerzel); 
+    var templateUrl = 'charts/' + chartData.template + '.js';
         
     renderChart('charts/options001.js', templateUrl, chartUrl, csvUrl, kuerzel);
   }
