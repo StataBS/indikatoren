@@ -32,16 +32,14 @@
     "verticalAlign": "middle",
     "align": "right"
   },
-  "series": [
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "index": 0,
-      "color": "#008AC3"
-    }
-  ],
+  "series": [{
+    "marker": {
+      "symbol": "circle",
+      "enabled": true
+    },
+    "index": 0,
+    "color": "#008AC3"
+  }],
   "tooltip": {
     "shared": false
   },

@@ -1,16 +1,4 @@
 chartOptions['I.03.2.0002'] = {
-	"chart": {
-		"renderTo": "container-I.03.2.0002"
-	},
-	"title": {
-		"text": "Arbeitsplätze pro Kopf"
-	},
-	"credits": {
-		"text": "Quellenangabe: woher kommen die Daten?"
-	},
-	"legend": {
-		"enabled": false
-	},
 	"series": [{
 		"color": "#689199"
 	}],

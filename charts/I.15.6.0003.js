@@ -1,7 +1,4 @@
 chartOptions['I.15.6.0003'] = {
-	"legend": {
-		"enabled": false
-	},
 	"series": [{
 		"color": "#923F8D"
 	}]

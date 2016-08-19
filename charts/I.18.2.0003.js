@@ -1,7 +1,4 @@
 chartOptions['I.18.2.0003'] = {
-	"legend": {
-		"enabled": false
-	},
 	"series": [{
 		"color": "#689199"
 	}],

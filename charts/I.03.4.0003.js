@@ -1,16 +1,4 @@
 chartOptions['I.03.4.0003'] = {
-	"chart": {
-		"renderTo": "container-I.03.4.0003"
-	},
-	"title": {
-		"text": "Arbeitslosenquote"
-	},
-	"credits": {
-		"text": "Quellenangabe: woher kommen die Daten?"
-	},
-	"legend": {
-		"enabled": false
-	},
 	"series": [{
 		"color": "#689199"
 	}]

@@ -1,10 +1,4 @@
 ﻿chartOptions['I.01.1.0025'] = {
-  "title": {
-    "text": "Indikator 2.2.a: Anzahl Personen mit Hauptwohnsitz im Kanton Basel-Stadt",
-  },
-  "chart": {
-    "renderTo": "container-I.01.1.0025",
-  },
   "yAxis": {
     "min": 150000,
     "max": 175000,
@@ -15,9 +9,6 @@
   },
   "xAxis": {
     "tickInterval": 1
-  },
-  "credits": {
-    "text": "Quelle:  Statistik der Bevölkerung und Haushalte (STATPOP);<br/>Bundesamt für Statistik.",
   },
   "series": [
     {

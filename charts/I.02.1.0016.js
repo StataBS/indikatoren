@@ -1,16 +1,4 @@
 chartOptions['I.02.1.0016'] = {
-	"chart": {
-		"renderTo": "container-I.02.1.0016"
-	},
-	"title": {
-		"text": "Anteil Grünflächen"
-	},
-	"credits": {
-		"text": "Quellenangabe: woher kommen die Daten?"
-	},
-	"legend": {
-		"enabled": false
-	},
 	"series": [{
 		"color": "#68AB2B"
 	}]

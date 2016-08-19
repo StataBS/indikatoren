@@ -37,8 +37,7 @@
       }
     },
     "min": 0,
-"max": 5,
-
+    "max": 5,
     "opposite": true
   }
   ],

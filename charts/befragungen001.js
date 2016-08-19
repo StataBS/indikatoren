@@ -22,7 +22,7 @@ var template = {
         },
         "zoomType": "y",
         "type": "column"
-    },
+    },    
     "title": {
         "style": {
         "fontSize": 14,
@@ -75,6 +75,8 @@ var template = {
         }
     },
     "xAxis": {    
+        "type": "category",
+        "tickColor": "#FFFFFF",
         "title": {
             "style": {
             "color": "#000000"
@@ -84,9 +86,7 @@ var template = {
             "style": {
             "color": "#000000"
             }
-        },
-        "tickColor": "#FFFFFF",
-        "type": "category"        
+        }                
     },
     tooltip: {
         pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>',
