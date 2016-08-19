@@ -7,9 +7,8 @@
     }
   },
   "yAxis": [{
-    "min": 0
-,
- "max": 160,
+    "min": 0,
+    "max": 160,
     "tickInterval": 40,
     "title": {
       "style": {
@@ -27,7 +26,7 @@
   },
   {
     "min": 0,
- "max": 100,
+    "max": 100,
     "tickInterval": 25,
     "title": {
       "style": {
@@ -43,8 +42,7 @@
       }
     },
     "opposite": true
-  }
-  ],
+  }],
   "xAxis": {
     "tickInterval": 1
   },
@@ -82,6 +80,7 @@
   "chart": {
     "marginBottom": 65,
     "marginTop": 100,
-    "type": "line"
+    "type": "line",
+    "alignTicks": false,
   }
 };
