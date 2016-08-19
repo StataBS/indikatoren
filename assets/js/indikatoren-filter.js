@@ -100,7 +100,7 @@ $(document).ready(function(){
       var targetKuerzel = $(e.relatedTarget).children().first().attr('indikator-kuerzel-data');
       renderChartByKuerzel(targetKuerzel);
   });
-});
+});//$(document).ready()
 
 
 //interpret sort configuration received from dropdown
@@ -302,9 +302,9 @@ var afterFilter = function(result, jQ){
     var optionCountRenderFunction = function(c, count){c.text(c.val() + ' (' + count + ')') };
     var checkboxCountRenderFunction = function(c, count){c.next().text(c.val() + ' (' + count + ')')};
     //render new counts after each control
-    updateCounts(result, jQ, '#thema_criteria :input:gt(0)', 'thema', checkboxCountRenderFunction);        
-    updateCounts(result, jQ, '#schlagwort_filter > option', 'schlagwort', optionCountRenderFunction);
-    updateCounts(result, jQ, '#raeumlicheGliederung_filter > option', 'raeumlicheGliederung', optionCountRenderFunction);
+    updateCountsExclusive('#thema_criteria :input:gt(0)', 'thema', checkboxCountRenderFunction);        
+    updateCountsInclusive(result, jQ,'#schlagwort_filter > option', 'schlagwort', optionCountRenderFunction);
+    updateCountsInclusive(result, jQ,'#raeumlicheGliederung_filter > option', 'raeumlicheGliederung', optionCountRenderFunction);
 
     //hide dropdowns if no specific values present, or select the single specific value
     selectSingleEntryOrHideDropdown('#unterthema_filter');
@@ -319,11 +319,42 @@ var afterFilter = function(result, jQ){
 
     createCarousel(result);
     
+
+    //add Counts in brackets after each option
+    //calculate number of results that would be found if only the current value was selected (i.e. exclusive any filtercriteria of the current control)
+    function updateCountsExclusive(selector, key, renderFunction){
+          var items  = $(selector);
+          //iterate over each displayed value of the criterion 
+          items.each(function(){            
+            var c = $(this), count = 0;           
+            //get last Query JsonQuery Object of last filter event (full text search not implemented yet! todo: implement)
+            //remove the current filter value from it
+            try{
+              var jsonQ = window.FJS.lastQuery           
+              //jsonQ.where().criteria.where[key + '.$in'] = [];              
+              var newArray = [c.val()];
+              jsonQ.where().criteria.where[key + '.$in'] = newArray;
+              //invoke JsonQuery and get length of result
+              count = jsonQ.all.length
+              //console.log(key + '."' + c.val() + '" (' + count + ')');
+            }
+            catch(e){
+              //no filter after first page load, thus no criteria. Silently dismiss exception. 
+              //console.log(e);
+            }
+            //render text using the appropriate function
+            renderFunction(c, count);
+          });      
+    }
+
+
     //Add Counts in brackets after each option
-    function updateCounts(result, jQ, selector, key, renderFunction){
-          var checkboxes  = $(selector);
-          checkboxes.each(function(){            
-            var c = $(this), count = 0
+    //calculate number of results that would be found if current value was _additionally_ filtered by (i.e. inclusive any filtercriteria of the current control)
+    function updateCountsInclusive(result, jQ, selector, key, renderFunction){
+          var items  = $(selector);
+          //iterate over each displayed value of the criterion 
+          items.each(function(){            
+            var c = $(this), count = 0;
             if(result.length > 0){
               var queryString = new Object();
               queryString[key] = c.val();              
@@ -408,5 +439,5 @@ var afterFilter = function(result, jQ){
     });
   
     };
-};
+};//afterFilter
 
