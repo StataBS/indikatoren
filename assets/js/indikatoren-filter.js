@@ -246,8 +246,10 @@ function renderMultiselectDropdownFromJson(data, field, selector){
 
 //convert a normal html select given via its css selector to a multiselect dropdown
 function configureMultiselect(selector){
+  var control = $(selector);
   //configure multiselect
-  $(selector).multiselect({
+  control.multiselect({
+      maxHeight: 200,
       buttonWidth: '100%', 
       inheritClass: true, 
       includeSelectAllOption: true, 
@@ -260,7 +262,6 @@ function configureMultiselect(selector){
       nSelectedText: 'ausgewählt'
     }
     /*
-      maxHeight: 400,
       dropUp: true,
       checkboxName: function(option) {
           return 'multiselect_test';
@@ -269,8 +270,8 @@ function configureMultiselect(selector){
     */
   );
   //check all boxes
-  $(selector).multiselect('selectAll', false);
-  $(selector).multiselect('updateButtonText');
+  control.multiselect('selectAll', false);
+  control.multiselect('updateButtonText');
 };
 
 
