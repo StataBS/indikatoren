@@ -258,11 +258,13 @@ function configureMultiselect(selector){
       enableCaseInsensitiveFiltering: true,
       filterPlaceholder: 'Suche...', 
       nonSelectedText: 'Keines ausgewählt', 
-      allSelectedText: 'Alle ausgewählt', 
-      nSelectedText: 'ausgewählt'
+      allSelectedText: false, 
+      nSelectedText: 'ausgewählt',
+      numberDisplayed: 2
     }
     /*
       dropUp: true,
+      allSelectedText: 'Alle ausgewählt',
       checkboxName: function(option) {
           return 'multiselect_test';
       }
