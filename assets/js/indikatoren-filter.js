@@ -304,9 +304,9 @@ var afterFilter = function(result, jQ){
     var optionCountRenderFunction = function(c, count){c.text(c.val() + ' (' + count + ')') };
     var checkboxCountRenderFunction = function(c, count){c.next().text(c.val() + ' (' + count + ')')};
     //render new counts after each control
-    updateCountsExclusive('#thema_criteria :input:gt(0)', 'thema', checkboxCountRenderFunction);        
-    updateCountsExclusive('#schlagwort_filter > option', 'schlagwort', optionCountRenderFunction);
-    updateCountsExclusive('#raeumlicheGliederung_filter > option', 'raeumlicheGliederung', optionCountRenderFunction);
+    updateCountsExclusive('#thema_criteria :input:gt(0)', 'thema', checkboxCountRenderFunction, result, jQ);        
+    updateCountsExclusive('#schlagwort_filter > option', 'schlagwort', optionCountRenderFunction, result, jQ);
+    updateCountsExclusive('#raeumlicheGliederung_filter > option', 'raeumlicheGliederung', optionCountRenderFunction, result, jQ);
 
     //hide dropdowns if no specific values present, or select the single specific value
     selectSingleEntryOrHideDropdown('#unterthema_filter');
@@ -368,7 +368,7 @@ var afterFilter = function(result, jQ){
 
     //Add Counts in brackets after each option
     //calculate number of results that would be found if current value was _additionally_ filtered by (i.e. inclusive any filtercriteria of the current control)
-    function updateCountsInclusive(result, jQ, selector, key, renderFunction){
+    function updateCountsInclusive(selector, key, renderFunction, result, jQ){
           var items  = $(selector);
           //iterate over each displayed value of the criterion 
           items.each(function(){            
