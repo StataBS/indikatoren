@@ -304,7 +304,7 @@ var afterFilter = function(result, jQ){
     //render new counts after each control
     updateCountsExclusive('#thema_criteria :input:gt(0)', 'thema', checkboxCountRenderFunction);        
     updateCountsExclusive('#schlagwort_filter > option', 'schlagwort', optionCountRenderFunction);
-    updateCountsInclusive(result, jQ,'#raeumlicheGliederung_filter > option', 'raeumlicheGliederung', optionCountRenderFunction);
+    updateCountsExclusive('#raeumlicheGliederung_filter > option', 'raeumlicheGliederung', optionCountRenderFunction);
 
     //hide dropdowns if no specific values present, or select the single specific value
     selectSingleEntryOrHideDropdown('#unterthema_filter');
@@ -327,21 +327,24 @@ var afterFilter = function(result, jQ){
           //iterate over each displayed value of the criterion 
           items.each(function(){            
             var c = $(this), count = 0;           
-            //get last Query JsonQuery Object of last filter event (full text search not implemented yet! todo: implement)
-            //remove the current filter value from it
+            //get last Query JsonQuery Object of last filter event (full text search not implemented yet! todo: implement) and remove the current filter value from it
             try{
-              var jsonQ = window.FJS.lastQuery           
-              //jsonQ.where().criteria.where[key + '.$in'] = [];              
-              var newArray = [c.val()];
-              //console.log(newArray);
+              var jsonQ = window.FJS.lastQuery                         
               //save array to restore later
               var origArray = jsonQ.where().criteria.where[key + '.$in']
-              //console.log(origArray);
+              //add only current item to new criterion array
+              var newArray = [c.val()];
               jsonQ.where().criteria.where[key + '.$in'] = newArray;
+              //if any of the where criteria contains an empty array as filter item: remove the clause to make jsonQuery work
+              $.each(jsonQ.where().criteria.where, function(index, value){
+                if (value === undefined){
+                  //delete empty criterion
+                  delete jsonQ.where().criteria.where[index];
+                }
+              })
               //invoke JsonQuery and get length of result
-              count = jsonQ.all.length
-              //console.log(key + '."' + c.val() + '" (' + count + ')');
-              //restore original array
+              count = jsonQ.count
+              //restore original criterion array
               jsonQ.where().criteria.where[key + '.$in'] = origArray;
             }
             catch(e){
