@@ -324,30 +324,37 @@ var afterFilter = function(result, jQ){
 
     //add Counts in brackets after each option
     //calculate number of results that would be found if only the current value was selected (i.e. exclusive any filtercriteria of the current control)
-    function updateCountsExclusive(selector, key, renderFunction){
+    function updateCountsExclusive(selector, field, renderFunction){
           var items  = $(selector);
           //iterate over each displayed value of the criterion 
           items.each(function(){            
             var c = $(this), count = 0;           
-            //get last Query JsonQuery Object of last filter event (full text search not implemented yet! todo: implement) and remove the current filter value from it
+            //get last Query JsonQuery Object of last filter event and remove the current filter value from it
             try{
-              var jsonQ = window.FJS.lastQuery                         
+              var jsonQ = window.FJS.last_Query                         
               //save array to restore later
-              var origArray = jsonQ.where().criteria.where[key + '.$in']
+              var origArray = jsonQ.where().criteria.where[field + '.$in']
               //add only current item to new criterion array
               var newArray = [c.val()];
-              jsonQ.where().criteria.where[key + '.$in'] = newArray;
+              jsonQ.where().criteria.where[field + '.$in'] = newArray;
               //if any of the where criteria contains an empty array as filter item: remove the clause to make jsonQuery work
               $.each(jsonQ.where().criteria.where, function(index, value){
                 if (value === undefined){
-                  //delete empty criterion
                   delete jsonQ.where().criteria.where[index];
                 }
               })
               //invoke JsonQuery and get length of result
-              count = jsonQ.count
+              count = jsonQ.count;
+              //handle full text search if it is defined in FJS
+              if(window.FJS.has_search){                
+                //only do full text search with minimum number of search characters               
+                if (window.FJS.search_text.length > window.FJS.opts.search.start_length){
+                  var result = window.FJS.search(window.FJS.search_text, jsonQ.all);
+                  count = result.length;
+                }                
+              }                             
               //restore original criterion array
-              jsonQ.where().criteria.where[key + '.$in'] = origArray;
+              jsonQ.where().criteria.where[field + '.$in'] = origArray;
             }
             catch(e){
               //no filter after first page load, thus no criteria. Silently dismiss exception. 

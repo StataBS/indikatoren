@@ -1166,7 +1166,7 @@
 
     this.anyFilterSelected = count > 0;    
     criteria = count ? this.Model.where(query) : this.Model;
-    this.lastQuery = criteria;
+    this.last_Query = criteria;
     this.execCallback('shortResult', criteria);
     this.last_result = criteria.all;
 
