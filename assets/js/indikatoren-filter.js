@@ -258,7 +258,7 @@ function configureMultiselect(selector){
       enableCaseInsensitiveFiltering: true,
       filterPlaceholder: 'Suche...', 
       nonSelectedText: 'Keines ausgewählt', 
-      allSelectedText: false, 
+      allSelectedText: 'Alle ausgewählt',
       nSelectedText: 'ausgewählt',
       numberDisplayed: 2
     }
