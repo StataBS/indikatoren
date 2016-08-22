@@ -19,7 +19,7 @@
 "methodik":"",
 "template":"line001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Bevölkerungsstatistik"]
 },
 {"title":"Einwohner mit Hauptwohnsitz im Kanton Basel-Stadt", 
 "kuerzel":"I.01.1.0025",
@@ -42,7 +42,7 @@
 "methodik":"",
 "template":"line001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Bundesamt für Statistik BFS, STATPOP"]
 },
 {"title":"Anteil Ausländer", 
 "kuerzel":"I.01.1.0038",
@@ -65,7 +65,7 @@
 "methodik":"",
 "template":"dotplot",
 "option":"options001",
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Bevölkerungsstatistik"]
 },
 {"title":"Altersquotient", 
 "kuerzel":"I.01.1.0039",
@@ -88,7 +88,7 @@
 "methodik":"",
 "template":"dotplot",
 "option":"options001",
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Bevölkerungsstatistik"]
 },
 {"title":"Sesshaftigkeit", 
 "kuerzel":"I.01.1.0040",
@@ -111,7 +111,7 @@
 "methodik":"",
 "template":"dotplot",
 "option":"options001",
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Bevölkerungsstatistik"]
 },
 {"title":"Jugendquotient", 
 "kuerzel":"I.01.1.0041",
@@ -134,7 +134,7 @@
 "methodik":"",
 "template":"dotplot",
 "option":"options001",
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Bevölkerungsstatistik"]
 },
 {"title":"Haushalte nach Art des Haushalts", 
 "kuerzel":"I.01.2.0001",
@@ -157,7 +157,7 @@
 "methodik":"",
 "template":"template001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Bevölkerungsstatistik"]
 },
 {"title":"Familienhaushalte nach Art der Zusammensetzung", 
 "kuerzel":"I.01.2.0002",
@@ -180,7 +180,7 @@
 "methodik":"",
 "template":"template001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Bevölkerungsstatistik"]
 },
 {"title":"Anteil Einpersonenhaushalte", 
 "kuerzel":"I.01.2.0003",
@@ -203,7 +203,7 @@
 "methodik":"",
 "template":"dotplot",
 "option":"options001",
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Bevölkerungsstatistik"]
 },
 {"title":"Anteil Konfessionslose", 
 "kuerzel":"I.01.7.0001",
@@ -226,7 +226,7 @@
 "methodik":"",
 "template":"dotplot",
 "option":"options001",
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Bevölkerungsstatistik"]
 },
 {"title":"Freiraumfläche und ihr Anteil an der Gesamtfläche", 
 "kuerzel":"I.02.1.0015",
@@ -249,7 +249,7 @@
 "methodik":"",
 "template":"template001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Geodaten Basel-Stadt"]
 },
 {"title":"Anteil Grünflächen", 
 "kuerzel":"I.02.1.0016",
@@ -364,7 +364,7 @@
 "methodik":"",
 "template":"template001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"]
 },
 {"title":"Wohnungsbestand nach Zimmerzahl", 
 "kuerzel":"I.09.1.0003",
@@ -387,7 +387,7 @@
 "methodik":"",
 "template":"template001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"]
 },
 {"title":"Wohnungsbestand nach Zimerzahl und Wohnflächenkategorie 2014", 
 "kuerzel":"I.09.1.0004",
@@ -410,7 +410,7 @@
 "methodik":"",
 "template":"template001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"]
 },
 {"title":"Umbausaldo nach Art des Umbaus", 
 "kuerzel":"I.09.1.0005",
@@ -433,7 +433,7 @@
 "methodik":"",
 "template":"template001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"]
 },
 {"title":"Wohnfläche pro Person", 
 "kuerzel":"I.09.1.0006",
@@ -456,7 +456,7 @@
 "methodik":"",
 "template":"line001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"]
 },
 {"title":"Genossenschaftswohnungen", 
 "kuerzel":"I.09.1.0007",
@@ -479,7 +479,7 @@
 "methodik":"",
 "template":"template001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"]
 },
 {"title":"Wohnungen mit >4 Zimmern", 
 "kuerzel":"I.09.1.0008",
@@ -502,7 +502,7 @@
 "methodik":"",
 "template":"template001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"]
 },
 {"title":"Baujahr Wohngebäude", 
 "kuerzel":"I.09.1.0009",
@@ -594,7 +594,7 @@
 "methodik":"",
 "template":"dotplot",
 "option":"options001",
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Kantonale Baustatistik"]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Bevölkerungsstatistik","Kantonale Baustatistik"]
 },
 {"title":"Nettowohnungsproduktion", 
 "kuerzel":"I.09.1.0013",
@@ -617,7 +617,7 @@
 "methodik":"",
 "template":"template001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"]
 },
 {"title":"Wohneigentumsquote in Prozent", 
 "kuerzel":"I.09.1.0025",
@@ -640,16 +640,16 @@
 "methodik":"",
 "template":"line001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"]
 },
 {"title":"Anzahl neu erstellte Wohnungen", 
-"kuerzel":"I.09.3.0002",
+"kuerzel":"I.09.1.0026",
 "kuerzelKunde":"1.2.e",
-"image":"images/I.09.3.0002.jpg",
+"image":"images/I.09.1.0026.jpg",
 "description":"Anzahl neu erstellte Wohnungen",
 "id":"4137",
 "thema":"09 Bau- und Wohnungswesen",
-"unterthema":"",
+"unterthema":"Gebäude und Wohnungen",
 "kennzahlenset":"Wohnraumentwicklung",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
@@ -663,7 +663,7 @@
 "methodik":"",
 "template":"template001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"]
 },
 {"title":"Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl", 
 "kuerzel":"I.09.4.0003",
@@ -686,7 +686,7 @@
 "methodik":"",
 "template":"line001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Leerstandserhebung"]
 },
 {"title":"Anzahl Leerwohnungen und Leerwohnungsquote nach Zimmerzahl", 
 "kuerzel":"I.09.4.0004",
@@ -709,7 +709,7 @@
 "methodik":"",
 "template":"template001",
 "option":"options001",
-"quellenangabe":["Kanton"]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Leerstandserhebung"]
 },
 {"title":"Anzahl Leerwohnungen und Leerwohnungsquote nach Wohnflächenkategorie", 
 "kuerzel":"I.09.4.0005",
@@ -732,7 +732,7 @@
 "methodik":"",
 "template":"template001",
 "option":"options001",
-"quellenangabe":["Kanton"]
+"quellenangabe":["kantonale Leerstandserhebung","Bundesamt für Statistik BFS, STATENT"]
 },
 {"title":"Mietpreisentwicklung nach Zimmerzahl", 
 "kuerzel":"I.09.5.0001",
@@ -755,7 +755,7 @@
 "methodik":"",
 "template":"line001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Statistisches Amt des Kantons  Basel-Stadt, kantonale Mietpreiserhebung"]
 },
 {"title":"Mietpreisentwicklung der 3-Zimmer-Wohnungen", 
 "kuerzel":"I.09.5.0003",
@@ -778,7 +778,7 @@
 "methodik":"",
 "template":"line001",
 "option":"options001",
-"quellenangabe":["Kanton BS"]
+"quellenangabe":["Statistisches Amt des Kantons  Basel-Stadt, kantonale Mietpreiserhebung"]
 },
 {"title":"Haushalte mit Familienmietzinsbeiträgen", 
 "kuerzel":"I.13.2.0002",
@@ -801,7 +801,7 @@
 "methodik":"",
 "template":"template001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, Basler Informationssystem Sozialleistungen BISS"]
 },
 {"title":"Ausbezahlte Familienmietzinsbeiträge", 
 "kuerzel":"I.13.2.0003",
@@ -824,7 +824,7 @@
 "methodik":"",
 "template":"line001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, Amt für Sozialbeiträge Basel-Stadt"]
 },
 {"title":"Bestand an Notwohnungen und ihre Belegung", 
 "kuerzel":"I.13.3.0002",
@@ -847,7 +847,7 @@
 "methodik":"",
 "template":"template001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, Sozialhilfe Basel"]
 },
 {"title":"Anteil Sozialhilfeempfänger", 
 "kuerzel":"I.13.3.0004",
@@ -893,7 +893,7 @@
 "methodik":"",
 "template":"dotplot",
 "option":"options001",
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bildungsstatistik"]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, Bildungsstatistik"]
 },
 {"title":"Saldo des Steuerertrages zwischen Zu- und Wegzügern", 
 "kuerzel":"I.18.2.0001",
@@ -916,7 +916,7 @@
 "methodik":"",
 "template":"template001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Steuerstatistik"]
 },
 {"title":"Vermögenssteuer pro Veranlagung", 
 "kuerzel":"I.18.2.0002",
@@ -939,7 +939,7 @@
 "methodik":"",
 "template":"dotplot",
 "option":"options001",
-"quellenangabe":["Kanton BS"]
+"quellenangabe":["kantonale Leerstandserhebung"]
 },
 {"title":"Einkommenssteuer pro Veranlagung", 
 "kuerzel":"I.18.2.0003",
@@ -962,7 +962,7 @@
 "methodik":"",
 "template":"dotplot",
 "option":"options001",
-"quellenangabe":["Steuerstatistik Basel-Stadt"]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Steuerstatistik"]
 },
 {"title":"Wie zufrieden sind Sie mit dem Wohnungsangebot?", 
 "kuerzel":"I.50.1.0005",
@@ -985,7 +985,7 @@
 "methodik":"",
 "template":"befragungen001",
 "option":"options001",
-"quellenangabe":["Kanton BS"]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Bevölkerungsbefragung: F6_9"]
 },
 {"title":"Wie zufrieden sind Familien mit dem Wohnungsangebot?", 
 "kuerzel":"I.50.1.0006",
@@ -1008,7 +1008,7 @@
 "methodik":"",
 "template":"befragungen001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Bevölkerungsbefragung: F6_9"]
 },
 {"title":"Zufriedenheit mit Grünanlagen und Parks am Wohnort", 
 "kuerzel":"I.50.1.0007",
@@ -1031,7 +1031,7 @@
 "methodik":"",
 "template":"befragungen001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"]
 },
 {"title":"Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild", 
 "kuerzel":"I.50.1.0008",
@@ -1054,7 +1054,7 @@
 "methodik":"",
 "template":"befragungen001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Bevölkerungsbefragung: F6_13"]
 },
 {"title":"Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen", 
 "kuerzel":"I.50.1.0009",
@@ -1077,7 +1077,7 @@
 "methodik":"",
 "template":"befragungen001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Bevölkerungsbefragung: F6_19"]
 },
 {"title":"Zufriedenheit mit altersangepasster Gestaltung des Wohngebäudes", 
 "kuerzel":"I.50.4.0001",
@@ -1100,6 +1100,6 @@
 "methodik":"",
 "template":"befragungen001",
 "option":"options001",
-"quellenangabe":[]
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, kantonale Befragung 55plus: F10_c"]
 }
 ];
