@@ -1086,7 +1086,7 @@
 "description":"Zufriedenheit mit altersangepasster Gestaltung des Wohngebäudes",
 "id":"4156",
 "thema":"50 Regelmässige Befragungen",
-"unterthema":"Befragunng 55 plus",
+"unterthema":"Befragung 55 plus",
 "kennzahlenset":"Wohnraumentwicklung",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
