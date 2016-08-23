@@ -14,8 +14,8 @@
 "use strict";
 
 //holds config of each chart
-var chartOptions = new Object();
-var sortOptions = new Object();
+var chartOptions = {};
+var sortOptions = {};
 //Indikatorenset or Portal view
 var indikatorensetView = false;
 
@@ -128,12 +128,12 @@ function preparePortalView(){
   renderMultiselectDropdownFromJson(["Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite"], '', '#raeumlicheGliederung_filter');
 
   //prepare query String object for filtering thema and unterthema
-  var baseQuery = new Object();
+  var baseQuery = {};
   //render unterthema dropdown for the first time   
   renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema', baseQuery);
       
   //configure unterthema to be filtered correctly upon change of thema           
-  configureCascadedControls('#thema_criteria', '#unterthema_filter', "#thema_criteria :checked", 'Alle', 'thema', 'unterthema', baseQuery);  
+  configureCascadedControls('#thema_criteria', '#unterthema_filter', "#thema_criteria :checked", 'Alle', 'thema','#unterthema_filter', 'all', 'unterthema', baseQuery);  
 };
 
 
@@ -150,32 +150,64 @@ function prepareIndikatorensetView(indikatorenset){
   $('#kennzahlenset_filter').val(indikatorenset);  
   
   //prepare query String object for filtering stufe1 and stufe2
-  var baseQuery = new Object();
+  var baseQuery = {};
   baseQuery['kennzahlenset'] = indikatorenset;              
 
   renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'stufe1', baseQuery);
   renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'stufe2', baseQuery);
 
   //add cascaded dropdowns functionality to stufe1 and stufe2
-  configureCascadedControls('#stufe1_filter', '#stufe2_filter', '#stufe1_filter', 'all', 'stufe1', 'stufe2',baseQuery); 
+  configureCascadedControls('#stufe1_filter', '#stufe2_filter', '#stufe1_filter', 'all', 'stufe1', '#stufe2_filter', 'all', 'stufe2', baseQuery); 
 };
 
 
-function configureCascadedControls(level1selector, level2selector, level1ValueSelector, level1AllValue, level1field, level2Field, baseQuery){
-  //add cascaded dropdowns functionality to level1 and level2
-  $(level1selector).change(function(){
-    //remove selection on 2nd level dropdown upon change in first level dropdown (set to first = all)
-    $(level2selector + ' :nth-child(1)').prop('selected', true);
-    $(level2selector).change();
+//add cascaded dropdowns functionality to level1 and level2
+function configureCascadedControls(level1Selector, level2Selector, level1ValueSelector, level1AllValue, level1Field, level2valueSelector, level2allValue, level2Field, baseQuery){  
+
+  $(level1Selector).change(function(){    
+    //save currently selected value
+    var currentLevel2Value = $(level2Selector).val(); 
+    //set 2nd level dropdown to first (all)
+    $(level2Selector + ' :nth-child(1)').prop('selected', true);
+    $(level2Selector).change();
     //filter 2nd level to include only values that occur together with selected 1st level value
-    //deep copy baseQuery object
     var level2QueryString = $.extend(true, {}, baseQuery); 
     var selectedValue = $(level1ValueSelector).val();
     if (selectedValue !== level1AllValue) {
-      level2QueryString[level1field] = selectedValue;
+      level2QueryString[level1Field] = selectedValue;
     }
-    renderDropdownFromJson(indikatoren, level2Field, level2selector, level2Field, level2QueryString);
-  })
+    renderDropdownFromJson(indikatoren, level2Field, level2Selector, level2Field, level2QueryString);
+    //re-set previously selected value
+    $(level2Selector).val(currentLevel2Value);
+    //if no item is selected now, select the first one
+    if (!$(level2Selector).val()){
+      $(level2Selector + ' :nth-child(1)').prop('selected', true);
+    }
+  });
+
+
+  $(level2Selector).change(function(){
+    //upon selection in level2 dropdown: if level1 is set to the first one (all), set level1 value to the single (or first) value that matches    
+    var selectedValue = $(level2valueSelector).val();           
+    //level2 value is not the first one in the list (all) and level1 value is the first one (all)
+    if (selectedValue !== level2allValue && $(level1ValueSelector).val() === level1AllValue ) {
+      var level1QueryString = $.extend(true, {}, baseQuery);
+      //extend JsonQuery object    
+      level1QueryString[level2Field] = selectedValue;
+      //find first level1 value that matches the selected level2 value
+      var result = JsonQuery(indikatoren).where(level1QueryString).all[0][level1Field];
+      //set level1 to the found value
+      if (level1ValueSelector.includes('checked')) {
+        //for radios: 
+        $(level1Selector).find('[value="' + result + '"]').prop('checked', true)
+        $(level1Selector).change();
+      }
+      else {
+        //for dropdown: 
+        $(level1Selector).val([result]);
+      }
+    }
+  });
 };
 
 
@@ -204,7 +236,7 @@ function renderDropdownFromJson(data, field, selector, sortKey, filterQueryStrin
   } 
   //Sort if sortKey is given 
   if (typeof sortKey !== 'undefined'){
-    var sortOptions = new Object();
+    var sortOptions = {};
     sortOptions[sortKey] = 'asc';
     JQ=JQ.order(sortOptions);
   }
@@ -374,7 +406,7 @@ var afterFilter = function(result, jQ){
           items.each(function(){            
             var c = $(this), count = 0;
             if(result.length > 0){
-              var queryString = new Object();
+              var queryString = {};
               queryString[key] = c.val();              
               count = jQ.where(queryString).count;
             }
@@ -390,11 +422,11 @@ var afterFilter = function(result, jQ){
       var optionsCount = $(selector + " > option").length;
       if (optionsCount == 1){
         //no item present besides 'all', hide dropdown      
-        $(selector).addClass('hide');
+        //$(selector).addClass('hidden');
       }
       else {
         //show dropdown
-        $(selector).removeClass('hide');
+        //$(selector).removeClass('hidden');
         if (optionsCount == 2) {
           //select the one existing entry         
           $(selector).prop('selectedIndex', 1);
