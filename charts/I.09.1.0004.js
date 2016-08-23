@@ -23,7 +23,6 @@
     "itemStyle": { 
       "fontWeight": "normal" 
     } 
- 
   }, 
   "series": [ 
     { 
@@ -54,7 +53,7 @@
   "chart": { 
     "marginBottom": 95, 
     "marginTop": 75, 
-    "zoomType": "y", 
+    "zoomType": "xy", 
     "type": "column" 
   } 
 }; 
