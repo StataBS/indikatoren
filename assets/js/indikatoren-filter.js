@@ -67,8 +67,7 @@ $(document).ready(function(){
     FJS.addCriteria({field: "thema", ele: "#thema_criteria input:radio", all: "Alle"});
     FJS.addCriteria({field: "unterthema", ele: "#unterthema_filter", all: "all"});
     FJS.addCriteria({field: "schlagwort", ele: "#schlagwort_filter", all: "all"});
-    FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});
-    FJS.addCriteria({field: "unterthema", ele: "#unterthema_filter", all: "all"});  
+    FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});      
   }  
 
   //implement default sorting, add event listener, and implement sortResult function  
@@ -190,7 +189,7 @@ function configureCascadedControls(level1Selector, level2Selector, level1ValueSe
     //upon selection in level2 dropdown: if level1 is set to the first one (all), set level1 value to the single (or first) value that matches    
     var selectedValue = $(level2valueSelector).val();           
     //level2 value is not the first one in the list (all) and level1 value is the first one (all)
-    if (selectedValue !== level2allValue && $(level1ValueSelector).val() === level1AllValue ) {
+    if (selectedValue !== level2allValue /*&& $(level1ValueSelector).val() === level1AllValue*/ ) {
       var level1QueryString = $.extend(true, {}, baseQuery);
       //extend JsonQuery object    
       level1QueryString[level2Field] = selectedValue;
@@ -205,6 +204,7 @@ function configureCascadedControls(level1Selector, level2Selector, level1ValueSe
       else {
         //for dropdown: 
         $(level1Selector).val([result]);
+        $(level1Selector).change();
       }
     }
   });
