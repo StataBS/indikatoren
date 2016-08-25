@@ -42,22 +42,15 @@
     '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-KGK459');</script>
     <!-- End Google Tag Manager -->
-    <!--
-    <div id="container-I.50.1.0009" style="width:100%; height:100%;max-width:1000px;margin: 0 auto"></div>
-    -->
-    
+
+
     <script type="text/javascript">   
       //get kuerzel from url, encode to prevent xss 
       var kuerzelFromUser = window.encodeURIComponent($.url('?kuerzel'));
+      
       //check if kuerzel is member in the list of existing charts
-      var findChart = function(kuerzelToFind) {
-        for (var i = 0; i < indikatoren.length; i++) {
-          if (indikatoren[i].kuerzel === kuerzelToFind){
-            return indikatoren[i];
-          }
-        }
-      }; 
-      var chartMetadata = findChart(kuerzelFromUser);      
+      var chartMetadata = findChartByKuerzel(indikatoren, kuerzelFromUser)      
+
       if (chartMetadata) {
         //to be safer against xss: get kuerzel from list 
         var safeKuerzel = chartMetadata.kuerzel;
@@ -67,17 +60,23 @@
         }).appendTo('body');
 
         //check if chart needs to be exported, and how
-        var exportType = $.url('?exportType');
+        var exportType = window.encodeURIComponent($.url('?thumbnailType'));
         var callbackFn;
         switch (exportType){
-          case "jpg": 
-            callbackFn = exportChart(safeKuerzel, "image/jpeg"); 
+          case "jpg":             
+            callbackFn = function(){
+              exportThumbnail(safeKuerzel, "image/jpeg");
+            }; 
             break;                    
           case "png": 
-            callbackFn = exportChart(safeKuerzel, "image/png"); 
+            callbackFn = function(){
+              exportThumbnail(safeKuerzel, "image/png");
+            }; 
             break;
           case "svg":              
-            callbackFn = exportChart(safeKuerzel, "image/svg+xml");
+            callbackFn = function(){
+              exportThumbnail(safeKuerzel, "image/svg+xml");
+            };
             break;           
         }                       
 

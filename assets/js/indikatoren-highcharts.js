@@ -107,18 +107,23 @@ function renderChartByKuerzel(kuerzel, callbackFn){
   };
 }
 
+
 //dom ids may contain . or :, if used in jquery these must be escaped. http://learn.jquery.com/using-jquery-core/faq/how-do-i-select-an-element-by-an-id-that-has-characters-used-in-css-notation/
 function escapeCssChars(myid) {
     return myid.replace( /(:|\.|\[|\]|,)/g, "\\$1" );
 }
 
 
-
-function exportChart(kuerzel, exportType){  
+//create chart as image
+function exportThumbnail(kuerzel, exportType){    
   var chart = $(escapeCssChars('#container-' + kuerzel)).highcharts();
-  chart.exportChart({
+  //remove callback - otherwise end up in infinite loop
+  delete chart.callback;
+  //scale chart in order to receive 150px width
+  chart.options.exporting.scale = 0.31;     
+  chart.exportChartLocal({
     type: exportType, 
     filename: kuerzel
-  });
+  });  
 };
 
