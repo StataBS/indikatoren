@@ -77,7 +77,6 @@
   },
   "chart": {
     "zoomType": "xy",
-    "marginBottom": 50,
     "marginTop": 85,
     "type": "line"
   }

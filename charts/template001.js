@@ -3,6 +3,7 @@ var template = {
         "borderColor": "#fbfbfb",
         "backgroundColor": "#fbfbfb",
         "width": 485,
+        "height": 415,
         "marginBottom": 65,
         "marginTop": 75,
         "style": {
@@ -50,14 +51,14 @@ var template = {
     },
     "xAxis": {
         "title": {
-        "style": {
-            "color": "#000000"
-        }
+            "style": {
+                "color": "#000000"
+            }
         },
         "labels": {
-        "style": {
-            "color": "#000000"
-        }
+            "style": {
+                "color": "#000000"
+            }
         },
         "tickColor": "#FFFFFF"
     }, 

@@ -15,6 +15,7 @@ var template = {
         "borderColor": "#fbfbfb",
         "backgroundColor": "#fbfbfb",
         "width": 485,
+        "height": 415,
         "marginBottom": 65,
         "marginTop": 75,
         "style": {
