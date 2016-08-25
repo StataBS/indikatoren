@@ -51,11 +51,12 @@
       //check if kuerzel is member in the list of existing charts
       var findChart = function(kuerzelToFind) {
         for (var i = 0; i < indikatoren.length; i++) {
-          if (indikatoren[i].kuerzel === kuerzelToFind)
-              return indikatoren[i];
+          if (indikatoren[i].kuerzel === kuerzelToFind){
+            return indikatoren[i];
+          }
         }
-      };
-      var chartMetadata = findChart(kuerzelFromUser);
+      }; 
+      var chartMetadata = findChart(kuerzelFromUser);      
       if (chartMetadata) {
         //to be safer against xss: get kuerzel from list 
         var safeKuerzel = chartMetadata.kuerzel;
@@ -64,9 +65,10 @@
           id: 'container-' + safeKuerzel,
         }).appendTo('body');
               
-        var chartOptions = new Object();
-        renderChart('charts/' + safeKuerzel+'.js', 'charts/template001.js', 'charts/' + safeKuerzel + '.js', 'data/' + safeKuerzel + '.csv', safeKuerzel);
-        //renderChartByKuerzel(safeKuerzel);
+        var chartOptions = {};
+        //renderChart('charts/' + safeKuerzel+'.js', 'charts/template001.js', 'charts/' + safeKuerzel + '.js', 'data/' + safeKuerzel + '.csv', safeKuerzel);
+        var indikatorensetView = false;
+        renderChartByKuerzel(safeKuerzel);
       }
       else {
         //display error message
