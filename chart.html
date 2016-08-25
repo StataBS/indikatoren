@@ -48,46 +48,55 @@
       //get kuerzel from url, encode to prevent xss 
       var kuerzelFromUser = window.encodeURIComponent($.url('?kuerzel'));
       
-      //check if kuerzel is member in the list of existing charts
-      var chartMetadata = findChartByKuerzel(indikatoren, kuerzelFromUser)      
-
-      if (chartMetadata) {
-        //to be safer against xss: get kuerzel from list 
-        var safeKuerzel = chartMetadata.kuerzel;
-        //create div for chart
-        jQuery('<div/>', {
-          id: 'container-' + safeKuerzel,
-        }).appendTo('body');
-
-        //check if chart needs to be exported, and how
-        var exportType = window.encodeURIComponent($.url('?thumbnailType'));
-        var callbackFn;
-        switch (exportType){
-          case "jpg":             
-            callbackFn = function(){
-              exportThumbnail(safeKuerzel, "image/jpeg");
-            }; 
-            break;                    
-          case "png": 
-            callbackFn = function(){
-              exportThumbnail(safeKuerzel, "image/png");
-            }; 
-            break;
-          case "svg":              
-            callbackFn = function(){
-              exportThumbnail(safeKuerzel, "image/svg+xml");
-            };
-            break;           
-        }                       
-
-        var chartOptions = {};
-        //renderChart('charts/' + safeKuerzel+'.js', 'charts/template001.js', 'charts/' + safeKuerzel + '.js', 'data/' + safeKuerzel + '.csv', safeKuerzel);
-        var indikatorensetView = false;
-        renderChartByKuerzel(safeKuerzel, callbackFn);
+      var charts = [];
+      if (kuerzelFromUser !== 'all') {
+        //check if kuerzel is member in the list of existing charts
+        charts[0] = findChartByKuerzel(indikatoren, kuerzelFromUser);
       }
-      else {
-        //display error message
-        $('body').append('<div class="container"><div class="jumbotron"><h1>Ooops...</h1><p>Kein chart mit dem angegebenen Kürzel gefunden.</p></div></div>');
+      else{
+        charts = indikatoren;
+      }       
+
+      
+      for (var i=0; i < charts.length; i++){
+        var chartMetadata = charts[i];
+
+        if (chartMetadata) {
+          //to be safer against xss: get kuerzel from list 
+          var safeKuerzel = chartMetadata.kuerzel;
+          //create div for chart
+          jQuery('<div/>', {
+            id: 'container-' + safeKuerzel,
+          }).appendTo('body');
+
+          //check if chart needs to be exported, and how
+          var exportType = window.encodeURIComponent($.url('?thumbnailType'));
+
+          var chartOptions = {};
+          //renderChart('charts/' + safeKuerzel+'.js', 'charts/template001.js', 'charts/' + safeKuerzel + '.js', 'data/' + safeKuerzel + '.csv', safeKuerzel);
+          var indikatorensetView = false;
+          renderChartByKuerzel(safeKuerzel, function(){
+            //make sure we have the complete chart with the renderTo object, which contains the kuerzel
+            if (this.renderTo){              
+              switch (exportType){
+                case "jpg":
+                  //get kuerzel from chart config object: renderTo: "container-I.1.01.0001"                  
+                  exportThumbnail(this.renderTo.id.split('-')[1], "image/jpeg")                     
+                  break;                    
+                case "png": 
+                  exportThumbnail(this.renderTo.id.split('-')[1], "image/png")
+                  break;
+                case "svg":              
+                  exportThumbnail(this.renderTo.id.split('-')[1], "image/svg+xml")
+                  break;           
+              }                  
+            }     
+          });
+        }
+        else {
+          //display error message
+          $('body').append('<div class="container"><div class="jumbotron"><h1>Ooops...</h1><p>Kein chart mit dem angegebenen Kürzel gefunden.</p></div></div>');
+        }
       }
     </script>
   </body>
