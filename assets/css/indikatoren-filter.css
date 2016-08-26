@@ -131,6 +131,11 @@ input[type="radio"] {
     height: 33px;
 }
 
+/* Remove 'x' in IE in input type=text or search */
+input::-ms-clear {
+  width : 0;
+  height: 0;
+}
 
 .modal.carousel {
   position: fixed; /* Needed because the carousel overrides the position property*/
