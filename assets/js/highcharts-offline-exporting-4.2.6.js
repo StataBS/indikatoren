@@ -45,7 +45,8 @@
             }
     }
     ;
-    a.svgToDataUrl = function(a) {       
+    a.svgToDataUrl = function(a) {
+        a = a.replace('width="485" height="415">', 'viewBox="0 0 485 415">');
         var h = k.userAgent.indexOf("WebKit") > -1 && k.userAgent.indexOf("Chrome") < 0;
         try {
             if (!h && k.userAgent.toLowerCase().indexOf("firefox") < 0)
