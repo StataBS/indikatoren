@@ -157,12 +157,13 @@ input::-ms-clear {
 .carousel-control.right { right: -5px; }
 */
 
-/*
+
 .carousel-indicators {
     top: 15px;
     height: 15px;
 }
 
+/*
 .carousel-indicators li {
     border-color: black;
     background-color:white;
@@ -175,23 +176,22 @@ input::-ms-clear {
 */
 
 .carousel-indicators-numbers li {
-  text-indent: 0;
-  margin: 0 2px;
-  width: 30px;
-  height: 30px;
-  border: none;
-  border-radius: 100%;
-  line-height: 30px;
-  color: #fff;
-  background-color: #999;
-  -webkit-transition: all 0.25s ease;
-  transition: all 0.25s ease;
+    font-size: 10px;
+    text-indent: 0;
+    margin: 0 2px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 100%;
+    line-height: 30px;
+    color: #fff;
+    background-color: #999;
 }
 .carousel-indicators-numbers li.active, .carousel-indicators-numbers li:hover {
-  margin: 0 2px;
-  width: 30px;
-  height: 30px;
-  background-color: #337ab7;
+    margin: 0 2px;
+    width: 30px;
+    height: 30px;
+    background-color: #337ab7;
 }
 
 
