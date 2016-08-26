@@ -196,7 +196,7 @@ function configureCascadedControls(level1Selector, level2Selector, level1ValueSe
       //find first level1 value that matches the selected level2 value
       var result = JsonQuery(indikatoren).where(level1QueryString).all[0][level1Field];
       //set level1 to the found value
-      if (level1ValueSelector.includes('checked')) {
+      if (level1ValueSelector.indexOf('checked') > -1) {
         //for radios: 
         $(level1Selector).find('[value="' + result + '"]').prop('checked', true)
         $(level1Selector).change();
