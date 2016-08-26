@@ -157,6 +157,7 @@ input::-ms-clear {
 .carousel-control.right { right: -5px; }
 */
 
+/*
 .carousel-indicators {
     top: 15px;
     height: 15px;
@@ -171,6 +172,28 @@ input::-ms-clear {
     border-color: white;
     background-color:black;
 }
+*/
+
+.carousel-indicators-numbers li {
+  text-indent: 0;
+  margin: 0 2px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 100%;
+  line-height: 30px;
+  color: #fff;
+  background-color: #999;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.carousel-indicators-numbers li.active, .carousel-indicators-numbers li:hover {
+  margin: 0 2px;
+  width: 30px;
+  height: 30px;
+  background-color: #337ab7;
+}
+
 
 .carousel-inner {
     margin-top: 30px;

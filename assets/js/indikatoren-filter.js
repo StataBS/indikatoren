@@ -484,6 +484,7 @@ var afterFilter = function(result, jQ){
       var items = $(container).children();
       $.each($(container).children(), function(i, item){
         $(item).attr("data-slide-to", i);
+        $(item).text(i+1);
       });
       
       //bind keyboard to carousel: arrow left/right, esc
