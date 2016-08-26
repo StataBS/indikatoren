@@ -42,7 +42,6 @@ legend{
 }
 
 .thumbnail {    
-    min-height: 164px;
     border-color: #cccccc;
     border-radius: 0;
     margin-bottom: 8px;
@@ -128,8 +127,8 @@ input[type="radio"] {
 }
 
 
-.modal.and.carousel {
-  position: absolute; /* Needed because the carousel overrides the position property*/
+.modal.carousel {
+  position: fixed; /* Needed because the carousel overrides the position property*/
 }
 
 /* Carousel next / prev changes, from http://stackoverflow.com/questions/29464207/bootstrap-3-carousel-controls-on-outside */
@@ -140,7 +139,9 @@ input[type="radio"] {
 }
 
 .carousel-control.left,
-.carousel-control.right { background: none }
+.carousel-control.right { 
+    background: none;
+}
 /* change it according to your needs 
 .carousel-control.left { left: -5px; }
 .carousel-control.right { right: -5px; }
