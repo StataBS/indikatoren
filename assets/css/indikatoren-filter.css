@@ -44,11 +44,15 @@ legend{
 .thumbnail {    
     border-color: #cccccc;
     border-radius: 0;
-    margin-bottom: 8px;
+    margin-bottom: 8px;    
 }
 
 .thumbnail .caption{
     padding-top: 0px;
+}
+
+.thumbnail img{
+    max-height: 164px;
 }
 
 .indikatoren-pagination{
@@ -80,8 +84,8 @@ ul.pagination{
     border-top: none;
 }
 
-.thumbnail>.caption>a>h5,
-.thumbnail>.caption>a>img{   
+.caption>h5
+{   
     font-weight: bold;
     color: #336666;
     cursor: pointer;

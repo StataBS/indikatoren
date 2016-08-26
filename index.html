@@ -211,12 +211,12 @@
     <script id="indikator-template-carousel-portal" type="text/html">  
       <div class="col-xs-3 indikator" indikator-fid-data="<%= _fid %>" indikator-kuerzel-data="<%= kuerzel %>">
         <div class="thumbnail">
-          <div class="caption">
-            <a id="thumbnail-lightbox-link-<%= _fid %>" href="#lightbox" data-toggle="modal" data-slide-to="<%= getIndexByFid(_fid) %>" indikator-kuerzel-data="<%= kuerzel %>" indikator-fid-data="<%= _fid %>">
-              <h5><%= kuerzel %></h5>                                                    
-              <img src="<%= 'images/' + kuerzel + '.svg' %>" alt="<%= title %>: <%= description %>" title="<%= title %>: <%= description %>"/>              
-            </a>
-          </div>
+          <a id="thumbnail-lightbox-link-<%= _fid %>" href="#lightbox" data-toggle="modal" data-slide-to="<%= getIndexByFid(_fid) %>" indikator-kuerzel-data="<%= kuerzel %>" indikator-fid-data="<%= _fid %>">
+            <div class="caption">            
+              <h5><%= kuerzel %></h5>                                                                                                                      
+            </div>
+            <img src="<%= 'images/' + kuerzel + '.svg' %>" alt="<%= title %>: <%= description %>" title="<%= title %>: <%= description %>"  class="img-responsive"/>
+          </a>
         </div>
       </div>
     </script> 
@@ -225,12 +225,12 @@
     <script id="indikator-template-carousel-indikatorenset" type="text/html">  
       <div class="col-xs-3 indikator" indikator-fid-data="<%= _fid %>" indikator-kuerzel-data="<%= kuerzel %>">
         <div class="thumbnail">
-          <div class="caption">
-            <a id="thumbnail-lightbox-link-<%= _fid %>" href="#lightbox" data-toggle="modal" data-slide-to="<%= getIndexByFid(_fid) %>" indikator-kuerzel-data="<%= kuerzel %>" indikator-fid-data="<%= _fid %>">
-              <h5><%= kuerzelKunde %></h5>                                                    
-              <img src="<%= 'images/' + kuerzel + '.svg' %>" alt="<%= title %>: <%= description %>" title="<%= title %>: <%= description %>" />
-            </a>
-          </div>
+          <a id="thumbnail-lightbox-link-<%= _fid %>" href="#lightbox" data-toggle="modal" data-slide-to="<%= getIndexByFid(_fid) %>" indikator-kuerzel-data="<%= kuerzel %>" indikator-fid-data="<%= _fid %>">
+            <div class="caption">            
+              <h5><%= kuerzelKunde %></h5>
+            </div>                                                                              
+            <img src="<%= 'images/' + kuerzel + '.svg' %>" alt="<%= title %>: <%= description %>" title="<%= title %>: <%= description %>"  class="img-responsive"/>
+          </a>
         </div>
       </div>
     </script> 
