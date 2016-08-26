@@ -68,6 +68,17 @@ $(document).ready(function(){
     FJS.addCriteria({field: "unterthema", ele: "#unterthema_filter", all: "all"});
     FJS.addCriteria({field: "schlagwort", ele: "#schlagwort_filter", all: "all"});
     FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});      
+
+    //reset all filter criteria
+    $("#portal-reset-button").click(function(){
+      $('#searchbox').val('');
+      $("#thema_criteria :radio:first()").prop('checked', true);
+      $("#unterthema_filter").prop('selectedIndex', 0);
+      $("#schlagwort_filter option").prop('selected', true);
+      $("#schlagwort_filter").multiselect('selectAll', false).multiselect('updateButtonText');      
+      $("#raeumlicheGliederung_filter").multiselect('selectAll', false).multiselect('updateButtonText');
+      FJS.filter();
+    })
   }  
 
   //implement default sorting, add event listener, and implement sortResult function  
@@ -281,12 +292,12 @@ function configureMultiselect(selector){
   var control = $(selector);
   //configure multiselect
   control.multiselect({
-      maxHeight: 240,
+      maxHeight: 220,
       buttonWidth: '100%', 
       inheritClass: true, 
       includeSelectAllOption: true, 
-      selectAllText: 'Alle', 
-      enableFiltering: true, 
+      selectAllText: 'Alle',      
+      enableFiltering: true,       
       enableCaseInsensitiveFiltering: true,
       filterPlaceholder: 'Suche...', 
       nonSelectedText: 'Keines', 
