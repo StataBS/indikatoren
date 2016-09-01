@@ -35,8 +35,7 @@ chartOptions['I.01.1.0014'] = {
     pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
     shared: false
   },  
-  "chart": {
-    "renderTo": "container-I.01.1.0014",
+  "chart": {    
     "marginBottom": 65,
     "marginTop": 75,
     "type": "column",
