@@ -466,7 +466,7 @@ var afterFilter = function(result, jQ){
       //set first child to active, only now the carousel is visible
       container.children().first().addClass("active");
 
-
+      /*
       //add an indicator (dot that links to a chart) for each chart
       //build template function using template from DOM
       var html = $('#carousel-indicator-template').html();
@@ -485,6 +485,7 @@ var afterFilter = function(result, jQ){
       $.each($(container).children(), function(i, item){
         $(item).attr("data-slide-to", i);
       });
+      */
       
       //bind keyboard to carousel: arrow left/right, esc
       //source: http://stackoverflow.com/questions/15720776/bootstrap-carousel-with-keyboard-controls
@@ -500,6 +501,6 @@ var afterFilter = function(result, jQ){
         }
     });
   
-    };
+  };
 };//afterFilter
 
