@@ -75,6 +75,10 @@ ul.pagination{
     border-color: #222;    
 }
 
+.pagination .glyphicon {
+    color: grey;    
+}
+
 .per-page {
     display: none;
 }
