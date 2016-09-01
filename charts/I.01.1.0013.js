@@ -19,7 +19,7 @@ chartOptions['I.01.1.0013'] = {
     }
   },
   tooltip: {
-    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>',
+    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}:<br/><b>{point.y}% der Gesamtbevölkerung,</b>,<br/><b>{point.percentage:.2f}% der ausländischen Bevölkerung</b><br/>',
     shared: false
   },  
   "legend": {
@@ -50,7 +50,7 @@ chartOptions['I.01.1.0013'] = {
     {
       "color": "#E7CFE2",
       "legendIndex": 6,
-      "index": 3
+      "index": 2
     },
     {
       "color": "#B9CFD7",
