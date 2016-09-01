@@ -1,6 +1,7 @@
 chartOptions['I.01.1.0013'] = {
   "plotOptions": {
     "series": {
+      "pointWidth": 15,
       "dataLabels": {
         "style": {
           "fontSize": 10
@@ -9,13 +10,16 @@ chartOptions['I.01.1.0013'] = {
       "stacking": "percent"
     }
   },
+  "xAxis": {
+    "type": "category"    
+  },  
   "yAxis": {
     "labels": {
       "format": "{value}%",
     }
   },
   tooltip: {
-    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.2f}%)<br/>',
+    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>',
     shared: false
   },  
   "legend": {
@@ -29,31 +33,49 @@ chartOptions['I.01.1.0013'] = {
   },
   "series": [
     {
-      "color": "#73B97C"
+      "color": "#C8C8C8",
+      "legendIndex": 8,
+      "index": 0
     },
     {
-      "color": "#008AC3"
+      "color": "#C5AB92",
+      "legendIndex": 5,
+      "index": 3
     },
     {
-      "color": "#CD9C00"
+      "color": "#FF8028",
+      "legendIndex": 7,
+      "index": 1
     },
     {
-      "color": "#662673"
+      "color": "#E7CFE2",
+      "legendIndex": 6,
+      "index": 3
     },
     {
-      "color": "#73B97C"
+      "color": "#B9CFD7",
+      "legendIndex": 4,
+      "index": 4
     },
     {
-      "color": "#008AC3"
+      "color": "#FABD24",
+      "legendIndex": 3,
+      "index": 5
     },
     {
-      "color": "#CD9C00"
+      "color": "#73BA7C",
+      "legendIndex": 2,
+      "index": 6
     },
     {
-      "color": "#662673"
+      "color": "#007A2F",
+      "legendIndex": 1,
+      "index": 7
     },
     {
-      "color": "#73B97C"
+      "color": "#672773",
+      "legendIndex": 0,
+      "index": 8
     }        
   ],
   "chart": {
