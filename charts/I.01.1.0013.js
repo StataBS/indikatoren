@@ -79,7 +79,6 @@ chartOptions['I.01.1.0013'] = {
     }        
   ],
   "chart": {
-    "renderTo": "container-I.01.1.0013",
     "marginBottom": 65,
     "marginTop": 75,
     "type": "column"
