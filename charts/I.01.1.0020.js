@@ -35,15 +35,30 @@ chartOptions['I.01.1.0020'] = {
     }
   },
   "series": [
-    {"color": "#933F8D"},
-    {"color": "#B475AB"},
-    {"color": "#FABD24"},
-    {"color": "#FFDA80"},
-    {"color": "#4BACC6"}
+    {
+      "color": "#933F8D",
+      "legendIndex": 4
+    },
+    {
+      "color": "#B475AB",
+      "legendIndex": 3
+    },
+    {
+      "color": "#FABD24",
+      "legendIndex": 2
+    },
+    {
+      "color": "#FFDA80",
+      "legendIndex": 1
+    },
+    {
+      "color": "#4BACC6",
+      "legendIndex": 0
+    }
   ],
   "chart": {    
     "marginBottom": 60,
-    "marginTop": 175,
+    "marginTop": 160,
     "type": "column"
   }
 };
