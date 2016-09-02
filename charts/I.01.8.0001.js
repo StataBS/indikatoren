@@ -15,7 +15,7 @@ chartOptions["I.01.8.0001"] = {
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "x": 0,
+    "x": 35,
     "y": 30,
     "align": "left"
   },
