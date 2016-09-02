@@ -217,6 +217,11 @@ h1{
     background-color: darkgrey; /* Modern Browsers */
 }
 
+.highcharts-contextmenu hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .lesehilfe>a {
     font-weight: bold;
     color: #496c78;
