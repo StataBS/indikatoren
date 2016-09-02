@@ -13,10 +13,9 @@ chartOptions['I.01.1.0017'] = {
   },
   "yAxis": {
     "labels": {
-      "format": "{value}%",
+      "format": "{value}%"
     }    
   },
-
   "series": [
     {
       "color": "#C8C8C8",
