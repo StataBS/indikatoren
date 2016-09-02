@@ -71,8 +71,8 @@ ul.pagination{
 
 .pagination>.active>a, 
 .pagination>.active>a:hover{
-    background-color: grey;
-    border-color: grey;    
+    background-color: #225B33;
+    border-color: #225B33;    
 }
 
 .pagination .glyphicon {
