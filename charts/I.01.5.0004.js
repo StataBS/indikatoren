@@ -16,7 +16,8 @@ chartOptions['I.01.5.0004'] = {
   "yAxis": {
     "labels": {
       "format": "{value}%",
-    }
+    },
+    "reversedStacks": false
   },
   "tooltip": {
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}:<br/><b>{point.y}</b> Menschen, dies entspricht <b>{point.percentage:.1f}%</b> der ausländischen Bevölkerung<br/>',
@@ -34,15 +35,25 @@ chartOptions['I.01.5.0004'] = {
     }
   },
   "series": [
-    {},
-    {},
-    {},
-    {},
-    {}        
+    {
+      "color": "#B475AB"
+    },
+    {
+      "color": "#933F8D"
+    },
+    {
+      "color": "#FFDA80"
+    },
+    {
+      "color": "#FABD24"
+    },
+    {
+      "color": "#C8C8C8"
+    }    
   ],
   "chart": {
-    "marginBottom": 75,
-    "marginTop": 145,
+    "marginBottom": 65,
+    "marginTop": 150,
     "type": "column"
   }
 };
