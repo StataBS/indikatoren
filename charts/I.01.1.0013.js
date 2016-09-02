@@ -70,7 +70,7 @@ chartOptions['I.01.1.0013'] = {
     }        
   ],
   "chart": {
-    "marginBottom": 65,
+    "marginBottom": 75,
     "marginTop": 75,
     "type": "column"
   }
