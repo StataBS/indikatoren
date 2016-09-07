@@ -16,7 +16,7 @@ chartOptions["I.01.8.0001"] = {
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "x": 35,
-    "y": 30,
+    "y": 50,
     "align": "left"
   },
 
@@ -53,7 +53,7 @@ chartOptions["I.01.8.0001"] = {
     "shared": false
   },  
   "chart": {    
-    "marginTop": 100
+    "marginTop": 120
   },  
   "plotOptions": {
     "series": {
