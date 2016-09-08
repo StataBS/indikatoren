@@ -65,12 +65,6 @@
       "index": 1,
       "type": "line",
       "yAxis": 1
-    },
-    {
-      "color": "#cd9c00",
-      "index": 1,
-      "type": "line",
-      "yAxis": 1
     }
   ],  "tooltip": {
     "shared": true
