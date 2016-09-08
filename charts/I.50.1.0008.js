@@ -1,6 +1,6 @@
 ﻿chartOptions['I.50.1.0008'] = {
   "xAxis": {
-    "type": "category",
+    "type": "category"
   },
   "series": [
     {
