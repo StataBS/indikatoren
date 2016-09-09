@@ -29,6 +29,20 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, c
   function parseData(completeHandler, chartOptions, data) {
       try {
         var dataOptions = {
+          /*  seriesMapping necessary for charts with error bars. 
+              todo: read dataOptions from chart-specific file
+          */          
+          "seriesMapping": [
+            {
+              "x": 0
+            },
+            {
+              "x": 0
+            },
+            {
+              "x": 0
+            }
+          ],
             csv: data
         };
         dataOptions.sort = true
