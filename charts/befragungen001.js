@@ -21,7 +21,7 @@ var template = {
         "style": {
         "fontFamily": "Arial"
         },
-        "zoomType": "y",
+        "zoomType": "xy",
         "type": "column"
     },    
     "title": {
