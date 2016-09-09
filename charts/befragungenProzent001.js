@@ -60,6 +60,7 @@ var template = {
         }
     },
     "yAxis": {
+        "reversedStacks": false,
         "title": {
             "style": {
             "color": "#000000",
@@ -116,6 +117,7 @@ var template = {
         }
     },
     "legend": {
+        "reversed": true,
         "layout": "vertical",
         "verticalAlign": "middle",
         "itemMarginBottom": 5,     
