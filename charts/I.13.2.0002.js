@@ -71,7 +71,7 @@
     "shared": true
   },
   "chart": {
-    "marginBottom": 50,
+    "marginBottom": 60,
     "marginTop": 75,
     "type": "line"
   }
