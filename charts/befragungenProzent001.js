@@ -1,7 +1,7 @@
 var template = {
-    chart: {		
-        events:{
-            load: function() {
+    "chart": {		
+        "events":{
+            "load": function() {
                 this.credits.element.onclick = function() {
                     /*
                     window.open(
@@ -43,10 +43,10 @@ var template = {
         "text": "",
         "align": "left"
     },
-    navigation: {
-        menuItemStyle: {
-            fontFamily: Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
-            padding: '2px 10px'
+    "navigation": {
+        "menuItemStyle": {
+            "fontFamily": Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
+            "padding": '2px 10px'
         }
     },
     "plotOptions": {
