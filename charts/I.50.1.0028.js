@@ -39,7 +39,8 @@ chartOptions['I.50.1.0028'] = {
         }
     },
     "chart": {
-        "marginTop": 120
+        "marginTop": 120,
+        "marginBottom": 75
     }
 };
 
