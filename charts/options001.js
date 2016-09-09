@@ -16,17 +16,17 @@ Highcharts.setOptions({
 	"exporting": {
         "sourceWidth": null,
         "scale": 5,
-        buttons: {
-            contextButton: {
+        "buttons": {
+            "contextButton": {
                 "text": "",
-                menuItems: Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8)                
+                "menuItems": Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8)                
             }
         }
     },
-    navigation: {
-        menuItemStyle: {
-            fontFamily: Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
-            padding: '0px 10px'
+    "navigation": {
+        "menuItemStyle": {
+            "fontFamily": Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
+            "padding": '0px 10px'
         }
     }
 });
