@@ -1653,5 +1653,28 @@
 "template":"befragungen001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10_c"]
+},
+{"title":"Materiell Unterstützung von Arbeitskollegen, Freunden und Bekannten oder Nachbarn",
+"kuerzel":"I.50.4.0004",
+"kuerzelKunde":"1.1.02",
+"image":"images/I.50.4.0004.jpg",
+"description":"Materiell Unterstützung von Arbeitskollegen, Freunden und Bekannten oder Nachbarn",
+"id":"4718",
+"thema":"50 Befragungen",
+"unterthema":"Befragung 55 plus",
+"kennzahlenset":"Gesellschaftlicher Zusammenhalt",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"",
+"schlagwort":["Arbeit","Hilfeleistung","Nachbarschaft"],
+"stufe1":"",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Von den Befragten erhielten 2015 rund ein Viertel materielle<br>Hilfeleistungen von Freunden und Bekannten oder von Nachbarn.<br>Tiefer liegt der Wert bei den Arbeitskollegen: von diesen bekamen 5,2% der Befragten materielle Hilfeleistungen. Jeweils rund 20% der Befragten machten keine Angaben zu diesen Fragen.",
+"methodik":"",
+"template":"befragungen001",
+"option":"options001",
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F54e"]
 }
 ];
