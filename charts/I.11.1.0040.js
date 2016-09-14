@@ -5,14 +5,14 @@ chartOptions['I.11.1.0040'] = {
 	"yAxis": {
 		"labels": {
             "formatter": function(){
-                return Highcharts.numberFormat((this.value), 0, ".", " ");                
+                return Highcharts.numberFormat((this.value), 2, ".", " ");                
             }
         }		
     },
 	"tooltip": {
         "pointFormatter": function(){
             //rank is calculated from index, thus data needs to be sorted by rank ascending.
-            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>Fr. ' + Highcharts.numberFormat(this.y, 0, "," ," ") + '</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
+            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>' + Highcharts.numberFormat(this.y,3,",", "") + '</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'               
         }
     }
 };

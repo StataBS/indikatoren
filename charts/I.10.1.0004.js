@@ -18,7 +18,7 @@ chartOptions['I.10.1.0004'] = {
     "labels": {
       "format": "{value:,.0f}"
     }
-  },
+	  },
   "tooltip": {
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
     "shared": false
@@ -45,7 +45,7 @@ chartOptions['I.10.1.0004'] = {
     }        
   ],
   "chart": {    
-    "marginBottom": 75,
+    	"marginBottom": 75,
     "marginTop": 75,
     "type": "column"
   }
