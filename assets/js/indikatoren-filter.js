@@ -135,7 +135,7 @@ function preparePortalView(){
   $("#main-control-element-indikatorenset").remove();    
   renderThema();
   renderMultiselectDropdownFromJson(indikatoren, 'schlagwort', '#schlagwort_filter');    
-  renderMultiselectDropdownFromJson(["Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite"], '', '#raeumlicheGliederung_filter');
+  renderMultiselectDropdownFromJson(["Schweiz", "Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite"], '', '#raeumlicheGliederung_filter');
 
   //prepare query String object for filtering thema and unterthema
   var baseQuery = {};
