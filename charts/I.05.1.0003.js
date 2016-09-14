@@ -13,7 +13,7 @@ chartOptions['I.05.1.0003'] = {
   },
   "yAxis": {
     "labels": {
-      "format": "{value}"
+      "format": "{value}%"
     }    
   },
   "series": [
@@ -36,7 +36,7 @@ chartOptions['I.05.1.0003'] = {
     }
   },
   tooltip: {
-    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>',
+    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
     shared: false
   },  
   "chart": {      

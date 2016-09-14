@@ -4,9 +4,10 @@
     "labels": {
       "format": "{value:,.0f}",
     },
+  "min": 0
   },
   "xAxis": {
-    "tickInterval": 1
+    "tickInterval": 2
   },
   "series": [
     {

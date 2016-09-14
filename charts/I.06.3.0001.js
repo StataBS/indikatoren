@@ -1,10 +1,11 @@
 chartOptions['I.06.3.0001'] = {
   "yAxis": {
-    "labels": {
+    "min": 0,
+	"labels": {
       "format": "{value:,.0f}"
 	  }
-  },
-  "xAxis": {
+    },
+    "xAxis": {
 	  "tickInterval": 5
   },
   "series": [

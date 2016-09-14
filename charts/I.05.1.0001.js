@@ -1,6 +1,6 @@
 chartOptions['I.05.1.0001'] = {
   "yAxis": {
-    "min": 90,
+    "min": 0,
     "labels": {
       "format": "{value:,.0f}"
 	  }
