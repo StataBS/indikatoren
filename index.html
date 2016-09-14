@@ -231,10 +231,13 @@
     <!-- full modal chart template for portal view -->
     <script id="indikator-template-modal-portal" type="text/html">
       <div class="item">
-        <div id="container-<%= kuerzel %>" indikator-kuerzel-data="<%= kuerzel %>"></div>      
-        <h1>Lesehilfe</h1>
-        <div class='lesehilfe'><%= lesehilfe %>        
-        </div>
+        <div id="container-<%= kuerzel %>" indikator-kuerzel-data="<%= kuerzel %>"></div>
+        <!-- hide lesehilfe if empty -->
+        <div id='lesehilfe' class=<%= (lesehilfe==="" ? "'hidden'": "''" ) %>>
+          <h1>Lesehilfe</h1>
+          <div class='lesehilfe'><%= lesehilfe %>
+          </div>
+        </div>                      
         <!-- hide methodik info if empty -->
         <div id='methodik' class=<%= (methodik==="" ? "'hidden'": "''" ) %>>
           <h1>Methodik</h1>
@@ -252,10 +255,13 @@
     <!-- full modal chart template for indikatorenset view -->
     <script id="indikator-template-modal-indikatorenset" type="text/html">
       <div class="item">
-        <div id="container-<%= kuerzel %>" indikator-kuerzel-data="<%= kuerzel %>"></div>      
-        <h1>Lesehilfe</h1>
-        <div class='lesehilfe'><%= lesehilfe %>
-        </div>
+        <div id="container-<%= kuerzel %>" indikator-kuerzel-data="<%= kuerzel %>"></div>
+        <!-- hide lesehilfe if empty -->
+        <div id='lesehilfe' class=<%= (lesehilfe==="" ? "'hidden'": "''" ) %>>
+          <h1>Lesehilfe</h1>
+          <div class='lesehilfe'><%= lesehilfe %>
+          </div>
+        </div>        
         <!-- hide methodik info if empty -->
         <div id='methodik' class=<%= (methodik==="" ? "'hidden'": "''" ) %>>
           <h1>Methodik</h1>
