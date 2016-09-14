@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die grösste Ausländergruppe stammt in allen beobachteten Jahren aus Deutschland. Der Anteil der Deutschen an allen Ausländern betrug 2015 knapp 23%. Die Kategorie «übriges Ausland» enthält 2015 über 100 Staatsangehörigkeiten, die grössten Gruppen sind die Portugiesen (3'343), Personen aus dem Vereinigten Königreich (2'189) sowie die Franzosen (1'980).",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
@@ -39,7 +39,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"2015 liegt der Altersquotient der Schweizer bei 46%. Ebenso überdurchschnittlich hoch ist der Wert bei den Italienern mit 35%. Der kleinste Wert wird bei der Bevölkerung aus Süd- und Mittelamerika beobachtet.",
-"methodik":"Der Altersquotient wird wie folgt berechnet: Anzahl Personen im Alter über 64 Jahren geteilt durch Anzahl Personen im Alter zwischen 20 und 64 Jahren.",
+"erlaeuterungen":"Der Altersquotient wird wie folgt berechnet: Anzahl Personen im Alter über 64 Jahren geteilt durch Anzahl Personen im Alter zwischen 20 und 64 Jahren.",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
@@ -62,7 +62,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Der Jugendquotient für Personen aus dem ehemaligen Jugoslawien und aus der Türkei liegt über der 30%-Grenze und damit über dem Jugendquotient der Schweizer (27%)  Die kleinsten Anteile an 0- bis 19-Jährigen weisen Personen aus den EU-Oststaaten und Deutschland auf.",
-"methodik":"Der Jugendquotient wird wie folgt berechnet: Anzahl Personen im Alter von 0 bis 19 Jahren geteilt durch Anzahl Personen im Alter zwischen 20 und 64 Jahren.",
+"erlaeuterungen":"Der Jugendquotient wird wie folgt berechnet: Anzahl Personen im Alter von 0 bis 19 Jahren geteilt durch Anzahl Personen im Alter zwischen 20 und 64 Jahren.",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
@@ -85,7 +85,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Im Jahr 2015 sind im Kanton Basel-Stadt 40'481 Ausländer im Besitz eines Niederlassungsausweises. Dieser Wert stieg seit 2008 kontinuierlich, wobei vor allem Personen aus Deutschland eine Zunahme von über 4'000 Niederlassungsbewilligungen in den letzten 10 Jahren verzeichnen.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
@@ -108,7 +108,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"58% der Ausländer im Kanton Basel-Stadt besitzen eine Niederlassungsbewilligung. 2006 lag der Wert mit 63% leicht höher. Nach Bevölkerungsgruppe ist der Anteil bei den türkischen Staatsangehörigen mit 84% am grössten. Ähnlich hoch ist der Anteil bei den Personen aus dem ehemaligen Jugoslawien (82%) und Italien (76%). Bei letzeren hat der Anteil im Vergeich zum Jahr 2006 um 15 Prozentpunkte abgenommen. Eine höhere Abnahme seit 2006 weisen nur noch die Spanier auf (minus 29 Prozentpunkte).",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
@@ -131,7 +131,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Der Grossteil der ausländischen Einwohner im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpfte sogenannte Niederlassungsbewilligung. Gut halb so viele Ausländer besitzen eine Aufenthaltsbewilligung. Rückläufig war in den letzten 10 Jahren die Anzahl der ausgestellten Kurzaufenthaltsbewilligungen. Die Anzahl der vorläufig Aufgenommenen beträgt 2015 gut 650 Personen, die Anzahl Personen mit einer N-Bewilligung (Asylsuchende) liegt bei gut 400.",
-"methodik":"Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
+"erlaeuterungen":"Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
@@ -154,7 +154,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Bei Personen aus der Türkei, Italien und dem ehemaligen Jugoslawien ist der Anteil Personen mit Niederlassungsausweis überdurchschnittlich hoch. Dagegen ist bei Personen aus den EU-Oststaaten mit 18% der Anteil an Niederlassungsbewilligungen unterdurchschnittlich, der Anteil an Kurzaufenthaltsbewilligungen mit 11% im Vergleich zu den anderen ausgewählten Nationen hoch. Der Anteil Personen mit L-Bewilligungen ist bei den EU-Oststaaten höher als bei den anderen Ländern, den höchsten Anteil Asylsuchende weist die Gruppe Maghreb und Ägypten auf.",
-"methodik":"Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
+"erlaeuterungen":"Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
@@ -177,7 +177,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"2014 sind in Basel-Stadt rund 75'000 Personen über 15 Jahren Schweizer ohne Migrationshintergrund. Etwa 29'000 Personen sind Schweizer mit Migrationshintergrund und insgesamt 55'000 Personen sind ausländischer Herkunft. Von den Ausländern sind die meisten Ausländer der ersten Generation. Rund 4'000 Personen sind Ausländer der zweiten Generation und nur etwa 200 sind Ausländer der dritten Generation, also Ausländer ohne Migrationshintergrund.",
-"methodik":"Ausländer der 1. Generation: Im Ausland geboren; Ausländer der 2. Generation: Mindestens 1 Elternteil im Ausland geboren; Ausländer der 3. Generation: Beide Elternteile in der Schweiz geboren. Wenn mindestens 1 Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über.",
+"erlaeuterungen":"Ausländer der 1. Generation: Im Ausland geboren; Ausländer der 2. Generation: Mindestens 1 Elternteil im Ausland geboren; Ausländer der 3. Generation: Beide Elternteile in der Schweiz geboren. Wenn mindestens 1 Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über.",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Bundesamt für Statistik BFS, Strukturerhebung (SE)"]
@@ -200,7 +200,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"2015 war die ausländische Bevölkerung weniger stark auf einzelne Gemeinden und Wohnviertel konzentriert als noch 2006. Der Segregationsindex, ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen, sank für die Ausländer zwischen 2006 und 2015 von 24,5 auf 18,7. Von den hier ausgewählten Bevölkerungsgruppen wiesen Ende 2015 Personen aus dem ehemaligen Jugoslawien und Türken die höchsten Segregationsindices auf (32,7 und 30,8). Der niedrigste Index ergab sich für die Deutschen (7,7).",
-"methodik":"Der Segregationsindex misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betracheten Gruppe interpretieren, der umziehen müsste, um gleich über ein Gebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 würde bedeuten, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross wäre.",
+"erlaeuterungen":"Der Segregationsindex misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betracheten Gruppe interpretieren, der umziehen müsste, um gleich über ein Gebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 würde bedeuten, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross wäre.",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
@@ -223,7 +223,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Knapp 50% aller in Basel-Stadt wohnhaften Schweizer lebt seit mindestens 12 Jahren ununterbrochen im selben Quartier. Die Anzahl Schweizer insgesamt nahm in den letzten Jahren leicht ab (rechte Skala). Bei den Ausländern ist der Anteil an Personen, welche schon mindestens 12 Jahre im gleichen Wohnviertel resp. in derselben Landgemeinde wohnen mit rund 20% deutlich tiefer als bei den Schweizern. Der Grossteil der in Basel-Stadt wohnhaften Ausländer (66%) ist im Ausland geboren und lebt seit weniger als 12 Jahren im selben Wohnviertel. Die Gesamtzahl an Ausländern stieg kontinuierlich an (rechte Skala).",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
@@ -246,7 +246,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Von 2005 bis 2015 ist die Anzahl Einwohnerinnen und Einwohner im Kanton Basel-Stadt um 4,9% angestiegen.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
@@ -269,7 +269,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Anzahl volljähriger Personen mit Hauptwohnsitz in Basel-Stadt nimmt stetig leicht zu. Diese Personen versteuern ihr Einkommen oder ihre Vermögenswerte, falls vorhanden, in der Regel in Basel-Stadt.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Bundesamt für Statistik BFS, STATPOP"]
@@ -292,7 +292,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"methodik":"Anteil der ausländischen Wohnbevölkerung an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
+"erlaeuterungen":"Anteil der ausländischen Wohnbevölkerung an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 "template":"dotplot",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
@@ -315,7 +315,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"methodik":"Anteil der über 64-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
+"erlaeuterungen":"Anteil der über 64-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
 "template":"dotplot",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
@@ -338,7 +338,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"methodik":"Anteil der seit mindestens 10 Jahren am gleichen Wohnsitz wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
+"erlaeuterungen":"Anteil der seit mindestens 10 Jahren am gleichen Wohnsitz wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 "template":"dotplot",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
@@ -361,7 +361,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"methodik":"Anteil der seit mindestens 10 Jahren am gleichen Wohnsitz wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
+"erlaeuterungen":"Anteil der seit mindestens 10 Jahren am gleichen Wohnsitz wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 "template":"dotplot",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
@@ -384,7 +384,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":[]
@@ -407,7 +407,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen rund 47% aus.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
@@ -430,7 +430,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Der Anteil kinderloser Familien ist leicht rückläufig. Er sank von 41,3% im Jahr 2011 auf 39,1% im Jahr 2014.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
@@ -453,7 +453,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"methodik":"Anteil der Personen in Einpersonenhaushalte an allen Privathaushalten des Wohnviertels in Prozent.",
+"erlaeuterungen":"Anteil der Personen in Einpersonenhaushalte an allen Privathaushalten des Wohnviertels in Prozent.",
 "template":"dotplot",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
@@ -476,7 +476,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Im Jahr 2015 wiesen die Deutschen die höchste Rückwanderungsquote ins Herkunftsland auf. Die niedrigsten Quoten ergaben sich für Personen aus dem ehemaligen Jugoslawien und aus der Türkei. Seit 2006 am stärksten zugenommen hat die Rückwanderungsquote der Deutschen, am stärksten abgenommen jene der Spanier. Die Rückwanderungsquote der Ausländer insgesamt ist von 2006 bis 2015 von 51,6 auf 58,6 gestiegen.",
-"methodik":"Die Rückwanderungsquote ist wie folgt definiert: Anzahl Personen, welche ins Land ihrer Herkunft (nicht in das Land, aus dem sie zugezogen sind) resp. in die entsprechende Ländergruppe abwandern pro 1000 Personen einer Ländergruppe. Die Rückwanderungsquote «Ausland», also von allen Ausländern zusammen, ist definiert als die Anzahl der ins Ausland (egal, ob Herkunftsland oder nicht) weggezogenen Ausländer pro 1000 Personen der ausländischen Wohnbevölkerung, Aus diesem Grund liegt die Rückwanderungsquote «Ausland» auch vergleichsweise hoch.",
+"erlaeuterungen":"Die Rückwanderungsquote ist wie folgt definiert: Anzahl Personen, welche ins Land ihrer Herkunft (nicht in das Land, aus dem sie zugezogen sind) resp. in die entsprechende Ländergruppe abwandern pro 1000 Personen einer Ländergruppe. Die Rückwanderungsquote «Ausland», also von allen Ausländern zusammen, ist definiert als die Anzahl der ins Ausland (egal, ob Herkunftsland oder nicht) weggezogenen Ausländer pro 1000 Personen der ausländischen Wohnbevölkerung, Aus diesem Grund liegt die Rückwanderungsquote «Ausland» auch vergleichsweise hoch.",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
@@ -499,7 +499,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Knapp 60% aller Ausländer leben weniger als 12 Jahre ununterbrochen in Basel-Stadt. Ein Blick auf die Zeitreihe zeigt, dass sich in den letzten 10 Jahren der Anteil derer, die seit mindestens 12 Jahren<br>in Basel-Stadt wohnen, kontinuierlich verringert hat. Dagegen hat der Anteil Ausländer, der  weniger als 12 Jahre hier lebt, zugenommen. Knapp 12% der Ausländer sind in Basel-Stadt geboren und leben seither ununterbrochen im Kanton. Insgesamt sind 2015 knapp 17% aller in Basel-Stadt wohnhaften Ausländer in Basel-Stadt geboren.",
-"methodik":"Die Kategorie «Geboren in Basel-Stadt ohne Wegzug» umfasst Personen, welche in Basel-Stadt geboren wurden und seit Geburt immer in Basel-Stadt wohnhaft waren.",
+"erlaeuterungen":"Die Kategorie «Geboren in Basel-Stadt ohne Wegzug» umfasst Personen, welche in Basel-Stadt geboren wurden und seit Geburt immer in Basel-Stadt wohnhaft waren.",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
@@ -522,7 +522,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"2015 überstiegen bei Deutschen und Italienern die Rückwanderungsquoten der 15- bis 64-Jährigen jene der 65-Jährigen und Älteren. Bei Spaniern, Türken und Personen aus dem ehemaligen Jugoslawien verhielt es sich umgekehrt. Die Zahl älterer Maghrebiner und Ägypter, älterer Personen aus den EU-Oststaaten<br>sowie älterer Mittel- und Südamerikaner ist sehr gering, sodass die Rückwanderungsquoten dieser Ausländergruppen kaum Aussagen zu deren Wanderungsverhalten zulassen.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
@@ -545,7 +545,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"In Basel-Stadt wurden im Jahr 2015 pro 1000 Ausländer 16,8 eingebürgert (ordentliche und erleichterte Einbürgerungen). 2006 hatte diese Einbürgerungsziffer noch bei 19,4 gelegen. 2015 wiesen die Personen aus dem Maghreb und aus Ägypten die höchste Einbürgerungsziffer auf (35,3).  Insgesamt sind die Einbürgerungsziffern im Vergleich zu 2006 zurückgegangen.",
-"methodik":"Für eine ordentliche Einbürgerung muss eine Person u. a. zwölf Jahre in der Schweiz gewohnt haben. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die insgesamt fünf Jahre in der Schweiz gelebt haben und seit drei Jahren verheiratet sind. Ehepartner, die nicht in der Schweiz leben, müssen sechs Jahre verheiratet sein und eng mit der Schweiz verbunden sein.",
+"erlaeuterungen":"Für eine ordentliche Einbürgerung muss eine Person u. a. zwölf Jahre in der Schweiz gewohnt haben. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die insgesamt fünf Jahre in der Schweiz gelebt haben und seit drei Jahren verheiratet sind. Ehepartner, die nicht in der Schweiz leben, müssen sechs Jahre verheiratet sein und eng mit der Schweiz verbunden sein.",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
@@ -568,7 +568,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"methodik":"Anteil der konfessionslosen Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
+"erlaeuterungen":"Anteil der konfessionslosen Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 "template":"dotplot",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
@@ -591,7 +591,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Grafik zeigt den Anteil der Bevölkerung über 15 Jahre in Basel-Stadt, der zu Hause Deutsch spricht, gruppiert nach verschiedenen Herkunftsländern. Rund 94% der Schweizer in Basel-Stadt geben im Jahr 2014 an, zu Hause unter anderem deutsch zu sprechen (die Angabe von mehreren Sprachen ist möglich). Bei den Personen aus Deutschland, Österreich und Liechtenstein sind es etwa 97%. Personen aus anderen Herkunftsländern sprechen in 42% zu Hause deutsch.",
-"methodik":"Die Strukturerhebung ist eine Stichprobenerhebung bei rund 5 000 in Basel-Stadt wohnhaften Personen im Alter über 15 Jahren.",
+"erlaeuterungen":"Die Strukturerhebung ist eine Stichprobenerhebung bei rund 5 000 in Basel-Stadt wohnhaften Personen im Alter über 15 Jahren.",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Bundesamt für Statistik BFS, Strukturerhebung (SE)"]
@@ -614,7 +614,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Freiraumflächen erreichten 2012 ihren Höchstwert. Seither reduzierten sich diese Flächen leicht, weil Schulhauserweiterungen auf Kosten von Sportanlagen vorgenommen worden waren oder die Voltamatte umgestaltet worden war. Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Geodaten Basel-Stadt"]
@@ -637,7 +637,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"methodik":"Anteil der Grünfläche an der gesamten Fläche des Wohnviertels in Prozent.",
+"erlaeuterungen":"Anteil der Grünfläche an der gesamten Fläche des Wohnviertels in Prozent.",
 "template":"dotplot",
 "option":"options001",
 "quellenangabe":["Grundbuch- und Vermessungsamt  Basel-Stadt"]
@@ -660,7 +660,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Insgesamt sind im Mittel der Jahre 2010 bis 2014 etwa 73% der Personen im erwerbsfähigen Alter (19 bis 64 Jahre) in Basel-Stadt erwerbstätig. Während Schweizer in 74% der Fälle erwerbstätig sind, liegt dieser Anteil bei Ausländern bei rund 71%. Grössere Unterschiede offenbaren sich zwischen verschiedenen Ausländergruppen: Während Personen aus Deutschland in 87% der Fälle erwerbstätig sind, liegen Personen aus den östlichen EU-Staaten sowie Spanier bei 75%.  Die Zahlen basieren allerdings auf Schätzungen. Vor allem die Ergebnisse für kleinere Personengruppen sind mit einer gewissen Unsicherheit behaftet. Die schwarzen Linien geben jeweils die Konfidenzintervalle auf dem 95%-Niveau an.",
-"methodik":"Konfidenzintervall 95%: Mit einer Wahrschenilchkeit von 95% befindet sich der wahre Wert zwischen der oberen und der unteren Grenze des Intervalls.",
+"erlaeuterungen":"Konfidenzintervall 95%: Mit einer Wahrschenilchkeit von 95% befindet sich der wahre Wert zwischen der oberen und der unteren Grenze des Intervalls.",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Bundesamt für Statistik BFS, Strukturerhebung (SE)"]
@@ -683,7 +683,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Arbeitslosigkeit betrifft die ausländische Bevölkerung stärker als die Schweizer. Die Arbeitslosenquote der Ausländer liegt in Basel-Stadt<br>seit 2011 im Jahresdurchschnitt relativ konstant bei rund 4,5%, während die Arbeitslosenquote der Schweizer bei rund 2,8% liegt.  Die höchsten Quoten werden bei den Personen aus der Türkei und aus den EU-Ost-Ländern registriert. Die tiefsten Quoten betreffen die Deutschen.",
-"methodik":"Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu gewährleisten, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Sturkturerhebungen 2010-2014 verwendet worden. Damit sind diese Ergebnisse nicht direkt mit den offiziellen Arbeitslosenquoten vergleichbar, die vom seco und vom Statistischen Amt des Kantons Basel-Stadt veröffentlicht werden und welche im Nenner die Erwerbspersonen des Jahres 2010 verwenden.",
+"erlaeuterungen":"Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu gewährleisten, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Sturkturerhebungen 2010-2014 verwendet worden. Damit sind diese Ergebnisse nicht direkt mit den offiziellen Arbeitslosenquoten vergleichbar, die vom seco und vom Statistischen Amt des Kantons Basel-Stadt veröffentlicht werden und welche im Nenner die Erwerbspersonen des Jahres 2010 verwenden.",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Bundesamt für Statistik BFS, Strukturerhebung (SE)","Staatssekretariat für Wirtschaft SECO"]
@@ -706,7 +706,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"methodik":"Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (16 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent.",
+"erlaeuterungen":"Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (16 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent.",
 "template":"dotplot",
 "option":"options001",
 "quellenangabe":["Staatssekretariat für Wirtschaft SECO"]
@@ -729,7 +729,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"methodik":"Anzahl Arbeitsplätze (Beschäftigtenzahl in Vollzeitäquivalenten einschliesslich Beschäftigter, die nicht im Kanton wohnen, aber hier arbeiten) an der gesamten Wohnbevölkerung des Wohnviertels.",
+"erlaeuterungen":"Anzahl Arbeitsplätze (Beschäftigtenzahl in Vollzeitäquivalenten einschliesslich Beschäftigter, die nicht im Kanton wohnen, aber hier arbeiten) an der gesamten Wohnbevölkerung des Wohnviertels.",
 "template":"dotplot",
 "option":"options001",
 "quellenangabe":["Bundesamt für Statistik BFS, STATENT"]
@@ -752,7 +752,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"methodik":"Anteil als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (16 bis 64 Jahre) in Prozent, jeweils Ende Jahr Quelle: SECO (Anzahl Arbeitslose) und Bundesamt für Statistik, Strukturerhebung (Erwerbspersonen).",
+"erlaeuterungen":"Anteil als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (16 bis 64 Jahre) in Prozent, jeweils Ende Jahr Quelle: SECO (Anzahl Arbeitslose) und Bundesamt für Statistik, Strukturerhebung (Erwerbspersonen).",
 "template":"dotplot",
 "option":"options001",
 "quellenangabe":["Staatssekretariat für Wirtschaft SECO"]
@@ -775,7 +775,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Branchengruppe Bau (inkl. Herstellung von Waren) macht mit über 12,5 Mrd. Franken im Jahr 2013 wie in sämtlichen anderen Beobachtungsjahren den grössten Anteil an der Bruttowertschöpfung des Kantons Basel-Stadt aus.",
-"methodik":"Bau umfasst: Bergbau und Gewinnung von Steinen und Erden, Herstellung von Waren, Bau; Handel und Gewerbe umfasst: Handel und Reparatur von Fahrzeugen, Transport, Informationsdienstleistungen und Telekommunikation, Beherbergung und Gastronomie; Kunst und Wissenschaft umnfasst: Grundstücks- und Wohnungswesen, sonstige freiberufliche, wissenschaftliche und technische Tätigkeiten, wirtschaftlichen Dienstleistungen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen; Finanzen und Versicherungen umfasst: Erbringung von Finanzdienstleistungen und Versicherungen; Entsorgung und Bildung umfasst: Energieversorgung, Wasserversorgung, Sammlung, Behandlung und Beseitigung von Abfällen, Erziehung und Unterricht, Gesundheitswesen; Private Haushalte umfasst: Private Haushalte als Hersteller; Landwirtschaft umfasst: Landwirtschaft, Forstwirtschaft und Fischerei.",
+"erlaeuterungen":"Bau umfasst: Bergbau und Gewinnung von Steinen und Erden, Herstellung von Waren, Bau; Handel und Gewerbe umfasst: Handel und Reparatur von Fahrzeugen, Transport, Informationsdienstleistungen und Telekommunikation, Beherbergung und Gastronomie; Kunst und Wissenschaft umnfasst: Grundstücks- und Wohnungswesen, sonstige freiberufliche, wissenschaftliche und technische Tätigkeiten, wirtschaftlichen Dienstleistungen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen; Finanzen und Versicherungen umfasst: Erbringung von Finanzdienstleistungen und Versicherungen; Entsorgung und Bildung umfasst: Energieversorgung, Wasserversorgung, Sammlung, Behandlung und Beseitigung von Abfällen, Erziehung und Unterricht, Gesundheitswesen; Private Haushalte umfasst: Private Haushalte als Hersteller; Landwirtschaft umfasst: Landwirtschaft, Forstwirtschaft und Fischerei.",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Bundesamt für Statistik BFS, Volkswirtschaftliche Gesamtrechnung"]
@@ -798,7 +798,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Entwicklung des BIP pro Kopf verläuft in Basel-Stadt und der Schweiz parallel, allerdings in Basel-Stadt auf doppelt so hohem Niveau. 2013 liegt das Basler BIP mit rund 165'000 Franken pro Kopf gut 87'000 Franken über dem Schweizer BIP.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Bundesamt für Statistik BFS, Volkswirtschaftliche Gesamtrechnung"]
@@ -821,7 +821,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Seit 1983 ist das Preisniveau im Jahresmittel um 60% gestiegen.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Bundesamt für Statistik BFS"]
@@ -844,7 +844,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Seit 2000 war die Jahresteuerung sowohl in Basel-Stadt als auch in der Schweiz 4 Mal negativ, letztmals 2015 mit -1,1 bzw. -1,2 Prozent.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt","Bundesamt für Statistik BFS"]
@@ -867,7 +867,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Seit 2000 hat der Ausfuhrüberschuss markant zugenommen. 2015 betrug der Warenwert der aus Basel-Stadt exportierten Güter das Zehnfache der Einfuhren, vor 15 Jahren machte der Exportwert das Doppelte der Importe aus.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Eidgenössische Zollverwaltung EZV"]
@@ -890,7 +890,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Seit den 1990er Jahren hat sich die jährliche Anzahl Betreibungen im Kanton Basel-Stadt von 40'000 auf knapp 80'000 Fälle verdoppelt.",
-"methodik":"Dies ist ein Test",
+"erlaeuterungen":"Dies ist ein Test",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Beitreibungs- und Konkursamt Basel-Stadt"]
@@ -913,7 +913,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Sowohl die Anzahl landwirtschaftlicher Betriebe als auch die Nutzfläche sind in den letzten Jahren rückläufig.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Bundesamt für Statistik BFS"]
@@ -936,7 +936,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Der Anteil der selbstgenutzten Eigentümerwohnungen, das heisst Wohnungen, welche vom Wohnungs- bzw. Gebäudeeigentümer bewohnt werden, ist nahezu unverändert.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"]
@@ -959,7 +959,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Seit 2008 steigt der gesamte Wohnungsbestand leicht und stetig an. Am stärksten war das Wachstum bei den Fünfzimmerwohnungen (+13% seit 2005). Rückläufig bzw. nahezu unverändert war dagegen die Entwicklung bei den Ein- und Zweizimmerwohnungen (-7% bzw. +0,3%).",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"]
@@ -982,7 +982,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Am zahlreichsten sind 2014 nach Zimmerzahl betrachtet die 3-Zimmerwohnungen (37%) und nach Wohnungsflächenkategorie Logis zwischen 70 und 99 Quadratmetern (35%).",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"]
@@ -1005,7 +1005,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Seit 2011 ist der Umbausaldo positiv. Der sprunghafte Anstieg 2014 ist auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume (Büros) zu Wohnungen zurückzuführen. 2015 prägten neben Dachstockausbauten viele Zweckentfremdungen von Wohnungen den Umbausaldo.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"]
@@ -1028,7 +1028,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Seither liegt die Zahl bei rund 42 Quadratmetern.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"]
@@ -1051,7 +1051,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2015 rund 10%. Er ist leicht rückläufig.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"]
@@ -1074,7 +1074,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Der Anteil Wohnungen mit mehr als 4 Zimmern stieg zum einen in der Dekade der 1970er-Jahre, und zwar um 2,6 Prozentpunkte. Zum anderen nimmt der Anteil seit 2010 wieder zu. Dazwischen war kaum oder nur marginales Wachstum zu verzeichnen.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"]
@@ -1097,7 +1097,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"methodik":"Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
+"erlaeuterungen":"Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
 "template":"dotplot",
 "option":"options001",
 "quellenangabe":["Kantonale Baustatistik"]
@@ -1120,7 +1120,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"methodik":"Anteil der Einfamilienhäuser an allen Gebäuden des Wohnviertels in Prozent.",
+"erlaeuterungen":"Anteil der Einfamilienhäuser an allen Gebäuden des Wohnviertels in Prozent.",
 "template":"dotplot",
 "option":"options001",
 "quellenangabe":["Kantonale Baustatistik"]
@@ -1143,7 +1143,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"methodik":"Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen).",
+"erlaeuterungen":"Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen).",
 "template":"dotplot",
 "option":"options001",
 "quellenangabe":["Kantonale Baustatistik"]
@@ -1166,7 +1166,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"methodik":"Mittlere verfügbare Wohnfläche pro Einwohner im Wohnviertel (gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen).",
+"erlaeuterungen":"Mittlere verfügbare Wohnfläche pro Einwohner im Wohnviertel (gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen).",
 "template":"dotplot",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik","Kantonale Baustatistik"]
@@ -1189,7 +1189,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"2015 wurde dank einer sehr hohen Anzahl Neubauten trotz verhältnismässig vielen Abbrüchen eine Nettowohnungsproduktion von über 600 Wohnungen verzeichnet.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"]
@@ -1212,7 +1212,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Eigentumsquote steigt langsam an. Gezählt werden Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt wird.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"]
@@ -1235,7 +1235,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Es werden nur neu erstellte Wohnungen in Neubauten berücksichtigt. Neue Wohnungen aus Umbauten sind demnach nicht enthalten. Dank der Grossprojekte im Gebiet Erlenmatt West wurden im Jahr 2015 an die 800 Wohnungen neu erstellt. Der Zehnjahresdurchschnitt steigt damit auf rund 350.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"]
@@ -1258,7 +1258,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Mietpreisentwicklung der Leerwohnungen ist im Zehnjahresvergleich leicht ansteigend. Da es grundsätzlich wenig leerstehende 5-Zimmerwohnungen gibt, sind die ausgewiesenen Durchschnittsmieten in dieser Kategorie grösseren Schwankungen unterworfen bzw. können wie im Jahr 2014 aufgrund zu kleiner Stichprobe gar nicht berechnet werden. Bei den Mietpreisen für Leerwohnungen handelt es sich um Angebotsmieten, nicht um Bestandsmieten.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, Leerstandserhebung"]
@@ -1281,7 +1281,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die kantonale Leerwohnungsquote erfuhr von 2006 bis 2014 einen steten Rückgang. Von 2014 bis 2015 ist sie für alle Wohnungstypen unabhängig von der Zimmerzahl angestiegen.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, Leerstandserhebung"]
@@ -1304,7 +1304,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Leerwohnungsquote liegt 2015 für Wohnungen aller Flächenkategorien höher als noch 2014. Sowohl 2014 wie auch 2015 stieg die Leerwohnungsquote bei den Wohnungen ab 50 Quadratmetern mit zunehmender Wohnfläche.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["kantonale Leerstandserhebung","Bundesamt für Statistik BFS, STATENT"]
@@ -1327,7 +1327,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Seit 2008 ist bei allen Zimmerkategorien eine steigende Tendenz der Mietpreise (Nettomieten) zu beobachten. Es handelt sich hier im Gegensatz zu den Mietpreisen der Leerwohnungen um Bestandsmieten.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, Mietpreiserhebung"]
@@ -1350,7 +1350,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Nettomietpreise der Genossenschaftswohnungen sind in den letzten 10 Jahren im Durchschnitt ein Drittel günstiger als die Mietpreise der Mietwohnungen.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, Mietpreiserhebung"]
@@ -1373,7 +1373,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Seit 2008 zählt Basel jährlich über 1 Million Logiernächte. Ein Drittel geht auf das Konto von inländischen Gästen.",
-"methodik":"Logiernächte: Anzahl der durch die Gäste (Kinder eingeschlossen) in einem bestimmten Hotelbetrieb verbrachten Nächte.",
+"erlaeuterungen":"Logiernächte: Anzahl der durch die Gäste (Kinder eingeschlossen) in einem bestimmten Hotelbetrieb verbrachten Nächte.",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, Tourismusstatistik"]
@@ -1396,7 +1396,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Seit 1990 haben sich sowohl die verfügbaren Betten als auch die Logiernächte verdoppelt.",
-"methodik":"Logiernächte: Anzahl der durch die Gäste (Kinder eingeschlossen) in einem bestimmten Hotelbetrieb verbrachten Nächte.<br/>Verfügbare Betten: Anzahl der Betten in den geöffneten Betrieben, im Durchschnitt der betreffenden Periode.",
+"erlaeuterungen":"Logiernächte: Anzahl der durch die Gäste (Kinder eingeschlossen) in einem bestimmten Hotelbetrieb verbrachten Nächte.<br/>Verfügbare Betten: Anzahl der Betten in den geöffneten Betrieben, im Durchschnitt der betreffenden Periode.",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, Tourismusstatistik"]
@@ -1419,7 +1419,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"methodik":"Der Motorisierungsgrad berechnet die Anzahl privater Personenwagen auf 1000 Einwohner.",
+"erlaeuterungen":"Der Motorisierungsgrad berechnet die Anzahl privater Personenwagen auf 1000 Einwohner.",
 "template":"dotplot",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"]
@@ -1442,7 +1442,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"In den beiden Landgemeinden haben die Haushalte im Schnitt am meisten Personenwagen, in der Kleinbasler Altstadt am wenigsten.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"]
@@ -1465,7 +1465,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Seit 1990 hat sich die Summe der Grundpfandverschreibungen von 14 auf 28 Millionen verdoppelt.",
-"methodik":"Zur Sicherung einer Forderung kann ein Grundstück mit einem Grundpfandrecht verpfändet werden. In Basel-Stadt kann dies in Form eines Schuldbriefs oder einer Grundpfandverschreibung erfolgen.",
+"erlaeuterungen":"Zur Sicherung einer Forderung kann ein Grundstück mit einem Grundpfandrecht verpfändet werden. In Basel-Stadt kann dies in Form eines Schuldbriefs oder einer Grundpfandverschreibung erfolgen.",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Grundbuch- und Vermessungsamt  Basel-Stadt"]
@@ -1488,7 +1488,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist seit 2008 stark angestiegen.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen BISS"]
@@ -1511,7 +1511,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die ausbezahlten Familienmietzinsbeiträge sind seit 2007 stark angestiegen. Der durchschnittliche Beitrag pro Haushalt wuchs in diesem Zeitraum von knapp 3 000 Franken auf rund 4 800 Franken.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, Amt für Sozialbeiträge Basel-Stadt"]
@@ -1534,7 +1534,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die wenigen Notwohnungen – 2015 machten sie 0,17% des Wohnungsbestandes aus – waren immer zu über 90% belegt. Durch Aufstockungen bestehender Blockrandsiedlungen konnte das Angebot seit 2013 um 50 Logis erhöht werden.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, Sozialhilfe Basel"]
@@ -1557,7 +1557,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"methodik":"Anteil Sozialhilfeempfänger an der Wohnbevölkerung des Wohnviertels in Prozent.",
+"erlaeuterungen":"Anteil Sozialhilfeempfänger an der Wohnbevölkerung des Wohnviertels in Prozent.",
 "template":"dotplot",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Sozialhilfestatistik"]
@@ -1580,7 +1580,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Lehrabbruchquote zeigt den Anteil der Lehrvertragsauflösungen an den Basler Berufsfachschulen gemessen an allen abgeschlossenen Lehrverträgen. Im Zeitraum zwischen 2011 und 2015 liegt die Quote bei Lernenden mit ausländischem Pass stehts höher als die Quote der Schweizerinnen und Schweizer, wobei sämtliche Quoten generell relativ nahe beieinander liegen.",
-"methodik":"Es handelt sich um Personen mit Lehrverträgen an Basler Berufsfachschulen, unabhängig vom Wohnort der Lehrabsolventen.",
+"erlaeuterungen":"Es handelt sich um Personen mit Lehrverträgen an Basler Berufsfachschulen, unabhängig vom Wohnort der Lehrabsolventen.",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Erziehungsdepartement, Fachstelle Lehraufsicht"]
@@ -1603,7 +1603,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Mit Ausnahme von 2014 liegt die Gymnasialquote der Schweizer mindestens doppelt so hoch wie diejenige der Ausländer; tendenziell nähern sich die beiden Quoten allerdings an. Die Quote der Schüler mit deutscher Staatsbürgerschaft liegt deutlich höher als diejenige der Schweizer. Der Abstand verringerte sich seit 2014 allerdings deutlich. Die übrigen Staatsangehörigkeiten, deren Schülerzahl eine noch aussagekräftige Berechnungsbasis bildet, folgen mit grossem Abstand nach Deutschland und der Schweiz.",
-"methodik":"Die Gymnasialquote weist den Anteil Gymnasiasten an allen Schülern des 8. und 9. Schuljahres (nach HarmoS-Zählweise der Stufen 10 und 11) aus. Es werden nur Jugendliche berücksichtigt, deren Eltern im Kanton Basel-Stadt wohnen. Für einzelne Ländergruppen konnte aufgrund zu kleiner Fallzahlen keine Gymnasialquote errechnet werden. Jährliche Schwankungen (Bsp. Spanien) können zum Teil ebenfalls damit begründet werden.",
+"erlaeuterungen":"Die Gymnasialquote weist den Anteil Gymnasiasten an allen Schülern des 8. und 9. Schuljahres (nach HarmoS-Zählweise der Stufen 10 und 11) aus. Es werden nur Jugendliche berücksichtigt, deren Eltern im Kanton Basel-Stadt wohnen. Für einzelne Ländergruppen konnte aufgrund zu kleiner Fallzahlen keine Gymnasialquote errechnet werden. Jährliche Schwankungen (Bsp. Spanien) können zum Teil ebenfalls damit begründet werden.",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bildungsstatistik"]
@@ -1626,7 +1626,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"methodik":"Anteil der Gymnasiasten an allen Schülern der 10. und 11. Schulstufe des Wohnviertels an öffentlichen Schulen und mit Elternwohnort Basel-Stadt (Schulstufen einschliesslich zweier obligatorischer Kindergartenstufen gezählt).",
+"erlaeuterungen":"Anteil der Gymnasiasten an allen Schülern der 10. und 11. Schulstufe des Wohnviertels an öffentlichen Schulen und mit Elternwohnort Basel-Stadt (Schulstufen einschliesslich zweier obligatorischer Kindergartenstufen gezählt).",
 "template":"dotplot",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bildungsstatistik"]
@@ -1649,7 +1649,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Seit 2002 besuchen über 1 Million Personen die Basler Museen pro Jahr. Ausstellungen mit internationaler Strahlkraft wirken sich wie z.B. 2004 Tutanchamun oder 2009 Van Gogh positiv auf die Besuchszahlen aus.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Präsidialdeparteent des Kantons Basel-Stadt, Abteilung Kultur"]
@@ -1672,7 +1672,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Bei nationalen Wahlen liegt die Wahlbeteiligung im Stadtkanton rund 10 Prozentpunkte höher als bei den Wahlen ins kantonale Parlament. Ein klarer Trend hin zu höheren oder niedrigeren Wahlbeteiligungen lässt sich aufgrund der wenigen Ereignisse im Beobachtungszeitraum hingegen nicht feststellen.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Staatskanzlei Basel-Stadt"]
@@ -1695,7 +1695,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Grossratskandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im basel-städtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase erstmals wieder rückläufig.",
-"methodik":"Der Grosse Rat umfasst seit den Gesamterneuerungswahlen 2008 gemäss der neuen, 2005 vom Basler Stimmvolk verabschiedeten Kantonsverfassung nur noch 100 Grossratssitze.",
+"erlaeuterungen":"Der Grosse Rat umfasst seit den Gesamterneuerungswahlen 2008 gemäss der neuen, 2005 vom Basler Stimmvolk verabschiedeten Kantonsverfassung nur noch 100 Grossratssitze.",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Staatskanzlei Basel-Stadt"]
@@ -1718,7 +1718,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Seit 2009 ist der Saldo des Steuerertrages bei den Zugezogenen höher als bei den Wegzügern. Bei den Weggezogenen wurden die Steuerdaten des jeweiligen Vorjahres verwendet. Zugezogene Ausländer wurden ab Vorliegen einer Niederlassungsbewilligung mitberücksichtigt.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"]
@@ -1741,7 +1741,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"methodik":"Mittlere Vermögenssteuer der steuerpflichtigen Personen im Wohnviertel (ordentliche Veranlagungen, totaler Steuerertrag geteilt durch die Anzahl Veranlagungen).",
+"erlaeuterungen":"Mittlere Vermögenssteuer der steuerpflichtigen Personen im Wohnviertel (ordentliche Veranlagungen, totaler Steuerertrag geteilt durch die Anzahl Veranlagungen).",
 "template":"dotplot",
 "option":"options001",
 "quellenangabe":["kantonale Leerstandserhebung"]
@@ -1764,7 +1764,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"methodik":"Mittlere Einkommenssteuer der steuerpflichtigen Personen im Wohnviertel (ordentliche Veranlagungen, totaler Steuerertrag geteilt durch die Anzahl Veranlagungen).",
+"erlaeuterungen":"Mittlere Einkommenssteuer der steuerpflichtigen Personen im Wohnviertel (ordentliche Veranlagungen, totaler Steuerertrag geteilt durch die Anzahl Veranlagungen).",
 "template":"dotplot",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"]
@@ -1787,7 +1787,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Der Anteil Angestellte in der kantonalen Verwaltung nach Herkunft liegt zwischen 2008 und 2015 beim Personal mit Schweizer Pass stets mindestens viermal so hoch wie bei den ausländischen Verwaltungsangestellten. In der zweiten Hälfte des Beobachtungszeitraums hat sich dieses Ungleichgewicht sogar leicht verstärkt. Nach Staatsangehörigkeit betrachtet, sind die Deutschen (Tendenz zunehmend) sowie die Italiener (Tendenz abnehmend) und die Spanier (ebenfalls abnehmend) am besten vertreten.",
-"methodik":"Die Angestelltenquote zeigt den Anteil der Kantonsangestellten mit Wohnsitz in Basel-Stadt an allen Personen einer jeweilgen Bevölkerungsgruppe im erwerbsfähigen Alter (15- bis 64-Jährige).",
+"erlaeuterungen":"Die Angestelltenquote zeigt den Anteil der Kantonsangestellten mit Wohnsitz in Basel-Stadt an allen Personen einer jeweilgen Bevölkerungsgruppe im erwerbsfähigen Alter (15- bis 64-Jährige).",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Zentraler Personaldienst Basel-Stadt, Statistik des Staatspersonals"]
@@ -1810,7 +1810,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Zahl der Gewaltstraftaten (vorsätzliche Tötungs- und Körperverletzungsdelikte, Raub, Vergewaltigung) pro 100 000 Einwohner der mittleren Wohnbevölkerung ging von 2005 bis 2007 zurück. Danach stieg die Zahl bis zum Jahr 2011 kontinuierlich. Seither wird wieder ein Rückgang verzeichnet.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik"]
@@ -1833,7 +1833,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Hälfte der Befragten ist mit dem Wohnungsangebot \"eher zufrieden\" oder \"sehr zufrieden\". Seit der ersten Bevölkerungsbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"befragungen001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_9"]
@@ -1856,7 +1856,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Knapp die Hälfte der befragten Familien ist mit dem Wohnungsangebot im Kanton Basel-Stadt sehr oder eher zufrieden. Seit der ersten Bevölkerungsbefragung im Jahr 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"befragungen001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_9"]
@@ -1879,7 +1879,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Über 90% der Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2005 jeweils leicht angestiegen.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"befragungen001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"]
@@ -1902,7 +1902,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Gesamtzufriedenheit (eher und sehr zufrieden) der Bevölkerung mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild erreicht 2015 mit 84% den höchsten Wert seit Befragungsbeginn 2003.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"befragungen001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_13"]
@@ -1925,7 +1925,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Fast 60% der Befragten sind 2015 mit den Einrichtungen und dem Angebot für Behinderte eher bis sehr zufrieden. Dieser Wert lag 2007 noch bei 40%.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"befragungen001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_19"]
@@ -1948,7 +1948,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Mit einem Anteil von 42,2% fühlten sich weniger als die Hälfte der Befragten im Alltag sehr sicher und 49,0% fühlten sich eher sicher. Im Vergleich zu den vorherigen Befragungen fühlten sich die Befragten im Alltag weniger sicher. Am höchsten war das Sicherheitsempfinden 2005 als der Anteil derjenigen, die sich grundsätzlich sehr sicher fühlten, über 55% lag.",
-"methodik":"Gefragt wurde: «Wie sicher fühlen Sie sich ganz allgemein im Alltag?»",
+"erlaeuterungen":"Gefragt wurde: «Wie sicher fühlen Sie sich ganz allgemein im Alltag?»",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9a"]
@@ -1971,7 +1971,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Sicherheit nachts draussen wurde im Vergleich zu den<br>Vorjahren kritischer bewertet. 2015 fühlten sich 62,4% nachts im<br>Quartier sehr oder eher sicher, das sind 1,1 Prozentpunkte weniger als 2011. Der Anteil der Befragten, die sich sehr sicher fühlen, ging (im selben Zeitraum?) von 28,8 auf 24,5 Prozent zurück.",
-"methodik":"Gefragt wurde: «Sind Sie im letzten Jahr bedroht oder angegriffen worden?»",
+"erlaeuterungen":"Gefragt wurde: «Sind Sie im letzten Jahr bedroht oder angegriffen worden?»",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9b"]
@@ -1994,7 +1994,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Rund 6,2% der Befragten sind 2015 bedroht oder angegriffen worden. Dieser Anteil ist geringer als in den vorigen Befragungsjahren (nämlich???).",
-"methodik":"Gefragt wurde: «Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?»",
+"erlaeuterungen":"Gefragt wurde: «Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?»",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9d"]
@@ -2017,7 +2017,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter Basel-Stadts als eine sehr oder eher grosse Bereicherung für die Stadt. (Reihenfolge Legende: WN/KA am<br>Schluss)",
-"methodik":"Gefragt wurde: «Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Ist das eine Bereicherung für den Kanton?»",
+"erlaeuterungen":"Gefragt wurde: «Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Ist das eine Bereicherung für den Kanton?»",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18a"]
@@ -2040,7 +2040,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"2011 waren 53,1% der Befragten der Meinung, es gäbe<br>grundsätzlich zu viele Menschen aus dem Ausland im Kanton Basel-Stadt. Dieser Wert hat sich 2015 auf 46,7% reduziert.",
-"methodik":"Gefragt wurde: «Grundsätzlich gibt es einfach zu viele Menschen aus dem Ausland bei uns.»",
+"erlaeuterungen":"Gefragt wurde: «Grundsätzlich gibt es einfach zu viele Menschen aus dem Ausland bei uns.»",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18b"]
@@ -2063,7 +2063,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Der Behauptung, ohne Menschen aus dem Ausland würden wir nicht so gut leben, stimmten 2015 76,4% der Befragten sehr oder eher zu, mehr als in den Vorjahren.",
-"methodik":"Gefragt wurde: «Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.»",
+"erlaeuterungen":"Gefragt wurde: «Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.»",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18c"]
@@ -2086,7 +2086,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"71,7% der befragten Personen lebten 2015 sehr gerne an ihrem Wohnort, ein Viertel eher gerne. Insgesamt sind 96,7% der Befragten mit ihrem gegenwärtigen Wohnort zufrieden.",
-"methodik":"Gefragt wurde: «Wie gerne leben Sie insgesamt an Ihrem Wohnort?»",
+"erlaeuterungen":"Gefragt wurde: «Wie gerne leben Sie insgesamt an Ihrem Wohnort?»",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F1c"]
@@ -2109,7 +2109,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Mit einem Anteil von 96,9% wohnten 2015 mehr Leute sehr oder eher gerne in ihrem Wohnquartier als 2011 (94,8%).",
-"methodik":"Gefragt wurde: «Wie gerne leben Sie in Ihrem Wohnquartier?»",
+"erlaeuterungen":"Gefragt wurde: «Wie gerne leben Sie in Ihrem Wohnquartier?»",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F2b"]
@@ -2132,7 +2132,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Sehr oder eher gut von den Behörden vertreten fühlten sich 2015 68,2% der befragten Personen.",
-"methodik":"Gefragt wurde: «Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat die Anliegen der Bevölkerung?»",
+"erlaeuterungen":"Gefragt wurde: «Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat die Anliegen der Bevölkerung?»",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F21a"]
@@ -2155,7 +2155,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Dass die Schulen im Kanton Basel-Stadt eine gute Vorbereitung fürs Leben im Allgemeinen sind, dachten 2015 rund 43,6% der Befragten. Im Vergleich zum Jahr 2011 bedeutet dies einen Rückgang um etwa 4,4 Prozentpunkte. Insbesondere bei der starken Zustimmung zu dieser Aussage gab es eine deutliche Abnahme.",
-"methodik":"Gefragt wurde: «Die Schulen des Kantons Basel-Stadt bereiten die Jugendlichen gut fürs Leben vor.»",
+"erlaeuterungen":"Gefragt wurde: «Die Schulen des Kantons Basel-Stadt bereiten die Jugendlichen gut fürs Leben vor.»",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_1"]
@@ -2178,7 +2178,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Mit der Aussage, dass die kantonalen Behörden die<br>Chancengleichheit von Männern und Frauen zielstrebig vorantreiben, zeigten sich 51,9% der Befragten eher oder sehr einverstanden. Gesamthaft ist die Zustimmung aller Befragten seit 2007 (44,5%) beständig gestiegen.",
-"methodik":"Gefragt wurde: «Die Chancengleichheit wird von den Behörden zielstrebig vorangetrieben.»",
+"erlaeuterungen":"Gefragt wurde: «Die Chancengleichheit wird von den Behörden zielstrebig vorangetrieben.»",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_7"]
@@ -2201,7 +2201,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"73,7% der befragten Personen schätzten 2015 ihren letzten Kontakt, den sie mit der Verwaltung des Kantons Basel-Stadt hatten, als positiv ein. Das sind 3,8 Prozentpunkte weniger als vor vier Jahren, aber mehr als in der Befragung von 2007 (64,4%).",
-"methodik":"Gefragt wurde: «Denken Sie einmal an den letzten Kontakt, den Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»",
+"erlaeuterungen":"Gefragt wurde: «Denken Sie einmal an den letzten Kontakt, den Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F19a"]
@@ -2224,7 +2224,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"2015 gaben mit 56,4% die Hälfte der Befragten an, dass die kantonalen Steuern und Gebühren beibehalten werden sollen. Dieser Anteil fällt im Vergleich zu den Vorjahren deutlich höher aus.",
-"methodik":"Gefragt wurde: «Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?»",
+"erlaeuterungen":"Gefragt wurde: «Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?»",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8"]
@@ -2247,7 +2247,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"89,7% der befragten Personen ging es 2015 wirtschaftlich gesehen sehr gut oder eher gut. Im Vergleich zu 2011 entspricht dies einem Anstieg um 2,5 Prozentpunkte.",
-"methodik":"Gefragt wurde: «Wie geht es Ihnen wirtschaftlich gesehen im Moment?»",
+"erlaeuterungen":"Gefragt wurde: «Wie geht es Ihnen wirtschaftlich gesehen im Moment?»",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14b"]
@@ -2270,7 +2270,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Mit der Aussage, dass alle Kinder dieselben Bildungschancen erhalten würden, zeigten sich im Jahr 2015 46,9% der Befragten einverstanden, während 42,6% nicht dieser Meinung waren. Im<br>Verlauf der Zeit ist eine Tendenz zu stärkerer Zustimmung zu dieser Frage zu beobachten.",
-"methodik":"Gefragt wurde: «Alle Kinder erhalten die gleichen Bildungschancen.»",
+"erlaeuterungen":"Gefragt wurde: «Alle Kinder erhalten die gleichen Bildungschancen.»",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_3"]
@@ -2293,10 +2293,33 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"41,0% der Befragten gaben an, in ihrer Freizeit freiwillig tätig zu sein. Diese Frage wurde 2015 zum ersten Mal in der Bevölkerungsbefragung abgefragt.",
-"methodik":"Gefragt wurde: «Sind Sie in Ihrer Freizeit freiwillig tätig?»<br/>Freiwilligenarbeit ist ein unbezahlter Beitrag an Mitmenschen und/oder Umwelt und findet ausserhalb des eigenen Haushalts statt.",
+"erlaeuterungen":"Gefragt wurde: «Sind Sie in Ihrer Freizeit freiwillig tätig?»<br/>Freiwilligenarbeit ist ein unbezahlter Beitrag an Mitmenschen und/oder Umwelt und findet ausserhalb des eigenen Haushalts statt.",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S22"]
+},
+{"title":"Interesse an der Politik in Basel-Stadt",
+"kuerzel":"I.50.1.0026",
+"kuerzelKunde":"3.3.03.a",
+"image":"images/I.50.1.0026.jpg",
+"description":"Interesse an der Politik in Basel-Stadt",
+"id":"4872",
+"thema":"50 Befragungen",
+"unterthema":"Bevölkerungsbefragung",
+"kennzahlenset":"Gesellschaftlicher Zusammenhalt",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"",
+"schlagwort":["Verwaltung","Grosser Rat","Beurteilung"],
+"stufe1":"",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"29,6% der befragten Personen interessierten sich 2015 sehr stark für die Politik im Kanton Basel-Stadt. Das sind 1,4 Prozentpunkte mehr als vor vier Jahren und auch mehr als in den vergangenen Befragungen.",
+"erlaeuterungen":"Gefragt wurde: «Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?»",
+"template":"befragungenProzent001",
+"option":"options001",
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F20"]
 },
 {"title":"Gedanken über die Arbeitsstelle",
 "kuerzel":"I.50.1.0027",
@@ -2316,7 +2339,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Zwei Drittel der befragten erwerbstätigen Personen machen sich Gedanken über ihre Arbeitsstelle. Seit 2007 ist der Anteil von 58,2% auf 67,8% angestiegen.",
-"methodik":"Gefragt wurde: «Machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
+"erlaeuterungen":"Gefragt wurde: «Machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14e"]
@@ -2339,10 +2362,33 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Wenn sich die 2015 befragten Personen Gedanken zu ihrer<br>Arbeitsstelle machen, dann am häufigsten wegen ihren persönlichen Entwicklungsperspektiven (63,0%). Die Beschäftigung mit dem Betriebsklima erfuhr von 2011 auf 2015 einen Anstieg von 26,1% auf 47,2%.",
-"methodik":"Gefragt wurde: «Warum machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
+"erlaeuterungen":"Gefragt wurde: «Warum machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14f"]
+},
+{"title":"Interesse an der Politik in Basel-Stadt (18- bis 29-Jährige)",
+"kuerzel":"I.50.1.0029",
+"kuerzelKunde":"3.3.03.b",
+"image":"images/I.50.1.0029.jpg",
+"description":"Interesse an der Politik in Basel-Stadt (18- bis 29-Jährige)",
+"id":"4933",
+"thema":"50 Befragungen",
+"unterthema":"Bevölkerungsbefragung",
+"kennzahlenset":"Gesellschaftlicher Zusammenhalt",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"",
+"schlagwort":["Jugend","Grosser Rat","Beurteilung"],
+"stufe1":"",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Von den Befragten im Alter von 18 bis 29 Jahren interessierten sich 2015 61,9% eher oder sehr stark für die Politik im Kanton Basel-Stadt. Gegenüber 2007 entspricht dies einer Zunahme um 17,1 Prozentpunkte. Bei den im Rahmen der Jugendbefragung befragten Jugendlichen zwischen 12 und 17 Jahren lag der Vergleichswert sowohl 2009 als auch 2013 unter der 20%-Marke (nicht abgebildet).",
+"erlaeuterungen":"Gefragt wurde: «Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt? – nur Befragte im Alter zwischen 18 und 29 Jahren»",
+"template":"befragungenProzent001",
+"option":"options001",
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F20"]
 },
 {"title":"Hilfe durch Arbeitskollegen, Freunde und Bekannte oder Nachbarn",
 "kuerzel":"I.50.2.0001",
@@ -2362,7 +2408,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"39,7% der Befragten erhielten 2013 von Freunden oder<br>Bekannten Hilfeleistungen, 28,5% von den Nachbarn. Von den Arbeitskollegen Hilfeleistungen zu  bekommen, bejahten 2013 12,1% der Befragten.",
-"methodik":"Gefragt wurde: «Erhalten Sie oder ein anderes Haushaltsmitglied Hilfeleistungen von Arbeitskollegen, Freunden und Bekannten oder Nachbarn?»",
+"erlaeuterungen":"Gefragt wurde: «Erhalten Sie oder ein anderes Haushaltsmitglied Hilfeleistungen von Arbeitskollegen, Freunden und Bekannten oder Nachbarn?»",
 "template":"befragungen001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F74c-e"]
@@ -2385,7 +2431,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Knapp die Hälfte der Befragten haben 2009 und 2013 angegeben, sich bei Erziehungsfragen schon einmal an Freunde oder Nachbarn gewendet zu haben. Im Vergleich zu den anderen Situationen ist dies der grösste Anteil.",
-"methodik":"Gefragt wurde: «Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch an Freunde/Nachbarn gewendet?»",
+"erlaeuterungen":"Gefragt wurde: «Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch an Freunde/Nachbarn gewendet?»",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F72a-g"]
@@ -2408,7 +2454,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"2009 gaben 91% und 2013 90% der Familien an, ein gutes Verhältnis zu ihren Nachbarinnen und Nachbarn zu pflegen.",
-"methodik":"Gefragt wurde: «Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.»",
+"erlaeuterungen":"Gefragt wurde: «Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.»",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F19c"]
@@ -2431,10 +2477,33 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"78,7% der befragten Jugendlichen hatten 2013 Mädchen und Jungen in ihrem Freundeskreis. 0,8% gaben an, keinen Freundeskreis zu haben. Weitere 3,9% machten keine Angabe.",
-"methodik":"Gefragt wurde: «Wie sieht Dein Freundeskreis aus?»",
+"erlaeuterungen":"Gefragt wurde: «Wie sieht Dein Freundeskreis aus?»",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F34"]
+},
+{"title":"Engagement in Organisationen und Vereinen",
+"kuerzel":"I.50.3.0002",
+"kuerzelKunde":"3.3.01",
+"image":"images/I.50.3.0002.jpg",
+"description":"Engagement in Organisationen und Vereinen",
+"id":"4870",
+"thema":"50 Befragungen",
+"unterthema":"Jugendbefragung",
+"kennzahlenset":"Gesellschaftlicher Zusammenhalt",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"",
+"schlagwort":["Jugend"],
+"stufe1":"",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"2013 gaben ein Viertel der Befragten Jugendlichen an, dass sie sich in einer Organisation, in einem Verein oder ähnlichem engagieren (2011: 12,0%).",
+"erlaeuterungen":"Gefragt wurde: «Engagierst Du Dich in einer Organisation, in einem Verein oder ähnlichem?»",
+"template":"befragungenProzent001",
+"option":"options001",
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F28"]
 },
 {"title":"Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
 "kuerzel":"I.50.4.0001",
@@ -2454,7 +2523,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Sowohl 2011 als auch 2015 sind gut zwei Drittel der Befragten mit der altersangepassten Einrichtung des Wohngebäudes eher bis sehr zufrieden.",
-"methodik":"",
+"erlaeuterungen":"",
 "template":"befragungen001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10_c"]
@@ -2477,7 +2546,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Von den Befragten erhielten 2015 rund ein Viertel materielle<br>Hilfeleistungen von Freunden und Bekannten oder von Nachbarn.<br>Tiefer liegt der Wert bei den Arbeitskollegen: von diesen bekamen 5,2% der Befragten materielle Hilfeleistungen. Jeweils rund 20% der Befragten machten keine Angaben zu diesen Fragen.",
-"methodik":"Gefragt wurde: «Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes von Arbeitskollegen, Freunden und Bekannten oder Nachbarn materielle Hilfeleistungen?»<br/>Materielle Hilfeleistungen: Garten- und Reinigungsarbeiten, Einkaufshilfe, Füttern von Tieren, Hüte- und Pflegeeinsätze etc.",
+"erlaeuterungen":"Gefragt wurde: «Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes von Arbeitskollegen, Freunden und Bekannten oder Nachbarn materielle Hilfeleistungen?»<br/>Materielle Hilfeleistungen: Garten- und Reinigungsarbeiten, Einkaufshilfe, Füttern von Tieren, Hüte- und Pflegeeinsätze etc.",
 "template":"befragungen001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F54e"]
@@ -2500,7 +2569,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"2011 waren 85,3% der Befragten zufrieden mit dem Austausch mit den Nachbarn, 2015 betrug die Zufriedenheit 87,8%, wobei der Anteil sehr zufriedener Personen im Vergleich zu 2011 um 4,2<br>Prozentpunkte höher lag.",
-"methodik":"Gefragt wurde: «Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
+"erlaeuterungen":"Gefragt wurde: «Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10f"]
@@ -2523,10 +2592,33 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Etwas mehr als ein Viertel der Befragten gaben 2015 an, sich in ihrer Freizeit ehrenamtlich zu betätigen.",
-"methodik":"Die Fragestellung hat sich leicht verändert von «Sind Sie in Ihrer Freizeit ehrenamtlich tätig?» im Jahr 2011 zu «Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?» im Jahr 2015",
+"erlaeuterungen":"Die Fragestellung hat sich leicht verändert von «Sind Sie in Ihrer Freizeit ehrenamtlich tätig?» im Jahr 2011 zu «Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?» im Jahr 2015",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F29"]
+},
+{"title":"Beschäftigung mit dem Thema Politik",
+"kuerzel":"I.50.4.0007",
+"kuerzelKunde":"3.3.04",
+"image":"images/I.50.4.0007.jpg",
+"description":"Beschäftigung mit dem Thema Politik",
+"id":"4874",
+"thema":"50 Befragungen",
+"unterthema":"Befragung 55 plus",
+"kennzahlenset":"Gesellschaftlicher Zusammenhalt",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"",
+"schlagwort":["Grosser Rat","Beurteilung"],
+"stufe1":"",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Mit der Politik setzten sich viele der Befragten eher oder sehr stark auseinander (2011: 69,7%, 2015: 76,7%).",
+"erlaeuterungen":"Gefragt wurde: «Wie stark beschäftigt Sie im Moment das Thema Politik?»",
+"template":"befragungenProzent001",
+"option":"options001",
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F57a"]
 },
 {"title":"Zufriedenheit mit Sozialkontakten im Wohnumfeld",
 "kuerzel":"I.50.4.0008",
@@ -2546,7 +2638,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Zu den Sozialkontakten im Wohnumfeld/Quartier gaben 2015 80% der Befragten an, zufrieden zu sein. 2011 waren 78% sehr oder eher zufrieden.",
-"methodik":"Gefragt wurde: «Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld/Quartier?»",
+"erlaeuterungen":"Gefragt wurde: «Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld/Quartier?»",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10g"]
