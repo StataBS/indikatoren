@@ -20,16 +20,16 @@ chartOptions['I.06.3.0001'] = {
   "plotOptions": {
     "series": {
       "dataLabels": {
-        "enabled": true,
-          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
-          formatter: function() {
-            var first = this.series.data[0];
-            var last  = this.series.data[this.series.data.length - 1];
-            if (this.point.y === first.y || this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 0, ",", " ");
-            }
-            return "";
-          }
+              "y": 25,
+              "enabled": true,
+                //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
+                formatter: function() {
+                  var first = this.series.data[0];
+                  var last  = this.series.data[this.series.data.length - 1];
+                  if (this.x === first.x || this.x === last.x) {
+                    return Highcharts.numberFormat(this.y, 0  , ",", " ");
+                  }
+                } 
       }
     }
   }
