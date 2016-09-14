@@ -1,4 +1,4 @@
-chartOptions['I.50.1.0017'] = {
+chartOptions['I.50.1.0018'] = {
         "series": [
             {
                 "color": "#007A2F",
@@ -26,11 +26,21 @@ chartOptions['I.50.1.0017'] = {
                 "legendIndex": 2 
             }        
     ],
+    "legend": {
+        "reversed": false,
+        "layout": "horizontal",
+        "verticalAlign": "top",
+        "itemMarginBottom": 5,     
+        "align": "left",
+        "x": 35,
+        "y": 35,
+        "itemWidth": 212,
+        "itemStyle": {
+            "fontWeight": "normal"
+        }
+    },       
     "xAxis": {
         "type": "category"
-    },
-    "legend": {
-        "reversed": true
     },
     "chart": {
         "marginBottom": 75,
