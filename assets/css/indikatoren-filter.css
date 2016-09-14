@@ -211,7 +211,7 @@ h1{
     margin: 0 40px;
 }
 
-.lesehilfe>hr{
+.lesehilfe hr{
     border: none;
     height: 1px;
     background-color: darkgrey; /* Modern Browsers */

@@ -234,8 +234,11 @@
         <div id="container-<%= kuerzel %>" indikator-kuerzel-data="<%= kuerzel %>"></div>      
         <h1>Lesehilfe</h1>
         <div class='lesehilfe'><%= lesehilfe %>
-          <hr/>
-          Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/<%= kennzahlenset.toLowerCase().replace(" ", "-") %>.html' target='_blank'><%= kennzahlenset %></a>.
+          <!-- hide indikatorenset info if current indikator is not member of any set -->         
+          <div class=<%= (kennzahlenset==="" ? "'hidden'": "''" ) %>>
+            <hr/>
+            Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/<%= kennzahlenset.toLowerCase().replace(" ", "-") %>.html' target='_blank'><%= kennzahlenset %></a>.
+          </div>
         </div>
       </div>
     </script> 
