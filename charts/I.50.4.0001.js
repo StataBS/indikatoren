@@ -1,4 +1,7 @@
 ﻿chartOptions['I.50.4.0001'] = {
+  "xAxis": {
+    "type": "category"
+  },  
   "series": [
     {
       "color": "#999999",
