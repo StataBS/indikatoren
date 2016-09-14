@@ -233,12 +233,18 @@
       <div class="item">
         <div id="container-<%= kuerzel %>" indikator-kuerzel-data="<%= kuerzel %>"></div>      
         <h1>Lesehilfe</h1>
-        <div class='lesehilfe'><%= lesehilfe %>
-          <!-- hide indikatorenset info if current indikator is not member of any set -->         
-          <div class=<%= (kennzahlenset==="" ? "'hidden'": "''" ) %>>
-            <hr/>
-            Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/<%= kennzahlenset.toLowerCase().replace(" ", "-") %>.html' target='_blank'><%= kennzahlenset %></a>.
+        <div class='lesehilfe'><%= lesehilfe %>        
+        </div>
+        <!-- hide methodik info if empty -->
+        <div id='methodik' class=<%= (methodik==="" ? "'hidden'": "''" ) %>>
+          <h1>Methodik</h1>
+          <div class='lesehilfe'><%= methodik %>
           </div>
+        </div>
+        <!-- hide indikatorenset info if empty -->         
+        <div class=<%= (kennzahlenset==="" ? "'hidden'": "'lesehilfe'" ) %>>
+          <hr/>
+          Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/<%= kennzahlenset.toLowerCase().replace(" ", "-") %>.html' target='_blank'><%= kennzahlenset %></a>.
         </div>
       </div>
     </script> 
@@ -250,6 +256,12 @@
         <h1>Lesehilfe</h1>
         <div class='lesehilfe'><%= lesehilfe %>
         </div>
+        <!-- hide methodik info if empty -->
+        <div id='methodik' class=<%= (methodik==="" ? "'hidden'": "''" ) %>>
+          <h1>Methodik</h1>
+          <div class='lesehilfe'><%= methodik %>
+          </div>
+        </div>        
       </div>
     </script> 
 
