@@ -1,22 +1,22 @@
-﻿Wohnviertel,Personenfahrzeuge,Rang
-Riehen,7654,1
-St. Johann,3754,2
-Gundeldingen,3740,3
-Bachletten,3690,4
-Iselin,3625,5
-St. Alban,3249,6
-Bruderholz,2976,7
-Matthäus,2745,8
-Hirzbrunnen,2599,9
-Breite,2385,10
-Am Ring,2344,11
-Klybeck,1647,12
-Gotthelf,1515,13
-Wettstein,1443,14
-Rosental,1262,15
-Vorstädte,1173,16
-Clara,988,17
-Kleinhüningen,761,18
-Bettingen,509,19
-Altstadt Grossbasel,503,20
-Altstadt Kleinbasel,401,21
+﻿Wohnviertel,Motorisierungsgrad,Rang
+Matthäus,0.0299365280171004,21
+Altstadt Kleinbasel,0.0315922161821476,20
+Gundeldingen,0.0345652997661759,19
+St. Johann,0.0351323781269595,18
+Iselin,0.0378254291229718,17
+Gotthelf,0.0380978725544435,16
+Klybeck,0.0387940171946767,15
+Rosental,0.0399329177609721,14
+Am Ring,0.0412755991477223,13
+Clara,0.0440187124081087,12
+Vorstädte,0.0443059490084986,11
+Altstadt Grossbasel,0.0445408660232002,10
+Wettstein,0.0460742680162202,9
+Breite,0.0466686234223657,8
+Bachletten,0.0470597237632475,7
+Kleinhüningen,0.0478225350342487,6
+Hirzbrunnen,0.0507032911293627,5
+St. Alban,0.0517150815758058,4
+Bruderholz,0.0566263913994863,3
+Riehen,0.0628923582580115,2
+Bettingen,0.0791232706357842,1
