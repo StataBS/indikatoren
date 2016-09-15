@@ -246,7 +246,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Von 2005 bis 2015 ist die Anzahl Einwohnerinnen und Einwohner im Kanton Basel-Stadt um 4,9% angestiegen.",
-"erlaeuterungen":"",
+"erlaeuterungen":"Bis zum Jahr 2011 wurde die Bevölkerungszahl durch Fortschreibung ermittelt. Seit dem Jahr 2012 basiert sie direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
@@ -407,7 +407,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen rund 47% aus.",
-"erlaeuterungen":"",
+"erlaeuterungen":"Nichtfamilienhaushalte sind Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind. Die übrigen Mehrpersonenhalushaltewerden zu den Familienhaushalten gezählt.",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
@@ -637,7 +637,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Freiraumflächen erreichten 2012 ihren Höchstwert. Seither reduzierten sich diese Flächen leicht, weil Schulhauserweiterungen auf Kosten von Sportanlagen vorgenommen worden waren oder die Voltamatte umgestaltet worden war. Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen.",
-"erlaeuterungen":"",
+"erlaeuterungen":" Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen.",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Grundbuch- und Vermessungsamt  Basel-Stadt"]
@@ -1281,7 +1281,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Mietpreisentwicklung der Leerwohnungen ist im Zehnjahresvergleich leicht ansteigend. Da es grundsätzlich wenig leerstehende 5-Zimmerwohnungen gibt, sind die ausgewiesenen Durchschnittsmieten in dieser Kategorie grösseren Schwankungen unterworfen bzw. können wie im Jahr 2014 aufgrund zu kleiner Stichprobe gar nicht berechnet werden. Bei den Mietpreisen für Leerwohnungen handelt es sich um Angebotsmieten, nicht um Bestandsmieten.",
-"erlaeuterungen":"",
+"erlaeuterungen":"2014 kann keine Durchschnittsmiete für leerstehende 5-Zimmerwohnungen angegeben werden, weil in dieser Kategorie zu wenige Beobachtungen vorlagen.",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, Leerstandserhebung"]
@@ -1349,8 +1349,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Seit 2008 ist bei allen Zimmerkategorien eine steigende Tendenz der Mietpreise (Nettomieten) zu beobachten. Es handelt sich hier im Gegensatz zu den Mietpreisen der Leerwohnungen um Bestandsmieten.",
-"erlaeuterungen":"",
+"lesehilfe":"Seit 2008 ist bei allen Zimmerkategorien eine steigende Tendenz der Mietpreise (Nettomieten) zu beobachten.",
+"erlaeuterungen":"Es handelt sich hier im Gegensatz zu den Mietpreisen der Leerwohnungen um Bestandsmieten.<br/>Die Mietpreisangaben stützen sich auf systematische Stichprobenerhebungen, die 5% der Miet- und Genossenschaftswohnungen umfassen. Einzelne Mittelwerte basieren deshalb nur auf wenige Mietpreisangaben.",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, Mietpreiserhebung"]
@@ -1557,7 +1557,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die wenigen Notwohnungen – 2015 machten sie 0,17% des Wohnungsbestandes aus – waren immer zu über 90% belegt. Durch Aufstockungen bestehender Blockrandsiedlungen konnte das Angebot seit 2013 um 50 Logis erhöht werden.",
-"erlaeuterungen":"",
+"erlaeuterungen":"Aufgrund diverser Umbauten (Aufstockungen mit 32 zusätzlichen Notwohnungen) verbunden mit zwischenzeitlichen Umplazierungen liegen für 2014 und 2015 keine vergleichbaren Zahlen für die Belegung vor.",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, Sozialhilfe Basel"]
