@@ -935,8 +935,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Sowohl die Anzahl landwirtschaftlicher Betriebe als auch die Nutzfläche sind in den letzten Jahren rückläufig.",
-"erlaeuterungen":"",
+"lesehilfe":"Sowohl die Anzahl landwirtschaftlicher Betriebe als auch die Nutzfläche sind in den letzten Jahren tendenziell rückläufig.",
+"erlaeuterungen":"Die landwirtschaftliche Nutzfläche eines baselstädtischen Betriebes kann auch im Ausland liegen.",
 "template":"line001",
 "option":"options001",
 "quellenangabe":["Bundesamt für Statistik BFS"]
