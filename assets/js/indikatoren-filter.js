@@ -187,8 +187,10 @@ function configureCascadedControls(level1Selector, level2Selector, level1ValueSe
       level2QueryString[level1Field] = selectedValue;
     }
     renderDropdownFromJson(indikatoren, level2Field, level2Selector, level2Field, level2QueryString);
-    //re-set previously selected value
-    $(level2Selector).val(currentLevel2Value);
+    //re-set previously selected value if level 1 is not "all"
+    if (selectedValue !== level1AllValue){
+      $(level2Selector).val(currentLevel2Value);
+    }
     //if no item is selected now, select the first one
     if (!$(level2Selector).val()){
       $(level2Selector + ' :nth-child(1)').prop('selected', true);
