@@ -8,7 +8,6 @@ chartOptions["I.01.5.0003"] = {
     "tickInterval": 1
   },
   "tooltip": {
-    "pointFormat": '<span style="color:{series.color}">{series.name}</span>: <b>{point.y:.1f}</b><br/>',
     "shared": false
   },
   "series": [
