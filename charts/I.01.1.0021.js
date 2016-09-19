@@ -61,7 +61,7 @@
     }
   },
   "chart": {		
-		"marginTop": 120
+		"marginTop": 130
 	}
 };
  

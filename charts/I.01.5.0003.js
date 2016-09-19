@@ -61,7 +61,7 @@ chartOptions["I.01.5.0003"] = {
     }
   },
   "chart": {		
-		"marginTop": 120
+		"marginTop": 130
 	}
 };
  
