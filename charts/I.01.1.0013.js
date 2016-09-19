@@ -19,7 +19,7 @@ chartOptions['I.01.1.0013'] = {
     }
   },
   tooltip: {
-    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}:<br/><b>{point.y}% der Gesamtbevölkerung,</b>,<br/><b>{point.percentage:.2f}% der ausländischen Bevölkerung</b><br/>',
+    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}:<br/><b>{point.percentage:.1f}% der ausländischen Bevölkerung</b>,<br/><b>{point.y}% der Gesamtbevölkerung</b><br/>',
     shared: false
   },  
   "legend": {
