@@ -19,7 +19,7 @@ var template = {
 	},
   "title": {
     "style": {
-      "fontSize": 14,
+      "fontSize": '14px',
       "fontWeight": "bold",
       "color": "#000000"
     },
@@ -27,7 +27,7 @@ var template = {
   },
   "subtitle": {
     "style": {
-      "fontSize": 12,
+      "fontSize": '12px',
       "fontWeight": "normal",
       "fontFamily": "Arial",
       "color": "#000000"
@@ -65,7 +65,7 @@ var template = {
     "enabled": true,
     "style": {
       "color": "#000000",
-      "fontSize": 10,
+      "fontSize": '10px',
       "cursor": "default"
     },
     "position": {

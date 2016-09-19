@@ -3,7 +3,7 @@ chartOptions['I.50.2.0002'] = {
     "series": {      
       "dataLabels": {
         "style": {
-          "fontSize": 10
+          "fontSize": "10px"
         }
       }
     },

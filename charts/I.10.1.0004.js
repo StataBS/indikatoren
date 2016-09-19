@@ -4,7 +4,7 @@ chartOptions['I.10.1.0004'] = {
       "pointWidth": 10,
       "dataLabels": {
         "style": {
-          "fontSize": 10
+          "fontSize": "10px"
         }
       },
       "stacking": "normal"
