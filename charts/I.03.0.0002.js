@@ -11,7 +11,7 @@ chartOptions["I.03.0.0002"] = {
   },
   "tooltip": {
     "pointFormatter": function(){
-        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ':<b>' + Highcharts.numberFormat((this.y*100),1) + '%'                
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '%'                
     },
     "shared": false
   },
