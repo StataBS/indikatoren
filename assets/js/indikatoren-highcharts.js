@@ -79,7 +79,7 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, c
   function injectMetadataToChartConfig(options, data){
     options['title']['text'] = (indikatorensetView) ? data.kuerzelKunde + ' ' + data.title : data.kuerzel + ' ' + data.title;
     options['chart']['renderTo'] = 'container-' + data.kuerzel;
-    options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join('; ');
+    options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join(';<br/>');
   };
 };
 
