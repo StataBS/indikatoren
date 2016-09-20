@@ -6,7 +6,8 @@
       }
     }
   },
-  "yAxis": [{
+  "yAxis": [
+    {
     "title": {
       "style": {
         "color": "#000000",
@@ -20,7 +21,8 @@
         "color": "#000000"
       }
     },
-    "min": 0
+    "min": 0,
+    "max": 2000
   },
   {
     "title": {
@@ -37,7 +39,6 @@
       }
     },
     "min": 0,
-    "max": 5,
     "opposite": true
   }
   ],
