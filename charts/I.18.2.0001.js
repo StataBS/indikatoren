@@ -8,7 +8,7 @@
             var last  = this.series.data[this.series.data.length - 1];
             var first  = this.series.data[0];
             if (this.point.y === first.y || this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 0, ",", " ");
+              return Highcharts.numberFormat(this.point.y, 1, ",", " ");
             }
             return "";
           }
