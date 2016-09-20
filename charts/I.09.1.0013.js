@@ -28,25 +28,21 @@
   },
   "series": [
     {
+      "color": "#68ab2b"
+    },
+    {
+      "color": "#cd9c00"
+    },
+    {
+      "color": "#008ac3"
+    },
+    {
       "color": "#2e1435",
       "marker": {
         "enabled": false
       },
-      "index": 3,
       "type": "line"
-    },
-    {
-      "color": "#68ab2b",
-      "index": 0
-    },
-    {
-      "color": "#cd9c00",
-      "index": 1
-    },
-    {
-      "color": "#008ac3",
-      "index": 2
-    }
+    }    
   ],
 
   "chart": {

@@ -1,12 +1,11 @@
 ﻿chartOptions["I.09.4.0003"] = {
   "yAxis": {
-    "max": 3000,
     "labels": {
       "format": "{value:,.0f}",
     }
   },
   "xAxis": {
-    "tickInterval": 1
+    "type": "category"
   },
   "tooltip": {
     "shared": false
@@ -57,6 +56,7 @@
     "series": {
       "dataLabels": {
         "enabled": true,
+        "allowOverlap": true,
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
           formatter: function() {
             var last  = this.series.data[this.series.data.length - 1];
