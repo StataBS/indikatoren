@@ -68,7 +68,9 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, c
       //merge all highcharts configs
       var options = Highcharts.merge(true, dataOptions, template, chartOptions);
       //inject metadata to highcharts options - only if indikatorensetView is defined
-      if (indikatorensetView !== undefined) {injectMetadataToChartConfig(options, chartData);}
+      if (indikatorensetView !== undefined) {
+        injectMetadataToChartConfig(options, chartData);
+      }
       //draw chart
       var chart = new Highcharts['Chart'](options, callbackFn);
     }, chartOptions, data);      
@@ -80,6 +82,10 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, c
     options['title']['text'] = (indikatorensetView) ? data.kuerzelKunde + ' ' + data.title : data.kuerzel + ' ' + data.title;
     options['chart']['renderTo'] = 'container-' + data.kuerzel;
     options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join(';<br/>');
+    //make sure node exists before deferencing it
+    options['exporting'] = (chartOptions['exporting'] || {});
+    options['exporting']['filename'] = data.kuerzel;
+
   };
 };
 
