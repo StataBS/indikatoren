@@ -44,11 +44,7 @@ chartOptions['I.08.1.0028'] = {
     {
       "color": "#923F8D",
       "legendIndex": 1  
-    },
-    {
-      "color": "#008AC3",
-      "legendIndex": 0  
-    }        
+    }
   ],
   "chart": {    
     "marginBottom": 75,
