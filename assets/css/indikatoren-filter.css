@@ -168,6 +168,10 @@ input::-ms-clear {
 .carousel-control.right { right: 7px; }
 
 
+.highcharts-wrapper {
+    width: 415px;
+}
+
 /*
 .carousel-indicators {
     top: 15px;
