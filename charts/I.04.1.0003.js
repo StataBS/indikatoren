@@ -32,7 +32,7 @@ chartOptions['I.04.1.0003'] = {
     }
   },
   "series": [
-       {
+    {
       "color": "#68AB2B",
       "legendIndex": 0     
     },
@@ -40,7 +40,7 @@ chartOptions['I.04.1.0003'] = {
       "color": "#ECE1D0",
       "legendIndex": 1
     },
-	{
+	  {
       "color": "#9E7C59",
       "legendIndex": 2     
     },
