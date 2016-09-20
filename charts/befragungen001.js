@@ -1,7 +1,7 @@
 var template = {
-    chart: {		
-        events:{
-            load: function() {
+    "chart": {		
+        "events":{
+            "load": function() {
                 this.credits.element.onclick = function() {
                     /*
                     window.open(
@@ -43,10 +43,10 @@ var template = {
         "text": "",
         "align": "left"
     },
-    navigation: {
-        menuItemStyle: {
-            fontFamily: Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
-            padding: '2px 10px'
+    "navigation": {
+        "menuItemStyle": {
+            "fontFamily": Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
+            "padding": '2px 10px'
         }
     },
     "plotOptions": {
@@ -89,16 +89,16 @@ var template = {
             }
         }                
     },
-    tooltip: {
-        pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>',
-        shared: false
+    "tooltip": {
+        "pointFormat": '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>',
+        "shared": false
     },
     "exporting": {
         "sourceWidth": null,
         "scale": 5,
-        buttons: {
-            contextButton: {
-            menuItems: Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8)
+        "buttons": {
+            "contextButton": {
+            "menuItems": Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8)
             }
         }
     },

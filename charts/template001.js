@@ -10,8 +10,8 @@ var template = {
             "fontFamily": "Arial"
         },
         "zoomType": "xy",
-        events:{
-                load: function() {
+        "events":{
+                "load": function() {
                     this.credits.element.onclick = function() {}
                 }
         }
@@ -76,10 +76,10 @@ var template = {
             }
         }
     },    
-	navigation: {
-		menuItemStyle: {
-			fontFamily: Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
-			padding: '2px 10px'
+	"navigation": {
+		"menuItemStyle": {
+			"fontFamily": Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
+			"padding": '2px 10px'
 		}
 	},
     "credits": {
@@ -92,8 +92,8 @@ var template = {
         "position": {
             "align": "left",
             "verticalAlign": "bottom",
-            x: 10,
-            y: -17
+            "x": 10,
+            "y": -17
         }
     }
 };
