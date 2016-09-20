@@ -1,6 +1,6 @@
 chartOptions['I.01.2.0003'] = {
 	"series": [{
-		"color": "#68AB2B"
+		"color": "#923F8D"
 	}]
 };
 
