@@ -4,6 +4,9 @@
       "stacking": "percent"
     }
   },
+  "xAxis": {
+    "type": "category"
+  },
   "yAxis": {
     "tickInterval":10,
       "labels": {
@@ -12,7 +15,7 @@
       "min": 0
   },
   "tooltip": {
-    "pointFormat": '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>',
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>',
     "shared": false
   },
   "legend": {
