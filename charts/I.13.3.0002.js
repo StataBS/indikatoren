@@ -8,8 +8,6 @@
   },
   "yAxis": [{
     "min": 0,
-    "max": 160,
-    "tickInterval": 40,
     "title": {
       "style": {
         "color": "#000000",
