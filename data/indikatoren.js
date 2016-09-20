@@ -1447,7 +1447,7 @@
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, Tourismusstatistik"]
 },
-{"title":"Motorisierungsgrad: private Personenwagen nach Wohnviertel",
+{"title":"Motorisierungsgrad: private PW nach Wohnviertel",
 "kuerzel":"I.11.1.0040",
 "kuerzelKunde":"",
 "image":"images/I.11.1.0040.jpg",
