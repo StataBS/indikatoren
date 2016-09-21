@@ -19,11 +19,6 @@ chartOptions['I.50.1.0013'] = {
     "xAxis": {
         "type": "category"
     },
-	"legend": {
-		"itemStyle": {
-			"width": 130
-		},
-	},
     "chart": {
         "marginBottom": 75
     }
