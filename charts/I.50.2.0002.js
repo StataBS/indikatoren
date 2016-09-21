@@ -31,7 +31,7 @@ chartOptions['I.50.2.0002'] = {
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 153,
+    "x": 172,
 		"y": 35,    
     "itemStyle": {
       "fontWeight": "normal"
