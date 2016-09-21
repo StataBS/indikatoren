@@ -23,8 +23,7 @@ chartOptions['I.50.1.0016'] = {
         "reversed": true
     },
     "chart": {
-        "marginBottom": 75,
-        "marginTop": 120
+        "marginBottom": 75
     }
 };
 
