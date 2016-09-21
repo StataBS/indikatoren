@@ -74,6 +74,7 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, c
       //draw chart
       var chart = new Highcharts['Chart'](options, callbackFn);
     }, chartOptions, data);      
+    
   };
 
 
@@ -85,7 +86,6 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, c
     //make sure node exists before deferencing it
     options['exporting'] = (chartOptions['exporting'] || {});
     options['exporting']['filename'] = data.kuerzel;
-
   };
 };
 
