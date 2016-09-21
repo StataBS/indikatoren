@@ -33,8 +33,7 @@ chartOptions['I.50.1.0023'] = {
         "type": "category"
     },
     "chart": {
-        "marginBottom": 75,
-        "marginTop": 120
+        "marginBottom": 75
     }
 };
 

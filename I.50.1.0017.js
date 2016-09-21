@@ -1,4 +1,4 @@
-chartOptions['I.50.1.0026'] = {
+chartOptions['I.50.1.0017'] = {
         "series": [
             {
                 "color": "#007A2F",
@@ -26,11 +26,11 @@ chartOptions['I.50.1.0026'] = {
                 "legendIndex": 2 
             }        
     ],
-    "legend": {
-        "reversed": true
-    },       
     "xAxis": {
         "type": "category"
+    },
+    "legend": {
+        "reversed": true
     },
     "chart": {
         "marginBottom": 75
