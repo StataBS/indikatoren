@@ -84,8 +84,9 @@ var template = {
             }
         },
         "labels": {
+            "rotation": 0,
             "style": {
-            "color": "#000000"
+                "color": "#000000"
             }
         }                
     },
