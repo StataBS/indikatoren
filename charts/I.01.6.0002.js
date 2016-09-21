@@ -53,8 +53,8 @@ chartOptions['I.01.6.0002'] = {
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "x": 46,
-    "y": 30,
+    "x": 43,
+    "y": 35,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
@@ -81,7 +81,7 @@ chartOptions['I.01.6.0002'] = {
   ],
   "chart": {
     "marginBottom": 65,
-    "marginTop": 150,
+    "marginTop": 100,
     "type": "column"
   }
 };
