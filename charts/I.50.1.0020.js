@@ -28,23 +28,9 @@ chartOptions['I.50.1.0020'] = {
   ],
   "xAxis": {
       "type": "category"
-  },
-   "legend": {
-        "reversed": false,       
-        "layout": "horizontal",
-        "verticalAlign": "top",
-        "itemMarginBottom": 5,     
-        "align": "left",
-        "x": 35,
-        "y": 35,
-        "itemWidth": 212,
-        "itemStyle": {
-            "fontWeight": "normal"
-        }
-    },         
+  },         
   "chart": {
-      "marginBottom": 75,
-      "marginTop": 120 
+      "marginBottom": 75
   }
 };
 

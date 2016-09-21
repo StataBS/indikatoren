@@ -123,6 +123,7 @@ var template = {
         "verticalAlign": "middle",
         "itemMarginBottom": 5,     
         "align": "right",
+        "useHTML": true,
         "itemStyle": {
             "fontWeight": "normal"
         }
