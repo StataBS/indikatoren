@@ -35,4 +35,4 @@ Highcharts.setOptions({
 });
 //Add "Einbetten" menu item
 //todo: replace hard-coded url with $.url('protocol') + '://' + $.url('hostname') + $.url(1) + '/chart.html?kuerzel=' + this.renderTo.id.substring(10)
-Highcharts.getOptions().exporting.buttons.contextButton.menuItems.push({"text": "Einbetten", "onclick": function(){ window.open('https://statabs.github.io/chart.html?kuerzel=' + this.renderTo.id.substring(10), '_blank'); }});
+Highcharts.getOptions().exporting.buttons.contextButton.menuItems.push({"text": "Einbetten", "onclick": function(){ window.open('https://statabs.github.io/indikatoren/chart.html?kuerzel=' + this.renderTo.id.substring(10), '_blank'); }});
