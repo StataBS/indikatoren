@@ -1451,7 +1451,7 @@
 "kuerzel":"I.11.1.0040",
 "kuerzelKunde":"",
 "image":"images/I.11.1.0040.jpg",
-"description":"Motorisierungsgrad: private Personenwagen nach Wohnviertel",
+"description":"Motorisierungsgrad: private PW nach Wohnviertel",
 "id":"4917",
 "thema":"11 Verkehr",
 "unterthema":"Motorfahrzeuge",
@@ -1924,11 +1924,11 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Die Zahl der angezeigten Straftaten pro 1000 Einwohner ab 18 Jahren war von 2008 bis 2010 relativ stabil, sie bewegte sich zwischen 121,2 und 125,3. Danach stieg die Quote und erreichte 2012 163,5. Die beiden letzten Jahre zeigen nun wieder einen<br>Rückgang der Anzahl Straftaten pro 1000 Einwohner.",
+"lesehilfe":"Die Zahl der angezeigten Straftaten pro 1000 Einwohner ab 18 Jahren war von 2008 bis 2010 relativ stabil, sie bewegte sich zwischen 121,2 und 125,3. Danach stieg die Quote und erreichte 2012 163,5. Die beiden letzten Jahre zeigen nun wieder einen Rückgang der Anzahl Straftaten pro 1000 Einwohner.",
 "erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
-"quellenangabe":["Statistisches Amt Basel-Stadt; Bundesamt für Statistik BFS, polizeiliche Kriminalstatistik (PKS)"]
+"quellenangabe":["Statistisches Amt Basel-Stadt","Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"]
 },
 {"title":"Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 "kuerzel":"I.19.1.0002",
@@ -1951,7 +1951,7 @@
 "erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
-"quellenangabe":["Statistisches Amt Basel-Stadt; Bundesamt für Statistik BFS, polizeiliche Kriminalstatistik (PKS)"]
+"quellenangabe":["Statistisches Amt Basel-Stadt","Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"]
 },
 {"title":"Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl/-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 "kuerzel":"I.19.1.0003",
@@ -1974,13 +1974,13 @@
 "erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
-"quellenangabe":["Statistisches Amt Basel-Stadt; Bundesamt für Statistik BFS, polizeiliche Kriminalstatistik (PKS)"]
+"quellenangabe":["Statistisches Amt Basel-Stadt","Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"]
 },
-{"title":"Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwoh-ner im Alter von 18 und mehr Jahren",
+{"title":"Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 "kuerzel":"I.19.1.0004",
 "kuerzelKunde":"3.2.04",
 "image":"images/I.19.1.0004.jpg",
-"description":"Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwoh-ner im Alter von 18 und mehr Jahren",
+"description":"Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 "id":"4869",
 "thema":"19 Rechtspflege",
 "unterthema":"Polizei",
@@ -1997,7 +1997,7 @@
 "erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
-"quellenangabe":["Statistisches Amt Basel-Stadt; Bundesamt für Statistik BFS, polizeiliche Kriminalstatistik (PKS)"]
+"quellenangabe":["Statistisches Amt Basel-Stadt","Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"]
 },
 {"title":"Anzahl Gewaltstraftaten pro 100000 Einwohner",
 "kuerzel":"I.19.3.0003",
@@ -2020,7 +2020,7 @@
 "erlaeuterungen":"",
 "template":"line001",
 "option":"options001",
-"quellenangabe":["Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik"]
+"quellenangabe":["Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"]
 },
 {"title":"Wie zufrieden sind Sie mit dem Wohnungsangebot?",
 "kuerzel":"I.50.1.0005",
@@ -2597,11 +2597,11 @@
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F20"]
 },
-{"title":"Hilfe durch Arbeitskollegen, Freunde und Bekannte oder Nachbarn",
+{"title":"Materielle oder finanzielle Hilfeleistungen durch Arbeitskollegen, Freunde und Bekannte oder Nachbarn",
 "kuerzel":"I.50.2.0001",
 "kuerzelKunde":"1.1.01",
 "image":"images/I.50.2.0001.jpg",
-"description":"Hilfe durch Arbeitskollegen, Freunde und Bekannte oder Nachbarn",
+"description":"Materielle oder finanzielle Hilfeleistungen durch Arbeitskollegen, Freunde und Bekannte oder Nachbarn",
 "id":"4716",
 "thema":"50 Befragungen",
 "unterthema":"Familienbefragung",
@@ -2643,11 +2643,11 @@
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F72a-g"]
 },
-{"title":"Verhältnis zur Nachbarschaft",
+{"title":"Gutes Verhältnis zur Nachbarschaft",
 "kuerzel":"I.50.2.0003",
 "kuerzelKunde":"1.1.04",
 "image":"images/I.50.2.0003.jpg",
-"description":"Verhältnis zur Nachbarschaft",
+"description":"Gutes Verhältnis zur Nachbarschaft",
 "id":"4849",
 "thema":"50 Befragungen",
 "unterthema":"Familienbefragung",
@@ -2735,11 +2735,11 @@
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10_c"]
 },
-{"title":"Materiell Unterstützung von Arbeitskollegen, Freunden und Bekannten oder Nachbarn",
+{"title":"Materielle Hilfeleistungen von Arbeitskollegen, Freunden und Bekannten oder Nachbarn",
 "kuerzel":"I.50.4.0004",
 "kuerzelKunde":"1.1.02",
 "image":"images/I.50.4.0004.jpg",
-"description":"Materiell Unterstützung von Arbeitskollegen, Freunden und Bekannten oder Nachbarn",
+"description":"Materielle Hilfeleistungen von Arbeitskollegen, Freunden und Bekannten oder Nachbarn",
 "id":"4718",
 "thema":"50 Befragungen",
 "unterthema":"Befragung 55 plus",
