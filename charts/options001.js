@@ -19,7 +19,10 @@ Highcharts.setOptions({
         "buttons": {
             "contextButton": {
                 "text": "",
-                "menuItems": Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 7)                
+                "menuItems": Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 7)     
+                /*
+                Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 7).push({"textKey": "Test", "onclick": function(){ console.log('Test was clicked.'); }}) 
+                 */           
             }
         }
     },
@@ -30,3 +33,6 @@ Highcharts.setOptions({
         }
     }
 });
+//Add "Einbetten" menu item
+//todo: replace hard-coded url with $.url('protocol') + '://' + $.url('hostname') + $.url(1) + '/chart.html?kuerzel=' + this.renderTo.id.substring(10)
+Highcharts.getOptions().exporting.buttons.contextButton.menuItems.push({"text": "Einbetten", "onclick": function(){ window.open('https://statabs.github.io/chart.html?kuerzel=' + this.renderTo.id.substring(10), '_blank'); }});
