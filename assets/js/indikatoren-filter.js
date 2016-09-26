@@ -134,8 +134,8 @@ function getSortOptions(name){
 function preparePortalView(){
   $("#main-control-element-indikatorenset").remove();    
   renderThema();
-  renderMultiselectDropdownFromJson(indikatoren, 'schlagwort', '#schlagwort_filter');    
-  renderMultiselectDropdownFromJson(["Schweiz", "Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite"], '', '#raeumlicheGliederung_filter');
+  renderMultiselectDropdownFromJson(indikatoren, 'schlagwort', '#schlagwort_filter', true);    
+  renderMultiselectDropdownFromJson(["Schweiz", "Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite"], '', '#raeumlicheGliederung_filter', false);
 
   //prepare query String object for filtering thema and unterthema
   var baseQuery = {};
@@ -272,13 +272,17 @@ function renderDropdownFromJson(data, field, selector, sortKey, filterQueryStrin
 
 
 //create a multi-select dropdown that contain values from a given json object at a specified place in the DOM 
-function renderMultiselectDropdownFromJson(data, field, selector){
+function renderMultiselectDropdownFromJson(data, field, selector, sort){
   var JQ = JsonQuery(data);
   var allValuesNested = JQ.pluck(field).all;
-  //reduce array of arrayy of values to array of values if applicable
+  //reduce array of array of values to array of values (flatMap) if applicable
   var allValues = [].concat.apply([], allValuesNested);
   //get unique values and filter out empty string 
   var uniqueValues = allValues.filter(function(item, i, ar){ return ar.indexOf(item) === i && item != ""; }); 
+  //sort if applicable
+  if (sort) {
+    uniqueValues.sort();
+  }
   var html = $('#option-template').html();
   var templateFunction = FilterJS.templateBuilder(html);
   var container = $(selector);
