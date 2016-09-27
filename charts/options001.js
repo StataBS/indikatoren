@@ -19,7 +19,10 @@ Highcharts.setOptions({
         "buttons": {
             "contextButton": {
                 "text": "",
-                "menuItems": Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 7)                
+                "menuItems": Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 7)     
+                /*
+                Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 7).push({"textKey": "Test", "onclick": function(){ console.log('Test was clicked.'); }}) 
+                 */           
             }
         }
     },
@@ -30,3 +33,11 @@ Highcharts.setOptions({
         }
     }
 });
+//Add "Einbetten" menu item
+Highcharts.getOptions().exporting.buttons.contextButton.menuItems.push(
+    {
+        "text": "URL", 
+        "onclick": function(){
+            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart.html?kuerzel=' + this.renderTo.id.substring(10), '_blank'); 
+        }
+    });
