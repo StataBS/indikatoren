@@ -15,7 +15,7 @@ chartOptions['I.01.1.0022'] = {
   },  
   "yAxis": [
     {
-      "alignTicks": false,
+      "tickAmount": 5,
       "title": {
           "style": {
               "color": "#000000",
@@ -32,7 +32,7 @@ chartOptions['I.01.1.0022'] = {
       "reversedStacks": false
     },
     {
-      "alignTicks": false,
+      "tickAmount": 5,
       "min": 0,
       "title": {
           "style": {
@@ -92,6 +92,7 @@ chartOptions['I.01.1.0022'] = {
     }    
   ],
   "chart": {
+    "alignTicks": false,
     "marginBottom": 65,
     "marginTop": 150,
     "type": "column"
