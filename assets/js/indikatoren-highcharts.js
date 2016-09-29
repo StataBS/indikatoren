@@ -135,15 +135,23 @@ function escapeCssChars(myid) {
 
 
 //create chart as image
-function exportThumbnail(kuerzel, exportType){    
+function exportThumbnail(kuerzel, exportType, offline){    
   var chart = $(escapeCssChars('#container-' + kuerzel)).highcharts();
   //remove callback - otherwise end up in infinite loop
   delete chart.callback;
   //scale chart in order to receive 150px width
-  chart.options.exporting.scale = 0.31;     
-  chart.exportChartLocal({
-    type: exportType, 
-    filename: kuerzel
-  });  
+  chart.options.exporting.scale = 0.31;
+  if (offline){     
+    chart.exportChartLocal({
+      type: exportType, 
+      filename: kuerzel
+    });  
+  }
+  else {
+    chart.exportChart({
+      type: exportType, 
+      filename: kuerzel
+    });      
+  }
 };
 
