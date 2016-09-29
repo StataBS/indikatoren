@@ -60,6 +60,7 @@ var template = {
         }
     },
     "yAxis": {
+        "tickInterval":10,
         "reversedStacks": false,
         "title": {
             "style": {

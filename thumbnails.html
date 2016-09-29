@@ -29,7 +29,7 @@
 			$(document).ready(function(){
 				$.each(indikatoren, function(index, item){
 					$('<iframe/>', {
-						src: 'chart.html?kuerzel=' + item.kuerzel + '&thumbnailType=svg',
+						src: 'chart.html?kuerzel=' + item.kuerzel + '&thumbnailOfflineExporting=true&thumbnailType=svg',
 						frameborder: 0,
 						class: "noScrolling",
 						scrolling: "no",
