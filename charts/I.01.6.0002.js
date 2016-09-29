@@ -40,7 +40,10 @@ chartOptions['I.01.6.0002'] = {
           "text": null
       },      
       "labels": {
-        "format": "{value:,0f}"      
+        "format": "{value:,0f}",
+        "style": {
+          "color": "#000000"
+        }              
       },
       "opposite": true
     }

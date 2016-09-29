@@ -42,10 +42,13 @@ chartOptions['I.01.1.0022'] = {
           "text": null
       },      
       "labels": {
-        "format": "{value:,0f}"      
+        "format": "{value:,0f}",
+        "style": {
+          "color": "#000000"
+        }              
       },
       "reversedStacks": true,
-      "opposite": true
+      "opposite": true      
     }
   ],
   "tooltip": {    
