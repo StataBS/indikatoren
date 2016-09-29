@@ -1,7 +1,7 @@
 chartOptions["I.18.3.0001"] = {
   "yAxis": {
     "labels": {
-      "format": "{value:,.0f}%",
+      "format": "{value:,.1f}%",
     } 
   },
   "xAxis": {

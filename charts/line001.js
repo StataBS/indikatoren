@@ -39,6 +39,7 @@ var template = {
     "shared": false
   },
   "yAxis": {
+    "min": 0,
     "title": {
       "style": {
         "color": "#000000",
