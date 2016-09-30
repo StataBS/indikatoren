@@ -1,9 +1,6 @@
 chartOptions['I.50.2.0001'] = {
     "xAxis": {
         "type": "category",
-        "labels": {
-            "useHTML": true
-        }
     },
     "yAxis": {
         "tickInterval": null,
