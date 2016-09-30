@@ -69,6 +69,7 @@
             jQuery('<div/>', {
               id: 'container-' + safeKuerzel,
             }).appendTo('body');
+           
 
             //check if chart needs to be exported, and how
             var exportType = window.encodeURIComponent($.url('?thumbnailType'));
@@ -97,7 +98,14 @@
                 }
                 
                 //load offline exporting module first if required, then invoke createThumbnail()
-                (thumbnailOfflineExporting) ? $.getScript('assets/js/highcharts-offline-exporting-4.2.6.js', function(){createThumbnail(safeKuerzel, exportType, thumbnailOfflineExporting)}) : createThumbnail(safeKuerzel, exportType, thumbnailOfflineExporting);                  
+                (thumbnailOfflineExporting) ? $.getScript('assets/js/highcharts-offline-exporting-4.2.6.js', function(){createThumbnail(safeKuerzel, exportType, thumbnailOfflineExporting)}) : createThumbnail(safeKuerzel, exportType, thumbnailOfflineExporting);
+
+                //load options into div
+                if (window.encodeURIComponent($.url('?exportOptionsJson')) === 'true'){
+                  //create div for chart options
+                  jQuery('<div id="options" class="hidden">' + JSON.stringify(Highcharts.charts[0].options) + '</div>', {
+                  }).appendTo('body');
+                }
               }     
             });
           }
