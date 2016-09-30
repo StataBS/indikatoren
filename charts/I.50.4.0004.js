@@ -30,6 +30,7 @@ chartOptions['I.50.4.0004'] = {
         }        
     ],
     "tooltip": {
+        "useHTML": true,
         "pointFormat": '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}%</b><br/>'
     },        
     "legend": {
