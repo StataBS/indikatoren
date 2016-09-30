@@ -225,10 +225,8 @@ function configureCascadedControls(level1Selector, level2Selector, level1ValueSe
 
 
 function renderThema(){
-    
-  var values = ["Alle", "01 Bevölkerung",	"02 Raum, Umwelt",	"03 Erwerbsleben",	"04 Volkswirtschaft",	"05 Preise",	"06 Produktion, Handel",	"07 Landwirtschaft",	"08 Energie",	"09 Bau-, Wohnungswesen",	"10 Tourismus",	"11 Verkehr",	"12 Finanzmärkte",	"13 Soziale Sicherheit",	"14 Gesundheit",	"15 Bildung",	"16 Kultur und Sport",	"17 Politik",	"18 Öffentliche Finanzen",	"19 Rechtspflege", "50 Befragungen"];
-
-  //var values = JsonQuery(Indikatoren).uniq("thema").pluck("thema").all  
+  //get all values of thema and add value "Alle" as the first one   
+  var values = ["Alle"].concat(JsonQuery(indikatoren).uniq("thema").pluck("thema").all);  
   var html = $('#radio-template').html();
   var templateFunction = FilterJS.templateBuilder(html);
   var container = $('#thema_criteria');
