@@ -1,4 +1,5 @@
 //https://gist.github.com/TorsteinHonsi/e8a1e6971608523eb8dd
+//how to use custom non-node code in from within node.js: http://stackoverflow.com/questions/5171213/load-vanilla-javascript-libraries-into-node-js
 
 /**
  * Sample of serverside generation of Highcharts using an extension to jsdom in node.js.
@@ -86,6 +87,20 @@ doc.createElementNS = function (ns, tagName) {
     return elem;
 };
 
+
+eval(require('fs').readFileSync('../assets/js/indikatoren-highcharts.js', 'utf8'));
+
+
+//load chart config from file system: Does not perfectly work, functions are not included (e.g. only label last data point). 
+//better: merge csv, template, option link in the web app
+eval(require('fs').readFileSync('./I.01.1.0025.js', 'utf8'));
+
+//disable animations and prevent exceptions 
+options.chart.forExport = true;
+
+this.testFn = function(){return 'foo'};
+console.log(testFun());
+
 // Require Highcharts with the window shim
 var Highcharts = require('highcharts')(win);
 
@@ -98,92 +113,17 @@ Highcharts.setOptions({
                 defer: false
             }
         }
-    }
+    },
+    lang: {
+		decimalPoint: ",",
+        thousandsSep: " "
+    }  
 });
 
 // Generate the chart into the container
-Highcharts.chart('container', {
-    chart: {
-        forExport: true,
-        type: 'column',
-        width: 600,
-        height: 400
-    },
-    title: {
-        text: 'Highcharts and jsdom'
-    },
-    subtitle: {
-        text: 'This chart is generated <em>without</em> a browser'
-    },
-    xAxis: {
-        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-    },
-
-    yAxis: {
-        title: {
-            text: 'Rainfall / mm'
-        }
-    },
-
-    plotOptions: {
-        series: {
-            dataLabels: {
-                shape: 'callout',
-                backgroundColor: 'rgba(0, 0, 0, 0.75)',
-                style: {
-                    color: '#FFFFFF',
-                    textShadow: 'none'
-                }
-            }
-        }
-    },
-
-    series: [{
-        name: 'Monthly rainfall',
-        data: [{
-            y: 29.9,
-            dataLabels: {
-                enabled: true,
-                format: 'January<br><span style="font-size: 1.3em">Dryest</span>',
-                // format: 'Dryest',
-                verticalAlign: 'bottom',
-                y: -10
-            }
-        }, {
-            y: 71.5
-        }, {
-            y: 106.4
-        }, {
-            y: 129.2
-        }, {
-            y: 144.0
-        }, {
-            y: 176.0
-        }, {
-            y: 135.6
-        }, {
-            y: 148.5
-        }, {
-            y: 216.4,
-            dataLabels: {
-                enabled: true,
-                format: 'September<br><span style="font-size: 1.3em">Wettest</span>',
-                // format: 'Wettest',
-                align: 'right',
-                verticalAlign: 'middle',
-                x: -35
-            }
-        }, {
-            y: 194.1
-        }, {
-            y: 95.6
-        }, {
-            y: 54.4
-        }]
-    }]
-});
+Highcharts.chart('container', options);
 
 var svg = win.document.getElementById('container').childNodes[0].innerHTML;
 fs.writeFile('chart.svg', svg, function () {
-    console.log('Wrote ' + svg.length + ' bytes to ' + __dirname + '/chart.svg.'); // eslint-disable-line no-path-concat
+    console.log('Wrote ' + svg.length + ' bytes to ' + __dirname + '/chart.svg'); // eslint-disable-line no-path-concat
 });
