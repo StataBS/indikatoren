@@ -94,15 +94,8 @@ doc.createElementNS = function (ns, tagName) {
 };
 
 
-//eval(require('fs').readFileSync('../assets/js/indikatoren-highcharts.js', 'utf8'));
+ 
 
-
-//load chart config from file system: Does not perfectly work, functions are not included (e.g. only label last data point). 
-//better: merge csv, template, option link in the web app
-//eval(fs.readFileSync('build/I.01.1.0023.js', 'utf8'));
-
-//disable animations and prevent exceptions 
-//
 
 // Require Highcharts with the window shim
 var Highcharts = require('highcharts')(win);
@@ -129,11 +122,8 @@ Highcharts.setOptions({
 //Hack to re-use existing web js code from within node.js, see http://stackoverflow.com/a/8808162
 var execfile = require("execfile");
 
-
-
 var ctx = execfile('data/indikatoren.js');
 var indikatoren = ctx.indikatoren;
-
 
 
 for (var i=0; i<indikatoren.length; i++){
@@ -149,9 +139,9 @@ var csv = (fs.readFileSync('data/' + kuerzel + '.csv', 'utf8'));
 var ctx = execfile('charts/' + kuerzel + '.js', {Highcharts: Highcharts, chartOptions: {}});
 var options = ctx.chartOptions[kuerzel];
 
+//disable animations and prevent exceptions
 options.chart = (options.chart || {});
 options.chart.forExport = true;
-options.chart.renderTo = 'container';
 
 var templateName = chartMetaData.template;
 var ctx = execfile('charts/' + templateName + '.js', {Highcharts: Highcharts});
