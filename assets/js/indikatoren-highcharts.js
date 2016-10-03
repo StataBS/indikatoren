@@ -1,6 +1,70 @@
 "use strict";
 var indikatorensetView; 
 
+  //parse csv and configure HighCharts object
+  function parseData(completeHandler, chartOptions, data) {
+      try {
+        var dataOptions = {
+          /*  seriesMapping necessary for charts with error bars. 
+              todo: read dataOptions from chart-specific file
+          */          
+          "seriesMapping": [
+            {
+              "x": 0
+            },
+            {
+              "x": 0
+            },
+            {
+              "x": 0
+            }
+          ],
+            csv: data
+        };
+        dataOptions.sort = true
+        dataOptions.complete = completeHandler;
+        Highcharts.data(dataOptions, chartOptions);
+      } catch (error) {
+        console.log(error);
+        completeHandler(undefined);
+      }      
+  };
+
+
+  //merge series with all options and draw chart
+  function drawChart(data, chartOptions, callbackFn){                
+
+    parseData(function (dataOptions) {
+      // Merge series configs
+      if (chartOptions.series && dataOptions) {
+          Highcharts.each(chartOptions.series, function (series, i) {
+            chartOptions.series[i] = Highcharts.merge(series, dataOptions.series[i]);
+          });
+      }
+      //merge all highcharts configs
+      var options = Highcharts.merge(true, dataOptions, template, chartOptions);
+      //inject metadata to highcharts options - only if indikatorensetView is defined
+      if (indikatorensetView !== undefined) {
+        injectMetadataToChartConfig(options, chartData);
+      }
+      //draw chart
+      var chart = new Highcharts['Chart'](options, callbackFn);
+    }, chartOptions, data);      
+    
+  };
+
+
+  //Add data from database to chart config
+  function injectMetadataToChartConfig(options, data){
+    options['title']['text'] = (indikatorensetView) ? data.kuerzelKunde + ' ' + data.title : data.kuerzel + ' ' + data.title;
+    options['chart']['renderTo'] = 'container-' + data.kuerzel;
+    options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join(';<br/>');
+    //make sure node exists before deferencing it
+    options['exporting'] = (options['exporting'] || {});
+    options['exporting']['filename'] = data.kuerzel;
+  };
+
+
 //load global options, template, chartOptions from external scripts, load csv data from external file, and render chart to designated div
 function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, callbackFn){
   var chartData = findChartByKuerzel(indikatoren, kuerzel);   
