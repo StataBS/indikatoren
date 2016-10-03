@@ -22,10 +22,8 @@ var ctx = execfile('data/indikatoren.js');
 var indikatoren = ctx.indikatoren;
 
 indikatoren.forEach(function(indikator){
-    if (indikator.kuerzel !== 'I.03.0.0001')  {
-        console.log('Starting rendering chart ' + indikator.kuerzel + '...');
-        renderToFile(indikator.kuerzel, console);
-    }
+    console.log('Rendering svg for chart ' + indikator.kuerzel + '...');
+    renderToFile(indikator.kuerzel, console);
 });
 
 console.log('...done!');
@@ -123,6 +121,8 @@ function renderToFile(kuerzel, console){
 
     // Require Highcharts with the window shim
     var Highcharts = require('highcharts')(win);
+    //Error bars need highcharts-more. How to import: http://stackoverflow.com/q/34505816
+    require('highcharts/highcharts-more')(Highcharts);
     //var Highcharts_more = require('Highcharts/highcharts-more')(win);
     var Highcharts_data = require('highcharts/modules/data')(Highcharts);
     
@@ -179,9 +179,14 @@ function renderToFile(kuerzel, console){
     ctx.drawChart(csv, options);
 
     var svg = win.document.getElementById('container-' + kuerzel).childNodes[0].innerHTML;
-    fs.writeFile('images/' + kuerzel + '.svg', svg, function () {
-        console.log('Wrote ' + svg.length + ' bytes to ' + __dirname + '/' + kuerzel + '.svg'); // eslint-disable-line no-path-concat
-    });
-    return svg;
 
+    //replace hardcoded height and width with hardcoded viewBox in order to make pics compatible with IE. 
+    var regex = 'width="(.*?)" height="(.*?)">';
+    var re = new RegExp (regex);
+    var replace = 'viewBox="0 0 $1 $2">';
+    var svgWithViewBox = svg.replace(re, replace);
+
+
+    fs.writeFile('images/' + kuerzel + '.svg', svgWithViewBox);
+    return svgWithViewBox;
 };
