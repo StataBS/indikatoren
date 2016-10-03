@@ -94,15 +94,6 @@ var template = {
         "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>',
         "shared": false
     },
-    "exporting": {
-        "sourceWidth": null,
-        "scale": 5,
-        "buttons": {
-            "contextButton": {
-            "menuItems": Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8)
-            }
-        }
-    },
     "credits": {
         "enabled": true,
         "style": {
