@@ -15,8 +15,11 @@
 var jsdom = require('jsdom'),
     fs = require('fs');
 
+
+var virtualConsole = jsdom.createVirtualConsole().sendTo(console);
+
 // Get the document and window
-var doc = jsdom.jsdom('<!doctype html><html><body><div id="container"></div></body></html>'),
+var doc = jsdom.jsdom('<!doctype html><html><body><div id="container-I.01.1.0023"></div></body></html>', { virtualConsole }),
     win = doc.defaultView;
 
 // Do some modifications to the jsdom document in order to get the SVG bounding
@@ -88,21 +91,24 @@ doc.createElementNS = function (ns, tagName) {
 };
 
 
-eval(require('fs').readFileSync('../assets/js/indikatoren-highcharts.js', 'utf8'));
+//eval(require('fs').readFileSync('../assets/js/indikatoren-highcharts.js', 'utf8'));
 
 
 //load chart config from file system: Does not perfectly work, functions are not included (e.g. only label last data point). 
 //better: merge csv, template, option link in the web app
-eval(require('fs').readFileSync('./I.01.1.0025.js', 'utf8'));
+//eval(fs.readFileSync('build/I.01.1.0023.js', 'utf8'));
 
 //disable animations and prevent exceptions 
-options.chart.forExport = true;
-
-this.testFn = function(){return 'foo'};
-console.log(testFun());
+//
 
 // Require Highcharts with the window shim
 var Highcharts = require('highcharts')(win);
+var Highcharts_data = require('highcharts/modules/data')(Highcharts);
+
+var csv = (fs.readFileSync('data/I.01.1.0023.csv', 'utf8'));
+console.log(csv);
+
+
 
 // Disable all animation
 Highcharts.setOptions({
@@ -120,10 +126,50 @@ Highcharts.setOptions({
     }  
 });
 
-// Generate the chart into the container
-Highcharts.chart('container', options);
 
-var svg = win.document.getElementById('container').childNodes[0].innerHTML;
-fs.writeFile('chart.svg', svg, function () {
-    console.log('Wrote ' + svg.length + ' bytes to ' + __dirname + '/chart.svg'); // eslint-disable-line no-path-concat
+//Hack to re-use existing web js code from within node.js, see http://stackoverflow.com/a/8808162
+var execfile = require("execfile");
+
+
+var ctx2 = execfile('charts/I.01.1.0023.js', {Highcharts: Highcharts, chartOptions: {}});
+var options = ctx2.chartOptions['I.01.1.0023'];
+
+options.chart = (options.chart || {});
+options.chart.forExport = true;
+options.chart.renderTo = 'container';
+console.log(options);
+
+var ctx1 = execfile('charts/line001.js')
+var template = ctx1.template;
+
+var ctx3 = execfile('data/indikatoren.js');
+var indikatoren = ctx3.indikatoren;
+
+for (var i=0; i<indikatoren.length; i++){
+    if (indikatoren[i].kuerzel === 'I.01.1.0023'){
+        var chartMetaData = indikatoren[i];
+        break;
+    }
+};
+
+var ctx = execfile("assets/js/indikatoren-highcharts.js", { 
+    Highcharts: Highcharts, 
+    console: console, 
+    template: template,
+    indikatorensetView: false, 
+    chartData: chartMetaData
+ });
+console.log(ctx.escapeCssChars('Test'));
+ctx.drawChart(csv, options);
+
+//console.log(Highcharts.charts[0]);
+  
+
+
+// Generate the chart into the container
+//Highcharts.chart('container', options);
+
+var svg = win.document.getElementById('container-I.01.1.0023').childNodes[0].innerHTML;
+fs.writeFile('build/I.01.1.0023.svg', svg, function () {
+    console.log('Wrote ' + svg.length + ' bytes to ' + __dirname + '/I.01.1.0023.svg'); // eslint-disable-line no-path-concat
 });
