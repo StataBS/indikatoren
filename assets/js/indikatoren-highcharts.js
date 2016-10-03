@@ -2,6 +2,7 @@
 var indikatorensetView; 
 
   //parse csv and configure HighCharts object
+  //todo: de-duplicate this function
   function parseData(completeHandler, chartOptions, data) {
       try {
         var dataOptions = {
@@ -32,6 +33,7 @@ var indikatorensetView;
 
 
   //merge series with all options and draw chart
+  //todo: de-duplicate this function
   function drawChart(data, chartOptions, callbackFn){                
 
     parseData(function (dataOptions) {
@@ -55,6 +57,7 @@ var indikatorensetView;
 
 
   //Add data from database to chart config
+  //todo: de-duplicate this function
   function injectMetadataToChartConfig(options, data){
     options['title']['text'] = (indikatorensetView) ? data.kuerzelKunde + ' ' + data.title : data.kuerzel + ' ' + data.title;
     options['chart']['renderTo'] = 'container-' + data.kuerzel;
@@ -148,7 +151,7 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, c
     options['chart']['renderTo'] = 'container-' + data.kuerzel;
     options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join(';<br/>');
     //make sure node exists before deferencing it
-    options['exporting'] = (chartOptions['exporting'] || {});
+    options['exporting'] = (options['exporting'] || {});
     options['exporting']['filename'] = data.kuerzel;
   };
 };
