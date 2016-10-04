@@ -7,7 +7,6 @@
  * Usage: 
  * npm install jsdom
  * npm install highcharts@4.2.6
- * npm install highcharts-more-node
  * node highcharts-jsdom
  */
 
