@@ -2,6 +2,7 @@
   "name": "indikatoren",
   "version": "1.0.0",
   "scripts": {
+    "build": "node build/createThumbnails.js",
     "start": "ws"
   }
 }
