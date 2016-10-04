@@ -4,5 +4,9 @@
   "scripts": {
     "build": "node build/createThumbnails.js",
     "start": "ws"
+  },
+  "devDependencies": {
+    "jsdom": "*",
+    "highcharts": "4.2.6"
   }
 }
