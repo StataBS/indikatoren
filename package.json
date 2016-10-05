@@ -2,7 +2,7 @@
   "name": "indikatoren",
   "version": "1.0.0",
   "scripts": {
-    "build": "node build/createThumbnails.js",
+    "build": "node build/createThumbnails.js && node build/createSingleJsonFiles.js && node build/createKennzahlensetJsonFiles.js",
     "start": "ws"
   },
   "devDependencies": {
