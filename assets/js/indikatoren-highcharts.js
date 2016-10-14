@@ -81,6 +81,7 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, c
   //Add data from database to chart config
   function injectMetadataToChartConfig(options, data){
     options['title']['text'] = (indikatorensetView) ? data.kuerzelKunde + ' ' + data.title : data.kuerzel + ' ' + data.title;
+    options['subtitle']['text'] = data.untertitel;
     options['chart']['renderTo'] = 'container-' + data.kuerzel;
     options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join(';<br/>');
     //make sure node exists before deferencing it
