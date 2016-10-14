@@ -15,33 +15,30 @@ var template = {
         "borderColor": "#fbfbfb",
         "backgroundColor": "#fbfbfb",
         "width": 485,
-        "height": 415,
+        //"height": 415,
         "marginBottom": 65,
-        "marginTop": 75,
+        //"marginTop": 75,
         "style": {
-        "fontFamily": "Arial"
+			"fontFamily": "Arial"
         },
         "zoomType": "xy",
         "type": "column"
     },    
     "title": {
         "style": {
-        "fontSize": "14px",
-        "fontWeight": "bold",
-        "fontFamily": "Arial",
-        "color": "#000000"
+			"fontSize": "14px",
+			"fontWeight": "bold",
+			"color": "#000000"
         },        
-        "align": "left"
+        "align": "left",
+		"margin": 20
     },
     "subtitle": {
         "style": {
-        "fontSize": "12px",
-        "fontWeight": "normal",
-        "fontFamily": "Arial",
-        "color": "#000000"
+			"fontSize": "12px",
+			"color": "#000000"
         },
-        "text": "",
-        "align": "left"
+		"align": "left"
     },
     "navigation": {
         "menuItemStyle": {
@@ -81,7 +78,7 @@ var template = {
         "tickColor": "#FFFFFF",
         "title": {
             "style": {
-            "color": "#000000"
+				"color": "#000000"
             }
         },
         "labels": {
