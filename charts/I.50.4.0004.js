@@ -39,7 +39,7 @@ chartOptions['I.50.4.0004'] = {
         "itemMarginBottom": 5,     
         "align": "left",
         "x": 145,
-        "y": 35,
+        "y": 70,
         "itemWidth": 150,
         "itemStyle": {
             "fontWeight": "normal"
@@ -47,8 +47,7 @@ chartOptions['I.50.4.0004'] = {
     },      
     "chart":
     {
-        "inverted": true,
-        "marginTop": 110
+        "inverted": true
     }
 };
  

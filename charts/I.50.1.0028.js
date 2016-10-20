@@ -26,7 +26,7 @@ chartOptions['I.50.1.0028'] = {
         "itemMarginBottom": 5,     
         "align": "left",
         "x": 30,
-        "y": 25,
+        "y": 35,
         "itemWidth": 200,
         "itemStyle": {
             "fontWeight": "normal"
@@ -37,10 +37,6 @@ chartOptions['I.50.1.0028'] = {
         "series": {
             "stacking": null
         }
-    },
-    "chart": {
-        "marginTop": 120,
-        "marginBottom": 75
     }
 };
 

@@ -18,9 +18,6 @@
   ],
   "xAxis": {
       "type": "category"
-  },
-  "chart": {
-      "marginBottom": 75
   }
 };
 
