@@ -15,9 +15,8 @@ var template = {
         "borderColor": "#fbfbfb",
         "backgroundColor": "#fbfbfb",
         "width": 485,
-        //"height": 415,
-        "marginBottom": 65,
-        //"marginTop": 75,
+        "height": 415,
+        "spacingBottom": 30,
         "style": {
 			"fontFamily": "Arial"
         },
@@ -30,13 +29,12 @@ var template = {
 			"fontWeight": "bold",
 			"color": "#000000"
         },        
-        "align": "left",
-		"margin": 20
+        "align": "left"
     },
     "subtitle": {
         "style": {
 			"fontSize": "12px",
-			"color": "#000000"
+			"color": "#000000"                      
         },
         "align": "left"
     },
@@ -91,15 +89,6 @@ var template = {
         "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>',
         "shared": false
     },
-    "exporting": {
-        "sourceWidth": null,
-        "scale": 5,
-        "buttons": {
-            "contextButton": {
-				"menuItems": Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8)
-            }
-        }
-    },
     "credits": {
         "enabled": true,
         "style": {
@@ -110,8 +99,7 @@ var template = {
         "position": {
             "align": "left",
             "verticalAlign": "bottom",
-            x: 10,
-            y: -17
+            "x": 10
         }
     },
     "legend": {

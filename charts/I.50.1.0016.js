@@ -21,9 +21,6 @@ chartOptions['I.50.1.0016'] = {
     },
     "legend": {
         "reversed": true
-    },
-    "chart": {
-        "marginBottom": 75
     }
 };
 

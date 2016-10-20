@@ -41,11 +41,7 @@ chartOptions['I.50.1.0020'] = {
         "itemStyle": {
             "fontWeight": "normal"
         }
-    },         
-  "chart": {
-      "marginBottom": 75,
-      "marginTop": 120 
-  }
+    }         
 };
 
  

@@ -36,8 +36,6 @@ chartOptions['I.01.1.0014'] = {
     shared: false
   },  
   "chart": {    
-    "marginBottom": 65,
-    "marginTop": 75,
     "type": "column",
     "inverted": true
   }

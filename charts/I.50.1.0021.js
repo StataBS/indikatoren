@@ -31,9 +31,6 @@ chartOptions['I.50.1.0021'] = {
     },       
     "xAxis": {
         "type": "category"
-    },
-    "chart": {
-        "marginBottom": 75
     }
 };
 

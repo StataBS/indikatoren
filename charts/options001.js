@@ -11,7 +11,7 @@ Highcharts.setOptions({
 		"downloadPDF": "PDF",
 		"downloadCSV": 'CSV',
 		"downloadXLS": 'XLS',		
-    "thousandsSep": " "  
+        "thousandsSep": " "  
 	},
 	"exporting": {
         "sourceWidth": null,
