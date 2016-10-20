@@ -7,7 +7,7 @@
  * Usage: 
  * npm install jsdom
  * npm install highcharts@4.2.6
- * node highcharts-jsdom
+ * node createThumbnails
  */
 
 
@@ -17,7 +17,7 @@ var execfile = require("execfile");
 
 console.log('Loading metadata...');
 
-var ctx = execfile('data/indikatoren.js');
+var ctx = execfile('metadata/indikatoren.js');
 var indikatoren = ctx.indikatoren;
 
 indikatoren.forEach(function(indikator){

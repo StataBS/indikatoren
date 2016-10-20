@@ -3,7 +3,7 @@ var execfile = require("execfile");
 
 console.log('Loading metadata...');
 
-var ctx = execfile('data/indikatoren.js');
+var ctx = execfile('metadata/indikatoren.js');
 var indikatoren = ctx.indikatoren;
 var indikatorensets;
  
@@ -17,6 +17,6 @@ console.log('...done!');
 
 function saveToJsonFile(kuerzel, obj, console){
     var fs = require('fs');
-    var singleJson = "var indikator = " + JSON.stringify(obj) + ";";
-    fs.writeFile('data/' + kuerzel + '.js', singleJson);
+    var singleJson = "var indikator = " + JSON.stringify(obj, null, '\t') + ";";
+    fs.writeFile('metadata/single/' + kuerzel + '.js', singleJson);
 };

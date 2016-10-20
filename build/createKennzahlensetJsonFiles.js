@@ -3,7 +3,7 @@ var execfile = require("execfile");
 
 console.log('Loading metadata...');
 
-var ctx = execfile('data/indikatoren.js');
+var ctx = execfile('metadata/indikatoren.js');
 var indikatoren = ctx.indikatoren;
 var indikatorensets = {};
  
@@ -18,8 +18,8 @@ for (var indikatorenset in indikatorensets){
     if (indikatorenset != {}){
         console.log('Creating file for Indikatorenset ' + setName);
         var fs = require('fs');
-        var setJson = "var indikatorenset = " + JSON.stringify(indikatorensets[indikatorenset]) + ";";
-        fs.writeFile('data/' + setName + '.js', setJson);
+        var setJson = "var indikatorenset = " + JSON.stringify(indikatorensets[indikatorenset], null, '\t') + ";";
+        fs.writeFile('metadata/' + setName + '.js', setJson);
     }
 };
 
