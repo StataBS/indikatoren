@@ -16,8 +16,7 @@ var template = {
         "backgroundColor": "#fbfbfb",
         "width": 485,
         "height": 415,
-        "marginBottom": 65,
-        "marginTop": 35,
+        "spacingBottom": 30,
         "style": {
         "fontFamily": "Arial"
         },
@@ -109,8 +108,7 @@ var template = {
         "position": {
             "align": "left",
             "verticalAlign": "bottom",
-            x: 10,
-            y: -17
+            "x": 10
         }
     },
     "legend": {

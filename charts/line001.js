@@ -10,8 +10,7 @@ var template = {
 		"zoomType": "xy",
 		"width": 485,
     "height": 415,
-		"marginBottom": 65,
-		"marginTop": 75,
+    "spacingBottom": 30,    
 		"style": {
 		  "fontFamily": "Arial"
 		},
@@ -59,7 +58,7 @@ var template = {
         "color": "#000000"
       }
     },
-    tickLength: 0
+    "tickLength": 0
   },
   "credits": {
     "href": "http://www.statistik.bs.ch",
@@ -72,8 +71,7 @@ var template = {
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      x: 10,
-      y: -17
+      "x": 10
     }
   },
   "legend": {

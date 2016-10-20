@@ -15,9 +15,8 @@ var template = {
         "borderColor": "#fbfbfb",
         "backgroundColor": "#fbfbfb",
         "width": 485,
-        //"height": 415,
-        "marginBottom": 65,
-        //"marginTop": 75,
+        "height": 415,
+        "spacingBottom": 30,
         "style": {
 			"fontFamily": "Arial"
         },
@@ -30,8 +29,7 @@ var template = {
 			"fontWeight": "bold",
 			"color": "#000000"
         },        
-        "align": "left",
-		"margin": 20
+        "align": "left"
     },
     "subtitle": {
         "style": {
@@ -102,8 +100,7 @@ var template = {
         "position": {
             "align": "left",
             "verticalAlign": "bottom",
-            x: 10,
-            y: -17
+            "x": 10
         }
     },
     "legend": {
