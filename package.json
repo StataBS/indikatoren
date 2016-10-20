@@ -2,11 +2,12 @@
   "name": "indikatoren",
   "version": "1.0.0",
   "scripts": {
-    "build": "node build/createThumbnails.js && node build/createSingleJsonFiles.js && node build/createKennzahlensetJsonFiles.js",
+    "build": "node build/createJsonDatabase && build/createThumbnails.js && node build/createKennzahlensetJsonFiles.js",
     "start": "ws"
   },
   "devDependencies": {
     "jsdom": "*",
-    "highcharts": "4.2.6"
+    "highcharts": "4.2.6",
+    "glob": "*"
   }
 }
