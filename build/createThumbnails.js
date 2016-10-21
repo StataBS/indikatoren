@@ -171,10 +171,10 @@ function renderToFile(kuerzel, console){
     var ctx = execfile("assets/js/indikatoren-highcharts.js", { 
         Highcharts: Highcharts, 
         console: console, 
-        template: template,
-        indikatorensetView: false
+        template: template
     });
-    ctx.drawChart(csv, options, chartMetaData);
+    var indikatorensetView = false;
+    ctx.drawChart(csv, options, chartMetaData, indikatorensetView);
 
     var svg = win.document.getElementById('container-' + kuerzel).childNodes[0].innerHTML;
 
