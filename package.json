@@ -5,7 +5,6 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "bootstrap-multiselect": "^0.9.13-1",
-    "highcharts": "4.2.6",
     "http-server": "^0.9.0",
     "jquery": "^3.1.1"
   },
@@ -15,7 +14,7 @@
     "jsdom": "^9.8.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 0",
     "createJsonDatabase": "node build/createJsonDatabase",
     "createThumbnails": "node build/createThumbnails.js",
     "createKennzahlensetJsonFiles": "node build/createKennzahlensetJsonFiles.js",
