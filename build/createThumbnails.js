@@ -172,10 +172,9 @@ function renderToFile(kuerzel, console){
         Highcharts: Highcharts, 
         console: console, 
         template: template,
-        indikatorensetView: false, 
-        chartData: chartMetaData
+        indikatorensetView: false
     });
-    ctx.drawChart(csv, options);
+    ctx.drawChart(csv, options, chartMetaData);
 
     var svg = win.document.getElementById('container-' + kuerzel).childNodes[0].innerHTML;
 
