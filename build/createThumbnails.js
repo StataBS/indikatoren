@@ -210,6 +210,6 @@ function renderToFile(kuerzel, indikatorensetView, console){
     node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs node_modules/highcharts-phantomjs/lib/highcharts-convert.js -infile finalcharts/I.01.5.0003.json -outfile finalcharts/I.01.5.0003.svg
     node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs node_modules/highcharts-phantomjs/lib/highcharts-convert.js -infile finalcharts/I.01.1.0023.json -outfile finalcharts/I.01.1.0023.svg
 
-    todo: invoke command from javascript code
+    todo: invoke command from javascript code, e.g. as done here: https://github.com/Medium/phantomjs
     */
 };
