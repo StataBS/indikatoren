@@ -16,32 +16,27 @@ var template = {
         "backgroundColor": "#fbfbfb",
         "width": 485,
         "height": 415,
-        "marginBottom": 65,
-        "marginTop": 75,
+        "spacingBottom": 30,
         "style": {
-        "fontFamily": "Arial"
+			"fontFamily": "Arial"
         },
         "zoomType": "xy",
         "type": "column"
     },    
     "title": {
         "style": {
-        "fontSize": "14px",
-        "fontWeight": "bold",
-        "fontFamily": "Arial",
-        "color": "#000000"
+			"fontSize": "14px",
+			"fontWeight": "bold",
+			"color": "#000000"
         },        
         "align": "left"
     },
     "subtitle": {
         "style": {
-        "fontSize": "12px",
-        "fontWeight": "normal",
-        "fontFamily": "Arial",
-        "color": "#000000"
+			"fontSize": "12px",
+			"color": "#000000"
         },
-        "text": "",
-        "align": "left"
+		"align": "left"
     },
     "navigation": {
         "menuItemStyle": {
@@ -81,7 +76,7 @@ var template = {
         "tickColor": "#FFFFFF",
         "title": {
             "style": {
-            "color": "#000000"
+				"color": "#000000"
             }
         },
         "labels": {
@@ -95,15 +90,6 @@ var template = {
         "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>',
         "shared": false
     },
-    "exporting": {
-        "sourceWidth": null,
-        "scale": 5,
-        "buttons": {
-            "contextButton": {
-                "menuItems": Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8)
-            }
-        }
-    },
     "credits": {
         "enabled": true,
         "style": {
@@ -114,8 +100,7 @@ var template = {
         "position": {
             "align": "left",
             "verticalAlign": "bottom",
-            x: 10,
-            y: -17
+            "x": 10
         }
     },
     "legend": {

@@ -27,16 +27,16 @@ chartOptions['I.50.2.0001'] = {
         }        
     ],
     "tooltip": {
+        "useHTML": true,
         "pointFormat": '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}%</b><br/>'
-    },
-        
+    },           
     "legend": {
         "layout": "horizontal",
         "verticalAlign": "top",
         "itemMarginBottom": 5,     
         "align": "left",
         "x": 145,
-        "y": 35,
+        "y": 70,
         "itemWidth": 150,
         "itemStyle": {
             "fontWeight": "normal"
@@ -44,8 +44,7 @@ chartOptions['I.50.2.0001'] = {
     },      
     "chart":
     {
-        "inverted": true,
-        "marginTop": 110
+        "inverted": true
     }
 };
  

@@ -1,13 +1,4 @@
 chartOptions['I.50.2.0002'] = {
-  "plotOptions": {
-    "series": {      
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      }
-    },
-  },
   "xAxis": {
     "type": "category"    
   },
@@ -31,8 +22,8 @@ chartOptions['I.50.2.0002'] = {
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 172,
-		"y": 35,    
+    "x": 143,
+		"y": 65,    
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -42,10 +33,6 @@ chartOptions['I.50.2.0002'] = {
     shared: false
   },  
   "chart": {      
-    "renderTo": 'container-I.01.1.0017',
-    "marginBottom": 65,
-    "marginTop": 75,
-    "marginLeft": 190,
     "type": "column",
     "inverted": true
   }
