@@ -74,10 +74,9 @@
             //check if chart needs to be exported, and how
             var exportType = window.encodeURIComponent($.url('?thumbnailType'));
 
-            var chartOptions = {};
-            //renderChart('charts/' + safeKuerzel+'.js', 'charts/template001.js', 'charts/' + safeKuerzel + '.js', 'data/' + safeKuerzel + '.csv', safeKuerzel);
-            var indikatorensetView = false;
-            lazyRenderChartByKuerzel(safeKuerzel, function(){
+            var chartOptions = {};            
+            var indikatorensetView = (window.encodeURIComponent($.url('?indikatorensetView')) === 'true') ? true : false;
+            lazyRenderChartByKuerzel(safeKuerzel, indikatorensetView, function(){
               //make sure we have the complete chart with the renderTo object, which contains the kuerzel
               if (this.renderTo){                        
                 //determine if offline exporting necessary
