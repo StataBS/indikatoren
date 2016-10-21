@@ -15,7 +15,7 @@
 //Hack to re-use existing web js code from within node.js, see http://stackoverflow.com/a/8808162
 var execfile = require("execfile");
 
-var superJson = require('super-json');
+var serialize = require('serialize-javascript');
 
 console.log('Loading metadata...');
 
@@ -26,7 +26,7 @@ var views = [true, false];
 views.forEach(function(view){
     console.log('Starting svg creation for indikatorensetView=' + view);
     indikatoren.forEach(function(indikator){
-        if (indikator.kuerzel === 'I.01.5.0003'){
+        if (indikator.kuerzel === 'I.01.5.0003' || indikator.kuerzel === 'I.01.1.0013' || indikator.kuerzel === 'I.01.1.0023'){
             console.log('Rendering svg for chart ' + indikator.kuerzel + ' indikatorensetView=' + view +'...');
             renderToFile(indikator.kuerzel, view, console);
         }
@@ -35,6 +35,7 @@ views.forEach(function(view){
 
 console.log('...done!');
 
+//todo: get rid of all the jsdom code 
 function renderToFile(kuerzel, indikatorensetView, console){
     /* eslint-env node */
     /* eslint no-console: 0 */
@@ -196,13 +197,19 @@ function renderToFile(kuerzel, indikatorensetView, console){
     */
 
     ctx.createChartConfig(csv, options, chartMetaData, indikatorensetView, function(options){
-        //stringify functions: use super-json: https://github.com/tarruda/super-json
-        var myJson = superJson.create();
-        var stringifiedOptions = myJson.stringify({birth: new Date(0), someRegex: /abc/gi});
+        var stringifiedOptions = serialize(options, {space: 2});
 
         console.log(stringifiedOptions);
-        //define where to save the files depending on indikatorensetView
-        var path = (indikatorensetView) ? 'finalcharts/' : 'finalcharts/';
-        fs.writeFile(path + kuerzel + '.js', stringifiedOptions);
+        fs.writeFile('finalcharts/' + kuerzel + '.json', stringifiedOptions);
     });
+
+    /*
+
+    Now on mac invoke this command to create the svg: 
+    
+    node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs node_modules/highcharts-phantomjs/lib/highcharts-convert.js -infile finalcharts/I.01.5.0003.json -outfile finalcharts/I.01.5.0003.svg
+    node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs node_modules/highcharts-phantomjs/lib/highcharts-convert.js -infile finalcharts/I.01.1.0023.json -outfile finalcharts/I.01.1.0023.svg
+
+    todo: invoke command from javascript code
+    */
 };
