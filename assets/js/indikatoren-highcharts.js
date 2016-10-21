@@ -29,9 +29,8 @@ function parseData(chartOptions, data, completeHandler) {
     }      
 };
 
-
-//merge series with all options and draw chart
-function drawChart(data, chartOptions, chartMetaData, indikatorensetView, callbackFn){                
+//merge series with all options
+function createChartConfig(data, chartOptions, chartMetaData, indikatorensetView, callbackFn){                
   parseData(chartOptions, data, function (dataOptions) {
     // Merge series configs
     if (chartOptions.series && dataOptions) {
@@ -42,11 +41,21 @@ function drawChart(data, chartOptions, chartMetaData, indikatorensetView, callba
     //merge all highcharts configs
     var options = Highcharts.merge(true, dataOptions, template, chartOptions);
     //inject metadata to highcharts options 
-    injectMetadataToChartConfig(options, chartMetaData, indikatorensetView);
+    var finalOptions = injectMetadataToChartConfig(options, chartMetaData, indikatorensetView);
     //draw chart
+    //var chart = new Highcharts['Chart'](options, callbackFn);
+    //console.log(JSON.stringify(finalOptions, null, '\t'))
+    callbackFn(finalOptions);
+  });        
+};
+
+
+
+//merge series with all options and draw chart
+function drawChart(data, chartOptions, chartMetaData, indikatorensetView, callbackFn){
+  createChartConfig(data, chartOptions, chartMetaData, indikatorensetView, function(options){
     var chart = new Highcharts['Chart'](options, callbackFn);
-  });      
-  
+  });
 };
 
 
@@ -59,6 +68,7 @@ function injectMetadataToChartConfig(options, data, indikatorensetView){
   //make sure node exists before deferencing it
   options['exporting'] = (options['exporting'] || {});
   options['exporting']['filename'] = data.kuerzel;
+  return options;
 };
 
 
