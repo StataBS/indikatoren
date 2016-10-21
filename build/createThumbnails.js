@@ -31,10 +31,6 @@ views.forEach(function(view){
 
 console.log('...done!');
 
-/*
-var kuerzel = 'I.01.1.0040';
-renderToFile(kuerzel);
-*/
 function renderToFile(kuerzel, indikatorensetView, console){
     /* eslint-env node */
     /* eslint no-console: 0 */
