@@ -1,5 +1,4 @@
-"use strict";
-var indikatorensetView; 
+"use strict"; 
 
 //parse csv and configure HighCharts object
 function parseData(chartOptions, data, completeHandler) {
@@ -32,7 +31,7 @@ function parseData(chartOptions, data, completeHandler) {
 
 
 //merge series with all options and draw chart
-function drawChart(data, chartOptions, chartMetaData, callbackFn){                
+function drawChart(data, chartOptions, chartMetaData, indikatorensetView, callbackFn){                
   parseData(chartOptions, data, function (dataOptions) {
     // Merge series configs
     if (chartOptions.series && dataOptions) {
@@ -43,7 +42,7 @@ function drawChart(data, chartOptions, chartMetaData, callbackFn){
     //merge all highcharts configs
     var options = Highcharts.merge(true, dataOptions, template, chartOptions);
     //inject metadata to highcharts options 
-    injectMetadataToChartConfig(options, chartMetaData);
+    injectMetadataToChartConfig(options, chartMetaData, indikatorensetView);
     //draw chart
     var chart = new Highcharts['Chart'](options, callbackFn);
   });      
@@ -52,7 +51,7 @@ function drawChart(data, chartOptions, chartMetaData, callbackFn){
 
 
 //Add data from database to chart config
-function injectMetadataToChartConfig(options, data){
+function injectMetadataToChartConfig(options, data, indikatorensetView){
   options['title']['text'] = (indikatorensetView) ? data.kuerzelKunde + ' ' + data.title : data.kuerzel + ' ' + data.title;
   options['subtitle']['text'] = data.subtitle;    
   options['chart']['renderTo'] = 'container-' + data.kuerzel;
@@ -64,7 +63,7 @@ function injectMetadataToChartConfig(options, data){
 
 
 //load global options, template, chartOptions from external scripts, load csv data from external file, and render chart to designated div
-function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, callbackFn){
+function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, indikatorensetView, callbackFn){
   var chartMetaData = findChartByKuerzel(indikatoren, kuerzel);   
   //load scripts one after the other, then load csv and draw the chart
   $.when(        
@@ -77,7 +76,7 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, c
   ).done(function(){
       //load csv and draw chart      
       $.get(csvUrl, function(data){
-        drawChart(data, chartOptions[kuerzel], chartMetaData, callbackFn)
+        drawChart(data, chartOptions[kuerzel], chartMetaData, indikatorensetView, callbackFn)
       });
   });  
 };
@@ -97,7 +96,7 @@ function findChartByKuerzel(data, kuerzel){
 
 
 //construct urls by chart kuerzel and render to designated div
-function lazyRenderChartByKuerzel(kuerzel, callbackFn){
+function lazyRenderChartByKuerzel(kuerzel, indikatorensetView, callbackFn){
   var container = $(escapeCssChars('#container-' + kuerzel));
   //check if a highcharts-container below the container is already present. 
   //no highcharts container yet: load data and draw chart. 
@@ -108,7 +107,7 @@ function lazyRenderChartByKuerzel(kuerzel, callbackFn){
     var chartMetaData = findChartByKuerzel(indikatoren, kuerzel); 
     var templateUrl = 'charts/' + chartMetaData.template + '.js';
         
-    renderChart('charts/options001.js', templateUrl, chartUrl, csvUrl, kuerzel, callbackFn);
+    renderChart('charts/options001.js', templateUrl, chartUrl, csvUrl, kuerzel, indikatorensetView, callbackFn);
   }
   //highcharts container exists already: redraw chart without reloading data from network
   else { 

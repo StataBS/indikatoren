@@ -102,13 +102,13 @@ $(document).ready(function(){
   //add event listener to render chart on modal show
   $("#lightbox").on('show.bs.modal', function (e) {    
     var targetKuerzel = $(e.relatedTarget).attr("indikator-kuerzel-data");
-    lazyRenderChartByKuerzel(targetKuerzel);
+    lazyRenderChartByKuerzel(targetKuerzel, indikatorensetView);
   });
 
   //add event listener to render chart on carousel slide
   $('#lightbox').on('slide.bs.carousel', function (e) {
       var targetKuerzel = $(e.relatedTarget).children().first().attr('indikator-kuerzel-data');
-      lazyRenderChartByKuerzel(targetKuerzel);
+      lazyRenderChartByKuerzel(targetKuerzel, indikatorensetView);
   });
 });//$(document).ready()
 
