@@ -1,84 +1,73 @@
 "use strict";
 var indikatorensetView; 
 
-  //parse csv and configure HighCharts object
-  //todo: de-duplicate this function
-  function parseData(completeHandler, chartOptions, data) {
-      try {
-        var dataOptions = {
-          /*  seriesMapping necessary for charts with error bars. 
-              todo: read dataOptions from chart-specific file
-          */          
-          "seriesMapping": [
-            {
-              "x": 0
-            },
-            {
-              "x": 0
-            },
-            {
-              "x": 0
-            }
-          ],
-            csv: data
-        };
-        dataOptions.sort = true
-        dataOptions.complete = completeHandler;
-        Highcharts.data(dataOptions, chartOptions);
-      } catch (error) {
-        console.log(error);
-        completeHandler(undefined);
-      }      
-  };
+//parse csv and configure HighCharts object
+function parseData(chartOptions, data, completeHandler) {
+    try {
+      var dataOptions = {
+        /*  seriesMapping necessary for charts with error bars. 
+            todo: read dataOptions from chart-specific file
+        */          
+        "seriesMapping": [
+          {
+            "x": 0
+          },
+          {
+            "x": 0
+          },
+          {
+            "x": 0
+          }
+        ],
+          csv: data
+      };
+      dataOptions.sort = true
+      dataOptions.complete = completeHandler;
+      Highcharts.data(dataOptions, chartOptions);
+    } catch (error) {
+      console.log(error);
+      completeHandler(undefined);
+    }      
+};
 
 
-  //merge series with all options and draw chart
-  //todo: de-duplicate this function
-  function drawChart(data, chartOptions, callbackFn){                
-
-    parseData(function (dataOptions) {
-      // Merge series configs
-      if (chartOptions.series && dataOptions) {
-          Highcharts.each(chartOptions.series, function (series, i) {
-            chartOptions.series[i] = Highcharts.merge(series, dataOptions.series[i]);
-          });
-      }
-      //merge all highcharts configs
-      var options = Highcharts.merge(true, dataOptions, template, chartOptions);
-      //inject metadata to highcharts options - only if indikatorensetView is defined
-      if (indikatorensetView !== undefined) {
-        injectMetadataToChartConfig(options, chartData);
-      }
-      //draw chart
-      var chart = new Highcharts['Chart'](options, callbackFn);
-    }, chartOptions, data);      
-    
-  };
+//merge series with all options and draw chart
+function drawChart(data, chartOptions, chartMetaData, callbackFn){                
+  parseData(chartOptions, data, function (dataOptions) {
+    // Merge series configs
+    if (chartOptions.series && dataOptions) {
+        Highcharts.each(chartOptions.series, function (series, i) {
+          chartOptions.series[i] = Highcharts.merge(series, dataOptions.series[i]);
+        });
+    }
+    //merge all highcharts configs
+    var options = Highcharts.merge(true, dataOptions, template, chartOptions);
+    //inject metadata to highcharts options 
+    injectMetadataToChartConfig(options, chartMetaData);
+    //draw chart
+    var chart = new Highcharts['Chart'](options, callbackFn);
+  });      
+  
+};
 
 
-  //Add data from database to chart config
-  //todo: de-duplicate this function
-  function injectMetadataToChartConfig(options, data){
-    options['title']['text'] = (indikatorensetView) ? data.kuerzelKunde + ' ' + data.title : data.kuerzel + ' ' + data.title;
-    options['subtitle']['text'] = data.subtitle;    
-    options['chart']['renderTo'] = 'container-' + data.kuerzel;
-    options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join(';<br/>');
-    //make sure node exists before deferencing it
-    options['exporting'] = (options['exporting'] || {});
-    options['exporting']['filename'] = data.kuerzel;
-  };
+//Add data from database to chart config
+function injectMetadataToChartConfig(options, data){
+  options['title']['text'] = (indikatorensetView) ? data.kuerzelKunde + ' ' + data.title : data.kuerzel + ' ' + data.title;
+  options['subtitle']['text'] = data.subtitle;    
+  options['chart']['renderTo'] = 'container-' + data.kuerzel;
+  options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join(';<br/>');
+  //make sure node exists before deferencing it
+  options['exporting'] = (options['exporting'] || {});
+  options['exporting']['filename'] = data.kuerzel;
+};
 
 
 //load global options, template, chartOptions from external scripts, load csv data from external file, and render chart to designated div
 function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, callbackFn){
-  var chartData = findChartByKuerzel(indikatoren, kuerzel);   
+  var chartMetaData = findChartByKuerzel(indikatoren, kuerzel);   
   //load scripts one after the other, then load csv and draw the chart
   $.when(        
-      /*
-      $.getScript('charts/options001.js'),
-      $.getScript('charts/template001.js'),
-      $.getScript('charts/I.01.2.0002.js'),
-      */
       $.getScript(globalOptionsUrl),
       $.getScript(templateUrl),
       $.getScript(chartUrl),
@@ -88,102 +77,41 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, c
   ).done(function(){
       //load csv and draw chart      
       $.get(csvUrl, function(data){
-        drawChart(data, chartOptions[kuerzel], callbackFn)
+        drawChart(data, chartOptions[kuerzel], chartMetaData, callbackFn)
       });
-  });
-  
-  
-  //parse csv and configure HighCharts object
-  function parseData(completeHandler, chartOptions, data) {
-      try {
-        var dataOptions = {
-          /*  seriesMapping necessary for charts with error bars. 
-              todo: read dataOptions from chart-specific file
-          */          
-          "seriesMapping": [
-            {
-              "x": 0
-            },
-            {
-              "x": 0
-            },
-            {
-              "x": 0
-            }
-          ],
-            csv: data
-        };
-        dataOptions.sort = true
-        dataOptions.complete = completeHandler;
-        Highcharts.data(dataOptions, chartOptions);
-      } catch (error) {
-        console.log(error);
-        completeHandler(undefined);
-      }      
-  };
-
-
-  //merge series with all options and draw chart
-  function drawChart(data, chartOptions, callbackFn){                
-
-    parseData(function (dataOptions) {
-      // Merge series configs
-      if (chartOptions.series && dataOptions) {
-          Highcharts.each(chartOptions.series, function (series, i) {
-            chartOptions.series[i] = Highcharts.merge(series, dataOptions.series[i]);
-          });
-      }
-      //merge all highcharts configs
-      var options = Highcharts.merge(true, dataOptions, template, chartOptions);
-      //inject metadata to highcharts options
-      injectMetadataToChartConfig(options, chartData);
-      //draw chart
-      var chart = new Highcharts['Chart'](options, callbackFn);
-    }, chartOptions, data);      
-    
-  };
-
-
-  //Add data from database to chart config
-  function injectMetadataToChartConfig(options, data){
-    options['title']['text'] = (indikatorensetView) ? data.kuerzelKunde + ' ' + data.title : data.kuerzel + ' ' + data.title;
-    options['subtitle']['text'] = data.subtitle;
-    options['chart']['renderTo'] = 'container-' + data.kuerzel;
-    options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join(';<br/>');
-    //make sure node exists before deferencing it
-    options['exporting'] = (options['exporting'] || {});
-    options['exporting']['filename'] = data.kuerzel;
-  };
+  });  
 };
 
 
-//todo: imporve speed so that not all data items are traversed
+//find chart metadata by kuerzel from json database 
 function findChartByKuerzel(data, kuerzel){
-  var matchingCharts = $.map(data, function(val) {
-    return val.kuerzel == kuerzel ? val : null;
-  });
-  return matchingCharts[0];
+  var matchingChart;
+  for (var i = 0; i < data.length; i++){
+    if (data[i].kuerzel == kuerzel){
+      matchingChart = data[i];
+      break;
+    }     
+  }
+  return matchingChart;
 };
 
 
 //construct urls by chart kuerzel and render to designated div
-function renderChartByKuerzel(kuerzel, callbackFn){
+function lazyRenderChartByKuerzel(kuerzel, callbackFn){
   var container = $(escapeCssChars('#container-' + kuerzel));
   //check if a highcharts-container below the container is already present. 
   //no highcharts container yet: load data and draw chart. 
-  if (!container.find('div.highcharts-container').length) {  
-    //console.log('chart does not exist yet. loading data for '+kuerzel);
+  if (!container.find('div.highcharts-container').length) {      
     var chartUrl = 'charts/' + kuerzel + '.js';
     var csvUrl = 'data/' + kuerzel + '.csv';    
     //get template for requested chart
-    var chartData = findChartByKuerzel(indikatoren, kuerzel); 
-    var templateUrl = 'charts/' + chartData.template + '.js';
+    var chartMetaData = findChartByKuerzel(indikatoren, kuerzel); 
+    var templateUrl = 'charts/' + chartMetaData.template + '.js';
         
     renderChart('charts/options001.js', templateUrl, chartUrl, csvUrl, kuerzel, callbackFn);
   }
   //highcharts container exists already: redraw chart without reloading data from network
-  else {
-    //console.log('already drawn, redrawing without reloading data for ' +  kuerzel);    
+  else { 
     //find chart in highchart's array of charts
     var chartIndex = container.attr("data-highcharts-chart");
     //get chartOptions, destroy and recreate
