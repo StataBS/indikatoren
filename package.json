@@ -20,7 +20,7 @@
     "createThumbnails": "node build/createThumbnails.js",
     "createKennzahlensetJsonFiles": "node build/createKennzahlensetJsonFiles.js",
     "build": "npm run createJsonDatabase && npm run createKennzahlensetJsonFiles && npm run createThumbnails",
-    "server": "http-server -p 8000",
+    "server": "http-server -p 8000 -c-1 -s -o ",
     "start": "npm run build && npm run server"
   },
   "repository": {
