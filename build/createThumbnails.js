@@ -20,10 +20,14 @@ console.log('Loading metadata...');
 var ctx = execfile('metadata/indikatoren.js');
 var indikatoren = ctx.indikatoren;
 
-indikatoren.forEach(function(indikator){
-    console.log('Rendering svg for chart ' + indikator.kuerzel + '...');
-    renderToFile(indikator.kuerzel, console);
-});
+var views = [true, false];
+views.forEach(function(view){
+    console.log('Starting svg creation for indikatorensetView=' + view);
+    indikatoren.forEach(function(indikator){
+        console.log('Rendering svg for chart ' + indikator.kuerzel + ' indikatorensetView=' + view +'...');
+        renderToFile(indikator.kuerzel, view, console);
+    });
+})
 
 console.log('...done!');
 
@@ -31,7 +35,7 @@ console.log('...done!');
 var kuerzel = 'I.01.1.0040';
 renderToFile(kuerzel);
 */
-function renderToFile(kuerzel, console){
+function renderToFile(kuerzel, indikatorensetView, console){
     /* eslint-env node */
     /* eslint no-console: 0 */
     var jsdom = require('jsdom'),
@@ -173,7 +177,7 @@ function renderToFile(kuerzel, console){
         console: console, 
         template: template
     });
-    var indikatorensetView = false;
+
     ctx.drawChart(csv, options, chartMetaData, indikatorensetView);
 
     var svg = win.document.getElementById('container-' + kuerzel).childNodes[0].innerHTML;
@@ -183,8 +187,8 @@ function renderToFile(kuerzel, console){
     var re = new RegExp (regex);
     var replace = 'viewBox="0 0 $1 $2">';
     var svgWithViewBox = svg.replace(re, replace);
-
-
-    fs.writeFile('images/' + kuerzel + '.svg', svgWithViewBox);
+    //define where to save the files depending on indikatorensetView
+    var path = (indikatorensetView) ? 'images/indikatorenset/' : 'images/portal/';
+    fs.writeFile(path + kuerzel + '.svg', svgWithViewBox);
     return svgWithViewBox;
 };
