@@ -77,7 +77,7 @@
             var chartOptions = {};
             //renderChart('charts/' + safeKuerzel+'.js', 'charts/template001.js', 'charts/' + safeKuerzel + '.js', 'data/' + safeKuerzel + '.csv', safeKuerzel);
             var indikatorensetView = false;
-            renderChartByKuerzel(safeKuerzel, function(){
+            lazyRenderChartByKuerzel(safeKuerzel, function(){
               //make sure we have the complete chart with the renderTo object, which contains the kuerzel
               if (this.renderTo){                        
                 //determine if offline exporting necessary
