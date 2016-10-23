@@ -22,7 +22,7 @@
     "build:images_jsdom": "node build/createThumbnailsJsdom",
     "build:images_phantom": "node build/createThumbnailsPhantom",
     "build:partial_databases": "node build/createKennzahlensetJsonFiles.js",
-    "build": "npm run build:database && npm run build:partial_databases && npm run build:charts && npm run build:images_jsdom",
+    "build": "npm run build:database && npm run build:partial_databases && npm run build:charts && npm run build:images_phantom",
     "server": "http-server -p 8000 -c-1 -s -o ",
     "start": "npm run build && npm run server"
   },
