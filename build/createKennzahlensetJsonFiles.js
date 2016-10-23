@@ -19,7 +19,7 @@ for (var indikatorenset in indikatorensets){
         console.log('Creating file for Indikatorenset ' + setName);
         var fs = require('fs');
         var setJson = "var indikatorenset = " + JSON.stringify(indikatorensets[indikatorenset], null, '\t') + ";";
-        fs.writeFile('metadata/' + setName + '.js', setJson);
+        fs.writeFile('metadata/sets/' + setName + '.js', setJson);
     }
 };
 
