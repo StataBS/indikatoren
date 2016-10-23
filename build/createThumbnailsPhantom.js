@@ -47,7 +47,7 @@ function renderToFile(kuerzel, indikatorensetView, console){
             console.log(stderr);
             return
         }
-        console.log("Image for " + kuerzel + "successfully rendered.");
+        console.log("Image for " + kuerzel + " successfully rendered.");
         //console.log(stdout);
     });
 };
