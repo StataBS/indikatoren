@@ -111,13 +111,13 @@ function lazyRenderChartByKuerzel(kuerzel, indikatorensetView, callbackFn){
   //check if a highcharts-container below the container is already present. 
   //no highcharts container yet: load data and draw chart. 
   if (!container.find('div.highcharts-container').length) {      
-    var chartUrl = 'charts/' + kuerzel + '.js';
+    var chartUrl = 'charts/templates/' + kuerzel + '.js';
     var csvUrl = 'data/' + kuerzel + '.csv';    
     //get template for requested chart
     var chartMetaData = findChartByKuerzel(indikatoren, kuerzel); 
-    var templateUrl = 'charts/' + chartMetaData.template + '.js';
+    var templateUrl = 'charts/templates/' + chartMetaData.template + '.js';
         
-    renderChart('charts/options001.js', templateUrl, chartUrl, csvUrl, kuerzel, indikatorensetView, callbackFn);
+    renderChart('charts/templates/options001.js', templateUrl, chartUrl, csvUrl, kuerzel, indikatorensetView, callbackFn);
   }
   //highcharts container exists already: redraw chart without reloading data from network
   else { 
