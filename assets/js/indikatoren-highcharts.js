@@ -71,7 +71,7 @@ function injectMetadataToChartConfig(options, data, indikatorensetView){
   return options;
 };
 
-
+//todo: create new function that uses the pre-created chart configs from /charts/configs
 //load global options, template, chartOptions from external scripts, load csv data from external file, and render chart to designated div
 function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, indikatorensetView, callbackFn){
   var chartMetaData = findChartByKuerzel(indikatoren, kuerzel);   
