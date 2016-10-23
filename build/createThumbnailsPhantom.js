@@ -38,11 +38,14 @@ function renderToFile(kuerzel, indikatorensetView, console){
     var childArgs = [
         path.join(__dirname, '../node_modules/highcharts-phantomjs/lib/highcharts-convert.js'),
         '-infile ' + path.join(__dirname, '../charts/configs/I.01.1.0013.json'),
-        '-outfile ' + path.join(__dirname, '../images/I.01.1.0013.json')
+        '-outfile ' + path.join(__dirname, '../images/I.01.1.0013.svg')
     ]
 
+    var command = binPath + " " + childArgs.join(" ");
+
     console.log("executing the following line:");
-    console.log(binPath + " "  + childArgs);
+    //console.log(binPath + " "  + childArgs);
+    console.log(command);
 
     /*
     childProcess.execFile(binPath, childArgs, function(err, stdout, stderr) {
@@ -52,7 +55,8 @@ function renderToFile(kuerzel, indikatorensetView, console){
         console.log(stderr);
     })
     */
-    var stdout = childProcess.execFileSync(binPath, childArgs).toString('ascii');
+    //var stdout = childProcess.execFileSync(binPath, childArgs).toString('ascii');
+    var stdout = childProcess.execFileSync(command).toString('ascii');
     console.log("Result of execution: ");
     console.log(stdout);
     
