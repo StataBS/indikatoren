@@ -11,6 +11,15 @@ console.log('Loading metadata...');
 var ctx = execfile('metadata/indikatoren.js');
 var indikatoren = ctx.indikatoren;
 
+var path = require('path')
+var childProcess = require('child_process')
+var phantomjs = require('phantomjs-prebuilt')
+var binPath = phantomjs.path
+
+//todo: fix: uncommenting the following line breaks the code
+//var highchartsPhantomjs = require('highcharts-phantomjs');
+//var scriptPath = highchartsPhantomjs.path + "/lib/highcharts-convert.js"; 
+
 var views = [true, false];
 views.forEach(function(view){
     console.log('Starting svg creation for indikatorensetView=' + view);
@@ -25,6 +34,20 @@ views.forEach(function(view){
 console.log('...done!');
      
 function renderToFile(kuerzel, indikatorensetView, console){
+    /*
+    var childArgs = [
+    path.join(__dirname, 'phantomjs-script.js'),
+    'some other argument (passed to phantomjs script)'
+    ]
+
+    console.log("executing the following line:");
+    console.log(binPath + " "  + childArgs);
+    */
+    //childProcess.execFile(binPath, childArgs, function(err, stdout, stderr) {
+    // handle results
+    //})
+
+    
     /*
 
     Now on mac invoke this command to create the svg: 

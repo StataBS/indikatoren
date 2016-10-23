@@ -47,6 +47,7 @@
 
     <script type="text/javascript">
         //get kuerzel from url, encode to prevent xss 
+        //todo: do not use json database but single-chart json files
         var kuerzelFromUser = window.encodeURIComponent($.url('?kuerzel'));
         
         var charts = [];
