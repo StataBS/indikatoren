@@ -17,10 +17,12 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "createJsonDatabase": "node build/createJsonDatabase",
-    "createThumbnails": "node build/createThumbnails.js",
-    "createKennzahlensetJsonFiles": "node build/createKennzahlensetJsonFiles.js",
-    "build": "npm run createJsonDatabase && npm run createKennzahlensetJsonFiles && npm run createThumbnails",
+    "build:database": "node build/createJsonDatabase",
+    "build:charts": "node build/createChartConfigs",
+    "build:images_jsdom": "node build/createThumbnailsJsdom",
+    "build:images_phantom": "node build/createThumbnailsPhantom",
+    "build:partial_databases": "node build/createKennzahlensetJsonFiles.js",
+    "build": "npm run build:database && npm run build:partial_databases && npm run build:charts && npm run build:images_jsdom",
     "server": "http-server -p 8000 -c-1 -s -o ",
     "start": "npm run build && npm run server"
   },

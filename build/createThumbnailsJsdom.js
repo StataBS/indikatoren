@@ -26,10 +26,8 @@ var views = [true, false];
 views.forEach(function(view){
     console.log('Starting svg creation for indikatorensetView=' + view);
     indikatoren.forEach(function(indikator){
-        if (indikator.kuerzel === 'I.01.5.0003' || indikator.kuerzel === 'I.01.1.0013' || indikator.kuerzel === 'I.01.1.0023'){
-            console.log('Rendering svg for chart ' + indikator.kuerzel + ' indikatorensetView=' + view +'...');
-            renderToFile(indikator.kuerzel, view, console);
-        }
+        console.log('Rendering svg for chart ' + indikator.kuerzel + ' indikatorensetView=' + view +'...');
+        renderToFile(indikator.kuerzel, view, console);
     });
 })
 
@@ -161,7 +159,7 @@ function renderToFile(kuerzel, indikatorensetView, console){
 
     var csv = (fs.readFileSync('data/' + kuerzel + '.csv', 'utf8'));
 
-    var ctx = execfile('charts/' + kuerzel + '.js', {Highcharts: Highcharts, chartOptions: {}});
+    var ctx = execfile('charts/templates/' + kuerzel + '.js', {Highcharts: Highcharts, chartOptions: {}});
     var options = ctx.chartOptions[kuerzel];
 
     //disable animations and prevent exceptions
@@ -169,7 +167,7 @@ function renderToFile(kuerzel, indikatorensetView, console){
     options.chart.forExport = true;
 
     var templateName = chartMetaData.template;
-    var ctx = execfile('charts/' + templateName + '.js', {Highcharts: Highcharts});
+    var ctx = execfile('charts/templates/' + templateName + '.js', {Highcharts: Highcharts});
     var template = ctx.template;
 
 
@@ -180,7 +178,7 @@ function renderToFile(kuerzel, indikatorensetView, console){
     });
 
     
-    /*
+    
     ctx.drawChart(csv, options, chartMetaData, indikatorensetView);
 
     var svg = win.document.getElementById('container-' + kuerzel).childNodes[0].innerHTML;
@@ -194,22 +192,4 @@ function renderToFile(kuerzel, indikatorensetView, console){
     var path = (indikatorensetView) ? 'images/indikatorenset/' : 'images/portal/';
     fs.writeFile(path + kuerzel + '.svg', svgWithViewBox);
     return svgWithViewBox;
-    */
-
-    ctx.createChartConfig(csv, options, chartMetaData, indikatorensetView, function(options){
-        var stringifiedOptions = serialize(options, {space: 2});
-
-        console.log(stringifiedOptions);
-        fs.writeFile('finalcharts/' + kuerzel + '.json', stringifiedOptions);
-    });
-
-    /*
-
-    Now on mac invoke this command to create the svg: 
-    
-    node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs node_modules/highcharts-phantomjs/lib/highcharts-convert.js -infile finalcharts/I.01.5.0003.json -outfile finalcharts/I.01.5.0003.svg
-    node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs node_modules/highcharts-phantomjs/lib/highcharts-convert.js -infile finalcharts/I.01.1.0023.json -outfile finalcharts/I.01.1.0023.svg
-
-    todo: invoke command from javascript code, e.g. as done here: https://github.com/Medium/phantomjs
-    */
 };
