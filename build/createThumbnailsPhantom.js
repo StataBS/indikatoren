@@ -3,11 +3,8 @@
 
 //Hack to re-use existing web js code from within node.js, see http://stackoverflow.com/a/8808162
 var execfile = require("execfile");
-
 var serialize = require('serialize-javascript');
-
 console.log('Loading metadata...');
-
 var ctx = execfile('metadata/indikatoren.js');
 var indikatoren = ctx.indikatoren;
 
@@ -20,7 +17,7 @@ views.forEach(function(view){
     });
 })
 
-console.log('...done starting commands, now waiting for execution...');
+console.log('...done starting commands, now waiting for execution callbacks...');
      
 function renderToFile(kuerzel, indikatorensetView, console){
 
@@ -41,25 +38,16 @@ function renderToFile(kuerzel, indikatorensetView, console){
     //console.log(command);
 
     var child_process = require('child_process');
-    var exec = child_process.exec;
 
     //todo: execute synchronously
     //todo: start phantom server and send options via http post instaed of using new phantom instance every time
-    //exec(command, callback);
-    exec(command, function(err,stdout,stderr) {
+    var process = child_process.exec(command, function(err,stdout,stderr) {
         if (err) {
             console.log('Child process exited with error code', err.code);
+            console.log(stderr);
             return
         }
-        console.log(stdout);
+        console.log("Image for " + kuerzel + "successfully rendered.");
+        //console.log(stdout);
     });
-    /*
-
-    Now on mac invoke this command to create the svg: 
-    
-    node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs node_modules/highcharts-phantomjs/lib/highcharts-convert.js -infile finalcharts/I.01.5.0003.json -outfile finalcharts/I.01.5.0003.svg
-    node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs node_modules/highcharts-phantomjs/lib/highcharts-convert.js -infile finalcharts/I.01.1.0023.json -outfile finalcharts/I.01.1.0023.svg
-
-    todo: invoke command from javascript code, e.g. as done here: https://github.com/Medium/phantomjs
-    */
 };
