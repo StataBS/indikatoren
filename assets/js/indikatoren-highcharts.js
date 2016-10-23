@@ -29,9 +29,8 @@ function parseData(chartOptions, data, completeHandler) {
     }      
 };
 
-
-//merge series with all options and draw chart
-function drawChart(data, chartOptions, chartMetaData, indikatorensetView, callbackFn){                
+//merge series with all options
+function createChartConfig(data, chartOptions, chartMetaData, indikatorensetView, callbackFn){                
   parseData(chartOptions, data, function (dataOptions) {
     // Merge series configs
     if (chartOptions.series && dataOptions) {
@@ -42,11 +41,21 @@ function drawChart(data, chartOptions, chartMetaData, indikatorensetView, callba
     //merge all highcharts configs
     var options = Highcharts.merge(true, dataOptions, template, chartOptions);
     //inject metadata to highcharts options 
-    injectMetadataToChartConfig(options, chartMetaData, indikatorensetView);
+    var finalOptions = injectMetadataToChartConfig(options, chartMetaData, indikatorensetView);
     //draw chart
+    //var chart = new Highcharts['Chart'](options, callbackFn);
+    //console.log(JSON.stringify(finalOptions, null, '\t'))
+    callbackFn(finalOptions);
+  });        
+};
+
+
+
+//merge series with all options and draw chart
+function drawChart(data, chartOptions, chartMetaData, indikatorensetView, callbackFn){
+  createChartConfig(data, chartOptions, chartMetaData, indikatorensetView, function(options){
     var chart = new Highcharts['Chart'](options, callbackFn);
-  });      
-  
+  });
 };
 
 
@@ -59,9 +68,10 @@ function injectMetadataToChartConfig(options, data, indikatorensetView){
   //make sure node exists before deferencing it
   options['exporting'] = (options['exporting'] || {});
   options['exporting']['filename'] = data.kuerzel;
+  return options;
 };
 
-
+//todo: create new function that uses the pre-created chart configs from /charts/configs
 //load global options, template, chartOptions from external scripts, load csv data from external file, and render chart to designated div
 function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, indikatorensetView, callbackFn){
   var chartMetaData = findChartByKuerzel(indikatoren, kuerzel);   
@@ -101,13 +111,13 @@ function lazyRenderChartByKuerzel(kuerzel, indikatorensetView, callbackFn){
   //check if a highcharts-container below the container is already present. 
   //no highcharts container yet: load data and draw chart. 
   if (!container.find('div.highcharts-container').length) {      
-    var chartUrl = 'charts/' + kuerzel + '.js';
+    var chartUrl = 'charts/templates/' + kuerzel + '.js';
     var csvUrl = 'data/' + kuerzel + '.csv';    
     //get template for requested chart
     var chartMetaData = findChartByKuerzel(indikatoren, kuerzel); 
-    var templateUrl = 'charts/' + chartMetaData.template + '.js';
+    var templateUrl = 'charts/templates/' + chartMetaData.template + '.js';
         
-    renderChart('charts/options001.js', templateUrl, chartUrl, csvUrl, kuerzel, indikatorensetView, callbackFn);
+    renderChart('charts/templates/options001.js', templateUrl, chartUrl, csvUrl, kuerzel, indikatorensetView, callbackFn);
   }
   //highcharts container exists already: redraw chart without reloading data from network
   else { 

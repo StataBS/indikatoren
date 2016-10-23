@@ -15,6 +15,8 @@
 //Hack to re-use existing web js code from within node.js, see http://stackoverflow.com/a/8808162
 var execfile = require("execfile");
 
+var serialize = require('serialize-javascript');
+
 console.log('Loading metadata...');
 
 var ctx = execfile('metadata/indikatoren.js');
@@ -31,6 +33,7 @@ views.forEach(function(view){
 
 console.log('...done!');
 
+//todo: get rid of all the jsdom code 
 function renderToFile(kuerzel, indikatorensetView, console){
     /* eslint-env node */
     /* eslint no-console: 0 */
@@ -156,7 +159,7 @@ function renderToFile(kuerzel, indikatorensetView, console){
 
     var csv = (fs.readFileSync('data/' + kuerzel + '.csv', 'utf8'));
 
-    var ctx = execfile('charts/' + kuerzel + '.js', {Highcharts: Highcharts, chartOptions: {}});
+    var ctx = execfile('charts/templates/' + kuerzel + '.js', {Highcharts: Highcharts, chartOptions: {}});
     var options = ctx.chartOptions[kuerzel];
 
     //disable animations and prevent exceptions
@@ -164,7 +167,7 @@ function renderToFile(kuerzel, indikatorensetView, console){
     options.chart.forExport = true;
 
     var templateName = chartMetaData.template;
-    var ctx = execfile('charts/' + templateName + '.js', {Highcharts: Highcharts});
+    var ctx = execfile('charts/templates/' + templateName + '.js', {Highcharts: Highcharts});
     var template = ctx.template;
 
 
@@ -174,6 +177,8 @@ function renderToFile(kuerzel, indikatorensetView, console){
         template: template
     });
 
+    
+    
     ctx.drawChart(csv, options, chartMetaData, indikatorensetView);
 
     var svg = win.document.getElementById('container-' + kuerzel).childNodes[0].innerHTML;

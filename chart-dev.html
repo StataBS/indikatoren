@@ -34,6 +34,7 @@
 
   <body style="margin: 0;">    
     <script type="text/javascript">   
+        //todo: do not use json database but single-chart json files
         //------------------------//
         var kuerzel = 'I.01.1.0017';
         var template = 'template001';
@@ -47,9 +48,9 @@
               
         var chartOptions = {};
         
-        var optionsUrl = 'charts/' + options +'.js';
-        var templateUrl = 'charts/' + template + '.js';
-        var chartUrl = 'charts/' + kuerzel + '.js'; 
+        var optionsUrl = 'charts/templates/' + options +'.js';
+        var templateUrl = 'charts/templates/' + template + '.js';
+        var chartUrl = 'charts/templates/' + kuerzel + '.js'; 
         var csvUrl = 'data/' + kuerzel + '.csv';
         
         //renderChartByKuerzel(kuerzel);
