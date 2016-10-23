@@ -34,19 +34,27 @@ views.forEach(function(view){
 console.log('...done!');
      
 function renderToFile(kuerzel, indikatorensetView, console){
-    /*
+    
     var childArgs = [
-    path.join(__dirname, 'phantomjs-script.js'),
-    'some other argument (passed to phantomjs script)'
+        path.join(__dirname, '../node_modules/highcharts-phantomjs/lib/highcharts-convert.js'),
+        '-infile ' + path.join(__dirname, '../charts/configs/I.01.1.0013.json'),
+        '-outfile ' + path.join(__dirname, '../images/I.01.1.0013.json')
     ]
 
     console.log("executing the following line:");
     console.log(binPath + " "  + childArgs);
-    */
-    //childProcess.execFile(binPath, childArgs, function(err, stdout, stderr) {
-    // handle results
-    //})
 
+    /*
+    childProcess.execFile(binPath, childArgs, function(err, stdout, stderr) {
+        console.log("Executed");
+        console.log(err);
+        console.log(stdout);
+        console.log(stderr);
+    })
+    */
+    var stdout = childProcess.execFileSync(binPath, childArgs).toString('ascii');
+    console.log("Result of execution: ");
+    console.log(stdout);
     
     /*
 
