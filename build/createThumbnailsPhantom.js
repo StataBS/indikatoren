@@ -11,55 +11,48 @@ console.log('Loading metadata...');
 var ctx = execfile('metadata/indikatoren.js');
 var indikatoren = ctx.indikatoren;
 
-var path = require('path')
-var childProcess = require('child_process')
-var phantomjs = require('phantomjs-prebuilt')
-var binPath = phantomjs.path
-
-//todo: fix: uncommenting the following line breaks the code
-//var highchartsPhantomjs = require('highcharts-phantomjs');
-//var scriptPath = highchartsPhantomjs.path + "/lib/highcharts-convert.js"; 
-
 var views = [true, false];
 views.forEach(function(view){
     console.log('Starting svg creation for indikatorensetView=' + view);
     indikatoren.forEach(function(indikator){
-        if (indikator.kuerzel === 'I.01.5.0003' || indikator.kuerzel === 'I.01.1.0013' || indikator.kuerzel === 'I.01.1.0023'){
-            console.log('Rendering svg for chart ' + indikator.kuerzel + ' indikatorensetView=' + view +'...');
-            renderToFile(indikator.kuerzel, view, console);
-        }
+        console.log('Rendering svg for chart ' + indikator.kuerzel + ' indikatorensetView=' + view +'...');
+        renderToFile(indikator.kuerzel, view, console);
     });
 })
 
-console.log('...done!');
+console.log('...done starting commands, now waiting for execution...');
      
 function renderToFile(kuerzel, indikatorensetView, console){
+
+    var path = require('path')
+    var phantomjs = require('phantomjs-prebuilt')
+    var binPath = phantomjs.path
+    var imagePath = (indikatorensetView) ? 'images/indikatorenset/' : 'images/portal/';
     
     var childArgs = [
         path.join(__dirname, '../node_modules/highcharts-phantomjs/lib/highcharts-convert.js'),
-        '-infile ' + path.join(__dirname, '../charts/configs/I.01.1.0013.json'),
-        '-outfile ' + path.join(__dirname, '../images/I.01.1.0013.svg')
+        '-infile ' + path.join(__dirname, '../charts/configs/' + kuerzel + '.json'),
+        '-outfile ' + path.join(__dirname, '../' + imagePath + kuerzel + '.svg')
     ]
 
     var command = binPath + " " + childArgs.join(" ");
 
-    console.log("executing the following line:");
-    //console.log(binPath + " "  + childArgs);
-    console.log(command);
+    //console.log("executing the following line:");
+    //console.log(command);
 
-    /*
-    childProcess.execFile(binPath, childArgs, function(err, stdout, stderr) {
-        console.log("Executed");
-        console.log(err);
+    var child_process = require('child_process');
+    var exec = child_process.exec;
+
+    //todo: execute synchronously
+    //todo: start phantom server and send options via http post instaed of using new phantom instance every time
+    //exec(command, callback);
+    exec(command, function(err,stdout,stderr) {
+        if (err) {
+            console.log('Child process exited with error code', err.code);
+            return
+        }
         console.log(stdout);
-        console.log(stderr);
-    })
-    */
-    //var stdout = childProcess.execFileSync(binPath, childArgs).toString('ascii');
-    var stdout = childProcess.execFileSync(command).toString('ascii');
-    console.log("Result of execution: ");
-    console.log(stdout);
-    
+    });
     /*
 
     Now on mac invoke this command to create the svg: 
