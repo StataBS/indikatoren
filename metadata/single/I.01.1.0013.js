@@ -1,4 +1,4 @@
-﻿var indikatoren = [{"title":"Ausländeranteil nach Staatsangehörigkeit seit 2006",
+﻿var indikatoren = [{"title":"Ausländeranteil nach Staatsangehörigkeit seit 2006 (Test)",
 "subtitle":"",
 "kuerzel":"I.01.1.0013",
 "kuerzelKunde":"1-1",
