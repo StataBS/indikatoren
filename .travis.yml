@@ -5,7 +5,7 @@ cache:
   directories:
   - travis_phantomjs
 before_install:
-- openssl aes-256-cbc -K $encrypted_75f8951fa28d_key -iv $encrypted_75f8951fa28d_iv -in id_rsa.enc -out id_rsa -d
+- openssl aes-256-cbc -K $encrypted_a2cfe6971b25_key -iv $encrypted_a2cfe6971b25_iv -in id_rsa.enc -out id_rsa -d
 - export PHANTOMJS_VERSION=2.1.1
 - export PATH=$PWD/travis_phantomjs/phantomjs-$PHANTOMJS_VERSION-linux-x86_64/bin:$PATH
 - if [ $(phantomjs --version) != $PHANTOMJS_VERSION ]; then rm -rf $PWD/travis_phantomjs;
@@ -15,7 +15,6 @@ before_install:
 - if [ $(phantomjs --version) != $PHANTOMJS_VERSION ]; then tar -xvf $PWD/travis_phantomjs/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2
   -C $PWD/travis_phantomjs; fi
 - phantomjs --version
-
 after_success:
 - npm run build
 - npm run gh-pages-travis
@@ -24,8 +23,8 @@ branches:
   - gh-pages
 env:
   global:
-    - SSH_KEY="id_rsa"
-    - GIT_NAME="Jonas Bieri"
-    - GIT_EMAIL="jonas.bieri@gmail.com"
-    - SOURCE_DIR="."
-    - DEPLOY_BRANCH="master"
+  - SSH_KEY="id_rsa"
+  - GIT_NAME="Jonas Bieri"
+  - GIT_EMAIL="jonas.bieri@gmail.com"
+  - SOURCE_DIR="."
+  - DEPLOY_BRANCH="master"
