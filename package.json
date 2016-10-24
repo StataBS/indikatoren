@@ -9,6 +9,7 @@
     "jquery": "^3.1.1"
   },
   "devDependencies": {
+    "gh-pages-travis": "1.0.0",
     "glob": "^7.1.1",
     "highcharts": "4.2.6",
     "highcharts-phantomjs": "^2.2.0",
@@ -24,7 +25,8 @@
     "build:partial_databases": "node build/createKennzahlensetJsonFiles.js",
     "build": "npm run build:database && npm run build:partial_databases && npm run build:charts && npm run build:images_phantom",
     "server": "http-server -p 8000 -c-1 -s -o ",
-    "start": "npm run build && npm run server"
+    "start": "npm run build && npm run server",
+    "gh-pages-travis": "gh-pages-travis"
   },
   "repository": {
     "type": "git",
