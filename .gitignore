@@ -7,3 +7,6 @@ tmp/
 .~lock*
 
 .DS_Store
+id_rsa
+travis_phantomjs/
+travis_phantomjs/*
