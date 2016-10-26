@@ -27,7 +27,7 @@
     <script src="assets/js/highcharts-exporting-4.2.6.min.js" type="text/javascript"></script>
     <script src="assets/js/highcharts-export-csv-1.4.2.js" type="text/javascript"></script>
     <!--script src="assets/js/highcharts-offline-exporting-4.2.6.js" type="text/javascript" ></script-->
-    <script src="data/indikatoren.js" type="text/javascript"></script>
+    <script src="metadata/indikatoren.js" type="text/javascript"></script>
     <script src="assets/js/indikatoren-highcharts.js" type="text/javascript"></script>
 
 
@@ -47,6 +47,8 @@
 
     <script type="text/javascript">
         //get kuerzel from url, encode to prevent xss 
+        //todo: do not use json database but single-chart json files
+        //todo: in order to prevent xss: do not evaluate chart templates but just load json. Functions need to be taken out of the templates. 
         var kuerzelFromUser = window.encodeURIComponent($.url('?kuerzel'));
         
         var charts = [];
@@ -69,14 +71,14 @@
             jQuery('<div/>', {
               id: 'container-' + safeKuerzel,
             }).appendTo('body');
+           
 
             //check if chart needs to be exported, and how
             var exportType = window.encodeURIComponent($.url('?thumbnailType'));
 
-            var chartOptions = {};
-            //renderChart('charts/' + safeKuerzel+'.js', 'charts/template001.js', 'charts/' + safeKuerzel + '.js', 'data/' + safeKuerzel + '.csv', safeKuerzel);
-            var indikatorensetView = false;
-            renderChartByKuerzel(safeKuerzel, function(){
+            var chartOptions = {};            
+            var indikatorensetView = (window.encodeURIComponent($.url('?indikatorensetView')) === 'true') ? true : false;
+            lazyRenderChartByKuerzel(safeKuerzel, indikatorensetView, function(){
               //make sure we have the complete chart with the renderTo object, which contains the kuerzel
               if (this.renderTo){                        
                 //determine if offline exporting necessary
@@ -97,7 +99,14 @@
                 }
                 
                 //load offline exporting module first if required, then invoke createThumbnail()
-                (thumbnailOfflineExporting) ? $.getScript('assets/js/highcharts-offline-exporting-4.2.6.js', function(){createThumbnail(safeKuerzel, exportType, thumbnailOfflineExporting)}) : createThumbnail(safeKuerzel, exportType, thumbnailOfflineExporting);                  
+                (thumbnailOfflineExporting) ? $.getScript('assets/js/highcharts-offline-exporting-4.2.6.js', function(){createThumbnail(safeKuerzel, exportType, thumbnailOfflineExporting)}) : createThumbnail(safeKuerzel, exportType, thumbnailOfflineExporting);
+
+                //load options into div
+                if (window.encodeURIComponent($.url('?exportOptionsJson')) === 'true'){
+                  //create div for chart options
+                  jQuery('<div id="options" class="hidden">' + JSON.stringify(Highcharts.charts[0].options) + '</div>', {
+                  }).appendTo('body');
+                }
               }     
             });
           }
