@@ -1,37 +1,24 @@
-chartOptions['I.50.1.0021'] = {
-        "series": [
-            {
-                "color": "#007A2F",
-                "index": 0,
-                "legendIndex": 0 
-            },
-            {
-                "color": "#73BA7C",
-                "index": 1,
-                "legendIndex": 1 
-            },
-            {
-                "color": "#FFBB58",
-                "index": 3,
-                "legendIndex": 3 
-            },
-            {
-                "color": "#FF8028",
-                "index": 4,
-                "legendIndex": 4 
-            },
-            {
-                "color": "#C8C8C8",
-                "index": 2,
-                "legendIndex": 2 
-            }        
-    ],
-    "legend": {
-        "reversed": true
-    },       
-    "xAxis": {
-        "type": "category"
-    }
-};
-
- 
+﻿var indikatoren = [{"title":"Beurteilung der kantonalen Verwaltung",
+"subtitle":"«Denken Sie einmal an den letzten Kontakt, wo Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»",
+"kuerzel":"I.50.1.0021",
+"kuerzelKunde":"2.2.04",
+"image":"images/I.50.1.0021.jpg",
+"description":"Beurteilung der kantonalen Verwaltung",
+"id":"4859",
+"thema":"50 Befragungen",
+"unterthema":"Bevölkerungsbefragung",
+"kennzahlenset":"Gesellschaftlicher Zusammenhalt",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"",
+"schlagwort":["Verwaltung","Beurteilung"],
+"stufe1":"2 Verbundenheit",
+"stufe2":"2.2 Vertrauen in Institutionen",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"73,7% der befragten Personen schätzten 2015 ihren letzten Kontakt, den sie mit der Verwaltung des Kantons Basel-Stadt hatten, als positiv ein. Das sind 3,8 Prozentpunkte weniger als 2011, aber mehr als in der Befragung von 2007 (64,4%).",
+"erlaeuterungen":"",
+"template":"befragungenProzent001",
+"option":"options001",
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F19a"]
+}];

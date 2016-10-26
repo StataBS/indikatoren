@@ -1,27 +1,24 @@
-﻿chartOptions['I.50.1.0007'] = {  
-  "xAxis": {
-    "type": "category"
-  },
-  "series": [
-    {
-      "color": "#999999",
-      "index": 2
-    },
-    {
-      "color": "#dc440e",
-      "index": 0
-    },
-    {
-      "color": "#ffbb58",
-      "index": 1
-    },
-    {
-      "color": "#68ab2b",
-      "index": 3
-    },
-    {
-      "color": "#007a2f",
-      "index": 4
-    }
-  ]
-};
+﻿var indikatoren = [{"title":"Zufriedenheit mit Grünanlagen und Parks am Wohnort",
+"subtitle":"«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?»",
+"kuerzel":"I.50.1.0007",
+"kuerzelKunde":"3.2.b",
+"image":"images/I.50.1.0007.jpg",
+"description":"Zufriedenheit mit Grünanlagen und Parks am Wohnort",
+"id":"4150",
+"thema":"50 Befragungen",
+"unterthema":"Bevölkerungsbefragung",
+"kennzahlenset":"Wohnraumentwicklung",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"",
+"schlagwort":["Gebäude","Haushalt","Zufriedenheit"],
+"stufe1":"3 Raumplanung",
+"stufe2":"3.2 Freiräume",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Über 90% der Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2005 jeweils leicht angestiegen.",
+"erlaeuterungen":"",
+"template":"befragungen001",
+"option":"options001",
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"]
+}];
