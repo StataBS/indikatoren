@@ -1,5 +1,5 @@
 ﻿var indikatoren = [{"title":"Beurteilung der Bildungschancen",
-"subtitle":"Alle Kinder erhalten die gleichen Bildungschancen.",
+"subtitle":"«Alle Kinder erhalten die gleichen Bildungschancen.»",
 "kuerzel":"I.50.1.0024",
 "kuerzelKunde":"2.3.03",
 "image":"images/I.50.1.0024.jpg",
@@ -17,7 +17,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Mit der Aussage, dass alle Kinder dieselben Bildungschancen erhalten würden, zeigten sich im Jahr 2015 46,9% der Befragten einverstanden, während 42,6% nicht dieser Meinung waren. Seit 2005 hat ich der Anteil der eher oder sehr mit dieser Aussage einverstandenen Befragten stetig vergrössert.",
-"erlaeuterungen":"Gefragt wurde: «Alle Kinder erhalten die gleichen Bildungschancen.»",
+"erlaeuterungen":"",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_3"]

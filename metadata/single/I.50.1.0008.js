@@ -1,5 +1,5 @@
 ﻿var indikatoren = [{"title":"Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
-"subtitle":"Wie zufrieden sind Sie mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild?",
+"subtitle":"«Wie zufrieden sind Sie mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild?»",
 "kuerzel":"I.50.1.0008",
 "kuerzelKunde":"3.3.a",
 "image":"images/I.50.1.0008.jpg",

@@ -769,7 +769,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot",
-		"subtitle": "Wie zufrieden sind sie mit dem Wohnungsangebot?",
+		"subtitle": "«Wie zufrieden sind sie mit dem Wohnungsangebot?»",
 		"kuerzel": "I.50.1.0005",
 		"kuerzelKunde": "0.1.a",
 		"image": "images/I.50.1.0005.jpg",
@@ -802,7 +802,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot – nur Familien",
-		"subtitle": "",
+		"subtitle": "«Wie zufrieden sind sie mit dem Wohnungsangebot?»",
 		"kuerzel": "I.50.1.0006",
 		"kuerzelKunde": "1.4.c",
 		"image": "images/I.50.1.0006.jpg",
@@ -834,7 +834,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
-		"subtitle": "Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?",
+		"subtitle": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?»",
 		"kuerzel": "I.50.1.0007",
 		"kuerzelKunde": "3.2.b",
 		"image": "images/I.50.1.0007.jpg",
@@ -867,7 +867,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
-		"subtitle": "Wie zufrieden sind Sie mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild?",
+		"subtitle": "«Wie zufrieden sind Sie mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild?»",
 		"kuerzel": "I.50.1.0008",
 		"kuerzelKunde": "3.3.a",
 		"image": "images/I.50.1.0008.jpg",
@@ -899,7 +899,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
-		"subtitle": "Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte Menschen?",
+		"subtitle": "«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte Menschen?»",
 		"kuerzel": "I.50.1.0009",
 		"kuerzelKunde": "4.2.a",
 		"image": "images/I.50.1.0009.jpg",
@@ -930,7 +930,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
-		"subtitle": "Wie zufrieden sind Sie mit der altersangepassten Einrichtung des Wohngebäudes?",
+		"subtitle": "«Wie zufrieden sind Sie mit der altersangepassten Einrichtung des Wohngebäudes?»",
 		"kuerzel": "I.50.4.0001",
 		"kuerzelKunde": "4.2.c",
 		"image": "images/I.50.4.0001.jpg",

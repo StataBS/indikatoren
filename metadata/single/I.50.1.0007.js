@@ -1,5 +1,5 @@
 ﻿var indikatoren = [{"title":"Zufriedenheit mit Grünanlagen und Parks am Wohnort",
-"subtitle":"Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?",
+"subtitle":"«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?»",
 "kuerzel":"I.50.1.0007",
 "kuerzelKunde":"3.2.b",
 "image":"images/I.50.1.0007.jpg",
