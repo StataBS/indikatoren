@@ -1,34 +1,24 @@
-chartOptions['I.50.1.0015'] = {
-    "series": [
-        {
-            "color": "#256370",
-            "index": 0,
-            "legendIndex": 0 
-        },
-        {
-            "color": "#71A3B5",
-            "index": 1,
-            "legendIndex": 1 
-        },
-        {
-            "color": "#FFBB58",
-            "index": 4,
-            "legendIndex": 4 
-        },
-        {
-            "color": "#FF8028",
-            "index": 5,
-            "legendIndex": 5 
-        },
-        {
-            "color": "#C8C8C8",
-            "index": 2,
-            "legendIndex": 2 
-        }        
-  ],
-  "xAxis": {
-      "type": "category"
-  }
-};
-
- 
+﻿var indikatoren = [{"title":"Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.",
+"subtitle":"«Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.»",
+"kuerzel":"I.50.1.0015",
+"kuerzelKunde":"1.3.03",
+"image":"images/I.50.1.0015.jpg",
+"description":"Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.",
+"id":"4856",
+"thema":"50 Befragungen",
+"unterthema":"Bevölkerungsbefragung",
+"kennzahlenset":"Gesellschaftlicher Zusammenhalt",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"",
+"schlagwort":["Ausländer","Ausland"],
+"stufe1":"1 Soziale Beziehungen",
+"stufe2":"1.3 Akzeptanz von Diversität",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Der Behauptung, ohne Menschen aus dem Ausland würden wir nicht so gut leben, stimmten 2015 76,4% der Befragten sehr oder eher zu, mehr als in den Vorjahren (2011: 72,4%; 2007: 61,9%; 2005: 66,9%).",
+"erlaeuterungen":"",
+"template":"befragungenProzent001",
+"option":"options001",
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18c"]
+}];

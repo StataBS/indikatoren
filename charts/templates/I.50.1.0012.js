@@ -1,34 +1,24 @@
-chartOptions['I.50.1.0012'] = {
-    "series": [
-        {
-            "color": "#256370",
-            "index": 0,
-            "legendIndex": 0 
-        },
-        {
-            "color": "#71A3B5",
-            "index": 1,
-            "legendIndex": 1 
-        },
-        {
-            "color": "#FFBB58",
-            "index": 4,
-            "legendIndex": 4 
-        },
-        {
-            "color": "#FF8028",
-            "index": 5,
-            "legendIndex": 5 
-        },
-        {
-            "color": "#C8C8C8",
-            "index": 2,
-            "legendIndex": 2 
-        }        
-  ],
-  "xAxis": {
-      "type": "category"
-  }
-};
-
- 
+﻿var indikatoren = [{"title":"Sicherhheitsgefühl nachts im Quartier",
+"subtitle":"«Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?»",
+"kuerzel":"I.50.1.0012",
+"kuerzelKunde":"1.2.03",
+"image":"images/I.50.1.0012.jpg",
+"description":"Sicherhheitsgefühl nachts im Quartier",
+"id":"4854",
+"thema":"50 Befragungen",
+"unterthema":"Bevölkerungsbefragung",
+"kennzahlenset":"Gesellschaftlicher Zusammenhalt",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"",
+"schlagwort":["Quartier","Gefühl","Sicherheit"],
+"stufe1":"1 Soziale Beziehungen",
+"stufe2":"1.2 Vertrauen in Mitmenschen",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"2015 wurde die Sicherheit nachts draussen im Vergleich zu den Vorjahren kritischer bewertet: 62,4% fühlten sich nachts im Quartier sehr oder eher sicher, das sind 1,1 Prozentpunkte weniger als 2011. Der Anteil der Befragten, die sich sehr sicher fühlten, ging im selben Zeitraum von 28,8% auf 24,5% zurück und seit 2003 um insgesamt mehr als 9 Prozentpunkte.",
+"erlaeuterungen":"",
+"template":"befragungenProzent001",
+"option":"options001",
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9d"]
+}];
