@@ -247,8 +247,7 @@
       "rotation": 0,
       "style": {
         "color": "#000000"
-      },
-      "useHTML": true
+      }
     }
   },
   "chart": {
