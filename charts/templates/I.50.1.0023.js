@@ -1,37 +1,24 @@
-chartOptions['I.50.1.0023'] = {
-        "series": [
-            {
-                "color": "#007A2F",
-                "index": 0,
-                "legendIndex": 0 
-            },
-            {
-                "color": "#73BA7C",
-                "index": 1,
-                "legendIndex": 1 
-            },
-            {
-                "color": "#FFBB58",
-                "index": 3,
-                "legendIndex": 3 
-            },
-            {
-                "color": "#FF8028",
-                "index": 4,
-                "legendIndex": 4 
-            },
-            {
-                "color": "#C8C8C8",
-                "index": 2,
-                "legendIndex": 2 
-            }        
-    ],
-    "legend": {
-        "reversed": true
-    },       
-    "xAxis": {
-        "type": "category"
-    }
-};
-
- 
+﻿var indikatoren = [{"title":"Beurteilung der eigenen wirtschaftlichen Situation",
+"subtitle":"«Wie geht es Ihnen wirtschaftlich gesehen im Moment?»",
+"kuerzel":"I.50.1.0023",
+"kuerzelKunde":"2.3.02",
+"image":"images/I.50.1.0023.jpg",
+"description":"Beurteilung der eigenen wirtschaftlichen Situation",
+"id":"4861",
+"thema":"50 Befragungen",
+"unterthema":"Bevölkerungsbefragung",
+"kennzahlenset":"Gesellschaftlicher Zusammenhalt",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"",
+"schlagwort":["Einkommen","Beurteilung"],
+"stufe1":"2 Verbundenheit",
+"stufe2":"2.3 Gerechtigkeitsempfinden",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"89,7% der befragten Personen ging es 2015 wirtschaftlich gesehen sehr gut oder eher gut. Im Vergleich zu 2011 entspricht dies einem Anstieg um 2,5 Prozentpunkte. Für diese Frage wurde die Stichprobe der Bevölkerungsbefragung zugunsten der Vergleichbarkeit für den Städtevergleich ab 2005 gesplittet bzw. reduziert, weshalb ab 2005 weniger Antworten vorliegen.",
+"erlaeuterungen":"",
+"template":"befragungenProzent001",
+"option":"options001",
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14b"]
+}];
