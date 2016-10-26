@@ -1,5 +1,5 @@
 ﻿var indikatoren = [{"title":"Interesse an der Politik in Basel-Stadt",
-"subtitle":"Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?",
+"subtitle":"«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?»",
 "kuerzel":"I.50.1.0026",
 "kuerzelKunde":"3.3.03.a",
 "image":"images/I.50.1.0026.jpg",
@@ -17,7 +17,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"29,6% der befragten Personen interessierten sich 2015 sehr stark für die Politik im Kanton Basel-Stadt. Das sind 1,4 Prozentpunkte mehr als 2011 und auch mehr als in den vergangenen Befragungen seit 2003.",
-"erlaeuterungen":"Gefragt wurde: «Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?»",
+"erlaeuterungen":"",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F20"]

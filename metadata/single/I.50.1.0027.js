@@ -1,5 +1,5 @@
 ﻿var indikatoren = [{"title":"Gedanken über die Arbeitsstelle",
-"subtitle":"Machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?",
+"subtitle":"«Machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
 "kuerzel":"I.50.1.0027",
 "kuerzelKunde":"1.1.08.a",
 "image":"images/I.50.1.0027.jpg",
@@ -17,7 +17,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"2015 machten sich zwei Drittel der befragten erwerbstätigen Personen Gedanken über ihre Arbeitsstelle. Seit 2007 ist der Anteil von 58,2% auf 67,8% angestiegen.",
-"erlaeuterungen":"Gefragt wurde: «Machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
+"erlaeuterungen":"",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14e"]

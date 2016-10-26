@@ -1,5 +1,5 @@
 ﻿var indikatoren = [{"title":"Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
-"subtitle":"Wie zufrieden sind Sie mit der altersangepassten Einrichtung des Wohngebäudes?",
+"subtitle":"«Wie zufrieden sind Sie mit der altersangepassten Einrichtung des Wohngebäudes?»",
 "kuerzel":"I.50.4.0001",
 "kuerzelKunde":"4.2.c",
 "image":"images/I.50.4.0001.jpg",

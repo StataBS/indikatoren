@@ -1,5 +1,5 @@
 ﻿var indikatoren = [{"title":"Zufriedenheit mit dem Wohnungsangebot",
-"subtitle":"Wie zufrieden sind sie mit dem Wohnungsangebot?",
+"subtitle":"«Wie zufrieden sind sie mit dem Wohnungsangebot?»",
 "kuerzel":"I.50.1.0005",
 "kuerzelKunde":"0.1.a",
 "image":"images/I.50.1.0005.jpg",

@@ -1,5 +1,5 @@
 ﻿var indikatoren = [{"title":"Beurteilung der kantonalen Verwaltung",
-"subtitle":"Denken Sie einmal an den letzten Kontakt, wo Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?",
+"subtitle":"«Denken Sie einmal an den letzten Kontakt, wo Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»",
 "kuerzel":"I.50.1.0021",
 "kuerzelKunde":"2.2.04",
 "image":"images/I.50.1.0021.jpg",
@@ -17,7 +17,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"73,7% der befragten Personen schätzten 2015 ihren letzten Kontakt, den sie mit der Verwaltung des Kantons Basel-Stadt hatten, als positiv ein. Das sind 3,8 Prozentpunkte weniger als 2011, aber mehr als in der Befragung von 2007 (64,4%).",
-"erlaeuterungen":"Gefragt wurde: «Denken Sie einmal an den letzten Kontakt, den Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»",
+"erlaeuterungen":"",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F19a"]

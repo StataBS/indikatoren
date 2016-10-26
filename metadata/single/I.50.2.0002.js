@@ -1,5 +1,5 @@
 ﻿var indikatoren = [{"title":"Unterstützung von Freunden oder Nachbarn",
-"subtitle":"Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch an Freunde/Nachbarn gewendet?",
+"subtitle":"«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch an Freunde/Nachbarn gewendet?»",
 "kuerzel":"I.50.2.0002",
 "kuerzelKunde":"1.1.03",
 "image":"images/I.50.2.0002.jpg",
@@ -17,7 +17,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Knapp die Hälfte der Befragten haben 2009 und 2013 angegeben, sich bei Erziehungsfragen schon einmal an Freunde oder Nachbarn gewendet zu haben. Im Vergleich zu den anderen Lebenssituationen, in welchen die Befragten Hilfe in Anspruch nehmen, ist dies der deutlich grösste Anteil.",
-"erlaeuterungen":"Gefragt wurde: «Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch an Freunde/Nachbarn gewendet?»",
+"erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F72a-g"]

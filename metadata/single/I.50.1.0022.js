@@ -1,5 +1,5 @@
 ﻿var indikatoren = [{"title":"Beurteilung der kantonalen Steuern",
-"subtitle":"Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?",
+"subtitle":"«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?»",
 "kuerzel":"I.50.1.0022",
 "kuerzelKunde":"2.3.01",
 "image":"images/I.50.1.0022.jpg",
@@ -17,7 +17,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"2015 gaben mit 56,4% mehr als die Hälfte der Befragten an, dass die kantonalen Steuern und Gebühren beibehalten werden sollten. Dieser Anteil fällt im Vergleich zu den Vorjahren deutlich höher aus (2011: 45,6%, 2007: 30,0%).",
-"erlaeuterungen":"Gefragt wurde: «Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?»",
+"erlaeuterungen":"",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8"]

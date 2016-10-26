@@ -1,5 +1,5 @@
 ﻿var indikatoren = [{"title":"Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
-"subtitle":"Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte Menschen?",
+"subtitle":"«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte Menschen?»",
 "kuerzel":"I.50.1.0009",
 "kuerzelKunde":"4.2.a",
 "image":"images/I.50.1.0009.jpg",

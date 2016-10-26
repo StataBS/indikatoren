@@ -1,5 +1,5 @@
 ﻿var indikatoren = [{"title":"Materielle Hilfeleistungen von Arbeitskollegen, Freunden und Bekannten oder Nachbarn",
-"subtitle":"Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?",
+"subtitle":"«Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»",
 "kuerzel":"I.50.4.0004",
 "kuerzelKunde":"1.1.02",
 "image":"images/I.50.4.0004.jpg",
@@ -17,7 +17,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Von den Befragten erhielten 2015 rund ein Viertel materielle Hilfeleistungen von Freunden und Bekannten oder von Nachbarn (2011: jeweils rund 16%). Tiefer liegt der Wert bei den Arbeitskollegen: von diesen bekamen 5,2% der Befragten materielle Hilfeleistungen (2011: 2,8%). Jeweils rund 20% der Befragten machten 2015 keine Angaben zu diesen Fragen. Auf die Frage nach Hilfeleistungen durch Arbeitskollegen konnten weitere rund 21% nicht antworten, weil sie nicht mehr erwerbstätig sind.",
-"erlaeuterungen":"Gefragt wurde: «Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?» (2015: N=1427; 2011: N=1689)<br/>Materielle Hilfeleistungen: Garten- und Reinigungsarbeiten, Einkaufshilfe, Füttern von Tieren, Hüte- und Pflegeeinsätze etc.",
+"erlaeuterungen":"2015: N=1427; 2011: N=1689<br/>Materielle Hilfeleistungen: Garten- und Reinigungsarbeiten, Einkaufshilfe, Füttern von Tieren, Hüte- und Pflegeeinsätze etc.",
 "template":"befragungen001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F54e"]

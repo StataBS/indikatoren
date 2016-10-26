@@ -1,5 +1,5 @@
 ﻿var indikatoren = [{"title":"Zufriedenheit mit dem Austausch mit der Nachbarschaft",
-"subtitle":"Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?",
+"subtitle":"«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
 "kuerzel":"I.50.4.0005",
 "kuerzelKunde":"1.1.06",
 "image":"images/I.50.4.0005.jpg",

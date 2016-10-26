@@ -1,5 +1,5 @@
 ﻿var indikatoren = [{"title":"Beurteilung der eigenen wirtschaftlichen Situation",
-"subtitle":"Wie geht es Ihnen wirtschaftlich gesehen im Moment?",
+"subtitle":"«Wie geht es Ihnen wirtschaftlich gesehen im Moment?»",
 "kuerzel":"I.50.1.0023",
 "kuerzelKunde":"2.3.02",
 "image":"images/I.50.1.0023.jpg",
@@ -17,7 +17,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"89,7% der befragten Personen ging es 2015 wirtschaftlich gesehen sehr gut oder eher gut. Im Vergleich zu 2011 entspricht dies einem Anstieg um 2,5 Prozentpunkte. Für diese Frage wurde die Stichprobe der Bevölkerungsbefragung zugunsten der Vergleichbarkeit für den Städtevergleich ab 2005 gesplittet bzw. reduziert, weshalb ab 2005 weniger Antworten vorliegen.",
-"erlaeuterungen":"Gefragt wurde: «Wie geht es Ihnen wirtschaftlich gesehen im Moment?»",
+"erlaeuterungen":"",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14b"]

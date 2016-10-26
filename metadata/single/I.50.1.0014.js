@@ -1,5 +1,5 @@
 ﻿var indikatoren = [{"title":"Es gibt zu viele Menschen aus dem Ausland in Basel-Stadt",
-"subtitle":"Grundsätzlich gibt es einfach zu viele Menschen aus dem Ausland bei uns.",
+"subtitle":"«Grundsätzlich gibt es einfach zu viele Menschen aus dem Ausland bei uns.»",
 "kuerzel":"I.50.1.0014",
 "kuerzelKunde":"1.3.02",
 "image":"images/I.50.1.0014.jpg",
@@ -17,7 +17,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"2011 waren 53,1% der Befragten der Meinung, es gäbe grundsätzlich zu viele Menschen aus dem Ausland im Kanton Basel-Stadt. Dieser Wert hat sich 2015 auf 46,7% reduziert.",
-"erlaeuterungen":"Gefragt wurde: «Grundsätzlich gibt es einfach zu viele Menschen aus dem Ausland bei uns.»",
+"erlaeuterungen":"",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18b"]
