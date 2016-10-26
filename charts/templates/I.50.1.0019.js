@@ -1,24 +1,34 @@
-﻿var indikatoren = [{"title":"Beurteilung der Schulen in Basel-Stadt",
-"subtitle":"«Die Schulen des Kantons Basel-Stadt bereiten die Jugendlichen gut fürs Leben vor.»",
-"kuerzel":"I.50.1.0019",
-"kuerzelKunde":"2.2.02",
-"image":"images/I.50.1.0019.jpg",
-"description":"Beurteilung der Schulen in Basel-Stadt",
-"id":"4857",
-"thema":"50 Befragungen",
-"unterthema":"Bevölkerungsbefragung",
-"kennzahlenset":"Gesellschaftlicher Zusammenhalt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Zufriedenheit","Jugend","Bildung","Verwaltung","Beurteilung"],
-"stufe1":"2 Verbundenheit",
-"stufe2":"2.2 Vertrauen in Institutionen",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Dass die Schulen im Kanton Basel-Stadt eine gute Vorbereitung fürs Leben im Allgemeinen sind, bejahten 2015 rund 43,6% der Befragten. Im Vergleich zum Jahr 2011 bedeutet dies einen Rückgang um 4,4 Prozentpunkte. Insbesondere bei der starken Zustimmung zu dieser Aussage gab es eine deutliche Abnahme von 2011 auf 2015.",
-"erlaeuterungen":"",
-"template":"befragungenProzent001",
-"option":"options001",
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_1"]
-}];
+chartOptions['I.50.1.0019'] = {
+    "series": [
+        {
+            "color": "#256370",
+            "index": 0,
+            "legendIndex": 0 
+        },
+        {
+            "color": "#71A3B5",
+            "index": 1,
+            "legendIndex": 1 
+        },
+        {
+            "color": "#C8C8C8",
+            "index": 2,
+            "legendIndex": 2 
+        },
+        {
+            "color": "#FFBB58",
+            "index": 3,
+            "legendIndex": 3 
+        },
+        {
+            "color": "#FF8028",
+            "index": 4,
+            "legendIndex": 4 
+        }        
+  ],
+  "xAxis": {
+      "type": "category"
+  }
+};
+
+ 
