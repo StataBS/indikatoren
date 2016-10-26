@@ -1,5 +1,5 @@
 ﻿var indikatoren = [{"title":"Engagement in Organisationen und Vereinen",
-"subtitle":"Engagierst Du Dich in einer Organisation, in einem Verein oder ähnlichem?",
+"subtitle":"«Engagierst Du Dich in einer Organisation, in einem Verein oder ähnlichem?»",
 "kuerzel":"I.50.3.0002",
 "kuerzelKunde":"3.3.01",
 "image":"images/I.50.3.0002.jpg",
@@ -17,7 +17,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"2013 gaben ein Viertel der Befragten Jugendlichen an, dass sie sich in einer Organisation, in einem Verein oder ähnlichem engagieren, 2011 lag dieser Wert noch bei 12,0%.",
-"erlaeuterungen":"Gefragt wurde: «Engagierst Du Dich in einer Organisation, in einem Verein oder ähnlichem?»",
+"erlaeuterungen":"",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F28"]

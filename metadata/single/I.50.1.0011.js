@@ -1,5 +1,5 @@
 ﻿var indikatoren = [{"title":"Bedrohungen und Angriffe",
-"subtitle":"Sind Sie im letzten Jahr bedroht oder angegriffen worden?",
+"subtitle":"«Sind Sie im letzten Jahr bedroht oder angegriffen worden?»",
 "kuerzel":"I.50.1.0011",
 "kuerzelKunde":"1.2.02",
 "image":"images/I.50.1.0011.jpg",
@@ -17,7 +17,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"2015 gaben 6,2% der Befragten an, im letzten Jahr bedroht oder angegriffen worden zu sein. Dieser Anteil ist im Vergleich mit den Vorjahren um zwischen 1,4 (2011) bis 2,8 (2005) Prozentpunkte geringer.",
-"erlaeuterungen":"Gefragt wurde: «Sind Sie im letzten Jahr bedroht oder angegriffen worden?»",
+"erlaeuterungen":"",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9b"]

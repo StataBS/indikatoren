@@ -1,5 +1,5 @@
 ﻿var indikatoren = [{"title":"Gründe für Gedanken über die Arbeitsstelle",
-"subtitle":"Warum machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?",
+"subtitle":"«Warum machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
 "kuerzel":"I.50.1.0028",
 "kuerzelKunde":"1.1.08.b",
 "image":"images/I.50.1.0028.jpg",
@@ -17,7 +17,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Wenn sich die 2015 befragten Personen Gedanken zu ihrer Arbeitsstelle machen, dann am häufigsten wegen ihren persönlichen Entwicklungsperspektiven (63,0%). Die Beschäftigung mit dem Betriebsklima erfuhr von 2011 auf 2015 einen Anstieg von 26,1% auf 47,2%.",
-"erlaeuterungen":"Gefragt wurde: «Warum machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
+"erlaeuterungen":"",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14f"]

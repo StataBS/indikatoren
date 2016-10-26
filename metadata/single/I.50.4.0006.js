@@ -1,5 +1,5 @@
 ﻿var indikatoren = [{"title":"Ehrenamtliche Tätigkeit / Freiwilligenarbeit",
-"subtitle":"Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?",
+"subtitle":"«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?»",
 "kuerzel":"I.50.4.0006",
 "kuerzelKunde":"3.1.03",
 "image":"images/I.50.4.0006.jpg",

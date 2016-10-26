@@ -229,7 +229,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Sicherheitsgefühl im Alltag",
-		"subtitle": "Wie sicher fühlen Sie sich ganz allgemein im Alltag?",
+		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?»",
 		"kuerzel": "I.50.1.0010",
 		"kuerzelKunde": "1.2.01",
 		"image": "images/I.50.1.0010.jpg",
@@ -252,7 +252,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Mit einem Anteil von 42,2% fühlten sich 2015 weniger als die Hälfte der Befragten im Alltag sehr sicher und 49,0% fühlten sich eher sicher. Im Vergleich zu den vorherigen Befragungen fühlten sich die Befragten im Alltag weniger sicher. Am höchsten war das Sicherheitsempfinden 2005, als der Anteil Personen, die sich sehr sicher fühlten, bei 56,0% und die insgesamte Sicherheit bei 94,6% lag.",
-		"erlaeuterungen": "Gefragt wurde: «Wie sicher fühlen Sie sich ganz allgemein im Alltag?»",
+		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
@@ -261,7 +261,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Bedrohungen und Angriffe",
-		"subtitle": "Sind Sie im letzten Jahr bedroht oder angegriffen worden?",
+		"subtitle": "«Sind Sie im letzten Jahr bedroht oder angegriffen worden?»",
 		"kuerzel": "I.50.1.0011",
 		"kuerzelKunde": "1.2.02",
 		"image": "images/I.50.1.0011.jpg",
@@ -284,7 +284,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2015 gaben 6,2% der Befragten an, im letzten Jahr bedroht oder angegriffen worden zu sein. Dieser Anteil ist im Vergleich mit den Vorjahren um zwischen 1,4 (2011) bis 2,8 (2005) Prozentpunkte geringer.",
-		"erlaeuterungen": "Gefragt wurde: «Sind Sie im letzten Jahr bedroht oder angegriffen worden?»",
+		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
@@ -293,7 +293,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Sicherhheitsgefühl nachts im Quartier",
-		"subtitle": "Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?",
+		"subtitle": "«Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?»",
 		"kuerzel": "I.50.1.0012",
 		"kuerzelKunde": "1.2.03",
 		"image": "images/I.50.1.0012.jpg",
@@ -317,7 +317,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2015 wurde die Sicherheit nachts draussen im Vergleich zu den Vorjahren kritischer bewertet: 62,4% fühlten sich nachts im Quartier sehr oder eher sicher, das sind 1,1 Prozentpunkte weniger als 2011. Der Anteil der Befragten, die sich sehr sicher fühlten, ging im selben Zeitraum von 28,8% auf 24,5% zurück und seit 2003 um insgesamt mehr als 9 Prozentpunkte.",
-		"erlaeuterungen": "Gefragt wurde: «Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?»",
+		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
@@ -326,7 +326,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Menschen aus verschiedenen Ländern sind eine Bereicherung für den Kanton",
-		"subtitle": "Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Ist das eine Bereicherung für den Kanton?",
+		"subtitle": "«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Ist das eine Bereicherung für den Kanton?»",
 		"kuerzel": "I.50.1.0013",
 		"kuerzelKunde": "1.3.01",
 		"image": "images/I.50.1.0013.jpg",
@@ -349,7 +349,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter Basel-Stadts als eine sehr oder eher grosse Bereicherung für die Stadt. Die Zustimmung zu dieser Frage liegt seit 2003 jeweils über 68%.",
-		"erlaeuterungen": "Gefragt wurde: «Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Ist das eine Bereicherung für den Kanton?»",
+		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
@@ -358,7 +358,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Es gibt zu viele Menschen aus dem Ausland in Basel-Stadt",
-		"subtitle": "Grundsätzlich gibt es einfach zu viele Menschen aus dem Ausland bei uns.",
+		"subtitle": "«Grundsätzlich gibt es einfach zu viele Menschen aus dem Ausland bei uns.»",
 		"kuerzel": "I.50.1.0014",
 		"kuerzelKunde": "1.3.02",
 		"image": "images/I.50.1.0014.jpg",
@@ -381,7 +381,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2011 waren 53,1% der Befragten der Meinung, es gäbe grundsätzlich zu viele Menschen aus dem Ausland im Kanton Basel-Stadt. Dieser Wert hat sich 2015 auf 46,7% reduziert.",
-		"erlaeuterungen": "Gefragt wurde: «Grundsätzlich gibt es einfach zu viele Menschen aus dem Ausland bei uns.»",
+		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
@@ -390,7 +390,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.",
-		"subtitle": "Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.",
+		"subtitle": "«Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.»",
 		"kuerzel": "I.50.1.0015",
 		"kuerzelKunde": "1.3.03",
 		"image": "images/I.50.1.0015.jpg",
@@ -413,7 +413,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Behauptung, ohne Menschen aus dem Ausland würden wir nicht so gut leben, stimmten 2015 76,4% der Befragten sehr oder eher zu, mehr als in den Vorjahren (2011: 72,4%; 2007: 61,9%; 2005: 66,9%).",
-		"erlaeuterungen": "Gefragt wurde: «Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.»",
+		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
@@ -422,7 +422,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Beurteilung des Wohnorts",
-		"subtitle": "Wie gerne leben Sie insgesamt an Ihrem Wohnort?",
+		"subtitle": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?»",
 		"kuerzel": "I.50.1.0016",
 		"kuerzelKunde": "2.1.01",
 		"image": "images/I.50.1.0016.jpg",
@@ -447,7 +447,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "71,7% der befragten Personen lebten 2015 sehr gerne an ihrem Wohnort, ein Viertel eher gerne. Insgesamt sind 96,9% der Befragten mit ihrem gegenwärtigen Wohnort zufrieden. Die insgesamte Zufriedenheit (eher und sehr gerne) mit dem Wohnort liegt seit 2003 stets bei über 95%.",
-		"erlaeuterungen": "Gefragt wurde: «Wie gerne leben Sie insgesamt an Ihrem Wohnort?»",
+		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
@@ -456,7 +456,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Beurteilung des Wohnquartiers",
-		"subtitle": "Wie gerne leben Sie in Ihrem Wohnquartier?",
+		"subtitle": "«Wie gerne leben Sie in Ihrem Wohnquartier?»",
 		"kuerzel": "I.50.1.0017",
 		"kuerzelKunde": "2.1.02",
 		"image": "images/I.50.1.0017.jpg",
@@ -481,7 +481,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Mit einem Anteil von 96,9% wohnten 2015 mehr Leute sehr oder eher gerne in ihrem Wohnquartier als 2011 (94,8%). Am tiefsten lag die insgesamte Zustimmung (eher und sehr gerne) 2005 mit 91%.",
-		"erlaeuterungen": "Gefragt wurde: «Wie gerne leben Sie in Ihrem Wohnquartier?» (nur Personen, die in der Stadt Basel wohnen)",
+		"erlaeuterungen": "Gefragt wurden nur Personen, die in der Stadt Basel wohnen.",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
@@ -490,7 +490,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Beurteilung der politischen Behörden",
-		"subtitle": "Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat die Anliegen der Bevölkerung?",
+		"subtitle": "«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat die Anliegen der Bevölkerung?»",
 		"kuerzel": "I.50.1.0018",
 		"kuerzelKunde": "2.2.01",
 		"image": "images/I.50.1.0018.jpg",
@@ -514,7 +514,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2015 fühlten sich 68,2% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2011 entspricht dies einem Rückgang um 2,2 Prozentpunkte. In den vorhergehenden Befragungsjahren lag die Zufriedenheit mit der Vertretung durch die Behörden jeweils deutlich unter derjenigen von 2011 und 2015 und die Frage konnte deutlich häufiger nicht beantwortet werden.",
-		"erlaeuterungen": "Gefragt wurde: «Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat die Anliegen der Bevölkerung?»",
+		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
@@ -523,7 +523,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Beurteilung der Schulen in Basel-Stadt",
-		"subtitle": "Die Schulen des Kantons Basel-Stadt bereiten die Jugendlichen gut fürs Leben vor.",
+		"subtitle": "«Die Schulen des Kantons Basel-Stadt bereiten die Jugendlichen gut fürs Leben vor.»",
 		"kuerzel": "I.50.1.0019",
 		"kuerzelKunde": "2.2.02",
 		"image": "images/I.50.1.0019.jpg",
@@ -549,7 +549,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Dass die Schulen im Kanton Basel-Stadt eine gute Vorbereitung fürs Leben im Allgemeinen sind, bejahten 2015 rund 43,6% der Befragten. Im Vergleich zum Jahr 2011 bedeutet dies einen Rückgang um 4,4 Prozentpunkte. Insbesondere bei der starken Zustimmung zu dieser Aussage gab es eine deutliche Abnahme von 2011 auf 2015.",
-		"erlaeuterungen": "Gefragt wurde: «Die Schulen des Kantons Basel-Stadt bereiten die Jugendlichen gut fürs Leben vor.»",
+		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
@@ -558,7 +558,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Beurteilung der Chancengleichheit",
-		"subtitle": "Die Chancengleichheit wird von den Behörden zielstrebig vorangetrieben.",
+		"subtitle": "«Die Chancengleichheit wird von den Behörden zielstrebig vorangetrieben.»",
 		"kuerzel": "I.50.1.0020",
 		"kuerzelKunde": "2.2.03",
 		"image": "images/I.50.1.0020.jpg",
@@ -583,7 +583,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2015 zeigten sich 51,9% der Befragten mit der Aussage, dass die kantonalen Behörden die Chancengleichheit von Männern und Frauen zielstrebig vorantreiben, eher oder sehr einverstanden. Somit ist die Zustimmung seit 2007 (44,5% eher oder sehr Einverstandene) beständig gestiegen.",
-		"erlaeuterungen": "Gefragt wurde: «Die Chancengleichheit wird von den Behörden zielstrebig vorangetrieben.»",
+		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
@@ -592,7 +592,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Beurteilung der kantonalen Verwaltung",
-		"subtitle": "Denken Sie einmal an den letzten Kontakt, wo Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?",
+		"subtitle": "«Denken Sie einmal an den letzten Kontakt, wo Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»",
 		"kuerzel": "I.50.1.0021",
 		"kuerzelKunde": "2.2.04",
 		"image": "images/I.50.1.0021.jpg",
@@ -615,7 +615,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "73,7% der befragten Personen schätzten 2015 ihren letzten Kontakt, den sie mit der Verwaltung des Kantons Basel-Stadt hatten, als positiv ein. Das sind 3,8 Prozentpunkte weniger als 2011, aber mehr als in der Befragung von 2007 (64,4%).",
-		"erlaeuterungen": "Gefragt wurde: «Denken Sie einmal an den letzten Kontakt, den Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»",
+		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
@@ -624,7 +624,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Beurteilung der kantonalen Steuern",
-		"subtitle": "Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?",
+		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?»",
 		"kuerzel": "I.50.1.0022",
 		"kuerzelKunde": "2.3.01",
 		"image": "images/I.50.1.0022.jpg",
@@ -647,7 +647,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2015 gaben mit 56,4% mehr als die Hälfte der Befragten an, dass die kantonalen Steuern und Gebühren beibehalten werden sollten. Dieser Anteil fällt im Vergleich zu den Vorjahren deutlich höher aus (2011: 45,6%, 2007: 30,0%).",
-		"erlaeuterungen": "Gefragt wurde: «Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?»",
+		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
@@ -656,7 +656,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Beurteilung der eigenen wirtschaftlichen Situation",
-		"subtitle": "Wie geht es Ihnen wirtschaftlich gesehen im Moment?",
+		"subtitle": "«Wie geht es Ihnen wirtschaftlich gesehen im Moment?»",
 		"kuerzel": "I.50.1.0023",
 		"kuerzelKunde": "2.3.02",
 		"image": "images/I.50.1.0023.jpg",
@@ -679,7 +679,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "89,7% der befragten Personen ging es 2015 wirtschaftlich gesehen sehr gut oder eher gut. Im Vergleich zu 2011 entspricht dies einem Anstieg um 2,5 Prozentpunkte. Für diese Frage wurde die Stichprobe der Bevölkerungsbefragung zugunsten der Vergleichbarkeit für den Städtevergleich ab 2005 gesplittet bzw. reduziert, weshalb ab 2005 weniger Antworten vorliegen.",
-		"erlaeuterungen": "Gefragt wurde: «Wie geht es Ihnen wirtschaftlich gesehen im Moment?»",
+		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
@@ -688,7 +688,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Beurteilung der Bildungschancen",
-		"subtitle": "Alle Kinder erhalten die gleichen Bildungschancen.",
+		"subtitle": "«Alle Kinder erhalten die gleichen Bildungschancen.»",
 		"kuerzel": "I.50.1.0024",
 		"kuerzelKunde": "2.3.03",
 		"image": "images/I.50.1.0024.jpg",
@@ -711,7 +711,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Mit der Aussage, dass alle Kinder dieselben Bildungschancen erhalten würden, zeigten sich im Jahr 2015 46,9% der Befragten einverstanden, während 42,6% nicht dieser Meinung waren. Seit 2005 hat ich der Anteil der eher oder sehr mit dieser Aussage einverstandenen Befragten stetig vergrössert.",
-		"erlaeuterungen": "Gefragt wurde: «Alle Kinder erhalten die gleichen Bildungschancen.»",
+		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
@@ -720,7 +720,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Freiwillige Tätigkeit",
-		"subtitle": "Sind Sie in Ihrer Freizeit freiwillig tätig?",
+		"subtitle": "«Sind Sie in Ihrer Freizeit freiwillig tätig?»",
 		"kuerzel": "I.50.1.0025",
 		"kuerzelKunde": "3.1.02",
 		"image": "images/I.50.1.0025.jpg",
@@ -742,7 +742,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "41,0% der Befragten gaben an, in ihrer Freizeit freiwillig tätig zu sein. Die Frage nach der Freiwilligen Tätigkeit wurde 2015 zum ersten Mal im Rahmen der Bevölkerungsbefragung erhoben.",
-		"erlaeuterungen": "Gefragt wurde: «Sind Sie in Ihrer Freizeit freiwillig tätig?»<br/>Freiwilligenarbeit ist ein unbezahlter Beitrag an Mitmenschen und/oder Umwelt und findet ausserhalb des eigenen Haushalts statt.",
+		"erlaeuterungen": "Freiwilligenarbeit ist ein unbezahlter Beitrag an Mitmenschen und/oder Umwelt und findet ausserhalb des eigenen Haushalts statt.",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
@@ -751,7 +751,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Interesse an der Politik in Basel-Stadt",
-		"subtitle": "Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?",
+		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?»",
 		"kuerzel": "I.50.1.0026",
 		"kuerzelKunde": "3.3.03.a",
 		"image": "images/I.50.1.0026.jpg",
@@ -775,7 +775,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "29,6% der befragten Personen interessierten sich 2015 sehr stark für die Politik im Kanton Basel-Stadt. Das sind 1,4 Prozentpunkte mehr als 2011 und auch mehr als in den vergangenen Befragungen seit 2003.",
-		"erlaeuterungen": "Gefragt wurde: «Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?»",
+		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
@@ -784,7 +784,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Gedanken über die Arbeitsstelle",
-		"subtitle": "Machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?",
+		"subtitle": "«Machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
 		"kuerzel": "I.50.1.0027",
 		"kuerzelKunde": "1.1.08.a",
 		"image": "images/I.50.1.0027.jpg",
@@ -807,7 +807,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2015 machten sich zwei Drittel der befragten erwerbstätigen Personen Gedanken über ihre Arbeitsstelle. Seit 2007 ist der Anteil von 58,2% auf 67,8% angestiegen.",
-		"erlaeuterungen": "Gefragt wurde: «Machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
+		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
@@ -816,7 +816,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Gründe für Gedanken über die Arbeitsstelle",
-		"subtitle": "Warum machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?",
+		"subtitle": "«Warum machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
 		"kuerzel": "I.50.1.0028",
 		"kuerzelKunde": "1.1.08.b",
 		"image": "images/I.50.1.0028.jpg",
@@ -841,7 +841,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Wenn sich die 2015 befragten Personen Gedanken zu ihrer Arbeitsstelle machen, dann am häufigsten wegen ihren persönlichen Entwicklungsperspektiven (63,0%). Die Beschäftigung mit dem Betriebsklima erfuhr von 2011 auf 2015 einen Anstieg von 26,1% auf 47,2%.",
-		"erlaeuterungen": "Gefragt wurde: «Warum machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
+		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
@@ -850,7 +850,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Interesse an der Politik in Basel-Stadt (18- bis 29-Jährige)",
-		"subtitle": "Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt? – nur Befragte im Alter zwischen 18 und 29 Jahren",
+		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?» – nur Befragte im Alter zwischen 18 und 29 Jahren",
 		"kuerzel": "I.50.1.0029",
 		"kuerzelKunde": "3.3.03.b",
 		"image": "images/I.50.1.0029.jpg",
@@ -874,7 +874,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Von den Befragten im Alter von 18 bis 29 Jahren interessierten sich 2015 61,9% eher oder sehr stark für die Politik im Kanton Basel-Stadt. Gegenüber 2007 entspricht dies einer Zunahme um 17,1 Prozentpunkte. Auch die Ergebnisse der Jugendbefragungen von 2009 und 2013 (nicht abgebildet) zeigen auf, dass sich jüngere Befragte weniger für Politik interessieren als ältere: 2013 gaben 14,1% der 11-14-Jährigen (N=482), 18,8% der 15-17-Jährigen (N=448) und 27,1% der über 18-Jährigen (N=92) an, sich eher oder sehr für Politik zu interessieren.",
-		"erlaeuterungen": "Gefragt wurde: «Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt? – nur Befragte im Alter zwischen 18 und 29 Jahren»",
+		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
@@ -883,7 +883,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Materielle oder finanzielle Hilfeleistungen durch Arbeitskollegen, Freunde und Bekannte oder Nachbarn",
-		"subtitle": "Erhalten Sie oder ein anderes Haushaltsmitglied (finanzielle oder materielle) Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?",
+		"subtitle": "«Erhalten Sie oder ein anderes Haushaltsmitglied (finanzielle oder materielle) Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»",
 		"kuerzel": "I.50.2.0001",
 		"kuerzelKunde": "1.1.01",
 		"image": "images/I.50.2.0001.jpg",
@@ -907,7 +907,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2013 erhielten 39,7% der Befragten von Freunden oder Bekannten Hilfeleistungen (2009: 46,2%), 28,5% von den Nachbarn (2009: 34,1%). Von den Arbeitskollegen Hilfeleistungen zu bekommen, bejahten 2013 12,1% der Befragten, 2009 waren es 13,3%.",
-		"erlaeuterungen": "Gefragt wurde: «Erhalten Sie oder ein anderes Haushaltsmitglied (finanzielle oder materielle) Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?» (2013: N=3119; 2009: N=2231)",
+		"erlaeuterungen": "2013: N=3119; 2009: N=2231",
 		"template": "befragungen001",
 		"option": "options001",
 		"quellenangabe": [
@@ -916,7 +916,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Unterstützung von Freunden oder Nachbarn",
-		"subtitle": "Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch an Freunde/Nachbarn gewendet?",
+		"subtitle": "«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch an Freunde/Nachbarn gewendet?»",
 		"kuerzel": "I.50.2.0002",
 		"kuerzelKunde": "1.1.03",
 		"image": "images/I.50.2.0002.jpg",
@@ -941,7 +941,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Knapp die Hälfte der Befragten haben 2009 und 2013 angegeben, sich bei Erziehungsfragen schon einmal an Freunde oder Nachbarn gewendet zu haben. Im Vergleich zu den anderen Lebenssituationen, in welchen die Befragten Hilfe in Anspruch nehmen, ist dies der deutlich grösste Anteil.",
-		"erlaeuterungen": "Gefragt wurde: «Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch an Freunde/Nachbarn gewendet?»",
+		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
 		"quellenangabe": [
@@ -950,7 +950,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Gutes Verhältnis zur Nachbarschaft",
-		"subtitle": "Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.",
+		"subtitle": "«Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.»",
 		"kuerzel": "I.50.2.0003",
 		"kuerzelKunde": "1.1.04",
 		"image": "images/I.50.2.0003.jpg",
@@ -972,7 +972,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2009 gaben 90,4% und 2013 89,6% der Familien an, ein gutes Verhältnis zu ihren Nachbarinnen und Nachbarn zu pflegen.",
-		"erlaeuterungen": "Gefragt wurde: «Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.»",
+		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
@@ -981,7 +981,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Zusammensetzung des Freundeskreises",
-		"subtitle": "Wie sieht Dein Freundeskreis aus?",
+		"subtitle": "«Wie sieht Dein Freundeskreis aus?»",
 		"kuerzel": "I.50.3.0001",
 		"kuerzelKunde": "1.1.05",
 		"image": "images/I.50.3.0001.jpg",
@@ -1004,7 +1004,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2013 gaben 78,7% der befragten Jugendlichen an, sowohl Mädchen als auch Jungen in ihrem Freundeskreis zu haben. 0,8% gaben an, keinen Freundeskreis zu haben. Weitere 3,9% machten keine Angabe. Im Jahr 2009 weichen die Angaben der Jugendlichen bei allen Antwortkategorien um weniger als 2 Prozentpunkte von den Werten des Jahres 2015 ab.",
-		"erlaeuterungen": "Gefragt wurde: «Wie sieht Dein Freundeskreis aus?»",
+		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
@@ -1013,7 +1013,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Engagement in Organisationen und Vereinen",
-		"subtitle": "Engagierst Du Dich in einer Organisation, in einem Verein oder ähnlichem?",
+		"subtitle": "«Engagierst Du Dich in einer Organisation, in einem Verein oder ähnlichem?»",
 		"kuerzel": "I.50.3.0002",
 		"kuerzelKunde": "3.3.01",
 		"image": "images/I.50.3.0002.jpg",
@@ -1035,7 +1035,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2013 gaben ein Viertel der Befragten Jugendlichen an, dass sie sich in einer Organisation, in einem Verein oder ähnlichem engagieren, 2011 lag dieser Wert noch bei 12,0%.",
-		"erlaeuterungen": "Gefragt wurde: «Engagierst Du Dich in einer Organisation, in einem Verein oder ähnlichem?»",
+		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
@@ -1044,7 +1044,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Materielle Hilfeleistungen von Arbeitskollegen, Freunden und Bekannten oder Nachbarn",
-		"subtitle": "Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?",
+		"subtitle": "«Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»",
 		"kuerzel": "I.50.4.0004",
 		"kuerzelKunde": "1.1.02",
 		"image": "images/I.50.4.0004.jpg",
@@ -1068,7 +1068,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Von den Befragten erhielten 2015 rund ein Viertel materielle Hilfeleistungen von Freunden und Bekannten oder von Nachbarn (2011: jeweils rund 16%). Tiefer liegt der Wert bei den Arbeitskollegen: von diesen bekamen 5,2% der Befragten materielle Hilfeleistungen (2011: 2,8%). Jeweils rund 20% der Befragten machten 2015 keine Angaben zu diesen Fragen. Auf die Frage nach Hilfeleistungen durch Arbeitskollegen konnten weitere rund 21% nicht antworten, weil sie nicht mehr erwerbstätig sind.",
-		"erlaeuterungen": "Gefragt wurde: «Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?» (2015: N=1427; 2011: N=1689)<br/>Materielle Hilfeleistungen: Garten- und Reinigungsarbeiten, Einkaufshilfe, Füttern von Tieren, Hüte- und Pflegeeinsätze etc.",
+		"erlaeuterungen": "2015: N=1427; 2011: N=1689<br/>Materielle Hilfeleistungen: Garten- und Reinigungsarbeiten, Einkaufshilfe, Füttern von Tieren, Hüte- und Pflegeeinsätze etc.",
 		"template": "befragungen001",
 		"option": "options001",
 		"quellenangabe": [
@@ -1077,7 +1077,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
-		"subtitle": "Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
 		"kuerzel": "I.50.4.0005",
 		"kuerzelKunde": "1.1.06",
 		"image": "images/I.50.4.0005.jpg",
@@ -1109,7 +1109,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit",
-		"subtitle": "Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?",
+		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?»",
 		"kuerzel": "I.50.4.0006",
 		"kuerzelKunde": "3.1.03",
 		"image": "images/I.50.4.0006.jpg",
@@ -1140,7 +1140,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Beschäftigung mit dem Thema Politik",
-		"subtitle": "Wie stark beschäftigt Sie im Moment das Thema Politik?",
+		"subtitle": "«Wie stark beschäftigt Sie im Moment das Thema Politik?»",
 		"kuerzel": "I.50.4.0007",
 		"kuerzelKunde": "3.3.04",
 		"image": "images/I.50.4.0007.jpg",
@@ -1163,7 +1163,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2011 gaben 69,7% und 2015 76,7% der Befragten an, das Thema Politik beschäftige sie eher oder sehr stark. Der Anteil Befragter, welche keine Angabe zu dieser Frage machen konnten, ging von 8,8% im Jahr 2011 auf 3,9% im Jahr 2015 zurück.",
-		"erlaeuterungen": "Gefragt wurde: «Wie stark beschäftigt Sie im Moment das Thema Politik?»",
+		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
@@ -1172,7 +1172,7 @@ var indikatorenset = [
 	},
 	{
 		"title": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
-		"subtitle": "Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld/Quartier?",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld/Quartier?»",
 		"kuerzel": "I.50.4.0008",
 		"kuerzelKunde": "1.1.07",
 		"image": "images/I.50.4.0008.jpg",
@@ -1196,7 +1196,7 @@ var indikatorenset = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2015 gaben 80,0% der Befragten an, mit den Sozialkontakten im Wohnumfeld/Quartier zufrieden zu sein. 2011 waren 78% sehr oder eher zufrieden. Gleichzeitig reduzierte sich der Anteil derjenigen Personen, die keine Antwort geben konnten oder wollten, von 2011 auf 2015 um fast 3 Prozentpunkte.",
-		"erlaeuterungen": "Gefragt wurde: «Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld/Quartier?»",
+		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [

@@ -1,5 +1,5 @@
 ﻿var indikatoren = [{"title":"Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.",
-"subtitle":"Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.",
+"subtitle":"«Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.»",
 "kuerzel":"I.50.1.0015",
 "kuerzelKunde":"1.3.03",
 "image":"images/I.50.1.0015.jpg",
@@ -17,7 +17,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Der Behauptung, ohne Menschen aus dem Ausland würden wir nicht so gut leben, stimmten 2015 76,4% der Befragten sehr oder eher zu, mehr als in den Vorjahren (2011: 72,4%; 2007: 61,9%; 2005: 66,9%).",
-"erlaeuterungen":"Gefragt wurde: «Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.»",
+"erlaeuterungen":"",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18c"]

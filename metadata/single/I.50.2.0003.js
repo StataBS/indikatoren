@@ -1,5 +1,5 @@
 ﻿var indikatoren = [{"title":"Gutes Verhältnis zur Nachbarschaft",
-"subtitle":"Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.",
+"subtitle":"«Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.»",
 "kuerzel":"I.50.2.0003",
 "kuerzelKunde":"1.1.04",
 "image":"images/I.50.2.0003.jpg",
@@ -17,7 +17,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"2009 gaben 90,4% und 2013 89,6% der Familien an, ein gutes Verhältnis zu ihren Nachbarinnen und Nachbarn zu pflegen.",
-"erlaeuterungen":"Gefragt wurde: «Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.»",
+"erlaeuterungen":"",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F19c"]
