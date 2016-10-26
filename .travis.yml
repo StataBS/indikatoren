@@ -21,7 +21,7 @@ script:
 - npm test
 after_success:
 - npm run build
-- npm run deploy:gh-pages
+- npm run deploy
 branches:
   except:
   - gh-pages
