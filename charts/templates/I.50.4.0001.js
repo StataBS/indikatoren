@@ -1,24 +1,29 @@
-﻿var indikatoren = [{"title":"Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
-"subtitle":"«Wie zufrieden sind Sie mit der altersangepassten Einrichtung des Wohngebäudes?»",
-"kuerzel":"I.50.4.0001",
-"kuerzelKunde":"4.2.c",
-"image":"images/I.50.4.0001.jpg",
-"description":"Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
-"id":"4156",
-"thema":"50 Befragungen",
-"unterthema":"Befragung 55 plus",
-"kennzahlenset":"Wohnraumentwicklung",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Gebäude","Haushalt","Zufriedenheit"],
-"stufe1":"4 Sozialpolitik",
-"stufe2":"4.2 Wohnraum für Betagte und Behinderte",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Sowohl 2011 als auch 2015 sind gut zwei Drittel der Befragten mit der altersangepassten Einrichtung des Wohngebäudes eher bis sehr zufrieden.",
-"erlaeuterungen":"",
-"template":"befragungen001",
-"option":"options001",
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10_c"]
-}];
+﻿chartOptions['I.50.4.0001'] = {
+  "xAxis": {
+    "type": "category"
+  },  
+  "series": [
+    {
+      "color": "#999999",
+      "index": 2
+    },
+    {
+      "color": "#dc440e",
+      "index": 0
+    },
+    {
+      "color": "#ffbb58",
+      "index": 1
+    },
+    {
+      "color": "#68ab2b",
+      "index": 3
+    },
+    {
+      "color": "#007a2f",
+      "index": 4
+    }
+  ]
+};
+
+ 
