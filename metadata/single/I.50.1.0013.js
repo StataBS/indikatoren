@@ -1,5 +1,5 @@
 ﻿var indikatoren = [{"title":"Menschen aus verschiedenen Ländern sind eine Bereicherung für den Kanton",
-"subtitle":"Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Ist das eine Bereicherung für den Kanton?",
+"subtitle":"«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Ist das eine Bereicherung für den Kanton?»",
 "kuerzel":"I.50.1.0013",
 "kuerzelKunde":"1.3.01",
 "image":"images/I.50.1.0013.jpg",
@@ -17,7 +17,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter Basel-Stadts als eine sehr oder eher grosse Bereicherung für die Stadt. Die Zustimmung zu dieser Frage liegt seit 2003 jeweils über 68%.",
-"erlaeuterungen":"Gefragt wurde: «Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Ist das eine Bereicherung für den Kanton?»",
+"erlaeuterungen":"",
 "template":"befragungenProzent001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18a"]

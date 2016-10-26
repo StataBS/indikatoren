@@ -1,5 +1,5 @@
 ﻿var indikatoren = [{"title":"Zufriedenheit mit dem Wohnungsangebot – nur Familien",
-"subtitle":"",
+"subtitle":"«Wie zufrieden sind sie mit dem Wohnungsangebot?»",
 "kuerzel":"I.50.1.0006",
 "kuerzelKunde":"1.4.c",
 "image":"images/I.50.1.0006.jpg",

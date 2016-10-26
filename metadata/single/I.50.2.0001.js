@@ -1,5 +1,5 @@
 ﻿var indikatoren = [{"title":"Materielle oder finanzielle Hilfeleistungen durch Arbeitskollegen, Freunde und Bekannte oder Nachbarn",
-"subtitle":"Erhalten Sie oder ein anderes Haushaltsmitglied (finanzielle oder materielle) Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?",
+"subtitle":"«Erhalten Sie oder ein anderes Haushaltsmitglied (finanzielle oder materielle) Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»",
 "kuerzel":"I.50.2.0001",
 "kuerzelKunde":"1.1.01",
 "image":"images/I.50.2.0001.jpg",
@@ -17,7 +17,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"2013 erhielten 39,7% der Befragten von Freunden oder Bekannten Hilfeleistungen (2009: 46,2%), 28,5% von den Nachbarn (2009: 34,1%). Von den Arbeitskollegen Hilfeleistungen zu bekommen, bejahten 2013 12,1% der Befragten, 2009 waren es 13,3%.",
-"erlaeuterungen":"Gefragt wurde: «Erhalten Sie oder ein anderes Haushaltsmitglied (finanzielle oder materielle) Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?» (2013: N=3119; 2009: N=2231)",
+"erlaeuterungen":"2013: N=3119; 2009: N=2231",
 "template":"befragungen001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F74c-e"]
