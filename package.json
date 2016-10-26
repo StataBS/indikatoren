@@ -28,7 +28,7 @@
     "start": "npm run build && npm run server",
     "deploy:gh-pages": "gh-pages-travis",
     "deploy:ftp": "echo \"Fake uploading to FTP server...\" && exit 0",
-    "deploy": "npm run deploy:gh-pages && npm run deploy:ftp"
+    "deploy": "npm run deploy:gh-pages && npm run deploy:ftp && pwd"
   },
   "repository": {
     "type": "git",
