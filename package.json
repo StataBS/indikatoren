@@ -26,7 +26,9 @@
     "build": "npm run build:database && npm run build:partial_databases && npm run build:charts && npm run build:images_phantom",
     "server": "http-server -p 8000 -c-1 -s -o ",
     "start": "npm run build && npm run server",
-    "gh-pages-travis": "gh-pages-travis"
+    "deploy:gh-pages": "gh-pages-travis",
+    "deploy:ftp": "echo \"Fake uploading to FTP server...\" && exit 0",
+    "deploy": "npm run deploy:gh-pages && npm run deploy:ftp && pwd"
   },
   "repository": {
     "type": "git",
