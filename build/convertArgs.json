@@ -1,0 +1,7 @@
+{"allArgs": 
+    [
+        ["C:\\dev\\workspace\\statabs-test\\indikatoren\\build\\highcharts-convert.js","-infile","C:\\dev\\workspace\\statabs-test\\indikatoren\\charts\\configs\\I.01.1.0013.json","-outfile","C:\\dev\\workspace\\statabs-test\\indikatoren\\images\\indikatorenset\\I.01.1.0013.svg","-multi","true","-multiArgsFile","C:\\dev\\workspace\\statabs-test\\indikatoren\\build\\convertArgs.json"],
+        ["C:\\dev\\workspace\\statabs-test\\indikatoren\\build\\highcharts-convert.js","-infile","C:\\dev\\workspace\\statabs-test\\indikatoren\\charts\\configs\\I.01.1.0014.json","-outfile","C:\\dev\\workspace\\statabs-test\\indikatoren\\images\\indikatorenset\\I.01.1.0014.svg","-multi","true","-multiArgsFile","C:\\dev\\workspace\\statabs-test\\indikatoren\\build\\convertArgs.json"]
+    ]        
+}
+

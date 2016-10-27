@@ -12,8 +12,10 @@ var views = [true, false];
 views.forEach(function(view){
     console.log('Starting svg creation for indikatorensetView=' + view);
     indikatoren.forEach(function(indikator){
-        console.log('Rendering svg for chart ' + indikator.kuerzel + ' indikatorensetView=' + view +'...');
-        renderToFile(indikator.kuerzel, view, console);
+        if (indikator.kuerzel === 'I.01.1.0013' && view === true){
+            console.log('Rendering svg for chart ' + indikator.kuerzel + ' indikatorensetView=' + view +'...');
+            renderToFile(indikator.kuerzel, view, console);
+        }
     });
 })
 
@@ -27,16 +29,21 @@ function renderToFile(kuerzel, indikatorensetView, console){
     var imagePath = (indikatorensetView) ? 'images/indikatorenset/' : 'images/portal/';
     
     var childArgs = [
-        path.join(__dirname, '../node_modules/highcharts-phantomjs/lib/highcharts-convert.js'),
+        //path.join(__dirname, '../node_modules/highcharts-phantomjs/lib/highcharts-convert.js'),
+        path.join(__dirname, 'highcharts-convert.js'),
         '-infile ' + path.join(__dirname, '../charts/configs/' + kuerzel + '.json'),
-        '-outfile ' + path.join(__dirname, '../' + imagePath + kuerzel + '.svg')
+        '-outfile ' + path.join(__dirname, '../' + imagePath + kuerzel + '.svg'),
+        '-multi true',
+        '-multiArgsFile '+ path.join(__dirname, 'convertArgs.json')
     ]
 
     var command = binPath + " " + childArgs.join(" ");
-
-    //console.log("executing the following line:");
-    //console.log(command);
-
+    /*
+    console.log("executing the following line:");
+    console.log(command);
+    console.log("arguments object: ");
+    console.log(JSON.stringify(childArgs));
+    */
     //todo: start phantom server and send options via http post instaed of using new phantom instance every time    
     var child_process = require('child_process');
     var stdout = child_process.execSync(command);
