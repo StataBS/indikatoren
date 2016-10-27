@@ -231,10 +231,10 @@
     };
 
     exit = function(result) {
-      //if (serverMode) {
+      if (serverMode) {
         // Calling page.close(), may stop the increasing heap allocation
         page.close();
-      //}
+      }
       exitCallback(result);
     };
 
@@ -759,6 +759,35 @@
     }
   }
 
+  
+  var renderNext = function(chartNumber){
+      console.log('working with command # '+ chartNumber +': ');      
+      var currentCommand = mapArguments(multiArgsArray.allArgs[chartNumber]);
+      console.log('current command: ' + JSON.stringify(currentCommand)); 
+      render(currentCommand, function(msg){
+          console.log(msg);
+          var nextChart = chartNumber++;
+          console.log('increasing counter to ' + nextChart);          
+          if (nextChart < multiArgsArray.allArgs.length -1) {
+            console.log('invoking render for chart # ' + nextChart);
+            renderNext(nextChart);
+          }
+          else if (nextChart = multiArgsArray.allArgs.length -1) {
+            console.log('invoking render for the last chart # ' + nextChart);
+            renderLast(nextChart);
+          };
+      });
+  };
+
+  var renderLast = function(chartNumber){
+    console.log('working with command # '+ chartNumber +', this is the last one...');
+    render(mapArguments(multiArgsArray.allArgs[chartNumber]), function(msg) {
+      console.log(msg);
+      console.log('closing phantomjs...');
+      phantom.exit();
+    });
+  }
+
   if (args.port !== undefined) {
     startServer(args.host, args.port);    
   } else {
@@ -767,14 +796,17 @@
     if (args.multi !== undefined && args.multiArgsFile !== undefined) {
       console.log('rendering multiple charts in one phantomJS session...');
       var multiArgsArray = JSON.parse(args.multiArgsFile);
+      renderNext(0);
       //var argsOfCurrentChart = mapArguments(multiArgsArray.allArgs[0]);
+      /*      
       render(mapArguments(multiArgsArray.allArgs[0]), function(msg) {
         console.log(msg);
         render(mapArguments(multiArgsArray.allArgs[1]), function(msg) {
           console.log(msg);
           phantom.exit();
         });
-      });    
+      });
+      */
     }
     else {    
       console.log('rendering a single chart...');

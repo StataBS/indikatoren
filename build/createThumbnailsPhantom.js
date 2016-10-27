@@ -19,7 +19,7 @@ views.forEach(function(view){
     });
 })
 
-console.log('...done starting commands, now waiting for execution callbacks...');
+//console.log('...done starting commands, now waiting for execution callbacks...');
      
 function renderToFile(kuerzel, indikatorensetView, console){
 
