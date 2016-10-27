@@ -25,10 +25,11 @@ function renderToFile(kuerzel, indikatorensetView, console){
     var phantomjs = require('phantomjs-prebuilt')
     var binPath = phantomjs.path
     var imagePath = (indikatorensetView) ? 'images/indikatorenset/' : 'images/portal/';
+    var configPath = (indikatorensetView) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
     
     var childArgs = [
         path.join(__dirname, '../node_modules/highcharts-phantomjs/lib/highcharts-convert.js'),
-        '-infile ' + path.join(__dirname, '../charts/configs/' + kuerzel + '.json'),
+        '-infile ' + path.join(__dirname, '../' + configPath + kuerzel + '.json'),
         '-outfile ' + path.join(__dirname, '../' + imagePath + kuerzel + '.svg')
     ]
 
