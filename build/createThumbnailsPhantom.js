@@ -16,8 +16,6 @@ views.forEach(function(view){
         renderToFile(indikator.kuerzel, view, console);
     });
 })
-
-console.log('...done starting commands, now waiting for execution callbacks...');
      
 function renderToFile(kuerzel, indikatorensetView, console){
 
