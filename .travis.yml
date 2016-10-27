@@ -15,9 +15,13 @@ before_install:
 - if [ $(phantomjs --version) != $PHANTOMJS_VERSION ]; then tar -xvf $PWD/travis_phantomjs/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2
   -C $PWD/travis_phantomjs; fi
 - phantomjs --version
+install: 
+- npm install
+script: 
+- npm test
 after_success:
 - npm run build
-- npm run gh-pages-travis
+- npm run deploy
 branches:
   except:
   - gh-pages

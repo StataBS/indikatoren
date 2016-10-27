@@ -16,8 +16,6 @@ views.forEach(function(view){
         renderToFile(indikator.kuerzel, view, console);
     });
 })
-
-console.log('...done starting commands, now waiting for execution callbacks...');
      
 function renderToFile(kuerzel, indikatorensetView, console){
 
@@ -25,10 +23,11 @@ function renderToFile(kuerzel, indikatorensetView, console){
     var phantomjs = require('phantomjs-prebuilt')
     var binPath = phantomjs.path
     var imagePath = (indikatorensetView) ? 'images/indikatorenset/' : 'images/portal/';
+    var configPath = (indikatorensetView) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
     
     var childArgs = [
         path.join(__dirname, '../node_modules/highcharts-phantomjs/lib/highcharts-convert.js'),
-        '-infile ' + path.join(__dirname, '../charts/configs/' + kuerzel + '.json'),
+        '-infile ' + path.join(__dirname, '../' + configPath + kuerzel + '.json'),
         '-outfile ' + path.join(__dirname, '../' + imagePath + kuerzel + '.svg')
     ]
 
@@ -37,17 +36,9 @@ function renderToFile(kuerzel, indikatorensetView, console){
     //console.log("executing the following line:");
     //console.log(command);
 
+    //todo: start phantom server and send options via http post instaed of using new phantom instance every time    
     var child_process = require('child_process');
-
-    //todo: execute synchronously
-    //todo: start phantom server and send options via http post instaed of using new phantom instance every time
-    var process = child_process.exec(command, function(err,stdout,stderr) {
-        if (err) {
-            console.log('Child process exited with error code', err.code);
-            console.log(stderr);
-            return
-        }
-        console.log("Image for " + kuerzel + " successfully rendered.");
-        //console.log(stdout);
-    });
+    var stdout = child_process.execSync(command);
+    console.log(stdout.toString());
+    console.log("Image for " + kuerzel + " rendered.");
 };

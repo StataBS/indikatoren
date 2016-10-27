@@ -94,8 +94,8 @@ function createChartConfig(kuerzel, indikatorensetView, console){
 
     ctx.createChartConfig(csv, options, chartMetaData, indikatorensetView, function(options){
         var stringifiedOptions = serialize(options, {space: 2});
-
+        var filePath = (indikatorensetView) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
         //console.log(stringifiedOptions);
-        fs.writeFile('charts/configs/' + kuerzel + '.json', stringifiedOptions);
+        fs.writeFile(filePath + kuerzel + '.json', stringifiedOptions);
     });
 };
