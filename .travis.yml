@@ -4,6 +4,7 @@ node_js:
 cache:
   directories:
   - travis_phantomjs
+  - node_modules
 before_install:
 - openssl aes-256-cbc -K $encrypted_a2cfe6971b25_key -iv $encrypted_a2cfe6971b25_iv -in id_rsa.enc -out id_rsa -d
 - export PHANTOMJS_VERSION=2.1.1
