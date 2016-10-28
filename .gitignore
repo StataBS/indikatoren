@@ -10,3 +10,4 @@ tmp/
 id_rsa
 travis_phantomjs/
 travis_phantomjs/*
+build/convertArgs.json
