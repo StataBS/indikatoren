@@ -234,6 +234,7 @@
       //if (serverMode) {
         // Calling page.close(), may stop the increasing heap allocation
         page.close();
+        //page.clearMemoryCache(); //24 s with this option enabled, 17 s without
       //}
       exitCallback(result);
     };
