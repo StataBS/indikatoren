@@ -57,10 +57,10 @@
                 <span class="glyphicon glyphicon-chevron-right"></span>
               </a>
             </div>
-            <!--
-            <ol class="carousel-indicators" id="carousel-indicators">              
+
+            <ol class="carousel-indicators carousel-indicators-numbers" id="carousel-indicators">
+              <!-- dots that link to charts in search results are dynamically added here -->
             </ol>
-            -->
           </div>
         </div>
       </div>
@@ -295,7 +295,7 @@
 
     <!-- template for dot in carousel that links to nth chart -->
     <script id="carousel-indicator-template" type="text/html">
-      <li data-target="#lightbox" data-slide-to="<%= _fid-1 %>" indikator-kuerzel-data="<%= kuerzel %>"> </li>
+      <li></li>
     </script>
 
   </body>

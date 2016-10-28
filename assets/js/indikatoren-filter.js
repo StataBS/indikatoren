@@ -109,6 +109,12 @@ $(document).ready(function(){
   $('#lightbox').on('slide.bs.carousel', function (e) {
       var targetKuerzel = $(e.relatedTarget).children().first().attr('indikator-kuerzel-data');
       lazyRenderChartByKuerzel(targetKuerzel, indikatorensetView);
+      //display chart number in indicator      
+      var currentNumber = $(e.relatedTarget).index() + 1;            
+      var indicatorText = $('#carousel-indicators li').text();
+      var lastNumberText = indicatorText.substring(0, indicatorText.indexOf(' /'));      
+      $('#carousel-indicators li').text(indicatorText.replace(lastNumberText, currentNumber));      
+      $('#carousel-indicators li').removeClass('active');
   });
 });//$(document).ready()
 
@@ -472,7 +478,6 @@ var afterFilter = function(result, jQ){
       //set first child to active, only now the carousel is visible
       container.children().first().addClass("active");
 
-      /*
       //add an indicator (dot that links to a chart) for each chart
       //build template function using template from DOM
       var html = $('#carousel-indicator-template').html();
@@ -480,18 +485,10 @@ var afterFilter = function(result, jQ){
       var container = $('#carousel-indicators');
       //first remove all carousel divs
       container.children().remove();
-      //add a new indicator for each chart in results    
-      $.each(result, function(i, item){
-        var element = container.append(templateFunction(item));      
-      });
-      //set first child to active, otherwise when clicking on the first thumbnail the indicator does not display the currently displayed chart 
-      container.children().first().addClass("active");      
-      //set value of data-slide-to: must be the 0-based index of the indicator 
-      var items = $(container).children();
-      $.each($(container).children(), function(i, item){
-        $(item).attr("data-slide-to", i);
-      });
-      */
+
+      var element = $(templateFunction(1)).appendTo(container);
+      //set value of data-slide-to: must be the 0-based index of the indicator      
+      element.text('1 / ' + result.length);
       
       //bind keyboard to carousel: arrow left/right, esc
       //source: http://stackoverflow.com/questions/15720776/bootstrap-carousel-with-keyboard-controls

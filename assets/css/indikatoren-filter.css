@@ -163,6 +163,7 @@ input::-ms-clear {
     color: #666;
 }
 
+
 /* position icons below the close icon */
 .carousel-control.left { left: 7px; }
 .carousel-control.right { right: 7px; }
@@ -172,27 +173,32 @@ input::-ms-clear {
     height: 415px;
 }
 
-/*
 .carousel-indicators {
     top: 15px;
     height: 15px;
 }
+
 
 .carousel-indicators li {
     border-color: black;
     background-color:white;
 }
 
-.carousel-indicators .active {
-    border-color: white;
-    background-color:black;
+.carousel-indicators-numbers li {
+    text-indent: 0;
+    margin: 0 2px;    
+    width: 45px;
+    height: 30px;
+    border: none;
+    line-height: 30px;
+    color: black;
 }
-*/
-/*
+
+
 .carousel-inner {
     margin-top: 30px;
 }
-*/
+
 h1{
     font-size: 8pt;
     text-transform: uppercase;
