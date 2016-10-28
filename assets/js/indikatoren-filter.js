@@ -108,7 +108,23 @@ $(document).ready(function(){
   //add event listener to render chart on carousel slide
   $('#lightbox').on('slide.bs.carousel', function (e) {
       var targetKuerzel = $(e.relatedTarget).children().first().attr('indikator-kuerzel-data');
+
       lazyRenderChartByKuerzel(targetKuerzel, indikatorensetView);
+      //remove dots that are not close to target dot
+      var targetIndex = $(e.relatedTarget).index();
+      var lastIndex = $('#carousel-indicators').children().last().data('slide-to');
+      //todo: remove ellipses
+      $('#carousel-indicators > li').each(function(i){
+        //display following dots: first, last, the ones around the targetIndex
+        if (i === 0 || i === lastIndex || Math.abs(targetIndex - i) < 3){
+          $(this).show();
+        }
+        else {
+          $(this).hide();
+          //todo: add li with ellipsis          
+        }
+        //console.log($(this).data('slide-to'))
+      });
   });
 });//$(document).ready()
 
@@ -472,7 +488,7 @@ var afterFilter = function(result, jQ){
       //set first child to active, only now the carousel is visible
       container.children().first().addClass("active");
 
-      /*
+
       //add an indicator (dot that links to a chart) for each chart
       //build template function using template from DOM
       var html = $('#carousel-indicator-template').html();
@@ -481,17 +497,22 @@ var afterFilter = function(result, jQ){
       //first remove all carousel divs
       container.children().remove();
       //add a new indicator for each chart in results    
-      $.each(result, function(i, item){
-        var element = container.append(templateFunction(item));      
+      $.each(result, function(i, item){                        
+          var element = $(templateFunction(item)).appendTo(container);
+          //set value of data-slide-to: must be the 0-based index of the indicator
+          element.attr("data-slide-to", i);
+          element.text(i+1);
       });
       //set first child to active, otherwise when clicking on the first thumbnail the indicator does not display the currently displayed chart 
       container.children().first().addClass("active");      
+
       //set value of data-slide-to: must be the 0-based index of the indicator 
       var items = $(container).children();
       $.each($(container).children(), function(i, item){
         $(item).attr("data-slide-to", i);
       });
-      */
+
+
       
       //bind keyboard to carousel: arrow left/right, esc
       //source: http://stackoverflow.com/questions/15720776/bootstrap-carousel-with-keyboard-controls
