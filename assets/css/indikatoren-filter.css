@@ -184,28 +184,14 @@ input::-ms-clear {
     background-color:white;
 }
 
-.carousel-indicators .active {
-    border-color: white;
-    background-color:black;
-}
-
 .carousel-indicators-numbers li {
-    font-size: 10px;
     text-indent: 0;
-    margin: 0 2px;
-    width: 30px;
+    margin: 0 2px;    
+    width: 45px;
     height: 30px;
     border: none;
-    border-radius: 100%;
     line-height: 30px;
-    color: #fff;
-    background-color: #999;
-}
-.carousel-indicators-numbers li.active, .carousel-indicators-numbers li:hover {
-    margin: 0 2px;
-    width: 30px;
-    height: 30px;
-    background-color: #337ab7;
+    color: black;
 }
 
 
