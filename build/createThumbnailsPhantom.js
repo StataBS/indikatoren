@@ -17,9 +17,39 @@ views.forEach(function(view){
             renderToFile(indikator.kuerzel, view, console);
         }
     });
-})
+});
 
-//console.log('...done starting commands, now waiting for execution callbacks...');
+function mapArguments(argus) {
+    var map = {};
+    var i;
+    var key;
+
+    if (argus < 1) {
+        console.log('Commandline Usage: highcharts-convert.js -infile filename -outfile filename -scale 2.5 -width 300 -constr Chart -callback callback.js');
+        console.log(', or run PhantomJS as server: highcharts-convert.js -host 127.0.0.1 -port 1234');
+    }
+
+    for (i = 0; i < argus.length; i += 1) {
+        if (argus[i].charAt(0) === '-') {
+            key = argus[i].substr(1, i.length);
+            if (key === 'infile' || key === 'callback' || key === 'dataoptions' || key === 'globaloptions' || key === 'customcode' || key === 'themeoptions' || key === 'multiArgsFile') {
+                // get string from file
+                try {
+                map[key] = fs.read(argus[i + 1]).replace(/^\s+/, '');
+                } catch (e) {
+                console.log('Error: cannot find file, ' + argus[i + 1]);
+                phantom.exit();
+                }
+            } else {
+                // assume PhantomJS running in serverMode. Parameter is not a file, but contains content.
+                map[key] = argus[i + 1];
+            }
+        }
+    }
+    return map;
+};
+
+
      
 function renderToFile(kuerzel, indikatorensetView, console){
 
@@ -27,11 +57,12 @@ function renderToFile(kuerzel, indikatorensetView, console){
     var phantomjs = require('phantomjs-prebuilt')
     var binPath = phantomjs.path
     var imagePath = (indikatorensetView) ? 'images/indikatorenset/' : 'images/portal/';
+    var configPath = (indikatorensetView) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
     
     var childArgs = [
         //path.join(__dirname, '../node_modules/highcharts-phantomjs/lib/highcharts-convert.js'),
         path.join(__dirname, 'highcharts-convert.js'),
-        '-infile ' + path.join(__dirname, '../charts/configs/' + kuerzel + '.json'),
+        '-infile ' + path.join(__dirname, '../' + configPath + kuerzel + '.json'),
         '-outfile ' + path.join(__dirname, '../' + imagePath + kuerzel + '.svg'),
         '-multi true',
         '-multiArgsFile '+ path.join(__dirname, 'convertArgs.json')
