@@ -28,7 +28,8 @@ function renderToFile(kuerzel, indikatorensetView, console){
     var childArgs = [
         path.join(__dirname, '../node_modules/highcharts-phantomjs/lib/highcharts-convert.js'),
         '-infile ' + path.join(__dirname, '../' + configPath + kuerzel + '.json'),
-        '-outfile ' + path.join(__dirname, '../' + imagePath + kuerzel + '.svg')
+        '-outfile ' + path.join(__dirname, '../' + imagePath + kuerzel + '.svg'),
+        '-width 485'
     ]
 
     var command = binPath + " " + childArgs.join(" ");
@@ -36,7 +37,7 @@ function renderToFile(kuerzel, indikatorensetView, console){
     //console.log("executing the following line:");
     //console.log(command);
 
-    //todo: start phantom server and send options via http post instaed of using new phantom instance every time    
+    //todo: add svg viewBox for ie    
     var child_process = require('child_process');
     var stdout = child_process.execSync(command);
     console.log(stdout.toString());
