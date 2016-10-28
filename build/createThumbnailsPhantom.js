@@ -4,6 +4,7 @@
 //Hack to re-use existing web js code from within node.js, see http://stackoverflow.com/a/8808162
 var execfile = require("execfile");
 var serialize = require('serialize-javascript');
+var fs = require('fs');
 console.log('Loading metadata...');
 var ctx = execfile('metadata/indikatoren.js');
 var indikatoren = ctx.indikatoren;
@@ -19,27 +20,20 @@ views.forEach(function(view){
     });
 });
 
+
+// function taken from https://github.com/highcharts/highcharts-export-server/blob/master/phantomjs/highcharts-convert.js 
 function mapArguments(argus) {
     var map = {};
     var i;
     var key;
-
-    if (argus < 1) {
-        console.log('Commandline Usage: highcharts-convert.js -infile filename -outfile filename -scale 2.5 -width 300 -constr Chart -callback callback.js');
-        console.log(', or run PhantomJS as server: highcharts-convert.js -host 127.0.0.1 -port 1234');
-    }
-
+    console.log(argus.length);
     for (i = 0; i < argus.length; i += 1) {
         if (argus[i].charAt(0) === '-') {
             key = argus[i].substr(1, i.length);
-            if (key === 'infile' || key === 'callback' || key === 'dataoptions' || key === 'globaloptions' || key === 'customcode' || key === 'themeoptions' || key === 'multiArgsFile') {
-                // get string from file
-                try {
-                map[key] = fs.read(argus[i + 1]).replace(/^\s+/, '');
-                } catch (e) {
-                console.log('Error: cannot find file, ' + argus[i + 1]);
-                phantom.exit();
-                }
+            console.log(key);
+            if (key === 'infile' || key === 'callback' || key === 'dataoptions' || key === 'globaloptions' || key === 'customcode' || key === 'themeoptions') {
+                // get string from file                
+                map[key] = fs.readFileSync(argus[i + 1], 'utf8');                    
             } else {
                 // assume PhantomJS running in serverMode. Parameter is not a file, but contains content.
                 map[key] = argus[i + 1];
@@ -51,8 +45,7 @@ function mapArguments(argus) {
 
 
      
-function renderToFile(kuerzel, indikatorensetView, console){
-
+function renderToFile(kuerzel, indikatorensetView){
     var path = require('path')
     var phantomjs = require('phantomjs-prebuilt')
     var binPath = phantomjs.path
@@ -60,24 +53,30 @@ function renderToFile(kuerzel, indikatorensetView, console){
     var configPath = (indikatorensetView) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
     
     var childArgs = [
-        //path.join(__dirname, '../node_modules/highcharts-phantomjs/lib/highcharts-convert.js'),
-        path.join(__dirname, 'highcharts-convert.js'),
-        '-infile ' + path.join(__dirname, '../' + configPath + kuerzel + '.json'),
-        '-outfile ' + path.join(__dirname, '../' + imagePath + kuerzel + '.svg'),
-        '-multi true',
-        '-multiArgsFile '+ path.join(__dirname, 'convertArgs.json')
-    ]
+        '-infile','charts/configs/indikatorenset/I.01.1.0013.json',
+        '-constr', 'Chart'
+    ];
+    console.log(childArgs);
+    var argsMap = mapArguments(childArgs);
+    //console.log(JSON.stringify(argsMap));
+    fs.writeFileSync('build/imageCreation/I.01.1.0013.json', JSON.stringify(argsMap));
 
-    var command = binPath + " " + childArgs.join(" ");
+    var command = 'curl http://127.0.0.1:3005 -H "Content-Type: application/json" -X POST --data-binary "@build/I.01.1.0013.json"';
+    var child_process = require('child_process');
+    var stdout = child_process.execSync(command);
+    console.log(stdout.toString());
     /*
+    var command = binPath + " " + childArgs.join(" ");
     console.log("executing the following line:");
     console.log(command);
     console.log("arguments object: ");
     console.log(JSON.stringify(childArgs));
     */
-    //todo: start phantom server and send options via http post instaed of using new phantom instance every time    
+    //todo: start phantom server and send options via http post instaed of using new phantom instance every time
+    /*    
     var child_process = require('child_process');
     var stdout = child_process.execSync(command);
     console.log(stdout.toString());
     console.log("Image for " + kuerzel + " rendered.");
+    */
 };
