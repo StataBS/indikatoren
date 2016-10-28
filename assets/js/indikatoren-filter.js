@@ -102,13 +102,14 @@ $(document).ready(function(){
   //add event listener to render chart on modal show
   $("#lightbox").on('show.bs.modal', function (e) {    
     var targetKuerzel = $(e.relatedTarget).attr("indikator-kuerzel-data");
-    renderChartByKuerzel(targetKuerzel);
+    lazyRenderChartByKuerzel(targetKuerzel, indikatorensetView);
   });
 
   //add event listener to render chart on carousel slide
   $('#lightbox').on('slide.bs.carousel', function (e) {
       var targetKuerzel = $(e.relatedTarget).children().first().attr('indikator-kuerzel-data');
-      renderChartByKuerzel(targetKuerzel);
+
+      lazyRenderChartByKuerzel(targetKuerzel, indikatorensetView);
       //remove dots that are not close to target dot
       var targetIndex = $(e.relatedTarget).index();
       var lastIndex = $('#carousel-indicators').children().last().data('slide-to');
@@ -149,8 +150,8 @@ function getSortOptions(name){
 function preparePortalView(){
   $("#main-control-element-indikatorenset").remove();    
   renderThema();
-  renderMultiselectDropdownFromJson(indikatoren, 'schlagwort', '#schlagwort_filter');    
-  renderMultiselectDropdownFromJson(["Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite"], '', '#raeumlicheGliederung_filter');
+  renderMultiselectDropdownFromJson(indikatoren, 'schlagwort', '#schlagwort_filter', true);    
+  renderMultiselectDropdownFromJson(["Schweiz", "Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite"], '', '#raeumlicheGliederung_filter', false);
 
   //prepare query String object for filtering thema and unterthema
   var baseQuery = {};
@@ -202,8 +203,10 @@ function configureCascadedControls(level1Selector, level2Selector, level1ValueSe
       level2QueryString[level1Field] = selectedValue;
     }
     renderDropdownFromJson(indikatoren, level2Field, level2Selector, level2Field, level2QueryString);
-    //re-set previously selected value
-    $(level2Selector).val(currentLevel2Value);
+    //re-set previously selected value if level 1 is not "all"
+    if (selectedValue !== level1AllValue){
+      $(level2Selector).val(currentLevel2Value);
+    }
     //if no item is selected now, select the first one
     if (!$(level2Selector).val()){
       $(level2Selector + ' :nth-child(1)').prop('selected', true);
@@ -237,9 +240,9 @@ function configureCascadedControls(level1Selector, level2Selector, level1ValueSe
 };
 
 
-function renderThema(){  
-  var values = ["Alle", "01 Bevölkerung",	"02 Raum, Landschaft, Umwelt",	"03 Erwerbsleben",	"04 Volkswirtschaft",	"05 Preise",	"06 Produktion und Handel",	"07 Land- und Forstwirtschaft",	"08 Energie",	"09 Bau- und Wohnungswesen",	"10 Tourismus",	"11 Verkehr",	"12 Finanzmärkte und Banken",	"13 Soziale Sicherheit",	"14 Gesundheit",	"15 Bildung und Wissenschaft",	"16 Kultur und Sport",	"17 Politik",	"18 Öffentliche Finanzen",	"19 Rechtspflege", "50 Regelmässige Befragungen"];
-
+function renderThema(){
+  //get all values of thema and add value "Alle" as the first one   
+  var values = ["Alle"].concat(JsonQuery(indikatoren).uniq("thema").pluck("thema").all);  
   var html = $('#radio-template').html();
   var templateFunction = FilterJS.templateBuilder(html);
   var container = $('#thema_criteria');
@@ -283,13 +286,17 @@ function renderDropdownFromJson(data, field, selector, sortKey, filterQueryStrin
 
 
 //create a multi-select dropdown that contain values from a given json object at a specified place in the DOM 
-function renderMultiselectDropdownFromJson(data, field, selector){
+function renderMultiselectDropdownFromJson(data, field, selector, sort){
   var JQ = JsonQuery(data);
   var allValuesNested = JQ.pluck(field).all;
-  //reduce array of arrayy of values to array of values if applicable
+  //reduce array of array of values to array of values (flatMap) if applicable
   var allValues = [].concat.apply([], allValuesNested);
   //get unique values and filter out empty string 
   var uniqueValues = allValues.filter(function(item, i, ar){ return ar.indexOf(item) === i && item != ""; }); 
+  //sort if applicable
+  if (sort) {
+    uniqueValues.sort();
+  }
   var html = $('#option-template').html();
   var templateFunction = FilterJS.templateBuilder(html);
   var container = $(selector);
@@ -498,6 +505,14 @@ var afterFilter = function(result, jQ){
       });
       //set first child to active, otherwise when clicking on the first thumbnail the indicator does not display the currently displayed chart 
       container.children().first().addClass("active");      
+
+      //set value of data-slide-to: must be the 0-based index of the indicator 
+      var items = $(container).children();
+      $.each($(container).children(), function(i, item){
+        $(item).attr("data-slide-to", i);
+      });
+
+
       
       //bind keyboard to carousel: arrow left/right, esc
       //source: http://stackoverflow.com/questions/15720776/bootstrap-carousel-with-keyboard-controls
@@ -513,6 +528,6 @@ var afterFilter = function(result, jQ){
         }
     });
   
-    };
+  };
 };//afterFilter
 
