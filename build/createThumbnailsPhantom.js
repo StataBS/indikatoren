@@ -4,79 +4,72 @@
 //Hack to re-use existing web js code from within node.js, see http://stackoverflow.com/a/8808162
 var execfile = require("execfile");
 var serialize = require('serialize-javascript');
-var fs = require('fs');
+var  fs = require('fs');
+var path = require('path')
+var phantomjs = require('phantomjs-prebuilt')
+var binPath = phantomjs.path
+
 console.log('Loading metadata...');
 var ctx = execfile('metadata/indikatoren.js');
 var indikatoren = ctx.indikatoren;
 
+console.log('Starting MultiArgsFile creation...');
+var allArgs = [];
+//console.log(JSON.stringify(allArgs));
 var views = [true, false];
 views.forEach(function(view){
-    console.log('Starting svg creation for indikatorensetView=' + view);
+    console.log('Creating MultiArgsFile entries for indikatorensetView=' + view);
     indikatoren.forEach(function(indikator){
-        if (indikator.kuerzel === 'I.01.1.0013' && view === true){
-            console.log('Rendering svg for chart ' + indikator.kuerzel + ' indikatorensetView=' + view +'...');
-            renderToFile(indikator.kuerzel, view, console);
-        }
+        //if (indikator.kuerzel === 'I.01.1.0015'){
+            console.log('Creating MultiArgsFile entries for chart ' + indikator.kuerzel + ' indikatorensetView=' + view +'...');
+            var imagePath = (view) ? 'images/indikatorenset/' : 'images/portal/';
+            var configPath = (view) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
+            var currentArg = [
+                path.join(__dirname, 'highcharts-convert.js'),
+                '-infile', path.join(__dirname, '../' + configPath + indikator.kuerzel + '.json'),
+                '-outfile', path.join(__dirname, '../' + imagePath + indikator.kuerzel + '.svg')
+            ];
+            //console.log(JSON.stringify(currentArg));
+            allArgs.push(currentArg);
+            //renderToFile(indikator.kuerzel, view, console);
+        //}
     });
-});
+})
+//console.log('allArgs: '); 
+//console.log(JSON.stringify(allArgs));
+var allArgsObj = {allArgs};
+console.log('Saving MultiArgsFile to ' + path.join(__dirname, 'convertArgs2.json') + '...');
+fs.writeFileSync(path.join(__dirname, 'convertArgs.json'), JSON.stringify(allArgsObj, null, '\t'));
+console.log('Invoking PhantomJs to render all images...');
+renderMultipleImages(console);
 
 
-// function taken from https://github.com/highcharts/highcharts-export-server/blob/master/phantomjs/highcharts-convert.js 
-function mapArguments(argus) {
-    var map = {};
-    var i;
-    var key;
-    console.log(argus.length);
-    for (i = 0; i < argus.length; i += 1) {
-        if (argus[i].charAt(0) === '-') {
-            key = argus[i].substr(1, i.length);
-            console.log(key);
-            if (key === 'infile' || key === 'callback' || key === 'dataoptions' || key === 'globaloptions' || key === 'customcode' || key === 'themeoptions') {
-                // get string from file                
-                map[key] = fs.readFileSync(argus[i + 1], 'utf8');                    
-            } else {
-                // assume PhantomJS running in serverMode. Parameter is not a file, but contains content.
-                map[key] = argus[i + 1];
-            }
-        }
-    }
-    return map;
-};
-
-
+//console.log('...done starting commands, now waiting for execution callbacks...');
      
-function renderToFile(kuerzel, indikatorensetView){
-    var path = require('path')
-    var phantomjs = require('phantomjs-prebuilt')
-    var binPath = phantomjs.path
-    var imagePath = (indikatorensetView) ? 'images/indikatorenset/' : 'images/portal/';
-    var configPath = (indikatorensetView) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
+function renderMultipleImages(console){
+    //dummy, not really used anymore, but must exist
+    var imagePath = 'images/portal/';
+    var configPath = 'charts/configs/portal/';
     
     var childArgs = [
-        '-infile','charts/configs/indikatorenset/I.01.1.0013.json',
-        '-constr', 'Chart'
-    ];
-    console.log(childArgs);
-    var argsMap = mapArguments(childArgs);
-    //console.log(JSON.stringify(argsMap));
-    fs.writeFileSync('build/imageCreation/I.01.1.0013.json', JSON.stringify(argsMap));
+        //path.join(__dirname, '../node_modules/highcharts-phantomjs/lib/highcharts-convert.js'),
+        path.join(__dirname, 'highcharts-convert.js'),
+        '-infile ' + path.join(__dirname, '../' + configPath + 'I.01.1.0013.json'),
+        '-outfile ' + path.join(__dirname, '../' + imagePath + 'I.01.1.0013.svg'),
+        '-multi true',
+        '-multiArgsFile '+ path.join(__dirname, 'convertArgs.json')
+    ]
 
-    var command = 'curl http://127.0.0.1:3005 -H "Content-Type: application/json" -X POST --data-binary "@build/I.01.1.0013.json"';
-    var child_process = require('child_process');
-    var stdout = child_process.execSync(command);
-    console.log(stdout.toString());
-    /*
     var command = binPath + " " + childArgs.join(" ");
-    console.log("executing the following line:");
+
+    console.log("executing the following command line:");
     console.log(command);
+    /*
     console.log("arguments object: ");
     console.log(JSON.stringify(childArgs));
     */
-    //todo: start phantom server and send options via http post instaed of using new phantom instance every time
-    /*    
+    //todo: start phantom server and send options via http post instaed of using new phantom instance every time    
     var child_process = require('child_process');
     var stdout = child_process.execSync(command);
-    console.log(stdout.toString());
-    console.log("Image for " + kuerzel + " rendered.");
-    */
+    console.log(stdout.toString());    
 };
