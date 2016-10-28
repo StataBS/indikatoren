@@ -42,9 +42,25 @@ console.log('Saving MultiArgsFile to ' + path.join(__dirname, 'convertArgs2.json
 fs.writeFileSync(path.join(__dirname, 'convertArgs.json'), JSON.stringify(allArgsObj, null, '\t'));
 console.log('Invoking PhantomJs to render all images...');
 renderMultipleImages(console);
+console.log('Adding svg ViewBox for ie...');
+addSvgViewBox(console);
+console.log('...done!')
 
-
-//console.log('...done starting commands, now waiting for execution callbacks...');
+function addSvgViewBox(console){
+    var views = [true, false];
+    views.forEach(function(view){
+        indikatoren.forEach(function(indikator){                        
+            var path = (view) ? 'images/indikatorenset/' : 'images/portal/';
+            var svg = fs.readFileSync(path + indikator.kuerzel + '.svg', 'utf8');
+            //replace hardcoded height and width with hardcoded viewBox in order to make pics compatible with IE. 
+            var regex = 'width="(.*?)" height="(.*?)">';
+            var re = new RegExp (regex);
+            var replace = 'viewBox="0 0 $1 $2">';
+            var svgWithViewBox = svg.replace(re, replace);            
+            fs.writeFile(path + indikator.kuerzel + '.svg', svgWithViewBox);
+        });
+    });
+};
      
 function renderMultipleImages(console){
     //dummy, not really used anymore, but must exist
