@@ -204,7 +204,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -15
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik;\u003Cbr\u002F\u003EKantonale Baustatistik"
   },

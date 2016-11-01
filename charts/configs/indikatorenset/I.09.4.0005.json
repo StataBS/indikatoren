@@ -328,7 +328,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -15
     },
     "text": "Quelle: kantonale Leerstandserhebung;\u003Cbr\u002F\u003EBundesamt für Statistik BFS, STATENT"
   },
