@@ -20,5 +20,5 @@
 "erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
-"quellenangabe":["kantonale Leerstandserhebung","Bundesamt für Statistik BFS, STATENT"]
+"quellenangabe":["Bundesamt für Statistik BFS, STATENT","Statistisches Amt Basel-Stadt, Leerstandserhebung"]
 }];
