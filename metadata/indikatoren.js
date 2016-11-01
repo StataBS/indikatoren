@@ -1086,7 +1086,7 @@ var indikatoren = [
 		"option": "options001",
 		"quellenangabe": [
 			"Bundesamt für Statistik BFS, Strukturerhebung (SE)",
-			"Staatssekretariat für Wirtschaft SECO"
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		]
 	},
 	{
@@ -1181,7 +1181,7 @@ var indikatoren = [
 		"option": "options001",
 		"quellenangabe": [
 			"Bundesamt für Statistik BFS, Strukturerhebung (SE)",
-			"Staatssekretariat für Wirtschaft SECO"
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		]
 	},
 	{
@@ -1989,8 +1989,8 @@ var indikatoren = [
 		"template": "template001",
 		"option": "options001",
 		"quellenangabe": [
-			"kantonale Leerstandserhebung",
-			"Bundesamt für Statistik BFS, STATENT"
+			"Bundesamt für Statistik BFS, STATENT",
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		]
 	},
 	{
@@ -2825,7 +2825,7 @@ var indikatoren = [
 		"template": "template001",
 		"option": "options001",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt",
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
 			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
 		]
 	},
@@ -2921,7 +2921,7 @@ var indikatoren = [
 		"template": "template001",
 		"option": "options001",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt",
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
 			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
 		]
 	},

@@ -20,5 +20,5 @@
 "erlaeuterungen":"Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu gewährleisten, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Sturkturerhebungen 2010-2014 verwendet worden. Damit sind diese Ergebnisse nicht direkt mit den offiziellen Arbeitslosenquoten vergleichbar, die vom seco (Staatssekretariat für Wirtschaft) und vom Statistischen Amt des Kantons Basel-Stadt veröffentlicht werden und welche im Nenner die Erwerbspersonen des Jahres 2010 verwenden.",
 "template":"line001",
 "option":"options001",
-"quellenangabe":["Bundesamt für Statistik BFS, Strukturerhebung (SE)","Staatssekretariat für Wirtschaft SECO"]
+"quellenangabe":["Bundesamt für Statistik BFS, Strukturerhebung (SE)","Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"]
 }];
