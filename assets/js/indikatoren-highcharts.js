@@ -41,11 +41,10 @@ function createChartConfig(data, chartOptions, chartMetaData, indikatorensetView
     //merge all highcharts configs
     var options = Highcharts.merge(true, dataOptions, template, chartOptions);
     //inject metadata to highcharts options 
-    var finalOptions = injectMetadataToChartConfig(options, chartMetaData, indikatorensetView);
-    //draw chart
-    //var chart = new Highcharts['Chart'](options, callbackFn);
-    //console.log(JSON.stringify(finalOptions, null, '\t'))
-    callbackFn(finalOptions);
+    var injectedOptions = injectMetadataToChartConfig(options, chartMetaData, indikatorensetView);
+    //replace . in labels with spaces - necessary for space between column groups
+    var replacedOptions = createEmptyLabels(injectedOptions);
+    callbackFn(replacedOptions);
   });        
 };
 
@@ -72,6 +71,24 @@ function injectMetadataToChartConfig(options, data, indikatorensetView){
   options['exporting']['filename'] = data.kuerzel;
   return options;
 };
+
+
+//get empty labels: replace series data names that only contain dots (.) with spaces
+function createEmptyLabels(options){
+  var newOptions = options;
+  newOptions.series.forEach(function(serie){
+    serie.data.forEach(function(dataItem){
+      var re = /^[.]+$/; 
+      //test if string contains only dots (.), see http://stackoverflow.com/questions/18358480/regular-expression-to-check-contains-only
+      if (re.test(dataItem[0])){
+        //perform global replace of . with /g, see http://www.w3schools.com/jsref/jsref_replace.asp
+        dataItem[0] = dataItem[0].replace(/./g, ' ')
+      };
+    });
+  });
+  return newOptions;
+}
+
 
 //todo: create new function that uses the pre-created chart configs from /charts/configs
 //load global options, template, chartOptions from external scripts, load csv data from external file, and render chart to designated div
