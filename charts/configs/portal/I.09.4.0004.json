@@ -649,7 +649,7 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 20,
+    "spacingBottom": 28,
     "style": {
       "fontFamily": "Arial"
     },
