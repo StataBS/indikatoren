@@ -1,9 +1,6 @@
 chartOptions['I.50.4.0004'] = {
     "xAxis": {
-        "type": "category",
-        "labels": {
-            "useHTML": true
-        }
+        "type": "category"
     },
     "yAxis": {
         "tickInterval": null,
@@ -28,11 +25,7 @@ chartOptions['I.50.4.0004'] = {
         {
         "color": "#8A8A8A"
         }        
-    ],
-    "tooltip": {
-        "useHTML": true,
-        "pointFormat": '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}%</b><br/>'
-    },        
+    ],        
     "legend": {
         "layout": "horizontal",
         "verticalAlign": "top",
