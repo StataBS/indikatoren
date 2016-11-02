@@ -127,7 +127,7 @@ var indikatorenset = [
 		"template": "template001",
 		"option": "options001",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt",
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
 			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
 		]
 	},
@@ -223,7 +223,7 @@ var indikatorenset = [
 		"template": "template001",
 		"option": "options001",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt",
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
 			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
 		]
 	},
