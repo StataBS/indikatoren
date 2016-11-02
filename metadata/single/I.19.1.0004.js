@@ -20,5 +20,5 @@
 "erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
-"quellenangabe":["Statistisches Amt Basel-Stadt","Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"]
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik","Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"]
 }];

@@ -65,6 +65,8 @@ function injectMetadataToChartConfig(options, data, indikatorensetView){
   options['subtitle']['text'] = data.subtitle;    
   options['chart']['renderTo'] = 'container-' + data.kuerzel;
   options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join(';<br/>');
+  //add 10 px space for each line of credits plus -5px for the first line (if not stated otherwise)
+  options['credits']['position']['y'] = (options['credits']['position']['y'] || -5) + (-10 * data.quellenangabe.length);
   //make sure node exists before deferencing it
   options['exporting'] = (options['exporting'] || {});
   options['exporting']['filename'] = data.kuerzel;

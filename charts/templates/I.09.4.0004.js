@@ -140,6 +140,6 @@
   ],
   "chart": {
     "type": "column",
-    "spacingBottom": 20    
+    "spacingBottom": 28    
   }
 };

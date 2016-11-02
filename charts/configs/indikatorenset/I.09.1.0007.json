@@ -146,7 +146,8 @@
           "color": "#000000"
         }
       },
-      "min": 0
+      "min": 0,
+      "title": ""
     },
     {
       "title": {
@@ -185,7 +186,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -15
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
   },

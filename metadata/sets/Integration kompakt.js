@@ -669,7 +669,7 @@ var indikatorenset = [
 		"option": "options001",
 		"quellenangabe": [
 			"Bundesamt für Statistik BFS, Strukturerhebung (SE)",
-			"Staatssekretariat für Wirtschaft SECO"
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		]
 	},
 	{

@@ -16,9 +16,9 @@ var template = {
         "backgroundColor": "#fbfbfb",
         "width": 485,
         "height": 415,
-        "spacingBottom": 30,
+        "spacingBottom": 45,
         "style": {
-        "fontFamily": "Arial"
+            "fontFamily": "Arial"
         },
         "zoomType": "xy",
         "type": "scatter",
