@@ -44,7 +44,7 @@ console.log('Invoking PhantomJs to render all images...');
 renderMultipleImages(console);
 console.log('Adding svg ViewBox for ie...');
 addSvgViewBox(console);
-console.log('...done!')
+//console.log('...done!')
 
 function addSvgViewBox(console){
     var views = [true, false];
@@ -87,5 +87,5 @@ function renderMultipleImages(console){
     //todo: start phantom server and send options via http post instaed of using new phantom instance every time    
     var child_process = require('child_process');
     var stdout = child_process.execSync(command);
-    //console.log(stdout.toString());    
+    console.log(stdout.toString());
 };
