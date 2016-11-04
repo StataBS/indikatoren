@@ -28,7 +28,7 @@ views.forEach(function(view){
     });
 })
 
-console.log('...done!');
+//console.log('...done!');
 
 //todo: get rid of all the jsdom code if not needed 
 function createChartConfig(kuerzel, indikatorensetView, console){

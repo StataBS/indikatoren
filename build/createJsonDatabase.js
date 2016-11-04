@@ -17,7 +17,7 @@ files.forEach(function(filepath){
 });
 console.log('Saving json database...');
 saveToJsonFile('indikatoren', indikatoren, console);
-console.log('...done!');
+//console.log('...done!');
 
 function saveToJsonFile(name, obj, console){
     var fs = require('fs');

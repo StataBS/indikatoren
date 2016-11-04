@@ -87,5 +87,5 @@ function renderMultipleImages(console){
     //todo: start phantom server and send options via http post instaed of using new phantom instance every time    
     var child_process = require('child_process');
     var stdout = child_process.execSync(command);
-    console.log(stdout.toString());    
+    //console.log(stdout.toString());    
 };

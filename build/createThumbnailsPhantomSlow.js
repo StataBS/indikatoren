@@ -69,5 +69,5 @@ function renderMultipleImages(console){
     //todo: add svg viewBox for ie    
     var child_process = require('child_process');
     var stdout = child_process.execSync(command);
-    console.log(stdout.toString());    
+    //console.log(stdout.toString());    
 };

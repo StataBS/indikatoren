@@ -12,7 +12,7 @@ indikatoren.forEach(function(indikator){
     saveToJsonFile(indikator.kuerzel, indikator, console);
 });
 
-console.log('...done!');
+//console.log('...done!');
 
 
 function saveToJsonFile(kuerzel, obj, console){
