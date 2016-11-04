@@ -23,7 +23,7 @@ for (var indikatorenset in indikatorensets){
     }
 };
 
-console.log('...done!');
+//console.log('...done!');
 
 
 function saveToIndikatorensetJsonFile(kuerzel, obj, console){

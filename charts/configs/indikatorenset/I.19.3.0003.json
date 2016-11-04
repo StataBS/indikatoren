@@ -79,7 +79,6 @@
   ],
   "xAxis": {
     "type": "category",
-    "nameToX": false,
     "labels": {
       "style": {
         "color": "#000000"
