@@ -53,7 +53,8 @@ function createChartConfig(data, chartOptions, chartMetaData, indikatorensetView
 //merge series with all options and draw chart
 function drawChart(data, chartOptions, chartMetaData, indikatorensetView, callbackFn){
   createChartConfig(data, chartOptions, chartMetaData, indikatorensetView, function(options){
-    var chart = new Highcharts['Chart'](options, callbackFn);
+    var chartType = (options.chart.type === "map") ? 'Map' : 'Chart';
+    var chart = new Highcharts[chartType](options, callbackFn);
   });
 };
 
@@ -100,7 +101,7 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, i
       $.getScript(templateUrl),
       $.getScript(chartUrl),
       $.Deferred(function( deferred ){
-          $(deferred.resolve);
+        $(deferred.resolve);
       })
   ).done(function(){
       //load csv and draw chart      
@@ -129,13 +130,12 @@ function lazyRenderChartByKuerzel(kuerzel, indikatorensetView, callbackFn){
   var container = $(escapeCssChars('#container-' + kuerzel));
   //check if a highcharts-container below the container is already present. 
   //no highcharts container yet: load data and draw chart. 
-  if (!container.find('div.highcharts-container').length) {      
+  if (!container.find('div.highcharts-container').length) {     
     var chartUrl = 'charts/templates/' + kuerzel + '.js';
     var csvUrl = 'data/' + kuerzel + '.csv';    
     //get template for requested chart
     var chartMetaData = findChartByKuerzel(indikatoren, kuerzel); 
-    var templateUrl = 'charts/templates/' + chartMetaData.template + '.js';
-        
+    var templateUrl = 'charts/templates/' + chartMetaData.template + '.js';        
     renderChart('charts/templates/options001.js', templateUrl, chartUrl, csvUrl, kuerzel, indikatorensetView, callbackFn);
   }
   //highcharts container exists already: redraw chart without reloading data from network
