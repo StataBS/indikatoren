@@ -10,8 +10,6 @@
  * node createThumbnails
  */
 
-
-
 //Hack to re-use existing web js code from within node.js, see http://stackoverflow.com/a/8808162
 var execfile = require("execfile");
 var serialize = require('serialize-javascript');
@@ -28,22 +26,26 @@ views.forEach(function(view){
     });
 })
 
-console.log('...done!');
-
 //todo: get rid of all the jsdom code if not needed 
 function createChartConfig(kuerzel, indikatorensetView, console){
-    var jsdom = require('jsdom'),
-        fs = require('fs');
 
 
-    // Get the document and window
-    var doc = jsdom.jsdom('<!doctype html><html><body><div id="container-' + kuerzel + '"></div></body></html>', { virtualConsole }),
-        win = doc.defaultView;
+    var fs = require('fs');
 
+    //from https://github.com/kirjs/react-highcharts/blob/b8e31a26b741f94a13a798ffcc1f1b60e7764676/src/simulateDOM.js 
+    var jsdom = require('jsdom');
+
+    global.document = jsdom.jsdom('<!doctype html><html><body><div id="container-' + kuerzel + '"></div></body></html>', { virtualConsole });
     var virtualConsole = jsdom.createVirtualConsole().sendTo(console);
+    var win = global.document.defaultView;
+    global.window = global;
+    for( var i in win ){
+        if( i !== 'window' && win.hasOwnProperty(i)){
+            global.window[i] = win[i];
+        }
+    };
 
-    // Require Highcharts with the window shim
-    var Highcharts = require('highcharts')(win);
+    var Highcharts = require('highcharts');
     //Error bars need highcharts-more. How to import: http://stackoverflow.com/q/34505816
     require('highcharts/highcharts-more')(Highcharts);
     //var Highcharts_more = require('Highcharts/highcharts-more')(win);
