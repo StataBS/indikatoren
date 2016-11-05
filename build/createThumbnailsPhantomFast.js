@@ -33,7 +33,6 @@ views.forEach(function(view){
             var configFile = fs.readFileSync(configPath + indikator.kuerzel + '.json', 'utf8');
             var config = deserialize(configFile);
             var constr = (config.chart.type === 'map') ? 'Map' : 'Chart';
-            console.log(constr);
             
             var currentArg = [
                 path.join(__dirname, 'highcharts-convert.js'),
