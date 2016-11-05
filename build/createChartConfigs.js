@@ -13,6 +13,11 @@
 //Hack to re-use existing web js code from within node.js, see http://stackoverflow.com/a/8808162
 var execfile = require("execfile");
 var serialize = require('serialize-javascript');
+console.log('Loading wohnviertel shapes...');
+var ctx = execfile('geojson/wohnviertel_reproj_mollweide_simp.js');
+var geojson_wohnviertel = ctx.geojson_wohnviertel;
+
+
 console.log('Loading metadata...');
 var ctx = execfile('metadata/indikatoren.js');
 var indikatoren = ctx.indikatoren;
@@ -74,9 +79,10 @@ function createChartConfig(kuerzel, indikatorensetView, console){
         }
     };
 
+
     var csv = (fs.readFileSync('data/' + kuerzel + '.csv', 'utf8'));
 
-    var ctx = execfile('charts/templates/' + kuerzel + '.js', {Highcharts: Highcharts, chartOptions: {}});
+    var ctx = execfile('charts/templates/' + kuerzel + '.js', {Highcharts: Highcharts, chartOptions: {}, geojson_wohnviertel: geojson_wohnviertel});
     var options = ctx.chartOptions[kuerzel];
 
     //disable animations and prevent exceptions
