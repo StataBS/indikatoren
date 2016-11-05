@@ -13,6 +13,11 @@ console.log('Loading metadata...');
 var ctx = execfile('metadata/indikatoren.js');
 var indikatoren = ctx.indikatoren;
 
+//from https://github.com/yahoo/serialize-javascript
+function deserialize(serializedJavascript){
+  return eval('(' + serializedJavascript + ')');
+}
+
 console.log('Starting MultiArgsFile creation...');
 var allArgs = [];
 //console.log(JSON.stringify(allArgs));
@@ -24,10 +29,17 @@ views.forEach(function(view){
             console.log('Creating MultiArgsFile entries for chart ' + indikator.kuerzel + ' indikatorensetView=' + view +'...');
             var imagePath = (view) ? 'images/indikatorenset/' : 'images/portal/';
             var configPath = (view) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
+            //check if the chart is of type map and set 'constr' parameter accordingly 
+            var configFile = fs.readFileSync(configPath + indikator.kuerzel + '.json', 'utf8');
+            var config = deserialize(configFile);
+            var constr = (config.chart.type === 'map') ? 'Map' : 'Chart';
+            console.log(constr);
+            
             var currentArg = [
                 path.join(__dirname, 'highcharts-convert.js'),
                 '-infile', path.join(__dirname, '../' + configPath + indikator.kuerzel + '.json'),
-                '-outfile', path.join(__dirname, '../' + imagePath + indikator.kuerzel + '.svg')
+                '-outfile', path.join(__dirname, '../' + imagePath + indikator.kuerzel + '.svg'),
+                '-constr', constr
             ];
             //console.log(JSON.stringify(currentArg));
             allArgs.push(currentArg);
