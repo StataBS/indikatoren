@@ -56,7 +56,7 @@ var template = {
         }
     },
     "mapNavigation": {
-        "enabled": true,
+        "enabled": false,
         "buttonOptions": {
             "align": "right",
             "verticalAlign": 'bottom'
