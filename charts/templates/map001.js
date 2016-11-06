@@ -1,5 +1,3 @@
-var template2 = {};
-
 var template = {
     "chart": {		
         events:{
@@ -22,7 +20,6 @@ var template = {
         "style": {
             "fontFamily": "Arial"
         },
-        "zoomType": "xy",
         "type": "map",
 		"inverted": true
     },

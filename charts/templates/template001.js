@@ -43,6 +43,7 @@ var template = {
         "align": "left"
     },
     "xAxis": {
+        "uniqueNames": true,
         "title": {
             "style": {
                 "color": "#000000"

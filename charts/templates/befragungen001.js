@@ -72,6 +72,7 @@ var template = {
     },
     "xAxis": {    
         "type": "category",
+        "uniqueNames": true,
         "tickColor": "#FFFFFF",
         "title": {
             "style": {

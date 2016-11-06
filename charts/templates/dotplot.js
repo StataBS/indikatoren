@@ -89,7 +89,8 @@ var template = {
             }
         },
         "tickColor": "#FFFFFF",
-        "type": "category"        
+        "type": "category",
+        "uniqueNames": true        
     },
     "tooltip": {
         "pointFormatter": function(){
