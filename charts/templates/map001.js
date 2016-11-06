@@ -55,6 +55,13 @@ var template = {
             "x": 10
         }
     },
+    "mapNavigation": {
+        "enabled": true,
+        "buttonOptions": {
+            "align": "right",
+            "verticalAlign": 'bottom'
+        }
+    },
     "legend": {
 		"enabled": true
 	}
