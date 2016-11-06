@@ -31,6 +31,37 @@ var indikatorenset = [
 		]
 	},
 	{
+		"title": "Anteil Ausländer",
+		"subtitle": "",
+		"kuerzel": "I.01.1.0038.map",
+		"kuerzelKunde": "GS-2",
+		"image": "images/I.01.1.0038.jpg",
+		"description": "Anteil Ausländer",
+		"id": "xyz",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
+		"schlagwort": [
+			"Ausländer"
+		],
+		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Anteil der ausländischen Wohnbevölkerung an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Stand: 2015",
+		"template": "map001",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+		]
+	},
+	{
 		"title": "Altersquotient",
 		"subtitle": "",
 		"kuerzel": "I.01.1.0039",

@@ -94,6 +94,7 @@
   ],
   "xAxis": {
     "type": "category",
+    "uniqueNames": true,
     "title": {
       "style": {
         "color": "#000000"
@@ -210,7 +211,8 @@
     "text": "Quelle: Bundesamt für Statistik BFS, Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
   },
   "legend": {
-    "enabled": false
+    "enabled": false,
+    "symbolRadius": 0
   },
   "exporting": {
     "filename": "I.03.4.0003"

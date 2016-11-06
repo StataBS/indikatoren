@@ -1,1740 +1,2254 @@
 {
 	"allArgs": [
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.1.0013.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.1.0013.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.1.0013.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.1.0013.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.1.0014.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.1.0014.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.1.0014.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.1.0014.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.1.0015.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.1.0015.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.1.0015.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.1.0015.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.1.0016.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.1.0016.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.1.0016.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.1.0016.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.1.0017.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.1.0017.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.1.0017.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.1.0017.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.1.0018.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.1.0018.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.1.0018.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.1.0018.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.1.0019.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.1.0019.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.1.0019.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.1.0019.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.1.0020.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.1.0020.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.1.0020.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.1.0020.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.1.0021.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.1.0021.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.1.0021.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.1.0021.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.1.0022.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.1.0022.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.1.0022.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.1.0022.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.1.0023.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.1.0023.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.1.0023.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.1.0023.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.1.0025.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.1.0025.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.1.0025.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.1.0025.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.1.0038.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.1.0038.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.1.0038.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.1.0038.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.1.0039.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.1.0038.map.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.1.0039.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.1.0038.map.svg",
+			"-constr",
+			"Map"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.1.0040.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.1.0039.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.1.0040.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.1.0039.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.1.0041.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.1.0040.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.1.0041.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.1.0040.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.1.0043.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.1.0041.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.1.0043.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.1.0041.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.2.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.1.0043.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.2.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.1.0043.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.2.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.2.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.2.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.2.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.2.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.2.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.2.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.2.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.5.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.2.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.5.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.2.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.5.0004.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.5.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.5.0004.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.5.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.5.0042.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.5.0004.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.5.0042.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.5.0004.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.6.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.5.0042.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.6.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.5.0042.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.6.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.6.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.6.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.6.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.7.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.6.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.7.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.6.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.01.8.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.7.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.01.8.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.7.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.02.1.0015.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.01.8.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.02.1.0015.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.01.8.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.02.1.0016.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.02.1.0015.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.02.1.0016.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.02.1.0015.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.03.0.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.02.1.0016.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.03.0.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.02.1.0016.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.03.0.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.03.0.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.03.0.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.03.0.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.03.1.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.03.0.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.03.1.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.03.0.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.03.2.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.03.1.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.03.2.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.03.1.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.03.4.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.03.2.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.03.4.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.03.2.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.04.1.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.03.4.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.04.1.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.03.4.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.04.1.0008.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.04.1.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.04.1.0008.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.04.1.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.05.1.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.04.1.0008.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.05.1.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.04.1.0008.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.05.1.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.05.1.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.05.1.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.05.1.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.06.1.0010.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.05.1.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.06.1.0010.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.05.1.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.06.3.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.06.1.0010.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.06.3.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.06.1.0010.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.07.1.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.06.3.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.07.1.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.06.3.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.08.1.0028.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.07.1.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.08.1.0028.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.07.1.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.09.1.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.08.1.0028.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.09.1.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.08.1.0028.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.09.1.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.09.1.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.09.1.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.09.1.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.09.1.0004.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.09.1.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.09.1.0004.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.09.1.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.09.1.0005.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.09.1.0004.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.09.1.0005.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.09.1.0004.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.09.1.0006.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.09.1.0005.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.09.1.0006.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.09.1.0005.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.09.1.0007.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.09.1.0006.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.09.1.0007.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.09.1.0006.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.09.1.0008.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.09.1.0007.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.09.1.0008.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.09.1.0007.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.09.1.0009.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.09.1.0008.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.09.1.0009.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.09.1.0008.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.09.1.0010.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.09.1.0009.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.09.1.0010.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.09.1.0009.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.09.1.0011.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.09.1.0010.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.09.1.0011.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.09.1.0010.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.09.1.0012.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.09.1.0011.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.09.1.0012.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.09.1.0011.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.09.1.0013.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.09.1.0012.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.09.1.0013.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.09.1.0012.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.09.1.0025.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.09.1.0013.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.09.1.0025.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.09.1.0013.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.09.1.0026.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.09.1.0025.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.09.1.0026.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.09.1.0025.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.09.4.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.09.1.0026.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.09.4.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.09.1.0026.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.09.4.0004.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.09.4.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.09.4.0004.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.09.4.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.09.4.0005.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.09.4.0004.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.09.4.0005.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.09.4.0004.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.09.5.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.09.4.0005.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.09.5.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.09.4.0005.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.09.5.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.09.5.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.09.5.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.09.5.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.10.1.0004.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.09.5.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.10.1.0004.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.09.5.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.10.1.0005.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.10.1.0004.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.10.1.0005.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.10.1.0004.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.11.1.0040.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.10.1.0005.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.11.1.0040.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.10.1.0005.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.11.1.0041.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.11.1.0040.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.11.1.0041.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.11.1.0040.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.12.1.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.11.1.0041.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.12.1.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.11.1.0041.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.13.2.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.12.1.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.13.2.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.12.1.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.13.2.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.13.2.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.13.2.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.13.2.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.13.3.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.13.2.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.13.3.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.13.2.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.13.3.0004.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.13.3.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.13.3.0004.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.13.3.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.14.1.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.13.3.0004.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.14.1.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.13.3.0004.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.14.1.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.14.1.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.14.1.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.14.1.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.15.3.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.14.1.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.15.3.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.14.1.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.15.6.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.15.3.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.15.6.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.15.3.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.15.6.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.15.6.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.15.6.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.15.6.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.16.1.0005.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.15.6.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.16.1.0005.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.15.6.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.17.3.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.16.1.0005.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.17.3.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.16.1.0005.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.17.3.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.17.3.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.17.3.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.17.3.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.18.2.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.17.3.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.18.2.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.17.3.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.18.2.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.18.2.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.18.2.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.18.2.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.18.2.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.18.2.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.18.2.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.18.2.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.18.2.0004.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.18.2.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.18.2.0004.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.18.2.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.18.3.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.18.2.0004.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.18.3.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.18.2.0004.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.19.1.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.18.3.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.19.1.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.18.3.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.19.1.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.19.1.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.19.1.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.19.1.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.19.1.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.19.1.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.19.1.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.19.1.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.19.1.0004.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.19.1.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.19.1.0004.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.19.1.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.19.3.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.19.1.0004.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.19.3.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.19.1.0004.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0005.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.19.3.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0005.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.19.3.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0006.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0005.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0006.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0005.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0007.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0006.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0007.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0006.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0008.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0007.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0008.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0007.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0009.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0008.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0009.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0008.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0010.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0009.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0010.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0009.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0011.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0010.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0011.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0010.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0012.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0011.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0012.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0011.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0013.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0012.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0013.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0012.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0014.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0013.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0014.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0013.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0015.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0014.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0015.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0014.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0016.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0015.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0016.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0015.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0017.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0016.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0017.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0016.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0018.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0017.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0018.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0017.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0019.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0018.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0019.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0018.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0020.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0019.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0020.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0019.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0021.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0020.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0021.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0020.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0022.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0021.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0022.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0021.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0023.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0022.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0023.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0022.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0024.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0023.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0024.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0023.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0025.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0024.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0025.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0024.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0026.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0025.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0026.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0025.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0027.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0026.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0027.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0026.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0028.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0027.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0028.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0027.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.1.0029.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0028.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.1.0029.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0028.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.2.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.1.0029.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.2.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.1.0029.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.2.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.2.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.2.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.2.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.2.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.2.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.2.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.2.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.3.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.2.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.3.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.2.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.3.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.3.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.3.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.3.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.4.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.3.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.4.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.3.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.4.0004.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.4.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.4.0004.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.4.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.4.0005.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.4.0004.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.4.0005.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.4.0004.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.4.0006.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.4.0005.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.4.0006.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.4.0005.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.4.0007.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.4.0006.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.4.0007.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.4.0006.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\indikatorenset\\I.50.4.0008.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.4.0007.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\indikatorenset\\I.50.4.0008.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.4.0007.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.1.0013.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/indikatorenset/I.50.4.0008.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.1.0013.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/indikatorenset/I.50.4.0008.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.1.0014.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.1.0013.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.1.0014.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.1.0013.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.1.0015.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.1.0014.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.1.0015.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.1.0014.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.1.0016.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.1.0015.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.1.0016.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.1.0015.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.1.0017.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.1.0016.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.1.0017.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.1.0016.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.1.0018.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.1.0017.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.1.0018.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.1.0017.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.1.0019.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.1.0018.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.1.0019.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.1.0018.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.1.0020.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.1.0019.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.1.0020.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.1.0019.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.1.0021.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.1.0020.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.1.0021.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.1.0020.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.1.0022.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.1.0021.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.1.0022.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.1.0021.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.1.0023.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.1.0022.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.1.0023.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.1.0022.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.1.0025.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.1.0023.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.1.0025.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.1.0023.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.1.0038.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.1.0025.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.1.0038.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.1.0025.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.1.0039.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.1.0038.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.1.0039.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.1.0038.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.1.0040.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.1.0038.map.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.1.0040.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.1.0038.map.svg",
+			"-constr",
+			"Map"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.1.0041.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.1.0039.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.1.0041.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.1.0039.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.1.0043.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.1.0040.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.1.0043.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.1.0040.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.2.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.1.0041.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.2.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.1.0041.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.2.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.1.0043.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.2.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.1.0043.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.2.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.2.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.2.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.2.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.5.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.2.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.5.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.2.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.5.0004.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.2.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.5.0004.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.2.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.5.0042.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.5.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.5.0042.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.5.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.6.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.5.0004.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.6.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.5.0004.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.6.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.5.0042.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.6.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.5.0042.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.7.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.6.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.7.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.6.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.01.8.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.6.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.01.8.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.6.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.02.1.0015.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.7.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.02.1.0015.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.7.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.02.1.0016.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.01.8.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.02.1.0016.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.01.8.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.03.0.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.02.1.0015.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.03.0.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.02.1.0015.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.03.0.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.02.1.0016.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.03.0.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.02.1.0016.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.03.1.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.03.0.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.03.1.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.03.0.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.03.2.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.03.0.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.03.2.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.03.0.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.03.4.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.03.1.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.03.4.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.03.1.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.04.1.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.03.2.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.04.1.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.03.2.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.04.1.0008.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.03.4.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.04.1.0008.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.03.4.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.05.1.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.04.1.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.05.1.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.04.1.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.05.1.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.04.1.0008.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.05.1.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.04.1.0008.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.06.1.0010.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.05.1.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.06.1.0010.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.05.1.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.06.3.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.05.1.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.06.3.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.05.1.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.07.1.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.06.1.0010.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.07.1.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.06.1.0010.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.08.1.0028.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.06.3.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.08.1.0028.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.06.3.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.09.1.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.07.1.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.09.1.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.07.1.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.09.1.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.08.1.0028.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.09.1.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.08.1.0028.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.09.1.0004.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.09.1.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.09.1.0004.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.09.1.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.09.1.0005.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.09.1.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.09.1.0005.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.09.1.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.09.1.0006.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.09.1.0004.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.09.1.0006.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.09.1.0004.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.09.1.0007.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.09.1.0005.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.09.1.0007.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.09.1.0005.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.09.1.0008.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.09.1.0006.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.09.1.0008.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.09.1.0006.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.09.1.0009.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.09.1.0007.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.09.1.0009.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.09.1.0007.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.09.1.0010.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.09.1.0008.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.09.1.0010.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.09.1.0008.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.09.1.0011.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.09.1.0009.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.09.1.0011.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.09.1.0009.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.09.1.0012.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.09.1.0010.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.09.1.0012.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.09.1.0010.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.09.1.0013.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.09.1.0011.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.09.1.0013.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.09.1.0011.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.09.1.0025.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.09.1.0012.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.09.1.0025.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.09.1.0012.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.09.1.0026.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.09.1.0013.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.09.1.0026.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.09.1.0013.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.09.4.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.09.1.0025.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.09.4.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.09.1.0025.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.09.4.0004.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.09.1.0026.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.09.4.0004.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.09.1.0026.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.09.4.0005.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.09.4.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.09.4.0005.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.09.4.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.09.5.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.09.4.0004.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.09.5.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.09.4.0004.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.09.5.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.09.4.0005.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.09.5.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.09.4.0005.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.10.1.0004.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.09.5.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.10.1.0004.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.09.5.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.10.1.0005.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.09.5.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.10.1.0005.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.09.5.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.11.1.0040.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.10.1.0004.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.11.1.0040.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.10.1.0004.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.11.1.0041.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.10.1.0005.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.11.1.0041.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.10.1.0005.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.12.1.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.11.1.0040.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.12.1.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.11.1.0040.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.13.2.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.11.1.0041.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.13.2.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.11.1.0041.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.13.2.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.12.1.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.13.2.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.12.1.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.13.3.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.13.2.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.13.3.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.13.2.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.13.3.0004.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.13.2.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.13.3.0004.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.13.2.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.14.1.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.13.3.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.14.1.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.13.3.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.14.1.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.13.3.0004.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.14.1.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.13.3.0004.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.15.3.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.14.1.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.15.3.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.14.1.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.15.6.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.14.1.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.15.6.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.14.1.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.15.6.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.15.3.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.15.6.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.15.3.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.16.1.0005.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.15.6.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.16.1.0005.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.15.6.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.17.3.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.15.6.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.17.3.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.15.6.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.17.3.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.16.1.0005.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.17.3.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.16.1.0005.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.18.2.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.17.3.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.18.2.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.17.3.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.18.2.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.17.3.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.18.2.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.17.3.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.18.2.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.18.2.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.18.2.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.18.2.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.18.2.0004.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.18.2.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.18.2.0004.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.18.2.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.18.3.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.18.2.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.18.3.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.18.2.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.19.1.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.18.2.0004.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.19.1.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.18.2.0004.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.19.1.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.18.3.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.19.1.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.18.3.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.19.1.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.19.1.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.19.1.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.19.1.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.19.1.0004.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.19.1.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.19.1.0004.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.19.1.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.19.3.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.19.1.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.19.3.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.19.1.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0005.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.19.1.0004.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0005.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.19.1.0004.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0006.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.19.3.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0006.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.19.3.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0007.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0005.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0007.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0005.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0008.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0006.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0008.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0006.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0009.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0007.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0009.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0007.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0010.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0008.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0010.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0008.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0011.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0009.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0011.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0009.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0012.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0010.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0012.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0010.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0013.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0011.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0013.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0011.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0014.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0012.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0014.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0012.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0015.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0013.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0015.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0013.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0016.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0014.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0016.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0014.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0017.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0015.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0017.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0015.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0018.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0016.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0018.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0016.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0019.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0017.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0019.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0017.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0020.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0018.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0020.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0018.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0021.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0019.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0021.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0019.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0022.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0020.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0022.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0020.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0023.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0021.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0023.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0021.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0024.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0022.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0024.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0022.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0025.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0023.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0025.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0023.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0026.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0024.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0026.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0024.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0027.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0025.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0027.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0025.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0028.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0026.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0028.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0026.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.1.0029.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0027.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.1.0029.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0027.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.2.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0028.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.2.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0028.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.2.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.1.0029.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.2.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.1.0029.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.2.0003.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.2.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.2.0003.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.2.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.3.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.2.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.3.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.2.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.3.0002.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.2.0003.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.3.0002.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.2.0003.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.4.0001.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.3.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.4.0001.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.3.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.4.0004.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.3.0002.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.4.0004.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.3.0002.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.4.0005.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.4.0001.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.4.0005.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.4.0001.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.4.0006.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.4.0004.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.4.0006.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.4.0004.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.4.0007.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.4.0005.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.4.0007.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.4.0005.svg",
+			"-constr",
+			"Chart"
 		],
 		[
-			"C:\\dev\\workspace\\statabs\\indikatoren\\build\\highcharts-convert.js",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\charts\\configs\\portal\\I.50.4.0008.json",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.4.0006.json",
 			"-outfile",
-			"C:\\dev\\workspace\\statabs\\indikatoren\\images\\portal\\I.50.4.0008.svg"
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.4.0006.svg",
+			"-constr",
+			"Chart"
+		],
+		[
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
+			"-infile",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.4.0007.json",
+			"-outfile",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.4.0007.svg",
+			"-constr",
+			"Chart"
+		],
+		[
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/build/highcharts-convert.js",
+			"-infile",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/charts/configs/portal/I.50.4.0008.json",
+			"-outfile",
+			"/Users/jonasbieri/Documents/statabs-test/indikatoren/images/portal/I.50.4.0008.svg",
+			"-constr",
+			"Chart"
 		]
 	]
 }

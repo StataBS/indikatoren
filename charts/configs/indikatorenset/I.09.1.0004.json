@@ -219,6 +219,7 @@
   ],
   "xAxis": {
     "type": "category",
+    "uniqueNames": true,
     "title": {
       "style": {
         "color": "#000000"
@@ -317,12 +318,8 @@
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
   },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E{series.name}\u003C\u002Fspan\u003E: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.2f}%)\u003Cbr\u002F\u003E",
-    "shared": false,
-    "useHTML": true
-  },
   "legend": {
+    "symbolRadius": 0,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
@@ -331,6 +328,11 @@
     "itemStyle": {
       "fontWeight": "normal"
     }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E{series.name}\u003C\u002Fspan\u003E: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.2f}%)\u003Cbr\u002F\u003E",
+    "shared": false,
+    "useHTML": true
   },
   "exporting": {
     "filename": "I.09.1.0004"
