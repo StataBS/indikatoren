@@ -111,6 +111,7 @@ var template = {
         "useHTML": true,
         "itemStyle": {
             "fontWeight": "normal"
-        }
+        },
+        "symbolRadius": 0
     }    
 };

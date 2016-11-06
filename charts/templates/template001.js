@@ -88,5 +88,8 @@ var template = {
             "verticalAlign": "bottom",
             "x": 10
         }
+    },
+    "legend": {
+        "symbolRadius": 0
     }
 };

@@ -113,7 +113,8 @@ var template = {
         }
     },
     "legend": {
-		"enabled": false
+		"enabled": false,
+        "symbolRadius": 0
 	}
 };
 
