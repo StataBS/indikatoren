@@ -10,7 +10,7 @@ chartOptions['I.01.1.0038.map'] = {
 		}
 	},
 	series: [{
-		/*data: data,*/
+		animation: true,
 		mapData: geojson_wohnviertel,
 		joinBy: ['name', 0],
 		keys: ['name', 'value'],
