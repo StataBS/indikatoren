@@ -1,6 +1,7 @@
 {
   "series": [
     {
+      "animation": true,
       "mapData": {
         "type": "FeatureCollection",
         "crs": {
@@ -6168,7 +6169,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
   },
   "mapNavigation": {
-    "enabled": true,
+    "enabled": false,
     "buttonOptions": {
       "align": "right",
       "verticalAlign": "bottom"
