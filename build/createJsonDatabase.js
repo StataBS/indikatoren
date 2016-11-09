@@ -7,6 +7,7 @@ var execfile = require("execfile");
 
 var glob = require("glob");
 var indikatoren = [];
+var indikatorenNames = [];
 console.log('Searching for json files...');
 var files = glob.sync("metadata/single/I*.js");
 files.forEach(function(filepath){
@@ -14,13 +15,15 @@ files.forEach(function(filepath){
     var ctx = execfile(filepath);
     var indikator = ctx.indikatoren[0];
     indikatoren.push(indikator);            
+    indikatorenNames.push(indikator.kuerzel);
 });
 console.log('Saving json database...');
 saveToJsonFile('indikatoren', indikatoren, console);
-console.log('...done!');
+saveToJsonFile('indikatorenNames', indikatorenNames, console);
+//console.log('...done!');
 
 function saveToJsonFile(name, obj, console){
     var fs = require('fs');
-    var jsonFile = "var indikatoren = " + JSON.stringify(obj, null, '\t') + ";";
-    fs.writeFile('metadata/' + name + '.js', jsonFile);
+    var jsonFile = "var " + name + " = " + JSON.stringify(obj, null, '\t') + ";";
+    fs.writeFile('metadata/all/' + name + '.js', jsonFile);
 };
