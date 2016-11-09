@@ -10,7 +10,7 @@ var phantomjs = require('phantomjs-prebuilt')
 var binPath = phantomjs.path
 
 console.log('Loading metadata...');
-var ctx = execfile('metadata/indikatoren.js');
+var ctx = execfile('metadata/all/indikatoren.js');
 var indikatoren = ctx.indikatoren;
 
 console.log('Starting MultiArgsFile creation...');
