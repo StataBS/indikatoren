@@ -94,14 +94,11 @@ function createEmptyLabels(options){
 //load global options, template, chartOptions from external scripts, load csv data from external file, and render chart to designated div
 function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, chartMetaData, indikatorensetView, callbackFn){     
   //load scripts one after the other, then load csv and draw the chart
-  console.log(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, chartMetaData, indikatorensetView, callbackFn);
   $.when(    
       $.getScript(globalOptionsUrl),
       $.getScript(templateUrl),
       $.getScript(chartUrl),
       $.Deferred(function( deferred ){
-          console.log('in deferred...');
-          console.log(deferred);
           $(deferred.resolve);
       })
   ).done(function(){
