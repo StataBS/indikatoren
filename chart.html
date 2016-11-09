@@ -46,12 +46,14 @@
 
 
     <script type="text/javascript">
+
         //get kuerzel from url, encode to prevent xss 
         //todo: in order to prevent xss: do not evaluate chart templates but just load json. Functions need to be taken out of the templates. 
         var kuerzel = window.encodeURIComponent($.url('?kuerzel'));              
 
         //check if kuerzel is member in the list of existing charts
-        if (indikatorenNames.indexOf(kuerzel) > -1){                  
+        if (indikatorenNames.indexOf(kuerzel) > -1){
+          var chartOptions = {};                  
           //charts[0] = findChartByKuerzel(indikatoren, kuerzel);
           $.getScript('metadata/single/'+ kuerzel + '.js').done(function(script, textStatus){              
               var chartMetadata = indikatoren[0];
@@ -66,7 +68,7 @@
 
               var chartOptions = {};            
               var indikatorensetView = (window.encodeURIComponent($.url('?indikatorensetView')) === 'true') ? true : false;
-              lazyRenderChartByKuerzel(kuerzel, chartMetadata, indikatorensetView/*, function(){
+              lazyRenderChartByKuerzel(kuerzel, chartMetadata, indikatorensetView, function(){
                 
                 //make sure we have the complete chart with the renderTo object, which contains the kuerzel
                 if (this.renderTo){                        
@@ -90,7 +92,7 @@
                   //load offline exporting module first if required, then invoke createThumbnail()
                   (thumbnailOfflineExporting) ? $.getScript('assets/js/highcharts-offline-exporting-4.2.6.js', function(){createThumbnail(kuerzel, exportType, thumbnailOfflineExporting)}) : createThumbnail(kuerzel, exportType, thumbnailOfflineExporting);
                 }                     
-              }*/);
+              });
           })
 
       }

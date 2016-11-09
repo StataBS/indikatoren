@@ -1,5 +1,4 @@
 "use strict"; 
-var chartOptions = {};
 //parse csv and configure HighCharts object
 function parseData(chartOptions, data, completeHandler) {
     try {
