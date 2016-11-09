@@ -3,7 +3,7 @@ var execfile = require("execfile");
 
 console.log('Loading metadata...');
 
-var ctx = execfile('metadata/indikatoren.js');
+var ctx = execfile('metadata/all/indikatoren.js');
 var indikatoren = ctx.indikatoren;
 var indikatorensets;
  
@@ -12,7 +12,7 @@ indikatoren.forEach(function(indikator){
     saveToJsonFile(indikator.kuerzel, indikator, console);
 });
 
-console.log('...done!');
+//console.log('...done!');
 
 
 function saveToJsonFile(kuerzel, obj, console){

@@ -16,7 +16,7 @@
 var execfile = require("execfile");
 var serialize = require('serialize-javascript');
 console.log('Loading metadata...');
-var ctx = execfile('metadata/indikatoren.js');
+var ctx = execfile('metadata/all/indikatoren.js');
 var indikatoren = ctx.indikatoren;
 
 var views = [true, false];
@@ -28,7 +28,7 @@ views.forEach(function(view){
     });
 })
 
-console.log('...done!');
+//console.log('...done!');
 
 //todo: get rid of all the jsdom code if not needed 
 function createChartConfig(kuerzel, indikatorensetView, console){

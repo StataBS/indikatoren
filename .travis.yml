@@ -22,7 +22,7 @@ install:
 script: 
 - npm test
 after_success:
-- npm run build
+- run-s build:database build:partial_databases build:charts build:images_phantom_fast
 - npm run deploy
 branches:
   except:

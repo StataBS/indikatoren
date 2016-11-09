@@ -1,5 +1,4 @@
 "use strict"; 
-
 //parse csv and configure HighCharts object
 function parseData(chartOptions, data, completeHandler) {
     try {
@@ -92,10 +91,9 @@ function createEmptyLabels(options){
 
 //todo: create new function that uses the pre-created chart configs from /charts/configs
 //load global options, template, chartOptions from external scripts, load csv data from external file, and render chart to designated div
-function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, indikatorensetView, callbackFn){
-  var chartMetaData = findChartByKuerzel(indikatoren, kuerzel);   
+function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, chartMetaData, indikatorensetView, callbackFn){     
   //load scripts one after the other, then load csv and draw the chart
-  $.when(        
+  $.when(    
       $.getScript(globalOptionsUrl),
       $.getScript(templateUrl),
       $.getScript(chartUrl),
@@ -103,7 +101,7 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, i
           $(deferred.resolve);
       })
   ).done(function(){
-      //load csv and draw chart      
+      //load csv and draw chart            
       $.get(csvUrl, function(data){
         drawChart(data, chartOptions[kuerzel], chartMetaData, indikatorensetView, callbackFn)
       });
@@ -124,19 +122,19 @@ function findChartByKuerzel(data, kuerzel){
 };
 
 
+
 //construct urls by chart kuerzel and render to designated div
-function lazyRenderChartByKuerzel(kuerzel, indikatorensetView, callbackFn){
+function lazyRenderChartByKuerzel(kuerzel, chartMetaData, indikatorensetView, callbackFn){
   var container = $(escapeCssChars('#container-' + kuerzel));
   //check if a highcharts-container below the container is already present. 
   //no highcharts container yet: load data and draw chart. 
   if (!container.find('div.highcharts-container').length) {      
     var chartUrl = 'charts/templates/' + kuerzel + '.js';
     var csvUrl = 'data/' + kuerzel + '.csv';    
-    //get template for requested chart
-    var chartMetaData = findChartByKuerzel(indikatoren, kuerzel); 
-    var templateUrl = 'charts/templates/' + chartMetaData.template + '.js';
-        
-    renderChart('charts/templates/options001.js', templateUrl, chartUrl, csvUrl, kuerzel, indikatorensetView, callbackFn);
+    //get template for requested chart 
+    (chartMetaData === undefined) ? chartMetaData = findChartByKuerzel(indikatoren, kuerzel) : chartMetaData;
+    var templateUrl = 'charts/templates/' + chartMetaData.template + '.js';        
+    renderChart('charts/templates/options001.js', templateUrl, chartUrl, csvUrl, kuerzel, chartMetaData, indikatorensetView, callbackFn);
   }
   //highcharts container exists already: redraw chart without reloading data from network
   else { 
