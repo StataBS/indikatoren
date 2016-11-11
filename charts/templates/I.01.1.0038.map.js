@@ -26,7 +26,9 @@ chartOptions['I.01.1.0038.map'] = {
 			"keys": ['Wohnviertel Id', 'value'],
 			"states": {
 				"hover": {
-					"color": '#BADA55'
+					"enabled": false,
+					"borderColor": '#BADA55',
+					"brightness": 0
 				}
 			}
 		}	
@@ -38,7 +40,7 @@ chartOptions['I.01.1.0038.map'] = {
 			"animation": true,
 			"data": rheinData, 
 			"color": "#008AC3",    
-			"borderColor": "#fbfbfb",		              
+			"borderColor": "#fbfbfb"
 		}
 	]
 };
