@@ -6500,6 +6500,7 @@
   "colorAxis": {
     "min": 0,
     "gridLineColor": "#fbfbfb",
+    "gridLineWidth": 0,
     "labels": {
       "style": {
         "color": "black",
