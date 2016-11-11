@@ -44,7 +44,12 @@ function createChartConfig(data, chartOptions, chartMetaData, indikatorensetView
     var injectedOptions = injectMetadataToChartConfig(options, chartMetaData, indikatorensetView);
     //replace . in labels with spaces - necessary for space between column groups
     var replacedOptions = createEmptyLabels(injectedOptions);
-    callbackFn(replacedOptions);
+    //add afterSeries as last series
+    var afterSeriesOptions = replacedOptions;     
+    afterSeriesOptions.series = replacedOptions.series.concat(replacedOptions.afterSeries); 
+    delete afterSeriesOptions.afterSeries;
+    
+    callbackFn(afterSeriesOptions);
   });        
 };
 
