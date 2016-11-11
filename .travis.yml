@@ -31,5 +31,6 @@ env:
   global:
   - SSH_KEY="id_rsa"
   - GIT_NAME="travis-ci.org"
+  - GIT_EMAIL="travis@travis-ci.org"
   - SOURCE_DIR="."
   - DEPLOY_BRANCH="master"
