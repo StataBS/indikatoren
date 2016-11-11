@@ -46,9 +46,9 @@ function createChartConfig(data, chartOptions, chartMetaData, indikatorensetView
     var replacedOptions = createEmptyLabels(injectedOptions);
     //add afterSeries as last series
     var afterSeriesOptions = replacedOptions;     
-    afterSeriesOptions.series = replacedOptions.series.concat(replacedOptions.afterSeries); 
+    if (afterSeriesOptions.afterSeries) {afterSeriesOptions.series = replacedOptions.series.concat(replacedOptions.afterSeries)}; 
     delete afterSeriesOptions.afterSeries;
-    
+
     callbackFn(afterSeriesOptions);
   });        
 };
