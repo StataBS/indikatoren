@@ -55,6 +55,13 @@ var template = {
             "x": 10
         }
     },
+    "colorAxis": {
+		"min": 0,
+		"gridLineColor": "#fbfbfb",	
+        "labels": {	
+		    "style": {"color": "black", "cursor": "default", "fontSize": "11px"}
+		}
+	},    
     "mapNavigation": {
         "enabled": true,
         "buttonOptions": {
