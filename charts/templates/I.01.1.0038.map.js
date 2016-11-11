@@ -1,5 +1,3 @@
-//var rheinData = Highcharts.geojson(geojson_rhein, 'map');
-
 chartOptions['I.01.1.0038.map'] = {
 	"tooltip": {
 		"pointFormatter": function(){
