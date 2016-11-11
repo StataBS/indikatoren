@@ -35,7 +35,7 @@ Highcharts.setOptions({
 });
 
 //Add "Einbetten" menu item
-var indikatorensetView = ($.url('?Indikatorenset') === undefined) ? false : true;
+var indikatorensetView = ($.url('?Indikatorenset') || $.url('?indikatorensetView') ) ? true : false;
 var indikatorensetParameter = indikatorensetView ? '&indikatorensetView=' + indikatorensetView : '';
 Highcharts.getOptions().exporting.buttons.contextButton.menuItems.push(
     {
