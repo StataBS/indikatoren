@@ -53,8 +53,11 @@ function createChartConfig(kuerzel, indikatorensetView, console){
     var Highcharts = require('highcharts');
     //Error bars need highcharts-more. How to import: http://stackoverflow.com/q/34505816
     require('highcharts/highcharts-more')(Highcharts);
-    //var Highcharts_more = require('Highcharts/highcharts-more')(win);
     var Highcharts_data = require('highcharts/modules/data')(Highcharts);
+    var Highcharts_map = require('highcharts/modules/map')(Highcharts);
+
+    var ctx = execfile('geojson/rhein_reproj_mollweide_simp.js', {Highcharts: Highcharts, console: console});
+    var rheinData = ctx.rheinData;
     
     // Disable all animation
     Highcharts.setOptions({
@@ -82,7 +85,7 @@ function createChartConfig(kuerzel, indikatorensetView, console){
 
     var csv = (fs.readFileSync('data/' + kuerzel + '.csv', 'utf8'));
 
-    var ctx = execfile('charts/templates/' + kuerzel + '.js', {Highcharts: Highcharts, chartOptions: {}, geojson_wohnviertel: geojson_wohnviertel});
+    var ctx = execfile('charts/templates/' + kuerzel + '.js', {Highcharts: Highcharts, chartOptions: {}, geojson_wohnviertel: geojson_wohnviertel, rheinData: rheinData});
     var options = ctx.chartOptions[kuerzel];
 
     //disable animations and prevent exceptions
