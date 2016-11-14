@@ -147,6 +147,7 @@
   ],
   "xAxis": {
     "type": "category",
+    "nameToX": false,
     "title": {
       "style": {
         "color": "#000000"
