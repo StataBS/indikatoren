@@ -66,12 +66,14 @@ var template = {
     "mapNavigation": {
         "enabled": true,
         "buttonOptions": {
-            "align": "right",
+            "align": "left",
             "verticalAlign": 'bottom'
         }
     },
     "legend": {
-		"enabled": true
+		"enabled": true, 
+        "align": "right",
+        "floating": true
 	}
 };
 
