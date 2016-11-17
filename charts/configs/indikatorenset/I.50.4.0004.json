@@ -237,6 +237,7 @@
   ],
   "xAxis": {
     "type": "category",
+    "nameToX": false,
     "tickColor": "#FFFFFF",
     "title": {
       "style": {
