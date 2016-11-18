@@ -2353,12 +2353,12 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Hospitalisierungen in baselstädtischen Spitäler nach Hauptbereich",
+		"title": "Hospitalisierungen in baselstädtischen Spitälern nach Hauptbereich",
 		"subtitle": "",
 		"kuerzel": "I.14.1.0002",
 		"kuerzelKunde": "",
 		"image": "images/I.14.1.0002.jpg",
-		"description": "Hospitalisierungen in baselstädtischen Spitäler nach Hauptbereich",
+		"description": "Hospitalisierungen in baselstädtischen Spitälern nach Hauptbereich",
 		"id": "4947",
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
@@ -2386,12 +2386,12 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Pflegetage in baselstädtischen Spitäler nach Hauptbereich",
+		"title": "Pflegetage in baselstädtischen Spitälern nach Hauptbereich",
 		"subtitle": "",
 		"kuerzel": "I.14.1.0003",
 		"kuerzelKunde": "",
 		"image": "images/I.14.1.0003.jpg",
-		"description": "Pflegetage in baselstädtischen Spitäler nach Hauptbereich",
+		"description": "Pflegetage in baselstädtischen Spitälern nach Hauptbereich",
 		"id": "4948",
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
