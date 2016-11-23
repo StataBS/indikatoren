@@ -16,8 +16,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Die Anzahl Pflegetage im Hauptbereich Geriatrie gingen von 2008 bis 2014 um über 30% auf 91 000 zurück. In den übrigen Hauptbereichen wurde im selben Zeitraum eine Zunahme der Pflegetage verzeichnet. Das grösste Plus wurde im Bereich Rehabilitation (+20%) registriert.",
-"erlaeuterungen":"Gezählt werden stationäre Austritte innerhalb eines Jahres.",
+"lesehilfe":"Die Anzahl Pflegetage im Hauptbereich Geriatrie gingen von 2008 bis 2015 um über 38% auf 85 000 zurück. In den übrigen Hauptbereichen wurde im selben Zeitraum eine Zunahme der Pflegetage verzeichnet. Das grösste Plus wurde im Bereich Rehabilitation (+24%) registriert. Die Gesamtzahl der Pflegetage in Basler Spitälern betrug 2015 rund 747 600 und damit 5% weniger als noch 2008.",
+"erlaeuterungen":"Die Berechnungsmethode wurde rückwirkend ab 2012 angepasst. Deshalb können sich die Werte von früher an dieser Stelle publizierten Werten unterscheiden. Neu werden gemäss SwissDRG bei Fallzusammenführungen (Wiedereintritt mit identischer Hauptdiagnosegruppe innerhalb von 18 Tagen) die zwischen Aus- und Wiedereintritt liegenden Tage nicht mehr als Pflegetage gezählt.",
 "template":"template001",
 "option":"options001",
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gesundheitsstatistik","Bundesamt für Statistik BFS, medizinische Statistik der Krankenhäuser"]
