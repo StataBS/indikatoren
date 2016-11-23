@@ -50,11 +50,16 @@
         
         var optionsUrl = 'charts/templates/' + options +'.js';
         var templateUrl = 'charts/templates/' + template + '.js';
-        var chartUrl = 'charts/templates/' + kuerzel + '.js'; 
+        var chartUrl = 'charts/templates/' + kuerzel + '.js';
+        var metadataUrl = 'metadata/single/' + kuerzel + '.js'
         var csvUrl = 'data/' + kuerzel + '.csv';
         
-        //renderChartByKuerzel(kuerzel);
-        renderChart(optionsUrl, templateUrl, chartUrl, csvUrl, kuerzel);    
+        $.when(
+          //load metadata to indikatoren[0]
+          $.getScript(metadataUrl)
+        ).done(function(){
+          renderChart(optionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, indikatoren[0]);      
+        });
     </script>
   </body>
 </html>
