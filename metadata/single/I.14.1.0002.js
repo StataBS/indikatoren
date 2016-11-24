@@ -16,7 +16,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Die akutsomatischen Fälle in baselstädtischen Spitälern nahmen von 2008 bis 2014 um 15% auf 63 000 zu. Mit einer Zunahme von 32% verzeichnete der Hauptbereicih Rehabilitation die grösste Veränderung im Beobachtungszeitraum.",
+"lesehilfe":"Die akutsomatischen Fälle in baselstädtischen Spitälern nahmen von 2008 bis 2015 um 16% auf 63 800 zu. Mit einer Zunahme von 39% verzeichnete der Hauptbereich Rehabilitation die grösste Veränderung im Beobachtungszeitraum.",
 "erlaeuterungen":"Gezählt werden stationäre Austritte innerhalb eines Jahres.",
 "template":"template001",
 "option":"options001",
