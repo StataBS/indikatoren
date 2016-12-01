@@ -43,3 +43,19 @@ Manually create svg thumbnails:
 - For the portal view: In Chrome, open thumbnails.html.
 - For the indikatorenset view: In Chrome, open thumbnails.html?indikatorensetView=true.
 This will download all svg files to the local downloads directory. You can then manually move them to their respective directory below /images/.
+
+
+### Develop using [cloud 9](c9.io)
+- Create new hosted workspace based on the node.js template and the correct github url
+- Change node.js version to 6, install and build application: In bash console, type 
+```shell
+nvm install 6
+npm install
+npm run build
+```
+- If build fails because phantomjs cannot be found: remove all node modules, add the execfile module from the repo, and reinstall: 
+```shell
+rm -rf node_modules
+npm install
+npm run build
+```
