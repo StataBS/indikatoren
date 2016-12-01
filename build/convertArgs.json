@@ -507,13 +507,6 @@
 		[
 			"/home/travis/build/statabs-test/indikatoren/build/highcharts-convert.js",
 			"-infile",
-			"/home/travis/build/statabs-test/indikatoren/charts/configs/indikatorenset/I.14.1.0006.json",
-			"-outfile",
-			"/home/travis/build/statabs-test/indikatoren/images/indikatorenset/I.14.1.0006.svg"
-		],
-		[
-			"/home/travis/build/statabs-test/indikatoren/build/highcharts-convert.js",
-			"-infile",
 			"/home/travis/build/statabs-test/indikatoren/charts/configs/indikatorenset/I.15.3.0001.json",
 			"-outfile",
 			"/home/travis/build/statabs-test/indikatoren/images/indikatorenset/I.15.3.0001.svg"
@@ -1378,13 +1371,6 @@
 			"/home/travis/build/statabs-test/indikatoren/charts/configs/portal/I.14.1.0003.json",
 			"-outfile",
 			"/home/travis/build/statabs-test/indikatoren/images/portal/I.14.1.0003.svg"
-		],
-		[
-			"/home/travis/build/statabs-test/indikatoren/build/highcharts-convert.js",
-			"-infile",
-			"/home/travis/build/statabs-test/indikatoren/charts/configs/portal/I.14.1.0006.json",
-			"-outfile",
-			"/home/travis/build/statabs-test/indikatoren/images/portal/I.14.1.0006.svg"
 		],
 		[
 			"/home/travis/build/statabs-test/indikatoren/build/highcharts-convert.js",
