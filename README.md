@@ -56,6 +56,9 @@ npm run build
 - If build fails because phantomjs cannot be found: remove all node modules, add the execfile module from the repo, and reinstall: 
 ```shell
 rm -rf node_modules
+git checkout node_modules/execfile
 npm install
 npm run build
 ```
+
+- Run application on c9: Click "Run", "New Run Configuration...", click "Runner", click "Apache httpd". Now click Run, then click the url displayed in the console log: https://<c9-vm-name>-<c9-username>.c9users.io
