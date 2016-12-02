@@ -46,20 +46,9 @@ This will download all svg files to the local downloads directory. You can then 
 
 
 ### Develop using [cloud 9](c9.io)
-- Create new hosted workspace based on the node.js template and the correct github url
-- Change node.js version to 6, install and build application: In bash console, type 
+- Create new hosted workspace based on the node.js template and the correct github repo
+- Run the following command. This will: Remove all node modules, add the execfile module from the repo, change node.js version to 6, install application.
 ```shell
-nvm install 6
-npm install
-npm run build
+./c9-setup.sh
 ```
-- If build fails because phantomjs cannot be found: remove all node modules, add the execfile module from the repo, and reinstall: 
-```shell
-rm -rf node_modules
-git checkout node_modules/execfile
-nvm install 6
-npm install
-npm run build
-```
-
 - Run application on c9: Click "Run", "New Run Configuration...", click "Runner", click "Apache httpd". Now click Run, then click the url displayed in the console log: ```https://<c9-vm-name>-<c9-username>.c9users.io```
