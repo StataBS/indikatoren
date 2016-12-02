@@ -57,6 +57,7 @@ npm run build
 ```shell
 rm -rf node_modules
 git checkout node_modules/execfile
+nvm install 6
 npm install
 npm run build
 ```
