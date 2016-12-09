@@ -191,6 +191,7 @@
     "align": "left"
   },
   "xAxis": {
+    "uniqueNames": true,
     "title": {
       "style": {
         "color": "#000000"
@@ -241,6 +242,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik BFS"
   },
   "legend": {
+    "symbolRadius": 0,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

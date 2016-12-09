@@ -94,6 +94,7 @@
   ],
   "xAxis": {
     "type": "category",
+    "uniqueNames": true,
     "title": {
       "style": {
         "color": "#000000"
@@ -210,7 +211,8 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
   },
   "legend": {
-    "enabled": false
+    "enabled": false,
+    "symbolRadius": 0
   },
   "exporting": {
     "filename": "I.01.7.0001"

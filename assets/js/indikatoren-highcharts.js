@@ -43,7 +43,12 @@ function createChartConfig(data, chartOptions, chartMetaData, indikatorensetView
     var injectedOptions = injectMetadataToChartConfig(options, chartMetaData, indikatorensetView);
     //replace . in labels with spaces - necessary for space between column groups
     var replacedOptions = createEmptyLabels(injectedOptions);
-    callbackFn(replacedOptions);
+    //add afterSeries as last series
+    var afterSeriesOptions = replacedOptions;     
+    if (afterSeriesOptions.afterSeries) {afterSeriesOptions.series = replacedOptions.series.concat(replacedOptions.afterSeries)}; 
+    delete afterSeriesOptions.afterSeries;
+
+    callbackFn(afterSeriesOptions);
   });        
 };
 
@@ -52,7 +57,8 @@ function createChartConfig(data, chartOptions, chartMetaData, indikatorensetView
 //merge series with all options and draw chart
 function drawChart(data, chartOptions, chartMetaData, indikatorensetView, callbackFn){
   createChartConfig(data, chartOptions, chartMetaData, indikatorensetView, function(options){
-    var chart = new Highcharts['Chart'](options, callbackFn);
+    var chartType = (options.chart.type === "map") ? 'Map' : 'Chart';
+    var chart = new Highcharts[chartType](options, callbackFn);
   });
 };
 
@@ -98,7 +104,7 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, c
       $.getScript(templateUrl),
       $.getScript(chartUrl),
       $.Deferred(function( deferred ){
-          $(deferred.resolve);
+        $(deferred.resolve);
       })
   ).done(function(){
       //load csv and draw chart            
@@ -128,7 +134,7 @@ function lazyRenderChartByKuerzel(kuerzel, chartMetaData, indikatorensetView, ca
   var container = $(escapeCssChars('#container-' + kuerzel));
   //check if a highcharts-container below the container is already present. 
   //no highcharts container yet: load data and draw chart. 
-  if (!container.find('div.highcharts-container').length) {      
+  if (!container.find('div.highcharts-container').length) {     
     var chartUrl = 'charts/templates/' + kuerzel + '.js';
     var csvUrl = 'data/' + kuerzel + '.csv';    
     //get template for requested chart 

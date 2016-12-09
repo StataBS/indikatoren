@@ -45,6 +45,9 @@ Manually create svg thumbnails:
 This will download all svg files to the local downloads directory. You can then manually move them to their respective directory below /images/.
 
 
+##Licensing
+[Highcharts] (http://www.highcharts.com/) is free for personal, school or non-profit projects under the Creative Commons Attribution - Non Commercial 3.0 License.
+For commercial and governmental websites and projects, you need to buy a license. See [License and Pricing] (http://shop.highsoft.com/highcharts.html).
 ### Develop using [cloud 9](c9.io)
 - Create new hosted workspace based on the node.js template and the correct github repo
 - Run the following command. This will: Remove all node modules, add the execfile module from the repo, change node.js version to 6, install application.

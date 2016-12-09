@@ -188,6 +188,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    "symbolRadius": 0,
     "itemMarginBottom": 5,
     "x": 35,
     "y": 50
