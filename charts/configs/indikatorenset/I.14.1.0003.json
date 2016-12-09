@@ -22,15 +22,19 @@
         ],
         [
           "2012",
-          426577
+          416535
         ],
         [
           "2013",
-          444783
+          433613
         ],
         [
           "2014",
-          451836
+          440690
+        ],
+        [
+          "2015",
+          433919
         ]
       ],
       "name": "Akutsomatik",
@@ -58,15 +62,19 @@
         ],
         [
           "2012",
-          109472
+          108995
         ],
         [
           "2013",
-          102776
+          102273
         ],
         [
           "2014",
-          91132
+          90778
+        ],
+        [
+          "2015",
+          85013
         ]
       ],
       "name": "Geriatrie",
@@ -103,6 +111,10 @@
         [
           "2014",
           135666
+        ],
+        [
+          "2015",
+          129556
         ]
       ],
       "name": "Psychiatrie",
@@ -134,11 +146,15 @@
         ],
         [
           "2013",
-          92542
+          92539
         ],
         [
           "2014",
           95733
+        ],
+        [
+          "2015",
+          99137
         ]
       ],
       "name": "Rehabilitation",
@@ -199,7 +215,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": " Pflegetage in baselstädtischen Spitäler nach Hauptbereich"
+    "text": " Pflegetage in baselstädtischen Spitälern nach Hauptbereich"
   },
   "subtitle": {
     "style": {
