@@ -303,7 +303,7 @@
   ],
   "xAxis": {
     "type": "category",
-    "nameToX": false,
+    "uniqueNames": false,
     "labels": {
       "style": {
         "color": "#000000"
@@ -388,7 +388,8 @@
     "enabled": false,
     "layout": "vertical",
     "verticalAlign": "middle",
-    "align": "right"
+    "align": "right",
+    "symbolRadius": 0
   },
   "plotOptions": {
     "series": {

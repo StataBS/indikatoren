@@ -30,7 +30,7 @@
   ],
   "xAxis": {
     "type": "category",
-    "nameToX": false,
+    "uniqueNames": true,
     "title": {
       "style": {
         "color": "#000000"
@@ -132,6 +132,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt"
   },
   "legend": {
+    "symbolRadius": 0,
     "enabled": false
   },
   "tooltip": {

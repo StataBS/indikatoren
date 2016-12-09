@@ -229,7 +229,7 @@
   ],
   "xAxis": {
     "type": "category",
-    "nameToX": false,
+    "uniqueNames": true,
     "title": {
       "style": {
         "color": "#000000"
@@ -330,11 +330,8 @@
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik"
   },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
-  },
   "legend": {
+    "symbolRadius": 0,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
@@ -342,6 +339,10 @@
     "itemStyle": {
       "fontWeight": "normal"
     }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
     "filename": "I.10.1.0004"

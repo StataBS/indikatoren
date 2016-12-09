@@ -127,7 +127,7 @@
   ],
   "xAxis": {
     "type": "category",
-    "nameToX": false,
+    "uniqueNames": true,
     "title": {
       "style": {
         "color": "#000000"
@@ -232,6 +232,10 @@
     },
     "text": "Quelle: Bundesamt für Statistik BFS, Strukturerhebung (SE)"
   },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": false
+  },
   "colors": [
     "#B475AB",
     "#B475AB",
@@ -245,9 +249,6 @@
     "#B475AB",
     "#B475AB"
   ],
-  "legend": {
-    "enabled": false
-  },
   "exporting": {
     "filename": "I.03.0.0001"
   }

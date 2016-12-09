@@ -143,7 +143,7 @@
   ],
   "xAxis": {
     "type": "category",
-    "nameToX": false,
+    "uniqueNames": true,
     "title": {
       "style": {
         "color": "#000000"
@@ -244,11 +244,8 @@
     },
     "text": "Quelle: Bundesamt für Statistik BFS, Strukturerhebung (SE)"
   },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
-  },
   "legend": {
+    "symbolRadius": 0,
     "layout": "horizontal",
     "verticalAlign": "top",
     "x": 46,
@@ -258,6 +255,10 @@
     "itemStyle": {
       "fontWeight": "normal"
     }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
     "filename": "I.01.1.0020"

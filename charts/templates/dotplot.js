@@ -89,7 +89,8 @@ var template = {
             }
         },
         "tickColor": "#FFFFFF",
-        "type": "category"        
+        "type": "category",
+        "uniqueNames": true        
     },
     "tooltip": {
         "pointFormatter": function(){
@@ -112,7 +113,8 @@ var template = {
         }
     },
     "legend": {
-		"enabled": false
+		"enabled": false,
+        "symbolRadius": 0
 	}
 };
 

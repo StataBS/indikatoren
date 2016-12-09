@@ -94,7 +94,7 @@
   ],
   "xAxis": {
     "type": "category",
-    "nameToX": false,
+    "uniqueNames": true,
     "title": {
       "style": {
         "color": "#000000"
@@ -211,7 +211,8 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
   },
   "legend": {
-    "enabled": false
+    "enabled": false,
+    "symbolRadius": 0
   },
   "exporting": {
     "filename": "I.18.2.0003"

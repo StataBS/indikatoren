@@ -72,6 +72,7 @@ var template = {
     },
     "xAxis": {    
         "type": "category",
+        "uniqueNames": true,
         "tickColor": "#FFFFFF",
         "title": {
             "style": {
@@ -110,6 +111,7 @@ var template = {
         "useHTML": true,
         "itemStyle": {
             "fontWeight": "normal"
-        }
+        },
+        "symbolRadius": 0
     }    
 };

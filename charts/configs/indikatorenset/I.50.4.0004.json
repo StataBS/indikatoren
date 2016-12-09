@@ -237,7 +237,7 @@
   ],
   "xAxis": {
     "type": "category",
-    "nameToX": false,
+    "uniqueNames": true,
     "tickColor": "#FFFFFF",
     "title": {
       "style": {
@@ -356,6 +356,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "symbolRadius": 0,
     "x": 145,
     "y": 70,
     "itemWidth": 150

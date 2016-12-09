@@ -94,7 +94,7 @@
   ],
   "xAxis": {
     "type": "category",
-    "nameToX": false,
+    "uniqueNames": true,
     "title": {
       "style": {
         "color": "#000000"
@@ -211,7 +211,8 @@
     "text": "Quelle: Staatssekretariat für Wirtschaft SECO"
   },
   "legend": {
-    "enabled": false
+    "enabled": false,
+    "symbolRadius": 0
   },
   "exporting": {
     "filename": "I.03.1.0002"
