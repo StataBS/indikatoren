@@ -51,6 +51,7 @@
   ],
   "xAxis": {
     "type": "category",
+    "uniqueNames": true,
     "tickColor": "#FFFFFF",
     "title": {
       "style": {
@@ -168,7 +169,8 @@
     "useHTML": true,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "symbolRadius": 0
   },
   "exporting": {
     "filename": "I.50.3.0002"

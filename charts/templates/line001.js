@@ -78,6 +78,7 @@ var template = {
     "enabled": false,
     "layout": "vertical",
     "verticalAlign": "middle",
-    "align": "right"
+    "align": "right",
+    "symbolRadius": 0
   }
 };
