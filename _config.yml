@@ -1,0 +1,2 @@
+# make sure node_modules is not excluded, which is default as of 2016-11: https://github.com/blog/2277-what-s-new-in-github-pages-with-jekyll-3-3
+exclude: []
