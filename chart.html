@@ -57,11 +57,12 @@
         if (indikatorenNames.indexOf(kuerzel) > -1){
           var chartOptions = {};                  
           //charts[0] = findChartByKuerzel(indikatoren, kuerzel);
-          $.getScript('metadata/single/'+ kuerzel + '.js').done(function(script, textStatus){              
+          var id = findIdByKuerzel(indikatoren, kuerzel);
+          $.getScript('metadata/single/'+ id + '.js').done(function(script, textStatus){              
               var chartMetadata = indikatoren[0];
               //create div for chart
               jQuery('<div/>', {
-                id: 'container-' + kuerzel,
+                id: 'container-' + id,
               }).appendTo('body');
             
 
