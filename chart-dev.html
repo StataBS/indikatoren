@@ -36,29 +36,29 @@
     <script type="text/javascript">   
         //todo: do not use json database but single-chart json files
         //------------------------//
-        var kuerzel = 'I.03.0.0002';
+        var id = '4128';
         var template = 'line001';
         var options = 'options001';        
         //------------------------//
         
         //create div for chart
         $('<div/>', {
-          id: 'container-' + kuerzel,
+          id: 'container-' + id,
         }).appendTo('body');
               
         var chartOptions = {};
         
         var optionsUrl = 'charts/templates/' + options +'.js';
         var templateUrl = 'charts/templates/' + template + '.js';
-        var chartUrl = 'charts/templates/' + kuerzel + '.js';
-        var metadataUrl = 'metadata/single/' + kuerzel + '.js'
-        var csvUrl = 'data/' + kuerzel + '.csv';
+        var chartUrl = 'charts/templates/' + id + '.js';
+        var metadataUrl = 'metadata/single/' + id + '.js'
+        var csvUrl = 'data/' + id + '.tsv';
         
         $.when(
           //load metadata to indikatoren[0]
           $.getScript(metadataUrl)
         ).done(function(){
-          renderChart(optionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, indikatoren[0]);      
+          renderChartById(optionsUrl, templateUrl, chartUrl, csvUrl, id, indikatoren[0]);      
         });
     </script>
   </body>

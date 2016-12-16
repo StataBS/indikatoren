@@ -29,7 +29,7 @@ function parseData(chartOptions, data, completeHandler) {
 };
 
 //merge series with all options
-function createChartConfig(data, chartOptions, chartMetaData, indikatorensetView, callbackFn){                
+function createChartConfig(data, chartOptions, chartMetaData, indikatorensetView, callbackFn){  
   parseData(chartOptions, data, function (dataOptions) {
     // Merge series configs
     if (chartOptions.series && dataOptions) {
@@ -67,7 +67,7 @@ function drawChart(data, chartOptions, chartMetaData, indikatorensetView, callba
 function injectMetadataToChartConfig(options, data, indikatorensetView){
   options['title']['text'] = (indikatorensetView) ? data.kuerzelKunde + ' ' + data.title : data.kuerzel + ' ' + data.title;
   options['subtitle']['text'] = data.subtitle;    
-  options['chart']['renderTo'] = 'container-' + data.kuerzel;
+  options['chart']['renderTo'] = 'container-' + data.id;
   options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join(';<br/>');
   //add 10 px space for each line of credits plus -5px for the first line (if not stated otherwise)
   options['credits']['position']['y'] = (options['credits']['position']['y'] || -5) + (-10 * data.quellenangabe.length);
@@ -97,7 +97,7 @@ function createEmptyLabels(options){
 
 //todo: create new function that uses the pre-created chart configs from /charts/configs
 //load global options, template, chartOptions from external scripts, load csv data from external file, and render chart to designated div
-function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, chartMetaData, indikatorensetView, callbackFn){     
+function renderChartByKuerzel(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, chartMetaData, indikatorensetView, callbackFn){     
   //load scripts one after the other, then load csv and draw the chart
   $.when(    
       $.getScript(globalOptionsUrl),
@@ -114,6 +114,10 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, c
   });  
 };
 
+//wrapper function if id is given instead of kuerzel
+function renderChartById(globalOptionsUrl, templateUrl, chartUrl, csvUrl, id, chartMetaData, indikatorensetView, callbackFn){     
+  renderChartByKuerzel(globalOptionsUrl, templateUrl, chartUrl, csvUrl, findKuerzelById(indikatoren, id), chartMetaData, indikatorensetView, callbackFn);
+}
 
 //find chart metadata by kuerzel from json database 
 function findChartByKuerzel(data, kuerzel){
@@ -128,6 +132,13 @@ function findChartByKuerzel(data, kuerzel){
 };
 
 
+function findKuerzelById(data, id){
+  for (var i=0; i<data.length; i++) {
+    if (data[i].id == id){
+      return data[i].kuerzel;
+    }    
+  }
+}
 
 //construct urls by chart kuerzel and render to designated div
 function lazyRenderChartByKuerzel(kuerzel, chartMetaData, indikatorensetView, callbackFn){
