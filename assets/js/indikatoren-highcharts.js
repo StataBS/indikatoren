@@ -140,6 +140,14 @@ function findKuerzelById(data, id){
   }
 }
 
+function findIdByKuerzel(data, kuerzel){
+  for (var i=0; i<data.length; i++) {
+    if (data[i].kuerzel == kuerzel){
+      return data[i].id;
+    }    
+  }
+}
+
 //construct urls by chart kuerzel and render to designated div
 function lazyRenderChartByKuerzel(kuerzel, chartMetaData, indikatorensetView, callbackFn){
   var container = $(escapeCssChars('#container-' + kuerzel));
@@ -151,7 +159,7 @@ function lazyRenderChartByKuerzel(kuerzel, chartMetaData, indikatorensetView, ca
     //get template for requested chart 
     (chartMetaData === undefined) ? chartMetaData = findChartByKuerzel(indikatoren, kuerzel) : chartMetaData;
     var templateUrl = 'charts/templates/' + chartMetaData.template + '.js';        
-    renderChart('charts/templates/options001.js', templateUrl, chartUrl, csvUrl, kuerzel, chartMetaData, indikatorensetView, callbackFn);
+    renderChartByKuerzel('charts/templates/options001.js', templateUrl, chartUrl, csvUrl, kuerzel, chartMetaData, indikatorensetView, callbackFn);
   }
   //highcharts container exists already: redraw chart without reloading data from network
   else { 
