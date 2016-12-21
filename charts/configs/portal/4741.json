@@ -160,7 +160,7 @@
     "type": "column",
     "inverted": true,
     "forExport": true,
-    "renderTo": "container-I.03.0.0001"
+    "renderTo": "container-4741"
   },
   "plotOptions": {
     "series": {

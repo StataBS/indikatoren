@@ -156,7 +156,7 @@
                     this.credits.element.onclick = function() {}
                 }
     },
-    "renderTo": "container-I.05.1.0003",
+    "renderTo": "container-4911",
     "marginBottom": 65,
     "marginTop": 75,
     "type": "column",

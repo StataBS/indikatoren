@@ -117,7 +117,7 @@
     },
     "type": "column",
     "forExport": true,
-    "renderTo": "container-I.01.2.0001"
+    "renderTo": "container-4141"
   },
   "plotOptions": {
     "series": {

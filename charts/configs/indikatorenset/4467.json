@@ -283,7 +283,7 @@
     "marginTop": 150,
     "type": "column",
     "forExport": true,
-    "renderTo": "container-I.01.1.0022"
+    "renderTo": "container-4467"
   },
   "plotOptions": {
     "series": {

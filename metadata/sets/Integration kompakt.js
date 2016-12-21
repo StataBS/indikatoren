@@ -244,6 +244,45 @@ var indikatorenset = [
 		]
 	},
 	{
+		"title": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit seit 2006",
+		"subtitle": "",
+		"kuerzel": "I.01.6.0001",
+		"kuerzelKunde": "1-6",
+		"image": "images/I.01.6.0001.jpg",
+		"description": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit seit 2006",
+		"id": "4342",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Einbürgerungen",
+		"kennzahlenset": "Integration kompakt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Heimat",
+			"Ausländer",
+			"Quote",
+			"Bevölkerung",
+			"Ausland",
+			"Einbürgerung",
+			"Migrationshintergrund",
+			"Migration",
+			"Staatsangehörigkeit"
+		],
+		"stufe1": "1 Struktur der Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In Basel-Stadt wurden im Jahr 2015 pro 1000 Ausländer 16,8 eingebürgert (ordentliche und erleichterte Einbürgerungen). 2006 hatte diese Einbürgerungsziffer noch bei 19,4 gelegen. 2015 wiesen die Personen aus dem Maghreb und aus Ägypten die höchste Einbürgerungsziffer auf (35,3).  Insgesamt sind die Einbürgerungsziffern im Vergleich zu 2006 zurückgegangen.",
+		"erlaeuterungen": "Für eine ordentliche Einbürgerung muss eine Person u. a. zwölf Jahre in der Schweiz gewohnt haben. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die insgesamt fünf Jahre in der Schweiz gelebt haben und seit drei Jahren verheiratet sind. Ehepartner, die nicht in der Schweiz leben, müssen sechs Jahre verheiratet sein und eng mit der Schweiz verbunden sein.",
+		"template": "line001",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+		]
+	},
+	{
 		"title": "Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014",
 		"subtitle": "",
 		"kuerzel": "I.01.1.0020",
@@ -282,6 +321,44 @@ var indikatorenset = [
 		]
 	},
 	{
+		"title": "Anteil Personen, welche zu Hause «deutsch» oder «schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010 bis 2014",
+		"subtitle": "",
+		"kuerzel": "I.01.8.0001",
+		"kuerzelKunde": "1-8",
+		"image": "images/I.01.8.0001.jpg",
+		"description": "Anteil Personen, welche zu Hause «deutsch» oder «schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010 bis 2014",
+		"id": "4463",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Sprachen",
+		"kennzahlenset": "Integration kompakt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Heimat",
+			"Haushalt",
+			"Ausländer",
+			"Quote",
+			"Ausland",
+			"Migrationshintergrund",
+			"Migration",
+			"Deutsch"
+		],
+		"stufe1": "1 Struktur der Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Grafik zeigt den Anteil der Bevölkerung über 15 Jahre in Basel-Stadt, der zu Hause Deutsch spricht, gruppiert nach verschiedenen Herkunftsländern. Rund 94% der Schweizer in Basel-Stadt geben im Jahr 2014 an, zu Hause unter anderem deutsch zu sprechen (die Angabe von mehreren Sprachen ist möglich). Bei den Personen aus Deutschland, Österreich und Liechtenstein sind es etwa 97%. 42% der Personen aus anderen Herkunftsländern sprechen zu Hause deutsch.",
+		"erlaeuterungen": "Die Strukturerhebung ist eine Stichprobenerhebung bei rund 5 000 in Basel-Stadt wohnhaften Personen im Alter über 15 Jahren.",
+		"template": "line001",
+		"option": "options001",
+		"quellenangabe": [
+			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
+		]
+	},
+	{
 		"title": "Segregationsindex nach Staatsangehörigkeit seit 2006",
 		"subtitle": "",
 		"kuerzel": "I.01.1.0021",
@@ -313,121 +390,6 @@ var indikatorenset = [
 		"stufe5": "",
 		"lesehilfe": "2015 war die ausländische Bevölkerung weniger stark auf einzelne Gemeinden und Wohnviertel konzentriert als noch 2006. Der Segregationsindex, ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen, sank für die Ausländer zwischen 2006 und 2015 von 24,5 auf 18,7. Von den hier ausgewählten Bevölkerungsgruppen wiesen Ende 2015 Personen aus dem ehemaligen Jugoslawien und Türken die höchsten Segregationsindices auf (32,7 und 30,8). Der niedrigste Index ergab sich für die Deutschen (7,7).",
 		"erlaeuterungen": "Der Segregationsindex misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betracheten Gruppe interpretieren, der umziehen müsste, um gleich über ein Gebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 würde bedeuten, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross wäre.",
-		"template": "line001",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
-		]
-	},
-	{
-		"title": "Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006",
-		"subtitle": "",
-		"kuerzel": "I.01.1.0022",
-		"kuerzelKunde": "2-3a",
-		"image": "images/I.01.1.0022.jpg",
-		"description": "Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006",
-		"id": "4467",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Integration kompakt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Bevölkerung",
-			"Ausland",
-			"Niederlassung",
-			"Migration",
-			"Wohndauer",
-			"Geburtsort",
-			"Staatsangehörigkeit"
-		],
-		"stufe1": "2 Wohnortwahl",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Knapp 50% aller in Basel-Stadt wohnhaften Schweizer lebt seit mindestens 12 Jahren ununterbrochen im selben Quartier. Die Anzahl Schweizer insgesamt nahm in den letzten Jahren leicht ab (rechte Skala).",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
-		]
-	},
-	{
-		"title": "Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006",
-		"subtitle": "",
-		"kuerzel": "I.01.1.0043",
-		"kuerzelKunde": "2-3b",
-		"image": "images/I.01.1.0043.jpg",
-		"description": "Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006",
-		"id": "4905",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Integration kompakt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Bevölkerung",
-			"Ausland",
-			"Niederlassung",
-			"Migration",
-			"Wohndauer",
-			"Schweiz",
-			"Geburtsort",
-			"Staatsangehörigkeit"
-		],
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Rund 20% der Ausländer wohnen seit mindestens 12 Jahren im selben Wohnviertel resp. derselben Landgemeinde.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
-		]
-	},
-	{
-		"title": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeit seit 2006",
-		"subtitle": "",
-		"kuerzel": "I.01.5.0003",
-		"kuerzelKunde": "2-4",
-		"image": "images/I.01.5.0003.jpg",
-		"description": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeit seit 2006",
-		"id": "4468",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
-		"kennzahlenset": "Integration kompakt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Quote",
-			"Ausland",
-			"Migration",
-			"Staatsangehörigkeit",
-			"Wanderung"
-		],
-		"stufe1": "2 Wohnortwahl",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Jahr 2015 wiesen die Deutschen die höchste Rückwanderungsquote ins Herkunftsland auf. Die niedrigsten Quoten ergaben sich für Personen aus dem ehemaligen Jugoslawien und aus der Türkei. Seit 2006 am stärksten zugenommen hat die Rückwanderungsquote der Deutschen, am stärksten abgenommen jene der Spanier. Die Rückwanderungsquote der Ausländer insgesamt ist von 2006 bis 2015 von 51,6 auf 58,6 gestiegen.",
-		"erlaeuterungen": "Die Rückwanderungsquote ist wie folgt definiert: Anzahl Personen, welche ins Land ihrer Herkunft (nicht in das Land, aus dem sie zugezogen sind) resp. in die entsprechende Ländergruppe abwandern pro 1000 Personen einer Ländergruppe. Die Rückwanderungsquote «Ausland», also von allen Ausländern zusammen, ist definiert als die Anzahl der ins Ausland (egal, ob Herkunftsland oder nicht) weggezogenen Ausländer pro 1000 Personen der ausländischen Wohnbevölkerung, Aus diesem Grund liegt die Rückwanderungsquote «Ausland» auch vergleichsweise hoch.",
 		"template": "line001",
 		"option": "options001",
 		"quellenangabe": [
@@ -475,13 +437,52 @@ var indikatorenset = [
 		]
 	},
 	{
-		"title": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeitund Alter 2015",
+		"title": "Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.5.0042",
-		"kuerzelKunde": "2-5",
-		"image": "images/I.01.5.0042.jpg",
-		"description": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeitund Alter 2015",
-		"id": "4877",
+		"kuerzel": "I.01.1.0022",
+		"kuerzelKunde": "2-3a",
+		"image": "images/I.01.1.0022.jpg",
+		"description": "Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006",
+		"id": "4467",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Integration kompakt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Heimat",
+			"Ausländer",
+			"Bevölkerung",
+			"Ausland",
+			"Niederlassung",
+			"Migration",
+			"Wohndauer",
+			"Geburtsort",
+			"Staatsangehörigkeit"
+		],
+		"stufe1": "2 Wohnortwahl",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Knapp 50% aller in Basel-Stadt wohnhaften Schweizer lebt seit mindestens 12 Jahren ununterbrochen im selben Quartier. Die Anzahl Schweizer insgesamt nahm in den letzten Jahren leicht ab (rechte Skala).",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+		]
+	},
+	{
+		"title": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeit seit 2006",
+		"subtitle": "",
+		"kuerzel": "I.01.5.0003",
+		"kuerzelKunde": "2-4",
+		"image": "images/I.01.5.0003.jpg",
+		"description": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeit seit 2006",
+		"id": "4468",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Integration kompakt",
@@ -492,143 +493,23 @@ var indikatorenset = [
 		"schlagwort": [
 			"Heimat",
 			"Ausländer",
-			"Alter",
 			"Quote",
 			"Ausland",
 			"Migration",
 			"Staatsangehörigkeit",
-			"Wanderung",
-			"Rückwanderung"
+			"Wanderung"
 		],
 		"stufe1": "2 Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 überstiegen bei Deutschen und Italienern die Rückwanderungsquoten der 15- bis 64-Jährigen jene der 65-Jährigen und Älteren. Bei Spaniern, Türken und Personen aus dem ehemaligen Jugoslawien verhielt es sich umgekehrt. Die Zahl älterer Maghrebiner und Ägypter, älterer Personen aus den EU-Oststaaten sowie älterer Mittel- und Südamerikaner ist sehr gering, sodass die Rückwanderungsquoten dieser Ausländergruppen kaum Aussagen zu deren Wanderungsverhalten zulassen.",
+		"lesehilfe": "Im Jahr 2015 wiesen die Deutschen die höchste Rückwanderungsquote ins Herkunftsland auf. Die niedrigsten Quoten ergaben sich für Personen aus dem ehemaligen Jugoslawien und aus der Türkei. Seit 2006 am stärksten zugenommen hat die Rückwanderungsquote der Deutschen, am stärksten abgenommen jene der Spanier. Die Rückwanderungsquote der Ausländer insgesamt ist von 2006 bis 2015 von 51,6 auf 58,6 gestiegen.",
 		"erlaeuterungen": "Die Rückwanderungsquote ist wie folgt definiert: Anzahl Personen, welche ins Land ihrer Herkunft (nicht in das Land, aus dem sie zugezogen sind) resp. in die entsprechende Ländergruppe abwandern pro 1000 Personen einer Ländergruppe. Die Rückwanderungsquote «Ausland», also von allen Ausländern zusammen, ist definiert als die Anzahl der ins Ausland (egal, ob Herkunftsland oder nicht) weggezogenen Ausländer pro 1000 Personen der ausländischen Wohnbevölkerung, Aus diesem Grund liegt die Rückwanderungsquote «Ausland» auch vergleichsweise hoch.",
-		"template": "template001",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
-		]
-	},
-	{
-		"title": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit seit 2006",
-		"subtitle": "",
-		"kuerzel": "I.01.6.0001",
-		"kuerzelKunde": "1-6",
-		"image": "images/I.01.6.0001.jpg",
-		"description": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit seit 2006",
-		"id": "4342",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Einbürgerungen",
-		"kennzahlenset": "Integration kompakt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Quote",
-			"Bevölkerung",
-			"Ausland",
-			"Einbürgerung",
-			"Migrationshintergrund",
-			"Migration",
-			"Staatsangehörigkeit"
-		],
-		"stufe1": "1 Struktur der Bevölkerung",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "In Basel-Stadt wurden im Jahr 2015 pro 1000 Ausländer 16,8 eingebürgert (ordentliche und erleichterte Einbürgerungen). 2006 hatte diese Einbürgerungsziffer noch bei 19,4 gelegen. 2015 wiesen die Personen aus dem Maghreb und aus Ägypten die höchste Einbürgerungsziffer auf (35,3).  Insgesamt sind die Einbürgerungsziffern im Vergleich zu 2006 zurückgegangen.",
-		"erlaeuterungen": "Für eine ordentliche Einbürgerung muss eine Person u. a. zwölf Jahre in der Schweiz gewohnt haben. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die insgesamt fünf Jahre in der Schweiz gelebt haben und seit drei Jahren verheiratet sind. Ehepartner, die nicht in der Schweiz leben, müssen sechs Jahre verheiratet sein und eng mit der Schweiz verbunden sein.",
 		"template": "line001",
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
-		]
-	},
-	{
-		"title": "Anteil Personen, welche zu Hause «deutsch» oder «schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010 bis 2014",
-		"subtitle": "",
-		"kuerzel": "I.01.8.0001",
-		"kuerzelKunde": "1-8",
-		"image": "images/I.01.8.0001.jpg",
-		"description": "Anteil Personen, welche zu Hause «deutsch» oder «schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010 bis 2014",
-		"id": "4463",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Sprachen",
-		"kennzahlenset": "Integration kompakt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Haushalt",
-			"Ausländer",
-			"Quote",
-			"Ausland",
-			"Migrationshintergrund",
-			"Migration",
-			"Deutsch"
-		],
-		"stufe1": "1 Struktur der Bevölkerung",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Grafik zeigt den Anteil der Bevölkerung über 15 Jahre in Basel-Stadt, der zu Hause Deutsch spricht, gruppiert nach verschiedenen Herkunftsländern. Rund 94% der Schweizer in Basel-Stadt geben im Jahr 2014 an, zu Hause unter anderem deutsch zu sprechen (die Angabe von mehreren Sprachen ist möglich). Bei den Personen aus Deutschland, Österreich und Liechtenstein sind es etwa 97%. 42% der Personen aus anderen Herkunftsländern sprechen zu Hause deutsch.",
-		"erlaeuterungen": "Die Strukturerhebung ist eine Stichprobenerhebung bei rund 5 000 in Basel-Stadt wohnhaften Personen im Alter über 15 Jahren.",
-		"template": "line001",
-		"option": "options001",
-		"quellenangabe": [
-			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
-		]
-	},
-	{
-		"title": "Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014",
-		"subtitle": "",
-		"kuerzel": "I.03.0.0001",
-		"kuerzelKunde": "3-4",
-		"image": "images/I.03.0.0001.jpg",
-		"description": "Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014",
-		"id": "4741",
-		"thema": "03 Erwerbsleben",
-		"unterthema": "Erwerbspersonen ",
-		"kennzahlenset": "Integration kompakt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Einkommen",
-			"Ausländer",
-			"Quote",
-			"Ausland",
-			"Migration",
-			"Schweiz",
-			"Arbeit",
-			"Arbeitslosigkeit",
-			"Erwerb",
-			"Erwerbstätigkeit"
-		],
-		"stufe1": "3 Bildung und Erwerbstätigkeit",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Insgesamt sind im Mittel der Jahre 2010 bis 2014 etwa 73% der Personen im erwerbsfähigen Alter (19 bis 64 Jahre) in Basel-Stadt erwerbstätig. Während Schweizer in 74% der Fälle erwerbstätig sind, liegt dieser Anteil bei Ausländern bei rund 71%. Grössere Unterschiede offenbaren sich zwischen verschiedenen Ausländergruppen: Während Personen aus Deutschland in 87% der Fälle erwerbstätig sind, liegen Personen aus den östlichen EU-Staaten sowie Spanier bei 75%.  Die Zahlen basieren allerdings auf Schätzungen. Vor allem die Ergebnisse für kleinere Personengruppen sind mit einer gewissen Unsicherheit behaftet. Die schwarzen Linien geben jeweils die Konfidenzintervalle auf dem 95%-Niveau an.",
-		"erlaeuterungen": "Konfidenzintervall 95%: Mit einer Wahrschenilchkeit von 95% befindet sich der wahre Wert zwischen der oberen und der unteren Grenze des Intervalls.",
-		"template": "template001",
-		"option": "options001",
-		"quellenangabe": [
-			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
 		]
 	},
 	{
@@ -670,6 +551,44 @@ var indikatorenset = [
 		"quellenangabe": [
 			"Bundesamt für Statistik BFS, Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		]
+	},
+	{
+		"title": "Gymnasialquote nach Staatsangehörigkeit seit 2006",
+		"subtitle": "",
+		"kuerzel": "I.15.6.0001",
+		"kuerzelKunde": "3-1",
+		"image": "images/I.15.6.0001.jpg",
+		"description": "Gymnasialquote nach Staatsangehörigkeit seit 2006",
+		"id": "4739",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsniveau",
+		"kennzahlenset": "Integration kompakt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Ausländer",
+			"Quote",
+			"Ausland",
+			"Staatsangehörigkeit",
+			"Bildung",
+			"Gymnasium",
+			"Gymnasialquote",
+			"Schule"
+		],
+		"stufe1": "3 Bildung und Erwerbstätigkeit",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit Ausnahme von 2014 liegt die Gymnasialquote der Schweizer mindestens doppelt so hoch wie diejenige der Ausländer; tendenziell nähern sich die beiden Quoten allerdings an. Die Quote der Schüler mit deutscher Staatsbürgerschaft liegt deutlich höher als diejenige der Schweizer. Der Abstand verringerte sich seit 2014 allerdings deutlich. Die übrigen Staatsangehörigkeiten, deren Schülerzahl eine noch aussagekräftige Berechnungsbasis bildet, folgen mit grossem Abstand nach Deutschland und der Schweiz.",
+		"erlaeuterungen": "Die Gymnasialquote weist den Anteil Gymnasiasten an allen Schülern des 8. und 9. Schuljahres (nach HarmoS-Zählweise der Stufen 10 und 11) aus. Es werden nur Jugendliche berücksichtigt, deren Eltern im Kanton Basel-Stadt wohnen. Für einzelne Ländergruppen konnte aufgrund zu kleiner Fallzahlen keine Gymnasialquote errechnet werden. Jährliche Schwankungen (Bsp. Spanien) können zum Teil ebenfalls damit begründet werden.",
+		"template": "line001",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		]
 	},
 	{
@@ -715,41 +634,44 @@ var indikatorenset = [
 		]
 	},
 	{
-		"title": "Gymnasialquote nach Staatsangehörigkeit seit 2006",
+		"title": "Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014",
 		"subtitle": "",
-		"kuerzel": "I.15.6.0001",
-		"kuerzelKunde": "3-1",
-		"image": "images/I.15.6.0001.jpg",
-		"description": "Gymnasialquote nach Staatsangehörigkeit seit 2006",
-		"id": "4739",
-		"thema": "15 Bildung",
-		"unterthema": "Bildungsniveau",
+		"kuerzel": "I.03.0.0001",
+		"kuerzelKunde": "3-4",
+		"image": "images/I.03.0.0001.jpg",
+		"description": "Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014",
+		"id": "4741",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Erwerbspersonen ",
 		"kennzahlenset": "Integration kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
 		"schlagwort": [
+			"Heimat",
+			"Einkommen",
 			"Ausländer",
 			"Quote",
 			"Ausland",
-			"Staatsangehörigkeit",
-			"Bildung",
-			"Gymnasium",
-			"Gymnasialquote",
-			"Schule"
+			"Migration",
+			"Schweiz",
+			"Arbeit",
+			"Arbeitslosigkeit",
+			"Erwerb",
+			"Erwerbstätigkeit"
 		],
 		"stufe1": "3 Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit Ausnahme von 2014 liegt die Gymnasialquote der Schweizer mindestens doppelt so hoch wie diejenige der Ausländer; tendenziell nähern sich die beiden Quoten allerdings an. Die Quote der Schüler mit deutscher Staatsbürgerschaft liegt deutlich höher als diejenige der Schweizer. Der Abstand verringerte sich seit 2014 allerdings deutlich. Die übrigen Staatsangehörigkeiten, deren Schülerzahl eine noch aussagekräftige Berechnungsbasis bildet, folgen mit grossem Abstand nach Deutschland und der Schweiz.",
-		"erlaeuterungen": "Die Gymnasialquote weist den Anteil Gymnasiasten an allen Schülern des 8. und 9. Schuljahres (nach HarmoS-Zählweise der Stufen 10 und 11) aus. Es werden nur Jugendliche berücksichtigt, deren Eltern im Kanton Basel-Stadt wohnen. Für einzelne Ländergruppen konnte aufgrund zu kleiner Fallzahlen keine Gymnasialquote errechnet werden. Jährliche Schwankungen (Bsp. Spanien) können zum Teil ebenfalls damit begründet werden.",
-		"template": "line001",
+		"lesehilfe": "Insgesamt sind im Mittel der Jahre 2010 bis 2014 etwa 73% der Personen im erwerbsfähigen Alter (19 bis 64 Jahre) in Basel-Stadt erwerbstätig. Während Schweizer in 74% der Fälle erwerbstätig sind, liegt dieser Anteil bei Ausländern bei rund 71%. Grössere Unterschiede offenbaren sich zwischen verschiedenen Ausländergruppen: Während Personen aus Deutschland in 87% der Fälle erwerbstätig sind, liegen Personen aus den östlichen EU-Staaten sowie Spanier bei 75%.  Die Zahlen basieren allerdings auf Schätzungen. Vor allem die Ergebnisse für kleinere Personengruppen sind mit einer gewissen Unsicherheit behaftet. Die schwarzen Linien geben jeweils die Konfidenzintervalle auf dem 95%-Niveau an.",
+		"erlaeuterungen": "Konfidenzintervall 95%: Mit einer Wahrschenilchkeit von 95% befindet sich der wahre Wert zwischen der oberen und der unteren Grenze des Intervalls.",
+		"template": "template001",
 		"option": "options001",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
+			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
 		]
 	},
 	{
@@ -792,6 +714,84 @@ var indikatorenset = [
 		"option": "options001",
 		"quellenangabe": [
 			"Zentraler Personaldienst Basel-Stadt, Statistik des Staatspersonals"
+		]
+	},
+	{
+		"title": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeitund Alter 2015",
+		"subtitle": "",
+		"kuerzel": "I.01.5.0042",
+		"kuerzelKunde": "2-5",
+		"image": "images/I.01.5.0042.jpg",
+		"description": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeitund Alter 2015",
+		"id": "4877",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kennzahlenset": "Integration kompakt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Heimat",
+			"Ausländer",
+			"Alter",
+			"Quote",
+			"Ausland",
+			"Migration",
+			"Staatsangehörigkeit",
+			"Wanderung",
+			"Rückwanderung"
+		],
+		"stufe1": "2 Wohnortwahl",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2015 überstiegen bei Deutschen und Italienern die Rückwanderungsquoten der 15- bis 64-Jährigen jene der 65-Jährigen und Älteren. Bei Spaniern, Türken und Personen aus dem ehemaligen Jugoslawien verhielt es sich umgekehrt. Die Zahl älterer Maghrebiner und Ägypter, älterer Personen aus den EU-Oststaaten sowie älterer Mittel- und Südamerikaner ist sehr gering, sodass die Rückwanderungsquoten dieser Ausländergruppen kaum Aussagen zu deren Wanderungsverhalten zulassen.",
+		"erlaeuterungen": "Die Rückwanderungsquote ist wie folgt definiert: Anzahl Personen, welche ins Land ihrer Herkunft (nicht in das Land, aus dem sie zugezogen sind) resp. in die entsprechende Ländergruppe abwandern pro 1000 Personen einer Ländergruppe. Die Rückwanderungsquote «Ausland», also von allen Ausländern zusammen, ist definiert als die Anzahl der ins Ausland (egal, ob Herkunftsland oder nicht) weggezogenen Ausländer pro 1000 Personen der ausländischen Wohnbevölkerung, Aus diesem Grund liegt die Rückwanderungsquote «Ausland» auch vergleichsweise hoch.",
+		"template": "template001",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+		]
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006",
+		"subtitle": "",
+		"kuerzel": "I.01.1.0043",
+		"kuerzelKunde": "2-3b",
+		"image": "images/I.01.1.0043.jpg",
+		"description": "Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006",
+		"id": "4905",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Integration kompakt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Heimat",
+			"Bevölkerung",
+			"Ausland",
+			"Niederlassung",
+			"Migration",
+			"Wohndauer",
+			"Schweiz",
+			"Geburtsort",
+			"Staatsangehörigkeit"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Rund 20% der Ausländer wohnen seit mindestens 12 Jahren im selben Wohnviertel resp. derselben Landgemeinde.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
 		]
 	}
 ];
