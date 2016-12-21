@@ -243,7 +243,7 @@ function configureCascadedControls(level1Selector, level2Selector, level1ValueSe
 
 function renderThema(){
   //get all values of thema and add value "Alle" as the first one   
-  var values = ["Alle"].concat(JsonQuery(indikatoren).uniq("thema").pluck("thema").all);  
+  var values = ["Alle"].concat(JsonQuery(indikatoren).uniq("thema").order({"thema": "asc"}).pluck("thema").all);  
   var html = $('#radio-template').html();
   var templateFunction = FilterJS.templateBuilder(html);
   var container = $('#thema_criteria');
