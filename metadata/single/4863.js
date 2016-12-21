@@ -4,7 +4,7 @@
 "kuerzelKunde":"3.1.01",
 "image":"images/I.18.2.0004.jpg",
 "description":"Anteil Steuerveranlagungen mit Zuwendungen",
-"id":"4863",
+"id":4863,
 "thema":"18 Öffentliche Finanzen",
 "unterthema":"Steuern",
 "kennzahlenset":"Gesellschaftlicher Zusammenhalt",
@@ -17,8 +17,9 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"19,3% der Steuerveranlagungen im Jahr 2013 enthielten Zuwendungen. Seit 2006 ist dieser Anteil tendenziell steigend.",
-"erlaeuterungen":"Grundlage sind die Daten der Steuererklärungen der ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, ohne Wochenaufenthalter, Unterjährige und Auswärtige. Enthalten sind auch Quellenbesteuerte, die nachträglich ordentlich veranlagt",
+"erlaeuterungen":"Grundlage sind die Daten der Steuererklärungen der ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, ohne Wochenaufenthalter, Unterjährige und Auswärtige. Enthalten sind auch Quellenbesteuerte, die nachträglich ordentlich veranlagt wurden; dies ist zum Beispiel bei Einkünften von über 120 000 Franken pro Kalenderjahr der Fall. Eine Veranlagung kann zwei Personen umfassen, zum Beispiel bei Verheirateten.",
 "template":"template001",
 "option":"options001",
+"visible":true,
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"]
 }];
