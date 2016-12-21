@@ -1,0 +1,367 @@
+{
+  "series": [
+    {
+      "color": "#256370",
+      "data": [
+        [
+          "Arbeitskollegen 2013",
+          0.4
+        ],
+        [
+          "Arbeitskollegen 2009",
+          0.4
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Nachbarn 2013",
+          1.2
+        ],
+        [
+          "Nachbarn 2009",
+          2.7
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "Freunde und Bekannte 2013",
+          3
+        ],
+        [
+          "Freunde und Bekannte 2009",
+          3.8
+        ]
+      ],
+      "name": "Ja, regelmässig",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#71A3B5",
+      "data": [
+        [
+          "Arbeitskollegen 2013",
+          2.9
+        ],
+        [
+          "Arbeitskollegen 2009",
+          3.2
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Nachbarn 2013",
+          10.9
+        ],
+        [
+          "Nachbarn 2009",
+          12
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "Freunde und Bekannte 2013",
+          16.8
+        ],
+        [
+          "Freunde und Bekannte 2009",
+          18.9
+        ]
+      ],
+      "name": "Ja, hin und wieder",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58",
+      "data": [
+        [
+          "Arbeitskollegen 2013",
+          8.8
+        ],
+        [
+          "Arbeitskollegen 2009",
+          9.7
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Nachbarn 2013",
+          16.4
+        ],
+        [
+          "Nachbarn 2009",
+          19.4
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "Freunde und Bekannte 2013",
+          19.9
+        ],
+        [
+          "Freunde und Bekannte 2009",
+          23.5
+        ]
+      ],
+      "name": "Ja, selten",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          "Arbeitskollegen 2013",
+          70.3
+        ],
+        [
+          "Arbeitskollegen 2009",
+          71.9
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Nachbarn 2013",
+          57.2
+        ],
+        [
+          "Nachbarn 2009",
+          54.2
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "Freunde und Bekannte 2013",
+          46.6
+        ],
+        [
+          "Freunde und Bekannte 2009",
+          43.3
+        ]
+      ],
+      "name": "Nein, nie",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "data": [
+        [
+          "Arbeitskollegen 2013",
+          2.8
+        ],
+        [
+          "Arbeitskollegen 2009",
+          2.6
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Nachbarn 2013",
+          1.5
+        ],
+        [
+          "Nachbarn 2009",
+          1.3
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "Freunde und Bekannte 2013",
+          1.9
+        ],
+        [
+          "Freunde und Bekannte 2009",
+          1.3
+        ]
+      ],
+      "name": "Nein, nicht möglich",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8A8A8A",
+      "data": [
+        [
+          "Arbeitskollegen 2013",
+          14.8
+        ],
+        [
+          "Arbeitskollegen 2009",
+          12.2
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Nachbarn 2013",
+          12.8
+        ],
+        [
+          "Nachbarn 2009",
+          10.5
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "Freunde und Bekannte 2013",
+          11.8
+        ],
+        [
+          "Freunde und Bekannte 2009",
+          9.3
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "tickColor": "#FFFFFF",
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                this.credits.element.onclick = function() {
+                    /*
+                    window.open(
+                    "http://www.statistik.bs.ch",
+                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+                    );
+                    */
+                }
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "inverted": true,
+    "forExport": true,
+    "renderTo": "container-4716"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.50.2.0001 Materielle oder finanzielle Hilfeleistungen durch Arbeitskollegen, Freunde und Bekannte oder Nachbarn"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "«Erhalten Sie oder ein anderes Haushaltsmitglied (finanzielle oder materielle) Hilfeleistungen von Arbeitskollegen, Freunden\u002FBekannten oder Nachbarn?»"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
+  },
+  "yAxis": {
+    "tickInterval": null,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value}%",
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "reversedStacks": false
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F74c-e"
+  },
+  "legend": {
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "useHTML": true,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "symbolRadius": 0,
+    "x": 145,
+    "y": 70,
+    "itemWidth": 150
+  },
+  "exporting": {
+    "filename": "I.50.2.0001"
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "series": [
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "Klybeck",
+          4486.0079576
+        ],
+        [
+          "Kleinhüningen",
+          5162.5021834
+        ],
+        [
+          "Rosental",
+          5783.2405609
+        ],
+        [
+          "Matthäus",
+          6286.6448547
+        ],
+        [
+          "St. Johann",
+          6338.095167
+        ],
+        [
+          "Iselin",
+          6358.4781801
+        ],
+        [
+          "Clara",
+          6393.9031238
+        ],
+        [
+          "Gundeldingen",
+          7015.5679743
+        ],
+        [
+          "Hirzbrunnen",
+          7150.8539806
+        ],
+        [
+          "Breite",
+          7200.9137421
+        ],
+        [
+          "Altstadt Kleinbasel",
+          8131.5571429
+        ],
+        [
+          "Gotthelf",
+          8591.7451399
+        ],
+        [
+          "Wettstein",
+          9902.2080699
+        ],
+        [
+          "Bachletten",
+          11286.095512
+        ],
+        [
+          "Am Ring",
+          11520.438408
+        ],
+        [
+          "Riehen",
+          13082.421204
+        ],
+        [
+          "Bettingen",
+          13690.040752
+        ],
+        [
+          "St. Alban",
+          15633.891206
+        ],
+        [
+          "Vorstädte",
+          16127.909889
+        ],
+        [
+          "Altstadt Grossbasel",
+          17343.393735
+        ],
+        [
+          "Bruderholz",
+          19364.924846
+        ]
+      ],
+      "name": "Einkommenssteuer pro Veranlagung 2013",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "events": {
+      "load": function () {                
+                this.credits.element.onclick = function() {
+                    /*
+                    window.open(
+                    "http://www.statistik.bs.ch",
+                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+                    );
+                    */
+                };
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "scatter",
+    "inverted": true,
+    "forExport": true,
+    "renderTo": "container-4836"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "WA-2 Einkommenssteuer pro Veranlagung"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        },
+        "formatter": function (){
+                    return Highcharts.numberFormat((this.y*100),1)+'%';                
+                }
+      }
+    }
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "formatter": function (){
+                return Highcharts.numberFormat((this.value), 0, ".", " ");                
+            },
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "min": 0
+  },
+  "tooltip": {
+    "pointFormatter": function (){
+            //rank is calculated from index, thus data needs to be sorted by rank ascending.
+            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>Fr. ' + Highcharts.numberFormat(this.y, 0, "," ," ") + '</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
+        },
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
+  },
+  "legend": {
+    "enabled": false,
+    "symbolRadius": 0
+  },
+  "exporting": {
+    "filename": "I.18.2.0003"
+  }
+}

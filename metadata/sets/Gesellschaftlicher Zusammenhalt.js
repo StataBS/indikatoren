@@ -1,5 +1,171 @@
 var indikatorenset = [
 	{
+		"title": "Materielle oder finanzielle Hilfeleistungen durch Arbeitskollegen, Freunde und Bekannte oder Nachbarn",
+		"subtitle": "«Erhalten Sie oder ein anderes Haushaltsmitglied (finanzielle oder materielle) Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»",
+		"kuerzel": "I.50.2.0001",
+		"kuerzelKunde": "1.1.01",
+		"image": "images/I.50.2.0001.jpg",
+		"description": "Materielle oder finanzielle Hilfeleistungen durch Arbeitskollegen, Freunde und Bekannte oder Nachbarn",
+		"id": "4716",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Arbeit",
+			"Hilfeleistung",
+			"Nachbarschaft"
+		],
+		"stufe1": "1 Soziale Beziehungen",
+		"stufe2": "1.1 Soziale Netze",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2013 erhielten 39,7% der Befragten von Freunden oder Bekannten Hilfeleistungen (2009: 46,2%), 28,5% von den Nachbarn (2009: 34,1%). Von den Arbeitskollegen Hilfeleistungen zu bekommen, bejahten 2013 12,1% der Befragten, 2009 waren es 13,3%.",
+		"erlaeuterungen": "2013: N=3119; 2009: N=2231",
+		"template": "befragungen001",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F74c-e"
+		]
+	},
+	{
+		"title": "Materielle Hilfeleistungen von Arbeitskollegen, Freunden und Bekannten oder Nachbarn",
+		"subtitle": "«Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»",
+		"kuerzel": "I.50.4.0004",
+		"kuerzelKunde": "1.1.02",
+		"image": "images/I.50.4.0004.jpg",
+		"description": "Materielle Hilfeleistungen von Arbeitskollegen, Freunden und Bekannten oder Nachbarn",
+		"id": "4718",
+		"thema": "50 Befragungen",
+		"unterthema": "Befragung 55 plus",
+		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Arbeit",
+			"Hilfeleistung",
+			"Nachbarschaft"
+		],
+		"stufe1": "1 Soziale Beziehungen",
+		"stufe2": "1.1 Soziale Netze",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Von den Befragten erhielten 2015 rund ein Viertel materielle Hilfeleistungen von Freunden und Bekannten oder von Nachbarn (2011: jeweils rund 16%). Tiefer liegt der Wert bei den Arbeitskollegen: von diesen bekamen 5,2% der Befragten materielle Hilfeleistungen (2011: 2,8%). Jeweils rund 20% der Befragten machten 2015 keine Angaben zu diesen Fragen. Auf die Frage nach Hilfeleistungen durch Arbeitskollegen konnten weitere rund 21% nicht antworten, weil sie nicht mehr erwerbstätig sind.",
+		"erlaeuterungen": "2015: N=1427; 2011: N=1689<br/>Materielle Hilfeleistungen: Garten- und Reinigungsarbeiten, Einkaufshilfe, Füttern von Tieren, Hüte- und Pflegeeinsätze etc.",
+		"template": "befragungen001",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F54e"
+		]
+	},
+	{
+		"title": "Menschen aus verschiedenen Ländern sind eine Bereicherung für den Kanton",
+		"subtitle": "«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Ist das eine Bereicherung für den Kanton?»",
+		"kuerzel": "I.50.1.0013",
+		"kuerzelKunde": "1.3.01",
+		"image": "images/I.50.1.0013.jpg",
+		"description": "Menschen aus verschiedenen Ländern sind eine Bereicherung für den Kanton",
+		"id": "4719",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Ausländer",
+			"Ausland"
+		],
+		"stufe1": "1 Soziale Beziehungen",
+		"stufe2": "1.3 Akzeptanz von Diversität",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter Basel-Stadts als eine sehr oder eher grosse Bereicherung für die Stadt. Die Zustimmung zu dieser Frage liegt seit 2003 jeweils über 68%.",
+		"erlaeuterungen": "",
+		"template": "befragungenProzent001",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18a"
+		]
+	},
+	{
+		"title": "Beurteilung des Wohnorts",
+		"subtitle": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?»",
+		"kuerzel": "I.50.1.0016",
+		"kuerzelKunde": "2.1.01",
+		"image": "images/I.50.1.0016.jpg",
+		"description": "Beurteilung des Wohnorts",
+		"id": "4720",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Zufriedenheit",
+			"Niederlassung",
+			"Quartier",
+			"Beurteilung"
+		],
+		"stufe1": "2 Verbundenheit",
+		"stufe2": "2.1 Identifikation",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "71,7% der befragten Personen lebten 2015 sehr gerne an ihrem Wohnort, ein Viertel eher gerne. Insgesamt sind 96,9% der Befragten mit ihrem gegenwärtigen Wohnort zufrieden. Die insgesamte Zufriedenheit (eher und sehr gerne) mit dem Wohnort liegt seit 2003 stets bei über 95%.",
+		"erlaeuterungen": "",
+		"template": "befragungenProzent001",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F1c"
+		]
+	},
+	{
+		"title": "Beurteilung des Wohnquartiers",
+		"subtitle": "«Wie gerne leben Sie in Ihrem Wohnquartier?»",
+		"kuerzel": "I.50.1.0017",
+		"kuerzelKunde": "2.1.02",
+		"image": "images/I.50.1.0017.jpg",
+		"description": "Beurteilung des Wohnquartiers",
+		"id": "4721",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Gemeinde"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Zufriedenheit",
+			"Niederlassung",
+			"Nachbarschaft",
+			"Beurteilung"
+		],
+		"stufe1": "2 Verbundenheit",
+		"stufe2": "2.1 Identifikation",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit einem Anteil von 96,9% wohnten 2015 mehr Leute sehr oder eher gerne in ihrem Wohnquartier als 2011 (94,8%). Am tiefsten lag die insgesamte Zustimmung (eher und sehr gerne) 2005 mit 91%.",
+		"erlaeuterungen": "Gefragt wurden nur Personen, die in der Stadt Basel wohnen.",
+		"template": "befragungenProzent001",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F2b"
+		]
+	},
+	{
 		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
 		"subtitle": "",
 		"kuerzel": "I.01.6.0002",
@@ -37,194 +203,165 @@ var indikatorenset = [
 		]
 	},
 	{
-		"title": "Wahlbeteiligung bei National- und Grossratswahlen",
-		"subtitle": "",
-		"kuerzel": "I.17.3.0001",
-		"kuerzelKunde": "3.3.02",
-		"image": "images/I.17.3.0001.jpg",
-		"description": "Wahlbeteiligung bei National- und Grossratswahlen",
-		"id": "4871",
-		"thema": "17 Politik",
-		"unterthema": "Wahlen",
+		"title": "Beurteilung der politischen Behörden",
+		"subtitle": "«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat die Anliegen der Bevölkerung?»",
+		"kuerzel": "I.50.1.0018",
+		"kuerzelKunde": "2.2.01",
+		"image": "images/I.50.1.0018.jpg",
+		"description": "Beurteilung der politischen Behörden",
+		"id": "4724",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
 		"schlagwort": [
-			"Grosser Rat"
+			"Verwaltung",
+			"Grosser Rat",
+			"Beurteilung"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
-		"stufe2": "3.3 Gesellschaftliche Teilhabe",
+		"stufe1": "2 Verbundenheit",
+		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei nationalen Wahlen liegt die Wahlbeteiligung im Stadtkanton rund 10 Prozentpunkte höher als bei den Wahlen ins kantonale Parlament.",
+		"lesehilfe": "2015 fühlten sich 68,2% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2011 entspricht dies einem Rückgang um 2,2 Prozentpunkte. In den vorhergehenden Befragungsjahren lag die Zufriedenheit mit der Vertretung durch die Behörden jeweils deutlich unter derjenigen von 2011 und 2015 und die Frage konnte deutlich häufiger nicht beantwortet werden.",
+		"erlaeuterungen": "",
+		"template": "befragungenProzent001",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F21a"
+		]
+	},
+	{
+		"title": "Unterstützung von Freunden oder Nachbarn",
+		"subtitle": "«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch an Freunde/Nachbarn gewendet?»",
+		"kuerzel": "I.50.2.0002",
+		"kuerzelKunde": "1.1.03",
+		"image": "images/I.50.2.0002.jpg",
+		"description": "Unterstützung von Freunden oder Nachbarn",
+		"id": "4848",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Arbeit",
+			"Schule",
+			"Hilfeleistung",
+			"Nachbarschaft"
+		],
+		"stufe1": "1 Soziale Beziehungen",
+		"stufe2": "1.1 Soziale Netze",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Knapp die Hälfte der Befragten haben 2009 und 2013 angegeben, sich bei Erziehungsfragen schon einmal an Freunde oder Nachbarn gewendet zu haben. Im Vergleich zu den anderen Lebenssituationen, in welchen die Befragten Hilfe in Anspruch nehmen, ist dies der deutlich grösste Anteil.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt"
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F72a-g"
 		]
 	},
 	{
-		"title": "Anteil Steuerveranlagungen mit Zuwendungen",
-		"subtitle": "",
-		"kuerzel": "I.18.2.0004",
-		"kuerzelKunde": "3.1.01",
-		"image": "images/I.18.2.0004.jpg",
-		"description": "Anteil Steuerveranlagungen mit Zuwendungen",
-		"id": "4863",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
+		"title": "Gutes Verhältnis zur Nachbarschaft",
+		"subtitle": "«Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.»",
+		"kuerzel": "I.50.2.0003",
+		"kuerzelKunde": "1.1.04",
+		"image": "images/I.50.2.0003.jpg",
+		"description": "Gutes Verhältnis zur Nachbarschaft",
+		"id": "4849",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
 		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
 		"schlagwort": [
-			"Einkommen",
-			"Spende"
+			"Nachbarschaft"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
-		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
+		"stufe1": "1 Soziale Beziehungen",
+		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "19,3% der Steuerveranlagungen im Jahr 2013 enthielten Zuwendungen. Seit 2006 ist dieser Anteil tendenziell steigend.",
-		"erlaeuterungen": "Grundlage sind die Daten der Steuererklärungen der ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, ohne Wochenaufenthalter, Unterjährige und Auswärtige. Enthalten sind auch Quellenbesteuerte, die nachträglich ordentlich veranlagt",
-		"template": "template001",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
-		]
-	},
-	{
-		"title": "Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"subtitle": "",
-		"kuerzel": "I.19.1.0001",
-		"kuerzelKunde": "3.2.01",
-		"image": "images/I.19.1.0001.jpg",
-		"description": "Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"id": "4866",
-		"thema": "19 Rechtspflege",
-		"unterthema": "Polizei",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verbrechen"
-		],
-		"stufe1": "3 Gemeinwohlorientierung",
-		"stufe2": "3.2 Anerkennung sozialer Regeln",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Zahl der angezeigten Straftaten pro 1000 Einwohner ab 18 Jahren war von 2008 bis 2010 relativ stabil, sie bewegte sich zwischen 121,2 und 125,3. Danach stieg die Quote und erreichte 2012 163,5. Die beiden letzten Jahre zeigen nun wieder einen Rückgang der Anzahl Straftaten pro 1000 Einwohner.",
+		"lesehilfe": "2009 gaben 90,4% und 2013 89,6% der Familien an, ein gutes Verhältnis zu ihren Nachbarinnen und Nachbarn zu pflegen.",
 		"erlaeuterungen": "",
-		"template": "template001",
+		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
-			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F19c"
 		]
 	},
 	{
-		"title": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"subtitle": "",
-		"kuerzel": "I.19.1.0002",
-		"kuerzelKunde": "3.2.02",
-		"image": "images/I.19.1.0002.jpg",
-		"description": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"id": "4867",
-		"thema": "19 Rechtspflege",
-		"unterthema": "Polizei",
+		"title": "Zusammensetzung des Freundeskreises",
+		"subtitle": "«Wie sieht Dein Freundeskreis aus?»",
+		"kuerzel": "I.50.3.0001",
+		"kuerzelKunde": "1.1.05",
+		"image": "images/I.50.3.0001.jpg",
+		"description": "Zusammensetzung des Freundeskreises",
+		"id": "4850",
+		"thema": "50 Befragungen",
+		"unterthema": "Jugendbefragung",
 		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
 		"schlagwort": [
-			"Verbrechen"
+			"Geschlecht",
+			"Gefühl"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
-		"stufe2": "3.2 Anerkennung sozialer Regeln",
+		"stufe1": "1 Soziale Beziehungen",
+		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Quote erhöhte sich zwischen 2008 und 2009 von 4,5 auf 5,5. In den beiden folgenden Jahre ging sie zurück. Seit 2012 steigt sie in der Tendenz erneut, 2014 wurden pro 1000 18-Jährige und Ältere 6,6 Anzeigen wegen Veruntreuung und Betrug erfasst.",
+		"lesehilfe": "2013 gaben 78,7% der befragten Jugendlichen an, sowohl Mädchen als auch Jungen in ihrem Freundeskreis zu haben. 0,8% gaben an, keinen Freundeskreis zu haben. Weitere 3,9% machten keine Angabe. Im Jahr 2009 weichen die Angaben der Jugendlichen bei allen Antwortkategorien um weniger als 2 Prozentpunkte von den Werten des Jahres 2015 ab.",
 		"erlaeuterungen": "",
-		"template": "template001",
+		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt",
-			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
+			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F34"
 		]
 	},
 	{
-		"title": "Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl/-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"subtitle": "",
-		"kuerzel": "I.19.1.0003",
-		"kuerzelKunde": "3.2.03",
-		"image": "images/I.19.1.0003.jpg",
-		"description": "Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl/-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"id": "4868",
-		"thema": "19 Rechtspflege",
-		"unterthema": "Polizei",
+		"title": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
+		"kuerzel": "I.50.4.0005",
+		"kuerzelKunde": "1.1.06",
+		"image": "images/I.50.4.0005.jpg",
+		"description": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
+		"id": "4851",
+		"thema": "50 Befragungen",
+		"unterthema": "Befragung 55 plus",
 		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
 		"schlagwort": [
-			"Verbrechen"
+			"Zufriedenheit",
+			"Nachbarschaft"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
-		"stufe2": "3.2 Anerkennung sozialer Regeln",
+		"stufe1": "1 Soziale Beziehungen",
+		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Quote bewegte sich in den Jahren 2008 bis 2011 zwischen rund 61 und 66. 2012 wurden mit 86 deutlich mehr Anzeigen pro 1000 18-jährige und ältere Einwohner erfasst. Danach ging die Anzeigenquote wegen Diebstahl wieder zurück, im Jahr 2014 lag sie noch bei etwa 63.",
-		"erlaeuterungen": "",
-		"template": "template001",
+		"lesehilfe": "2011 waren 85,3% der Befragten zufrieden mit dem Austausch mit den Nachbarn, 2015 betrug die Zufriedenheit 87,8%, wobei der Anteil sehr zufriedener Personen im Vergleich zu 2011 um 4,2 Prozentpunkte höher lag. Gleichzeitig reduzierte sich der Anteil derjenigen Personen, die keine Antwort geben konnten oder wollten, von 2011 auf 2015 um 2,5 Prozentpunkte.",
+		"erlaeuterungen": "Gefragt wurde: «Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
+		"template": "befragungenProzent001",
 		"option": "options001",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt",
-			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
-		]
-	},
-	{
-		"title": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"subtitle": "",
-		"kuerzel": "I.19.1.0004",
-		"kuerzelKunde": "3.2.04",
-		"image": "images/I.19.1.0004.jpg",
-		"description": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"id": "4869",
-		"thema": "19 Rechtspflege",
-		"unterthema": "Polizei",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verbrechen"
-		],
-		"stufe1": "3 Gemeinwohlorientierung",
-		"stufe2": "3.2 Anerkennung sozialer Regeln",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Zahl der Anzeigen wegen Körperverletzung pro 1000 Einwohner ab 18 Jahren erhöhte sich von 2008 bis 2011 kontinuierlich auf 3,9. In der Folge sank diese Quote wieder, 2014 lag sie bei 3,0.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
-			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10f"
 		]
 	},
 	{
@@ -325,38 +462,6 @@ var indikatorenset = [
 		]
 	},
 	{
-		"title": "Menschen aus verschiedenen Ländern sind eine Bereicherung für den Kanton",
-		"subtitle": "«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Ist das eine Bereicherung für den Kanton?»",
-		"kuerzel": "I.50.1.0013",
-		"kuerzelKunde": "1.3.01",
-		"image": "images/I.50.1.0013.jpg",
-		"description": "Menschen aus verschiedenen Ländern sind eine Bereicherung für den Kanton",
-		"id": "4719",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Ausland"
-		],
-		"stufe1": "1 Soziale Beziehungen",
-		"stufe2": "1.3 Akzeptanz von Diversität",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter Basel-Stadts als eine sehr oder eher grosse Bereicherung für die Stadt. Die Zustimmung zu dieser Frage liegt seit 2003 jeweils über 68%.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18a"
-		]
-	},
-	{
 		"title": "Es gibt zu viele Menschen aus dem Ausland in Basel-Stadt",
 		"subtitle": "«Grundsätzlich gibt es einfach zu viele Menschen aus dem Ausland bei uns.»",
 		"kuerzel": "I.50.1.0014",
@@ -418,107 +523,6 @@ var indikatorenset = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18c"
-		]
-	},
-	{
-		"title": "Beurteilung des Wohnorts",
-		"subtitle": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?»",
-		"kuerzel": "I.50.1.0016",
-		"kuerzelKunde": "2.1.01",
-		"image": "images/I.50.1.0016.jpg",
-		"description": "Beurteilung des Wohnorts",
-		"id": "4720",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Niederlassung",
-			"Quartier",
-			"Beurteilung"
-		],
-		"stufe1": "2 Verbundenheit",
-		"stufe2": "2.1 Identifikation",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "71,7% der befragten Personen lebten 2015 sehr gerne an ihrem Wohnort, ein Viertel eher gerne. Insgesamt sind 96,9% der Befragten mit ihrem gegenwärtigen Wohnort zufrieden. Die insgesamte Zufriedenheit (eher und sehr gerne) mit dem Wohnort liegt seit 2003 stets bei über 95%.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F1c"
-		]
-	},
-	{
-		"title": "Beurteilung des Wohnquartiers",
-		"subtitle": "«Wie gerne leben Sie in Ihrem Wohnquartier?»",
-		"kuerzel": "I.50.1.0017",
-		"kuerzelKunde": "2.1.02",
-		"image": "images/I.50.1.0017.jpg",
-		"description": "Beurteilung des Wohnquartiers",
-		"id": "4721",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Gemeinde"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Niederlassung",
-			"Nachbarschaft",
-			"Beurteilung"
-		],
-		"stufe1": "2 Verbundenheit",
-		"stufe2": "2.1 Identifikation",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Mit einem Anteil von 96,9% wohnten 2015 mehr Leute sehr oder eher gerne in ihrem Wohnquartier als 2011 (94,8%). Am tiefsten lag die insgesamte Zustimmung (eher und sehr gerne) 2005 mit 91%.",
-		"erlaeuterungen": "Gefragt wurden nur Personen, die in der Stadt Basel wohnen.",
-		"template": "befragungenProzent001",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F2b"
-		]
-	},
-	{
-		"title": "Beurteilung der politischen Behörden",
-		"subtitle": "«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat die Anliegen der Bevölkerung?»",
-		"kuerzel": "I.50.1.0018",
-		"kuerzelKunde": "2.2.01",
-		"image": "images/I.50.1.0018.jpg",
-		"description": "Beurteilung der politischen Behörden",
-		"id": "4724",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verwaltung",
-			"Grosser Rat",
-			"Beurteilung"
-		],
-		"stufe1": "2 Verbundenheit",
-		"stufe2": "2.2 Vertrauen in Institutionen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2015 fühlten sich 68,2% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2011 entspricht dies einem Rückgang um 2,2 Prozentpunkte. In den vorhergehenden Befragungsjahren lag die Zufriedenheit mit der Vertretung durch die Behörden jeweils deutlich unter derjenigen von 2011 und 2015 und die Frage konnte deutlich häufiger nicht beantwortet werden.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F21a"
 		]
 	},
 	{
@@ -719,6 +723,39 @@ var indikatorenset = [
 		]
 	},
 	{
+		"title": "Anteil Steuerveranlagungen mit Zuwendungen",
+		"subtitle": "",
+		"kuerzel": "I.18.2.0004",
+		"kuerzelKunde": "3.1.01",
+		"image": "images/I.18.2.0004.jpg",
+		"description": "Anteil Steuerveranlagungen mit Zuwendungen",
+		"id": 4863,
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Einkommen",
+			"Spende"
+		],
+		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "19,3% der Steuerveranlagungen im Jahr 2013 enthielten Zuwendungen. Seit 2006 ist dieser Anteil tendenziell steigend.",
+		"erlaeuterungen": "Grundlage sind die Daten der Steuererklärungen der ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, ohne Wochenaufenthalter, Unterjährige und Auswärtige. Enthalten sind auch Quellenbesteuerte, die nachträglich ordentlich veranlagt wurden; dies ist zum Beispiel bei Einkünften von über 120 000 Franken pro Kalenderjahr der Fall. Eine Veranlagung kann zwei Personen umfassen, zum Beispiel bei Verheirateten.",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
+		]
+	},
+	{
 		"title": "Freiwillige Tätigkeit",
 		"subtitle": "«Sind Sie in Ihrer Freizeit freiwillig tätig?»",
 		"kuerzel": "I.50.1.0025",
@@ -747,6 +784,227 @@ var indikatorenset = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S22"
+		]
+	},
+	{
+		"title": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit",
+		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?»",
+		"kuerzel": "I.50.4.0006",
+		"kuerzelKunde": "3.1.03",
+		"image": "images/I.50.4.0006.jpg",
+		"description": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit",
+		"id": "4865",
+		"thema": "50 Befragungen",
+		"unterthema": "Befragung 55 plus",
+		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Arbeit"
+		],
+		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2015 gaben 27,5% der Befragten an, sich in ihrer Freizeit ehrenamtlich zu betätigen, 2011 waren es 21,7%. Der Anteil Befragter, welche keine Angabe zu dieser Frage machten, nahm von 18,1% im Jahr 2011 auf 8,1% im Jahr 2015 ab.",
+		"erlaeuterungen": "Die Fragestellung hat sich leicht verändert von «Sind Sie in Ihrer Freizeit ehrenamtlich tätig?» im Jahr 2011 zu «Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?» im Jahr 2015",
+		"template": "befragungenProzent001",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F29"
+		]
+	},
+	{
+		"title": "Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren",
+		"subtitle": "",
+		"kuerzel": "I.19.1.0001",
+		"kuerzelKunde": "3.2.01",
+		"image": "images/I.19.1.0001.jpg",
+		"description": "Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren",
+		"id": "4866",
+		"thema": "19 Rechtspflege",
+		"unterthema": "Polizei",
+		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Verbrechen"
+		],
+		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe2": "3.2 Anerkennung sozialer Regeln",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Zahl der angezeigten Straftaten pro 1000 Einwohner ab 18 Jahren war von 2008 bis 2010 relativ stabil, sie bewegte sich zwischen 121,2 und 125,3. Danach stieg die Quote und erreichte 2012 163,5. Die beiden letzten Jahre zeigen nun wieder einen Rückgang der Anzahl Straftaten pro 1000 Einwohner.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
+			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
+		]
+	},
+	{
+		"title": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
+		"subtitle": "",
+		"kuerzel": "I.19.1.0002",
+		"kuerzelKunde": "3.2.02",
+		"image": "images/I.19.1.0002.jpg",
+		"description": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
+		"id": "4867",
+		"thema": "19 Rechtspflege",
+		"unterthema": "Polizei",
+		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Verbrechen"
+		],
+		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe2": "3.2 Anerkennung sozialer Regeln",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Quote erhöhte sich zwischen 2008 und 2009 von 4,5 auf 5,5. In den beiden folgenden Jahre ging sie zurück. Seit 2012 steigt sie in der Tendenz erneut, 2014 wurden pro 1000 18-Jährige und Ältere 6,6 Anzeigen wegen Veruntreuung und Betrug erfasst.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt",
+			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
+		]
+	},
+	{
+		"title": "Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl/-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren",
+		"subtitle": "",
+		"kuerzel": "I.19.1.0003",
+		"kuerzelKunde": "3.2.03",
+		"image": "images/I.19.1.0003.jpg",
+		"description": "Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl/-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren",
+		"id": "4868",
+		"thema": "19 Rechtspflege",
+		"unterthema": "Polizei",
+		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Verbrechen"
+		],
+		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe2": "3.2 Anerkennung sozialer Regeln",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Quote bewegte sich in den Jahren 2008 bis 2011 zwischen rund 61 und 66. 2012 wurden mit 86 deutlich mehr Anzeigen pro 1000 18-jährige und ältere Einwohner erfasst. Danach ging die Anzeigenquote wegen Diebstahl wieder zurück, im Jahr 2014 lag sie noch bei etwa 63.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt",
+			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
+		]
+	},
+	{
+		"title": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
+		"subtitle": "",
+		"kuerzel": "I.19.1.0004",
+		"kuerzelKunde": "3.2.04",
+		"image": "images/I.19.1.0004.jpg",
+		"description": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
+		"id": "4869",
+		"thema": "19 Rechtspflege",
+		"unterthema": "Polizei",
+		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Verbrechen"
+		],
+		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe2": "3.2 Anerkennung sozialer Regeln",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Zahl der Anzeigen wegen Körperverletzung pro 1000 Einwohner ab 18 Jahren erhöhte sich von 2008 bis 2011 kontinuierlich auf 3,9. In der Folge sank diese Quote wieder, 2014 lag sie bei 3,0.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
+			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
+		]
+	},
+	{
+		"title": "Engagement in Organisationen und Vereinen",
+		"subtitle": "«Engagierst Du Dich in einer Organisation, in einem Verein oder ähnlichem?»",
+		"kuerzel": "I.50.3.0002",
+		"kuerzelKunde": "3.3.01",
+		"image": "images/I.50.3.0002.jpg",
+		"description": "Engagement in Organisationen und Vereinen",
+		"id": "4870",
+		"thema": "50 Befragungen",
+		"unterthema": "Jugendbefragung",
+		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Jugend"
+		],
+		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe2": "3.3 Gesellschaftliche Teilhabe",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2013 gaben ein Viertel der Befragten Jugendlichen an, dass sie sich in einer Organisation, in einem Verein oder ähnlichem engagieren, 2011 lag dieser Wert noch bei 12,0%.",
+		"erlaeuterungen": "",
+		"template": "befragungenProzent001",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F28"
+		]
+	},
+	{
+		"title": "Wahlbeteiligung bei National- und Grossratswahlen",
+		"subtitle": "",
+		"kuerzel": "I.17.3.0001",
+		"kuerzelKunde": "3.3.02",
+		"image": "images/I.17.3.0001.jpg",
+		"description": "Wahlbeteiligung bei National- und Grossratswahlen",
+		"id": "4871",
+		"thema": "17 Politik",
+		"unterthema": "Wahlen",
+		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Grosser Rat"
+		],
+		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe2": "3.3 Gesellschaftliche Teilhabe",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Bei nationalen Wahlen liegt die Wahlbeteiligung im Stadtkanton rund 10 Prozentpunkte höher als bei den Wahlen ins kantonale Parlament.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
 		]
 	},
 	{
@@ -780,6 +1038,71 @@ var indikatorenset = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F20"
+		]
+	},
+	{
+		"title": "Beschäftigung mit dem Thema Politik",
+		"subtitle": "«Wie stark beschäftigt Sie im Moment das Thema Politik?»",
+		"kuerzel": "I.50.4.0007",
+		"kuerzelKunde": "3.3.04",
+		"image": "images/I.50.4.0007.jpg",
+		"description": "Beschäftigung mit dem Thema Politik",
+		"id": "4874",
+		"thema": "50 Befragungen",
+		"unterthema": "Befragung 55 plus",
+		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Grosser Rat",
+			"Beurteilung"
+		],
+		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe2": "3.3 Gesellschaftliche Teilhabe",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2011 gaben 69,7% und 2015 76,7% der Befragten an, das Thema Politik beschäftige sie eher oder sehr stark. Der Anteil Befragter, welche keine Angabe zu dieser Frage machen konnten, ging von 8,8% im Jahr 2011 auf 3,9% im Jahr 2015 zurück.",
+		"erlaeuterungen": "",
+		"template": "befragungenProzent001",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F57a"
+		]
+	},
+	{
+		"title": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld/Quartier?»",
+		"kuerzel": "I.50.4.0008",
+		"kuerzelKunde": "1.1.07",
+		"image": "images/I.50.4.0008.jpg",
+		"description": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
+		"id": "4875",
+		"thema": "50 Befragungen",
+		"unterthema": "Befragung 55 plus",
+		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Zufriedenheit",
+			"Nachbarschaft",
+			"Quartier"
+		],
+		"stufe1": "1 Soziale Beziehungen",
+		"stufe2": "1.1 Soziale Netze",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2015 gaben 80,0% der Befragten an, mit den Sozialkontakten im Wohnumfeld/Quartier zufrieden zu sein. 2011 waren 78% sehr oder eher zufrieden. Gleichzeitig reduzierte sich der Anteil derjenigen Personen, die keine Antwort geben konnten oder wollten, von 2011 auf 2015 um fast 3 Prozentpunkte.",
+		"erlaeuterungen": "",
+		"template": "befragungenProzent001",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10g"
 		]
 	},
 	{
@@ -879,328 +1202,6 @@ var indikatorenset = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F20"
-		]
-	},
-	{
-		"title": "Materielle oder finanzielle Hilfeleistungen durch Arbeitskollegen, Freunde und Bekannte oder Nachbarn",
-		"subtitle": "«Erhalten Sie oder ein anderes Haushaltsmitglied (finanzielle oder materielle) Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»",
-		"kuerzel": "I.50.2.0001",
-		"kuerzelKunde": "1.1.01",
-		"image": "images/I.50.2.0001.jpg",
-		"description": "Materielle oder finanzielle Hilfeleistungen durch Arbeitskollegen, Freunde und Bekannte oder Nachbarn",
-		"id": "4716",
-		"thema": "50 Befragungen",
-		"unterthema": "Familienbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit",
-			"Hilfeleistung",
-			"Nachbarschaft"
-		],
-		"stufe1": "1 Soziale Beziehungen",
-		"stufe2": "1.1 Soziale Netze",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2013 erhielten 39,7% der Befragten von Freunden oder Bekannten Hilfeleistungen (2009: 46,2%), 28,5% von den Nachbarn (2009: 34,1%). Von den Arbeitskollegen Hilfeleistungen zu bekommen, bejahten 2013 12,1% der Befragten, 2009 waren es 13,3%.",
-		"erlaeuterungen": "2013: N=3119; 2009: N=2231",
-		"template": "befragungen001",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F74c-e"
-		]
-	},
-	{
-		"title": "Unterstützung von Freunden oder Nachbarn",
-		"subtitle": "«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch an Freunde/Nachbarn gewendet?»",
-		"kuerzel": "I.50.2.0002",
-		"kuerzelKunde": "1.1.03",
-		"image": "images/I.50.2.0002.jpg",
-		"description": "Unterstützung von Freunden oder Nachbarn",
-		"id": "4848",
-		"thema": "50 Befragungen",
-		"unterthema": "Familienbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit",
-			"Schule",
-			"Hilfeleistung",
-			"Nachbarschaft"
-		],
-		"stufe1": "1 Soziale Beziehungen",
-		"stufe2": "1.1 Soziale Netze",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Knapp die Hälfte der Befragten haben 2009 und 2013 angegeben, sich bei Erziehungsfragen schon einmal an Freunde oder Nachbarn gewendet zu haben. Im Vergleich zu den anderen Lebenssituationen, in welchen die Befragten Hilfe in Anspruch nehmen, ist dies der deutlich grösste Anteil.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F72a-g"
-		]
-	},
-	{
-		"title": "Gutes Verhältnis zur Nachbarschaft",
-		"subtitle": "«Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.»",
-		"kuerzel": "I.50.2.0003",
-		"kuerzelKunde": "1.1.04",
-		"image": "images/I.50.2.0003.jpg",
-		"description": "Gutes Verhältnis zur Nachbarschaft",
-		"id": "4849",
-		"thema": "50 Befragungen",
-		"unterthema": "Familienbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachbarschaft"
-		],
-		"stufe1": "1 Soziale Beziehungen",
-		"stufe2": "1.1 Soziale Netze",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2009 gaben 90,4% und 2013 89,6% der Familien an, ein gutes Verhältnis zu ihren Nachbarinnen und Nachbarn zu pflegen.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F19c"
-		]
-	},
-	{
-		"title": "Zusammensetzung des Freundeskreises",
-		"subtitle": "«Wie sieht Dein Freundeskreis aus?»",
-		"kuerzel": "I.50.3.0001",
-		"kuerzelKunde": "1.1.05",
-		"image": "images/I.50.3.0001.jpg",
-		"description": "Zusammensetzung des Freundeskreises",
-		"id": "4850",
-		"thema": "50 Befragungen",
-		"unterthema": "Jugendbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Gefühl"
-		],
-		"stufe1": "1 Soziale Beziehungen",
-		"stufe2": "1.1 Soziale Netze",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2013 gaben 78,7% der befragten Jugendlichen an, sowohl Mädchen als auch Jungen in ihrem Freundeskreis zu haben. 0,8% gaben an, keinen Freundeskreis zu haben. Weitere 3,9% machten keine Angabe. Im Jahr 2009 weichen die Angaben der Jugendlichen bei allen Antwortkategorien um weniger als 2 Prozentpunkte von den Werten des Jahres 2015 ab.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F34"
-		]
-	},
-	{
-		"title": "Engagement in Organisationen und Vereinen",
-		"subtitle": "«Engagierst Du Dich in einer Organisation, in einem Verein oder ähnlichem?»",
-		"kuerzel": "I.50.3.0002",
-		"kuerzelKunde": "3.3.01",
-		"image": "images/I.50.3.0002.jpg",
-		"description": "Engagement in Organisationen und Vereinen",
-		"id": "4870",
-		"thema": "50 Befragungen",
-		"unterthema": "Jugendbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Jugend"
-		],
-		"stufe1": "3 Gemeinwohlorientierung",
-		"stufe2": "3.3 Gesellschaftliche Teilhabe",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2013 gaben ein Viertel der Befragten Jugendlichen an, dass sie sich in einer Organisation, in einem Verein oder ähnlichem engagieren, 2011 lag dieser Wert noch bei 12,0%.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F28"
-		]
-	},
-	{
-		"title": "Materielle Hilfeleistungen von Arbeitskollegen, Freunden und Bekannten oder Nachbarn",
-		"subtitle": "«Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»",
-		"kuerzel": "I.50.4.0004",
-		"kuerzelKunde": "1.1.02",
-		"image": "images/I.50.4.0004.jpg",
-		"description": "Materielle Hilfeleistungen von Arbeitskollegen, Freunden und Bekannten oder Nachbarn",
-		"id": "4718",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit",
-			"Hilfeleistung",
-			"Nachbarschaft"
-		],
-		"stufe1": "1 Soziale Beziehungen",
-		"stufe2": "1.1 Soziale Netze",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Von den Befragten erhielten 2015 rund ein Viertel materielle Hilfeleistungen von Freunden und Bekannten oder von Nachbarn (2011: jeweils rund 16%). Tiefer liegt der Wert bei den Arbeitskollegen: von diesen bekamen 5,2% der Befragten materielle Hilfeleistungen (2011: 2,8%). Jeweils rund 20% der Befragten machten 2015 keine Angaben zu diesen Fragen. Auf die Frage nach Hilfeleistungen durch Arbeitskollegen konnten weitere rund 21% nicht antworten, weil sie nicht mehr erwerbstätig sind.",
-		"erlaeuterungen": "2015: N=1427; 2011: N=1689<br/>Materielle Hilfeleistungen: Garten- und Reinigungsarbeiten, Einkaufshilfe, Füttern von Tieren, Hüte- und Pflegeeinsätze etc.",
-		"template": "befragungen001",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F54e"
-		]
-	},
-	{
-		"title": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
-		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
-		"kuerzel": "I.50.4.0005",
-		"kuerzelKunde": "1.1.06",
-		"image": "images/I.50.4.0005.jpg",
-		"description": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
-		"id": "4851",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Nachbarschaft"
-		],
-		"stufe1": "1 Soziale Beziehungen",
-		"stufe2": "1.1 Soziale Netze",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2011 waren 85,3% der Befragten zufrieden mit dem Austausch mit den Nachbarn, 2015 betrug die Zufriedenheit 87,8%, wobei der Anteil sehr zufriedener Personen im Vergleich zu 2011 um 4,2 Prozentpunkte höher lag. Gleichzeitig reduzierte sich der Anteil derjenigen Personen, die keine Antwort geben konnten oder wollten, von 2011 auf 2015 um 2,5 Prozentpunkte.",
-		"erlaeuterungen": "Gefragt wurde: «Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
-		"template": "befragungenProzent001",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10f"
-		]
-	},
-	{
-		"title": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit",
-		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?»",
-		"kuerzel": "I.50.4.0006",
-		"kuerzelKunde": "3.1.03",
-		"image": "images/I.50.4.0006.jpg",
-		"description": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit",
-		"id": "4865",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit"
-		],
-		"stufe1": "3 Gemeinwohlorientierung",
-		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2015 gaben 27,5% der Befragten an, sich in ihrer Freizeit ehrenamtlich zu betätigen, 2011 waren es 21,7%. Der Anteil Befragter, welche keine Angabe zu dieser Frage machten, nahm von 18,1% im Jahr 2011 auf 8,1% im Jahr 2015 ab.",
-		"erlaeuterungen": "Die Fragestellung hat sich leicht verändert von «Sind Sie in Ihrer Freizeit ehrenamtlich tätig?» im Jahr 2011 zu «Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?» im Jahr 2015",
-		"template": "befragungenProzent001",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F29"
-		]
-	},
-	{
-		"title": "Beschäftigung mit dem Thema Politik",
-		"subtitle": "«Wie stark beschäftigt Sie im Moment das Thema Politik?»",
-		"kuerzel": "I.50.4.0007",
-		"kuerzelKunde": "3.3.04",
-		"image": "images/I.50.4.0007.jpg",
-		"description": "Beschäftigung mit dem Thema Politik",
-		"id": "4874",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Grosser Rat",
-			"Beurteilung"
-		],
-		"stufe1": "3 Gemeinwohlorientierung",
-		"stufe2": "3.3 Gesellschaftliche Teilhabe",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2011 gaben 69,7% und 2015 76,7% der Befragten an, das Thema Politik beschäftige sie eher oder sehr stark. Der Anteil Befragter, welche keine Angabe zu dieser Frage machen konnten, ging von 8,8% im Jahr 2011 auf 3,9% im Jahr 2015 zurück.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F57a"
-		]
-	},
-	{
-		"title": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
-		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld/Quartier?»",
-		"kuerzel": "I.50.4.0008",
-		"kuerzelKunde": "1.1.07",
-		"image": "images/I.50.4.0008.jpg",
-		"description": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
-		"id": "4875",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Nachbarschaft",
-			"Quartier"
-		],
-		"stufe1": "1 Soziale Beziehungen",
-		"stufe2": "1.1 Soziale Netze",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2015 gaben 80,0% der Befragten an, mit den Sozialkontakten im Wohnumfeld/Quartier zufrieden zu sein. 2011 waren 78% sehr oder eher zufrieden. Gleichzeitig reduzierte sich der Anteil derjenigen Personen, die keine Antwort geben konnten oder wollten, von 2011 auf 2015 um fast 3 Prozentpunkte.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10g"
 		]
 	}
 ];

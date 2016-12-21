@@ -1,0 +1,169 @@
+{
+  "series": [
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": true
+      },
+      "index": 0,
+      "color": "#923f8d",
+      "data": [
+        [
+          "2005",
+          899370
+        ],
+        [
+          "2006",
+          752081
+        ],
+        [
+          "2007",
+          568955
+        ],
+        [
+          "2008",
+          584752
+        ],
+        [
+          "2009",
+          1936979
+        ],
+        [
+          "2010",
+          3114546
+        ],
+        [
+          "2011",
+          4254039
+        ],
+        [
+          "2012",
+          5180983
+        ],
+        [
+          "2013",
+          8086220
+        ],
+        [
+          "2014",
+          8914139
+        ],
+        [
+          "2015",
+          9525625
+        ]
+      ],
+      "name": "Mietzinsbeiträge in Franken",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "forExport": true,
+    "renderTo": "container-4153"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.13.2.0003 Ausbezahlte Familienmietzinsbeiträge"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "yAxis": {
+    "min": 0,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "max": 10000000,
+    "tickInterval": 2000000
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Amt für Sozialbeiträge Basel-Stadt"
+  },
+  "legend": {
+    "enabled": false,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "enabled": true,
+        "formatter": function () {
+          var last  = this.series.data[this.series.data.length - 1];
+          var first  = this.series.data[0];
+          if (this.point.y === first.y || this.point.y === last.y ) {
+            return Highcharts.numberFormat(this.point.y, 0, ",", " ");
+          }
+        }
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.13.2.0003"
+  }
+}
