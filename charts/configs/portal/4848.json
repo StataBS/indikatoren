@@ -1,0 +1,194 @@
+{
+  "series": [
+    {
+      "color": "#A8C4CB",
+      "index": 1,
+      "data": [
+        [
+          "Berufliche Probleme",
+          26.6110933
+        ],
+        [
+          "Gesundheitliche Probleme",
+          18.94838089
+        ],
+        [
+          "Finanzielle Probleme",
+          9.426098108
+        ],
+        [
+          "Wohnungsprobleme",
+          19.01250401
+        ],
+        [
+          "Partnerschaftliche Probleme",
+          31.22795768
+        ],
+        [
+          "Schulische Probleme der Kinder",
+          23.56524527
+        ],
+        [
+          "Erziehungsfragen oder -probleme",
+          46.90605963
+        ]
+      ],
+      "name": "2009 (N=3119)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#256370",
+      "index": 0,
+      "data": [
+        [
+          "Berufliche Probleme",
+          29.22456298
+        ],
+        [
+          "Gesundheitliche Probleme",
+          20.6185567
+        ],
+        [
+          "Finanzielle Probleme",
+          8.337068579
+        ],
+        [
+          "Wohnungsprobleme",
+          22.27700583
+        ],
+        [
+          "Partnerschaftliche Probleme",
+          33.34827432
+        ],
+        [
+          "Schulische Probleme der Kinder",
+          22.99417302
+        ],
+        [
+          "Erziehungsfragen oder -probleme",
+          46.57104437
+        ]
+      ],
+      "name": "2013 (N=2231)",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "type": "column",
+    "inverted": true,
+    "forExport": true,
+    "renderTo": "container-4848"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.50.2.0002 Unterstützung von Freunden oder Nachbarn"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch an Freunde\u002FNachbarn gewendet?»",
+    "align": "left"
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F72a-g"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 143,
+    "y": 65,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "I.50.2.0002"
+  }
+}

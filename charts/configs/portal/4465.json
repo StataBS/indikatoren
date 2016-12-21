@@ -1,0 +1,540 @@
+{
+  "series": [
+    {
+      "color": "#69929B",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2006,
+          24.5
+        ],
+        [
+          2007,
+          23.1
+        ],
+        [
+          2008,
+          22.2
+        ],
+        [
+          2009,
+          21.7
+        ],
+        [
+          2010,
+          20.9
+        ],
+        [
+          2011,
+          20.7
+        ],
+        [
+          2012,
+          20.1
+        ],
+        [
+          2013,
+          19.6
+        ],
+        [
+          2014,
+          18.7
+        ],
+        [
+          2015,
+          18.7
+        ]
+      ],
+      "name": "Ausland"
+    },
+    {
+      "color": "#672773",
+      "data": [
+        [
+          2006,
+          9.1
+        ],
+        [
+          2007,
+          9.1
+        ],
+        [
+          2008,
+          8.9
+        ],
+        [
+          2009,
+          8.3
+        ],
+        [
+          2010,
+          8.1
+        ],
+        [
+          2011,
+          8.4
+        ],
+        [
+          2012,
+          7.8
+        ],
+        [
+          2013,
+          8
+        ],
+        [
+          2014,
+          7.8
+        ],
+        [
+          2015,
+          7.7
+        ]
+      ],
+      "name": "Deutschland"
+    },
+    {
+      "color": "#007A2F",
+      "data": [
+        [
+          2006,
+          21
+        ],
+        [
+          2007,
+          20.1
+        ],
+        [
+          2008,
+          18.9
+        ],
+        [
+          2009,
+          17.5
+        ],
+        [
+          2010,
+          16.8
+        ],
+        [
+          2011,
+          15.9
+        ],
+        [
+          2012,
+          15
+        ],
+        [
+          2013,
+          14.9
+        ],
+        [
+          2014,
+          14.6
+        ],
+        [
+          2015,
+          14.7
+        ]
+      ],
+      "name": "Italien"
+    },
+    {
+      "color": "#73BA7C",
+      "data": [
+        [
+          2006,
+          21.9
+        ],
+        [
+          2007,
+          20.7
+        ],
+        [
+          2008,
+          20.1
+        ],
+        [
+          2009,
+          19.9
+        ],
+        [
+          2010,
+          19.9
+        ],
+        [
+          2011,
+          19.9
+        ],
+        [
+          2012,
+          19.6
+        ],
+        [
+          2013,
+          19.1
+        ],
+        [
+          2014,
+          18.2
+        ],
+        [
+          2015,
+          17.6
+        ]
+      ],
+      "name": "Spanien"
+    },
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          2006,
+          33.5
+        ],
+        [
+          2007,
+          33.8
+        ],
+        [
+          2008,
+          33.5
+        ],
+        [
+          2009,
+          33
+        ],
+        [
+          2010,
+          32.9
+        ],
+        [
+          2011,
+          32.6
+        ],
+        [
+          2012,
+          32.1
+        ],
+        [
+          2013,
+          32
+        ],
+        [
+          2014,
+          31.4
+        ],
+        [
+          2015,
+          30.8
+        ]
+      ],
+      "name": "Türkei"
+    },
+    {
+      "color": "#D3E2E5",
+      "data": [
+        [
+          2006,
+          37.7
+        ],
+        [
+          2007,
+          37.5
+        ],
+        [
+          2008,
+          36.4
+        ],
+        [
+          2009,
+          36.9
+        ],
+        [
+          2010,
+          36.7
+        ],
+        [
+          2011,
+          36.1
+        ],
+        [
+          2012,
+          35.1
+        ],
+        [
+          2013,
+          34.2
+        ],
+        [
+          2014,
+          33
+        ],
+        [
+          2015,
+          32.7
+        ]
+      ],
+      "name": "Ehem. Jugoslawien ohne SLO"
+    },
+    {
+      "color": "#9F7C5A",
+      "data": [
+        [
+          2006,
+          26
+        ],
+        [
+          2007,
+          27.2
+        ],
+        [
+          2008,
+          25.4
+        ],
+        [
+          2009,
+          25.7
+        ],
+        [
+          2010,
+          23.4
+        ],
+        [
+          2011,
+          26.9
+        ],
+        [
+          2012,
+          28
+        ],
+        [
+          2013,
+          27.7
+        ],
+        [
+          2014,
+          28
+        ],
+        [
+          2015,
+          29.3
+        ]
+      ],
+      "name": "Maghreb und Ägypten"
+    },
+    {
+      "color": "#E7CFE2",
+      "data": [
+        [
+          2006,
+          14.4
+        ],
+        [
+          2007,
+          13.9
+        ],
+        [
+          2008,
+          14.5
+        ],
+        [
+          2009,
+          15.7
+        ],
+        [
+          2010,
+          14.1
+        ],
+        [
+          2011,
+          13.1
+        ],
+        [
+          2012,
+          13.6
+        ],
+        [
+          2013,
+          13.8
+        ],
+        [
+          2014,
+          15.2
+        ],
+        [
+          2015,
+          14.6
+        ]
+      ],
+      "name": "EU-Oststaaten"
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          2006,
+          14.7
+        ],
+        [
+          2007,
+          15.1
+        ],
+        [
+          2008,
+          13.4
+        ],
+        [
+          2009,
+          12.6
+        ],
+        [
+          2010,
+          14.1
+        ],
+        [
+          2011,
+          13.8
+        ],
+        [
+          2012,
+          13.5
+        ],
+        [
+          2013,
+          13.7
+        ],
+        [
+          2014,
+          12.3
+        ],
+        [
+          2015,
+          12.9
+        ]
+      ],
+      "name": "Mittel- und Südamerika"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "forExport": true,
+    "renderTo": "container-4465"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.01.1.0021 Segregationsindex nach Staatsangehörigkeit seit 2006"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "yAxis": {
+    "min": 0,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "x": 20,
+    "y": 35,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    },
+    "series": {
+      "dataLabels": {
+        "enabled": false,
+        "formatter": function () {
+            var first  = this.series.data[0];
+            var last  = this.series.data[this.series.data.length - 1];            
+            if (this.point.category === first.category  &&  this.point.y === first.y ) {
+              return this.series.name;
+            }
+            return "";
+          }
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.01.1.0021"
+  }
+}

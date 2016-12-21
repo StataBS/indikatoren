@@ -1,0 +1,220 @@
+{
+  "series": [
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          "Klybeck",
+          31.8503
+        ],
+        [
+          "Kleinhüningen",
+          32.4669
+        ],
+        [
+          "Rosental",
+          34.0638
+        ],
+        [
+          "Matthäus",
+          34.4628
+        ],
+        [
+          "St. Johann",
+          36.5693
+        ],
+        [
+          "Clara",
+          37.0875
+        ],
+        [
+          "Iselin",
+          37.0909
+        ],
+        [
+          "Gundeldingen",
+          38.659
+        ],
+        [
+          "Breite",
+          38.8153
+        ],
+        [
+          "Hirzbrunnen",
+          39.1704
+        ],
+        [
+          "Gotthelf",
+          41.6946
+        ],
+        [
+          "Altstadt Kleinbasel",
+          43.8589
+        ],
+        [
+          "Wettstein",
+          45.6134
+        ],
+        [
+          "Am Ring",
+          46.8958
+        ],
+        [
+          "Bachletten",
+          46.9222
+        ],
+        [
+          "Riehen",
+          47.7031
+        ],
+        [
+          "St. Alban",
+          49.285
+        ],
+        [
+          "Bruderholz",
+          49.54
+        ],
+        [
+          "Vorstädte",
+          50.4173
+        ],
+        [
+          "Bettingen",
+          52.377
+        ],
+        [
+          "Altstadt Grossbasel",
+          55.1904
+        ]
+      ],
+      "name": "Wohnfläche pro Kopf 2015",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "events": {
+      "load": function () {                
+                this.credits.element.onclick = function() {
+                    /*
+                    window.open(
+                    "http://www.statistik.bs.ch",
+                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+                    );
+                    */
+                };
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "scatter",
+    "inverted": true,
+    "forExport": true,
+    "renderTo": "container-4834"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.09.1.0012 Wohnfläche pro Kopf"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        },
+        "formatter": function (){
+                    return Highcharts.numberFormat((this.y*100),1)+'%';                
+                }
+      }
+    }
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "formatter": function (){
+                return Highcharts.numberFormat((this.value), 0, ".", "");                
+            },
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "min": 0
+  },
+  "tooltip": {
+    "pointFormatter": function (){
+            //rank is calculated from index, thus data needs to be sorted by rank ascending.
+            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>' + Highcharts.numberFormat(this.y, 1, "," ,"") + ' m²</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
+        },
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik;\u003Cbr\u002F\u003EKantonale Baustatistik"
+  },
+  "legend": {
+    "enabled": false,
+    "symbolRadius": 0
+  },
+  "exporting": {
+    "filename": "I.09.1.0012"
+  }
+}

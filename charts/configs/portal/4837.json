@@ -1,0 +1,220 @@
+{
+  "series": [
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "Klybeck",
+          0.6086956209
+        ],
+        [
+          "Kleinhüningen",
+          0.6372415353
+        ],
+        [
+          "Clara",
+          0.6584951805
+        ],
+        [
+          "Matthäus",
+          0.6746880259
+        ],
+        [
+          "Rosental",
+          0.6825391622
+        ],
+        [
+          "Iselin",
+          0.6941878054
+        ],
+        [
+          "St. Johann",
+          0.7058676515
+        ],
+        [
+          "Breite",
+          0.7127164035
+        ],
+        [
+          "Hirzbrunnen",
+          0.7290199848
+        ],
+        [
+          "Altstadt Kleinbasel",
+          0.7344872505
+        ],
+        [
+          "Bruderholz",
+          0.7368534062
+        ],
+        [
+          "Riehen",
+          0.7386451888
+        ],
+        [
+          "Bettingen",
+          0.7386451888
+        ],
+        [
+          "Gundeldingen",
+          0.7435328659
+        ],
+        [
+          "St. Alban",
+          0.7473000328
+        ],
+        [
+          "Gotthelf",
+          0.7708965529
+        ],
+        [
+          "Wettstein",
+          0.7717170245
+        ],
+        [
+          "Bachletten",
+          0.7867315425
+        ],
+        [
+          "Am Ring",
+          0.8025100513
+        ],
+        [
+          "Vorstädte",
+          0.8100294788
+        ],
+        [
+          "Altstadt Grossbasel",
+          0.821070228
+        ]
+      ],
+      "name": "Erwerbstätigenquote 2010-2014",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "events": {
+      "load": function () {                
+                this.credits.element.onclick = function() {
+                    /*
+                    window.open(
+                    "http://www.statistik.bs.ch",
+                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+                    );
+                    */
+                };
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "scatter",
+    "inverted": true,
+    "forExport": true,
+    "renderTo": "container-4837"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.03.1.0002 Erwerbstätigenquote"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        },
+        "formatter": function (){
+                    return Highcharts.numberFormat((this.y*100),1)+'%';                
+                }
+      }
+    }
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "formatter": function (){
+                return Highcharts.numberFormat((this.value*100),0)+'%';                
+            },
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "min": 0
+  },
+  "tooltip": {
+    "pointFormatter": function (){
+            //rank is calculated from index, thus data needs to be sorted by rank ascending.
+            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.y*100),2)+'%</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
+        },
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO"
+  },
+  "legend": {
+    "enabled": false,
+    "symbolRadius": 0
+  },
+  "exporting": {
+    "filename": "I.03.1.0002"
+  }
+}

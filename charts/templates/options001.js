@@ -33,11 +33,15 @@ Highcharts.setOptions({
         }
     }
 });
+
 //Add "Einbetten" menu item
+var indikatorensetView = ($.url('?Indikatorenset') || $.url('?indikatorensetView') ) ? true : false;
+var indikatorensetParameter = indikatorensetView ? '&indikatorensetView=' + indikatorensetView : '';
 Highcharts.getOptions().exporting.buttons.contextButton.menuItems.push(
     {
         "text": "URL", 
-        "onclick": function(){
-            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart.html?kuerzel=' + this.renderTo.id.substring(10), '_blank'); 
+        "onclick": function(){            
+            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart.html?id=' + this.renderTo.id.substring(10) + indikatorensetParameter, '_blank'); 
         }
     });
+    

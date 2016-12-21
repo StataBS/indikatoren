@@ -1,0 +1,220 @@
+{
+  "series": [
+    {
+      "color": "#923F8D",
+      "data": [
+        [
+          "Altstadt Grossbasel",
+          0.1204819277
+        ],
+        [
+          "Altstadt Kleinbasel",
+          0.1413612565
+        ],
+        [
+          "Vorstädte",
+          0.1598002497
+        ],
+        [
+          "Clara",
+          0.1815799326
+        ],
+        [
+          "Gundeldingen",
+          0.2039478641
+        ],
+        [
+          "Am Ring",
+          0.208682855
+        ],
+        [
+          "Wettstein",
+          0.2200761697
+        ],
+        [
+          "Matthäus",
+          0.2246445498
+        ],
+        [
+          "Breite",
+          0.226584507
+        ],
+        [
+          "St. Johann",
+          0.252143138
+        ],
+        [
+          "Rosental",
+          0.2522341376
+        ],
+        [
+          "Gotthelf",
+          0.2540464462
+        ],
+        [
+          "Iselin",
+          0.2606669712
+        ],
+        [
+          "Klybeck",
+          0.2784552846
+        ],
+        [
+          "St. Alban",
+          0.2791754585
+        ],
+        [
+          "Bachletten",
+          0.2951947892
+        ],
+        [
+          "Kleinhüningen",
+          0.3129812981
+        ],
+        [
+          "Bettingen",
+          0.3141210375
+        ],
+        [
+          "Hirzbrunnen",
+          0.3406156902
+        ],
+        [
+          "Riehen",
+          0.3593376428
+        ],
+        [
+          "Bruderholz",
+          0.3820925553
+        ]
+      ],
+      "name": "Jugendquotient 2015",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "events": {
+      "load": function () {                
+                this.credits.element.onclick = function() {
+                    /*
+                    window.open(
+                    "http://www.statistik.bs.ch",
+                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+                    );
+                    */
+                };
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "scatter",
+    "inverted": true,
+    "forExport": true,
+    "renderTo": "container-4829"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "GS-8 Jugendquotient"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        },
+        "formatter": function (){
+                    return Highcharts.numberFormat((this.y*100),1)+'%';                
+                }
+      }
+    }
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "formatter": function (){
+                return Highcharts.numberFormat((this.value*100),0)+'%';                
+            },
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "min": 0
+  },
+  "tooltip": {
+    "pointFormatter": function (){
+            //rank is calculated from index, thus data needs to be sorted by rank ascending.
+            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.y*100),2)+'%</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
+        },
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+  },
+  "legend": {
+    "enabled": false,
+    "symbolRadius": 0
+  },
+  "exporting": {
+    "filename": "I.01.1.0041"
+  }
+}

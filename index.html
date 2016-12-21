@@ -13,16 +13,20 @@
     <script src="assets/js/bootstrap-multiselect.js" type="text/javascript"></script>
     <script src="assets/js/filter-2.1.0.js" type="text/javascript"></script>
     <script src="assets/js/url-min.js" type="text/javascript"></script>
-    <script src="metadata/indikatoren.js" type="text/javascript"></script>
-    <script src="assets/js/highcharts-4.2.6.min.js" type="text/javascript" ></script>
-    <script src="assets/js/highcharts-more-4.2.6.js" type="text/javascript" ></script>
-    <script src="assets/js/highcharts-data-4.2.6.min.js" type="text/javascript" ></script>
-    <script src="assets/js/highcharts-exporting-4.2.6.min.js" type="text/javascript" ></script>
+    <script src="metadata/all/indikatoren.js" type="text/javascript"></script>
+    <script src="metadata/all/templatesById.js" type="text/javascript"></script>
+    <script src="node_modules/highcharts/highcharts.js" type="text/javascript"></script>
+    <script src="node_modules/highcharts/highcharts-more.js" type="text/javascript"></script>    
+    <script src="node_modules/highcharts/modules/data.js" type="text/javascript"></script>
+    <script src="node_modules/highcharts/modules/map.js" type="text/javascript"></script>
+	  <script src="node_modules/highcharts/modules/exporting.js" type="text/javascript"></script>    
     <!-- if highcharts-offline-exporting is used, exporting will be done locally: http://www.highcharts.com/docs/export-module/client-side-export -->
     <!--script src="assets/js/highcharts-offline-exporting-4.2.6.js" type="text/javascript" ></script-->
-    <script src="assets/js/highcharts-export-csv-1.4.2.js" type="text/javascript" ></script>
+    <script src="node_modules/highcharts-export-csv/export-csv.js" type="text/javascript"></script>
     <script src="assets/js/indikatoren-filter.js" type="text/javascript"></script>
     <script src="assets/js/indikatoren-highcharts.js" type="text/javascript"></script>
+    <script src='geojson/wohnviertel_reproj_mollweide_simp.js' type="text/javascript"></script>    
+    <script src='geojson/rhein_reproj_mollweide_simp.js' type="text/javascript"></script>
     <!--script src="assets/js/findEventHandlers.js" type="text/javascript"></script-->
   </head>
 
@@ -124,7 +128,7 @@
                     <option value="kuerzel_desc">Sortierung: Thema &darr;</option>
                 </select>
               </div>
-              <div class="col-xs-3" id="unterthema_criteria">                          
+              <div class="col-xs-6" id="unterthema_criteria">                          
                 <select class="form-control" id="unterthema_filter">
                   <option value="all">Unterthema: Alle</option>  
                 </select>
@@ -132,7 +136,7 @@
               <div class="hidden per-page">
                 Per Page: <span id="per_page" class="content"></span>
               </div>
-              <div id="pagination" class="indikatoren-pagination col-xs-9 pull-right"></div>
+              <div id="pagination" class="indikatoren-pagination col-xs-6 pull-right"></div>
             </div> 
           </div>
         </div>
@@ -202,13 +206,13 @@
     <!-- html templates -->
     <!-- chart thumbnail template for portal view -->
     <script id="indikator-template-carousel-portal" type="text/html">  
-      <div class="col-xs-3 indikator" indikator-fid-data="<%= _fid %>" indikator-kuerzel-data="<%= kuerzel %>">
+      <div class="col-xs-3 indikator" indikator-fid-data="<%= _fid %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>">
         <div class="thumbnail">
-          <a id="thumbnail-lightbox-link-<%= _fid %>" href="#lightbox" data-toggle="modal" data-slide-to="<%= getIndexByFid(_fid) %>" indikator-kuerzel-data="<%= kuerzel %>" indikator-fid-data="<%= _fid %>">
+          <a id="thumbnail-lightbox-link-<%= _fid %>" href="#lightbox" data-toggle="modal" data-slide-to="<%= getIndexByFid(_fid) %>" indikator-id-data="<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" indikator-fid-data="<%= _fid %>">
             <div class="caption">            
               <h5><%= kuerzel %></h5>                                                                                                                      
             </div>
-            <img src="<%= 'images/portal/' + kuerzel + '.svg' %>" alt="<%= kuerzel %>: <%= description %>" title="<%= kuerzel %>: <%= description %>"  class="img-responsive"/>
+            <img src="<%= 'images/portal/' + id + '.svg' %>" alt="<%= kuerzel %>: <%= description %>" title="<%= kuerzel %>: <%= description %>"  class="img-responsive"/>
           </a>
         </div>
       </div>
@@ -216,13 +220,13 @@
 
     <!-- chart thumbnail template for indikatorenset view -->
     <script id="indikator-template-carousel-indikatorenset" type="text/html">  
-      <div class="col-xs-3 indikator" indikator-fid-data="<%= _fid %>" indikator-kuerzel-data="<%= kuerzel %>">
+      <div class="col-xs-3 indikator" indikator-fid-data="<%= _fid %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>">
         <div class="thumbnail">
-          <a id="thumbnail-lightbox-link-<%= _fid %>" href="#lightbox" data-toggle="modal" data-slide-to="<%= getIndexByFid(_fid) %>" indikator-kuerzel-data="<%= kuerzel %>" indikator-fid-data="<%= _fid %>">
+          <a id="thumbnail-lightbox-link-<%= _fid %>" href="#lightbox" data-toggle="modal" data-slide-to="<%= getIndexByFid(_fid) %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" indikator-fid-data="<%= _fid %>">
             <div class="caption">            
               <h5><%= kuerzelKunde %></h5>
             </div>                                                                              
-            <img src="<%= 'images/indikatorenset/' + kuerzel + '.svg' %>" alt="<%= kuerzelKunde %>: <%= description %>" title="<%= kuerzelKunde %>: <%= description %>"  class="img-responsive"/>
+            <img src="<%= 'images/indikatorenset/' + id + '.svg' %>" alt="<%= kuerzelKunde %>: <%= description %>" title="<%= kuerzelKunde %>: <%= description %>"  class="img-responsive"/>
           </a>
         </div>
       </div>
@@ -231,7 +235,7 @@
     <!-- full modal chart template for portal view -->
     <script id="indikator-template-modal-portal" type="text/html">
       <div class="item">
-        <div id="container-<%= kuerzel %>" indikator-kuerzel-data="<%= kuerzel %>" class="highcharts-wrapper"></div>
+        <div id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" class="highcharts-wrapper"></div>
         <!-- hide lesehilfe if empty -->
         <div id='lesehilfe' class=<%= (lesehilfe==="" ? "'hidden'": "''" ) %>>
           <h1>Lesehilfe</h1>
@@ -255,7 +259,7 @@
     <!-- full modal chart template for indikatorenset view -->
     <script id="indikator-template-modal-indikatorenset" type="text/html">
       <div class="item">
-        <div id="container-<%= kuerzel %>" indikator-kuerzel-data="<%= kuerzel %>" class="highcharts-wrapper"></div>
+        <div id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" class="highcharts-wrapper"></div>
         <!-- hide lesehilfe if empty -->
         <div id='lesehilfe' class=<%= (lesehilfe==="" ? "'hidden'": "''" ) %>>
           <h1>Lesehilfe</h1>

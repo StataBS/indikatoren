@@ -7,20 +7,29 @@ var execfile = require("execfile");
 
 var glob = require("glob");
 var indikatoren = [];
+var kuerzelById = {};
+var idByKuerzel = {};
+var templatesById = {};
 console.log('Searching for json files...');
-var files = glob.sync("metadata/single/I*.js");
+var files = glob.sync("metadata/single/*.js");
 files.forEach(function(filepath){
     console.log('Adding ' + filepath + ' to json database...');
     var ctx = execfile(filepath);
     var indikator = ctx.indikatoren[0];
     indikatoren.push(indikator);            
+    kuerzelById[indikator.id] = indikator.kuerzel;
+    idByKuerzel[indikator.kuerzel] = indikator.id;
+    templatesById[indikator.id] = indikator.template;
 });
 console.log('Saving json database...');
 saveToJsonFile('indikatoren', indikatoren, console);
+saveToJsonFile('kuerzelById', kuerzelById, console);
+saveToJsonFile('idByKuerzel', idByKuerzel, console);
+saveToJsonFile('templatesById', templatesById, console);
 //console.log('...done!');
 
 function saveToJsonFile(name, obj, console){
     var fs = require('fs');
-    var jsonFile = "var indikatoren = " + JSON.stringify(obj, null, '\t') + ";";
-    fs.writeFile('metadata/' + name + '.js', jsonFile);
+    var jsonFile = "var " + name + " = " + JSON.stringify(obj, null, '\t') + ";";
+    fs.writeFile('metadata/all/' + name + '.js', jsonFile);
 };

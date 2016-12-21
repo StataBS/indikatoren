@@ -21,9 +21,9 @@ install:
 - npm install
 script: 
 - npm test
-after_success:
-- run-s build:database build:partial_databases build:charts build:images_phantom_fast
+- npm run build
 - npm run deploy
+after_success:
 branches:
   except:
   - gh-pages
@@ -31,5 +31,6 @@ env:
   global:
   - SSH_KEY="id_rsa"
   - GIT_NAME="travis-ci.org"
+  - GIT_EMAIL="travis@travis-ci.org"
   - SOURCE_DIR="."
   - DEPLOY_BRANCH="master"

@@ -43,6 +43,7 @@ var template = {
         "align": "left"
     },
     "xAxis": {
+        "uniqueNames": true,
         "title": {
             "style": {
                 "color": "#000000"
@@ -87,5 +88,8 @@ var template = {
             "verticalAlign": "bottom",
             "x": 10
         }
+    },
+    "legend": {
+        "symbolRadius": 0
     }
 };

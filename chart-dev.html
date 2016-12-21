@@ -26,7 +26,7 @@
     <script src="assets/js/highcharts-data-4.2.6.min.js" type="text/javascript"></script>
     <script src="assets/js/highcharts-exporting-4.2.6.min.js" type="text/javascript"></script>
     <script src="assets/js/highcharts-export-csv-1.4.2.js" type="text/javascript"></script>
-    <script src="metadata/indikatoren.js" type="text/javascript"></script>
+    <script src="metadata/all/indikatoren.js" type="text/javascript"></script>
     <script src="assets/js/indikatoren-highcharts.js" type="text/javascript"></script>
 
 
@@ -36,25 +36,30 @@
     <script type="text/javascript">   
         //todo: do not use json database but single-chart json files
         //------------------------//
-        var kuerzel = 'I.03.0.0002';
+        var id = '4128';
         var template = 'line001';
         var options = 'options001';        
         //------------------------//
         
         //create div for chart
         $('<div/>', {
-          id: 'container-' + kuerzel,
+          id: 'container-' + id,
         }).appendTo('body');
               
         var chartOptions = {};
         
         var optionsUrl = 'charts/templates/' + options +'.js';
         var templateUrl = 'charts/templates/' + template + '.js';
-        var chartUrl = 'charts/templates/' + kuerzel + '.js'; 
-        var csvUrl = 'data/' + kuerzel + '.csv';
+        var chartUrl = 'charts/templates/' + id + '.js';
+        var metadataUrl = 'metadata/single/' + id + '.js'
+        var csvUrl = 'data/' + id + '.tsv';
         
-        //renderChartByKuerzel(kuerzel);
-        renderChart(optionsUrl, templateUrl, chartUrl, csvUrl, kuerzel);    
+        $.when(
+          //load metadata to indikatoren[0]
+          $.getScript(metadataUrl)
+        ).done(function(){
+          renderChartById(optionsUrl, templateUrl, chartUrl, csvUrl, id, indikatoren[0]);      
+        });
     </script>
   </body>
 </html>
