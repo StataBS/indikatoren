@@ -1,4 +1,16 @@
+/*
+global $
+
+global Highcharts
+
+global template
+global chartOptions
+global indikatoren
+global templatesById
+*/
+
 "use strict"; 
+
 //parse csv and configure HighCharts object
 function parseData(chartOptions, data, completeHandler) {
     try {
@@ -19,14 +31,14 @@ function parseData(chartOptions, data, completeHandler) {
         ],
           csv: data
       };
-      dataOptions.sort = true
+      dataOptions.sort = true;
       dataOptions.complete = completeHandler;
       Highcharts.data(dataOptions, chartOptions);
     } catch (error) {
       console.log(error);
       completeHandler(undefined);
     }      
-};
+}
 
 //merge series with all options
 function createChartConfig(data, chartOptions, chartMetaData, indikatorensetView, callbackFn){  
@@ -45,12 +57,12 @@ function createChartConfig(data, chartOptions, chartMetaData, indikatorensetView
     var replacedOptions = createEmptyLabels(injectedOptions);
     //add afterSeries as last series
     var afterSeriesOptions = replacedOptions;     
-    if (afterSeriesOptions.afterSeries) {afterSeriesOptions.series = replacedOptions.series.concat(replacedOptions.afterSeries)}; 
+    if (afterSeriesOptions.afterSeries) {afterSeriesOptions.series = replacedOptions.series.concat(replacedOptions.afterSeries)} 
     delete afterSeriesOptions.afterSeries;
 
     callbackFn(afterSeriesOptions);
   });        
-};
+}
 
 
 
@@ -59,8 +71,9 @@ function drawChart(data, chartOptions, chartMetaData, indikatorensetView, callba
   createChartConfig(data, chartOptions, chartMetaData, indikatorensetView, function(options){
     var chartType = (options.chart.type === "map") ? 'Map' : 'Chart';
     var chart = new Highcharts[chartType](options, callbackFn);
+    return chart;
   });
-};
+}
 
 
 //Add data from database to chart config
@@ -75,7 +88,7 @@ function injectMetadataToChartConfig(options, data, indikatorensetView){
   options['exporting'] = (options['exporting'] || {});
   options['exporting']['filename'] = data.kuerzel;
   return options;
-};
+}
 
 
 //get empty labels: replace series data names that only contain dots (.) with spaces
@@ -87,8 +100,8 @@ function createEmptyLabels(options){
       //test if string contains only dots (.), see http://stackoverflow.com/questions/18358480/regular-expression-to-check-contains-only
       if (re.test(dataItem[0])){
         //perform global replace of . with /g, see http://www.w3schools.com/jsref/jsref_replace.asp
-        dataItem[0] = dataItem[0].replace(/./g, ' ')
-      };
+        dataItem[0] = dataItem[0].replace(/./g, ' ');
+      }
     });
   });
   return newOptions;
@@ -109,10 +122,10 @@ function renderChartByKuerzel(globalOptionsUrl, templateUrl, chartUrl, csvUrl, k
   ).done(function(){
       //load csv and draw chart            
       $.get(csvUrl, function(data){
-        drawChart(data, chartOptions[kuerzel], chartMetaData, indikatorensetView, callbackFn)
+        drawChart(data, chartOptions[kuerzel], chartMetaData, indikatorensetView, callbackFn);
       });
   });  
-};
+}
 
 //wrapper function if id is given instead of kuerzel
 function renderChartById(globalOptionsUrl, templateUrl, chartUrl, csvUrl, id, chartMetaData, indikatorensetView, callbackFn){     
@@ -129,7 +142,7 @@ function findChartByKuerzel(data, kuerzel){
     }     
   }
   return matchingChart;
-};
+}
 
 function findChartById(data, id){
   var matchingChart;
@@ -140,7 +153,7 @@ function findChartById(data, id){
     }     
   }
   return matchingChart;
-};
+}
 
 
 function findKuerzelById(data, id){
@@ -168,7 +181,7 @@ function getChartUrls(id){
     "csvUrl": csvUrl,
     "templateUrl": templateUrl, 
     "optionsUrl": 'charts/templates/options001.js'
-  }
+  };
 }
 
 //construct urls by chart id and render to designated div
@@ -191,7 +204,7 @@ function lazyRenderChartById(id, chartMetaData, indikatorensetView, callbackFn){
     //destroy and redraw in order to get nice animation
     Highcharts.charts[chartIndex].destroy();
     container.highcharts(currentChartOptions, callbackFn);
-  };
+  }
 }
 
 
@@ -220,5 +233,5 @@ function exportThumbnail(kuerzel, exportType, offline){
       filename: kuerzel
     });      
   }
-};
+}
 
