@@ -101,14 +101,14 @@ $(document).ready(function(){
 
   //add event listener to render chart on modal show
   $("#lightbox").on('show.bs.modal', function (e) {    
-    var targetKuerzel = $(e.relatedTarget).attr("indikator-kuerzel-data");
-    lazyRenderChartByKuerzel(targetKuerzel, undefined, indikatorensetView);
+    var targetId = $(e.relatedTarget).attr("indikator-id-data");
+    lazyRenderChartById(targetId, undefined, indikatorensetView);
   });
 
   //add event listener to render chart on carousel slide
   $('#lightbox').on('slide.bs.carousel', function (e) {
-      var targetKuerzel = $(e.relatedTarget).children().first().attr('indikator-kuerzel-data');
-      lazyRenderChartByKuerzel(targetKuerzel, undefined, indikatorensetView);
+      var targetId = $(e.relatedTarget).children().first().attr('indikator-id-data');
+      lazyRenderChartById(targetId, undefined, indikatorensetView);
       //display chart number in indicator      
       var currentNumber = $(e.relatedTarget).index() + 1;            
       var indicatorText = $('#carousel-indicators li').text();
