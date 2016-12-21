@@ -1,5 +1,36 @@
 var indikatorenset = [
 	{
+		"title": "Sozialhilfequote",
+		"subtitle": "",
+		"kuerzel": "I.13.3.0004",
+		"kuerzelKunde": "GS-1",
+		"image": "images/I.13.3.0004.jpg",
+		"description": "Sozialhilfequote",
+		"id": "4822",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
+		"schlagwort": [
+			"Quote"
+		],
+		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Anteil Sozialhilfeempfänger an der Wohnbevölkerung des Wohnviertels in Prozent. Stand: 2015",
+		"template": "dotplot",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Sozialhilfestatistik"
+		]
+	},
+	{
 		"title": "Anteil Ausländer",
 		"subtitle": "",
 		"kuerzel": "I.01.1.0038",
@@ -28,6 +59,100 @@ var indikatorenset = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+		]
+	},
+	{
+		"title": "Anteil Konfessionslose",
+		"subtitle": "",
+		"kuerzel": "I.01.7.0001",
+		"kuerzelKunde": "GS-3",
+		"image": "images/I.01.7.0001.jpg",
+		"description": "Anteil Konfessionslose",
+		"id": "4824",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Religionen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
+		"schlagwort": [
+			"Religion"
+		],
+		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Anteil der konfessionslosen Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Stand: 2015",
+		"template": "dotplot",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+		]
+	},
+	{
+		"title": "Anteil Personen in Einpersonenhaushalten",
+		"subtitle": "",
+		"kuerzel": "I.01.2.0003",
+		"kuerzelKunde": "GS-4",
+		"image": "images/I.01.2.0003.jpg",
+		"description": "Anteil Personen in Einpersonenhaushalten",
+		"id": "4825",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Haushalte",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
+		"schlagwort": [
+			"Haushalt"
+		],
+		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten des Wohnviertels in Prozent. Stand: 2014",
+		"template": "dotplot",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+		]
+	},
+	{
+		"title": "Gymnasialquote",
+		"subtitle": "",
+		"kuerzel": "I.15.6.0003",
+		"kuerzelKunde": "GS-5",
+		"image": "images/I.15.6.0003.jpg",
+		"description": "Gymnasialquote",
+		"id": "4826",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsniveau",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
+		"schlagwort": [
+			"Quote",
+			"Bildung"
+		],
+		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Anteil der Gymnasiasten an allen Schülern der 10. und 11. Schulstufe des Wohnviertels an öffentlichen Schulen und mit Elternwohnort Basel-Stadt (Schulstufen einschliesslich zweier obligatorischer Kindergartenstufen gezählt). Stand: 2015",
+		"template": "dotplot",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		]
 	},
 	{
@@ -126,65 +251,66 @@ var indikatorenset = [
 		]
 	},
 	{
-		"title": "Anteil Personen in Einpersonenhaushalten",
+		"title": "Baujahr Wohngebäude",
 		"subtitle": "",
-		"kuerzel": "I.01.2.0003",
-		"kuerzelKunde": "GS-4",
-		"image": "images/I.01.2.0003.jpg",
-		"description": "Anteil Personen in Einpersonenhaushalten",
-		"id": "4825",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Haushalte",
+		"kuerzel": "I.09.1.0009",
+		"kuerzelKunde": "RU-1",
+		"image": "images/I.09.1.0009.jpg",
+		"description": "Baujahr Wohngebäude",
+		"id": "4830",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
 		"schlagwort": [
-			"Haushalt"
+			"Gebäude",
+			"Alter"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "2 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten des Wohnviertels in Prozent. Stand: 2014",
+		"erlaeuterungen": "Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude). Stand: 2015",
 		"template": "dotplot",
 		"option": "options001",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Kantonale Baustatistik"
 		]
 	},
 	{
-		"title": "Anteil Konfessionslose",
+		"title": "Anteil Einfamilienhäuser",
 		"subtitle": "",
-		"kuerzel": "I.01.7.0001",
-		"kuerzelKunde": "GS-3",
-		"image": "images/I.01.7.0001.jpg",
-		"description": "Anteil Konfessionslose",
-		"id": "4824",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Religionen",
+		"kuerzel": "I.09.1.0010",
+		"kuerzelKunde": "RU-2",
+		"image": "images/I.09.1.0010.jpg",
+		"description": "Anteil Einfamilienhäuser",
+		"id": "4831",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
 		"schlagwort": [
-			"Religion"
+			"Gebäude"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "2 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Anteil der konfessionslosen Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Stand: 2015",
+		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen Gebäuden des Wohnviertels in Prozent. Stand: 2015",
 		"template": "dotplot",
 		"option": "options001",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Kantonale Baustatistik"
 		]
 	},
 	{
@@ -216,6 +342,131 @@ var indikatorenset = [
 		"option": "options001",
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt  Basel-Stadt"
+		]
+	},
+	{
+		"title": "Fläche pro Wohnung",
+		"subtitle": "",
+		"kuerzel": "I.09.1.0011",
+		"kuerzelKunde": "RU-4",
+		"image": "images/I.09.1.0011.jpg",
+		"description": "Fläche pro Wohnung",
+		"id": "4833",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
+		"schlagwort": [
+			"Gebäude"
+		],
+		"stufe1": "2 Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter. Stand: 2015",
+		"template": "dotplot",
+		"option": "options001",
+		"quellenangabe": [
+			"Kantonale Baustatistik"
+		]
+	},
+	{
+		"title": "Wohnfläche pro Kopf",
+		"subtitle": "",
+		"kuerzel": "I.09.1.0012",
+		"kuerzelKunde": "RU-5",
+		"image": "images/I.09.1.0012.jpg",
+		"description": "Wohnfläche pro Kopf",
+		"id": "4834",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
+		"schlagwort": [
+			"Gebäude"
+		],
+		"stufe1": "2 Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Mittlere verfügbare Wohnfläche pro Einwohner im Wohnviertel (gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen) in Quadratmeter. Stand: 2015",
+		"template": "dotplot",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
+			"Kantonale Baustatistik"
+		]
+	},
+	{
+		"title": "Vermögenssteuer pro Veranlagung",
+		"subtitle": "",
+		"kuerzel": "I.18.2.0002",
+		"kuerzelKunde": "WA-1",
+		"image": "images/I.18.2.0002.jpg",
+		"description": "Vermögenssteuer pro Veranlagung",
+		"id": "4835",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
+		"schlagwort": [
+			"Bevölkerung"
+		],
+		"stufe1": "3 Wirtschaft und Arbeit",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Mittlere Vermögenssteuer der steuerpflichtigen Personen im Wohnviertel (ordentliche Veranlagungen, totaler Steuerertrag geteilt durch die Anzahl Veranlagungen) in Franken. Stand: Steuerjahr 2013",
+		"template": "dotplot",
+		"option": "options001",
+		"quellenangabe": [
+			"kantonale Leerstandserhebung"
+		]
+	},
+	{
+		"title": "Einkommenssteuer pro Veranlagung",
+		"subtitle": "",
+		"kuerzel": "I.18.2.0003",
+		"kuerzelKunde": "WA-2",
+		"image": "images/I.18.2.0003.jpg",
+		"description": "Einkommenssteuer pro Veranlagung",
+		"id": "4836",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
+		"schlagwort": [
+			"Bevölkerung"
+		],
+		"stufe1": "3 Wirtschaft und Arbeit",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Mittlere Einkommenssteuer der steuerpflichtigen Personen im Wohnviertel (ordentliche Veranlagungen, totaler Steuerertrag geteilt durch die Anzahl Veranlagungen) in Franken. Stand: Steuerjahr 2013",
+		"template": "dotplot",
+		"option": "options001",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
 		]
 	},
 	{
@@ -311,257 +562,6 @@ var indikatorenset = [
 		"quellenangabe": [
 			"Bundesamt für Statistik BFS, Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		]
-	},
-	{
-		"title": "Baujahr Wohngebäude",
-		"subtitle": "",
-		"kuerzel": "I.09.1.0009",
-		"kuerzelKunde": "RU-1",
-		"image": "images/I.09.1.0009.jpg",
-		"description": "Baujahr Wohngebäude",
-		"id": "4830",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
-		"schlagwort": [
-			"Gebäude",
-			"Alter"
-		],
-		"stufe1": "2 Raum und Umwelt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude). Stand: 2015",
-		"template": "dotplot",
-		"option": "options001",
-		"quellenangabe": [
-			"Kantonale Baustatistik"
-		]
-	},
-	{
-		"title": "Anteil Einfamilienhäuser",
-		"subtitle": "",
-		"kuerzel": "I.09.1.0010",
-		"kuerzelKunde": "RU-2",
-		"image": "images/I.09.1.0010.jpg",
-		"description": "Anteil Einfamilienhäuser",
-		"id": "4831",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
-		"schlagwort": [
-			"Gebäude"
-		],
-		"stufe1": "2 Raum und Umwelt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen Gebäuden des Wohnviertels in Prozent. Stand: 2015",
-		"template": "dotplot",
-		"option": "options001",
-		"quellenangabe": [
-			"Kantonale Baustatistik"
-		]
-	},
-	{
-		"title": "Fläche pro Wohnung",
-		"subtitle": "",
-		"kuerzel": "I.09.1.0011",
-		"kuerzelKunde": "RU-4",
-		"image": "images/I.09.1.0011.jpg",
-		"description": "Fläche pro Wohnung",
-		"id": "4833",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
-		"schlagwort": [
-			"Gebäude"
-		],
-		"stufe1": "2 Raum und Umwelt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter. Stand: 2015",
-		"template": "dotplot",
-		"option": "options001",
-		"quellenangabe": [
-			"Kantonale Baustatistik"
-		]
-	},
-	{
-		"title": "Wohnfläche pro Kopf",
-		"subtitle": "",
-		"kuerzel": "I.09.1.0012",
-		"kuerzelKunde": "RU-5",
-		"image": "images/I.09.1.0012.jpg",
-		"description": "Wohnfläche pro Kopf",
-		"id": "4834",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
-		"schlagwort": [
-			"Gebäude"
-		],
-		"stufe1": "2 Raum und Umwelt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Mittlere verfügbare Wohnfläche pro Einwohner im Wohnviertel (gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen) in Quadratmeter. Stand: 2015",
-		"template": "dotplot",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
-			"Kantonale Baustatistik"
-		]
-	},
-	{
-		"title": "Sozialhilfequote",
-		"subtitle": "",
-		"kuerzel": "I.13.3.0004",
-		"kuerzelKunde": "GS-1",
-		"image": "images/I.13.3.0004.jpg",
-		"description": "Sozialhilfequote",
-		"id": "4822",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
-		"kennzahlenset": "Wohnviertel",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
-		"schlagwort": [
-			"Quote"
-		],
-		"stufe1": "1 Gesellschaft und Soziales",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Anteil Sozialhilfeempfänger an der Wohnbevölkerung des Wohnviertels in Prozent. Stand: 2015",
-		"template": "dotplot",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Sozialhilfestatistik"
-		]
-	},
-	{
-		"title": "Gymnasialquote",
-		"subtitle": "",
-		"kuerzel": "I.15.6.0003",
-		"kuerzelKunde": "GS-5",
-		"image": "images/I.15.6.0003.jpg",
-		"description": "Gymnasialquote",
-		"id": "4826",
-		"thema": "15 Bildung",
-		"unterthema": "Bildungsniveau",
-		"kennzahlenset": "Wohnviertel",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
-		"schlagwort": [
-			"Quote",
-			"Bildung"
-		],
-		"stufe1": "1 Gesellschaft und Soziales",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Anteil der Gymnasiasten an allen Schülern der 10. und 11. Schulstufe des Wohnviertels an öffentlichen Schulen und mit Elternwohnort Basel-Stadt (Schulstufen einschliesslich zweier obligatorischer Kindergartenstufen gezählt). Stand: 2015",
-		"template": "dotplot",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
-		]
-	},
-	{
-		"title": "Vermögenssteuer pro Veranlagung",
-		"subtitle": "",
-		"kuerzel": "I.18.2.0002",
-		"kuerzelKunde": "WA-1",
-		"image": "images/I.18.2.0002.jpg",
-		"description": "Vermögenssteuer pro Veranlagung",
-		"id": "4835",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Wohnviertel",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
-		"schlagwort": [
-			"Bevölkerung"
-		],
-		"stufe1": "3 Wirtschaft und Arbeit",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Mittlere Vermögenssteuer der steuerpflichtigen Personen im Wohnviertel (ordentliche Veranlagungen, totaler Steuerertrag geteilt durch die Anzahl Veranlagungen) in Franken. Stand: Steuerjahr 2013",
-		"template": "dotplot",
-		"option": "options001",
-		"quellenangabe": [
-			"kantonale Leerstandserhebung"
-		]
-	},
-	{
-		"title": "Einkommenssteuer pro Veranlagung",
-		"subtitle": "",
-		"kuerzel": "I.18.2.0003",
-		"kuerzelKunde": "WA-2",
-		"image": "images/I.18.2.0003.jpg",
-		"description": "Einkommenssteuer pro Veranlagung",
-		"id": "4836",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Wohnviertel",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
-		"schlagwort": [
-			"Bevölkerung"
-		],
-		"stufe1": "3 Wirtschaft und Arbeit",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Mittlere Einkommenssteuer der steuerpflichtigen Personen im Wohnviertel (ordentliche Veranlagungen, totaler Steuerertrag geteilt durch die Anzahl Veranlagungen) in Franken. Stand: Steuerjahr 2013",
-		"template": "dotplot",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
 		]
 	}
 ];

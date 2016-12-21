@@ -1,0 +1,220 @@
+{
+  "series": [
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "Altstadt Grossbasel",
+          0.0152577544
+        ],
+        [
+          "Riehen",
+          0.0193855888
+        ],
+        [
+          "Bettingen",
+          0.0193855888
+        ],
+        [
+          "Bachletten",
+          0.0208221466
+        ],
+        [
+          "Bruderholz",
+          0.0217801474
+        ],
+        [
+          "Vorstädte",
+          0.0242808282
+        ],
+        [
+          "Gotthelf",
+          0.0273422872
+        ],
+        [
+          "Am Ring",
+          0.0273742642
+        ],
+        [
+          "St. Alban",
+          0.0295674895
+        ],
+        [
+          "Hirzbrunnen",
+          0.0369978956
+        ],
+        [
+          "Altstadt Kleinbasel",
+          0.0375301588
+        ],
+        [
+          "Gundeldingen",
+          0.0392068343
+        ],
+        [
+          "Wettstein",
+          0.0401573444
+        ],
+        [
+          "Iselin",
+          0.0459342343
+        ],
+        [
+          "Breite",
+          0.0462277709
+        ],
+        [
+          "St. Johann",
+          0.0485466598
+        ],
+        [
+          "Clara",
+          0.0502164591
+        ],
+        [
+          "Matthäus",
+          0.0506528739
+        ],
+        [
+          "Kleinhüningen",
+          0.0623085841
+        ],
+        [
+          "Rosental",
+          0.0665948747
+        ],
+        [
+          "Klybeck",
+          0.068902559
+        ]
+      ],
+      "name": "Arbeitslosenquote 2015",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "events": {
+      "load": function () {                
+                this.credits.element.onclick = function() {
+                    /*
+                    window.open(
+                    "http://www.statistik.bs.ch",
+                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+                    );
+                    */
+                };
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "scatter",
+    "inverted": true,
+    "forExport": true,
+    "renderTo": "container-4839"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "WA-5 Arbeitslosenquote"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        },
+        "formatter": function (){
+                    return Highcharts.numberFormat((this.y*100),1)+'%';                
+                }
+      }
+    }
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "formatter": function (){
+                return Highcharts.numberFormat((this.value*100),0)+'%';                
+            },
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "min": 0
+  },
+  "tooltip": {
+    "pointFormatter": function (){
+            //rank is calculated from index, thus data needs to be sorted by rank ascending.
+            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.y*100),2)+'%</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
+        },
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik BFS, Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+  },
+  "legend": {
+    "enabled": false,
+    "symbolRadius": 0
+  },
+  "exporting": {
+    "filename": "I.03.4.0003"
+  }
+}

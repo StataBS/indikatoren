@@ -1,0 +1,402 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "data": [
+        [
+          2010,
+          0.033
+        ],
+        [
+          2011,
+          0.029
+        ],
+        [
+          2012,
+          0.029
+        ],
+        [
+          2013,
+          0.029
+        ],
+        [
+          2014,
+          0.027
+        ],
+        [
+          2015,
+          0.028
+        ]
+      ],
+      "name": "Schweiz"
+    },
+    {
+      "color": "#71A3B5",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2010,
+          0.054
+        ],
+        [
+          2011,
+          0.046
+        ],
+        [
+          2012,
+          0.046
+        ],
+        [
+          2013,
+          0.046
+        ],
+        [
+          2014,
+          0.043
+        ],
+        [
+          2015,
+          0.046
+        ]
+      ],
+      "name": "Ausland"
+    },
+    {
+      "color": "#672773",
+      "data": [
+        [
+          2010,
+          0.031
+        ],
+        [
+          2011,
+          0.028
+        ],
+        [
+          2012,
+          0.029
+        ],
+        [
+          2013,
+          0.031
+        ],
+        [
+          2014,
+          0.029
+        ],
+        [
+          2015,
+          0.033
+        ]
+      ],
+      "name": "Deutschland"
+    },
+    {
+      "color": "#007A2F",
+      "data": [
+        [
+          2010,
+          0.055
+        ],
+        [
+          2011,
+          0.049
+        ],
+        [
+          2012,
+          0.044
+        ],
+        [
+          2013,
+          0.046
+        ],
+        [
+          2014,
+          0.046
+        ],
+        [
+          2015,
+          0.046
+        ]
+      ],
+      "name": "Italien"
+    },
+    {
+      "color": "#73BA7C",
+      "data": [
+        [
+          2010,
+          0.036
+        ],
+        [
+          2011,
+          0.032
+        ],
+        [
+          2012,
+          0.041
+        ],
+        [
+          2013,
+          0.046
+        ],
+        [
+          2014,
+          0.049
+        ],
+        [
+          2015,
+          0.066
+        ]
+      ],
+      "name": "Spanien"
+    },
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          2010,
+          0.117
+        ],
+        [
+          2011,
+          0.094
+        ],
+        [
+          2012,
+          0.085
+        ],
+        [
+          2013,
+          0.091
+        ],
+        [
+          2014,
+          0.081
+        ],
+        [
+          2015,
+          0.08
+        ]
+      ],
+      "name": "Türkei"
+    },
+    {
+      "color": "#A0BEC8",
+      "data": [
+        [
+          2010,
+          0.089
+        ],
+        [
+          2011,
+          0.073
+        ],
+        [
+          2012,
+          0.07
+        ],
+        [
+          2013,
+          0.069
+        ],
+        [
+          2014,
+          0.068
+        ],
+        [
+          2015,
+          0.073
+        ]
+      ],
+      "name": "Ehem. Jugoslawien ohne SLO"
+    },
+    {
+      "color": "#E7CFE2",
+      "data": [
+        [
+          2010,
+          0.033
+        ],
+        [
+          2011,
+          0.037
+        ],
+        [
+          2012,
+          0.045
+        ],
+        [
+          2013,
+          0.058
+        ],
+        [
+          2014,
+          0.068
+        ],
+        [
+          2015,
+          0.084
+        ]
+      ],
+      "name": "EU-Oststaaten"
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          2010,
+          0.06
+        ],
+        [
+          2011,
+          0.059
+        ],
+        [
+          2012,
+          0.065
+        ],
+        [
+          2013,
+          0.066
+        ],
+        [
+          2014,
+          0.051
+        ],
+        [
+          2015,
+          0.057
+        ]
+      ],
+      "name": "Mittel- und Südamerika"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "marginTop": 120,
+    "forExport": true,
+    "renderTo": "container-4469"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.03.0.0002 Arbeitslosenquote nach Staatsangehörigkeit seit 2010"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormatter": function (){
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '%'                
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function (){
+            return Highcharts.numberFormat((this.value*100),1)+'%';                
+        }
+    }
+  },
+  "xAxis": {
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik BFS, Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "x": 20,
+    "y": 35,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    },
+    "series": {
+      "dataLabels": {
+        "enabled": false,
+        "formatter": function () {
+            var first  = this.series.data[0];
+            var last  = this.series.data[this.series.data.length - 1];            
+            if (this.point.category === first.category  &&  this.point.y === first.y ) {
+              return this.series.name;
+            }
+            return "";
+          }
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.03.0.0002"
+  }
+}

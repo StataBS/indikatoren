@@ -12,6 +12,17 @@
  */
 
 "use strict";
+/*  
+global $ 
+
+global FilterJS
+global JsonQuery
+global FJS
+
+global indikatoren
+global lazyRenderChartById
+
+*/
 
 //holds config of each chart
 var chartOptions = {};
@@ -63,7 +74,7 @@ $(document).ready(function(){
     //define filter.js configuration 
     fjsConfig['template'] = '#indikator-template-carousel-portal';
 
-    var FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
+    FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
     FJS.addCriteria({field: "thema", ele: "#thema_criteria input:radio", all: "Alle"});
     FJS.addCriteria({field: "unterthema", ele: "#unterthema_filter", all: "all"});
     FJS.addCriteria({field: "schlagwort", ele: "#schlagwort_filter", all: "all"});
@@ -78,7 +89,7 @@ $(document).ready(function(){
       $("#schlagwort_filter").multiselect('selectAll', false).multiselect('updateButtonText');      
       $("#raeumlicheGliederung_filter").multiselect('selectAll', false).multiselect('updateButtonText');
       FJS.filter();
-    })
+    });
   }  
 
   //implement default sorting, add event listener, and implement sortResult function  
@@ -101,14 +112,14 @@ $(document).ready(function(){
 
   //add event listener to render chart on modal show
   $("#lightbox").on('show.bs.modal', function (e) {    
-    var targetKuerzel = $(e.relatedTarget).attr("indikator-kuerzel-data");
-    lazyRenderChartByKuerzel(targetKuerzel, undefined, indikatorensetView);
+    var targetId = $(e.relatedTarget).attr("indikator-id-data");
+    lazyRenderChartById(targetId, undefined, indikatorensetView);
   });
 
   //add event listener to render chart on carousel slide
   $('#lightbox').on('slide.bs.carousel', function (e) {
-      var targetKuerzel = $(e.relatedTarget).children().first().attr('indikator-kuerzel-data');
-      lazyRenderChartByKuerzel(targetKuerzel, undefined, indikatorensetView);
+      var targetId = $(e.relatedTarget).children().first().attr('indikator-id-data');
+      lazyRenderChartById(targetId, undefined, indikatorensetView);
       //display chart number in indicator      
       var currentNumber = $(e.relatedTarget).index() + 1;            
       var indicatorText = $('#carousel-indicators li').text();
@@ -133,7 +144,7 @@ function getSortOptions(name){
     default : 
       return {'kuerzel': 'asc'};     
   }
-};
+}
 
 
 //change DOM and render controls to accomodate portal view
@@ -150,7 +161,7 @@ function preparePortalView(){
       
   //configure unterthema to be filtered correctly upon change of thema           
   configureCascadedControls('#thema_criteria', '#unterthema_filter', "#thema_criteria :checked", 'Alle', 'thema','#unterthema_filter', 'all', 'unterthema', baseQuery);  
-};
+}
 
 
 //change DOM and render controls to accomodate indikatorenset view
@@ -174,7 +185,7 @@ function prepareIndikatorensetView(indikatorenset){
 
   //add cascaded dropdowns functionality to stufe1 and stufe2
   configureCascadedControls('#stufe1_filter', '#stufe2_filter', '#stufe1_filter', 'all', 'stufe1', '#stufe2_filter', 'all', 'stufe2', baseQuery); 
-};
+}
 
 
 //add cascaded dropdowns functionality to level1 and level2
@@ -217,7 +228,7 @@ function configureCascadedControls(level1Selector, level2Selector, level1ValueSe
       //set level1 to the found value
       if (level1ValueSelector.indexOf('checked') > -1) {
         //for radios: 
-        $(level1Selector).find('[value="' + result + '"]').prop('checked', true)
+        $(level1Selector).find('[value="' + result + '"]').prop('checked', true);
         $(level1Selector).change();
       }
       else {
@@ -227,7 +238,7 @@ function configureCascadedControls(level1Selector, level2Selector, level1ValueSe
       }
     }
   });
-};
+}
 
 
 function renderThema(){
@@ -238,12 +249,12 @@ function renderThema(){
   var container = $('#thema_criteria');
   
   $.each(values, function(i, c){
-    container.append(templateFunction({ value: c , radioGroupName: "themaRadioGroup"}))
+    container.append(templateFunction({ value: c , radioGroupName: "themaRadioGroup"}));
   });
 
   //check first radio ('Alle')
   $("#thema_criteria :radio:first()").prop('checked', true);
-};
+}
 
 
 //create a single-select dropdown that contain values from a given json object at a specified place in the DOM 
@@ -270,9 +281,9 @@ function renderDropdownFromJson(data, field, selector, sortKey, filterQueryStrin
   $(optionsToRemove).remove();
   //render options
   $.each(uniqueValues, function(i, c){
-    container.append(templateFunction({ key: c, value: c }))
+    container.append(templateFunction({ key: c, value: c }));
   });
-};
+}
 
 
 //create a multi-select dropdown that contain values from a given json object at a specified place in the DOM 
@@ -292,11 +303,11 @@ function renderMultiselectDropdownFromJson(data, field, selector, sort){
   var container = $(selector);
   //render options
   $.each(uniqueValues, function(i, c){
-    container.append(templateFunction({ key: c, value: c }))
+    container.append(templateFunction({ key: c, value: c }));
   });
   //convert select control to multiselect dropdown
   configureMultiselect(selector);  
-};
+}
 
 
 //convert a normal html select given via its css selector to a multiselect dropdown
@@ -330,7 +341,7 @@ function configureMultiselect(selector){
   //check all boxes
   control.multiselect('selectAll', false);
   control.multiselect('updateButtonText');
-};
+}
 
 
 //find index of a given _fid in the results array. if full-text search is used (search_text has some minimum length), FJS uses a different results array than if not. 
@@ -343,7 +354,7 @@ function getIndexByFid(fid){
       if(obj._fid == fid) {
           return index;
       }
-    })    
+    });    
     return indexes[0];
     }
   catch (e) {
@@ -387,9 +398,9 @@ var afterFilter = function(result, jQ){
             var c = $(this), count = 0;           
             //get last Query JsonQuery Object of last filter event and remove the current filter value from it
             try{
-              var jsonQ = window.FJS.last_Query                         
+              var jsonQ = window.FJS.last_Query;           
               //save array to restore later
-              var origArray = jsonQ.where().criteria.where[field + '.$in']
+              var origArray = jsonQ.where().criteria.where[field + '.$in'];
               //add only current item to new criterion array
               var newArray = [c.val()];
               jsonQ.where().criteria.where[field + '.$in'] = newArray;
@@ -398,7 +409,7 @@ var afterFilter = function(result, jQ){
                 if (value === undefined){
                   delete jsonQ.where().criteria.where[index];
                 }
-              })
+              });
               //invoke JsonQuery and get length of result
               count = jsonQ.count;
               //handle full text search if it is defined in FJS
@@ -424,6 +435,7 @@ var afterFilter = function(result, jQ){
 
     //Add Counts in brackets after each option
     //calculate number of results that would be found if current value was _additionally_ filtered by (i.e. inclusive any filtercriteria of the current control)
+    /*
     function updateCountsInclusive(selector, key, renderFunction, result, jQ){
           var items  = $(selector);
           //iterate over each displayed value of the criterion 
@@ -438,7 +450,7 @@ var afterFilter = function(result, jQ){
             renderFunction(c, count);
           });      
     }
-
+    */
 
     //hide dropdown if no specific entry present, select the  specific entry if it is the only one present  
     function selectSingleEntryOrHideDropdown(selector){
@@ -457,7 +469,7 @@ var afterFilter = function(result, jQ){
           //$("#unterthema_filter > option:first()").remove();
         }
       } 
-    };
+    }
 
     
     //create a div that will contain the chart and an indicator dot for each chart in the result. the result contains charts over all pages. 
@@ -473,16 +485,16 @@ var afterFilter = function(result, jQ){
       container.children().remove();
       //add a new carousel for each chart in results
       $.each(result, function(i, item){
-        container.append(templateFunction(item))
+        container.append(templateFunction(item));
       });      
       //set first child to active, only now the carousel is visible
       container.children().first().addClass("active");
 
       //add an indicator (dot that links to a chart) for each chart
       //build template function using template from DOM
-      var html = $('#carousel-indicator-template').html();
-      var templateFunction = FilterJS.templateBuilder(html);
-      var container = $('#carousel-indicators');
+      html = $('#carousel-indicator-template').html();
+      templateFunction = FilterJS.templateBuilder(html);
+      container = $('#carousel-indicators');
       //first remove all carousel divs
       container.children().remove();
 
@@ -504,6 +516,6 @@ var afterFilter = function(result, jQ){
         }
     });
   
-  };
+  }
 };//afterFilter
 

@@ -1,0 +1,268 @@
+{
+  "series": [
+    {
+      "color": "#083038",
+      "data": [
+        [
+          "2003\u003Cbr\u002F\u003E(N=544)",
+          52.6
+        ],
+        [
+          "2005\u003Cbr\u002F\u003E(N=578)",
+          63.8
+        ],
+        [
+          "2007\u003Cbr\u002F\u003E(N=506)",
+          53.6
+        ],
+        [
+          "2011\u003Cbr\u002F\u003E(N=505)",
+          44.8
+        ],
+        [
+          "2015\u003Cbr\u002F\u003E(N=468)",
+          56.4
+        ]
+      ],
+      "name": "Sicherheit der Arbeitsstelle",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#256370",
+      "data": [
+        [
+          "2003\u003Cbr\u002F\u003E(N=544)",
+          38.2
+        ],
+        [
+          "2005\u003Cbr\u002F\u003E(N=578)",
+          31.1
+        ],
+        [
+          "2007\u003Cbr\u002F\u003E(N=506)",
+          39.1
+        ],
+        [
+          "2011\u003Cbr\u002F\u003E(N=505)",
+          26.1
+        ],
+        [
+          "2015\u003Cbr\u002F\u003E(N=468)",
+          47.2
+        ]
+      ],
+      "name": "Betriebsklima",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#71A3B5",
+      "data": [
+        [
+          "2003\u003Cbr\u002F\u003E(N=544)",
+          52.8
+        ],
+        [
+          "2005\u003Cbr\u002F\u003E(N=578)",
+          50.9
+        ],
+        [
+          "2007\u003Cbr\u002F\u003E(N=506)",
+          52.8
+        ],
+        [
+          "2011\u003Cbr\u002F\u003E(N=505)",
+          45.3
+        ],
+        [
+          "2015\u003Cbr\u002F\u003E(N=468)",
+          63
+        ]
+      ],
+      "name": "Entwicklungsperspektiven",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8A8A8A",
+      "data": [
+        [
+          "2003\u003Cbr\u002F\u003E(N=544)",
+          21
+        ],
+        [
+          "2005\u003Cbr\u002F\u003E(N=578)",
+          20.1
+        ],
+        [
+          "2007\u003Cbr\u002F\u003E(N=506)",
+          21.1
+        ],
+        [
+          "2011\u003Cbr\u002F\u003E(N=505)",
+          18
+        ],
+        [
+          "2015\u003Cbr\u002F\u003E(N=468)",
+          36.8
+        ]
+      ],
+      "name": "Arbeitsumfeld",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "data": [
+        [
+          "2003\u003Cbr\u002F\u003E(N=544)",
+          31.3
+        ],
+        [
+          "2005\u003Cbr\u002F\u003E(N=578)",
+          31.5
+        ],
+        [
+          "2007\u003Cbr\u002F\u003E(N=506)",
+          37
+        ],
+        [
+          "2011\u003Cbr\u002F\u003E(N=505)",
+          32.7
+        ],
+        [
+          "2015\u003Cbr\u002F\u003E(N=468)",
+          52.6
+        ]
+      ],
+      "name": "Lohn",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "tickColor": "#FFFFFF",
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                this.credits.element.onclick = function() {
+                    /*
+                    window.open(
+                    "http://www.statistik.bs.ch",
+                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+                    );
+                    */
+                }
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "forExport": true,
+    "renderTo": "container-4932"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.50.1.0028 Gründe für Gedanken über die Arbeitsstelle"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "«Warum machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": null
+    }
+  },
+  "yAxis": {
+    "tickInterval": 10,
+    "reversedStacks": false,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value}%",
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14f"
+  },
+  "legend": {
+    "reversed": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "useHTML": true,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "symbolRadius": 0,
+    "x": 30,
+    "y": 35,
+    "itemWidth": 200
+  },
+  "exporting": {
+    "filename": "I.50.1.0028"
+  }
+}

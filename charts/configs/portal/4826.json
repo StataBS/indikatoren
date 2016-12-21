@@ -1,0 +1,220 @@
+{
+  "series": [
+    {
+      "color": "#923F8D",
+      "data": [
+        [
+          "Kleinhüningen",
+          0.125
+        ],
+        [
+          "Klybeck",
+          0.1652173913
+        ],
+        [
+          "Rosental",
+          0.1728395062
+        ],
+        [
+          "Matthäus",
+          0.2081218274
+        ],
+        [
+          "Clara",
+          0.2285714286
+        ],
+        [
+          "Gundeldingen",
+          0.2478632479
+        ],
+        [
+          "Iselin",
+          0.2824427481
+        ],
+        [
+          "Hirzbrunnen",
+          0.2848101266
+        ],
+        [
+          "Breite",
+          0.311827957
+        ],
+        [
+          "St. Johann",
+          0.3169014085
+        ],
+        [
+          "Altstadt Kleinbasel",
+          0.3333333333
+        ],
+        [
+          "Gotthelf",
+          0.4512195122
+        ],
+        [
+          "St. Alban",
+          0.4727272727
+        ],
+        [
+          "Riehen",
+          0.5130890052
+        ],
+        [
+          "Wettstein",
+          0.5846153846
+        ],
+        [
+          "Am Ring",
+          0.595959596
+        ],
+        [
+          "Bruderholz",
+          0.6241610738
+        ],
+        [
+          "Bachletten",
+          0.6507936508
+        ],
+        [
+          "Vorstädte",
+          0.6666666667
+        ],
+        [
+          "Altstadt Grossbasel",
+          0.6875
+        ],
+        [
+          "Bettingen",
+          0.7647058824
+        ]
+      ],
+      "name": "Gymnasialquote 2015",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "events": {
+      "load": function () {                
+                this.credits.element.onclick = function() {
+                    /*
+                    window.open(
+                    "http://www.statistik.bs.ch",
+                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+                    );
+                    */
+                };
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "scatter",
+    "inverted": true,
+    "forExport": true,
+    "renderTo": "container-4826"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.15.6.0003 Gymnasialquote"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        },
+        "formatter": function (){
+                    return Highcharts.numberFormat((this.y*100),1)+'%';                
+                }
+      }
+    }
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "formatter": function (){
+                return Highcharts.numberFormat((this.value*100),0)+'%';                
+            },
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "min": 0
+  },
+  "tooltip": {
+    "pointFormatter": function (){
+            //rank is calculated from index, thus data needs to be sorted by rank ascending.
+            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.y*100),2)+'%</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
+        },
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik"
+  },
+  "legend": {
+    "enabled": false,
+    "symbolRadius": 0
+  },
+  "exporting": {
+    "filename": "I.15.6.0003"
+  }
+}
