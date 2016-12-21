@@ -13,6 +13,11 @@ console.log('Loading metadata...');
 var ctx = execfile('metadata/all/indikatoren.js');
 var indikatoren = ctx.indikatoren;
 
+//from https://github.com/yahoo/serialize-javascript
+function deserialize(serializedJavascript){
+  return eval('(' + serializedJavascript + ')');
+}
+
 console.log('Starting MultiArgsFile creation...');
 var allArgs = [];
 //console.log(JSON.stringify(allArgs));
@@ -21,13 +26,19 @@ views.forEach(function(view){
     console.log('Creating MultiArgsFile entries for indikatorensetView=' + view);
     indikatoren.forEach(function(indikator){
         //if (indikator.kuerzel === 'I.01.1.0015'){
-            console.log('Creating MultiArgsFile entries for chart ' + indikator.kuerzel + ' indikatorensetView=' + view +'...');
+            console.log('Creating MultiArgsFile entries for chart ' + indikator.id + ' indikatorensetView=' + view +'...');
             var imagePath = (view) ? 'images/indikatorenset/' : 'images/portal/';
             var configPath = (view) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
+            //check if the chart is of type map and set 'constr' parameter accordingly 
+            var configFile = fs.readFileSync(configPath + indikator.id + '.json', 'utf8');
+            var config = deserialize(configFile);
+            var constr = (config.chart.type === 'map') ? 'Map' : 'Chart';
+            
             var currentArg = [
                 path.join(__dirname, 'highcharts-convert.js'),
-                '-infile', path.join(__dirname, '../' + configPath + indikator.kuerzel + '.json'),
-                '-outfile', path.join(__dirname, '../' + imagePath + indikator.kuerzel + '.svg')
+                '-infile', path.join(__dirname, '../' + configPath + indikator.id + '.json'),
+                '-outfile', path.join(__dirname, '../' + imagePath + indikator.id + '.svg'),
+                '-constr', constr
             ];
             //console.log(JSON.stringify(currentArg));
             allArgs.push(currentArg);
@@ -51,13 +62,13 @@ function addSvgViewBox(console){
     views.forEach(function(view){
         indikatoren.forEach(function(indikator){                        
             var path = (view) ? 'images/indikatorenset/' : 'images/portal/';
-            var svg = fs.readFileSync(path + indikator.kuerzel + '.svg', 'utf8');
+            var svg = fs.readFileSync(path + indikator.id + '.svg', 'utf8');
             //replace hardcoded height and width with hardcoded viewBox in order to make pics compatible with IE. 
             var regex = 'width="(.*?)" height="(.*?)">';
             var re = new RegExp (regex);
             var replace = 'viewBox="0 0 $1 $2">';
             var svgWithViewBox = svg.replace(re, replace);            
-            fs.writeFile(path + indikator.kuerzel + '.svg', svgWithViewBox);
+            fs.writeFile(path + indikator.id + '.svg', svgWithViewBox);
         });
     });
 };
@@ -70,8 +81,8 @@ function renderMultipleImages(console){
     var childArgs = [
         //path.join(__dirname, '../node_modules/highcharts-phantomjs/lib/highcharts-convert.js'),
         path.join(__dirname, 'highcharts-convert.js'),
-        '-infile ' + path.join(__dirname, '../' + configPath + 'I.01.1.0013.json'),
-        '-outfile ' + path.join(__dirname, '../' + imagePath + 'I.01.1.0013.svg'),
+        '-infile ' + path.join(__dirname, '../' + configPath + '4127.json'),
+        '-outfile ' + path.join(__dirname, '../' + imagePath + '4127.svg'),
         '-multi true',
         '-multiArgsFile '+ path.join(__dirname, 'convertArgs.json')
     ]

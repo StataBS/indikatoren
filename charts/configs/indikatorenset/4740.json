@@ -1,0 +1,310 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "data": [
+        [
+          2011,
+          10.7
+        ],
+        [
+          2012,
+          9.6
+        ],
+        [
+          2013,
+          10.6
+        ],
+        [
+          2014,
+          11.3
+        ],
+        [
+          2015,
+          10.7
+        ]
+      ],
+      "name": "Schweiz"
+    },
+    {
+      "color": "#71A3B5",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2011,
+          12.6
+        ],
+        [
+          2012,
+          11.5
+        ],
+        [
+          2013,
+          14.1
+        ],
+        [
+          2014,
+          13.9
+        ],
+        [
+          2015,
+          12.9
+        ]
+      ],
+      "name": "Ausland"
+    },
+    {
+      "color": "#672773",
+      "data": [
+        [
+          2011,
+          7.8
+        ],
+        [
+          2012,
+          12.7
+        ],
+        [
+          2013,
+          9.4
+        ],
+        [
+          2014,
+          12
+        ],
+        [
+          2015,
+          13.9
+        ]
+      ],
+      "name": "Deutschland"
+    },
+    {
+      "color": "#007A2F",
+      "data": [
+        [
+          2011,
+          9.9
+        ],
+        [
+          2012,
+          10.2
+        ],
+        [
+          2013,
+          15
+        ],
+        [
+          2014,
+          9.1
+        ],
+        [
+          2015,
+          10.3
+        ]
+      ],
+      "name": "Italien"
+    },
+    {
+      "color": "#73BA7C",
+      "data": [
+        [
+          2011,
+          7.1
+        ],
+        [
+          2012,
+          7
+        ],
+        [
+          2013,
+          12.7
+        ],
+        [
+          2014,
+          5.1
+        ],
+        [
+          2015,
+          9.3
+        ]
+      ],
+      "name": "Spanien"
+    },
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          2011,
+          10
+        ],
+        [
+          2012,
+          10.4
+        ],
+        [
+          2013,
+          18.1
+        ],
+        [
+          2014,
+          19.8
+        ],
+        [
+          2015,
+          15.6
+        ]
+      ],
+      "name": "Türkei"
+    },
+    {
+      "color": "#D3E2E5",
+      "data": [
+        [
+          2011,
+          17.1
+        ],
+        [
+          2012,
+          10.5
+        ],
+        [
+          2013,
+          11.3
+        ],
+        [
+          2014,
+          14
+        ],
+        [
+          2015,
+          11.2
+        ]
+      ],
+      "name": "Ehem. Jugoslawien ohne SLO"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "marginTop": 120,
+    "forExport": true,
+    "renderTo": "container-4740"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "3-2 Lehrabbruchquote nach Staatsangehörigkeit seit 2011"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    }
+  },
+  "xAxis": {
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "x": 20,
+    "y": 35,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    },
+    "series": {
+      "dataLabels": {
+        "enabled": false,
+        "formatter": function () {
+            var first  = this.series.data[0];
+            var last  = this.series.data[this.series.data.length - 1];            
+            if (this.point.category === first.category  &&  this.point.y === first.y ) {
+              return this.series.name;
+            }
+            return "";
+          }
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.15.3.0001"
+  }
+}

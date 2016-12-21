@@ -1,0 +1,220 @@
+{
+  "series": [
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "Klybeck",
+          162.1977333
+        ],
+        [
+          "Kleinhüningen",
+          207.74610106
+        ],
+        [
+          "Rosental",
+          240.50197771
+        ],
+        [
+          "Iselin",
+          425.08366863
+        ],
+        [
+          "Matthäus",
+          426.09984706
+        ],
+        [
+          "Clara",
+          436.89323843
+        ],
+        [
+          "Gundeldingen",
+          467.21327303
+        ],
+        [
+          "Breite",
+          482.15108977
+        ],
+        [
+          "St. Johann",
+          486.03965292
+        ],
+        [
+          "Hirzbrunnen",
+          681.39708738
+        ],
+        [
+          "Altstadt Kleinbasel",
+          1123.2948052
+        ],
+        [
+          "Wettstein",
+          1229.5143029
+        ],
+        [
+          "Bachletten",
+          1762.144018
+        ],
+        [
+          "Bettingen",
+          2844.7711599
+        ],
+        [
+          "Am Ring",
+          3212.0137397
+        ],
+        [
+          "Riehen",
+          3296.1133034
+        ],
+        [
+          "Gotthelf",
+          3483.3688952
+        ],
+        [
+          "St. Alban",
+          4206.1965759
+        ],
+        [
+          "Altstadt Grossbasel",
+          5188.1848894
+        ],
+        [
+          "Vorstädte",
+          7828.9125886
+        ],
+        [
+          "Bruderholz",
+          19314.398374
+        ]
+      ],
+      "name": "Vermögenssteuer pro Veranlagung 2013",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "events": {
+      "load": function () {                
+                this.credits.element.onclick = function() {
+                    /*
+                    window.open(
+                    "http://www.statistik.bs.ch",
+                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+                    );
+                    */
+                };
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "scatter",
+    "inverted": true,
+    "forExport": true,
+    "renderTo": "container-4835"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.18.2.0002 Vermögenssteuer pro Veranlagung"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        },
+        "formatter": function (){
+                    return Highcharts.numberFormat((this.y*100),1)+'%';                
+                }
+      }
+    }
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "formatter": function (){
+                return Highcharts.numberFormat((this.value), 0, ".", " ");                
+            },
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "min": 0
+  },
+  "tooltip": {
+    "pointFormatter": function (){
+            //rank is calculated from index, thus data needs to be sorted by rank ascending.
+            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>Fr. ' + Highcharts.numberFormat(this.y, 0, "," ," ") + '</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
+        },
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: kantonale Leerstandserhebung"
+  },
+  "legend": {
+    "enabled": false,
+    "symbolRadius": 0
+  },
+  "exporting": {
+    "filename": "I.18.2.0002"
+  }
+}
