@@ -72,8 +72,9 @@
       "type": "line",
       "yAxis": 1
     }
-  ],  "tooltip": {
-    "shared": true
+  ],  
+  "tooltip": {
+    "shared": false
   },
   "chart": {
     "marginBottom": 65,

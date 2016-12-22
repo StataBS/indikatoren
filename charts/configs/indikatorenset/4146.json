@@ -231,7 +231,7 @@
     }
   },
   "tooltip": {
-    "shared": true
+    "shared": false
   },
   "exporting": {
     "filename": "I.09.1.0008"
