@@ -43,8 +43,8 @@
     "tickInterval": 1
   },
   tooltip: {
-    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b><br/>',
-    shared: true
+    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
+    shared: false
   },
   "legend": {
     "layout": "vertical",
