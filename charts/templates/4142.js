@@ -41,7 +41,7 @@ chartOptions['I.01.2.0002'] = {
     }
   ],
   "tooltip": {
-    "pointFormat": '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>',
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>',
     "shared": false
   },
   "chart": {
