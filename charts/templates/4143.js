@@ -58,7 +58,7 @@
     }
   ],  
   "tooltip": {
-    "shared": true
+    "shared": false
   },
   "chart": {
     "marginBottom": 65,
