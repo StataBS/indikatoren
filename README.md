@@ -1,4 +1,4 @@
-# Indikatorenportal Statistisches Amt Basel-Stadt
+# Indikatorenportal Statistisches Amt Basel-Stadt 
 Find and display statistical indicators from the canton of Basel-Stadt, Switzerland. See live version [here](http://www.statistik.bs.ch/zahlen/indikatoren/).  
 
 ## Local Installation
