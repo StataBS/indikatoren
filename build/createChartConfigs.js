@@ -88,7 +88,7 @@ function createChartConfig(id, indikatorensetView, console){
     var csv = (fs.readFileSync('data/' + id + '.tsv', 'utf8'));
 
     var ctx = execfile('charts/templates/' + id + '.js', {Highcharts: Highcharts, chartOptions: {}, geojson_wohnviertel: geojson_wohnviertel, rheinData: rheinData});
-    var options = ctx.chartOptions[kuerzel];
+    var options = ctx.chartOptions;
 
     //disable animations and prevent exceptions
     options.chart = (options.chart || {});

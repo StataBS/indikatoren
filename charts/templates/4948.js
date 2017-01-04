@@ -1,4 +1,4 @@
-chartOptions['I.14.1.0003'] = {
+var chartOptions = {
   "plotOptions": {
     "series": {
       "pointWidth": 25,

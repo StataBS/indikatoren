@@ -50,7 +50,17 @@
 
 
     <script type="text/javascript">
-
+    
+        /*  
+        global $
+        global jQuery
+        global indikatoren
+        global idByKuerzel
+        global kuerzelById
+        global lazyRenderChartById
+        global exportThumbnail
+        */
+        
         //get kuerzel and id from url, encode to prevent xss 
         //todo: in order to prevent xss: do not evaluate chart templates but just load json. Functions need to be taken out of the templates. 
         var kuerzel = window.encodeURIComponent($.url('?kuerzel'));              
@@ -59,9 +69,12 @@
         //check if kuerzel or id is member in the list of existing charts
         if (idByKuerzel[kuerzel] || kuerzelById[id]){
           var chartOptions = {};                  
-          //if no id is given, retrieve it using kuerzel
+          //if no id is given, retrieve it using kuerzel (and same for kuerzel)
           if (id == 'undefined') {
             id = idByKuerzel[kuerzel]
+          };
+          if (kuerzel == 'undefined') {
+            kuerzel = kuerzelById[id]
           };
           $.getScript('metadata/single/'+ id + '.js').done(function(script, textStatus){              
               var chartMetadata = indikatoren[0];
@@ -82,23 +95,8 @@
                 if (this.renderTo){                        
                   //determine if offline exporting necessary
                   var thumbnailOfflineExporting = (window.encodeURIComponent($.url('?thumbnailOfflineExporting')) === "true") ? true : false ;                
-
-                  function createThumbnail(kuerzel, exportType, thumbnailOfflineExporting){                  
-                    switch (exportType){
-                      case "jpg":                 
-                        exportThumbnail(kuerzel, "image/jpeg", thumbnailOfflineExporting);                     
-                        break;                    
-                      case "png": 
-                        exportThumbnail(kuerzel, "image/png", thumbnailOfflineExporting);
-                        break;
-                      case "svg":              
-                        exportThumbnail(kuerzel, "image/svg+xml", thumbnailOfflineExporting);
-                        break;           
-                    }
-                  }
-                  
                   //load offline exporting module first if required, then invoke createThumbnail()
-                  (thumbnailOfflineExporting) ? $.getScript('assets/js/highcharts-offline-exporting-4.2.6.js', function(){createThumbnail(kuerzel, exportType, thumbnailOfflineExporting)}) : createThumbnail(kuerzel, exportType, thumbnailOfflineExporting);
+                  (thumbnailOfflineExporting) ? $.getScript('assets/js/highcharts-offline-exporting-4.2.6.js', function(){createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting)}) : createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting);
                 }                     
               });
           })
@@ -106,8 +104,24 @@
       }
       else {
         //display error message
-        $('body').append('<div class="container"><div class="jumbotron"><h1>Ooops...</h1><p>Kein chart mit dem angegebenen Kürzel gefunden.</p></div></div>');
+        $('body').append('<div class="container"><div class="jumbotron"><h1>Ooops...</h1><p>Kein chart mit dieserm Kürzel / dieser id gefunden.</p></div></div>');
       }
+      
+      
+      function createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting){                  
+        switch (exportType){
+          case "jpg":                 
+            exportThumbnail(id, "image/jpeg", thumbnailOfflineExporting);                     
+            break;                    
+          case "png": 
+            exportThumbnail(id, "image/png", thumbnailOfflineExporting);
+            break;
+          case "svg":              
+            exportThumbnail(id, "image/svg+xml", thumbnailOfflineExporting);
+            break;           
+        }
+      }
+      
     </script>
   </body>
 </html>
