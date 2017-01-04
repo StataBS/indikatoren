@@ -18,7 +18,7 @@ files.forEach(function(filepath){
     var indikator = ctx.indikatoren[0];
     indikatoren.push(indikator);            
     kuerzelById[indikator.id] = indikator.kuerzel;
-    idByKuerzel[indikator.kuerzel] = indikator.id;
+    idByKuerzel[indikator.kuerzel] = indikator.id.toString();
     templatesById[indikator.id] = indikator.template;
 });
 console.log('Saving json database...');
