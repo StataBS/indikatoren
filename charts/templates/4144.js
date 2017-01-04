@@ -1,4 +1,4 @@
-﻿chartOptions['I.50.1.0006'] = {
+var chartOptions = {
   "xAxis": {
     "type": "category"
   },

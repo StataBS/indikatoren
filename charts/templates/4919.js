@@ -1,4 +1,4 @@
-chartOptions['I.12.1.0001'] = {
+var chartOptions = {
   "yAxis": {
     "min": 0,
     "labels": {

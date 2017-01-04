@@ -1,4 +1,4 @@
-﻿chartOptions['I.13.2.0003'] = {
+var chartOptions = {
   "yAxis": {
     "min": 0,
     "max": 10000000,

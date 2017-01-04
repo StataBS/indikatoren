@@ -1,4 +1,4 @@
-chartOptions['I.01.5.0004'] = {
+var chartOptions = {
   "plotOptions": {
     "series": {
       "pointWidth": 35,
