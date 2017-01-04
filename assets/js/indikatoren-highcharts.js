@@ -215,8 +215,8 @@ function escapeCssChars(myid) {
 
 
 //create chart as image
-function exportThumbnail(kuerzel, exportType, offline){    
-  var chart = $(escapeCssChars('#container-' + kuerzel)).highcharts();
+function exportThumbnail(id, exportType, offline){    
+  var chart = $(escapeCssChars('#container-' + id)).highcharts();
   //remove callback - otherwise end up in infinite loop
   delete chart.callback;
   //scale chart in order to receive 150px width
@@ -224,13 +224,13 @@ function exportThumbnail(kuerzel, exportType, offline){
   if (offline){     
     chart.exportChartLocal({
       type: exportType, 
-      filename: kuerzel
+      filename: id
     });  
   }
   else {
     chart.exportChart({
       type: exportType, 
-      filename: kuerzel
+      filename: id
     });      
   }
 }
