@@ -222,7 +222,7 @@
     }
   },
   "tooltip": {
-    "shared": true
+    "shared": false
   },
   "exporting": {
     "filename": "I.13.3.0002"
