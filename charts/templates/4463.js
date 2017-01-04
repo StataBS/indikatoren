@@ -1,4 +1,4 @@
-chartOptions["I.01.8.0001"] = {
+var chartOptions = {
   "yAxis": {
     "labels": {
       "formatter": function(){

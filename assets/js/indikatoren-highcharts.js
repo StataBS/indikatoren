@@ -3,8 +3,8 @@ global $
 
 global Highcharts
 
-global template
 global chartOptions
+global template
 global indikatoren
 global templatesById
 */
@@ -122,7 +122,7 @@ function renderChartByKuerzel(globalOptionsUrl, templateUrl, chartUrl, csvUrl, k
   ).done(function(){
       //load csv and draw chart            
       $.get(csvUrl, function(data){
-        drawChart(data, chartOptions[kuerzel], chartMetaData, indikatorensetView, callbackFn);
+        drawChart(data, chartOptions, chartMetaData, indikatorensetView, callbackFn);
       });
   });  
 }

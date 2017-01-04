@@ -1,4 +1,4 @@
-﻿chartOptions['I.01.2.0001'] = {
+var chartOptions = {
   "plotOptions": {
     "series": {
       "stacking": "percent"

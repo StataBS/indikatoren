@@ -1,4 +1,4 @@
- chartOptions['I.17.3.0001'] = {
+var chartOptions = {
   "plotOptions": {
     "series": {
       "dataLabels": {
