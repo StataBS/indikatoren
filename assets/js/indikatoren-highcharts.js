@@ -3,8 +3,8 @@ global $
 
 global Highcharts
 
-global template
 global chartOptions
+global template
 global indikatoren
 global templatesById
 */
@@ -122,7 +122,7 @@ function renderChartByKuerzel(globalOptionsUrl, templateUrl, chartUrl, csvUrl, k
   ).done(function(){
       //load csv and draw chart            
       $.get(csvUrl, function(data){
-        drawChart(data, chartOptions[kuerzel], chartMetaData, indikatorensetView, callbackFn);
+        drawChart(data, chartOptions, chartMetaData, indikatorensetView, callbackFn);
       });
   });  
 }
@@ -215,8 +215,8 @@ function escapeCssChars(myid) {
 
 
 //create chart as image
-function exportThumbnail(kuerzel, exportType, offline){    
-  var chart = $(escapeCssChars('#container-' + kuerzel)).highcharts();
+function exportThumbnail(id, exportType, offline){    
+  var chart = $(escapeCssChars('#container-' + id)).highcharts();
   //remove callback - otherwise end up in infinite loop
   delete chart.callback;
   //scale chart in order to receive 150px width
@@ -224,13 +224,13 @@ function exportThumbnail(kuerzel, exportType, offline){
   if (offline){     
     chart.exportChartLocal({
       type: exportType, 
-      filename: kuerzel
+      filename: id
     });  
   }
   else {
     chart.exportChart({
       type: exportType, 
-      filename: kuerzel
+      filename: id
     });      
   }
 }

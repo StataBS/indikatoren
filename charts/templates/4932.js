@@ -1,4 +1,4 @@
-chartOptions['I.50.1.0028'] = {
+var chartOptions = {
         "series": [
             {
                 "color": "#083038"

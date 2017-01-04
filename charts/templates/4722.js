@@ -1,4 +1,4 @@
-chartOptions['I.01.6.0002'] = {
+var chartOptions = {
   "plotOptions": {
     "series": {
       "stacking": "normal",

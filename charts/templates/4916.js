@@ -1,4 +1,4 @@
-﻿chartOptions["I.10.1.0005"] = {
+var chartOptions = {
   "yAxis": [{
     "title": {
       "style": {

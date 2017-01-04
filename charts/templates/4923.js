@@ -1,4 +1,4 @@
-﻿chartOptions['I.19.3.0003'] = {
+var chartOptions = {
   "chart": {
     "marginBottom": 75
   },
