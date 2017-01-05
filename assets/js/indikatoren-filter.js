@@ -31,6 +31,13 @@ var sortOptions = {};
 var indikatorensetView = false;
 
 $(document).ready(function(){
+  //Render page differently depending on url query string 'Indikatorenset'
+  var indikatorenset = $.url('?Indikatorenset');
+  indikatorensetView = indikatorenset ? true : false; 
+  
+  //load data
+  $.ajax({ url: 'metadata/all/indikatoren.js', dataType: "script", async: false });
+
   //template: '#indikator-template-carousel', 
 
   var fjsConfig = {      
@@ -51,9 +58,6 @@ $(document).ready(function(){
   };
 
 
-  //Render page differently depending on url query string 'Indikatorenset'
-  var indikatorenset = $.url('?Indikatorenset');
-  indikatorensetView = indikatorenset ? true : false; 
   if (indikatorensetView){ 
     //Indikatorenset View
     sortOptions = {'kuerzelKunde': 'asc'};
