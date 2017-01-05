@@ -18,7 +18,6 @@ var ctx = execfile('geojson/wohnviertel_reproj_mollweide_simp.js');
 var geojson_wohnviertel = ctx.geojson_wohnviertel;
 
 
-//delete previous files before creating the new ones
 console.log('deleting previous chart configs...');
 var rimraf = require("rimraf");
 rimraf('charts/configs/indikatorenset/*', function(error) {
