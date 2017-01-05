@@ -6,6 +6,7 @@ console.log('Loading metadata...');
 var ctx = execfile('metadata/all/indikatoren.js');
 var indikatoren = ctx.indikatoren;
 var indikatorensets = {};
+var indikatorensetNames = [];
  
 indikatoren.forEach(function(indikator){
     console.log('Adding chart ' + indikator.id + ' to Indikatorenset ' + indikator.kennzahlenset + '...');
@@ -18,6 +19,8 @@ var rimraf = require("rimraf");
 rimraf('metadata/sets/*', function(error) {
     if (error) { throw error; };
     saveIndikatorenSets(indikatorensets);
+    
+    saveToJsonFile('indikatorensetNames', indikatorensetNames, console);
 });
 
 
@@ -30,6 +33,8 @@ function saveIndikatorenSets(indikatorensets){
             var fs = require('fs');
             var setJson = "var indikatorenset = " + JSON.stringify(indikatorensets[indikatorenset], null, '\t') + ";";
             fs.writeFile('metadata/sets/' + setName + '.js', setJson);
+            
+            indikatorensetNames.push(setName);
         }
     }
 }
@@ -39,4 +44,11 @@ function saveToIndikatorensetJson(kuerzel, obj, console){
     var set = (obj['kennzahlenset'] || {});
     indikatorensets[set] = indikatorensets[set] || [];
     indikatorensets[set].push(obj);
+}
+
+
+function saveToJsonFile(name, obj, console){
+    var fs = require('fs');
+    var jsonFile = "var " + name + " = " + JSON.stringify(obj, null, '\t') + ";";
+    fs.writeFile('metadata/sets/' + name + '.js', jsonFile);
 };
