@@ -8,26 +8,33 @@ var indikatoren = ctx.indikatoren;
 var indikatorensets = {};
  
 indikatoren.forEach(function(indikator){
-    console.log('Adding chart ' + indikator.kuerzel + ' to Indikatorenset ' + indikator.kennzahlenset + '...');
-    saveToIndikatorensetJsonFile(indikator.kuerzel, indikator, console);
+    console.log('Adding chart ' + indikator.id + ' to Indikatorenset ' + indikator.kennzahlenset + '...');
+    saveToIndikatorensetJson(indikator.id, indikator, console);
 });
 
-for (var indikatorenset in indikatorensets){
-    var setNameJson = JSON.stringify(indikatorenset);
-    var setName = setNameJson.replace(/["']/g, "");
-    if (indikatorenset != {}){
-        console.log('Creating file for Indikatorenset ' + setName);
-        var fs = require('fs');
-        var setJson = "var indikatorenset = " + JSON.stringify(indikatorensets[indikatorenset], null, '\t') + ";";
-        fs.writeFile('metadata/sets/' + setName + '.js', setJson);
+//delete previous files before creating the new ones
+var rimraf = require("rimraf");
+rimraf('metadata/sets/*', function(error) {
+    if (error) { throw error; };
+    saveIndikatorenSets(indikatorensets);
+});
+
+
+function saveIndikatorenSets(indikatorensets){
+    for (var indikatorenset in indikatorensets){
+        var setNameJson = JSON.stringify(indikatorenset);
+        var setName = setNameJson.replace(/["']/g, "");
+        if (indikatorenset != {}){
+            console.log('Creating file for Indikatorenset ' + setName);
+            var fs = require('fs');
+            var setJson = "var indikatorenset = " + JSON.stringify(indikatorensets[indikatorenset], null, '\t') + ";";
+            fs.writeFile('metadata/sets/' + setName + '.js', setJson);
+        }
     }
-};
-
-//console.log('...done!');
+}
 
 
-function saveToIndikatorensetJsonFile(kuerzel, obj, console){
-    var fs = require('fs');
+function saveToIndikatorensetJson(kuerzel, obj, console){
     var set = (obj['kennzahlenset'] || {});
     indikatorensets[set] = indikatorensets[set] || [];
     indikatorensets[set].push(obj);
