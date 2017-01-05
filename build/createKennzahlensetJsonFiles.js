@@ -12,7 +12,8 @@ indikatoren.forEach(function(indikator){
     saveToIndikatorensetJson(indikator.id, indikator, console);
 });
 
-//delete previous files before creating the new ones
+
+console.log('deleting previous kennzahlenset files...');
 var rimraf = require("rimraf");
 rimraf('metadata/sets/*', function(error) {
     if (error) { throw error; };

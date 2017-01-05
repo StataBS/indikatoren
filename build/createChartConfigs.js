@@ -18,24 +18,34 @@ var ctx = execfile('geojson/wohnviertel_reproj_mollweide_simp.js');
 var geojson_wohnviertel = ctx.geojson_wohnviertel;
 
 
-console.log('Loading metadata...');
-var ctx = execfile('metadata/all/indikatoren.js');
-var indikatoren = ctx.indikatoren;
+//delete previous files before creating the new ones
+console.log('deleting previous chart configs...');
+var rimraf = require("rimraf");
+rimraf('charts/configs/indikatorenset/*', function(error) {
+    if (error) { throw error; }
+    rimraf('charts/configs/portal/*', function(error) {
+        if (error) { throw error; }
 
-var views = [true, false];
-views.forEach(function(view){
-    console.log('Starting creation of chart config for indikatorensetView=' + view);
-    indikatoren.forEach(function(indikator){
-        console.log('Creating config for chart ' + indikator.id + ', indikatorensetView=' + view +'...');
-        createChartConfig(indikator.id, view, console);
+        console.log('Loading metadata...');
+        var ctx = execfile('metadata/all/indikatoren.js');
+        var indikatoren = ctx.indikatoren;
+        
+        var views = [true, false];
+        views.forEach(function(view){
+            console.log('Starting creation of chart config for indikatorensetView=' + view);
+            indikatoren.forEach(function(indikator){
+                console.log('Creating config for chart ' + indikator.id + ', indikatorensetView=' + view +'...');
+                createChartConfig(indikatoren, indikator.id, view, console);
+            });
+        });
     });
-})
+});
+
+
 
 
 //todo: get rid of all the jsdom code if not needed 
-function createChartConfig(id, indikatorensetView, console){
-
-
+function createChartConfig(indikatoren, id, indikatorensetView, console){
     var fs = require('fs');
 
     //from https://github.com/kirjs/react-highcharts/blob/b8e31a26b741f94a13a798ffcc1f1b60e7764676/src/simulateDOM.js 
@@ -49,7 +59,7 @@ function createChartConfig(id, indikatorensetView, console){
         if( i !== 'window' && win.hasOwnProperty(i)){
             global.window[i] = win[i];
         }
-    };
+    }
 
     var Highcharts = require('highcharts');
     //Error bars need highcharts-more. How to import: http://stackoverflow.com/q/34505816
@@ -79,15 +89,14 @@ function createChartConfig(id, indikatorensetView, console){
     for (var i=0; i<indikatoren.length; i++){
         if (indikatoren[i].id === id){
             var chartMetaData = indikatoren[i];
-            var kuerzel = indikatoren[i].kuerzel;
             break;
         }
-    };
+    }
 
 
     var csv = (fs.readFileSync('data/' + id + '.tsv', 'utf8'));
 
-    var ctx = execfile('charts/templates/' + id + '.js', {Highcharts: Highcharts, chartOptions: {}, geojson_wohnviertel: geojson_wohnviertel, rheinData: rheinData});
+    ctx = execfile('charts/templates/' + id + '.js', {Highcharts: Highcharts, chartOptions: {}, geojson_wohnviertel: geojson_wohnviertel, rheinData: rheinData});
     var options = ctx.chartOptions;
 
     //disable animations and prevent exceptions
@@ -95,11 +104,11 @@ function createChartConfig(id, indikatorensetView, console){
     options.chart.forExport = true;
 
     var templateName = chartMetaData.template;
-    var ctx = execfile('charts/templates/' + templateName + '.js', {Highcharts: Highcharts});
+    ctx = execfile('charts/templates/' + templateName + '.js', {Highcharts: Highcharts});
     var template = ctx.template;
 
 
-    var ctx = execfile("assets/js/indikatoren-highcharts.js", { 
+    ctx = execfile("assets/js/indikatoren-highcharts.js", { 
         Highcharts: Highcharts, 
         console: console, 
         template: template
@@ -111,4 +120,4 @@ function createChartConfig(id, indikatorensetView, console){
         //console.log(stringifiedOptions);
         fs.writeFile(filePath + id + '.json', stringifiedOptions);
     });
-};
+}
