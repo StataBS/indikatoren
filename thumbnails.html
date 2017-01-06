@@ -31,7 +31,7 @@
 			global $
 			global indikatoren
 			*/
-			var indikatorensetView = (window.encodeURIComponent($.url('?indikatorensetView')) === 'true') ? true : false;
+			var indikatorensetView = (window.decodeURIComponent($.url('?indikatorensetView')) === 'true') ? true : false;
 
 			$(document).ready(function(){
 				$.each(indikatoren, function(index, item){

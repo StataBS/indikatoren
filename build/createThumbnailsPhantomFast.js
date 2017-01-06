@@ -4,28 +4,39 @@
 //Hack to re-use existing web js code from within node.js, see http://stackoverflow.com/a/8808162
 var execfile = require("execfile");
 var serialize = require('serialize-javascript');
-var  fs = require('fs');
+var fs = require('fs');
+var glob = require("glob");
 var path = require('path')
 var phantomjs = require('phantomjs-prebuilt')
 var binPath = phantomjs.path
 
-console.log('Loading metadata...');
-var ctx = execfile('metadata/all/indikatoren.js');
-var indikatoren = ctx.indikatoren;
+console.log('deleting previous chart configs...');
+var rimraf = require("rimraf");
+rimraf('images/indikatorenset/*', function(error) {
+    if (error) { throw error; }
+    rimraf('images/portal/*', function(error) {
+        if (error) { throw error; }
+        go();
+    });
+});
+
 
 //from https://github.com/yahoo/serialize-javascript
 function deserialize(serializedJavascript){
   return eval('(' + serializedJavascript + ')');
 }
 
-console.log('Starting MultiArgsFile creation...');
-var allArgs = [];
-//console.log(JSON.stringify(allArgs));
-var views = [true, false];
-views.forEach(function(view){
-    console.log('Creating MultiArgsFile entries for indikatorensetView=' + view);
-    indikatoren.forEach(function(indikator){
-        //if (indikator.kuerzel === 'I.01.1.0015'){
+
+function go(){
+    console.log('Starting MultiArgsFile creation...');
+    var allArgs = [];
+    var views = [true, false];
+    views.forEach(function(view){
+        console.log('Creating MultiArgsFile entries for indikatorensetView=' + view);
+        var files = glob.sync("metadata/single/*.js");
+        files.forEach(function(filepath){
+            var ctx = execfile(filepath);
+            var indikator = ctx.indikatoren[0];
             console.log('Creating MultiArgsFile entries for chart ' + indikator.id + ' indikatorensetView=' + view +'...');
             var imagePath = (view) ? 'images/indikatorenset/' : 'images/portal/';
             var configPath = (view) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
@@ -40,27 +51,26 @@ views.forEach(function(view){
                 '-outfile', path.join(__dirname, '../' + imagePath + indikator.id + '.svg'),
                 '-constr', constr
             ];
-            //console.log(JSON.stringify(currentArg));
             allArgs.push(currentArg);
-            //renderToFile(indikator.kuerzel, view, console);
-        //}
+        });
     });
-})
-//console.log('allArgs: '); 
-//console.log(JSON.stringify(allArgs));
-var allArgsObj = {allArgs};
-console.log('Saving MultiArgsFile to ' + path.join(__dirname, 'convertArgs2.json') + '...');
-fs.writeFileSync(path.join(__dirname, 'convertArgs.json'), JSON.stringify(allArgsObj, null, '\t'));
-console.log('Invoking PhantomJs to render all images...');
-renderMultipleImages(console);
-console.log('Adding svg ViewBox for ie...');
-addSvgViewBox(console);
-//console.log('...done!')
+    var allArgsObj = {allArgs};
+    console.log('Saving MultiArgsFile to ' + path.join(__dirname, 'convertArgs2.json') + '...');
+    fs.writeFileSync(path.join(__dirname, 'convertArgs.json'), JSON.stringify(allArgsObj, null, '\t'));
+    console.log('Invoking PhantomJs to render all images...');
+    renderMultipleImages(console);
+    console.log('Adding svg ViewBox for ie...');
+    addSvgViewBox(console);
+}
+
 
 function addSvgViewBox(console){
     var views = [true, false];
     views.forEach(function(view){
-        indikatoren.forEach(function(indikator){                        
+        var files = glob.sync("metadata/single/*.js");
+        files.forEach(function(filepath){
+            var ctx = execfile(filepath);
+            var indikator = ctx.indikatoren[0];
             var path = (view) ? 'images/indikatorenset/' : 'images/portal/';
             var svg = fs.readFileSync(path + indikator.id + '.svg', 'utf8');
             //replace hardcoded height and width with hardcoded viewBox in order to make pics compatible with IE. 
@@ -71,7 +81,7 @@ function addSvgViewBox(console){
             fs.writeFile(path + indikator.id + '.svg', svgWithViewBox);
         });
     });
-};
+}
      
 function renderMultipleImages(console){
     //dummy, not really used anymore, but must exist
@@ -85,18 +95,14 @@ function renderMultipleImages(console){
         '-outfile ' + path.join(__dirname, '../' + imagePath + '4127.svg'),
         '-multi true',
         '-multiArgsFile '+ path.join(__dirname, 'convertArgs.json')
-    ]
+    ];
 
     var command = binPath + " " + childArgs.join(" ");
 
     console.log("executing the following command line:");
     console.log(command);
-    /*
-    console.log("arguments object: ");
-    console.log(JSON.stringify(childArgs));
-    */
     //todo: start phantom server and send options via http post instaed of using new phantom instance every time    
     var child_process = require('child_process');
     var stdout = child_process.execSync(command);
     console.log(stdout.toString());
-};
+}

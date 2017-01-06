@@ -121,78 +121,7 @@
 
     });
 
-    /*
-        //get kuerzel from url, encode to prevent xss 
-        //todo: do not use json database but single-chart json files
-        //todo: in order to prevent xss: do not evaluate chart templates but just load json. Functions need to be taken out of the templates. 
-        var kuerzelFromUser = window.encodeURIComponent($.url('?kuerzel'));
-        
-        var charts = [];
-        if (kuerzelFromUser !== 'all') {
-          //check if kuerzel is member in the list of existing charts
-          charts[0] = findChartByKuerzel(indikatoren, kuerzelFromUser);
-        }
-        else{
-          charts = indikatoren;
-        }       
-
-        
-        for (var i=0; i < charts.length; i++){
-          var chartMetadata = charts[i];
-
-          if (chartMetadata) {
-            //to be safer against xss: get kuerzel from list 
-            var safeKuerzel = chartMetadata.kuerzel;
-            //create div for chart
-            jQuery('<div/>', {
-              id: 'container-' + safeKuerzel,
-            }).appendTo('body');
-           
-
-            //check if chart needs to be exported, and how
-            var exportType = window.encodeURIComponent($.url('?thumbnailType'));
-
-            var chartOptions = {};            
-            var indikatorensetView = (window.encodeURIComponent($.url('?indikatorensetView')) === 'true') ? true : false;
-            lazyRenderChartByKuerzel(safeKuerzel, indikatorensetView, function(){
-              //make sure we have the complete chart with the renderTo object, which contains the kuerzel
-              if (this.renderTo){                        
-                //determine if offline exporting necessary
-                var thumbnailOfflineExporting = (window.encodeURIComponent($.url('?thumbnailOfflineExporting')) === "true") ? true : false ;                
-
-                function createThumbnail(kuerzel, exportType, thumbnailOfflineExporting){                  
-                  switch (exportType){
-                    case "jpg":                 
-                      exportThumbnail(kuerzel, "image/jpeg", thumbnailOfflineExporting);                     
-                      break;                    
-                    case "png": 
-                      exportThumbnail(kuerzel, "image/png", thumbnailOfflineExporting);
-                      break;
-                    case "svg":              
-                      exportThumbnail(kuerzel, "image/svg+xml", thumbnailOfflineExporting);
-                      break;           
-                  }
-                }
-                
-                //load offline exporting module first if required, then invoke createThumbnail()
-                (thumbnailOfflineExporting) ? $.getScript('assets/js/highcharts-offline-exporting-4.2.6.js', function(){createThumbnail(safeKuerzel, exportType, thumbnailOfflineExporting)}) : createThumbnail(safeKuerzel, exportType, thumbnailOfflineExporting);
-
-                //load options into div
-                if (window.encodeURIComponent($.url('?exportOptionsJson')) === 'true'){
-                  //create div for chart options
-                  jQuery('<div id="options" class="hidden">' + JSON.stringify(Highcharts.charts[0].options) + '</div>', {
-                  }).appendTo('body');
-                }
-              }     
-            });
-          }
-          else {
-            //display error message
-            $('body').append('<div class="container"><div class="jumbotron"><h1>Ooops...</h1><p>Kein chart mit dem angegebenen Kürzel gefunden.</p></div></div>');
-          }
-        }
-
-        */
+    
     </script>
   </body>
 </html>
