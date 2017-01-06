@@ -63,8 +63,8 @@
         
         //get kuerzel and id from url, encode to prevent xss 
         //todo: in order to prevent xss: do not evaluate chart templates but just load json. Functions need to be taken out of the templates. 
-        var kuerzel = window.encodeURIComponent($.url('?kuerzel'));              
-        var id = window.encodeURIComponent($.url('?id'));    
+        var kuerzel = window.decodeURIComponent($.url('?kuerzel'));              
+        var id = window.decodeURIComponent($.url('?id'));    
 
         //check if kuerzel or id is member in the list of existing charts
         if (idByKuerzel[kuerzel] || kuerzelById[id]){
@@ -85,16 +85,16 @@
             
 
               //check if chart needs to be exported, and how
-              var exportType = window.encodeURIComponent($.url('?thumbnailType'));
+              var exportType = window.decodeURIComponent($.url('?thumbnailType'));
 
               var chartOptions = {};            
-              var indikatorensetView = (window.encodeURIComponent($.url('?indikatorensetView')) === 'true') ? true : false;
+              var indikatorensetView = (window.decodeURIComponent($.url('?indikatorensetView')) === 'true') ? true : false;
               lazyRenderChartById(id, chartMetadata, indikatorensetView, function(){
                 
                 //make sure we have the complete chart with the renderTo object, which contains the kuerzel
                 if (this.renderTo){                        
                   //determine if offline exporting necessary
-                  var thumbnailOfflineExporting = (window.encodeURIComponent($.url('?thumbnailOfflineExporting')) === "true") ? true : false ;                
+                  var thumbnailOfflineExporting = (window.decodeURIComponent($.url('?thumbnailOfflineExporting')) === "true") ? true : false ;                
                   //load offline exporting module first if required, then invoke createThumbnail()
                   (thumbnailOfflineExporting) ? $.getScript('assets/js/highcharts-offline-exporting-4.2.6.js', function(){createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting)}) : createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting);
                 }                     
