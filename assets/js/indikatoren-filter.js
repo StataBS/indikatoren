@@ -39,7 +39,7 @@ $(document).ready(function(){
   var indikatorenset = window.decodeURIComponent($.url('?Indikatorenset'));
   indikatorensetView = indikatorenset == 'undefined' ? false : true; 
 
-  var jsonDatabaseUrl = 'metadata/all/indikatoren.js';
+  var jsonDatabaseUrl = 'metadata/portal/indikatoren.js';
   //determine if valid indikaorenset name
   if (indikatorensetNames.indexOf(indikatorenset) > -1){
     jsonDatabaseUrl = 'metadata/sets/'+ indikatorenset + '.js';
