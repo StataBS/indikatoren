@@ -1,4 +1,4 @@
-var indikatorenset = [
+var indikatorensetData = [
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot",
 		"subtitle": "«Wie zufrieden sind sie mit dem Wohnungsangebot?»",

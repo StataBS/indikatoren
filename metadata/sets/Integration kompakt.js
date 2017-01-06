@@ -1,4 +1,4 @@
-var indikatorenset = [
+var indikatorensetData = [
 	{
 		"title": "Ausländeranteil nach Staatsangehörigkeit seit 2006",
 		"subtitle": "",

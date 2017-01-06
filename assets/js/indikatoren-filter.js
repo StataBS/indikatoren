@@ -20,6 +20,8 @@ global JsonQuery
 global FJS
 
 global indikatoren
+global indikatorensetData
+global indikatorensetNames
 global lazyRenderChartById
 
 */
@@ -29,17 +31,35 @@ var chartOptions = {};
 var sortOptions = {};
 //Indikatorenset or Portal view
 var indikatorensetView = false;
+var indikatoren;
 
 $(document).ready(function(){
   //Render page differently depending on url query string 'Indikatorenset'
-  var indikatorenset = $.url('?Indikatorenset');
-  indikatorensetView = indikatorenset ? true : false; 
+  //var indikatorenset = $.url('?Indikatorenset');
+  var indikatorenset = window.decodeURIComponent($.url('?Indikatorenset'));
+  indikatorensetView = indikatorenset == 'undefined' ? false : true; 
+
+  var jsonDatabaseUrl = 'metadata/all/indikatoren.js';
+  //determine if valid indikaorenset name
+  if (indikatorensetNames.indexOf(indikatorenset) > -1){
+    jsonDatabaseUrl = 'metadata/sets/'+ indikatorenset + '.js';
+  }
   
   //load data
-  $.ajax({ url: 'metadata/all/indikatoren.js', dataType: "script", async: false });
+  $.when(    
+    $.getScript(jsonDatabaseUrl),
+    $.Deferred(function(deferred){
+      $(deferred.resolve);
+    })
+  ).done(function(){
+      //if indikatorenset is loaded: make sure the data is loaded into var indikatoren
+      if (indikatorensetView) {indikatoren = indikatorensetData}
+      initializeFilterJS(indikatorenset);
+  });  
+});
 
-  //template: '#indikator-template-carousel', 
 
+function initializeFilterJS(indikatorenset){
   var fjsConfig = {      
     template: undefined,
     search: { ele: '#searchbox' },
@@ -131,7 +151,7 @@ $(document).ready(function(){
       $('#carousel-indicators li').text(indicatorText.replace(lastNumberText, currentNumber));      
       $('#carousel-indicators li').removeClass('active');
   });
-});//$(document).ready()
+}
 
 
 //interpret sort configuration received from dropdown

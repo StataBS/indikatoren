@@ -31,7 +31,7 @@ function saveIndikatorenSets(indikatorensets){
         if (indikatorenset != {}){
             console.log('Creating file for Indikatorenset ' + setName);
             var fs = require('fs');
-            var setJson = "var indikatorenset = " + JSON.stringify(indikatorensets[indikatorenset], null, '\t') + ";";
+            var setJson = "var indikatorensetData = " + JSON.stringify(indikatorensets[indikatorenset], null, '\t') + ";";
             fs.writeFile('metadata/sets/' + setName + '.js', setJson);
             
             indikatorensetNames.push(setName);
