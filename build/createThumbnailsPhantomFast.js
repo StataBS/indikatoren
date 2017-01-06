@@ -37,21 +37,26 @@ function go(){
         files.forEach(function(filepath){
             var ctx = execfile(filepath);
             var indikator = ctx.indikatoren[0];
-            console.log('Creating MultiArgsFile entries for chart ' + indikator.id + ' indikatorensetView=' + view +'...');
-            var imagePath = (view) ? 'images/indikatorenset/' : 'images/portal/';
-            var configPath = (view) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
-            //check if the chart is of type map and set 'constr' parameter accordingly 
-            var configFile = fs.readFileSync(configPath + indikator.id + '.json', 'utf8');
-            var config = deserialize(configFile);
-            var constr = (config.chart.type === 'map') ? 'Map' : 'Chart';
-            
-            var currentArg = [
-                path.join(__dirname, 'highcharts-convert.js'),
-                '-infile', path.join(__dirname, '../' + configPath + indikator.id + '.json'),
-                '-outfile', path.join(__dirname, '../' + imagePath + indikator.id + '.svg'),
-                '-constr', constr
-            ];
-            allArgs.push(currentArg);
+            if (indikator.visible == undefined || indikator.visible){            
+                console.log('Creating MultiArgsFile entries for chart ' + indikator.id + ' indikatorensetView=' + view +'...');
+                var imagePath = (view) ? 'images/indikatorenset/' : 'images/portal/';
+                var configPath = (view) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
+                //check if the chart is of type map and set 'constr' parameter accordingly 
+                var configFile = fs.readFileSync(configPath + indikator.id + '.json', 'utf8');
+                var config = deserialize(configFile);
+                var constr = (config.chart.type === 'map') ? 'Map' : 'Chart';
+                
+                var currentArg = [
+                    path.join(__dirname, 'highcharts-convert.js'),
+                    '-infile', path.join(__dirname, '../' + configPath + indikator.id + '.json'),
+                    '-outfile', path.join(__dirname, '../' + imagePath + indikator.id + '.svg'),
+                    '-constr', constr
+                ];
+                allArgs.push(currentArg);
+            }
+            else {
+                console.log('Chart ' + indikator.id + ' is invisible, ignoring.');
+            }
         });
     });
     var allArgsObj = {allArgs};
@@ -71,14 +76,16 @@ function addSvgViewBox(console){
         files.forEach(function(filepath){
             var ctx = execfile(filepath);
             var indikator = ctx.indikatoren[0];
-            var path = (view) ? 'images/indikatorenset/' : 'images/portal/';
-            var svg = fs.readFileSync(path + indikator.id + '.svg', 'utf8');
-            //replace hardcoded height and width with hardcoded viewBox in order to make pics compatible with IE. 
-            var regex = 'width="(.*?)" height="(.*?)">';
-            var re = new RegExp (regex);
-            var replace = 'viewBox="0 0 $1 $2">';
-            var svgWithViewBox = svg.replace(re, replace);            
-            fs.writeFile(path + indikator.id + '.svg', svgWithViewBox);
+            if (indikator.visible == undefined || indikator.visible){            
+                var path = (view) ? 'images/indikatorenset/' : 'images/portal/';
+                var svg = fs.readFileSync(path + indikator.id + '.svg', 'utf8');
+                //replace hardcoded height and width with hardcoded viewBox in order to make pics compatible with IE. 
+                var regex = 'width="(.*?)" height="(.*?)">';
+                var re = new RegExp (regex);
+                var replace = 'viewBox="0 0 $1 $2">';
+                var svgWithViewBox = svg.replace(re, replace);            
+                fs.writeFile(path + indikator.id + '.svg', svgWithViewBox);
+            }
         });
     });
 }
@@ -101,7 +108,7 @@ function renderMultipleImages(console){
 
     console.log("executing the following command line:");
     console.log(command);
-    //todo: start phantom server and send options via http post instaed of using new phantom instance every time    
+    //todo: start phantom server and send options via http post instead of using new phantom instance every time    
     var child_process = require('child_process');
     var stdout = child_process.execSync(command);
     console.log(stdout.toString());
