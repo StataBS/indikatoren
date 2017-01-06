@@ -29,19 +29,21 @@ global lazyRenderChartById
 //holds config of each chart
 var chartOptions = {};
 var sortOptions = {};
-//Indikatorenset or Portal view
-var indikatorensetView = false;
+
 var indikatoren;
+var indikatorensetView = false;
 
 $(document).ready(function(){
   //Render page differently depending on url query string 'Indikatorenset'
   //var indikatorenset = $.url('?Indikatorenset');
   var indikatorenset = window.decodeURIComponent($.url('?Indikatorenset'));
-  indikatorensetView = indikatorenset == 'undefined' ? false : true; 
-
+  //defines if portal or indikatorenset view is to be shown
+  indikatorensetView = false;
+  
   var jsonDatabaseUrl = 'metadata/portal/indikatoren.js';
   //determine if valid indikaorenset name
   if (indikatorensetNames.indexOf(indikatorenset) > -1){
+    indikatorensetView = true;
     jsonDatabaseUrl = 'metadata/sets/'+ indikatorenset + '.js';
   }
   
