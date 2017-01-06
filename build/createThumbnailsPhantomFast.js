@@ -5,14 +5,10 @@
 var execfile = require("execfile");
 var serialize = require('serialize-javascript');
 var fs = require('fs');
+var glob = require("glob");
 var path = require('path')
 var phantomjs = require('phantomjs-prebuilt')
 var binPath = phantomjs.path
-
-console.log('Loading metadata...');
-var ctx = execfile('metadata/all/indikatoren.js');
-var indikatoren = ctx.indikatoren;
-
 
 console.log('deleting previous chart configs...');
 var rimraf = require("rimraf");
@@ -20,7 +16,7 @@ rimraf('images/indikatorenset/*', function(error) {
     if (error) { throw error; }
     rimraf('images/portal/*', function(error) {
         if (error) { throw error; }
-        go(indikatoren);
+        go();
     });
 });
 
@@ -31,13 +27,16 @@ function deserialize(serializedJavascript){
 }
 
 
-function go(indikatoren){
+function go(){
     console.log('Starting MultiArgsFile creation...');
     var allArgs = [];
     var views = [true, false];
     views.forEach(function(view){
         console.log('Creating MultiArgsFile entries for indikatorensetView=' + view);
-        indikatoren.forEach(function(indikator){
+        var files = glob.sync("metadata/single/*.js");
+        files.forEach(function(filepath){
+            var ctx = execfile(filepath);
+            var indikator = ctx.indikatoren[0];
             console.log('Creating MultiArgsFile entries for chart ' + indikator.id + ' indikatorensetView=' + view +'...');
             var imagePath = (view) ? 'images/indikatorenset/' : 'images/portal/';
             var configPath = (view) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
@@ -68,7 +67,10 @@ function go(indikatoren){
 function addSvgViewBox(console){
     var views = [true, false];
     views.forEach(function(view){
-        indikatoren.forEach(function(indikator){                        
+        var files = glob.sync("metadata/single/*.js");
+        files.forEach(function(filepath){
+            var ctx = execfile(filepath);
+            var indikator = ctx.indikatoren[0];
             var path = (view) ? 'images/indikatorenset/' : 'images/portal/';
             var svg = fs.readFileSync(path + indikator.id + '.svg', 'utf8');
             //replace hardcoded height and width with hardcoded viewBox in order to make pics compatible with IE. 

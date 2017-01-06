@@ -34,14 +34,14 @@ files.forEach(function(filepath){
     }
 });
 console.log('Saving json database...');
-saveToJsonFile('indikatoren', indikatoren, console);
-saveToJsonFile('kuerzelById', kuerzelById, console);
-saveToJsonFile('idByKuerzel', idByKuerzel, console);
-saveToJsonFile('templatesById', templatesById, console);
+saveToJsonFile('indikatoren', 'portal/', indikatoren, console);
+saveToJsonFile('kuerzelById', 'all/', kuerzelById, console);
+saveToJsonFile('idByKuerzel', 'all/',idByKuerzel, console);
+saveToJsonFile('templatesById', 'all/',templatesById, console);
 //console.log('...done!');
 
-function saveToJsonFile(name, obj, console){
+function saveToJsonFile(name, dir, obj, console){
     var fs = require('fs');
-    var jsonFile = "var " + name + " = " + JSON.stringify(obj, null, '\t') + ";";
-    fs.writeFile('metadata/all/' + name + '.js', jsonFile);
+    var jsonFile = "var " +  name + " = " + JSON.stringify(obj, null, '\t') + ";";
+    fs.writeFile('metadata/' + dir +  name + '.js', jsonFile);
 };

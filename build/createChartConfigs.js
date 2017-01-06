@@ -13,6 +13,7 @@
 //Hack to re-use existing web js code from within node.js, see http://stackoverflow.com/a/8808162
 var execfile = require("execfile");
 var serialize = require('serialize-javascript');
+var glob = require("glob");
 console.log('Loading wohnviertel shapes...');
 var ctx = execfile('geojson/wohnviertel_reproj_mollweide_simp.js');
 var geojson_wohnviertel = ctx.geojson_wohnviertel;
@@ -25,16 +26,16 @@ rimraf('charts/configs/indikatorenset/*', function(error) {
     rimraf('charts/configs/portal/*', function(error) {
         if (error) { throw error; }
 
-        console.log('Loading metadata...');
-        var ctx = execfile('metadata/all/indikatoren.js');
-        var indikatoren = ctx.indikatoren;
-        
         var views = [true, false];
         views.forEach(function(view){
             console.log('Starting creation of chart config for indikatorensetView=' + view);
-            indikatoren.forEach(function(indikator){
+            
+            var files = glob.sync("metadata/single/*.js");
+            files.forEach(function(filepath){
+                var ctx = execfile(filepath);
+                var indikator = ctx.indikatoren[0];
                 console.log('Creating config for chart ' + indikator.id + ', indikatorensetView=' + view +'...');
-                createChartConfig(indikatoren, indikator.id, view, console);
+                createChartConfig(indikator, view, console);
             });
         });
     });
@@ -44,13 +45,13 @@ rimraf('charts/configs/indikatorenset/*', function(error) {
 
 
 //todo: get rid of all the jsdom code if not needed 
-function createChartConfig(indikatoren, id, indikatorensetView, console){
+function createChartConfig(indikator, indikatorensetView, console){
     var fs = require('fs');
 
     //from https://github.com/kirjs/react-highcharts/blob/b8e31a26b741f94a13a798ffcc1f1b60e7764676/src/simulateDOM.js 
     var jsdom = require('jsdom');
 
-    global.document = jsdom.jsdom('<!doctype html><html><body><div id="container-' + id + '"></div></body></html>', { virtualConsole });
+    global.document = jsdom.jsdom('<!doctype html><html><body><div id="container-' + indikator.id + '"></div></body></html>', { virtualConsole });
     var virtualConsole = jsdom.createVirtualConsole().sendTo(console);
     var win = global.document.defaultView;
     global.window = global;
@@ -85,24 +86,16 @@ function createChartConfig(indikatoren, id, indikatorensetView, console){
         }  
     });
 
-    for (var i=0; i<indikatoren.length; i++){
-        if (indikatoren[i].id === id){
-            var chartMetaData = indikatoren[i];
-            break;
-        }
-    }
+    var csv = (fs.readFileSync('data/' + indikator.id + '.tsv', 'utf8'));
 
-
-    var csv = (fs.readFileSync('data/' + id + '.tsv', 'utf8'));
-
-    ctx = execfile('charts/templates/' + id + '.js', {Highcharts: Highcharts, chartOptions: {}, geojson_wohnviertel: geojson_wohnviertel, rheinData: rheinData});
+    ctx = execfile('charts/templates/' + indikator.id + '.js', {Highcharts: Highcharts, chartOptions: {}, geojson_wohnviertel: geojson_wohnviertel, rheinData: rheinData});
     var options = ctx.chartOptions;
 
     //disable animations and prevent exceptions
     options.chart = (options.chart || {});
     options.chart.forExport = true;
 
-    var templateName = chartMetaData.template;
+    var templateName = indikator.template;
     ctx = execfile('charts/templates/' + templateName + '.js', {Highcharts: Highcharts});
     var template = ctx.template;
 
@@ -113,10 +106,10 @@ function createChartConfig(indikatoren, id, indikatorensetView, console){
         template: template
     });
 
-    ctx.createChartConfig(csv, options, chartMetaData, indikatorensetView, function(options){
+    ctx.createChartConfig(csv, options, indikator, indikatorensetView, function(options){
         var stringifiedOptions = serialize(options, {space: 2});
         var filePath = (indikatorensetView) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
         //console.log(stringifiedOptions);
-        fs.writeFile(filePath + id + '.json', stringifiedOptions);
+        fs.writeFile(filePath + indikator.id + '.json', stringifiedOptions);
     });
 }
