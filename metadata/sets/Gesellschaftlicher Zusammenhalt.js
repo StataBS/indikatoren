@@ -1,4 +1,4 @@
-var indikatorenset = [
+var indikatorensetData = [
 	{
 		"title": "Materielle oder finanzielle Hilfeleistungen durch Arbeitskollegen, Freunde und Bekannte oder Nachbarn",
 		"subtitle": "«Erhalten Sie oder ein anderes Haushaltsmitglied (finanzielle oder materielle) Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»",
