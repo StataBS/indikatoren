@@ -9,9 +9,13 @@ var files = glob.sync("metadata/single/*.js");
 files.forEach(function(filepath){
     var ctx = execfile(filepath);
     var indikator = ctx.indikatoren[0];
-    console.log('Adding chart ' + indikator.id + ' to Indikatorenset ' + indikator.kennzahlenset + '...');
-    saveToIndikatorensetJson(indikator.id, indikator, console);
-
+    if (indikator.visible == undefined || indikator.visible){
+        console.log('Adding chart ' + indikator.id + ' to Indikatorenset ' + indikator.kennzahlenset + '...');
+        saveToIndikatorensetJson(indikator.id, indikator, console);
+    }
+    else {
+        console.log('Chart ' + indikator.id + ' is invisible, ignoring.');
+    }
 });
  
 

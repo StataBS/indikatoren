@@ -34,8 +34,13 @@ rimraf('charts/configs/indikatorenset/*', function(error) {
             files.forEach(function(filepath){
                 var ctx = execfile(filepath);
                 var indikator = ctx.indikatoren[0];
-                console.log('Creating config for chart ' + indikator.id + ', indikatorensetView=' + view +'...');
-                createChartConfig(indikator, view, console);
+                if (indikator.visible == undefined || indikator.visible){
+                    console.log('Creating config for chart ' + indikator.id + ', indikatorensetView=' + view +'...');
+                    createChartConfig(indikator, view, console);
+                }
+                else {
+                    console.log('Chart ' + indikator.id + ' is invisible, ignoring.');
+                }
             });
         });
     });
