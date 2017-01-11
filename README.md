@@ -2,7 +2,7 @@
 Find and display statistical indicators from the canton of Basel-Stadt, Switzerland. See live version [here](http://www.statistik.bs.ch/zahlen/indikatoren/).  
 
 ## Local Installation
-Install [node.js](https://nodejs.org). Then run the following command in the console: 
+Install [node.js](https://nodejs.org), then run the following command in the console: 
 ```javascript
 npm install
 ```
