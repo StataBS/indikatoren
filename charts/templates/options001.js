@@ -1,3 +1,6 @@
+/*  global Highcharts 
+    global $
+*/
 Highcharts.setOptions({
 	"lang": {
 		"downloadJPEG": "JPEG",
