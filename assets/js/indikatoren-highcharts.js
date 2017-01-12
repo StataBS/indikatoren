@@ -13,11 +13,8 @@ global templatesById
 
 //parse csv and configure HighCharts object
 function parseData(chartOptions, data, completeHandler) {
-    try {
-      var dataOptions = {
-        /*  seriesMapping necessary for charts with error bars. 
-            todo: read dataOptions from chart-specific file
-        */          
+      var dataOptions = Highcharts.merge(chartOptions.data, {
+        /*  seriesMapping necessary for charts with error bars. */          
         "seriesMapping": [
           {
             "x": 0
@@ -30,14 +27,12 @@ function parseData(chartOptions, data, completeHandler) {
           }
         ],
           csv: data
-      };
+      });
+      //delete data node in chartOptions after merging into dataOptions
+      delete chartOptions.data;
       dataOptions.sort = true;
       dataOptions.complete = completeHandler;
       Highcharts.data(dataOptions, chartOptions);
-    } catch (error) {
-      console.log(error);
-      completeHandler(undefined);
-    }      
 }
 
 //merge series with all options
