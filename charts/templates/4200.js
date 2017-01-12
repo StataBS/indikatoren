@@ -1,4 +1,7 @@
 var chartOptions = {
+  "data": {
+    "switchRowsAndColumns": false
+  },
   "plotOptions": {
     "series": {
       "pointWidth": 15,
