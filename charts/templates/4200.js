@@ -1,6 +1,6 @@
 var chartOptions = {
   "data": {
-    "switchRowsAndColumns": true
+    "switchRowsAndColumns": false
   },
   "plotOptions": {
     "series": {
