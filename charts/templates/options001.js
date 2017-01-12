@@ -38,19 +38,10 @@ Highcharts.setOptions({
 var indikatorensetView = ($.url('?Indikatorenset') || $.url('?indikatorensetView') ) ? true : false;
 var indikatorensetParameter = indikatorensetView ? '&indikatorensetView=' + indikatorensetView : '';
 Highcharts.getOptions().exporting.buttons.contextButton.menuItems.push(
-        {
-            "text": "URL", 
-            "onclick": function(){            
-                window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart.html?id=' + this.renderTo.id.substring(10) + indikatorensetParameter, '_blank'); 
-            }
+    {
+        "text": "URL", 
+        "onclick": function(){            
+            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart.html?id=' + this.renderTo.id.substring(10) + indikatorensetParameter, '_blank'); 
         }
-    );
-Highcharts.getOptions().exporting.buttons.contextButton.menuItems.push(
-        {
-            "text": "CSV URL", 
-            "onclick": function(){            
-                window.open('https://github.com/StataBS/indikatoren/blob/gh-pages/data/' + this.renderTo.id.substring(10) + '.tsv', '_blank'); 
-            }
-        }
-    );
-        
+    });
+    
