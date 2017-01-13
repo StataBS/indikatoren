@@ -17,6 +17,10 @@ before_install:
 - if [ $(phantomjs --version) != $PHANTOMJS_VERSION ]; then tar -xvf $PWD/travis_phantomjs/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2
   -C $PWD/travis_phantomjs; fi
 - phantomjs --version
+- sudo apt-get update
+- echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | sudo debconf-set-selections
+- sudo apt-get install ttf-mscorefonts-installer
+
 install: 
 - npm install
 script: 
@@ -34,3 +38,4 @@ env:
   - GIT_EMAIL="travis@travis-ci.org"
   - SOURCE_DIR="."
   - DEPLOY_BRANCH="master"
+  - ACCEPT_HIGHCHARTS_LICENSE=YES
