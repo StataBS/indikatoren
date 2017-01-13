@@ -111,7 +111,7 @@ function createChartConfig(indikator, indikatorensetView, console){
         template: template
     });
 
-    ctx.createChartConfig(csv, options, indikator, indikatorensetView, function(options){
+    ctx.createChartConfig(csv, options, indikator, indikatorensetView, false, function(options){
         var stringifiedOptions = serialize(options, {space: 2});
         var filePath = (indikatorensetView) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
         //console.log(stringifiedOptions);

@@ -36,7 +36,7 @@ function parseData(chartOptions, data, completeHandler) {
 }
 
 //merge series with all options
-function createChartConfig(data, chartOptions, chartMetaData, indikatorensetView, callbackFn){  
+function createChartConfig(data, chartOptions, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn){  
   parseData(chartOptions, data, function (dataOptions) {
     // Merge series configs
     if (chartOptions.series && dataOptions) {
@@ -47,7 +47,7 @@ function createChartConfig(data, chartOptions, chartMetaData, indikatorensetView
     //merge all highcharts configs
     var options = Highcharts.merge(true, dataOptions, template, chartOptions);
     //inject metadata to highcharts options 
-    var injectedOptions = injectMetadataToChartConfig(options, chartMetaData, indikatorensetView);
+    var injectedOptions = injectMetadataToChartConfig(options, chartMetaData, indikatorensetView, suppressNumberInTitle);
     //replace . in labels with spaces - necessary for space between column groups
     var replacedOptions = createEmptyLabels(injectedOptions);
     //add afterSeries as last series
@@ -62,8 +62,8 @@ function createChartConfig(data, chartOptions, chartMetaData, indikatorensetView
 
 
 //merge series with all options and draw chart
-function drawChart(data, chartOptions, chartMetaData, indikatorensetView, callbackFn){
-  createChartConfig(data, chartOptions, chartMetaData, indikatorensetView, function(options){
+function drawChart(data, chartOptions, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn){
+  createChartConfig(data, chartOptions, chartMetaData, indikatorensetView, suppressNumberInTitle, function(options){
     var chartType = (options.chart.type === "map") ? 'Map' : 'Chart';
     var chart = new Highcharts[chartType](options, callbackFn);
     return chart;
@@ -72,8 +72,10 @@ function drawChart(data, chartOptions, chartMetaData, indikatorensetView, callba
 
 
 //Add data from database to chart config
-function injectMetadataToChartConfig(options, data, indikatorensetView){
-  options['title']['text'] = (indikatorensetView) ? data.kuerzelKunde + ' ' + data.title : data.kuerzel + ' ' + data.title;
+function injectMetadataToChartConfig(options, data, indikatorensetView, suppressNumberInTitle){
+  var chartNumber = (indikatorensetView) ? data.kuerzelKunde : data.kuerzel;
+  var chartNumberToDisplay = (suppressNumberInTitle) ? "" : chartNumber + ' ';
+  options['title']['text'] = (indikatorensetView) ? chartNumberToDisplay + data.title : chartNumberToDisplay + data.title;
   options['subtitle']['text'] = data.subtitle;    
   options['chart']['renderTo'] = 'container-' + data.id;
   options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join(';<br/>');
@@ -105,7 +107,7 @@ function createEmptyLabels(options){
 
 //todo: create new function that uses the pre-created chart configs from /charts/configs
 //load global options, template, chartOptions from external scripts, load csv data from external file, and render chart to designated div
-function renderChartByKuerzel(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, chartMetaData, indikatorensetView, callbackFn){
+function renderChartByKuerzel(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn){
   //load scripts one after the other, then load csv and draw the chart
   $.when(    
       $.getScript(globalOptionsUrl),
@@ -117,14 +119,14 @@ function renderChartByKuerzel(globalOptionsUrl, templateUrl, chartUrl, csvUrl, k
   ).done(function(){
       //load csv and draw chart            
       $.get(csvUrl, function(data){
-        drawChart(data, chartOptions, chartMetaData, indikatorensetView, callbackFn);
+        drawChart(data, chartOptions, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn);
       });
   });  
 }
 
 //wrapper function if id is given instead of kuerzel
-function renderChartById(globalOptionsUrl, templateUrl, chartUrl, csvUrl, id, chartMetaData, indikatorensetView, callbackFn){     
-  renderChartByKuerzel(globalOptionsUrl, templateUrl, chartUrl, csvUrl, findKuerzelById(indikatoren, id), chartMetaData, indikatorensetView, callbackFn);
+function renderChartById(globalOptionsUrl, templateUrl, chartUrl, csvUrl, id, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn){     
+  renderChartByKuerzel(globalOptionsUrl, templateUrl, chartUrl, csvUrl, findKuerzelById(indikatoren, id), chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn);
 }
 
 //find chart metadata by kuerzel from json database 
@@ -180,7 +182,7 @@ function getChartUrls(id){
 }
 
 //construct urls by chart id and render to designated div
-function lazyRenderChartById(id, chartMetaData, indikatorensetView, callbackFn){
+function lazyRenderChartById(id, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn){
   var container = $(escapeCssChars('#container-' + id));
   //check if a highcharts-container below the container is already present. 
   //no highcharts container yet: load data and draw chart. 
@@ -188,7 +190,7 @@ function lazyRenderChartById(id, chartMetaData, indikatorensetView, callbackFn){
     var chartUrls = getChartUrls(id);
     //get template for requested chart 
     (chartMetaData === undefined) ? chartMetaData = findChartById(indikatoren, id) : chartMetaData;
-    renderChartById(chartUrls['optionsUrl'], chartUrls['templateUrl'], chartUrls['chartUrl'], chartUrls['csvUrl'], id, chartMetaData, indikatorensetView, callbackFn);
+    renderChartById(chartUrls['optionsUrl'], chartUrls['templateUrl'], chartUrls['chartUrl'], chartUrls['csvUrl'], id, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn);
   }
   //highcharts container exists already: redraw chart without reloading data from network
   else { 
