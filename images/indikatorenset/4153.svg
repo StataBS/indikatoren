@@ -1,1 +1,100 @@
-<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415"><desc>Created with Highcharts 5.0.6</desc><defs><clipPath id="highcharts-gt279wt-1"><rect x="0" y="0" width="396" height="307" fill="none"></rect></clipPath></defs><rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="485" height="415" rx="0" ry="0"></rect><rect fill="none" class="highcharts-plot-background" x="79" y="41" width="396" height="307"></rect><g class="highcharts-grid highcharts-xaxis-grid "><path fill="none" class="highcharts-grid-line" d="M 114.5 41 L 114.5 348" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 150.5 41 L 150.5 348" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 186.5 41 L 186.5 348" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 222.5 41 L 222.5 348" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 258.5 41 L 258.5 348" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 294.5 41 L 294.5 348" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 330.5 41 L 330.5 348" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 366.5 41 L 366.5 348" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 402.5 41 L 402.5 348" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 438.5 41 L 438.5 348" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 474.5 41 L 474.5 348" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 78.5 41 L 78.5 348" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid "><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 79 348.5 L 475 348.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 79 287.5 L 475 287.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 79 225.5 L 475 225.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 79 164.5 L 475 164.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 79 102.5 L 475 102.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 79 40.5 L 475 40.5" opacity="1"></path></g><rect fill="none" class="highcharts-plot-border" x="79" y="41" width="396" height="307"></rect><g class="highcharts-axis highcharts-xaxis "><path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" d="M 79 348.5 L 475 348.5"></path></g><g class="highcharts-axis highcharts-yaxis "><path fill="none" class="highcharts-axis-line" d="M 79 41 L 79 348"></path></g><g class="highcharts-series-group"><g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(79,41) scale(1 1)" width="307" height="396" clip-path="url(#highcharts-gt279wt-1)"><path fill="none" d="M 18 279.389341 L 54 283.9111133 L 90 289.5330815 L 126 289.0481136 L 162 247.5347447 L 198 211.3834378 L 234 176.4010027 L 270 147.9438219 L 306 58.75304599999998 L 342 33.3359327 L 378 14.563312499999995" class="highcharts-graph" stroke="#923f8d" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M 8 279.389341 L 18 279.389341 L 54 283.9111133 L 90 289.5330815 L 126 289.0481136 L 162 247.5347447 L 198 211.3834378 L 234 176.4010027 L 270 147.9438219 L 306 58.75304599999998 L 342 33.3359327 L 378 14.563312499999995 L 388 14.563312499999995" stroke-linejoin="round" visibility="visible" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"></path></g><g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker" transform="translate(79,41) scale(1 1)" width="307" height="396" clip-path="none"><path fill="#923f8d" d="M 378 11 C 383.328 11 383.328 19 378 19 C 372.672 19 372.672 11 378 11 Z" class="highcharts-point"></path><path fill="#923f8d" d="M 342 29 C 347.328 29 347.328 37 342 37 C 336.672 37 336.672 29 342 29 Z" class="highcharts-point"></path><path fill="#923f8d" d="M 306 55 C 311.328 55 311.328 63 306 63 C 300.672 63 300.672 55 306 55 Z" class="highcharts-point"></path><path fill="#923f8d" d="M 270 144 C 275.328 144 275.328 152 270 152 C 264.672 152 264.672 144 270 144 Z" class="highcharts-point"></path><path fill="#923f8d" d="M 234 172 C 239.328 172 239.328 180 234 180 C 228.672 180 228.672 172 234 172 Z" class="highcharts-point"></path><path fill="#923f8d" d="M 198 207 C 203.328 207 203.328 215 198 215 C 192.672 215 192.672 207 198 207 Z" class="highcharts-point"></path><path fill="#923f8d" d="M 162 244 C 167.328 244 167.328 252 162 252 C 156.672 252 156.672 244 162 244 Z" class="highcharts-point"></path><path fill="#923f8d" d="M 126 285 C 131.328 285 131.328 293 126 293 C 120.672 293 120.672 285 126 285 Z" class="highcharts-point"></path><path fill="#923f8d" d="M 90 286 C 95.328 286 95.328 294 90 294 C 84.672 294 84.672 286 90 286 Z" class="highcharts-point"></path><path fill="#923f8d" d="M 54 280 C 59.328 280 59.328 288 54 288 C 48.672 288 48.672 280 54 280 Z" class="highcharts-point"></path><path fill="#923f8d" d="M 18 275 C 23.328 275 23.328 283 18 283 C 12.672 283 12.672 275 18 275 Z" class="highcharts-point"></path></g></g><text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;width:421px;" y="21"><tspan>4.1.b Ausbezahlte Familienmietzinsbeiträge</tspan></text><g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(79,41) scale(1 1)" opacity="1"><g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " style="" transform="translate(-5,255)"><text x="5" style="font-size:11px;font-weight:bold;color:#000000;text-outline:1px contrast;fill:#000000;" y="16"><tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">899 370</tspan><tspan x="5" y="16">899 370</tspan></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " style="" transform="translate(343,15)"><text x="5" style="font-size:11px;font-weight:bold;color:#000000;text-outline:1px contrast;fill:#000000;" y="16"><tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">9 525 625</tspan><tspan x="5" y="16">9 525 625</tspan></text></g></g><g class="highcharts-axis-labels highcharts-xaxis-labels "><text x="97" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="367" opacity="1">2005</text><text x="133" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="367" opacity="1">2006</text><text x="169" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="367" opacity="1">2007</text><text x="205" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="367" opacity="1">2008</text><text x="241" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="367" opacity="1">2009</text><text x="277" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="367" opacity="1">2010</text><text x="313" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="367" opacity="1">2011</text><text x="349" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="367" opacity="1">2012</text><text x="385" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="367" opacity="1">2013</text><text x="421" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="367" opacity="1">2014</text><text x="457" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="367" opacity="1">2015</text></g><g class="highcharts-axis-labels highcharts-yaxis-labels "><text x="64" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="352" opacity="1"><tspan>0</tspan></text><text x="64" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="291" opacity="1"><tspan>2 000 000</tspan></text><text x="64" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="229" opacity="1"><tspan>4 000 000</tspan></text><text x="64" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="168" opacity="1"><tspan>6 000 000</tspan></text><text x="64" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="106" opacity="1"><tspan>8 000 000</tspan></text><text x="64" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="45" opacity="1"><tspan>10 000 000</tspan></text></g><text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400"><tspan>Quelle: Statistisches Amt Basel-Stadt, Amt für Sozialbeiträge Basel-Stadt</tspan></text></svg>
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h395v308H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M80 41h395v308H80z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M115.5 41v308m36-308v308m36-308v308m36-308v308m36-308v308m35-308v308m36-308v308m36-308v308m36-308v308m36-308v308m36-308v308M79.5 41v308"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M80 349.5h395m-395-62h395m-395-61h395m-395-62h395m-395-61h395m-395-62h395"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M80 41h395v308H80z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M80 349.5h395"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M80 41v308"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(80 41)" clip-path="url(#a)">
+            <path fill="none" d="M17.955 280.3l35.909 4.536 35.909 5.64 35.909-.486 35.909-41.649 35.909-36.269 35.91-35.096 35.908-28.55 35.91-89.482 35.908-25.5 35.91-18.833" class="highcharts-graph" stroke="#923f8d" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M7.955 280.3h10l35.909 4.536 35.909 5.64 35.909-.486 35.909-41.649 35.909-36.269 35.91-35.096 35.908-28.55 35.91-89.482 35.908-25.5 35.91-18.833h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#923f8d" d="M457 52c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 18c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 26c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 89c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 29c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 35c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 36c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 42c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 0c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36-5c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36-5c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>4.1.b Ausbezahlte Familienmietzinsbeiträge</tspan>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(75 298)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">899 370</tspan><tspan x="5" y="16">899 370</tspan>
+        </text>
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(421 56)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">9 525 625</tspan><tspan x="5" y="16">9 525 625</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="97.955" y="368">
+            2005
+        </text>
+        <text x="133.864" y="368">
+            2006
+        </text>
+        <text x="169.773" y="368">
+            2007
+        </text>
+        <text x="205.682" y="368">
+            2008
+        </text>
+        <text x="241.591" y="368">
+            2009
+        </text>
+        <text x="277.5" y="368">
+            2010
+        </text>
+        <text x="313.409" y="368">
+            2011
+        </text>
+        <text x="349.318" y="368">
+            2012
+        </text>
+        <text x="385.227" y="368">
+            2013
+        </text>
+        <text x="421.136" y="368">
+            2014
+        </text>
+        <text x="457.045" y="368">
+            2015
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="65" style="width:150px" y="354">
+            <tspan>0</tspan>
+        </text>
+        <text x="65" style="width:150px" y="292">
+            <tspan>2 000 000</tspan>
+        </text>
+        <text x="65" style="width:150px" y="230">
+            <tspan>4 000 000</tspan>
+        </text>
+        <text x="65" style="width:150px" y="169">
+            <tspan>6 000 000</tspan>
+        </text>
+        <text x="65" style="width:150px" y="107">
+            <tspan>8 000 000</tspan>
+        </text>
+        <text x="65" style="width:150px" y="45">
+            <tspan>10 000 000</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, Amt für Sozialbeiträge Basel-Stadt</tspan>
+    </text>
+</svg>
