@@ -16,23 +16,25 @@
     "highcharts": "^5.0.6",
     "highcharts-phantomjs": "^2.2.0",
     "jsdom": "^9.8.0",
+    "rimraf": "^2.5.4",
     "serialize-javascript": "^1.3.0",
-    "rimraf": "^2.5.4"
+    "svgo": "^0.7.1"
   },
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0",
     "build:database": "node build/createJsonDatabase",
-    "build:charts": "node build/createChartConfigs",
-    "build:images_jsdom": "node build/createThumbnailsJsdom",
-    "build:images_phantom_fast": "node build/createThumbnailsPhantomFast",
-    "build:images_phantom_slow": "node build/createThumbnailsPhantomSlow",
     "build:partial_databases": "node build/createKennzahlensetJsonFiles.js",
-    "build": "npm run build:database && npm run build:partial_databases && npm run build:charts && npm run build:images_phantom_fast",
+    "build:charts": "node build/createChartConfigs",
+    "build:images_phantom_fast": "node build/createThumbnailsPhantomFast",
+    "build:optimize_images": "echo 'Optimizing svg images...' && svgo --pretty --multipass -f images/portal/ && svgo --pretty --multipass -f images/indikatorenset/ && echo '...done optimizing images!'",
+    "build": "npm run build:database && npm run build:partial_databases && npm run build:charts && npm run build:images_phantom_fast && npm run build:optimize_images",
+    "test": "echo \"No test specified\" && exit 0",
     "server": "http-server -p 8000 -c-1 -s -o ",
     "start": "npm run build && npm run server",
     "deploy:gh-pages": "gh-pages-travis",
     "deploy:ftp": "echo \"Fake uploading to FTP server...\" && exit 0",
-    "deploy": "npm run deploy:gh-pages && npm run deploy:ftp && pwd"
+    "deploy": "npm run deploy:gh-pages && npm run deploy:ftp && pwd",
+    "build:images_jsdom": "node build/createThumbnailsJsdom",
+    "build:images_phantom_slow": "node build/createThumbnailsPhantomSlow"
   },
   "repository": {
     "type": "git",
