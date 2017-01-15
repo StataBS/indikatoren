@@ -1,1 +1,134 @@
-<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415"><desc>Created with Highcharts 5.0.6</desc><defs><clipPath id="highcharts-6jqpk6k-1"><rect x="0" y="0" width="280" height="261" fill="none"></rect></clipPath></defs><rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="485" height="415" rx="0" ry="0"></rect><rect fill="none" class="highcharts-plot-background" x="53" y="88" width="280" height="261"></rect><g class="highcharts-grid highcharts-xaxis-grid "><path fill="none" class="highcharts-grid-line" d="M 108.5 88 L 108.5 349" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 164.5 88 L 164.5 349" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 220.5 88 L 220.5 349" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 276.5 88 L 276.5 349" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 332.5 88 L 332.5 349" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 52.5 88 L 52.5 349" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid "><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 349.5 L 333 349.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 323.5 L 333 323.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 297.5 L 333 297.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 271.5 L 333 271.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 245.5 L 333 245.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 219.5 L 333 219.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 192.5 L 333 192.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 166.5 L 333 166.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 140.5 L 333 140.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 114.5 L 333 114.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 87.5 L 333 87.5" opacity="1"></path></g><rect fill="none" class="highcharts-plot-border" x="53" y="88" width="280" height="261"></rect><g class="highcharts-axis highcharts-xaxis "><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 108.5 349 L 108.5 359" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 164.5 349 L 164.5 359" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 220.5 349 L 220.5 359" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 276.5 349 L 276.5 359" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 333.5 349 L 333.5 359" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 52.5 349 L 52.5 359" opacity="1"></path><path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" d="M 53 349.5 L 333 349.5"></path></g><g class="highcharts-axis highcharts-yaxis "><path fill="none" class="highcharts-axis-line" d="M 53 88 L 53 349"></path></g><g class="highcharts-series-group"><g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53,88) scale(1 1)" width="261" height="280" clip-path="url(#highcharts-6jqpk6k-1)"><rect x="14.5" y="-0.5" width="27" height="8" fill="#dc440e" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect><rect x="70.5" y="-0.5" width="27" height="9" fill="#dc440e" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect><rect x="126.5" y="-0.5" width="27" height="5" fill="#dc440e" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect><rect x="182.5" y="-0.5" width="27" height="4" fill="#dc440e" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect><rect x="238.5" y="-0.5" width="27" height="4" fill="#dc440e" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect></g><g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(53,88) scale(1 1)" width="261" height="280" clip-path="none"></g><g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53,88) scale(1 1)" width="261" height="280" clip-path="url(#highcharts-6jqpk6k-1)"><rect x="14.5" y="7.5" width="27" height="54" fill="#ffbb58" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect><rect x="70.5" y="8.5" width="27" height="60" fill="#ffbb58" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect><rect x="126.5" y="4.5" width="27" height="54" fill="#ffbb58" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect><rect x="182.5" y="3.5" width="27" height="39" fill="#ffbb58" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect><rect x="238.5" y="3.5" width="27" height="33" fill="#ffbb58" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect></g><g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(53,88) scale(1 1)" width="261" height="280" clip-path="none"></g><g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53,88) scale(1 1)" width="261" height="280" clip-path="url(#highcharts-6jqpk6k-1)"><rect x="14.5" y="61.5" width="27" height="77" fill="#999999" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect><rect x="70.5" y="68.5" width="27" height="84" fill="#999999" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect><rect x="126.5" y="58.5" width="27" height="98" fill="#999999" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect><rect x="182.5" y="42.5" width="27" height="67" fill="#999999" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect><rect x="238.5" y="36.5" width="27" height="76" fill="#999999" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect></g><g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(53,88) scale(1 1)" width="261" height="280" clip-path="none"></g><g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53,88) scale(1 1)" width="261" height="280" clip-path="url(#highcharts-6jqpk6k-1)"><rect x="14.5" y="138.5" width="27" height="104" fill="#68ab2b" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect><rect x="70.5" y="152.5" width="27" height="93" fill="#68ab2b" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect><rect x="126.5" y="156.5" width="27" height="93" fill="#68ab2b" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect><rect x="182.5" y="109.5" width="27" height="110" fill="#68ab2b" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect><rect x="238.5" y="112.5" width="27" height="116" fill="#68ab2b" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect></g><g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(53,88) scale(1 1)" width="261" height="280" clip-path="none"></g><g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53,88) scale(1 1)" width="261" height="280" clip-path="url(#highcharts-6jqpk6k-1)"><rect x="14.5" y="242.5" width="27" height="19" fill="#007a2f" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect><rect x="70.5" y="245.5" width="27" height="16" fill="#007a2f" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect><rect x="126.5" y="249.5" width="27" height="12" fill="#007a2f" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect><rect x="182.5" y="219.5" width="27" height="42" fill="#007a2f" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect><rect x="238.5" y="228.5" width="27" height="33" fill="#007a2f" class="highcharts-point" stroke="#ffffff" stroke-width="1"></rect></g><g class="highcharts-markers highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(53,88) scale(1 1)" width="261" height="280" clip-path="none"></g></g><text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;width:421px;" y="21"><tspan>I.50.1.0009 Zufriedenheit mit Einrichtungen und Angeboten</tspan><tspan dy="17" x="10">für behinderte Menschen</tspan><title>I.50.1.0009 Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen</title></text><text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;fill:#000000;width:421px;" y="57"><tspan>«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte</tspan><tspan dy="15" x="10">Menschen?»</tspan><title>«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte Menschen?»</title></text><g class="highcharts-legend" transform="translate(345,135)"><rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="130" height="126" visibility="visible"></rect><g><g><g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)"><text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15"><tspan>Sehr unzufrieden</tspan></text><rect x="2" y="4" width="12" height="12" fill="#dc440e" class="highcharts-point"></rect></g><g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(8,23)"><text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start"><tspan>Eher unzufrieden</tspan></text><rect x="2" y="4" width="12" height="12" fill="#ffbb58" class="highcharts-point"></rect></g><g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(8,43)"><text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start"><tspan>Weiss nicht /</tspan><tspan x="21" dy="15">Keine Angabe</tspan></text><rect x="2" y="4" width="12" height="12" fill="#999999" class="highcharts-point"></rect></g><g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3" transform="translate(8,78)"><text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start"><tspan>Eher zufrieden</tspan></text><rect x="2" y="4" width="12" height="12" fill="#68ab2b" class="highcharts-point"></rect></g><g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4" transform="translate(8,98)"><text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start"><tspan>Sehr zufrieden</tspan></text><rect x="2" y="4" width="12" height="12" fill="#007a2f" class="highcharts-point"></rect></g></g></g></g><g class="highcharts-axis-labels highcharts-xaxis-labels "><text x="81" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1"><tspan>2003</tspan><tspan x="81" dy="14">(N=1471)</tspan></text><text x="137" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1"><tspan>2005</tspan><tspan x="137" dy="14">(N=1490)</tspan></text><text x="193" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1"><tspan>2007</tspan><tspan x="193" dy="14">(N=1478)</tspan></text><text x="249" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1"><tspan>2011</tspan><tspan x="249" dy="14">(N=1491)</tspan></text><text x="305" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1"><tspan>2015</tspan><tspan x="305" dy="14">(N=1477)</tspan></text></g><g class="highcharts-axis-labels highcharts-yaxis-labels "><text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="353" opacity="1"><tspan>0%</tspan></text><text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="327" opacity="1"><tspan>10%</tspan></text><text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="301" opacity="1"><tspan>20%</tspan></text><text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="275" opacity="1"><tspan>30%</tspan></text><text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="249" opacity="1"><tspan>40%</tspan></text><text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="223" opacity="1"><tspan>50%</tspan></text><text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="196" opacity="1"><tspan>60%</tspan></text><text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="170" opacity="1"><tspan>70%</tspan></text><text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="144" opacity="1"><tspan>80%</tspan></text><text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="118" opacity="1"><tspan>90%</tspan></text><text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="92" opacity="1"><tspan>100%</tspan></text></g><text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400"><tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_19</tspan></text></svg>
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h282v263H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M53 87h282v263H53z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M108.5 87v263m57-263v263m56-263v263m57-263v263m56-263v263M52.5 87v263"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 350.5h282m-282-26h282m-282-27h282m-282-26h282m-282-26h282m-282-26h282m-282-27h282m-282-26h282m-282-26h282m-282-27h282m-282-27h282"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M53 87h282v263H53z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M108.5 350v10m57-10v10m56-10v10m57-10v10m57-10v10m-283-10v10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M53 350.5h282"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M53 87v263"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 87)" clip-path="url(#a)">
+            <path fill="#dc440e" class="highcharts-point" stroke="#fff" d="M14.5-.5h28v8h-28zm56 0h28v9h-28zm56 0h28v5h-28zm57 0h28v5h-28zm56 0h28v4h-28z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 87)" clip-path="url(#a)">
+            <path fill="#ffbb58" class="highcharts-point" stroke="#fff" d="M14.5 7.5h28v55h-28zm56 1h28v60h-28zm56-4h28v54h-28zm57 0h28v38h-28zm56-1h28v33h-28z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 87)" clip-path="url(#a)">
+            <path fill="#999" class="highcharts-point" stroke="#fff" d="M14.5 62.5h28v77h-28zm56 6h28v85h-28zm56-10h28v99h-28zm57-16h28v68h-28zm56-6h28v76h-28z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 87)" clip-path="url(#a)">
+            <path fill="#68ab2b" class="highcharts-point" stroke="#fff" d="M14.5 139.5h28v105h-28zm56 14h28v93h-28zm56 4h28v94h-28zm57-47h28v111h-28zm56 2h28v118h-28z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 87)" clip-path="url(#a)">
+            <path fill="#007a2f" class="highcharts-point" stroke="#fff" d="M14.5 244.5h28v19h-28zm56 2h28v17h-28zm56 5h28v12h-28zm57-30h28v42h-28zm56 9h28v33h-28z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>I.50.1.0009 Zufriedenheit mit Einrichtungen und Angeboten für</tspan><tspan dy="17" x="10">behinderte Menschen</tspan><title>I.50.1.0009 Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen</title>
+    </text>
+    <text x="10" class="highcharts-subtitle" style="width:421px" y="57" color="#000">
+        <tspan>«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte</tspan><tspan dy="15" x="10">Menschen?»</tspan><title>«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte Menschen?»</title>
+    </text>
+    <g class="highcharts-legend" transform="translate(347 137)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="128" height="121"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                <tspan>Sehr unzufrieden</tspan>
+            </text>
+            <path fill="#dc440e" class="highcharts-point" d="M10 7h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
+                <tspan>Eher unzufrieden</tspan>
+            </text>
+            <path fill="#ffbb58" class="highcharts-point" d="M10 26h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 41)">
+                <tspan>Weiss nicht /</tspan><tspan x="21" dy="15">Keine Angabe</tspan>
+            </text>
+            <path fill="#999" class="highcharts-point" d="M10 45h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 75)">
+                <tspan>Eher zufrieden</tspan>
+            </text>
+            <path fill="#68ab2b" class="highcharts-point" d="M10 79h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 94)">
+                <tspan>Sehr zufrieden</tspan>
+            </text>
+            <path fill="#007a2f" class="highcharts-point" d="M10 98h12v12H10z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="81.2" y="369">
+            <tspan>2003</tspan><tspan x="81.2" dy="14">(N=1471)</tspan>
+        </text>
+        <text x="137.6" y="369">
+            <tspan>2005</tspan><tspan x="137.6" dy="14">(N=1490)</tspan>
+        </text>
+        <text x="194" y="369">
+            <tspan>2007</tspan><tspan x="194" dy="14">(N=1478)</tspan>
+        </text>
+        <text x="250.4" y="369">
+            <tspan>2011</tspan><tspan x="250.4" dy="14">(N=1491)</tspan>
+        </text>
+        <text x="306.8" y="369">
+            <tspan>2015</tspan><tspan x="306.8" dy="14">(N=1477)</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="38" style="width:150px" y="355">
+            <tspan>0%</tspan>
+        </text>
+        <text x="38" style="width:150px" y="328">
+            <tspan>10%</tspan>
+        </text>
+        <text x="38" style="width:150px" y="302">
+            <tspan>20%</tspan>
+        </text>
+        <text x="38" style="width:150px" y="276">
+            <tspan>30%</tspan>
+        </text>
+        <text x="38" style="width:150px" y="249">
+            <tspan>40%</tspan>
+        </text>
+        <text x="38" style="width:150px" y="223">
+            <tspan>50%</tspan>
+        </text>
+        <text x="38" style="width:150px" y="197">
+            <tspan>60%</tspan>
+        </text>
+        <text x="38" style="width:150px" y="170">
+            <tspan>70%</tspan>
+        </text>
+        <text x="38" style="width:150px" y="144">
+            <tspan>80%</tspan>
+        </text>
+        <text x="38" style="width:150px" y="118">
+            <tspan>90%</tspan>
+        </text>
+        <text x="38" style="width:150px" y="92">
+            <tspan>100%</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_19</tspan>
+    </text>
+</svg>
