@@ -1,4 +1,4 @@
-﻿chartOptions["I.09.4.0003"] = {
+var chartOptions = {
   "yAxis": {
     "labels": {
       "format": "{value:,.0f}",

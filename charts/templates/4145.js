@@ -1,4 +1,4 @@
-﻿chartOptions['I.09.1.0025'] = {
+var chartOptions = {
   "xAxis": {
     "max": 2015,
     "tickInterval": 5,

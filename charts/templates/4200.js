@@ -1,4 +1,7 @@
-chartOptions['I.01.1.0013'] = {
+var chartOptions = {
+  "data": {
+    "switchRowsAndColumns": false
+  },
   "plotOptions": {
     "series": {
       "pointWidth": 15,

@@ -20,6 +20,8 @@ global JsonQuery
 global FJS
 
 global indikatoren
+global indikatorensetData
+global indikatorensetNames
 global lazyRenderChartById
 
 */
@@ -27,12 +29,39 @@ global lazyRenderChartById
 //holds config of each chart
 var chartOptions = {};
 var sortOptions = {};
-//Indikatorenset or Portal view
+
+var indikatoren;
 var indikatorensetView = false;
 
 $(document).ready(function(){
-  //template: '#indikator-template-carousel', 
+  //Render page differently depending on url query string 'Indikatorenset'
+  //var indikatorenset = $.url('?Indikatorenset');
+  var indikatorenset = window.decodeURIComponent($.url('?Indikatorenset'));
+  //defines if portal or indikatorenset view is to be shown
+  indikatorensetView = false;
+  
+  var jsonDatabaseUrl = 'metadata/portal/indikatoren.js';
+  //determine if valid indikaorenset name
+  if (indikatorensetNames.indexOf(indikatorenset) > -1){
+    indikatorensetView = true;
+    jsonDatabaseUrl = 'metadata/sets/'+ indikatorenset + '.js';
+  }
+  
+  //load data
+  $.when(    
+    $.getScript(jsonDatabaseUrl),
+    $.Deferred(function(deferred){
+      $(deferred.resolve);
+    })
+  ).done(function(){
+      //if indikatorenset is loaded: make sure the data is loaded into var indikatoren
+      if (indikatorensetView) {indikatoren = indikatorensetData}
+      initializeFilterJS(indikatorenset);
+  });  
+});
 
+
+function initializeFilterJS(indikatorenset){
   var fjsConfig = {      
     template: undefined,
     search: { ele: '#searchbox' },
@@ -51,9 +80,6 @@ $(document).ready(function(){
   };
 
 
-  //Render page differently depending on url query string 'Indikatorenset'
-  var indikatorenset = $.url('?Indikatorenset');
-  indikatorensetView = indikatorenset ? true : false; 
   if (indikatorensetView){ 
     //Indikatorenset View
     sortOptions = {'kuerzelKunde': 'asc'};
@@ -127,7 +153,7 @@ $(document).ready(function(){
       $('#carousel-indicators li').text(indicatorText.replace(lastNumberText, currentNumber));      
       $('#carousel-indicators li').removeClass('active');
   });
-});//$(document).ready()
+}
 
 
 //interpret sort configuration received from dropdown

@@ -1,4 +1,4 @@
-var indikatorenset = [
+var indikatorensetData = [
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot",
 		"subtitle": "«Wie zufrieden sind sie mit dem Wohnungsangebot?»",
@@ -611,13 +611,13 @@ var indikatorenset = [
 		]
 	},
 	{
-		"title": "Wohnungen mit mehr als 4 Zimmern",
+		"title": "Wohnungen mit 4 oder mehr Zimmern",
 		"subtitle": "",
 		"kuerzel": "I.09.1.0008",
 		"kuerzelKunde": "2.1.a",
 		"image": "images/I.09.1.0008.jpg",
-		"description": "Wohnungen mit mehr als 4 Zimmern",
-		"id": "4146",
+		"description": "Wohnungen mit 4 oder mehr Zimmern",
+		"id": 4146,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -634,10 +634,11 @@ var indikatorenset = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Wohnungen mit mehr als 4 Zimmern stieg zum einen in der Dekade der 1970er-Jahre, und zwar um 2,6 Prozentpunkte. Zum anderen nimmt der Anteil seit 2010 wieder zu. Dazwischen war kaum oder nur marginales Wachstum zu verzeichnen.",
+		"lesehilfe": "Der Anteil Wohnungen mit 4 oder mehr Zimmern stieg zum einen in der Dekade der 1970er-Jahre, und zwar um 2,6 Prozentpunkte. Zum anderen nimmt der Anteil seit 2010 wieder zu. Dazwischen war kaum oder nur marginales Wachstum zu verzeichnen.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
 		]

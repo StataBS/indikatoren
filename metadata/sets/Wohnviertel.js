@@ -1,4 +1,4 @@
-var indikatorenset = [
+var indikatorensetData = [
 	{
 		"title": "Sozialhilfequote",
 		"subtitle": "",

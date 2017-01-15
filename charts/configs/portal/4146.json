@@ -136,7 +136,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.09.1.0008 Wohnungen mit mehr als 4 Zimmern"
+    "text": "I.09.1.0008 Wohnungen mit 4 oder mehr Zimmern"
   },
   "subtitle": {
     "style": {
@@ -231,7 +231,7 @@
     }
   },
   "tooltip": {
-    "shared": true
+    "shared": false
   },
   "exporting": {
     "filename": "I.09.1.0008"

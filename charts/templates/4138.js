@@ -1,4 +1,4 @@
-﻿chartOptions["I.09.4.0004"] = {
+var chartOptions = {
   "plotOptions": {
     "series": {
       "stacking": null,

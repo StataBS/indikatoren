@@ -1,4 +1,4 @@
-﻿chartOptions['I.16.1.0005'] = {
+var chartOptions = {
   "yAxis": {
     "tickInterval": 250000,
     "labels": {
