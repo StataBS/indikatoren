@@ -1,1 +1,120 @@
-<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415"><desc>Created with Highcharts 5.0.6</desc><defs><clipPath id="highcharts-agyx6r4-1"><rect x="0" y="0" width="308" height="355" fill="none"></rect></clipPath></defs><rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="485" height="415" rx="0" ry="0"></rect><rect fill="none" class="highcharts-plot-background" x="120" y="41" width="355" height="308"></rect><g class="highcharts-grid highcharts-xaxis-grid "><path fill="none" class="highcharts-grid-line" d="M 120 56.5 L 475 56.5" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 120 70.5 L 475 70.5" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 120 85.5 L 475 85.5" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 120 100.5 L 475 100.5" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 120 114.5 L 475 114.5" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 120 129.5 L 475 129.5" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 120 144.5 L 475 144.5" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 120 158.5 L 475 158.5" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 120 173.5 L 475 173.5" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 120 188.5 L 475 188.5" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 120 202.5 L 475 202.5" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 120 217.5 L 475 217.5" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 120 232.5 L 475 232.5" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 120 246.5 L 475 246.5" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 120 261.5 L 475 261.5" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 120 276.5 L 475 276.5" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 120 290.5 L 475 290.5" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 120 305.5 L 475 305.5" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 120 320.5 L 475 320.5" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 120 334.5 L 475 334.5" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 120 349.5 L 475 349.5" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 120 41.5 L 475 41.5" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid "><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 119.5 41 L 119.5 349" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 170.5 41 L 170.5 349" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 220.5 41 L 220.5 349" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 271.5 41 L 271.5 349" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 322.5 41 L 322.5 349" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 373.5 41 L 373.5 349" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 423.5 41 L 423.5 349" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 475.5 41 L 475.5 349" opacity="1"></path></g><rect fill="none" class="highcharts-plot-border" x="120" y="41" width="355" height="308"></rect><g class="highcharts-axis highcharts-xaxis "><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 120 56.5 L 110 56.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 120 70.5 L 110 70.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 120 85.5 L 110 85.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 120 100.5 L 110 100.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 120 114.5 L 110 114.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 120 129.5 L 110 129.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 120 144.5 L 110 144.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 120 158.5 L 110 158.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 120 173.5 L 110 173.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 120 188.5 L 110 188.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 120 202.5 L 110 202.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 120 217.5 L 110 217.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 120 232.5 L 110 232.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 120 246.5 L 110 246.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 120 261.5 L 110 261.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 120 276.5 L 110 276.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 120 290.5 L 110 290.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 120 305.5 L 110 305.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 120 320.5 L 110 320.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 120 334.5 L 110 334.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 120 349.5 L 110 349.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 120 40.5 L 110 40.5" opacity="1"></path><path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" d="M 119.5 41 L 119.5 349"></path></g><g class="highcharts-axis highcharts-yaxis "><path fill="none" class="highcharts-axis-line" d="M 120 349 L 475 349"></path></g><g class="highcharts-series-group"><g class="highcharts-series highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker" transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" width="355" height="308" clip-path="url(#highcharts-agyx6r4-1)"></g><g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker" transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" width="355" height="308" clip-path="none"><path fill="#68AB2B" d="M 7 22 C 12.328 22 12.328 30 7 30 C 1.672 30 1.672 22 7 22 Z" class="highcharts-point"></path><path fill="#68AB2B" d="M 22 32 C 27.328 32 27.328 40 22 40 C 16.672 40 16.672 32 22 32 Z" class="highcharts-point"></path><path fill="#68AB2B" d="M 36 50 C 41.328 50 41.328 58 36 58 C 30.672 58 30.672 50 36 50 Z" class="highcharts-point"></path><path fill="#68AB2B" d="M 51 50 C 56.328 50 56.328 58 51 58 C 45.672 58 45.672 50 51 50 Z" class="highcharts-point"></path><path fill="#68AB2B" d="M 66 54 C 71.328 54 71.328 62 66 62 C 60.672 62 60.672 54 66 54 Z" class="highcharts-point"></path><path fill="#68AB2B" d="M 80 64 C 85.328 64 85.328 72 80 72 C 74.672 72 74.672 64 80 64 Z" class="highcharts-point"></path><path fill="#68AB2B" d="M 95 68 C 100.328 68 100.328 76 95 76 C 89.672 76 89.672 68 95 68 Z" class="highcharts-point"></path><path fill="#68AB2B" d="M 110 70 C 115.328 70 115.328 78 110 78 C 104.672 78 104.672 70 110 70 Z" class="highcharts-point"></path><path fill="#68AB2B" d="M 124 73 C 129.328 73 129.328 81 124 81 C 118.672 81 118.672 73 124 73 Z" class="highcharts-point"></path><path fill="#68AB2B" d="M 139 73 C 144.328 73 144.328 81 139 81 C 133.672 81 133.672 73 139 73 Z" class="highcharts-point"></path><path fill="#68AB2B" d="M 154 79 C 159.328 79 159.328 87 154 87 C 148.672 87 148.672 79 154 79 Z" class="highcharts-point"></path><path fill="#68AB2B" d="M 168 81 C 173.328 81 173.328 89 168 89 C 162.672 89 162.672 81 168 81 Z" class="highcharts-point"></path><path fill="#68AB2B" d="M 183 81 C 188.328 81 188.328 89 183 89 C 177.672 89 177.672 81 183 81 Z" class="highcharts-point"></path><path fill="#68AB2B" d="M 198 83 C 203.328 83 203.328 91 198 91 C 192.672 91 192.672 83 198 83 Z" class="highcharts-point"></path><path fill="#68AB2B" d="M 212 91 C 217.328 91 217.328 99 212 99 C 206.672 99 206.672 91 212 91 Z" class="highcharts-point"></path><path fill="#68AB2B" d="M 227 98 C 232.328 98 232.328 106 227 106 C 221.672 106 221.672 98 227 98 Z" class="highcharts-point"></path><path fill="#68AB2B" d="M 242 98 C 247.328 98 247.328 106 242 106 C 236.672 106 236.672 98 242 98 Z" class="highcharts-point"></path><path fill="#68AB2B" d="M 256 111 C 261.328 111 261.328 119 256 119 C 250.672 119 250.672 111 256 111 Z" class="highcharts-point"></path><path fill="#68AB2B" d="M 271 151 C 276.328 151 276.328 159 271 159 C 265.672 159 265.672 151 271 151 Z" class="highcharts-point"></path><path fill="#68AB2B" d="M 286 187 C 291.328 187 291.328 195 286 195 C 280.672 195 280.672 187 286 187 Z" class="highcharts-point"></path><path fill="#68AB2B" d="M 300 299 C 305.328 299 305.328 307 300 307 C 294.672 307 294.672 299 300 299 Z" class="highcharts-point"></path></g></g><text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;font-family:Arial;fill:#000000;width:421px;" y="21"><tspan>I.09.1.0009 Baujahr Wohngebäude</tspan></text><g class="highcharts-axis-labels highcharts-xaxis-labels "><text x="105" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0)" y="53" opacity="1"><tspan>Altstadt Grossbasel</tspan></text><text x="105" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0)" y="67" opacity="1"><tspan>Altstadt Kleinbasel</tspan></text><text x="105" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0)" y="82" opacity="1"><tspan>Vorstädte</tspan></text><text x="105" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0)" y="97" opacity="1"><tspan>Am Ring</tspan></text><text x="105" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0)" y="112" opacity="1"><tspan>Gotthelf</tspan></text><text x="105" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0)" y="126" opacity="1"><tspan>Matthäus</tspan></text><text x="105" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0)" y="141" opacity="1"><tspan>Clara</tspan></text><text x="105" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0)" y="156" opacity="1"><tspan>Gundeldingen</tspan></text><text x="105" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0)" y="170" opacity="1"><tspan>St. Johann</tspan></text><text x="105" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0)" y="185" opacity="1"><tspan>Wettstein</tspan></text><text x="105" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0)" y="200" opacity="1"><tspan>Bachletten</tspan></text><text x="105" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0)" y="214" opacity="1"><tspan>Klybeck</tspan></text><text x="105" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0)" y="229" opacity="1"><tspan>Iselin</tspan></text><text x="105" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0)" y="243" opacity="1"><tspan>St. Alban</tspan></text><text x="105" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0)" y="258" opacity="1"><tspan>Breite</tspan></text><text x="105" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0)" y="273" opacity="1"><tspan>Hirzbrunnen</tspan></text><text x="105" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0)" y="288" opacity="1"><tspan>Kleinhüningen</tspan></text><text x="105" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0)" y="302" opacity="1"><tspan>Bruderholz</tspan></text><text x="105" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0)" y="317" opacity="1"><tspan>Rosental</tspan></text><text x="105" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0)" y="332" opacity="1"><tspan>Riehen</tspan></text><text x="105" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0)" y="346" opacity="1"><tspan>Bettingen</tspan></text></g><g class="highcharts-axis-labels highcharts-yaxis-labels "><text x="120" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">1800</text><text x="170.71428571428572" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">1825</text><text x="221.42857142857142" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">1850</text><text x="272.1428571428571" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">1875</text><text x="322.85714285714283" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">1900</text><text x="373.57142857142856" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">1925</text><text x="424.2857142857143" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">1950</text><text x="462.78125" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">1975</text></g><text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400"><tspan>Quelle: Kantonale Baustatistik</tspan></text></svg>
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M120 41h355v308H120z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M120 56.5h355m-355 14h355m-355 15h355m-355 15h355m-355 14h355m-355 15h355m-355 15h355m-355 14h355m-355 15h355m-355 15h355m-355 14h355m-355 15h355m-355 15h355m-355 14h355m-355 15h355m-355 15h355m-355 14h355m-355 15h355m-355 15h355m-355 14h355m-355 15h355m-355-308h355"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M119.5 41v308m51-308v308m50-308v308m51-308v308m51-308v308m51-308v308m50-308v308m52-308v308"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M120 41h355v308H120z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M120 56.5h-10m10 14h-10m10 15h-10m10 15h-10m10 14h-10m10 15h-10m10 15h-10m10 14h-10m10 15h-10m10 15h-10m10 14h-10m10 15h-10m10 15h-10m10 14h-10m10 15h-10m10 15h-10m10 14h-10m10 15h-10m10 15h-10m10 14h-10m10 15h-10m10-309h-10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M119.5 41v308"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M120 349h355"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#68AB2B" d="M453 342c0-5.328-8-5.328-8 0s8 5.328 8 0zm-10-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-18-14c0-5.328-8-5.328-8 0s8 5.328 8 0zm0-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-4-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-10-14c0-5.328-8-5.328-8 0s8 5.328 8 0zm-4-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-2-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-3-14c0-5.328-8-5.328-8 0s8 5.328 8 0zm0-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-6-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-2-14c0-5.328-8-5.328-8 0s8 5.328 8 0zm0-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-2-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-8-14c0-5.328-8-5.328-8 0s8 5.328 8 0zm-7-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm0-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-13-14c0-5.328-8-5.328-8 0s8 5.328 8 0zm-40-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-36-15c0-5.328-8-5.328-8 0s8 5.328 8 0zM176 49c0-5.328-8-5.328-8 0s8 5.328 8 0z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>I.09.1.0009 Baujahr Wohngebäude</tspan>
+    </text>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="105" style="width:150px" y="53" text-overflow="ellipsis">
+            <tspan>Altstadt Grossbasel</tspan>
+        </text>
+        <text x="105" style="width:150px" y="67" text-overflow="ellipsis">
+            <tspan>Altstadt Kleinbasel</tspan>
+        </text>
+        <text x="105" style="width:150px" y="82" text-overflow="ellipsis">
+            <tspan>Vorstädte</tspan>
+        </text>
+        <text x="105" style="width:150px" y="97" text-overflow="ellipsis">
+            <tspan>Am Ring</tspan>
+        </text>
+        <text x="105" style="width:150px" y="112" text-overflow="ellipsis">
+            <tspan>Gotthelf</tspan>
+        </text>
+        <text x="105" style="width:150px" y="126" text-overflow="ellipsis">
+            <tspan>Matthäus</tspan>
+        </text>
+        <text x="105" style="width:150px" y="141" text-overflow="ellipsis">
+            <tspan>Clara</tspan>
+        </text>
+        <text x="105" style="width:150px" y="156" text-overflow="ellipsis">
+            <tspan>Gundeldingen</tspan>
+        </text>
+        <text x="105" style="width:150px" y="170" text-overflow="ellipsis">
+            <tspan>St. Johann</tspan>
+        </text>
+        <text x="105" style="width:150px" y="185" text-overflow="ellipsis">
+            <tspan>Wettstein</tspan>
+        </text>
+        <text x="105" style="width:150px" y="200" text-overflow="ellipsis">
+            <tspan>Bachletten</tspan>
+        </text>
+        <text x="105" style="width:150px" y="214" text-overflow="ellipsis">
+            <tspan>Klybeck</tspan>
+        </text>
+        <text x="105" style="width:150px" y="229" text-overflow="ellipsis">
+            <tspan>Iselin</tspan>
+        </text>
+        <text x="105" style="width:150px" y="243" text-overflow="ellipsis">
+            <tspan>St. Alban</tspan>
+        </text>
+        <text x="105" style="width:150px" y="258" text-overflow="ellipsis">
+            <tspan>Breite</tspan>
+        </text>
+        <text x="105" style="width:150px" y="273" text-overflow="ellipsis">
+            <tspan>Hirzbrunnen</tspan>
+        </text>
+        <text x="105" style="width:150px" y="288" text-overflow="ellipsis">
+            <tspan>Kleinhüningen</tspan>
+        </text>
+        <text x="105" style="width:150px" y="302" text-overflow="ellipsis">
+            <tspan>Bruderholz</tspan>
+        </text>
+        <text x="105" style="width:150px" y="317" text-overflow="ellipsis">
+            <tspan>Rosental</tspan>
+        </text>
+        <text x="105" style="width:150px" y="332" text-overflow="ellipsis">
+            <tspan>Riehen</tspan>
+        </text>
+        <text x="105" style="width:150px" y="346" text-overflow="ellipsis">
+            <tspan>Bettingen</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="120" y="368">
+            1800
+        </text>
+        <text x="170.714" y="368">
+            1825
+        </text>
+        <text x="221.429" y="368">
+            1850
+        </text>
+        <text x="272.143" y="368">
+            1875
+        </text>
+        <text x="322.857" y="368">
+            1900
+        </text>
+        <text x="373.571" y="368">
+            1925
+        </text>
+        <text x="424.286" y="368">
+            1950
+        </text>
+        <text x="462.781" y="368">
+            1975
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Kantonale Baustatistik</tspan>
+    </text>
+</svg>

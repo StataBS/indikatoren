@@ -1,1 +1,85 @@
-<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415"><desc>Created with Highcharts 5.0.6</desc><defs><clipPath id="highcharts-lpj7c74-1"><rect x="0" y="0" width="410" height="291" fill="none"></rect></clipPath></defs><rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="485" height="415" rx="0" ry="0"></rect><rect fill="none" class="highcharts-plot-background" x="65" y="58" width="410" height="291"></rect><g class="highcharts-grid highcharts-xaxis-grid "><path fill="none" class="highcharts-grid-line" d="M 68.5 58 L 68.5 349" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 148.5 58 L 148.5 349" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 229.5 58 L 229.5 349" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 309.5 58 L 309.5 349" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 390.5 58 L 390.5 349" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 470.5 58 L 470.5 349" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid "><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 65 349.5 L 475 349.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 65 291.5 L 475 291.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 65 233.5 L 475 233.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 65 174.5 L 475 174.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 65 116.5 L 475 116.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 65 57.5 L 475 57.5" opacity="1"></path></g><rect fill="none" class="highcharts-plot-border" x="65" y="58" width="410" height="291"></rect><g class="highcharts-axis highcharts-xaxis "><path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" d="M 65 349.5 L 475 349.5"></path></g><g class="highcharts-axis highcharts-yaxis "><path fill="none" class="highcharts-axis-line" d="M 65 58 L 65 349"></path></g><g class="highcharts-series-group"><g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(65,58) scale(1 1)" width="291" height="410" clip-path="url(#highcharts-lpj7c74-1)"><path fill="none" d="M 4.0196078431337 170.96832 L 84.41176470588 155.58024 L 164.80392156863 143.54448000000002 L 245.19607843137 125.49084000000002 L 325.58823529412 114.5376 L 405.98039215687 107.13456000000002" class="highcharts-graph" stroke="#B375AB" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M -5.9803921568663 170.96832 L 4.0196078431337 170.96832 L 84.41176470588 155.58024 L 164.80392156863 143.54448000000002 L 245.19607843137 125.49084000000002 L 325.58823529412 114.5376 L 405.98039215687 107.13456000000002 L 415.98039215687 107.13456000000002" stroke-linejoin="round" visibility="visible" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"></path></g><g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker" transform="translate(65,58) scale(1 1)" width="291" height="410" clip-path="none"><path fill="#B375AB" d="M 405 103 C 410.328 103 410.328 111 405 111 C 399.672 111 399.672 103 405 103 Z" class="highcharts-point"></path><path fill="#B375AB" d="M 325 111 C 330.328 111 330.328 119 325 119 C 319.672 119 319.672 111 325 111 Z" class="highcharts-point"></path><path fill="#B375AB" d="M 245 121 C 250.328 121 250.328 129 245 129 C 239.672 129 239.672 121 245 121 Z" class="highcharts-point"></path><path fill="#B375AB" d="M 164 140 C 169.328 140 169.328 148 164 148 C 158.672 148 158.672 140 164 140 Z" class="highcharts-point"></path><path fill="#B375AB" d="M 84 152 C 89.328 152 89.328 160 84 160 C 78.672 160 78.672 152 84 152 Z" class="highcharts-point"></path><path fill="#B375AB" d="M 4 167 C 9.328 167 9.328 175 4 175 C -1.328 175 -1.328 167 4 167 Z" class="highcharts-point"></path></g></g><text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;width:421px;" y="21"><tspan>I.01.1.0025 Erwachsene Einwohner mit Hauptwohnsitz im</tspan><tspan dy="17" x="10">Kanton Basel-Stadt</tspan><title>I.01.1.0025 Erwachsene Einwohner mit Hauptwohnsitz im Kanton Basel-Stadt</title></text><g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(65,58) scale(1 1)" opacity="1"><g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " style="" transform="translate(-5,148)"><text x="5" style="font-size:11px;font-weight:bold;color:#000000;text-outline:1px contrast;fill:#000000;" y="16"><tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">160 312</tspan><tspan x="5" y="16">160 312</tspan></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " style="" transform="translate(79,146)"><text x="5" style="font-size:11px;font-weight:bold;color:#000000;text-outline:1px contrast;fill:#000000;" y="16"></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " style="" transform="translate(160,134)"><text x="5" style="font-size:11px;font-weight:bold;color:#000000;text-outline:1px contrast;fill:#000000;" y="16"></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " style="" transform="translate(240,115)"><text x="5" style="font-size:11px;font-weight:bold;color:#000000;text-outline:1px contrast;fill:#000000;" y="16"></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " style="" transform="translate(321,105)"><text x="5" style="font-size:11px;font-weight:bold;color:#000000;text-outline:1px contrast;fill:#000000;" y="16"></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " style="" transform="translate(365,84)"><text x="5" style="font-size:11px;font-weight:bold;color:#000000;text-outline:1px contrast;fill:#000000;" y="16"><tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">165 796</tspan><tspan x="5" y="16">165 796</tspan></text></g></g><g class="highcharts-axis-labels highcharts-xaxis-labels "><text x="69.01960784313367" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:72px;text-overflow:clip;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1"><tspan>2010</tspan></text><text x="149.41176470588022" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:72px;text-overflow:clip;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1"><tspan>2011</tspan></text><text x="229.80392156862675" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:72px;text-overflow:clip;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1"><tspan>2012</tspan></text><text x="310.1960784313733" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:72px;text-overflow:clip;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1"><tspan>2013</tspan></text><text x="390.5882352941198" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:72px;text-overflow:clip;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1"><tspan>2014</tspan></text><text x="462.78125" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:72px;text-overflow:clip;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1"><tspan>2015</tspan></text></g><g class="highcharts-axis-labels highcharts-yaxis-labels "><text x="50" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="354" opacity="1"><tspan>150 000</tspan></text><text x="50" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="295" opacity="1"><tspan>155 000</tspan></text><text x="50" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="237" opacity="1"><tspan>160 000</tspan></text><text x="50" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="179" opacity="1"><tspan>165 000</tspan></text><text x="50" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="121" opacity="1"><tspan>170 000</tspan></text><text x="50" style="color:#000000;cursor:default;font-size:11px;fill:#000000;width:150px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="63" opacity="1"><tspan>175 000</tspan></text></g><text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400"><tspan>Quelle: Bundesamt für Statistik BFS, STATPOP</tspan></text></svg>
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h410v291H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M65 58h410v291H65z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M68.5 58v291m80-291v291m81-291v291m80-291v291m81-291v291m80-291v291"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M65 349.5h410m-410-58h410m-410-58h410m-410-59h410m-410-58h410m-410-59h410"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M65 58h410v291H65z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M65 349.5h410"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M65 58v291"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(65 58)" clip-path="url(#a)">
+            <path fill="none" d="M4.02 170.968l80.392-15.388 80.392-12.036 80.392-18.053 80.392-10.953 80.392-7.403" class="highcharts-graph" stroke="#B375AB" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.98 170.968h10l80.392-15.388 80.392-12.036 80.392-18.053 80.392-10.953 80.392-7.403h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#B375AB" d="M470 161c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-80 8c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-80 10c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-81 19c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-80 12c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-80 15c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>I.01.1.0025 Erwachsene Einwohner mit Hauptwohnsitz im</tspan><tspan dy="17" x="10">Kanton Basel-Stadt</tspan><title>I.01.1.0025 Erwachsene Einwohner mit Hauptwohnsitz im Kanton Basel-Stadt</title>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(60 206)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">160 312</tspan><tspan x="5" y="16">160 312</tspan>
+        </text>
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(430 142)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">165 796</tspan><tspan x="5" y="16">165 796</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="69.02" style="width:72px" y="368">
+            <tspan>2010</tspan>
+        </text>
+        <text x="149.412" style="width:72px" y="368">
+            <tspan>2011</tspan>
+        </text>
+        <text x="229.804" style="width:72px" y="368">
+            <tspan>2012</tspan>
+        </text>
+        <text x="310.196" style="width:72px" y="368">
+            <tspan>2013</tspan>
+        </text>
+        <text x="390.588" style="width:72px" y="368">
+            <tspan>2014</tspan>
+        </text>
+        <text x="462.781" style="width:72px" y="368">
+            <tspan>2015</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="50" style="width:150px" y="354">
+            <tspan>150 000</tspan>
+        </text>
+        <text x="50" style="width:150px" y="295">
+            <tspan>155 000</tspan>
+        </text>
+        <text x="50" style="width:150px" y="237">
+            <tspan>160 000</tspan>
+        </text>
+        <text x="50" style="width:150px" y="179">
+            <tspan>165 000</tspan>
+        </text>
+        <text x="50" style="width:150px" y="121">
+            <tspan>170 000</tspan>
+        </text>
+        <text x="50" style="width:150px" y="63">
+            <tspan>175 000</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Bundesamt für Statistik BFS, STATPOP</tspan>
+    </text>
+</svg>
