@@ -78,7 +78,7 @@
     "shared": false
   },
   "yAxis": {
-    "min": 150000,
+    "min": 0,
     "title": {
       "style": {
         "color": "#000000",
@@ -92,8 +92,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "max": 175000,
-    "tickInterval": 5000
+    "max": 175000
   },
   "xAxis": {
     "labels": {
