@@ -59,8 +59,8 @@
         <text x="158" style="width:150px" y="267">
             <tspan>Maghreb und Ägypten</tspan>
         </text>
-        <text x="158" style="width:150px" y="292">
-            <tspan>Ehem. Jugoslawien ohne SLO</tspan>
+        <text x="158" style="width:150px" y="292" text-overflow="ellipsis">
+            <tspan>Ehem. Jugoslawien ohne…</tspan><title>Ehem. Jugoslawien ohne SLO</title>
         </text>
         <text x="158" style="width:150px" y="317">
             <tspan>EU-Oststaaten</tspan>
@@ -82,7 +82,7 @@
         <text x="399.5" style="width:66px" y="369">
             <tspan>30</tspan>
         </text>
-        <text x="468.891" style="width:66px" y="369">
+        <text x="468.016" style="width:66px" y="369">
             <tspan>40</tspan>
         </text>
     </g>

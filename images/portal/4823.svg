@@ -1,113 +1,113 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M120 41h355v308H120z"/>
+    <path fill="none" class="highcharts-plot-background" d="M134 43h341v305H134z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M120 56.5h355m-355 14h355m-355 15h355m-355 15h355m-355 14h355m-355 15h355m-355 15h355m-355 14h355m-355 15h355m-355 15h355m-355 14h355m-355 15h355m-355 15h355m-355 14h355m-355 15h355m-355 15h355m-355 14h355m-355 15h355m-355 15h355m-355 14h355m-355 15h355m-355-308h355"/>
+        <path fill="none" class="highcharts-grid-line" d="M134 58.5h341m-341 14h341m-341 15h341m-341 14h341m-341 15h341m-341 14h341m-341 15h341m-341 14h341m-341 15h341m-341 14h341m-341 15h341m-341 14h341m-341 15h341m-341 14h341m-341 15h341m-341 14h341m-341 15h341m-341 14h341m-341 15h341m-341 14h341m-341 15h341m-341-305h341"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M119.5 41v308m59-308v308m59-308v308m60-308v308m59-308v308m59-308v308m59-308v308"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M133.5 43v305m57-305v305m57-305v305m57-305v305m56-305v305m57-305v305m58-305v305"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M120 41h355v308H120z"/>
+    <path fill="none" class="highcharts-plot-border" d="M134 43h341v305H134z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M120 56.5h-10m10 14h-10m10 15h-10m10 15h-10m10 14h-10m10 15h-10m10 15h-10m10 14h-10m10 15h-10m10 15h-10m10 14h-10m10 15h-10m10 15h-10m10 14h-10m10 15h-10m10 15h-10m10 14h-10m10 15h-10m10 15h-10m10 14h-10m10 15h-10m10-309h-10"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M119.5 41v308"/>
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M134 58.5h-10m10 14h-10m10 15h-10m10 14h-10m10 15h-10m10 14h-10m10 15h-10m10 14h-10m10 15h-10m10 14h-10m10 15h-10m10 14h-10m10 15h-10m10 14h-10m10 15h-10m10 14h-10m10 15h-10m10 14h-10m10 15h-10m10 14h-10m10 15h-10m10-306h-10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M133.5 43v305"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M120 349h355"/>
+        <path fill="none" class="highcharts-axis-line" d="M134 348h341"/>
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#923F8D" d="M449 342c0-5.328-8-5.328-8 0s8 5.328 8 0zm-19-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-3-14c0-5.328-8-5.328-8 0s8 5.328 8 0zm-29-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm0-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-17-14c0-5.328-8-5.328-8 0s8 5.328 8 0zm-23-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-16-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-1-14c0-5.328-8-5.328-8 0s8 5.328 8 0zm-5-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-11-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-9-14c0-5.328-8-5.328-8 0s8 5.328 8 0zm-8-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-1-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-20-14c0-5.328-8-5.328-8 0s8 5.328 8 0zm-14-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm0-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-4-14c0-5.328-8-5.328-8 0s8 5.328 8 0zm-8-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-7-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-3-14c0-5.328-8-5.328-8 0s8 5.328 8 0z" class="highcharts-point"/>
+            <path fill="#923F8D" d="M450 341c0-5.328-8-5.328-8 0s8 5.328 8 0zm-18-14c0-5.328-8-5.328-8 0s8 5.328 8 0zm-3-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-27-14c0-5.328-8-5.328-8 0s8 5.328 8 0zm0-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-17-14c0-5.328-8-5.328-8 0s8 5.328 8 0zm-22-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-16-14c0-5.328-8-5.328-8 0s8 5.328 8 0zm0-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-5-14c0-5.328-8-5.328-8 0s8 5.328 8 0zm-11-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-9-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-8-14c0-5.328-8-5.328-8 0s8 5.328 8 0zm0-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-19-14c0-5.328-8-5.328-8 0s8 5.328 8 0zm-13-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-1-14c0-5.328-8-5.328-8 0s8 5.328 8 0zm-3-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-9-14c0-5.328-8-5.328-8 0s8 5.328 8 0zm-6-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-3-14c0-5.328-8-5.328-8 0s8 5.328 8 0z" class="highcharts-point"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>I.01.1.0038 Anteil Ausländer</tspan>
     </text>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="105" style="width:150px" y="53" text-overflow="ellipsis">
+        <text x="119" style="width:150px" y="54" text-overflow="ellipsis">
             <tspan>Bachletten</tspan>
         </text>
-        <text x="105" style="width:150px" y="67" text-overflow="ellipsis">
+        <text x="119" style="width:150px" y="69" text-overflow="ellipsis">
             <tspan>Hirzbrunnen</tspan>
         </text>
-        <text x="105" style="width:150px" y="82" text-overflow="ellipsis">
+        <text x="119" style="width:150px" y="83" text-overflow="ellipsis">
             <tspan>Bruderholz</tspan>
         </text>
-        <text x="105" style="width:150px" y="97" text-overflow="ellipsis">
+        <text x="119" style="width:150px" y="98" text-overflow="ellipsis">
             <tspan>Riehen</tspan>
         </text>
-        <text x="105" style="width:150px" y="112" text-overflow="ellipsis">
+        <text x="119" style="width:150px" y="112" text-overflow="ellipsis">
             <tspan>Bettingen</tspan>
         </text>
-        <text x="105" style="width:150px" y="126" text-overflow="ellipsis">
+        <text x="119" style="width:150px" y="127" text-overflow="ellipsis">
             <tspan>Altstadt Grossbasel</tspan>
         </text>
-        <text x="105" style="width:150px" y="141" text-overflow="ellipsis">
+        <text x="119" style="width:150px" y="141" text-overflow="ellipsis">
             <tspan>Gotthelf</tspan>
         </text>
-        <text x="105" style="width:150px" y="156" text-overflow="ellipsis">
+        <text x="119" style="width:150px" y="156" text-overflow="ellipsis">
             <tspan>Wettstein</tspan>
         </text>
-        <text x="105" style="width:150px" y="170" text-overflow="ellipsis">
+        <text x="119" style="width:150px" y="170" text-overflow="ellipsis">
             <tspan>St. Alban</tspan>
         </text>
-        <text x="105" style="width:150px" y="185" text-overflow="ellipsis">
+        <text x="119" style="width:150px" y="185" text-overflow="ellipsis">
             <tspan>Breite</tspan>
         </text>
-        <text x="105" style="width:150px" y="200" text-overflow="ellipsis">
+        <text x="119" style="width:150px" y="200" text-overflow="ellipsis">
             <tspan>Am Ring</tspan>
         </text>
-        <text x="105" style="width:150px" y="214" text-overflow="ellipsis">
+        <text x="119" style="width:150px" y="214" text-overflow="ellipsis">
             <tspan>Altstadt Kleinbasel</tspan>
         </text>
-        <text x="105" style="width:150px" y="229" text-overflow="ellipsis">
+        <text x="119" style="width:150px" y="229" text-overflow="ellipsis">
             <tspan>Iselin</tspan>
         </text>
-        <text x="105" style="width:150px" y="243" text-overflow="ellipsis">
+        <text x="119" style="width:150px" y="243" text-overflow="ellipsis">
             <tspan>Vorstädte</tspan>
         </text>
-        <text x="105" style="width:150px" y="258" text-overflow="ellipsis">
+        <text x="119" style="width:150px" y="258" text-overflow="ellipsis">
             <tspan>Gundeldingen</tspan>
         </text>
-        <text x="105" style="width:150px" y="273" text-overflow="ellipsis">
+        <text x="119" style="width:150px" y="272" text-overflow="ellipsis">
             <tspan>St. Johann</tspan>
         </text>
-        <text x="105" style="width:150px" y="288" text-overflow="ellipsis">
+        <text x="119" style="width:150px" y="287" text-overflow="ellipsis">
             <tspan>Kleinhüningen</tspan>
         </text>
-        <text x="105" style="width:150px" y="302" text-overflow="ellipsis">
+        <text x="119" style="width:150px" y="301" text-overflow="ellipsis">
             <tspan>Clara</tspan>
         </text>
-        <text x="105" style="width:150px" y="317" text-overflow="ellipsis">
+        <text x="119" style="width:150px" y="316" text-overflow="ellipsis">
             <tspan>Matthäus</tspan>
         </text>
-        <text x="105" style="width:150px" y="332" text-overflow="ellipsis">
+        <text x="119" style="width:150px" y="330" text-overflow="ellipsis">
             <tspan>Klybeck</tspan>
         </text>
-        <text x="105" style="width:150px" y="346" text-overflow="ellipsis">
+        <text x="119" style="width:150px" y="345" text-overflow="ellipsis">
             <tspan>Rosental</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="120" style="width:59.166666666666664" y="368" text-overflow="ellipsis">
+        <text x="134" style="width:56.833333333333336" y="367" text-overflow="ellipsis">
             <tspan>0%</tspan>
         </text>
-        <text x="179.167" style="width:59.166666666666664" y="368" text-overflow="ellipsis">
+        <text x="190.833" style="width:56.833333333333336" y="367" text-overflow="ellipsis">
             <tspan>10%</tspan>
         </text>
-        <text x="238.333" style="width:59.166666666666664" y="368" text-overflow="ellipsis">
+        <text x="247.667" style="width:56.833333333333336" y="367" text-overflow="ellipsis">
             <tspan>20%</tspan>
         </text>
-        <text x="297.5" style="width:59.166666666666664" y="368" text-overflow="ellipsis">
+        <text x="304.5" style="width:56.833333333333336" y="367" text-overflow="ellipsis">
             <tspan>30%</tspan>
         </text>
-        <text x="356.667" style="width:59.166666666666664" y="368" text-overflow="ellipsis">
+        <text x="361.333" style="width:56.833333333333336" y="367" text-overflow="ellipsis">
             <tspan>40%</tspan>
         </text>
-        <text x="415.833" style="width:59.166666666666664" y="368" text-overflow="ellipsis">
+        <text x="418.167" style="width:56.833333333333336" y="367" text-overflow="ellipsis">
             <tspan>50%</tspan>
         </text>
-        <text x="464" style="width:29.583333333333275" y="368" text-overflow="ellipsis">
+        <text x="462.797" style="width:28.416666666666668" y="367" text-overflow="ellipsis">
             <tspan>60%</tspan>
         </text>
     </g>

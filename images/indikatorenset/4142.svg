@@ -1,44 +1,44 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h422v214H0z"/>
+            <path fill="none" d="M0 0h419v213H0z"/>
         </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M53 150h422v214H53z"/>
+    <path fill="none" class="highcharts-plot-background" d="M56 150h419v213H56z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M97.5 150v214m83-214v214m83-214v214m83-214v214m83-214v214"/>
+        <path fill="none" class="highcharts-grid-line" d="M100.5 150v213m82-213v213m83-213v213m82-213v213m82-213v213"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 364.5h422m-422-53h422m-422-54h422m-422-53h422m-422-55h422"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M56 363.5h419m-419-53h419m-419-53h419m-419-54h419m-419-54h419"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M53 150h422v214H53z"/>
+    <path fill="none" class="highcharts-plot-border" d="M56 150h419v213H56z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M97.5 364v10m83-10v10m83-10v10m83-10v10m83-10v10"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M53 364.5h422"/>
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M100.5 363v10m82-10v10m83-10v10m82-10v10m82-10v10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M56 363.5h419"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M53 150v214"/>
+        <path fill="none" class="highcharts-axis-line" d="M56 150v213"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 150)" clip-path="url(#a)">
-            <path fill="#2f656b" class="highcharts-point" stroke="#fff" d="M24.5-.5h40v89h-40zm83 0h40v87h-40zm83 0h40v87h-40zm83 0h40v85h-40zm83 0h40v89h-40z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(56 150)" clip-path="url(#a)">
+            <path fill="#2f656b" class="highcharts-point" stroke="#fff" d="M24.5-.5h40v89h-40zm82 0h40v87h-40zm83 0h40v87h-40zm82 0h40v84h-40zm83 0h40v88h-40z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 150)" clip-path="url(#a)">
-            <path fill="#689199" class="highcharts-point" stroke="#fff" d="M24.5 88.5h40v69h-40zm83-2h40v69h-40zm83 0h40v71h-40zm83-2h40v71h-40zm83 4h40v66h-40z"/>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(56 150)" clip-path="url(#a)">
+            <path fill="#689199" class="highcharts-point" stroke="#fff" d="M24.5 88.5h40v68h-40zm82-2h40v68h-40zm83 0h40v70h-40zm82-3h40v71h-40zm83 4h40v67h-40z"/>
         </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 150)" clip-path="url(#a)">
-            <path fill="#923f8d" class="highcharts-point" stroke="#fff" d="M24.5 157.5h40v21h-40zm83-2h40v21h-40zm83 2h40v20h-40zm83-2h40v21h-40zm83-1h40v21h-40z"/>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(56 150)" clip-path="url(#a)">
+            <path fill="#923f8d" class="highcharts-point" stroke="#fff" d="M24.5 156.5h40v21h-40zm82-2h40v22h-40zm83 2h40v20h-40zm82-2h40v21h-40zm83 0h40v20h-40z"/>
         </g>
-        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 150)" clip-path="url(#a)">
-            <path fill="#008ac3" class="highcharts-point" stroke="#fff" d="M24.5 178.5h40v36h-40zm83-2h40v38h-40zm83 1h40v37h-40zm83-1h40v38h-40zm83-1h40v39h-40z"/>
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(56 150)" clip-path="url(#a)">
+            <path fill="#008ac3" class="highcharts-point" stroke="#fff" d="M24.5 177.5h40v36h-40zm82-1h40v37h-40zm83 0h40v37h-40zm82-1h40v38h-40zm83-1h40v39h-40z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>1.4.a2 Familienhaushalte nach Art der Zusammensetzung</tspan>
+        <tspan>1.4.a2 Familienhaushalte nach Art der</tspan><tspan dy="17" x="10">Zusammensetzung</tspan><title>1.4.a2 Familienhaushalte nach Art der Zusammensetzung</title>
     </text>
     <g class="highcharts-legend" transform="translate(10 50)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="272" height="67"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="317" height="71"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
                 <tspan>verheiratete / registrierte Paare ohne Kinder</tspan>
@@ -46,55 +46,55 @@
             <path fill="#2f656b" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 17)">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 18)">
                 <tspan>Paare mit minderjährigen Kindern</tspan>
             </text>
-            <path fill="#689199" class="highcharts-point" d="M10 21h12v12H10z"/>
+            <path fill="#689199" class="highcharts-point" d="M10 22h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 31)">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 33)">
                 <tspan>Einelternfamilien mit minderjährigen Kindern</tspan>
             </text>
-            <path fill="#923f8d" class="highcharts-point" d="M10 35h12v12H10z"/>
+            <path fill="#923f8d" class="highcharts-point" d="M10 37h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 45)">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 48)">
                 <tspan>Eltern(-teil) mit nur volljährigen Kindern</tspan>
             </text>
-            <path fill="#008ac3" class="highcharts-point" d="M10 49h12v12H10z"/>
+            <path fill="#008ac3" class="highcharts-point" d="M10 52h12v12H10z"/>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="97.858" style="width:96px" y="383">
+        <text x="100.539" style="width:95px" y="382">
             <tspan>2011</tspan>
         </text>
-        <text x="180.929" style="width:96px" y="383">
+        <text x="183.02" style="width:95px" y="382">
             <tspan>2012</tspan>
         </text>
-        <text x="264" style="width:96px" y="383">
+        <text x="265.5" style="width:95px" y="382">
             <tspan>2013</tspan>
         </text>
-        <text x="347.071" style="width:96px" y="383">
+        <text x="347.98" style="width:95px" y="382">
             <tspan>2014</tspan>
         </text>
-        <text x="430.142" style="width:96px" y="383">
+        <text x="430.461" style="width:95px" y="382">
             <tspan>2015</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="38" style="width:150px" y="369">
+        <text x="41" style="width:150px" y="367">
             <tspan>0%</tspan>
         </text>
-        <text x="38" style="width:150px" y="315">
+        <text x="41" style="width:150px" y="314">
             <tspan>25%</tspan>
         </text>
-        <text x="38" style="width:150px" y="262">
+        <text x="41" style="width:150px" y="261">
             <tspan>50%</tspan>
         </text>
-        <text x="38" style="width:150px" y="208">
+        <text x="41" style="width:150px" y="207">
             <tspan>75%</tspan>
         </text>
-        <text x="38" style="width:150px" y="155">
+        <text x="41" style="width:150px" y="154">
             <tspan>100%</tspan>
         </text>
     </g>

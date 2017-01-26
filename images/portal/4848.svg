@@ -1,41 +1,41 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h252v312H0z"/>
+            <path fill="none" d="M0 0h250v303H0z"/>
         </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M163 112h312v252H163z"/>
+    <path fill="none" class="highcharts-plot-background" d="M172 113h303v250H172z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M163 148.5h312m-312 36h312m-312 36h312m-312 36h312m-312 36h312m-312 36h312m-312 36h312m-312-252h312"/>
+        <path fill="none" class="highcharts-grid-line" d="M172 149.5h303m-303 35h303m-303 36h303m-303 36h303m-303 36h303m-303 35h303m-303 36h303m-303-250h303"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M162.5 112v252m62-252v252m63-252v252m62-252v252m63-252v252m63-252v252"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M171.5 113v250m61-250v250m60-250v250m61-250v250m60-250v250m62-250v250"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M163 112h312v252H163z"/>
+    <path fill="none" class="highcharts-plot-border" d="M172 113h303v250H172z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M163 148.5h-10m10 36h-10m10 36h-10m10 36h-10m10 36h-10m10 36h-10m10 36h-10m10-253h-10"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M162.5 112v252"/>
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M172 149.5h-10m10 35h-10m10 36h-10m10 36h-10m10 36h-10m10 35h-10m10 36h-10m10-250h-10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M171.5 113v250"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M163 364h312"/>
+        <path fill="none" class="highcharts-axis-line" d="M172 363h303"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 475 364)" clip-path="url(#a)">
-            <path fill="#256370" class="highcharts-point" stroke="#fff" d="M234.5 130.5h9v182h-9zm-36 53h9v129h-9zm-36 77h9v52h-9zm-36-87h9v139h-9zm-36-69h9v208h-9zm-36 65h9v143h-9zm-36-148h9v291h-9z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 475 363)" clip-path="url(#a)">
+            <path fill="#256370" class="highcharts-point" stroke="#fff" d="M232.5 126.5h9v177h-9zm-36 52h9v125h-9zm-35 74h9v51h-9zm-36-84h9v135h-9zm-36-67h9v202h-9zm-35 63h9v139h-9zm-36-143h9v282h-9z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 475 364)" clip-path="url(#a)">
-            <path fill="#A8C4CB" class="highcharts-point" stroke="#fff" d="M223.5 146.5h9v166h-9zm-36 48h9v118h-9zm-36 59h9v59h-9zm-36-60h9v119h-9zm-36-76h9v195h-9zm-36 48h9v147h-9zm-36-146h9v293h-9z"/>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 475 363)" clip-path="url(#a)">
+            <path fill="#A8C4CB" class="highcharts-point" stroke="#fff" d="M222.5 142.5h9v161h-9zm-36 46h9v115h-9zm-36 58h9v57h-9zm-36-58h9v115h-9zm-35-74h9v189h-9zm-36 46h9v143h-9zm-36-141h9v284h-9z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>I.50.2.0002 Unterstützung von Freunden oder Nachbarn</tspan>
+        <tspan>I.50.2.0002 Unterstützung von Freunden oder</tspan><tspan dy="17" x="10">Nachbarn</tspan><title>I.50.2.0002 Unterstützung von Freunden oder Nachbarn</title>
     </text>
-    <text x="10" class="highcharts-subtitle" style="width:421px" y="40" color="#000" font-weight="400">
-        <tspan>«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe.</tspan><tspan dy="15" x="10">Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch</tspan><tspan dy="15" x="10">an Freunde/Nachbarn gewendet?»</tspan><title>«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch an Freunde/Nachbarn gewendet?»</title>
+    <text x="10" class="highcharts-subtitle" style="width:421px" y="59" color="#000" font-weight="400">
+        <tspan>«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder</tspan><tspan dy="15" x="10">Hilfe. Wenn Sie zurück denken, haben Sie sich in nachfolgenden</tspan><tspan dy="15" x="10">Situationen auch an Freunde/Nachbarn gewendet?»</tspan><title>«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch an Freunde/Nachbarn gewendet?»</title>
     </text>
     <g class="highcharts-legend" transform="translate(153 75)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="238" height="25"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="267" height="26"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
                 <tspan>2013 (N=2231)</tspan>
@@ -43,52 +43,52 @@
             <path fill="#256370" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(129.328 3)">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(143.703 3)">
                 <tspan>2009 (N=3119)</tspan>
             </text>
-            <path fill="#A8C4CB" class="highcharts-point" d="M131.328 7h12v12h-12z"/>
+            <path fill="#A8C4CB" class="highcharts-point" d="M145.703 7h12v12h-12z"/>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="148" style="width:150px" y="135">
+        <text x="157" style="width:150px" y="135">
             <tspan>Berufliche Probleme</tspan>
         </text>
-        <text x="148" style="width:150px" y="171">
+        <text x="157" style="width:150px" y="171">
             <tspan>Gesundheitliche Probleme</tspan>
         </text>
-        <text x="148" style="width:150px" y="207">
+        <text x="157" style="width:150px" y="206">
             <tspan>Finanzielle Probleme</tspan>
         </text>
-        <text x="148" style="width:150px" y="243">
+        <text x="157" style="width:150px" y="242">
             <tspan>Wohnungsprobleme</tspan>
         </text>
-        <text x="148" style="width:150px" y="279">
-            <tspan>Partnerschaftliche Probleme</tspan>
+        <text x="157" style="width:150px" y="271">
+            <tspan>Partnerschaftliche</tspan><tspan dy="14" x="157">Probleme</tspan><title>Partnerschaftliche Probleme</title>
         </text>
-        <text x="148" style="width:150px" y="308">
-            <tspan>Schulische Probleme der</tspan><tspan dy="14" x="148">Kinder</tspan><title>Schulische Probleme der Kinder</title>
+        <text x="157" style="width:150px" y="306">
+            <tspan>Schulische Probleme der</tspan><tspan dy="14" x="157">Kinder</tspan><title>Schulische Probleme der Kinder</title>
         </text>
-        <text x="148" style="width:150px" y="344">
-            <tspan>Erziehungsfragen oder -</tspan><tspan dy="14" x="148">probleme</tspan><title>Erziehungsfragen oder -probleme</title>
+        <text x="157" style="width:150px" y="342">
+            <tspan>Erziehungsfragen oder -</tspan><tspan dy="14" x="157">probleme</tspan><title>Erziehungsfragen oder -probleme</title>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="163" style="width:62.4" y="383" text-overflow="ellipsis">
+        <text x="172" style="width:60.6" y="382" text-overflow="ellipsis">
             <tspan>0%</tspan>
         </text>
-        <text x="225.4" style="width:62.4" y="383" text-overflow="ellipsis">
+        <text x="232.6" style="width:60.6" y="382" text-overflow="ellipsis">
             <tspan>10%</tspan>
         </text>
-        <text x="287.8" style="width:62.4" y="383" text-overflow="ellipsis">
+        <text x="293.2" style="width:60.6" y="382" text-overflow="ellipsis">
             <tspan>20%</tspan>
         </text>
-        <text x="350.2" style="width:62.4" y="383" text-overflow="ellipsis">
+        <text x="353.8" style="width:60.6" y="382" text-overflow="ellipsis">
             <tspan>30%</tspan>
         </text>
-        <text x="412.6" style="width:62.4" y="383" text-overflow="ellipsis">
+        <text x="414.4" style="width:60.6" y="382" text-overflow="ellipsis">
             <tspan>40%</tspan>
         </text>
-        <text x="464" style="width:31.2" y="383" text-overflow="ellipsis">
+        <text x="462.797" style="width:30.3" y="382" text-overflow="ellipsis">
             <tspan>50%</tspan>
         </text>
     </g>

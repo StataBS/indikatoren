@@ -32,7 +32,7 @@
         <tspan>2-5 Rückwanderungsquote der Ausländer nach</tspan><tspan dy="17" x="10">Staatsangehörigkeitund Alter 2015</tspan><title>2-5 Rückwanderungsquote der Ausländer nach Staatsangehörigkeitund Alter 2015</title>
     </text>
     <g class="highcharts-legend" transform="translate(128 45)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="173" height="25"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="183" height="26"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
                 <tspan>15-64 J.</tspan>
@@ -40,10 +40,10 @@
             <path fill="#73BA7C" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(92.328 3)">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(95.969 3)">
                 <tspan>65 u.m. J.</tspan>
             </text>
-            <path fill="#FABD24" class="highcharts-point" d="M94.328 7h12v12h-12z"/>
+            <path fill="#FABD24" class="highcharts-point" d="M97.969 7h12v12h-12z"/>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
@@ -53,25 +53,25 @@
         <text x="158" style="width:150px" y="148">
             <tspan>Deutschland</tspan>
         </text>
-        <text x="158" style="width:150px" y="176">
+        <text x="158" style="width:150px" y="175">
             <tspan>Italien</tspan>
         </text>
         <text x="158" style="width:150px" y="203">
             <tspan>Spanien</tspan>
         </text>
-        <text x="158" style="width:150px" y="231">
+        <text x="158" style="width:150px" y="230">
             <tspan>Türkei</tspan>
         </text>
-        <text x="158" style="width:150px" y="258">
-            <tspan>Ehem. Jugoslawien ohne SLO</tspan>
+        <text x="158" style="width:150px" y="258" text-overflow="ellipsis">
+            <tspan>Ehem. Jugoslawien ohne…</tspan><title>Ehem. Jugoslawien ohne SLO</title>
         </text>
-        <text x="158" style="width:150px" y="286">
+        <text x="158" style="width:150px" y="285">
             <tspan>Maghreb und Ägypten</tspan>
         </text>
         <text x="158" style="width:150px" y="313">
             <tspan>EU-Oststaaten</tspan>
         </text>
-        <text x="158" style="width:150px" y="341">
+        <text x="158" style="width:150px" y="340">
             <tspan>Mittel- und Südamerika</tspan>
         </text>
     </g>
@@ -88,7 +88,7 @@
         <text x="399.5" style="width:66px" y="369">
             <tspan>60</tspan>
         </text>
-        <text x="468.891" style="width:66px" y="369">
+        <text x="468.016" style="width:66px" y="369">
             <tspan>80</tspan>
         </text>
     </g>

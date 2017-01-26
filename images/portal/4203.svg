@@ -1,91 +1,91 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h323v302H0z"/>
+            <path fill="none" d="M0 0h303v302H0z"/>
         </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M173 41h302v323H173z"/>
+    <path fill="none" class="highcharts-plot-background" d="M173 60h302v303H173z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M173 70.5h302m-302 30h302m-302 29h302m-302 29h302m-302 30h302m-302 29h302m-302 30h302m-302 29h302m-302 29h302m-302 30h302m-302 29h302m-302-323h302"/>
+        <path fill="none" class="highcharts-grid-line" d="M173 88.5h302m-302 27h302m-302 28h302m-302 27h302m-302 28h302m-302 27h302m-302 28h302m-302 27h302m-302 28h302m-302 27h302m-302 28h302m-302-303h302"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M172.5 41v323m60-323v323m61-323v323m60-323v323m61-323v323m61-323v323"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M172.5 60v303m60-303v303m61-303v303m60-303v303m61-303v303m61-303v303"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M173 41h302v323H173z"/>
+    <path fill="none" class="highcharts-plot-border" d="M173 60h302v303H173z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M173 70.5h-10m10 30h-10m10 29h-10m10 29h-10m10 30h-10m10 29h-10m10 30h-10m10 29h-10m10 29h-10m10 30h-10m10 29h-10m10-324h-10"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M172.5 41v323"/>
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M173 88.5h-10m10 27h-10m10 28h-10m10 27h-10m10 28h-10m10 27h-10m10 28h-10m10 27h-10m10 28h-10m10 27h-10m10 28h-10m10-304h-10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M172.5 60v303"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M173 364h302"/>
+        <path fill="none" class="highcharts-axis-line" d="M173 363h302"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 475 364)" clip-path="url(#a)">
-            <path fill="#B00000" class="highcharts-point highcharts-color-0" stroke="#fff" d="M300.5 26.5h15v276h-15z"/>
-            <path fill="#69929B" class="highcharts-point highcharts-color-1" stroke="#fff" d="M270.5 241.5h15v61h-15z"/>
-            <path fill="#CD9C00" class="highcharts-point highcharts-color-3" stroke="#fff" d="M212.5 251.5h15v51h-15z"/>
-            <path fill="#CD9C00" class="highcharts-point highcharts-color-4" stroke="#fff" d="M182.5 93.5h15v209h-15z"/>
-            <path fill="#CD9C00" class="highcharts-point highcharts-color-5" stroke="#fff" d="M153.5 237.5h15v65h-15z"/>
-            <path fill="#CD9C00" class="highcharts-point highcharts-color-6" stroke="#fff" d="M124.5 243.5h15v59h-15z"/>
-            <path fill="#CD9C00" class="highcharts-point highcharts-color-7" stroke="#fff" d="M94.5 281.5h15v21h-15z"/>
-            <path fill="#CD9C00" class="highcharts-point highcharts-color-8" stroke="#fff" d="M65.5 243.5h15v59h-15z"/>
-            <path fill="#CD9C00" class="highcharts-point highcharts-color-9" stroke="#fff" d="M36.5 286.5h15v16h-15z"/>
-            <path fill="#CD9C00" class="highcharts-point highcharts-color-10" stroke="#fff" d="M6.5 290.5h15v12h-15z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 475 363)" clip-path="url(#a)">
+            <path fill="#B00000" class="highcharts-point highcharts-color-0" stroke="#fff" d="M281.5 26.5h15v276h-15z"/>
+            <path fill="#69929B" class="highcharts-point highcharts-color-1" stroke="#fff" d="M253.5 241.5h15v61h-15z"/>
+            <path fill="#CD9C00" class="highcharts-point highcharts-color-3" stroke="#fff" d="M198.5 251.5h15v51h-15z"/>
+            <path fill="#CD9C00" class="highcharts-point highcharts-color-4" stroke="#fff" d="M171.5 93.5h15v209h-15z"/>
+            <path fill="#CD9C00" class="highcharts-point highcharts-color-5" stroke="#fff" d="M143.5 237.5h15v65h-15z"/>
+            <path fill="#CD9C00" class="highcharts-point highcharts-color-6" stroke="#fff" d="M115.5 243.5h15v59h-15z"/>
+            <path fill="#CD9C00" class="highcharts-point highcharts-color-7" stroke="#fff" d="M88.5 281.5h15v21h-15z"/>
+            <path fill="#CD9C00" class="highcharts-point highcharts-color-8" stroke="#fff" d="M60.5 243.5h15v59h-15z"/>
+            <path fill="#CD9C00" class="highcharts-point highcharts-color-9" stroke="#fff" d="M33.5 286.5h15v16h-15z"/>
+            <path fill="#CD9C00" class="highcharts-point highcharts-color-10" stroke="#fff" d="M5.5 290.5h15v12h-15z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>I.01.1.0014 Altersquotient nach Staatsangehörigkeit 2015</tspan>
+        <tspan>I.01.1.0014 Altersquotient nach Staatsangehörigkeit</tspan><tspan dy="17" x="10">2015</tspan><title>I.01.1.0014 Altersquotient nach Staatsangehörigkeit 2015</title>
     </text>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="158" style="width:150px" y="60">
+        <text x="158" style="width:150px" y="78">
             <tspan>Schweiz</tspan>
         </text>
-        <text x="158" style="width:150px" y="90">
+        <text x="158" style="width:150px" y="105">
             <tspan>Ausland</tspan>
         </text>
-        <text x="158" style="width:150px" y="148">
+        <text x="158" style="width:150px" y="160">
             <tspan>Deutschland</tspan>
         </text>
-        <text x="158" style="width:150px" y="178">
+        <text x="158" style="width:150px" y="188">
             <tspan>Italien</tspan>
         </text>
-        <text x="158" style="width:150px" y="207">
+        <text x="158" style="width:150px" y="215">
             <tspan>Spanien</tspan>
         </text>
-        <text x="158" style="width:150px" y="236">
+        <text x="158" style="width:150px" y="243">
             <tspan>Türkei</tspan>
         </text>
-        <text x="158" style="width:150px" y="266">
+        <text x="158" style="width:150px" y="271">
             <tspan>Maghreb und Ägypten</tspan>
         </text>
-        <text x="158" style="width:150px" y="295">
-            <tspan>Ehem. Jugoslawien ohne SLO</tspan>
+        <text x="158" style="width:150px" y="298" text-overflow="ellipsis">
+            <tspan>Ehem. Jugoslawien ohne…</tspan><title>Ehem. Jugoslawien ohne SLO</title>
         </text>
-        <text x="158" style="width:150px" y="324">
+        <text x="158" style="width:150px" y="326">
             <tspan>EU-Oststaaten</tspan>
         </text>
-        <text x="158" style="width:150px" y="354">
+        <text x="158" style="width:150px" y="353">
             <tspan>Mittel- und Südamerika</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="173" y="383">
+        <text x="173" y="382">
             0
         </text>
-        <text x="233.4" y="383">
+        <text x="233.4" y="382">
             10
         </text>
-        <text x="293.8" y="383">
+        <text x="293.8" y="382">
             20
         </text>
-        <text x="354.2" y="383">
+        <text x="354.2" y="382">
             30
         </text>
-        <text x="414.6" y="383">
+        <text x="414.6" y="382">
             40
         </text>
-        <text x="468.891" y="383">
+        <text x="468.016" y="382">
             50
         </text>
     </g>

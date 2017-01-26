@@ -41,10 +41,10 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>1-5b Anteil Ausländer nach Staatsangehörigkeit und Art der</tspan><tspan dy="17" x="10">Bewilligung 2015</tspan><title>1-5b Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung 2015</title>
+        <tspan>1-5b Anteil Ausländer nach Staatsangehörigkeit und</tspan><tspan dy="17" x="10">Art der Bewilligung 2015</tspan><title>1-5b Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung 2015</title>
     </text>
-    <g class="highcharts-legend" transform="translate(165 45)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="314" height="30"/>
+    <g class="highcharts-legend" transform="translate(154 45)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="326" height="31"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
                 C
@@ -52,54 +52,54 @@
             <path fill="#256370" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(57.656 3)">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(58.172 3)">
                 B
             </text>
-            <path fill="#933F8D" class="highcharts-point" d="M59.656 7h12v12h-12z"/>
+            <path fill="#933F8D" class="highcharts-point" d="M60.172 7h12v12h-12z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(106.656 3)">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(107.984 3)">
                 F
             </text>
-            <path fill="#7F5F1A" class="highcharts-point" d="M108.656 7h12v12h-12z"/>
+            <path fill="#7F5F1A" class="highcharts-point" d="M109.984 7h12v12h-12z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(154.984 3)">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(157.297 3)">
                 L
             </text>
-            <path fill="#CD9C00" class="highcharts-point" d="M156.984 7h12v12h-12z"/>
+            <path fill="#CD9C00" class="highcharts-point" d="M159.297 7h12v12h-12z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(202.656 3)">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(206.266 3)">
                 N
             </text>
-            <path fill="#44AB2B" class="highcharts-point" d="M204.656 7h12v12h-12z"/>
+            <path fill="#44AB2B" class="highcharts-point" d="M208.266 7h12v12h-12z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-5">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(252.313 3)">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(257.766 3)">
                 übrige
             </text>
-            <path fill="#FF8028" class="highcharts-point" d="M254.313 7h12v12h-12z"/>
+            <path fill="#FF8028" class="highcharts-point" d="M259.766 7h12v12h-12z"/>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="158" style="width:150px" y="102">
+        <text x="158" style="width:150px" y="101">
             <tspan>Ausland</tspan>
         </text>
-        <text x="158" style="width:150px" y="150">
+        <text x="158" style="width:150px" y="149">
             <tspan>Deutschland</tspan>
         </text>
-        <text x="158" style="width:150px" y="174">
+        <text x="158" style="width:150px" y="173">
             <tspan>Italien</tspan>
         </text>
-        <text x="158" style="width:150px" y="198">
+        <text x="158" style="width:150px" y="197">
             <tspan>Spanien</tspan>
         </text>
         <text x="158" style="width:150px" y="222">
             <tspan>Türkei</tspan>
         </text>
-        <text x="158" style="width:150px" y="246">
-            <tspan>Ehem. Jugoslawien ohne SLO</tspan>
+        <text x="158" style="width:150px" y="246" text-overflow="ellipsis">
+            <tspan>Ehem. Jugoslawien ohne…</tspan><title>Ehem. Jugoslawien ohne SLO</title>
         </text>
         <text x="158" style="width:150px" y="270">
             <tspan>Maghreb und Ägypten</tspan>
@@ -118,7 +118,7 @@
         <text x="173" style="width:75.5" y="369" text-overflow="ellipsis">
             <tspan>0%</tspan>
         </text>
-        <text x="460.953" style="width:37.75" y="369" text-overflow="ellipsis">
+        <text x="459.297" style="width:37.75" y="369" text-overflow="ellipsis">
             <tspan>100%</tspan>
         </text>
         <text x="248.5" y="369">

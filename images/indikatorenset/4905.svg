@@ -1,152 +1,152 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h373v200H0z"/>
+            <path fill="none" d="M0 0h366v200H0z"/>
         </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M53 150h373v200H53z"/>
+    <path fill="none" class="highcharts-plot-background" d="M56 150h366v200H56z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M89.5 150v200m38-200v200m37-200v200m37-200v200m38-200v200m37-200v200m37-200v200m37-200v200m38-200v200m37-200v200m-373-200v200"/>
+        <path fill="none" class="highcharts-grid-line" d="M92.5 150v200m36-200v200m37-200v200m36-200v200m37-200v200m37-200v200m36-200v200m37-200v200m36-200v200m37-200v200m-366-200v200"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 350.5h373m-373-50h373m-373-50h373m-373-50h373m-373-51h373"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M56 350.5h366m-366-50h366m-366-50h366m-366-50h366m-366-51h366"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 350.5h373m-373-50h373m-373-50h373m-373-50h373m-373-51h373"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M56 350.5h366m-366-50h366m-366-50h366m-366-50h366m-366-51h366"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M53 150h373v200H53z"/>
+    <path fill="none" class="highcharts-plot-border" d="M56 150h366v200H56z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M89.5 350v10m38-10v10m37-10v10m37-10v10m38-10v10m37-10v10m37-10v10m37-10v10m38-10v10m37-10v10m-373-10v10"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M53 350.5h373"/>
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M92.5 350v10m36-10v10m37-10v10m36-10v10m37-10v10m37-10v10m36-10v10m37-10v10m36-10v10m38-10v10m-367-10v10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M56 350.5h366"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M53 150v200"/>
+        <path fill="none" class="highcharts-axis-line" d="M56 150v200"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M426 150v200"/>
+        <path fill="none" class="highcharts-axis-line" d="M422 150v200"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 150)" clip-path="url(#a)">
-            <path fill="#256370" class="highcharts-point" stroke="#fff" d="M9.5 192.5h18v8h-18zm37 1h18v7h-18zm37 0h18v7h-18zm38 0h18v7h-18zm37 0h18v7h-18zm37-1h18v8h-18zm37 0h18v8h-18zm38 0h18v8h-18zm37 0h18v8h-18zm37 0h18v8h-18z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(56 150)" clip-path="url(#a)">
+            <path fill="#256370" class="highcharts-point" stroke="#fff" d="M9.5 192.5h18v8h-18zm36 1h18v7h-18zm37 0h18v7h-18zm36 0h18v7h-18zm37 0h18v7h-18zm37-1h18v8h-18zm36 0h18v8h-18zm37 0h18v8h-18zm36 0h18v8h-18zm37 0h18v8h-18z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 150)" clip-path="url(#a)">
-            <path fill="#A8C4CB" class="highcharts-point" stroke="#fff" d="M9.5 158.5h18v34h-18zm37 0h18v35h-18zm37 1h18v34h-18zm38 1h18v33h-18zm37-1h18v34h-18zm37 0h18v33h-18zm37 0h18v33h-18zm38 0h18v33h-18zm37-1h18v34h-18zm37 0h18v34h-18z"/>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(56 150)" clip-path="url(#a)">
+            <path fill="#A8C4CB" class="highcharts-point" stroke="#fff" d="M9.5 158.5h18v34h-18zm36 0h18v35h-18zm37 1h18v34h-18zm36 1h18v33h-18zm37-1h18v34h-18zm37 0h18v33h-18zm36 0h18v33h-18zm37 0h18v33h-18zm36-1h18v34h-18zm37 0h18v34h-18z"/>
         </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 150)" clip-path="url(#a)">
-            <path fill="#DC440E" class="highcharts-point" stroke="#fff" d="M9.5 126.5h18v32h-18zm37 2h18v30h-18zm37 2h18v29h-18zm38 2h18v28h-18zm37-1h18v28h-18zm37 0h18v28h-18zm37 0h18v28h-18zm38 1h18v27h-18zm37 0h18v26h-18zm37 0h18v26h-18z"/>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(56 150)" clip-path="url(#a)">
+            <path fill="#DC440E" class="highcharts-point" stroke="#fff" d="M9.5 126.5h18v32h-18zm36 2h18v30h-18zm37 2h18v29h-18zm36 2h18v28h-18zm37-1h18v28h-18zm37 0h18v28h-18zm36 0h18v28h-18zm37 1h18v27h-18zm36 0h18v26h-18zm37 0h18v26h-18z"/>
         </g>
-        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 150)" clip-path="url(#a)">
-            <path fill="#FABD24" class="highcharts-point" stroke="#fff" d="M9.5-.5h18v127h-18zm37 0h18v129h-18zm37 0h18v131h-18zm38 0h18v133h-18zm37 0h18v132h-18zm37 0h18v132h-18zm37 0h18v132h-18zm38 0h18v133h-18zm37 0h18v133h-18zm37 0h18v133h-18z"/>
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(56 150)" clip-path="url(#a)">
+            <path fill="#FABD24" class="highcharts-point" stroke="#fff" d="M9.5-.5h18v127h-18zm36 0h18v129h-18zm37 0h18v131h-18zm36 0h18v133h-18zm37 0h18v132h-18zm37 0h18v132h-18zm36 0h18v132h-18zm37 0h18v133h-18zm36 0h18v133h-18zm37 0h18v133h-18z"/>
         </g>
-        <g class="highcharts-series highcharts-series-4 highcharts-line-series highcharts-color-undefined" transform="translate(53 150)" clip-path="url(#a)">
-            <path fill="none" d="M18.65 54.145l37.3-.828 37.3-3.432 37.3-4.077 37.3-1.138 37.3-4.908 37.3-3.58 37.3-5.062 37.3-3.067 37.3-2.02" class="highcharts-graph" stroke="#44AB2B" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M8.65 54.145h10l37.3-.828 37.3-3.432 37.3-4.077 37.3-1.138 37.3-4.908 37.3-3.58 37.3-5.062 37.3-3.067 37.3-2.02h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        <g class="highcharts-series highcharts-series-4 highcharts-line-series highcharts-color-undefined" transform="translate(56 150)" clip-path="url(#a)">
+            <path fill="none" d="M18.3 54.145l36.6-.828 36.6-3.432 36.6-4.077 36.6-1.138 36.6-4.908 36.6-3.58 36.6-5.062 36.6-3.067 36.6-2.02" class="highcharts-graph" stroke="#44AB2B" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M8.3 54.145h10l36.6-.828 36.6-3.432 36.6-4.077 36.6-1.138 36.6-4.908 36.6-3.58 36.6-5.062 36.6-3.067 36.6-2.02h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-4 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#44AB2B" d="M407 172c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-37 2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-38 3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-37 5c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-37 4c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-38 5c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-37 1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-37 4c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-38 3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-37 1c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
+            <path fill="#44AB2B" d="M403 172c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-37 3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-37 5c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 4c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-37 5c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-37 4c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-37 3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 1c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>2-3b Ausländische Bevölkerung nach Wohndauer und</tspan><tspan dy="17" x="10">Geburtsort seit 2006</tspan><title>2-3b Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006</title>
+        <tspan>2-3b Ausländische Bevölkerung nach Wohndauer</tspan><tspan dy="17" x="10">und Geburtsort seit 2006</tspan><title>2-3b Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006</title>
     </text>
     <g class="highcharts-legend" transform="translate(56 40)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="416" height="106"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="472" height="116"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 8)">
                 <tspan>Seit mind. 12 Jahren im gleichen Wohnviertel - geboren im Ausland</tspan>
             </text>
-            <path fill="#A8C4CB" class="highcharts-point" d="M10 7h12v12H10z"/>
+            <path fill="#A8C4CB" class="highcharts-point" d="M10 12h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 28)">
                 <tspan>Seit mind. 12 Jahren im gleichen Wohnviertel - geboren in der Schweiz</tspan>
             </text>
-            <path fill="#256370" class="highcharts-point" d="M10 26h12v12H10z"/>
+            <path fill="#256370" class="highcharts-point" d="M10 32h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 41)">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 48)">
                 <tspan>Weniger als 12 Jahre im gleichen Wohnviertel - geboren im Ausland</tspan>
             </text>
-            <path fill="#FABD24" class="highcharts-point" d="M10 45h12v12H10z"/>
+            <path fill="#FABD24" class="highcharts-point" d="M10 52h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 60)">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 68)">
                 <tspan>Weniger als 12 Jahre im gleichen Wohnviertel - geboren in der Schweiz</tspan>
             </text>
-            <path fill="#DC440E" class="highcharts-point" d="M10 64h12v12H10z"/>
+            <path fill="#DC440E" class="highcharts-point" d="M10 72h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-4">
-            <path fill="none" d="M8 90h16" class="highcharts-graph" stroke="#44AB2B" stroke-width="2"/>
-            <path fill="#44AB2B" d="M16 86c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 79)">
+            <path fill="none" d="M8 99h16" class="highcharts-graph" stroke="#44AB2B" stroke-width="2"/>
+            <path fill="#44AB2B" d="M16 95c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 88)">
                 <tspan>Anzahl Ausländer (rechte Skala)</tspan>
             </text>
         </g>
     </g>
-    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="71.65" y="369">
-            2006
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="76.893" style="width:415px" transform="rotate(-45 76.893 366)" y="366" text-overflow="ellipsis">
+            <tspan>2006</tspan>
         </text>
-        <text x="108.95" y="369">
-            2007
+        <text x="113.493" style="width:415px" transform="rotate(-45 113.493 366)" y="366" text-overflow="ellipsis">
+            <tspan>2007</tspan>
         </text>
-        <text x="146.25" y="369">
-            2008
+        <text x="150.093" style="width:415px" transform="rotate(-45 150.093 366)" y="366" text-overflow="ellipsis">
+            <tspan>2008</tspan>
         </text>
-        <text x="183.55" y="369">
-            2009
+        <text x="186.693" style="width:415px" transform="rotate(-45 186.693 366)" y="366" text-overflow="ellipsis">
+            <tspan>2009</tspan>
         </text>
-        <text x="220.85" y="369">
-            2010
+        <text x="223.293" style="width:415px" transform="rotate(-45 223.293 366)" y="366" text-overflow="ellipsis">
+            <tspan>2010</tspan>
         </text>
-        <text x="258.15" y="369">
-            2011
+        <text x="259.893" style="width:415px" transform="rotate(-45 259.893 366)" y="366" text-overflow="ellipsis">
+            <tspan>2011</tspan>
         </text>
-        <text x="295.45" y="369">
-            2012
+        <text x="296.493" style="width:415px" transform="rotate(-45 296.493 366)" y="366" text-overflow="ellipsis">
+            <tspan>2012</tspan>
         </text>
-        <text x="332.75" y="369">
-            2013
+        <text x="333.093" style="width:415px" transform="rotate(-45 333.093 366)" y="366" text-overflow="ellipsis">
+            <tspan>2013</tspan>
         </text>
-        <text x="370.05" y="369">
-            2014
+        <text x="369.693" style="width:415px" transform="rotate(-45 369.693 366)" y="366" text-overflow="ellipsis">
+            <tspan>2014</tspan>
         </text>
-        <text x="407.35" y="369">
-            2015
+        <text x="406.293" style="width:415px" transform="rotate(-45 406.293 366)" y="366" text-overflow="ellipsis">
+            <tspan>2015</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="38" style="width:150px" y="355">
+        <text x="41" style="width:150px" y="354">
             <tspan>0%</tspan>
         </text>
-        <text x="38" style="width:150px" y="305">
+        <text x="41" style="width:150px" y="304">
             <tspan>25%</tspan>
         </text>
-        <text x="38" style="width:150px" y="255">
+        <text x="41" style="width:150px" y="254">
             <tspan>50%</tspan>
         </text>
-        <text x="38" style="width:150px" y="205">
+        <text x="41" style="width:150px" y="204">
             <tspan>75%</tspan>
         </text>
-        <text x="38" style="width:150px" y="155">
+        <text x="41" style="width:150px" y="154">
             <tspan>100%</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" color="#000" cursor="default" font-size="11">
-        <text x="441" style="width:150px" y="355">
+        <text x="437" style="width:150px" y="354">
             <tspan>0</tspan>
         </text>
-        <text x="441" style="width:150px" y="305">
+        <text x="437" style="width:150px" y="304">
             <tspan>20 000</tspan>
         </text>
-        <text x="441" style="width:150px" y="255">
+        <text x="437" style="width:150px" y="254">
             <tspan>40 000</tspan>
         </text>
-        <text x="441" style="width:150px" y="205">
+        <text x="437" style="width:150px" y="204">
             <tspan>60 000</tspan>
         </text>
-        <text x="441" style="width:150px" y="155">
+        <text x="437" style="width:150px" y="154">
             <tspan>80 000</tspan>
         </text>
     </g>

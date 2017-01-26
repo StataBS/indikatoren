@@ -1,78 +1,78 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h432v275H0z"/>
+            <path fill="none" d="M0 0h429v275H0z"/>
         </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M43 75h432v275H43z"/>
+    <path fill="none" class="highcharts-plot-background" d="M46 75h429v275H46z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M76.5 75v275m61-275v275m60-275v275m61-275v275m61-275v275m60-275v275m61-275v275"/>
+        <path fill="none" class="highcharts-grid-line" d="M79.5 75v275m60-275v275m60-275v275m61-275v275m60-275v275m60-275v275m60-275v275"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 350.5h432m-432-69h432m-432-68h432m-432-69h432m-432-70h432"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M46 350.5h429m-429-69h429m-429-68h429m-429-69h429m-429-70h429"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M43 75h432v275H43z"/>
+    <path fill="none" class="highcharts-plot-border" d="M46 75h429v275H46z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M76.5 350v10m61-10v10m60-10v10m61-10v10m61-10v10m60-10v10m61-10v10"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M43 350.5h432"/>
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M79.5 350v10m60-10v10m60-10v10m61-10v10m60-10v10m60-10v10m60-10v10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M46 350.5h429"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M43 75v275"/>
+        <path fill="none" class="highcharts-axis-line" d="M46 75v275"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 75)" clip-path="url(#a)">
-            <path fill="#73BA7C" class="highcharts-point" stroke="#fff" d="M18.5 105.5h30v170h-30zm61-2h30v172h-30zm61 5h30v167h-30zm60-17h30v184h-30zm61-41h30v225h-30zm61 27h30v198h-30zm60 22h30v176h-30z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(46 75)" clip-path="url(#a)">
+            <path fill="#73BA7C" class="highcharts-point" stroke="#fff" d="M18.5 105.5h29v170h-29zm61-2h29v172h-29zm60 5h29v167h-29zm60-17h29v184h-29zm60-41h29v225h-29zm61 27h29v198h-29zm60 22h29v176h-29z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>3.2.01 Anzahl Anzeigen, die das Strafgesetzbuch (StGB)</tspan><tspan dy="17" x="10">betreffen, pro 1000 Einwohner im Alter von 18 und mehr</tspan><tspan dy="17" x="10">Jahren</tspan><title>3.2.01 Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren</title>
+        <tspan>3.2.01 Anzahl Anzeigen, die das Strafgesetzbuch</tspan><tspan dy="17" x="10">(StGB) betreffen, pro 1000 Einwohner im Alter von</tspan><tspan dy="17" x="10">18 und mehr Jahren</tspan><title>3.2.01 Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren</title>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker">
-        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(59 158)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(58 158)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
             <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">124,0</tspan><tspan x="5" y="15">124,0</tspan>
         </text>
-        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(423 152)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(420 152)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
             <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">128,1</tspan><tspan x="5" y="15">128,1</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="76.978" y="369">
+        <text x="79.742" y="369">
             2008
         </text>
-        <text x="137.652" y="369">
+        <text x="139.994" y="369">
             2009
         </text>
-        <text x="198.326" y="369">
+        <text x="200.247" y="369">
             2010
         </text>
-        <text x="259" y="369">
+        <text x="260.5" y="369">
             2011
         </text>
-        <text x="319.674" y="369">
+        <text x="320.753" y="369">
             2012
         </text>
-        <text x="380.348" y="369">
+        <text x="381.006" y="369">
             2013
         </text>
-        <text x="441.022" y="369">
+        <text x="441.258" y="369">
             2014
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="28" style="width:150px" y="355">
+        <text x="31" style="width:150px" y="354">
             <tspan>0</tspan>
         </text>
-        <text x="28" style="width:150px" y="286">
+        <text x="31" style="width:150px" y="285">
             <tspan>50</tspan>
         </text>
-        <text x="28" style="width:150px" y="217">
+        <text x="31" style="width:150px" y="217">
             <tspan>100</tspan>
         </text>
-        <text x="28" style="width:150px" y="148">
+        <text x="31" style="width:150px" y="148">
             <tspan>150</tspan>
         </text>
-        <text x="28" style="width:150px" y="80">
+        <text x="31" style="width:150px" y="79">
             <tspan>200</tspan>
         </text>
     </g>

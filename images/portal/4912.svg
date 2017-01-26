@@ -1,90 +1,90 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h410v308H0z"/>
+            <path fill="none" d="M0 0h405v305H0z"/>
         </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M65 41h410v308H65z"/>
+    <path fill="none" class="highcharts-plot-background" d="M70 43h405v305H70z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M78.5 41v308m49-308v308m49-308v308m49-308v308m49-308v308m49-308v308m49-308v308m49-308v308m49-308v308"/>
+        <path fill="none" class="highcharts-grid-line" d="M83.5 43v305m48-305v305m48-305v305m49-305v305m48-305v305m49-305v305m48-305v305m49-305v305m48-305v305"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M65 349.5h410m-410-62h410m-410-61h410m-410-62h410m-410-61h410m-410-63h410"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M70 348.5h405m-405-61h405m-405-61h405m-405-61h405m-405-61h405m-405-62h405"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M65 41h410v308H65z"/>
+    <path fill="none" class="highcharts-plot-border" d="M70 43h405v305H70z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M65 349.5h410"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M70 348.5h405"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M65 41v308"/>
+        <path fill="none" class="highcharts-axis-line" d="M70 43v305"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(65 41)" clip-path="url(#a)">
-            <path fill="none" d="M4.02 192.3l9.804.588 9.803-6.262 9.804-21.027 9.804-27.027 9.804 21.117 9.804-2.698 9.804 4.706 9.804-17.254 9.804 5.725 9.804 14.372 9.804.23 9.804 4.747 9.804 1.518 9.804 8.896 9.803-1.11 9.804 7.017 9.804-20.513 9.804-.27 9.804-10.01 9.804 5.51 9.804-3.065 9.804 3.378 9.804-15.859 9.804 7.913 9.804-3.12 9.804-13.192 9.803-22.006 9.804-5.338 9.804-1.826 9.804-21.748 9.804 1.069 9.804-2.255 9.804 2.122 9.804 7.845 9.804-12.32 9.804 1.192 9.804 1.808 9.804-3.468 9.804 2.482 9.803-14.494 9.804 2.633" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-5.98 192.3h10l9.804.588 9.803-6.262 9.804-21.027 9.804-27.027 9.804 21.117 9.804-2.698 9.804 4.706 9.804-17.254 9.804 5.725 9.804 14.372 9.804.23 9.804 4.747 9.804 1.518 9.804 8.896 9.803-1.11 9.804 7.017 9.804-20.513 9.804-.27 9.804-10.01 9.804 5.51 9.804-3.065 9.804 3.378 9.804-15.859 9.804 7.913 9.804-3.12 9.804-13.192 9.803-22.006 9.804-5.338 9.804-1.826 9.804-21.748 9.804 1.069 9.804-2.255 9.804 2.122 9.804 7.845 9.804-12.32 9.804 1.192 9.804 1.808 9.804-3.468 9.804 2.482 9.803-14.494 9.804 2.633h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(70 43)" clip-path="url(#a)">
+            <path fill="none" d="M3.97 190.427l9.685.582 9.684-6.2 9.685-20.823 9.684-26.763 9.684 20.91 9.685-2.671 9.684 4.66 9.684-17.086 9.685 5.67 9.684 14.231 9.685.229 9.684 4.7 9.684 1.504 9.685 8.808 9.684-1.098 9.684 6.948 9.685-20.313 9.684-.269 9.684-9.912 9.685 5.456 9.684-3.034 9.685 3.346 9.684-15.705 9.684 7.835 9.685-3.09 9.684-13.062 9.684-21.793 9.685-5.285 9.684-1.809 9.684-21.536 9.685 1.058 9.684-2.232 9.685 2.101 9.684 7.769 9.684-12.2 9.685 1.18 9.684 1.79 9.684-3.434 9.685 2.458 9.684-14.353 9.684 2.608" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-6.03 190.427h10l9.685.582 9.684-6.2 9.685-20.823 9.684-26.763 9.684 20.91 9.685-2.671 9.684 4.66 9.684-17.086 9.685 5.67 9.684 14.231 9.685.229 9.684 4.7 9.684 1.504 9.685 8.808 9.684-1.098 9.684 6.948 9.685-20.313 9.684-.269 9.684-9.912 9.685 5.456 9.684-3.034 9.685 3.346 9.684-15.705 9.684 7.835 9.685-3.09 9.684-13.062 9.684-21.793 9.685-5.285 9.684-1.809 9.684-21.536 9.685 1.058 9.684-2.232 9.685 2.101 9.684 7.769 9.684-12.2 9.685 1.18 9.684 1.79 9.684-3.434 9.685 2.458 9.684-14.353 9.684 2.608h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#FF8028" d="M470 109c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-9-2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 14c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-9-1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 12c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-7c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-9-1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 21c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 6c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 22c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-9 13c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-8c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 16c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-4c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-9 4c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-6c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 10c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 0c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 21c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-9-7c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-9c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-5c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-9 0c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-15c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-6c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 18c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-5c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-9 3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-21c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 27c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 21c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 6c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-9-1c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
+            <path fill="#FF8028" d="M471 111c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 14c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-9 3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-9 13c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-8c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-9 2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 21c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-9 2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 5c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 22c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-9 13c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-7c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-9 15c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-5c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-9 9c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 20c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-9-7c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-9c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-9-1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-5c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 0c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-9-14c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-6c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 17c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-9-5c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-21c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-9 27c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 21c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10 6c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-10-1c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>I.06.3.0001 Anzahl Betreibungen seit 1974</tspan>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
-        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(60 235)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(65 234)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
             <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">37 565</tspan><tspan x="5" y="16">37 565</tspan>
         </text>
-        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(437 115)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(431 116)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
             <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">76 524</tspan><tspan x="5" y="16">76 524</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="78.824" y="368">
+        <text x="83.655" y="367">
             1975
         </text>
-        <text x="127.843" y="368">
+        <text x="132.077" y="367">
             1980
         </text>
-        <text x="176.863" y="368">
+        <text x="180.499" y="367">
             1985
         </text>
-        <text x="225.882" y="368">
+        <text x="228.92" y="367">
             1990
         </text>
-        <text x="274.902" y="368">
+        <text x="277.342" y="367">
             1995
         </text>
-        <text x="323.922" y="368">
+        <text x="325.764" y="367">
             2000
         </text>
-        <text x="372.941" y="368">
+        <text x="374.186" y="367">
             2005
         </text>
-        <text x="421.961" y="368">
+        <text x="422.608" y="367">
             2010
         </text>
-        <text x="462.781" y="368">
+        <text x="461.031" y="367">
             2015
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="50" style="width:150px" y="354">
+        <text x="55" style="width:150px" y="352">
             <tspan>0</tspan>
         </text>
-        <text x="50" style="width:150px" y="292">
+        <text x="55" style="width:150px" y="291">
             <tspan>20 000</tspan>
         </text>
-        <text x="50" style="width:150px" y="230">
+        <text x="55" style="width:150px" y="230">
             <tspan>40 000</tspan>
         </text>
-        <text x="50" style="width:150px" y="169">
+        <text x="55" style="width:150px" y="169">
             <tspan>60 000</tspan>
         </text>
-        <text x="50" style="width:150px" y="107">
+        <text x="55" style="width:150px" y="108">
             <tspan>80 000</tspan>
         </text>
-        <text x="50" style="width:150px" y="46">
+        <text x="55" style="width:150px" y="47">
             <tspan>100 000</tspan>
         </text>
     </g>

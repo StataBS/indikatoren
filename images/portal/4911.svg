@@ -1,44 +1,44 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h430v275H0z"/>
+            <path fill="none" d="M0 0h429v275H0z"/>
         </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M45 75h430v275H45z"/>
+    <path fill="none" class="highcharts-plot-background" d="M46 75h429v275H46z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M61.5 75v275m53-275v275m53-275v275m52-275v275m53-275v275m53-275v275m53-275v275m52-275v275"/>
+        <path fill="none" class="highcharts-grid-line" d="M62.5 75v275m53-275v275m52-275v275m53-275v275m53-275v275m52-275v275m53-275v275m53-275v275"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M45 350.5h430m-430-55h430m-430-55h430m-430-55h430m-430-55h430m-430-56h430"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M46 350.5h429m-429-55h429m-429-55h429m-429-55h429m-429-55h429m-429-56h429"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M45 75h430v275H45z"/>
+    <path fill="none" class="highcharts-plot-border" d="M46 75h429v275H46z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M61.5 350v10m53-10v10m53-10v10m52-10v10m53-10v10m53-10v10m53-10v10m52-10v10"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M45 350.5h430"/>
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M62.5 350v10m53-10v10m52-10v10m53-10v10m53-10v10m52-10v10m53-10v10m53-10v10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M46 350.5h429"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M45 75v275"/>
+        <path fill="none" class="highcharts-axis-line" d="M46 75v275"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(45 75)" clip-path="url(#a)">
-            <path class="highcharts-point" stroke="#fff" d="M9.5 94.5h7v71h-7zm26 22h7v49h-7zm27 11h7v38h-7zm26 11h7v27h-7zm27-22h7v49h-7zm26-33h7v82h-7zm26 22h7v60h-7zm27 33h7v27h-7zm26-116h7v143h-7z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(46 75)" clip-path="url(#a)">
+            <path class="highcharts-point" stroke="#fff" d="M9.5 94.5h7v71h-7zm26 22h7v49h-7zm27 11h7v38h-7zm26 11h7v27h-7zm26-22h7v49h-7zm27-33h7v82h-7zm26 22h7v60h-7zm26 33h7v27h-7zm27-116h7v143h-7z"/>
             <path class="highcharts-point highcharts-negative" stroke="#fff" d="M246.5 165.5h7v22h-7z"/>
-            <path class="highcharts-point" stroke="#fff" d="M273.5 121.5h7v44h-7zm26 28h7v16h-7z"/>
-            <path class="highcharts-point highcharts-negative" stroke="#fff" d="M326.5 165.5h7v33h-7zm26 0h7v11h-7zm53 0h7v66h-7z"/>
+            <path class="highcharts-point" stroke="#fff" d="M272.5 121.5h7v44h-7zm27 28h7v16h-7z"/>
+            <path class="highcharts-point highcharts-negative" stroke="#fff" d="M325.5 165.5h7v33h-7zm26 0h7v11h-7zm53 0h7v66h-7z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(45 75)" clip-path="url(#a)">
-            <path fill="#DC440E" class="highcharts-point" stroke="#fff" d="M17.5 77.5h7v88h-7zm26 33h7v55h-7zm27 22h7v33h-7zm26 0h7v33h-7zm26-11h7v44h-7zm27-22h7v66h-7zm26 6h7v60h-7zm27 22h7v38h-7zm26-94h7v132h-7z"/>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(46 75)" clip-path="url(#a)">
+            <path fill="#DC440E" class="highcharts-point" stroke="#fff" d="M17.5 77.5h7v88h-7zm26 33h7v55h-7zm27 22h7v33h-7zm26 0h7v33h-7zm26-11h7v44h-7zm26-22h7v66h-7zm27 6h7v60h-7zm26 22h7v38h-7zm26-94h7v132h-7z"/>
             <path fill="#DC440E" class="highcharts-point highcharts-negative" stroke="#fff" d="M254.5 165.5h7v28h-7z"/>
-            <path fill="#DC440E" class="highcharts-point" stroke="#fff" d="M281.5 127.5h7v38h-7zm26 27h7v11h-7z"/>
-            <path fill="#DC440E" class="highcharts-point highcharts-negative" stroke="#fff" d="M334.5 165.5h7v39h-7zm26 0h7v11h-7zm53 0h7v61h-7z"/>
+            <path fill="#DC440E" class="highcharts-point" stroke="#fff" d="M280.5 127.5h7v38h-7zm26 27h7v11h-7z"/>
+            <path fill="#DC440E" class="highcharts-point highcharts-negative" stroke="#fff" d="M333.5 165.5h7v39h-7zm26 0h7v11h-7zm53 0h7v61h-7z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>I.05.1.0003 Mittlere Jahresteuerung Basel-Stadt im Vergleich</tspan><tspan dy="17" x="10">zur Schweiz</tspan><title>I.05.1.0003 Mittlere Jahresteuerung Basel-Stadt im Vergleich zur Schweiz</title>
+        <tspan>I.05.1.0003 Mittlere Jahresteuerung Basel-Stadt im</tspan><tspan dy="17" x="10">Vergleich zur Schweiz</tspan><title>I.05.1.0003 Mittlere Jahresteuerung Basel-Stadt im Vergleich zur Schweiz</title>
     </text>
     <g class="highcharts-legend" transform="translate(128 45)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="212" height="25"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="231" height="26"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
                 <tspan>Basler Index</tspan>
@@ -46,55 +46,55 @@
             <path class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(115.656 3)">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(125.563 3)">
                 Landesindex
             </text>
-            <path fill="#DC440E" class="highcharts-point" d="M117.656 7h12v12h-12z"/>
+            <path fill="#DC440E" class="highcharts-point" d="M127.563 7h12v12h-12z"/>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="62.147" y="369">
+        <text x="63.107" y="369">
             2000
         </text>
-        <text x="114.908" y="369">
+        <text x="115.745" y="369">
             2002
         </text>
-        <text x="167.669" y="369">
+        <text x="168.383" y="369">
             2004
         </text>
-        <text x="220.429" y="369">
+        <text x="221.021" y="369">
             2006
         </text>
-        <text x="273.19" y="369">
+        <text x="273.66" y="369">
             2008
         </text>
-        <text x="325.951" y="369">
+        <text x="326.298" y="369">
             2010
         </text>
-        <text x="378.712" y="369">
+        <text x="378.936" y="369">
             2012
         </text>
-        <text x="431.472" y="369">
+        <text x="431.574" y="369">
             2014
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="30" style="width:150px" y="355">
+        <text x="31" style="width:150px" y="354">
             <tspan>-2%</tspan>
         </text>
-        <text x="30" style="width:150px" y="300">
+        <text x="31" style="width:150px" y="299">
             <tspan>-1%</tspan>
         </text>
-        <text x="30" style="width:150px" y="245">
+        <text x="31" style="width:150px" y="244">
             <tspan>0%</tspan>
         </text>
-        <text x="30" style="width:150px" y="190">
+        <text x="31" style="width:150px" y="189">
             <tspan>1%</tspan>
         </text>
-        <text x="30" style="width:150px" y="135">
+        <text x="31" style="width:150px" y="134">
             <tspan>2%</tspan>
         </text>
-        <text x="30" style="width:150px" y="80">
+        <text x="31" style="width:150px" y="79">
             <tspan>3%</tspan>
         </text>
     </g>

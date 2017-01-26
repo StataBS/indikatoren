@@ -1,78 +1,78 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h444v275H0z"/>
+            <path fill="none" d="M0 0h443v275H0z"/>
         </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M31 75h444v275H31z"/>
+    <path fill="none" class="highcharts-plot-background" d="M32 75h443v275H32z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M65.5 75v275m62-275v275m63-275v275m62-275v275m62-275v275m63-275v275m62-275v275"/>
+        <path fill="none" class="highcharts-grid-line" d="M66.5 75v275m62-275v275m62-275v275m63-275v275m62-275v275m62-275v275m62-275v275"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M31 350.5h444m-444-69h444m-444-68h444m-444-69h444m-444-70h444"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M32 350.5h443m-443-69h443m-443-68h443m-443-69h443m-443-70h443"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M31 75h444v275H31z"/>
+    <path fill="none" class="highcharts-plot-border" d="M32 75h443v275H32z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M65.5 350v10m62-10v10m63-10v10m62-10v10m62-10v10m63-10v10m62-10v10"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M31 350.5h444"/>
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M66.5 350v10m62-10v10m62-10v10m63-10v10m62-10v10m62-10v10m62-10v10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M32 350.5h443"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M31 75v275"/>
+        <path fill="none" class="highcharts-axis-line" d="M32 75v275"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(31 75)" clip-path="url(#a)">
-            <path fill="#933F8D" class="highcharts-point" stroke="#fff" d="M19.5 120.5h30v155h-30zm62-34h30v189h-30zm63 34h30v155h-30zm62 4h30v151h-30zm62-69h30v220h-30zm63 10h30v210h-30zm62-17h30v227h-30z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(32 75)" clip-path="url(#a)">
+            <path fill="#933F8D" class="highcharts-point" stroke="#fff" d="M19.5 120.5h30v155h-30zm62-34h30v189h-30zm62 34h30v155h-30zm63 4h30v151h-30zm62-69h30v220h-30zm62 10h30v210h-30zm62-17h30v227h-30z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>I.19.1.0002 Anzahl Anzeigen wegen Veruntreuung und Betrug</tspan><tspan dy="17" x="10">pro 1000 Einwohner im Alter von 18 und mehr Jahren</tspan><title>I.19.1.0002 Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren</title>
+        <tspan>I.19.1.0002 Anzahl Anzeigen wegen Veruntreuung</tspan><tspan dy="17" x="10">und Betrug pro 1000 Einwohner im Alter von 18 und</tspan><tspan dy="17" x="10">mehr Jahren</tspan><title>I.19.1.0002 Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren</title>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker">
-        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(54 173)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(53 173)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
             <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">4,5</tspan><tspan x="5" y="15">4,5</tspan>
         </text>
-        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(428 101)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(426 101)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
             <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">6,6</tspan><tspan x="5" y="15">6,6</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="65.921" y="369">
+        <text x="66.843" y="369">
             2008
         </text>
-        <text x="128.281" y="369">
+        <text x="129.062" y="369">
             2009
         </text>
-        <text x="190.64" y="369">
+        <text x="191.281" y="369">
             2010
         </text>
-        <text x="253" y="369">
+        <text x="253.5" y="369">
             2011
         </text>
-        <text x="315.36" y="369">
+        <text x="315.719" y="369">
             2012
         </text>
-        <text x="377.719" y="369">
+        <text x="377.938" y="369">
             2013
         </text>
-        <text x="440.079" y="369">
+        <text x="440.157" y="369">
             2014
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="16" style="width:150px" y="355">
+        <text x="17" style="width:150px" y="354">
             <tspan>0</tspan>
         </text>
-        <text x="16" style="width:150px" y="286">
+        <text x="17" style="width:150px" y="285">
             <tspan>2</tspan>
         </text>
-        <text x="16" style="width:150px" y="217">
+        <text x="17" style="width:150px" y="217">
             <tspan>4</tspan>
         </text>
-        <text x="16" style="width:150px" y="148">
+        <text x="17" style="width:150px" y="148">
             <tspan>6</tspan>
         </text>
-        <text x="16" style="width:150px" y="80">
+        <text x="17" style="width:150px" y="79">
             <tspan>8</tspan>
         </text>
     </g>

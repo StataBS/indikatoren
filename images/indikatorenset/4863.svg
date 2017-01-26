@@ -1,81 +1,81 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h428v275H0z"/>
+            <path fill="none" d="M0 0h426v275H0z"/>
         </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M47 75h428v275H47z"/>
+    <path fill="none" class="highcharts-plot-background" d="M49 75h426v275H49z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M76.5 75v275m53-275v275m52-275v275m53-275v275m52-275v275m53-275v275m52-275v275m53-275v275"/>
+        <path fill="none" class="highcharts-grid-line" d="M78.5 75v275m52-275v275m52-275v275m53-275v275m52-275v275m53-275v275m52-275v275m52-275v275"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M47 350.5h428m-428-69h428m-428-68h428m-428-69h428m-428-70h428"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M49 350.5h426m-426-69h426m-426-68h426m-426-69h426m-426-70h426"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M47 75h428v275H47z"/>
+    <path fill="none" class="highcharts-plot-border" d="M49 75h426v275H49z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M76.5 350v10m53-10v10m52-10v10m53-10v10m52-10v10m53-10v10m52-10v10m53-10v10"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M47 350.5h428"/>
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M78.5 350v10m52-10v10m52-10v10m53-10v10m52-10v10m53-10v10m52-10v10m52-10v10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M49 350.5h426"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M47 75v275"/>
+        <path fill="none" class="highcharts-axis-line" d="M49 75v275"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(47 75)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" stroke="#fff" d="M16.5 48.5h26v227h-26zm53-11h26v238h-26zm53-4h26v242h-26zm52-4h26v246h-26zm53-12h26v258h-26zm52 0h26v258h-26zm53-2h26v260h-26zm52-5h26v265h-26z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 75)" clip-path="url(#a)">
+            <path fill="#FF8028" class="highcharts-point" stroke="#fff" d="M16.5 48.5h26v227h-26zm53-11h26v238h-26zm52-4h26v242h-26zm52-4h26v246h-26zm53-12h26v258h-26zm52 0h26v258h-26zm52-2h26v260h-26zm53-5h26v265h-26z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>3.1.01 Anteil Steuerveranlagungen mit Zuwendungen</tspan>
+        <tspan>3.1.01 Anteil Steuerveranlagungen mit</tspan><tspan dy="17" x="10">Zuwendungen</tspan><title>3.1.01 Anteil Steuerveranlagungen mit Zuwendungen</title>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker">
         <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(57 101)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
             <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">16,5%</tspan><tspan x="5" y="15">16,5%</tspan>
         </text>
-        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(425 86)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(424 86)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
             <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">19,3%</tspan><tspan x="5" y="15">19,3%</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="76.971" y="369">
+        <text x="78.83" y="369">
             2006
         </text>
-        <text x="129.55" y="369">
+        <text x="131.165" y="369">
             2007
         </text>
-        <text x="182.13" y="369">
+        <text x="183.499" y="369">
             2008
         </text>
-        <text x="234.71" y="369">
+        <text x="235.833" y="369">
             2009
         </text>
-        <text x="287.29" y="369">
+        <text x="288.167" y="369">
             2010
         </text>
-        <text x="339.87" y="369">
+        <text x="340.501" y="369">
             2011
         </text>
-        <text x="392.45" y="369">
+        <text x="392.835" y="369">
             2012
         </text>
-        <text x="445.029" y="369">
+        <text x="445.17" y="369">
             2013
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="32" style="width:150px" y="355">
+        <text x="34" style="width:150px" y="354">
             <tspan>0%</tspan>
         </text>
-        <text x="32" style="width:150px" y="286">
+        <text x="34" style="width:150px" y="285">
             <tspan>5%</tspan>
         </text>
-        <text x="32" style="width:150px" y="217">
+        <text x="34" style="width:150px" y="217">
             <tspan>10%</tspan>
         </text>
-        <text x="32" style="width:150px" y="148">
+        <text x="34" style="width:150px" y="148">
             <tspan>15%</tspan>
         </text>
-        <text x="32" style="width:150px" y="80">
+        <text x="34" style="width:150px" y="79">
             <tspan>20%</tspan>
         </text>
     </g>
