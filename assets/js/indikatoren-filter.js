@@ -24,6 +24,8 @@ global indikatorensetData
 global indikatorensetNames
 global lazyRenderChartById
 
+global seedrandom
+
 */
 
 //holds config of each chart
@@ -54,8 +56,18 @@ $(document).ready(function(){
       $(deferred.resolve);
     })
   ).done(function(){
-      //if indikatorenset is loaded: make sure the data is loaded into var indikatoren
-      if (indikatorensetView) {indikatoren = indikatorensetData}
+      if (indikatorensetView) {
+        //if indikatorenset is loaded: make sure the data is loaded into var indikatoren
+        indikatoren = indikatorensetData;
+      }
+      else { 
+        //add daily changing random number to properties
+        Math.seedrandom(new Date().toLocaleDateString());
+        indikatoren = $.map(indikatoren, function(val, i){
+          val['randomNumber'] = Math.random();
+          return val;
+        });
+      }
       initializeFilterJS(indikatorenset);
   });  
 });
@@ -95,7 +107,7 @@ function initializeFilterJS(indikatorenset){
   }  
   else {
     //Portal view
-    sortOptions = {'kuerzel': 'asc'};
+    sortOptions = {'randomNumber': 'asc'};
     preparePortalView();    
     //define filter.js configuration 
     fjsConfig['template'] = '#indikator-template-carousel-portal';
