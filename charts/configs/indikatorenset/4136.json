@@ -80,7 +80,7 @@
           7
         ]
       ],
-      "name": "Büros zu\u003Cbr\u002F\u003EWohnungen"
+      "name": "Büros zu Wohnungen"
     },
     {
       "color": "#73b97c",
@@ -119,7 +119,7 @@
           9
         ]
       ],
-      "name": "Sonstige\u003Cbr\u002F\u003EUmnutzungen"
+      "name": "Sonstige Umnutzungen"
     },
     {
       "color": "#2f656b",
@@ -158,7 +158,7 @@
           63
         ]
       ],
-      "name": "(Dachstock-)\u003Cbr\u002F\u003EAusbauten"
+      "name": "(Dachstock-) Ausbauten"
     },
     {
       "color": "#990300",
@@ -197,7 +197,7 @@
           -37
         ]
       ],
-      "name": "Zweckentfrem-\u003Cbr\u002F\u003Edungen von\u003Cbr\u002F\u003EWohnungen"
+      "name": "Zweckentfrem-dungen von Wohnungen"
     },
     {
       "color": "#923f8d",
@@ -236,7 +236,7 @@
           -17
         ]
       ],
-      "name": "Saldo aus\u003Cbr\u002F\u003EZusammen-\u003Cbr\u002F\u003Elegungen\u002F\u003Cbr\u002F\u003EAufteilungen"
+      "name": "Saldo aus Zusammen-legungen\u002F Aufteilungen"
     }
   ],
   "chart": {
@@ -350,7 +350,8 @@
     "itemMarginBottom": 7,
     "align": "right",
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "width": 111
     }
   },
   "tooltip": {
