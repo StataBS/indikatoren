@@ -47,39 +47,39 @@
     <g class="highcharts-legend" transform="translate(359 69)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="116" height="257"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
-                <tspan>Büros zu</tspan><tspan x="21" dy="15">Wohnungen</tspan>
+            <text x="21" style="width:111" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                <tspan>Büros zu</tspan><tspan dy="15" x="21">Wohnungen</tspan><title>Büros zu Wohnungen</title>
             </text>
             <path fill="#007a2f" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 39)">
-                <tspan>(Dachstock-)</tspan><tspan x="21" dy="15">Ausbauten</tspan>
+            <text x="21" y="15" style="width:111" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 39)">
+                <tspan>(Dachstock-)</tspan><tspan dy="15" x="21">Ausbauten</tspan><title>(Dachstock-) Ausbauten</title>
             </text>
             <path fill="#2f656b" class="highcharts-point" d="M10 43h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 75)">
-                <tspan>Saldo aus</tspan><tspan x="21" dy="15">Zusammen-</tspan><tspan x="21" dy="15">legungen/</tspan><tspan x="21" dy="15">Aufteilungen</tspan>
+            <text x="21" y="15" style="width:111" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 75)">
+                <tspan>Saldo aus</tspan><tspan dy="15" x="21">Zusammen-</tspan><tspan dy="15" x="21">legungen/</tspan><tspan dy="15" x="21">Aufteilungen</tspan><title>Saldo aus Zusammen-legungen/ Aufteilungen</title>
             </text>
             <path fill="#923f8d" class="highcharts-point" d="M10 79h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 141)">
-                <tspan>Sonstige</tspan><tspan x="21" dy="15">Umnutzungen</tspan>
+            <text x="21" y="15" style="width:111" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 141)">
+                <tspan>Sonstige</tspan><tspan dy="15" x="21">Umnutzungen</tspan><title>Sonstige Umnutzungen</title>
             </text>
             <path fill="#73b97c" class="highcharts-point" d="M10 145h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 177)">
-                <tspan>Zweckentfrem-</tspan><tspan x="21" dy="15">dungen von</tspan><tspan x="21" dy="15">Wohnungen</tspan>
+            <text x="21" y="15" style="width:111" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 177)">
+                <tspan>Zweckentfrem-</tspan><tspan dy="15" x="21">dungen von</tspan><tspan dy="15" x="21">Wohnungen</tspan><title>Zweckentfrem-dungen von Wohnungen</title>
             </text>
             <path fill="#990300" class="highcharts-point" d="M10 181h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-5">
             <path fill="none" d="M8 239h16" class="highcharts-graph" stroke="#fabd24" stroke-width="2"/>
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 228)">
-                Umbausaldo
+            <text x="21" y="15" style="width:111" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 228)">
+                <tspan>Umbausaldo</tspan>
             </text>
         </g>
     </g>
