@@ -14,7 +14,7 @@ var chartOptions = {
         }        
   ],
   "xAxis": {
-      "type": "category"
+        "type": "category"
   },
   "legend": {
       "reversed": true

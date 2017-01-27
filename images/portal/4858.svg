@@ -37,23 +37,23 @@
             <path fill="#FF8028" class="highcharts-point" stroke="#fff" d="M13.5-.5h26v52h-26zm54 0h26v51h-26zm54 0h26v58h-26zm53 0h26v47h-26zm54 0h26v51h-26z"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>I.50.1.0020 Beurteilung der Chancengleichheit</tspan>
     </text>
-    <text x="10" class="highcharts-subtitle" style="width:421px" y="40" color="#000">
+    <text x="10" class="highcharts-subtitle" y="40" color="#000">
         <tspan>«Die Chancengleichheit wird von den Behörden zielstrebig vorangetrieben.»</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(334 122)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="141" height="151"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
-                <tspan>Überhaupt nicht</tspan><tspan x="21" dy="15">einverstanden</tspan>
+                <tspan>Überhaupt nicht</tspan><tspan dy="15" x="21">einverstanden</tspan><title>Überhaupt nicht einverstanden</title>
             </text>
             <path fill="#FF8028" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 37)">
-                <tspan>Eher nicht</tspan><tspan x="21" dy="15">einverstanden</tspan>
+                <tspan>Eher nicht</tspan><tspan dy="15" x="21">einverstanden</tspan><title>Eher nicht einverstanden</title>
             </text>
             <path fill="#FFBB58" class="highcharts-point" d="M10 41h12v12H10z"/>
         </g>
@@ -94,37 +94,37 @@
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="38" style="width:150px" y="355">
+        <text x="38" y="355">
             <tspan>0%</tspan>
         </text>
-        <text x="38" style="width:150px" y="325">
+        <text x="38" y="325">
             <tspan>10%</tspan>
         </text>
-        <text x="38" style="width:150px" y="296">
+        <text x="38" y="296">
             <tspan>20%</tspan>
         </text>
-        <text x="38" style="width:150px" y="266">
+        <text x="38" y="266">
             <tspan>30%</tspan>
         </text>
-        <text x="38" style="width:150px" y="237">
+        <text x="38" y="237">
             <tspan>40%</tspan>
         </text>
-        <text x="38" style="width:150px" y="207">
+        <text x="38" y="207">
             <tspan>50%</tspan>
         </text>
-        <text x="38" style="width:150px" y="178">
+        <text x="38" y="178">
             <tspan>60%</tspan>
         </text>
-        <text x="38" style="width:150px" y="148">
+        <text x="38" y="148">
             <tspan>70%</tspan>
         </text>
-        <text x="38" style="width:150px" y="119">
+        <text x="38" y="119">
             <tspan>80%</tspan>
         </text>
-        <text x="38" style="width:150px" y="89">
+        <text x="38" y="89">
             <tspan>90%</tspan>
         </text>
-        <text x="38" style="width:150px" y="60">
+        <text x="38" y="60">
             <tspan>100%</tspan>
         </text>
     </g>

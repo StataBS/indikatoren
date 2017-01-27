@@ -17,8 +17,13 @@ var chartOptions = {
         }        
   ],
   "xAxis": {
-      "type": "category"
+        "type": "category"
   },
+  "legend": {
+    "itemStyle": {
+        "width": 150
+    }
+  }
 };
 
  

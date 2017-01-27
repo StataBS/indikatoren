@@ -54,7 +54,7 @@
           61
         ]
       ],
-      "name": "1-Zimmer\u003Cbr\u002F\u003E(linke Skala)"
+      "name": "1-Zimmer (linke Skala)"
     },
     {
       "color": "#73b97c",
@@ -337,7 +337,7 @@
           0.416770398
         ]
       ],
-      "name": "LWQ alle\u003Cbr\u002F\u003EWohnungen\u003Cbr\u002F\u003E(rechte Skala)"
+      "name": "LWQ alle Wohnungen (rechte Skala)"
     },
     {
       "color": "#ffbb58",
@@ -398,7 +398,7 @@
           0.560455715
         ]
       ],
-      "name": "LWQ\u003Cbr\u002F\u003E1-Zimmer"
+      "name": "LWQ 1-Zimmer"
     },
     {
       "color": "#73b97c",
@@ -459,7 +459,7 @@
           0.424014266
         ]
       ],
-      "name": "LWQ\u003Cbr\u002F\u003E2-Zimmer"
+      "name": "LWQ 2-Zimmer"
     },
     {
       "color": "#007a2f",
@@ -520,7 +520,7 @@
           0.402618254
         ]
       ],
-      "name": "LWQ\u003Cbr\u002F\u003E3-Zimmer"
+      "name": "LWQ 3-Zimmer"
     },
     {
       "color": "#689199",
@@ -580,7 +580,7 @@
           0.405028668
         ]
       ],
-      "name": "LWQ\u003Cbr\u002F\u003E4-Zimmer"
+      "name": "LWQ 4-Zimmer"
     },
     {
       "color": "#923f8d",
@@ -641,7 +641,7 @@
           0.342732513
         ]
       ],
-      "name": "LWQ\u003Cbr\u002F\u003E5+-Zimmer"
+      "name": "LWQ 5+-Zimmer"
     }
   ],
   "chart": {
@@ -769,7 +769,8 @@
     "itemMarginBottom": 7,
     "align": "right",
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "width": 85
     }
   },
   "tooltip": {

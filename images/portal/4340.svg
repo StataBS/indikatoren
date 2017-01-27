@@ -40,7 +40,7 @@
             <path fill="#FF8028" class="highcharts-point" stroke="#fff" d="M244.5-.5h15v6h-15zm-48 0h15v8h-15zm-24 0h15v4h-15zm-24 0h15v3h-15zm-24 0h15v2h-15zm-24 0h15v2h-15zm-24 0h15v2h-15zm-24 0h15v5h-15zm-24 0h15v10h-15zm-24 0h15v7h-15z"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>I.01.1.0019 Anteil Ausländer nach Staatsangehörigkeit und Art</tspan><tspan dy="17" x="10">der Bewilligung 2015</tspan><title>I.01.1.0019 Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung 2015</title>
     </text>
     <g class="highcharts-legend" transform="translate(165 45)">
@@ -83,42 +83,42 @@
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="158" style="width:150px" y="102">
+        <text x="158" y="102">
             <tspan>Ausland</tspan>
         </text>
-        <text x="158" style="width:150px" y="150">
+        <text x="158" y="150">
             <tspan>Deutschland</tspan>
         </text>
-        <text x="158" style="width:150px" y="174">
+        <text x="158" y="174">
             <tspan>Italien</tspan>
         </text>
-        <text x="158" style="width:150px" y="198">
+        <text x="158" y="198">
             <tspan>Spanien</tspan>
         </text>
-        <text x="158" style="width:150px" y="222">
+        <text x="158" y="222">
             <tspan>Türkei</tspan>
         </text>
-        <text x="158" style="width:150px" y="246">
+        <text x="158" y="246">
             <tspan>Ehem. Jugoslawien ohne SLO</tspan>
         </text>
-        <text x="158" style="width:150px" y="270">
+        <text x="158" y="270">
             <tspan>Maghreb und Ägypten</tspan>
         </text>
-        <text x="158" style="width:150px" y="294">
+        <text x="158" y="294">
             <tspan>EU-Oststaaten</tspan>
         </text>
-        <text x="158" style="width:150px" y="318">
+        <text x="158" y="318">
             <tspan>Mittel- und Südamerika</tspan>
         </text>
-        <text x="158" style="width:150px" y="342">
+        <text x="158" y="342">
             <tspan>übriges Ausland</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="173" style="width:75.5" y="369" text-overflow="ellipsis">
+        <text x="173" y="369">
             <tspan>0%</tspan>
         </text>
-        <text x="460.953" style="width:37.75" y="369" text-overflow="ellipsis">
+        <text x="460.953" y="369">
             <tspan>100%</tspan>
         </text>
         <text x="248.5" y="369">

@@ -26,7 +26,7 @@
             <path fill="#008AC3" class="highcharts-point" stroke="#fff" d="M261.5 95.5h18v43h-18zm35-30h18v73h-18zm36 29h18v44h-18zm35-77h18v121h-18zm36 10h18v111h-18z"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>2.1.b Saldo des Steuerertrages zwischen Zu- und Wegzügern</tspan>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker">
@@ -76,25 +76,25 @@
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="26" style="width:150px" y="355">
+        <text x="26" y="355">
             <tspan>-15</tspan>
         </text>
-        <text x="26" style="width:150px" y="309">
+        <text x="26" y="309">
             <tspan>-10</tspan>
         </text>
-        <text x="26" style="width:150px" y="263">
+        <text x="26" y="263">
             <tspan>-5</tspan>
         </text>
-        <text x="26" style="width:150px" y="217">
+        <text x="26" y="217">
             <tspan>0</tspan>
         </text>
-        <text x="26" style="width:150px" y="171">
+        <text x="26" y="171">
             <tspan>5</tspan>
         </text>
-        <text x="26" style="width:150px" y="125">
+        <text x="26" y="125">
             <tspan>10</tspan>
         </text>
-        <text x="26" style="width:150px" y="80">
+        <text x="26" y="80">
             <tspan>15</tspan>
         </text>
     </g>

@@ -5,15 +5,15 @@
       "index": 2,
       "data": [
         [
-          "2011\u003Cbr\u002F\u003E(N=1689)",
+          "2011 (N=1689)",
           173
         ],
         [
-          "2015\u003Cbr\u002F\u003E(N=1427)",
+          "2015 (N=1427)",
           130
         ]
       ],
-      "name": "Weiss nicht \u002F\u003Cbr\u002F\u003Ekeine Angabe",
+      "name": "Weiss nicht \u002F keine Angabe",
       "turboThreshold": 0
     },
     {
@@ -21,11 +21,11 @@
       "index": 0,
       "data": [
         [
-          "2011\u003Cbr\u002F\u003E(N=1689)",
+          "2011 (N=1689)",
           33
         ],
         [
-          "2015\u003Cbr\u002F\u003E(N=1427)",
+          "2015 (N=1427)",
           49
         ]
       ],
@@ -37,11 +37,11 @@
       "index": 1,
       "data": [
         [
-          "2011\u003Cbr\u002F\u003E(N=1689)",
+          "2011 (N=1689)",
           335
         ],
         [
-          "2015\u003Cbr\u002F\u003E(N=1427)",
+          "2015 (N=1427)",
           283
         ]
       ],
@@ -53,11 +53,11 @@
       "index": 3,
       "data": [
         [
-          "2011\u003Cbr\u002F\u003E(N=1689)",
+          "2011 (N=1689)",
           731
         ],
         [
-          "2015\u003Cbr\u002F\u003E(N=1427)",
+          "2015 (N=1427)",
           658
         ]
       ],
@@ -69,11 +69,11 @@
       "index": 4,
       "data": [
         [
-          "2011\u003Cbr\u002F\u003E(N=1689)",
+          "2011 (N=1689)",
           417
         ],
         [
-          "2015\u003Cbr\u002F\u003E(N=1427)",
+          "2015 (N=1427)",
           307
         ]
       ],
@@ -93,8 +93,13 @@
     "labels": {
       "rotation": 0,
       "style": {
-        "color": "#000000"
-      }
+        "color": "#000000",
+        "width": 1,
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+            	return this.value.replace(" ", "<br/>");
+            }
     }
   },
   "chart": {
@@ -200,7 +205,10 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        }
   },
   "exporting": {
     "filename": "I.50.4.0001"
