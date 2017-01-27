@@ -37,10 +37,10 @@
             <path fill="#007a2f" class="highcharts-point" stroke="#fff" d="M14.5 257.5h28v38h-28zm56 3h28v35h-28zm56 1h28v34h-28zm57-21h28v55h-28zm56 23h28v32h-28z"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>0.1.a Zufriedenheit mit dem Wohnungsangebot</tspan>
     </text>
-    <text x="10" class="highcharts-subtitle" style="width:421px" y="40" color="#000">
+    <text x="10" class="highcharts-subtitle" y="40" color="#000">
         <tspan>«Wie zufrieden sind sie mit dem Wohnungsangebot?»</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(347 137)">
@@ -77,54 +77,54 @@
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="81.2" style="width:56.4" y="369" text-overflow="none">
+        <text x="81.2" y="369">
             <tspan>2003</tspan><tspan x="81.2" dy="14">(N=1452)</tspan>
         </text>
-        <text x="137.6" style="width:56.4" y="369" text-overflow="none">
+        <text x="137.6" y="369">
             <tspan>2005</tspan><tspan x="137.6" dy="14">(N=1479)</tspan>
         </text>
-        <text x="194" style="width:56.4" y="369" text-overflow="none">
+        <text x="194" y="369">
             <tspan>2007</tspan><tspan x="194" dy="14">(N=1474)</tspan>
         </text>
-        <text x="250.4" style="width:56.4" y="369" text-overflow="none">
+        <text x="250.4" y="369">
             <tspan>2011</tspan><tspan x="250.4" dy="14">(N=1492)</tspan>
         </text>
-        <text x="306.8" style="width:56.4" y="369" text-overflow="none">
+        <text x="306.8" y="369">
             <tspan>2015</tspan><tspan x="306.8" dy="14">(N=1386)</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="38" style="width:150px" y="355">
+        <text x="38" y="355">
             <tspan>0%</tspan>
         </text>
-        <text x="38" style="width:150px" y="325">
+        <text x="38" y="325">
             <tspan>10%</tspan>
         </text>
-        <text x="38" style="width:150px" y="296">
+        <text x="38" y="296">
             <tspan>20%</tspan>
         </text>
-        <text x="38" style="width:150px" y="266">
+        <text x="38" y="266">
             <tspan>30%</tspan>
         </text>
-        <text x="38" style="width:150px" y="237">
+        <text x="38" y="237">
             <tspan>40%</tspan>
         </text>
-        <text x="38" style="width:150px" y="207">
+        <text x="38" y="207">
             <tspan>50%</tspan>
         </text>
-        <text x="38" style="width:150px" y="178">
+        <text x="38" y="178">
             <tspan>60%</tspan>
         </text>
-        <text x="38" style="width:150px" y="148">
+        <text x="38" y="148">
             <tspan>70%</tspan>
         </text>
-        <text x="38" style="width:150px" y="119">
+        <text x="38" y="119">
             <tspan>80%</tspan>
         </text>
-        <text x="38" style="width:150px" y="89">
+        <text x="38" y="89">
             <tspan>90%</tspan>
         </text>
-        <text x="38" style="width:150px" y="60">
+        <text x="38" y="60">
             <tspan>100%</tspan>
         </text>
     </g>

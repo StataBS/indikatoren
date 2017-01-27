@@ -38,10 +38,10 @@
             <path fill="none" d="M9.95 128.518h10l39.9-94.013 39.9 28.347 39.9 67.675 39.9 32.26 39.9 5.79 39.9-1.367 39.9-13.987 39.9 7.633 39.9-15.76h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#9F7C5A" d="M428 241c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-40 16c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-40-8c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-40 14c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-40 2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-40-6c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-40-32c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-40-68c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-40-28c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-40 94c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
+            <path fill="#9F7C5A" d="M72 229a4 4 0 1 1 0-.004zm40-94a4 4 0 1 1 0-.004zm40 28a4 4 0 1 1 0-.004zm40 68a4 4 0 1 1 0-.004zm40 32a4 4 0 1 1 0-.004zm40 6a4 4 0 1 1 0-.004zm40-2a4 4 0 1 1 0-.004zm40-14a4 4 0 1 1 0-.004zm40 8a4 4 0 1 1 0-.004zm40-16a4 4 0 1 1 0-.004z" class="highcharts-point"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>2.1.03 Anzahl eingebürgerte Ausländer und</tspan><tspan dy="17" x="10">Einbürgerungsziffer</tspan><title>2.1.03 Anzahl eingebürgerte Ausländer und Einbürgerungsziffer</title>
     </text>
     <g class="highcharts-legend" transform="translate(53 45)">
@@ -60,7 +60,7 @@
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2">
             <path fill="none" d="M8 33h16" class="highcharts-graph" stroke="#9F7C5A" stroke-width="2"/>
-            <path fill="#9F7C5A" d="M16 29c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
+            <path fill="#9F7C5A" d="M20 33a4 4 0 1 1 0-.004z" class="highcharts-point"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
                 Einbürgerungsziffer
             </text>
@@ -99,36 +99,36 @@
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="34" style="width:150px" y="355">
+        <text x="34" y="355">
             <tspan>0</tspan>
         </text>
-        <text x="34" style="width:150px" y="292">
+        <text x="34" y="292">
             <tspan>600</tspan>
         </text>
-        <text x="34" style="width:150px" y="230">
+        <text x="34" y="230">
             <tspan>1200</tspan>
         </text>
-        <text x="34" style="width:150px" y="167">
+        <text x="34" y="167">
             <tspan>1800</tspan>
         </text>
-        <text x="34" style="width:150px" y="105">
+        <text x="34" y="105">
             <tspan>2400</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" color="#000" cursor="default" font-size="11">
-        <text x="463" style="width:150px" y="355">
+        <text x="463" y="355">
             <tspan>0</tspan>
         </text>
-        <text x="463" style="width:150px" y="292">
+        <text x="463" y="292">
             <tspan>10</tspan>
         </text>
-        <text x="463" style="width:150px" y="230">
+        <text x="463" y="230">
             <tspan>20</tspan>
         </text>
-        <text x="463" style="width:150px" y="167">
+        <text x="463" y="167">
             <tspan>30</tspan>
         </text>
-        <text x="463" style="width:150px" y="105">
+        <text x="463" y="105">
             <tspan>40</tspan>
         </text>
     </g>

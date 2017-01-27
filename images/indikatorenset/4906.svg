@@ -25,17 +25,17 @@
             <path fill="none" d="M-5.98 59.345h10l80.392 4.222 80.392-1.377 80.392-10.526 80.392-.105 80.392 1.41h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#008AC3" d="M470 90c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-80-1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-80 0c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-81 10c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-80 2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-80-5c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
+            <path fill="#008AC3" d="M73 100a4 4 0 1 1 0-.004zm80 5a4 4 0 1 1 0-.004zm80-2a4 4 0 1 1 0-.004zm81-10a4 4 0 1 1 0-.004zm80 0a4 4 0 1 1 0-.004zm80 1a4 4 0 1 1 0-.004z" class="highcharts-point"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(65 41)" clip-path="url(#a)">
             <path fill="none" d="M4.02 188.214l80.392 3.5 80.392-2.54 80.392-1.519 80.392.19 80.392-.704" class="highcharts-graph" stroke="#B00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
             <path fill="none" d="M-5.98 188.214h10l80.392 3.5 80.392-2.54 80.392-1.519 80.392.19 80.392-.704h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#B00000" d="M470 224c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-80 1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-80 0c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-81 1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-80 3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-80-4c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
+            <path fill="#B00000" d="M73 229a4 4 0 1 1 0-.004zm80 4a4 4 0 1 1 0-.004zm80-3a4 4 0 1 1 0-.004zm81-1a4 4 0 1 1 0-.004zm80 0a4 4 0 1 1 0-.004zm80-1a4 4 0 1 1 0-.004z" class="highcharts-point"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>Bruttoinlandprodukt pro Kopf in Franken</tspan>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
@@ -49,39 +49,39 @@
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="69.02" style="width:72px" y="368">
+        <text x="69.02" y="368">
             <tspan>2008</tspan>
         </text>
-        <text x="149.412" style="width:72px" y="368">
+        <text x="149.412" y="368">
             <tspan>2009</tspan>
         </text>
-        <text x="229.804" style="width:72px" y="368">
+        <text x="229.804" y="368">
             <tspan>2010</tspan>
         </text>
-        <text x="310.196" style="width:72px" y="368">
+        <text x="310.196" y="368">
             <tspan>2011</tspan>
         </text>
-        <text x="390.588" style="width:72px" y="368">
+        <text x="390.588" y="368">
             <tspan>2012</tspan>
         </text>
-        <text x="462.781" style="width:72px" y="368">
+        <text x="462.781" y="368">
             <tspan>2013</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="50" style="width:150px" y="354">
+        <text x="50" y="354">
             <tspan>0</tspan>
         </text>
-        <text x="50" style="width:150px" y="277">
+        <text x="50" y="277">
             <tspan>50 000</tspan>
         </text>
-        <text x="50" style="width:150px" y="200">
+        <text x="50" y="200">
             <tspan>100 000</tspan>
         </text>
-        <text x="50" style="width:150px" y="123">
+        <text x="50" y="123">
             <tspan>150 000</tspan>
         </text>
-        <text x="50" style="width:150px" y="46">
+        <text x="50" y="46">
             <tspan>200 000</tspan>
         </text>
     </g>

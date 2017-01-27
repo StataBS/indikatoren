@@ -25,10 +25,10 @@
             <path fill="none" d="M7.955 280.3h10l35.909 4.536 35.909 5.64 35.909-.486 35.909-41.649 35.909-36.269 35.91-35.096 35.908-28.55 35.91-89.482 35.908-25.5 35.91-18.833h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#923f8d" d="M457 52c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 18c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 26c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 89c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 29c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 35c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 36c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 42c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 0c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36-5c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36-5c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
+            <path fill="#923f8d" d="M101 321a4 4 0 1 1 0-.004zm36 5a4 4 0 1 1 0-.004zm36 5a4 4 0 1 1 0-.004zm36 0a4 4 0 1 1 0-.004zm36-42a4 4 0 1 1 0-.004zm36-36a4 4 0 1 1 0-.004zm36-35a4 4 0 1 1 0-.004zm36-29a4 4 0 1 1 0-.004zm36-89a4 4 0 1 1 0-.004zm36-26a4 4 0 1 1 0-.004zm36-18a4 4 0 1 1 0-.004z" class="highcharts-point"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>4.1.b Ausbezahlte Familienmietzinsbeiträge</tspan>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
@@ -75,22 +75,22 @@
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="65" style="width:150px" y="354">
+        <text x="65" y="354">
             <tspan>0</tspan>
         </text>
-        <text x="65" style="width:150px" y="292">
+        <text x="65" y="292">
             <tspan>2 000 000</tspan>
         </text>
-        <text x="65" style="width:150px" y="230">
+        <text x="65" y="230">
             <tspan>4 000 000</tspan>
         </text>
-        <text x="65" style="width:150px" y="169">
+        <text x="65" y="169">
             <tspan>6 000 000</tspan>
         </text>
-        <text x="65" style="width:150px" y="107">
+        <text x="65" y="107">
             <tspan>8 000 000</tspan>
         </text>
-        <text x="65" style="width:150px" y="45">
+        <text x="65" y="45">
             <tspan>10 000 000</tspan>
         </text>
     </g>
