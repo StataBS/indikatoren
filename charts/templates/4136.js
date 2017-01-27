@@ -25,7 +25,8 @@ var chartOptions = {
     "itemMarginBottom": 7,
     "align": "right",
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "width": 111
     }
   },
   "series": [

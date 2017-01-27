@@ -32,8 +32,8 @@ var chartOptions = {
         }        
   ],
   "xAxis": {
-      "type": "category"
-  },
+        "type": "category"
+    }
 };
 
  

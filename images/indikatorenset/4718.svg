@@ -86,22 +86,22 @@
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="149" style="width:150px" y="177">
+        <text x="149" style="width:150px" y="177" text-overflow="none">
             <tspan>Arbeitskollegen 2015</tspan>
         </text>
-        <text x="149" style="width:150px" y="203">
+        <text x="149" style="width:150px" y="203" text-overflow="none">
             <tspan>Arbeitskollegen 2011</tspan>
         </text>
-        <text x="149" style="width:150px" y="254">
+        <text x="149" style="width:150px" y="254" text-overflow="none">
             <tspan>Nachbarn 2015</tspan>
         </text>
-        <text x="149" style="width:150px" y="279">
+        <text x="149" style="width:150px" y="279" text-overflow="none">
             <tspan>Nachbarn 2011</tspan>
         </text>
-        <text x="149" style="width:150px" y="330">
+        <text x="149" style="width:150px" y="330" text-overflow="none">
             <tspan>Freunde und Bekannte 2015</tspan>
         </text>
-        <text x="149" style="width:150px" y="356">
+        <text x="149" style="width:150px" y="356" text-overflow="none">
             <tspan>Freunde und Bekannte 2011</tspan>
         </text>
     </g>

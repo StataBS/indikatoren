@@ -77,19 +77,19 @@
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="81.2" y="369">
+        <text x="81.2" style="width:56.4" y="369" text-overflow="none">
             <tspan>2003</tspan><tspan x="81.2" dy="14">(N=347)</tspan>
         </text>
-        <text x="137.6" y="369">
+        <text x="137.6" style="width:56.4" y="369" text-overflow="none">
             <tspan>2005</tspan><tspan x="137.6" dy="14">(N=366)</tspan>
         </text>
-        <text x="194" y="369">
+        <text x="194" style="width:56.4" y="369" text-overflow="none">
             <tspan>2007</tspan><tspan x="194" dy="14">(N=280)</tspan>
         </text>
-        <text x="250.4" y="369">
+        <text x="250.4" style="width:56.4" y="369" text-overflow="none">
             <tspan>2011</tspan><tspan x="250.4" dy="14">(N=331)</tspan>
         </text>
-        <text x="306.8" y="369">
+        <text x="306.8" style="width:56.4" y="369" text-overflow="none">
             <tspan>2015</tspan><tspan x="306.8" dy="14">(N=237)</tspan>
         </text>
     </g>
