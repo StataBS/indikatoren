@@ -25,7 +25,7 @@
             <path fill="#933F8D" class="highcharts-point" stroke="#fff" d="M19.5 120.5h30v155h-30zm62-34h30v189h-30zm63 34h30v155h-30zm62 4h30v151h-30zm62-69h30v220h-30zm63 10h30v210h-30zm62-17h30v227h-30z"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>3.2.02 Anzahl Anzeigen wegen Veruntreuung und Betrug pro</tspan><tspan dy="17" x="10">1000 Einwohner im Alter von 18 und mehr Jahren</tspan><title>3.2.02 Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren</title>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker">
@@ -60,19 +60,19 @@
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="16" style="width:150px" y="355">
+        <text x="16" y="355">
             <tspan>0</tspan>
         </text>
-        <text x="16" style="width:150px" y="286">
+        <text x="16" y="286">
             <tspan>2</tspan>
         </text>
-        <text x="16" style="width:150px" y="217">
+        <text x="16" y="217">
             <tspan>4</tspan>
         </text>
-        <text x="16" style="width:150px" y="148">
+        <text x="16" y="148">
             <tspan>6</tspan>
         </text>
-        <text x="16" style="width:150px" y="80">
+        <text x="16" y="80">
             <tspan>8</tspan>
         </text>
     </g>

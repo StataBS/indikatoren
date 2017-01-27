@@ -40,7 +40,7 @@
             <path fill="#DC440E" class="highcharts-point" stroke="#fff" d="M6.5 240.5h13v25h-13zm25 0h13v25h-13zm26 0h13v25h-13zm26 1h13v24h-13zm26 0h13v24h-13zm25 0h13v24h-13zm26 0h13v24h-13zm26 0h13v24h-13zm26 2h13v22h-13zm25-1h13v23h-13zm26 0h13v23h-13z"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>I.09.1.0003 Wohnungsbestand nach Zimmerzahl</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(360 135)">
@@ -83,57 +83,57 @@
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="80.456" style="width:415px" transform="rotate(-45 80.456 356)" y="356" text-overflow="ellipsis">
+        <text x="80.456" transform="rotate(-45 80.456 356)" y="356">
             <tspan>2005</tspan>
         </text>
-        <text x="106.184" style="width:415px" transform="rotate(-45 106.184 356)" y="356" text-overflow="ellipsis">
+        <text x="106.184" transform="rotate(-45 106.184 356)" y="356">
             <tspan>2006</tspan>
         </text>
-        <text x="131.911" style="width:415px" transform="rotate(-45 131.91 356)" y="356" text-overflow="ellipsis">
+        <text x="131.911" transform="rotate(-45 131.91 356)" y="356">
             <tspan>2007</tspan>
         </text>
-        <text x="157.638" style="width:415px" transform="rotate(-45 157.638 356)" y="356" text-overflow="ellipsis">
+        <text x="157.638" transform="rotate(-45 157.638 356)" y="356">
             <tspan>2008</tspan>
         </text>
-        <text x="183.365" style="width:415px" transform="rotate(-45 183.365 356)" y="356" text-overflow="ellipsis">
+        <text x="183.365" transform="rotate(-45 183.365 356)" y="356">
             <tspan>2009</tspan>
         </text>
-        <text x="209.093" style="width:415px" transform="rotate(-45 209.093 356)" y="356" text-overflow="ellipsis">
+        <text x="209.093" transform="rotate(-45 209.093 356)" y="356">
             <tspan>2010</tspan>
         </text>
-        <text x="234.82" style="width:415px" transform="rotate(-45 234.82 356)" y="356" text-overflow="ellipsis">
+        <text x="234.82" transform="rotate(-45 234.82 356)" y="356">
             <tspan>2011</tspan>
         </text>
-        <text x="260.547" style="width:415px" transform="rotate(-45 260.547 356)" y="356" text-overflow="ellipsis">
+        <text x="260.547" transform="rotate(-45 260.547 356)" y="356">
             <tspan>2012</tspan>
         </text>
-        <text x="286.275" style="width:415px" transform="rotate(-45 286.275 356)" y="356" text-overflow="ellipsis">
+        <text x="286.275" transform="rotate(-45 286.275 356)" y="356">
             <tspan>2013</tspan>
         </text>
-        <text x="312.002" style="width:415px" transform="rotate(-45 312.002 356)" y="356" text-overflow="ellipsis">
+        <text x="312.002" transform="rotate(-45 312.002 356)" y="356">
             <tspan>2014</tspan>
         </text>
-        <text x="337.729" style="width:415px" transform="rotate(-45 337.73 356)" y="356" text-overflow="ellipsis">
+        <text x="337.729" transform="rotate(-45 337.73 356)" y="356">
             <tspan>2015</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="50" style="width:150px" y="345">
+        <text x="50" y="345">
             <tspan>0</tspan>
         </text>
-        <text x="50" style="width:150px" y="292">
+        <text x="50" y="292">
             <tspan>25 000</tspan>
         </text>
-        <text x="50" style="width:150px" y="239">
+        <text x="50" y="239">
             <tspan>50 000</tspan>
         </text>
-        <text x="50" style="width:150px" y="186">
+        <text x="50" y="186">
             <tspan>75 000</tspan>
         </text>
-        <text x="50" style="width:150px" y="133">
+        <text x="50" y="133">
             <tspan>100 000</tspan>
         </text>
-        <text x="50" style="width:150px" y="80">
+        <text x="50" y="80">
             <tspan>125 000</tspan>
         </text>
     </g>
