@@ -1176,7 +1176,7 @@
 
     this.show(this.last_result);
     this.renderPagination(this.last_result.length);
-    this.execCallback('afterFilter', this.last_result, JsonQuery.blankClone(this.Model, this.last_result));
+    this.execCallback('afterFilter', this.last_result, JsonQuery.blankClone(this.Model, this.last_result), this.last_Query);
 
     return query;
   };
