@@ -35,10 +35,10 @@
             <path fill="none" d="M19.101 172.05h61.966l51.967-4.65h103.932l51.967 4.65 51.966-9.3h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#cd9c00" d="M414 244c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-52 9c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-52-5c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-51 0c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-52 0c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-52 5c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-52 0c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
+            <path fill="#cd9c00" d="M107 257a4 4 0 1 1 0-.004zm52 0a4 4 0 1 1 0-.004zm52-5a4 4 0 1 1 0-.004zm52 0a4 4 0 1 1 0-.004zm51 0a4 4 0 1 1 0-.004zm52 5a4 4 0 1 1 0-.004zm52-9a4 4 0 1 1 0-.004z" class="highcharts-point"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>I.02.1.0015 Freiraumfläche und ihr Anteil an der Gesamtfläche</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 45)">
@@ -51,7 +51,7 @@
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
             <path fill="none" d="M133.578 14h16" class="highcharts-graph" stroke="#cd9c00" stroke-width="2"/>
-            <path fill="#cd9c00" d="M141.578 10c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
+            <path fill="#cd9c00" d="M145.578 14a4 4 0 1 1 0-.004z" class="highcharts-point"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(133.578 3)">
                 <tspan>in Prozent</tspan>
             </text>
@@ -81,36 +81,36 @@
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="59" style="width:150px" y="369">
+        <text x="59" y="369">
             <tspan>0</tspan>
         </text>
-        <text x="59" style="width:150px" y="299">
+        <text x="59" y="299">
             <tspan>250 000</tspan>
         </text>
-        <text x="59" style="width:150px" y="229">
+        <text x="59" y="229">
             <tspan>500 000</tspan>
         </text>
-        <text x="59" style="width:150px" y="159">
+        <text x="59" y="159">
             <tspan>750 000</tspan>
         </text>
-        <text x="59" style="width:150px" y="90">
+        <text x="59" y="90">
             <tspan>1 000 000</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" color="#000" cursor="default" font-size="11">
-        <text x="459" style="width:150px" y="369">
+        <text x="459" y="369">
             <tspan>0%</tspan>
         </text>
-        <text x="459" style="width:150px" y="299">
+        <text x="459" y="299">
             <tspan>2%</tspan>
         </text>
-        <text x="459" style="width:150px" y="229">
+        <text x="459" y="229">
             <tspan>3%</tspan>
         </text>
-        <text x="459" style="width:150px" y="159">
+        <text x="459" y="159">
             <tspan>5%</tspan>
         </text>
-        <text x="459" style="width:150px" y="90">
+        <text x="459" y="90">
             <tspan>6%</tspan>
         </text>
     </g>

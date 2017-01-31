@@ -37,10 +37,10 @@
             <path fill="#007a2f" class="highcharts-point" stroke="#fff" d="M14.5 252.5h28v26h-28zm56-1h28v27h-28zm56 0h28v27h-28zm57-22h28v49h-28zm56 22h28v27h-28z"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>I.50.1.0006 Zufriedenheit mit dem Wohnungsangebot – nur</tspan><tspan dy="17" x="10">Familien</tspan><title>I.50.1.0006 Zufriedenheit mit dem Wohnungsangebot – nur Familien</title>
     </text>
-    <text x="10" class="highcharts-subtitle" style="width:421px" y="57" color="#000">
+    <text x="10" class="highcharts-subtitle" y="57" color="#000">
         <tspan>«Wie zufrieden sind sie mit dem Wohnungsangebot?»</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(347 137)">
@@ -77,54 +77,54 @@
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="81.2" style="width:56.4" y="369" text-overflow="none">
+        <text x="81.2" y="369">
             <tspan>2003</tspan><tspan x="81.2" dy="14">(N=347)</tspan>
         </text>
-        <text x="137.6" style="width:56.4" y="369" text-overflow="none">
+        <text x="137.6" y="369">
             <tspan>2005</tspan><tspan x="137.6" dy="14">(N=366)</tspan>
         </text>
-        <text x="194" style="width:56.4" y="369" text-overflow="none">
+        <text x="194" y="369">
             <tspan>2007</tspan><tspan x="194" dy="14">(N=280)</tspan>
         </text>
-        <text x="250.4" style="width:56.4" y="369" text-overflow="none">
+        <text x="250.4" y="369">
             <tspan>2011</tspan><tspan x="250.4" dy="14">(N=331)</tspan>
         </text>
-        <text x="306.8" style="width:56.4" y="369" text-overflow="none">
+        <text x="306.8" y="369">
             <tspan>2015</tspan><tspan x="306.8" dy="14">(N=237)</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="38" style="width:150px" y="355">
+        <text x="38" y="355">
             <tspan>0%</tspan>
         </text>
-        <text x="38" style="width:150px" y="327">
+        <text x="38" y="327">
             <tspan>10%</tspan>
         </text>
-        <text x="38" style="width:150px" y="299">
+        <text x="38" y="299">
             <tspan>20%</tspan>
         </text>
-        <text x="38" style="width:150px" y="271">
+        <text x="38" y="271">
             <tspan>30%</tspan>
         </text>
-        <text x="38" style="width:150px" y="243">
+        <text x="38" y="243">
             <tspan>40%</tspan>
         </text>
-        <text x="38" style="width:150px" y="216">
+        <text x="38" y="216">
             <tspan>50%</tspan>
         </text>
-        <text x="38" style="width:150px" y="188">
+        <text x="38" y="188">
             <tspan>60%</tspan>
         </text>
-        <text x="38" style="width:150px" y="160">
+        <text x="38" y="160">
             <tspan>70%</tspan>
         </text>
-        <text x="38" style="width:150px" y="132">
+        <text x="38" y="132">
             <tspan>80%</tspan>
         </text>
-        <text x="38" style="width:150px" y="104">
+        <text x="38" y="104">
             <tspan>90%</tspan>
         </text>
-        <text x="38" style="width:150px" y="77">
+        <text x="38" y="77">
             <tspan>100%</tspan>
         </text>
     </g>

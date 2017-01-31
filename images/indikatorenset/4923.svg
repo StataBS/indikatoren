@@ -25,10 +25,10 @@
             <path fill="none" d="M3.5 91.494h10l27 17.342 27-43.056 27 3.588 27-13.754 27 34.684 27 25.714 27 22.724 27-25.116 27-38.272 27-20.93 27-32.89 27 1.196 27 30.498 27 36.478 27 8.97h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#B375AB" d="M461 136c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-27-9c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-27-37c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-27-30c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-27-1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-27 32c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-27 21c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-27 39c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-27 25c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-27-23c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-27-26c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-27-34c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-27 13c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-27-3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-27 43c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-27-18c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
+            <path fill="#B375AB" d="M60 132a4 4 0 1 1 0-.004zm27 18a4 4 0 1 1 0-.004zm27-43a4 4 0 1 1 0-.004zm27 3a4 4 0 1 1 0-.004zm27-13a4 4 0 1 1 0-.004zm27 34a4 4 0 1 1 0-.004zm27 26a4 4 0 1 1 0-.004zm27 23a4 4 0 1 1 0-.004zm27-25a4 4 0 1 1 0-.004zm27-39a4 4 0 1 1 0-.004zm27-21a4 4 0 1 1 0-.004zm27-32a4 4 0 1 1 0-.004zm27 1a4 4 0 1 1 0-.004zm27 30a4 4 0 1 1 0-.004zm27 37a4 4 0 1 1 0-.004zm27 9a4 4 0 1 1 0-.004z" class="highcharts-point"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>Anzahl Gewaltstraftaten pro 100000 Einwohner</tspan>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
@@ -40,87 +40,87 @@
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="59.093" style="width:415px" transform="rotate(-45 59.093 356)" y="356" text-overflow="ellipsis">
+        <text x="59.093" transform="rotate(-45 59.093 356)" y="356">
             <tspan>2000</tspan>
         </text>
-        <text x="86.093" style="width:415px" transform="rotate(-45 86.093 356)" y="356" text-overflow="ellipsis">
+        <text x="86.093" transform="rotate(-45 86.093 356)" y="356">
             <tspan>2001</tspan>
         </text>
-        <text x="113.093" style="width:415px" transform="rotate(-45 113.093 356)" y="356" text-overflow="ellipsis">
+        <text x="113.093" transform="rotate(-45 113.093 356)" y="356">
             <tspan>2002</tspan>
         </text>
-        <text x="140.093" style="width:415px" transform="rotate(-45 140.093 356)" y="356" text-overflow="ellipsis">
+        <text x="140.093" transform="rotate(-45 140.093 356)" y="356">
             <tspan>2003</tspan>
         </text>
-        <text x="167.093" style="width:415px" transform="rotate(-45 167.093 356)" y="356" text-overflow="ellipsis">
+        <text x="167.093" transform="rotate(-45 167.093 356)" y="356">
             <tspan>2004</tspan>
         </text>
-        <text x="194.093" style="width:415px" transform="rotate(-45 194.093 356)" y="356" text-overflow="ellipsis">
+        <text x="194.093" transform="rotate(-45 194.093 356)" y="356">
             <tspan>2005</tspan>
         </text>
-        <text x="221.093" style="width:415px" transform="rotate(-45 221.093 356)" y="356" text-overflow="ellipsis">
+        <text x="221.093" transform="rotate(-45 221.093 356)" y="356">
             <tspan>2006</tspan>
         </text>
-        <text x="248.093" style="width:415px" transform="rotate(-45 248.093 356)" y="356" text-overflow="ellipsis">
+        <text x="248.093" transform="rotate(-45 248.093 356)" y="356">
             <tspan>2007</tspan>
         </text>
-        <text x="275.093" style="width:415px" transform="rotate(-45 275.093 356)" y="356" text-overflow="ellipsis">
+        <text x="275.093" transform="rotate(-45 275.093 356)" y="356">
             <tspan>2008</tspan>
         </text>
-        <text x="302.093" style="width:415px" transform="rotate(-45 302.093 356)" y="356" text-overflow="ellipsis">
+        <text x="302.093" transform="rotate(-45 302.093 356)" y="356">
             <tspan>2009</tspan>
         </text>
-        <text x="329.093" style="width:415px" transform="rotate(-45 329.093 356)" y="356" text-overflow="ellipsis">
+        <text x="329.093" transform="rotate(-45 329.093 356)" y="356">
             <tspan>2010</tspan>
         </text>
-        <text x="356.093" style="width:415px" transform="rotate(-45 356.093 356)" y="356" text-overflow="ellipsis">
+        <text x="356.093" transform="rotate(-45 356.093 356)" y="356">
             <tspan>2011</tspan>
         </text>
-        <text x="383.093" style="width:415px" transform="rotate(-45 383.093 356)" y="356" text-overflow="ellipsis">
+        <text x="383.093" transform="rotate(-45 383.093 356)" y="356">
             <tspan>2012</tspan>
         </text>
-        <text x="410.093" style="width:415px" transform="rotate(-45 410.093 356)" y="356" text-overflow="ellipsis">
+        <text x="410.093" transform="rotate(-45 410.093 356)" y="356">
             <tspan>2013</tspan>
         </text>
-        <text x="437.093" style="width:415px" transform="rotate(-45 437.093 356)" y="356" text-overflow="ellipsis">
+        <text x="437.093" transform="rotate(-45 437.093 356)" y="356">
             <tspan>2014</tspan>
         </text>
-        <text x="464.093" style="width:415px" transform="rotate(-45 464.093 356)" y="356" text-overflow="ellipsis">
+        <text x="464.093" transform="rotate(-45 464.093 356)" y="356">
             <tspan>2015</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="28" style="width:150px" y="345">
+        <text x="28" y="345">
             <tspan>0</tspan>
         </text>
-        <text x="28" style="width:150px" y="315">
+        <text x="28" y="315">
             <tspan>50</tspan>
         </text>
-        <text x="28" style="width:150px" y="285">
+        <text x="28" y="285">
             <tspan>100</tspan>
         </text>
-        <text x="28" style="width:150px" y="255">
+        <text x="28" y="255">
             <tspan>150</tspan>
         </text>
-        <text x="28" style="width:150px" y="225">
+        <text x="28" y="225">
             <tspan>200</tspan>
         </text>
-        <text x="28" style="width:150px" y="195">
+        <text x="28" y="195">
             <tspan>250</tspan>
         </text>
-        <text x="28" style="width:150px" y="165">
+        <text x="28" y="165">
             <tspan>300</tspan>
         </text>
-        <text x="28" style="width:150px" y="135">
+        <text x="28" y="135">
             <tspan>350</tspan>
         </text>
-        <text x="28" style="width:150px" y="105">
+        <text x="28" y="105">
             <tspan>400</tspan>
         </text>
-        <text x="28" style="width:150px" y="75">
+        <text x="28" y="75">
             <tspan>450</tspan>
         </text>
-        <text x="28" style="width:150px" y="46">
+        <text x="28" y="46">
             <tspan>500</tspan>
         </text>
     </g>

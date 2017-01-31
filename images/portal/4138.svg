@@ -55,153 +55,153 @@
             <path fill="none" d="M2.979 212.21h10l21.276 9.925 21.277-12.781 21.277 14.59 21.276 25.991 21.277 15.032 21.276-11.482 21.277 13.337 21.276 10.837 21.277-4.205 21.277-8.366 21.276-3.79h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>I.09.4.0004 Anzahl Leerwohnungen und Leerwohnungsquote</tspan><tspan dy="17" x="10">nach Zimmerzahl</tspan><title>I.09.4.0004 Anzahl Leerwohnungen und Leerwohnungsquote nach Zimmerzahl</title>
     </text>
     <g class="highcharts-legend" transform="translate(355 48)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="120" height="302"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0 highcharts-legend-item-hidden">
-            <text x="21" style="width:85" y="15" color="#ccc" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(8 3)">
+            <text x="21" y="15" color="#ccc" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(8 3)">
                 <tspan>1-Zimmer (linke</tspan><tspan dy="15" x="21">Skala)</tspan><title>1-Zimmer (linke Skala)</title>
             </text>
             <path fill="#ccc" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1 highcharts-legend-item-hidden">
-            <text x="21" y="15" style="width:85" color="#ccc" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(8 39)">
+            <text x="21" y="15" color="#ccc" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(8 39)">
                 <tspan>2-Zimmer</tspan>
             </text>
             <path fill="#ccc" class="highcharts-point" d="M10 43h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2 highcharts-legend-item-hidden">
-            <text x="21" y="15" style="width:85" color="#ccc" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(8 60)">
+            <text x="21" y="15" color="#ccc" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(8 60)">
                 <tspan>3-Zimmer</tspan>
             </text>
             <path fill="#ccc" class="highcharts-point" d="M10 64h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
-            <text x="21" y="15" style="width:85" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 81)">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 81)">
                 <tspan>4-Zimmer</tspan>
             </text>
             <path fill="#689199" class="highcharts-point" d="M10 85h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4 highcharts-legend-item-hidden">
-            <text x="21" y="15" style="width:85" color="#ccc" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(8 102)">
+            <text x="21" y="15" color="#ccc" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(8 102)">
                 <tspan>5+-Zimmer</tspan>
             </text>
             <path fill="#ccc" class="highcharts-point" d="M10 106h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-5">
             <path fill="none" d="M8 134h16" class="highcharts-graph" stroke="#b00000" stroke-width="2"/>
-            <text x="21" y="15" style="width:85" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 123)">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 123)">
                 <tspan>LWQ alle</tspan><tspan dy="15" x="21">Wohnungen</tspan><tspan dy="15" x="21">(rechte Skala)</tspan><title>LWQ alle Wohnungen (rechte Skala)</title>
             </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-6 highcharts-legend-item-hidden">
             <path fill="none" d="M8 185h16" class="highcharts-graph" stroke="#ccc" stroke-width="2"/>
-            <text x="21" y="15" style="width:85" color="#ccc" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(8 174)">
+            <text x="21" y="15" color="#ccc" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(8 174)">
                 <tspan>LWQ 1-Zimmer</tspan>
             </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-7 highcharts-legend-item-hidden">
             <path fill="none" d="M8 206h16" class="highcharts-graph" stroke="#ccc" stroke-width="2"/>
-            <text x="21" y="15" style="width:85" color="#ccc" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(8 195)">
+            <text x="21" y="15" color="#ccc" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(8 195)">
                 <tspan>LWQ 2-Zimmer</tspan>
             </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-8 highcharts-legend-item-hidden">
             <path fill="none" d="M8 227h16" class="highcharts-graph" stroke="#ccc" stroke-width="2"/>
-            <text x="21" y="15" style="width:85" color="#ccc" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(8 216)">
+            <text x="21" y="15" color="#ccc" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(8 216)">
                 <tspan>LWQ 3-Zimmer</tspan>
             </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-9">
             <path fill="none" d="M8 248h16" class="highcharts-graph" stroke="#689199" stroke-width="2"/>
-            <text x="21" y="15" style="width:85" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 237)">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 237)">
                 <tspan>LWQ 4-Zimmer</tspan>
             </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-10 highcharts-legend-item-hidden">
             <path fill="none" d="M8 269h16" class="highcharts-graph" stroke="#ccc" stroke-width="2"/>
-            <text x="21" y="15" style="width:85" color="#ccc" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(8 258)">
+            <text x="21" y="15" color="#ccc" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(8 258)">
                 <tspan>LWQ 5+-</tspan><tspan dy="15" x="21">Zimmer</tspan><title>LWQ 5+-Zimmer</title>
             </text>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="58.571" style="width:415px" transform="rotate(-45 58.571 369)" y="369" text-overflow="ellipsis">
+        <text x="58.571" transform="rotate(-45 58.571 369)" y="369">
             <tspan>2005</tspan>
         </text>
-        <text x="79.848" style="width:415px" transform="rotate(-45 79.848 369)" y="369" text-overflow="ellipsis">
+        <text x="79.848" transform="rotate(-45 79.848 369)" y="369">
             <tspan>2006</tspan>
         </text>
-        <text x="101.125" style="width:415px" transform="rotate(-45 101.125 369)" y="369" text-overflow="ellipsis">
+        <text x="101.125" transform="rotate(-45 101.125 369)" y="369">
             <tspan>2007</tspan>
         </text>
-        <text x="122.401" style="width:415px" transform="rotate(-45 122.401 369)" y="369" text-overflow="ellipsis">
+        <text x="122.401" transform="rotate(-45 122.401 369)" y="369">
             <tspan>2008</tspan>
         </text>
-        <text x="143.678" style="width:415px" transform="rotate(-45 143.678 369)" y="369" text-overflow="ellipsis">
+        <text x="143.678" transform="rotate(-45 143.678 369)" y="369">
             <tspan>2009</tspan>
         </text>
-        <text x="164.954" style="width:415px" transform="rotate(-45 164.954 369)" y="369" text-overflow="ellipsis">
+        <text x="164.954" transform="rotate(-45 164.954 369)" y="369">
             <tspan>2010</tspan>
         </text>
-        <text x="186.231" style="width:415px" transform="rotate(-45 186.231 369)" y="369" text-overflow="ellipsis">
+        <text x="186.231" transform="rotate(-45 186.231 369)" y="369">
             <tspan>2011</tspan>
         </text>
-        <text x="207.508" style="width:415px" transform="rotate(-45 207.508 369)" y="369" text-overflow="ellipsis">
+        <text x="207.508" transform="rotate(-45 207.508 369)" y="369">
             <tspan>2012</tspan>
         </text>
-        <text x="228.784" style="width:415px" transform="rotate(-45 228.784 369)" y="369" text-overflow="ellipsis">
+        <text x="228.784" transform="rotate(-45 228.784 369)" y="369">
             <tspan>2013</tspan>
         </text>
-        <text x="250.061" style="width:415px" transform="rotate(-45 250.06 369)" y="369" text-overflow="ellipsis">
+        <text x="250.061" transform="rotate(-45 250.06 369)" y="369">
             <tspan>2014</tspan>
         </text>
-        <text x="271.337" style="width:415px" transform="rotate(-45 271.337 369)" y="369" text-overflow="ellipsis">
+        <text x="271.337" transform="rotate(-45 271.337 369)" y="369">
             <tspan>2015</tspan>
         </text>
-        <text x="292.614" style="width:415px" transform="rotate(-45 292.614 369)" y="369" text-overflow="ellipsis">
+        <text x="292.614" transform="rotate(-45 292.614 369)" y="369">
             <tspan>2016</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="28" style="width:150px" y="358">
+        <text x="28" y="358">
             <tspan>0</tspan>
         </text>
-        <text x="28" style="width:150px" y="299">
+        <text x="28" y="299">
             <tspan>60</tspan>
         </text>
-        <text x="28" style="width:150px" y="240">
+        <text x="28" y="240">
             <tspan>120</tspan>
         </text>
-        <text x="28" style="width:150px" y="181">
+        <text x="28" y="181">
             <tspan>180</tspan>
         </text>
-        <text x="28" style="width:150px" y="122">
+        <text x="28" y="122">
             <tspan>240</tspan>
         </text>
-        <text x="28" style="width:150px" y="63">
+        <text x="28" y="63">
             <tspan>300</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" color="#000" cursor="default" font-size="11">
-        <text x="318" style="width:150px" y="358">
+        <text x="318" y="358">
             <tspan>0.0%</tspan>
         </text>
-        <text x="318" style="width:150px" y="299">
+        <text x="318" y="299">
             <tspan>0.6%</tspan>
         </text>
-        <text x="318" style="width:150px" y="240">
+        <text x="318" y="240">
             <tspan>1.2%</tspan>
         </text>
-        <text x="318" style="width:150px" y="181">
+        <text x="318" y="181">
             <tspan>1.8%</tspan>
         </text>
-        <text x="318" style="width:150px" y="122">
+        <text x="318" y="122">
             <tspan>2.4%</tspan>
         </text>
-        <text x="318" style="width:150px" y="63">
+        <text x="318" y="63">
             <tspan>3.0%</tspan>
         </text>
     </g>
