@@ -29,7 +29,7 @@
             <path fill="none" d="M-5.804 113.584h10l104.902 10.076L214 99.844l104.902 1.832 104.902 9.16h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#71A3B5" d="M55 234a4 4 0 1 1 0-.004zm105 10a4 4 0 1 1 0-.004zm105-24a4 4 0 1 1 0-.004zm104 2a4 4 0 1 1 0-.004zm105 9a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#71A3B5" d="M470 227c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-105-9c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-104-2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-105 24c5.328 0 5.328 8 0 8s-5.328-8 0-8zM51 230c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(47 120)" clip-path="url(#a)">
             <path fill="none" d="M4.196 157.552l104.902-44.884L214 142.896l104.902-23.816 104.902-17.404" class="highcharts-graph" stroke="#672773" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
@@ -52,7 +52,7 @@
             <path fill="none" d="M-5.804 72.364h10l104.902 60.456L214 125.492l104.902-24.732 104.902 25.648h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>I.15.3.0001 Lehrabbruchquote nach Staatsangehörigkeit seit</tspan><tspan dy="17" x="10">2011</tspan><title>I.15.3.0001 Lehrabbruchquote nach Staatsangehörigkeit seit 2011</title>
     </text>
     <g class="highcharts-legend" transform="translate(30 45)">
@@ -65,7 +65,7 @@
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
             <path fill="none" d="M93.656 14h16" class="highcharts-graph" stroke="#71A3B5" stroke-width="2"/>
-            <path fill="#71A3B5" d="M105.656 14a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#71A3B5" d="M101.656 10c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(93.656 3)">
                 Ausland
             </text>
@@ -102,39 +102,39 @@
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="51.196" y="368">
+        <text x="51.196" style="width:106px" y="368">
             <tspan>2011</tspan>
         </text>
-        <text x="156.098" y="368">
+        <text x="156.098" style="width:106px" y="368">
             <tspan>2012</tspan>
         </text>
-        <text x="261" y="368">
+        <text x="261" style="width:106px" y="368">
             <tspan>2013</tspan>
         </text>
-        <text x="365.902" y="368">
+        <text x="365.902" style="width:106px" y="368">
             <tspan>2014</tspan>
         </text>
-        <text x="462.781" y="368">
+        <text x="462.781" style="width:106px" y="368">
             <tspan>2015</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="32" y="354">
+        <text x="32" style="width:150px" y="354">
             <tspan>0%</tspan>
         </text>
-        <text x="32" y="308">
+        <text x="32" style="width:150px" y="308">
             <tspan>5%</tspan>
         </text>
-        <text x="32" y="262">
+        <text x="32" style="width:150px" y="262">
             <tspan>10%</tspan>
         </text>
-        <text x="32" y="216">
+        <text x="32" style="width:150px" y="216">
             <tspan>15%</tspan>
         </text>
-        <text x="32" y="170">
+        <text x="32" style="width:150px" y="170">
             <tspan>20%</tspan>
         </text>
-        <text x="32" y="125">
+        <text x="32" style="width:150px" y="125">
             <tspan>25%</tspan>
         </text>
     </g>

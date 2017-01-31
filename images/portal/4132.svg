@@ -25,10 +25,10 @@
             <path fill="none" d="M-5.98 76.483h10l40.196.157 40.196-.256 40.196-1.917 40.196-1.551 40.196.02 40.196-1.855 40.196-1.422 40.196-2.464 40.196-1.247 40.196-.903h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#008AC3" d="M73 117a4 4 0 1 1 0-.004zm40 1a4 4 0 1 1 0-.004zm40-1a4 4 0 1 1 0-.004zm40-2a4 4 0 1 1 0-.004zm40-1a4 4 0 1 1 0-.004zm41 0a4 4 0 1 1 0-.004zm40-2a4 4 0 1 1 0-.004zm40-1a4 4 0 1 1 0-.004zm40-3a4 4 0 1 1 0-.004zm40-1a4 4 0 1 1 0-.004zm40-1a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#008AC3" d="M470 102c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-40 1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-40 1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-40 3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-40 1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-40 2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-41 0c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-40 1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-40 2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-40 1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-40-1c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>I.01.1.0023 Bevölkerung am Jahresende</tspan>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
@@ -75,22 +75,22 @@
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="50" y="354">
+        <text x="50" style="width:150px" y="354">
             <tspan>0</tspan>
         </text>
-        <text x="50" y="292">
+        <text x="50" style="width:150px" y="292">
             <tspan>50 000</tspan>
         </text>
-        <text x="50" y="230">
+        <text x="50" style="width:150px" y="230">
             <tspan>100 000</tspan>
         </text>
-        <text x="50" y="169">
+        <text x="50" style="width:150px" y="169">
             <tspan>150 000</tspan>
         </text>
-        <text x="50" y="107">
+        <text x="50" style="width:150px" y="107">
             <tspan>200 000</tspan>
         </text>
-        <text x="50" y="46">
+        <text x="50" style="width:150px" y="46">
             <tspan>250 000</tspan>
         </text>
     </g>

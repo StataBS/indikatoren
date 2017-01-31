@@ -37,94 +37,94 @@
             <path fill="#FF8028" class="highcharts-point" stroke="#fff" d="M13.5-.5h26v49h-26zm54 0h26v63h-26zm54 0h26v38h-26zm53 0h26v30h-26zm54 0h26v22h-26z"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>I.50.1.0019 Beurteilung der Schulen in Basel-Stadt</tspan>
     </text>
-    <text x="10" class="highcharts-subtitle" y="40" color="#000">
+    <text x="10" class="highcharts-subtitle" style="width:421px" y="40" color="#000">
         <tspan>«Die Schulen des Kantons Basel-Stadt bereiten die Jugendlichen gut fürs</tspan><tspan dy="15" x="10">Leben vor.»</tspan><title>«Die Schulen des Kantons Basel-Stadt bereiten die Jugendlichen gut fürs Leben vor.»</title>
     </text>
     <g class="highcharts-legend" transform="translate(334 122)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="141" height="151"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+            <text x="21" style="width:115" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
                 <tspan>Überhaupt nicht</tspan><tspan dy="15" x="21">einverstanden</tspan><title>Überhaupt nicht einverstanden</title>
             </text>
             <path fill="#FF8028" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 37)">
+            <text x="21" y="15" style="width:115" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 37)">
                 <tspan>Eher nicht</tspan><tspan dy="15" x="21">einverstanden</tspan><title>Eher nicht einverstanden</title>
             </text>
             <path fill="#FFBB58" class="highcharts-point" d="M10 41h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 71)">
+            <text x="21" y="15" style="width:115" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 71)">
                 <tspan>Weiss nicht /</tspan><tspan x="21" dy="15">keine Antwort</tspan>
             </text>
             <path fill="#C8C8C8" class="highcharts-point" d="M10 75h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 105)">
+            <text x="21" y="15" style="width:115" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 105)">
                 <tspan>Eher einverstanden</tspan>
             </text>
             <path fill="#71A3B5" class="highcharts-point" d="M10 109h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 124)">
+            <text x="21" y="15" style="width:115" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 124)">
                 <tspan>Sehr einverstanden</tspan>
             </text>
             <path fill="#256370" class="highcharts-point" d="M10 128h12v12H10z"/>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="79.9" y="369">
+        <text x="79.9" style="width:53.8" y="369" text-overflow="none">
             <tspan>2003</tspan><tspan x="79.9" dy="14">(N=1497)</tspan>
         </text>
-        <text x="133.7" y="369">
+        <text x="133.7" style="width:53.8" y="369" text-overflow="none">
             <tspan>2005</tspan><tspan x="133.7" dy="14">(N=1510)</tspan>
         </text>
-        <text x="187.5" y="369">
+        <text x="187.5" style="width:53.8" y="369" text-overflow="none">
             <tspan>2007</tspan><tspan x="187.5" dy="14">(N=1509)</tspan>
         </text>
-        <text x="241.3" y="369">
+        <text x="241.3" style="width:53.8" y="369" text-overflow="none">
             <tspan>2011</tspan><tspan x="241.3" dy="14">(N=1516)</tspan>
         </text>
-        <text x="295.1" y="369">
+        <text x="295.1" style="width:53.8" y="369" text-overflow="none">
             <tspan>2015</tspan><tspan x="295.1" dy="14">(N=1506)</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="38" y="355">
+        <text x="38" style="width:150px" y="355">
             <tspan>0%</tspan>
         </text>
-        <text x="38" y="327">
+        <text x="38" style="width:150px" y="327">
             <tspan>10%</tspan>
         </text>
-        <text x="38" y="299">
+        <text x="38" style="width:150px" y="299">
             <tspan>20%</tspan>
         </text>
-        <text x="38" y="271">
+        <text x="38" style="width:150px" y="271">
             <tspan>30%</tspan>
         </text>
-        <text x="38" y="243">
+        <text x="38" style="width:150px" y="243">
             <tspan>40%</tspan>
         </text>
-        <text x="38" y="215">
+        <text x="38" style="width:150px" y="215">
             <tspan>50%</tspan>
         </text>
-        <text x="38" y="187">
+        <text x="38" style="width:150px" y="187">
             <tspan>60%</tspan>
         </text>
-        <text x="38" y="159">
+        <text x="38" style="width:150px" y="159">
             <tspan>70%</tspan>
         </text>
-        <text x="38" y="131">
+        <text x="38" style="width:150px" y="131">
             <tspan>80%</tspan>
         </text>
-        <text x="38" y="103">
+        <text x="38" style="width:150px" y="103">
             <tspan>90%</tspan>
         </text>
-        <text x="38" y="75">
+        <text x="38" style="width:150px" y="75">
             <tspan>100%</tspan>
         </text>
     </g>

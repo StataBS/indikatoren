@@ -1,0 +1,228 @@
+{
+  "series": [
+    {
+      "color": "#C8C8C8",
+      "index": 1,
+      "data": [
+        [
+          "Ausland",
+          62.7266806074526
+        ],
+        [
+          "",
+          0
+        ],
+        [
+          "Türkei",
+          77.3575061953828
+        ],
+        [
+          "Ehem. Jugoslawien ohne SLO",
+          79.0910826809242
+        ],
+        [
+          "Italien",
+          90.9963704484252
+        ],
+        [
+          "Deutschland",
+          43.1789166514682
+        ],
+        [
+          "Spanien",
+          87.1337579617834
+        ],
+        [
+          "Maghreb und Ägypten",
+          50.9677419354839
+        ],
+        [
+          "Übriges Ausland",
+          41.6809116809117
+        ],
+        [
+          "Mittel- und Südamerika",
+          38.6376981796829
+        ],
+        [
+          "EU Oststaaten",
+          29.0490341753343
+        ]
+      ],
+      "name": "2006",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#933F8D",
+      "index": 0,
+      "data": [
+        [
+          "Ausland",
+          58.1732220098582
+        ],
+        [
+          "",
+          0
+        ],
+        [
+          "Türkei",
+          84.0894868585732
+        ],
+        [
+          "Ehem. Jugoslawien ohne SLO",
+          81.8783068783069
+        ],
+        [
+          "Italien",
+          75.6082871597205
+        ],
+        [
+          "Deutschland",
+          57.6923076923077
+        ],
+        [
+          "Spanien",
+          57.5864886951784
+        ],
+        [
+          "Maghreb und Ägypten",
+          52.2968197879859
+        ],
+        [
+          "Übriges Ausland",
+          42.8841876094467
+        ],
+        [
+          "Mittel- und Südamerika",
+          41.9771485345256
+        ],
+        [
+          "EU Oststaaten",
+          17.8384660081348
+        ]
+      ],
+      "name": "2015",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "renderTo": "container-4220",
+    "marginBottom": 65,
+    "marginTop": 75,
+    "type": "column",
+    "inverted": true,
+    "forExport": true
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "1-4b Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit 2006 und 2015"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 153,
+    "y": 35,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "I.01.1.0017"
+  }
+}

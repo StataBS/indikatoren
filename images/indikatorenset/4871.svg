@@ -25,7 +25,7 @@
             <path fill="#0070C0" class="highcharts-point" stroke="#fff" d="M21.5 35.5h42v240h-42zm86 61h42v179h-42zm85-52h42v231h-42zm86 40h42v191h-42zm86-40h42v231h-42z"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>3.3.02 Wahlbeteiligung bei National- und Grossratswahlen</tspan>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker">
@@ -46,33 +46,33 @@
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="89.8" y="369">
+        <text x="89.8" style="width:83px" y="369">
             <tspan>2007 (NR)</tspan>
         </text>
-        <text x="175.4" y="369">
+        <text x="175.4" style="width:83px" y="369">
             <tspan>2008 (GR)</tspan>
         </text>
-        <text x="261" y="369">
+        <text x="261" style="width:83px" y="369">
             <tspan>2011 (NR)</tspan>
         </text>
-        <text x="346.6" y="369">
+        <text x="346.6" style="width:83px" y="369">
             <tspan>2012 (GR)</tspan>
         </text>
-        <text x="432.2" y="369">
+        <text x="432.2" style="width:83px" y="369">
             <tspan>2015 (NR)</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="32" y="355">
+        <text x="32" style="width:150px" y="355">
             <tspan>0%</tspan>
         </text>
-        <text x="32" y="263">
+        <text x="32" style="width:150px" y="263">
             <tspan>20%</tspan>
         </text>
-        <text x="32" y="171">
+        <text x="32" style="width:150px" y="171">
             <tspan>40%</tspan>
         </text>
-        <text x="32" y="80">
+        <text x="32" style="width:150px" y="80">
             <tspan>60%</tspan>
         </text>
     </g>

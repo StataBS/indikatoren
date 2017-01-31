@@ -43,7 +43,7 @@
             <path fill="#DC440E" class="highcharts-point" stroke="#fff" d="M3.5 181.5h25v84h-25zm32 2h25v82h-25zm33 0h25v82h-25zm32 1h25v81h-25zm33-1h25v82h-25zm32-1h25v83h-25z"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>I.04.1.0003 Bruttowertschöpfung nach Branchengruppe in Mio.</tspan><tspan dy="17" x="10">Franken</tspan><title>I.04.1.0003 Bruttowertschöpfung nach Branchengruppe in Mio. Franken</title>
     </text>
     <g class="highcharts-legend" transform="translate(266 116)">
@@ -98,39 +98,39 @@
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="77.843" transform="rotate(-45 77.843 356)" y="356">
+        <text x="77.843" style="width:415px" transform="rotate(-45 77.843 356)" y="356" text-overflow="ellipsis">
             <tspan>2008</tspan>
         </text>
-        <text x="110.343" transform="rotate(-45 110.343 356)" y="356">
+        <text x="110.343" style="width:415px" transform="rotate(-45 110.343 356)" y="356" text-overflow="ellipsis">
             <tspan>2009</tspan>
         </text>
-        <text x="142.843" transform="rotate(-45 142.843 356)" y="356">
+        <text x="142.843" style="width:415px" transform="rotate(-45 142.843 356)" y="356" text-overflow="ellipsis">
             <tspan>2010</tspan>
         </text>
-        <text x="175.343" transform="rotate(-45 175.343 356)" y="356">
+        <text x="175.343" style="width:415px" transform="rotate(-45 175.343 356)" y="356" text-overflow="ellipsis">
             <tspan>2011</tspan>
         </text>
-        <text x="207.843" transform="rotate(-45 207.843 356)" y="356">
+        <text x="207.843" style="width:415px" transform="rotate(-45 207.843 356)" y="356" text-overflow="ellipsis">
             <tspan>2012</tspan>
         </text>
-        <text x="240.343" transform="rotate(-45 240.343 356)" y="356">
+        <text x="240.343" style="width:415px" transform="rotate(-45 240.343 356)" y="356" text-overflow="ellipsis">
             <tspan>2013</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="44" y="345">
+        <text x="44" style="width:150px" y="345">
             <tspan>0</tspan>
         </text>
-        <text x="44" y="278">
+        <text x="44" style="width:150px" y="278">
             <tspan>10 000</tspan>
         </text>
-        <text x="44" y="212">
+        <text x="44" style="width:150px" y="212">
             <tspan>20 000</tspan>
         </text>
-        <text x="44" y="146">
+        <text x="44" style="width:150px" y="146">
             <tspan>30 000</tspan>
         </text>
-        <text x="44" y="80">
+        <text x="44" style="width:150px" y="80">
             <tspan>40 000</tspan>
         </text>
     </g>

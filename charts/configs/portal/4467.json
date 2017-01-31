@@ -1,0 +1,394 @@
+{
+  "series": [
+    {
+      "color": "#256370",
+      "type": "column",
+      "legendIndex": 1,
+      "data": [
+        [
+          "2006",
+          52434
+        ],
+        [
+          "2007",
+          51925
+        ],
+        [
+          "2008",
+          51259
+        ],
+        [
+          "2009",
+          50884
+        ],
+        [
+          "2010",
+          50684
+        ],
+        [
+          "2011",
+          50350
+        ],
+        [
+          "2012",
+          50101
+        ],
+        [
+          "2013",
+          49874
+        ],
+        [
+          "2014",
+          49512
+        ],
+        [
+          "2015",
+          48871
+        ]
+      ],
+      "name": "Seit mind. 12 Jahren im gleichen Wohnviertel - geboren in der Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C4CB",
+      "type": "column",
+      "legendIndex": 0,
+      "data": [
+        [
+          "2006",
+          10738
+        ],
+        [
+          "2007",
+          11044
+        ],
+        [
+          "2008",
+          11316
+        ],
+        [
+          "2009",
+          11505
+        ],
+        [
+          "2010",
+          11723
+        ],
+        [
+          "2011",
+          11982
+        ],
+        [
+          "2012",
+          12103
+        ],
+        [
+          "2013",
+          12396
+        ],
+        [
+          "2014",
+          12609
+        ],
+        [
+          "2015",
+          12757
+        ]
+      ],
+      "name": "Seit mind. 12 Jahren im gleichen Wohnviertel - geboren im Ausland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "type": "column",
+      "legendIndex": 3,
+      "data": [
+        [
+          "2006",
+          55552
+        ],
+        [
+          "2007",
+          55354
+        ],
+        [
+          "2008",
+          55630
+        ],
+        [
+          "2009",
+          54992
+        ],
+        [
+          "2010",
+          54871
+        ],
+        [
+          "2011",
+          54823
+        ],
+        [
+          "2012",
+          54866
+        ],
+        [
+          "2013",
+          54870
+        ],
+        [
+          "2014",
+          54774
+        ],
+        [
+          "2015",
+          55130
+        ]
+      ],
+      "name": "Weniger als 12 Jahre im gleichen Wohnviertel - geboren in der Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "type": "column",
+      "legendIndex": 2,
+      "data": [
+        [
+          "2006",
+          10302
+        ],
+        [
+          "2007",
+          10688
+        ],
+        [
+          "2008",
+          11023
+        ],
+        [
+          "2009",
+          10987
+        ],
+        [
+          "2010",
+          10923
+        ],
+        [
+          "2011",
+          10826
+        ],
+        [
+          "2012",
+          10862
+        ],
+        [
+          "2013",
+          10767
+        ],
+        [
+          "2014",
+          10797
+        ],
+        [
+          "2015",
+          10859
+        ]
+      ],
+      "name": "Weniger als 12 Jahre im gleichen Wohnviertel - geboren im Ausland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#44AB2B",
+      "type": "line",
+      "yAxis": 1,
+      "stacking": null,
+      "legendIndex": 4,
+      "data": [
+        [
+          "2006",
+          129026
+        ],
+        [
+          "2007",
+          129011
+        ],
+        [
+          "2008",
+          129228
+        ],
+        [
+          "2009",
+          128368
+        ],
+        [
+          "2010",
+          128201
+        ],
+        [
+          "2011",
+          127981
+        ],
+        [
+          "2012",
+          127932
+        ],
+        [
+          "2013",
+          127907
+        ],
+        [
+          "2014",
+          127692
+        ],
+        [
+          "2015",
+          127617
+        ]
+      ],
+      "name": "Anzahl Schweizer (rechte Skala)",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "alignTicks": false,
+    "marginBottom": 65,
+    "marginTop": 150,
+    "type": "column",
+    "forExport": true,
+    "renderTo": "container-4467"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.01.1.0022 Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "yAxis": [
+    {
+      "tickAmount": 5,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "style": {
+          "color": "#000000"
+        },
+        "format": "{value}%"
+      },
+      "reversedStacks": false
+    },
+    {
+      "tickAmount": 5,
+      "min": 0,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "reversedStacks": true,
+      "opposite": true
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "x": 46,
+    "y": 30,
+    "align": "left",
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "exporting": {
+    "filename": "I.01.1.0022"
+  }
+}

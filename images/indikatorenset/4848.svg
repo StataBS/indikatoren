@@ -28,10 +28,10 @@
             <path fill="#A8C4CB" class="highcharts-point" stroke="#fff" d="M223.5 146.5h9v166h-9zm-36 48h9v118h-9zm-36 59h9v59h-9zm-36-60h9v119h-9zm-36-76h9v195h-9zm-36 48h9v147h-9zm-36-146h9v293h-9z"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>1.1.03 Unterstützung von Freunden oder Nachbarn</tspan>
     </text>
-    <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
+    <text x="10" class="highcharts-subtitle" style="width:421px" y="40" color="#000" font-weight="400">
         <tspan>«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe.</tspan><tspan dy="15" x="10">Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch</tspan><tspan dy="15" x="10">an Freunde/Nachbarn gewendet?»</tspan><title>«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch an Freunde/Nachbarn gewendet?»</title>
     </text>
     <g class="highcharts-legend" transform="translate(153 75)">
@@ -50,45 +50,45 @@
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="148" y="135">
+        <text x="148" style="width:150px" y="135">
             <tspan>Berufliche Probleme</tspan>
         </text>
-        <text x="148" y="171">
+        <text x="148" style="width:150px" y="171">
             <tspan>Gesundheitliche Probleme</tspan>
         </text>
-        <text x="148" y="207">
+        <text x="148" style="width:150px" y="207">
             <tspan>Finanzielle Probleme</tspan>
         </text>
-        <text x="148" y="243">
+        <text x="148" style="width:150px" y="243">
             <tspan>Wohnungsprobleme</tspan>
         </text>
-        <text x="148" y="279">
+        <text x="148" style="width:150px" y="279">
             <tspan>Partnerschaftliche Probleme</tspan>
         </text>
-        <text x="148" y="308">
+        <text x="148" style="width:150px" y="308">
             <tspan>Schulische Probleme der</tspan><tspan dy="14" x="148">Kinder</tspan><title>Schulische Probleme der Kinder</title>
         </text>
-        <text x="148" y="344">
+        <text x="148" style="width:150px" y="344">
             <tspan>Erziehungsfragen oder -</tspan><tspan dy="14" x="148">probleme</tspan><title>Erziehungsfragen oder -probleme</title>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="163" y="383">
+        <text x="163" style="width:62.4" y="383" text-overflow="ellipsis">
             <tspan>0%</tspan>
         </text>
-        <text x="225.4" y="383">
+        <text x="225.4" style="width:62.4" y="383" text-overflow="ellipsis">
             <tspan>10%</tspan>
         </text>
-        <text x="287.8" y="383">
+        <text x="287.8" style="width:62.4" y="383" text-overflow="ellipsis">
             <tspan>20%</tspan>
         </text>
-        <text x="350.2" y="383">
+        <text x="350.2" style="width:62.4" y="383" text-overflow="ellipsis">
             <tspan>30%</tspan>
         </text>
-        <text x="412.6" y="383">
+        <text x="412.6" style="width:62.4" y="383" text-overflow="ellipsis">
             <tspan>40%</tspan>
         </text>
-        <text x="464" y="383">
+        <text x="464" style="width:31.2" y="383" text-overflow="ellipsis">
             <tspan>50%</tspan>
         </text>
     </g>

@@ -28,7 +28,7 @@
             <path fill="#DC440E" class="highcharts-point" stroke="#fff" d="M.5 229.5h10v36H.5zm12-2h10v38h-10zm12 5h10v33h-10zm11 2h10v31h-10zm12 3h10v28h-10zm12-7h10v35h-10zm12 2h10v33h-10zm12-1h10v34h-10zm11 1h10v33h-10zm12-5h10v38h-10zm12 2h10v36h-10zm12-2h10v38h-10zm12 5h10v33h-10zm11-2h10v35h-10zm12-8h10v43h-10zm12 1h10v42h-10zm12 2h10v40h-10zm12-6h10v46h-10zm11-7h10v53h-10zm12-2h10v55h-10zm12 1h10v54h-10zm12 0h10v54h-10zm12-1h10v55h-10zm11-2h10v57h-10zm12-7h10v64h-10zm12-6h10v70h-10z"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>Logiernächte nach Herkunft</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(393 173)">
@@ -67,25 +67,25 @@
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="59" y="345">
+        <text x="59" style="width:150px" y="345">
             <tspan>0</tspan>
         </text>
-        <text x="59" y="300">
+        <text x="59" style="width:150px" y="300">
             <tspan>250 000</tspan>
         </text>
-        <text x="59" y="256">
+        <text x="59" style="width:150px" y="256">
             <tspan>500 000</tspan>
         </text>
-        <text x="59" y="212">
+        <text x="59" style="width:150px" y="212">
             <tspan>750 000</tspan>
         </text>
-        <text x="59" y="168">
+        <text x="59" style="width:150px" y="168">
             <tspan>1 000 000</tspan>
         </text>
-        <text x="59" y="124">
+        <text x="59" style="width:150px" y="124">
             <tspan>1 250 000</tspan>
         </text>
-        <text x="59" y="80">
+        <text x="59" style="width:150px" y="80">
             <tspan>1 500 000</tspan>
         </text>
     </g>

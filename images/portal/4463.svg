@@ -25,81 +25,81 @@
             <path fill="none" d="M-5.863 15.114h10l103.432-.687L211 12.595l103.431 1.374 103.432.916h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#008AC3" d="M61 135a4 4 0 1 1 0-.004zm103-1a4 4 0 1 1 0-.004zm104-1a4 4 0 1 1 0-.004zm103 1a4 4 0 1 1 0-.004zm103 1a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#008AC3" d="M470 131c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-103-1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-103-1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-104 1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-103 1c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(53 120)" clip-path="url(#a)">
             <path fill="none" d="M4.137 4.58L107.57 2.29 211 8.244l103.431-2.519 103.432.229" class="highcharts-graph" stroke="#990300" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
             <path fill="none" d="M-5.863 4.58h10L107.57 2.29 211 8.244l103.431-2.519 103.432.229h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#990300" d="M61 125a4 4 0 1 1 0-.004zm103-3a4 4 0 1 1 0-.004zm104 6a4 4 0 1 1 0-.004zm103-2a4 4 0 1 1 0-.004zm103 0a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#990300" d="M470 122c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-103 0c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-103 2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-104-6c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-103 3c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(53 120)" clip-path="url(#a)">
             <path fill="none" d="M4.137 127.324l103.432 1.145L211 130.759l103.431-1.832 103.432 5.038" class="highcharts-graph" stroke="orange" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
             <path fill="none" d="M-5.863 127.324h10l103.432 1.145L211 130.759l103.431-1.832 103.432 5.038h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="orange" d="M61 247a4 4 0 1 1 0-.004zm103 1a4 4 0 1 1 0-.004zm104 3a4 4 0 1 1 0-.004zm103-2a4 4 0 1 1 0-.004zm103 5a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="orange" d="M470 250c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-103-5c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-103 2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-104-3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-103-1c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>I.01.8.0001 Anteil Personen, welche zu Hause «deutsch» oder</tspan><tspan dy="17" x="10">«schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010</tspan><tspan dy="17" x="10">bis 2014</tspan><title>I.01.8.0001 Anteil Personen, welche zu Hause «deutsch» oder «schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010 bis 2014</title>
     </text>
     <g class="highcharts-legend" transform="translate(45 60)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="354" height="49"/>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
             <path fill="none" d="M8 14h16" class="highcharts-graph" stroke="#008AC3" stroke-width="2"/>
-            <path fill="#008AC3" d="M20 14a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#008AC3" d="M16 10c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
             <text x="21" y="15" color="#333" font-weight="700" cursor="pointer" fill="#333" transform="translate(8 3)">
                 Schweiz
             </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
             <path fill="none" d="M96.328 14h16" class="highcharts-graph" stroke="#990300" stroke-width="2"/>
-            <path fill="#990300" d="M108.328 14a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#990300" d="M104.328 10c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
             <text x="21" y="15" color="#333" font-weight="700" cursor="pointer" fill="#333" transform="translate(96.328 3)">
                 <tspan>Österreich / Deutschland / Liechtenstein</tspan>
             </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2">
             <path fill="none" d="M8 33h16" class="highcharts-graph" stroke="orange" stroke-width="2"/>
-            <path fill="orange" d="M20 33a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="orange" d="M16 29c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
             <text x="21" y="15" color="#333" font-weight="700" cursor="pointer" fill="#333" transform="translate(8 22)">
                 <tspan>Restliches Ausland</tspan>
             </text>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="57.137" y="368">
+        <text x="57.137" style="width:96px" y="368">
             <tspan>2010</tspan>
         </text>
-        <text x="160.569" y="368">
+        <text x="160.569" style="width:96px" y="368">
             <tspan>2011</tspan>
         </text>
-        <text x="264" y="368">
+        <text x="264" style="width:96px" y="368">
             <tspan>2012</tspan>
         </text>
-        <text x="367.431" y="368">
+        <text x="367.431" style="width:96px" y="368">
             <tspan>2013</tspan>
         </text>
-        <text x="462.781" y="368">
+        <text x="462.781" style="width:96px" y="368">
             <tspan>2014</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="38" y="354">
+        <text x="38" style="width:150px" y="354">
             <tspan>0%</tspan>
         </text>
-        <text x="38" y="296">
+        <text x="38" style="width:150px" y="296">
             <tspan>25%</tspan>
         </text>
-        <text x="38" y="239">
+        <text x="38" style="width:150px" y="239">
             <tspan>50%</tspan>
         </text>
-        <text x="38" y="182">
+        <text x="38" style="width:150px" y="182">
             <tspan>75%</tspan>
         </text>
-        <text x="38" y="125">
+        <text x="38" style="width:150px" y="125">
             <tspan>100%</tspan>
         </text>
     </g>

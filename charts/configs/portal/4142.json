@@ -1,0 +1,230 @@
+{
+  "series": [
+    {
+      "color": "#2f656b",
+      "index": 1,
+      "data": [
+        [
+          2011,
+          16637
+        ],
+        [
+          2012,
+          15864
+        ],
+        [
+          2013,
+          16311
+        ],
+        [
+          2014,
+          15481
+        ],
+        [
+          2015,
+          15653
+        ]
+      ],
+      "name": "verheiratete \u002F registrierte Paare ohne Kinder"
+    },
+    {
+      "color": "#689199",
+      "index": 2,
+      "data": [
+        [
+          2011,
+          12924
+        ],
+        [
+          2012,
+          12592
+        ],
+        [
+          2013,
+          13351
+        ],
+        [
+          2014,
+          13126
+        ],
+        [
+          2015,
+          11910
+        ]
+      ],
+      "name": "Paare mit minderjährigen Kindern"
+    },
+    {
+      "color": "#923f8d",
+      "index": 3,
+      "data": [
+        [
+          2011,
+          3941
+        ],
+        [
+          2012,
+          3933
+        ],
+        [
+          2013,
+          3906
+        ],
+        [
+          2014,
+          3928
+        ],
+        [
+          2015,
+          3708
+        ]
+      ],
+      "name": "Einelternfamilien mit minderjährigen Kindern"
+    },
+    {
+      "color": "#008ac3",
+      "index": 4,
+      "data": [
+        [
+          2011,
+          6758
+        ],
+        [
+          2012,
+          6894
+        ],
+        [
+          2013,
+          6960
+        ],
+        [
+          2014,
+          7008
+        ],
+        [
+          2015,
+          6913
+        ]
+      ],
+      "name": "Eltern(-teil) mit nur volljährigen Kindern"
+    }
+  ],
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "marginTop": 150,
+    "type": "column",
+    "forExport": true,
+    "renderTo": "container-4142"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        },
+        "enabled": false
+      },
+      "stacking": "percent"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.01.2.0002 Familienhaushalte nach Art der Zusammensetzung"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "xAxis": {
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "top",
+    "align": "top",
+    "y": 40,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "I.01.2.0002"
+  }
+}

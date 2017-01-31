@@ -44,10 +44,10 @@
             <path fill="none" d="M8.35 38.718h10l36.7.018 36.7-.271 36.7 1.075 36.7.209 36.7.275 36.7.061 36.7.031 36.7.269 36.7.094h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-4 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#44AB2B" d="M75 189a4 4 0 1 1 0-.004zm37 0a4 4 0 1 1 0-.004zm36-1a4 4 0 1 1 0-.004zm37 2a4 4 0 1 1 0-.004zm37 0a4 4 0 1 1 0-.004zm36 0a4 4 0 1 1 0-.004zm37 0a4 4 0 1 1 0-.004zm37 0a4 4 0 1 1 0-.004zm36 0a4 4 0 1 1 0-.004zm37 0a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#44AB2B" d="M401 186c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-37 0c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 0c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-37 0c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-37 0c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 0c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-37 0c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-37-2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-37 0c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>I.01.1.0022 Schweizer Bevölkerung nach Wohndauer und</tspan><tspan dy="17" x="10">Geburtsort seit 2006</tspan><title>I.01.1.0022 Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006</title>
     </text>
     <g class="highcharts-legend" transform="translate(56 40)">
@@ -78,7 +78,7 @@
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-4">
             <path fill="none" d="M8 90h16" class="highcharts-graph" stroke="#44AB2B" stroke-width="2"/>
-            <path fill="#44AB2B" d="M20 90a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#44AB2B" d="M16 86c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 79)">
                 <tspan>Anzahl Schweizer (rechte Skala)</tspan>
             </text>
@@ -117,36 +117,36 @@
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="38" y="355">
+        <text x="38" style="width:150px" y="355">
             <tspan>0%</tspan>
         </text>
-        <text x="38" y="305">
+        <text x="38" style="width:150px" y="305">
             <tspan>25%</tspan>
         </text>
-        <text x="38" y="255">
+        <text x="38" style="width:150px" y="255">
             <tspan>50%</tspan>
         </text>
-        <text x="38" y="205">
+        <text x="38" style="width:150px" y="205">
             <tspan>75%</tspan>
         </text>
-        <text x="38" y="155">
+        <text x="38" style="width:150px" y="155">
             <tspan>100%</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" color="#000" cursor="default" font-size="11">
-        <text x="435" y="355">
+        <text x="435" style="width:150px" y="355">
             <tspan>0</tspan>
         </text>
-        <text x="435" y="305">
+        <text x="435" style="width:150px" y="305">
             <tspan>40 000</tspan>
         </text>
-        <text x="435" y="255">
+        <text x="435" style="width:150px" y="255">
             <tspan>80 000</tspan>
         </text>
-        <text x="435" y="205">
+        <text x="435" style="width:150px" y="205">
             <tspan>120 000</tspan>
         </text>
-        <text x="435" y="155">
+        <text x="435" style="width:150px" y="155">
             <tspan>160 000</tspan>
         </text>
     </g>

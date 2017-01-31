@@ -25,38 +25,38 @@
             <path fill="none" d="M7.625 120.329h10l35.25 4.656 35.25-3.492 35.25-6.33 35.25-20.879 35.25 29.9 35.25-9.384 35.25-19.57 35.25-4.365h10m50.5-23.426h10l35.25-48.306h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#008AC3" d="M73 178a4 4 0 1 1 0-.004zm35 5a4 4 0 1 1 0-.004zm36-4a4 4 0 1 1 0-.004zm35-6a4 4 0 1 1 0-.004zm35-21a4 4 0 1 1 0-.004zm35 30a4 4 0 1 1 0-.004zm36-9a4 4 0 1 1 0-.004zm35-20a4 4 0 1 1 0-.004zm35-4a4 4 0 1 1 0-.004zm71-24a4 4 0 1 1 0-.004zm35-48a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#008AC3" d="M457 73c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 48c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-71 24c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 4c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 20c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 9c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35-30c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 21c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 6c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 4c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35-5c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(52 58)" clip-path="url(#a)">
             <path fill="none" d="M17.625 158.522l35.25-15.423 35.25 10.33 35.25 3.93 35.25-8.585 35.25-8.44 35.25 2.329 35.25-7.93 35.25-1.892 35.25-9.311 35.25 1.309 35.25-9.748" class="highcharts-graph" stroke="#689199" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
             <path fill="none" d="M7.625 158.522h10l35.25-15.423 35.25 10.33 35.25 3.93 35.25-8.585 35.25-8.44 35.25 2.329 35.25-7.93 35.25-1.892 35.25-9.311 35.25 1.309 35.25-9.748h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#689199" d="M73 217a4 4 0 1 1 0-.004zm35-16a4 4 0 1 1 0-.004zm36 10a4 4 0 1 1 0-.004zm35 4a4 4 0 1 1 0-.004zm35-8a4 4 0 1 1 0-.004zm35-9a4 4 0 1 1 0-.004zm36 3a4 4 0 1 1 0-.004zm35-8a4 4 0 1 1 0-.004zm35-2a4 4 0 1 1 0-.004zm35-9a4 4 0 1 1 0-.004zm36 1a4 4 0 1 1 0-.004zm35-10a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#689199" d="M457 169c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 10c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36-1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 9c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 8c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36-3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 9c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 8c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35-4c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36-10c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 16c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(52 58)" clip-path="url(#a)">
             <path fill="none" d="M17.625 195.334l35.25-6.548 35.25 1.237 35.25 1.528 35.25-6.402 35.25-3.638 35.25-4.001 35.25-7.784 35.25 8.075 35.25-15.423 35.25-3.492 35.25 4.947" class="highcharts-graph" stroke="#68AB2B" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
             <path fill="none" d="M7.625 195.334h10l35.25-6.548 35.25 1.237 35.25 1.528 35.25-6.402 35.25-3.638 35.25-4.001 35.25-7.784 35.25 8.075 35.25-15.423 35.25-3.492 35.25 4.947h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#68AB2B" d="M73 253a4 4 0 1 1 0-.004zm35-6a4 4 0 1 1 0-.004zm36 1a4 4 0 1 1 0-.004zm35 2a4 4 0 1 1 0-.004zm35-7a4 4 0 1 1 0-.004zm35-3a4 4 0 1 1 0-.004zm36-4a4 4 0 1 1 0-.004zm35-8a4 4 0 1 1 0-.004zm35 8a4 4 0 1 1 0-.004zm35-16a4 4 0 1 1 0-.004zm36-3a4 4 0 1 1 0-.004zm35 5a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#68AB2B" d="M457 218c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35-5c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 16c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35-8c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 8c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 4c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 7c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35-2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36-1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 6c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
         </g>
         <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined" transform="translate(52 58)" clip-path="url(#a)">
             <path fill="none" d="M17.625 221.742l35.25-3.055 35.25 2.11 35.25-6.403 35.25 1.382 35.25-9.748 35.25 2.255 35.25-.945 35.25-4.947 35.25.727 35.25-10.694 35.25-6.62" class="highcharts-graph" stroke="#933F8D" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
             <path fill="none" d="M7.625 221.742h10l35.25-3.055 35.25 2.11 35.25-6.403 35.25 1.382 35.25-9.748 35.25 2.255 35.25-.945 35.25-4.947 35.25.727 35.25-10.694 35.25-6.62h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-3 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#933F8D" d="M73 280a4 4 0 1 1 0-.004zm35-3a4 4 0 1 1 0-.004zm36 2a4 4 0 1 1 0-.004zm35-7a4 4 0 1 1 0-.004zm35 2a4 4 0 1 1 0-.004zm35-10a4 4 0 1 1 0-.004zm36 2a4 4 0 1 1 0-.004zm35-1a4 4 0 1 1 0-.004zm35-5a4 4 0 1 1 0-.004zm35 1a4 4 0 1 1 0-.004zm36-11a4 4 0 1 1 0-.004zm35-6a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#933F8D" d="M457 240c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 6c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 11c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35-1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 5c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36-2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 10c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35-2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 7c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36-2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 3c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
         </g>
         <g class="highcharts-series highcharts-series-4 highcharts-line-series highcharts-color-undefined" transform="translate(52 58)" clip-path="url(#a)">
             <path fill="none" d="M17.625 246.986l35.25.073 35.25.873 35.25-2.619 35.25-4.147 35.25-13.386 35.25 4.074 35.25-6.766 35.25 7.93 35.25 2.474 35.25-18.333 35.25 5.456" class="highcharts-graph" stroke="#DC440E" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
             <path fill="none" d="M7.625 246.986h10l35.25.073 35.25.873 35.25-2.619 35.25-4.147 35.25-13.386 35.25 4.074 35.25-6.766 35.25 7.93 35.25 2.474 35.25-18.333 35.25 5.456h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-4 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#DC440E" d="M73 305a4 4 0 1 1 0-.004zm35 0a4 4 0 1 1 0-.004zm36 1a4 4 0 1 1 0-.004zm35-3a4 4 0 1 1 0-.004zm35-4a4 4 0 1 1 0-.004zm35-13a4 4 0 1 1 0-.004zm36 4a4 4 0 1 1 0-.004zm35-7a4 4 0 1 1 0-.004zm35 8a4 4 0 1 1 0-.004zm35 2a4 4 0 1 1 0-.004zm36-18a4 4 0 1 1 0-.004zm35 6a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#DC440E" d="M457 277c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35-6c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36 18c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35-2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35-8c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 7c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36-4c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 13c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 4c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-36-1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-35 0c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>I.09.4.0003 Mietpreisentwicklung der Leerwohnungen nach</tspan><tspan dy="17" x="10">Zimmerzahl</tspan><title>I.09.4.0003 Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl</title>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
@@ -123,19 +123,19 @@
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="37" y="354">
+        <text x="37" style="width:150px" y="354">
             <tspan>0</tspan>
         </text>
-        <text x="37" y="281">
+        <text x="37" style="width:150px" y="281">
             <tspan>1 000</tspan>
         </text>
-        <text x="37" y="208">
+        <text x="37" style="width:150px" y="208">
             <tspan>2 000</tspan>
         </text>
-        <text x="37" y="135">
+        <text x="37" style="width:150px" y="135">
             <tspan>3 000</tspan>
         </text>
-        <text x="37" y="63">
+        <text x="37" style="width:150px" y="63">
             <tspan>4 000</tspan>
         </text>
     </g>

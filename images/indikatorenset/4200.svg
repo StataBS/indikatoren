@@ -49,7 +49,7 @@
             <path fill="#672773" class="highcharts-point" stroke="#fff" d="M2.5 215.5h15v50h-15zm21-5h15v55h-15zm22-4h15v59h-15zm21-2h15v61h-15zm21-1h15v62h-15zm21 1h15v61h-15zm21 0h15v61h-15zm22 0h15v61h-15zm21 0h15v61h-15zm21 1h15v60h-15z"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>1-1 Ausländeranteil nach Staatsangehörigkeit seit 2006</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(277 107)">
@@ -110,51 +110,51 @@
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="66.193" transform="rotate(-45 66.193 356)" y="356">
+        <text x="66.193" style="width:415px" transform="rotate(-45 66.193 356)" y="356" text-overflow="ellipsis">
             <tspan>2006</tspan>
         </text>
-        <text x="87.393" transform="rotate(-45 87.393 356)" y="356">
+        <text x="87.393" style="width:415px" transform="rotate(-45 87.393 356)" y="356" text-overflow="ellipsis">
             <tspan>2007</tspan>
         </text>
-        <text x="108.593" transform="rotate(-45 108.593 356)" y="356">
+        <text x="108.593" style="width:415px" transform="rotate(-45 108.593 356)" y="356" text-overflow="ellipsis">
             <tspan>2008</tspan>
         </text>
-        <text x="129.793" transform="rotate(-45 129.793 356)" y="356">
+        <text x="129.793" style="width:415px" transform="rotate(-45 129.793 356)" y="356" text-overflow="ellipsis">
             <tspan>2009</tspan>
         </text>
-        <text x="150.993" transform="rotate(-45 150.993 356)" y="356">
+        <text x="150.993" style="width:415px" transform="rotate(-45 150.993 356)" y="356" text-overflow="ellipsis">
             <tspan>2010</tspan>
         </text>
-        <text x="172.193" transform="rotate(-45 172.193 356)" y="356">
+        <text x="172.193" style="width:415px" transform="rotate(-45 172.193 356)" y="356" text-overflow="ellipsis">
             <tspan>2011</tspan>
         </text>
-        <text x="193.393" transform="rotate(-45 193.393 356)" y="356">
+        <text x="193.393" style="width:415px" transform="rotate(-45 193.393 356)" y="356" text-overflow="ellipsis">
             <tspan>2012</tspan>
         </text>
-        <text x="214.593" transform="rotate(-45 214.593 356)" y="356">
+        <text x="214.593" style="width:415px" transform="rotate(-45 214.593 356)" y="356" text-overflow="ellipsis">
             <tspan>2013</tspan>
         </text>
-        <text x="235.793" transform="rotate(-45 235.793 356)" y="356">
+        <text x="235.793" style="width:415px" transform="rotate(-45 235.793 356)" y="356" text-overflow="ellipsis">
             <tspan>2014</tspan>
         </text>
-        <text x="256.993" transform="rotate(-45 256.993 356)" y="356">
+        <text x="256.993" style="width:415px" transform="rotate(-45 256.993 356)" y="356" text-overflow="ellipsis">
             <tspan>2015</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="38" y="345">
+        <text x="38" style="width:150px" y="345">
             <tspan>0%</tspan>
         </text>
-        <text x="38" y="278">
+        <text x="38" style="width:150px" y="278">
             <tspan>25%</tspan>
         </text>
-        <text x="38" y="212">
+        <text x="38" style="width:150px" y="212">
             <tspan>50%</tspan>
         </text>
-        <text x="38" y="146">
+        <text x="38" style="width:150px" y="146">
             <tspan>75%</tspan>
         </text>
-        <text x="38" y="80">
+        <text x="38" style="width:150px" y="80">
             <tspan>100%</tspan>
         </text>
     </g>

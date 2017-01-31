@@ -1,0 +1,293 @@
+{
+  "series": [
+    {
+      "color": "#007a2f",
+      "index": 0,
+      "type": "column",
+      "data": [
+        [
+          2005,
+          301
+        ],
+        [
+          2006,
+          353
+        ],
+        [
+          2007,
+          120
+        ],
+        [
+          2008,
+          201
+        ],
+        [
+          2009,
+          468
+        ],
+        [
+          2010,
+          372
+        ],
+        [
+          2011,
+          351
+        ],
+        [
+          2012,
+          268
+        ],
+        [
+          2013,
+          177
+        ],
+        [
+          2014,
+          369
+        ],
+        [
+          2015,
+          788
+        ],
+        [
+          2016,
+          null
+        ]
+      ],
+      "name": "Neubau"
+    },
+    {
+      "color": "rgba(0, 122, 47, 0.38)",
+      "index": 1,
+      "type": "column",
+      "data": [
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          400
+        ]
+      ],
+      "name": "Neubauprognose"
+    },
+    {
+      "color": "#b00000",
+      "marker": {
+        "enabled": false
+      },
+      "index": 2,
+      "type": "line",
+      "data": [
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          298
+        ],
+        [
+          2015,
+          338
+        ],
+        [
+          2016,
+          342
+        ]
+      ],
+      "name": "Entwicklung des Zehnjahresdurchschnitts gemäss Prognose"
+    }
+  ],
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "marginBottom": 65,
+    "marginTop": 100,
+    "type": "column",
+    "forExport": true,
+    "renderTo": "container-4137"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.09.1.0026 Anzahl neu erstellte Wohnungen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "xAxis": {
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF",
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "verticalAlign": "top",
+    "align": "left",
+    "floating": false,
+    "y": 20,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.2f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "I.09.1.0026"
+  }
+}

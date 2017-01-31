@@ -25,10 +25,10 @@
             <path fill="none" d="M-6.069 110.457h10l30.242 6.286 30.241-79.661 30.241 78.887 30.242-19.07 30.241-9.567 30.241 15.192 30.242-51.229 30.241 53.538 30.241-2.45 30.242-2.49 30.241-3.329 30.241 10.49 30.242-11.766h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#B375AB" d="M81 168a4 4 0 1 1 0-.004zm31 7a4 4 0 1 1 0-.004zm30-80a4 4 0 1 1 0-.004zm30 79a4 4 0 1 1 0-.004zm30-19a4 4 0 1 1 0-.004zm31-10a4 4 0 1 1 0-.004zm30 16a4 4 0 1 1 0-.004zm30-52a4 4 0 1 1 0-.004zm30 54a4 4 0 1 1 0-.004zm31-3a4 4 0 1 1 0-.004zm30-2a4 4 0 1 1 0-.004zm30-3a4 4 0 1 1 0-.004zm30 10a4 4 0 1 1 0-.004zm31-12a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#B375AB" d="M471 149c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-31 12c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-30-10c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-30 3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-30 2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-31 3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-30-54c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-30 52c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-30-16c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-31 10c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-30 19c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-30-79c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-30 80c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-31-7c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>Anzahl Besucher und Besucherinnen in Basler Museen seit</tspan><tspan dy="17" x="10">2002</tspan><title> Anzahl Besucher und Besucherinnen in Basler Museen seit 2002</title>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
@@ -63,31 +63,31 @@
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="59" y="354">
+        <text x="59" style="width:150px" y="354">
             <tspan>0</tspan>
         </text>
-        <text x="59" y="317">
+        <text x="59" style="width:150px" y="317">
             <tspan>250 000</tspan>
         </text>
-        <text x="59" y="281">
+        <text x="59" style="width:150px" y="281">
             <tspan>500 000</tspan>
         </text>
-        <text x="59" y="244">
+        <text x="59" style="width:150px" y="244">
             <tspan>750 000</tspan>
         </text>
-        <text x="59" y="208">
+        <text x="59" style="width:150px" y="208">
             <tspan>1 000 000</tspan>
         </text>
-        <text x="59" y="172">
+        <text x="59" style="width:150px" y="172">
             <tspan>1 250 000</tspan>
         </text>
-        <text x="59" y="135">
+        <text x="59" style="width:150px" y="135">
             <tspan>1 500 000</tspan>
         </text>
-        <text x="59" y="99">
+        <text x="59" style="width:150px" y="99">
             <tspan>1 750 000</tspan>
         </text>
-        <text x="59" y="63">
+        <text x="59" style="width:150px" y="63">
             <tspan>2 000 000</tspan>
         </text>
     </g>

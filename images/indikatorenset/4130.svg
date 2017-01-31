@@ -25,17 +25,17 @@
             <path fill="none" d="M-5.853 163.24h10l41.47-4.517 41.471-2.875 41.47-5.955 41.471-2.464 41.471-1.232 41.47-2.464 41.471-1.848 41.47-1.232 41.471-1.848 41.47-2.053h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#008AC3" d="M60 204a4 4 0 1 1 0-.004zm41-4a4 4 0 1 1 0-.004zm42-3a4 4 0 1 1 0-.004zm41-6a4 4 0 1 1 0-.004zm42-3a4 4 0 1 1 0-.004zm41-1a4 4 0 1 1 0-.004zm41-2a4 4 0 1 1 0-.004zm42-2a4 4 0 1 1 0-.004zm41-1a4 4 0 1 1 0-.004zm42-2a4 4 0 1 1 0-.004zm41-2a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#008AC3" d="M470 174c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-41 2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-42 2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-41 1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-42 2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-41 2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-41 1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-42 3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-41 6c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-42 3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-41 4c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(52 41)" clip-path="url(#a)">
             <path fill="none" d="M4.147 84.187l41.47-2.875 41.471-1.848 41.47-3.285 41.471-6.16 41.471-3.696 41.47-4.723 41.471-2.67 41.47-1.642 41.471-1.232 41.47-3.901" class="highcharts-graph" stroke="#990300" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
             <path fill="none" d="M-5.853 84.187h10l41.47-2.875 41.471-1.848 41.47-3.285 41.471-6.16 41.471-3.696 41.47-4.723 41.471-2.67 41.47-1.642 41.471-1.232 41.47-3.901h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#990300" d="M60 125a4 4 0 1 1 0-.004zm41-3a4 4 0 1 1 0-.004zm42-2a4 4 0 1 1 0-.004zm41-3a4 4 0 1 1 0-.004zm42-6a4 4 0 1 1 0-.004zm41-4a4 4 0 1 1 0-.004zm41-4a4 4 0 1 1 0-.004zm42-3a4 4 0 1 1 0-.004zm41-2a4 4 0 1 1 0-.004zm42-1a4 4 0 1 1 0-.004zm41-4a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#990300" d="M470 89c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-41 4c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-42 1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-41 2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-42 3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-41 4c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-41 4c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-42 6c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-41 3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-42 2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-41 3c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>0.1.b-3 Mietpreisentwicklung der 3-Zimmer-Wohnungen</tspan>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
@@ -84,25 +84,25 @@
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="37" y="354">
+        <text x="37" style="width:150px" y="354">
             <tspan>0</tspan>
         </text>
-        <text x="37" y="302">
+        <text x="37" style="width:150px" y="302">
             <tspan>250</tspan>
         </text>
-        <text x="37" y="251">
+        <text x="37" style="width:150px" y="251">
             <tspan>500</tspan>
         </text>
-        <text x="37" y="200">
+        <text x="37" style="width:150px" y="200">
             <tspan>750</tspan>
         </text>
-        <text x="37" y="148">
+        <text x="37" style="width:150px" y="148">
             <tspan>1 000</tspan>
         </text>
-        <text x="37" y="97">
+        <text x="37" style="width:150px" y="97">
             <tspan>1 250</tspan>
         </text>
-        <text x="37" y="46">
+        <text x="37" style="width:150px" y="46">
             <tspan>1 500</tspan>
         </text>
     </g>
