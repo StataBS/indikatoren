@@ -1,6 +1,9 @@
 var chartOptions = {
 	"series": [{
 		"color": "#923F8D"
+	},
+	{
+		"visible": false
 	}]
 };
 
