@@ -90,6 +90,97 @@
       ],
       "name": "Fläche pro Wohnung 2015",
       "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "data": [
+        [
+          "Klybeck",
+          1
+        ],
+        [
+          "Clara",
+          2
+        ],
+        [
+          "Matthäus",
+          3
+        ],
+        [
+          "Iselin",
+          4
+        ],
+        [
+          "Rosental",
+          5
+        ],
+        [
+          "Breite",
+          6
+        ],
+        [
+          "Kleinhüningen",
+          7
+        ],
+        [
+          "Gundeldingen",
+          8
+        ],
+        [
+          "St. Johann",
+          9
+        ],
+        [
+          "Altstadt Kleinbasel",
+          10
+        ],
+        [
+          "Gotthelf",
+          11
+        ],
+        [
+          "Hirzbrunnen",
+          12
+        ],
+        [
+          "Vorstädte",
+          13
+        ],
+        [
+          "Am Ring",
+          14
+        ],
+        [
+          "Wettstein",
+          15
+        ],
+        [
+          "Altstadt Grossbasel",
+          16
+        ],
+        [
+          "Bachletten",
+          17
+        ],
+        [
+          "St. Alban",
+          18
+        ],
+        [
+          "Riehen",
+          19
+        ],
+        [
+          "Bruderholz",
+          20
+        ],
+        [
+          "Bettingen",
+          21
+        ]
+      ],
+      "name": "Rang",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -151,7 +242,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stand: 2015",
     "align": "left"
   },
   "plotOptions": {
@@ -189,11 +280,16 @@
     "min": 0
   },
   "tooltip": {
-    "pointFormatter": function (){
-            //rank is calculated from index, thus data needs to be sorted by rank ascending.
-            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>' + Highcharts.numberFormat(this.y, 1, "," ,"") + ' m²</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
+    "formatter": function (args){
+            var this_point_index = this.series.data.indexOf(this.point);
+            var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
+            var other_series = args.chart.series[other_series_index];
+            var other_point = other_series.data[this_point_index];
+            return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
+                this.point.name +': <b>' + Highcharts.numberFormat(this.y, 1, "," ,"") + ' m²</b><br/>' + 
+                'Rang <b>' + other_point.y + '</b>';
         },
-    "shared": false
+    "shared": true
   },
   "credits": {
     "enabled": true,

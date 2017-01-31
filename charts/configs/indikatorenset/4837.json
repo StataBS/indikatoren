@@ -90,6 +90,97 @@
       ],
       "name": "Erwerbstätigenquote 2010-2014",
       "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "data": [
+        [
+          "Klybeck",
+          1
+        ],
+        [
+          "Kleinhüningen",
+          2
+        ],
+        [
+          "Clara",
+          3
+        ],
+        [
+          "Matthäus",
+          4
+        ],
+        [
+          "Rosental",
+          5
+        ],
+        [
+          "Iselin",
+          6
+        ],
+        [
+          "St. Johann",
+          7
+        ],
+        [
+          "Breite",
+          8
+        ],
+        [
+          "Hirzbrunnen",
+          9
+        ],
+        [
+          "Altstadt Kleinbasel",
+          10
+        ],
+        [
+          "Bruderholz",
+          11
+        ],
+        [
+          "Riehen",
+          12
+        ],
+        [
+          "Bettingen",
+          12
+        ],
+        [
+          "Gundeldingen",
+          14
+        ],
+        [
+          "St. Alban",
+          15
+        ],
+        [
+          "Gotthelf",
+          16
+        ],
+        [
+          "Wettstein",
+          17
+        ],
+        [
+          "Bachletten",
+          18
+        ],
+        [
+          "Am Ring",
+          19
+        ],
+        [
+          "Vorstädte",
+          20
+        ],
+        [
+          "Altstadt Grossbasel",
+          21
+        ]
+      ],
+      "name": "Rang",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -142,7 +233,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "WA-3 Erwerbstätigenquote"
+    "text": "WA-3.a Erwerbstätigenquote"
   },
   "subtitle": {
     "style": {
@@ -151,7 +242,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stand: gepoolte Daten 2010 - 2014",
     "align": "left"
   },
   "plotOptions": {
@@ -189,11 +280,16 @@
     "min": 0
   },
   "tooltip": {
-    "pointFormatter": function (){
-            //rank is calculated from index, thus data needs to be sorted by rank ascending.
-            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.y*100),2)+'%</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
+    "formatter": function (args){
+            var this_point_index = this.series.data.indexOf(this.point);
+            var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
+            var other_series = args.chart.series[other_series_index];
+            var other_point = other_series.data[this_point_index];
+            return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
+                this.point.name +': <b>' + Highcharts.numberFormat((this.y*100),1) + '%</b><br/>' + 
+                'Rang <b>' + other_point.y + '</b>';
         },
-    "shared": false
+    "shared": true
   },
   "credits": {
     "enabled": true,
@@ -208,7 +304,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO"
+    "text": "Quelle: Bundesamt für Statistik BFS, Strukturerhebung (SE)"
   },
   "legend": {
     "enabled": false,
