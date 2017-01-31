@@ -90,6 +90,97 @@
       ],
       "name": "Einkommenssteuer pro Veranlagung 2013",
       "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "data": [
+        [
+          "Klybeck",
+          1
+        ],
+        [
+          "Kleinhüningen",
+          2
+        ],
+        [
+          "Rosental",
+          3
+        ],
+        [
+          "Matthäus",
+          4
+        ],
+        [
+          "St. Johann",
+          5
+        ],
+        [
+          "Iselin",
+          6
+        ],
+        [
+          "Clara",
+          7
+        ],
+        [
+          "Gundeldingen",
+          8
+        ],
+        [
+          "Hirzbrunnen",
+          9
+        ],
+        [
+          "Breite",
+          10
+        ],
+        [
+          "Altstadt Kleinbasel",
+          11
+        ],
+        [
+          "Gotthelf",
+          12
+        ],
+        [
+          "Wettstein",
+          13
+        ],
+        [
+          "Bachletten",
+          14
+        ],
+        [
+          "Am Ring",
+          15
+        ],
+        [
+          "Riehen",
+          16
+        ],
+        [
+          "Bettingen",
+          17
+        ],
+        [
+          "St. Alban",
+          18
+        ],
+        [
+          "Vorstädte",
+          19
+        ],
+        [
+          "Altstadt Grossbasel",
+          20
+        ],
+        [
+          "Bruderholz",
+          21
+        ]
+      ],
+      "name": "Rang",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -189,11 +280,16 @@
     "min": 0
   },
   "tooltip": {
-    "pointFormatter": function (){
-            //rank is calculated from index, thus data needs to be sorted by rank ascending.
-            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>Fr. ' + Highcharts.numberFormat(this.y, 0, "," ," ") + '</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
+    "formatter": function (args){
+            var this_point_index = this.series.data.indexOf(this.point);
+            var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
+            var other_series = args.chart.series[other_series_index];
+            var other_point = other_series.data[this_point_index];
+            return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
+                this.point.name +': <b>' + Highcharts.numberFormat(this.y, 0, "," ," ") + ' Fr.</b><br/>' + 
+                'Rang <b>' + other_point.y + '</b>';
         },
-    "shared": false
+    "shared": true
   },
   "credits": {
     "enabled": true,
