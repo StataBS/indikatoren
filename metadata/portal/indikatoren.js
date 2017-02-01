@@ -1992,11 +1992,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Anteil Personen ohne Religionszugehörigkeit",
+		"title": "Anteil Konfessionslose",
 		"subtitle": "Stand: 2015",
 		"kuerzel": "I.01.7.0001",
 		"kuerzelKunde": "GS-3.a",
-		"description": "Anteil Personen ohne Religionszugehörigkeit",
+		"description": "Anteil Konfessionslose",
 		"id": 4824,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Religionen",
@@ -2013,7 +2013,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Test",
+		"lesehilfe": "",
 		"erlaeuterungen": "Anteil Personen ohne Religionszugehörigkeit an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "dotplot",
 		"option": "options001",
@@ -3857,13 +3857,12 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Motorisierungsgrad: private PW nach Wohnviertel",
-		"subtitle": "",
+		"title": "Privater Motorisierungsgrad",
+		"subtitle": "Private Personenwagen pro 1000 Einwohner 2015",
 		"kuerzel": "I.11.1.0040",
 		"kuerzelKunde": "",
-		"image": "images/I.11.1.0040.jpg",
-		"description": "Motorisierungsgrad: private PW nach Wohnviertel",
-		"id": "4917",
+		"description": "Privater Motorisierungsgrad",
+		"id": 4917,
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
 		"kennzahlenset": "",
@@ -3886,18 +3885,21 @@ var indikatoren = [
 		"erlaeuterungen": "Der Motorisierungsgrad zeigt die Anzahl privater Personenwagen auf 1000 Einwohner.",
 		"template": "dotplot",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
 		]
 	},
 	{
-		"title": "Personenwagen pro Haushalt nach Wohnviertel",
-		"subtitle": "",
+		"title": "Personenwagen pro Haushalt",
+		"subtitle": "Stand: 2015",
 		"kuerzel": "I.11.1.0041",
 		"kuerzelKunde": "",
-		"image": "images/I.11.1.0041.jpg",
-		"description": "Personenwagen pro Haushalt nach Wohnviertel",
-		"id": "4918",
+		"description": "Personenwagen pro Haushalt",
+		"id": 4918,
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
 		"kennzahlenset": "",
@@ -3921,6 +3923,12 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "dotplot",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"children": [
+			"5131"
+		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
 		]

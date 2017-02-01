@@ -76,11 +76,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Anteil Personen ohne Religionszugehörigkeit",
+		"title": "Anteil Konfessionslose",
 		"subtitle": "Stand: 2015",
 		"kuerzel": "I.01.7.0001",
 		"kuerzelKunde": "GS-3.a",
-		"description": "Anteil Personen ohne Religionszugehörigkeit",
+		"description": "Anteil Konfessionslose",
 		"id": 4824,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Religionen",
@@ -97,7 +97,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Test",
+		"lesehilfe": "",
 		"erlaeuterungen": "Anteil Personen ohne Religionszugehörigkeit an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "dotplot",
 		"option": "options001",
