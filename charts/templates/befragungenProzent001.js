@@ -1,4 +1,5 @@
-var template = {
+(function(){
+    return {
     "chart": {		
         "events":{
             "load": function() {
@@ -125,4 +126,5 @@ var template = {
             return this.name.replace('/ ', '/<br/>');
         }
     }    
-};
+	}
+}());

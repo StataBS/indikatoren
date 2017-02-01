@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
   "xAxis": {
     "type": "category"    
   },
@@ -36,4 +37,5 @@ var chartOptions = {
     "type": "column",
     "inverted": true
   }
-};
+	}
+}());

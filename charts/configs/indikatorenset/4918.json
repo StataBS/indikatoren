@@ -90,6 +90,97 @@
       ],
       "name": "Personenwagen pro Haushalt",
       "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "data": [
+        [
+          "Altstadt Kleinbasel",
+          1
+        ],
+        [
+          "Matthäus",
+          2
+        ],
+        [
+          "Gundeldingen",
+          3
+        ],
+        [
+          "Gotthelf",
+          4
+        ],
+        [
+          "Iselin",
+          5
+        ],
+        [
+          "St. Johann",
+          6
+        ],
+        [
+          "Vorstädte",
+          7
+        ],
+        [
+          "Rosental",
+          8
+        ],
+        [
+          "Altstadt Grossbasel",
+          9
+        ],
+        [
+          "Am Ring",
+          10
+        ],
+        [
+          "Klybeck",
+          11
+        ],
+        [
+          "Clara",
+          12
+        ],
+        [
+          "Wettstein",
+          13
+        ],
+        [
+          "Breite",
+          14
+        ],
+        [
+          "Bachletten",
+          15
+        ],
+        [
+          "St. Alban",
+          16
+        ],
+        [
+          "Kleinhüningen",
+          17
+        ],
+        [
+          "Hirzbrunnen",
+          18
+        ],
+        [
+          "Bruderholz",
+          19
+        ],
+        [
+          "Riehen",
+          20
+        ],
+        [
+          "Bettingen",
+          21
+        ]
+      ],
+      "name": "Rang",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -102,23 +193,18 @@
     },
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "fontSize": "10px"
       }
     },
-    "tickColor": "#FFFFFF"
+    "tickColor": "#FFFFFF",
+    "tickInterval": 1
   },
   "chart": {
     "events": {
       "load": function () {                
-                this.credits.element.onclick = function() {
-                    /*
-                    window.open(
-                    "http://www.statistik.bs.ch",
-                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
-                    );
-                    */
-                };
-            }
+                    this.credits.element.onclick = function() {}
+                }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -142,7 +228,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": " Personenwagen pro Haushalt nach Wohnviertel"
+    "text": " Personenwagen pro Haushalt"
   },
   "subtitle": {
     "style": {
@@ -151,7 +237,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stand: 2015",
     "align": "left"
   },
   "plotOptions": {
@@ -165,8 +251,8 @@
           "fontSize": "10px"
         },
         "formatter": function (){
-                    return Highcharts.numberFormat((this.y*100),1)+'%';                
-                }
+                        return Highcharts.numberFormat((this.y*100),1)+'%';                
+                    }
       }
     }
   },
@@ -188,22 +274,6 @@
     },
     "min": 0
   },
-  "tooltip": {
-    "formatter": function (args){
-            var this_point_index = this.series.data.indexOf(this.point);
-            var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
-            var other_series = args.chart.series[other_series_index];
-            var other_point = other_series.data[this_point_index];
-            return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                this.point.name +': <b>' + Highcharts.numberFormat((this.y*100),1) + '%</b><br/>' + 
-                'Rang <b>' + other_point.y + '</b>';
-        },
-    "shared": true,
-    "pointFormatter": function (){
-            //rank is calculated from index, thus data needs to be sorted by rank ascending.
-            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>' + Highcharts.numberFormat(this.y,3,",", "") + '</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
-        }
-  },
   "credits": {
     "enabled": true,
     "style": {
@@ -222,6 +292,18 @@
   "legend": {
     "enabled": false,
     "symbolRadius": 0
+  },
+  "tooltip": {
+    "formatter": function (args){
+            var this_point_index = this.series.data.indexOf(this.point);
+            var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
+            var other_series = args.chart.series[other_series_index];
+            var other_point = other_series.data[this_point_index];
+            return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
+                this.point.name +': <b>' + Highcharts.numberFormat(this.y,3,",", "") + '</b><br/>' + 
+                'Rang <b>' + other_point.y + '</b>';
+        },
+    "shared": true
   },
   "exporting": {
     "filename": "I.11.1.0041"

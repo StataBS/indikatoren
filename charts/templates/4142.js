@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
   "plotOptions": {
     "series": {
       "dataLabels": {
@@ -48,4 +49,5 @@ var chartOptions = {
     "marginTop": 150,
     "type": "column"
   }
-};
+	}
+}());

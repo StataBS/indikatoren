@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
   "plotOptions": {
     "series": {
       "stacking": "percent"
@@ -44,5 +45,6 @@ var chartOptions = {
   "chart": {
     "type": "column"
   }
-};
+	}
+}());
 

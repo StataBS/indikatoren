@@ -1,4 +1,5 @@
-var template = {	
+(function(){
+    return {
     "chart": {
         "borderColor": "#fbfbfb",
         "backgroundColor": "#fbfbfb",
@@ -92,4 +93,5 @@ var template = {
     "legend": {
         "symbolRadius": 0
     }
-};
+	}
+}());

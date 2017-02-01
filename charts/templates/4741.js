@@ -1,4 +1,19 @@
-var chartOptions = {
+(function(){
+    return {
+  //seriesMapping necessary for charts with error bars. 
+  "data": {
+    "seriesMapping": [
+      {
+        "x": 0
+      },
+      {
+        "x": 0
+      },
+      {
+        "x": 0
+      }
+    ]  
+  },
   "plotOptions": {
     "series": {
       "pointWidth": 15,
@@ -63,4 +78,5 @@ var chartOptions = {
     "type": "column",
     "inverted": true
   }
-};
+	}
+}());

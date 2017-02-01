@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
   "plotOptions": {
     "series": {
       "stacking": null,
@@ -143,4 +144,5 @@ var chartOptions = {
     "type": "column",
     "spacingBottom": 28    
   }
-};
+	}
+}());

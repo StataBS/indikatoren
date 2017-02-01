@@ -1,14 +1,12 @@
-//Hack to re-use existing web js code from within node.js, see http://stackoverflow.com/a/8808162
-var execfile = require("execfile");
+var fs = require("fs");
 var glob = require("glob");
-
 var indikatorensets = {};
 var indikatorensetNames = [];
 
-var files = glob.sync("metadata/single/*.js");
+var files = glob.sync("metadata/single/*.json");
 files.forEach(function(filepath){
-    var ctx = execfile(filepath);
-    var indikator = ctx.indikatoren[0];
+    var fileContents = fs.readFileSync(filepath);
+    var indikator = JSON.parse(fileContents)
     if (indikator.visible == undefined || indikator.visible){
         console.log('Adding chart ' + indikator.id + ' to Indikatorenset ' + indikator.kennzahlenset + '...');
         saveToIndikatorensetJson(indikator.id, indikator, console);
@@ -24,7 +22,6 @@ var rimraf = require("rimraf");
 rimraf('metadata/sets/*', function(error) {
     if (error) { throw error; };
     saveIndikatorenSets(indikatorensets);
-    
     saveToJsonFile('indikatorensetNames', indikatorensetNames, console);
 });
 
@@ -53,7 +50,6 @@ function saveToIndikatorensetJson(kuerzel, obj, console){
 
 
 function saveToJsonFile(name, obj, console){
-    var fs = require('fs');
     var jsonFile = "var " + name + " = " + JSON.stringify(obj, null, '\t') + ";";
     fs.writeFile('metadata/sets/' + name + '.js', jsonFile);
 };

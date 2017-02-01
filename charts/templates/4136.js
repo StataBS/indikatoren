@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
   "plotOptions": {
     "series": {
       "stacking": "normal"
@@ -65,4 +66,5 @@ var chartOptions = {
     "zoomType": "xy",
     "type": "column"
   }
-};
+	}
+}());
