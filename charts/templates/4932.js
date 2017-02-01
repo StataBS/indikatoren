@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
         "series": [
             {
                 "color": "#083038"
@@ -39,6 +40,7 @@ var chartOptions = {
             "stacking": null
         }
     }
-};
+	}
+}());
 
  

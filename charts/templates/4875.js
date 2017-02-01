@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
     "series": [
         {
             "color": "#007A2F",
@@ -34,6 +35,7 @@ var chartOptions = {
   "xAxis": {
       "type": "category"
   },
-};
+	}
+}());
 
  

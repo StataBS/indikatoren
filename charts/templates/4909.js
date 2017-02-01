@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
   "yAxis": {
     "min": 0,
     "labels": {
@@ -35,4 +36,5 @@ var chartOptions = {
       }
     }
   }
-};
+	}
+}());

@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
   "yAxis": {
     "max": 175000,
     "labels": {
@@ -34,4 +35,5 @@ var chartOptions = {
       }
     }
   }
-};
+	}
+}());

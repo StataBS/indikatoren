@@ -20,7 +20,7 @@ Copy the data as tab-separated csv file named _id_.csv into the folder 'data'. R
 ### Add or Update Metadata
 - Copy the js file named _id_.js into the folder 'metadata/single'.
 - On test system (https://github.com/statabs-test/indikatoren), the master branch is automatically built and deployed to [github pages](https://statabs-test.github.io/indikatoren/) via [travis-ci](https://travis-ci.org/statabs-test/indikatoren) - thus no local build necessary. 
-- For a local build: Rebuild the project to regenerate the json databases for indikatorensets (in folder 'metadata/sets') and for all indikatoren (file metadata/indikatoren.js): 
+- For a local build: Rebuild the project to regenerate the json databases for indikatorensets (in folder 'metadata/sets') and for all indikatoren (file metadata/portal/indikatoren.js): 
 ```javascript
 npm run build
 ``` 
@@ -48,9 +48,9 @@ This will download all svg files to the local downloads directory. You can then 
 ##Licensing
 [Highcharts] (http://www.highcharts.com/) is free for personal, school or non-profit projects under the Creative Commons Attribution - Non Commercial 3.0 License.
 For commercial and governmental websites and projects, you need to buy a license. See [License and Pricing] (http://shop.highsoft.com/highcharts.html).
-### Develop using [cloud9](c9.io)
+### Develop using [cloud9](https://c9.io)
 - Create new hosted workspace based on the node.js template and the correct github repo
-- Run the following command. This will: Remove all node modules, add the execfile module from the repo, change node.js version to 6, install application.
+- Run the following command. This will set node.js version to 6, install true type fonts, and install the application.
 ```shell
 ./c9-setup.sh
 ```
