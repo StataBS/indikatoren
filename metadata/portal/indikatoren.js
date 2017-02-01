@@ -3894,11 +3894,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Personenwagen pro Haushalt nach Wohnviertel",
+		"title": "Personenwagen pro Haushalt",
 		"subtitle": "Stand: 2015",
 		"kuerzel": "I.11.1.0041",
 		"kuerzelKunde": "",
-		"description": "Personenwagen pro Haushalt nach Wohnviertel",
+		"description": "Personenwagen pro Haushalt",
 		"id": 4918,
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
@@ -3925,7 +3925,9 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"children": [],
+		"children": [
+			"5131"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
