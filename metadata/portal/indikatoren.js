@@ -4356,11 +4356,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Anteil Personen ohne Religionszugehörigkeit",
+		"title": "Anteil Konfessionslose",
 		"subtitle": "Stand: 2015",
 		"kuerzel": "I.01.7.0002",
 		"kuerzelKunde": "GS-3.b",
-		"description": "Anteil Personen ohne Religionszugehörigkeit",
+		"description": "Anteil Konfessionslose",
 		"id": 5111,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Religionen",
@@ -4603,7 +4603,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am ältesten sind die Wohngebäude der Altstadt von Gross- und Kleinbasel. Am jüngsten diejenigen in Bettingen und Riehen.",
+		"lesehilfe": "",
 		"erlaeuterungen": "Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
 		"template": "map001",
 		"option": "options001",
@@ -4615,7 +4615,7 @@ var indikatoren = [
 			"4830"
 		],
 		"quellenangabe": [
-			"Kantonale Baustatistik"
+			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
 		]
 	},
 	{
@@ -4640,7 +4640,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil an Einfamilienhäusern ist in den Wohnvierteln Hirzbrunnen und Bruderholz sowie in der Gemeinde Bettingen am höchsten.",
+		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen Gebäuden des Wohnviertels in Prozent.",
 		"template": "map001",
 		"option": "options001",
@@ -4652,7 +4652,7 @@ var indikatoren = [
 			"4831"
 		],
 		"quellenangabe": [
-			"Kantonale Baustatistik"
+			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
 		]
 	},
 	{
@@ -4714,7 +4714,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Eine durchschnittliche Wohnung ist in den Gemeinden Bettingen und Riehen sowie im Wohnviertel Bruderholz am grössten. Die kleinsten Logis befinden sich in den Wohnvierteln Klybeck, Clara und Matthäus.",
+		"lesehilfe": "",
 		"erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
 		"template": "map001",
 		"option": "options001",
@@ -4726,7 +4726,7 @@ var indikatoren = [
 			"4833"
 		],
 		"quellenangabe": [
-			"Kantonale Baustatistik"
+			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
 		]
 	},
 	{
@@ -4751,7 +4751,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Wohnvierteln Klybeck und Kleinhüningen beträgt die durchschnittliche Wohnfläche pro Kopf knapp 30 Quadratmeter, während sie in der Altstadt Grossbasel, in Bettingen und im Wohnviertel Vorstädte über 50 Quadratmeter liegt.",
+		"lesehilfe": "",
 		"erlaeuterungen": "Mittlere Wohnfläche pro Einwohner im Wohnviertel (gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen) in Quadratmeter.",
 		"template": "map001",
 		"option": "options001",
@@ -4764,7 +4764,7 @@ var indikatoren = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
-			"Kantonale Baustatistik"
+			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
 		]
 	},
 	{
