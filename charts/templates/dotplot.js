@@ -85,11 +85,13 @@ var template = {
         },
         "labels": {
             "style": {
-                "color": "#000000"
+                "color": "#000000",
+                "fontSize": "10px"
             }
         },
         "tickColor": "#FFFFFF",
         "type": "category",
+        "tickInterval": 1,
         "uniqueNames": true        
     },
     "tooltip": {
