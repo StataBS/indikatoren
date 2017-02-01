@@ -90,6 +90,97 @@
       ],
       "name": "Arbeitsplätze pro Kopf 2013",
       "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "data": [
+        [
+          "Breite",
+          1
+        ],
+        [
+          "Bruderholz",
+          2
+        ],
+        [
+          "Iselin",
+          3
+        ],
+        [
+          "Riehen",
+          4
+        ],
+        [
+          "Matthäus",
+          5
+        ],
+        [
+          "Bachletten",
+          6
+        ],
+        [
+          "Bettingen",
+          7
+        ],
+        [
+          "Gotthelf",
+          8
+        ],
+        [
+          "Hirzbrunnen",
+          9
+        ],
+        [
+          "Gundeldingen",
+          10
+        ],
+        [
+          "Clara",
+          11
+        ],
+        [
+          "Klybeck",
+          12
+        ],
+        [
+          "St. Johann",
+          13
+        ],
+        [
+          "Am Ring",
+          14
+        ],
+        [
+          "Rosental",
+          15
+        ],
+        [
+          "Altstadt Kleinbasel",
+          16
+        ],
+        [
+          "Wettstein",
+          17
+        ],
+        [
+          "Kleinhüningen",
+          18
+        ],
+        [
+          "St. Alban",
+          19
+        ],
+        [
+          "Altstadt Grossbasel",
+          20
+        ],
+        [
+          "Vorstädte",
+          21
+        ]
+      ],
+      "name": "Rang",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -142,7 +233,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "WA-4 Arbeitsplätze pro Kopf"
+    "text": "WA-4.a Arbeitsplätze pro Kopf"
   },
   "subtitle": {
     "style": {
@@ -151,7 +242,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stand: 2013",
     "align": "left"
   },
   "plotOptions": {
@@ -190,11 +281,16 @@
     "text": ""
   },
   "tooltip": {
-    "pointFormatter": function (){
-            //rank is calculated from index, thus data needs to be sorted by rank ascending.
-            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>' + Highcharts.numberFormat(this.y,3,",", "") + '</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
+    "formatter": function (args){
+            var this_point_index = this.series.data.indexOf(this.point);
+            var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
+            var other_series = args.chart.series[other_series_index];
+            var other_point = other_series.data[this_point_index];
+            return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
+                this.point.name +': <b>' + Highcharts.numberFormat(this.y,3,",", "") + '</b><br/>' + 
+                'Rang <b>' + other_point.y + '</b>';
         },
-    "shared": false
+    "shared": true
   },
   "credits": {
     "enabled": true,

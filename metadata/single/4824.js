@@ -1,4 +1,5 @@
-﻿var indikatoren = [{"title":"Anteil Konfessionslose",
+
+var indikatoren = [{"title":"Anteil Konfessionslose",
 "subtitle":"Stand: 2015",
 "kuerzel":"I.01.7.0001",
 "kuerzelKunde":"GS-3.a",

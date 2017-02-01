@@ -90,6 +90,97 @@
       ],
       "name": "Baujahr Wohngebäude 2015",
       "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "data": [
+        [
+          "Altstadt Grossbasel",
+          1
+        ],
+        [
+          "Altstadt Kleinbasel",
+          2
+        ],
+        [
+          "Vorstädte",
+          3
+        ],
+        [
+          "Am Ring",
+          4
+        ],
+        [
+          "Gotthelf",
+          5
+        ],
+        [
+          "Matthäus",
+          6
+        ],
+        [
+          "Clara",
+          7
+        ],
+        [
+          "Gundeldingen",
+          8
+        ],
+        [
+          "St. Johann",
+          9
+        ],
+        [
+          "Wettstein",
+          10
+        ],
+        [
+          "Bachletten",
+          11
+        ],
+        [
+          "Klybeck",
+          12
+        ],
+        [
+          "Iselin",
+          13
+        ],
+        [
+          "St. Alban",
+          14
+        ],
+        [
+          "Breite",
+          15
+        ],
+        [
+          "Hirzbrunnen",
+          16
+        ],
+        [
+          "Kleinhüningen",
+          17
+        ],
+        [
+          "Bruderholz",
+          18
+        ],
+        [
+          "Rosental",
+          19
+        ],
+        [
+          "Riehen",
+          20
+        ],
+        [
+          "Bettingen",
+          21
+        ]
+      ],
+      "name": "Rang",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -142,7 +233,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "RU-1 Baujahr Wohngebäude"
+    "text": "RU-1.a Baujahr Wohngebäude"
   },
   "subtitle": {
     "style": {
@@ -151,7 +242,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stand: 2015",
     "align": "left"
   },
   "plotOptions": {
@@ -189,11 +280,16 @@
     "min": 1800
   },
   "tooltip": {
-    "pointFormatter": function (){
-            //rank is calculated from index, thus data needs to be sorted by rank ascending.
-            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>' + Highcharts.numberFormat(this.y,0,",", "") + '</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
+    "formatter": function (args){
+            var this_point_index = this.series.data.indexOf(this.point);
+            var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
+            var other_series = args.chart.series[other_series_index];
+            var other_point = other_series.data[this_point_index];
+            return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
+                this.point.name +': <b>' + Highcharts.numberFormat(this.y,0,",", "") + '</b><br/>' + 
+                'Rang <b>' + other_point.y + '</b>';
         },
-    "shared": false
+    "shared": true
   },
   "credits": {
     "enabled": true,
