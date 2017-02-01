@@ -15,7 +15,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"In den Wohnvierteln Klybeck und Kleinhüningen beträgt die durchschnittliche Wohnfläche pro Kopf knapp 30 Quadratmeter, während sie in der Altstadt Grossbasel, in Bettingen und im Wohnviertel Vorstädte über 50 Quadratmeter liegt.",
+"lesehilfe":"",
 "erlaeuterungen":"Mittlere Wohnfläche pro Einwohner im Wohnviertel (gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen) in Quadratmeter.",
 "template":"map001",
 "option":"options001",

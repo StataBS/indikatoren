@@ -15,7 +15,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Der Anteil an Einfamilienhäusern ist in den Wohnvierteln Hirzbrunnen und Bruderholz sowie in der Gemeinde Bettingen am höchsten.",
+"lesehilfe":"",
 "erlaeuterungen":"Anteil der Einfamilienhäuser an allen Gebäuden des Wohnviertels in Prozent.",
 "template":"map001",
 "option":"options001",
