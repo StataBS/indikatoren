@@ -1,23 +1,23 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M120 55h355v294H120z"/>
+    <path fill="none" class="highcharts-plot-background" d="M112 55h363v294H112z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M120 69.5h355m-355 14h355m-355 14h355m-355 14h355m-355 14h355m-355 14h355m-355 14h355m-355 14h355m-355 14h355m-355 14h355m-355 14h355m-355 14h355m-355 14h355m-355 14h355m-355 14h355m-355 14h355m-355 14h355m-355 14h355m-355 14h355m-355 14h355m-355 14h355m-355-294h355"/>
+        <path fill="none" class="highcharts-grid-line" d="M112 69.5h363m-363 14h363m-363 14h363m-363 14h363m-363 14h363m-363 14h363m-363 14h363m-363 14h363m-363 14h363m-363 14h363m-363 14h363m-363 14h363m-363 14h363m-363 14h363m-363 14h363m-363 14h363m-363 14h363m-363 14h363m-363 14h363m-363 14h363m-363 14h363m-363-294h363"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M119.5 55v294m89-294v294m89-294v294m88-294v294m90-294v294"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M111.5 55v294m45-294v294m46-294v294m45-294v294m46-294v294m45-294v294m45-294v294m46-294v294m46-294v294"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M120 55h355v294H120z"/>
+    <path fill="none" class="highcharts-plot-border" d="M112 55h363v294H112z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M120 69.5h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10-295h-10"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M119.5 55v294"/>
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M112 69.5h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10 14h-10m10-295h-10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M111.5 55v294"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M120 349h355"/>
+        <path fill="none" class="highcharts-axis-line" d="M112 349h363"/>
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#923F8D" d="M219 58a4 4 0 1 1 .004 0zm48 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm20 14a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0zm18 14a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0zm6 14a4 4 0 1 1 .004 0zm9 14a4 4 0 1 1 .004 0zm5 14a4 4 0 1 1 .004 0zm9 14a4 4 0 1 1 .004 0zm17 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm7 14a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0zm10 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm20 14a4 4 0 1 1 .004 0zm19 14a4 4 0 1 1 .004 0zm6 14a4 4 0 1 1 .004 0z" class="highcharts-point"/>
+            <path fill="#923F8D" d="M213 58a4 4 0 1 1 .004 0zm49 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm20 14a4 4 0 1 1 .004 0zm5 14a4 4 0 1 1 .004 0zm19 14a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0zm5 14a4 4 0 1 1 .004 0zm10 14a4 4 0 1 1 .004 0zm5 14a4 4 0 1 1 .004 0zm9 14a4 4 0 1 1 .004 0zm17 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm6 14a4 4 0 1 1 .004 0zm5 14a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0zm10 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm20 14a4 4 0 1 1 .004 0zm20 14a4 4 0 1 1 .004 0zm6 14a4 4 0 1 1 .004 0z" class="highcharts-point"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
@@ -26,86 +26,98 @@
     <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
         <tspan>Stand: 2014</tspan>
     </text>
-    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="105" y="67">
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
+        <text x="97" y="66">
             <tspan>Bettingen</tspan>
         </text>
-        <text x="105" y="81">
+        <text x="97" y="80">
             <tspan>Riehen</tspan>
         </text>
-        <text x="105" y="95">
+        <text x="97" y="94">
             <tspan>Bruderholz</tspan>
         </text>
-        <text x="105" y="109">
+        <text x="97" y="108">
             <tspan>Kleinhüningen</tspan>
         </text>
-        <text x="105" y="123">
+        <text x="97" y="122">
             <tspan>Hirzbrunnen</tspan>
         </text>
-        <text x="105" y="137">
+        <text x="97" y="136">
             <tspan>Rosental</tspan>
         </text>
-        <text x="105" y="151">
+        <text x="97" y="150">
             <tspan>Klybeck</tspan>
         </text>
-        <text x="105" y="165">
+        <text x="97" y="164">
             <tspan>Bachletten</tspan>
         </text>
-        <text x="105" y="179">
+        <text x="97" y="178">
             <tspan>St. Johann</tspan>
         </text>
-        <text x="105" y="193">
+        <text x="97" y="192">
             <tspan>Matthäus</tspan>
         </text>
-        <text x="105" y="207">
+        <text x="97" y="206">
             <tspan>St. Alban</tspan>
         </text>
-        <text x="105" y="221">
+        <text x="97" y="220">
             <tspan>Clara</tspan>
         </text>
-        <text x="105" y="235">
+        <text x="97" y="234">
             <tspan>Wettstein</tspan>
         </text>
-        <text x="105" y="249">
+        <text x="97" y="248">
             <tspan>Gundeldingen</tspan>
         </text>
-        <text x="105" y="263">
+        <text x="97" y="262">
             <tspan>Iselin</tspan>
         </text>
-        <text x="105" y="277">
+        <text x="97" y="276">
             <tspan>Breite</tspan>
         </text>
-        <text x="105" y="291">
+        <text x="97" y="290">
             <tspan>Am Ring</tspan>
         </text>
-        <text x="105" y="305">
+        <text x="97" y="304">
             <tspan>Gotthelf</tspan>
         </text>
-        <text x="105" y="319">
+        <text x="97" y="318">
             <tspan>Altstadt Grossbasel</tspan>
         </text>
-        <text x="105" y="333">
+        <text x="97" y="332">
             <tspan>Vorstädte</tspan>
         </text>
-        <text x="105" y="347">
+        <text x="97" y="346">
             <tspan>Altstadt Kleinbasel</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="120" y="368">
-            <tspan>0%</tspan>
+        <text x="112" y="368">
+            0%
         </text>
-        <text x="208.75" y="368">
-            <tspan>10%</tspan>
+        <text x="157.375" y="368">
+            5%
         </text>
-        <text x="297.5" y="368">
-            <tspan>20%</tspan>
+        <text x="202.75" y="368">
+            10%
         </text>
-        <text x="386.25" y="368">
-            <tspan>30%</tspan>
+        <text x="248.125" y="368">
+            15%
         </text>
-        <text x="464" y="368">
-            <tspan>40%</tspan>
+        <text x="293.5" y="368">
+            20%
+        </text>
+        <text x="338.875" y="368">
+            25%
+        </text>
+        <text x="384.25" y="368">
+            30%
+        </text>
+        <text x="429.625" y="368">
+            35%
+        </text>
+        <text x="464.008" y="368">
+            40%
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
