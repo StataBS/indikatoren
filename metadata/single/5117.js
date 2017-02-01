@@ -15,7 +15,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Am ältesten sind die Wohngebäude der Altstadt von Gross- und Kleinbasel. Am jüngsten diejenigen in Bettingen und Riehen.",
+"lesehilfe":"",
 "erlaeuterungen":"Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
 "template":"map001",
 "option":"options001",
