@@ -1,4 +1,5 @@
-var template = {
+(function(){
+    return {
 	chart: {		
     events:{
           load: function() {
@@ -81,4 +82,5 @@ var template = {
     "align": "right",
     "symbolRadius": 0
   }
-};
+	}
+}());

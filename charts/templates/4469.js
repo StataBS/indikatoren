@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
   "yAxis": {
     "labels": {
         "formatter": function(){
@@ -84,5 +85,6 @@ var chartOptions = {
   "chart": {		
 		"marginTop": 120
 	}
-};
+	}
+}());
  

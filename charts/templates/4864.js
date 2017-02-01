@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
     "series": [
         {
             "color": "#71A3B5"
@@ -16,6 +17,7 @@ var chartOptions = {
   "legend": {
       "reversed": false
   }
-};
+	}
+}());
 
  

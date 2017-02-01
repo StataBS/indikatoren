@@ -2,15 +2,23 @@
 //how to use custom non-node code in from within node.js: http://stackoverflow.com/questions/5171213/load-vanilla-javascript-libraries-into-node-js
 
 //Hack to re-use existing web js code from within node.js, see http://stackoverflow.com/a/8808162
-var execfile = require("execfile");
-var serialize = require('serialize-javascript');
-var fs = require('fs');
-var glob = require("glob");
-var path = require('path')
-var phantomjs = require('phantomjs-prebuilt')
-var binPath = phantomjs.path
+//var execute = require("execute");
 
-console.log('deleting previous chart configs...');
+var vm = require("vm");
+var fs = require("fs");
+var execute = function(path, context) {
+  context = context || {};
+  var data = fs.readFileSync(path);
+  var result = vm.runInNewContext(data, context, path);
+  return {context: context, result: result};
+};
+
+var glob = require("glob");
+var path = require('path');
+var phantomjs = require('phantomjs-prebuilt');
+var binPath = phantomjs.path;
+
+console.log('deleting previous chart images...');
 var rimraf = require("rimraf");
 rimraf('images/indikatorenset/*', function(error) {
     if (error) { throw error; }
@@ -33,10 +41,10 @@ function go(){
     var views = [true, false];
     views.forEach(function(view){
         console.log('Creating MultiArgsFile entries for indikatorensetView=' + view);
-        var files = glob.sync("metadata/single/*.js");
+        var files = glob.sync("metadata/single/*.json");
         files.forEach(function(filepath){
-            var ctx = execfile(filepath);
-            var indikator = ctx.indikatoren[0];
+            var fileContents = fs.readFileSync(filepath);
+            var indikator = JSON.parse(fileContents);
             if (indikator.visible == undefined || indikator.visible){            
                 console.log('Creating MultiArgsFile entries for chart ' + indikator.id + ' indikatorensetView=' + view +'...');
                 var imagePath = (view) ? 'images/indikatorenset/' : 'images/portal/';
@@ -60,7 +68,7 @@ function go(){
         });
     });
     var allArgsObj = {allArgs};
-    console.log('Saving MultiArgsFile to ' + path.join(__dirname, 'convertArgs2.json') + '...');
+    console.log('Saving MultiArgsFile to ' + path.join(__dirname, 'convertArgs.json') + '...');
     fs.writeFileSync(path.join(__dirname, 'convertArgs.json'), JSON.stringify(allArgsObj, null, '\t'));
     console.log('Invoking PhantomJs to render all images...');
     renderMultipleImages(console);
@@ -72,10 +80,10 @@ function go(){
 function addSvgViewBox(console){
     var views = [true, false];
     views.forEach(function(view){
-        var files = glob.sync("metadata/single/*.js");
+        var files = glob.sync("metadata/single/*.json");
         files.forEach(function(filepath){
-            var ctx = execfile(filepath);
-            var indikator = ctx.indikatoren[0];
+            var fileContents = fs.readFileSync(filepath);
+            var indikator = JSON.parse(fileContents);
             if (indikator.visible == undefined || indikator.visible){            
                 var path = (view) ? 'images/indikatorenset/' : 'images/portal/';
                 var svg = fs.readFileSync(path + indikator.id + '.svg', 'utf8');

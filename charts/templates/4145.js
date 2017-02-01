@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
   "xAxis": {
     "max": 2015,
     "tickInterval": 5,
@@ -43,4 +44,5 @@ var chartOptions = {
       }
     }
   }
-};
+	}
+}());

@@ -3,8 +3,6 @@ global $
 
 global Highcharts
 
-global chartOptions
-global template
 global indikatoren
 global templatesById
 */
@@ -13,30 +11,26 @@ global templatesById
 
 //parse csv and configure HighCharts object
 function parseData(chartOptions, data, completeHandler) {
+    try {
       var dataOptions = Highcharts.merge(chartOptions.data, {
-        /*  seriesMapping necessary for charts with error bars. */          
-        "seriesMapping": [
-          {
-            "x": 0
-          },
-          {
-            "x": 0
-          },
-          {
-            "x": 0
-          }
-        ],
           csv: data
       });
+      
       //delete data node in chartOptions after merging into dataOptions
       delete chartOptions.data;
-      dataOptions.sort = true;
+ 
+      //dataOptions.sort = true;
       dataOptions.complete = completeHandler;
       Highcharts.data(dataOptions, chartOptions);
+    } 
+    catch (error) {
+      console.log(error);
+      completeHandler(undefined);
+    }      
 }
 
 //merge series with all options
-function createChartConfig(data, chartOptions, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn){  
+function createChartConfig(data, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn){  
   parseData(chartOptions, data, function (dataOptions) {
     // Merge series configs
     if (chartOptions.series && dataOptions) {
@@ -62,8 +56,8 @@ function createChartConfig(data, chartOptions, chartMetaData, indikatorensetView
 
 
 //merge series with all options and draw chart
-function drawChart(data, chartOptions, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn){
-  createChartConfig(data, chartOptions, chartMetaData, indikatorensetView, suppressNumberInTitle, function(options){
+function drawChart(data, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn){
+  createChartConfig(data, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, function(options){
     var chartType = (options.chart.type === "map") ? 'Map' : 'Chart';
     var chart = new Highcharts[chartType](options, callbackFn);
     return chart;
@@ -107,7 +101,7 @@ function createEmptyLabels(options){
 
 //todo: create new function that uses the pre-created chart configs from /charts/configs
 //load global options, template, chartOptions from external scripts, load csv data from external file, and render chart to designated div
-function renderChartByKuerzel(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn){
+function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn){
   //load scripts one after the other, then load csv and draw the chart
   $.when(    
       $.getScript(globalOptionsUrl),
@@ -116,18 +110,24 @@ function renderChartByKuerzel(globalOptionsUrl, templateUrl, chartUrl, csvUrl, k
       $.Deferred(function( deferred ){
         $(deferred.resolve);
       })
-  ).done(function(){
+  ).done(function(optionsReturnData, templateReturnData, chartReturnData){
+      //get returned script, evaluate it, save returned object to variable. 
+      var globalOptions = eval(optionsReturnData[0]);
+      var chartOptions = eval(chartReturnData[0]);
+      var template = eval(templateReturnData[0]);
+      
       //load csv and draw chart            
       $.get(csvUrl, function(data){
-        drawChart(data, chartOptions, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn);
+        drawChart(data, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn);
       });
+    }
+  ).fail(function(jqXHR, textStatus, errorThrown){
+    console.log('$.getScript() failed! ');
+    console.log(textStatus);
+    console.log(errorThrown);
   });  
 }
 
-//wrapper function if id is given instead of kuerzel
-function renderChartById(globalOptionsUrl, templateUrl, chartUrl, csvUrl, id, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn){     
-  renderChartByKuerzel(globalOptionsUrl, templateUrl, chartUrl, csvUrl, findKuerzelById(indikatoren, id), chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn);
-}
 
 //find chart metadata by kuerzel from json database 
 function findChartByKuerzel(data, kuerzel){
@@ -190,7 +190,7 @@ function lazyRenderChartById(id, chartMetaData, indikatorensetView, suppressNumb
     var chartUrls = getChartUrls(id);
     //get template for requested chart 
     (chartMetaData === undefined) ? chartMetaData = findChartById(indikatoren, id) : chartMetaData;
-    renderChartById(chartUrls['optionsUrl'], chartUrls['templateUrl'], chartUrls['chartUrl'], chartUrls['csvUrl'], id, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn);
+    renderChart(chartUrls['optionsUrl'], chartUrls['templateUrl'], chartUrls['chartUrl'], chartUrls['csvUrl'], chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn);
   }
   //highcharts container exists already: redraw chart without reloading data from network
   else { 
