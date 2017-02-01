@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
   "plotOptions": {
     "series": {
       "pointWidth": 25,
@@ -56,4 +57,5 @@ var chartOptions = {
     "marginTop": 75,
     "type": "column"
   }
-};
+	}
+}());

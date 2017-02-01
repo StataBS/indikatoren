@@ -1,4 +1,5 @@
-var chartOptions = { 
+(function(){
+    return { 
   "plotOptions": { 
     "series": { 
       "stacking": "percent" 
@@ -56,5 +57,6 @@ var chartOptions = {
     "zoomType": "xy", 
     "type": "column" 
   } 
-}; 
+	}
+}()); 
 

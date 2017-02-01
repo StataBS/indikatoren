@@ -1,10 +1,21 @@
-var chartOptions = {
+(function(){
+    return {
 	"series": [{
 		"color": "#68AB2B"
 	},
 	{
 		"visible": false
 	}],
+	"data": {
+	    "parsed": function (columns) {
+	    	
+	    	//copy columns to the end, then remove the first 5
+	    	columns.push(columns[3]);
+	    	columns.push(columns[1]);
+	    	columns.push(columns[2]);
+	    	columns.splice(0,5);
+    	}
+	},
 	"yAxis": {
 		"min": 1800,
 		"labels": {
@@ -24,6 +35,7 @@ var chartOptions = {
                 'Rang <b>' + other_point.y + '</b>';
         },        
     }
-};
+	}
+}());
 
 //Colors of StatA Bereiche: violett3 #923F8D, gruen3 #68AB2B, blau3 #689199

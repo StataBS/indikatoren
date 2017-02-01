@@ -1,21 +1,14 @@
-//Hack to re-use existing web js code from within node.js, see http://stackoverflow.com/a/8808162
-var execfile = require("execfile");
-
-
-//use glob: http://stackoverflow.com/a/25580289 
-//npm install glob
-
+var fs = require("fs");
 var glob = require("glob");
 var indikatoren = [];
 var kuerzelById = {};
 var idByKuerzel = {};
 var templatesById = {};
 console.log('Searching for json files to add to json databases...');
-var files = glob.sync("metadata/single/*.js");
+var files = glob.sync("metadata/single/*.json");
 files.forEach(function(filepath){
-    //console.log('Reading ' + filepath + ' ...');
-    var ctx = execfile(filepath);
-    var indikator = ctx.indikatoren[0];
+    var fileContents = fs.readFileSync(filepath);
+    var indikator = JSON.parse(fileContents)
     if (indikator.visible == undefined || indikator.visible == true) {
         console.log(filepath + ' is visible, proceeding with adding...');
         if (indikator.visibleInPortal == undefined || indikator.visibleInPortal == true) {
@@ -41,7 +34,6 @@ saveToJsonFile('templatesById', 'all/',templatesById, console);
 //console.log('...done!');
 
 function saveToJsonFile(name, dir, obj, console){
-    var fs = require('fs');
     var jsonFile = "var " +  name + " = " + JSON.stringify(obj, null, '\t') + ";";
     fs.writeFile('metadata/' + dir +  name + '.js', jsonFile);
 };
