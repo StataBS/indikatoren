@@ -75,6 +75,6 @@
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="390" cursor="default" color="#000" font-size="10">
-        <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik;</tspan><tspan x="10" dy="13">Kantonale Baustatistik</tspan>
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik;</tspan><tspan x="10" dy="13">Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik</tspan>
     </text>
 </svg>
