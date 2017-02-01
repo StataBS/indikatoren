@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
   "plotOptions": {
     "series": {
       "stacking": "percent",
@@ -100,4 +101,5 @@ var chartOptions = {
     "marginTop": 150,
     "type": "column"
   }
-};
+	}
+}());

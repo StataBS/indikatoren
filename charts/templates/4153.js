@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
   "yAxis": {
     "min": 0,
     "max": 10000000,
@@ -38,4 +39,5 @@ var chartOptions = {
       }
     }
   }
-};
+	}
+}());

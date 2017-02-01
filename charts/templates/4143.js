@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
   "yAxis": [{
     "labels": {
       "format": "{value:,.0f}",
@@ -65,5 +66,6 @@ var chartOptions = {
     "type": "line",
     "alignTicks": false
   }
-};
+	}
+}());
  

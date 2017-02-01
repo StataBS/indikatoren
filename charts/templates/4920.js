@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
   "yAxis": {
     "tickInterval": 250000,
     "labels": {
@@ -35,4 +36,5 @@ var chartOptions = {
       }
     }
   }
-};
+	}
+}());

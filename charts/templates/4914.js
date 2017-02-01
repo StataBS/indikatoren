@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
   "yAxis": [{
     "title": {
       "style": {
@@ -69,4 +70,5 @@ var chartOptions = {
     "marginTop": 90,
     "type": "line"
   }
-};
+	}
+}());

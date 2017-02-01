@@ -152,18 +152,24 @@ function initializeFilterJS(indikatorenset){
   $("#lightbox").on('show.bs.modal', function (e) {    
     var targetId = $(e.relatedTarget).attr("indikator-id-data");
     lazyRenderChartById(targetId, undefined, indikatorensetView);
+    //add event listener to render chart on carousel slide
+    //only do this in here in order to prevent two events from happening when clicking on a non-active chart thumbnail (sliding and opening model)
+    $('#lightbox').on('slide.bs.carousel', function (e) {
+        var targetId = $(e.relatedTarget).children().first().attr('indikator-id-data');
+        lazyRenderChartById(targetId, undefined, indikatorensetView);
+        //display chart number in indicator      
+        var currentNumber = $(e.relatedTarget).index() + 1;            
+        var indicatorText = $('#carousel-indicators li').text();
+        var lastNumberText = indicatorText.substring(0, indicatorText.indexOf(' /'));      
+        $('#carousel-indicators li').text(indicatorText.replace(lastNumberText, currentNumber));      
+        $('#carousel-indicators li').removeClass('active');
+    });
   });
 
-  //add event listener to render chart on carousel slide
-  $('#lightbox').on('slide.bs.carousel', function (e) {
-      var targetId = $(e.relatedTarget).children().first().attr('indikator-id-data');
-      lazyRenderChartById(targetId, undefined, indikatorensetView);
-      //display chart number in indicator      
-      var currentNumber = $(e.relatedTarget).index() + 1;            
-      var indicatorText = $('#carousel-indicators li').text();
-      var lastNumberText = indicatorText.substring(0, indicatorText.indexOf(' /'));      
-      $('#carousel-indicators li').text(indicatorText.replace(lastNumberText, currentNumber));      
-      $('#carousel-indicators li').removeClass('active');
+  //remove sliding event event handler when modal ist closed in order to prevent sliding event from also being triggered when clicking an a chart thumbnail
+  $("#lightbox").on('hide.bs.modal', function (e) {
+      //remove slide event handler
+      $('#lightbox').off('slide.bs.carousel');
   });
 }
 

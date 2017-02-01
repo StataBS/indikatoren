@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
   "chart": {
     "marginBottom": 75
   },
@@ -38,4 +39,5 @@ var chartOptions = {
       }
     }
   }
-};
+	}
+}());

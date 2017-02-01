@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
   "data": {
     "switchRowsAndColumns": false
   },
@@ -77,4 +78,5 @@ var chartOptions = {
     "marginTop": 75,
     "type": "column"
   }
-};
+	}
+}());
