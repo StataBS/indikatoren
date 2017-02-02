@@ -28,7 +28,7 @@
     "build:charts": "node build/createChartConfigs",
     "build:images_phantom_fast": "node build/createThumbnailsPhantomFast",
     "build:optimize_images": "echo 'Optimizing svg images...' && svgo --pretty --multipass -f images/portal/ && svgo --pretty --multipass -f images/indikatorenset/ && echo '...done optimizing images!'",
-    "build:copy_modules": "echo 'Copying required node_modules' && copy-node-modules . assets/js -v",
+    "build:copy_modules": "echo 'Copying required node_modules to assets/js/modules...' && copy-node-modules . assets/js -v && mv assets/js/node_modules assets/js/modules",
     "build": "npm run build:database && npm run build:partial_databases && npm run build:charts && npm run build:images_phantom_fast && npm run build:optimize_images && build:copy_modules",
     "test": "echo \"No test specified\" && exit 0",
     "server": "http-server -p 8000 -c-1 -s -o ",
