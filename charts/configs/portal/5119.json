@@ -6109,90 +6109,90 @@
       "data": [
         [
           1,
-          1
-        ],
-        [
-          12,
-          2
-        ],
-        [
-          16,
-          3
-        ],
-        [
-          18,
-          4
-        ],
-        [
-          19,
-          5
-        ],
-        [
-          13,
-          6
-        ],
-        [
-          17,
-          7
-        ],
-        [
-          6,
-          8
+          "Altstadt Grossbasel"
         ],
         [
           2,
-          9
+          "Altstadt Kleinbasel"
         ],
         [
           3,
-          10
-        ],
-        [
-          14,
-          11
-        ],
-        [
-          11,
-          12
-        ],
-        [
-          9,
-          13
-        ],
-        [
-          5,
-          14
+          "Rosental"
         ],
         [
           4,
-          15
+          "Klybeck"
         ],
         [
-          10,
-          16
+          5,
+          "Kleinhüningen"
         ],
         [
-          8,
-          17
-        ],
-        [
-          15,
-          18
+          6,
+          "Clara"
         ],
         [
           7,
-          19
+          "Matthäus"
+        ],
+        [
+          8,
+          "Gundeldingen"
+        ],
+        [
+          9,
+          "Vorstädte"
+        ],
+        [
+          10,
+          "Am Ring"
+        ],
+        [
+          11,
+          "Wettstein"
+        ],
+        [
+          12,
+          "St. Johann"
+        ],
+        [
+          13,
+          "Gotthelf"
+        ],
+        [
+          14,
+          "St. Alban"
+        ],
+        [
+          15,
+          "Breite"
+        ],
+        [
+          16,
+          "Iselin"
+        ],
+        [
+          17,
+          "Bachletten"
+        ],
+        [
+          18,
+          "Hirzbrunnen"
+        ],
+        [
+          19,
+          "Bruderholz"
         ],
         [
           20,
-          20
+          "Riehen"
         ],
         [
-          30,
-          21
+          21,
+          "Bettingen"
         ]
       ],
-      "name": "Rang"
+      "name": "Wohnviertel"
     },
     {
       "name": "Rhein",
