@@ -36,7 +36,18 @@
 					return Highcharts.numberFormat((this.value), 0); 
 				}
 			}
-		},			
+		},
+        "data": {
+		    "seriesMapping": [
+		      {
+		      	x: 0, y: 1
+		      },
+		      {
+		      	//2nd series: use x values from column 2
+		      	x: 2
+		      }		      
+		    ]
+        },
 		"series": [
 			{
 				"name": "Wohnviertel", 

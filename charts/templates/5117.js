@@ -26,7 +26,18 @@
 			"min": 1800, 
 			"minColor": "#eff6e9",
 			"maxColor": "#4b7b1f"
-		},			
+		},
+        "data": {
+		    "seriesMapping": [
+		      {
+		      	x: 0, y: 1
+		      },
+		      {
+		      	//2nd series: use x values from column 2
+		      	x: 2
+		      }		      
+		    ]
+        },
 		"series": [
 			{
 				"name": "Wohnviertel", 

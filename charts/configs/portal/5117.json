@@ -6109,90 +6109,90 @@
       "data": [
         [
           1,
-          1
-        ],
-        [
-          12,
-          2
+          "Altstadt Grossbasel"
         ],
         [
           2,
-          3
+          "Altstadt Kleinbasel"
         ],
         [
           3,
-          4
-        ],
-        [
-          9,
-          5
-        ],
-        [
-          17,
-          6
-        ],
-        [
-          13,
-          7
-        ],
-        [
-          6,
-          8
-        ],
-        [
-          11,
-          9
-        ],
-        [
-          14,
-          10
-        ],
-        [
-          8,
-          11
-        ],
-        [
-          18,
-          12
-        ],
-        [
-          10,
-          13
-        ],
-        [
-          5,
-          14
+          "Vorstädte"
         ],
         [
           4,
-          15
+          "Am Ring"
         ],
         [
-          15,
-          16
+          5,
+          "Gotthelf"
         ],
         [
-          19,
-          17
+          6,
+          "Matthäus"
         ],
         [
           7,
-          18
+          "Clara"
+        ],
+        [
+          8,
+          "Gundeldingen"
+        ],
+        [
+          9,
+          "St. Johann"
+        ],
+        [
+          10,
+          "Wettstein"
+        ],
+        [
+          11,
+          "Bachletten"
+        ],
+        [
+          12,
+          "Klybeck"
+        ],
+        [
+          13,
+          "Iselin"
+        ],
+        [
+          14,
+          "St. Alban"
+        ],
+        [
+          15,
+          "Breite"
         ],
         [
           16,
-          19
+          "Hirzbrunnen"
+        ],
+        [
+          17,
+          "Kleinhüningen"
+        ],
+        [
+          18,
+          "Bruderholz"
+        ],
+        [
+          19,
+          "Rosental"
         ],
         [
           20,
-          20
+          "Riehen"
         ],
         [
-          30,
-          21
+          21,
+          "Bettingen"
         ]
       ],
-      "name": "Rang"
+      "name": "Wohnviertel"
     },
     {
       "name": "Rhein",

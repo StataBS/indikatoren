@@ -6108,91 +6108,91 @@
       "visible": false,
       "data": [
         [
-          18,
-          1
-        ],
-        [
-          19,
-          2
-        ],
-        [
-          13,
-          3
-        ],
-        [
-          17,
-          4
-        ],
-        [
-          16,
-          5
-        ],
-        [
-          10,
-          6
-        ],
-        [
-          11,
-          7
-        ],
-        [
-          4,
-          8
-        ],
-        [
-          15,
-          9
-        ],
-        [
-          12,
-          10
-        ],
-        [
-          7,
-          11
-        ],
-        [
-          20,
-          12
-        ],
-        [
-          30,
-          12
-        ],
-        [
-          6,
-          14
-        ],
-        [
-          5,
-          15
-        ],
-        [
-          9,
-          16
-        ],
-        [
-          14,
-          17
-        ],
-        [
-          8,
-          18
-        ],
-        [
-          3,
-          19
+          1,
+          "Klybeck"
         ],
         [
           2,
-          20
+          "Kleinhüningen"
         ],
         [
-          1,
-          21
+          3,
+          "Clara"
+        ],
+        [
+          4,
+          "Matthäus"
+        ],
+        [
+          5,
+          "Rosental"
+        ],
+        [
+          6,
+          "Iselin"
+        ],
+        [
+          7,
+          "St. Johann"
+        ],
+        [
+          8,
+          "Breite"
+        ],
+        [
+          9,
+          "Hirzbrunnen"
+        ],
+        [
+          10,
+          "Altstadt Kleinbasel"
+        ],
+        [
+          11,
+          "Bruderholz"
+        ],
+        [
+          12,
+          "Riehen"
+        ],
+        [
+          12,
+          "Bettingen"
+        ],
+        [
+          14,
+          "Gundeldingen"
+        ],
+        [
+          15,
+          "St. Alban"
+        ],
+        [
+          16,
+          "Gotthelf"
+        ],
+        [
+          17,
+          "Wettstein"
+        ],
+        [
+          18,
+          "Bachletten"
+        ],
+        [
+          19,
+          "Am Ring"
+        ],
+        [
+          20,
+          "Vorstädte"
+        ],
+        [
+          21,
+          "Altstadt Grossbasel"
         ]
       ],
-      "name": "Rang"
+      "name": "Wohnviertel"
     },
     {
       "name": "Rhein",
