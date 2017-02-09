@@ -6598,8 +6598,8 @@
     "marker": {
       "color": "black"
     },
-    "minColor": "#eff4f4",
-    "maxColor": "#4f6e75"
+    "minColor": "#eff6e9",
+    "maxColor": "#4b7b1f"
   },
   "mapNavigation": {
     "enabled": true,
@@ -6632,7 +6632,7 @@
                     var other_series = args.chart.series[other_series_index];
                     var other_point = other_series.data[this_point_index];
                     return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                        this.point.name +': <b>' + Highcharts.numberFormat((this.point.value),2) + '</b><br/>' + 
+                        this.point.name +': <b>' + Highcharts.numberFormat((this.point.value),3) + '</b><br/>' + 
                         'Rang <b>' + other_point.value + '</b>';
                 }
             }

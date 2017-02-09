@@ -6598,8 +6598,8 @@
     "marker": {
       "color": "black"
     },
-    "minColor": "#eff4f4",
-    "maxColor": "#4f6e75"
+    "minColor": "#eff6e9",
+    "maxColor": "#4b7b1f"
   },
   "mapNavigation": {
     "enabled": true,
