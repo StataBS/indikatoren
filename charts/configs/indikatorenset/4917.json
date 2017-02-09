@@ -96,43 +96,43 @@
       "data": [
         [
           "Altstadt Kleinbasel",
-          21
+          1
         ],
         [
           "Matthäus",
-          20
+          2
         ],
         [
           "Gundeldingen",
-          19
+          3
         ],
         [
           "St. Johann",
-          18
+          4
         ],
         [
           "Altstadt Grossbasel",
-          17
+          5
         ],
         [
           "Rosental",
-          16
+          6
         ],
         [
           "Iselin",
-          15
+          7
         ],
         [
           "Am Ring",
-          14
+          8
         ],
         [
           "Gotthelf",
-          13
+          9
         ],
         [
           "Klybeck",
-          12
+          10
         ],
         [
           "Vorstädte",
@@ -140,43 +140,43 @@
         ],
         [
           "Clara",
-          10
+          12
         ],
         [
           "Wettstein",
-          9
+          13
         ],
         [
           "Kleinhüningen",
-          8
+          14
         ],
         [
           "Breite",
-          7
+          15
         ],
         [
           "Bachletten",
-          6
+          16
         ],
         [
           "Hirzbrunnen",
-          5
+          17
         ],
         [
           "St. Alban",
-          4
+          18
         ],
         [
           "Bruderholz",
-          3
+          19
         ],
         [
           "Riehen",
-          2
+          20
         ],
         [
           "Bettingen",
-          1
+          21
         ]
       ],
       "name": "Rang",
@@ -266,8 +266,8 @@
     },
     "labels": {
       "formatter": function (){
-                return Highcharts.numberFormat((this.value), 0, ".", " ");                
-            },
+                    return Highcharts.numberFormat((this.value), 0, ".", " ");                
+                },
       "style": {
         "color": "#000000"
       }
@@ -295,14 +295,14 @@
   },
   "tooltip": {
     "formatter": function (args){
-            var this_point_index = this.series.data.indexOf(this.point);
-            var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
-            var other_series = args.chart.series[other_series_index];
-            var other_point = other_series.data[this_point_index];
-            return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                this.point.name +': <b>' + Highcharts.numberFormat(this.y,1,",", "") + '</b><br/>' + 
-                'Rang <b>' + other_point.y + '</b>';
-        },
+                var this_point_index = this.series.data.indexOf(this.point);
+                var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
+                var other_series = args.chart.series[other_series_index];
+                var other_point = other_series.data[this_point_index];
+                return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
+                    this.point.name +': <b>' + Highcharts.numberFormat((this.y),1) + '</b><br/>' + 
+                    'Rang <b>' + other_point.y + '</b>';
+            },
     "shared": true
   },
   "exporting": {
