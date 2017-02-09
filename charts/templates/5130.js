@@ -6,8 +6,8 @@
     return {
 		"colorAxis": {
 			//"min": undefined,
-			"minColor": "#eff4f4",
-			"maxColor": "#4f6e75",
+			"minColor": "#eff6e9",
+			"maxColor": "#4b7b1f",
 			"labels": {
 				"formatter": function () {
 					return Highcharts.numberFormat((this.value),0); 
