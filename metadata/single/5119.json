@@ -1,4 +1,4 @@
-{"title":"Anteil Grünflächen",
+﻿{"title":"Anteil Grünflächen",
 "subtitle":"Stand: 2014",
 "kuerzel":"I.02.1.0020",
 "kuerzelKunde":"RU-3.b",
@@ -24,5 +24,6 @@
 "parentId":4832,
 "children":[],
 "renderLink":["4832"],
-"quellenangabe":["Grundbuch- und Vermessungsamt  Basel-Stadt"]
+"quellenangabe":["Grundbuch- und Vermessungsamt  Basel-Stadt"],
+"externalLinks":["Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=ru_gruen.gruenflaeche_ant' target='_blank'>Basler Atlas</a>."]
 }

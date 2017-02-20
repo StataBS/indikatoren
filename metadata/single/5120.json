@@ -1,4 +1,4 @@
-{"title":"Fläche pro Wohnung",
+﻿{"title":"Fläche pro Wohnung",
 "subtitle":"Stand: 2015",
 "kuerzel":"I.09.1.0034",
 "kuerzelKunde":"RU-4.b",
@@ -24,5 +24,6 @@
 "parentId":4833,
 "children":[],
 "renderLink":["4833"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"]
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"],
+"externalLinks":[""]
 }

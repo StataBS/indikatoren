@@ -1,4 +1,4 @@
-{"title":"Anteil Ausländer",
+﻿{"title":"Anteil Ausländer",
 "subtitle":"Stand: 2015",
 "kuerzel":"I.01.1.0047",
 "kuerzelKunde":"GS-2.b",
@@ -24,5 +24,6 @@
 "parentId":4823,
 "children":[],
 "renderLink":["4823"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"],
+"externalLinks":["Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevheim.anteil_al' target='_blank'>Basler Atlas</a>."]
 }

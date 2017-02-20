@@ -1,5 +1,4 @@
-
-{"title":"Gymnasialquote",
+﻿{"title":"Gymnasialquote",
 "subtitle":"Stand: 2015",
 "kuerzel":"I.15.6.0004",
 "kuerzelKunde":"GS-5.b",
@@ -25,5 +24,6 @@
 "parentId":4826,
 "children":[],
 "renderLink":["4826"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bildungsstatistik"]
+"quellenangabe":["Statistisches Amt Basel-Stadt, Bildungsstatistik"],
+"externalLinks":[""]
 }

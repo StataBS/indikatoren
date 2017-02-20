@@ -1,4 +1,4 @@
-{"title":"Anteil Einfamilienhäuser",
+﻿{"title":"Anteil Einfamilienhäuser",
 "subtitle":"Stand: 2015",
 "kuerzel":"I.09.1.0033",
 "kuerzelKunde":"RU-2.b",
@@ -24,5 +24,6 @@
 "parentId":4831,
 "children":[],
 "renderLink":["4831"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"]
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"],
+"externalLinks":[""]
 }

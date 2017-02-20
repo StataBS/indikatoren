@@ -1,4 +1,4 @@
-{"title":"Wohnfläche pro Kopf",
+﻿{"title":"Wohnfläche pro Kopf",
 "subtitle":"Stand: 2015",
 "kuerzel":"I.09.1.0035",
 "kuerzelKunde":"RU-5.b",
@@ -24,5 +24,6 @@
 "parentId":4834,
 "children":[],
 "renderLink":["4834"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik","Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"]
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik","Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"],
+"externalLinks":[""]
 }
