@@ -34,6 +34,17 @@
 				"visible": false
 			}
 		],
+        "data": {
+		    "seriesMapping": [
+		      {
+		      	x: 0, y: 1
+		      },
+		      {
+		      	//2nd series: use x values from column 2
+		      	x: 2
+		      }		      
+		    ]
+        },
 		/* series with fixed data that should be added to the series object after merging with csv data */
 		"afterSeries": [
 			{

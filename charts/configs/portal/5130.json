@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Baujahr Wohngebäude",
+      "name": "Motorisierungsgrad",
       "animation": true,
       "mapData": {
         "type": "FeatureCollection",
@@ -6019,88 +6019,88 @@
       },
       "data": [
         [
-          1,
-          1825.4615385
-        ],
-        [
           12,
-          1880.8932384
-        ],
-        [
-          2,
-          1898.6623616
-        ],
-        [
-          3,
-          1918.4872014
-        ],
-        [
-          9,
-          1924.5126904
+          164.681724845996
         ],
         [
           17,
-          1924.9359087
-        ],
-        [
-          13,
-          1928.3307692
+          169.737818451645
         ],
         [
           6,
-          1932.197193
+          198.3032873807
         ],
         [
           11,
-          1932.9156785
+          199.574694311536
         ],
         [
-          14,
-          1933.0711238
-        ],
-        [
-          8,
-          1934.1433134
-        ],
-        [
-          18,
-          1936.9701149
-        ],
-        [
-          10,
-          1937.1028295
-        ],
-        [
-          5,
-          1938.6368997
-        ],
-        [
-          4,
-          1939.7367625
-        ],
-        [
-          15,
-          1941.6778481
-        ],
-        [
-          19,
-          1946.2710843
-        ],
-        [
-          7,
-          1948.4359962
+          1,
+          203.643724696356
         ],
         [
           16,
-          1948.6174497
+          204.438684594201
+        ],
+        [
+          10,
+          218.478784956606
+        ],
+        [
+          3,
+          220.259349746288
+        ],
+        [
+          9,
+          221.458851045169
+        ],
+        [
+          18,
+          226.205191594561
+        ],
+        [
+          2,
+          237.834549878345
+        ],
+        [
+          13,
+          245.222139488707
+        ],
+        [
+          14,
+          257.356875334403
+        ],
+        [
+          19,
+          262.413793103448
+        ],
+        [
+          4,
+          269.552441229656
+        ],
+        [
+          8,
+          272.10382715139
+        ],
+        [
+          15,
+          288.649489115948
+        ],
+        [
+          5,
+          297.827481895682
+        ],
+        [
+          7,
+          328.295642581357
         ],
         [
           20,
-          1957.0231425
+          366.764099861038
         ],
         [
           30,
-          1961.9710611
+          422.757475083056
         ]
       ]
     },
@@ -6109,59 +6109,59 @@
       "data": [
         [
           1,
-          "Altstadt Grossbasel"
-        ],
-        [
-          2,
           "Altstadt Kleinbasel"
         ],
         [
-          3,
-          "Vorstädte"
-        ],
-        [
-          4,
-          "Am Ring"
-        ],
-        [
-          5,
-          "Gotthelf"
-        ],
-        [
-          6,
+          2,
           "Matthäus"
         ],
         [
-          7,
-          "Clara"
-        ],
-        [
-          8,
+          3,
           "Gundeldingen"
         ],
         [
-          9,
+          4,
           "St. Johann"
         ],
         [
-          10,
-          "Wettstein"
+          5,
+          "Altstadt Grossbasel"
         ],
         [
-          11,
-          "Bachletten"
+          6,
+          "Rosental"
         ],
         [
-          12,
-          "Klybeck"
-        ],
-        [
-          13,
+          7,
           "Iselin"
         ],
         [
+          8,
+          "Am Ring"
+        ],
+        [
+          9,
+          "Gotthelf"
+        ],
+        [
+          10,
+          "Klybeck"
+        ],
+        [
+          11,
+          "Vorstädte"
+        ],
+        [
+          12,
+          "Clara"
+        ],
+        [
+          13,
+          "Wettstein"
+        ],
+        [
           14,
-          "St. Alban"
+          "Kleinhüningen"
         ],
         [
           15,
@@ -6169,19 +6169,19 @@
         ],
         [
           16,
-          "Hirzbrunnen"
+          "Bachletten"
         ],
         [
           17,
-          "Kleinhüningen"
+          "Hirzbrunnen"
         ],
         [
           18,
-          "Bruderholz"
+          "St. Alban"
         ],
         [
           19,
-          "Rosental"
+          "Bruderholz"
         ],
         [
           20,
@@ -6543,7 +6543,7 @@
     "type": "map",
     "inverted": true,
     "forExport": true,
-    "renderTo": "container-5117"
+    "renderTo": "container-5130"
   },
   "title": {
     "style": {
@@ -6553,7 +6553,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.09.1.0032 Baujahr Wohngebäude"
+    "text": "I.11.1.0042 Privater Motorisierungsgrad"
   },
   "subtitle": {
     "style": {
@@ -6562,7 +6562,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2015",
+    "text": "Private Personenwagen pro 1000 Einwohner 2015",
     "align": "left"
   },
   "credits": {
@@ -6578,10 +6578,10 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
   },
   "colorAxis": {
-    "min": 1800,
+    "min": 0,
     "gridLineColor": "#fbfbfb",
     "gridLineWidth": 1,
     "labels": {
@@ -6590,7 +6590,10 @@
         "cursor": "default",
         "fontSize": "11px",
         "textOverflow": "none"
-      }
+      },
+      "formatter": function () {
+					return Highcharts.numberFormat((this.value),0); 
+				}
     },
     "marker": {
       "color": "black"
@@ -6629,12 +6632,12 @@
                     var other_series = args.chart.series[other_series_index];
                     var other_point = other_series.data[this_point_index];
                     return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                        this.point.name +': <b>' + Highcharts.numberFormat((this.point.value), 0, ',', '') + '</b><br/>' + 
+                        this.point.name +': <b>' + Highcharts.numberFormat((this.point.value),1) + '</b><br/>' + 
                         'Rang <b>' + other_point.value + '</b>';
                 }
             }
   },
   "exporting": {
-    "filename": "I.09.1.0032"
+    "filename": "I.11.1.0042"
   }
 }

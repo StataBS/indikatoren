@@ -4,6 +4,16 @@
 */
 (function(){
     return {
+		"colorAxis": {
+			//"min": undefined,
+			"minColor": "#eff6e9",
+			"maxColor": "#4b7b1f",
+			"labels": {
+				"formatter": function () {
+					return Highcharts.numberFormat((this.value),1); 
+				}
+			}
+		},
         "tooltip": {
             "formatter": function(args){
         		if (this.series.data[this.point.x].name === undefined) {
@@ -17,25 +27,11 @@
                     var other_series = args.chart.series[other_series_index];
                     var other_point = other_series.data[this_point_index];
                     return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                        this.point.name +': <b>' + Highcharts.numberFormat((this.point.value),0) + ' Fr.</b><br/>' + 
+                        this.point.name +': <b>' + Highcharts.numberFormat((this.point.value),3) + '</b><br/>' + 
                         'Rang <b>' + other_point.value + '</b>';
                 }
             }
-        },    	
-		"legend": {
-			"title": {
-				"text": "in tausend Franken"
-			}
-		},
-		"colorAxis": {
-			"minColor": "#eff4f4",
-			"maxColor": "#4f6e75",
-			"labels": {
-				"formatter": function () {
-					return Highcharts.numberFormat((this.value / 1000), 0); 
-				}
-			}
-		},			
+        },
         "data": {
 		    "seriesMapping": [
 		      {
@@ -77,5 +73,5 @@
 				"borderColor": "#fbfbfb"
 			}
 		]
-	}
+	};
 }());
