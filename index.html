@@ -246,11 +246,8 @@
           <div class='lesehilfe'><%= erlaeuterungen %>
           </div>
         </div>
-        <!-- hide indikatorenset info if empty -->         
-        <div class=<%= (kennzahlenset==="" ? "'hidden'": "'lesehilfe'" ) %>>
-          <hr/>
-          Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/<%= kennzahlenset.toLowerCase().replace(" ", "-") %>.html' target='_blank'><%= kennzahlenset %></a>.
-        </div>
+        <!-- hide Links if empty -->    
+        <%= renderLinksHTML((typeof(kennzahlenset)!=='undefined' ? kennzahlenset: null), (typeof(renderLink) !== 'undefined' ? renderLink : null), (typeof(externalLinks)!=='undefined' ? externalLinks : null )) %>
       </div>
     </script> 
 

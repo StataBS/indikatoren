@@ -364,6 +364,37 @@ function renderMultiselectDropdownFromJson(data, field, selector, sort){
 }
 
 
+function renderLinksHTML(kennzahlenset, renderLink, externalLinks){
+  var display = false;
+  var returnText = "";
+  if (kennzahlenset || renderLink || (externalLinks && externalLinks.length) ) {
+    display = true;
+    returnText = " \
+        <div> \
+          <h1>Links</h1> \
+          <div class='lesehilfe'> \
+            <ul class='list-unstyled'>\
+        ";
+    if (kennzahlenset) {
+      returnText += "<li>Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/"+ kennzahlenset.toLowerCase().replace(" ", "-") + ".html' target='_blank'>" + kennzahlenset + "</a>.</li>";
+    }
+    if (renderLink) {
+      returnText += "<li><a href='https://www.google.com'>Andere Darstellungsform</a> dieser Daten</li>";
+    }
+    if (externalLinks && externalLinks.length) {
+      returnText += "<li>" + externalLinks + "</li>";
+    }
+
+
+    returnText += " \
+            </ul> \
+          </div> \
+        </div> \
+        ";
+  }
+  return returnText;
+}
+
 //convert a normal html select given via its css selector to a multiselect dropdown
 function configureMultiselect(selector){
   var control = $(selector);
