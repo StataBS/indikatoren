@@ -379,7 +379,7 @@ function renderLinksHTML(kennzahlenset, renderLink, externalLinks){
       returnText += "<li>Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/"+ kennzahlenset.toLowerCase().replace(" ", "-") + ".html' target='_blank'>" + kennzahlenset + "</a>.</li>";
     }
     if (renderLink) {
-      returnText += "<li><a href='https://www.google.com'>Andere Darstellungsform</a> dieser Daten</li>";
+      returnText += "<li><a href='chart.html?id=" + renderLink + "' target='_blank'>Andere Darstellungsform</a> dieser Daten</li>";
     }
     if (externalLinks && externalLinks.length) {
       returnText += "<li>" + externalLinks + "</li>";
