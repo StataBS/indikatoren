@@ -18,3 +18,5 @@ travis_phantomjs/
 travis_phantomjs/*
 build/convertArgs.json
 npm-debug.log.*
+/node_cache
+
