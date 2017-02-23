@@ -390,10 +390,10 @@ function slideToLinkedChart(chartId){
 }
 
 
-function renderLinksHTML(kennzahlenset, renderLink, externalLinks){
+function renderLinksHTML(kennzahlenset, relatedChartId, externalLinks){
   var display = false;
   var returnText = "";
-  if (kennzahlenset || renderLink || (externalLinks && externalLinks.length) ) {
+  if (kennzahlenset || relatedChartId || (externalLinks && externalLinks.length) ) {
     display = true;
     returnText = " \
         <div> \
@@ -404,13 +404,13 @@ function renderLinksHTML(kennzahlenset, renderLink, externalLinks){
     if (kennzahlenset) {
       returnText += "<li>Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/"+ kennzahlenset.toLowerCase().replace(" ", "-") + ".html' target='_blank'>" + kennzahlenset + "</a>.</li>";
     }
-    if (renderLink) {
-      returnText += "<li><a href='javascript:javascript:slideToLinkedChart(" + renderLink + ")'>Andere Darstellungsform</a> dieser Daten</li>";
+    if (relatedChartId) {
+      returnText += "<li><a href='javascript:javascript:slideToLinkedChart(" + relatedChartId + ")'>Andere Darstellungsform</a> dieser Daten</li>";
     }
     if (externalLinks && externalLinks.length) {
       returnText += "<li>" + externalLinks + "</li>";
     }
-    returnText += "<li><a href='javascript:resetPortalFilter(window.FJS); javascript:slideToLinkedChart(" + renderLink + ")'>Reset Filter</a></li>";    
+    returnText += "<li><a href='javascript:resetPortalFilter(window.FJS); javascript:slideToLinkedChart(" + relatedChartId + ")'>Reset Filter</a></li>";    
 
     returnText += " \
             </ul> \
