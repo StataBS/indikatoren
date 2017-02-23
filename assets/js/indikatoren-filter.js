@@ -381,18 +381,30 @@ function getIndexOfChart(chartId, charts){
 
 
 //slide carousel to a specified chart id
-function slideToLinkedChart(chartId){
+function slideToLinkedChart(chartId, FJS){
   var index = getIndexOfChart(chartId, getLastFjsResult());
   if (index > -1){
     $('.carousel').carousel(index);
   }
-  else console.log('chart with id ' + chartId + ' not found...');
+  else {
+    //reset search filters, then find index and slide to the specified chart
+    resetPortalFilter(FJS);
+    index = getIndexOfChart(chartId, getLastFjsResult());
+    if (index > -1){
+      $('.carousel').carousel(index);
+    }
+    else {
+      console.log('No chart with id ' + chartId + ' found...');
+    }
+  }
 }
 
 
+//render the html required for links to other chart, kennzahlenset or external resources
 function renderLinksHTML(kennzahlenset, relatedChartId, externalLinks){
   var display = false;
   var returnText = "";
+  //any of the links need to be present 
   if (kennzahlenset || relatedChartId || (externalLinks && externalLinks.length) ) {
     display = true;
     returnText = " \
@@ -405,13 +417,11 @@ function renderLinksHTML(kennzahlenset, relatedChartId, externalLinks){
       returnText += "<li>Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/"+ kennzahlenset.toLowerCase().replace(" ", "-") + ".html' target='_blank'>" + kennzahlenset + "</a>.</li>";
     }
     if (relatedChartId) {
-      returnText += "<li><a href='javascript:javascript:slideToLinkedChart(" + relatedChartId + ")'>Andere Darstellungsform</a> dieser Daten</li>";
+      returnText += "<li><a href='javascript:javascript:slideToLinkedChart(" + relatedChartId + ", window.FJS)'>Andere Darstellungsform</a> dieser Daten</li>";
     }
     if (externalLinks && externalLinks.length) {
       returnText += "<li>" + externalLinks + "</li>";
     }
-    returnText += "<li><a href='javascript:resetPortalFilter(window.FJS); javascript:slideToLinkedChart(" + relatedChartId + ")'>Reset Filter</a></li>";    
-
     returnText += " \
             </ul> \
           </div> \
