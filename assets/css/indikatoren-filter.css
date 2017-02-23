@@ -220,10 +220,12 @@ h1{
     margin-right: 50px;
 }
 
+
 .lesehilfe {
     margin-left: 50px;
     margin-right: 50px;
 }
+
 
 .highcharts-container {
     margin: 0 40px;
@@ -242,7 +244,7 @@ h1{
     margin-bottom: 5px;
 }
 
-.lesehilfe>a {
+.lesehilfe a {
     font-weight: bold;
     color: #496c78;
 }

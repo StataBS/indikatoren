@@ -15,7 +15,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"",
+"lesehilfe":"Der Aktualisierungszeitpunkt ist eigentlich Oktober t+2",
 "erlaeuterungen":"Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.",
 "template":"map001",
 "option":"options001",
@@ -24,5 +24,6 @@
 "parentId":4838,
 "children":[],
 "renderLink":["4838"],
-"quellenangabe":["Bundesamt für Statistik BFS, STATENT"]
+"quellenangabe":["Bundesamt für Statistik BFS, STATENT"],
+"externalLinks":[""]
 }
