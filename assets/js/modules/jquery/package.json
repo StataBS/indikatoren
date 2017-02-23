@@ -2,13 +2,13 @@
   "_args": [
     [
       {
-        "raw": "jquery@^3.1.1",
+        "raw": "jquery@./node_shrinkwrap/jquery-3.1.1.tar",
         "scope": null,
         "escapedName": "jquery",
         "name": "jquery",
-        "rawSpec": "^3.1.1",
-        "spec": ">=3.1.1 <4.0.0",
-        "type": "range"
+        "rawSpec": "./node_shrinkwrap/jquery-3.1.1.tar",
+        "spec": "/home/ubuntu/workspace/node_shrinkwrap/jquery-3.1.1.tar",
+        "type": "local"
       },
       "/home/ubuntu/workspace"
     ]
@@ -17,33 +17,23 @@
   "_id": "jquery@3.1.1",
   "_inCache": true,
   "_location": "/jquery",
-  "_nodeVersion": "6.6.0",
-  "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/jquery-3.1.1.tgz_1474583566957_0.15473420196212828"
-  },
-  "_npmUser": {
-    "name": "timmywil",
-    "email": "4timmywil@gmail.com"
-  },
-  "_npmVersion": "3.10.3",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "jquery@^3.1.1",
+    "raw": "jquery@./node_shrinkwrap/jquery-3.1.1.tar",
     "scope": null,
     "escapedName": "jquery",
     "name": "jquery",
-    "rawSpec": "^3.1.1",
-    "spec": ">=3.1.1 <4.0.0",
-    "type": "range"
+    "rawSpec": "./node_shrinkwrap/jquery-3.1.1.tar",
+    "spec": "/home/ubuntu/workspace/node_shrinkwrap/jquery-3.1.1.tar",
+    "type": "local"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/jquery/-/jquery-3.1.1.tgz",
-  "_shasum": "347c1c21c7e004115e0a4da32cece041fad3c8a3",
+  "_resolved": "file:node_shrinkwrap/jquery-3.1.1.tar",
+  "_shasum": "28f6f12d01a6206fc98c047d7a316973a294034f",
   "_shrinkwrap": null,
-  "_spec": "jquery@^3.1.1",
+  "_spec": "jquery@./node_shrinkwrap/jquery-3.1.1.tar",
   "_where": "/home/ubuntu/workspace",
   "author": {
     "name": "jQuery Foundation and other contributors",
@@ -117,12 +107,6 @@
     "strip-json-comments": "2.0.1",
     "testswarm": "1.1.0"
   },
-  "directories": {},
-  "dist": {
-    "shasum": "347c1c21c7e004115e0a4da32cece041fad3c8a3",
-    "tarball": "https://registry.npmjs.org/jquery/-/jquery-3.1.1.tgz"
-  },
-  "gitHead": "1b30f3ad466ebf2714d47eda34dbd7fdf6849fe3",
   "homepage": "https://jquery.com",
   "keywords": [
     "jquery",
@@ -132,27 +116,10 @@
   ],
   "license": "MIT",
   "main": "dist/jquery.js",
-  "maintainers": [
-    {
-      "name": "dmethvin",
-      "email": "dave.methvin@gmail.com"
-    },
-    {
-      "name": "scott.gonzalez",
-      "email": "scott.gonzalez@gmail.com"
-    },
-    {
-      "name": "m_gol",
-      "email": "m.goleb@gmail.com"
-    },
-    {
-      "name": "timmywil",
-      "email": "timmywillisn@gmail.com"
-    }
-  ],
   "name": "jquery",
   "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
+  "readme": "# jQuery\n\n> jQuery is a fast, small, and feature-rich JavaScript library.\n\nFor information on how to get started and how to use jQuery, please see [jQuery's documentation](http://api.jquery.com/).\nFor source files and issues, please visit the [jQuery repo](https://github.com/jquery/jquery).\n\n## Including jQuery\n\nBelow are some of the most common ways to include jQuery.\n\n### Browser\n\n#### Script tag\n\n```html\n<script src=\"https://code.jquery.com/jquery-2.2.0.min.js\"></script>\n```\n\n#### Babel\n\n[Babel](http://babeljs.io/) is a next generation JavaScript compiler. One of the features is the ability to use ES6/ES2015 modules now, even though browsers do not yet support this feature natively.\n\n```js\nimport $ from \"jquery\";\n```\n\n#### Browserify/Webpack\n\nThere are several ways to use [Browserify](http://browserify.org/) and [Webpack](https://webpack.github.io/). For more information on using these tools, please refer to the corresponding project's documention. In the script, including jQuery will usually look like this...\n\n```js\nvar $ = require(\"jquery\");\n```\n\n#### AMD (Asynchronous Module Definition)\n\nAMD is a module format built for the browser. For more information, we recommend [require.js' documentation](http://requirejs.org/docs/whyamd.html).\n\n```js\ndefine([\"jquery\"], function($) {\n\n});\n```\n\n### Node\n\nTo include jQuery in [Node](nodejs.org), first install with npm.\n\n```sh\nnpm install jquery\n```\n\nFor jQuery to work in Node, a window with a document is required. Since no such window exists natively in Node, one can be mocked by tools such as [jsdom](https://github.com/tmpvar/jsdom). This can be useful for testing purposes.\n\n```js\nrequire(\"jsdom\").env(\"\", function(err, window) {\n\tif (err) {\n\t\tconsole.error(err);\n\t\treturn;\n\t}\n\n\tvar $ = require(\"jquery\")(window);\n});\n```\n",
+  "readmeFilename": "README.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jquery/jquery.git"
