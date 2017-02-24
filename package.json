@@ -36,8 +36,6 @@
     "deploy:gh-pages": "gh-pages-travis",
     "deploy:ftp": "echo \"Fake uploading to FTP server...\" && exit 0",
     "deploy": "npm run deploy:gh-pages && npm run deploy:ftp && pwd",
-    "build:images_jsdom": "node build/createThumbnailsJsdom",
-    "build:images_phantom_slow": "node build/createThumbnailsPhantomSlow",
     "build:update_dependencies": "npm prune --production=false && npm update --dev",
     "build:shrinkpack": "npm shrinkwrap --dev && shrinkpack"
   },
