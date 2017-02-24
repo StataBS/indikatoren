@@ -401,11 +401,11 @@ function slideToLinkedChart(chartId, FJS){
 
 
 //render the html required for links to other chart, kennzahlenset or external resources
-function renderLinksHTML(kennzahlenset, relatedChartId, externalLinks){
+function renderLinksHTML(kennzahlenset, renderLink, externalLinks){
   var display = false;
   var returnText = "";
   //any of the links need to be present 
-  if (kennzahlenset || relatedChartId || (externalLinks && externalLinks.length) ) {
+  if (kennzahlenset || (renderLink && renderLink.length) || (externalLinks && externalLinks.length) ) {
     display = true;
     returnText = " \
         <div> \
@@ -416,9 +416,8 @@ function renderLinksHTML(kennzahlenset, relatedChartId, externalLinks){
     if (kennzahlenset) {
       returnText += "<li>Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/"+ kennzahlenset.toLowerCase().replace(" ", "-") + ".html' target='_blank'>" + kennzahlenset + "</a>.</li>";
     }
-    if (relatedChartId) {
-      console.log(relatedChartId);
-      returnText += "<li><a href='javascript:javascript:slideToLinkedChart(" + relatedChartId + ", window.FJS)'>Andere Darstellungsform</a> dieser Daten</li>";
+    if (renderLink && renderLink.length) {
+      returnText += "<li><a href='javascript:javascript:slideToLinkedChart(" + renderLink + ", window.FJS)'>Andere Darstellungsform</a> dieser Daten</li>";
     }
     if (externalLinks && externalLinks.length) {
       returnText += "<li>" + externalLinks + "</li>";
