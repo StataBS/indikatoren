@@ -405,7 +405,7 @@ function renderLinksHTML(kennzahlenset, renderLink, externalLinks){
   var display = false;
   var returnText = "";
   //any of the links need to be present 
-  if (kennzahlenset || (renderLink && renderLink.length) || (externalLinks && externalLinks.length) ) {
+  if (kennzahlenset || (renderLink && renderLink.length && renderLink[0].length) || (externalLinks && externalLinks.length) ) {
     display = true;
     returnText = " \
         <div> \
@@ -416,8 +416,8 @@ function renderLinksHTML(kennzahlenset, renderLink, externalLinks){
     if (kennzahlenset) {
       returnText += "<li>Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/"+ kennzahlenset.toLowerCase().replace(" ", "-") + ".html' target='_blank'>" + kennzahlenset + "</a>.</li>";
     }
-    if (renderLink && renderLink.length) {
-      returnText += "<li><a href='javascript:javascript:slideToLinkedChart(" + renderLink + ", window.FJS)'>Andere Darstellungsform</a> dieser Daten</li>";
+    if (renderLink && renderLink.length && renderLink[0].length) {
+      returnText += "<li><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS)'>Andere Darstellungsform</a> dieser Daten</li>";
     }
     if (externalLinks && externalLinks.length) {
       returnText += "<li>" + externalLinks + "</li>";

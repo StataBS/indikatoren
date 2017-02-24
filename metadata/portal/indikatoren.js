@@ -3906,10 +3906,17 @@ var indikatoren = [
 		"visible": true,
 		"visibleInPortal": true,
 		"parentId": null,
-		"children": [],
-		"renderLink": [],
+		"children": [
+			"5130"
+		],
+		"renderLink": [
+			"5130"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
