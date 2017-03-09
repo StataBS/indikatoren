@@ -1,4 +1,4 @@
-{"title":"Erwerbstätigenquote",
+﻿{"title":"Erwerbstätigenquote",
 "subtitle":"Stand: gepoolte Daten 2010 - 2014",
 "kuerzel":"I.03.1.0002",
 "kuerzelKunde":"WA-3.a",
@@ -23,6 +23,7 @@
 "visibleInPortal":true,
 "parentId":null,
 "children":["5124"],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik BFS, Strukturerhebung (SE)"]
+"renderLink":["5124"],
+"quellenangabe":["Bundesamt für Statistik BFS, Strukturerhebung (SE)"],
+"externalLinks":[""]
 }

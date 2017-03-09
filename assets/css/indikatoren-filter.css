@@ -212,7 +212,7 @@ h1{
     text-transform: uppercase;
     letter-spacing: none;
     font-weight: bold;
-    color: #496c78;
+    color: #204453;
     line-height: 100%;
     margin-top: 14px;
     margin-bottom: 8px;
@@ -220,10 +220,12 @@ h1{
     margin-right: 50px;
 }
 
+
 .lesehilfe {
     margin-left: 50px;
     margin-right: 50px;
 }
+
 
 .highcharts-container {
     margin: 0 40px;
@@ -242,9 +244,9 @@ h1{
     margin-bottom: 5px;
 }
 
-.lesehilfe>a {
+.lesehilfe a {
     font-weight: bold;
-    color: #496c78;
+    color: #246036;
 }
 
 
@@ -261,3 +263,7 @@ h1{
     z-index: 9999 !important;
 }
 
+.link-icon {
+    height: 12px;
+    width: 15px;
+}

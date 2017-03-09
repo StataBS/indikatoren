@@ -3906,10 +3906,17 @@ var indikatoren = [
 		"visible": true,
 		"visibleInPortal": true,
 		"parentId": null,
-		"children": [],
-		"renderLink": [],
+		"children": [
+			"5130"
+		],
+		"renderLink": [
+			"5130"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -4316,6 +4323,9 @@ var indikatoren = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Sozialhilfestatistik"
+		],
+		"externalLinks": [
+			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=soz_sozhilfe.soz_quote' target='_blank'>Basler Atlas</a>."
 		]
 	},
 	{
@@ -4353,6 +4363,9 @@ var indikatoren = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevheim.anteil_al' target='_blank'>Basler Atlas</a>."
 		]
 	},
 	{
@@ -4390,6 +4403,9 @@ var indikatoren = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevkonf.anteil_keinereligion' target='_blank'>Basler Atlas</a>."
 		]
 	},
 	{
@@ -4427,6 +4443,9 @@ var indikatoren = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -4465,6 +4484,9 @@ var indikatoren = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -4503,6 +4525,9 @@ var indikatoren = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevstruk.anteil_ueber64' target='_blank'>Basler Atlas</a>."
 		]
 	},
 	{
@@ -4540,6 +4565,9 @@ var indikatoren = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevsess.anteil_sess10' target='_blank'>Basler Atlas</a>."
 		]
 	},
 	{
@@ -4578,6 +4606,9 @@ var indikatoren = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevstruk.anteil_unter20' target='_blank'>Basler Atlas</a>."
 		]
 	},
 	{
@@ -4616,6 +4647,9 @@ var indikatoren = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -4653,6 +4687,9 @@ var indikatoren = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -4690,6 +4727,9 @@ var indikatoren = [
 		],
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt  Basel-Stadt"
+		],
+		"externalLinks": [
+			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=ru_gruen.gruenflaeche_ant' target='_blank'>Basler Atlas</a>."
 		]
 	},
 	{
@@ -4727,6 +4767,9 @@ var indikatoren = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -4765,6 +4808,9 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -4802,6 +4848,9 @@ var indikatoren = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
+		],
+		"externalLinks": [
+			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_ver.vermoegen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
 		]
 	},
 	{
@@ -4839,6 +4888,9 @@ var indikatoren = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
+		],
+		"externalLinks": [
+			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_eink.einkommen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
 		]
 	},
 	{
@@ -4871,9 +4923,14 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"parentId": 4837,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"4837"
+		],
 		"quellenangabe": [
 			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -4911,6 +4968,9 @@ var indikatoren = [
 		],
 		"quellenangabe": [
 			"Bundesamt für Statistik BFS, STATENT"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -4950,6 +5010,9 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik BFS, Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -4990,6 +5053,9 @@ var indikatoren = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
+		],
+		"externalLinks": [
+			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=11_fahrzeuge.11_motorisierungsgrad' target='_blank'>Basler Atlas</a>."
 		]
 	},
 	{

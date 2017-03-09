@@ -1,4 +1,4 @@
-{"title":"Personenwagen pro Haushalt",
+﻿{"title":"Personenwagen pro Haushalt",
 "subtitle":"Stand: 2015",
 "kuerzel":"I.11.1.0041",
 "kuerzelKunde":"",
@@ -23,6 +23,7 @@
 "visibleInPortal":true,
 "parentId":null,
 "children":["5131"],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"]
+"renderLink":["5131"],
+"quellenangabe":["Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"],
+"externalLinks":[""]
 }
