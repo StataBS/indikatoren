@@ -23,6 +23,7 @@
 "visibleInPortal":true,
 "parentId":null,
 "children":["5131"],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"]
+"renderLink":["5131"],
+"quellenangabe":["Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"],
+"externalLinks":[""]
 }

@@ -45,6 +45,17 @@ Manually create svg thumbnails:
 This will download all svg files to the local downloads directory. You can then manually move them to their respective directory below /images/.
 
 
+### Updating dependencies
+To update all packages, run the following command, then do intensive testing of the application: 
+```javascript
+npm run build:update_dependencies
+```
+
+If testing succeededs, shrinkwrap and [shrinkpack](https://github.com/JamieMason/shrinkpack) the dependencies with their exact versions in order to build a reproducole installation package, using the following command: 
+```javascript
+npm run build:shrinkpack
+```
+
 ##Licensing
 [Highcharts] (http://www.highcharts.com/) is free for personal, school or non-profit projects under the Creative Commons Attribution - Non Commercial 3.0 License.
 For commercial and governmental websites and projects, you need to buy a license. See [License and Pricing] (http://shop.highsoft.com/highcharts.html).

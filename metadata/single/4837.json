@@ -23,6 +23,7 @@
 "visibleInPortal":true,
 "parentId":null,
 "children":["5124"],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik BFS, Strukturerhebung (SE)"]
+"renderLink":["5124"],
+"quellenangabe":["Bundesamt für Statistik BFS, Strukturerhebung (SE)"],
+"externalLinks":[""]
 }
