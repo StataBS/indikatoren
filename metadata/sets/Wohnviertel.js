@@ -621,9 +621,14 @@ var indikatorensetData = [
 		"children": [
 			"5124"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"5124"
+		],
 		"quellenangabe": [
 			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -823,7 +828,7 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
 		],
 		"externalLinks": [
-			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevkonf.anteil_keinereligion' target='_blank'>Basler Atlas</a>."
+			""
 		]
 	},
 	{
@@ -945,7 +950,7 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
 		],
 		"externalLinks": [
-			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevstruk.anteil_ueber64' target='_blank'>Basler Atlas</a>."
+			""
 		]
 	},
 	{
@@ -1026,7 +1031,7 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
 		],
 		"externalLinks": [
-			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevstruk.anteil_unter20' target='_blank'>Basler Atlas</a>."
+			""
 		]
 	},
 	{

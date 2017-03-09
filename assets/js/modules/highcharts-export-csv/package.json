@@ -13,7 +13,7 @@
       "/home/ubuntu/workspace"
     ]
   ],
-  "_from": "highcharts-export-csv@1.4.4",
+  "_from": "node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
   "_id": "highcharts-export-csv@1.4.4",
   "_inCache": true,
   "_location": "/highcharts-export-csv",
@@ -28,6 +28,7 @@
     "type": "local"
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
   "_resolved": "file:node_shrinkwrap/highcharts-export-csv-1.4.4.tar",

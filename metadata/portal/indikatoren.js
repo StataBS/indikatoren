@@ -2537,9 +2537,14 @@ var indikatoren = [
 		"children": [
 			"5124"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"5124"
+		],
 		"quellenangabe": [
 			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -3955,9 +3960,14 @@ var indikatoren = [
 		"children": [
 			"5131"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"5131"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -4405,7 +4415,7 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
 		],
 		"externalLinks": [
-			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevkonf.anteil_keinereligion' target='_blank'>Basler Atlas</a>."
+			""
 		]
 	},
 	{
@@ -4527,7 +4537,7 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
 		],
 		"externalLinks": [
-			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevstruk.anteil_ueber64' target='_blank'>Basler Atlas</a>."
+			""
 		]
 	},
 	{
@@ -4608,7 +4618,7 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
 		],
 		"externalLinks": [
-			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevstruk.anteil_unter20' target='_blank'>Basler Atlas</a>."
+			""
 		]
 	},
 	{
