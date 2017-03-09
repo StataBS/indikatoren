@@ -1,4 +1,4 @@
-{"title":"Jugendquotient",
+﻿{"title":"Jugendquotient",
 "subtitle":"Stand: 2015",
 "kuerzel":"I.01.1.0050",
 "kuerzelKunde":"GS-8.b",
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":["4829"],
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"],
-"externalLinks":["Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevstruk.anteil_unter20' target='_blank'>Basler Atlas</a>."]
+"externalLinks":[""]
 }
