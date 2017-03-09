@@ -621,9 +621,14 @@ var indikatorensetData = [
 		"children": [
 			"5124"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"5124"
+		],
 		"quellenangabe": [
 			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -741,6 +746,9 @@ var indikatorensetData = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Sozialhilfestatistik"
+		],
+		"externalLinks": [
+			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=soz_sozhilfe.soz_quote' target='_blank'>Basler Atlas</a>."
 		]
 	},
 	{
@@ -778,6 +786,9 @@ var indikatorensetData = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevheim.anteil_al' target='_blank'>Basler Atlas</a>."
 		]
 	},
 	{
@@ -815,6 +826,9 @@ var indikatorensetData = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -852,6 +866,9 @@ var indikatorensetData = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -890,6 +907,9 @@ var indikatorensetData = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -928,6 +948,9 @@ var indikatorensetData = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -965,6 +988,9 @@ var indikatorensetData = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevsess.anteil_sess10' target='_blank'>Basler Atlas</a>."
 		]
 	},
 	{
@@ -1003,6 +1029,9 @@ var indikatorensetData = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -1041,6 +1070,9 @@ var indikatorensetData = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -1078,6 +1110,9 @@ var indikatorensetData = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -1115,6 +1150,9 @@ var indikatorensetData = [
 		],
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt  Basel-Stadt"
+		],
+		"externalLinks": [
+			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=ru_gruen.gruenflaeche_ant' target='_blank'>Basler Atlas</a>."
 		]
 	},
 	{
@@ -1152,6 +1190,9 @@ var indikatorensetData = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -1190,6 +1231,9 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -1227,6 +1271,9 @@ var indikatorensetData = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
+		],
+		"externalLinks": [
+			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_ver.vermoegen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
 		]
 	},
 	{
@@ -1264,6 +1311,9 @@ var indikatorensetData = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
+		],
+		"externalLinks": [
+			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_eink.einkommen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
 		]
 	},
 	{
@@ -1296,9 +1346,14 @@ var indikatorensetData = [
 		"visibleInPortal": true,
 		"parentId": 4837,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"4837"
+		],
 		"quellenangabe": [
 			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -1336,6 +1391,9 @@ var indikatorensetData = [
 		],
 		"quellenangabe": [
 			"Bundesamt für Statistik BFS, STATENT"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -1375,6 +1433,9 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik BFS, Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	}
 ];
