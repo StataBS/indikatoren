@@ -73,6 +73,17 @@ $(document).ready(function(){
 });
 
 
+//reset all filter criteria
+function resetPortalFilter(FJS){
+  $('#searchbox').val('');
+  $("#thema_criteria :radio:first()").prop('checked', true);
+  $("#unterthema_filter").prop('selectedIndex', 0);
+  $("#schlagwort_filter option").prop('selected', true);
+  $("#schlagwort_filter").multiselect('selectAll', false).multiselect('updateButtonText');      
+  $("#raeumlicheGliederung_filter").multiselect('selectAll', false).multiselect('updateButtonText');
+  FJS.filter();
+}
+
 function initializeFilterJS(indikatorenset){
   var fjsConfig = {      
     template: undefined,
@@ -120,13 +131,7 @@ function initializeFilterJS(indikatorenset){
 
     //reset all filter criteria
     $("#portal-reset-button").click(function(){
-      $('#searchbox').val('');
-      $("#thema_criteria :radio:first()").prop('checked', true);
-      $("#unterthema_filter").prop('selectedIndex', 0);
-      $("#schlagwort_filter option").prop('selected', true);
-      $("#schlagwort_filter").multiselect('selectAll', false).multiselect('updateButtonText');      
-      $("#raeumlicheGliederung_filter").multiselect('selectAll', false).multiselect('updateButtonText');
-      FJS.filter();
+      resetPortalFilter(FJS)
     });
   }  
 
@@ -364,6 +369,68 @@ function renderMultiselectDropdownFromJson(data, field, selector, sort){
 }
 
 
+//find index of chart with a given id
+function getIndexOfChart(chartId, charts){
+  var indexes = $.map(charts, function(obj, index) {
+    if(obj.id == chartId) {
+        return index;
+    }
+  });    
+  return indexes[0];
+}
+
+
+//slide carousel to a specified chart id
+function slideToLinkedChart(chartId, FJS){
+  var index = getIndexOfChart(chartId, getLastFjsResult());
+  if (index > -1){
+    $('.carousel').carousel(index);
+  }
+  else {
+    //reset search filters, then find index and slide to the specified chart
+    resetPortalFilter(FJS);
+    index = getIndexOfChart(chartId, getLastFjsResult());
+    if (index > -1){
+      $('.carousel').carousel(index);
+    }
+    else {
+      console.log('No chart with id ' + chartId + ' found...');
+    }
+  }
+}
+
+
+//render the html required for links to other chart, kennzahlenset or external resources
+function renderLinksHTML(kennzahlenset, renderLink, externalLinks){
+  var display = false;
+  var returnText = "";
+  //any of the links need to be present 
+  if (kennzahlenset || (renderLink && renderLink.length && renderLink[0].length) || (externalLinks && externalLinks.length && externalLinks[0].length) ) {
+    display = true;
+    returnText = " \
+        <div> \
+          <h1>Links</h1> \
+          <div class='lesehilfe'> \
+            <ul class='list-unstyled'>\
+        ";
+    if (kennzahlenset) {
+      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/"+ kennzahlenset.toLowerCase().replace(" ", "-") + ".html' target='_blank'>" + kennzahlenset + "</a>.</li>";
+    }
+    if (renderLink && renderLink.length && renderLink[0].length) {
+      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS)'>Andere Darstellungsform</a> dieser Daten</li>";
+    }
+    if (externalLinks && externalLinks.length && externalLinks[0].length) {
+      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>" + externalLinks + "</li>";
+    }
+    returnText += " \
+            </ul> \
+          </div> \
+        </div> \
+        ";
+  }
+  return returnText;
+}
+
 //convert a normal html select given via its css selector to a multiselect dropdown
 function configureMultiselect(selector){
   var control = $(selector);
@@ -398,13 +465,18 @@ function configureMultiselect(selector){
 }
 
 
-//find index of a given _fid in the results array. if full-text search is used (search_text has some minimum length), FJS uses a different results array than if not. 
+//if full-text search is used (search_text has some minimum length), FJS uses a different results array than if not. 
+function getLastFjsResult(){
+  return (window.FJS.search_text.length > FJS.opts.search.start_length) ? window.FJS.search_result : window.FJS.last_result;
+}
+
+
+//find index of a given _fid in the results array. 
 //this is necessary for carousel since links to charts in the carousel contain the array index which changes upon paging. 
 function getIndexByFid(fid){
   //source: http://stackoverflow.com/questions/15997879/get-the-index-of-the-object-inside-an-array-matching-a-condition
   try{
-    var results = (window.FJS.search_text.length > FJS.opts.search.start_length) ? window.FJS.search_result : window.FJS.last_result;
-    var indexes = $.map(results, function(obj, index) {
+    var indexes = $.map(getLastFjsResult(), function(obj, index) {
       if(obj._fid == fid) {
           return index;
       }

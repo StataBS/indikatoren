@@ -8,7 +8,10 @@ console.log('Searching for json files to add to json databases...');
 var files = glob.sync("metadata/single/*.json");
 files.forEach(function(filepath){
     var fileContents = fs.readFileSync(filepath);
-    var indikator = JSON.parse(fileContents)
+    //strip whitespace from start of file and save file
+    var fileContentsStripped = fileContents.slice(fileContents.indexOf('{'));
+    fs.writeFileSync(filepath, fileContentsStripped);
+    var indikator = JSON.parse(fileContentsStripped);
     if (indikator.visible == undefined || indikator.visible == true) {
         console.log(filepath + ' is visible, proceeding with adding...');
         if (indikator.visibleInPortal == undefined || indikator.visibleInPortal == true) {
