@@ -249,6 +249,10 @@ h1{
     color: #246036;
 }
 
+.lesehilfe a:hover {
+    color: #333;
+}
+
 
 
 /* .label and .highcharts-tooltip span are necessary for certain highcharts cases where the tooltip does not nicely overshadow axis labels, e.g. I.50.4.0004, see http://stackoverflow.com/questions/15130311/highcharts-labels-visible-over-tooltip */
