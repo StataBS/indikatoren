@@ -40,10 +40,10 @@
             <path fill="#8A8A8A" class="highcharts-point" stroke="#fff" d="M184.5-.5h13v74h-13zm-25 0h13v87h-13zm-51 0h13v59h-13zm-26 0h13v93h-13zm-51 0h13v58h-13zm-25 0h13v73h-13z"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>I.50.4.0004 Materielle Hilfeleistungen von Arbeitskollegen,</tspan><tspan dy="17" x="10">Freunden und Bekannten oder Nachbarn</tspan><title>I.50.4.0004 Materielle Hilfeleistungen von Arbeitskollegen, Freunden und Bekannten oder Nachbarn</title>
     </text>
-    <text x="10" class="highcharts-subtitle" style="width:421px" y="57" color="#000">
+    <text x="10" class="highcharts-subtitle" y="57" color="#000">
         <tspan>«Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle</tspan><tspan dy="15" x="10">Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»</tspan><title>«Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»</title>
     </text>
     <g class="highcharts-legend" transform="translate(155 80)">
@@ -86,30 +86,30 @@
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="149" style="width:150px" y="177" text-overflow="none">
+        <text x="149" y="177">
             <tspan>Arbeitskollegen 2015</tspan>
         </text>
-        <text x="149" style="width:150px" y="203" text-overflow="none">
+        <text x="149" y="203">
             <tspan>Arbeitskollegen 2011</tspan>
         </text>
-        <text x="149" style="width:150px" y="254" text-overflow="none">
+        <text x="149" y="254">
             <tspan>Nachbarn 2015</tspan>
         </text>
-        <text x="149" style="width:150px" y="279" text-overflow="none">
+        <text x="149" y="279">
             <tspan>Nachbarn 2011</tspan>
         </text>
-        <text x="149" style="width:150px" y="330" text-overflow="none">
+        <text x="149" y="330">
             <tspan>Freunde und Bekannte 2015</tspan>
         </text>
-        <text x="149" style="width:150px" y="356" text-overflow="none">
+        <text x="149" y="356">
             <tspan>Freunde und Bekannte 2011</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="164" style="width:77.75" y="383" text-overflow="ellipsis">
+        <text x="164" y="383">
             <tspan>0%</tspan>
         </text>
-        <text x="460.953" style="width:38.875" y="383" text-overflow="ellipsis">
+        <text x="460.953" y="383">
             <tspan>100%</tspan>
         </text>
         <text x="241.75" y="383">

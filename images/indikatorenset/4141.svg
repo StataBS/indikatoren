@@ -31,7 +31,7 @@
             <path fill="#cd9c00" class="highcharts-point" stroke="#fff" d="M12.5 288.5h25v35h-25zm51-4h25v39h-25zm50 3h25v36h-25zm50-5h25v41h-25zm51-5h25v46h-25z"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>1.4.a1 Haushalte nach Art des Haushalts</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(317 164)">
@@ -73,37 +73,37 @@
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="38" style="width:150px" y="369">
+        <text x="38" y="369">
             <tspan>0%</tspan>
         </text>
-        <text x="38" style="width:150px" y="336">
+        <text x="38" y="336">
             <tspan>10%</tspan>
         </text>
-        <text x="38" style="width:150px" y="304">
+        <text x="38" y="304">
             <tspan>20%</tspan>
         </text>
-        <text x="38" style="width:150px" y="272">
+        <text x="38" y="272">
             <tspan>30%</tspan>
         </text>
-        <text x="38" style="width:150px" y="239">
+        <text x="38" y="239">
             <tspan>40%</tspan>
         </text>
-        <text x="38" style="width:150px" y="207">
+        <text x="38" y="207">
             <tspan>50%</tspan>
         </text>
-        <text x="38" style="width:150px" y="175">
+        <text x="38" y="175">
             <tspan>60%</tspan>
         </text>
-        <text x="38" style="width:150px" y="142">
+        <text x="38" y="142">
             <tspan>70%</tspan>
         </text>
-        <text x="38" style="width:150px" y="110">
+        <text x="38" y="110">
             <tspan>80%</tspan>
         </text>
-        <text x="38" style="width:150px" y="78">
+        <text x="38" y="78">
             <tspan>90%</tspan>
         </text>
-        <text x="38" style="width:150px" y="46">
+        <text x="38" y="46">
             <tspan>100%</tspan>
         </text>
     </g>

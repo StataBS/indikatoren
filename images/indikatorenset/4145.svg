@@ -25,10 +25,10 @@
             <path fill="none" d="M-5.762 96.25h10l169.505-30.8 169.505-38.5 16.95-5.775 16.95-1.733 16.951-.577 16.95-2.31 16.951.77h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#008AC3" d="M475 54c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-17 0c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-17 2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-17 0c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-17 2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-17 6c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-170 38c5.328 0 5.328 8 0 8s-5.328-8 0-8zM51 133c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
+            <path fill="#008AC3" d="M55 137a4 4 0 1 1 0-.004zm169-31a4 4 0 1 1 0-.004zm170-38a4 4 0 1 1 0-.004zm17-6a4 4 0 1 1 0-.004zm17-2a4 4 0 1 1 0-.004zm17 0a4 4 0 1 1 0-.004zm17-2a4 4 0 1 1 0-.004zm17 0a4 4 0 1 1 0-.004z" class="highcharts-point"/>
         </g>
     </g>
-    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>1.6.a Wohneigentumsquote in Prozent</tspan>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
@@ -40,51 +40,51 @@
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="51.238" style="width:83px" y="368">
+        <text x="51.238" y="368">
             <tspan>1990</tspan>
         </text>
-        <text x="135.99" style="width:83px" y="368">
+        <text x="135.99" y="368">
             <tspan>1995</tspan>
         </text>
-        <text x="220.743" style="width:83px" y="368">
+        <text x="220.743" y="368">
             <tspan>2000</tspan>
         </text>
-        <text x="305.495" style="width:83px" y="368">
+        <text x="305.495" y="368">
             <tspan>2005</tspan>
         </text>
-        <text x="390.248" style="width:83px" y="368">
+        <text x="390.248" y="368">
             <tspan>2010</tspan>
         </text>
-        <text x="462.781" style="width:83px" y="368">
+        <text x="462.781" y="368">
             <tspan>2015</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="32" style="width:150px" y="354">
+        <text x="32" y="354">
             <tspan>0%</tspan>
         </text>
-        <text x="32" style="width:150px" y="315">
+        <text x="32" y="315">
             <tspan>2%</tspan>
         </text>
-        <text x="32" style="width:150px" y="277">
+        <text x="32" y="277">
             <tspan>4%</tspan>
         </text>
-        <text x="32" style="width:150px" y="238">
+        <text x="32" y="238">
             <tspan>6%</tspan>
         </text>
-        <text x="32" style="width:150px" y="200">
+        <text x="32" y="200">
             <tspan>8%</tspan>
         </text>
-        <text x="32" style="width:150px" y="161">
+        <text x="32" y="161">
             <tspan>10%</tspan>
         </text>
-        <text x="32" style="width:150px" y="123">
+        <text x="32" y="123">
             <tspan>12%</tspan>
         </text>
-        <text x="32" style="width:150px" y="84">
+        <text x="32" y="84">
             <tspan>14%</tspan>
         </text>
-        <text x="32" style="width:150px" y="46">
+        <text x="32" y="46">
             <tspan>16%</tspan>
         </text>
     </g>
