@@ -1,14 +1,6 @@
 npm-debug.log
 
 node_modules/*
-!node_modules/seedrandom/
-!node_modules/seedrandom/*
-!node_modules/execfile/
-!node_modules/execfile/*
-!node_modules/highcharts/
-!node_modules/highcharts/*
-!node_modules/highcharts-export-csv/
-!node_modules/highcharts-export-csv/*
 tmp/
 .~lock*
 
