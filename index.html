@@ -247,7 +247,7 @@
           </div>
         </div>
         <!-- hide Links if empty -->    
-        <%= renderLinksHTML((typeof(kennzahlenset)!=='undefined' ? kennzahlenset: null), (typeof(renderLink) !== 'undefined' ? renderLink : null), (typeof(externalLinks)!=='undefined' ? externalLinks : null )) %>
+        <%= renderLinksHTML((typeof(kennzahlenset)!=='undefined' ? kennzahlenset: null), (typeof(renderLink) !== 'undefined' ? renderLink : null), (typeof(externalLinks)!=='undefined' ? externalLinks : null ), false) %>
       </div>
     </script> 
 
@@ -267,6 +267,8 @@
           <div class='lesehilfe'><%= erlaeuterungen %>
           </div>
         </div>        
+        <!-- hide Links if empty -->    
+        <%= renderLinksHTML((typeof(kennzahlenset)!=='undefined' ? kennzahlenset: null), (typeof(renderLink) !== 'undefined' ? renderLink : null), (typeof(externalLinks)!=='undefined' ? externalLinks : null ), true) %>
       </div>
     </script> 
 
