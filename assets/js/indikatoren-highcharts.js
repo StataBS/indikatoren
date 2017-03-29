@@ -58,9 +58,9 @@ function createChartConfig(data, chartOptions, template, chartMetaData, indikato
 //merge series with all options and draw chart
 function drawChart(data, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn){
   createChartConfig(data, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, function(options){
-    var chartType = (options.chart.type === "map") ? 'Map' : 'Chart';
-    var chart = new Highcharts[chartType](options, callbackFn);
-    return chart;
+    //decide if stockchart, map, or chart
+    var constr = options.isStock ? 'StockChart': (options.chart.type === 'map' ? 'Map' : 'Chart');
+    return new Highcharts[constr](options, callbackFn);
   });
 }
 

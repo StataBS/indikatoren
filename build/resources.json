@@ -1,6 +1,6 @@
 {
   "files": [
-    "../node_modules/highcharts/highcharts.js",
+    "../node_modules/highcharts/highstock.js",
     "../node_modules/highcharts/highcharts-3d.js",
     "../node_modules/highcharts/highcharts-more.js",
     "../node_modules/highcharts/modules/data.js",

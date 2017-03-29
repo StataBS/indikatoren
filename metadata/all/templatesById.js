@@ -4,7 +4,7 @@ var templatesById = {
 	"4129": "line001",
 	"4130": "line001",
 	"4131": "template001",
-	"4132": "line001",
+	"4132": "stock001",
 	"4133": "template001",
 	"4134": "template001",
 	"4135": "template001",

@@ -3,11 +3,14 @@
         <clipPath id="a">
             <path fill="none" d="M0 0h367v200H0z"/>
         </clipPath>
+        <clipPath id="b">
+            <path fill="none" d="M0 0h367v200H0z"/>
+        </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
     <path fill="none" class="highcharts-plot-background" d="M53 150h367v200H53z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M89.5 150v200m36-200v200m37-200v200m37-200v200m37-200v200m36-200v200m37-200v200m37-200v200m36-200v200m37-200v200m-367-200v200"/>
+        <path fill="none" class="highcharts-grid-line" d="M89.5 150v200m0-200v200m36-200v200m0-200v200m37-200v200m0-200v200m37-200v200m0-200v200m37-200v200m0-200v200m36-200v200m0-200v200m37-200v200m0-200v200m37-200v200m0-200v200m36-200v200m0-200v200m37-200v200m0-200v200m-367-200v200m0-200v200"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 350.5h367m-367-50h367m-367-50h367m-367-50h367m-367-51h367"/>
@@ -39,7 +42,7 @@
         <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 150)" clip-path="url(#a)">
             <path fill="#FABD24" class="highcharts-point" stroke="#fff" d="M9.5-.5h18v17h-18zm36 0h18v18h-18zm37 0h18v18h-18zm37 0h18v18h-18zm36 0h18v18h-18zm37 0h18v18h-18zm37 0h18v18h-18zm36 0h18v18h-18zm37 0h18v18h-18zm37 0h18v18h-18z"/>
         </g>
-        <g class="highcharts-series highcharts-series-4 highcharts-line-series highcharts-color-undefined" transform="translate(53 150)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-4 highcharts-line-series highcharts-color-undefined" transform="translate(53 150)" clip-path="url(#b)">
             <path fill="none" d="M18.35 38.718l36.7.018 36.7-.271 36.7 1.075 36.7.209 36.7.275 36.7.061 36.7.031 36.7.269 36.7.094" class="highcharts-graph" stroke="#44AB2B" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
             <path fill="none" d="M8.35 38.718h10l36.7.018 36.7-.271 36.7 1.075 36.7.209 36.7.275 36.7.061 36.7.031 36.7.269 36.7.094h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>

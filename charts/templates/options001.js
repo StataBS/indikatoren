@@ -14,7 +14,13 @@ Highcharts.setOptions({
 		"downloadPDF": "PDF",
 		"downloadCSV": 'CSV',
 		"downloadXLS": 'XLS',		
-        "thousandsSep": " "  
+        "thousandsSep": " ",
+        months: ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'],
+        weekdays: ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'],
+        shortMonths: ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'],
+        rangeSelectorFrom: "Von",
+        rangeSelectorTo: "Bis",
+        rangeSelectorZoom: "Zeitraum:"
 	},
 	"exporting": {
         "sourceWidth": null,

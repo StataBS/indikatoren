@@ -3,11 +3,14 @@
         <clipPath id="a">
             <path fill="none" d="M0 0h276v245H0z"/>
         </clipPath>
+        <clipPath id="b">
+            <path fill="none" d="M0 0h276v245H0z"/>
+        </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
     <path fill="none" class="highcharts-plot-background" d="M43 75h276v245H43z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M88.5 75v245m46-245v245m46-245v245m46-245v245m46-245v245m46-245v245M42.5 75v245"/>
+        <path fill="none" class="highcharts-grid-line" d="M88.5 75v245m0-245v245m46-245v245m0-245v245m46-245v245m0-245v245m46-245v245m0-245v245m46-245v245m0-245v245m46-245v245m0-245v245M42.5 75v245m0-245v245"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 320.5h276m-276-61h276m-276-61h276m-276-62h276m-276-62h276"/>
@@ -30,15 +33,15 @@
         <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 75)" clip-path="url(#a)">
             <path fill="#0a3b19" class="highcharts-point" stroke="#fff" d="M7.5 225.5h30v20h-30zm46-61h30v81h-30zm46-23h30v104h-30zm46-86h30v190h-30zm46 83h30v107h-30zm46 56h30v51h-30z"/>
         </g>
-        <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined" visibility="hidden" transform="translate(43 75)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined" visibility="hidden" transform="translate(43 75)" clip-path="url(#b)">
             <path fill="none" d="M23-153.125l46 306.25 46 24.5 46-6.125 46-36.75 46 91.875" class="highcharts-graph" stroke="#ff8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
             <path fill="none" d="M13-153.125h10l46 306.25 46 24.5 46-6.125 46-36.75 46 91.875h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
-        <g class="highcharts-series highcharts-series-4 highcharts-line-series highcharts-color-undefined" visibility="hidden" transform="translate(43 75)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-4 highcharts-line-series highcharts-color-undefined" visibility="hidden" transform="translate(43 75)" clip-path="url(#b)">
             <path fill="none" d="M23 312.375L69 294h46l46-67.375 46-42.875 46-49" class="highcharts-graph" stroke="#923f8d" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
             <path fill="none" d="M13 312.375h10L69 294h46l46-67.375 46-42.875 46-49h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
-        <g class="highcharts-series highcharts-series-5 highcharts-line-series highcharts-color-undefined" transform="translate(43 75)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-5 highcharts-line-series highcharts-color-undefined" transform="translate(43 75)" clip-path="url(#b)">
             <path fill="none" d="M23 91.875l46 36.75 46 104.125 46-67.375 46-61.25 46-67.375" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
             <path fill="none" d="M13 91.875h10l46 36.75 46 104.125 46-67.375 46-61.25 46-67.375h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>

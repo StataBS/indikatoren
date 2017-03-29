@@ -3,11 +3,14 @@
         <clipPath id="a">
             <path fill="none" d="M0 0h405v260H0z"/>
         </clipPath>
+        <clipPath id="b">
+            <path fill="none" d="M0 0h405v260H0z"/>
+        </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
     <path fill="none" class="highcharts-plot-background" d="M37 90h405v260H37z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M71.5 90v260m61-260v260m61-260v260m61-260v260m61-260v260m61-260v260m61-260v260"/>
+        <path fill="none" class="highcharts-grid-line" d="M71.5 90v260m0-260v260m61-260v260m0-260v260m61-260v260m0-260v260m61-260v260m0-260v260m61-260v260m0-260v260m61-260v260m0-260v260m61-260v260m0-260v260"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M37 350.5h405m-405-65h405m-405-65h405m-405-65h405m-405-66h405"/>
@@ -33,7 +36,7 @@
         <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
             <path fill="#cd9c00" d="M44 116a4 4 0 1 1 0-.004zm31-13a4 4 0 1 1 0-.004zm31 13a4 4 0 1 1 0-.004zm30 13a4 4 0 1 1 0-.004zm31 39a4 4 0 1 1 0-.004zm30 0a4 4 0 1 1 0-.004zm31 0a4 4 0 1 1 0-.004zm30 0a4 4 0 1 1 0-.004zm31 0a4 4 0 1 1 0-.004zm30 0a4 4 0 1 1 0-.004zm31 13a4 4 0 1 1 0-.004zm30 0a4 4 0 1 1 0-.004zm31 26a4 4 0 1 1 0-.004zm31-13a4 4 0 1 1 0-.004z" class="highcharts-point"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(37 90)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(37 90)" clip-path="url(#b)">
             <path fill="none" d="M3.97 53.733l30.544-12.566 30.543 15.166L95.6 58.5l30.543.867 30.543 1.3L187.229 80.6l30.542-21.233h30.543l30.543-3.9 30.543 23.4 30.543-.434 30.543-2.166 30.543 2.166" class="highcharts-graph" stroke="#73b97c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
             <path fill="none" d="M-6.03 53.733h10l30.544-12.566 30.543 15.166L95.6 58.5l30.543.867 30.543 1.3L187.229 80.6l30.542-21.233h30.543l30.543-3.9 30.543 23.4 30.543-.434 30.543-2.166 30.543 2.166h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>

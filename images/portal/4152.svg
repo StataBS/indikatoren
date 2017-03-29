@@ -3,11 +3,14 @@
         <clipPath id="a">
             <path fill="none" d="M0 0h392v280H0z"/>
         </clipPath>
+        <clipPath id="b">
+            <path fill="none" d="M0 0h392v280H0z"/>
+        </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
     <path fill="none" class="highcharts-plot-background" d="M52 75h392v280H52z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M93.5 75v280m77-280v280m77-280v280m77-280v280m77-280v280"/>
+        <path fill="none" class="highcharts-grid-line" d="M93.5 75v280m0-280v280m77-280v280m0-280v280m77-280v280m0-280v280m77-280v280m0-280v280m77-280v280m0-280v280"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M52 355.5h392m-392-70h392m-392-70h392m-392-70h392m-392-71h392"/>
@@ -30,7 +33,7 @@
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 75)" clip-path="url(#a)">
             <path fill="#923f8d" class="highcharts-point" stroke="#fff" d="M22.5 117.5h38v163h-38zm77-47h38v210h-38zm77-30h38v240h-38zm78-21h38v261h-38zm77-18h38v279h-38z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(52 75)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(52 75)" clip-path="url(#b)">
             <path fill="none" d="M41.67 140l77.165-35L196 81.667l77.165-23.334 77.166-11.666" class="highcharts-graph" stroke="#cd9c00" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
             <path fill="none" d="M31.67 140h10l77.165-35L196 81.667l77.165-23.334 77.166-11.666h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>

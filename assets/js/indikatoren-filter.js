@@ -74,15 +74,25 @@ $(document).ready(function(){
 
 
 //reset all filter criteria
-function resetPortalFilter(FJS){
-  $('#searchbox').val('');
-  $("#thema_criteria :radio:first()").prop('checked', true);
-  $("#unterthema_filter").prop('selectedIndex', 0);
-  $("#schlagwort_filter option").prop('selected', true);
-  $("#schlagwort_filter").multiselect('selectAll', false).multiselect('updateButtonText');      
-  $("#raeumlicheGliederung_filter").multiselect('selectAll', false).multiselect('updateButtonText');
-  FJS.filter();
+function resetPortalFilter(FJS, indikatorensetView){
+  if (indikatorensetView){
+    $('#searchbox').val('');
+    $("#stufe2_filter").prop('selectedIndex', 0);
+    $("#stufe1_filter").prop('selectedIndex', 0);
+    FJS.filter();
+  }
+  //portal view
+  else{
+    $('#searchbox').val('');
+    $("#thema_criteria :radio:first()").prop('checked', true);
+    $("#unterthema_filter").prop('selectedIndex', 0);
+    $("#schlagwort_filter option").prop('selected', true);
+    $("#schlagwort_filter").multiselect('selectAll', false).multiselect('updateButtonText');      
+    $("#raeumlicheGliederung_filter").multiselect('selectAll', false).multiselect('updateButtonText');
+    FJS.filter();
+  }
 }
+
 
 function initializeFilterJS(indikatorenset){
   var fjsConfig = {      
@@ -131,7 +141,7 @@ function initializeFilterJS(indikatorenset){
 
     //reset all filter criteria
     $("#portal-reset-button").click(function(){
-      resetPortalFilter(FJS)
+      resetPortalFilter(FJS, false)
     });
   }  
 
@@ -381,16 +391,26 @@ function getIndexOfChart(chartId, charts){
 
 
 //slide carousel to a specified chart id
-function slideToLinkedChart(chartId, FJS){
+function slideToLinkedChart(chartId, FJS, indikatorensetView){
   var index = getIndexOfChart(chartId, getLastFjsResult());
   if (index > -1){
     $('.carousel').carousel(index);
   }
   else {
-    //reset search filters, then find index and slide to the specified chart
-    resetPortalFilter(FJS);
+    //get index of currently displayed chart
+    var currentIndex = $(".item.active").index();
+    //reset search filters
+    resetPortalFilter(FJS, indikatorensetView);
+    //find index of target chart
     index = getIndexOfChart(chartId, getLastFjsResult());
     if (index > -1){
+      //if index of current chart is same as index of target chart we have to mess with the "active" attribute in order to make sliding work
+      if (currentIndex == index){
+        //set active class on the last item (is set to first item by afterFilter function)
+        $(".item.active").removeClass("active");
+        $(".item:last-child").addClass("active");
+      }
+      //slide to target item
       $('.carousel').carousel(index);
     }
     else {
@@ -401,12 +421,10 @@ function slideToLinkedChart(chartId, FJS){
 
 
 //render the html required for links to other chart, kennzahlenset or external resources
-function renderLinksHTML(kennzahlenset, renderLink, externalLinks){
-  var display = false;
+function renderLinksHTML(kennzahlenset, renderLink, externalLinks, indikatorensetView){
   var returnText = "";
   //any of the links need to be present 
   if (kennzahlenset || (renderLink && renderLink.length && renderLink[0].length) || (externalLinks && externalLinks.length && externalLinks[0].length) ) {
-    display = true;
     returnText = " \
         <div> \
           <h1>Links</h1> \
@@ -417,7 +435,7 @@ function renderLinksHTML(kennzahlenset, renderLink, externalLinks){
       returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/"+ kennzahlenset.toLowerCase().replace(" ", "-") + ".html' target='_blank'>" + kennzahlenset + "</a>.</li>";
     }
     if (renderLink && renderLink.length && renderLink[0].length) {
-      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS)'>Andere Darstellungsform</a> dieser Daten</li>";
+      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS, " + indikatorensetView + ")'>Andere Darstellungsform</a> dieser Daten</li>";
     }
     if (externalLinks && externalLinks.length && externalLinks[0].length) {
       returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>" + externalLinks + "</li>";

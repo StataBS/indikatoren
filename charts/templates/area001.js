@@ -82,7 +82,14 @@
         "layout": "vertical",
         "verticalAlign": "middle",
         "align": "right",
+<<<<<<< HEAD
+        "symbolRadius": 0,
+        "itemStyle": {
+          "fontWeight": "normal"
+        }
+=======
         "symbolRadius": 0
+>>>>>>> issue-135
       },
       "series": {
         "dataLabels": {
