@@ -80,7 +80,7 @@ function saveChartConfig(indikator, indikatorensetView, console){
         }
     }
 
-    var Highcharts = require('highcharts');
+    var Highcharts = require('highcharts/highstock');
     //Error bars need highcharts-more. How to import: http://stackoverflow.com/q/34505816
     require('highcharts/highcharts-more')(Highcharts);
     var Highcharts_data = require('highcharts/modules/data')(Highcharts);

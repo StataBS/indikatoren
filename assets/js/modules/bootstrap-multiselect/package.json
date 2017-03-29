@@ -2,11 +2,11 @@
   "_args": [
     [
       {
-        "raw": "bootstrap-multiselect@./node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
+        "raw": "bootstrap-multiselect@file:node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
         "scope": null,
         "escapedName": "bootstrap-multiselect",
         "name": "bootstrap-multiselect",
-        "rawSpec": "./node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
+        "rawSpec": "file:node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
         "spec": "/home/ubuntu/workspace/node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
         "type": "local"
       },
@@ -19,11 +19,11 @@
   "_location": "/bootstrap-multiselect",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "bootstrap-multiselect@./node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
+    "raw": "bootstrap-multiselect@file:node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
     "scope": null,
     "escapedName": "bootstrap-multiselect",
     "name": "bootstrap-multiselect",
-    "rawSpec": "./node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
+    "rawSpec": "file:node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
     "spec": "/home/ubuntu/workspace/node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
     "type": "local"
   },
@@ -33,7 +33,7 @@
   "_resolved": "file:node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
   "_shasum": "9bfd00f41f0f7d9c20b555f709f8a10241b5f911",
   "_shrinkwrap": null,
-  "_spec": "bootstrap-multiselect@./node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
+  "_spec": "bootstrap-multiselect@file:node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
   "_where": "/home/ubuntu/workspace",
   "author": {
     "name": "David Stutz"
