@@ -1,40 +1,65 @@
 (function(){
     return {
-  "yAxis": {
-    "min": 0,
-    "labels": {
-      "format": "{value:,.0f}"
-	  }
-  },
-  "xAxis": {
-      "tickInterval": 1
-  },
-  "series": [
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "index": 0,
-      "color": "#008AC3"
-    }
-  ],
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "enabled": true,
-          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
-          formatter: function() {
-            var first = this.series.data[0];
-            var last  = this.series.data[this.series.data.length - 1];
-            if (this.point.y === first.y || this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 0, ",", " ");
+        chart: {
+        	type: 'area'
+        },
+        xAxis: {
+            endOnTick: true,    
+            startOnTick: true,
+            showFirstLabel: true,
+            showLastLabel: true
+        },
+        yAxis: { 
+            showLastLabel: true,
+            endOnTick: true,
+            labels: {
+            	format: '{value:,.0f}'
+            }, 
+            opposite: false
+        },
+        plotOptions: {
+            series: {
+                marker: {
+                    enabled: false, //null,
+                    radius: 4
+                }
             }
-            return "";
-          }
-      }
-    }
-  }
-
-	}
+        },
+    	rangeSelector: {
+    		buttons: 
+    			[
+        			{
+                      count: 10,
+                      type: 'year',
+                      text: '10 J'
+    	            }, 
+        			{
+                      count: 20,
+                      type: 'year',
+                      text: '20 J'
+    	            }, 
+    	            {
+                      count: 50,
+                      type: 'year',
+                      text: '50 J'
+    	            }, 
+    	            {
+                      count: 100,
+                      type: 'year',
+                      text: '100 J'
+    	            },
+    	            {
+                      type: 'all',
+                      text: 'Alle J'
+    	            }
+                ],
+            buttonSpacing: 15,                
+            inputEnabled: false,
+            selected: 2, 
+            inputDateFormat: '%Y',
+    		inputEditDateFormat: '%Y'
+        }  
+	};
 }());
+
+ 

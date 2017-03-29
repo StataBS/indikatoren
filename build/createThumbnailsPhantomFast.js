@@ -52,7 +52,7 @@ function go(){
                 //check if the chart is of type map and set 'constr' parameter accordingly 
                 var configFile = fs.readFileSync(configPath + indikator.id + '.json', 'utf8');
                 var config = deserialize(configFile);
-                var constr = (config.chart.type === 'map') ? 'Map' : 'Chart';
+                var constr = config.isStock ? 'StockChart': (config.chart.type === 'map' ? 'Map' : 'Chart');
                 
                 var currentArg = [
                     path.join(__dirname, 'highcharts-convert.js'),

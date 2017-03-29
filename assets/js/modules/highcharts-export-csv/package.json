@@ -2,11 +2,11 @@
   "_args": [
     [
       {
-        "raw": "highcharts-export-csv@./node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
+        "raw": "highcharts-export-csv@file:node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
         "scope": null,
         "escapedName": "highcharts-export-csv",
         "name": "highcharts-export-csv",
-        "rawSpec": "./node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
+        "rawSpec": "file:node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
         "spec": "/home/ubuntu/workspace/node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
         "type": "local"
       },
@@ -19,11 +19,11 @@
   "_location": "/highcharts-export-csv",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "highcharts-export-csv@./node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
+    "raw": "highcharts-export-csv@file:node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
     "scope": null,
     "escapedName": "highcharts-export-csv",
     "name": "highcharts-export-csv",
-    "rawSpec": "./node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
+    "rawSpec": "file:node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
     "spec": "/home/ubuntu/workspace/node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
     "type": "local"
   },
@@ -33,7 +33,7 @@
   "_resolved": "file:node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
   "_shasum": "4a627738a3a09242c3bd7f4abfc92c00ddbd3097",
   "_shrinkwrap": null,
-  "_spec": "highcharts-export-csv@./node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
+  "_spec": "highcharts-export-csv@file:node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
   "_where": "/home/ubuntu/workspace",
   "author": {
     "name": "Torstein Hønsi",

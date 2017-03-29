@@ -3,11 +3,14 @@
         <clipPath id="a">
             <path fill="none" d="M0 0h379v275H0z"/>
         </clipPath>
+        <clipPath id="b">
+            <path fill="none" d="M0 0h379v275H0z"/>
+        </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
     <path fill="none" class="highcharts-plot-background" d="M59 75h379v275H59z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M66.5 75v275m40-275v275m40-275v275m41-275v275m40-275v275m41-275v275m40-275v275m41-275v275m40-275v275m40-275v275"/>
+        <path fill="none" class="highcharts-grid-line" d="M66.5 75v275m0-275v275m40-275v275m0-275v275m40-275v275m0-275v275m41-275v275m0-275v275m40-275v275m0-275v275m41-275v275m0-275v275m40-275v275m0-275v275m41-275v275m0-275v275m40-275v275m0-275v275m40-275v275m0-275v275"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M59 350.5h379m-379-69h379m-379-68h379m-379-69h379m-379-70h379"/>
@@ -35,7 +38,7 @@
             <path fill="#73b97c" class="highcharts-point" stroke="#fff" d="M357.5 58.5h10v217h-10z"/>
             <path fill="#73b97c" class="highcharts-point" stroke="#fff" d="M365.5 57.5h10v218h-10z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(59 75)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(59 75)" clip-path="url(#b)">
             <path fill="none" d="M7.677 69.61l80.81-22.344 80.81.859 80.81-5.156 80.81-11.172L339 29.219h8.081l8.081-7.735 8.081-.859 8.081-.86" class="highcharts-graph" stroke="#cd9c00" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
             <path fill="none" d="M-2.323 69.61h10l80.81-22.344 80.81.859 80.81-5.156 80.81-11.172L339 29.219h8.081l8.081-7.735 8.081-.859 8.081-.86h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>

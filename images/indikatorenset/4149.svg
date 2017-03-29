@@ -3,11 +3,14 @@
         <clipPath id="a">
             <path fill="none" d="M0 0h370v279H0z"/>
         </clipPath>
+        <clipPath id="b">
+            <path fill="none" d="M0 0h370v279H0z"/>
+        </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
     <path fill="none" class="highcharts-plot-background" d="M74 85h370v279H74z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M102.5 85v279m52-279v279m52-279v279m52-279v279m52-279v279m52-279v279m52-279v279"/>
+        <path fill="none" class="highcharts-grid-line" d="M102.5 85v279m0-279v279m52-279v279m0-279v279m52-279v279m0-279v279m52-279v279m0-279v279m52-279v279m0-279v279m52-279v279m0-279v279m52-279v279m0-279v279"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M74 364.5h370m-370-70h370m-370-69h370m-370-70h370m-370-71h370"/>
@@ -30,7 +33,7 @@
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(74 85)" clip-path="url(#a)">
             <path fill="#73b97c" class="highcharts-point" stroke="#fff" d="M16.5 45.5h25v234h-25zm52 0h25v234h-25zm52-3h25v237h-25zm52-4h25v241h-25zm51 3h25v238h-25zm52 4h25v234h-25zm52-14h25v248h-25z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(74 85)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(74 85)" clip-path="url(#b)">
             <path fill="none" d="M29.101 172.05h51.966l51.967-4.65h103.932l51.967 4.65 51.966-9.3" class="highcharts-graph" stroke="#cd9c00" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
             <path fill="none" d="M19.101 172.05h61.966l51.967-4.65h103.932l51.967 4.65 51.966-9.3h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>

@@ -2,11 +2,11 @@
   "_args": [
     [
       {
-        "raw": "jquery@./node_shrinkwrap/jquery-3.1.1.tar",
+        "raw": "jquery@file:node_shrinkwrap/jquery-3.1.1.tar",
         "scope": null,
         "escapedName": "jquery",
         "name": "jquery",
-        "rawSpec": "./node_shrinkwrap/jquery-3.1.1.tar",
+        "rawSpec": "file:node_shrinkwrap/jquery-3.1.1.tar",
         "spec": "/home/ubuntu/workspace/node_shrinkwrap/jquery-3.1.1.tar",
         "type": "local"
       },
@@ -19,11 +19,11 @@
   "_location": "/jquery",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "jquery@./node_shrinkwrap/jquery-3.1.1.tar",
+    "raw": "jquery@file:node_shrinkwrap/jquery-3.1.1.tar",
     "scope": null,
     "escapedName": "jquery",
     "name": "jquery",
-    "rawSpec": "./node_shrinkwrap/jquery-3.1.1.tar",
+    "rawSpec": "file:node_shrinkwrap/jquery-3.1.1.tar",
     "spec": "/home/ubuntu/workspace/node_shrinkwrap/jquery-3.1.1.tar",
     "type": "local"
   },
@@ -33,7 +33,7 @@
   "_resolved": "file:node_shrinkwrap/jquery-3.1.1.tar",
   "_shasum": "28f6f12d01a6206fc98c047d7a316973a294034f",
   "_shrinkwrap": null,
-  "_spec": "jquery@./node_shrinkwrap/jquery-3.1.1.tar",
+  "_spec": "jquery@file:node_shrinkwrap/jquery-3.1.1.tar",
   "_where": "/home/ubuntu/workspace",
   "author": {
     "name": "jQuery Foundation and other contributors",

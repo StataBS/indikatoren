@@ -2,11 +2,11 @@
   "_args": [
     [
       {
-        "raw": "bootstrap@./node_shrinkwrap/bootstrap-3.3.7.tar",
+        "raw": "bootstrap@file:node_shrinkwrap/bootstrap-3.3.7.tar",
         "scope": null,
         "escapedName": "bootstrap",
         "name": "bootstrap",
-        "rawSpec": "./node_shrinkwrap/bootstrap-3.3.7.tar",
+        "rawSpec": "file:node_shrinkwrap/bootstrap-3.3.7.tar",
         "spec": "/home/ubuntu/workspace/node_shrinkwrap/bootstrap-3.3.7.tar",
         "type": "local"
       },
@@ -19,11 +19,11 @@
   "_location": "/bootstrap",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "bootstrap@./node_shrinkwrap/bootstrap-3.3.7.tar",
+    "raw": "bootstrap@file:node_shrinkwrap/bootstrap-3.3.7.tar",
     "scope": null,
     "escapedName": "bootstrap",
     "name": "bootstrap",
-    "rawSpec": "./node_shrinkwrap/bootstrap-3.3.7.tar",
+    "rawSpec": "file:node_shrinkwrap/bootstrap-3.3.7.tar",
     "spec": "/home/ubuntu/workspace/node_shrinkwrap/bootstrap-3.3.7.tar",
     "type": "local"
   },
@@ -33,7 +33,7 @@
   "_resolved": "file:node_shrinkwrap/bootstrap-3.3.7.tar",
   "_shasum": "25fd794d8bae3f8241bb6ab1f771c7eb79f3e5dd",
   "_shrinkwrap": null,
-  "_spec": "bootstrap@./node_shrinkwrap/bootstrap-3.3.7.tar",
+  "_spec": "bootstrap@file:node_shrinkwrap/bootstrap-3.3.7.tar",
   "_where": "/home/ubuntu/workspace",
   "author": {
     "name": "Twitter, Inc."
