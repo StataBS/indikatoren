@@ -3,11 +3,14 @@
         <clipPath id="a">
             <path fill="none" d="M0 0h359v275H0z"/>
         </clipPath>
+        <clipPath id="b">
+            <path fill="none" d="M0 0h359v275H0z"/>
+        </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
     <path fill="none" class="highcharts-plot-background" d="M74 75h359v275H74z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M77.5 75v275m70-275v275m70-275v275m71-275v275m70-275v275m70-275v275"/>
+        <path fill="none" class="highcharts-grid-line" d="M77.5 75v275m0-275v275m70-275v275m0-275v275m70-275v275m0-275v275m71-275v275m0-275v275m70-275v275m0-275v275m70-275v275m0-275v275"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M74 350.5h359m-359-69h359m-359-68h359m-359-69h359m-359-70h359"/>
@@ -33,7 +36,7 @@
         <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
             <path fill="#73b97c" d="M81 231a4 4 0 1 1 0-.004zm14 7a4 4 0 1 1 0-.004zm14 3a4 4 0 1 1 0-.004zm14 6a4 4 0 1 1 0-.004zm14 2a4 4 0 1 1 0-.004zm14-5a4 4 0 1 1 0-.004zm14 1a4 4 0 1 1 0-.004zm15-2a4 4 0 1 1 0-.004zm14 1a4 4 0 1 1 0-.004zm14-4a4 4 0 1 1 0-.004zm14-3a4 4 0 1 1 0-.004zm14 2a4 4 0 1 1 0-.004zm14 3a4 4 0 1 1 0-.004zm14-6a4 4 0 1 1 0-.004zm14-24a4 4 0 1 1 0-.004zm14 3a4 4 0 1 1 0-.004zm14-17a4 4 0 1 1 0-.004zm14-10a4 4 0 1 1 0-.004zm14-11a4 4 0 1 1 0-.004zm15-4a4 4 0 1 1 0-.004zm14-7a4 4 0 1 1 0-.004zm14-2a4 4 0 1 1 0-.004zm14 0a4 4 0 1 1 0-.004zm14-4a4 4 0 1 1 0-.004zm14-10a4 4 0 1 1 0-.004zm14-7a4 4 0 1 1 0-.004z" class="highcharts-point"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(74 75)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(74 75)" clip-path="url(#b)">
             <path fill="none" d="M3.52 143.137l14.078.413 14.078-.069 14.079 1.135 14.078 4.434 14.079-1.134 14.078-2.475 14.079-.997 14.078-1.685 14.078-.378 14.079-3.025 14.078 5.775 14.079-9.797 14.078-12.272 14.079-7.493 14.078 5.465 14.079-7.562 14.078-10.76 14.078-11.309 14.079-13.406 14.078-17.05 14.079-6.428 14.078-2.2 14.079 2.303 14.078-12.203 14.078-17.944" class="highcharts-graph" stroke="#cd9c00" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
             <path fill="none" d="M-6.48 143.137h10l14.078.413 14.078-.069 14.079 1.135 14.078 4.434 14.079-1.134 14.078-2.475 14.079-.997 14.078-1.685 14.078-.378 14.079-3.025 14.078 5.775 14.079-9.797 14.078-12.272 14.079-7.493 14.078 5.465 14.079-7.562 14.078-10.76 14.078-11.309 14.079-13.406 14.078-17.05 14.079-6.428 14.078-2.2 14.079 2.303 14.078-12.203 14.078-17.944h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>

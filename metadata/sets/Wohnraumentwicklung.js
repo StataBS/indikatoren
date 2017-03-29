@@ -163,18 +163,17 @@ var indikatorensetData = [
 	{
 		"title": "Bevölkerung am Jahresende",
 		"subtitle": "",
-		"kuerzel": "I.01.1.0023",
-		"kuerzelKunde": "1.1.a",
-		"image": "images/I.01.1.0023.jpg",
+		"kuerzel": "I.01.1.0077",
+		"kuerzelKunde": "1.1.A",
 		"description": "Bevölkerung am Jahresende",
-		"id": "4132",
+		"id": 4132,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-03-22T18:38:03.033",
 		"schlagwort": [
 			"Heimat",
 			"Bevölkerung",
@@ -187,10 +186,18 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Von 2005 bis 2015 ist die Anzahl Einwohnerinnen und Einwohner im Kanton Basel-Stadt um 4,9% angestiegen.",
 		"erlaeuterungen": "Bis zum Jahr 2011 wurde die Bevölkerungszahl durch Fortschreibung ermittelt. Seit dem Jahr 2012 basiert sie direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
-		"template": "line001",
+		"template": "stock001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{

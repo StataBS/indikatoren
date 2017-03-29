@@ -3,11 +3,14 @@
         <clipPath id="a">
             <path fill="none" d="M0 0h389v250H0z"/>
         </clipPath>
+        <clipPath id="b">
+            <path fill="none" d="M0 0h389v250H0z"/>
+        </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
     <path fill="none" class="highcharts-plot-background" d="M43 100h389v250H43z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M83.5 100v250m77-250v250m77-250v250m76-250v250m77-250v250"/>
+        <path fill="none" class="highcharts-grid-line" d="M83.5 100v250m0-250v250m77-250v250m0-250v250m77-250v250m0-250v250m76-250v250m0-250v250m77-250v250m0-250v250"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 350.5h389m-389-62h389m-389-63h389m-389-62h389m-389-64h389"/>
@@ -33,7 +36,7 @@
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 100)" clip-path="url(#a)">
             <path fill="#007A2F" class="highcharts-point" stroke="#fff" d="M43.5 100.5h19v150h-19zm76 1h19v149h-19zm77-7h19v156h-19z"/>
         </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(43 100)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(43 100)" clip-path="url(#b)">
             <path fill="none" d="M41.35 22.75l76.575 1.75L194.5 13.25" class="highcharts-graph" stroke="#cd9c00" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
             <path fill="none" d="M31.35 22.75h10l76.575 1.75L194.5 13.25h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>

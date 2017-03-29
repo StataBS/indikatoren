@@ -20,6 +20,7 @@
     "serialize-javascript": "^1.3.0",
     "shrinkpack": "0.18.1",
     "svgo": "0.7.2",
+    "reinstall": "1.1.1",
     "copy-node-modules": "0.4.1"
   },
   "scripts": {
@@ -36,7 +37,8 @@
     "deploy:gh-pages": "gh-pages-travis",
     "deploy:ftp": "echo \"Fake uploading to FTP server...\" && exit 0",
     "deploy": "npm run deploy:gh-pages && npm run deploy:ftp && pwd",
-    "build:update_dependencies": "npm prune --production=false && npm update --dev",
+    "reinstall": "reinstall",
+    "build:update_dependencies": "reinstall && npm prune --production=false && npm update --dev",
     "build:shrinkpack": "npm shrinkwrap --dev && shrinkpack"
   },
   "repository": {

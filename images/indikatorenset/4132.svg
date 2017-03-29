@@ -1,98 +1,150 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h410v308H0z"/>
+            <path fill="none" d="M0 0h410v204H0z"/>
+        </clipPath>
+        <clipPath id="b">
+            <path fill="none" d="M0 0h382v30H0z"/>
         </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M65 41h410v308H65z"/>
+    <path fill="none" class="highcharts-plot-background" d="M65 76h410v204H65z"/>
+    <g class="highcharts-range-selector-buttons">
+        <text x="10" y="15" color="#666" fill="#666" transform="translate(0 365)">
+            Zoom
+        </text>
+        <g class="highcharts-button highcharts-button-normal" transform="translate(46 365)" cursor="pointer">
+            <rect fill="#f7f7f7" class="highcharts-button-box" width="32" height="22" rx="2" ry="2"/>
+            <text x="4.664" y="14" font-weight="400" color="#333" fill="#333">
+                <tspan>10 J</tspan>
+            </text>
+        </g>
+        <g class="highcharts-button highcharts-button-normal" transform="translate(93 365)" cursor="pointer">
+            <rect fill="#f7f7f7" class="highcharts-button-box" width="32" height="22" rx="2" ry="2"/>
+            <text x="4.664" y="14" font-weight="400" color="#333" fill="#333">
+                <tspan>20 J</tspan>
+            </text>
+        </g>
+        <g class="highcharts-button highcharts-button-pressed" transform="translate(140 365)" cursor="pointer">
+            <rect fill="#e6ebf5" class="highcharts-button-box" width="32" height="22" rx="2" ry="2"/>
+            <text x="4.664" y="14" font-weight="700" color="#000">
+                <tspan>50 J</tspan>
+            </text>
+        </g>
+        <g class="highcharts-button highcharts-button-normal" transform="translate(187 365)" cursor="pointer">
+            <rect fill="#f7f7f7" class="highcharts-button-box" width="32" height="22" rx="2" ry="2"/>
+            <text x="1.328" y="14" font-weight="400" color="#333" fill="#333">
+                <tspan>100 J</tspan>
+            </text>
+        </g>
+        <g class="highcharts-button highcharts-button-normal" transform="translate(234 365)" cursor="pointer">
+            <rect fill="#f7f7f7" class="highcharts-button-box" width="32" height="22" rx="2" ry="2"/>
+            <text x="1.344" y="14" font-weight="400" color="#333" fill="#333">
+                <tspan>Alle J</tspan>
+            </text>
+        </g>
+    </g>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M68.5 41v308m40-308v308m40-308v308m41-308v308m40-308v308m40-308v308m40-308v308m40-308v308m41-308v308m40-308v308m40-308v308"/>
+        <path fill="none" class="highcharts-grid-line" d="M89.5 76v204m82-204v204m82-204v204m82-204v204m82-204v204"/>
+    </g>
+    <g class="highcharts-grid highcharts-xaxis-grid highcharts-navigator-xaxis">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M117.5 311v30m158-30v30m158-30v30"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M65 349.5h410m-410-62h410m-410-61h410m-410-62h410m-410-61h410m-410-63h410"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M65 280.5h410m-410-68h410m-410-68h410m-410-68h410"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M65 41h410v308H65z"/>
+    <g class="highcharts-grid highcharts-yaxis-grid highcharts-navigator-yaxis">
+        <path fill="none" class="highcharts-grid-line" d="M79 340.5h382m-382-28h382"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M65 76h410v204H65z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M65 349.5h410"/>
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M89.5 280v10m82-10v10m82-10v10m82-10v10m82-10v10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M65 280.5h410"/>
+    </g>
+    <g class="highcharts-axis highcharts-xaxis highcharts-navigator-xaxis">
+        <path fill="none" class="highcharts-axis-line" d="M79 341h382"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M65 41v308"/>
+        <path fill="none" class="highcharts-axis-line" d="M65 76v204"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis highcharts-navigator-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M65 311v30"/>
+    </g>
+    <g class="highcharts-scrollbar" transform="translate(65 342)">
+        <rect fill="#f2f2f2" class="highcharts-scrollbar-track" rx="0" ry="0" height="14" width="410" stroke="#f2f2f2" y="-.5"/>
+        <g transform="translate(317 -.5)">
+            <rect fill="#ccc" class="highcharts-scrollbar-thumb" height="14" width="79" rx="0" ry="0" stroke="#ccc"/>
+            <path fill="none" d="M36 3.5v5.833M39 3.5v5.833M42 3.5v5.833" class="highcharts-scrollbar-rifles" stroke="#333"/>
+        </g>
+        <rect fill="#e6e6e6" class="highcharts-scrollbar-button" stroke="#ccc" x="-.5" y="-.5" width="14" height="14" rx="0" ry="0"/>
+        <path fill="#333" d="M8 4v6L5 7" class="highcharts-scrollbar-arrow"/>
+        <g transform="translate(396)">
+            <rect fill="#e6e6e6" class="highcharts-scrollbar-button" stroke="#ccc" x="-.5" y="-.5" width="14" height="14" rx="0" ry="0"/>
+            <path fill="#333" d="M6 4v6l3-3" class="highcharts-scrollbar-arrow"/>
+        </g>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(65 41)" clip-path="url(#a)">
-            <path fill="none" d="M4.02 76.483l40.196.157 40.196-.256 40.196-1.917 40.196-1.551 40.196.02 40.196-1.855 40.196-1.422 40.196-2.464 40.196-1.247 40.196-.903" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-5.98 76.483h10l40.196.157 40.196-.256 40.196-1.917 40.196-1.551 40.196.02 40.196-1.855 40.196-1.422 40.196-2.464 40.196-1.247 40.196-.903h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-area-series highcharts-color-0" transform="translate(65 76)" clip-path="url(#a)">
+            <path fill="rgba(124,181,236,0.75)" d="M-8.194 46.4L0 46.178l8.194.575 8.217-.933 8.194-.12 8.194-2.329 8.194 2.611 8.217 1.641 8.194 1.784 8.194 2.384v-.465l8.194 2.847 8.217 2.944v-1.28l8.194 3.7 8.194 1.641 8.194 1.328v-.008l8.217 1.153v-.093l8.194 1.038v.016l8.194.722v.07l8.195.485v-.073l8.216.355 8.194.392 8.195 1.474 8.194.973 8.216 1.199 8.194.487 8.195-.451 8.194-.876 8.216-.423 8.195-.654 8.194.385 8.194.596 8.216 1.007 8.195 1.618 8.194 1.411 8.194 1.323 8.217 1.425 8.194.487 8.194-.442 8.194.004 8.217-.271 8.194.69 8.194.065 8.194-.215 8.217-1.081 8.194-.525 8.194-.195 8.194-1.186 8.217-.94 8.194-1.36 8.194-.688 8.194-.499L410 69.22V204H-8.194" class="highcharts-area"/>
+            <path fill="none" d="M-8.194 46.4L0 46.178l8.194.575 8.217-.933 8.194-.12 8.194-2.329 8.194 2.611 8.217 1.641 8.194 1.784 8.194 2.384v-.465l8.194 2.847 8.217 2.944v-1.28l8.194 3.7 8.194 1.641 8.194 1.328v-.008l8.217 1.153v-.093l8.194 1.038v.016l8.194.722v.07l8.195.485v-.073l8.216.355 8.194.392 8.195 1.474 8.194.973 8.216 1.199 8.194.487 8.195-.451 8.194-.876 8.216-.423 8.195-.654 8.194.385 8.194.596 8.216 1.007 8.195 1.618 8.194 1.411 8.194 1.323 8.217 1.425 8.194.487 8.194-.442 8.194.004 8.217-.271 8.194.69 8.194.065 8.194-.215 8.217-1.081 8.194-.525 8.194-.195 8.194-1.186 8.217-.94 8.194-1.36 8.194-.688 8.194-.499L410 69.22" class="highcharts-graph" stroke="#7cb5ec" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-18.194 46.4h10L0 46.178l8.194.575 8.217-.933 8.194-.12 8.194-2.329 8.194 2.611 8.217 1.641 8.194 1.784 8.194 2.384v-.465l8.194 2.847 8.217 2.944v-1.28l8.194 3.7 8.194 1.641 8.194 1.328v-.008l8.217 1.153v-.093l8.194 1.038v.016l8.194.722v.07l8.195.485v-.073l8.216.355 8.194.392 8.195 1.474 8.194.973 8.216 1.199 8.194.487 8.195-.451 8.194-.876 8.216-.423 8.195-.654 8.194.385 8.194.596 8.216 1.007 8.195 1.618 8.194 1.411 8.194 1.323 8.217 1.425 8.194.487 8.194-.442 8.194.004 8.217-.271 8.194.69 8.194.065 8.194-.215 8.217-1.081 8.194-.525 8.194-.195 8.194-1.186 8.217-.94 8.194-1.36 8.194-.688 8.194-.499L410 69.22h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
-        <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#008AC3" d="M73 117a4 4 0 1 1 0-.004zm40 1a4 4 0 1 1 0-.004zm40-1a4 4 0 1 1 0-.004zm40-2a4 4 0 1 1 0-.004zm40-1a4 4 0 1 1 0-.004zm41 0a4 4 0 1 1 0-.004zm40-2a4 4 0 1 1 0-.004zm40-1a4 4 0 1 1 0-.004zm40-3a4 4 0 1 1 0-.004zm40-1a4 4 0 1 1 0-.004zm40-1a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        <g class="highcharts-series highcharts-series-1 highcharts-areaspline-series highcharts-color-undefined highcharts-navigator-series" transform="translate(79 311)" clip-path="url(#b)">
+            <path fill="rgba(51,92,173,0.05)" d="M0 27.5s38.829 0 64.715-.187c12.628-.186 18.942-.31 31.57-.557 1.264-.024 1.896-.084 3.16-.12 6.313-.183 9.47-.244 15.783-.428 1.895-.055 2.842-.037 4.737-.17 6.315-.441 9.472-.868 15.787-1.266 6.314-.399 9.47-.189 15.783-.725 6.315-.536 9.473-1.279 15.788-1.955 5.051-.54 7.577-.212 12.628-1.087 7.576-1.312 11.363-2.684 18.938-4.382.631-.142.947-.118 1.578-.218.63-.1.946-.173 1.577-.283.631-.11.947-.154 1.578-.266.633-.113.949-.185 1.582-.299.63-.113.946-.146 1.577-.267.631-.122.947-.218 1.578-.342.63-.124.946-.19 1.577-.28.633-.089.95-.08 1.582-.167.63-.086.946-.144 1.577-.265.631-.121.947-.225 1.578-.34.63-.116.946-.115 1.577-.236.633-.121.95-.24 1.582-.372.63-.13.946-.283 1.577-.283s.947.191 1.578.289c.63.097.946.182 1.577.2.633.017.95.006 1.582.017.631.011.947 0 1.578.037.63.036.946.187 1.577.187s.946-.098 1.577-.174c.633-.076.95-.207 1.582-.207.631 0 .947.037 1.578.037.63 0 .946-.017 1.577-.046.631-.028.947-.06 1.578-.097.632-.037.949-.04 1.581-.089.631-.048.947-.058 1.578-.151.63-.094.946-.223 1.577-.316.631-.094.947-.066 1.578-.152.632-.087.949-.16 1.582-.28.63-.12.946-.22 1.577-.323.631-.104.946-.067 1.577-.197s.947-.268 1.578-.451c.633-.183.949-.323 1.582-.464.63-.141.946-.149 1.577-.24.631-.093.947-.145 1.578-.22.63-.075.946-.121 1.577-.155.633-.034.95-.034 1.582-.034.63 0 .946.003 1.577.003s.947-.074 1.578-.103c.63-.028.946-.041 1.577-.041.633 0 .95.106 1.582.106.631 0 .946-.05 1.577-.09.631-.039.947-.06 1.578-.105.63-.045.946-.05 1.577-.12.633-.071.95-.12 1.582-.231.631-.111.947-.152 1.578-.327.63-.174.946-.326 1.577-.546.631-.221.947-.349 1.578-.558.632-.21.949-.331 1.581-.488.631-.156.947-.168 1.578-.294.63-.127.946-.198 1.577-.337.631-.14.947-.239 1.578-.361.632-.123.949-.141 1.581-.253.631-.112.947-.198 1.578-.305.63-.107.946-.133 1.577-.231s.947-.148 1.578-.26c.633-.11.949-.148 1.582-.296.63-.148.946-.282 1.577-.443.631-.162.947-.254 1.578-.366.63-.112.946-.1 1.577-.194.633-.093.95-.158 1.582-.272.63-.114.946-.169 1.577-.299.631-.13.947-.226 1.578-.351.63-.125.946-.192 1.577-.274.633-.082.95-.138 1.582-.138.63 0 .946.005 1.577.005s.947-.037 1.578-.037c.63 0 .946.097 1.577.097.633 0 .95-.136 1.582-.157.631-.02.947 0 1.578-.02.63-.02.946-.39 1.577-.39s.947.295 1.577.437c.633.143.95.16 1.582.275.631.115.947.16 1.578.299.63.14.946.27 1.577.4v-.079c.631.16.947.284 1.578.477.632.195.949.382 1.581.493v-.214c.631 0 .947.44 1.578.62.63.179.946.175 1.577.275.631.1.947.134 1.578.222v-.001c.633.076.949.122 1.582.193V5.88c.63.064.946.103 1.577.174v.003c.631.05.947.068 1.578.12v.012c.63.037.946.054 1.577.082v-.013c.633.02.949.035 1.582.06.63.025.946.003 1.577.066.631.062.947.165 1.578.247.63.082.946.09 1.577.162.633.073.95.145 1.582.201.63.057.946.082 1.577.082s.947-.031 1.578-.076c.63-.044.946-.103 1.577-.146.633-.044.95-.035 1.582-.071.631-.036.947-.11 1.578-.11.63 0 .946.032 1.577.065s.946.046 1.577.1c.633.053.95.08 1.582.168.631.088.947.17 1.578.271.63.102.946.145 1.577.237.631.091.947.13 1.578.221.632.092.949.175 1.581.239.631.064.947.081 1.578.081.63 0 .946-.074 1.577-.074l1.578.001c.632 0 .949-.045 1.582-.045.63 0 .946.104 1.577.115.631.011.946.011 1.577.011s.947 0 1.578-.036c.633-.036.949-.127 1.582-.181.63-.054.946-.064 1.577-.088.631-.024.947 0 1.578-.033.63-.032.946-.127 1.577-.198.633-.071.95-.08 1.582-.158.63-.077.946-.159 1.577-.227.631-.07.947-.076 1.578-.116.63-.04.946-.044 1.577-.083.633-.04 1.582-.114 1.582-.114V30H0" class="highcharts-area"/>
+            <path fill="none" d="M0 27.5s38.829 0 64.715-.187c12.628-.186 18.942-.31 31.57-.557 1.264-.024 1.896-.084 3.16-.12 6.313-.183 9.47-.244 15.783-.428 1.895-.055 2.842-.037 4.737-.17 6.315-.441 9.472-.868 15.787-1.266 6.314-.399 9.47-.189 15.783-.725 6.315-.536 9.473-1.279 15.788-1.955 5.051-.54 7.577-.212 12.628-1.087 7.576-1.312 11.363-2.684 18.938-4.382.631-.142.947-.118 1.578-.218.63-.1.946-.173 1.577-.283.631-.11.947-.154 1.578-.266.633-.113.949-.185 1.582-.299.63-.113.946-.146 1.577-.267.631-.122.947-.218 1.578-.342.63-.124.946-.19 1.577-.28.633-.089.95-.08 1.582-.167.63-.086.946-.144 1.577-.265.631-.121.947-.225 1.578-.34.63-.116.946-.115 1.577-.236.633-.121.95-.24 1.582-.372.63-.13.946-.283 1.577-.283s.947.191 1.578.289c.63.097.946.182 1.577.2.633.017.95.006 1.582.017.631.011.947 0 1.578.037.63.036.946.187 1.577.187s.946-.098 1.577-.174c.633-.076.95-.207 1.582-.207.631 0 .947.037 1.578.037.63 0 .946-.017 1.577-.046.631-.028.947-.06 1.578-.097.632-.037.949-.04 1.581-.089.631-.048.947-.058 1.578-.151.63-.094.946-.223 1.577-.316.631-.094.947-.066 1.578-.152.632-.087.949-.16 1.582-.28.63-.12.946-.22 1.577-.323.631-.104.946-.067 1.577-.197s.947-.268 1.578-.451c.633-.183.949-.323 1.582-.464.63-.141.946-.149 1.577-.24.631-.093.947-.145 1.578-.22.63-.075.946-.121 1.577-.155.633-.034.95-.034 1.582-.034.63 0 .946.003 1.577.003s.947-.074 1.578-.103c.63-.028.946-.041 1.577-.041.633 0 .95.106 1.582.106.631 0 .946-.05 1.577-.09.631-.039.947-.06 1.578-.105.63-.045.946-.05 1.577-.12.633-.071.95-.12 1.582-.231.631-.111.947-.152 1.578-.327.63-.174.946-.326 1.577-.546.631-.221.947-.349 1.578-.558.632-.21.949-.331 1.581-.488.631-.156.947-.168 1.578-.294.63-.127.946-.198 1.577-.337.631-.14.947-.239 1.578-.361.632-.123.949-.141 1.581-.253.631-.112.947-.198 1.578-.305.63-.107.946-.133 1.577-.231s.947-.148 1.578-.26c.633-.11.949-.148 1.582-.296.63-.148.946-.282 1.577-.443.631-.162.947-.254 1.578-.366.63-.112.946-.1 1.577-.194.633-.093.95-.158 1.582-.272.63-.114.946-.169 1.577-.299.631-.13.947-.226 1.578-.351.63-.125.946-.192 1.577-.274.633-.082.95-.138 1.582-.138.63 0 .946.005 1.577.005s.947-.037 1.578-.037c.63 0 .946.097 1.577.097.633 0 .95-.136 1.582-.157.631-.02.947 0 1.578-.02.63-.02.946-.39 1.577-.39s.947.295 1.577.437c.633.143.95.16 1.582.275.631.115.947.16 1.578.299.63.14.946.27 1.577.4v-.079c.631.16.947.284 1.578.477.632.195.949.382 1.581.493v-.214c.631 0 .947.44 1.578.62.63.179.946.175 1.577.275.631.1.947.134 1.578.222v-.001c.633.076.949.122 1.582.193V5.88c.63.064.946.103 1.577.174v.003c.631.05.947.068 1.578.12v.012c.63.037.946.054 1.577.082v-.013c.633.02.949.035 1.582.06.63.025.946.003 1.577.066.631.062.947.165 1.578.247.63.082.946.09 1.577.162.633.073.95.145 1.582.201.63.057.946.082 1.577.082s.947-.031 1.578-.076c.63-.044.946-.103 1.577-.146.633-.044.95-.035 1.582-.071.631-.036.947-.11 1.578-.11.63 0 .946.032 1.577.065s.946.046 1.577.1c.633.053.95.08 1.582.168.631.088.947.17 1.578.271.63.102.946.145 1.577.237.631.091.947.13 1.578.221.632.092.949.175 1.581.239.631.064.947.081 1.578.081.63 0 .946-.074 1.577-.074l1.578.001c.632 0 .949-.045 1.582-.045.63 0 .946.104 1.577.115.631.011.946.011 1.577.011s.947 0 1.578-.036c.633-.036.949-.127 1.582-.181.63-.054.946-.064 1.577-.088.631-.024.947 0 1.578-.033.63-.032.946-.127 1.577-.198.633-.071.95-.08 1.582-.158.63-.077.946-.159 1.577-.227.631-.07.947-.076 1.578-.116.63-.04.946-.044 1.577-.083.633-.04 1.582-.114 1.582-.114" class="highcharts-graph" stroke="#335cad" stroke-linejoin="round" stroke-linecap="round"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>1.1.a Bevölkerung am Jahresende</tspan>
+        <tspan>1.1.A Bevölkerung am Jahresende</tspan>
     </text>
-    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
-        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(60 94)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
-            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">187 920</tspan><tspan x="5" y="16">187 920</tspan>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="89.627" y="299">
+            <tspan>1970</tspan>
         </text>
-        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(430 83)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
-            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">197 204</tspan><tspan x="5" y="16">197 204</tspan>
+        <text x="171.614" y="299">
+            <tspan>1980</tspan>
+        </text>
+        <text x="253.623" y="299">
+            <tspan>1990</tspan>
+        </text>
+        <text x="335.609" y="299">
+            <tspan>2000</tspan>
+        </text>
+        <text x="417.618" y="299">
+            <tspan>2010</tspan>
         </text>
     </g>
-    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="69.02" y="368">
-            2005
+    <g class="highcharts-axis-labels highcharts-xaxis-labels highcharts-navigator-xaxis" color="#999" cursor="default" font-size="11" fill="#999">
+        <text x="121.467" y="337">
+            <tspan>1800</tspan>
         </text>
-        <text x="109.216" y="368">
-            2006
+        <text x="279.316" y="337">
+            <tspan>1900</tspan>
         </text>
-        <text x="149.412" y="368">
-            2007
-        </text>
-        <text x="189.608" y="368">
-            2008
-        </text>
-        <text x="229.804" y="368">
-            2009
-        </text>
-        <text x="270" y="368">
-            2010
-        </text>
-        <text x="310.196" y="368">
-            2011
-        </text>
-        <text x="350.392" y="368">
-            2012
-        </text>
-        <text x="390.588" y="368">
-            2013
-        </text>
-        <text x="430.784" y="368">
-            2014
-        </text>
-        <text x="462.781" y="368">
-            2015
+        <text x="437.166" y="337">
+            <tspan>2000</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="50" y="354">
+        <text x="50" y="283">
             <tspan>0</tspan>
         </text>
-        <text x="50" y="292">
-            <tspan>50 000</tspan>
-        </text>
-        <text x="50" y="230">
+        <text x="50" y="215">
             <tspan>100 000</tspan>
         </text>
-        <text x="50" y="169">
-            <tspan>150 000</tspan>
-        </text>
-        <text x="50" y="107">
+        <text x="50" y="147">
             <tspan>200 000</tspan>
         </text>
-        <text x="50" y="46">
-            <tspan>250 000</tspan>
+        <text x="50" y="79">
+            <tspan>300 000</tspan>
         </text>
+    </g>
+    <g class="highcharts-navigator">
+        <path fill="transparent" class="highcharts-navigator-mask-outside" d="M79 311h303v30H79z"/>
+        <path fill="rgba(102,133,194,0.3)" class="highcharts-navigator-mask-inside" cursor="ew-resize" d="M382 311h79v30h-79z"/>
+        <path fill="none" class="highcharts-navigator-outline" stroke="#ccc" d="M65 311.5h316.5v44h79v-44H475m-94 0h80"/>
+        <path fill="#f2f2f2" d="M456.5 318.5h8v15h-8v-15m3 3.5v8m2-8v8" class="highcharts-navigator-handle highcharts-navigator-handle-right" stroke="#999" cursor="ew-resize"/>
+        <path fill="#f2f2f2" d="M377.5 318.5h8v15h-8v-15m3 3.5v8m2-8v8" class="highcharts-navigator-handle highcharts-navigator-handle-left" stroke="#999" cursor="ew-resize"/>
     </g>
     <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
         <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik</tspan>
