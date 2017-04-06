@@ -18,9 +18,9 @@
       "resolved": "./node_shrinkwrap/copy-node-modules-0.4.1.tar",
       "dependencies": {
         "async": {
-          "version": "2.2.0",
+          "version": "2.3.0",
           "from": "async@>=2.0.0-rc.4 <3.0.0",
-          "resolved": "./node_shrinkwrap/async-2.2.0.tar"
+          "resolved": "./node_shrinkwrap/async-2.3.0.tar"
         },
         "jsonfile": {
           "version": "2.4.0",
