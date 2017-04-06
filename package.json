@@ -39,7 +39,7 @@
     "deploy:gh-pages": "gh-pages-travis",
     "deploy:ftp": "echo \"Fake uploading to FTP server...\" && exit 0",
     "deploy": "npm run deploy:gh-pages && npm run deploy:ftp && pwd",
-    "reinstall": "reinstall",
+    "reinstall": "rm -rf node_cache && rm -rf node_modules && rm -rf node_shrinkwrap && rm npm_shrinkwrap.json && reinstall",
     "build:update_dependencies": "reinstall && npm prune --production=false && npm update --dev",
     "build:shrinkpack": "npm shrinkwrap --dev && shrinkpack"
   },
