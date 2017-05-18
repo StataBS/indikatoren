@@ -29,7 +29,7 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>I.09.1.0006 Wohnfläche pro Person</tspan>
+        <tspan>Wohnfläche pro Person</tspan>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
         <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(32 104)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
