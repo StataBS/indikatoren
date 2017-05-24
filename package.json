@@ -26,7 +26,7 @@
     "copy-node-modules": "0.4.1"
   },
   "scripts": {
-    "reinstall": "rm -rf node_cache && rm -rf node_modules && rm -rf node_shrinkwrap & rm npm-shrinkwrap.json & npm install && reinstall && npm run build:shrinkpack",
+    "reinstall": "rm -rf node_cache && rm -rf node_modules && rm -rf node_shrinkwrap & rm npm-shrinkwrap.json & npm install && npm run build:update_dependencies && npm run build:shrinkpack",
     "build:database": "node build/createJsonDatabase",
     "build:partial_databases": "node build/createKennzahlensetJsonFiles.js",
     "build:charts": "node build/createChartConfigs",
