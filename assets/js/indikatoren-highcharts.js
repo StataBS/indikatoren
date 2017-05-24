@@ -68,8 +68,8 @@ function drawChart(data, chartOptions, template, chartMetaData, indikatorensetVi
 //Add data from database to chart config
 function injectMetadataToChartConfig(options, data, indikatorensetView, suppressNumberInTitle){
   var chartNumber = (indikatorensetView) ? data.kuerzelKunde : data.kuerzel;
-  var chartNumberToDisplay = (suppressNumberInTitle == true || suppressNumberInTitle == null) ? "" : chartNumber + ': ';
-  options['title']['text'] = (indikatorensetView) ? chartNumberToDisplay + data.title : data.title;
+  var chartNumberToDisplay = (suppressNumberInTitle) ? "" : chartNumber + ' ';
+  options['title']['text'] = (indikatorensetView) ? chartNumberToDisplay + data.title : chartNumberToDisplay + data.title;
   options['subtitle']['text'] = data.subtitle;    
   options['chart']['renderTo'] = 'container-' + data.id;
   options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join(';<br/>');

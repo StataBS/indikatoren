@@ -120,7 +120,7 @@ function saveChartConfig(indikator, indikatorensetView, console){
 
     var ctx = execute("assets/js/indikatoren-highcharts.js", {Highcharts: Highcharts, chartOptions: {}, geojson_wohnviertel: geojson_wohnviertel, rheinData: rheinData, console: console}).context;
 
-    ctx.createChartConfig(csv, options, template, indikator, indikatorensetView, true, function(options){
+    ctx.createChartConfig(csv, options, template, indikator, indikatorensetView, false, function(options){
         var stringifiedOptions = serialize(options, {space: 2});
         var filePath = (indikatorensetView) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
         fs.writeFile(filePath + indikator.id + '.json', stringifiedOptions);

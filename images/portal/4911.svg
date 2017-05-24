@@ -35,7 +35,7 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>Mittlere Jahresteuerung Basel-Stadt im Vergleich zur Schweiz</tspan>
+        <tspan>I.05.1.0003 Mittlere Jahresteuerung Basel-Stadt im Vergleich</tspan><tspan dy="17" x="10">zur Schweiz</tspan><title>I.05.1.0003 Mittlere Jahresteuerung Basel-Stadt im Vergleich zur Schweiz</title>
     </text>
     <g class="highcharts-legend" transform="translate(128 45)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="212" height="25"/>

@@ -1,54 +1,19 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "bootstrap-multiselect@./node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
-        "scope": null,
-        "escapedName": "bootstrap-multiselect",
-        "name": "bootstrap-multiselect",
-        "rawSpec": "./node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
-        "spec": "/home/ubuntu/workspace/node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
-        "type": "local"
-      },
-      "/home/ubuntu/workspace"
-    ]
-  ],
-  "_from": "bootstrap-multiselect@0.9.13-1",
-  "_id": "bootstrap-multiselect@0.9.13-1",
-  "_inCache": true,
-  "_location": "/bootstrap-multiselect",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "bootstrap-multiselect@./node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
-    "scope": null,
-    "escapedName": "bootstrap-multiselect",
-    "name": "bootstrap-multiselect",
-    "rawSpec": "./node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
-    "spec": "/home/ubuntu/workspace/node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
-    "type": "local"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "file:node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
-  "_shasum": "9bfd00f41f0f7d9c20b555f709f8a10241b5f911",
-  "_shrinkwrap": null,
-  "_spec": "bootstrap-multiselect@./node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
-  "_where": "/home/ubuntu/workspace",
-  "author": {
-    "name": "David Stutz"
-  },
-  "bugs": {
-    "url": "https://github.com/davidstutz/bootstrap-multiselect/issues"
-  },
-  "dependencies": {},
+  "name": "bootstrap-multiselect",
+  "version": "0.9.13-1",
   "description": "JQuery multiselect plugin based on Twitter Bootstrap.",
-  "devDependencies": {},
+  "main": "dist/js/bootstrap-multiselect.js",
   "directories": {
     "doc": "docs",
     "test": "tests"
   },
-  "homepage": "https://github.com/davidstutz/bootstrap-multiselect",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidstutz/bootstrap-multiselect"
+  },
   "keywords": [
     "js",
     "css",
@@ -57,18 +22,32 @@
     "jquery",
     "multiselect"
   ],
+  "author": {
+    "name": "David Stutz"
+  },
   "license": "Apache License, Version 2.0",
-  "main": "dist/js/bootstrap-multiselect.js",
-  "name": "bootstrap-multiselect",
-  "optionalDependencies": {},
-  "readme": "# Bootstrap Multiselect\n\nBootstrap Multiselect is a JQuery based plugin to provide an intuitive user interface for using select inputs with the multiple attribute present. Instead of a select a bootstrap button will be shown w dropdown menu containing the single options as checkboxes.\n\nDocumentation, Examples, FAQ and License: [http://davidstutz.github.io/bootstrap-multiselect/](http://davidstutz.github.io/bootstrap-multiselect/).\n\nBootstrap Multiselect is featured in an article on [tutorialzine](http://tutorialzine.com/): [50 must-Have Plugins for Extending Twitter Bootstrap](http://tutorialzine.com/2013/07/50-must-have-plugins-for-extending-twitter-bootstrap/); on [Bootsnipp](http://bootsnipp.com/)'s [list of Twitter Bootstrap recourses](http://bootsnipp.com/resources); and available on [NuGet](https://www.nuget.org/): [Bootstrap.Multiselect](https://www.nuget.org/packages/Bootstrap.Multiselect/0.9.9).\n\nAlso check out [Bootstrap Strength Meter](https://github.com/davidstutz/bootstrap-strength-meter) - a Twitter Bootstrap plugin to visualize password strength using [Password Score](https://github.com/davidstutz/password-score).\n\n![Example of a multiselect.](example.png?raw=true \"Example of a multiselect.\")\n\n## License\n\n**Apache License, Version 2.0**\n\nCopyright (c) 2012 - 2015 David Stutz\n\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.\n\n**BSD 3-Clause License**\n\nCopyright (c) 2012 - 2015 David Stutz\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n* Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n* Neither the name of David Stutz nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
-  "readmeFilename": "README.md",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/davidstutz/bootstrap-multiselect.git"
+  "bugs": {
+    "url": "https://github.com/davidstutz/bootstrap-multiselect/issues"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "homepage": "https://github.com/davidstutz/bootstrap-multiselect",
+  "gitHead": "4d76ece7bf648f90e25549c7f9672bb0395fde55",
+  "_id": "bootstrap-multiselect@0.9.13-1",
+  "_shasum": "2c57cee260b18d7f01a4edd9d65f25df0425fd2a",
+  "_from": "bootstrap-multiselect@0.9.13-1",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "marshallswain",
+    "email": "marshall@creativeideal.net"
   },
-  "version": "0.9.13-1"
+  "maintainers": [
+    {
+      "name": "marshallswain",
+      "email": "marshall@creativeideal.net"
+    }
+  ],
+  "dist": {
+    "shasum": "2c57cee260b18d7f01a4edd9d65f25df0425fd2a",
+    "tarball": "https://registry.npmjs.org/bootstrap-multiselect/-/bootstrap-multiselect-0.9.13-1.tgz"
+  },
+  "_resolved": "https://registry.npmjs.org/bootstrap-multiselect/-/bootstrap-multiselect-0.9.13-1.tgz"
 }

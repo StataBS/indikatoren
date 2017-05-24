@@ -42,7 +42,7 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>Umbausaldo nach Art des Umbaus</tspan>
+        <tspan>1.2.c-2 Umbausaldo nach Art des Umbaus</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(359 69)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="116" height="257"/>

@@ -45,7 +45,7 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>Logiernächte und Bettenzahl</tspan>
+        <tspan>I.10.1.0005 Logiernächte und Bettenzahl</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 35)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="357" height="25"/>

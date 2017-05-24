@@ -43,7 +43,7 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>Anteil Personen, welche zu Hause «deutsch» oder</tspan><tspan dy="17" x="10">«schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010</tspan><tspan dy="17" x="10">bis 2014</tspan><title>Anteil Personen, welche zu Hause «deutsch» oder «schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010 bis 2014</title>
+        <tspan>1-8 Anteil Personen, welche zu Hause «deutsch» oder</tspan><tspan dy="17" x="10">«schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010</tspan><tspan dy="17" x="10">bis 2014</tspan><title>1-8 Anteil Personen, welche zu Hause «deutsch» oder «schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010 bis 2014</title>
     </text>
     <g class="highcharts-legend" transform="translate(45 60)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="354" height="49"/>

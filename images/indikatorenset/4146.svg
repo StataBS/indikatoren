@@ -49,7 +49,7 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>Wohnungen mit 4 oder mehr Zimmern</tspan>
+        <tspan>2.1.a Wohnungen mit 4 oder mehr Zimmern</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 35)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="269" height="25"/>

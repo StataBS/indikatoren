@@ -45,7 +45,7 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>Anzahl eingebürgerte Ausländer und Einbürgerungsziffer</tspan>
+        <tspan>I.01.6.0002 Anzahl eingebürgerte Ausländer und</tspan><tspan dy="17" x="10">Einbürgerungsziffer</tspan><title>I.01.6.0002 Anzahl eingebürgerte Ausländer und Einbürgerungsziffer</title>
     </text>
     <g class="highcharts-legend" transform="translate(53 45)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="343" height="49"/>

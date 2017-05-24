@@ -26,7 +26,7 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>Wahlbeteiligung bei National- und Grossratswahlen</tspan>
+        <tspan>3.3.02 Wahlbeteiligung bei National- und Grossratswahlen</tspan>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker">
         <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(70 88)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">

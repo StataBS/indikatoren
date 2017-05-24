@@ -41,7 +41,7 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>Wohnungsbestand nach Zimmerzahl und</tspan><tspan dy="17" x="10">Wohnflächenkategorie 2015</tspan><title>Wohnungsbestand nach Zimmerzahl und Wohnflächenkategorie 2015</title>
+        <tspan>I.09.1.0004 Wohnungsbestand nach Zimmerzahl und</tspan><tspan dy="17" x="10">Wohnflächenkategorie 2015</tspan><title>I.09.1.0004 Wohnungsbestand nach Zimmerzahl und Wohnflächenkategorie 2015</title>
     </text>
     <g class="highcharts-legend" transform="translate(374 135)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="100" height="125"/>

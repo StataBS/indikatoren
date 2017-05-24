@@ -1,46 +1,46 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h260v295H0z"/>
+            <path fill="none" d="M0 0h260v278H0z"/>
         </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M53 55h260v295H53z"/>
+    <path fill="none" class="highcharts-plot-background" d="M53 72h260v278H53z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M117.5 55v295m65-295v295m65-295v295m65-295v295M52.5 55v295"/>
+        <path fill="none" class="highcharts-grid-line" d="M117.5 72v278m65-278v278m65-278v278m65-278v278M52.5 72v278"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 350.5h260m-260-29h260m-260-30h260m-260-29h260m-260-30h260m-260-29h260m-260-30h260m-260-29h260m-260-30h260m-260-29h260m-260-31h260"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 350.5h260m-260-28h260m-260-28h260m-260-27h260m-260-28h260m-260-28h260m-260-28h260m-260-28h260m-260-27h260m-260-28h260m-260-29h260"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M53 55h260v295H53z"/>
+    <path fill="none" class="highcharts-plot-border" d="M53 72h260v278H53z"/>
     <g class="highcharts-axis highcharts-xaxis">
         <path fill="none" class="highcharts-tick" stroke="#FFF" d="M117.5 350v10m65-10v10m65-10v10m66-10v10m-261-10v10"/>
         <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M53 350.5h260"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M53 55v295"/>
+        <path fill="none" class="highcharts-axis-line" d="M53 72v278"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 55)" clip-path="url(#a)">
-            <path fill="#256370" class="highcharts-point" stroke="#fff" d="M16.5 220.5h32v75h-32zm65 11h32v64h-32zm65-5h32v69h-32zm65 24h32v45h-32z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 72)" clip-path="url(#a)">
+            <path fill="#256370" class="highcharts-point" stroke="#fff" d="M16.5 207.5h32v71h-32zm65 11h32v60h-32zm65-5h32v65h-32zm65 22h32v43h-32z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 55)" clip-path="url(#a)">
-            <path fill="#71A3B5" class="highcharts-point" stroke="#fff" d="M16.5 125.5h32v95h-32zm65 0h32v106h-32zm65 13h32v88h-32zm65 19h32v93h-32z"/>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 72)" clip-path="url(#a)">
+            <path fill="#71A3B5" class="highcharts-point" stroke="#fff" d="M16.5 118.5h32v89h-32zm65 0h32v100h-32zm65 12h32v83h-32zm65 18h32v87h-32z"/>
         </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 55)" clip-path="url(#a)">
-            <path fill="#C8C8C8" class="highcharts-point" stroke="#fff" d="M16.5 118.5h32v7h-32zm65-5h32v12h-32zm65 20h32v5h-32zm65 11h32v13h-32z"/>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 72)" clip-path="url(#a)">
+            <path fill="#C8C8C8" class="highcharts-point" stroke="#fff" d="M16.5 111.5h32v7h-32zm65-4h32v11h-32zm65 19h32v4h-32zm65 9h32v13h-32z"/>
         </g>
-        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 55)" clip-path="url(#a)">
-            <path fill="#FFBB58" class="highcharts-point" stroke="#fff" d="M16.5 46.5h32v72h-32zm65-8h32v75h-32zm65 25h32v70h-32zm65-5h32v86h-32z"/>
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 72)" clip-path="url(#a)">
+            <path fill="#FFBB58" class="highcharts-point" stroke="#fff" d="M16.5 43.5h32v68h-32zm65-7h32v71h-32zm65 24h32v66h-32zm65-5h32v80h-32z"/>
         </g>
-        <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 55)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" stroke="#fff" d="M16.5-.5h32v47h-32zm65 0h32v39h-32zm65 0h32v64h-32zm65 0h32v59h-32z"/>
+        <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 72)" clip-path="url(#a)">
+            <path fill="#FF8028" class="highcharts-point" stroke="#fff" d="M16.5-.5h32v44h-32zm65 0h32v37h-32zm65 0h32v61h-32zm65 0h32v56h-32z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>Es gibt zu viele Menschen aus dem Ausland in Basel-Stadt</tspan>
+        <tspan>I.50.1.0014 Es gibt zu viele Menschen aus dem Ausland in</tspan><tspan dy="17" x="10">Basel-Stadt</tspan><title>I.50.1.0014 Es gibt zu viele Menschen aus dem Ausland in Basel-Stadt</title>
     </text>
-    <text x="10" class="highcharts-subtitle" y="40" color="#000">
+    <text x="10" class="highcharts-subtitle" y="57" color="#000">
         <tspan>«Grundsätzlich gibt es einfach zu viele Menschen aus dem Ausland bei uns.»</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(325 130)">
@@ -94,34 +94,34 @@
         <text x="38" y="355">
             <tspan>0%</tspan>
         </text>
-        <text x="38" y="325">
+        <text x="38" y="327">
             <tspan>10%</tspan>
         </text>
-        <text x="38" y="296">
+        <text x="38" y="299">
             <tspan>20%</tspan>
         </text>
-        <text x="38" y="266">
+        <text x="38" y="271">
             <tspan>30%</tspan>
         </text>
-        <text x="38" y="237">
+        <text x="38" y="243">
             <tspan>40%</tspan>
         </text>
-        <text x="38" y="207">
+        <text x="38" y="216">
             <tspan>50%</tspan>
         </text>
-        <text x="38" y="178">
+        <text x="38" y="188">
             <tspan>60%</tspan>
         </text>
-        <text x="38" y="148">
+        <text x="38" y="160">
             <tspan>70%</tspan>
         </text>
-        <text x="38" y="119">
+        <text x="38" y="132">
             <tspan>80%</tspan>
         </text>
-        <text x="38" y="89">
+        <text x="38" y="104">
             <tspan>90%</tspan>
         </text>
-        <text x="38" y="60">
+        <text x="38" y="77">
             <tspan>100%</tspan>
         </text>
     </g>

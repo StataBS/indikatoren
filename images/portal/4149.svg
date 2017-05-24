@@ -42,7 +42,7 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>Freiraumfläche und ihr Anteil an der Gesamtfläche</tspan>
+        <tspan>I.02.1.0015 Freiraumfläche und ihr Anteil an der Gesamtfläche</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 45)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="216" height="25"/>

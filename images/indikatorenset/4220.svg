@@ -29,7 +29,7 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit 2006 und 2015</tspan><title>Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit 2006 und 2015</title>
+        <tspan>1-4b Anteil Ausländer mit Niederlassungsbewilligung (Bew. C)</tspan><tspan dy="17" x="10">nach Staatsangehörigkeit 2006 und 2015</tspan><title>1-4b Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit 2006 und 2015</title>
     </text>
     <g class="highcharts-legend" transform="translate(163 45)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="131" height="25"/>

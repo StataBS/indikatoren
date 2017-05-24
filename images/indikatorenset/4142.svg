@@ -35,7 +35,7 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>Familienhaushalte nach Art der Zusammensetzung</tspan>
+        <tspan>1.4.a2 Familienhaushalte nach Art der Zusammensetzung</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 50)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="272" height="67"/>
