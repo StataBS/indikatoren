@@ -41,7 +41,7 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>I.01.1.0019 Anteil Ausländer nach Staatsangehörigkeit und Art</tspan><tspan dy="17" x="10">der Bewilligung 2015</tspan><title>I.01.1.0019 Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung 2015</title>
+        <tspan>Anteil Ausländer nach Staatsangehörigkeit und Art der</tspan><tspan dy="17" x="10">Bewilligung 2015</tspan><title>Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung 2015</title>
     </text>
     <g class="highcharts-legend" transform="translate(165 45)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="314" height="30"/>

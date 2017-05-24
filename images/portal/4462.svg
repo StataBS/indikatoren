@@ -35,7 +35,7 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>I.01.1.0020 Anzahl Personen mit und ohne</tspan><tspan dy="17" x="10">Migrationshintergrund nach Staatsangehörigkeit (Schweiz /</tspan><tspan dy="17" x="10">Ausland) 2010 bis 2014</tspan><title>I.01.1.0020 Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014</title>
+        <tspan>Anzahl Personen mit und ohne Migrationshintergrund nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014</tspan><title>Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014</title>
     </text>
     <g class="highcharts-legend" transform="translate(56 55)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="324" height="106"/>

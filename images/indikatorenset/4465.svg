@@ -61,7 +61,7 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>2-1 Segregationsindex nach Staatsangehörigkeit seit 2006</tspan>
+        <tspan>Segregationsindex nach Staatsangehörigkeit seit 2006</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(30 45)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="420" height="68"/>

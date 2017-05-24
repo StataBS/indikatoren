@@ -1,19 +1,64 @@
 {
-  "name": "bootstrap-multiselect",
-  "version": "0.9.13-1",
+  "_args": [
+    [
+      {
+        "raw": "bootstrap-multiselect@0.9.13-1",
+        "scope": null,
+        "escapedName": "bootstrap-multiselect",
+        "name": "bootstrap-multiselect",
+        "rawSpec": "0.9.13-1",
+        "spec": "0.9.13-1",
+        "type": "version"
+      },
+      "/home/ubuntu/workspace"
+    ]
+  ],
+  "_from": "bootstrap-multiselect@0.9.13-1",
+  "_id": "bootstrap-multiselect@0.9.13-1",
+  "_inCache": true,
+  "_location": "/bootstrap-multiselect",
+  "_npmUser": {
+    "name": "marshallswain",
+    "email": "marshall@creativeideal.net"
+  },
+  "_npmVersion": "1.4.28",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "bootstrap-multiselect@0.9.13-1",
+    "scope": null,
+    "escapedName": "bootstrap-multiselect",
+    "name": "bootstrap-multiselect",
+    "rawSpec": "0.9.13-1",
+    "spec": "0.9.13-1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bootstrap-multiselect/-/bootstrap-multiselect-0.9.13-1.tgz",
+  "_shasum": "2c57cee260b18d7f01a4edd9d65f25df0425fd2a",
+  "_shrinkwrap": null,
+  "_spec": "bootstrap-multiselect@0.9.13-1",
+  "_where": "/home/ubuntu/workspace",
+  "author": {
+    "name": "David Stutz"
+  },
+  "bugs": {
+    "url": "https://github.com/davidstutz/bootstrap-multiselect/issues"
+  },
+  "dependencies": {},
   "description": "JQuery multiselect plugin based on Twitter Bootstrap.",
-  "main": "dist/js/bootstrap-multiselect.js",
+  "devDependencies": {},
   "directories": {
     "doc": "docs",
     "test": "tests"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dist": {
+    "shasum": "2c57cee260b18d7f01a4edd9d65f25df0425fd2a",
+    "tarball": "https://registry.npmjs.org/bootstrap-multiselect/-/bootstrap-multiselect-0.9.13-1.tgz"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/davidstutz/bootstrap-multiselect"
-  },
+  "gitHead": "4d76ece7bf648f90e25549c7f9672bb0395fde55",
+  "homepage": "https://github.com/davidstutz/bootstrap-multiselect",
   "keywords": [
     "js",
     "css",
@@ -22,32 +67,23 @@
     "jquery",
     "multiselect"
   ],
-  "author": {
-    "name": "David Stutz"
-  },
   "license": "Apache License, Version 2.0",
-  "bugs": {
-    "url": "https://github.com/davidstutz/bootstrap-multiselect/issues"
-  },
-  "homepage": "https://github.com/davidstutz/bootstrap-multiselect",
-  "gitHead": "4d76ece7bf648f90e25549c7f9672bb0395fde55",
-  "_id": "bootstrap-multiselect@0.9.13-1",
-  "_shasum": "2c57cee260b18d7f01a4edd9d65f25df0425fd2a",
-  "_from": "bootstrap-multiselect@0.9.13-1",
-  "_npmVersion": "1.4.28",
-  "_npmUser": {
-    "name": "marshallswain",
-    "email": "marshall@creativeideal.net"
-  },
+  "main": "dist/js/bootstrap-multiselect.js",
   "maintainers": [
     {
       "name": "marshallswain",
       "email": "marshall@creativeideal.net"
     }
   ],
-  "dist": {
-    "shasum": "2c57cee260b18d7f01a4edd9d65f25df0425fd2a",
-    "tarball": "https://registry.npmjs.org/bootstrap-multiselect/-/bootstrap-multiselect-0.9.13-1.tgz"
+  "name": "bootstrap-multiselect",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidstutz/bootstrap-multiselect.git"
   },
-  "_resolved": "https://registry.npmjs.org/bootstrap-multiselect/-/bootstrap-multiselect-0.9.13-1.tgz"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.9.13-1"
 }
