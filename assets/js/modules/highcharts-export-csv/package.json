@@ -2,13 +2,13 @@
   "_args": [
     [
       {
-        "raw": "highcharts-export-csv@./node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
+        "raw": "highcharts-export-csv@1.4.4",
         "scope": null,
         "escapedName": "highcharts-export-csv",
         "name": "highcharts-export-csv",
-        "rawSpec": "./node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
-        "spec": "/home/ubuntu/workspace/node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
-        "type": "local"
+        "rawSpec": "1.4.4",
+        "spec": "1.4.4",
+        "type": "version"
       },
       "/home/ubuntu/workspace"
     ]
@@ -17,23 +17,33 @@
   "_id": "highcharts-export-csv@1.4.4",
   "_inCache": true,
   "_location": "/highcharts-export-csv",
+  "_nodeVersion": "4.4.5",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/highcharts-export-csv-1.4.4.tgz_1480496023118_0.32766747288405895"
+  },
+  "_npmUser": {
+    "name": "highsoft",
+    "email": "torstein@highsoft.com"
+  },
+  "_npmVersion": "2.15.5",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "highcharts-export-csv@./node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
+    "raw": "highcharts-export-csv@1.4.4",
     "scope": null,
     "escapedName": "highcharts-export-csv",
     "name": "highcharts-export-csv",
-    "rawSpec": "./node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
-    "spec": "/home/ubuntu/workspace/node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
-    "type": "local"
+    "rawSpec": "1.4.4",
+    "spec": "1.4.4",
+    "type": "version"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "file:node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
-  "_shasum": "4a627738a3a09242c3bd7f4abfc92c00ddbd3097",
+  "_resolved": "https://registry.npmjs.org/highcharts-export-csv/-/highcharts-export-csv-1.4.4.tgz",
+  "_shasum": "076e7b97bf6c683d0ba0df5b0391f591f90ce5ae",
   "_shrinkwrap": null,
-  "_spec": "highcharts-export-csv@./node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
+  "_spec": "highcharts-export-csv@1.4.4",
   "_where": "/home/ubuntu/workspace",
   "author": {
     "name": "Torstein Hønsi",
@@ -50,8 +60,15 @@
     }
   ],
   "dependencies": {},
+  "deprecated": "Export CSV is included as a module in the main Highcharts package since v5.0.11.",
   "description": "Highcharts plugin to export the chart data to CSV, XLS or HTML table",
   "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "076e7b97bf6c683d0ba0df5b0391f591f90ce5ae",
+    "tarball": "https://registry.npmjs.org/highcharts-export-csv/-/highcharts-export-csv-1.4.4.tgz"
+  },
+  "gitHead": "cd5a409b2113eac1afb68b313403f37406c8b8b7",
   "homepage": "http://www.highcharts.com/plugin-registry/single/7/Export-CSV",
   "keywords": [
     "export",
@@ -60,16 +77,22 @@
   ],
   "license": "MIT",
   "main": "export-csv.js",
+  "maintainers": [
+    {
+      "name": "highsoft",
+      "email": "torstein@highsoft.com"
+    }
+  ],
   "name": "highcharts-export-csv",
   "optionalDependencies": {},
   "peerDependencies": {
     "highcharts": ">=3.0.0"
   },
-  "readme": "export-csv\n==========\nThis plugin allows the user to export the chart data to various formats and views.\n\nThe contents of the plugin is located in the JavaScript file \"export-csv.js\". \nThis plugin is published under the MIT license, and the license document is included in the repository.\n\n### Demos\n* [Categorized chart](http://jsfiddle.net/highcharts/cqjvD/)\n* [View data table from menu](http://jsfiddle.net/highcharts/j4w4s0mw/)\n* [Highstock with time axis](http://jsfiddle.net/highcharts/2Jyn5/)\n* [Unit tests](http://jsfiddle.net/highcharts/pspdp2de/)\n\n### Options\n* `exporting.csv.columnHeaderFormatter`\nFormatter callback for the column headers. Parameters are `item` (the series or axis object), `key` (the point key, for example `y` or `z`), and `keyLength`. By default it returns the series name, followed by the key if there is more than one key. For the axis it returns the axis title or \"Category\" or \"DateTime\" by default.\n\n* `exporting.csv.dateFormat`\nWhich date format to use for exported dates on a datetime X axis. See [Highcharts.dateFormat](http://api.highcharts.com/highcharts#Highcharts.dateFormat\\(\\)).\n\n* `exporting.csv.itemDelimiter`\nThe item delimiter, defaults to `,`. Use `;` for direct import to Excel.\n\n* `exporting.csv.lineDelimiter`\nThe line delimiter, defaults to `\\\\n`.\n\n* `series.includeInCSVExport`\nSet this to false to prevent an individual series from being exported. To prevent the navigator in a stock chart, set `navigator.series.includeInCSVExport` to false.\n\n### Methods\n* `Chart.getCSV()`\nReturns the current chart data as a CSV string\n\n* `Chart.getTable()`\nReturns the current chart data as a HTML table string, ready to be inserted into the DOM using `innerHTML`.\n\n* `Chart.getDataRows()`\nReturns the current chart data as a two dimensional array.\n\n* `Chart.viewData()`\nInserts a data table below the chart container.",
-  "readmeFilename": "README.md",
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/highcharts/export-csv.git"
   },
+  "scripts": {},
   "version": "1.4.4"
 }

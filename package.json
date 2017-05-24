@@ -26,6 +26,7 @@
     "copy-node-modules": "0.4.1"
   },
   "scripts": {
+    "reinstall": "rm -rf node_cache && rm -rf node_modules && rm -rf node_shrinkwrap & rm npm-shrinkwrap.json & npm install && reinstall && npm run build:shrinkpack",
     "build:database": "node build/createJsonDatabase",
     "build:partial_databases": "node build/createKennzahlensetJsonFiles.js",
     "build:charts": "node build/createChartConfigs",
@@ -39,7 +40,6 @@
     "deploy:gh-pages": "gh-pages-travis",
     "deploy:ftp": "echo \"Fake uploading to FTP server...\" && exit 0",
     "deploy": "npm run deploy:gh-pages && npm run deploy:ftp && pwd",
-    "reinstall": "rm -rf node_cache && rm -rf node_modules && rm -rf node_shrinkwrap && rm npm_shrinkwrap.json && reinstall",
     "build:update_dependencies": "reinstall && npm prune --production=false && npm update --dev",
     "build:shrinkpack": "npm shrinkwrap --dev && shrinkpack"
   },
