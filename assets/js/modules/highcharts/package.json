@@ -7,13 +7,13 @@
         "escapedName": "highcharts",
         "name": "highcharts",
         "rawSpec": "./node_shrinkwrap/highcharts-5.0.7.tar",
-        "spec": "/home/travis/build/statabs-test/indikatoren/node_shrinkwrap/highcharts-5.0.7.tar",
+        "spec": "/home/ubuntu/workspace/node_shrinkwrap/highcharts-5.0.7.tar",
         "type": "local"
       },
-      "/home/travis/build/statabs-test/indikatoren"
+      "/home/ubuntu/workspace"
     ]
   ],
-  "_from": "highcharts@>=5.0.6 <6.0.0",
+  "_from": "highcharts@5.0.7",
   "_id": "highcharts@5.0.7",
   "_inCache": true,
   "_location": "/highcharts",
@@ -24,7 +24,7 @@
     "escapedName": "highcharts",
     "name": "highcharts",
     "rawSpec": "./node_shrinkwrap/highcharts-5.0.7.tar",
-    "spec": "/home/travis/build/statabs-test/indikatoren/node_shrinkwrap/highcharts-5.0.7.tar",
+    "spec": "/home/ubuntu/workspace/node_shrinkwrap/highcharts-5.0.7.tar",
     "type": "local"
   },
   "_requiredBy": [
@@ -34,7 +34,7 @@
   "_shasum": "adf0ced5c43055924d85278ee38fde24a773673c",
   "_shrinkwrap": null,
   "_spec": "highcharts@./node_shrinkwrap/highcharts-5.0.7.tar",
-  "_where": "/home/travis/build/statabs-test/indikatoren",
+  "_where": "/home/ubuntu/workspace",
   "author": {
     "name": "Highsoft AS",
     "email": "support@highcharts.com",

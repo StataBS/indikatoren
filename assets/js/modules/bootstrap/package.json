@@ -7,13 +7,13 @@
         "escapedName": "bootstrap",
         "name": "bootstrap",
         "rawSpec": "./node_shrinkwrap/bootstrap-3.3.7.tar",
-        "spec": "/home/travis/build/statabs-test/indikatoren/node_shrinkwrap/bootstrap-3.3.7.tar",
+        "spec": "/home/ubuntu/workspace/node_shrinkwrap/bootstrap-3.3.7.tar",
         "type": "local"
       },
-      "/home/travis/build/statabs-test/indikatoren"
+      "/home/ubuntu/workspace"
     ]
   ],
-  "_from": "bootstrap@>=3.3.7 <4.0.0",
+  "_from": "bootstrap@3.3.7",
   "_id": "bootstrap@3.3.7",
   "_inCache": true,
   "_location": "/bootstrap",
@@ -24,7 +24,7 @@
     "escapedName": "bootstrap",
     "name": "bootstrap",
     "rawSpec": "./node_shrinkwrap/bootstrap-3.3.7.tar",
-    "spec": "/home/travis/build/statabs-test/indikatoren/node_shrinkwrap/bootstrap-3.3.7.tar",
+    "spec": "/home/ubuntu/workspace/node_shrinkwrap/bootstrap-3.3.7.tar",
     "type": "local"
   },
   "_requiredBy": [
@@ -34,7 +34,7 @@
   "_shasum": "25fd794d8bae3f8241bb6ab1f771c7eb79f3e5dd",
   "_shrinkwrap": null,
   "_spec": "bootstrap@./node_shrinkwrap/bootstrap-3.3.7.tar",
-  "_where": "/home/travis/build/statabs-test/indikatoren",
+  "_where": "/home/ubuntu/workspace",
   "author": {
     "name": "Twitter, Inc."
   },

@@ -7,10 +7,10 @@
         "escapedName": "highcharts-export-csv",
         "name": "highcharts-export-csv",
         "rawSpec": "./node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
-        "spec": "/home/travis/build/statabs-test/indikatoren/node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
+        "spec": "/home/ubuntu/workspace/node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
         "type": "local"
       },
-      "/home/travis/build/statabs-test/indikatoren"
+      "/home/ubuntu/workspace"
     ]
   ],
   "_from": "highcharts-export-csv@1.4.4",
@@ -24,7 +24,7 @@
     "escapedName": "highcharts-export-csv",
     "name": "highcharts-export-csv",
     "rawSpec": "./node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
-    "spec": "/home/travis/build/statabs-test/indikatoren/node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
+    "spec": "/home/ubuntu/workspace/node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
     "type": "local"
   },
   "_requiredBy": [
@@ -34,7 +34,7 @@
   "_shasum": "4a627738a3a09242c3bd7f4abfc92c00ddbd3097",
   "_shrinkwrap": null,
   "_spec": "highcharts-export-csv@./node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
-  "_where": "/home/travis/build/statabs-test/indikatoren",
+  "_where": "/home/ubuntu/workspace",
   "author": {
     "name": "Torstein Hønsi",
     "url": "https://github.com/highslide-software"

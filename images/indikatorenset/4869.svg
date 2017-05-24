@@ -26,7 +26,7 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>3.2.04 Anzahl Anzeigen wegen Körperverletzung pro 1000</tspan><tspan dy="17" x="10">Einwohner im Alter von 18 und mehr Jahren</tspan><title>3.2.04 Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren</title>
+        <tspan>Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner</tspan><tspan dy="17" x="10">im Alter von 18 und mehr Jahren</tspan><title>Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren</title>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker">
         <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(54 185)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">

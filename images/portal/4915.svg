@@ -29,7 +29,7 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>I.10.1.0004 Logiernächte nach Herkunft</tspan>
+        <tspan>Logiernächte nach Herkunft</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(393 173)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="81" height="49"/>

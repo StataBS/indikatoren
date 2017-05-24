@@ -7,13 +7,13 @@
         "escapedName": "seedrandom",
         "name": "seedrandom",
         "rawSpec": "./node_shrinkwrap/seedrandom-2.4.2.tar",
-        "spec": "/home/travis/build/statabs-test/indikatoren/node_shrinkwrap/seedrandom-2.4.2.tar",
+        "spec": "/home/ubuntu/workspace/node_shrinkwrap/seedrandom-2.4.2.tar",
         "type": "local"
       },
-      "/home/travis/build/statabs-test/indikatoren"
+      "/home/ubuntu/workspace"
     ]
   ],
-  "_from": "seedrandom@>=2.4.2 <3.0.0",
+  "_from": "seedrandom@2.4.2",
   "_id": "seedrandom@2.4.2",
   "_inCache": true,
   "_location": "/seedrandom",
@@ -24,7 +24,7 @@
     "escapedName": "seedrandom",
     "name": "seedrandom",
     "rawSpec": "./node_shrinkwrap/seedrandom-2.4.2.tar",
-    "spec": "/home/travis/build/statabs-test/indikatoren/node_shrinkwrap/seedrandom-2.4.2.tar",
+    "spec": "/home/ubuntu/workspace/node_shrinkwrap/seedrandom-2.4.2.tar",
     "type": "local"
   },
   "_requiredBy": [
@@ -34,7 +34,7 @@
   "_shasum": "5eef7291a4f634b763be11fae92fef73659cb43e",
   "_shrinkwrap": null,
   "_spec": "seedrandom@./node_shrinkwrap/seedrandom-2.4.2.tar",
-  "_where": "/home/travis/build/statabs-test/indikatoren",
+  "_where": "/home/ubuntu/workspace",
   "author": {
     "name": "David Bau"
   },

@@ -7,13 +7,13 @@
         "escapedName": "bootstrap-multiselect",
         "name": "bootstrap-multiselect",
         "rawSpec": "./node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
-        "spec": "/home/travis/build/statabs-test/indikatoren/node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
+        "spec": "/home/ubuntu/workspace/node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
         "type": "local"
       },
-      "/home/travis/build/statabs-test/indikatoren"
+      "/home/ubuntu/workspace"
     ]
   ],
-  "_from": "bootstrap-multiselect@>=0.9.13-1 <0.10.0",
+  "_from": "bootstrap-multiselect@0.9.13-1",
   "_id": "bootstrap-multiselect@0.9.13-1",
   "_inCache": true,
   "_location": "/bootstrap-multiselect",
@@ -24,7 +24,7 @@
     "escapedName": "bootstrap-multiselect",
     "name": "bootstrap-multiselect",
     "rawSpec": "./node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
-    "spec": "/home/travis/build/statabs-test/indikatoren/node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
+    "spec": "/home/ubuntu/workspace/node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
     "type": "local"
   },
   "_requiredBy": [
@@ -34,7 +34,7 @@
   "_shasum": "9bfd00f41f0f7d9c20b555f709f8a10241b5f911",
   "_shrinkwrap": null,
   "_spec": "bootstrap-multiselect@./node_shrinkwrap/bootstrap-multiselect-0.9.13-1.tar",
-  "_where": "/home/travis/build/statabs-test/indikatoren",
+  "_where": "/home/ubuntu/workspace",
   "author": {
     "name": "David Stutz"
   },

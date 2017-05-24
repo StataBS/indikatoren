@@ -7,13 +7,13 @@
         "escapedName": "jquery",
         "name": "jquery",
         "rawSpec": "./node_shrinkwrap/jquery-3.1.1.tar",
-        "spec": "/home/travis/build/statabs-test/indikatoren/node_shrinkwrap/jquery-3.1.1.tar",
+        "spec": "/home/ubuntu/workspace/node_shrinkwrap/jquery-3.1.1.tar",
         "type": "local"
       },
-      "/home/travis/build/statabs-test/indikatoren"
+      "/home/ubuntu/workspace"
     ]
   ],
-  "_from": "jquery@>=3.1.1 <4.0.0",
+  "_from": "jquery@3.1.1",
   "_id": "jquery@3.1.1",
   "_inCache": true,
   "_location": "/jquery",
@@ -24,7 +24,7 @@
     "escapedName": "jquery",
     "name": "jquery",
     "rawSpec": "./node_shrinkwrap/jquery-3.1.1.tar",
-    "spec": "/home/travis/build/statabs-test/indikatoren/node_shrinkwrap/jquery-3.1.1.tar",
+    "spec": "/home/ubuntu/workspace/node_shrinkwrap/jquery-3.1.1.tar",
     "type": "local"
   },
   "_requiredBy": [
@@ -34,7 +34,7 @@
   "_shasum": "28f6f12d01a6206fc98c047d7a316973a294034f",
   "_shrinkwrap": null,
   "_spec": "jquery@./node_shrinkwrap/jquery-3.1.1.tar",
-  "_where": "/home/travis/build/statabs-test/indikatoren",
+  "_where": "/home/ubuntu/workspace",
   "author": {
     "name": "jQuery Foundation and other contributors",
     "url": "https://github.com/jquery/jquery/blob/3.1.1/AUTHORS.txt"
