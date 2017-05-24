@@ -51,7 +51,7 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>2-3a Schweizer Bevölkerung nach Wohndauer und Geburtsort</tspan><tspan dy="17" x="10">seit 2006</tspan><title>2-3a Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006</title>
+        <tspan>Schweizer Bevölkerung nach Wohndauer und Geburtsort seit</tspan><tspan dy="17" x="10">2006</tspan><title>Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006</title>
     </text>
     <g class="highcharts-legend" transform="translate(56 40)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="416" height="106"/>
