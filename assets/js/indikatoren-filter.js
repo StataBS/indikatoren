@@ -423,21 +423,25 @@ function slideToLinkedChart(chartId, FJS, indikatorensetView){
 //render the html required for links to other chart, kennzahlenset or external resources
 function renderLinksHTML(kennzahlenset, renderLink, externalLinks, indikatorensetView){
   var returnText = "";
+  var displayLinkToIndikatorenset = (kennzahlenset && !indikatorensetView);
+  var displayRenderLink = (renderLink && renderLink.length && renderLink[0].length);
+  var displayExternalLinks = (externalLinks && externalLinks.length && externalLinks[0].length);
   //any of the links need to be present 
-  if (kennzahlenset || (renderLink && renderLink.length && renderLink[0].length) || (externalLinks && externalLinks.length && externalLinks[0].length) ) {
+  if (displayLinkToIndikatorenset || displayRenderLink || displayExternalLinks ) {
     returnText = " \
         <div> \
           <h1>Links</h1> \
           <div class='lesehilfe'> \
             <ul class='list-unstyled'>\
         ";
-    if (kennzahlenset) {
+    // Only display Link to Indikatorenset if not already in Indikatorenset View
+    if (displayLinkToIndikatorenset) {
       returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/"+ kennzahlenset.toLowerCase().replace(" ", "-") + ".html' target='_blank'>" + kennzahlenset + "</a>.</li>";
     }
-    if (renderLink && renderLink.length && renderLink[0].length) {
+    if (displayRenderLink) {
       returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS, " + indikatorensetView + ")'>Andere Darstellungsform</a> dieser Daten</li>";
     }
-    if (externalLinks && externalLinks.length && externalLinks[0].length) {
+    if (displayExternalLinks) {
       returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>" + externalLinks + "</li>";
     }
     returnText += " \
