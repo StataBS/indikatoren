@@ -5,87 +5,87 @@
       "data": [
         [
           "Klybeck",
-          0.6086956209
+          0.6085440815
         ],
         [
           "Kleinhüningen",
-          0.6372415353
+          0.6320040497
         ],
         [
           "Clara",
-          0.6584951805
+          0.6597514819
         ],
         [
           "Matthäus",
-          0.6746880259
-        ],
-        [
-          "Rosental",
-          0.6825391622
-        ],
-        [
-          "Iselin",
-          0.6941878054
+          0.6766771209
         ],
         [
           "St. Johann",
-          0.7058676515
+          0.7007318463
         ],
         [
-          "Breite",
-          0.7127164035
+          "Iselin",
+          0.7022997678
+        ],
+        [
+          "Rosental",
+          0.7069895936
         ],
         [
           "Hirzbrunnen",
-          0.7290199848
+          0.7221371046
         ],
         [
-          "Altstadt Kleinbasel",
-          0.7344872505
+          "Breite",
+          0.7366764015
         ],
         [
           "Bruderholz",
-          0.7368534062
+          0.741483763
         ],
         [
           "Riehen",
-          0.7386451888
+          0.742600131
         ],
         [
           "Bettingen",
-          0.7386451888
+          0.742600131
         ],
         [
-          "Gundeldingen",
-          0.7435328659
+          "Altstadt Kleinbasel",
+          0.7428789485
         ],
         [
           "St. Alban",
-          0.7473000328
+          0.745714483
+        ],
+        [
+          "Gundeldingen",
+          0.7515026656
         ],
         [
           "Gotthelf",
-          0.7708965529
-        ],
-        [
-          "Wettstein",
-          0.7717170245
-        ],
-        [
-          "Bachletten",
-          0.7867315425
-        ],
-        [
-          "Am Ring",
-          0.8025100513
+          0.7561847968
         ],
         [
           "Vorstädte",
-          0.8100294788
+          0.7795234
+        ],
+        [
+          "Bachletten",
+          0.7890182081
+        ],
+        [
+          "Wettstein",
+          0.7898662651
+        ],
+        [
+          "Am Ring",
+          0.799931595
         ],
         [
           "Altstadt Grossbasel",
-          0.821070228
+          0.8330483229
         ]
       ],
       "name": "Erwerbstätigenquote",
@@ -111,7 +111,7 @@
           4
         ],
         [
-          "Rosental",
+          "St. Johann",
           5
         ],
         [
@@ -119,39 +119,39 @@
           6
         ],
         [
-          "St. Johann",
+          "Rosental",
           7
         ],
         [
-          "Breite",
+          "Hirzbrunnen",
           8
         ],
         [
-          "Hirzbrunnen",
+          "Breite",
           9
         ],
         [
-          "Altstadt Kleinbasel",
+          "Bruderholz",
           10
         ],
         [
-          "Bruderholz",
+          "Riehen",
           11
         ],
         [
-          "Riehen",
-          12
-        ],
-        [
           "Bettingen",
-          12
+          11
         ],
         [
-          "Gundeldingen",
-          14
+          "Altstadt Kleinbasel",
+          13
         ],
         [
           "St. Alban",
+          14
+        ],
+        [
+          "Gundeldingen",
           15
         ],
         [
@@ -159,7 +159,7 @@
           16
         ],
         [
-          "Wettstein",
+          "Vorstädte",
           17
         ],
         [
@@ -167,11 +167,11 @@
           18
         ],
         [
-          "Am Ring",
+          "Wettstein",
           19
         ],
         [
-          "Vorstädte",
+          "Am Ring",
           20
         ],
         [
@@ -306,6 +306,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": "I.03.1.0002"
+    "filename": "I.03.1.4837"
   }
 }

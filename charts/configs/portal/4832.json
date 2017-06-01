@@ -5,87 +5,87 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          0.0668579057
+          0.067261875
         ],
         [
           "Altstadt Kleinbasel",
-          0.0809649461
-        ],
-        [
-          "Rosental",
-          0.1000477595
+          0.0809476205
         ],
         [
           "Klybeck",
-          0.1186634144
+          0.1181823341
+        ],
+        [
+          "Rosental",
+          0.137886656
         ],
         [
           "Kleinhüningen",
-          0.1554053483
+          0.155087399
         ],
         [
           "Clara",
-          0.159590892
+          0.1596210662
         ],
         [
           "Matthäus",
-          0.165298029
+          0.1657748081
         ],
         [
           "Gundeldingen",
-          0.1773290506
+          0.1748682856
         ],
         [
           "Vorstädte",
-          0.1960120539
+          0.197906736
         ],
         [
           "Am Ring",
-          0.2397054857
-        ],
-        [
-          "Wettstein",
-          0.2653275562
+          0.2387369156
         ],
         [
           "St. Johann",
-          0.2714893465
+          0.2711032949
         ],
         [
-          "Gotthelf",
-          0.3233909016
+          "Wettstein",
+          0.2812191425
         ],
         [
           "St. Alban",
-          0.3270115871
+          0.3217030196
+        ],
+        [
+          "Gotthelf",
+          0.3236973591
         ],
         [
           "Breite",
-          0.3598092406
+          0.3609948671
         ],
         [
           "Iselin",
-          0.3683075296
+          0.3644713433
         ],
         [
           "Bachletten",
-          0.4159264686
+          0.4165584987
         ],
         [
           "Hirzbrunnen",
-          0.5880951331
+          0.5900990651
         ],
         [
           "Bruderholz",
-          0.714828834
+          0.7146256637
         ],
         [
           "Riehen",
-          0.7966372996
+          0.7949819766
         ],
         [
           "Bettingen",
-          0.902597363
+          0.902449315
         ]
       ],
       "name": "Anteil Grünflächen",
@@ -103,11 +103,11 @@
           2
         ],
         [
-          "Rosental",
+          "Klybeck",
           3
         ],
         [
-          "Klybeck",
+          "Rosental",
           4
         ],
         [
@@ -135,19 +135,19 @@
           10
         ],
         [
-          "Wettstein",
+          "St. Johann",
           11
         ],
         [
-          "St. Johann",
+          "Wettstein",
           12
         ],
         [
-          "Gotthelf",
+          "St. Alban",
           13
         ],
         [
-          "St. Alban",
+          "Gotthelf",
           14
         ],
         [
@@ -237,7 +237,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2014",
+    "text": "Stand: 2016",
     "align": "left"
   },
   "plotOptions": {
@@ -306,6 +306,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": "I.02.1.0016"
+    "filename": "I.02.1.4832"
   }
 }

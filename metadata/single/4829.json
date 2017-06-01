@@ -1,14 +1,14 @@
 {"title":"Jugendquotient",
-"subtitle":"Stand: 2015",
-"kuerzel":"I.01.1.0041",
-"kuerzelKunde":"GS-8.a",
+"subtitle":"Stand: 2016",
+"kuerzel":"I.01.1.4829",
+"kuerzelKunde":"GS-8.A",
 "description":"Jugendquotient",
 "id":4829,
 "thema":"01 Bevölkerung",
 "unterthema":"Bestand und Struktur ",
 "kennzahlenset":"Wohnviertel",
 "raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2016-06-30T00:00:00.000",
+"aktualisierungsdatum":"2017-03-17T13:48:14.1414",
 "schlagwort":["Alter","Jugend"],
 "stufe1":"1 Gesellschaft und Soziales",
 "stufe2":"",
@@ -24,5 +24,6 @@
 "parentId":null,
 "children":["5116"],
 "renderLink":["5116"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"],
+"externalLinks":[""]
 }

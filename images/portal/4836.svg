@@ -17,14 +17,14 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#689199" d="M177 58a4 4 0 1 1 .004 0zm10 14a4 4 0 1 1 .004 0zm9 14a4 4 0 1 1 .004 0zm7 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm0 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm9 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm13 14a4 4 0 1 1 .004 0zm7 14a4 4 0 1 1 .004 0zm19 14a4 4 0 1 1 .004 0zm20 14a4 4 0 1 1 .004 0zm3 14a4 4 0 1 1 .004 0zm23 14a4 4 0 1 1 .004 0zm9 14a4 4 0 1 1 .004 0zm28 14a4 4 0 1 1 .004 0zm7 14a4 4 0 1 1 .004 0zm18 14a4 4 0 1 1 .004 0zm29 14a4 4 0 1 1 .004 0z" class="highcharts-point"/>
+            <path fill="#689199" d="M176 58a4 4 0 1 1 .004 0zm6 14a4 4 0 1 1 .004 0zm15 14a4 4 0 1 1 .004 0zm5 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm10 14a4 4 0 1 1 .004 0zm0 14a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0zm12 14a4 4 0 1 1 .004 0zm7 14a4 4 0 1 1 .004 0zm24 14a4 4 0 1 1 .004 0zm12 14a4 4 0 1 1 .004 0zm10 14a4 4 0 1 1 .004 0zm22 14a4 4 0 1 1 .004 0zm10 14a4 4 0 1 1 .004 0zm25 14a4 4 0 1 1 .004 0zm8 14a4 4 0 1 1 .004 0zm21 14a4 4 0 1 1 .004 0zm39 14a4 4 0 1 1 .004 0z" class="highcharts-point"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>Einkommenssteuer pro Veranlagung</tspan>
     </text>
     <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
-        <tspan>Stand: Steuerjahr 2013</tspan>
+        <tspan>Stand: Steuerjahr 2014</tspan>
     </text>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
         <text x="97" y="66">
@@ -37,25 +37,25 @@
             <tspan>Rosental</tspan>
         </text>
         <text x="97" y="108">
-            <tspan>Matthäus</tspan>
+            <tspan>Clara</tspan>
         </text>
         <text x="97" y="122">
-            <tspan>St. Johann</tspan>
+            <tspan>Matthäus</tspan>
         </text>
         <text x="97" y="136">
             <tspan>Iselin</tspan>
         </text>
         <text x="97" y="150">
-            <tspan>Clara</tspan>
+            <tspan>St. Johann</tspan>
         </text>
         <text x="97" y="164">
             <tspan>Gundeldingen</tspan>
         </text>
         <text x="97" y="178">
-            <tspan>Hirzbrunnen</tspan>
+            <tspan>Breite</tspan>
         </text>
         <text x="97" y="192">
-            <tspan>Breite</tspan>
+            <tspan>Hirzbrunnen</tspan>
         </text>
         <text x="97" y="206">
             <tspan>Altstadt Kleinbasel</tspan>
@@ -82,10 +82,10 @@
             <tspan>St. Alban</tspan>
         </text>
         <text x="97" y="318">
-            <tspan>Vorstädte</tspan>
+            <tspan>Altstadt Grossbasel</tspan>
         </text>
         <text x="97" y="332">
-            <tspan>Altstadt Grossbasel</tspan>
+            <tspan>Vorstädte</tspan>
         </text>
         <text x="97" y="346">
             <tspan>Bruderholz</tspan>

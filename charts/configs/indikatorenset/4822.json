@@ -5,90 +5,90 @@
       "data": [
         [
           "Bettingen",
-          0.007
+          0.012605042
         ],
         [
           "Bruderholz",
-          0.0124
+          0.0155299739
         ],
         [
           "Altstadt Grossbasel",
-          0.0142
+          0.0192458759
         ],
         [
           "Bachletten",
-          0.0186
-        ],
-        [
-          "St. Alban",
-          0.023
+          0.0260689757
         ],
         [
           "Vorstädte",
-          0.0241
+          0.0292712067
+        ],
+        [
+          "St. Alban",
+          0.0297356828
         ],
         [
           "Riehen",
-          0.025
+          0.0354745012
         ],
         [
           "Am Ring",
-          0.0287
+          0.0358673374
         ],
         [
           "Gotthelf",
-          0.0303
+          0.0440251572
         ],
         [
           "Hirzbrunnen",
-          0.0353
+          0.0474539545
         ],
         [
           "Wettstein",
-          0.0389
+          0.0478045326
         ],
         [
           "Breite",
-          0.0424
-        ],
-        [
-          "Gundeldingen",
-          0.0536
+          0.0574082363
         ],
         [
           "Altstadt Kleinbasel",
-          0.0546
+          0.0721153846
+        ],
+        [
+          "Gundeldingen",
+          0.0721360097
         ],
         [
           "Clara",
-          0.0606
+          0.0797912006
         ],
         [
           "St. Johann",
-          0.068
+          0.0874826741
         ],
         [
           "Iselin",
-          0.0715
+          0.0941134157
         ],
         [
           "Rosental",
-          0.0823
+          0.1051587302
         ],
         [
           "Matthäus",
-          0.0989
+          0.1200878845
         ],
         [
           "Klybeck",
-          0.0992
+          0.1362121633
         ],
         [
           "Kleinhüningen",
-          0.1079
+          0.1431040442
         ]
       ],
-      "name": "Anteil Sozialhilfeempfänger",
+      "name": "Sozialhilfequote",
       "turboThreshold": 0
     },
     {
@@ -111,11 +111,11 @@
           4
         ],
         [
-          "St. Alban",
+          "Vorstädte",
           5
         ],
         [
-          "Vorstädte",
+          "St. Alban",
           6
         ],
         [
@@ -143,11 +143,11 @@
           12
         ],
         [
-          "Gundeldingen",
+          "Altstadt Kleinbasel",
           13
         ],
         [
-          "Altstadt Kleinbasel",
+          "Gundeldingen",
           14
         ],
         [
@@ -237,7 +237,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2015",
+    "text": "Stand: 2016",
     "align": "left"
   },
   "plotOptions": {
@@ -306,6 +306,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": "I.13.3.0004"
+    "filename": "I.13.3.4822"
   }
 }

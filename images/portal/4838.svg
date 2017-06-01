@@ -17,14 +17,14 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#689199" d="M121 58a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm0 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm8 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm21 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm14 14a4 4 0 1 1 .004 0zm10 14a4 4 0 1 1 .004 0zm0 14a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0zm49 14a4 4 0 1 1 .004 0zm6 14a4 4 0 1 1 .004 0zm5 14a4 4 0 1 1 .004 0zm20 14a4 4 0 1 1 .004 0zm162 14a4 4 0 1 1 .004 0zm18 14a4 4 0 1 1 .004 0z" class="highcharts-point"/>
+            <path fill="#689199" d="M121 58a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm7 14a4 4 0 1 1 .004 0zm0 14a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0zm20 14a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0zm10 14a4 4 0 1 1 .004 0zm14 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm37 14a4 4 0 1 1 .004 0zm18 14a4 4 0 1 1 .004 0zm18 14a4 4 0 1 1 .004 0zm7 14a4 4 0 1 1 .004 0zm176 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0z" class="highcharts-point"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>Arbeitsplätze pro Kopf</tspan>
     </text>
     <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
-        <tspan>Stand: 2013</tspan>
+        <tspan>Stand: 2014</tspan>
     </text>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
         <text x="97" y="66">
@@ -85,30 +85,30 @@
             <tspan>St. Alban</tspan>
         </text>
         <text x="97" y="332">
-            <tspan>Altstadt Grossbasel</tspan>
+            <tspan>Vorstädte</tspan>
         </text>
         <text x="97" y="346">
-            <tspan>Vorstädte</tspan>
+            <tspan>Altstadt Grossbasel</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
         <text x="112" y="368">
-            <tspan>0</tspan>
+            0
         </text>
         <text x="184.6" y="368">
-            <tspan>1</tspan>
+            1
         </text>
         <text x="257.2" y="368">
-            <tspan>2</tspan>
+            2
         </text>
         <text x="329.8" y="368">
-            <tspan>3</tspan>
+            3
         </text>
         <text x="402.4" y="368">
-            <tspan>4</tspan>
+            4
         </text>
-        <text x="471.938" y="368">
-            <tspan>5</tspan>
+        <text x="471.945" y="368">
+            5
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
