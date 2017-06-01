@@ -4520,7 +4520,7 @@ var indikatoren = [
 		"title": "Gymnasialquote",
 		"subtitle": "Stand: 2016",
 		"kuerzel": "I.15.6.5113",
-		"kuerzelKunde": "GS-5.b",
+		"kuerzelKunde": "GS-5.B",
 		"description": "Gymnasialquote",
 		"id": 5113,
 		"thema": "15 Bildung",
