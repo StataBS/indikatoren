@@ -20,7 +20,6 @@
     "phantomjs-prebuilt": "2.1.14",
     "rimraf": "2.5.4",
     "serialize-javascript": "^1.3.0",
-    "shrinkpack": "0.18.1",
     "svgo": "0.7.2",
     "reinstall": "1.1.1",
     "copy-node-modules": "0.4.1"
@@ -34,14 +33,13 @@
     "build:optimize_images": "echo 'Optimizing svg images...' && svgo --pretty --multipass -f images/portal/ && svgo --pretty --multipass -f images/indikatorenset/ && echo '...done optimizing images!'",
     "build:copy_modules": "echo 'Copying required node_modules to assets/js/modules...' && copy-node-modules . assets/js -v && rm -rf assets/js/modules && mv assets/js/node_modules assets/js/modules",
     "build": "npm run build:database && npm run build:partial_databases && npm run build:charts && npm run build:images_phantom_fast && npm run build:optimize_images && npm run build:copy_modules",
+    "build:update_dependencies": "reinstall && npm prune --production=false && npm update --dev",
     "test": "echo \"No test specified\" && exit 0",
     "server": "http-server -p 8000 -c-1 -s -o ",
     "start": "npm run build && npm run server",
     "deploy:gh-pages": "gh-pages-travis",
     "deploy:ftp": "echo \"Fake uploading to FTP server...\" && exit 0",
-    "deploy": "npm run deploy:gh-pages && npm run deploy:ftp && pwd",
-    "build:update_dependencies": "reinstall && npm prune --production=false && npm update --dev",
-    "build:shrinkpack": "npm shrinkwrap --dev && shrinkpack"
+    "deploy": "npm run deploy:gh-pages && npm run deploy:ftp && pwd"
   },
   "repository": {
     "type": "git",

@@ -51,10 +51,6 @@ To update all packages, run the following command, then do intensive testing of 
 npm run build:update_dependencies
 ```
 
-If testing succeededs, shrinkwrap and [shrinkpack](https://github.com/JamieMason/shrinkpack) the dependencies with their exact versions in order to build a reproducole installation package, using the following command: 
-```javascript
-npm run build:shrinkpack
-```
 
 Alternatively, run the following command to do a clean install, dependency update, and shrinkpack: 
 ```javascript
