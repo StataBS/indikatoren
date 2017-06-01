@@ -1,7 +1,7 @@
 {"title":"Arbeitsplätze pro Kopf",
-"subtitle":"Stand: 2013",
-"kuerzel":"I.03.2.0002",
-"kuerzelKunde":"WA-4.a",
+"subtitle":"Stand: 2014",
+"kuerzel":"I.03.2.4838",
+"kuerzelKunde":"WA-4.A",
 "description":"Arbeitsplätze pro Kopf",
 "id":4838,
 "thema":"03 Erwerbsleben",
@@ -15,7 +15,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"",
+"lesehilfe":"Der Aktualisierungszeitpunkt ist eigentlich Oktober t+2",
 "erlaeuterungen":"Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.",
 "template":"dotplot",
 "option":"options001",
@@ -24,5 +24,6 @@
 "parentId":null,
 "children":["5125"],
 "renderLink":["5125"],
-"quellenangabe":["Bundesamt für Statistik BFS, STATENT"]
+"quellenangabe":["Bundesamt für Statistik BFS, STATENT"],
+"externalLinks":[""]
 }

@@ -29,7 +29,7 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>I.17.3.0003 Entwicklung des Frauenanteils bei den</tspan><tspan dy="17" x="10">Kandidaturen und Wahlen zum Grossen Rat seit 1968</tspan><title>I.17.3.0003 Entwicklung des Frauenanteils bei den Kandidaturen und Wahlen zum Grossen Rat seit 1968</title>
+        <tspan>Entwicklung des Frauenanteils bei den Kandidaturen und</tspan><tspan dy="17" x="10">Wahlen zum Grossen Rat seit 1968</tspan><title>Entwicklung des Frauenanteils bei den Kandidaturen und Wahlen zum Grossen Rat seit 1968</title>
     </text>
     <g class="highcharts-legend" transform="translate(128 45)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="239" height="25"/>

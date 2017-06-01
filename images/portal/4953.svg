@@ -32,7 +32,7 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>I.08.1.0028 Endenergieverbrauch nach Verbrauchergruppe in</tspan><tspan dy="17" x="10">Mio. kWh</tspan><title>I.08.1.0028 Endenergieverbrauch nach Verbrauchergruppe in Mio. kWh</title>
+        <tspan>Endenergieverbrauch nach Verbrauchergruppe in Mio. kWh</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(369 164)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="106" height="68"/>

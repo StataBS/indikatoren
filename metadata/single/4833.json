@@ -1,14 +1,14 @@
 {"title":"Fläche pro Wohnung",
-"subtitle":"Stand: 2015",
-"kuerzel":"I.09.1.0011",
-"kuerzelKunde":"RU-4.a",
+"subtitle":"Stand: 2016",
+"kuerzel":"I.09.1.4833",
+"kuerzelKunde":"RU-4.A",
 "description":"Fläche pro Wohnung",
 "id":4833,
 "thema":"09 Bau-, Wohnungswesen",
 "unterthema":"Gebäude und Wohnungen",
 "kennzahlenset":"Wohnviertel",
 "raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2016-06-30T00:00:00.000",
+"aktualisierungsdatum":"2017-05-04T17:29:58.5858",
 "schlagwort":["Gebäude"],
 "stufe1":"2 Raum und Umwelt",
 "stufe2":"",
@@ -24,5 +24,6 @@
 "parentId":null,
 "children":["5120"],
 "renderLink":["5120"],
-"quellenangabe":["Kantonale Baustatistik"]
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"],
+"externalLinks":[""]
 }

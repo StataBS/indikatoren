@@ -17,14 +17,14 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#923F8D" d="M189 58a4 4 0 1 1 .004 0zm25 14a4 4 0 1 1 .004 0zm20 14a4 4 0 1 1 .004 0zm9 14a4 4 0 1 1 .004 0zm6 14a4 4 0 1 1 .004 0zm17 14a4 4 0 1 1 .004 0zm12 14a4 4 0 1 1 .004 0zm5 14a4 4 0 1 1 .004 0zm8 14a4 4 0 1 1 .004 0zm6 14a4 4 0 1 1 .004 0zm13 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm12 14a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0zm9 14a4 4 0 1 1 .004 0zm5 14a4 4 0 1 1 .004 0zm25 14a4 4 0 1 1 .004 0zm12 14a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0zm25 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0z" class="highcharts-point"/>
+            <path fill="#923F8D" d="M184 58a4 4 0 1 1 .004 0zm32 14a4 4 0 1 1 .004 0zm21 14a4 4 0 1 1 .004 0zm7 14a4 4 0 1 1 .004 0zm5 14a4 4 0 1 1 .004 0zm17 14a4 4 0 1 1 .004 0zm9 14a4 4 0 1 1 .004 0zm7 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm23 14a4 4 0 1 1 .004 0zm13 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm3 14a4 4 0 1 1 .004 0zm10 14a4 4 0 1 1 .004 0zm3 14a4 4 0 1 1 .004 0zm30 14a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0zm3 14a4 4 0 1 1 .004 0zm30 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0z" class="highcharts-point"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>I.01.1.0039 Altersquotient</tspan>
+        <tspan>Altersquotient</tspan>
     </text>
     <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
-        <tspan>Stand: 2015</tspan>
+        <tspan>Stand: 2016</tspan>
     </text>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
         <text x="97" y="66">
@@ -70,10 +70,10 @@
             <tspan>Am Ring</tspan>
         </text>
         <text x="97" y="262">
-            <tspan>Bachletten</tspan>
+            <tspan>Vorstädte</tspan>
         </text>
         <text x="97" y="276">
-            <tspan>Vorstädte</tspan>
+            <tspan>Bachletten</tspan>
         </text>
         <text x="97" y="290">
             <tspan>Bettingen</tspan>
@@ -85,10 +85,10 @@
             <tspan>Hirzbrunnen</tspan>
         </text>
         <text x="97" y="332">
-            <tspan>Riehen</tspan>
+            <tspan>St. Alban</tspan>
         </text>
         <text x="97" y="346">
-            <tspan>St. Alban</tspan>
+            <tspan>Riehen</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">

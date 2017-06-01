@@ -5,87 +5,87 @@
       "data": [
         [
           "Rosental",
-          0.126899017
+          0.1183767872
         ],
         [
           "Matthäus",
-          0.1688927187
+          0.1725466165
         ],
         [
           "Klybeck",
-          0.2014227642
+          0.2058579144
         ],
         [
           "Gundeldingen",
-          0.2169818428
+          0.2185565454
         ],
         [
           "St. Johann",
-          0.2272119544
+          0.2264596958
         ],
         [
           "Iselin",
-          0.2552763819
+          0.2541942505
         ],
         [
           "Altstadt Kleinbasel",
-          0.2751599767
+          0.2695800227
         ],
         [
           "Kleinhüningen",
-          0.2821782178
+          0.2806629834
         ],
         [
           "Altstadt Grossbasel",
-          0.2966150316
+          0.2827663134
         ],
         [
           "Wettstein",
-          0.3052230686
+          0.2857904559
         ],
         [
           "Clara",
-          0.3268438787
+          0.3241017964
         ],
         [
           "Breite",
-          0.3311619718
+          0.3458501491
         ],
         [
           "Gotthelf",
-          0.3506920009
+          0.3477246208
         ],
         [
           "Am Ring",
-          0.357468727
-        ],
-        [
-          "Bachletten",
-          0.3713899472
+          0.3513671589
         ],
         [
           "Vorstädte",
-          0.379525593
+          0.3679706601
+        ],
+        [
+          "Bachletten",
+          0.3730717018
         ],
         [
           "Bettingen",
-          0.4207492795
+          0.423580786
         ],
         [
           "Bruderholz",
-          0.4418511066
+          0.4294129197
         ],
         [
           "Hirzbrunnen",
-          0.4476663357
-        ],
-        [
-          "Riehen",
-          0.4886212698
+          0.4339984651
         ],
         [
           "St. Alban",
-          0.4914786561
+          0.4835733938
+        ],
+        [
+          "Riehen",
+          0.4871772275
         ]
       ],
       "name": "Altersquotient",
@@ -151,11 +151,11 @@
           14
         ],
         [
-          "Bachletten",
+          "Vorstädte",
           15
         ],
         [
-          "Vorstädte",
+          "Bachletten",
           16
         ],
         [
@@ -171,11 +171,11 @@
           19
         ],
         [
-          "Riehen",
+          "St. Alban",
           20
         ],
         [
-          "St. Alban",
+          "Riehen",
           21
         ]
       ],
@@ -228,7 +228,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "GS-6.a Altersquotient"
+    "text": "Altersquotient"
   },
   "subtitle": {
     "style": {
@@ -237,7 +237,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2015",
+    "text": "Stand: 2016",
     "align": "left"
   },
   "plotOptions": {
@@ -306,6 +306,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": "I.01.1.0039"
+    "filename": "I.01.1.4827"
   }
 }

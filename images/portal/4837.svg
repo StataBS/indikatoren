@@ -17,11 +17,11 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#689199" d="M333 58a4 4 0 1 1 .004 0zm10 14a4 4 0 1 1 .004 0zm8 14a4 4 0 1 1 .004 0zm6 14a4 4 0 1 1 .004 0zm3 14a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0zm3 14a4 4 0 1 1 .004 0zm6 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm0 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm0 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm9 14a4 4 0 1 1 .004 0zm0 14a4 4 0 1 1 .004 0zm6 14a4 4 0 1 1 .004 0zm5 14a4 4 0 1 1 .004 0zm3 14a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0z" class="highcharts-point"/>
+            <path fill="#689199" d="M333 58a4 4 0 1 1 .004 0zm8 14a4 4 0 1 1 .004 0zm10 14a4 4 0 1 1 .004 0zm7 14a4 4 0 1 1 .004 0zm8 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm5 14a4 4 0 1 1 .004 0zm5 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm0 14a4 4 0 1 1 .004 0zm0 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm9 14a4 4 0 1 1 .004 0zm3 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm3 14a4 4 0 1 1 .004 0zm12 14a4 4 0 1 1 .004 0z" class="highcharts-point"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>I.03.1.0002 Erwerbstätigenquote</tspan>
+        <tspan>Erwerbstätigenquote</tspan>
     </text>
     <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
         <tspan>Stand: gepoolte Daten 2010 - 2014</tspan>
@@ -40,52 +40,52 @@
             <tspan>Matthäus</tspan>
         </text>
         <text x="97" y="122">
-            <tspan>Rosental</tspan>
+            <tspan>St. Johann</tspan>
         </text>
         <text x="97" y="136">
             <tspan>Iselin</tspan>
         </text>
         <text x="97" y="150">
-            <tspan>St. Johann</tspan>
+            <tspan>Rosental</tspan>
         </text>
         <text x="97" y="164">
-            <tspan>Breite</tspan>
-        </text>
-        <text x="97" y="178">
             <tspan>Hirzbrunnen</tspan>
         </text>
-        <text x="97" y="192">
-            <tspan>Altstadt Kleinbasel</tspan>
+        <text x="97" y="178">
+            <tspan>Breite</tspan>
         </text>
-        <text x="97" y="206">
+        <text x="97" y="192">
             <tspan>Bruderholz</tspan>
         </text>
-        <text x="97" y="220">
+        <text x="97" y="206">
             <tspan>Riehen</tspan>
         </text>
-        <text x="97" y="234">
+        <text x="97" y="220">
             <tspan>Bettingen</tspan>
         </text>
+        <text x="97" y="234">
+            <tspan>Altstadt Kleinbasel</tspan>
+        </text>
         <text x="97" y="248">
-            <tspan>Gundeldingen</tspan>
+            <tspan>St. Alban</tspan>
         </text>
         <text x="97" y="262">
-            <tspan>St. Alban</tspan>
+            <tspan>Gundeldingen</tspan>
         </text>
         <text x="97" y="276">
             <tspan>Gotthelf</tspan>
         </text>
         <text x="97" y="290">
-            <tspan>Wettstein</tspan>
+            <tspan>Vorstädte</tspan>
         </text>
         <text x="97" y="304">
             <tspan>Bachletten</tspan>
         </text>
         <text x="97" y="318">
-            <tspan>Am Ring</tspan>
+            <tspan>Wettstein</tspan>
         </text>
         <text x="97" y="332">
-            <tspan>Vorstädte</tspan>
+            <tspan>Am Ring</tspan>
         </text>
         <text x="97" y="346">
             <tspan>Altstadt Grossbasel</tspan>

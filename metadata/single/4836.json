@@ -1,7 +1,7 @@
 {"title":"Einkommenssteuer pro Veranlagung",
-"subtitle":"Stand: Steuerjahr 2013",
-"kuerzel":"I.18.2.0003",
-"kuerzelKunde":"WA-2.a",
+"subtitle":"Stand: Steuerjahr 2014",
+"kuerzel":"I.18.2.4836",
+"kuerzelKunde":"WA-2.A",
 "description":"Einkommenssteuer pro Veranlagung",
 "id":4836,
 "thema":"18 Öffentliche Finanzen",
@@ -24,5 +24,6 @@
 "parentId":null,
 "children":["5123"],
 "renderLink":["5123"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"]
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"],
+"externalLinks":[""]
 }

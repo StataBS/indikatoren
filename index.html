@@ -208,7 +208,7 @@
         <div class="thumbnail">
           <a id="thumbnail-lightbox-link-<%= _fid %>" href="#lightbox" data-toggle="modal" data-slide-to="<%= getIndexByFid(_fid) %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" indikator-fid-data="<%= _fid %>">
             <div class="caption">            
-              <h5><%= kuerzel %></h5>                                                                                                                      
+              <h5><%= kuerzel + ' ' + unterthema %></h5>                                                                                                                      
             </div>
             <img src="<%= 'images/portal/' + id + '.svg' %>" alt="<%= kuerzel %>: <%= description %>" title="<%= kuerzel %>: <%= description %>"  class="img-responsive"/>
           </a>
@@ -222,7 +222,7 @@
         <div class="thumbnail">
           <a id="thumbnail-lightbox-link-<%= _fid %>" href="#lightbox" data-toggle="modal" data-slide-to="<%= getIndexByFid(_fid) %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" indikator-fid-data="<%= _fid %>">
             <div class="caption">            
-              <h5><%= kuerzelKunde %></h5>
+              <h5><%= kuerzelKunde + ' ' + stufe1.substr(stufe1.indexOf(' ')+1) %></h5>
             </div>                                                                              
             <img src="<%= 'images/indikatorenset/' + id + '.svg' %>" alt="<%= kuerzelKunde %>: <%= description %>" title="<%= kuerzelKunde %>: <%= description %>"  class="img-responsive"/>
           </a>
@@ -234,6 +234,7 @@
     <script id="indikator-template-modal-portal" type="text/html">
       <div class="item">
         <div id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" class="highcharts-wrapper"></div>
+        <h1><%= 'Indikator ' + kuerzel %></h1>
         <!-- hide lesehilfe if empty -->
         <div id='lesehilfe' class=<%= (lesehilfe==="" ? "'hidden'": "''" ) %>>
           <h1>Lesehilfe</h1>
@@ -255,6 +256,7 @@
     <script id="indikator-template-modal-indikatorenset" type="text/html">
       <div class="item">
         <div id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" class="highcharts-wrapper"></div>
+        <h1><%= 'Indikator ' + kuerzelKunde %></h1>
         <!-- hide lesehilfe if empty -->
         <div id='lesehilfe' class=<%= (lesehilfe==="" ? "'hidden'": "''" ) %>>
           <h1>Lesehilfe</h1>

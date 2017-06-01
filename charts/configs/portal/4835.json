@@ -4,88 +4,88 @@
       "color": "#689199",
       "data": [
         [
-          "Klybeck",
-          162.1977333
+          "Kleinhüningen",
+          171.10575139
         ],
         [
-          "Kleinhüningen",
-          207.74610106
+          "Klybeck",
+          176.09207038
         ],
         [
           "Rosental",
-          240.50197771
+          239.41690647
         ],
         [
           "Iselin",
-          425.08366863
-        ],
-        [
-          "Matthäus",
-          426.09984706
+          439.63134635
         ],
         [
           "Clara",
-          436.89323843
+          465.32129817
         ],
         [
-          "Gundeldingen",
-          467.21327303
+          "Matthäus",
+          474.9281424
         ],
         [
           "Breite",
-          482.15108977
+          475.2415108
+        ],
+        [
+          "Gundeldingen",
+          526.14626172
         ],
         [
           "St. Johann",
-          486.03965292
+          550.31399192
         ],
         [
           "Hirzbrunnen",
-          681.39708738
+          725.7829222
         ],
         [
           "Altstadt Kleinbasel",
-          1123.2948052
-        ],
-        [
-          "Wettstein",
-          1229.5143029
+          1111.3745342
         ],
         [
           "Bachletten",
-          1762.144018
+          1893.3535516
+        ],
+        [
+          "Wettstein",
+          1944.5770912
         ],
         [
           "Bettingen",
-          2844.7711599
-        ],
-        [
-          "Am Ring",
-          3212.0137397
+          3214.2287066
         ],
         [
           "Riehen",
-          3296.1133034
+          3322.8178059
+        ],
+        [
+          "Am Ring",
+          3489.2898736
         ],
         [
           "Gotthelf",
-          3483.3688952
+          3742.5216358
         ],
         [
           "St. Alban",
-          4206.1965759
+          4819.5869632
         ],
         [
           "Altstadt Grossbasel",
-          5188.1848894
+          5343.1955206
         ],
         [
           "Vorstädte",
-          7828.9125886
+          9028.2837567
         ],
         [
           "Bruderholz",
-          19314.398374
+          20903.358745
         ]
       ],
       "name": "Vermögenssteuer pro Veranlagung",
@@ -95,11 +95,11 @@
       "visible": false,
       "data": [
         [
-          "Klybeck",
+          "Kleinhüningen",
           1
         ],
         [
-          "Kleinhüningen",
+          "Klybeck",
           2
         ],
         [
@@ -111,19 +111,19 @@
           4
         ],
         [
-          "Matthäus",
+          "Clara",
           5
         ],
         [
-          "Clara",
+          "Matthäus",
           6
         ],
         [
-          "Gundeldingen",
+          "Breite",
           7
         ],
         [
-          "Breite",
+          "Gundeldingen",
           8
         ],
         [
@@ -139,11 +139,11 @@
           11
         ],
         [
-          "Wettstein",
+          "Bachletten",
           12
         ],
         [
-          "Bachletten",
+          "Wettstein",
           13
         ],
         [
@@ -151,11 +151,11 @@
           14
         ],
         [
-          "Am Ring",
+          "Riehen",
           15
         ],
         [
-          "Riehen",
+          "Am Ring",
           16
         ],
         [
@@ -228,7 +228,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.18.2.0002 Vermögenssteuer pro Veranlagung"
+    "text": "Vermögenssteuer pro Veranlagung"
   },
   "subtitle": {
     "style": {
@@ -237,7 +237,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: Steuerjahr 2013",
+    "text": "Stand: Steuerjahr 2014",
     "align": "left"
   },
   "plotOptions": {
@@ -306,6 +306,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": "I.18.2.0002"
+    "filename": "I.18.2.4835"
   }
 }

@@ -17,14 +17,14 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#68AB2B" d="M165 58a4 4 0 1 1 .004 0zm115 14a4 4 0 1 1 .004 0zm37 14a4 4 0 1 1 .004 0zm41 14a4 4 0 1 1 .004 0zm12 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm7 14a4 4 0 1 1 .004 0zm8 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm0 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm6 14a4 4 0 1 1 .004 0zm0 14a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0zm9 14a4 4 0 1 1 .004 0zm5 14a4 4 0 1 1 .004 0zm0 14a4 4 0 1 1 .004 0zm18 14a4 4 0 1 1 .004 0zm10 14a4 4 0 1 1 .004 0z" class="highcharts-point"/>
+            <path fill="#68AB2B" d="M159 58a4 4 0 1 1 .004 0zm120 14a4 4 0 1 1 .004 0zm38 14a4 4 0 1 1 .004 0zm41 14a4 4 0 1 1 .004 0zm13 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm6 14a4 4 0 1 1 .004 0zm8 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm0 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm6 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm5 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm10 14a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0zm0 14a4 4 0 1 1 .004 0zm18 14a4 4 0 1 1 .004 0zm10 14a4 4 0 1 1 .004 0z" class="highcharts-point"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>I.09.1.0009 Baujahr Wohngebäude</tspan>
+        <tspan>Baujahr Wohngebäude</tspan>
     </text>
     <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
-        <tspan>Stand: 2015</tspan>
+        <tspan>Stand: 2016</tspan>
     </text>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
         <text x="97" y="66">
@@ -118,6 +118,6 @@
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
-        <tspan>Quelle: Kantonale Baustatistik</tspan>
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik</tspan>
     </text>
 </svg>

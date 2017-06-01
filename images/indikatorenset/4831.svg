@@ -17,14 +17,14 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#68AB2B" d="M119 58a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0zm15 14a4 4 0 1 1 .004 0zm0 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm8 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm11 14a4 4 0 1 1 .004 0zm7 14a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0zm11 14a4 4 0 1 1 .004 0zm19 14a4 4 0 1 1 .004 0zm31 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm9 14a4 4 0 1 1 .004 0zm72 14a4 4 0 1 1 .004 0zm35 14a4 4 0 1 1 .004 0zm13 14a4 4 0 1 1 .004 0zm14 14a4 4 0 1 1 .004 0zm21 14a4 4 0 1 1 .004 0z" class="highcharts-point"/>
+            <path fill="#68AB2B" d="M120 58a4 4 0 1 1 .004 0zm3 14a4 4 0 1 1 .004 0zm15 14a4 4 0 1 1 .004 0zm0 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm9 14a4 4 0 1 1 .004 0zm0 14a4 4 0 1 1 .004 0zm12 14a4 4 0 1 1 .004 0zm8 14a4 4 0 1 1 .004 0zm3 14a4 4 0 1 1 .004 0zm12 14a4 4 0 1 1 .004 0zm18 14a4 4 0 1 1 .004 0zm32 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm10 14a4 4 0 1 1 .004 0zm70 14a4 4 0 1 1 .004 0zm36 14a4 4 0 1 1 .004 0zm13 14a4 4 0 1 1 .004 0zm13 14a4 4 0 1 1 .004 0zm22 14a4 4 0 1 1 .004 0z" class="highcharts-point"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>RU-2.a Anteil Einfamilienhäuser</tspan>
+        <tspan>Anteil Einfamilienhäuser</tspan>
     </text>
     <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
-        <tspan>Stand: 2015</tspan>
+        <tspan>Stand: 2016</tspan>
     </text>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
         <text x="97" y="66">
@@ -46,10 +46,10 @@
             <tspan>Vorstädte</tspan>
         </text>
         <text x="97" y="150">
-            <tspan>Altstadt Grossbasel</tspan>
+            <tspan>Altstadt Kleinbasel</tspan>
         </text>
         <text x="97" y="164">
-            <tspan>Altstadt Kleinbasel</tspan>
+            <tspan>Altstadt Grossbasel</tspan>
         </text>
         <text x="97" y="178">
             <tspan>Breite</tspan>
@@ -112,6 +112,6 @@
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
-        <tspan>Quelle: Kantonale Baustatistik</tspan>
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik</tspan>
     </text>
 </svg>

@@ -5,87 +5,87 @@
       "data": [
         [
           "Bettingen",
-          0.1113105925
-        ],
-        [
-          "Riehen",
-          0.1653416573
+          0.126394052
         ],
         [
           "Bruderholz",
-          0.1668169522
+          0.1561637788
+        ],
+        [
+          "Riehen",
+          0.1656778837
         ],
         [
           "Kleinhüningen",
-          0.1889650198
+          0.1869393613
         ],
         [
           "Hirzbrunnen",
-          0.1943587987
+          0.1926121372
         ],
         [
           "Rosental",
-          0.2144889057
-        ],
-        [
-          "Klybeck",
-          0.2189267485
+          0.2099798543
         ],
         [
           "Bachletten",
-          0.2249736565
+          0.2165757417
+        ],
+        [
+          "Klybeck",
+          0.2207061471
         ],
         [
           "St. Johann",
-          0.235626819
-        ],
-        [
-          "Matthäus",
-          0.241082177
+          0.2319218603
         ],
         [
           "St. Alban",
-          0.2511932616
+          0.2442383361
         ],
         [
-          "Clara",
-          0.2700939457
+          "Matthäus",
+          0.2448914227
         ],
         [
           "Wettstein",
-          0.2716890772
-        ],
-        [
-          "Gundeldingen",
-          0.2792870645
+          0.2606643674
         ],
         [
           "Iselin",
-          0.2841523342
+          0.2700090607
         ],
         [
-          "Breite",
-          0.2883006761
+          "Clara",
+          0.2705667276
+        ],
+        [
+          "Gundeldingen",
+          0.2741177106
         ],
         [
           "Am Ring",
-          0.3000205634
+          0.2812912395
+        ],
+        [
+          "Breite",
+          0.2817591432
         ],
         [
           "Gotthelf",
-          0.3019398786
+          0.2907906426
         ],
         [
           "Altstadt Grossbasel",
-          0.3244626407
+          0.3013100437
         ],
         [
           "Vorstädte",
-          0.3458125947
+          0.3250573753
         ],
         [
           "Altstadt Kleinbasel",
-          0.3524734982
+          0.3301846286
         ]
       ],
       "name": "Anteil Personen in Einpersonenhaushalten",
@@ -99,11 +99,11 @@
           1
         ],
         [
-          "Riehen",
+          "Bruderholz",
           2
         ],
         [
-          "Bruderholz",
+          "Riehen",
           3
         ],
         [
@@ -119,11 +119,11 @@
           6
         ],
         [
-          "Klybeck",
+          "Bachletten",
           7
         ],
         [
-          "Bachletten",
+          "Klybeck",
           8
         ],
         [
@@ -131,35 +131,35 @@
           9
         ],
         [
-          "Matthäus",
+          "St. Alban",
           10
         ],
         [
-          "St. Alban",
+          "Matthäus",
           11
         ],
         [
-          "Clara",
+          "Wettstein",
           12
         ],
         [
-          "Wettstein",
+          "Iselin",
           13
         ],
         [
-          "Gundeldingen",
+          "Clara",
           14
         ],
         [
-          "Iselin",
+          "Gundeldingen",
           15
         ],
         [
-          "Breite",
+          "Am Ring",
           16
         ],
         [
-          "Am Ring",
+          "Breite",
           17
         ],
         [
@@ -228,7 +228,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.01.2.0003 Anteil Personen in Einpersonenhaushalten"
+    "text": "Anteil Personen in Einpersonenhaushalten"
   },
   "subtitle": {
     "style": {
@@ -237,7 +237,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2014",
+    "text": "Stand: 2016",
     "align": "left"
   },
   "plotOptions": {
@@ -306,6 +306,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": "I.01.2.0003"
+    "filename": "I.01.2.4825"
   }
 }

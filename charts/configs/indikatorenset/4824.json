@@ -5,87 +5,87 @@
       "data": [
         [
           "Kleinhüningen",
-          0.3806896552
+          0.391289319
         ],
         [
           "Klybeck",
-          0.4117566268
+          0.4180783116
         ],
         [
           "Rosental",
-          0.4132512555
-        ],
-        [
-          "Bettingen",
-          0.4401993355
+          0.4252136752
         ],
         [
           "Gundeldingen",
-          0.4475609756
+          0.4513532122
         ],
         [
           "Iselin",
-          0.4484691418
+          0.4521040643
+        ],
+        [
+          "Bettingen",
+          0.4571428571
         ],
         [
           "Matthäus",
-          0.4520158298
+          0.4620213434
         ],
         [
           "St. Johann",
-          0.4583732057
-        ],
-        [
-          "Bruderholz",
-          0.4611141754
+          0.4664676405
         ],
         [
           "Riehen",
-          0.4653313527
+          0.4744059807
         ],
         [
           "Bachletten",
-          0.4655261411
+          0.4749279965
+        ],
+        [
+          "Bruderholz",
+          0.4768679409
         ],
         [
           "Clara",
-          0.4740630429
-        ],
-        [
-          "Breite",
-          0.4772830018
+          0.4789957743
         ],
         [
           "Hirzbrunnen",
-          0.4796756997
+          0.4895991333
+        ],
+        [
+          "Breite",
+          0.4905998209
         ],
         [
           "St. Alban",
-          0.4807956733
+          0.4913729809
         ],
         [
           "Gotthelf",
-          0.4850168104
+          0.4942226123
         ],
         [
           "Am Ring",
-          0.4949257658
-        ],
-        [
-          "Wettstein",
-          0.520242554
+          0.5071734675
         ],
         [
           "Altstadt Grossbasel",
-          0.5275303644
+          0.5161036921
+        ],
+        [
+          "Wettstein",
+          0.529213881
         ],
         [
           "Vorstädte",
-          0.5419708029
+          0.5459976105
         ],
         [
           "Altstadt Kleinbasel",
-          0.549486653
+          0.5612980769
         ]
       ],
       "name": "Anteil Konfessionslose",
@@ -107,15 +107,15 @@
           3
         ],
         [
-          "Bettingen",
+          "Gundeldingen",
           4
         ],
         [
-          "Gundeldingen",
+          "Iselin",
           5
         ],
         [
-          "Iselin",
+          "Bettingen",
           6
         ],
         [
@@ -127,15 +127,15 @@
           8
         ],
         [
-          "Bruderholz",
+          "Riehen",
           9
         ],
         [
-          "Riehen",
+          "Bachletten",
           10
         ],
         [
-          "Bachletten",
+          "Bruderholz",
           11
         ],
         [
@@ -143,11 +143,11 @@
           12
         ],
         [
-          "Breite",
+          "Hirzbrunnen",
           13
         ],
         [
-          "Hirzbrunnen",
+          "Breite",
           14
         ],
         [
@@ -163,11 +163,11 @@
           17
         ],
         [
-          "Wettstein",
+          "Altstadt Grossbasel",
           18
         ],
         [
-          "Altstadt Grossbasel",
+          "Wettstein",
           19
         ],
         [
@@ -228,7 +228,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "GS-3.a Anteil Konfessionslose"
+    "text": "Anteil Personen ohne Religionszugehörigkeit"
   },
   "subtitle": {
     "style": {
@@ -237,7 +237,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2015",
+    "text": "Stand: 2016",
     "align": "left"
   },
   "plotOptions": {
@@ -306,6 +306,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": "I.01.7.0001"
+    "filename": "I.01.7.4824"
   }
 }
