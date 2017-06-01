@@ -17,14 +17,14 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#68AB2B" d="M305 58a4 4 0 1 1 .004 0zm3 14a4 4 0 1 1 .004 0zm10 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm13 14a4 4 0 1 1 .004 0zm3 14a4 4 0 1 1 .004 0zm0 14a4 4 0 1 1 .004 0zm10 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm15 14a4 4 0 1 1 .004 0zm13 14a4 4 0 1 1 .004 0zm11 14a4 4 0 1 1 .004 0zm8 14a4 4 0 1 1 .004 0zm0 14a4 4 0 1 1 .004 0zm5 14a4 4 0 1 1 .004 0zm9 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm5 14a4 4 0 1 1 .004 0zm12 14a4 4 0 1 1 .004 0zm17 14a4 4 0 1 1 .004 0z" class="highcharts-point"/>
+            <path fill="#68AB2B" d="M304 58a4 4 0 1 1 .004 0zm5 14a4 4 0 1 1 .004 0zm7 14a4 4 0 1 1 .004 0zm6 14a4 4 0 1 1 .004 0zm10 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm10 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm3 14a4 4 0 1 1 .004 0zm14 14a4 4 0 1 1 .004 0zm7 14a4 4 0 1 1 .004 0zm17 14a4 4 0 1 1 .004 0zm3 14a4 4 0 1 1 .004 0zm3 14a4 4 0 1 1 .004 0zm6 14a4 4 0 1 1 .004 0zm9 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm3 14a4 4 0 1 1 .004 0zm16 14a4 4 0 1 1 .004 0zm7 14a4 4 0 1 1 .004 0z" class="highcharts-point"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>Wohnfläche pro Kopf</tspan>
     </text>
     <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
-        <tspan>Stand: 2015</tspan>
+        <tspan>Stand: 2016</tspan>
     </text>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
         <text x="97" y="66">
@@ -43,10 +43,10 @@
             <tspan>St. Johann</tspan>
         </text>
         <text x="97" y="136">
-            <tspan>Clara</tspan>
+            <tspan>Iselin</tspan>
         </text>
         <text x="97" y="150">
-            <tspan>Iselin</tspan>
+            <tspan>Clara</tspan>
         </text>
         <text x="97" y="164">
             <tspan>Gundeldingen</tspan>
@@ -76,10 +76,10 @@
             <tspan>Riehen</tspan>
         </text>
         <text x="97" y="290">
-            <tspan>St. Alban</tspan>
+            <tspan>Bruderholz</tspan>
         </text>
         <text x="97" y="304">
-            <tspan>Bruderholz</tspan>
+            <tspan>St. Alban</tspan>
         </text>
         <text x="97" y="318">
             <tspan>Vorstädte</tspan>
@@ -115,6 +115,6 @@
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="390" cursor="default" color="#000" font-size="10">
-        <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik;</tspan><tspan x="10" dy="13">Kantonale Baustatistik</tspan>
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik;</tspan><tspan x="10" dy="13">Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik</tspan>
     </text>
 </svg>

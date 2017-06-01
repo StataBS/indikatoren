@@ -5,75 +5,75 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          1825.4615385
+          1822.5777778
         ],
         [
           "Altstadt Kleinbasel",
-          1880.8932384
+          1880.4929078
         ],
         [
           "Vorstädte",
-          1898.6623616
+          1898.8284133
         ],
         [
           "Am Ring",
-          1918.4872014
+          1918.6879795
         ],
         [
           "Gotthelf",
-          1924.5126904
+          1924.6744659
         ],
         [
           "Matthäus",
-          1924.9359087
+          1925.1622807
         ],
         [
           "Clara",
-          1928.3307692
+          1928.3461538
         ],
         [
           "Gundeldingen",
-          1932.197193
+          1932.2265077
         ],
         [
           "St. Johann",
-          1932.9156785
+          1932.93083
         ],
         [
           "Wettstein",
-          1933.0711238
+          1933.15625
         ],
         [
           "Bachletten",
-          1934.1433134
+          1934.1489617
         ],
         [
           "Klybeck",
-          1936.9701149
+          1937.0229358
         ],
         [
           "Iselin",
-          1937.1028295
+          1937.1906401
         ],
         [
           "St. Alban",
-          1938.6368997
+          1938.5498311
         ],
         [
           "Breite",
-          1939.7367625
+          1940.9206587
         ],
         [
           "Hirzbrunnen",
-          1941.6778481
+          1941.7718078
         ],
         [
           "Kleinhüningen",
-          1946.2710843
+          1946.4011976
         ],
         [
           "Bruderholz",
-          1948.4359962
+          1948.5173244
         ],
         [
           "Rosental",
@@ -81,7 +81,7 @@
         ],
         [
           "Riehen",
-          1957.0231425
+          1957.2413207
         ],
         [
           "Bettingen",
@@ -237,7 +237,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2015",
+    "text": "Stand: 2016",
     "align": "left"
   },
   "plotOptions": {
@@ -287,7 +287,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Kantonale Baustatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
   },
   "legend": {
     "enabled": false,
@@ -306,6 +306,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": "I.09.1.0009"
+    "filename": "I.09.1.4830"
   }
 }

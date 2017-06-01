@@ -17,14 +17,14 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#923F8D" d="M342 58a4 4 0 1 1 .004 0zm19 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm16 14a4 4 0 1 1 .004 0zm5 14a4 4 0 1 1 .004 0zm0 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm3 14a4 4 0 1 1 .004 0zm0 14a4 4 0 1 1 .004 0zm5 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm6 14a4 4 0 1 1 .004 0zm16 14a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0zm9 14a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0z" class="highcharts-point"/>
+            <path fill="#923F8D" d="M349 58a4 4 0 1 1 .004 0zm16 14a4 4 0 1 1 .004 0zm4 14a4 4 0 1 1 .004 0zm16 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm3 14a4 4 0 1 1 .004 0zm3 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm5 14a4 4 0 1 1 .004 0zm0 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm6 14a4 4 0 1 1 .004 0zm1 14a4 4 0 1 1 .004 0zm0 14a4 4 0 1 1 .004 0zm2 14a4 4 0 1 1 .004 0zm8 14a4 4 0 1 1 .004 0zm5 14a4 4 0 1 1 .004 0zm8 14a4 4 0 1 1 .004 0zm10 14a4 4 0 1 1 .004 0zm10 14a4 4 0 1 1 .004 0z" class="highcharts-point"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>Anteil Konfessionslose</tspan>
+        <tspan>Anteil Personen ohne Religionszugehörigkeit</tspan>
     </text>
     <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
-        <tspan>Stand: 2015</tspan>
+        <tspan>Stand: 2016</tspan>
     </text>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
         <text x="97" y="66">
@@ -37,13 +37,13 @@
             <tspan>Rosental</tspan>
         </text>
         <text x="97" y="108">
-            <tspan>Bettingen</tspan>
-        </text>
-        <text x="97" y="122">
             <tspan>Gundeldingen</tspan>
         </text>
-        <text x="97" y="136">
+        <text x="97" y="122">
             <tspan>Iselin</tspan>
+        </text>
+        <text x="97" y="136">
+            <tspan>Bettingen</tspan>
         </text>
         <text x="97" y="150">
             <tspan>Matthäus</tspan>
@@ -52,22 +52,22 @@
             <tspan>St. Johann</tspan>
         </text>
         <text x="97" y="178">
-            <tspan>Bruderholz</tspan>
-        </text>
-        <text x="97" y="192">
             <tspan>Riehen</tspan>
         </text>
-        <text x="97" y="206">
+        <text x="97" y="192">
             <tspan>Bachletten</tspan>
+        </text>
+        <text x="97" y="206">
+            <tspan>Bruderholz</tspan>
         </text>
         <text x="97" y="220">
             <tspan>Clara</tspan>
         </text>
         <text x="97" y="234">
-            <tspan>Breite</tspan>
+            <tspan>Hirzbrunnen</tspan>
         </text>
         <text x="97" y="248">
-            <tspan>Hirzbrunnen</tspan>
+            <tspan>Breite</tspan>
         </text>
         <text x="97" y="262">
             <tspan>St. Alban</tspan>
@@ -79,10 +79,10 @@
             <tspan>Am Ring</tspan>
         </text>
         <text x="97" y="304">
-            <tspan>Wettstein</tspan>
+            <tspan>Altstadt Grossbasel</tspan>
         </text>
         <text x="97" y="318">
-            <tspan>Altstadt Grossbasel</tspan>
+            <tspan>Wettstein</tspan>
         </text>
         <text x="97" y="332">
             <tspan>Vorstädte</tspan>
@@ -93,25 +93,25 @@
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
         <text x="112" y="368">
-            <tspan>0%</tspan>
+            0%
         </text>
         <text x="172.5" y="368">
-            <tspan>10%</tspan>
+            10%
         </text>
         <text x="233" y="368">
-            <tspan>20%</tspan>
+            20%
         </text>
         <text x="293.5" y="368">
-            <tspan>30%</tspan>
+            30%
         </text>
         <text x="354" y="368">
-            <tspan>40%</tspan>
+            40%
         </text>
         <text x="414.5" y="368">
-            <tspan>50%</tspan>
+            50%
         </text>
-        <text x="464" y="368">
-            <tspan>60%</tspan>
+        <text x="464.008" y="368">
+            60%
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">

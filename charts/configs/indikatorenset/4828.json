@@ -5,87 +5,87 @@
       "data": [
         [
           "Rosental",
-          0.209460554
-        ],
-        [
-          "Altstadt Kleinbasel",
-          0.2755646817
+          0.208028083
         ],
         [
           "Vorstädte",
-          0.2761557178
+          0.2751891677
+        ],
+        [
+          "Altstadt Kleinbasel",
+          0.2752403846
         ],
         [
           "Matthäus",
-          0.2877195152
-        ],
-        [
-          "Gundeldingen",
-          0.3036585366
+          0.2908976773
         ],
         [
           "Am Ring",
-          0.3062394287
+          0.3066890255
         ],
         [
-          "St. Johann",
-          0.3071770335
-        ],
-        [
-          "Clara",
-          0.3137254902
-        ],
-        [
-          "Iselin",
-          0.3269648023
+          "Gundeldingen",
+          0.3108945501
         ],
         [
           "Altstadt Grossbasel",
-          0.3275303644
+          0.3153967007
+        ],
+        [
+          "St. Johann",
+          0.3177311014
+        ],
+        [
+          "Clara",
+          0.3233905046
+        ],
+        [
+          "Iselin",
+          0.3278383887
         ],
         [
           "Klybeck",
-          0.3414366158
-        ],
-        [
-          "Kleinhüningen",
-          0.3482758621
-        ],
-        [
-          "St. Alban",
-          0.3495279127
-        ],
-        [
-          "Gotthelf",
-          0.3533109195
+          0.3419883366
         ],
         [
           "Breite",
-          0.3549954792
+          0.3446732319
+        ],
+        [
+          "St. Alban",
+          0.345356094
+        ],
+        [
+          "Kleinhüningen",
+          0.3515381956
         ],
         [
           "Wettstein",
-          0.3624041377
+          0.3549929178
         ],
         [
-          "Bettingen",
-          0.4119601329
+          "Gotthelf",
+          0.3571741992
         ],
         [
           "Hirzbrunnen",
-          0.415926255
-        ],
-        [
-          "Bachletten",
-          0.419733058
+          0.4053087757
         ],
         [
           "Bruderholz",
-          0.4243794815
+          0.4206125109
+        ],
+        [
+          "Bachletten",
+          0.4221253969
+        ],
+        [
+          "Bettingen",
+          0.4260504202
         ],
         [
           "Riehen",
-          0.4333700704
+          0.4324555974
         ]
       ],
       "name": "Sesshaftigkeit",
@@ -99,11 +99,11 @@
           1
         ],
         [
-          "Altstadt Kleinbasel",
+          "Vorstädte",
           2
         ],
         [
-          "Vorstädte",
+          "Altstadt Kleinbasel",
           3
         ],
         [
@@ -111,27 +111,27 @@
           4
         ],
         [
-          "Gundeldingen",
+          "Am Ring",
           5
         ],
         [
-          "Am Ring",
+          "Gundeldingen",
           6
         ],
         [
-          "St. Johann",
+          "Altstadt Grossbasel",
           7
         ],
         [
-          "Clara",
+          "St. Johann",
           8
         ],
         [
-          "Iselin",
+          "Clara",
           9
         ],
         [
-          "Altstadt Grossbasel",
+          "Iselin",
           10
         ],
         [
@@ -139,7 +139,7 @@
           11
         ],
         [
-          "Kleinhüningen",
+          "Breite",
           12
         ],
         [
@@ -147,23 +147,23 @@
           13
         ],
         [
-          "Gotthelf",
+          "Kleinhüningen",
           14
         ],
         [
-          "Breite",
+          "Wettstein",
           15
         ],
         [
-          "Wettstein",
+          "Gotthelf",
           16
         ],
         [
-          "Bettingen",
+          "Hirzbrunnen",
           17
         ],
         [
-          "Hirzbrunnen",
+          "Bruderholz",
           18
         ],
         [
@@ -171,7 +171,7 @@
           19
         ],
         [
-          "Bruderholz",
+          "Bettingen",
           20
         ],
         [
@@ -237,7 +237,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2015",
+    "text": "Stand: 2016",
     "align": "left"
   },
   "plotOptions": {
@@ -306,6 +306,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": "I.01.1.0040"
+    "filename": "I.01.1.4828"
   }
 }
