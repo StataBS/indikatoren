@@ -96,6 +96,9 @@ ul.pagination{
     cursor: pointer;
     margin-top: 4px;
     margin-bottom: 2px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;     
 } 
 
 /* https://scotch.io/bar-talk/bootstrap-3-tips-and-tricks-you-still-might-not-know */

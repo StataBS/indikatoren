@@ -5,87 +5,87 @@
       "data": [
         [
           "Klybeck",
-          4486.0079576
+          4410.1190648
         ],
         [
           "Kleinhüningen",
-          5162.5021834
+          4839.1428571
         ],
         [
           "Rosental",
-          5783.2405609
-        ],
-        [
-          "Matthäus",
-          6286.6448547
-        ],
-        [
-          "St. Johann",
-          6338.095167
-        ],
-        [
-          "Iselin",
-          6358.4781801
+          5831.0964029
         ],
         [
           "Clara",
-          6393.9031238
+          6175.5711968
+        ],
+        [
+          "Matthäus",
+          6265.424484
+        ],
+        [
+          "Iselin",
+          6306.206372
+        ],
+        [
+          "St. Johann",
+          6494.7676276
         ],
         [
           "Gundeldingen",
-          7015.5679743
-        ],
-        [
-          "Hirzbrunnen",
-          7150.8539806
+          7151.3573948
         ],
         [
           "Breite",
-          7200.9137421
+          7191.4427093
+        ],
+        [
+          "Hirzbrunnen",
+          7447.2770398
         ],
         [
           "Altstadt Kleinbasel",
-          8131.5571429
+          8252.5018634
         ],
         [
           "Gotthelf",
-          8591.7451399
+          8734.8026629
         ],
         [
           "Wettstein",
-          9902.2080699
+          10408.881084
         ],
         [
           "Bachletten",
-          11286.095512
+          11232.568499
         ],
         [
           "Am Ring",
-          11520.438408
+          11942.650296
         ],
         [
           "Riehen",
-          13082.421204
+          13431.462954
         ],
         [
           "Bettingen",
-          13690.040752
+          14099.867508
         ],
         [
           "St. Alban",
-          15633.891206
-        ],
-        [
-          "Vorstädte",
-          16127.909889
+          15825.977301
         ],
         [
           "Altstadt Grossbasel",
-          17343.393735
+          16397.193099
+        ],
+        [
+          "Vorstädte",
+          17822.478275
         ],
         [
           "Bruderholz",
-          19364.924846
+          20531.30534
         ]
       ],
       "name": "Einkommenssteuer pro Veranlagung",
@@ -107,11 +107,11 @@
           3
         ],
         [
-          "Matthäus",
+          "Clara",
           4
         ],
         [
-          "St. Johann",
+          "Matthäus",
           5
         ],
         [
@@ -119,7 +119,7 @@
           6
         ],
         [
-          "Clara",
+          "St. Johann",
           7
         ],
         [
@@ -127,11 +127,11 @@
           8
         ],
         [
-          "Hirzbrunnen",
+          "Breite",
           9
         ],
         [
-          "Breite",
+          "Hirzbrunnen",
           10
         ],
         [
@@ -167,11 +167,11 @@
           18
         ],
         [
-          "Vorstädte",
+          "Altstadt Grossbasel",
           19
         ],
         [
-          "Altstadt Grossbasel",
+          "Vorstädte",
           20
         ],
         [
@@ -228,7 +228,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "WA-2.a Einkommenssteuer pro Veranlagung"
+    "text": "Einkommenssteuer pro Veranlagung"
   },
   "subtitle": {
     "style": {
@@ -237,7 +237,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: Steuerjahr 2013",
+    "text": "Stand: Steuerjahr 2014",
     "align": "left"
   },
   "plotOptions": {
@@ -306,6 +306,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": "I.18.2.0003"
+    "filename": "I.18.2.4836"
   }
 }

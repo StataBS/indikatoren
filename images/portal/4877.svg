@@ -29,7 +29,7 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>I.01.5.0042 Rückwanderungsquote der Ausländer nach</tspan><tspan dy="17" x="10">Staatsangehörigkeitund Alter 2015</tspan><title>I.01.5.0042 Rückwanderungsquote der Ausländer nach Staatsangehörigkeitund Alter 2015</title>
+        <tspan>Rückwanderungsquote der Ausländer nach</tspan><tspan dy="17" x="10">Staatsangehörigkeitund Alter 2015</tspan><title>Rückwanderungsquote der Ausländer nach Staatsangehörigkeitund Alter 2015</title>
     </text>
     <g class="highcharts-legend" transform="translate(128 45)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="173" height="25"/>

@@ -5,87 +5,87 @@
       "data": [
         [
           "Breite",
-          0.1185302112
+          0.1190652515
         ],
         [
           "Bruderholz",
-          0.1344450243
+          0.1331406422
         ],
         [
           "Iselin",
-          0.1598116736
+          0.1582150751
         ],
         [
           "Riehen",
-          0.1621691145
+          0.164299291
         ],
         [
           "Matthäus",
-          0.184836367
+          0.1814616525
         ],
         [
           "Bachletten",
-          0.1951690526
+          0.1872961595
         ],
         [
           "Bettingen",
-          0.3055612989
+          0.2839533422
         ],
         [
           "Gotthelf",
-          0.3153131988
+          0.2945914104
         ],
         [
           "Hirzbrunnen",
-          0.3420859498
+          0.3392960807
         ],
         [
           "Gundeldingen",
-          0.6323863963
+          0.6218140788
         ],
         [
           "Clara",
-          0.6630918086
+          0.6749574129
         ],
         [
           "Klybeck",
-          0.8594443374
+          0.8165756242
         ],
         [
           "St. Johann",
-          0.9902409839
+          0.9990028404
         ],
         [
           "Am Ring",
-          0.9982575671
+          1.0166387112
         ],
         [
           "Rosental",
-          1.0523266012
+          1.050800448
         ],
         [
           "Altstadt Kleinbasel",
-          1.715968989
+          1.5517414754
         ],
         [
           "Wettstein",
-          1.8048698906
+          1.8098230986
         ],
         [
           "Kleinhüningen",
-          1.8665315385
+          2.0479528603
         ],
         [
           "St. Alban",
-          2.1533571498
-        ],
-        [
-          "Altstadt Grossbasel",
-          4.3740558664
+          2.1513247105
         ],
         [
           "Vorstädte",
-          4.6310493571
+          4.577539286
+        ],
+        [
+          "Altstadt Grossbasel",
+          4.595664635
         ]
       ],
       "name": "Arbeitsplätze pro Kopf",
@@ -171,11 +171,11 @@
           19
         ],
         [
-          "Altstadt Grossbasel",
+          "Vorstädte",
           20
         ],
         [
-          "Vorstädte",
+          "Altstadt Grossbasel",
           21
         ]
       ],
@@ -228,7 +228,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "WA-4.a Arbeitsplätze pro Kopf"
+    "text": "Arbeitsplätze pro Kopf"
   },
   "subtitle": {
     "style": {
@@ -237,7 +237,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2013",
+    "text": "Stand: 2014",
     "align": "left"
   },
   "plotOptions": {
@@ -307,6 +307,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": "I.03.2.0002"
+    "filename": "I.03.2.4838"
   }
 }

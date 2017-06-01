@@ -5,87 +5,87 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          0.1204819277
+          0.1372002231
         ],
         [
           "Altstadt Kleinbasel",
-          0.1413612565
+          0.1469920545
         ],
         [
           "Vorstädte",
-          0.1598002497
+          0.1668704156
         ],
         [
           "Clara",
-          0.1815799326
+          0.181511976
         ],
         [
           "Gundeldingen",
-          0.2039478641
+          0.2068548996
         ],
         [
           "Am Ring",
-          0.208682855
+          0.2181605498
         ],
         [
           "Wettstein",
-          0.2200761697
+          0.219941349
         ],
         [
           "Matthäus",
-          0.2246445498
+          0.222008229
         ],
         [
           "Breite",
-          0.226584507
-        ],
-        [
-          "St. Johann",
-          0.252143138
-        ],
-        [
-          "Rosental",
-          0.2522341376
+          0.2221442358
         ],
         [
           "Gotthelf",
-          0.2540464462
+          0.2478413069
+        ],
+        [
+          "St. Johann",
+          0.2515956189
         ],
         [
           "Iselin",
-          0.2606669712
+          0.2586378888
         ],
         [
-          "Klybeck",
-          0.2784552846
+          "Rosental",
+          0.2592514718
         ],
         [
           "St. Alban",
-          0.2791754585
+          0.2798187409
+        ],
+        [
+          "Klybeck",
+          0.2901952638
         ],
         [
           "Bachletten",
-          0.2951947892
-        ],
-        [
-          "Kleinhüningen",
-          0.3129812981
+          0.2980377638
         ],
         [
           "Bettingen",
-          0.3141210375
+          0.308588064
+        ],
+        [
+          "Kleinhüningen",
+          0.317679558
         ],
         [
           "Hirzbrunnen",
-          0.3406156902
+          0.336914812
         ],
         [
           "Riehen",
-          0.3593376428
+          0.3636203402
         ],
         [
           "Bruderholz",
-          0.3820925553
+          0.3785588062
         ]
       ],
       "name": "Jugendquotient",
@@ -131,27 +131,27 @@
           9
         ],
         [
-          "St. Johann",
+          "Gotthelf",
           10
         ],
         [
-          "Rosental",
+          "St. Johann",
           11
         ],
         [
-          "Gotthelf",
+          "Iselin",
           12
         ],
         [
-          "Iselin",
+          "Rosental",
           13
         ],
         [
-          "Klybeck",
+          "St. Alban",
           14
         ],
         [
-          "St. Alban",
+          "Klybeck",
           15
         ],
         [
@@ -159,11 +159,11 @@
           16
         ],
         [
-          "Kleinhüningen",
+          "Bettingen",
           17
         ],
         [
-          "Bettingen",
+          "Kleinhüningen",
           18
         ],
         [
@@ -228,7 +228,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.01.1.0041 Jugendquotient"
+    "text": "Jugendquotient"
   },
   "subtitle": {
     "style": {
@@ -237,7 +237,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2015",
+    "text": "Stand: 2016",
     "align": "left"
   },
   "plotOptions": {
@@ -306,6 +306,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": "I.01.1.0041"
+    "filename": "I.01.1.4829"
   }
 }

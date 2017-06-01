@@ -1,14 +1,14 @@
-{"title":"Anteil Konfessionslose",
-"subtitle":"Stand: 2015",
-"kuerzel":"I.01.7.0001",
-"kuerzelKunde":"GS-3.a",
-"description":"Anteil Konfessionslose",
+{"title":"Anteil Personen ohne Religionszugehörigkeit",
+"subtitle":"Stand: 2016",
+"kuerzel":"I.01.7.4824",
+"kuerzelKunde":"GS-3.A",
+"description":"Anteil Personen ohne Religionszugehörigkeit",
 "id":4824,
 "thema":"01 Bevölkerung",
 "unterthema":"Religionen",
 "kennzahlenset":"Wohnviertel",
 "raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2016-06-30T00:00:00.000",
+"aktualisierungsdatum":"2017-05-04T14:54:05.055",
 "schlagwort":["Religion"],
 "stufe1":"1 Gesellschaft und Soziales",
 "stufe2":"",
@@ -24,5 +24,6 @@
 "parentId":null,
 "children":["5111"],
 "renderLink":["5111"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"],
+"externalLinks":[""]
 }
