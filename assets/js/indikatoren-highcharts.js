@@ -56,8 +56,25 @@ function createChartConfig(data, chartOptions, template, chartMetaData, indikato
 
 
 //merge series with all options and draw chart
-function drawChart(data, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn){
+function drawChartFromData(data, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn){
   createChartConfig(data, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, function(options){
+    //decide if stockchart, map, or chart
+    var constr = options.isStock ? 'StockChart': (options.chart.type === 'map' ? 'Map' : 'Chart');
+    return new Highcharts[constr](options, callbackFn);
+  });
+}
+
+
+function loadChartConfig(id, indikatorensetView, callbackFn){
+  var path = 
+  $.getJSON("test.json", function(json) {
+    
+  });
+}
+
+
+function drawChartFromJson(id, indikatorensetView, callbackFn){
+  loadChartConfig(id, indikatorensetView,  function(options){
     //decide if stockchart, map, or chart
     var constr = options.isStock ? 'StockChart': (options.chart.type === 'map' ? 'Map' : 'Chart');
     return new Highcharts[constr](options, callbackFn);
@@ -118,7 +135,7 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, chartMetaD
       
       //load csv and draw chart            
       $.get(csvUrl, function(data){
-        drawChart(data, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn);
+        drawChartFromData(data, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn);
       });
     }
   ).fail(function(jqXHR, textStatus, errorThrown){
