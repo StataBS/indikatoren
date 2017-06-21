@@ -1,17 +1,49 @@
 // invoke in bash using this command line: 
-// node node_modules/casperjs/bin/casperjs.js build/createUmweltberichtConfigs.js --id=0102
+// node node_modules/casperjs/bin/casperjs.js build/createUmweltberichtConfigs.js
 /* 
     global Highcharts
 */
 
 var charts = [];
 var casper = require('casper').create();
-var utils = require("utils");
-var urltotal = 'http://ub.basleratlas.ch/?format=chart_export2indikatorenportal&i=0101'; 
 var urlbase = 'http://ub.basleratlas.ch/?format=chart_export2indikatorenportal&i=';
-var idText = padLeft(casper.cli.options['id'], 4);
-var url = urlbase + idText;
 var fs = require('fs');
+var path = "metadata/umweltbericht/";
+
+// http://phantomjs.org/api/fs/method/list.html
+var ubFileList = fs.list(path);
+//remove . and .. from list
+ubFileList.shift();
+ubFileList.shift();
+
+// Open dummy web site in order to call start()
+casper.start('https://google/ch');
+
+//loop over array of urls: https://stackoverflow.com/a/25601585 
+while (ubFileList.length > 0) {
+    var id = ubFileList.pop().substr(0,4);
+    var idText = padLeft(id, 4);
+    var url = urlbase + idText;
+
+    (function(id){
+        casper.thenOpen(url, function() {
+            casper.echo('Opening UB chart '+ idText + ' located at ' + url + '...');
+            // Wait for the page to be loaded, i.e. svg node is present
+            this.waitForSelector('svg');
+            
+        });
+        casper.then(function(){
+            //get Highcharts.charts array
+            charts = this.evaluate(getCharts);
+            //save options of first chart into file
+            var content = JSON.stringify(charts[0].options, null,'\t');
+            var path = 'charts/configs/umweltbericht/' + id + '.json';
+            casper.echo('Saving contents to ' + path + '...');
+            fs.write(path, content, 'w');
+        });
+    })(idText);
+}        
+
 
 //https://stackoverflow.com/a/5367656
 function padLeft(nr, n, str){
@@ -24,28 +56,7 @@ function getCharts() {
     return charts;
 }
 
-//casper.start('https://statabs.github.io/indikatoren/chart.html?id=5109', function() {
-//casper.start('http://ub.basleratlas.ch/?format=chart_export2indikatorenportal&i=0101', function() {
-casper.start(url, function() {
-   // Wait for the page to be loaded
-   this.waitForSelector('svg');
-});
-
-casper.then(function() {
-    charts = this.evaluate(getCharts);
-});
-
-/*
-casper.then(function() {
-    utils.dump(casper.cli.args);
-});
-*/
 
 casper.run(function() {
-    var content = JSON.stringify(charts[0].options, null,'\t');
-    var path = 'charts/configs/umweltbericht/' + idText + '.json';
-    fs.write(path, content, 'w');
-    //this.echo(content).exit();
-    //this.echo(url);
     this.exit();
 });
