@@ -55,6 +55,10 @@ while (ubFileList.length > 0) {
                     var path = 'charts/configs/indikatorenset/' + id + '.json';
                     casper.echo('Saving contents to ' + path + '...');
                     fs.write(path, content, 'w');
+                    path = 'charts/configs/portal/' + id + '.json';
+                    casper.echo('Saving contents to ' + path + '...');
+                    fs.write(path, content, 'w');
+
                     //casper.capture('screenshots/' + id + '.png');
                 });
             });
