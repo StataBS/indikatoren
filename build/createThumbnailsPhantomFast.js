@@ -45,7 +45,7 @@ function go(){
         files.forEach(function(filepath){
             var fileContents = fs.readFileSync(filepath);
             var indikator = JSON.parse(fileContents);
-            if (indikator.visible == undefined || indikator.visible){            
+            if ((indikator.visible == undefined || indikator.visible) && indikator.kennzahlenset != "Umwelt"){            
                 console.log('Creating MultiArgsFile entries for chart ' + indikator.id + ' indikatorensetView=' + view +'...');
                 var imagePath = (view) ? 'images/indikatorenset/' : 'images/portal/';
                 var configPath = (view) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
@@ -63,7 +63,7 @@ function go(){
                 allArgs.push(currentArg);
             }
             else {
-                console.log('Chart ' + indikator.id + ' is invisible, ignoring.');
+                console.log('Chart ' + indikator.id + ' is invisible or in kennzahlenset "Umwelt", ignoring.');
             }
         });
     });
@@ -84,7 +84,7 @@ function addSvgViewBox(console){
         files.forEach(function(filepath){
             var fileContents = fs.readFileSync(filepath);
             var indikator = JSON.parse(fileContents);
-            if (indikator.visible == undefined || indikator.visible){            
+            if ((indikator.visible == undefined || indikator.visible) && indikator.kennzahlenset != "Umwelt"){            
                 var path = (view) ? 'images/indikatorenset/' : 'images/portal/';
                 var svg = fs.readFileSync(path + indikator.id + '.svg', 'utf8');
                 //replace hardcoded height and width with hardcoded viewBox in order to make pics compatible with IE. 

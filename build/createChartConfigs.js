@@ -54,7 +54,7 @@ var geojson_rhein = JSON.parse(rheinFileContents);
                     saveChartConfig(indikator, view, console);
                 }
                 else {
-                    console.log('Chart ' + indikator.id + ' is invisible, ignoring.');
+                    console.log('Chart ' + indikator.id + ' is invisible or in kennzahlenset "Umwelt", ignoring.');
                 }
             });
         });
