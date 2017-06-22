@@ -8,13 +8,16 @@ var charts = [];
 var casper = require('casper').create();
 var urlbase = 'http://ub.basleratlas.ch/?format=chart_export2indikatorenportal&i=';
 var fs = require('fs');
-var path = "metadata/umweltbericht/";
+var pathBase = "metadata/single/";
 
 // http://phantomjs.org/api/fs/method/list.html
-var ubFileList = fs.list(path);
+var ubFileList = fs.list(pathBase);
 //remove . and .. from list
 ubFileList.shift();
 ubFileList.shift();
+
+//casper.echo(ubFileList);
+casper.options.viewportSize = { width: 485, height: 415 };
 
 // Open dummy web site in order to call start()
 casper.start('https://google/ch');
@@ -23,24 +26,66 @@ casper.start('https://google/ch');
 while (ubFileList.length > 0) {
     var id = ubFileList.pop().substr(0,4);
     var idText = padLeft(id, 4);
-    var url = urlbase + idText;
 
     (function(id){
-        casper.thenOpen(url, function() {
-            casper.echo('Opening UB chart '+ idText + ' located at ' + url + '...');
-            // Wait for the page to be loaded, i.e. svg node is present
-            this.waitForSelector('svg');
+
+        //evaluate json and check if indicator belongs to kennzahlenset Umwelt
+        var currentConfig = require(fs.workingDirectory + "/" + pathBase + id + ".json");
+        if (currentConfig.kennzahlenset == "Umwelt") {
             
-        });
-        casper.then(function(){
-            //get Highcharts.charts array
-            charts = this.evaluate(getCharts);
-            //save options of first chart into file
-            var content = JSON.stringify(charts[0].options, null,'\t');
-            var path = 'charts/configs/umweltbericht/' + id + '.json';
-            casper.echo('Saving contents to ' + path + '...');
-            fs.write(path, content, 'w');
-        });
+            var url = urlbase + currentConfig.kuerzelKunde; 
+            //close current page to release memory, https://stackoverflow.com/a/18156020
+            casper.then(function() {
+                casper.echo('Closing page to free RAM...');
+                casper.page.close();
+                casper.page = require('webpage').create();
+            });
+            
+            
+            casper.thenOpen(url, function() {
+                casper.echo('Opening UB chart '+ id + ' located at ' + url);
+                // Wait for the page to be loaded, i.e. svg node is present
+                //this.waitForSelector('svg');
+                this.waitForSelector('#serialized_highcharts', function(){
+                    //get Highcharts.charts array
+                    //charts = this.evaluate(getCharts);
+                    //save options of first chart into file
+                    //var content = serialize(charts[0].options, {space: 2});
+                    var content = casper.fetchText('#serialized_highcharts');
+                    var path = 'charts/configs/indikatorenset/' + id + '.json';
+                    casper.echo('Saving contents to ' + path + '...');
+                    fs.write(path, content, 'w');
+                    //casper.capture('screenshots/' + id + '.png');
+                });
+            });
+            /*
+            casper.then(function(){
+                this.wait(500, function() {
+                    this.echo("I've waited...");
+                });
+            });
+            
+            */
+            
+            /*
+            casper.then(function(){
+                //get Highcharts.charts array
+                charts = this.evaluate(getCharts);
+                //save options of first chart into file
+                //var content = JSON.stringify(charts[0].options, null,'\t');
+                //var content = serialize(charts[0].options, {space: 2});
+                
+                var content = document.querySelector('#serialized_highcharts').innerText;
+                var path = 'charts/configs/umweltbericht/' + id + '.json';
+                casper.echo('Saving contents to ' + path + '...');
+                fs.write(path, content, 'w');
+                casper.capture('screenshots/' + id + '.png');
+            });
+            */
+        }
+        else {
+            casper.echo('Chart ' + id + ' belongs to kennzahlenset ' + currentConfig.kennzahlenset +', which is not "Umwelt", thus ignoring here. ');
+        }
     })(idText);
 }        
 
@@ -52,11 +97,11 @@ function padLeft(nr, n, str){
 
 
 function getCharts() {
-    var charts = Highcharts.charts;
-    return charts;
+    return window.Highcharts.charts;
 }
 
 
 casper.run(function() {
     this.exit();
 });
+
