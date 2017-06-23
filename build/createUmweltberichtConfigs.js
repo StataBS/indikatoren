@@ -6,7 +6,8 @@
 
 var charts = [];
 var casper = require('casper').create();
-var urlbase = 'http://ub.basleratlas.ch/?format=chart_export2indikatorenportal&i=';
+//var urlbase = 'http://ub.basleratlas.ch/?format=chart_export2indikatorenportal&i=';
+var urlbase = 'http://ub.basleratlas.ch/?format=stata&k=bs&i=';
 var fs = require('fs');
 var pathBase = "metadata/single/";
 
@@ -18,6 +19,11 @@ ubFileList.shift();
 
 //casper.echo(ubFileList);
 casper.options.viewportSize = { width: 485, height: 415 };
+
+
+casper.options.onWaitTimeout = function(){
+    casper.echo('Wait timeout exceeded, continuing operations...');
+};
 
 // Open dummy web site in order to call start()
 casper.start('https://google/ch');
@@ -41,6 +47,7 @@ while (ubFileList.length > 0) {
                 casper.page = require('webpage').create();
             });
             
+        
             
             casper.thenOpen(url, function() {
                 casper.echo('Opening UB chart '+ id + ' located at ' + url);

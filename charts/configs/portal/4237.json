@@ -218,7 +218,7 @@
       "fontSize": "1.1em",
       "fontWeight": "bold",
       "fill": "#000000",
-      "width": "385px"
+      "width": "375px"
     },
     "text": "Wassertemperatur Grundwasser",
     "align": "left",
@@ -230,7 +230,7 @@
       "color": "#000000",
       "fontSize": "0.9em",
       "fill": "#000000",
-      "width": "421px"
+      "width": "411px"
     },
     "text": "°C",
     "align": "left",
@@ -1093,7 +1093,7 @@
       "cursor": "default",
       "color": "#000000",
       "fontSize": "0.8em",
-      "width": "80%",
+      "width": "465px",
       "fill": "#000000"
     },
     "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt; Amt für Umweltschutz und Energie Basel-Landschaft"
@@ -1136,11 +1136,6 @@
         "includeInCSVExport": false,
         "type": "line",
         "color": "#FF8028"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#B375AB"
       }
     ],
     "xAxis": {
@@ -1434,41 +1429,6 @@
         14.7
       ],
       "_symbolIndex": 0
-    },
-    {
-      "includeInCSVExport": false,
-      "type": "line",
-      "showInNavigator": true,
-      "name": "Kanton Basel-Landschaft",
-      "color": "#B375AB",
-      "id": "BL1610_2",
-      "valueSuffix": "°C",
-      "data": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        12,
-        11.8,
-        11.7,
-        11.8,
-        12,
-        12.1,
-        11.9,
-        12,
-        12.2,
-        12.2
-      ],
-      "_symbolIndex": 1
     }
   ]
 }

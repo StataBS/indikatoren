@@ -218,7 +218,7 @@
       "fontSize": "1.1em",
       "fontWeight": "bold",
       "fill": "#000000",
-      "width": "385px"
+      "width": "375px"
     },
     "text": "Energiebezugsfläche mit Minergie-P® und A®-Standard",
     "align": "left",
@@ -230,7 +230,7 @@
       "color": "#000000",
       "fontSize": "0.9em",
       "fill": "#000000",
-      "width": "421px"
+      "width": "411px"
     },
     "text": "Quadratmeter (kumuliert)",
     "align": "left",
@@ -982,7 +982,7 @@
     "enabled": true,
     "align": "left",
     "layout": "horizontal",
-    "labelFormatter": function () { return this.name.replace(/(BS|BL|BS&BL|UBB|OBB|LT): /, '');},
+    "labelFormatter": function () {return this.name;},
     "borderColor": "#999999",
     "borderRadius": 0,
     "navigation": {
@@ -1093,7 +1093,7 @@
       "cursor": "default",
       "color": "#000000",
       "fontSize": "0.8em",
-      "width": "80%",
+      "width": "465px",
       "fill": "#000000"
     },
     "text": "Quelle: Verein Minergie®"
@@ -1135,22 +1135,12 @@
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#73B97C"
+        "color": "#FF8028"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#68AB2B"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#73B97C"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#68AB2B"
+        "color": "#DC440E"
       }
     ],
     "xAxis": {
@@ -1320,9 +1310,6 @@
   "xAxis": [
     {
       "categories": [
-        2004,
-        2005,
-        2006,
         2007,
         2008,
         2009,
@@ -1374,14 +1361,6 @@
 						  return this.axis.defaultLabelFormatter.call(this) + '';
 						}
       },
-      "stackLabels": {
-        "enabled": true,
-        "style": {
-          "fontSize": "0.8em",
-          "fontWeight": "normal"
-        },
-        "formatter": function () { return this.stack; }
-      },
       "index": 0
     },
     {
@@ -1415,13 +1394,10 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Minergie P",
-      "color": "#73B97C",
+      "color": "#FF8028",
       "id": "BS0609_1",
       "valueSuffix": "Quadratmeter (kumuliert)",
       "data": [
-        null,
-        null,
-        null,
         1379,
         1379,
         2547,
@@ -1441,13 +1417,10 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Minergie A",
-      "color": "#68AB2B",
+      "color": "#DC440E",
       "id": "BS0609_2",
       "valueSuffix": "Quadratmeter (kumuliert)",
       "data": [
-        null,
-        null,
-        null,
         0,
         0,
         0,
@@ -1458,60 +1431,6 @@
         0,
         0,
         775
-      ]
-    },
-    {
-      "includeInCSVExport": false,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0609_1",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Minergie P",
-      "color": "#73B97C",
-      "id": "BL0609_3",
-      "valueSuffix": "Quadratmeter (kumuliert)",
-      "data": [
-        3005,
-        5521,
-        5722,
-        6167,
-        6461,
-        7735,
-        13093,
-        16991,
-        25932,
-        36349,
-        48843,
-        82082,
-        99966
-      ]
-    },
-    {
-      "includeInCSVExport": false,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0609_2",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Minergie A",
-      "color": "#68AB2B",
-      "id": "BL0609_4",
-      "valueSuffix": "Quadratmeter (kumuliert)",
-      "data": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        221,
-        221,
-        548,
-        548,
-        548
       ]
     }
   ]

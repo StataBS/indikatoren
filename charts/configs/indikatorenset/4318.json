@@ -218,7 +218,7 @@
       "fontSize": "1.1em",
       "fontWeight": "bold",
       "fill": "#000000",
-      "width": "385px"
+      "width": "375px"
     },
     "text": "Bevölkerung",
     "align": "left",
@@ -230,7 +230,7 @@
       "color": "#000000",
       "fontSize": "0.9em",
       "fill": "#000000",
-      "width": "421px"
+      "width": "411px"
     },
     "text": "Anzahl Personen",
     "align": "left",
@@ -1093,7 +1093,7 @@
       "cursor": "default",
       "color": "#000000",
       "fontSize": "0.8em",
-      "width": "80%",
+      "width": "465px",
       "fill": "#000000"
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt; Statistisches Amt Basel-Landschaft"
@@ -1136,11 +1136,6 @@
         "includeInCSVExport": false,
         "type": "line",
         "color": "#FF8028"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#B375AB"
       }
     ],
     "xAxis": {
@@ -1480,64 +1475,6 @@
         197926
       ],
       "_symbolIndex": 0
-    },
-    {
-      "includeInCSVExport": false,
-      "type": "line",
-      "showInNavigator": true,
-      "name": "Kanton Basel-Landschaft",
-      "color": "#B375AB",
-      "id": "BL1702_2",
-      "valueSuffix": "Anzahl Personen",
-      "data": [
-        209907,
-        215692,
-        219389,
-        222448,
-        221832,
-        219766,
-        218671,
-        219197,
-        220201,
-        221490,
-        222969,
-        223848,
-        224849,
-        226137,
-        227733,
-        229220,
-        231289,
-        233196,
-        234242,
-        235708,
-        237147,
-        237870,
-        253211,
-        254156,
-        254950,
-        256160,
-        257371,
-        258768,
-        260681,
-        262206,
-        262832,
-        264219,
-        265833,
-        266989,
-        267694,
-        268640,
-        270047,
-        271980,
-        273791,
-        274943,
-        276202,
-        277357,
-        278612,
-        281280,
-        283545,
-        285765
-      ],
-      "_symbolIndex": 1
     }
   ]
 }

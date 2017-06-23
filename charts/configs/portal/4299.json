@@ -218,7 +218,7 @@
       "fontSize": "1.1em",
       "fontWeight": "bold",
       "fill": "#000000",
-      "width": "385px"
+      "width": "375px"
     },
     "text": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen",
     "align": "left",
@@ -230,7 +230,7 @@
       "color": "#000000",
       "fontSize": "0.9em",
       "fill": "#000000",
-      "width": "421px"
+      "width": "411px"
     },
     "text": "Tonnen",
     "align": "left",
@@ -1093,7 +1093,7 @@
       "cursor": "default",
       "color": "#000000",
       "fontSize": "0.8em",
-      "width": "80%",
+      "width": "465px",
       "fill": "#000000"
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt; Statistisches Amt Basel-Landschaft"
@@ -1141,16 +1141,6 @@
         "includeInCSVExport": false,
         "type": "line",
         "color": "#DC440E"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#B375AB"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#923F8D"
       }
     ],
     "xAxis": {
@@ -1320,12 +1310,6 @@
   "xAxis": [
     {
       "categories": [
-        1990,
-        1995,
-        2000,
-        2002,
-        2004,
-        2006,
         2010,
         2012,
         2014
@@ -1406,12 +1390,6 @@
       "id": "BS0808_1",
       "valueSuffix": "Tonnen",
       "data": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         890314.2,
         829829.8,
         747793.3
@@ -1426,61 +1404,12 @@
       "id": "BS0808_2",
       "valueSuffix": "Tonnen",
       "data": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         4.7,
         4.3,
         3.8
       ],
       "yAxis": 1,
       "_symbolIndex": 0
-    },
-    {
-      "includeInCSVExport": false,
-      "stacking": null,
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Tonnen",
-      "color": "#B375AB",
-      "id": "BL0808_3",
-      "valueSuffix": "Tonnen",
-      "data": [
-        1579031,
-        1591309,
-        1542221,
-        1569331,
-        1565690,
-        1535547,
-        1467525,
-        1328482,
-        1286831
-      ]
-    },
-    {
-      "includeInCSVExport": false,
-      "type": "line",
-      "showInNavigator": true,
-      "name": "BL: Tonnen pro Einwohner (rechte Skala)",
-      "color": "#923F8D",
-      "id": "BL0808_4",
-      "valueSuffix": "Tonnen",
-      "data": [
-        6.3,
-        6.2,
-        5.9,
-        5.9,
-        5.9,
-        5.7,
-        5.3,
-        4.8,
-        4.6
-      ],
-      "yAxis": 1,
-      "_symbolIndex": 1
     }
   ]
 }

@@ -1,1 +1,84 @@
-<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"><desc>Created with Highstock 5.0.7</desc><defs><clipPath id="highcharts-g9hc2f9-1"><rect x="0" y="0" width="537" height="239" fill="none"></rect></clipPath><clipPath id="highcharts-g9hc2f9-2"><rect x="0" y="0" width="537" height="239" fill="none"></rect></clipPath></defs><rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="600" height="400" rx="0" ry="0"></rect><rect fill="none" class="highcharts-plot-background" x="53" y="90" width="537" height="239"></rect><g class="highcharts-label" style="cursor:pointer;" transform="translate(10,436)"><text x="0" y="0"><tspan>&gt; Indikator-Details</tspan></text></g><g class="highcharts-grid highcharts-xaxis-grid "><path fill="none" class="highcharts-grid-line" d="M 589.5 90 L 589.5 329 M 589.5 90 L 589.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 52.5 90 L 52.5 329 M 52.5 90 L 52.5 329" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid "><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 329.5 L 590 329.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 269.5 L 590 269.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 210.5 L 590 210.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 150.5 L 590 150.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 89.5 L 590 89.5" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid "></g><rect fill="none" class="highcharts-plot-border" x="53" y="90" width="537" height="239"></rect><g class="highcharts-axis highcharts-xaxis "><path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" d="M 53 329.5 L 590 329.5"></path></g><g class="highcharts-axis highcharts-yaxis "><path fill="none" class="highcharts-axis-line" d="M 53 90 L 53 329"></path></g><g class="highcharts-axis highcharts-yaxis "><path fill="none" class="highcharts-axis-line" d="M 590 90 L 590 329"></path></g><g class="highcharts-series-group"><g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53,90) scale(1 1)" clip-path="url(#highcharts-g9hc2f9-2)"><rect x="124" y="97" width="129" height="143" fill="#FF8028" class="highcharts-point"></rect></g><g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(53,90) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(53,90) scale(1 1)" clip-path="url(#highcharts-g9hc2f9-2)"><path fill="none" d="M 268.5 0" class="highcharts-graph" stroke="#DC440E" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M 258.5 0 L 268.5 0 L 278.5 0" stroke-linejoin="round" visibility="visible" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"></path></g><g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined highcharts-tracker" transform="translate(53,90) scale(1 1)" clip-path="none"><path fill="#DC440E" d="M 273 0 A 5 5 0 1 1 272.99999750000023 -0.004999999166669603 Z" class="highcharts-point"></path></g><g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53,90) scale(1 1)" clip-path="url(#highcharts-g9hc2f9-2)"><rect x="285" y="77" width="129" height="163" fill="#B375AB" class="highcharts-point"></rect></g><g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(53,90) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined " transform="translate(53,90) scale(1 1)" clip-path="url(#highcharts-g9hc2f9-2)"><path fill="none" d="M 268.5 19.119999999999976" class="highcharts-graph" stroke="#923F8D" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M 258.5 19.119999999999976 L 268.5 19.119999999999976 L 278.5 19.119999999999976" stroke-linejoin="round" visibility="visible" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"></path></g><g class="highcharts-markers highcharts-series-3 highcharts-line-series highcharts-color-undefined highcharts-tracker" transform="translate(53,90) scale(1 1)" clip-path="none"><path fill="#923F8D" d="M 268 14 L 273 19 268 24 263 19 Z" class="highcharts-point"></path></g></g><text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:1.1em;font-weight:bold;fill:#000000;" y="20"><tspan>Ausbaugrad der Abwasserreinigungsanlagen</tspan></text><text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:0.9em;fill:#000000;" y="38"><tspan>Prozent</tspan></text><g class="highcharts-legend" transform="translate(10,40)"><rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="529" height="38" visibility="visible"></rect><g><g><g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(12,7)"><text x="21" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15"><tspan>BS: Ausbaugrad</tspan></text><rect x="2" y="4" width="12" height="12" fill="#FF8028" class="highcharts-point"></rect></g><g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(140.34375,7)"><path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#DC440E" stroke-width="2"></path><path fill="#DC440E" d="M 13 11 A 5 5 0 1 1 12.999997500000209 10.99500000083333 Z" class="highcharts-point"></path><text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start"><tspan>BS: Zielwert 2023</tspan></text></g><g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(275.96875,7)"><text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start"><tspan>BL: Ausbaugrad</tspan></text><rect x="2" y="4" width="12" height="12" fill="#B375AB" class="highcharts-point"></rect></g><g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3" transform="translate(402.984375,7)"><path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#923F8D" stroke-width="2"></path><path fill="#923F8D" d="M 8 6 L 13 11 8 16 3 11 Z" class="highcharts-point"></path><text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start"><tspan>BL: Zielwert 2036</tspan></text></g></g></g></g><g class="highcharts-axis-labels highcharts-xaxis-labels "><text x="321.5" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1"><tspan>2016</tspan></text></g><g class="highcharts-axis-labels highcharts-yaxis-labels "><text x="38" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="334" opacity="1"><tspan>0%</tspan></text><text x="38" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="274" opacity="1"><tspan>25%</tspan></text><text x="38" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="214" opacity="1"><tspan>50%</tspan></text><text x="38" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="154" opacity="1"><tspan>75%</tspan></text><text x="38" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="95" opacity="1"><tspan>100%</tspan></text></g><g class="highcharts-axis-labels highcharts-yaxis-labels "></g><text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:0.8em;fill:#000000;" y="373"><tspan>Quelle: ProRheno</tspan><tspan dy="12.600000000000001" x="10">AG; Amt für</tspan><tspan dy="12.600000000000001" x="10">Industrielle</tspan><tspan dy="12.600000000000001" x="10">Betriebe; ARA</tspan><tspan dy="12.600000000000001" x="10">Rhein; ARA</tspan><tspan dy="12.600000000000001" x="10">Zwingen</tspan><title>Quelle: ProRheno AG; Amt für Industrielle Betriebe; ARA Rhein; ARA Zwingen </title></text></svg>
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h537v239H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="600" height="400" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M53 90h537v239H53z"/>
+    <text transform="translate(10 436)" class="highcharts-label" cursor="pointer">
+        <tspan>&gt; Indikator-Details</tspan>
+    </text>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M589.5 90v239m0-239v239M52.5 90v239m0-239v239"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 329.5h537m-537-60h537m-537-59h537m-537-60h537m-537-61h537"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M53 90h537v239H53z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M53 329.5h537"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M53 90v239"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M590 90v239"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 90)" clip-path="url(#a)">
+            <path fill="#FF8028" class="highcharts-point" d="M140 97h258v143H140z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(53 90)" clip-path="url(#a)">
+            <path fill="none" d="M258.5 0h20" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#DC440E" d="M326 90a5 5 0 1 1 0-.005z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
+        <tspan>Ausbaugrad der Abwasserreinigungsanlagen</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
+        <tspan>Prozent</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(10 40)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="267" height="38"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
+                <tspan>BS: Ausbaugrad</tspan>
+            </text>
+            <path fill="#FF8028" class="highcharts-point" d="M14 11h12v12H14z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M140.344 18h16" class="highcharts-graph" stroke="#DC440E" stroke-width="2"/>
+            <path fill="#DC440E" d="M153.344 18a5 5 0 1 1 0-.005z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(140.344 7)">
+                <tspan>BS: Zielwert 2023</tspan>
+            </text>
+        </g>
+    </g>
+    <text x="321.5" text-anchor="middle" y="348" color="#000" cursor="default" font-size=".9em" class="highcharts-axis-labels highcharts-xaxis-labels">
+        <tspan>2016</tspan>
+    </text>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="38" y="334">
+            <tspan>0%</tspan>
+        </text>
+        <text x="38" y="274">
+            <tspan>25%</tspan>
+        </text>
+        <text x="38" y="214">
+            <tspan>50%</tspan>
+        </text>
+        <text x="38" y="154">
+            <tspan>75%</tspan>
+        </text>
+        <text x="38" y="95">
+            <tspan>100%</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="373" cursor="default" color="#000" font-size=".8em">
+        <tspan>Quelle: ProRheno AG; Amt für Industrielle Betriebe; ARA Rhein; ARA Zwingen</tspan>
+    </text>
+</svg>

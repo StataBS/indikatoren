@@ -218,7 +218,7 @@
       "fontSize": "1.1em",
       "fontWeight": "bold",
       "fill": "#000000",
-      "width": "385px"
+      "width": "375px"
     },
     "text": "Gewicht der Landwirtschaftsmaschinen",
     "align": "left",
@@ -230,7 +230,7 @@
       "color": "#000000",
       "fontSize": "0.9em",
       "fill": "#000000",
-      "width": "421px"
+      "width": "411px"
     },
     "text": "Anzahl Landwirtschaftsmaschinen (pro Gewichtsklasse)",
     "align": "left",
@@ -982,7 +982,7 @@
     "enabled": true,
     "align": "left",
     "layout": "horizontal",
-    "labelFormatter": function () { return this.name.replace(/(BS|BL|BS&BL|UBB|OBB|LT): /, '');},
+    "labelFormatter": function () {return this.name;},
     "borderColor": "#999999",
     "borderRadius": 0,
     "navigation": {
@@ -1093,7 +1093,7 @@
       "cursor": "default",
       "color": "#000000",
       "fontSize": "0.8em",
-      "width": "80%",
+      "width": "465px",
       "fill": "#000000"
     },
     "text": "Quelle: Bundesamt für Statistik"
@@ -1135,52 +1135,27 @@
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#73B97C"
+        "color": "#FF8028"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#68AB2B"
+        "color": "#DC440E"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#007A2F"
+        "color": "#B00000"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#0A3B19"
+        "color": "#661200"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#FFDA80"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#73B97C"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#68AB2B"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#007A2F"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#0A3B19"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#FFDA80"
+        "color": "#D3E2E4"
       }
     ],
     "xAxis": {
@@ -1418,14 +1393,6 @@
 						  return this.axis.defaultLabelFormatter.call(this) + '';
 						}
       },
-      "stackLabels": {
-        "enabled": true,
-        "style": {
-          "fontSize": "0.8em",
-          "fontWeight": "normal"
-        },
-        "formatter": function () { return this.stack; }
-      },
       "index": 0
     },
     {
@@ -1459,7 +1426,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Bis 1,5 Tonnen",
-      "color": "#73B97C",
+      "color": "#FF8028",
       "id": "BS0505_1",
       "valueSuffix": "Anzahl Landwirtschaftsmaschinen (pro Gewichtsklasse)",
       "data": [
@@ -1499,7 +1466,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: 1,5 bis 2,5 Tonnen",
-      "color": "#68AB2B",
+      "color": "#DC440E",
       "id": "BS0505_2",
       "valueSuffix": "Anzahl Landwirtschaftsmaschinen (pro Gewichtsklasse)",
       "data": [
@@ -1539,7 +1506,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: 2,5 bis 5 Tonnen",
-      "color": "#007A2F",
+      "color": "#B00000",
       "id": "BS0505_3",
       "valueSuffix": "Anzahl Landwirtschaftsmaschinen (pro Gewichtsklasse)",
       "data": [
@@ -1579,7 +1546,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: 5 bis 10 Tonnen",
-      "color": "#0A3B19",
+      "color": "#661200",
       "id": "BS0505_4",
       "valueSuffix": "Anzahl Landwirtschaftsmaschinen (pro Gewichtsklasse)",
       "data": [
@@ -1619,7 +1586,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Mehr als 10 Tonnen",
-      "color": "#FFDA80",
+      "color": "#D3E2E4",
       "id": "BS0505_5",
       "valueSuffix": "Anzahl Landwirtschaftsmaschinen (pro Gewichtsklasse)",
       "data": [
@@ -1650,211 +1617,6 @@
         6,
         6,
         6
-      ]
-    },
-    {
-      "includeInCSVExport": false,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0505_1",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Bis 1,5 Tonnen",
-      "color": "#73B97C",
-      "id": "BL0505_6",
-      "valueSuffix": "Anzahl Landwirtschaftsmaschinen (pro Gewichtsklasse)",
-      "data": [
-        737,
-        749,
-        752,
-        769,
-        897,
-        853,
-        818,
-        817,
-        788,
-        731,
-        662,
-        644,
-        623,
-        610,
-        595,
-        598,
-        555,
-        539,
-        541,
-        533,
-        530,
-        532,
-        533,
-        515,
-        500,
-        486,
-        484
-      ]
-    },
-    {
-      "includeInCSVExport": false,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0505_2",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: 1,5 bis 2,5 Tonnen",
-      "color": "#68AB2B",
-      "id": "BL0505_7",
-      "valueSuffix": "Anzahl Landwirtschaftsmaschinen (pro Gewichtsklasse)",
-      "data": [
-        1309,
-        1300,
-        1275,
-        1282,
-        1479,
-        1449,
-        1438,
-        1429,
-        1408,
-        1383,
-        1307,
-        1270,
-        1235,
-        1184,
-        1160,
-        1127,
-        1162,
-        1139,
-        1128,
-        1113,
-        1089,
-        1079,
-        1066,
-        1017,
-        976,
-        941,
-        928
-      ]
-    },
-    {
-      "includeInCSVExport": false,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0505_3",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: 2,5 bis 5 Tonnen",
-      "color": "#007A2F",
-      "id": "BL0505_8",
-      "valueSuffix": "Anzahl Landwirtschaftsmaschinen (pro Gewichtsklasse)",
-      "data": [
-        851,
-        890,
-        919,
-        959,
-        1134,
-        1180,
-        1187,
-        1221,
-        1230,
-        1258,
-        1291,
-        1315,
-        1316,
-        1339,
-        1347,
-        1333,
-        1368,
-        1365,
-        1403,
-        1406,
-        1385,
-        1383,
-        1391,
-        1388,
-        1388,
-        1371,
-        1373
-      ]
-    },
-    {
-      "includeInCSVExport": false,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0505_4",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: 5 bis 10 Tonnen",
-      "color": "#0A3B19",
-      "id": "BL0505_9",
-      "valueSuffix": "Anzahl Landwirtschaftsmaschinen (pro Gewichtsklasse)",
-      "data": [
-        42,
-        49,
-        52,
-        55,
-        83,
-        93,
-        107,
-        112,
-        143,
-        179,
-        229,
-        292,
-        341,
-        359,
-        404,
-        441,
-        511,
-        535,
-        576,
-        620,
-        668,
-        717,
-        771,
-        813,
-        872,
-        925,
-        961
-      ]
-    },
-    {
-      "includeInCSVExport": false,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0505_5",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Mehr als 10 Tonnen",
-      "color": "#FFDA80",
-      "id": "BL0505_10",
-      "valueSuffix": "Anzahl Landwirtschaftsmaschinen (pro Gewichtsklasse)",
-      "data": [
-        8,
-        9,
-        8,
-        8,
-        8,
-        10,
-        11,
-        11,
-        13,
-        14,
-        14,
-        25,
-        24,
-        32,
-        36,
-        38,
-        43,
-        56,
-        62,
-        72,
-        80,
-        93,
-        103,
-        110,
-        117,
-        126,
-        142
       ]
     }
   ]

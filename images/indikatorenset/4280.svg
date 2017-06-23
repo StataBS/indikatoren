@@ -1,1 +1,79 @@
-<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"><desc>Created with Highstock 5.0.7</desc><defs><clipPath id="highcharts-48cectz-1"><rect x="0" y="0" width="547" height="239" fill="none"></rect></clipPath><clipPath id="highcharts-48cectz-2"><rect x="0" y="0" width="547" height="239" fill="none"></rect></clipPath></defs><rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="600" height="400" rx="0" ry="0"></rect><rect fill="none" class="highcharts-plot-background" x="43" y="90" width="547" height="239"></rect><g class="highcharts-label" style="cursor:pointer;" transform="translate(10,436)"><text x="0" y="0"><tspan>&gt; Indikator-Details</tspan></text></g><g class="highcharts-grid highcharts-xaxis-grid "><path fill="none" class="highcharts-grid-line" d="M 224.5 90 L 224.5 329 M 224.5 90 L 224.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 407.5 90 L 407.5 329 M 407.5 90 L 407.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 589.5 90 L 589.5 329 M 589.5 90 L 589.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 42.5 90 L 42.5 329 M 42.5 90 L 42.5 329" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid "><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 43 329.5 L 590 329.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 43 269.5 L 590 269.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 43 210.5 L 590 210.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 43 150.5 L 590 150.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 43 89.5 L 590 89.5" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid "></g><rect fill="none" class="highcharts-plot-border" x="43" y="90" width="547" height="239"></rect><g class="highcharts-axis highcharts-xaxis "><path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" d="M 43 329.5 L 590 329.5"></path></g><g class="highcharts-axis highcharts-yaxis "><path fill="none" class="highcharts-axis-line" d="M 43 90 L 43 329"></path></g><g class="highcharts-axis highcharts-yaxis "><path fill="none" class="highcharts-axis-line" d="M 590 90 L 590 329"></path></g><g class="highcharts-series-group"><g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43,90) scale(1 1)" clip-path="url(#highcharts-48cectz-2)"><rect x="42" y="57" width="44" height="183" fill="#FF8028" class="highcharts-point"></rect><rect x="224" y="88" width="44" height="152" fill="#FF8028" class="highcharts-point"></rect><rect x="407" y="112" width="44" height="128" fill="#FF8028" class="highcharts-point"></rect></g><g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(43,90) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43,90) scale(1 1)" clip-path="url(#highcharts-48cectz-2)"><rect x="97" y="17" width="44" height="223" fill="#B375AB" class="highcharts-point"></rect><rect x="279" y="48" width="44" height="192" fill="#B375AB" class="highcharts-point"></rect><rect x="461" y="79" width="44" height="161" fill="#B375AB" class="highcharts-point"></rect></g><g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(43,90) scale(1 1)" clip-path="none"></g></g><text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:1.1em;font-weight:bold;fill:#000000;" y="20"><tspan>Gesundheitskosten der Luftverschmutzung</tspan></text><text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:0.9em;fill:#000000;" y="38"><tspan>Millionen CHF</tspan></text><g class="highcharts-legend" transform="translate(10,40)"><rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="323" height="38" visibility="visible"></rect><g><g><g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(12,7)"><text x="21" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15"><tspan>Kanton Basel-Stadt</tspan></text><rect x="2" y="4" width="12" height="12" fill="#FF8028" class="highcharts-point"></rect></g><g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(156.328125,7)"><text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start"><tspan>Kanton Basel-Landschaft</tspan></text><rect x="2" y="4" width="12" height="12" fill="#B375AB" class="highcharts-point"></rect></g></g></g></g><g class="highcharts-axis-labels highcharts-xaxis-labels "><text x="134.16666666666669" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1"><tspan>2005</tspan></text><text x="316.5" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1"><tspan>2010</tspan></text><text x="498.8333333333333" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1"><tspan>2015</tspan></text></g><g class="highcharts-axis-labels highcharts-yaxis-labels "><text x="28" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="334" opacity="1"><tspan>0</tspan></text><text x="28" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="274" opacity="1"><tspan>50</tspan></text><text x="28" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="214" opacity="1"><tspan>100</tspan></text><text x="28" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="154" opacity="1"><tspan>150</tspan></text><text x="28" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="95" opacity="1"><tspan>200</tspan></text></g><g class="highcharts-axis-labels highcharts-yaxis-labels "></g><text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:0.8em;fill:#000000;" y="373"><tspan>Quelle:</tspan><tspan dy="12.600000000000001" x="10">Lufthygieneamt</tspan><tspan dy="12.600000000000001" x="10">beider Basel</tspan><title>Quelle: Lufthygieneamt beider Basel</title></text></svg>
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h547v239H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="600" height="400" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M43 90h547v239H43z"/>
+    <text transform="translate(10 436)" class="highcharts-label" cursor="pointer">
+        <tspan>&gt; Indikator-Details</tspan>
+    </text>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M224.5 90v239m0-239v239m183-239v239m0-239v239m182-239v239m0-239v239M42.5 90v239m0-239v239"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 329.5h547m-547-60h547m-547-59h547m-547-60h547m-547-61h547"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M43 90h547v239H43z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M43 329.5h547"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M43 90v239"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M590 90v239"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 90)" clip-path="url(#a)">
+            <path fill="#FF8028" class="highcharts-point" d="M47 57h88v183H47zm183 31h88v152h-88zm182 24h88v128h-88z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
+        <tspan>Gesundheitskosten der Luftverschmutzung</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
+        <tspan>Millionen CHF</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(10 40)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="148" height="38"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
+                <tspan>Kanton Basel-Stadt</tspan>
+            </text>
+            <path fill="#FF8028" class="highcharts-point" d="M14 11h12v12H14z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
+        <text x="134.167" y="348">
+            <tspan>2005</tspan>
+        </text>
+        <text x="316.5" y="348">
+            <tspan>2010</tspan>
+        </text>
+        <text x="498.833" y="348">
+            <tspan>2015</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="28" y="334">
+            <tspan>0</tspan>
+        </text>
+        <text x="28" y="274">
+            <tspan>50</tspan>
+        </text>
+        <text x="28" y="214">
+            <tspan>100</tspan>
+        </text>
+        <text x="28" y="154">
+            <tspan>150</tspan>
+        </text>
+        <text x="28" y="95">
+            <tspan>200</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="373" cursor="default" color="#000" font-size=".8em">
+        <tspan>Quelle: Lufthygieneamt beider Basel</tspan>
+    </text>
+</svg>

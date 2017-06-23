@@ -218,7 +218,7 @@
       "fontSize": "1.1em",
       "fontWeight": "bold",
       "fill": "#000000",
-      "width": "385px"
+      "width": "375px"
     },
     "text": "Beanstandungen bei Inspektionen",
     "align": "left",
@@ -230,7 +230,7 @@
       "color": "#000000",
       "fontSize": "0.9em",
       "fill": "#000000",
-      "width": "421px"
+      "width": "411px"
     },
     "text": "Anzahl Fälle",
     "align": "left",
@@ -1093,7 +1093,7 @@
       "cursor": "default",
       "color": "#000000",
       "fontSize": "0.8em",
-      "width": "80%",
+      "width": "465px",
       "fill": "#000000"
     },
     "text": "Quelle: Kantonales Laboratorium Basel-Stadt; Sicherheitsinspektorat Basel-Landschaft"
@@ -1132,16 +1132,6 @@
     "outlineColor": "#cccccc",
     "outlineWidth": 1,
     "series": [
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#B375AB"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#923F8D"
-      },
       {
         "includeInCSVExport": false,
         "type": "column",
@@ -1391,38 +1381,6 @@
     }
   ],
   "series": [
-    {
-      "includeInCSVExport": false,
-      "stacking": null,
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Anzahl Inspektionen",
-      "color": "#B375AB",
-      "id": "BL0404_1",
-      "valueSuffix": "Anzahl Fälle",
-      "data": [
-        3,
-        4,
-        10,
-        4
-      ]
-    },
-    {
-      "includeInCSVExport": false,
-      "stacking": null,
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Anzahl Beanstandungen",
-      "color": "#923F8D",
-      "id": "BL0404_2",
-      "valueSuffix": "Anzahl Fälle",
-      "data": [
-        18,
-        26,
-        33,
-        9
-      ]
-    },
     {
       "includeInCSVExport": false,
       "stacking": null,

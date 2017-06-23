@@ -1,1 +1,91 @@
-<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415"><desc>Created with Highstock 5.0.7</desc><defs><clipPath id="highcharts-td4xv56-1"><rect x="0" y="0" width="438" height="308" fill="none"></rect></clipPath><clipPath id="highcharts-td4xv56-2"><rect x="0" y="0" width="438" height="308" fill="none"></rect></clipPath></defs><rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="485" height="415" rx="0" ry="0"></rect><rect fill="none" class="highcharts-plot-background" x="37" y="41" width="438" height="308"></rect><g class="highcharts-grid highcharts-xaxis-grid "><path fill="none" class="highcharts-grid-line" d="M 40.5 41 L 40.5 349" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 102.5 41 L 102.5 349" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 163.5 41 L 163.5 349" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 224.5 41 L 224.5 349" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 286.5 41 L 286.5 349" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 347.5 41 L 347.5 349" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 408.5 41 L 408.5 349" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 470.5 41 L 470.5 349" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid "><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 37 349.5 L 475 349.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 37 287.5 L 475 287.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 37 226.5 L 475 226.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 37 164.5 L 475 164.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 37 103.5 L 475 103.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 37 40.5 L 475 40.5" opacity="1"></path></g><rect fill="none" class="highcharts-plot-border" x="37" y="41" width="438" height="308"></rect><g class="highcharts-axis highcharts-xaxis "><path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" d="M 37 349.5 L 475 349.5"></path></g><g class="highcharts-axis highcharts-yaxis "><path fill="none" class="highcharts-axis-line" d="M 37 41 L 37 349"></path></g><g class="highcharts-series-group"><g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,41) scale(1 1)" clip-path="url(#highcharts-td4xv56-2)"><path fill="none" d="M 4.2941176470577 86.24000000000001 L 126.98319327731 67.14399999999998 L 249.67226890756 54.823999999999984 L 372.36134453782 48.66399999999999 L 384.63025210084 49.27999999999997 L 396.89915966387 49.27999999999997 L 409.16806722689 49.27999999999997 L 421.43697478992 51.127999999999986 L 433.70588235294 52.359999999999985" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M -5.7058823529423 86.24000000000001 L 4.2941176470577 86.24000000000001 L 126.98319327731 67.14399999999998 L 249.67226890756 54.823999999999984 L 372.36134453782 48.66399999999999 L 384.63025210084 49.27999999999997 L 396.89915966387 49.27999999999997 L 409.16806722689 49.27999999999997 L 421.43697478992 51.127999999999986 L 433.70588235294 52.359999999999985 L 443.70588235294 52.359999999999985" stroke-linejoin="round" visibility="visible" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"></path></g><g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker" transform="translate(37,41) scale(1 1)" clip-path="none"><path fill="#008AC3" d="M 8 86 A 4 4 0 1 1 7.999998000000167 85.99600000066667 Z" class="highcharts-point"></path><path fill="#008AC3" d="M 130 67 A 4 4 0 1 1 129.99999800000018 66.99600000066667 Z" class="highcharts-point"></path><path fill="#008AC3" d="M 253 55 A 4 4 0 1 1 252.99999800000018 54.99600000066666 Z" class="highcharts-point"></path><path fill="#008AC3" d="M 376 49 A 4 4 0 1 1 375.9999980000002 48.99600000066666 Z" class="highcharts-point"></path><path fill="#008AC3" d="M 388 49 A 4 4 0 1 1 387.9999980000002 48.99600000066666 Z" class="highcharts-point"></path><path fill="#008AC3" d="M 400 49 A 4 4 0 1 1 399.9999980000002 48.99600000066666 Z" class="highcharts-point"></path><path fill="#008AC3" d="M 413 49 A 4 4 0 1 1 412.9999980000002 48.99600000066666 Z" class="highcharts-point"></path><path fill="#008AC3" d="M 425 51 A 4 4 0 1 1 424.9999980000002 50.99600000066666 Z" class="highcharts-point"></path><path fill="#008AC3" d="M 437 52 A 4 4 0 1 1 436.9999980000002 51.99600000066666 Z" class="highcharts-point"></path></g></g><text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21"><tspan>Wohnfläche pro Person</tspan></text><g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,41) scale(1 1)" opacity="1"><g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-5,63)"><text x="5" style="font-size:11px;font-weight:bold;color:#000000;text-outline:1px contrast;fill:#000000;" y="16"><tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">36</tspan><tspan x="5" y="16">36</tspan></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(122,57)"><text x="5" style="font-size:11px;font-weight:bold;color:#000000;text-outline:1px contrast;fill:#000000;" y="16"></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(245,45)"><text x="5" style="font-size:11px;font-weight:bold;color:#000000;text-outline:1px contrast;fill:#000000;" y="16"></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(367,39)"><text x="5" style="font-size:11px;font-weight:bold;color:#000000;text-outline:1px contrast;fill:#000000;" y="16"></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(380,39)"><text x="5" style="font-size:11px;font-weight:bold;color:#000000;text-outline:1px contrast;fill:#000000;" y="16"></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(392,39)"><text x="5" style="font-size:11px;font-weight:bold;color:#000000;text-outline:1px contrast;fill:#000000;" y="16"></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(404,39)"><text x="5" style="font-size:11px;font-weight:bold;color:#000000;text-outline:1px contrast;fill:#000000;" y="16"></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(416,41)"><text x="5" style="font-size:11px;font-weight:bold;color:#000000;text-outline:1px contrast;fill:#000000;" y="16"></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(420,29)"><text x="5" style="font-size:11px;font-weight:bold;color:#000000;text-outline:1px contrast;fill:#000000;" y="16"><tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">42</tspan><tspan x="5" y="16">42</tspan></text></g></g><g class="highcharts-axis-labels highcharts-xaxis-labels "><text x="41.29411764705773" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">1980</text><text x="102.63865546218409" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">1985</text><text x="163.98319327731048" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">1990</text><text x="225.32773109243684" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">1995</text><text x="286.6722689075632" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">2000</text><text x="348.0168067226896" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">2005</text><text x="409.3613445378159" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">2010</text><text x="462.78125" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">2015</text></g><g class="highcharts-axis-labels highcharts-yaxis-labels "><text x="22" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="354" opacity="1"><tspan>0</tspan></text><text x="22" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="292" opacity="1"><tspan>10</tspan></text><text x="22" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="230" opacity="1"><tspan>20</tspan></text><text x="22" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="169" opacity="1"><tspan>30</tspan></text><text x="22" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="107" opacity="1"><tspan>40</tspan></text><text x="22" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="46" opacity="1"><tspan>50</tspan></text></g><text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400"><tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik</tspan></text></svg>
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h438v308H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M37 41h438v308H37z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M40.5 41v308m62-308v308m61-308v308m61-308v308m62-308v308m61-308v308m61-308v308m62-308v308"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M37 349.5h438m-438-62h438m-438-61h438m-438-62h438m-438-61h438m-438-63h438"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M37 41h438v308H37z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M37 349.5h438"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M37 41v308"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(37 41)" clip-path="url(#a)">
+            <path fill="none" d="M4.294 86.24l122.69-19.096 122.688-12.32 122.69-6.16 12.268.616h24.538l12.269 1.848 12.269 1.232" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.706 86.24h10l122.69-19.096 122.688-12.32 122.69-6.16 12.268.616h24.538l12.269 1.848 12.269 1.232h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#008AC3" d="M45 127a4 4 0 1 1 0-.004zm122-19a4 4 0 1 1 0-.004zm123-12a4 4 0 1 1 0-.004zm123-6a4 4 0 1 1 0-.004zm12 0a4 4 0 1 1 0-.004zm12 0a4 4 0 1 1 0-.004zm13 0a4 4 0 1 1 0-.004zm12 2a4 4 0 1 1 0-.004zm12 1a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>Wohnfläche pro Person</tspan>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(32 104)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">36</tspan><tspan x="5" y="16">36</tspan>
+        </text>
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(457 70)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">42</tspan><tspan x="5" y="16">42</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="41.294" y="368">
+            1980
+        </text>
+        <text x="102.639" y="368">
+            1985
+        </text>
+        <text x="163.983" y="368">
+            1990
+        </text>
+        <text x="225.328" y="368">
+            1995
+        </text>
+        <text x="286.672" y="368">
+            2000
+        </text>
+        <text x="348.017" y="368">
+            2005
+        </text>
+        <text x="409.361" y="368">
+            2010
+        </text>
+        <text x="462.781" y="368">
+            2015
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="22" y="354">
+            <tspan>0</tspan>
+        </text>
+        <text x="22" y="292">
+            <tspan>10</tspan>
+        </text>
+        <text x="22" y="230">
+            <tspan>20</tspan>
+        </text>
+        <text x="22" y="169">
+            <tspan>30</tspan>
+        </text>
+        <text x="22" y="107">
+            <tspan>40</tspan>
+        </text>
+        <text x="22" y="46">
+            <tspan>50</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik</tspan>
+    </text>
+</svg>

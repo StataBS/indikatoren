@@ -1,1 +1,99 @@
-<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"><desc>Created with Highstock 5.0.7</desc><defs><clipPath id="highcharts-pjvsunr-1"><rect x="0" y="0" width="547" height="220" fill="none"></rect></clipPath><clipPath id="highcharts-pjvsunr-2"><rect x="0" y="0" width="547" height="220" fill="none"></rect></clipPath></defs><rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="600" height="400" rx="0" ry="0"></rect><rect fill="none" class="highcharts-plot-background" x="43" y="109" width="547" height="220"></rect><g class="highcharts-label" style="cursor:pointer;" transform="translate(10,436)"><text x="0" y="0"><tspan>&gt; Indikator-Details</tspan></text></g><g class="highcharts-grid highcharts-xaxis-grid "><path fill="none" class="highcharts-grid-line" d="M 103.5 109 L 103.5 329 M 103.5 109 L 103.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 164.5 109 L 164.5 329 M 164.5 109 L 164.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 224.5 109 L 224.5 329 M 224.5 109 L 224.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 285.5 109 L 285.5 329 M 285.5 109 L 285.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 346.5 109 L 346.5 329 M 346.5 109 L 346.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 407.5 109 L 407.5 329 M 407.5 109 L 407.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 467.5 109 L 467.5 329 M 467.5 109 L 467.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 528.5 109 L 528.5 329 M 528.5 109 L 528.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 589.5 109 L 589.5 329 M 589.5 109 L 589.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 42.5 109 L 42.5 329 M 42.5 109 L 42.5 329" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid "><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 43 329.5 L 590 329.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 43 274.5 L 590 274.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 43 219.5 L 590 219.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 43 164.5 L 590 164.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 43 109.5 L 590 109.5" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid "></g><rect fill="none" class="highcharts-plot-border" x="43" y="109" width="547" height="220"></rect><g class="highcharts-axis highcharts-xaxis "><path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" d="M 43 329.5 L 590 329.5"></path></g><g class="highcharts-axis highcharts-yaxis "><path fill="none" class="highcharts-axis-line" d="M 43 109 L 43 329"></path></g><g class="highcharts-axis highcharts-yaxis "><path fill="none" class="highcharts-axis-line" d="M 590 109 L 590 329"></path></g><g class="highcharts-series-group"><g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(43,109) scale(1 1)" clip-path="url(#highcharts-pjvsunr-2)"><path fill="none" d="M 91.166666666667 165 L 151.94444444444 151.35999999999999 L 273.5 123.74999999999999 L 395.05555555556 71.71999999999997 L 455.83333333333 49.28 L 516.61111111111 28.379999999999995" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M 81.166666666667 165 L 91.166666666667 165 L 151.94444444444 151.35999999999999 L 273.5 123.74999999999999 L 395.05555555556 71.71999999999997 L 455.83333333333 49.28 L 516.61111111111 28.379999999999995 L 526.61111111111 28.379999999999995" stroke-linejoin="round" visibility="visible" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"></path></g><g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker" transform="translate(43,109) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(43,109) scale(1 1)" clip-path="url(#highcharts-pjvsunr-2)"><path fill="none" d="M 91.166666666667 165 L 151.94444444444 161.15 L 273.5 161.26 L 395.05555555556 174.24 L 455.83333333333 181.60999999999999 L 516.61111111111 191.29" class="highcharts-graph" stroke="#DC440E" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M 81.166666666667 165 L 91.166666666667 165 L 151.94444444444 161.15 L 273.5 161.26 L 395.05555555556 174.24 L 455.83333333333 181.60999999999999 L 516.61111111111 191.29 L 526.61111111111 191.29" stroke-linejoin="round" visibility="visible" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"></path></g><g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined highcharts-tracker" transform="translate(43,109) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(43,109) scale(1 1)" clip-path="url(#highcharts-pjvsunr-2)"><path fill="none" d="M 30.388888888889 172.7 L 91.166666666667 165 L 151.94444444444 152.68 L 212.72222222222 144.76 L 273.5 137.27999999999997 L 334.27777777778 125.61999999999998 L 395.05555555556 103.39999999999999 L 455.83333333333 93.49999999999999 L 516.61111111111 80.63" class="highcharts-graph" stroke="#B375AB" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M 20.388888888889 172.7 L 30.388888888889 172.7 L 91.166666666667 165 L 151.94444444444 152.68 L 212.72222222222 144.76 L 273.5 137.27999999999997 L 334.27777777778 125.61999999999998 L 395.05555555556 103.39999999999999 L 455.83333333333 93.49999999999999 L 516.61111111111 80.63 L 526.61111111111 80.63" stroke-linejoin="round" visibility="visible" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"></path></g><g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined highcharts-tracker" transform="translate(43,109) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined " transform="translate(43,109) scale(1 1)" clip-path="url(#highcharts-pjvsunr-2)"><path fill="none" d="M 30.388888888889 168.19 L 91.166666666667 165 L 151.94444444444 165.99 L 212.72222222222 166.54 L 273.5 167.42000000000002 L 334.27777777778 166.1 L 395.05555555556 169.73 L 455.83333333333 176.55 L 516.61111111111 180.51" class="highcharts-graph" stroke="#923F8D" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M 20.388888888889 168.19 L 30.388888888889 168.19 L 91.166666666667 165 L 151.94444444444 165.99 L 212.72222222222 166.54 L 273.5 167.42000000000002 L 334.27777777778 166.1 L 395.05555555556 169.73 L 455.83333333333 176.55 L 516.61111111111 180.51 L 526.61111111111 180.51" stroke-linejoin="round" visibility="visible" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"></path></g><g class="highcharts-markers highcharts-series-3 highcharts-line-series highcharts-color-undefined highcharts-tracker" transform="translate(43,109) scale(1 1)" clip-path="none"></g></g><text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:1.1em;font-weight:bold;fill:#000000;" y="20"><tspan>Energieeffizienz</tspan></text><text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:0.9em;fill:#000000;" y="38"><tspan>Indexwert (Basis 1995 = 100)</tspan></text><g class="highcharts-legend" transform="translate(10,40)"><rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="551" height="57" visibility="visible"></rect><g><g><g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0" transform="translate(12,7)"><path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#FF8028" stroke-width="2"></path><text x="21" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15"><tspan>BS: Energieeffizienz (BIP/Bruttoenergieverbrauch)</tspan></text></g><g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(320.234375,7)"><path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#DC440E" stroke-width="2"></path><text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start"><tspan>BS: Energieverbrauch pro Einwohner</tspan></text></g><g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2" transform="translate(12,26)"><path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#B375AB" stroke-width="2"></path><text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start"><tspan>BL: Energieeffizienz (BIP/Bruttoenergieverbrauch)</tspan></text></g><g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3" transform="translate(318.90625,26)"><path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#923F8D" stroke-width="2"></path><text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start"><tspan>BL: Energieverbrauch pro Einwohner</tspan></text></g></g></g></g><g class="highcharts-axis-labels highcharts-xaxis-labels "><text x="73.38888888888889" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1">1990</text><text x="134.16666666666666" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1">1995</text><text x="194.94444444444446" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1">2000</text><text x="255.7222222222222" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1">2002</text><text x="316.5" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1">2004</text><text x="377.27777777777777" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1">2006</text><text x="438.05555555555554" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1">2010</text><text x="498.83333333333326" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1">2012</text><text x="559.6111111111111" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1">2014</text></g><g class="highcharts-axis-labels highcharts-yaxis-labels "><text x="28" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="337" opacity="1"><tspan>50</tspan></text><text x="28" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="282" opacity="1"><tspan>100</tspan></text><text x="28" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="227" opacity="1"><tspan>150</tspan></text><text x="28" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="172" opacity="1"><tspan>200</tspan></text><text x="28" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="116" opacity="1"><tspan>250</tspan></text></g><g class="highcharts-axis-labels highcharts-yaxis-labels "></g><text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:0.8em;fill:#000000;" y="373"><tspan>Quelle:</tspan><tspan dy="12.600000000000001" x="10">Statistisches Amt</tspan><tspan dy="12.600000000000001" x="10">Basel-Stadt;</tspan><tspan dy="12.600000000000001" x="10">Statistisches Amt</tspan><tspan dy="12.600000000000001" x="10">Basel-Landschaft,</tspan><tspan dy="12.600000000000001" x="10">BAK Basel</tspan><title>Quelle: Statistisches Amt Basel-Stadt; Statistisches Amt Basel-Landschaft, BAK Basel</title></text></svg>
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h547v239H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="600" height="400" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M43 90h547v239H43z"/>
+    <text transform="translate(10 436)" class="highcharts-label" cursor="pointer">
+        <tspan>&gt; Indikator-Details</tspan>
+    </text>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M133.5 90v239m0-239v239m91-239v239m0-239v239m92-239v239m0-239v239m91-239v239m0-239v239m91-239v239m0-239v239m91-239v239m0-239v239M42.5 90v239m0-239v239"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 329.5h547m-547-60h547m-547-59h547m-547-60h547m-547-61h547"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M43 90h547v239H43z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M43 329.5h547"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M43 90v239"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M590 90v239"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(43 90)" clip-path="url(#a)">
+            <path fill="none" d="M45.583 179.25l91.167-14.818 91.167-29.994 91.166-56.524 91.167-24.378 91.167-22.705" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M35.583 179.25h10l91.167-14.818 91.167-29.994 91.166-56.524 91.167-24.378 91.167-22.705h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(43 90)" clip-path="url(#a)">
+            <path fill="none" d="M45.583 179.25l91.167-4.183 91.167.12 91.166 14.101 91.167 8.006 91.167 10.516" class="highcharts-graph" stroke="#DC440E" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M35.583 179.25h10l91.167-4.183 91.167.12 91.166 14.101 91.167 8.006 91.167 10.516h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
+        <tspan>Energieeffizienz</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
+        <tspan>Indexwert (Basis 1995 = 100)</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(10 40)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="551" height="38"/>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
+            <path fill="none" d="M12 18h16" class="highcharts-graph" stroke="#FF8028" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
+                <tspan>BS: Energieeffizienz (BIP/Bruttoenergieverbrauch)</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M320.234 18h16" class="highcharts-graph" stroke="#DC440E" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(320.234 7)">
+                <tspan>BS: Energieverbrauch pro Einwohner</tspan>
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
+        <text x="88.583" y="348">
+            <tspan>1995</tspan>
+        </text>
+        <text x="179.75" y="348">
+            <tspan>2000</tspan>
+        </text>
+        <text x="270.917" y="348">
+            <tspan>2004</tspan>
+        </text>
+        <text x="362.083" y="348">
+            <tspan>2010</tspan>
+        </text>
+        <text x="453.25" y="348">
+            <tspan>2012</tspan>
+        </text>
+        <text x="544.417" y="348">
+            <tspan>2014</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="28" y="337">
+            <tspan>50</tspan>
+        </text>
+        <text x="28" y="277">
+            <tspan>100</tspan>
+        </text>
+        <text x="28" y="217">
+            <tspan>150</tspan>
+        </text>
+        <text x="28" y="157">
+            <tspan>200</tspan>
+        </text>
+        <text x="28" y="98">
+            <tspan>250</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="373" cursor="default" color="#000" font-size=".8em">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt; Statistisches Amt Basel-Landschaft, BAK Basel</tspan>
+    </text>
+</svg>

@@ -218,7 +218,7 @@
       "fontSize": "1.1em",
       "fontWeight": "bold",
       "fill": "#000000",
-      "width": "385px"
+      "width": "375px"
     },
     "text": "Landschaftszerschneidung",
     "align": "left",
@@ -230,7 +230,7 @@
       "color": "#000000",
       "fontSize": "0.9em",
       "fill": "#000000",
-      "width": "421px"
+      "width": "411px"
     },
     "text": "Quadratkilometer (Effektive Maschenweite)",
     "align": "left",
@@ -1093,7 +1093,7 @@
       "cursor": "default",
       "color": "#000000",
       "fontSize": "0.8em",
-      "width": "80%",
+      "width": "465px",
       "fill": "#000000"
     },
     "text": "Quelle: Bundesamt für Statistik"
@@ -1136,11 +1136,6 @@
         "includeInCSVExport": false,
         "type": "column",
         "color": "#FF8028"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#B375AB"
       }
     ],
     "xAxis": {
@@ -1397,23 +1392,6 @@
         0.7,
         0.55,
         0.54
-      ]
-    },
-    {
-      "includeInCSVExport": false,
-      "stacking": null,
-      "type": "column",
-      "showInNavigator": true,
-      "name": "Kanton Basel-Landschaft",
-      "color": "#B375AB",
-      "id": "BL0303_2",
-      "valueSuffix": "Quadratkilometer (Effektive Maschenweite)",
-      "data": [
-        40.5,
-        19.5,
-        17,
-        10,
-        8.7
       ]
     }
   ]

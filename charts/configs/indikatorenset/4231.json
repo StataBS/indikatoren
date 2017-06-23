@@ -218,7 +218,7 @@
       "fontSize": "1.1em",
       "fontWeight": "bold",
       "fill": "#000000",
-      "width": "385px"
+      "width": "375px"
     },
     "text": "AOX-Fracht Abwasser",
     "align": "left",
@@ -230,7 +230,7 @@
       "color": "#000000",
       "fontSize": "0.9em",
       "fill": "#000000",
-      "width": "421px"
+      "width": "411px"
     },
     "text": "Milligramm pro Liter",
     "align": "left",
@@ -1093,7 +1093,7 @@
       "cursor": "default",
       "color": "#000000",
       "fontSize": "0.8em",
-      "width": "80%",
+      "width": "465px",
       "fill": "#000000"
     },
     "text": "Quelle: ProRheno AG; Amt für Industrielle Betriebe Basel-Landschaft; ARA Laufental-Lüsseltal"
@@ -1136,16 +1136,6 @@
         "includeInCSVExport": false,
         "type": "line",
         "color": "#FF8028"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#B375AB"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#444444"
       }
     ],
     "xAxis": {
@@ -1419,68 +1409,6 @@
         0.046
       ],
       "_symbolIndex": 0
-    },
-    {
-      "includeInCSVExport": false,
-      "type": "line",
-      "showInNavigator": true,
-      "name": "Kanton Basel-Landschaft",
-      "color": "#B375AB",
-      "id": "BL1604_2",
-      "valueSuffix": "Milligramm pro Liter",
-      "data": [
-        null,
-        null,
-        null,
-        0.026,
-        0.021,
-        0.037,
-        0.024,
-        0.031,
-        0.025,
-        0.024,
-        0.034,
-        0.035,
-        0.021
-      ],
-      "_symbolIndex": 1
-    },
-    {
-      "includeInCSVExport": false,
-      "tooltip": {
-        "headerFormat": "\u003Cspan style='width: 80px'\u003E\u003Cspan style='color:{point.color}; width: 10px; font-size: 1.8em;'\u003E■\u003C\u002Fspan\u003E\u003Cspan style='font-size: 1em;'\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style='padding-left: 15px; line-height: 1.4em;'\u003E"
-      },
-      "dashStyle": "ShortDash",
-      "marker": {
-        "enabled": false,
-        "states": {
-          "hover": {
-            "enabled": false
-          }
-        }
-      },
-      "type": "line",
-      "showInNavigator": true,
-      "name": "Grenzwert (0,08 mg\u002Fl)",
-      "color": "#444444",
-      "id": "1604_3",
-      "valueSuffix": "Milligramm pro Liter",
-      "data": [
-        0.08,
-        0.08,
-        0.08,
-        0.08,
-        0.08,
-        0.08,
-        0.08,
-        0.08,
-        0.08,
-        0.08,
-        0.08,
-        0.08,
-        0.08
-      ],
-      "_symbolIndex": 2
     }
   ]
 }

@@ -218,7 +218,7 @@
       "fontSize": "1.1em",
       "fontWeight": "bold",
       "fill": "#000000",
-      "width": "385px"
+      "width": "375px"
     },
     "text": "Belastete Standorte",
     "align": "left",
@@ -230,7 +230,7 @@
       "color": "#000000",
       "fontSize": "0.9em",
       "fill": "#000000",
-      "width": "421px"
+      "width": "411px"
     },
     "text": "Anzahl Standorte",
     "align": "left",
@@ -961,7 +961,7 @@
       }
     },
     "series": {
-      "stacking": "normal",
+      "stacking": null,
       "connectNulls": true,
       "stickyTracking": false,
       "borderWidth": 0,
@@ -1058,7 +1058,7 @@
     "backgroundColor": "rgba(247,247,247,0.85)",
     "borderWidth": 1,
     "headerFormat": "\u003Cspan style=\"width: 80px\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style=\"padding-left: 15px; line-height: 1.4em;\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Standorte (von {point.stackTotal: ,2f})\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Standorte\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
     "shadow": true,
     "style": {
       "color": "#333333",
@@ -1075,7 +1075,7 @@
       },
       "hideDelay": 200,
       "headerFormat": "\u003Cspan style=\"width: 80px\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style=\"padding-left: 15px; line-height: 1.4em;\"\u003E{point.key}:",
-      "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Standorte (von {point.stackTotal: ,2f})\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
+      "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Standorte\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
       "footerFormat": "",
       "useHTML": true
     }
@@ -1093,7 +1093,7 @@
       "cursor": "default",
       "color": "#000000",
       "fontSize": "0.8em",
-      "width": "80%",
+      "width": "465px",
       "fill": "#000000"
     },
     "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt; Amt für Umweltschutz und Energie Basel-Landschaft"
@@ -1136,16 +1136,6 @@
         "includeInCSVExport": false,
         "type": "column",
         "color": "#FF8028"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#B375AB"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#923F8D"
       }
     ],
     "xAxis": {
@@ -1315,7 +1305,6 @@
   "xAxis": [
     {
       "categories": [
-        2012,
         2013,
         2014,
         2015,
@@ -1397,47 +1386,10 @@
       "id": "BS0204_1",
       "valueSuffix": "Anzahl Standorte",
       "data": [
-        null,
         454,
         451,
         445,
         435
-      ]
-    },
-    {
-      "includeInCSVExport": false,
-      "stacking": "normal",
-      "stack": "BL",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Rechtskräftige Standorte",
-      "color": "#B375AB",
-      "id": "BL0204_2",
-      "valueSuffix": "Anzahl Standorte",
-      "data": [
-        1260,
-        1309,
-        1337,
-        1340,
-        1345
-      ]
-    },
-    {
-      "includeInCSVExport": false,
-      "stacking": "normal",
-      "stack": "BL",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Nicht rechtskräftige Standorte",
-      "color": "#923F8D",
-      "id": "BL0204_3",
-      "valueSuffix": "Anzahl Standorte",
-      "data": [
-        127,
-        126,
-        116,
-        102,
-        94
       ]
     }
   ]

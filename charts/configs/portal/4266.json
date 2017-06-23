@@ -218,7 +218,7 @@
       "fontSize": "1.1em",
       "fontWeight": "bold",
       "fill": "#000000",
-      "width": "385px"
+      "width": "375px"
     },
     "text": "Fluglärm",
     "align": "left",
@@ -230,7 +230,7 @@
       "color": "#000000",
       "fontSize": "0.9em",
       "fill": "#000000",
-      "width": "421px"
+      "width": "411px"
     },
     "text": "Dezibel dB(A)",
     "align": "left",
@@ -1093,7 +1093,7 @@
       "cursor": "default",
       "color": "#000000",
       "fontSize": "0.8em",
-      "width": "80%",
+      "width": "465px",
       "fill": "#000000"
     },
     "text": "Quelle: EuroAirport Basel-Mulhouse"
@@ -1136,26 +1136,6 @@
         "includeInCSVExport": false,
         "type": "line",
         "color": "#FF8028"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#B375AB"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#923F8D"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#662673"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#444444"
       }
     ],
     "xAxis": {
@@ -1427,114 +1407,6 @@
         47.3
       ],
       "_symbolIndex": 0
-    },
-    {
-      "includeInCSVExport": false,
-      "type": "line",
-      "showInNavigator": true,
-      "name": "BL: Allschwil",
-      "color": "#B375AB",
-      "id": "BL1005_2",
-      "valueSuffix": "Dezibel dB(A)",
-      "data": [
-        51.2,
-        52.4,
-        54.4,
-        52.7,
-        52.4,
-        51.7,
-        48.8,
-        47.9,
-        49.2,
-        51.7,
-        53,
-        53.4
-      ],
-      "_symbolIndex": 1
-    },
-    {
-      "includeInCSVExport": false,
-      "type": "line",
-      "showInNavigator": true,
-      "name": "BL: Binningen",
-      "color": "#923F8D",
-      "id": "BL1005_3",
-      "valueSuffix": "Dezibel dB(A)",
-      "data": [
-        null,
-        43.4,
-        45.3,
-        45.9,
-        45,
-        45.4,
-        42.7,
-        43.8,
-        45.3,
-        44.3,
-        47.1,
-        45.2
-      ],
-      "_symbolIndex": 2
-    },
-    {
-      "includeInCSVExport": false,
-      "type": "line",
-      "showInNavigator": true,
-      "name": "BL: Neu-Allschwil",
-      "color": "#662673",
-      "id": "BL1005_4",
-      "valueSuffix": "Dezibel dB(A)",
-      "data": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        50.7,
-        49.7
-      ],
-      "_symbolIndex": 3
-    },
-    {
-      "includeInCSVExport": false,
-      "tooltip": {
-        "headerFormat": "\u003Cspan style='width: 80px'\u003E\u003Cspan style='color:{point.color}; width: 10px; font-size: 1.8em;'\u003E■\u003C\u002Fspan\u003E\u003Cspan style='font-size: 1em;'\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style='padding-left: 15px; line-height: 1.4em;'\u003E"
-      },
-      "dashStyle": "ShortDash",
-      "marker": {
-        "enabled": false,
-        "states": {
-          "hover": {
-            "enabled": false
-          }
-        }
-      },
-      "type": "line",
-      "showInNavigator": true,
-      "name": "Immissionsgrenzwert",
-      "color": "#444444",
-      "id": "1005_5",
-      "valueSuffix": "Dezibel dB(A)",
-      "data": [
-        55,
-        55,
-        55,
-        55,
-        55,
-        55,
-        55,
-        55,
-        55,
-        55,
-        55,
-        55
-      ],
-      "_symbolIndex": 4
     }
   ]
 }

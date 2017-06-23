@@ -218,7 +218,7 @@
       "fontSize": "1.1em",
       "fontWeight": "bold",
       "fill": "#000000",
-      "width": "385px"
+      "width": "375px"
     },
     "text": "Ausbaugrad der Abwasserreinigungsanlagen",
     "align": "left",
@@ -230,7 +230,7 @@
       "color": "#000000",
       "fontSize": "0.9em",
       "fill": "#000000",
-      "width": "421px"
+      "width": "411px"
     },
     "text": "Prozent",
     "align": "left",
@@ -1093,7 +1093,7 @@
       "cursor": "default",
       "color": "#000000",
       "fontSize": "0.8em",
-      "width": "80%",
+      "width": "465px",
       "fill": "#000000"
     },
     "text": "Quelle: ProRheno AG; Amt für Industrielle Betriebe; ARA Rhein; ARA Zwingen "
@@ -1141,16 +1141,6 @@
         "includeInCSVExport": false,
         "type": "line",
         "color": "#DC440E"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#B375AB"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#923F8D"
       }
     ],
     "xAxis": {
@@ -1425,43 +1415,6 @@
         100
       ],
       "_symbolIndex": 0
-    },
-    {
-      "includeInCSVExport": false,
-      "stacking": null,
-      "marker": {
-        "enabled": true,
-        "radius": 5
-      },
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Ausbaugrad",
-      "color": "#B375AB",
-      "id": "BL1614_3",
-      "valueSuffix": "Prozent",
-      "data": [
-        68
-      ]
-    },
-    {
-      "includeInCSVExport": false,
-      "tooltip": {
-        "headerFormat": "\u003Cspan style='width: 80px'\u003E\u003Cspan style='color:{point.color}; width: 10px; font-size: 1.8em;'\u003E■\u003C\u002Fspan\u003E\u003Cspan style='font-size: 1em;'\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style='padding-left: 15px; line-height: 1.4em;'\u003E"
-      },
-      "marker": {
-        "enabled": true,
-        "radius": 5
-      },
-      "type": "line",
-      "showInNavigator": true,
-      "name": "BL: Zielwert 2036",
-      "color": "#923F8D",
-      "id": "BL1614_4",
-      "valueSuffix": "Prozent",
-      "data": [
-        92
-      ],
-      "_symbolIndex": 1
     }
   ]
 }

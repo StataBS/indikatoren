@@ -1,1 +1,103 @@
-<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"><desc>Created with Highstock 5.0.7</desc><defs><clipPath id="highcharts-iv0p1i7-1"><rect x="0" y="0" width="553" height="239" fill="none"></rect></clipPath><clipPath id="highcharts-iv0p1i7-2"><rect x="0" y="0" width="553" height="239" fill="none"></rect></clipPath></defs><rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="600" height="400" rx="0" ry="0"></rect><rect fill="none" class="highcharts-plot-background" x="37" y="90" width="553" height="239"></rect><g class="highcharts-label" style="cursor:pointer;" transform="translate(10,436)"><text x="0" y="0"><tspan>&gt; Indikator-Details</tspan></text></g><g class="highcharts-grid highcharts-xaxis-grid "><path fill="none" class="highcharts-grid-line" d="M 220.5 90 L 220.5 329 M 220.5 90 L 220.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 405.5 90 L 405.5 329 M 405.5 90 L 405.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 589.5 90 L 589.5 329 M 589.5 90 L 589.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 36.5 90 L 36.5 329 M 36.5 90 L 36.5 329" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid "><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 37 329.5 L 590 329.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 37 249.5 L 590 249.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 37 170.5 L 590 170.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 37 89.5 L 590 89.5" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid "></g><rect fill="none" class="highcharts-plot-border" x="37" y="90" width="553" height="239"></rect><g class="highcharts-axis highcharts-xaxis "><path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" d="M 37 329.5 L 590 329.5"></path></g><g class="highcharts-axis highcharts-yaxis "><path fill="none" class="highcharts-axis-line" d="M 37 90 L 37 329"></path></g><g class="highcharts-axis highcharts-yaxis "><path fill="none" class="highcharts-axis-line" d="M 590 90 L 590 329"></path></g><g class="highcharts-series-group"><g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(37,90) scale(1 1)" clip-path="url(#highcharts-iv0p1i7-2)"><rect x="40" y="117" width="23" height="123" fill="#B375AB" class="highcharts-point"></rect><rect x="224" y="132" width="23" height="108" fill="#B375AB" class="highcharts-point"></rect><rect x="408" y="98" width="23" height="142" fill="#B375AB" class="highcharts-point"></rect></g><g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(37,90) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(37,90) scale(1 1)" clip-path="url(#highcharts-iv0p1i7-2)"><rect x="67" y="132" width="23" height="108" fill="#923F8D" class="highcharts-point"></rect><rect x="252" y="159" width="23" height="81" fill="#923F8D" class="highcharts-point"></rect><rect x="436" y="143" width="23" height="97" fill="#923F8D" class="highcharts-point"></rect></g><g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(37,90) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(37,90) scale(1 1)" clip-path="url(#highcharts-iv0p1i7-2)"><rect x="95" y="74" width="23" height="166" fill="#662673" class="highcharts-point"></rect><rect x="279" y="81" width="23" height="159" fill="#662673" class="highcharts-point"></rect><rect x="464" y="30" width="23" height="210" fill="#662673" class="highcharts-point"></rect></g><g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(37,90) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(37,90) scale(1 1)" clip-path="url(#highcharts-iv0p1i7-2)"><rect x="123" y="152" width="23" height="88" fill="#2E1435" class="highcharts-point"></rect><rect x="307" y="135" width="23" height="105" fill="#2E1435" class="highcharts-point"></rect><rect x="491" y="113" width="23" height="127" fill="#2E1435" class="highcharts-point"></rect></g><g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(37,90) scale(1 1)" clip-path="none"></g></g><text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:1.1em;font-weight:bold;fill:#000000;" y="20"><tspan>Aktuelle Erosionsgefährdung</tspan></text><text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:0.9em;fill:#000000;" y="38"><tspan>Tonnen pro Hektar</tspan></text><g class="highcharts-legend" transform="translate(10,40)"><rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="503" height="38" visibility="visible"></rect><g><g><g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(12,7)"><text x="21" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15"><tspan>Kanton Basel-Landschaft</tspan></text><rect x="2" y="4" width="12" height="12" fill="#B375AB" class="highcharts-point"></rect></g><g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(187.015625,7)"><text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start"><tspan>Oberbaselbiet</tspan></text><rect x="2" y="4" width="12" height="12" fill="#923F8D" class="highcharts-point"></rect></g><g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(302.671875,7)"><text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start"><tspan>Unterbaselbiet</tspan></text><rect x="2" y="4" width="12" height="12" fill="#662673" class="highcharts-point"></rect></g><g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3" transform="translate(420.984375,7)"><text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start"><tspan>Laufental</tspan></text><rect x="2" y="4" width="12" height="12" fill="#2E1435" class="highcharts-point"></rect></g></g></g></g><g class="highcharts-axis-labels highcharts-xaxis-labels "><text x="129.16666666666669" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1"><tspan>1992</tspan></text><text x="313.5" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1"><tspan>2002</tspan></text><text x="497.8333333333333" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1"><tspan>2012</tspan></text></g><g class="highcharts-axis-labels highcharts-yaxis-labels "><text x="22" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="334" opacity="1"><tspan>0</tspan></text><text x="22" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="254" opacity="1"><tspan>5</tspan></text><text x="22" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="174" opacity="1"><tspan>10</tspan></text><text x="22" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="95" opacity="1"><tspan>15</tspan></text></g><g class="highcharts-axis-labels highcharts-yaxis-labels "></g><text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:0.8em;fill:#000000;" y="373"><tspan>Quelle: Amt für</tspan><tspan dy="12.600000000000001" x="10">Umweltschutz</tspan><tspan dy="12.600000000000001" x="10">und Energie</tspan><tspan dy="12.600000000000001" x="10">Basel-Landschaft</tspan><title>Quelle: Amt für Umweltschutz und Energie Basel-Landschaft</title></text></svg>
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h553v239H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="600" height="400" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M37 90h553v239H37z"/>
+    <text transform="translate(10 436)" class="highcharts-label" cursor="pointer">
+        <tspan>&gt; Indikator-Details</tspan>
+    </text>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M220.5 90v239m0-239v239m185-239v239m0-239v239m184-239v239m0-239v239M36.5 90v239m0-239v239"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M37 329.5h553m-553-80h553m-553-79h553m-553-81h553"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M37 90h553v239H37z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M37 329.5h553"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M37 90v239"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M590 90v239"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(37 90)" clip-path="url(#a)">
+            <path fill="#B375AB" class="highcharts-point" d="M40 117h23v123H40zm184 15h23v108h-23zm184-34h23v142h-23z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(37 90)" clip-path="url(#a)">
+            <path fill="#923F8D" class="highcharts-point" d="M67 132h23v108H67zm185 27h23v81h-23zm184-16h23v97h-23z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(37 90)" clip-path="url(#a)">
+            <path fill="#662673" class="highcharts-point" d="M95 74h23v166H95zm184 7h23v159h-23zm185-51h23v210h-23z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(37 90)" clip-path="url(#a)">
+            <path fill="#2E1435" class="highcharts-point" d="M123 152h23v88h-23zm184-17h23v105h-23zm184-22h23v127h-23z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
+        <tspan>Aktuelle Erosionsgefährdung</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
+        <tspan>Tonnen pro Hektar</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(10 40)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="503" height="38"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
+                <tspan>Kanton Basel-Landschaft</tspan>
+            </text>
+            <path fill="#B375AB" class="highcharts-point" d="M14 11h12v12H14z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(187.016 7)">
+                <tspan>Oberbaselbiet</tspan>
+            </text>
+            <path fill="#923F8D" class="highcharts-point" d="M189.016 11h12v12h-12z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(302.672 7)">
+                <tspan>Unterbaselbiet</tspan>
+            </text>
+            <path fill="#662673" class="highcharts-point" d="M304.672 11h12v12h-12z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(420.984 7)">
+                <tspan>Laufental</tspan>
+            </text>
+            <path fill="#2E1435" class="highcharts-point" d="M422.984 11h12v12h-12z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
+        <text x="129.167" y="348">
+            <tspan>1992</tspan>
+        </text>
+        <text x="313.5" y="348">
+            <tspan>2002</tspan>
+        </text>
+        <text x="497.833" y="348">
+            <tspan>2012</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="22" y="334">
+            <tspan>0</tspan>
+        </text>
+        <text x="22" y="254">
+            <tspan>5</tspan>
+        </text>
+        <text x="22" y="174">
+            <tspan>10</tspan>
+        </text>
+        <text x="22" y="95">
+            <tspan>15</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="373" cursor="default" color="#000" font-size=".8em">
+        <tspan>Quelle: Amt für</tspan><tspan dy="12.6" x="10">Umweltschutz</tspan><tspan dy="12.6" x="10">und Energie</tspan><tspan dy="12.6" x="10">Basel-Landschaft</tspan><title>Quelle: Amt für Umweltschutz und Energie Basel-Landschaft</title>
+    </text>
+</svg>

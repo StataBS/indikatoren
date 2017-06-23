@@ -218,7 +218,7 @@
       "fontSize": "1.1em",
       "fontWeight": "bold",
       "fill": "#000000",
-      "width": "385px"
+      "width": "375px"
     },
     "text": "Waldreservate",
     "align": "left",
@@ -230,7 +230,7 @@
       "color": "#000000",
       "fontSize": "0.9em",
       "fill": "#000000",
-      "width": "421px"
+      "width": "411px"
     },
     "text": "Prozent",
     "align": "left",
@@ -961,7 +961,7 @@
       }
     },
     "series": {
-      "stacking": false,
+      "stacking": null,
       "connectNulls": true,
       "stickyTracking": false,
       "borderWidth": 0,
@@ -1093,7 +1093,7 @@
       "cursor": "default",
       "color": "#000000",
       "fontSize": "0.8em",
-      "width": "80%",
+      "width": "465px",
       "fill": "#000000"
     },
     "text": "Quelle: Amt für Wald beider Basel; Landwirtschaftliches Zentrum Ebenrain"
@@ -1136,16 +1136,6 @@
         "includeInCSVExport": false,
         "type": "column",
         "color": "#FF8028"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#B375AB"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#444444"
       }
     ],
     "xAxis": {
@@ -1347,7 +1337,7 @@
           "color": "#000000"
         }
       },
-      "range": 25,
+      "range": false,
       "index": 0,
       "isX": true
     }
@@ -1433,82 +1423,6 @@
         2.8,
         2.8
       ]
-    },
-    {
-      "includeInCSVExport": false,
-      "stacking": null,
-      "type": "column",
-      "showInNavigator": true,
-      "name": "Kanton Basel-Landschaft",
-      "color": "#B375AB",
-      "id": "BL1511_2",
-      "valueSuffix": "Prozent",
-      "data": [
-        4.1,
-        5.9,
-        6.3,
-        7.3,
-        8.2,
-        9.3,
-        9.3,
-        9.4,
-        9.4,
-        10.7,
-        11.4,
-        11.4,
-        13.8,
-        14.3,
-        15.3,
-        15.9,
-        16.2,
-        16.4,
-        16.8,
-        16.8
-      ]
-    },
-    {
-      "includeInCSVExport": false,
-      "tooltip": {
-        "headerFormat": "\u003Cspan style='width: 80px'\u003E\u003Cspan style='color:{point.color}; width: 10px; font-size: 1.8em;'\u003E■\u003C\u002Fspan\u003E\u003Cspan style='font-size: 1em;'\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style='padding-left: 15px; line-height: 1.4em;'\u003E"
-      },
-      "dashStyle": "ShortDash",
-      "marker": {
-        "enabled": false,
-        "states": {
-          "hover": {
-            "enabled": false
-          }
-        }
-      },
-      "type": "line",
-      "showInNavigator": true,
-      "name": "Zielwert Basel-Landschaft",
-      "color": "#444444",
-      "id": "1511_3",
-      "valueSuffix": "Prozent",
-      "data": [
-        17,
-        17,
-        17,
-        17,
-        17,
-        17,
-        17,
-        17,
-        17,
-        17,
-        17,
-        17,
-        17,
-        17,
-        17,
-        17,
-        17,
-        17,
-        17,
-        17
-      ],
-      "_symbolIndex": 0
     }
   ]
 }

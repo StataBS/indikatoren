@@ -1,1 +1,98 @@
-<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"><desc>Created with Highstock 5.0.7</desc><defs><clipPath id="highcharts-lvssz0c-1"><rect x="0" y="0" width="559" height="220" fill="none"></rect></clipPath><clipPath id="highcharts-lvssz0c-2"><rect x="0" y="0" width="559" height="220" fill="none"></rect></clipPath></defs><rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="600" height="400" rx="0" ry="0"></rect><rect fill="none" class="highcharts-plot-background" x="31" y="109" width="559" height="220"></rect><g class="highcharts-label" style="cursor:pointer;" transform="translate(10,436)"><text x="0" y="0"><tspan>&gt; Indikator-Details</tspan></text></g><g class="highcharts-grid highcharts-xaxis-grid "><path fill="none" class="highcharts-grid-line" d="M 589.5 109 L 589.5 329 M 589.5 109 L 589.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 30.5 109 L 30.5 329 M 30.5 109 L 30.5 329" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid "><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 31 329.5 L 590 329.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 31 274.5 L 590 274.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 31 219.5 L 590 219.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 31 164.5 L 590 164.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 31 108.5 L 590 108.5" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid "></g><rect fill="none" class="highcharts-plot-border" x="31" y="109" width="559" height="220"></rect><g class="highcharts-axis highcharts-xaxis "><path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" d="M 31 329.5 L 590 329.5"></path></g><g class="highcharts-axis highcharts-yaxis "><path fill="none" class="highcharts-axis-line" d="M 31 109 L 31 329"></path></g><g class="highcharts-axis highcharts-yaxis "><path fill="none" class="highcharts-axis-line" d="M 590 109 L 590 329"></path></g><g class="highcharts-series-group"><g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(31,109) scale(1 1)" clip-path="url(#highcharts-lvssz0c-2)"><rect x="218" y="42" width="40" height="179" fill="#923F8D" class="highcharts-point"></rect></g><g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(31,109) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(31,109) scale(1 1)" clip-path="url(#highcharts-lvssz0c-2)"><rect x="352" y="111" width="40" height="110" fill="#2E1435" class="highcharts-point"></rect></g><g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(31,109) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(31,109) scale(1 1)" clip-path="url(#highcharts-lvssz0c-2)"><rect x="167" y="141" width="40" height="80" fill="#B375AB" class="highcharts-point"></rect></g><g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(31,109) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(31,109) scale(1 1)" clip-path="url(#highcharts-lvssz0c-2)"><rect x="301" y="188" width="40" height="33" fill="#662673" class="highcharts-point"></rect></g><g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(31,109) scale(1 1)" clip-path="none"></g></g><text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:1.1em;font-weight:bold;fill:#000000;" y="20"><tspan>Nutzungskonflikte in Grundwasserschutzzonen</tspan></text><text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:0.9em;fill:#000000;" y="38"><tspan>Quadratkilometer</tspan></text><g class="highcharts-legend" transform="translate(10,40)"><rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="472" height="57" visibility="visible"></rect><g><g><g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(12,7)"><text x="21" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15"><tspan>BL: ZPL, rechtskräftig</tspan></text><rect x="2" y="4" width="12" height="12" fill="#B375AB" class="highcharts-point"></rect></g><g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(168.28125,7)"><text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start"><tspan>BL: ZPL, provisorisch</tspan></text><rect x="2" y="4" width="12" height="12" fill="#923F8D" class="highcharts-point"></rect></g><g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(323.234375,7)"><text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start"><tspan>BL: ZPS, rechtskräftig</tspan></text><rect x="2" y="4" width="12" height="12" fill="#662673" class="highcharts-point"></rect></g><g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3" transform="translate(12,26)"><text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start"><tspan>BL: ZPS, provisorisch</tspan></text><rect x="2" y="4" width="12" height="12" fill="#2E1435" class="highcharts-point"></rect></g></g></g></g><g class="highcharts-axis-labels highcharts-xaxis-labels "><text x="310.5" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1"><tspan>2016</tspan></text></g><g class="highcharts-axis-labels highcharts-yaxis-labels "><text x="16" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="334" opacity="1"><tspan>0</tspan></text><text x="16" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="279" opacity="1"><tspan>2</tspan></text><text x="16" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="224" opacity="1"><tspan>4</tspan></text><text x="16" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="169" opacity="1"><tspan>6</tspan></text><text x="16" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="114" opacity="1"><tspan>8</tspan></text></g><g class="highcharts-axis-labels highcharts-yaxis-labels "></g><text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:0.8em;fill:#000000;" y="373"><tspan>Quelle: Amt für</tspan><tspan dy="12.600000000000001" x="10">Umweltschutz</tspan><tspan dy="12.600000000000001" x="10">und Energie</tspan><tspan dy="12.600000000000001" x="10">Basel-Landschaft</tspan><title>Quelle: Amt für Umweltschutz und Energie Basel-Landschaft</title></text></svg>
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h559v220H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="600" height="400" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M31 109h559v220H31z"/>
+    <text transform="translate(10 436)" class="highcharts-label" cursor="pointer">
+        <tspan>&gt; Indikator-Details</tspan>
+    </text>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M589.5 109v220m0-220v220m-559-220v220m0-220v220"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M31 329.5h559m-559-55h559m-559-55h559m-559-55h559m-559-56h559"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M31 109h559v220H31z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M31 329.5h559"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M31 109v220"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M590 109v220"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(31 109)" clip-path="url(#a)">
+            <path fill="#923F8D" class="highcharts-point" d="M218 42h40v179h-40z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(31 109)" clip-path="url(#a)">
+            <path fill="#2E1435" class="highcharts-point" d="M352 111h40v110h-40z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(31 109)" clip-path="url(#a)">
+            <path fill="#B375AB" class="highcharts-point" d="M167 141h40v80h-40z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(31 109)" clip-path="url(#a)">
+            <path fill="#662673" class="highcharts-point" d="M301 188h40v33h-40z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
+        <tspan>Nutzungskonflikte in Grundwasserschutzzonen</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
+        <tspan>Quadratkilometer</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(10 40)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="472" height="57"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
+                <tspan>BL: ZPL, rechtskräftig</tspan>
+            </text>
+            <path fill="#B375AB" class="highcharts-point" d="M14 11h12v12H14z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(168.281 7)">
+                <tspan>BL: ZPL, provisorisch</tspan>
+            </text>
+            <path fill="#923F8D" class="highcharts-point" d="M170.281 11h12v12h-12z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(323.234 7)">
+                <tspan>BL: ZPS, rechtskräftig</tspan>
+            </text>
+            <path fill="#662673" class="highcharts-point" d="M325.234 11h12v12h-12z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 26)">
+                <tspan>BL: ZPS, provisorisch</tspan>
+            </text>
+            <path fill="#2E1435" class="highcharts-point" d="M14 30h12v12H14z"/>
+        </g>
+    </g>
+    <text x="310.5" text-anchor="middle" y="348" color="#000" cursor="default" font-size=".9em" class="highcharts-axis-labels highcharts-xaxis-labels">
+        <tspan>2016</tspan>
+    </text>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="16" y="334">
+            <tspan>0</tspan>
+        </text>
+        <text x="16" y="279">
+            <tspan>2</tspan>
+        </text>
+        <text x="16" y="224">
+            <tspan>4</tspan>
+        </text>
+        <text x="16" y="169">
+            <tspan>6</tspan>
+        </text>
+        <text x="16" y="114">
+            <tspan>8</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="373" cursor="default" color="#000" font-size=".8em">
+        <tspan>Quelle: Amt für</tspan><tspan dy="12.6" x="10">Umweltschutz</tspan><tspan dy="12.6" x="10">und Energie</tspan><tspan dy="12.6" x="10">Basel-Landschaft</tspan><title>Quelle: Amt für Umweltschutz und Energie Basel-Landschaft</title>
+    </text>
+</svg>

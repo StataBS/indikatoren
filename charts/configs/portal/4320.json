@@ -218,7 +218,7 @@
       "fontSize": "1.1em",
       "fontWeight": "bold",
       "fill": "#000000",
-      "width": "385px"
+      "width": "375px"
     },
     "text": "Wohnfläche",
     "align": "left",
@@ -230,7 +230,7 @@
       "color": "#000000",
       "fontSize": "0.9em",
       "fill": "#000000",
-      "width": "421px"
+      "width": "411px"
     },
     "text": "Quadratmeter pro Bewohner",
     "align": "left",
@@ -1093,7 +1093,7 @@
       "cursor": "default",
       "color": "#000000",
       "fontSize": "0.8em",
-      "width": "80%",
+      "width": "465px",
       "fill": "#000000"
     },
     "text": "Quelle: Bundesamt für Statistik"
@@ -1136,16 +1136,6 @@
         "includeInCSVExport": false,
         "type": "column",
         "color": "#FF8028"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#B375AB"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#000000"
       }
     ],
     "xAxis": {
@@ -1411,62 +1401,6 @@
         [
           2015,
           41.4
-        ]
-      ]
-    },
-    {
-      "includeInCSVExport": false,
-      "stacking": null,
-      "type": "column",
-      "showInNavigator": true,
-      "name": "Kanton Basel-Landschaft",
-      "color": "#B375AB",
-      "id": "BL1703_2",
-      "valueSuffix": "Quadratmeter pro Bewohner",
-      "data": [
-        [
-          2012,
-          47
-        ],
-        [
-          2013,
-          47.1
-        ],
-        [
-          2014,
-          47.1
-        ],
-        [
-          2015,
-          47.3
-        ]
-      ]
-    },
-    {
-      "includeInCSVExport": false,
-      "stacking": null,
-      "type": "column",
-      "showInNavigator": true,
-      "name": "Schweiz",
-      "color": "#000000",
-      "id": "1703_3",
-      "valueSuffix": "Quadratmeter pro Bewohner",
-      "data": [
-        [
-          2012,
-          45
-        ],
-        [
-          2013,
-          45
-        ],
-        [
-          2014,
-          45.1
-        ],
-        [
-          2015,
-          45.2
         ]
       ]
     }

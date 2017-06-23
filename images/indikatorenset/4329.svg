@@ -1,1 +1,106 @@
-<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"><desc>Created with Highstock 5.0.7</desc><defs><clipPath id="highcharts-42df5rw-1"><rect x="0" y="0" width="553" height="239" fill="none"></rect></clipPath><clipPath id="highcharts-42df5rw-2"><rect x="0" y="0" width="553" height="239" fill="none"></rect></clipPath></defs><rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="600" height="400" rx="0" ry="0"></rect><rect fill="none" class="highcharts-plot-background" x="37" y="90" width="553" height="239"></rect><g class="highcharts-label" style="cursor:pointer;" transform="translate(10,436)"><text x="0" y="0"><tspan>&gt; Indikator-Details</tspan></text></g><g class="highcharts-grid highcharts-xaxis-grid "><path fill="none" class="highcharts-grid-line" d="M 105.5 90 L 105.5 329 M 105.5 90 L 105.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 174.5 90 L 174.5 329 M 174.5 90 L 174.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 243.5 90 L 243.5 329 M 243.5 90 L 243.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 313.5 90 L 313.5 329 M 313.5 90 L 313.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 382.5 90 L 382.5 329 M 382.5 90 L 382.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 451.5 90 L 451.5 329 M 451.5 90 L 451.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 520.5 90 L 520.5 329 M 520.5 90 L 520.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 589.5 90 L 589.5 329 M 589.5 90 L 589.5 329" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 36.5 90 L 36.5 329 M 36.5 90 L 36.5 329" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid "><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 37 329.5 L 590 329.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 37 281.5 L 590 281.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 37 233.5 L 590 233.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 37 186.5 L 590 186.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 37 138.5 L 590 138.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 37 89.5 L 590 89.5" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid "></g><rect fill="none" class="highcharts-plot-border" x="37" y="90" width="553" height="239"></rect><g class="highcharts-axis highcharts-xaxis "><path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" d="M 37 329.5 L 590 329.5"></path></g><g class="highcharts-axis highcharts-yaxis "><path fill="none" class="highcharts-axis-line" d="M 37 90 L 37 329"></path></g><g class="highcharts-axis highcharts-yaxis "><path fill="none" class="highcharts-axis-line" d="M 590 90 L 590 329"></path></g><g class="highcharts-series-group"><g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(37,90) scale(1 1)" clip-path="url(#highcharts-42df5rw-2)"><rect x="16" y="216" width="17" height="24" fill="#FF8028" class="highcharts-point"></rect><rect x="85" y="216" width="17" height="24" fill="#FF8028" class="highcharts-point"></rect><rect x="154" y="207" width="17" height="33" fill="#FF8028" class="highcharts-point"></rect><rect x="223" y="207" width="17" height="33" fill="#FF8028" class="highcharts-point"></rect><rect x="292" y="202" width="17" height="38" fill="#FF8028" class="highcharts-point"></rect><rect x="362" y="192" width="17" height="48" fill="#FF8028" class="highcharts-point"></rect><rect x="431" y="187" width="17" height="53" fill="#FF8028" class="highcharts-point"></rect><rect x="500" y="187" width="17" height="53" fill="#FF8028" class="highcharts-point"></rect></g><g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(37,90) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(37,90) scale(1 1)" clip-path="url(#highcharts-42df5rw-2)"><rect x="37" y="216" width="17" height="24" fill="#DC440E" class="highcharts-point"></rect><rect x="106" y="154" width="17" height="86" fill="#DC440E" class="highcharts-point"></rect><rect x="175" y="130" width="17" height="110" fill="#DC440E" class="highcharts-point"></rect><rect x="244" y="111" width="17" height="129" fill="#DC440E" class="highcharts-point"></rect><rect x="313" y="82" width="17" height="158" fill="#DC440E" class="highcharts-point"></rect><rect x="382" y="97" width="17" height="143" fill="#DC440E" class="highcharts-point"></rect><rect x="451" y="25" width="17" height="215" fill="#DC440E" class="highcharts-point"></rect><rect x="521" y="116" width="17" height="124" fill="#DC440E" class="highcharts-point"></rect></g><g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(37,90) scale(1 1)" clip-path="none"></g></g><text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:1.1em;font-weight:bold;fill:#000000;" y="20"><tspan>Erdbebenertüchtigung von Bauwerken</tspan></text><text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:0.9em;fill:#000000;" y="38"><tspan>Anzahl Bauwerke</tspan></text><g class="highcharts-legend" transform="translate(10,40)"><rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="347" height="38" visibility="visible"></rect><g><g><g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(12,7)"><text x="21" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15"><tspan>BS: Lifeline-Bauwerke (kumulativ)</tspan></text><rect x="2" y="4" width="12" height="12" fill="#FF8028" class="highcharts-point"></rect></g><g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(232.890625,7)"><text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start"><tspan>BS: Neubauten</tspan></text><rect x="2" y="4" width="12" height="12" fill="#DC440E" class="highcharts-point"></rect></g></g></g></g><g class="highcharts-axis-labels highcharts-xaxis-labels "><text x="71.5625" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1">2009</text><text x="140.6875" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1">2010</text><text x="209.8125" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1">2011</text><text x="278.9375" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1">2012</text><text x="348.0625" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1">2013</text><text x="417.1875" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1">2014</text><text x="486.3125" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1">2015</text><text x="555.4375" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="348" opacity="1">2016</text></g><g class="highcharts-axis-labels highcharts-yaxis-labels "><text x="22" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="334" opacity="1"><tspan>0</tspan></text><text x="22" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="286" opacity="1"><tspan>10</tspan></text><text x="22" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="238" opacity="1"><tspan>20</tspan></text><text x="22" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="190" opacity="1"><tspan>30</tspan></text><text x="22" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="142" opacity="1"><tspan>40</tspan></text><text x="22" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="95" opacity="1"><tspan>50</tspan></text></g><g class="highcharts-axis-labels highcharts-yaxis-labels "></g><text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:0.8em;fill:#000000;" y="373"><tspan>Quelle: Bau- und</tspan><tspan dy="12.600000000000001" x="10">Gastgewerbeinspektorat</tspan><tspan dy="12.600000000000001" x="10">Basel-Stadt</tspan><title>Quelle: Bau- und Gastgewerbeinspektorat Basel-Stadt</title></text></svg>
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h553v239H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="600" height="400" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M37 90h553v239H37z"/>
+    <text transform="translate(10 436)" class="highcharts-label" cursor="pointer">
+        <tspan>&gt; Indikator-Details</tspan>
+    </text>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M105.5 90v239m0-239v239m69-239v239m0-239v239m69-239v239m0-239v239m70-239v239m0-239v239m69-239v239m0-239v239m69-239v239m0-239v239m69-239v239m0-239v239m69-239v239m0-239v239M36.5 90v239m0-239v239"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M37 329.5h553m-553-48h553m-553-48h553m-553-47h553m-553-48h553m-553-49h553"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M37 90h553v239H37z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M37 329.5h553"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M37 90v239"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M590 90v239"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(37 90)" clip-path="url(#a)">
+            <path fill="#FF8028" class="highcharts-point" d="M16 216h17v24H16zm69 0h17v24H85zm69-9h17v33h-17zm69 0h17v33h-17zm69-5h17v38h-17zm70-10h17v48h-17zm69-5h17v53h-17zm69 0h17v53h-17z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(37 90)" clip-path="url(#a)">
+            <path fill="#DC440E" class="highcharts-point" d="M37 216h17v24H37zm69-62h17v86h-17zm69-24h17v110h-17zm69-19h17v129h-17zm69-29h17v158h-17zm69 15h17v143h-17zm69-72h17v215h-17zm70 91h17v124h-17z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
+        <tspan>Erdbebenertüchtigung von Bauwerken</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
+        <tspan>Anzahl Bauwerke</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(10 40)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="347" height="38"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
+                <tspan>BS: Lifeline-Bauwerke (kumulativ)</tspan>
+            </text>
+            <path fill="#FF8028" class="highcharts-point" d="M14 11h12v12H14z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(232.89 7)">
+                <tspan>BS: Neubauten</tspan>
+            </text>
+            <path fill="#DC440E" class="highcharts-point" d="M234.89 11h12v12h-12z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
+        <text x="71.563" y="348">
+            2009
+        </text>
+        <text x="140.688" y="348">
+            2010
+        </text>
+        <text x="209.813" y="348">
+            2011
+        </text>
+        <text x="278.938" y="348">
+            2012
+        </text>
+        <text x="348.063" y="348">
+            2013
+        </text>
+        <text x="417.188" y="348">
+            2014
+        </text>
+        <text x="486.313" y="348">
+            2015
+        </text>
+        <text x="555.438" y="348">
+            2016
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="22" y="334">
+            <tspan>0</tspan>
+        </text>
+        <text x="22" y="286">
+            <tspan>10</tspan>
+        </text>
+        <text x="22" y="238">
+            <tspan>20</tspan>
+        </text>
+        <text x="22" y="190">
+            <tspan>30</tspan>
+        </text>
+        <text x="22" y="142">
+            <tspan>40</tspan>
+        </text>
+        <text x="22" y="95">
+            <tspan>50</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="373" cursor="default" color="#000" font-size=".8em">
+        <tspan>Quelle: Bau- und Gastgewerbeinspektorat Basel-Stadt</tspan>
+    </text>
+</svg>

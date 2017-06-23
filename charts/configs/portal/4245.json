@@ -218,7 +218,7 @@
       "fontSize": "1.1em",
       "fontWeight": "bold",
       "fill": "#000000",
-      "width": "385px"
+      "width": "375px"
     },
     "text": "Revitalisierungsrate Oberflächengewässer",
     "align": "left",
@@ -230,7 +230,7 @@
       "color": "#000000",
       "fontSize": "0.9em",
       "fill": "#000000",
-      "width": "421px"
+      "width": "411px"
     },
     "text": "Kilometer und Prozent",
     "align": "left",
@@ -982,7 +982,7 @@
     "enabled": true,
     "align": "left",
     "layout": "horizontal",
-    "labelFormatter": function () { return this.name.replace(/(BS|BL|BS&BL|UBB|OBB|LT): /, '');},
+    "labelFormatter": function () {return this.name;},
     "borderColor": "#999999",
     "borderRadius": 0,
     "navigation": {
@@ -1093,7 +1093,7 @@
       "cursor": "default",
       "color": "#000000",
       "fontSize": "0.8em",
-      "width": "80%",
+      "width": "465px",
       "fill": "#000000"
     },
     "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt; Tiefbauamt Basel-Landschaft"
@@ -1135,22 +1135,12 @@
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#73B97C"
+        "color": "#FF8028"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#68AB2B"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#73B97C"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#68AB2B"
+        "color": "#DC440E"
       }
     ],
     "xAxis": {
@@ -1320,8 +1310,7 @@
   "xAxis": [
     {
       "categories": [
-        2015,
-        2016
+        2015
       ],
       "tickLength": 0,
       "title": {
@@ -1363,16 +1352,6 @@
 						  return this.axis.defaultLabelFormatter.call(this) + '%';
 						}
       },
-      "stackLabels": {
-        "enabled": true,
-        "y": -5,
-        "crop": false,
-        "style": {
-          "fontSize": "0.8em",
-          "fontWeight": "normal"
-        },
-        "formatter": function () { return this.stack; }
-      },
       "index": 0
     },
     {
@@ -1413,12 +1392,11 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Geplant \u002F noch ausstehend bis 2035",
-      "color": "#73B97C",
+      "color": "#FF8028",
       "id": "BS1616_1",
       "valueSuffix": "Kilometer",
       "data": [
-        9.3,
-        null
+        9.3
       ],
       "tooltip": {
         "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E km (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
@@ -1438,50 +1416,11 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Umgesetzt",
-      "color": "#68AB2B",
+      "color": "#DC440E",
       "id": "BS1616_2",
       "valueSuffix": "Kilometer",
       "data": [
-        0.3,
-        null
-      ],
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E km (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
-    },
-    {
-      "includeInCSVExport": false,
-      "stacking": "percent",
-      "stack": "BL",
-      "linkedTo": "BS1616_1",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Geplant \u002F noch ausstehend bis 2035",
-      "color": "#73B97C",
-      "id": "BL1616_3",
-      "valueSuffix": "Kilometer",
-      "data": [
-        21.3,
-        19.4
-      ],
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E km (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
-    },
-    {
-      "includeInCSVExport": false,
-      "stacking": "percent",
-      "stack": "BL",
-      "linkedTo": "BS1616_2",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Umgesetzt",
-      "color": "#68AB2B",
-      "id": "BL1616_4",
-      "valueSuffix": "Kilometer",
-      "data": [
-        1.8,
-        3.6
+        0.3
       ],
       "tooltip": {
         "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E km (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
