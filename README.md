@@ -13,12 +13,28 @@ Locally build, start http server, open browser:
 npm start
 ```
 
+## Get png files for usage in print publications
+- In the Chrome browser: Open print.html?Indikatorenset=_indikatorensetname_
+- All charts in the given Indikatorenset are rendered in the browser, then locally exported to png files. These are saved by the browser to the "Downloads" folder. 
+
+
+## Get Charts from "Umweltbericht beider Basel"
+- In the command line (e.g. in c9.io): run 
+```javascript
+npm run build:umwelt_charts
+```
+- This uses casperJs / phantomJs to open all charts of Indikatorenset "Umwelt" and save their Highcharts configuration in charts/config/indikatorenset and charts/configs/portal. 
+- Create svg files, e.g. by running the command 
+```javascript
+npm run build"
+```
+
 ## Development
 ### Add or Update Data
-Copy the data as tab-separated csv file named _id_.csv into the folder 'data'. Refresh browser.  
+Copy the data as tab-separated tsv file named _id_.tsv into the folder 'data'. Refresh browser.  
 
 ### Add or Update Metadata
-- Copy the js file named _id_.js into the folder 'metadata/single'.
+- Copy the json file named _id_.json into the folder 'metadata/single'. 
 - On test system (https://github.com/statabs-test/indikatoren), the master branch is automatically built and deployed to [github pages](https://statabs-test.github.io/indikatoren/) via [travis-ci](https://travis-ci.org/statabs-test/indikatoren) - thus no local build necessary. 
 - For a local build: Rebuild the project to regenerate the json databases for indikatorensets (in folder 'metadata/sets') and for all indikatoren (file metadata/portal/indikatoren.js): 
 ```javascript
@@ -26,7 +42,7 @@ npm run build
 ``` 
 
 ### Add or Update Chart Configurations
-- Copy the chart configuration file named _id_.js into the folder 'charts/templates'.
+- Copy the chart configuration file named _id_.js into the folder 'charts/templates'. The file needs to contain a self-calling function that returns the Highchart configuration details that differ from the chart's template. At least the "series" node is required. 
 - On test system (https://github.com/statabs-test/indikatoren), the master branch is automatically built and deployed to [github pages](https://statabs-test.github.io/indikatoren/) via [travis-ci](https://travis-ci.org/statabs-test/indikatoren) - thus no local build necessary. 
 - For a local build: Rebuild the project to regenerate metadata databases, final chart configurations, and svg thumbnail images for all indicators: 
 ```javascript
