@@ -1,5 +1,5 @@
 ﻿{"title":"CO<sub>2</sub>-Emissionen",
-"subtitle":"CO<sub>2</sub>-Emissionen pro Kopf",
+"subtitle":"Tonnen",
 "kuerzel":"I.02.12.04299",
 "kuerzelKunde":"0808",
 "description":"CO<sub>2</sub>-Emissionen",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-06-0808' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-06-0808' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

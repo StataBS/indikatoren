@@ -1,5 +1,5 @@
 ﻿{"title":"Bevölkerung",
-"subtitle":"Wohnbevölkerung",
+"subtitle":"Anzahl Personen",
 "kuerzel":"I.01.1.04318",
 "kuerzelKunde":"1702",
 "description":"Bevölkerung",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-01-1702' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-01-1702' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

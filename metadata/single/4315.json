@@ -1,5 +1,5 @@
 ﻿{"title":"Investitionen in den Schutz vor Naturgefahren",
-"subtitle":"",
+"subtitle":"Tausend CHF",
 "kuerzel":"I.02.11.04315",
 "kuerzelKunde":"0704",
 "description":"Investitionen in den Schutz vor Naturgefahren",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-07-0704' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Wald beider Basel; Tiefbauamt Basel-Stadt"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-07-0704' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

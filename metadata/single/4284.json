@@ -1,5 +1,5 @@
 ﻿{"title":"Biotopwert",
-"subtitle":"",
+"subtitle":"Hektaren",
 "kuerzel":"I.07.1.04284",
 "kuerzelKunde":"1509",
 "description":"Biotopwert",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-15-1509' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Schweizerisches Landesforstinventar (LFI)"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-15-1509' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

@@ -1,5 +1,5 @@
 ﻿{"title":"Gelöster Organischer Kohlenstoff (DOC)",
-"subtitle":"",
+"subtitle":"Milligramm pro Liter",
 "kuerzel":"I.02.19.04236",
 "kuerzelKunde":"1607",
 "description":"Gelöster Organischer Kohlenstoff (DOC)",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-16-1607' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["ProRheno AG"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-16-1607' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

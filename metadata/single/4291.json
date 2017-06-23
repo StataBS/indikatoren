@@ -1,5 +1,5 @@
 ﻿{"title":"Gepflegte Jungwaldfläche",
-"subtitle":"",
+"subtitle":"Hektaren",
 "kuerzel":"I.07.1.04291",
 "kuerzelKunde":"1512",
 "description":"Gepflegte Jungwaldfläche",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-15-1512' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Landwirtschaftliches Zentrum Ebenrain"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-15-1512' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

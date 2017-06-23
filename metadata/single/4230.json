@@ -1,5 +1,5 @@
 ﻿{"title":"Bruttoenergieverbrauch nach Energieträger",
-"subtitle":"",
+"subtitle":"Gigawattstunden",
 "kuerzel":"I.08.1.04230",
 "kuerzelKunde":"0602",
 "description":"Bruttoenergieverbrauch nach Energieträger",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-06-0602' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-06-0602' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

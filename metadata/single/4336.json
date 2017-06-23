@@ -1,5 +1,5 @@
 ﻿{"title":"Verbrennungsrückstände",
-"subtitle":"",
+"subtitle":"Tonnen",
 "kuerzel":"I.02.6.04336",
 "kuerzelKunde":"0105",
 "description":"Verbrennungsrückstände",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-01-0105' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Industrielle Werke Basel (IWB)"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-01-0105' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

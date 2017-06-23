@@ -1,5 +1,5 @@
 ﻿{"title":"Nachhaltige Holznutzung",
-"subtitle":"",
+"subtitle":"Prozent",
 "kuerzel":"I.07.1.05797",
 "kuerzelKunde":"1504",
 "description":"Nachhaltige Holznutzung",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-15-1504' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Wald beider Basel"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-15-1504' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

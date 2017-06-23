@@ -1,5 +1,5 @@
 ﻿{"title":"Energiepreise",
-"subtitle":"",
+"subtitle":"Indexwert (Basis Dezember 2010 = 100)",
 "kuerzel":"I.05.3.04222",
 "kuerzelKunde":"0601",
 "description":"Energiepreise",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-06-0601' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-06-0601' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

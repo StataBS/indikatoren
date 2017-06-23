@@ -1,5 +1,5 @@
 ﻿{"title":"Ozonschichtabbauende Stoffe in Kälteanlagen",
-"subtitle":"",
+"subtitle":"Kilogramm",
 "kuerzel":"I.02.17.04293",
 "kuerzelKunde":"1303",
 "description":"Ozonschichtabbauende Stoffe in Kälteanlagen",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-13-1303' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Umwelt"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-13-1303' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

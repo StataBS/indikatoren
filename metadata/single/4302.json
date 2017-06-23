@@ -1,5 +1,5 @@
 ﻿{"title":"CO<sub>2</sub>-Emissionen Neuzulassungen",
-"subtitle":"",
+"subtitle":"Gramm pro Kilometer",
 "kuerzel":"I.02.12.04302",
 "kuerzelKunde":"0806",
 "description":"CO<sub>2</sub>-Emissionen Neuzulassungen",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-08-0806' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-08-0806' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

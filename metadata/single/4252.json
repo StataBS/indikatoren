@@ -1,5 +1,5 @@
 ﻿{"title":"Gewicht der Landwirtschaftsmaschinen",
-"subtitle":"",
+"subtitle":"Anzahl Landwirtschaftsmaschinen",
 "kuerzel":"I.07.1.04252",
 "kuerzelKunde":"0505",
 "description":"Gewicht der Landwirtschaftsmaschinen",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-03-0505' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-03-0505' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

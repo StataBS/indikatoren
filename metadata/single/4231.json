@@ -1,5 +1,5 @@
 ﻿{"title":"AOX-Fracht Abwasser",
-"subtitle":"AOX-Fracht am Auslauf der ARA",
+"subtitle":"Milligramm pro Liter",
 "kuerzel":"I.02.19.04231",
 "kuerzelKunde":"1604",
 "description":"AOX-Fracht Abwasser",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-16-1604' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["ProRheno AG"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-16-1604' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

@@ -1,5 +1,5 @@
 ﻿{"title":"Ausbaugrad der Abwasserreinigungsanlagen",
-"subtitle":"",
+"subtitle":"Prozent",
 "kuerzel":"I.02.19.04239",
 "kuerzelKunde":"1614",
 "description":"Ausbaugrad der Abwasserreinigungsanlagen",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-16-1614' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["ProRheno AG"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-16-1614' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

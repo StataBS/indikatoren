@@ -1,5 +1,5 @@
 ﻿{"title":"Feinstaub-Immissionen",
-"subtitle":"Jahresmittelwert für Feinstaub",
+"subtitle":"Mikrogramm pro Kubikmeter",
 "kuerzel":"I.02.15.04278",
 "kuerzelKunde":"1109",
 "description":"Feinstaub-Immissionen",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-11-1109' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Lufthygieneamt beider Basel"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-11-1109' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

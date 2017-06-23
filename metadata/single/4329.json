@@ -1,5 +1,5 @@
 ﻿{"title":"Erdbebenertüchtigung von Bauwerken",
-"subtitle":"",
+"subtitle":"Anzahl Bauwerke",
 "kuerzel":"I.09.11.04329",
 "kuerzelKunde":"0703",
 "description":"Erdbebenertüchtigung von Bauwerken",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-07-0703' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bau- und Gastgewerbeinspektorat Basel-Stadt"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-07-0703' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

@@ -1,5 +1,5 @@
 ﻿{"title":"Medikamentenkonsum",
-"subtitle":"",
+"subtitle":"Prozent",
 "kuerzel":"I.14.4.04241",
 "kuerzelKunde":"1617",
 "description":"Medikamentenkonsum",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-16-1617' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-16-1617' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

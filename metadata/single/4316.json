@@ -1,5 +1,5 @@
 ﻿{"title":"Gebäudeschäden durch Hochwasser und Rutschungen",
-"subtitle":"",
+"subtitle":"Anzahl Schadenfälle; Tausend CHF (rechte Skala)",
 "kuerzel":"I.09.11.04316",
 "kuerzelKunde":"0705",
 "description":"Gebäudeschäden durch Hochwasser und Rutschungen",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-07-0705' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Gebäudeversicherung des Kantons Basel-Stadt"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-07-0705' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

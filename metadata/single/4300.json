@@ -1,5 +1,5 @@
 ﻿{"title":"Hitzetage",
-"subtitle":"",
+"subtitle":"Anzahl Tage",
 "kuerzel":"I.02.12.04300",
 "kuerzelKunde":"0801",
 "description":"Hitzetage",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-08-0801' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Meteorologischer Verein der Region Basel"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-08-0801' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

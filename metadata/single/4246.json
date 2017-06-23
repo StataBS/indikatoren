@@ -1,5 +1,5 @@
 ﻿{"title":"Betriebseinheiten im Geltungsbereich der Störfallverordnung (StFV)",
-"subtitle":"",
+"subtitle":"Anzahl Betriebseinheiten",
 "kuerzel":"I.02.18.04246",
 "kuerzelKunde":"1401",
 "description":"Betriebseinheiten im Geltungsbereich der Störfallverordnung (StFV)",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-14-1401' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Kantonales Laboratorium Basel-Stadt"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-14-1401' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

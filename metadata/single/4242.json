@@ -1,5 +1,5 @@
 ﻿{"title":"Trinkwasseraufbereitung",
-"subtitle":"",
+"subtitle":"Anzahl Anlagen",
 "kuerzel":"I.02.19.04242",
 "kuerzelKunde":"1615",
 "description":"Trinkwasseraufbereitung",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-16-1615' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":false,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":[],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-16-1615' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

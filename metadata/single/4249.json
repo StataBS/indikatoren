@@ -1,5 +1,5 @@
 ﻿{"title":"Bodennutzung",
-"subtitle":"",
+"subtitle":"Hektaren",
 "kuerzel":"I.02.10.04249",
 "kuerzelKunde":"0506",
 "description":"Bodennutzung",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-05-0506' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-05-0506' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

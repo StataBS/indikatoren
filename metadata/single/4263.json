@@ -1,5 +1,5 @@
 ﻿{"title":"Hochsicherheitslaboratorien in Biotechnologiebetrieben",
-"subtitle":"",
+"subtitle":"Anzahl Laboratorien",
 "kuerzel":"I.02.9.04263",
 "kuerzelKunde":"0401",
 "description":"Hochsicherheitslaboratorien in Biotechnologiebetrieben",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-04-0401' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Umwelt"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-04-0401' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

@@ -1,5 +1,5 @@
 ﻿{"title":"Mobilfunksendeanlagen",
-"subtitle":"",
+"subtitle":"Anzahl Anlagen",
 "kuerzel":"I.02.16.04296",
 "kuerzelKunde":"1204",
 "description":"Mobilfunksendeanlagen",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-12-1204' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Lufthygieneamt beider Basel"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-12-1204' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

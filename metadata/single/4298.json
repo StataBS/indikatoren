@@ -1,5 +1,5 @@
 ﻿{"title":"Elektroautos",
-"subtitle":"",
+"subtitle":"Anzahl Fahrzeuge",
 "kuerzel":"I.11.1.04298",
 "kuerzelKunde":"0805",
 "description":"Elektroautos",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-08-0805' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-08-0805' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

@@ -1,5 +1,5 @@
 ﻿{"title":"Siedlungserneuerung",
-"subtitle":"",
+"subtitle":"Verdichtungsgrad (neuerstellte/abgebrochene Wohnungen)",
 "kuerzel":"I.09.1.04317",
 "kuerzelKunde":"0904",
 "description":"Siedlungserneuerung",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-05-0904' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":false,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":[],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-05-0904' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

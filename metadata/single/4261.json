@@ -1,5 +1,5 @@
 ﻿{"title":"Altlastenrechtlich beurteilte Baugesuche",
-"subtitle":"",
+"subtitle":"Anzahl Standorte",
 "kuerzel":"I.02.7.04261",
 "kuerzelKunde":"0208",
 "description":"Altlastenrechtlich beurteilte Baugesuche",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-02-0208' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-02-0208' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

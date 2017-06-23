@@ -1,5 +1,5 @@
 ﻿{"title":"Stromverbrauch pro Einwohner",
-"subtitle":"",
+"subtitle":"Megawattstunden",
 "kuerzel":"I.08.1.04321",
 "kuerzelKunde":"0607",
 "description":"Stromverbrauch pro Einwohner",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-06-0607' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-06-0607' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }

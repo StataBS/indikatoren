@@ -1,5 +1,5 @@
 ﻿{"title":"Nutzungsdruck",
-"subtitle":"",
+"subtitle":"Anzahl bewilligte Gesuche",
 "kuerzel":"I.07.1.04283",
 "kuerzelKunde":"1508",
 "description":"Nutzungsdruck",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"",
+"erlaeuterungen":"Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-15-1508' target='_blank'>Umweltberichts beider Basel</a>.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Wald beider Basel"],
-"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-15-1508' target='_blank'>Umweltberichts beider Basel</a>."]
+"externalLinks":[""]
 }
