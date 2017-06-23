@@ -1,33 +1,33 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h547v239H0z"/>
+            <path fill="none" d="M0 0h432v254H0z"/>
         </clipPath>
     </defs>
-    <rect fill="#fbfbfb" class="highcharts-background" width="600" height="400" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M43 90h547v239H43z"/>
-    <text transform="translate(10 436)" class="highcharts-label" cursor="pointer">
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M43 90h432v254H43z"/>
+    <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M88.5 90v239m0-239v239m45-239v239m0-239v239m46-239v239m0-239v239m45-239v239m0-239v239m46-239v239m0-239v239m46-239v239m0-239v239m45-239v239m0-239v239m46-239v239m0-239v239m45-239v239m0-239v239m46-239v239m0-239v239m45-239v239m0-239v239m46-239v239m0-239v239M42.5 90v239m0-239v239"/>
+        <path fill="none" class="highcharts-grid-line" d="M78.5 90v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254M42.5 90v254m0-254v254"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 329.5h547m-547-60h547m-547-59h547m-547-60h547m-547-61h547"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 344.5h432m-432-63h432m-432-64h432m-432-63h432m-432-65h432"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M43 90h547v239H43z"/>
+    <path fill="none" class="highcharts-plot-border" d="M43 90h432v254H43z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M43 329.5h547"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M43 344.5h432"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M43 90v239"/>
+        <path fill="none" class="highcharts-axis-line" d="M43 90v254"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M590 90v239"/>
+        <path fill="none" class="highcharts-axis-line" d="M475 90v254"/>
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 90)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" d="M12 190h22v50H12zM57 66h22v174H57zm46-48h22v222h-22zm46 0h22v222h-22zm45 11h22v211h-22zm46 3h22v208h-22zm45 9h22v199h-22zm46 9h22v190h-22zm46 10h22v180h-22zm45 36h22v144h-22zm46 14h22v130h-22zm45 1h22v129h-22z"/>
+            <path fill="#FF8028" class="highcharts-point" d="M9 202h18v53H9zM45 70h18v185H45zm36-51h18v236H81zm36 1h18v235h-18zm36 11h18v224h-18zm36 3h18v221h-18zm36 10h18v211h-18zm36 9h18v202h-18zm36 11h18v191h-18zm36 38h18v153h-18zm36 15h18v138h-18zm36 1h18v137h-18z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
@@ -46,61 +46,61 @@
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
-        <text x="65.792" y="348">
+        <text x="61" y="363">
             2005
         </text>
-        <text x="111.375" y="348">
+        <text x="97" y="363">
             2006
         </text>
-        <text x="156.958" y="348">
+        <text x="133" y="363">
             2007
         </text>
-        <text x="202.542" y="348">
+        <text x="169" y="363">
             2008
         </text>
-        <text x="248.125" y="348">
+        <text x="205" y="363">
             2009
         </text>
-        <text x="293.708" y="348">
+        <text x="241" y="363">
             2010
         </text>
-        <text x="339.292" y="348">
+        <text x="277" y="363">
             2011
         </text>
-        <text x="384.875" y="348">
+        <text x="313" y="363">
             2012
         </text>
-        <text x="430.458" y="348">
+        <text x="349" y="363">
             2013
         </text>
-        <text x="476.042" y="348">
+        <text x="385" y="363">
             2014
         </text>
-        <text x="521.625" y="348">
+        <text x="421" y="363">
             2015
         </text>
-        <text x="567.208" y="348">
+        <text x="457" y="363">
             2016
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
-        <text x="28" y="334">
+        <text x="28" y="349">
             <tspan>0</tspan>
         </text>
-        <text x="28" y="274">
+        <text x="28" y="285">
             <tspan>10k</tspan>
         </text>
-        <text x="28" y="214">
+        <text x="28" y="222">
             <tspan>20k</tspan>
         </text>
-        <text x="28" y="154">
+        <text x="28" y="158">
             <tspan>30k</tspan>
         </text>
         <text x="28" y="95">
             <tspan>40k</tspan>
         </text>
     </g>
-    <text x="10" class="highcharts-credits" y="373" cursor="default" color="#000" font-size=".8em">
+    <text x="10" class="highcharts-credits" y="388" cursor="default" color="#000" font-size=".8em">
         <tspan>Quelle: Bundesamt für Umwelt</tspan>
     </text>
 </svg>

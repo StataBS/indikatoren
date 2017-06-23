@@ -1,33 +1,33 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h547v239H0z"/>
+            <path fill="none" d="M0 0h432v254H0z"/>
         </clipPath>
     </defs>
-    <rect fill="#fbfbfb" class="highcharts-background" width="600" height="400" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M43 90h547v239H43z"/>
-    <text transform="translate(10 436)" class="highcharts-label" cursor="pointer">
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M43 90h432v254H43z"/>
+    <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M97.5 90v239m0-239v239m54-239v239m0-239v239m55-239v239m0-239v239m55-239v239m0-239v239m55-239v239m0-239v239m54-239v239m0-239v239m55-239v239m0-239v239m55-239v239m0-239v239m54-239v239m0-239v239m55-239v239m0-239v239M42.5 90v239m0-239v239"/>
+        <path fill="none" class="highcharts-grid-line" d="M85.5 90v254m0-254v254m43-254v254m0-254v254m44-254v254m0-254v254m43-254v254m0-254v254m43-254v254m0-254v254m43-254v254m0-254v254m43-254v254m0-254v254m44-254v254m0-254v254m43-254v254m0-254v254m43-254v254m0-254v254M42.5 90v254m0-254v254"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 329.5h547m-547-48h547m-547-48h547m-547-47h547m-547-48h547m-547-49h547"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 344.5h432m-432-51h432m-432-51h432m-432-50h432m-432-51h432m-432-52h432"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M43 90h547v239H43z"/>
+    <path fill="none" class="highcharts-plot-border" d="M43 90h432v254H43z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M43 329.5h547"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M43 344.5h432"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M43 90v239"/>
+        <path fill="none" class="highcharts-axis-line" d="M43 90v254"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M590 90v239"/>
+        <path fill="none" class="highcharts-axis-line" d="M475 90v254"/>
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 90)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" d="M14 55h27v185H14zm55 4h27v181H69zm55 6h27v175h-27zm54 9h27v166h-27zm55 6h27v160h-27zm55 5h27v155h-27zm54 7h27v148h-27zm55 3h27v145h-27zm55 4h27v141h-27zm55 4h27v137h-27z"/>
+            <path fill="#FF8028" class="highcharts-point" d="M11 59h21v196H11zm43 3h21v193H54zm44 7h21v186H98zm43 9h21v177h-21zm43 7h21v170h-21zm43 5h21v165h-21zm43 7h21v158h-21zm44 4h21v154h-21zm43 4h21v150h-21zm43 5h21v145h-21z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
@@ -46,58 +46,58 @@
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
-        <text x="70.35" y="348">
+        <text x="64.6" y="363">
             2006
         </text>
-        <text x="125.05" y="348">
+        <text x="107.8" y="363">
             2007
         </text>
-        <text x="179.75" y="348">
+        <text x="151" y="363">
             2008
         </text>
-        <text x="234.45" y="348">
+        <text x="194.2" y="363">
             2009
         </text>
-        <text x="289.15" y="348">
+        <text x="237.4" y="363">
             2010
         </text>
-        <text x="343.85" y="348">
+        <text x="280.6" y="363">
             2011
         </text>
-        <text x="398.55" y="348">
+        <text x="323.8" y="363">
             2012
         </text>
-        <text x="453.25" y="348">
+        <text x="367" y="363">
             2013
         </text>
-        <text x="507.95" y="348">
+        <text x="410.2" y="363">
             2014
         </text>
-        <text x="562.65" y="348">
+        <text x="453.4" y="363">
             2015
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
-        <text x="28" y="334">
+        <text x="28" y="349">
             <tspan>0</tspan>
         </text>
-        <text x="28" y="286">
+        <text x="28" y="298">
             <tspan>50</tspan>
         </text>
-        <text x="28" y="238">
+        <text x="28" y="247">
             <tspan>100</tspan>
         </text>
-        <text x="28" y="190">
+        <text x="28" y="196">
             <tspan>150</tspan>
         </text>
-        <text x="28" y="142">
+        <text x="28" y="145">
             <tspan>200</tspan>
         </text>
         <text x="28" y="95">
             <tspan>250</tspan>
         </text>
     </g>
-    <text x="10" class="highcharts-credits" y="373" cursor="default" color="#000" font-size=".8em">
+    <text x="10" class="highcharts-credits" y="388" cursor="default" color="#000" font-size=".8em">
         <tspan>Quelle: Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Motorfahrzeugkontrolle Basel-Landschaft</tspan>
     </text>
 </svg>

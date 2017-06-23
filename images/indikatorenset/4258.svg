@@ -1,45 +1,45 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h547v187H0z"/>
+            <path fill="none" d="M0 0h432v216H0z"/>
         </clipPath>
     </defs>
-    <rect fill="#fbfbfb" class="highcharts-background" width="600" height="400" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M43 142h547v187H43z"/>
-    <text transform="translate(10 436)" class="highcharts-label" cursor="pointer">
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M43 128h432v216H43z"/>
+    <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M589.5 142v187m0-187v187m-547-187v187m0-187v187"/>
+        <path fill="none" class="highcharts-grid-line" d="M474.5 128v216m0-216v216m-432-216v216m0-216v216"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 329.5h547m-547-62h547m-547-63h547m-547-63h547"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 344.5h432m-432-72h432m-432-72h432m-432-73h432"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M43 142h547v187H43z"/>
+    <path fill="none" class="highcharts-plot-border" d="M43 128h432v216H43z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M43 329.5h547"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M43 344.5h432"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M43 142v187"/>
+        <path fill="none" class="highcharts-axis-line" d="M43 128v216"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M590 142v187"/>
+        <path fill="none" class="highcharts-axis-line" d="M475 128v216"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 142)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" d="M142 52h263v57H142z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 128)" clip-path="url(#a)">
+            <path fill="#FF8028" class="highcharts-point" d="M112 60h208v66H112z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 142)" clip-path="url(#a)">
-            <path fill="#DC440E" class="highcharts-point" d="M142 109h263v12H142z"/>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 128)" clip-path="url(#a)">
+            <path fill="#DC440E" class="highcharts-point" d="M112 126h208v14H112z"/>
         </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 142)" clip-path="url(#a)">
-            <path fill="#B00000" class="highcharts-point" d="M142 121h263v60H142z"/>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 128)" clip-path="url(#a)">
+            <path fill="#B00000" class="highcharts-point" d="M112 140h208v69H112z"/>
         </g>
-        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 142)" clip-path="url(#a)">
-            <path fill="#661200" class="highcharts-point" d="M142 181h263v6H142z"/>
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 128)" clip-path="url(#a)">
+            <path fill="#661200" class="highcharts-point" d="M112 209h208v7H112z"/>
         </g>
-        <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 142)" clip-path="url(#a)">
-            <path fill="#D3E2E4" class="highcharts-point" d="M142 187h263v1H142z"/>
+        <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 128)" clip-path="url(#a)">
+            <path fill="#D3E2E4" class="highcharts-point" d="M112 216h208v1H112z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
@@ -48,8 +48,8 @@
     <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
         <tspan>Anzahl Standorte</tspan>
     </text>
-    <g class="highcharts-legend" transform="translate(10 54)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="506" height="76"/>
+    <g class="highcharts-legend" transform="translate(10 40)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="412" height="76"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
                 <tspan>BS: Ohne Untersuchungsbedarf</tspan>
@@ -69,36 +69,36 @@
             <path fill="#B00000" class="highcharts-point" d="M14 30h12v12H14z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(317.64 26)">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 45)">
                 <tspan>BS: Mit Überwachungsbedarf</tspan>
             </text>
-            <path fill="#661200" class="highcharts-point" d="M319.64 30h12v12h-12z"/>
+            <path fill="#661200" class="highcharts-point" d="M14 49h12v12H14z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 45)">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(208.953 45)">
                 <tspan>BS: Mit Sanierungsbedarf</tspan>
             </text>
-            <path fill="#D3E2E4" class="highcharts-point" d="M14 49h12v12H14z"/>
+            <path fill="#D3E2E4" class="highcharts-point" d="M210.953 49h12v12h-12z"/>
         </g>
     </g>
-    <text x="316.5" text-anchor="middle" y="348" color="#000" cursor="default" font-size=".9em" class="highcharts-axis-labels highcharts-xaxis-labels">
+    <text x="259" text-anchor="middle" y="363" color="#000" cursor="default" font-size=".9em" class="highcharts-axis-labels highcharts-xaxis-labels">
         <tspan>2016</tspan>
     </text>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
-        <text x="28" y="334">
+        <text x="28" y="349">
             <tspan>0</tspan>
         </text>
-        <text x="28" y="271">
+        <text x="28" y="277">
             <tspan>200</tspan>
         </text>
-        <text x="28" y="209">
+        <text x="28" y="205">
             <tspan>400</tspan>
         </text>
-        <text x="28" y="147">
+        <text x="28" y="133">
             <tspan>600</tspan>
         </text>
     </g>
-    <text x="10" class="highcharts-credits" y="373" cursor="default" color="#000" font-size=".8em">
+    <text x="10" class="highcharts-credits" y="388" cursor="default" color="#000" font-size=".8em">
         <tspan>Quelle: Amt für Umwelt und Energie Basel-Stadt; Amt für Umweltschutz und Energie Basel-Landschaft</tspan>
     </text>
 </svg>

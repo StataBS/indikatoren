@@ -105,8 +105,8 @@ function injectMetadataToChartConfig(options, data, indikatorensetView, suppress
   options['exporting']['filename'] = data.kuerzel;
   //changes for charts from Umweltbericht
   if (data.kennzahlenset == "Umwelt"){
-    options['chart']["width"] =  485;
-    options['chart']["height"] = 415;
+    //options['chart']["width"] =  485;
+    //options['chart']["height"] = 415;
     delete options.exporting.buttons;
   }
   return options;

@@ -107,8 +107,8 @@
         "y": -30
       }
     },
-    "width": null,
-    "height": null,
+    "width": "485",
+    "height": "415",
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "plotBorderColor": "#cccccc",
@@ -218,7 +218,7 @@
       "fontSize": "1.1em",
       "fontWeight": "bold",
       "fill": "#000000",
-      "width": "375px"
+      "width": "385px"
     },
     "text": "In der Luft stabile Stoffe in Kälte- und Wärmepumpenanlagen",
     "align": "left",
@@ -230,7 +230,7 @@
       "color": "#000000",
       "fontSize": "0.9em",
       "fill": "#000000",
-      "width": "411px"
+      "width": "421px"
     },
     "text": "Kilogramm",
     "align": "left",
@@ -1012,7 +1012,7 @@
     "symbolPadding": 5,
     "verticalAlign": "top",
     "x": 0,
-    "y": 44.203125,
+    "y": 30,
     "title": {
       "style": {
         "fontWeight": "bold"

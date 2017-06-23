@@ -1,45 +1,45 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h541v220H0z"/>
+            <path fill="none" d="M0 0h426v235H0z"/>
         </clipPath>
     </defs>
-    <rect fill="#fbfbfb" class="highcharts-background" width="600" height="400" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M49 109h541v220H49z"/>
-    <text transform="translate(10 436)" class="highcharts-label" cursor="pointer">
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M49 109h426v235H49z"/>
+    <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M138.5 109v220m0-220v220m90-220v220m0-220v220m91-220v220m0-220v220m90-220v220m0-220v220m90-220v220m0-220v220m90-220v220m0-220v220m-541-220v220m0-220v220"/>
+        <path fill="none" class="highcharts-grid-line" d="M119.5 109v235m0-235v235m71-235v235m0-235v235m71-235v235m0-235v235m71-235v235m0-235v235m71-235v235m0-235v235m71-235v235m0-235v235m-426-235v235m0-235v235"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M49 329.5h541m-541-55h541m-541-55h541m-541-55h541m-541-56h541"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M49 344.5h426m-426-59h426m-426-58h426m-426-59h426m-426-60h426"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M49 109h541v220H49z"/>
+    <path fill="none" class="highcharts-plot-border" d="M49 109h426v235H49z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M49 329.5h541"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M49 344.5h426"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M49 109v220"/>
+        <path fill="none" class="highcharts-axis-line" d="M49 109v235"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M590 109v220"/>
+        <path fill="none" class="highcharts-axis-line" d="M475 109v235"/>
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 109)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" d="M23 59h44v162H23zm91 3h44v159h-44zm90-14h44v173h-44z"/>
+            <path fill="#FF8028" class="highcharts-point" d="M18 63h35v173H18zm71 3h35v170H89zm71-15h35v185h-35z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 109)" clip-path="url(#a)">
-            <path fill="#DC440E" class="highcharts-point" d="M294 40h44v142h-44zm90 9h44v125h-44zm90 13h44v108h-44z"/>
+            <path fill="#DC440E" class="highcharts-point" d="M231 43h35v151h-35zm71 10h35v133h-35zm71 13h35v115h-35z"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 109)" clip-path="url(#a)">
-            <path fill="#B00000" class="highcharts-point" d="M294 182h44v23h-44zm90-8h44v29h-44zm90-4h44v31h-44z"/>
+            <path fill="#B00000" class="highcharts-point" d="M231 194h35v25h-35zm71-8h35v31h-35zm71-5h35v33h-35z"/>
         </g>
         <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 109)" clip-path="url(#a)">
-            <path fill="#661200" class="highcharts-point" d="M294 205h44v16h-44zm90-2h44v17h-44zm90-2h44v19h-44z"/>
+            <path fill="#661200" class="highcharts-point" d="M231 219h35v17h-35zm71-2h35v18h-35zm71-3h35v20h-35z"/>
         </g>
         <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 109)" clip-path="url(#a)">
-            <path fill="#D3E2E4" class="highcharts-point" d="M384 220h44v1h-44zm90 0h44v1h-44z"/>
+            <path fill="#D3E2E4" class="highcharts-point" d="M302 235h35v1h-35zm71-1h35v2h-35z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
@@ -49,7 +49,7 @@
         <tspan>Gigawattstunden</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 40)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="564" height="57"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="448" height="57"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
                 <tspan>BS: Stromverbrauch total (BS bis 2004)</tspan>
@@ -63,62 +63,62 @@
             <path fill="#DC440E" class="highcharts-point" d="M264.906 11h12v12h-12z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(445.25 7)">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 26)">
                 <tspan>BS: Wasserkraft</tspan>
             </text>
-            <path fill="#B00000" class="highcharts-point" d="M447.25 11h12v12h-12z"/>
+            <path fill="#B00000" class="highcharts-point" d="M14 30h12v12H14z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 26)">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(139.61 26)">
                 <tspan>BS: Thermische Erzeugung</tspan>
             </text>
-            <path fill="#661200" class="highcharts-point" d="M14 30h12v12H14z"/>
+            <path fill="#661200" class="highcharts-point" d="M141.61 30h12v12h-12z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(199.64 26)">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(327.25 26)">
                 <tspan>BS: Photovoltaik</tspan>
             </text>
-            <path fill="#D3E2E4" class="highcharts-point" d="M201.64 30h12v12h-12z"/>
+            <path fill="#D3E2E4" class="highcharts-point" d="M329.25 30h12v12h-12z"/>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
-        <text x="94.083" y="348">
-            <tspan>1995</tspan>
+        <text x="84.5" y="363">
+            1995
         </text>
-        <text x="184.25" y="348">
-            <tspan>2000</tspan>
+        <text x="155.5" y="363">
+            2000
         </text>
-        <text x="274.417" y="348">
-            <tspan>2004</tspan>
+        <text x="226.5" y="363">
+            2004
         </text>
-        <text x="364.583" y="348">
-            <tspan>2010</tspan>
+        <text x="297.5" y="363">
+            2010
         </text>
-        <text x="454.75" y="348">
-            <tspan>2012</tspan>
+        <text x="368.5" y="363">
+            2012
         </text>
-        <text x="544.917" y="348">
-            <tspan>2014</tspan>
+        <text x="439.5" y="363">
+            2014
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
-        <text x="34" y="334">
+        <text x="34" y="349">
             <tspan>0</tspan>
         </text>
-        <text x="34" y="279">
+        <text x="34" y="290">
             <tspan>500</tspan>
         </text>
-        <text x="34" y="224">
+        <text x="34" y="231">
             <tspan>1000</tspan>
         </text>
-        <text x="34" y="169">
+        <text x="34" y="172">
             <tspan>1500</tspan>
         </text>
         <text x="34" y="114">
             <tspan>2000</tspan>
         </text>
     </g>
-    <text x="10" class="highcharts-credits" y="373" cursor="default" color="#000" font-size=".8em">
+    <text x="10" class="highcharts-credits" y="388" cursor="default" color="#000" font-size=".8em">
         <tspan>Quelle: Statistisches Amt Basel-Stadt; Statistisches Amt Basel-Landschaft</tspan>
     </text>
 </svg>

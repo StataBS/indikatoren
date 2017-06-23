@@ -1,33 +1,33 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h559v239H0z"/>
+            <path fill="none" d="M0 0h444v241H0z"/>
         </clipPath>
     </defs>
-    <rect fill="#fbfbfb" class="highcharts-background" width="600" height="400" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M31 90h559v239H31z"/>
-    <text transform="translate(10 436)" class="highcharts-label" cursor="pointer">
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M31 90h444v241H31z"/>
+    <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M65.5 90v239m0-239v239m35-239v239m0-239v239m35-239v239m0-239v239m35-239v239m0-239v239m35-239v239m0-239v239m35-239v239m0-239v239m35-239v239m0-239v239m35-239v239m0-239v239m34-239v239m0-239v239m35-239v239m0-239v239m35-239v239m0-239v239m35-239v239m0-239v239m35-239v239m0-239v239m35-239v239m0-239v239m35-239v239m0-239v239m35-239v239m0-239v239M30.5 90v239m0-239v239"/>
+        <path fill="none" class="highcharts-grid-line" d="M58.5 90v241m0-241v241m28-241v241m0-241v241m27-241v241m0-241v241m28-241v241m0-241v241m28-241v241m0-241v241m28-241v241m0-241v241m27-241v241m0-241v241m28-241v241m0-241v241m28-241v241m0-241v241m28-241v241m0-241v241m27-241v241m0-241v241m28-241v241m0-241v241m28-241v241m0-241v241m28-241v241m0-241v241m27-241v241m0-241v241m28-241v241m0-241v241M30.5 90v241m0-241v241"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M31 329.5h559m-559-60h559m-559-59h559m-559-60h559m-559-61h559"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M31 331.5h444m-444-60h444m-444-60h444m-444-61h444m-444-61h444"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M31 90h559v239H31z"/>
+    <path fill="none" class="highcharts-plot-border" d="M31 90h444v241H31z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M31 329.5h559"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M31 331.5h444"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M31 90v239"/>
+        <path fill="none" class="highcharts-axis-line" d="M31 90v241"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M590 90v239"/>
+        <path fill="none" class="highcharts-axis-line" d="M475 90v241"/>
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(31 90)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" d="M9 210h17v30H9zm35 0h17v30H44zm35-30h17v60H79zm35 0h17v60h-17zm35 0h17v60h-17zm35 0h17v60h-17zm35-30h17v90h-17zm35-29h17v119h-17zm35 0h17v119h-17zm35 0h17v119h-17zm34 0h17v119h-17zm35-30h17v149h-17zm35 0h17v149h-17zm35-30h17v179h-17zm35 0h17v179h-17zm35 0h17v179h-17z"/>
+            <path fill="#FF8028" class="highcharts-point" d="M7 212h14v30H7zm28 0h14v30H35zm28-30h14v60H63zm27 0h14v60H90zm28 0h14v60h-14zm28 0h14v60h-14zm28-30h14v90h-14zm27-30h14v120h-14zm28 0h14v120h-14zm28 0h14v120h-14zm28 0h14v120h-14zm27-31h14v151h-14zm28 0h14v151h-14zm28-30h14v181h-14zm28 0h14v181h-14zm27 0h14v181h-14z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
@@ -45,74 +45,74 @@
             <path fill="#FF8028" class="highcharts-point" d="M14 11h12v12H14z"/>
         </g>
     </g>
-    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
-        <text x="48.469" y="348">
-            2001
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="47.468" transform="rotate(-45 47.468 347)" y="347">
+            <tspan>2001</tspan>
         </text>
-        <text x="83.406" y="348">
-            2002
+        <text x="75.218" transform="rotate(-45 75.218 347)" y="347">
+            <tspan>2002</tspan>
         </text>
-        <text x="118.344" y="348">
-            2003
+        <text x="102.968" transform="rotate(-45 102.968 347)" y="347">
+            <tspan>2003</tspan>
         </text>
-        <text x="153.281" y="348">
-            2004
+        <text x="130.718" transform="rotate(-45 130.718 347)" y="347">
+            <tspan>2004</tspan>
         </text>
-        <text x="188.219" y="348">
-            2005
+        <text x="158.468" transform="rotate(-45 158.468 347)" y="347">
+            <tspan>2005</tspan>
         </text>
-        <text x="223.156" y="348">
-            2006
+        <text x="186.218" transform="rotate(-45 186.218 347)" y="347">
+            <tspan>2006</tspan>
         </text>
-        <text x="258.094" y="348">
-            2007
+        <text x="213.968" transform="rotate(-45 213.968 347)" y="347">
+            <tspan>2007</tspan>
         </text>
-        <text x="293.031" y="348">
-            2008
+        <text x="241.718" transform="rotate(-45 241.718 347)" y="347">
+            <tspan>2008</tspan>
         </text>
-        <text x="327.969" y="348">
-            2009
+        <text x="269.468" transform="rotate(-45 269.468 347)" y="347">
+            <tspan>2009</tspan>
         </text>
-        <text x="362.906" y="348">
-            2010
+        <text x="297.218" transform="rotate(-45 297.218 347)" y="347">
+            <tspan>2010</tspan>
         </text>
-        <text x="397.844" y="348">
-            2011
+        <text x="324.968" transform="rotate(-45 324.968 347)" y="347">
+            <tspan>2011</tspan>
         </text>
-        <text x="432.781" y="348">
-            2012
+        <text x="352.718" transform="rotate(-45 352.718 347)" y="347">
+            <tspan>2012</tspan>
         </text>
-        <text x="467.719" y="348">
-            2013
+        <text x="380.468" transform="rotate(-45 380.468 347)" y="347">
+            <tspan>2013</tspan>
         </text>
-        <text x="502.656" y="348">
-            2014
+        <text x="408.218" transform="rotate(-45 408.218 347)" y="347">
+            <tspan>2014</tspan>
         </text>
-        <text x="537.594" y="348">
-            2015
+        <text x="435.968" transform="rotate(-45 435.968 347)" y="347">
+            <tspan>2015</tspan>
         </text>
-        <text x="572.531" y="348">
-            2016
+        <text x="463.718" transform="rotate(-45 463.718 347)" y="347">
+            <tspan>2016</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
-        <text x="16" y="334">
+        <text x="16" y="336">
             <tspan>0</tspan>
         </text>
-        <text x="16" y="274">
+        <text x="16" y="275">
             <tspan>2</tspan>
         </text>
-        <text x="16" y="214">
+        <text x="16" y="215">
             <tspan>4</tspan>
         </text>
-        <text x="16" y="154">
+        <text x="16" y="155">
             <tspan>6</tspan>
         </text>
         <text x="16" y="95">
             <tspan>8</tspan>
         </text>
     </g>
-    <text x="10" class="highcharts-credits" y="373" cursor="default" color="#000" font-size=".8em">
+    <text x="10" class="highcharts-credits" y="388" cursor="default" color="#000" font-size=".8em">
         <tspan>Quelle: Bundesamt für Umwelt</tspan>
     </text>
 </svg>
