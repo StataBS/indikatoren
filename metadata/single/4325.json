@@ -1,4 +1,4 @@
-{"title":"Motorfahrzeuge",
+﻿{"title":"Motorfahrzeuge",
 "subtitle":"",
 "kuerzel":"I.11.1.04325",
 "kuerzelKunde":"1704",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Der Motorfahrzeugbestand entspricht der Anzahl an verkehrsberechtigten Motorfahrzeugen, der Motorisierungsgrad der Anzahl Personenwagen pro 1000 Einwohner.<br><br>Die Daten basieren auf der Auswertung (Stichtag) der durch die Motorfahrzeugkontrollen Basel-Landschaft und Basel-Stadt zugelassenen Fahrzeuge. Der Motorfahrzeugbestand (linke Skala) umfasst die folgenden Fahrzeugkategorien:<br>- Personenwagen<br>- Lieferwagen<br>- Lastwagen<br>- Sattelschlepper<br>- Car, Autobus, Kleinbus<br>- Motorräder<br>- Übrige: Arbeitsmaschinen, Industrietraktoren etc.<br><br>Zur Berechnung des Motorisierungsgrades (rechte Skala) werden hingegen nur Personenwagen berücksichtigt. ",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-03-1704"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-03-1704' target='_blank'>Umweltberichts beider Basel</a>."]
 }

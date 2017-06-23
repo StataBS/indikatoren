@@ -1,4 +1,4 @@
-{"title":"Verbrennungsrückstände",
+﻿{"title":"Verbrennungsrückstände",
 "subtitle":"",
 "kuerzel":"I.02.6.04336",
 "kuerzelKunde":"0105",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Menge der in der Kehrichtverwertungsanlage (KVA) Basel anfallenden Verbrennungsrückstände (Schlacke, Filterstaub und Filterkuchen).<br><br>Berechnung auf Grundlage der Werte der Jahresberichte der Kehrichtverwertungsanlage Basel. Es werden nur die Anteile der Kantone Basel-Stadt und Basel-Landschaft berücksichtigt, basierend auf den jeweiligen Anlieferungsmengen bzw. deren Anteil an den gesamthaft verbrannten Abfällen. Die deponierten Verbrennungsrückstände sind in der totalen Menge deponierter Abfälle beider Kantone enthalten (Indikator \"Auf Deponien abgelagerte Abfälle\").",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Industrielle Werke Basel (IWB)"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-01-0105"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-01-0105' target='_blank'>Umweltberichts beider Basel</a>."]
 }

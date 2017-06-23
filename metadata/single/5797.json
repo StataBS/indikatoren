@@ -1,4 +1,4 @@
-{"title":"Nachhaltige Holznutzung",
+﻿{"title":"Nachhaltige Holznutzung",
 "subtitle":"",
 "kuerzel":"I.07.1.05797",
 "kuerzelKunde":"1504",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Verhältnis zwischen nachwachsender und genutzter Holzmenge.<br><br>Die Werte berechnen sich aus dem Verhältnis zwischen der effektiven Nutzung (angezeichnete Holzmenge im Bestand) und dem Hiebsatz (nachhaltig nutzbarer Zuwachs im bewirtschafteten Wald).<br>Datengrundlage: Die Zuwachsdaten stammen vom Stichprobennetz (Amt für Wald beider Basel) und Waldentwicklungsplänen, die Nutzungsdaten werden durch die Forstbetriebe erhoben (Anzeichnung im stehenden, bewirtschafteten Wald).",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Wald beider Basel"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-15-1504"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-15-1504' target='_blank'>Umweltberichts beider Basel</a>."]
 }

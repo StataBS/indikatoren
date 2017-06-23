@@ -1,4 +1,4 @@
-{"title":"Altlastenrechtlich beurteilte Baugesuche",
+﻿{"title":"Altlastenrechtlich beurteilte Baugesuche",
 "subtitle":"",
 "kuerzel":"I.02.7.04261",
 "kuerzelKunde":"0208",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Anzahl Baugesuche pro Jahr, welche altlastrechtlich beurteilt werden.<br><br>Die Daten basieren auf einer jährlichen Auswertung der kantonalen Kataster der belasteten Standorte.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-02-0208"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-02-0208' target='_blank'>Umweltberichts beider Basel</a>."]
 }

@@ -1,4 +1,4 @@
-{"title":"Biodiversitätsförderflächen in der Landwirtschaft",
+﻿{"title":"Biodiversitätsförderflächen in der Landwirtschaft",
 "subtitle":"",
 "kuerzel":"I.02.8.04307",
 "kuerzelKunde":"0305",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Entwicklung des Anteils der Biodiversitätsförderflächen (BFF) im Vergleich zur gesamten Landwirtschaftlichen Nutzfäche (LN).<br><br>Jährliche Auswertung der Vertragsflächen (Biodiversitätsförderflächen) im Landwirtschaftsgebiet (Vereinbarungen mit den Landwirten).",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Stadtgärtnerei Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-03-0305"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-03-0305' target='_blank'>Umweltberichts beider Basel</a>."]
 }

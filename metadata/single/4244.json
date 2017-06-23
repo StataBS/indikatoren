@@ -1,4 +1,4 @@
-{"title":"Organische Spurenstoffe in Gewässern",
+﻿{"title":"Organische Spurenstoffe in Gewässern",
 "subtitle":"",
 "kuerzel":"I.02.19.04244",
 "kuerzelKunde":"1612",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Die organischen Spurenstoffe umfassen eine grosse Anzahl an chemischen Stoffen, die unter anderem aus Medikamenten, Haushaltschemikalien, Industriechemikalien oder Pflanzenschutzmitteln stammen. Der Indikator zeigt die Anzahl Messungen von Spurenstoffen über 0,1 µg/l in der Rheinüberwachungsstation, die zu Ursachenabklärungen und Massnahmen zur Behebung der Verunreinigung geführt haben.<br><br>Die Rheinüberwachungsstation (RÜS) misst täglich eine grosse Anzahl von Spurenstoffen im Rhein. Werden bei Pflanzenschutzmitteln, Medikamenten oder anderen organischen Chemikalien Konzentrationen von über 0,1 µg/l festgestellt, werden Abklärungen zur Feststellung der Ursache der Belastung vorgenommen und Massnahmen zur Reduktion oder Beseitigung der Stoffe aus dem Rhein getroffen. ",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-16-1612"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-16-1612' target='_blank'>Umweltberichts beider Basel</a>."]
 }

@@ -1,4 +1,4 @@
-{"title":"Waldreservate",
+﻿{"title":"Waldreservate",
 "subtitle":"",
 "kuerzel":"I.07.1.04288",
 "kuerzelKunde":"1511",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Kumulierte Fläche der Waldreservate im Verhältnis zur gesamten Waldfläche.<br><br>Aufsummierung der kantonal geschützten Waldflächen (Schutz per Regierungsratsbeschluss oder langfristigem Dienstbarkeitsvertrag). Kommunale Unterschutzstellungen sind darin nicht enthalten. Der Ausgangswert stellt den Vorbestand bis und mit dem Jahr 1997 dar.<br>Die gesamte Waldfläche wird der Arealstatistik entnommen (Summe aller bestockten Flächen).",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Wald beider Basel"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-15-1511"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-15-1511' target='_blank'>Umweltberichts beider Basel</a>."]
 }

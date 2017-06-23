@@ -1,4 +1,4 @@
-{"title":"Wasserverbrauch Haushalte und Kleingewerbe",
+﻿{"title":"Wasserverbrauch Haushalte und Kleingewerbe",
 "subtitle":"",
 "kuerzel":"I.02.19.04233",
 "kuerzelKunde":"1605",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Jährliche Wassermenge ab dem öffentlichen Netz, welche durch Haushalte und Kleingewerbe verbraucht wird. Private Quellen und Grundwasserfassungen werden dabei nicht berücksichtigt. <br><br>Im Kanton Basel-Stadt werden die Daten zum Wasserverbrauch von den Industriellen Werke Basel (IWB) erhoben. <br>Im Kanton Basel-Landschaft werden die Daten im Rahmen der Wasserstatistik jährlich bei sämtlichen Gemeinden erhoben.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Industrielle Werke Basel (IWB)"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-16-1605"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-16-1605' target='_blank'>Umweltberichts beider Basel</a>."]
 }

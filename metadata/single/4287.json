@@ -1,4 +1,4 @@
-{"title":"Zwangsnutzungen ",
+﻿{"title":"Zwangsnutzungen ",
 "subtitle":"",
 "kuerzel":"I.07.1.04287",
 "kuerzelKunde":"1506",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Holzmenge, welche dem Wald nicht aufgrund einer waldbaulichen Planung, sondern infolge eingetretener Schäden (z.B. Windwurf, Lawinen, Insekten, Steinschlag) entnommen wurde.<br><br>Die Daten werden von den Forstbetrieben erhoben und jeweils im Rahmen des Jahresberichts an das Amt für Wald beider Basel gemeldet (Selbstdeklaration der Forstbetriebe). Für den Indikator werden die Angaben der Forstbetriebe beider Kantone aufsummiert.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Wald beider Basel"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-15-1506"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-15-1506' target='_blank'>Umweltberichts beider Basel</a>."]
 }

@@ -1,4 +1,4 @@
-{"title":"Eigenproduktion Strom",
+﻿{"title":"Eigenproduktion Strom",
 "subtitle":"",
 "kuerzel":"I.08.2.04224",
 "kuerzelKunde":"0605",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Menge an Strom, welche innerhalb des Kantonsgebiets produziert wird.<br><br>Die Daten werden im Rahmen der kantonalen Energiestatistik bei den Energieversorgungsunternehmen sowie bei Betreibern von grossen oder speziellen Anlagen (z.B. Elektrizitätsproduktion mittels Wärmekraftkoppelungsanlagen) erhoben. Die Elektrizitätsproduktion durch Photovoltaik wird basierend auf den Panelflächen abgeschätzt.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-06-0605"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-06-0605' target='_blank'>Umweltberichts beider Basel</a>."]
 }

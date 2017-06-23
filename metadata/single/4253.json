@@ -1,4 +1,4 @@
-{"title":"Bodenversiegelung",
+﻿{"title":"Bodenversiegelung",
 "subtitle":"",
 "kuerzel":"I.02.10.04253",
 "kuerzelKunde":"0502",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Fläche an versiegelten Böden. Von Bodenversiegelung spricht man, wenn die Bodenoberfläche mit praktisch undurchlässigen Materialien abgedeckt oder überdeckt wird. Der Austausch von Wasser, Luft und Energie zwischen Atmosphäre und Boden wird praktisch verhindert. Von Bedeutung sind dabei vor allem Gebäude, Verkehrsflächen, Energieversorgungsanlagen und Deponien. <br><br>Zu den versiegelten Böden werden in der Arealstatistik (Nomenklatur der Bodenbedeckung NOLC04) folgende Kategorien  gezählt:<br>- Befestigte Flächen (z.B. Verkehrsflächen)<br>- Gebäude<br>- Treibhäuser<br><br>Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopographie (Stichpunktprobenerhebung im Abstand von 100 x 100m; im Kanton Basel-Stadt 3'698 Punkte, im Kanton Basel-Landschaft 51'774 Punkte).<br><br>Für detaillierte Angaben zur Methodik siehe weiterführende Informationen.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-03-0502"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-03-0502' target='_blank'>Umweltberichts beider Basel</a>."]
 }

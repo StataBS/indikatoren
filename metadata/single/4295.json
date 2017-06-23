@@ -1,4 +1,4 @@
-{"title":"Hochspannungsleitungen",
+﻿{"title":"Hochspannungsleitungen",
 "subtitle":"",
 "kuerzel":"I.02.16.04295",
 "kuerzelKunde":"1203",
@@ -16,14 +16,14 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Länge der Trassen der Hochspannungsleitungen (220/380 kV) im Kanton Basel-Landschaft. Im Kanton Basel-Stadt verlaufen keine Hochspannungsleitungen.<br><br>Länge der sich im Eigentum der nationalen Netzgesellschaft Swissgrid befindlichen Hochspannungsleitungen. Bei den Längenangaben handelt es sich um Horizontallängen, d. h. Durchhänge und Höhe sind nicht berücksichtigt. <br>Auf einer Trasse können verschiedene Spannungen parallel geführt werden. Für die hier geführten Angaben ist jeweils die höchste Spannungsebene einer Trasse massgebend. Das Baujahr der Trassen liegt zwischen 1965 und 1968.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
-"visible":true,
-"visibleInPortal":true,
+"visible":false,
+"visibleInPortal":false,
 "parentId":null,
 "children":[],
 "renderLink":[],
 "quellenangabe":[],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-12-1203"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-12-1203' target='_blank'>Umweltberichts beider Basel</a>."]
 }

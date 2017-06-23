@@ -1,4 +1,4 @@
-{"title":"Bauzonenflächenbeanspruchung",
+﻿{"title":"Bauzonenflächenbeanspruchung",
 "subtitle":"",
 "kuerzel":"I.02.1.04309",
 "kuerzelKunde":"0902",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Fläche der Bauzone, welche pro Einwohner und Beschäftigten beansprucht wird. Der Indikator zeigt somit die Entwicklung der inneren Verdichtung innerhalb der bestehenden überbauten Wohnbauzonen.<br><br>Berechnungsart auf Grundlage der technischen Richtlinien Bauzonen vom 17.März 2014 (UVEK). Allerdings werden nicht die Gemeindewerte differenziert nach Wohn- Misch- und Zentrumszonen verwendet, sondern ein Wert für den Kanton für alle bebauten Wohn- Misch - und Zentrumszonen (Hauptnutzungen 11,13,14). Zur Berechnung der Fläche pro Einwohner wird die überbaute Fläche der Wohn-, Misch- und Zentrumszonen dividiert durch die Anzahl der Einwohner und Beschäftigten (Vollzeitäquivalente) innerhalb dieser Zonen.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Planungsamt Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-09-0902"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-09-0902' target='_blank'>Umweltberichts beider Basel</a>."]
 }

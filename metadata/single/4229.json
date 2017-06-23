@@ -1,4 +1,4 @@
-{"title":"Energieeffizienz",
+﻿{"title":"Energieeffizienz",
 "subtitle":"",
 "kuerzel":"I.08.1.04229",
 "kuerzelKunde":"0612",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Entwicklung des Energieverbrauchs im Verhältnis zum Bruttoinlandprodukt (BIP) und zur Bevölkerung.<br><br>Skalierung des Bruttoenergieverbrauchs über das Bruttoinlandprodukt (BIP) sowie die Wohnbevölkerung (mittlere Wohnbevölkerung). Sämtliche Werte werden mit dem Basisjahr 1995 indexiert. Die Daten zum BIP stammen von BAK Basel, die Angaben zur Bevölkerungsentwicklung werden den kantonalen Bevölkerungsstatistiken entnommen.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-06-0612"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-06-0612' target='_blank'>Umweltberichts beider Basel</a>."]
 }

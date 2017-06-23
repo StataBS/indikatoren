@@ -1,4 +1,4 @@
-{"title":"Anteil biologisch bewirtschafteter Landwirtschaftsfläche",
+﻿{"title":"Anteil biologisch bewirtschafteter Landwirtschaftsfläche",
 "subtitle":"",
 "kuerzel":"I.07.1.05799",
 "kuerzelKunde":"0511",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Anteil der biologisch bewirtschafteten Fläche in Prozent der gesamten landwirtschaftlichen Nutzfläche.<br><br>Die Daten werden im Rahmen der landwirtschaftlichen Betriebsstrukturerhebung vom Bundesamt für Statistik (BFS) erhoben. Die Erhebung basiert auf der Koordination der administrativen Daten, welche im Rahmen der Direktzahlungsverordnung anfallen.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-05-0511"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-05-0511' target='_blank'>Umweltberichts beider Basel</a>."]
 }

@@ -1,4 +1,4 @@
-{"title":"Unbeabsichtigte Freisetzung von gentechnisch veränderten Organismen",
+﻿{"title":"Unbeabsichtigte Freisetzung von gentechnisch veränderten Organismen",
 "subtitle":"",
 "kuerzel":"I.02.9.04262",
 "kuerzelKunde":"0403",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"In Häfen und an Bahnhöfen umgeschlagenes Getreide kann vereinzelt gentechnisch veränderte Samen von anderen Pflanzen (z. B. Raps) enthalten, welche dort unbeabsichtigt freigesetzt werden können. Der Indikator zeigt die Anzahl daraus resultierender, wild gewachsener Rapspflanzen, welche positiv auf gentechnische Veränderung getestet wurden (GV-Rapspflanzen). <br><br>Auswertung der beprobten Rapspflanzen an den drei neuralgischen Standorten Hafen Kleinhünigen, Bahnhof St. Johann (beide Kanton Basel-Stadt) und Auhafen Muttenz (Kanton Basel-Landschaft). Die Gesamtzahl getesteter Rapspflanzen variiert (jährlich mehrere Hundert Pflanzen) und beträgt z. B. beim Hafen Kleinhüningen meist über 1000 Stück.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Kantonales Laboratorium Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-04-0403"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-04-0403' target='_blank'>Umweltberichts beider Basel</a>."]
 }

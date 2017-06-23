@@ -1,5 +1,5 @@
-{"title":"Stickstoffdioxid-Immissionen",
-"subtitle":"",
+﻿{"title":"Stickstoffdioxid-Immissionen",
+"subtitle":"Jahresmittelwert für Stickstoffdioxid",
 "kuerzel":"I.02.15.04281",
 "kuerzelKunde":"1111",
 "description":"Stickstoffdioxid-Immissionen",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid-Immissionen im Vergleich zum gesetzlich festgelegten Grenzwert gemäss Luftreinhalte-Verordnung. Sie entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr.<br><br>Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen in den Kantonen Basel-Stadt und Basel-Landschaft: Stark verkehrsexponiert (Basel Feldbergstrasse, Muttenz A2 Hard, Basel Schwarzwaldallee, Basel Breite, Basel Steinengraben), Stadt Basel (St. Johanns-Platz, Spalenring, Dreirosenbrücke Süd), Agglomeration (Binningen (NABEL), Dornach (SO), Reinach Dorf), Ländlich (Schönenbuch). Die Messungen der Kategorie \"Ländlich\" (Schönenbuch) wurden 2016 eingestellt. Für Details zu den Stationen siehe Link \"Luftqualität in der Nordwestschweiz\" unter weiterführende Informationen. ",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Lufthygieneamt beider Basel"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-11-1111"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-11-1111' target='_blank'>Umweltberichts beider Basel</a>."]
 }

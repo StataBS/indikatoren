@@ -1,4 +1,4 @@
-{"title":"Abgebrochene Bruttogeschossfläche",
+﻿{"title":"Abgebrochene Bruttogeschossfläche",
 "subtitle":"",
 "kuerzel":"I.09.1.04338",
 "kuerzelKunde":"0103",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Die Bruttogeschossfläche entspricht der Grundfläche multipliziert mit der Anzahl Stockwerken eines Gebäudes. Die kantonal abgebrochene Bruttogeschossfläche dient als Indikator für die anfallende Menge an Bauabfällen.<br><br>Dieser Wert wird für die jährlich abgebrochenen Gebäude basierend auf den kantonalen Gebäude- und Wohnungsregistern berechnet. Unterirdische Gebäudeteile werden nicht berücksichtigt.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-01-0103"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-01-0103' target='_blank'>Umweltberichts beider Basel</a>."]
 }

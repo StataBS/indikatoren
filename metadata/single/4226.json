@@ -1,4 +1,4 @@
-{"title":"Energiebezugsfläche mit Minergie-P® und A®-Standard",
+﻿{"title":"Energiebezugsfläche mit Minergie-P® und A®-Standard",
 "subtitle":"",
 "kuerzel":"I.08.1.04226",
 "kuerzelKunde":"0609",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Entwicklung der im Minergie-P und -A-Standard gebauten oder sanierten und über die Jahre kumulierten Energiebezugsfläche.<br><br>Die Daten zu Gebäuden mit Minergie-P und A-Zertifizierung werden von Minergie® im Rahmen der Zertifizierung erhoben und veröffentlicht. <br>Die Energiebezugsfläche ist die Summe aller ober- und unterirdischen Geschossflächen, für deren Nutzung ein Beheizen oder Klimatisieren notwendig ist. Sie wird berechnet nach der SIA-Norm 416.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Verein Minergie®"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-06-0609"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-06-0609' target='_blank'>Umweltberichts beider Basel</a>."]
 }

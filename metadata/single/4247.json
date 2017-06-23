@@ -1,4 +1,4 @@
-{"title":"Störfälle und Ereignisse",
+﻿{"title":"Störfälle und Ereignisse",
 "subtitle":"",
 "kuerzel":"I.02.18.04247",
 "kuerzelKunde":"1403",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IRFB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: <br><br>a.) ausserhalb des Betriebsareals, <br>b.) auf oder ausserhalb des Verkehrswegs, <br>c.) ausserhalb der Rohrleitungsanlage. <br><br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt aber im Ermessen der zuständigen Fachstelle.<br><br>Jährliche Auswertung anhand der Einsatzliste der Chemiefachberatung (IFRB).",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Kantonales Laboratorium Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-14-1403"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-14-1403' target='_blank'>Umweltberichts beider Basel</a>."]
 }

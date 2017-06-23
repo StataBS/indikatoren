@@ -1,4 +1,4 @@
-{"title":"Sonderabfälle",
+﻿{"title":"Sonderabfälle",
 "subtitle":"",
 "kuerzel":"I.02.6.04333",
 "kuerzelKunde":"0109",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Jährlich anfallende Menge an Sonderabfällen. <br><br>Sonderabfälle sind gemäss Verordnung über den Verkehr mit Abfällen (VeVA) diejenigen Abfälle, deren umweltverträgliche Entsorgung auf Grund ihrer Zusammensetzung, ihrer chemisch-physikalischen oder ihrer biologischen Eigenschaften auch im Inlandverkehr umfassende besondere technische und organisatorische Massnahmen erfordert.<br><br>Auswertung aus der Datenbank zur Verordnung über den Verkehr mit Abfällen (VeVA), in welcher sämtliche Sonderabfälle registriert werden müssen. <br><br>Bei Sonderabfällen handelt es sich um einen Sammelbergriff, welcher verschiedenste Abfälle, z. B. aus der chemisch-pharmazeutischen Industrie oder aus der Sanierung von Altlasten, umfasst. Sonderabfälle werden immer einer speziellen Behandlung unterzogen. Im Fokus stehen dabei thermische Verfahren. Viele flüssige und feste Sonderabfälle werden in den drei lokalen Sonderabfallverbrennungsanlagen verbrannt. Mineralische Sonderabfälle werden häufig zur thermischen Behandlung exportiert. Eine untergeordnete Rolle spielt die Ablagerung von Sonderabfällen in Untertagedeponien in Deutschland.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-01-0109"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-01-0109' target='_blank'>Umweltberichts beider Basel</a>."]
 }

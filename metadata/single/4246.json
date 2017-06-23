@@ -1,4 +1,4 @@
-{"title":"Betriebseinheiten im Geltungsbereich der Störfallverordnung (StFV)",
+﻿{"title":"Betriebseinheiten im Geltungsbereich der Störfallverordnung (StFV)",
 "subtitle":"",
 "kuerzel":"I.02.18.04246",
 "kuerzelKunde":"1401",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Anzahl Betriebseinheiten, welche in den Geltungsbereich der Störfallverdordnung (StFV) fallen. Betriebseinheiten sind Teile eines Grossbetriebs. Ein Betrieb kann aber auch aus nur einer Betriebseinheit bestehen. In den Geltungsbereich der StFV (Art. 1, Abs. 2) fallen jene Betriebe, welche die Mengenschwelle für Stoffe, Zubereitungen oder Sonderabfälle überschreiten. Des Weiteren fallen Betriebe, in denen Tätigkeiten mit gentechnisch veränderten, pathogenen oder einschliessungspflichtigen gebietsfremden Organismen der Klasse 3 oder 4 (mässiges bzw. hohes Risiko) durchgeführt werden, ebenfalls in den Geltungsbereich der StFV.<br><br>Aufsummierung der Betriebseinheiten, welche in den Geltungsbereich der StFV fallen (anhand von Angaben der Betriebe). Ein Betrieb kann aus einer oder mehreren Betriebseinheiten bestehen.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Kantonales Laboratorium Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-14-1401"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-14-1401' target='_blank'>Umweltberichts beider Basel</a>."]
 }

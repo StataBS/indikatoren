@@ -1,4 +1,4 @@
-{"title":"Waldfläche",
+﻿{"title":"Waldfläche",
 "subtitle":"",
 "kuerzel":"I.07.1.05798",
 "kuerzelKunde":"1501",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Anteil der Waldfläche an der gesamten Kantonsfläche.<br><br>Die Daten basieren auf der Arealstatistik. Der Wald gemäss Arealstatistik umfasst geschlossene und aufgelöste Waldflächen, jedoch nicht Gebüschwald und Gehölze.<br><br>Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopografie (Punktstichprobenerhebung im Abstand von 100 x 100m; im Kanton Basel-Stadt 3'698 Punkte, im Kanton Basel-Landschaft 51'774 Punkte).",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-15-1501"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-15-1501' target='_blank'>Umweltberichts beider Basel</a>."]
 }

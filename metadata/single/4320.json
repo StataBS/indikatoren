@@ -1,4 +1,4 @@
-{"title":"Wohnfläche",
+﻿{"title":"Wohnfläche",
 "subtitle":"",
 "kuerzel":"I.09.1.04320",
 "kuerzelKunde":"1703",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Die durchschnittliche Wohnfläche pro Bewohner erlaubt Aussagen über die Wohnraumverhältnisse der beiden Kantone, nicht aber über die Verteilung des Wohnraums oder über die Wohnraumqualität.<br><br>Die Berechnung dieses Indikators basiert auf dem Gebäude- und Wohnungsregister (GWR) sowie den amtlichen Personenregistern. Zur Berechnung der durchschnittlichen Wohnfläche pro Bewohner wird die Gesamtfläche der bewohnten Wohnungen durch die Summe der zugeordneten Bewohner dividiert.<br>Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone).<br>Für die Berechnung werden sämtliche einer Wohnung zugeordneten Bewohner berücksichtigt, unabhängig von ihrem Meldeverhältnis (Niedergelassene und Aufenthalter). Personen mit mehreren Wohnsitzen werden entsprechend mehrmals gezählt. Für detaillierte Angaben zur Methodik siehe weiterführende Informationen. ",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-03-1703"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-03-1703' target='_blank'>Umweltberichts beider Basel</a>."]
 }

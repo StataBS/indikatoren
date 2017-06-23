@@ -1,4 +1,4 @@
-{"title":"Erdbebenertüchtigung von Bauwerken",
+﻿{"title":"Erdbebenertüchtigung von Bauwerken",
 "subtitle":"",
 "kuerzel":"I.09.11.04329",
 "kuerzelKunde":"0703",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Der Indikator zeigt die Entwicklung der jährlich erstellten erdbebengerechten Neubauten (öffentliche und private Bauten und Anlagen) sowie die Anzahl (kumulativ) der erdbebenertüchtigten Bauwerke mit Lifeline-Funktion (lebenswichtige Infrastrukturfunktionen wie Feuerwehrgebäude, Ambulanzgaragen, Akutspitäler, Wasserreservoire oder auch einzelne Unterwerke der Stromversorgung). <br><br>Seit 2009 müssen alle Neubauten die Anforderungen der aktuellen Erdbebennormen (SIA 261ff) einhalten. Lifeline-Bauwerke müssen die erhöhten Anforderungen der Bauwerksklasse III (BWK III gemäss SIA 261) erfüllen. Neubauten und deren Erdbebenertüchtigung werden durch das Bau- und Gastgewerbeinspektorat erfasst und kontrolliert, ebenso die Ertüchtigung von Lifeline-Gebäuden. ",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bau- und Gastgewerbeinspektorat Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-07-0703"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-07-0703' target='_blank'>Umweltberichts beider Basel</a>."]
 }

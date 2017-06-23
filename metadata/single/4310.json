@@ -1,4 +1,4 @@
-{"title":"Freiheitsgrad",
+﻿{"title":"Freiheitsgrad",
 "subtitle":"",
 "kuerzel":"I.02.13.04310",
 "kuerzelKunde":"0903",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Der Indikator misst den Freiraumanteil der Landschaft. Er ermittelt dabei für einen beliebigen Punkt (Rasterzelle) im Kantonsgebiet die Distanz zum nächstgelegenen Gebäude. Ausgewiesen wird die Anzahl Zellen, bei welchen die Distanz zum nächstgelegenen Gebäude mehr als 500 Meter beträgt. Je kleiner die Anzahl dieser Zellen ist, desto geringer ist auch der Freiraumanteil der Landschaft.<br><br>Für ein über das jeweilige Kantonsgebiet gelegte Analyseraster (50x50 Meter) wird die Entfernung zwischen jedem Zellmittelpunkt zum jeweils nächstgelegenen Gebäude berechnet. Als Grundlage für die Berechnung dienen die kantonalen Gebäudedatenbanken. Für die Grenzgebiete zu den Nachbarkantonen und zum Ausland wurden passende Gebäudepunkte digitalisiert. Abschliessend wird die Anzahl bzw. der Anteil Zellen ermittelt, bei welchen die Distanz zum nächstgelegenen Gebäude mehr als 500 Meter beträgt.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Planungsamt Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-03-0903"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-03-0903' target='_blank'>Umweltberichts beider Basel</a>."]
 }

@@ -1,4 +1,4 @@
-{"title":"Gelöster Organischer Kohlenstoff (DOC)",
+﻿{"title":"Gelöster Organischer Kohlenstoff (DOC)",
 "subtitle":"",
 "kuerzel":"I.02.19.04236",
 "kuerzelKunde":"1607",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Der im Wasser gelöste organische Kohlenstoff (dissolved organic carbon, DOC) ist ein Summenparameter für verschiedene natürliche und industriell hergestellte organische Substanzen. Er wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. <br><br>Der gelöste organische Kohlenstoff (DOC) wird mehrmals pro Jahr im Ablauf der ARA gemessen. Aus den Jahresmittelwerten der DOC-Konzentrationen der einzelnen ARA wird der kantonale Mittelwert berechnet. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein DOC-Grenzwert von 10 mg/l und ein Reinigungseffekt von 85% definiert.<br><br>In Basel-Landschaft werden die Daten der folgenden ARA berücksichtigt: ARA Birsig (Therwil), ARA Birs (Birsfelden), ARA Ergolz 1 (Sissach), ARA Ergolz 2 (Füllinsdorf), ARA Frenke 2 (Niederdorf), ARA Frenke 3 (Bubendorf) und ARA Zwingen. Deren Einzugsgebiete umfassen auch 19 Gemeinden aus dem Kanton Solothurn. Die Daten der ARA Rhein (Pratteln) werden aufgrund der überwiegend durch industrielles Abwasser geprägten Fracht nicht dargestellt. Daten kleiner lokaler Anlagen sind nicht systematisch vorhanden und werden ebenfalls nicht berücksichtigt.<br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["ProRheno AG"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-16-1607"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-16-1607' target='_blank'>Umweltberichts beider Basel</a>."]
 }

@@ -1,4 +1,4 @@
-{"title":"Energiepreise",
+﻿{"title":"Energiepreise",
 "subtitle":"",
 "kuerzel":"I.05.3.04222",
 "kuerzelKunde":"0601",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Preisentwicklung (indexiert) der Heizenergie für die Energieträger Gas, Heizöl, Holz und Fernwärme.<br><br>Die Daten zur Preisentwicklung der verschiedenen Energieträger stammen aus dem Landesindex der Konsumentenpreise (LIK). Die hier verwendeten Zahlen beziehen sich auf die gesamte Schweiz.<br>Der LIK misst die Preisentwicklung der für die privaten Haushalte bedeutsamen Waren und Dienstleistungen. Er gibt an, in welchem Umfang die Konsumentinnen und Konsumenten bei Preisveränderungen die Ausgaben erhöhen oder senken müssen, um das Verbrauchsvolumen konstant halten zu können.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-06-0601"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-06-0601' target='_blank'>Umweltberichts beider Basel</a>."]
 }

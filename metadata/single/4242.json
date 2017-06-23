@@ -1,4 +1,4 @@
-{"title":"Trinkwasseraufbereitung",
+﻿{"title":"Trinkwasseraufbereitung",
 "subtitle":"",
 "kuerzel":"I.02.19.04242",
 "kuerzelKunde":"1615",
@@ -16,14 +16,14 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Aufwand zur Beseitigung von Mikroverunreinigungen in den verschiedenen Trinkwasseraufbereitungsanlagen, nach Art der Aufbereitung.<br><br>Das Amt für Lebensmittelsicherheit und Veterinärwesen des Kantons Basel-Landschaft erfasst die Art der Trinkwasseraufbereitungsanlagen bei den Wasserversorgungen im Kanton. Die Anlagen werden unterschieden nach Aufbereitungsverfahren und Verfahrenskombinationen und eingeteilt in die folgenden Kategorien: ohne Aufbereitung, einstufige Desinfektion, Filtration ohne Desinfektion und Filtration mit Desinfektion.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
-"visible":true,
-"visibleInPortal":true,
+"visible":false,
+"visibleInPortal":false,
 "parentId":null,
 "children":[],
 "renderLink":[],
 "quellenangabe":[],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-16-1615"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-16-1615' target='_blank'>Umweltberichts beider Basel</a>."]
 }

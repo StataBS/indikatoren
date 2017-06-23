@@ -1,4 +1,4 @@
-{"title":"Nitrat im Grundwasser",
+﻿{"title":"Nitrat im Grundwasser",
 "subtitle":"",
 "kuerzel":"I.02.19.04232",
 "kuerzelKunde":"1602",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Der Indikator zeigt den Anteil der Messstellen, an welchen der Anforderungswert für Nitrat im Grundwasser von 25 Milligramm NO3 pro Liter überschritten wurde.<br><br>An verschiedenen Messstellen in den Beiden Kantonen wird ein- bis viermal pro Jahr eine Grundwasserprobe entnommen und deren Nitrat- bzw. Stickstoffgehalt gemessen. Der Indikator zeigt den Anteil der Stationen, an denen der Mittelwert der Messwerte über dem Anforderungswert für Nitrat (25 mg/l) liegt. Rückwirkende Anpassungen der Datenreihen sind Aufgrund von nachträglichen Datenbereinigungen möglich.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-05-1602"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-05-1602' target='_blank'>Umweltberichts beider Basel</a>."]
 }

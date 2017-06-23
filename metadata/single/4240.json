@@ -1,4 +1,4 @@
-{"title":"Wassertemperatur Oberflächengewässer",
+﻿{"title":"Wassertemperatur Oberflächengewässer",
 "subtitle":"",
 "kuerzel":"I.02.19.04240",
 "kuerzelKunde":"1609",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Gemäss den ökologischen Zielen für oberirdische Gewässer in der eidgenössischen Gewässerschutzverordnung (GSchV) soll die Wasserqualität so beschaffen sein, dass die Temperaturverhältnisse naturnah sind. Alle Gewässerorgansimen besitzen Temperaturoptima und reagieren empfindlich auf unnatürliche Temperaturverschiebungen. Die Anzahl Tage mit mittleren Wassertemperaturen von über 20 °C sind ein Indikator für die Belastung der Gewässerorganismen durch zu hohe Temperaturen.<br><br>An verschiedenen Messstellen in den beiden Kantonen werden im 10-Minuten-Takt die Wassertemperaturen gemessen. Aus den Messwerten werden Tagesmittelwerte gebildet. Die Anzahl Tage pro Messstelle mit Tagesmitteltemperaturen von über 20 °C werden summiert. In Basel-Stadt werden die Messungen der Stationen \"Rhein\" (Rheinüberwachungsstation RÜS) und \"Wiese tief\" ausgewertet, in Basel-Landschaft die Stationen Buuserbach (Maisprach), Ergolz (Augst), Birs (Münchenstein) und Birsig (Binningen).<br><br>Die Kennung \"RÜS S3\" bezieht sich auf die mittlere, in 7,5 m Tiefe (1,5 m über Grund) gelegene Probenahmestellen der RÜS. Im Querprofil des Rheins werden bei der Palmrainbrücke (Weil am Rhein, D) an fünf Punkten Proben entnommen. Die Messstelle Wiese \"tief\" wurde im Jahr 2013 um 200 m flussabwärts verlegt, die neuen Daten können nicht direkt mit den vorherigen Daten verglichen werden. Unterschiedliche Umweltbedingungen (Strömung, Lichteinfall, Vermischung, Verbauung u.a.) beeinflussen die punktuellen Temperaturmessungen. Im Jahr 2016 war die Messstelle Wiese aufgrund von Revitalisierungsarbeiten ausser Betrieb.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-16-1609"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-16-1609' target='_blank'>Umweltberichts beider Basel</a>."]
 }

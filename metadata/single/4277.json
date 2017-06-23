@@ -1,4 +1,4 @@
-{"title":"Handlungsbedarf Luftschadstoffe",
+﻿{"title":"Handlungsbedarf Luftschadstoffe",
 "subtitle":"",
 "kuerzel":"I.02.15.04277",
 "kuerzelKunde":"1108",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Der Handlungsbedarf bei den Luftschadstoffen zeigt, um welchen Anteil die aktuelle Luftbelastung zusätzlich reduziert werden muss, um die Luftreinhalteziele der Kantone Basel-Stadt und Basel-Landschaft zu erreichen.<br><br>Der Handlungsbedarf ergibt sich aus der Differenz zwischen den Luftreinhaltezielen gemäss Luftreinhalteplan und der aktuellen Luftbelastung (Emissionsmengen 2015).<br>Für die Kantone Basel-Stadt und Basel-Landschaft gelten folgende Emissionsziele in Tonnen pro Jahr: NO<sub>x</sub>: 2300 t/a; PM10: 450 t/a; VOC: 3100 t/a; NH<sub>3</sub>: 670 t/a.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Lufthygieneamt beider Basel"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-11-1108"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-11-1108' target='_blank'>Umweltberichts beider Basel</a>."]
 }

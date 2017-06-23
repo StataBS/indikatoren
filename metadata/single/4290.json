@@ -1,4 +1,4 @@
-{"title":"Waldrandpflege",
+﻿{"title":"Waldrandpflege",
 "subtitle":"",
 "kuerzel":"I.07.1.04290",
 "kuerzelKunde":"1514",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Kumulierte Länge der aufgewerteten Waldränder in Kilometern pro Jahr. Die Eingriffstiefe der Waldrandpflege beträgt durchschnittlich 15 Meter. Die Pflege von einem Kilometer Waldrand entspricht also einer Fläche von 1,5 Hektar. Nach dem Ersteingriff benötigen Waldränder eine periodische Nachpflege, damit ihre Funktion als Vernetzungselement und ihr Wert als Lebensraum erhalten bleiben. Je nach Standort beträgt das Eingriffsintervall vier bis acht Jahre.<br><br>Auswertung der durch die Forstbetriebe gemeldeten jährlich gepflegten Waldrandfläche.<br>Die Unterscheidung nach Ersteingriff und Nachpflege wird erst seit 2008 systematisch erhoben. Der Ausgangswert 2007 für den Kanton Basel-Landschaft stellt daher sämtliche Pflegeeingriffe dar, die bis und mit dem Jahr 2007 gemacht wurden. Im Kanton Basel-Stadt wird die Waldrandpflege erst seit 2008 erfasst, daher besteht hier kein Ausgangswert für das Jahr 2007.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Wald beider Basel"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-09-1514"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-09-1514' target='_blank'>Umweltberichts beider Basel</a>."]
 }

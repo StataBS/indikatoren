@@ -1,4 +1,4 @@
-{"title":"Hochsicherheitslaboratorien in Biotechnologiebetrieben",
+﻿{"title":"Hochsicherheitslaboratorien in Biotechnologiebetrieben",
 "subtitle":"",
 "kuerzel":"I.02.9.04263",
 "kuerzelKunde":"0401",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Betriebe, in denen Tätigkeiten mit gentechnisch veränderten, pathogenen oder einschliessungspflichtigen gebietsfremden Organismen der Klasse 3 oder 4 (mässiges oder hohes Risiko) nach Einschliessungsverordnung (ESV, Verordnung über den Umgang mit Organismen in geschlossenen Systemen) durchgeführt werden, müssen dafür Hochsicherheitsbiologielaboratorien der Stufe 3 oder 4 betreiben. Diese Betriebe fallen auch unter die Störfallverordnung (StFV, Verordnung über den Schutz vor Störfällen).<br><br>Die Anzahl Hochsicherheitslaboratorien entspricht der Anzahl Laboratorien in Betrieben aus den kantonalen Verzeichnissen der Gefahrenquellen (VdGQ), welche eines der folgenden Kriterien erfüllen:<br>- Baugesuche und Kurzberichte der Betriebe nach Störfallverordnung (StFV, SR 814.012) (kantonal)<br>- Bewilligungsgesuche nach Einschliessungsverordnung (ESV, SR 814.912) an die Kontaktstelle Biotechnologie des Bundes (Bund)<br><br>Die Verzeichnisse der Gefahrenquellen Basel-Stadt und Basel-Landschaft werden fortlaufend aktualisiert und als Internet-Gefahrenkataster in den öffentlichen Geoinformationssystemen der Kantone veröffentlicht.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Umwelt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-04-0401"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-04-0401' target='_blank'>Umweltberichts beider Basel</a>."]
 }

@@ -1,4 +1,4 @@
-{"title":"Strukturen der Fliessgewässer",
+﻿{"title":"Strukturen der Fliessgewässer",
 "subtitle":"",
 "kuerzel":"I.02.19.04303",
 "kuerzelKunde":"1608",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Die Beurteilung der Struktur der Fliessgewässer erfolgt über die ökomorphologische Bewertung. Die Fliessstrecken werden in fünf Kategorien von \"natürlich, naturnah\", bis \"eingedolt\" eingeteilt. Die Bewertung erfolgt nach dem Modul-Stufen-Konzept, Stufe F des Bundesamtes für Umwelt (BAFU, 1998: www.modul-stufen-konzept.ch/fg/index).<br><br>Im Kanton Basel-Stadt wurde eine Fliesstrecke von insgesamt 35 km bewertet. Die Daten wurden im Jahr 2014 im Rahmen der Revitalisierungsplanung aktualisiert und neu der Rhein miteinbezogen.<br>Im Kanton Basel-Landschaft wurden 574 km öffentliche Fliessgewässer erhoben. Auf die Erhebung der restlichen öffentlichen Gewässer (~190 km) wurde verzichtet, ebenso auf die Erhebung der privaten Gewässer (~16 km). Der Rhein (~9 km) wurde nicht mit einbezogen, da die MSK-Methode für kleine und mittlere Gewässer ausgelegt ist.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-03-1608"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-03-1608' target='_blank'>Umweltberichts beider Basel</a>."]
 }

@@ -1,4 +1,4 @@
-{"title":"Neu überbaute Flächen in Landwirtschaftszonen",
+﻿{"title":"Neu überbaute Flächen in Landwirtschaftszonen",
 "subtitle":"",
 "kuerzel":"I.09.1.04311",
 "kuerzelKunde":"0905",
@@ -16,14 +16,14 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Neu überbaute Fläche innerhalb der Landwirtschaftszone.<br><br>Aufsummierung der Gebäudeflächen von bewilligten Neubauten, welche ausserhalb der Bauzone liegen. Der Indikator wird im Rahmen der Analyse \"Bauen ausserhalb der Bauzone\" erhoben (siehe weiterführende Informationen). ",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
-"visible":true,
-"visibleInPortal":true,
+"visible":false,
+"visibleInPortal":false,
 "parentId":null,
 "children":[],
 "renderLink":[],
 "quellenangabe":[],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-09-0905"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-09-0905' target='_blank'>Umweltberichts beider Basel</a>."]
 }

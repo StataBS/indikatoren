@@ -1,4 +1,4 @@
-{"title":"Elektroautos",
+﻿{"title":"Elektroautos",
 "subtitle":"",
 "kuerzel":"I.11.1.04298",
 "kuerzelKunde":"0805",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Anzahl der pro Jahr neu zugelassenen Fahrzeuge mit elektrischem Antrieb.<br><br>Summe aller Elektrofahrzeuge (Personenwagen), deren Fahrzeugausweis im entsprechenden Jahr ausgestellt wurde (Neueinlösung, Fahrzeugwechsel, Einlösung auf Wechselschild). In die Kategorie der Elektrofahrzeuge fallen neben den rein elektrisch betriebenen Fahrzeugen auch folgende Antriebsarten: Benzin/Elektrisch, Diesel/Elektrisch, Elektrisch mit Reichweitenverlängerer, Wasserstoff/Elektrisch.<br><br>Benzin/Elektrisch, Diesel/Elektrisch: Hybridantrieb ist eine Kombination (von verschiedenen Techniken) eines Verbrennungs- und Elektromotors für den Fahrzeugbetrieb. Die Motoren können einzeln oder in Kombination Antriebsleistung abgeben. <br>Elektrisch mit Reichweitenverlängerer: Antrieb rein elektrisch - der Verbrennungsmotor dient nur als Antrieb für den Generator.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-08-0805"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-08-0805' target='_blank'>Umweltberichts beider Basel</a>."]
 }

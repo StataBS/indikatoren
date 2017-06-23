@@ -1,4 +1,4 @@
-{"title":"Gewicht der Landwirtschaftsmaschinen",
+﻿{"title":"Gewicht der Landwirtschaftsmaschinen",
 "subtitle":"",
 "kuerzel":"I.07.1.04252",
 "kuerzelKunde":"0505",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Entwicklung der Anzahl Landwirtschaftsmaschinen nach Gewichtsklasse.<br><br>Die Daten beruhen auf einer Stichtagsauswertung (30.September) des automatisierten Fahrzeug- und Fahrzeughalterregisters (MOFIS). Der Kanton wird dabei nach der Adresse des Halters oder der Halterin und nicht nach dem Nummernschild bestimmt. Der Indikator berücksichtigt folgende Fahrzeugarten:<br><br>- Landwirtschaftliche Traktoren<br>- Landwirtschaftliche Arbeitskarren<br>- Landwirtschaftliche Motorkarren<br>- Landwirtschaftliche Motoreinachser<br>- Landwirtschaftliche Kombinationsfahrzeuge<br><br>Somit umfasst die Statistik alle Landwirtschaftsfahrzeuge vom leichten Traktor bis zum schweren Vollernter mit gefülltem Ladebunker. ",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-03-0505"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-03-0505' target='_blank'>Umweltberichts beider Basel</a>."]
 }

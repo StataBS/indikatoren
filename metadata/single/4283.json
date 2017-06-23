@@ -1,4 +1,4 @@
-{"title":"Nutzungsdruck",
+﻿{"title":"Nutzungsdruck",
 "subtitle":"",
 "kuerzel":"I.07.1.04283",
 "kuerzelKunde":"1508",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Der Indikator zeigt die Anzahl der bewilligten Rodungs- und Veranstaltungsgesuche als Mass für den Nutzungsdruck auf das Waldgebiet.<br><br>Jährliche Auswertung der bewilligten Rodungs- und Veranstaltungsgesuche. ",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Wald beider Basel"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-15-1508"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-15-1508' target='_blank'>Umweltberichts beider Basel</a>."]
 }

@@ -1,4 +1,4 @@
-{"title":"Ozonschichtabbauende Stoffe (Halone) in Löschanlagen",
+﻿{"title":"Ozonschichtabbauende Stoffe (Halone) in Löschanlagen",
 "subtitle":"",
 "kuerzel":"I.02.17.04294",
 "kuerzelKunde":"1304",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Halone (vollständig halogenierte bromhaltige Fluorkohlenwasserstoffe) tragen zur Zerstörung der Ozonschicht bei, welche die Erde vor der gefährlichen ultravioletten Strahlung abschirmt. Die Menge der als Löschmittel verwendeten Halone ist ein Indikator für die potenzielle Belastung der Luft mit solchen Stoffen.<br><br>Total der Menge der in allen gemeldeten Löschanlagen in den Kantonen eingesetzten ozonabbauenden Löschmittel (Halone). Die Angaben stammen aus dem Halonkataster der envico AG, welche im Auftrag des BAFU die Meldungen der Betreiber von halonhaltigen Löschanlagen verwaltet. Die Inhaber von Anlagen sind einer gesetzlichen Meldepflicht unterstellt.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["envico AG"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-13-1304"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-13-1304' target='_blank'>Umweltberichts beider Basel</a>."]
 }

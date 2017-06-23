@@ -1,4 +1,4 @@
-{"title":"Energieimportabhängigkeit",
+﻿{"title":"Energieimportabhängigkeit",
 "subtitle":"",
 "kuerzel":"I.08.2.04225",
 "kuerzelKunde":"0606",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Anteil der von ausserhalb des Kantons importierten Energie am gesamten Bruttoenergieeinsatz.<br><br>Summe der von ausserhalb des Kantons importierten Energie dividiert durch den gesamten Energieverbrauch. Die kantonale Energiestatistik dient als Datengrundlage der Berechnung.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-06-0606"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-06-0606' target='_blank'>Umweltberichts beider Basel</a>."]
 }

@@ -1,4 +1,4 @@
-{"title":"Lärmmindernder Strassenbelag",
+﻿{"title":"Lärmmindernder Strassenbelag",
 "subtitle":"",
 "kuerzel":"I.02.14.04270",
 "kuerzelKunde":"1008",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Strassenbeläge, welche gegenüber dem Standardbelag zu geringeren Lärmemissionen führen, gelten als lärmmindernd. Der Indikator zeigt, auf wie vielen Kilometern der Kantonsstrassen lärmmindernde Strassenbeläge eingebaut sind.<br><br>Alle bis zum Erhebungsjahr eingebauten lärmmindernden Strassenbeläge werden zur Gesamtlänge im Erhebungsjahr summiert.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Tiefbauamt Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-10-1008"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-10-1008' target='_blank'>Umweltberichts beider Basel</a>."]
 }

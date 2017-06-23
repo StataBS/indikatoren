@@ -1,5 +1,5 @@
-{"title":"Stickoxid-Emissionen",
-"subtitle":"",
+﻿{"title":"Stickoxid-Emissionen",
+"subtitle":"NOx-Emissionen",
 "kuerzel":"I.02.15.04272",
 "kuerzelKunde":"1101",
 "description":"Stickoxid-Emissionen",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Der Indikator zeigt die jährlichen Emissionen an Stickoxiden (NO<sub>x</sub>). Unter dem Begriff Stickoxide werden Stickstoffdioxid (NO<sub>2</sub>) und Stickstoffmonoxid (NO) zusammengefasst. Sie entstehen beim Verbrennen von Brenn- und Treibstoffen und ihre Hauptquelle ist der Strassenverkehr. Stickoxid ist eine wichtige Vorläufersubstanz für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit den flüchtigen organischen Verbindungen - von Ozon und Sommersmog. <br><br>Die Emissionen sind das Produkt aus der Jahresleistung der Aktivitäten in den Bereichen Industrie, Verkehr und Feuerungen und den jeweiligen schadstoffspezifischen Emissionsfaktoren. Die Daten werden mittels Erhebungen, Modellierungen und Berechnungen ermittelt.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Lufthygieneamt beider Basel"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-06-1101"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-06-1101' target='_blank'>Umweltberichts beider Basel</a>."]
 }

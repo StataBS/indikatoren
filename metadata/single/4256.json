@@ -1,4 +1,4 @@
-{"title":"Index der erosionsschützenden Massnahmen",
+﻿{"title":"Index der erosionsschützenden Massnahmen",
 "subtitle":"",
 "kuerzel":"I.02.10.04256",
 "kuerzelKunde":"0510",
@@ -16,14 +16,14 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Index der erosionsschützenden Massnahmen auf gefährdeten Ackerflächen. Der Index der Schutzmassnahmenintensität ergibt sich aus der Addition der Punktzahlen der einzelnen Massnahmenbereiche. Der Betrieb bzw. die Bewirtschaftung erhält dabei theoretisch eine Punktzahl zwischen 0 (sehr schlecht) und 100 (sehr gut). Praktisch liegen die Werte zwischen etwa 20 und 85, da in der Realität nirgends bodenschützende Effekte der Bewirtschaftung fehlen, aber auch kein Betrieb das volle Massnahmenpotenzial ausschöpft.<br><br>Die Daten basieren auf dem Erosionsmonitoring des Kantons Basel-Landschaft. Dabei werden alle zehn Jahre ca. 9% aller Landwirtschaftsbetriebe im Kanton befragt (strukturiertes Experteninterview), welche Ackerbau betreiben und eine Bewirtschaftungsfläche von mehr als zehn Hektar besitzen. <br><br>Für detaillierte Angaben zur Methodik siehe weiterführende Informationen (Erosionsmonitoring Kanton Basel-Landschaft 1982-2012).",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
-"visible":true,
-"visibleInPortal":true,
+"visible":false,
+"visibleInPortal":false,
 "parentId":null,
 "children":[],
 "renderLink":[],
 "quellenangabe":[],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-05-0510"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-05-0510' target='_blank'>Umweltberichts beider Basel</a>."]
 }

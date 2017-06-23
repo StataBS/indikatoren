@@ -1,4 +1,4 @@
-{"title":"Holzernte nach Sortimenten",
+﻿{"title":"Holzernte nach Sortimenten",
 "subtitle":"",
 "kuerzel":"I.07.1.05800",
 "kuerzelKunde":"1503",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Jährlich geerntete Holzmenge nach Sortimenten (Stamm-, Energie- und Industrieholz) in den Kantonen Basel-Stadt und Basel-Landschaft.<br><br>Die Holzernten in den Kantonen Basel-Stadt und Basel-Landschaft werden jährlich durch die Forstbetriebe erhoben. Die hier präsentierten Zahlen resultieren aus der Aufsummierung der Erhebung der einzelnen Forstbetriebe. Dieselben Zahlen fliessen ebenfalls in die eidgenössische Forststatistik ein.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Wald beider Basel"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-15-1503"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-15-1503' target='_blank'>Umweltberichts beider Basel</a>."]
 }

@@ -1,4 +1,4 @@
-{"title":"Gepflegte Jungwaldfläche",
+﻿{"title":"Gepflegte Jungwaldfläche",
 "subtitle":"",
 "kuerzel":"I.07.1.04291",
 "kuerzelKunde":"1512",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Der Indikator zeigt die Fläche, auf welcher Jungwald gefplegt wird. Unter Jungwaldpflege sind gezielte waldbauliche Eingriffe zu verstehen, welche die Durchmischung der Baumarten fördern, die Stammqualität verbessern und die Resistenz der Bäume gegenüber mechanischen Belastungen (z.B. Schneelast) erhöhen.<br><br>Die jeweiligen Forstbetriebe erfassen für ihr Revier, auf welcher Fläche Jungwaldpflege durchgeführt wird und melden dies dem Amt für Wald beider Basel. Für den Indikator wird die Summe aller Forstreviere gebildet.<br><br>Erläuterung Zielwerte: Die abgebildeten Zielwerte werden aufgrund der mehrjährigen Waldpflegeplanung der Forstbetriebe und des Jungwaldflächenanteils der beiden Kantone festgelegt. Sie sind Bestandteil der Programmvereinbarungen zwischen Bund und Kantonen im Waldbereich.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Landwirtschaftliches Zentrum Ebenrain"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-15-1512"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-15-1512' target='_blank'>Umweltberichts beider Basel</a>."]
 }

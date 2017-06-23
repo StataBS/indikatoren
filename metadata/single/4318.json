@@ -1,5 +1,5 @@
-{"title":"Bevölkerung",
-"subtitle":"",
+﻿{"title":"Bevölkerung",
+"subtitle":"Wohnbevölkerung",
 "kuerzel":"I.01.1.04318",
 "kuerzelKunde":"1702",
 "description":"Bevölkerung",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Die mittlere Wohnbevölkerung entspricht der im Durchschnitt eines Kalenderjahres in einem der Kantone wohnhaften Bevölkerung. <br><br>Für detaillierte Angaben zur Methodik der kantonalen Bevölkerungsstatistik siehe weiterführende Informationen.<br><br>Anmerkung Kanton Basel-Landschaft: Ab 1993 inkl. Laufental.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-01-1702"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-01-1702' target='_blank'>Umweltberichts beider Basel</a>."]
 }

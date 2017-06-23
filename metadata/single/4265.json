@@ -1,4 +1,4 @@
-{"title":"Tätigkeiten mit gentechnisch veränderten und pathogenen Organismen",
+﻿{"title":"Tätigkeiten mit gentechnisch veränderten und pathogenen Organismen",
 "subtitle":"",
 "kuerzel":"I.02.9.04265",
 "kuerzelKunde":"0402",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Anzahl gemeldeter Tätigkeiten (vorwiegend Forschungs- und Diagnostiktätigkeiten), bei welchen mit gentechnisch veränderten, pathogenen oder gebietsfremden Organismen im geschlossenen System umgegangen wird, die bei inkorrekter Handhabung das Potenzial haben, Mensch und Umwelt zu gefährden. Die betroffenen Betriebe sind verpflichtet, dem Risiko entsprechende Sicherheitsmassnahmen zu treffen.<br><br>Tätigkeiten mit gentechnisch veränderten, pathogenen oder gebietsfremden Organismen in geschlossenen Systemen sind gemäss Einschliessungsverordnung melde- beziehungsweise bewilligungspflichtig. Die Eingaben an die Behörden werden durch die Koordinationsstelle Biotechnologie des Bundes in der Datenbank ECOGEN zentral verwaltet. Die Tätigkeiten werden anhand einer Risikobeurteilung in vier Klassen eingeteilt (in den Kantonen Basel-Stadt und Basel-Landschaft existieren bisher nur Betriebe der Klassen 1 bis 3): <br><br>Klasse 1: Kein oder vernachlässigbar kleines Risiko <br>Klasse 2: Geringes Risiko <br>Klasse 3: Mässiges Risiko <br>Klasse 4: Hohes Risiko<br><br>Eine Aufschlüsselung nach Risikoklasse ist erst seit 2010 (Basel-Stadt) beziehungsweise 2011 (Basel-Landschaft) verlässlich möglich. Der vorübergehende Rückgang der Meldungen im Jahr 2013 ist auf die Einführung der Globalmeldung für Klasse-1-Tätigkeiten (Revision ESV 2012) zurückzuführen.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Kantonales Laboratorium Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-04-0402"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-04-0402' target='_blank'>Umweltberichts beider Basel</a>."]
 }

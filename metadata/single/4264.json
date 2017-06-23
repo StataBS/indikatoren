@@ -1,4 +1,4 @@
-{"title":"Beanstandungen bei Inspektionen",
+﻿{"title":"Beanstandungen bei Inspektionen",
 "subtitle":"",
 "kuerzel":"I.02.9.04264",
 "kuerzelKunde":"0404",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Das Sicherheitsinspektorat Basel-Landschaft (SIT) und das Kantonale Laboratorium Basel-Stadt (KL) sorgen für den Vollzug der Einschliessungsverordnung und der Störfallverordnung. Dabei beaufsichtigen sie biotechnologische Anlagen, führen Inspektionen und Begehungen durch und ordnen die notwendigen Sicherheitsmassnahmen an. Dieser Indikator zeigt die Anzahl der durchgeführten Inspektionen und die Anzahl der bei diesen Inspektionen ausgesprochenen Beanstandungen.<br><br>Anzahl der durch SIT und KL durchgeführten Inspektionen und der dabei ausgesprochenen Beanstandungen in Betrieben, die unter die Einschliessungsverordnung oder die Störfallverordnung fallen.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Kantonales Laboratorium Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-04-0404"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-04-0404' target='_blank'>Umweltberichts beider Basel</a>."]
 }

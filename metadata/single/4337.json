@@ -1,5 +1,5 @@
-{"title":"Siedlungsabfälle",
-"subtitle":"",
+﻿{"title":"Siedlungsabfälle",
+"subtitle":"Siedlungsabfälle pro Kopf in Kilogramm",
 "kuerzel":"I.02.6.04337",
 "kuerzelKunde":"0101",
 "description":"Siedlungsabfälle",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Jährliche Menge an Siedlungsabfällen pro Einwohner, welche durch die Gemeinden gesammelt werden. Abfälle, welche von privaten Entsorgungsdiensten gesammelt werden, sind darin nicht berücksichtigt.<br><br>Der Indikator umfasst die in den Kehrichtverwertungsanlagen verbrannten Siedlungsabfälle und die gesammelten Altstoffe aus Separatsammlungen (pro Einwohner der mittleren Wohnbevölkerung). Die Siedlungsabfälle enthalten die aus Haushalten stammenden Abfälle sowie andere Abfälle vergleichbarer Zusammensetzung. <br>Folgende Abfallkategorien werden dabei berücksichtigt:<br><br>- Hauskehricht, Sperrgut<br>- Papier, Karton <br>- Glas<br>- Metalle (inkl. Aluminium und Weissblech)<br>- Textilien<br>- Grüngut<br><br>Zusätzlich werden in Basel-Stadt Sonderabfälle und in Basel-Landschaft Öle mit dazugerechnet.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-01-0101"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-01-0101' target='_blank'>Umweltberichts beider Basel</a>."]
 }

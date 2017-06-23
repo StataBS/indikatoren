@@ -1,4 +1,4 @@
-{"title":"Wassertemperatur Grundwasser",
+﻿{"title":"Wassertemperatur Grundwasser",
 "subtitle":"",
 "kuerzel":"I.02.19.04237",
 "kuerzelKunde":"1610",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Mittelwert der Jahrestemperatur des Grundwassers berechnet aus Temperaturdaten von mehreren Messstellen.<br><br>In Basel-Stadt wird die Grundwassertemperatur an 82 Messstellen kontinuierlich gemessen und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt.<br><br>Im Kanton Basel-Landschaft wird die Grundwassertemperatur an rund 80 Messstationen verteilt über das Kantonsgebiet kontinuierlich gemessen. Als Indikator werden die arithmetischen Mittelwerte von 18 ausgewählten, repräsentativen Grundwassermessstationen verwendet (davon 7 im Birs- und Laufental, 6 im Ergolztal, 3 im Frenketal und 2 im Diegtertal).",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-16-1610"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-16-1610' target='_blank'>Umweltberichts beider Basel</a>."]
 }

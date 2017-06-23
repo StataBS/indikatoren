@@ -1,4 +1,4 @@
-{"title":"Abfallverbrennung",
+﻿{"title":"Abfallverbrennung",
 "subtitle":"",
 "kuerzel":"I.02.6.04334",
 "kuerzelKunde":"0104",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Menge der in der Kehrichtverwertungsanlage (KVA) Basel verbrannten Abfälle, nach Anlieferungskanton.<br><br>Die KVA Basel erfasst die angelieferte Abfallmenge und den Standortkanton der Anlieferer. Abfälle aus Basel-Stadt, welche indirekt über basellandschaftliche Abfall-Sortieranlagen an die KVA Basel angeliefert werden, werden dabei unter Basel-Landschaft aufgeführt. Im Kanton Basel-Landschaft werden zudem auch Abfälle berücksichtigt, welche über regionale Abfall-Zweckverbände entsorgt werden (Bezirk Laufen und Randgemeinden, basierend auf kommunaler Siedlungsabfallstatistik). ",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-01-0104"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-01-0104' target='_blank'>Umweltberichts beider Basel</a>."]
 }

@@ -1,4 +1,4 @@
-{"title":"Heizgradtage",
+﻿{"title":"Heizgradtage",
 "subtitle":"",
 "kuerzel":"I.02.12.04228",
 "kuerzelKunde":"0611",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Heizgradtage (HGT) sind ein Mass für den Einfluss des Wetters auf den Heizenergieverbrauch. Sie berechnen sich aus der Differenz zwischen gewünschter Raumtemperatur und mittlerer Aussentemperatur eines Tages, falls diese Aussentemperatur unter einer bestimmten Heizgrenze liegt.<br><br>Für alle Tage in der Heizperiode (September des Vorjahres bis Juni des laufenden Jahres) welche eine mittlere Aussenlufttemperatur von kleiner oder gleich 12 °C (Heizgrenze) aufweisen, wird die Differenz zwischen 20 °C (angenommene gewünschte Raumtemperatur) und der mittleren Aussenlufttemperatur summiert (Beispiel: Beträgt die mittlere Aussenlufttemperatur an einem Tag 8,5 °C, so resultiert daraus für diesen Tag ein Wert von 20 - 8,5 = 11,5 Heizgradtagen). <br>Allfällige Heizgradtage in den Monaten Juli und August werden nicht berücksichtigt. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in zwei Metern über Grund (317 m ü. M; 47°33' N / 7°35' E).",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Lufthygieneamt beider Basel"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-06-0611"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-06-0611' target='_blank'>Umweltberichts beider Basel</a>."]
 }

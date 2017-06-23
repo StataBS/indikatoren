@@ -1,4 +1,4 @@
-{"title":"Fluglärm",
+﻿{"title":"Fluglärm",
 "subtitle":"",
 "kuerzel":"I.02.14.04266",
 "kuerzelKunde":"1005",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Der Indikator zeigt die durchschnittliche Lärmbelastung durch Fluglärm während der ersten Nachtstunde von 22 bis 23 Uhr. Beim aktuellen Betrieb des Flughafen Basel-Mulhouse (EuroAirport) ist die Lärmbelastung während der ersten Nachtstunde im Vergleich mit dem zulässigen Belastungsgrenzwert gemäss Anhang 5 der Lärmschutz-Verordnung (LSV) die massgebende Grösse. Für die zweite (23 bis 24 Uhr) und die letzte Nachtstunde (05 bis 06 Uhr) sowie für den Tag (06 bis 22 Uhr) gelten andere Belastungsgrenzwerte.<br><br>Der EuroAirport misst an mehreren Messstationen im Umfeld des Flughafens (Basel-Neubad, Allschwil, Binningen sowie weiteren in Deutschland und Frankreich. Siehe auch weiterführende Informationen) den von den startenden und landenden Flugzeugen ausgehenden Schallpegel in dB(A). Der Indikator ist definiert als der über ein Jahr gemittelte energieäquivalente Dauerschallpegel (Leq) während der Zeit von 22 bis 23 Uhr (Leq AC22).<br><br>Der Immissionsgrenzwert in der Lärmempfindlichkeitsstufe (ES) II (Wohnen ohne störende Betriebe) beträgt gemäss Anhang 5 der LSV für die erste Nachtstunde 55 dB.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["EuroAirport Basel-Mulhouse"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-10-1005"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-10-1005' target='_blank'>Umweltberichts beider Basel</a>."]
 }

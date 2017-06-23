@@ -1,4 +1,4 @@
-{"title":"Deponierte Klärschlammasche",
+﻿{"title":"Deponierte Klärschlammasche",
 "subtitle":"",
 "kuerzel":"I.02.6.04335",
 "kuerzelKunde":"0107",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Bei der Abwasserreinigung fällt Klärschlamm an, welcher verbrannt wird. Die dabei als Restprodukt zurückbleibende Klärschlammasche wird auf der Deponie Elbisgraben (Kanton Basel-Landschaft) abgelagert.<br><br>Menge der jährlich in der Deponie Elbisgraben angelieferten Klärschlammasche aus den kantonalen Abwasserreinigungsanlagen (ARA). Die deponierte Klärschlammasche ist in der totalen Menge deponierter Abfälle beider Kantone enthalten (Indikator \"Auf Deponien abgelagerte Abfälle\").",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-01-0107"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-01-0107' target='_blank'>Umweltberichts beider Basel</a>."]
 }

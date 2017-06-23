@@ -1,4 +1,4 @@
-{"title":"Biodiversität der Fliessgewässer",
+﻿{"title":"Biodiversität der Fliessgewässer",
 "subtitle":"",
 "kuerzel":"I.02.19.04243",
 "kuerzelKunde":"1613",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Die Biodiversität und der biologische Zustand von Fliessgewässern lassen sich Anhand des Vorhandenseins und der Zusammensetzung von Kleinlebewesen der Gewässersohle (Makrozoobenthos) und der Fischfauna bewerten.<br><br>Der Qualitätsindex IBCH (Indice biologique Schweiz) wird gemäss dem in der Schweiz verwendeten Modul-Stufen-Konzept (MSK) zur Untersuchung und Beurteilung von Fliessgewässern erhoben (Modul Makrozoobenthos, Stufe F (flächendeckend)). Die IBCH-Methode bietet ein einheitliches Verfahren für die Probenahme und die Auswertung der Proben. Der IBCH beinhaltet die Anzahl der erhobenen Makrozooen (Taxa) und die Anzahl von bestimmten Indikatororganismen (Indikatortaxa). <br><br>Die Beurteilung der Fischfauna erfolgt anhand des Modul Stufen Konzeptes (MSK) Modul Fische, Stufe F, des Bundesamtes für Umwelt. In die Bewertung fliessen ein: das Artenspektrum, das Dominanzverhältnis, die Populationsstruktur der Indikatorarten, die Wanderarten, die Fischdichte der Indikatorarten und die Deformation resp. Anomalien der Fische. <br><br>Im Diagramm abgebildet sind die aus den beiden Bewertungsschemen resultierenden Bewertungsklassen:<br>1 = schlecht,<br>2 = unbefriedigend,<br>3 = mässig,<br>4 = gut,<br>5 = sehr gut.<br><br>Für den Kanton Basel-Stadt wurde der Mittelwert über mehrere Probestellen in den Flüssen Wiese, Neuer Teich und Mühleteich gebildet.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-16-1613"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-16-1613' target='_blank'>Umweltberichts beider Basel</a>."]
 }

@@ -1,4 +1,4 @@
-{"title":"Ausbaugrad der Abwasserreinigungsanlagen",
+﻿{"title":"Ausbaugrad der Abwasserreinigungsanlagen",
 "subtitle":"",
 "kuerzel":"I.02.19.04239",
 "kuerzelKunde":"1614",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Der mittlere Ausbaugrad der Abwasserreinigungsanlagen (ARAs) zeigt das Potential der ARA-Infrastrukturen für die Reinigung der zugeführten Abwässer.<br><br>Der Indikatorwert entspricht dem Mittelwert des Ausbaugrades aller Anlagen eines Kantons (BL: 30 ARAs; BS: 1 ARA).<br><br>Je nach Ausbaugrad einer Anlage sind die nachfolgenden sechs Behandlungsstufen nach VSA (Verband Schweizer Abwasser- und Gewässerschutzfachleute) vorhanden. Der Ausbaugrad berechnet sich aus der Summe der in Klammern angeführten Werte: <br>- Mechanisch-Biologisch (50%), <br>- Phosphorelimination (10%), <br>- Filtration (10%), <br>- Nitrifikation (10%), <br>- Weitergehende Stickstoffelimination (10%) und <br>- Mikroverunreinigungs-Stufe (10%).<br><br>Sind in einer ARA alle Behandlungsstufen vorhanden beträgt deren Ausbaugrad 100%. Fehlt beispielsweise die Mikroverunreinigung-Stufe, so beträgt der Ausbaugrad nur 90%. <br><br>Der Indikator bezieht sich auf die Anzahl der ARAs, nicht auf die behandelte Abwassermenge oder die angeschlossenen Einwohnergleichwerte.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["ProRheno AG"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-16-1614"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-16-1614' target='_blank'>Umweltberichts beider Basel</a>."]
 }

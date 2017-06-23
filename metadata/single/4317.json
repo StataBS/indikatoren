@@ -1,4 +1,4 @@
-{"title":"Siedlungserneuerung",
+﻿{"title":"Siedlungserneuerung",
 "subtitle":"",
 "kuerzel":"I.09.1.04317",
 "kuerzelKunde":"0904",
@@ -16,14 +16,14 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Verhältnis zwischen abgebrochenen und neu erstellten Wohnungen durch Siedlungserneuerung (Wohnersatzprojekte). Der Indikator zeigt somit den Grad der Verdichtung, welcher durch die Siedlungserneuerung erreicht wird.<br><br>Als Wohnersatzprojekt gelten Projekte, bei welchen ältere Wohnbauten abgebrochen und durch neue Wohngebäude ersetzt werden. Zur Ermittlung der Wohnersatzprojekte wird um abgerissene Wohngebäude ein Puffer von 20 Metern gelegt. Für die neuen Wohngebäude, die in den Folgejahren (bis zu fünf Jahre) innerhalb dieses Puffers gebaut werden, wird das Verhältnis der alten zur neuen Wohnungsanzahl berechnet. Als Datengrundlage dient die Gebäudedatenbank des Kantons Basel-Landschaft.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
-"visible":true,
-"visibleInPortal":true,
+"visible":false,
+"visibleInPortal":false,
 "parentId":null,
 "children":[],
 "renderLink":[],
 "quellenangabe":[],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-05-0904"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-05-0904' target='_blank'>Umweltberichts beider Basel</a>."]
 }

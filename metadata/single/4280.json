@@ -1,4 +1,4 @@
-{"title":"Gesundheitskosten der Luftverschmutzung",
+﻿{"title":"Gesundheitskosten der Luftverschmutzung",
 "subtitle":"",
 "kuerzel":"I.02.15.04280",
 "kuerzelKunde":"1107",
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Durch die Luftverschmutzung entstehende Folgekosten im Gesundheitswesen. <br><br>Die verkehrsbedingten externen Kosten der Luftverschmutzung sowie weiterer Umweltbereiche wurden 2014 von den Bundesämtern ARE und BAFU für das Jahr 2010 aktualisiert (Ecoplan/INFRAS 2014). Die gesundheitlichen Auswirkungen der Luftverschmutzung in der Schweiz wurden anhand des für die Gesundheitsschädigung massgebenden Leitschadstoffes PM10 in verschiedenen Studien genauer quantifiziert und monetarisiert. Diese Studien wurden von Epidemiologen, Lufthygienikern und Ökonomen gemeinsam durchgeführt. Die in dieser Aktualisierung angewandte Methodik wurde für die beiden Kantone übernommen. Für die Expositionsabschätzungen resp. für die Berechnung der bevökerungsgewichteten Kosten für das Jahr 2015 gegenüber PM10 wurden für BS/BL die neuen PM10 Immissionswertde verwendet.",
+"erlaeuterungen":"",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Lufthygieneamt beider Basel"],
-"externalLinks":["www.umweltbericht.bs-bl.ch/indikatoren-06-1107"]
+"externalLinks":["Indikator im Kontext des <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-06-1107' target='_blank'>Umweltberichts beider Basel</a>."]
 }
