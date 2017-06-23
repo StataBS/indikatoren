@@ -273,3 +273,8 @@ h1{
     height: 12px;
     width: 15px;
 }
+
+/* hide blue outline around thumbnail title and image after clicked */
+a {
+    outline:none!important
+}
