@@ -137,15 +137,15 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, chartMetaD
   if (chartMetaData.kennzahlenset != "Umwelt"){
     //load scripts one after the other, then load csv and draw the chart
     $.when(    
-        $.getScript(globalOptionsUrl),
+        //$.getScript(globalOptionsUrl),
         $.getScript(templateUrl),
         $.getScript(chartUrl),
         $.Deferred(function( deferred ){
           $(deferred.resolve);
         })
-    ).done(function(optionsReturnData, templateReturnData, chartReturnData){
+    ).done(function(/*optionsReturnData, */templateReturnData, chartReturnData){
         //get returned script, evaluate it, save returned object to variable. 
-        var globalOptions = eval(optionsReturnData[0]);
+        //var globalOptions = eval(optionsReturnData[0]);
         var chartOptions = eval(chartReturnData[0]);
         var template = eval(templateReturnData[0]);
         
