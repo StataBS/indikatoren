@@ -20,10 +20,11 @@ ubFileList.shift();
 //casper.echo(ubFileList);
 casper.options.viewportSize = { width: 485, height: 415 };
 
-
+//todo: remove once visible has been set correctly for all charts in kennzahlenset Umwelt
 casper.options.onWaitTimeout = function(){
     casper.echo('Wait timeout exceeded, continuing operations...');
 };
+
 
 // Open dummy web site in order to call start()
 casper.start('https://google/ch');
@@ -37,7 +38,7 @@ while (ubFileList.length > 0) {
 
         //evaluate json and check if indicator belongs to kennzahlenset Umwelt
         var currentConfig = require(fs.workingDirectory + "/" + pathBase + id + ".json");
-        if (currentConfig.kennzahlenset == "Umwelt") {
+        if (currentConfig.kennzahlenset == "Umwelt" && currentConfig.visible) {
             
             var url = urlbase + currentConfig.kuerzelKunde; 
             //close current page to release memory, https://stackoverflow.com/a/18156020
@@ -95,7 +96,7 @@ while (ubFileList.length > 0) {
             */
         }
         else {
-            casper.echo('Chart ' + id + ' belongs to kennzahlenset ' + currentConfig.kennzahlenset +', which is not "Umwelt", thus ignoring here. ');
+            casper.echo('Chart ' + id + ' is either not visible (visible: ' + currentConfig["visible"] + '), or belongs to kennzahlenset ' + currentConfig.kennzahlenset +', which is not "Umwelt", thus ignoring here. ');
         }
     })(idText);
 }        

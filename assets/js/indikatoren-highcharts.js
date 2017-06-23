@@ -94,8 +94,8 @@ function loadChartConfig(id, indikatorensetView, callbackFn){
 function injectMetadataToChartConfig(options, data, indikatorensetView, suppressNumberInTitle){
   var chartNumber = (indikatorensetView) ? data.kuerzelKunde : data.kuerzel;
   var chartNumberToDisplay = (suppressNumberInTitle == true || suppressNumberInTitle == null) ? "" : chartNumber + ': ';
+  options['subtitle']['text'] = data.subtitle;
   options['title']['text'] = (indikatorensetView) ? chartNumberToDisplay + data.title : data.title;
-  options['subtitle']['text'] = data.subtitle;    
   options['chart']['renderTo'] = 'container-' + data.id;
   options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join(';<br/>');
   //add 10 px space for each line of credits plus -5px for the first line (if not stated otherwise)
@@ -104,9 +104,11 @@ function injectMetadataToChartConfig(options, data, indikatorensetView, suppress
   options['exporting'] = (options['exporting'] || {});
   options['exporting']['filename'] = data.kuerzel;
   //changes for charts from Umweltbericht
-  options['chart']["width"] =  485;
-  options['chart']["height"] = 415;
-  delete options.exporting.buttons;
+  if (data.kennzahlenset == "Umwelt"){
+    options['chart']["width"] =  485;
+    options['chart']["height"] = 415;
+    delete options.exporting.buttons;
+  }
   return options;
 }
 
