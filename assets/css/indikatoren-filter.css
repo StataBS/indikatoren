@@ -258,17 +258,18 @@ h1{
 
 
 /* .label and .highcharts-tooltip span are necessary for certain highcharts cases where the tooltip does not nicely overshadow axis labels, e.g. I.50.4.0004, see http://stackoverflow.com/questions/15130311/highcharts-labels-visible-over-tooltip */
+/*
 .label {
     z-index: 1 !important;
 }
 
 .highcharts-tooltip span {
     background-color: white;
-    /*border:1 px solid green;*/
+
     opacity: 1;
     z-index: 9999 !important;
 }
-
+*/
 .link-icon {
     height: 12px;
     width: 15px;
