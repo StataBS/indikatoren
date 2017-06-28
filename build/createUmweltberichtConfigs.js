@@ -21,9 +21,11 @@ ubFileList.shift();
 casper.options.viewportSize = { width: 485, height: 415 };
 
 //todo: remove once visible has been set correctly for all charts in kennzahlenset Umwelt
+/*
 casper.options.onWaitTimeout = function(){
     casper.echo('Wait timeout exceeded, continuing operations...');
 };
+*/
 
 
 // Open dummy web site in order to call start()
