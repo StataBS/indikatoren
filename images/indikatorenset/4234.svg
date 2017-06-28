@@ -107,7 +107,7 @@
             <tspan>25</tspan>
         </text>
     </g>
-    <text x="10" class="highcharts-credits" y="388" cursor="default" color="#000" font-size=".8em">
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
         <tspan>Quelle: Amt für Umwelt und Energie Basel-Stadt; Industrielle Werke Basel-Stadt (IWB); Amt für</tspan><tspan dy="12.6" x="10">Umweltschutz und Energie Basel-Landschaft</tspan><title>Quelle: Amt für Umwelt und Energie Basel-Stadt; Industrielle Werke Basel-Stadt (IWB); Amt für Umweltschutz und Energie Basel-Landschaft</title>
     </text>
 </svg>

@@ -79,7 +79,7 @@
             <tspan>12.5%</tspan>
         </text>
     </g>
-    <text x="10" class="highcharts-credits" y="388" cursor="default" color="#000" font-size=".8em">
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
         <tspan>Quelle: Bundesamt für Statistik</tspan>
     </text>
 </svg>

@@ -88,7 +88,7 @@
             <tspan>30%</tspan>
         </text>
     </g>
-    <text x="10" class="highcharts-credits" y="388" cursor="default" color="#000" font-size=".8em">
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
         <tspan>Quelle: Amt für Umwelt und Energie Basel-Stadt; Amt für Raumplanung Basel-Landschaft</tspan>
     </text>
 </svg>

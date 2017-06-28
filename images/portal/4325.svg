@@ -130,7 +130,7 @@
             <tspan>400</tspan>
         </text>
     </g>
-    <text x="10" class="highcharts-credits" y="388" cursor="default" color="#000" font-size=".8em">
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
         <tspan>Quelle: Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt;</tspan><tspan dy="12.6" x="10">Motorfahrzeugkontrolle Basel-Landschaft; Statistisches Amt Basel-Landschaft</tspan><title>Quelle: Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Landschaft; Statistisches Amt Basel-Landschaft</title>
     </text>
 </svg>

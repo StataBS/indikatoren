@@ -211,12 +211,12 @@
       "fontSize": "1.1em",
       "fontWeight": "bold",
       "fill": "#000000",
-      "width": "385px"
+      "width": "421px"
     },
     "text": "Kantonale Unterschutzstellungen",
     "align": "left",
     "margin": 15,
-    "widthAdjust": -80
+    "widthAdjust": -44
   },
   "subtitle": {
     "style": {
@@ -1080,7 +1080,7 @@
       "align": "left",
       "x": 10,
       "verticalAlign": "bottom",
-      "y": -27
+      "y": -15
     },
     "style": {
       "cursor": "default",

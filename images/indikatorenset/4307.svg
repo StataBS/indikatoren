@@ -85,7 +85,7 @@
             <tspan>20%</tspan>
         </text>
     </g>
-    <text x="10" class="highcharts-credits" y="388" cursor="default" color="#000" font-size=".8em">
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
         <tspan>Quelle: Stadtgärtnerei Basel-Stadt; Landwirtschaftliches Zentrum Ebenrain, Bundesamt für Statistik</tspan>
     </text>
 </svg>

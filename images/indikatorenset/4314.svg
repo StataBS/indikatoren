@@ -148,7 +148,7 @@
         <path fill="#f2f2f2" d="M454.5 323.5h8v15h-8v-15m3 3.5v8m2-8v8" class="highcharts-navigator-handle highcharts-navigator-handle-right" stroke="#999" cursor="ew-resize"/>
         <path fill="#f2f2f2" d="M381.5 323.5h8v15h-8v-15m3 3.5v8m2-8v8" class="highcharts-navigator-handle highcharts-navigator-handle-left" stroke="#999" cursor="ew-resize"/>
     </g>
-    <text x="10" class="highcharts-credits" y="388" cursor="default" color="#000" font-size=".8em">
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
         <tspan>Quelle: Bundesamt für Umwelt; Tiefbauamt Basel-Landschaft</tspan>
     </text>
 </svg>
