@@ -1379,7 +1379,7 @@
   ],
   "series": [
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "stacking": "percent",
       "stack": "BS",
       "marker": {
@@ -1403,7 +1403,7 @@
       }
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "stacking": "percent",
       "stack": "BS",
       "marker": {

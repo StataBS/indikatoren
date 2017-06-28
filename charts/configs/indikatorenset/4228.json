@@ -1428,7 +1428,7 @@
   ],
   "series": [
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "type": "line",
       "showInNavigator": true,
       "name": "Messstation Basel-Binningen",

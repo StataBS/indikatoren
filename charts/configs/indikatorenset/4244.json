@@ -1396,7 +1396,7 @@
   ],
   "series": [
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "stacking": null,
       "type": "column",
       "showInNavigator": true,

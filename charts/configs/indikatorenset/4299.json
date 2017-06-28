@@ -1381,7 +1381,7 @@
   ],
   "series": [
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "stacking": null,
       "type": "column",
       "showInNavigator": true,
@@ -1396,7 +1396,7 @@
       ]
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "type": "line",
       "showInNavigator": true,
       "name": "BS: Tonnen pro Einwohner (rechte Skala)",

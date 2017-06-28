@@ -1400,7 +1400,7 @@
   ],
   "series": [
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "stacking": "percent",
       "stack": "BS&BL",
       "type": "column",
@@ -1418,7 +1418,7 @@
       }
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "stacking": "percent",
       "stack": "BS&BL",
       "type": "column",
@@ -1436,7 +1436,7 @@
       }
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "stacking": "percent",
       "stack": "BS&BL",
       "type": "column",
@@ -1454,7 +1454,7 @@
       }
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "stacking": "percent",
       "stack": "BS&BL",
       "type": "column",
@@ -1472,7 +1472,7 @@
       }
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "stacking": "percent",
       "stack": "BS&BL",
       "type": "column",
@@ -1490,7 +1490,7 @@
       }
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "stacking": "percent",
       "stack": "BS&BL",
       "type": "column",

@@ -1380,7 +1380,7 @@
   ],
   "series": [
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "stacking": null,
       "marker": {
         "enabled": true,
@@ -1397,7 +1397,7 @@
       ]
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "tooltip": {
         "headerFormat": "\u003Cspan style='width: 80px'\u003E\u003Cspan style='color:{point.color}; width: 10px; font-size: 1.8em;'\u003E■\u003C\u002Fspan\u003E\u003Cspan style='font-size: 1em;'\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style='padding-left: 15px; line-height: 1.4em;'\u003E"
       },

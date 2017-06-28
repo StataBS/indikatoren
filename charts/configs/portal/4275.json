@@ -1414,7 +1414,7 @@
   ],
   "series": [
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "type": "line",
       "showInNavigator": true,
       "name": "Höhenlagen im Jura",
@@ -1452,7 +1452,7 @@
       "_symbolIndex": 0
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "type": "line",
       "showInNavigator": true,
       "name": "Agglomeration",
@@ -1490,7 +1490,7 @@
       "_symbolIndex": 1
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "type": "line",
       "showInNavigator": true,
       "name": "Stadt Basel",
@@ -1528,7 +1528,7 @@
       "_symbolIndex": 2
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "type": "line",
       "showInNavigator": true,
       "name": "Stark verkehrsexponiert",

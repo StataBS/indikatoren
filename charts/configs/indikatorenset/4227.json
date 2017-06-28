@@ -1374,7 +1374,7 @@
   ],
   "series": [
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "stacking": null,
       "marker": {
         "enabled": true,

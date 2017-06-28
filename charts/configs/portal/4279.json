@@ -1409,7 +1409,7 @@
   ],
   "series": [
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "type": "line",
       "showInNavigator": true,
       "name": "Höhenlagen",
@@ -1447,7 +1447,7 @@
       "_symbolIndex": 0
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "type": "line",
       "showInNavigator": true,
       "name": "Agglomeration",
@@ -1485,7 +1485,7 @@
       "_symbolIndex": 1
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "type": "line",
       "showInNavigator": true,
       "name": "Stadt Basel",

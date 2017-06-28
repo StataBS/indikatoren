@@ -1420,7 +1420,7 @@
   ],
   "series": [
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "stacking": "normal",
       "stack": "BS",
       "type": "column",
@@ -1460,7 +1460,7 @@
       ]
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "stacking": "normal",
       "stack": "BS",
       "type": "column",
@@ -1500,7 +1500,7 @@
       ]
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "stacking": "normal",
       "stack": "BS",
       "type": "column",
@@ -1540,7 +1540,7 @@
       ]
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "stacking": "normal",
       "stack": "BS",
       "type": "column",
@@ -1580,7 +1580,7 @@
       ]
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "stacking": "normal",
       "stack": "BS",
       "type": "column",

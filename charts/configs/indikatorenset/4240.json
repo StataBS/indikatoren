@@ -1392,7 +1392,7 @@
   ],
   "series": [
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "type": "line",
       "showInNavigator": true,
       "name": "BS: Rhein (RÜS S3)",
@@ -1413,7 +1413,7 @@
       "_symbolIndex": 0
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "type": "line",
       "showInNavigator": true,
       "name": "BS: Wiese (alt)",
@@ -1435,7 +1435,7 @@
       "_symbolIndex": 1
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "marker": {
         "enabled": true,
         "radius": 5

@@ -1399,7 +1399,7 @@
   ],
   "series": [
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "type": "line",
       "showInNavigator": true,
       "name": "BS: MIV Stadtstrassennetz",
@@ -1417,7 +1417,7 @@
       "_symbolIndex": 0
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "type": "line",
       "showInNavigator": true,
       "name": "BS: MIV Total",
@@ -1435,7 +1435,7 @@
       "_symbolIndex": 1
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "type": "line",
       "showInNavigator": true,
       "name": "BS: ÖV",
@@ -1453,7 +1453,7 @@
       "_symbolIndex": 2
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "type": "line",
       "showInNavigator": true,
       "name": "BS: ÖV BVB\u002FBLT",
@@ -1471,7 +1471,7 @@
       "_symbolIndex": 3
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "type": "line",
       "showInNavigator": true,
       "name": "BS: Velo (wetterbereinigt)",

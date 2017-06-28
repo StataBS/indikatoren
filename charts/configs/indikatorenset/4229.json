@@ -1384,7 +1384,7 @@
   ],
   "series": [
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "type": "line",
       "showInNavigator": true,
       "name": "BS: Energieeffizienz (BIP\u002FBruttoenergieverbrauch)",
@@ -1402,7 +1402,7 @@
       "_symbolIndex": 0
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "type": "line",
       "showInNavigator": true,
       "name": "BS: Energieverbrauch pro Einwohner",

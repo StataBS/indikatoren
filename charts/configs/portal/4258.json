@@ -1394,7 +1394,7 @@
   ],
   "series": [
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "stacking": "normal",
       "stack": "BS",
       "marker": {
@@ -1412,7 +1412,7 @@
       ]
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "stacking": "normal",
       "stack": "BS",
       "marker": {
@@ -1430,7 +1430,7 @@
       ]
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "stacking": "normal",
       "stack": "BS",
       "marker": {
@@ -1448,7 +1448,7 @@
       ]
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "stacking": "normal",
       "stack": "BS",
       "marker": {
@@ -1466,7 +1466,7 @@
       ]
     },
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "stacking": "normal",
       "stack": "BS",
       "marker": {

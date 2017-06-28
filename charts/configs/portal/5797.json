@@ -1385,7 +1385,7 @@
   ],
   "series": [
     {
-      "includeInCSVExport": false,
+      "includeInCSVExport": true,
       "stacking": "normal",
       "stack": "BS&BL",
       "type": "column",

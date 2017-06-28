@@ -1681,42 +1681,6 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Nutzungskonflikte in Grundwasserschutzzonen",
-		"subtitle": "Quadratkilometer",
-		"kuerzel": "I.02.19.04235",
-		"kuerzelKunde": "1601",
-		"description": "Nutzungskonflikte in Grundwasserschutzzonen",
-		"id": 4235,
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Wasser",
-		"kennzahlenset": "Umwelt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
-		"stufe1": "Wasser",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-16-1601' target='_blank'>Umweltberichts beider Basel</a>.",
-		"template": "dotplot",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [],
-		"externalLinks": [
-			""
-		]
-	},
-	{
 		"title": "Gelöster Organischer Kohlenstoff (DOC)",
 		"subtitle": "Milligramm pro Liter",
 		"kuerzel": "I.02.19.04236",
