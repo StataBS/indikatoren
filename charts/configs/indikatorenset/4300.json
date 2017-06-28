@@ -58,14 +58,7 @@
       "Saturday"
     ],
     "decimalPoint": ",",
-    "numericSymbols": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
+    "numericSymbols": null,
     "resetZoom": "Zoom zurücksetzen",
     "resetZoomTitle": "Reset zoom level 1:1",
     "thousandsSep": " ",
