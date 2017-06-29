@@ -1149,6 +1149,11 @@
         "includeInCSVExport": false,
         "type": "line",
         "color": "#D3E2E4"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "line",
+        "color": "#A8C3CA"
       }
     ],
     "xAxis": {
@@ -1323,7 +1328,8 @@
         2012,
         2013,
         2014,
-        2015
+        2015,
+        2016
       ],
       "tickLength": 0,
       "title": {
@@ -1405,7 +1411,8 @@
         98.2,
         98.5,
         98.2,
-        97.1
+        97.1,
+        97.2
       ],
       "_symbolIndex": 0
     },
@@ -1423,7 +1430,8 @@
         99.5,
         100.7,
         101.1,
-        100.9
+        100.9,
+        101
       ],
       "_symbolIndex": 1
     },
@@ -1441,6 +1449,7 @@
         106.8,
         null,
         106.5,
+        null,
         null
       ],
       "_symbolIndex": 2
@@ -1459,7 +1468,8 @@
         104.2,
         105.3,
         105.5,
-        109
+        109,
+        108.4
       ],
       "_symbolIndex": 3
     },
@@ -1477,9 +1487,29 @@
         103.1,
         103.9,
         114.7,
-        118.4
+        118.4,
+        122.9
       ],
       "_symbolIndex": 4
+    },
+    {
+      "includeInCSVExport": true,
+      "type": "line",
+      "showInNavigator": true,
+      "name": "BS: Fussgänger",
+      "color": "#A8C3CA",
+      "id": "BS1705_6",
+      "valueSuffix": "Indexwert (Basis 2010 = 100)",
+      "data": [
+        null,
+        null,
+        null,
+        100,
+        107,
+        103,
+        102.5
+      ],
+      "_symbolIndex": 0
     }
   ]
 }

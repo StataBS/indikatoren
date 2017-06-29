@@ -1129,6 +1129,11 @@
         "includeInCSVExport": false,
         "type": "column",
         "color": "#FF8028"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#DC440E"
       }
     ],
     "xAxis": {
@@ -1300,10 +1305,10 @@
       "categories": [
         1996,
         2001,
-        2002,
+        2004,
         2006,
-        2009,
-        2011
+        2011,
+        2016
       ],
       "tickLength": 0,
       "title": {
@@ -1386,17 +1391,35 @@
       "stacking": null,
       "type": "column",
       "showInNavigator": true,
-      "name": "BS: Makrozoobenthos, Mittelwert",
+      "name": "BS: Makrozoobenthos Wiese",
       "color": "#FF8028",
       "id": "BS1613_3",
       "valueSuffix": "Bewertungsklassen",
       "data": [
         4,
         4,
+        null,
         4,
+        5,
+        4
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": null,
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BS: Fischfauna Wiese",
+      "color": "#DC440E",
+      "id": "BS1613_4",
+      "valueSuffix": "Bewertungsklassen",
+      "data": [
+        null,
+        null,
+        2,
+        null,
         4,
-        4,
-        5
+        null
       ]
     }
   ]
