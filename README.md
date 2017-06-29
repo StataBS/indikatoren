@@ -26,7 +26,7 @@ npm run build:umwelt_charts
 - This uses casperJs / phantomJs to open all charts of Indikatorenset "Umwelt" and save their Highcharts configuration in charts/config/indikatorenset and charts/configs/portal. 
 - Create svg files, e.g. by running the command 
 ```javascript
-npm run build"
+npm run build
 ```
 
 ## Development
