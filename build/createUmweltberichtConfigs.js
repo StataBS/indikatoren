@@ -29,7 +29,7 @@ casper.options.onWaitTimeout = function(){
 
 
 // Open dummy web site in order to call start()
-casper.start('https://google/ch');
+casper.start('https://google.ch');
 
 //loop over array of urls: https://stackoverflow.com/a/25601585 
 while (ubFileList.length > 0) {
