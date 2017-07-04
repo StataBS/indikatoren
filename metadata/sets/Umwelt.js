@@ -39,11 +39,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Energiepreise",
+		"title": "Energiepreise Schweiz",
 		"subtitle": "Indexwert (Basis Dezember 2010 = 100)",
 		"kuerzel": "I.05.3.04222",
 		"kuerzelKunde": "0601",
-		"description": "Energiepreise",
+		"description": "Energiepreise Schweiz",
 		"id": 4222,
 		"thema": "05 Preise",
 		"unterthema": "Durchschnittspreise",

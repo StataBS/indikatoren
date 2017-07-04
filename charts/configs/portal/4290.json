@@ -171,7 +171,7 @@
 									 /*window.top.location.href = "?i=1514&format=ubdb&format_menu=1";*/
 									 /*window.open("?i=1514&format=ub", "Indikator-Details");*/
 									 /*window.open("http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren/TID/1514.html", "Indikator-Details");*/
-									 window.top.location.href = "http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren-15-1514", "Indikator-Details";
+									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1514", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -975,7 +975,7 @@
     "enabled": true,
     "align": "left",
     "layout": "horizontal",
-    "labelFormatter": function () {return this.name;},
+    "labelFormatter": function () { return this.name.replace(/(BS|BL|BS&BL|UBB|OBB): /, '');},
     "borderColor": "#999999",
     "borderRadius": 0,
     "navigation": {
@@ -1128,12 +1128,22 @@
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#FF8028"
+        "color": "#73B97C"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#DC440E"
+        "color": "#68AB2B"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#73B97C"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#68AB2B"
       }
     ],
     "xAxis": {
@@ -1303,6 +1313,7 @@
   "xAxis": [
     {
       "categories": [
+        2007,
         2008,
         2009,
         2010,
@@ -1353,6 +1364,14 @@
 						  return this.axis.defaultLabelFormatter.call(this) + '';
 						}
       },
+      "stackLabels": {
+        "enabled": true,
+        "style": {
+          "fontSize": "0.8em",
+          "fontWeight": "normal"
+        },
+        "formatter": function () { return this.stack; }
+      },
       "index": 0
     },
     {
@@ -1386,10 +1405,11 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Ersteingriff",
-      "color": "#FF8028",
+      "color": "#73B97C",
       "id": "BS1514_1",
       "valueSuffix": "Kilometer",
       "data": [
+        null,
         0.16,
         0.29,
         0.35,
@@ -1408,10 +1428,11 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Nachpflege",
-      "color": "#DC440E",
+      "color": "#68AB2B",
       "id": "BS1514_2",
       "valueSuffix": "Kilometer",
       "data": [
+        null,
         0.093,
         0.32,
         0.49,
@@ -1421,6 +1442,54 @@
         0.83,
         0.93,
         0.97
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BL",
+      "linkedTo": "BS1514_1",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BL: Ersteingriff",
+      "color": "#73B97C",
+      "id": "BL1514_3",
+      "valueSuffix": "Kilometer",
+      "data": [
+        7.7,
+        10,
+        10.9,
+        12.4,
+        13.7,
+        15.2,
+        17.4,
+        18.9,
+        22.5,
+        22.5
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BL",
+      "linkedTo": "BS1514_2",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BL: Nachpflege",
+      "color": "#68AB2B",
+      "id": "BL1514_4",
+      "valueSuffix": "Kilometer",
+      "data": [
+        null,
+        0.28,
+        4.1,
+        4.7,
+        6.3,
+        7.5,
+        9.6,
+        10.4,
+        12.3,
+        12.3
       ]
     }
   ]

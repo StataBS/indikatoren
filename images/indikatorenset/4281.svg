@@ -42,6 +42,10 @@
             <path fill="none" d="M8.423 156.275l16.846 14.1 16.846-9.106 16.847 19.387 16.846-.293 16.846-3.232L109.5 178.6l16.846 3.819 16.846-2.056 16.846 10.575 16.847-.882 16.846 4.7L210.577 188l16.846 6.169 16.846 2.35 16.846-.588 16.847 2.35 16.846-2.056 16.846.588 16.846-2.644 16.846 5.875 16.846 2.643 16.846-3.818 16.847 13.219 16.846-8.813" class="highcharts-graph" stroke="#0A3B19" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
             <path fill="none" d="M-1.577 156.275h10l16.846 14.1 16.846-9.106 16.847 19.387 16.846-.293 16.846-3.232L109.5 178.6l16.846 3.819 16.846-2.056 16.846 10.575 16.847-.882 16.846 4.7L210.577 188l16.846 6.169 16.846 2.35 16.846-.588 16.847 2.35 16.846-2.056 16.846.588 16.846-2.644 16.846 5.875 16.846 2.643 16.846-3.818 16.847 13.219 16.846-8.813h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
+        <g class="highcharts-series highcharts-series-4 highcharts-line-series highcharts-color-undefined" transform="translate(37 109)" clip-path="url(#a)">
+            <path fill="none" d="M8.423 146.875h421.154" class="highcharts-graph" stroke="#444" stroke-width="2" stroke-dasharray="6,2"/>
+            <path fill="none" d="M-1.577 146.875h441.154" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
         <tspan>Stickstoffdioxid-Immissionen</tspan>
@@ -73,6 +77,12 @@
             <path fill="none" d="M12 37h16" class="highcharts-graph" stroke="#0A3B19" stroke-width="2"/>
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 26)">
                 <tspan>Ländlich</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-4">
+            <path fill="none" d="M97.672 37h16" class="highcharts-graph" stroke-dasharray="6,2" stroke="#444" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(97.672 26)">
+                <tspan>Jahres-Grenzwert LRV</tspan>
             </text>
         </g>
     </g>

@@ -171,7 +171,7 @@
 									 /*window.top.location.href = "?i=0506&format=ubdb&format_menu=1";*/
 									 /*window.open("?i=0506&format=ub", "Indikator-Details");*/
 									 /*window.open("http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren/TID/0506.html", "Indikator-Details");*/
-									 window.top.location.href = "http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren-05-0506", "Indikator-Details";
+									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0506", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -975,7 +975,7 @@
     "enabled": true,
     "align": "left",
     "layout": "horizontal",
-    "labelFormatter": function () {return this.name;},
+    "labelFormatter": function () { return this.name.replace(/(BS|BL|BS&BL|UBB|OBB): /, '');},
     "borderColor": "#999999",
     "borderRadius": 0,
     "navigation": {
@@ -1128,22 +1128,42 @@
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#FF8028"
+        "color": "#73B97C"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#DC440E"
+        "color": "#68AB2B"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#B00000"
+        "color": "#007A2F"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#661200"
+        "color": "#0A3B19"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#73B97C"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#68AB2B"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#007A2F"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#0A3B19"
       }
     ],
     "xAxis": {
@@ -1358,6 +1378,16 @@
 						  return this.axis.defaultLabelFormatter.call(this) + '%';
 						}
       },
+      "stackLabels": {
+        "enabled": true,
+        "y": -5,
+        "crop": false,
+        "style": {
+          "fontSize": "0.8em",
+          "fontWeight": "normal"
+        },
+        "formatter": function () { return this.stack; }
+      },
       "index": 0
     },
     {
@@ -1391,7 +1421,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Siedlungsflächen",
-      "color": "#FF8028",
+      "color": "#73B97C",
       "id": "BS0506_1",
       "valueSuffix": "Hektaren",
       "data": [
@@ -1411,7 +1441,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Landwirtschaftsflächen",
-      "color": "#DC440E",
+      "color": "#68AB2B",
       "id": "BS0506_2",
       "valueSuffix": "Hektaren",
       "data": [
@@ -1431,7 +1461,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Bestockte Flächen",
-      "color": "#B00000",
+      "color": "#007A2F",
       "id": "BS0506_3",
       "valueSuffix": "Hektaren",
       "data": [
@@ -1451,7 +1481,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Unproduktive Flächen",
-      "color": "#661200",
+      "color": "#0A3B19",
       "id": "BS0506_4",
       "valueSuffix": "Hektaren",
       "data": [
@@ -1459,6 +1489,90 @@
         165,
         166,
         166
+      ],
+      "tooltip": {
+        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
+      }
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "percent",
+      "stack": "BL",
+      "linkedTo": "BS0506_1",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BL: Siedlungsflächen",
+      "color": "#73B97C",
+      "id": "BL0506_5",
+      "valueSuffix": "Hektaren",
+      "data": [
+        7685,
+        8444,
+        9031,
+        9377
+      ],
+      "tooltip": {
+        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
+      }
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "percent",
+      "stack": "BL",
+      "linkedTo": "BS0506_2",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BL: Landwirtschaftsflächen",
+      "color": "#68AB2B",
+      "id": "BL0506_6",
+      "valueSuffix": "Hektaren",
+      "data": [
+        22232,
+        21407,
+        20982,
+        20545
+      ],
+      "tooltip": {
+        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
+      }
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "percent",
+      "stack": "BL",
+      "linkedTo": "BS0506_3",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BL: Bestockte Flächen",
+      "color": "#007A2F",
+      "id": "BL0506_7",
+      "valueSuffix": "Hektaren",
+      "data": [
+        21497,
+        21535,
+        21388,
+        21456
+      ],
+      "tooltip": {
+        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
+      }
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "percent",
+      "stack": "BL",
+      "linkedTo": "BS0506_4",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BL: Unproduktive Flächen",
+      "color": "#0A3B19",
+      "id": "BL0506_8",
+      "valueSuffix": "Hektaren",
+      "data": [
+        360,
+        388,
+        373,
+        396
       ],
       "tooltip": {
         "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"

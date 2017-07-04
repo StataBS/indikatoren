@@ -171,7 +171,7 @@
 									 /*window.top.location.href = "?i=1701&format=ubdb&format_menu=1";*/
 									 /*window.open("?i=1701&format=ub", "Indikator-Details");*/
 									 /*window.open("http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren/TID/1701.html", "Indikator-Details");*/
-									 window.top.location.href = "http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren-17-1701", "Indikator-Details";
+									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1701", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -1129,6 +1129,11 @@
         "includeInCSVExport": false,
         "type": "line",
         "color": "#FF8028"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "line",
+        "color": "#B375AB"
       }
     ],
     "xAxis": {
@@ -1446,6 +1451,53 @@
         31083.2
       ],
       "_symbolIndex": 0
+    },
+    {
+      "includeInCSVExport": true,
+      "type": "line",
+      "showInNavigator": true,
+      "name": "Kanton Basel-Landschaft",
+      "color": "#B375AB",
+      "id": "BL1701_2",
+      "valueSuffix": "Millionen CHF",
+      "data": [
+        5670.3,
+        6065.3,
+        6414,
+        6595.9,
+        7041.6,
+        7479.2,
+        7864.3,
+        8122.9,
+        8659,
+        9352.2,
+        10186.3,
+        10645.9,
+        10820.5,
+        10911.8,
+        11334,
+        11462.4,
+        11606,
+        11830.1,
+        12125.5,
+        12373,
+        12990.2,
+        13618.6,
+        13869.1,
+        14043.3,
+        14703,
+        15279.1,
+        16235.2,
+        17231.9,
+        18107.2,
+        17810.2,
+        18453.2,
+        18761.2,
+        18415.7,
+        18650.9,
+        19189
+      ],
+      "_symbolIndex": 1
     }
   ]
 }

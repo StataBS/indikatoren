@@ -171,7 +171,7 @@
 									 /*window.top.location.href = "?i=1303&format=ubdb&format_menu=1";*/
 									 /*window.open("?i=1303&format=ub", "Indikator-Details");*/
 									 /*window.open("http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren/TID/1303.html", "Indikator-Details");*/
-									 window.top.location.href = "http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren-13-1303", "Indikator-Details";
+									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-13-1303", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -1129,6 +1129,11 @@
         "includeInCSVExport": false,
         "type": "column",
         "color": "#FF8028"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#B375AB"
       }
     ],
     "xAxis": {
@@ -1399,6 +1404,30 @@
         24167,
         21693,
         21513
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": null,
+      "type": "column",
+      "showInNavigator": true,
+      "name": "Kanton Basel-Landschaft",
+      "color": "#B375AB",
+      "id": "BL1303_2",
+      "valueSuffix": "Kilogramm",
+      "data": [
+        10618,
+        17725,
+        21118,
+        20708,
+        21067,
+        19622,
+        16968,
+        17381,
+        16020,
+        15360,
+        14734,
+        9892
       ]
     }
   ]

@@ -171,7 +171,7 @@
 									 /*window.top.location.href = "?i=0702&format=ubdb&format_menu=1";*/
 									 /*window.open("?i=0702&format=ub", "Indikator-Details");*/
 									 /*window.open("http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren/TID/0702.html", "Indikator-Details");*/
-									 window.top.location.href = "http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren-07-0702", "Indikator-Details";
+									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0702", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -1129,6 +1129,11 @@
         "includeInCSVExport": false,
         "type": "column",
         "color": "#FF8028"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#B375AB"
       }
     ],
     "xAxis": {
@@ -1380,7 +1385,8 @@
         2012,
         2013,
         2014,
-        2015
+        2015,
+        2016
       ],
       "tickLength": 0,
       "title": {
@@ -1540,7 +1546,104 @@
         0,
         33.3,
         0,
-        0
+        0,
+        null
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": null,
+      "type": "column",
+      "showInNavigator": true,
+      "name": "Kanton Basel-Landschaft",
+      "color": "#B375AB",
+      "id": "BL0702_2",
+      "valueSuffix": "Prozent (Anteil Messstationen mit HQ10-Überschreitungen)",
+      "data": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        9.5,
+        0,
+        19,
+        4.8,
+        90.5,
+        9.5,
+        14.3,
+        0,
+        0,
+        0,
+        0,
+        42.9,
+        81,
+        0,
+        9.5,
+        0,
+        0,
+        38.1,
+        0,
+        9.5,
+        0,
+        38.1
       ]
     }
   ]

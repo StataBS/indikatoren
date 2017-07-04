@@ -171,7 +171,7 @@
 									 /*window.top.location.href = "?i=0107&format=ubdb&format_menu=1";*/
 									 /*window.open("?i=0107&format=ub", "Indikator-Details");*/
 									 /*window.open("http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren/TID/0107.html", "Indikator-Details");*/
-									 window.top.location.href = "http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren-01-0107", "Indikator-Details";
+									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0107", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {

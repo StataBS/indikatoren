@@ -171,7 +171,7 @@
 									 /*window.top.location.href = "?i=1610&format=ubdb&format_menu=1";*/
 									 /*window.open("?i=1610&format=ub", "Indikator-Details");*/
 									 /*window.open("http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren/TID/1610.html", "Indikator-Details");*/
-									 window.top.location.href = "http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren-16-1610", "Indikator-Details";
+									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -1129,6 +1129,11 @@
         "includeInCSVExport": false,
         "type": "line",
         "color": "#FF8028"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "line",
+        "color": "#B375AB"
       }
     ],
     "xAxis": {
@@ -1422,6 +1427,41 @@
         14.7
       ],
       "_symbolIndex": 0
+    },
+    {
+      "includeInCSVExport": true,
+      "type": "line",
+      "showInNavigator": true,
+      "name": "Kanton Basel-Landschaft",
+      "color": "#B375AB",
+      "id": "BL1610_2",
+      "valueSuffix": "°C",
+      "data": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        12,
+        11.8,
+        11.7,
+        11.8,
+        12,
+        12.1,
+        11.9,
+        12,
+        12.2,
+        12.2
+      ],
+      "_symbolIndex": 1
     }
   ]
 }

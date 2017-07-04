@@ -171,7 +171,7 @@
 									 /*window.top.location.href = "?i=1702&format=ubdb&format_menu=1";*/
 									 /*window.open("?i=1702&format=ub", "Indikator-Details");*/
 									 /*window.open("http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren/TID/1702.html", "Indikator-Details");*/
-									 window.top.location.href = "http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren-17-1702", "Indikator-Details";
+									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1702", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -1129,6 +1129,11 @@
         "includeInCSVExport": false,
         "type": "line",
         "color": "#FF8028"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "line",
+        "color": "#B375AB"
       }
     ],
     "xAxis": {
@@ -1468,6 +1473,64 @@
         197926
       ],
       "_symbolIndex": 0
+    },
+    {
+      "includeInCSVExport": true,
+      "type": "line",
+      "showInNavigator": true,
+      "name": "Kanton Basel-Landschaft",
+      "color": "#B375AB",
+      "id": "BL1702_2",
+      "valueSuffix": "Anzahl Personen",
+      "data": [
+        209907,
+        215692,
+        219389,
+        222448,
+        221832,
+        219766,
+        218671,
+        219197,
+        220201,
+        221490,
+        222969,
+        223848,
+        224849,
+        226137,
+        227733,
+        229220,
+        231289,
+        233196,
+        234242,
+        235708,
+        237147,
+        237870,
+        253211,
+        254156,
+        254950,
+        256160,
+        257371,
+        258768,
+        260681,
+        262206,
+        262832,
+        264219,
+        265833,
+        266989,
+        267694,
+        268640,
+        270047,
+        271980,
+        273791,
+        274943,
+        276202,
+        277357,
+        278612,
+        281280,
+        283545,
+        285765
+      ],
+      "_symbolIndex": 1
     }
   ]
 }

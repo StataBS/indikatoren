@@ -171,7 +171,7 @@
 									 /*window.top.location.href = "?i=0109&format=ubdb&format_menu=1";*/
 									 /*window.open("?i=0109&format=ub", "Indikator-Details");*/
 									 /*window.open("http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren/TID/0109.html", "Indikator-Details");*/
-									 window.top.location.href = "http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren-01-0109", "Indikator-Details";
+									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0109", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -975,7 +975,7 @@
     "enabled": true,
     "align": "left",
     "layout": "horizontal",
-    "labelFormatter": function () {return this.name;},
+    "labelFormatter": function () { return this.name.replace(/(BS|BL|BS&BL|UBB|OBB): /, '');},
     "borderColor": "#999999",
     "borderRadius": 0,
     "navigation": {
@@ -1128,12 +1128,22 @@
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#FF8028"
+        "color": "#73B97C"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#DC440E"
+        "color": "#68AB2B"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#73B97C"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#68AB2B"
       }
     ],
     "xAxis": {
@@ -1354,6 +1364,14 @@
 						  return this.axis.defaultLabelFormatter.call(this) + '';
 						}
       },
+      "stackLabels": {
+        "enabled": true,
+        "style": {
+          "fontSize": "0.8em",
+          "fontWeight": "normal"
+        },
+        "formatter": function () { return this.stack; }
+      },
       "index": 0
     },
     {
@@ -1387,7 +1405,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Klasse 4 (Mineralische Abfälle)",
-      "color": "#FF8028",
+      "color": "#73B97C",
       "id": "BS0109_1",
       "valueSuffix": "Tonnen",
       "data": [
@@ -1410,7 +1428,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Übrige Abfallklassen",
-      "color": "#DC440E",
+      "color": "#68AB2B",
       "id": "BS0109_2",
       "valueSuffix": "Tonnen",
       "data": [
@@ -1424,6 +1442,54 @@
         51808.4,
         45998.4,
         43700.3
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BL",
+      "linkedTo": "BS0109_1",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BL: Klasse 4 (Mineralische Abfälle)",
+      "color": "#73B97C",
+      "id": "BL0109_3",
+      "valueSuffix": "Tonnen",
+      "data": [
+        9875.3,
+        60599.5,
+        70293.6,
+        37410.2,
+        47984.6,
+        57597.8,
+        117612.8,
+        179397.6,
+        212265.3,
+        144613.1
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BL",
+      "linkedTo": "BS0109_2",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BL: Übrige Abfallklassen",
+      "color": "#68AB2B",
+      "id": "BL0109_4",
+      "valueSuffix": "Tonnen",
+      "data": [
+        119913.1,
+        228426,
+        229419.8,
+        202586.7,
+        239649.1,
+        324202.2,
+        331836.6,
+        317634,
+        172735.2,
+        184751.4
       ]
     }
   ]

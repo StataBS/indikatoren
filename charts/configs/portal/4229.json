@@ -171,7 +171,7 @@
 									 /*window.top.location.href = "?i=0612&format=ubdb&format_menu=1";*/
 									 /*window.open("?i=0612&format=ub", "Indikator-Details");*/
 									 /*window.open("http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren/TID/0612.html", "Indikator-Details");*/
-									 window.top.location.href = "http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren-06-0612", "Indikator-Details";
+									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0612", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -1134,6 +1134,16 @@
         "includeInCSVExport": false,
         "type": "line",
         "color": "#DC440E"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "line",
+        "color": "#B375AB"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "line",
+        "color": "#923F8D"
       }
     ],
     "xAxis": {
@@ -1303,9 +1313,12 @@
   "xAxis": [
     {
       "categories": [
+        1990,
         1995,
         2000,
+        2002,
         2004,
+        2006,
         2010,
         2012,
         2014
@@ -1385,9 +1398,12 @@
       "id": "BS0612_1",
       "valueSuffix": "Indexwert (Basis 1995 = 100)",
       "data": [
+        null,
         100,
         112.4,
+        null,
         137.5,
+        null,
         184.8,
         205.2,
         224.2
@@ -1403,14 +1419,59 @@
       "id": "BS0612_2",
       "valueSuffix": "Indexwert (Basis 1995 = 100)",
       "data": [
+        null,
         100,
         103.5,
+        null,
         103.4,
+        null,
         91.6,
         84.9,
         76.1
       ],
       "_symbolIndex": 1
+    },
+    {
+      "includeInCSVExport": true,
+      "type": "line",
+      "showInNavigator": true,
+      "name": "BL: Energieeffizienz (BIP\u002FBruttoenergieverbrauch)",
+      "color": "#B375AB",
+      "id": "BL0612_3",
+      "valueSuffix": "Indexwert (Basis 1995 = 100)",
+      "data": [
+        93,
+        100,
+        111.2,
+        118.4,
+        125.2,
+        135.8,
+        156,
+        165,
+        176.7
+      ],
+      "_symbolIndex": 2
+    },
+    {
+      "includeInCSVExport": true,
+      "type": "line",
+      "showInNavigator": true,
+      "name": "BL: Energieverbrauch pro Einwohner",
+      "color": "#923F8D",
+      "id": "BL0612_4",
+      "valueSuffix": "Indexwert (Basis 1995 = 100)",
+      "data": [
+        97.1,
+        100,
+        99.1,
+        98.6,
+        97.8,
+        99,
+        95.7,
+        89.5,
+        85.9
+      ],
+      "_symbolIndex": 3
     }
   ]
 }

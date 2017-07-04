@@ -171,7 +171,7 @@
 									 /*window.top.location.href = "?i=0902&format=ubdb&format_menu=1";*/
 									 /*window.open("?i=0902&format=ub", "Indikator-Details");*/
 									 /*window.open("http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren/TID/0902.html", "Indikator-Details");*/
-									 window.top.location.href = "http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren-09-0902", "Indikator-Details";
+									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-09-0902", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -1129,6 +1129,11 @@
         "includeInCSVExport": false,
         "type": "column",
         "color": "#FF8028"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#B375AB"
       }
     ],
     "xAxis": {
@@ -1299,7 +1304,8 @@
     {
       "categories": [
         2012,
-        2014
+        2014,
+        2015
       ],
       "tickLength": 0,
       "title": {
@@ -1378,7 +1384,23 @@
       "valueSuffix": "Quadratmeter pro Einwohner und Beschäftigten",
       "data": [
         44,
-        43
+        43,
+        null
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": null,
+      "type": "column",
+      "showInNavigator": true,
+      "name": "Kanton Basel-Landschaft",
+      "color": "#B375AB",
+      "id": "BL0902_2",
+      "valueSuffix": "Quadratmeter pro Einwohner und Beschäftigten",
+      "data": [
+        null,
+        139,
+        137
       ]
     }
   ]

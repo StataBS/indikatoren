@@ -171,7 +171,7 @@
 									 /*window.top.location.href = "?i=0511&format=ubdb&format_menu=1";*/
 									 /*window.open("?i=0511&format=ub", "Indikator-Details");*/
 									 /*window.open("http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren/TID/0511.html", "Indikator-Details");*/
-									 window.top.location.href = "http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren-05-0511", "Indikator-Details";
+									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0511", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -1129,6 +1129,11 @@
         "includeInCSVExport": false,
         "type": "column",
         "color": "#FF8028"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#B375AB"
       }
     ],
     "xAxis": {
@@ -1417,6 +1422,39 @@
         22,
         27.2,
         27.1
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": null,
+      "type": "column",
+      "showInNavigator": true,
+      "name": "Kanton Basel-Landschaft",
+      "color": "#B375AB",
+      "id": "BL0511_2",
+      "valueSuffix": "Prozent",
+      "data": [
+        8.7,
+        9.9,
+        11,
+        11.4,
+        11.6,
+        12.1,
+        13.4,
+        13.2,
+        12.7,
+        14.1,
+        14,
+        13.7,
+        12.7,
+        13.5,
+        13.5,
+        13.6,
+        14,
+        13.9,
+        14.2,
+        14.9,
+        15
       ]
     }
   ]

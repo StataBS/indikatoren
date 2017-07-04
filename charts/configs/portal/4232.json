@@ -171,7 +171,7 @@
 									 /*window.top.location.href = "?i=1602&format=ubdb&format_menu=1";*/
 									 /*window.open("?i=1602&format=ub", "Indikator-Details");*/
 									 /*window.open("http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren/TID/1602.html", "Indikator-Details");*/
-									 window.top.location.href = "http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren-16-1602", "Indikator-Details";
+									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1602", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -1129,6 +1129,11 @@
         "includeInCSVExport": false,
         "type": "line",
         "color": "#FF8028"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "line",
+        "color": "#B375AB"
       }
     ],
     "xAxis": {
@@ -1424,6 +1429,42 @@
         36.4
       ],
       "_symbolIndex": 0
+    },
+    {
+      "includeInCSVExport": true,
+      "type": "line",
+      "showInNavigator": true,
+      "name": "Kanton Basel-Landschaft",
+      "color": "#B375AB",
+      "id": "BL1602_2",
+      "valueSuffix": "Prozent (Anteil der Messstellen mit Grenzwertüberschreitung)",
+      "data": [
+        15.1,
+        15.9,
+        17.1,
+        16.2,
+        16.3,
+        15.5,
+        15.2,
+        14.3,
+        17.3,
+        13,
+        13.5,
+        16.6,
+        15,
+        18.6,
+        17.5,
+        18,
+        16.4,
+        17.8,
+        16.7,
+        12.7,
+        12.1,
+        10.7,
+        11.4,
+        9.2
+      ],
+      "_symbolIndex": 1
     }
   ]
 }

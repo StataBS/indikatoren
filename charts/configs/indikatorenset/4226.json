@@ -171,7 +171,7 @@
 									 /*window.top.location.href = "?i=0609&format=ubdb&format_menu=1";*/
 									 /*window.open("?i=0609&format=ub", "Indikator-Details");*/
 									 /*window.open("http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren/TID/0609.html", "Indikator-Details");*/
-									 window.top.location.href = "http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren-06-0609", "Indikator-Details";
+									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0609", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -975,7 +975,7 @@
     "enabled": true,
     "align": "left",
     "layout": "horizontal",
-    "labelFormatter": function () {return this.name;},
+    "labelFormatter": function () { return this.name.replace(/(BS|BL|BS&BL|UBB|OBB): /, '');},
     "borderColor": "#999999",
     "borderRadius": 0,
     "navigation": {
@@ -1128,12 +1128,22 @@
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#FF8028"
+        "color": "#73B97C"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#DC440E"
+        "color": "#68AB2B"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#73B97C"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#68AB2B"
       }
     ],
     "xAxis": {
@@ -1303,6 +1313,9 @@
   "xAxis": [
     {
       "categories": [
+        2004,
+        2005,
+        2006,
         2007,
         2008,
         2009,
@@ -1354,6 +1367,14 @@
 						  return this.axis.defaultLabelFormatter.call(this) + '';
 						}
       },
+      "stackLabels": {
+        "enabled": true,
+        "style": {
+          "fontSize": "0.8em",
+          "fontWeight": "normal"
+        },
+        "formatter": function () { return this.stack; }
+      },
       "index": 0
     },
     {
@@ -1387,10 +1408,13 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Minergie P",
-      "color": "#FF8028",
+      "color": "#73B97C",
       "id": "BS0609_1",
       "valueSuffix": "Quadratmeter (kumuliert)",
       "data": [
+        null,
+        null,
+        null,
         1379,
         1379,
         2547,
@@ -1410,10 +1434,13 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Minergie A",
-      "color": "#DC440E",
+      "color": "#68AB2B",
       "id": "BS0609_2",
       "valueSuffix": "Quadratmeter (kumuliert)",
       "data": [
+        null,
+        null,
+        null,
         0,
         0,
         0,
@@ -1424,6 +1451,60 @@
         0,
         0,
         775
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BL",
+      "linkedTo": "BS0609_1",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BL: Minergie P",
+      "color": "#73B97C",
+      "id": "BL0609_3",
+      "valueSuffix": "Quadratmeter (kumuliert)",
+      "data": [
+        3005,
+        5521,
+        5722,
+        6167,
+        6461,
+        7735,
+        13093,
+        16991,
+        25932,
+        36349,
+        48843,
+        82082,
+        99966
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BL",
+      "linkedTo": "BS0609_2",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BL: Minergie A",
+      "color": "#68AB2B",
+      "id": "BL0609_4",
+      "valueSuffix": "Quadratmeter (kumuliert)",
+      "data": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        221,
+        221,
+        548,
+        548,
+        548
       ]
     }
   ]

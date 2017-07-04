@@ -171,7 +171,7 @@
 									 /*window.top.location.href = "?i=1613&format=ubdb&format_menu=1";*/
 									 /*window.open("?i=1613&format=ub", "Indikator-Details");*/
 									 /*window.open("http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren/TID/1613.html", "Indikator-Details");*/
-									 window.top.location.href = "http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren-16-1613", "Indikator-Details";
+									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1613", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -954,7 +954,7 @@
       }
     },
     "series": {
-      "stacking": null,
+      "stacking": false,
       "connectNulls": true,
       "stickyTracking": false,
       "borderWidth": 0,
@@ -1128,12 +1128,27 @@
       {
         "includeInCSVExport": false,
         "type": "column",
+        "color": "#B375AB"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#923F8D"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
         "color": "#FF8028"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
         "color": "#DC440E"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "line",
+        "color": "#444444"
       }
     ],
     "xAxis": {
@@ -1304,10 +1319,25 @@
     {
       "categories": [
         1996,
+        1997,
+        1998,
+        1999,
+        2000,
         2001,
+        2002,
+        2003,
         2004,
+        2005,
         2006,
+        2007,
+        2008,
+        2009,
+        2010,
         2011,
+        2012,
+        2013,
+        2014,
+        2015,
         2016
       ],
       "tickLength": 0,
@@ -1321,7 +1351,7 @@
           "color": "#000000"
         }
       },
-      "range": false,
+      "range": 25,
       "index": 0,
       "isX": true
     }
@@ -1391,16 +1421,97 @@
       "stacking": null,
       "type": "column",
       "showInNavigator": true,
+      "name": "BL: Makrozoobenthos Ergolz, Augst",
+      "color": "#B375AB",
+      "id": "BL1613_1",
+      "valueSuffix": "Bewertungsklassen",
+      "data": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        4,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        3,
+        null,
+        4,
+        null,
+        null
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": null,
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BL: Fischfauna Ergolz, Augst",
+      "color": "#923F8D",
+      "id": "BL1613_2",
+      "valueSuffix": "Bewertungsklassen",
+      "data": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        3,
+        3,
+        null,
+        3,
+        null,
+        3,
+        null,
+        3,
+        null,
+        3,
+        null,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": null,
+      "type": "column",
+      "showInNavigator": true,
       "name": "BS: Makrozoobenthos Wiese",
       "color": "#FF8028",
       "id": "BS1613_3",
       "valueSuffix": "Bewertungsklassen",
       "data": [
         4,
-        4,
+        null,
+        null,
+        null,
         null,
         4,
+        null,
+        null,
+        null,
+        null,
+        4,
+        null,
+        null,
+        null,
+        null,
         5,
+        null,
+        null,
+        null,
+        null,
         4
       ]
     },
@@ -1416,11 +1527,71 @@
       "data": [
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         2,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
         4,
+        null,
+        null,
+        null,
+        null,
         null
       ]
+    },
+    {
+      "includeInCSVExport": true,
+      "tooltip": {
+        "headerFormat": "\u003Cspan style='width: 80px'\u003E\u003Cspan style='color:{point.color}; width: 10px; font-size: 1.8em;'\u003E■\u003C\u002Fspan\u003E\u003Cspan style='font-size: 1em;'\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style='padding-left: 15px; line-height: 1.4em;'\u003E"
+      },
+      "dashStyle": "ShortDash",
+      "marker": {
+        "enabled": false,
+        "states": {
+          "hover": {
+            "enabled": false
+          }
+        }
+      },
+      "type": "line",
+      "showInNavigator": true,
+      "name": "Zielwert",
+      "color": "#444444",
+      "id": "1613_5",
+      "valueSuffix": "Bewertungsklassen",
+      "data": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "_symbolIndex": 0
     }
   ]
 }

@@ -171,7 +171,7 @@
 									 /*window.top.location.href = "?i=1204&format=ubdb&format_menu=1";*/
 									 /*window.open("?i=1204&format=ub", "Indikator-Details");*/
 									 /*window.open("http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren/TID/1204.html", "Indikator-Details");*/
-									 window.top.location.href = "http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren-12-1204", "Indikator-Details";
+									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-12-1204", "Indikator-Details";
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
@@ -975,7 +975,7 @@
     "enabled": true,
     "align": "left",
     "layout": "horizontal",
-    "labelFormatter": function () {return this.name;},
+    "labelFormatter": function () { return this.name.replace(/(BS|BL|BS&BL|UBB|OBB): /, '');},
     "borderColor": "#999999",
     "borderRadius": 0,
     "navigation": {
@@ -1128,12 +1128,22 @@
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#FF8028"
+        "color": "#73B97C"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#DC440E"
+        "color": "#68AB2B"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#73B97C"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#68AB2B"
       }
     ],
     "xAxis": {
@@ -1360,6 +1370,14 @@
 						  return this.axis.defaultLabelFormatter.call(this) + '';
 						}
       },
+      "stackLabels": {
+        "enabled": true,
+        "style": {
+          "fontSize": "0.8em",
+          "fontWeight": "normal"
+        },
+        "formatter": function () { return this.stack; }
+      },
       "index": 0
     },
     {
@@ -1393,7 +1411,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Mikrozellen (bewilligte Sendeleistung bis 6 Watt ERP)",
-      "color": "#FF8028",
+      "color": "#73B97C",
       "id": "BS1204_1",
       "valueSuffix": "Anzahl Anlagen",
       "data": [
@@ -1422,7 +1440,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Makrozellen (bewilligte Sendeleistung ab 6 Watt ERP)",
-      "color": "#DC440E",
+      "color": "#68AB2B",
       "id": "BS1204_2",
       "valueSuffix": "Anzahl Anlagen",
       "data": [
@@ -1442,6 +1460,66 @@
         334,
         333,
         353
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BL",
+      "linkedTo": "BS1204_1",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BL: Mikrozellen (bewilligte Sendeleistung bis 6 Watt ERP)",
+      "color": "#73B97C",
+      "id": "BL1204_3",
+      "valueSuffix": "Anzahl Anlagen",
+      "data": [
+        8,
+        11,
+        20,
+        28,
+        39,
+        43,
+        46,
+        54,
+        53,
+        53,
+        54,
+        58,
+        58,
+        58,
+        59,
+        59
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BL",
+      "linkedTo": "BS1204_2",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BL: Makrozellen (bewilligte Sendeleistung ab 6 Watt ERP)",
+      "color": "#68AB2B",
+      "id": "BL1204_4",
+      "valueSuffix": "Anzahl Anlagen",
+      "data": [
+        84,
+        115,
+        156,
+        177,
+        228,
+        263,
+        275,
+        304,
+        319,
+        338,
+        362,
+        387,
+        395,
+        396,
+        410,
+        415
       ]
     }
   ]
