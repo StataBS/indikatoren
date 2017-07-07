@@ -59,7 +59,7 @@
   "series": [
     {
       "color": "#0a3b19",
-      "index": 2
+      "index": 5
     },
     {
       "color": "#b00000",
@@ -67,12 +67,12 @@
         "enabled": false
       },
       "yAxis": 1,
-      "index": 5,
+      "index": 4,
       "type": "line",
     },
     {
       "color": "#68ab2b",
-      "index": 1,
+      "index": 3,
       "visible": false
     },
     {
@@ -81,13 +81,13 @@
         "enabled": false
       },
       "yAxis": 1,
-      "index": 4,
+      "index": 2,
       "type": "line",
       "visible": false
     },
     {
       "color": "#d7e8d2",
-      "index": 0,
+      "index": 1,
       "visible": false
     },
     {
@@ -96,7 +96,7 @@
         "enabled": false
       },
       "yAxis": 1,
-      "index": 3,
+      "index": 0,
       "type": "line",
       "visible": false
     }
