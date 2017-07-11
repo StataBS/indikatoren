@@ -1895,7 +1895,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='https://www.umweltbericht.bs-bl.ch/indikatoren-16-1617' target='_blank'>Umweltbericht beider Basel</a>.",
+		"erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1617' target='_blank'>Umweltbericht beider Basel</a>.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
