@@ -473,7 +473,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
-		"subtitle": "nach Wohnflächenkategorie, Stand 2014 bis %jahrbis%",
+		"subtitle": "nach Wohnflächenkategorie, Stand 2014 bis 2016",
 		"kuerzel": "I.09.2.04139",
 		"kuerzelKunde": "1.2.F-2",
 		"description": "Anzahl Leerwohnungen und Leerwohnungsquote",
