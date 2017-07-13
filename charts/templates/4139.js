@@ -8,6 +8,8 @@
   },
   "yAxis": [
    {
+    gridLineColor: '#B9CFD7', 
+    gridLineWidth: 0.5,
     "title": {
       "style": {
         "color": "#000000",
@@ -23,6 +25,8 @@
     }
   },
   {
+    gridLineColor: '#B9CFD7', 
+    gridLineWidth: 0.5,
     "title": {
       "style": {
         "color": "#000000",
@@ -41,6 +45,8 @@
   },
   ],
   "xAxis": {
+    lineColor: '#B9CFD7', 
+    lineWidth: 0.5,    
     "tickInterval": 1
   },
   tooltip: {
@@ -59,46 +65,53 @@
   "series": [
     {
       "color": "#0a3b19",
-      "index": 2
+      //"index": 2,
+      "legendIndex": 1
     },
     {
-      "color": "#b00000",
-      "marker": {
-        "enabled": false
-      },
-      "yAxis": 1,
-      "index": 5,
-      "type": "line",
+      "color": "#d7e8d2",
+      //"index": 0,
+      "visible": true,
+      "legendIndex": 2
     },
     {
       "color": "#68ab2b",
-      "index": 1,
-      "visible": false
+      //"index": 1,
+      "visible": true,
+      "legendIndex": 3
     },
-    {
+     {
       "color": "#923f8d",
       "marker": {
         "enabled": false
       },
       "yAxis": 1,
-      "index": 4,
+      //"index": 4,
       "type": "line",
-      "visible": false
+      "visible": true,
+      "legendIndex": 4
     },
-    {
-      "color": "#d7e8d2",
-      "index": 0,
-      "visible": false
+      {
+      "color": "#b00000",
+      "marker": {
+        "enabled": false
+      },
+      "yAxis": 1,
+      //"index": 5,
+      "type": "line",
+      "legendIndex": 5
+      
     },
-    {
+      {
       "color": "#ff8028",
       "marker": {
         "enabled": false
       },
       "yAxis": 1,
-      "index": 3,
+      //"index": 3,
       "type": "line",
-      "visible": false
+      "visible": true,
+      "legendIndex": 6
     }
   ],
   "chart": {
