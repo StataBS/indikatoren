@@ -45,55 +45,66 @@
         [
           2015,
           31778
+        ],
+        [
+          2016,
+          31914
         ]
       ],
-      "name": "4 und mehr Zimmer"
+      "name": "4 Zimmer u. m."
     },
     {
       "color": "#cd9c00",
       "index": 1,
       "type": "line",
       "yAxis": 1,
+      "tooltip": {
+        "valueDecimals": 1
+      },
       "data": [
         [
           1970,
-          23.9
+          23.942138557178
         ],
         [
           1980,
-          26.5
+          26.45703579928
         ],
         [
           1990,
-          26.4
+          26.427295743135
         ],
         [
           2000,
-          27
+          27.03089574607
         ],
         [
           2010,
-          28.3
+          28.290523596017
         ],
         [
           2011,
-          28.6
+          28.599301023839
         ],
         [
           2012,
-          28.6
+          28.600039677666
         ],
         [
           2013,
-          29.5
+          29.510295931529
         ],
         [
           2014,
-          29.6
+          29.554485531298
         ],
         [
           2015,
-          29.7
+          29.429796534511
+        ],
+        [
+          2016,
+          29.335416858167
         ]
       ],
       "name": "Anteil in Prozent"
@@ -136,7 +147,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Wohnungen mit 4 oder mehr Zimmern"
+    "text": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern"
   },
   "subtitle": {
     "style": {
@@ -234,6 +245,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.09.1.0008"
+    "filename": "I.09.1.4146"
   }
 }

@@ -10,45 +10,6 @@
       "data": [
         [
           2008,
-          -28
-        ],
-        [
-          2009,
-          -18
-        ],
-        [
-          2010,
-          -18
-        ],
-        [
-          2011,
-          18
-        ],
-        [
-          2012,
-          28
-        ],
-        [
-          2013,
-          35
-        ],
-        [
-          2014,
-          180
-        ],
-        [
-          2015,
-          25
-        ]
-      ],
-      "name": "Umbausaldo"
-    },
-    {
-      "color": "#007a2f",
-      "index": 0,
-      "data": [
-        [
-          2008,
           11
         ],
         [
@@ -78,52 +39,17 @@
         [
           2015,
           7
+        ],
+        [
+          2016,
+          26
         ]
       ],
       "name": "Büros zu Wohnungen"
     },
     {
-      "color": "#73b97c",
-      "index": 3,
-      "data": [
-        [
-          2008,
-          22
-        ],
-        [
-          2009,
-          2
-        ],
-        [
-          2010,
-          18
-        ],
-        [
-          2011,
-          0
-        ],
-        [
-          2012,
-          10
-        ],
-        [
-          2013,
-          31
-        ],
-        [
-          2014,
-          31
-        ],
-        [
-          2015,
-          9
-        ]
-      ],
-      "name": "Sonstige Umnutzungen"
-    },
-    {
-      "color": "#2f656b",
-      "index": 1,
+      "color": "#007a2f",
+      "index": 0,
       "data": [
         [
           2008,
@@ -156,9 +82,99 @@
         [
           2015,
           63
+        ],
+        [
+          2016,
+          56
         ]
       ],
       "name": "(Dachstock-) Ausbauten"
+    },
+    {
+      "color": "#73b97c",
+      "index": 3,
+      "data": [
+        [
+          2008,
+          -64
+        ],
+        [
+          2009,
+          -51
+        ],
+        [
+          2010,
+          -64
+        ],
+        [
+          2011,
+          -22
+        ],
+        [
+          2012,
+          -30
+        ],
+        [
+          2013,
+          -25
+        ],
+        [
+          2014,
+          -25
+        ],
+        [
+          2015,
+          -17
+        ],
+        [
+          2016,
+          -1
+        ]
+      ],
+      "name": "Saldo aus Zusammenlegungen\u002F Aufteilungen"
+    },
+    {
+      "color": "#2f656b",
+      "index": 1,
+      "data": [
+        [
+          2008,
+          22
+        ],
+        [
+          2009,
+          2
+        ],
+        [
+          2010,
+          18
+        ],
+        [
+          2011,
+          0
+        ],
+        [
+          2012,
+          10
+        ],
+        [
+          2013,
+          31
+        ],
+        [
+          2014,
+          31
+        ],
+        [
+          2015,
+          9
+        ],
+        [
+          2016,
+          33
+        ]
+      ],
+      "name": "Sonstige Umnutzungen"
     },
     {
       "color": "#990300",
@@ -195,9 +211,13 @@
         [
           2015,
           -37
+        ],
+        [
+          2016,
+          -8
         ]
       ],
-      "name": "Zweckentfrem-dungen von Wohnungen"
+      "name": "Zweckentfremdungen von Wohnungen"
     },
     {
       "color": "#923f8d",
@@ -205,38 +225,42 @@
       "data": [
         [
           2008,
-          -64
+          -28
         ],
         [
           2009,
-          -51
+          -18
         ],
         [
           2010,
-          -64
+          -18
         ],
         [
           2011,
-          -22
+          18
         ],
         [
           2012,
-          -30
+          28
         ],
         [
           2013,
-          -25
+          35
         ],
         [
           2014,
-          -25
+          180
         ],
         [
           2015,
-          -17
+          25
+        ],
+        [
+          2016,
+          106
         ]
       ],
-      "name": "Saldo aus Zusammen-legungen\u002F Aufteilungen"
+      "name": "Umbausaldo"
     }
   ],
   "chart": {
@@ -277,7 +301,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Umbausaldo nach Art des Umbaus"
+    "text": "Umbausaldo"
   },
   "subtitle": {
     "style": {
@@ -286,7 +310,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "nach Art des Umbaus",
     "align": "left"
   },
   "xAxis": {
@@ -359,6 +383,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.09.1.0005"
+    "filename": "I.09.1.4136"
   }
 }

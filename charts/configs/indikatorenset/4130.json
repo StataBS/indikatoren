@@ -51,6 +51,10 @@
         [
           2015,
           834
+        ],
+        [
+          2016,
+          849
         ]
       ],
       "name": "Genossenschaftswohnungen"
@@ -85,7 +89,7 @@
         ],
         [
           2010,
-          1177
+          1117
         ],
         [
           2011,
@@ -106,6 +110,10 @@
         [
           2015,
           1246
+        ],
+        [
+          2016,
+          1263
         ]
       ],
       "name": "Ohne Genossenschaftswohnungen"
@@ -215,6 +223,6 @@
     }
   },
   "exporting": {
-    "filename": "I.09.5.0003"
+    "filename": "I.09.3.04130"
   }
 }

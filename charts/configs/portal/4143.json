@@ -19,8 +19,20 @@
           10586
         ],
         [
+          2006,
+          null
+        ],
+        [
           2010,
           10713
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
         ],
         [
           2013,
@@ -33,6 +45,10 @@
         [
           2015,
           10814
+        ],
+        [
+          2016,
+          11073
         ]
       ],
       "name": "Anzahl Genossenschaftswohnungen"
@@ -42,34 +58,53 @@
       "index": 1,
       "type": "line",
       "yAxis": 1,
+      "tooltip": {
+        "valueDecimals": 2
+      },
       "data": [
         [
           1980,
-          10.2
+          10.218238898172
         ],
         [
           1990,
-          10
+          10.048168035375
         ],
         [
           2000,
-          10.3
+          10.322769380789
+        ],
+        [
+          2006,
+          null
         ],
         [
           2010,
-          10.2
+          10.176495174405
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
         ],
         [
           2013,
-          10.1
+          10.127392733059
         ],
         [
           2014,
-          10.1
+          10.064045626665
         ],
         [
           2015,
-          10
+          10.014910306633
+        ],
+        [
+          2016,
+          10.178325213714
         ]
       ],
       "name": "Anteil in Prozent (rechte Skala)"
@@ -112,7 +147,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Genossenschaftswohnungen"
+    "text": "Anzahl Genossenschaftswohnungen und Anteil am Bestand"
   },
   "subtitle": {
     "style": {
@@ -207,6 +242,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.09.1.0007"
+    "filename": "I.09.1.4143"
   }
 }
