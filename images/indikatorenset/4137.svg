@@ -7,14 +7,14 @@
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
     <path fill="none" class="highcharts-plot-background" d="M52 100h423v250H52z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M72.5 100v250m35-250v250m34-250v250m35-250v250m35-250v250m34-250v250m35-250v250m34-250v250m35-250v250m35-250v250m34-250v250m35-250v250"/>
+        <path fill="none" class="highcharts-grid-line" d="M71.5 100v250m32-250v250m32-250v250m32-250v250m32-250v250m32-250v250m32-250v250m31-250v250m32-250v250m32-250v250m32-250v250m32-250v250m32-250v250"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M52 350.5h423m-423-62h423m-423-63h423m-423-62h423m-423-64h423"/>
     </g>
     <path fill="none" class="highcharts-plot-border" d="M52 100h423v250H52z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M72.5 350v10m35-10v10m34-10v10m35-10v10m35-10v10m34-10v10m35-10v10m34-10v10m35-10v10m35-10v10m34-10v10m35-10v10"/>
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M71.5 350v10m32-10v10m32-10v10m32-10v10m32-10v10m32-10v10m32-10v10m31-10v10m32-10v10m32-10v10m32-10v10m32-10v10m32-10v10"/>
         <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M52 350.5h423"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
@@ -22,21 +22,21 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 100)" clip-path="url(#a)">
-            <path fill="#007a2f" class="highcharts-point" stroke="#fff" d="M12.5 175.5h17v75h-17zm34-13h17v88h-17zm35 58h17v30h-17zm35-20h17v50h-17zm34-67h17v117h-17zm35 24h17v93h-17zm34 5h17v88h-17zm35 21h17v67h-17zm35 23h17v44h-17zm34-48h17v92h-17zm35-105h17v197h-17z"/>
+            <path fill="#007a2f" class="highcharts-point" stroke="#fff" d="M11.5 175.5h16v75h-16zm32-13h16v88h-16zm32 58h16v30h-16zm32-20h16v50h-16zm32-67h16v117h-16zm32 24h16v93h-16zm32 5h16v88h-16zm32 21h16v67h-16zm32 23h16v44h-16zm32-48h16v92h-16zm32-105h16v197h-16zm32 94h16v103h-16z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 100)" clip-path="url(#a)">
-            <path fill="rgba(0, 122, 47, 0.38)" class="highcharts-point" stroke="#fff" d="M393.5 150.5h17v100h-17z"/>
+            <path fill="rgba(0, 122, 47, 0.38)" class="highcharts-point" stroke="#fff" d="M395.5 150.5h16v100h-16z"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(52 100)" clip-path="url(#a)">
-            <path fill="none" d="M332.654 175.5l34.615-10 34.616-1" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M322.654 175.5h10l34.615-10 34.616-1h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M307.346 175.5l31.949-12.25 31.948-1.5 31.949-7" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M297.346 175.5h10l31.949-12.25 31.948-1.5 31.949-7h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>Anzahl neu erstellte Wohnungen</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 30)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="357" height="39"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="364" height="39"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
                 Neubau
@@ -52,46 +52,49 @@
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2">
             <path fill="none" d="M8 28h16" class="highcharts-graph" stroke="#b00000" stroke-width="2"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 17)">
-                <tspan>Entwicklung des Zehnjahresdurchschnitts gemäss Prognose</tspan>
+                <tspan>Entwicklung des Zehnjahresdurchschnittes gemäss Prognose</tspan>
             </text>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="73.115" y="369">
+        <text x="71.808" y="369">
             2005
         </text>
-        <text x="107.731" y="369">
+        <text x="103.757" y="369">
             2006
         </text>
-        <text x="142.346" y="369">
+        <text x="135.705" y="369">
             2007
         </text>
-        <text x="176.962" y="369">
+        <text x="167.654" y="369">
             2008
         </text>
-        <text x="211.577" y="369">
+        <text x="199.603" y="369">
             2009
         </text>
-        <text x="246.192" y="369">
+        <text x="231.551" y="369">
             2010
         </text>
-        <text x="280.808" y="369">
+        <text x="263.5" y="369">
             2011
         </text>
-        <text x="315.423" y="369">
+        <text x="295.449" y="369">
             2012
         </text>
-        <text x="350.038" y="369">
+        <text x="327.397" y="369">
             2013
         </text>
-        <text x="384.654" y="369">
+        <text x="359.346" y="369">
             2014
         </text>
-        <text x="419.269" y="369">
+        <text x="391.295" y="369">
             2015
         </text>
-        <text x="453.885" y="369">
+        <text x="423.243" y="369">
             2016
+        </text>
+        <text x="455.192" y="369">
+            2017
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">

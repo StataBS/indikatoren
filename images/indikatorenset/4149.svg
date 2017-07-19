@@ -10,7 +10,7 @@
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
     <path fill="none" class="highcharts-plot-background" d="M74 85h370v279H74z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M102.5 85v279m0-279v279m52-279v279m0-279v279m52-279v279m0-279v279m52-279v279m0-279v279m52-279v279m0-279v279m52-279v279m0-279v279m52-279v279m0-279v279"/>
+        <path fill="none" class="highcharts-grid-line" d="M96.5 85v279m0-279v279m41-279v279m0-279v279m40-279v279m0-279v279m41-279v279m0-279v279m40-279v279m0-279v279m40-279v279m0-279v279m41-279v279m0-279v279m40-279v279m0-279v279m41-279v279m0-279v279"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M74 364.5h370m-370-70h370m-370-69h370m-370-70h370m-370-71h370"/>
@@ -20,7 +20,7 @@
     </g>
     <path fill="none" class="highcharts-plot-border" d="M74 85h370v279H74z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M102.5 364v10m52-10v10m52-10v10m52-10v10m52-10v10m52-10v10m52-10v10"/>
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M96.5 364v10m41-10v10m40-10v10m41-10v10m40-10v10m40-10v10m41-10v10m40-10v10m41-10v10"/>
         <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M74 364.5h370"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
@@ -31,18 +31,18 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(74 85)" clip-path="url(#a)">
-            <path fill="#73b97c" class="highcharts-point" stroke="#fff" d="M16.5 45.5h25v234h-25zm52 0h25v234h-25zm52-3h25v237h-25zm52-4h25v241h-25zm51 3h25v238h-25zm52 4h25v234h-25zm52-14h25v248h-25z"/>
+            <path fill="#73b97c" class="highcharts-point" stroke="#fff" d="M13.5 45.5h20v234h-20zm81-3h20v237h-20zm40-4h20v241h-20zm40 3h20v238h-20zm41 4h20v234h-20zm40-13h20v247h-20zm40-1h20v248h-20zm41-5h20v253h-20z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(74 85)" clip-path="url(#b)">
-            <path fill="none" d="M29.101 172.05h51.966l51.967-4.65h103.932l51.967 4.65 51.966-9.3" class="highcharts-graph" stroke="#cd9c00" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M19.101 172.05h61.966l51.967-4.65h103.932l51.967 4.65 51.966-9.3h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M23.428 173.317l80.786-1.248 40.393-1.95L185 171.607l40.393 1.796 40.393-5.77 40.393-.492 40.393-2.062" class="highcharts-graph" stroke="#cd9c00" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M13.428 173.317h10l80.786-1.248 40.393-1.95L185 171.607l40.393 1.796 40.393-5.77 40.393-.492 40.393-2.062h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#cd9c00" d="M107 257a4 4 0 1 1 0-.004zm52 0a4 4 0 1 1 0-.004zm52-5a4 4 0 1 1 0-.004zm52 0a4 4 0 1 1 0-.004zm51 0a4 4 0 1 1 0-.004zm52 5a4 4 0 1 1 0-.004zm52-9a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#cd9c00" d="M101 258a4 4 0 1 1 0-.004zm81-1a4 4 0 1 1 0-.004zm40-2a4 4 0 1 1 0-.004zm41 2a4 4 0 1 1 0-.004zm40 1a4 4 0 1 1 0-.004zm40-5a4 4 0 1 1 0-.004zm41-1a4 4 0 1 1 0-.004zm40-2a4 4 0 1 1 0-.004z" class="highcharts-point"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>Freiraumfläche und ihr Anteil an der Gesamtfläche</tspan>
+        <tspan>Freiraumfläche und Anteil an der Gesamtfläche</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 45)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="216" height="25"/>
@@ -61,26 +61,32 @@
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="103.101" y="383">
+        <text x="97.428" y="383">
+            2008
+        </text>
+        <text x="137.821" y="383">
             2009
         </text>
-        <text x="155.067" y="383">
+        <text x="178.214" y="383">
             2010
         </text>
-        <text x="207.034" y="383">
+        <text x="218.607" y="383">
             2011
         </text>
         <text x="259" y="383">
             2012
         </text>
-        <text x="310.966" y="383">
+        <text x="299.393" y="383">
             2013
         </text>
-        <text x="362.933" y="383">
+        <text x="339.786" y="383">
             2014
         </text>
-        <text x="414.899" y="383">
+        <text x="380.179" y="383">
             2015
+        </text>
+        <text x="420.572" y="383">
+            2016
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
