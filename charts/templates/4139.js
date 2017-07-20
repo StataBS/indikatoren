@@ -26,7 +26,6 @@
   },
   {
     gridLineColor: '#B9CFD7', 
-    gridLineWidth: 0.5,
     "title": {
       "style": {
         "color": "#000000",
