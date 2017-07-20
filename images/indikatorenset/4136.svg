@@ -22,24 +22,23 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(47 75)" clip-path="url(#a)">
-            <path fill="#007a2f" class="highcharts-point" stroke="#fff" d="M9.5 164.5h14v15h-14zm29 26h14v5h-14zm28-39h14v31h-14zm29 2h14v29h-14zm29-3h14v17h-14zm29-31h14v26h-14zm29-145h14v57h-14zm29 146h14v50h-14zm28-77h14v44h-14z"/>
+            <path fill="#007a2f" class="highcharts-point" stroke="#fff" d="M9.5 156.5h14v8h-14zm29 7h14v27h-14zm28-18h14v6h-14zm29 9h14v13h-14zm29-9h14v27h-14zm29-1h14v3h-14zm29-115h14v87h-14zm29 105h14v6h-14zm28-28h14v21h-14z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(47 75)" clip-path="url(#a)">
-            <path fill="#2f656b" class="highcharts-point" stroke="#fff" d="M9.5 179.5h14v17h-14zm29 16h14v1h-14zm28-13h14v14h-14zm58-15h14v7h-14zm29-22h14v24h-14zm29-114h14v24h-14zm29 139h14v7h-14zm28-83h14v26h-14z"/>
+            <path fill="#2f656b" class="highcharts-point" stroke="#fff" d="M9.5 164.5h14v15h-14zm29 26h14v5h-14zm28-39h14v31h-14zm29 16h14v29h-14zm29 5h14v17h-14zm29-25h14v25h-14zm29-31h14v56h-14zm29 24h14v49h-14zm28-13h14v44h-14z"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(47 75)" clip-path="url(#a)">
-            <path fill="#923f8d" class="highcharts-point highcharts-negative" stroke="#fff" d="M9.5 259.5h14v22h-14zm29-15h14v15h-14zm28 18h14v14h-14z"/>
-            <path fill="#923f8d" class="highcharts-point" stroke="#fff" d="M95.5 182.5h14v14h-14zm29-8h14v22h-14zm29-5h14v27h-14zm29-114h14v141h-14zm29 122h14v19h-14zm28-64h14v83h-14z"/>
+            <path fill="#923f8d" class="highcharts-point highcharts-negative" stroke="#fff" d="M9.5 209.5h14v50h-14zm29-5h14v40h-14zm28 7h14v51h-14zm29-4h14v18h-14zm29-5h14v24h-14zm29-1h14v20h-14zm29 2h14v19h-14zm29 23h14v13h-14zm28-23h14v1h-14z"/>
         </g>
         <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(47 75)" clip-path="url(#a)">
-            <path fill="#73b97c" class="highcharts-point highcharts-negative" stroke="#fff" d="M9.5 209.5h14v50h-14zm29-5h14v40h-14zm28 7h14v51h-14zm29-4h14v18h-14zm29-5h14v24h-14zm29-1h14v20h-14zm29 2h14v19h-14zm29 23h14v13h-14zm28-23h14v1h-14z"/>
+            <path fill="#73b97c" class="highcharts-point" stroke="#fff" d="M9.5 179.5h14v17h-14zm29 16h14v1h-14zm28-13h14v14h-14zm58 7h14v7h-14zm29-17h14v24h-14zm29 0h14v24h-14zm29 17h14v7h-14zm28-18h14v25h-14z"/>
         </g>
         <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(47 75)" clip-path="url(#a)">
             <path fill="#990300" class="highcharts-point highcharts-negative" stroke="#fff" d="M9.5 196.5h14v13h-14zm29 0h14v8h-14zm28 0h14v15h-14zm29 0h14v11h-14zm29 0h14v6h-14zm29 0h14v5h-14zm29 0h14v7h-14zm29 0h14v30h-14zm28 0h14v7h-14z"/>
         </g>
         <g class="highcharts-series highcharts-series-5 highcharts-line-series highcharts-color-undefined" transform="translate(47 75)" clip-path="url(#a)">
-            <path fill="none" d="M16.716 187.786l28.821-18.072 28.821 21.215 28.821-7.858L132 169.714l28.821 23.572L189.641 110l28.822 80.929L247.283 176" class="highcharts-graph" stroke="#fabd24" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M6.716 187.786h10l28.821-18.072 28.821 21.215 28.821-7.858L132 169.714l28.821 23.572L189.641 110l28.822 80.929L247.283 176h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M16.716 218.429l28.821-7.858h28.821l28.821-28.285L132 174.429l28.821-5.5L189.641 55l28.822 121.786 28.82-63.643" class="highcharts-graph" stroke="#fabd24" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M6.716 218.429h10l28.821-7.858h28.821l28.821-28.285L132 174.429l28.821-5.5L189.641 55l28.822 121.786 28.82-63.643h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
@@ -52,38 +51,38 @@
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="152" height="227"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
-                <tspan>(Dachstock-)</tspan><tspan dy="15" x="21">Ausbauten</tspan><title>(Dachstock-) Ausbauten</title>
+                <tspan>Büros zu</tspan><tspan dy="15" x="21">Wohnungen</tspan><title>Büros zu Wohnungen</title>
             </text>
             <path fill="#007a2f" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 39)">
-                <tspan>Sonstige</tspan><tspan dy="15" x="21">Umnutzungen</tspan><title>Sonstige Umnutzungen</title>
+                <tspan>(Dachstock-)</tspan><tspan dy="15" x="21">Ausbauten</tspan><title>(Dachstock-) Ausbauten</title>
             </text>
             <path fill="#2f656b" class="highcharts-point" d="M10 43h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 75)">
-                <tspan>Umbausaldo</tspan>
+                <tspan>Saldo aus</tspan><tspan dy="15" x="21">Zusammenlegungen/</tspan><tspan dy="15" x="21">Aufteilungen</tspan><title>Saldo aus Zusammenlegungen/ Aufteilungen</title>
             </text>
             <path fill="#923f8d" class="highcharts-point" d="M10 79h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 96)">
-                <tspan>Saldo aus</tspan><tspan dy="15" x="21">Zusammenlegungen/</tspan><tspan dy="15" x="21">Aufteilungen</tspan><title>Saldo aus Zusammenlegungen/ Aufteilungen</title>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 126)">
+                <tspan>Sonstige</tspan><tspan dy="15" x="21">Umnutzungen</tspan><title>Sonstige Umnutzungen</title>
             </text>
-            <path fill="#73b97c" class="highcharts-point" d="M10 100h12v12H10z"/>
+            <path fill="#73b97c" class="highcharts-point" d="M10 130h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 147)">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 162)">
                 <tspan>Zweckentfremdungen</tspan><tspan dy="15" x="21">von Wohnungen</tspan><title>Zweckentfremdungen von Wohnungen</title>
             </text>
-            <path fill="#990300" class="highcharts-point" d="M10 151h12v12H10z"/>
+            <path fill="#990300" class="highcharts-point" d="M10 166h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-5">
-            <path fill="none" d="M8 194h16" class="highcharts-graph" stroke="#fabd24" stroke-width="2"/>
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 183)">
-                <tspan>Büros zu</tspan><tspan dy="15" x="21">Wohnungen</tspan><title>Büros zu Wohnungen</title>
+            <path fill="none" d="M8 209h16" class="highcharts-graph" stroke="#fabd24" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 198)">
+                <tspan>Umbausaldo</tspan>
             </text>
         </g>
     </g>

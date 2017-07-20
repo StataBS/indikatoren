@@ -23,7 +23,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Hälfte der Befragten ist mit dem Wohnungsangebot \"eher zufrieden\" oder \"sehr zufrieden\". Seit der ersten Bevölkerungsbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte.",
+		"lesehilfe": "Die Hälfte der Befragten ist mit dem Wohnungsangebot «eher zufrieden» oder «sehr zufrieden». Seit der ersten Bevölkerungsbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
 		"option": "options001",
@@ -822,7 +822,7 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zur Steuerstatistik und zur Methodik<a href='http://www.statistik.bs.ch/zahlen/analysen/steuerstatistik.html' target='_blank'>siehe</a>."
+			"Siehe <a href='http://www.statistik.bs.ch/zahlen/analysen/steuerstatistik.html' target='_blank'>Weiterführende Informationen zur Steuerstatistik und zur Methodik</a>."
 		]
 	},
 	{
