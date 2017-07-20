@@ -8,7 +8,7 @@
 "unterthema":"Mietpreise",
 "kennzahlenset":"Wohnraumentwicklung",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2017-03-20T14:42:08.088",
+"aktualisierungsdatum":"",
 "schlagwort":["Gebäude","Haushalt"],
 "stufe1":"0 Leitgedanke",
 "stufe2":"",
@@ -19,11 +19,5 @@
 "erlaeuterungen":"Es handelt sich hier im Gegensatz zu den Mietpreisen der Leerwohnungen um Bestandsmieten.<br/>Die Mietpreisangaben stützen sich auf systematische Stichprobenerhebungen, die 5% der Miet- und Genossenschaftswohnungen umfassen. Einzelne Mittelwerte basieren deshalb nur auf wenigen Mietpreisangaben.",
 "template":"line001",
 "option":"options001",
-"visible":true,
-"visibleInPortal":true,
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Mietpreiserhebung"],
-"externalLinks":[""]
+"quellenangabe":["Statistisches Amt Basel-Stadt, Mietpreiserhebung"]
 }

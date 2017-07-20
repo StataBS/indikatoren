@@ -8,8 +8,6 @@
   },
   "yAxis": [
    {
-    gridLineColor: '#B9CFD7', 
-    gridLineWidth: 0.5,
     "title": {
       "style": {
         "color": "#000000",
@@ -25,8 +23,6 @@
     }
   },
   {
-    gridLineColor: '#B9CFD7', 
-    gridLineWidth: 0.5,
     "title": {
       "style": {
         "color": "#000000",
@@ -45,8 +41,6 @@
   },
   ],
   "xAxis": {
-    lineColor: '#B9CFD7', 
-    lineWidth: 0.5,    
     "tickInterval": 1
   },
   tooltip: {

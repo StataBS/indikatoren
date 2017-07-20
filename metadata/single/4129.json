@@ -8,7 +8,7 @@
 "unterthema":"Leerstand",
 "kennzahlenset":"Wohnraumentwicklung",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2017-01-19T15:46:38.3838",
+"aktualisierungsdatum":"",
 "schlagwort":["Gebäude","Haushalt"],
 "stufe1":"0 Leitgedanke",
 "stufe2":"",
@@ -19,11 +19,5 @@
 "erlaeuterungen":"Bei den Mietpreisen für Leerwohnungen handelt es sich um Angebotsmieten, nicht um Bestandsmieten. 2014 kann keine Durchschnittsmiete für leerstehende 5-Zimmerwohnungen angegeben werden, weil in dieser Kategorie zu wenige Beobachtungen vorlagen.",
 "template":"line001",
 "option":"options001",
-"visible":true,
-"visibleInPortal":true,
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Leerstandserhebung"],
-"externalLinks":[""]
+"quellenangabe":["Statistisches Amt Basel-Stadt, Leerstandserhebung"]
 }

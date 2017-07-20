@@ -8,7 +8,7 @@
 "unterthema":"Gebäude und Wohnungen",
 "kennzahlenset":"Wohnraumentwicklung",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2017-01-23T10:24:11.1111",
+"aktualisierungsdatum":"",
 "schlagwort":["Gebäude","Haushalt"],
 "stufe1":"1 Gesellschaftspolitik",
 "stufe2":"1.2 Wohnraum erhalten und erneuern",
@@ -19,11 +19,5 @@
 "erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
-"visible":true,
-"visibleInPortal":true,
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"],
-"externalLinks":[""]
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"]
 }

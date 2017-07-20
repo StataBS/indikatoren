@@ -19,11 +19,5 @@
 "erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
-"visible":true,
-"visibleInPortal":true,
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Leerstandserhebung"],
-"externalLinks":[""]
+"quellenangabe":["Statistisches Amt Basel-Stadt, Leerstandserhebung"]
 }
