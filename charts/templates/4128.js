@@ -7,8 +7,8 @@
     }
   },
   "xAxis": {
-    "tickInterval": 1
-  },
+    "type": "category"
+  },  
   "series": [
     {
       "marker": {
