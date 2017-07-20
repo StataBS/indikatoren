@@ -9,55 +9,56 @@
       "color": "#008AC3",
       "data": [
         [
-          2005,
+          "2005",
           705
         ],
         [
-          2006,
+          "2006",
           727
         ],
         [
-          2007,
+          "2007",
           741
         ],
         [
-          2008,
+          "2008",
           770
         ],
         [
-          2009,
+          "2009",
           782
         ],
         [
-          2010,
+          "2010",
           788
         ],
         [
-          2011,
+          "2011",
           800
         ],
         [
-          2012,
+          "2012",
           809
         ],
         [
-          2013,
+          "2013",
           815
         ],
         [
-          2014,
+          "2014",
           824
         ],
         [
-          2015,
+          "2015",
           834
         ],
         [
-          2016,
+          "2016",
           849
         ]
       ],
-      "name": "Genossenschaftswohnungen"
+      "name": "Genossenschaftswohnungen",
+      "turboThreshold": 0
     },
     {
       "marker": {
@@ -68,57 +69,68 @@
       "color": "#990300",
       "data": [
         [
-          2005,
+          "2005",
           1090
         ],
         [
-          2006,
+          "2006",
           1104
         ],
         [
-          2007,
+          "2007",
           1113
         ],
         [
-          2008,
+          "2008",
           1129
         ],
         [
-          2009,
+          "2009",
           1159
         ],
         [
-          2010,
+          "2010",
           1117
         ],
         [
-          2011,
+          "2011",
           1200
         ],
         [
-          2012,
+          "2012",
           1213
         ],
         [
-          2013,
+          "2013",
           1221
         ],
         [
-          2014,
+          "2014",
           1227
         ],
         [
-          2015,
+          "2015",
           1246
         ],
         [
-          2016,
+          "2016",
           1263
         ]
       ],
-      "name": "Ohne Genossenschaftswohnungen"
+      "name": "Ohne Genossenschaftswohnungen",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0
+  },
   "chart": {
     "events": {
       "load": function () {
@@ -175,15 +187,6 @@
       },
       "format": "{value:,.0f}"
     }
-  },
-  "xAxis": {
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

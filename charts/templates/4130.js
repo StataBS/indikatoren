@@ -7,7 +7,7 @@
     "min": 0
   },
   "xAxis": {
-    "tickInterval": 1
+    "type": "category"
   },
   "series": [
     {

@@ -40,8 +40,11 @@
             <path fill="#73b97c" class="highcharts-point" stroke="#fff" d="M365.5 56.5h10v219h-10z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(59 75)" clip-path="url(#b)">
-            <path fill="none" d="M7.593 69.247l79.09-21.612 79.09.255 79.09-5.187 79.09-10.825 7.91-2.653 7.908-.007 7.91-7.822 7.908-.38 7.91 1.072 7.908.81" class="highcharts-graph" stroke="#cd9c00" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-2.407 69.247h10l79.09-21.612 79.09.255 79.09-5.187 79.09-10.825 7.91-2.653 7.908-.007 7.91-7.822 7.908-.38 7.91 1.072 7.908.81h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M8.593 111.398l79.09-17.29 79.09.204 79.09-4.15 79.09-8.66 7.91-2.122 7.908-.005 7.91-6.258 7.908-.304 7.91.857 7.908.649" class="highcharts-graph" stroke="#000" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" opacity=".05"/>
+            <path fill="none" d="M8.593 111.398l79.09-17.29 79.09.204 79.09-4.15 79.09-8.66 7.91-2.122 7.908-.005 7.91-6.258 7.908-.304 7.91.857 7.908.649" class="highcharts-graph" stroke="#000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" opacity=".1"/>
+            <path fill="none" d="M8.593 111.398l79.09-17.29 79.09.204 79.09-4.15 79.09-8.66 7.91-2.122 7.908-.005 7.91-6.258 7.908-.304 7.91.857 7.908.649" class="highcharts-graph" stroke="#000" stroke-linejoin="round" stroke-linecap="round" opacity=".15"/>
+            <path fill="none" d="M7.593 110.398l79.09-17.29 79.09.204 79.09-4.15 79.09-8.66 7.91-2.122 7.908-.005 7.91-6.258 7.908-.304 7.91.857 7.908.649" class="highcharts-graph" stroke="#cd9c00" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-2.407 110.398h10l79.09-17.29 79.09.204 79.09-4.15 79.09-8.66 7.91-2.122 7.908-.005 7.91-6.258 7.908-.304 7.91.857 7.908.649h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
@@ -117,16 +120,16 @@
             <tspan>0%</tspan>
         </text>
         <text x="453" y="286">
-            <tspan>8%</tspan>
+            <tspan>10%</tspan>
         </text>
         <text x="453" y="217">
-            <tspan>16%</tspan>
+            <tspan>20%</tspan>
         </text>
         <text x="453" y="148">
-            <tspan>24%</tspan>
+            <tspan>30%</tspan>
         </text>
         <text x="453" y="80">
-            <tspan>32%</tspan>
+            <tspan>40%</tspan>
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">

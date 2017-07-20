@@ -31,6 +31,7 @@
       }
     },
     "min": 0,
+    tickInterval: 10,
     "opposite": true
   }
   ],
@@ -59,6 +60,7 @@
       "index": 1,
       "type": "line",
       "yAxis": 1, 
+      shadow: true,
       tooltip: {
         valueDecimals: 1
       }
