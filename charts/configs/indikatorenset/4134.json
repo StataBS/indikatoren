@@ -5,32 +5,32 @@
       "index": 0,
       "data": [
         [
-          "1-Zimmer",
-          2889
+          "1 Zimmer",
+          2967
         ],
         [
-          "2-Zimmer",
-          6
+          "2 Zimmer",
+          null
         ],
         [
-          "3-Zimmer",
-          1
+          "3 Zimmer",
+          null
         ],
         [
-          "4-Zimmer",
-          0
+          "4 Zimmer",
+          null
         ],
         [
-          "5-Zimmer",
-          0
+          "5 Zimmer",
+          null
         ],
         [
-          "6+-Zimmer",
-          0
+          "6 Zimmer u. m.",
+          null
         ],
         [
           "Alle",
-          2896
+          2967
         ]
       ],
       "name": "bis 29 m²",
@@ -41,32 +41,32 @@
       "index": 1,
       "data": [
         [
-          "1-Zimmer",
-          7348
+          "1 Zimmer",
+          7418
         ],
         [
-          "2-Zimmer",
-          6097
+          "2 Zimmer",
+          6175
         ],
         [
-          "3-Zimmer",
-          159
+          "3 Zimmer",
+          145
         ],
         [
-          "4-Zimmer",
-          9
+          "4 Zimmer",
+          null
         ],
         [
-          "5-Zimmer",
-          2
+          "5 Zimmer",
+          null
         ],
         [
-          "6+-Zimmer",
-          0
+          "6 Zimmer u. m.",
+          null
         ],
         [
           "Alle",
-          13615
+          13738
         ]
       ],
       "name": "30-49 m²",
@@ -77,32 +77,32 @@
       "index": 2,
       "data": [
         [
-          "1-Zimmer",
-          382
+          "1 Zimmer",
+          386
         ],
         [
-          "2-Zimmer",
-          17306
+          "2 Zimmer",
+          17479
         ],
         [
-          "3-Zimmer",
-          13405
+          "3 Zimmer",
+          13441
         ],
         [
-          "4-Zimmer",
-          338
+          "4 Zimmer",
+          335
         ],
         [
-          "5-Zimmer",
+          "5 Zimmer",
           27
         ],
         [
-          "6+-Zimmer",
-          4
+          "6 Zimmer u. m.",
+          null
         ],
         [
           "Alle",
-          31462
+          31668
         ]
       ],
       "name": "50-69 m²",
@@ -113,32 +113,32 @@
       "index": 3,
       "data": [
         [
-          "1-Zimmer",
-          118
+          "1 Zimmer",
+          122
         ],
         [
-          "2-Zimmer",
-          1478
+          "2 Zimmer",
+          1506
         ],
         [
-          "3-Zimmer",
-          24861
+          "3 Zimmer",
+          25049
         ],
         [
-          "4-Zimmer",
-          10313
+          "4 Zimmer",
+          10312
         ],
         [
-          "5-Zimmer",
-          646
+          "5 Zimmer",
+          650
         ],
         [
-          "6+-Zimmer",
-          112
+          "6 Zimmer u. m.",
+          110
         ],
         [
           "Alle",
-          37528
+          37749
         ]
       ],
       "name": "70-99 m²",
@@ -149,32 +149,32 @@
       "index": 4,
       "data": [
         [
-          "1-Zimmer",
-          53
+          "1 Zimmer",
+          59
         ],
         [
-          "2-Zimmer",
-          154
+          "2 Zimmer",
+          161
         ],
         [
-          "3-Zimmer",
-          1797
+          "3 Zimmer",
+          1819
         ],
         [
-          "4-Zimmer",
-          7702
+          "4 Zimmer",
+          7832
         ],
         [
-          "5-Zimmer",
-          4782
+          "5 Zimmer",
+          4774
         ],
         [
-          "6+-Zimmer",
-          1812
+          "6 Zimmer u. m.",
+          1823
         ],
         [
           "Alle",
-          16300
+          16468
         ]
       ],
       "name": "100-149 m²",
@@ -185,35 +185,35 @@
       "index": 5,
       "data": [
         [
-          "1-Zimmer",
-          9
+          "1 Zimmer",
+          10
         ],
         [
-          "2-Zimmer",
+          "2 Zimmer",
           22
         ],
         [
-          "3-Zimmer",
-          116
+          "3 Zimmer",
+          117
         ],
         [
-          "4-Zimmer",
-          576
+          "4 Zimmer",
+          578
         ],
         [
-          "5-Zimmer",
-          1509
+          "5 Zimmer",
+          1508
         ],
         [
-          "6+-Zimmer",
-          3946
+          "6 Zimmer u. m.",
+          3965
         ],
         [
           "Alle",
-          6178
+          6200
         ]
       ],
-      "name": "150 m² u.m.",
+      "name": "150 m² u. m.",
       "turboThreshold": 0
     }
   ],
@@ -270,7 +270,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Wohnungsbestand nach Zimmerzahl und Wohnflächenkategorie 2015"
+    "text": "Anteile am Wohnungsbestand"
   },
   "subtitle": {
     "style": {
@@ -279,7 +279,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "nach Zimmerzahl und Wohnflächenkategorie, Stand 2016",
     "align": "left"
   },
   "yAxis": {
@@ -335,6 +335,6 @@
     "useHTML": true
   },
   "exporting": {
-    "filename": "I.09.1.0004"
+    "filename": "I.09.1.4134"
   }
 }

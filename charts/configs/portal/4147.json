@@ -106,7 +106,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Saldo des Steuerertrages zwischen Zu- und Wegzügern"
+    "text": "Saldo des Steuerertrages von Zu- und Wegzügern"
   },
   "subtitle": {
     "style": {
@@ -183,6 +183,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.18.2.0001"
+    "filename": "I.18.2.4147"
   }
 }

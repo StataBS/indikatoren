@@ -7,26 +7,30 @@
       "data": [
         [
           2011,
-          132
+          104
         ],
         [
           2012,
-          132
+          101
         ],
         [
           2013,
-          132
+          98
         ],
         [
           2014,
-          164
+          102
         ],
         [
           2015,
-          182
+          141
+        ],
+        [
+          2016,
+          141
         ]
       ],
-      "name": "Anzahl Notwohnungen"
+      "name": "Notwohnungen"
     },
     {
       "color": "#007A2F",
@@ -35,55 +39,66 @@
       "data": [
         [
           2011,
-          120
+          94
         ],
         [
           2012,
-          119
+          95
         ],
         [
           2013,
-          125
+          95
         ],
         [
           2014,
-          null
+          99
         ],
         [
           2015,
-          null
+          130
+        ],
+        [
+          2016,
+          126
         ]
       ],
-      "name": "belegte Notwohnungen"
+      "name": "Notwohnungen belegt"
     },
     {
       "color": "#cd9c00",
       "index": 1,
       "type": "line",
       "yAxis": 1,
+      "tooltip": {
+        "valueDecimals": 1
+      },
       "data": [
         [
           2011,
-          90.9
+          90.3846153846154
         ],
         [
           2012,
-          90.2
+          94.0594059405941
         ],
         [
           2013,
-          94.7
+          96.9387755102041
         ],
         [
           2014,
-          null
+          97.0588235294118
         ],
         [
           2015,
-          null
+          92.1985815602837
+        ],
+        [
+          2016,
+          89.3617021276596
         ]
       ],
-      "name": "Belegungsquote (Anteil belegter Notwohnungen in %, rechte Skala)"
+      "name": "Belegungsquote (Anteil belegter Wohnungen in %, rechte Skala)"
     }
   ],
   "chart": {
@@ -225,6 +240,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.13.3.0002"
+    "filename": "I.13.3.04154"
   }
 }

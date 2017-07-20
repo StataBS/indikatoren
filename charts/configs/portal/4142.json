@@ -23,6 +23,10 @@
         [
           2015,
           15653
+        ],
+        [
+          2016,
+          15418
         ]
       ],
       "name": "verheiratete \u002F registrierte Paare ohne Kinder"
@@ -50,6 +54,10 @@
         [
           2015,
           11910
+        ],
+        [
+          2016,
+          13701
         ]
       ],
       "name": "Paare mit minderjährigen Kindern"
@@ -77,6 +85,10 @@
         [
           2015,
           3708
+        ],
+        [
+          2016,
+          4019
         ]
       ],
       "name": "Einelternfamilien mit minderjährigen Kindern"
@@ -104,6 +116,10 @@
         [
           2015,
           6913
+        ],
+        [
+          2016,
+          7048
         ]
       ],
       "name": "Eltern(-teil) mit nur volljährigen Kindern"
@@ -147,7 +163,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Familienhaushalte nach Art der Zusammensetzung"
+    "text": "Anteile der Familienhaushalte"
   },
   "subtitle": {
     "style": {
@@ -156,7 +172,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "nach Art der Zusammensetzung",
     "align": "left"
   },
   "xAxis": {
@@ -225,6 +241,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.01.2.0002"
+    "filename": "I.01.2.4142"
   }
 }

@@ -5,15 +5,15 @@
       "index": 2,
       "data": [
         [
-          "2011 (N=1689)",
+          "2011",
           173
         ],
         [
-          "2015 (N=1427)",
+          "2015",
           130
         ]
       ],
-      "name": "Weiss nicht \u002F keine Angabe",
+      "name": "Weiss nicht \u002F Keine Angabe",
       "turboThreshold": 0
     },
     {
@@ -21,11 +21,11 @@
       "index": 0,
       "data": [
         [
-          "2011 (N=1689)",
+          "2011",
           33
         ],
         [
-          "2015 (N=1427)",
+          "2015",
           49
         ]
       ],
@@ -37,11 +37,11 @@
       "index": 1,
       "data": [
         [
-          "2011 (N=1689)",
+          "2011",
           335
         ],
         [
-          "2015 (N=1427)",
+          "2015",
           283
         ]
       ],
@@ -53,11 +53,11 @@
       "index": 3,
       "data": [
         [
-          "2011 (N=1689)",
+          "2011",
           731
         ],
         [
-          "2015 (N=1427)",
+          "2015",
           658
         ]
       ],
@@ -69,11 +69,11 @@
       "index": 4,
       "data": [
         [
-          "2011 (N=1689)",
+          "2011",
           417
         ],
         [
-          "2015 (N=1427)",
+          "2015",
           307
         ]
       ],
@@ -201,7 +201,7 @@
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
-    "useHTML": true,
+    "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal"
     },
@@ -211,6 +211,6 @@
         }
   },
   "exporting": {
-    "filename": "I.50.4.0001"
+    "filename": "I.50.4.4156"
   }
 }

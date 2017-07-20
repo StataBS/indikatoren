@@ -46,6 +46,10 @@
         [
           2015,
           788
+        ],
+        [
+          2016,
+          412
         ]
       ],
       "name": "Neubau"
@@ -96,6 +100,10 @@
         [
           2015,
           -178
+        ],
+        [
+          2016,
+          -75
         ]
       ],
       "name": "Abbruch"
@@ -146,6 +154,10 @@
         [
           2015,
           25
+        ],
+        [
+          2016,
+          106
         ]
       ],
       "name": "Umbausaldo"
@@ -200,6 +212,10 @@
         [
           2015,
           635
+        ],
+        [
+          2016,
+          443
         ]
       ],
       "name": "Nettowohnungsproduktion"
@@ -318,10 +334,10 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.2f}%)\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": "I.09.1.0013"
+    "filename": "I.09.1.4135"
   }
 }

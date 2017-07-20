@@ -1,4 +1,4 @@
-{"title":"Saldo des Steuerertrages zwischen Zu- und Wegzügern",
+{"title":"Saldo des Steuerertrages von Zu- und Wegzügern",
 "subtitle":"",
 "kuerzel":"I.18.2.0001",
 "kuerzelKunde":"2.1.b",
@@ -20,5 +20,11 @@
 "erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"]
+"visible":true,
+"visibleInPortal":true,
+"parentId":null,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"],
+"externalLinks":["Siehe <a href='http://www.statistik.bs.ch/zahlen/analysen/steuerstatistik.html' target='_blank'>Weiterführende Informationen zur Steuerstatistik und zur Methodik</a>."]
 }

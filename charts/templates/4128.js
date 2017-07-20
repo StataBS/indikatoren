@@ -7,8 +7,8 @@
     }
   },
   "xAxis": {
-    "tickInterval": 1
-  },
+    "type": "category"
+  },  
   "series": [
     {
       "marker": {
@@ -52,7 +52,8 @@
     }
   ],
   "tooltip": {
-    "shared": false
+    "shared": false, 
+    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
   },
   "plotOptions": {
     "series": {
