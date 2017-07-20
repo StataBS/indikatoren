@@ -47,6 +47,10 @@
         [
           "2015",
           10799
+        ],
+        [
+          "2016",
+          10962
         ]
       ],
       "name": "1-Zimmer",
@@ -99,6 +103,10 @@
         [
           "2015",
           25063
+        ],
+        [
+          "2016",
+          25343
         ]
       ],
       "name": "2-Zimmer",
@@ -151,6 +159,10 @@
         [
           "2015",
           40339
+        ],
+        [
+          "2016",
+          40571
         ]
       ],
       "name": "3-Zimmer",
@@ -203,6 +215,10 @@
         [
           "2015",
           18938
+        ],
+        [
+          "2016",
+          19057
         ]
       ],
       "name": "4-Zimmer",
@@ -255,6 +271,10 @@
         [
           "2015",
           6966
+        ],
+        [
+          "2016",
+          6959
         ]
       ],
       "name": "5-Zimmer",
@@ -307,9 +327,13 @@
         [
           "2015",
           5874
+        ],
+        [
+          "2016",
+          5898
         ]
       ],
-      "name": "6-Zimmer u.m.",
+      "name": "6-Zimmer u. m.",
       "turboThreshold": 0
     }
   ],
@@ -366,7 +390,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Wohnungsbestand nach Zimmerzahl"
+    "text": "Anzahl Wohnungen"
   },
   "subtitle": {
     "style": {
@@ -375,7 +399,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "nach Zimmerzahl",
     "align": "left"
   },
   "yAxis": {
@@ -429,6 +453,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.09.1.0003"
+    "filename": "I.09.1.4133"
   }
 }

@@ -1,9 +1,10 @@
-Jahr,Umbausaldo,Büros zu Wohnungen,Sonstige Umnutzungen,(Dachstock-) Ausbauten,Zweckentfrem-dungen von Wohnungen,Saldo aus Zusammen-legungen/ Aufteilungen
-2008,-28,11,22,19,-16,-64
-2009,-18,34,2,6,-10,-51
-2010,-18,7,18,40,-19,-64
-2011,18,17,0,37,-14,-22
-2012,28,34,10,21,-7,-30
-2013,35,4,31,32,-6,-25
-2014,180,110,31,72,-8,-25
-2015,25,7,9,63,-37,-17
+﻿Jahr	Büros zu Wohnungen	(Dachstock-) Ausbauten	Saldo aus Zusammenlegungen/ Aufteilungen	Sonstige Umnutzungen	Zweckentfremdungen von Wohnungen	Umbausaldo
+2008	11	19	-64	22	-16	-28
+2009	34	6	-51	2	-10	-18
+2010	7	40	-64	18	-19	-18
+2011	17	37	-22	0	-14	18
+2012	34	21	-30	10	-7	28
+2013	4	32	-25	31	-6	35
+2014	110	72	-25	31	-8	180
+2015	7	63	-17	9	-37	25
+2016	26	56	-1	33	-8	106

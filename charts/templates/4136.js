@@ -32,32 +32,30 @@
   },
   "series": [
     {
+      "color": "#007a2f"
+    },
+    {
+      "color": "#2f656b"
+    },    
+    {
+      "color": "#923f8d"
+    },
+    {
+      "color": "#73b97c"
+    },
+    {
+      "color": "#990300"
+    },
+    {
       "color": "#fabd24",
       "marker": {
         "enabled": false
       },
-      "index": 5,
-      "type": "line"
-    },
-    {
-      "color": "#007a2f",
-      "index": 0
-    },
-    {
-      "color": "#73b97c",
-      "index": 3
-    },
-    {
-      "color": "#2f656b",
-      "index": 1
-    },
-    {
-      "color": "#990300",
-      "index": 4
-    },
-    {
-      "color": "#923f8d",
-      "index": 2
+      "type": "line",
+      tooltip: {
+        pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
+        shared: false
+      }
     }
   ],
   "chart": {

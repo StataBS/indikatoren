@@ -51,7 +51,11 @@
         ],
         [
           2016,
-          null
+          412
+        ],
+        [
+          2017,
+          0
         ]
       ],
       "name": "Neubau"
@@ -107,6 +111,10 @@
         ],
         [
           2016,
+          null
+        ],
+        [
+          2017,
           400
         ]
       ],
@@ -162,14 +170,18 @@
         ],
         [
           2015,
-          338
+          347
         ],
         [
           2016,
-          342
+          353
+        ],
+        [
+          2017,
+          381
         ]
       ],
-      "name": "Entwicklung des Zehnjahresdurchschnitts gemäss Prognose"
+      "name": "Entwicklung des Zehnjahresdurchschnittes gemäss Prognose"
     }
   ],
   "chart": {
@@ -288,6 +300,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.09.1.0026"
+    "filename": "I.09.1.4137"
   }
 }
