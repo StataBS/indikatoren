@@ -1,0 +1,183 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h426v254H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M49 90h426v254H49z"/>
+    <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
+        <tspan>&gt; Indikator-Details</tspan>
+    </text>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M91.5 90v254m0-254v254m42-254v254m0-254v254m43-254v254m0-254v254m42-254v254m0-254v254m43-254v254m0-254v254m43-254v254m0-254v254m42-254v254m0-254v254m43-254v254m0-254v254m42-254v254m0-254v254m43-254v254m0-254v254M48.5 90v254m0-254v254"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M49 344.5h426m-426-42h426m-426-43h426m-426-42h426m-426-42h426m-426-43h426m-426-43h426"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M49 90h426v254H49z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M49 344.5h426"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M49 90v254"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M475 90v254"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 90)" clip-path="url(#a)">
+            <path fill="#73B97C" class="highcharts-point" d="M10 221h11v11H10zm42-14h11v20H52zm43 2h11v22H95zm43 7h11v17h-11zm42-2h11v19h-11zm43-38h11v58h-11zm42 9h11v48h-11zm43 19h11v29h-11zm43-35h11v67h-11zm42 30h11v38h-11z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 90)" clip-path="url(#a)">
+            <path fill="#68AB2B" class="highcharts-point" d="M10 232h11v23H10zm42-5h11v28H52zm43 4h11v24H95zm43 2h11v22h-11zm42 0h11v22h-11zm43 1h11v21h-11zm42-1h11v22h-11zm43 0h11v22h-11zm43 3h11v19h-11zm42 1h11v18h-11z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 90)" clip-path="url(#a)">
+            <path fill="#73B97C" class="highcharts-point" d="M23 200h11v4H23zm42-67h11v25H65zm43-5h11v30h-11zm42 25h11v16h-11zm43-20h11v21h-11zm43-40h11v25h-11zm42-28h11v50h-11zm43-20h11v76h-11zm42 47h11v90h-11zm43 24h11v61h-11z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 90)" clip-path="url(#a)">
+            <path fill="#68AB2B" class="highcharts-point" d="M23 204h11v51H23zm42-46h11v97H65zm43 0h11v97h-11zm42 11h11v86h-11zm43-15h11v101h-11zm43-36h11v137h-11zm42-3h11v140h-11zm43 6h11v134h-11zm42 61h11v73h-11zm43-5h11v78h-11z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
+        <tspan>Sonderabfälle</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
+        <tspan>Tonnen</tspan>
+    </text>
+    <g class="highcharts-stack-labels" text-anchor="middle" font-size=".8em" font-weight="400" color="#000">
+        <text x="28" style="text-outline:1px contrast" y="193" transform="translate(49 90)">
+            <tspan x="28" y="193" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BL</tspan><tspan x="28" y="193">BL</tspan>
+        </text>
+        <text x="70" style="text-outline:1px contrast" y="126" transform="translate(49 90)">
+            <tspan x="70" y="126" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BL</tspan><tspan x="70" y="126">BL</tspan>
+        </text>
+        <text x="113" style="text-outline:1px contrast" y="121" transform="translate(49 90)">
+            <tspan x="113" y="121" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BL</tspan><tspan x="113" y="121">BL</tspan>
+        </text>
+        <text x="155" style="text-outline:1px contrast" y="146" transform="translate(49 90)">
+            <tspan x="155" y="146" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BL</tspan><tspan x="155" y="146">BL</tspan>
+        </text>
+        <text x="198" style="text-outline:1px contrast" y="126" transform="translate(49 90)">
+            <tspan x="198" y="126" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BL</tspan><tspan x="198" y="126">BL</tspan>
+        </text>
+        <text x="241" style="text-outline:1px contrast" y="86" transform="translate(49 90)">
+            <tspan x="241" y="86" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BL</tspan><tspan x="241" y="86">BL</tspan>
+        </text>
+        <text x="283" style="text-outline:1px contrast" y="58" transform="translate(49 90)">
+            <tspan x="283" y="58" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BL</tspan><tspan x="283" y="58">BL</tspan>
+        </text>
+        <text x="326" style="text-outline:1px contrast" y="38" transform="translate(49 90)">
+            <tspan x="326" y="38" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BL</tspan><tspan x="326" y="38">BL</tspan>
+        </text>
+        <text x="368" style="text-outline:1px contrast" y="85" transform="translate(49 90)">
+            <tspan x="368" y="85" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BL</tspan><tspan x="368" y="85">BL</tspan>
+        </text>
+        <text x="411" style="text-outline:1px contrast" y="109" transform="translate(49 90)">
+            <tspan x="411" y="109" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BL</tspan><tspan x="411" y="109">BL</tspan>
+        </text>
+        <text x="15" style="text-outline:1px contrast" y="214" transform="translate(49 90)">
+            <tspan x="15" y="214" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BS</tspan><tspan x="15" y="214">BS</tspan>
+        </text>
+        <text x="58" style="text-outline:1px contrast" y="200" transform="translate(49 90)">
+            <tspan x="58" y="200" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BS</tspan><tspan x="58" y="200">BS</tspan>
+        </text>
+        <text x="100" style="text-outline:1px contrast" y="202" transform="translate(49 90)">
+            <tspan x="100" y="202" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BS</tspan><tspan x="100" y="202">BS</tspan>
+        </text>
+        <text x="143" style="text-outline:1px contrast" y="209" transform="translate(49 90)">
+            <tspan x="143" y="209" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BS</tspan><tspan x="143" y="209">BS</tspan>
+        </text>
+        <text x="185" style="text-outline:1px contrast" y="207" transform="translate(49 90)">
+            <tspan x="185" y="207" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BS</tspan><tspan x="185" y="207">BS</tspan>
+        </text>
+        <text x="228" style="text-outline:1px contrast" y="169" transform="translate(49 90)">
+            <tspan x="228" y="169" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BS</tspan><tspan x="228" y="169">BS</tspan>
+        </text>
+        <text x="271" style="text-outline:1px contrast" y="178" transform="translate(49 90)">
+            <tspan x="271" y="178" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BS</tspan><tspan x="271" y="178">BS</tspan>
+        </text>
+        <text x="313" style="text-outline:1px contrast" y="197" transform="translate(49 90)">
+            <tspan x="313" y="197" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BS</tspan><tspan x="313" y="197">BS</tspan>
+        </text>
+        <text x="356" style="text-outline:1px contrast" y="162" transform="translate(49 90)">
+            <tspan x="356" y="162" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BS</tspan><tspan x="356" y="162">BS</tspan>
+        </text>
+        <text x="398" style="text-outline:1px contrast" y="192" transform="translate(49 90)">
+            <tspan x="398" y="192" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BS</tspan><tspan x="398" y="192">BS</tspan>
+        </text>
+    </g>
+    <g class="highcharts-legend" transform="translate(10 40)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="359" height="38"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
+                <tspan>Klasse 4 (Mineralische Abfälle)</tspan>
+            </text>
+            <path fill="#73B97C" class="highcharts-point" d="M14 11h12v12H14z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(217.578 7)">
+                <tspan>Übrige Abfallklassen</tspan>
+            </text>
+            <path fill="#68AB2B" class="highcharts-point" d="M219.578 11h12v12h-12z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
+        <text x="70.3" y="363">
+            2006
+        </text>
+        <text x="112.9" y="363">
+            2007
+        </text>
+        <text x="155.5" y="363">
+            2008
+        </text>
+        <text x="198.1" y="363">
+            2009
+        </text>
+        <text x="240.7" y="363">
+            2010
+        </text>
+        <text x="283.3" y="363">
+            2011
+        </text>
+        <text x="325.9" y="363">
+            2012
+        </text>
+        <text x="368.5" y="363">
+            2013
+        </text>
+        <text x="411.1" y="363">
+            2014
+        </text>
+        <text x="453.7" y="363">
+            2015
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="34" y="349">
+            <tspan>0</tspan>
+        </text>
+        <text x="34" y="306">
+            <tspan>100k</tspan>
+        </text>
+        <text x="34" y="264">
+            <tspan>200k</tspan>
+        </text>
+        <text x="34" y="222">
+            <tspan>300k</tspan>
+        </text>
+        <text x="34" y="179">
+            <tspan>400k</tspan>
+        </text>
+        <text x="34" y="137">
+            <tspan>500k</tspan>
+        </text>
+        <text x="34" y="95">
+            <tspan>600k</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
+        <tspan>Quelle: Amt für Umwelt und Energie Basel-Stadt; Amt für Umweltschutz und Energie Basel-Landschaft</tspan>
+    </text>
+</svg>

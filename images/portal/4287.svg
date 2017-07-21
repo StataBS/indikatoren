@@ -1,0 +1,112 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h432v254H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M43 90h432v254H43z"/>
+    <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
+        <tspan>&gt; Indikator-Details</tspan>
+    </text>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M78.5 90v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254M42.5 90v254m0-254v254"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 344.5h432m-432-85h432m-432-84h432m-432-85h432"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M43 90h432v254H43z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M43 344.5h432"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M43 90v254"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M475 90v254"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 90)" clip-path="url(#a)">
+            <path fill="#73B97C" class="highcharts-point" d="M9 41h18v185H9zm36 79h18v90H45zm36-36h18v106H81zm36 53h18v81h-18zm36 51h18v36h-18zm36-56h18v24h-18zm36 63h18v30h-18zm36 25h18v20h-18zm36-185h18v22h-18zm36 161h18v16h-18zm36-22h18v59h-18zm36 10h18v53h-18z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 90)" clip-path="url(#a)">
+            <path fill="#68AB2B" class="highcharts-point" d="M9 226h18v29H9zm36-16h18v45H45zm36-20h18v65H81zm36 28h18v37h-18zm36 6h18v31h-18zm36-68h18v99h-18zm36 69h18v30h-18zm36 15h18v15h-18zm36-183h18v198h-18zm36 155h18v43h-18zm36 21h18v22h-18zm36 4h18v18h-18z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
+        <tspan>Zwangsnutzungen</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
+        <tspan>Kubikmeter</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(10 40)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="373" height="38"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
+                <tspan>Biotische Schadereignisse</tspan>
+            </text>
+            <path fill="#73B97C" class="highcharts-point" d="M14 11h12v12H14z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(193.656 7)">
+                <tspan>Abiotische Schadereignisse</tspan>
+            </text>
+            <path fill="#68AB2B" class="highcharts-point" d="M195.656 11h12v12h-12z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
+        <text x="61" y="363">
+            2004
+        </text>
+        <text x="97" y="363">
+            2005
+        </text>
+        <text x="133" y="363">
+            2006
+        </text>
+        <text x="169" y="363">
+            2007
+        </text>
+        <text x="205" y="363">
+            2008
+        </text>
+        <text x="241" y="363">
+            2009
+        </text>
+        <text x="277" y="363">
+            2010
+        </text>
+        <text x="313" y="363">
+            2011
+        </text>
+        <text x="349" y="363">
+            2012
+        </text>
+        <text x="385" y="363">
+            2013
+        </text>
+        <text x="421" y="363">
+            2014
+        </text>
+        <text x="457" y="363">
+            2015
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="28" y="349">
+            <tspan>0</tspan>
+        </text>
+        <text x="28" y="264">
+            <tspan>10k</tspan>
+        </text>
+        <text x="28" y="179">
+            <tspan>20k</tspan>
+        </text>
+        <text x="28" y="94">
+            <tspan>30k</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
+        <tspan>Quelle: Amt für Wald beider Basel</tspan>
+    </text>
+</svg>
