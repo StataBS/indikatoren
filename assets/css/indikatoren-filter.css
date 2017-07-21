@@ -65,7 +65,9 @@ ul.pagination{
 
 .pagination>li>a, 
 .pagination>li>a:hover{
-    color: black;    
+    color: black;   
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .pagination>.active>a, 
