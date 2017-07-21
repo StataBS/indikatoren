@@ -21,7 +21,7 @@ before_install:
 - sudo apt-get install ttf-mscorefonts-installer
 
 install: 
-- npm install
+- npm run reinstall
 script: 
 - npm test
 - npm run build
