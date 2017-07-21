@@ -104,7 +104,7 @@
       "type": "line",
       "visible": false,
       "tooltip": {
-        "valueDecimals": 2
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
@@ -144,7 +144,7 @@
       "type": "line",
       "visible": false,
       "tooltip": {
-        "valueDecimals": 2
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
@@ -183,7 +183,7 @@
       "yAxis": 1,
       "type": "line",
       "tooltip": {
-        "valueDecimals": 2
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
@@ -288,6 +288,7 @@
     {
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
+      "min": 0,
       "title": {
         "style": {
           "color": "#000000",
@@ -304,6 +305,7 @@
     },
     {
       "gridLineColor": "#B9CFD7",
+      "min": 0,
       "title": {
         "style": {
           "color": "#000000",
@@ -312,7 +314,7 @@
         "text": null
       },
       "labels": {
-        "format": "{value:,.1f}%",
+        "format": "{value:,.2f}%",
         "style": {
           "color": "#000000"
         }
