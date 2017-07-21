@@ -33,12 +33,12 @@ console.log('Loading rhein shape...');
 var rheinFileContents = fs.readFileSync('geojson/rhein_reproj_mollweide_simp.json');
 var geojson_rhein = JSON.parse(rheinFileContents);
 
-console.log('deleting previous chart configs...');
-var rimraf = require("rimraf");
-rimraf('charts/configs/indikatorenset/*', function(error) {
-    if (error) { throw error; }
-    rimraf('charts/configs/portal/*', function(error) {
-        if (error) { throw error; }
+//console.log('deleting previous chart configs...');
+//var rimraf = require("rimraf");
+//rimraf('charts/configs/indikatorenset/*', function(error) {
+    //if (error) { throw error; }
+    //rimraf('charts/configs/portal/*', function(error) {
+        //if (error) { throw error; }
 
         var views = [true, false];
         views.forEach(function(view){
@@ -48,17 +48,18 @@ rimraf('charts/configs/indikatorenset/*', function(error) {
             files.forEach(function(filepath){
                 var fileContents = fs.readFileSync(filepath);
                 var indikator = JSON.parse(fileContents);
-                if (indikator.visible == undefined || indikator.visible){
+                //only create json files if indikator is visible and not from kennzahlenset "Umwelt"
+                if ((indikator.visible == undefined || indikator.visible) && indikator.kennzahlenset != "Umwelt"){
                     console.log('Creating config for chart ' + indikator.id + ', indikatorensetView=' + view +'...');
                     saveChartConfig(indikator, view, console);
                 }
                 else {
-                    console.log('Chart ' + indikator.id + ' is invisible, ignoring.');
+                    console.log('Chart ' + indikator.id + ' is invisible or in kennzahlenset "Umwelt", ignoring.');
                 }
             });
         });
-    });
-});
+//    });
+//});
 
 
 

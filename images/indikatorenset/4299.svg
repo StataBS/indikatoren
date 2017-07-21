@@ -1,0 +1,149 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h386v235H0z"/>
+        </clipPath>
+        <clipPath id="b">
+            <path fill="none" d="M0 0h386v235H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M58 109h386v235H58z"/>
+    <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
+        <tspan>&gt; Indikator-Details</tspan>
+    </text>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M100.5 109v235m0-235v235m43-235v235m0-235v235m43-235v235m0-235v235m43-235v235m0-235v235m42-235v235m0-235v235m43-235v235m0-235v235m43-235v235m0-235v235m43-235v235m0-235v235m43-235v235m0-235v235m-386-235v235m0-235v235"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M58 344.5h386m-386-59h386m-386-58h386m-386-59h386m-386-60h386"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M58 344.5h386m-386-59h386m-386-58h386m-386-59h386m-386-60h386"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M58 109h386v235H58z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M58 344.5h386"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M58 109v235"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M444 109v235"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(58 109)" clip-path="url(#a)">
+            <path fill="#FF8028" class="highcharts-point" d="M267 131h11v105h-11zm43 7h11v98h-11zm43 10h11v88h-11z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(58 109)" clip-path="url(#b)">
+            <path fill="none" d="M278.778 96.938l42.889 11.75 42.889 14.687" class="highcharts-graph" stroke="#DC440E" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M268.778 96.938h10l42.889 11.75 42.889 14.687h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(58 109)" clip-path="url(#a)">
+            <path fill="#B375AB" class="highcharts-point" d="M23 50h11v186H23zm43-1h11v187H66zm43 6h11v181h-11zm42-3h11v184h-11zm43 0h11v184h-11zm43 4h11v180h-11zm43 8h11v172h-11zm43 16h11v156h-11zm43 5h11v151h-11z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined" transform="translate(58 109)" clip-path="url(#b)">
+            <path fill="none" d="M21.444 49.938l42.89 2.937 42.888 8.813H193l42.889 5.874 42.889 11.75L321.667 94l42.889 5.875" class="highcharts-graph" stroke="#923F8D" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M11.444 49.938h10l42.89 2.937 42.888 8.813H193l42.889 5.874 42.889 11.75L321.667 94l42.889 5.875h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
+        <tspan>CO2-Emissionen</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
+        <tspan>Tonnen</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(10 40)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="371" height="57"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
+                <tspan>BS: Tonnen</tspan>
+            </text>
+            <path fill="#FF8028" class="highcharts-point" d="M14 11h12v12H14z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M116.344 18h16" class="highcharts-graph" stroke="#DC440E" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(116.344 7)">
+                <tspan>BS: Tonnen pro Einwohner (rechte Skala)</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 26)">
+                <tspan>BL: Tonnen</tspan>
+            </text>
+            <path fill="#B375AB" class="highcharts-point" d="M14 30h12v12H14z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3">
+            <path fill="none" d="M115.016 37h16" class="highcharts-graph" stroke="#923F8D" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(115.016 26)">
+                <tspan>BL: Tonnen pro Einwohner (rechte Skala)</tspan>
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
+        <text x="79.444" y="363">
+            1990
+        </text>
+        <text x="122.333" y="363">
+            1995
+        </text>
+        <text x="165.222" y="363">
+            2000
+        </text>
+        <text x="208.111" y="363">
+            2002
+        </text>
+        <text x="251" y="363">
+            2004
+        </text>
+        <text x="293.889" y="363">
+            2006
+        </text>
+        <text x="336.778" y="363">
+            2010
+        </text>
+        <text x="379.667" y="363">
+            2012
+        </text>
+        <text x="422.556" y="363">
+            2014
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="43" y="349">
+            <tspan>0</tspan>
+        </text>
+        <text x="43" y="290">
+            <tspan>500k</tspan>
+        </text>
+        <text x="43" y="231">
+            <tspan>1 000k</tspan>
+        </text>
+        <text x="43" y="172">
+            <tspan>1 500k</tspan>
+        </text>
+        <text x="43" y="114">
+            <tspan>2 000k</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" color="#000" cursor="default" font-size=".9em">
+        <text x="459" y="349">
+            <tspan>0</tspan>
+        </text>
+        <text x="459" y="290">
+            <tspan>2</tspan>
+        </text>
+        <text x="459" y="231">
+            <tspan>4</tspan>
+        </text>
+        <text x="459" y="172">
+            <tspan>6</tspan>
+        </text>
+        <text x="459" y="114">
+            <tspan>8</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt; Statistisches Amt Basel-Landschaft</tspan>
+    </text>
+</svg>

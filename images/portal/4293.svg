@@ -1,0 +1,115 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h432v254H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M43 90h432v254H43z"/>
+    <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
+        <tspan>&gt; Indikator-Details</tspan>
+    </text>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M78.5 90v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254M42.5 90v254m0-254v254"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 344.5h432m-432-63h432m-432-64h432m-432-63h432m-432-65h432"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M43 90h432v254H43z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M43 344.5h432"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M43 90v254"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M475 90v254"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 90)" clip-path="url(#a)">
+            <path fill="#FF8028" class="highcharts-point" d="M8 202h9v53H8zM44 70h9v185h-9zm36-51h9v236h-9zm36 1h9v235h-9zm36 11h9v224h-9zm36 3h9v221h-9zm36 10h9v211h-9zm36 9h9v202h-9zm36 11h9v191h-9zm36 38h9v153h-9zm36 15h9v138h-9zm36 1h9v137h-9z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 90)" clip-path="url(#a)">
+            <path fill="#B375AB" class="highcharts-point" d="M19 188h9v67h-9zm36-46h9v113h-9zm36-21h9v134h-9zm36 3h9v131h-9zm36-3h9v134h-9zm36 9h9v125h-9zm36 17h9v108h-9zm36-2h9v110h-9zm36 8h9v102h-9zm36 4h9v98h-9zm36 4h9v94h-9zm36 31h9v63h-9z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
+        <tspan>Ozonschichtabbauende Stoffe in Kälteanlagen</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
+        <tspan>Kilogramm</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(10 40)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="323" height="38"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
+                <tspan>Kanton Basel-Stadt</tspan>
+            </text>
+            <path fill="#FF8028" class="highcharts-point" d="M14 11h12v12H14z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(156.328 7)">
+                <tspan>Kanton Basel-Landschaft</tspan>
+            </text>
+            <path fill="#B375AB" class="highcharts-point" d="M158.328 11h12v12h-12z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
+        <text x="61" y="363">
+            2005
+        </text>
+        <text x="97" y="363">
+            2006
+        </text>
+        <text x="133" y="363">
+            2007
+        </text>
+        <text x="169" y="363">
+            2008
+        </text>
+        <text x="205" y="363">
+            2009
+        </text>
+        <text x="241" y="363">
+            2010
+        </text>
+        <text x="277" y="363">
+            2011
+        </text>
+        <text x="313" y="363">
+            2012
+        </text>
+        <text x="349" y="363">
+            2013
+        </text>
+        <text x="385" y="363">
+            2014
+        </text>
+        <text x="421" y="363">
+            2015
+        </text>
+        <text x="457" y="363">
+            2016
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="28" y="349">
+            <tspan>0</tspan>
+        </text>
+        <text x="28" y="285">
+            <tspan>10k</tspan>
+        </text>
+        <text x="28" y="222">
+            <tspan>20k</tspan>
+        </text>
+        <text x="28" y="158">
+            <tspan>30k</tspan>
+        </text>
+        <text x="28" y="95">
+            <tspan>40k</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
+        <tspan>Quelle: Bundesamt für Umwelt</tspan>
+    </text>
+</svg>

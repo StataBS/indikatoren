@@ -43,7 +43,7 @@
         <tspan>Altersquotient</tspan>
     </text>
     <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
-        <tspan>Stand: 2016</tspan>
+        <tspan>Stand: 2015</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(43 323)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="432" height="47"/>

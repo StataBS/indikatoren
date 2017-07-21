@@ -1,0 +1,178 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h416v143H0z"/>
+        </clipPath>
+        <clipPath id="b">
+            <path fill="none" d="M0 0h388v40H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M49 109h416v143H49z"/>
+    <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
+        <tspan>&gt; Indikator-Details</tspan>
+    </text>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M74.5 109v143m0-143v143m26-143v143m0-143v143m26-143v143m0-143v143m26-143v143m0-143v143m26-143v143m0-143v143m26-143v143m0-143v143m26-143v143m0-143v143m26-143v143m0-143v143m26-143v143m0-143v143m26-143v143m0-143v143m26-143v143m0-143v143m26-143v143m0-143v143m26-143v143m0-143v143m26-143v143m0-143v143m26-143v143m0-143v143m26-143v143m0-143v143"/>
+    </g>
+    <g class="highcharts-grid highcharts-xaxis-grid highcharts-navigator-xaxis">
+        <path fill="none" class="highcharts-grid-line" d="M65.5 311v40m255-40v40"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M49 252.5h416m-416-71h416m-416-73h416"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid highcharts-navigator-yaxis">
+        <path fill="none" class="highcharts-grid-line" d="M63 351.5h388m-388-37h388"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M49 109h416v143H49z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M49 252.5h416"/>
+    </g>
+    <g class="highcharts-axis highcharts-xaxis highcharts-navigator-xaxis">
+        <path fill="none" class="highcharts-axis-line" d="M63 351h388"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M49 109v143"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M465 109v143"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis highcharts-navigator-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M49 311v40"/>
+    </g>
+    <g class="highcharts-scrollbar" transform="translate(49 352)">
+        <rect fill="#f2f2f2" class="highcharts-scrollbar-track" rx="0" ry="0" height="14" width="416" stroke="#f2f2f2" y="-.5"/>
+        <g transform="translate(323 -.5)">
+            <rect fill="#ccc" class="highcharts-scrollbar-thumb" height="14" width="76" rx="0" ry="0" stroke="#ccc"/>
+            <path fill="none" d="M34.5 3.5v5.833m3-5.833v5.833m3-5.833v5.833" class="highcharts-scrollbar-rifles" stroke="#333"/>
+        </g>
+        <rect fill="#e6e6e6" class="highcharts-scrollbar-button" stroke="#ccc" x="-.5" y="-.5" width="14" height="14" rx="0" ry="0"/>
+        <path fill="#333" d="M8 4v6L5 7" class="highcharts-scrollbar-arrow"/>
+        <g transform="translate(402)">
+            <rect fill="#e6e6e6" class="highcharts-scrollbar-button" stroke="#ccc" x="-.5" y="-.5" width="14" height="14" rx="0" ry="0"/>
+            <path fill="#333" d="M6 4v6l3-3" class="highcharts-scrollbar-arrow"/>
+        </g>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 109)" clip-path="url(#a)">
+            <path fill="#FF8028" class="highcharts-point" d="M32 142h7v2h-7zm52-1h7v3h-7zm52 1h7v2h-7zm26-5h7v7h-7zm26 6h7v1h-7zm26 0h7v1h-7zm78 0h7v1h-7zm26 0h7v1h-7zm26-8h7v9h-7zm26 7h7v2h-7zm26-10h7v12h-7z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 109)" clip-path="url(#a)">
+            <path fill="#B375AB" class="highcharts-point" d="M14 131h7v13h-7zm26 10h7v3h-7zm26-9h7v12h-7zm26 6h7v6h-7zm26 2h7v4h-7zm26-13h7v17h-7zm26-61h7v78h-7zm26 77h7v1h-7zm26-6h7v7h-7zm26 6h7v1h-7zm52-7h7v8h-7zm26 7h7v1h-7zm26-3h7v4h-7zm26-7h7v11h-7zm26-112h7v123h-7z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-5 highcharts-column-series highcharts-color-undefined" transform="translate(63 311)" clip-path="url(#b)">
+            <path fill="#DC440E" class="highcharts-point" d="M298 40h1v1h-1zm77 0h1v1h-1zm10 0h1v1h-1z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-6 highcharts-column-series highcharts-color-undefined" transform="translate(63 311)" clip-path="url(#b)">
+            <path fill="#B375AB" class="highcharts-point" d="M299 40h1v1h-1zm41 0h1v1h-1zm46 0h1v1h-1z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-7 highcharts-column-series highcharts-color-undefined" transform="translate(63 311)" clip-path="url(#b)">
+            <path fill="#923F8D" class="highcharts-point" d="M167 40h1v1h-1zm61 0h1v1h-1zm10 0h1v1h-1zm21 0h1v1h-1zm15-2h1v3h-1zm5 2h1v1h-1zm10 0h1v1h-1zm11-4h1v5h-1zm10 4h1v1h-1zm10 0h1v1h-1zm15 0h1v1h-1zm5-35h1v36h-1zm26 35h1v1h-1zm20-12h1v13h-1z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
+        <tspan>Gebäudeschäden durch Hochwasser und Rutschungen</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
+        <tspan>Anzahl Schadenfälle; Tausend CHF (rechte Skala)</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(10 40)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="365" height="57"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
+                <tspan>BS: Schadenfälle</tspan>
+            </text>
+            <path fill="#FF8028" class="highcharts-point" d="M14 11h12v12H14z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1 highcharts-legend-item-hidden">
+            <text x="21" y="15" color="#ccc" font-size="1em" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(145 7)">
+                <tspan>BS: Schadensumme (rechte Skala)</tspan>
+            </text>
+            <path fill="#ccc" class="highcharts-point" d="M147 11h12v12h-12z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 26)">
+                <tspan>BL: Schadenfälle</tspan>
+            </text>
+            <path fill="#B375AB" class="highcharts-point" d="M14 30h12v12H14z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3 highcharts-legend-item-hidden">
+            <text x="21" y="15" color="#ccc" font-size="1em" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(143.672 26)">
+                <tspan>BL: Schadensumme (rechte Skala)</tspan>
+            </text>
+            <path fill="#ccc" class="highcharts-point" d="M145.672 30h12v12h-12z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="65.3" transform="rotate(-45 65.3 270)" y="270">
+            <tspan>2001</tspan>
+        </text>
+        <text x="91.3" transform="rotate(-45 91.3 270)" y="270">
+            <tspan>2002</tspan>
+        </text>
+        <text x="117.3" transform="rotate(-45 117.3 270)" y="270">
+            <tspan>2003</tspan>
+        </text>
+        <text x="143.3" transform="rotate(-45 143.3 270)" y="270">
+            <tspan>2004</tspan>
+        </text>
+        <text x="169.3" transform="rotate(-45 169.3 270)" y="270">
+            <tspan>2005</tspan>
+        </text>
+        <text x="195.3" transform="rotate(-45 195.3 270)" y="270">
+            <tspan>2006</tspan>
+        </text>
+        <text x="221.3" transform="rotate(-45 221.3 270)" y="270">
+            <tspan>2007</tspan>
+        </text>
+        <text x="247.3" transform="rotate(-45 247.3 270)" y="270">
+            <tspan>2008</tspan>
+        </text>
+        <text x="273.3" transform="rotate(-45 273.3 270)" y="270">
+            <tspan>2009</tspan>
+        </text>
+        <text x="299.3" transform="rotate(-45 299.3 270)" y="270">
+            <tspan>2010</tspan>
+        </text>
+        <text x="325.3" transform="rotate(-45 325.3 270)" y="270">
+            <tspan>2011</tspan>
+        </text>
+        <text x="351.3" transform="rotate(-45 351.3 270)" y="270">
+            <tspan>2012</tspan>
+        </text>
+        <text x="377.3" transform="rotate(-45 377.3 270)" y="270">
+            <tspan>2013</tspan>
+        </text>
+        <text x="403.3" transform="rotate(-45 403.3 270)" y="270">
+            <tspan>2014</tspan>
+        </text>
+        <text x="429.3" transform="rotate(-45 429.3 270)" y="270">
+            <tspan>2015</tspan>
+        </text>
+        <text x="455.3" transform="rotate(-45 455.3 270)" y="270">
+            <tspan>2016</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="34" y="257">
+            <tspan>0</tspan>
+        </text>
+        <text x="34" y="185">
+            <tspan>800</tspan>
+        </text>
+        <text x="34" y="114">
+            <tspan>1600</tspan>
+        </text>
+    </g>
+    <g class="highcharts-navigator">
+        <path fill="transparent" class="highcharts-navigator-mask-outside" d="M63 311h309v40H63z"/>
+        <path fill="rgba(102,133,194,0.3)" class="highcharts-navigator-mask-inside" cursor="ew-resize" d="M372 311h76v40h-76z"/>
+        <path fill="transparent" class="highcharts-navigator-mask-outside" d="M448 311h3v40h-3z"/>
+        <path fill="none" class="highcharts-navigator-outline" stroke="#ccc" d="M49 311.5h322.5v54h76v-54H465m-94 0h77"/>
+        <path fill="#f2f2f2" d="M443.5 323.5h8v15h-8v-15m3 3.5v8m2-8v8" class="highcharts-navigator-handle highcharts-navigator-handle-right" stroke="#999" cursor="ew-resize"/>
+        <path fill="#f2f2f2" d="M367.5 323.5h8v15h-8v-15m3 3.5v8m2-8v8" class="highcharts-navigator-handle highcharts-navigator-handle-left" stroke="#999" cursor="ew-resize"/>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
+        <tspan>Quelle: Gebäudeversicherung des Kantons Basel-Stadt; Basellandschaftliche Gebäudeversicherung</tspan>
+    </text>
+</svg>

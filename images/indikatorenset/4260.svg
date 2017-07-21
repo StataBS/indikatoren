@@ -1,0 +1,103 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h426v235H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M49 109h426v235H49z"/>
+    <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
+        <tspan>&gt; Indikator-Details</tspan>
+    </text>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M133.5 109v235m0-235v235m85-235v235m0-235v235m86-235v235m0-235v235m85-235v235m0-235v235m85-235v235m0-235v235m-426-235v235m0-235v235"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M49 344.5h426m-426-59h426m-426-58h426m-426-59h426m-426-60h426"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M49 109h426v235H49z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M49 344.5h426"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M49 109v235"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M475 109v235"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 109)" clip-path="url(#a)">
+            <path fill="#FF8028" class="highcharts-point" d="M105 183h21v53h-21zm85 0h21v53h-21zm85 1h21v52h-21zm85 1h21v51h-21z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 109)" clip-path="url(#a)">
+            <path fill="#B375AB" class="highcharts-point" d="M45 73h21v148H45zm85-6h21v154h-21zm86-2h21v157h-21zm85 2h21v157h-21zm85 0h21v158h-21z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 109)" clip-path="url(#a)">
+            <path fill="#923F8D" class="highcharts-point" d="M45 221h21v15H45zm85 0h21v15h-21zm86 1h21v14h-21zm85 2h21v12h-21zm85 1h21v11h-21z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
+        <tspan>Belastete Standorte</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
+        <tspan>Anzahl Standorte</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(10 40)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="371" height="57"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
+                <tspan>BS: Standorte insgesamt</tspan>
+            </text>
+            <path fill="#FF8028" class="highcharts-point" d="M14 11h12v12H14z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(185.64 7)">
+                <tspan>BL: Rechtskräftige Standorte</tspan>
+            </text>
+            <path fill="#B375AB" class="highcharts-point" d="M187.64 11h12v12h-12z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 26)">
+                <tspan>BL: Nicht rechtskräftige Standorte</tspan>
+            </text>
+            <path fill="#923F8D" class="highcharts-point" d="M14 30h12v12H14z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
+        <text x="91.6" y="363">
+            <tspan>2012</tspan>
+        </text>
+        <text x="176.8" y="363">
+            <tspan>2013</tspan>
+        </text>
+        <text x="262" y="363">
+            <tspan>2014</tspan>
+        </text>
+        <text x="347.2" y="363">
+            <tspan>2015</tspan>
+        </text>
+        <text x="432.4" y="363">
+            <tspan>2016</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="34" y="349">
+            <tspan>0</tspan>
+        </text>
+        <text x="34" y="290">
+            <tspan>500</tspan>
+        </text>
+        <text x="34" y="231">
+            <tspan>1000</tspan>
+        </text>
+        <text x="34" y="172">
+            <tspan>1500</tspan>
+        </text>
+        <text x="34" y="114">
+            <tspan>2000</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
+        <tspan>Quelle: Amt für Umwelt und Energie Basel-Stadt; Amt für Umweltschutz und Energie Basel-Landschaft</tspan>
+    </text>
+</svg>

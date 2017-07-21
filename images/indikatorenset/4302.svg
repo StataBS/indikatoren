@@ -1,0 +1,115 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h432v254H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M43 90h432v254H43z"/>
+    <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
+        <tspan>&gt; Indikator-Details</tspan>
+    </text>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M81.5 90v254m0-254v254m40-254v254m0-254v254m39-254v254m0-254v254m39-254v254m0-254v254m39-254v254m0-254v254m40-254v254m0-254v254m39-254v254m0-254v254m39-254v254m0-254v254m39-254v254m0-254v254m40-254v254m0-254v254m39-254v254m0-254v254M42.5 90v254m0-254v254"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 344.5h432m-432-51h432m-432-51h432m-432-50h432m-432-51h432m-432-52h432"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M43 90h432v254H43z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M43 344.5h432"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M43 90v254"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M475 90v254"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 90)" clip-path="url(#a)">
+            <path fill="#FF8028" class="highcharts-point" d="M9 59h10v196H9zm39 3h10v193H48zm40 7h10v186H88zm39 9h10v177h-10zm39 7h10v170h-10zm39 5h10v165h-10zm40 7h10v158h-10zm39 4h10v154h-10zm39 4h10v150h-10zm39 5h10v145h-10z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 90)" clip-path="url(#a)">
+            <path fill="#B375AB" class="highcharts-point" d="M60 60h10v195H60zm39 6h10v189H99zm40 13h10v176h-10zm39 5h10v171h-10zm39 7h10v164h-10zm39 4h10v160h-10zm40 6h10v154h-10zm39 1h10v153h-10zm39 9h10v144h-10zm40 2h10v142h-10z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
+        <tspan>CO2-Emissionen Neuzulassungen</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
+        <tspan>Gramm pro Kilometer</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(10 40)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="323" height="38"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
+                <tspan>Kanton Basel-Stadt</tspan>
+            </text>
+            <path fill="#FF8028" class="highcharts-point" d="M14 11h12v12H14z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(156.328 7)">
+                <tspan>Kanton Basel-Landschaft</tspan>
+            </text>
+            <path fill="#B375AB" class="highcharts-point" d="M158.328 11h12v12h-12z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
+        <text x="62.636" y="363">
+            2006
+        </text>
+        <text x="101.909" y="363">
+            2007
+        </text>
+        <text x="141.182" y="363">
+            2008
+        </text>
+        <text x="180.455" y="363">
+            2009
+        </text>
+        <text x="219.727" y="363">
+            2010
+        </text>
+        <text x="259" y="363">
+            2011
+        </text>
+        <text x="298.273" y="363">
+            2012
+        </text>
+        <text x="337.545" y="363">
+            2013
+        </text>
+        <text x="376.818" y="363">
+            2014
+        </text>
+        <text x="416.091" y="363">
+            2015
+        </text>
+        <text x="455.364" y="363">
+            2016
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="28" y="349">
+            <tspan>0</tspan>
+        </text>
+        <text x="28" y="298">
+            <tspan>50</tspan>
+        </text>
+        <text x="28" y="247">
+            <tspan>100</tspan>
+        </text>
+        <text x="28" y="196">
+            <tspan>150</tspan>
+        </text>
+        <text x="28" y="145">
+            <tspan>200</tspan>
+        </text>
+        <text x="28" y="95">
+            <tspan>250</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
+        <tspan>Quelle: Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Motorfahrzeugkontrolle Basel-Landschaft</tspan>
+    </text>
+</svg>

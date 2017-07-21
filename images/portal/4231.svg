@@ -1,0 +1,130 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h423v235H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M52 109h423v235H52z"/>
+    <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
+        <tspan>&gt; Indikator-Details</tspan>
+    </text>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M84.5 109v235m0-235v235m32-235v235m0-235v235m33-235v235m0-235v235m32-235v235m0-235v235m33-235v235m0-235v235m32-235v235m0-235v235m33-235v235m0-235v235m32-235v235m0-235v235m33-235v235m0-235v235m32-235v235m0-235v235m33-235v235m0-235v235m32-235v235m0-235v235m33-235v235m0-235v235m-423-235v235m0-235v235"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M52 344.5h423m-423-59h423m-423-58h423m-423-59h423m-423-60h423"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M52 109h423v235H52z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M52 344.5h423"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M52 109v235"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M475 109v235"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(52 109)" clip-path="url(#a)">
+            <path fill="none" d="M16.27 18.8l32.538 65.8 32.538 18.8 32.539 18.8 32.538 16.45 32.539-35.25 32.538 14.1 32.538-16.45 32.539 35.25 32.538-2.35 32.539-16.45 32.538 18.8 32.539-9.4" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M6.27 18.8h10l32.538 65.8 32.538 18.8 32.539 18.8 32.538 16.45 32.539-35.25 32.538 14.1 32.538-16.45 32.539 35.25 32.538-2.35 32.539-16.45 32.538 18.8 32.539-9.4h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(52 109)" clip-path="url(#a)">
+            <path fill="none" d="M113.885 173.9l32.538 11.75 32.539-37.6L211.5 178.6l32.538-16.45 32.539 14.1 32.538 2.35 32.539-23.5 32.538-2.35 32.539 32.9" class="highcharts-graph" stroke="#B375AB" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M103.885 173.9h10l32.538 11.75 32.539-37.6L211.5 178.6l32.538-16.45 32.539 14.1 32.538 2.35 32.539-23.5 32.538-2.35 32.539 32.9h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(52 109)" clip-path="url(#a)">
+            <path fill="none" d="M16.27 47h390.46" class="highcharts-graph" stroke="#444" stroke-width="2" stroke-dasharray="6,2"/>
+            <path fill="none" d="M6.27 47h410.46" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
+        <tspan>AOX-Fracht Abwasser</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
+        <tspan>Milligramm pro Liter</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(10 40)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="323" height="57"/>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
+            <path fill="none" d="M12 18h16" class="highcharts-graph" stroke="#FF8028" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
+                <tspan>Kanton Basel-Stadt</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M156.328 18h16" class="highcharts-graph" stroke="#B375AB" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(156.328 7)">
+                <tspan>Kanton Basel-Landschaft</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2">
+            <path fill="none" d="M12 37h16" class="highcharts-graph" stroke-dasharray="6,2" stroke="#444" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 26)">
+                <tspan>Grenzwert (0,08 mg/l)</tspan>
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
+        <text x="68.269" y="363">
+            2004
+        </text>
+        <text x="100.808" y="363">
+            2005
+        </text>
+        <text x="133.346" y="363">
+            2006
+        </text>
+        <text x="165.885" y="363">
+            2007
+        </text>
+        <text x="198.423" y="363">
+            2008
+        </text>
+        <text x="230.962" y="363">
+            2009
+        </text>
+        <text x="263.5" y="363">
+            2010
+        </text>
+        <text x="296.038" y="363">
+            2011
+        </text>
+        <text x="328.577" y="363">
+            2012
+        </text>
+        <text x="361.115" y="363">
+            2013
+        </text>
+        <text x="393.654" y="363">
+            2014
+        </text>
+        <text x="426.192" y="363">
+            2015
+        </text>
+        <text x="458.731" y="363">
+            2016
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="37" y="349">
+            <tspan>0</tspan>
+        </text>
+        <text x="37" y="290">
+            <tspan>0.025</tspan>
+        </text>
+        <text x="37" y="231">
+            <tspan>0.05</tspan>
+        </text>
+        <text x="37" y="172">
+            <tspan>0.075</tspan>
+        </text>
+        <text x="37" y="114">
+            <tspan>0.1</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
+        <tspan>Quelle: ProRheno AG; Amt für Industrielle Betriebe Basel-Landschaft; ARA Laufental-Lüsseltal</tspan>
+    </text>
+</svg>

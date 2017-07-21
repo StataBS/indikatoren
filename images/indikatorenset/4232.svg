@@ -1,0 +1,117 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h428v254H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M47 90h428v254H47z"/>
+    <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
+        <tspan>&gt; Indikator-Details</tspan>
+    </text>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M55.5 90v254m0-254v254m36-254v254m0-254v254m35-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m35-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m35-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m35-254v254m0-254v254"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M47 344.5h428m-428-63h428m-428-64h428m-428-63h428m-428-65h428"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M47 90h428v254H47z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M47 344.5h428"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M47 90v254"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M475 90v254"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(47 90)" clip-path="url(#a)">
+            <path fill="none" d="M8.917 70.168L26.75 87.63l17.833-14.922 17.834 8.255L80.25 102.87l17.833-30.162 17.834 75.565L133.75 52.07l17.833-5.08 17.834 5.08 17.833 14.288 17.833 44.767 17.834-22.86 17.833 27.623L258.583 127l17.834 2.858 17.833-8.256 17.833 26.67 17.834-26.67 17.833 26.67 17.833-26.67 17.834 30.798 17.833 8.89 17.833-22.86" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-1.083 70.168h10L26.75 87.63l17.833-14.922 17.834 8.255L80.25 102.87l17.833-30.162 17.834 75.565L133.75 52.07l17.833-5.08 17.834 5.08 17.833 14.288 17.833 44.767 17.834-22.86 17.833 27.623L258.583 127l17.834 2.858 17.833-8.256 17.833 26.67 17.834-26.67 17.833 26.67 17.833-26.67 17.834 30.798 17.833 8.89 17.833-22.86h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(47 90)" clip-path="url(#a)">
+            <path fill="none" d="M8.917 206.058l17.833-2.54 17.833-3.81 17.834 2.857 17.833-.317 17.833 2.54 17.834.952 17.833 2.857 17.833-9.525 17.834 13.653 17.833-1.588 17.833-9.842 17.834 5.08 17.833-11.43 17.833 3.493 17.834-1.588 17.833 5.08 17.833-4.445 17.834 3.493 17.833 12.7 17.833 1.905 17.834 4.445 17.833-2.223 17.833 6.985" class="highcharts-graph" stroke="#B375AB" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-1.083 206.058h10l17.833-2.54 17.833-3.81 17.834 2.857 17.833-.317 17.833 2.54 17.834.952 17.833 2.857 17.833-9.525 17.834 13.653 17.833-1.588 17.833-9.842 17.834 5.08 17.833-11.43 17.833 3.493 17.834-1.588 17.833 5.08 17.833-4.445 17.834 3.493 17.833 12.7 17.833 1.905 17.834 4.445 17.833-2.223 17.833 6.985h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
+        <tspan>Nitrat im Grundwasser</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
+        <tspan>Prozent (Anteil der Messstellen mit Grenzwertüberschreitung)</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(10 40)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="323" height="38"/>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
+            <path fill="none" d="M12 18h16" class="highcharts-graph" stroke="#FF8028" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
+                <tspan>Kanton Basel-Stadt</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M156.328 18h16" class="highcharts-graph" stroke="#B375AB" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(156.328 7)">
+                <tspan>Kanton Basel-Landschaft</tspan>
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
+        <text x="55.917" y="363">
+            1993
+        </text>
+        <text x="91.583" y="363">
+            1995
+        </text>
+        <text x="127.25" y="363">
+            1997
+        </text>
+        <text x="162.917" y="363">
+            1999
+        </text>
+        <text x="198.583" y="363">
+            2001
+        </text>
+        <text x="234.25" y="363">
+            2003
+        </text>
+        <text x="269.917" y="363">
+            2005
+        </text>
+        <text x="305.583" y="363">
+            2007
+        </text>
+        <text x="341.25" y="363">
+            2009
+        </text>
+        <text x="376.917" y="363">
+            2011
+        </text>
+        <text x="412.583" y="363">
+            2013
+        </text>
+        <text x="448.25" y="363">
+            2015
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="32" y="349">
+            <tspan>0%</tspan>
+        </text>
+        <text x="32" y="285">
+            <tspan>20%</tspan>
+        </text>
+        <text x="32" y="222">
+            <tspan>40%</tspan>
+        </text>
+        <text x="32" y="158">
+            <tspan>60%</tspan>
+        </text>
+        <text x="32" y="95">
+            <tspan>80%</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
+        <tspan>Quelle: Amt für Umwelt und Energie Basel-Stadt; Amt für Umweltschutz und Energie Basel-Landschaft</tspan>
+    </text>
+</svg>
