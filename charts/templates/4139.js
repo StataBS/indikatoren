@@ -10,6 +10,7 @@
    {
     gridLineColor: '#B9CFD7', 
     gridLineWidth: 0.5,
+    min: 0,
     "title": {
       "style": {
         "color": "#000000",
@@ -26,6 +27,7 @@
   },
   {
     gridLineColor: '#B9CFD7', 
+    min: 0,
     "title": {
       "style": {
         "color": "#000000",
@@ -34,7 +36,7 @@
       "text": null
     },
     "labels": {
-      "format": "{value:,.1f}%",
+      "format": "{value:,.2f}%",
       "style": {
         "color": "#000000"
       }
@@ -82,7 +84,7 @@
       "type": "line",
       "visible": false,
       tooltip: {
-        valueDecimals: 2
+        pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}%</b><br/>',
       }
     },
     {
@@ -94,7 +96,7 @@
       "type": "line",
       "visible": false, 
       tooltip: {
-        valueDecimals: 2
+        pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}%</b><br/>',
       }
     },
     {
@@ -105,7 +107,7 @@
       "yAxis": 1,
       "type": "line", 
       tooltip: {
-        valueDecimals: 2
+        pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}%</b><br/>',
       }
     }
   ],
