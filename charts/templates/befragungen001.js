@@ -114,7 +114,7 @@
         "verticalAlign": "middle",
         "itemMarginBottom": 5,     
         "align": "right",
-        "useHTML": true,
+        "useHTML": false,
         "itemStyle": {
             "fontWeight": "normal"
         },

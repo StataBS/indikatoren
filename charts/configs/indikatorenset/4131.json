@@ -10,14 +10,18 @@
         ],
         [
           2014,
-          16183
+          16189
         ],
         [
           2015,
           16304
+        ],
+        [
+          2016,
+          16425
         ]
       ],
-      "name": "selbstgenutzte Eigentumswhg."
+      "name": "Eigentümerwohnungen"
     },
     {
       "color": "#008AC3",
@@ -34,9 +38,13 @@
         [
           2015,
           10814
+        ],
+        [
+          2016,
+          11073
         ]
       ],
-      "name": "Genossenschaftswhg."
+      "name": "Genossenschaftswohnungen"
     },
     {
       "color": "#CD9C00",
@@ -48,11 +56,15 @@
         ],
         [
           2014,
-          79270
+          79275
         ],
         [
           2015,
           80116
+        ],
+        [
+          2016,
+          80559
         ]
       ],
       "name": "Mietwohnungen"
@@ -67,11 +79,15 @@
         ],
         [
           2014,
-          738
+          727
         ],
         [
           2015,
           745
+        ],
+        [
+          2016,
+          733
         ]
       ],
       "name": "sonstige Wohnungen"
@@ -115,7 +131,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Wohnungsbelegung nach Belegungsart"
+    "text": "Wohnungsbelegung"
   },
   "subtitle": {
     "style": {
@@ -124,7 +140,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "nach Belegungsart",
     "align": "left"
   },
   "xAxis": {
@@ -192,6 +208,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.09.1.0002"
+    "filename": "I.09.1.4131"
   }
 }

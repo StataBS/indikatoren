@@ -8,6 +8,9 @@
   },
   "yAxis": [
    {
+    gridLineColor: '#B9CFD7', 
+    gridLineWidth: 0.5,
+    min: 0,
     "title": {
       "style": {
         "color": "#000000",
@@ -23,6 +26,8 @@
     }
   },
   {
+    gridLineColor: '#B9CFD7', 
+    min: 0,
     "title": {
       "style": {
         "color": "#000000",
@@ -31,7 +36,7 @@
       "text": null
     },
     "labels": {
-      "format": "{value:,.1f}%",
+      "format": "{value:,.2f}%",
       "style": {
         "color": "#000000"
       }
@@ -41,6 +46,8 @@
   },
   ],
   "xAxis": {
+    lineColor: '#B9CFD7', 
+    lineWidth: 0.5,    
     "tickInterval": 1
   },
   tooltip: {
@@ -58,22 +65,27 @@
   },
   "series": [
     {
-      "color": "#0a3b19",
-      "index": 2
+      "color": "#d7e8d2",
+      "visible": false
     },
     {
-      "color": "#b00000",
+      "color": "#68ab2b",
+      "visible": false
+    },
+    {
+      "color": "#0a3b19"
+    },
+     {
+      "color": "#ff8028",
       "marker": {
         "enabled": false
       },
       "yAxis": 1,
-      "index": 5,
       "type": "line",
-    },
-    {
-      "color": "#68ab2b",
-      "index": 1,
-      "visible": false
+      "visible": false,
+      tooltip: {
+        pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}%</b><br/>',
+      }
     },
     {
       "color": "#923f8d",
@@ -81,24 +93,22 @@
         "enabled": false
       },
       "yAxis": 1,
-      "index": 4,
       "type": "line",
-      "visible": false
+      "visible": false, 
+      tooltip: {
+        pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}%</b><br/>',
+      }
     },
     {
-      "color": "#d7e8d2",
-      "index": 0,
-      "visible": false
-    },
-    {
-      "color": "#ff8028",
+      "color": "#b00000",
       "marker": {
         "enabled": false
       },
       "yAxis": 1,
-      "index": 3,
-      "type": "line",
-      "visible": false
+      "type": "line", 
+      tooltip: {
+        pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}%</b><br/>',
+      }
     }
   ],
   "chart": {

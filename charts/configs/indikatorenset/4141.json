@@ -23,6 +23,10 @@
         [
           "2015",
           45975
+        ],
+        [
+          "2016",
+          45832
         ]
       ],
       "name": "Einpersonenhaushalte",
@@ -51,6 +55,10 @@
         [
           "2015",
           38184
+        ],
+        [
+          "2016",
+          40186
         ]
       ],
       "name": "Familienhaushalte",
@@ -79,6 +87,10 @@
         [
           "2015",
           14045
+        ],
+        [
+          "2016",
+          12451
         ]
       ],
       "name": "Nichtfamilienhaushalte",
@@ -136,7 +148,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Haushalte nach Art des Haushalts"
+    "text": "Anteile der Haushalte"
   },
   "subtitle": {
     "style": {
@@ -145,7 +157,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "nach Art des Haushalts",
     "align": "left"
   },
   "yAxis": {
@@ -201,6 +213,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.01.2.0001"
+    "filename": "I.01.2.4141"
   }
 }

@@ -71,7 +71,10 @@
       "color": "#cd9c00",
       "index": 1,
       "type": "line",
-      "yAxis": 1
+      "yAxis": 1, 
+      tooltip: {
+        valueDecimals: 1
+      }
     }
   ],  
   "tooltip": {
