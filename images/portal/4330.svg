@@ -1,0 +1,88 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h417v254H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M58 90h417v254H58z"/>
+    <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
+        <tspan>&gt; Indikator-Details</tspan>
+    </text>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M127.5 90v254m0-254v254m69-254v254m0-254v254m70-254v254m0-254v254m69-254v254m0-254v254m70-254v254m0-254v254m69-254v254m0-254v254M57.5 90v254m0-254v254"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M58 344.5h417m-417-63h417m-417-64h417m-417-63h417m-417-65h417"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M58 90h417v254H58z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M58 344.5h417"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M58 90v254"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M475 90v254"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(58 90)" clip-path="url(#a)">
+            <path fill="#73B97C" class="highcharts-point" d="M18 55h34v200H18zm70 31h34v169H88zm69-12h34v181h-34zm70 19h34v162h-34zm69-24h34v186h-34zm70-47h34v233h-34z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
+        <tspan>Auf Deponien abgelagerte Abfälle</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
+        <tspan>Tonnen</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(10 40)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="267" height="38"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
+                <tspan>Kanton Basel-Stadt und Basel-Landschaft</tspan>
+            </text>
+            <path fill="#73B97C" class="highcharts-point" d="M14 11h12v12H14z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
+        <text x="92.75" y="363">
+            2008
+        </text>
+        <text x="162.25" y="363">
+            2009
+        </text>
+        <text x="231.75" y="363">
+            2010
+        </text>
+        <text x="301.25" y="363">
+            2011
+        </text>
+        <text x="370.75" y="363">
+            2012
+        </text>
+        <text x="440.25" y="363">
+            2013
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="43" y="349">
+            <tspan>0</tspan>
+        </text>
+        <text x="43" y="285">
+            <tspan>250k</tspan>
+        </text>
+        <text x="43" y="222">
+            <tspan>500k</tspan>
+        </text>
+        <text x="43" y="158">
+            <tspan>750k</tspan>
+        </text>
+        <text x="43" y="95">
+            <tspan>1 000k</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
+        <tspan>Quelle: Amt für Umwelt und Energie Basel-Stadt; Amt für Umweltschutz und Energie Basel-Landschaft</tspan>
+    </text>
+</svg>

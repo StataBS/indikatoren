@@ -1,0 +1,2036 @@
+{
+  "colors": [
+    "#7cb5ec",
+    "#434348",
+    "#90ed7d",
+    "#f7a35c",
+    "#8085e9",
+    "#f15c80",
+    "#e4d354",
+    "#2b908f",
+    "#f45b5b",
+    "#91e8e1"
+  ],
+  "symbols": [
+    "circle",
+    "diamond",
+    "square",
+    "triangle",
+    "triangle-down"
+  ],
+  "lang": {
+    "loading": "Lädt...",
+    "months": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "shortMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "weekdays": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "decimalPoint": ",",
+    "numericSymbols": null,
+    "resetZoom": "Zoom zurücksetzen",
+    "resetZoomTitle": "Reset zoom level 1:1",
+    "thousandsSep": " ",
+    "rangeSelectorZoom": "Zoom",
+    "rangeSelectorFrom": "From",
+    "rangeSelectorTo": "To",
+    "printChart": "Drucken",
+    "downloadPNG": "PNG Export",
+    "downloadJPEG": "JPEG Export",
+    "downloadPDF": "PDF Export",
+    "downloadSVG": "SVG Export",
+    "contextButtonTitle": "Exportieren\u002FDrucken",
+    "downloadCSV": "CSV Export",
+    "downloadXLS": "XLS Export",
+    "viewData": "View data table",
+    "noData": "Keine Daten"
+  },
+  "global": {
+    "useUTC": true,
+    "VMLRadialGradientURL": "http:\u002F\u002Fcode.highcharts.com\u002F5.0.12\u002Fgfx\u002Fvml-radial-gradient.png"
+  },
+  "chart": {
+    "borderRadius": 0,
+    "defaultSeriesType": "line",
+    "ignoreHiddenSeries": true,
+    "spacing": [
+      10,
+      10,
+      15,
+      10
+    ],
+    "resetZoomButton": {
+      "theme": {
+        "zIndex": 20
+      },
+      "position": {
+        "align": "right",
+        "x": 0,
+        "y": -30
+      }
+    },
+    "width": "485",
+    "height": "415",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "plotBorderColor": "#cccccc",
+    "style": {
+      "fontFamily": "Arial",
+      "fontSize": "9pt"
+    },
+    "renderTo": "container_0602",
+    "type": "column",
+    "spacingBottom": 50,
+    "zoomType": "x",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "redraw": function updateStacks() {
+			//console.log(this.userOptions.series[0].stacking)
+
+			//only if plot-type is column and stacking = percent
+			if (this.userOptions.series[0].stacking == 'percent' || this.userOptions.series[0].stacking == 'normal') {
+			  var chart = this,
+				H = Highcharts,
+				label,
+				bbox,
+				i, j=0;
+
+			  for (var stackName in chart.yAxis[0].stacks) {
+				i=0;
+				for (var itemName in chart.yAxis[0].stacks[stackName]) {
+					if (chart.yAxis[0].stacks[stackName][itemName].label){
+					  label = chart.yAxis[0].stacks[stackName][itemName].label; // get stack item
+					  bbox = label.getBBox(true); // get label's bounding box
+					  
+					  //console.log(label);
+					  
+					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
+					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
+					  
+					  if (this.xAxis[0].max - this.xAxis[0].min > max_labels) { //formally: if (this.xAxis[0].categories.length > 8) {
+						  if (i % 2 != 0) label.hide(); //hide every second label
+						  if (this.userOptions.series[0].stacking == 'percent') {
+							  if (j % 2 != 0) label.translate(-4) //move labels slightly to left or right
+							  else label.translate(4)
+						  }
+					  }
+					  
+					  // if label is outside chart (left/right + 5), hide it
+					  if (bbox.x < -5 || bbox.width + bbox.x - 5 > chart.plotWidth) {
+						label.hide();
+					  }
+					}
+				  i++;
+				}
+				j++;
+			  }
+			}
+		},
+      "load": function () {
+								var label = this.renderer.label("> Indikator-Details",null,null,null,null,null,null,true)
+								.css({
+									cursor: 'pointer'
+								})
+								.attr({
+									'padding': 0
+								})
+								.add().on('click',function(){
+									 /*window.top.location.href = "?i=0602&format=ubdb&format_menu=1";*/
+									 /*window.open("?i=0602&format=ub", "Indikator-Details");*/
+									 /*window.open("http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren/TID/0602.html", "Indikator-Details");*/
+									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0602", "Indikator-Details";
+								});
+						
+								label.align(Highcharts.extend(label.getBBox(), {
+									align: 'left',
+									verticalAlign: 'bottom',
+									x: 0,
+									y: 100
+								}), null, 'spacingBox');
+								
+								/*add tooltip to legend items
+								for (var i = 0, len = this.legend.allItems.length; i < len; i++) {
+									(function(i) {
+										var item = this.legend.allItems[i].legendItem;
+										item.on('mouseover', function (e) {
+											//show custom tooltip here
+											console.log("mouseover" + i);
+										}).on('mouseout', function (e) {
+											//hide tooltip
+											console.log("mouseout" + i);
+										});
+									})(i);
+								}*/
+
+								
+								/* remove link from credits */
+								if (this.credits) {
+									this.credits.element.onclick = function() {
+										//window.open("http://www.statistik.bs.ch", '_blank'); // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+									}
+								}
+							}
+    }
+  },
+  "title": {
+    "style": {
+      "color": "#000000",
+      "fontSize": "1.1em",
+      "fontWeight": "bold",
+      "fill": "#000000",
+      "width": "421px"
+    },
+    "text": "Bruttoenergieverbrauch nach Energieträger",
+    "align": "left",
+    "margin": 15,
+    "widthAdjust": -44
+  },
+  "subtitle": {
+    "style": {
+      "color": "#000000",
+      "fontSize": "0.9em",
+      "fill": "#000000",
+      "width": "421px"
+    },
+    "text": "Gigawattstunden",
+    "align": "left",
+    "widthAdjust": -44
+  },
+  "plotOptions": {
+    "line": {
+      "lineWidth": 2,
+      "allowPointSelect": false,
+      "showCheckbox": false,
+      "animation": {
+        "duration": 1000
+      },
+      "events": {},
+      "marker": {
+        "lineWidth": 0,
+        "lineColor": "#ffffff",
+        "radius": 4,
+        "states": {
+          "hover": {
+            "animation": {
+              "duration": 50
+            },
+            "enabled": true,
+            "radiusPlus": 2,
+            "lineWidthPlus": 1
+          },
+          "select": {
+            "fillColor": "#cccccc",
+            "lineColor": "#000000",
+            "lineWidth": 2
+          }
+        }
+      },
+      "point": {
+        "events": {}
+      },
+      "dataLabels": {
+        "align": "center",
+        "formatter": function () {return null===this.y?"":a.numberFormat(this.y,-1);},
+        "style": {
+          "fontSize": "11px",
+          "fontWeight": "bold",
+          "color": "contrast",
+          "textOutline": "1px contrast"
+        },
+        "verticalAlign": "bottom",
+        "x": 0,
+        "y": 0,
+        "padding": 5
+      },
+      "cropThreshold": 300,
+      "pointRange": 0,
+      "softThreshold": true,
+      "states": {
+        "hover": {
+          "animation": {
+            "duration": 50
+          },
+          "lineWidthPlus": 1,
+          "marker": {},
+          "halo": {
+            "size": 10,
+            "opacity": 0.25
+          }
+        },
+        "select": {
+          "marker": {}
+        }
+      },
+      "stickyTracking": true,
+      "turboThreshold": 1000,
+      "findNearestPointBy": "x"
+    },
+    "area": {
+      "lineWidth": 2,
+      "allowPointSelect": false,
+      "showCheckbox": false,
+      "animation": {
+        "duration": 1000
+      },
+      "events": {},
+      "marker": {
+        "lineWidth": 0,
+        "lineColor": "#ffffff",
+        "radius": 4,
+        "states": {
+          "hover": {
+            "animation": {
+              "duration": 50
+            },
+            "enabled": true,
+            "radiusPlus": 2,
+            "lineWidthPlus": 1
+          },
+          "select": {
+            "fillColor": "#cccccc",
+            "lineColor": "#000000",
+            "lineWidth": 2
+          }
+        }
+      },
+      "point": {
+        "events": {}
+      },
+      "dataLabels": {
+        "align": "center",
+        "formatter": function () {return null===this.y?"":a.numberFormat(this.y,-1);},
+        "style": {
+          "fontSize": "11px",
+          "fontWeight": "bold",
+          "color": "contrast",
+          "textOutline": "1px contrast"
+        },
+        "verticalAlign": "bottom",
+        "x": 0,
+        "y": 0,
+        "padding": 5
+      },
+      "cropThreshold": 300,
+      "pointRange": 0,
+      "softThreshold": false,
+      "states": {
+        "hover": {
+          "animation": {
+            "duration": 50
+          },
+          "lineWidthPlus": 1,
+          "marker": {},
+          "halo": {
+            "size": 10,
+            "opacity": 0.25
+          }
+        },
+        "select": {
+          "marker": {}
+        }
+      },
+      "stickyTracking": true,
+      "turboThreshold": 1000,
+      "findNearestPointBy": "x",
+      "threshold": 0
+    },
+    "spline": {
+      "lineWidth": 2,
+      "allowPointSelect": false,
+      "showCheckbox": false,
+      "animation": {
+        "duration": 1000
+      },
+      "events": {},
+      "marker": {
+        "lineWidth": 0,
+        "lineColor": "#ffffff",
+        "radius": 4,
+        "states": {
+          "hover": {
+            "animation": {
+              "duration": 50
+            },
+            "enabled": true,
+            "radiusPlus": 2,
+            "lineWidthPlus": 1
+          },
+          "select": {
+            "fillColor": "#cccccc",
+            "lineColor": "#000000",
+            "lineWidth": 2
+          }
+        }
+      },
+      "point": {
+        "events": {}
+      },
+      "dataLabels": {
+        "align": "center",
+        "formatter": function () {return null===this.y?"":a.numberFormat(this.y,-1);},
+        "style": {
+          "fontSize": "11px",
+          "fontWeight": "bold",
+          "color": "contrast",
+          "textOutline": "1px contrast"
+        },
+        "verticalAlign": "bottom",
+        "x": 0,
+        "y": 0,
+        "padding": 5
+      },
+      "cropThreshold": 300,
+      "pointRange": 0,
+      "softThreshold": true,
+      "states": {
+        "hover": {
+          "animation": {
+            "duration": 50
+          },
+          "lineWidthPlus": 1,
+          "marker": {},
+          "halo": {
+            "size": 10,
+            "opacity": 0.25
+          }
+        },
+        "select": {
+          "marker": {}
+        }
+      },
+      "stickyTracking": true,
+      "turboThreshold": 1000,
+      "findNearestPointBy": "x"
+    },
+    "areaspline": {
+      "lineWidth": 2,
+      "allowPointSelect": false,
+      "showCheckbox": false,
+      "animation": {
+        "duration": 1000
+      },
+      "events": {},
+      "marker": {
+        "lineWidth": 0,
+        "lineColor": "#ffffff",
+        "radius": 4,
+        "states": {
+          "hover": {
+            "animation": {
+              "duration": 50
+            },
+            "enabled": true,
+            "radiusPlus": 2,
+            "lineWidthPlus": 1
+          },
+          "select": {
+            "fillColor": "#cccccc",
+            "lineColor": "#000000",
+            "lineWidth": 2
+          }
+        }
+      },
+      "point": {
+        "events": {}
+      },
+      "dataLabels": {
+        "align": "center",
+        "formatter": function () {return null===this.y?"":a.numberFormat(this.y,-1);},
+        "style": {
+          "fontSize": "11px",
+          "fontWeight": "bold",
+          "color": "contrast",
+          "textOutline": "1px contrast"
+        },
+        "verticalAlign": "bottom",
+        "x": 0,
+        "y": 0,
+        "padding": 5
+      },
+      "cropThreshold": 300,
+      "pointRange": 0,
+      "softThreshold": false,
+      "states": {
+        "hover": {
+          "animation": {
+            "duration": 50
+          },
+          "lineWidthPlus": 1,
+          "marker": {},
+          "halo": {
+            "size": 10,
+            "opacity": 0.25
+          }
+        },
+        "select": {
+          "marker": {}
+        }
+      },
+      "stickyTracking": true,
+      "turboThreshold": 1000,
+      "findNearestPointBy": "x",
+      "threshold": 0
+    },
+    "column": {
+      "lineWidth": 2,
+      "allowPointSelect": false,
+      "showCheckbox": false,
+      "animation": {
+        "duration": 1000
+      },
+      "events": {},
+      "marker": null,
+      "point": {
+        "events": {}
+      },
+      "dataLabels": {
+        "align": null,
+        "formatter": function () {return null===this.y?"":a.numberFormat(this.y,-1);},
+        "style": {
+          "fontSize": "11px",
+          "fontWeight": "bold",
+          "color": "contrast",
+          "textOutline": "1px contrast"
+        },
+        "verticalAlign": null,
+        "x": 0,
+        "y": null,
+        "padding": 5
+      },
+      "cropThreshold": 50,
+      "pointRange": null,
+      "softThreshold": false,
+      "states": {
+        "hover": {
+          "animation": {
+            "duration": 50
+          },
+          "lineWidthPlus": 1,
+          "marker": {},
+          "halo": false,
+          "brightness": 0.1,
+          "shadow": false
+        },
+        "select": {
+          "marker": {},
+          "color": "#cccccc",
+          "borderColor": "#000000",
+          "shadow": false
+        }
+      },
+      "stickyTracking": false,
+      "turboThreshold": 1000,
+      "findNearestPointBy": "x",
+      "borderRadius": 0,
+      "crisp": true,
+      "groupPadding": 0.2,
+      "pointPadding": 0.1,
+      "minPointLength": 0,
+      "startFromThreshold": true,
+      "tooltip": {},
+      "threshold": 0,
+      "borderColor": "#ffffff",
+      "pointPlacement": null
+    },
+    "bar": {
+      "lineWidth": 2,
+      "allowPointSelect": false,
+      "showCheckbox": false,
+      "animation": {
+        "duration": 1000
+      },
+      "events": {},
+      "marker": null,
+      "point": {
+        "events": {}
+      },
+      "dataLabels": {
+        "align": null,
+        "formatter": function () {return null===this.y?"":a.numberFormat(this.y,-1);},
+        "style": {
+          "fontSize": "11px",
+          "fontWeight": "bold",
+          "color": "contrast",
+          "textOutline": "1px contrast"
+        },
+        "verticalAlign": null,
+        "x": 0,
+        "y": null,
+        "padding": 5,
+        "enabled": true
+      },
+      "cropThreshold": 50,
+      "pointRange": null,
+      "softThreshold": false,
+      "states": {
+        "hover": {
+          "animation": {
+            "duration": 50
+          },
+          "lineWidthPlus": 1,
+          "marker": {},
+          "halo": false,
+          "brightness": 0.1,
+          "shadow": false
+        },
+        "select": {
+          "marker": {},
+          "color": "#cccccc",
+          "borderColor": "#000000",
+          "shadow": false
+        }
+      },
+      "stickyTracking": false,
+      "turboThreshold": 1000,
+      "findNearestPointBy": "x",
+      "borderRadius": 0,
+      "crisp": true,
+      "groupPadding": 0.2,
+      "pointPadding": 0.1,
+      "minPointLength": 0,
+      "startFromThreshold": true,
+      "tooltip": {},
+      "threshold": 0,
+      "borderColor": "#ffffff"
+    },
+    "scatter": {
+      "lineWidth": 0,
+      "allowPointSelect": false,
+      "showCheckbox": false,
+      "animation": {
+        "duration": 1000
+      },
+      "events": {},
+      "marker": {
+        "lineWidth": 0,
+        "lineColor": "#ffffff",
+        "radius": 4,
+        "states": {
+          "hover": {
+            "animation": {
+              "duration": 50
+            },
+            "enabled": true,
+            "radiusPlus": 2,
+            "lineWidthPlus": 1
+          },
+          "select": {
+            "fillColor": "#cccccc",
+            "lineColor": "#000000",
+            "lineWidth": 2
+          }
+        },
+        "enabled": true
+      },
+      "point": {
+        "events": {}
+      },
+      "dataLabels": {
+        "align": "center",
+        "formatter": function () {return null===this.y?"":a.numberFormat(this.y,-1);},
+        "style": {
+          "fontSize": "11px",
+          "fontWeight": "bold",
+          "color": "contrast",
+          "textOutline": "1px contrast"
+        },
+        "verticalAlign": "bottom",
+        "x": 0,
+        "y": 0,
+        "padding": 5
+      },
+      "cropThreshold": 300,
+      "pointRange": 0,
+      "softThreshold": true,
+      "states": {
+        "hover": {
+          "animation": {
+            "duration": 50
+          },
+          "lineWidthPlus": 1,
+          "marker": {},
+          "halo": {
+            "size": 10,
+            "opacity": 0.25
+          }
+        },
+        "select": {
+          "marker": {}
+        }
+      },
+      "stickyTracking": true,
+      "turboThreshold": 1000,
+      "findNearestPointBy": "xy"
+    },
+    "pie": {
+      "lineWidth": 2,
+      "allowPointSelect": false,
+      "showCheckbox": false,
+      "animation": {
+        "duration": 1000
+      },
+      "events": {},
+      "marker": null,
+      "point": {
+        "events": {}
+      },
+      "dataLabels": {
+        "align": "center",
+        "formatter": function () {return this.point.isNull?void 0:this.point.name;},
+        "style": {
+          "fontSize": "11px",
+          "fontWeight": "bold",
+          "color": "contrast",
+          "textOutline": "1px contrast"
+        },
+        "verticalAlign": "bottom",
+        "x": 0,
+        "y": 0,
+        "padding": 5,
+        "distance": 30,
+        "enabled": true
+      },
+      "cropThreshold": 300,
+      "pointRange": 0,
+      "softThreshold": true,
+      "states": {
+        "hover": {
+          "animation": {
+            "duration": 50
+          },
+          "lineWidthPlus": 1,
+          "marker": {},
+          "halo": {
+            "size": 10,
+            "opacity": 0.25
+          },
+          "brightness": 0.1,
+          "shadow": false
+        },
+        "select": {
+          "marker": {}
+        }
+      },
+      "stickyTracking": false,
+      "turboThreshold": 1000,
+      "findNearestPointBy": "x",
+      "center": [
+        null,
+        null
+      ],
+      "clip": false,
+      "colorByPoint": true,
+      "ignoreHiddenPoint": true,
+      "legendType": "point",
+      "size": null,
+      "showInLegend": false,
+      "slicedOffset": 10,
+      "borderColor": "#ffffff",
+      "borderWidth": 1
+    },
+    "ohlc": {
+      "lineWidth": 1,
+      "allowPointSelect": false,
+      "showCheckbox": false,
+      "animation": {
+        "duration": 1000
+      },
+      "events": {},
+      "marker": null,
+      "point": {
+        "events": {}
+      },
+      "dataLabels": {
+        "align": null,
+        "formatter": function () {return null===this.y?"":a.numberFormat(this.y,-1);},
+        "style": {
+          "fontSize": "11px",
+          "fontWeight": "bold",
+          "color": "contrast",
+          "textOutline": "1px contrast"
+        },
+        "verticalAlign": null,
+        "x": 0,
+        "y": null,
+        "padding": 5
+      },
+      "cropThreshold": 50,
+      "pointRange": null,
+      "softThreshold": false,
+      "states": {
+        "hover": {
+          "animation": {
+            "duration": 50
+          },
+          "lineWidthPlus": 1,
+          "marker": {},
+          "halo": false,
+          "brightness": 0.1,
+          "shadow": false,
+          "lineWidth": 3
+        },
+        "select": {
+          "marker": {},
+          "color": "#cccccc",
+          "borderColor": "#000000",
+          "shadow": false
+        }
+      },
+      "stickyTracking": true,
+      "turboThreshold": 1000,
+      "findNearestPointBy": "x",
+      "borderRadius": 0,
+      "crisp": true,
+      "groupPadding": 0.2,
+      "pointPadding": 0.1,
+      "minPointLength": 0,
+      "startFromThreshold": true,
+      "threshold": null,
+      "borderColor": "#ffffff"
+    },
+    "candlestick": {
+      "lineWidth": 1,
+      "allowPointSelect": false,
+      "showCheckbox": false,
+      "animation": {
+        "duration": 1000
+      },
+      "events": {},
+      "marker": null,
+      "point": {
+        "events": {}
+      },
+      "dataLabels": {
+        "align": null,
+        "formatter": function () {return null===this.y?"":a.numberFormat(this.y,-1);},
+        "style": {
+          "fontSize": "11px",
+          "fontWeight": "bold",
+          "color": "contrast",
+          "textOutline": "1px contrast"
+        },
+        "verticalAlign": null,
+        "x": 0,
+        "y": null,
+        "padding": 5
+      },
+      "cropThreshold": 50,
+      "pointRange": null,
+      "softThreshold": false,
+      "states": {
+        "hover": {
+          "animation": {
+            "duration": 50
+          },
+          "lineWidthPlus": 1,
+          "marker": {},
+          "halo": false,
+          "brightness": 0.1,
+          "shadow": false,
+          "lineWidth": 2
+        },
+        "select": {
+          "marker": {},
+          "color": "#cccccc",
+          "borderColor": "#000000",
+          "shadow": false
+        }
+      },
+      "stickyTracking": true,
+      "turboThreshold": 1000,
+      "findNearestPointBy": "x",
+      "borderRadius": 0,
+      "crisp": true,
+      "groupPadding": 0.2,
+      "pointPadding": 0.1,
+      "minPointLength": 0,
+      "startFromThreshold": true,
+      "threshold": null,
+      "borderColor": "#ffffff",
+      "lineColor": "#000000",
+      "upColor": "#ffffff"
+    },
+    "flags": {
+      "lineWidth": 1,
+      "allowPointSelect": false,
+      "showCheckbox": false,
+      "animation": {
+        "duration": 1000
+      },
+      "events": {},
+      "marker": null,
+      "point": {
+        "events": {}
+      },
+      "dataLabels": {
+        "align": null,
+        "formatter": function () {return null===this.y?"":a.numberFormat(this.y,-1);},
+        "style": {
+          "fontSize": "11px",
+          "fontWeight": "bold",
+          "color": "contrast",
+          "textOutline": "1px contrast"
+        },
+        "verticalAlign": null,
+        "x": 0,
+        "y": null,
+        "padding": 5
+      },
+      "cropThreshold": 50,
+      "pointRange": 0,
+      "softThreshold": false,
+      "states": {
+        "hover": {
+          "animation": {
+            "duration": 50
+          },
+          "lineWidthPlus": 1,
+          "marker": {},
+          "halo": false,
+          "brightness": 0.1,
+          "shadow": false,
+          "lineColor": "#000000",
+          "fillColor": "#ccd6eb"
+        },
+        "select": {
+          "marker": {},
+          "color": "#cccccc",
+          "borderColor": "#000000",
+          "shadow": false
+        }
+      },
+      "stickyTracking": false,
+      "turboThreshold": 1000,
+      "findNearestPointBy": "x",
+      "borderRadius": 0,
+      "crisp": true,
+      "groupPadding": 0.2,
+      "pointPadding": 0.1,
+      "minPointLength": 0,
+      "startFromThreshold": true,
+      "threshold": null,
+      "borderColor": "#ffffff",
+      "shape": "flag",
+      "stackDistance": 12,
+      "textAlign": "center",
+      "y": -30,
+      "fillColor": "#ffffff",
+      "style": {
+        "fontSize": "11px",
+        "fontWeight": "bold"
+      }
+    },
+    "series": {
+      "stacking": "normal",
+      "connectNulls": true,
+      "stickyTracking": false,
+      "borderWidth": 0,
+      "marker": {
+        "enabled": "0",
+        "radius": 3
+      },
+      "tooltip": {}
+    }
+  },
+  "labels": {
+    "style": {
+      "position": "absolute",
+      "color": "#333333"
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "align": "left",
+    "layout": "horizontal",
+    "labelFormatter": function () { return this.name.replace(/(BS|BL|BS&BL|UBB|OBB): /, '');},
+    "borderColor": "#999999",
+    "borderRadius": 0,
+    "navigation": {
+      "activeColor": "#003399",
+      "inactiveColor": "#cccccc"
+    },
+    "itemStyle": {
+      "color": "#333333",
+      "fontSize": "1em",
+      "fontWeight": "normal",
+      "textOverflow": "ellipsis",
+      "cursor": "pointer"
+    },
+    "itemHoverStyle": {
+      "color": "#000000"
+    },
+    "itemHiddenStyle": {
+      "color": "#cccccc"
+    },
+    "shadow": false,
+    "itemCheckboxStyle": {
+      "position": "absolute",
+      "width": "13px",
+      "height": "13px"
+    },
+    "squareSymbol": true,
+    "symbolPadding": 5,
+    "verticalAlign": "top",
+    "x": 0,
+    "y": 30,
+    "title": {
+      "style": {
+        "fontWeight": "bold"
+      }
+    },
+    "floating": false,
+    "padding": 12,
+    "borderWidth": 0,
+    "backgroundColor": "none",
+    "itemMarginBottom": 5,
+    "symbolRadius": 0
+  },
+  "loading": {
+    "labelStyle": {
+      "fontWeight": "bold",
+      "position": "relative",
+      "top": "45%"
+    },
+    "style": {
+      "position": "absolute",
+      "backgroundColor": "#ffffff",
+      "opacity": 0.5,
+      "textAlign": "center"
+    }
+  },
+  "tooltip": {
+    "enabled": true,
+    "animation": true,
+    "borderRadius": 3,
+    "dateTimeLabelFormats": {
+      "millisecond": "%A, %b %e, %H:%M:%S.%L",
+      "second": "%A, %b %e, %H:%M:%S",
+      "minute": "%A, %b %e, %H:%M",
+      "hour": "%A, %b %e, %H:%M",
+      "day": "%A, %b %e, %Y",
+      "week": "Week from %A, %b %e, %Y",
+      "month": "%B %Y",
+      "year": "%Y"
+    },
+    "footerFormat": "",
+    "padding": 8,
+    "snap": 10,
+    "backgroundColor": "rgba(247,247,247,0.85)",
+    "borderWidth": 1,
+    "headerFormat": "\u003Cspan style=\"width: 80px\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style=\"padding-left: 15px; line-height: 1.4em;\"\u003E{point.key}:",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E GWh (von {point.stackTotal: ,2f})\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
+    "shadow": true,
+    "style": {
+      "color": "#333333",
+      "cursor": "default",
+      "fontSize": "1em",
+      "pointerEvents": "none",
+      "whiteSpace": "nowrap"
+    },
+    "hideDelay": 200,
+    "useHTML": true,
+    "userOptions": {
+      "style": {
+        "fontSize": "1em"
+      },
+      "hideDelay": 200,
+      "headerFormat": "\u003Cspan style=\"width: 80px\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style=\"padding-left: 15px; line-height: 1.4em;\"\u003E{point.key}:",
+      "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E GWh (von {point.stackTotal: ,2f})\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
+      "footerFormat": "",
+      "useHTML": true
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "href": "http:\u002F\u002Fwww.highcharts.com",
+    "position": {
+      "align": "left",
+      "x": 10,
+      "verticalAlign": "bottom",
+      "y": -15
+    },
+    "style": {
+      "cursor": "default",
+      "color": "#000000",
+      "fontSize": "0.8em",
+      "width": "465px",
+      "fill": "#000000"
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt; Statistisches Amt Basel-Landschaft"
+  },
+  "scrollbar": {
+    "height": 14,
+    "barBorderRadius": 0,
+    "buttonBorderRadius": 0,
+    "liveRedraw": true,
+    "margin": 10,
+    "minWidth": 6,
+    "step": 0.2,
+    "zIndex": 3,
+    "barBackgroundColor": "#cccccc",
+    "barBorderWidth": 1,
+    "barBorderColor": "#cccccc",
+    "buttonArrowColor": "#333333",
+    "buttonBackgroundColor": "#e6e6e6",
+    "buttonBorderColor": "#cccccc",
+    "buttonBorderWidth": 1,
+    "rifleColor": "#333333",
+    "trackBackgroundColor": "#f2f2f2",
+    "trackBorderColor": "#f2f2f2",
+    "trackBorderWidth": 1,
+    "enabled": false
+  },
+  "navigator": {
+    "height": 40,
+    "margin": 25,
+    "maskInside": true,
+    "handles": {
+      "backgroundColor": "#f2f2f2",
+      "borderColor": "#999999"
+    },
+    "maskFill": "rgba(102,133,194,0.3)",
+    "outlineColor": "#cccccc",
+    "outlineWidth": 1,
+    "series": [
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#73B97C"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#68AB2B"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#007A2F"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#0A3B19"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#FFDA80"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#FABD24"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#73B97C"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#68AB2B"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#007A2F"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#0A3B19"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#FFDA80"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "column",
+        "color": "#FABD24"
+      }
+    ],
+    "xAxis": {
+      "className": "highcharts-navigator-xaxis",
+      "tickLength": 0,
+      "lineWidth": 0,
+      "gridLineColor": "#e6e6e6",
+      "gridLineWidth": 0,
+      "tickPixelInterval": 200,
+      "labels": {
+        "align": "left",
+        "style": {
+          "color": "#999999"
+        },
+        "x": 3,
+        "y": -4,
+        "enabled": false
+      },
+      "crosshair": false
+    },
+    "yAxis": {
+      "className": "highcharts-navigator-yaxis",
+      "gridLineWidth": 0,
+      "startOnTick": false,
+      "endOnTick": false,
+      "minPadding": 0.1,
+      "maxPadding": 0.1,
+      "labels": {
+        "enabled": false
+      },
+      "crosshair": false,
+      "title": {
+        "text": null
+      },
+      "tickLength": 0,
+      "tickWidth": 0
+    },
+    "enabled": false
+  },
+  "rangeSelector": {
+    "buttonTheme": {
+      "stroke-width": 0,
+      "width": 28,
+      "height": 18,
+      "padding": 2,
+      "zIndex": 7
+    },
+    "height": 35,
+    "inputPosition": {
+      "align": "right"
+    },
+    "labelStyle": {
+      "color": "#666666"
+    },
+    "enabled": false
+  },
+  "navigation": {
+    "buttonOptions": {
+      "theme": {
+        "fill": "#ffffff",
+        "stroke": "#eee",
+        "padding": 5,
+        "stroke-width": 1,
+        "r": 3,
+        "states": {
+          "hover": {
+            "fill": "#ddd"
+          },
+          "select": {
+            "stroke": "#444",
+            "fill": "#ddd"
+          }
+        }
+      },
+      "symbolSize": 14,
+      "symbolX": 12.5,
+      "symbolY": 10.5,
+      "align": "right",
+      "buttonSpacing": 3,
+      "height": 22,
+      "verticalAlign": "top",
+      "width": 24,
+      "symbolFill": "#666666",
+      "symbolStroke": "#666666",
+      "symbolStrokeWidth": 3
+    },
+    "menuStyle": {
+      "border": "1px solid #999999",
+      "background": "#ffffff",
+      "padding": "5px 0"
+    },
+    "menuItemStyle": {
+      "padding": "3px 12px",
+      "background": "none",
+      "color": "#333333",
+      "fontSize": "11px",
+      "transition": "background 250ms, color 250ms"
+    },
+    "menuItemHoverStyle": {
+      "background": "#335cad",
+      "color": "#ffffff"
+    }
+  },
+  "exporting": {
+    "type": "image\u002Fpng",
+    "url": "https:\u002F\u002Fexport.highcharts.com\u002F",
+    "printMaxWidth": 780,
+    "scale": 3,
+    "buttons": {
+      "contextButton": {
+        "className": "highcharts-contextbutton",
+        "menuClassName": "highcharts-contextmenu",
+        "symbol": "menu",
+        "_titleKey": "contextButtonTitle",
+        "menuItems": [
+          {
+            "textKey": "printChart",
+            "onclick": function () {this.print();}
+          },
+          {
+            "separator": true
+          },
+          {
+            "textKey": "downloadPNG",
+            "onclick": function () {this.exportChart();}
+          },
+          {
+            "textKey": "downloadJPEG",
+            "onclick": function () {this.exportChart({type:"image/jpeg"});}
+          },
+          {
+            "textKey": "downloadPDF",
+            "onclick": function () {this.exportChart({type:"application/pdf"});}
+          },
+          {
+            "textKey": "downloadSVG",
+            "onclick": function () {this.exportChart({type:"image/svg+xml"});}
+          },
+          {
+            "textKey": "downloadCSV",
+            "onclick": function () { this.downloadCSV(); }
+          },
+          {
+            "textKey": "downloadXLS",
+            "onclick": function () { this.downloadXLS(); }
+          },
+          {
+            "text": "Diagramm in neuem Fenster",
+            "onclick": function () {window.open("?format=chart&i=0602");}
+          },
+          {
+            "separator": true
+          },
+          {
+            "text": "Anleitung",
+            "onclick": function () {tour.start(true);}
+          }
+        ]
+      }
+    },
+    "enabled": true,
+    "filename": "Bruttoenergieverbrauch nach Energieträger",
+    "csv": {
+      "dateFormat": " "
+    }
+  },
+  "xAxis": [
+    {
+      "categories": [
+        1990,
+        1995,
+        2000,
+        2002,
+        2004,
+        2006,
+        2010,
+        2012,
+        2014
+      ],
+      "tickLength": 0,
+      "title": {
+        "enabled": false,
+        "text": "Jahr"
+      },
+      "labels": {
+        "style": {
+          "fontSize": "0.9em",
+          "color": "#000000"
+        }
+      },
+      "range": false,
+      "type": "linear",
+      "index": 0,
+      "isX": true
+    }
+  ],
+  "yAxis": [
+    {
+      "min": 0,
+      "title": {
+        "enabled": true,
+        "text": "",
+        "style": {
+          "fontSize": "0.9em",
+          "color": "#000000"
+        },
+        "align": "middle"
+      },
+      "labels": {
+        "enabled": true,
+        "overflow": "justify",
+        "style": {
+          "fontSize": "0.9em",
+          "color": "#000000"
+        },
+        "formatter": function () {
+						  /* workaround: add Suffix if necessary. get the already formatted string (e.g. thousands separator included) and add suffix. format: '{value:,.0f}' doesn't work with string-labels (e.g. 1613). BL/22.3.2017 */
+						  return this.axis.defaultLabelFormatter.call(this) + '';
+						}
+      },
+      "stackLabels": {
+        "enabled": true,
+        "style": {
+          "fontSize": "0.8em",
+          "fontWeight": "normal"
+        },
+        "formatter": function () { return this.stack; }
+      },
+      "index": 0
+    },
+    {
+      "opposite": true,
+      "min": 0,
+      "title": {
+        "enabled": true,
+        "text": "",
+        "style": {
+          "fontSize": "0.9em",
+          "color": "#000000"
+        },
+        "align": "middle"
+      },
+      "labels": {
+        "enabled": true,
+        "overflow": "justify",
+        "style": {
+          "fontSize": "0.9em",
+          "color": "#000000"
+        }
+      },
+      "index": 1
+    }
+  ],
+  "series": [
+    {
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BS",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BS: Heizöl (inkl. Flüssiggas)",
+      "color": "#73B97C",
+      "id": "BS0602_1",
+      "valueSuffix": "Gigawattstunden",
+      "data": [
+        [
+          1990,
+          null
+        ],
+        [
+          1995,
+          1666
+        ],
+        [
+          2000,
+          1459
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2004,
+          1189
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2010,
+          550.9
+        ],
+        [
+          2012,
+          479.9
+        ],
+        [
+          2014,
+          394.8
+        ]
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BS",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BS: Treibstoffe",
+      "color": "#68AB2B",
+      "id": "BS0602_2",
+      "valueSuffix": "Gigawattstunden",
+      "data": [
+        [
+          1990,
+          null
+        ],
+        [
+          1995,
+          629
+        ],
+        [
+          2000,
+          726
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2004,
+          756
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2010,
+          768.6
+        ],
+        [
+          2012,
+          740.6
+        ],
+        [
+          2014,
+          734.6
+        ]
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BS",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BS: Erdgas",
+      "color": "#007A2F",
+      "id": "BS0602_3",
+      "valueSuffix": "Gigawattstunden",
+      "data": [
+        [
+          1990,
+          null
+        ],
+        [
+          1995,
+          1911
+        ],
+        [
+          2000,
+          1855
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2004,
+          2018.6
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2010,
+          1956.7
+        ],
+        [
+          2012,
+          1713.5
+        ],
+        [
+          2014,
+          1417.1
+        ]
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BS",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BS: Elektrizität",
+      "color": "#0A3B19",
+      "id": "BS0602_4",
+      "valueSuffix": "Gigawattstunden",
+      "data": [
+        [
+          1990,
+          null
+        ],
+        [
+          1995,
+          1413
+        ],
+        [
+          2000,
+          1457
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2004,
+          1572
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2010,
+          1287.2
+        ],
+        [
+          2012,
+          1136.7
+        ],
+        [
+          2014,
+          978.4
+        ]
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BS",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BS: Kehricht, Industrieabfall",
+      "color": "#FFDA80",
+      "id": "BS0602_5",
+      "valueSuffix": "Gigawattstunden",
+      "data": [
+        [
+          1990,
+          null
+        ],
+        [
+          1995,
+          643
+        ],
+        [
+          2000,
+          665
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2004,
+          568.1
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2010,
+          800.2
+        ],
+        [
+          2012,
+          836
+        ],
+        [
+          2014,
+          845.2
+        ]
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BS",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BS: Erneuerbare Energieträger",
+      "color": "#FABD24",
+      "id": "BS0602_6",
+      "valueSuffix": "Gigawattstunden",
+      "data": [
+        [
+          1990,
+          null
+        ],
+        [
+          1995,
+          241.1
+        ],
+        [
+          2000,
+          239
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2004,
+          272.3
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2010,
+          376.3
+        ],
+        [
+          2012,
+          439.1
+        ],
+        [
+          2014,
+          503.7
+        ]
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BL",
+      "linkedTo": "BS0602_1",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BL: Heizöl (inkl. Flüssiggas)",
+      "color": "#73B97C",
+      "id": "BL0602_7",
+      "valueSuffix": "Gigawattstunden",
+      "data": [
+        [
+          1990,
+          3251
+        ],
+        [
+          1995,
+          2446.4
+        ],
+        [
+          2000,
+          2032.4
+        ],
+        [
+          2002,
+          2033
+        ],
+        [
+          2004,
+          2127
+        ],
+        [
+          2006,
+          2143
+        ],
+        [
+          2010,
+          2009.4
+        ],
+        [
+          2012,
+          1591
+        ],
+        [
+          2014,
+          1438.5
+        ]
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BL",
+      "linkedTo": "BS0602_2",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BL: Treibstoffe",
+      "color": "#68AB2B",
+      "id": "BL0602_8",
+      "valueSuffix": "Gigawattstunden",
+      "data": [
+        [
+          1990,
+          1690
+        ],
+        [
+          1995,
+          1813
+        ],
+        [
+          2000,
+          1934
+        ],
+        [
+          2002,
+          1905
+        ],
+        [
+          2004,
+          1884
+        ],
+        [
+          2006,
+          1884
+        ],
+        [
+          2010,
+          1844.2
+        ],
+        [
+          2012,
+          1820.8
+        ],
+        [
+          2014,
+          1807.8
+        ]
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BL",
+      "linkedTo": "BS0602_3",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BL: Erdgas",
+      "color": "#007A2F",
+      "id": "BL0602_9",
+      "valueSuffix": "Gigawattstunden",
+      "data": [
+        [
+          1990,
+          785.3
+        ],
+        [
+          1995,
+          1504.4
+        ],
+        [
+          2000,
+          1652.8
+        ],
+        [
+          2002,
+          1707
+        ],
+        [
+          2004,
+          1617
+        ],
+        [
+          2006,
+          1671
+        ],
+        [
+          2010,
+          1683.9
+        ],
+        [
+          2012,
+          1561.6
+        ],
+        [
+          2014,
+          1546.2
+        ]
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BL",
+      "linkedTo": "BS0602_4",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BL: Elektrizität",
+      "color": "#0A3B19",
+      "id": "BL0602_10",
+      "valueSuffix": "Gigawattstunden",
+      "data": [
+        [
+          1990,
+          1375.1
+        ],
+        [
+          1995,
+          1292.2
+        ],
+        [
+          2000,
+          1327.3
+        ],
+        [
+          2002,
+          1385
+        ],
+        [
+          2004,
+          1454
+        ],
+        [
+          2006,
+          1531
+        ],
+        [
+          2010,
+          1639.2
+        ],
+        [
+          2012,
+          1603.5
+        ],
+        [
+          2014,
+          1537.1
+        ]
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BL",
+      "linkedTo": "BS0602_5",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BL: Kehricht, Industrieabfall",
+      "color": "#FFDA80",
+      "id": "BL0602_11",
+      "valueSuffix": "Gigawattstunden",
+      "data": [
+        [
+          1990,
+          112.8
+        ],
+        [
+          1995,
+          397.4
+        ],
+        [
+          2000,
+          586
+        ],
+        [
+          2002,
+          554
+        ],
+        [
+          2004,
+          520
+        ],
+        [
+          2006,
+          515
+        ],
+        [
+          2010,
+          421.8
+        ],
+        [
+          2012,
+          432.9
+        ],
+        [
+          2014,
+          452.3
+        ]
+      ]
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BL",
+      "linkedTo": "BS0602_6",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "BL: Erneuerbare Energieträger",
+      "color": "#FABD24",
+      "id": "BL0602_12",
+      "valueSuffix": "Gigawattstunden",
+      "data": [
+        [
+          1990,
+          455.4
+        ],
+        [
+          1995,
+          568.8
+        ],
+        [
+          2000,
+          644.5
+        ],
+        [
+          2002,
+          616
+        ],
+        [
+          2004,
+          614
+        ],
+        [
+          2006,
+          622
+        ],
+        [
+          2010,
+          679.2
+        ],
+        [
+          2012,
+          803.1
+        ],
+        [
+          2014,
+          820.2
+        ]
+      ]
+    }
+  ]
+}

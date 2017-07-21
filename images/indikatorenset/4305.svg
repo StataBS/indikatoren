@@ -1,0 +1,100 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h425v254H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M50 90h425v254H50z"/>
+    <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
+        <tspan>&gt; Indikator-Details</tspan>
+    </text>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M110.5 90v254m0-254v254m60-254v254m0-254v254m61-254v254m0-254v254m61-254v254m0-254v254m61-254v254m0-254v254m60-254v254m0-254v254m61-254v254m0-254v254M49.5 90v254m0-254v254"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M50 344.5h425m-425-63h425m-425-64h425m-425-63h425m-425-65h425"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M50 90h425v254H50z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M50 344.5h425"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M50 90v254"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M475 90v254"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(50 90)" clip-path="url(#a)">
+            <path fill="#FF8028" class="highcharts-point" d="M14 253h15v2H14zm61 0h15v2H75zm60 0h15v2h-15zm61 0h15v2h-15zm61 0h15v2h-15zm61 0h15v2h-15zm60 0h15v2h-15z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(50 90)" clip-path="url(#a)">
+            <path fill="#B375AB" class="highcharts-point" d="M32 65h15v190H32zm61-8h15v198H93zm61-8h15v206h-15zm60-2h15v208h-15zm61-5h15v213h-15zm61-3h15v216h-15zm60-2h15v218h-15z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
+        <tspan>Kantonale Unterschutzstellungen</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
+        <tspan>Prozent (der Kantonsfläche)</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(10 40)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="323" height="38"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
+                <tspan>Kanton Basel-Stadt</tspan>
+            </text>
+            <path fill="#FF8028" class="highcharts-point" d="M14 11h12v12H14z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(156.328 7)">
+                <tspan>Kanton Basel-Landschaft</tspan>
+            </text>
+            <path fill="#B375AB" class="highcharts-point" d="M158.328 11h12v12h-12z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
+        <text x="80.357" y="363">
+            2010
+        </text>
+        <text x="141.071" y="363">
+            2011
+        </text>
+        <text x="201.786" y="363">
+            2012
+        </text>
+        <text x="262.5" y="363">
+            2013
+        </text>
+        <text x="323.214" y="363">
+            2014
+        </text>
+        <text x="383.929" y="363">
+            2015
+        </text>
+        <text x="444.643" y="363">
+            2016
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="35" y="349">
+            <tspan>0%</tspan>
+        </text>
+        <text x="35" y="285">
+            <tspan>2.5%</tspan>
+        </text>
+        <text x="35" y="222">
+            <tspan>5%</tspan>
+        </text>
+        <text x="35" y="158">
+            <tspan>7.5%</tspan>
+        </text>
+        <text x="35" y="95">
+            <tspan>10%</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
+        <tspan>Quelle: Stadtgärtnerei Basel-Stadt; Landwirtschaftliches Zentrum Ebenrain</tspan>
+    </text>
+</svg>

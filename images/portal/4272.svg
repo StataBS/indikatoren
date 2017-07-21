@@ -1,0 +1,88 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h429v254H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M46 90h429v254H46z"/>
+    <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
+        <tspan>&gt; Indikator-Details</tspan>
+    </text>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M117.5 90v254m0-254v254m71-254v254m0-254v254m72-254v254m0-254v254m71-254v254m0-254v254m72-254v254m0-254v254m71-254v254m0-254v254M45.5 90v254m0-254v254"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M46 344.5h429m-429-63h429m-429-64h429m-429-63h429m-429-65h429"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M46 90h429v254H46z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M46 344.5h429"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M46 90v254"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M475 90v254"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(46 90)" clip-path="url(#a)">
+            <path fill="#73B97C" class="highcharts-point" d="M19 54h35v201H19zm71 34h35v167H90zm72 30h35v137h-35zm71 18h35v119h-35zm72 27h35v92h-35zm71 18h35v74h-35z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
+        <tspan>Stickoxid-Emissionen</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
+        <tspan>Tonnen</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(10 40)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="274" height="38"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
+                <tspan>Kantone Basel-Stadt und Basel-Landschaft</tspan>
+            </text>
+            <path fill="#73B97C" class="highcharts-point" d="M14 11h12v12H14z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
+        <text x="81.75" y="363">
+            1990
+        </text>
+        <text x="153.25" y="363">
+            1995
+        </text>
+        <text x="224.75" y="363">
+            2000
+        </text>
+        <text x="296.25" y="363">
+            2005
+        </text>
+        <text x="367.75" y="363">
+            2010
+        </text>
+        <text x="439.25" y="363">
+            2015
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="31" y="349">
+            <tspan>0</tspan>
+        </text>
+        <text x="31" y="285">
+            <tspan>2.5k</tspan>
+        </text>
+        <text x="31" y="222">
+            <tspan>5k</tspan>
+        </text>
+        <text x="31" y="158">
+            <tspan>7.5k</tspan>
+        </text>
+        <text x="31" y="95">
+            <tspan>10k</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
+        <tspan>Quelle: Lufthygieneamt beider Basel</tspan>
+    </text>
+</svg>

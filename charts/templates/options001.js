@@ -1,6 +1,7 @@
 /*  global Highcharts 
     global $
 */
+
 Highcharts.setOptions({
 	"lang": {
 		"downloadJPEG": "JPEG",
@@ -9,12 +10,13 @@ Highcharts.setOptions({
 		"printChart": "Drucken",
 		"downloadSVG": "SVG",
 		"downloadPNG": "PNG",
-		"decimalPoint": ",",
 		"contextButtonTitle": "Exportieren und drucken",
 		"downloadPDF": "PDF",
 		"downloadCSV": 'CSV',
-		"downloadXLS": 'XLS',		
+		"downloadXLS": 'XLS',
+		"decimalPoint": ",",
         "thousandsSep": " ",
+        numericSymbols: null,
         months: ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'],
         weekdays: ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'],
         shortMonths: ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'],

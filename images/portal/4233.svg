@@ -1,0 +1,164 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h438v162H0z"/>
+        </clipPath>
+        <clipPath id="b">
+            <path fill="none" d="M0 0h410v40H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M37 90h438v162H37z"/>
+    <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
+        <tspan>&gt; Indikator-Details</tspan>
+    </text>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M53.5 90v162m0-162v162m30-162v162m0-162v162m29-162v162m0-162v162m30-162v162m0-162v162m29-162v162m0-162v162m30-162v162m0-162v162m29-162v162m0-162v162m30-162v162m0-162v162m29-162v162m0-162v162m30-162v162m0-162v162m30-162v162m0-162v162m29-162v162m0-162v162m30-162v162m0-162v162m29-162v162m0-162v162m30-162v162m0-162v162"/>
+    </g>
+    <g class="highcharts-grid highcharts-xaxis-grid highcharts-navigator-xaxis">
+        <path fill="none" class="highcharts-grid-line" d="M50.5 311v40m195-40v40m195-40v40"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M37 252.5h438m-438-54h438m-438-54h438m-438-55h438"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid highcharts-navigator-yaxis">
+        <path fill="none" class="highcharts-grid-line" d="M51 344.5h410m-410-27h410"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M37 90h438v162H37z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M37 252.5h438"/>
+    </g>
+    <g class="highcharts-axis highcharts-xaxis highcharts-navigator-xaxis">
+        <path fill="none" class="highcharts-axis-line" d="M51 351h410"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M37 90v162"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M475 90v162"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis highcharts-navigator-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M37 311v40"/>
+    </g>
+    <g class="highcharts-scrollbar" transform="translate(37 352)">
+        <rect fill="#f2f2f2" class="highcharts-scrollbar-track" rx="0" ry="0" height="14" width="438" stroke="#f2f2f2" y="-.5"/>
+        <g transform="translate(144 -.5)">
+            <rect fill="#ccc" class="highcharts-scrollbar-thumb" height="14" width="280" rx="0" ry="0" stroke="#ccc"/>
+            <path fill="none" d="M136.5 3.5v5.833m3-5.833v5.833m3-5.833v5.833" class="highcharts-scrollbar-rifles" stroke="#333"/>
+        </g>
+        <rect fill="#e6e6e6" class="highcharts-scrollbar-button" stroke="#ccc" x="-.5" y="-.5" width="14" height="14" rx="0" ry="0"/>
+        <path fill="#333" d="M8 4v6L5 7" class="highcharts-scrollbar-arrow"/>
+        <g transform="translate(424)">
+            <rect fill="#e6e6e6" class="highcharts-scrollbar-button" stroke="#ccc" x="-.5" y="-.5" width="14" height="14" rx="0" ry="0"/>
+            <path fill="#333" d="M6 4v6l3-3" class="highcharts-scrollbar-arrow"/>
+        </g>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(37 90)" clip-path="url(#a)">
+            <path fill="none" d="M31.989 56.7l14.764-4.86 14.764 8.1 14.764-4.32 14.764 5.94 14.764 5.94 14.764-1.08 14.764 2.7 14.764 5.4 14.764-2.16 14.764 3.78 14.764 1.08 14.764 3.24 14.764 4.32 14.764-11.88 14.764 3.24 14.764-4.86 14.765 7.02 14.764 1.08 14.764-1.08 14.764 1.62 14.764.54 14.764-3.78 14.764-1.08 14.764 4.32 14.764-.54 14.764 2.16 14.764-3.78" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M21.989 56.7h10l14.764-4.86 14.764 8.1 14.764-4.32 14.764 5.94 14.764 5.94 14.764-1.08 14.764 2.7 14.764 5.4 14.764-2.16 14.764 3.78 14.764 1.08 14.764 3.24 14.764 4.32 14.764-11.88 14.764 3.24 14.764-4.86 14.765 7.02 14.764 1.08 14.764-1.08 14.764 1.62 14.764.54 14.764-3.78 14.764-1.08 14.764 4.32 14.764-.54 14.764 2.16 14.764-3.78h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(37 90)" clip-path="url(#a)">
+            <path fill="none" d="M-189.472 76.68l14.764 1.62 14.764-4.86 14.764 7.02h14.764l14.764-1.08 14.764 1.62 14.764-2.7 14.764-1.08 14.764-4.32h14.765l14.764-1.08 14.764-2.16L2.46 76.14l14.764-.54 14.764-5.94 14.764-3.24 14.764 2.7H76.28l14.764 1.08 14.764-7.56 14.764 5.94 14.764 1.08 14.764-.54 14.764 3.24 14.764 1.62 14.764 1.08 14.764 1.08 14.764-.54 14.764-6.48 14.764 4.32 14.764 1.62 14.765.54 14.764 2.16 14.764 1.08h14.764l14.764-1.62 14.764-.54 14.764 1.62 14.764-.54 14.764 1.08 14.764-3.78" class="highcharts-graph" stroke="#B375AB" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-199.472 76.68h10l14.764 1.62 14.764-4.86 14.764 7.02h14.764l14.764-1.08 14.764 1.62 14.764-2.7 14.764-1.08 14.764-4.32h14.765l14.764-1.08 14.764-2.16L2.46 76.14l14.764-.54 14.764-5.94 14.764-3.24 14.764 2.7H76.28l14.764 1.08 14.764-7.56 14.764 5.94 14.764 1.08 14.764-.54 14.764 3.24 14.764 1.62 14.764 1.08 14.764 1.08 14.764-.54 14.764-6.48 14.764 4.32 14.764 1.62 14.765.54 14.764 2.16 14.764 1.08h14.764l14.764-1.62 14.764-.54 14.764 1.62 14.764-.54 14.764 1.08 14.764-3.78h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(51 311)" clip-path="url(#b)">
+            <path fill="none" d="M146.429 8.251l9.761-4.918 9.762 8.197 9.762-4.372 9.762 6.011 9.762 6.011L205 18.087l9.762 2.733 9.762 5.464 9.762-2.186 9.762 3.825 9.762 1.093 9.761 3.28 9.762 4.37 9.762-12.021 9.762 3.278 9.762-4.918 9.762 7.104 9.762 1.093 9.762-1.093 9.762 1.64 9.762.546 9.761-3.825 9.762-1.093 9.762 4.372 9.762-.547 9.762 2.186L410 29.563" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+        </g>
+        <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined" transform="translate(51 311)" clip-path="url(#b)">
+            <path fill="none" d="M0 28.47l9.762 1.64 9.762-4.919 9.762 7.104h9.762l9.762-1.093 9.761 1.64 9.762-2.733 9.762-1.093 9.762-4.371h9.762l9.762-1.093 9.762-2.186 9.762 6.557 9.762-.546 9.762-6.01 9.761-3.28 9.762 2.733h9.762l9.762 1.093 9.762-7.65 9.762 6.01 9.762 1.093 9.762-.546 9.762 3.278 9.762 1.64 9.762 1.093 9.761 1.092 9.762-.546 9.762-6.557 9.762 4.371 9.762 1.64 9.762.546 9.762 2.186 9.762 1.093h9.762l9.762-1.64 9.761-.546 9.762 1.64 9.762-.547 9.762 1.093 9.762-3.825" class="highcharts-graph" stroke="#B375AB" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
+        <tspan>Wasserverbrauch Haushalte und Kleingewerbe</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
+        <tspan>Millionen Kubikmeter</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(10 40)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="323" height="38"/>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
+            <path fill="none" d="M12 18h16" class="highcharts-graph" stroke="#FF8028" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
+                <tspan>Kanton Basel-Stadt</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M156.328 18h16" class="highcharts-graph" stroke="#B375AB" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(156.328 7)">
+                <tspan>Kanton Basel-Landschaft</tspan>
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="57.525" transform="rotate(-45 57.525 270)" y="270">
+            <tspan>1988</tspan>
+        </text>
+        <text x="87.053" transform="rotate(-45 87.053 270)" y="270">
+            <tspan>1990</tspan>
+        </text>
+        <text x="116.581" transform="rotate(-45 116.58 270)" y="270">
+            <tspan>1992</tspan>
+        </text>
+        <text x="146.109" transform="rotate(-45 146.109 270)" y="270">
+            <tspan>1994</tspan>
+        </text>
+        <text x="175.637" transform="rotate(-45 175.637 270)" y="270">
+            <tspan>1996</tspan>
+        </text>
+        <text x="205.165" transform="rotate(-45 205.165 270)" y="270">
+            <tspan>1998</tspan>
+        </text>
+        <text x="234.693" transform="rotate(-45 234.693 270)" y="270">
+            <tspan>2000</tspan>
+        </text>
+        <text x="264.221" transform="rotate(-45 264.221 270)" y="270">
+            <tspan>2002</tspan>
+        </text>
+        <text x="293.749" transform="rotate(-45 293.75 270)" y="270">
+            <tspan>2004</tspan>
+        </text>
+        <text x="323.277" transform="rotate(-45 323.277 270)" y="270">
+            <tspan>2006</tspan>
+        </text>
+        <text x="352.805" transform="rotate(-45 352.805 270)" y="270">
+            <tspan>2008</tspan>
+        </text>
+        <text x="382.334" transform="rotate(-45 382.334 270)" y="270">
+            <tspan>2010</tspan>
+        </text>
+        <text x="411.862" transform="rotate(-45 411.862 270)" y="270">
+            <tspan>2012</tspan>
+        </text>
+        <text x="441.39" transform="rotate(-45 441.39 270)" y="270">
+            <tspan>2014</tspan>
+        </text>
+        <text x="470.918" transform="rotate(-45 470.918 270)" y="270">
+            <tspan>2016</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="22" y="257">
+            <tspan>0</tspan>
+        </text>
+        <text x="22" y="203">
+            <tspan>10</tspan>
+        </text>
+        <text x="22" y="149">
+            <tspan>20</tspan>
+        </text>
+        <text x="22" y="95">
+            <tspan>30</tspan>
+        </text>
+    </g>
+    <g class="highcharts-navigator">
+        <path fill="transparent" class="highcharts-navigator-mask-outside" d="M51 311h130v40H51z"/>
+        <path fill="rgba(102,133,194,0.3)" class="highcharts-navigator-mask-inside" cursor="ew-resize" d="M181 311h280v40H181z"/>
+        <path fill="none" class="highcharts-navigator-outline" stroke="#ccc" d="M37 311.5h143.5v54h280v-54H475m-295 0h281"/>
+        <path fill="#f2f2f2" d="M456.5 323.5h8v15h-8v-15m3 3.5v8m2-8v8" class="highcharts-navigator-handle highcharts-navigator-handle-right" stroke="#999" cursor="ew-resize"/>
+        <path fill="#f2f2f2" d="M176.5 323.5h8v15h-8v-15m3 3.5v8m2-8v8" class="highcharts-navigator-handle highcharts-navigator-handle-left" stroke="#999" cursor="ew-resize"/>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
+        <tspan>Quelle: Industrielle Werke Basel (IWB); Amt für Umweltschutz und Energie Basel-Landschaft</tspan>
+    </text>
+</svg>

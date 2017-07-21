@@ -1,0 +1,130 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h426v254H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M49 90h426v254H49z"/>
+    <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
+        <tspan>&gt; Indikator-Details</tspan>
+    </text>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M84.5 90v254m0-254v254m35-254v254m0-254v254m36-254v254m0-254v254m35-254v254m0-254v254m36-254v254m0-254v254m35-254v254m0-254v254m36-254v254m0-254v254m35-254v254m0-254v254m36-254v254m0-254v254m35-254v254m0-254v254m36-254v254m0-254v254m35-254v254m0-254v254M48.5 90v254m0-254v254"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M49 344.5h426m-426-63h426m-426-64h426m-426-63h426m-426-64h426"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M49 90h426v254H49z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M49 344.5h426"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M49 90v254"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M475 90v254"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 90)" clip-path="url(#a)">
+            <path fill="#73B97C" class="highcharts-point" d="M9 111h18v68H9zm36-6h18v64H45zm35-4h18v66H80zm36-11h18v72h-18zm35-4h18v69h-18zm36-3h18v56h-18zm35-1h18v51h-18zm36-7h18v55h-18zm35-2h18v54h-18zm36 16h18v38h-18zm35-2h18v47h-18zm36 11h18v46h-18z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 90)" clip-path="url(#a)">
+            <path fill="#68AB2B" class="highcharts-point" d="M9 179h18v23H9zm36-10h18v25H45zm35-2h18v25H80zm36-5h18v37h-18zm35-7h18v31h-18zm36-16h18v21h-18zm35-6h18v23h-18zm36-3h18v26h-18zm35-3h18v23h-18zm36 0h18v24h-18zm35 7h18v23h-18zm36 10h18v22h-18z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 90)" clip-path="url(#a)">
+            <path fill="#007A2F" class="highcharts-point" d="M9 202h18v53H9zm36-8h18v61H45zm35-2h18v63H80zm36 7h18v56h-18zm35-13h18v69h-18zm36-26h18v95h-18zm35-4h18v99h-18zm36 0h18v99h-18zm35-6h18v105h-18zm36 1h18v104h-18zm35 6h18v98h-18zm36 9h18v89h-18z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
+        <tspan>Holzernte nach Sortimenten</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
+        <tspan>Kubikmeter</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(10 40)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="394" height="38"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
+                <tspan>Stammholz</tspan>
+            </text>
+            <path fill="#73B97C" class="highcharts-point" d="M14 11h12v12H14z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(112.969 7)">
+                <tspan>Industrieholz</tspan>
+            </text>
+            <path fill="#68AB2B" class="highcharts-point" d="M114.969 11h12v12h-12z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(221.953 7)">
+                <tspan>Energieholz</tspan>
+            </text>
+            <path fill="#007A2F" class="highcharts-point" d="M223.953 11h12v12h-12z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(326.281 7)">
+                <tspan>Übrige</tspan>
+            </text>
+            <path fill="#0A3B19" class="highcharts-point" d="M328.281 11h12v12h-12z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
+        <text x="66.75" y="363">
+            2004
+        </text>
+        <text x="102.25" y="363">
+            2005
+        </text>
+        <text x="137.75" y="363">
+            2006
+        </text>
+        <text x="173.25" y="363">
+            2007
+        </text>
+        <text x="208.75" y="363">
+            2008
+        </text>
+        <text x="244.25" y="363">
+            2009
+        </text>
+        <text x="279.75" y="363">
+            2010
+        </text>
+        <text x="315.25" y="363">
+            2011
+        </text>
+        <text x="350.75" y="363">
+            2012
+        </text>
+        <text x="386.25" y="363">
+            2013
+        </text>
+        <text x="421.75" y="363">
+            2014
+        </text>
+        <text x="457.25" y="363">
+            2015
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="34" y="349">
+            <tspan>0</tspan>
+        </text>
+        <text x="34" y="285">
+            <tspan>50k</tspan>
+        </text>
+        <text x="34" y="222">
+            <tspan>100k</tspan>
+        </text>
+        <text x="34" y="158">
+            <tspan>150k</tspan>
+        </text>
+        <text x="34" y="94">
+            <tspan>200k</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
+        <tspan>Quelle: Amt für Wald beider Basel</tspan>
+    </text>
+</svg>

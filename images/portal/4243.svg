@@ -1,0 +1,140 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h359v222H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M116 109h359v222H116z"/>
+    <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
+        <tspan>&gt; Indikator-Details</tspan>
+    </text>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M124.5 109v222m0-222v222m34-222v222m0-222v222m34-222v222m0-222v222m34-222v222m0-222v222m34-222v222m0-222v222m35-222v222m0-222v222m34-222v222m0-222v222m34-222v222m0-222v222m34-222v222m0-222v222m34-222v222m0-222v222m34-222v222m0-222v222"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M116 313.5h359m-359-37h359m-359-37h359m-359-37h359m-359-37h359m-359-37h359"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M116 109h359v222H116z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M116 331.5h359"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M116 109v222"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M475 109v222"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(116 109)" clip-path="url(#a)">
+            <path fill="#B375AB" class="highcharts-point" d="M158 57h3v148h-3zm119 37h3v111h-3zm34-37h3v148h-3z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(116 109)" clip-path="url(#a)">
+            <path fill="#923F8D" class="highcharts-point" d="M126 94h3v111h-3zm17 0h3v111h-3zm34 0h3v111h-3zm34 0h3v111h-3zm35 0h3v111h-3zm34 0h3v111h-3zm34 0h3v111h-3zm17 0h3v111h-3zm17 0h3v111h-3z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(116 109)" clip-path="url(#a)">
+            <path fill="#FF8028" class="highcharts-point" d="M9 57h3v148H9zm85 0h3v148h-3zm86 0h3v148h-3zm85-37h3v185h-3zm86 37h3v148h-3z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(116 109)" clip-path="url(#a)">
+            <path fill="#DC440E" class="highcharts-point" d="M148 131h3v74h-3zm120-74h3v148h-3z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-4 highcharts-line-series highcharts-color-undefined" transform="translate(116 109)" clip-path="url(#a)">
+            <path fill="none" d="M8.548 55.5h341.904" class="highcharts-graph" stroke="#444" stroke-width="2" stroke-dasharray="6,2"/>
+            <path fill="none" d="M-1.452 55.5h361.904" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
+        <tspan>Biodiversität der Fliessgewässer</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
+        <tspan>Bewertungsklassen</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(10 40)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="441" height="57"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
+                <tspan>BL: Makrozoobenthos Ergolz, Augst</tspan>
+            </text>
+            <path fill="#B375AB" class="highcharts-point" d="M14 11h12v12H14z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(244.313 7)">
+                <tspan>BL: Fischfauna Ergolz, Augst</tspan>
+            </text>
+            <path fill="#923F8D" class="highcharts-point" d="M246.313 11h12v12h-12z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 26)">
+                <tspan>BS: Makrozoobenthos Wiese</tspan>
+            </text>
+            <path fill="#FF8028" class="highcharts-point" d="M14 30h12v12H14z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(207.64 26)">
+                <tspan>BS: Fischfauna Wiese</tspan>
+            </text>
+            <path fill="#DC440E" class="highcharts-point" d="M209.64 30h12v12h-12z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-4">
+            <path fill="none" d="M366.61 37h16" class="highcharts-graph" stroke-dasharray="6,2" stroke="#444" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(366.61 26)">
+                <tspan>Zielwert</tspan>
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="127.14" transform="rotate(-45 127.14 347)" y="347">
+            <tspan>1996</tspan>
+        </text>
+        <text x="161.331" transform="rotate(-45 161.33 347)" y="347">
+            <tspan>1998</tspan>
+        </text>
+        <text x="195.521" transform="rotate(-45 195.521 347)" y="347">
+            <tspan>2000</tspan>
+        </text>
+        <text x="229.712" transform="rotate(-45 229.712 347)" y="347">
+            <tspan>2002</tspan>
+        </text>
+        <text x="263.902" transform="rotate(-45 263.902 347)" y="347">
+            <tspan>2004</tspan>
+        </text>
+        <text x="298.093" transform="rotate(-45 298.093 347)" y="347">
+            <tspan>2006</tspan>
+        </text>
+        <text x="332.283" transform="rotate(-45 332.283 347)" y="347">
+            <tspan>2008</tspan>
+        </text>
+        <text x="366.474" transform="rotate(-45 366.474 347)" y="347">
+            <tspan>2010</tspan>
+        </text>
+        <text x="400.664" transform="rotate(-45 400.664 347)" y="347">
+            <tspan>2012</tspan>
+        </text>
+        <text x="434.855" transform="rotate(-45 434.855 347)" y="347">
+            <tspan>2014</tspan>
+        </text>
+        <text x="469.045" transform="rotate(-45 469.045 347)" y="347">
+            <tspan>2016</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="101" y="280">
+            <tspan>1 = schlecht</tspan>
+        </text>
+        <text x="101" y="243">
+            <tspan>2 = unbefriedigend</tspan>
+        </text>
+        <text x="101" y="206">
+            <tspan>3 = mässig</tspan>
+        </text>
+        <text x="101" y="169">
+            <tspan>4 = gut</tspan>
+        </text>
+        <text x="101" y="132">
+            <tspan>5 = sehr gut</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
+        <tspan>Quelle: Amt für Umwelt und Energie Basel-Stadt; Amt für Umweltschutz und Energie Basel-Landschaft</tspan>
+    </text>
+</svg>

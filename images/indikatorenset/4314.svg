@@ -1,0 +1,163 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h422v162H0z"/>
+        </clipPath>
+        <clipPath id="b">
+            <path fill="none" d="M0 0h394v40H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M53 90h422v162H53z"/>
+    <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
+        <tspan>&gt; Indikator-Details</tspan>
+    </text>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M78.5 90v162m0-162v162m27-162v162m0-162v162m26-162v162m0-162v162m27-162v162m0-162v162m26-162v162m0-162v162m26-162v162m0-162v162m27-162v162m0-162v162m26-162v162m0-162v162m26-162v162m0-162v162m27-162v162m0-162v162m26-162v162m0-162v162m27-162v162m0-162v162m26-162v162m0-162v162m26-162v162m0-162v162m27-162v162m0-162v162m26-162v162m0-162v162"/>
+    </g>
+    <g class="highcharts-grid highcharts-xaxis-grid highcharts-navigator-xaxis">
+        <path fill="none" class="highcharts-grid-line" d="M68.5 311v40m235-40v40"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 252.5h422m-422-81h422m-422-82h422"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid highcharts-navigator-yaxis">
+        <path fill="none" class="highcharts-grid-line" d="M67 351.5h394"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M53 90h422v162H53z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M53 252.5h422"/>
+    </g>
+    <g class="highcharts-axis highcharts-xaxis highcharts-navigator-xaxis">
+        <path fill="none" class="highcharts-axis-line" d="M67 351h394"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M53 90v162"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M475 90v162"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis highcharts-navigator-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M53 311v40"/>
+    </g>
+    <g class="highcharts-scrollbar" transform="translate(53 352)">
+        <rect fill="#f2f2f2" class="highcharts-scrollbar-track" rx="0" ry="0" height="14" width="422" stroke="#f2f2f2" y="-.5"/>
+        <g transform="translate(335 -.5)">
+            <rect fill="#ccc" class="highcharts-scrollbar-thumb" height="14" width="71" rx="0" ry="0" stroke="#ccc"/>
+            <path fill="none" d="M32 3.5v5.833M35 3.5v5.833M38 3.5v5.833" class="highcharts-scrollbar-rifles" stroke="#333"/>
+        </g>
+        <rect fill="#e6e6e6" class="highcharts-scrollbar-button" stroke="#ccc" x="-.5" y="-.5" width="14" height="14" rx="0" ry="0"/>
+        <path fill="#333" d="M8 4v6L5 7" class="highcharts-scrollbar-arrow"/>
+        <g transform="translate(408)">
+            <rect fill="#e6e6e6" class="highcharts-scrollbar-button" stroke="#ccc" x="-.5" y="-.5" width="14" height="14" rx="0" ry="0"/>
+            <path fill="#333" d="M6 4v6l3-3" class="highcharts-scrollbar-arrow"/>
+        </g>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 90)" clip-path="url(#a)">
+            <path fill="#FF8028" class="highcharts-point" d="M138 109h7v54h-7zm26-54h7v108h-7zm159 54h7v54h-7z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 90)" clip-path="url(#a)">
+            <path fill="#B375AB" class="highcharts-point" d="M14 140h7v23h-7zm132-46h7v69h-7zm26-62h7v131h-7zm53 116h7v15h-7zm79-47h7v62h-7zm53 47h7v15h-7zm53-47h7v62h-7z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined" transform="translate(67 311)" clip-path="url(#b)">
+            <path fill="#FF8028" class="highcharts-point" d="M10 28h2v13h-2zm5 0h2v13h-2zm10 0h2v13h-2zm9 0h2v13h-2zm19 0h2v13h-2zm9 0h2v13h-2zm9 0h2v13h-2zm24 0h2v13h-2zm19 0h2v13h-2zm51 0h2v13h-2zm19 0h2v13h-2zm5 0h2v13h-2zm18 0h2v13h-2zm5-14h2v27h-2zm19 14h2v13h-2zm37 0h2v13h-2zm19 0h2v13h-2zm5-14h2v27h-2zm19 14h2v13h-2zm32 0h2v13h-2zm5-14h2v27h-2zm28 14h2v13h-2z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined" transform="translate(67 311)" clip-path="url(#b)">
+            <path fill="#B375AB" class="highcharts-point" d="M293 37h2v4h-2zm10-4h2v8h-2zm4 6h2v2h-2zm5-34h2v36h-2zm5 32h2v4h-2zm4-2h2v6h-2zm24-11h2v17h-2zm5-16h2v33h-2zm9 29h2v4h-2zm14-11h2v15h-2zm9 11h2v4h-2zm10-11h2v15h-2z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
+        <tspan>Hochwasser</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
+        <tspan>Prozent (Anteil Messstationen mit HQ10-Überschreitungen)</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(10 40)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="323" height="38"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
+                <tspan>Kanton Basel-Stadt</tspan>
+            </text>
+            <path fill="#FF8028" class="highcharts-point" d="M14 11h12v12H14z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(156.328 7)">
+                <tspan>Kanton Basel-Landschaft</tspan>
+            </text>
+            <path fill="#B375AB" class="highcharts-point" d="M158.328 11h12v12h-12z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="69.487" transform="rotate(-45 69.487 270)" y="270">
+            <tspan>2001</tspan>
+        </text>
+        <text x="95.862" transform="rotate(-45 95.862 270)" y="270">
+            <tspan>2002</tspan>
+        </text>
+        <text x="122.237" transform="rotate(-45 122.237 270)" y="270">
+            <tspan>2003</tspan>
+        </text>
+        <text x="148.612" transform="rotate(-45 148.612 270)" y="270">
+            <tspan>2004</tspan>
+        </text>
+        <text x="174.987" transform="rotate(-45 174.987 270)" y="270">
+            <tspan>2005</tspan>
+        </text>
+        <text x="201.362" transform="rotate(-45 201.362 270)" y="270">
+            <tspan>2006</tspan>
+        </text>
+        <text x="227.737" transform="rotate(-45 227.737 270)" y="270">
+            <tspan>2007</tspan>
+        </text>
+        <text x="254.112" transform="rotate(-45 254.112 270)" y="270">
+            <tspan>2008</tspan>
+        </text>
+        <text x="280.487" transform="rotate(-45 280.487 270)" y="270">
+            <tspan>2009</tspan>
+        </text>
+        <text x="306.862" transform="rotate(-45 306.862 270)" y="270">
+            <tspan>2010</tspan>
+        </text>
+        <text x="333.237" transform="rotate(-45 333.237 270)" y="270">
+            <tspan>2011</tspan>
+        </text>
+        <text x="359.612" transform="rotate(-45 359.612 270)" y="270">
+            <tspan>2012</tspan>
+        </text>
+        <text x="385.987" transform="rotate(-45 385.987 270)" y="270">
+            <tspan>2013</tspan>
+        </text>
+        <text x="412.362" transform="rotate(-45 412.362 270)" y="270">
+            <tspan>2014</tspan>
+        </text>
+        <text x="438.737" transform="rotate(-45 438.737 270)" y="270">
+            <tspan>2015</tspan>
+        </text>
+        <text x="465.112" transform="rotate(-45 465.112 270)" y="270">
+            <tspan>2016</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="38" y="257">
+            <tspan>0%</tspan>
+        </text>
+        <text x="38" y="176">
+            <tspan>50%</tspan>
+        </text>
+        <text x="38" y="95">
+            <tspan>100%</tspan>
+        </text>
+    </g>
+    <g class="highcharts-navigator">
+        <path fill="transparent" class="highcharts-navigator-mask-outside" d="M67 311h321v40H67z"/>
+        <path fill="rgba(102,133,194,0.3)" class="highcharts-navigator-mask-inside" cursor="ew-resize" d="M388 311h71v40h-71z"/>
+        <path fill="transparent" class="highcharts-navigator-mask-outside" d="M459 311h2v40h-2z"/>
+        <path fill="none" class="highcharts-navigator-outline" stroke="#ccc" d="M53 311.5h334.5v54h71v-54H475m-88 0h72"/>
+        <path fill="#f2f2f2" d="M454.5 323.5h8v15h-8v-15m3 3.5v8m2-8v8" class="highcharts-navigator-handle highcharts-navigator-handle-right" stroke="#999" cursor="ew-resize"/>
+        <path fill="#f2f2f2" d="M383.5 323.5h8v15h-8v-15m3 3.5v8m2-8v8" class="highcharts-navigator-handle highcharts-navigator-handle-left" stroke="#999" cursor="ew-resize"/>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
+        <tspan>Quelle: Bundesamt für Umwelt; Tiefbauamt Basel-Landschaft</tspan>
+    </text>
+</svg>
