@@ -137,6 +137,7 @@
 					  //console.log(label);
 					  
 					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
 					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
 					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
 					  
@@ -1129,11 +1130,6 @@
         "includeInCSVExport": false,
         "type": "line",
         "color": "#FF8028"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#B375AB"
       }
     ],
     "xAxis": {
@@ -1303,12 +1299,9 @@
   "xAxis": [
     {
       "categories": [
-        1990,
         1995,
         2000,
-        2002,
         2004,
-        2006,
         2010,
         2012,
         2014
@@ -1389,10 +1382,6 @@
       "valueSuffix": "Prozent",
       "data": [
         [
-          1990,
-          null
-        ],
-        [
           1995,
           86.4
         ],
@@ -1401,16 +1390,8 @@
           85.9
         ],
         [
-          2002,
-          null
-        ],
-        [
           2004,
           86.8
-        ],
-        [
-          2006,
-          null
         ],
         [
           2010,
@@ -1426,54 +1407,6 @@
         ]
       ],
       "_symbolIndex": 0
-    },
-    {
-      "includeInCSVExport": true,
-      "type": "line",
-      "showInNavigator": true,
-      "name": "Kanton Basel-Landschaft",
-      "color": "#B375AB",
-      "id": "BL0606_2",
-      "valueSuffix": "Prozent",
-      "data": [
-        [
-          1990,
-          92.6
-        ],
-        [
-          1995,
-          88
-        ],
-        [
-          2000,
-          85
-        ],
-        [
-          2002,
-          86.5
-        ],
-        [
-          2004,
-          86.4
-        ],
-        [
-          2006,
-          86.4
-        ],
-        [
-          2010,
-          86.7
-        ],
-        [
-          2012,
-          84.2
-        ],
-        [
-          2014,
-          83.3
-        ]
-      ],
-      "_symbolIndex": 1
     }
   ]
 }

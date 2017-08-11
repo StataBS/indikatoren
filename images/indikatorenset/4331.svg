@@ -13,7 +13,7 @@
         <path fill="none" class="highcharts-grid-line" d="M79.5 90v254m0-254v254m33-254v254m0-254v254m33-254v254m0-254v254m33-254v254m0-254v254m33-254v254m0-254v254m33-254v254m0-254v254m32-254v254m0-254v254m33-254v254m0-254v254m33-254v254m0-254v254m33-254v254m0-254v254m33-254v254m0-254v254m33-254v254m0-254v254m33-254v254m0-254v254M46.5 90v254m0-254v254"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M47 344.5h428m-428-85h428m-428-84h428m-428-86h428"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M47 344.5h428m-428-51h428m-428-51h428m-428-50h428m-428-51h428m-428-52h428"/>
     </g>
     <path fill="none" class="highcharts-plot-border" d="M47 90h428v254H47z"/>
     <g class="highcharts-axis highcharts-xaxis">
@@ -27,10 +27,7 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(47 90)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" d="M8 84h8v171H8zm32-2h8v173h-8zm33-6h8v179h-8zm33-1h8v180h-8zm33 0h8v180h-8zm33-11h8v191h-8zm33 13h8v178h-8zm33-4h8v182h-8zm33-4h8v186h-8zm33-3h8v189h-8zm33 3h8v186h-8zm33 2h8v184h-8zm33-2h8v186h-8z"/>
-        </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(47 90)" clip-path="url(#a)">
-            <path fill="#B375AB" class="highcharts-point" d="M17 45h8v210h-8zm33 0h8v210h-8zm33 3h8v207h-8zm33-5h8v212h-8zm33 1h8v211h-8zm33-6h8v217h-8zm33 3h8v214h-8zm33-5h8v219h-8zm33-1h8v220h-8zm33-3h8v223h-8zm33-1h8v224h-8zm33 2h8v222h-8zm33 3h8v219h-8z"/>
+            <path fill="#FF8028" class="highcharts-point" d="M9 49h16v206H9zm32-1h16v207H41zm33-7h16v214H74zm33-2h16v216h-16zm33 0h16v216h-16zm33-14h16v230h-16zm33 17h16v213h-16zm33-5h16v218h-16zm33-5h16v223h-16zm33-4h16v227h-16zm33 3h16v224h-16zm33 3h16v221h-16zm33-3h16v224h-16z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
@@ -40,18 +37,12 @@
         <tspan>Prozent</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 40)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="323" height="38"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="148" height="38"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
                 <tspan>Kanton Basel-Stadt</tspan>
             </text>
             <path fill="#FF8028" class="highcharts-point" d="M14 11h12v12H14z"/>
-        </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(156.328 7)">
-                <tspan>Kanton Basel-Landschaft</tspan>
-            </text>
-            <path fill="#B375AB" class="highcharts-point" d="M158.328 11h12v12h-12z"/>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
@@ -99,14 +90,20 @@
         <text x="32" y="349">
             <tspan>0%</tspan>
         </text>
-        <text x="32" y="264">
+        <text x="32" y="298">
+            <tspan>10%</tspan>
+        </text>
+        <text x="32" y="247">
             <tspan>20%</tspan>
         </text>
-        <text x="32" y="179">
+        <text x="32" y="196">
+            <tspan>30%</tspan>
+        </text>
+        <text x="32" y="145">
             <tspan>40%</tspan>
         </text>
         <text x="32" y="95">
-            <tspan>60%</tspan>
+            <tspan>50%</tspan>
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">

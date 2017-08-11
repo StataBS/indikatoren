@@ -137,6 +137,7 @@
 					  //console.log(label);
 					  
 					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
 					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
 					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
 					  
@@ -975,7 +976,7 @@
     "enabled": true,
     "align": "left",
     "layout": "horizontal",
-    "labelFormatter": function () { return this.name.replace(/(BS|BL|BS&BL|UBB|OBB): /, '');},
+    "labelFormatter": function () {return this.name;},
     "borderColor": "#999999",
     "borderRadius": 0,
     "navigation": {
@@ -1128,42 +1129,22 @@
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#73B97C"
+        "color": "#FF8028"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#68AB2B"
+        "color": "#DC440E"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#007A2F"
+        "color": "#B00000"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#0A3B19"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#73B97C"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#68AB2B"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#007A2F"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#0A3B19"
+        "color": "#661200"
       }
     ],
     "xAxis": {
@@ -1395,14 +1376,6 @@
 						  return this.axis.defaultLabelFormatter.call(this) + '';
 						}
       },
-      "stackLabels": {
-        "enabled": true,
-        "style": {
-          "fontSize": "0.8em",
-          "fontWeight": "normal"
-        },
-        "formatter": function () { return this.stack; }
-      },
       "index": 0
     },
     {
@@ -1436,7 +1409,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Offene Ackerfläche",
-      "color": "#73B97C",
+      "color": "#FF8028",
       "id": "BS0503_1",
       "valueSuffix": "Hektaren",
       "data": [
@@ -1470,7 +1443,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Grünfläche",
-      "color": "#68AB2B",
+      "color": "#DC440E",
       "id": "BS0503_2",
       "valueSuffix": "Hektaren",
       "data": [
@@ -1504,7 +1477,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Dauerkulturen",
-      "color": "#007A2F",
+      "color": "#B00000",
       "id": "BS0503_3",
       "valueSuffix": "Hektaren",
       "data": [
@@ -1538,7 +1511,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Übrige landwirtschaftliche Nutzfläche",
-      "color": "#0A3B19",
+      "color": "#661200",
       "id": "BS0503_4",
       "valueSuffix": "Hektaren",
       "data": [
@@ -1563,146 +1536,6 @@
         4.9,
         5.5,
         3.6
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0503_1",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Offene Ackerfläche",
-      "color": "#73B97C",
-      "id": "BL0503_5",
-      "valueSuffix": "Hektaren",
-      "data": [
-        7056,
-        6711.7,
-        6565.4,
-        6464.8,
-        6474,
-        6393.1,
-        6490.2,
-        6159,
-        5924.5,
-        6077.3,
-        6007.2,
-        5934.9,
-        5813.1,
-        5705.6,
-        5666.6,
-        5590.5,
-        5532,
-        5533.5,
-        5561.1,
-        5665,
-        5625.8
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0503_2",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Grünfläche",
-      "color": "#68AB2B",
-      "id": "BL0503_6",
-      "valueSuffix": "Hektaren",
-      "data": [
-        14784.2,
-        15186.9,
-        15188.1,
-        15035.5,
-        15092.5,
-        15107.9,
-        15213.6,
-        15460.3,
-        15414.2,
-        15135.7,
-        15042.1,
-        15192.8,
-        15117.7,
-        15436.3,
-        15485.5,
-        15543.4,
-        15441.7,
-        15387.3,
-        15282.1,
-        15265.5,
-        15332.7
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0503_3",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Dauerkulturen",
-      "color": "#007A2F",
-      "id": "BL0503_7",
-      "valueSuffix": "Hektaren",
-      "data": [
-        439.3,
-        468.2,
-        480.9,
-        468.4,
-        473.4,
-        499.3,
-        509.4,
-        505.8,
-        502.8,
-        496.4,
-        513.1,
-        531.1,
-        537,
-        535.8,
-        530.8,
-        530.1,
-        538.6,
-        530.6,
-        538.1,
-        540.8,
-        529.9
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0503_4",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Übrige landwirtschaftliche Nutzfläche",
-      "color": "#0A3B19",
-      "id": "BL0503_8",
-      "valueSuffix": "Hektaren",
-      "data": [
-        77.3,
-        76.9,
-        94,
-        94.9,
-        96.9,
-        98.9,
-        102.2,
-        113.9,
-        114.1,
-        150.3,
-        116.2,
-        122.8,
-        118.9,
-        124.8,
-        125.4,
-        144.5,
-        144.8,
-        180.3,
-        141.2,
-        149.9,
-        159.1
       ]
     }
   ]

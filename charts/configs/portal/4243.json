@@ -137,6 +137,7 @@
 					  //console.log(label);
 					  
 					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
 					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
 					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
 					  
@@ -1128,16 +1129,6 @@
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#B375AB"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#923F8D"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
         "color": "#FF8028"
       },
       {
@@ -1416,72 +1407,6 @@
     }
   ],
   "series": [
-    {
-      "includeInCSVExport": true,
-      "stacking": null,
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Makrozoobenthos Ergolz, Augst",
-      "color": "#B375AB",
-      "id": "BL1613_1",
-      "valueSuffix": "Bewertungsklassen",
-      "data": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        4,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        3,
-        null,
-        4,
-        null,
-        null
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": null,
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Fischfauna Ergolz, Augst",
-      "color": "#923F8D",
-      "id": "BL1613_2",
-      "valueSuffix": "Bewertungsklassen",
-      "data": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        3,
-        3,
-        null,
-        3,
-        null,
-        3,
-        null,
-        3,
-        null,
-        3,
-        null,
-        3,
-        3,
-        3
-      ]
-    },
     {
       "includeInCSVExport": true,
       "stacking": null,

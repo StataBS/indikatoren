@@ -137,6 +137,7 @@
 					  //console.log(label);
 					  
 					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
 					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
 					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
 					  
@@ -1111,7 +1112,7 @@
     "trackBackgroundColor": "#f2f2f2",
     "trackBorderColor": "#f2f2f2",
     "trackBorderWidth": 1,
-    "enabled": true
+    "enabled": false
   },
   "navigator": {
     "height": 40,
@@ -1129,11 +1130,6 @@
         "includeInCSVExport": false,
         "type": "line",
         "color": "#FF8028"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#B375AB"
       }
     ],
     "xAxis": {
@@ -1171,7 +1167,7 @@
       "tickLength": 0,
       "tickWidth": 0
     },
-    "enabled": true
+    "enabled": false
   },
   "rangeSelector": {
     "buttonTheme": {
@@ -1303,21 +1299,6 @@
   "xAxis": [
     {
       "categories": [
-        1974,
-        1975,
-        1976,
-        1977,
-        1978,
-        1979,
-        1980,
-        1981,
-        1982,
-        1983,
-        1984,
-        1985,
-        1986,
-        1987,
-        1988,
         1989,
         1990,
         1991,
@@ -1358,7 +1339,7 @@
           "color": "#000000"
         }
       },
-      "range": 28.666666666667,
+      "range": 25,
       "index": 0,
       "isX": true
     }
@@ -1422,21 +1403,6 @@
       "id": "BS1605_1",
       "valueSuffix": "Millionen Kubikmeter",
       "data": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         19.5,
         20.4,
         18.9,
@@ -1467,61 +1433,6 @@
         15.6
       ],
       "_symbolIndex": 0
-    },
-    {
-      "includeInCSVExport": true,
-      "type": "line",
-      "showInNavigator": true,
-      "name": "Kanton Basel-Landschaft",
-      "color": "#B375AB",
-      "id": "BL1605_2",
-      "valueSuffix": "Millionen Kubikmeter",
-      "data": [
-        15.8,
-        15.5,
-        16.4,
-        15.1,
-        15.1,
-        15.3,
-        15,
-        15.5,
-        15.7,
-        16.5,
-        16.5,
-        16.7,
-        17.1,
-        15.9,
-        16,
-        17.1,
-        17.7,
-        17.2,
-        17.2,
-        17,
-        18.4,
-        17.3,
-        17.1,
-        17.2,
-        16.6,
-        16.3,
-        16.1,
-        15.9,
-        16,
-        17.2,
-        16.4,
-        16.1,
-        16,
-        15.6,
-        15.4,
-        15.4,
-        15.7,
-        15.8,
-        15.5,
-        15.6,
-        15.4,
-        16.1,
-        null
-      ],
-      "_symbolIndex": 1
     }
   ]
 }

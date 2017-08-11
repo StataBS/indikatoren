@@ -1,36 +1,33 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h438v254H0z"/>
+            <path fill="none" d="M0 0h426v254H0z"/>
         </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M37 90h438v254H37z"/>
+    <path fill="none" class="highcharts-plot-background" d="M49 90h426v254H49z"/>
     <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M146.5 90v254m0-254v254m109-254v254m0-254v254m110-254v254m0-254v254m109-254v254m0-254v254M36.5 90v254m0-254v254"/>
+        <path fill="none" class="highcharts-grid-line" d="M155.5 90v254m0-254v254m106-254v254m0-254v254m107-254v254m0-254v254m106-254v254m0-254v254M48.5 90v254m0-254v254"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M37 344.5h438m-438-63h438m-438-64h438m-438-63h438m-438-65h438"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M49 344.5h426m-426-63h426m-426-64h426m-426-63h426m-426-65h426"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M37 90h438v254H37z"/>
+    <path fill="none" class="highcharts-plot-border" d="M49 90h426v254H49z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M37 344.5h438"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M49 344.5h426"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M37 90v254"/>
+        <path fill="none" class="highcharts-axis-line" d="M49 90v254"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
         <path fill="none" class="highcharts-axis-line" d="M475 90v254"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(37 90)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" d="M25 202h27v53H25zm110 0h27v53h-27zm109-1h27v54h-27zm110 0h27v54h-27z"/>
-        </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(37 90)" clip-path="url(#a)">
-            <path fill="#B375AB" class="highcharts-point" d="M58 113h27v142H58zm110-18h27v160h-27zm109-17h27v177h-27zm110-12h27v189h-27z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 90)" clip-path="url(#a)">
+            <path fill="#FF8028" class="highcharts-point" d="M28 44h52v211H28zm106-1h52v212h-52zm107-2h52v214h-52zm106-3h52v217h-52z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
@@ -40,49 +37,43 @@
         <tspan>Hektaren</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 40)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="323" height="38"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="148" height="38"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
                 <tspan>Kanton Basel-Stadt</tspan>
             </text>
             <path fill="#FF8028" class="highcharts-point" d="M14 11h12v12H14z"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(156.328 7)">
-                <tspan>Kanton Basel-Landschaft</tspan>
-            </text>
-            <path fill="#B375AB" class="highcharts-point" d="M158.328 11h12v12h-12z"/>
-        </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
-        <text x="91.75" y="363">
+        <text x="102.25" y="363">
             <tspan>1982</tspan>
         </text>
-        <text x="201.25" y="363">
+        <text x="208.75" y="363">
             <tspan>1994</tspan>
         </text>
-        <text x="310.75" y="363">
+        <text x="315.25" y="363">
             <tspan>2005</tspan>
         </text>
-        <text x="420.25" y="363">
+        <text x="421.75" y="363">
             <tspan>2014</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
-        <text x="22" y="349">
+        <text x="34" y="349">
             <tspan>0</tspan>
         </text>
-        <text x="22" y="285">
-            <tspan>2k</tspan>
+        <text x="34" y="285">
+            <tspan>500</tspan>
         </text>
-        <text x="22" y="222">
-            <tspan>4k</tspan>
+        <text x="34" y="222">
+            <tspan>1000</tspan>
         </text>
-        <text x="22" y="158">
-            <tspan>6k</tspan>
+        <text x="34" y="158">
+            <tspan>1500</tspan>
         </text>
-        <text x="22" y="95">
-            <tspan>8k</tspan>
+        <text x="34" y="95">
+            <tspan>2000</tspan>
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">

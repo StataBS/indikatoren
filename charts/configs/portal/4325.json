@@ -137,6 +137,7 @@
 					  //console.log(label);
 					  
 					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
 					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
 					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
 					  
@@ -1134,16 +1135,6 @@
         "includeInCSVExport": false,
         "type": "line",
         "color": "#DC440E"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#B375AB"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#923F8D"
       }
     ],
     "xAxis": {
@@ -1476,81 +1467,6 @@
       },
       "yAxis": 1,
       "_symbolIndex": 0
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": null,
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Motorfahrzeugbestand",
-      "color": "#B375AB",
-      "id": "BL1704_3",
-      "valueSuffix": "Anzahl Motorfahrzeuge; Anzahl Personenwagen pro 1000 Einwohner",
-      "data": [
-        138861,
-        140975,
-        144241,
-        147902,
-        152202,
-        156201,
-        160216,
-        163466,
-        166994,
-        168716,
-        170260,
-        171909,
-        172487,
-        174947,
-        176687,
-        178660,
-        181097,
-        182845,
-        184512,
-        185081,
-        188504,
-        191134
-      ],
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Mfz\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
-    },
-    {
-      "includeInCSVExport": true,
-      "type": "line",
-      "showInNavigator": true,
-      "name": "BL: Motorisierungsgrad (rechte Skala)",
-      "color": "#923F8D",
-      "id": "BL1704_4",
-      "valueSuffix": "Anzahl Motorfahrzeuge; Anzahl Personenwagen pro 1000 Einwohner",
-      "data": [
-        438.5,
-        445.5,
-        452.2,
-        460.4,
-        468.5,
-        476.3,
-        486.5,
-        493.2,
-        487.2,
-        490.5,
-        490.9,
-        494.3,
-        499.2,
-        496.7,
-        497.1,
-        494.5,
-        503.4,
-        506.6,
-        504.7,
-        506.9,
-        505.3,
-        510
-      ],
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E PW\u002F1000 Ew.\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      },
-      "yAxis": 1,
-      "_symbolIndex": 1
     }
   ]
 }

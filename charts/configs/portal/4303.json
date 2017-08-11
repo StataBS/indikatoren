@@ -137,6 +137,7 @@
 					  //console.log(label);
 					  
 					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
 					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
 					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
 					  
@@ -975,7 +976,7 @@
     "enabled": true,
     "align": "left",
     "layout": "horizontal",
-    "labelFormatter": function () { return this.name.replace(/(BS|BL|BS&BL|UBB|OBB): /, '');},
+    "labelFormatter": function () {return this.name;},
     "borderColor": "#999999",
     "borderRadius": 0,
     "navigation": {
@@ -1128,52 +1129,27 @@
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#73B97C"
+        "color": "#FF8028"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#68AB2B"
+        "color": "#DC440E"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#007A2F"
+        "color": "#B00000"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#0A3B19"
+        "color": "#661200"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#FFDA80"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#73B97C"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#68AB2B"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#007A2F"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#0A3B19"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#FFDA80"
+        "color": "#D3E2E4"
       }
     ],
     "xAxis": {
@@ -1344,9 +1320,7 @@
     {
       "categories": [
         2006,
-        2014,
-        2015,
-        2016
+        2014
       ],
       "tickLength": 0,
       "title": {
@@ -1388,16 +1362,6 @@
 						  return this.axis.defaultLabelFormatter.call(this) + '%';
 						}
       },
-      "stackLabels": {
-        "enabled": true,
-        "y": -5,
-        "crop": false,
-        "style": {
-          "fontSize": "0.8em",
-          "fontWeight": "normal"
-        },
-        "formatter": function () { return this.stack; }
-      },
       "index": 0
     },
     {
@@ -1431,14 +1395,12 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: natürlich, naturnah",
-      "color": "#73B97C",
+      "color": "#FF8028",
       "id": "BS1608_1",
       "valueSuffix": "Kilometer",
       "data": [
         1,
-        2,
-        null,
-        null
+        2
       ],
       "tooltip": {
         "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E km (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
@@ -1451,14 +1413,12 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: wenig beeinträchtigt",
-      "color": "#68AB2B",
+      "color": "#DC440E",
       "id": "BS1608_2",
       "valueSuffix": "Kilometer",
       "data": [
         4.5,
-        9.7,
-        null,
-        null
+        9.7
       ],
       "tooltip": {
         "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E km (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
@@ -1471,14 +1431,12 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: stark beeinträchtigt",
-      "color": "#007A2F",
+      "color": "#B00000",
       "id": "BS1608_3",
       "valueSuffix": "Kilometer",
       "data": [
         13.2,
-        13.1,
-        null,
-        null
+        13.1
       ],
       "tooltip": {
         "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E km (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
@@ -1491,14 +1449,12 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: künstlich, naturfremd",
-      "color": "#0A3B19",
+      "color": "#661200",
       "id": "BS1608_4",
       "valueSuffix": "Kilometer",
       "data": [
         6.8,
-        13.4,
-        null,
-        null
+        13.4
       ],
       "tooltip": {
         "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E km (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
@@ -1511,119 +1467,12 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: eingedolt",
-      "color": "#FFDA80",
+      "color": "#D3E2E4",
       "id": "BS1608_5",
       "valueSuffix": "Kilometer",
       "data": [
         9.5,
-        9.4,
-        null,
-        null
-      ],
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E km (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "percent",
-      "stack": "BL",
-      "linkedTo": "BS1608_1",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: natürlich, naturnah",
-      "color": "#73B97C",
-      "id": "BL1608_6",
-      "valueSuffix": "Kilometer",
-      "data": [
-        null,
-        null,
-        181.1,
-        181.1
-      ],
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E km (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "percent",
-      "stack": "BL",
-      "linkedTo": "BS1608_2",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: wenig beeinträchtigt",
-      "color": "#68AB2B",
-      "id": "BL1608_7",
-      "valueSuffix": "Kilometer",
-      "data": [
-        null,
-        null,
-        172.7,
-        172.9
-      ],
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E km (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "percent",
-      "stack": "BL",
-      "linkedTo": "BS1608_3",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: stark beeinträchtigt",
-      "color": "#007A2F",
-      "id": "BL1608_8",
-      "valueSuffix": "Kilometer",
-      "data": [
-        null,
-        null,
-        81.9,
-        82.2
-      ],
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E km (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "percent",
-      "stack": "BL",
-      "linkedTo": "BS1608_4",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: künstlich, naturfremd",
-      "color": "#0A3B19",
-      "id": "BL1608_9",
-      "valueSuffix": "Kilometer",
-      "data": [
-        null,
-        null,
-        31.8,
-        31.4
-      ],
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E km (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "percent",
-      "stack": "BL",
-      "linkedTo": "BS1608_5",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: eingedolt",
-      "color": "#FFDA80",
-      "id": "BL1608_10",
-      "valueSuffix": "Kilometer",
-      "data": [
-        null,
-        null,
-        105.9,
-        105.9
+        9.4
       ],
       "tooltip": {
         "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E km (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"

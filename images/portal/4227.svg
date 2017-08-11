@@ -10,10 +10,10 @@
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M93.5 90v254m0-254v254m64-254v254m0-254v254m63-254v254m0-254v254m64-254v254m0-254v254m63-254v254m0-254v254m64-254v254m0-254v254m63-254v254m0-254v254M30.5 90v254m0-254v254"/>
+        <path fill="none" class="highcharts-grid-line" d="M474.5 90v254m0-254v254M30.5 90v254m0-254v254"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M31 344.5h444m-444-63h444m-444-64h444m-444-63h444m-444-65h444"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M31 344.5h444m-444-85h444m-444-84h444m-444-86h444"/>
     </g>
     <path fill="none" class="highcharts-plot-border" d="M31 90h444v254H31z"/>
     <g class="highcharts-axis highcharts-xaxis">
@@ -27,10 +27,7 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(31 90)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" d="M395 84h16v171h-16z"/>
-        </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(31 90)" clip-path="url(#a)">
-            <path fill="#B375AB" class="highcharts-point" d="M34 65h16v190H34zm63-20h16v210H97zm63 45h16v165h-16zm64-6h16v171h-16zm63-19h16v190h-16zm64 0h16v190h-16zm63-7h16v197h-16z"/>
+            <path fill="#FF8028" class="highcharts-point" d="M115 26h214v229H115z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
@@ -40,58 +37,29 @@
         <tspan>Liter Heizöläquivalente pro Quadratmeter</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 40)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="323" height="38"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="148" height="38"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
                 <tspan>Kanton Basel-Stadt</tspan>
             </text>
             <path fill="#FF8028" class="highcharts-point" d="M14 11h12v12H14z"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(156.328 7)">
-                <tspan>Kanton Basel-Landschaft</tspan>
-            </text>
-            <path fill="#B375AB" class="highcharts-point" d="M158.328 11h12v12h-12z"/>
-        </g>
     </g>
-    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
-        <text x="62.714" y="363">
-            2010
-        </text>
-        <text x="126.143" y="363">
-            2011
-        </text>
-        <text x="189.571" y="363">
-            2012
-        </text>
-        <text x="253" y="363">
-            2013
-        </text>
-        <text x="316.429" y="363">
-            2014
-        </text>
-        <text x="379.857" y="363">
-            2015
-        </text>
-        <text x="443.286" y="363">
-            2016
-        </text>
-    </g>
+    <text x="253" text-anchor="middle" y="363" color="#000" cursor="default" font-size=".9em" class="highcharts-axis-labels highcharts-xaxis-labels">
+        <tspan>2016</tspan>
+    </text>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
         <text x="16" y="349">
             <tspan>0</tspan>
         </text>
-        <text x="16" y="285">
+        <text x="16" y="264">
             <tspan>1</tspan>
         </text>
-        <text x="16" y="222">
+        <text x="16" y="179">
             <tspan>2</tspan>
         </text>
-        <text x="16" y="158">
-            <tspan>3</tspan>
-        </text>
         <text x="16" y="95">
-            <tspan>4</tspan>
+            <tspan>3</tspan>
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">

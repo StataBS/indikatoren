@@ -1,48 +1,39 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h422v235H0z"/>
+            <path fill="none" d="M0 0h422v254H0z"/>
         </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M53 109h422v235H53z"/>
+    <path fill="none" class="highcharts-plot-background" d="M53 90h422v254H53z"/>
     <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M474.5 109v235m0-235v235m-422-235v235m0-235v235"/>
+        <path fill="none" class="highcharts-grid-line" d="M474.5 90v254m0-254v254M52.5 90v254m0-254v254"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 344.5h422m-422-59h422m-422-58h422m-422-59h422m-422-60h422"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 344.5h422m-422-63h422m-422-64h422m-422-63h422m-422-65h422"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M53 109h422v235H53z"/>
+    <path fill="none" class="highcharts-plot-border" d="M53 90h422v254H53z"/>
     <g class="highcharts-axis highcharts-xaxis">
         <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M53 344.5h422"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M53 109v235"/>
+        <path fill="none" class="highcharts-axis-line" d="M53 90v254"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M475 109v235"/>
+        <path fill="none" class="highcharts-axis-line" d="M475 90v254"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 109)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" d="M97 95h102v141H97z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 90)" clip-path="url(#a)">
+            <path fill="#FF8028" class="highcharts-point" d="M110 103h203v152H110z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(53 109)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(53 90)" clip-path="url(#a)">
             <path fill="none" d="M201 0h20" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#DC440E" d="M269 109a5 5 0 1 1 0-.005z" class="highcharts-point"/>
-        </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 109)" clip-path="url(#a)">
-            <path fill="#B375AB" class="highcharts-point" d="M224 76h102v160H224z"/>
-        </g>
-        <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined" transform="translate(53 109)" clip-path="url(#a)">
-            <path fill="none" d="M201 18.8h20" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
-        </g>
-        <g class="highcharts-markers highcharts-series-3 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#923F8D" d="M264 123l5 5-5 5-5-5z" class="highcharts-point"/>
+            <path fill="#DC440E" d="M269 90a5 5 0 1 1 0-.005z" class="highcharts-point"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
@@ -52,7 +43,7 @@
         <tspan>Prozent</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 40)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="394" height="57"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="267" height="38"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
                 <tspan>BS: Ausbaugrad</tspan>
@@ -66,19 +57,6 @@
                 <tspan>BS: Zielwert 2023</tspan>
             </text>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(275.969 7)">
-                <tspan>BL: Ausbaugrad</tspan>
-            </text>
-            <path fill="#B375AB" class="highcharts-point" d="M277.969 11h12v12h-12z"/>
-        </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3">
-            <path fill="none" d="M12 37h16" class="highcharts-graph" stroke="#923F8D" stroke-width="2"/>
-            <path fill="#923F8D" d="M20 32l5 5-5 5-5-5z" class="highcharts-point"/>
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 26)">
-                <tspan>BL: Zielwert 2036</tspan>
-            </text>
-        </g>
     </g>
     <text x="264" text-anchor="middle" y="363" color="#000" cursor="default" font-size=".9em" class="highcharts-axis-labels highcharts-xaxis-labels">
         <tspan>2016</tspan>
@@ -87,16 +65,16 @@
         <text x="38" y="349">
             <tspan>0%</tspan>
         </text>
-        <text x="38" y="290">
+        <text x="38" y="285">
             <tspan>25%</tspan>
         </text>
-        <text x="38" y="231">
+        <text x="38" y="222">
             <tspan>50%</tspan>
         </text>
-        <text x="38" y="172">
+        <text x="38" y="158">
             <tspan>75%</tspan>
         </text>
-        <text x="38" y="114">
+        <text x="38" y="95">
             <tspan>100%</tspan>
         </text>
     </g>

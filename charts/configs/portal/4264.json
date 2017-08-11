@@ -137,6 +137,7 @@
 					  //console.log(label);
 					  
 					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
 					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
 					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
 					  
@@ -1128,16 +1129,6 @@
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#B375AB"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#923F8D"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
         "color": "#FF8028"
       },
       {
@@ -1384,38 +1375,6 @@
     }
   ],
   "series": [
-    {
-      "includeInCSVExport": true,
-      "stacking": null,
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Anzahl Inspektionen",
-      "color": "#B375AB",
-      "id": "BL0404_1",
-      "valueSuffix": "Anzahl Fälle",
-      "data": [
-        3,
-        4,
-        10,
-        4
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": null,
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Anzahl Beanstandungen",
-      "color": "#923F8D",
-      "id": "BL0404_2",
-      "valueSuffix": "Anzahl Fälle",
-      "data": [
-        18,
-        26,
-        33,
-        9
-      ]
-    },
     {
       "includeInCSVExport": true,
       "stacking": null,
