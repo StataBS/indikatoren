@@ -137,6 +137,7 @@
 					  //console.log(label);
 					  
 					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
 					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
 					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
 					  
@@ -975,7 +976,7 @@
     "enabled": true,
     "align": "left",
     "layout": "horizontal",
-    "labelFormatter": function () { return this.name.replace(/(BS|BL|BS&BL|UBB|OBB): /, '');},
+    "labelFormatter": function () {return this.name;},
     "borderColor": "#999999",
     "borderRadius": 0,
     "navigation": {
@@ -1133,42 +1134,22 @@
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#73B97C"
+        "color": "#DC440E"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#68AB2B"
+        "color": "#B00000"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#007A2F"
+        "color": "#661200"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#0A3B19"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#73B97C"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#68AB2B"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#007A2F"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#0A3B19"
+        "color": "#D3E2E4"
       }
     ],
     "xAxis": {
@@ -1338,15 +1319,9 @@
   "xAxis": [
     {
       "categories": [
-        1990,
         1995,
-        1997,
-        1998,
-        1999,
         2000,
-        2002,
         2004,
-        2006,
         2010,
         2012,
         2014
@@ -1391,14 +1366,6 @@
 						  return this.axis.defaultLabelFormatter.call(this) + '';
 						}
       },
-      "stackLabels": {
-        "enabled": true,
-        "style": {
-          "fontSize": "0.8em",
-          "fontWeight": "normal"
-        },
-        "formatter": function () { return this.stack; }
-      },
       "index": 0
     },
     {
@@ -1436,15 +1403,9 @@
       "id": "BS0613_1",
       "valueSuffix": "Gigawattstunden",
       "data": [
-        null,
         1470,
-        null,
-        null,
-        null,
         1445,
-        null,
         1572,
-        null,
         null,
         null,
         null
@@ -1457,16 +1418,10 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Bezug ausserkantonal",
-      "color": "#73B97C",
+      "color": "#DC440E",
       "id": "BS0613_2",
       "valueSuffix": "Gigawattstunden",
       "data": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         null,
         null,
@@ -1482,16 +1437,10 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Wasserkraft",
-      "color": "#68AB2B",
+      "color": "#B00000",
       "id": "BS0613_3",
       "valueSuffix": "Gigawattstunden",
       "data": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         null,
         null,
@@ -1507,16 +1456,10 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Thermische Erzeugung",
-      "color": "#007A2F",
+      "color": "#661200",
       "id": "BS0613_4",
       "valueSuffix": "Gigawattstunden",
       "data": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         null,
         null,
@@ -1532,126 +1475,16 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Photovoltaik",
-      "color": "#0A3B19",
+      "color": "#D3E2E4",
       "id": "BS0613_5",
       "valueSuffix": "Gigawattstunden",
       "data": [
         null,
         null,
         null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         3.4,
         6,
         13.1
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0613_2",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Bezug ausserkantonal",
-      "color": "#73B97C",
-      "id": "BL0613_6",
-      "valueSuffix": "Gigawattstunden",
-      "data": [
-        1375,
-        1292.2,
-        1302.8,
-        1325.5,
-        1328.8,
-        1327.3,
-        1385.2,
-        1454.5,
-        1531.4,
-        1639.1,
-        1603.4,
-        1537.1
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0613_3",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Wasserkraft",
-      "color": "#68AB2B",
-      "id": "BL0613_7",
-      "valueSuffix": "Gigawattstunden",
-      "data": [
-        280.6,
-        337.1,
-        354,
-        362.1,
-        378.4,
-        378.5,
-        362.9,
-        339.3,
-        329.7,
-        296.6,
-        365.7,
-        346.3
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0613_4",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Thermische Erzeugung",
-      "color": "#007A2F",
-      "id": "BL0613_8",
-      "valueSuffix": "Gigawattstunden",
-      "data": [
-        30.2,
-        143.7,
-        161.4,
-        163.4,
-        160.6,
-        168.2,
-        174.7,
-        137.6,
-        117.7,
-        116.8,
-        119.4,
-        103.5
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0613_5",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Photovoltaik",
-      "color": "#0A3B19",
-      "id": "BL0613_9",
-      "valueSuffix": "Gigawattstunden",
-      "data": [
-        0,
-        0.4,
-        0.6,
-        0.6,
-        0.6,
-        0.6,
-        0.6,
-        0.6,
-        0.9,
-        2.2,
-        23.3,
-        45.6
       ]
     }
   ]

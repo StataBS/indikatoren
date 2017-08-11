@@ -27,12 +27,9 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(46 90)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" d="M10 72h11v183H10zm43 0h11v183H53zm43-20h11v203H96zm43 0h11v203h-11zm42 0h11v203h-11zm43 0h11v203h-11zm43 20h11v183h-11zm43 0h11v183h-11zm43 20h11v163h-11zm43-20h11v183h-11z"/>
+            <path fill="#FF8028" class="highcharts-point" d="M11 72h21v183H11zm43 0h21v183H54zm43-20h21v203H97zm43 0h21v203h-21zm43 0h21v203h-21zm43 0h21v203h-21zm43 20h21v183h-21zm42 0h21v183h-21zm43 20h21v163h-21zm43-20h21v183h-21z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(46 90)" clip-path="url(#a)">
-            <path fill="#B375AB" class="highcharts-point" d="M23 119h11v136H23zm43-10h11v146H66zm43 2h11v144h-11zm42 0h11v144h-11zm43 6h11v138h-11zm43 20h11v118h-11zm43 0h11v118h-11zm43-8h11v126h-11zm43-14h11v140h-11zm43 16h11v124h-11z"/>
-        </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(46 90)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(46 90)" clip-path="url(#a)">
             <path fill="none" d="M21.45 50.8h386.1" class="highcharts-graph" stroke="#444" stroke-width="2" stroke-dasharray="6,2"/>
             <path fill="none" d="M11.45 50.8h406.1" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
@@ -44,22 +41,16 @@
         <tspan>Milligramm pro Liter</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 40)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="419" height="38"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="244" height="38"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
                 <tspan>Kanton Basel-Stadt</tspan>
             </text>
             <path fill="#FF8028" class="highcharts-point" d="M14 11h12v12H14z"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M156.328 18h16" class="highcharts-graph" stroke-dasharray="6,2" stroke="#444" stroke-width="2"/>
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(156.328 7)">
-                <tspan>Kanton Basel-Landschaft</tspan>
-            </text>
-            <path fill="#B375AB" class="highcharts-point" d="M158.328 11h12v12h-12z"/>
-        </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2">
-            <path fill="none" d="M331.344 18h16" class="highcharts-graph" stroke-dasharray="6,2" stroke="#444" stroke-width="2"/>
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(331.344 7)">
                 <tspan>Grenzwert</tspan>
             </text>
         </g>

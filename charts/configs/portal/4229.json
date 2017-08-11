@@ -137,6 +137,7 @@
 					  //console.log(label);
 					  
 					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
 					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
 					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
 					  
@@ -1134,16 +1135,6 @@
         "includeInCSVExport": false,
         "type": "line",
         "color": "#DC440E"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#B375AB"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#923F8D"
       }
     ],
     "xAxis": {
@@ -1313,12 +1304,9 @@
   "xAxis": [
     {
       "categories": [
-        1990,
         1995,
         2000,
-        2002,
         2004,
-        2006,
         2010,
         2012,
         2014
@@ -1398,12 +1386,9 @@
       "id": "BS0612_1",
       "valueSuffix": "Indexwert (Basis 1995 = 100)",
       "data": [
-        null,
         100,
         112.4,
-        null,
         137.5,
-        null,
         184.8,
         205.2,
         224.2
@@ -1419,59 +1404,14 @@
       "id": "BS0612_2",
       "valueSuffix": "Indexwert (Basis 1995 = 100)",
       "data": [
-        null,
         100,
         103.5,
-        null,
         103.4,
-        null,
         91.6,
         84.9,
         76.1
       ],
       "_symbolIndex": 1
-    },
-    {
-      "includeInCSVExport": true,
-      "type": "line",
-      "showInNavigator": true,
-      "name": "BL: Energieeffizienz (BIP\u002FBruttoenergieverbrauch)",
-      "color": "#B375AB",
-      "id": "BL0612_3",
-      "valueSuffix": "Indexwert (Basis 1995 = 100)",
-      "data": [
-        93,
-        100,
-        111.2,
-        118.4,
-        125.2,
-        135.8,
-        156,
-        165,
-        176.7
-      ],
-      "_symbolIndex": 2
-    },
-    {
-      "includeInCSVExport": true,
-      "type": "line",
-      "showInNavigator": true,
-      "name": "BL: Energieverbrauch pro Einwohner",
-      "color": "#923F8D",
-      "id": "BL0612_4",
-      "valueSuffix": "Indexwert (Basis 1995 = 100)",
-      "data": [
-        97.1,
-        100,
-        99.1,
-        98.6,
-        97.8,
-        99,
-        95.7,
-        89.5,
-        85.9
-      ],
-      "_symbolIndex": 3
     }
   ]
 }

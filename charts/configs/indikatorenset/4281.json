@@ -137,6 +137,7 @@
 					  //console.log(label);
 					  
 					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
 					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
 					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
 					  
@@ -1579,7 +1580,7 @@
       },
       "type": "line",
       "showInNavigator": true,
-      "name": "Jahres-Grenzwert LRV",
+      "name": "Grenzwert",
       "color": "#444444",
       "id": "1111_5",
       "valueSuffix": "Mikrogramm pro Kubikmeter",

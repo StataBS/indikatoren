@@ -22,7 +22,7 @@
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 265.5h432m-432-44h432m-432-43h432m-432-44h432m-432-44h432"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid highcharts-navigator-yaxis">
-        <path fill="none" class="highcharts-grid-line" d="M57 322.5h404"/>
+        <path fill="none" class="highcharts-grid-line" d="M57 324.5h404"/>
     </g>
     <path fill="none" class="highcharts-plot-border" d="M43 90h432v175H43z"/>
     <g class="highcharts-axis highcharts-xaxis">
@@ -58,15 +58,8 @@
             <path fill="none" d="M-141.23 136.733l16.615-2.44 16.615-3.19 16.615-1.9 16.616-3.383 16.615-3.524 16.616-4.62 16.615-1.085 16.615-3.505 16.616-5.09 16.615-4.305 16.615-3.444 16.616-1.84 16.615-2.514 16.616-1.96 16.615.123 16.615 1.217 16.616.696 16.615-2.393 16.616-1.75 16.615-6.347 16.615-6.141 16.616-3.87 16.615-3.955 16.615-5.641 16.616-4.466 16.615-7.415 16.616-7.746L324 43.347l16.615 1.312 16.616-1.67 16.615-3.15 16.616-1.368 16.615.95 16.615-.41" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
             <path fill="none" d="M-151.23 136.733h10l16.615-2.44 16.615-3.19 16.615-1.9 16.616-3.383 16.615-3.524 16.616-4.62 16.615-1.085 16.615-3.505 16.616-5.09 16.615-4.305 16.615-3.444 16.616-1.84 16.615-2.514 16.616-1.96 16.615.123 16.615 1.217 16.616.696 16.615-2.393 16.616-1.75 16.615-6.347 16.615-6.141 16.616-3.87 16.615-3.955 16.615-5.641 16.616-4.466 16.615-7.415 16.616-7.746L324 43.347l16.615 1.312 16.616-1.67 16.615-3.15 16.616-1.368 16.615.95 16.615-.41h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(43 90)" clip-path="url(#a)">
-            <path fill="none" d="M-141.23 150.192l16.615-1.728L-108 146.94l16.615-.796 16.616-1.95 16.615-1.915 16.616-1.684 16.615-1.132 16.615-2.345 16.616-3.033 16.615-3.65 16.615-2.01 16.616-.764 16.615-.4 16.616-1.846 16.615-.562 16.615-.628 16.616-.98 16.615-1.293 16.616-1.083 16.615-2.7 16.615-2.75 16.616-1.095 16.615-.762 16.615-2.887 16.616-2.52 16.615-4.183 16.616-4.36L324 95.78l16.615 1.3 16.616-2.814 16.615-1.347 16.616 1.511 16.615-1.029 16.615-2.354" class="highcharts-graph" stroke="#B375AB" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-151.23 150.192h10l16.615-1.728L-108 146.94l16.615-.796 16.616-1.95 16.615-1.915 16.616-1.684 16.615-1.132 16.615-2.345 16.616-3.033 16.615-3.65 16.615-2.01 16.616-.764 16.615-.4 16.616-1.846 16.615-.562 16.615-.628 16.616-.98 16.615-1.293 16.616-1.083 16.615-2.7 16.615-2.75 16.616-1.095 16.615-.762 16.615-2.887 16.616-2.52 16.615-4.183 16.616-4.36L324 95.78l16.615 1.3 16.616-2.814 16.615-1.347 16.616 1.511 16.615-1.029 16.615-2.354h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
-        </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(57 311)" clip-path="url(#b)">
-            <path fill="none" d="M0 32.65l11.882-.727 11.883-.952 11.882-.567 11.882-1.01 11.883-1.05 11.882-1.38 11.882-.323 11.883-1.045 11.882-1.52 11.883-1.283 11.882-1.028 11.882-.549 11.883-.75 11.882-.585 11.882.037 11.883.363 11.882.208 11.882-.714 11.883-.522 11.882-1.894 11.882-1.832 11.883-1.155 11.882-1.18 11.882-1.683 11.883-1.333 11.882-2.212 11.883-2.311 11.882-.865 11.882.392 11.883-.498 11.882-.94 11.882-.409 11.883.284L404 3.495" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-        </g>
-        <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined" transform="translate(57 311)" clip-path="url(#b)">
-            <path fill="none" d="M0 36.667l11.882-.516 11.883-.455 11.882-.238 11.882-.581 11.883-.572 11.882-.502 11.882-.338 11.883-.7 11.882-.904 11.883-1.09 11.882-.6 11.882-.227 11.883-.12 11.882-.55 11.882-.168 11.883-.187L202 28.626l11.882-.385 11.883-.324 11.882-.805 11.882-.82 11.883-.327 11.882-.228 11.882-.861 11.883-.752 11.882-1.248 11.883-1.301 11.882-1.143 11.882.388 11.883-.84 11.882-.401 11.882.45 11.883-.306L404 19.02" class="highcharts-graph" stroke="#B375AB" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(57 311)" clip-path="url(#b)">
+            <path fill="none" d="M0 36.667l11.882-.828 11.883-1.082 11.882-.645 11.882-1.147 11.883-1.196 11.882-1.567 11.882-.368 11.883-1.189 11.882-1.727 11.883-1.46 11.882-1.168 11.882-.624 11.883-.853 11.882-.666 11.882.043 11.883.412 11.882.236 11.882-.811 11.883-.594 11.882-2.153 11.882-2.083 11.883-1.313 11.882-1.342 11.882-1.913 11.883-1.515 11.882-2.516 11.883-2.627 11.882-.984 11.882.446 11.883-.567 11.882-1.068 11.882-.465 11.883.322L404 3.517" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
@@ -76,17 +69,11 @@
         <tspan>Millionen CHF</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 40)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="323" height="38"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="148" height="38"/>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
             <path fill="none" d="M12 18h16" class="highcharts-graph" stroke="#FF8028" stroke-width="2"/>
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
                 <tspan>Kanton Basel-Stadt</tspan>
-            </text>
-        </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
-            <path fill="none" d="M156.328 18h16" class="highcharts-graph" stroke="#B375AB" stroke-width="2"/>
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(156.328 7)">
-                <tspan>Kanton Basel-Landschaft</tspan>
             </text>
         </g>
     </g>

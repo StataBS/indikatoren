@@ -27,10 +27,7 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(47 90)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" d="M14 132h15v123H14zm61-26h15v149H75zm61-12h15v161h-15zm61 4h15v157h-15zm62-8h15v165h-15zm61-45h15v210h-15zm61-10h15v220h-15z"/>
-        </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(47 90)" clip-path="url(#a)">
-            <path fill="#B375AB" class="highcharts-point" d="M32 133h15v122H32zm62-4h15v126H94zm61-5h15v131h-15zm61-4h15v135h-15zm61-6h15v141h-15zm61-4h15v145h-15zm61-4h15v149h-15z"/>
+            <path fill="#FF8028" class="highcharts-point" d="M16 132h30v123H16zm61-26h30v149H77zm61-12h30v161h-30zm61 4h30v157h-30zm61-8h30v165h-30zm62-45h30v210h-30zm61-10h30v220h-30z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
@@ -40,18 +37,12 @@
         <tspan>Prozent</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 40)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="323" height="38"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="148" height="38"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
                 <tspan>Kanton Basel-Stadt</tspan>
             </text>
             <path fill="#FF8028" class="highcharts-point" d="M14 11h12v12H14z"/>
-        </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(156.328 7)">
-                <tspan>Kanton Basel-Landschaft</tspan>
-            </text>
-            <path fill="#B375AB" class="highcharts-point" d="M158.328 11h12v12h-12z"/>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">

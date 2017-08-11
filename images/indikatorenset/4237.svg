@@ -30,10 +30,6 @@
             <path fill="none" d="M9.522 78.74l19.043-1.27 19.044 2.54 19.043 1.27h19.044l19.043-1.27 19.044-1.27 19.043-1.27h19.044l19.043-1.27 19.044-2.54L219 74.93l19.043 2.54 19.044-1.27h38.087l19.043-3.81h19.044l19.043-2.54h19.044l19.043-1.27 19.044-1.27h19.043" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
             <path fill="none" d="M-.478 78.74h10l19.043-1.27 19.044 2.54 19.043 1.27h19.044l19.043-1.27 19.044-1.27 19.043-1.27h19.044l19.043-1.27 19.044-2.54L219 74.93l19.043 2.54 19.044-1.27h38.087l19.043-3.81h19.044l19.043-2.54h19.044l19.043-1.27 19.044-1.27h29.043" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(37 90)" clip-path="url(#a)">
-            <path fill="none" d="M257.087 101.6l19.043 2.54 19.044 1.27 19.043-1.27 19.044-2.54 19.043-1.27 19.044 2.54 19.043-1.27 19.044-2.54h19.043" class="highcharts-graph" stroke="#B375AB" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M247.087 101.6h10l19.043 2.54 19.044 1.27 19.043-1.27 19.044-2.54 19.043-1.27 19.044 2.54 19.043-1.27 19.044-2.54h29.043" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
-        </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
         <tspan>Wassertemperatur Grundwasser</tspan>
@@ -42,17 +38,11 @@
         <tspan>°C</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 40)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="323" height="38"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="148" height="38"/>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
             <path fill="none" d="M12 18h16" class="highcharts-graph" stroke="#FF8028" stroke-width="2"/>
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
                 <tspan>Kanton Basel-Stadt</tspan>
-            </text>
-        </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
-            <path fill="none" d="M156.328 18h16" class="highcharts-graph" stroke="#B375AB" stroke-width="2"/>
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(156.328 7)">
-                <tspan>Kanton Basel-Landschaft</tspan>
             </text>
         </g>
     </g>

@@ -10,7 +10,7 @@
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M75.5 90v254m0-254v254m37-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m37-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m37-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254M39.5 90v254m0-254v254"/>
+        <path fill="none" class="highcharts-grid-line" d="M112.5 90v254m0-254v254m72-254v254m0-254v254m73-254v254m0-254v254m72-254v254m0-254v254m73-254v254m0-254v254m72-254v254m0-254v254M39.5 90v254m0-254v254"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M40 344.5h435m-435-63h435m-435-64h435m-435-63h435m-435-65h435"/>
@@ -27,12 +27,8 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(40 90)" clip-path="url(#a)">
-            <path fill="none" d="M54.375 66.04l145-5.08 72.5-17.78 72.5-7.62 36.25 12.7 36.25 20.32" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M44.375 66.04h10l145-5.08 72.5-17.78 72.5-7.62 36.25 12.7 36.25 20.32h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
-        </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(40 90)" clip-path="url(#a)">
-            <path fill="none" d="M18.125 71.12l36.25 5.08 36.25 2.54 36.25-2.54h36.25l36.25-2.54 36.25-5.08 36.25 2.54 36.25-5.08 36.25-2.54 36.25-2.54 36.25 10.16" class="highcharts-graph" stroke="#B375AB" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M8.125 71.12h10l36.25 5.08 36.25 2.54 36.25-2.54h36.25l36.25-2.54 36.25-5.08 36.25 2.54 36.25-5.08 36.25-2.54 36.25-2.54 36.25 10.16h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M36.25 66.04l72.5-5.08 72.5-17.78 72.5-7.62 72.5 12.7 72.5 20.32" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M26.25 66.04h10l72.5-5.08 72.5-17.78 72.5-7.62 72.5 12.7 72.5 20.32h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
@@ -42,55 +38,31 @@
         <tspan>Megawattstunden</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 40)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="323" height="38"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="148" height="38"/>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
             <path fill="none" d="M12 18h16" class="highcharts-graph" stroke="#FF8028" stroke-width="2"/>
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
                 <tspan>Kanton Basel-Stadt</tspan>
             </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
-            <path fill="none" d="M156.328 18h16" class="highcharts-graph" stroke="#B375AB" stroke-width="2"/>
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(156.328 7)">
-                <tspan>Kanton Basel-Landschaft</tspan>
-            </text>
-        </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
-        <text x="58.125" y="363">
-            1990
-        </text>
-        <text x="94.375" y="363">
+        <text x="76.25" y="363">
             1995
         </text>
-        <text x="130.625" y="363">
-            1997
-        </text>
-        <text x="166.875" y="363">
-            1998
-        </text>
-        <text x="203.125" y="363">
-            1999
-        </text>
-        <text x="239.375" y="363">
+        <text x="148.75" y="363">
             2000
         </text>
-        <text x="275.625" y="363">
-            2002
-        </text>
-        <text x="311.875" y="363">
+        <text x="221.25" y="363">
             2004
         </text>
-        <text x="348.125" y="363">
-            2006
-        </text>
-        <text x="384.375" y="363">
+        <text x="293.75" y="363">
             2010
         </text>
-        <text x="420.625" y="363">
+        <text x="366.25" y="363">
             2012
         </text>
-        <text x="456.875" y="363">
+        <text x="438.75" y="363">
             2014
         </text>
     </g>

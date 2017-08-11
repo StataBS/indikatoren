@@ -137,6 +137,7 @@
 					  //console.log(label);
 					  
 					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
 					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
 					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
 					  
@@ -1132,11 +1133,6 @@
       },
       {
         "includeInCSVExport": false,
-        "type": "column",
-        "color": "#B375AB"
-      },
-      {
-        "includeInCSVExport": false,
         "type": "line",
         "color": "#444444"
       }
@@ -1405,28 +1401,6 @@
         9,
         8,
         9
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": null,
-      "type": "column",
-      "showInNavigator": true,
-      "name": "Kanton Basel-Landschaft",
-      "color": "#B375AB",
-      "id": "BL1607_2",
-      "valueSuffix": "Milligramm pro Liter",
-      "data": [
-        6.7,
-        7.2,
-        7.1,
-        7.1,
-        6.8,
-        5.8,
-        5.8,
-        6.2,
-        6.9,
-        6.1
       ]
     },
     {

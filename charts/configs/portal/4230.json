@@ -137,6 +137,7 @@
 					  //console.log(label);
 					  
 					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
 					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
 					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
 					  
@@ -975,7 +976,7 @@
     "enabled": true,
     "align": "left",
     "layout": "horizontal",
-    "labelFormatter": function () { return this.name.replace(/(BS|BL|BS&BL|UBB|OBB): /, '');},
+    "labelFormatter": function () {return this.name;},
     "borderColor": "#999999",
     "borderRadius": 0,
     "navigation": {
@@ -1128,62 +1129,32 @@
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#73B97C"
+        "color": "#FF8028"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#68AB2B"
+        "color": "#DC440E"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#007A2F"
+        "color": "#B00000"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#0A3B19"
+        "color": "#661200"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#FFDA80"
+        "color": "#D3E2E4"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#FABD24"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#73B97C"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#68AB2B"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#007A2F"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#0A3B19"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#FFDA80"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#FABD24"
+        "color": "#A8C3CA"
       }
     ],
     "xAxis": {
@@ -1353,12 +1324,9 @@
   "xAxis": [
     {
       "categories": [
-        1990,
         1995,
         2000,
-        2002,
         2004,
-        2006,
         2010,
         2012,
         2014
@@ -1404,14 +1372,6 @@
 						  return this.axis.defaultLabelFormatter.call(this) + '';
 						}
       },
-      "stackLabels": {
-        "enabled": true,
-        "style": {
-          "fontSize": "0.8em",
-          "fontWeight": "normal"
-        },
-        "formatter": function () { return this.stack; }
-      },
       "index": 0
     },
     {
@@ -1445,14 +1405,10 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Heizöl (inkl. Flüssiggas)",
-      "color": "#73B97C",
+      "color": "#FF8028",
       "id": "BS0602_1",
       "valueSuffix": "Gigawattstunden",
       "data": [
-        [
-          1990,
-          null
-        ],
         [
           1995,
           1666
@@ -1462,16 +1418,8 @@
           1459
         ],
         [
-          2002,
-          null
-        ],
-        [
           2004,
           1189
-        ],
-        [
-          2006,
-          null
         ],
         [
           2010,
@@ -1494,14 +1442,10 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Treibstoffe",
-      "color": "#68AB2B",
+      "color": "#DC440E",
       "id": "BS0602_2",
       "valueSuffix": "Gigawattstunden",
       "data": [
-        [
-          1990,
-          null
-        ],
         [
           1995,
           629
@@ -1511,16 +1455,8 @@
           726
         ],
         [
-          2002,
-          null
-        ],
-        [
           2004,
           756
-        ],
-        [
-          2006,
-          null
         ],
         [
           2010,
@@ -1543,14 +1479,10 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Erdgas",
-      "color": "#007A2F",
+      "color": "#B00000",
       "id": "BS0602_3",
       "valueSuffix": "Gigawattstunden",
       "data": [
-        [
-          1990,
-          null
-        ],
         [
           1995,
           1911
@@ -1560,16 +1492,8 @@
           1855
         ],
         [
-          2002,
-          null
-        ],
-        [
           2004,
           2018.6
-        ],
-        [
-          2006,
-          null
         ],
         [
           2010,
@@ -1592,14 +1516,10 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Elektrizität",
-      "color": "#0A3B19",
+      "color": "#661200",
       "id": "BS0602_4",
       "valueSuffix": "Gigawattstunden",
       "data": [
-        [
-          1990,
-          null
-        ],
         [
           1995,
           1413
@@ -1609,16 +1529,8 @@
           1457
         ],
         [
-          2002,
-          null
-        ],
-        [
           2004,
           1572
-        ],
-        [
-          2006,
-          null
         ],
         [
           2010,
@@ -1641,14 +1553,10 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Kehricht, Industrieabfall",
-      "color": "#FFDA80",
+      "color": "#D3E2E4",
       "id": "BS0602_5",
       "valueSuffix": "Gigawattstunden",
       "data": [
-        [
-          1990,
-          null
-        ],
         [
           1995,
           643
@@ -1658,16 +1566,8 @@
           665
         ],
         [
-          2002,
-          null
-        ],
-        [
           2004,
           568.1
-        ],
-        [
-          2006,
-          null
         ],
         [
           2010,
@@ -1690,14 +1590,10 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Erneuerbare Energieträger",
-      "color": "#FABD24",
+      "color": "#A8C3CA",
       "id": "BS0602_6",
       "valueSuffix": "Gigawattstunden",
       "data": [
-        [
-          1990,
-          null
-        ],
         [
           1995,
           241.1
@@ -1707,16 +1603,8 @@
           239
         ],
         [
-          2002,
-          null
-        ],
-        [
           2004,
           272.3
-        ],
-        [
-          2006,
-          null
         ],
         [
           2010,
@@ -1729,306 +1617,6 @@
         [
           2014,
           503.7
-        ]
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0602_1",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Heizöl (inkl. Flüssiggas)",
-      "color": "#73B97C",
-      "id": "BL0602_7",
-      "valueSuffix": "Gigawattstunden",
-      "data": [
-        [
-          1990,
-          3251
-        ],
-        [
-          1995,
-          2446.4
-        ],
-        [
-          2000,
-          2032.4
-        ],
-        [
-          2002,
-          2033
-        ],
-        [
-          2004,
-          2127
-        ],
-        [
-          2006,
-          2143
-        ],
-        [
-          2010,
-          2009.4
-        ],
-        [
-          2012,
-          1591
-        ],
-        [
-          2014,
-          1438.5
-        ]
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0602_2",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Treibstoffe",
-      "color": "#68AB2B",
-      "id": "BL0602_8",
-      "valueSuffix": "Gigawattstunden",
-      "data": [
-        [
-          1990,
-          1690
-        ],
-        [
-          1995,
-          1813
-        ],
-        [
-          2000,
-          1934
-        ],
-        [
-          2002,
-          1905
-        ],
-        [
-          2004,
-          1884
-        ],
-        [
-          2006,
-          1884
-        ],
-        [
-          2010,
-          1844.2
-        ],
-        [
-          2012,
-          1820.8
-        ],
-        [
-          2014,
-          1807.8
-        ]
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0602_3",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Erdgas",
-      "color": "#007A2F",
-      "id": "BL0602_9",
-      "valueSuffix": "Gigawattstunden",
-      "data": [
-        [
-          1990,
-          785.3
-        ],
-        [
-          1995,
-          1504.4
-        ],
-        [
-          2000,
-          1652.8
-        ],
-        [
-          2002,
-          1707
-        ],
-        [
-          2004,
-          1617
-        ],
-        [
-          2006,
-          1671
-        ],
-        [
-          2010,
-          1683.9
-        ],
-        [
-          2012,
-          1561.6
-        ],
-        [
-          2014,
-          1546.2
-        ]
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0602_4",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Elektrizität",
-      "color": "#0A3B19",
-      "id": "BL0602_10",
-      "valueSuffix": "Gigawattstunden",
-      "data": [
-        [
-          1990,
-          1375.1
-        ],
-        [
-          1995,
-          1292.2
-        ],
-        [
-          2000,
-          1327.3
-        ],
-        [
-          2002,
-          1385
-        ],
-        [
-          2004,
-          1454
-        ],
-        [
-          2006,
-          1531
-        ],
-        [
-          2010,
-          1639.2
-        ],
-        [
-          2012,
-          1603.5
-        ],
-        [
-          2014,
-          1537.1
-        ]
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0602_5",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Kehricht, Industrieabfall",
-      "color": "#FFDA80",
-      "id": "BL0602_11",
-      "valueSuffix": "Gigawattstunden",
-      "data": [
-        [
-          1990,
-          112.8
-        ],
-        [
-          1995,
-          397.4
-        ],
-        [
-          2000,
-          586
-        ],
-        [
-          2002,
-          554
-        ],
-        [
-          2004,
-          520
-        ],
-        [
-          2006,
-          515
-        ],
-        [
-          2010,
-          421.8
-        ],
-        [
-          2012,
-          432.9
-        ],
-        [
-          2014,
-          452.3
-        ]
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0602_6",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Erneuerbare Energieträger",
-      "color": "#FABD24",
-      "id": "BL0602_12",
-      "valueSuffix": "Gigawattstunden",
-      "data": [
-        [
-          1990,
-          455.4
-        ],
-        [
-          1995,
-          568.8
-        ],
-        [
-          2000,
-          644.5
-        ],
-        [
-          2002,
-          616
-        ],
-        [
-          2004,
-          614
-        ],
-        [
-          2006,
-          622
-        ],
-        [
-          2010,
-          679.2
-        ],
-        [
-          2012,
-          803.1
-        ],
-        [
-          2014,
-          820.2
         ]
       ]
     }

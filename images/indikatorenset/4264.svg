@@ -1,42 +1,36 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h438v235H0z"/>
+            <path fill="none" d="M0 0h438v254H0z"/>
         </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M37 109h438v235H37z"/>
+    <path fill="none" class="highcharts-plot-background" d="M37 90h438v254H37z"/>
     <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M146.5 109v235m0-235v235m109-235v235m0-235v235m110-235v235m0-235v235m109-235v235m0-235v235m-438-235v235m0-235v235"/>
+        <path fill="none" class="highcharts-grid-line" d="M146.5 90v254m0-254v254m109-254v254m0-254v254m110-254v254m0-254v254m109-254v254m0-254v254M36.5 90v254m0-254v254"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M37 344.5h438m-438-59h438m-438-58h438m-438-59h438m-438-60h438"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M37 344.5h438m-438-63h438m-438-64h438m-438-63h438m-438-65h438"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M37 109h438v235H37z"/>
+    <path fill="none" class="highcharts-plot-border" d="M37 90h438v254H37z"/>
     <g class="highcharts-axis highcharts-xaxis">
         <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M37 344.5h438"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M37 109v235"/>
+        <path fill="none" class="highcharts-axis-line" d="M37 90v254"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M475 109v235"/>
+        <path fill="none" class="highcharts-axis-line" d="M475 90v254"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(37 109)" clip-path="url(#a)">
-            <path fill="#B375AB" class="highcharts-point" d="M24 218h14v18H24zm109-5h14v23h-14zm110-36h14v59h-14zm109 36h14v23h-14z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(37 90)" clip-path="url(#a)">
+            <path fill="#FF8028" class="highcharts-point" d="M25 166h27v89H25zm110 32h27v57h-27zm109-51h27v108h-27zm110 25h27v83h-27z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(37 109)" clip-path="url(#a)">
-            <path fill="#923F8D" class="highcharts-point" d="M40 130h14v106H40zm109-47h14v153h-14zm110-41h14v194h-14zm109 141h14v53h-14z"/>
-        </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(37 109)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" d="M56 154h14v82H56zm110 29h14v53h-14zm109-47h14v100h-14zm110 24h14v76h-14z"/>
-        </g>
-        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(37 109)" clip-path="url(#a)">
-            <path fill="#DC440E" class="highcharts-point" d="M73 183h14v53H73zM182 48h14v188h-14zm110 18h14v170h-14zm109 111h14v59h-14z"/>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(37 90)" clip-path="url(#a)">
+            <path fill="#DC440E" class="highcharts-point" d="M58 198h27v57H58zM168 52h27v203h-27zm109 19h27v184h-27zm110 121h27v63h-27z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
@@ -46,30 +40,18 @@
         <tspan>Anzahl Fälle</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 40)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="370" height="57"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="370" height="38"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
-                <tspan>BL: Anzahl Inspektionen</tspan>
-            </text>
-            <path fill="#B375AB" class="highcharts-point" d="M14 11h12v12H14z"/>
-        </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(182.344 7)">
-                <tspan>BL: Anzahl Beanstandungen</tspan>
-            </text>
-            <path fill="#923F8D" class="highcharts-point" d="M184.344 11h12v12h-12z"/>
-        </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 26)">
                 <tspan>BS: Anzahl Inspektionen</tspan>
             </text>
-            <path fill="#FF8028" class="highcharts-point" d="M14 30h12v12H14z"/>
+            <path fill="#FF8028" class="highcharts-point" d="M14 11h12v12H14z"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(183.672 26)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(183.672 7)">
                 <tspan>BS: Anzahl Beanstandungen</tspan>
             </text>
-            <path fill="#DC440E" class="highcharts-point" d="M185.672 30h12v12h-12z"/>
+            <path fill="#DC440E" class="highcharts-point" d="M185.672 11h12v12h-12z"/>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
@@ -90,16 +72,16 @@
         <text x="22" y="349">
             <tspan>0</tspan>
         </text>
-        <text x="22" y="290">
+        <text x="22" y="285">
             <tspan>10</tspan>
         </text>
-        <text x="22" y="231">
+        <text x="22" y="222">
             <tspan>20</tspan>
         </text>
-        <text x="22" y="172">
+        <text x="22" y="158">
             <tspan>30</tspan>
         </text>
-        <text x="22" y="114">
+        <text x="22" y="95">
             <tspan>40</tspan>
         </text>
     </g>
