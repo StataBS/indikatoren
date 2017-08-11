@@ -137,6 +137,7 @@
 					  //console.log(label);
 					  
 					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
 					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
 					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
 					  
@@ -1139,26 +1140,6 @@
         "includeInCSVExport": false,
         "type": "line",
         "color": "#B00000"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#B375AB"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#923F8D"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#662673"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#2E1435"
       }
     ],
     "xAxis": {
@@ -1471,90 +1452,6 @@
         null
       ],
       "_symbolIndex": 2
-    },
-    {
-      "includeInCSVExport": true,
-      "type": "line",
-      "showInNavigator": true,
-      "name": "BL: Buuserbach, Maisprach",
-      "color": "#B375AB",
-      "id": "BL1609_4",
-      "valueSuffix": "Anzahl Tage über 20°C",
-      "data": [
-        null,
-        null,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "_symbolIndex": 3
-    },
-    {
-      "includeInCSVExport": true,
-      "type": "line",
-      "showInNavigator": true,
-      "name": "BL: Ergolz, Augst",
-      "color": "#923F8D",
-      "id": "BL1609_5",
-      "valueSuffix": "Anzahl Tage über 20°C",
-      "data": [
-        null,
-        0,
-        5,
-        9,
-        2,
-        2,
-        2,
-        27,
-        0
-      ],
-      "_symbolIndex": 4
-    },
-    {
-      "includeInCSVExport": true,
-      "type": "line",
-      "showInNavigator": true,
-      "name": "BL: Birs, Münchenstein",
-      "color": "#662673",
-      "id": "BL1609_6",
-      "valueSuffix": "Anzahl Tage über 20°C",
-      "data": [
-        null,
-        7,
-        2,
-        8,
-        3,
-        0,
-        2,
-        31,
-        1
-      ],
-      "_symbolIndex": 0
-    },
-    {
-      "includeInCSVExport": true,
-      "type": "line",
-      "showInNavigator": true,
-      "name": "BL: Birsig, Binningen",
-      "color": "#2E1435",
-      "id": "BL1609_7",
-      "valueSuffix": "Anzahl Tage über 20°C",
-      "data": [
-        null,
-        11,
-        5,
-        10,
-        5,
-        3,
-        2,
-        30,
-        4
-      ],
-      "_symbolIndex": 1
     }
   ]
 }

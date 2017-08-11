@@ -1,45 +1,39 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h428v216H0z"/>
+            <path fill="none" d="M0 0h428v235H0z"/>
         </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M47 128h428v216H47z"/>
+    <path fill="none" class="highcharts-plot-background" d="M47 109h428v235H47z"/>
     <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M189.5 128v216m0-216v216m142-216v216m0-216v216m143-216v216m0-216v216m-428-216v216m0-216v216"/>
+        <path fill="none" class="highcharts-grid-line" d="M189.5 109v235m0-235v235m142-235v235m0-235v235m143-235v235m0-235v235m-428-235v235m0-235v235"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M47 344.5h428m-428-72h428m-428-72h428m-428-73h428"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M47 344.5h428m-428-78h428m-428-79h428m-428-79h428"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M47 128h428v216H47z"/>
+    <path fill="none" class="highcharts-plot-border" d="M47 109h428v235H47z"/>
     <g class="highcharts-axis highcharts-xaxis">
         <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M47 344.5h428"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M47 128v216"/>
+        <path fill="none" class="highcharts-axis-line" d="M47 109v235"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M475 128v216"/>
+        <path fill="none" class="highcharts-axis-line" d="M475 109v235"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(47 128)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" d="M30 122h14v95H30zm143-11h14v106h-14zm143 6h14v100h-14z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(47 109)" clip-path="url(#a)">
+            <path fill="#FF8028" class="highcharts-point" d="M31 133h23v103H31zm143-12h23v115h-23zm143 6h23v109h-23z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(47 128)" clip-path="url(#a)">
-            <path fill="#DC440E" class="highcharts-point" d="M47 98h14v119H47zm143-19h14v138h-14zm143 25h14v113h-14z"/>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(47 109)" clip-path="url(#a)">
+            <path fill="#DC440E" class="highcharts-point" d="M60 107h23v129H60zm143-21h23v150h-23zm142 27h23v123h-23z"/>
         </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(47 128)" clip-path="url(#a)">
-            <path fill="#B00000" class="highcharts-point" d="M64 33h14v184H64zm143 1h14v183h-14zm143 12h14v171h-14z"/>
-        </g>
-        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(47 128)" clip-path="url(#a)">
-            <path fill="#B375AB" class="highcharts-point" d="M367 169h14v48h-14z"/>
-        </g>
-        <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(47 128)" clip-path="url(#a)">
-            <path fill="#923F8D" class="highcharts-point" d="M384 142h14v75h-14z"/>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(47 109)" clip-path="url(#a)">
+            <path fill="#B00000" class="highcharts-point" d="M88 36h23v200H88zm143 1h23v199h-23zm143 13h23v186h-23z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
@@ -49,7 +43,7 @@
         <tspan>Prozent (Anteil an Bevölkerung)</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 40)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="412" height="76"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="412" height="57"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
                 <tspan>BS: Über Grenzwert am Tag</tspan>
@@ -68,18 +62,6 @@
             </text>
             <path fill="#B00000" class="highcharts-point" d="M14 30h12v12H14z"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(223.578 26)">
-                <tspan>BL: Über Grenzwert am Tag</tspan>
-            </text>
-            <path fill="#B375AB" class="highcharts-point" d="M225.578 30h12v12h-12z"/>
-        </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 45)">
-                <tspan>BL: Über Grenzwert in der Nacht</tspan>
-            </text>
-            <path fill="#923F8D" class="highcharts-point" d="M14 49h12v12H14z"/>
-        </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
         <text x="118.333" y="363">
@@ -96,13 +78,13 @@
         <text x="32" y="349">
             <tspan>0%</tspan>
         </text>
-        <text x="32" y="277">
+        <text x="32" y="270">
             <tspan>10%</tspan>
         </text>
-        <text x="32" y="205">
+        <text x="32" y="192">
             <tspan>20%</tspan>
         </text>
-        <text x="32" y="133">
+        <text x="32" y="114">
             <tspan>30%</tspan>
         </text>
     </g>

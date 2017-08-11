@@ -137,6 +137,7 @@
 					  //console.log(label);
 					  
 					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
 					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
 					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
 					  
@@ -975,7 +976,7 @@
     "enabled": true,
     "align": "left",
     "layout": "horizontal",
-    "labelFormatter": function () { return this.name.replace(/(BS|BL|BS&BL|UBB|OBB): /, '');},
+    "labelFormatter": function () {return this.name;},
     "borderColor": "#999999",
     "borderRadius": 0,
     "navigation": {
@@ -1128,22 +1129,12 @@
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#73B97C"
+        "color": "#FF8028"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#68AB2B"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#73B97C"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#68AB2B"
+        "color": "#DC440E"
       }
     ],
     "xAxis": {
@@ -1313,8 +1304,7 @@
   "xAxis": [
     {
       "categories": [
-        2015,
-        2016
+        2015
       ],
       "tickLength": 0,
       "title": {
@@ -1356,16 +1346,6 @@
 						  return this.axis.defaultLabelFormatter.call(this) + '%';
 						}
       },
-      "stackLabels": {
-        "enabled": true,
-        "y": -5,
-        "crop": false,
-        "style": {
-          "fontSize": "0.8em",
-          "fontWeight": "normal"
-        },
-        "formatter": function () { return this.stack; }
-      },
       "index": 0
     },
     {
@@ -1406,12 +1386,11 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Geplant \u002F noch ausstehend bis 2035",
-      "color": "#73B97C",
+      "color": "#FF8028",
       "id": "BS1616_1",
       "valueSuffix": "Kilometer",
       "data": [
-        9.3,
-        null
+        9.3
       ],
       "tooltip": {
         "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E km (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
@@ -1431,50 +1410,11 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Umgesetzt",
-      "color": "#68AB2B",
+      "color": "#DC440E",
       "id": "BS1616_2",
       "valueSuffix": "Kilometer",
       "data": [
-        0.3,
-        null
-      ],
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E km (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "percent",
-      "stack": "BL",
-      "linkedTo": "BS1616_1",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Geplant \u002F noch ausstehend bis 2035",
-      "color": "#73B97C",
-      "id": "BL1616_3",
-      "valueSuffix": "Kilometer",
-      "data": [
-        21.3,
-        19.4
-      ],
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E km (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "percent",
-      "stack": "BL",
-      "linkedTo": "BS1616_2",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Umgesetzt",
-      "color": "#68AB2B",
-      "id": "BL1616_4",
-      "valueSuffix": "Kilometer",
-      "data": [
-        1.8,
-        3.6
+        0.3
       ],
       "tooltip": {
         "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E km (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"

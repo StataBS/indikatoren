@@ -137,6 +137,7 @@
 					  //console.log(label);
 					  
 					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
 					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
 					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
 					  
@@ -1133,11 +1134,6 @@
       {
         "includeInCSVExport": false,
         "type": "line",
-        "color": "#B375AB"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
         "color": "#444444"
       }
     ],
@@ -1415,31 +1411,6 @@
     },
     {
       "includeInCSVExport": true,
-      "type": "line",
-      "showInNavigator": true,
-      "name": "Kanton Basel-Landschaft",
-      "color": "#B375AB",
-      "id": "BL1604_2",
-      "valueSuffix": "Milligramm pro Liter",
-      "data": [
-        null,
-        null,
-        null,
-        0.026,
-        0.021,
-        0.037,
-        0.024,
-        0.031,
-        0.025,
-        0.024,
-        0.034,
-        0.035,
-        0.021
-      ],
-      "_symbolIndex": 1
-    },
-    {
-      "includeInCSVExport": true,
       "tooltip": {
         "headerFormat": "\u003Cspan style='width: 80px'\u003E\u003Cspan style='color:{point.color}; width: 10px; font-size: 1.8em;'\u003E■\u003C\u002Fspan\u003E\u003Cspan style='font-size: 1em;'\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style='padding-left: 15px; line-height: 1.4em;'\u003E"
       },
@@ -1454,7 +1425,7 @@
       },
       "type": "line",
       "showInNavigator": true,
-      "name": "Grenzwert (0,08 mg\u002Fl)",
+      "name": "Grenzwert",
       "color": "#444444",
       "id": "1604_3",
       "valueSuffix": "Milligramm pro Liter",
@@ -1473,7 +1444,7 @@
         0.08,
         0.08
       ],
-      "_symbolIndex": 2
+      "_symbolIndex": 1
     }
   ]
 }

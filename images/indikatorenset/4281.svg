@@ -82,7 +82,7 @@
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-4">
             <path fill="none" d="M97.672 37h16" class="highcharts-graph" stroke-dasharray="6,2" stroke="#444" stroke-width="2"/>
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(97.672 26)">
-                <tspan>Jahres-Grenzwert LRV</tspan>
+                <tspan>Grenzwert</tspan>
             </text>
         </g>
     </g>

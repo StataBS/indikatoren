@@ -137,6 +137,7 @@
 					  //console.log(label);
 					  
 					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
 					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
 					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
 					  
@@ -975,7 +976,7 @@
     "enabled": true,
     "align": "left",
     "layout": "horizontal",
-    "labelFormatter": function () { return this.name.replace(/(BS|BL|BS&BL|UBB|OBB): /, '');},
+    "labelFormatter": function () {return this.name;},
     "borderColor": "#999999",
     "borderRadius": 0,
     "navigation": {
@@ -1128,72 +1129,37 @@
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#73B97C"
+        "color": "#FF8028"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#68AB2B"
+        "color": "#DC440E"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#007A2F"
+        "color": "#B00000"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#0A3B19"
+        "color": "#661200"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#FFDA80"
+        "color": "#D3E2E4"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#FABD24"
+        "color": "#A8C3CA"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#CD9C00"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#73B97C"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#68AB2B"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#007A2F"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#0A3B19"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#FFDA80"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#FABD24"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#CD9C00"
+        "color": "#689199"
       }
     ],
     "xAxis": {
@@ -1413,14 +1379,6 @@
 						  return this.axis.defaultLabelFormatter.call(this) + '';
 						}
       },
-      "stackLabels": {
-        "enabled": true,
-        "style": {
-          "fontSize": "0.8em",
-          "fontWeight": "normal"
-        },
-        "formatter": function () { return this.stack; }
-      },
       "index": 0
     },
     {
@@ -1454,7 +1412,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Schutzwaldpflege",
-      "color": "#73B97C",
+      "color": "#FF8028",
       "id": "BS0704_1",
       "valueSuffix": "Tausend CHF",
       "data": [
@@ -1476,7 +1434,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Gefahrengrundlagen WaG",
-      "color": "#68AB2B",
+      "color": "#DC440E",
       "id": "BS0704_2",
       "valueSuffix": "Tausend CHF",
       "data": [
@@ -1498,7 +1456,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Grundangebot Schutzbauten WaG",
-      "color": "#007A2F",
+      "color": "#B00000",
       "id": "BS0704_3",
       "valueSuffix": "Tausend CHF",
       "data": [
@@ -1520,7 +1478,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Einzelprojekte WaG",
-      "color": "#0A3B19",
+      "color": "#661200",
       "id": "BS0704_4",
       "valueSuffix": "Tausend CHF",
       "data": [
@@ -1542,7 +1500,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Gefahrengrundlagen WBG",
-      "color": "#FFDA80",
+      "color": "#D3E2E4",
       "id": "BS0704_5",
       "valueSuffix": "Tausend CHF",
       "data": [
@@ -1564,7 +1522,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Grundangebot Schutzbauten WBG",
-      "color": "#FABD24",
+      "color": "#A8C3CA",
       "id": "BS0704_6",
       "valueSuffix": "Tausend CHF",
       "data": [
@@ -1586,7 +1544,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Einzelprojekte WBG",
-      "color": "#CD9C00",
+      "color": "#689199",
       "id": "BS0704_7",
       "valueSuffix": "Tausend CHF",
       "data": [
@@ -1599,167 +1557,6 @@
         0,
         0,
         0
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0704_1",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Schutzwaldpflege",
-      "color": "#73B97C",
-      "id": "BL0704_8",
-      "valueSuffix": "Tausend CHF",
-      "data": [
-        571.4,
-        716.6,
-        682.5,
-        678.8,
-        522.2,
-        1036.8,
-        914.4,
-        579.7,
-        566.1
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0704_2",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Gefahrengrundlagen WaG",
-      "color": "#68AB2B",
-      "id": "BL0704_9",
-      "valueSuffix": "Tausend CHF",
-      "data": [
-        291.8,
-        411.4,
-        217.5,
-        348.2,
-        79.1,
-        56.3,
-        117.6,
-        117.1,
-        27.4
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0704_3",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Grundangebot Schutzbauten WaG",
-      "color": "#007A2F",
-      "id": "BL0704_10",
-      "valueSuffix": "Tausend CHF",
-      "data": [
-        126.4,
-        173,
-        39,
-        0,
-        21.9,
-        21.9,
-        801.6,
-        168.2,
-        265.6
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0704_4",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Einzelprojekte WaG",
-      "color": "#0A3B19",
-      "id": "BL0704_11",
-      "valueSuffix": "Tausend CHF",
-      "data": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        600,
-        553.6,
-        230.4
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0704_5",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Gefahrengrundlagen WBG",
-      "color": "#FFDA80",
-      "id": "BL0704_12",
-      "valueSuffix": "Tausend CHF",
-      "data": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0704_6",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Grundangebot Schutzbauten WBG",
-      "color": "#FABD24",
-      "id": "BL0704_13",
-      "valueSuffix": "Tausend CHF",
-      "data": [
-        771,
-        1048.5,
-        1089,
-        1321.6,
-        1750,
-        599.4,
-        1478.5,
-        1239.9,
-        766.3
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BL",
-      "linkedTo": "BS0704_7",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Einzelprojekte WBG",
-      "color": "#CD9C00",
-      "id": "BL0704_14",
-      "valueSuffix": "Tausend CHF",
-      "data": [
-        1698.3,
-        123.7,
-        489.8,
-        1768.7,
-        1066.6,
-        581.1,
-        1378.1,
-        1370.2,
-        784.9
       ]
     }
   ]
