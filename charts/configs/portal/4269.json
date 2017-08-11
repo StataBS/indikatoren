@@ -137,6 +137,7 @@
 					  //console.log(label);
 					  
 					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
 					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
 					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
 					  
@@ -1139,16 +1140,6 @@
         "includeInCSVExport": false,
         "type": "column",
         "color": "#B00000"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#B375AB"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#923F8D"
       }
     ],
     "xAxis": {
@@ -1437,50 +1428,6 @@
         25.5,
         25.4,
         23.8
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": null,
-      "tooltip": {
-        "headerFormat": "\u003Cspan style='width: 80px'\u003E\u003Cspan style='color:{point.color}; width: 10px; font-size: 1.8em;'\u003E■\u003C\u002Fspan\u003E\u003Cspan style='font-size: 1em;'\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style='padding-left: 15px; line-height: 1.4em;'\u003E"
-      },
-      "marker": {
-        "enabled": true,
-        "radius": 5
-      },
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Über Grenzwert am Tag",
-      "color": "#B375AB",
-      "id": "BL1002_4",
-      "valueSuffix": "Prozent (Anteil an Bevölkerung)",
-      "data": [
-        null,
-        null,
-        6.7
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": null,
-      "tooltip": {
-        "headerFormat": "\u003Cspan style='width: 80px'\u003E\u003Cspan style='color:{point.color}; width: 10px; font-size: 1.8em;'\u003E■\u003C\u002Fspan\u003E\u003Cspan style='font-size: 1em;'\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style='padding-left: 15px; line-height: 1.4em;'\u003E"
-      },
-      "marker": {
-        "enabled": true,
-        "radius": 5
-      },
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Über Grenzwert in der Nacht",
-      "color": "#923F8D",
-      "id": "BL1002_5",
-      "valueSuffix": "Prozent (Anteil an Bevölkerung)",
-      "data": [
-        null,
-        null,
-        10.4
       ]
     }
   ]

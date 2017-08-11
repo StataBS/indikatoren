@@ -137,6 +137,7 @@
 					  //console.log(label);
 					  
 					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
 					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
 					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
 					  
@@ -1129,11 +1130,6 @@
         "includeInCSVExport": false,
         "type": "line",
         "color": "#FF8028"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#B375AB"
       }
     ],
     "xAxis": {
@@ -1429,42 +1425,6 @@
         36.4
       ],
       "_symbolIndex": 0
-    },
-    {
-      "includeInCSVExport": true,
-      "type": "line",
-      "showInNavigator": true,
-      "name": "Kanton Basel-Landschaft",
-      "color": "#B375AB",
-      "id": "BL1602_2",
-      "valueSuffix": "Prozent (Anteil der Messstellen mit Grenzwertüberschreitung)",
-      "data": [
-        15.1,
-        15.9,
-        17.1,
-        16.2,
-        16.3,
-        15.5,
-        15.2,
-        14.3,
-        17.3,
-        13,
-        13.5,
-        16.6,
-        15,
-        18.6,
-        17.5,
-        18,
-        16.4,
-        17.8,
-        16.7,
-        12.7,
-        12.1,
-        10.7,
-        11.4,
-        9.2
-      ],
-      "_symbolIndex": 1
     }
   ]
 }

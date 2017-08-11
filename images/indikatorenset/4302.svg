@@ -10,7 +10,7 @@
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M81.5 90v254m0-254v254m40-254v254m0-254v254m39-254v254m0-254v254m39-254v254m0-254v254m39-254v254m0-254v254m40-254v254m0-254v254m39-254v254m0-254v254m39-254v254m0-254v254m39-254v254m0-254v254m40-254v254m0-254v254m39-254v254m0-254v254M42.5 90v254m0-254v254"/>
+        <path fill="none" class="highcharts-grid-line" d="M85.5 90v254m0-254v254m43-254v254m0-254v254m44-254v254m0-254v254m43-254v254m0-254v254m43-254v254m0-254v254m43-254v254m0-254v254m43-254v254m0-254v254m44-254v254m0-254v254m43-254v254m0-254v254m43-254v254m0-254v254M42.5 90v254m0-254v254"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 344.5h432m-432-51h432m-432-51h432m-432-50h432m-432-51h432m-432-52h432"/>
@@ -27,10 +27,7 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 90)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" d="M9 59h10v196H9zm39 3h10v193H48zm40 7h10v186H88zm39 9h10v177h-10zm39 7h10v170h-10zm39 5h10v165h-10zm40 7h10v158h-10zm39 4h10v154h-10zm39 4h10v150h-10zm39 5h10v145h-10z"/>
-        </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 90)" clip-path="url(#a)">
-            <path fill="#B375AB" class="highcharts-point" d="M60 60h10v195H60zm39 6h10v189H99zm40 13h10v176h-10zm39 5h10v171h-10zm39 7h10v164h-10zm39 4h10v160h-10zm40 6h10v154h-10zm39 1h10v153h-10zm39 9h10v144h-10zm40 2h10v142h-10z"/>
+            <path fill="#FF8028" class="highcharts-point" d="M11 59h21v196H11zm43 3h21v193H54zm44 7h21v186H98zm43 9h21v177h-21zm43 7h21v170h-21zm43 5h21v165h-21zm43 7h21v158h-21zm44 4h21v154h-21zm43 4h21v150h-21zm43 5h21v145h-21z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
@@ -40,53 +37,44 @@
         <tspan>Gramm pro Kilometer</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 40)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="323" height="38"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="148" height="38"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
                 <tspan>Kanton Basel-Stadt</tspan>
             </text>
             <path fill="#FF8028" class="highcharts-point" d="M14 11h12v12H14z"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(156.328 7)">
-                <tspan>Kanton Basel-Landschaft</tspan>
-            </text>
-            <path fill="#B375AB" class="highcharts-point" d="M158.328 11h12v12h-12z"/>
-        </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
-        <text x="62.636" y="363">
+        <text x="64.6" y="363">
             2006
         </text>
-        <text x="101.909" y="363">
+        <text x="107.8" y="363">
             2007
         </text>
-        <text x="141.182" y="363">
+        <text x="151" y="363">
             2008
         </text>
-        <text x="180.455" y="363">
+        <text x="194.2" y="363">
             2009
         </text>
-        <text x="219.727" y="363">
+        <text x="237.4" y="363">
             2010
         </text>
-        <text x="259" y="363">
+        <text x="280.6" y="363">
             2011
         </text>
-        <text x="298.273" y="363">
+        <text x="323.8" y="363">
             2012
         </text>
-        <text x="337.545" y="363">
+        <text x="367" y="363">
             2013
         </text>
-        <text x="376.818" y="363">
+        <text x="410.2" y="363">
             2014
         </text>
-        <text x="416.091" y="363">
+        <text x="453.4" y="363">
             2015
-        </text>
-        <text x="455.364" y="363">
-            2016
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">

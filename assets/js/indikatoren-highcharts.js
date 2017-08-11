@@ -7,7 +7,7 @@ global indikatoren
 global templatesById
 */
 
-//"use strict"; 
+"use strict"; 
 
 //parse csv and configure HighCharts object
 function parseData(chartOptions, data, completeHandler) {

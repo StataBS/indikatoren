@@ -137,6 +137,7 @@
 					  //console.log(label);
 					  
 					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
 					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
 					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
 					  
@@ -1129,11 +1130,6 @@
         "includeInCSVExport": false,
         "type": "column",
         "color": "#FF8028"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#B375AB"
       }
     ],
     "xAxis": {
@@ -1303,12 +1299,6 @@
   "xAxis": [
     {
       "categories": [
-        1987,
-        1988,
-        1989,
-        1990,
-        1991,
-        1992,
         1993,
         1994,
         1995,
@@ -1410,12 +1400,6 @@
       "id": "BS1611_1",
       "valueSuffix": "Prozent (Anteil der Messstellen mit Überschreitungen des Anforderungswertes)",
       "data": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         1.1,
         0.56,
         0.35,
@@ -1440,48 +1424,6 @@
         1.2,
         0.29,
         0.4
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": null,
-      "type": "column",
-      "showInNavigator": true,
-      "name": "Kanton Basel-Landschaft",
-      "color": "#B375AB",
-      "id": "BL1611_2",
-      "valueSuffix": "Prozent (Anteil der Messstellen mit Überschreitungen des Anforderungswertes)",
-      "data": [
-        51.6,
-        62.6,
-        74.7,
-        58.3,
-        68.3,
-        81.1,
-        46.4,
-        52.9,
-        49.2,
-        29.8,
-        32.8,
-        30.6,
-        17.8,
-        12.8,
-        10.2,
-        4.2,
-        5.9,
-        8.5,
-        4.2,
-        13,
-        8.8,
-        10.2,
-        6.5,
-        7.1,
-        19.1,
-        8.1,
-        14.6,
-        7.7,
-        5.6,
-        12
       ]
     }
   ]

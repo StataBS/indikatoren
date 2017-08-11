@@ -1,46 +1,38 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h432v197H0z"/>
+            <path fill="none" d="M0 0h432v235H0z"/>
         </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M43 147h432v197H43z"/>
+    <path fill="none" class="highcharts-plot-background" d="M43 109h432v235H43z"/>
     <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M90.5 147v197m0-197v197m48-197v197m0-197v197m48-197v197m0-197v197m48-197v197m0-197v197m48-197v197m0-197v197m48-197v197m0-197v197m48-197v197m0-197v197m48-197v197m0-197v197m48-197v197m0-197v197m-432-197v197m0-197v197"/>
+        <path fill="none" class="highcharts-grid-line" d="M114.5 109v235m0-235v235m72-235v235m0-235v235m72-235v235m0-235v235m72-235v235m0-235v235m72-235v235m0-235v235m72-235v235m0-235v235m-432-235v235m0-235v235"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 344.5h432m-432-49h432m-432-49h432m-432-50h432m-432-50h432"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 344.5h432m-432-59h432m-432-58h432m-432-59h432m-432-60h432"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M43 147h432v197H43z"/>
+    <path fill="none" class="highcharts-plot-border" d="M43 109h432v235H43z"/>
     <g class="highcharts-axis highcharts-xaxis">
         <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M43 344.5h432"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M43 147v197"/>
+        <path fill="none" class="highcharts-axis-line" d="M43 109v235"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M475 147v197"/>
+        <path fill="none" class="highcharts-axis-line" d="M475 109v235"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(43 147)" clip-path="url(#a)">
-            <path fill="none" d="M72 147.75l48-12.214 96-24.724 96-46.59 48-20.094 48-18.715" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M62 147.75h10l48-12.214 96-24.724 96-46.59 48-20.094 48-18.715h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(43 109)" clip-path="url(#a)">
+            <path fill="none" d="M36 176.25l72-14.57 72-29.493 72-55.577 72-23.97 72-22.325" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M26 176.25h10l72-14.57 72-29.493 72-55.577 72-23.97 72-22.325h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(43 147)" clip-path="url(#a)">
-            <path fill="none" d="M72 147.75l48-3.447 96 .098 96 11.623 48 6.6 48 8.668" class="highcharts-graph" stroke="#DC440E" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M62 147.75h10l48-3.447 96 .098 96 11.623 48 6.6 48 8.668h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
-        </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(43 147)" clip-path="url(#a)">
-            <path fill="none" d="M24 154.645l48-6.895 48-11.032 48-7.092 48-6.698 48-10.441 48-19.897 48-8.865 48-11.524" class="highcharts-graph" stroke="#B375AB" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M14 154.645h10l48-6.895 48-11.032 48-7.092 48-6.698 48-10.441 48-19.897 48-8.865 48-11.524h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
-        </g>
-        <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined" transform="translate(43 147)" clip-path="url(#a)">
-            <path fill="none" d="M24 150.607l48-2.857 48 .887 48 .492 48 .788 48-1.182 48 3.25 48 6.107 48 3.546" class="highcharts-graph" stroke="#923F8D" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M14 150.607h10l48-2.857 48 .887 48 .492 48 .788 48-1.182 48 3.25 48 6.107 48 3.546h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(43 109)" clip-path="url(#a)">
+            <path fill="none" d="M36 176.25l72-4.113 72 .118 72 13.865 72 7.873 72 10.34" class="highcharts-graph" stroke="#DC440E" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M26 176.25h10l72-4.113 72 .118 72 13.865 72 7.873 72 10.34h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
@@ -50,7 +42,7 @@
         <tspan>Indexwert (Basis 1995 = 100)</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 40)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="312" height="95"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="312" height="57"/>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
             <path fill="none" d="M12 18h16" class="highcharts-graph" stroke="#FF8028" stroke-width="2"/>
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
@@ -63,45 +55,24 @@
                 <tspan>BS: Energieverbrauch pro Einwohner</tspan>
             </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2">
-            <path fill="none" d="M12 56h16" class="highcharts-graph" stroke="#B375AB" stroke-width="2"/>
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 45)">
-                <tspan>BL: Energieeffizienz (BIP/Bruttoenergieverbrauch)</tspan>
-            </text>
-        </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3">
-            <path fill="none" d="M12 75h16" class="highcharts-graph" stroke="#923F8D" stroke-width="2"/>
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 64)">
-                <tspan>BL: Energieverbrauch pro Einwohner</tspan>
-            </text>
-        </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
-        <text x="67" y="363">
-            1990
-        </text>
-        <text x="115" y="363">
+        <text x="79" y="363">
             1995
         </text>
-        <text x="163" y="363">
+        <text x="151" y="363">
             2000
         </text>
-        <text x="211" y="363">
-            2002
-        </text>
-        <text x="259" y="363">
+        <text x="223" y="363">
             2004
         </text>
-        <text x="307" y="363">
-            2006
-        </text>
-        <text x="355" y="363">
+        <text x="295" y="363">
             2010
         </text>
-        <text x="403" y="363">
+        <text x="367" y="363">
             2012
         </text>
-        <text x="451" y="363">
+        <text x="439" y="363">
             2014
         </text>
     </g>
@@ -109,16 +80,16 @@
         <text x="28" y="352">
             <tspan>50</tspan>
         </text>
-        <text x="28" y="302">
+        <text x="28" y="293">
             <tspan>100</tspan>
         </text>
-        <text x="28" y="253">
+        <text x="28" y="234">
             <tspan>150</tspan>
         </text>
-        <text x="28" y="204">
+        <text x="28" y="175">
             <tspan>200</tspan>
         </text>
-        <text x="28" y="155">
+        <text x="28" y="117">
             <tspan>250</tspan>
         </text>
     </g>

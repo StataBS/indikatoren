@@ -137,6 +137,7 @@
 					  //console.log(label);
 					  
 					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
 					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
 					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
 					  
@@ -1129,11 +1130,6 @@
         "includeInCSVExport": false,
         "type": "line",
         "color": "#FF8028"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#B375AB"
       }
     ],
     "xAxis": {
@@ -1473,64 +1469,6 @@
         197926
       ],
       "_symbolIndex": 0
-    },
-    {
-      "includeInCSVExport": true,
-      "type": "line",
-      "showInNavigator": true,
-      "name": "Kanton Basel-Landschaft",
-      "color": "#B375AB",
-      "id": "BL1702_2",
-      "valueSuffix": "Anzahl Personen",
-      "data": [
-        209907,
-        215692,
-        219389,
-        222448,
-        221832,
-        219766,
-        218671,
-        219197,
-        220201,
-        221490,
-        222969,
-        223848,
-        224849,
-        226137,
-        227733,
-        229220,
-        231289,
-        233196,
-        234242,
-        235708,
-        237147,
-        237870,
-        253211,
-        254156,
-        254950,
-        256160,
-        257371,
-        258768,
-        260681,
-        262206,
-        262832,
-        264219,
-        265833,
-        266989,
-        267694,
-        268640,
-        270047,
-        271980,
-        273791,
-        274943,
-        276202,
-        277357,
-        278612,
-        281280,
-        283545,
-        285765
-      ],
-      "_symbolIndex": 1
     }
   ]
 }

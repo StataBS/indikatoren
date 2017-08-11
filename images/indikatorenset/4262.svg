@@ -1,36 +1,33 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h432v221H0z"/>
+            <path fill="none" d="M0 0h432v240H0z"/>
         </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M43 123h432v221H43z"/>
+    <path fill="none" class="highcharts-plot-background" d="M43 104h432v240H43z"/>
     <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M128.5 123v221m0-221v221m87-221v221m0-221v221m86-221v221m0-221v221m87-221v221m0-221v221m86-221v221m0-221v221m-432-221v221m0-221v221"/>
+        <path fill="none" class="highcharts-grid-line" d="M128.5 104v240m0-240v240m87-240v240m0-240v240m86-240v240m0-240v240m87-240v240m0-240v240m86-240v240m0-240v240m-432-240v240m0-240v240"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 344.5h432m-432-74h432m-432-73h432m-432-75h432"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 344.5h432m-432-80h432m-432-80h432m-432-81h432"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M43 123h432v221H43z"/>
+    <path fill="none" class="highcharts-plot-border" d="M43 104h432v240H43z"/>
     <g class="highcharts-axis highcharts-xaxis">
         <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M43 344.5h432"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M43 123v221"/>
+        <path fill="none" class="highcharts-axis-line" d="M43 104v240"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M475 123v221"/>
+        <path fill="none" class="highcharts-axis-line" d="M475 104v240"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 123)" clip-path="url(#a)">
-            <path fill="#B375AB" class="highcharts-point" d="M20 221h21v1H20z"/>
-        </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 123)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" d="M46 172h21v50H46zm86-139h21v189h-21zm87 124h21v65h-21zm86 53h21v12h-21zm86-25h21v37h-21z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 104)" clip-path="url(#a)">
+            <path fill="#FF8028" class="highcharts-point" d="M22 187h42v54H22zm87-151h42v205h-42zm86 135h42v70h-42zm87 57h42v13h-42zm86-27h42v40h-42z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
@@ -40,18 +37,12 @@
         <tspan>Anzahl Pflanzen</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 54)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="304" height="57"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="304" height="38"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
-                <tspan>BL: Auhafen Muttenz</tspan>
-            </text>
-            <path fill="#B375AB" class="highcharts-point" d="M14 11h12v12H14z"/>
-        </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 26)">
                 <tspan>BS: Hafen Kleinhünigen und Bahnhof St. Johann</tspan>
             </text>
-            <path fill="#FF8028" class="highcharts-point" d="M14 30h12v12H14z"/>
+            <path fill="#FF8028" class="highcharts-point" d="M14 11h12v12H14z"/>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
@@ -75,13 +66,13 @@
         <text x="28" y="349">
             <tspan>0</tspan>
         </text>
-        <text x="28" y="275">
+        <text x="28" y="269">
             <tspan>50</tspan>
         </text>
-        <text x="28" y="201">
+        <text x="28" y="189">
             <tspan>100</tspan>
         </text>
-        <text x="28" y="128">
+        <text x="28" y="109">
             <tspan>150</tspan>
         </text>
     </g>

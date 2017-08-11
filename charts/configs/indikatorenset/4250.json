@@ -137,6 +137,7 @@
 					  //console.log(label);
 					  
 					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
 					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
 					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
 					  
@@ -975,7 +976,7 @@
     "enabled": true,
     "align": "left",
     "layout": "horizontal",
-    "labelFormatter": function () { return this.name.replace(/(BS|BL|BS&BL|UBB|OBB): /, '');},
+    "labelFormatter": function () {return this.name;},
     "borderColor": "#999999",
     "borderRadius": 0,
     "navigation": {
@@ -1128,82 +1129,42 @@
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#73B97C"
+        "color": "#FF8028"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#68AB2B"
+        "color": "#DC440E"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#007A2F"
+        "color": "#B00000"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#0A3B19"
+        "color": "#661200"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#FFDA80"
+        "color": "#D3E2E4"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#FABD24"
+        "color": "#A8C3CA"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#CD9C00"
+        "color": "#689199"
       },
       {
         "includeInCSVExport": false,
         "type": "column",
-        "color": "#7F5F1A"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#73B97C"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#68AB2B"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#007A2F"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#0A3B19"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#FFDA80"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#FABD24"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#CD9C00"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#7F5F1A"
+        "color": "#246370"
       }
     ],
     "xAxis": {
@@ -1435,16 +1396,6 @@
 						  return this.axis.defaultLabelFormatter.call(this) + '%';
 						}
       },
-      "stackLabels": {
-        "enabled": true,
-        "y": -5,
-        "crop": false,
-        "style": {
-          "fontSize": "0.8em",
-          "fontWeight": "normal"
-        },
-        "formatter": function () { return this.stack; }
-      },
       "index": 0
     },
     {
@@ -1478,7 +1429,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Getreide",
-      "color": "#73B97C",
+      "color": "#FF8028",
       "id": "BS0507_1",
       "valueSuffix": "Hektaren",
       "data": [
@@ -1515,7 +1466,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Silo- und Grünmais",
-      "color": "#68AB2B",
+      "color": "#DC440E",
       "id": "BS0507_2",
       "valueSuffix": "Hektaren",
       "data": [
@@ -1552,7 +1503,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Ölsaaten",
-      "color": "#007A2F",
+      "color": "#B00000",
       "id": "BS0507_3",
       "valueSuffix": "Hektaren",
       "data": [
@@ -1589,7 +1540,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Kartoffeln, Rüben",
-      "color": "#0A3B19",
+      "color": "#661200",
       "id": "BS0507_4",
       "valueSuffix": "Hektaren",
       "data": [
@@ -1626,7 +1577,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Übrige offene Ackerfläche",
-      "color": "#FFDA80",
+      "color": "#D3E2E4",
       "id": "BS0507_5",
       "valueSuffix": "Hektaren",
       "data": [
@@ -1663,7 +1614,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Grünfläche",
-      "color": "#FABD24",
+      "color": "#A8C3CA",
       "id": "BS0507_6",
       "valueSuffix": "Hektaren",
       "data": [
@@ -1700,7 +1651,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Dauerkulturen",
-      "color": "#CD9C00",
+      "color": "#689199",
       "id": "BS0507_7",
       "valueSuffix": "Hektaren",
       "data": [
@@ -1737,7 +1688,7 @@
       "type": "column",
       "showInNavigator": true,
       "name": "BS: Übrige",
-      "color": "#7F5F1A",
+      "color": "#246370",
       "id": "BS0507_8",
       "valueSuffix": "Hektaren",
       "data": [
@@ -1762,310 +1713,6 @@
         5,
         5.5,
         3.6
-      ],
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "percent",
-      "stack": "BL",
-      "linkedTo": "BS0507_1",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Getreide",
-      "color": "#73B97C",
-      "id": "BL0507_9",
-      "valueSuffix": "Hektaren",
-      "data": [
-        4888.3,
-        4488,
-        4427.3,
-        4395.7,
-        4400.7,
-        4323.5,
-        4138.9,
-        3928.8,
-        3735.6,
-        3951.5,
-        3896.9,
-        3757.1,
-        3589.4,
-        3502.3,
-        3545.4,
-        3427.3,
-        3380.8,
-        3387.5,
-        3372,
-        3410.5,
-        3399.4
-      ],
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "percent",
-      "stack": "BL",
-      "linkedTo": "BS0507_2",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Silo- und Grünmais",
-      "color": "#68AB2B",
-      "id": "BL0507_10",
-      "valueSuffix": "Hektaren",
-      "data": [
-        1238.5,
-        1207.7,
-        1105.6,
-        1081.2,
-        1096.7,
-        1108.4,
-        1053.2,
-        1082.4,
-        1086.5,
-        1114.2,
-        1085,
-        1111.6,
-        1143.9,
-        1176.5,
-        1170.5,
-        1188.1,
-        1141.5,
-        1115.6,
-        1157.8,
-        1110.9,
-        1071.2
-      ],
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "percent",
-      "stack": "BL",
-      "linkedTo": "BS0507_3",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Ölsaaten",
-      "color": "#007A2F",
-      "id": "BL0507_11",
-      "valueSuffix": "Hektaren",
-      "data": [
-        356.1,
-        397.1,
-        430.5,
-        370.9,
-        384.9,
-        334.8,
-        454.6,
-        478,
-        476.2,
-        435.1,
-        416.1,
-        435.4,
-        459.6,
-        425.4,
-        441,
-        433.3,
-        481.7,
-        495.3,
-        442.8,
-        496.4,
-        447.3
-      ],
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "percent",
-      "stack": "BL",
-      "linkedTo": "BS0507_4",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Kartoffeln, Rüben",
-      "color": "#0A3B19",
-      "id": "BL0507_12",
-      "valueSuffix": "Hektaren",
-      "data": [
-        182.9,
-        174.3,
-        159.5,
-        158.8,
-        170.7,
-        144.1,
-        149,
-        147.8,
-        145.7,
-        124.6,
-        129.2,
-        140.1,
-        131.9,
-        132.6,
-        127.1,
-        131.2,
-        126.9,
-        132.7,
-        130.5,
-        120.3,
-        118.7
-      ],
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "percent",
-      "stack": "BL",
-      "linkedTo": "BS0507_5",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Übrige offene Ackerfläche",
-      "color": "#FFDA80",
-      "id": "BL0507_13",
-      "valueSuffix": "Hektaren",
-      "data": [
-        390.2,
-        444,
-        442.6,
-        457.2,
-        421,
-        482.4,
-        694.7,
-        522,
-        480.8,
-        451.8,
-        480,
-        490.7,
-        488.4,
-        468.8,
-        382.6,
-        410.7,
-        401.1,
-        402.5,
-        458,
-        527,
-        589.1
-      ],
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "percent",
-      "stack": "BL",
-      "linkedTo": "BS0507_6",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Grünfläche",
-      "color": "#FABD24",
-      "id": "BL0507_14",
-      "valueSuffix": "Hektaren",
-      "data": [
-        14784.1,
-        15186.9,
-        15188.1,
-        15035.5,
-        15092.6,
-        15107.8,
-        15213.6,
-        15460.3,
-        15414.2,
-        15135.7,
-        15042.1,
-        15192.7,
-        15117.7,
-        15436.4,
-        15485.6,
-        15543.4,
-        15441.7,
-        15387.2,
-        15282.1,
-        15265.5,
-        15332.7
-      ],
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "percent",
-      "stack": "BL",
-      "linkedTo": "BS0507_7",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Dauerkulturen",
-      "color": "#CD9C00",
-      "id": "BL0507_15",
-      "valueSuffix": "Hektaren",
-      "data": [
-        439.4,
-        468.2,
-        481,
-        468.4,
-        473.5,
-        499.3,
-        509.3,
-        505.7,
-        502.8,
-        496.4,
-        513.1,
-        531.1,
-        537.1,
-        535.8,
-        530.9,
-        530.1,
-        538.7,
-        530.7,
-        538,
-        540.8,
-        530
-      ],
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "percent",
-      "stack": "BL",
-      "linkedTo": "BS0507_8",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "BL: Übrige",
-      "color": "#7F5F1A",
-      "id": "BL0507_16",
-      "valueSuffix": "Hektaren",
-      "data": [
-        77.3,
-        76.9,
-        94,
-        94.9,
-        96.8,
-        98.9,
-        102.2,
-        113.9,
-        114.1,
-        150.3,
-        116.2,
-        122.8,
-        118.9,
-        124.8,
-        125.4,
-        144.4,
-        144.8,
-        180.3,
-        141.2,
-        149.8,
-        159.2
       ],
       "tooltip": {
         "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"

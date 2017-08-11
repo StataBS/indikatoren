@@ -137,6 +137,7 @@
 					  //console.log(label);
 					  
 					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
 					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
 					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
 					  
@@ -1134,16 +1135,6 @@
         "includeInCSVExport": false,
         "type": "line",
         "color": "#444444"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#B375AB"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#aaaaaa"
       }
     ],
     "xAxis": {
@@ -1398,7 +1389,7 @@
       "id": "BS1512_1",
       "valueSuffix": "Hektaren",
       "data": [
-        0,
+        21,
         22,
         20,
         22,
@@ -1439,58 +1430,6 @@
         25
       ],
       "_symbolIndex": 0
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": null,
-      "type": "column",
-      "showInNavigator": true,
-      "name": "Kanton Basel-Landschaft",
-      "color": "#B375AB",
-      "id": "BL1512_3",
-      "valueSuffix": "Hektaren",
-      "data": [
-        633,
-        656,
-        704,
-        655,
-        677,
-        664,
-        559,
-        529
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "tooltip": {
-        "headerFormat": "\u003Cspan style='width: 80px'\u003E\u003Cspan style='color:{point.color}; width: 10px; font-size: 1.8em;'\u003E■\u003C\u002Fspan\u003E\u003Cspan style='font-size: 1em;'\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style='padding-left: 15px; line-height: 1.4em;'\u003E"
-      },
-      "dashStyle": "ShortDash",
-      "marker": {
-        "enabled": false,
-        "states": {
-          "hover": {
-            "enabled": false
-          }
-        }
-      },
-      "type": "line",
-      "showInNavigator": true,
-      "name": "Zielwert Basel-Landschaft",
-      "color": "#aaaaaa",
-      "id": "1512_4",
-      "valueSuffix": "Hektaren",
-      "data": [
-        450,
-        450,
-        450,
-        450,
-        450,
-        450,
-        450,
-        450
-      ],
-      "_symbolIndex": 1
     }
   ]
 }

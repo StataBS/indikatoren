@@ -13,7 +13,7 @@
         <path fill="none" class="highcharts-grid-line" d="M124.5 90v254m0-254v254m87-254v254m0-254v254m88-254v254m0-254v254m87-254v254m0-254v254m88-254v254m0-254v254M36.5 90v254m0-254v254"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M37 344.5h438m-438-42h438m-438-43h438m-438-42h438m-438-42h438m-438-43h438m-438-43h438"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M37 344.5h438m-438-85h438m-438-84h438m-438-86h438"/>
     </g>
     <path fill="none" class="highcharts-plot-border" d="M37 90h438v254H37z"/>
     <g class="highcharts-axis highcharts-xaxis">
@@ -27,10 +27,7 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(37 90)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" d="M20 187h22v68H20zm88-12h22v80h-22zm87-17h22v97h-22zm88-13h22v110h-22zm88 30h22v80h-22z"/>
-        </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(37 90)" clip-path="url(#a)">
-            <path fill="#B375AB" class="highcharts-point" d="M46 69h22v186H46zm88 67h22v119h-22zm88-4h22v123h-22zm87 72h22v51h-22zm88-161h22v212h-22z"/>
+            <path fill="#FF8028" class="highcharts-point" d="M23 120h43v135H23zm87-26h43v161h-43zm88-34h43v195h-43zm88-25h43v220h-43zm87 59h43v161h-43z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
@@ -40,18 +37,12 @@
         <tspan>Anzahl Standorte</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 40)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="323" height="38"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="148" height="38"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
                 <tspan>Kanton Basel-Stadt</tspan>
             </text>
             <path fill="#FF8028" class="highcharts-point" d="M14 11h12v12H14z"/>
-        </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(156.328 7)">
-                <tspan>Kanton Basel-Landschaft</tspan>
-            </text>
-            <path fill="#B375AB" class="highcharts-point" d="M158.328 11h12v12h-12z"/>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
@@ -75,23 +66,14 @@
         <text x="22" y="349">
             <tspan>0</tspan>
         </text>
-        <text x="22" y="306">
+        <text x="22" y="264">
             <tspan>10</tspan>
         </text>
-        <text x="22" y="264">
+        <text x="22" y="179">
             <tspan>20</tspan>
         </text>
-        <text x="22" y="222">
-            <tspan>30</tspan>
-        </text>
-        <text x="22" y="179">
-            <tspan>40</tspan>
-        </text>
-        <text x="22" y="137">
-            <tspan>50</tspan>
-        </text>
         <text x="22" y="95">
-            <tspan>60</tspan>
+            <tspan>30</tspan>
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">

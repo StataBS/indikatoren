@@ -1,50 +1,43 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h383v235H0z"/>
+            <path fill="none" d="M0 0h383v254H0z"/>
         </clipPath>
         <clipPath id="b">
-            <path fill="none" d="M0 0h383v235H0z"/>
+            <path fill="none" d="M0 0h383v254H0z"/>
         </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M49 109h383v235H49z"/>
+    <path fill="none" class="highcharts-plot-background" d="M49 90h383v254H49z"/>
     <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M57.5 109v235m0-235v235m35-235v235m0-235v235m34-235v235m0-235v235m35-235v235m0-235v235m35-235v235m0-235v235m35-235v235m0-235v235m35-235v235m0-235v235m34-235v235m0-235v235m35-235v235m0-235v235m35-235v235m0-235v235m35-235v235m0-235v235"/>
+        <path fill="none" class="highcharts-grid-line" d="M57.5 90v254m0-254v254m35-254v254m0-254v254m34-254v254m0-254v254m35-254v254m0-254v254m35-254v254m0-254v254m35-254v254m0-254v254m35-254v254m0-254v254m34-254v254m0-254v254m35-254v254m0-254v254m35-254v254m0-254v254m35-254v254m0-254v254"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M49 344.5h383m-383-59h383m-383-58h383m-383-59h383m-383-59h383"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M49 344.5h383m-383-63h383m-383-64h383m-383-63h383m-383-64h383"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M49 344.5h383m-383-59h383m-383-58h383m-383-59h383m-383-60h383"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M49 344.5h383m-383-63h383m-383-64h383m-383-63h383m-383-65h383"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M49 109h383v235H49z"/>
+    <path fill="none" class="highcharts-plot-border" d="M49 90h383v254H49z"/>
     <g class="highcharts-axis highcharts-xaxis">
         <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M49 344.5h383"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M49 109v235"/>
+        <path fill="none" class="highcharts-axis-line" d="M49 90v254"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M432 109v235"/>
+        <path fill="none" class="highcharts-axis-line" d="M432 90v254"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 109)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" d="M4 166h5v70H4zm17 0h5v70h-5zm18 0h5v70h-5zm17-1h5v71h-5zm18-1h5v72h-5zm17 0h5v72h-5zm17 0h5v72h-5zm18 0h5v72h-5zm17 0h5v72h-5zm18-5h5v77h-5zm17 0h5v77h-5zm18 1h5v76h-5zm17 0h5v76h-5zm17 0h5v76h-5zm18 0h5v76h-5zm17 0h5v76h-5zm18-1h5v77h-5zm17-1h5v78h-5zm17 0h5v78h-5zm18-1h5v79h-5zm17 0h5v79h-5zm18-1h5v80h-5z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 90)" clip-path="url(#a)">
+            <path fill="#FF8028" class="highcharts-point" d="M5 73h9v182H5zm17 0h9v182h-9zm17 1h9v181h-9zm18-3h9v184h-9zm17-2h9v186h-9zm18-1h9v187h-9zm17-1h9v188h-9zm17 1h9v187h-9zm18-1h9v188h-9zm17-12h9v200h-9zm18 1h9v199h-9zm17 1h9v198h-9zm17 0h9v198h-9zm18 1h9v197h-9zm17 0h9v197h-9zm18-1h9v198h-9zm17-2h9v200h-9zm17-3h9v203h-9zm18 0h9v203h-9zm17-1h9v204h-9zm18 0h9v204h-9zm17-4h9v208h-9z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(49 109)" clip-path="url(#b)">
-            <path fill="none" d="M8.705 117.93l17.409-.195 17.409-.196 17.409-2.624 17.409-1.84 17.409-1.724 17.41-1.253 17.408.509 17.41 1.057 17.408-6.54 17.41.822 17.409.783 17.409.744 17.409 1.097 17.409 1.45 17.409-.08 17.409-.587 17.41-1.645 17.408 1.88 17.41.314 17.408 1.096 17.41-1.331" class="highcharts-graph" stroke="#DC440E" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-1.295 117.93h10l17.409-.195 17.409-.196 17.409-2.624 17.409-1.84 17.409-1.724 17.41-1.253 17.408.509 17.41 1.057 17.408-6.54 17.41.822 17.409.783 17.409.744 17.409 1.097 17.409 1.45 17.409-.08 17.409-.587 17.41-1.645 17.408 1.88 17.41.314 17.408 1.096 17.41-1.331h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
-        </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 109)" clip-path="url(#a)">
-            <path fill="#B375AB" class="highcharts-point" d="M9 100h5v136H9zm18-2h5v138h-5zm17-3h5v141h-5zm17-4h5v145h-5zm18-4h5v149h-5zm17-4h5v153h-5zm18-4h5v157h-5zm17-3h5v160h-5zm17-4h5v164h-5zm18-1h5v165h-5zm17-2h5v167h-5zm18-1h5v168h-5zm17-1h5v169h-5zm18-2h5v171h-5zm17-2h5v173h-5zm17-2h5v175h-5zm18-2h5v177h-5zm17-2h5v179h-5zm18-2h5v181h-5zm17 0h5v181h-5zm17-4h5v185h-5zm18-2h5v187h-5z"/>
-        </g>
-        <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined" transform="translate(49 109)" clip-path="url(#b)">
-            <path fill="none" d="M8.705 63.254l17.409-2.742 17.409-2.624 17.409-3.211 17.409-3.173L95.75 48.45l17.41-3.995 17.408-2.624 17.41 2.35 17.408-1.293 17.41-.156 17.409-1.332 17.409-1.919 17.409.98 17.409-.158 17.409 1.019 17.409-3.486 17.41-1.253 17.408.744 17.41-.862 17.408.627 17.41-1.841" class="highcharts-graph" stroke="#923F8D" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-1.295 63.254h10l17.409-2.742 17.409-2.624 17.409-3.211 17.409-3.173L95.75 48.45l17.41-3.995 17.408-2.624 17.41 2.35 17.408-1.293 17.41-.156 17.409-1.332 17.409-1.919 17.409.98 17.409-.158 17.409 1.019 17.409-3.486 17.41-1.253 17.408.744 17.41-.862 17.408.627 17.41-1.841h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(49 90)" clip-path="url(#b)">
+            <path fill="none" d="M8.705 64.199l17.409-.318 17.409-.317 17.409-4.255 17.409-2.984L95.75 53.53l17.41-2.032 17.408.825 17.41 1.715 17.408-10.605 17.41 1.333 17.409 1.27 17.409 1.207 17.409 1.778 17.409 2.35 17.409-.128 17.409-.952 17.41-2.667 17.408 3.048 17.41.508 17.408 1.778 17.41-2.159" class="highcharts-graph" stroke="#DC440E" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-1.295 64.199h10l17.409-.318 17.409-.317 17.409-4.255 17.409-2.984L95.75 53.53l17.41-2.032 17.408.825 17.41 1.715 17.408-10.605 17.41 1.333 17.409 1.27 17.409 1.207 17.409 1.778 17.409 2.35 17.409-.128 17.409-.952 17.41-2.667 17.408 3.048 17.41.508 17.408 1.778 17.41-2.159h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
@@ -54,7 +47,7 @@
         <tspan>Anzahl Motorfahrzeuge; Anzahl Personenwagen pro 1000 Einwohner</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 40)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="431" height="57"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="431" height="38"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
                 <tspan>BS: Motorfahrzeugbestand</tspan>
@@ -65,18 +58,6 @@
             <path fill="none" d="M195.656 18h16" class="highcharts-graph" stroke="#DC440E" stroke-width="2"/>
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(195.656 7)">
                 <tspan>BS: Motorisierungsgrad (rechte Skala)</tspan>
-            </text>
-        </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 26)">
-                <tspan>BL: Motorfahrzeugbestand</tspan>
-            </text>
-            <path fill="#B375AB" class="highcharts-point" d="M14 30h12v12H14z"/>
-        </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3">
-            <path fill="none" d="M194.328 37h16" class="highcharts-graph" stroke="#923F8D" stroke-width="2"/>
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(194.328 26)">
-                <tspan>BL: Motorisierungsgrad (rechte Skala)</tspan>
             </text>
         </g>
     </g>
@@ -119,34 +100,34 @@
         <text x="34" y="349">
             <tspan>0</tspan>
         </text>
-        <text x="34" y="290">
-            <tspan>60k</tspan>
+        <text x="34" y="285">
+            <tspan>25k</tspan>
         </text>
-        <text x="34" y="231">
-            <tspan>120k</tspan>
+        <text x="34" y="222">
+            <tspan>50k</tspan>
         </text>
-        <text x="34" y="172">
-            <tspan>180k</tspan>
+        <text x="34" y="158">
+            <tspan>75k</tspan>
         </text>
-        <text x="34" y="114">
-            <tspan>240k</tspan>
+        <text x="34" y="94">
+            <tspan>100k</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" color="#000" cursor="default" font-size=".9em">
         <text x="447" y="349">
             <tspan>0</tspan>
         </text>
-        <text x="447" y="290">
-            <tspan>150</tspan>
+        <text x="447" y="285">
+            <tspan>100</tspan>
         </text>
-        <text x="447" y="231">
+        <text x="447" y="222">
+            <tspan>200</tspan>
+        </text>
+        <text x="447" y="158">
             <tspan>300</tspan>
         </text>
-        <text x="447" y="172">
-            <tspan>450</tspan>
-        </text>
-        <text x="447" y="114">
-            <tspan>600</tspan>
+        <text x="447" y="95">
+            <tspan>400</tspan>
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">

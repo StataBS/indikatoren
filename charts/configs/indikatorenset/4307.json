@@ -137,6 +137,7 @@
 					  //console.log(label);
 					  
 					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
 					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
 					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
 					  
@@ -1129,11 +1130,6 @@
         "includeInCSVExport": false,
         "type": "column",
         "color": "#FF8028"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#B375AB"
       }
     ],
     "xAxis": {
@@ -1394,25 +1390,6 @@
         13,
         16.5,
         17.3
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": null,
-      "type": "column",
-      "showInNavigator": true,
-      "name": "Kanton Basel-Landschaft",
-      "color": "#B375AB",
-      "id": "BL0305_2",
-      "valueSuffix": "Prozent",
-      "data": [
-        9.6,
-        9.9,
-        10.3,
-        10.6,
-        11.1,
-        11.4,
-        11.7
       ]
     }
   ]

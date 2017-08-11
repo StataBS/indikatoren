@@ -137,6 +137,7 @@
 					  //console.log(label);
 					  
 					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
+					  var max_labels;
 					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
 					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
 					  
@@ -1129,11 +1130,6 @@
         "includeInCSVExport": false,
         "type": "column",
         "color": "#FF8028"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#B375AB"
       }
     ],
     "xAxis": {
@@ -1406,31 +1402,6 @@
         292,
         292.3,
         282.3
-      ]
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": null,
-      "type": "column",
-      "showInNavigator": true,
-      "name": "Kanton Basel-Landschaft",
-      "color": "#B375AB",
-      "id": "BL0101_2",
-      "valueSuffix": "Kilogramm pro Einwohner",
-      "data": [
-        347,
-        349.5,
-        344.9,
-        351.1,
-        358.9,
-        356.4,
-        351.6,
-        355.3,
-        351.9,
-        357.5,
-        343.4,
-        336.8,
-        320.9
       ]
     }
   ]

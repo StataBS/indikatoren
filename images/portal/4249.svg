@@ -27,28 +27,16 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 109)" clip-path="url(#a)">
-            <path fill="#73B97C" class="highcharts-point" d="M24 0h26v166H24zm106 0h26v167h-26zm105 0h26v168h-26zm106 0h26v169h-26z"/>
+            <path fill="#FF8028" class="highcharts-point" d="M27 0h51v166H27zm106 0h51v167h-51zm105 0h51v168h-51zm106 0h51v169h-51z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 109)" clip-path="url(#a)">
-            <path fill="#68AB2B" class="highcharts-point" d="M24 166h26v30H24zm106 1h26v29h-26zm105 1h26v28h-26zm106 1h26v27h-26z"/>
+            <path fill="#DC440E" class="highcharts-point" d="M27 166h51v30H27zm106 1h51v29h-51zm105 1h51v28h-51zm106 1h51v27h-51z"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 109)" clip-path="url(#a)">
-            <path fill="#007A2F" class="highcharts-point" d="M24 196h26v29H24zm106 0h26v30h-26zm105 0h26v29h-26zm106 0h26v29h-26z"/>
+            <path fill="#B00000" class="highcharts-point" d="M27 196h51v29H27zm106 0h51v30h-51zm105 0h51v29h-51zm106 0h51v29h-51z"/>
         </g>
         <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 109)" clip-path="url(#a)">
-            <path fill="#0A3B19" class="highcharts-point" d="M24 225h26v11H24zm106 1h26v10h-26zm105-1h26v11h-26zm106 0h26v11h-26z"/>
-        </g>
-        <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 109)" clip-path="url(#a)">
-            <path fill="#73B97C" class="highcharts-point" d="M56 0h26v36H56zm105 0h26v39h-26zm106 0h26v42h-26zm105 0h26v44h-26z"/>
-        </g>
-        <g class="highcharts-series highcharts-series-5 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 109)" clip-path="url(#a)">
-            <path fill="#68AB2B" class="highcharts-point" d="M56 36h26v101H56zm105 3h26v97h-26zm106 3h26v95h-26zm105 2h26v93h-26z"/>
-        </g>
-        <g class="highcharts-series highcharts-series-6 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 109)" clip-path="url(#a)">
-            <path fill="#007A2F" class="highcharts-point" d="M56 137h26v97H56zm105-1h26v98h-26zm106 1h26v97h-26zm105 0h26v97h-26z"/>
-        </g>
-        <g class="highcharts-series highcharts-series-7 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 109)" clip-path="url(#a)">
-            <path fill="#0A3B19" class="highcharts-point" d="M56 234h26v2H56zm105 0h26v2h-26zm106 0h26v2h-26zm105 0h26v2h-26z"/>
+            <path fill="#661200" class="highcharts-point" d="M27 225h51v11H27zm106 1h51v10h-51zm105-1h51v11h-51zm106 0h51v11h-51z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
@@ -57,57 +45,31 @@
     <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
         <tspan>Hektaren und Prozent</tspan>
     </text>
-    <g class="highcharts-stack-labels" text-anchor="middle" font-size=".8em" font-weight="400" color="#000">
-        <text x="69" style="text-outline:1px contrast" y="-5" transform="translate(53 109)">
-            <tspan x="69" y="-5" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BL</tspan><tspan x="69" y="-5">BL</tspan>
-        </text>
-        <text x="174" style="text-outline:1px contrast" y="-5" transform="translate(53 109)">
-            <tspan x="174" y="-5" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BL</tspan><tspan x="174" y="-5">BL</tspan>
-        </text>
-        <text x="280" style="text-outline:1px contrast" y="-5" transform="translate(53 109)">
-            <tspan x="280" y="-5" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BL</tspan><tspan x="280" y="-5">BL</tspan>
-        </text>
-        <text x="385" style="text-outline:1px contrast" y="-5" transform="translate(53 109)">
-            <tspan x="385" y="-5" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BL</tspan><tspan x="385" y="-5">BL</tspan>
-        </text>
-        <text x="37" style="text-outline:1px contrast" y="-5" transform="translate(53 109)">
-            <tspan x="37" y="-5" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BS</tspan><tspan x="37" y="-5">BS</tspan>
-        </text>
-        <text x="142" style="text-outline:1px contrast" y="-5" transform="translate(53 109)">
-            <tspan x="142" y="-5" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BS</tspan><tspan x="142" y="-5">BS</tspan>
-        </text>
-        <text x="248" style="text-outline:1px contrast" y="-5" transform="translate(53 109)">
-            <tspan x="248" y="-5" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BS</tspan><tspan x="248" y="-5">BS</tspan>
-        </text>
-        <text x="353" style="text-outline:1px contrast" y="-5" transform="translate(53 109)">
-            <tspan x="353" y="-5" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BS</tspan><tspan x="353" y="-5">BS</tspan>
-        </text>
-    </g>
     <g class="highcharts-legend" transform="translate(10 40)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="439" height="57"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="346" height="57"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
-                <tspan>Siedlungsflächen</tspan>
+                <tspan>BS: Siedlungsflächen</tspan>
             </text>
-            <path fill="#73B97C" class="highcharts-point" d="M14 11h12v12H14z"/>
+            <path fill="#FF8028" class="highcharts-point" d="M14 11h12v12H14z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(144.344 7)">
-                <tspan>Landwirtschaftsflächen</tspan>
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(167 7)">
+                <tspan>BS: Landwirtschaftsflächen</tspan>
             </text>
-            <path fill="#68AB2B" class="highcharts-point" d="M146.344 11h12v12h-12z"/>
+            <path fill="#DC440E" class="highcharts-point" d="M169 11h12v12h-12z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(307.328 7)">
-                <tspan>Bestockte Flächen</tspan>
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 26)">
+                <tspan>BS: Bestockte Flächen</tspan>
             </text>
-            <path fill="#007A2F" class="highcharts-point" d="M309.328 11h12v12h-12z"/>
+            <path fill="#B00000" class="highcharts-point" d="M14 30h12v12H14z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 26)">
-                <tspan>Unproduktive Flächen</tspan>
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(174.328 26)">
+                <tspan>BS: Unproduktive Flächen</tspan>
             </text>
-            <path fill="#0A3B19" class="highcharts-point" d="M14 30h12v12H14z"/>
+            <path fill="#661200" class="highcharts-point" d="M176.328 30h12v12h-12z"/>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
