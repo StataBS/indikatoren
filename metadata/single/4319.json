@@ -20,9 +20,9 @@
 "template":"dotplot",
 "option":"options001",
 "visible":true,
-"visibleInPortal":true,
+"visibleInPortal":false,
 "parentId":null,
-"children":[],
+"children":["6007"],
 "renderLink":[],
 "quellenangabe":["Amt für Mobilität Basel-Stadt"],
 "externalLinks":[""]
