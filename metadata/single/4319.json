@@ -1,4 +1,4 @@
-{"title":"Verkehrsleistungsindex",
+﻿{"title":"Verkehrsleistungsindex",
 "subtitle":"Indexwert (Basis 2010 = 100)",
 "kuerzel":"I.11.6.04319",
 "kuerzelKunde":"1705",
@@ -20,9 +20,9 @@
 "template":"dotplot",
 "option":"options001",
 "visible":true,
-"visibleInPortal":true,
+"visibleInPortal":false,
 "parentId":null,
-"children":[],
+"children":["6007"],
 "renderLink":[],
 "quellenangabe":["Amt für Mobilität Basel-Stadt"],
 "externalLinks":[""]
