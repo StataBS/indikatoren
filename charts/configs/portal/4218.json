@@ -85,8 +85,7 @@
     "marginBottom": 65,
     "marginTop": 75,
     "type": "column",
-    "inverted": true,
-    "forExport": true
+    "inverted": true
   },
   "plotOptions": {
     "series": {

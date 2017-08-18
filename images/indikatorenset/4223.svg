@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
     <defs>
         <clipPath id="a">
             <path fill="none" d="M0 0h432v235H0z"/>
@@ -10,7 +10,7 @@
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M74.5 109v235m0-235v235m44-235v235m0-235v235m43-235v235m0-235v235m43-235v235m0-235v235m43-235v235m0-235v235m43-235v235m0-235v235m44-235v235m0-235v235m43-235v235m0-235v235m43-235v235m0-235v235m43-235v235m0-235v235"/>
+        <path fill="none" class="highcharts-grid-line" d="M74.5 109v235m44-235v235m43-235v235m43-235v235m43-235v235m43-235v235m44-235v235m43-235v235m43-235v235m43-235v235"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 344.5h432m-432-59h432m-432-58h432m-432-59h432m-432-60h432"/>
@@ -26,16 +26,16 @@
         <path fill="none" class="highcharts-axis-line" d="M475 109v235"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 109)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(43 109)" clip-path="url(#a)">
             <path fill="#FF8028" class="highcharts-point" d="M6 170h11v7H6zm108-3h11v6h-11zm43-2h11v6h-11zm43 0h11v7h-11zm43-9h11v6h-11zm87-70h11v42h-11zm43-8h11v42h-11zm43-14h11v50h-11z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 109)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined" transform="translate(43 109)" clip-path="url(#a)">
             <path fill="#DC440E" class="highcharts-point" d="M6 177h11v3H6zm108-4h11v5h-11zm43-2h11v6h-11zm43 1h11v5h-11zm43-10h11v6h-11zm87-34h11v4h-11zm43-8h11v6h-11zm43-6h11v7h-11z"/>
         </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 109)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined" transform="translate(43 109)" clip-path="url(#a)">
             <path fill="#B00000" class="highcharts-point" d="M157 177h11v1h-11zm43 0h11v1h-11zm43-9h11v1h-11zm87-36h11v3h-11zm43-6h11v5h-11zm43-5h11v8h-11z"/>
         </g>
-        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 109)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined" transform="translate(43 109)" clip-path="url(#a)">
             <path fill="#661200" class="highcharts-point" d="M6 180h11v56H6zm108-2h11v58h-11zm43 0h11v58h-11zm43 0h11v58h-11zm43-9h11v67h-11zm87-34h11v101h-11zm43-4h11v105h-11zm43-2h11v107h-11z"/>
         </g>
     </g>
@@ -79,34 +79,34 @@
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
-        <text x="75.4" y="366">
+        <text x="75.4" y="363">
             1996
         </text>
-        <text x="118.6" y="366">
+        <text x="118.6" y="363">
             1998
         </text>
-        <text x="161.8" y="366">
+        <text x="161.8" y="363">
             2000
         </text>
-        <text x="205" y="366">
+        <text x="205" y="363">
             2002
         </text>
-        <text x="248.2" y="366">
+        <text x="248.2" y="363">
             2004
         </text>
-        <text x="291.4" y="366">
+        <text x="291.4" y="363">
             2006
         </text>
-        <text x="334.6" y="366">
+        <text x="334.6" y="363">
             2008
         </text>
-        <text x="377.8" y="366">
+        <text x="377.8" y="363">
             2010
         </text>
-        <text x="421" y="366">
+        <text x="421" y="363">
             2012
         </text>
-        <text x="462.781" y="366">
+        <text x="462.781" y="363">
             2014
         </text>
     </g>

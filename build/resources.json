@@ -11,6 +11,7 @@
     "../node_modules/highcharts/modules/no-data-to-display.js",
     "../node_modules/highcharts/modules/map.js",
     "../node_modules/highcharts/modules/solid-gauge.js",
-    "../node_modules/highcharts/modules/broken-axis.js"
+    "../node_modules/highcharts/modules/broken-axis.js", 
+    "../node_modules/jquery/dist/jquery.min.js"
   ]
 }

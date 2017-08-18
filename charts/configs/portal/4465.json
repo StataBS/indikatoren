@@ -434,7 +434,6 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "forExport": true,
     "renderTo": "container-4465"
   },
   "title": {

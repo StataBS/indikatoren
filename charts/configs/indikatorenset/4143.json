@@ -129,7 +129,6 @@
     "marginBottom": 65,
     "type": "line",
     "alignTicks": false,
-    "forExport": true,
     "renderTo": "container-4143"
   },
   "plotOptions": {

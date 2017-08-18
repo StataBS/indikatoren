@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
     <defs>
         <clipPath id="a">
             <path fill="none" d="M0 0h377v254H0z"/>
@@ -13,7 +13,7 @@
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M183.5 90v254m0-254v254m125-254v254m0-254v254m126-254v254m0-254v254M57.5 90v254m0-254v254"/>
+        <path fill="none" class="highcharts-grid-line" d="M183.5 90v254m125-254v254m126-254v254M57.5 90v254"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M58 344.5h377m-377-63h377m-377-64h377m-377-63h377m-377-65h377"/>
@@ -32,12 +32,11 @@
         <path fill="none" class="highcharts-axis-line" d="M435 90v254"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(58 90)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(58 90)" clip-path="url(#a)">
             <path fill="#FF8028" class="highcharts-point" d="M33 29h61v226H33zm125 15h61v211h-61zm126 21h61v190h-61z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(58 90)" clip-path="url(#b)">
             <path fill="none" d="M62.833 55.033L188.5 71.967l125.667 21.166" class="highcharts-graph" stroke="#DC440E" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M52.833 55.033h10L188.5 71.967l125.667 21.166h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">

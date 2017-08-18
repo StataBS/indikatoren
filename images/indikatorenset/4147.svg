@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
     <defs>
         <clipPath id="a">
             <path fill="none" d="M0 0h434v275H0z"/>
@@ -21,19 +21,19 @@
         <path fill="none" class="highcharts-axis-line" d="M41 75v275"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(41 75)" clip-path="url(#a)">
-            <path fill="#008AC3" class="highcharts-point highcharts-negative" stroke="#fff" d="M12.5 138.5h18v88h-18zm36 0h18v113h-18zm35 0h18v119h-18zm36 0h18v121h-18zm35 0h18v39h-18zm36 0h18v10h-18zm35 0h18v22h-18z"/>
-            <path fill="#008AC3" class="highcharts-point" stroke="#fff" d="M261.5 95.5h18v43h-18zm35-30h18v73h-18zm36 29h18v44h-18zm35-77h18v121h-18zm36 10h18v111h-18z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(41 75)" clip-path="url(#a)">
+            <path fill="#008AC3" stroke="#fff" class="highcharts-point highcharts-negative" d="M12.5 138.5h18v88h-18zm36 0h18v113h-18zm35 0h18v119h-18zm36 0h18v121h-18zm35 0h18v39h-18zm36 0h18v10h-18zm35 0h18v22h-18z"/>
+            <path fill="#008AC3" stroke="#fff" class="highcharts-point" d="M261.5 95.5h18v43h-18zm35-30h18v73h-18zm36 29h18v44h-18zm35-77h18v121h-18zm36 10h18v111h-18z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>Saldo des Steuerertrages von Zu- und Wegzügern</tspan>
     </text>
-    <g class="highcharts-data-labels highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker">
-        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(49 302)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-column-series highcharts-color-undefined">
+        <text x="5" y="15" font-size="10" font-weight="700" color="#000" transform="translate(49 302)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
             <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">-9,7</tspan><tspan x="5" y="15">-9,7</tspan>
         </text>
-        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(439 80)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+        <text x="5" y="15" font-size="10" font-weight="700" color="#000" transform="translate(439 80)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
             <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">12,1</tspan><tspan x="5" y="15">12,1</tspan>
         </text>
     </g>

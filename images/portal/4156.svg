@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
     <defs>
         <clipPath id="a">
             <path fill="none" d="M0 0h282v277H0z"/>
@@ -21,20 +21,20 @@
         <path fill="none" class="highcharts-axis-line" d="M53 87v277"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 87)" clip-path="url(#a)">
-            <path fill="#dc440e" class="highcharts-point" stroke="#fff" d="M36.5-.5h68v6h-68zm141 0h68v11h-68z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(53 87)" clip-path="url(#a)">
+            <path fill="#dc440e" stroke="#fff" class="highcharts-point" d="M36.5-.5h68v6h-68zm141 0h68v11h-68z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 87)" clip-path="url(#a)">
-            <path fill="#ffbb58" class="highcharts-point" stroke="#fff" d="M36.5 5.5h68v55h-68zm141 5h68v54h-68z"/>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined" transform="translate(53 87)" clip-path="url(#a)">
+            <path fill="#ffbb58" stroke="#fff" class="highcharts-point" d="M36.5 5.5h68v55h-68zm141 5h68v54h-68z"/>
         </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 87)" clip-path="url(#a)">
-            <path fill="#999" class="highcharts-point" stroke="#fff" d="M36.5 60.5h68v29h-68zm141 4h68v26h-68z"/>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined" transform="translate(53 87)" clip-path="url(#a)">
+            <path fill="#999" stroke="#fff" class="highcharts-point" d="M36.5 60.5h68v29h-68zm141 4h68v26h-68z"/>
         </g>
-        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 87)" clip-path="url(#a)">
-            <path fill="#68ab2b" class="highcharts-point" stroke="#fff" d="M36.5 89.5h68v120h-68zm141 1h68v127h-68z"/>
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined" transform="translate(53 87)" clip-path="url(#a)">
+            <path fill="#68ab2b" stroke="#fff" class="highcharts-point" d="M36.5 89.5h68v120h-68zm141 1h68v127h-68z"/>
         </g>
-        <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 87)" clip-path="url(#a)">
-            <path fill="#007a2f" class="highcharts-point" stroke="#fff" d="M36.5 209.5h68v68h-68zm141 8h68v60h-68z"/>
+        <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined" transform="translate(53 87)" clip-path="url(#a)">
+            <path fill="#007a2f" stroke="#fff" class="highcharts-point" d="M36.5 209.5h68v68h-68zm141 8h68v60h-68z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
