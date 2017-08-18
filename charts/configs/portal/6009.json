@@ -3679,8 +3679,9 @@
 		            	var pieSizeFactor = 0.3;
 		            	//Minimal pie size: a summand added to the calculated size
 		            	var pieSizeMin = 5;
-						//Negative values: return absolute value
-						var size = pieSizeMin + Math.abs(chart.chartWidth / 11 * pieSizeFactor * zoomFactor * value / maxAbsNumber); 
+						//size by Area: use sqrt of value to define size
+						//var size = pieSizeMin + Math.abs(chart.chartWidth / 11 * pieSizeFactor * zoomFactor * value / maxAbsNumber);
+						var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor * zoomFactor * Math.sqrt(Math.abs(value)) / maxAbsNumber; 
 						return size;
 	                }
 	                
