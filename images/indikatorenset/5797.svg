@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
     <defs>
         <clipPath id="a">
             <path fill="none" d="M0 0h422v254H0z"/>
@@ -10,7 +10,7 @@
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M87.5 90v254m0-254v254m35-254v254m0-254v254m36-254v254m0-254v254m35-254v254m0-254v254m35-254v254m0-254v254m35-254v254m0-254v254m35-254v254m0-254v254m35-254v254m0-254v254m35-254v254m0-254v254m36-254v254m0-254v254m35-254v254m0-254v254m35-254v254m0-254v254M52.5 90v254m0-254v254"/>
+        <path fill="none" class="highcharts-grid-line" d="M87.5 90v254m35-254v254m36-254v254m35-254v254m35-254v254m35-254v254m35-254v254m35-254v254m35-254v254m36-254v254m35-254v254m35-254v254M52.5 90v254"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 344.5h422m-422-51h422m-422-51h422m-422-50h422m-422-51h422m-422-52h422"/>
@@ -26,12 +26,11 @@
         <path fill="none" class="highcharts-axis-line" d="M475 90v254"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 90)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(53 90)" clip-path="url(#a)">
             <path fill="#73B97C" class="highcharts-point" d="M9 111h17v144H9zm35-14h17v158H44zm35-40h17v198H79zm36-7h17v205h-17zm35 4h17v201h-17zm35-6h17v207h-17zm35 8h17v199h-17zm35-1h17v200h-17zm35-10h17v210h-17zm36 16h17v194h-17zm35-8h17v202h-17zm35 16h17v186h-17z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(53 90)" clip-path="url(#a)">
             <path fill="none" d="M17.583 50.8h386.834" class="highcharts-graph" stroke="#444" stroke-width="2" stroke-dasharray="6,2"/>
-            <path fill="none" d="M7.583 50.8h406.834" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">

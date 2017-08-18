@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
     <defs>
         <clipPath id="a">
             <path fill="none" d="M0 0h432v235H0z"/>
@@ -10,7 +10,7 @@
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M114.5 109v235m0-235v235m72-235v235m0-235v235m72-235v235m0-235v235m72-235v235m0-235v235m72-235v235m0-235v235m72-235v235m0-235v235m-432-235v235m0-235v235"/>
+        <path fill="none" class="highcharts-grid-line" d="M114.5 109v235m72-235v235m72-235v235m72-235v235m72-235v235m72-235v235m-432-235v235"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 344.5h432m-432-59h432m-432-58h432m-432-59h432m-432-60h432"/>
@@ -28,11 +28,9 @@
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(43 109)" clip-path="url(#a)">
             <path fill="none" d="M36 176.25l72-14.57 72-29.493 72-55.577 72-23.97 72-22.325" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M26 176.25h10l72-14.57 72-29.493 72-55.577 72-23.97 72-22.325h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(43 109)" clip-path="url(#a)">
             <path fill="none" d="M36 176.25l72-4.113 72 .118 72 13.865 72 7.873 72 10.34" class="highcharts-graph" stroke="#DC440E" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M26 176.25h10l72-4.113 72 .118 72 13.865 72 7.873 72 10.34h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
@@ -77,19 +75,19 @@
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
-        <text x="28" y="352">
+        <text x="28" y="349">
             <tspan>50</tspan>
         </text>
-        <text x="28" y="293">
+        <text x="28" y="290">
             <tspan>100</tspan>
         </text>
-        <text x="28" y="234">
+        <text x="28" y="231">
             <tspan>150</tspan>
         </text>
-        <text x="28" y="175">
+        <text x="28" y="172">
             <tspan>200</tspan>
         </text>
-        <text x="28" y="117">
+        <text x="28" y="114">
             <tspan>250</tspan>
         </text>
     </g>

@@ -1,6 +1,7 @@
 var fs = require("fs");
 var glob = require("glob");
 var indikatoren = [];
+var indikatorenInSet = [];
 var kuerzelById = {};
 var idByKuerzel = {};
 var templatesById = {};
@@ -15,11 +16,13 @@ files.forEach(function(filepath){
     if (indikator.visible == undefined || indikator.visible == true) {
         console.log(filepath + ' is visible, proceeding with adding...');
         if (indikator.visibleInPortal == undefined || indikator.visibleInPortal == true) {
-            console.log(filepath + ' is visibleInPortal, proceeding with adding to indikatoren.js...');
-            indikatoren.push(indikator);            
+            console.log(filepath + ' is visibleInPortal, proceeding with adding to portal/indikatoren.js and all/indikatoren.js...');
+            indikatoren.push(indikator);
+            indikatorenInSet.push(indikator);
         }
         else {
-            console.log(filepath + ' is NOT visibleInPortal, ignoring for indikatoren.js');
+            console.log(filepath + ' is NOT visibleInPortal, ignoring for portal/indikatoren.js but adding to all/indikatoren.js');
+            indikatorenInSet.push(indikator);
         } 
         kuerzelById[indikator.id] = indikator.kuerzel;
         idByKuerzel[indikator.kuerzel] = indikator.id.toString();
@@ -31,12 +34,29 @@ files.forEach(function(filepath){
 });
 console.log('Saving json database...');
 saveToJsonFile('indikatoren', 'portal/', indikatoren, console);
+saveToJsonFile('indikatoren', 'all/', indikatorenInSet, console);
 saveToJsonFile('kuerzelById', 'all/', kuerzelById, console);
 saveToJsonFile('idByKuerzel', 'all/',idByKuerzel, console);
 saveToJsonFile('templatesById', 'all/',templatesById, console);
+saveToJsFile('indikatoren', 'portal/', indikatoren, console);
+saveToJsFile('indikatoren', 'all/', indikatorenInSet, console);
+saveToJsFile('kuerzelById', 'all/', kuerzelById, console);
+saveToJsFile('idByKuerzel', 'all/',idByKuerzel, console);
+saveToJsFile('templatesById', 'all/',templatesById, console);
+
 //console.log('...done!');
 
+function createFiles(name, dir, obj, console){
+    saveToJsFile(name, dir, obj, console);
+    saveToJsonFile(name, dir, obj, console);
+}
+
+function saveToJsFile(name, dir, obj, console){
+    var jsFile = "var " +  name + " = " + JSON.stringify(obj, null, '\t') + ";";
+    fs.writeFile('metadata/' + dir +  name + '.js', jsFile);
+}
+
 function saveToJsonFile(name, dir, obj, console){
-    var jsonFile = "var " +  name + " = " + JSON.stringify(obj, null, '\t') + ";";
-    fs.writeFile('metadata/' + dir +  name + '.js', jsonFile);
-};
+    var jsonFile = JSON.stringify(obj, null, '\t');
+    fs.writeFile('metadata/' + dir +  name + '.json', jsonFile);
+}

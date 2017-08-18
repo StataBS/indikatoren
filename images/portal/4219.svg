@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
     <defs>
         <clipPath id="a">
             <path fill="none" d="M0 0h209v265H0z"/>
@@ -21,32 +21,32 @@
         <path fill="none" class="highcharts-axis-line" d="M59 75v265"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(59 75)" clip-path="url(#a)">
-            <path fill="#C8C8C8" class="highcharts-point" stroke="#fff" d="M2.5 71.5h15v31h-15zm21 4h15v32h-15zm21 1h15v33h-15zm21-1h15v35h-15zm21-3h15v36h-15zm20-5h15v39h-15zm21-6h15v41h-15zm21-6h15v44h-15zm21-2h15v46h-15zm21-3h15v48h-15z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(59 75)" clip-path="url(#a)">
+            <path fill="#C8C8C8" stroke="#fff" class="highcharts-point" d="M2.5 71.5h15v31h-15zm21 4h15v32h-15zm21 1h15v33h-15zm21-1h15v35h-15zm21-3h15v36h-15zm20-5h15v39h-15zm21-6h15v41h-15zm21-6h15v44h-15zm21-2h15v46h-15zm21-3h15v48h-15z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(59 75)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" stroke="#fff" d="M2.5 102.5h15v4h-15zm21 5h15v3h-15zm21 2h15v4h-15zm21 1h15v3h-15zm21-2h15v4h-15zm20-2h15v4h-15zm21-4h15v5h-15zm21-3h15v4h-15zm21 0h15v4h-15zm21-1h15v5h-15z"/>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined" transform="translate(59 75)" clip-path="url(#a)">
+            <path fill="#FF8028" stroke="#fff" class="highcharts-point" d="M2.5 102.5h15v4h-15zm21 5h15v3h-15zm21 2h15v4h-15zm21 1h15v3h-15zm21-2h15v4h-15zm20-2h15v4h-15zm21-4h15v5h-15zm21-3h15v4h-15zm21 0h15v4h-15zm21-1h15v5h-15z"/>
         </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(59 75)" clip-path="url(#a)">
-            <path fill="#E7CFE2" class="highcharts-point" stroke="#fff" d="M2.5 106.5h15v2h-15zm21 4h15v2h-15zm21 3h15v2h-15zm21 0h15v3h-15zm21-1h15v3h-15zm20-2h15v2h-15zm21-3h15v2h-15zm21-4h15v3h-15zm21 0h15v3h-15zm21 0h15v3h-15z"/>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined" transform="translate(59 75)" clip-path="url(#a)">
+            <path fill="#E7CFE2" stroke="#fff" class="highcharts-point" d="M2.5 106.5h15v2h-15zm21 4h15v2h-15zm21 3h15v2h-15zm21 0h15v3h-15zm21-1h15v3h-15zm20-2h15v2h-15zm21-3h15v2h-15zm21-4h15v3h-15zm21 0h15v3h-15zm21 0h15v3h-15z"/>
         </g>
-        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(59 75)" clip-path="url(#a)">
-            <path fill="#9F7C5A" class="highcharts-point" stroke="#fff" d="M2.5 108.5h15v1h-15zm21 4h15v2h-15zm21 3h15v1h-15zm21 1h15v1h-15zm21-1h15v1h-15zm20-3h15v1h-15zm21-3h15v2h-15zm21-3h15v2h-15zm21 0h15v2h-15zm21 0h15v2h-15z"/>
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined" transform="translate(59 75)" clip-path="url(#a)">
+            <path fill="#9F7C5A" stroke="#fff" class="highcharts-point" d="M2.5 108.5h15v1h-15zm21 4h15v2h-15zm21 3h15v1h-15zm21 1h15v1h-15zm21-1h15v1h-15zm20-3h15v1h-15zm21-3h15v2h-15zm21-3h15v2h-15zm21 0h15v2h-15zm21 0h15v2h-15z"/>
         </g>
-        <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(59 75)" clip-path="url(#a)">
-            <path fill="#B9CFD7" class="highcharts-point" stroke="#fff" d="M2.5 109.5h15v44h-15zm21 5h15v41h-15zm21 2h15v39h-15zm21 1h15v38h-15zm21-1h15v37h-15zm20-3h15v38h-15zm21-2h15v37h-15zm21-3h15v37h-15zm21 0h15v36h-15zm21 0h15v36h-15z"/>
+        <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined" transform="translate(59 75)" clip-path="url(#a)">
+            <path fill="#B9CFD7" stroke="#fff" class="highcharts-point" d="M2.5 109.5h15v44h-15zm21 5h15v41h-15zm21 2h15v39h-15zm21 1h15v38h-15zm21-1h15v37h-15zm20-3h15v38h-15zm21-2h15v37h-15zm21-3h15v37h-15zm21 0h15v36h-15zm21 0h15v36h-15z"/>
         </g>
-        <g class="highcharts-series highcharts-series-5 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(59 75)" clip-path="url(#a)">
-            <path fill="#FABD24" class="highcharts-point" stroke="#fff" d="M2.5 153.5h15v31h-15zm21 2h15v30h-15zm21 0h15v29h-15zm21 0h15v29h-15zm21-2h15v30h-15zm20-2h15v29h-15zm21-3h15v29h-15zm21-3h15v29h-15zm21-1h15v29h-15zm21 0h15v28h-15z"/>
+        <g class="highcharts-series highcharts-series-5 highcharts-column-series highcharts-color-undefined" transform="translate(59 75)" clip-path="url(#a)">
+            <path fill="#FABD24" stroke="#fff" class="highcharts-point" d="M2.5 153.5h15v31h-15zm21 2h15v30h-15zm21 0h15v29h-15zm21 0h15v29h-15zm21-2h15v30h-15zm20-2h15v29h-15zm21-3h15v29h-15zm21-3h15v29h-15zm21-1h15v29h-15zm21 0h15v28h-15z"/>
         </g>
-        <g class="highcharts-series highcharts-series-6 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(59 75)" clip-path="url(#a)">
-            <path fill="#73BA7C" class="highcharts-point" stroke="#fff" d="M2.5 184.5h15v15h-15zm21 1h15v13h-15zm21-1h15v13h-15zm21 0h15v12h-15zm21-1h15v12h-15zm20-3h15v12h-15zm21-3h15v12h-15zm21-3h15v11h-15zm21-1h15v12h-15zm21-1h15v12h-15z"/>
+        <g class="highcharts-series highcharts-series-6 highcharts-column-series highcharts-color-undefined" transform="translate(59 75)" clip-path="url(#a)">
+            <path fill="#73BA7C" stroke="#fff" class="highcharts-point" d="M2.5 184.5h15v15h-15zm21 1h15v13h-15zm21-1h15v13h-15zm21 0h15v12h-15zm21-1h15v12h-15zm20-3h15v12h-15zm21-3h15v12h-15zm21-3h15v11h-15zm21-1h15v12h-15zm21-1h15v12h-15z"/>
         </g>
-        <g class="highcharts-series highcharts-series-7 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(59 75)" clip-path="url(#a)">
-            <path fill="#007A2F" class="highcharts-point" stroke="#fff" d="M2.5 199.5h15v41h-15zm21-1h15v40h-15zm21-1h15v39h-15zm21-1h15v38h-15zm21-1h15v36h-15zm20-3h15v36h-15zm21-3h15v35h-15zm21-4h15v35h-15zm21 0h15v34h-15zm21-1h15v33h-15z"/>
+        <g class="highcharts-series highcharts-series-7 highcharts-column-series highcharts-color-undefined" transform="translate(59 75)" clip-path="url(#a)">
+            <path fill="#007A2F" stroke="#fff" class="highcharts-point" d="M2.5 199.5h15v41h-15zm21-1h15v40h-15zm21-1h15v39h-15zm21-1h15v38h-15zm21-1h15v36h-15zm20-3h15v36h-15zm21-3h15v35h-15zm21-4h15v35h-15zm21 0h15v34h-15zm21-1h15v33h-15z"/>
         </g>
-        <g class="highcharts-series highcharts-series-8 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(59 75)" clip-path="url(#a)">
-            <path fill="#672773" class="highcharts-point" stroke="#fff" d="M2.5 240.5h15v25h-15zm21-2h15v27h-15zm21-2h15v29h-15zm21-2h15v31h-15zm21-3h15v34h-15zm20-3h15v37h-15zm21-4h15v41h-15zm21-4h15v45h-15zm21-1h15v46h-15zm21-2h15v48h-15z"/>
+        <g class="highcharts-series highcharts-series-8 highcharts-column-series highcharts-color-undefined" transform="translate(59 75)" clip-path="url(#a)">
+            <path fill="#672773" stroke="#fff" class="highcharts-point" d="M2.5 240.5h15v25h-15zm21-2h15v27h-15zm21-2h15v29h-15zm21-2h15v31h-15zm21-3h15v34h-15zm20-3h15v37h-15zm21-4h15v41h-15zm21-4h15v45h-15zm21-1h15v46h-15zm21-2h15v48h-15z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
@@ -86,25 +86,25 @@
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-5">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 98)">
-                Türkei
+                <tspan>Türkei</tspan>
             </text>
             <path fill="#FABD24" class="highcharts-point" d="M10 102h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-6">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 117)">
-                Spanien
+                <tspan>Spanien</tspan>
             </text>
             <path fill="#73BA7C" class="highcharts-point" d="M10 121h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-7">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 136)">
-                Italien
+                <tspan>Italien</tspan>
             </text>
             <path fill="#007A2F" class="highcharts-point" d="M10 140h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-8">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 155)">
-                Deutschland
+                <tspan>Deutschland</tspan>
             </text>
             <path fill="#672773" class="highcharts-point" d="M10 159h12v12H10z"/>
         </g>

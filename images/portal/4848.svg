@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
     <defs>
         <clipPath id="a">
             <path fill="none" d="M0 0h252v312H0z"/>
@@ -21,11 +21,11 @@
         <path fill="none" class="highcharts-axis-line" d="M163 364h312"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 475 364)" clip-path="url(#a)">
-            <path fill="#256370" class="highcharts-point" stroke="#fff" d="M234.5 130.5h9v182h-9zm-36 53h9v129h-9zm-36 77h9v52h-9zm-36-87h9v139h-9zm-36-69h9v208h-9zm-36 65h9v143h-9zm-36-148h9v291h-9z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="matrix(0 -1 -1 0 475 364)" clip-path="url(#a)">
+            <path fill="#256370" stroke="#fff" class="highcharts-point" d="M234.5 130.5h9v182h-9zm-36 53h9v129h-9zm-36 77h9v52h-9zm-36-87h9v139h-9zm-36-69h9v208h-9zm-36 65h9v143h-9zm-36-148h9v291h-9z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 475 364)" clip-path="url(#a)">
-            <path fill="#A8C4CB" class="highcharts-point" stroke="#fff" d="M223.5 146.5h9v166h-9zm-36 48h9v118h-9zm-36 59h9v59h-9zm-36-60h9v119h-9zm-36-76h9v195h-9zm-36 48h9v147h-9zm-36-146h9v293h-9z"/>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined" transform="matrix(0 -1 -1 0 475 364)" clip-path="url(#a)">
+            <path fill="#A8C4CB" stroke="#fff" class="highcharts-point" d="M223.5 146.5h9v166h-9zm-36 48h9v118h-9zm-36 59h9v59h-9zm-36-60h9v119h-9zm-36-76h9v195h-9zm-36 48h9v147h-9zm-36-146h9v293h-9z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">

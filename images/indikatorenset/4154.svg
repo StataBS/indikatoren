@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
     <defs>
         <clipPath id="a">
             <path fill="none" d="M0 0h389v250H0z"/>
@@ -10,7 +10,7 @@
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
     <path fill="none" class="highcharts-plot-background" d="M43 100h389v250H43z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M77.5 100v250m0-250v250m64-250v250m0-250v250m64-250v250m0-250v250m63-250v250m0-250v250m64-250v250m0-250v250m64-250v250m0-250v250"/>
+        <path fill="none" class="highcharts-grid-line" d="M77.5 100v250m64-250v250m64-250v250m63-250v250m64-250v250m64-250v250"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 350.5h389m-389-83h389m-389-84h389m-389-84h389"/>
@@ -30,17 +30,16 @@
         <path fill="none" class="highcharts-axis-line" d="M432 100v250"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 100)" clip-path="url(#a)">
-            <path fill="#73b97c" class="highcharts-point" stroke="#fff" d="M17.5 77.5h16v173h-16zm64 5h16v168h-16zm63 5h16v163h-16zm64-7h16v170h-16zm64-65h16v235h-16zm64 0h16v235h-16z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(43 100)" clip-path="url(#a)">
+            <path fill="#73b97c" stroke="#fff" class="highcharts-point" d="M17.5 77.5h16v173h-16zm64 5h16v168h-16zm63 5h16v163h-16zm64-7h16v170h-16zm64-65h16v235h-16zm64 0h16v235h-16z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 100)" clip-path="url(#a)">
-            <path fill="#007A2F" class="highcharts-point" stroke="#fff" d="M36.5 93.5h16v157h-16zm64-1h16v158h-16zm64 0h16v158h-16zm63-7h16v165h-16zm64-52h16v217h-16zm64 7h16v210h-16z"/>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined" transform="translate(43 100)" clip-path="url(#a)">
+            <path fill="#007A2F" stroke="#fff" class="highcharts-point" d="M36.5 93.5h16v157h-16zm64-1h16v158h-16zm64 0h16v158h-16zm63-7h16v165h-16zm64-52h16v217h-16zm64 7h16v210h-16z"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(43 100)" clip-path="url(#b)">
             <path fill="none" d="M35.074 24.038l63.77-9.187 63.77-7.198 63.771-.3 63.77 12.15 63.771 7.093" class="highcharts-graph" stroke="#cd9c00" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M25.074 24.038h10l63.77-9.187 63.77-7.198 63.771-.3 63.77 12.15 63.771 7.093h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
-        <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+        <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined">
             <path fill="#cd9c00" d="M82 124a4 4 0 1 1 0-.004zm63-9a4 4 0 1 1 0-.004zm64-7a4 4 0 1 1 0-.004zm64-1a4 4 0 1 1 0-.004zm64 13a4 4 0 1 1 0-.004zm63 7a4 4 0 1 1 0-.004z" class="highcharts-point"/>
         </g>
     </g>
@@ -51,7 +50,7 @@
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="379" height="39"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
-                Notwohnungen
+                <tspan>Notwohnungen</tspan>
             </text>
             <path fill="#73b97c" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>

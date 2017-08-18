@@ -33,19 +33,19 @@ var chartOptions = {};
 var sortOptions = {};
 
 var indikatoren;
-var indikatorensetView = false;
+var view = false;
 
 $(document).ready(function(){
   //Render page differently depending on url query string 'Indikatorenset'
   //var indikatorenset = $.url('?Indikatorenset');
   var indikatorenset = window.decodeURIComponent($.url('?Indikatorenset'));
   //defines if portal or indikatorenset view is to be shown
-  indikatorensetView = false;
+  view = false;
   
   var jsonDatabaseUrl = 'metadata/portal/indikatoren.js';
   //determine if valid indikaorenset name
   if (indikatorensetNames.indexOf(indikatorenset) > -1){
-    indikatorensetView = true;
+    view = true;
     jsonDatabaseUrl = 'metadata/sets/'+ indikatorenset + '.js';
   }
   
@@ -56,7 +56,7 @@ $(document).ready(function(){
       $(deferred.resolve);
     })
   ).done(function(){
-      if (indikatorensetView) {
+      if (isIndikatorensetView(view)) {
         //if indikatorenset is loaded: make sure the data is loaded into var indikatoren
         indikatoren = indikatorensetData;
       }
@@ -74,8 +74,8 @@ $(document).ready(function(){
 
 
 //reset all filter criteria
-function resetPortalFilter(FJS, indikatorensetView){
-  if (indikatorensetView){
+function resetPortalFilter(FJS, view){
+  if (isIndikatorensetView(view)){
     $('#searchbox').val('');
     $("#stufe2_filter").prop('selectedIndex', 0);
     $("#stufe1_filter").prop('selectedIndex', 0);
@@ -113,7 +113,7 @@ function initializeFilterJS(indikatorenset){
   };
 
 
-  if (indikatorensetView){ 
+  if (isIndikatorensetView(view)){ 
     //Indikatorenset View
     sortOptions = {'kuerzelKunde': 'asc'};
     prepareIndikatorensetView(indikatorenset);
@@ -167,7 +167,7 @@ function initializeFilterJS(indikatorenset){
   //add event listener to render chart on modal show
   $("#lightbox").on('show.bs.modal', function (e) {    
     var targetId = $(e.relatedTarget).attr("indikator-id-data");
-    lazyRenderChartById(targetId, undefined, indikatorensetView);
+    lazyRenderChartById(targetId, undefined, view);
     var targetItem = $('#container-' + targetId).parent();
     var currentNumber = $('.item').index(targetItem) +1;
     updateIndicatorText(currentNumber);
@@ -184,7 +184,7 @@ function initializeFilterJS(indikatorenset){
     //only do this in here in order to prevent two events from happening when clicking on a non-active chart thumbnail (sliding and opening model)
     $('#lightbox').on('slide.bs.carousel', function (e) {
         var targetId = $(e.relatedTarget).children().first().attr('indikator-id-data');
-        lazyRenderChartById(targetId, undefined, indikatorensetView);
+        lazyRenderChartById(targetId, undefined, view);
         //display chart number in indicator      
         var currentNumber = $(e.relatedTarget).index() + 1;    
         updateIndicatorText(currentNumber);
@@ -391,7 +391,7 @@ function getIndexOfChart(chartId, charts){
 
 
 //slide carousel to a specified chart id
-function slideToLinkedChart(chartId, FJS, indikatorensetView){
+function slideToLinkedChart(chartId, FJS, view){
   var index = getIndexOfChart(chartId, getLastFjsResult());
   if (index > -1){
     $('.carousel').carousel(index);
@@ -400,7 +400,7 @@ function slideToLinkedChart(chartId, FJS, indikatorensetView){
     //get index of currently displayed chart
     var currentIndex = $(".item.active").index();
     //reset search filters
-    resetPortalFilter(FJS, indikatorensetView);
+    resetPortalFilter(FJS, view);
     //find index of target chart
     index = getIndexOfChart(chartId, getLastFjsResult());
     if (index > -1){
@@ -421,9 +421,9 @@ function slideToLinkedChart(chartId, FJS, indikatorensetView){
 
 
 //render the html required for links to other chart, kennzahlenset or external resources
-function renderLinksHTML(kennzahlenset, renderLink, externalLinks, indikatorensetView){
+function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view){
   var returnText = "";
-  var displayLinkToIndikatorenset = (kennzahlenset && !indikatorensetView);
+  var displayLinkToIndikatorenset = (kennzahlenset && !isIndikatorensetView(view));
   var displayRenderLink = (renderLink && renderLink.length && renderLink[0].length);
   var displayExternalLinks = (externalLinks && externalLinks.length && externalLinks[0].length);
   //any of the links need to be present 
@@ -439,7 +439,7 @@ function renderLinksHTML(kennzahlenset, renderLink, externalLinks, indikatorense
       returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/"+ kennzahlenset.toLowerCase().replace(" ", "-") + ".html' target='_blank'>" + kennzahlenset + "</a>.</li>";
     }
     if (displayRenderLink) {
-      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS, " + indikatorensetView + ")'>Andere Darstellungsform</a> dieser Daten</li>";
+      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS, " + view + ")'>Andere Darstellungsform</a> dieser Daten</li>";
     }
     if (displayExternalLinks) {
       returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>" + externalLinks + "</li>";
@@ -625,7 +625,7 @@ var afterFilter = function(result, jQ){
     function createCarousel(result){            
       //add a carousel-inner div for each thumbnail
       //build template function using template from DOM
-      var template = (indikatorensetView) ? '#indikator-template-modal-indikatorenset' : '#indikator-template-modal-portal';
+      var template = (isIndikatorensetView(view)) ? '#indikator-template-modal-indikatorenset' : '#indikator-template-modal-portal';
       var html = $(template).html();
       var templateFunction = FilterJS.templateBuilder(html);
       var container = $('#carousel-inner');

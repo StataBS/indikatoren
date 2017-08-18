@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
     <defs>
         <clipPath id="a">
             <path fill="none" d="M0 0h429v254H0z"/>
@@ -10,7 +10,7 @@
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M88.5 90v254m0-254v254m43-254v254m0-254v254m43-254v254m0-254v254m43-254v254m0-254v254m43-254v254m0-254v254m42-254v254m0-254v254m43-254v254m0-254v254m43-254v254m0-254v254m43-254v254m0-254v254m43-254v254m0-254v254M45.5 90v254m0-254v254"/>
+        <path fill="none" class="highcharts-grid-line" d="M88.5 90v254m43-254v254m43-254v254m43-254v254m43-254v254m42-254v254m43-254v254m43-254v254m43-254v254m43-254v254M45.5 90v254"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M46 344.5h429m-429-51h429m-429-51h429m-429-50h429m-429-51h429m-429-52h429"/>
@@ -26,12 +26,11 @@
         <path fill="none" class="highcharts-axis-line" d="M475 90v254"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(46 90)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(46 90)" clip-path="url(#a)">
             <path fill="#FF8028" class="highcharts-point" d="M11 72h21v183H11zm43 0h21v183H54zm43-20h21v203H97zm43 0h21v203h-21zm43 0h21v203h-21zm43 0h21v203h-21zm43 20h21v183h-21zm42 0h21v183h-21zm43 20h21v163h-21zm43-20h21v183h-21z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(46 90)" clip-path="url(#a)">
             <path fill="none" d="M21.45 50.8h386.1" class="highcharts-graph" stroke="#444" stroke-width="2" stroke-dasharray="6,2"/>
-            <path fill="none" d="M11.45 50.8h406.1" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">

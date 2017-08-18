@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
     <defs>
         <clipPath id="a">
             <path fill="none" d="M0 0h422v235H0z"/>
@@ -10,7 +10,7 @@
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M158.5 109v235m0-235v235m105-235v235m0-235v235m106-235v235m0-235v235m105-235v235m0-235v235m-422-235v235m0-235v235"/>
+        <path fill="none" class="highcharts-grid-line" d="M158.5 109v235m105-235v235m106-235v235m105-235v235m-422-235v235"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 344.5h422m-422-59h422m-422-58h422m-422-59h422m-422-60h422"/>
@@ -26,16 +26,16 @@
         <path fill="none" class="highcharts-axis-line" d="M475 109v235"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 109)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(53 109)" clip-path="url(#a)">
             <path fill="#FF8028" class="highcharts-point" d="M27 0h51v166H27zm106 0h51v167h-51zm105 0h51v168h-51zm106 0h51v169h-51z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 109)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined" transform="translate(53 109)" clip-path="url(#a)">
             <path fill="#DC440E" class="highcharts-point" d="M27 166h51v30H27zm106 1h51v29h-51zm105 1h51v28h-51zm106 1h51v27h-51z"/>
         </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 109)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined" transform="translate(53 109)" clip-path="url(#a)">
             <path fill="#B00000" class="highcharts-point" d="M27 196h51v29H27zm106 0h51v30h-51zm105 0h51v29h-51zm106 0h51v29h-51z"/>
         </g>
-        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 109)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined" transform="translate(53 109)" clip-path="url(#a)">
             <path fill="#661200" class="highcharts-point" d="M27 225h51v11H27zm106 1h51v10h-51zm105-1h51v11h-51zm106 0h51v11h-51z"/>
         </g>
     </g>

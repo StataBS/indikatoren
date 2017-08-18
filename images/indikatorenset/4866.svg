@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
     <defs>
         <clipPath id="a">
             <path fill="none" d="M0 0h432v275H0z"/>
@@ -21,18 +21,18 @@
         <path fill="none" class="highcharts-axis-line" d="M43 75v275"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 75)" clip-path="url(#a)">
-            <path fill="#73BA7C" class="highcharts-point" stroke="#fff" d="M18.5 105.5h30v170h-30zm61-2h30v172h-30zm61 5h30v167h-30zm60-17h30v184h-30zm61-41h30v225h-30zm61 27h30v198h-30zm60 22h30v176h-30z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(43 75)" clip-path="url(#a)">
+            <path fill="#73BA7C" stroke="#fff" class="highcharts-point" d="M18.5 105.5h30v170h-30zm61-2h30v172h-30zm61 5h30v167h-30zm60-17h30v184h-30zm61-41h30v225h-30zm61 27h30v198h-30zm60 22h30v176h-30z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen,</tspan><tspan dy="17" x="10">pro 1000 Einwohner im Alter von 18 und mehr Jahren</tspan><title>Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren</title>
     </text>
-    <g class="highcharts-data-labels highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker">
-        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(59 158)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-column-series highcharts-color-undefined">
+        <text x="5" y="15" font-size="10" font-weight="700" color="#000" transform="translate(59 158)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
             <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">124,0</tspan><tspan x="5" y="15">124,0</tspan>
         </text>
-        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(423 152)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+        <text x="5" y="15" font-size="10" font-weight="700" color="#000" transform="translate(423 152)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
             <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">128,1</tspan><tspan x="5" y="15">128,1</tspan>
         </text>
     </g>

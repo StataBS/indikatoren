@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
     <defs>
         <clipPath id="a">
             <path fill="none" d="M0 0h444v241H0z"/>
@@ -10,7 +10,7 @@
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M58.5 90v241m0-241v241m28-241v241m0-241v241m27-241v241m0-241v241m28-241v241m0-241v241m28-241v241m0-241v241m28-241v241m0-241v241m27-241v241m0-241v241m28-241v241m0-241v241m28-241v241m0-241v241m28-241v241m0-241v241m27-241v241m0-241v241m28-241v241m0-241v241m28-241v241m0-241v241m28-241v241m0-241v241m27-241v241m0-241v241m28-241v241m0-241v241M30.5 90v241m0-241v241"/>
+        <path fill="none" class="highcharts-grid-line" d="M58.5 90v241m28-241v241m27-241v241m28-241v241m28-241v241m28-241v241m27-241v241m28-241v241m28-241v241m28-241v241m27-241v241m28-241v241m28-241v241m28-241v241m27-241v241m28-241v241M30.5 90v241"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M31 331.5h444m-444-60h444m-444-60h444m-444-61h444m-444-61h444"/>
@@ -26,7 +26,7 @@
         <path fill="none" class="highcharts-axis-line" d="M475 90v241"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(31 90)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(31 90)" clip-path="url(#a)">
             <path fill="#FF8028" class="highcharts-point" d="M7 212h14v30H7zm28 0h14v30H35zm28-30h14v60H63zm27 0h14v60H90zm28 0h14v60h-14zm28 0h14v60h-14zm28-30h14v90h-14zm27-30h14v120h-14zm28 0h14v120h-14zm28 0h14v120h-14zm28 0h14v120h-14zm27-31h14v151h-14zm28 0h14v151h-14zm28-30h14v181h-14zm28 0h14v181h-14zm27 0h14v181h-14z"/>
         </g>
     </g>

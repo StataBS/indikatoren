@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
     <defs>
         <clipPath id="a">
             <path fill="none" d="M0 0h279v265H0z"/>
@@ -21,17 +21,17 @@
         <path fill="none" class="highcharts-axis-line" d="M74 75v265"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(74 75)" clip-path="url(#a)">
-            <path fill="#246370" class="highcharts-point" stroke="#fff" d="M4.5 147.5h25v118h-25zm35 4h25v114h-25zm35 3h25v111h-25zm35 0h25v111h-25zm34 1h25v110h-25zm35-5h25v115h-25zm35-2h25v117h-25zm35 2h25v115h-25z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(74 75)" clip-path="url(#a)">
+            <path fill="#246370" stroke="#fff" class="highcharts-point" d="M4.5 147.5h25v118h-25zm35 4h25v114h-25zm35 3h25v111h-25zm35 0h25v111h-25zm34 1h25v110h-25zm35-5h25v115h-25zm35-2h25v117h-25zm35 2h25v115h-25z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(74 75)" clip-path="url(#a)">
-            <path fill="#D3E2E4" class="highcharts-point" stroke="#fff" d="M4.5 110.5h25v37h-25zm35 4h25v37h-25zm35 5h25v35h-25zm35-1h25v36h-25zm34 8h25v29h-25zm35-3h25v27h-25zm35 1h25v24h-25zm35 3h25v23h-25z"/>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined" transform="translate(74 75)" clip-path="url(#a)">
+            <path fill="#D3E2E4" stroke="#fff" class="highcharts-point" d="M4.5 110.5h25v37h-25zm35 4h25v37h-25zm35 5h25v35h-25zm35-1h25v36h-25zm34 8h25v29h-25zm35-3h25v27h-25zm35 1h25v24h-25zm35 3h25v23h-25z"/>
         </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(74 75)" clip-path="url(#a)">
-            <path fill="#68AB2B" class="highcharts-point" stroke="#fff" d="M4.5 78.5h25v32h-25zm35 0h25v36h-25zm35 5h25v36h-25zm35-6h25v41h-25zm34 13h25v36h-25zm35-3h25v36h-25zm35 1h25v36h-25zm35 5h25v34h-25z"/>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined" transform="translate(74 75)" clip-path="url(#a)">
+            <path fill="#68AB2B" stroke="#fff" class="highcharts-point" d="M4.5 78.5h25v32h-25zm35 0h25v36h-25zm35 5h25v36h-25zm35-6h25v41h-25zm34 13h25v36h-25zm35-3h25v36h-25zm35 1h25v36h-25zm35 5h25v34h-25z"/>
         </g>
-        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(74 75)" clip-path="url(#a)">
-            <path fill="#662673" class="highcharts-point" stroke="#fff" d="M4.5 57.5h25v21h-25zm35 2h25v19h-25zm35 5h25v19h-25zm35-6h25v19h-25zm34 9h25v23h-25zm35-5h25v25h-25zm35 1h25v25h-25zm35 4h25v26h-25z"/>
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined" transform="translate(74 75)" clip-path="url(#a)">
+            <path fill="#662673" stroke="#fff" class="highcharts-point" d="M4.5 57.5h25v21h-25zm35 2h25v19h-25zm35 5h25v19h-25zm35-6h25v19h-25zm34 9h25v23h-25zm35-5h25v25h-25zm35 1h25v25h-25zm35 4h25v26h-25z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
@@ -41,25 +41,25 @@
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="109" height="87"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
-                Rehabilitation
+                <tspan>Rehabilitation</tspan>
             </text>
             <path fill="#662673" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
-                Psychiatrie
+                <tspan>Psychiatrie</tspan>
             </text>
             <path fill="#68AB2B" class="highcharts-point" d="M10 26h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 41)">
-                Geriatrie
+                <tspan>Geriatrie</tspan>
             </text>
             <path fill="#D3E2E4" class="highcharts-point" d="M10 45h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 60)">
-                Akutsomatik
+                <tspan>Akutsomatik</tspan>
             </text>
             <path fill="#246370" class="highcharts-point" d="M10 64h12v12H10z"/>
         </g>

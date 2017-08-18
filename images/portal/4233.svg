@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
     <defs>
         <clipPath id="a">
             <path fill="none" d="M0 0h438v254H0z"/>
@@ -10,7 +10,7 @@
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M44.5 90v254m0-254v254m34-254v254m0-254v254m34-254v254m0-254v254m34-254v254m0-254v254m33-254v254m0-254v254m34-254v254m0-254v254m34-254v254m0-254v254m33-254v254m0-254v254m34-254v254m0-254v254m34-254v254m0-254v254m33-254v254m0-254v254m34-254v254m0-254v254m34-254v254m0-254v254"/>
+        <path fill="none" class="highcharts-grid-line" d="M44.5 90v254m34-254v254m34-254v254m34-254v254m33-254v254m34-254v254m34-254v254m33-254v254m34-254v254m34-254v254m33-254v254m34-254v254m34-254v254"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M37 344.5h438m-438-51h438m-438-51h438m-438-50h438m-438-51h438m-438-52h438"/>
@@ -28,7 +28,6 @@
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(37 90)" clip-path="url(#a)">
             <path fill="none" d="M-25.27 55.88l16.847-9.144 16.846 15.24 16.846-8.128 16.846 11.176L58.962 76.2l16.846-2.032 16.846 5.08 16.846 10.16 16.846-4.064 16.846 7.112 16.846 2.032 16.847 6.096 16.846 8.128 16.846-22.352 16.846 6.096 16.846-9.144 16.846 13.208 16.847 2.032 16.846-2.032 16.846 3.048 16.846 1.016 16.846-7.112 16.846-2.032 16.846 8.128 16.847-1.016 16.846 4.064 16.846-7.112" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-35.27 55.88h10l16.847-9.144 16.846 15.24 16.846-8.128 16.846 11.176L58.962 76.2l16.846-2.032 16.846 5.08 16.846 10.16 16.846-4.064 16.846 7.112 16.846 2.032 16.847 6.096 16.846 8.128 16.846-22.352 16.846 6.096 16.846-9.144 16.846 13.208 16.847 2.032 16.846-2.032 16.846 3.048 16.846 1.016 16.846-7.112 16.846-2.032 16.846 8.128 16.847-1.016 16.846 4.064 16.846-7.112h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
@@ -47,43 +46,43 @@
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
-        <text x="45.423" y="366">
+        <text x="45.423" y="363">
             1991
         </text>
-        <text x="79.115" y="366">
+        <text x="79.115" y="363">
             1993
         </text>
-        <text x="112.808" y="366">
+        <text x="112.808" y="363">
             1995
         </text>
-        <text x="146.5" y="366">
+        <text x="146.5" y="363">
             1997
         </text>
-        <text x="180.192" y="366">
+        <text x="180.192" y="363">
             1999
         </text>
-        <text x="213.885" y="366">
+        <text x="213.885" y="363">
             2001
         </text>
-        <text x="247.577" y="366">
+        <text x="247.577" y="363">
             2003
         </text>
-        <text x="281.269" y="366">
+        <text x="281.269" y="363">
             2005
         </text>
-        <text x="314.962" y="366">
+        <text x="314.962" y="363">
             2007
         </text>
-        <text x="348.654" y="366">
+        <text x="348.654" y="363">
             2009
         </text>
-        <text x="382.346" y="366">
+        <text x="382.346" y="363">
             2011
         </text>
-        <text x="416.038" y="366">
+        <text x="416.038" y="363">
             2013
         </text>
-        <text x="449.731" y="366">
+        <text x="449.731" y="363">
             2015
         </text>
     </g>

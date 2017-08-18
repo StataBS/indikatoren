@@ -104,7 +104,6 @@
     },
     "type": "line",
     "marginBottom": 75,
-    "forExport": true,
     "renderTo": "container-4923"
   },
   "title": {

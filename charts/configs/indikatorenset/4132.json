@@ -550,7 +550,6 @@
                     }
     },
     "type": "area",
-    "forExport": true,
     "renderTo": "container-4132"
   },
   "plotOptions": {

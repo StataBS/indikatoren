@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
     <defs>
         <clipPath id="a">
             <path fill="none" d="M0 0h428v254H0z"/>
@@ -10,7 +10,7 @@
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M55.5 90v254m0-254v254m36-254v254m0-254v254m35-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m35-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m35-254v254m0-254v254m36-254v254m0-254v254m36-254v254m0-254v254m35-254v254m0-254v254"/>
+        <path fill="none" class="highcharts-grid-line" d="M55.5 90v254m36-254v254m35-254v254m36-254v254m36-254v254m35-254v254m36-254v254m36-254v254m35-254v254m36-254v254m36-254v254m35-254v254"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M47 344.5h428m-428-63h428m-428-64h428m-428-63h428m-428-65h428"/>
@@ -28,7 +28,6 @@
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(47 90)" clip-path="url(#a)">
             <path fill="none" d="M8.917 70.168L26.75 87.63l17.833-14.922 17.834 8.255L80.25 102.87l17.833-30.162 17.834 75.565L133.75 52.07l17.833-5.08 17.834 5.08 17.833 14.288 17.833 44.767 17.834-22.86 17.833 27.623L258.583 127l17.834 2.858 17.833-8.256 17.833 26.67 17.834-26.67 17.833 26.67 17.833-26.67 17.834 30.798 17.833 8.89 17.833-22.86" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-1.083 70.168h10L26.75 87.63l17.833-14.922 17.834 8.255L80.25 102.87l17.833-30.162 17.834 75.565L133.75 52.07l17.833-5.08 17.834 5.08 17.833 14.288 17.833 44.767 17.834-22.86 17.833 27.623L258.583 127l17.834 2.858 17.833-8.256 17.833 26.67 17.834-26.67 17.833 26.67 17.833-26.67 17.834 30.798 17.833 8.89 17.833-22.86h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">

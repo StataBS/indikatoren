@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
     <defs>
         <clipPath id="a">
             <path fill="none" d="M0 0h432v254H0z"/>
@@ -10,7 +10,7 @@
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M75.5 90v254m0-254v254m33-254v254m0-254v254m34-254v254m0-254v254m33-254v254m0-254v254m33-254v254m0-254v254m33-254v254m0-254v254m34-254v254m0-254v254m33-254v254m0-254v254m33-254v254m0-254v254m33-254v254m0-254v254m34-254v254m0-254v254m33-254v254m0-254v254m33-254v254m0-254v254M42.5 90v254m0-254v254"/>
+        <path fill="none" class="highcharts-grid-line" d="M75.5 90v254m33-254v254m34-254v254m33-254v254m33-254v254m33-254v254m34-254v254m33-254v254m33-254v254m33-254v254m34-254v254m33-254v254m33-254v254M42.5 90v254"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 344.5h432m-432-85h432m-432-84h432m-432-85h432"/>
@@ -26,7 +26,7 @@
         <path fill="none" class="highcharts-axis-line" d="M475 90v254"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(43 90)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(43 90)" clip-path="url(#a)">
             <path fill="#73B97C" class="highcharts-point" d="M9 101h16v154H9zm33-19h16v173H42zm33 16h16v157H75zm33-54h16v211h-16zm34-26h16v237h-16zm33 43h16v194h-16zm33 18h16v176h-16zm33 17h16v159h-16zm33 14h16v145h-16zm34-7h16v152h-16zm33-9h16v161h-16zm33-24h16v185h-16zm33 17h16v168h-16z"/>
         </g>
     </g>
