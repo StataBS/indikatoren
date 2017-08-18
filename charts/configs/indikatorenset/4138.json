@@ -660,7 +660,6 @@
                 }
     },
     "type": "column",
-    "forExport": true,
     "renderTo": "container-4138"
   },
   "plotOptions": {

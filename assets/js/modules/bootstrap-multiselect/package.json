@@ -10,7 +10,7 @@
         "spec": "0.9.13-1",
         "type": "version"
       },
-      "/home/travis/build/statabs-test/indikatoren"
+      "/home/ubuntu/workspace"
     ]
   ],
   "_from": "bootstrap-multiselect@0.9.13-1",
@@ -39,7 +39,7 @@
   "_shasum": "2c57cee260b18d7f01a4edd9d65f25df0425fd2a",
   "_shrinkwrap": null,
   "_spec": "bootstrap-multiselect@0.9.13-1",
-  "_where": "/home/travis/build/statabs-test/indikatoren",
+  "_where": "/home/ubuntu/workspace",
   "author": {
     "name": "David Stutz"
   },

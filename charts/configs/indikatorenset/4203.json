@@ -83,7 +83,6 @@
     },
     "type": "column",
     "inverted": true,
-    "forExport": true,
     "renderTo": "container-4203"
   },
   "plotOptions": {

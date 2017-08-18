@@ -10,7 +10,7 @@
         "spec": "5.0.7",
         "type": "version"
       },
-      "/home/travis/build/statabs-test/indikatoren"
+      "/home/ubuntu/workspace"
     ]
   ],
   "_from": "highcharts@5.0.7",
@@ -44,7 +44,7 @@
   "_shasum": "63ebeeee05acd56e3b2554b5b31a1224e1e05bf6",
   "_shrinkwrap": null,
   "_spec": "highcharts@5.0.7",
-  "_where": "/home/travis/build/statabs-test/indikatoren",
+  "_where": "/home/ubuntu/workspace",
   "author": {
     "name": "Highsoft AS",
     "email": "support@highcharts.com",
