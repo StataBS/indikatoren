@@ -1,48 +1,25 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "highcharts-export-csv@1.4.4",
-        "scope": null,
-        "escapedName": "highcharts-export-csv",
-        "name": "highcharts-export-csv",
-        "rawSpec": "1.4.4",
-        "spec": "1.4.4",
-        "type": "version"
-      },
-      "/home/ubuntu/workspace"
-    ]
-  ],
   "_from": "highcharts-export-csv@1.4.4",
   "_id": "highcharts-export-csv@1.4.4",
-  "_inCache": true,
+  "_inBundle": false,
+  "_integrity": "sha1-B257l79saD0LoN9bA5H1kfkM5a4=",
   "_location": "/highcharts-export-csv",
-  "_nodeVersion": "4.4.5",
-  "_npmOperationalInternal": {
-    "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/highcharts-export-csv-1.4.4.tgz_1480496023118_0.32766747288405895"
-  },
-  "_npmUser": {
-    "name": "highsoft",
-    "email": "torstein@highsoft.com"
-  },
-  "_npmVersion": "2.15.5",
   "_phantomChildren": {},
   "_requested": {
+    "type": "version",
+    "registry": true,
     "raw": "highcharts-export-csv@1.4.4",
-    "scope": null,
-    "escapedName": "highcharts-export-csv",
     "name": "highcharts-export-csv",
+    "escapedName": "highcharts-export-csv",
     "rawSpec": "1.4.4",
-    "spec": "1.4.4",
-    "type": "version"
+    "saveSpec": null,
+    "fetchSpec": "1.4.4"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/highcharts-export-csv/-/highcharts-export-csv-1.4.4.tgz",
   "_shasum": "076e7b97bf6c683d0ba0df5b0391f591f90ce5ae",
-  "_shrinkwrap": null,
   "_spec": "highcharts-export-csv@1.4.4",
   "_where": "/home/ubuntu/workspace",
   "author": {
@@ -52,6 +29,7 @@
   "bugs": {
     "url": "https://github.com/highcharts/export-csv/issues"
   },
+  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Torgrim Thorsen",
@@ -59,16 +37,8 @@
       "url": "https://github.com/SirAlexiner"
     }
   ],
-  "dependencies": {},
   "deprecated": "Export CSV is included as a module in the main Highcharts package since v5.0.11.",
   "description": "Highcharts plugin to export the chart data to CSV, XLS or HTML table",
-  "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "shasum": "076e7b97bf6c683d0ba0df5b0391f591f90ce5ae",
-    "tarball": "https://registry.npmjs.org/highcharts-export-csv/-/highcharts-export-csv-1.4.4.tgz"
-  },
-  "gitHead": "cd5a409b2113eac1afb68b313403f37406c8b8b7",
   "homepage": "http://www.highcharts.com/plugin-registry/single/7/Export-CSV",
   "keywords": [
     "export",
@@ -77,22 +47,13 @@
   ],
   "license": "MIT",
   "main": "export-csv.js",
-  "maintainers": [
-    {
-      "name": "highsoft",
-      "email": "torstein@highsoft.com"
-    }
-  ],
   "name": "highcharts-export-csv",
-  "optionalDependencies": {},
   "peerDependencies": {
     "highcharts": ">=3.0.0"
   },
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/highcharts/export-csv.git"
   },
-  "scripts": {},
   "version": "1.4.4"
 }
