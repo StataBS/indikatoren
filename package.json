@@ -16,7 +16,6 @@
     "casperjs": "1.1.4",
     "copy-node-modules": "1.0.2",
     "gh-pages-travis": "1.0.0",
-    "highcharts-export-server": "2.0.0",
     "glob": "7.1.1",
     "highcharts-export-server": "2.0.0",
     "highcharts-phantomjs": "2.2.0",
