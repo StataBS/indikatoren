@@ -111,7 +111,6 @@
     },
     "type": "line",
     "marginTop": 120,
-    "forExport": true,
     "renderTo": "container-4463"
   },
   "title": {

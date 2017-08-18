@@ -6542,7 +6542,6 @@
     },
     "type": "map",
     "inverted": true,
-    "forExport": true,
     "renderTo": "container-5131"
   },
   "title": {

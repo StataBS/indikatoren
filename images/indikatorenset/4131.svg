@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
     <defs>
         <clipPath id="a">
             <path fill="none" d="M0 0h218v275H0z"/>
@@ -21,17 +21,17 @@
         <path fill="none" class="highcharts-axis-line" d="M53 75v275"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 75)" clip-path="url(#a)">
-            <path fill="#662673" class="highcharts-point" stroke="#fff" d="M15.5-.5h26v3h-26zm53 0h26v3h-26zm54 0h26v3h-26zm54 0h26v3h-26z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(53 75)" clip-path="url(#a)">
+            <path fill="#662673" stroke="#fff" class="highcharts-point" d="M15.5-.5h26v3h-26zm53 0h26v3h-26zm54 0h26v3h-26zm54 0h26v3h-26z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 75)" clip-path="url(#a)">
-            <path fill="#73B97C" class="highcharts-point" stroke="#fff" d="M15.5 2.5h26v41h-26zm53 0h26v41h-26zm54 0h26v41h-26zm54 0h26v41h-26z"/>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined" transform="translate(53 75)" clip-path="url(#a)">
+            <path fill="#73B97C" stroke="#fff" class="highcharts-point" d="M15.5 2.5h26v41h-26zm53 0h26v41h-26zm54 0h26v41h-26zm54 0h26v41h-26z"/>
         </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 75)" clip-path="url(#a)">
-            <path fill="#008AC3" class="highcharts-point" stroke="#fff" d="M15.5 43.5h26v28h-26zm53 0h26v28h-26zm54 0h26v28h-26zm54 0h26v28h-26z"/>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined" transform="translate(53 75)" clip-path="url(#a)">
+            <path fill="#008AC3" stroke="#fff" class="highcharts-point" d="M15.5 43.5h26v28h-26zm53 0h26v28h-26zm54 0h26v28h-26zm54 0h26v28h-26z"/>
         </g>
-        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 75)" clip-path="url(#a)">
-            <path fill="#CD9C00" class="highcharts-point" stroke="#fff" d="M15.5 71.5h26v204h-26zm53 0h26v204h-26zm54 0h26v204h-26zm54 0h26v204h-26z"/>
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined" transform="translate(53 75)" clip-path="url(#a)">
+            <path fill="#CD9C00" stroke="#fff" class="highcharts-point" d="M15.5 71.5h26v204h-26zm53 0h26v204h-26zm54 0h26v204h-26zm54 0h26v204h-26z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
@@ -50,19 +50,19 @@
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
-                Eigentümerwohnungen
+                <tspan>Eigentümerwohnungen</tspan>
             </text>
             <path fill="#73B97C" class="highcharts-point" d="M10 26h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 41)">
-                Genossenschaftswohnungen
+                <tspan>Genossenschaftswohnungen</tspan>
             </text>
             <path fill="#008AC3" class="highcharts-point" d="M10 45h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 60)">
-                Mietwohnungen
+                <tspan>Mietwohnungen</tspan>
             </text>
             <path fill="#CD9C00" class="highcharts-point" d="M10 64h12v12H10z"/>
         </g>

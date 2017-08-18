@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
     <defs>
         <clipPath id="a">
             <path fill="none" d="M0 0h280v280H0z"/>
@@ -21,23 +21,23 @@
         <path fill="none" class="highcharts-axis-line" d="M53 70v280"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 70)" clip-path="url(#a)">
-            <path fill="#256370" class="highcharts-point" stroke="#fff" d="M35.5 127.5h68v153h-68zm140 1h68v152h-68z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(53 70)" clip-path="url(#a)">
+            <path fill="#256370" stroke="#fff" class="highcharts-point" d="M35.5 127.5h68v153h-68zm140 1h68v152h-68z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 70)" clip-path="url(#a)">
-            <path fill="#71A3B5" class="highcharts-point" stroke="#fff" d="M35.5 27.5h68v100h-68zm140 2h68v99h-68z"/>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined" transform="translate(53 70)" clip-path="url(#a)">
+            <path fill="#71A3B5" stroke="#fff" class="highcharts-point" d="M35.5 27.5h68v100h-68zm140 2h68v99h-68z"/>
         </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 70)" clip-path="url(#a)">
-            <path fill="#C8C8C8" class="highcharts-point" stroke="#fff" d="M35.5 23.5h68v4h-68zm140 2h68v4h-68z"/>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined" transform="translate(53 70)" clip-path="url(#a)">
+            <path fill="#C8C8C8" stroke="#fff" class="highcharts-point" d="M35.5 23.5h68v4h-68zm140 2h68v4h-68z"/>
         </g>
-        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 70)" clip-path="url(#a)">
-            <path fill="#8A8A8A" class="highcharts-point" stroke="#fff" d="M35.5 17.5h68v6h-68zm140 0h68v8h-68z"/>
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined" transform="translate(53 70)" clip-path="url(#a)">
+            <path fill="#8A8A8A" stroke="#fff" class="highcharts-point" d="M35.5 17.5h68v6h-68zm140 0h68v8h-68z"/>
         </g>
-        <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 70)" clip-path="url(#a)">
-            <path fill="#FFBB58" class="highcharts-point" stroke="#fff" d="M35.5 4.5h68v13h-68zm140-1h68v14h-68z"/>
+        <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined" transform="translate(53 70)" clip-path="url(#a)">
+            <path fill="#FFBB58" stroke="#fff" class="highcharts-point" d="M35.5 4.5h68v13h-68zm140-1h68v14h-68z"/>
         </g>
-        <g class="highcharts-series highcharts-series-5 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 70)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" stroke="#fff" d="M35.5-.5h68v5h-68zm140 0h68v4h-68z"/>
+        <g class="highcharts-series highcharts-series-5 highcharts-column-series highcharts-color-undefined" transform="translate(53 70)" clip-path="url(#a)">
+            <path fill="#FF8028" stroke="#fff" class="highcharts-point" d="M35.5-.5h68v5h-68zm140 0h68v4h-68z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">

@@ -7,7 +7,7 @@ global indikatoren
 global templatesById
 */
 
-"use strict"; 
+//"use strict"; 
 
 //parse csv and configure HighCharts object
 function parseData(chartOptions, data, completeHandler) {
@@ -30,7 +30,7 @@ function parseData(chartOptions, data, completeHandler) {
 }
 
 //merge series with all options
-function createChartConfig(data, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn){  
+function createChartConfig(data, chartOptions, template, chartMetaData, view, suppressNumberInTitle, callbackFn){  
   parseData(chartOptions, data, function (dataOptions) {
     // Merge series configs
     if (chartOptions.series && dataOptions) {
@@ -41,7 +41,7 @@ function createChartConfig(data, chartOptions, template, chartMetaData, indikato
     //merge all highcharts configs
     var options = Highcharts.merge(true, dataOptions, template, chartOptions);
     //inject metadata to highcharts options 
-    var injectedOptions = injectMetadataToChartConfig(options, chartMetaData, indikatorensetView, suppressNumberInTitle);
+    var injectedOptions = injectMetadataToChartConfig(options, chartMetaData, view, suppressNumberInTitle);
     //replace . in labels with spaces - necessary for space between column groups
     var replacedOptions = createEmptyLabels(injectedOptions);
     //add afterSeries as last series
@@ -56,12 +56,18 @@ function createChartConfig(data, chartOptions, template, chartMetaData, indikato
 
 
 //merge series with all options and draw chart
-function drawChartFromData(data, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn){
-  createChartConfig(data, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, function(options){
+function drawChartFromData(data, chartOptions, template, chartMetaData, view, suppressNumberInTitle, callbackFn){
+  createChartConfig(data, chartOptions, template, chartMetaData, view, suppressNumberInTitle, function(options){
     //decide if stockchart, map, or chart
     var constr = options.isStock ? 'StockChart': (options.chart.type === 'map' ? 'Map' : 'Chart');
     return new Highcharts[constr](options, callbackFn);
   });
+}
+
+
+//determine if the view is indikatorensetView (true or false), for backwards compatibility
+function isIndikatorensetView(view){
+  return ((view == true || view == "indikatorenset") ? true :  false);
 }
 
 
@@ -91,11 +97,11 @@ function loadChartConfig(id, indikatorensetView, callbackFn){
 
 
 //Add data from database to chart config
-function injectMetadataToChartConfig(options, data, indikatorensetView, suppressNumberInTitle){
-  var chartNumber = (indikatorensetView) ? data.kuerzelKunde : data.kuerzel;
+function injectMetadataToChartConfig(options, data, view, suppressNumberInTitle){
+  var chartNumber = (isIndikatorensetView(view)) ? data.kuerzelKunde : data.kuerzel;
   var chartNumberToDisplay = (suppressNumberInTitle == true || suppressNumberInTitle == null) ? "" : chartNumber + ': ';
-  options['subtitle']['text'] = data.subtitle;
-  options['title']['text'] = (indikatorensetView) ? chartNumberToDisplay + data.title : data.title;
+  options['title']['text'] = (isIndikatorensetView(view)) ? chartNumberToDisplay + data.title : data.title;
+  options['subtitle']['text'] = data.subtitle;    
   options['chart']['renderTo'] = 'container-' + data.id;
   options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join(';<br/>');
   //add 10 px space for each line of credits plus -5px for the first line (if not stated otherwise)
@@ -103,6 +109,14 @@ function injectMetadataToChartConfig(options, data, indikatorensetView, suppress
   //make sure node exists before deferencing it
   options['exporting'] = (options['exporting'] || {});
   options['exporting']['filename'] = data.kuerzel;
+  
+  //for print, remove, title, subtitle, and credits, and set the scale
+  if (view == "print"){
+    options.title.text = null;
+    delete options.subtitle;
+    options.credits.text = ' ';
+    //options.exporting.scale = 4;
+  }
   //changes for charts from Umweltbericht
   if (data.kennzahlenset == "Umwelt"){
     //options['chart']["width"] =  485;
@@ -219,7 +233,7 @@ function getChartUrls(id){
 }
 
 //construct urls by chart id and render to designated div
-function lazyRenderChartById(id, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn){
+function lazyRenderChartById(id, chartMetaData, view, suppressNumberInTitle, callbackFn){
   var container = $(escapeCssChars('#container-' + id));
   //check if a highcharts-container below the container is already present. 
   //no highcharts container yet: load data and draw chart. 
@@ -227,7 +241,7 @@ function lazyRenderChartById(id, chartMetaData, indikatorensetView, suppressNumb
     var chartUrls = getChartUrls(id);
     //get template for requested chart 
     (chartMetaData === undefined) ? chartMetaData = findChartById(indikatoren, id) : chartMetaData;
-    renderChart(chartUrls['optionsUrl'], chartUrls['templateUrl'], chartUrls['chartUrl'], chartUrls['csvUrl'], chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn);
+    renderChart(chartUrls['optionsUrl'], chartUrls['templateUrl'], chartUrls['chartUrl'], chartUrls['csvUrl'], chartMetaData, view, suppressNumberInTitle, callbackFn);
   }
   //highcharts container exists already: redraw chart without reloading data from network
   else { 
@@ -255,12 +269,21 @@ function deserialize(serializedJavascript){
 
 
 //create chart as image
-function exportThumbnail(id, exportType, offline){    
+function exportThumbnail(id, exportType, offline, exportServer){    
   var chart = $(escapeCssChars('#container-' + id)).highcharts();
   //remove callback - otherwise end up in infinite loop
   delete chart.callback;
-  //scale chart in order to receive 150px width
-  chart.options.exporting.scale = 0.31;
+  //change scale and background color for png
+  if (exportType == 'image/png') {
+    chart.options.exporting.scale = 15;
+    chart.options.chart.borderColor = '#ffffff';
+    chart.options.chart.backgroundColor = '#ffffff';
+  }
+  //set exportServer
+  if (exportServer) {
+    chart.options.exporting.url =  exportServer;
+  }
+  
   if (offline){     
     chart.exportChartLocal({
       type: exportType, 
@@ -274,4 +297,3 @@ function exportThumbnail(id, exportType, offline){
     });      
   }
 }
-

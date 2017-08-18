@@ -99,7 +99,6 @@
     },
     "marginTop": 85,
     "type": "line",
-    "forExport": true,
     "renderTo": "container-4149"
   },
   "plotOptions": {

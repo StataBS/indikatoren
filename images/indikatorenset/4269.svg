@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
     <defs>
         <clipPath id="a">
             <path fill="none" d="M0 0h428v235H0z"/>
@@ -10,7 +10,7 @@
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M189.5 109v235m0-235v235m142-235v235m0-235v235m143-235v235m0-235v235m-428-235v235m0-235v235"/>
+        <path fill="none" class="highcharts-grid-line" d="M189.5 109v235m142-235v235m143-235v235m-428-235v235"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M47 344.5h428m-428-78h428m-428-79h428m-428-79h428"/>
@@ -26,13 +26,13 @@
         <path fill="none" class="highcharts-axis-line" d="M475 109v235"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(47 109)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(47 109)" clip-path="url(#a)">
             <path fill="#FF8028" class="highcharts-point" d="M31 133h23v103H31zm143-12h23v115h-23zm143 6h23v109h-23z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(47 109)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined" transform="translate(47 109)" clip-path="url(#a)">
             <path fill="#DC440E" class="highcharts-point" d="M60 107h23v129H60zm143-21h23v150h-23zm142 27h23v123h-23z"/>
         </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(47 109)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined" transform="translate(47 109)" clip-path="url(#a)">
             <path fill="#B00000" class="highcharts-point" d="M88 36h23v200H88zm143 1h23v199h-23zm143 13h23v186h-23z"/>
         </g>
     </g>

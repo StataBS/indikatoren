@@ -1,0 +1,1 @@
+node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs /home/ubuntu/workspace/build/highcharts-convert.js -infile /home/ubuntu/workspace/charts/configs/print/5131.json -outfile /home/ubuntu/workspace/images/print/5131.png -constr Map -scale 4

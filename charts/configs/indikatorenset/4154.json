@@ -120,7 +120,6 @@
     "marginTop": 100,
     "type": "line",
     "alignTicks": false,
-    "forExport": true,
     "renderTo": "container-4154"
   },
   "plotOptions": {

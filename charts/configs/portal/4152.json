@@ -87,7 +87,6 @@
     "marginBottom": 60,
     "marginTop": 75,
     "type": "line",
-    "forExport": true,
     "renderTo": "container-4152"
   },
   "plotOptions": {

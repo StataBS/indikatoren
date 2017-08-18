@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
     <defs>
         <clipPath id="a">
             <path fill="none" d="M0 0h434v254H0z"/>
@@ -10,7 +10,7 @@
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M51.5 90v254m0-254v254m43-254v254m0-254v254m44-254v254m0-254v254m43-254v254m0-254v254m43-254v254m0-254v254m44-254v254m0-254v254m43-254v254m0-254v254m44-254v254m0-254v254m43-254v254m0-254v254m43-254v254m0-254v254"/>
+        <path fill="none" class="highcharts-grid-line" d="M51.5 90v254m43-254v254m44-254v254m43-254v254m43-254v254m44-254v254m43-254v254m44-254v254m43-254v254m43-254v254"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M41 344.5h434m-434-85h434m-434-84h434m-434-86h434"/>
@@ -26,7 +26,7 @@
         <path fill="none" class="highcharts-axis-line" d="M475 90v254"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(41 90)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(41 90)" clip-path="url(#a)">
             <path fill="#FF8028" class="highcharts-point" d="M6 18h11v237H6zm21 0h11v237H27zm22 0h11v237H49zm22 0h11v237H71zm21 0h11v237H92zm22 0h11v237h-11zm22 0h11v237h-11zm22 0h11v237h-11zm21 0h11v237h-11zm22 0h11v237h-11zm22 0h11v237h-11zm21 0h11v237h-11zm22 0h11v237h-11zm22 0h11v237h-11zm21 0h11v237h-11zm22 0h11v237h-11zm22 0h11v237h-11zm22 0h11v237h-11zm21 0h11v237h-11zm22 0h11v237h-11z"/>
         </g>
     </g>
