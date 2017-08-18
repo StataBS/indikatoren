@@ -246,6 +246,5 @@ var templatesById = {
 	"5798": "dotplot",
 	"5799": "dotplot",
 	"5800": "dotplot",
-	"6009": "mappie001",
-	"9999": "mappie001"
+	"6009": "mappie001"
 };
