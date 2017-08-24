@@ -10,7 +10,7 @@
         "spec": "2.4.3",
         "type": "version"
       },
-      "/home/ubuntu/workspace"
+      "/home/travis/build/statabs-test/indikatoren"
     ]
   ],
   "_from": "proj4@2.4.3",
@@ -44,7 +44,7 @@
   "_shasum": "f3bb7e631bffc047c36a1a3cc14533a03bbe9969",
   "_shrinkwrap": null,
   "_spec": "proj4@2.4.3",
-  "_where": "/home/ubuntu/workspace",
+  "_where": "/home/travis/build/statabs-test/indikatoren",
   "author": "",
   "bugs": {
     "url": "https://github.com/proj4js/proj4js/issues"

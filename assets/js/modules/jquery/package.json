@@ -10,7 +10,7 @@
         "spec": "3.1.1",
         "type": "version"
       },
-      "/home/ubuntu/workspace"
+      "/home/travis/build/statabs-test/indikatoren"
     ]
   ],
   "_from": "jquery@3.1.1",
@@ -44,7 +44,7 @@
   "_shasum": "347c1c21c7e004115e0a4da32cece041fad3c8a3",
   "_shrinkwrap": null,
   "_spec": "jquery@3.1.1",
-  "_where": "/home/ubuntu/workspace",
+  "_where": "/home/travis/build/statabs-test/indikatoren",
   "author": {
     "name": "jQuery Foundation and other contributors",
     "url": "https://github.com/jquery/jquery/blob/3.1.1/AUTHORS.txt"

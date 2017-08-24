@@ -10,7 +10,7 @@
         "spec": "3.3.7",
         "type": "version"
       },
-      "/home/ubuntu/workspace"
+      "/home/travis/build/statabs-test/indikatoren"
     ]
   ],
   "_from": "bootstrap@3.3.7",
@@ -44,7 +44,7 @@
   "_shasum": "5a389394549f23330875a3b150656574f8a9eb71",
   "_shrinkwrap": null,
   "_spec": "bootstrap@3.3.7",
-  "_where": "/home/ubuntu/workspace",
+  "_where": "/home/travis/build/statabs-test/indikatoren",
   "author": {
     "name": "Twitter, Inc."
   },
