@@ -47,7 +47,7 @@ while (ubFileList.length > 0) {
         var currentConfig = require(fs.workingDirectory + "/" + pathBase + id + ".json");
         //define which charts need to be rendered here
         if (
-            (   currentConfig.template.indexOf("mappie") > -1 || 
+            (   /*currentConfig.template.indexOf("mappie") > -1 || */
                 id == 5902 || 
                 id == 5910
             ) 
