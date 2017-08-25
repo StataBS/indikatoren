@@ -1,105 +1,165 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
     <defs>
-        <linearGradient x2="1" id="b">
+        <linearGradient x2="1" id="a">
             <stop offset="0" stop-color="#eff6e9"/>
             <stop offset="1" stop-color="#4b7b1f"/>
         </linearGradient>
-        <clipPath id="a">
-            <path fill="none" d="M0 0h465v315H0z"/>
-        </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
     <path fill="none" class="highcharts-plot-background" d="M10 55h465v315H10z"/>
     <path fill="none" class="highcharts-plot-border" d="M10 55h465v315H10z"/>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-map-series highcharts-color-0 highcharts-tracker" transform="translate(10 55)" clip-path="url(#a)">
-            <path fill="#92B177" d="M157.972 174.592l-.895-.527-.452.486-1.062-.726-2.773-2.104-1.389-2.083-2.612-1.145-4.845-4.048-5.006-6.553-4.09-6.473-2.57 2.195-2.43 4.733-1.92 12.014.277.917 7.759 4.377 2.182 4.53 9.915 2.048 7.456-3.363 2.455-4.278z" class="highcharts-point highcharts-color-0" stroke="#fbfbfb" vector-effect="non-scaling-stroke"/>
-            <path fill="#6E954A" d="M121.977 133.12l2.959 3.971-2.682 1.781 2.041 2.485-1.665 1.42 1.82 2.12-4.507 5.385-2.345 7.41 1.683 2.774 1.021 10.749 1.063 1.378 8.547 3.124 3.778 9.31-1.742 3.478 2.632 1.207.895 1.711.168.42.546 1.394 2.698 7.01.13-.143 1.144-.875 2.078.106 4.482 2.53 10.062-10.023.404-.145.442-.115.828-.197 18.514-5.206.115-.011 1.392.035.961-3.81 1.12.262.07-.392-.676-6.107-12.04.699-5.681-.797-4.26-1.466-2.455 4.278-7.456 3.363-9.915-2.048-2.182-4.53-7.76-4.377-.276-.917 1.92-12.014 2.43-4.733 2.57-2.195-6.439-11.225.272-.448-.586-1.81-.456.147-1.385-7.567-4.277 2.604z" class="highcharts-point highcharts-color-0" stroke="#fbfbfb" vector-effect="non-scaling-stroke"/>
-            <path fill="#CEDDC0" d="M121.977 133.12l2.959 3.971-2.682 1.781 2.041 2.485-1.665 1.42 1.82 2.12-4.507 5.385-2.345 7.41 1.683 2.774 1.021 10.749 1.063 1.378 8.547 3.124 3.778 9.31-1.742 3.478 2.632 1.207.895 1.711.168.42.546 1.394 2.698 7.01-.525.579-1.84.708-.028-.01-5.07-.878-5.418-2.261-1.553-.931.302-.492-8.5-5.36-4.472-4.914-2.888-4.458-2.263-5.614-1.52-7.225-3.522-18.49.712.065 5.085-4.918 5.506-6.577 9.084-6.35z" class="highcharts-point highcharts-color-0" stroke="#fbfbfb" vector-effect="non-scaling-stroke"/>
-            <path fill="#C4D6B4" d="M216.038 167.338l-.55 10.363.678 2.684 1.895 2.618 7.978 6.556 2.017 3.185 1.223 3.656.294 2.914-1.18 26.65-15.43-7.808.078-2.606 5.981.004.104.934 1.984-.08-1.348-10.128 1.456-3.847.07-2.44 1.732-2.646-.617-1.58-4.788-1.24-5.022-2.699-4.398-5.497-1.353-3.263-1.19-1.239-10.444.039-1.031-1.149-6.675 1.763-6.872-.22-.677-6.106 6.61-.634 8.084-2.182 4.704-2.058 3.214-.713 7.031-3.326 5.196-.866 1.246.96z" class="highcharts-point highcharts-color-0" stroke="#fbfbfb" vector-effect="non-scaling-stroke"/>
-            <path fill="#98B57E" d="M136.55 201.544l12.117 6.85 2.28-3.277 2.98 3.41-1.541 2.981 3.594 2.358 6.9 2.311 4.098 2.083.03.033.01.012.056.016.152.025-.225 3.883 7.945 5.57 5.775 18.548-.012 1.29.678 1.142 3.005 23.315.173-1.239 1.019-.142-.065-.748 8.244-15.591 2.704-2.376.691 1.606 2.33-.9-.92-1.976 4.368-4.059.825-5.668 1.342-2.4 1.833-1.282 7.08-2.593 3.127-2.688 3.381 1.734 7.416 2.202.452-10.01-15.43-7.808.079-2.606 5.981.004.104.934 1.984-.08-1.348-10.128 1.456-3.847.07-2.44 1.732-2.646-.617-1.58-4.788-1.24-5.022-2.699-4.398-5.497-1.353-3.263-1.19-1.239-10.444.039-1.031-1.149-6.675 1.763-6.872-.22-.07.393-1.12-.262-.962 3.81-1.392-.035-.115.01-18.514 5.207-.828.197-.442.115-.404.145-10.062 10.023-4.482-2.53-2.078-.106-1.144.875-.13.143-.525.579-1.84.708.028.01z" class="highcharts-point highcharts-color-0" stroke="#fbfbfb" vector-effect="non-scaling-stroke"/>
-            <path fill="#B3C99F" d="M136.494 201.524l.056.02 12.117 6.85 2.28-3.277 2.98 3.41-1.541 2.981 3.594 2.358 6.9 2.311 4.098 2.083.03.033.01.012.056.016.152.025-.225 3.883 7.945 5.57 5.775 18.548-.012 1.29-44.163-19.666-15.112-7.377-1.324.526-2.341-.56-4.67.29 1.037-7.599.66-1.505 9.145-8.194 1.214-1.773-1.283-1.25 2.134-2.144 5.417 2.261 5.071.878z" class="highcharts-point highcharts-color-0" stroke="#fbfbfb" vector-effect="non-scaling-stroke"/>
-            <path fill="#ACC396" d="M136.546 227.971l44.163 19.666.678 1.142 3.005 23.315-.085 2.455-2.414-.052.234 1.95-7.624 15.204L156.324 315l-11.83-1.892-2.45-12.186.826-8.482.838-2.237-.113-3.607-1.159-4.807-2.6-1.345-.06-3.011-6.78-.834-.494-7.884-2.643.38-2.133 1.205-2.8-4.097-.243-1.884 8.391-19.023.128-1.308-1.144-1.776-.135-1.446 4.623-12.795z" class="highcharts-point highcharts-color-0" stroke="#fbfbfb" vector-effect="non-scaling-stroke"/>
-            <path fill="#D1DFC4" d="M123.872 200.529l1.283 1.25-1.214 1.773-9.144 8.194-.661 1.505-1.037 7.6-6.73-.725-28.74-6.643-15.307 4.246-7.622 1.003 7.438-30.889 6.499 2.418.195-.514 33.324-5.718 6.739-1.799 2.888 4.458 4.471 4.915 8.5 5.359-.301.492 1.553.93-2.134 2.145z" class="highcharts-point highcharts-color-0" stroke="#fbfbfb" vector-effect="non-scaling-stroke"/>
-            <path fill="#CADABB" d="M80.807 169.266l-3.525.26-3.948 8.38-4.502 11.841 33.324-5.718 6.739-1.799-2.263-5.614-1.52-7.225-5.15-1.521-15.94 1.159-3.215.237z" class="highcharts-point highcharts-color-0" stroke="#fbfbfb" vector-effect="non-scaling-stroke"/>
-            <path fill="#C5D7B5" d="M80.807 169.266l-3.525.26-12.278-13.184-3.005-5.49-2.07-2.545-8.539-6.693 6.87-2.567 5.28-16.794-7.494-7.682 1.458-4.376 3.875 7.689 9.38 9.75 8.68 7.558L101.59 150.9l3.522 18.49-5.15-1.521-15.94 1.159-3.215.237z" class="highcharts-point highcharts-color-0" stroke="#fbfbfb" vector-effect="non-scaling-stroke"/>
-            <path fill="#C6D7B6" d="M121.977 133.12l-9.084 6.35-5.506 6.578-5.085 4.918-.712-.065-22.151-15.71-8.68-7.556-9.38-9.751-3.875-7.69 21.899-14.272 2.734-5.586 13.358 2.123 9.49 3.728 2.993-1.214 6.397-.838 11.222 3.252 1.566 12.21-1.083 13.327.174 7.592-4.277 2.604z" class="highcharts-point highcharts-color-0" stroke="#fbfbfb" vector-effect="non-scaling-stroke"/>
-            <path fill="#A1BC89" d="M161.054 168.999l3.638-6.506.13-1.65-3.453-2.366-5.651-7.469-3.194-6.247-3.879 1.82-1.386-4.076-8.131 4.061 8.123 12.262 8.312 7.135 5.49 3.036z" class="highcharts-point highcharts-color-0" stroke="#fbfbfb" vector-effect="non-scaling-stroke"/>
-            <path fill="#92B076" d="M161.369 158.477l-5.651-7.469-3.194-6.247-3.879 1.82-1.386-4.076.07-.755 16.291-7.267 3.003 7.65 1.186 2.814 2.139 5.039-8.58 8.49z" class="highcharts-point highcharts-color-0" stroke="#fbfbfb" vector-effect="non-scaling-stroke"/>
-            <path fill="#C0D3AF" d="M161.369 158.477l8.579-8.491 19.381-14.014.745-.36 1.721 2.072 6.387 11.134 7.122 14.087-23.417 6.763-10.391 1.04-4.904-.304-5.538-1.405 3.638-6.506.13-1.65-3.453-2.366z" class="highcharts-point highcharts-color-0" stroke="#fbfbfb" vector-effect="non-scaling-stroke"/>
-            <path fill="#C5D6B5" d="M171.789 102.426l.106.59 1.194.322 4.185 6.334 1.897 5.67 2.55 5.155-.341.185 7.95 15.29.744-.36 1.721 2.072 6.387 11.134 7.122 14.087 18.148-6.053 20.782-8.66 11.13.927 3.2-12.47-7.32-9.232-8.057 5.864-6.67-9.467-.52-.736.602-.424-1.987-2.82-2.643 3.757-1.317.12-1.987-2.705-1.89-4.162-1.445-4.896-1.625-5.503 6.727-7.53 9.451-7.669-6.456-7.957-14.077 9.839-6.331-3.104-9.135-1.815-9.886-.073-11.8 1.207-4.805.915-.808 5.549-4.496 3.785-.717 1.533.417 1.3z" class="highcharts-point highcharts-color-0" stroke="#fbfbfb" vector-effect="non-scaling-stroke"/>
-            <path fill="#BCD0AA" d="M171.789 102.426l.106.59 1.194.322 4.185 6.334 1.897 5.67 2.55 5.155-.341.185 7.95 15.29-19.382 14.014-2.14-5.04-1.185-2.813-3.003-7.65-.483-8.697.289-7.76.823-5.75 1.116-6.33-.745-1.446.315-2.435.865.028 5.736-.455.253.788z" class="highcharts-point highcharts-color-0" stroke="#fbfbfb" vector-effect="non-scaling-stroke"/>
-            <path fill="#CFDEC1" d="M164.25 112.276l-.824 5.75-.29 7.76.484 8.697-16.291 7.267-.07.755-8.131 4.061-3.03-6.684-2.346-9.404-.355-7.914.743-5.629 22.636.279-.016-1.668 6.057-3.36 1.432.09z" class="highcharts-point highcharts-color-0" stroke="#fbfbfb" vector-effect="non-scaling-stroke"/>
-            <path fill="#CCDCBE" d="M164.25 112.276l-1.433-.09-6.057 3.36.016 1.668-22.636-.279.313-7.186-1.541-13.508-.147-11.866 1.404-10.02 1.409-3.616 11.598 3.77 3.75 2.302 3.032 4.572 1.936 4.283 4.893 14.143 1.478 1.54 1.923.693.747.023-.315 2.435.745 1.447-1.116 6.33z" class="highcharts-point highcharts-color-0" stroke="#fbfbfb" vector-effect="non-scaling-stroke"/>
-            <path fill="#A7C090" d="M164.188 102.042l-1.923-.693-1.478-1.54-4.893-14.143-1.936-4.283-3.033-4.572-3.749-2.301-11.598-3.771.32-5.535 4.025-11.616 4.464-9.295 7.193 2.361 13.812 5.118 16.576 10.398-.598 8.166-1.358 5.687 1.67.623.183 2.954 1.49 2.003-1.157 7.74-4.805.915-.808 5.549-4.496 3.785-.717 1.533.164.513-5.736.455-.865-.028-.747-.023z" class="highcharts-point highcharts-color-0" stroke="#fbfbfb" vector-effect="non-scaling-stroke"/>
-            <path fill="#9EB985" d="M235.998 123.078l.6-.424-1.986-2.82-2.643 3.757-1.317.12-1.987-2.705-1.89-4.162-1.445-4.896-1.625-5.503 6.727-7.53 9.451-7.669-6.456-7.957 9.039-7.527L258.27 58.42l6.057-9.697 8.3-7.696 9.395-3.784-3.618-6.023-.205-4.946 6.815-5.982 3.282-4.689 14.046 4.734 10.444 1.208 17.278 6.472 7.644 3.971 7.068 2.752 20.428-.2.84-4.095 3.332-4.896 3.326-4.024 4.295-3.877 2.442-3.218 2.324-.55 3.784-4.478 4.712-1.07 8.247.592 3.46-.916 6.044-2.884L412.391 0l1.219.546-1.954 4.95L408.9 8.63l-4.73 4.27-14.153 3.64-2.783 2.375-4.32 6.794-6.224 7.776-5.723 3.425-14.643 15.803.875 7.818 7.482 3.85 15.434 5.923 1.335 6.502-1.423-.504-5.572 3.808-.43 3.024-2.005 4.767-.712 4.298-.337 4.028.812 5.412-.723.814-.38-.034-.59-.054-3.11 2.206-2.392-.712-5.523-.292-2.74 1.376-3.946.486-8.784-3.384.04-1.031-1.31-1.142-2.837-.134-.82-1.911-5.257 1.693-2.503 4.042-1.037.758 2.299 4.175-2.513 1.522 1.105 1.681-3.238 3.061-1.059-.812-4.091 8.26-.277 1.555-2.952 4.497-2.363 7.447-7.225 10.641-3.46 3.404.732 1.281-11.363 7.14-11.03-5.183-7.275.096-7.654-7.536-5.771-2.647-3.963 7.337-4.408-1.12 3.199-12.47-7.32-9.232-8.057 5.864-6.67-9.467-.52-.736z" class="highcharts-point highcharts-color-0" stroke="#fbfbfb" vector-effect="non-scaling-stroke"/>
-            <path fill="#6B9347" d="M371.06 102.453l.723-.814-.812-5.412.337-4.028.712-4.298 2.005-4.767.43-3.024 5.572-3.808 1.423.504 1.458 13.624 5.1 3.061-.443 10.6 1.656.418 3.132 2.718 8.894 2.523 1.942 3.95-1.975 4.285-4.644 7.341-3.043 10.692-5.678-10.539-.868-.266.74-8.142-.568-2.766-6.448 3.182-4.995 3.607-1.715 2.079-1.965 4.456-6.587 9.198 5.572 1.869.109 4.575-4.432 1.03-3.028.105-5.228-1.021-.251-6.603-4.332-1.43-13.415 2.944-3.453-1.295-14.26 3.59-5.188 5.206-1.556 3.28-4.223-.328-4.93 2.283-.731-1.281 3.46-3.404 7.225-10.641 2.363-7.447 2.952-4.497.277-1.554 4.091-8.261 1.06.812 3.237-3.06-1.105-1.682 2.513-1.522-2.3-4.175 1.038-.758 2.503-4.042 5.257-1.693.82 1.91 2.838.135 1.309 1.142-.04 1.03 8.784 3.385 3.946-.486 2.74-1.376 5.523.292 2.393.712 3.108-2.206.592.054.379.034z" class="highcharts-point highcharts-color-0" stroke="#fbfbfb" vector-effect="non-scaling-stroke"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-map-series highcharts-color-0">
+            <path fill="#92B177" d="M167.972 229.592l-.895-.527-.452.486-1.062-.726-2.773-2.104-1.389-2.083-2.612-1.145-4.845-4.048-5.006-6.553-4.09-6.473-2.57 2.195-2.43 4.733-1.92 12.014.277.917 7.759 4.377 2.182 4.53 9.915 2.048 7.456-3.363 2.455-4.278z" stroke="#fbfbfb" vector-effect="non-scaling-stroke" class="highcharts-point highcharts-color-0"/>
+            <path fill="#6E954A" d="M131.977 188.12l2.959 3.971-2.682 1.781 2.041 2.485-1.665 1.42 1.82 2.12-4.507 5.385-2.345 7.41 1.683 2.774 1.021 10.749 1.063 1.378 8.547 3.124 3.778 9.31-1.742 3.478 2.632 1.207.895 1.711.168.42.546 1.394 2.698 7.01.13-.143 1.144-.875 2.078.106 4.482 2.53 10.062-10.023.404-.145.442-.115.828-.197 18.514-5.206.115-.011 1.392.035.961-3.81 1.12.262.07-.392-.676-6.107-12.04.699-5.681-.797-4.26-1.466-2.455 4.278-7.456 3.363-9.915-2.048-2.182-4.53-7.76-4.377-.276-.917 1.92-12.014 2.43-4.733 2.57-2.195-6.439-11.225.272-.448-.586-1.81-.456.147-1.385-7.567-4.277 2.604z" stroke="#fbfbfb" vector-effect="non-scaling-stroke" class="highcharts-point highcharts-color-0"/>
+            <path fill="#CEDDC0" d="M131.977 188.12l2.959 3.971-2.682 1.781 2.041 2.485-1.665 1.42 1.82 2.12-4.507 5.385-2.345 7.41 1.683 2.774 1.021 10.749 1.063 1.378 8.547 3.124 3.778 9.31-1.742 3.478 2.632 1.207.895 1.711.168.42.546 1.394 2.698 7.01-.525.579-1.84.708-.028-.01-5.07-.878-5.418-2.261-1.553-.931.302-.492-8.5-5.36-4.472-4.914-2.888-4.458-2.263-5.614-1.52-7.225-3.522-18.49.712.065 5.085-4.918 5.506-6.577 9.084-6.35z" stroke="#fbfbfb" vector-effect="non-scaling-stroke" class="highcharts-point highcharts-color-0"/>
+            <path fill="#C4D6B4" d="M226.038 222.338l-.55 10.363.678 2.684 1.895 2.618 7.978 6.556 2.017 3.185 1.223 3.656.294 2.914-1.18 26.65-15.43-7.808.078-2.606 5.981.004.104.934 1.984-.08-1.348-10.128 1.456-3.847.07-2.44 1.732-2.646-.617-1.58-4.788-1.24-5.022-2.699-4.398-5.497-1.353-3.263-1.19-1.239-10.444.039-1.031-1.149-6.675 1.763-6.872-.22-.677-6.106 6.61-.634 8.084-2.182 4.704-2.058 3.214-.713 7.031-3.326 5.196-.866 1.246.96z" stroke="#fbfbfb" vector-effect="non-scaling-stroke" class="highcharts-point highcharts-color-0"/>
+            <path fill="#98B57E" d="M146.55 256.544l12.117 6.85 2.28-3.277 2.98 3.41-1.541 2.981 3.594 2.358 6.9 2.311 4.098 2.083.03.033.01.012.056.016.152.025-.225 3.883 7.945 5.57 5.775 18.548-.012 1.29.678 1.142 3.005 23.315.173-1.239 1.019-.142-.065-.748 8.244-15.591 2.704-2.376.691 1.606 2.33-.9-.92-1.976 4.368-4.059.825-5.668 1.342-2.4 1.833-1.282 7.08-2.593 3.127-2.688 3.381 1.734 7.416 2.202.452-10.01-15.43-7.808.079-2.606 5.981.004.104.934 1.984-.08-1.348-10.128 1.456-3.847.07-2.44 1.732-2.646-.617-1.58-4.788-1.24-5.022-2.699-4.398-5.497-1.353-3.263-1.19-1.239-10.444.039-1.031-1.149-6.675 1.763-6.872-.22-.07.393-1.12-.262-.962 3.81-1.392-.035-.115.01-18.514 5.207-.828.197-.442.115-.404.145-10.062 10.023-4.482-2.53-2.078-.106-1.144.875-.13.143-.525.579-1.84.708.028.01z" stroke="#fbfbfb" vector-effect="non-scaling-stroke" class="highcharts-point highcharts-color-0"/>
+            <path fill="#B3C99F" d="M146.494 256.524l.056.02 12.117 6.85 2.28-3.277 2.98 3.41-1.541 2.981 3.594 2.358 6.9 2.311 4.098 2.083.03.033.01.012.056.016.152.025-.225 3.883 7.945 5.57 5.775 18.548-.012 1.29-44.163-19.666-15.112-7.377-1.324.526-2.341-.56-4.67.29 1.037-7.599.66-1.505 9.145-8.194 1.214-1.773-1.283-1.25 2.134-2.144 5.417 2.261 5.071.878z" stroke="#fbfbfb" vector-effect="non-scaling-stroke" class="highcharts-point highcharts-color-0"/>
+            <path fill="#ACC396" d="M146.546 282.971l44.163 19.666.678 1.142 3.005 23.315-.085 2.455-2.414-.052.234 1.95-7.624 15.204L166.324 370l-11.83-1.892-2.45-12.186.826-8.482.838-2.237-.113-3.607-1.159-4.807-2.6-1.345-.06-3.011-6.78-.834-.494-7.884-2.643.38-2.133 1.205-2.8-4.097-.243-1.884 8.391-19.023.128-1.308-1.144-1.776-.135-1.446 4.623-12.795z" stroke="#fbfbfb" vector-effect="non-scaling-stroke" class="highcharts-point highcharts-color-0"/>
+            <path fill="#D1DFC4" d="M133.872 255.529l1.283 1.25-1.214 1.773-9.144 8.194-.661 1.505-1.037 7.6-6.73-.725-28.74-6.643-15.307 4.246-7.622 1.003 7.438-30.889 6.499 2.418.195-.514 33.324-5.718 6.739-1.799 2.888 4.458 4.471 4.915 8.5 5.359-.301.492 1.553.93-2.134 2.145z" stroke="#fbfbfb" vector-effect="non-scaling-stroke" class="highcharts-point highcharts-color-0"/>
+            <path fill="#CADABB" d="M90.807 224.266l-3.525.26-3.948 8.38-4.502 11.841 33.324-5.718 6.739-1.799-2.263-5.614-1.52-7.225-5.15-1.521-15.94 1.159-3.215.237z" stroke="#fbfbfb" vector-effect="non-scaling-stroke" class="highcharts-point highcharts-color-0"/>
+            <path fill="#C5D7B5" d="M90.807 224.266l-3.525.26-12.278-13.184-3.005-5.49-2.07-2.545-8.539-6.693 6.87-2.567 5.28-16.794-7.494-7.682 1.458-4.376 3.875 7.689 9.38 9.75 8.68 7.558L111.59 205.9l3.522 18.49-5.15-1.521-15.94 1.159-3.215.237z" stroke="#fbfbfb" vector-effect="non-scaling-stroke" class="highcharts-point highcharts-color-0"/>
+            <path fill="#C6D7B6" d="M131.977 188.12l-9.084 6.35-5.506 6.578-5.085 4.918-.712-.065-22.151-15.71-8.68-7.556-9.38-9.751-3.875-7.69 21.899-14.272 2.734-5.586 13.358 2.123 9.49 3.728 2.993-1.214 6.397-.838 11.222 3.252 1.566 12.21-1.083 13.327.174 7.592-4.277 2.604z" stroke="#fbfbfb" vector-effect="non-scaling-stroke" class="highcharts-point highcharts-color-0"/>
+            <path fill="#A1BC89" d="M171.054 223.999l3.638-6.506.13-1.65-3.453-2.366-5.651-7.469-3.194-6.247-3.879 1.82-1.386-4.076-8.131 4.061 8.123 12.262 8.312 7.135 5.49 3.036z" stroke="#fbfbfb" vector-effect="non-scaling-stroke" class="highcharts-point highcharts-color-0"/>
+            <path fill="#92B076" d="M171.369 213.477l-5.651-7.469-3.194-6.247-3.879 1.82-1.386-4.076.07-.755 16.291-7.267 3.003 7.65 1.186 2.814 2.139 5.039-8.58 8.49z" stroke="#fbfbfb" vector-effect="non-scaling-stroke" class="highcharts-point highcharts-color-0"/>
+            <path fill="#C0D3AF" d="M171.369 213.477l8.579-8.491 19.381-14.014.745-.36 1.721 2.072 6.387 11.134 7.122 14.087-23.417 6.763-10.391 1.04-4.904-.304-5.538-1.405 3.638-6.506.13-1.65-3.453-2.366z" stroke="#fbfbfb" vector-effect="non-scaling-stroke" class="highcharts-point highcharts-color-0"/>
+            <path fill="#C5D6B5" d="M181.789 157.426l.106.59 1.194.322 4.185 6.334 1.897 5.67 2.55 5.155-.341.185 7.95 15.29.744-.36 1.721 2.072 6.387 11.134 7.122 14.087 18.148-6.053 20.782-8.66 11.13.927 3.2-12.47-7.32-9.232-8.057 5.864-6.67-9.467-.52-.736.602-.424-1.987-2.82-2.643 3.757-1.317.12-1.987-2.705-1.89-4.162-1.445-4.896-1.625-5.503 6.727-7.53 9.451-7.669-6.456-7.957-14.077 9.839-6.331-3.104-9.135-1.815-9.886-.073-11.8 1.207-4.805.915-.808 5.549-4.496 3.785-.717 1.533.417 1.3z" stroke="#fbfbfb" vector-effect="non-scaling-stroke" class="highcharts-point highcharts-color-0"/>
+            <path fill="#BCD0AA" d="M181.789 157.426l.106.59 1.194.322 4.185 6.334 1.897 5.67 2.55 5.155-.341.185 7.95 15.29-19.382 14.014-2.14-5.04-1.185-2.813-3.003-7.65-.483-8.697.289-7.76.823-5.75 1.116-6.33-.745-1.446.315-2.435.865.028 5.736-.455.253.788z" stroke="#fbfbfb" vector-effect="non-scaling-stroke" class="highcharts-point highcharts-color-0"/>
+            <path fill="#CFDEC1" d="M174.25 167.276l-.824 5.75-.29 7.76.484 8.697-16.291 7.267-.07.755-8.131 4.061-3.03-6.684-2.346-9.404-.355-7.914.743-5.629 22.636.279-.016-1.668 6.057-3.36 1.432.09z" stroke="#fbfbfb" vector-effect="non-scaling-stroke" class="highcharts-point highcharts-color-0"/>
+            <path fill="#CCDCBE" d="M174.25 167.276l-1.433-.09-6.057 3.36.016 1.668-22.636-.279.313-7.186-1.541-13.508-.147-11.866 1.404-10.02 1.409-3.616 11.598 3.77 3.75 2.302 3.032 4.572 1.936 4.283 4.893 14.143 1.478 1.54 1.923.693.747.023-.315 2.435.745 1.447-1.116 6.33z" stroke="#fbfbfb" vector-effect="non-scaling-stroke" class="highcharts-point highcharts-color-0"/>
+            <path fill="#A7C090" d="M174.188 157.042l-1.923-.693-1.478-1.54-4.893-14.143-1.936-4.283-3.033-4.572-3.749-2.301-11.598-3.771.32-5.535 4.025-11.616 4.464-9.295 7.193 2.361 13.812 5.118 16.576 10.398-.598 8.166-1.358 5.687 1.67.623.183 2.954 1.49 2.003-1.157 7.74-4.805.915-.808 5.549-4.496 3.785-.717 1.533.164.513-5.736.455-.865-.028-.747-.023z" stroke="#fbfbfb" vector-effect="non-scaling-stroke" class="highcharts-point highcharts-color-0"/>
+            <path fill="#9EB985" d="M245.998 178.078l.6-.424-1.986-2.82-2.643 3.757-1.317.12-1.987-2.705-1.89-4.162-1.445-4.896-1.625-5.503 6.727-7.53 9.451-7.669-6.456-7.957 9.039-7.527 15.804-17.342 6.057-9.697 8.3-7.696 9.395-3.784-3.618-6.023-.205-4.946 6.815-5.982 3.282-4.689 14.046 4.734 10.444 1.208 17.278 6.472 7.644 3.971 7.068 2.752 20.428-.2.84-4.095 3.332-4.896 3.326-4.024 4.295-3.877 2.442-3.218 2.324-.55 3.784-4.478 4.712-1.07 8.247.592 3.46-.916 6.044-2.884L422.391 55l1.219.546-1.954 4.95-2.756 3.134-4.73 4.27-14.153 3.64-2.783 2.375-4.32 6.794-6.224 7.776-5.723 3.425-14.643 15.803.875 7.818 7.482 3.85 15.434 5.923 1.335 6.502-1.423-.504-5.572 3.808-.43 3.024-2.005 4.767-.712 4.298-.337 4.028.812 5.412-.723.814-.38-.034-.59-.054-3.11 2.206-2.392-.712-5.523-.292-2.74 1.376-3.946.486-8.784-3.384.04-1.031-1.31-1.142-2.837-.134-.82-1.911-5.257 1.693-2.503 4.042-1.037.758 2.299 4.175-2.513 1.522 1.105 1.681-3.238 3.061-1.059-.812-4.091 8.26-.277 1.555-2.952 4.497-2.363 7.447-7.225 10.641-3.46 3.404.732 1.281-11.363 7.14-11.03-5.183-7.275.096-7.654-7.536-5.771-2.647-3.963 7.337-4.408-1.12 3.199-12.47-7.32-9.232-8.057 5.864-6.67-9.467-.52-.736z" stroke="#fbfbfb" vector-effect="non-scaling-stroke" class="highcharts-point highcharts-color-0"/>
+            <path fill="#6B9347" d="M381.06 157.453l.723-.814-.812-5.412.337-4.028.712-4.298 2.005-4.767.43-3.024 5.572-3.808 1.423.504 1.458 13.624 5.1 3.061-.443 10.6 1.656.418 3.132 2.718 8.894 2.523 1.942 3.95-1.975 4.285-4.644 7.341-3.043 10.692-5.678-10.539-.868-.266.74-8.142-.568-2.766-6.448 3.182-4.995 3.607-1.715 2.079-1.965 4.456-6.587 9.198 5.572 1.869.109 4.575-4.432 1.03-3.028.105-5.228-1.021-.251-6.603-4.332-1.43-13.415 2.944-3.453-1.295-14.26 3.59-5.188 5.206-1.556 3.28-4.223-.328-4.93 2.283-.731-1.281 3.46-3.404 7.225-10.641 2.363-7.447 2.952-4.497.277-1.554 4.091-8.261 1.06.812 3.237-3.06-1.105-1.682 2.513-1.522-2.3-4.175 1.038-.758 2.503-4.042 5.257-1.693.82 1.91 2.838.135 1.309 1.142-.04 1.03 8.784 3.385 3.946-.486 2.74-1.376 5.523.292 2.393.712 3.108-2.206.592.054.379.034z" stroke="#fbfbfb" vector-effect="non-scaling-stroke" class="highcharts-point highcharts-color-0"/>
         </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-map-series highcharts-color-undefined highcharts-tracker" transform="translate(10 55)" clip-path="url(#a)">
-            <path fill="#008AC3" d="M161.054 168.999l5.538 1.405 4.904.303 10.39-1.039 23.418-6.763 18.148-6.053 20.782-8.66 11.13.927-.792 3.09-6.23-.754-7.412.748-12.376 5.082-13 6.024.484 4.029-1.246-.96-5.196.865-7.03 3.326-3.215.713-4.704 2.058-8.084 2.182-6.61.634-12.04.699-5.681-.797-4.26-1.466-.895-.527-.452.486-1.062-.726-2.773-2.104-1.389-2.083-2.612-1.145-4.845-4.048-5.006-6.553-4.09-6.473-6.439-11.225.272-.448-.586-1.81-.456.147-1.385-7.567-.174-7.592 1.083-13.327-1.566-12.21 3.904 1.14-.707-11.785.876-8.763 2.546-12.458 3.226-9.484 5.381-12.913 10.757 3.53-7.193-2.36-4.464 9.294-4.025 11.616-.32 5.535-1.409 3.617-1.404 10.019.147 11.866 1.541 13.508-.313 7.186-.743 5.629.355 7.914 2.346 9.404 3.03 6.684 8.123 12.262 8.312 7.135 5.49 3.036z" class="highcharts-point" stroke="#fbfbfb" vector-effect="non-scaling-stroke"/>
+        <g class="highcharts-series highcharts-series-2 highcharts-map-series highcharts-color-undefined">
+            <path fill="#008AC3" d="M171.054 223.999l5.538 1.405 4.904.303 10.39-1.039 23.418-6.763 18.148-6.053 20.782-8.66 11.13.927-.792 3.09-6.23-.754-7.412.748-12.376 5.082-13 6.024.484 4.029-1.246-.96-5.196.865-7.03 3.326-3.215.713-4.704 2.058-8.084 2.182-6.61.634-12.04.699-5.681-.797-4.26-1.466-.895-.527-.452.486-1.062-.726-2.773-2.104-1.389-2.083-2.612-1.145-4.845-4.048-5.006-6.553-4.09-6.473-6.439-11.225.272-.448-.586-1.81-.456.147-1.385-7.567-.174-7.592 1.083-13.327-1.566-12.21 3.904 1.14-.707-11.785.876-8.763 2.546-12.458 3.226-9.484 5.381-12.913 10.757 3.53-7.193-2.36-4.464 9.294-4.025 11.616-.32 5.535-1.409 3.617-1.404 10.019.147 11.866 1.541 13.508-.313 7.186-.743 5.629.355 7.914 2.346 9.404 3.03 6.684 8.123 12.262 8.312 7.135 5.49 3.036z" stroke="#fbfbfb" vector-effect="non-scaling-stroke" class="highcharts-point"/>
         </g>
-        <g class="highcharts-series highcharts-series-3 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="grey" d="M146.78 218.485a3.621 3.621 0 1 1-.035 0l.035 3.621z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
+        <g class="highcharts-series highcharts-series-3 highcharts-mappie-series highcharts-color-undefined">
+            <path fill="grey" d="M146.78 218.48a3.626 3.626 0 1 1-.005 0m.005 3.626" stroke="grey" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
-        <g class="highcharts-series highcharts-series-4 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M155.637 241.159a4.743 4.743 0 1 1-.048 0l.05 4.743z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+        <g class="highcharts-series highcharts-series-4 highcharts-mappie-series highcharts-color-undefined">
+            <path fill="salmon" d="M155.637 241.152a4.75 4.75 0 1 1-.005 0m.006 4.75" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
-        <g class="highcharts-series highcharts-series-5 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M130.237 229.959a7.594 7.594 0 1 1-.082 0l.084 7.593z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+        <g class="highcharts-series highcharts-series-5 highcharts-mappie-series highcharts-color-undefined">
+            <path fill="salmon" d="M130.237 229.947a7.605 7.605 0 1 1-.009 0m.01 7.605" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
-        <g class="highcharts-series highcharts-series-6 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M219.476 227.042a3.65 3.65 0 1 1-.043 0l.044 3.65z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+        <g class="highcharts-series highcharts-series-6 highcharts-mappie-series highcharts-color-undefined">
+            <path fill="salmon" d="M219.476 227.035a3.657 3.657 0 1 1-.004 0m.005 3.657" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
-        <g class="highcharts-series highcharts-series-7 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M200.433 263.441a2.06 2.06 0 1 1-.025 0l.026 2.06z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+        <g class="highcharts-series highcharts-series-7 highcharts-mappie-series highcharts-color-undefined">
+            <path fill="salmon" d="M200.433 263.437a2.063 2.063 0 1 1-.002 0m.003 2.064" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
-        <g class="highcharts-series highcharts-series-8 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M155.63 269.253a6.946 6.946 0 1 1-.1 0l.101 6.945z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+        <g class="highcharts-series highcharts-series-8 highcharts-mappie-series highcharts-color-undefined">
+            <path fill="salmon" d="M155.63 269.24a6.96 6.96 0 1 1-.009 0m.01 6.958" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
-        <g class="highcharts-series highcharts-series-9 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="grey" d="M167.8 319.466a2.994 2.994 0 1 1-.048 0l.049 2.994z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
+        <g class="highcharts-series highcharts-series-9 highcharts-mappie-series highcharts-color-undefined">
+            <path fill="grey" d="M167.8 319.459a3.002 3.002 0 1 1-.004 0m.005 3.001" stroke="grey" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
-        <g class="highcharts-series highcharts-series-10 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M101.876 254.364a2.177 2.177 0 1 1-.037 0l.038 2.176z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+        <g class="highcharts-series highcharts-series-10 highcharts-mappie-series highcharts-color-undefined">
+            <path fill="salmon" d="M101.876 254.358a2.182 2.182 0 1 1-.002 0m.003 2.182" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
-        <g class="highcharts-series highcharts-series-11 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M99.451 229.866a2.493 2.493 0 1 1-.043 0l.043 2.492z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+        <g class="highcharts-series highcharts-series-11 highcharts-mappie-series highcharts-color-undefined">
+            <path fill="salmon" d="M99.451 229.86a2.499 2.499 0 1 1-.003 0m.003 2.498" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
-        <g class="highcharts-series highcharts-series-12 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M88.25 200.545a6.314 6.314 0 1 1-.114.001l.115 6.313z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+        <g class="highcharts-series highcharts-series-12 highcharts-mappie-series highcharts-color-undefined">
+            <path fill="salmon" d="M88.25 200.528a6.331 6.331 0 1 1-.007 0m.008 6.331" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
-        <g class="highcharts-series highcharts-series-13 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M105.153 167.733a7.918 7.918 0 1 1-.151.001l.153 7.917z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+        <g class="highcharts-series highcharts-series-13 highcharts-mappie-series highcharts-color-undefined">
+            <path fill="salmon" d="M105.153 167.71a7.94 7.94 0 1 1-.01 0m.012 7.941" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
-        <g class="highcharts-series highcharts-series-14 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M160.16 203.3a7.614 7.614 0 1 1-.153 0l.155 7.613z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+        <g class="highcharts-series highcharts-series-14 highcharts-mappie-series highcharts-color-undefined">
+            <path fill="salmon" d="M160.16 203.276a7.637 7.637 0 1 1-.008 0m.01 7.637" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
-        <g class="highcharts-series highcharts-series-15 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M171.14 193.755a6.42 6.42 0 1 1-.136.002l.137 6.418z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+        <g class="highcharts-series highcharts-series-15 highcharts-mappie-series highcharts-color-undefined">
+            <path fill="salmon" d="M171.14 193.734a6.44 6.44 0 1 1-.008 0m.01 6.44" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
-        <g class="highcharts-series highcharts-series-16 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M192.629 205.749a6.037 6.037 0 1 1-.129 0l.13 6.037z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+        <g class="highcharts-series highcharts-series-16 highcharts-mappie-series highcharts-color-undefined">
+            <path fill="salmon" d="M192.629 205.73a6.057 6.057 0 1 1-.007 0m.008 6.056" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
-        <g class="highcharts-series highcharts-series-17 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M219.803 175.826a3.48 3.48 0 1 1-.074 0l.075 3.48z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+        <g class="highcharts-series highcharts-series-17 highcharts-mappie-series highcharts-color-undefined">
+            <path fill="salmon" d="M219.803 175.814a3.493 3.493 0 1 1-.004 0m.005 3.492" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
-        <g class="highcharts-series highcharts-series-18 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M184.056 174.278a9.968 9.968 0 1 1-.212.003l.214 9.965z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+        <g class="highcharts-series highcharts-series-18 highcharts-mappie-series highcharts-color-undefined">
+            <path fill="salmon" d="M184.056 174.246a10 10 0 1 1-.012 0m.014 10" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
-        <g class="highcharts-series highcharts-series-19 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M158.436 175.61a8.73 8.73 0 1 1-.195.002l.197 8.727z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+        <g class="highcharts-series highcharts-series-19 highcharts-mappie-series highcharts-color-undefined">
+            <path fill="salmon" d="M158.436 175.58a8.759 8.759 0 1 1-.01 0m.012 8.759" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
-        <g class="highcharts-series highcharts-series-20 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M155.763 146.318a7.42 7.42 0 1 1-.175.002l.176 7.418z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+        <g class="highcharts-series highcharts-series-20 highcharts-mappie-series highcharts-color-undefined">
+            <path fill="salmon" d="M155.763 146.291a7.446 7.446 0 1 1-.009 0m.01 7.447" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
-        <g class="highcharts-series highcharts-series-21 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M171.577 118.817a5.308 5.308 0 1 1-.132.002l.133 5.306z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+        <g class="highcharts-series highcharts-series-21 highcharts-mappie-series highcharts-color-undefined">
+            <path fill="salmon" d="M171.577 118.798a5.327 5.327 0 1 1-.007 0m.008 5.327" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
-        <g class="highcharts-series highcharts-series-22 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M313.286 134.95a.948.948 0 1 1-.025 0l.025.949z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+        <g class="highcharts-series highcharts-series-22 highcharts-mappie-series highcharts-color-undefined">
+            <path fill="salmon" d="M313.286 134.947a.952.952 0 1 1-.001 0m.001.952" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
-        <g class="highcharts-series highcharts-series-23 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M362.382 173.074a2.481 2.481 0 1 1-.067.001l.068 2.48z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+        <g class="highcharts-series highcharts-series-23 highcharts-mappie-series highcharts-color-undefined">
+            <path fill="salmon" d="M362.382 173.064a2.492 2.492 0 1 1-.003 0m.004 2.492" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+        </g>
+        <g class="highcharts-series highcharts-series-24 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
+            <path fill="grey" d="M147 218.374a3.626 3.626 0 1 1-.005 0M147 222" stroke="grey" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+        </g>
+        <g class="highcharts-series highcharts-series-25 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
+            <path fill="salmon" d="M155.999 241.25a4.75 4.75 0 1 1-.006 0M156 246" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+        </g>
+        <g class="highcharts-series highcharts-series-26 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
+            <path fill="salmon" d="M129.998 230.395a7.605 7.605 0 1 1-.009 0M130 238" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+        </g>
+        <g class="highcharts-series highcharts-series-27 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
+            <path fill="salmon" d="M219 227.343a3.657 3.657 0 1 1-.005 0M219 231" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+        </g>
+        <g class="highcharts-series highcharts-series-28 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
+            <path fill="salmon" d="M200 263.937a2.063 2.063 0 1 1-.003 0M200 266" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+        </g>
+        <g class="highcharts-series highcharts-series-29 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
+            <path fill="salmon" d="M155.999 269.04a6.96 6.96 0 1 1-.009 0M156 276" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+        </g>
+        <g class="highcharts-series highcharts-series-30 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
+            <path fill="grey" d="M168 318.998a3.002 3.002 0 1 1-.004 0M168 322" stroke="grey" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+        </g>
+        <g class="highcharts-series highcharts-series-31 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
+            <path fill="salmon" d="M102 254.818a2.182 2.182 0 1 1-.003 0M102 257" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+        </g>
+        <g class="highcharts-series highcharts-series-32 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
+            <path fill="salmon" d="M99 229.501a2.499 2.499 0 1 1-.003 0M99 232" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+        </g>
+        <g class="highcharts-series highcharts-series-33 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
+            <path fill="salmon" d="M87.999 200.669a6.331 6.331 0 1 1-.008 0M88 207" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+        </g>
+        <g class="highcharts-series highcharts-series-34 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
+            <path fill="salmon" d="M104.998 168.06a7.94 7.94 0 1 1-.009 0M105 176" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+        </g>
+        <g class="highcharts-series highcharts-series-35 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
+            <path fill="salmon" d="M159.998 203.363a7.637 7.637 0 1 1-.009 0M160 211" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+        </g>
+        <g class="highcharts-series highcharts-series-36 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
+            <path fill="salmon" d="M170.999 193.56a6.44 6.44 0 1 1-.008 0M171 200" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+        </g>
+        <g class="highcharts-series highcharts-series-37 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
+            <path fill="salmon" d="M192.999 205.943a6.057 6.057 0 1 1-.007 0M193 212" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+        </g>
+        <g class="highcharts-series highcharts-series-38 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
+            <path fill="salmon" d="M220 175.507a3.493 3.493 0 1 1-.005 0M220 179" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+        </g>
+        <g class="highcharts-series highcharts-series-39 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
+            <path fill="salmon" d="M183.998 174a10 10 0 1 1-.012 0m.014 10" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+        </g>
+        <g class="highcharts-series highcharts-series-40 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
+            <path fill="salmon" d="M157.998 175.241a8.759 8.759 0 1 1-.01 0M158 184" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+        </g>
+        <g class="highcharts-series highcharts-series-41 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
+            <path fill="salmon" d="M155.998 146.554a7.446 7.446 0 1 1-.008 0M156 154" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+        </g>
+        <g class="highcharts-series highcharts-series-42 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
+            <path fill="salmon" d="M171.999 118.673a5.327 5.327 0 1 1-.006 0M172 124" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+        </g>
+        <g class="highcharts-series highcharts-series-43 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
+            <path fill="salmon" d="M313 135.048a.952.952 0 1 1-.001 0M313 136" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+        </g>
+        <g class="highcharts-series highcharts-series-44 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
+            <path fill="salmon" d="M362 173.508a2.492 2.492 0 1 1-.003 0M362 176" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
@@ -127,28 +187,28 @@
     <text x="3" y="15" transform="translate(310 290)" class="pieLegend">
         Abnahme
     </text>
-    <g class="highcharts-legend" transform="translate(261 323)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="214" height="47"/>
+    <g class="highcharts-legend" transform="translate(43 323)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="432" height="47"/>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined">
-            <path fill="url(#b)" d="M0 4h200v12H0z" transform="translate(8 3)"/>
+            <path fill="url(#a)" d="M0 4h200v12H0z" transform="translate(226 3)"/>
             <g class="highcharts-grid highcharts-coloraxis-grid">
-                <path fill="none" stroke="#fbfbfb" class="highcharts-grid-line" d="M7.5 7v12m67-12v12m66-12v12m68-12v12"/>
+                <path fill="none" stroke="#fbfbfb" class="highcharts-grid-line" d="M225.5 7v12m67-12v12m66-12v12m68-12v12"/>
             </g>
             <g class="highcharts-axis highcharts-coloraxis">
-                <path fill="none" class="highcharts-axis-line" d="M8 19h200"/>
+                <path fill="none" class="highcharts-axis-line" d="M226 19h200"/>
             </g>
             <g class="highcharts-axis-labels highcharts-coloraxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-                <text x="7.633" y="35" transform="translate(8 3)">
-                    0,0
+                <text x="7.633" y="35" transform="translate(226 3)">
+                    0.0
                 </text>
-                <text x="66.667" y="35" transform="translate(8 3)">
-                    0,5
+                <text x="66.667" y="35" transform="translate(226 3)">
+                    0.5
                 </text>
-                <text x="133.333" y="35" transform="translate(8 3)">
-                    1,0
+                <text x="133.333" y="35" transform="translate(226 3)">
+                    1.0
                 </text>
-                <text x="192.367" y="35" transform="translate(8 3)">
-                    1,5
+                <text x="192.367" y="35" transform="translate(226 3)">
+                    1.5
                 </text>
             </g>
         </g>

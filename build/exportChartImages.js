@@ -79,28 +79,35 @@ function createSvgImages(chartDetails){
     if (chartDetails.length > 0){
         var chartEntry = chartDetails.pop();   
         //console.log('Current infile: ' + chart.infile);
-
-        var exportSettings = {
-            type: 'svg',
-            infile: chartEntry.infilePath,
-            constr: chartEntry.constr,
-            outfile: chartEntry.outfilePath
-        };
-
-        exporter.export(exportSettings, function (err, res) {
-            if (err) {throw err}
-            //The export result is now in res.
-            //If the output is not PDF or SVG, it will be base64 encoded (res.data).
-            //If the output is a PDF or SVG, it will contain a filename (res.filename).
-            console.log('File created: ' + res.filename + ', ' + chartDetails.length + ' to go...');
-            createSvgImages(chartDetails);
-        });
-    }
-    else {
-        console.log('...done!');
-        exporter.killPool();
-        process.exit();
-    }
+        //if (chartEntry.infilePath.indexOf('6009') > 0 ){
+            var exportSettings = {
+                type: 'svg',
+                infile: chartEntry.infilePath,
+                constr: chartEntry.constr,
+                outfile: chartEntry.outfilePath, 
+                //define empty mappie here to satisfy export server, same as in options001.js
+                customCode: "function(){Highcharts.seriesType('mappie', 'pie', {}, {});}()", 
+                //add proj4 and jQuery to export server's dependencies
+                resources: {
+                    files: "node_modules/proj4/dist/proj4.js,node_modules/jquery/dist/jquery.min.js"
+                }
+            };
+    
+            exporter.export(exportSettings, function (err, res) {
+                if (err) {throw err}
+                //The export result is now in res.
+                //If the output is not PDF or SVG, it will be base64 encoded (res.data).
+                //If the output is a PDF or SVG, it will contain a filename (res.filename).
+                console.log('File created: ' + res.filename + ', ' + chartDetails.length + ' to go...');
+                createSvgImages(chartDetails);
+            });
+        }
+        else {
+            console.log('...done!');
+            exporter.killPool();
+            process.exit();
+        }
+    //}
 }
 
 
