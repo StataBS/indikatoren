@@ -1,89 +1,151 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
-    <defs>
-        <clipPath id="a">
-            <path fill="none" d="M0 0h410v308H0z"/>
-        </clipPath>
-    </defs>
-    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M65 41h410v308H65z"/>
-    <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M68.5 41v308m80-308v308m81-308v308m80-308v308m81-308v308m80-308v308"/>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+  <desc>
+    Created with Highstock 5.0.14
+  </desc>
+  <defs>
+    <clipPath>
+      <rect x="0" y="0" width="410" height="308" fill="none"/>
+    </clipPath>
+    <clipPath id="a">
+      <rect x="0" y="0" width="410" height="308" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="485" height="415" rx="0" ry="0"/>
+  <rect fill="none" class="highcharts-plot-background" x="65" y="41" width="410" height="308"/>
+  <g class="highcharts-pane-group"/>
+  <g class="highcharts-grid highcharts-xaxis-grid ">
+    <path fill="none" class="highcharts-grid-line" d="M 68.5 41 L 68.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 148.5 41 L 148.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 229.5 41 L 229.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 309.5 41 L 309.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 390.5 41 L 390.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 470.5 41 L 470.5 349" opacity="1"/>
+  </g>
+  <g class="highcharts-grid highcharts-yaxis-grid ">
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 65 349.5 L 475 349.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 65 272.5 L 475 272.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 65 195.5 L 475 195.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 65 118.5 L 475 118.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 65 40.5 L 475 40.5" opacity="1"/>
+  </g>
+  <rect fill="none" class="highcharts-plot-border" x="65" y="41" width="410" height="308"/>
+  <g class="highcharts-axis highcharts-xaxis ">
+    <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" d="M 65 349.5 L 475 349.5"/>
+  </g>
+  <g class="highcharts-axis highcharts-yaxis ">
+    <path fill="none" class="highcharts-axis-line" d="M 65 41 L 65 349"/>
+  </g>
+  <g class="highcharts-series-group">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(65,41) scale(1 1)" clip-path="url(#a)">
+      <path fill="none" d="M 4.0196078431337 59.345440000000025 L 84.41176470588 63.566580000000016 L 164.80392156863 62.189820000000026 L 245.19607843137 51.66392000000002 L 325.58823529412 51.55920000000003 L 405.98039215687 52.9683" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M65 349.5h410m-410-77h410m-410-77h410m-410-77h410m-410-78h410"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(65,41) scale(1 1)" clip-path="none">
+      <path fill="#008AC3" d="M 8 59 A 4 4 0 1 1 7.999998000000167 58.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#008AC3" d="M 88 64 A 4 4 0 1 1 87.99999800000016 63.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#008AC3" d="M 168 62 A 4 4 0 1 1 167.99999800000018 61.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#008AC3" d="M 249 52 A 4 4 0 1 1 248.99999800000018 51.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#008AC3" d="M 329 52 A 4 4 0 1 1 328.9999980000002 51.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#008AC3" d="M 409 53 A 4 4 0 1 1 408.9999980000002 52.99600000066666 Z" class="highcharts-point"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M65 41h410v308H65z"/>
-    <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M65 349.5h410"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(65,41) scale(1 1)" clip-path="url(#a)">
+      <path fill="none" d="M 4.0196078431337 188.21418 L 84.41176470588 191.71306 L 164.80392156863 189.17360000000002 L 245.19607843137 187.65516000000002 L 325.58823529412 187.84458 L 405.98039215687 187.1408" class="highcharts-graph" stroke="#B00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M65 41v308"/>
+    <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(65,41) scale(1 1)" clip-path="none">
+      <path fill="#B00000" d="M 8 188 A 4 4 0 1 1 7.999998000000167 187.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#B00000" d="M 88 192 A 4 4 0 1 1 87.99999800000016 191.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#B00000" d="M 168 189 A 4 4 0 1 1 167.99999800000018 188.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#B00000" d="M 249 188 A 4 4 0 1 1 248.99999800000018 187.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#B00000" d="M 329 188 A 4 4 0 1 1 328.9999980000002 187.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#B00000" d="M 409 187 A 4 4 0 1 1 408.9999980000002 186.99600000066667 Z" class="highcharts-point"/>
     </g>
-    <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(65 41)" clip-path="url(#a)">
-            <path fill="none" d="M4.02 59.345l80.392 4.222 80.392-1.377 80.392-10.526 80.392-.105 80.392 1.41" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-        </g>
-        <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined">
-            <path fill="#008AC3" d="M73 100a4 4 0 1 1 0-.004zm80 5a4 4 0 1 1 0-.004zm80-2a4 4 0 1 1 0-.004zm81-10a4 4 0 1 1 0-.004zm80 0a4 4 0 1 1 0-.004zm80 1a4 4 0 1 1 0-.004z" class="highcharts-point"/>
-        </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(65 41)" clip-path="url(#a)">
-            <path fill="none" d="M4.02 188.214l80.392 3.5 80.392-2.54 80.392-1.519 80.392.19 80.392-.704" class="highcharts-graph" stroke="#B00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-        </g>
-        <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined">
-            <path fill="#B00000" d="M73 229a4 4 0 1 1 0-.004zm80 4a4 4 0 1 1 0-.004zm80-3a4 4 0 1 1 0-.004zm81-1a4 4 0 1 1 0-.004zm80 0a4 4 0 1 1 0-.004zm80-1a4 4 0 1 1 0-.004z" class="highcharts-point"/>
-        </g>
+  </g>
+  <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
+    <tspan>Bruttoinlandprodukt pro Kopf in Franken</tspan>
+  </text>
+  <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined " visibility="visible" transform="translate(65,41) scale(1 1)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-1,49)">
+      <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"/>
     </g>
-    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>Bruttoinlandprodukt pro Kopf in Franken</tspan>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(79,54)">
+      <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"/>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(160,52)">
+      <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"/>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(240,42)">
+      <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"/>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(321,42)">
+      <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"/>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(344,30)">
+      <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16">
+        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Basel-Stadt</tspan><tspan x="5" y="16">Basel-Stadt</tspan>
+      </text>
+    </g>
+  </g>
+  <g class="highcharts-data-labels highcharts-series-1 highcharts-line-series highcharts-color-undefined " visibility="visible" transform="translate(65,41) scale(1 1)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-1,178)">
+      <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"/>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(79,182)">
+      <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"/>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(160,179)">
+      <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"/>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(240,178)">
+      <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"/>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(321,178)">
+      <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"/>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(362,164)">
+      <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16">
+        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Schweiz</tspan><tspan x="5" y="16">Schweiz</tspan>
+      </text>
+    </g>
+  </g>
+  <g class="highcharts-axis-labels highcharts-xaxis-labels ">
+    <text x="69.01960784313367" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      <tspan>2008</tspan>
     </text>
-    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
-        <text x="5" y="16" font-size="11" font-weight="700" color="#000" transform="translate(409 71)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
-            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Basel-Stadt</tspan><tspan x="5" y="16">Basel-Stadt</tspan>
-        </text>
-    </g>
-    <g class="highcharts-data-labels highcharts-series-1 highcharts-line-series highcharts-color-undefined">
-        <text x="5" y="16" font-size="11" font-weight="700" color="#000" transform="translate(427 205)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
-            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Schweiz</tspan><tspan x="5" y="16">Schweiz</tspan>
-        </text>
-    </g>
-    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="69.02" y="368">
-            <tspan>2008</tspan>
-        </text>
-        <text x="149.412" y="368">
-            <tspan>2009</tspan>
-        </text>
-        <text x="229.804" y="368">
-            <tspan>2010</tspan>
-        </text>
-        <text x="310.196" y="368">
-            <tspan>2011</tspan>
-        </text>
-        <text x="390.588" y="368">
-            <tspan>2012</tspan>
-        </text>
-        <text x="462.781" y="368">
-            <tspan>2013</tspan>
-        </text>
-    </g>
-    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="50" y="354">
-            <tspan>0</tspan>
-        </text>
-        <text x="50" y="277">
-            <tspan>50 000</tspan>
-        </text>
-        <text x="50" y="200">
-            <tspan>100 000</tspan>
-        </text>
-        <text x="50" y="123">
-            <tspan>150 000</tspan>
-        </text>
-        <text x="50" y="46">
-            <tspan>200 000</tspan>
-        </text>
-    </g>
-    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
-        <tspan>Quelle: Bundesamt für Statistik BFS, Volkswirtschaftliche Gesamtrechnung</tspan>
+    <text x="149.41176470588022" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      <tspan>2009</tspan>
     </text>
+    <text x="229.80392156862675" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      <tspan>2010</tspan>
+    </text>
+    <text x="310.1960784313733" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      <tspan>2011</tspan>
+    </text>
+    <text x="390.5882352941198" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      <tspan>2012</tspan>
+    </text>
+    <text x="462.78125" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      <tspan>2013</tspan>
+    </text>
+  </g>
+  <g class="highcharts-axis-labels highcharts-yaxis-labels ">
+    <text x="50" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="354" opacity="1">
+      <tspan>0</tspan>
+    </text>
+    <text x="50" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="277" opacity="1">
+      <tspan>50 000</tspan>
+    </text>
+    <text x="50" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="200" opacity="1">
+      <tspan>100 000</tspan>
+    </text>
+    <text x="50" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="123" opacity="1">
+      <tspan>150 000</tspan>
+    </text>
+    <text x="50" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="46" opacity="1">
+      <tspan>200 000</tspan>
+    </text>
+  </g>
+  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">
+    <tspan>Quelle: Bundesamt für Statistik BFS, Volkswirtschaftliche Gesamtrechnung</tspan>
+  </text>
 </svg>

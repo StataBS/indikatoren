@@ -44,11 +44,10 @@ var geojson_rheinEPSG2056 = JSON.parse(fs.readFileSync('geojson/rhein_EPSG_2056.
         var views = ['indikatorenset', 'portal'/*, 'print'*/];
         views.forEach(function(view){
             console.log('Starting creation of chart config for indikatorensetView=' + view);
-            
-            var files = glob.sync("metadata/single/*.json");
-            files.forEach(function(filepath){
-                var fileContents = fs.readFileSync(filepath);
-                var indikator = JSON.parse(fileContents);
+
+            var files = JSON.parse(fs.readFileSync('tmp/chartsToBuild.json'));
+            files.forEach(function(id){
+                var indikator = JSON.parse(fs.readFileSync('metadata/single/' + id + '.json'));
                 //only create json files if indikator is visible and not from kennzahlenset "Umwelt"
                 if ((indikator.visible == undefined || indikator.visible) && indikator.kennzahlenset != "Umwelt"){
                     console.log('Creating config for chart ' + indikator.id + ', indikatorensetView=' + view +'...');

@@ -23,7 +23,7 @@ var kuerzelById = ctx.kuerzelById;
 var kuerzelById = JSON.parse(fs.readFileSync(path.join(__dirname, '../metadata/all/kuerzelById.json'), 'utf8'));
 
 var chartDetails = [];
-
+/*
 console.log('Deleting previous svg files...');
 var rimraf = require("rimraf");
 rimraf('images/indikatorenset/*', function(error) {
@@ -33,14 +33,17 @@ rimraf('images/indikatorenset/*', function(error) {
         go();
     });
 });
+*/
 
+go();
 
 
 function go(){
     var views = [true, false];
     views.forEach(function(view){
         console.log('Creating array entries for indikatorensetView=' + view);
-        Object.keys(kuerzelById).forEach(function(chartId) {
+        var files = JSON.parse(fs.readFileSync('tmp/chartsToBuild.json'));
+        files.forEach(function(chartId) {
             chartDetails.push(createPathArray(chartId, view));
         });
     });
