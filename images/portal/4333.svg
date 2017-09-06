@@ -1,112 +1,164 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
-    <defs>
-        <clipPath id="a">
-            <path fill="none" d="M0 0h426v254H0z"/>
-        </clipPath>
-    </defs>
-    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M49 90h426v254H49z"/>
-    <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
-        <tspan>&gt; Indikator-Details</tspan>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+  <desc>
+    Created with Highstock 5.0.14
+  </desc>
+  <defs>
+    <clipPath>
+      <rect x="0" y="0" width="426" height="254" fill="none"/>
+    </clipPath>
+    <clipPath id="a">
+      <rect x="0" y="0" width="426" height="254" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="485" height="415" rx="0" ry="0"/>
+  <rect fill="none" class="highcharts-plot-background" x="49" y="90" width="426" height="254"/>
+  <g class="highcharts-label" style="cursor:pointer;" transform="translate(10,451)">
+    <text x="0" y="0">
+      <tspan>&gt; Indikator-Details</tspan>
     </text>
-    <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M91.5 90v254m42-254v254m43-254v254m42-254v254m43-254v254m43-254v254m42-254v254m43-254v254m42-254v254m43-254v254M48.5 90v254"/>
+  </g>
+  <g class="highcharts-pane-group"/>
+  <g class="highcharts-grid highcharts-xaxis-grid ">
+    <path fill="none" class="highcharts-grid-line" d="M 91.5 90 L 91.5 344" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 133.5 90 L 133.5 344" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 176.5 90 L 176.5 344" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 218.5 90 L 218.5 344" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 261.5 90 L 261.5 344" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 304.5 90 L 304.5 344" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 346.5 90 L 346.5 344" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 389.5 90 L 389.5 344" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 431.5 90 L 431.5 344" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 474.5 90 L 474.5 344" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 48.5 90 L 48.5 344" opacity="1"/>
+  </g>
+  <g class="highcharts-grid highcharts-yaxis-grid ">
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 49 344.5 L 475 344.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 49 293.5 L 475 293.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 49 242.5 L 475 242.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 49 192.5 L 475 192.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 49 141.5 L 475 141.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 49 89.5 L 475 89.5" opacity="1"/>
+  </g>
+  <g class="highcharts-grid highcharts-yaxis-grid "/>
+  <rect fill="none" class="highcharts-plot-border" x="49" y="90" width="426" height="254"/>
+  <g class="highcharts-axis highcharts-xaxis ">
+    <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" d="M 49 344.5 L 475 344.5"/>
+  </g>
+  <g class="highcharts-axis highcharts-yaxis ">
+    <path fill="none" class="highcharts-axis-line" d="M 49 90 L 49 344"/>
+  </g>
+  <g class="highcharts-axis highcharts-yaxis ">
+    <path fill="none" class="highcharts-axis-line" d="M 475 90 L 475 344"/>
+  </g>
+  <g class="highcharts-series-group">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(49,90) scale(1 1)" clip-path="url(#a)">
+      <rect x="11" y="173" width="21" height="26" fill="#FF8028" class="highcharts-point"/>
+      <rect x="54" y="139" width="21" height="48" fill="#FF8028" class="highcharts-point"/>
+      <rect x="96" y="146" width="21" height="52" fill="#FF8028" class="highcharts-point"/>
+      <rect x="139" y="160" width="21" height="43" fill="#FF8028" class="highcharts-point"/>
+      <rect x="181" y="157" width="21" height="46" fill="#FF8028" class="highcharts-point"/>
+      <rect x="224" y="65" width="21" height="139" fill="#FF8028" class="highcharts-point"/>
+      <rect x="267" y="87" width="21" height="115" fill="#FF8028" class="highcharts-point"/>
+      <rect x="309" y="133" width="21" height="69" fill="#FF8028" class="highcharts-point"/>
+      <rect x="352" y="50" width="21" height="158" fill="#FF8028" class="highcharts-point"/>
+      <rect x="394" y="120" width="21" height="91" fill="#FF8028" class="highcharts-point"/>
     </g>
-    <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M49 344.5h426m-426-51h426m-426-51h426m-426-50h426m-426-51h426m-426-52h426"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(49,90) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(49,90) scale(1 1)" clip-path="url(#a)">
+      <rect x="11" y="199" width="21" height="56" fill="#DC440E" class="highcharts-point"/>
+      <rect x="54" y="187" width="21" height="68" fill="#DC440E" class="highcharts-point"/>
+      <rect x="96" y="198" width="21" height="57" fill="#DC440E" class="highcharts-point"/>
+      <rect x="139" y="203" width="21" height="52" fill="#DC440E" class="highcharts-point"/>
+      <rect x="181" y="203" width="21" height="52" fill="#DC440E" class="highcharts-point"/>
+      <rect x="224" y="204" width="21" height="51" fill="#DC440E" class="highcharts-point"/>
+      <rect x="267" y="202" width="21" height="53" fill="#DC440E" class="highcharts-point"/>
+      <rect x="309" y="202" width="21" height="53" fill="#DC440E" class="highcharts-point"/>
+      <rect x="352" y="208" width="21" height="47" fill="#DC440E" class="highcharts-point"/>
+      <rect x="394" y="211" width="21" height="44" fill="#DC440E" class="highcharts-point"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M49 90h426v254H49z"/>
-    <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M49 344.5h426"/>
-    </g>
-    <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M49 90v254"/>
-    </g>
-    <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M475 90v254"/>
-    </g>
-    <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(49 90)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" d="M11 173h21v26H11zm43-34h21v48H54zm42 7h21v52H96zm43 14h21v43h-21zm42-3h21v46h-21zm43-92h21v139h-21zm43 22h21v115h-21zm42 46h21v69h-21zm43-83h21v158h-21zm42 70h21v91h-21z"/>
+    <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(49,90) scale(1 1)" clip-path="none"/>
+  </g>
+  <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:1.1em;font-weight:bold;fill:#000000;" y="20">
+    <tspan>Sonderabfälle</tspan>
+  </text>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:0.9em;fill:#000000;" y="38">
+    <tspan>Tonnen</tspan>
+  </text>
+  <g class="highcharts-legend" transform="translate(10,40)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="405" height="38" visibility="visible"/>
+    <g>
+      <g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(12,7)">
+          <text x="21" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
+            <tspan>BS: Klasse 4 (Mineralische Abfälle)</tspan>
+          </text>
+          <rect x="2" y="4" width="12" height="12" fill="#FF8028" class="highcharts-point"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined" transform="translate(49 90)" clip-path="url(#a)">
-            <path fill="#DC440E" class="highcharts-point" d="M11 199h21v56H11zm43-12h21v68H54zm42 11h21v57H96zm43 5h21v52h-21zm42 0h21v52h-21zm43 1h21v51h-21zm43-2h21v53h-21zm42 0h21v53h-21zm43 6h21v47h-21zm42 3h21v44h-21z"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(240.234375,7)">
+          <text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>BS: Übrige Abfallklassen</tspan>
+          </text>
+          <rect x="2" y="4" width="12" height="12" fill="#DC440E" class="highcharts-point"/>
         </g>
+      </g>
     </g>
-    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
-        <tspan>Sonderabfälle</tspan>
+  </g>
+  <g class="highcharts-axis-labels highcharts-xaxis-labels ">
+    <text x="70.3" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="363" opacity="1">
+      2006
     </text>
-    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
-        <tspan>Tonnen</tspan>
+    <text x="112.89999999999999" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="363" opacity="1">
+      2007
     </text>
-    <g class="highcharts-legend" transform="translate(10 40)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="405" height="38"/>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
-                <tspan>BS: Klasse 4 (Mineralische Abfälle)</tspan>
-            </text>
-            <path fill="#FF8028" class="highcharts-point" d="M14 11h12v12H14z"/>
-        </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(240.234 7)">
-                <tspan>BS: Übrige Abfallklassen</tspan>
-            </text>
-            <path fill="#DC440E" class="highcharts-point" d="M242.234 11h12v12h-12z"/>
-        </g>
-    </g>
-    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
-        <text x="70.3" y="363">
-            2006
-        </text>
-        <text x="112.9" y="363">
-            2007
-        </text>
-        <text x="155.5" y="363">
-            2008
-        </text>
-        <text x="198.1" y="363">
-            2009
-        </text>
-        <text x="240.7" y="363">
-            2010
-        </text>
-        <text x="283.3" y="363">
-            2011
-        </text>
-        <text x="325.9" y="363">
-            2012
-        </text>
-        <text x="368.5" y="363">
-            2013
-        </text>
-        <text x="411.1" y="363">
-            2014
-        </text>
-        <text x="453.7" y="363">
-            2015
-        </text>
-    </g>
-    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
-        <text x="34" y="349">
-            <tspan>0</tspan>
-        </text>
-        <text x="34" y="298">
-            <tspan>50k</tspan>
-        </text>
-        <text x="34" y="247">
-            <tspan>100k</tspan>
-        </text>
-        <text x="34" y="196">
-            <tspan>150k</tspan>
-        </text>
-        <text x="34" y="145">
-            <tspan>200k</tspan>
-        </text>
-        <text x="34" y="95">
-            <tspan>250k</tspan>
-        </text>
-    </g>
-    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
-        <tspan>Quelle: Amt für Umwelt und Energie Basel-Stadt; Amt für Umweltschutz und Energie Basel-Landschaft</tspan>
+    <text x="155.5" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="363" opacity="1">
+      2008
     </text>
+    <text x="198.1" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="363" opacity="1">
+      2009
+    </text>
+    <text x="240.7" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="363" opacity="1">
+      2010
+    </text>
+    <text x="283.3" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="363" opacity="1">
+      2011
+    </text>
+    <text x="325.90000000000003" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="363" opacity="1">
+      2012
+    </text>
+    <text x="368.5" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="363" opacity="1">
+      2013
+    </text>
+    <text x="411.1" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="363" opacity="1">
+      2014
+    </text>
+    <text x="453.7" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="363" opacity="1">
+      2015
+    </text>
+  </g>
+  <g class="highcharts-axis-labels highcharts-yaxis-labels ">
+    <text x="34" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="349" opacity="1">
+      <tspan>0</tspan>
+    </text>
+    <text x="34" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="298" opacity="1">
+      <tspan>50k</tspan>
+    </text>
+    <text x="34" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="247" opacity="1">
+      <tspan>100k</tspan>
+    </text>
+    <text x="34" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="196" opacity="1">
+      <tspan>150k</tspan>
+    </text>
+    <text x="34" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="145" opacity="1">
+      <tspan>200k</tspan>
+    </text>
+    <text x="34" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="95" opacity="1">
+      <tspan>250k</tspan>
+    </text>
+  </g>
+  <g class="highcharts-axis-labels highcharts-yaxis-labels "/>
+  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:0.8em;fill:#000000;" y="400">
+    <tspan>Quelle: Amt für Umwelt und Energie Basel-Stadt; Amt für Umweltschutz und Energie Basel-Landschaft</tspan>
+  </text>
 </svg>

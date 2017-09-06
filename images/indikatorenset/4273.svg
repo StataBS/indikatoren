@@ -1,88 +1,121 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
-    <defs>
-        <clipPath id="a">
-            <path fill="none" d="M0 0h432v254H0z"/>
-        </clipPath>
-    </defs>
-    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M43 90h432v254H43z"/>
-    <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
-        <tspan>&gt; Indikator-Details</tspan>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+  <desc>
+    Created with Highstock 5.0.14
+  </desc>
+  <defs>
+    <clipPath>
+      <rect x="0" y="0" width="432" height="254" fill="none"/>
+    </clipPath>
+    <clipPath id="a">
+      <rect x="0" y="0" width="432" height="254" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="485" height="415" rx="0" ry="0"/>
+  <rect fill="none" class="highcharts-plot-background" x="43" y="90" width="432" height="254"/>
+  <g class="highcharts-label" style="cursor:pointer;" transform="translate(10,451)">
+    <text x="0" y="0">
+      <tspan>&gt; Indikator-Details</tspan>
     </text>
-    <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M114.5 90v254m72-254v254m72-254v254m72-254v254m72-254v254m72-254v254M42.5 90v254"/>
+  </g>
+  <g class="highcharts-pane-group"/>
+  <g class="highcharts-grid highcharts-xaxis-grid ">
+    <path fill="none" class="highcharts-grid-line" d="M 114.5 90 L 114.5 344" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 186.5 90 L 186.5 344" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 258.5 90 L 258.5 344" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 330.5 90 L 330.5 344" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 402.5 90 L 402.5 344" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 474.5 90 L 474.5 344" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 42.5 90 L 42.5 344" opacity="1"/>
+  </g>
+  <g class="highcharts-grid highcharts-yaxis-grid ">
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 43 344.5 L 475 344.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 43 281.5 L 475 281.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 43 217.5 L 475 217.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 43 154.5 L 475 154.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 43 89.5 L 475 89.5" opacity="1"/>
+  </g>
+  <g class="highcharts-grid highcharts-yaxis-grid "/>
+  <rect fill="none" class="highcharts-plot-border" x="43" y="90" width="432" height="254"/>
+  <g class="highcharts-axis highcharts-xaxis ">
+    <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" d="M 43 344.5 L 475 344.5"/>
+  </g>
+  <g class="highcharts-axis highcharts-yaxis ">
+    <path fill="none" class="highcharts-axis-line" d="M 43 90 L 43 344"/>
+  </g>
+  <g class="highcharts-axis highcharts-yaxis ">
+    <path fill="none" class="highcharts-axis-line" d="M 475 90 L 475 344"/>
+  </g>
+  <g class="highcharts-series-group">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(43,90) scale(1 1)" clip-path="url(#a)">
+      <rect x="19" y="17" width="35" height="238" fill="#73B97C" class="highcharts-point"/>
+      <rect x="91" y="116" width="35" height="139" fill="#73B97C" class="highcharts-point"/>
+      <rect x="163" y="177" width="35" height="78" fill="#73B97C" class="highcharts-point"/>
+      <rect x="235" y="199" width="35" height="56" fill="#73B97C" class="highcharts-point"/>
+      <rect x="307" y="201" width="35" height="54" fill="#73B97C" class="highcharts-point"/>
+      <rect x="379" y="209" width="35" height="46" fill="#73B97C" class="highcharts-point"/>
     </g>
-    <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 344.5h432m-432-63h432m-432-64h432m-432-63h432m-432-65h432"/>
-    </g>
-    <path fill="none" class="highcharts-plot-border" d="M43 90h432v254H43z"/>
-    <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M43 344.5h432"/>
-    </g>
-    <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M43 90v254"/>
-    </g>
-    <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M475 90v254"/>
-    </g>
-    <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(43 90)" clip-path="url(#a)">
-            <path fill="#73B97C" class="highcharts-point" d="M19 17h35v238H19zm72 99h35v139H91zm72 61h35v78h-35zm72 22h35v56h-35zm72 2h35v54h-35zm72 8h35v46h-35z"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(43,90) scale(1 1)" clip-path="none"/>
+  </g>
+  <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:1.1em;font-weight:bold;fill:#000000;" y="20">
+    <tspan>Emissionen flüchtiger organischer Verbindungen (VOC)</tspan>
+  </text>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:0.9em;fill:#000000;" y="38">
+    <tspan>Tonnen</tspan>
+  </text>
+  <g class="highcharts-legend" transform="translate(10,40)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="274" height="38" visibility="visible"/>
+    <g>
+      <g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(12,7)">
+          <text x="21" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
+            <tspan>Kantone Basel-Stadt und Basel-Landschaft</tspan>
+          </text>
+          <rect x="2" y="4" width="12" height="12" fill="#73B97C" class="highcharts-point"/>
         </g>
+      </g>
     </g>
-    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
-        <tspan>Emissionen flüchtiger organischer Verbindungen (VOC)</tspan>
+  </g>
+  <g class="highcharts-axis-labels highcharts-xaxis-labels ">
+    <text x="79" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="363" opacity="1">
+      1990
     </text>
-    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
-        <tspan>Tonnen</tspan>
+    <text x="151" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="363" opacity="1">
+      1995
     </text>
-    <g class="highcharts-legend" transform="translate(10 40)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="274" height="38"/>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
-            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
-                <tspan>Kantone Basel-Stadt und Basel-Landschaft</tspan>
-            </text>
-            <path fill="#73B97C" class="highcharts-point" d="M14 11h12v12H14z"/>
-        </g>
-    </g>
-    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
-        <text x="79" y="363">
-            1990
-        </text>
-        <text x="151" y="363">
-            1995
-        </text>
-        <text x="223" y="363">
-            2000
-        </text>
-        <text x="295" y="363">
-            2005
-        </text>
-        <text x="367" y="363">
-            2010
-        </text>
-        <text x="439" y="363">
-            2015
-        </text>
-    </g>
-    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
-        <text x="28" y="349">
-            <tspan>0</tspan>
-        </text>
-        <text x="28" y="285">
-            <tspan>5k</tspan>
-        </text>
-        <text x="28" y="222">
-            <tspan>10k</tspan>
-        </text>
-        <text x="28" y="158">
-            <tspan>15k</tspan>
-        </text>
-        <text x="28" y="95">
-            <tspan>20k</tspan>
-        </text>
-    </g>
-    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
-        <tspan>Quelle: Lufthygieneamt beider Basel</tspan>
+    <text x="223" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="363" opacity="1">
+      2000
     </text>
+    <text x="295" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="363" opacity="1">
+      2005
+    </text>
+    <text x="367" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="363" opacity="1">
+      2010
+    </text>
+    <text x="439" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="363" opacity="1">
+      2015
+    </text>
+  </g>
+  <g class="highcharts-axis-labels highcharts-yaxis-labels ">
+    <text x="28" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="349" opacity="1">
+      <tspan>0</tspan>
+    </text>
+    <text x="28" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="285" opacity="1">
+      <tspan>5k</tspan>
+    </text>
+    <text x="28" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="222" opacity="1">
+      <tspan>10k</tspan>
+    </text>
+    <text x="28" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="158" opacity="1">
+      <tspan>15k</tspan>
+    </text>
+    <text x="28" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="95" opacity="1">
+      <tspan>20k</tspan>
+    </text>
+  </g>
+  <g class="highcharts-axis-labels highcharts-yaxis-labels "/>
+  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:0.8em;fill:#000000;" y="400">
+    <tspan>Quelle: Lufthygieneamt beider Basel</tspan>
+  </text>
 </svg>

@@ -1,110 +1,165 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
-    <defs>
-        <clipPath id="a">
-            <path fill="none" d="M0 0h410v195H0z"/>
-        </clipPath>
-    </defs>
-    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M65 160h410v195H65z"/>
-    <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M146.5 160v195m82-195v195m82-195v195m82-195v195m82-195v195m-410-195v195"/>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+  <desc>
+    Created with Highstock 5.0.14
+  </desc>
+  <defs>
+    <clipPath>
+      <rect x="0" y="0" width="410" height="195" fill="none"/>
+    </clipPath>
+    <clipPath id="a">
+      <rect x="0" y="0" width="410" height="195" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="485" height="415" rx="0" ry="0"/>
+  <rect fill="none" class="highcharts-plot-background" x="65" y="160" width="410" height="195"/>
+  <g class="highcharts-pane-group"/>
+  <g class="highcharts-grid highcharts-xaxis-grid ">
+    <path fill="none" class="highcharts-grid-line" d="M 146.5 160 L 146.5 355" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 228.5 160 L 228.5 355" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 310.5 160 L 310.5 355" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 392.5 160 L 392.5 355" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 474.5 160 L 474.5 355" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 64.5 160 L 64.5 355" opacity="1"/>
+  </g>
+  <g class="highcharts-grid highcharts-yaxis-grid ">
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 65 355.5 L 475 355.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 65 306.5 L 475 306.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 65 258.5 L 475 258.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 65 209.5 L 475 209.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 65 159.5 L 475 159.5" opacity="1"/>
+  </g>
+  <rect fill="none" class="highcharts-plot-border" x="65" y="160" width="410" height="195"/>
+  <g class="highcharts-axis highcharts-xaxis ">
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 146.5 355 L 146.5 365" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 228.5 355 L 228.5 365" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 310.5 355 L 310.5 365" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 392.5 355 L 392.5 365" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 475.5 355 L 475.5 365" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 64.5 355 L 64.5 365" opacity="1"/>
+    <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" d="M 65 355.5 L 475 355.5"/>
+  </g>
+  <g class="highcharts-axis highcharts-yaxis ">
+    <path fill="none" class="highcharts-axis-line" d="M 65 160 L 65 355"/>
+  </g>
+  <g class="highcharts-series-group">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(65,160) scale(1 1)" clip-path="url(#a)">
+      <rect x="15.5" y="120.5" width="50" height="75" fill="#933F8D" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="97.5" y="119.5" width="50" height="76" fill="#933F8D" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="179.5" y="121.5" width="50" height="74" fill="#933F8D" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="261.5" y="118.5" width="50" height="77" fill="#933F8D" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="343.5" y="120.5" width="50" height="75" fill="#933F8D" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
     </g>
-    <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M65 355.5h410m-410-49h410m-410-48h410m-410-49h410m-410-50h410"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(65,160) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(65,160) scale(1 1)" clip-path="url(#a)">
+      <rect x="15.5" y="97.5" width="50" height="23" fill="#B475AB" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="97.5" y="94.5" width="50" height="25" fill="#B475AB" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="179.5" y="95.5" width="50" height="26" fill="#B475AB" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="261.5" y="92.5" width="50" height="26" fill="#B475AB" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="343.5" y="92.5" width="50" height="28" fill="#B475AB" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M65 160h410v195H65z"/>
-    <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M146.5 355v10m82-10v10m82-10v10m82-10v10m83-10v10m-411-10v10"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M65 355.5h410"/>
+    <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(65,160) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(65,160) scale(1 1)" clip-path="url(#a)">
+      <rect x="15.5" y="54.5" width="50" height="43" fill="#FABD24" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="97.5" y="49.5" width="50" height="45" fill="#FABD24" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="179.5" y="49.5" width="50" height="46" fill="#FABD24" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="261.5" y="45.5" width="50" height="47" fill="#FABD24" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="343.5" y="43.5" width="50" height="49" fill="#FABD24" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
     </g>
-    <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M65 160v195"/>
+    <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(65,160) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(65,160) scale(1 1)" clip-path="url(#a)">
+      <rect x="15.5" y="50.5" width="50" height="4" fill="#FFDA80" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="97.5" y="45.5" width="50" height="4" fill="#FFDA80" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="179.5" y="44.5" width="50" height="5" fill="#FFDA80" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="261.5" y="40.5" width="50" height="5" fill="#FFDA80" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="343.5" y="39.5" width="50" height="4" fill="#FFDA80" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
     </g>
-    <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(65 160)" clip-path="url(#a)">
-            <path fill="#933F8D" stroke="#fff" class="highcharts-point" d="M15.5 120.5h50v75h-50zm82-1h50v76h-50zm82 2h50v74h-50zm82-3h50v77h-50zm82 2h50v75h-50z"/>
+    <g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(65,160) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(65,160) scale(1 1)" clip-path="url(#a)">
+      <rect x="15.5" y="50.5" width="50" height="0" fill="#4BACC6" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="97.5" y="45.5" width="50" height="0" fill="#4BACC6" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="179.5" y="44.5" width="50" height="0" fill="#4BACC6" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="261.5" y="40.5" width="50" height="0" fill="#4BACC6" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="343.5" y="39.5" width="50" height="0" fill="#4BACC6" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(65,160) scale(1 1)" clip-path="none"/>
+  </g>
+  <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
+    <tspan>Anzahl Personen mit und ohne Migrationshintergrund nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014</tspan><title>Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014</title>
+  </text>
+  <g class="highcharts-legend" transform="translate(56,55)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="324" height="106" visibility="visible"/>
+    <g>
+      <g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4" transform="translate(8,3)">
+          <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
+            <tspan>Ausländer ohne Migrationshintergrund (3. Generation)</tspan>
+          </text>
+          <rect x="2" y="4" width="12" height="12" fill="#4BACC6" class="highcharts-point"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined" transform="translate(65 160)" clip-path="url(#a)">
-            <path fill="#B475AB" stroke="#fff" class="highcharts-point" d="M15.5 97.5h50v23h-50zm82-3h50v25h-50zm82 1h50v26h-50zm82-3h50v26h-50zm82 0h50v28h-50z"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3" transform="translate(8,22)">
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>Ausländer mit Migrationshintergrund (2. Generation)</tspan>
+          </text>
+          <rect x="2" y="4" width="12" height="12" fill="#FFDA80" class="highcharts-point"/>
         </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined" transform="translate(65 160)" clip-path="url(#a)">
-            <path fill="#FABD24" stroke="#fff" class="highcharts-point" d="M15.5 54.5h50v43h-50zm82-5h50v45h-50zm82 0h50v46h-50zm82-4h50v47h-50zm82-2h50v49h-50z"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(8,41)">
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>Ausländer mit Migrationshintergrund (1. Generation)</tspan>
+          </text>
+          <rect x="2" y="4" width="12" height="12" fill="#FABD24" class="highcharts-point"/>
         </g>
-        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined" transform="translate(65 160)" clip-path="url(#a)">
-            <path fill="#FFDA80" stroke="#fff" class="highcharts-point" d="M15.5 50.5h50v4h-50zm82-5h50v4h-50zm82-1h50v5h-50zm82-4h50v5h-50zm82-1h50v4h-50z"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(8,60)">
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>Schweiz mit Migrationshintergrund</tspan>
+          </text>
+          <rect x="2" y="4" width="12" height="12" fill="#B475AB" class="highcharts-point"/>
         </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,79)">
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>Schweiz ohne Migrationshintergrund</tspan>
+          </text>
+          <rect x="2" y="4" width="12" height="12" fill="#933F8D" class="highcharts-point"/>
+        </g>
+      </g>
     </g>
-    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>Anzahl Personen mit und ohne Migrationshintergrund nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014</tspan><title>Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014</title>
+  </g>
+  <g class="highcharts-axis-labels highcharts-xaxis-labels ">
+    <text x="106" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="374" opacity="1">
+      <tspan>2010</tspan>
     </text>
-    <g class="highcharts-legend" transform="translate(56 55)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="324" height="106"/>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
-                <tspan>Ausländer ohne Migrationshintergrund (3. Generation)</tspan>
-            </text>
-            <path fill="#4BACC6" class="highcharts-point" d="M10 7h12v12H10z"/>
-        </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
-                <tspan>Ausländer mit Migrationshintergrund (2. Generation)</tspan>
-            </text>
-            <path fill="#FFDA80" class="highcharts-point" d="M10 26h12v12H10z"/>
-        </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 41)">
-                <tspan>Ausländer mit Migrationshintergrund (1. Generation)</tspan>
-            </text>
-            <path fill="#FABD24" class="highcharts-point" d="M10 45h12v12H10z"/>
-        </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 60)">
-                <tspan>Schweiz mit Migrationshintergrund</tspan>
-            </text>
-            <path fill="#B475AB" class="highcharts-point" d="M10 64h12v12H10z"/>
-        </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 79)">
-                <tspan>Schweiz ohne Migrationshintergrund</tspan>
-            </text>
-            <path fill="#933F8D" class="highcharts-point" d="M10 83h12v12H10z"/>
-        </g>
-    </g>
-    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="106" y="374">
-            <tspan>2010</tspan>
-        </text>
-        <text x="188" y="374">
-            <tspan>2011</tspan>
-        </text>
-        <text x="270" y="374">
-            <tspan>2012</tspan>
-        </text>
-        <text x="352" y="374">
-            <tspan>2013</tspan>
-        </text>
-        <text x="434" y="374">
-            <tspan>2014</tspan>
-        </text>
-    </g>
-    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="50" y="360">
-            <tspan>0</tspan>
-        </text>
-        <text x="50" y="311">
-            <tspan>50 000</tspan>
-        </text>
-        <text x="50" y="262">
-            <tspan>100 000</tspan>
-        </text>
-        <text x="50" y="213">
-            <tspan>150 000</tspan>
-        </text>
-        <text x="50" y="165">
-            <tspan>200 000</tspan>
-        </text>
-    </g>
-    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
-        <tspan>Quelle: Bundesamt für Statistik BFS, Strukturerhebung (SE)</tspan>
+    <text x="188" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="374" opacity="1">
+      <tspan>2011</tspan>
     </text>
+    <text x="270" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="374" opacity="1">
+      <tspan>2012</tspan>
+    </text>
+    <text x="352" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="374" opacity="1">
+      <tspan>2013</tspan>
+    </text>
+    <text x="434" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="374" opacity="1">
+      <tspan>2014</tspan>
+    </text>
+  </g>
+  <g class="highcharts-axis-labels highcharts-yaxis-labels ">
+    <text x="50" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="360" opacity="1">
+      <tspan>0</tspan>
+    </text>
+    <text x="50" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="311" opacity="1">
+      <tspan>50 000</tspan>
+    </text>
+    <text x="50" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="262" opacity="1">
+      <tspan>100 000</tspan>
+    </text>
+    <text x="50" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="213" opacity="1">
+      <tspan>150 000</tspan>
+    </text>
+    <text x="50" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="165" opacity="1">
+      <tspan>200 000</tspan>
+    </text>
+  </g>
+  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">
+    <tspan>Quelle: Bundesamt für Statistik BFS, Strukturerhebung (SE)</tspan>
+  </text>
 </svg>
