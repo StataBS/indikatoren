@@ -5,13 +5,13 @@
     Created with Highstock 5.0.14
   </desc>
   <defs>
-    <clipPath id="highcharts-ud0bzg1-8">
+    <clipPath>
       <rect x="0" y="0" width="280" height="245" fill="none"/>
     </clipPath>
-    <clipPath id="highcharts-ud0bzg1-9">
+    <clipPath id="a">
       <rect x="0" y="0" width="280" height="245" fill="none"/>
     </clipPath>
-    <clipPath id="highcharts-ud0bzg1-10">
+    <clipPath id="b">
       <rect x="0" y="0" width="280" height="245" fill="none"/>
     </clipPath>
   </defs>
@@ -59,11 +59,11 @@
     <path fill="none" class="highcharts-axis-line" d="M 323 75 L 323 320"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(43,75) scale(1 1)" clip-path="url(#highcharts-ud0bzg1-9)"/>
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(43,75) scale(1 1)" clip-path="url(#a)"/>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(43,75) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(43,75) scale(1 1)" clip-path="url(#highcharts-ud0bzg1-9)"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(43,75) scale(1 1)" clip-path="url(#a)"/>
     <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(43,75) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(43,75) scale(1 1)" clip-path="url(#highcharts-ud0bzg1-9)">
+    <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(43,75) scale(1 1)" clip-path="url(#a)">
       <rect x="7.5" y="216.5" width="30" height="29" fill="#0a3b19" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="54.5" y="157.5" width="30" height="88" fill="#0a3b19" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="101.5" y="53.5" width="30" height="192" fill="#0a3b19" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
@@ -72,15 +72,15 @@
       <rect x="241.5" y="217.5" width="30" height="28" fill="#0a3b19" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(43,75) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined " visibility="hidden" transform="translate(43,75) scale(1 1)" clip-path="url(#highcharts-ud0bzg1-10)">
+    <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined " visibility="hidden" transform="translate(43,75) scale(1 1)" clip-path="url(#b)">
       <path fill="none" d="M 23.333333333333 134.40972222244 L 70 148.47160273585501 L 116.66666666667 191.711873081015 L 163.33333333333 163.617733726265 L 210 139.08349802382 L 256.66666666667 113.57932379738" class="highcharts-graph" stroke="#ff8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
     <g class="highcharts-markers highcharts-series-3 highcharts-line-series highcharts-color-undefined " visibility="hidden" transform="translate(43,75) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-4 highcharts-line-series highcharts-color-undefined " visibility="hidden" transform="translate(43,75) scale(1 1)" clip-path="url(#highcharts-ud0bzg1-10)">
+    <g class="highcharts-series highcharts-series-4 highcharts-line-series highcharts-color-undefined " visibility="hidden" transform="translate(43,75) scale(1 1)" clip-path="url(#b)">
       <path fill="none" d="M 23.333333333333 127.69493844065 L 70 123.17184643526 L 116.66666666667 162.79304232233 L 163.33333333333 148.13378973645 L 210 107.50228756179499 L 256.66666666667 153.86301148316" class="highcharts-graph" stroke="#923f8d" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
     <g class="highcharts-markers highcharts-series-4 highcharts-line-series highcharts-color-undefined " visibility="hidden" transform="translate(43,75) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-5 highcharts-line-series highcharts-color-undefined " transform="translate(43,75) scale(1 1)" clip-path="url(#highcharts-ud0bzg1-10)">
+    <g class="highcharts-series highcharts-series-5 highcharts-line-series highcharts-color-undefined " transform="translate(43,75) scale(1 1)" clip-path="url(#b)">
       <path fill="none" d="M 23.333333333333 52.213114754255 L 70 116.90472732575 L 116.66666666667 123.84276174899999 L 163.33333333333 129.67234357654502 L 210 108.72430471594998 L 256.66666666667 154.06890430876" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
     <g class="highcharts-markers highcharts-series-5 highcharts-line-series highcharts-color-undefined " transform="translate(43,75) scale(1 1)" clip-path="none"/>

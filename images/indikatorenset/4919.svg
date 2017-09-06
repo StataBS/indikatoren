@@ -5,10 +5,10 @@
     Created with Highstock 5.0.14
   </desc>
   <defs>
-    <clipPath id="highcharts-7ps0gm7-6">
+    <clipPath>
       <rect x="0" y="0" width="416" height="308" fill="none"/>
     </clipPath>
-    <clipPath id="highcharts-7ps0gm7-7">
+    <clipPath id="a">
       <rect x="0" y="0" width="416" height="308" fill="none"/>
     </clipPath>
   </defs>
@@ -40,7 +40,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 59 41 L 59 349"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(59,41) scale(1 1)" clip-path="url(#highcharts-7ps0gm7-7)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(59,41) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 4.078431372549 168.5992 L 20.392156862745 161.392 L 36.705882352941 157.62413333333333 L 53.019607843137 152.33679999999998 L 69.333333333333 146.18706666666665 L 85.647058823529 141.8956 L 101.96078431373 137.62466666666666 L 118.27450980392 133.3948 L 134.58823529412 129.49346666666665 L 150.90196078431 123.46693333333332 L 167.21568627451 118.30279999999999 L 183.52941176471 112.47133333333332 L 199.8431372549 107.79999999999998 L 216.1568627451 102.39973333333333 L 232.47058823529 95.60319999999999 L 248.78431372549 90.64439999999999 L 265.09803921569 85.05933333333331 L 281.41176470588 69.84413333333333 L 297.72549019608 62.10306666666665 L 314.03921568627 55.388666666666666 L 330.35294117647 49.88573333333335 L 346.66666666667 43.22266666666667 L 362.98039215686 37.22693333333331 L 379.29411764706 25.358666666666636 L 395.60784313725 19.53746666666666 L 411.92156862745 14.814799999999991" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(59,41) scale(1 1)" clip-path="none">

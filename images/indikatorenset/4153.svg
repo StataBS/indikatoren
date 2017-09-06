@@ -5,10 +5,10 @@
     Created with Highstock 5.0.14
   </desc>
   <defs>
-    <clipPath id="highcharts-a7k57wj-6">
+    <clipPath>
       <rect x="0" y="0" width="395" height="295" fill="none"/>
     </clipPath>
-    <clipPath id="highcharts-a7k57wj-7">
+    <clipPath id="a">
       <rect x="0" y="0" width="395" height="295" fill="none"/>
     </clipPath>
   </defs>
@@ -47,7 +47,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 80 41 L 80 336"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(80,41) scale(1 1)" clip-path="url(#highcharts-a7k57wj-7)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(80,41) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 16.458333333333 272.8904875 L 49.375 276.5113420833333 L 82.291666666667 281.0131895833333 L 115.20833333333 280.62484666666666 L 148.125 247.38259958333333 L 181.04166666667 218.4340775 L 213.95833333333 190.42154125000002 L 246.875 167.63416791666668 L 279.79166666667 96.21375833333335 L 312.70833333333 75.86074958333333 L 345.625 60.82838541666666 L 378.54166666667 46.37790875000002" class="highcharts-graph" stroke="#923f8d" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(80,41) scale(1 1)" clip-path="none">

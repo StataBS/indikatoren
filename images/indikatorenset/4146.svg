@@ -5,13 +5,13 @@
     Created with Highstock 5.0.14
   </desc>
   <defs>
-    <clipPath id="highcharts-4b4wbf1-8">
+    <clipPath>
       <rect x="0" y="0" width="379" height="275" fill="none"/>
     </clipPath>
-    <clipPath id="highcharts-4b4wbf1-9">
+    <clipPath id="a">
       <rect x="0" y="0" width="379" height="275" fill="none"/>
     </clipPath>
-    <clipPath id="highcharts-4b4wbf1-10">
+    <clipPath id="b">
       <rect x="0" y="0" width="379" height="275" fill="none"/>
     </clipPath>
   </defs>
@@ -65,7 +65,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 438 75 L 438 350"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(59,75) scale(1 1)" clip-path="url(#highcharts-4b4wbf1-9)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(59,75) scale(1 1)" clip-path="url(#a)">
       <rect x="2.5" y="124.5" width="10" height="151" fill="#73b97c" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="81.5" y="95.5" width="10" height="180" fill="#73b97c" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="160.5" y="90.5" width="10" height="185" fill="#73b97c" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
@@ -79,7 +79,7 @@
       <rect x="365.5" y="56.5" width="10" height="219" fill="#73b97c" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(59,75) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(59,75) scale(1 1)" clip-path="url(#highcharts-4b4wbf1-10)">
+    <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(59,75) scale(1 1)" clip-path="url(#b)">
       <path fill="none" d="M 7.5926544240403 110.39779741940123 L 86.682804674458 93.10787887995 L 165.77295492487 93.31234176594685 L 244.86310517529 89.16259174576874 L 323.95325542571 80.50265027738314 L 331.86227045075 78.37980546110688 L 339.77128547579 78.37472721604624 L 347.68030050083 72.11671547073811 L 355.58931552588 71.81291197232625 L 363.49833055092 72.67014882523688 L 371.40734557596 73.31900910010188" class="highcharts-graph" stroke="#000000" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.049999999999999996" transform="translate(1, 1)"/>
       <path fill="none" d="M 7.5926544240403 110.39779741940123 L 86.682804674458 93.10787887995 L 165.77295492487 93.31234176594685 L 244.86310517529 89.16259174576874 L 323.95325542571 80.50265027738314 L 331.86227045075 78.37980546110688 L 339.77128547579 78.37472721604624 L 347.68030050083 72.11671547073811 L 355.58931552588 71.81291197232625 L 363.49833055092 72.67014882523688 L 371.40734557596 73.31900910010188" class="highcharts-graph" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.09999999999999999" transform="translate(1, 1)"/>
       <path fill="none" d="M 7.5926544240403 110.39779741940123 L 86.682804674458 93.10787887995 L 165.77295492487 93.31234176594685 L 244.86310517529 89.16259174576874 L 323.95325542571 80.50265027738314 L 331.86227045075 78.37980546110688 L 339.77128547579 78.37472721604624 L 347.68030050083 72.11671547073811 L 355.58931552588 71.81291197232625 L 363.49833055092 72.67014882523688 L 371.40734557596 73.31900910010188" class="highcharts-graph" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.15" transform="translate(1, 1)"/>

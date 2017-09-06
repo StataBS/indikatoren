@@ -5,10 +5,10 @@
     Created with Highstock 5.0.14
   </desc>
   <defs>
-    <clipPath id="highcharts-9uts5p9-6">
+    <clipPath>
       <rect x="0" y="0" width="323" height="302" fill="none"/>
     </clipPath>
-    <clipPath id="highcharts-9uts5p9-7">
+    <clipPath id="a">
       <rect x="0" y="0" width="323" height="302" fill="none"/>
     </clipPath>
   </defs>
@@ -57,7 +57,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 173 364 L 475 364"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(475,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#highcharts-9uts5p9-7)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(475,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <rect x="300.5" y="26.5" width="15" height="276" fill="#B00000" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-0"/>
       <rect x="270.5" y="241.5" width="15" height="61" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-1"/>
       <rect x="241.5" y="302.5" width="15" height="0" fill="#CD9C00" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-2"/>

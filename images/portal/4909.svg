@@ -5,10 +5,10 @@
     Created with Highstock 5.0.14
   </desc>
   <defs>
-    <clipPath id="highcharts-1izvwuv-6">
+    <clipPath>
       <rect x="0" y="0" width="432" height="291" fill="none"/>
     </clipPath>
-    <clipPath id="highcharts-1izvwuv-7">
+    <clipPath id="a">
       <rect x="0" y="0" width="432" height="291" fill="none"/>
     </clipPath>
   </defs>
@@ -39,7 +39,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 43 58 L 43 349"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(43,58) scale(1 1)" clip-path="url(#highcharts-1izvwuv-7)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(43,58) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 0 145.5 L 12.961296129613 143.6085 L 25.922592259226 139.38899999999998 L 38.883888388839 134.29649999999998 L 51.845184518452 133.569 L 64.806480648065 131.24099999999999 L 77.767776777678 128.331 L 90.729072907291 122.94749999999999 L 103.6903690369 113.48999999999998 L 116.65166516652 102.57749999999999 L 129.61296129613 94.42949999999999 L 142.57425742574 87.29999999999998 L 155.53555355536 84.97200000000001 L 168.49684968497 81.62549999999999 L 181.45814581458 79.58849999999998 L 194.41944194419 78.4245 L 207.38073807381 78.57 L 220.34203420342 76.96950000000001 L 233.30333033303 74.05949999999999 L 246.26462646265 72.16799999999998 L 259.22592259226 70.713 L 272.18721872187 69.40349999999998 L 285.14851485149 67.512 L 298.1098109811 64.4565 L 311.07110711071 61.982999999999976 L 324.03240324032 60.67349999999996 L 336.99369936994 54.85349999999997 L 349.95499549955 55.726500000000016 L 362.91629162916 53.83499999999998 L 375.87758775878 53.10749999999999 L 388.83888388839 54.417 L 401.800180018 54.998999999999995 L 414.76147614762 54.998999999999995 L 427.72277227723 57.90899999999999" class="highcharts-graph" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(43,58) scale(1 1)" clip-path="none">

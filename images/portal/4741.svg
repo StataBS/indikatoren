@@ -5,10 +5,10 @@
     Created with Highstock 5.0.14
   </desc>
   <defs>
-    <clipPath id="highcharts-1cffgic-6">
+    <clipPath>
       <rect x="0" y="0" width="275" height="337" fill="none"/>
     </clipPath>
-    <clipPath id="highcharts-1cffgic-7">
+    <clipPath id="a">
       <rect x="0" y="0" width="275" height="337" fill="none"/>
     </clipPath>
   </defs>
@@ -57,7 +57,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 138 350 L 475 350"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(475,350) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#highcharts-1cffgic-7)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(475,350) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <rect x="254.5" y="43.5" width="15" height="294" fill="#B475AB" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-0"/>
       <rect x="229.5" y="85.5" width="15" height="252" fill="#B475AB" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-1"/>
       <rect x="204.5" y="86.5" width="15" height="251" fill="#B475AB" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-2"/>
@@ -71,7 +71,7 @@
       <rect x="4.5" y="171.5" width="15" height="166" fill="#B475AB" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-10"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(475,350) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-errorbar-series highcharts-color-undefined " transform="translate(475,350) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#highcharts-1cffgic-7)">
+    <g class="highcharts-series highcharts-series-1 highcharts-errorbar-series highcharts-color-undefined " transform="translate(475,350) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <g class="highcharts-point">
         <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 262.5 48 L 262.5 38 M 262.5 48 L 262.5 48"/>
         <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 258.5 38.5 L 266.5 38.5 M 258.5 48.5 L 266.5 48.5"/>

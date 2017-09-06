@@ -5,10 +5,10 @@
     Created with Highstock 5.0.14
   </desc>
   <defs>
-    <clipPath id="highcharts-dz8egud-6">
+    <clipPath>
       <rect x="0" y="0" width="252" height="312" fill="none"/>
     </clipPath>
-    <clipPath id="highcharts-dz8egud-7">
+    <clipPath id="a">
       <rect x="0" y="0" width="252" height="312" fill="none"/>
     </clipPath>
   </defs>
@@ -49,7 +49,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 163 364 L 475 364"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(475,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#highcharts-dz8egud-7)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(475,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <rect x="234.5" y="130.5" width="9" height="182" fill="#256370" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="198.5" y="183.5" width="9" height="129" fill="#256370" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="162.5" y="260.5" width="9" height="52" fill="#256370" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
@@ -59,7 +59,7 @@
       <rect x="18.5" y="21.5" width="9" height="291" fill="#256370" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(475,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(475,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#highcharts-dz8egud-7)">
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(475,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <rect x="223.5" y="146.5" width="9" height="166" fill="#A8C4CB" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="187.5" y="194.5" width="9" height="118" fill="#A8C4CB" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="151.5" y="253.5" width="9" height="59" fill="#A8C4CB" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>

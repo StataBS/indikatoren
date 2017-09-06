@@ -5,11 +5,11 @@
     Created with Highstock 5.0.14
   </desc>
   <defs>
-    <linearGradient x1="0" y1="0" x2="1" y2="0" id="highcharts-67doao7-29">
+    <linearGradient x1="0" y1="0" x2="1" y2="0" id="a">
       <stop offset="0" stop-color="#eff6e9" stop-opacity="1"/>
       <stop offset="1" stop-color="#4b7b1f" stop-opacity="1"/>
     </linearGradient>
-    <clipPath id="highcharts-67doao7-30">
+    <clipPath>
       <rect x="0" y="0" width="465" height="315" fill="none"/>
     </clipPath>
   </defs>
@@ -261,7 +261,7 @@
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined" transform="translate(226,3)">
-          <rect x="0" y="4" width="200" height="12" fill="url(#highcharts-67doao7-29)"/>
+          <rect x="0" y="4" width="200" height="12" fill="url(#a)"/>
           <g class="highcharts-grid highcharts-coloraxis-grid ">
             <path fill="none" stroke="#fbfbfb" stroke-width="1" class="highcharts-grid-line" d="M -0.5 4 L -0.5 16" opacity="1"/>
             <path fill="none" stroke="#fbfbfb" stroke-width="1" class="highcharts-grid-line" d="M 66.5 4 L 66.5 16" opacity="1"/>
