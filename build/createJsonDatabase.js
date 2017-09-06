@@ -5,6 +5,7 @@ var indikatorenInSet = [];
 var kuerzelById = {};
 var idByKuerzel = {};
 var templatesById = {};
+
 console.log('Searching for json files to add to json databases...');
 var files = glob.sync("metadata/single/*.json");
 files.forEach(function(filepath){
@@ -16,12 +17,12 @@ files.forEach(function(filepath){
     if (indikator.visible == undefined || indikator.visible == true) {
         console.log(filepath + ' is visible, proceeding with adding...');
         if (indikator.visibleInPortal == undefined || indikator.visibleInPortal == true) {
-            console.log(filepath + ' is visibleInPortal, proceeding with adding to portal/indikatoren.js and all/indikatoren.js...');
+            console.log(filepath + ' is visibleInPortal, proceeding with adding to portal/indikatoren.json, all/indikatoren.json...');
             indikatoren.push(indikator);
             indikatorenInSet.push(indikator);
         }
         else {
-            console.log(filepath + ' is NOT visibleInPortal, ignoring for portal/indikatoren.js but adding to all/indikatoren.js');
+            console.log(filepath + ' is NOT visibleInPortal, ignoring for portal/indikatoren.json but adding to all/indikatoren.json');
             indikatorenInSet.push(indikator);
         } 
         kuerzelById[indikator.id] = indikator.kuerzel;
@@ -32,7 +33,7 @@ files.forEach(function(filepath){
         console.log(filepath + ' NOT visible, ignoring');
     }
 });
-console.log('Saving json database...');
+console.log('Saving json databases...');
 saveToJsonFile('indikatoren', 'portal/', indikatoren, console);
 saveToJsonFile('indikatoren', 'all/', indikatorenInSet, console);
 saveToJsonFile('kuerzelById', 'all/', kuerzelById, console);
@@ -46,10 +47,6 @@ saveToJsFile('templatesById', 'all/',templatesById, console);
 
 //console.log('...done!');
 
-function createFiles(name, dir, obj, console){
-    saveToJsFile(name, dir, obj, console);
-    saveToJsonFile(name, dir, obj, console);
-}
 
 function saveToJsFile(name, dir, obj, console){
     var jsFile = "var " +  name + " = " + JSON.stringify(obj, null, '\t') + ";";
