@@ -5,10 +5,10 @@
     Created with Highstock 5.0.14
   </desc>
   <defs>
-    <clipPath id="highcharts-o00gpek-6">
+    <clipPath>
       <rect x="0" y="0" width="275" height="302" fill="none"/>
     </clipPath>
-    <clipPath id="highcharts-o00gpek-7">
+    <clipPath id="a">
       <rect x="0" y="0" width="275" height="302" fill="none"/>
     </clipPath>
   </defs>
@@ -56,7 +56,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 173 350 L 475 350"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(475,350) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#highcharts-o00gpek-7)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(475,350) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <rect x="262.5" y="126.5" width="6" height="176" fill="#933F8D" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="237.5" y="302.5" width="6" height="0" fill="#933F8D" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="212.5" y="48.5" width="6" height="254" fill="#933F8D" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
@@ -70,7 +70,7 @@
       <rect x="12.5" y="248.5" width="6" height="54" fill="#933F8D" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(475,350) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(475,350) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#highcharts-o00gpek-7)">
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(475,350) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <rect x="255.5" y="113.5" width="6" height="189" fill="#C8C8C8" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="230.5" y="302.5" width="6" height="0" fill="#C8C8C8" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="205.5" y="68.5" width="6" height="234" fill="#C8C8C8" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>

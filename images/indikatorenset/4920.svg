@@ -5,10 +5,10 @@
     Created with Highstock 5.0.14
   </desc>
   <defs>
-    <clipPath id="highcharts-cudm496-6">
+    <clipPath>
       <rect x="0" y="0" width="401" height="291" fill="none"/>
     </clipPath>
-    <clipPath id="highcharts-cudm496-7">
+    <clipPath id="a">
       <rect x="0" y="0" width="401" height="291" fill="none"/>
     </clipPath>
   </defs>
@@ -43,7 +43,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 74 58 L 74 349"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(74,58) scale(1 1)" clip-path="url(#highcharts-cudm496-7)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(74,58) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 3.9313725490228 110.45748899999998 L 34.172699849173 116.743089 L 64.414027149324 37.081838999999974 L 94.655354449474 115.96946549999998 L 124.89668174962 96.89848949999998 L 155.13800904977 87.3318645 L 185.37933634992 102.52424699999997 L 215.62066365008 51.29515199999997 L 245.86199095023 104.83304099999998 L 276.10331825038 102.38340299999999 L 306.34464555053 99.89331599999997 L 336.58597285068 96.56398499999997 L 366.82730015083 107.05337099999997 L 397.06862745098 95.28838649999997" class="highcharts-graph" stroke="#B375AB" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(74,58) scale(1 1)" clip-path="none">

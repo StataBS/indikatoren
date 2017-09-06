@@ -5,10 +5,10 @@
     Created with Highstock 5.0.14
   </desc>
   <defs>
-    <clipPath id="highcharts-rsqegea-6">
+    <clipPath>
       <rect x="0" y="0" width="438" height="308" fill="none"/>
     </clipPath>
-    <clipPath id="highcharts-rsqegea-7">
+    <clipPath id="a">
       <rect x="0" y="0" width="438" height="308" fill="none"/>
     </clipPath>
   </defs>
@@ -41,7 +41,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 37 41 L 37 349"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,41) scale(1 1)" clip-path="url(#highcharts-rsqegea-7)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,41) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 4.2941176470577 86.24000000000001 L 123.57516339869 66.01905510496294 L 207.07189542484 60.36799999999997 L 219 58.51999999999998 L 230.92810457516 56.05600000000001 L 242.85620915033 54.77347028320551 L 362.13725490196 48.468715484216716 L 374.06535947713 49.09826658200467 L 385.99346405229 49.34667683821567 L 397.92156862745 49.25299033460345 L 409.84967320262 51.127999999999986 L 421.77777777778 52.6382363452484 L 433.70588235294 53.72062172284808" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,41) scale(1 1)" clip-path="none">

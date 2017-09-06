@@ -5,10 +5,10 @@
     Created with Highstock 5.0.14
   </desc>
   <defs>
-    <clipPath id="highcharts-y8p6pk2-6">
+    <clipPath>
       <rect x="0" y="0" width="294" height="363" fill="none"/>
     </clipPath>
-    <clipPath id="highcharts-y8p6pk2-7">
+    <clipPath id="a">
       <rect x="0" y="0" width="294" height="363" fill="none"/>
     </clipPath>
   </defs>
@@ -77,7 +77,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 112 349 L 475 349"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-scatter-series highcharts-color-undefined " transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#highcharts-y8p6pk2-7)"/>
+    <g class="highcharts-series highcharts-series-0 highcharts-scatter-series highcharts-color-undefined " transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)"/>
     <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined " transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="none">
       <path fill="#923F8D" d="M 291 313 A 4 4 0 1 1 290.9999980000002 312.99600000066664 Z" class="highcharts-point"/>
       <path fill="#923F8D" d="M 277 282 A 4 4 0 1 1 276.9999980000002 281.99600000066664 Z" class="highcharts-point"/>
@@ -101,7 +101,7 @@
       <path fill="#923F8D" d="M 25 103 A 4 4 0 1 1 24.99999800000017 102.99600000066667 Z" class="highcharts-point"/>
       <path fill="#923F8D" d="M 11 64 A 4 4 0 1 1 10.999998000000167 63.99600000066666 Z" class="highcharts-point"/>
     </g>
-    <g class="highcharts-series highcharts-series-1 highcharts-scatter-series highcharts-color-0 " visibility="hidden" transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#highcharts-y8p6pk2-7)"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-scatter-series highcharts-color-0 " visibility="hidden" transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)"/>
     <g class="highcharts-markers highcharts-series-1 highcharts-scatter-series highcharts-color-0 " visibility="hidden" transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;font-family:arial;fill:#000000;" y="21">

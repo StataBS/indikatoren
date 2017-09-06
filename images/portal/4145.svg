@@ -5,10 +5,10 @@
     Created with Highstock 5.0.14
   </desc>
   <defs>
-    <clipPath id="highcharts-x6u2n0y-6">
+    <clipPath>
       <rect x="0" y="0" width="428" height="308" fill="none"/>
     </clipPath>
-    <clipPath id="highcharts-x6u2n0y-7">
+    <clipPath id="a">
       <rect x="0" y="0" width="428" height="308" fill="none"/>
     </clipPath>
   </defs>
@@ -43,7 +43,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 47 41 L 47 349"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(47,41) scale(1 1)" clip-path="url(#highcharts-x6u2n0y-7)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(47,41) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 3.6774619960342 96.25 L 145.11830799736 65.45000000000002 L 286.55915399868 26.94999999999999 L 300.70323859881 21.17500000000001 L 314.84732319894 19.442499999999995 L 328.99140779907 18.834031656825005 L 343.13549239921 16.626758918000007 L 357.27957699934 17.339779031575006 L 371.42366159947 17.36552072832501" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(47,41) scale(1 1)" clip-path="none">

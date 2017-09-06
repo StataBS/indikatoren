@@ -5,10 +5,10 @@
     Created with Highstock 5.0.14
   </desc>
   <defs>
-    <clipPath id="highcharts-vc0h9lm-6">
+    <clipPath>
       <rect x="0" y="0" width="262" height="280" fill="none"/>
     </clipPath>
-    <clipPath id="highcharts-vc0h9lm-7">
+    <clipPath id="a">
       <rect x="0" y="0" width="262" height="280" fill="none"/>
     </clipPath>
   </defs>
@@ -50,7 +50,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 53 70 L 53 350"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(53,70) scale(1 1)" clip-path="url(#highcharts-vc0h9lm-7)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(53,70) scale(1 1)" clip-path="url(#a)">
       <rect x="13.5" y="186.5" width="26" height="94" fill="#256370" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="65.5" y="184.5" width="26" height="96" fill="#256370" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="117.5" y="197.5" width="26" height="83" fill="#256370" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
@@ -58,7 +58,7 @@
       <rect x="222.5" y="211.5" width="26" height="69" fill="#256370" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(53,70) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(53,70) scale(1 1)" clip-path="url(#highcharts-vc0h9lm-7)">
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(53,70) scale(1 1)" clip-path="url(#a)">
       <rect x="13.5" y="84.5" width="26" height="102" fill="#71A3B5" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="65.5" y="85.5" width="26" height="99" fill="#71A3B5" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="117.5" y="92.5" width="26" height="105" fill="#71A3B5" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
@@ -66,7 +66,7 @@
       <rect x="222.5" y="105.5" width="26" height="106" fill="#71A3B5" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(53,70) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(53,70) scale(1 1)" clip-path="url(#highcharts-vc0h9lm-7)">
+    <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(53,70) scale(1 1)" clip-path="url(#a)">
       <rect x="13.5" y="63.5" width="26" height="21" fill="#C8C8C8" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="65.5" y="64.5" width="26" height="21" fill="#C8C8C8" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="117.5" y="70.5" width="26" height="22" fill="#C8C8C8" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
@@ -74,7 +74,7 @@
       <rect x="222.5" y="83.5" width="26" height="22" fill="#C8C8C8" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(53,70) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(53,70) scale(1 1)" clip-path="url(#highcharts-vc0h9lm-7)">
+    <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(53,70) scale(1 1)" clip-path="url(#a)">
       <rect x="13.5" y="16.5" width="26" height="47" fill="#FFBB58" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="65.5" y="17.5" width="26" height="47" fill="#FFBB58" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="117.5" y="17.5" width="26" height="53" fill="#FFBB58" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
@@ -82,7 +82,7 @@
       <rect x="222.5" y="21.5" width="26" height="62" fill="#FFBB58" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(53,70) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(53,70) scale(1 1)" clip-path="url(#highcharts-vc0h9lm-7)">
+    <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(53,70) scale(1 1)" clip-path="url(#a)">
       <rect x="13.5" y="-0.5" width="26" height="17" fill="#FF8028" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="65.5" y="-0.5" width="26" height="18" fill="#FF8028" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="117.5" y="-0.5" width="26" height="18" fill="#FF8028" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
