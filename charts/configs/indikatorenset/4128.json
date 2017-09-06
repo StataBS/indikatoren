@@ -398,12 +398,12 @@
         "enabled": true,
         "allowOverlap": true,
         "formatter": function () {
-            var last  = this.series.data[this.series.data.length - 1];
-            if (this.point.category === last.category  && this.point.y === last.y) {
-              return this.series.name;
+              var last  = this.series.data[this.series.data.length - 1];
+              if (this.point.category === last.category  && this.point.y === last.y) {
+                return this.series.name;
+              }
+              return "";
             }
-            return "";
-          }
       }
     }
   },
