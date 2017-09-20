@@ -9344,5 +9344,86 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		]
+	},
+	{
+		"title": "Anteil Haushalte mit FAMI",
+		"subtitle": "nach Wohnviertel, Stand: 2016",
+		"kuerzel": "I.13.2.06203",
+		"kuerzelKunde": "",
+		"description": "Anteil Haushalte mit FAMI",
+		"id": 6203,
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Haushalt",
+			"Familie"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Ende 2016 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten bei 2,2%. 2011 lag die FAMI-Quote noch bei 1,2%. Kleinhüningen weist mit 5,2% die höchste Beitragsquote auf. Die Vorstädte verzeichnen gegenüber 2012 als einziges Wohnviertel einen Rückgang.",
+		"erlaeuterungen": "FAMI = Familienmietzinsbeiträge. Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Familienmietzinsbeiträgen an der Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
+		"template": "mappie001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anteil Haushalte mit Prämienverbilligung",
+		"subtitle": "nach Wohnviertel, Stand: 2016",
+		"kuerzel": "I.13.2.06204",
+		"kuerzelKunde": "",
+		"description": "Anteil Haushalte mit Prämienverbilligung",
+		"id": 6204,
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Haushalt",
+			"Familie",
+			"Gesundheit"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Insgesamt liegt der Anteil der Haushalte mit reiner PV an allen Haushalten bei 14,8%. Das Klybeck weist mit 23,9% die höchste, das Bruderholz mit 8,8% die tiefste PV-Quote auf. Im Vergleich zu 2012 ist die PV-Quote in den meisten Wohnvierteln gestiegen. In der Breite ist sie hingegen um 1,3 Prozentpunkte gesunken.",
+		"erlaeuterungen": "Die Prämienverbilligungsquote errechnet sich als Quotient der Anzahl Haushalte mit Prämienverbilligungen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reinen Prämienverbilligungen erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
+		"template": "mappie001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
+		],
+		"externalLinks": [
+			""
+		]
 	}
 ];
