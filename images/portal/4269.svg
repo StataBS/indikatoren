@@ -45,21 +45,21 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(47,109) scale(1 1)" clip-path="url(#a)">
-      <rect x="31" y="133" width="23" height="103" fill="#FF8028" class="highcharts-point"/>
-      <rect x="174" y="121" width="23" height="115" fill="#FF8028" class="highcharts-point"/>
-      <rect x="317" y="127" width="23" height="109" fill="#FF8028" class="highcharts-point"/>
+      <rect x="31" y="131" width="23" height="105" fill="#FF8028" class="highcharts-point"/>
+      <rect x="174" y="119" width="23" height="117" fill="#FF8028" class="highcharts-point"/>
+      <rect x="317" y="122" width="23" height="114" fill="#FF8028" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(47,109) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(47,109) scale(1 1)" clip-path="url(#a)">
-      <rect x="60" y="107" width="23" height="129" fill="#DC440E" class="highcharts-point"/>
-      <rect x="203" y="86" width="23" height="150" fill="#DC440E" class="highcharts-point"/>
-      <rect x="345" y="113" width="23" height="123" fill="#DC440E" class="highcharts-point"/>
+      <rect x="60" y="103" width="23" height="133" fill="#DC440E" class="highcharts-point"/>
+      <rect x="203" y="84" width="23" height="152" fill="#DC440E" class="highcharts-point"/>
+      <rect x="345" y="109" width="23" height="127" fill="#DC440E" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(47,109) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(47,109) scale(1 1)" clip-path="url(#a)">
-      <rect x="88" y="36" width="23" height="200" fill="#B00000" class="highcharts-point"/>
-      <rect x="231" y="37" width="23" height="199" fill="#B00000" class="highcharts-point"/>
-      <rect x="374" y="50" width="23" height="186" fill="#B00000" class="highcharts-point"/>
+      <rect x="88" y="32" width="23" height="204" fill="#B00000" class="highcharts-point"/>
+      <rect x="231" y="35" width="23" height="201" fill="#B00000" class="highcharts-point"/>
+      <rect x="374" y="43" width="23" height="193" fill="#B00000" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(47,109) scale(1 1)" clip-path="none"/>
   </g>

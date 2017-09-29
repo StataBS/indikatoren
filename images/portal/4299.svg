@@ -56,13 +56,13 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(58,90) scale(1 1)" clip-path="url(#a)">
-      <rect x="33" y="29" width="61" height="226" fill="#FF8028" class="highcharts-point"/>
+      <rect x="33" y="27" width="61" height="228" fill="#FF8028" class="highcharts-point"/>
       <rect x="158" y="44" width="61" height="211" fill="#FF8028" class="highcharts-point"/>
-      <rect x="284" y="65" width="61" height="190" fill="#FF8028" class="highcharts-point"/>
+      <rect x="284" y="63" width="61" height="192" fill="#FF8028" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(58,90) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(58,90) scale(1 1)" clip-path="url(#b)">
-      <path fill="none" d="M 62.833333333333 55.0333333333333 L 188.5 71.96666666666667 L 314.16666666667 93.13333333333333" class="highcharts-graph" stroke="#DC440E" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path fill="none" d="M 62.833333333333 55.0333333333333 L 188.5 71.96666666666667 L 314.16666666667 88.9" class="highcharts-graph" stroke="#DC440E" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
     <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(58,90) scale(1 1)" clip-path="none"/>
   </g>
