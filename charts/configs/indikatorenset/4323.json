@@ -1335,6 +1335,8 @@
         2013,
         2014
       ],
+      "floor": 0,
+      "ceiling": 34,
       "tickLength": 0,
       "title": {
         "enabled": false,
