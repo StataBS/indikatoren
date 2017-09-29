@@ -1306,6 +1306,8 @@
       "categories": [
         2016
       ],
+      "floor": 0,
+      "ceiling": 0,
       "tickLength": 0,
       "title": {
         "enabled": false,

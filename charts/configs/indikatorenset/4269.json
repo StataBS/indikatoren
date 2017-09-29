@@ -1313,6 +1313,8 @@
         2005,
         2010
       ],
+      "floor": 0,
+      "ceiling": 2,
       "tickLength": 0,
       "title": {
         "enabled": false,
@@ -1392,9 +1394,9 @@
       "id": "BS1002_1",
       "valueSuffix": "Prozent (Anteil an Bevölkerung)",
       "data": [
-        13.2,
-        14.7,
-        13.9
+        13.4,
+        14.9,
+        14.5
       ]
     },
     {
@@ -1410,9 +1412,9 @@
       "id": "BS1002_2",
       "valueSuffix": "Prozent (Anteil an Bevölkerung)",
       "data": [
-        16.5,
-        19.1,
-        15.7
+        17,
+        19.4,
+        16.2
       ]
     },
     {
@@ -1425,9 +1427,9 @@
       "id": "BS1002_3",
       "valueSuffix": "Prozent (Anteil an Bevölkerung)",
       "data": [
-        25.5,
-        25.4,
-        23.8
+        26,
+        25.6,
+        24.6
       ]
     }
   ]
