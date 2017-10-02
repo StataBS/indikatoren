@@ -121,9 +121,7 @@
 			//calculate pie size using categories defined in the conf object
 			pieSizeCategorical: function(value, conf){
 				for (var i=0; i < conf.length; i++ ){
-					//console.log('checking value ' + value);
 					if (value >= conf[i].from && value < conf[i].to) {
-						//console.log('found conf object:  + ' + JSON.stringify(conf[i]));
 						return conf[i];
 					}
 				}
@@ -182,13 +180,6 @@
 					Highcharts.seriesType('mappie', 'pie', {
 					    center: null, // Can't be array by default anymore
 					    clip: true, // For map navigation
-					    states: {
-					        hover: {
-					            halo: {
-					                size: 5
-					            }
-					        }
-					    },
 					    dataLabels: {
 					        enabled: false
 					    }
@@ -251,10 +242,10 @@
 				    		    
 				    		    
 	            //draw pies onto he map			    		    
-                drawPies: function(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color){
+                drawPies: function(chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig){
                     
                     //iterate over each wohnviertel and draw the pies / bubbles
-	                Highcharts.each(pieSizeSeries.points, function (data) {
+	                Highcharts.each(pieSizeSeries.points, function (data, i) {
 	                    
 	                    if (!data.value) {
 	                        return; // Skip points with no data, if any
@@ -296,23 +287,48 @@
 									//pie Size proportional to absolute value, no categories used
 		                            return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
 		                        },
-		                        data: [
-		                        	//Bubbles: Only one element in the array
-		                        	{
-		                        		name: pieSizeSeries.name,
-		                        		//put absolute value in y, real value in v
-		                        		y: Math.abs(data.value),
-		                        		v: data.value,
-		                        		color: color(data.value),
-		                        		borderColor: color(data.value)
-		                        	}
-		                        ],
 		                        dataLabels: {
 							        enabled: false
-							    }    	                        
+							    }, 
+							    data: [
+							    	/*
+		                        	//Pies: Two series
+		                        	{
+		                        		name: pieSeries[0].name,
+		                        		//put absolute value in y, real value in v
+		                        		y: Math.abs(pieSeries[0].points[i].y),
+		                        		v: pieSeries[0].points[i].y,
+		                        		color: pieSeries[0].userOptions.color,
+		                        		borderColor: pieSeries[0].userOptions.borderColor
+		                        	},
+		                        	{
+		                        		name: pieSeries[1].name,
+		                        		//put absolute value in y, real value in v
+		                        		y: Math.abs(pieSeries[1].points[i].y),
+		                        		v: pieSeries[1].points[i].y,
+		                        		color: pieSeries[1].userOptions.color,
+		                        		borderColor: pieSeries[1].userOptions.borderColor
+		                        	}
+		                        	*/
+						    	]
 	                        };
+	                        
+	                        //add data object to mapPieConfig: for bubbles only one, for pies several
+	                        pieSeries.forEach(function(item, index, arr){
+	                        	mapPieConfig.data.push(
+	                        		{
+		                        		name: item.name,
+		                        		//put absolute value in y, real value in v
+		                        		y: Math.abs(item.points[i].y),
+		                        		v: item.points[i].y,
+		                        		color: item.userOptions.color,
+		                        		borderColor: item.userOptions.borderColor
+		                        	}
+                        		);
+	                        });
+
 	                        //create the config handed in from the chart
-	                        var pieTemplate = config(data, correspondingMapSeriesItem, color);
+	                        var pieTemplate = config(data, correspondingMapSeriesItem);
 	                        //merge the two configs (2nd into first, see e.g. https://gist.github.com/TorsteinHonsi/f646f39d51d18b7d6bfb)
 	                        return Highcharts.merge(true, mapPieConfig, pieTemplate);
 	                    };
@@ -373,16 +389,6 @@
     					zIndex: 6,
     					class: 'pieLegend'
     				}).add();
-                },
-                
-                 addLegendLabelbold: function(chart, text, x, y, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).
-    				attr({
-    					zIndex: 6,
-    					class: 'pieLegend'	})
-    				.css({
-                        fontWeight: 'bold' }).
-                     add();
                 },
                 
                 addLegendSquare: function(chart, x, y, width, fill){
