@@ -240,31 +240,31 @@
       </text>
     </g>
   </g>
-  <g class="highcharts-label" transform="translate(285,240)">
+  <g class="highcharts-label" transform="translate(265,240)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
       <tspan>Differenz 2016 zu 2012</tspan>
     </text>
   </g>
-  <circle cx="410" cy="275" r="1.7422819078860534" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(430,265)">
+  <circle cx="365" cy="275" r="1.7422819078860534" fill="grey" stroke="grey" stroke-width="1" class="pieLegendHideOnZoom pieLegend"/>
+  <g class="pieLegendHideOnZoom pieLegend" transform="translate(380,265)">
     <text x="3" y="15">
-      0,1
+      <tspan>0,1 Prozentpunkte</tspan>
     </text>
   </g>
-  <circle cx="410" cy="300" r="9.542871024823295" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(430,290)">
+  <circle cx="365" cy="300" r="9.542871024823295" fill="grey" stroke="grey" stroke-width="1" class="pieLegendHideOnZoom pieLegend"/>
+  <g class="pieLegendHideOnZoom pieLegend" transform="translate(380,290)">
     <text x="3" y="15">
-      3
+      <tspan>3.0 Prozentpunkte</tspan>
     </text>
   </g>
-  <rect x="290" y="270" width="10" height="10" fill="grey" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(310,265)">
+  <rect x="270" y="270" width="10" height="10" fill="grey" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(290,265)">
     <text x="3" y="15">
       Zunahme
     </text>
   </g>
-  <rect x="290" y="295" width="10" height="10" fill="salmon" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(310,290)">
+  <rect x="270" y="295" width="10" height="10" fill="salmon" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(290,290)">
     <text x="3" y="15">
       Abnahme
     </text>
@@ -286,17 +286,17 @@
             <path fill="none" class="highcharts-axis-line" d="M 0 16 L 200 16"/>
           </g>
           <g class="highcharts-axis-labels highcharts-coloraxis-labels ">
-            <text x="3.0546875" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
-              0
+            <text x="7.9375" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
+              0%
             </text>
             <text x="66.66666666666667" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
-              10
+              10%
             </text>
             <text x="133.33333333333334" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
-              20
+              20%
             </text>
-            <text x="193.890625" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
-              30
+            <text x="189.0078125" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
+              30%
             </text>
           </g>
         </g>
