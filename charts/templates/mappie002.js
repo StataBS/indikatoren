@@ -4,6 +4,9 @@
     global scalebarDataEPSG2056
     global Highcharts
 */
+
+//use this template for pies on map
+
 (function(){
     return {
         "chart": {		

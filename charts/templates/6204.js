@@ -17,7 +17,7 @@
 			"maxColor": "#5b2659",
 			"labels": {
 				"formatter": function () {
-					return Highcharts.numberFormat((this.value), 0); 
+					return Highcharts.numberFormat((this.value), 0) + '%'; 
 				}
 			}
 		},
@@ -61,6 +61,68 @@
 		chart: {
 			events: {
 	            load: function (e) {
+	            	
+	            	this.credits.element.onclick = function() {};
+
+	                var chart = this;
+	                var fn = this.options.customFunctions;
+	                //define new Highcharts template "mappie"
+					fn.defineTemplate();
+					
+					var choroplethSeries = chart.series[0];
+					var pieSizeSeries = chart.series[1];
+					
+					//pie diameters in px
+					var maxPieDiameter = 20;
+
+					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
+					
+					//define different colors for positive and negative values
+	                var color = function(value){
+	                	return (value >= 0) ? 'grey' : 'salmon';
+	                };					
+					
+					//define chart-specific details
+					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
+						return {
+	                        sizeFormatter: function () {
+	                            var fn = this.chart.options.customFunctions;
+	                            var yAxis = chart.yAxis[0], zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+								return zoom * fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
+								//return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
+	                        },
+	                        tooltip: {
+	                            pointFormatter: function () {
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + ((Math.sign(this.v) == 1) ? '+' : '') + Highcharts.numberFormat((this.v), 2) + ' Prozentpunkte</b><br/>';
+	                            }
+	                        }
+	                    };
+					};
+					 var pieSizeCatConfig;
+					//put the pies / bubbles on the map
+					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color, true);
+	                
+					//pie values in legend
+	                var minValueInLegend = 0.1; 
+	                var maxValueInLegend = 3; 
+	                
+                	//Add manually drawn legend	
+	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 240);
+	                
+	                fn.addLegendCircle(chart, 365, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),1,","," ") + ' Prozentpunkte', 380, 265, 'pieLegendHideOnZoom');
+	                fn.addLegendCircle(chart, 365, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),1,"."," ") + ' Prozentpunkte', 380, 290, 'pieLegendHideOnZoom');
+
+					fn.addLegendSquare(chart, 270, 270, 10, 'grey');
+					fn.addLegendLabel(chart, 'Zunahme', 290, 265);
+					fn.addLegendSquare(chart, 270, 295, 10, 'salmon');
+					fn.addLegendLabel(chart, 'Abnahme', 290, 290);
+					
+					//make sure pies are hidden upon click onto pie legend
+					fn.AddPieLegendClickHandler(chart);
+	            },				
+	            oldload: function (e) {
 	            	
 	            	this.credits.element.onclick = function() {};
 
