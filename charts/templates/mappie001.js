@@ -4,6 +4,9 @@
     global scalebarDataEPSG2056
     global Highcharts
 */
+
+// use this tenplate for bubbles on maps
+
 (function(){
     return {
         "chart": {		
@@ -79,7 +82,22 @@
                 }
             }
     	}, 
-    	
+    	xAxis: {
+    		events: {
+				//hide svg elements on zoom
+				afterSetExtremes: function(e){
+					var divId = e['target']['chart']['renderTo']['id'] || 'dummySettingForExportServer';
+					var divIdString = '#' + divId;
+					divIdString = '';
+					//only care about zoom events, not pan
+					if (e.trigger != 'pan'){
+						//determine current zoom level
+						var zoom = (e.dataMax - e.dataMin) / (e.max - e.min);
+						$(divIdString + ' .pieLegendHideOnZoom').attr('visibility', zoom == 1 ? 'inherit' : 'hidden');
+					}
+				}
+			}
+    	},
 		/* series with fixed data that should be added to the series object after merging with csv data */
 		"afterSeries": [
 			{
@@ -117,13 +135,11 @@
     		}
 		], 
 		customFunctions: {
-		    
+		
 			//calculate pie size using categories defined in the conf object
 			pieSizeCategorical: function(value, conf){
 				for (var i=0; i < conf.length; i++ ){
-					//console.log('checking value ' + value);
 					if (value >= conf[i].from && value < conf[i].to) {
-						//console.log('found conf object:  + ' + JSON.stringify(conf[i]));
 						return conf[i];
 					}
 				}
@@ -143,7 +159,7 @@
             	
             	/*
                 var yAxis = chart.yAxis[0],
-                    zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+                    zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
                 */
                 
 				//Negative values: return absolute value
@@ -155,7 +171,7 @@
 				
 				//transform value to a number between 0 and 1, where value 0 is represented by 0 and maxAbsValue by 1
 				var relativeValue = Math.abs(value) / maxAbsValue ;
-				//console.log('absVal rel: '+ Math.abs(value) + ' ' + relativeValue);
+				
 				//infer the pie size 
 				var maxPieArea = circleAreaByDiameter(maxPieDiameter);
 				var area = relativeValue * maxPieArea;
@@ -164,7 +180,6 @@
 				//var area = relativeValue * (maxPieArea - minPieArea) + minPieArea;
 				
 				var diameter = circleDiameterByAre(area);
-				//console.log('value absValue area diameter: ' + value + ' ' + Math.abs(value) + ' ' + area + ' ' + diameter);
 				return diameter;
             }, 
 	                			
@@ -197,6 +212,7 @@
 					    getCenter: function () {
 					        var options = this.options,
 					            chart = this.chart,
+					            fn = this.chart.options.customFunctions,
 					            slicingRoom = 2 * (options.slicedOffset || 0);
 					        if (!options.center) {
 					            options.center = [null, null]; // Do the default here instead
@@ -357,40 +373,40 @@
     			        }).add();	                
                 },
     	                
-                addLegendCircle: function(chart, x, y, radius, fill){
+                addLegendCircle: function(chart, x, y, radius, fill, cssClass){
                 	return chart.renderer.circle(x, y, radius, fill).attr({
     				    fill: fill,
     				    stroke: fill,
     				    'stroke-width': 1, 
     				    zIndex: 6,
-    				    class: 'pieLegend'
+    				    class: cssClass + ' pieLegend'
     				}).add();
                 },
     	                
     	                
-                addLegendLabel: function(chart, text, x, y, useHtml){
+                addLegendLabel: function(chart, text, x, y, cssClass, useHtml){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
     					zIndex: 6,
-    					class: 'pieLegend'
+    					class: cssClass + ' pieLegend'
     				}).add();
                 },
                 
-                 addLegendLabelbold: function(chart, text, x, y, useHtml){
+                 addLegendLabelbold: function(chart, text, x, y, cssClass, useHtml){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).
     				attr({
     					zIndex: 6,
-    					class: 'pieLegend'	})
+    					class: cssClass +' pieLegend'	})
     				.css({
                         fontWeight: 'bold' }).
                      add();
                 },
                 
-                addLegendSquare: function(chart, x, y, width, fill){
+                addLegendSquare: function(chart, x, y, width, fill, cssClass){
                 	return chart.renderer.rect(x, y, width, width, 0).attr({
     		            'stroke-width':0,
     		            fill: fill,
     		            zIndex: 6,
-    		            class: 'pieLegend'
+    		            class: cssClass + ' pieLegend'
     	        	}).add();
                 },
                 

@@ -3631,6 +3631,68 @@
 	            	
 	            	this.credits.element.onclick = function() {};
 
+	                var chart = this;
+	                var fn = this.options.customFunctions;
+	                //define new Highcharts template "mappie"
+					fn.defineTemplate();
+					
+					var choroplethSeries = chart.series[0];
+					var pieSizeSeries = chart.series[1];
+					
+					//pie diameters in px
+					var maxPieDiameter = 20;
+
+					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
+					
+					//define different colors for positive and negative values
+	                var color = function(value){
+	                	return (value >= 0) ? 'grey' : 'salmon';
+	                };					
+					
+					//define chart-specific details
+					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
+						return {
+	                        sizeFormatter: function () {
+	                            var fn = this.chart.options.customFunctions;
+	                            var yAxis = chart.yAxis[0], zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+								return zoom * fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
+								//return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
+	                        },
+	                        tooltip: {
+	                            pointFormatter: function () {
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + ((Math.sign(this.v) == 1) ? '+' : '') + Highcharts.numberFormat((this.v), 2) + ' Prozentpunkte</b><br/>';
+	                            }
+	                        }
+	                    };
+					};
+					 var pieSizeCatConfig;
+					//put the pies / bubbles on the map
+					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color, true);
+	                
+					//pie values in legend
+	                var minValueInLegend = 0.1; 
+	                var maxValueInLegend = 3; 
+	                
+                	//Add manually drawn legend	
+	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 240);
+	                
+	                fn.addLegendCircle(chart, 365, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),1,","," ") + ' Prozentpunkte', 380, 265, 'pieLegendHideOnZoom');
+	                fn.addLegendCircle(chart, 365, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),1,"."," ") + ' Prozentpunkte', 380, 290, 'pieLegendHideOnZoom');
+
+					fn.addLegendSquare(chart, 270, 270, 10, 'grey');
+					fn.addLegendLabel(chart, 'Zunahme', 290, 265);
+					fn.addLegendSquare(chart, 270, 295, 10, 'salmon');
+					fn.addLegendLabel(chart, 'Abnahme', 290, 290);
+					
+					//make sure pies are hidden upon click onto pie legend
+					fn.AddPieLegendClickHandler(chart);
+	            },
+      "oldload": function (e) {
+	            	
+	            	this.credits.element.onclick = function() {};
+
 
 	                var chart = this;
 
@@ -4031,7 +4093,7 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-					return Highcharts.numberFormat((this.value), 0); 
+					return Highcharts.numberFormat((this.value), 0) + '%'; 
 				}
     },
     "marker": {
@@ -4059,12 +4121,25 @@
       "text": ""
     }
   },
+  "xAxis": {
+    "events": {
+      "afterSetExtremes": function (e){
+					var divId = e['target']['chart']['renderTo']['id'] || 'dummySettingForExportServer';
+					var divIdString = '#' + divId;
+					divIdString = '';
+					//only care about zoom events, not pan
+					if (e.trigger != 'pan'){
+						//determine current zoom level
+						var zoom = (e.dataMax - e.dataMin) / (e.max - e.min);
+						$(divIdString + ' .pieLegendHideOnZoom').attr('visibility', zoom == 1 ? 'inherit' : 'hidden');
+					}
+				}
+    }
+  },
   "customFunctions": {
     "pieSizeCategorical": function (value, conf){
 				for (var i=0; i < conf.length; i++ ){
-					//console.log('checking value ' + value);
 					if (value >= conf[i].from && value < conf[i].to) {
-						//console.log('found conf object:  + ' + JSON.stringify(conf[i]));
 						return conf[i];
 					}
 				}
@@ -4081,7 +4156,7 @@
             	
             	/*
                 var yAxis = chart.yAxis[0],
-                    zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+                    zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
                 */
                 
 				//Negative values: return absolute value
@@ -4093,7 +4168,7 @@
 				
 				//transform value to a number between 0 and 1, where value 0 is represented by 0 and maxAbsValue by 1
 				var relativeValue = Math.abs(value) / maxAbsValue ;
-				//console.log('absVal rel: '+ Math.abs(value) + ' ' + relativeValue);
+				
 				//infer the pie size 
 				var maxPieArea = circleAreaByDiameter(maxPieDiameter);
 				var area = relativeValue * maxPieArea;
@@ -4102,7 +4177,6 @@
 				//var area = relativeValue * (maxPieArea - minPieArea) + minPieArea;
 				
 				var diameter = circleDiameterByAre(area);
-				//console.log('value absValue area diameter: ' + value + ' ' + Math.abs(value) + ' ' + area + ' ' + diameter);
 				return diameter;
             },
     "defineTemplate": function (){
@@ -4133,6 +4207,7 @@
 					    getCenter: function () {
 					        var options = this.options,
 					            chart = this.chart,
+					            fn = this.chart.options.customFunctions,
 					            slicingRoom = 2 * (options.slicedOffset || 0);
 					        if (!options.center) {
 					            options.center = [null, null]; // Do the default here instead
@@ -4285,36 +4360,36 @@
     			        	//class: 'pieLegend'
     			        }).add();	                
                 },
-    "addLegendCircle": function (chart, x, y, radius, fill){
+    "addLegendCircle": function (chart, x, y, radius, fill, cssClass){
                 	return chart.renderer.circle(x, y, radius, fill).attr({
     				    fill: fill,
     				    stroke: fill,
     				    'stroke-width': 1, 
     				    zIndex: 6,
-    				    class: 'pieLegend'
+    				    class: cssClass + ' pieLegend'
     				}).add();
                 },
-    "addLegendLabel": function (chart, text, x, y, useHtml){
+    "addLegendLabel": function (chart, text, x, y, cssClass, useHtml){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
     					zIndex: 6,
-    					class: 'pieLegend'
+    					class: cssClass + ' pieLegend'
     				}).add();
                 },
-    "addLegendLabelbold": function (chart, text, x, y, useHtml){
+    "addLegendLabelbold": function (chart, text, x, y, cssClass, useHtml){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).
     				attr({
     					zIndex: 6,
-    					class: 'pieLegend'	})
+    					class: cssClass +' pieLegend'	})
     				.css({
                         fontWeight: 'bold' }).
                      add();
                 },
-    "addLegendSquare": function (chart, x, y, width, fill){
+    "addLegendSquare": function (chart, x, y, width, fill, cssClass){
                 	return chart.renderer.rect(x, y, width, width, 0).attr({
     		            'stroke-width':0,
     		            fill: fill,
     		            zIndex: 6,
-    		            class: 'pieLegend'
+    		            class: cssClass + ' pieLegend'
     	        	}).add();
                 },
     "AddPieLegendClickHandler": function (chart){
