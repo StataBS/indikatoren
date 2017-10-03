@@ -72,4 +72,11 @@ Highcharts.getOptions().exporting.buttons.contextButton.menuItems.push(
 Highcharts.seriesType('mappie', 'pie', {}, {});
 					
 					
+					
+//add polyfill for ie, see https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Math/sign                    	
+if (!Math.sign) {
+  Math.sign = function(x) {
+    return ((x > 0) - (x < 0)) || +x;
+  };
+}					
 
