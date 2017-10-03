@@ -414,7 +414,9 @@
 
 				//Add click handler to bubbleLegend items
 				AddPieLegendClickHandler: function(chart){
-				    $('.pieLegend').click(function(){
+					var divId = chart['renderTo']['id'] || 'dummySettingForExportServer';
+					var divIdString = '#' + divId;
+				    $(divIdString + ' .pieLegend').click(function(){
 						//Toggle visible of mappies
 						Highcharts.each(chart.series, function (series) {
 							if (series.userOptions.type == 'mappie'){
@@ -425,9 +427,9 @@
 						
 						
 						//if useHTMl is true, text is in span elements within DIVs classed .pieLegend. Add the class to these spans
-						$('.pieLegend>span').addClass('pieLegend').addClass('pieLegendHtmlText');
+						$(divIdString + ' .pieLegend>span').addClass('pieLegend').addClass('pieLegendHtmlText');
 						//toggle active state of legend elements
-						var pieLegendItems = $('.pieLegend');
+						var pieLegendItems = $(divIdString + ' .pieLegend');
 						//backup original color
 						pieLegendItems.each(function(i, v){
 							if (!$(this).attr('fill_active')) {
@@ -450,7 +452,7 @@
 								}
 							});
 							//same for html text spans
-							$('.pieLegendHtmlText').css('color', '#cccccc');
+							$(divIdString + ' .pieLegendHtmlText').css('color', '#cccccc');
 						} 
 						else {
 							pieLegendItems.each(function(i, v){
@@ -459,7 +461,7 @@
 								$(this).attr('stroke', $(this).attr('stroke_active'));	
 							});
 							//same for html text spans
-							$('.pieLegendHtmlText').css('color', 'black');
+							$(divIdString + ' .pieLegendHtmlText').css('color', 'black');
 						}
 					});
 				}          	
