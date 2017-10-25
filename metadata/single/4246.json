@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":false,
+"orderKey":"14_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Kantonales Laboratorium Basel-Stadt"],
 "externalLinks":[""]
 }

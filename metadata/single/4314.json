@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":false,
+"orderKey":"07_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Umwelt"],
+"renderLink":[""],
+"quellenangabe":["Bundesamt für Umwelt (BAFU)"],
 "externalLinks":[""]
 }

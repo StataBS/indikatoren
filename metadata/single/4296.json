@@ -1,4 +1,4 @@
-{"title":"Mobilfunksendeanlagen", 
+{"title":"Mobilfunksendeanlagen",
 "subtitle":"Anzahl Anlagen",
 "kuerzel":"I.02.16.04296",
 "kuerzelKunde":"1204",
@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":false,
 "visibleInPortal":false,
+"orderKey":"12_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Lufthygieneamt beider Basel"],
-"externalLinks":[""] 
+"externalLinks":[""]
 }
