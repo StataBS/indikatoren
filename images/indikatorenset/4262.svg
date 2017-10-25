@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.0.2
   </desc>
   <defs>
     <clipPath>
@@ -46,14 +46,14 @@
     <path fill="none" class="highcharts-axis-line" d="M 475 104 L 475 344"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(43,104) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(43,104) scale(1 1)" clip-path="url(#a)">
       <rect x="22" y="187" width="42" height="54" fill="#FF8028" class="highcharts-point"/>
       <rect x="109" y="36" width="42" height="205" fill="#FF8028" class="highcharts-point"/>
       <rect x="195" y="171" width="42" height="70" fill="#FF8028" class="highcharts-point"/>
       <rect x="282" y="228" width="42" height="13" fill="#FF8028" class="highcharts-point"/>
       <rect x="368" y="201" width="42" height="40" fill="#FF8028" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(43,104) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(43,104) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:1.1em;font-weight:bold;fill:#000000;" y="20">
     <tspan>Unbeabsichtigte Freisetzung von gentechnisch veränderten</tspan><tspan dy="16.200000000000003" x="10">Organismen</tspan><title>Unbeabsichtigte Freisetzung von gentechnisch veränderten Organismen</title>

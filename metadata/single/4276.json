@@ -16,14 +16,15 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1105' target='_blank'>Umweltbericht beider Basel</a>.",
+"erlaeuterungen":"Der Indikator zeigt den Rindviehbestand aller im Kanton registrierten Landwirtschaftsbetriebe.Der Rindviehbestand wird im Rahmen der Landwirtschaftlichen Betriebsstrukturhebung durch das Bundesamt für Statistik für alle Kantone und Gemeinden nach schweizweit einheitlichen Kriterien und identischer Methodik ermittelt. Die Erhebung basiert auf der Koordination der administrativen Daten im Rahmen der Direktzahlungsverordnung. Die landwirtschaftliche Strukturerhebung berücksichtigt alle Landwirtschaftsbetriebe.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
+"orderKey":"11_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik"],
-"externalLinks":[""]
+"renderLink":[""],
+"quellenangabe":["Bundesamt für Statistik (BFS)"],
+"externalLinks":["Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/lb/01.html' target='_blank'>Landwirtschaftliche Betriebsstrukturerhebung BFS</a></li></ul>"]
 }

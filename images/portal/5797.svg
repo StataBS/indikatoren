@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.0.2
   </desc>
   <defs>
     <clipPath>
@@ -55,7 +55,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 475 90 L 475 344"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(53,90) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(53,90) scale(1 1)" clip-path="url(#a)">
       <rect x="9" y="111" width="17" height="144" fill="#73B97C" class="highcharts-point"/>
       <rect x="44" y="97" width="17" height="158" fill="#73B97C" class="highcharts-point"/>
       <rect x="79" y="57" width="17" height="198" fill="#73B97C" class="highcharts-point"/>
@@ -69,11 +69,11 @@
       <rect x="361" y="53" width="17" height="202" fill="#73B97C" class="highcharts-point"/>
       <rect x="396" y="69" width="17" height="186" fill="#73B97C" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(53,90) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(53,90) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(53,90) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-line-series " transform="translate(53,90) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 17.583333333333 50.80000000000001 L 52.75 50.80000000000001 L 87.916666666667 50.80000000000001 L 123.08333333333 50.80000000000001 L 158.25 50.80000000000001 L 193.41666666667 50.80000000000001 L 228.58333333333 50.80000000000001 L 263.75 50.80000000000001 L 298.91666666667 50.80000000000001 L 334.08333333333 50.80000000000001 L 369.25 50.80000000000001 L 404.41666666667 50.80000000000001" class="highcharts-graph" stroke="#444444" stroke-width="2" stroke-dasharray="6,2"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(53,90) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-1 highcharts-line-series " transform="translate(53,90) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:1.1em;font-weight:bold;fill:#000000;" y="20">
     <tspan>Nachhaltige Holznutzung</tspan>

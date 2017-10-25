@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.0.2
   </desc>
   <defs>
     <clipPath>
@@ -53,10 +53,10 @@
     <path fill="none" class="highcharts-axis-line" d="M 475 90 L 475 344"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,90) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(37,90) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 18.25 71.96666666666667 L 54.75 63.923333333333346 L 91.25 52.49333333333331 L 127.75 52.49333333333331 L 164.25 53.76333333333335 L 200.75 53.76333333333335 L 237.25 63.5 L 273.75 60.113333333333344 L 310.25 59.26666666666665 L 346.75 57.99666666666667 L 383.25 48.68333333333334 L 419.75 53.76333333333335" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,90) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(37,90) scale(1 1)" clip-path="none">
       <path fill="#FF8028" d="M 21 72 A 3 3 0 1 1 20.999998500000125 71.9970000005 Z" class="highcharts-point"/>
       <path fill="#FF8028" d="M 57 64 A 3 3 0 1 1 56.999998500000125 63.9970000005 Z" class="highcharts-point"/>
       <path fill="#FF8028" d="M 94 52 A 3 3 0 1 1 93.99999850000013 51.9970000005 Z" class="highcharts-point"/>
@@ -70,10 +70,10 @@
       <path fill="#FF8028" d="M 386 49 A 3 3 0 1 1 385.9999985000001 48.9970000005 Z" class="highcharts-point"/>
       <path fill="#FF8028" d="M 422 54 A 3 3 0 1 1 421.9999985000001 53.9970000005 Z" class="highcharts-point"/>
     </g>
-    <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(37,90) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-1 highcharts-line-series " transform="translate(37,90) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 18.25 21.166666666666657 L 54.75 21.166666666666657 L 91.25 21.166666666666657 L 127.75 21.166666666666657 L 164.25 21.166666666666657 L 200.75 21.166666666666657 L 237.25 21.166666666666657 L 273.75 21.166666666666657 L 310.25 21.166666666666657 L 346.75 21.166666666666657 L 383.25 21.166666666666657 L 419.75 21.166666666666657" class="highcharts-graph" stroke="#444444" stroke-width="2" stroke-dasharray="6,2"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(37,90) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-1 highcharts-line-series " transform="translate(37,90) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:1.1em;font-weight:bold;fill:#000000;" y="20">
     <tspan>Fluglärm</tspan>

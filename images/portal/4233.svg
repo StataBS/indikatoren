@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.0.2
   </desc>
   <defs>
     <clipPath>
@@ -55,10 +55,10 @@
     <path fill="none" class="highcharts-axis-line" d="M 475 90 L 475 344"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,90) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(37,90) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M -25.269230769231 55.879999999999995 L -8.4230769230769 46.73600000000002 L 8.4230769230769 61.976 L 25.269230769231 53.84800000000001 L 42.115384615385 65.02399999999997 L 58.961538461538 76.19999999999999 L 75.807692307692 74.168 L 92.653846153846 79.24800000000002 L 109.5 89.40800000000002 L 126.34615384615 85.344 L 143.19230769231 92.45599999999999 L 160.03846153846 94.488 L 176.88461538462 100.584 L 193.73076923077 108.71199999999999 L 210.57692307692 86.35999999999999 L 227.42307692308 92.45599999999999 L 244.26923076923 83.31199999999998 L 261.11538461538 96.52000000000001 L 277.96153846154 98.55199999999999 L 294.80769230769 96.52000000000001 L 311.65384615385 99.56800000000001 L 328.5 100.584 L 345.34615384615 93.47199999999998 L 362.19230769231 91.44 L 379.03846153846 99.56800000000001 L 395.88461538462 98.55199999999999 L 412.73076923077 102.61599999999999 L 429.57692307692 95.50399999999999" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,90) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(37,90) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:1.1em;font-weight:bold;fill:#000000;" y="20">
     <tspan>Wasserverbrauch Haushalte und Kleingewerbe</tspan>

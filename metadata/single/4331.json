@@ -16,14 +16,15 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0102' target='_blank'>Umweltbericht beider Basel</a>.",
+"erlaeuterungen":"Die Recyclingquote gibt Aufschluss über den Anteil an separat verwerteten Siedlungsabfällen (ohne Sammlung bei Verkaufsstellen) am Gesamtvolumen der Siedlungsabfälle. Siedlungsabfälle enthalten die aus Haushalten stammenden Abfälle sowie andere Abfälle vergleichbarer Zusammensetzung.Die Recyclingquote wird berechnet, indem die Menge an separat gesammelten Abfallkategorien dem Gesamtvolumen an Siedlungsabfällen gegenübergestellt wird. Die kantonale Abfallstatistik bildet dabei die Datengrundlage. Die folgenden Altstofffraktionen werden für die Recyclingquote berücksichtigt: <br><br>- Altpapier und Karton <br>- Altglas<br>- Altmetall/Alu/Weissblech<br>- Grüngut<br>- Textilien<br><br>Im Kanton Basel-Stadt werden zusätzlich Sonderabfälle mit berücksichtigt.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
+"orderKey":"01_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"externalLinks":[""]
+"externalLinks":["Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.aue.bs.ch/abfaelle.html' target='_blank'>Amt für Umwelt und Energie Basel-Stadt: Abfälle</a></li></ul>"]
 }

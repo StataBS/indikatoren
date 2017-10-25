@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.0.2
   </desc>
   <defs>
     <clipPath>
@@ -53,10 +53,10 @@
     <path fill="none" class="highcharts-axis-line" d="M 475 90 L 475 344"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,90) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(37,90) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 9.5217391304348 78.74000000000001 L 28.565217391304 77.47 L 47.608695652174 80.01000000000002 L 66.652173913043 81.28 L 85.695652173913 81.28 L 104.73913043478 80.01000000000002 L 123.78260869565 78.74000000000001 L 142.82608695652 77.47 L 161.86956521739 77.47 L 180.91304347826 76.20000000000002 L 199.95652173913 73.66000000000003 L 219 74.93 L 238.04347826087 77.47 L 257.08695652174 76.20000000000002 L 276.13043478261 76.20000000000002 L 295.17391304348 76.20000000000002 L 314.21739130435 72.39000000000001 L 333.26086956522 72.39000000000001 L 352.30434782609 69.85000000000002 L 371.34782608696 69.85000000000002 L 390.39130434783 68.58000000000001 L 409.4347826087 67.31000000000003 L 428.47826086957 67.31000000000003" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,90) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(37,90) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:1.1em;font-weight:bold;fill:#000000;" y="20">
     <tspan>Wassertemperatur Grundwasser</tspan>
