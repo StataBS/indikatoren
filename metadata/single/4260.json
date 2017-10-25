@@ -1,4 +1,4 @@
-{"title":"Belastete Standorte",
+﻿{"title":"Belastete Standorte",
 "subtitle":"Anzahl Standorte",
 "kuerzel":"I.02.7.04260",
 "kuerzelKunde":"0204",
@@ -20,10 +20,11 @@
 "template":"dotplot",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
+"orderKey":"02_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
 "externalLinks":[""]
 }

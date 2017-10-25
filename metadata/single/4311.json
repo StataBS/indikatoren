@@ -1,4 +1,4 @@
-{"title":"Neu überbaute Flächen in Landwirtschaftszonen",
+﻿{"title":"Neu überbaute Flächen in Landwirtschaftszonen",
 "subtitle":"Quadratmeter (kumuliert)",
 "kuerzel":"I.09.1.04311",
 "kuerzelKunde":"0905",
@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":false,
 "visibleInPortal":false,
+"orderKey":"09_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":[],
 "externalLinks":[""]
 }

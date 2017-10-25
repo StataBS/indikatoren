@@ -1,4 +1,4 @@
-{"title":"Waldreservate",
+﻿{"title":"Waldreservate",
 "subtitle":"Prozent",
 "kuerzel":"I.07.1.04288",
 "kuerzelKunde":"1511",
@@ -20,10 +20,11 @@
 "template":"dotplot",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
+"orderKey":"15_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Amt für Wald beider Basel"],
 "externalLinks":[""]
 }

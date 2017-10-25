@@ -1,4 +1,4 @@
-{"title":"Abgeschlossene Sanierungen",
+﻿{"title":"Abgeschlossene Sanierungen",
 "subtitle":"Anzahl Standorte (kumuliert)",
 "kuerzel":"I.02.7.04259",
 "kuerzelKunde":"0206",
@@ -20,10 +20,11 @@
 "template":"dotplot",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
+"orderKey":"02_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
 "externalLinks":[""]
 }

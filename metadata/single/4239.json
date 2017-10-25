@@ -1,4 +1,4 @@
-{"title":"Ausbaugrad der Abwasserreinigungsanlagen",
+﻿{"title":"Ausbaugrad der Abwasserreinigungsanlagen",
 "subtitle":"Prozent",
 "kuerzel":"I.02.19.04239",
 "kuerzelKunde":"1614",
@@ -20,10 +20,11 @@
 "template":"dotplot",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
+"orderKey":"16_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["ProRheno AG"],
 "externalLinks":[""]
 }

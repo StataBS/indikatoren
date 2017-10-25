@@ -1,4 +1,4 @@
-{"title":"Auf Deponien abgelagerte Abfälle",
+﻿{"title":"Auf Deponien abgelagerte Abfälle",
 "subtitle":"Tonnen",
 "kuerzel":"I.02.6.04330",
 "kuerzelKunde":"0106",
@@ -20,10 +20,11 @@
 "template":"dotplot",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
+"orderKey":"01_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
 "externalLinks":[""]
 }

@@ -1,4 +1,4 @@
-{"title":"Siedlungserneuerung",
+﻿{"title":"Siedlungserneuerung",
 "subtitle":"Verdichtungsgrad (neuerstellte/abgebrochene Wohnungen)",
 "kuerzel":"I.09.1.04317",
 "kuerzelKunde":"0904",
@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":false,
 "visibleInPortal":false,
+"orderKey":"09_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":[],
 "externalLinks":[""]
 }

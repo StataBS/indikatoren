@@ -1,4 +1,4 @@
-{"title":"Invasive gebietsfremde Arten",
+﻿{"title":"Invasive gebietsfremde Arten",
 "subtitle":"Anzahl Herde pro Quadratkilometer",
 "kuerzel":"I.02.8.04306",
 "kuerzelKunde":"0302",
@@ -20,10 +20,11 @@
 "template":"dotplot",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
+"orderKey":"03_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Stadtgärtnerei Basel-Stadt"],
 "externalLinks":[""]
 }

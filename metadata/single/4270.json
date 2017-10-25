@@ -1,4 +1,4 @@
-{"title":"Lärmmindernder Strassenbelag",
+﻿{"title":"Lärmmindernder Strassenbelag",
 "subtitle":"Kilometer",
 "kuerzel":"I.02.14.04270",
 "kuerzelKunde":"1008",
@@ -20,10 +20,11 @@
 "template":"dotplot",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
+"orderKey":"10_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Tiefbauamt Basel-Stadt"],
 "externalLinks":[""]
 }

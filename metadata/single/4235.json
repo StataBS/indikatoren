@@ -1,4 +1,4 @@
-{"title":"Nutzungskonflikte in Grundwasserschutzzonen",
+﻿{"title":"Nutzungskonflikte in Grundwasserschutzzonen",
 "subtitle":"Quadratkilometer",
 "kuerzel":"I.02.19.04235",
 "kuerzelKunde":"1601",
@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":false,
 "visibleInPortal":false,
+"orderKey":"16_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":[],
 "externalLinks":[""]
 }

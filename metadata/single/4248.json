@@ -1,4 +1,4 @@
-{"title":"Aktuelle Erosionsgefährdung",
+﻿{"title":"Aktuelle Erosionsgefährdung",
 "subtitle":"Tonnen pro Hektar",
 "kuerzel":"I.02.10.04248",
 "kuerzelKunde":"0509",
@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":false,
 "visibleInPortal":false,
+"orderKey":"05_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":[],
 "externalLinks":[""]
 }

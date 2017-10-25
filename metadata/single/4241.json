@@ -1,4 +1,4 @@
-{"title":"Medikamentenkonsum",
+﻿{"title":"Medikamentenkonsum",
 "subtitle":"Prozent",
 "kuerzel":"I.14.4.04241",
 "kuerzelKunde":"1617",
@@ -20,10 +20,11 @@
 "template":"dotplot",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
+"orderKey":"16_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik"],
+"renderLink":[""],
+"quellenangabe":["Bundesamt für Statistik (BFS)"],
 "externalLinks":[""]
 }

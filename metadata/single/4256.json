@@ -1,4 +1,4 @@
-{"title":"Index der erosionsschützenden Massnahmen",
+﻿{"title":"Index der erosionsschützenden Massnahmen",
 "subtitle":"Indexwert",
 "kuerzel":"I.02.10.04256",
 "kuerzelKunde":"0510",
@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":false,
 "visibleInPortal":false,
+"orderKey":"05_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":[],
 "externalLinks":[""]
 }

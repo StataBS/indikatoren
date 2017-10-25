@@ -1,4 +1,4 @@
-{"title":"Betriebseinheiten im Geltungsbereich der Störfallverordnung (StFV)",
+﻿{"title":"Betriebseinheiten im Geltungsbereich der Störfallverordnung (StFV)",
 "subtitle":"Anzahl Betriebseinheiten",
 "kuerzel":"I.02.18.04246",
 "kuerzelKunde":"1401",
@@ -20,10 +20,11 @@
 "template":"dotplot",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
+"orderKey":"14_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Kantonales Laboratorium Basel-Stadt"],
 "externalLinks":[""]
 }

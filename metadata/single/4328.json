@@ -1,4 +1,4 @@
-{"title":"Durchschnittlicher Tagesverkehr ",
+﻿{"title":"Durchschnittlicher Tagesverkehr ",
 "subtitle":"Indexwert (Basis 1998 = 100)",
 "kuerzel":"I.11.6.04328",
 "kuerzelKunde":"1706",
@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":false,
 "visibleInPortal":false,
+"orderKey":"17_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":[],
 "externalLinks":[""]
 }
