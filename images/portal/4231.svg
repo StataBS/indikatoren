@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.2
+    Created with Highstock 5.0.14
   </desc>
   <defs>
     <clipPath>
@@ -55,14 +55,14 @@
     <path fill="none" class="highcharts-axis-line" d="M 475 90 L 475 344"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(52,90) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(52,90) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 16.269230769231 20.319999999999993 L 48.807692307692 91.44 L 81.346153846154 111.75999999999999 L 113.88461538462 132.07999999999998 L 146.42307692308 149.86 L 178.96153846154 111.75999999999999 L 211.5 127 L 244.03846153846 109.22 L 276.57692307692 147.32 L 309.11538461538 144.78000000000003 L 341.65384615385 127 L 374.19230769231 147.32 L 406.73076923077 137.16" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(52,90) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-line-series " transform="translate(52,90) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(52,90) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(52,90) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 16.269230769231 50.79999999999998 L 48.807692307692 50.79999999999998 L 81.346153846154 50.79999999999998 L 113.88461538462 50.79999999999998 L 146.42307692308 50.79999999999998 L 178.96153846154 50.79999999999998 L 211.5 50.79999999999998 L 244.03846153846 50.79999999999998 L 276.57692307692 50.79999999999998 L 309.11538461538 50.79999999999998 L 341.65384615385 50.79999999999998 L 374.19230769231 50.79999999999998 L 406.73076923077 50.79999999999998" class="highcharts-graph" stroke="#444444" stroke-width="2" stroke-dasharray="6,2"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-line-series " transform="translate(52,90) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(52,90) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:1.1em;font-weight:bold;fill:#000000;" y="20">
     <tspan>AOX-Fracht Abwasser</tspan>

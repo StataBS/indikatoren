@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.2
+    Created with Highstock 5.0.14
   </desc>
   <defs>
     <clipPath>
@@ -58,7 +58,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 475 90 L 475 331"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(31,90) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(31,90) scale(1 1)" clip-path="url(#a)">
       <rect x="7" y="212" width="14" height="30" fill="#FF8028" class="highcharts-point"/>
       <rect x="35" y="212" width="14" height="30" fill="#FF8028" class="highcharts-point"/>
       <rect x="63" y="182" width="14" height="60" fill="#FF8028" class="highcharts-point"/>
@@ -76,7 +76,7 @@
       <rect x="396" y="61" width="14" height="181" fill="#FF8028" class="highcharts-point"/>
       <rect x="423" y="61" width="14" height="181" fill="#FF8028" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(31,90) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(31,90) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:1.1em;font-weight:bold;fill:#000000;" y="20">
     <tspan>Hochsicherheitslaboratorien in Biotechnologiebetrieben</tspan>

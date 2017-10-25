@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.2
+    Created with Highstock 5.0.14
   </desc>
   <defs>
     <clipPath>
@@ -62,7 +62,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 432 90 L 432 344"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(49,90) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(49,90) scale(1 1)" clip-path="url(#a)">
       <rect x="5" y="73" width="9" height="182" fill="#FF8028" class="highcharts-point"/>
       <rect x="22" y="73" width="9" height="182" fill="#FF8028" class="highcharts-point"/>
       <rect x="39" y="74" width="9" height="181" fill="#FF8028" class="highcharts-point"/>
@@ -86,11 +86,11 @@
       <rect x="353" y="51" width="9" height="204" fill="#FF8028" class="highcharts-point"/>
       <rect x="370" y="47" width="9" height="208" fill="#FF8028" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(49,90) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-line-series " transform="translate(49,90) scale(1 1)" clip-path="url(#b)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(49,90) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(49,90) scale(1 1)" clip-path="url(#b)">
       <path fill="none" d="M 8.7045454545455 64.19850000000002 L 26.113636363636 63.881 L 43.522727272727 63.563500000000005 L 60.931818181818 59.30899999999997 L 78.340909090909 56.3245 L 95.75 53.53050000000002 L 113.15909090909 51.49850000000001 L 130.56818181818 52.323999999999984 L 147.97727272727 54.0385 L 165.38636363636 43.43399999999997 L 182.79545454545 44.767499999999984 L 200.20454545455 46.037499999999994 L 217.61363636364 47.24399999999997 L 235.02272727273 49.02199999999999 L 252.43181818182 51.37149999999997 L 269.84090909091 51.24449999999999 L 287.25 50.292 L 304.65909090909 47.625 L 322.06818181818 50.673 L 339.47727272727 51.18100000000001 L 356.88636363636 52.958999999999975 L 374.29545454545 50.80000000000001" class="highcharts-graph" stroke="#DC440E" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-line-series " transform="translate(49,90) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(49,90) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:1.1em;font-weight:bold;fill:#000000;" y="20">
     <tspan>Motorfahrzeuge</tspan>

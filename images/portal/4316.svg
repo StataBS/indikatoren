@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.2
+    Created with Highstock 5.0.14
   </desc>
   <defs>
     <clipPath>
@@ -45,8 +45,8 @@
     <path fill="none" class="highcharts-grid-line" d="M 464.5 90 L 464.5 252" opacity="1"/>
   </g>
   <g class="highcharts-grid highcharts-xaxis-grid highcharts-navigator-xaxis">
-    <path fill="none" class="highcharts-grid-line" d="M 56.5 311 L 56.5 351" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 302.5 311 L 302.5 351" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 62.5 311 L 62.5 351" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 301.5 311 L 301.5 351" opacity="1"/>
   </g>
   <g class="highcharts-grid highcharts-yaxis-grid ">
     <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 43 252.5 L 465 252.5" opacity="1"/>
@@ -56,7 +56,8 @@
   </g>
   <g class="highcharts-grid highcharts-yaxis-grid "/>
   <g class="highcharts-grid highcharts-yaxis-grid highcharts-navigator-yaxis">
-    <path fill="none" class="highcharts-grid-line" d="M 57 348.5 L 451 348.5" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 57 351.5 L 451 351.5" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 57 324.5 L 451 324.5" opacity="1"/>
   </g>
   <rect fill="none" class="highcharts-plot-border" x="43" y="90" width="422" height="162"/>
   <g class="highcharts-axis highcharts-xaxis ">
@@ -77,9 +78,9 @@
   </g>
   <g class="highcharts-scrollbar" transform="translate(43,352)">
     <rect fill="#f2f2f2" class="highcharts-scrollbar-track" x="0" rx="0" ry="0" height="14" width="422" stroke="#f2f2f2" stroke-width="1" y="-0.5"/>
-    <g transform="translate(224,-0.5)">
-      <rect fill="#cccccc" class="highcharts-scrollbar-thumb" height="14" width="184" rx="0" ry="0" stroke="#cccccc" stroke-width="1"/>
-      <path fill="none" d="M -3 3.5 L -3 9.333333333333334 M 0 3.5 L 0 9.333333333333334 M 3 3.5 L 3 9.333333333333334" class="highcharts-scrollbar-rifles" stroke="#333333" stroke-width="1" transform="translate(91.5,0)"/>
+    <g transform="translate(223,-0.5)">
+      <rect fill="#cccccc" class="highcharts-scrollbar-thumb" height="14" width="179.0303030303" rx="0" ry="0" stroke="#cccccc" stroke-width="1"/>
+      <path fill="none" d="M -3 3.5 L -3 9.333333333333334 M 0 3.5 L 0 9.333333333333334 M 3 3.5 L 3 9.333333333333334" class="highcharts-scrollbar-rifles" stroke="#333333" stroke-width="1" transform="translate(89.01515151515,0)"/>
     </g>
     <g>
       <rect fill="#e6e6e6" class="highcharts-scrollbar-button" stroke="#cccccc" stroke-width="1" x="-0.5" y="-0.5" width="14" height="14" rx="0" ry="0"/>
@@ -91,7 +92,7 @@
     </g>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(43,90) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(43,90) scale(1 1)" clip-path="url(#a)">
       <rect x="-442" y="140" width="13" height="23" fill="#FF8028" class="highcharts-point"/>
       <rect x="-415" y="163" width="13" height="0" fill="#FF8028" class="highcharts-point"/>
       <rect x="-389" y="140" width="13" height="23" fill="#FF8028" class="highcharts-point"/>
@@ -126,19 +127,81 @@
       <rect x="376" y="142" width="13" height="21" fill="#FF8028" class="highcharts-point"/>
       <rect x="402" y="23" width="13" height="140" fill="#FF8028" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(43,90) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-column-series " visibility="hidden" transform="translate(43,90) scale(1 1)" clip-path="url(#b)"/>
-    <g class="highcharts-markers highcharts-series-1 highcharts-column-series " visibility="hidden" transform="translate(43,90) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-2 highcharts-areaspline-series highcharts-navigator-series" transform="translate(57,311) scale(1 1)" clip-path="url(#c)">
-      <path fill="rgb(255,128,40)" fill-opacity="0.05" d="M 0 36.14860864416815 C 0 36.14860864416815 7.3875 36.666666666666664 12.3125 36.666666666666664 C 17.2375 36.666666666666664 19.7 36.14860864416815 24.625 36.14860864416815 C 29.55 36.14860864416815 32.0125 36.2818235642392 36.9375 36.370633510953226 C 41.8625 36.45944345766726 44.325 36.54331951845274 49.25 36.59265837773831 C 54.175 36.64199723702388 56.6375 36.64199723702388 61.5625 36.64199723702388 C 66.4875 36.64199723702388 68.95 36.64199723702388 73.875 36.617327807381095 C 78.8 36.59265837773831 81.2625 33.434971383461615 86.1875 33.434971383461615 C 91.1125 33.434971383461615 93.575 35.926583777383065 98.5 36.27195579238208 C 103.425 36.617327807381095 105.8875 36.617327807381095 110.8125 36.617327807381095 C 115.7375 36.617327807381095 118.2 36.12393921452536 123.125 36.12393921452536 C 128.05 36.12393921452536 130.5125 36.14860864416814 135.4375 36.2226169330965 C 140.3625 36.29662522202486 142.825 36.424906256167354 147.75 36.49398065916716 C 152.675 36.56305506216696 155.1375 36.543319518452726 160.0625 36.56798894809552 C 164.9875 36.59265837773831 167.45 36.617327807381095 172.375 36.617327807381095 C 177.3 36.617327807381095 179.7625 32.81823564239195 184.6875 32.81823564239195 C 189.6125 32.81823564239195 192.075 36.00059206631142 197 36.296625222024865 C 201.925 36.59265837773831 204.3875 36.59265837773831 209.3125 36.59265837773831 C 214.2375 36.59265837773831 216.7 36.00059206631143 221.625 36.00059206631143 C 226.55 36.00059206631143 229.0125 36.666666666666664 233.9375 36.666666666666664 C 238.8625 36.666666666666664 241.325 35.77856719952635 246.25 35.77856719952635 C 251.175 35.77856719952635 253.6375 36.59265837773831 258.5625 36.59265837773831 C 263.4875 36.59265837773831 265.95 36.577856719952635 270.875 36.19794750345372 C 275.8 35.8180382869548 278.2625 34.693112295243736 283.1875 34.693112295243736 C 288.1125 34.693112295243736 290.575 36.51865008880995 295.5 36.51865008880995 C 300.425 36.51865008880995 302.8875 36.49398065916716 307.8125 36.49398065916716 C 312.7375 36.49398065916716 315.2 36.548253404381285 320.125 36.56798894809552 C 325.05 36.58772449180975 327.5125 36.59265837773831 332.4375 36.59265837773831 C 337.3625 36.59265837773831 339.825 36.493980659167164 344.75 36.44464179988159 C 349.675 36.39530294059601 352.1375 36.44464179988159 357.0625 36.34596408131044 C 361.9875 36.247286362739295 364.45 34.27373199131636 369.375 34.27373199131636 C 374.3 34.27373199131636 376.7625 36.19794750345372 381.6875 36.19794750345372 C 386.6125 36.19794750345372 394 33.4596408131044 394 33.4596408131044 L 394 40 C 394 40 386.6125 40 381.6875 40 C 376.7625 40 374.3 40 369.375 40 C 364.45 40 361.9875 40 357.0625 40 C 352.1375 40 349.675 40 344.75 40 C 339.825 40 337.3625 40 332.4375 40 C 327.5125 40 325.05 40 320.125 40 C 315.2 40 312.7375 40 307.8125 40 C 302.8875 40 300.425 40 295.5 40 C 290.575 40 288.1125 40 283.1875 40 C 278.2625 40 275.8 40 270.875 40 C 265.95 40 263.4875 40 258.5625 40 C 253.6375 40 251.175 40 246.25 40 C 241.325 40 238.8625 40 233.9375 40 C 229.0125 40 226.55 40 221.625 40 C 216.7 40 214.2375 40 209.3125 40 C 204.3875 40 201.925 40 197 40 C 192.075 40 189.6125 40 184.6875 40 C 179.7625 40 177.3 40 172.375 40 C 167.45 40 164.9875 40 160.0625 40 C 155.1375 40 152.675 40 147.75 40 C 142.825 40 140.3625 40 135.4375 40 C 130.5125 40 128.05 40 123.125 40 C 118.2 40 115.7375 40 110.8125 40 C 105.8875 40 103.425 40 98.5 40 C 93.575 40 91.1125 40 86.1875 40 C 81.2625 40 78.8 40 73.875 40 C 68.95 40 66.4875 40 61.5625 40 C 56.6375 40 54.175 40 49.25 40 C 44.325 40 41.8625 40 36.9375 40 C 32.0125 40 29.55 40 24.625 40 C 19.7 40 17.2375 40 12.3125 40 C 7.3875 40 0 40 0 40" class="highcharts-area"/>
-      <path fill="none" d="M 0 36.14860864416815 C 0 36.14860864416815 7.3875 36.666666666666664 12.3125 36.666666666666664 C 17.2375 36.666666666666664 19.7 36.14860864416815 24.625 36.14860864416815 C 29.55 36.14860864416815 32.0125 36.2818235642392 36.9375 36.370633510953226 C 41.8625 36.45944345766726 44.325 36.54331951845274 49.25 36.59265837773831 C 54.175 36.64199723702388 56.6375 36.64199723702388 61.5625 36.64199723702388 C 66.4875 36.64199723702388 68.95 36.64199723702388 73.875 36.617327807381095 C 78.8 36.59265837773831 81.2625 33.434971383461615 86.1875 33.434971383461615 C 91.1125 33.434971383461615 93.575 35.926583777383065 98.5 36.27195579238208 C 103.425 36.617327807381095 105.8875 36.617327807381095 110.8125 36.617327807381095 C 115.7375 36.617327807381095 118.2 36.12393921452536 123.125 36.12393921452536 C 128.05 36.12393921452536 130.5125 36.14860864416814 135.4375 36.2226169330965 C 140.3625 36.29662522202486 142.825 36.424906256167354 147.75 36.49398065916716 C 152.675 36.56305506216696 155.1375 36.543319518452726 160.0625 36.56798894809552 C 164.9875 36.59265837773831 167.45 36.617327807381095 172.375 36.617327807381095 C 177.3 36.617327807381095 179.7625 32.81823564239195 184.6875 32.81823564239195 C 189.6125 32.81823564239195 192.075 36.00059206631142 197 36.296625222024865 C 201.925 36.59265837773831 204.3875 36.59265837773831 209.3125 36.59265837773831 C 214.2375 36.59265837773831 216.7 36.00059206631143 221.625 36.00059206631143 C 226.55 36.00059206631143 229.0125 36.666666666666664 233.9375 36.666666666666664 C 238.8625 36.666666666666664 241.325 35.77856719952635 246.25 35.77856719952635 C 251.175 35.77856719952635 253.6375 36.59265837773831 258.5625 36.59265837773831 C 263.4875 36.59265837773831 265.95 36.577856719952635 270.875 36.19794750345372 C 275.8 35.8180382869548 278.2625 34.693112295243736 283.1875 34.693112295243736 C 288.1125 34.693112295243736 290.575 36.51865008880995 295.5 36.51865008880995 C 300.425 36.51865008880995 302.8875 36.49398065916716 307.8125 36.49398065916716 C 312.7375 36.49398065916716 315.2 36.548253404381285 320.125 36.56798894809552 C 325.05 36.58772449180975 327.5125 36.59265837773831 332.4375 36.59265837773831 C 337.3625 36.59265837773831 339.825 36.493980659167164 344.75 36.44464179988159 C 349.675 36.39530294059601 352.1375 36.44464179988159 357.0625 36.34596408131044 C 361.9875 36.247286362739295 364.45 34.27373199131636 369.375 34.27373199131636 C 374.3 34.27373199131636 376.7625 36.19794750345372 381.6875 36.19794750345372 C 386.6125 36.19794750345372 394 33.4596408131044 394 33.4596408131044" class="highcharts-graph" stroke="#FF8028" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(43,90) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(43,90) scale(1 1)" clip-path="url(#b)"/>
+    <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(43,90) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(57,311) scale(1 1)" clip-path="url(#c)">
+      <rect x="3" y="40" width="3" height="1" fill="#FF8028" class="highcharts-point"/>
+      <rect x="15" y="41" width="3" height="0" fill="#FF8028" class="highcharts-point"/>
+      <rect x="27" y="40" width="3" height="1" fill="#FF8028" class="highcharts-point"/>
+      <rect x="39" y="41" width="3" height="0" fill="#FF8028" class="highcharts-point"/>
+      <rect x="51" y="41" width="3" height="0" fill="#FF8028" class="highcharts-point"/>
+      <rect x="62" y="41" width="3" height="0" fill="#FF8028" class="highcharts-point"/>
+      <rect x="74" y="41" width="3" height="0" fill="#FF8028" class="highcharts-point"/>
+      <rect x="86" y="37" width="3" height="4" fill="#FF8028" class="highcharts-point"/>
+      <rect x="98" y="41" width="3" height="0" fill="#FF8028" class="highcharts-point"/>
+      <rect x="110" y="41" width="3" height="0" fill="#FF8028" class="highcharts-point"/>
+      <rect x="122" y="40" width="3" height="1" fill="#FF8028" class="highcharts-point"/>
+      <rect x="134" y="41" width="3" height="0" fill="#FF8028" class="highcharts-point"/>
+      <rect x="146" y="41" width="3" height="0" fill="#FF8028" class="highcharts-point"/>
+      <rect x="158" y="41" width="3" height="0" fill="#FF8028" class="highcharts-point"/>
+      <rect x="170" y="41" width="3" height="0" fill="#FF8028" class="highcharts-point"/>
+      <rect x="182" y="37" width="3" height="4" fill="#FF8028" class="highcharts-point"/>
+      <rect x="194" y="41" width="3" height="0" fill="#FF8028" class="highcharts-point"/>
+      <rect x="206" y="41" width="3" height="0" fill="#FF8028" class="highcharts-point"/>
+      <rect x="218" y="40" width="3" height="1" fill="#FF8028" class="highcharts-point"/>
+      <rect x="230" y="41" width="3" height="0" fill="#FF8028" class="highcharts-point"/>
+      <rect x="242" y="40" width="3" height="1" fill="#FF8028" class="highcharts-point"/>
+      <rect x="253" y="41" width="3" height="0" fill="#FF8028" class="highcharts-point"/>
+      <rect x="265" y="40" width="3" height="1" fill="#FF8028" class="highcharts-point"/>
+      <rect x="277" y="39" width="3" height="2" fill="#FF8028" class="highcharts-point"/>
+      <rect x="289" y="41" width="3" height="0" fill="#FF8028" class="highcharts-point"/>
+      <rect x="301" y="41" width="3" height="0" fill="#FF8028" class="highcharts-point"/>
+      <rect x="313" y="41" width="3" height="0" fill="#FF8028" class="highcharts-point"/>
+      <rect x="325" y="41" width="3" height="0" fill="#FF8028" class="highcharts-point"/>
+      <rect x="337" y="41" width="3" height="0" fill="#FF8028" class="highcharts-point"/>
+      <rect x="349" y="41" width="3" height="0" fill="#FF8028" class="highcharts-point"/>
+      <rect x="361" y="38" width="3" height="3" fill="#FF8028" class="highcharts-point"/>
+      <rect x="373" y="40" width="3" height="1" fill="#FF8028" class="highcharts-point"/>
+      <rect x="385" y="38" width="3" height="3" fill="#FF8028" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-2 highcharts-areaspline-series highcharts-navigator-series" transform="translate(57,311) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-3 highcharts-areaspline-series highcharts-navigator-series" transform="translate(57,311) scale(1 1)" clip-path="url(#c)">
-      <path fill="rgb(220,68,14)" fill-opacity="0.05" d="M 0 36.089402013025456 C 0 36.089402013025456 7.3875 36.666666666666664 12.3125 36.666666666666664 C 17.2375 36.666666666666664 19.7 36.666666666666664 24.625 36.084468127096905 C 29.55 35.502269587527145 32.0125 32.82563647128478 36.9375 32.82563647128478 C 41.8625 32.82563647128478 44.325 36.170811130846644 49.25 36.3731004539175 C 54.175 36.57538977698836 56.6375 36.53591868955991 61.5625 36.57538977698836 C 66.4875 36.61486086441681 68.95 36.61486086441681 73.875 36.61486086441681 C 78.8 36.61486086441681 81.2625 23.929840142095916 86.1875 23.929840142095916 C 91.1125 23.929840142095916 93.575 33.14140517071245 98.5 34.86826524570752 C 103.425 36.595125320702586 105.8875 36.595125320702586 110.8125 36.595125320702586 C 115.7375 36.595125320702586 118.2 33.71866982435366 123.125 33.71866982435366 C 128.05 33.71866982435366 130.5125 34.0837773830669 135.4375 34.557430432208406 C 140.3625 35.03108348134991 142.825 35.68284981251234 147.75 36.08693507006118 C 152.675 36.49102032761003 155.1375 36.577856719952635 160.0625 36.577856719952635 C 164.9875 36.577856719952635 167.45 36.577856719952635 172.375 36.577856719952635 C 177.3 36.577856719952635 179.7625 3.3333333333333286 184.6875 3.3333333333333286 C 189.6125 3.3333333333333286 192.075 35.31971580817051 197 35.92164989145451 C 201.925 36.52358397473851 204.3875 36.52358397473851 209.3125 36.52358397473851 C 214.2375 36.52358397473851 216.7 20.07647523189264 221.625 20.07647523189264 C 226.55 20.07647523189264 229.0125 36.666666666666664 233.9375 36.666666666666664 C 238.8625 36.666666666666664 241.325 34.34280639431616 246.25 34.34280639431616 C 251.175 34.34280639431616 253.6375 36.31142687981054 258.5625 36.31142687981054 C 263.4875 36.31142687981054 265.95 35.79287546871917 270.875 35.01134793763568 C 275.8 34.22982040655221 278.2625 32.40378922439313 283.1875 32.40378922439313 C 288.1125 32.40378922439313 290.575 36.34596408131044 295.5 36.34596408131044 C 300.425 36.34596408131044 302.8875 36.15600947306098 307.8125 36.15600947306098 C 312.7375 36.15600947306098 315.2 36.15600947306098 320.125 36.252220248667854 C 325.05 36.348431024274724 327.5125 36.61831458456681 332.4375 36.64249062561674 C 337.3625 36.666666666666664 339.825 36.666666666666664 344.75 36.666666666666664 C 349.675 36.666666666666664 352.1375 36.666666666666664 357.0625 36.63706335109532 C 361.9875 36.60746003552398 364.45 14.498717189658578 369.375 14.498717189658578 C 374.3 14.498717189658578 376.7625 36.01045983816854 381.6875 36.01045983816854 C 386.6125 36.01045983816854 394 17.8142885336491 394 17.8142885336491 L 394 40 C 394 40 386.6125 40 381.6875 40 C 376.7625 40 374.3 40 369.375 40 C 364.45 40 361.9875 40 357.0625 40 C 352.1375 40 349.675 40 344.75 40 C 339.825 40 337.3625 40 332.4375 40 C 327.5125 40 325.05 40 320.125 40 C 315.2 40 312.7375 40 307.8125 40 C 302.8875 40 300.425 40 295.5 40 C 290.575 40 288.1125 40 283.1875 40 C 278.2625 40 275.8 40 270.875 40 C 265.95 40 263.4875 40 258.5625 40 C 253.6375 40 251.175 40 246.25 40 C 241.325 40 238.8625 40 233.9375 40 C 229.0125 40 226.55 40 221.625 40 C 216.7 40 214.2375 40 209.3125 40 C 204.3875 40 201.925 40 197 40 C 192.075 40 189.6125 40 184.6875 40 C 179.7625 40 177.3 40 172.375 40 C 167.45 40 164.9875 40 160.0625 40 C 155.1375 40 152.675 40 147.75 40 C 142.825 40 140.3625 40 135.4375 40 C 130.5125 40 128.05 40 123.125 40 C 118.2 40 115.7375 40 110.8125 40 C 105.8875 40 103.425 40 98.5 40 C 93.575 40 91.1125 40 86.1875 40 C 81.2625 40 78.8 40 73.875 40 C 68.95 40 66.4875 40 61.5625 40 C 56.6375 40 54.175 40 49.25 40 C 44.325 40 41.8625 40 36.9375 40 C 32.0125 40 29.55 40 24.625 40 C 19.7 40 17.2375 40 12.3125 40 C 7.3875 40 0 40 0 40" class="highcharts-area"/>
-      <path fill="none" d="M 0 36.089402013025456 C 0 36.089402013025456 7.3875 36.666666666666664 12.3125 36.666666666666664 C 17.2375 36.666666666666664 19.7 36.666666666666664 24.625 36.084468127096905 C 29.55 35.502269587527145 32.0125 32.82563647128478 36.9375 32.82563647128478 C 41.8625 32.82563647128478 44.325 36.170811130846644 49.25 36.3731004539175 C 54.175 36.57538977698836 56.6375 36.53591868955991 61.5625 36.57538977698836 C 66.4875 36.61486086441681 68.95 36.61486086441681 73.875 36.61486086441681 C 78.8 36.61486086441681 81.2625 23.929840142095916 86.1875 23.929840142095916 C 91.1125 23.929840142095916 93.575 33.14140517071245 98.5 34.86826524570752 C 103.425 36.595125320702586 105.8875 36.595125320702586 110.8125 36.595125320702586 C 115.7375 36.595125320702586 118.2 33.71866982435366 123.125 33.71866982435366 C 128.05 33.71866982435366 130.5125 34.0837773830669 135.4375 34.557430432208406 C 140.3625 35.03108348134991 142.825 35.68284981251234 147.75 36.08693507006118 C 152.675 36.49102032761003 155.1375 36.577856719952635 160.0625 36.577856719952635 C 164.9875 36.577856719952635 167.45 36.577856719952635 172.375 36.577856719952635 C 177.3 36.577856719952635 179.7625 3.3333333333333286 184.6875 3.3333333333333286 C 189.6125 3.3333333333333286 192.075 35.31971580817051 197 35.92164989145451 C 201.925 36.52358397473851 204.3875 36.52358397473851 209.3125 36.52358397473851 C 214.2375 36.52358397473851 216.7 20.07647523189264 221.625 20.07647523189264 C 226.55 20.07647523189264 229.0125 36.666666666666664 233.9375 36.666666666666664 C 238.8625 36.666666666666664 241.325 34.34280639431616 246.25 34.34280639431616 C 251.175 34.34280639431616 253.6375 36.31142687981054 258.5625 36.31142687981054 C 263.4875 36.31142687981054 265.95 35.79287546871917 270.875 35.01134793763568 C 275.8 34.22982040655221 278.2625 32.40378922439313 283.1875 32.40378922439313 C 288.1125 32.40378922439313 290.575 36.34596408131044 295.5 36.34596408131044 C 300.425 36.34596408131044 302.8875 36.15600947306098 307.8125 36.15600947306098 C 312.7375 36.15600947306098 315.2 36.15600947306098 320.125 36.252220248667854 C 325.05 36.348431024274724 327.5125 36.61831458456681 332.4375 36.64249062561674 C 337.3625 36.666666666666664 339.825 36.666666666666664 344.75 36.666666666666664 C 349.675 36.666666666666664 352.1375 36.666666666666664 357.0625 36.63706335109532 C 361.9875 36.60746003552398 364.45 14.498717189658578 369.375 14.498717189658578 C 374.3 14.498717189658578 376.7625 36.01045983816854 381.6875 36.01045983816854 C 386.6125 36.01045983816854 394 17.8142885336491 394 17.8142885336491" class="highcharts-graph" stroke="#DC440E" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(57,311) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(57,311) scale(1 1)" clip-path="url(#c)">
+      <rect x="6" y="40" width="3" height="1" fill="#DC440E" class="highcharts-point"/>
+      <rect x="18" y="41" width="3" height="0" fill="#DC440E" class="highcharts-point"/>
+      <rect x="30" y="40" width="3" height="1" fill="#DC440E" class="highcharts-point"/>
+      <rect x="42" y="37" width="3" height="4" fill="#DC440E" class="highcharts-point"/>
+      <rect x="54" y="41" width="3" height="0" fill="#DC440E" class="highcharts-point"/>
+      <rect x="66" y="41" width="3" height="0" fill="#DC440E" class="highcharts-point"/>
+      <rect x="78" y="41" width="3" height="0" fill="#DC440E" class="highcharts-point"/>
+      <rect x="90" y="27" width="3" height="14" fill="#DC440E" class="highcharts-point"/>
+      <rect x="102" y="39" width="3" height="2" fill="#DC440E" class="highcharts-point"/>
+      <rect x="114" y="41" width="3" height="0" fill="#DC440E" class="highcharts-point"/>
+      <rect x="126" y="38" width="3" height="3" fill="#DC440E" class="highcharts-point"/>
+      <rect x="138" y="39" width="3" height="2" fill="#DC440E" class="highcharts-point"/>
+      <rect x="150" y="40" width="3" height="1" fill="#DC440E" class="highcharts-point"/>
+      <rect x="162" y="41" width="3" height="0" fill="#DC440E" class="highcharts-point"/>
+      <rect x="173" y="41" width="3" height="0" fill="#DC440E" class="highcharts-point"/>
+      <rect x="185" y="5" width="3" height="36" fill="#DC440E" class="highcharts-point"/>
+      <rect x="197" y="40" width="3" height="1" fill="#DC440E" class="highcharts-point"/>
+      <rect x="209" y="41" width="3" height="0" fill="#DC440E" class="highcharts-point"/>
+      <rect x="221" y="23" width="3" height="18" fill="#DC440E" class="highcharts-point"/>
+      <rect x="233" y="41" width="3" height="0" fill="#DC440E" class="highcharts-point"/>
+      <rect x="245" y="38" width="3" height="3" fill="#DC440E" class="highcharts-point"/>
+      <rect x="257" y="41" width="3" height="0" fill="#DC440E" class="highcharts-point"/>
+      <rect x="269" y="39" width="3" height="2" fill="#DC440E" class="highcharts-point"/>
+      <rect x="281" y="36" width="3" height="5" fill="#DC440E" class="highcharts-point"/>
+      <rect x="293" y="41" width="3" height="0" fill="#DC440E" class="highcharts-point"/>
+      <rect x="305" y="40" width="3" height="1" fill="#DC440E" class="highcharts-point"/>
+      <rect x="317" y="41" width="3" height="0" fill="#DC440E" class="highcharts-point"/>
+      <rect x="329" y="41" width="3" height="0" fill="#DC440E" class="highcharts-point"/>
+      <rect x="341" y="41" width="3" height="0" fill="#DC440E" class="highcharts-point"/>
+      <rect x="353" y="41" width="3" height="0" fill="#DC440E" class="highcharts-point"/>
+      <rect x="365" y="17" width="3" height="24" fill="#DC440E" class="highcharts-point"/>
+      <rect x="376" y="40" width="3" height="1" fill="#DC440E" class="highcharts-point"/>
+      <rect x="388" y="20" width="3" height="21" fill="#DC440E" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-3 highcharts-areaspline-series highcharts-navigator-series" transform="translate(57,311) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(57,311) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:1.1em;font-weight:bold;fill:#000000;" y="20">
     <tspan>Gebäudeschäden durch Hochwasser und Rutschungen</tspan>
@@ -234,10 +297,10 @@
   <g class="highcharts-axis-labels highcharts-yaxis-labels highcharts-navigator-yaxis"/>
   <g class="highcharts-navigator" visibility="visible">
     <rect fill="rgb(0,0,0)" fill-opacity="0" class="highcharts-navigator-mask-outside" x="57" y="311" width="209" height="40"/>
-    <rect fill="rgb(102,133,194)" fill-opacity="0.3" class="highcharts-navigator-mask-inside" style="cursor:ew-resize;" x="266" y="311" width="185" height="40"/>
-    <rect fill="rgb(0,0,0)" fill-opacity="0" class="highcharts-navigator-mask-outside" x="451" y="311" width="0" height="40"/>
-    <path fill="none" class="highcharts-navigator-outline" stroke="#cccccc" stroke-width="1" d="M 43 311.5 L 265.5 311.5 L 265.5 365.5 L 450.5 365.5 L 450.5 311.5 L 465 311.5 M 265 311.5 L 451 311.5"/>
-    <path fill="#f2f2f2" d="M -4.5 0.5 L 3.5 0.5 L 3.5 15.5 L -4.5 15.5 L -4.5 0.5 M -1.5 4 L -1.5 12 M 0.5 4 L 0.5 12" class="highcharts-navigator-handle highcharts-navigator-handle-right" stroke="#999999" stroke-width="1" style="cursor:ew-resize;" transform="translate(451,323)"/>
+    <rect fill="rgb(102,133,194)" fill-opacity="0.3" class="highcharts-navigator-mask-inside" style="cursor:ew-resize;" x="266" y="311" width="179" height="40"/>
+    <rect fill="rgb(0,0,0)" fill-opacity="0" class="highcharts-navigator-mask-outside" x="445" y="311" width="6" height="40"/>
+    <path fill="none" class="highcharts-navigator-outline" stroke="#cccccc" stroke-width="1" d="M 43 311.5 L 265.5 311.5 L 265.5 365.5 L 444.5 365.5 L 444.5 311.5 L 465 311.5 M 265 311.5 L 445 311.5"/>
+    <path fill="#f2f2f2" d="M -4.5 0.5 L 3.5 0.5 L 3.5 15.5 L -4.5 15.5 L -4.5 0.5 M -1.5 4 L -1.5 12 M 0.5 4 L 0.5 12" class="highcharts-navigator-handle highcharts-navigator-handle-right" stroke="#999999" stroke-width="1" style="cursor:ew-resize;" transform="translate(445,323)"/>
     <path fill="#f2f2f2" d="M -4.5 0.5 L 3.5 0.5 L 3.5 15.5 L -4.5 15.5 L -4.5 0.5 M -1.5 4 L -1.5 12 M 0.5 4 L 0.5 12" class="highcharts-navigator-handle highcharts-navigator-handle-left" stroke="#999999" stroke-width="1" style="cursor:ew-resize;" transform="translate(266,323)"/>
   </g>
   <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:0.8em;fill:#000000;" y="400">

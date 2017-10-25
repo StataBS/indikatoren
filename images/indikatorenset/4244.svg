@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.2
+    Created with Highstock 5.0.14
   </desc>
   <defs>
     <clipPath>
@@ -42,9 +42,9 @@
     <path fill="none" class="highcharts-grid-line" d="M 474.5 90 L 474.5 252" opacity="1"/>
   </g>
   <g class="highcharts-grid highcharts-xaxis-grid highcharts-navigator-xaxis">
-    <path fill="none" class="highcharts-grid-line" d="M 50.5 311 L 50.5 351" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 236.5 311 L 236.5 351" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 423.5 311 L 423.5 351" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 59.5 311 L 59.5 351" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 237.5 311 L 237.5 351" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 415.5 311 L 415.5 351" opacity="1"/>
   </g>
   <g class="highcharts-grid highcharts-yaxis-grid ">
     <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 37 252.5 L 475 252.5" opacity="1"/>
@@ -75,9 +75,9 @@
   </g>
   <g class="highcharts-scrollbar" transform="translate(37,352)">
     <rect fill="#f2f2f2" class="highcharts-scrollbar-track" x="0" rx="0" ry="0" height="14" width="438" stroke="#f2f2f2" stroke-width="1" y="-0.5"/>
-    <g transform="translate(145,-0.5)">
-      <rect fill="#cccccc" class="highcharts-scrollbar-thumb" height="14" width="279" rx="0" ry="0" stroke="#cccccc" stroke-width="1"/>
-      <path fill="none" d="M -3 3.5 L -3 9.333333333333334 M 0 3.5 L 0 9.333333333333334 M 3 3.5 L 3 9.333333333333334" class="highcharts-scrollbar-rifles" stroke="#333333" stroke-width="1" transform="translate(139,0)"/>
+    <g transform="translate(148,-0.5)">
+      <rect fill="#cccccc" class="highcharts-scrollbar-thumb" height="14" width="267.08695652174" rx="0" ry="0" stroke="#cccccc" stroke-width="1"/>
+      <path fill="none" d="M -3 3.5 L -3 9.333333333333334 M 0 3.5 L 0 9.333333333333334 M 3 3.5 L 3 9.333333333333334" class="highcharts-scrollbar-rifles" stroke="#333333" stroke-width="1" transform="translate(133.04347826087,0)"/>
     </g>
     <g>
       <rect fill="#e6e6e6" class="highcharts-scrollbar-button" stroke="#cccccc" stroke-width="1" x="-0.5" y="-0.5" width="14" height="14" rx="0" ry="0"/>
@@ -89,7 +89,7 @@
     </g>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(37,90) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(37,90) scale(1 1)" clip-path="url(#a)">
       <rect x="-185" y="114" width="14" height="49" fill="#FF8028" class="highcharts-point"/>
       <rect x="-157" y="109" width="14" height="54" fill="#FF8028" class="highcharts-point"/>
       <rect x="-130" y="114" width="14" height="49" fill="#FF8028" class="highcharts-point"/>
@@ -114,12 +114,33 @@
       <rect x="390" y="66" width="14" height="97" fill="#FF8028" class="highcharts-point"/>
       <rect x="418" y="71" width="14" height="92" fill="#FF8028" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(37,90) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-areaspline-series highcharts-navigator-series" transform="translate(51,311) scale(1 1)" clip-path="url(#b)">
-      <path fill="rgb(255,128,40)" fill-opacity="0.05" d="M 0 25.555555555555557 C 0 25.555555555555557 11.1818181818184 23.96825396825397 18.636363636364 23.96825396825397 C 26.0909090909092 23.96825396825397 29.818181818181802 25.555555555555557 37.272727272727 25.555555555555557 C 44.7272727272726 25.555555555555557 48.4545454545454 22.380952380952383 55.909090909091 22.380952380952383 C 63.3636363636366 22.380952380952383 67.09090909090939 28.73015873015873 74.545454545455 28.73015873015873 C 82.0000000000002 28.73015873015873 85.72727272727279 28.73015873015873 93.181818181818 28.73015873015873 C 100.6363636363628 28.73015873015873 104.3636363636352 27.142857142857146 111.81818181818 27.142857142857146 C 119.27272727272798 27.142857142857146 123.000000000002 33.492063492063494 130.45454545455 33.492063492063494 C 137.909090909094 33.492063492063494 141.63636363636599 31.904761904761905 149.09090909091 31.904761904761905 C 156.545454545454 31.904761904761905 160.27272727272597 31.904761904761905 167.72727272727 31.904761904761905 C 175.181818181818 31.904761904761905 178.909090909092 32.857142857142684 186.36363636364 33.492063492063494 C 193.818181818184 34.126984126983956 197.545454545456 34.44444444444444 205 35.079365079365076 C 212.454545454544 35.71428571428571 216.18181818181603 36.666666666666664 223.63636363636 36.666666666666664 C 231.090909090908 36.666666666666664 234.81818181818198 30.317460317460316 242.27272727273 30.317460317460316 C 249.72727272727403 30.317460317460316 253.454545454546 35.079365079365076 260.90909090909 35.079365079365076 C 268.36363636363404 35.079365079365076 272.090909090906 35.079365079365076 279.54545454545 33.492063492063494 C 286.999999999998 31.904761904761912 290.72727272727195 23.96825396825397 298.18181818182 23.96825396825397 C 305.63636363636397 23.96825396825397 309.36363636363603 26.82539682539735 316.81818181818 28.73015873015873 C 324.27272727272805 30.634920634921162 328.000000000002 33.492063492063494 335.45454545455 33.492063492063494 C 342.909090909094 33.492063492063494 346.63636363636596 33.492063492063494 354.09090909091 28.73015873015873 C 361.545454545454 23.96825396825397 365.272727272726 3.3333333333333357 372.72727272727 3.3333333333333357 C 380.181818181818 3.3333333333333357 383.909090909092 9.68253968253968 391.36363636364 11.269841269841269 C 398.818181818184 12.857142857142858 410 12.857142857142858 410 12.857142857142858 L 410 40 C 410 40 398.818181818184 40 391.36363636364 40 C 383.909090909092 40 380.181818181818 40 372.72727272727 40 C 365.272727272726 40 361.545454545454 40 354.09090909091 40 C 346.63636363636596 40 342.909090909094 40 335.45454545455 40 C 328.000000000002 40 324.27272727272805 40 316.81818181818 40 C 309.36363636363603 40 305.63636363636397 40 298.18181818182 40 C 290.72727272727195 40 286.999999999998 40 279.54545454545 40 C 272.090909090906 40 268.36363636363404 40 260.90909090909 40 C 253.454545454546 40 249.72727272727403 40 242.27272727273 40 C 234.81818181818198 40 231.090909090908 40 223.63636363636 40 C 216.18181818181603 40 212.454545454544 40 205 40 C 197.545454545456 40 193.818181818184 40 186.36363636364 40 C 178.909090909092 40 175.181818181818 40 167.72727272727 40 C 160.27272727272597 40 156.545454545454 40 149.09090909091 40 C 141.63636363636599 40 137.909090909094 40 130.45454545455 40 C 123.000000000002 40 119.27272727272798 40 111.81818181818 40 C 104.3636363636352 40 100.6363636363628 40 93.181818181818 40 C 85.72727272727279 40 82.0000000000002 40 74.545454545455 40 C 67.09090909090939 40 63.3636363636366 40 55.909090909091 40 C 48.4545454545454 40 44.7272727272726 40 37.272727272727 40 C 29.818181818181802 40 26.0909090909092 40 18.636363636364 40 C 11.1818181818184 40 0 40 0 40" class="highcharts-area"/>
-      <path fill="none" d="M 0 25.555555555555557 C 0 25.555555555555557 11.1818181818184 23.96825396825397 18.636363636364 23.96825396825397 C 26.0909090909092 23.96825396825397 29.818181818181802 25.555555555555557 37.272727272727 25.555555555555557 C 44.7272727272726 25.555555555555557 48.4545454545454 22.380952380952383 55.909090909091 22.380952380952383 C 63.3636363636366 22.380952380952383 67.09090909090939 28.73015873015873 74.545454545455 28.73015873015873 C 82.0000000000002 28.73015873015873 85.72727272727279 28.73015873015873 93.181818181818 28.73015873015873 C 100.6363636363628 28.73015873015873 104.3636363636352 27.142857142857146 111.81818181818 27.142857142857146 C 119.27272727272798 27.142857142857146 123.000000000002 33.492063492063494 130.45454545455 33.492063492063494 C 137.909090909094 33.492063492063494 141.63636363636599 31.904761904761905 149.09090909091 31.904761904761905 C 156.545454545454 31.904761904761905 160.27272727272597 31.904761904761905 167.72727272727 31.904761904761905 C 175.181818181818 31.904761904761905 178.909090909092 32.857142857142684 186.36363636364 33.492063492063494 C 193.818181818184 34.126984126983956 197.545454545456 34.44444444444444 205 35.079365079365076 C 212.454545454544 35.71428571428571 216.18181818181603 36.666666666666664 223.63636363636 36.666666666666664 C 231.090909090908 36.666666666666664 234.81818181818198 30.317460317460316 242.27272727273 30.317460317460316 C 249.72727272727403 30.317460317460316 253.454545454546 35.079365079365076 260.90909090909 35.079365079365076 C 268.36363636363404 35.079365079365076 272.090909090906 35.079365079365076 279.54545454545 33.492063492063494 C 286.999999999998 31.904761904761912 290.72727272727195 23.96825396825397 298.18181818182 23.96825396825397 C 305.63636363636397 23.96825396825397 309.36363636363603 26.82539682539735 316.81818181818 28.73015873015873 C 324.27272727272805 30.634920634921162 328.000000000002 33.492063492063494 335.45454545455 33.492063492063494 C 342.909090909094 33.492063492063494 346.63636363636596 33.492063492063494 354.09090909091 28.73015873015873 C 361.545454545454 23.96825396825397 365.272727272726 3.3333333333333357 372.72727272727 3.3333333333333357 C 380.181818181818 3.3333333333333357 383.909090909092 9.68253968253968 391.36363636364 11.269841269841269 C 398.818181818184 12.857142857142858 410 12.857142857142858 410 12.857142857142858" class="highcharts-graph" stroke="#FF8028" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(37,90) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(51,311) scale(1 1)" clip-path="url(#b)">
+      <rect x="5" y="27" width="9" height="14" fill="#FF8028" class="highcharts-point"/>
+      <rect x="22" y="25" width="9" height="16" fill="#FF8028" class="highcharts-point"/>
+      <rect x="40" y="27" width="9" height="14" fill="#FF8028" class="highcharts-point"/>
+      <rect x="58" y="24" width="9" height="17" fill="#FF8028" class="highcharts-point"/>
+      <rect x="76" y="30" width="9" height="11" fill="#FF8028" class="highcharts-point"/>
+      <rect x="94" y="30" width="9" height="11" fill="#FF8028" class="highcharts-point"/>
+      <rect x="112" y="28" width="9" height="13" fill="#FF8028" class="highcharts-point"/>
+      <rect x="129" y="35" width="9" height="6" fill="#FF8028" class="highcharts-point"/>
+      <rect x="147" y="33" width="9" height="8" fill="#FF8028" class="highcharts-point"/>
+      <rect x="165" y="33" width="9" height="8" fill="#FF8028" class="highcharts-point"/>
+      <rect x="183" y="35" width="9" height="6" fill="#FF8028" class="highcharts-point"/>
+      <rect x="201" y="36" width="9" height="5" fill="#FF8028" class="highcharts-point"/>
+      <rect x="219" y="38" width="9" height="3" fill="#FF8028" class="highcharts-point"/>
+      <rect x="236" y="32" width="9" height="9" fill="#FF8028" class="highcharts-point"/>
+      <rect x="254" y="36" width="9" height="5" fill="#FF8028" class="highcharts-point"/>
+      <rect x="272" y="35" width="9" height="6" fill="#FF8028" class="highcharts-point"/>
+      <rect x="290" y="25" width="9" height="16" fill="#FF8028" class="highcharts-point"/>
+      <rect x="308" y="30" width="9" height="11" fill="#FF8028" class="highcharts-point"/>
+      <rect x="326" y="35" width="9" height="6" fill="#FF8028" class="highcharts-point"/>
+      <rect x="343" y="30" width="9" height="11" fill="#FF8028" class="highcharts-point"/>
+      <rect x="361" y="5" width="9" height="36" fill="#FF8028" class="highcharts-point"/>
+      <rect x="379" y="13" width="9" height="28" fill="#FF8028" class="highcharts-point"/>
+      <rect x="397" y="14" width="9" height="27" fill="#FF8028" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-areaspline-series highcharts-navigator-series" transform="translate(51,311) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(51,311) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:1.1em;font-weight:bold;fill:#000000;" y="20">
     <tspan>Organische Spurenstoffe in Gewässern</tspan>
@@ -208,12 +229,12 @@
   <g class="highcharts-axis-labels highcharts-yaxis-labels "/>
   <g class="highcharts-axis-labels highcharts-yaxis-labels highcharts-navigator-yaxis"/>
   <g class="highcharts-navigator" visibility="visible">
-    <rect fill="rgb(0,0,0)" fill-opacity="0" class="highcharts-navigator-mask-outside" x="51" y="311" width="130" height="40"/>
-    <rect fill="rgb(102,133,194)" fill-opacity="0.3" class="highcharts-navigator-mask-inside" style="cursor:ew-resize;" x="181" y="311" width="280" height="40"/>
-    <rect fill="rgb(0,0,0)" fill-opacity="0" class="highcharts-navigator-mask-outside" x="461" y="311" width="0" height="40"/>
-    <path fill="none" class="highcharts-navigator-outline" stroke="#cccccc" stroke-width="1" d="M 37 311.5 L 180.5 311.5 L 180.5 365.5 L 460.5 365.5 L 460.5 311.5 L 475 311.5 M 180 311.5 L 461 311.5"/>
-    <path fill="#f2f2f2" d="M -4.5 0.5 L 3.5 0.5 L 3.5 15.5 L -4.5 15.5 L -4.5 0.5 M -1.5 4 L -1.5 12 M 0.5 4 L 0.5 12" class="highcharts-navigator-handle highcharts-navigator-handle-right" stroke="#999999" stroke-width="1" style="cursor:ew-resize;" transform="translate(461,323)"/>
-    <path fill="#f2f2f2" d="M -4.5 0.5 L 3.5 0.5 L 3.5 15.5 L -4.5 15.5 L -4.5 0.5 M -1.5 4 L -1.5 12 M 0.5 4 L 0.5 12" class="highcharts-navigator-handle highcharts-navigator-handle-left" stroke="#999999" stroke-width="1" style="cursor:ew-resize;" transform="translate(181,323)"/>
+    <rect fill="rgb(0,0,0)" fill-opacity="0" class="highcharts-navigator-mask-outside" x="51" y="311" width="134" height="40"/>
+    <rect fill="rgb(102,133,194)" fill-opacity="0.3" class="highcharts-navigator-mask-inside" style="cursor:ew-resize;" x="185" y="311" width="267" height="40"/>
+    <rect fill="rgb(0,0,0)" fill-opacity="0" class="highcharts-navigator-mask-outside" x="452" y="311" width="9" height="40"/>
+    <path fill="none" class="highcharts-navigator-outline" stroke="#cccccc" stroke-width="1" d="M 37 311.5 L 184.5 311.5 L 184.5 365.5 L 451.5 365.5 L 451.5 311.5 L 475 311.5 M 184 311.5 L 452 311.5"/>
+    <path fill="#f2f2f2" d="M -4.5 0.5 L 3.5 0.5 L 3.5 15.5 L -4.5 15.5 L -4.5 0.5 M -1.5 4 L -1.5 12 M 0.5 4 L 0.5 12" class="highcharts-navigator-handle highcharts-navigator-handle-right" stroke="#999999" stroke-width="1" style="cursor:ew-resize;" transform="translate(452,323)"/>
+    <path fill="#f2f2f2" d="M -4.5 0.5 L 3.5 0.5 L 3.5 15.5 L -4.5 15.5 L -4.5 0.5 M -1.5 4 L -1.5 12 M 0.5 4 L 0.5 12" class="highcharts-navigator-handle highcharts-navigator-handle-left" stroke="#999999" stroke-width="1" style="cursor:ew-resize;" transform="translate(185,323)"/>
   </g>
   <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:0.8em;fill:#000000;" y="400">
     <tspan>Quelle: Amt für Umwelt und Energie Basel-Stadt</tspan>

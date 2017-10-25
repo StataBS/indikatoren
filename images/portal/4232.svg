@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.2
+    Created with Highstock 5.0.14
   </desc>
   <defs>
     <clipPath>
@@ -53,10 +53,10 @@
     <path fill="none" class="highcharts-axis-line" d="M 475 90 L 475 344"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(47,90) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(47,90) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 8.9166666666667 70.16750000000002 L 26.75 87.63000000000002 L 44.583333333333 72.70750000000001 L 62.416666666667 80.9625 L 80.25 102.87 L 98.083333333333 72.70750000000001 L 115.91666666667 148.2725 L 133.75 52.06999999999999 L 151.58333333333 46.99000000000001 L 169.41666666667 52.06999999999999 L 187.25 66.35750000000002 L 205.08333333333 111.125 L 222.91666666667 88.26499999999999 L 240.75 115.88750000000002 L 258.58333333333 127 L 276.41666666667 129.85750000000002 L 294.25 121.60249999999999 L 312.08333333333 148.2725 L 329.91666666667 121.60249999999999 L 347.75 148.2725 L 365.58333333333 121.60249999999999 L 383.41666666667 152.4 L 401.25 161.29000000000002 L 419.08333333333 138.43" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(47,90) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(47,90) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:1.1em;font-weight:bold;fill:#000000;" y="20">
     <tspan>Nitrat im Grundwasser</tspan>

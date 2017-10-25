@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.2
+    Created with Highstock 5.0.14
   </desc>
   <defs>
     <clipPath>
@@ -53,23 +53,23 @@
     <path fill="none" class="highcharts-axis-line" d="M 475 90 L 475 331"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(116,90) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(116,90) scale(1 1)" clip-path="url(#a)">
       <rect x="4" y="61" width="5" height="161" fill="#FF8028" class="highcharts-point"/>
       <rect x="89" y="61" width="5" height="161" fill="#FF8028" class="highcharts-point"/>
       <rect x="175" y="61" width="5" height="161" fill="#FF8028" class="highcharts-point"/>
       <rect x="260" y="21" width="5" height="201" fill="#FF8028" class="highcharts-point"/>
       <rect x="346" y="61" width="5" height="161" fill="#FF8028" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(116,90) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-column-series " transform="translate(116,90) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(116,90) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(116,90) scale(1 1)" clip-path="url(#a)">
       <rect x="146" y="142" width="5" height="80" fill="#DC440E" class="highcharts-point"/>
       <rect x="265" y="61" width="5" height="161" fill="#DC440E" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-column-series " transform="translate(116,90) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-2 highcharts-line-series " transform="translate(116,90) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(116,90) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(116,90) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 8.547619047619 60.250000000000014 L 25.642857142857 60.250000000000014 L 42.738095238095 60.250000000000014 L 59.833333333333 60.250000000000014 L 76.928571428571 60.250000000000014 L 94.02380952381 60.250000000000014 L 111.11904761905 60.250000000000014 L 128.21428571429 60.250000000000014 L 145.30952380952 60.250000000000014 L 162.40476190476 60.250000000000014 L 179.5 60.250000000000014 L 196.59523809524 60.250000000000014 L 213.69047619048 60.250000000000014 L 230.78571428571 60.250000000000014 L 247.88095238095 60.250000000000014 L 264.97619047619 60.250000000000014 L 282.07142857143 60.250000000000014 L 299.16666666667 60.250000000000014 L 316.2619047619 60.250000000000014 L 333.35714285714 60.250000000000014 L 350.45238095238 60.250000000000014" class="highcharts-graph" stroke="#444444" stroke-width="2" stroke-dasharray="6,2"/>
     </g>
-    <g class="highcharts-markers highcharts-series-2 highcharts-line-series " transform="translate(116,90) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(116,90) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:1.1em;font-weight:bold;fill:#000000;" y="20">
     <tspan>Biodiversität der Fliessgewässer</tspan>
