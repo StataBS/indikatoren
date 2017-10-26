@@ -1,4 +1,4 @@
-(function(){
+(function(){ 
   return {
     "xAxis": {
       "type": "category"

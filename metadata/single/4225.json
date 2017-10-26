@@ -16,14 +16,15 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0606' target='_blank'>Umweltbericht beider Basel</a>.",
+"erlaeuterungen":"Anteil der von ausserhalb des Kantons importierten Energie am gesamten Bruttoenergieeinsatz.Summe der von ausserhalb des Kantons importierten Energie dividiert durch den gesamten Energieverbrauch. Die kantonale Energiestatistik dient als Datengrundlage der Berechnung.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
+"orderKey":"06_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Statistisches Amt Basel-Stadt"],
-"externalLinks":[""]
+"externalLinks":["Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.statistik-bs.ch/tabellen/t08' target='_blank'>Energiestatistik Kanton Basel-Stadt</a></li></ul>"]
 }
