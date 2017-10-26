@@ -16,14 +16,15 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0613' target='_blank'>Umweltbericht beider Basel</a>.",
+"erlaeuterungen":"Jährlicher Stromverbrauch nach Produktionsart.Die Daten zum Stromverbrauch werden im Rahmen der Energiestatistik bei den Energieversorgungsunternehmen erhoben.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
+"orderKey":"06_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Statistisches Amt Basel-Stadt"],
-"externalLinks":[""]
+"externalLinks":["Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target='_blank'>Energiestatistik Kanton Basel-Stadt</a></li></ul>"]
 }

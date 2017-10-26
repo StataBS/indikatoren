@@ -16,14 +16,15 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-03-0501' target='_blank'>Umweltbericht beider Basel</a>.",
+"erlaeuterungen":"Entwicklung der Siedlungsflächen. Als Siedlungsflächen gelten in der Arealstatistik alle Flächen, bei welchen die Bodennutzung überwiegend durch Arbeiten, Wohnen, Erholung und Verkehr geprägt ist. Die Siedlungsflächen können somit auch ausserhalb der Bauzonen liegen. Zudem können sie auch Grünflächen enthalten, sofern diese Siedlungszwecken dienen (Erholungs- und Parkanlagen, Hausgärten, Golfplätze etc.).Zu den Siedlungsflächen werden in der Arealstatistik die folgenden Kategorien gezählt (Standardnomenklatur NOAS04_17):<br>- Industrie- und Gewerbeareal<br>- Gebäudeareal<br>- Verkehrsflächen<br>- Besondere Siedlungsflächen (Deponien, Baustellen etc.)<br>- Erholungs- und Grünanlagen<br><br>Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopografie (Stichpunktprobenerhebung im Abstand von 100 x 100m).<br><br>Für detaillierte Angaben zur Methodik siehe weiterführende Informationen.Im Kanton Basel-Stadt werden 3&#039;698 Punkte erfasst. ",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
+"orderKey":"05_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik"],
-"externalLinks":[""]
+"renderLink":[""],
+"quellenangabe":["Bundesamt für Statistik (BFS)"],
+"externalLinks":["Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target='_blank'>Arealstatistik Schweiz (Methode)</a></li></ul>"]
 }

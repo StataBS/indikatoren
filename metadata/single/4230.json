@@ -16,14 +16,15 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0602' target='_blank'>Umweltbericht beider Basel</a>.",
+"erlaeuterungen":"Bruttoenergieverbrauch pro Jahr nach Energieträger. Der Bruttoverbrauch zeigt die Energie in der Form, in welcher sie in den Kanton importiert oder im Kanton aus natürlichen Quellen gewonnen wird (ohne Flugtreibstoffe). Im Gegensatz dazu bildet der Endenergieverbrauch die Energie in der Form ab, wie sie beim Endverbraucher eingesetzt wird. Die Differenz zwischen den beiden Grössen entspricht den Zu- respektive Abgängen in Folge der Umwandlung in Elektrizität und Fernwärme.Der Bruttoenergieverbrauch wird für die leitungsgebundenen Energieträger erhoben und für die nicht leitungsgebundenen Energieträger geschätzt. Für detaillierte Angaben zur Methodik siehe weiterführende Informationen.",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
+"orderKey":"06_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Statistisches Amt Basel-Stadt"],
-"externalLinks":[""]
+"externalLinks":["Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target='_blank'>Energiestatistik Kanton Basel-Stadt</a></li></ul>"]
 }

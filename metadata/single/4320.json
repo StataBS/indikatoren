@@ -16,14 +16,15 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-03-1703' target='_blank'>Umweltbericht beider Basel</a>.",
+"erlaeuterungen":"Die durchschnittliche Wohnfläche pro Bewohner erlaubt Aussagen über die Wohnraumverhältnisse, nicht aber über die Verteilung des Wohnraums oder über die Wohnraumqualität.Die Berechnung dieses Indikators basiert auf dem Gebäude- und Wohnungsregister (GWR) sowie dem amtlichen Personenregister. Zur Berechnung der durchschnittlichen Wohnfläche pro Bewohner wird die Gesamtfläche der bewohnten Wohnungen durch die Summe der zugeordneten Bewohner dividiert.<br>Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone).<br>Für die Berechnung werden sämtliche einer Wohnung zugeordneten Bewohner berücksichtigt, unabhängig von ihrem Meldeverhältnis (Niedergelassene und Aufenthalter). Personen mit mehreren Wohnsitzen werden entsprechend mehrmals gezählt. Für detaillierte Angaben zur Methodik siehe weiterführende Informationen. ",
 "template":"dotplot",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
+"orderKey":"17_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik"],
-"externalLinks":[""]
+"renderLink":[""],
+"quellenangabe":["Bundesamt für Statistik (BFS)"],
+"externalLinks":["Weiterführende Informationen zum Indikator:<ul><li><a href='https://www.bfs.admin.ch/bfs/de/home/statistiken/bau-wohnungswesen/wohnungen/wohnverhaeltnisse.html' target='_blank'>Wohnverhältnisse Schweiz (BFS)</a></li></ul>"]
 }

@@ -20,10 +20,11 @@
 "template":"dotplot",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
+"orderKey":"03_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik"],
+"renderLink":[""],
+"quellenangabe":["Bundesamt für Statistik (BFS)"],
 "externalLinks":[""]
 }
