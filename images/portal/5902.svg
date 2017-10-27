@@ -1,0 +1,105 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+  <desc>
+    Created with Highstock 5.0.14
+  </desc>
+  <defs>
+    <clipPath>
+      <rect x="0" y="0" width="255" height="329" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="485" height="415" rx="0" ry="0"/>
+  <rect fill="none" class="highcharts-plot-background" x="10" y="41" width="255" height="329"/>
+  <g class="highcharts-pane-group"/>
+  <rect fill="none" class="highcharts-plot-border" x="10" y="41" width="255" height="329"/>
+  <g class="highcharts-series-group">
+    <g class="highcharts-series highcharts-series-0 highcharts-pie-series highcharts-color-undefined " transform="translate(10,41) scale(1 1)">
+      <path fill="#50B432" d="M 127.97606839856581 47.500002437113 A 117.5 117.5 0 0 1 231.9493065202521 110.22051776478096 L 148.78986130405042 154.0441035529562 A 23.5 23.5 0 0 0 127.99521367971316 141.5000004874226 Z" transform="translate(0,0)" stroke="#ffffff" stroke-width="1" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+      <path fill="#ED561B" d="M 232.00403401870847 110.32449444371517 A 117.5 117.5 0 0 1 65.4658383397982 264.47727693024046 L 115.49316766795964 184.8954553860481 A 23.5 23.5 0 0 0 148.8008068037417 154.06489888874304 Z" transform="translate(0,0)" stroke="#ffffff" stroke-width="1" stroke-linejoin="round" class="highcharts-point highcharts-color-1"/>
+      <path fill="#DDDF00" d="M 65.36639234652574 264.4146930403683 A 117.5 117.5 0 0 1 127.83679485727659 47.50011334438918 L 127.96735897145531 141.50002266887785 A 23.5 23.5 0 0 0 115.47327846930514 184.88293860807366 Z" transform="translate(0,0)" stroke="#ffffff" stroke-width="1" stroke-linejoin="round" class="highcharts-point highcharts-color-2"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-0 highcharts-pie-series highcharts-color-undefined " transform="translate(10,41) scale(1 1)"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-pie-series highcharts-color-undefined " transform="translate(10,41) scale(1 1)">
+      <path fill="#50B432" d="M 127.97606839856581 47.500002437113 A 117.5 117.5 0 0 1 218.54656834501486 90.11629709381651 L 182.32794100700892 120.06977825628991 A 70.5 70.5 0 0 0 127.9856410391395 94.50000146226779 Z" transform="translate(0,0)" stroke="#ffffff" stroke-width="1" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+      <path fill="#ED561B" d="M 218.62140676216003 90.20688108891878 A 117.5 117.5 0 0 1 78.24958094544796 271.4478548581251 L 98.14974856726877 228.86871291487506 A 70.5 70.5 0 0 0 182.37284405729602 120.12412865335126 Z" transform="translate(0,0)" stroke="#ffffff" stroke-width="1" stroke-linejoin="round" class="highcharts-point highcharts-color-1"/>
+      <path fill="#DDDF00" d="M 78.1431579835386 271.39805122343927 A 117.5 117.5 0 0 1 127.83679485727659 47.50011334438918 L 127.90207691436595 94.50006800663351 A 70.5 70.5 0 0 0 98.08589479012316 228.83883073406358 Z" transform="translate(0,0)" stroke="#ffffff" stroke-width="1" stroke-linejoin="round" class="highcharts-point highcharts-color-2"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-1 highcharts-pie-series highcharts-color-undefined " transform="translate(10,41) scale(1 1)"/>
+  </g>
+  <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
+    <tspan>Unterwegsdistanz nach Verkehrsmittel</tspan>
+  </text>
+  <g class="highcharts-data-labels highcharts-series-0 highcharts-pie-series highcharts-color-undefined " visibility="visible" transform="translate(10,41) scale(1 1)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="cursor:true;" transform="translate(137,114)">
+      <text x="5" style="font-size:10px;font-weight:normal;color:black;fill:black;" y="15">
+        <tspan x="5" y="15" class="highcharts-text-outline" fill="black" stroke="black" stroke-width="0px" stroke-linejoin="round" style="">17%</tspan><tspan x="5" y="15">17%</tspan>
+      </text>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-1 " style="cursor:true;" transform="translate(145,189)">
+      <text x="5" style="font-size:10px;font-weight:normal;color:black;fill:black;" y="15">
+        <tspan x="5" y="15" class="highcharts-text-outline" fill="black" stroke="black" stroke-width="0px" stroke-linejoin="round">42%</tspan><tspan x="5" y="15">42%</tspan>
+      </text>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-2 " style="cursor:true;" transform="translate(67,141)">
+      <text x="5" style="font-size:10px;font-weight:normal;color:black;fill:black;" y="15">
+        <tspan x="5" y="15" class="highcharts-text-outline" fill="black" stroke="black" stroke-width="0px" stroke-linejoin="round">41%</tspan><tspan x="5" y="15">41%</tspan>
+      </text>
+    </g>
+  </g>
+  <g class="highcharts-data-labels highcharts-series-1 highcharts-pie-series highcharts-color-undefined " visibility="visible" transform="translate(10,41) scale(1 1)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="cursor:true;" transform="translate(150,75)">
+      <text x="5" style="font-size:10px;font-weight:normal;color:black;fill:black;" y="15">
+        <tspan x="5" y="15" class="highcharts-text-outline" fill="black" stroke="black" stroke-width="0px" stroke-linejoin="round">14%</tspan><tspan x="5" y="15">14%</tspan>
+      </text>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-1 " style="cursor:true;" transform="translate(182,208)">
+      <text x="5" style="font-size:10px;font-weight:normal;color:black;fill:black;" y="15">
+        <tspan x="5" y="15" class="highcharts-text-outline" fill="black" stroke="black" stroke-width="0px" stroke-linejoin="round">43%</tspan><tspan x="5" y="15">43%</tspan>
+      </text>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-2 " style="cursor:true;" transform="translate(27,135)">
+      <text x="5" style="font-size:10px;font-weight:normal;color:black;fill:black;" y="15">
+        <tspan x="5" y="15" class="highcharts-text-outline" fill="black" stroke="black" stroke-width="0px" stroke-linejoin="round">43%</tspan><tspan x="5" y="15">43%</tspan>
+      </text>
+    </g>
+  </g>
+  <g class="pieLegend" transform="translate(285,120)">
+    <text x="3" style="font-size:12px;font-weight:bold;" y="15">
+      <tspan>Innen: 2010</tspan>
+    </text>
+  </g>
+  <g class="pieLegend" transform="translate(285,100)">
+    <text x="3" style="font-size:12px;font-weight:bold;" y="15">
+      <tspan>Aussen: 2015</tspan>
+    </text>
+  </g>
+  <g class="highcharts-legend" transform="translate(277,156)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="197" height="68" visibility="visible"/>
+    <g>
+      <g>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-0" transform="translate(8,3)">
+          <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
+            <tspan>Langsamverkehr</tspan>
+          </text>
+          <rect x="2" y="4" width="12" height="12" fill="#50B432" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-1" transform="translate(8,22)">
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>Motorisierter Individualverkehr</tspan>
+          </text>
+          <rect x="2" y="4" width="12" height="12" fill="#ED561B" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-2" transform="translate(8,41)">
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>Öffentlicher Verkehr</tspan>
+          </text>
+          <rect x="2" y="4" width="12" height="12" fill="#DDDF00" class="highcharts-point"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">
+    <tspan>Quelle: Bundesamt für Raumentwicklung, Mikrozensus zum Verkehrsverhalten</tspan>
+  </text>
+</svg>

@@ -1,0 +1,93 @@
+(function(){
+    return {
+	chart: {		
+    events:{
+          load: function() {
+              this.credits.element.onclick = function() {}
+          }
+      },
+		"borderColor": "#fbfbfb",
+		"backgroundColor": "#fbfbfb",
+		"zoomType": "xy",
+		"width": 320,
+    	"height": 208,
+    	spacing: [7,3,8,3], /*top, right, bottom and left */
+		"style": {
+		 "fontFamily": "Arial"
+		},
+		"type": "line"    
+		},
+  "title": {
+    "style": {
+      "fontSize": '10px',
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": '10px',
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "yAxis": {
+    "min": 0,
+    gridLineColor: '#B9CFD7', 
+    gridLineWidth: 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+      	"fontSize": 10,
+        "color": "#000000"
+      }
+    }
+  },
+  "xAxis": {
+    lineColor: '#B9CFD7', 
+    lineWidth: 0.5,
+    "labels": {
+      "style": {
+      	"fontSize": 10,
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0
+  },
+  "credits": {
+    "href": "http://www.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": '10px',
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10
+    }
+  },
+  "legend": {
+    "enabled": false,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0,
+    itemStyle:{"fontSize": "10px"}
+  }
+	};
+}());

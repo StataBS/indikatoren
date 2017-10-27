@@ -82,6 +82,22 @@
                 }
             }
     	}, 
+    	xAxis: {
+    		events: {
+				//hide svg elements on zoom
+				afterSetExtremes: function(e){
+					var divId = e['target']['chart']['renderTo']['id'] || 'dummySettingForExportServer';
+					var divIdString = '#' + divId;
+					divIdString = '';
+					//only care about zoom events, not pan
+					if (e.trigger != 'pan'){
+						//determine current zoom level
+						var zoom = (e.dataMax - e.dataMin) / (e.max - e.min);
+						$(divIdString + ' .pieLegendHideOnZoom').attr('visibility', zoom == 1 ? 'inherit' : 'hidden');
+					}
+				}
+			}
+    	},
     	
 		/* series with fixed data that should be added to the series object after merging with csv data */
 		"afterSeries": [
@@ -376,34 +392,43 @@
     			        }).add();	                
                 },
     	                
-                addLegendCircle: function(chart, x, y, radius, fill){
+                addLegendCircle: function(chart, x, y, radius, fill, cssClass){
                 	return chart.renderer.circle(x, y, radius, fill).attr({
     				    fill: fill,
     				    stroke: fill,
     				    'stroke-width': 1, 
     				    zIndex: 6,
-    				    class: 'pieLegend'
+    				    class: cssClass + ' pieLegend'
     				}).add();
                 },
     	                
     	                
-                addLegendLabel: function(chart, text, x, y, useHtml){
+                addLegendLabel: function(chart, text, x, y, cssClass, useHtml){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
     					zIndex: 6,
-    					class: 'pieLegend'
+    					class: cssClass + ' pieLegend'
     				}).add();
                 },
                 
-                addLegendSquare: function(chart, x, y, width, fill){
+                 addLegendLabelbold: function(chart, text, x, y, cssClass, useHtml){
+    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).
+    				attr({
+    					zIndex: 6,
+    					class: cssClass +' pieLegend'	})
+    				.css({
+                        fontWeight: 'bold' }).
+                     add();
+                },
+                
+                addLegendSquare: function(chart, x, y, width, fill, cssClass){
                 	return chart.renderer.rect(x, y, width, width, 0).attr({
     		            'stroke-width':0,
     		            fill: fill,
     		            zIndex: 6,
-    		            class: 'pieLegend'
+    		            class: cssClass + ' pieLegend'
     	        	}).add();
                 },
-                
-                
+                                
 
 				//Add click handler to bubbleLegend items
 				AddPieLegendClickHandler: function(chart){

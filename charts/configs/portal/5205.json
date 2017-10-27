@@ -1,0 +1,383 @@
+{
+  "series": [
+    {
+      "color": "#246370",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 0,
+      "data": [
+        [
+          2006,
+          5605
+        ],
+        [
+          2007,
+          5595
+        ],
+        [
+          2008,
+          6225
+        ],
+        [
+          2009,
+          5851
+        ],
+        [
+          2010,
+          5928
+        ],
+        [
+          2011,
+          6131
+        ],
+        [
+          2012,
+          5969
+        ],
+        [
+          2013,
+          6184
+        ],
+        [
+          2014,
+          5631
+        ],
+        [
+          2015,
+          6208
+        ],
+        [
+          2016,
+          6527
+        ]
+      ],
+      "name": "Zuzug aus der Schweiz"
+    },
+    {
+      "color": "#007A2F",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 1,
+      "data": [
+        [
+          2006,
+          -6948
+        ],
+        [
+          2007,
+          -7296
+        ],
+        [
+          2008,
+          -7111
+        ],
+        [
+          2009,
+          -6940
+        ],
+        [
+          2010,
+          -6650
+        ],
+        [
+          2011,
+          -6920
+        ],
+        [
+          2012,
+          -6626
+        ],
+        [
+          2013,
+          -7053
+        ],
+        [
+          2014,
+          -6908
+        ],
+        [
+          2015,
+          -7262
+        ],
+        [
+          2016,
+          -7518
+        ]
+      ],
+      "name": "Wegzug in die Schweiz"
+    },
+    {
+      "color": "#A8C3CA",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 2,
+      "data": [
+        [
+          2006,
+          6494
+        ],
+        [
+          2007,
+          6965
+        ],
+        [
+          2008,
+          7789
+        ],
+        [
+          2009,
+          7432
+        ],
+        [
+          2010,
+          7482
+        ],
+        [
+          2011,
+          8016
+        ],
+        [
+          2012,
+          7996
+        ],
+        [
+          2013,
+          8953
+        ],
+        [
+          2014,
+          7872
+        ],
+        [
+          2015,
+          8027
+        ],
+        [
+          2016,
+          8291
+        ]
+      ],
+      "name": "Zuzug aus dem Ausland"
+    },
+    {
+      "color": "#8AB77D",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 4,
+      "data": [
+        [
+          2006,
+          -3931
+        ],
+        [
+          2007,
+          -3940
+        ],
+        [
+          2008,
+          -3864
+        ],
+        [
+          2009,
+          -3843
+        ],
+        [
+          2010,
+          -4077
+        ],
+        [
+          2011,
+          -4331
+        ],
+        [
+          2012,
+          -4286
+        ],
+        [
+          2013,
+          -4684
+        ],
+        [
+          2014,
+          -4604
+        ],
+        [
+          2015,
+          -4933
+        ],
+        [
+          2016,
+          -5004
+        ]
+      ],
+      "name": "Wegzug ins Ausland"
+    },
+    {
+      "color": "#000000",
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
+      "legendIndex": 4,
+      "data": [
+        [
+          2006,
+          392
+        ],
+        [
+          2007,
+          559
+        ],
+        [
+          2008,
+          2034
+        ],
+        [
+          2009,
+          1666
+        ],
+        [
+          2010,
+          263
+        ],
+        [
+          2011,
+          1668
+        ],
+        [
+          2012,
+          1738
+        ],
+        [
+          2013,
+          1899
+        ],
+        [
+          2014,
+          793
+        ],
+        [
+          2015,
+          712
+        ],
+        [
+          2016,
+          902
+        ]
+      ],
+      "name": "Wanderungssaldo Total"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-5205"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Wanderungssaldo"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": true,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": -20000,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 10000
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 40,
+    "x": 40,
+    "itemMarginBottom": 5,
+    "itemWidth": 200,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "normal",
+      "pointPadding": 0,
+      "groupPadding": 0.5,
+      "borderWidth": 0
+    }
+  },
+  "exporting": {
+    "filename": "I.01.5.05205"
+  }
+}

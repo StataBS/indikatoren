@@ -1,0 +1,319 @@
+{
+  "series": [
+    {
+      "color": "#b475ab",
+      "index": 3,
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 3,
+      "data": [
+        [
+          "1990",
+          35.3
+        ],
+        [
+          "2000",
+          28.9
+        ],
+        [
+          "2010",
+          25.6
+        ],
+        [
+          "2011",
+          25.6
+        ],
+        [
+          "2012",
+          23.8
+        ],
+        [
+          "2013",
+          24.5
+        ],
+        [
+          "2014",
+          23.7
+        ],
+        [
+          "2015",
+          23.8
+        ]
+      ],
+      "name": "Sekundarstufe I",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#a8c4cb",
+      "index": 2,
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 1,
+      "data": [
+        [
+          "1990",
+          48.4
+        ],
+        [
+          "2000",
+          40.6
+        ],
+        [
+          "2010",
+          40.5
+        ],
+        [
+          "2011",
+          39.7
+        ],
+        [
+          "2012",
+          40
+        ],
+        [
+          "2013",
+          39.5
+        ],
+        [
+          "2014",
+          38.9
+        ],
+        [
+          "2015",
+          38
+        ]
+      ],
+      "name": "Sekundarstufe II",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fabd24",
+      "index": 1,
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 2,
+      "data": [
+        [
+          "1990",
+          13.3
+        ],
+        [
+          "2000",
+          19.8
+        ],
+        [
+          "2010",
+          31.7
+        ],
+        [
+          "2011",
+          33.1
+        ],
+        [
+          "2012",
+          34.4
+        ],
+        [
+          "2013",
+          36
+        ],
+        [
+          "2014",
+          37.5
+        ],
+        [
+          "2015",
+          38.2
+        ]
+      ],
+      "name": "Tertiärstufe",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 0,
+      "data": [
+        [
+          "1990",
+          3.1
+        ],
+        [
+          "2000",
+          10.6
+        ],
+        [
+          "2010",
+          2.3
+        ],
+        [
+          "2011",
+          1.6
+        ],
+        [
+          "2012",
+          1.9
+        ],
+        [
+          "2013",
+          null
+        ],
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          null
+        ]
+      ],
+      "name": "Ohne Angabe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 320,
+    "height": 208,
+    "spacing": [
+      7,
+      3,
+      8,
+      3
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "renderTo": "container-8005"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      },
+      "stacking": "normal",
+      "pointPadding": 0,
+      "groupPadding": 0.5
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "max": 100,
+    "tickInterval": 50
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 35,
+    "itemWidth": 120,
+    "itemMarginBottom": 5
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": 10
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "I.09.1.05816"
+  }
+}

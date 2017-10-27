@@ -133,6 +133,7 @@
   },
   "plotOptions": {
     "series": {
+      "borderWidth": 1,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -160,6 +161,8 @@
     "align": "left"
   },
   "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
     "uniqueNames": true,
     "title": {
       "style": {
@@ -176,6 +179,8 @@
   },
   "yAxis": [
     {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
       "labels": {
         "format": "{value:,.0f}",
         "style": {
@@ -186,6 +191,8 @@
       "title": ""
     },
     {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0,
       "title": {
         "style": {
           "color": "#000000",
@@ -202,7 +209,6 @@
       },
       "min": 0,
       "max": 24,
-      "gridLineWidth": 0,
       "opposite": true
     }
   ],

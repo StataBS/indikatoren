@@ -131,14 +131,17 @@ function injectMetadataToChartConfig(options, data, view, suppressNumberInTitle)
 function createEmptyLabels(options){
   var newOptions = options;
   newOptions.series.forEach(function(serie){
-    serie.data.forEach(function(dataItem){
-      var re = /^[.]+$/; 
-      //test if string contains only dots (.), see http://stackoverflow.com/questions/18358480/regular-expression-to-check-contains-only
-      if (re.test(dataItem[0])){
-        //perform global replace of . with /g, see http://www.w3schools.com/jsref/jsref_replace.asp
-        dataItem[0] = dataItem[0].replace(/./g, ' ');
-      }
-    });
+    //check if serie contains data node
+    if (serie.data){
+      serie.data.forEach(function(dataItem){
+        var re = /^[.]+$/; 
+        //test if string contains only dots (.), see http://stackoverflow.com/questions/18358480/regular-expression-to-check-contains-only
+        if (re.test(dataItem[0])){
+          //perform global replace of . with /g, see http://www.w3schools.com/jsref/jsref_replace.asp
+          dataItem[0] = dataItem[0].replace(/./g, ' ');
+        }
+      });
+    }
   });
   return newOptions;
 }
