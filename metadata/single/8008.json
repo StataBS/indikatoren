@@ -20,7 +20,7 @@
 "template":"mappie001_print",
 "option":"options001",
 "visible":true,
-"visibleInPortal":true,
+"visibleInPortal":false,
 "orderKey":"_000",
 "parentId":null,
 "children":[],
