@@ -84,6 +84,8 @@
   "xAxis": {
     "type": "category",
     "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
     "tickColor": "#FFFFFF",
     "title": {
       "style": {
@@ -152,6 +154,7 @@
   },
   "plotOptions": {
     "series": {
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -162,6 +165,9 @@
   },
   "yAxis": {
     "tickInterval": 10,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000",

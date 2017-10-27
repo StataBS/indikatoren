@@ -115,7 +115,7 @@ function initializeFilterJS(indikatorenset){
 
   if (isIndikatorensetView(view)){ 
     //Indikatorenset View
-    sortOptions = {'kuerzelKunde': 'asc'};
+    sortOptions = {'orderKey': 'asc'};
     prepareIndikatorensetView(indikatorenset);
 
     //define filter.js configuration 
@@ -210,6 +210,10 @@ function getSortOptions(name){
       return {'kuerzelKunde': 'asc'};
     case 'kuerzelkunde_desc':
       return {'kuerzelKunde': 'desc'};
+    case 'orderKey_asc':
+      return {'orderKey': 'asc'};
+    case 'orderKey_desc':
+      return {'orderKey': 'desc'};
     default : 
       return {'kuerzel': 'asc'};     
   }

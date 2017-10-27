@@ -31,12 +31,17 @@
 			global $
 			global indikatoren
 			*/
-			var indikatorensetView = (window.decodeURIComponent($.url('?indikatorensetView')) === 'true') ? true : false;
+            var viewFromUrl = window.decodeURIComponent($.url('?view'));
+            var view = 'portal';
+            if (!(viewFromUrl == 'indikatorenset' || viewFromUrl == 'portal' || viewFromUrl == 'print')) {
+              view = viewFromUrl;
+            }
+
 
 			$(document).ready(function(){
 				$.each(indikatoren, function(index, item){
 					$('<iframe/>', {
-						src: 'chart.html?id=' + item.id + '&kuerzel=' + item.kuerzel + '&thumbnailOfflineExporting=true&thumbnailType=svg&indikatorensetView=' + indikatorensetView,
+						src: 'chart.html?id=' + item.id + '&kuerzel=' + item.kuerzel + '&thumbnailOfflineExporting=true&thumbnailType=svg&view=' + view,
 						frameborder: 0,
 						class: "noScrolling",
 						scrolling: "no",

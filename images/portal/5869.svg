@@ -1,0 +1,130 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 208">
+  <desc>
+    Created with Highstock 5.0.14
+  </desc>
+  <defs>
+    <clipPath>
+      <rect x="0" y="0" width="314" height="123" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="320" height="208" rx="0" ry="0"/>
+  <rect fill="none" class="highcharts-plot-background" x="3" y="82" width="314" height="123"/>
+  <g class="highcharts-pane-group"/>
+  <rect fill="none" class="highcharts-plot-border" x="3" y="82" width="314" height="123"/>
+  <g class="highcharts-series-group">
+    <g class="highcharts-series highcharts-series-0 highcharts-pie-series highcharts-color-undefined " transform="translate(3,82) scale(1 1)">
+      <path fill="#007A2F" d="M 156.9882429643167 4.275001197296575 A 57.725 57.725 0 0 1 194.3548074029242 17.990978323865917 L 157 62 A 0 0 0 0 0 157 62 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+      <path fill="#68AB2B " d="M 194.39879773986337 18.028355129552047 A 57.725 57.725 0 0 1 213.91229897330936 52.347754117685895 L 157 62 A 0 0 0 0 0 157 62 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-1"/>
+      <path fill="#73B97C" d="M 213.92192276143587 52.40467123329636 A 57.725 57.725 0 0 1 154.5645161082043 119.67359918726075 L 157 62 A 0 0 0 0 0 157 62 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-2"/>
+      <path fill="#990300" d="M 154.50684373637114 119.67113486697767 A 57.725 57.725 0 0 1 106.35795710332005 89.70485726819086 L 157 62 A 0 0 0 0 0 157 62 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-3"/>
+      <path fill="#6F6F6F" d="M 106.33027757168868 89.65420138130705 A 57.725 57.725 0 0 1 108.9188776522571 30.056592248456376 L 157 62 A 0 0 0 0 0 157 62 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-4"/>
+      <path fill="#3C3C3C" d="M 108.95084509524389 30.008527105824705 A 57.725 57.725 0 0 1 143.93056167692973 5.773979271875717 L 157 62 A 0 0 0 0 0 157 62 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-5"/>
+      <path fill="#008AC3" d="M 143.98679422300546 5.760937948738899 A 57.725 57.725 0 0 1 156.9198211330748 4.275055683445665 L 157 62 A 0 0 0 0 0 157 62 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-6"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-0 highcharts-pie-series highcharts-color-undefined " transform="translate(3,82) scale(1 1)"/>
+  </g>
+  <text x="3" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:10px;font-weight:bold;fill:#000000;" y="14">
+    <tspan>Anteil Fläche nach Art der Bodenbedeckung</tspan>
+  </text>
+  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:arial;fill:#000000;" y="32">
+    <tspan>Stand 2016</tspan>
+  </text>
+  <g class="highcharts-data-labels highcharts-series-0 highcharts-pie-series highcharts-color-undefined " visibility="visible" transform="translate(3,82) scale(1 1)">
+    <path fill="none" class="highcharts-data-label-connector highcharts-color-0" stroke="#007A2F" stroke-width="1" d="M 183.64611702841796 2.628349415087456 L 177.26573491421038 6.382619679569723 L 176.9206393856585 7.32118724569029"/>
+    <path fill="none" class="highcharts-data-label-connector highcharts-color-1" stroke="#68AB2B " stroke-width="1" d="M 216.54544292718396 30.528718449548805 L 208.06705677001003 32.503770282180206 L 207.19746023071653 32.99753324033806"/>
+    <path fill="none" class="highcharts-data-label-connector highcharts-color-2" stroke="#73B97C" stroke-width="1" d="M 209.0038301995477 103.03390869605325 L 201.00637590224693 100.3852736257589 L 200.25701232792173 99.72311485818531"/>
+    <path fill="none" class="highcharts-data-label-connector highcharts-color-3" stroke="#990300" stroke-width="1" d="M 118.83604831469063 114.74075444257403 L 125.95092765691842 111.34556882646727 L 126.47964749247537 110.49677242244059"/>
+    <path fill="none" class="highcharts-data-label-connector highcharts-color-4" stroke="#6F6F6F" stroke-width="1" d="M 89.33442439854949 58.77030046728754 L 98.33063487931157 58.94437457060919 L 99.3296874995021 58.9878930964396"/>
+    <path fill="none" class="highcharts-data-label-connector highcharts-color-5" stroke="#3C3C3C" stroke-width="1" d="M 102.48055306245837 23 L 123.56908225487534 13.219575771139832 L 124.13836139910904 14.041720074738983"/>
+    <path fill="none" class="highcharts-data-label-connector highcharts-color-6" stroke="#008AC3" stroke-width="1" d="M 144.88219808958186 0 L 150.3361033529007 3.1543222982475045 L 150.4495796687304 4.147862999852485"/>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="cursor:true;" transform="translate(189,-7)">
+      <text x="5" style="font-size:10px;font-weight:normal;color:black;fill:black;" y="15">
+        <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">11.2%</tspan><tspan x="5" y="15">11.2%</tspan>
+      </text>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-1 " style="cursor:true;" transform="translate(222,21)">
+      <text x="5" style="font-size:10px;font-weight:normal;color:black;fill:black;" y="15">
+        <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">11.1%</tspan><tspan x="5" y="15">11.1%</tspan>
+      </text>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-2 " style="cursor:true;" transform="translate(214,93)">
+      <text x="5" style="font-size:10px;font-weight:normal;color:black;fill:black;" y="15">
+        <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">28.3%</tspan><tspan x="5" y="15">28.3%</tspan>
+      </text>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-3 " style="cursor:true;" transform="translate(76,105)">
+      <text x="5" style="font-size:10px;font-weight:normal;color:black;fill:black;" y="15">
+        <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">16.4%</tspan><tspan x="5" y="15">16.4%</tspan>
+      </text>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-4 " style="cursor:true;" transform="translate(46,49)">
+      <text x="5" style="font-size:10px;font-weight:normal;color:black;fill:black;" y="15">
+        <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">17.3%</tspan><tspan x="5" y="15">17.3%</tspan>
+      </text>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-5 " style="cursor:true;" transform="translate(59,13)">
+      <text x="5" style="font-size:10px;font-weight:normal;color:black;fill:black;" y="15">
+        <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">12.0%</tspan><tspan x="5" y="15">12.0%</tspan>
+      </text>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-6 " style="cursor:true;" transform="translate(107,-10)">
+      <text x="5" style="font-size:10px;font-weight:normal;color:black;fill:black;" y="15">
+        <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">3.6%</tspan><tspan x="5" y="15">3.6%</tspan>
+      </text>
+    </g>
+  </g>
+  <g class="highcharts-legend" transform="translate(13,7)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="236" height="63" visibility="visible"/>
+    <g>
+      <g>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-0" transform="translate(8,3)">
+          <text x="21" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="13">
+            <tspan>Wald</tspan>
+          </text>
+          <rect x="3" y="4" width="10" height="10" fill="#007A2F" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-1" transform="translate(128,3)">
+          <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>Acker, Wiese, …</tspan><title>Acker, Wiese, Weide</title>
+          </text>
+          <rect x="3" y="4" width="10" height="10" fill="#68AB2B " class="highcharts-point"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-2" transform="translate(8,16)">
+          <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>Übrige Grünflä…</tspan><title>Übrige Grünfläche</title>
+          </text>
+          <rect x="3" y="4" width="10" height="10" fill="#73B97C" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-3" transform="translate(128,16)">
+          <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>Gebäude</tspan>
+          </text>
+          <rect x="3" y="4" width="10" height="10" fill="#990300" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-4" transform="translate(8,29)">
+          <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>Verkehrsfläche</tspan>
+          </text>
+          <rect x="3" y="4" width="10" height="10" fill="#6F6F6F" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-5" transform="translate(128,29)">
+          <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>Übrige befestig…</tspan><title>Übrige befestigte Fläche</title>
+          </text>
+          <rect x="3" y="4" width="10" height="10" fill="#3C3C3C" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-6" transform="translate(8,42)">
+          <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>Gewässer</tspan>
+          </text>
+          <rect x="3" y="4" width="10" height="10" fill="#008AC3" class="highcharts-point"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="193">
+    <tspan>Quelle: Grundbuch- und Vermessungsamt Basel-Stadt</tspan>
+  </text>
+</svg>

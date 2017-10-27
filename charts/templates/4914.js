@@ -1,6 +1,8 @@
 (function(){
     return {
   "yAxis": [{
+    gridLineColor: '#B9CFD7', 
+    gridLineWidth: 0.5,
     "title": {
       "style": {
         "color": "#000000",
@@ -17,6 +19,8 @@
     "min": 0
   },
   {
+    gridLineColor: '#B9CFD7', 
+    gridLineWidth: 0.5,
     "title": {
       "style": {
         "color": "#000000",

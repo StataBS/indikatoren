@@ -1,3 +1,6 @@
+// create svg images using casper.js
+// this is sometimes necessary if the chart can somehow not be generated using the highchart-export-server. 
+
 // invoke in bash using this command line: 
 // node node_modules/casperjs/bin/casperjs.js build/createUmweltberichtConfigs.js
 
@@ -47,9 +50,13 @@ while (ubFileList.length > 0) {
         var currentConfig = require(fs.workingDirectory + "/" + pathBase + id + ".json");
         //define which charts need to be rendered here
         if (
-            (   /*currentConfig.template.indexOf("mappie") > -1 || */
+            (   /*
+                currentConfig.template.indexOf("mappie") > -1 || 
                 id == 5902 || 
                 id == 5910
+                */
+                // currently no charts need to be rendered using casper, all work with highchart export server, yay!
+                false
             ) 
         && currentConfig.visible) {
             var url = urlbase + currentConfig.id; 
