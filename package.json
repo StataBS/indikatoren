@@ -6,7 +6,7 @@
     "bootstrap": "3.3.7",
     "bootstrap-multiselect": "0.9.13-1",
     "highcharts": "5.0.7",
-    "highcharts-export-csv": "1.4.4",
+    "highcharts-export-csv": "1.4.8",
     "jquery": "3.1.1",
     "proj4": "2.4.3",
     "seedrandom": "2.4.2"
