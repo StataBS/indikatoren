@@ -6,8 +6,12 @@ var indikatorensetNames = [];
 var files = glob.sync("metadata/single/*.json");
 files.forEach(function(filepath){
     var fileContents = fs.readFileSync(filepath);
-    var indikator = JSON.parse(fileContents)
+    var indikator = JSON.parse(fileContents);
     if (indikator.visible == undefined || indikator.visible){
+        //if no orderKey defined yet, take kuerzelKunde as orderKey
+        if(!indikator.orderKey){
+            indikator.orderKey = indikator.kuerzelKunde;
+        }
         console.log('Adding chart ' + indikator.id + ' to Indikatorenset ' + indikator.kennzahlenset + '...');
         saveToIndikatorensetJson(indikator.id, indikator, console);
     }
@@ -20,7 +24,7 @@ files.forEach(function(filepath){
 console.log('deleting previous kennzahlenset files...');
 var rimraf = require("rimraf");
 rimraf('metadata/sets/*', function(error) {
-    if (error) { throw error; };
+    if (error) { throw error; }
     saveIndikatorenSets(indikatorensets);
     saveToJsonFile('indikatorensetNames', indikatorensetNames, console);
 });
@@ -52,4 +56,4 @@ function saveToIndikatorensetJson(kuerzel, obj, console){
 function saveToJsonFile(name, obj, console){
     var jsonFile = "var " + name + " = " + JSON.stringify(obj, null, '\t') + ";";
     fs.writeFile('metadata/sets/' + name + '.js', jsonFile);
-};
+}

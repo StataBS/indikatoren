@@ -3,7 +3,7 @@
 	    "chart": {		
         "events":{
               load: function() {
-                  this.credits.element.onclick = function() {}
+                  this.credits.element.onclick = function() {};
               }
           },
     		"borderColor": "#fbfbfb",
@@ -19,6 +19,7 @@
     	},
     	"plotOptions": {
     		"pie": {
+    		  borderWidth: 0,
     			"allowPointSelect": true,
     			"cursor": true,
     			"showInLegend": true,

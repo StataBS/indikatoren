@@ -49,8 +49,8 @@
 				"animation": true,
 				"mapData": geojson_wohnviertel,
 				"borderColor": "#fbfbfb",		
-				"joinBy": ['TXT', 'Wohnviertel Id'],
-				"keys": ['Wohnviertel Id', 'value'],
+				"joinBy": ['TXT', 'Wohnviertel_Id'],
+				"keys": ['Wohnviertel_Id', 'value'],
 				"states": {
 					"hover": {
 						"enabled": false,

@@ -37,7 +37,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0.1.A"
 	},
 	{
 		"title": "Mietpreisentwicklung",
@@ -76,7 +77,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0.1.B-1"
 	},
 	{
 		"title": "Mietpreisentwicklung der Leerwohnungen",
@@ -155,7 +157,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0.1.B-3"
 	},
 	{
 		"title": "Wohnungsbelegung",
@@ -194,7 +197,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0.1.C"
 	},
 	{
 		"title": "Bevölkerung am Jahresende",
@@ -234,7 +238,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1.1.A"
 	},
 	{
 		"title": "Anzahl Wohnungen",
@@ -273,7 +278,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1.2.A"
 	},
 	{
 		"title": "Anteile am Wohnungsbestand",
@@ -312,7 +318,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1.2.B"
 	},
 	{
 		"title": "Nettowohnungsproduktion",
@@ -353,7 +360,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1.2.C-1"
 	},
 	{
 		"title": "Umbausaldo",
@@ -392,7 +400,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1.2.C-2"
 	},
 	{
 		"title": "Anzahl neu erstellte Wohnungen",
@@ -431,7 +440,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1.2.E"
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
@@ -553,7 +563,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1.3.A"
 	},
 	{
 		"title": "Anteile der Haushalte",
@@ -592,7 +603,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1.4.A1"
 	},
 	{
 		"title": "Anteile der Familienhaushalte",
@@ -631,7 +643,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1.4.A2"
 	},
 	{
 		"title": "Anzahl Genossenschaftswohnungen und Anteil am Bestand",
@@ -670,7 +683,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1.4.B"
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot - nur Familien",
@@ -709,7 +723,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1.4.C"
 	},
 	{
 		"title": "Wohneigentumsquote",
@@ -748,7 +763,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1.6.A"
 	},
 	{
 		"title": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
@@ -787,7 +803,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "2.1.A"
 	},
 	{
 		"title": "Saldo des Steuerertrages von Zu- und Wegzügern",
@@ -826,7 +843,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"Siehe <a href='http://www.statistik.bs.ch/zahlen/analysen/steuerstatistik.html' target='_blank'>Weiterführende Informationen zur Steuerstatistik und zur Methodik</a>."
-		]
+		],
+		"orderKey": "2.1.B"
 	},
 	{
 		"title": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
@@ -865,7 +883,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "2.2.A"
 	},
 	{
 		"title": "Freiraumfläche und Anteil an der Gesamtfläche",
@@ -904,7 +923,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "3.2.A"
 	},
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
@@ -946,7 +966,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "3.2.B"
 	},
 	{
 		"title": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
@@ -985,7 +1006,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "3.3.A"
 	},
 	{
 		"title": "Haushalte mit Familienmietzinsbeiträgen",
@@ -1023,7 +1045,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "4.1.A"
 	},
 	{
 		"title": "Ausbezahlte Familienmietzinsbeiträge",
@@ -1062,7 +1085,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "4.1.B"
 	},
 	{
 		"title": "Bestand an Notwohnungen und ihre Belegung",
@@ -1101,7 +1125,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "4.1.E"
 	},
 	{
 		"title": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
@@ -1139,7 +1164,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "4.2.A"
 	},
 	{
 		"title": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
@@ -1179,6 +1205,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "4.2.C"
 	}
 ];

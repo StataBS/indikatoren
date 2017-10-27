@@ -1,0 +1,383 @@
+{
+  "series": [
+    {
+      "color": "#FFBB58",
+      "index": 0,
+      "type": "column",
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "legendIndex": 1,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2005,
+          187463
+        ],
+        [
+          2006,
+          187368
+        ],
+        [
+          2007,
+          187684
+        ],
+        [
+          2008,
+          189274
+        ],
+        [
+          2009,
+          190045
+        ],
+        [
+          2010,
+          190333
+        ],
+        [
+          2011,
+          192076
+        ],
+        [
+          2012,
+          193459
+        ],
+        [
+          2013,
+          195459
+        ],
+        [
+          2014,
+          196471
+        ],
+        [
+          2015,
+          197204
+        ],
+        [
+          2016,
+          198206
+        ]
+      ],
+      "name": "Bevölkerung"
+    },
+    {
+      "color": "#B00000",
+      "index": 1,
+      "type": "line",
+      "yAxis": 1,
+      "marker": {
+        "enabled": true
+      },
+      "legendIndex": 2,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2005,
+          100
+        ],
+        [
+          2006,
+          99.949323333137
+        ],
+        [
+          2007,
+          100.117889930279
+        ],
+        [
+          2008,
+          100.966057301974
+        ],
+        [
+          2009,
+          101.377338461456
+        ],
+        [
+          2010,
+          101.530968777838
+        ],
+        [
+          2011,
+          102.460752255111
+        ],
+        [
+          2012,
+          103.198497836906
+        ],
+        [
+          2013,
+          104.265375034006
+        ],
+        [
+          2014,
+          104.805214895739
+        ],
+        [
+          2015,
+          105.196225388476
+        ],
+        [
+          2016,
+          105.730730864223
+        ]
+      ],
+      "name": "Bevölkerung indexiert (rechte Skala)"
+    },
+    {
+      "color": "#A8C3CA",
+      "index": 0,
+      "type": "column",
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "legendIndex": 3,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2005,
+          171743
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          178337
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          183804
+        ],
+        [
+          2012,
+          186950
+        ],
+        [
+          2013,
+          188754
+        ],
+        [
+          2014,
+          191441
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ]
+      ],
+      "name": "Beschäftigte"
+    },
+    {
+      "color": "#246370",
+      "index": 1,
+      "type": "line",
+      "yAxis": 1,
+      "legendIndex": 3,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2005,
+          100
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          103.839457
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          107.022702
+        ],
+        [
+          2012,
+          108.854509
+        ],
+        [
+          2013,
+          109.904916
+        ],
+        [
+          2014,
+          111.469463
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ]
+      ],
+      "name": "Beschäftigte indexiert (rechte Skala)"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 665,
+    "height": 208,
+    "spacing": [
+      7,
+      3,
+      8,
+      3
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "alignTicks": false,
+    "renderTo": "container-5909"
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Index der Bevölkerungs- und Beschäftigtenentwicklung"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Werte 2005 = 100",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "max": 200000,
+      "tickInterval": 50000,
+      "title": {
+        "text": null,
+        "color": "#000000",
+        "fontSize": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black",
+          "fontSize": 10
+        }
+      }
+    },
+    {
+      "min": 90,
+      "max": 120,
+      "tickInterval": 7.5,
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.1f}",
+        "style": {
+          "color": "black",
+          "fontSize": 10
+        }
+      },
+      "opposite": true
+    }
+  ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "x": 45,
+    "width": 300,
+    "itemMarginBottom": 5,
+    "itemWidth": 120
+  },
+  "exporting": {
+    "filename": "I.03.2.05901"
+  }
+}

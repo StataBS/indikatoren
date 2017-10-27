@@ -9,6 +9,9 @@
   },
   "yAxis": [{
     "min": 0,
+    gridLineColor: '#B9CFD7', 
+    gridLineWidth: 0.5,
+    lineColor: '#B9CFD7',     
     "title": {
       "style": {
         "color": "#000000",
@@ -27,6 +30,9 @@
     "min": 0,
     "max": 100,
     "tickInterval": 25,
+    gridLineColor: '#B9CFD7', 
+    gridLineWidth: 0.5,
+    lineColor: '#B9CFD7',     
     "title": {
       "style": {
         "color": "#000000",

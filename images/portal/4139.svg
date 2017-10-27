@@ -64,12 +64,12 @@
     <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(43,75) scale(1 1)" clip-path="url(#a)"/>
     <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(43,75) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(43,75) scale(1 1)" clip-path="url(#a)">
-      <rect x="7.5" y="216.5" width="30" height="29" fill="#0a3b19" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="54.5" y="157.5" width="30" height="88" fill="#0a3b19" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="101.5" y="53.5" width="30" height="192" fill="#0a3b19" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="147.5" y="27.5" width="30" height="218" fill="#0a3b19" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="194.5" y="132.5" width="30" height="113" fill="#0a3b19" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="241.5" y="217.5" width="30" height="28" fill="#0a3b19" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="8" y="217" width="30" height="29" fill="#0a3b19" class="highcharts-point"/>
+      <rect x="55" y="158" width="30" height="88" fill="#0a3b19" class="highcharts-point"/>
+      <rect x="102" y="54" width="30" height="192" fill="#0a3b19" class="highcharts-point"/>
+      <rect x="148" y="28" width="30" height="218" fill="#0a3b19" class="highcharts-point"/>
+      <rect x="195" y="133" width="30" height="113" fill="#0a3b19" class="highcharts-point"/>
+      <rect x="242" y="218" width="30" height="28" fill="#0a3b19" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(43,75) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined " visibility="hidden" transform="translate(43,75) scale(1 1)" clip-path="url(#b)">

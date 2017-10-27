@@ -180,6 +180,7 @@
 				//var area = relativeValue * (maxPieArea - minPieArea) + minPieArea;
 				
 				var diameter = circleDiameterByAre(area);
+
 				return diameter;
             }, 
 	                			

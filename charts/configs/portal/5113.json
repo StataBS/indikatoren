@@ -6541,7 +6541,7 @@
       "fontFamily": "Arial"
     },
     "type": "map",
-    "inverted": true,
+    "inverted": false,
     "renderTo": "container-5113"
   },
   "title": {
