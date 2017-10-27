@@ -30,7 +30,7 @@ Highcharts.setOptions({
         "buttons": {
             "contextButton": {
                 "text": "",
-                "menuItems": Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8),
+                "menuItems": Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 7),
 
         chartOptions: {
             chart: {
