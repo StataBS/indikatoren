@@ -32,7 +32,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
-		]
+		],
+		"orderKey": "1-1"
 	},
 	{
 		"title": "Altersquotient nach Staatsangehörigkeit 2015",
@@ -67,7 +68,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
-		]
+		],
+		"orderKey": "1-2"
 	},
 	{
 		"title": "Jugendquotient nach Staatsangehörigkeit 2015",
@@ -102,7 +104,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
-		]
+		],
+		"orderKey": "1-3"
 	},
 	{
 		"title": "Anzahl Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit seit 2006",
@@ -135,7 +138,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
-		]
+		],
+		"orderKey": "1-4a"
 	},
 	{
 		"title": "Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit 2006 und 2015",
@@ -170,7 +174,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
-		]
+		],
+		"orderKey": "1-4b"
 	},
 	{
 		"title": "Anzahl Ausländer nach Art der Bewilligung seit 2006",
@@ -205,7 +210,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
-		]
+		],
+		"orderKey": "1-5a"
 	},
 	{
 		"title": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung 2015",
@@ -241,7 +247,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
-		]
+		],
+		"orderKey": "1-5b"
 	},
 	{
 		"title": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit seit 2006",
@@ -280,7 +287,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
-		]
+		],
+		"orderKey": "1-6"
 	},
 	{
 		"title": "Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014",
@@ -318,7 +326,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
-		]
+		],
+		"orderKey": "1-7"
 	},
 	{
 		"title": "Anteil Personen, welche zu Hause «deutsch» oder «schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010 bis 2014",
@@ -356,7 +365,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
-		]
+		],
+		"orderKey": "1-8"
 	},
 	{
 		"title": "Segregationsindex nach Staatsangehörigkeit seit 2006",
@@ -394,7 +404,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
-		]
+		],
+		"orderKey": "2-1"
 	},
 	{
 		"title": "Anteil Ausländer nach Wohndauer und Zuzugsort seit 2006",
@@ -434,7 +445,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
-		]
+		],
+		"orderKey": "2-2"
 	},
 	{
 		"title": "Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006",
@@ -473,7 +485,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
-		]
+		],
+		"orderKey": "2-3a"
 	},
 	{
 		"title": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeit seit 2006",
@@ -510,7 +523,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
-		]
+		],
+		"orderKey": "2-4"
 	},
 	{
 		"title": "Arbeitslosenquote nach Staatsangehörigkeit seit 2010",
@@ -551,7 +565,8 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik BFS, Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		]
+		],
+		"orderKey": "3-3"
 	},
 	{
 		"title": "Gymnasialquote nach Staatsangehörigkeit seit 2006",
@@ -589,7 +604,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
-		]
+		],
+		"orderKey": "3-1"
 	},
 	{
 		"title": "Lehrabbruchquote nach Staatsangehörigkeit seit 2011",
@@ -631,7 +647,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
-		]
+		],
+		"orderKey": "3-2"
 	},
 	{
 		"title": "Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014",
@@ -672,7 +689,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
-		]
+		],
+		"orderKey": "3-4"
 	},
 	{
 		"title": "Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit seit 2008",
@@ -714,7 +732,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Zentraler Personaldienst Basel-Stadt, Statistik des Staatspersonals"
-		]
+		],
+		"orderKey": "3-5"
 	},
 	{
 		"title": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeitund Alter 2015",
@@ -753,7 +772,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
-		]
+		],
+		"orderKey": "2-5"
 	},
 	{
 		"title": "Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006",
@@ -792,6 +812,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
-		]
+		],
+		"orderKey": "2-3b"
 	}
 ];

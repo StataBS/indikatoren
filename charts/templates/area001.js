@@ -38,6 +38,10 @@
       "yAxis": {
         "min": 0,
         "max": 100,
+        gridLineColor: '#B9CFD7', 
+        gridLineWidth: 0.5,
+        lineColor: '#B9CFD7',
+        lineWidth: 0.5,
         "title": {
           "style": {
             "color": "#000000",
@@ -52,6 +56,8 @@
         }
       },
       "xAxis": {
+        lineColor: '#B9CFD7',
+        lineWidth: 0.5,
         "labels": {
           "style": {
             "color": "#000000"
@@ -82,14 +88,10 @@
         "layout": "vertical",
         "verticalAlign": "middle",
         "align": "right",
-<<<<<<< HEAD
         "symbolRadius": 0,
         "itemStyle": {
           "fontWeight": "normal"
         }
-=======
-        "symbolRadius": 0
->>>>>>> issue-135
       },
       "series": {
         "dataLabels": {
@@ -102,6 +104,7 @@
         }, 
         "area": {
           "lineWidth": 0,
+          "itemMarginBottom": 5,   
           "marker": {
             "enabled": false,
             "symbol": "circle"

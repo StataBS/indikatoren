@@ -30,7 +30,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F74c-e"
-		]
+		],
+		"orderKey": "1.1.01"
 	},
 	{
 		"title": "Materielle Hilfeleistungen von Arbeitskollegen, Freunden und Bekannten oder Nachbarn",
@@ -63,7 +64,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F54e"
-		]
+		],
+		"orderKey": "1.1.02"
 	},
 	{
 		"title": "Menschen aus verschiedenen Ländern sind eine Bereicherung für den Kanton",
@@ -95,7 +97,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18a"
-		]
+		],
+		"orderKey": "1.3.01"
 	},
 	{
 		"title": "Beurteilung des Wohnorts",
@@ -129,7 +132,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F1c"
-		]
+		],
+		"orderKey": "2.1.01"
 	},
 	{
 		"title": "Beurteilung des Wohnquartiers",
@@ -163,7 +167,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F2b"
-		]
+		],
+		"orderKey": "2.1.02"
 	},
 	{
 		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
@@ -200,7 +205,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
-		]
+		],
+		"orderKey": "2.1.03"
 	},
 	{
 		"title": "Beurteilung der politischen Behörden",
@@ -233,7 +239,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F21a"
-		]
+		],
+		"orderKey": "2.2.01"
 	},
 	{
 		"title": "Unterstützung von Freunden oder Nachbarn",
@@ -267,7 +274,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F72a-g"
-		]
+		],
+		"orderKey": "1.1.03"
 	},
 	{
 		"title": "Gutes Verhältnis zur Nachbarschaft",
@@ -298,7 +306,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F19c"
-		]
+		],
+		"orderKey": "1.1.04"
 	},
 	{
 		"title": "Zusammensetzung des Freundeskreises",
@@ -330,7 +339,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F34"
-		]
+		],
+		"orderKey": "1.1.05"
 	},
 	{
 		"title": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
@@ -362,7 +372,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10f"
-		]
+		],
+		"orderKey": "1.1.06"
 	},
 	{
 		"title": "Sicherheitsgefühl im Alltag",
@@ -394,7 +405,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9a"
-		]
+		],
+		"orderKey": "1.2.01"
 	},
 	{
 		"title": "Bedrohungen und Angriffe",
@@ -426,7 +438,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9b"
-		]
+		],
+		"orderKey": "1.2.02"
 	},
 	{
 		"title": "Sicherhheitsgefühl nachts im Quartier",
@@ -459,7 +472,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9d"
-		]
+		],
+		"orderKey": "1.2.03"
 	},
 	{
 		"title": "Es gibt zu viele Menschen aus dem Ausland in Basel-Stadt",
@@ -491,7 +505,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18b"
-		]
+		],
+		"orderKey": "1.3.02"
 	},
 	{
 		"title": "Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.",
@@ -523,7 +538,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18c"
-		]
+		],
+		"orderKey": "1.3.03"
 	},
 	{
 		"title": "Beurteilung der Schulen in Basel-Stadt",
@@ -558,7 +574,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_1"
-		]
+		],
+		"orderKey": "2.2.02"
 	},
 	{
 		"title": "Beurteilung der Chancengleichheit",
@@ -592,7 +609,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_7"
-		]
+		],
+		"orderKey": "2.2.03"
 	},
 	{
 		"title": "Beurteilung der kantonalen Verwaltung",
@@ -624,7 +642,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F19a"
-		]
+		],
+		"orderKey": "2.2.04"
 	},
 	{
 		"title": "Beurteilung der kantonalen Steuern",
@@ -656,7 +675,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8"
-		]
+		],
+		"orderKey": "2.3.01"
 	},
 	{
 		"title": "Beurteilung der eigenen wirtschaftlichen Situation",
@@ -688,7 +708,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14b"
-		]
+		],
+		"orderKey": "2.3.02"
 	},
 	{
 		"title": "Beurteilung der Bildungschancen",
@@ -720,7 +741,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_3"
-		]
+		],
+		"orderKey": "2.3.03"
 	},
 	{
 		"title": "Anteil Steuerveranlagungen mit Zuwendungen",
@@ -753,7 +775,8 @@ var indikatorensetData = [
 		"visible": true,
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
-		]
+		],
+		"orderKey": "3.1.01"
 	},
 	{
 		"title": "Freiwillige Tätigkeit",
@@ -784,7 +807,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S22"
-		]
+		],
+		"orderKey": "3.1.02"
 	},
 	{
 		"title": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit",
@@ -815,7 +839,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F29"
-		]
+		],
+		"orderKey": "3.1.03"
 	},
 	{
 		"title": "Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren",
@@ -847,7 +872,8 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
 			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
-		]
+		],
+		"orderKey": "3.2.01"
 	},
 	{
 		"title": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
@@ -879,7 +905,8 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
-		]
+		],
+		"orderKey": "3.2.02"
 	},
 	{
 		"title": "Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl/-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren",
@@ -911,7 +938,8 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
-		]
+		],
+		"orderKey": "3.2.03"
 	},
 	{
 		"title": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
@@ -943,7 +971,8 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
 			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
-		]
+		],
+		"orderKey": "3.2.04"
 	},
 	{
 		"title": "Engagement in Organisationen und Vereinen",
@@ -974,7 +1003,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F28"
-		]
+		],
+		"orderKey": "3.3.01"
 	},
 	{
 		"title": "Wahlbeteiligung bei National- und Grossratswahlen",
@@ -1005,7 +1035,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
-		]
+		],
+		"orderKey": "3.3.02"
 	},
 	{
 		"title": "Interesse an der Politik in Basel-Stadt",
@@ -1038,7 +1069,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F20"
-		]
+		],
+		"orderKey": "3.3.03.a"
 	},
 	{
 		"title": "Beschäftigung mit dem Thema Politik",
@@ -1070,7 +1102,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F57a"
-		]
+		],
+		"orderKey": "3.3.04"
 	},
 	{
 		"title": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
@@ -1103,7 +1136,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10g"
-		]
+		],
+		"orderKey": "1.1.07"
 	},
 	{
 		"title": "Gedanken über die Arbeitsstelle",
@@ -1135,7 +1169,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14e"
-		]
+		],
+		"orderKey": "1.1.08.a"
 	},
 	{
 		"title": "Gründe für Gedanken über die Arbeitsstelle",
@@ -1169,7 +1204,8 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14f"
-		]
+		],
+		"orderKey": "1.1.08.b"
 	},
 	{
 		"title": "Interesse an der Politik in Basel-Stadt (18- bis 29-Jährige)",
@@ -1202,6 +1238,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F20"
-		]
+		],
+		"orderKey": "3.3.03.b"
 	}
 ];

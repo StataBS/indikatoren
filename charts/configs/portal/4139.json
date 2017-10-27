@@ -218,6 +218,8 @@
   "xAxis": {
     "type": "category",
     "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
     "title": {
       "style": {
         "color": "#000000"
@@ -229,8 +231,6 @@
       }
     },
     "tickColor": "#FFFFFF",
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
     "tickInterval": 1
   },
   "chart": {
@@ -255,6 +255,7 @@
   },
   "plotOptions": {
     "series": {
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -304,6 +305,7 @@
     },
     {
       "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0,
       "min": 0,
       "title": {
         "style": {
@@ -318,7 +320,6 @@
           "color": "#000000"
         }
       },
-      "gridLineWidth": 0,
       "opposite": true
     }
   ],

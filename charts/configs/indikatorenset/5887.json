@@ -1,0 +1,162 @@
+{
+  "series": [
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": true
+      },
+      "color": "#8b2223",
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontWeight": "normal"
+        },
+        "enabled": true,
+        "formatter": function () {
+            var first = this.series.data[0];
+            var last  = this.series.data[this.series.data.length - 1];
+            if (this.point.y === first.y || this.point.y === last.y ) {
+              return this.point.x + ":<br/>" + Highcharts.numberFormat(this.point.y, 2, ",", " ") + "";
+            }
+            return "";
+          }
+      },
+      "data": [
+        [
+          2010,
+          0.527121464226
+        ],
+        [
+          2011,
+          0.498003786631
+        ],
+        [
+          2012,
+          0.49699574312
+        ],
+        [
+          2013,
+          0.492387329436
+        ],
+        [
+          2014,
+          0.485056444408
+        ],
+        [
+          2015,
+          0.498584579039
+        ]
+      ],
+      "name": "Anzahl privater Personenwagen pro Haushalt"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 208,
+    "spacing": [
+      15,
+      3,
+      8,
+      3
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-5887"
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anzahl privater Personenwagen pro Haushalt"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value:,.1f}"
+    },
+    "max": 0.6,
+    "tickInterval": 0.2
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
+  },
+  "legend": {
+    "enabled": false,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontSize": "10px"
+    }
+  },
+  "plotOptions": {},
+  "exporting": {
+    "filename": "I.11.1.05828"
+  }
+}

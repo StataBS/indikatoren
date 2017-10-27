@@ -39,7 +39,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "GS-1.A"
 	},
 	{
 		"title": "Anteil Ausländer",
@@ -81,7 +82,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "GS-2.A"
 	},
 	{
 		"title": "Anteil Personen ohne Religionszugehörigkeit",
@@ -123,7 +125,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "GS-3.A"
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
@@ -165,7 +168,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "GS-4.A"
 	},
 	{
 		"title": "Gymnasialquote",
@@ -208,7 +212,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "GS-5.A"
 	},
 	{
 		"title": "Altersquotient",
@@ -251,7 +256,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "GS-6.A"
 	},
 	{
 		"title": "Sesshaftigkeit",
@@ -293,7 +299,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "GS-7.A"
 	},
 	{
 		"title": "Jugendquotient",
@@ -336,7 +343,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "GS-8.A"
 	},
 	{
 		"title": "Baujahr Wohngebäude",
@@ -422,7 +430,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "RU-2.A"
 	},
 	{
 		"title": "Anteil Grünflächen",
@@ -464,7 +473,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "RU-3.A"
 	},
 	{
 		"title": "Fläche pro Wohnung",
@@ -506,7 +516,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "RU-4.A"
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
@@ -549,7 +560,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "RU-5.A"
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
@@ -591,7 +603,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "WA-1.A"
 	},
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
@@ -633,7 +646,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "WA-2.A"
 	},
 	{
 		"title": "Erwerbstätigenquote",
@@ -675,7 +689,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "WA-3.A"
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
@@ -762,7 +777,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "WA-5.A"
 	},
 	{
 		"title": "Sozialhilfequote",
@@ -802,7 +818,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=soz_sozhilfe.soz_quote' target='_blank'>Basler Atlas</a>."
-		]
+		],
+		"orderKey": "GS-1.B"
 	},
 	{
 		"title": "Anteil Ausländer",
@@ -842,7 +859,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevheim.anteil_al' target='_blank'>Basler Atlas</a>."
-		]
+		],
+		"orderKey": "GS-2.B"
 	},
 	{
 		"title": "Anteil Konfessionslose",
@@ -882,7 +900,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "GS-3.b"
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
@@ -922,7 +941,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "GS-4.B"
 	},
 	{
 		"title": "Gymnasialquote",
@@ -963,7 +983,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "GS-5.B"
 	},
 	{
 		"title": "Altersquotient",
@@ -1004,7 +1025,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "GS-6.b"
 	},
 	{
 		"title": "Sesshaftigkeit",
@@ -1044,7 +1066,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevsess.anteil_sess10' target='_blank'>Basler Atlas</a>."
-		]
+		],
+		"orderKey": "GS-7.B"
 	},
 	{
 		"title": "Jugendquotient",
@@ -1085,7 +1108,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "GS-8.b"
 	},
 	{
 		"title": "Baujahr Wohngebäude",
@@ -1167,7 +1191,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "RU-2.B"
 	},
 	{
 		"title": "Anteil Grünflächen",
@@ -1207,7 +1232,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=ru_gruen.gruenflaeche_ant' target='_blank'>Basler Atlas</a>."
-		]
+		],
+		"orderKey": "RU-3.B"
 	},
 	{
 		"title": "Fläche pro Wohnung",
@@ -1247,7 +1273,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "RU-4.B"
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
@@ -1288,7 +1315,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "RU-5.B"
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
@@ -1328,7 +1356,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_ver.vermoegen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
-		]
+		],
+		"orderKey": "WA-1.B"
 	},
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
@@ -1368,7 +1397,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_eink.einkommen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
-		]
+		],
+		"orderKey": "WA-2.B"
 	},
 	{
 		"title": "Erwerbstätigenquote",
@@ -1408,7 +1438,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "WA-3.B"
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
@@ -1491,6 +1522,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "WA-5.B"
 	}
 ];

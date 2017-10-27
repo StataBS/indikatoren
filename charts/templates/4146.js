@@ -1,6 +1,8 @@
 (function(){
     return {
   "yAxis": [{
+    gridLineColor: '#B9CFD7', 
+    gridLineWidth: 0.5,
     "title": {
       "style": {
         "color": "#000000",
@@ -17,6 +19,8 @@
     "min": 0
   },
   {
+    gridLineColor: '#B9CFD7', 
+    gridLineWidth: 0.5,
     "title": {
       "style": {
         "color": "#000000",
@@ -36,6 +40,8 @@
   }
   ],
   "xAxis": {
+    lineColor: '#B9CFD7', 
+    lineWidth: 0.5,
     "tickInterval": 5
   },
   "legend": {
@@ -73,6 +79,13 @@
     "marginBottom": 65,
     "marginTop": 75,
     "type": "line"
+  },
+  plotOptions: 
+  {
+    series: 
+    {
+      borderWidth: 1  
+    }
   }
 	}
 }());

@@ -16,6 +16,8 @@
   },  
   "yAxis": [
     {
+      gridLineColor: '#B9CFD7', 
+      gridLineWidth: 0.5,
       "title": {
           "style": {
               "color": "#000000",
@@ -32,6 +34,8 @@
       "reversedStacks": true
     },
     {
+      gridLineColor: '#B9CFD7', 
+      gridLineWidth: 0.5,
       "min": 0,
       "title": {
           "style": {
