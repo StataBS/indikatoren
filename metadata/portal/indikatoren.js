@@ -5392,7 +5392,7 @@ var indikatoren = [
 		"id": 5201,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Richtplan-kurz",
+		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -5438,7 +5438,7 @@ var indikatoren = [
 		"id": 5202,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Richtplan-kurz",
+		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -5484,7 +5484,7 @@ var indikatoren = [
 		"id": 5203,
 		"thema": "11 Verkehr",
 		"unterthema": "Pendler",
-		"kennzahlenset": "Richtplan-kurz",
+		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -5529,7 +5529,7 @@ var indikatoren = [
 		"id": 5813,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kennzahlenset": "Richtplan-kurz",
+		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -5574,7 +5574,7 @@ var indikatoren = [
 		"id": 5817,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan-kurz",
+		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -5619,7 +5619,7 @@ var indikatoren = [
 		"id": 5818,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan-kurz",
+		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -5664,7 +5664,7 @@ var indikatoren = [
 		"id": 5822,
 		"thema": "11 Verkehr",
 		"unterthema": "Öffentlicher Verkehr",
-		"kennzahlenset": "Richtplan-kurz",
+		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -5709,7 +5709,7 @@ var indikatoren = [
 		"id": 5823,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
-		"kennzahlenset": "Richtplan-kurz",
+		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -5754,7 +5754,7 @@ var indikatoren = [
 		"id": 5825,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan-kurz",
+		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -5799,7 +5799,7 @@ var indikatoren = [
 		"id": 5901,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
-		"kennzahlenset": "Richtplan-kurz",
+		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Schweiz"
 		],
@@ -5845,7 +5845,7 @@ var indikatoren = [
 		"id": 6007,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Mobilitätsverhalten",
-		"kennzahlenset": "Richtplan-kurz",
+		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -6012,7 +6012,7 @@ var indikatoren = [
 		"id": 6214,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Richtplan-kurz",
+		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -6058,7 +6058,7 @@ var indikatoren = [
 		"id": 6215,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Szenarien",
-		"kennzahlenset": "Richtplan-kurz",
+		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -6103,7 +6103,7 @@ var indikatoren = [
 		"id": 6217,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kennzahlenset": "Richtplan-kurz",
+		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -6148,7 +6148,7 @@ var indikatoren = [
 		"id": 6218,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
-		"kennzahlenset": "Richtplan-kurz",
+		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -6193,7 +6193,7 @@ var indikatoren = [
 		"id": 6220,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
-		"kennzahlenset": "Richtplan-kurz",
+		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -6239,7 +6239,7 @@ var indikatoren = [
 		"id": 6236,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
-		"kennzahlenset": "Richtplan-kurz",
+		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
