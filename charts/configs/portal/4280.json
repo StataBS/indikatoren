@@ -1374,9 +1374,10 @@
     {
       "includeInCSVExport": true,
       "stacking": null,
+      "showInLegend": false,
       "type": "column",
       "showInNavigator": true,
-      "name": "Kanton Basel-Stadt",
+      "name": "Gesundheitskosten der Luftverschmutzung",
       "color": "#FF8028",
       "id": "BS1107_1",
       "valueSuffix": "Millionen CHF",

@@ -142,48 +142,48 @@
     <tspan>Tausend CHF</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(10,40)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="423" height="95" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="413" height="95" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(12,7)">
           <text x="21" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>BS: Schutzwaldpflege</tspan>
+            <tspan>Schutzwaldpflege</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#FF8028" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(169.65625,7)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(147,7)">
           <text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>BS: Gefahrengrundlagen WaG</tspan>
+            <tspan>Gefahrengrundlagen WaG</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#DC440E" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(12,26)">
           <text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>BS: Grundangebot Schutzbauten WaG</tspan>
+            <tspan>Grundangebot Schutzbauten WaG</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#B00000" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3" transform="translate(259.671875,26)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3" transform="translate(237.015625,26)">
           <text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>BS: Einzelprojekte WaG</tspan>
+            <tspan>Einzelprojekte WaG</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#661200" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4" transform="translate(12,45)">
           <text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>BS: Gefahrengrundlagen WBG</tspan>
+            <tspan>Gefahrengrundlagen WBG</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#D3E2E4" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-5" transform="translate(12,64)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-5" transform="translate(194.984375,45)">
           <text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>BS: Grundangebot Schutzbauten WBG</tspan>
+            <tspan>Grundangebot Schutzbauten WBG</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#A8C3CA" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-6" transform="translate(261,64)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-6" transform="translate(12,64)">
           <text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>BS: Einzelprojekte WBG</tspan>
+            <tspan>Einzelprojekte WBG</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#689199" class="highcharts-point"/>
         </g>

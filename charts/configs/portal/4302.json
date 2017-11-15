@@ -1381,9 +1381,10 @@
     {
       "includeInCSVExport": true,
       "stacking": null,
+      "showInLegend": false,
       "type": "column",
       "showInNavigator": true,
-      "name": "Kanton Basel-Stadt",
+      "name": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen Neuzulassungen",
       "color": "#FF8028",
       "id": "BS0806_1",
       "valueSuffix": "Gramm pro Kilometer",

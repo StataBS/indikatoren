@@ -1376,9 +1376,10 @@
         "enabled": true,
         "radius": 5
       },
+      "showInLegend": false,
       "type": "column",
       "showInNavigator": true,
-      "name": "Kanton Basel-Stadt",
+      "name": "Spezifischer Heizenergieverbrauch von neuen Bauten",
       "color": "#FF8028",
       "id": "BS0610_1",
       "valueSuffix": "Liter Heizöläquivalente pro Quadratmeter",

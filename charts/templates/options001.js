@@ -29,9 +29,10 @@ Highcharts.setOptions({
         "scale": 5,
         "buttons": {
             "contextButton": {
+                /*
                 "text": "",
                 "menuItems": Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 8),
-
+                */
         chartOptions: {
             chart: {
                 borderColor: 'white',
@@ -55,6 +56,15 @@ Highcharts.setOptions({
 //Add "Einbetten" menu item
 var indikatorensetView = ($.url('?Indikatorenset') || $.url('?indikatorensetView') ) ? true : false;
 var indikatorensetParameter = indikatorensetView ? '&indikatorensetView=' + indikatorensetView : '';
+
+Highcharts.getOptions().exporting.buttons.contextButton.menuItems.push(
+    {
+        "text": "Daten", 
+        "onclick": function(){            
+            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/data/' + this.renderTo.id.substring(10) + ".tsv", '_blank'); 
+        }
+    });
+
 Highcharts.getOptions().exporting.buttons.contextButton.menuItems.push(
     {
         "text": "URL", 
@@ -62,7 +72,7 @@ Highcharts.getOptions().exporting.buttons.contextButton.menuItems.push(
             window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart.html?id=' + this.renderTo.id.substring(10) + indikatorensetParameter + "&suppressNumberInTitle=true", '_blank'); 
         }
     });
-    
+
 
 
 

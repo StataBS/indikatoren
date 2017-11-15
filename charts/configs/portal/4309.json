@@ -1373,9 +1373,10 @@
     {
       "includeInCSVExport": true,
       "stacking": null,
+      "showInLegend": false,
       "type": "column",
       "showInNavigator": true,
-      "name": "Kanton Basel-Stadt",
+      "name": "Bauzonenflächenbeanspruchung",
       "color": "#FF8028",
       "id": "BS0902_1",
       "valueSuffix": "Quadratmeter pro Einwohner und Beschäftigten",

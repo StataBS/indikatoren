@@ -1383,9 +1383,10 @@
     {
       "includeInCSVExport": true,
       "stacking": null,
+      "showInLegend": false,
       "type": "column",
       "showInNavigator": true,
-      "name": "Kanton Basel-Stadt",
+      "name": "In der Luft stabile Stoffe in Kälte- und Wärmepumpenanlagen",
       "color": "#FF8028",
       "id": "BS1301_1",
       "valueSuffix": "Kilogramm",

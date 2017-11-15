@@ -70,24 +70,24 @@
     <tspan>Prozent (Anteil an Bevölkerung)</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(10,40)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="412" height="57" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="367" height="57" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(12,7)">
           <text x="21" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>BS: Über Grenzwert am Tag</tspan>
+            <tspan>Über Grenzwert am Tag</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#FF8028" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(204.25,7)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(181.59375,7)">
           <text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>BS: Über Grenzwert in der Nacht</tspan>
+            <tspan>Über Grenzwert in der Nacht</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#DC440E" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(12,26)">
           <text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>BS: Über 50 dB (A) in der Nacht</tspan>
+            <tspan>Über 50 dB (A) in der Nacht</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#B00000" class="highcharts-point"/>
         </g>
