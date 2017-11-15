@@ -1384,9 +1384,10 @@
     {
       "includeInCSVExport": true,
       "stacking": null,
+      "showInLegend": false,
       "type": "column",
       "showInNavigator": true,
-      "name": "Kanton Basel-Stadt",
+      "name": "Recyclingquote",
       "color": "#FF8028",
       "id": "BS0102_1",
       "valueSuffix": "Prozent",

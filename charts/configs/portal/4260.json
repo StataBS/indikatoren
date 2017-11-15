@@ -1377,7 +1377,7 @@
       "stacking": null,
       "type": "column",
       "showInNavigator": true,
-      "name": "BS: Standorte insgesamt",
+      "name": "Standorte insgesamt",
       "color": "#FF8028",
       "id": "BS0204_1",
       "valueSuffix": "Anzahl Standorte",

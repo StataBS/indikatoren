@@ -73,19 +73,19 @@
     <tspan>Tonnen</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(10,40)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="371" height="38" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="325" height="38" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(12,7)">
           <text x="21" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>BS: Tonnen</tspan>
+            <tspan>Tonnen</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#FF8028" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(116.34375,7)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(93.6875,7)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#DC440E" stroke-width="2"/>
           <text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>BS: Tonnen pro Einwohner (rechte Skala)</tspan>
+            <tspan>Tonnen pro Einwohner (rechte Skala)</tspan>
           </text>
         </g>
       </g>

@@ -1398,9 +1398,10 @@
   "series": [
     {
       "includeInCSVExport": true,
+      "showInLegend": false,
       "type": "line",
       "showInNavigator": true,
-      "name": "Kanton Basel-Stadt",
+      "name": "Wasserverbrauch Gewerbe und Industrie",
       "color": "#FF8028",
       "id": "BS1606_1",
       "valueSuffix": "Millionen Kubikmeter",

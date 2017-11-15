@@ -61,20 +61,20 @@
     <tspan>Prozent</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(10,40)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="267" height="38" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="222" height="38" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(12,7)">
           <text x="21" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>BS: Ausbaugrad</tspan>
+            <tspan>Ausbaugrad</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#FF8028" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(140.34375,7)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(117.6875,7)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#DC440E" stroke-width="2"/>
           <path fill="#DC440E" d="M 13 11 A 5 5 0 1 1 12.999997500000209 10.99500000083333 Z" class="highcharts-point"/>
           <text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>BS: Zielwert 2023</tspan>
+            <tspan>Zielwert 2023</tspan>
           </text>
         </g>
       </g>

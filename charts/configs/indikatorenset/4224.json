@@ -1373,9 +1373,10 @@
   "series": [
     {
       "includeInCSVExport": true,
+      "showInLegend": false,
       "type": "line",
       "showInNavigator": true,
-      "name": "Kanton Basel-Stadt",
+      "name": "Eigenproduktion Strom",
       "color": "#FF8028",
       "id": "BS0605_1",
       "valueSuffix": "Gigawattstunden",

@@ -1388,9 +1388,10 @@
   "series": [
     {
       "includeInCSVExport": true,
+      "showInLegend": false,
       "type": "line",
       "showInNavigator": true,
-      "name": "Kanton Basel-Stadt",
+      "name": "AOX-Fracht Abwasser",
       "color": "#FF8028",
       "id": "BS1604_1",
       "valueSuffix": "Milligramm pro Liter",
