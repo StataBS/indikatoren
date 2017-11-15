@@ -1389,7 +1389,7 @@
       "includeInCSVExport": true,
       "type": "line",
       "showInNavigator": true,
-      "name": "BS: Basel-Neubad",
+      "name": "Basel-Neubad",
       "color": "#FF8028",
       "id": "BS1005_1",
       "valueSuffix": "Dezibel dB(A)",

@@ -1376,9 +1376,10 @@
     {
       "includeInCSVExport": true,
       "stacking": null,
+      "showInLegend": false,
       "type": "column",
       "showInNavigator": true,
-      "name": "Kanton Basel-Stadt",
+      "name": "Altlastenrechtlich beurteilte Baugesuche",
       "color": "#FF8028",
       "id": "BS0208_1",
       "valueSuffix": "Anzahl Standorte",

@@ -68,6 +68,12 @@ while (ubFileList.length > 0) {
                     path = 'charts/configs/portal/' + id + '.json';
                     casper.echo('Saving contents to ' + path + '...');
                     fs.write(path, content, 'w');
+                    
+                    var tsvContent = casper.fetchText('#data-tsv');
+                    var tsvPath = 'data/' + id + '.tsv';
+                    casper.echo('Saving tsv contents to ' + tsvPath + '...');
+                    fs.write(tsvPath, tsvContent, 'w');
+                    
 
                     //casper.capture('screenshots/' + id + '.png');
                 });

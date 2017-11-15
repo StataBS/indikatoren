@@ -1378,9 +1378,10 @@
     {
       "includeInCSVExport": true,
       "stacking": null,
+      "showInLegend": false,
       "type": "column",
       "showInNavigator": true,
-      "name": "Kanton Basel-Stadt",
+      "name": "Biodiversitätsförderflächen in der Landwirtschaft",
       "color": "#FF8028",
       "id": "BS0305_1",
       "valueSuffix": "Prozent",
