@@ -1385,7 +1385,7 @@
       "stacking": null,
       "type": "column",
       "showInNavigator": true,
-      "name": "BS: Schallschutzfenster, kumuliert",
+      "name": "Schallschutzfenster, kumuliert",
       "color": "#FF8028",
       "id": "BS1004_1",
       "valueSuffix": "Anzahl Fenster",

@@ -1454,9 +1454,10 @@
     {
       "includeInCSVExport": true,
       "stacking": null,
+      "showInLegend": false,
       "type": "column",
       "showInNavigator": true,
-      "name": "Kanton Basel-Stadt",
+      "name": "Hochwasser",
       "color": "#FF8028",
       "id": "BS0702_1",
       "valueSuffix": "Prozent (Anteil Messstationen mit HQ10-Überschreitungen)",

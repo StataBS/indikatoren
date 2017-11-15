@@ -1381,9 +1381,10 @@
     {
       "includeInCSVExport": true,
       "stacking": null,
+      "showInLegend": false,
       "type": "column",
       "showInNavigator": true,
-      "name": "Kanton Basel-Stadt",
+      "name": "Betriebseinheiten im Geltungsbereich der Störfallverordnung (StFV)",
       "color": "#FF8028",
       "id": "BS1401_1",
       "valueSuffix": "Anzahl Betriebseinheiten",

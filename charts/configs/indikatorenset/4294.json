@@ -1383,9 +1383,10 @@
     {
       "includeInCSVExport": true,
       "stacking": null,
+      "showInLegend": false,
       "type": "column",
       "showInNavigator": true,
-      "name": "Kanton Basel-Stadt",
+      "name": "Ozonschichtabbauende Stoffe (Halone) in Löschanlagen",
       "color": "#FF8028",
       "id": "BS1304_1",
       "valueSuffix": "Kilogramm",

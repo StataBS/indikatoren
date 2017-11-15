@@ -90,28 +90,28 @@
     <tspan>Anzahl Tage über 20°C</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(10,40)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="402" height="38" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="334" height="38" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0" transform="translate(12,7)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#FF8028" stroke-width="2"/>
           <path fill="#FF8028" d="M 11 11 A 3 3 0 1 1 10.999998500000125 10.997000000499998 Z" class="highcharts-point"/>
           <text x="21" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>BS: Rhein (RÜS S3)</tspan>
+            <tspan>Rhein (RÜS S3)</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(161.59375,7)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(138.9375,7)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke-dasharray="2,2" stroke="#DC440E" stroke-width="2"/>
           <path fill="#DC440E" d="M 8 8 L 11 11 8 14 5 11 Z" class="highcharts-point"/>
           <text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>BS: Wiese (alt)</tspan>
+            <tspan>Wiese (alt)</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2" transform="translate(282.515625,7)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2" transform="translate(237.203125,7)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#DC440E" stroke-width="2"/>
           <path fill="#DC440E" d="M 3 6 L 13 6 13 16 3 16 Z" class="highcharts-point"/>
           <text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>BS: Wiese (neu)</tspan>
+            <tspan>Wiese (neu)</tspan>
           </text>
         </g>
       </g>

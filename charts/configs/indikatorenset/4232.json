@@ -1394,9 +1394,10 @@
   "series": [
     {
       "includeInCSVExport": true,
+      "showInLegend": false,
       "type": "line",
       "showInNavigator": true,
-      "name": "Kanton Basel-Stadt",
+      "name": "Nitrat im Grundwasser",
       "color": "#FF8028",
       "id": "BS1602_1",
       "valueSuffix": "Prozent (Anteil der Messstellen mit Grenzwertüberschreitung)",

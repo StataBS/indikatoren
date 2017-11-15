@@ -1386,9 +1386,10 @@
     {
       "includeInCSVExport": true,
       "stacking": null,
+      "showInLegend": false,
       "type": "column",
       "showInNavigator": true,
-      "name": "Kanton Basel-Stadt",
+      "name": "Gelöster Organischer Kohlenstoff (DOC)",
       "color": "#FF8028",
       "id": "BS1607_1",
       "valueSuffix": "Milligramm pro Liter",
