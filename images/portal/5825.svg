@@ -231,7 +231,7 @@
     <tspan>Bruttogeschossfläche Arbeiten nach Wohnviertel</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
-    <tspan>in m²</tspan>
+    <tspan>in Quadratmetern</tspan>
   </text>
   <g class="highcharts-data-labels highcharts-series-3 highcharts-mapline-series highcharts-color-undefined " visibility="visible" transform="translate(10,55) scale(1 1)" clip-path="url(#a)">
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-Infinity,-Infinity)">

@@ -446,7 +446,9 @@ function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view){
       returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS, " + view + ")'>Andere Darstellungsform</a> dieser Daten</li>";
     }
     if (displayExternalLinks) {
-      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>" + externalLinks + "</li>";
+      externalLinks.forEach(function(v, i, arr){
+        returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>" + v + "</li>";
+      });
     }
     returnText += " \
             </ul> \

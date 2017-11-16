@@ -5612,7 +5612,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
-		"subtitle": "in m²",
+		"subtitle": "in Quadratmetern",
 		"kuerzel": "I.09.1.05818",
 		"kuerzelKunde": "ST 4-10",
 		"description": "Bruttogeschossfläche Wohnen nach Wohnviertel",
@@ -5641,13 +5641,10 @@ var indikatoren = [
 		"orderKey": "01_01_00_00_00_010",
 		"parentId": null,
 		"children": [
-			"5878",
 			"6108",
 			"6250"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
@@ -5678,7 +5675,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Über zwei Drittel der Einwohner in Basel-Stadt wohnen in einem Gebiet der ÖV-Güteklasse A und damit in einer Zone mit sehr guter Anbindung an den öffentlichen Verkehr. Gut 30% in einem Gebiet der Güteklasse B.",
-		"erlaeuterungen": "Die ÖV-Güteklassen sind ein Mass für die räumliche Erschliessungsqualität. Die Güteklassen werden zweistufig bestimmt: Die Art der Verkehrsmittel und das Kursintervall weisen jeder Haltestelle eine bestimmte Kategorie zu. Die Haltestellenkategorie in Verbindung mit der Distanz des Wohnorts einer Person zur Haltestelle ergeben dann die ÖV-Güteklasse für eine bestimmte Person. Folgender Link gibt detailliertere Auskunft zu den ÖV-Güteklassen: <a href=\"http://www.stadtplan.bs.ch/geoviewer/index.php?theme=340&cps=2614062.08,1267869.42,50000&nodefault&layers=stadtplan_grau_osm_50000,gueteklassen.\">www.stadtplan.bs.ch</a> <br>Dieser<a href=\"http://map.geo.bs.ch/main/wsgi/file_proxy/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf\">Link</a> zeigt die räumliche Verteilung der Güteklassen.",
+		"erlaeuterungen": "Die ÖV-Güteklassen sind ein Mass für die räumliche Erschliessungsqualität durch den öffentlichen Verkehr. Die Güteklassen werden zweistufig bestimmt: Die Art der Verkehrsmittel und das Kursintervall weisen jeder Haltestelle eine bestimmte Kategorie zu. Die Haltestellenkategorie in Verbindung mit der Distanz des Wohnorts einer Person zur Haltestelle ergibt dann die ÖV-Güteklasse für eine bestimmte Person.",
 		"template": "pie001",
 		"option": "options001",
 		"visible": true,
@@ -5686,18 +5683,16 @@ var indikatoren = [
 		"orderKey": "01_03_00_00_00_001",
 		"parentId": null,
 		"children": [
-			"5882",
 			"6111",
 			"6253"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href='http://map.geo.bs.ch/main/wsgi/file_proxy/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target='_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
+			"<a href='http://www.stadtplan.bs.ch/geoviewer/index.php?theme=340&cps=2614062.08,1267876.03,50000&nodefault&layers=stadtplan_grau_osm_50000,gueteklassen' target='_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
 		]
 	},
 	{
@@ -5747,7 +5742,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
-		"subtitle": "in m²",
+		"subtitle": "in Quadratmetern",
 		"kuerzel": "I.09.1.05825",
 		"kuerzelKunde": "ST 7-3",
 		"description": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
@@ -5776,13 +5771,10 @@ var indikatoren = [
 		"orderKey": "02_04_00_00_00_003",
 		"parentId": null,
 		"children": [
-			"5885",
 			"6114",
 			"6255"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
@@ -6072,7 +6064,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Ende 2016 umfasste die baselstädtische Wohnbevölkerung rund 198 200 Personen. Das Mittlere Szenario der aktuellen Bevölkerungsszenarien des Kantons Basel-Stadt geht davon aus, dass sich die Zahl der in Basel-Stadt wohnhaften Personen bis 2035 auf etwa 212 600 erhöht.",
-		"erlaeuterungen": "Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der < href=\"http://www.statistik.bs.ch/zahlen/analysen/bevoelkerungsszenarien.html.\">Internetseite des Statistischen Amtes</a>",
+		"erlaeuterungen": "Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href=\"http://www.statistik.bs.ch/zahlen/analysen/bevoelkerungsszenarien.html\" target=\"_blank\">Internetseite des Statistischen Amtes</a>.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
@@ -6081,12 +6073,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"6222",
-			"6230",
 			"6260"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -6096,7 +6085,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Leerstehende Industrie- und Gewerbeflächen",
-		"subtitle": "in Quadratmeter",
+		"subtitle": "in Quadratmetern",
 		"kuerzel": "I.09.2.06217",
 		"kuerzelKunde": "ST 7-4",
 		"description": "Leerstehende Industrie- und Gewerbeflächen",
@@ -6126,12 +6115,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"6224",
-			"6232",
 			"6262"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"SVIT beider Basel"
 		],
