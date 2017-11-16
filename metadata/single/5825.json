@@ -1,5 +1,5 @@
 {"title":"Bruttogeschossfläche Arbeiten nach Wohnviertel",
-"subtitle":"in m²",
+"subtitle":"in Quadratmetern",
 "kuerzel":"I.09.1.05825",
 "kuerzelKunde":"ST 7-3",
 "description":"Bruttogeschossfläche Arbeiten nach Wohnviertel",
@@ -23,8 +23,8 @@
 "visibleInPortal":true,
 "orderKey":"02_04_00_00_00_003",
 "parentId":null,
-"children":["5885","6114","6255"],
-"renderLink":[""],
+"children":["6114","6255"],
+"renderLink":[],
 "quellenangabe":["Planungsamt Basel-Stadt"],
 "externalLinks":[""]
 }

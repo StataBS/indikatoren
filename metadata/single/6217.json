@@ -1,5 +1,5 @@
 {"title":"Leerstehende Industrie- und Gewerbeflächen",
-"subtitle":"in Quadratmeter",
+"subtitle":"in Quadratmetern",
 "kuerzel":"I.09.2.06217",
 "kuerzelKunde":"ST 7-4",
 "description":"Leerstehende Industrie- und Gewerbeflächen",
@@ -23,8 +23,8 @@
 "visibleInPortal":true,
 "orderKey":"02_04_00_00_00_004",
 "parentId":null,
-"children":["6224","6232","6262"],
-"renderLink":[""],
+"children":["6224","6262"],
+"renderLink":[],
 "quellenangabe":["SVIT beider Basel"],
 "externalLinks":[""]
 }
