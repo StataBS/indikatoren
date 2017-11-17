@@ -88,7 +88,7 @@
                     "fontSize": "10px"
                 }
             },
-            "tickColor": "#FFFFFF",
+            "tickLength": 0,
             "tickInterval": 1,
             "type": "category",
             "uniqueNames": true        

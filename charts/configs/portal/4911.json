@@ -204,7 +204,7 @@
         "color": "#000000"
       }
     },
-    "tickColor": "#FFFFFF",
+    "tickLength": 0,
     "type": "Year"
   },
   "yAxis": {

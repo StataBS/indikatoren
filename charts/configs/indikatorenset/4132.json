@@ -530,7 +530,7 @@
         "color": "#000000"
       }
     },
-    "tickColor": "#FFFFFF",
+    "tickLength": 0,
     "endOnTick": true,
     "startOnTick": true,
     "showFirstLabel": true,

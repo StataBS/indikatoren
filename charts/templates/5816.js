@@ -17,7 +17,7 @@
                     value: 0,
                     color: 'white',
                     width: 2,
-                    zIndex: 10
+                    zIndex: 4,
                 }]
   },
   "xAxis": {
