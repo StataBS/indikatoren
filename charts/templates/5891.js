@@ -1,7 +1,9 @@
 (function(){
     return {
   "xAxis": {
-    //"tickInterval": 3
+  	//min: 1996,
+  	//max: 2014,
+    "tickInterval": 2
   },
   "yAxis": {
 	"labels": {

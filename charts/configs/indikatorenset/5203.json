@@ -224,7 +224,7 @@
         "color": "#000000"
       }
     },
-    "tickColor": "#FFFFFF",
+    "tickLength": 0,
     "tickInterval": 1
   },
   "chart": {
@@ -301,7 +301,7 @@
         "value": 0,
         "color": "white",
         "width": 2,
-        "zIndex": 10
+        "zIndex": 4
       }
     ]
   },
