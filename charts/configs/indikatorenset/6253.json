@@ -1,0 +1,144 @@
+{
+  "series": [
+    {
+      "data": [
+        [
+          "Güteklasse A",
+          128051
+        ],
+        [
+          "Güteklasse B",
+          61401
+        ],
+        [
+          "Güteklasse C",
+          7195
+        ],
+        [
+          "Güteklasse D",
+          603
+        ],
+        [
+          "Güteklasse E",
+          168
+        ]
+      ],
+      "name": "2016",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                  this.credits.element.onclick = function() {};
+              }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 208,
+    "spacing": [
+      7,
+      3,
+      3,
+      3
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "pie",
+    "renderTo": "container-6253"
+  },
+  "plotOptions": {
+    "pie": {
+      "borderWidth": 0,
+      "allowPointSelect": true,
+      "cursor": true,
+      "showInLegend": true,
+      "dataLabels": {
+        "enabled": true,
+        "softConnector": false,
+        "format": "{point.percentage:.1f}%",
+        "distance": 20,
+        "style": {
+          "color": "black",
+          "fontSize": "10px",
+          "fontWeight": "normal"
+        }
+      },
+      "colors": [
+        "#B00000",
+        "#FF8028",
+        "#E6E600",
+        "#68AB2B ",
+        "#008AC3"
+      ],
+      "size": "100%"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anteil Einwohner pro ÖV-Güteklasse"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Amt für Mobilität Basel-Stadt;\u003Cbr\u002F\u003EBau- und Verkehrsdepartement des Kantons Basel-Stadt"
+  },
+  "legend": {
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "center",
+    "useHTML": true,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "fontSize": "10px"
+    },
+    "symbolRadius": 0,
+    "enabled": true,
+    "itemWidth": 100
+  },
+  "exporting": {
+    "filename": "I.11.2.05822"
+  }
+}

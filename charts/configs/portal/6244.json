@@ -1,0 +1,368 @@
+{
+  "series": [
+    {
+      "color": "#246370",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 0,
+      "data": [
+        [
+          "1990",
+          -14688
+        ],
+        [
+          "2000",
+          -17150
+        ],
+        [
+          "2010",
+          -22450
+        ],
+        [
+          "2011",
+          -22097
+        ],
+        [
+          "2012",
+          -22943
+        ],
+        [
+          "2013",
+          -23562
+        ],
+        [
+          "2014",
+          -24679
+        ],
+        [
+          "2015",
+          -24073
+        ]
+      ],
+      "name": "Wegpendler in die Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 1,
+      "data": [
+        [
+          "1990",
+          -281
+        ],
+        [
+          "2000",
+          -235
+        ],
+        [
+          "2010",
+          -269
+        ],
+        [
+          "2011",
+          -580
+        ],
+        [
+          "2012",
+          -512
+        ],
+        [
+          "2013",
+          -478
+        ],
+        [
+          "2014",
+          -508
+        ],
+        [
+          "2015",
+          -338
+        ]
+      ],
+      "name": "Wegpendler ins Ausland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 2,
+      "data": [
+        [
+          "1990",
+          57294
+        ],
+        [
+          "2000",
+          54525
+        ],
+        [
+          "2010",
+          60812
+        ],
+        [
+          "2011",
+          63306
+        ],
+        [
+          "2012",
+          62880
+        ],
+        [
+          "2013",
+          62884
+        ],
+        [
+          "2014",
+          64706
+        ],
+        [
+          "2015",
+          64289
+        ]
+      ],
+      "name": "Zupendler aus der Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8AB77D",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 4,
+      "data": [
+        [
+          "1990",
+          28767
+        ],
+        [
+          "2000",
+          29785
+        ],
+        [
+          "2010",
+          31090
+        ],
+        [
+          "2011",
+          31929
+        ],
+        [
+          "2012",
+          32799
+        ],
+        [
+          "2013",
+          33603
+        ],
+        [
+          "2014",
+          35143
+        ],
+        [
+          "2015",
+          36272
+        ]
+      ],
+      "name": "Zupendler aus dem Ausland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#000000",
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
+      "legendIndex": 4,
+      "data": [
+        [
+          "1990",
+          71092
+        ],
+        [
+          "2000",
+          66925
+        ],
+        [
+          "2010",
+          69183
+        ],
+        [
+          "2011",
+          72558
+        ],
+        [
+          "2012",
+          72224
+        ],
+        [
+          "2013",
+          72447
+        ],
+        [
+          "2014",
+          74662
+        ],
+        [
+          "2015",
+          76150
+        ]
+      ],
+      "name": "Saldo",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 665,
+    "height": 208,
+    "spacing": [
+      15,
+      3,
+      8,
+      3
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "renderTo": "container-6244"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      },
+      "stacking": "normal",
+      "pointPadding": 0,
+      "groupPadding": 0.5
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anzahl Wegpendler nach Ziel"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "min": -30000,
+    "max": 120000,
+    "tickInterval": 30000,
+    "plotLines": [
+      {
+        "value": 0,
+        "color": "white",
+        "width": 2,
+        "zIndex": 10
+      }
+    ]
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right"
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": 10
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": true
+  },
+  "exporting": {
+    "filename": "I.11.5.05203"
+  }
+}

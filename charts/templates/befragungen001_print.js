@@ -82,7 +82,7 @@
         lineWidth: 0.5,
         "type": "category",
         "uniqueNames": true,
-        "tickColor": "#FFFFFF",
+        "tickLength": 0,
         "title": {
             "style": {
 				"color": "#000000"

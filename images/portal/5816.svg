@@ -90,6 +90,9 @@
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Nettowohnungsproduktion</tspan>
   </text>
+  <g class="highcharts-plot-lines-4">
+    <path fill="none" stroke="white" stroke-width="2" d="M 52 301 L 475 301"/>
+  </g>
   <g class="highcharts-legend" transform="translate(50,50)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="273" height="49" visibility="visible"/>
     <g>
@@ -176,7 +179,4 @@
   <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">
     <tspan>Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik</tspan>
   </text>
-  <g class="highcharts-plot-lines-10">
-    <path fill="none" stroke="white" stroke-width="2" d="M 52 301 L 475 301"/>
-  </g>
 </svg>
