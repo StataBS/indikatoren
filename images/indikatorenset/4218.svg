@@ -38,18 +38,6 @@
   </g>
   <rect fill="none" class="highcharts-plot-border" x="173" y="75" width="302" height="275"/>
   <g class="highcharts-axis highcharts-xaxis ">
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 173 100.5 L 163 100.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 173 125.5 L 163 125.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 173 150.5 L 163 150.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 173 175.5 L 163 175.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 173 200.5 L 163 200.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 173 225.5 L 163 225.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 173 250.5 L 163 250.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 173 275.5 L 163 275.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 173 300.5 L 163 300.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 173 325.5 L 163 325.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 173 350.5 L 163 350.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 173 74.5 L 163 74.5" opacity="1"/>
     <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width="0.5" d="M 172.75 75 L 172.75 350"/>
   </g>
   <g class="highcharts-axis highcharts-yaxis ">

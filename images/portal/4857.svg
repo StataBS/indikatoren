@@ -38,12 +38,6 @@
   </g>
   <rect fill="none" class="highcharts-plot-border" x="53" y="70" width="262" height="280"/>
   <g class="highcharts-axis highcharts-xaxis ">
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 104.5 350 L 104.5 360" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 157.5 350 L 157.5 360" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 209.5 350 L 209.5 360" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 262.5 350 L 262.5 360" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 315.5 350 L 315.5 360" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 52.5 350 L 52.5 360" opacity="1"/>
     <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width="0.5" d="M 53 350.25 L 315 350.25"/>
   </g>
   <g class="highcharts-axis highcharts-yaxis ">

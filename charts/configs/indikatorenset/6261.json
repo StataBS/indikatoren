@@ -1,0 +1,461 @@
+{
+  "series": [
+    {
+      "color": "#C8C8C8",
+      "index": 1,
+      "legendIndex": 1,
+      "data": [
+        [
+          "ÖV-Angebot",
+          0.9
+        ],
+        [
+          "Grünanlagen",
+          0.5
+        ],
+        [
+          "Verkehrssicherheit",
+          1.1
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          2.4
+        ],
+        [
+          "Quartierleben",
+          9.2
+        ],
+        [
+          "Bevölkerung",
+          5.6
+        ],
+        [
+          "Luftqualität",
+          2.5
+        ],
+        [
+          "Lärmsituation",
+          0.3
+        ],
+        [
+          "Öffentliche Sicherheit",
+          0.8
+        ],
+        [
+          "Schule, Bildung",
+          19.6
+        ],
+        [
+          "Arbeitsplatzangebot",
+          25.4
+        ],
+        [
+          "Wohnungsangebot",
+          14.6
+        ],
+        [
+          "Parkplätze",
+          27
+        ]
+      ],
+      "name": "Weiss nicht\u002Fk.A.",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#CD9C00",
+      "index": 2,
+      "legendIndex": 2,
+      "data": [
+        [
+          "ÖV-Angebot",
+          0.3
+        ],
+        [
+          "Grünanlagen",
+          0.9
+        ],
+        [
+          "Verkehrssicherheit",
+          1.5
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          1.5
+        ],
+        [
+          "Quartierleben",
+          0.7
+        ],
+        [
+          "Bevölkerung",
+          1.4
+        ],
+        [
+          "Luftqualität",
+          2.4
+        ],
+        [
+          "Lärmsituation",
+          4.4
+        ],
+        [
+          "Öffentliche Sicherheit",
+          3.5
+        ],
+        [
+          "Schule, Bildung",
+          0.8
+        ],
+        [
+          "Arbeitsplatzangebot",
+          2
+        ],
+        [
+          "Wohnungsangebot",
+          5.8
+        ],
+        [
+          "Parkplätze",
+          16.4
+        ]
+      ],
+      "name": "Ganz unzufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "index": 3,
+      "legendIndex": 3,
+      "data": [
+        [
+          "ÖV-Angebot",
+          3.5
+        ],
+        [
+          "Grünanlagen",
+          7.3
+        ],
+        [
+          "Verkehrssicherheit",
+          11.5
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          12.2
+        ],
+        [
+          "Quartierleben",
+          7.7
+        ],
+        [
+          "Bevölkerung",
+          10.7
+        ],
+        [
+          "Luftqualität",
+          14.6
+        ],
+        [
+          "Lärmsituation",
+          15.7
+        ],
+        [
+          "Öffentliche Sicherheit",
+          19.1
+        ],
+        [
+          "Schule, Bildung",
+          7.3
+        ],
+        [
+          "Arbeitsplatzangebot",
+          14.8
+        ],
+        [
+          "Wohnungsangebot",
+          28.9
+        ],
+        [
+          "Parkplätze",
+          21.3
+        ]
+      ],
+      "name": "Eher unzufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73B97C",
+      "index": 4,
+      "legendIndex": 4,
+      "data": [
+        [
+          "ÖV-Angebot",
+          26.4
+        ],
+        [
+          "Grünanlagen",
+          41.6
+        ],
+        [
+          "Verkehrssicherheit",
+          61.4
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          60.7
+        ],
+        [
+          "Quartierleben",
+          55.9
+        ],
+        [
+          "Bevölkerung",
+          60.7
+        ],
+        [
+          "Luftqualität",
+          61.8
+        ],
+        [
+          "Lärmsituation",
+          50.1
+        ],
+        [
+          "Öffentliche Sicherheit",
+          55.4
+        ],
+        [
+          "Schule, Bildung",
+          43.2
+        ],
+        [
+          "Arbeitsplatzangebot",
+          46.5
+        ],
+        [
+          "Wohnungsangebot",
+          39.8
+        ],
+        [
+          "Parkplätze",
+          27.1
+        ]
+      ],
+      "name": "Eher zufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "index": 5,
+      "legendIndex": 5,
+      "data": [
+        [
+          "ÖV-Angebot",
+          68.9
+        ],
+        [
+          "Grünanlagen",
+          49.7
+        ],
+        [
+          "Verkehrssicherheit",
+          24.5
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          23.2
+        ],
+        [
+          "Quartierleben",
+          26.6
+        ],
+        [
+          "Bevölkerung",
+          21.6
+        ],
+        [
+          "Luftqualität",
+          18.7
+        ],
+        [
+          "Lärmsituation",
+          29.5
+        ],
+        [
+          "Öffentliche Sicherheit",
+          21.1
+        ],
+        [
+          "Schule, Bildung",
+          29
+        ],
+        [
+          "Arbeitsplatzangebot",
+          11.3
+        ],
+        [
+          "Wohnungsangebot",
+          11
+        ],
+        [
+          "Parkplätze",
+          8.2
+        ]
+      ],
+      "name": "Sehr zufrieden",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "textOverflow": "none",
+        "fontSize": "10px"
+      },
+      "formatter": function () {
+            	return this.value;
+            },
+      "step": 1,
+      "overflow": "justify"
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                this.credits.element.onclick = function() {
+                    /*
+                    window.open(
+                    "http://www.statistik.bs.ch",
+                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+                    );
+                    */
+                }
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 665,
+    "height": 208,
+    "spacing": [
+      3,
+      0,
+      3,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial",
+      "fontSize": "10px"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-6261"
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Zufiredenzeit mit verschiedenen Aspekten und Angeboten am Wohnort"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": ""
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
+  },
+  "yAxis": {
+    "tickInterval": 10,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value}%",
+      "style": {
+        "color": "#000000",
+        "fontSize": "10px"
+      }
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "shared": false,
+    "valueDecimals": 1
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+  },
+  "legend": {
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
+    "useHTML": true,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontFamily": "Arial",
+      "fontWeight": "normal",
+      "width": 95
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        }
+  },
+  "exporting": {
+    "filename": "I.01.1.05809"
+  }
+}

@@ -58,7 +58,7 @@
                 "color": "#000000"
             }
         },
-        "tickColor": "#FFFFFF"
+        "tickLength": 0
     }, 
     "yAxis": {
         gridLineColor: '#B9CFD7', 
