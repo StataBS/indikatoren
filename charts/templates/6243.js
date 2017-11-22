@@ -1,6 +1,6 @@
-/*  global rheinDataEPSG2056
+/*  
 	global Highcharts
-	global geojson_wohnviertelEPSG2056
+	global geojson_wohnviertelEPSG2056 
 	global $
 */
 (function(){
