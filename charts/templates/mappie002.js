@@ -1,6 +1,6 @@
 /*
     global $
-    global rheinDataEPSG2056
+    
     global scalebarDataEPSG2056
     global Highcharts
 */
