@@ -18,7 +18,7 @@
 			{
 				"name": "Wohnviertel", 
 				"animation": true,
-				"mapData": geojson_wohnviertel,
+				"mapData": geojson_wohnviertelEPSG2056,
 				"borderColor": "#fbfbfb",		
 				"joinBy": ['TXT', 'Wohnviertel Id'],
 				"keys": ['Wohnviertel Id', 'value'],
@@ -50,7 +50,7 @@
 			{
 				"name": "Rhein",
 				"animation": true,
-				"data": rheinData, 
+				"data": rheinDataEPSG2056, 
 				"color": "#008AC3",    
 				"borderColor": "#fbfbfb"
 			}

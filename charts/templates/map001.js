@@ -86,14 +86,12 @@
         		}
                 else {
                     //Wohnviertel
-        		    console.log('This must be a Wohnviertel');
-        		    console.log(this);
                     var this_point_index = this.series.data.indexOf(this.point);
                     var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
                     var other_series = args.chart.series[other_series_index];
                     var other_point = other_series.data[this_point_index];
                     return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                        this.point.name +': <b>' + Highcharts.numberFormat((this.point.value*100),1) + '%</b><br/>' + 
+                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value*100),1) + '%</b><br/>' + 
                         'Rang <b>' + other_point.value + '</b>';
                 }
             }
