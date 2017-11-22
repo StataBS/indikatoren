@@ -95,7 +95,37 @@
                         'Rang <b>' + other_point.value + '</b>';
                 }
             }
-        }
+        },
+		/* series with fixed data that should be added to the series object after merging with csv data */
+		"afterSeries": [
+			{
+				"name": "Rhein",
+				"animation": true,
+				"data": rheinDataEPSG2056, 
+				"color": "#008AC3",    
+				"borderColor": "#fbfbfb"
+			},
+			{
+				name: 'Massstab', 
+				animation: true,
+				type: 'mapline',
+				data: scalebarDataEPSG2056,
+				color: 'black', 
+				tooltip: {
+					pointFormatter: function(){
+						return '<br/>';
+					}
+				}, 
+				dataLabels: {
+					enabled: true, 
+					formatter: function(){
+						return '1 km';
+					}, 
+					style: {fontSize: "12px", fontWeight: "normal", color: 'black'},
+					y: -10
+				}
+    		}
+		]        
     };
     }()
 );

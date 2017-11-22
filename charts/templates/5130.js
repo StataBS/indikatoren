@@ -62,16 +62,6 @@
 			{
 				"visible": false
 			}
-		],
-		/* series with fixed data that should be added to the series object after merging with csv data */
-		"afterSeries": [
-			{
-				"name": "Rhein",
-				"animation": true,
-				"data": rheinDataEPSG2056, 
-				"color": "#008AC3",    
-				"borderColor": "#fbfbfb"
-			}
 		]
 	};
 }());

@@ -3566,6 +3566,42 @@
       ],
       "color": "#008AC3",
       "borderColor": "#fbfbfb"
+    },
+    {
+      "name": "Massstab",
+      "animation": true,
+      "type": "mapline",
+      "data": [
+        {
+          "path": [
+            "M",
+            [
+              2611898.998,
+              1267399.905
+            ],
+            null
+          ],
+          "properties": {}
+        }
+      ],
+      "color": "black",
+      "tooltip": {
+        "pointFormatter": function (){
+						return '<br/>';
+					}
+      },
+      "dataLabels": {
+        "enabled": true,
+        "formatter": function (){
+						return '1 km';
+					},
+        "style": {
+          "fontSize": "12px",
+          "fontWeight": "normal",
+          "color": "black"
+        },
+        "y": -10
+      }
     }
   ],
   "chart": {

@@ -5,11 +5,11 @@
     Created with Highstock 5.0.14
   </desc>
   <defs>
-    <linearGradient x1="0" y1="0" x2="1" y2="0" id="b">
+    <linearGradient x1="0" y1="0" x2="1" y2="0" id="c">
       <stop offset="0" stop-color="#eff6e9" stop-opacity="1"/>
       <stop offset="1" stop-color="#4b7b1f" stop-opacity="1"/>
     </linearGradient>
-    <clipPath>
+    <clipPath id="b">
       <rect x="0" y="0" width="465" height="315" fill="none"/>
     </clipPath>
     <clipPath id="a">
@@ -55,6 +55,12 @@
       </g>
     </g>
     <g class="highcharts-markers highcharts-series-2 highcharts-map-series highcharts-color-undefined " transform="translate(10,55) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-3 highcharts-mapline-series highcharts-color-undefined " transform="translate(10,55) scale(1 1)" clip-path="url(#a)">
+      <g transform="translate(0,0) scale(1 1)">
+        <path fill="none" d="M 2611898.998,1267399.905 " stroke="black" stroke-width="1" vector-effect="non-scaling-stroke" class="highcharts-point"/>
+      </g>
+    </g>
+    <g class="highcharts-markers highcharts-series-3 highcharts-mapline-series highcharts-color-undefined " transform="translate(10,55) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;font-family:arial;fill:#000000;" y="21">
     <tspan>Baujahr Wohngebäude</tspan>
@@ -62,12 +68,19 @@
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
     <tspan>Stand: 2016</tspan>
   </text>
+  <g class="highcharts-data-labels highcharts-series-3 highcharts-mapline-series highcharts-color-undefined " visibility="visible" transform="translate(10,55) scale(1 1)" clip-path="url(#b)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-Infinity,-Infinity)">
+      <text x="0" style="font-size:12px;font-weight:normal;color:black;fill:black;" y="12">
+        <tspan x="0" y="12" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">1 km</tspan><tspan x="0" y="12">1 km</tspan>
+      </text>
+    </g>
+  </g>
   <g class="highcharts-legend" transform="translate(43,323)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="432" height="47" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined" transform="translate(226,3)">
-          <rect x="0" y="4" width="200" height="12" fill="url(#b)"/>
+          <rect x="0" y="4" width="200" height="12" fill="url(#c)"/>
           <g class="highcharts-grid highcharts-coloraxis-grid ">
             <path fill="none" stroke="#fbfbfb" stroke-width="1" class="highcharts-grid-line" d="M -0.5 4 L -0.5 16" opacity="1"/>
             <path fill="none" stroke="#fbfbfb" stroke-width="1" class="highcharts-grid-line" d="M 49.5 4 L 49.5 16" opacity="1"/>
