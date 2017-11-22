@@ -16,7 +16,7 @@
 		},
         "tooltip": {
             "formatter": function(args){
-        		if (this.series.data[this.point.x].name === undefined) {
+        		if (! this.point["Wohnviertel Id"]) {
         		    //Rhein
         			return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
         		}
@@ -27,7 +27,7 @@
                     var other_series = args.chart.series[other_series_index];
                     var other_point = other_series.data[this_point_index];
                     return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                        this.point.name +': <b>' + Highcharts.numberFormat((this.point.value),1) + '</b><br/>' + 
+                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),1) + '</b><br/>' + 
                         'Rang <b>' + other_point.value + '</b>';
                 }
             }
@@ -47,7 +47,7 @@
 			{
 				"name": "Wohnviertel", 
 				"animation": true,
-				"mapData": geojson_wohnviertel,
+				"mapData": geojson_wohnviertelEPSG2056,
 				"borderColor": "#fbfbfb",		
 				"joinBy": ['TXT', 'Wohnviertel Id'],
 				"keys": ['Wohnviertel Id', 'value'],
@@ -61,16 +61,6 @@
 			}, 
 			{
 				"visible": false
-			}
-		],
-		/* series with fixed data that should be added to the series object after merging with csv data */
-		"afterSeries": [
-			{
-				"name": "Rhein",
-				"animation": true,
-				"data": rheinData, 
-				"color": "#008AC3",    
-				"borderColor": "#fbfbfb"
 			}
 		]
 	};
