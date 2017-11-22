@@ -122,7 +122,7 @@
 						return '1 km';
 					}, 
 					style: {fontSize: "12px", fontWeight: "normal", color: 'black'},
-					y: -10
+					y: -10 
 				}
     		}
 		]        
