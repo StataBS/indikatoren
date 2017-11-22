@@ -1,7 +1,7 @@
 /* 
 global Highcharts
-global rheinData
-global geojson_wohnviertel
+global rheinDataEPSG2056
+global geojson_wohnviertelEPSG2056
 */
 (function(){
     return {
@@ -29,7 +29,7 @@ global geojson_wohnviertel
 			{
 				"name": "Wohnviertel", 
 				"animation": true,
-				"mapData": geojson_wohnviertel,
+				"mapData": geojson_wohnviertelEPSG2056,
 				"borderColor": "#fbfbfb",		
 				"joinBy": ['TXT', 'Wohnviertel Id'],
 				"keys": ['Wohnviertel Id', 'value'],
@@ -50,7 +50,7 @@ global geojson_wohnviertel
 			{
 				"name": "Rhein",
 				"animation": true,
-				"data": rheinData, 
+				"data": rheinDataEPSG2056, 
 				"color": "#008AC3",    
 				"borderColor": "#fbfbfb"
 			}

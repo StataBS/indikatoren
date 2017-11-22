@@ -80,12 +80,14 @@
     	},
         "tooltip": {
             "formatter": function(args){
-        		if (this.series.data[this.point.x].name === undefined) {
+        		if (! this.point["Wohnviertel Id"]) {
         		    //Rhein
         			return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
         		}
                 else {
                     //Wohnviertel
+        		    console.log('This must be a Wohnviertel');
+        		    console.log(this);
                     var this_point_index = this.series.data.indexOf(this.point);
                     var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
                     var other_series = args.chart.series[other_series_index];
