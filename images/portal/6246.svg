@@ -50,7 +50,7 @@
     <g class="highcharts-markers highcharts-series-2 highcharts-map-series highcharts-color-undefined " transform="translate(2,43) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-3 highcharts-mapline-series highcharts-color-undefined " transform="translate(2,43) scale(1 1)">
       <g transform="translate(0,0) scale(1 1)">
-        <path fill="none" d="M 2611898.998,1267399.905 " stroke="black" stroke-width="1" vector-effect="non-scaling-stroke" class="highcharts-point"/>
+        <path fill="none" d="M 184.07519076881238 219.57432091647007 L 184.07519076881238 225.44590669654497 184.07519076881238 222.51011380650752 213.4331196691868 222.51011380650752 213.4331196691868 219.57432091647007 213.4331196691868 225.44590669654497" stroke="black" stroke-width="1" vector-effect="non-scaling-stroke" class="highcharts-point"/>
       </g>
     </g>
     <g class="highcharts-markers highcharts-series-3 highcharts-mapline-series highcharts-color-undefined " transform="translate(2,43) scale(1 1)" clip-path="none"/>
@@ -230,7 +230,7 @@
     <tspan>nach Wohnviertel</tspan>
   </text>
   <g class="highcharts-data-labels highcharts-series-3 highcharts-mapline-series highcharts-color-undefined " visibility="visible" transform="translate(2,43) scale(1 1)" clip-path="url(#a)">
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-Infinity,-Infinity)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(188,207)">
       <text x="0" style="font-size:10px;font-weight:normal;color:black;fill:black;" y="10">
         <tspan x="0" y="10" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">1 km</tspan><tspan x="0" y="10">1 km</tspan>
       </text>

@@ -58,7 +58,7 @@
     <g class="highcharts-markers highcharts-series-4 highcharts-map-series highcharts-color-undefined " transform="translate(10,41) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-5 highcharts-mapline-series highcharts-color-undefined " transform="translate(10,41) scale(1 1)">
       <g transform="translate(0,0) scale(1 1)">
-        <path fill="none" d="M 2611898.998,1267399.905 " stroke="black" stroke-width="1" vector-effect="non-scaling-stroke" class="highcharts-point"/>
+        <path fill="none" d="M 67.47654592861153 270.56161641018224 L 67.47654592861153 277.79664158488123 67.47654592861153 274.17912899753173 103.6516718021066 274.17912899753173 103.6516718021066 270.56161641018224 103.6516718021066 277.79664158488123" stroke="black" stroke-width="1" vector-effect="non-scaling-stroke" class="highcharts-point"/>
       </g>
     </g>
     <g class="highcharts-markers highcharts-series-5 highcharts-mapline-series highcharts-color-undefined " transform="translate(10,41) scale(1 1)" clip-path="none"/>
@@ -277,7 +277,7 @@
     <tspan>Anzahl privater Personenwagen pro Haushalt</tspan>
   </text>
   <g class="highcharts-data-labels highcharts-series-5 highcharts-mapline-series highcharts-color-undefined " visibility="visible" transform="translate(10,41) scale(1 1)" clip-path="url(#a)">
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-Infinity,-Infinity)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(73,257)">
       <text x="0" style="font-size:12px;font-weight:normal;color:black;fill:black;" y="12">
         <tspan x="0" y="12" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">1 km</tspan><tspan x="0" y="12">1 km</tspan>
       </text>
