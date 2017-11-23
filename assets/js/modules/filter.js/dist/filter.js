@@ -1,11 +1,11 @@
 /*
  * filter.js (https://github.com/jiren/filter.js/)
- * 2.1.0 (2015-10-17)
+ * 2.1.0 (2016-08-09)
  *
  * Released under the MIT license
  * http://opensource.org/licenses/MIT
  *
- * Copyright 2011-2015 Jiren Patel[jirenpatel@gmail.com]
+ * Copyright 2011-2016 Jiren Patel[jirenpatel@gmail.com]
  *
  * Dependency:
  *  jQuery(v1.9 >=)
@@ -879,7 +879,7 @@
 
     this.Model = JsonQuery();
     this.Model.getterFns['_fid'] = function(r){ return r['_fid'];};
-    this.addRecords(records, false);
+    this.addRecords(records, this.opts['filter_on_init'] || false);
 
     if(this.has_pagination){
       this.initPagination();
@@ -1166,7 +1166,7 @@
 
     this.anyFilterSelected = count > 0;    
     criteria = count ? this.Model.where(query) : this.Model;
-    this.last_Query = criteria;
+    this.last_query = criteria;
     this.execCallback('shortResult', criteria);
     this.last_result = criteria.all;
 
