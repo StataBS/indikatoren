@@ -8,7 +8,8 @@
     "highcharts": "5.0.7",
     "jquery": "3.1.1",
     "proj4": "2.4.3",
-    "seedrandom": "2.4.2"
+    "seedrandom": "2.4.2", 
+    "filter-js" : "git://github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936"
   },
   "devDependencies": {
     "casperjs": "1.1.4",
@@ -35,10 +36,11 @@
     "build:images_casper": "npm run server && node node_modules/casperjs/bin/casperjs.js build/createImagesCasper.js && npm run stop-server",
     "build:images_viewbox": "node build/addSvgViewbox.js",
     "build:umwelt_charts": "node node_modules/casperjs/bin/casperjs.js build/createUmweltberichtConfigs.js",
+    "build:init_print_charts": "node createMissingPrintChartsFromMetadata.js",
     "build:optimize_images": "echo 'Optimizing svg images...' && node build/optimizeImages.js && echo '...done optimizing images!'",
     "build:optimize_all_images": "echo 'Optimizing svg images...' && svgo --pretty --multipass -f images/portal/ && svgo --pretty --multipass -f images/indikatorenset/ && echo '...done optimizing images!'",
     "build:save_checksums": "echo 'Saving checksums of newly built charts...' && node build/saveChecksums.js",
-    "build:copy_modules": "echo 'Copying required node_modules to assets/js/modules...' && copy-node-modules . assets/js -v && rm -rf assets/js/modules && mv assets/js/node_modules assets/js/modules",
+    "build:copy_modules": "echo 'Copying required node_modules to assets/js/modules...' && copy-node-modules . assets/js -v && rm -rf assets/js/modules && mv assets/js/node_modules assets/js/modules && echo 'Manually copying filter.js...' &&  cp -r node_modules/filter.js assets/js/modules/",
     "build": "LC_ALL=C && npm run build:database && npm run build:find_changed_charts && npm run build:partial_databases && npm run build:charts && npm run build:images  && npm run build:images_viewbox && npm run build:optimize_images && npm run build:save_checksums && npm run build:copy_modules",
     "rebuild": "LC_ALL=C && echo 'Deleting metadat/all/hashesAfterBuild.json in order to trigger build of all charts...' && rm metadata/all/hashesAfterBuild.json & echo 'Running npm run build...' && npm run build",
     "build:update_dependencies": "reinstall && npm prune --production=false && npm update --dev",
