@@ -303,9 +303,9 @@ function exportThumbnail(id, exportType, offline, exportServer){
 
 
 //render the html required for links to other chart, kennzahlenset or external resources
-function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, renderLinkDisplayMode){
+function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, stufe1, renderLinkDisplayMode){
   var returnText = "";
-  var displayLinkToIndikatorenset = (kennzahlenset && !isIndikatorensetView(view));
+  var displayLinkToIndikatorenset = kennzahlenset;
   //renderLink: Link to different view of same data
   var displayRenderLink = (renderLink && renderLink.length && renderLink[0].length);
   var displayExternalLinks = (externalLinks && externalLinks.length && externalLinks[0].length);
@@ -319,12 +319,17 @@ function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, renderL
         ";
     // Only display Link to Indikatorenset if not already in Indikatorenset View
     if (displayLinkToIndikatorenset) {
-      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/"+ kennzahlenset.toLowerCase().replace(" ", "-") + ".html' target='_blank'>" + kennzahlenset + "</a>.</li>";
+      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/"+ kennzahlenset.toLowerCase().replace(" ", "-") + ".html' target='_blank'>" + kennzahlenset.replace('-', ' ') + "</a>";
+      //in indikatorenset View, add the stufe1 text here
+      if(isIndikatorensetView(view)){
+        returnText += ", " + stufe1;
+      }
+      returnText += ".</li>";      
     }
     if (displayRenderLink) {
       if (renderLinkDisplayMode == 'slide' || renderLinkDisplayMode === undefined){
         //we're in carousel mode, slide to other chart
-        returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS, " + view + ")'>Andere Darstellungsform</a> dieser Daten</li>";
+        returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS, " + isIndikatorensetView(view) + ")'>Andere Darstellungsform</a> dieser Daten</li>";
       }
       else{
         //we're in chart-detail.html, open link to other chart

@@ -141,7 +141,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Beschäftigung mit dem Thema Politik"
+    "text": "Politikinteresse der über 54-Jährigen"
   },
   "subtitle": {
     "style": {
@@ -224,6 +224,6 @@
         }
   },
   "exporting": {
-    "filename": "I.50.4.0007"
+    "filename": "I.50.4.4874"
   }
 }

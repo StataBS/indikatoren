@@ -147,7 +147,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
   },
   "legend": {
     "symbolRadius": 0,
@@ -157,6 +157,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.19.1.0002"
+    "filename": "I.19.1.4867"
   }
 }

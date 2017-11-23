@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"2017-03-20T10:46:00.000",
 "schlagwort":["Gebäude","Haushalt"],
-"stufe1":"1 Gesellschaftspolitik",
+"stufe1":"Ziel 1: Gesellschaftspolitik",
 "stufe2":"1.4 Familiengerechter Wohnraum",
 "stufe3":"",
 "stufe4":"",
@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
+"orderKey":"02_04_00_00_00_000",
 "parentId":null,
 "children":[],
 "renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
 "externalLinks":[""]
 }

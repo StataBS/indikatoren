@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
 "schlagwort":["Biodiversität"],
-"stufe1":"Biodiversität",
+"stufe1":"Thema Biodiversität",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -24,7 +24,7 @@
 "orderKey":"03_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":[],
 "externalLinks":[""]
 }

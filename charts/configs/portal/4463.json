@@ -184,7 +184,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik BFS, Strukturerhebung (SE)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
   },
   "legend": {
     "enabled": true,
@@ -204,6 +204,6 @@
     }
   },
   "exporting": {
-    "filename": "I.01.8.0001"
+    "filename": "I.01.8.4463"
   }
 }

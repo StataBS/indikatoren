@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
 "schlagwort":["Luft"],
-"stufe1":"Luft",
+"stufe1":"Thema Luft",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -20,11 +20,11 @@
 "template":"dotplot",
 "option":"options001",
 "visible":true,
-"visibleInPortal":true,
+"visibleInPortal":false,
 "orderKey":"11_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Lufthygieneamt beider Basel"],
 "externalLinks":[""]
 }

@@ -23,8 +23,8 @@
 "visibleInPortal":false,
 "orderKey":"01_02_00_00_00_003",
 "parentId":5178,
-"children":["6223","6231","6261"],
-"renderLink":[""],
+"children":["6223","6261"],
+"renderLink":[],
 "quellenangabe":["Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"],
 "externalLinks":[""]
 }

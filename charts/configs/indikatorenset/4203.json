@@ -108,7 +108,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Altersquotient nach Staatsangehörigkeit 2015"
+    "text": "Altersquotient nach Staatsangehörigkeit"
   },
   "subtitle": {
     "style": {
@@ -117,7 +117,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stand: 2015",
     "align": "left"
   },
   "yAxis": {
@@ -156,7 +156,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
     "symbolRadius": 0,
@@ -180,6 +180,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.01.1.0014"
+    "filename": "I.01.1.4203"
   }
 }
