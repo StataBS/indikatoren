@@ -1,0 +1,106 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "filter-js@git://github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
+        "scope": null,
+        "escapedName": "filter-js",
+        "name": "filter-js",
+        "rawSpec": "git://github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
+        "spec": "git://github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
+          "sshUrl": "git+ssh://git@github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
+          "httpsUrl": "git+https://github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
+          "gitUrl": "git://github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
+          "shortcut": "github:statabs-test/filter.js#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
+          "directUrl": "https://raw.githubusercontent.com/statabs-test/filter.js/e2447aaea9e5b6581a98778c4177fbdf3d1a2936/package.json"
+        }
+      },
+      "/home/ubuntu/workspace"
+    ]
+  ],
+  "_from": "git://github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
+  "_id": "filter.js@2.1.0",
+  "_inCache": true,
+  "_location": "/filter.js",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "filter-js@git://github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
+    "scope": null,
+    "escapedName": "filter-js",
+    "name": "filter-js",
+    "rawSpec": "git://github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
+    "spec": "git://github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
+      "sshUrl": "git+ssh://git@github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
+      "httpsUrl": "git+https://github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
+      "gitUrl": "git://github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
+      "shortcut": "github:statabs-test/filter.js#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
+      "directUrl": "https://raw.githubusercontent.com/statabs-test/filter.js/e2447aaea9e5b6581a98778c4177fbdf3d1a2936/package.json"
+    }
+  },
+  "_requiredBy": [],
+  "_resolved": "git://github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
+  "_shasum": "382ae505b26723d15ba899bf6c8f3330a8ff06b6",
+  "_shrinkwrap": null,
+  "_spec": "filter-js@git://github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
+  "_where": "/home/ubuntu/workspace",
+  "author": {
+    "name": "Jiren Patel",
+    "email": "jirenpatel@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/jiren/filter.js/issues"
+  },
+  "dependencies": {
+    "jquery": "x.x.x"
+  },
+  "description": "A javascript library for filtering json object and rendering html",
+  "devDependencies": {
+    "browser-sync": ">= 1.7.2",
+    "connect": ">= 3.3.3",
+    "del": ">= 0.1.3",
+    "gulp": "3.8.10",
+    "gulp-changed": ">= 1.0.0",
+    "gulp-concat": ">= 2.4.2",
+    "gulp-download": ">= 0.0.1",
+    "gulp-header": ">= 1.2.1",
+    "gulp-injector": ">= 0.0.1",
+    "gulp-newer": ">= 0.4.0",
+    "gulp-rename": ">= 1.2.0",
+    "gulp-sourcemaps": ">= 1.2.8",
+    "gulp-uglify": ">= 1.0.1",
+    "gulp-util": "*",
+    "map-stream": "*",
+    "run-sequence": ">= 1.0.2",
+    "serve-static": ">= 1.7.1"
+  },
+  "gitHead": "e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
+  "homepage": "https://github.com/jiren/filter.js",
+  "keywords": [
+    "filter",
+    "json",
+    "jquery"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jiren/filter.js/blob/master/LICENSE"
+    }
+  ],
+  "name": "filter.js",
+  "optionalDependencies": {},
+  "readme": "# Filter.js\n\nFilter.js is client-side JSON objects filter which can render html elements. Multiple filter criteria can be specified and used in conjunction with each other.\n\n## Usage\n\nBasic requirement to implement filtering using filter.js are JSON data, a 'View' template and a filter criteria.\n\n### Filter Initialisation\n\nIt takes three arguments one is movies, second is 'container' in which html elements are to be to appended and the third one is options.\nYou can set options such as template, criteria, callbacks and search but only `template` is compulsory.\n\n```javascript\nvar FJS = FilterJS(movies, '#movies', {\n  template: '#movie-template',\n  filter_on_init: true, // Default filter_on_init is false\n  callbacks: {\n    afterFilter: function(result){\n      $('#total_movies').text(result.length);\n     }\n   }\n});\n```\n\nTo append each item in different container use option `appendToContainer`.\nThis option is a function with two arguments, one is html element content and second is record object.\n\n```javascript\n\n//This will append elements to specific year.\nvar appendFn = function(html_ele, record) {\n  $(\"#\" + record.year).append(html_ele);\n}\n\nvar FJS = FilterJS(movies, '#movies', {\n  template: '#movie-template',\n  appendToContainer: appendFn\n});\n```\n\n### JSON data\n\nCapture the JSON data (maybe using @movies.to_json).\n\n```javascript\n  var movies = [\n  {\n    \"name\": \"The Shawshank Redemption\",\n    \"rating\": 9.3,\n    \"director\": \"Frank Darabont\",\n    \"year\": 1994,\n    \"stars\": [\n      \"Tim Robbins\",\n      \"Morgan Freeman\",\n      \"Bob Gunton\"\n    ],\n    \"runtime\": 142,\n    \"genre\": [\n      \"Crime\",\n      \"Drama\"\n    ],\n    \"id\": 1\n  },\n  ....\n  ....\n ]\n ```\n\n### View\n\nRendering JSON objects requires a view template. The micro-templating module in filter.js is inspired by Underscore.js.\n\n```javascript\n\t<script id=\"movie-template\" type=\"text/html\">\n\t  <div class=\"movie\">\n \t\t<div class=\"thumbnail\">\n          <span class=\"label label-success rating\"><%= rating %></span>\n          <div class=\"caption\">\n            <h4><%= name %></h4>\n            <div class=\"outline\">\n              <%= outline %>\n              <span class=\"runtime\">\n                <i class=\"glyphicon glyphicon-time\"></i>\n                <%= runtime %> mins.\n              </span>\n            </div>\n            <div class=\"detail\">\n              <dl>\n                <dt>Actors</dt>\n                <dd><%= stars %></dt>\n                <dt>Year</dt>\n                <dd><%= year %></dd>\n              </dl>\n            </div>\n          </div>\n         </div>\n       </div>\n\t</script>\n```\n\n### Filter Criteria\n\nThe two mandatory options required are `field` which is name of any property from JSON data and other is HTML `ele` element on which filter will be triggered by an event(e.g. click, change, etc.).\nOther filter options are `type`, `event` and `selector`.\n\n- filter `type`: by default it is equal but if you want to search within a range you can set it to `range`.\nFor `range`, html element value should be in format of `val1-val2`(e.g. `100-200`).\nBy default hyphen '-' is used as `delimiter` or range separator `val1-val2`. If you want to use a different separator (if data contains hyphen e.g: '2012-02-02') it can be specified using `delimiter: ','` and html element value should be in format `val1<delimiter>val2`. i.e.`2012-02-02,2015-02-02`.\n- `event` by default for checkbox and radio button is `click` and for text input and select box it is `change`.\n- `selector` by default for checkbox and radio button is `:checked`, for input field is `input` and for select box is `select`. '#genre_criteria input:checkbox' will collect the checkboxes values in html element with `id=\"genre_criteria\"`\n- `all` option : if selected values of specific filter criteria contains `all` option value then all record selected for that criteria.\n\nThere are two way to add criteria. One is add at time of filter object initialisation and other is add when required.\n\n```javascript\n  //On create\n  var fjs = FilterJS(movies, '#movies', {\n    template: '#movie-template',\n    criterias: [ {field: 'year', ele: '#year_filter', type: 'range'} ]\n  }\n\n  // Add one at a time.\n  FJS.addCriteria({field: 'year', ele: '#year_filter', type: 'range'})\n  FJS.addCriteria({field: 'genre', ele: '#genre_criteria input:checkbox'})\n\n  // with all  option\n  FJS.addCriteria({field: 'year', ele: '#year_filter', type: 'range', all: 'all_years'})\n\n  // Full options list.\n  FJS.addCriteria({field: 'genre', ele: '.genres', event: 'change', selector: ':checked' })\n```\n\n**field**: `genre` this is a JSON attribute defined in JSON objects.\n\n#### For Range selections\n\nMore detail for `range` filter. It is expected to set ranges as values like '20-30'\n\n  Example:\n\n```html\n<input checked=\"checked\" value=\"20-30\" type=\"checkbox\">\n```\n\n**For nested field selection**: In the below object, to select filter on name `field` option value would be `detail.name` and for city `detail.address.city`.\n\nJSON object:\n\n```json\n    {\n      detail: { name: 'Jiren', address: { city: 'Pune' } }\n    }\n```\n\n#### Remove criteria.\n\nUsing `removeCriteria`, remove criteria dynamically. It take one argument `filed` name. i.e removing year criteria.\n\n```javascript\nfjs.removeCriteria('year')\n```\n\n#### Filtering Callbacks\n\nDefine callback in settings. Callbacks execute on different events.\n\n- `beforeAddRecords` : Triggered before adding records to filter.\n- `afterAddRecords` : Triggered after all records are added.\n- `beforeRender` : Triggered before rendering going to call.\n- `beforeRecordRender` : Triggered for each JSON object record at time of rendering.\n- `afterFilter` : Triggered after filtering event.\n\ni.e.,\n\n```javascript\n  var filter_callbacks = {\n    beforeAddRecords: function(records){\n      // Process new JSON data records.\n      // i.e Process data before adding to filter while streaming.\n    },\n    afterAddRecords: function(records){\n      // i.e Update google markers or update sorting.\n    },\n    beforeRender: function(records){\n     //\n    },\n    beforeRecordRender: function(record){\n      //i.e Add/Update record fields\n    },\n    afterFilter: function(result){\n      // i.e Update result counter, update google map markers.\n    }\n  };\n```\n\n#### Init Filter object with above callbacks\n\n```javascript\nvar fjs = FilterJS(movies, '#movies', {\n  template: '#movie-template',\n    callbacks: filter_callbacks\n  }\n\n  # Or add callback separately.\n  FJS.addCallback('afterAddRecords', function(){\n    // i.e Update total count\n  });\n```\n\n### Instant Search integration\n\nTo enable search, add a textbox element and set the selector in options. By default search will work on all JSON object fields. If you want to search on some particular fields then set the `fields` option.\n\n```javascript\n  // Init with search\n  FilterJS(movies, '#movies', {\n    template: '#movie-template',\n    search: { ele: '#searchbox' }  // Search in all fields of JSON object.\n  }\n\n  // Search in given fields\n  search: { ele: '#searchbox', fields: ['name', 'runtime'] }\n```\n\nThe search will trigger after 2 characters by default. This can be configured using `start_length` option.\n\n```javascript\n  search: {ele: '#searchbox', fields: ['name', 'runtime'], start_length: 4 }\n```\n\nBy default search will start immediately after a user types. A timeout can be configured using `timeout` option (in milliseconds).\n\n```javascript\n  search: {ele: '#searchbox', fields: ['name', 'runtime'], timeout: 100 }\n```\n\n## Add more data to existing filter\n\nIf you are streaming JSON data using ajax then you can add data like this\n\n```javascript\nvar fjs = FilterJS(movies, '#movies', { template: '#movie-template'})\n\nfJS.addData(data)\n```\n\n### Add data using ajax streaming\n\nAdd streaming option to above define 'settings'.\n\n```javascript\n  var fjs = FilterJS(movies, '#movies', {\n    template: '#movie-template',\n    streaming: {\n      data_url: 'movies/index.json',\n      stream_after: 1,\n        batch_size: 50\n      }\n  });\n```\n\n- Only 'data_url' is mandatory.\n- 'stream_after' default value is 2 sec.\n- Streaming ajax request format\n\n```\nmovies/index.json.json?offset=0&limit=50&q='search text'\n```\n\n Add streaming after initialisation.\n\n```javascript\nfjs.setStreaming({\n  data_url: 'data/stream_movies.json',\n  stream_after: 1,\n  batch_size: 50\n});\n```\n\n## Remove records from filtering\n\n- Remove records using the record's `id` field.\n\n```javascript\nfjs.removeRecords([1,2,3]);\n```\n\n- Remove using [JsonQuery](https://github.com/jiren/JsonQuery) criteria\n\n```javascript\n  fjs.removeRecords({year: 1980});\n\n  fjs.removeRecords({'year.$gt': 1980, 'rating': 8.5});\n```\n\n## Change Template dynamically and Rebuild\n\nIf you want to change the template dynamically but do not want to re-render the view (you many choose to render the template yourself) then just pass the template name to `setTemplate` function.\n\n```javascript\n  fjs.setTemplate('#movie-list-template');\n```\n\nIf you want to re-render the new template then pass a second paramater as `true`. This will render the container with the data using the new template specified and apply the filtering.\n\n```javascript\n  fjs.setTemplate('#movie-list-template', true);\n```\n\n## Build and Development\n\n- `npm install gulp -g`\n- Install packages `npm install`\n- To build `gulp build`\n- For development `gulp`. This will start watch on files, also start webserver.\n\n## Note\n\n- Old filter.js in [v1.5.2](https://github.com/jiren/filter.js/tree/v1.5.2) git tag.\n\n## Demo\n\nTo see the sample demo, clone this repo and open demo/filterjs.html in your browser\n\n[Filter](http://jiren.github.io/filter.js/index.html)\n\n[Auto filtering using html attributes](http://jiren.github.io/filter.js/auto.html)\n\n[Filter - Google Map](http://jiren.github.io/filter.js/map.html)\n\n[Filter with Pagination](http://jiren.github.io/filter.js/pagination.html)\n\n## Used by\n\n[Mianillo](http://mianillo.com/content/MuseHTML/buscar.html)\n\n[Itrenewdirect (product search)](https://www.itrenewdirect.com/category/laptops.html)\n\n[Tischefrei (search page)](http://tischefrei.de)\n\n[Roboty przemysłowe](http://roboty-przemyslowe.pl)\n\n[Byte b.v. (partner page)](https://www.byte.nl/partners)\n\n[Belihewan](http://www.belihewan.com)\n\nIf you use this, please send me an email, I shall add your link here!\n\n## Sponsors and Supporters\n\n- [Josh Software](http://www.joshsoftware.com)\n- Instant search field filtering sponsored by [W/E consultants](http://www.w-e.nl)\n\n## Contributing\n\nPlease send me a pull request so that this can be improved.\n\n## License\n\nThis is released under the MIT license.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiren/filter.js.git"
+  },
+  "version": "2.1.0"
+}
