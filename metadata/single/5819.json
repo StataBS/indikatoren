@@ -23,8 +23,8 @@
 "visibleInPortal":false,
 "orderKey":"01_02_00_00_00_001",
 "parentId":4150,
-"children":["5879","6109","6251"],
-"renderLink":[""],
+"children":["6109","6251"],
+"renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"],
 "externalLinks":[""]
 }

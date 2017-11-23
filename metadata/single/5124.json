@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Wohnviertel"],
 "aktualisierungsdatum":"2017-05-12T14:43:49.4949",
 "schlagwort":["Erwerb"],
-"stufe1":"3 Wirtschaft und Arbeit",
+"stufe1":"Bereich 3: Wirtschaft und Arbeit",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
+"orderKey":"03_00_00_00_00_006",
 "parentId":4837,
 "children":[],
 "renderLink":["4837"],
-"quellenangabe":["Bundesamt für Statistik BFS, Strukturerhebung (SE)"],
+"quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)"],
 "externalLinks":[""]
 }

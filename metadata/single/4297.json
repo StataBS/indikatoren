@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
 "schlagwort":["Energie","Klima"],
-"stufe1":"Klima",
+"stufe1":"Thema Klima",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -24,7 +24,7 @@
 "orderKey":"08_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Landwirtschaftliches Zentrum Ebenrain"],
 "externalLinks":[""]
 }

@@ -23,8 +23,8 @@
 "visibleInPortal":true,
 "orderKey":"02_05_00_00_00_002",
 "parentId":null,
-"children":["6225","6233","6263"],
-"renderLink":[""],
+"children":["6225","6263"],
+"renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)"],
 "externalLinks":[""]
 }

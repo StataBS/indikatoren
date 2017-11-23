@@ -201,7 +201,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Interesse an der Politik in Basel-Stadt (18- bis 29-Jährige)"
+    "text": "Politikinteresse der unter 30-Jährigen"
   },
   "subtitle": {
     "style": {
@@ -284,6 +284,6 @@
         }
   },
   "exporting": {
-    "filename": "I.50.1.0029"
+    "filename": "I.50.1.4933"
   }
 }

@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"2017-01-24T15:08:06.066",
 "schlagwort":["Gebäude","Haushalt"],
-"stufe1":"2 Fiskalpolitik",
+"stufe1":"Ziel 2: Fiskalpolitik",
 "stufe2":"2.2 Anteil an Hauptwohnsitznehmern",
 "stufe3":"",
 "stufe4":"",
@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
+"orderKey":"03_02_00_00_00_000",
 "parentId":null,
 "children":[],
 "renderLink":[],
-"quellenangabe":["Bundesamt für Statistik BFS, STATPOP"],
+"quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"],
 "externalLinks":[""]
 }

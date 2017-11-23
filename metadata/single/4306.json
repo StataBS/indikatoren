@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
 "schlagwort":["Biodiversität"],
-"stufe1":"Biodiversität",
+"stufe1":"Thema Biodiversität",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -20,11 +20,11 @@
 "template":"dotplot",
 "option":"options001",
 "visible":true,
-"visibleInPortal":true,
+"visibleInPortal":false,
 "orderKey":"03_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Stadtgärtnerei Basel-Stadt"],
 "externalLinks":[""]
 }

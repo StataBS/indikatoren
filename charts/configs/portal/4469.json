@@ -363,7 +363,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik BFS, Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
   },
   "legend": {
     "enabled": true,
@@ -400,6 +400,6 @@
     }
   },
   "exporting": {
-    "filename": "I.03.0.0002"
+    "filename": "I.03.4.4469"
   }
 }

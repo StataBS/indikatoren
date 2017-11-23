@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Wohnviertel"],
 "aktualisierungsdatum":"",
 "schlagwort":["Bevölkerung"],
-"stufe1":"3 Wirtschaft und Arbeit",
+"stufe1":"Bereich 3: Wirtschaft und Arbeit",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
+"orderKey":"03_00_00_00_00_004",
 "parentId":4836,
 "children":[],
 "renderLink":["4836"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Steuerstatistik"],
 "externalLinks":["Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_eink.einkommen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."]
 }
