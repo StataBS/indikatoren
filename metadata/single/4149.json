@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"2017-01-18T09:58:14.1414",
 "schlagwort":["Gebäude","Haushalt"],
-"stufe1":"3 Raumplanung",
+"stufe1":"Ziel 3: Raumplanung",
 "stufe2":"3.2 Freiräume",
 "stufe3":"",
 "stufe4":"",
@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
+"orderKey":"04_02_00_00_00_000",
 "parentId":null,
 "children":[],
 "renderLink":[],
-"quellenangabe":["Grundbuch- und Vermessungsamt  Basel-Stadt"],
+"quellenangabe":["Grundbuch- und Vermessungsamt Basel-Stadt"],
 "externalLinks":[""]
 }

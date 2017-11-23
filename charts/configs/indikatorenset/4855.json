@@ -181,7 +181,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Es gibt zu viele Menschen aus dem Ausland in Basel-Stadt"
+    "text": "Beurteilung des Ausländeranteils"
   },
   "subtitle": {
     "style": {
@@ -264,6 +264,6 @@
         }
   },
   "exporting": {
-    "filename": "I.50.1.0014"
+    "filename": "I.50.1.4855"
   }
 }

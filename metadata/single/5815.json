@@ -23,8 +23,8 @@
 "visibleInPortal":false,
 "orderKey":"01_01_00_00_00_007",
 "parentId":4140,
-"children":["5875","6105","6247"],
-"renderLink":[""],
+"children":["6105","6247"],
+"renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
 "externalLinks":[""]
 }

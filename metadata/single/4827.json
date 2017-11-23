@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Wohnviertel"],
 "aktualisierungsdatum":"2017-03-16T17:35:44.4444",
 "schlagwort":["Alter","Alter"],
-"stufe1":"1 Gesellschaft und Soziales",
+"stufe1":"Bereich 1: Gesellschaft und Soziales",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
+"orderKey":"01_00_00_00_00_011",
 "parentId":null,
 "children":["5114"],
 "renderLink":["5114"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
 "externalLinks":[""]
 }

@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
 "schlagwort":["Boden"],
-"stufe1":"Boden",
+"stufe1":"Thema Boden",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -24,7 +24,7 @@
 "orderKey":"05_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":[],
 "externalLinks":[""]
 }

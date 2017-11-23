@@ -288,7 +288,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Materielle Hilfeleistungen von Arbeitskollegen, Freunden und Bekannten oder Nachbarn"
+    "text": "Erhaltene materielle Hilfeleistungen"
   },
   "subtitle": {
     "style": {
@@ -372,6 +372,6 @@
     "itemWidth": 150
   },
   "exporting": {
-    "filename": "I.50.4.0004"
+    "filename": "I.50.4.4718"
   }
 }

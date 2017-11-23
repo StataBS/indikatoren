@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"2017-02-02T16:59:21.2121",
 "schlagwort":["Gebäude","Haushalt"],
-"stufe1":"2 Fiskalpolitik",
+"stufe1":"Ziel 2: Fiskalpolitik",
 "stufe2":"2.1 Grosszügiger Wohnraum",
 "stufe3":"",
 "stufe4":"",
@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
+"orderKey":"03_01_00_00_00_000",
 "parentId":null,
 "children":[],
 "renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
 "externalLinks":[""]
 }

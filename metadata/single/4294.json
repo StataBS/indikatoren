@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
 "schlagwort":["Stoffe und Produkte"],
-"stufe1":"Stoffe und Produkte",
+"stufe1":"Thema Stoffe und Produkte",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -20,11 +20,11 @@
 "template":"dotplot",
 "option":"options001",
 "visible":true,
-"visibleInPortal":true,
+"visibleInPortal":false,
 "orderKey":"13_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["envico AG"],
 "externalLinks":[""]
 }

@@ -235,7 +235,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik BFS, Strukturerhebung (SE)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
   },
   "legend": {
     "symbolRadius": 0,
@@ -255,6 +255,6 @@
     "#B475AB"
   ],
   "exporting": {
-    "filename": "I.03.0.0001"
+    "filename": "I.03.1.4741"
   }
 }

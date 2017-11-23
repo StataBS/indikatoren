@@ -503,7 +503,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
     "enabled": true,
@@ -540,6 +540,6 @@
     }
   },
   "exporting": {
-    "filename": "I.01.5.0003"
+    "filename": "I.01.5.4468"
   }
 }

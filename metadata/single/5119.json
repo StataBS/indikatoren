@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Wohnviertel"],
 "aktualisierungsdatum":"2017-03-17T14:12:26.2626",
 "schlagwort":["Grünflächen"],
-"stufe1":"2 Raum und Umwelt",
+"stufe1":"Bereich 2: Raum und Umwelt",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
+"orderKey":"02_00_00_00_00_006",
 "parentId":4832,
 "children":[],
 "renderLink":["4832"],
-"quellenangabe":["Grundbuch- und Vermessungsamt  Basel-Stadt"],
+"quellenangabe":["Grundbuch- und Vermessungsamt Basel-Stadt"],
 "externalLinks":["Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=ru_gruen.gruenflaeche_ant' target='_blank'>Basler Atlas</a>."]
 }

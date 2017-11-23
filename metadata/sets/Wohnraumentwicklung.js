@@ -18,7 +18,7 @@ var indikatorensetData = [
 			"Haushalt",
 			"Zufriedenheit"
 		],
-		"stufe1": "0 Leitgedanke",
+		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -29,6 +29,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -37,8 +38,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "0.1.A"
+		]
 	},
 	{
 		"title": "Mietpreisentwicklung",
@@ -58,7 +58,7 @@ var indikatorensetData = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "0 Leitgedanke",
+		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -69,6 +69,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -77,8 +78,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "0.1.B-1"
+		]
 	},
 	{
 		"title": "Mietpreisentwicklung der Leerwohnungen",
@@ -98,7 +98,7 @@ var indikatorensetData = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "0 Leitgedanke",
+		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -109,7 +109,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "0 Leitgedanke_000",
+		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -138,7 +138,7 @@ var indikatorensetData = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "0 Leitgedanke",
+		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -149,6 +149,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -157,8 +158,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "0.1.B-3"
+		]
 	},
 	{
 		"title": "Wohnungsbelegung",
@@ -178,7 +178,7 @@ var indikatorensetData = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "0 Leitgedanke",
+		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -189,16 +189,16 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "0.1.C"
+		]
 	},
 	{
 		"title": "Bevölkerung am Jahresende",
@@ -219,7 +219,7 @@ var indikatorensetData = [
 			"Bevölkerung",
 			"Niederlassung"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.1 Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
@@ -230,16 +230,18 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_01_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6143"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "1.1.A"
+		]
 	},
 	{
 		"title": "Anzahl Wohnungen",
@@ -259,7 +261,7 @@ var indikatorensetData = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
@@ -270,16 +272,16 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "1.2.A"
+		]
 	},
 	{
 		"title": "Anteile am Wohnungsbestand",
@@ -299,7 +301,7 @@ var indikatorensetData = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
@@ -310,16 +312,16 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "1.2.B"
+		]
 	},
 	{
 		"title": "Nettowohnungsproduktion",
@@ -339,7 +341,7 @@ var indikatorensetData = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
@@ -350,18 +352,18 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"5816"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "1.2.C-1"
+		]
 	},
 	{
 		"title": "Umbausaldo",
@@ -381,27 +383,27 @@ var indikatorensetData = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Der sprunghafte Anstieg 2014 ist auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume (Büros) zu Wohnungen zurückzuführen. Ansonsten trägt der Dachstockausbau zum positiven Umbausaldo bei.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die prozentualen Anteile im Tooltip beziehen sich auf das Total der Zugänge resp. das Total der Abgänge.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "1.2.C-2"
+		]
 	},
 	{
 		"title": "Anzahl neu erstellte Wohnungen",
@@ -421,7 +423,7 @@ var indikatorensetData = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
@@ -432,16 +434,16 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "1.2.E"
+		]
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
@@ -461,7 +463,7 @@ var indikatorensetData = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
@@ -472,7 +474,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "1 Gesellschaftspolitik_1.2 Wohnraum erhalten und erneuern_000",
+		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -501,7 +503,7 @@ var indikatorensetData = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
@@ -512,12 +514,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "1 Gesellschaftspolitik_1.2 Wohnraum erhalten und erneuern_000",
+		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, STATENT",
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"externalLinks": [
@@ -542,7 +544,7 @@ var indikatorensetData = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.3 Wohnraumnutzung",
 		"stufe3": "",
 		"stufe4": "",
@@ -553,18 +555,18 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_03_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"5815"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "1.3.A"
+		]
 	},
 	{
 		"title": "Anteile der Haushalte",
@@ -584,7 +586,7 @@ var indikatorensetData = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
@@ -595,16 +597,16 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_04_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "1.4.A1"
+		]
 	},
 	{
 		"title": "Anteile der Familienhaushalte",
@@ -624,7 +626,7 @@ var indikatorensetData = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
@@ -635,16 +637,16 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_04_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "1.4.A2"
+		]
 	},
 	{
 		"title": "Anzahl Genossenschaftswohnungen und Anteil am Bestand",
@@ -664,7 +666,7 @@ var indikatorensetData = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
@@ -675,16 +677,16 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_04_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "1.4.B"
+		]
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot - nur Familien",
@@ -704,7 +706,7 @@ var indikatorensetData = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
@@ -715,6 +717,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_04_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -723,8 +726,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "1.4.C"
+		]
 	},
 	{
 		"title": "Wohneigentumsquote",
@@ -744,27 +746,27 @@ var indikatorensetData = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.6 Förderung von Wohneigentum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Eigentumsquote stieg bis ins Jahr 2014 an und blieb anschliessend stabil bei rund 15%.",
-		"erlaeuterungen": "Die Wohneigentumsquote wird als Anteil Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt sind, an allen Wohnungen berechnet.",
+		"erlaeuterungen": "Die Wohneigentumsquote wird als Anteil Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt sind, and den bewohnten Wohnungen berechnet.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_06_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "1.6.A"
+		]
 	},
 	{
 		"title": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
@@ -784,7 +786,7 @@ var indikatorensetData = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "2 Fiskalpolitik",
+		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.1 Grosszügiger Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
@@ -795,16 +797,16 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "03_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "2.1.A"
+		]
 	},
 	{
 		"title": "Saldo des Steuerertrages von Zu- und Wegzügern",
@@ -824,7 +826,7 @@ var indikatorensetData = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "2 Fiskalpolitik",
+		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.1 Grosszügiger Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
@@ -835,16 +837,16 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "03_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
 		],
 		"externalLinks": [
 			"Siehe <a href='http://www.statistik.bs.ch/zahlen/analysen/steuerstatistik.html' target='_blank'>Weiterführende Informationen zur Steuerstatistik und zur Methodik</a>."
-		],
-		"orderKey": "2.1.B"
+		]
 	},
 	{
 		"title": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
@@ -864,7 +866,7 @@ var indikatorensetData = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "2 Fiskalpolitik",
+		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.2 Anteil an Hauptwohnsitznehmern",
 		"stufe3": "",
 		"stufe4": "",
@@ -875,16 +877,16 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, STATPOP"
+			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "2.2.A"
+		]
 	},
 	{
 		"title": "Freiraumfläche und Anteil an der Gesamtfläche",
@@ -904,7 +906,7 @@ var indikatorensetData = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "3 Raumplanung",
+		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.2 Freiräume",
 		"stufe3": "",
 		"stufe4": "",
@@ -915,16 +917,16 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "04_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt  Basel-Stadt"
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "3.2.A"
+		]
 	},
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
@@ -945,7 +947,7 @@ var indikatorensetData = [
 			"Haushalt",
 			"Zufriedenheit"
 		],
-		"stufe1": "3 Raumplanung",
+		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.2 Freiräume",
 		"stufe3": "",
 		"stufe4": "",
@@ -956,6 +958,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "04_02_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"5819"
@@ -966,8 +969,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "3.2.B"
+		]
 	},
 	{
 		"title": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
@@ -987,7 +989,7 @@ var indikatorensetData = [
 			"Gebäude",
 			"Zufriedenheit"
 		],
-		"stufe1": "3 Raumplanung",
+		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.3 Städtebauliche Qualität",
 		"stufe3": "",
 		"stufe4": "",
@@ -998,6 +1000,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "04_03_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1006,8 +1009,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "3.3.A"
+		]
 	},
 	{
 		"title": "Haushalte mit Familienmietzinsbeiträgen",
@@ -1026,7 +1028,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Familie"
 		],
-		"stufe1": "4 Sozialpolitik",
+		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
 		"stufe4": "",
@@ -1037,16 +1039,16 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "05_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen BISS"
+			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "4.1.A"
+		]
 	},
 	{
 		"title": "Ausbezahlte Familienmietzinsbeiträge",
@@ -1066,7 +1068,7 @@ var indikatorensetData = [
 			"Familie",
 			"Wohnen"
 		],
-		"stufe1": "4 Sozialpolitik",
+		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
 		"stufe4": "",
@@ -1077,6 +1079,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "05_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1085,8 +1088,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "4.1.B"
+		]
 	},
 	{
 		"title": "Bestand an Notwohnungen und ihre Belegung",
@@ -1106,7 +1108,7 @@ var indikatorensetData = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "4 Sozialpolitik",
+		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
 		"stufe4": "",
@@ -1117,6 +1119,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "05_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1125,8 +1128,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "4.1.E"
+		]
 	},
 	{
 		"title": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
@@ -1145,7 +1147,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Zufriedenheit"
 		],
-		"stufe1": "4 Sozialpolitik",
+		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.2 Wohnraum für Betagte und Behinderte",
 		"stufe3": "",
 		"stufe4": "",
@@ -1156,6 +1158,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "05_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1164,8 +1167,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "4.2.A"
+		]
 	},
 	{
 		"title": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
@@ -1186,7 +1188,7 @@ var indikatorensetData = [
 			"Haushalt",
 			"Zufriedenheit"
 		],
-		"stufe1": "4 Sozialpolitik",
+		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.2 Wohnraum für Betagte und Behinderte",
 		"stufe3": "",
 		"stufe4": "",
@@ -1197,6 +1199,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "05_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1205,7 +1208,6 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		],
-		"orderKey": "4.2.C"
+		]
 	}
 ];

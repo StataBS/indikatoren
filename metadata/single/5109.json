@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Wohnviertel"],
 "aktualisierungsdatum":"2017-05-05T12:36:27.2727",
 "schlagwort":["Quote"],
-"stufe1":"1 Gesellschaft und Soziales",
+"stufe1":"Bereich 1: Gesellschaft und Soziales",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
+"orderKey":"01_00_00_00_00_002",
 "parentId":4822,
 "children":[],
 "renderLink":["4822"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Sozialhilfestatistik"],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Sozialhilfestatistik"],
 "externalLinks":["Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=soz_sozhilfe.soz_quote' target='_blank'>Basler Atlas</a>."]
 }
