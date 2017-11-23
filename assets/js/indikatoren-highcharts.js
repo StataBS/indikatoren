@@ -303,9 +303,10 @@ function exportThumbnail(id, exportType, offline, exportServer){
 
 
 //render the html required for links to other chart, kennzahlenset or external resources
-function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view){
+function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, renderLinkDisplayMode){
   var returnText = "";
   var displayLinkToIndikatorenset = (kennzahlenset && !isIndikatorensetView(view));
+  //renderLink: Link to different view of same data
   var displayRenderLink = (renderLink && renderLink.length && renderLink[0].length);
   var displayExternalLinks = (externalLinks && externalLinks.length && externalLinks[0].length);
   //any of the links need to be present 
@@ -321,7 +322,14 @@ function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view){
       returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/"+ kennzahlenset.toLowerCase().replace(" ", "-") + ".html' target='_blank'>" + kennzahlenset + "</a>.</li>";
     }
     if (displayRenderLink) {
-      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS, " + view + ")'>Andere Darstellungsform</a> dieser Daten</li>";
+      if (renderLinkDisplayMode == 'slide' || renderLinkDisplayMode === undefined){
+        //we're in carousel mode, slide to other chart
+        returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS, " + view + ")'>Andere Darstellungsform</a> dieser Daten</li>";
+      }
+      else{
+        //we're in chart-detail.html, open link to other chart
+        returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='chart-details.html?id=" + renderLink[0] + "'>Andere Darstellungsform</a> dieser Daten</li>";
+      }
     }
     if (displayExternalLinks) {
       externalLinks.forEach(function(v, i, arr){
