@@ -50,7 +50,7 @@
     <g class="highcharts-markers highcharts-series-2 highcharts-map-series highcharts-color-undefined " transform="translate(2,30) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-3 highcharts-mapline-series highcharts-color-undefined " transform="translate(2,30) scale(1 1)">
       <g transform="translate(0,0) scale(1 1)">
-        <path fill="none" d="M 2611898.998,1267399.905 " stroke="black" stroke-width="1" vector-effect="non-scaling-stroke" class="highcharts-point"/>
+        <path fill="none" d="M 177.5545071732864 230.26520545547424 L 177.5545071732864 236.42267368926065 177.5545071732864 233.34393957236745 208.34184834221838 233.34393957236745 208.34184834221838 230.26520545547424 208.34184834221838 236.42267368926065" stroke="black" stroke-width="1" vector-effect="non-scaling-stroke" class="highcharts-point"/>
       </g>
     </g>
     <g class="highcharts-markers highcharts-series-3 highcharts-mapline-series highcharts-color-undefined " transform="translate(2,30) scale(1 1)" clip-path="none"/>
@@ -227,7 +227,7 @@
     <tspan>Bruttogeschossfläche Industrie und Gewerbe</tspan>
   </text>
   <g class="highcharts-data-labels highcharts-series-3 highcharts-mapline-series highcharts-color-undefined " visibility="visible" transform="translate(2,30) scale(1 1)" clip-path="url(#a)">
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-Infinity,-Infinity)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(182,217)">
       <text x="0" style="font-size:10px;font-weight:normal;color:black;fill:black;" y="10">
         <tspan x="0" y="10" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">1 km</tspan><tspan x="0" y="10">1 km</tspan>
       </text>
