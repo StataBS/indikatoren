@@ -3649,7 +3649,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Konfessionslose"
+    "text": "Anteil Personen ohne Religionszugehörigkeit"
   },
   "subtitle": {
     "style": {
@@ -3658,7 +3658,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2015",
+    "text": "Stand: 2016",
     "align": "left"
   },
   "credits": {
@@ -3674,7 +3674,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "colorAxis": {
     "gridLineColor": "#fbfbfb",
@@ -3733,6 +3733,6 @@
             }
   },
   "exporting": {
-    "filename": "I.01.7.0002"
+    "filename": "I.01.7.5111"
   }
 }

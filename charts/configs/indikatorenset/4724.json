@@ -201,7 +201,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Beurteilung der politischen Behörden"
+    "text": "Vertretung der Anliegen der Bevölkerung durch Behörden"
   },
   "subtitle": {
     "style": {
@@ -209,7 +209,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat die Anliegen der Bevölkerung?»"
+    "text": "«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?»"
   },
   "navigation": {
     "menuItemStyle": {
@@ -284,6 +284,6 @@
         }
   },
   "exporting": {
-    "filename": "I.50.1.0018"
+    "filename": "I.50.1.4724"
   }
 }

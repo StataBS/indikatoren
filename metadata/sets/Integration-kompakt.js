@@ -2,14 +2,13 @@ var indikatorensetData = [
 	{
 		"title": "Ausländeranteil nach Staatsangehörigkeit seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.1.0013",
+		"kuerzel": "I.01.1.4200",
 		"kuerzelKunde": "1-1",
-		"image": "images/I.01.1.0013.jpg",
 		"description": "Ausländeranteil nach Staatsangehörigkeit seit 2006",
-		"id": "4200",
+		"id": 4200,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -21,7 +20,7 @@ var indikatorensetData = [
 			"Bevölkerung",
 			"Ausland"
 		],
-		"stufe1": "1 Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -30,22 +29,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
-		"orderKey": "1-1"
+		"externalLinks": [
+			""
+		]
 	},
 	{
-		"title": "Altersquotient nach Staatsangehörigkeit 2015",
-		"subtitle": "",
-		"kuerzel": "I.01.1.0014",
+		"title": "Altersquotient nach Staatsangehörigkeit",
+		"subtitle": "Stand: 2015",
+		"kuerzel": "I.01.1.4203",
 		"kuerzelKunde": "1-2",
-		"image": "images/I.01.1.0014.jpg",
-		"description": "Altersquotient nach Staatsangehörigkeit 2015",
-		"id": "4203",
+		"description": "Altersquotient nach Staatsangehörigkeit",
+		"id": 4203,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -57,7 +63,7 @@ var indikatorensetData = [
 			"Alter",
 			"Schweiz"
 		],
-		"stufe1": "1 Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -66,26 +72,33 @@ var indikatorensetData = [
 		"erlaeuterungen": "Der Altersquotient wird wie folgt berechnet: Anzahl Personen im Alter über 64 Jahren geteilt durch Anzahl Personen im Alter zwischen 20 und 64 Jahren.",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
-		"orderKey": "1-2"
+		"externalLinks": [
+			""
+		]
 	},
 	{
-		"title": "Jugendquotient nach Staatsangehörigkeit 2015",
-		"subtitle": "",
-		"kuerzel": "I.01.1.0015",
+		"title": "Jugendquotient nach Staatsangehörigkeit",
+		"subtitle": "Stand: 2015",
+		"kuerzel": "I.01.1.4218",
 		"kuerzelKunde": "1-3",
-		"image": "images/I.01.1.0015.jpg",
-		"description": "Jugendquotient nach Staatsangehörigkeit 2015",
-		"id": "4218",
+		"description": "Jugendquotient nach Staatsangehörigkeit",
+		"id": 4218,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-02-16T15:42:27.2727",
 		"schlagwort": [
 			"Alter",
 			"Quote",
@@ -93,7 +106,7 @@ var indikatorensetData = [
 			"Alter",
 			"Schweiz"
 		],
-		"stufe1": "1 Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -102,22 +115,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "Der Jugendquotient wird wie folgt berechnet: Anzahl Personen im Alter von 0 bis 19 Jahren geteilt durch Anzahl Personen im Alter zwischen 20 und 64 Jahren.",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
-		"orderKey": "1-3"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Anzahl Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.1.0016",
-		"kuerzelKunde": "1-4a",
-		"image": "images/I.01.1.0016.jpg",
+		"kuerzel": "I.01.1.4219",
+		"kuerzelKunde": "1-4A",
 		"description": "Anzahl Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit seit 2006",
-		"id": "4219",
+		"id": 4219,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -127,7 +147,7 @@ var indikatorensetData = [
 			"Bewilligung",
 			"Niederlassung"
 		],
-		"stufe1": "1 Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -136,22 +156,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
-		"orderKey": "1-4a"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit 2006 und 2015",
 		"subtitle": "",
-		"kuerzel": "I.01.1.0017",
-		"kuerzelKunde": "1-4b",
-		"image": "images/I.01.1.0017.jpg",
+		"kuerzel": "I.01.1.4220",
+		"kuerzelKunde": "1-4B",
 		"description": "Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit 2006 und 2015",
-		"id": "4220",
+		"id": 4220,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -163,7 +190,7 @@ var indikatorensetData = [
 			"Niederlassung",
 			"Staatsangehörigkeit"
 		],
-		"stufe1": "1 Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -172,22 +199,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
-		"orderKey": "1-4b"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Anzahl Ausländer nach Art der Bewilligung seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.1.0018",
-		"kuerzelKunde": "1-5a",
-		"image": "images/I.01.1.0018.jpg",
+		"kuerzel": "I.01.1.4339",
+		"kuerzelKunde": "1-5A",
 		"description": "Anzahl Ausländer nach Art der Bewilligung seit 2006",
-		"id": "4339",
+		"id": 4339,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -199,7 +233,7 @@ var indikatorensetData = [
 			"Niederlassung",
 			"Migration"
 		],
-		"stufe1": "1 Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -208,22 +242,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
-		"orderKey": "1-5a"
+		"externalLinks": [
+			""
+		]
 	},
 	{
-		"title": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung 2015",
-		"subtitle": "",
-		"kuerzel": "I.01.1.0019",
-		"kuerzelKunde": "1-5b",
-		"image": "images/I.01.1.0019.jpg",
-		"description": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung 2015",
-		"id": "4340",
+		"title": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
+		"subtitle": "Stand: 2015",
+		"kuerzel": "I.01.1.4340",
+		"kuerzelKunde": "1-5B",
+		"description": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
+		"id": 4340,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -236,7 +277,7 @@ var indikatorensetData = [
 			"Migration",
 			"Staatsangehörigkeit"
 		],
-		"stufe1": "1 Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -245,22 +286,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
-		"orderKey": "1-5b"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.6.0001",
+		"kuerzel": "I.01.6.4342",
 		"kuerzelKunde": "1-6",
-		"image": "images/I.01.6.0001.jpg",
 		"description": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit seit 2006",
-		"id": "4342",
+		"id": 4342,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -276,7 +324,7 @@ var indikatorensetData = [
 			"Migration",
 			"Staatsangehörigkeit"
 		],
-		"stufe1": "1 Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -285,22 +333,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "Für eine ordentliche Einbürgerung muss eine Person u. a. zwölf Jahre in der Schweiz gewohnt haben. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die insgesamt fünf Jahre in der Schweiz gelebt haben und seit drei Jahren verheiratet sind. Ehepartner, die nicht in der Schweiz leben, müssen sechs Jahre verheiratet sein und eng mit der Schweiz verbunden sein.",
 		"template": "line001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
-		"orderKey": "1-6"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014",
 		"subtitle": "",
-		"kuerzel": "I.01.1.0020",
+		"kuerzel": "I.01.1.4462",
 		"kuerzelKunde": "1-7",
-		"image": "images/I.01.1.0020.jpg",
 		"description": "Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014",
-		"id": "4462",
+		"id": 4462,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -315,7 +370,7 @@ var indikatorensetData = [
 			"Staatsangehörigkeit",
 			"Wanderung"
 		],
-		"stufe1": "1 Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -324,22 +379,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "Ausländer der 1. Generation: Im Ausland geboren; Ausländer der 2. Generation: Mindestens 1 Elternteil im Ausland geboren; Ausländer der 3. Generation: Beide Elternteile in der Schweiz geboren. Wenn mindestens 1 Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über.",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
-		"orderKey": "1-7"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Anteil Personen, welche zu Hause «deutsch» oder «schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010 bis 2014",
 		"subtitle": "",
-		"kuerzel": "I.01.8.0001",
+		"kuerzel": "I.01.8.4463",
 		"kuerzelKunde": "1-8",
-		"image": "images/I.01.8.0001.jpg",
 		"description": "Anteil Personen, welche zu Hause «deutsch» oder «schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010 bis 2014",
-		"id": "4463",
+		"id": 4463,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Sprachen",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -354,7 +416,7 @@ var indikatorensetData = [
 			"Migration",
 			"Deutsch"
 		],
-		"stufe1": "1 Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -363,22 +425,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Strukturerhebung ist eine Stichprobenerhebung bei rund 5 000 in Basel-Stadt wohnhaften Personen im Alter über 15 Jahren.",
 		"template": "line001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
-		"orderKey": "1-8"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Segregationsindex nach Staatsangehörigkeit seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.1.0021",
+		"kuerzel": "I.01.1.4465",
 		"kuerzelKunde": "2-1",
-		"image": "images/I.01.1.0021.jpg",
 		"description": "Segregationsindex nach Staatsangehörigkeit seit 2006",
-		"id": "4465",
+		"id": 4465,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -393,7 +462,7 @@ var indikatorensetData = [
 			"Schweiz",
 			"Wanderung"
 		],
-		"stufe1": "2 Wohnortwahl",
+		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -402,22 +471,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "Der Segregationsindex misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betracheten Gruppe interpretieren, der umziehen müsste, um gleich über ein Gebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 würde bedeuten, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross wäre.",
 		"template": "line001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
-		"orderKey": "2-1"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Anteil Ausländer nach Wohndauer und Zuzugsort seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.5.0004",
+		"kuerzel": "I.01.5.4466",
 		"kuerzelKunde": "2-2",
-		"image": "images/I.01.5.0004.jpg",
 		"description": "Anteil Ausländer nach Wohndauer und Zuzugsort seit 2006",
-		"id": "4466",
+		"id": 4466,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -434,31 +510,38 @@ var indikatorensetData = [
 			"Schweiz",
 			"Geburtsort"
 		],
-		"stufe1": "2 Wohnortwahl",
+		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Knapp 60% aller Ausländer leben weniger als 12 Jahre ununterbrochen in Basel-Stadt. Ein Blick auf die Zeitreihe zeigt, dass sich in den letzten 10 Jahren der Anteil derer, die seit mindestens 12 Jahren<br>in Basel-Stadt wohnen, kontinuierlich verringert hat. Dagegen hat der Anteil Ausländer, der  weniger als 12 Jahre hier lebt, zugenommen. Knapp 12% der Ausländer sind in Basel-Stadt geboren und leben seither ununterbrochen im Kanton. Insgesamt sind 2015 knapp 17% aller in Basel-Stadt wohnhaften Ausländer in Basel-Stadt geboren.",
+		"lesehilfe": "Knapp 60% aller Ausländer leben weniger als 12 Jahre ununterbrochen in Basel-Stadt. Ein Blick auf die Zeitreihe zeigt, dass sich in den letzten 10 Jahren der Anteil derer, die seit mindestens 12 Jahrenin Basel-Stadt wohnen, kontinuierlich verringert hat. Dagegen hat der Anteil Ausländer, der  weniger als 12 Jahre hier lebt, zugenommen. Knapp 12% der Ausländer sind in Basel-Stadt geboren und leben seither ununterbrochen im Kanton. Insgesamt sind 2015 knapp 17% aller in Basel-Stadt wohnhaften Ausländer in Basel-Stadt geboren.",
 		"erlaeuterungen": "Die Kategorie «Geboren in Basel-Stadt ohne Wegzug» umfasst Personen, welche in Basel-Stadt geboren wurden und seit Geburt immer in Basel-Stadt wohnhaft waren.",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
-		"orderKey": "2-2"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.1.0022",
-		"kuerzelKunde": "2-3a",
-		"image": "images/I.01.1.0022.jpg",
+		"kuerzel": "I.01.1.4467",
+		"kuerzelKunde": "2-3A",
 		"description": "Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006",
-		"id": "4467",
+		"id": 4467,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -474,7 +557,7 @@ var indikatorensetData = [
 			"Geburtsort",
 			"Staatsangehörigkeit"
 		],
-		"stufe1": "2 Wohnortwahl",
+		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -483,22 +566,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
-		"orderKey": "2-3a"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeit seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.5.0003",
+		"kuerzel": "I.01.5.4468",
 		"kuerzelKunde": "2-4",
-		"image": "images/I.01.5.0003.jpg",
 		"description": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeit seit 2006",
-		"id": "4468",
+		"id": 4468,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -512,7 +602,7 @@ var indikatorensetData = [
 			"Staatsangehörigkeit",
 			"Wanderung"
 		],
-		"stufe1": "2 Wohnortwahl",
+		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -521,22 +611,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Rückwanderungsquote ist wie folgt definiert: Anzahl Personen, welche ins Land ihrer Herkunft (nicht in das Land, aus dem sie zugezogen sind) resp. in die entsprechende Ländergruppe abwandern pro 1000 Personen einer Ländergruppe. Die Rückwanderungsquote «Ausland», also von allen Ausländern zusammen, ist definiert als die Anzahl der ins Ausland (egal, ob Herkunftsland oder nicht) weggezogenen Ausländer pro 1000 Personen der ausländischen Wohnbevölkerung, Aus diesem Grund liegt die Rückwanderungsquote «Ausland» auch vergleichsweise hoch.",
 		"template": "line001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
-		"orderKey": "2-4"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Arbeitslosenquote nach Staatsangehörigkeit seit 2010",
 		"subtitle": "",
-		"kuerzel": "I.03.0.0002",
+		"kuerzel": "I.03.4.4469",
 		"kuerzelKunde": "3-3",
-		"image": "images/I.03.0.0002.jpg",
 		"description": "Arbeitslosenquote nach Staatsangehörigkeit seit 2010",
-		"id": "4469",
+		"id": 4469,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -553,7 +650,7 @@ var indikatorensetData = [
 			"Erwerb",
 			"Erwerbstätigkeit"
 		],
-		"stufe1": "3 Bildung und Erwerbstätigkeit",
+		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -562,23 +659,30 @@ var indikatorensetData = [
 		"erlaeuterungen": "Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu gewährleisten, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Sturkturerhebungen 2010-2014 verwendet worden. Damit sind diese Ergebnisse nicht direkt mit den offiziellen Arbeitslosenquoten vergleichbar, die vom seco (Staatssekretariat für Wirtschaft) und vom Statistischen Amt des Kantons Basel-Stadt veröffentlicht werden und welche im Nenner die Erwerbspersonen des Jahres 2010 verwenden.",
 		"template": "line001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, Strukturerhebung (SE)",
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
-		"orderKey": "3-3"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Gymnasialquote nach Staatsangehörigkeit seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.15.6.0001",
+		"kuerzel": "I.15.6.4739",
 		"kuerzelKunde": "3-1",
-		"image": "images/I.15.6.0001.jpg",
 		"description": "Gymnasialquote nach Staatsangehörigkeit seit 2006",
-		"id": "4739",
+		"id": 4739,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -593,7 +697,7 @@ var indikatorensetData = [
 			"Gymnasialquote",
 			"Schule"
 		],
-		"stufe1": "3 Bildung und Erwerbstätigkeit",
+		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -602,22 +706,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Gymnasialquote weist den Anteil Gymnasiasten an allen Schülern des 8. und 9. Schuljahres (nach HarmoS-Zählweise der Stufen 10 und 11) aus. Es werden nur Jugendliche berücksichtigt, deren Eltern im Kanton Basel-Stadt wohnen. Für einzelne Ländergruppen konnte aufgrund zu kleiner Fallzahlen keine Gymnasialquote errechnet werden. Jährliche Schwankungen (Bsp. Spanien) können zum Teil ebenfalls damit begründet werden.",
 		"template": "line001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
-		"orderKey": "3-1"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Lehrabbruchquote nach Staatsangehörigkeit seit 2011",
 		"subtitle": "",
-		"kuerzel": "I.15.3.0001",
+		"kuerzel": "I.15.3.4740",
 		"kuerzelKunde": "3-2",
-		"image": "images/I.15.3.0001.jpg",
 		"description": "Lehrabbruchquote nach Staatsangehörigkeit seit 2011",
-		"id": "4740",
+		"id": 4740,
 		"thema": "15 Bildung",
 		"unterthema": "Berufsfachschulen",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -636,7 +747,7 @@ var indikatorensetData = [
 			"Angestellte",
 			"Schule"
 		],
-		"stufe1": "3 Bildung und Erwerbstätigkeit",
+		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -645,22 +756,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "Es handelt sich um Personen mit Lehrverträgen an Basler Berufsfachschulen, unabhängig vom Wohnort der Lehrabsolventen.",
 		"template": "line001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
 		],
-		"orderKey": "3-2"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014",
 		"subtitle": "",
-		"kuerzel": "I.03.0.0001",
+		"kuerzel": "I.03.1.4741",
 		"kuerzelKunde": "3-4",
-		"image": "images/I.03.0.0001.jpg",
 		"description": "Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014",
-		"id": "4741",
+		"id": 4741,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Erwerbspersonen ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -678,7 +796,7 @@ var indikatorensetData = [
 			"Erwerb",
 			"Erwerbstätigkeit"
 		],
-		"stufe1": "3 Bildung und Erwerbstätigkeit",
+		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -687,22 +805,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "Konfidenzintervall 95%: Mit einer Wahrschenilchkeit von 95% befindet sich der wahre Wert zwischen der oberen und der unteren Grenze des Intervalls.",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
-		"orderKey": "3-4"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit seit 2008",
 		"subtitle": "",
-		"kuerzel": "I.18.3.0001",
+		"kuerzel": "I.18.3.4743",
 		"kuerzelKunde": "3-5",
-		"image": "images/I.18.3.0001.jpg",
 		"description": "Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit seit 2008",
-		"id": "4743",
+		"id": 4743,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -721,7 +846,7 @@ var indikatorensetData = [
 			"Angestellte",
 			"Verwaltung"
 		],
-		"stufe1": "3 Bildung und Erwerbstätigkeit",
+		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -730,22 +855,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Angestelltenquote zeigt den Anteil der Kantonsangestellten mit Wohnsitz in Basel-Stadt an allen Personen einer jeweilgen Bevölkerungsgruppe im erwerbsfähigen Alter (15- bis 64-Jährige).",
 		"template": "line001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Zentraler Personaldienst Basel-Stadt, Statistik des Staatspersonals"
 		],
-		"orderKey": "3-5"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeitund Alter 2015",
 		"subtitle": "",
-		"kuerzel": "I.01.5.0042",
+		"kuerzel": "I.01.5.4877",
 		"kuerzelKunde": "2-5",
-		"image": "images/I.01.5.0042.jpg",
 		"description": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeitund Alter 2015",
-		"id": "4877",
+		"id": 4877,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -761,7 +893,7 @@ var indikatorensetData = [
 			"Wanderung",
 			"Rückwanderung"
 		],
-		"stufe1": "2 Wohnortwahl",
+		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -770,22 +902,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Rückwanderungsquote ist wie folgt definiert: Anzahl Personen, welche ins Land ihrer Herkunft (nicht in das Land, aus dem sie zugezogen sind) resp. in die entsprechende Ländergruppe abwandern pro 1000 Personen einer Ländergruppe. Die Rückwanderungsquote «Ausland», also von allen Ausländern zusammen, ist definiert als die Anzahl der ins Ausland (egal, ob Herkunftsland oder nicht) weggezogenen Ausländer pro 1000 Personen der ausländischen Wohnbevölkerung, Aus diesem Grund liegt die Rückwanderungsquote «Ausland» auch vergleichsweise hoch.",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
-		"orderKey": "2-5"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.1.0043",
-		"kuerzelKunde": "2-3b",
-		"image": "images/I.01.1.0043.jpg",
+		"kuerzel": "I.01.1.4905",
+		"kuerzelKunde": "2-3B",
 		"description": "Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006",
-		"id": "4905",
+		"id": 4905,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -810,9 +949,17 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
-		"orderKey": "2-3b"
+		"externalLinks": [
+			""
+		]
 	}
 ];

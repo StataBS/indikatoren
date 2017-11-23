@@ -201,7 +201,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Sicherhheitsgefühl nachts im Quartier"
+    "text": "Sicherheitsgefühl nachts im Quartier"
   },
   "subtitle": {
     "style": {
@@ -284,6 +284,6 @@
         }
   },
   "exporting": {
-    "filename": "I.50.1.0012"
+    "filename": "I.50.1.4854"
   }
 }

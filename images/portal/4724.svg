@@ -86,10 +86,10 @@
     <g class="highcharts-markers highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(53,70) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Beurteilung der politischen Behörden</tspan>
+    <tspan>Vertretung der Anliegen der Bevölkerung durch Behörden</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;fill:#000000;" y="40">
-    <tspan>«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat</tspan><tspan dy="15" x="10">die Anliegen der Bevölkerung?»</tspan><title>«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat die Anliegen der Bevölkerung?»</title>
+    <tspan>«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat,</tspan><tspan dy="15" x="10">die Anliegen der Bevölkerung?»</tspan><title>«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?»</title>
   </text>
   <g class="highcharts-legend" transform="translate(364,137)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="110" height="121" visibility="visible"/>

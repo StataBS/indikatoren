@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Wohnviertel"],
 "aktualisierungsdatum":"2017-05-04T17:27:32.3232",
 "schlagwort":["Gebäude"],
-"stufe1":"2 Raum und Umwelt",
+"stufe1":"Bereich 2: Raum und Umwelt",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
+"orderKey":"02_00_00_00_00_008",
 "parentId":4833,
 "children":[],
 "renderLink":["4833"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
 "externalLinks":[""]
 }

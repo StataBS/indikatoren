@@ -3658,7 +3658,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2015",
+    "text": "Stand: 2016",
     "align": "left"
   },
   "credits": {
@@ -3674,7 +3674,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "colorAxis": {
     "min": 0,
@@ -3734,6 +3734,6 @@
             }
   },
   "exporting": {
-    "filename": "I.01.1.0050"
+    "filename": "I.01.1.5116"
   }
 }

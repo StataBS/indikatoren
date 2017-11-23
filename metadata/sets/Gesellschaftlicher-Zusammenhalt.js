@@ -1,25 +1,24 @@
 var indikatorensetData = [
 	{
-		"title": "Materielle oder finanzielle Hilfeleistungen durch Arbeitskollegen, Freunde und Bekannte oder Nachbarn",
+		"title": "Erhaltenene Hilfeleistungen",
 		"subtitle": "«Erhalten Sie oder ein anderes Haushaltsmitglied (finanzielle oder materielle) Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»",
-		"kuerzel": "I.50.2.0001",
+		"kuerzel": "I.50.2.4716",
 		"kuerzelKunde": "1.1.01",
-		"image": "images/I.50.2.0001.jpg",
-		"description": "Materielle oder finanzielle Hilfeleistungen durch Arbeitskollegen, Freunde und Bekannte oder Nachbarn",
-		"id": "4716",
+		"description": "Erhaltenene Hilfeleistungen",
+		"id": 4716,
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-03-08T13:22:02.022",
 		"schlagwort": [
 			"Arbeit",
 			"Hilfeleistung",
 			"Nachbarschaft"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
@@ -28,22 +27,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "2013: N=3119; 2009: N=2231",
 		"template": "befragungen001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F74c-e"
 		],
-		"orderKey": "1.1.01"
+		"externalLinks": [
+			""
+		]
 	},
 	{
-		"title": "Materielle Hilfeleistungen von Arbeitskollegen, Freunden und Bekannten oder Nachbarn",
+		"title": "Erhaltene materielle Hilfeleistungen",
 		"subtitle": "«Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»",
-		"kuerzel": "I.50.4.0004",
+		"kuerzel": "I.50.4.4718",
 		"kuerzelKunde": "1.1.02",
-		"image": "images/I.50.4.0004.jpg",
-		"description": "Materielle Hilfeleistungen von Arbeitskollegen, Freunden und Bekannten oder Nachbarn",
-		"id": "4718",
+		"description": "Erhaltene materielle Hilfeleistungen",
+		"id": 4718,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -53,7 +59,7 @@ var indikatorensetData = [
 			"Hilfeleistung",
 			"Nachbarschaft"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
@@ -62,22 +68,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "2015: N=1427; 2011: N=1689<br/>Materielle Hilfeleistungen: Garten- und Reinigungsarbeiten, Einkaufshilfe, Füttern von Tieren, Hüte- und Pflegeeinsätze etc.",
 		"template": "befragungen001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F54e"
 		],
-		"orderKey": "1.1.02"
+		"externalLinks": [
+			""
+		]
 	},
 	{
-		"title": "Menschen aus verschiedenen Ländern sind eine Bereicherung für den Kanton",
+		"title": "Kulturelle Bereicherung",
 		"subtitle": "«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Ist das eine Bereicherung für den Kanton?»",
-		"kuerzel": "I.50.1.0013",
+		"kuerzel": "I.50.1.4719",
 		"kuerzelKunde": "1.3.01",
-		"image": "images/I.50.1.0013.jpg",
-		"description": "Menschen aus verschiedenen Ländern sind eine Bereicherung für den Kanton",
-		"id": "4719",
+		"description": "Kulturelle Bereicherung",
+		"id": 4719,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -86,7 +99,7 @@ var indikatorensetData = [
 			"Ausländer",
 			"Ausland"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
 		"stufe4": "",
@@ -95,33 +108,40 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_03_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18a"
 		],
-		"orderKey": "1.3.01"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Beurteilung des Wohnorts",
 		"subtitle": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?»",
-		"kuerzel": "I.50.1.0016",
+		"kuerzel": "I.50.1.4720",
 		"kuerzelKunde": "2.1.01",
-		"image": "images/I.50.1.0016.jpg",
 		"description": "Beurteilung des Wohnorts",
-		"id": "4720",
+		"id": 4720,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-03-08T11:43:28.2828",
 		"schlagwort": [
 			"Zufriedenheit",
 			"Niederlassung",
 			"Quartier",
 			"Beurteilung"
 		],
-		"stufe1": "2 Verbundenheit",
+		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
 		"stufe4": "",
@@ -130,22 +150,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F1c"
 		],
-		"orderKey": "2.1.01"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Beurteilung des Wohnquartiers",
 		"subtitle": "«Wie gerne leben Sie in Ihrem Wohnquartier?»",
-		"kuerzel": "I.50.1.0017",
+		"kuerzel": "I.50.1.4721",
 		"kuerzelKunde": "2.1.02",
-		"image": "images/I.50.1.0017.jpg",
 		"description": "Beurteilung des Wohnquartiers",
-		"id": "4721",
+		"id": 4721,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
@@ -156,7 +183,7 @@ var indikatorensetData = [
 			"Nachbarschaft",
 			"Beurteilung"
 		],
-		"stufe1": "2 Verbundenheit",
+		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
 		"stufe4": "",
@@ -165,22 +192,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "Gefragt wurden nur Personen, die in der Stadt Basel wohnen.",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F2b"
 		],
-		"orderKey": "2.1.02"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
 		"subtitle": "",
-		"kuerzel": "I.01.6.0002",
+		"kuerzel": "I.01.6.4722",
 		"kuerzelKunde": "2.1.03",
-		"image": "images/I.01.6.0002.jpg",
 		"description": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
-		"id": "4722",
+		"id": 4722,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -194,7 +228,7 @@ var indikatorensetData = [
 			"Migrationshintergrund",
 			"Zuzug"
 		],
-		"stufe1": "2 Verbundenheit",
+		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
 		"stufe4": "",
@@ -203,32 +237,39 @@ var indikatorensetData = [
 		"erlaeuterungen": "Voraussetzung für eine ordentliche Einbürgerung ist u. a. eine 12-jährige Wohndauer in der Schweiz. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die 5 Jahre in der Schweiz gelebt haben und die seit 3 Jahren verheiratet sind. Die Einbürgerungsziffer wird als Anzahl Einbürgerungen pro 1000 Ausländer am Jahresende berechnet.",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
-		"orderKey": "2.1.03"
+		"externalLinks": [
+			""
+		]
 	},
 	{
-		"title": "Beurteilung der politischen Behörden",
-		"subtitle": "«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat die Anliegen der Bevölkerung?»",
-		"kuerzel": "I.50.1.0018",
+		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
+		"subtitle": "«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?»",
+		"kuerzel": "I.50.1.4724",
 		"kuerzelKunde": "2.2.01",
-		"image": "images/I.50.1.0018.jpg",
-		"description": "Beurteilung der politischen Behörden",
-		"id": "4724",
+		"description": "Vertretung der Anliegen der Bevölkerung durch Behörden",
+		"id": 4724,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-03-13T17:10:58.5858",
 		"schlagwort": [
 			"Verwaltung",
 			"Grosser Rat",
 			"Beurteilung"
 		],
-		"stufe1": "2 Verbundenheit",
+		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
 		"stufe4": "",
@@ -237,22 +278,31 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_02_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"5138"
+		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F21a"
 		],
-		"orderKey": "2.2.01"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Unterstützung von Freunden oder Nachbarn",
 		"subtitle": "«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch an Freunde/Nachbarn gewendet?»",
-		"kuerzel": "I.50.2.0002",
+		"kuerzel": "I.50.2.4848",
 		"kuerzelKunde": "1.1.03",
-		"image": "images/I.50.2.0002.jpg",
 		"description": "Unterstützung von Freunden oder Nachbarn",
-		"id": "4848",
+		"id": 4848,
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -263,7 +313,7 @@ var indikatorensetData = [
 			"Hilfeleistung",
 			"Nachbarschaft"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
@@ -272,22 +322,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F72a-g"
 		],
-		"orderKey": "1.1.03"
+		"externalLinks": [
+			""
+		]
 	},
 	{
-		"title": "Gutes Verhältnis zur Nachbarschaft",
+		"title": "Beurteilung des Verhältnisses zur Nachbarschaft",
 		"subtitle": "«Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.»",
-		"kuerzel": "I.50.2.0003",
+		"kuerzel": "I.50.2.4849",
 		"kuerzelKunde": "1.1.04",
-		"image": "images/I.50.2.0003.jpg",
-		"description": "Gutes Verhältnis zur Nachbarschaft",
-		"id": "4849",
+		"description": "Beurteilung des Verhältnisses zur Nachbarschaft",
+		"id": 4849,
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -295,7 +352,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Nachbarschaft"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
@@ -304,22 +361,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F19c"
 		],
-		"orderKey": "1.1.04"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Zusammensetzung des Freundeskreises",
 		"subtitle": "«Wie sieht Dein Freundeskreis aus?»",
-		"kuerzel": "I.50.3.0001",
+		"kuerzel": "I.50.3.4850",
 		"kuerzelKunde": "1.1.05",
-		"image": "images/I.50.3.0001.jpg",
 		"description": "Zusammensetzung des Freundeskreises",
-		"id": "4850",
+		"id": 4850,
 		"thema": "50 Befragungen",
 		"unterthema": "Jugendbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -328,7 +392,7 @@ var indikatorensetData = [
 			"Geschlecht",
 			"Gefühl"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
@@ -337,22 +401,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F34"
 		],
-		"orderKey": "1.1.05"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
 		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
-		"kuerzel": "I.50.4.0005",
+		"kuerzel": "I.50.4.4851",
 		"kuerzelKunde": "1.1.06",
-		"image": "images/I.50.4.0005.jpg",
 		"description": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
-		"id": "4851",
+		"id": 4851,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -361,7 +432,7 @@ var indikatorensetData = [
 			"Zufriedenheit",
 			"Nachbarschaft"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
@@ -370,31 +441,38 @@ var indikatorensetData = [
 		"erlaeuterungen": "Gefragt wurde: «Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10f"
 		],
-		"orderKey": "1.1.06"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Sicherheitsgefühl im Alltag",
 		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?»",
-		"kuerzel": "I.50.1.0010",
+		"kuerzel": "I.50.1.4852",
 		"kuerzelKunde": "1.2.01",
-		"image": "images/I.50.1.0010.jpg",
 		"description": "Sicherheitsgefühl im Alltag",
-		"id": "4852",
+		"id": 4852,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-02-17T17:14:41.4141",
 		"schlagwort": [
 			"Gefühl",
 			"Sicherheit"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.2 Vertrauen in Mitmenschen",
 		"stufe3": "",
 		"stufe4": "",
@@ -403,31 +481,38 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9a"
 		],
-		"orderKey": "1.2.01"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Bedrohungen und Angriffe",
 		"subtitle": "«Sind Sie im letzten Jahr bedroht oder angegriffen worden?»",
-		"kuerzel": "I.50.1.0011",
+		"kuerzel": "I.50.1.4853",
 		"kuerzelKunde": "1.2.02",
-		"image": "images/I.50.1.0011.jpg",
 		"description": "Bedrohungen und Angriffe",
-		"id": "4853",
+		"id": 4853,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-02-17T17:16:52.5252",
 		"schlagwort": [
 			"Gefühl",
 			"Sicherheit"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.2 Vertrauen in Mitmenschen",
 		"stufe3": "",
 		"stufe4": "",
@@ -436,32 +521,39 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9b"
 		],
-		"orderKey": "1.2.02"
+		"externalLinks": [
+			""
+		]
 	},
 	{
-		"title": "Sicherhheitsgefühl nachts im Quartier",
+		"title": "Sicherheitsgefühl nachts im Quartier",
 		"subtitle": "«Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?»",
-		"kuerzel": "I.50.1.0012",
+		"kuerzel": "I.50.1.4854",
 		"kuerzelKunde": "1.2.03",
-		"image": "images/I.50.1.0012.jpg",
-		"description": "Sicherhheitsgefühl nachts im Quartier",
-		"id": "4854",
+		"description": "Sicherheitsgefühl nachts im Quartier",
+		"id": 4854,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-02-17T17:21:03.033",
 		"schlagwort": [
 			"Quartier",
 			"Gefühl",
 			"Sicherheit"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.2 Vertrauen in Mitmenschen",
 		"stufe3": "",
 		"stufe4": "",
@@ -470,22 +562,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9d"
 		],
-		"orderKey": "1.2.03"
+		"externalLinks": [
+			""
+		]
 	},
 	{
-		"title": "Es gibt zu viele Menschen aus dem Ausland in Basel-Stadt",
+		"title": "Beurteilung des Ausländeranteils",
 		"subtitle": "«Grundsätzlich gibt es einfach zu viele Menschen aus dem Ausland bei uns.»",
-		"kuerzel": "I.50.1.0014",
+		"kuerzel": "I.50.1.4855",
 		"kuerzelKunde": "1.3.02",
-		"image": "images/I.50.1.0014.jpg",
-		"description": "Es gibt zu viele Menschen aus dem Ausland in Basel-Stadt",
-		"id": "4855",
+		"description": "Beurteilung des Ausländeranteils",
+		"id": 4855,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -494,7 +593,7 @@ var indikatorensetData = [
 			"Ausländer",
 			"Ausland"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
 		"stufe4": "",
@@ -503,22 +602,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_03_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18b"
 		],
-		"orderKey": "1.3.02"
+		"externalLinks": [
+			""
+		]
 	},
 	{
-		"title": "Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.",
+		"title": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
 		"subtitle": "«Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.»",
-		"kuerzel": "I.50.1.0015",
+		"kuerzel": "I.50.1.4856",
 		"kuerzelKunde": "1.3.03",
-		"image": "images/I.50.1.0015.jpg",
-		"description": "Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.",
-		"id": "4856",
+		"description": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
+		"id": 4856,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -527,7 +633,7 @@ var indikatorensetData = [
 			"Ausländer",
 			"Ausland"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
 		"stufe4": "",
@@ -536,22 +642,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_03_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18c"
 		],
-		"orderKey": "1.3.03"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Beurteilung der Schulen in Basel-Stadt",
 		"subtitle": "«Die Schulen des Kantons Basel-Stadt bereiten die Jugendlichen gut fürs Leben vor.»",
-		"kuerzel": "I.50.1.0019",
+		"kuerzel": "I.50.1.4857",
 		"kuerzelKunde": "2.2.02",
-		"image": "images/I.50.1.0019.jpg",
 		"description": "Beurteilung der Schulen in Basel-Stadt",
-		"id": "4857",
+		"id": 4857,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -563,7 +676,7 @@ var indikatorensetData = [
 			"Verwaltung",
 			"Beurteilung"
 		],
-		"stufe1": "2 Verbundenheit",
+		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
 		"stufe4": "",
@@ -572,22 +685,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_1"
 		],
-		"orderKey": "2.2.02"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Beurteilung der Chancengleichheit",
 		"subtitle": "«Die Chancengleichheit wird von den Behörden zielstrebig vorangetrieben.»",
-		"kuerzel": "I.50.1.0020",
+		"kuerzel": "I.50.1.4858",
 		"kuerzelKunde": "2.2.03",
-		"image": "images/I.50.1.0020.jpg",
 		"description": "Beurteilung der Chancengleichheit",
-		"id": "4858",
+		"id": 4858,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -598,7 +718,7 @@ var indikatorensetData = [
 			"Grosser Rat",
 			"Beurteilung"
 		],
-		"stufe1": "2 Verbundenheit",
+		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
 		"stufe4": "",
@@ -607,31 +727,38 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_7"
 		],
-		"orderKey": "2.2.03"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Beurteilung der kantonalen Verwaltung",
 		"subtitle": "«Denken Sie einmal an den letzten Kontakt, wo Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»",
-		"kuerzel": "I.50.1.0021",
+		"kuerzel": "I.50.1.4859",
 		"kuerzelKunde": "2.2.04",
-		"image": "images/I.50.1.0021.jpg",
 		"description": "Beurteilung der kantonalen Verwaltung",
-		"id": "4859",
+		"id": 4859,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-03-08T11:54:16.1616",
 		"schlagwort": [
 			"Verwaltung",
 			"Beurteilung"
 		],
-		"stufe1": "2 Verbundenheit",
+		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
 		"stufe4": "",
@@ -640,31 +767,40 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_02_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6186"
+		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F19a"
 		],
-		"orderKey": "2.2.04"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Beurteilung der kantonalen Steuern",
 		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?»",
-		"kuerzel": "I.50.1.0022",
+		"kuerzel": "I.50.1.4860",
 		"kuerzelKunde": "2.3.01",
-		"image": "images/I.50.1.0022.jpg",
 		"description": "Beurteilung der kantonalen Steuern",
-		"id": "4860",
+		"id": 4860,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-03-08T12:11:39.3939",
 		"schlagwort": [
 			"Verwaltung",
 			"Beurteilung"
 		],
-		"stufe1": "2 Verbundenheit",
+		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
 		"stufe4": "",
@@ -673,22 +809,31 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_03_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6133"
+		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8"
 		],
-		"orderKey": "2.3.01"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Beurteilung der eigenen wirtschaftlichen Situation",
 		"subtitle": "«Wie geht es Ihnen wirtschaftlich gesehen im Moment?»",
-		"kuerzel": "I.50.1.0023",
+		"kuerzel": "I.50.1.4861",
 		"kuerzelKunde": "2.3.02",
-		"image": "images/I.50.1.0023.jpg",
 		"description": "Beurteilung der eigenen wirtschaftlichen Situation",
-		"id": "4861",
+		"id": 4861,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -697,7 +842,7 @@ var indikatorensetData = [
 			"Einkommen",
 			"Beurteilung"
 		],
-		"stufe1": "2 Verbundenheit",
+		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
 		"stufe4": "",
@@ -706,22 +851,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_03_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14b"
 		],
-		"orderKey": "2.3.02"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Beurteilung der Bildungschancen",
 		"subtitle": "«Alle Kinder erhalten die gleichen Bildungschancen.»",
-		"kuerzel": "I.50.1.0024",
+		"kuerzel": "I.50.1.4862",
 		"kuerzelKunde": "2.3.03",
-		"image": "images/I.50.1.0024.jpg",
 		"description": "Beurteilung der Bildungschancen",
-		"id": "4862",
+		"id": 4862,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -730,7 +882,7 @@ var indikatorensetData = [
 			"Bildung",
 			"Beurteilung"
 		],
-		"stufe1": "2 Verbundenheit",
+		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
 		"stufe4": "",
@@ -739,22 +891,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_03_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_3"
 		],
-		"orderKey": "2.3.03"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Anteil Steuerveranlagungen mit Zuwendungen",
 		"subtitle": "",
-		"kuerzel": "I.18.2.0004",
+		"kuerzel": "I.18.2.4863",
 		"kuerzelKunde": "3.1.01",
-		"image": "images/I.18.2.0004.jpg",
 		"description": "Anteil Steuerveranlagungen mit Zuwendungen",
 		"id": 4863,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -763,7 +922,7 @@ var indikatorensetData = [
 			"Einkommen",
 			"Spende"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
 		"stufe4": "",
@@ -773,22 +932,28 @@ var indikatorensetData = [
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
 		],
-		"orderKey": "3.1.01"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Freiwillige Tätigkeit",
 		"subtitle": "«Sind Sie in Ihrer Freizeit freiwillig tätig?»",
-		"kuerzel": "I.50.1.0025",
+		"kuerzel": "I.50.1.4864",
 		"kuerzelKunde": "3.1.02",
-		"image": "images/I.50.1.0025.jpg",
 		"description": "Freiwillige Tätigkeit",
-		"id": "4864",
+		"id": 4864,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -796,7 +961,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Arbeit"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
 		"stufe4": "",
@@ -805,22 +970,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "Freiwilligenarbeit ist ein unbezahlter Beitrag an Mitmenschen und/oder Umwelt und findet ausserhalb des eigenen Haushalts statt.",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S22"
 		],
-		"orderKey": "3.1.02"
+		"externalLinks": [
+			""
+		]
 	},
 	{
-		"title": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit",
+		"title": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
 		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?»",
-		"kuerzel": "I.50.4.0006",
+		"kuerzel": "I.50.4.4865",
 		"kuerzelKunde": "3.1.03",
-		"image": "images/I.50.4.0006.jpg",
-		"description": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit",
-		"id": "4865",
+		"description": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
+		"id": 4865,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -828,7 +1000,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Arbeit"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
 		"stufe4": "",
@@ -837,22 +1009,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Fragestellung hat sich leicht verändert von «Sind Sie in Ihrer Freizeit ehrenamtlich tätig?» im Jahr 2011 zu «Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?» im Jahr 2015",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F29"
 		],
-		"orderKey": "3.1.03"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 		"subtitle": "",
-		"kuerzel": "I.19.1.0001",
+		"kuerzel": "I.19.1.4866",
 		"kuerzelKunde": "3.2.01",
-		"image": "images/I.19.1.0001.jpg",
 		"description": "Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"id": "4866",
+		"id": 4866,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -860,7 +1039,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Verbrechen"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
@@ -869,23 +1048,30 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
-			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
-		"orderKey": "3.2.01"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 		"subtitle": "",
-		"kuerzel": "I.19.1.0002",
+		"kuerzel": "I.19.1.4867",
 		"kuerzelKunde": "3.2.02",
-		"image": "images/I.19.1.0002.jpg",
 		"description": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"id": "4867",
+		"id": 4867,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -893,7 +1079,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Verbrechen"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
@@ -902,23 +1088,30 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
-			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
-		"orderKey": "3.2.02"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl/-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 		"subtitle": "",
-		"kuerzel": "I.19.1.0003",
+		"kuerzel": "I.19.1.4868",
 		"kuerzelKunde": "3.2.03",
-		"image": "images/I.19.1.0003.jpg",
 		"description": "Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl/-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"id": "4868",
+		"id": 4868,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -926,7 +1119,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Verbrechen"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
@@ -935,23 +1128,30 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
-			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
-		"orderKey": "3.2.03"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 		"subtitle": "",
-		"kuerzel": "I.19.1.0004",
+		"kuerzel": "I.19.1.4869",
 		"kuerzelKunde": "3.2.04",
-		"image": "images/I.19.1.0004.jpg",
 		"description": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"id": "4869",
+		"id": 4869,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -959,7 +1159,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Verbrechen"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
@@ -968,23 +1168,30 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
-			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
-		"orderKey": "3.2.04"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Engagement in Organisationen und Vereinen",
 		"subtitle": "«Engagierst Du Dich in einer Organisation, in einem Verein oder ähnlichem?»",
-		"kuerzel": "I.50.3.0002",
+		"kuerzel": "I.50.3.4870",
 		"kuerzelKunde": "3.3.01",
-		"image": "images/I.50.3.0002.jpg",
 		"description": "Engagement in Organisationen und Vereinen",
-		"id": "4870",
+		"id": 4870,
 		"thema": "50 Befragungen",
 		"unterthema": "Jugendbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -992,7 +1199,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Jugend"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
@@ -1001,22 +1208,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_03_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F28"
 		],
-		"orderKey": "3.3.01"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Wahlbeteiligung bei National- und Grossratswahlen",
 		"subtitle": "",
-		"kuerzel": "I.17.3.0001",
+		"kuerzel": "I.17.3.4871",
 		"kuerzelKunde": "3.3.02",
-		"image": "images/I.17.3.0001.jpg",
 		"description": "Wahlbeteiligung bei National- und Grossratswahlen",
-		"id": "4871",
+		"id": 4871,
 		"thema": "17 Politik",
 		"unterthema": "Wahlen",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1024,7 +1238,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Grosser Rat"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
@@ -1033,22 +1247,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_03_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
-		"orderKey": "3.3.02"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Interesse an der Politik in Basel-Stadt",
 		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?»",
-		"kuerzel": "I.50.1.0026",
-		"kuerzelKunde": "3.3.03.a",
-		"image": "images/I.50.1.0026.jpg",
+		"kuerzel": "I.50.1.4872",
+		"kuerzelKunde": "3.3.03.A",
 		"description": "Interesse an der Politik in Basel-Stadt",
-		"id": "4872",
+		"id": 4872,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1058,7 +1279,7 @@ var indikatorensetData = [
 			"Grosser Rat",
 			"Beurteilung"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
@@ -1067,22 +1288,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_03_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F20"
 		],
-		"orderKey": "3.3.03.a"
+		"externalLinks": [
+			""
+		]
 	},
 	{
-		"title": "Beschäftigung mit dem Thema Politik",
+		"title": "Politikinteresse der über 54-Jährigen",
 		"subtitle": "«Wie stark beschäftigt Sie im Moment das Thema Politik?»",
-		"kuerzel": "I.50.4.0007",
+		"kuerzel": "I.50.4.4874",
 		"kuerzelKunde": "3.3.04",
-		"image": "images/I.50.4.0007.jpg",
-		"description": "Beschäftigung mit dem Thema Politik",
-		"id": "4874",
+		"description": "Politikinteresse der über 54-Jährigen",
+		"id": 4874,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1091,7 +1319,7 @@ var indikatorensetData = [
 			"Grosser Rat",
 			"Beurteilung"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
@@ -1100,22 +1328,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_03_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F57a"
 		],
-		"orderKey": "3.3.04"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
 		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld/Quartier?»",
-		"kuerzel": "I.50.4.0008",
+		"kuerzel": "I.50.4.4875",
 		"kuerzelKunde": "1.1.07",
-		"image": "images/I.50.4.0008.jpg",
 		"description": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
-		"id": "4875",
+		"id": 4875,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1125,7 +1360,7 @@ var indikatorensetData = [
 			"Nachbarschaft",
 			"Quartier"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
@@ -1134,22 +1369,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10g"
 		],
-		"orderKey": "1.1.07"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Gedanken über die Arbeitsstelle",
 		"subtitle": "«Machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
-		"kuerzel": "I.50.1.0027",
-		"kuerzelKunde": "1.1.08.a",
-		"image": "images/I.50.1.0027.jpg",
+		"kuerzel": "I.50.1.4931",
+		"kuerzelKunde": "1.1.08.A",
 		"description": "Gedanken über die Arbeitsstelle",
-		"id": "4931",
+		"id": 4931,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1158,7 +1400,7 @@ var indikatorensetData = [
 			"Arbeit",
 			"Erwerb"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
@@ -1167,22 +1409,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14e"
 		],
-		"orderKey": "1.1.08.a"
+		"externalLinks": [
+			""
+		]
 	},
 	{
 		"title": "Gründe für Gedanken über die Arbeitsstelle",
 		"subtitle": "«Warum machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
-		"kuerzel": "I.50.1.0028",
-		"kuerzelKunde": "1.1.08.b",
-		"image": "images/I.50.1.0028.jpg",
+		"kuerzel": "I.50.1.4932",
+		"kuerzelKunde": "1.1.08.B",
 		"description": "Gründe für Gedanken über die Arbeitsstelle",
-		"id": "4932",
+		"id": 4932,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1193,7 +1442,7 @@ var indikatorensetData = [
 			"Angestellte",
 			"Sicherheit"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
@@ -1202,22 +1451,29 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14f"
 		],
-		"orderKey": "1.1.08.b"
+		"externalLinks": [
+			""
+		]
 	},
 	{
-		"title": "Interesse an der Politik in Basel-Stadt (18- bis 29-Jährige)",
+		"title": "Politikinteresse der unter 30-Jährigen",
 		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?» – nur Befragte im Alter zwischen 18 und 29 Jahren",
-		"kuerzel": "I.50.1.0029",
-		"kuerzelKunde": "3.3.03.b",
-		"image": "images/I.50.1.0029.jpg",
-		"description": "Interesse an der Politik in Basel-Stadt (18- bis 29-Jährige)",
-		"id": "4933",
+		"kuerzel": "I.50.1.4933",
+		"kuerzelKunde": "3.3.03.B",
+		"description": "Politikinteresse der unter 30-Jährigen",
+		"id": 4933,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1227,7 +1483,7 @@ var indikatorensetData = [
 			"Grosser Rat",
 			"Beurteilung"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
@@ -1236,9 +1492,17 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_03_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F20"
 		],
-		"orderKey": "3.3.03.b"
+		"externalLinks": [
+			""
+		]
 	}
 ];

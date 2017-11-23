@@ -23,8 +23,8 @@
 "visibleInPortal":true,
 "orderKey":"02_04_00_00_00_001",
 "parentId":null,
-"children":["6241","6265"],
-"renderLink":[""],
+"children":["6241","6265","6347"],
+"renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"],
 "externalLinks":[""]
 }

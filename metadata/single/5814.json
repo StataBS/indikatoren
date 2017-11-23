@@ -23,8 +23,8 @@
 "visibleInPortal":false,
 "orderKey":"01_01_00_00_00_006",
 "parentId":6009,
-"children":["5874","6104","6246"],
-"renderLink":[""],
+"children":["6104","6246"],
+"renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Leerstandserhebung"],
 "externalLinks":[""]
 }

@@ -18,7 +18,7 @@ var indikatoren = [
 			"Haushalt",
 			"Zufriedenheit"
 		],
-		"stufe1": "0 Leitgedanke",
+		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -29,6 +29,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -57,7 +58,7 @@ var indikatoren = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "0 Leitgedanke",
+		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -68,6 +69,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -96,7 +98,7 @@ var indikatoren = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "0 Leitgedanke",
+		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -107,7 +109,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "0 Leitgedanke_000",
+		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -136,7 +138,7 @@ var indikatoren = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "0 Leitgedanke",
+		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -147,6 +149,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -175,7 +178,7 @@ var indikatoren = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "0 Leitgedanke",
+		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -186,11 +189,12 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -215,7 +219,7 @@ var indikatoren = [
 			"Bevölkerung",
 			"Niederlassung"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.1 Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
@@ -226,11 +230,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_01_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6143"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -254,7 +261,7 @@ var indikatoren = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
@@ -265,11 +272,12 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -293,7 +301,7 @@ var indikatoren = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
@@ -304,11 +312,12 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -332,7 +341,7 @@ var indikatoren = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
@@ -343,13 +352,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"5816"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -373,22 +383,23 @@ var indikatoren = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Der sprunghafte Anstieg 2014 ist auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume (Büros) zu Wohnungen zurückzuführen. Ansonsten trägt der Dachstockausbau zum positiven Umbausaldo bei.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die prozentualen Anteile im Tooltip beziehen sich auf das Total der Zugänge resp. das Total der Abgänge.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -412,7 +423,7 @@ var indikatoren = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
@@ -423,11 +434,12 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -451,7 +463,7 @@ var indikatoren = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
@@ -462,7 +474,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "1 Gesellschaftspolitik_1.2 Wohnraum erhalten und erneuern_000",
+		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -491,7 +503,7 @@ var indikatoren = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
@@ -502,12 +514,12 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "1 Gesellschaftspolitik_1.2 Wohnraum erhalten und erneuern_000",
+		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, STATENT",
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"externalLinks": [
@@ -532,7 +544,7 @@ var indikatoren = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.3 Wohnraumnutzung",
 		"stufe3": "",
 		"stufe4": "",
@@ -543,13 +555,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_03_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"5815"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -573,7 +586,7 @@ var indikatoren = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
@@ -584,11 +597,12 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_04_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -612,7 +626,7 @@ var indikatoren = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
@@ -623,11 +637,12 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_04_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -651,7 +666,7 @@ var indikatoren = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
@@ -662,11 +677,12 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_04_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -690,7 +706,7 @@ var indikatoren = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
@@ -701,6 +717,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_04_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -729,22 +746,23 @@ var indikatoren = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaftspolitik",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.6 Förderung von Wohneigentum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Eigentumsquote stieg bis ins Jahr 2014 an und blieb anschliessend stabil bei rund 15%.",
-		"erlaeuterungen": "Die Wohneigentumsquote wird als Anteil Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt sind, an allen Wohnungen berechnet.",
+		"erlaeuterungen": "Die Wohneigentumsquote wird als Anteil Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt sind, and den bewohnten Wohnungen berechnet.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_06_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -768,7 +786,7 @@ var indikatoren = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "2 Fiskalpolitik",
+		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.1 Grosszügiger Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
@@ -779,11 +797,12 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "03_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -807,7 +826,7 @@ var indikatoren = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "2 Fiskalpolitik",
+		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.1 Grosszügiger Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
@@ -818,11 +837,12 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "03_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
 		],
 		"externalLinks": [
 			"Siehe <a href='http://www.statistik.bs.ch/zahlen/analysen/steuerstatistik.html' target='_blank'>Weiterführende Informationen zur Steuerstatistik und zur Methodik</a>."
@@ -846,7 +866,7 @@ var indikatoren = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "2 Fiskalpolitik",
+		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.2 Anteil an Hauptwohnsitznehmern",
 		"stufe3": "",
 		"stufe4": "",
@@ -857,11 +877,12 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, STATPOP"
+			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
 		],
 		"externalLinks": [
 			""
@@ -885,7 +906,7 @@ var indikatoren = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "3 Raumplanung",
+		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.2 Freiräume",
 		"stufe3": "",
 		"stufe4": "",
@@ -896,11 +917,12 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "04_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt  Basel-Stadt"
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
 		"externalLinks": [
 			""
@@ -925,7 +947,7 @@ var indikatoren = [
 			"Haushalt",
 			"Zufriedenheit"
 		],
-		"stufe1": "3 Raumplanung",
+		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.2 Freiräume",
 		"stufe3": "",
 		"stufe4": "",
@@ -936,6 +958,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "04_02_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"5819"
@@ -966,7 +989,7 @@ var indikatoren = [
 			"Gebäude",
 			"Zufriedenheit"
 		],
-		"stufe1": "3 Raumplanung",
+		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.3 Städtebauliche Qualität",
 		"stufe3": "",
 		"stufe4": "",
@@ -977,6 +1000,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "04_03_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1004,7 +1028,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Familie"
 		],
-		"stufe1": "4 Sozialpolitik",
+		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
 		"stufe4": "",
@@ -1015,11 +1039,12 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "05_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen BISS"
+			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
 		"externalLinks": [
 			""
@@ -1043,7 +1068,7 @@ var indikatoren = [
 			"Familie",
 			"Wohnen"
 		],
-		"stufe1": "4 Sozialpolitik",
+		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
 		"stufe4": "",
@@ -1054,6 +1079,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "05_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1082,7 +1108,7 @@ var indikatoren = [
 			"Gebäude",
 			"Haushalt"
 		],
-		"stufe1": "4 Sozialpolitik",
+		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
 		"stufe4": "",
@@ -1093,6 +1119,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "05_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1120,7 +1147,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Zufriedenheit"
 		],
-		"stufe1": "4 Sozialpolitik",
+		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.2 Wohnraum für Betagte und Behinderte",
 		"stufe3": "",
 		"stufe4": "",
@@ -1131,6 +1158,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "05_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1160,7 +1188,7 @@ var indikatoren = [
 			"Haushalt",
 			"Zufriedenheit"
 		],
-		"stufe1": "4 Sozialpolitik",
+		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.2 Wohnraum für Betagte und Behinderte",
 		"stufe3": "",
 		"stufe4": "",
@@ -1171,6 +1199,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "05_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1184,14 +1213,13 @@ var indikatoren = [
 	{
 		"title": "Ausländeranteil nach Staatsangehörigkeit seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.1.0013",
+		"kuerzel": "I.01.1.4200",
 		"kuerzelKunde": "1-1",
-		"image": "images/I.01.1.0013.jpg",
 		"description": "Ausländeranteil nach Staatsangehörigkeit seit 2006",
-		"id": "4200",
+		"id": 4200,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1203,7 +1231,7 @@ var indikatoren = [
 			"Bevölkerung",
 			"Ausland"
 		],
-		"stufe1": "1 Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1212,21 +1240,29 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
-		"title": "Altersquotient nach Staatsangehörigkeit 2015",
-		"subtitle": "",
-		"kuerzel": "I.01.1.0014",
+		"title": "Altersquotient nach Staatsangehörigkeit",
+		"subtitle": "Stand: 2015",
+		"kuerzel": "I.01.1.4203",
 		"kuerzelKunde": "1-2",
-		"image": "images/I.01.1.0014.jpg",
-		"description": "Altersquotient nach Staatsangehörigkeit 2015",
-		"id": "4203",
+		"description": "Altersquotient nach Staatsangehörigkeit",
+		"id": 4203,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1238,7 +1274,7 @@ var indikatoren = [
 			"Alter",
 			"Schweiz"
 		],
-		"stufe1": "1 Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1247,25 +1283,33 @@ var indikatoren = [
 		"erlaeuterungen": "Der Altersquotient wird wie folgt berechnet: Anzahl Personen im Alter über 64 Jahren geteilt durch Anzahl Personen im Alter zwischen 20 und 64 Jahren.",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
-		"title": "Jugendquotient nach Staatsangehörigkeit 2015",
-		"subtitle": "",
-		"kuerzel": "I.01.1.0015",
+		"title": "Jugendquotient nach Staatsangehörigkeit",
+		"subtitle": "Stand: 2015",
+		"kuerzel": "I.01.1.4218",
 		"kuerzelKunde": "1-3",
-		"image": "images/I.01.1.0015.jpg",
-		"description": "Jugendquotient nach Staatsangehörigkeit 2015",
-		"id": "4218",
+		"description": "Jugendquotient nach Staatsangehörigkeit",
+		"id": 4218,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-02-16T15:42:27.2727",
 		"schlagwort": [
 			"Alter",
 			"Quote",
@@ -1273,7 +1317,7 @@ var indikatoren = [
 			"Alter",
 			"Schweiz"
 		],
-		"stufe1": "1 Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1282,21 +1326,29 @@ var indikatoren = [
 		"erlaeuterungen": "Der Jugendquotient wird wie folgt berechnet: Anzahl Personen im Alter von 0 bis 19 Jahren geteilt durch Anzahl Personen im Alter zwischen 20 und 64 Jahren.",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Anzahl Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.1.0016",
-		"kuerzelKunde": "1-4a",
-		"image": "images/I.01.1.0016.jpg",
+		"kuerzel": "I.01.1.4219",
+		"kuerzelKunde": "1-4A",
 		"description": "Anzahl Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit seit 2006",
-		"id": "4219",
+		"id": 4219,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1306,7 +1358,7 @@ var indikatoren = [
 			"Bewilligung",
 			"Niederlassung"
 		],
-		"stufe1": "1 Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1315,21 +1367,29 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit 2006 und 2015",
 		"subtitle": "",
-		"kuerzel": "I.01.1.0017",
-		"kuerzelKunde": "1-4b",
-		"image": "images/I.01.1.0017.jpg",
+		"kuerzel": "I.01.1.4220",
+		"kuerzelKunde": "1-4B",
 		"description": "Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit 2006 und 2015",
-		"id": "4220",
+		"id": 4220,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1341,7 +1401,7 @@ var indikatoren = [
 			"Niederlassung",
 			"Staatsangehörigkeit"
 		],
-		"stufe1": "1 Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1350,21 +1410,29 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Anzahl Ausländer nach Art der Bewilligung seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.1.0018",
-		"kuerzelKunde": "1-5a",
-		"image": "images/I.01.1.0018.jpg",
+		"kuerzel": "I.01.1.4339",
+		"kuerzelKunde": "1-5A",
 		"description": "Anzahl Ausländer nach Art der Bewilligung seit 2006",
-		"id": "4339",
+		"id": 4339,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1376,7 +1444,7 @@ var indikatoren = [
 			"Niederlassung",
 			"Migration"
 		],
-		"stufe1": "1 Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1385,21 +1453,29 @@ var indikatoren = [
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
-		"title": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung 2015",
-		"subtitle": "",
-		"kuerzel": "I.01.1.0019",
-		"kuerzelKunde": "1-5b",
-		"image": "images/I.01.1.0019.jpg",
-		"description": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung 2015",
-		"id": "4340",
+		"title": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
+		"subtitle": "Stand: 2015",
+		"kuerzel": "I.01.1.4340",
+		"kuerzelKunde": "1-5B",
+		"description": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
+		"id": 4340,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1412,7 +1488,7 @@ var indikatoren = [
 			"Migration",
 			"Staatsangehörigkeit"
 		],
-		"stufe1": "1 Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1421,21 +1497,29 @@ var indikatoren = [
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.6.0001",
+		"kuerzel": "I.01.6.4342",
 		"kuerzelKunde": "1-6",
-		"image": "images/I.01.6.0001.jpg",
 		"description": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit seit 2006",
-		"id": "4342",
+		"id": 4342,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1451,7 +1535,7 @@ var indikatoren = [
 			"Migration",
 			"Staatsangehörigkeit"
 		],
-		"stufe1": "1 Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1460,21 +1544,29 @@ var indikatoren = [
 		"erlaeuterungen": "Für eine ordentliche Einbürgerung muss eine Person u. a. zwölf Jahre in der Schweiz gewohnt haben. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die insgesamt fünf Jahre in der Schweiz gelebt haben und seit drei Jahren verheiratet sind. Ehepartner, die nicht in der Schweiz leben, müssen sechs Jahre verheiratet sein und eng mit der Schweiz verbunden sein.",
 		"template": "line001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014",
 		"subtitle": "",
-		"kuerzel": "I.01.1.0020",
+		"kuerzel": "I.01.1.4462",
 		"kuerzelKunde": "1-7",
-		"image": "images/I.01.1.0020.jpg",
 		"description": "Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014",
-		"id": "4462",
+		"id": 4462,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1489,7 +1581,7 @@ var indikatoren = [
 			"Staatsangehörigkeit",
 			"Wanderung"
 		],
-		"stufe1": "1 Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1498,21 +1590,29 @@ var indikatoren = [
 		"erlaeuterungen": "Ausländer der 1. Generation: Im Ausland geboren; Ausländer der 2. Generation: Mindestens 1 Elternteil im Ausland geboren; Ausländer der 3. Generation: Beide Elternteile in der Schweiz geboren. Wenn mindestens 1 Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über.",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Anteil Personen, welche zu Hause «deutsch» oder «schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010 bis 2014",
 		"subtitle": "",
-		"kuerzel": "I.01.8.0001",
+		"kuerzel": "I.01.8.4463",
 		"kuerzelKunde": "1-8",
-		"image": "images/I.01.8.0001.jpg",
 		"description": "Anteil Personen, welche zu Hause «deutsch» oder «schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010 bis 2014",
-		"id": "4463",
+		"id": 4463,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Sprachen",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1527,7 +1627,7 @@ var indikatoren = [
 			"Migration",
 			"Deutsch"
 		],
-		"stufe1": "1 Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1536,21 +1636,29 @@ var indikatoren = [
 		"erlaeuterungen": "Die Strukturerhebung ist eine Stichprobenerhebung bei rund 5 000 in Basel-Stadt wohnhaften Personen im Alter über 15 Jahren.",
 		"template": "line001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Segregationsindex nach Staatsangehörigkeit seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.1.0021",
+		"kuerzel": "I.01.1.4465",
 		"kuerzelKunde": "2-1",
-		"image": "images/I.01.1.0021.jpg",
 		"description": "Segregationsindex nach Staatsangehörigkeit seit 2006",
-		"id": "4465",
+		"id": 4465,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1565,7 +1673,7 @@ var indikatoren = [
 			"Schweiz",
 			"Wanderung"
 		],
-		"stufe1": "2 Wohnortwahl",
+		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1574,21 +1682,29 @@ var indikatoren = [
 		"erlaeuterungen": "Der Segregationsindex misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betracheten Gruppe interpretieren, der umziehen müsste, um gleich über ein Gebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 würde bedeuten, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross wäre.",
 		"template": "line001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Anteil Ausländer nach Wohndauer und Zuzugsort seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.5.0004",
+		"kuerzel": "I.01.5.4466",
 		"kuerzelKunde": "2-2",
-		"image": "images/I.01.5.0004.jpg",
 		"description": "Anteil Ausländer nach Wohndauer und Zuzugsort seit 2006",
-		"id": "4466",
+		"id": 4466,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1605,30 +1721,38 @@ var indikatoren = [
 			"Schweiz",
 			"Geburtsort"
 		],
-		"stufe1": "2 Wohnortwahl",
+		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Knapp 60% aller Ausländer leben weniger als 12 Jahre ununterbrochen in Basel-Stadt. Ein Blick auf die Zeitreihe zeigt, dass sich in den letzten 10 Jahren der Anteil derer, die seit mindestens 12 Jahren<br>in Basel-Stadt wohnen, kontinuierlich verringert hat. Dagegen hat der Anteil Ausländer, der  weniger als 12 Jahre hier lebt, zugenommen. Knapp 12% der Ausländer sind in Basel-Stadt geboren und leben seither ununterbrochen im Kanton. Insgesamt sind 2015 knapp 17% aller in Basel-Stadt wohnhaften Ausländer in Basel-Stadt geboren.",
+		"lesehilfe": "Knapp 60% aller Ausländer leben weniger als 12 Jahre ununterbrochen in Basel-Stadt. Ein Blick auf die Zeitreihe zeigt, dass sich in den letzten 10 Jahren der Anteil derer, die seit mindestens 12 Jahrenin Basel-Stadt wohnen, kontinuierlich verringert hat. Dagegen hat der Anteil Ausländer, der  weniger als 12 Jahre hier lebt, zugenommen. Knapp 12% der Ausländer sind in Basel-Stadt geboren und leben seither ununterbrochen im Kanton. Insgesamt sind 2015 knapp 17% aller in Basel-Stadt wohnhaften Ausländer in Basel-Stadt geboren.",
 		"erlaeuterungen": "Die Kategorie «Geboren in Basel-Stadt ohne Wegzug» umfasst Personen, welche in Basel-Stadt geboren wurden und seit Geburt immer in Basel-Stadt wohnhaft waren.",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.1.0022",
-		"kuerzelKunde": "2-3a",
-		"image": "images/I.01.1.0022.jpg",
+		"kuerzel": "I.01.1.4467",
+		"kuerzelKunde": "2-3A",
 		"description": "Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006",
-		"id": "4467",
+		"id": 4467,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1644,7 +1768,7 @@ var indikatoren = [
 			"Geburtsort",
 			"Staatsangehörigkeit"
 		],
-		"stufe1": "2 Wohnortwahl",
+		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1653,21 +1777,29 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeit seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.5.0003",
+		"kuerzel": "I.01.5.4468",
 		"kuerzelKunde": "2-4",
-		"image": "images/I.01.5.0003.jpg",
 		"description": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeit seit 2006",
-		"id": "4468",
+		"id": 4468,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1681,7 +1813,7 @@ var indikatoren = [
 			"Staatsangehörigkeit",
 			"Wanderung"
 		],
-		"stufe1": "2 Wohnortwahl",
+		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1690,21 +1822,29 @@ var indikatoren = [
 		"erlaeuterungen": "Die Rückwanderungsquote ist wie folgt definiert: Anzahl Personen, welche ins Land ihrer Herkunft (nicht in das Land, aus dem sie zugezogen sind) resp. in die entsprechende Ländergruppe abwandern pro 1000 Personen einer Ländergruppe. Die Rückwanderungsquote «Ausland», also von allen Ausländern zusammen, ist definiert als die Anzahl der ins Ausland (egal, ob Herkunftsland oder nicht) weggezogenen Ausländer pro 1000 Personen der ausländischen Wohnbevölkerung, Aus diesem Grund liegt die Rückwanderungsquote «Ausland» auch vergleichsweise hoch.",
 		"template": "line001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Arbeitslosenquote nach Staatsangehörigkeit seit 2010",
 		"subtitle": "",
-		"kuerzel": "I.03.0.0002",
+		"kuerzel": "I.03.4.4469",
 		"kuerzelKunde": "3-3",
-		"image": "images/I.03.0.0002.jpg",
 		"description": "Arbeitslosenquote nach Staatsangehörigkeit seit 2010",
-		"id": "4469",
+		"id": 4469,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1721,7 +1861,7 @@ var indikatoren = [
 			"Erwerb",
 			"Erwerbstätigkeit"
 		],
-		"stufe1": "3 Bildung und Erwerbstätigkeit",
+		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1730,32 +1870,40 @@ var indikatoren = [
 		"erlaeuterungen": "Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu gewährleisten, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Sturkturerhebungen 2010-2014 verwendet worden. Damit sind diese Ergebnisse nicht direkt mit den offiziellen Arbeitslosenquoten vergleichbar, die vom seco (Staatssekretariat für Wirtschaft) und vom Statistischen Amt des Kantons Basel-Stadt veröffentlicht werden und welche im Nenner die Erwerbspersonen des Jahres 2010 verwenden.",
 		"template": "line001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, Strukturerhebung (SE)",
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
-		"title": "Materielle oder finanzielle Hilfeleistungen durch Arbeitskollegen, Freunde und Bekannte oder Nachbarn",
+		"title": "Erhaltenene Hilfeleistungen",
 		"subtitle": "«Erhalten Sie oder ein anderes Haushaltsmitglied (finanzielle oder materielle) Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»",
-		"kuerzel": "I.50.2.0001",
+		"kuerzel": "I.50.2.4716",
 		"kuerzelKunde": "1.1.01",
-		"image": "images/I.50.2.0001.jpg",
-		"description": "Materielle oder finanzielle Hilfeleistungen durch Arbeitskollegen, Freunde und Bekannte oder Nachbarn",
-		"id": "4716",
+		"description": "Erhaltenene Hilfeleistungen",
+		"id": 4716,
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-03-08T13:22:02.022",
 		"schlagwort": [
 			"Arbeit",
 			"Hilfeleistung",
 			"Nachbarschaft"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
@@ -1764,21 +1912,29 @@ var indikatoren = [
 		"erlaeuterungen": "2013: N=3119; 2009: N=2231",
 		"template": "befragungen001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F74c-e"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
-		"title": "Materielle Hilfeleistungen von Arbeitskollegen, Freunden und Bekannten oder Nachbarn",
+		"title": "Erhaltene materielle Hilfeleistungen",
 		"subtitle": "«Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»",
-		"kuerzel": "I.50.4.0004",
+		"kuerzel": "I.50.4.4718",
 		"kuerzelKunde": "1.1.02",
-		"image": "images/I.50.4.0004.jpg",
-		"description": "Materielle Hilfeleistungen von Arbeitskollegen, Freunden und Bekannten oder Nachbarn",
-		"id": "4718",
+		"description": "Erhaltene materielle Hilfeleistungen",
+		"id": 4718,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1788,7 +1944,7 @@ var indikatoren = [
 			"Hilfeleistung",
 			"Nachbarschaft"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
@@ -1797,21 +1953,29 @@ var indikatoren = [
 		"erlaeuterungen": "2015: N=1427; 2011: N=1689<br/>Materielle Hilfeleistungen: Garten- und Reinigungsarbeiten, Einkaufshilfe, Füttern von Tieren, Hüte- und Pflegeeinsätze etc.",
 		"template": "befragungen001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F54e"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
-		"title": "Menschen aus verschiedenen Ländern sind eine Bereicherung für den Kanton",
+		"title": "Kulturelle Bereicherung",
 		"subtitle": "«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Ist das eine Bereicherung für den Kanton?»",
-		"kuerzel": "I.50.1.0013",
+		"kuerzel": "I.50.1.4719",
 		"kuerzelKunde": "1.3.01",
-		"image": "images/I.50.1.0013.jpg",
-		"description": "Menschen aus verschiedenen Ländern sind eine Bereicherung für den Kanton",
-		"id": "4719",
+		"description": "Kulturelle Bereicherung",
+		"id": 4719,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1820,7 +1984,7 @@ var indikatoren = [
 			"Ausländer",
 			"Ausland"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
 		"stufe4": "",
@@ -1829,32 +1993,40 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_03_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18a"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Beurteilung des Wohnorts",
 		"subtitle": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?»",
-		"kuerzel": "I.50.1.0016",
+		"kuerzel": "I.50.1.4720",
 		"kuerzelKunde": "2.1.01",
-		"image": "images/I.50.1.0016.jpg",
 		"description": "Beurteilung des Wohnorts",
-		"id": "4720",
+		"id": 4720,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-03-08T11:43:28.2828",
 		"schlagwort": [
 			"Zufriedenheit",
 			"Niederlassung",
 			"Quartier",
 			"Beurteilung"
 		],
-		"stufe1": "2 Verbundenheit",
+		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
 		"stufe4": "",
@@ -1863,21 +2035,29 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F1c"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Beurteilung des Wohnquartiers",
 		"subtitle": "«Wie gerne leben Sie in Ihrem Wohnquartier?»",
-		"kuerzel": "I.50.1.0017",
+		"kuerzel": "I.50.1.4721",
 		"kuerzelKunde": "2.1.02",
-		"image": "images/I.50.1.0017.jpg",
 		"description": "Beurteilung des Wohnquartiers",
-		"id": "4721",
+		"id": 4721,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
@@ -1888,7 +2068,7 @@ var indikatoren = [
 			"Nachbarschaft",
 			"Beurteilung"
 		],
-		"stufe1": "2 Verbundenheit",
+		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
 		"stufe4": "",
@@ -1897,21 +2077,29 @@ var indikatoren = [
 		"erlaeuterungen": "Gefragt wurden nur Personen, die in der Stadt Basel wohnen.",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F2b"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
 		"subtitle": "",
-		"kuerzel": "I.01.6.0002",
+		"kuerzel": "I.01.6.4722",
 		"kuerzelKunde": "2.1.03",
-		"image": "images/I.01.6.0002.jpg",
 		"description": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
-		"id": "4722",
+		"id": 4722,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1925,7 +2113,7 @@ var indikatoren = [
 			"Migrationshintergrund",
 			"Zuzug"
 		],
-		"stufe1": "2 Verbundenheit",
+		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
 		"stufe4": "",
@@ -1934,31 +2122,39 @@ var indikatoren = [
 		"erlaeuterungen": "Voraussetzung für eine ordentliche Einbürgerung ist u. a. eine 12-jährige Wohndauer in der Schweiz. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die 5 Jahre in der Schweiz gelebt haben und die seit 3 Jahren verheiratet sind. Die Einbürgerungsziffer wird als Anzahl Einbürgerungen pro 1000 Ausländer am Jahresende berechnet.",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
-		"title": "Beurteilung der politischen Behörden",
-		"subtitle": "«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat die Anliegen der Bevölkerung?»",
-		"kuerzel": "I.50.1.0018",
+		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
+		"subtitle": "«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?»",
+		"kuerzel": "I.50.1.4724",
 		"kuerzelKunde": "2.2.01",
-		"image": "images/I.50.1.0018.jpg",
-		"description": "Beurteilung der politischen Behörden",
-		"id": "4724",
+		"description": "Vertretung der Anliegen der Bevölkerung durch Behörden",
+		"id": 4724,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-03-13T17:10:58.5858",
 		"schlagwort": [
 			"Verwaltung",
 			"Grosser Rat",
 			"Beurteilung"
 		],
-		"stufe1": "2 Verbundenheit",
+		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
 		"stufe4": "",
@@ -1967,21 +2163,31 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_02_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"5138"
+		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F21a"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Gymnasialquote nach Staatsangehörigkeit seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.15.6.0001",
+		"kuerzel": "I.15.6.4739",
 		"kuerzelKunde": "3-1",
-		"image": "images/I.15.6.0001.jpg",
 		"description": "Gymnasialquote nach Staatsangehörigkeit seit 2006",
-		"id": "4739",
+		"id": 4739,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1996,7 +2202,7 @@ var indikatoren = [
 			"Gymnasialquote",
 			"Schule"
 		],
-		"stufe1": "3 Bildung und Erwerbstätigkeit",
+		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2005,21 +2211,29 @@ var indikatoren = [
 		"erlaeuterungen": "Die Gymnasialquote weist den Anteil Gymnasiasten an allen Schülern des 8. und 9. Schuljahres (nach HarmoS-Zählweise der Stufen 10 und 11) aus. Es werden nur Jugendliche berücksichtigt, deren Eltern im Kanton Basel-Stadt wohnen. Für einzelne Ländergruppen konnte aufgrund zu kleiner Fallzahlen keine Gymnasialquote errechnet werden. Jährliche Schwankungen (Bsp. Spanien) können zum Teil ebenfalls damit begründet werden.",
 		"template": "line001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Lehrabbruchquote nach Staatsangehörigkeit seit 2011",
 		"subtitle": "",
-		"kuerzel": "I.15.3.0001",
+		"kuerzel": "I.15.3.4740",
 		"kuerzelKunde": "3-2",
-		"image": "images/I.15.3.0001.jpg",
 		"description": "Lehrabbruchquote nach Staatsangehörigkeit seit 2011",
-		"id": "4740",
+		"id": 4740,
 		"thema": "15 Bildung",
 		"unterthema": "Berufsfachschulen",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -2038,7 +2252,7 @@ var indikatoren = [
 			"Angestellte",
 			"Schule"
 		],
-		"stufe1": "3 Bildung und Erwerbstätigkeit",
+		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2047,21 +2261,29 @@ var indikatoren = [
 		"erlaeuterungen": "Es handelt sich um Personen mit Lehrverträgen an Basler Berufsfachschulen, unabhängig vom Wohnort der Lehrabsolventen.",
 		"template": "line001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014",
 		"subtitle": "",
-		"kuerzel": "I.03.0.0001",
+		"kuerzel": "I.03.1.4741",
 		"kuerzelKunde": "3-4",
-		"image": "images/I.03.0.0001.jpg",
 		"description": "Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014",
-		"id": "4741",
+		"id": 4741,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Erwerbspersonen ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -2079,7 +2301,7 @@ var indikatoren = [
 			"Erwerb",
 			"Erwerbstätigkeit"
 		],
-		"stufe1": "3 Bildung und Erwerbstätigkeit",
+		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2088,21 +2310,29 @@ var indikatoren = [
 		"erlaeuterungen": "Konfidenzintervall 95%: Mit einer Wahrschenilchkeit von 95% befindet sich der wahre Wert zwischen der oberen und der unteren Grenze des Intervalls.",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit seit 2008",
 		"subtitle": "",
-		"kuerzel": "I.18.3.0001",
+		"kuerzel": "I.18.3.4743",
 		"kuerzelKunde": "3-5",
-		"image": "images/I.18.3.0001.jpg",
 		"description": "Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit seit 2008",
-		"id": "4743",
+		"id": 4743,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -2121,7 +2351,7 @@ var indikatoren = [
 			"Angestellte",
 			"Verwaltung"
 		],
-		"stufe1": "3 Bildung und Erwerbstätigkeit",
+		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2130,8 +2360,17 @@ var indikatoren = [
 		"erlaeuterungen": "Die Angestelltenquote zeigt den Anteil der Kantonsangestellten mit Wohnsitz in Basel-Stadt an allen Personen einer jeweilgen Bevölkerungsgruppe im erwerbsfähigen Alter (15- bis 64-Jährige).",
 		"template": "line001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Zentraler Personaldienst Basel-Stadt, Statistik des Staatspersonals"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -2151,7 +2390,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Quote"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2162,6 +2401,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"5109"
@@ -2170,7 +2410,7 @@ var indikatoren = [
 			"5109"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Sozialhilfestatistik"
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
 		"externalLinks": [
 			""
@@ -2193,7 +2433,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Ausländer"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2204,6 +2444,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"5110"
@@ -2212,7 +2453,7 @@ var indikatoren = [
 			"5110"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -2235,7 +2476,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Religion"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2246,6 +2487,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_005",
 		"parentId": null,
 		"children": [
 			"5111"
@@ -2254,7 +2496,7 @@ var indikatoren = [
 			"5111"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -2277,7 +2519,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2288,6 +2530,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_007",
 		"parentId": null,
 		"children": [
 			"5112"
@@ -2296,7 +2539,7 @@ var indikatoren = [
 			"5112"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -2320,7 +2563,7 @@ var indikatoren = [
 			"Quote",
 			"Bildung"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2331,6 +2574,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_009",
 		"parentId": null,
 		"children": [
 			"5113"
@@ -2363,7 +2607,7 @@ var indikatoren = [
 			"Alter",
 			"Alter"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2374,6 +2618,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_011",
 		"parentId": null,
 		"children": [
 			"5114"
@@ -2382,7 +2627,7 @@ var indikatoren = [
 			"5114"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -2405,7 +2650,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Wohndauer"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2416,6 +2661,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_013",
 		"parentId": null,
 		"children": [
 			"5115"
@@ -2424,7 +2670,7 @@ var indikatoren = [
 			"5115"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -2448,7 +2694,7 @@ var indikatoren = [
 			"Alter",
 			"Jugend"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2459,6 +2705,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_015",
 		"parentId": null,
 		"children": [
 			"5116"
@@ -2467,7 +2714,7 @@ var indikatoren = [
 			"5116"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -2491,7 +2738,7 @@ var indikatoren = [
 			"Gebäude",
 			"Alter"
 		],
-		"stufe1": "2 Raum und Umwelt",
+		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2502,7 +2749,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "2 Raum und Umwelt_000",
+		"orderKey": "02_00_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"5117"
@@ -2511,7 +2758,7 @@ var indikatoren = [
 			"5117"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -2534,7 +2781,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Gebäude"
 		],
-		"stufe1": "2 Raum und Umwelt",
+		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2545,6 +2792,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"5118"
@@ -2553,7 +2801,7 @@ var indikatoren = [
 			"5118"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -2576,7 +2824,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Grünflächen"
 		],
-		"stufe1": "2 Raum und Umwelt",
+		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2587,6 +2835,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_005",
 		"parentId": null,
 		"children": [
 			"5119"
@@ -2595,7 +2844,7 @@ var indikatoren = [
 			"5119"
 		],
 		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt  Basel-Stadt"
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
 		"externalLinks": [
 			""
@@ -2618,7 +2867,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Gebäude"
 		],
-		"stufe1": "2 Raum und Umwelt",
+		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2629,6 +2878,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_007",
 		"parentId": null,
 		"children": [
 			"5120"
@@ -2637,7 +2887,7 @@ var indikatoren = [
 			"5120"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -2660,7 +2910,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Gebäude"
 		],
-		"stufe1": "2 Raum und Umwelt",
+		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2671,6 +2921,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_009",
 		"parentId": null,
 		"children": [
 			"5121"
@@ -2679,8 +2930,8 @@ var indikatoren = [
 			"5121"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -2703,7 +2954,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Bevölkerung"
 		],
-		"stufe1": "3 Wirtschaft und Arbeit",
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2714,6 +2965,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"5122"
@@ -2722,7 +2974,7 @@ var indikatoren = [
 			"5122"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
 		],
 		"externalLinks": [
 			""
@@ -2745,7 +2997,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Bevölkerung"
 		],
-		"stufe1": "3 Wirtschaft und Arbeit",
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2756,6 +3008,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"5123"
@@ -2764,7 +3017,7 @@ var indikatoren = [
 			"5123"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
 		],
 		"externalLinks": [
 			""
@@ -2787,7 +3040,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Erwerb"
 		],
-		"stufe1": "3 Wirtschaft und Arbeit",
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2798,6 +3051,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_005",
 		"parentId": null,
 		"children": [
 			"5124"
@@ -2806,7 +3060,7 @@ var indikatoren = [
 			"5124"
 		],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
 		"externalLinks": [
 			""
@@ -2829,18 +3083,18 @@ var indikatoren = [
 		"schlagwort": [
 			"Erwerb"
 		],
-		"stufe1": "3 Wirtschaft und Arbeit",
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.",
+		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.<br> Im Wohnvietel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "3 Wirtschaft und Arbeit_000",
+		"orderKey": "03_00_00_00_00_007",
 		"parentId": null,
 		"children": [
 			"5125"
@@ -2849,7 +3103,7 @@ var indikatoren = [
 			"5125"
 		],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, STATENT"
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
 		"externalLinks": [
 			""
@@ -2873,7 +3127,7 @@ var indikatoren = [
 			"Arbeit",
 			"Erwerb"
 		],
-		"stufe1": "3 Wirtschaft und Arbeit",
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2884,6 +3138,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_009",
 		"parentId": null,
 		"children": [
 			"5126"
@@ -2892,7 +3147,7 @@ var indikatoren = [
 			"5126"
 		],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, Strukturerhebung (SE)",
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
 		"externalLinks": [
@@ -2902,14 +3157,13 @@ var indikatoren = [
 	{
 		"title": "Unterstützung von Freunden oder Nachbarn",
 		"subtitle": "«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch an Freunde/Nachbarn gewendet?»",
-		"kuerzel": "I.50.2.0002",
+		"kuerzel": "I.50.2.4848",
 		"kuerzelKunde": "1.1.03",
-		"image": "images/I.50.2.0002.jpg",
 		"description": "Unterstützung von Freunden oder Nachbarn",
-		"id": "4848",
+		"id": 4848,
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -2920,7 +3174,7 @@ var indikatoren = [
 			"Hilfeleistung",
 			"Nachbarschaft"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
@@ -2929,21 +3183,29 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F72a-g"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
-		"title": "Gutes Verhältnis zur Nachbarschaft",
+		"title": "Beurteilung des Verhältnisses zur Nachbarschaft",
 		"subtitle": "«Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.»",
-		"kuerzel": "I.50.2.0003",
+		"kuerzel": "I.50.2.4849",
 		"kuerzelKunde": "1.1.04",
-		"image": "images/I.50.2.0003.jpg",
-		"description": "Gutes Verhältnis zur Nachbarschaft",
-		"id": "4849",
+		"description": "Beurteilung des Verhältnisses zur Nachbarschaft",
+		"id": 4849,
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -2951,7 +3213,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Nachbarschaft"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
@@ -2960,21 +3222,29 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F19c"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Zusammensetzung des Freundeskreises",
 		"subtitle": "«Wie sieht Dein Freundeskreis aus?»",
-		"kuerzel": "I.50.3.0001",
+		"kuerzel": "I.50.3.4850",
 		"kuerzelKunde": "1.1.05",
-		"image": "images/I.50.3.0001.jpg",
 		"description": "Zusammensetzung des Freundeskreises",
-		"id": "4850",
+		"id": 4850,
 		"thema": "50 Befragungen",
 		"unterthema": "Jugendbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -2983,7 +3253,7 @@ var indikatoren = [
 			"Geschlecht",
 			"Gefühl"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
@@ -2992,21 +3262,29 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F34"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
 		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
-		"kuerzel": "I.50.4.0005",
+		"kuerzel": "I.50.4.4851",
 		"kuerzelKunde": "1.1.06",
-		"image": "images/I.50.4.0005.jpg",
 		"description": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
-		"id": "4851",
+		"id": 4851,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3015,7 +3293,7 @@ var indikatoren = [
 			"Zufriedenheit",
 			"Nachbarschaft"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
@@ -3024,30 +3302,38 @@ var indikatoren = [
 		"erlaeuterungen": "Gefragt wurde: «Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10f"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Sicherheitsgefühl im Alltag",
 		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?»",
-		"kuerzel": "I.50.1.0010",
+		"kuerzel": "I.50.1.4852",
 		"kuerzelKunde": "1.2.01",
-		"image": "images/I.50.1.0010.jpg",
 		"description": "Sicherheitsgefühl im Alltag",
-		"id": "4852",
+		"id": 4852,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-02-17T17:14:41.4141",
 		"schlagwort": [
 			"Gefühl",
 			"Sicherheit"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.2 Vertrauen in Mitmenschen",
 		"stufe3": "",
 		"stufe4": "",
@@ -3056,30 +3342,38 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9a"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Bedrohungen und Angriffe",
 		"subtitle": "«Sind Sie im letzten Jahr bedroht oder angegriffen worden?»",
-		"kuerzel": "I.50.1.0011",
+		"kuerzel": "I.50.1.4853",
 		"kuerzelKunde": "1.2.02",
-		"image": "images/I.50.1.0011.jpg",
 		"description": "Bedrohungen und Angriffe",
-		"id": "4853",
+		"id": 4853,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-02-17T17:16:52.5252",
 		"schlagwort": [
 			"Gefühl",
 			"Sicherheit"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.2 Vertrauen in Mitmenschen",
 		"stufe3": "",
 		"stufe4": "",
@@ -3088,31 +3382,39 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9b"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
-		"title": "Sicherhheitsgefühl nachts im Quartier",
+		"title": "Sicherheitsgefühl nachts im Quartier",
 		"subtitle": "«Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?»",
-		"kuerzel": "I.50.1.0012",
+		"kuerzel": "I.50.1.4854",
 		"kuerzelKunde": "1.2.03",
-		"image": "images/I.50.1.0012.jpg",
-		"description": "Sicherhheitsgefühl nachts im Quartier",
-		"id": "4854",
+		"description": "Sicherheitsgefühl nachts im Quartier",
+		"id": 4854,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-02-17T17:21:03.033",
 		"schlagwort": [
 			"Quartier",
 			"Gefühl",
 			"Sicherheit"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.2 Vertrauen in Mitmenschen",
 		"stufe3": "",
 		"stufe4": "",
@@ -3121,21 +3423,29 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9d"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
-		"title": "Es gibt zu viele Menschen aus dem Ausland in Basel-Stadt",
+		"title": "Beurteilung des Ausländeranteils",
 		"subtitle": "«Grundsätzlich gibt es einfach zu viele Menschen aus dem Ausland bei uns.»",
-		"kuerzel": "I.50.1.0014",
+		"kuerzel": "I.50.1.4855",
 		"kuerzelKunde": "1.3.02",
-		"image": "images/I.50.1.0014.jpg",
-		"description": "Es gibt zu viele Menschen aus dem Ausland in Basel-Stadt",
-		"id": "4855",
+		"description": "Beurteilung des Ausländeranteils",
+		"id": 4855,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3144,7 +3454,7 @@ var indikatoren = [
 			"Ausländer",
 			"Ausland"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
 		"stufe4": "",
@@ -3153,21 +3463,29 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_03_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18b"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
-		"title": "Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.",
+		"title": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
 		"subtitle": "«Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.»",
-		"kuerzel": "I.50.1.0015",
+		"kuerzel": "I.50.1.4856",
 		"kuerzelKunde": "1.3.03",
-		"image": "images/I.50.1.0015.jpg",
-		"description": "Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.",
-		"id": "4856",
+		"description": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
+		"id": 4856,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3176,7 +3494,7 @@ var indikatoren = [
 			"Ausländer",
 			"Ausland"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
 		"stufe4": "",
@@ -3185,21 +3503,29 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_03_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18c"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Beurteilung der Schulen in Basel-Stadt",
 		"subtitle": "«Die Schulen des Kantons Basel-Stadt bereiten die Jugendlichen gut fürs Leben vor.»",
-		"kuerzel": "I.50.1.0019",
+		"kuerzel": "I.50.1.4857",
 		"kuerzelKunde": "2.2.02",
-		"image": "images/I.50.1.0019.jpg",
 		"description": "Beurteilung der Schulen in Basel-Stadt",
-		"id": "4857",
+		"id": 4857,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3211,7 +3537,7 @@ var indikatoren = [
 			"Verwaltung",
 			"Beurteilung"
 		],
-		"stufe1": "2 Verbundenheit",
+		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
 		"stufe4": "",
@@ -3220,21 +3546,29 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_1"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Beurteilung der Chancengleichheit",
 		"subtitle": "«Die Chancengleichheit wird von den Behörden zielstrebig vorangetrieben.»",
-		"kuerzel": "I.50.1.0020",
+		"kuerzel": "I.50.1.4858",
 		"kuerzelKunde": "2.2.03",
-		"image": "images/I.50.1.0020.jpg",
 		"description": "Beurteilung der Chancengleichheit",
-		"id": "4858",
+		"id": 4858,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3245,7 +3579,7 @@ var indikatoren = [
 			"Grosser Rat",
 			"Beurteilung"
 		],
-		"stufe1": "2 Verbundenheit",
+		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
 		"stufe4": "",
@@ -3254,30 +3588,38 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_7"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Beurteilung der kantonalen Verwaltung",
 		"subtitle": "«Denken Sie einmal an den letzten Kontakt, wo Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»",
-		"kuerzel": "I.50.1.0021",
+		"kuerzel": "I.50.1.4859",
 		"kuerzelKunde": "2.2.04",
-		"image": "images/I.50.1.0021.jpg",
 		"description": "Beurteilung der kantonalen Verwaltung",
-		"id": "4859",
+		"id": 4859,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-03-08T11:54:16.1616",
 		"schlagwort": [
 			"Verwaltung",
 			"Beurteilung"
 		],
-		"stufe1": "2 Verbundenheit",
+		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
 		"stufe4": "",
@@ -3286,30 +3628,40 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_02_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6186"
+		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F19a"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Beurteilung der kantonalen Steuern",
 		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?»",
-		"kuerzel": "I.50.1.0022",
+		"kuerzel": "I.50.1.4860",
 		"kuerzelKunde": "2.3.01",
-		"image": "images/I.50.1.0022.jpg",
 		"description": "Beurteilung der kantonalen Steuern",
-		"id": "4860",
+		"id": 4860,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-03-08T12:11:39.3939",
 		"schlagwort": [
 			"Verwaltung",
 			"Beurteilung"
 		],
-		"stufe1": "2 Verbundenheit",
+		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
 		"stufe4": "",
@@ -3318,21 +3670,31 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_03_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6133"
+		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Beurteilung der eigenen wirtschaftlichen Situation",
 		"subtitle": "«Wie geht es Ihnen wirtschaftlich gesehen im Moment?»",
-		"kuerzel": "I.50.1.0023",
+		"kuerzel": "I.50.1.4861",
 		"kuerzelKunde": "2.3.02",
-		"image": "images/I.50.1.0023.jpg",
 		"description": "Beurteilung der eigenen wirtschaftlichen Situation",
-		"id": "4861",
+		"id": 4861,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3341,7 +3703,7 @@ var indikatoren = [
 			"Einkommen",
 			"Beurteilung"
 		],
-		"stufe1": "2 Verbundenheit",
+		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
 		"stufe4": "",
@@ -3350,21 +3712,29 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_03_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14b"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Beurteilung der Bildungschancen",
 		"subtitle": "«Alle Kinder erhalten die gleichen Bildungschancen.»",
-		"kuerzel": "I.50.1.0024",
+		"kuerzel": "I.50.1.4862",
 		"kuerzelKunde": "2.3.03",
-		"image": "images/I.50.1.0024.jpg",
 		"description": "Beurteilung der Bildungschancen",
-		"id": "4862",
+		"id": 4862,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3373,7 +3743,7 @@ var indikatoren = [
 			"Bildung",
 			"Beurteilung"
 		],
-		"stufe1": "2 Verbundenheit",
+		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
 		"stufe4": "",
@@ -3382,21 +3752,29 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_03_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_3"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Anteil Steuerveranlagungen mit Zuwendungen",
 		"subtitle": "",
-		"kuerzel": "I.18.2.0004",
+		"kuerzel": "I.18.2.4863",
 		"kuerzelKunde": "3.1.01",
-		"image": "images/I.18.2.0004.jpg",
 		"description": "Anteil Steuerveranlagungen mit Zuwendungen",
 		"id": 4863,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3405,7 +3783,7 @@ var indikatoren = [
 			"Einkommen",
 			"Spende"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
 		"stufe4": "",
@@ -3415,21 +3793,28 @@ var indikatoren = [
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Freiwillige Tätigkeit",
 		"subtitle": "«Sind Sie in Ihrer Freizeit freiwillig tätig?»",
-		"kuerzel": "I.50.1.0025",
+		"kuerzel": "I.50.1.4864",
 		"kuerzelKunde": "3.1.02",
-		"image": "images/I.50.1.0025.jpg",
 		"description": "Freiwillige Tätigkeit",
-		"id": "4864",
+		"id": 4864,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3437,7 +3822,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Arbeit"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
 		"stufe4": "",
@@ -3446,21 +3831,29 @@ var indikatoren = [
 		"erlaeuterungen": "Freiwilligenarbeit ist ein unbezahlter Beitrag an Mitmenschen und/oder Umwelt und findet ausserhalb des eigenen Haushalts statt.",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S22"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
-		"title": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit",
+		"title": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
 		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?»",
-		"kuerzel": "I.50.4.0006",
+		"kuerzel": "I.50.4.4865",
 		"kuerzelKunde": "3.1.03",
-		"image": "images/I.50.4.0006.jpg",
-		"description": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit",
-		"id": "4865",
+		"description": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
+		"id": 4865,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3468,7 +3861,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Arbeit"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
 		"stufe4": "",
@@ -3477,21 +3870,29 @@ var indikatoren = [
 		"erlaeuterungen": "Die Fragestellung hat sich leicht verändert von «Sind Sie in Ihrer Freizeit ehrenamtlich tätig?» im Jahr 2011 zu «Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?» im Jahr 2015",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F29"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 		"subtitle": "",
-		"kuerzel": "I.19.1.0001",
+		"kuerzel": "I.19.1.4866",
 		"kuerzelKunde": "3.2.01",
-		"image": "images/I.19.1.0001.jpg",
 		"description": "Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"id": "4866",
+		"id": 4866,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3499,7 +3900,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Verbrechen"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
@@ -3508,22 +3909,30 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
-			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 		"subtitle": "",
-		"kuerzel": "I.19.1.0002",
+		"kuerzel": "I.19.1.4867",
 		"kuerzelKunde": "3.2.02",
-		"image": "images/I.19.1.0002.jpg",
 		"description": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"id": "4867",
+		"id": 4867,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3531,7 +3940,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Verbrechen"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
@@ -3540,22 +3949,30 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
-			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl/-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 		"subtitle": "",
-		"kuerzel": "I.19.1.0003",
+		"kuerzel": "I.19.1.4868",
 		"kuerzelKunde": "3.2.03",
-		"image": "images/I.19.1.0003.jpg",
 		"description": "Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl/-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"id": "4868",
+		"id": 4868,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3563,7 +3980,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Verbrechen"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
@@ -3572,22 +3989,30 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
-			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 		"subtitle": "",
-		"kuerzel": "I.19.1.0004",
+		"kuerzel": "I.19.1.4869",
 		"kuerzelKunde": "3.2.04",
-		"image": "images/I.19.1.0004.jpg",
 		"description": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"id": "4869",
+		"id": 4869,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3595,7 +4020,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Verbrechen"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
@@ -3604,22 +4029,30 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
-			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Engagement in Organisationen und Vereinen",
 		"subtitle": "«Engagierst Du Dich in einer Organisation, in einem Verein oder ähnlichem?»",
-		"kuerzel": "I.50.3.0002",
+		"kuerzel": "I.50.3.4870",
 		"kuerzelKunde": "3.3.01",
-		"image": "images/I.50.3.0002.jpg",
 		"description": "Engagement in Organisationen und Vereinen",
-		"id": "4870",
+		"id": 4870,
 		"thema": "50 Befragungen",
 		"unterthema": "Jugendbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3627,7 +4060,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Jugend"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
@@ -3636,21 +4069,29 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_03_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F28"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Wahlbeteiligung bei National- und Grossratswahlen",
 		"subtitle": "",
-		"kuerzel": "I.17.3.0001",
+		"kuerzel": "I.17.3.4871",
 		"kuerzelKunde": "3.3.02",
-		"image": "images/I.17.3.0001.jpg",
 		"description": "Wahlbeteiligung bei National- und Grossratswahlen",
-		"id": "4871",
+		"id": 4871,
 		"thema": "17 Politik",
 		"unterthema": "Wahlen",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3658,7 +4099,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Grosser Rat"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
@@ -3667,21 +4108,29 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_03_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Interesse an der Politik in Basel-Stadt",
 		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?»",
-		"kuerzel": "I.50.1.0026",
-		"kuerzelKunde": "3.3.03.a",
-		"image": "images/I.50.1.0026.jpg",
+		"kuerzel": "I.50.1.4872",
+		"kuerzelKunde": "3.3.03.A",
 		"description": "Interesse an der Politik in Basel-Stadt",
-		"id": "4872",
+		"id": 4872,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3691,7 +4140,7 @@ var indikatoren = [
 			"Grosser Rat",
 			"Beurteilung"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
@@ -3700,21 +4149,29 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_03_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F20"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
-		"title": "Beschäftigung mit dem Thema Politik",
+		"title": "Politikinteresse der über 54-Jährigen",
 		"subtitle": "«Wie stark beschäftigt Sie im Moment das Thema Politik?»",
-		"kuerzel": "I.50.4.0007",
+		"kuerzel": "I.50.4.4874",
 		"kuerzelKunde": "3.3.04",
-		"image": "images/I.50.4.0007.jpg",
-		"description": "Beschäftigung mit dem Thema Politik",
-		"id": "4874",
+		"description": "Politikinteresse der über 54-Jährigen",
+		"id": 4874,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3723,7 +4180,7 @@ var indikatoren = [
 			"Grosser Rat",
 			"Beurteilung"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
@@ -3732,21 +4189,29 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_03_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F57a"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
 		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld/Quartier?»",
-		"kuerzel": "I.50.4.0008",
+		"kuerzel": "I.50.4.4875",
 		"kuerzelKunde": "1.1.07",
-		"image": "images/I.50.4.0008.jpg",
 		"description": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
-		"id": "4875",
+		"id": 4875,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3756,7 +4221,7 @@ var indikatoren = [
 			"Nachbarschaft",
 			"Quartier"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
@@ -3765,21 +4230,29 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10g"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeitund Alter 2015",
 		"subtitle": "",
-		"kuerzel": "I.01.5.0042",
+		"kuerzel": "I.01.5.4877",
 		"kuerzelKunde": "2-5",
-		"image": "images/I.01.5.0042.jpg",
 		"description": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeitund Alter 2015",
-		"id": "4877",
+		"id": 4877,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3795,7 +4268,7 @@ var indikatoren = [
 			"Wanderung",
 			"Rückwanderung"
 		],
-		"stufe1": "2 Wohnortwahl",
+		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -3804,21 +4277,29 @@ var indikatoren = [
 		"erlaeuterungen": "Die Rückwanderungsquote ist wie folgt definiert: Anzahl Personen, welche ins Land ihrer Herkunft (nicht in das Land, aus dem sie zugezogen sind) resp. in die entsprechende Ländergruppe abwandern pro 1000 Personen einer Ländergruppe. Die Rückwanderungsquote «Ausland», also von allen Ausländern zusammen, ist definiert als die Anzahl der ins Ausland (egal, ob Herkunftsland oder nicht) weggezogenen Ausländer pro 1000 Personen der ausländischen Wohnbevölkerung, Aus diesem Grund liegt die Rückwanderungsquote «Ausland» auch vergleichsweise hoch.",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.1.0043",
-		"kuerzelKunde": "2-3b",
-		"image": "images/I.01.1.0043.jpg",
+		"kuerzel": "I.01.1.4905",
+		"kuerzelKunde": "2-3B",
 		"description": "Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006",
-		"id": "4905",
+		"id": 4905,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Integration kompakt",
+		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3843,8 +4324,17 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -4377,14 +4867,13 @@ var indikatoren = [
 	{
 		"title": "Gedanken über die Arbeitsstelle",
 		"subtitle": "«Machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
-		"kuerzel": "I.50.1.0027",
-		"kuerzelKunde": "1.1.08.a",
-		"image": "images/I.50.1.0027.jpg",
+		"kuerzel": "I.50.1.4931",
+		"kuerzelKunde": "1.1.08.A",
 		"description": "Gedanken über die Arbeitsstelle",
-		"id": "4931",
+		"id": 4931,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -4393,7 +4882,7 @@ var indikatoren = [
 			"Arbeit",
 			"Erwerb"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
@@ -4402,21 +4891,29 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14e"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
 		"title": "Gründe für Gedanken über die Arbeitsstelle",
 		"subtitle": "«Warum machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
-		"kuerzel": "I.50.1.0028",
-		"kuerzelKunde": "1.1.08.b",
-		"image": "images/I.50.1.0028.jpg",
+		"kuerzel": "I.50.1.4932",
+		"kuerzelKunde": "1.1.08.B",
 		"description": "Gründe für Gedanken über die Arbeitsstelle",
-		"id": "4932",
+		"id": 4932,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -4427,7 +4924,7 @@ var indikatoren = [
 			"Angestellte",
 			"Sicherheit"
 		],
-		"stufe1": "1 Soziale Beziehungen",
+		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
@@ -4436,21 +4933,29 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14f"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
-		"title": "Interesse an der Politik in Basel-Stadt (18- bis 29-Jährige)",
+		"title": "Politikinteresse der unter 30-Jährigen",
 		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?» – nur Befragte im Alter zwischen 18 und 29 Jahren",
-		"kuerzel": "I.50.1.0029",
-		"kuerzelKunde": "3.3.03.b",
-		"image": "images/I.50.1.0029.jpg",
-		"description": "Interesse an der Politik in Basel-Stadt (18- bis 29-Jährige)",
-		"id": "4933",
+		"kuerzel": "I.50.1.4933",
+		"kuerzelKunde": "3.3.03.B",
+		"description": "Politikinteresse der unter 30-Jährigen",
+		"id": 4933,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher Zusammenhalt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -4460,7 +4965,7 @@ var indikatoren = [
 			"Grosser Rat",
 			"Beurteilung"
 		],
-		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
@@ -4469,8 +4974,17 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_03_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F20"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{
@@ -4587,7 +5101,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Quote"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -4598,13 +5112,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_002",
 		"parentId": 4822,
 		"children": [],
 		"renderLink": [
 			"4822"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Sozialhilfestatistik"
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=soz_sozhilfe.soz_quote' target='_blank'>Basler Atlas</a>."
@@ -4627,7 +5142,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Ausländer"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -4638,24 +5153,25 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_004",
 		"parentId": 4823,
 		"children": [],
 		"renderLink": [
 			"4823"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevheim.anteil_al' target='_blank'>Basler Atlas</a>."
 		]
 	},
 	{
-		"title": "Anteil Konfessionslose",
-		"subtitle": "Stand: 2015",
-		"kuerzel": "I.01.7.0002",
-		"kuerzelKunde": "GS-3.b",
-		"description": "Anteil Konfessionslose",
+		"title": "Anteil Personen ohne Religionszugehörigkeit",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.01.7.5111",
+		"kuerzelKunde": "GS-3.B",
+		"description": "Anteil Personen ohne Religionszugehörigkeit",
 		"id": 5111,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Religionen",
@@ -4663,11 +5179,11 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-05-04T14:56:38.3838",
 		"schlagwort": [
 			"Religion"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -4678,13 +5194,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_006",
 		"parentId": 4824,
 		"children": [],
 		"renderLink": [
 			"4824"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -4707,7 +5224,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -4718,13 +5235,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_008",
 		"parentId": 4825,
 		"children": [],
 		"renderLink": [
 			"4825"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -4748,7 +5266,7 @@ var indikatoren = [
 			"Quote",
 			"Bildung"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -4759,6 +5277,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_010",
 		"parentId": 4826,
 		"children": [],
 		"renderLink": [
@@ -4773,9 +5292,9 @@ var indikatoren = [
 	},
 	{
 		"title": "Altersquotient",
-		"subtitle": "Stand: 2015",
-		"kuerzel": "I.01.1.0048",
-		"kuerzelKunde": "GS-6.b",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.01.1.5114",
+		"kuerzelKunde": "GS-6.B",
 		"description": "Altersquotient",
 		"id": 5114,
 		"thema": "01 Bevölkerung",
@@ -4789,7 +5308,7 @@ var indikatoren = [
 			"Alter",
 			"Alter"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -4800,13 +5319,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_012",
 		"parentId": 4827,
 		"children": [],
 		"renderLink": [
 			"4827"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -4829,7 +5349,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Wohndauer"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -4840,13 +5360,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_014",
 		"parentId": 4828,
 		"children": [],
 		"renderLink": [
 			"4828"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevsess.anteil_sess10' target='_blank'>Basler Atlas</a>."
@@ -4854,9 +5375,9 @@ var indikatoren = [
 	},
 	{
 		"title": "Jugendquotient",
-		"subtitle": "Stand: 2015",
-		"kuerzel": "I.01.1.0050",
-		"kuerzelKunde": "GS-8.b",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.01.1.5116",
+		"kuerzelKunde": "GS-8.B",
 		"description": "Jugendquotient",
 		"id": 5116,
 		"thema": "01 Bevölkerung",
@@ -4865,12 +5386,12 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-03-17T14:09:43.4343",
 		"schlagwort": [
 			"Alter",
 			"Jugend"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -4881,13 +5402,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_016",
 		"parentId": 4829,
 		"children": [],
 		"renderLink": [
 			"4829"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -4911,7 +5433,7 @@ var indikatoren = [
 			"Gebäude",
 			"Alter"
 		],
-		"stufe1": "2 Raum und Umwelt",
+		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -4922,14 +5444,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "2 Raum und Umwelt_000",
+		"orderKey": "02_00_00_00_00_002",
 		"parentId": 4830,
 		"children": [],
 		"renderLink": [
 			"4830"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -4952,7 +5474,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Gebäude"
 		],
-		"stufe1": "2 Raum und Umwelt",
+		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -4963,13 +5485,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_004",
 		"parentId": 4831,
 		"children": [],
 		"renderLink": [
 			"4831"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -4992,7 +5515,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Grünflächen"
 		],
-		"stufe1": "2 Raum und Umwelt",
+		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -5003,13 +5526,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_006",
 		"parentId": 4832,
 		"children": [],
 		"renderLink": [
 			"4832"
 		],
 		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt  Basel-Stadt"
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=ru_gruen.gruenflaeche_ant' target='_blank'>Basler Atlas</a>."
@@ -5032,7 +5556,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Gebäude"
 		],
-		"stufe1": "2 Raum und Umwelt",
+		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -5043,13 +5567,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_008",
 		"parentId": 4833,
 		"children": [],
 		"renderLink": [
 			"4833"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -5072,7 +5597,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Gebäude"
 		],
-		"stufe1": "2 Raum und Umwelt",
+		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -5083,14 +5608,15 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_010",
 		"parentId": 4834,
 		"children": [],
 		"renderLink": [
 			"4834"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -5113,7 +5639,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Bevölkerung"
 		],
-		"stufe1": "3 Wirtschaft und Arbeit",
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -5124,13 +5650,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_002",
 		"parentId": 4835,
 		"children": [],
 		"renderLink": [
 			"4835"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_ver.vermoegen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
@@ -5153,7 +5680,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Bevölkerung"
 		],
-		"stufe1": "3 Wirtschaft und Arbeit",
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -5164,13 +5691,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_004",
 		"parentId": 4836,
 		"children": [],
 		"renderLink": [
 			"4836"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_eink.einkommen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
@@ -5193,7 +5721,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Erwerb"
 		],
-		"stufe1": "3 Wirtschaft und Arbeit",
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -5204,13 +5732,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_006",
 		"parentId": 4837,
 		"children": [],
 		"renderLink": [
 			"4837"
 		],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
 		"externalLinks": [
 			""
@@ -5233,25 +5762,25 @@ var indikatoren = [
 		"schlagwort": [
 			"Erwerb"
 		],
-		"stufe1": "3 Wirtschaft und Arbeit",
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.",
+		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.<br> Im Wohnvietel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "map001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "3 Wirtschaft und Arbeit_000",
+		"orderKey": "03_00_00_00_00_008",
 		"parentId": 4838,
 		"children": [],
 		"renderLink": [
 			"4838"
 		],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, STATENT"
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
 		"externalLinks": [
 			""
@@ -5275,7 +5804,7 @@ var indikatoren = [
 			"Arbeit",
 			"Erwerb"
 		],
-		"stufe1": "3 Wirtschaft und Arbeit",
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -5286,13 +5815,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_010",
 		"parentId": 4839,
 		"children": [],
 		"renderLink": [
 			"4839"
 		],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, Strukturerhebung (SE)",
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
 		"externalLinks": [
@@ -5415,13 +5945,10 @@ var indikatoren = [
 		"orderKey": "01_01_00_00_00_002",
 		"parentId": null,
 		"children": [
-			"5862",
 			"6092",
 			"6242"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -5461,13 +5988,10 @@ var indikatoren = [
 		"orderKey": "01_01_00_00_00_003",
 		"parentId": null,
 		"children": [
-			"5863",
 			"6093",
 			"6243"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -5506,13 +6030,10 @@ var indikatoren = [
 		"orderKey": "01_01_00_00_00_012",
 		"parentId": null,
 		"children": [
-			"5864",
 			"6094",
 			"6244"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -5551,13 +6072,10 @@ var indikatoren = [
 		"orderKey": "01_01_00_00_00_005",
 		"parentId": null,
 		"children": [
-			"5873",
 			"6103",
 			"6245"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
@@ -5596,13 +6114,10 @@ var indikatoren = [
 		"orderKey": "01_01_00_00_00_009",
 		"parentId": null,
 		"children": [
-			"5877",
 			"6107",
 			"6249"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -5691,8 +6206,8 @@ var indikatoren = [
 			"Amt für Mobilität Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href='http://map.geo.bs.ch/main/wsgi/file_proxy/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target='_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
-			"<a href='http://www.stadtplan.bs.ch/geoviewer/index.php?theme=340&cps=2614062.08,1267876.03,50000&nodefault&layers=stadtplan_grau_osm_50000,gueteklassen' target='_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
+			"<a href = 'http://map.geo.bs.ch/main/wsgi/file_proxy/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target = '_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
+			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=340&cps=2614062.08,1267876.03,50000&nodefault&layers=stadtplan_grau_osm_50000,gueteklassen' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
 		]
 	},
 	{
@@ -5726,13 +6241,10 @@ var indikatoren = [
 		"orderKey": "02_04_00_00_00_002",
 		"parentId": null,
 		"children": [
-			"5883",
 			"6112",
 			"6254"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
@@ -5813,13 +6325,10 @@ var indikatoren = [
 		"orderKey": "01_01_00_00_00_011",
 		"parentId": null,
 		"children": [
-			"5909",
 			"6120",
 			"6257"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -5851,7 +6360,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Von 2010 bis 2016 haben vor allem die Verkehrsmittel Velo und ÖV BVB/BLT einen Anstieg erfahren. Während demselben Zeitraum hat die Nutzung des Verkehrsmittel MIV Stadtstrassennetz abgenommen.",
-		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet.<br/> <br/>Autoverkehr (MIV): Der Index für den motorisierten Individualverkehr berechnet sich anhand von rund 35 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Der Index umfasst die Verkehrsleistung aller Motorfahrzeuge (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes.<br/><br/>Veloverkehr: Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Da der Veloverkehr stark wetterabhängig ist, wurde vom Statistischen Amt des Kantons Basel-Stadt ein Modell entwickelt, welches es zulässt, den Wettereinfluss aus der Verkehrsentwicklung herauszurechnen.<br/><br/>Fussverkehr: Der Index für den Fussverkehr basiert auf rund 17 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr (ÖV): Der Index des öffentlichen Verkehrs wird auf Basis der Verkehrsdaten von Tram- und Buslinien der BVB und der BLT und den S-Bahnen (nur alle zwei Jahre), abgegrenzt auf das Gebiet des Kantons Basel-Stadt, berechnet. Der Gesamtindex für den ÖV kann im jeweiligen Jahr erst im Herbst veröffentlicht werden, sobald die Daten für die S-Bahnen vorliegen.<br/> <br/>Aus der Veränderung an den Zählstellen wird die Veränderung auf dem ganzen Kantonsgebiet abgeleitet, indem jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet wird.<br/> <br/>Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
+		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet.<br/> <br/>Autoverkehr: Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 35 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Der Index umfasst die Verkehrsleistung aller Motorfahrzeuge (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes.<br/><br/>Veloverkehr: Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Da der Veloverkehr stark wetterabhängig ist, wurde vom Statistischen Amt des Kantons Basel-Stadt ein Modell entwickelt, welches es zulässt, den Wettereinfluss aus der Verkehrsentwicklung herauszurechnen.<br/><br/>Fussverkehr: Der Index für den Fussverkehr basiert auf rund 17 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr (ÖV): Der Index des öffentlichen Verkehrs wird auf Basis der Verkehrsdaten von Tram- und Buslinien der BVB und der BLT und den S-Bahnen (nur alle zwei Jahre), abgegrenzt auf das Gebiet des Kantons Basel-Stadt, berechnet. Der Gesamtindex für den ÖV kann im jeweiligen Jahr erst im Herbst veröffentlicht werden, sobald die Daten für die S-Bahnen vorliegen.<br/> <br/>Aus der Veränderung an den Zählstellen wird die Veränderung auf dem ganzen Kantonsgebiet abgeleitet, indem jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet wird.<br/> <br/>Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
@@ -5859,13 +6368,10 @@ var indikatoren = [
 		"orderKey": "01_03_00_00_00_002",
 		"parentId": null,
 		"children": [
-			"6008",
 			"6123",
 			"6258"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -6027,12 +6533,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"6221",
-			"6229",
 			"6259"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -6157,12 +6660,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"6225",
-			"6233",
 			"6263"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -6202,12 +6702,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"6227",
-			"6235",
 			"6264"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Planungsamt Basel-Stadt"
@@ -6249,11 +6746,10 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"6241",
-			"6265"
+			"6265",
+			"6347"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
