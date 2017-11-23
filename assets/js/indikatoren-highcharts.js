@@ -321,7 +321,7 @@ function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, stufe1,
     if (displayLinkToIndikatorenset) {
       returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/"+ kennzahlenset.toLowerCase().replace(" ", "-") + ".html' target='_blank'>" + kennzahlenset.replace('-', ' ') + "</a>";
       //in indikatorenset View, add the stufe1 text here
-      if(isIndikatorensetView(view)){
+      if(isIndikatorensetView(view) && stufe1){
         returnText += ", " + stufe1;
       }
       returnText += ".</li>";      
