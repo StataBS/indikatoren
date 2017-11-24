@@ -95,7 +95,7 @@ function resetPortalFilter(FJS, view){
 function initializeFilterJS(indikatorenset){
   var fjsConfig = {      
     template: undefined,
-    search: { ele: '#searchbox' },
+    search: { ele: '#searchbox', start_length: 1},
     callbacks: {
           afterFilter: afterFilter, 
           shortResult: sortResult
