@@ -1242,7 +1242,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "01_00_00_00_00_010",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1285,7 +1285,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "01_00_00_00_00_020",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1328,7 +1328,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "01_00_00_00_00_030",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1369,7 +1369,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "01_00_00_00_00_040",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1412,7 +1412,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "01_00_00_00_00_050",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1455,7 +1455,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "01_00_00_00_00_060",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1499,7 +1499,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "01_00_00_00_00_070",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1546,7 +1546,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "01_00_00_00_00_080",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1592,7 +1592,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "01_00_00_00_00_090",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1638,7 +1638,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "01_00_00_00_00_100",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1684,7 +1684,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_000",
+		"orderKey": "02_00_00_00_00_110",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1732,7 +1732,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_000",
+		"orderKey": "02_00_00_00_00_120",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1779,7 +1779,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_000",
+		"orderKey": "02_00_00_00_00_130",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1824,7 +1824,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_000",
+		"orderKey": "02_00_00_00_00_140",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1872,7 +1872,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_000",
+		"orderKey": "03_00_00_00_00_195",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -2213,7 +2213,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_000",
+		"orderKey": "03_00_00_00_00_180",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -2263,7 +2263,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_000",
+		"orderKey": "03_00_00_00_00_190",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -2312,7 +2312,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_000",
+		"orderKey": "03_00_00_00_00_200",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -2362,7 +2362,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_000",
+		"orderKey": "03_00_00_00_00_210",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -4279,7 +4279,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_000",
+		"orderKey": "02_00_00_00_00_150",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -4315,7 +4315,7 @@ var indikatoren = [
 			"Geburtsort",
 			"Staatsangehörigkeit"
 		],
-		"stufe1": "",
+		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -4326,7 +4326,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "02_00_00_00_00_135",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -5931,7 +5931,7 @@ var indikatoren = [
 			"Bevölkerung",
 			"Wohnen"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -5974,7 +5974,7 @@ var indikatoren = [
 			"Bevölkerung",
 			"Wohnen"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -6016,7 +6016,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Pendler"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -6058,7 +6058,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Wohnung"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -6100,7 +6100,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Wohnung"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -6142,7 +6142,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Wohnung"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -6184,7 +6184,7 @@ var indikatoren = [
 		"schlagwort": [
 			"ÖV"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 6: Erschliessungsqualität",
 		"stufe3": "",
 		"stufe4": "",
@@ -6206,7 +6206,7 @@ var indikatoren = [
 			"Amt für Mobilität Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'http://map.geo.bs.ch/main/wsgi/file_proxy/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target = '_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
+			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/data/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target = '_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=340&cps=2614062.08,1267876.03,50000&nodefault&layers=stadtplan_grau_osm_50000,gueteklassen' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
 		]
 	},
@@ -6227,7 +6227,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Beschäftigte"
 		],
-		"stufe1": "Siedlung - Wirtschaft",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
@@ -6269,7 +6269,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Gebäude"
 		],
-		"stufe1": "Siedlung - Wirtschaft",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
@@ -6311,7 +6311,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Index"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -6354,7 +6354,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Lärm"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 6: Erschliessungsqualität",
 		"stufe3": "",
 		"stufe4": "",
@@ -6518,7 +6518,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Bevölkerung"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -6561,7 +6561,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Bevölkerung"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -6603,7 +6603,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Gebäude"
 		],
-		"stufe1": "Siedlung - Wirtschaft",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
@@ -6645,7 +6645,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Bildung"
 		],
-		"stufe1": "Siedlung - Wirtschaft",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
 		"stufe3": "",
 		"stufe4": "",
@@ -6687,7 +6687,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Haushalt"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -6731,7 +6731,7 @@ var indikatoren = [
 			"Arbeit",
 			"Angestellte"
 		],
-		"stufe1": "Siedlung - Wirtschaft",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
