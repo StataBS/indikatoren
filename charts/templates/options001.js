@@ -57,19 +57,26 @@ Highcharts.setOptions({
 var indikatorensetView = ($.url('?Indikatorenset') || $.url('?indikatorensetView') ) ? true : false;
 var indikatorensetParameter = indikatorensetView ? '&indikatorensetView=' + indikatorensetView : '';
 
-Highcharts.getOptions().exporting.buttons.contextButton.menuItems.push(
+var menuItems = Highcharts.getOptions().exporting.buttons.contextButton.menuItems;
+menuItems.push(
+    {
+        "text": "Einzelansicht", 
+        "onclick": function(){            
+            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart-details.html?id=' + this.renderTo.id.substring(10) + indikatorensetParameter + "&suppressNumberInTitle=true", '_blank'); 
+        }
+    });
+menuItems.push(
+    {
+        "text": "Einbetten", 
+        "onclick": function(){            
+            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart.html?id=' + this.renderTo.id.substring(10) + indikatorensetParameter + "&suppressNumberInTitle=true", '_blank'); 
+        }
+    });
+menuItems.push(
     {
         "text": "Daten", 
         "onclick": function(){            
             window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/data/' + this.renderTo.id.substring(10) + ".tsv", '_blank'); 
-        }
-    });
-
-Highcharts.getOptions().exporting.buttons.contextButton.menuItems.push(
-    {
-        "text": "URL", 
-        "onclick": function(){            
-            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart.html?id=' + this.renderTo.id.substring(10) + indikatorensetParameter + "&suppressNumberInTitle=true", '_blank'); 
         }
     });
 
