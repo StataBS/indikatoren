@@ -17,7 +17,7 @@ var indikatorensetData = [
 			"Bevölkerung",
 			"Wohnen"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -60,7 +60,7 @@ var indikatorensetData = [
 			"Bevölkerung",
 			"Wohnen"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -102,7 +102,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Pendler"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -144,7 +144,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Wohnung"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -186,7 +186,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Wohnung"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -228,7 +228,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Wohnen"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -271,7 +271,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Wohnen"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -313,7 +313,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Wohnung"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -355,7 +355,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Wohnung"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -397,7 +397,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Grünflächen"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -440,7 +440,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Zufriedenheit"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -482,7 +482,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"ÖV"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 6: Erschliessungsqualität",
 		"stufe3": "",
 		"stufe4": "",
@@ -504,7 +504,7 @@ var indikatorensetData = [
 			"Amt für Mobilität Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'http://map.geo.bs.ch/main/wsgi/file_proxy/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target = '_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
+			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/data/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target = '_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=340&cps=2614062.08,1267876.03,50000&nodefault&layers=stadtplan_grau_osm_50000,gueteklassen' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
 		]
 	},
@@ -525,7 +525,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Beschäftigte"
 		],
-		"stufe1": "Siedlung - Wirtschaft",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
@@ -567,7 +567,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Gebäude"
 		],
-		"stufe1": "Siedlung - Wirtschaft",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
@@ -612,7 +612,7 @@ var indikatorensetData = [
 			"Standort",
 			"Kantonsvergleich"
 		],
-		"stufe1": "Siedlung - Wirtschaft",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
 		"stufe3": "",
 		"stufe4": "",
@@ -654,7 +654,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Index"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -697,7 +697,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Lärm"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 6: Erschliessungsqualität",
 		"stufe3": "",
 		"stufe4": "",
@@ -739,7 +739,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Bevölkerung"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -782,7 +782,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Bevölkerung"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -825,7 +825,7 @@ var indikatorensetData = [
 			"Zufriedenheit",
 			"Bevölkerung"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -867,7 +867,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Gebäude"
 		],
-		"stufe1": "Siedlung - Wirtschaft",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
@@ -909,7 +909,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Bildung"
 		],
-		"stufe1": "Siedlung - Wirtschaft",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
 		"stufe3": "",
 		"stufe4": "",
@@ -951,7 +951,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Haushalt"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -995,7 +995,7 @@ var indikatorensetData = [
 			"Arbeit",
 			"Angestellte"
 		],
-		"stufe1": "Siedlung - Wirtschaft",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
