@@ -1,8 +1,7 @@
 /*
 global $
-
+global dataLayer
 global Highcharts
-
 global indikatoren
 global templatesById
 */
@@ -237,6 +236,8 @@ function getChartUrls(id){
 
 //construct urls by chart id and render to designated div
 function lazyRenderChartById(id, chartMetaData, view, suppressNumberInTitle, callbackFn){
+  //fire GTM event
+  dataLayer.push({'event': 'LazyRenderChart', 'chartId': id, 'view': view});
   var container = $(escapeCssChars('#container-' + id));
   //check if a highcharts-container below the container is already present. 
   //no highcharts container yet: load data and draw chart. 
