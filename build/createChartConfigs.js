@@ -113,25 +113,30 @@ function saveChartConfig(indikator, view, console){
         }  
     });
 
-    var csv = (fs.readFileSync('data/' + indikator.id + '.tsv', 'utf8'));
+    try{
+        var csv = (fs.readFileSync('data/' + indikator.id + '.tsv', 'utf8'));
+        var result = execute('charts/templates/' + indikator.id + '.js', {Highcharts: Highcharts, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, console: console});
+        var options = (result.result || {} );
     
-    var result = execute('charts/templates/' + indikator.id + '.js', {Highcharts: Highcharts, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, console: console});
-    var options = (result.result || {} );
-
-    //disable animations and prevent exceptions
-    options.chart = (options.chart || {});
-    //forExport = true  -- crashes highcharts export server for chart 4741
-    //options.chart.forExport = true;
+        //disable animations and prevent exceptions
+        options.chart = (options.chart || {});
+        //forExport = true  -- crashes highcharts export server for chart 4741
+        //options.chart.forExport = true;
+        
+        result = execute('charts/templates/' + indikator.template + '.js', {Highcharts: Highcharts, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056,  console: console});
+        var template = result.result;
     
-    result = execute('charts/templates/' + indikator.template + '.js', {Highcharts: Highcharts, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056,  console: console});
-    var template = result.result;
-
-    var ctx = execute("assets/js/indikatoren-highcharts.js", {Highcharts: Highcharts, chartOptions: {}, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, console: console}).context;
-
-    ctx.createChartConfig(csv, options, template, indikator, view, true, function(options){
-        var stringifiedOptions = serialize(options, {space: 2});
-        var filePath = 'charts/configs/' + view + '/';
-        //var filePath = (isIndikatorensetView(view)) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
-        fs.writeFileSync(filePath + indikator.id + '.json', stringifiedOptions);
-    });
+        var ctx = execute("assets/js/indikatoren-highcharts.js", {Highcharts: Highcharts, chartOptions: {},  geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, console: console}).context;
+    
+        ctx.createChartConfig(csv, options, template, indikator, view, true, function(options){
+            var stringifiedOptions = serialize(options, {space: 2});
+            var filePath = 'charts/configs/' + view + '/';
+            //var filePath = (isIndikatorensetView(view)) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
+            fs.writeFileSync(filePath + indikator.id + '.json', stringifiedOptions);
+        });
+        
+    }
+    catch(error){
+        console.log('Exception when creating config for ' + indikator.id + ': ' + error);
+    }
 }

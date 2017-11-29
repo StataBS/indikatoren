@@ -1,0 +1,116 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 208">
+  <desc>
+    Created with Highstock 5.0.14
+  </desc>
+  <defs>
+    <clipPath>
+      <rect x="0" y="0" width="279" height="108" fill="none"/>
+    </clipPath>
+    <clipPath id="a">
+      <rect x="0" y="0" width="279" height="108" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="320" height="208" rx="0" ry="0"/>
+  <rect fill="none" class="highcharts-plot-background" x="38" y="71" width="279" height="108"/>
+  <g class="highcharts-pane-group"/>
+  <g class="highcharts-grid highcharts-xaxis-grid ">
+    <path fill="none" class="highcharts-grid-line" d="M 94.5 71 L 94.5 179" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 204.5 71 L 204.5 179" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 313.5 71 L 313.5 179" opacity="1"/>
+  </g>
+  <g class="highcharts-grid highcharts-yaxis-grid ">
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 38 179.25 L 317 179.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 38 152.25 L 317 152.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 38 125.25 L 317 125.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 38 98.25 L 317 98.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 38 70.75 L 317 70.75" opacity="1"/>
+  </g>
+  <rect fill="none" class="highcharts-plot-border" x="38" y="71" width="279" height="108"/>
+  <g class="highcharts-axis highcharts-xaxis ">
+    <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width="0.5" d="M 38 179.25 L 317 179.25"/>
+  </g>
+  <g class="highcharts-axis highcharts-yaxis ">
+    <path fill="none" class="highcharts-axis-line" d="M 38 71 L 38 179"/>
+  </g>
+  <g class="highcharts-series-group">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(38,71) scale(1 1)" clip-path="url(#a)">
+      <path fill="none" d="M 2.7352941176446 99.9 L 57.441176470587 97.875 L 112.14705882353 96.525 L 166.85294117647 95.175 L 221.55882352941 94.5 L 276.26470588236 93.15" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(38,71) scale(1 1)" clip-path="none">
+      <path fill="#008AC3" d="M 6 100 A 4 4 0 1 1 5.999998000000167 99.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#008AC3" d="M 61 98 A 4 4 0 1 1 60.99999800000017 97.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#008AC3" d="M 116 97 A 4 4 0 1 1 115.99999800000016 96.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#008AC3" d="M 170 95 A 4 4 0 1 1 169.99999800000018 94.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#008AC3" d="M 225 95 A 4 4 0 1 1 224.99999800000018 94.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#008AC3" d="M 280 93 A 4 4 0 1 1 279.9999980000002 92.99600000066667 Z" class="highcharts-point"/>
+    </g>
+    <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(38,71) scale(1 1)" clip-path="url(#a)">
+      <path fill="none" d="M 2.7352941176446 12.825000000000003 L 57.441176470587 12.150000000000006 L 112.14705882353 12.150000000000006 L 166.85294117647 12.150000000000006 L 221.55882352941 13.5 L 276.26470588236 10.125" class="highcharts-graph" stroke="#007A2F" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(38,71) scale(1 1)" clip-path="none">
+      <path fill="#007A2F" d="M 6 13 A 4 4 0 1 1 5.999998000000167 12.996000000666664 Z" class="highcharts-point"/>
+      <path fill="#007A2F" d="M 61 12 A 4 4 0 1 1 60.99999800000017 11.996000000666664 Z" class="highcharts-point"/>
+      <path fill="#007A2F" d="M 116 12 A 4 4 0 1 1 115.99999800000016 11.996000000666664 Z" class="highcharts-point"/>
+      <path fill="#007A2F" d="M 170 12 A 4 4 0 1 1 169.99999800000018 11.996000000666664 Z" class="highcharts-point"/>
+      <path fill="#007A2F" d="M 225 14 A 4 4 0 1 1 224.99999800000018 13.996000000666664 Z" class="highcharts-point"/>
+      <path fill="#007A2F" d="M 280 10 A 4 4 0 1 1 279.9999980000002 9.996000000666664 Z" class="highcharts-point"/>
+    </g>
+  </g>
+  <text x="3" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:10px;font-weight:bold;fill:#000000;" y="14">
+    <tspan>Anteil Haushalte mit FAMI resp. reiner</tspan><tspan dy="13" x="3">Prämienverbilligung</tspan><title>Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung</title>
+  </text>
+  <g class="highcharts-legend" transform="translate(30,7)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="496" height="52" visibility="visible"/>
+    <g>
+      <g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0" transform="translate(8,8)">
+          <path fill="none" d="M 0 10 L 16 10" class="highcharts-graph" stroke="#008AC3" stroke-width="2"/>
+          <path fill="#008AC3" d="M 12 10 A 4 4 0 1 1 11.999998000000167 9.996000000666664 Z" class="highcharts-point"/>
+          <text x="21" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="13">
+            <tspan>FAMI</tspan>
+          </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(8,26)">
+          <path fill="none" d="M 0 10 L 16 10" class="highcharts-graph" stroke="#007A2F" stroke-width="2"/>
+          <path fill="#007A2F" d="M 12 10 A 4 4 0 1 1 11.999998000000167 9.996000000666664 Z" class="highcharts-point"/>
+          <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>Prämienverbilligung</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="highcharts-axis-labels highcharts-xaxis-labels ">
+    <text x="95.44117647058678" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
+      <tspan>2012</tspan>
+    </text>
+    <text x="204.8529411764711" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
+      <tspan>2014</tspan>
+    </text>
+    <text x="305.90625" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
+      <tspan>2016</tspan>
+    </text>
+  </g>
+  <g class="highcharts-axis-labels highcharts-yaxis-labels ">
+    <text x="23" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="185" opacity="1">
+      <tspan>0%</tspan>
+    </text>
+    <text x="23" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="158" opacity="1">
+      <tspan>4%</tspan>
+    </text>
+    <text x="23" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="131" opacity="1">
+      <tspan>8%</tspan>
+    </text>
+    <text x="23" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="104" opacity="1">
+      <tspan>12%</tspan>
+    </text>
+    <text x="23" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="77" opacity="1">
+      <tspan>16%</tspan>
+    </text>
+  </g>
+  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="183">
+    <tspan>Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;</tspan><tspan x="10" dy="13">Basler Informationssystem Sozialleistungen (BISS)</tspan>
+  </text>
+</svg>

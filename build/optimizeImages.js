@@ -20,7 +20,9 @@ filePaths.forEach(filePath => {
     
     fs.readFile(filePath, 'utf8', function(err, data) {
         if (err) {
-            throw err;
+            console.log('Exception reading ' + filePath);
+            return;
+            //throw err;
         }
     
         svgo = new SVGO({

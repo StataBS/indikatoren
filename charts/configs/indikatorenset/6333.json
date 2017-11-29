@@ -1,0 +1,389 @@
+{
+  "series": [
+    {
+      "color": "#ff8028",
+      "index": 1,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2006,
+          80409
+        ],
+        [
+          2007,
+          80409
+        ],
+        [
+          2008,
+          78626
+        ],
+        [
+          2009,
+          76170
+        ],
+        [
+          2010,
+          76170
+        ],
+        [
+          2011,
+          73668
+        ],
+        [
+          2012,
+          72390
+        ],
+        [
+          2013,
+          71120
+        ],
+        [
+          2014,
+          71120
+        ],
+        [
+          2015,
+          71120
+        ],
+        [
+          2016,
+          71120
+        ]
+      ],
+      "name": "Basel"
+    },
+    {
+      "color": "#007a2f",
+      "index": 2,
+      "data": [
+        [
+          2006,
+          59298
+        ],
+        [
+          2007,
+          59298
+        ],
+        [
+          2008,
+          58248
+        ],
+        [
+          2009,
+          59298
+        ],
+        [
+          2010,
+          59230
+        ],
+        [
+          2011,
+          56863
+        ],
+        [
+          2012,
+          56863
+        ],
+        [
+          2013,
+          56863
+        ],
+        [
+          2014,
+          56863
+        ],
+        [
+          2015,
+          56863
+        ],
+        [
+          2016,
+          56863
+        ]
+      ],
+      "name": "Bern"
+    },
+    {
+      "color": "#672773",
+      "index": 3,
+      "data": [
+        [
+          2006,
+          77802
+        ],
+        [
+          2007,
+          77802
+        ],
+        [
+          2008,
+          77826
+        ],
+        [
+          2009,
+          72529
+        ],
+        [
+          2010,
+          72499
+        ],
+        [
+          2011,
+          72262
+        ],
+        [
+          2012,
+          72262
+        ],
+        [
+          2013,
+          72262
+        ],
+        [
+          2014,
+          72262
+        ],
+        [
+          2015,
+          72194
+        ],
+        [
+          2016,
+          72194
+        ]
+      ],
+      "name": "Genf"
+    },
+    {
+      "color": "#b00000",
+      "index": 4,
+      "data": [
+        [
+          2006,
+          73326
+        ],
+        [
+          2007,
+          73326
+        ],
+        [
+          2008,
+          63660
+        ],
+        [
+          2009,
+          58240
+        ],
+        [
+          2010,
+          50407
+        ],
+        [
+          2011,
+          55133
+        ],
+        [
+          2012,
+          55133
+        ],
+        [
+          2013,
+          55133
+        ],
+        [
+          2014,
+          55133
+        ],
+        [
+          2015,
+          55133
+        ],
+        [
+          2016,
+          55133
+        ]
+      ],
+      "name": "Liestal"
+    },
+    {
+      "color": "#a0bec8",
+      "index": 5,
+      "data": [
+        [
+          2006,
+          61525
+        ],
+        [
+          2007,
+          61527
+        ],
+        [
+          2008,
+          60844
+        ],
+        [
+          2009,
+          60844
+        ],
+        [
+          2010,
+          60844
+        ],
+        [
+          2011,
+          60846
+        ],
+        [
+          2012,
+          60864
+        ],
+        [
+          2013,
+          60724
+        ],
+        [
+          2014,
+          60724
+        ],
+        [
+          2015,
+          60724
+        ],
+        [
+          2016,
+          60722
+        ]
+      ],
+      "name": "Zürich"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 208,
+    "spacing": [
+      7,
+      3,
+      8,
+      3
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6333"
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 400 000 Fr.",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 2
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Eidgenössische Steuerverwaltung"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.04.1.06201"
+  }
+}

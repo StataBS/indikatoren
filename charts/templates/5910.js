@@ -31,7 +31,7 @@
                 distance: -65,
                 format: "{point.percentage:,.0f}%",
                 formatter: function(){
-                    console.log(this);
+                    //console.log(this);
                     return /*this.series.name; + ":<br/>" + */this.point.percentage;
                 },
                 style: {

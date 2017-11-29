@@ -1,0 +1,396 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "visible": true,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2006,
+          1080
+        ],
+        [
+          2007,
+          1143
+        ],
+        [
+          2008,
+          1241
+        ],
+        [
+          2009,
+          1247
+        ],
+        [
+          2010,
+          1294
+        ],
+        [
+          2011,
+          1378
+        ],
+        [
+          2012,
+          1409
+        ],
+        [
+          2013,
+          1409
+        ],
+        [
+          2014,
+          1555
+        ],
+        [
+          2015,
+          1586
+        ],
+        [
+          2016,
+          1656
+        ]
+      ],
+      "name": "Subventionierte Tagesheime"
+    },
+    {
+      "color": "#4f81bd",
+      "visible": true,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2006,
+          542
+        ],
+        [
+          2007,
+          602
+        ],
+        [
+          2008,
+          662
+        ],
+        [
+          2009,
+          722
+        ],
+        [
+          2010,
+          1147
+        ],
+        [
+          2011,
+          1339
+        ],
+        [
+          2012,
+          1443
+        ],
+        [
+          2013,
+          1528
+        ],
+        [
+          2014,
+          1705
+        ],
+        [
+          2015,
+          1822
+        ],
+        [
+          2016,
+          1949
+        ]
+      ],
+      "name": "Nicht subventionierte Tagesheime"
+    },
+    {
+      "color": "#662673",
+      "visible": true,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2006,
+          280
+        ],
+        [
+          2007,
+          271
+        ],
+        [
+          2008,
+          262
+        ],
+        [
+          2009,
+          253
+        ],
+        [
+          2010,
+          394
+        ],
+        [
+          2011,
+          393
+        ],
+        [
+          2012,
+          516
+        ],
+        [
+          2013,
+          524
+        ],
+        [
+          2014,
+          501
+        ],
+        [
+          2015,
+          492
+        ],
+        [
+          2016,
+          466
+        ]
+      ],
+      "name": "Firmen-Tagesheime"
+    },
+    {
+      "color": "#FABD24",
+      "visible": true,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2006,
+          95
+        ],
+        [
+          2007,
+          85
+        ],
+        [
+          2008,
+          74
+        ],
+        [
+          2009,
+          94
+        ],
+        [
+          2010,
+          93
+        ],
+        [
+          2011,
+          102
+        ],
+        [
+          2012,
+          89
+        ],
+        [
+          2013,
+          99
+        ],
+        [
+          2014,
+          98
+        ],
+        [
+          2015,
+          87
+        ],
+        [
+          2016,
+          90
+        ]
+      ],
+      "name": "Tagesfamilien"
+    },
+    {
+      "color": "#3C3C3C",
+      "visible": true,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2006,
+          1997
+        ],
+        [
+          2007,
+          2101
+        ],
+        [
+          2008,
+          2239
+        ],
+        [
+          2009,
+          2316
+        ],
+        [
+          2010,
+          2928
+        ],
+        [
+          2011,
+          3212
+        ],
+        [
+          2012,
+          3457
+        ],
+        [
+          2013,
+          3560
+        ],
+        [
+          2014,
+          3859
+        ],
+        [
+          2015,
+          3987
+        ],
+        [
+          2016,
+          4161
+        ]
+      ],
+      "name": "Total"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6210"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anzahl Plätze in Tagesbetreuungsangeboten"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 2
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 35,
+    "itemWidth": 200,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.13.2.06210"
+  }
+}
