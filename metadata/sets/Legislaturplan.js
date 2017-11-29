@@ -1882,7 +1882,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen",
-		"subtitle": "",
+		"subtitle": "in Tonnen",
 		"kuerzel": "I.02.5.06165",
 		"kuerzelKunde": "7.5",
 		"description": "CO<sub>2</sub>-Emissionen",
