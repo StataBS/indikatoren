@@ -1,0 +1,356 @@
+{
+  "series": [
+    {
+      "color": "#d7e9d2",
+      "index": 0,
+      "legendIndex": 0,
+      "data": [
+        [
+          "2006",
+          498
+        ],
+        [
+          "2007",
+          452
+        ],
+        [
+          "2008",
+          460
+        ],
+        [
+          "2009",
+          516
+        ],
+        [
+          "2010",
+          474
+        ],
+        [
+          "2011",
+          501
+        ],
+        [
+          "2012",
+          485
+        ],
+        [
+          "2013",
+          534
+        ],
+        [
+          "2014",
+          462
+        ],
+        [
+          "2015",
+          527
+        ],
+        [
+          "2016",
+          371
+        ]
+      ],
+      "name": "Bis 3 Monate",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73ba7c",
+      "index": 1,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2006",
+          1049
+        ],
+        [
+          "2007",
+          862
+        ],
+        [
+          "2008",
+          818
+        ],
+        [
+          "2009",
+          943
+        ],
+        [
+          "2010",
+          913
+        ],
+        [
+          "2011",
+          1088
+        ],
+        [
+          "2012",
+          1020
+        ],
+        [
+          "2013",
+          948
+        ],
+        [
+          "2014",
+          884
+        ],
+        [
+          "2015",
+          1001
+        ],
+        [
+          "2016",
+          1118
+        ]
+      ],
+      "name": "4 bis 12 Monate",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#44ab2b",
+      "index": 2,
+      "legendIndex": 2,
+      "data": [
+        [
+          "2006",
+          1948
+        ],
+        [
+          "2007",
+          1527
+        ],
+        [
+          "2008",
+          1273
+        ],
+        [
+          "2009",
+          1235
+        ],
+        [
+          "2010",
+          1399
+        ],
+        [
+          "2011",
+          1479
+        ],
+        [
+          "2012",
+          1597
+        ],
+        [
+          "2013",
+          1573
+        ],
+        [
+          "2014",
+          1521
+        ],
+        [
+          "2015",
+          1477
+        ],
+        [
+          "2016",
+          1710
+        ]
+      ],
+      "name": "13 bis 36 Monate",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007a2f",
+      "index": 3,
+      "legendIndex": 3,
+      "data": [
+        [
+          "2006",
+          2092
+        ],
+        [
+          "2007",
+          2199
+        ],
+        [
+          "2008",
+          2158
+        ],
+        [
+          "2009",
+          2078
+        ],
+        [
+          "2010",
+          2052
+        ],
+        [
+          "2011",
+          2059
+        ],
+        [
+          "2012",
+          2164
+        ],
+        [
+          "2013",
+          2279
+        ],
+        [
+          "2014",
+          2381
+        ],
+        [
+          "2015",
+          2509
+        ],
+        [
+          "2016",
+          2840
+        ]
+      ],
+      "name": "Über 36 Monate",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "renderTo": "container-6183",
+    "marginBottom": 75,
+    "type": "column",
+    "inverted": false
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 100,
+      "pointWidth": 30,
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Zahlfälle der Sozialhilfe nach Bezugsdauer"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003EDepartement für Wirtschaft, Soziales und Umwelt"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "y": 20,
+    "width": 200,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
+    "shared": true
+  },
+  "exporting": {
+    "filename": "I.13.2.06183"
+  }
+}

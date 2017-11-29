@@ -1,0 +1,503 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "legendIndex": 1,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2000,
+          107.5853
+        ],
+        [
+          2002,
+          106.8432
+        ],
+        [
+          2003,
+          104.8577
+        ],
+        [
+          2004,
+          106.5483
+        ],
+        [
+          2006,
+          106.6269
+        ],
+        [
+          2008,
+          107.2311
+        ],
+        [
+          2010,
+          107.8557
+        ],
+        [
+          2012,
+          108.5761
+        ],
+        [
+          2014,
+          107.9746
+        ]
+      ],
+      "name": "BS global"
+    },
+    {
+      "color": "#007A2F",
+      "legendIndex": 3,
+      "visible": true,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2000,
+          105.1817
+        ],
+        [
+          2002,
+          103.9817
+        ],
+        [
+          2003,
+          101.9157
+        ],
+        [
+          2004,
+          103.7479
+        ],
+        [
+          2006,
+          104.3733
+        ],
+        [
+          2008,
+          105.5164
+        ],
+        [
+          2010,
+          106.3234
+        ],
+        [
+          2012,
+          106.9653
+        ],
+        [
+          2014,
+          106.1885
+        ]
+      ],
+      "name": "BE global"
+    },
+    {
+      "color": "#4f81bd",
+      "legendIndex": 5,
+      "visible": true,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2000,
+          106.9877
+        ],
+        [
+          2002,
+          106.5614
+        ],
+        [
+          2003,
+          105.4989
+        ],
+        [
+          2004,
+          107.8142
+        ],
+        [
+          2006,
+          107.7053
+        ],
+        [
+          2008,
+          107.2748
+        ],
+        [
+          2010,
+          107.9276
+        ],
+        [
+          2012,
+          108.3006
+        ],
+        [
+          2014,
+          108.4709
+        ]
+      ],
+      "name": "GE global"
+    },
+    {
+      "color": "#2B0099",
+      "legendIndex": 7,
+      "visible": true,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2000,
+          113.6136
+        ],
+        [
+          2002,
+          112.5612
+        ],
+        [
+          2003,
+          110.1057
+        ],
+        [
+          2004,
+          112.066
+        ],
+        [
+          2006,
+          111.3452
+        ],
+        [
+          2008,
+          111.4037
+        ],
+        [
+          2010,
+          112.5485
+        ],
+        [
+          2012,
+          113.3995
+        ],
+        [
+          2014,
+          112.5891
+        ]
+      ],
+      "name": "ZH global"
+    },
+    {
+      "color": "#E64900",
+      "visible": false,
+      "legendIndex": 2,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2000,
+          126.6112
+        ],
+        [
+          2002,
+          124.9015
+        ],
+        [
+          2003,
+          117.8925
+        ],
+        [
+          2004,
+          119.0159
+        ],
+        [
+          2006,
+          117.1611
+        ],
+        [
+          2008,
+          135.3056
+        ],
+        [
+          2010,
+          135.9693
+        ],
+        [
+          2012,
+          135.2396
+        ],
+        [
+          2014,
+          134.6885
+        ]
+      ],
+      "name": "BS kontinental"
+    },
+    {
+      "color": "#68AB2B",
+      "legendIndex": 4,
+      "visible": false,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2000,
+          108.4681
+        ],
+        [
+          2002,
+          104.3611
+        ],
+        [
+          2003,
+          100.2264
+        ],
+        [
+          2004,
+          101.1864
+        ],
+        [
+          2006,
+          104.8436
+        ],
+        [
+          2008,
+          119.6274
+        ],
+        [
+          2010,
+          121.6514
+        ],
+        [
+          2012,
+          124.955
+        ],
+        [
+          2014,
+          120.8834
+        ]
+      ],
+      "name": "BE kontinental"
+    },
+    {
+      "color": "#008AC3",
+      "legendIndex": 6,
+      "visible": false,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2000,
+          124.9565
+        ],
+        [
+          2002,
+          127.3041
+        ],
+        [
+          2003,
+          123.2102
+        ],
+        [
+          2004,
+          122.5876
+        ],
+        [
+          2006,
+          122.2398
+        ],
+        [
+          2008,
+          136.8721
+        ],
+        [
+          2010,
+          135.9837
+        ],
+        [
+          2012,
+          137.5492
+        ],
+        [
+          2014,
+          137.8176
+        ]
+      ],
+      "name": "GE kontinental"
+    },
+    {
+      "color": "#B375AB",
+      "legendIndex": 8,
+      "visible": false,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2000,
+          141.9549
+        ],
+        [
+          2002,
+          137.1414
+        ],
+        [
+          2003,
+          132.7222
+        ],
+        [
+          2004,
+          132.0871
+        ],
+        [
+          2006,
+          130.3061
+        ],
+        [
+          2008,
+          148.028
+        ],
+        [
+          2010,
+          148.6229
+        ],
+        [
+          2012,
+          148.4009
+        ],
+        [
+          2014,
+          147.5576
+        ]
+      ],
+      "name": "ZH kontinental"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-3104"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Globale und kontinentale Erreichbarkeit"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Stadt Basel im nationalen Vergleich",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 75,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "max": 150,
+    "tickInterval": 25
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 2
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: BAK Economics"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 35,
+    "itemWidth": 200,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.11.1.03104"
+  }
+}

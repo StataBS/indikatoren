@@ -75,7 +75,7 @@
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Haushalte mit Familienmietzinsbeiträgen</tspan>
   </text>
-  <g class="highcharts-legend" transform="translate(10,35)">
+  <g class="highcharts-legend" transform="translate(44,35)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="337" height="25" visibility="visible"/>
     <g>
       <g>

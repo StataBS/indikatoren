@@ -325,7 +325,12 @@ function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, stufe1,
       if(isIndikatorensetView(view) && stufe1){
         returnText += ", " + stufe1;
       }
-      returnText += ".</li>";      
+      //if do not add a dot at the ned if there's already one present
+      var lastChar = returnText[returnText.length-1];
+      if (lastChar != '.') {
+        returnText += '.';
+      }
+      returnText += "</li>";      
     }
     if (displayRenderLink) {
       if (renderLinkDisplayMode == 'slide' || renderLinkDisplayMode === undefined){

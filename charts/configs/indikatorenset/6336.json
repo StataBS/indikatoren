@@ -1,0 +1,392 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "legendIndex": 2,
+      "data": [
+        [
+          2007,
+          0.7
+        ],
+        [
+          2008,
+          0.6
+        ],
+        [
+          2009,
+          0.2
+        ],
+        [
+          2010,
+          1.2
+        ],
+        [
+          2011,
+          1
+        ],
+        [
+          2012,
+          0.6
+        ],
+        [
+          2013,
+          0.7
+        ],
+        [
+          2014,
+          1
+        ],
+        [
+          2015,
+          0.4
+        ],
+        [
+          2016,
+          1.7
+        ],
+        [
+          2017,
+          1.3
+        ]
+      ],
+      "name": "Weiterbildungsschule"
+    },
+    {
+      "color": "#662673",
+      "legendIndex": 2,
+      "data": [
+        [
+          2007,
+          3.1
+        ],
+        [
+          2008,
+          3.3
+        ],
+        [
+          2009,
+          2.8
+        ],
+        [
+          2010,
+          0
+        ],
+        [
+          2011,
+          0
+        ],
+        [
+          2012,
+          1.7
+        ],
+        [
+          2013,
+          2.6
+        ],
+        [
+          2014,
+          4.8
+        ],
+        [
+          2015,
+          3.3
+        ],
+        [
+          2016,
+          14.8
+        ],
+        [
+          2017,
+          8.7
+        ]
+      ],
+      "name": "Spezialangebote WBS"
+    },
+    {
+      "color": "#008AC3",
+      "legendIndex": 2,
+      "data": [
+        [
+          2007,
+          5.9
+        ],
+        [
+          2008,
+          5.3
+        ],
+        [
+          2009,
+          4.8
+        ],
+        [
+          2010,
+          6.3
+        ],
+        [
+          2011,
+          4.1
+        ],
+        [
+          2012,
+          8.8
+        ],
+        [
+          2013,
+          3.4
+        ],
+        [
+          2014,
+          3
+        ],
+        [
+          2015,
+          7
+        ],
+        [
+          2016,
+          7.1
+        ],
+        [
+          2017,
+          9.9
+        ]
+      ],
+      "name": "Zentrum für Brückenangebote"
+    },
+    {
+      "color": "#007A2F",
+      "legendIndex": 0,
+      "data": [
+        [
+          2007,
+          4.2
+        ],
+        [
+          2008,
+          6.3
+        ],
+        [
+          2009,
+          9.8
+        ],
+        [
+          2010,
+          4.9
+        ],
+        [
+          2011,
+          11
+        ],
+        [
+          2012,
+          7.4
+        ],
+        [
+          2013,
+          5.1
+        ],
+        [
+          2014,
+          5.5
+        ],
+        [
+          2015,
+          5.6
+        ],
+        [
+          2016,
+          13.5
+        ],
+        [
+          2017,
+          11.4
+        ]
+      ],
+      "name": "Allg. Gewerbeschule"
+    },
+    {
+      "color": "#FABD24",
+      "legendIndex": 1,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2007,
+          9.1
+        ],
+        [
+          2008,
+          4.5
+        ],
+        [
+          2009,
+          0
+        ],
+        [
+          2010,
+          12.2
+        ],
+        [
+          2011,
+          5.9
+        ],
+        [
+          2012,
+          21.2
+        ],
+        [
+          2013,
+          17.2
+        ],
+        [
+          2014,
+          6.9
+        ],
+        [
+          2015,
+          0
+        ],
+        [
+          2016,
+          15.4
+        ],
+        [
+          2017,
+          10
+        ]
+      ],
+      "name": "Berufsfachschule"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 208,
+    "spacing": [
+      7,
+      3,
+      8,
+      3
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6336"
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Schulabgängerinnen und -abgänger ohne Anschlusslösung"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "nach Schultyp",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E%\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "max": 25,
+    "tickInterval": 5
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "itemWidth": 130,
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.15.7.06206"
+  }
+}

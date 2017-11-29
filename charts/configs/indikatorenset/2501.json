@@ -1,0 +1,324 @@
+{
+  "series": [
+    {
+      "color": "#8a8a8a",
+      "data": [
+        [
+          "Life Sciences",
+          3.63887984369913
+        ],
+        [
+          "Herst. von chem. Erzeugn.",
+          0.102997219075074
+        ],
+        [
+          "Baugewerbe",
+          0.686219214138006
+        ],
+        [
+          "Handel und Garagengewerbe",
+          1.10245865780032
+        ],
+        [
+          "Verkehr und Lagerei",
+          0.577344216603626
+        ],
+        [
+          "Gastgewerbe",
+          -0.612758507495348
+        ],
+        [
+          "Finanz- u. Versicherungsdl.",
+          0.701594533029604
+        ],
+        [
+          "Freiberufl. u. wiss. Dienstl.",
+          1.39487932458475
+        ],
+        [
+          "Sonstige wirtschaftl. Dienstl.",
+          1.53972153972155
+        ],
+        [
+          "Verwaltung",
+          1.35503905147267
+        ],
+        [
+          "Gesundheits- u. Sozialwesen",
+          3.43120518948448
+        ]
+      ],
+      "name": "Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "data": [
+        [
+          "Life Sciences",
+          4.27046263345197
+        ],
+        [
+          "Herst. von chem. Erzeugn.",
+          -8.45070422535211
+        ],
+        [
+          "Baugewerbe",
+          0.999159585395448
+        ],
+        [
+          "Handel und Garagengewerbe",
+          0.859829825347069
+        ],
+        [
+          "Verkehr und Lagerei",
+          0.86372360844531
+        ],
+        [
+          "Gastgewerbe",
+          -0.540441513236245
+        ],
+        [
+          "Finanz- u. Versicherungsdl.",
+          1.64090988018752
+        ],
+        [
+          "Freiberufl. u. wiss. Dienstl.",
+          3.28856328856328
+        ],
+        [
+          "Sonstige wirtschaftl. Dienstl.",
+          1.90273172272224
+        ],
+        [
+          "Verwaltung",
+          0.630346690679873
+        ],
+        [
+          "Gesundheits- u. Sozialwesen",
+          2.52416756176155
+        ]
+      ],
+      "name": "Basel-Stadt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#256370",
+      "visible": false,
+      "data": [
+        [
+          "Life Sciences",
+          3.63717010423596
+        ],
+        [
+          "Herst. von chem. Erzeugn.",
+          2.93353539727215
+        ],
+        [
+          "Baugewerbe",
+          0.349525004481088
+        ],
+        [
+          "Handel und Garagengewerbe",
+          1.59284843559528
+        ],
+        [
+          "Verkehr und Lagerei",
+          0.92389315770216
+        ],
+        [
+          "Gastgewerbe",
+          -1.64912661386568
+        ],
+        [
+          "Finanz- u. Versicherungsdl.",
+          0.0309501702259185
+        ],
+        [
+          "Freiberufl. u. wiss. Dienstl.",
+          0.873269435569757
+        ],
+        [
+          "Sonstige wirtschaftl. Dienstl.",
+          1.34592877445243
+        ],
+        [
+          "Verwaltung",
+          1.29189290395058
+        ],
+        [
+          "Gesundheits- u. Sozialwesen",
+          3.24840206636898
+        ]
+      ],
+      "name": "Genf",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#71a3b5",
+      "visible": false,
+      "data": [
+        [
+          "Life Sciences",
+          0.982620811028823
+        ],
+        [
+          "Herst. von chem. Erzeugn.",
+          -4.63070891173043
+        ],
+        [
+          "Baugewerbe",
+          0.841461082424932
+        ],
+        [
+          "Handel und Garagengewerbe",
+          0.770500825536602
+        ],
+        [
+          "Verkehr und Lagerei",
+          0.633817215293409
+        ],
+        [
+          "Gastgewerbe",
+          0.763682647433184
+        ],
+        [
+          "Finanz- u. Versicherungsdl.",
+          0.101663585951939
+        ],
+        [
+          "Freiberufl. u. wiss. Dienstl.",
+          0.972992634354841
+        ],
+        [
+          "Sonstige wirtschaftl. Dienstl.",
+          1.28063777457383
+        ],
+        [
+          "Verwaltung",
+          2.64545370456017
+        ],
+        [
+          "Gesundheits- u. Sozialwesen",
+          3.47325102880658
+        ]
+      ],
+      "name": "Zürich",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-2501"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt im nationalen Vergleich, Stand: 2016",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": null,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    }
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: BAK Economics"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 60,
+    "itemWidth": 150,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "exporting": {
+    "filename": "I.04.1.02501"
+  }
+}

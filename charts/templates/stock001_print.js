@@ -5,9 +5,9 @@
         "chart": {
             "borderColor": "#fbfbfb",
             "backgroundColor": "#fbfbfb",
-            "width": 485,
-            "height": 415,        
-            "spacingBottom": 60,
+            "width": 320,
+            "height": 208,        
+            //spacing: [3,0,3,2],
             "style": {
                 "fontFamily": "Arial"
             },
@@ -102,14 +102,16 @@
             "symbolRadius": 0
         }, 
         "rangeSelector": {
+            //floating: false,
+            verticalAlign: 'bottom',
             buttonPosition: {
                 x: 10,
-                y: 365
+                //y: 100
             }
         },
         navigator: {
             margin: 10, 
-            height: 30,
+            height: 20,
             series: {
                 includeInCSVExport: false
             },
@@ -121,6 +123,7 @@
             }
         },
         exporting: {
+            enabled: false,
             csv: {
                 dateFormat: '%d.%m.%Y'
             }

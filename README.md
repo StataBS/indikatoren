@@ -10,6 +10,7 @@ npm run start-export-server
 - In Chrome, open print.html?Indikatorenset=indikatorensetname 
 - Chrome will download a png file of each chart in the given Indikatorenset to the local downloads directory. You can then manually move them to their target folder. 
 - To preview single charts in print view, use chart.html with the url parameter "view=print", e.g. chart.html?view=print&id=5824. 
+- To download a single chart as png, use chart.html?thumbnailOfflineExporting=false&thumbnailType=png&view=print&exportServer=https://[c9-workspace-url]:8081&id=[chart-id]
 - At the end of the export session, it's best to stop the export server again: 
 ```javascript
 npm run stop-export-server
@@ -68,6 +69,17 @@ npm run build
 ```javascript
 npm run build
 ``` 
+
+### Create Kennzahlensets for Print: Copy Data and Chart Configurations
+- If a new kennzahlenset is created for print, it can be initialized with data and chart configurations of their respective parent kennzahlenset. 
+- To do this, first upload the metadata files to metadata/single. 
+- Then run 
+```javascript
+npm run build:init_print_charts
+```
+- This will check each metadata file for matching data/[id].tsv and charts/templates/[id].js. If tsv or js file is missing, it will be copied from the parent chart's file. 
+- This is an excellent starting point to refine charts for printing. 
+
 
 ### Build Application Locally  
 To build the application,  create the json config files and the svg images of the charts that have changed since the last build: 

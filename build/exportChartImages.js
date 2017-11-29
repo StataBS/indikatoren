@@ -44,7 +44,9 @@ function go(){
         console.log('Creating array entries for indikatorensetView=' + view);
         var files = JSON.parse(fs.readFileSync('tmp/chartsToBuild.json'));
         files.forEach(function(chartId) {
-            chartDetails.push(createPathArray(chartId, view));
+            var pathArray = createPathArray(chartId, view);
+            //only add if not null
+            if (pathArray) {chartDetails.push(pathArray)}
         });
     });
     
@@ -64,16 +66,21 @@ function createPathArray(chartId, view){
     var infilePath = path.join(__dirname, '../' + configPath + chartId + '.json');
     var outfilePath = path.join(__dirname, '../' + imagePath + chartId + '.svg');
     
-    var configFile = fs.readFileSync(infilePath, 'utf8');
-    var config = deserialize(configFile);
-    //decide if stockchart, map, or chart
-    var constr = config.isStock ? 'StockChart': (config.chart.type === 'map' ? 'Map' : 'Chart');
-    return {
-        config: config, 
-        infilePath: infilePath, 
-        outfilePath: outfilePath,
-        constr: constr
-    };
+    try{
+        var configFile = fs.readFileSync(infilePath, 'utf8');
+        var config = deserialize(configFile);
+        //decide if stockchart, map, or chart
+        var constr = config.isStock ? 'StockChart': (config.chart.type === 'map' ? 'Map' : 'Chart');
+        return {
+            config: config, 
+            infilePath: infilePath, 
+            outfilePath: outfilePath,
+            constr: constr
+        };
+    }
+    catch(err){
+        console.log('Exception when reading json file ' + infilePath + ': ' + err);
+    }
 }
 
 
