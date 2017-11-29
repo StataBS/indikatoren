@@ -1,0 +1,622 @@
+{
+  "series": [
+    {
+      "color": "#b475ab",
+      "index": 3,
+      "type": "column",
+      "legendIndex": 3,
+      "data": [
+        [
+          "2008 BS",
+          27758
+        ],
+        [
+          "2008 Nicht-BS",
+          27123
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2009 BS",
+          27980
+        ],
+        [
+          "2009 Nicht-BS",
+          27676
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2010 BS",
+          28454
+        ],
+        [
+          "2010 Nicht-BS",
+          28396
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011 BS",
+          28711
+        ],
+        [
+          "2011 Nicht-BS",
+          29034
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2012 BS",
+          28563
+        ],
+        [
+          "2012 Nicht-BS",
+          30140
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2013 BS",
+          29061
+        ],
+        [
+          "2013 Nicht-BS",
+          31990
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2014 BS",
+          29410
+        ],
+        [
+          "2014 Nicht-BS",
+          33549
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2015 BS",
+          29401
+        ],
+        [
+          "2015 Nicht-BS",
+          34347
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2016 BS",
+          29866
+        ],
+        [
+          "2016 Nicht-BS",
+          36999
+        ]
+      ],
+      "name": "Akutsomatik",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#a8c4cb",
+      "index": 2,
+      "type": "column",
+      "legendIndex": 2,
+      "data": [
+        [
+          "2008 BS",
+          3629
+        ],
+        [
+          "2008 Nicht-BS",
+          182
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2009 BS",
+          3645
+        ],
+        [
+          "2009 Nicht-BS",
+          224
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2010 BS",
+          3991
+        ],
+        [
+          "2010 Nicht-BS",
+          307
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011 BS",
+          4327
+        ],
+        [
+          "2011 Nicht-BS",
+          447
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2012 BS",
+          4383
+        ],
+        [
+          "2012 Nicht-BS",
+          542
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2013 BS",
+          4266
+        ],
+        [
+          "2013 Nicht-BS",
+          688
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2014 BS",
+          4202
+        ],
+        [
+          "2014 Nicht-BS",
+          814
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2015 BS",
+          4009
+        ],
+        [
+          "2015 Nicht-BS",
+          857
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2016 BS",
+          3891
+        ],
+        [
+          "2016 Nicht-BS",
+          927
+        ]
+      ],
+      "name": "Geriatrie",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fabd24",
+      "index": 1,
+      "type": "column",
+      "legendIndex": 1,
+      "data": [
+        [
+          "2008 BS",
+          2299
+        ],
+        [
+          "2008 Nicht-BS",
+          1333
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2009 BS",
+          2462
+        ],
+        [
+          "2009 Nicht-BS",
+          1360
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2010 BS",
+          2084
+        ],
+        [
+          "2010 Nicht-BS",
+          1580
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011 BS",
+          2852
+        ],
+        [
+          "2011 Nicht-BS",
+          835
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2012 BS",
+          2800
+        ],
+        [
+          "2012 Nicht-BS",
+          894
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2013 BS",
+          2826
+        ],
+        [
+          "2013 Nicht-BS",
+          920
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2014 BS",
+          2644
+        ],
+        [
+          "2014 Nicht-BS",
+          923
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2015 BS",
+          2689
+        ],
+        [
+          "2015 Nicht-BS",
+          1012
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2016 BS",
+          2760
+        ],
+        [
+          "2016 Nicht-BS",
+          1023
+        ]
+      ],
+      "name": "Psychiatrie",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "index": 0,
+      "type": "column",
+      "legendIndex": 0,
+      "data": [
+        [
+          "2008 BS",
+          1409
+        ],
+        [
+          "2008 Nicht-BS",
+          1107
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2009 BS",
+          1329
+        ],
+        [
+          "2009 Nicht-BS",
+          1154
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2010 BS",
+          1334
+        ],
+        [
+          "2010 Nicht-BS",
+          1159
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011 BS",
+          1268
+        ],
+        [
+          "2011 Nicht-BS",
+          1179
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2012 BS",
+          1702
+        ],
+        [
+          "2012 Nicht-BS",
+          1249
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2013 BS",
+          1873
+        ],
+        [
+          "2013 Nicht-BS",
+          1218
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2014 BS",
+          1970
+        ],
+        [
+          "2014 Nicht-BS",
+          1356
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2015 BS",
+          2050
+        ],
+        [
+          "2015 Nicht-BS",
+          1456
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2016 BS",
+          2068
+        ],
+        [
+          "2016 Nicht-BS",
+          1532
+        ]
+      ],
+      "name": "Rehabilitation",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "step": 1,
+      "rotation": -90,
+      "overflow": "justify",
+      "formatter": function (){
+           return this.value.split(" ").reverse().join(" ");
+         }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 320,
+    "height": 208,
+    "spacing": [
+      7,
+      3,
+      8,
+      3
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {};
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                          }
+                        }
+                      );
+                    }              
+                    
+                }
+    },
+    "inverted": false,
+    "renderTo": "container-6322"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      },
+      "stacking": "normal",
+      "groupPadding": 0
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Stationäre Fälle in Basler Spitälern"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Nach Hauptbereich und Wohnort",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "max": 42000,
+    "tickInterval": 10500
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "itemWidth": 120,
+    "margin": 2,
+    "padding": 2
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": 10
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "I.14.1.06175"
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "series": [
+    {
+      "color": "#ffbb58",
+      "visible": false,
+      "data": [
+        [
+          "Schweiz",
+          90.56603774
+        ],
+        [
+          "Ausland",
+          91.53439153
+        ],
+        [
+          "18-29 J.",
+          77.31958763
+        ],
+        [
+          "30-39 J.",
+          87.28070175
+        ],
+        [
+          "40-49 J.",
+          94.16342412
+        ],
+        [
+          "50-59 J.",
+          95.56451613
+        ],
+        [
+          "60-69 J.",
+          93.39207048
+        ],
+        [
+          "\u003E69 J.",
+          93.30708661
+        ],
+        [
+          "Männer",
+          89.70358814
+        ],
+        [
+          "Frauen",
+          91.52542373
+        ],
+        [
+          "Total",
+          90.69602273
+        ]
+      ],
+      "name": "2003",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "visible": false,
+      "data": [
+        [
+          "Schweiz",
+          90.4340836
+        ],
+        [
+          "Ausland",
+          87.43718593
+        ],
+        [
+          "18-29 J.",
+          78.60465116
+        ],
+        [
+          "30-39 J.",
+          88
+        ],
+        [
+          "40-49 J.",
+          89.08450704
+        ],
+        [
+          "50-59 J.",
+          91.37254902
+        ],
+        [
+          "60-69 J.",
+          96.05263158
+        ],
+        [
+          "\u003E69 J.",
+          96.18644068
+        ],
+        [
+          "Männer",
+          88.54166667
+        ],
+        [
+          "Frauen",
+          91.30998703
+        ],
+        [
+          "Total",
+          90.02079002
+        ]
+      ],
+      "name": "2005",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "visible": false,
+      "data": [
+        [
+          "Schweiz",
+          91.08832808
+        ],
+        [
+          "Ausland",
+          86.39053254
+        ],
+        [
+          "18-29 J.",
+          79.04761905
+        ],
+        [
+          "30-39 J.",
+          86.70520231
+        ],
+        [
+          "40-49 J.",
+          90.3930131
+        ],
+        [
+          "50-59 J.",
+          92.48120301
+        ],
+        [
+          "60-69 J.",
+          95.18072289
+        ],
+        [
+          "\u003E69 J.",
+          95.16129032
+        ],
+        [
+          "Männer",
+          89.29110106
+        ],
+        [
+          "Frauen",
+          91.60206718
+        ],
+        [
+          "Total",
+          90.53583855
+        ]
+      ],
+      "name": "2007",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#661200",
+      "visible": false,
+      "data": [
+        [
+          "Schweiz",
+          93.23248408
+        ],
+        [
+          "Ausland",
+          91.82692308
+        ],
+        [
+          "18-29 J.",
+          87.5
+        ],
+        [
+          "30-39 J.",
+          85.62874251
+        ],
+        [
+          "40-49 J.",
+          94.01709402
+        ],
+        [
+          "50-59 J.",
+          94.31818182
+        ],
+        [
+          "60-69 J.",
+          94.57364341
+        ],
+        [
+          "\u003E69 J.",
+          96.43835616
+        ],
+        [
+          "Männer",
+          91.28440367
+        ],
+        [
+          "Frauen",
+          94.44444444
+        ],
+        [
+          "Total",
+          93.03278689
+        ]
+      ],
+      "name": "2011",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#953735",
+      "visible": true,
+      "data": [
+        [
+          "Schweiz",
+          94.88409273
+        ],
+        [
+          "Ausland",
+          93.41317365
+        ],
+        [
+          "18-29 J.",
+          88.04347826
+        ],
+        [
+          "30-39 J.",
+          90.43478261
+        ],
+        [
+          "40-49 J.",
+          93.06358382
+        ],
+        [
+          "50-59 J.",
+          92.7756654
+        ],
+        [
+          "60-69 J.",
+          96.81528662
+        ],
+        [
+          "\u003E69 J.",
+          97.39696312
+        ],
+        [
+          "Männer",
+          93.80804954
+        ],
+        [
+          "Frauen",
+          95.46632124
+        ],
+        [
+          "Total",
+          94.71086037
+        ]
+      ],
+      "name": "2015",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": -90
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-2953"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "«Wie zufrieden sind Sie mit dem Kulturangebot?»",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "max": 100
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_12"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "y": 65,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "labelFormatter": function () {
+            return this.name;
+        },
+  "exporting": {
+    "filename": "I.50.1.2953"
+  }
+}
