@@ -1,7 +1,7 @@
 var fs = require("fs");
 var glob = require("glob");
-var indikatoren = [];
-var indikatorenInSet = [];
+var indikatorenInPortal = [];
+var allIndikatoren = [];
 var kuerzelById = {};
 var idByKuerzel = {};
 var templatesById = {};
@@ -15,22 +15,30 @@ files.forEach(function(filepath){
     fs.writeFileSync(filepath, fileContentsStripped);
     var indikator = JSON.parse(fileContentsStripped);
     if (indikator.visible == undefined || indikator.visible == true) {
-        console.log(filepath + ' is visible, proceeding with adding...');
+        console.log(filepath + ' is visible, adding to all/indikatoren.json...');
+        //clean up: if visible == false, chart will not be included in all/indikatoren.json, thus property not needed anymore. visibleInPortal is calculated later on.
+        delete indikator.visibleInPortal;
+        delete indikator.visible;
+        delete indikator.option;
+        
+        allIndikatoren.push(indikator);
+        /*
         if (indikator.visibleInPortal == undefined || indikator.visibleInPortal == true) {
-            indikatorenInSet.push(indikator);
             //Special case for Umwelt charts: Hide from Portal view //, if no complete text in field erlaeuterungen
-            if (indikator.kennzahlenset == 'Umwelt'/* && indikator.erlaeuterungen.startsWith('Eine detaillierte Beschreibung des Indikators') */){
-                console.log(filepath + ' is Umwelt Indikator ' /*+ 'with no complete erlaeuterungen'*/ + ', thus hiding in portal view');
+            //if (indikator.kennzahlenset == 'Umwelt' && indikator.erlaeuterungen.startsWith('Eine detaillierte Beschreibung des Indikators')){
+            if (indikator.kennzahlenset == 'Umwelt'){
+                //console.log(filepath + ' is Umwelt Indikator ' + 'with no complete erlaeuterungen' + ', thus hiding in portal view');
+                console.log(filepath + ' is Umwelt Indikator ' + ', thus hiding in portal view');
             }
             else {
                 console.log(filepath + ' is visibleInPortal, proceeding with adding to portal/indikatoren.json, all/indikatoren.json...');
-                indikatoren.push(indikator);
+                indikatorenInPortal.push(indikator);
             }
         }
         else {
             console.log(filepath + ' is NOT visibleInPortal, ignoring for portal/indikatoren.json but adding to all/indikatoren.json');
-            indikatorenInSet.push(indikator);
         } 
+        */
         kuerzelById[indikator.id] = indikator.kuerzel;
         idByKuerzel[indikator.kuerzel] = indikator.id.toString();
         templatesById[indikator.id] = indikator.template;
@@ -39,14 +47,51 @@ files.forEach(function(filepath){
         console.log(filepath + ' NOT visible, ignoring');
     }
 });
+
+
+//handle visibleInPortal
+allIndikatoren.forEach((element, i, arr) => {
+	//if (element.id == 6138){
+	//is chart member of a print kennzahlenset?
+	if (element.kennzahlenset.toLowerCase().includes('print') || element.kennzahlenset == "Umwelt" || element.kennzahlenset == "Test" ) {
+		console.log(element.id + ' is in Umwelt, Test or a print kennzahlenset, setting visibleInPortal to false...');
+		element.visibleInPortal = false;
+	}
+	else {
+		//does chart have a mother?
+		if (!element["parentId"]){
+			console.log(element.id + ' does not have a mother, setting visibleInPortal to true...');
+			element.visibleInPortal = true;
+		}
+		else {
+			//is mother chart available? 
+			if (arr.find(obj => obj.id == element.parentId)){
+				console.log(element.id + ' has a mother with an available metadata file, setting visibleInPortal to false...');
+				element.visibleInPortal = false;
+			}
+			//mother chart must be in an unpublished kennzahlenset
+			else {
+				console.log(element.id + ' does not have a mother with an available metadata file, setting visibleInPortal to true...');
+				element.visibleInPortal = true;
+			}
+		}
+	}
+	//}
+	if (element.visibleInPortal) {
+		indikatorenInPortal.push(element);
+	}
+});
+
+
+
 console.log('Saving json databases...');
-saveToJsonFile('indikatoren', 'portal/', indikatoren, console);
-saveToJsonFile('indikatoren', 'all/', indikatorenInSet, console);
+saveToJsonFile('indikatoren', 'portal/', indikatorenInPortal, console);
+saveToJsonFile('indikatoren', 'all/', indikatorenInPortal, console);
 saveToJsonFile('kuerzelById', 'all/', kuerzelById, console);
 saveToJsonFile('idByKuerzel', 'all/',idByKuerzel, console);
 saveToJsonFile('templatesById', 'all/',templatesById, console);
-saveToJsFile('indikatoren', 'portal/', indikatoren, console);
-saveToJsFile('indikatoren', 'all/', indikatorenInSet, console);
+saveToJsFile('indikatoren', 'portal/', indikatorenInPortal, console);
+saveToJsFile('indikatoren', 'all/', indikatorenInPortal, console);
 saveToJsFile('kuerzelById', 'all/', kuerzelById, console);
 saveToJsFile('idByKuerzel', 'all/',idByKuerzel, console);
 saveToJsFile('templatesById', 'all/',templatesById, console);
