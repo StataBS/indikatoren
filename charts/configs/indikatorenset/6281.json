@@ -1,0 +1,283 @@
+{
+  "series": [
+    {
+      "color": "#71a3b5",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      "data": [
+        [
+          2006,
+          52177
+        ],
+        [
+          2007,
+          50528
+        ],
+        [
+          2008,
+          49684
+        ],
+        [
+          2009,
+          51915
+        ],
+        [
+          2010,
+          51485
+        ],
+        [
+          2011,
+          52341
+        ],
+        [
+          2012,
+          53403
+        ],
+        [
+          2013,
+          54294
+        ],
+        [
+          2014,
+          50302
+        ],
+        [
+          2015,
+          50633
+        ],
+        [
+          2016,
+          51229
+        ]
+      ],
+      "name": "PV-Beziehende (inkl. SH\u002FEL) (linke Achse)"
+    },
+    {
+      "color": "#7d60a0",
+      "index": 1,
+      "type": "line",
+      "yAxis": 1,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2006,
+          27.7844636619238
+        ],
+        [
+          2007,
+          26.8765957446809
+        ],
+        [
+          2008,
+          26.2107240076811
+        ],
+        [
+          2009,
+          27.2069805832875
+        ],
+        [
+          2010,
+          26.9838940455663
+        ],
+        [
+          2011,
+          27.250150981903
+        ],
+        [
+          2012,
+          27.6042985852299
+        ],
+        [
+          2013,
+          27.7776925084033
+        ],
+        [
+          2014,
+          25.602760712777
+        ],
+        [
+          2015,
+          25.6754426887893
+        ],
+        [
+          2016,
+          25.8463416849137
+        ]
+      ],
+      "name": "Anteil PV-Beziehende an Wohnbev. in % (rechte Achse)"
+    }
+  ],
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 320,
+    "height": 208,
+    "spacing": [
+      7,
+      3,
+      8,
+      3
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {};
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                          }
+                        }
+                      );
+                    }              
+                    
+                }
+    },
+    "type": "line",
+    "alignTicks": false,
+    "renderTo": "container-6281"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "yAxis": [
+    {
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "max": 60000,
+      "tickInterval": 20000,
+      "title": ""
+    },
+    {
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}%",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "max": 30,
+      "tickInterval": 10,
+      "gridLineWidth": 0,
+      "opposite": true
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EAmt für Sozialbeiträge, Abteilung Prämienverbilligungen"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "margin": 3,
+    "padding": 3,
+    "labelFormatter": function (){
+  	  return this.name.replace("(rechte", "<br/>(rechte");
+  	},
+    "itemMarginBottom": 5
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": 10
+    }
+  },
+  "tooltip": {
+    "shared": true
+  },
+  "exporting": {
+    "filename": "I.13.2.5066"
+  }
+}

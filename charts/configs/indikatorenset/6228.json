@@ -1,0 +1,852 @@
+{
+  "series": [
+    {
+      "color": "#007a2f",
+      "index": 9,
+      "legendIndex": 0,
+      "data": [
+        [
+          "2005: \u003C3000 Fr.",
+          23
+        ],
+        [
+          "2005:  3000-7499 Fr.",
+          50
+        ],
+        [
+          "2005: \u003E7500 Fr.",
+          12
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2007: \u003C3000 Fr.",
+          21
+        ],
+        [
+          "2007: 3000-7499 Fr.",
+          39
+        ],
+        [
+          "2007: \u003E7500 Fr.",
+          13
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2011: \u003C3000 Fr.",
+          26
+        ],
+        [
+          "2011: 3000-7499 Fr.",
+          94
+        ],
+        [
+          "2011: \u003E7500 Fr.",
+          47
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015: \u003C3000 Fr.",
+          19
+        ],
+        [
+          "2015: 3000-7499 Fr.",
+          70
+        ],
+        [
+          "2015: \u003E7500 Fr.",
+          48
+        ]
+      ],
+      "name": "Note 10",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#44ab2b",
+      "index": 8,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2005: \u003C3000 Fr.",
+          21
+        ],
+        [
+          "2005:  3000-7499 Fr.",
+          61
+        ],
+        [
+          "2005: \u003E7500 Fr.",
+          40
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2007: \u003C3000 Fr.",
+          24
+        ],
+        [
+          "2007: 3000-7499 Fr.",
+          55
+        ],
+        [
+          "2007: \u003E7500 Fr.",
+          30
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2011: \u003C3000 Fr.",
+          13
+        ],
+        [
+          "2011: 3000-7499 Fr.",
+          66
+        ],
+        [
+          "2011: \u003E7500 Fr.",
+          74
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015: \u003C3000 Fr.",
+          26
+        ],
+        [
+          "2015: 3000-7499 Fr.",
+          74
+        ],
+        [
+          "2015: \u003E7500 Fr.",
+          93
+        ]
+      ],
+      "name": "Note 9",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73ba7c",
+      "index": 7,
+      "legendIndex": 2,
+      "data": [
+        [
+          "2005: \u003C3000 Fr.",
+          72
+        ],
+        [
+          "2005:  3000-7499 Fr.",
+          218
+        ],
+        [
+          "2005: \u003E7500 Fr.",
+          149
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2007: \u003C3000 Fr.",
+          67
+        ],
+        [
+          "2007: 3000-7499 Fr.",
+          233
+        ],
+        [
+          "2007: \u003E7500 Fr.",
+          138
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2011: \u003C3000 Fr.",
+          39
+        ],
+        [
+          "2011: 3000-7499 Fr.",
+          261
+        ],
+        [
+          "2011: \u003E7500 Fr.",
+          232
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015: \u003C3000 Fr.",
+          50
+        ],
+        [
+          "2015: 3000-7499 Fr.",
+          260
+        ],
+        [
+          "2015: \u003E7500 Fr.",
+          205
+        ]
+      ],
+      "name": "Note 8",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#d7e9d2",
+      "index": 6,
+      "legendIndex": 3,
+      "data": [
+        [
+          "2005: \u003C3000 Fr.",
+          46
+        ],
+        [
+          "2005:  3000-7499 Fr.",
+          163
+        ],
+        [
+          "2005: \u003E7500 Fr.",
+          81
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2007: \u003C3000 Fr.",
+          52
+        ],
+        [
+          "2007: 3000-7499 Fr.",
+          137
+        ],
+        [
+          "2007: \u003E7500 Fr.",
+          85
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2011: \u003C3000 Fr.",
+          23
+        ],
+        [
+          "2011: 3000-7499 Fr.",
+          143
+        ],
+        [
+          "2011: \u003E7500 Fr.",
+          116
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015: \u003C3000 Fr.",
+          20
+        ],
+        [
+          "2015: 3000-7499 Fr.",
+          120
+        ],
+        [
+          "2015: \u003E7500 Fr.",
+          85
+        ]
+      ],
+      "name": "Note 7",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b9cfd7",
+      "index": 5,
+      "legendIndex": 4,
+      "data": [
+        [
+          "2005: \u003C3000 Fr.",
+          16
+        ],
+        [
+          "2005:  3000-7499 Fr.",
+          75
+        ],
+        [
+          "2005: \u003E7500 Fr.",
+          31
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2007: \u003C3000 Fr.",
+          15
+        ],
+        [
+          "2007: 3000-7499 Fr.",
+          53
+        ],
+        [
+          "2007: \u003E7500 Fr.",
+          30
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2011: \u003C3000 Fr.",
+          9
+        ],
+        [
+          "2011: 3000-7499 Fr.",
+          41
+        ],
+        [
+          "2011: \u003E7500 Fr.",
+          28
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015: \u003C3000 Fr.",
+          9
+        ],
+        [
+          "2015: 3000-7499 Fr.",
+          40
+        ],
+        [
+          "2015: \u003E7500 Fr.",
+          31
+        ]
+      ],
+      "name": "Note 6",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#71a3b5",
+      "index": 4,
+      "legendIndex": 5,
+      "data": [
+        [
+          "2005: \u003C3000 Fr.",
+          26
+        ],
+        [
+          "2005:  3000-7499 Fr.",
+          54
+        ],
+        [
+          "2005: \u003E7500 Fr.",
+          22
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2007: \u003C3000 Fr.",
+          24
+        ],
+        [
+          "2007: 3000-7499 Fr.",
+          45
+        ],
+        [
+          "2007: \u003E7500 Fr.",
+          15
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2011: \u003C3000 Fr.",
+          20
+        ],
+        [
+          "2011: 3000-7499 Fr.",
+          54
+        ],
+        [
+          "2011: \u003E7500 Fr.",
+          14
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015: \u003C3000 Fr.",
+          13
+        ],
+        [
+          "2015: 3000-7499 Fr.",
+          37
+        ],
+        [
+          "2015: \u003E7500 Fr.",
+          19
+        ]
+      ],
+      "name": "Note 5",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffbb58",
+      "index": 3,
+      "legendIndex": 6,
+      "data": [
+        [
+          "2005: \u003C3000 Fr.",
+          5
+        ],
+        [
+          "2005:  3000-7499 Fr.",
+          14
+        ],
+        [
+          "2005: \u003E7500 Fr.",
+          3
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2007: \u003C3000 Fr.",
+          2
+        ],
+        [
+          "2007: 3000-7499 Fr.",
+          12
+        ],
+        [
+          "2007: \u003E7500 Fr.",
+          3
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2011: \u003C3000 Fr.",
+          2
+        ],
+        [
+          "2011: 3000-7499 Fr.",
+          8
+        ],
+        [
+          "2011: \u003E7500 Fr.",
+          5
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015: \u003C3000 Fr.",
+          1
+        ],
+        [
+          "2015: 3000-7499 Fr.",
+          6
+        ],
+        [
+          "2015: \u003E7500 Fr.",
+          6
+        ]
+      ],
+      "name": "Note 4",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "index": 2,
+      "legendIndex": 7,
+      "data": [
+        [
+          "2005: \u003C3000 Fr.",
+          2
+        ],
+        [
+          "2005:  3000-7499 Fr.",
+          9
+        ],
+        [
+          "2005: \u003E7500 Fr.",
+          2
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2007: \u003C3000 Fr.",
+          1
+        ],
+        [
+          "2007: 3000-7499 Fr.",
+          7
+        ],
+        [
+          "2007: \u003E7500 Fr.",
+          0
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2011: \u003C3000 Fr.",
+          3
+        ],
+        [
+          "2011: 3000-7499 Fr.",
+          7
+        ],
+        [
+          "2011: \u003E7500 Fr.",
+          3
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015: \u003C3000 Fr.",
+          1
+        ],
+        [
+          "2015: 3000-7499 Fr.",
+          5
+        ],
+        [
+          "2015: \u003E7500 Fr.",
+          5
+        ]
+      ],
+      "name": "Note 3",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#dc440e",
+      "index": 1,
+      "legendIndex": 8,
+      "data": [
+        [
+          "2005: \u003C3000 Fr.",
+          0
+        ],
+        [
+          "2005:  3000-7499 Fr.",
+          4
+        ],
+        [
+          "2005: \u003E7500 Fr.",
+          0
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2007: \u003C3000 Fr.",
+          2
+        ],
+        [
+          "2007: 3000-7499 Fr.",
+          1
+        ],
+        [
+          "2007: \u003E7500 Fr.",
+          0
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2011: \u003C3000 Fr.",
+          0
+        ],
+        [
+          "2011: 3000-7499 Fr.",
+          2
+        ],
+        [
+          "2011: \u003E7500 Fr.",
+          0
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015: \u003C3000 Fr.",
+          1
+        ],
+        [
+          "2015: 3000-7499 Fr.",
+          0
+        ],
+        [
+          "2015: \u003E7500 Fr.",
+          1
+        ]
+      ],
+      "name": "Note 2",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "index": 0,
+      "legendIndex": 9,
+      "data": [
+        [
+          "2005: \u003C3000 Fr.",
+          3
+        ],
+        [
+          "2005:  3000-7499 Fr.",
+          1
+        ],
+        [
+          "2005: \u003E7500 Fr.",
+          1
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2007: \u003C3000 Fr.",
+          0
+        ],
+        [
+          "2007: 3000-7499 Fr.",
+          2
+        ],
+        [
+          "2007: \u003E7500 Fr.",
+          1
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2011: \u003C3000 Fr.",
+          1
+        ],
+        [
+          "2011: 3000-7499 Fr.",
+          5
+        ],
+        [
+          "2011: \u003E7500 Fr.",
+          0
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015: \u003C3000 Fr.",
+          1
+        ],
+        [
+          "2015: 3000-7499 Fr.",
+          2
+        ],
+        [
+          "2015: \u003E7500 Fr.",
+          1
+        ]
+      ],
+      "name": "Note 1",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = /*(this.chart.series.length == allVisibleSeries.length) ? 'N=' :*/ 'n='; 
+                //check for value that contains only spaces
+            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+            },
+      "align": "left",
+      "x": -155
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "marginLeft": 165,
+    "inverted": true,
+    "renderTo": "container-6228"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Bewertung der Lebensqualität nach Einkommensklasse"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    },
+    "column": {
+      "groupPadding": 0
+    }
+  },
+  "yAxis": {
+    "tickInterval": 25,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value}%",
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
+  },
+  "legend": {
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
+    "useHTML": false,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        }
+  },
+  "exporting": {
+    "filename": "I.50.1.06228"
+  }
+}

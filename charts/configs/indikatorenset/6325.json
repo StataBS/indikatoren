@@ -1,0 +1,492 @@
+{
+  "series": [
+    {
+      "color": "#007a2f",
+      "index": 4,
+      "legendIndex": 4,
+      "data": [
+        [
+          "2003: männlich",
+          411
+        ],
+        [
+          "2003: weiblich",
+          416
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2005: männlich",
+          416
+        ],
+        [
+          "2005: weiblich",
+          429
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007: männlich",
+          366
+        ],
+        [
+          "2007: weiblich",
+          390
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011: männlich",
+          346
+        ],
+        [
+          "2011: weiblich",
+          384
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2015: männlich",
+          302
+        ],
+        [
+          "2015: weiblich",
+          333
+        ]
+      ],
+      "name": "Sehr sicher",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68ab2b",
+      "index": 3,
+      "legendIndex": 3,
+      "data": [
+        [
+          "2003: männlich",
+          235
+        ],
+        [
+          "2003: weiblich",
+          342
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2005: männlich",
+          255
+        ],
+        [
+          "2005: weiblich",
+          329
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007: männlich",
+          297
+        ],
+        [
+          "2007: weiblich",
+          371
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011: männlich",
+          293
+        ],
+        [
+          "2011: weiblich",
+          384
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2015: männlich",
+          335
+        ],
+        [
+          "2015: weiblich",
+          403
+        ]
+      ],
+      "name": "Eher sicher",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffbb58",
+      "index": 2,
+      "legendIndex": 2,
+      "data": [
+        [
+          "2003: männlich",
+          27
+        ],
+        [
+          "2003: weiblich",
+          52
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2005: männlich",
+          27
+        ],
+        [
+          "2005: weiblich",
+          43
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007: männlich",
+          27
+        ],
+        [
+          "2007: weiblich",
+          48
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011: männlich",
+          30
+        ],
+        [
+          "2011: weiblich",
+          64
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2015: männlich",
+          46
+        ],
+        [
+          "2015: weiblich",
+          69
+        ]
+      ],
+      "name": "Eher unsicher",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#dc440e",
+      "index": 1,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2003: männlich",
+          2
+        ],
+        [
+          "2003: weiblich",
+          7
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2005: männlich",
+          5
+        ],
+        [
+          "2005: weiblich",
+          5
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007: männlich",
+          3
+        ],
+        [
+          "2007: weiblich",
+          4
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011: männlich",
+          5
+        ],
+        [
+          "2011: weiblich",
+          9
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2015: männlich",
+          4
+        ],
+        [
+          "2015: weiblich",
+          11
+        ]
+      ],
+      "name": "Ganz unsicher",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#999999",
+      "index": 0,
+      "legendIndex": 0,
+      "data": [
+        [
+          "2003: männlich",
+          4
+        ],
+        [
+          "2003: weiblich",
+          1
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2005: männlich",
+          0
+        ],
+        [
+          "2005: weiblich",
+          1
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007: männlich",
+          0
+        ],
+        [
+          "2007: weiblich",
+          3
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011: männlich",
+          0
+        ],
+        [
+          "2011: weiblich",
+          1
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2015: männlich",
+          1
+        ],
+        [
+          "2015: weiblich",
+          2
+        ]
+      ],
+      "name": "Weiss nicht \u002F keine Angabe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "textOverflow": "none",
+        "fontSize": "9.999px"
+      },
+      "formatter": function () {
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = /*(this.chart.series.length == allVisibleSeries.length) ? 'N=' :*/ 'n='; 
+                //check for value that contains only spaces
+              	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+              },
+      "align": "left",
+      "x": -125
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                this.credits.element.onclick = function() {
+                    /*
+                    window.open(
+                    "http://www.statistik.bs.ch",
+                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+                    );
+                    */
+                }
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 600,
+    "height": 208,
+    "spacing": [
+      3,
+      0,
+      3,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial",
+      "fontSize": "10px"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "marginLeft": 140,
+    "inverted": true,
+    "renderTo": "container-6325"
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Sicherheitsempfinden im Alltag nach Geschlecht"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?»"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
+  },
+  "yAxis": {
+    "tickInterval": 25,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value}%",
+      "style": {
+        "color": "#000000",
+        "fontSize": "10px"
+      }
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9"
+  },
+  "legend": {
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
+    "useHTML": true,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontFamily": "Arial",
+      "fontWeight": "normal",
+      "width": 95
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        }
+  },
+  "exporting": {
+    "filename": "I.50.1.06178"
+  }
+}

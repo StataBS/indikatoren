@@ -93,8 +93,8 @@
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Rückwanderungsquote der Ausländer nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit seit 2006</tspan><title>Rückwanderungsquote der Ausländer nach Staatsangehörigkeit seit 2006</title>
   </text>
-  <g class="highcharts-legend" transform="translate(30,45)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="420" height="68" visibility="visible"/>
+  <g class="highcharts-legend" transform="translate(35,45)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="346" height="87" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
@@ -122,31 +122,31 @@
             <tspan>Spanien</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-4" transform="translate(358.015625,3)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-4" transform="translate(8,22)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#FABD24" stroke-width="2"/>
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Türkei</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-5" transform="translate(8,22)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-5" transform="translate(82.3125,22)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#D3E2E5" stroke-width="2"/>
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Ehem. Jugoslawien ohne SLO</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-6" transform="translate(210.328125,22)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-6" transform="translate(8,41)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#9F7C5A" stroke-width="2"/>
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Maghreb und Ägypten</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-7" transform="translate(8,41)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-7" transform="translate(167.015625,41)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#E7CFE2" stroke-width="2"/>
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>EU-Oststaaten</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-8" transform="translate(127.640625,41)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-8" transform="translate(8,60)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#FF8028" stroke-width="2"/>
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Mittel- und Südamerika</tspan>

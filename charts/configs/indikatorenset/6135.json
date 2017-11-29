@@ -1,0 +1,269 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "legendIndex": 2,
+      "data": [
+        [
+          2007,
+          3.8
+        ],
+        [
+          2008,
+          3.4
+        ],
+        [
+          2009,
+          3.9
+        ],
+        [
+          2010,
+          4.3
+        ],
+        [
+          2011,
+          2
+        ],
+        [
+          2012,
+          5
+        ],
+        [
+          2013,
+          1.8
+        ],
+        [
+          2014,
+          2.1
+        ],
+        [
+          2015,
+          2.9
+        ],
+        [
+          2016,
+          3.9
+        ]
+      ],
+      "name": "Mädchen"
+    },
+    {
+      "color": "#008AC3",
+      "legendIndex": 0,
+      "data": [
+        [
+          2007,
+          3
+        ],
+        [
+          2008,
+          2.8
+        ],
+        [
+          2009,
+          2
+        ],
+        [
+          2010,
+          3.5
+        ],
+        [
+          2011,
+          3.9
+        ],
+        [
+          2012,
+          4.7
+        ],
+        [
+          2013,
+          3
+        ],
+        [
+          2014,
+          2.5
+        ],
+        [
+          2015,
+          4.2
+        ],
+        [
+          2016,
+          5.9
+        ]
+      ],
+      "name": "Knaben"
+    },
+    {
+      "color": "#3c3c3c",
+      "legendIndex": 1,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2007,
+          3.4
+        ],
+        [
+          2008,
+          3.1
+        ],
+        [
+          2009,
+          2.9
+        ],
+        [
+          2010,
+          3.9
+        ],
+        [
+          2011,
+          3
+        ],
+        [
+          2012,
+          4.8
+        ],
+        [
+          2013,
+          2.4
+        ],
+        [
+          2014,
+          2.3
+        ],
+        [
+          2015,
+          3.6
+        ],
+        [
+          2016,
+          5
+        ]
+      ],
+      "name": "Total"
+    }
+  ],
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "renderTo": "container-6135"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Schulabgänger\u002F-innen ohne Anschlusslösung nach Geschlecht und Schultyp"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "xAxis": {
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF",
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "min": 0
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E%\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "I.15.7.06135"
+  }
+}
