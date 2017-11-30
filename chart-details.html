@@ -88,7 +88,7 @@
           </div>
         </div>
         <!-- hide Links if empty -->    
-        <%= renderLinksHTML((typeof(kennzahlenset)!=='undefined' ? kennzahlenset: null), (typeof(renderLink) !== 'undefined' ? renderLink : null), (typeof(externalLinks)!=='undefined' ? externalLinks : null ), 'portal', stufe1, 'link') %>
+        <%= renderLinksHTML((typeof(kennzahlenset)!=='undefined' ? kennzahlenset: null), (typeof(renderLink) !== 'undefined' ? renderLink : null), (typeof(externalLinks)!=='undefined' ? externalLinks : null ), view, stufe1, 'link') %>
       </div>
     </script> 
     
@@ -106,8 +106,13 @@
       */
       
       //get kuerzel and id from url, encode to prevent xss 
-      //todo: in order to prevent xss: do not evaluate chart templates but just load json. Functions need to be taken out of the templates. 
       var id = window.decodeURIComponent($.url('?id'));
+      
+      var indikatorensetView = (window.decodeURIComponent($.url('?indikatorensetView')) === 'true') ? true : false;
+      var view = window.decodeURIComponent($.url('?view'));
+      if (!(view == 'indikatorenset' || view == 'portal' || view == 'print')) {
+        view = indikatorensetView;
+      }
       
       //check if id is member in the list of existing charts
       if (templatesById[id]){
@@ -119,7 +124,7 @@
             var container = $('body');
             container.append(templateFunction(chartMetadata));
             
-            lazyRenderChartById(id, chartMetadata, 'portal');
+            lazyRenderChartById(id, chartMetadata, view);
         });
       }
       else {

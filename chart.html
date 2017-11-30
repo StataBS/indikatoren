@@ -72,7 +72,6 @@ global exportThumbnail
 */
 
 //get kuerzel and id from url, encode to prevent xss 
-//todo: in order to prevent xss: do not evaluate chart templates but just load json. Functions need to be taken out of the templates. 
 var kuerzel = window.decodeURIComponent($.url('?kuerzel'));               
 var id = window.decodeURIComponent($.url('?id'));
 var suppressNumberInTitle = (window.decodeURIComponent($.url('?suppressNumberInTitle')) === 'true') ? true : false;
