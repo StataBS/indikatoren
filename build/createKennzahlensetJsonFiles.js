@@ -3,21 +3,6 @@ var glob = require("glob");
 var indikatorensets = {};
 var indikatorensetNames = [];
 
-
-var allVisibleIndikators = JSON.parse(fs.readFileSync('metadata/all/indikatoren.json', 'utf8'));
-allVisibleIndikators.forEach((indikator, i, arr) => {
-    //if no orderKey defined yet, take kuerzelKunde as orderKey
-    if(!indikator.orderKey){
-        indikator.orderKey = indikator.kuerzelKunde;
-    }
-    console.log('Adding chart ' + indikator.id + ' to Indikatorenset ' + indikator.kennzahlenset + '...');
-    //clean up
-    delete indikator.visible;
-    delete indikator.visibleInPortal;
-    delete indikator.option;
-    saveToIndikatorensetJson(indikator, console);
-});
-/*
 var files = glob.sync("metadata/single/*.json");
 files.forEach(function(filepath){
     var fileContents = fs.readFileSync(filepath);
@@ -28,17 +13,13 @@ files.forEach(function(filepath){
             indikator.orderKey = indikator.kuerzelKunde;
         }
         console.log('Adding chart ' + indikator.id + ' to Indikatorenset ' + indikator.kennzahlenset + '...');
-        //clean up
-        delete indikator.visible;
-        delete indikator.visibleInPortal;
-        delete indikator.option;
         saveToIndikatorensetJson(indikator.id, indikator, console);
     }
     else {
         console.log('Chart ' + indikator.id + ' is invisible or in kennzahlenset "Umwelt", ignoring.');
     }
 });
-*/
+ 
 
 console.log('deleting previous kennzahlenset files...');
 var rimraf = require("rimraf");
@@ -57,7 +38,7 @@ function saveIndikatorenSets(indikatorensets){
             console.log('Creating file for Indikatorenset ' + setName);
             var fs = require('fs');
             var setJson = "var indikatorensetData = " + JSON.stringify(indikatorensets[indikatorenset], null, '\t') + ";";
-            fs.writeFileSync('metadata/sets/' + setName + '.js', setJson);
+            fs.writeFile('metadata/sets/' + setName + '.js', setJson);
             
             indikatorensetNames.push(setName);
         }
@@ -65,7 +46,7 @@ function saveIndikatorenSets(indikatorensets){
 }
 
 
-function saveToIndikatorensetJson(obj, console){
+function saveToIndikatorensetJson(kuerzel, obj, console){
     var set = (obj['kennzahlenset'] || {});
     indikatorensets[set] = indikatorensets[set] || [];
     indikatorensets[set].push(obj);
@@ -74,5 +55,5 @@ function saveToIndikatorensetJson(obj, console){
 
 function saveToJsonFile(name, obj, console){
     var jsonFile = "var " + name + " = " + JSON.stringify(obj, null, '\t') + ";";
-    fs.writeFileSync('metadata/sets/' + name + '.js', jsonFile);
+    fs.writeFile('metadata/sets/' + name + '.js', jsonFile);
 }

@@ -133,9 +133,9 @@
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290, 'pieLegendHideOnZoom');
 
 					fn.addLegendSquare(chart, 290, 270, 10, 'red');
-					fn.addLegendLabel(chart, 'Braun', 310, 265);
+					fn.addLegendLabel(chart, 'Benzin', 310, 265);
 					fn.addLegendSquare(chart, 290, 295, 10, 'blue');
-					fn.addLegendLabel(chart, 'Schwarz', 310, 290);
+					fn.addLegendLabel(chart, 'Diesel', 310, 290);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
