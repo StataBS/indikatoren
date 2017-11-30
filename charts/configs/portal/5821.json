@@ -2,8 +2,6 @@
   "series": [
     {
       "color": "#007a2f",
-      "index": 0,
-      "legendIndex": 0,
       "data": [
         [
           "2003 (N=1477)",
@@ -31,8 +29,6 @@
     },
     {
       "color": "#44ab2b",
-      "index": 1,
-      "legendIndex": 1,
       "data": [
         [
           "2003 (N=1477)",
@@ -60,8 +56,6 @@
     },
     {
       "color": "#73ba7c",
-      "index": 2,
-      "legendIndex": 2,
       "data": [
         [
           "2003 (N=1477)",
@@ -89,8 +83,6 @@
     },
     {
       "color": "#d7e9d2",
-      "index": 3,
-      "legendIndex": 3,
       "data": [
         [
           "2003 (N=1477)",
@@ -118,8 +110,6 @@
     },
     {
       "color": "#b9cfd7",
-      "index": 4,
-      "legendIndex": 4,
       "data": [
         [
           "2003 (N=1477)",
@@ -147,8 +137,6 @@
     },
     {
       "color": "#71a3b5",
-      "index": 5,
-      "legendIndex": 5,
       "data": [
         [
           "2003 (N=1477)",
@@ -176,8 +164,6 @@
     },
     {
       "color": "#ffbb58",
-      "index": 6,
-      "legendIndex": 6,
       "data": [
         [
           "2003 (N=1477)",
@@ -205,8 +191,6 @@
     },
     {
       "color": "#ff8028",
-      "index": 7,
-      "legendIndex": 7,
       "data": [
         [
           "2003 (N=1477)",
@@ -234,8 +218,6 @@
     },
     {
       "color": "#dc440e",
-      "index": 8,
-      "legendIndex": 8,
       "data": [
         [
           "2003 (N=1477)",
@@ -263,8 +245,6 @@
     },
     {
       "color": "#b00000",
-      "index": 9,
-      "legendIndex": 9,
       "data": [
         [
           "2003 (N=1477)",
@@ -310,17 +290,7 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-                //add sum of observations of visible series to the axis label
-                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
-                    return val.visible;
-                });
-                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-                    return accumulator + series.yData[indexOfCurrentValue];
-                }, 0);
-                //use N if all series are visible, otherwise use n
-                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
-            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
+            	return this.value.replace(" ", "<br/>");
             }
     }
   },
@@ -388,6 +358,7 @@
   },
   "yAxis": {
     "tickInterval": 10,
+    "reversedStacks": true,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -406,7 +377,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false,
     "valueDecimals": 1
   },
@@ -426,13 +397,15 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
   },
   "legend": {
+    "reversed": false,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
     "useHTML": false,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "width": 115
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
