@@ -5289,6 +5289,795 @@ var indikatoren = [
 		"visibleInPortal": true
 	},
 	{
+		"title": "Sozialhilfequote",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.13.3.5109",
+		"kuerzelKunde": "GS-1.B",
+		"description": "Sozialhilfequote",
+		"id": 5109,
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-05-05T12:36:27.2727",
+		"schlagwort": [
+			"Quote"
+		],
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger an der Wohnbevölkerung des Wohnviertels.",
+		"template": "map001",
+		"orderKey": "01_00_00_00_00_002",
+		"parentId": 4822,
+		"children": [],
+		"renderLink": [
+			"4822"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
+		],
+		"externalLinks": [
+			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=soz_sozhilfe.soz_quote' target='_blank'>Basler Atlas</a>."
+		],
+		"visibleInPortal": true
+	},
+	{
+		"title": "Anteil Ausländer",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.01.1.5110",
+		"kuerzelKunde": "GS-2.B",
+		"description": "Anteil Ausländer",
+		"id": 5110,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-03-17T14:09:23.2323",
+		"schlagwort": [
+			"Ausländer"
+		],
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Anteil der ausländischen Wohnbevölkerung an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
+		"template": "map001",
+		"orderKey": "01_00_00_00_00_004",
+		"parentId": 4823,
+		"children": [],
+		"renderLink": [
+			"4823"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevheim.anteil_al' target='_blank'>Basler Atlas</a>."
+		],
+		"visibleInPortal": true
+	},
+	{
+		"title": "Anteil Personen ohne Religionszugehörigkeit",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.01.7.5111",
+		"kuerzelKunde": "GS-3.B",
+		"description": "Anteil Personen ohne Religionszugehörigkeit",
+		"id": 5111,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Religionen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-05-04T14:56:38.3838",
+		"schlagwort": [
+			"Religion"
+		],
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Anteil Personen ohne Religionszugehörigkeit an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
+		"template": "map001",
+		"orderKey": "01_00_00_00_00_006",
+		"parentId": 4824,
+		"children": [],
+		"renderLink": [
+			"4824"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"visibleInPortal": true
+	},
+	{
+		"title": "Anteil Personen in Einpersonenhaushalten",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.01.2.5112",
+		"kuerzelKunde": "GS-4.B",
+		"description": "Anteil Personen in Einpersonenhaushalten",
+		"id": 5112,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Haushalte",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-05-04T14:12:33.3333",
+		"schlagwort": [
+			"Haushalt"
+		],
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten des Wohnviertels in Prozent.",
+		"template": "map001",
+		"orderKey": "01_00_00_00_00_008",
+		"parentId": 4825,
+		"children": [],
+		"renderLink": [
+			"4825"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"visibleInPortal": true
+	},
+	{
+		"title": "Gymnasialquote",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.15.6.5113",
+		"kuerzelKunde": "GS-5.B",
+		"description": "Gymnasialquote",
+		"id": 5113,
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsniveau",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-05-05T13:02:23.2323",
+		"schlagwort": [
+			"Quote",
+			"Bildung"
+		],
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Anteil der Gymnasiasten sowie seit 2016/2017 der Sek P Schüler an allen Schülern der 10. und 11. Schulstufe des Wohnviertels an öffentlichen Schulen und mit Elternwohnort Basel-Stadt (Schulstufen einschliesslich zweier obligatorischer Kindergartenstufen gezählt).",
+		"template": "map001",
+		"orderKey": "01_00_00_00_00_010",
+		"parentId": 4826,
+		"children": [],
+		"renderLink": [
+			"4826"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"visibleInPortal": true
+	},
+	{
+		"title": "Altersquotient",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.01.1.5114",
+		"kuerzelKunde": "GS-6.B",
+		"description": "Altersquotient",
+		"id": 5114,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Alter",
+			"Alter"
+		],
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Anteil der über 64-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
+		"template": "map001",
+		"orderKey": "01_00_00_00_00_012",
+		"parentId": 4827,
+		"children": [],
+		"renderLink": [
+			"4827"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"visibleInPortal": true
+	},
+	{
+		"title": "Sesshaftigkeit",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.01.1.5115",
+		"kuerzelKunde": "GS-7.B",
+		"description": "Sesshaftigkeit",
+		"id": 5115,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-03-17T13:42:16.1616",
+		"schlagwort": [
+			"Wohndauer"
+		],
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Anteil der seit mindestens 10 Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
+		"template": "map001",
+		"orderKey": "01_00_00_00_00_014",
+		"parentId": 4828,
+		"children": [],
+		"renderLink": [
+			"4828"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevsess.anteil_sess10' target='_blank'>Basler Atlas</a>."
+		],
+		"visibleInPortal": true
+	},
+	{
+		"title": "Jugendquotient",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.01.1.5116",
+		"kuerzelKunde": "GS-8.B",
+		"description": "Jugendquotient",
+		"id": 5116,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-03-17T14:09:43.4343",
+		"schlagwort": [
+			"Alter",
+			"Jugend"
+		],
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Anteil der unter 20-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent:",
+		"template": "map001",
+		"orderKey": "01_00_00_00_00_016",
+		"parentId": 4829,
+		"children": [],
+		"renderLink": [
+			"4829"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"visibleInPortal": true
+	},
+	{
+		"title": "Baujahr Wohngebäude",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.09.1.5117",
+		"kuerzelKunde": "RU-1.B",
+		"description": "Baujahr Wohngebäude",
+		"id": 5117,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-05-05T10:27:49.4949",
+		"schlagwort": [
+			"Gebäude",
+			"Alter"
+		],
+		"stufe1": "Bereich 2: Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
+		"template": "map001",
+		"orderKey": "02_00_00_00_00_002",
+		"parentId": 4830,
+		"children": [],
+		"renderLink": [
+			"4830"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"visibleInPortal": true
+	},
+	{
+		"title": "Anteil Einfamilienhäuser",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.09.1.5118",
+		"kuerzelKunde": "RU-2.B",
+		"description": "Anteil Einfamilienhäuser",
+		"id": 5118,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-05-05T13:03:41.4141",
+		"schlagwort": [
+			"Gebäude"
+		],
+		"stufe1": "Bereich 2: Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels in Prozent.",
+		"template": "map001",
+		"orderKey": "02_00_00_00_00_004",
+		"parentId": 4831,
+		"children": [],
+		"renderLink": [
+			"4831"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"visibleInPortal": true
+	},
+	{
+		"title": "Anteil Grünflächen",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.02.1.5119",
+		"kuerzelKunde": "RU-3.B",
+		"description": "Anteil Grünflächen",
+		"id": 5119,
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-03-17T14:12:26.2626",
+		"schlagwort": [
+			"Grünflächen"
+		],
+		"stufe1": "Bereich 2: Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche der Wohnviertel. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m2 geführt werden. Diese werden in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert. Ausnahme: Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst.",
+		"template": "map001",
+		"orderKey": "02_00_00_00_00_006",
+		"parentId": 4832,
+		"children": [],
+		"renderLink": [
+			"4832"
+		],
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [
+			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=ru_gruen.gruenflaeche_ant' target='_blank'>Basler Atlas</a>."
+		],
+		"visibleInPortal": true
+	},
+	{
+		"title": "Fläche pro Wohnung",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.09.1.5120",
+		"kuerzelKunde": "RU-4.B",
+		"description": "Fläche pro Wohnung",
+		"id": 5120,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-05-04T17:27:32.3232",
+		"schlagwort": [
+			"Gebäude"
+		],
+		"stufe1": "Bereich 2: Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
+		"template": "map001",
+		"orderKey": "02_00_00_00_00_008",
+		"parentId": 4833,
+		"children": [],
+		"renderLink": [
+			"4833"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"visibleInPortal": true
+	},
+	{
+		"title": "Wohnfläche pro Kopf",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.09.1.5121",
+		"kuerzelKunde": "RU-5.B",
+		"description": "Wohnfläche pro Kopf",
+		"id": 5121,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-05-04T17:31:03.033",
+		"schlagwort": [
+			"Gebäude"
+		],
+		"stufe1": "Bereich 2: Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Mittlere Wohnfläche pro Einwohner im Wohnviertel (gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen) in Quadratmeter.",
+		"template": "map001",
+		"orderKey": "02_00_00_00_00_010",
+		"parentId": 4834,
+		"children": [],
+		"renderLink": [
+			"4834"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"visibleInPortal": true
+	},
+	{
+		"title": "Vermögenssteuer pro Veranlagung",
+		"subtitle": "Stand: Steuerjahr 2014",
+		"kuerzel": "I.18.2.5122",
+		"kuerzelKunde": "WA-1.B",
+		"description": "Vermögenssteuer pro Veranlagung",
+		"id": 5122,
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung"
+		],
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
+		"template": "map001",
+		"orderKey": "03_00_00_00_00_002",
+		"parentId": 4835,
+		"children": [],
+		"renderLink": [
+			"4835"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
+		],
+		"externalLinks": [
+			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_ver.vermoegen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
+		],
+		"visibleInPortal": true
+	},
+	{
+		"title": "Einkommenssteuer pro Veranlagung",
+		"subtitle": "Stand: Steuerjahr 2014",
+		"kuerzel": "I.18.2.5123",
+		"kuerzelKunde": "WA-2.B",
+		"description": "Einkommenssteuer pro Veranlagung",
+		"id": 5123,
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung"
+		],
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
+		"template": "map001",
+		"orderKey": "03_00_00_00_00_004",
+		"parentId": 4836,
+		"children": [],
+		"renderLink": [
+			"4836"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
+		],
+		"externalLinks": [
+			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_eink.einkommen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
+		],
+		"visibleInPortal": true
+	},
+	{
+		"title": "Erwerbstätigenquote",
+		"subtitle": "Stand: gepoolte Daten 2010 - 2014",
+		"kuerzel": "I.03.1.5124",
+		"kuerzelKunde": "WA-3.B",
+		"description": "Erwerbstätigenquote",
+		"id": 5124,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Erwerbspersonen ",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-05-12T14:43:49.4949",
+		"schlagwort": [
+			"Erwerb"
+		],
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt.",
+		"template": "map001",
+		"orderKey": "03_00_00_00_00_006",
+		"parentId": 4837,
+		"children": [],
+		"renderLink": [
+			"4837"
+		],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [
+			""
+		],
+		"visibleInPortal": true
+	},
+	{
+		"title": "Arbeitsplätze pro Kopf",
+		"subtitle": "Stand: 2014",
+		"kuerzel": "I.03.2.5125",
+		"kuerzelKunde": "WA-4.B",
+		"description": "Arbeitsplätze pro Kopf",
+		"id": 5125,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte ",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-05-12T15:25:19.1919",
+		"schlagwort": [
+			"Erwerb"
+		],
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.<br> Im Wohnvietel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
+		"template": "map001",
+		"orderKey": "03_00_00_00_00_008",
+		"parentId": 4838,
+		"children": [],
+		"renderLink": [
+			"4838"
+		],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [
+			""
+		],
+		"visibleInPortal": true
+	},
+	{
+		"title": "Arbeitslosenquote",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.03.4.5126",
+		"kuerzelKunde": "WA-5.B",
+		"description": "Arbeitslosenquote",
+		"id": 5126,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Arbeitslose ",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-05-12T15:25:34.3434",
+		"schlagwort": [
+			"Arbeit",
+			"Erwerb"
+		],
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Anteil als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent, jeweils Ende Jahr. Erwerbspersonen aus den Jahren 2010 - 2014, Hochrechnung auf Basis einer Stichprobe von 5 000 Personen pro Jahr. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet.",
+		"template": "map001",
+		"orderKey": "03_00_00_00_00_010",
+		"parentId": 4839,
+		"children": [],
+		"renderLink": [
+			"4839"
+		],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"visibleInPortal": true
+	},
+	{
+		"title": "Privater Motorisierungsgrad",
+		"subtitle": "Private Personenwagen pro 1000 Einwohner 2015",
+		"kuerzel": "I.11.1.0042",
+		"kuerzelKunde": "",
+		"description": "Privater Motorisierungsgrad",
+		"id": 5130,
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Gemeinde"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Quote",
+			"Bevölkerung",
+			"Auto"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Der Motorisierungsgrad zeigt die Anzahl privater Personenwagen auf 1000 Einwohner.",
+		"template": "map001",
+		"parentId": 4917,
+		"children": [],
+		"renderLink": [
+			"4917"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
+		],
+		"externalLinks": [
+			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=11_fahrzeuge.11_motorisierungsgrad' target='_blank'>Basler Atlas</a>."
+		],
+		"visibleInPortal": true
+	},
+	{
+		"title": "Personenwagen pro Haushalt",
+		"subtitle": "Stand: 2015",
+		"kuerzel": "I.11.1.0043",
+		"kuerzelKunde": "",
+		"description": "Personenwagen pro Haushalt",
+		"id": 5131,
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Gemeinde"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Haushalt",
+			"Familie",
+			"Quote",
+			"Auto"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "map001",
+		"parentId": 4918,
+		"children": [],
+		"renderLink": [
+			"4918"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
+		],
+		"visibleInPortal": true
+	},
+	{
 		"title": "Bevölkerungsdichte",
 		"subtitle": "Anzahl Einwohner pro Hektar",
 		"kuerzel": "I.01.1.05201",
@@ -5444,6 +6233,46 @@ var indikatoren = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+		],
+		"externalLinks": [
+			""
+		],
+		"visibleInPortal": true
+	},
+	{
+		"title": "Nettowohnungsproduktion",
+		"subtitle": "",
+		"kuerzel": "I.09.1.05816",
+		"kuerzelKunde": "ST 4-8",
+		"description": "Nettowohnungsproduktion",
+		"id": 5816,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Wohnen"
+		],
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Seit 2014 war die Nettowohnungsproduktion überdurchschnittlich hoch. Dazu beigetragen hat eine hohe Neubauproduktion, ein positiver Umbausaldo und mit Ausnahme von 2015 eine niedrige Anzahl von Abbrüchen.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"orderKey": "01_01_00_00_00_008",
+		"parentId": 4135,
+		"children": [
+			"6106",
+			"6248"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -6134,6 +6963,46 @@ var indikatoren = [
 		"visibleInPortal": true
 	},
 	{
+		"title": "Beurteilung der kantonalen Steuern",
+		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?»",
+		"kuerzel": "I.50.1.06133",
+		"kuerzelKunde": "2.13",
+		"description": "Beurteilung der kantonalen Steuern",
+		"id": 6133,
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Verwaltung",
+			"Beurteilung"
+		],
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2015 gaben mit 56,4% mehr als die Hälfte der Befragten an, dass die kantonalen Steuern und Gebühren beibehalten werden sollten. Dieser Anteil fällt im Vergleich zu den Vorjahren deutlich höher aus (2011: 45,6%, 2007: 30,0%).",
+		"erlaeuterungen": "",
+		"template": "befragungen001",
+		"orderKey": "02_00_00_00_00_017",
+		"parentId": 4860,
+		"children": [
+			"6290"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8"
+		],
+		"externalLinks": [
+			""
+		],
+		"visibleInPortal": true
+	},
+	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
 		"subtitle": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von <br/> 100 000 Fr.; Stand: 2016",
 		"kuerzel": "I.18.2.06134",
@@ -6708,6 +7577,45 @@ var indikatoren = [
 		"visibleInPortal": true
 	},
 	{
+		"title": "Verkehrsleistungsindex",
+		"subtitle": "Indexwert (Basis 2010 = 100)",
+		"kuerzel": "I.11.6.06154",
+		"kuerzelKunde": "5.2",
+		"description": "Verkehrsleistungsindex",
+		"id": 6154,
+		"thema": "11 Verkehr",
+		"unterthema": "Mobilitätsverhalten",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Lärm"
+		],
+		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf Kantonsgebiet liegt 2016 um 1%, diejenige des Veloverkehrs um 22,9% höher als im Jahr 2010. Der Wert für Fussgänger stieg von 2013 bis 2014 um 7 Prozentpunkte, sank dann aber bis 2016 wieder auf einen Indexwert von 102,5.",
+		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet.<br/> <br/>Autoverkehr: Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 35 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Der Index umfasst die Verkehrsleistung aller Motorfahrzeuge (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes.<br/><br/>Veloverkehr: Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Da der Veloverkehr stark wetterabhängig ist, wurde vom Statistischen Amt des Kantons Basel-Stadt ein Modell entwickelt, welches es zulässt, den Wettereinfluss aus der Verkehrsentwicklung herauszurechnen.<br/><br/>Fussverkehr: Der Index für den Fussverkehr basiert auf rund 17 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr (ÖV): Der Index des öffentlichen Verkehrs wird auf Basis der Verkehrsdaten von Tram- und Buslinien der BVB und der BLT und den S-Bahnen (nur alle zwei Jahre), abgegrenzt auf das Gebiet des Kantons Basel-Stadt, berechnet. Der Gesamtindex für den ÖV kann im jeweiligen Jahr erst im Herbst veröffentlicht werden, sobald die Daten für die S-Bahnen vorliegen.<br/> <br/>Aus der Veränderung an den Zählstellen wird die Veränderung auf dem ganzen Kantonsgebiet abgeleitet, indem jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet wird.<br/> <br/>Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
+		"template": "line001",
+		"orderKey": "05_00_00_00_00_002",
+		"parentId": 4319,
+		"children": [
+			"6306"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"visibleInPortal": true
+	},
+	{
 		"title": "Transit durch die Region Basel",
 		"subtitle": " in Brutto-Tonnen nach Verkehrsträger",
 		"kuerzel": "I.06.4.06155",
@@ -6785,6 +7693,45 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
+		],
+		"visibleInPortal": true
+	},
+	{
+		"title": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10)",
+		"subtitle": "in Mikrogramm pro m3",
+		"kuerzel": "I.02.5.06157",
+		"kuerzelKunde": "7.7",
+		"description": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10)",
+		"id": 6157,
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luftschadstoffe",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Luft"
+		],
+		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Sowohl die Stickstoffdioxid- als auch die Feinstaubkonzentrationen lagen 2016 mit 25 resp. 16 Mikrogramm pro Kubikmeter unter dem jeweiligen Grenzwert.",
+		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Stickoxide (NOx) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege. Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, Nox, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m3. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO2), Dreirosenbrücke Süd (NO<sub>2</sub>). Für Details zu den Stationen siehe Link «Luftqualität in der Nordwestschweiz» unter weiterführende Informationen.",
+		"template": "line001",
+		"orderKey": "07_00_00_00_00_007",
+		"parentId": 6129,
+		"children": [
+			"6309"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Lufthygieneamt beider Basel"
+		],
+		"externalLinks": [
+			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://luft-bs-so.ch/messdaten'>Luftqualität in der Nordwestschweiz</a></li><li><a href='http://www.admin.ch/opc/de/classified-compilation/19850321/index.html'>Luftreinhalte-Verordnung (LRV)</a></li></ul>"
 		],
 		"visibleInPortal": true
 	},
@@ -7063,6 +8010,45 @@ var indikatoren = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"visibleInPortal": true
+	},
+	{
+		"title": "Wassertemperatur Grundwasser",
+		"subtitle": "",
+		"kuerzel": "I.02.19.06166",
+		"kuerzelKunde": "7.6",
+		"description": "Wassertemperatur Grundwasser",
+		"id": 6166,
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Wasser",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Wasser"
+		],
+		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die mittlere Grundwassertemperatur im Kanton Basel-Stadt betrug im Jahre 2016 14,7 °C.",
+		"erlaeuterungen": "In Basel-Stadt wird die Grundwassertemperatur an 82 Messstellen kontinuierlich gemessen und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt. Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target='_blank'>Umweltbericht beider Basel</a>.",
+		"template": "line001",
+		"orderKey": "07_00_00_00_00_006",
+		"parentId": 4237,
+		"children": [
+			"6317"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
 			""
@@ -7589,6 +8575,46 @@ var indikatoren = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F21a"
+		],
+		"externalLinks": [
+			""
+		],
+		"visibleInPortal": true
+	},
+	{
+		"title": "Beurteilung der kantonalen Verwaltung",
+		"subtitle": "«Denken Sie einmal an den letzten Kontakt, den Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»",
+		"kuerzel": "I.50.1.06186",
+		"kuerzelKunde": "12.2",
+		"description": "Beurteilung der kantonalen Verwaltung",
+		"id": 6186,
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Verwaltung",
+			"Beurteilung"
+		],
+		"stufe1": "Ziel 12:  Der Service public ist modern und kundenfreundlich.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "73,7% der befragten Personen schätzten 2015 ihren letzten Kontakt, den sie mit der Verwaltung des Kantons Basel-Stadt hatten, als positiv ein. Das sind 3,8 Prozentpunkte weniger als 2011, aber mehr als in der Befragung von 2007 (64,4%).",
+		"erlaeuterungen": "",
+		"template": "befragungen001",
+		"orderKey": "12_00_00_00_00_002",
+		"parentId": 4859,
+		"children": [
+			"6332"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F19a"
 		],
 		"externalLinks": [
 			""

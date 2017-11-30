@@ -64,14 +64,14 @@ allIndikatoren.forEach((element, i, arr) => {
 			element.visibleInPortal = true;
 		}
 		else {
-			//is mother chart available? 
-			if (arr.find(obj => obj.id == element.parentId)){
-				console.log(element.id + ' has a mother with an available metadata file, setting visibleInPortal to false...');
+			//is mother chart with same template available? 
+			if (arr.find(obj => obj.id == element.parentId && obj.template == element.template)){
+				console.log(element.id + ' has a mother with an available metadata file AND same template, setting visibleInPortal to false...');
 				element.visibleInPortal = false;
 			}
-			//mother chart must be in an unpublished kennzahlenset
+			//mother chart must be in an unpublished kennzahlenset, or mother has a different template (this is the case for charts with several types of display, e.g. map and chart)
 			else {
-				console.log(element.id + ' does not have a mother with an available metadata file, setting visibleInPortal to true...');
+				console.log(element.id + " does not have a mother with an available metadata file OR mother's template is different, setting visibleInPortal to true...");
 				element.visibleInPortal = true;
 			}
 		}
@@ -85,26 +85,27 @@ allIndikatoren.forEach((element, i, arr) => {
 
 
 console.log('Saving json databases...');
-saveToJsonFile('indikatoren', 'portal/', indikatorenInPortal, console);
-saveToJsonFile('indikatoren', 'all/', indikatorenInPortal, console);
-saveToJsonFile('kuerzelById', 'all/', kuerzelById, console);
-saveToJsonFile('idByKuerzel', 'all/',idByKuerzel, console);
-saveToJsonFile('templatesById', 'all/',templatesById, console);
-saveToJsFile('indikatoren', 'portal/', indikatorenInPortal, console);
-saveToJsFile('indikatoren', 'all/', indikatorenInPortal, console);
-saveToJsFile('kuerzelById', 'all/', kuerzelById, console);
-saveToJsFile('idByKuerzel', 'all/',idByKuerzel, console);
-saveToJsFile('templatesById', 'all/',templatesById, console);
-
-//console.log('...done!');
+saveJsAndJsonFiles('indikatoren',   'portal/', indikatorenInPortal, console);
+saveJsAndJsonFiles('indikatoren',   'all/',    allIndikatoren, console);
+saveJsAndJsonFiles('kuerzelById',   'all/',    kuerzelById, console);
+saveJsAndJsonFiles('idByKuerzel',   'all/',    idByKuerzel, console);
+saveJsAndJsonFiles('templatesById', 'all/',    templatesById, console);
 
 
-function saveToJsFile(name, dir, obj, console){
-    var jsFile = "var " +  name + " = " + JSON.stringify(obj, null, '\t') + ";";
-    fs.writeFile('metadata/' + dir +  name + '.js', jsFile);
+
+function saveJsAndJsonFiles(name, dir, obj, console){
+	saveToJsFile(name, dir, obj, console);
+	saveToJsonFile(name, dir, obj, console);
+	
+	function saveToJsFile(name, dir, obj, console){
+	    var jsFile = "var " +  name + " = " + JSON.stringify(obj, null, '\t') + ";";
+	    fs.writeFileSync('metadata/' + dir +  name + '.js', jsFile);
+	}
+	
+	function saveToJsonFile(name, dir, obj, console){
+	    var jsonFile = JSON.stringify(obj, null, '\t');
+	    fs.writeFileSync('metadata/' + dir +  name + '.json', jsonFile);
+	}
 }
 
-function saveToJsonFile(name, dir, obj, console){
-    var jsonFile = JSON.stringify(obj, null, '\t');
-    fs.writeFile('metadata/' + dir +  name + '.json', jsonFile);
-}
+
