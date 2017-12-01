@@ -1,10 +1,9 @@
 {"title":"Bruttoinlandprodukt pro Kopf in Franken",
 "subtitle":"",
-"kuerzel":"I.04.1.0008",
+"kuerzel":"I.04.1.04906",
 "kuerzelKunde":"",
-"image":"images/I.04.1.0008.jpg",
 "description":"Bruttoinlandprodukt pro Kopf in Franken",
-"id":"4906",
+"id":4906,
 "thema":"04 Volkswirtschaft",
 "unterthema":"Volkseinkommen",
 "kennzahlenset":"",
@@ -20,5 +19,12 @@
 "erlaeuterungen":"",
 "template":"line001",
 "option":"options001",
-"quellenangabe":["Bundesamt für Statistik BFS, Volkswirtschaftliche Gesamtrechnung"]
+"visible":false,
+"visibleInPortal":false,
+"orderKey":"_000",
+"parentId":null,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Bundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung"],
+"externalLinks":[""]
 }
