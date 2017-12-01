@@ -1,6 +1,6 @@
 {"title":"Kantonales BIP im Vergleich zu den Staatsausgaben",
 "subtitle":"indexiert (1995 = 100)",
-"kuerzel":"I.18.1.06205",
+"kuerzel":"I.18.1.06335",
 "kuerzelKunde":"2.4",
 "description":"Kantonales BIP im Vergleich zu den Staatsausgaben",
 "id":6335,
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"",
-"erlaeuterungen":"Indexierte Werte, 1995 = 100.",
+"erlaeuterungen":"Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft.",
 "template":"line001_print",
 "option":"options001",
 "visible":true,
@@ -24,7 +24,7 @@
 "orderKey":"02_00_00_00_00_000",
 "parentId":6205,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Eidgenössische Finanzverwaltung","BAK Economics"],
 "externalLinks":[""]
 }

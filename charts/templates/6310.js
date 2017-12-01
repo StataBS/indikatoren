@@ -14,7 +14,6 @@
   },
   "xAxis": {
     "type": "category",
-	//"tickInterval": 1	
   },  
 "yAxis": [{
   	title: {
@@ -26,7 +25,9 @@
        "color": "black"
         },
     },
-    "min": 0,  },
+    "min": 0,  
+    tickAmount: 5
+  },
   {
     title: {
         text: null
@@ -38,6 +39,7 @@
         },
     },
     "min": 0,
+    tickAmount: 5,
     "opposite": true
   }
   ],

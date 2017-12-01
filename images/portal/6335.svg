@@ -156,22 +156,22 @@
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
-    <text x="20" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="173" opacity="1">
+    <text x="20" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="170" opacity="1">
       <tspan>80</tspan>
     </text>
-    <text x="20" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="149" opacity="1">
+    <text x="20" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="146" opacity="1">
       <tspan>100</tspan>
     </text>
-    <text x="20" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="125" opacity="1">
+    <text x="20" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="122" opacity="1">
       <tspan>120</tspan>
     </text>
-    <text x="20" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="101" opacity="1">
+    <text x="20" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="99" opacity="1">
       <tspan>140</tspan>
     </text>
-    <text x="20" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="77" opacity="1">
+    <text x="20" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="75" opacity="1">
       <tspan>160</tspan>
     </text>
-    <text x="20" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="54" opacity="1">
+    <text x="20" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="51" opacity="1">
       <tspan>180</tspan>
     </text>
   </g>

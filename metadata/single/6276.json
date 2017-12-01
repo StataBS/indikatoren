@@ -1,6 +1,6 @@
 {"title":"Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
 "subtitle":"«Wie zufrieden sind Sie mit der Gesundheitsversorgung?»",
-"kuerzel":"I.50.1.2956",
+"kuerzel":"I.50.1.06276",
 "kuerzelKunde":"9.4",
 "description":"Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
 "id":6276,
@@ -24,7 +24,7 @@
 "orderKey":"09_00_00_00_00_000",
 "parentId":2956,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_8"],
 "externalLinks":[""]
 }

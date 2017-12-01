@@ -68,12 +68,12 @@
             "title": {
                 "style": {
                     "color": "#000000",
-                    "fontSize": null
+                    "fontSize": 10
                 },
-                "text": null
+                "text": ''
             },
             "labels": {
-                "y": 3,
+                y: 3, 
                 "style": {
                     "color": "#000000"
                 }

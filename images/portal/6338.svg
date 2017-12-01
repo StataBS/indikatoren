@@ -134,22 +134,22 @@
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
-    <text x="28" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="185" opacity="1">
+    <text x="28" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="182" opacity="1">
       <tspan>0</tspan>
     </text>
-    <text x="28" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="163" opacity="1">
+    <text x="28" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="161" opacity="1">
       <tspan>1 000</tspan>
     </text>
-    <text x="28" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="142" opacity="1">
+    <text x="28" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="140" opacity="1">
       <tspan>2 000</tspan>
     </text>
-    <text x="28" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="121" opacity="1">
+    <text x="28" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="118" opacity="1">
       <tspan>3 000</tspan>
     </text>
-    <text x="28" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="100" opacity="1">
+    <text x="28" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="97" opacity="1">
       <tspan>4 000</tspan>
     </text>
-    <text x="28" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="79" opacity="1">
+    <text x="28" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="76" opacity="1">
       <tspan>5 000</tspan>
     </text>
   </g>

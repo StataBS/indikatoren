@@ -1,6 +1,6 @@
 {"title":"Segregationsindex nach Staatsangehörigkeit",
 "subtitle":"",
-"kuerzel":"I.01.5.06152",
+"kuerzel":"I.01.5.06305",
 "kuerzelKunde":"4.11",
 "description":"Segregationsindex nach Staatsangehörigkeit",
 "id":6305,
@@ -24,7 +24,7 @@
 "orderKey":"04_00_00_00_00_000",
 "parentId":6152,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
 "externalLinks":[""]
 }

@@ -15,8 +15,10 @@
   "yAxis": {
   	"min": 0,
   	"max": 0.5,
+  	tickAmount: 6,
     "labels": {
-      "format": "{value:,.2f}" 
+      "format": "{value:,.1f}", 
+      y: 3
     }    
   },
   "series": [

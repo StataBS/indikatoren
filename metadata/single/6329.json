@@ -1,6 +1,6 @@
 {"title":"Zahlfälle der Sozialhilfe nach Bezugsdauer",
 "subtitle":"",
-"kuerzel":"I.13.2.06183",
+"kuerzel":"I.13.2.06329",
 "kuerzelKunde":"11.4",
 "description":"Zahlfälle der Sozialhilfe nach Bezugsdauer",
 "id":6329,
@@ -24,7 +24,7 @@
 "orderKey":"11_00_00_00_00_000",
 "parentId":6183,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Sozialhilfestatistik","Departement für Wirtschaft, Soziales und Umwelt"],
 "externalLinks":[""]
 }

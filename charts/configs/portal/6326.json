@@ -63,7 +63,7 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "rotation": 0
+      "rotation": -45
     },
     "tickLength": 0
   },
@@ -132,11 +132,12 @@
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": null
+        "fontSize": 10
       },
-      "text": null
+      "text": ""
     },
     "labels": {
+      "y": 3,
       "style": {
         "fontSize": 10,
         "color": "#000000"
@@ -162,7 +163,7 @@
     "text": "Quelle: Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"
   },
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
@@ -180,6 +181,6 @@
     }
   },
   "exporting": {
-    "filename": "I.14.3.06179"
+    "filename": "I.14.3.06326"
   }
 }

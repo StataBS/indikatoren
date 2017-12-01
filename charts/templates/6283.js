@@ -18,7 +18,8 @@
 	"max": 100,
 	tickInterval: 25,
     "labels": {
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}", 
+      y: 3
     }    
   },
   
@@ -72,7 +73,7 @@
     "verticalAlign": "top",
     "align": "left",
     "x": 35,
-	"y": 35,    
+	  "y": 35,    
     "itemStyle": {
       "fontWeight": "normal"
     }

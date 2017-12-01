@@ -1,6 +1,6 @@
 {"title":"Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung",
 "subtitle":"",
-"kuerzel":"I.13.2.5066",
+"kuerzel":"I.13.2.06281",
 "kuerzelKunde":"11.1",
 "description":"Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung",
 "id":6281,
@@ -24,7 +24,7 @@
 "orderKey":"11_00_00_00_00_000",
 "parentId":5066,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Amt für Sozialbeiträge, Abteilung Prämienverbilligungen"],
 "externalLinks":[""]
 }

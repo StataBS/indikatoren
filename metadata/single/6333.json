@@ -1,6 +1,6 @@
 {"title":"Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 "subtitle":"in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 400 000 Fr.",
-"kuerzel":"I.04.1.06201",
+"kuerzel":"I.04.1.06333",
 "kuerzelKunde":"2.6b",
 "description":"Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 "id":6333,
@@ -24,7 +24,7 @@
 "orderKey":"02_00_00_00_00_000",
 "parentId":6201,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Eidgenössische Steuerverwaltung"],
 "externalLinks":[""]
 }

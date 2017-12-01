@@ -1,13 +1,17 @@
 (function(){
     return {
     "yAxis":{
-    tickInterval:25,
+      tickInterval:25,
+      labels: {
+        y: 12
+      }
     },
  	"xAxis": {
         "type": "category",
         "labels": {
            align: "left",
             x: -125,
+            y: 3,
             style: {
               "fontSize": "9.999px",
             },

@@ -29,7 +29,10 @@
   </g>
   <g class="highcharts-grid highcharts-yaxis-grid ">
     <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 73 167.25 L 317 167.25" opacity="1"/>
-    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 73 108.25 L 317 108.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 73 143.25 L 317 143.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 73 119.25 L 317 119.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 73 96.25 L 317 96.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 73 72.25 L 317 72.25" opacity="1"/>
     <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 73 47.75 L 317 47.75" opacity="1"/>
   </g>
   <rect fill="none" class="highcharts-plot-border" x="73" y="48" width="244" height="119"/>
@@ -131,13 +134,22 @@
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
-    <text x="58" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="173" opacity="1">
+    <text x="58" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="170" opacity="1">
       <tspan>0</tspan>
     </text>
-    <text x="58" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="113" opacity="1">
-      <tspan>250 000 000</tspan>
+    <text x="58" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="146" opacity="1">
+      <tspan>100 000 000</tspan>
     </text>
-    <text x="58" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="54" opacity="1">
+    <text x="58" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="122" opacity="1">
+      <tspan>200 000 000</tspan>
+    </text>
+    <text x="58" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="99" opacity="1">
+      <tspan>300 000 000</tspan>
+    </text>
+    <text x="58" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="75" opacity="1">
+      <tspan>400 000 000</tspan>
+    </text>
+    <text x="58" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="51" opacity="1">
       <tspan>500 000 000</tspan>
     </text>
   </g>

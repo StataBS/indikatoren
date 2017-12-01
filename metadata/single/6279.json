@@ -1,6 +1,6 @@
 {"title":"Transnationale Patentanmeldungen pro 1000 Einwohner",
 "subtitle":"nach ausgewählten Wirtschaftsbranchen;  Stand 2010 bis 2013",
-"kuerzel":"I.04.1.5033",
+"kuerzel":"I.04.1.06279",
 "kuerzelKunde":"3.6",
 "description":"Transnationale Patentanmeldungen pro 1000 Einwohner",
 "id":6279,
@@ -24,7 +24,7 @@
 "orderKey":"03_00_00_00_00_000",
 "parentId":5033,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["BAK Economics"],
 "externalLinks":[""]
 }

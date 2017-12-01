@@ -1,6 +1,6 @@
 {"title":"Transit durch die Region Basel",
 "subtitle":" in Brutto-Tonnen nach Verkehrsträger",
-"kuerzel":"I.06.4.06155",
+"kuerzel":"I.06.4.06307",
 "kuerzelKunde":"5.3",
 "description":"Transit durch die Region Basel",
 "id":6307,
@@ -24,7 +24,7 @@
 "orderKey":"05_00_00_00_00_000",
 "parentId":6155,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Eidgenössische Zollverwaltung EZV"],
 "externalLinks":[""]
 }

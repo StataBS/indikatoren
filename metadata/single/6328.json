@@ -1,6 +1,6 @@
 {"title":"Sozialhilfequote nach Altersgruppe",
 "subtitle":"",
-"kuerzel":"I.13.2.06182",
+"kuerzel":"I.13.2.06328",
 "kuerzelKunde":"11.3",
 "description":"Sozialhilfequote nach Altersgruppe",
 "id":6328,
@@ -24,7 +24,7 @@
 "orderKey":"11_00_00_00_00_000",
 "parentId":6182,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, Sozialhilfestatistik","Departement für Wirtschaft, Soziales und Umwelt"],
 "externalLinks":[""]
 }

@@ -153,7 +153,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "in °C",
     "align": "left"
   },
   "tooltip": {
@@ -167,11 +167,12 @@
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": null
+        "fontSize": 10
       },
-      "text": null
+      "text": ""
     },
     "labels": {
+      "y": 3,
       "style": {
         "fontSize": 10,
         "color": "#000000"
@@ -235,6 +236,6 @@
     }
   },
   "exporting": {
-    "filename": "I.02.19.06166"
+    "filename": "I.02.19.06317"
   }
 }

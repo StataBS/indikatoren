@@ -1,6 +1,6 @@
 {"title":"Beurteilung der kantonalen Verwaltung",
 "subtitle":"«Denken Sie einmal an den letzten Kontakt, den Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»",
-"kuerzel":"I.50.1.06186",
+"kuerzel":"I.50.1.06332",
 "kuerzelKunde":"12.2",
 "description":"Beurteilung der kantonalen Verwaltung",
 "id":6332,
@@ -24,7 +24,7 @@
 "orderKey":"12_00_00_00_00_000",
 "parentId":6186,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F19a"],
 "externalLinks":[""]
 }

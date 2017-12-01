@@ -1,6 +1,7 @@
 (function(){
     return {
   "xAxis": {
+    tickInterval: 1
   },
   "yAxis": {
     tickAmount: 5,

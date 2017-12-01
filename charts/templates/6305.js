@@ -1,7 +1,7 @@
 (function(){
     return {
       chart: {
-        spacing: [1,3,1,3], /*top, right, bottom and left */
+        spacing: [1,3,3,3], /*top, right, bottom and left */
       },
   "xAxis": {
     "tickInterval": 2

@@ -373,7 +373,6 @@ var templatesById = {
 	"6277": "line001_print",
 	"6278": "line001_print",
 	"6279": "template001_print",
-	"6280": "line001_print",
 	"6281": "template001_print",
 	"6282": "line001_print",
 	"6283": "template001_print",
@@ -418,7 +417,6 @@ var templatesById = {
 	"6322": "template001_print",
 	"6323": "line001_print",
 	"6324": "line001_print",
-	"6325": "befragungen001_print",
 	"6326": "line001_print",
 	"6327": "line001_print",
 	"6328": "line001_print",
@@ -441,6 +439,11 @@ var templatesById = {
 	"6346": "line001",
 	"6347": "template001",
 	"6348": "template001",
+	"6368": "line001_print",
+	"6369": "template001_print",
+	"6370": "line001_print",
+	"6371": "template001_print",
+	"6372": "template001_print",
 	"9998": "pie001",
 	"9999": "mappie002"
 };

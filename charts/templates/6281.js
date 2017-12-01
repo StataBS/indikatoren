@@ -2,6 +2,7 @@
     return {
   "yAxis": [{
     "labels": {
+      y: 3,
       "format": "{value:,.0f}",
       "style": {
         "color": "#000000"
@@ -16,12 +17,13 @@
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": null
+        "fontSize": 10
       },
-      "text": null
+      "text": ''
     },
     "labels": {
       "format": "{value:,.0f}%",
+      y: 3,
       "style": {
         "color": "#000000"
       }

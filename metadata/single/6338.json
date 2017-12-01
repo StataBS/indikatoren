@@ -1,6 +1,6 @@
 {"title":"Anzahl Plätze in Tagesbetreuungsangeboten",
 "subtitle":"",
-"kuerzel":"I.13.2.06210",
+"kuerzel":"I.13.2.06338",
 "kuerzelKunde":"4.4",
 "description":"Anzahl Plätze in Tagesbetreuungsangeboten",
 "id":6338,
@@ -24,7 +24,7 @@
 "orderKey":"04_00_00_00_00_000",
 "parentId":6210,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"],
 "externalLinks":[""]
 }

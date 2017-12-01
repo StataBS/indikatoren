@@ -1,6 +1,6 @@
 {"title":"Anteil der Beschäftigten in innovativen Branchen an der gesamten Beschäftigung (Vollzeitäquivalente)",
 "subtitle":"",
-"kuerzel":"I.03.2.06141",
+"kuerzel":"I.03.2.06296",
 "kuerzelKunde":"3.8",
 "description":"Anteil der Beschäftigten in innovativen Branchen an der gesamten Beschäftigung (Vollzeitäquivalente)",
 "id":6296,
@@ -24,7 +24,7 @@
 "orderKey":"03_00_00_00_00_000",
 "parentId":6141,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":[],
 "externalLinks":[""]
 }

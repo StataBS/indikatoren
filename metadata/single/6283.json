@@ -1,6 +1,6 @@
 {"title":"Kantonaler Wettbewerbsindikator (KWI)",
 "subtitle":"Basel-Stadt im nationalen Vergleich, Stand: 2016",
-"kuerzel":"I.04.2.06126",
+"kuerzel":"I.04.2.06283",
 "kuerzelKunde":"1.3",
 "description":"Kantonaler Wettbewerbsindikator (KWI)",
 "id":6283,
@@ -24,7 +24,7 @@
 "orderKey":"01_00_00_00_00_000",
 "parentId":6126,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["UBS Switzerland AG"],
 "externalLinks":[""]
 }

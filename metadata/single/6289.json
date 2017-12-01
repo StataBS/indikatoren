@@ -1,6 +1,6 @@
 {"title":"Ertrag des Kantons Basel-Stadt aus direkten Steuern",
 "subtitle":"in Mio. Franken",
-"kuerzel":"I.04.1.06132",
+"kuerzel":"I.04.1.06289",
 "kuerzelKunde":"2.5",
 "description":"Ertrag des Kantons Basel-Stadt aus direkten Steuern",
 "id":6289,
@@ -24,7 +24,7 @@
 "orderKey":"02_00_00_00_00_000",
 "parentId":6132,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Jahresbericht des Kantons Basel-Stadt"],
 "externalLinks":[""]
 }
