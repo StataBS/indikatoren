@@ -1,6 +1,6 @@
 {"title":"Anzahl Besuche in Theater, Kinos und Museen",
 "subtitle":"",
-"kuerzel":"I.16.1.06169",
+"kuerzel":"I.16.1.06318",
 "kuerzelKunde":"8.2",
 "description":"Anzahl Besuche in Theater, Kinos und Museen",
 "id":6318,
@@ -24,7 +24,7 @@
 "orderKey":"08_00_00_00_00_000",
 "parentId":6169,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Jeweilige Institutionen","ProCinema"],
 "externalLinks":[""]
 }

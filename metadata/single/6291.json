@@ -1,6 +1,6 @@
 {"title":"Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-"subtitle":"Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2016",
-"kuerzel":"I.18.2.06134",
+"subtitle":"Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von <br/> 100 000 Fr.; Stand: 2016",
+"kuerzel":"I.18.2.06291",
 "kuerzelKunde":"2.7a",
 "description":"Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
 "id":6291,
@@ -24,7 +24,7 @@
 "orderKey":"02_00_00_00_00_000",
 "parentId":6134,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Eidgenössische Steuerverwaltung"],
 "externalLinks":[""]
 }

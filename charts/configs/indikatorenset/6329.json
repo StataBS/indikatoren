@@ -310,11 +310,12 @@
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": null
+        "fontSize": 10
       },
-      "text": null
+      "text": ""
     },
     "labels": {
+      "y": 3,
       "style": {
         "fontSize": 10,
         "color": "#000000"
@@ -369,6 +370,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": "I.13.2.06183"
+    "filename": "I.13.2.06329"
   }
 }

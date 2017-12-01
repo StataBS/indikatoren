@@ -20,7 +20,8 @@
 	"max": 100,
 	tickInterval: 25,
     "labels": {
-      "format": "{value}%"
+      "format": "{value}%",
+      y: 3
     }    
   },
   "series": [

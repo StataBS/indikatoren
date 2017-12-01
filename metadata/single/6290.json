@@ -1,6 +1,6 @@
 {"title":"Beurteilung der kantonalen Steuern",
 "subtitle":"«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?»",
-"kuerzel":"I.50.1.06133",
+"kuerzel":"I.50.1.06290",
 "kuerzelKunde":"2.8",
 "description":"Beurteilung der kantonalen Steuern",
 "id":6290,
@@ -24,7 +24,7 @@
 "orderKey":"02_00_00_00_00_000",
 "parentId":6133,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8"],
 "externalLinks":[""]
 }

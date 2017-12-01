@@ -558,6 +558,7 @@
     {
       "labels": {
         "format": "{value:,.0f}",
+        "y": 3,
         "style": {
           "color": "#000000"
         }
@@ -576,6 +577,7 @@
       },
       "labels": {
         "format": "{value:,.0f}",
+        "y": 3,
         "style": {
           "color": "#000000"
         }
@@ -631,6 +633,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": "I.04.1.06184"
+    "filename": "I.04.1.06330"
   }
 }

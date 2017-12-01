@@ -523,7 +523,8 @@
               //use N if all series are visible, otherwise use n
               var nString = (this.chart.series.length == allVisibleSeries.length && this.value == 'Total') ? 'N=' : 'n='; 
           	return this.value + ' (' + nString + sum + ')';
-          }
+          },
+      "y": 3
     }
   },
   "chart": {
@@ -544,7 +545,7 @@
     "width": 665,
     "height": 208,
     "spacing": [
-      3,
+      5,
       0,
       3,
       2
@@ -600,11 +601,12 @@
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": null
+        "fontSize": 10
       },
-      "text": null
+      "text": ""
     },
     "labels": {
+      "y": 12,
       "format": "{value}%",
       "style": {
         "color": "#000000",
@@ -651,6 +653,6 @@
     "enabled": true
   },
   "exporting": {
-    "filename": "I.50.1.06136"
+    "filename": "I.50.1.06292"
   }
 }

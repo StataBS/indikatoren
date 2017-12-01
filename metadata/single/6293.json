@@ -1,6 +1,6 @@
 {"title":"Arbeitslosenquote im Jahresmittel nach Altersgruppe",
 "subtitle":"",
-"kuerzel":"I.03.4.06137",
+"kuerzel":"I.03.4.06293",
 "kuerzelKunde":"3.4",
 "description":"Arbeitslosenquote im Jahresmittel nach Altersgruppe",
 "id":6293,
@@ -24,7 +24,7 @@
 "orderKey":"03_00_00_00_00_000",
 "parentId":6137,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"],
 "externalLinks":[""]
 }

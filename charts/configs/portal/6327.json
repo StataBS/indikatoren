@@ -31,7 +31,7 @@
           2.2
         ]
       ],
-      "name": "FAMI"
+      "name": "Familienmietzinsbeiträge"
     },
     {
       "color": "#007A2F",
@@ -132,11 +132,12 @@
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": null
+        "fontSize": 10
       },
-      "text": null
+      "text": ""
     },
     "labels": {
+      "y": 3,
       "style": {
         "fontSize": 10,
         "color": "#000000"
@@ -154,7 +155,8 @@
         "color": "#000000"
       }
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -195,6 +197,6 @@
     }
   },
   "exporting": {
-    "filename": "I.13.2.06181"
+    "filename": "I.13.2.06327"
   }
 }

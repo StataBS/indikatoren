@@ -115,7 +115,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Doppelverdiener ohne Kinder und einem Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2016",
+    "text": "Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von\u003Cbr\u002F\u003E 100 000 Fr.; Stand: 2016",
     "align": "left"
   },
   "yAxis": {
@@ -125,11 +125,12 @@
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": null
+        "fontSize": 10
       },
-      "text": null
+      "text": ""
     },
     "labels": {
+      "y": 3,
       "style": {
         "fontSize": 10,
         "color": "#000000"
@@ -181,6 +182,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.18.2.06239"
+    "filename": "I.18.2.06342"
   }
 }

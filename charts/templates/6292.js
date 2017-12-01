@@ -17,6 +17,7 @@
       },
       xAxis: {
         labels: {
+          y: 3,
           formatter: function(a, b, c) {
               //console.log(this);
               //add sum of observations of visible series to the axis label
@@ -35,7 +36,10 @@
       },
       yAxis: {
         tickInterval: null, 
-        reversedStacks: false
+        reversedStacks: false,
+        labels: {
+          y: 12,
+        }
       },
       "series": [
       {"color": "#007a2f", "index": 0, "legendIndex":0}, /*grün dunkel2*/

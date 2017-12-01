@@ -1,6 +1,6 @@
 {"title":"Einbürgerungsziffer der Ausländer sowie Ausländeranteil",
 "subtitle":"",
-"kuerzel":"I.01.6.06149",
+"kuerzel":"I.01.6.06302",
 "kuerzelKunde":"4.8",
 "description":"Einbürgerungsziffer der Ausländer sowie Ausländeranteil",
 "id":6302,
@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Einbürgerungsziffer (Anzahl ordentlich eingebürgerte Ausländer pro 1000 Ausländer der mittleren Wohnbevölkerung) unterlag in den vergangenen zehn Jahren diversen Schwankungen. Die Höchstwerte wurden 2007 und 2008 erreicht. Danach ging die Einbürgerungsziffer zurück, 2011 lag sie bei den Männern noch bei 7,3 und bei den Frauen bei 10,3. Nach einem tendenziellen Anstieg in den Jahren 2012 bis 2015 sank sie 2016 erneut auf 7,4 bei den Männern und 8,0 bei den Frauen.",
-"erlaeuterungen":"Die Einbürgerungsziffer in den LP-Kennzahlen wird folgendermassen berechent: Anzahl ordentlich eingebürgerte Ausländer pro 1000 Ausländer der mittleren Wohnbevölkerung; jeweils für Männer und Frauen.",
+"erlaeuterungen":"Die Einbürgerungsziffer wird folgendermassen berechent: Anzahl ordentlich eingebürgerte Ausländer pro 1000 Ausländer der mittleren Wohnbevölkerung; jeweils für Männer und Frauen.",
 "template":"line001_print",
 "option":"options001",
 "visible":true,
@@ -24,7 +24,7 @@
 "orderKey":"04_00_00_00_00_000",
 "parentId":6149,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
 "externalLinks":[""]
 }

@@ -685,7 +685,8 @@
             	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
             },
       "align": "left",
-      "x": -125
+      "x": -125,
+      "y": 3
     }
   },
   "chart": {
@@ -766,11 +767,12 @@
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": null
+        "fontSize": 10
       },
-      "text": null
+      "text": ""
     },
     "labels": {
+      "y": 12,
       "format": "{value}%",
       "style": {
         "color": "#000000",
@@ -815,6 +817,6 @@
         }
   },
   "exporting": {
-    "filename": "I.50.1.06151"
+    "filename": "I.50.1.06304"
   }
 }

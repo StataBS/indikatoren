@@ -148,16 +148,16 @@
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
-    <text x="14" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="185" opacity="1">
+    <text x="14" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="182" opacity="1">
       <tspan>0</tspan>
     </text>
-    <text x="14" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="144" opacity="1">
+    <text x="14" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="141" opacity="1">
       <tspan>20</tspan>
     </text>
-    <text x="14" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="103" opacity="1">
+    <text x="14" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="100" opacity="1">
       <tspan>40</tspan>
     </text>
-    <text x="14" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="62" opacity="1">
+    <text x="14" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="59" opacity="1">
       <tspan>60</tspan>
     </text>
   </g>

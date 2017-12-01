@@ -19,7 +19,7 @@
 "erlaeuterungen":"Für alle Versicherten für alle Versicherungsformen.",
 "template":"line001_print",
 "option":"options001",
-"visible":true,
+"visible":false,
 "visibleInPortal":false,
 "orderKey":"09_00_00_00_00_000",
 "parentId":5065,

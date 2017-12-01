@@ -1,6 +1,6 @@
 {"title":"Bevölkerung nach sozioprofessioneller Kategorie",
 "subtitle":"",
-"kuerzel":"I.01.1.06144",
+"kuerzel":"I.01.1.06298",
 "kuerzelKunde":"4.2",
 "description":"Bevölkerung nach sozioprofessioneller Kategorie",
 "id":6298,
@@ -24,7 +24,7 @@
 "orderKey":"04_00_00_00_00_000",
 "parentId":6144,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)"],
 "externalLinks":[""]
 }

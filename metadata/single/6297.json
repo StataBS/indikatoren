@@ -1,6 +1,6 @@
 {"title":"Bevölkerungsbestand am Jahresende",
 "subtitle":"",
-"kuerzel":"I.01.1.06143",
+"kuerzel":"I.01.1.06297",
 "kuerzelKunde":"4.1",
 "description":"Bevölkerungsbestand am Jahresende",
 "id":6297,
@@ -24,7 +24,7 @@
 "orderKey":"04_00_00_00_00_000",
 "parentId":6143,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
 "externalLinks":[""]
 }

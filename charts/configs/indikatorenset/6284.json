@@ -96,7 +96,8 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "rotation": 0
+      "rotation": 0,
+      "y": 3
     },
     "tickLength": 0
   },
@@ -167,7 +168,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt im Vergleich zum Median-Kanton; Stand: 2016",
+    "text": "Basel-Stadt im Vergleich zum Median-Kanton, Stand: 2016",
     "align": "left"
   },
   "yAxis": {
@@ -177,11 +178,12 @@
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": null
+        "fontSize": 10
       },
-      "text": null
+      "text": ""
     },
     "labels": {
+      "y": 12,
       "style": {
         "fontSize": 10,
         "color": "#000000"
@@ -233,6 +235,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.04.2.06127"
+    "filename": "I.04.2.06284"
   }
 }

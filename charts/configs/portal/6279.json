@@ -172,19 +172,21 @@
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": null
+        "fontSize": 10
       },
-      "text": null
+      "text": ""
     },
     "labels": {
+      "y": 3,
       "style": {
         "fontSize": 10,
         "color": "#000000"
       },
-      "format": "{value:,.2f}"
+      "format": "{value:,.1f}"
     },
     "min": 0,
-    "max": 0.5
+    "max": 0.5,
+    "tickAmount": 6
   },
   "navigation": {
     "menuItemStyle": {
@@ -233,6 +235,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.04.1.5033"
+    "filename": "I.04.1.06279"
   }
 }

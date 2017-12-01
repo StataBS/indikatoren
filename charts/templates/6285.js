@@ -1,12 +1,14 @@
 (function(){
     return {
    "yAxis": {
-    "labels": {
-      "format": "{value:,.0f}",
-    }
+      tickInterval: 100000000,
+      "labels": {
+        "format": "{value:,.0f}",
+      y: 3
+      }
   },
   "xAxis": {
-	"tickInterval": 1,
+	  "tickInterval": 1,
   },
   "series": [
     {

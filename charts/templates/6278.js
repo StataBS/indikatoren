@@ -8,7 +8,8 @@
   	max: 150,
   	tickInterval: 10,
 	"labels": {
-		"format": "{value:,.0f}"
+		"format": "{value:,.0f}",
+		y: 3
 	}
   },	
   "tooltip": {

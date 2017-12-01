@@ -17,7 +17,7 @@
         "backgroundColor": "#fbfbfb",
        	"width": 320,
     	"height": 208, 
-        spacing: [3,0,3,2],
+        spacing: [5,0,3,2],
          "style": {
 			"fontFamily": "Arial",
 			"fontSize": "10px",
@@ -65,11 +65,12 @@
         "title": {
             "style": {
             "color": "#000000",
-            "fontSize": null
+            "fontSize": 10
             },
-            "text": null
+            "text": ''
         },
         "labels": {
+            y: 3, 
             "format": "{value}%",
             "style": {
             "color": "#000000",

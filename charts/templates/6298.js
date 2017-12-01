@@ -13,14 +13,16 @@
     "labels": {
       "rotation": 0,
       padding: -100,
+      y: 3,
     } 
   },
   "yAxis": {
     tickAmount: 7,
   	max: 60000, 
     "labels": {
+      y: 12,
       "format": "{value:,.0f}",
-      pading: 1
+      padding: 1
     }    
   },
   "series": [

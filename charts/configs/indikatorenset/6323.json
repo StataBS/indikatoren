@@ -8,51 +8,39 @@
       "color": "#8b2223",
       "data": [
         [
-          2006,
-          306
-        ],
-        [
-          2007,
-          268
-        ],
-        [
-          2008,
-          310
-        ],
-        [
           2009,
-          374
+          108
         ],
         [
           2010,
-          409
+          103.8
         ],
         [
           2011,
-          464
+          115.6
         ],
         [
           2012,
-          462
+          140.7
         ],
         [
           2013,
-          411
+          124.3
         ],
         [
           2014,
-          350
+          109.9
         ],
         [
           2015,
-          335
+          106.7
         ],
         [
           2016,
-          357.708995143393
+          107.1
         ]
       ],
-      "name": "Gewaltstraftaten pro 100 000 Einwohner"
+      "name": "Straftaten nach StGB"
     }
   ],
   "chart": {
@@ -119,11 +107,12 @@
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": null
+        "fontSize": 10
       },
-      "text": null
+      "text": ""
     },
     "labels": {
+      "y": 3,
       "style": {
         "fontSize": 10,
         "color": "#000000"
@@ -155,9 +144,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Polizeiliche Kriminalitätsstatistk (PKS)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP);\u003Cbr\u002F\u003EPolizeiliche Kriminalitätsstatistk (PKS)"
   },
   "legend": {
     "enabled": false,
@@ -187,6 +176,6 @@
     }
   },
   "exporting": {
-    "filename": "I.14.3.06176"
+    "filename": "I.14.3.06323"
   }
 }

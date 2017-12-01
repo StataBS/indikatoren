@@ -4,9 +4,10 @@
     "tickInterval": 2,
   },
   "yAxis": {
-	"labels": {
-		"format": "{value:,.0f}"
-	}
+    tickInterval: 50000,
+  	"labels": {
+  		"format": "{value:,.0f}"
+  	}
   },	
   "tooltip": {
     "shared": false, 
@@ -31,8 +32,10 @@
 	  ],
   "legend": {
     "enabled": true,
-    "x": 45,
+    //"x": 45,
     //"y": 55,
+    margin: 3,
+    padding: 3,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
