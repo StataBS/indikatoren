@@ -4651,39 +4651,6 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Bruttoinlandprodukt pro Kopf in Franken",
-		"subtitle": "",
-		"kuerzel": "I.04.1.0008",
-		"kuerzelKunde": "",
-		"image": "images/I.04.1.0008.jpg",
-		"description": "Bruttoinlandprodukt pro Kopf in Franken",
-		"id": "4906",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
-		"kennzahlenset": "",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Bevölkerung",
-			"BIP"
-		],
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Entwicklung des BIP pro Kopf verläuft in Basel-Stadt und der Schweiz parallel, allerdings in Basel-Stadt auf doppelt so hohem Niveau. 2013 liegt das Basler BIP mit rund 165 000 Franken pro Kopf gut 87 000 Franken über dem Schweizer BIP.",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"option": "options001",
-		"quellenangabe": [
-			"Bundesamt für Statistik BFS, Volkswirtschaftliche Gesamtrechnung"
-		]
-	},
-	{
 		"title": "Bruttowertschöpfung nach Branchengruppe in Mio. Franken",
 		"subtitle": "",
 		"kuerzel": "I.04.1.0003",
