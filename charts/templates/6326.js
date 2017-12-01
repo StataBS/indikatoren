@@ -11,7 +11,7 @@
   "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": 0 
+      "rotation": -45
     } 
   },
   "yAxis": {
@@ -24,7 +24,7 @@
   {"color": "#CD9C00", "visible": true} /* hellbraun*/
  ],
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",

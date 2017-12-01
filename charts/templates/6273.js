@@ -11,6 +11,7 @@
   "yAxis": {
     min: null,
     "labels": {
+      y: 12,
       "format": "{value}%"
     }    
   },

@@ -19,7 +19,7 @@
 "erlaeuterungen":"",
 "template":"befragungen001_print",
 "option":"options001",
-"visible":true,
+"visible":false,
 "visibleInPortal":false,
 "orderKey":"10_00_00_00_00_000",
 "parentId":6178,

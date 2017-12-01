@@ -172,17 +172,19 @@
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": null
+        "fontSize": 10
       },
-      "text": null
+      "text": ""
     },
     "labels": {
+      "y": 3,
       "style": {
         "fontSize": 10,
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickAmount": 5
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -234,6 +236,6 @@
     }
   },
   "exporting": {
-    "filename": "I.04.1.06132"
+    "filename": "I.04.1.06289"
   }
 }

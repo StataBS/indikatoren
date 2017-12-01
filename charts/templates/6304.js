@@ -1,13 +1,17 @@
 (function(){
     return {
     "yAxis":{
-    tickInterval:25,
+        tickInterval:25,
+        labels: {
+            y: 12,
+        }
     },
  	"xAxis": {
         "type": "category",
         "labels": {
-           align: "left",
+            align: "left",
             x: -125,
+            y: 3,
             "formatter": function() {
                 //add sum of observations of visible series to the axis label
                 var allVisibleSeries = this.chart.series.filter(function(val, i, arr){

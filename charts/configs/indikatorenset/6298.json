@@ -73,7 +73,8 @@
         "color": "#000000"
       },
       "rotation": 0,
-      "padding": -100
+      "padding": -100,
+      "y": 3
     },
     "tickLength": 0
   },
@@ -154,17 +155,18 @@
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": null
+        "fontSize": 10
       },
-      "text": null
+      "text": ""
     },
     "labels": {
+      "y": 12,
       "style": {
         "fontSize": 10,
         "color": "#000000"
       },
       "format": "{value:,.0f}",
-      "pading": 1
+      "padding": 1
     },
     "tickAmount": 7,
     "max": 60000
@@ -213,6 +215,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.01.1.06144"
+    "filename": "I.01.1.06298"
   }
 }

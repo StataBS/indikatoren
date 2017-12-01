@@ -1,6 +1,6 @@
 {"title":"NFA-Ressourcenindex",
 "subtitle":"Basel-Stadt im kantonalen Vergleich, Stand: 2018",
-"kuerzel":"I.04.1.06129",
+"kuerzel":"I.04.1.06286",
 "kuerzelKunde":"2.1",
 "description":"NFA-Ressourcenindex",
 "id":6286,
@@ -24,7 +24,7 @@
 "orderKey":"02_00_00_00_00_000",
 "parentId":6129,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Eidgenössische Finanzverwaltung"],
 "externalLinks":[""]
 }

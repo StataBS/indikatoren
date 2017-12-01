@@ -1,6 +1,6 @@
 {"title":"Schulabgängerinnen und -abgänger ohne Anschlusslösung",
 "subtitle":"nach Schultyp",
-"kuerzel":"I.15.7.06206",
+"kuerzel":"I.15.7.06336",
 "kuerzelKunde":"3.1a",
 "description":"Schulabgängerinnen und -abgänger ohne Anschlusslösung",
 "id":6336,
@@ -24,7 +24,7 @@
 "orderKey":"03_00_00_00_00_000",
 "parentId":6206,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"],
 "externalLinks":[""]
 }

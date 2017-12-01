@@ -553,6 +553,7 @@
           "color": "#000000"
         }
       },
+      "y": 3,
       "min": 0,
       "title": ""
     },
@@ -570,6 +571,7 @@
           "color": "#000000"
         }
       },
+      "y": 3,
       "min": 0,
       "gridLineWidth": 0,
       "opposite": true
@@ -619,6 +621,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": "I.04.1.06131"
+    "filename": "I.04.1.06288"
   }
 }

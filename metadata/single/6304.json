@@ -1,6 +1,6 @@
 {"title":"Bewertung der Lebensqualität nach Geschlecht",
 "subtitle":"«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»",
-"kuerzel":"I.50.1.06151",
+"kuerzel":"I.50.1.06304",
 "kuerzelKunde":"4.10a",
 "description":"Bewertung der Lebensqualität nach Geschlecht",
 "id":6304,
@@ -24,7 +24,7 @@
 "orderKey":"04_00_00_00_00_000",
 "parentId":6151,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"],
 "externalLinks":[""]
 }

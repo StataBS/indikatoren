@@ -1,6 +1,6 @@
 {"title":"Höchste abgeschlossene Ausbildung",
 "subtitle":"«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»",
-"kuerzel":"I.50.1.06136",
+"kuerzel":"I.50.1.06292",
 "kuerzelKunde":"3.3",
 "description":"Höchste abgeschlossene Ausbildung",
 "id":6292,
@@ -24,7 +24,7 @@
 "orderKey":"03_00_00_00_00_000",
 "parentId":6136,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, S15A"],
 "externalLinks":[""]
 }

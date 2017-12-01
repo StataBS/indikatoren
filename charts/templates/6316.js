@@ -25,6 +25,7 @@
       },
       "labels": {
         "format": "{value:,.0f}",
+        y: 3,
          "style": {
          "color": "black"
           },
@@ -38,6 +39,7 @@
       },
       "labels": {
         "format": "{value:,.1f}",
+        y: 3,
          "style": {
          "color": "black"
           },

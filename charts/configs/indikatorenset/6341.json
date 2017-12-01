@@ -708,7 +708,7 @@
         "color": "#000000",
         "width": 1,
         "textOverflow": "none",
-        "fontSize": "9.999px"
+        "fontSize": "9px"
       },
       "formatter": function () {
               //add sum of observations of visible series to the axis label
@@ -725,7 +725,9 @@
           	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
           },
       "align": "left",
-      "x": -150
+      "x": -150,
+      "y": 3,
+      "padding": 0
     }
   },
   "chart": {
@@ -746,10 +748,10 @@
     "width": 600,
     "height": 208,
     "spacing": [
-      3,
-      0,
-      3,
-      2
+      1,
+      1,
+      1,
+      1
     ],
     "style": {
       "fontFamily": "Arial",
@@ -806,11 +808,12 @@
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": null
+        "fontSize": 10
       },
-      "text": null
+      "text": ""
     },
     "labels": {
+      "y": 10,
       "format": "{value}%",
       "style": {
         "color": "#000000",
@@ -855,6 +858,6 @@
         }
   },
   "exporting": {
-    "filename": "I.50.1.06228"
+    "filename": "I.50.1.06341"
   }
 }

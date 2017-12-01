@@ -21,7 +21,7 @@
           755094.785461333
         ]
       ],
-      "name": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen total",
+      "name": "CO₂-Emissionen total",
       "turboThreshold": 0
     },
     {
@@ -48,7 +48,7 @@
           3.9
         ]
       ],
-      "name": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen pro Kopf (rechte Skala)",
+      "name": "CO₂-Emissionen pro Kopf (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -128,7 +128,7 @@
     },
     "align": "left",
     "useHTML": true,
-    "text": "CO2-Emissionen"
+    "text": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen"
   },
   "subtitle": {
     "style": {
@@ -137,7 +137,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "in Tonnen",
     "align": "left"
   },
   "yAxis": [
@@ -147,6 +147,7 @@
       },
       "labels": {
         "format": "{value:,.0f}",
+        "y": 3,
         "style": {
           "color": "black"
         }
@@ -160,6 +161,7 @@
       },
       "labels": {
         "format": "{value:,.1f}",
+        "y": 3,
         "style": {
           "color": "black"
         }
@@ -214,6 +216,6 @@
     "useHTML": true
   },
   "exporting": {
-    "filename": "I.02.5.06165"
+    "filename": "I.02.5.06316"
   }
 }

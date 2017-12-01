@@ -51,7 +51,7 @@
           51229
         ]
       ],
-      "name": "PV-Beziehende (inkl. SH\u002FEL) (linke Achse)"
+      "name": "Beziehende von Prämienverbilligung (inkl. SH\u002FEL)"
     },
     {
       "color": "#7d60a0",
@@ -107,7 +107,7 @@
           25.8463416849137
         ]
       ],
-      "name": "Anteil PV-Beziehende an Wohnbev. in % (rechte Achse)"
+      "name": "Anteil PV-Beziehende an Wohnbev. (rechte Achse)"
     }
   ],
   "chart": {
@@ -199,6 +199,7 @@
   "yAxis": [
     {
       "labels": {
+        "y": 3,
         "format": "{value:,.0f}",
         "style": {
           "color": "#000000"
@@ -213,12 +214,13 @@
       "title": {
         "style": {
           "color": "#000000",
-          "fontSize": null
+          "fontSize": 10
         },
-        "text": null
+        "text": ""
       },
       "labels": {
         "format": "{value:,.0f}%",
+        "y": 3,
         "style": {
           "color": "#000000"
         }
@@ -278,6 +280,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": "I.13.2.5066"
+    "filename": "I.13.2.06281"
   }
 }

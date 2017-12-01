@@ -1,6 +1,6 @@
 {"title":"Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken",
 "subtitle":"",
-"kuerzel":"I.04.1.06211",
+"kuerzel":"I.04.1.06339",
 "kuerzelKunde":"2.2",
 "description":"Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken",
 "id":6339,
@@ -24,7 +24,7 @@
 "orderKey":"02_00_00_00_00_000",
 "parentId":6211,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Jahresbericht des Kantons Basel-Stadt"],
 "externalLinks":[""]
 }

@@ -53,6 +53,10 @@
         [
           2015,
           0.042
+        ],
+        [
+          2016,
+          0.046
         ]
       ],
       "name": "AOX"
@@ -112,6 +116,10 @@
         [
           2015,
           0.08
+        ],
+        [
+          2016,
+          0.08
         ]
       ],
       "name": "AOX-Grenzwert"
@@ -167,7 +175,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Milligramm pro Liter",
+    "text": "in Milligramm pro Liter",
     "align": "left"
   },
   "tooltip": {
@@ -181,11 +189,12 @@
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": null
+        "fontSize": 10
       },
-      "text": null
+      "text": ""
     },
     "labels": {
+      "y": 3,
       "style": {
         "fontSize": 10,
         "color": "#000000"
@@ -245,6 +254,6 @@
     }
   },
   "exporting": {
-    "filename": "I.02.19.06164"
+    "filename": "I.02.19.06315"
   }
 }

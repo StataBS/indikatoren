@@ -5,6 +5,7 @@
   },
     "yAxis": [{
     "labels": {
+      y: 3,
       "format": "{value:,.0f}",
       "style": {
         "color": "#000000"
@@ -24,6 +25,7 @@
       "text": null
     },
     "labels": {
+      y: 3,
       "format": "{value:,.0f}",
       "style": {
         "color": "#000000"
