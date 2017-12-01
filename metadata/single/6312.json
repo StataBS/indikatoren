@@ -1,6 +1,6 @@
 {"title":"Energieverbrauch nach Verbrauchergruppe in Mio. kWh",
-"subtitle":"",
-"kuerzel":"I.08.1.06160",
+"subtitle":"in Mio. kWh",
+"kuerzel":"I.08.1.06312",
 "kuerzelKunde":"7.1",
 "description":"Energieverbrauch nach Verbrauchergruppe in Mio. kWh",
 "id":6312,
@@ -24,7 +24,7 @@
 "orderKey":"07_00_00_00_00_000",
 "parentId":6160,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Energiestatistik"],
 "externalLinks":[""]
 }

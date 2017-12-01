@@ -591,9 +591,9 @@
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": null
+        "fontSize": 10
       },
-      "text": null
+      "text": ""
     },
     "labels": {
       "y": 3,
@@ -689,7 +689,7 @@
     "csv": {
       "dateFormat": "%d.%m.%Y"
     },
-    "filename": "I.01.1.06143"
+    "filename": "I.01.1.06297"
   },
   "scrollbar": {
     "enabled": false

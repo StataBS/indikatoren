@@ -1,6 +1,6 @@
 {"title":"Anzahl Lernende an Basler Berufsfachschulen",
 "subtitle":"nach Herkunft",
-"kuerzel":"I.15.3.06209",
+"kuerzel":"I.15.3.06337",
 "kuerzelKunde":"3.2",
 "description":"Anzahl Lernende an Basler Berufsfachschulen",
 "id":6337,
@@ -24,7 +24,7 @@
 "orderKey":"03_00_00_00_00_000",
 "parentId":6209,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bildungsstatistik"],
 "externalLinks":[""]
 }

@@ -11,18 +11,20 @@
   "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": 0 
+      "rotation": 0,
+      y: 3
     } 
   },
   "yAxis": {
-	"max": 100,
+	  "max": 100,
     "labels": {
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}",
+      y: 12
     }    
   },
   "series": [
-  {"color": "#CD9C00", "visible": true}, /* hellbraun*/
-  {"color": "#83522E", "visible": true} /* dunkelbraun */
+    {"color": "#CD9C00", "visible": true}, /* hellbraun*/
+    {"color": "#83522E", "visible": true} /* dunkelbraun */
   ],
   "legend": {
     "enabled": true,

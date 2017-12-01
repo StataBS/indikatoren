@@ -1,6 +1,6 @@
 {"title":"Beurteilung von gesellschaftlicher Vielfalt",
 "subtitle":"«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Bitte geben Sie mir an, ob das eine sehr grosse, eher grosse, eher nicht so grosse oder gar keine Bereicherung für den Kanton Basel-Stadt ist.»",
-"kuerzel":"I.50.1.06146",
+"kuerzel":"I.50.1.06299",
 "kuerzelKunde":"4.5",
 "description":"Beurteilung von gesellschaftlicher Vielfalt",
 "id":6299,
@@ -24,7 +24,7 @@
 "orderKey":"04_00_00_00_00_000",
 "parentId":6146,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18"],
 "externalLinks":[""]
 }

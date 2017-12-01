@@ -19,15 +19,9 @@
         "enabled": true
       }    
     }, /* dunkelrot */
-    	{"color": "#007A2F",
-	visible:true,
-      "marker": {
-        "enabled": true
-      }    
-    }, /* dunkelgrün */
   ],
   "legend": {
-    "enabled": true,
+    "enabled": false,
     //"x":35,
     //"y": 35,
     "itemWidth": 80,

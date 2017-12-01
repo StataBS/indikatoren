@@ -1,6 +1,6 @@
 {"title":"Anzahl Bezüger von Prämienverbilligungen",
 "subtitle":"",
-"kuerzel":"I.13.2.06173",
+"kuerzel":"I.13.2.06321",
 "kuerzelKunde":"9.3",
 "description":"Anzahl Bezüger von Prämienverbilligungen",
 "id":6321,
@@ -24,7 +24,7 @@
 "orderKey":"09_00_00_00_00_000",
 "parentId":6173,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Amt für Sozialbeiträge, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"],
 "externalLinks":[""]
 }

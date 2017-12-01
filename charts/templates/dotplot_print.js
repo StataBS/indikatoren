@@ -60,11 +60,12 @@
             "title": {
                 "style": {
                     "color": "#000000",
-                    "fontSize": null
+                    "fontSize": 10
                 },
-                "text": null
+                "text": ''
             },
             "labels": {
+                y: 3, 
                 "formatter": function(){
                     return Highcharts.numberFormat((this.value*100),0)+'%';                
                 },

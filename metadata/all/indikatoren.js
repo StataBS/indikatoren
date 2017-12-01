@@ -15071,7 +15071,7 @@ var indikatoren = [
 	{
 		"title": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
 		"subtitle": "Basel-Stadt im nationalen Vergleich, Stand: 2016",
-		"kuerzel": "I.04.1.02501",
+		"kuerzel": "I.04.1.06273",
 		"kuerzelKunde": "1.2",
 		"description": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
 		"id": 6273,
@@ -15088,7 +15088,7 @@ var indikatoren = [
 			"Standort",
 			"Kantonsvergleich"
 		],
-		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -15099,12 +15099,10 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "02_00_00_00_00_000",
 		"parentId": 2501,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -15115,7 +15113,7 @@ var indikatoren = [
 	{
 		"title": "Beurteilung der Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe",
 		"subtitle": "«Es gibt in Basel gute Teilzeitstellen, so dass Väter und Mütter Beruf und Familie unter einen Hut bringen können.»",
-		"kuerzel": "I.50.1.02952",
+		"kuerzel": "I.50.1.06274",
 		"kuerzelKunde": "4.3",
 		"description": "Beurteilung der Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe",
 		"id": 6274,
@@ -15145,9 +15143,7 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_000",
 		"parentId": 2952,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_9"
 		],
@@ -15158,7 +15154,7 @@ var indikatoren = [
 	{
 		"title": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
 		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot?»",
-		"kuerzel": "I.50.1.2953",
+		"kuerzel": "I.50.1.06275",
 		"kuerzelKunde": "8.1",
 		"description": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
 		"id": 6275,
@@ -15191,9 +15187,7 @@ var indikatoren = [
 		"orderKey": "08_00_00_00_00_000",
 		"parentId": 2953,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_12"
 		],
@@ -15204,7 +15198,7 @@ var indikatoren = [
 	{
 		"title": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
 		"subtitle": "«Wie zufrieden sind Sie mit der Gesundheitsversorgung?»",
-		"kuerzel": "I.50.1.2956",
+		"kuerzel": "I.50.1.06276",
 		"kuerzelKunde": "9.4",
 		"description": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
 		"id": 6276,
@@ -15235,9 +15229,7 @@ var indikatoren = [
 		"orderKey": "09_00_00_00_00_000",
 		"parentId": 2956,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_8"
 		],
@@ -15248,7 +15240,7 @@ var indikatoren = [
 	{
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
 		"subtitle": "nach Geschlecht",
-		"kuerzel": "I.15.7.3051",
+		"kuerzel": "I.15.7.06277",
 		"kuerzelKunde": "3.1b",
 		"description": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
 		"id": 6277,
@@ -15278,9 +15270,7 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_000",
 		"parentId": 3051,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"
 		],
@@ -15291,7 +15281,7 @@ var indikatoren = [
 	{
 		"title": "Globale und kontinentale Erreichbarkeit",
 		"subtitle": "Stadt Basel im nationalen Vergleich",
-		"kuerzel": "I.11.1.03104",
+		"kuerzel": "I.11.1.06278",
 		"kuerzelKunde": "5.1",
 		"description": "Globale und kontinentale Erreichbarkeit",
 		"id": 6278,
@@ -15314,7 +15304,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel hat sich zwischen 2000 und 2014 verbessert. Die Entwicklung bei den anderen Schweizer Städte verläuft im gleichen Zeitraum identisch. Die Stadt Zürich bewegt sich auf einem höheren Niveau als Basel und Genf, die Stadt Bern liegt darunter. Die Entwicklung bei der globalen Erreichbarkeit verläuft bei allen Städten parallel und über die Jahre auf gleichbleibendem Niveau. Basel bewegt sich bei diesem indikator zusammen mit Genf zwischen dem Level von Zürich und Bern.",
-		"erlaeuterungen": "Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002; globale Erreichbarkeit = Erreichbarkeit von Regionen ausserhalb Europas; kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAKBASEL basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Ihnen liegen Strassenerreichbarkeit, Bahnfahr- und Flugpläne zugrunde. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
+		"erlaeuterungen": "Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002; globale Erreichbarkeit = Erreichbarkeit von Regionen ausserhalb Europas; kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Ihnen liegen Strassenerreichbarkeit, Bahnfahr- und Flugpläne zugrunde. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
 		"template": "line001_print",
 		"option": "options001",
 		"visible": true,
@@ -15322,9 +15312,7 @@ var indikatoren = [
 		"orderKey": "05_00_00_00_00_000",
 		"parentId": 3104,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -15335,7 +15323,7 @@ var indikatoren = [
 	{
 		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner",
 		"subtitle": "nach ausgewählten Wirtschaftsbranchen;  Stand 2010 bis 2013",
-		"kuerzel": "I.04.1.5033",
+		"kuerzel": "I.04.1.06279",
 		"kuerzelKunde": "3.6",
 		"description": "Transnationale Patentanmeldungen pro 1000 Einwohner",
 		"id": 6279,
@@ -15366,9 +15354,7 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_000",
 		"parentId": 5033,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -15377,53 +15363,9 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Kantonale Durchschnittsprämien je versicherte Person in Franken, Basel-Stadt im Vergleich zu BL, AG und SO",
-		"subtitle": "",
-		"kuerzel": "I.14.4.5065",
-		"kuerzelKunde": "9.1",
-		"description": "Kantonale Durchschnittsprämien je versicherte Person in Franken, Basel-Stadt im Vergleich zu BL, AG und SO",
-		"id": 6280,
-		"thema": "14 Gesundheit",
-		"unterthema": "Prävention, Praxen, Rettung",
-		"kennzahlenset": "Legislaturplan (Print)",
-		"raeumlicheGliederung": [
-			"Kanton",
-			"Schweiz"
-		],
-		"aktualisierungsdatum": "2017-03-02T13:21:53.5353",
-		"schlagwort": [
-			"Bevölkerung",
-			"Spital",
-			"Kantonsvergleich"
-		],
-		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die kantonale Durchschnittsprämie lag 2015 in Basel-Stadt bei 4 515 Franken pro Person und damit gut 1 200 Franken über dem landesweiten Mittel. Der relative Anstieg seit 2006 beträgt in Basel-Stadt 26% und damit ein Prozent weniger als in der gesamten Schweiz. Der Kanton Solothurn verzeichnete in den vergangenen 10 Jahren mit gut 38% den höchsten Anstieg.",
-		"erlaeuterungen": "Für alle Versicherten für alle Versicherungsformen.",
-		"template": "line001_print",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
-		"orderKey": "09_00_00_00_00_000",
-		"parentId": 5065,
-		"children": [],
-		"renderLink": [
-			""
-		],
-		"quellenangabe": [
-			"Bundesamt für Gesundheit (BAG)"
-		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
 		"title": "Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung",
 		"subtitle": "",
-		"kuerzel": "I.13.2.5066",
+		"kuerzel": "I.13.2.06281",
 		"kuerzelKunde": "11.1",
 		"description": "Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung",
 		"id": 6281,
@@ -15452,9 +15394,7 @@ var indikatoren = [
 		"orderKey": "11_00_00_00_00_000",
 		"parentId": 5066,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Amt für Sozialbeiträge, Abteilung Prämienverbilligungen"
@@ -15466,7 +15406,7 @@ var indikatoren = [
 	{
 		"title": "Bruttoinlandprodukt in Franken pro Einwohner",
 		"subtitle": "nach Kanton",
-		"kuerzel": "I.04.1.06124",
+		"kuerzel": "I.04.1.06282",
 		"kuerzelKunde": "1.1",
 		"description": "Bruttoinlandprodukt in Franken pro Einwohner",
 		"id": 6282,
@@ -15483,7 +15423,7 @@ var indikatoren = [
 			"BIP",
 			"Beschäftigte"
 		],
-		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -15494,12 +15434,10 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "02_00_00_00_00_000",
 		"parentId": 6124,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -15510,7 +15448,7 @@ var indikatoren = [
 	{
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
 		"subtitle": "Basel-Stadt im nationalen Vergleich, Stand: 2016",
-		"kuerzel": "I.04.2.06126",
+		"kuerzel": "I.04.2.06283",
 		"kuerzelKunde": "1.3",
 		"description": "Kantonaler Wettbewerbsindikator (KWI)",
 		"id": 6283,
@@ -15540,9 +15478,7 @@ var indikatoren = [
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": 6126,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"UBS Switzerland AG"
 		],
@@ -15552,8 +15488,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Kantonales Wettbewerbsprofil",
-		"subtitle": "Basel-Stadt im Vergleich zum Median-Kanton; Stand: 2016",
-		"kuerzel": "I.04.2.06127",
+		"subtitle": "Basel-Stadt im Vergleich zum Median-Kanton, Stand: 2016",
+		"kuerzel": "I.04.2.06284",
 		"kuerzelKunde": "1.4",
 		"description": "Kantonales Wettbewerbsprofil",
 		"id": 6284,
@@ -15581,9 +15517,7 @@ var indikatoren = [
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": 6127,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"UBS Switzerland AG"
 		],
@@ -15594,7 +15528,7 @@ var indikatoren = [
 	{
 		"title": "Steuereinnahmen aus Quellensteuer",
 		"subtitle": "in Franken",
-		"kuerzel": "I.04.1.06128",
+		"kuerzel": "I.04.1.06285",
 		"kuerzelKunde": "1.5",
 		"description": "Steuereinnahmen aus Quellensteuer",
 		"id": 6285,
@@ -15622,9 +15556,7 @@ var indikatoren = [
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": 6128,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
@@ -15635,7 +15567,7 @@ var indikatoren = [
 	{
 		"title": "NFA-Ressourcenindex",
 		"subtitle": "Basel-Stadt im kantonalen Vergleich, Stand: 2018",
-		"kuerzel": "I.04.1.06129",
+		"kuerzel": "I.04.1.06286",
 		"kuerzelKunde": "2.1",
 		"description": "NFA-Ressourcenindex",
 		"id": 6286,
@@ -15663,9 +15595,7 @@ var indikatoren = [
 		"orderKey": "02_00_00_00_00_000",
 		"parentId": 6129,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
@@ -15676,7 +15606,7 @@ var indikatoren = [
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 80 000 Fr.",
-		"kuerzel": "I.04.1.06130",
+		"kuerzel": "I.04.1.06287",
 		"kuerzelKunde": "2.6a",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"id": 6287,
@@ -15707,9 +15637,7 @@ var indikatoren = [
 		"orderKey": "02_00_00_00_00_000",
 		"parentId": 6130,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Steuerverwaltung"
 		],
@@ -15720,7 +15648,7 @@ var indikatoren = [
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
 		"subtitle": "pro Kopf in Franken",
-		"kuerzel": "I.04.1.06131",
+		"kuerzel": "I.04.1.06288",
 		"kuerzelKunde": "2.3",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
 		"id": 6288,
@@ -15748,9 +15676,7 @@ var indikatoren = [
 		"orderKey": "02_00_00_00_00_000",
 		"parentId": 6131,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
@@ -15761,7 +15687,7 @@ var indikatoren = [
 	{
 		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
 		"subtitle": "in Mio. Franken",
-		"kuerzel": "I.04.1.06132",
+		"kuerzel": "I.04.1.06289",
 		"kuerzelKunde": "2.5",
 		"description": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
 		"id": 6289,
@@ -15789,9 +15715,7 @@ var indikatoren = [
 		"orderKey": "02_00_00_00_00_000",
 		"parentId": 6132,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
 		],
@@ -15802,7 +15726,7 @@ var indikatoren = [
 	{
 		"title": "Beurteilung der kantonalen Steuern",
 		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?»",
-		"kuerzel": "I.50.1.06133",
+		"kuerzel": "I.50.1.06290",
 		"kuerzelKunde": "2.8",
 		"description": "Beurteilung der kantonalen Steuern",
 		"id": 6290,
@@ -15831,9 +15755,7 @@ var indikatoren = [
 		"orderKey": "02_00_00_00_00_000",
 		"parentId": 6133,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8"
 		],
@@ -15843,8 +15765,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"subtitle": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2016",
-		"kuerzel": "I.18.2.06134",
+		"subtitle": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von <br/> 100 000 Fr.; Stand: 2016",
+		"kuerzel": "I.18.2.06291",
 		"kuerzelKunde": "2.7a",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
 		"id": 6291,
@@ -15872,9 +15794,7 @@ var indikatoren = [
 		"orderKey": "02_00_00_00_00_000",
 		"parentId": 6134,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Steuerverwaltung"
 		],
@@ -15885,7 +15805,7 @@ var indikatoren = [
 	{
 		"title": "Höchste abgeschlossene Ausbildung",
 		"subtitle": "«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»",
-		"kuerzel": "I.50.1.06136",
+		"kuerzel": "I.50.1.06292",
 		"kuerzelKunde": "3.3",
 		"description": "Höchste abgeschlossene Ausbildung",
 		"id": 6292,
@@ -15915,9 +15835,7 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_000",
 		"parentId": 6136,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, S15A"
 		],
@@ -15928,7 +15846,7 @@ var indikatoren = [
 	{
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
 		"subtitle": "",
-		"kuerzel": "I.03.4.06137",
+		"kuerzel": "I.03.4.06293",
 		"kuerzelKunde": "3.4",
 		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
 		"id": 6293,
@@ -15958,9 +15876,7 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_000",
 		"parentId": 6137,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
@@ -15971,7 +15887,7 @@ var indikatoren = [
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
 		"subtitle": "pro Kopf in Franken",
-		"kuerzel": "I.04.1.06138",
+		"kuerzel": "I.04.1.06294",
 		"kuerzelKunde": "3.5",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
 		"id": 6294,
@@ -16003,9 +15919,7 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_000",
 		"parentId": 6138,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
@@ -16016,7 +15930,7 @@ var indikatoren = [
 	{
 		"title": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft",
 		"subtitle": "Anteil am BIP",
-		"kuerzel": "I.04.2.06140",
+		"kuerzel": "I.04.2.06295",
 		"kuerzelKunde": "3.7",
 		"description": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft",
 		"id": 6295,
@@ -16039,7 +15953,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "In der Nordwestschweiz machten 2012 die Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft 7,3% des Bruttoinlandprodukts aus. Dieser Anteil ist höher als 2008, als er noch bei 6,6% lag.",
-		"erlaeuterungen": "Revidierte Zahlen zu den Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft für das Jahr 2012. Die Grossregion Genferseeregion umfasst die Kantone Waadt, Wallis und Genf. Die Grossregion Nordwestschweiz beinhaltet die Kantone Basel-Stadt, Basel-Landschaft und Aargau. Die Grossregion Zürich entspricht dem Kanton Zürich. BIP= Bruttoinlandprodukt.",
+		"erlaeuterungen": "Revidierte Zahlen zu den Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft für das Jahr 2012. Die Grossregion Genferseeregion umfasst die Kantone Waadt, Wallis und Genf. Die Grossregion Nordwestschweiz beinhaltet die Kantone Basel-Stadt, Basel-Landschaft und Aargau. Die Grossregion Zürich entspricht dem Kanton Zürich. BIP = Bruttoinlandprodukt.",
 		"template": "template001_print",
 		"option": "options001",
 		"visible": true,
@@ -16047,9 +15961,7 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_000",
 		"parentId": 6140,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
 		],
@@ -16060,7 +15972,7 @@ var indikatoren = [
 	{
 		"title": "Anteil der Beschäftigten in innovativen Branchen an der gesamten Beschäftigung (Vollzeitäquivalente)",
 		"subtitle": "",
-		"kuerzel": "I.03.2.06141",
+		"kuerzel": "I.03.2.06296",
 		"kuerzelKunde": "3.8",
 		"description": "Anteil der Beschäftigten in innovativen Branchen an der gesamten Beschäftigung (Vollzeitäquivalente)",
 		"id": 6296,
@@ -16090,9 +16002,7 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_000",
 		"parentId": 6141,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [],
 		"externalLinks": [
 			""
@@ -16101,7 +16011,7 @@ var indikatoren = [
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
 		"subtitle": "",
-		"kuerzel": "I.01.1.06143",
+		"kuerzel": "I.01.1.06297",
 		"kuerzelKunde": "4.1",
 		"description": "Bevölkerungsbestand am Jahresende",
 		"id": 6297,
@@ -16129,9 +16039,7 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_000",
 		"parentId": 6143,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -16142,7 +16050,7 @@ var indikatoren = [
 	{
 		"title": "Bevölkerung nach sozioprofessioneller Kategorie",
 		"subtitle": "",
-		"kuerzel": "I.01.1.06144",
+		"kuerzel": "I.01.1.06298",
 		"kuerzelKunde": "4.2",
 		"description": "Bevölkerung nach sozioprofessioneller Kategorie",
 		"id": 6298,
@@ -16170,9 +16078,7 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_000",
 		"parentId": 6144,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -16183,7 +16089,7 @@ var indikatoren = [
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
 		"subtitle": "«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Bitte geben Sie mir an, ob das eine sehr grosse, eher grosse, eher nicht so grosse oder gar keine Bereicherung für den Kanton Basel-Stadt ist.»",
-		"kuerzel": "I.50.1.06146",
+		"kuerzel": "I.50.1.06299",
 		"kuerzelKunde": "4.5",
 		"description": "Beurteilung von gesellschaftlicher Vielfalt",
 		"id": 6299,
@@ -16214,9 +16120,7 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_000",
 		"parentId": 6146,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18"
 		],
@@ -16227,7 +16131,7 @@ var indikatoren = [
 	{
 		"title": "Verhältnis der Löhne von Frauen und Männern in Basel-Stadt",
 		"subtitle": "",
-		"kuerzel": "I.03.3.06147",
+		"kuerzel": "I.03.3.06300",
 		"kuerzelKunde": "4.6",
 		"description": "Verhältnis der Löhne von Frauen und Männern in Basel-Stadt",
 		"id": 6300,
@@ -16258,9 +16162,7 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_000",
 		"parentId": 6147,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
@@ -16271,7 +16173,7 @@ var indikatoren = [
 	{
 		"title": "Anteil Arbeitnehmende in Unternehmensleitung oder Vorgesetztenfunktion nach Geschlecht",
 		"subtitle": "",
-		"kuerzel": "I.03.1.06148",
+		"kuerzel": "I.03.1.06301",
 		"kuerzelKunde": "4.7",
 		"description": "Anteil Arbeitnehmende in Unternehmensleitung oder Vorgesetztenfunktion nach Geschlecht",
 		"id": 6301,
@@ -16294,7 +16196,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil der Arbeitnehmenden in Leitungsposition betrug 2016 bei den Männern etwa 38%, bei den Frauen rund 27%.",
-		"erlaeuterungen": "Sie Ergebnisse basieren auf der Hochrechnung einer Stichprobenerhebung von rund 1 500 in Basel-Stadt wohnhaften Personen. Bei der Interpretation der Ergebnisse muss die Unsicherheit von Stichprobenerhebungen berücksichtigt werden.",
+		"erlaeuterungen": "Die Ergebnisse basieren auf der Hochrechnung einer Stichprobenerhebung von rund 1 500 in Basel-Stadt wohnhaften Personen. Bei der Interpretation der Ergebnisse muss die Unsicherheit von Stichprobenerhebungen berücksichtigt werden.",
 		"template": "line001_print",
 		"option": "options001",
 		"visible": true,
@@ -16302,9 +16204,7 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_000",
 		"parentId": 6148,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
 		],
@@ -16315,7 +16215,7 @@ var indikatoren = [
 	{
 		"title": "Einbürgerungsziffer der Ausländer sowie Ausländeranteil",
 		"subtitle": "",
-		"kuerzel": "I.01.6.06149",
+		"kuerzel": "I.01.6.06302",
 		"kuerzelKunde": "4.8",
 		"description": "Einbürgerungsziffer der Ausländer sowie Ausländeranteil",
 		"id": 6302,
@@ -16340,7 +16240,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Einbürgerungsziffer (Anzahl ordentlich eingebürgerte Ausländer pro 1000 Ausländer der mittleren Wohnbevölkerung) unterlag in den vergangenen zehn Jahren diversen Schwankungen. Die Höchstwerte wurden 2007 und 2008 erreicht. Danach ging die Einbürgerungsziffer zurück, 2011 lag sie bei den Männern noch bei 7,3 und bei den Frauen bei 10,3. Nach einem tendenziellen Anstieg in den Jahren 2012 bis 2015 sank sie 2016 erneut auf 7,4 bei den Männern und 8,0 bei den Frauen.",
-		"erlaeuterungen": "Die Einbürgerungsziffer in den LP-Kennzahlen wird folgendermassen berechent: Anzahl ordentlich eingebürgerte Ausländer pro 1000 Ausländer der mittleren Wohnbevölkerung; jeweils für Männer und Frauen.",
+		"erlaeuterungen": "Die Einbürgerungsziffer wird folgendermassen berechent: Anzahl ordentlich eingebürgerte Ausländer pro 1000 Ausländer der mittleren Wohnbevölkerung; jeweils für Männer und Frauen.",
 		"template": "line001_print",
 		"option": "options001",
 		"visible": true,
@@ -16348,9 +16248,7 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_000",
 		"parentId": 6149,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -16361,7 +16259,7 @@ var indikatoren = [
 	{
 		"title": "Mittelwert und Median des Reineinkommens im Kanton Basel-Stadt",
 		"subtitle": "in Franken",
-		"kuerzel": "I.18.2.06150",
+		"kuerzel": "I.18.2.06303",
 		"kuerzelKunde": "4.9",
 		"description": "Mittelwert und Median des Reineinkommens im Kanton Basel-Stadt",
 		"id": 6303,
@@ -16391,9 +16289,7 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_000",
 		"parentId": 6150,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
@@ -16404,7 +16300,7 @@ var indikatoren = [
 	{
 		"title": "Bewertung der Lebensqualität nach Geschlecht",
 		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»",
-		"kuerzel": "I.50.1.06151",
+		"kuerzel": "I.50.1.06304",
 		"kuerzelKunde": "4.10a",
 		"description": "Bewertung der Lebensqualität nach Geschlecht",
 		"id": 6304,
@@ -16432,9 +16328,7 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_000",
 		"parentId": 6151,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
 		],
@@ -16445,7 +16339,7 @@ var indikatoren = [
 	{
 		"title": "Segregationsindex nach Staatsangehörigkeit",
 		"subtitle": "",
-		"kuerzel": "I.01.5.06152",
+		"kuerzel": "I.01.5.06305",
 		"kuerzelKunde": "4.11",
 		"description": "Segregationsindex nach Staatsangehörigkeit",
 		"id": 6305,
@@ -16474,9 +16368,7 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_000",
 		"parentId": 6152,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -16487,7 +16379,7 @@ var indikatoren = [
 	{
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "Indexwert (Basis 2010 = 100)",
-		"kuerzel": "I.11.6.06154",
+		"kuerzel": "I.11.6.06306",
 		"kuerzelKunde": "5.2",
 		"description": "Verkehrsleistungsindex",
 		"id": 6306,
@@ -16515,9 +16407,7 @@ var indikatoren = [
 		"orderKey": "05_00_00_00_00_000",
 		"parentId": 6154,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -16528,7 +16418,7 @@ var indikatoren = [
 	{
 		"title": "Transit durch die Region Basel",
 		"subtitle": " in Brutto-Tonnen nach Verkehrsträger",
-		"kuerzel": "I.06.4.06155",
+		"kuerzel": "I.06.4.06307",
 		"kuerzelKunde": "5.3",
 		"description": "Transit durch die Region Basel",
 		"id": 6307,
@@ -16559,9 +16449,7 @@ var indikatoren = [
 		"orderKey": "05_00_00_00_00_000",
 		"parentId": 6155,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Zollverwaltung EZV"
 		],
@@ -16572,7 +16460,7 @@ var indikatoren = [
 	{
 		"title": "Jährlich durch  Stau generierte Verzögerungszeit",
 		"subtitle": "Basel im nationalen Vergleich",
-		"kuerzel": "I.11.6.06156",
+		"kuerzel": "I.11.6.06308",
 		"kuerzelKunde": "5.4",
 		"description": "Jährlich durch  Stau generierte Verzögerungszeit",
 		"id": 6308,
@@ -16592,7 +16480,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Eine Verzögerungszeit von 27% bedeutet, dass eine durchschnittliche Reise 27% länger dauert als dies unter staufreien Bedingungen der Fall wäre.",
-		"erlaeuterungen": "Detaillierte Informationen zu den TomTom Staudaten und der angewandten Methodik finden Sie <a href='http://www.congres-atecitsfrance.fr/wp-content/uploads/2013/12/COHN_com085-Atelier-A7.pdf' target='_blank'> hier</a> und <a href='https://www.tomtom.com/en_gb/trafficindex/about' target='_blank'> hier</a>.",
+		"erlaeuterungen": "Damit die urbanen Flächen für die der Index berechnet wird international vergleichbar sind, wurden sie von TomTom individuell definiert. Detaillierte Informationen zu den TomTom Staudaten und der angewandten Methodik sind hier zu finden: <br/>-  <a href=’https://www.google.ch/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwi10_XS-c_XAhVS46QKHf26CBUQFggoMAA&url=http%3A%2F%2Fwww.congres-atecitsfrance.fr%2Fwp-content%2Fuploads%2F2013%2F12%2FCOHN_com085-Atelier-A7.pdf&usg=AOvVaw2VO2AxK37y7-LebxQcI6el’ target=’_blank’>TomTom Traffic Index: Toward a Global Measure  </a> <br/> -  <a href=’https://www.tomtom.com/en_gb/trafficindex/about’ target=’_blank’>TomTom Traffic Index: About  </a> <br/>  -  TomTom Traffic Index: <a href=’https://www.tomtom.com/en_gb/trafficindex/city/basel’ target=’_blank’>Basel</a>, <a href=’https://www.tomtom.com/en_gb/trafficindex/city/GNV’ target=’_blank’>Genf</a>, <a href=’https://www.tomtom.com/en_gb/trafficindex/city/ZUR’ target=’_blank’>Zürich</a>, <a href=’https://www.tomtom.com/en_gb/trafficindex/city/bern’ target=’_blank’>Bern</a>",
 		"template": "line001_print",
 		"option": "options001",
 		"visible": true,
@@ -16600,11 +16488,9 @@ var indikatoren = [
 		"orderKey": "05_00_00_00_00_000",
 		"parentId": 6156,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
-			"TomTom"
+			"TomTom International"
 		],
 		"externalLinks": [
 			""
@@ -16612,8 +16498,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO2) und Feinstaub (PM10)",
-		"subtitle": "in Mikrogramm pro m3",
-		"kuerzel": "I.02.5.06157",
+		"subtitle": "in Mikrogramm pro m<sup>3</sup>",
+		"kuerzel": "I.02.5.06309",
 		"kuerzelKunde": "7.7",
 		"description": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO2) und Feinstaub (PM10)",
 		"id": 6309,
@@ -16633,7 +16519,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Sowohl die Stickstoffdioxid- als auch die Feinstaubkonzentrationen lagen 2016 mit 25 resp. 16 Mikrogramm pro Kubikmeter unter dem jeweiligen Grenzwert.",
-		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Stickoxide (NOx) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO2) und andere Reizgase begünstigen Erkrankungen der Atemwege. Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO2, NOx, NH3, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m3. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO2), Spalenring (NO2), Dreirosenbrücke Süd (NO2). Für Details zu den Stationen siehe Link \"Luftqualität in der Nordwestschweiz\" unter weiterführende Informationen.",
+		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. <br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege. <br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>. <br><br>Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>). Für Details zu den Stationen siehe Link «Luftqualität in der Nordwestschweiz».",
 		"template": "line001_print",
 		"option": "options001",
 		"visible": true,
@@ -16641,22 +16527,20 @@ var indikatoren = [
 		"orderKey": "07_00_00_00_00_000",
 		"parentId": 6157,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://luft-bs-so.ch/messdaten'>Luftqualität in der Nordwestschweiz</a></li><li><a href='http://www.admin.ch/opc/de/classified-compilation/19850321/index.html'>Luftreinhalte-Verordnung (LRV)</a></li></ul>"
+			""
 		]
 	},
 	{
-		"title": "CO2-Emissionen Verkehr",
-		"subtitle": "",
-		"kuerzel": "I.02.5.06158",
+		"title": "CO<sub>2</sub>-Emissionen Verkehr",
+		"subtitle": "in Tonnen",
+		"kuerzel": "I.02.5.06310",
 		"kuerzelKunde": "5.5",
-		"description": "CO2-Emissionen Verkehr",
+		"description": "CO<sub>2</sub>-Emissionen Verkehr",
 		"id": 6310,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
@@ -16676,7 +16560,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2014 waren die durch den Verkehr verursachten CO2-Emissionen sowohl total als auch pro Kopf geringer als noch 2010.",
-		"erlaeuterungen": "Die CO2-Produktion des Verkehrs berechnet sich aus der Summe der Verbräuche von Benzin und Diesel multipliziert mit den jeweiligen Emissionskoeffizienten von CO2. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO2-Verbrauch durch die mittlere Bevölkerung dividiert. Die Verbräuche von Benzin und Diesel werden im Gesamtverkehrsmodell modelliert.",
+		"erlaeuterungen": "Die CO<sub>2</sub>-Produktion des Verkehrs berechnet sich aus der Summe der Verbräuche von Benzin und Diesel multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Verbrauch durch die mittlere Bevölkerung dividiert. Die Verbräuche von Benzin und Diesel werden im Gesamtverkehrsmodell modelliert.",
 		"template": "template001_print",
 		"option": "options001",
 		"visible": true,
@@ -16684,9 +16568,7 @@ var indikatoren = [
 		"orderKey": "05_00_00_00_00_000",
 		"parentId": 6158,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -16695,14 +16577,14 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Anteil übermässig mit Lärm belasteter Einwohner",
+		"title": "Übermässig mit Lärm belastete Wohnbevölkerung",
 		"subtitle": "in %",
-		"kuerzel": "I.02.5.06159",
+		"kuerzel": "I.02.14.06311",
 		"kuerzelKunde": "7.8",
-		"description": "Anteil übermässig mit Lärm belasteter Einwohner",
+		"description": "Übermässig mit Lärm belastete Wohnbevölkerung",
 		"id": 6311,
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "Luftschadstoffe",
+		"unterthema": "Lärm",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -16718,7 +16600,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB (A) ausgesetzt sind, betrug 2010 knapp 24%. Bei 14% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16% der Grenzwert in der Nacht.",
-		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Stufen II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB (A) Tag, 50 dB (A) Nacht, ES III: 65 dB (A) Tag, 55 dB (A) Nacht; dB (A) ist die übliche Masseinheit zur Messung von Lärmstärke.Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmission an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
+		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Stufen II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmission an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
 		"template": "template001_print",
 		"option": "options001",
 		"visible": true,
@@ -16726,9 +16608,7 @@ var indikatoren = [
 		"orderKey": "07_00_00_00_00_000",
 		"parentId": 6159,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster"
 		],
@@ -16738,8 +16618,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Energieverbrauch nach Verbrauchergruppe in Mio. kWh",
-		"subtitle": "",
-		"kuerzel": "I.08.1.06160",
+		"subtitle": "in Mio. kWh",
+		"kuerzel": "I.08.1.06312",
 		"kuerzelKunde": "7.1",
 		"description": "Energieverbrauch nach Verbrauchergruppe in Mio. kWh",
 		"id": 6312,
@@ -16767,9 +16647,7 @@ var indikatoren = [
 		"orderKey": "07_00_00_00_00_000",
 		"parentId": 6160,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -16780,7 +16658,7 @@ var indikatoren = [
 	{
 		"title": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
 		"subtitle": "",
-		"kuerzel": "I.08.3.06161",
+		"kuerzel": "I.08.3.06313",
 		"kuerzelKunde": "7.2",
 		"description": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
 		"id": 6313,
@@ -16801,7 +16679,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2010 lag der Anteil der erneuerbaren Energieträger bei 35,0%. Zwei Jahre später fiel der Wert mit 36,2% bereits höher aus. Im Jahr 2014  stammte 37,9% der Energie aus erneuerbaren Quellen.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Schlamm, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).<br><br>Die Summe der Verbräuche der erneuerbaren Energien wird durch den Gesamtenergieverbrauch dividiert.",
 		"template": "template001_print",
 		"option": "options001",
 		"visible": true,
@@ -16809,9 +16687,7 @@ var indikatoren = [
 		"orderKey": "07_00_00_00_00_000",
 		"parentId": 6161,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -16822,7 +16698,7 @@ var indikatoren = [
 	{
 		"title": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
 		"subtitle": "",
-		"kuerzel": "I.09.6.06163",
+		"kuerzel": "I.09.6.06314",
 		"kuerzelKunde": "7.3",
 		"description": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
 		"id": 6314,
@@ -16842,7 +16718,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und 2016 von ca. 194 auf 151 kg pro Kopf. Die Recyclingquote stieg von ca. 41% auf fast 45%.",
-		"erlaeuterungen": "Die Berechnungsmethode für die Recyclingquote wurde vom Amt für Umwelt und Energie im Jahr 2016 revidiert (dezentrale Kompostierung nicht mehr eingerechnet). Dies führte zu einem tieferen Recyclinganteil.",
+		"erlaeuterungen": "Die Berechnungsmethode für die Recyclingquote wurde vom Amt für Umwelt und Energie im Jahr 2016 rückwirkend für alle abgebildeten Jahre revidiert (dezentrale Kompostierung nicht mehr eingerechnet). Dies führt zu einem tieferen Recyclinganteil im Vergleich zu früheren Berechnungen.",
 		"template": "template001_print",
 		"option": "options001",
 		"visible": true,
@@ -16850,9 +16726,7 @@ var indikatoren = [
 		"orderKey": "07_00_00_00_00_000",
 		"parentId": 6163,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
@@ -16862,8 +16736,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Wasserqualität: AOX-Fracht",
-		"subtitle": "Milligramm pro Liter",
-		"kuerzel": "I.02.19.06164",
+		"subtitle": "in Milligramm pro Liter",
+		"kuerzel": "I.02.19.06315",
 		"kuerzelKunde": "7.4",
 		"description": "Wasserqualität: AOX-Fracht",
 		"id": 6315,
@@ -16885,7 +16759,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2016 0,046 mg/l gereinigtem Abwasser. Sie lag damit unter dem Grenzwert von 0,08 mg/l.",
-		"erlaeuterungen": "Für die Wasserqualität ist entscheidend, wie viele Schadstoffe trotz Kläranlagen ins Wasser gelangen. Als messbarer Indikator dient die Ausflussmenge an AOX aus den Kläranlagen. Eine Zunahme bedeutet eine unerwünschte Belastung der Gewässer, eine Abnahme entspricht einer Verbesserung der Wasserqualität. Organische Halogenverbindungen sind bereits in geringen Mengen schädlich, schwer biologisch abbaubar und reichern sich im Fettgewebe von Tieren und Menschen an. AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) mehrmals pro Jahr in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0.08 mg/l definiert. Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
+		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) mehrmals pro Jahr in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0.08 mg/l definiert. <br><br>Für die Wasserqualität ist entscheidend, wie viele Schadstoffe trotz Kläranlagen ins Wasser gelangen. Eine Zunahme des AOX-Indikators bedeutet eine unerwünschte Belastung der Gewässer, eine Abnahme entspricht einer Verbesserung der Wasserqualität. Organische Halogenverbindungen sind bereits in geringen Mengen schädlich, schwer biologisch abbaubar und reichern sich im Fettgewebe von Tieren und Menschen an. <br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
 		"template": "line001_print",
 		"option": "options001",
 		"visible": true,
@@ -16893,9 +16767,7 @@ var indikatoren = [
 		"orderKey": "07_00_00_00_00_000",
 		"parentId": 6164,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
@@ -16904,11 +16776,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "CO2-Emissionen",
-		"subtitle": "",
-		"kuerzel": "I.02.5.06165",
+		"title": "CO<sub>2</sub>-Emissionen",
+		"subtitle": "in Tonnen",
+		"kuerzel": "I.02.5.06316",
 		"kuerzelKunde": "7.5",
-		"description": "CO2-Emissionen",
+		"description": "CO<sub>2</sub>-Emissionen",
 		"id": 6316,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
@@ -16928,7 +16800,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO2-Emissionen nahmen zwischen 2010 und 2014 von 898 113 Tonnen auf 755 095 Tonnen ab. Das entspricht einer Reduktion von 16%.",
-		"erlaeuterungen": "Die CO2-Emission berechnet sich aus der Summe der Verbräuche aller fossilen Brennstoffe sowie Abfall multipliziert mit den jeweiligen Emissionskoeffizienten von CO2. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO2-Verbrauch durch die mittlere Bevölkerung dividiert.  Erneuerbare Brennstoffe wie Holz oder Biogas sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanalge (KVA) verbrannte Hauskehricht wird als 50% erneuerbar gezählt und ist somit nur zur Hälfte in die CO2-Emissionen eingerechnet.",
+		"erlaeuterungen": "Die CO<sub>2</sub>-Emission berechnet sich aus der Summe der Verbräuche aller fossilen Brennstoffe sowie Abfall multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Verbrauch durch die mittlere Bevölkerung dividiert.  Erneuerbare Brennstoffe wie Holz oder Biogas sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanalge (KVA) verbrannte Hauskehricht wird als 50% erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet.",
 		"template": "template001_print",
 		"option": "options001",
 		"visible": true,
@@ -16936,9 +16808,7 @@ var indikatoren = [
 		"orderKey": "07_00_00_00_00_000",
 		"parentId": 6165,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -16948,8 +16818,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Wassertemperatur Grundwasser",
-		"subtitle": "",
-		"kuerzel": "I.02.19.06166",
+		"subtitle": "in °C",
+		"kuerzel": "I.02.19.06317",
 		"kuerzelKunde": "7.6",
 		"description": "Wassertemperatur Grundwasser",
 		"id": 6317,
@@ -16977,9 +16847,7 @@ var indikatoren = [
 		"orderKey": "07_00_00_00_00_000",
 		"parentId": 6166,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
@@ -16990,7 +16858,7 @@ var indikatoren = [
 	{
 		"title": "Anzahl Besuche in Theater, Kinos und Museen",
 		"subtitle": "",
-		"kuerzel": "I.16.1.06169",
+		"kuerzel": "I.16.1.06318",
 		"kuerzelKunde": "8.2",
 		"description": "Anzahl Besuche in Theater, Kinos und Museen",
 		"id": 6318,
@@ -17018,9 +16886,7 @@ var indikatoren = [
 		"orderKey": "08_00_00_00_00_000",
 		"parentId": 6169,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Jeweilige Institutionen",
 			"ProCinema"
@@ -17032,7 +16898,7 @@ var indikatoren = [
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
 		"subtitle": "pro Kopf in Franken",
-		"kuerzel": "I.04.1.06170",
+		"kuerzel": "I.04.1.06319",
 		"kuerzelKunde": "8.3",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
 		"id": 6319,
@@ -17064,9 +16930,7 @@ var indikatoren = [
 		"orderKey": "08_00_00_00_00_000",
 		"parentId": 6170,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
@@ -17077,7 +16941,7 @@ var indikatoren = [
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
 		"subtitle": "pro Kopf in Franken",
-		"kuerzel": "I.04.1.06172",
+		"kuerzel": "I.04.1.06320",
 		"kuerzelKunde": "9.2",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
 		"id": 6320,
@@ -17109,9 +16973,7 @@ var indikatoren = [
 		"orderKey": "09_00_00_00_00_000",
 		"parentId": 6172,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
@@ -17122,7 +16984,7 @@ var indikatoren = [
 	{
 		"title": "Anzahl Bezüger von Prämienverbilligungen",
 		"subtitle": "",
-		"kuerzel": "I.13.2.06173",
+		"kuerzel": "I.13.2.06321",
 		"kuerzelKunde": "9.3",
 		"description": "Anzahl Bezüger von Prämienverbilligungen",
 		"id": 6321,
@@ -17150,9 +17012,7 @@ var indikatoren = [
 		"orderKey": "09_00_00_00_00_000",
 		"parentId": 6173,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Sozialbeiträge, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"
 		],
@@ -17163,7 +17023,7 @@ var indikatoren = [
 	{
 		"title": "Stationäre Fälle in Basler Spitälern",
 		"subtitle": "Nach Hauptbereich und Wohnort",
-		"kuerzel": "I.14.1.06175",
+		"kuerzel": "I.14.1.06322",
 		"kuerzelKunde": "9.5",
 		"description": "Stationäre Fälle in Basler Spitälern",
 		"id": 6322,
@@ -17183,7 +17043,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2016 wurden zum ersten Mal im Beobachtungszeitraum mehr auserkantonale Patienten (40 481) behandelt als Patienten mit Wohnort im Kanton Basel-Stadt (38 585). Von den insgesamt 38 585 Fällen aus dem Stadtkanton können über 77% dem Hauptbereich der Akutsomatik zugerechnet werden. Bei den ausserkantonalen Fällen macht der Anteil der Akutsomatik hingegen über 91% aus.",
-		"erlaeuterungen": "Gezählt werden alle stationäre Fälle mit Austritt im jeweiligen Erhebungsjahr (A-Fälle). Die Aufteilung in BS und Nicht-BS erfolgt gemäss dem Wohnort. Fälle mit einem Wohnsitz im Ausland sind in den Nicht-BS-Fällen eingeschlossen. Die Aufteilung in die Hauptbereiche erfolgt gemäss der Hauptkostenstelle.",
+		"erlaeuterungen": "Gezählt werden alle stationären Fälle mit Austritt im jeweiligen Erhebungsjahr (A-Fälle). Die Aufteilung in BS und Nicht-BS erfolgt anhand des Wohnorts der Patienten. Patienten mit Wohnsitz im Ausland sind in den Nicht-BS-Fällen eingeschlossen. Die Aufteilung in die Hauptbereiche erfolgt anhand der Hauptkostenstelle.",
 		"template": "template001_print",
 		"option": "options001",
 		"visible": true,
@@ -17191,9 +17051,7 @@ var indikatoren = [
 		"orderKey": "09_00_00_00_00_000",
 		"parentId": 6175,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
@@ -17204,7 +17062,7 @@ var indikatoren = [
 	{
 		"title": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
 		"subtitle": "",
-		"kuerzel": "I.14.3.06176",
+		"kuerzel": "I.14.3.06323",
 		"kuerzelKunde": "10.1",
 		"description": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
 		"id": 6323,
@@ -17224,7 +17082,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Zahl der Gewaltstraftaten pro 100'000 Einwohner hat sich in den letzten zehn Jahren kaum verändert. Aktuell liegt sie bei 335.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Auf die ständige Wohnbevölkerung am Hauptwohnsitz am Jahresende berechnet. Wohnbevölkerung: Vorjahreszahlen.",
 		"template": "line001_print",
 		"option": "options001",
 		"visible": true,
@@ -17232,10 +17090,9 @@ var indikatoren = [
 		"orderKey": "10_00_00_00_00_000",
 		"parentId": 6176,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)",
 			"Polizeiliche Kriminalitätsstatistk (PKS)"
 		],
 		"externalLinks": [
@@ -17245,7 +17102,7 @@ var indikatoren = [
 	{
 		"title": "Strassenverkehrsunfälle und verunfallte Personen",
 		"subtitle": "",
-		"kuerzel": "I.14.3.06177",
+		"kuerzel": "I.14.3.06324",
 		"kuerzelKunde": "10.2",
 		"description": "Strassenverkehrsunfälle und verunfallte Personen",
 		"id": 6324,
@@ -17273,9 +17130,7 @@ var indikatoren = [
 		"orderKey": "10_00_00_00_00_000",
 		"parentId": 6177,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
 		],
@@ -17284,52 +17139,9 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Sicherheitsempfinden im Alltag nach Geschlecht",
-		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?»",
-		"kuerzel": "I.50.1.06178",
-		"kuerzelKunde": "10.4",
-		"description": "Sicherheitsempfinden im Alltag nach Geschlecht",
-		"id": 6325,
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Legislaturplan (Print)",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Verbrechen",
-			"Gefühl"
-		],
-		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Mit einem Anteil von 42,2% fühlte sich weniger als die Hälfte der Befragten im Alltag sehr sicher und 49,0% fühlten sich eher sicher. Im Vergleich zu den vorherigen Befragungen fühlten sich dieBefragten im Alltag weniger sicher. Am höchsten war dasSicherheitsempfinden 2003 als der Anteil derjenigen, die sichgrundsätzlich sehr sicher fühlen, über 55% lag.",
-		"erlaeuterungen": "",
-		"template": "befragungen001_print",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
-		"orderKey": "10_00_00_00_00_000",
-		"parentId": 6178,
-		"children": [],
-		"renderLink": [
-			""
-		],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9"
-		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
 		"title": "Anzahl Störfälle und Ereignisse",
 		"subtitle": "",
-		"kuerzel": "I.14.3.06179",
+		"kuerzel": "I.14.3.06326",
 		"kuerzelKunde": "10.3",
 		"description": "Anzahl Störfälle und Ereignisse",
 		"id": 6326,
@@ -17349,7 +17161,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2016 sind bei der Chemiefachberatung des Kantons 9 Alarmierungenaufgrund von ABC-Ereignissen eingegangen.",
-		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten.Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IRFB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten:a) ausserhalb des Betriebsareals,b) auf oder ausserhalb des Verkehrswegs,c) ausserhalb der Rohrleitungsanlage.Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt aber im Ermessen der zuständigen Fachstelle.",
+		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten. Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IRFB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: a) ausserhalb des Betriebsareals, b) auf oder ausserhalb des Verkehrswegs, c) ausserhalb der Rohrleitungsanlage.<br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt aber im Ermessen der zuständigen Fachstelle.",
 		"template": "line001_print",
 		"option": "options001",
 		"visible": true,
@@ -17357,9 +17169,7 @@ var indikatoren = [
 		"orderKey": "10_00_00_00_00_000",
 		"parentId": 6179,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"
 		],
@@ -17370,7 +17180,7 @@ var indikatoren = [
 	{
 		"title": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
 		"subtitle": "",
-		"kuerzel": "I.13.2.06181",
+		"kuerzel": "I.13.2.06327",
 		"kuerzelKunde": "11.2",
 		"description": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
 		"id": 6327,
@@ -17398,9 +17208,7 @@ var indikatoren = [
 		"orderKey": "11_00_00_00_00_000",
 		"parentId": 6181,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Basler Informationssystem Sozialleistungen (BISS)"
@@ -17412,7 +17220,7 @@ var indikatoren = [
 	{
 		"title": "Sozialhilfequote nach Altersgruppe",
 		"subtitle": "",
-		"kuerzel": "I.13.2.06182",
+		"kuerzel": "I.13.2.06328",
 		"kuerzelKunde": "11.3",
 		"description": "Sozialhilfequote nach Altersgruppe",
 		"id": 6328,
@@ -17440,9 +17248,7 @@ var indikatoren = [
 		"orderKey": "11_00_00_00_00_000",
 		"parentId": 6182,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt des Kantons Basel-Stadt, Sozialhilfestatistik",
 			"Departement für Wirtschaft, Soziales und Umwelt"
@@ -17454,7 +17260,7 @@ var indikatoren = [
 	{
 		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
 		"subtitle": "",
-		"kuerzel": "I.13.2.06183",
+		"kuerzel": "I.13.2.06329",
 		"kuerzelKunde": "11.4",
 		"description": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
 		"id": 6329,
@@ -17482,9 +17288,7 @@ var indikatoren = [
 		"orderKey": "11_00_00_00_00_000",
 		"parentId": 6183,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
 			"Departement für Wirtschaft, Soziales und Umwelt"
@@ -17496,7 +17300,7 @@ var indikatoren = [
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
 		"subtitle": "pro Kopf in Franken",
-		"kuerzel": "I.04.1.06184",
+		"kuerzel": "I.04.1.06330",
 		"kuerzelKunde": "11.5",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
 		"id": 6330,
@@ -17528,9 +17332,7 @@ var indikatoren = [
 		"orderKey": "11_00_00_00_00_000",
 		"parentId": 6184,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
@@ -17541,7 +17343,7 @@ var indikatoren = [
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
 		"subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen von der Bevölkerung?»",
-		"kuerzel": "I.50.1.06185",
+		"kuerzel": "I.50.1.06331",
 		"kuerzelKunde": "12.1",
 		"description": "Vertretung der Anliegen der Bevölkerung durch Behörden",
 		"id": 6331,
@@ -17571,9 +17373,7 @@ var indikatoren = [
 		"orderKey": "12_00_00_00_00_000",
 		"parentId": 6185,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F21a"
 		],
@@ -17584,7 +17384,7 @@ var indikatoren = [
 	{
 		"title": "Beurteilung der kantonalen Verwaltung",
 		"subtitle": "«Denken Sie einmal an den letzten Kontakt, den Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»",
-		"kuerzel": "I.50.1.06186",
+		"kuerzel": "I.50.1.06332",
 		"kuerzelKunde": "12.2",
 		"description": "Beurteilung der kantonalen Verwaltung",
 		"id": 6332,
@@ -17613,9 +17413,7 @@ var indikatoren = [
 		"orderKey": "12_00_00_00_00_000",
 		"parentId": 6186,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F19a"
 		],
@@ -17626,7 +17424,7 @@ var indikatoren = [
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 400 000 Fr.",
-		"kuerzel": "I.04.1.06201",
+		"kuerzel": "I.04.1.06333",
 		"kuerzelKunde": "2.6b",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"id": 6333,
@@ -17657,9 +17455,7 @@ var indikatoren = [
 		"orderKey": "02_00_00_00_00_000",
 		"parentId": 6201,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Steuerverwaltung"
 		],
@@ -17670,7 +17466,7 @@ var indikatoren = [
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 1 000 000 Fr.",
-		"kuerzel": "I.04.1.06202",
+		"kuerzel": "I.04.1.06334",
 		"kuerzelKunde": "2.6c",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"id": 6334,
@@ -17701,9 +17497,7 @@ var indikatoren = [
 		"orderKey": "02_00_00_00_00_000",
 		"parentId": 6202,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Steuerverwaltung"
 		],
@@ -17714,7 +17508,7 @@ var indikatoren = [
 	{
 		"title": "Kantonales BIP im Vergleich zu den Staatsausgaben",
 		"subtitle": "indexiert (1995 = 100)",
-		"kuerzel": "I.18.1.06205",
+		"kuerzel": "I.18.1.06335",
 		"kuerzelKunde": "2.4",
 		"description": "Kantonales BIP im Vergleich zu den Staatsausgaben",
 		"id": 6335,
@@ -17734,7 +17528,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Indexierte Werte, 1995 = 100.",
+		"erlaeuterungen": "Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft.",
 		"template": "line001_print",
 		"option": "options001",
 		"visible": true,
@@ -17742,9 +17536,7 @@ var indikatoren = [
 		"orderKey": "02_00_00_00_00_000",
 		"parentId": 6205,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung",
 			"BAK Economics"
@@ -17756,7 +17548,7 @@ var indikatoren = [
 	{
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
 		"subtitle": "nach Schultyp",
-		"kuerzel": "I.15.7.06206",
+		"kuerzel": "I.15.7.06336",
 		"kuerzelKunde": "3.1a",
 		"description": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
 		"id": 6336,
@@ -17786,9 +17578,7 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_000",
 		"parentId": 6206,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"
 		],
@@ -17799,7 +17589,7 @@ var indikatoren = [
 	{
 		"title": "Anzahl Lernende an Basler Berufsfachschulen",
 		"subtitle": "nach Herkunft",
-		"kuerzel": "I.15.3.06209",
+		"kuerzel": "I.15.3.06337",
 		"kuerzelKunde": "3.2",
 		"description": "Anzahl Lernende an Basler Berufsfachschulen",
 		"id": 6337,
@@ -17827,9 +17617,7 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_000",
 		"parentId": 6209,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
@@ -17840,7 +17628,7 @@ var indikatoren = [
 	{
 		"title": "Anzahl Plätze in Tagesbetreuungsangeboten",
 		"subtitle": "",
-		"kuerzel": "I.13.2.06210",
+		"kuerzel": "I.13.2.06338",
 		"kuerzelKunde": "4.4",
 		"description": "Anzahl Plätze in Tagesbetreuungsangeboten",
 		"id": 6338,
@@ -17868,9 +17656,7 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_000",
 		"parentId": 6210,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
 		],
@@ -17881,7 +17667,7 @@ var indikatoren = [
 	{
 		"title": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken",
 		"subtitle": "",
-		"kuerzel": "I.04.1.06211",
+		"kuerzel": "I.04.1.06339",
 		"kuerzelKunde": "2.2",
 		"description": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken",
 		"id": 6339,
@@ -17910,9 +17696,7 @@ var indikatoren = [
 		"orderKey": "02_00_00_00_00_000",
 		"parentId": 6211,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
 		],
@@ -17923,7 +17707,7 @@ var indikatoren = [
 	{
 		"title": "Bewertung der Lebensqualität nach Alter",
 		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»",
-		"kuerzel": "I.50.1.06213",
+		"kuerzel": "I.50.1.06340",
 		"kuerzelKunde": "4.10b",
 		"description": "Bewertung der Lebensqualität nach Alter",
 		"id": 6340,
@@ -17951,9 +17735,7 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_000",
 		"parentId": 6213,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
 		],
@@ -17964,7 +17746,7 @@ var indikatoren = [
 	{
 		"title": "Bewertung der Lebensqualität nach Einkommensklasse",
 		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»",
-		"kuerzel": "I.50.1.06228",
+		"kuerzel": "I.50.1.06341",
 		"kuerzelKunde": "4.10c",
 		"description": "Bewertung der Lebensqualität nach Einkommensklasse",
 		"id": 6341,
@@ -17992,9 +17774,7 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_000",
 		"parentId": 6228,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
 		],
@@ -18004,8 +17784,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"subtitle": "Doppelverdiener ohne Kinder und einem Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2016",
-		"kuerzel": "I.18.2.06239",
+		"subtitle": "Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von<br/> 100 000 Fr.; Stand: 2016",
+		"kuerzel": "I.18.2.06342",
 		"kuerzelKunde": "2.7b",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
 		"id": 6342,
@@ -18025,7 +17805,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "In Basel beträgt die Steuerbelastung 2016 im ausgewählten Modellfall 9 780 Franken. In den fünf Kantonshauptorten liegt sie in Bern am höchsten, in Zürich am tiefsten.",
-		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gmeinde- und Kirchensteuern) in Franken für Doppelverdiener ohne Kinder und einem Bruttoarbeitseinkommen von 100 000 Franken im Jahr 2016.",
+		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gemeinde- und Kirchensteuern) in Franken für Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von 100 000 Franken im Jahr 2016.",
 		"template": "template001_print",
 		"option": "options001",
 		"visible": true,
@@ -18033,9 +17813,7 @@ var indikatoren = [
 		"orderKey": "02_00_00_00_00_000",
 		"parentId": 6239,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
@@ -18046,7 +17824,7 @@ var indikatoren = [
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
 		"subtitle": "Ledige mit einem Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2016",
-		"kuerzel": "I.18.2.06240",
+		"kuerzel": "I.18.2.06343",
 		"kuerzelKunde": "2.7c",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
 		"id": 6343,
@@ -18074,9 +17852,7 @@ var indikatoren = [
 		"orderKey": "02_00_00_00_00_000",
 		"parentId": 6240,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
@@ -18087,7 +17863,7 @@ var indikatoren = [
 	{
 		"title": "Bewertung der Lebensqualität nach Herkunft",
 		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»",
-		"kuerzel": "I.50.1.06266",
+		"kuerzel": "I.50.1.06344",
 		"kuerzelKunde": "4.10d",
 		"description": "Bewertung der Lebensqualität nach Herkunft",
 		"id": 6344,
@@ -18107,7 +17883,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7. Die Bewertung der Lebensqualität unterscheidet sich nicht nach Herkunft.",
+		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7. In allen dargestellten Jahren zeigt sich, dass ausländische Befragte häufiger eine Note über 7 für die Lebensqualität vergeben als Schweizerinnen und Schweizer dies tun.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001_print",
 		"option": "options001",
@@ -18116,9 +17892,7 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_000",
 		"parentId": 6266,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
 		],
@@ -18237,6 +18011,209 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_002",
 		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Credit Suisse Group AG"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Durch BaselArea unterstützte internationale Ansiedlungen",
+		"subtitle": "in BS, BL, JU",
+		"kuerzel": "I.04.1.03086",
+		"kuerzelKunde": "2.4",
+		"description": "Durch BaselArea unterstützte internationale Ansiedlungen",
+		"id": 6368,
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kennzahlenset": "Legislaturplan (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2015-12-17T00:00:00.000",
+		"schlagwort": [
+			"Ausland",
+			"Niederlassung",
+			"Arbeit",
+			"Erwerbstätigkeit",
+			"Standort"
+		],
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Anzahl von durch BaselArea unterstützte internationale Ansiedlungen ist von 2012 bis 2015 rückläufig. 2016 werden mit 31 Ansiedlungen die meisten innerhalb des Beobachtungszeitraums gezählt.",
+		"erlaeuterungen": "Die Anzahl von durch BaselArea unterstützten internationalen Ansiedlungen beinhalten seit 2013 auch ausländische Firmengründungen im Kanton Jura.",
+		"template": "line001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": 3086,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BaselArea"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Neugründungen in Basel-Stadt",
+		"subtitle": "in ausgewählten Branchen",
+		"kuerzel": "I.03.2.05041",
+		"kuerzelKunde": "2.3",
+		"description": "Neugründungen in Basel-Stadt",
+		"id": 6369,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte ",
+		"kennzahlenset": "Legislaturplan (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2016-12-07T15:07:33.3333",
+		"schlagwort": [
+			"Arbeit",
+			"Erwerbstätigkeit"
+		],
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die meisten neuen Unternehmen wurden in allen drei Jahren im Bereich der Unternehmensdienstleistungen gegründet. Das Total der Neugründungen erreichte 2014 mit 1 352 Neugründungen den Höchstwert.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": 5041,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Medianprämie pro Prämienregion",
+		"subtitle": "Basel-Stadt im kantonalen Vergleich; in Franken.",
+		"kuerzel": "I.14.4.06346",
+		"kuerzelKunde": "9.1",
+		"description": "Medianprämie pro Prämienregion",
+		"id": 6370,
+		"thema": "14 Gesundheit",
+		"unterthema": "Prävention, Praxen, Rettung",
+		"kennzahlenset": "Legislaturplan (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Patient",
+			"Gesundheit"
+		],
+		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In den teuersten Prämienregionen aller verglichenen Kantone steigen die Medianprämien seit 2010 setig an. Basel-Stadt liegt zusammen mit Genf an der Spitze dieser Rangliste.",
+		"erlaeuterungen": "Verglichen wird der Medianwert der Standardprämien aller Versicherer in den Vergleichskantonen. Standardprämie: Monatsprämie der Obligatorischen Krankenpflegeversicherung gemäss dem Bundesgesetz über die Krankenversicherung (KVG) für Erwachsene, Franchise Fr. 300, mit Unfalldeckung, ohne besondere Versicherungsmodelle mit eingeschränkter Arztwahl gemäss Art. 62 KVG. Der Medianwert ist der Wert einer Zahlenreihe, der an der mittleren (zentralen) Stelle steht, wenn man die Werte der Größe nach sortiert.",
+		"template": "line001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "09_00_00_00_00_000",
+		"parentId": 6346,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Gesundheit (BAG)",
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anzahl Beschäftigte nach Branche",
+		"subtitle": "",
+		"kuerzel": "I.03.2.06347",
+		"kuerzelKunde": "2.5",
+		"description": "Anzahl Beschäftigte nach Branche",
+		"id": 6371,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte ",
+		"kennzahlenset": "Legislaturplan (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Arbeit",
+			"Angestellte"
+		],
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2015 sind in Basel-Stadt 190 753 Personen beschäftigt. Das sind 821 Personen weniger als im Vorjahr.  Den grössten Beschäftigungsrückgang verzeichnet die Branchengruppe Handel und Verkehr mit einer Abnahme um 1512 Personen, während im Gesundheits- und Sozialwesen mit 549 zusätzlichen Beschäftigten der grösste Zuwachs zu beobachten ist.",
+		"erlaeuterungen": "Unternehmens-DL, Freiberufe umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; Übrige Branchen umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
+		"template": "template001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": 6347,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Standortqualitätsindikator (SQI)",
+		"subtitle": "Basel-Stadt im kantonalen Vergleich, Stand: 2016",
+		"kuerzel": "I.04.2.06348",
+		"kuerzelKunde": "1.2",
+		"description": "Standortqualitätsindikator (SQI)",
+		"id": 6372,
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kennzahlenset": "Legislaturplan (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Arbeit"
+		],
+		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Basel-Stadt liegt mit einem Wert von 0,84 hinter Zug, Zürich und Aargau auf dem vierten Rang aller Kantone.",
+		"erlaeuterungen": "Der Standortqualitätsindikator drückt die Attraktivität der Schweizer Kantone und Regionen als synthetischen Indikator im Vergleich zum Schweizer Durchschnitt von null aus. Werte zwischen –0.3 und +0.3 können als Mittelfeld bezeichnet werden, höhere Werte bedeuten  eine überdurchschnittliche Attraktivität, tiefere Werte eine geringere. Die Komponenten der Standortqualität sind steuerliche Attraktivität für natürliche und juristische Personen, Verfügbarkeit von Fachkräften und hochqualifizierten Personen sowie die Erreichbarkeit als Summe aller Beschäftigungs- oder Bevölkerungspotenziale im in- und ausländischen Einzugsgebiet bzw. des Passagieraufkommens am jeweiligen Flughafen.",
+		"template": "template001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": 6348,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [

@@ -21,7 +21,7 @@
           194979.25868184
         ]
       ],
-      "name": "Verkehr",
+      "name": "Verkehr total",
       "turboThreshold": 0
     },
     {
@@ -48,7 +48,7 @@
           0.99435583714207
         ]
       ],
-      "name": "pro Kopf",
+      "name": "Verkehr pro Kopf",
       "turboThreshold": 0
     }
   ],
@@ -127,7 +127,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "CO2-Emissionen Verkehr"
+    "text": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen Verkehr"
   },
   "subtitle": {
     "style": {
@@ -136,7 +136,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "in Tonnen",
     "align": "left"
   },
   "yAxis": [
@@ -150,7 +150,8 @@
           "color": "black"
         }
       },
-      "min": 0
+      "min": 0,
+      "tickAmount": 5
     },
     {
       "title": {
@@ -163,6 +164,7 @@
         }
       },
       "min": 0,
+      "tickAmount": 5,
       "opposite": true
     }
   ],
@@ -210,6 +212,6 @@
     "useHTML": true
   },
   "exporting": {
-    "filename": "I.02.5.06158"
+    "filename": "I.02.5.06310"
   }
 }

@@ -1,6 +1,6 @@
 {"title":"Verhältnis der Löhne von Frauen und Männern in Basel-Stadt",
 "subtitle":"",
-"kuerzel":"I.03.3.06147",
+"kuerzel":"I.03.3.06300",
 "kuerzelKunde":"4.6",
 "description":"Verhältnis der Löhne von Frauen und Männern in Basel-Stadt",
 "id":6300,
@@ -24,7 +24,7 @@
 "orderKey":"04_00_00_00_00_000",
 "parentId":6147,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"],
 "externalLinks":[""]
 }

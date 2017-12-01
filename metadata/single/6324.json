@@ -1,6 +1,6 @@
 {"title":"Strassenverkehrsunfälle und verunfallte Personen",
 "subtitle":"",
-"kuerzel":"I.14.3.06177",
+"kuerzel":"I.14.3.06324",
 "kuerzelKunde":"10.2",
 "description":"Strassenverkehrsunfälle und verunfallte Personen",
 "id":6324,
@@ -24,7 +24,7 @@
 "orderKey":"10_00_00_00_00_000",
 "parentId":6177,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Kantonspolizei Basel-Stadt"],
 "externalLinks":[""]
 }

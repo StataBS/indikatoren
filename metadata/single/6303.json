@@ -1,6 +1,6 @@
 {"title":"Mittelwert und Median des Reineinkommens im Kanton Basel-Stadt",
 "subtitle":"in Franken",
-"kuerzel":"I.18.2.06150",
+"kuerzel":"I.18.2.06303",
 "kuerzelKunde":"4.9",
 "description":"Mittelwert und Median des Reineinkommens im Kanton Basel-Stadt",
 "id":6303,
@@ -24,7 +24,7 @@
 "orderKey":"04_00_00_00_00_000",
 "parentId":6150,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Steuerstatistik Basel-Stadt"],
 "externalLinks":[""]
 }

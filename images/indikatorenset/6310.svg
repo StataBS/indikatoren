@@ -26,12 +26,16 @@
   </g>
   <g class="highcharts-grid highcharts-yaxis-grid ">
     <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 58 179.5 L 287 179.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 58 146.5 L 287 146.5" opacity="1"/>
     <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 58 114.5 L 287 114.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 58 81.5 L 287 81.5" opacity="1"/>
     <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 58 47.5 L 287 47.5" opacity="1"/>
   </g>
   <g class="highcharts-grid highcharts-yaxis-grid ">
     <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 58 179.5 L 287 179.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 58 146.5 L 287 146.5" opacity="1"/>
     <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 58 114.5 L 287 114.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 58 81.5 L 287 81.5" opacity="1"/>
     <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 58 47.5 L 287 47.5" opacity="1"/>
   </g>
   <rect fill="none" class="highcharts-plot-border" x="58" y="48" width="229" height="131"/>
@@ -59,20 +63,23 @@
   <text x="3" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:10px;font-weight:bold;fill:#000000;" y="14">
     <tspan>CO2-Emissionen Verkehr</tspan>
   </text>
+  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:arial;fill:#000000;" y="32">
+    <tspan>in Tonnen</tspan>
+  </text>
   <g class="highcharts-legend" transform="translate(50,7)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="150" height="29" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="209" height="29" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
           <text x="21" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="13">
-            <tspan>Verkehr</tspan>
+            <tspan>Verkehr total</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="#71A3B5" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(83.953125,3)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(105.5625,3)">
           <path fill="none" d="M 0 10 L 16 10" class="highcharts-graph" stroke="#000000" stroke-width="2"/>
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>pro Kopf</tspan>
+            <tspan>Verkehr pro Kopf</tspan>
           </text>
         </g>
       </g>
@@ -93,8 +100,14 @@
     <text x="43" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="184" opacity="1">
       <tspan>0</tspan>
     </text>
+    <text x="43" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="151" opacity="1">
+      <tspan>60 000</tspan>
+    </text>
     <text x="43" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="118" opacity="1">
       <tspan>120 000</tspan>
+    </text>
+    <text x="43" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="85" opacity="1">
+      <tspan>180 000</tspan>
     </text>
     <text x="43" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="53" opacity="1">
       <tspan>240 000</tspan>
@@ -104,8 +117,14 @@
     <text x="302" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="start" transform="translate(0,0)" y="184" opacity="1">
       <tspan>0.0</tspan>
     </text>
+    <text x="302" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="start" transform="translate(0,0)" y="151" opacity="1">
+      <tspan>0.3</tspan>
+    </text>
     <text x="302" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="start" transform="translate(0,0)" y="118" opacity="1">
       <tspan>0.6</tspan>
+    </text>
+    <text x="302" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="start" transform="translate(0,0)" y="85" opacity="1">
+      <tspan>0.9</tspan>
     </text>
     <text x="302" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="start" transform="translate(0,0)" y="53" opacity="1">
       <tspan>1.2</tspan>

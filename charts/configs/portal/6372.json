@@ -1,0 +1,303 @@
+{
+  "series": [
+    {
+      "name": "Standortqualität",
+      "data": [
+        [
+          "ZG",
+          2.19
+        ],
+        [
+          "ZH",
+          1.41
+        ],
+        [
+          "AG",
+          0.97
+        ],
+        [
+          "BS",
+          0.84
+        ],
+        [
+          "NW",
+          0.71
+        ],
+        [
+          "LU",
+          0.66
+        ],
+        [
+          "SZ",
+          0.64
+        ],
+        [
+          "OW",
+          0.29
+        ],
+        [
+          "TG",
+          0.25
+        ],
+        [
+          "AR",
+          0.24
+        ],
+        [
+          "BL",
+          0.17
+        ],
+        [
+          "SH",
+          0.13
+        ],
+        [
+          "GE",
+          0.08
+        ],
+        [
+          "AI",
+          -0.15
+        ],
+        [
+          "SG",
+          -0.19
+        ],
+        [
+          "SO",
+          -0.22
+        ],
+        [
+          "VD",
+          -0.44
+        ],
+        [
+          "BE",
+          -0.62
+        ],
+        [
+          "NE",
+          -0.63
+        ],
+        [
+          "UR",
+          -0.66
+        ],
+        [
+          "GL",
+          -0.82
+        ],
+        [
+          "FR",
+          -0.95
+        ],
+        [
+          "TI",
+          -1.01
+        ],
+        [
+          "GR",
+          -1.15
+        ],
+        [
+          "VS",
+          -1.56
+        ],
+        [
+          "JU",
+          -1.83
+        ]
+      ],
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "rotation": -90,
+      "padding": 0,
+      "step": 1
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 600,
+    "height": 208,
+    "spacing": [
+      7,
+      3,
+      8,
+      3
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {};
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                          }
+                        }
+                      );
+                    }              
+                    
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-6372"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      }
+    },
+    "column": {
+      "colorByPoint": true
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Standortqualitätsindikator (SQI)"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt im kantonalen Vergleich, Stand: 2016",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value:,.1f}"
+    },
+    "tickInterval": 0.5
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Credit Suisse Group AG"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "enabled": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 35,
+    "y": 35
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": 10
+    }
+  },
+  "colors": [
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#B00000",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B"
+  ],
+  "tooltip": {
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E{series.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "I.04.2.06348"
+  }
+}

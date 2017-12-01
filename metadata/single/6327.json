@@ -1,6 +1,6 @@
 {"title":"Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
 "subtitle":"",
-"kuerzel":"I.13.2.06181",
+"kuerzel":"I.13.2.06327",
 "kuerzelKunde":"11.2",
 "description":"Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
 "id":6327,
@@ -24,7 +24,7 @@
 "orderKey":"11_00_00_00_00_000",
 "parentId":6181,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Basler Informationssystem Sozialleistungen (BISS)"],
 "externalLinks":[""]
 }

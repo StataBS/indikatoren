@@ -1,6 +1,6 @@
 {"title":"Entwicklung der Staatsausgaben nach Funktion",
 "subtitle":"pro Kopf in Franken",
-"kuerzel":"I.04.1.06184",
+"kuerzel":"I.04.1.06330",
 "kuerzelKunde":"11.5",
 "description":"Entwicklung der Staatsausgaben nach Funktion",
 "id":6330,
@@ -24,7 +24,7 @@
 "orderKey":"11_00_00_00_00_000",
 "parentId":6184,
 "children":[],
-"renderLink":[""],
+"renderLink":[],
 "quellenangabe":["Eidgenössische Finanzverwaltung"],
 "externalLinks":[""]
 }

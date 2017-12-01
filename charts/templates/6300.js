@@ -2,7 +2,7 @@
     return {
    "yAxis": {
     "labels": {
-      "format": "{value:,.1f}",
+      "format": "{value:,.2f}",
     }
   },
   "xAxis": {

@@ -89,12 +89,12 @@
     <tspan>Anteil PV-Beziehende mit Sozialhilfe und</tspan><tspan dy="13" x="3">Ergänzungsleistungen an der Bevölkerung</tspan><title>Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung</title>
   </text>
   <g class="highcharts-legend" transform="translate(49,7)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="215" height="50" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="247" height="50" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(3,-2)">
           <text x="21" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="13">
-            <tspan>PV-Beziehende (inkl. SH/EL) (linke Achse)</tspan>
+            <tspan>Beziehende von Prämienverbilligung (inkl. SH/EL)</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="#71a3b5" class="highcharts-point"/>
         </g>
@@ -102,7 +102,7 @@
           <path fill="none" d="M 0 10 L 16 10" class="highcharts-graph" stroke="#7d60a0" stroke-width="2"/>
           <path fill="#7d60a0" d="M 12 10 A 4 4 0 1 1 11.999998000000167 9.996000000666664 Z" class="highcharts-point"/>
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Anteil PV-Beziehende an Wohnbev. in %</tspan><tspan x="21" dy="13">(rechte Achse)</tspan>
+            <tspan>Anteil PV-Beziehende an Wohnbev.</tspan><tspan x="21" dy="13">(rechte Achse)</tspan>
           </text>
         </g>
       </g>
@@ -144,30 +144,30 @@
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
-    <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="172" opacity="1">
+    <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="170" opacity="1">
       <tspan>0</tspan>
     </text>
-    <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="136" opacity="1">
+    <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="134" opacity="1">
       <tspan>20 000</tspan>
     </text>
-    <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="100" opacity="1">
+    <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="99" opacity="1">
       <tspan>40 000</tspan>
     </text>
-    <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="65" opacity="1">
+    <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="63" opacity="1">
       <tspan>60 000</tspan>
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
-    <text x="295" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="172" opacity="1">
+    <text x="295" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="170" opacity="1">
       <tspan>0%</tspan>
     </text>
-    <text x="295" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="136" opacity="1">
+    <text x="295" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="134" opacity="1">
       <tspan>10%</tspan>
     </text>
-    <text x="295" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="100" opacity="1">
+    <text x="295" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="99" opacity="1">
       <tspan>20%</tspan>
     </text>
-    <text x="295" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="65" opacity="1">
+    <text x="295" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="63" opacity="1">
       <tspan>30%</tspan>
     </text>
   </g>
