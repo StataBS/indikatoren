@@ -1,6 +1,6 @@
 {"title":"Durch BaselArea unterstützte internationale Ansiedlungen",
 "subtitle":"in BS, BL, JU",
-"kuerzel":"I.04.1.3086",
+"kuerzel":"I.04.1.03086",
 "kuerzelKunde":"2.4",
 "description":"Durch BaselArea unterstützte internationale Ansiedlungen",
 "id":3086,
@@ -23,7 +23,7 @@
 "visibleInPortal":true,
 "orderKey":"02_00_00_00_00_004",
 "parentId":null,
-"children":[],
+"children":["6368"],
 "renderLink":[],
 "quellenangabe":["BaselArea"],
 "externalLinks":[""]

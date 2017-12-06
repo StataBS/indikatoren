@@ -369,9 +369,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
   },
   "legend": {
     "enabled": true,
@@ -389,6 +389,6 @@
     "itemWidth": 120
   },
   "exporting": {
-    "filename": "I.03.2.05901"
+    "filename": "I.03.2.06257"
   }
 }

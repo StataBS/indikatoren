@@ -212,7 +212,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Denken Sie einmal an den letzten Kontakt, wo Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»"
+    "text": "«Denken Sie einmal an den letzten Kontakt, den Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»"
   },
   "navigation": {
     "menuItemStyle": {
@@ -287,6 +287,6 @@
         }
   },
   "exporting": {
-    "filename": "I.50.1.4859"
+    "filename": "I.50.1.04859"
   }
 }

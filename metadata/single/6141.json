@@ -20,10 +20,10 @@
 "template":"template001",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
 "orderKey":"03_00_00_00_00_009",
-"parentId":6048,
-"children":["6296"],
+"parentId":null,
+"children":["6048","6296"],
 "renderLink":[],
 "quellenangabe":[],
 "externalLinks":[""]

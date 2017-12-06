@@ -1,10 +1,9 @@
 {"title":"Anzahl Betreibungen seit 1974",
 "subtitle":"",
-"kuerzel":"I.06.3.0001",
+"kuerzel":"I.06.3.04912",
 "kuerzelKunde":"",
-"image":"images/I.06.3.0001.jpg",
 "description":"Anzahl Betreibungen seit 1974",
-"id":"4912",
+"id":4912,
 "thema":"06 Produktion, Handel",
 "unterthema":"Betreibungen und Konkurse",
 "kennzahlenset":"",
@@ -20,5 +19,12 @@
 "erlaeuterungen":"",
 "template":"line001",
 "option":"options001",
-"quellenangabe":["Beitreibungs- und Konkursamt Basel-Stadt"]
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"_000",
+"parentId":null,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Beitreibungs- und Konkursamt Basel-Stadt"],
+"externalLinks":[""]
 }

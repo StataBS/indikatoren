@@ -83,7 +83,7 @@
     <g class="highcharts-markers highcharts-series-1 highcharts-scatter-series highcharts-color-0 " visibility="hidden" transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;font-family:arial;fill:#000000;" y="21">
-    <tspan>Personenwagen pro Haushalt</tspan>
+    <tspan>Private Personenwagen pro Haushalt</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
     <tspan>Stand: 2015</tspan>

@@ -371,7 +371,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Zufiredenzeit mit verschiedenen Aspekten und Angeboten am Wohnort"
+    "text": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort"
   },
   "subtitle": {
     "style": {
@@ -379,7 +379,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": ""
+    "text": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» Stand: 2015"
   },
   "navigation": {
     "menuItemStyle": {
@@ -437,7 +437,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+    "text": "Quelle: Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"
   },
   "legend": {
     "layout": "vertical",
@@ -457,6 +457,6 @@
         }
   },
   "exporting": {
-    "filename": "I.01.1.05809"
+    "filename": "I.50.1.06261"
   }
 }

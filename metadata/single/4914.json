@@ -1,10 +1,9 @@
 {"title":"Landwirtschaftliche Nutzfläche und Anzahl Landwirtschaftsbetriebe",
 "subtitle":"",
-"kuerzel":"I.07.1.0001",
+"kuerzel":"I.07.1.04914",
 "kuerzelKunde":"",
-"image":"images/I.07.1.0001.jpg",
 "description":"Landwirtschaftliche Nutzfläche und Anzahl Landwirtschaftsbetriebe",
-"id":"4914",
+"id":4914,
 "thema":"07 Landwirtschaft",
 "unterthema":"Landwirtschaft",
 "kennzahlenset":"",
@@ -20,5 +19,12 @@
 "erlaeuterungen":"Die landwirtschaftliche Nutzfläche eines baselstädtischen Betriebes kann auch im Ausland liegen.",
 "template":"line001",
 "option":"options001",
-"quellenangabe":["Bundesamt für Statistik BFS, Landwirtschaftliche Strukturerhebung"]
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"_000",
+"parentId":null,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Bundesamt für Statistik (BFS), Landwirtschaftliche Strukturerhebung"],
+"externalLinks":[""]
 }

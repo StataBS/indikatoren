@@ -98,7 +98,7 @@
     </g>
   </g>
   <text x="3" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:10px;font-weight:bold;fill:#000000;" y="14">
-    <tspan>Externe und interne Erreichbarkeit</tspan>
+    <tspan>Kontinentale Erreichbarkeit</tspan>
   </text>
   <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:arial;fill:#000000;" y="32">
     <tspan>Basel-Stadt im Vergleich</tspan>
@@ -170,6 +170,6 @@
     </text>
   </g>
   <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="193">
-    <tspan>Quelle: BAK Basel Economics</tspan>
+    <tspan>Quelle: BAK Economics</tspan>
   </text>
 </svg>

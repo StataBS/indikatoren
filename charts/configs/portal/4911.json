@@ -255,7 +255,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik BFS"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS)"
   },
   "legend": {
     "symbolRadius": 0,
@@ -274,6 +274,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.05.1.0003"
+    "filename": "I.05.1.04911"
   }
 }

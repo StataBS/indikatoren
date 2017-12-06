@@ -510,7 +510,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Leerstehende Industrie- und Gewerberäume"
+    "text": "Leerstehende Industrie- und Gewerbeflächen"
   },
   "subtitle": {
     "style": {
@@ -519,7 +519,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "in Quadratmetern",
     "align": "left"
   },
   "tooltip": {
@@ -557,9 +557,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: SVIT beider Basel"
   },
   "legend": {
     "enabled": true,
@@ -582,6 +582,6 @@
     }
   },
   "exporting": {
-    "filename": "I.09.2.06217"
+    "filename": "I.09.2.06262"
   }
 }

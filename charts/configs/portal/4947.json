@@ -278,7 +278,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik BFS, medizinische Statistik der Krankenhäuser"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
   },
   "legend": {
     "symbolRadius": 0,
@@ -295,6 +295,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.14.1.0002"
+    "filename": "I.14.1.04947"
   }
 }

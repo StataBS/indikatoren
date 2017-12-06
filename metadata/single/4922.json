@@ -1,10 +1,9 @@
 {"title":"Entwicklung des Frauenanteils bei den Kandidaturen und Wahlen zum Grossen Rat seit 1968",
 "subtitle":"",
-"kuerzel":"I.17.3.0003",
+"kuerzel":"I.17.3.04922",
 "kuerzelKunde":"",
-"image":"images/I.17.3.0003.jpg",
 "description":"Entwicklung des Frauenanteils bei den Kandidaturen und Wahlen zum Grossen Rat seit 1968",
-"id":"4922",
+"id":4922,
 "thema":"17 Politik",
 "unterthema":"Wahlen",
 "kennzahlenset":"",
@@ -20,5 +19,12 @@
 "erlaeuterungen":"Der Grosse Rat umfasst seit den Gesamterneuerungswahlen 2008 gemäss der neuen, 2005 vom Basler Stimmvolk verabschiedeten Kantonsverfassung nur noch 100 Grossratssitze.",
 "template":"template001",
 "option":"options001",
-"quellenangabe":["Staatskanzlei Basel-Stadt"]
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"_000",
+"parentId":null,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Staatskanzlei Basel-Stadt"],
+"externalLinks":[""]
 }

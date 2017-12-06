@@ -373,7 +373,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik BFS, Volkswirtschaftliche Gesamtrechnung"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung"
   },
   "legend": {
     "symbolRadius": 0,
@@ -390,6 +390,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.04.1.0003"
+    "filename": "I.04.1.04908"
   }
 }

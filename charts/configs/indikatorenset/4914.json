@@ -248,7 +248,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik BFS, Landwirtschaftliche Strukturerhebung"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Landwirtschaftliche Strukturerhebung"
   },
   "legend": {
     "enabled": true,
@@ -263,6 +263,6 @@
     }
   },
   "exporting": {
-    "filename": "I.07.1.0001"
+    "filename": "I.07.1.04914"
   }
 }
