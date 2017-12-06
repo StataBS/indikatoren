@@ -1,10 +1,9 @@
 {"title":"Mittlere Jahresteuerung Basel-Stadt im Vergleich zur Schweiz",
 "subtitle":"",
-"kuerzel":"I.05.1.0003",
+"kuerzel":"I.05.1.04911",
 "kuerzelKunde":"",
-"image":"images/I.05.1.0003.jpg",
 "description":"Mittlere Jahresteuerung Basel-Stadt im Vergleich zur Schweiz",
-"id":"4911",
+"id":4911,
 "thema":"05 Preise",
 "unterthema":"Basler Index der Konsumentenpreise",
 "kennzahlenset":"",
@@ -20,5 +19,12 @@
 "erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
-"quellenangabe":["Statistisches Amt Basel-Stadt","Bundesamt für Statistik BFS"]
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"_000",
+"parentId":null,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt","Bundesamt für Statistik (BFS)"],
+"externalLinks":[""]
 }

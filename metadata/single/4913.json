@@ -1,10 +1,9 @@
 {"title":"Wert der Ein- und Ausfuhren nach resp. aus Basel-Stadt in 1000 Franken",
 "subtitle":"",
-"kuerzel":"I.06.1.0010",
+"kuerzel":"I.06.1.04913",
 "kuerzelKunde":"",
-"image":"images/I.06.1.0010.jpg",
 "description":"Wert der Ein- und Ausfuhren nach resp. aus Basel-Stadt in 1000 Franken",
-"id":"4913",
+"id":4913,
 "thema":"06 Produktion, Handel",
 "unterthema":"Volkseinkommen",
 "kennzahlenset":"",
@@ -20,5 +19,12 @@
 "erlaeuterungen":"",
 "template":"line001",
 "option":"options001",
-"quellenangabe":["Eidgenössische Zollverwaltung EZV"]
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"_000",
+"parentId":null,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Eidgenössische Zollverwaltung EZV"],
+"externalLinks":[""]
 }

@@ -584,7 +584,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bevölkerung am Jahresende"
+    "text": "Bevölkerungsbestand am Jahresende"
   },
   "subtitle": {
     "style": {
@@ -696,6 +696,6 @@
     "csv": {
       "dateFormat": "%d.%m.%Y"
     },
-    "filename": "I.01.1.4132"
+    "filename": "I.01.1.04132"
   }
 }

@@ -13,6 +13,10 @@ files.forEach(function(filepath){
             indikator.orderKey = indikator.kuerzelKunde;
         }
         console.log('Adding chart ' + indikator.id + ' to Indikatorenset ' + indikator.kennzahlenset + '...');
+        //clean up
+         delete indikator.visible;
+         delete indikator.visibleInPortal;
+         delete indikator.option;        
         saveToIndikatorensetJson(indikator.id, indikator, console);
     }
     else {

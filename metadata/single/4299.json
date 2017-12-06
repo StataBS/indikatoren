@@ -22,9 +22,9 @@
 "visible":true,
 "visibleInPortal":false,
 "orderKey":"08_00_00_00_00_000",
-"parentId":null,
+"parentId":6165,
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt"],
-"externalLinks":["Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.bafu.admin.ch/klima/index.html?lang=de' target='_blank'>Bundesamt für Umwelt</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0808' target='_blank'>Umweltbericht beider Basel</a></li></ul>"]
+"externalLinks":["<a href = 'http://www.bafu.admin.ch/klima/index.html?lang=de' target = '_blank'>Bundesamt für Umwelt</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0808' target = '_blank'>Umweltbericht beider Basel</a>"]
 }

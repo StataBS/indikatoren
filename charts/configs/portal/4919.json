@@ -210,7 +210,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt  Basel-Stadt"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt"
   },
   "legend": {
     "enabled": false,
@@ -235,6 +235,6 @@
     }
   },
   "exporting": {
-    "filename": "I.12.1.0001"
+    "filename": "I.12.1.04919"
   }
 }

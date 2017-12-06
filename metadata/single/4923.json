@@ -1,10 +1,9 @@
 {"title":"Anzahl Gewaltstraftaten pro 100000 Einwohner",
 "subtitle":"",
-"kuerzel":"I.19.3.0003",
+"kuerzel":"I.19.3.04923",
 "kuerzelKunde":"",
-"image":"images/I.19.3.0003.jpg",
 "description":"Anzahl Gewaltstraftaten pro 100000 Einwohner",
-"id":"4923",
+"id":4923,
 "thema":"19 Rechtspflege",
 "unterthema":"Strafvollzug",
 "kennzahlenset":"",
@@ -20,5 +19,12 @@
 "erlaeuterungen":"",
 "template":"line001",
 "option":"options001",
-"quellenangabe":["Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"]
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"_000",
+"parentId":null,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"],
+"externalLinks":[""]
 }

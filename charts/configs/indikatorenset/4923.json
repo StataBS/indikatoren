@@ -174,7 +174,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
   },
   "legend": {
     "enabled": false,
@@ -199,6 +199,6 @@
     }
   },
   "exporting": {
-    "filename": "I.19.3.0003"
+    "filename": "I.19.3.04923"
   }
 }

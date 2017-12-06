@@ -159,7 +159,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Energieverbrauch nach Verbrauchergruppe in Mio. kWh"
+    "text": "Endenergieverbrauch nach Verbrauchergruppe"
   },
   "subtitle": {
     "style": {

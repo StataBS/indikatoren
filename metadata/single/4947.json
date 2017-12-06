@@ -1,10 +1,9 @@
 {"title":"Hospitalisierungen in baselstädtischen Spitälern nach Hauptbereich",
 "subtitle":"",
-"kuerzel":"I.14.1.0002",
+"kuerzel":"I.14.1.04947",
 "kuerzelKunde":"",
-"image":"images/I.14.1.0002.jpg",
 "description":"Hospitalisierungen in baselstädtischen Spitälern nach Hauptbereich",
-"id":"4947",
+"id":4947,
 "thema":"14 Gesundheit",
 "unterthema":"Spitäler",
 "kennzahlenset":"",
@@ -20,5 +19,12 @@
 "erlaeuterungen":"Gezählt werden stationäre Austritte innerhalb eines Jahres.",
 "template":"template001",
 "option":"options001",
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gesundheitsstatistik","Bundesamt für Statistik BFS, medizinische Statistik der Krankenhäuser"]
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"_000",
+"parentId":null,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Gesundheitsstatistik","Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"],
+"externalLinks":[""]
 }

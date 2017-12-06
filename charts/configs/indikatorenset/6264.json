@@ -108,7 +108,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Haushalte"
+    "text": "Indexierter Verlauf der Haushalte in Begegnungszonen"
   },
   "subtitle": {
     "style": {
@@ -167,9 +167,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EPlanungsamt Basel-Stadt"
   },
   "legend": {
     "enabled": true,
@@ -195,6 +195,6 @@
     }
   },
   "exporting": {
-    "filename": "I.09.1.05816"
+    "filename": "I.01.2.06264"
   }
 }
