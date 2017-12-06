@@ -333,9 +333,10 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}",
+      "x": -10
     },
-    "tickInterval": 50000
+    "tickAmount": 6
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -347,7 +348,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -375,10 +376,10 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "margin": 3,
-    "padding": 3,
-    "itemMarginBottom": 5,
-    "itemWidth": 75
+    "itemWidth": 54,
+    "margin": 2,
+    "padding": 2,
+    "itemMarginBottom": 5
   },
   "plotOptions": {
     "line": {
