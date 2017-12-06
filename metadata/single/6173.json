@@ -20,10 +20,10 @@
 "template":"line001",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
 "orderKey":"09_00_00_00_00_003",
-"parentId":2917,
-"children":["6321"],
+"parentId":null,
+"children":["2917","6321"],
 "renderLink":[],
 "quellenangabe":["Amt für Sozialbeiträge, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"],
 "externalLinks":[""]

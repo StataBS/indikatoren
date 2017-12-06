@@ -61,7 +61,7 @@
     </g>
   </g>
   <text x="3" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:10px;font-weight:bold;fill:#000000;" y="14">
-    <tspan>Haushalte</tspan>
+    <tspan>Indexierter Verlauf der Haushalte in Begegnungszonen</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(28,7)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="196" height="47" visibility="visible"/>
@@ -118,7 +118,7 @@
       <tspan>104</tspan>
     </text>
   </g>
-  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="193">
-    <tspan>Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik</tspan>
+  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="183">
+    <tspan>Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;</tspan><tspan x="10" dy="13">Planungsamt Basel-Stadt</tspan>
   </text>
 </svg>

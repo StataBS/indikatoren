@@ -361,7 +361,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": ""
+    "text": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»"
   },
   "navigation": {
     "menuItemStyle": {
@@ -440,6 +440,6 @@
     "y": -6
   },
   "exporting": {
-    "filename": "I.50.1.05821"
+    "filename": "I.50.1.06252"
   }
 }

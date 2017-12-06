@@ -1,6 +1,6 @@
 {"title":"Neugründungen in Basel-Stadt",
 "subtitle":"in ausgewählten Branchen",
-"kuerzel":"I.03.2.5041",
+"kuerzel":"I.03.2.05041",
 "kuerzelKunde":"2.3",
 "description":"Neugründungen in Basel-Stadt",
 "id":5041,
@@ -23,7 +23,7 @@
 "visibleInPortal":true,
 "orderKey":"02_00_00_00_00_003",
 "parentId":null,
-"children":[],
+"children":["6369"],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"],
 "externalLinks":[""]

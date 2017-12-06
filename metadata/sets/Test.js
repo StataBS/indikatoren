@@ -24,9 +24,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "",
 		"template": "pie001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
 		"parentId": null,
 		"children": [
 			"5869"
@@ -67,9 +64,6 @@ var indikatorensetData = [
 		"lesehilfe": "In den beiden Landgemeinden besitzen die Haushalte im Schnitt am meisten private Personenwagen, in der Kleinbasler Altstadt am wenigsten. Den grössten Rückgang von 2010 (0,59) bis 2015 (0,49) verzeichnete das Wohnviertel Clara.",
 		"erlaeuterungen": "",
 		"template": "mappie002",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
 		"orderKey": "11_00_00_00_00_002",
 		"parentId": 4918,
 		"children": [

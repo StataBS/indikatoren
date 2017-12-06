@@ -21,10 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"orderKey":"08_00_00_00_00_001",
+"orderKey":"_000",
 "parentId":null,
 "children":["5814"],
 "renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Leerstandserhebung"],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Leerstandserhebung"],
 "externalLinks":[""]
 }
