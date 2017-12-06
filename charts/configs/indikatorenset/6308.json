@@ -1,11 +1,8 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "color": "#8b2223",
+      "color": "#B00000",
+      "legendIndex": 2,
       "data": [
         [
           2008,
@@ -45,6 +42,135 @@
         ]
       ],
       "name": "Basel"
+    },
+    {
+      "color": "#662673",
+      "legendIndex": 0,
+      "data": [
+        [
+          2008,
+          29
+        ],
+        [
+          2009,
+          33
+        ],
+        [
+          2010,
+          36
+        ],
+        [
+          2011,
+          36
+        ],
+        [
+          2012,
+          36
+        ],
+        [
+          2013,
+          37
+        ],
+        [
+          2014,
+          36
+        ],
+        [
+          2015,
+          33
+        ],
+        [
+          2016,
+          36
+        ]
+      ],
+      "name": "Genf"
+    },
+    {
+      "color": "#008AC3",
+      "legendIndex": 1,
+      "data": [
+        [
+          2008,
+          26
+        ],
+        [
+          2009,
+          28
+        ],
+        [
+          2010,
+          29
+        ],
+        [
+          2011,
+          29
+        ],
+        [
+          2012,
+          29
+        ],
+        [
+          2013,
+          30
+        ],
+        [
+          2014,
+          30
+        ],
+        [
+          2015,
+          29
+        ],
+        [
+          2016,
+          31
+        ]
+      ],
+      "name": "Zürich"
+    },
+    {
+      "color": "#007A2F",
+      "legendIndex": 3,
+      "data": [
+        [
+          2008,
+          17
+        ],
+        [
+          2009,
+          20
+        ],
+        [
+          2010,
+          30
+        ],
+        [
+          2011,
+          31
+        ],
+        [
+          2012,
+          22
+        ],
+        [
+          2013,
+          18
+        ],
+        [
+          2014,
+          18
+        ],
+        [
+          2015,
+          18
+        ],
+        [
+          2016,
+          20
+        ]
+      ],
+      "name": "Bern"
     }
   ],
   "chart": {
@@ -122,7 +248,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}%"
-    }
+    },
+    "tickAmount": 5
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -153,19 +280,27 @@
     "text": "Quelle: TomTom International"
   },
   "legend": {
-    "enabled": false,
+    "enabled": true,
     "layout": "vertical",
-    "verticalAlign": "middle",
+    "verticalAlign": "top",
     "align": "right",
     "symbolRadius": 0,
     "itemStyle": {
-      "fontSize": "10px"
-    }
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "itemWidth": 50,
+    "itemMarginBottom": 5
   },
   "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "series": {
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
         "allowOverlap": true,
         "y": 40,
         "formatter": function () {
