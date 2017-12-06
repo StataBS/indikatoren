@@ -93,7 +93,7 @@
     <tspan>Kantonaler Wettbewerbsindikator (KWI)</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
-    <tspan>Basel-Stadt im nationalen Vergleich, Stand: 2016</tspan>
+    <tspan>Basel-Stadt im kantonalen Vergleich, Stand: 2016</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="54.97435897435897" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 54.97435897435897 360)" y="360" opacity="1">
