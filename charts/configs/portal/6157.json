@@ -503,8 +503,9 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Mikrogramm pro m3",
-    "align": "left"
+    "text": "in Mikrogramm pro m\u003Csup\u003E3\u003C\u002Fsup\u003E",
+    "align": "left",
+    "useHTML": true
   },
   "tooltip": {
     "shared": false,
