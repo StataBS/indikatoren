@@ -239,7 +239,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Personenwagen pro Haushalt"
+    "text": "Private Personenwagen pro Haushalt"
   },
   "subtitle": {
     "style": {
@@ -320,6 +320,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": "I.11.1.0041"
+    "filename": "I.11.1.04918"
   }
 }

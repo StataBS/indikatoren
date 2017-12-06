@@ -1,10 +1,9 @@
 {"title":"Logiernächte und Bettenzahl",
 "subtitle":"",
-"kuerzel":"I.10.1.0005",
+"kuerzel":"I.10.1.04916",
 "kuerzelKunde":"",
-"image":"images/I.10.1.0005.jpg",
 "description":"Logiernächte und Bettenzahl",
-"id":"4916",
+"id":4916,
 "thema":"10 Tourismus",
 "unterthema":"Hotellerie",
 "kennzahlenset":"",
@@ -20,5 +19,12 @@
 "erlaeuterungen":"Logiernächte: Anzahl der durch die Gäste (Kinder eingeschlossen) in einem bestimmten Hotelbetrieb verbrachten Nächte.<br/>Verfügbare Betten: Anzahl der Betten in den geöffneten Betrieben, im Durchschnitt der betreffenden Periode.",
 "template":"line001",
 "option":"options001",
-"quellenangabe":["Statistisches Amt Basel-Stadt, Tourismusstatistik"]
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"_000",
+"parentId":null,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Tourismusstatistik"],
+"externalLinks":[""]
 }

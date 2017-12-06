@@ -20,10 +20,10 @@
 "template":"line001",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
 "orderKey":"04_00_00_00_00_006",
-"parentId":6037,
-"children":["6300"],
+"parentId":null,
+"children":["6037","6300"],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"],
 "externalLinks":[""]

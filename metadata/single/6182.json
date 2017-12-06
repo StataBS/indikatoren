@@ -20,10 +20,10 @@
 "template":"line001",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
 "orderKey":"11_00_00_00_00_003",
-"parentId":5184,
-"children":["6328"],
+"parentId":null,
+"children":["5184","6328"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, Sozialhilfestatistik","Departement für Wirtschaft, Soziales und Umwelt"],
 "externalLinks":[""]

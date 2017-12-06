@@ -1,10 +1,9 @@
 {"title":"Basler Index der Konsumentenpreise seit 1982 (Dez. 1982 = 100)",
 "subtitle":"",
-"kuerzel":"I.05.1.0001",
+"kuerzel":"I.05.1.04909",
 "kuerzelKunde":"",
-"image":"images/I.05.1.0001.jpg",
 "description":"Basler Index der Konsumentenpreise seit 1982 (Dez. 1982 = 100)",
-"id":"4909",
+"id":4909,
 "thema":"05 Preise",
 "unterthema":"Basler Index der Konsumentenpreise",
 "kennzahlenset":"",
@@ -20,5 +19,12 @@
 "erlaeuterungen":"",
 "template":"line001",
 "option":"options001",
-"quellenangabe":["Statistisches Amt Basel-Stadt"]
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"_000",
+"parentId":null,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt"],
+"externalLinks":[""]
 }

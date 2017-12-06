@@ -123,7 +123,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil übermässig mit Lärm belastete Wohnbevölkerung"
+    "text": "Übermässig mit Lärm belastete Wohnbevölkerung"
   },
   "subtitle": {
     "style": {
@@ -191,6 +191,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": "I.02.5.06159"
+    "filename": "I.02.14.06159"
   }
 }

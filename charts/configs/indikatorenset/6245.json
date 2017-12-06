@@ -152,7 +152,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "in Prozent",
     "align": "left"
   },
   "tooltip": {
@@ -219,6 +219,6 @@
   },
   "plotOptions": {},
   "exporting": {
-    "filename": "I.09.1.05813"
+    "filename": "I.09.2.06245"
   }
 }

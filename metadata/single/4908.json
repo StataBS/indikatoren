@@ -1,10 +1,9 @@
 {"title":"Bruttowertschöpfung nach Branchengruppe in Mio. Franken",
 "subtitle":"",
-"kuerzel":"I.04.1.0003",
+"kuerzel":"I.04.1.04908",
 "kuerzelKunde":"",
-"image":"images/I.04.1.0003.jpg",
 "description":"Bruttowertschöpfung nach Branchengruppe in Mio. Franken",
-"id":"4908",
+"id":4908,
 "thema":"04 Volkswirtschaft",
 "unterthema":"Basler Index der Konsumentenpreise",
 "kennzahlenset":"",
@@ -20,5 +19,12 @@
 "erlaeuterungen":"Bau u. Herst. v. Waren umfasst: Bergbau und Gewinnung von Steinen und Erden, Herstellung von Waren, Bau; Handel und Informationsdienstl. umfasst: Handel und Reparatur von Fahrzeugen, Transport, Informationsdienstleistungen und Telekommunikation, Beherbergung und Gastronomie; Wirtschaftl. Dienstl. u. Unterhaltung umfasst: Grundstücks- und Wohnungswesen, sonstige freiberufliche, wissenschaftliche und technische Tätigkeiten, wirtschaftliche Dienstleistungen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen; Finanzen und Versicherungen umfasst: Erbringung von Finanzdienstleistungen und Versicherungen; Versorgung und Bildung umfasst: Energieversorgung, Wasserversorgung, Sammlung, Behandlung und Beseitigung von Abfällen, Erziehung und Unterricht, Gesundheitswesen; Private Haushalte umfasst: Private Haushalte als Hersteller; Landwirtschaft umfasst: Landwirtschaft, Forstwirtschaft und Fischerei.",
 "template":"template001",
 "option":"options001",
-"quellenangabe":["Bundesamt für Statistik BFS, Volkswirtschaftliche Gesamtrechnung"]
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"_000",
+"parentId":null,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Bundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung"],
+"externalLinks":[""]
 }

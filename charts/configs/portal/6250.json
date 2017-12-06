@@ -3743,7 +3743,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bruttogeschossfläche Wohnen"
+    "text": "Bruttogeschossfläche Wohnen nach Wohnviertel"
   },
   "subtitle": {
     "style": {
@@ -3752,7 +3752,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "in Quadratmetern",
     "align": "left"
   },
   "credits": {
@@ -3855,7 +3855,7 @@
         }
       }
     },
-    "filename": "I.09.1.05818"
+    "filename": "I.09.1.06250"
   },
   "customFunctions": {
     "pieSizeCategorical": function (value, conf){

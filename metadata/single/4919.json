@@ -1,10 +1,9 @@
 {"title":"Grundpfandbelastung in Mio. Franken seit 1990",
 "subtitle":"",
-"kuerzel":"I.12.1.0001",
+"kuerzel":"I.12.1.04919",
 "kuerzelKunde":"",
-"image":"images/I.12.1.0001.jpg",
 "description":"Grundpfandbelastung in Mio. Franken seit 1990",
-"id":"4919",
+"id":4919,
 "thema":"12 Finanzmärkte",
 "unterthema":"Grundpfandbelastung",
 "kennzahlenset":"",
@@ -20,5 +19,12 @@
 "erlaeuterungen":"Zur Sicherung einer Forderung kann ein Grundstück mit einem Grundpfandrecht verpfändet werden. In Basel-Stadt kann dies in Form eines Schuldbriefs oder einer Grundpfandverschreibung erfolgen.",
 "template":"line001",
 "option":"options001",
-"quellenangabe":["Grundbuch- und Vermessungsamt  Basel-Stadt"]
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"_000",
+"parentId":null,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Grundbuch- und Vermessungsamt Basel-Stadt"],
+"externalLinks":[""]
 }

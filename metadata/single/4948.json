@@ -1,10 +1,9 @@
 {"title":"Pflegetage in baselstädtischen Spitälern nach Hauptbereich",
 "subtitle":"",
-"kuerzel":"I.14.1.0003",
+"kuerzel":"I.14.1.04948",
 "kuerzelKunde":"",
-"image":"images/I.14.1.0003.jpg",
 "description":"Pflegetage in baselstädtischen Spitälern nach Hauptbereich",
-"id":"4948",
+"id":4948,
 "thema":"14 Gesundheit",
 "unterthema":"Spitäler",
 "kennzahlenset":"",
@@ -20,5 +19,12 @@
 "erlaeuterungen":"Die Berechnungsmethode wurde rückwirkend ab 2012 angepasst. Deshalb können sich die Werte von früher an dieser Stelle publizierten Werten unterscheiden. Neu werden gemäss SwissDRG bei Fallzusammenführungen (Wiedereintritt mit identischer Hauptdiagnosegruppe innerhalb von 18 Tagen) die zwischen Aus- und Wiedereintritt liegenden Tage nicht mehr als Pflegetage gezählt.",
 "template":"template001",
 "option":"options001",
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gesundheitsstatistik","Bundesamt für Statistik BFS, medizinische Statistik der Krankenhäuser"]
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"_000",
+"parentId":null,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Gesundheitsstatistik","Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"],
+"externalLinks":[""]
 }

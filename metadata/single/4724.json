@@ -1,6 +1,6 @@
 {"title":"Vertretung der Anliegen der Bevölkerung durch Behörden",
 "subtitle":"«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?»",
-"kuerzel":"I.50.1.4724",
+"kuerzel":"I.50.1.04724",
 "kuerzelKunde":"2.2.01",
 "description":"Vertretung der Anliegen der Bevölkerung durch Behörden",
 "id":4724,
@@ -23,7 +23,7 @@
 "visibleInPortal":true,
 "orderKey":"02_02_00_00_00_000",
 "parentId":null,
-"children":["5138"],
+"children":["5138","6185"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F21a"],
 "externalLinks":[""]

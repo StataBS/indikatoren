@@ -20,10 +20,10 @@
 "template":"template001",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
 "orderKey":"03_00_00_00_00_008",
-"parentId":6049,
-"children":["6295"],
+"parentId":null,
+"children":["6049","6295"],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS)"],
 "externalLinks":[""]

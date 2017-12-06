@@ -20,10 +20,10 @@
 "template":"befragungen001",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
 "orderKey":"03_00_00_00_00_004",
-"parentId":5191,
-"children":["6292"],
+"parentId":null,
+"children":["5191","6292"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, S15A"],
 "externalLinks":[""]

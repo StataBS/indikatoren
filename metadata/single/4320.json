@@ -26,5 +26,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS)"],
-"externalLinks":["Weiterführende Informationen zum Indikator:<ul><li><a href='https://www.bfs.admin.ch/bfs/de/home/statistiken/bau-wohnungswesen/wohnungen/wohnverhaeltnisse.html' target='_blank'>Wohnverhältnisse Schweiz (BFS)</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1703' target='_blank'>Umweltbericht beider Basel</a></li></ul>"]
+"externalLinks":["<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/bau-wohnungswesen/wohnungen/wohnverhaeltnisse.html' target = '_blank'>Wohnverhältnisse Schweiz (BFS)</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1703' target = '_blank'>Umweltbericht beider Basel</a>"]
 }

@@ -3760,7 +3760,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel",
+    "text": "nach Wohnviertel in Prozent",
     "align": "left"
   },
   "credits": {
@@ -3863,7 +3863,7 @@
         }
       }
     },
-    "filename": "I.09.1.05814"
+    "filename": "I.09.2.06246"
   },
   "customFunctions": {
     "pieSizeCategorical": function (value, conf){

@@ -61,7 +61,7 @@
     <g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="none"/>
   </g>
   <text x="3" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:10px;font-weight:bold;fill:#000000;" y="14">
-    <tspan>Energieverbrauch nach Verbrauchergruppe in Mio. kWh</tspan>
+    <tspan>Endenergieverbrauch nach Verbrauchergruppe</tspan>
   </text>
   <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:arial;fill:#000000;" y="32">
     <tspan>in Mio. kWh</tspan>

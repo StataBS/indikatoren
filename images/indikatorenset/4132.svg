@@ -116,7 +116,7 @@
     <g class="highcharts-markers highcharts-series-1 highcharts-areaspline-series highcharts-color-undefined highcharts-navigator-series" transform="translate(79,311) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Bevölkerung am Jahresende</tspan>
+    <tspan>Bevölkerungsbestand am Jahresende</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="89.62738870941247" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="299" opacity="1">

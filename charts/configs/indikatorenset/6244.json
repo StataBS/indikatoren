@@ -289,7 +289,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Wegpendler nach Ziel"
+    "text": "Zu- und Wegpendler nach Herkunft und Ziel"
   },
   "subtitle": {
     "style": {
@@ -376,6 +376,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": "I.11.5.05203"
+    "filename": "I.11.5.06244"
   }
 }

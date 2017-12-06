@@ -20,10 +20,10 @@
 "template":"line001",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
 "orderKey":"07_00_00_00_00_007",
-"parentId":6129,
-"children":["6309"],
+"parentId":null,
+"children":["6029","6309"],
 "renderLink":[],
 "quellenangabe":["Lufthygieneamt beider Basel"],
 "externalLinks":["<a href = 'https://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>","<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>"]

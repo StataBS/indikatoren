@@ -20,10 +20,10 @@
 "template":"line001",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
 "orderKey":"04_00_00_00_00_009",
-"parentId":6054,
-"children":["6303"],
+"parentId":null,
+"children":["6054","6303"],
 "renderLink":[],
 "quellenangabe":["Steuerstatistik Basel-Stadt"],
 "externalLinks":[""]

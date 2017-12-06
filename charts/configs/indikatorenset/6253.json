@@ -121,9 +121,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Amt für Mobilität Basel-Stadt;\u003Cbr\u002F\u003EBau- und Verkehrsdepartement des Kantons Basel-Stadt"
+    "text": "Quelle: Amt für Mobilität Basel-Stadt"
   },
   "legend": {
     "layout": "horizontal",
@@ -139,6 +139,6 @@
     "itemWidth": 100
   },
   "exporting": {
-    "filename": "I.11.2.05822"
+    "filename": "I.11.2.06253"
   }
 }
