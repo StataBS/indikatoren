@@ -11159,7 +11159,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
-		"subtitle": "Basel-Stadt im nationalen Vergleich, Stand: 2016",
+		"subtitle": "Basel-Stadt im kantonalen Vergleich, Stand: 2016",
 		"kuerzel": "I.04.2.06126",
 		"kuerzelKunde": "1.1",
 		"description": "Kantonaler Wettbewerbsindikator (KWI)",
