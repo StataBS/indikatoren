@@ -3,6 +3,9 @@
     title: {
       useHTML: true
     },
+    subtitle: {
+      useHTML: true
+    },
   "xAxis": {
     //"tickInterval": 1
   },
