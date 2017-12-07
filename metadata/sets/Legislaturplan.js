@@ -253,12 +253,12 @@ var indikatorensetData = [
 	{
 		"title": "Globale und kontinentale Erreichbarkeit",
 		"subtitle": "Stadt Basel im nationalen Vergleich",
-		"kuerzel": "I.11.1.03104",
+		"kuerzel": "I.11.6.03104",
 		"kuerzelKunde": "5.1",
 		"description": "Globale und kontinentale Erreichbarkeit",
 		"id": 3104,
 		"thema": "11 Verkehr",
-		"unterthema": "Hotellerie",
+		"unterthema": "Mobilitätsverhalten",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -281,7 +281,6 @@ var indikatorensetData = [
 		"orderKey": "05_00_00_00_00_001",
 		"parentId": null,
 		"children": [
-			"5016",
 			"6278"
 		],
 		"renderLink": [],
@@ -1010,7 +1009,9 @@ var indikatorensetData = [
 			"6296"
 		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
 		"externalLinks": [
 			""
 		]

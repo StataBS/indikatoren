@@ -111,7 +111,7 @@
       <tspan>20%</tspan>
     </text>
   </g>
-  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="410">
-    <tspan>Quelle:</tspan>
+  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">
+    <tspan>Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)</tspan>
   </text>
 </svg>
