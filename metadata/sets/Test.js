@@ -36,11 +36,11 @@ var indikatorensetData = [
 		"orderKey": "ST 2-1"
 	},
 	{
-		"title": "Anzahl privater Personenwagen pro Haushalt",
+		"title": "Test Daten",
 		"subtitle": "",
-		"kuerzel": "I.11.1.05829",
+		"kuerzel": "I.01.1.09999",
 		"kuerzelKunde": "ST 11-2",
-		"description": "Anzahl privater Personenwagen pro Haushalt",
+		"description": "Test Daten",
 		"id": 9999,
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
@@ -56,21 +56,21 @@ var indikatorensetData = [
 			"Quote",
 			"Auto"
 		],
-		"stufe1": "Strategie 11",
+		"stufe1": "Test",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den beiden Landgemeinden besitzen die Haushalte im Schnitt am meisten private Personenwagen, in der Kleinbasler Altstadt am wenigsten. Den grössten Rückgang von 2010 (0,59) bis 2015 (0,49) verzeichnete das Wohnviertel Clara.",
+		"lesehilfe": "Test Daten",
 		"erlaeuterungen": "",
-		"template": "mappie002",
+		"template": "map002",
 		"orderKey": "11_00_00_00_00_002",
-		"parentId": 4918,
+		"parentId": 9998,
 		"children": [
-			"5888"
+			""
 		],
 		"renderLink": [
-			"4918"
+			""
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
