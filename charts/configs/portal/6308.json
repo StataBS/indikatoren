@@ -205,6 +205,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
+    "spacingTop": 10,
     "renderTo": "container-6308"
   },
   "title": {
@@ -282,7 +283,7 @@
   "legend": {
     "enabled": true,
     "layout": "vertical",
-    "verticalAlign": "top",
+    "verticalAlign": "middle",
     "align": "right",
     "symbolRadius": 0,
     "itemStyle": {
@@ -304,13 +305,13 @@
         "allowOverlap": true,
         "y": 40,
         "formatter": function () {
-            var last = this.series.data[this.series.data.length - 1];
-            var first = this.series.data[0];
-            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 0, ",", " ") + '%';
-            }
-            return "";
-          }
+                var last = this.series.data[this.series.data.length - 1];
+                var first = this.series.data[0];
+                if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
+                  return Highcharts.numberFormat(this.point.y, 0, ",", " ") + '%';
+                }
+                return "";
+              }
       }
     }
   },
