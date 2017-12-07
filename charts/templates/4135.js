@@ -1,55 +1,84 @@
 (function(){
     return {
-  "plotOptions": {
-    "series": {
-      "stacking": null,
-      "groupPadding": 0.05
-    }
+  plotOptions: {
+        series: {
+        	"stacking": "normal",
+            pointPadding: 0,
+            groupPadding: 0.5, // exaclty overlaps columns
+            borderWidth: 0
+        }
   },
   "yAxis": {
+  	//"min": -200,
     "labels": {
-      "format": "{value:,.0f}"
-    }
+      "format": "{value:,.0f}",
+    },
+     plotLines: [{
+                    value: 0,
+                    color: 'white',
+                    width: 2,
+                    zIndex: 4,
+                }]
   },
   "xAxis": {
-    "tickInterval": 1
-  },
-  tooltip: {
-    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-    shared: false
+   "tickInterval": 1,
   },
   "legend": {
-		"verticalAlign": "top",
-		"floating": false,
-		"y": 20,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "align": "left",
+	"y": 40,
+	"x": 40,
+	"itemMarginBottom": 5,
     "itemStyle": {
-      "fontWeight": "normal"
+    "fontWeight": "normal"
     }
   },
   "series": [
     {
-      "color": "#68ab2b"
+      "color": "#b475ab",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      legendIndex: 0
     },
     {
-      "color": "#cd9c00"
+      "color": "#a8c4cb",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      legendIndex: 1
     },
     {
-      "color": "#008ac3"
+      "color": "#fabd24",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      legendIndex: 2
     },
-    {
-      "color": "#2e1435",
+	{
+      "color": "#000000",
+      "index": 1,
+      "type": "line",
       "marker": {
         "enabled": false
-      },
-      "type": "line"
-    }    
-  ],
+      }, 
 
-  "chart": {
+      //"yAxis": 1,
+      legendIndex: 3,
+      tooltip: {
+      	"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
+    }
+    },
+  ],  
+  "tooltip": {
+    "shared": true
+  },
+  /*"chart": {
     "marginBottom": 65,
-    "marginTop": 100,
-    "type": "column"
-  }
-	}
+    "type": "line",
+    "alignTicks": false
+  }*/
+};
 }());
