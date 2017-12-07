@@ -1,7 +1,11 @@
 {
   "series": [
     {
-      "color": "#68ab2b",
+      "color": "#b475ab",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 0,
       "data": [
         [
           2005,
@@ -55,7 +59,11 @@
       "name": "Neubau"
     },
     {
-      "color": "#cd9c00",
+      "color": "#a8c4cb",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 1,
       "data": [
         [
           2005,
@@ -109,7 +117,11 @@
       "name": "Abbruch"
     },
     {
-      "color": "#008ac3",
+      "color": "#fabd24",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 2,
       "data": [
         [
           2005,
@@ -163,11 +175,16 @@
       "name": "Umbausaldo"
     },
     {
-      "color": "#2e1435",
+      "color": "#000000",
+      "index": 1,
+      "type": "line",
       "marker": {
         "enabled": false
       },
-      "type": "line",
+      "legendIndex": 3,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
       "data": [
         [
           2005,
@@ -247,9 +264,6 @@
             }
           }
     },
-    "marginBottom": 65,
-    "marginTop": 100,
-    "type": "column",
     "renderTo": "container-4135"
   },
   "plotOptions": {
@@ -260,8 +274,9 @@
           "fontSize": "10px"
         }
       },
-      "stacking": null,
-      "groupPadding": 0.05
+      "stacking": "normal",
+      "pointPadding": 0,
+      "groupPadding": 0.5
     }
   },
   "title": {
@@ -316,7 +331,15 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "plotLines": [
+      {
+        "value": 0,
+        "color": "white",
+        "width": 2,
+        "zIndex": 4
+      }
+    ]
   },
   "navigation": {
     "menuItemStyle": {
@@ -341,17 +364,19 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
     "verticalAlign": "top",
-    "floating": false,
-    "y": 20,
     "align": "left",
+    "y": 40,
+    "x": 40,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    "shared": true
   },
   "exporting": {
     "filename": "I.09.1.04135"
