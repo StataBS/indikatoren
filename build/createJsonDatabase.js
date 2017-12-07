@@ -92,12 +92,12 @@ allIndikatoren.forEach((element, i, arr) => {
 
 console.log('Saving json databases...');
 saveToJsonFile('indikatoren', 'portal/', indikatorenInPortal, console);
-saveToJsonFile('indikatoren', 'all/', indikatorenInPortal, console);
+saveToJsonFile('indikatoren', 'all/', allIndikatoren, console);
 saveToJsonFile('kuerzelById', 'all/', kuerzelById, console);
 saveToJsonFile('idByKuerzel', 'all/',idByKuerzel, console);
 saveToJsonFile('templatesById', 'all/',templatesById, console);
 saveToJsFile('indikatoren', 'portal/', indikatorenInPortal, console);
-saveToJsFile('indikatoren', 'all/', indikatorenInPortal, console);
+saveToJsFile('indikatoren', 'all/', allIndikatoren, console);
 saveToJsFile('kuerzelById', 'all/', kuerzelById, console);
 saveToJsFile('idByKuerzel', 'all/',idByKuerzel, console);
 saveToJsFile('templatesById', 'all/',templatesById, console);
