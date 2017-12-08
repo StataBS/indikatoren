@@ -98,11 +98,36 @@ Manually create svg thumbnails:
 This will download all svg files to the local downloads directory. You can then manually move them to their respective directory below /images/.
 
 
-### Updating dependencies
+### Update dependencies
 Update version numbers in package.json, then run the following command to do a clean reinstall: 
 ```javascript
 npm run reinstall
 ```
+
+### Develop in a private github repositoriy
+- Develop in a private github repositoriy as you would do in the public repo: Create an issue, create a branch called 'issue-XXX' with XXX being the id of the issue. 
+- When it's time to release the new functionality onto the public repository: 
+    - In the private repo, define the public repo as a remote repo named "upstream" (of course use the correct https url, not the following dummy url. Use e.g. the address from the browser and add '.git' at the end): 
+    ```shell
+    git remote add upstream https://github.com/user/indikatoren.git
+    ```
+    - Add, commit and push your changes to the private repo as usual. 
+    - Create a branch with the same name on the public github repository ('upstream'). 
+    - Pull the latest commits from the public branch to the private branch: 
+    ```shell
+    git checkout issue-XXX
+    git pull upstream issue-XXX
+    ```
+    - If there are conflicts (public and private branch have changes in common files), manually resolve the conflicts, then add, commit and push the resolved conflicts to the private branch. 
+    ```shell
+    git add .
+    git commit -m"Merge upstream"
+    git push
+    ```
+    - Push your changes to the branch 'issue-XXX' on the public repo: 
+    ```shell
+    git push upstream issue-XXX
+    ```
 
 
 ### Develop using [cloud9](https://c9.io)
