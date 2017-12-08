@@ -5,7 +5,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.05201",
 		"kuerzelKunde": "ST 4-2",
 		"description": "Bevölkerungsdichte",
-		"id": 5201,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Richtplan",
@@ -37,7 +36,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5201
 	},
 	{
 		"title": "Bevölkerungsdichte",
@@ -45,7 +45,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.05202",
 		"kuerzelKunde": "ST 4-3",
 		"description": "Bevölkerungsdichte",
-		"id": 5202,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Richtplan",
@@ -77,7 +76,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5202
 	},
 	{
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
@@ -85,7 +85,6 @@ var indikatorensetData = [
 		"kuerzel": "I.11.5.05203",
 		"kuerzelKunde": "ST 4-12",
 		"description": "Zu- und Wegpendler nach Herkunft und Ziel",
-		"id": 5203,
 		"thema": "11 Verkehr",
 		"unterthema": "Pendler",
 		"kennzahlenset": "Richtplan",
@@ -116,7 +115,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5203
 	},
 	{
 		"title": "Leerwohnungsquote",
@@ -124,7 +124,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.2.05813",
 		"kuerzelKunde": "ST 4-5",
 		"description": "Leerwohnungsquote",
-		"id": 5813,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Richtplan",
@@ -155,7 +154,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5813
 	},
 	{
 		"title": "Leerwohnungsquote",
@@ -163,7 +163,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.2.05814",
 		"kuerzelKunde": "ST 4-6",
 		"description": "Leerwohnungsquote",
-		"id": 5814,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Richtplan",
@@ -194,7 +193,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5814
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -202,7 +202,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.1.05815",
 		"kuerzelKunde": "ST 4-7",
 		"description": "Mittlere Wohnfläche pro Person",
-		"id": 5815,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Richtplan",
@@ -234,7 +233,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5815
 	},
 	{
 		"title": "Nettowohnungsproduktion",
@@ -242,7 +242,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.1.05816",
 		"kuerzelKunde": "ST 4-8",
 		"description": "Nettowohnungsproduktion",
-		"id": 5816,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Richtplan",
@@ -273,7 +272,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5816
 	},
 	{
 		"title": "Nettowohnungsproduktion",
@@ -281,7 +281,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.1.05817",
 		"kuerzelKunde": "ST 4-9",
 		"description": "Nettowohnungsproduktion",
-		"id": 5817,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Richtplan",
@@ -312,7 +311,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5817
 	},
 	{
 		"title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
@@ -320,7 +320,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.1.05818",
 		"kuerzelKunde": "ST 4-10",
 		"description": "Bruttogeschossfläche Wohnen nach Wohnviertel",
-		"id": 5818,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Richtplan",
@@ -351,7 +350,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5818
 	},
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
@@ -359,7 +359,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.05819",
 		"kuerzelKunde": "ST 5-1",
 		"description": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
-		"id": 5819,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Richtplan",
@@ -390,7 +389,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5819
 	},
 	{
 		"title": "Bewertung der Lebensqualität",
@@ -398,7 +398,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.05821",
 		"kuerzelKunde": "ST 5-2",
 		"description": "Bewertung der Lebensqualität",
-		"id": 5821,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Richtplan",
@@ -431,7 +430,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5821
 	},
 	{
 		"title": "Anteil Einwohner pro ÖV-Güteklasse",
@@ -439,7 +439,6 @@ var indikatorensetData = [
 		"kuerzel": "I.11.2.05822",
 		"kuerzelKunde": "ST 6-1",
 		"description": "Anteil Einwohner pro ÖV-Güteklasse",
-		"id": 5822,
 		"thema": "11 Verkehr",
 		"unterthema": "Öffentlicher Verkehr",
 		"kennzahlenset": "Richtplan",
@@ -471,7 +470,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/data/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target = '_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=340&cps=2614062.08,1267876.03,50000&nodefault&layers=stadtplan_grau_osm_50000,gueteklassen' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
-		]
+		],
+		"id": 5822
 	},
 	{
 		"title": "Beschäftigtendichte",
@@ -479,7 +479,6 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.05823",
 		"kuerzelKunde": "ST 7-2",
 		"description": "Beschäftigtendichte",
-		"id": 5823,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Richtplan",
@@ -510,7 +509,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5823
 	},
 	{
 		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
@@ -518,7 +518,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.1.05825",
 		"kuerzelKunde": "ST 7-3",
 		"description": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
-		"id": 5825,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Richtplan",
@@ -549,7 +548,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5825
 	},
 	{
 		"title": "Kontinentale Erreichbarkeit",
@@ -557,7 +557,6 @@ var indikatorensetData = [
 		"kuerzel": "I.11.2.05891",
 		"kuerzelKunde": "ST 8-1",
 		"description": "Kontinentale Erreichbarkeit",
-		"id": 5891,
 		"thema": "11 Verkehr",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Richtplan",
@@ -591,7 +590,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5891
 	},
 	{
 		"title": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
@@ -599,7 +599,6 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.05901",
 		"kuerzelKunde": "ST 4-11",
 		"description": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
-		"id": 5901,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Richtplan",
@@ -631,7 +630,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5901
 	},
 	{
 		"title": "Verkehrsleistungsindex",
@@ -639,7 +639,6 @@ var indikatorensetData = [
 		"kuerzel": "I.02.6.06007",
 		"kuerzelKunde": "ST 6-2",
 		"description": "Verkehrsleistungsindex",
-		"id": 6007,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Mobilitätsverhalten",
 		"kennzahlenset": "Richtplan",
@@ -670,7 +669,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6007
 	},
 	{
 		"title": "Bevölkerung am Jahresende und Anzahl Wohnungen",
@@ -678,7 +678,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.06214",
 		"kuerzelKunde": "ST 4-1",
 		"description": "Bevölkerung am Jahresende und Anzahl Wohnungen",
-		"id": 6214,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Richtplan",
@@ -710,7 +709,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6214
 	},
 	{
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
@@ -718,7 +718,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.9.06215",
 		"kuerzelKunde": "ST 4-4",
 		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"id": 6215,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Szenarien",
 		"kennzahlenset": "Richtplan",
@@ -749,7 +748,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6215
 	},
 	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
@@ -757,7 +757,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.06216",
 		"kuerzelKunde": "ST 5-3",
 		"description": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
-		"id": 6216,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Richtplan",
@@ -789,7 +788,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6216
 	},
 	{
 		"title": "Leerstehende Industrie- und Gewerbeflächen",
@@ -797,7 +797,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.2.06217",
 		"kuerzelKunde": "ST 7-4",
 		"description": "Leerstehende Industrie- und Gewerbeflächen",
-		"id": 6217,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Richtplan",
@@ -828,7 +827,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6217
 	},
 	{
 		"title": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
@@ -836,7 +836,6 @@ var indikatorensetData = [
 		"kuerzel": "I.15.6.06218",
 		"kuerzelKunde": "ST 8-2",
 		"description": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
-		"id": 6218,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Richtplan",
@@ -867,7 +866,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6218
 	},
 	{
 		"title": "Indexierter Verlauf der Haushalte in Begegnungszonen",
@@ -875,7 +875,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.2.06220",
 		"kuerzelKunde": "ST 5-4",
 		"description": "Indexierter Verlauf der Haushalte in Begegnungszonen",
-		"id": 6220,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Richtplan",
@@ -907,7 +906,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6220
 	},
 	{
 		"title": "Anzahl Beschäftigte nach Branche",
@@ -915,7 +915,6 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.06236",
 		"kuerzelKunde": "ST 7-1",
 		"description": "Anzahl Beschäftigte nach Branche",
-		"id": 6236,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Richtplan",
@@ -948,6 +947,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6236
 	}
 ];

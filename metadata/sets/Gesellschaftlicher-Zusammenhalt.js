@@ -5,7 +5,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.2.04716",
 		"kuerzelKunde": "1.1.01",
 		"description": "Erhaltenene Hilfeleistungen",
-		"id": 4716,
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -35,7 +34,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4716
 	},
 	{
 		"title": "Erhaltene materielle Hilfeleistungen",
@@ -43,7 +43,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.4.04718",
 		"kuerzelKunde": "1.1.02",
 		"description": "Erhaltene materielle Hilfeleistungen",
-		"id": 4718,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -73,7 +72,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4718
 	},
 	{
 		"title": "Kulturelle Bereicherung",
@@ -81,7 +81,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04719",
 		"kuerzelKunde": "1.3.01",
 		"description": "Kulturelle Bereicherung",
-		"id": 4719,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -110,7 +109,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4719
 	},
 	{
 		"title": "Beurteilung des Wohnorts",
@@ -118,7 +118,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04720",
 		"kuerzelKunde": "2.1.01",
 		"description": "Beurteilung des Wohnorts",
-		"id": 4720,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -149,7 +148,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4720
 	},
 	{
 		"title": "Beurteilung des Wohnquartiers",
@@ -157,7 +157,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04721",
 		"kuerzelKunde": "2.1.02",
 		"description": "Beurteilung des Wohnquartiers",
-		"id": 4721,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -188,7 +187,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4721
 	},
 	{
 		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
@@ -196,7 +196,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.6.04722",
 		"kuerzelKunde": "2.1.03",
 		"description": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
-		"id": 4722,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -230,7 +229,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4722
 	},
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
@@ -238,7 +238,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04724",
 		"kuerzelKunde": "2.2.01",
 		"description": "Vertretung der Anliegen der Bevölkerung durch Behörden",
-		"id": 4724,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -271,7 +270,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4724
 	},
 	{
 		"title": "Unterstützung von Freunden oder Nachbarn",
@@ -279,7 +279,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.2.04848",
 		"kuerzelKunde": "1.1.03",
 		"description": "Unterstützung von Freunden oder Nachbarn",
-		"id": 4848,
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -310,7 +309,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4848
 	},
 	{
 		"title": "Beurteilung des Verhältnisses zur Nachbarschaft",
@@ -318,7 +318,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.2.04849",
 		"kuerzelKunde": "1.1.04",
 		"description": "Beurteilung des Verhältnisses zur Nachbarschaft",
-		"id": 4849,
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -346,7 +345,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4849
 	},
 	{
 		"title": "Zusammensetzung des Freundeskreises",
@@ -354,7 +354,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.3.04850",
 		"kuerzelKunde": "1.1.05",
 		"description": "Zusammensetzung des Freundeskreises",
-		"id": 4850,
 		"thema": "50 Befragungen",
 		"unterthema": "Jugendbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -383,7 +382,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4850
 	},
 	{
 		"title": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
@@ -391,7 +391,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.4.04851",
 		"kuerzelKunde": "1.1.06",
 		"description": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
-		"id": 4851,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -420,7 +419,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4851
 	},
 	{
 		"title": "Sicherheitsgefühl im Alltag",
@@ -428,7 +428,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04852",
 		"kuerzelKunde": "1.2.01",
 		"description": "Sicherheitsgefühl im Alltag",
-		"id": 4852,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -457,7 +456,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4852
 	},
 	{
 		"title": "Bedrohungen und Angriffe",
@@ -465,7 +465,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04853",
 		"kuerzelKunde": "1.2.02",
 		"description": "Bedrohungen und Angriffe",
-		"id": 4853,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -494,7 +493,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4853
 	},
 	{
 		"title": "Sicherheitsgefühl nachts im Quartier",
@@ -502,7 +502,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04854",
 		"kuerzelKunde": "1.2.03",
 		"description": "Sicherheitsgefühl nachts im Quartier",
-		"id": 4854,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -532,7 +531,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4854
 	},
 	{
 		"title": "Beurteilung des Ausländeranteils",
@@ -540,7 +540,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04855",
 		"kuerzelKunde": "1.3.02",
 		"description": "Beurteilung des Ausländeranteils",
-		"id": 4855,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -569,7 +568,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4855
 	},
 	{
 		"title": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
@@ -577,7 +577,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04856",
 		"kuerzelKunde": "1.3.03",
 		"description": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
-		"id": 4856,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -606,7 +605,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4856
 	},
 	{
 		"title": "Beurteilung der Schulen in Basel-Stadt",
@@ -614,7 +614,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04857",
 		"kuerzelKunde": "2.2.02",
 		"description": "Beurteilung der Schulen in Basel-Stadt",
-		"id": 4857,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -646,7 +645,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4857
 	},
 	{
 		"title": "Beurteilung der Chancengleichheit",
@@ -654,7 +654,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04858",
 		"kuerzelKunde": "2.2.03",
 		"description": "Beurteilung der Chancengleichheit",
-		"id": 4858,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -685,7 +684,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4858
 	},
 	{
 		"title": "Beurteilung der kantonalen Verwaltung",
@@ -693,7 +693,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04859",
 		"kuerzelKunde": "2.2.04",
 		"description": "Beurteilung der kantonalen Verwaltung",
-		"id": 4859,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -724,7 +723,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4859
 	},
 	{
 		"title": "Beurteilung der kantonalen Steuern",
@@ -732,7 +732,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04860",
 		"kuerzelKunde": "2.3.01",
 		"description": "Beurteilung der kantonalen Steuern",
-		"id": 4860,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -763,7 +762,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4860
 	},
 	{
 		"title": "Beurteilung der eigenen wirtschaftlichen Situation",
@@ -771,7 +771,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04861",
 		"kuerzelKunde": "2.3.02",
 		"description": "Beurteilung der eigenen wirtschaftlichen Situation",
-		"id": 4861,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -800,7 +799,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4861
 	},
 	{
 		"title": "Beurteilung der Bildungschancen",
@@ -808,7 +808,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04862",
 		"kuerzelKunde": "2.3.03",
 		"description": "Beurteilung der Bildungschancen",
-		"id": 4862,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -837,7 +836,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4862
 	},
 	{
 		"title": "Anteil Steuerveranlagungen mit Zuwendungen",
@@ -845,7 +845,6 @@ var indikatorensetData = [
 		"kuerzel": "I.18.2.04863",
 		"kuerzelKunde": "3.1.01",
 		"description": "Anteil Steuerveranlagungen mit Zuwendungen",
-		"id": 4863,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -874,7 +873,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4863
 	},
 	{
 		"title": "Freiwillige Tätigkeit",
@@ -882,7 +882,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04864",
 		"kuerzelKunde": "3.1.02",
 		"description": "Freiwillige Tätigkeit",
-		"id": 4864,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -910,7 +909,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4864
 	},
 	{
 		"title": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
@@ -918,7 +918,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.4.04865",
 		"kuerzelKunde": "3.1.03",
 		"description": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
-		"id": 4865,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -946,7 +945,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4865
 	},
 	{
 		"title": "Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren",
@@ -954,7 +954,6 @@ var indikatorensetData = [
 		"kuerzel": "I.19.1.04866",
 		"kuerzelKunde": "3.2.01",
 		"description": "Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"id": 4866,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -983,7 +982,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4866
 	},
 	{
 		"title": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
@@ -991,7 +991,6 @@ var indikatorensetData = [
 		"kuerzel": "I.19.1.04867",
 		"kuerzelKunde": "3.2.02",
 		"description": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"id": 4867,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -1020,7 +1019,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4867
 	},
 	{
 		"title": "Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl/-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren",
@@ -1028,7 +1028,6 @@ var indikatorensetData = [
 		"kuerzel": "I.19.1.04868",
 		"kuerzelKunde": "3.2.03",
 		"description": "Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl/-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"id": 4868,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -1057,7 +1056,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4868
 	},
 	{
 		"title": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
@@ -1065,7 +1065,6 @@ var indikatorensetData = [
 		"kuerzel": "I.19.1.04869",
 		"kuerzelKunde": "3.2.04",
 		"description": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"id": 4869,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -1094,7 +1093,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4869
 	},
 	{
 		"title": "Engagement in Organisationen und Vereinen",
@@ -1102,7 +1102,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.3.04870",
 		"kuerzelKunde": "3.3.01",
 		"description": "Engagement in Organisationen und Vereinen",
-		"id": 4870,
 		"thema": "50 Befragungen",
 		"unterthema": "Jugendbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -1130,7 +1129,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4870
 	},
 	{
 		"title": "Wahlbeteiligung bei National- und Grossratswahlen",
@@ -1138,7 +1138,6 @@ var indikatorensetData = [
 		"kuerzel": "I.17.3.04871",
 		"kuerzelKunde": "3.3.02",
 		"description": "Wahlbeteiligung bei National- und Grossratswahlen",
-		"id": 4871,
 		"thema": "17 Politik",
 		"unterthema": "Wahlen",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -1166,7 +1165,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4871
 	},
 	{
 		"title": "Interesse an der Politik in Basel-Stadt",
@@ -1174,7 +1174,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04872",
 		"kuerzelKunde": "3.3.03.A",
 		"description": "Interesse an der Politik in Basel-Stadt",
-		"id": 4872,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -1204,7 +1203,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4872
 	},
 	{
 		"title": "Politikinteresse der über 54-Jährigen",
@@ -1212,7 +1212,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.4.04874",
 		"kuerzelKunde": "3.3.04",
 		"description": "Politikinteresse der über 54-Jährigen",
-		"id": 4874,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -1241,7 +1240,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4874
 	},
 	{
 		"title": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
@@ -1249,7 +1249,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.4.04875",
 		"kuerzelKunde": "1.1.07",
 		"description": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
-		"id": 4875,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -1279,7 +1278,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4875
 	},
 	{
 		"title": "Gedanken über die Arbeitsstelle",
@@ -1287,7 +1287,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04931",
 		"kuerzelKunde": "1.1.08.A",
 		"description": "Gedanken über die Arbeitsstelle",
-		"id": 4931,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -1316,7 +1315,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4931
 	},
 	{
 		"title": "Gründe für Gedanken über die Arbeitsstelle",
@@ -1324,7 +1324,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04932",
 		"kuerzelKunde": "1.1.08.B",
 		"description": "Gründe für Gedanken über die Arbeitsstelle",
-		"id": 4932,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -1355,7 +1354,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4932
 	},
 	{
 		"title": "Politikinteresse der unter 30-Jährigen",
@@ -1363,7 +1363,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04933",
 		"kuerzelKunde": "3.3.03.B",
 		"description": "Politikinteresse der unter 30-Jährigen",
-		"id": 4933,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -1393,6 +1392,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4933
 	}
 ];

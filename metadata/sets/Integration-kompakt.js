@@ -5,7 +5,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.04200",
 		"kuerzelKunde": "1-1",
 		"description": "Ausländeranteil nach Staatsangehörigkeit seit 2006",
-		"id": 4200,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -37,7 +36,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4200
 	},
 	{
 		"title": "Altersquotient nach Staatsangehörigkeit",
@@ -45,7 +45,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.04203",
 		"kuerzelKunde": "1-2",
 		"description": "Altersquotient nach Staatsangehörigkeit",
-		"id": 4203,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -77,7 +76,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4203
 	},
 	{
 		"title": "Jugendquotient nach Staatsangehörigkeit",
@@ -85,7 +85,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.04218",
 		"kuerzelKunde": "1-3",
 		"description": "Jugendquotient nach Staatsangehörigkeit",
-		"id": 4218,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -117,7 +116,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4218
 	},
 	{
 		"title": "Anzahl Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit seit 2006",
@@ -125,7 +125,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.04219",
 		"kuerzelKunde": "1-4A",
 		"description": "Anzahl Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit seit 2006",
-		"id": 4219,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -155,7 +154,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4219
 	},
 	{
 		"title": "Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit 2006 und 2015",
@@ -163,7 +163,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.04220",
 		"kuerzelKunde": "1-4B",
 		"description": "Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit 2006 und 2015",
-		"id": 4220,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -195,7 +194,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4220
 	},
 	{
 		"title": "Anzahl Ausländer nach Art der Bewilligung seit 2006",
@@ -203,7 +203,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.04339",
 		"kuerzelKunde": "1-5A",
 		"description": "Anzahl Ausländer nach Art der Bewilligung seit 2006",
-		"id": 4339,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -235,7 +234,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4339
 	},
 	{
 		"title": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
@@ -243,7 +243,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.04340",
 		"kuerzelKunde": "1-5B",
 		"description": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
-		"id": 4340,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -276,7 +275,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4340
 	},
 	{
 		"title": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit seit 2006",
@@ -284,7 +284,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.6.04342",
 		"kuerzelKunde": "1-6",
 		"description": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit seit 2006",
-		"id": 4342,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
 		"kennzahlenset": "Integration-kompakt",
@@ -320,7 +319,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4342
 	},
 	{
 		"title": "Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014",
@@ -328,7 +328,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.04462",
 		"kuerzelKunde": "1-7",
 		"description": "Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014",
-		"id": 4462,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -363,7 +362,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4462
 	},
 	{
 		"title": "Anteil Personen, welche zu Hause «deutsch» oder «schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010 bis 2014",
@@ -371,7 +371,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.8.04463",
 		"kuerzelKunde": "1-8",
 		"description": "Anteil Personen, welche zu Hause «deutsch» oder «schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010 bis 2014",
-		"id": 4463,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Sprachen",
 		"kennzahlenset": "Integration-kompakt",
@@ -406,7 +405,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4463
 	},
 	{
 		"title": "Segregationsindex nach Staatsangehörigkeit seit 2006",
@@ -414,7 +414,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.04465",
 		"kuerzelKunde": "2-1",
 		"description": "Segregationsindex nach Staatsangehörigkeit seit 2006",
-		"id": 4465,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -449,7 +448,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4465
 	},
 	{
 		"title": "Anteil Ausländer nach Wohndauer und Zuzugsort seit 2006",
@@ -457,7 +457,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.04466",
 		"kuerzelKunde": "2-2",
 		"description": "Anteil Ausländer nach Wohndauer und Zuzugsort seit 2006",
-		"id": 4466,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Integration-kompakt",
@@ -494,7 +493,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4466
 	},
 	{
 		"title": "Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006",
@@ -502,7 +502,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.04467",
 		"kuerzelKunde": "2-3A",
 		"description": "Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006",
-		"id": 4467,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -538,7 +537,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4467
 	},
 	{
 		"title": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeit seit 2006",
@@ -546,7 +546,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.04468",
 		"kuerzelKunde": "2-4",
 		"description": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeit seit 2006",
-		"id": 4468,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Integration-kompakt",
@@ -580,7 +579,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4468
 	},
 	{
 		"title": "Arbeitslosenquote nach Staatsangehörigkeit seit 2010",
@@ -588,7 +588,6 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.04469",
 		"kuerzelKunde": "3-3",
 		"description": "Arbeitslosenquote nach Staatsangehörigkeit seit 2010",
-		"id": 4469,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Integration-kompakt",
@@ -626,7 +625,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4469
 	},
 	{
 		"title": "Gymnasialquote nach Staatsangehörigkeit seit 2006",
@@ -634,7 +634,6 @@ var indikatorensetData = [
 		"kuerzel": "I.15.6.04739",
 		"kuerzelKunde": "3-1",
 		"description": "Gymnasialquote nach Staatsangehörigkeit seit 2006",
-		"id": 4739,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Integration-kompakt",
@@ -669,7 +668,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4739
 	},
 	{
 		"title": "Lehrabbruchquote nach Staatsangehörigkeit seit 2011",
@@ -677,7 +677,6 @@ var indikatorensetData = [
 		"kuerzel": "I.15.3.04740",
 		"kuerzelKunde": "3-2",
 		"description": "Lehrabbruchquote nach Staatsangehörigkeit seit 2011",
-		"id": 4740,
 		"thema": "15 Bildung",
 		"unterthema": "Berufsfachschulen",
 		"kennzahlenset": "Integration-kompakt",
@@ -716,7 +715,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4740
 	},
 	{
 		"title": "Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014",
@@ -724,7 +724,6 @@ var indikatorensetData = [
 		"kuerzel": "I.03.1.04741",
 		"kuerzelKunde": "3-4",
 		"description": "Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014",
-		"id": 4741,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Erwerbspersonen ",
 		"kennzahlenset": "Integration-kompakt",
@@ -762,7 +761,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4741
 	},
 	{
 		"title": "Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit seit 2008",
@@ -770,7 +770,6 @@ var indikatorensetData = [
 		"kuerzel": "I.18.3.04743",
 		"kuerzelKunde": "3-5",
 		"description": "Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit seit 2008",
-		"id": 4743,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
 		"kennzahlenset": "Integration-kompakt",
@@ -809,7 +808,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4743
 	},
 	{
 		"title": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeitund Alter 2015",
@@ -817,7 +817,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.04877",
 		"kuerzelKunde": "2-5",
 		"description": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeitund Alter 2015",
-		"id": 4877,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Integration-kompakt",
@@ -853,7 +852,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4877
 	},
 	{
 		"title": "Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006",
@@ -861,7 +861,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.04905",
 		"kuerzelKunde": "2-3B",
 		"description": "Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006",
-		"id": 4905,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -897,6 +896,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4905
 	}
 ];
