@@ -5,7 +5,6 @@
 		"kuerzel": "I.04.1.02501",
 		"kuerzelKunde": "2.2",
 		"description": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
-		"id": 2501,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",
@@ -40,6 +39,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 2501,
 		"visibleInPortal": true
 	},
 	{
@@ -48,7 +48,6 @@
 		"kuerzel": "I.50.1.02952",
 		"kuerzelKunde": "4.3",
 		"description": "Beurteilung der Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe",
-		"id": 2952,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
@@ -82,6 +81,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 2952,
 		"visibleInPortal": true
 	},
 	{
@@ -90,7 +90,6 @@
 		"kuerzel": "I.50.1.02953",
 		"kuerzelKunde": "8.1",
 		"description": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
-		"id": 2953,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
@@ -127,6 +126,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 2953,
 		"visibleInPortal": true
 	},
 	{
@@ -135,7 +135,6 @@
 		"kuerzel": "I.50.1.02956",
 		"kuerzelKunde": "9.4",
 		"description": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
-		"id": 2956,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
@@ -169,6 +168,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 2956,
 		"visibleInPortal": true
 	},
 	{
@@ -177,7 +177,6 @@
 		"kuerzel": "I.15.7.03051",
 		"kuerzelKunde": "3.1b",
 		"description": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
-		"id": 3051,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
 		"kennzahlenset": "Legislaturplan",
@@ -211,6 +210,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 3051,
 		"visibleInPortal": true
 	},
 	{
@@ -219,7 +219,6 @@
 		"kuerzel": "I.04.1.03086",
 		"kuerzelKunde": "2.4",
 		"description": "Durch BaselArea unterstützte internationale Ansiedlungen",
-		"id": 3086,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",
@@ -254,6 +253,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 3086,
 		"visibleInPortal": true
 	},
 	{
@@ -262,7 +262,6 @@
 		"kuerzel": "I.11.6.03104",
 		"kuerzelKunde": "5.1",
 		"description": "Globale und kontinentale Erreichbarkeit",
-		"id": 3104,
 		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
 		"kennzahlenset": "Legislaturplan",
@@ -296,6 +295,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 3104,
 		"visibleInPortal": true
 	},
 	{
@@ -304,7 +304,6 @@
 		"kuerzel": "I.50.1.04127",
 		"kuerzelKunde": "0.1.A",
 		"description": "Zufriedenheit mit dem Wohnungsangebot",
-		"id": 4127,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -335,6 +334,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4127,
 		"visibleInPortal": true
 	},
 	{
@@ -343,7 +343,6 @@
 		"kuerzel": "I.09.3.04128",
 		"kuerzelKunde": "0.1.B-1",
 		"description": "Mietpreisentwicklung",
-		"id": 4128,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Mietpreise",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -373,6 +372,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4128,
 		"visibleInPortal": true
 	},
 	{
@@ -381,7 +381,6 @@
 		"kuerzel": "I.09.2.04129",
 		"kuerzelKunde": "0.1.B-2",
 		"description": "Mietpreisentwicklung der Leerwohnungen",
-		"id": 4129,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -411,6 +410,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4129,
 		"visibleInPortal": true
 	},
 	{
@@ -419,7 +419,6 @@
 		"kuerzel": "I.09.3.04130",
 		"kuerzelKunde": "0.1.B-3",
 		"description": "Mietpreisentwicklung der 3-Zimmer-Wohnungen",
-		"id": 4130,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Mietpreise",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -449,6 +448,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4130,
 		"visibleInPortal": true
 	},
 	{
@@ -457,7 +457,6 @@
 		"kuerzel": "I.09.1.04131",
 		"kuerzelKunde": "0.1.C",
 		"description": "Wohnungsbelegung",
-		"id": 4131,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -487,6 +486,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4131,
 		"visibleInPortal": true
 	},
 	{
@@ -495,7 +495,6 @@
 		"kuerzel": "I.01.1.04132",
 		"kuerzelKunde": "1.1.A",
 		"description": "Bevölkerungsbestand am Jahresende",
-		"id": 4132,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -528,6 +527,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4132,
 		"visibleInPortal": true
 	},
 	{
@@ -536,7 +536,6 @@
 		"kuerzel": "I.09.1.04133",
 		"kuerzelKunde": "1.2.A",
 		"description": "Anzahl Wohnungen",
-		"id": 4133,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -566,6 +565,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4133,
 		"visibleInPortal": true
 	},
 	{
@@ -574,7 +574,6 @@
 		"kuerzel": "I.09.1.04134",
 		"kuerzelKunde": "1.2.B",
 		"description": "Anteile am Wohnungsbestand",
-		"id": 4134,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -604,6 +603,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4134,
 		"visibleInPortal": true
 	},
 	{
@@ -612,7 +612,6 @@
 		"kuerzel": "I.09.1.04135",
 		"kuerzelKunde": "1.2.C-1",
 		"description": "Nettowohnungsproduktion",
-		"id": 4135,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -644,6 +643,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4135,
 		"visibleInPortal": true
 	},
 	{
@@ -652,7 +652,6 @@
 		"kuerzel": "I.09.1.04136",
 		"kuerzelKunde": "1.2.C-2",
 		"description": "Umbausaldo",
-		"id": 4136,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -682,6 +681,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4136,
 		"visibleInPortal": true
 	},
 	{
@@ -690,7 +690,6 @@
 		"kuerzel": "I.09.1.04137",
 		"kuerzelKunde": "1.2.E",
 		"description": "Anzahl neu erstellte Wohnungen",
-		"id": 4137,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -720,6 +719,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4137,
 		"visibleInPortal": true
 	},
 	{
@@ -728,7 +728,6 @@
 		"kuerzel": "I.09.2.04138",
 		"kuerzelKunde": "1.2.F-1",
 		"description": "Anzahl Leerwohnungen und Leerwohnungsquote",
-		"id": 4138,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -758,6 +757,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4138,
 		"visibleInPortal": true
 	},
 	{
@@ -766,7 +766,6 @@
 		"kuerzel": "I.09.2.04139",
 		"kuerzelKunde": "1.2.F-2",
 		"description": "Anzahl Leerwohnungen und Leerwohnungsquote",
-		"id": 4139,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -797,6 +796,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4139,
 		"visibleInPortal": true
 	},
 	{
@@ -805,7 +805,6 @@
 		"kuerzel": "I.09.1.04140",
 		"kuerzelKunde": "1.3.A",
 		"description": "Mittlere Wohnfläche pro Person",
-		"id": 4140,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -837,6 +836,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4140,
 		"visibleInPortal": true
 	},
 	{
@@ -845,7 +845,6 @@
 		"kuerzel": "I.01.2.04141",
 		"kuerzelKunde": "1.4.A1",
 		"description": "Anteile der Haushalte",
-		"id": 4141,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -875,6 +874,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4141,
 		"visibleInPortal": true
 	},
 	{
@@ -883,7 +883,6 @@
 		"kuerzel": "I.01.2.04142",
 		"kuerzelKunde": "1.4.A2",
 		"description": "Anteile der Familienhaushalte",
-		"id": 4142,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -913,6 +912,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4142,
 		"visibleInPortal": true
 	},
 	{
@@ -921,7 +921,6 @@
 		"kuerzel": "I.09.1.04143",
 		"kuerzelKunde": "1.4.B",
 		"description": "Anzahl Genossenschaftswohnungen und Anteil am Bestand",
-		"id": 4143,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -951,6 +950,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4143,
 		"visibleInPortal": true
 	},
 	{
@@ -959,7 +959,6 @@
 		"kuerzel": "I.50.1.04144",
 		"kuerzelKunde": "1.4.C",
 		"description": "Zufriedenheit mit dem Wohnungsangebot - nur Familien",
-		"id": 4144,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -989,6 +988,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4144,
 		"visibleInPortal": true
 	},
 	{
@@ -997,7 +997,6 @@
 		"kuerzel": "I.09.1.04145",
 		"kuerzelKunde": "1.6.A",
 		"description": "Wohneigentumsquote",
-		"id": 4145,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1027,6 +1026,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4145,
 		"visibleInPortal": true
 	},
 	{
@@ -1035,7 +1035,6 @@
 		"kuerzel": "I.09.1.04146",
 		"kuerzelKunde": "2.1.A",
 		"description": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
-		"id": 4146,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1065,6 +1064,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4146,
 		"visibleInPortal": true
 	},
 	{
@@ -1073,7 +1073,6 @@
 		"kuerzel": "I.18.2.04147",
 		"kuerzelKunde": "2.1.B",
 		"description": "Saldo des Steuerertrages von Zu- und Wegzügern",
-		"id": 4147,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1103,6 +1102,7 @@
 		"externalLinks": [
 			"Siehe <a href='http://www.statistik.bs.ch/zahlen/analysen/steuerstatistik.html' target='_blank'>Weiterführende Informationen zur Steuerstatistik und zur Methodik</a>."
 		],
+		"id": 4147,
 		"visibleInPortal": true
 	},
 	{
@@ -1111,7 +1111,6 @@
 		"kuerzel": "I.01.1.04148",
 		"kuerzelKunde": "2.2.A",
 		"description": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
-		"id": 4148,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1141,6 +1140,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4148,
 		"visibleInPortal": true
 	},
 	{
@@ -1149,7 +1149,6 @@
 		"kuerzel": "I.02.1.04149",
 		"kuerzelKunde": "3.2.A",
 		"description": "Freiraumfläche und Anteil an der Gesamtfläche",
-		"id": 4149,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1179,6 +1178,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4149,
 		"visibleInPortal": true
 	},
 	{
@@ -1187,7 +1187,6 @@
 		"kuerzel": "I.50.1.04150",
 		"kuerzelKunde": "3.2.B",
 		"description": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
-		"id": 4150,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1220,6 +1219,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4150,
 		"visibleInPortal": true
 	},
 	{
@@ -1228,7 +1228,6 @@
 		"kuerzel": "I.50.1.04151",
 		"kuerzelKunde": "3.3.A",
 		"description": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
-		"id": 4151,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1258,6 +1257,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4151,
 		"visibleInPortal": true
 	},
 	{
@@ -1266,7 +1266,6 @@
 		"kuerzel": "I.13.2.04152",
 		"kuerzelKunde": "4.1.A",
 		"description": "Haushalte mit Familienmietzinsbeiträgen",
-		"id": 4152,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1295,6 +1294,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4152,
 		"visibleInPortal": true
 	},
 	{
@@ -1303,7 +1303,6 @@
 		"kuerzel": "I.13.2.04153",
 		"kuerzelKunde": "4.1.B",
 		"description": "Ausbezahlte Familienmietzinsbeiträge",
-		"id": 4153,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1333,6 +1332,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4153,
 		"visibleInPortal": true
 	},
 	{
@@ -1341,7 +1341,6 @@
 		"kuerzel": "I.13.3.04154",
 		"kuerzelKunde": "4.1.E",
 		"description": "Bestand an Notwohnungen und ihre Belegung",
-		"id": 4154,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1371,6 +1370,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4154,
 		"visibleInPortal": true
 	},
 	{
@@ -1379,7 +1379,6 @@
 		"kuerzel": "I.50.1.04155",
 		"kuerzelKunde": "4.2.A",
 		"description": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
-		"id": 4155,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1408,6 +1407,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4155,
 		"visibleInPortal": true
 	},
 	{
@@ -1416,7 +1416,6 @@
 		"kuerzel": "I.50.4.04156",
 		"kuerzelKunde": "4.2.C",
 		"description": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
-		"id": 4156,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1447,6 +1446,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4156,
 		"visibleInPortal": true
 	},
 	{
@@ -1455,7 +1455,6 @@
 		"kuerzel": "I.01.1.04200",
 		"kuerzelKunde": "1-1",
 		"description": "Ausländeranteil nach Staatsangehörigkeit seit 2006",
-		"id": 4200,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -1488,6 +1487,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4200,
 		"visibleInPortal": true
 	},
 	{
@@ -1496,7 +1496,6 @@
 		"kuerzel": "I.01.1.04203",
 		"kuerzelKunde": "1-2",
 		"description": "Altersquotient nach Staatsangehörigkeit",
-		"id": 4203,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -1529,6 +1528,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4203,
 		"visibleInPortal": true
 	},
 	{
@@ -1537,7 +1537,6 @@
 		"kuerzel": "I.01.1.04218",
 		"kuerzelKunde": "1-3",
 		"description": "Jugendquotient nach Staatsangehörigkeit",
-		"id": 4218,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -1570,6 +1569,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4218,
 		"visibleInPortal": true
 	},
 	{
@@ -1578,7 +1578,6 @@
 		"kuerzel": "I.01.1.04219",
 		"kuerzelKunde": "1-4A",
 		"description": "Anzahl Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit seit 2006",
-		"id": 4219,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -1609,6 +1608,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4219,
 		"visibleInPortal": true
 	},
 	{
@@ -1617,7 +1617,6 @@
 		"kuerzel": "I.01.1.04220",
 		"kuerzelKunde": "1-4B",
 		"description": "Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit 2006 und 2015",
-		"id": 4220,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -1650,6 +1649,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4220,
 		"visibleInPortal": true
 	},
 	{
@@ -1658,7 +1658,6 @@
 		"kuerzel": "I.01.1.04339",
 		"kuerzelKunde": "1-5A",
 		"description": "Anzahl Ausländer nach Art der Bewilligung seit 2006",
-		"id": 4339,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -1691,6 +1690,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4339,
 		"visibleInPortal": true
 	},
 	{
@@ -1699,7 +1699,6 @@
 		"kuerzel": "I.01.1.04340",
 		"kuerzelKunde": "1-5B",
 		"description": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
-		"id": 4340,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -1733,6 +1732,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4340,
 		"visibleInPortal": true
 	},
 	{
@@ -1741,7 +1741,6 @@
 		"kuerzel": "I.01.6.04342",
 		"kuerzelKunde": "1-6",
 		"description": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit seit 2006",
-		"id": 4342,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
 		"kennzahlenset": "Integration-kompakt",
@@ -1778,6 +1777,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4342,
 		"visibleInPortal": true
 	},
 	{
@@ -1786,7 +1786,6 @@
 		"kuerzel": "I.01.1.04462",
 		"kuerzelKunde": "1-7",
 		"description": "Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014",
-		"id": 4462,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -1822,6 +1821,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4462,
 		"visibleInPortal": true
 	},
 	{
@@ -1830,7 +1830,6 @@
 		"kuerzel": "I.01.8.04463",
 		"kuerzelKunde": "1-8",
 		"description": "Anteil Personen, welche zu Hause «deutsch» oder «schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010 bis 2014",
-		"id": 4463,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Sprachen",
 		"kennzahlenset": "Integration-kompakt",
@@ -1866,6 +1865,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4463,
 		"visibleInPortal": true
 	},
 	{
@@ -1874,7 +1874,6 @@
 		"kuerzel": "I.01.1.04465",
 		"kuerzelKunde": "2-1",
 		"description": "Segregationsindex nach Staatsangehörigkeit seit 2006",
-		"id": 4465,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -1910,6 +1909,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4465,
 		"visibleInPortal": true
 	},
 	{
@@ -1918,7 +1918,6 @@
 		"kuerzel": "I.01.5.04466",
 		"kuerzelKunde": "2-2",
 		"description": "Anteil Ausländer nach Wohndauer und Zuzugsort seit 2006",
-		"id": 4466,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Integration-kompakt",
@@ -1956,6 +1955,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4466,
 		"visibleInPortal": true
 	},
 	{
@@ -1964,7 +1964,6 @@
 		"kuerzel": "I.01.1.04467",
 		"kuerzelKunde": "2-3A",
 		"description": "Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006",
-		"id": 4467,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -2001,6 +2000,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4467,
 		"visibleInPortal": true
 	},
 	{
@@ -2009,7 +2009,6 @@
 		"kuerzel": "I.01.5.04468",
 		"kuerzelKunde": "2-4",
 		"description": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeit seit 2006",
-		"id": 4468,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Integration-kompakt",
@@ -2044,6 +2043,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4468,
 		"visibleInPortal": true
 	},
 	{
@@ -2052,7 +2052,6 @@
 		"kuerzel": "I.03.4.04469",
 		"kuerzelKunde": "3-3",
 		"description": "Arbeitslosenquote nach Staatsangehörigkeit seit 2010",
-		"id": 4469,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Integration-kompakt",
@@ -2091,6 +2090,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4469,
 		"visibleInPortal": true
 	},
 	{
@@ -2099,7 +2099,6 @@
 		"kuerzel": "I.50.2.04716",
 		"kuerzelKunde": "1.1.01",
 		"description": "Erhaltenene Hilfeleistungen",
-		"id": 4716,
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -2130,6 +2129,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4716,
 		"visibleInPortal": true
 	},
 	{
@@ -2138,7 +2138,6 @@
 		"kuerzel": "I.50.4.04718",
 		"kuerzelKunde": "1.1.02",
 		"description": "Erhaltene materielle Hilfeleistungen",
-		"id": 4718,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -2169,6 +2168,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4718,
 		"visibleInPortal": true
 	},
 	{
@@ -2177,7 +2177,6 @@
 		"kuerzel": "I.50.1.04719",
 		"kuerzelKunde": "1.3.01",
 		"description": "Kulturelle Bereicherung",
-		"id": 4719,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -2207,6 +2206,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4719,
 		"visibleInPortal": true
 	},
 	{
@@ -2215,7 +2215,6 @@
 		"kuerzel": "I.50.1.04720",
 		"kuerzelKunde": "2.1.01",
 		"description": "Beurteilung des Wohnorts",
-		"id": 4720,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -2247,6 +2246,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4720,
 		"visibleInPortal": true
 	},
 	{
@@ -2255,7 +2255,6 @@
 		"kuerzel": "I.50.1.04721",
 		"kuerzelKunde": "2.1.02",
 		"description": "Beurteilung des Wohnquartiers",
-		"id": 4721,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -2287,6 +2286,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4721,
 		"visibleInPortal": true
 	},
 	{
@@ -2295,7 +2295,6 @@
 		"kuerzel": "I.01.6.04722",
 		"kuerzelKunde": "2.1.03",
 		"description": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
-		"id": 4722,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -2330,6 +2329,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4722,
 		"visibleInPortal": true
 	},
 	{
@@ -2338,7 +2338,6 @@
 		"kuerzel": "I.50.1.04724",
 		"kuerzelKunde": "2.2.01",
 		"description": "Vertretung der Anliegen der Bevölkerung durch Behörden",
-		"id": 4724,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -2372,6 +2371,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4724,
 		"visibleInPortal": true
 	},
 	{
@@ -2380,7 +2380,6 @@
 		"kuerzel": "I.15.6.04739",
 		"kuerzelKunde": "3-1",
 		"description": "Gymnasialquote nach Staatsangehörigkeit seit 2006",
-		"id": 4739,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Integration-kompakt",
@@ -2416,6 +2415,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4739,
 		"visibleInPortal": true
 	},
 	{
@@ -2424,7 +2424,6 @@
 		"kuerzel": "I.15.3.04740",
 		"kuerzelKunde": "3-2",
 		"description": "Lehrabbruchquote nach Staatsangehörigkeit seit 2011",
-		"id": 4740,
 		"thema": "15 Bildung",
 		"unterthema": "Berufsfachschulen",
 		"kennzahlenset": "Integration-kompakt",
@@ -2464,6 +2463,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4740,
 		"visibleInPortal": true
 	},
 	{
@@ -2472,7 +2472,6 @@
 		"kuerzel": "I.03.1.04741",
 		"kuerzelKunde": "3-4",
 		"description": "Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014",
-		"id": 4741,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Erwerbspersonen ",
 		"kennzahlenset": "Integration-kompakt",
@@ -2511,6 +2510,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4741,
 		"visibleInPortal": true
 	},
 	{
@@ -2519,7 +2519,6 @@
 		"kuerzel": "I.18.3.04743",
 		"kuerzelKunde": "3-5",
 		"description": "Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit seit 2008",
-		"id": 4743,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
 		"kennzahlenset": "Integration-kompakt",
@@ -2559,6 +2558,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4743,
 		"visibleInPortal": true
 	},
 	{
@@ -2567,7 +2567,6 @@
 		"kuerzel": "I.13.3.04822",
 		"kuerzelKunde": "GS-1.A",
 		"description": "Sozialhilfequote",
-		"id": 4822,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"kennzahlenset": "Wohnviertel",
@@ -2600,6 +2599,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4822,
 		"visibleInPortal": true
 	},
 	{
@@ -2608,7 +2608,6 @@
 		"kuerzel": "I.01.1.04823",
 		"kuerzelKunde": "GS-2.A",
 		"description": "Anteil Ausländer",
-		"id": 4823,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -2641,6 +2640,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4823,
 		"visibleInPortal": true
 	},
 	{
@@ -2649,7 +2649,6 @@
 		"kuerzel": "I.01.7.04824",
 		"kuerzelKunde": "GS-3.A",
 		"description": "Anteil Personen ohne Religionszugehörigkeit",
-		"id": 4824,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Religionen",
 		"kennzahlenset": "Wohnviertel",
@@ -2682,6 +2681,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4824,
 		"visibleInPortal": true
 	},
 	{
@@ -2690,7 +2690,6 @@
 		"kuerzel": "I.01.2.04825",
 		"kuerzelKunde": "GS-4.A",
 		"description": "Anteil Personen in Einpersonenhaushalten",
-		"id": 4825,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Wohnviertel",
@@ -2723,6 +2722,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4825,
 		"visibleInPortal": true
 	},
 	{
@@ -2731,7 +2731,6 @@
 		"kuerzel": "I.15.6.04826",
 		"kuerzelKunde": "GS-5.A",
 		"description": "Gymnasialquote",
-		"id": 4826,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Wohnviertel",
@@ -2765,6 +2764,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4826,
 		"visibleInPortal": true
 	},
 	{
@@ -2773,7 +2773,6 @@
 		"kuerzel": "I.01.1.04827",
 		"kuerzelKunde": "GS-6.A",
 		"description": "Altersquotient",
-		"id": 4827,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -2807,6 +2806,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4827,
 		"visibleInPortal": true
 	},
 	{
@@ -2815,7 +2815,6 @@
 		"kuerzel": "I.01.1.04828",
 		"kuerzelKunde": "GS-7.A",
 		"description": "Sesshaftigkeit",
-		"id": 4828,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -2848,6 +2847,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4828,
 		"visibleInPortal": true
 	},
 	{
@@ -2856,7 +2856,6 @@
 		"kuerzel": "I.01.1.04829",
 		"kuerzelKunde": "GS-8.A",
 		"description": "Jugendquotient",
-		"id": 4829,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -2890,6 +2889,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4829,
 		"visibleInPortal": true
 	},
 	{
@@ -2898,7 +2898,6 @@
 		"kuerzel": "I.09.1.04830",
 		"kuerzelKunde": "RU-1.A",
 		"description": "Baujahr Wohngebäude",
-		"id": 4830,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -2932,6 +2931,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4830,
 		"visibleInPortal": true
 	},
 	{
@@ -2940,7 +2940,6 @@
 		"kuerzel": "I.09.1.04831",
 		"kuerzelKunde": "RU-2.A",
 		"description": "Anteil Einfamilienhäuser",
-		"id": 4831,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -2973,6 +2972,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4831,
 		"visibleInPortal": true
 	},
 	{
@@ -2981,7 +2981,6 @@
 		"kuerzel": "I.02.1.04832",
 		"kuerzelKunde": "RU-3.A",
 		"description": "Anteil Grünflächen",
-		"id": 4832,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"kennzahlenset": "Wohnviertel",
@@ -3014,6 +3013,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4832,
 		"visibleInPortal": true
 	},
 	{
@@ -3022,7 +3022,6 @@
 		"kuerzel": "I.09.1.04833",
 		"kuerzelKunde": "RU-4.A",
 		"description": "Fläche pro Wohnung",
-		"id": 4833,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -3055,6 +3054,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4833,
 		"visibleInPortal": true
 	},
 	{
@@ -3063,7 +3063,6 @@
 		"kuerzel": "I.09.1.04834",
 		"kuerzelKunde": "RU-5.A",
 		"description": "Wohnfläche pro Kopf",
-		"id": 4834,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -3097,6 +3096,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4834,
 		"visibleInPortal": true
 	},
 	{
@@ -3105,7 +3105,6 @@
 		"kuerzel": "I.18.2.04835",
 		"kuerzelKunde": "WA-1.A",
 		"description": "Vermögenssteuer pro Veranlagung",
-		"id": 4835,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Wohnviertel",
@@ -3138,6 +3137,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4835,
 		"visibleInPortal": true
 	},
 	{
@@ -3146,7 +3146,6 @@
 		"kuerzel": "I.18.2.04836",
 		"kuerzelKunde": "WA-2.A",
 		"description": "Einkommenssteuer pro Veranlagung",
-		"id": 4836,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Wohnviertel",
@@ -3179,6 +3178,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4836,
 		"visibleInPortal": true
 	},
 	{
@@ -3187,7 +3187,6 @@
 		"kuerzel": "I.03.1.04837",
 		"kuerzelKunde": "WA-3.A",
 		"description": "Erwerbstätigenquote",
-		"id": 4837,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Erwerbspersonen ",
 		"kennzahlenset": "Wohnviertel",
@@ -3220,6 +3219,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4837,
 		"visibleInPortal": true
 	},
 	{
@@ -3228,7 +3228,6 @@
 		"kuerzel": "I.03.2.04838",
 		"kuerzelKunde": "WA-4.A",
 		"description": "Arbeitsplätze pro Kopf",
-		"id": 4838,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Wohnviertel",
@@ -3261,6 +3260,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4838,
 		"visibleInPortal": true
 	},
 	{
@@ -3269,7 +3269,6 @@
 		"kuerzel": "I.03.4.04839",
 		"kuerzelKunde": "WA-5.A",
 		"description": "Arbeitslosenquote",
-		"id": 4839,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Wohnviertel",
@@ -3304,6 +3303,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4839,
 		"visibleInPortal": true
 	},
 	{
@@ -3312,7 +3312,6 @@
 		"kuerzel": "I.50.2.04848",
 		"kuerzelKunde": "1.1.03",
 		"description": "Unterstützung von Freunden oder Nachbarn",
-		"id": 4848,
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -3344,6 +3343,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4848,
 		"visibleInPortal": true
 	},
 	{
@@ -3352,7 +3352,6 @@
 		"kuerzel": "I.50.2.04849",
 		"kuerzelKunde": "1.1.04",
 		"description": "Beurteilung des Verhältnisses zur Nachbarschaft",
-		"id": 4849,
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -3381,6 +3380,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4849,
 		"visibleInPortal": true
 	},
 	{
@@ -3389,7 +3389,6 @@
 		"kuerzel": "I.50.3.04850",
 		"kuerzelKunde": "1.1.05",
 		"description": "Zusammensetzung des Freundeskreises",
-		"id": 4850,
 		"thema": "50 Befragungen",
 		"unterthema": "Jugendbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -3419,6 +3418,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4850,
 		"visibleInPortal": true
 	},
 	{
@@ -3427,7 +3427,6 @@
 		"kuerzel": "I.50.4.04851",
 		"kuerzelKunde": "1.1.06",
 		"description": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
-		"id": 4851,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -3457,6 +3456,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4851,
 		"visibleInPortal": true
 	},
 	{
@@ -3465,7 +3465,6 @@
 		"kuerzel": "I.50.1.04852",
 		"kuerzelKunde": "1.2.01",
 		"description": "Sicherheitsgefühl im Alltag",
-		"id": 4852,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -3495,6 +3494,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4852,
 		"visibleInPortal": true
 	},
 	{
@@ -3503,7 +3503,6 @@
 		"kuerzel": "I.50.1.04853",
 		"kuerzelKunde": "1.2.02",
 		"description": "Bedrohungen und Angriffe",
-		"id": 4853,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -3533,6 +3532,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4853,
 		"visibleInPortal": true
 	},
 	{
@@ -3541,7 +3541,6 @@
 		"kuerzel": "I.50.1.04854",
 		"kuerzelKunde": "1.2.03",
 		"description": "Sicherheitsgefühl nachts im Quartier",
-		"id": 4854,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -3572,6 +3571,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4854,
 		"visibleInPortal": true
 	},
 	{
@@ -3580,7 +3580,6 @@
 		"kuerzel": "I.50.1.04855",
 		"kuerzelKunde": "1.3.02",
 		"description": "Beurteilung des Ausländeranteils",
-		"id": 4855,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -3610,6 +3609,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4855,
 		"visibleInPortal": true
 	},
 	{
@@ -3618,7 +3618,6 @@
 		"kuerzel": "I.50.1.04856",
 		"kuerzelKunde": "1.3.03",
 		"description": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
-		"id": 4856,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -3648,6 +3647,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4856,
 		"visibleInPortal": true
 	},
 	{
@@ -3656,7 +3656,6 @@
 		"kuerzel": "I.50.1.04857",
 		"kuerzelKunde": "2.2.02",
 		"description": "Beurteilung der Schulen in Basel-Stadt",
-		"id": 4857,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -3689,6 +3688,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4857,
 		"visibleInPortal": true
 	},
 	{
@@ -3697,7 +3697,6 @@
 		"kuerzel": "I.50.1.04858",
 		"kuerzelKunde": "2.2.03",
 		"description": "Beurteilung der Chancengleichheit",
-		"id": 4858,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -3729,6 +3728,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4858,
 		"visibleInPortal": true
 	},
 	{
@@ -3737,7 +3737,6 @@
 		"kuerzel": "I.50.1.04859",
 		"kuerzelKunde": "2.2.04",
 		"description": "Beurteilung der kantonalen Verwaltung",
-		"id": 4859,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -3769,6 +3768,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4859,
 		"visibleInPortal": true
 	},
 	{
@@ -3777,7 +3777,6 @@
 		"kuerzel": "I.50.1.04860",
 		"kuerzelKunde": "2.3.01",
 		"description": "Beurteilung der kantonalen Steuern",
-		"id": 4860,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -3809,6 +3808,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4860,
 		"visibleInPortal": true
 	},
 	{
@@ -3817,7 +3817,6 @@
 		"kuerzel": "I.50.1.04861",
 		"kuerzelKunde": "2.3.02",
 		"description": "Beurteilung der eigenen wirtschaftlichen Situation",
-		"id": 4861,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -3847,6 +3846,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4861,
 		"visibleInPortal": true
 	},
 	{
@@ -3855,7 +3855,6 @@
 		"kuerzel": "I.50.1.04862",
 		"kuerzelKunde": "2.3.03",
 		"description": "Beurteilung der Bildungschancen",
-		"id": 4862,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -3885,6 +3884,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4862,
 		"visibleInPortal": true
 	},
 	{
@@ -3893,7 +3893,6 @@
 		"kuerzel": "I.18.2.04863",
 		"kuerzelKunde": "3.1.01",
 		"description": "Anteil Steuerveranlagungen mit Zuwendungen",
-		"id": 4863,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -3923,6 +3922,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4863,
 		"visibleInPortal": true
 	},
 	{
@@ -3931,7 +3931,6 @@
 		"kuerzel": "I.50.1.04864",
 		"kuerzelKunde": "3.1.02",
 		"description": "Freiwillige Tätigkeit",
-		"id": 4864,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -3960,6 +3959,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4864,
 		"visibleInPortal": true
 	},
 	{
@@ -3968,7 +3968,6 @@
 		"kuerzel": "I.50.4.04865",
 		"kuerzelKunde": "3.1.03",
 		"description": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
-		"id": 4865,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -3997,6 +3996,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4865,
 		"visibleInPortal": true
 	},
 	{
@@ -4005,7 +4005,6 @@
 		"kuerzel": "I.19.1.04866",
 		"kuerzelKunde": "3.2.01",
 		"description": "Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"id": 4866,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -4035,6 +4034,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4866,
 		"visibleInPortal": true
 	},
 	{
@@ -4043,7 +4043,6 @@
 		"kuerzel": "I.19.1.04867",
 		"kuerzelKunde": "3.2.02",
 		"description": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"id": 4867,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -4073,6 +4072,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4867,
 		"visibleInPortal": true
 	},
 	{
@@ -4081,7 +4081,6 @@
 		"kuerzel": "I.19.1.04868",
 		"kuerzelKunde": "3.2.03",
 		"description": "Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl/-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"id": 4868,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -4111,6 +4110,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4868,
 		"visibleInPortal": true
 	},
 	{
@@ -4119,7 +4119,6 @@
 		"kuerzel": "I.19.1.04869",
 		"kuerzelKunde": "3.2.04",
 		"description": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"id": 4869,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -4149,6 +4148,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4869,
 		"visibleInPortal": true
 	},
 	{
@@ -4157,7 +4157,6 @@
 		"kuerzel": "I.50.3.04870",
 		"kuerzelKunde": "3.3.01",
 		"description": "Engagement in Organisationen und Vereinen",
-		"id": 4870,
 		"thema": "50 Befragungen",
 		"unterthema": "Jugendbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -4186,6 +4185,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4870,
 		"visibleInPortal": true
 	},
 	{
@@ -4194,7 +4194,6 @@
 		"kuerzel": "I.17.3.04871",
 		"kuerzelKunde": "3.3.02",
 		"description": "Wahlbeteiligung bei National- und Grossratswahlen",
-		"id": 4871,
 		"thema": "17 Politik",
 		"unterthema": "Wahlen",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -4223,6 +4222,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4871,
 		"visibleInPortal": true
 	},
 	{
@@ -4231,7 +4231,6 @@
 		"kuerzel": "I.50.1.04872",
 		"kuerzelKunde": "3.3.03.A",
 		"description": "Interesse an der Politik in Basel-Stadt",
-		"id": 4872,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -4262,6 +4261,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4872,
 		"visibleInPortal": true
 	},
 	{
@@ -4270,7 +4270,6 @@
 		"kuerzel": "I.50.4.04874",
 		"kuerzelKunde": "3.3.04",
 		"description": "Politikinteresse der über 54-Jährigen",
-		"id": 4874,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -4300,6 +4299,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4874,
 		"visibleInPortal": true
 	},
 	{
@@ -4308,7 +4308,6 @@
 		"kuerzel": "I.50.4.04875",
 		"kuerzelKunde": "1.1.07",
 		"description": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
-		"id": 4875,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -4339,6 +4338,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4875,
 		"visibleInPortal": true
 	},
 	{
@@ -4347,7 +4347,6 @@
 		"kuerzel": "I.01.5.04877",
 		"kuerzelKunde": "2-5",
 		"description": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeitund Alter 2015",
-		"id": 4877,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Integration-kompakt",
@@ -4384,6 +4383,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4877,
 		"visibleInPortal": true
 	},
 	{
@@ -4392,7 +4392,6 @@
 		"kuerzel": "I.01.1.04905",
 		"kuerzelKunde": "2-3B",
 		"description": "Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006",
-		"id": 4905,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -4429,6 +4428,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4905,
 		"visibleInPortal": true
 	},
 	{
@@ -4437,7 +4437,6 @@
 		"kuerzel": "I.04.1.04908",
 		"kuerzelKunde": "",
 		"description": "Bruttowertschöpfung nach Branchengruppe in Mio. Franken",
-		"id": 4908,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Basler Index der Konsumentenpreise",
 		"kennzahlenset": "",
@@ -4467,6 +4466,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4908,
 		"visibleInPortal": true
 	},
 	{
@@ -4475,7 +4475,6 @@
 		"kuerzel": "I.05.1.04909",
 		"kuerzelKunde": "",
 		"description": "Basler Index der Konsumentenpreise seit 1982 (Dez. 1982 = 100)",
-		"id": 4909,
 		"thema": "05 Preise",
 		"unterthema": "Basler Index der Konsumentenpreise",
 		"kennzahlenset": "",
@@ -4506,6 +4505,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4909,
 		"visibleInPortal": true
 	},
 	{
@@ -4514,7 +4514,6 @@
 		"kuerzel": "I.05.1.04911",
 		"kuerzelKunde": "",
 		"description": "Mittlere Jahresteuerung Basel-Stadt im Vergleich zur Schweiz",
-		"id": 4911,
 		"thema": "05 Preise",
 		"unterthema": "Basler Index der Konsumentenpreise",
 		"kennzahlenset": "",
@@ -4547,6 +4546,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4911,
 		"visibleInPortal": true
 	},
 	{
@@ -4555,7 +4555,6 @@
 		"kuerzel": "I.06.3.04912",
 		"kuerzelKunde": "",
 		"description": "Anzahl Betreibungen seit 1974",
-		"id": 4912,
 		"thema": "06 Produktion, Handel",
 		"unterthema": "Betreibungen und Konkurse",
 		"kennzahlenset": "",
@@ -4586,6 +4585,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4912,
 		"visibleInPortal": true
 	},
 	{
@@ -4594,7 +4594,6 @@
 		"kuerzel": "I.06.1.04913",
 		"kuerzelKunde": "",
 		"description": "Wert der Ein- und Ausfuhren nach resp. aus Basel-Stadt in 1000 Franken",
-		"id": 4913,
 		"thema": "06 Produktion, Handel",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "",
@@ -4625,6 +4624,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4913,
 		"visibleInPortal": true
 	},
 	{
@@ -4633,7 +4633,6 @@
 		"kuerzel": "I.07.1.04914",
 		"kuerzelKunde": "",
 		"description": "Landwirtschaftliche Nutzfläche und Anzahl Landwirtschaftsbetriebe",
-		"id": 4914,
 		"thema": "07 Landwirtschaft",
 		"unterthema": "Landwirtschaft",
 		"kennzahlenset": "",
@@ -4667,6 +4666,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4914,
 		"visibleInPortal": true
 	},
 	{
@@ -4675,7 +4675,6 @@
 		"kuerzel": "I.10.1.04915",
 		"kuerzelKunde": "",
 		"description": "Logiernächte nach Herkunft",
-		"id": 4915,
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
 		"kennzahlenset": "",
@@ -4708,6 +4707,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4915,
 		"visibleInPortal": true
 	},
 	{
@@ -4716,7 +4716,6 @@
 		"kuerzel": "I.10.1.04916",
 		"kuerzelKunde": "",
 		"description": "Logiernächte und Bettenzahl",
-		"id": 4916,
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
 		"kennzahlenset": "",
@@ -4748,6 +4747,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4916,
 		"visibleInPortal": true
 	},
 	{
@@ -4756,7 +4756,6 @@
 		"kuerzel": "I.11.1.04917",
 		"kuerzelKunde": "",
 		"description": "Privater Motorisierungsgrad",
-		"id": 4917,
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
 		"kennzahlenset": "",
@@ -4792,6 +4791,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4917,
 		"visibleInPortal": true
 	},
 	{
@@ -4800,7 +4800,6 @@
 		"kuerzel": "I.11.1.04918",
 		"kuerzelKunde": "",
 		"description": "Private Personenwagen pro Haushalt",
-		"id": 4918,
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
 		"kennzahlenset": "",
@@ -4839,6 +4838,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4918,
 		"visibleInPortal": true
 	},
 	{
@@ -4847,7 +4847,6 @@
 		"kuerzel": "I.12.1.04919",
 		"kuerzelKunde": "",
 		"description": "Grundpfandbelastung in Mio. Franken seit 1990",
-		"id": 4919,
 		"thema": "12 Finanzmärkte",
 		"unterthema": "Grundpfandbelastung",
 		"kennzahlenset": "",
@@ -4877,6 +4876,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4919,
 		"visibleInPortal": true
 	},
 	{
@@ -4885,7 +4885,6 @@
 		"kuerzel": "I.17.3.04922",
 		"kuerzelKunde": "",
 		"description": "Entwicklung des Frauenanteils bei den Kandidaturen und Wahlen zum Grossen Rat seit 1968",
-		"id": 4922,
 		"thema": "17 Politik",
 		"unterthema": "Wahlen",
 		"kennzahlenset": "",
@@ -4917,6 +4916,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4922,
 		"visibleInPortal": true
 	},
 	{
@@ -4925,7 +4925,6 @@
 		"kuerzel": "I.19.3.04923",
 		"kuerzelKunde": "",
 		"description": "Anzahl Gewaltstraftaten pro 100000 Einwohner",
-		"id": 4923,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Strafvollzug",
 		"kennzahlenset": "",
@@ -4955,6 +4954,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4923,
 		"visibleInPortal": true
 	},
 	{
@@ -4963,7 +4963,6 @@
 		"kuerzel": "I.50.1.04931",
 		"kuerzelKunde": "1.1.08.A",
 		"description": "Gedanken über die Arbeitsstelle",
-		"id": 4931,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -4993,6 +4992,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4931,
 		"visibleInPortal": true
 	},
 	{
@@ -5001,7 +5001,6 @@
 		"kuerzel": "I.50.1.04932",
 		"kuerzelKunde": "1.1.08.B",
 		"description": "Gründe für Gedanken über die Arbeitsstelle",
-		"id": 4932,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -5033,6 +5032,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4932,
 		"visibleInPortal": true
 	},
 	{
@@ -5041,7 +5041,6 @@
 		"kuerzel": "I.50.1.04933",
 		"kuerzelKunde": "3.3.03.B",
 		"description": "Politikinteresse der unter 30-Jährigen",
-		"id": 4933,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -5072,6 +5071,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4933,
 		"visibleInPortal": true
 	},
 	{
@@ -5080,7 +5080,6 @@
 		"kuerzel": "I.14.1.04947",
 		"kuerzelKunde": "",
 		"description": "Hospitalisierungen in baselstädtischen Spitälern nach Hauptbereich",
-		"id": 4947,
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
 		"kennzahlenset": "",
@@ -5111,6 +5110,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4947,
 		"visibleInPortal": true
 	},
 	{
@@ -5119,7 +5119,6 @@
 		"kuerzel": "I.14.1.04948",
 		"kuerzelKunde": "",
 		"description": "Pflegetage in baselstädtischen Spitälern nach Hauptbereich",
-		"id": 4948,
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
 		"kennzahlenset": "",
@@ -5150,6 +5149,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 4948,
 		"visibleInPortal": true
 	},
 	{
@@ -5158,7 +5158,6 @@
 		"kuerzel": "I.04.1.05033",
 		"kuerzelKunde": "3.6",
 		"description": "Transnationale Patentanmeldungen pro 1000 Einwohner",
-		"id": 5033,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",
@@ -5192,6 +5191,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5033,
 		"visibleInPortal": true
 	},
 	{
@@ -5200,7 +5200,6 @@
 		"kuerzel": "I.03.2.05041",
 		"kuerzelKunde": "2.3",
 		"description": "Neugründungen in Basel-Stadt",
-		"id": 5041,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Legislaturplan",
@@ -5232,6 +5231,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5041,
 		"visibleInPortal": true
 	},
 	{
@@ -5240,7 +5240,6 @@
 		"kuerzel": "I.13.2.05066",
 		"kuerzelKunde": "11.1",
 		"description": "Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung",
-		"id": 5066,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan",
@@ -5273,6 +5272,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5066,
 		"visibleInPortal": true
 	},
 	{
@@ -5281,7 +5281,6 @@
 		"kuerzel": "I.13.3.05109",
 		"kuerzelKunde": "GS-1.B",
 		"description": "Sozialhilfequote",
-		"id": 5109,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"kennzahlenset": "Wohnviertel",
@@ -5312,6 +5311,7 @@
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=soz_sozhilfe.soz_quote' target='_blank'>Basler Atlas</a>."
 		],
+		"id": 5109,
 		"visibleInPortal": true
 	},
 	{
@@ -5320,7 +5320,6 @@
 		"kuerzel": "I.01.1.05110",
 		"kuerzelKunde": "GS-2.B",
 		"description": "Anteil Ausländer",
-		"id": 5110,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -5351,6 +5350,7 @@
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevheim.anteil_al' target='_blank'>Basler Atlas</a>."
 		],
+		"id": 5110,
 		"visibleInPortal": true
 	},
 	{
@@ -5359,7 +5359,6 @@
 		"kuerzel": "I.01.7.05111",
 		"kuerzelKunde": "GS-3.B",
 		"description": "Anteil Personen ohne Religionszugehörigkeit",
-		"id": 5111,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Religionen",
 		"kennzahlenset": "Wohnviertel",
@@ -5390,6 +5389,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5111,
 		"visibleInPortal": true
 	},
 	{
@@ -5398,7 +5398,6 @@
 		"kuerzel": "I.01.2.05112",
 		"kuerzelKunde": "GS-4.B",
 		"description": "Anteil Personen in Einpersonenhaushalten",
-		"id": 5112,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Wohnviertel",
@@ -5429,6 +5428,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5112,
 		"visibleInPortal": true
 	},
 	{
@@ -5437,7 +5437,6 @@
 		"kuerzel": "I.15.6.05113",
 		"kuerzelKunde": "GS-5.B",
 		"description": "Gymnasialquote",
-		"id": 5113,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Wohnviertel",
@@ -5469,6 +5468,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5113,
 		"visibleInPortal": true
 	},
 	{
@@ -5477,7 +5477,6 @@
 		"kuerzel": "I.01.1.05114",
 		"kuerzelKunde": "GS-6.B",
 		"description": "Altersquotient",
-		"id": 5114,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -5509,6 +5508,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5114,
 		"visibleInPortal": true
 	},
 	{
@@ -5517,7 +5517,6 @@
 		"kuerzel": "I.01.1.05115",
 		"kuerzelKunde": "GS-7.B",
 		"description": "Sesshaftigkeit",
-		"id": 5115,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -5548,6 +5547,7 @@
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevsess.anteil_sess10' target='_blank'>Basler Atlas</a>."
 		],
+		"id": 5115,
 		"visibleInPortal": true
 	},
 	{
@@ -5556,7 +5556,6 @@
 		"kuerzel": "I.01.1.05116",
 		"kuerzelKunde": "GS-8.B",
 		"description": "Jugendquotient",
-		"id": 5116,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -5588,6 +5587,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5116,
 		"visibleInPortal": true
 	},
 	{
@@ -5596,7 +5596,6 @@
 		"kuerzel": "I.09.1.05117",
 		"kuerzelKunde": "RU-1.B",
 		"description": "Baujahr Wohngebäude",
-		"id": 5117,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -5628,6 +5627,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5117,
 		"visibleInPortal": true
 	},
 	{
@@ -5636,7 +5636,6 @@
 		"kuerzel": "I.09.1.05118",
 		"kuerzelKunde": "RU-2.B",
 		"description": "Anteil Einfamilienhäuser",
-		"id": 5118,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -5667,6 +5666,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5118,
 		"visibleInPortal": true
 	},
 	{
@@ -5675,7 +5675,6 @@
 		"kuerzel": "I.02.1.05119",
 		"kuerzelKunde": "RU-3.B",
 		"description": "Anteil Grünflächen",
-		"id": 5119,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"kennzahlenset": "Wohnviertel",
@@ -5706,6 +5705,7 @@
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=ru_gruen.gruenflaeche_ant' target='_blank'>Basler Atlas</a>."
 		],
+		"id": 5119,
 		"visibleInPortal": true
 	},
 	{
@@ -5714,7 +5714,6 @@
 		"kuerzel": "I.09.1.05120",
 		"kuerzelKunde": "RU-4.B",
 		"description": "Fläche pro Wohnung",
-		"id": 5120,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -5745,6 +5744,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5120,
 		"visibleInPortal": true
 	},
 	{
@@ -5753,7 +5753,6 @@
 		"kuerzel": "I.09.1.05121",
 		"kuerzelKunde": "RU-5.B",
 		"description": "Wohnfläche pro Kopf",
-		"id": 5121,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -5785,6 +5784,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5121,
 		"visibleInPortal": true
 	},
 	{
@@ -5793,7 +5793,6 @@
 		"kuerzel": "I.18.2.05122",
 		"kuerzelKunde": "WA-1.B",
 		"description": "Vermögenssteuer pro Veranlagung",
-		"id": 5122,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Wohnviertel",
@@ -5824,6 +5823,7 @@
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_ver.vermoegen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
 		],
+		"id": 5122,
 		"visibleInPortal": true
 	},
 	{
@@ -5832,7 +5832,6 @@
 		"kuerzel": "I.18.2.05123",
 		"kuerzelKunde": "WA-2.B",
 		"description": "Einkommenssteuer pro Veranlagung",
-		"id": 5123,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Wohnviertel",
@@ -5863,6 +5862,7 @@
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_eink.einkommen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
 		],
+		"id": 5123,
 		"visibleInPortal": true
 	},
 	{
@@ -5871,7 +5871,6 @@
 		"kuerzel": "I.03.1.05124",
 		"kuerzelKunde": "WA-3.B",
 		"description": "Erwerbstätigenquote",
-		"id": 5124,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Erwerbspersonen ",
 		"kennzahlenset": "Wohnviertel",
@@ -5902,6 +5901,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5124,
 		"visibleInPortal": true
 	},
 	{
@@ -5910,7 +5910,6 @@
 		"kuerzel": "I.03.2.05125",
 		"kuerzelKunde": "WA-4.B",
 		"description": "Arbeitsplätze pro Kopf",
-		"id": 5125,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Wohnviertel",
@@ -5941,6 +5940,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5125,
 		"visibleInPortal": true
 	},
 	{
@@ -5949,7 +5949,6 @@
 		"kuerzel": "I.03.4.05126",
 		"kuerzelKunde": "WA-5.B",
 		"description": "Arbeitslosenquote",
-		"id": 5126,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Wohnviertel",
@@ -5982,6 +5981,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5126,
 		"visibleInPortal": true
 	},
 	{
@@ -5990,7 +5990,6 @@
 		"kuerzel": "I.11.1.05130",
 		"kuerzelKunde": "",
 		"description": "Privater Motorisierungsgrad",
-		"id": 5130,
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
 		"kennzahlenset": "",
@@ -6024,6 +6023,7 @@
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=11_fahrzeuge.11_motorisierungsgrad' target='_blank'>Basler Atlas</a>."
 		],
+		"id": 5130,
 		"visibleInPortal": true
 	},
 	{
@@ -6032,7 +6032,6 @@
 		"kuerzel": "I.11.1.05131",
 		"kuerzelKunde": "",
 		"description": "Private Personenwagen pro Haushalt",
-		"id": 5131,
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
 		"kennzahlenset": "",
@@ -6067,6 +6066,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5131,
 		"visibleInPortal": true
 	},
 	{
@@ -6075,7 +6075,6 @@
 		"kuerzel": "I.01.1.05201",
 		"kuerzelKunde": "ST 4-2",
 		"description": "Bevölkerungsdichte",
-		"id": 5201,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Richtplan",
@@ -6108,6 +6107,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5201,
 		"visibleInPortal": true
 	},
 	{
@@ -6116,7 +6116,6 @@
 		"kuerzel": "I.01.1.05202",
 		"kuerzelKunde": "ST 4-3",
 		"description": "Bevölkerungsdichte",
-		"id": 5202,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Richtplan",
@@ -6149,6 +6148,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5202,
 		"visibleInPortal": true
 	},
 	{
@@ -6157,7 +6157,6 @@
 		"kuerzel": "I.11.5.05203",
 		"kuerzelKunde": "ST 4-12",
 		"description": "Zu- und Wegpendler nach Herkunft und Ziel",
-		"id": 5203,
 		"thema": "11 Verkehr",
 		"unterthema": "Pendler",
 		"kennzahlenset": "Richtplan",
@@ -6189,6 +6188,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5203,
 		"visibleInPortal": true
 	},
 	{
@@ -6197,7 +6197,6 @@
 		"kuerzel": "I.09.2.05813",
 		"kuerzelKunde": "ST 4-5",
 		"description": "Leerwohnungsquote",
-		"id": 5813,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Richtplan",
@@ -6229,6 +6228,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5813,
 		"visibleInPortal": true
 	},
 	{
@@ -6237,7 +6237,6 @@
 		"kuerzel": "I.09.1.05817",
 		"kuerzelKunde": "ST 4-9",
 		"description": "Nettowohnungsproduktion",
-		"id": 5817,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Richtplan",
@@ -6269,6 +6268,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5817,
 		"visibleInPortal": true
 	},
 	{
@@ -6277,7 +6277,6 @@
 		"kuerzel": "I.09.1.05818",
 		"kuerzelKunde": "ST 4-10",
 		"description": "Bruttogeschossfläche Wohnen nach Wohnviertel",
-		"id": 5818,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Richtplan",
@@ -6309,6 +6308,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5818,
 		"visibleInPortal": true
 	},
 	{
@@ -6317,7 +6317,6 @@
 		"kuerzel": "I.50.1.05821",
 		"kuerzelKunde": "ST 5-2",
 		"description": "Bewertung der Lebensqualität",
-		"id": 5821,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Richtplan",
@@ -6351,6 +6350,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5821,
 		"visibleInPortal": true
 	},
 	{
@@ -6359,7 +6359,6 @@
 		"kuerzel": "I.11.2.05822",
 		"kuerzelKunde": "ST 6-1",
 		"description": "Anteil Einwohner pro ÖV-Güteklasse",
-		"id": 5822,
 		"thema": "11 Verkehr",
 		"unterthema": "Öffentlicher Verkehr",
 		"kennzahlenset": "Richtplan",
@@ -6392,6 +6391,7 @@
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/data/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target = '_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=340&cps=2614062.08,1267876.03,50000&nodefault&layers=stadtplan_grau_osm_50000,gueteklassen' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
 		],
+		"id": 5822,
 		"visibleInPortal": true
 	},
 	{
@@ -6400,7 +6400,6 @@
 		"kuerzel": "I.03.2.05823",
 		"kuerzelKunde": "ST 7-2",
 		"description": "Beschäftigtendichte",
-		"id": 5823,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Richtplan",
@@ -6432,6 +6431,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5823,
 		"visibleInPortal": true
 	},
 	{
@@ -6440,7 +6440,6 @@
 		"kuerzel": "I.09.1.05825",
 		"kuerzelKunde": "ST 7-3",
 		"description": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
-		"id": 5825,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Richtplan",
@@ -6472,6 +6471,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5825,
 		"visibleInPortal": true
 	},
 	{
@@ -6480,7 +6480,6 @@
 		"kuerzel": "I.11.2.05891",
 		"kuerzelKunde": "ST 8-1",
 		"description": "Kontinentale Erreichbarkeit",
-		"id": 5891,
 		"thema": "11 Verkehr",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Richtplan",
@@ -6515,6 +6514,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5891,
 		"visibleInPortal": true
 	},
 	{
@@ -6523,7 +6523,6 @@
 		"kuerzel": "I.03.2.05901",
 		"kuerzelKunde": "ST 4-11",
 		"description": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
-		"id": 5901,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Richtplan",
@@ -6556,6 +6555,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 5901,
 		"visibleInPortal": true
 	},
 	{
@@ -6564,7 +6564,6 @@
 		"kuerzel": "I.09.2.06009",
 		"kuerzelKunde": "",
 		"description": "Leerwohnungsquote",
-		"id": 6009,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "",
@@ -6595,6 +6594,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6009,
 		"visibleInPortal": true
 	},
 	{
@@ -6603,7 +6603,6 @@
 		"kuerzel": "I.04.1.06124",
 		"kuerzelKunde": "2.1",
 		"description": "Bruttoinlandprodukt in Franken pro Einwohner",
-		"id": 6124,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",
@@ -6638,6 +6637,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6124,
 		"visibleInPortal": true
 	},
 	{
@@ -6646,7 +6646,6 @@
 		"kuerzel": "I.04.2.06126",
 		"kuerzelKunde": "1.1",
 		"description": "Kantonaler Wettbewerbsindikator (KWI)",
-		"id": 6126,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Legislaturplan",
@@ -6680,6 +6679,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6126,
 		"visibleInPortal": true
 	},
 	{
@@ -6688,7 +6688,6 @@
 		"kuerzel": "I.04.2.06127",
 		"kuerzelKunde": "1.3",
 		"description": "Kantonales Wettbewerbsprofil",
-		"id": 6127,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Legislaturplan",
@@ -6719,6 +6718,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6127,
 		"visibleInPortal": true
 	},
 	{
@@ -6727,7 +6727,6 @@
 		"kuerzel": "I.18.2.06128",
 		"kuerzelKunde": "1.4",
 		"description": "Steuereinnahmen aus Quellensteuer",
-		"id": 6128,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
@@ -6758,6 +6757,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6128,
 		"visibleInPortal": true
 	},
 	{
@@ -6766,7 +6766,6 @@
 		"kuerzel": "I.04.1.06129",
 		"kuerzelKunde": "2.6",
 		"description": "NFA-Ressourcenindex",
-		"id": 6129,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",
@@ -6797,6 +6796,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6129,
 		"visibleInPortal": true
 	},
 	{
@@ -6805,7 +6805,6 @@
 		"kuerzel": "I.18.2.06130",
 		"kuerzelKunde": "2.11a",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"id": 6130,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
@@ -6839,6 +6838,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6130,
 		"visibleInPortal": true
 	},
 	{
@@ -6847,7 +6847,6 @@
 		"kuerzel": "I.04.1.06131",
 		"kuerzelKunde": "2.8",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
-		"id": 6131,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",
@@ -6884,6 +6883,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6131,
 		"visibleInPortal": true
 	},
 	{
@@ -6892,7 +6892,6 @@
 		"kuerzel": "I.18.2.06132",
 		"kuerzelKunde": "2.10",
 		"description": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
-		"id": 6132,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
@@ -6924,6 +6923,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6132,
 		"visibleInPortal": true
 	},
 	{
@@ -6932,7 +6932,6 @@
 		"kuerzel": "I.18.2.06134",
 		"kuerzelKunde": "2.12a",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"id": 6134,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
@@ -6963,6 +6962,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6134,
 		"visibleInPortal": true
 	},
 	{
@@ -6971,7 +6971,6 @@
 		"kuerzel": "I.50.1.06136",
 		"kuerzelKunde": "3.3",
 		"description": "Höchste abgeschlossene Ausbildung",
-		"id": 6136,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
@@ -7005,6 +7004,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6136,
 		"visibleInPortal": true
 	},
 	{
@@ -7013,7 +7013,6 @@
 		"kuerzel": "I.03.4.06137",
 		"kuerzelKunde": "3.4",
 		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
-		"id": 6137,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Legislaturplan",
@@ -7047,6 +7046,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6137,
 		"visibleInPortal": true
 	},
 	{
@@ -7055,7 +7055,6 @@
 		"kuerzel": "I.04.2.06140",
 		"kuerzelKunde": "3.7",
 		"description": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft",
-		"id": 6140,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Legislaturplan",
@@ -7090,6 +7089,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6140,
 		"visibleInPortal": true
 	},
 	{
@@ -7098,7 +7098,6 @@
 		"kuerzel": "I.03.2.06141",
 		"kuerzelKunde": "3.8",
 		"description": "Anteil der Beschäftigten in innovativen Branchen an der gesamten Beschäftigung (Vollzeitäquivalente)",
-		"id": 6141,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Legislaturplan",
@@ -7132,6 +7131,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6141,
 		"visibleInPortal": true
 	},
 	{
@@ -7140,7 +7140,6 @@
 		"kuerzel": "I.01.1.06144",
 		"kuerzelKunde": "4.2",
 		"description": "Bevölkerung nach sozioprofessioneller Kategorie",
-		"id": 6144,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Legislaturplan",
@@ -7171,6 +7170,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6144,
 		"visibleInPortal": true
 	},
 	{
@@ -7179,7 +7179,6 @@
 		"kuerzel": "I.50.1.06146",
 		"kuerzelKunde": "4.5",
 		"description": "Beurteilung von gesellschaftlicher Vielfalt",
-		"id": 6146,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
@@ -7214,6 +7213,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6146,
 		"visibleInPortal": true
 	},
 	{
@@ -7222,7 +7222,6 @@
 		"kuerzel": "I.03.3.06147",
 		"kuerzelKunde": "4.6",
 		"description": "Verhältnis der Löhne von Frauen und Männern in Basel-Stadt",
-		"id": 6147,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Löhne ",
 		"kennzahlenset": "Legislaturplan",
@@ -7257,6 +7256,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6147,
 		"visibleInPortal": true
 	},
 	{
@@ -7265,7 +7265,6 @@
 		"kuerzel": "I.03.1.06148",
 		"kuerzelKunde": "4.7",
 		"description": "Anteil Arbeitnehmende in Unternehmensleitung oder Vorgesetztenfunktion nach Geschlecht",
-		"id": 6148,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Erwerbspersonen ",
 		"kennzahlenset": "Legislaturplan",
@@ -7299,6 +7298,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6148,
 		"visibleInPortal": true
 	},
 	{
@@ -7307,7 +7307,6 @@
 		"kuerzel": "I.01.6.06149",
 		"kuerzelKunde": "4.8",
 		"description": "Einbürgerungsziffer der ausländischen Bevölkerung sowie Ausländeranteil",
-		"id": 6149,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
 		"kennzahlenset": "Legislaturplan",
@@ -7344,6 +7343,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6149,
 		"visibleInPortal": true
 	},
 	{
@@ -7352,7 +7352,6 @@
 		"kuerzel": "I.18.2.06150",
 		"kuerzelKunde": "4.9",
 		"description": "Mittelwert und Median des Reineinkommens in Basel-Stadt",
-		"id": 6150,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
@@ -7386,6 +7385,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6150,
 		"visibleInPortal": true
 	},
 	{
@@ -7394,7 +7394,6 @@
 		"kuerzel": "I.50.1.06151",
 		"kuerzelKunde": "4.10a",
 		"description": "Bewertung der Lebensqualität nach Geschlecht",
-		"id": 6151,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
@@ -7425,6 +7424,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6151,
 		"visibleInPortal": true
 	},
 	{
@@ -7433,7 +7433,6 @@
 		"kuerzel": "I.01.5.06152",
 		"kuerzelKunde": "4.11",
 		"description": "Segregationsindex nach Staatsangehörigkeit",
-		"id": 6152,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Legislaturplan",
@@ -7466,6 +7465,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6152,
 		"visibleInPortal": true
 	},
 	{
@@ -7474,7 +7474,6 @@
 		"kuerzel": "I.11.6.06154",
 		"kuerzelKunde": "5.2",
 		"description": "Verkehrsleistungsindex",
-		"id": 6154,
 		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
 		"kennzahlenset": "Legislaturplan",
@@ -7507,6 +7506,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6154,
 		"visibleInPortal": true
 	},
 	{
@@ -7515,7 +7515,6 @@
 		"kuerzel": "I.06.4.06155",
 		"kuerzelKunde": "5.3",
 		"description": "Transit durch die Region Basel",
-		"id": 6155,
 		"thema": "06 Produktion, Handel",
 		"unterthema": "Aussenhandel",
 		"kennzahlenset": "Legislaturplan",
@@ -7549,6 +7548,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6155,
 		"visibleInPortal": true
 	},
 	{
@@ -7557,7 +7557,6 @@
 		"kuerzel": "I.11.6.06156",
 		"kuerzelKunde": "5.4",
 		"description": "Jährlich durch  Stau generierte Verzögerungszeit",
-		"id": 6156,
 		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
 		"kennzahlenset": "Legislaturplan",
@@ -7588,6 +7587,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6156,
 		"visibleInPortal": true
 	},
 	{
@@ -7596,7 +7596,6 @@
 		"kuerzel": "I.02.5.06157",
 		"kuerzelKunde": "7.7",
 		"description": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10)",
-		"id": 6157,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
 		"kennzahlenset": "Legislaturplan",
@@ -7629,6 +7628,7 @@
 			"<a href = 'https://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>"
 		],
+		"id": 6157,
 		"visibleInPortal": true
 	},
 	{
@@ -7637,7 +7637,6 @@
 		"kuerzel": "I.02.5.06158",
 		"kuerzelKunde": "5.5",
 		"description": "CO<sub>2</sub>-Emissionen Verkehr",
-		"id": 6158,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
 		"kennzahlenset": "Legislaturplan",
@@ -7670,6 +7669,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6158,
 		"visibleInPortal": true
 	},
 	{
@@ -7678,7 +7678,6 @@
 		"kuerzel": "I.02.14.06159",
 		"kuerzelKunde": "7.8",
 		"description": "Übermässig mit Lärm belastete Wohnbevölkerung",
-		"id": 6159,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Lärm",
 		"kennzahlenset": "Legislaturplan",
@@ -7711,6 +7710,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6159,
 		"visibleInPortal": true
 	},
 	{
@@ -7719,7 +7719,6 @@
 		"kuerzel": "I.08.1.06160",
 		"kuerzelKunde": "7.1",
 		"description": "Endenergieverbrauch nach Verbrauchergruppe",
-		"id": 6160,
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
 		"kennzahlenset": "Legislaturplan",
@@ -7752,6 +7751,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6160,
 		"visibleInPortal": true
 	},
 	{
@@ -7760,7 +7760,6 @@
 		"kuerzel": "I.08.3.06161",
 		"kuerzelKunde": "7.2",
 		"description": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
-		"id": 6161,
 		"thema": "08 Energie",
 		"unterthema": "Erneuerbare",
 		"kennzahlenset": "Legislaturplan",
@@ -7792,6 +7791,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6161,
 		"visibleInPortal": true
 	},
 	{
@@ -7800,7 +7800,6 @@
 		"kuerzel": "I.02.6.06163",
 		"kuerzelKunde": "7.3",
 		"description": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
-		"id": 6163,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Entsorgung",
 		"kennzahlenset": "Legislaturplan",
@@ -7831,6 +7830,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6163,
 		"visibleInPortal": true
 	},
 	{
@@ -7839,7 +7839,6 @@
 		"kuerzel": "I.02.19.06164",
 		"kuerzelKunde": "7.4",
 		"description": "Wasserqualität: AOX-Fracht",
-		"id": 6164,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Legislaturplan",
@@ -7873,6 +7872,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6164,
 		"visibleInPortal": true
 	},
 	{
@@ -7881,7 +7881,6 @@
 		"kuerzel": "I.02.5.06165",
 		"kuerzelKunde": "7.5",
 		"description": "CO<sub>2</sub>-Emissionen",
-		"id": 6165,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
 		"kennzahlenset": "Legislaturplan",
@@ -7916,6 +7915,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6165,
 		"visibleInPortal": true
 	},
 	{
@@ -7924,7 +7924,6 @@
 		"kuerzel": "I.02.19.06166",
 		"kuerzelKunde": "7.6",
 		"description": "Wassertemperatur Grundwasser",
-		"id": 6166,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Legislaturplan",
@@ -7956,6 +7955,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6166,
 		"visibleInPortal": true
 	},
 	{
@@ -7964,7 +7964,6 @@
 		"kuerzel": "I.16.1.06169",
 		"kuerzelKunde": "8.2",
 		"description": "Anzahl Besuche in Theater, Kinos und Museen",
-		"id": 6169,
 		"thema": "16 Kultur und Sport",
 		"unterthema": "Kultureinrichtungen",
 		"kennzahlenset": "Legislaturplan",
@@ -7997,6 +7996,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6169,
 		"visibleInPortal": true
 	},
 	{
@@ -8005,7 +8005,6 @@
 		"kuerzel": "I.13.2.06173",
 		"kuerzelKunde": "9.3",
 		"description": "Anzahl Beziehende von Prämienverbilligung",
-		"id": 6173,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan",
@@ -8037,6 +8036,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6173,
 		"visibleInPortal": true
 	},
 	{
@@ -8045,7 +8045,6 @@
 		"kuerzel": "I.14.1.06175",
 		"kuerzelKunde": "9.5",
 		"description": "Stationäre Fälle in Basler Spitälern",
-		"id": 6175,
 		"thema": "14 Gesundheit",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
@@ -8076,6 +8075,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6175,
 		"visibleInPortal": true
 	},
 	{
@@ -8084,7 +8084,6 @@
 		"kuerzel": "I.19.1.06176",
 		"kuerzelKunde": "10.1",
 		"description": "Anzahl Straftaten nach StGB pro 1000 Einwohner",
-		"id": 6176,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Legislaturplan",
@@ -8116,6 +8115,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6176,
 		"visibleInPortal": true
 	},
 	{
@@ -8124,7 +8124,6 @@
 		"kuerzel": "I.11.7.06177",
 		"kuerzelKunde": "10.2",
 		"description": "Anzahl Strassenverkehrsunfälle",
-		"id": 6177,
 		"thema": "11 Verkehr",
 		"unterthema": "Strassenverkehrsunfälle",
 		"kennzahlenset": "Legislaturplan",
@@ -8155,6 +8154,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6177,
 		"visibleInPortal": true
 	},
 	{
@@ -8163,7 +8163,6 @@
 		"kuerzel": "I.14.3.06179",
 		"kuerzelKunde": "10.3",
 		"description": "Anzahl Störfälle und Ereignisse",
-		"id": 6179,
 		"thema": "14 Gesundheit",
 		"unterthema": "Sterblichkeit",
 		"kennzahlenset": "Legislaturplan",
@@ -8195,6 +8194,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6179,
 		"visibleInPortal": true
 	},
 	{
@@ -8203,7 +8203,6 @@
 		"kuerzel": "I.13.2.06181",
 		"kuerzelKunde": "11.2",
 		"description": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
-		"id": 6181,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan",
@@ -8236,6 +8235,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6181,
 		"visibleInPortal": true
 	},
 	{
@@ -8244,7 +8244,6 @@
 		"kuerzel": "I.13.2.06182",
 		"kuerzelKunde": "11.3",
 		"description": "Sozialhilfequote nach Altersgruppe",
-		"id": 6182,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan",
@@ -8277,6 +8276,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6182,
 		"visibleInPortal": true
 	},
 	{
@@ -8285,7 +8285,6 @@
 		"kuerzel": "I.13.2.06183",
 		"kuerzelKunde": "11.4",
 		"description": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
-		"id": 6183,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan",
@@ -8318,6 +8317,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6183,
 		"visibleInPortal": true
 	},
 	{
@@ -8326,7 +8326,6 @@
 		"kuerzel": "I.18.2.06201",
 		"kuerzelKunde": "2.11b",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"id": 6201,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
@@ -8360,6 +8359,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6201,
 		"visibleInPortal": true
 	},
 	{
@@ -8368,7 +8368,6 @@
 		"kuerzel": "I.18.2.06202",
 		"kuerzelKunde": "2.11c",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"id": 6202,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
@@ -8402,6 +8401,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6202,
 		"visibleInPortal": true
 	},
 	{
@@ -8410,7 +8410,6 @@
 		"kuerzel": "I.13.2.06203",
 		"kuerzelKunde": "",
 		"description": "Anteil Haushalte mit FAMI",
-		"id": 6203,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "",
@@ -8440,6 +8439,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6203,
 		"visibleInPortal": true
 	},
 	{
@@ -8448,7 +8448,6 @@
 		"kuerzel": "I.13.2.06204",
 		"kuerzelKunde": "",
 		"description": "Anteil Haushalte mit Prämienverbilligung",
-		"id": 6204,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "",
@@ -8479,6 +8478,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6204,
 		"visibleInPortal": true
 	},
 	{
@@ -8487,7 +8487,6 @@
 		"kuerzel": "I.18.1.06205",
 		"kuerzelKunde": "2.9",
 		"description": "Kantonales BIP im Vergleich zu den Staatsausgaben",
-		"id": 6205,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatsrechnung",
 		"kennzahlenset": "Legislaturplan",
@@ -8519,6 +8518,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6205,
 		"visibleInPortal": true
 	},
 	{
@@ -8527,7 +8527,6 @@
 		"kuerzel": "I.15.7.06206",
 		"kuerzelKunde": "3.1a",
 		"description": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
-		"id": 6206,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
 		"kennzahlenset": "Legislaturplan",
@@ -8560,6 +8559,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6206,
 		"visibleInPortal": true
 	},
 	{
@@ -8568,7 +8568,6 @@
 		"kuerzel": "I.15.3.06209",
 		"kuerzelKunde": "3.2",
 		"description": "Anzahl Lernende an Basler Berufsfachschulen",
-		"id": 6209,
 		"thema": "15 Bildung",
 		"unterthema": "Berufsfachschulen",
 		"kennzahlenset": "Legislaturplan",
@@ -8599,6 +8598,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6209,
 		"visibleInPortal": true
 	},
 	{
@@ -8607,7 +8607,6 @@
 		"kuerzel": "I.13.2.06210",
 		"kuerzelKunde": "4.4",
 		"description": "Anzahl Plätze in Tagesbetreuungsangeboten",
-		"id": 6210,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan",
@@ -8638,6 +8637,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6210,
 		"visibleInPortal": true
 	},
 	{
@@ -8646,7 +8646,6 @@
 		"kuerzel": "I.04.1.06211",
 		"kuerzelKunde": "2.7",
 		"description": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken",
-		"id": 6211,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",
@@ -8678,6 +8677,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6211,
 		"visibleInPortal": true
 	},
 	{
@@ -8686,7 +8686,6 @@
 		"kuerzel": "I.50.1.06213",
 		"kuerzelKunde": "4.10b",
 		"description": "Bewertung der Lebensqualität nach Alter",
-		"id": 6213,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
@@ -8717,6 +8716,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6213,
 		"visibleInPortal": true
 	},
 	{
@@ -8725,7 +8725,6 @@
 		"kuerzel": "I.01.1.06214",
 		"kuerzelKunde": "ST 4-1",
 		"description": "Bevölkerung am Jahresende und Anzahl Wohnungen",
-		"id": 6214,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Richtplan",
@@ -8758,6 +8757,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6214,
 		"visibleInPortal": true
 	},
 	{
@@ -8766,7 +8766,6 @@
 		"kuerzel": "I.01.9.06215",
 		"kuerzelKunde": "ST 4-4",
 		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"id": 6215,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Szenarien",
 		"kennzahlenset": "Richtplan",
@@ -8798,6 +8797,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6215,
 		"visibleInPortal": true
 	},
 	{
@@ -8806,7 +8806,6 @@
 		"kuerzel": "I.50.1.06216",
 		"kuerzelKunde": "ST 5-3",
 		"description": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
-		"id": 6216,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Richtplan",
@@ -8839,6 +8838,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6216,
 		"visibleInPortal": true
 	},
 	{
@@ -8847,7 +8847,6 @@
 		"kuerzel": "I.09.2.06217",
 		"kuerzelKunde": "ST 7-4",
 		"description": "Leerstehende Industrie- und Gewerbeflächen",
-		"id": 6217,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Richtplan",
@@ -8879,6 +8878,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6217,
 		"visibleInPortal": true
 	},
 	{
@@ -8887,7 +8887,6 @@
 		"kuerzel": "I.15.6.06218",
 		"kuerzelKunde": "ST 8-2",
 		"description": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
-		"id": 6218,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Richtplan",
@@ -8919,6 +8918,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6218,
 		"visibleInPortal": true
 	},
 	{
@@ -8927,7 +8927,6 @@
 		"kuerzel": "I.01.2.06220",
 		"kuerzelKunde": "ST 5-4",
 		"description": "Indexierter Verlauf der Haushalte in Begegnungszonen",
-		"id": 6220,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Richtplan",
@@ -8960,6 +8959,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6220,
 		"visibleInPortal": true
 	},
 	{
@@ -8968,7 +8968,6 @@
 		"kuerzel": "I.50.1.06228",
 		"kuerzelKunde": "4.10c",
 		"description": "Bewertung der Lebensqualität nach Einkommensklasse",
-		"id": 6228,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
@@ -8999,6 +8998,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6228,
 		"visibleInPortal": true
 	},
 	{
@@ -9007,7 +9007,6 @@
 		"kuerzel": "I.03.2.06236",
 		"kuerzelKunde": "ST 7-1",
 		"description": "Anzahl Beschäftigte nach Branche",
-		"id": 6236,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Richtplan",
@@ -9041,6 +9040,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6236,
 		"visibleInPortal": true
 	},
 	{
@@ -9049,7 +9049,6 @@
 		"kuerzel": "I.18.2.06239",
 		"kuerzelKunde": "2.12b",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"id": 6239,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
@@ -9080,6 +9079,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6239,
 		"visibleInPortal": true
 	},
 	{
@@ -9088,7 +9088,6 @@
 		"kuerzel": "I.18.2.06240",
 		"kuerzelKunde": "2.12c",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"id": 6240,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
@@ -9119,6 +9118,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6240,
 		"visibleInPortal": true
 	},
 	{
@@ -9127,7 +9127,6 @@
 		"kuerzel": "I.50.1.06266",
 		"kuerzelKunde": "4.10d",
 		"description": "Bewertung der Lebensqualität nach Herkunft",
-		"id": 6266,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
@@ -9159,6 +9158,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6266,
 		"visibleInPortal": true
 	},
 	{
@@ -9167,7 +9167,6 @@
 		"kuerzel": "I.14.4.06346",
 		"kuerzelKunde": "9.1",
 		"description": "Medianprämie pro Prämienregion",
-		"id": 6346,
 		"thema": "14 Gesundheit",
 		"unterthema": "Prävention, Praxen, Rettung",
 		"kennzahlenset": "Legislaturplan",
@@ -9200,6 +9199,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6346,
 		"visibleInPortal": true
 	},
 	{
@@ -9208,7 +9208,6 @@
 		"kuerzel": "I.04.2.06348",
 		"kuerzelKunde": "1.2",
 		"description": "Standortqualitätsindikator (SQI)",
-		"id": 6348,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Legislaturplan",
@@ -9239,6 +9238,7 @@
 		"externalLinks": [
 			""
 		],
+		"id": 6348,
 		"visibleInPortal": true
 	}
 ]

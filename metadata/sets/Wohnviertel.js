@@ -5,7 +5,6 @@ var indikatorensetData = [
 		"kuerzel": "I.13.3.04822",
 		"kuerzelKunde": "GS-1.A",
 		"description": "Sozialhilfequote",
-		"id": 4822,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"kennzahlenset": "Wohnviertel",
@@ -37,7 +36,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4822
 	},
 	{
 		"title": "Anteil Ausländer",
@@ -45,7 +45,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.04823",
 		"kuerzelKunde": "GS-2.A",
 		"description": "Anteil Ausländer",
-		"id": 4823,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -77,7 +76,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4823
 	},
 	{
 		"title": "Anteil Personen ohne Religionszugehörigkeit",
@@ -85,7 +85,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.7.04824",
 		"kuerzelKunde": "GS-3.A",
 		"description": "Anteil Personen ohne Religionszugehörigkeit",
-		"id": 4824,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Religionen",
 		"kennzahlenset": "Wohnviertel",
@@ -117,7 +116,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4824
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
@@ -125,7 +125,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.2.04825",
 		"kuerzelKunde": "GS-4.A",
 		"description": "Anteil Personen in Einpersonenhaushalten",
-		"id": 4825,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Wohnviertel",
@@ -157,7 +156,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4825
 	},
 	{
 		"title": "Gymnasialquote",
@@ -165,7 +165,6 @@ var indikatorensetData = [
 		"kuerzel": "I.15.6.04826",
 		"kuerzelKunde": "GS-5.A",
 		"description": "Gymnasialquote",
-		"id": 4826,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Wohnviertel",
@@ -198,7 +197,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4826
 	},
 	{
 		"title": "Altersquotient",
@@ -206,7 +206,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.04827",
 		"kuerzelKunde": "GS-6.A",
 		"description": "Altersquotient",
-		"id": 4827,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -239,7 +238,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4827
 	},
 	{
 		"title": "Sesshaftigkeit",
@@ -247,7 +247,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.04828",
 		"kuerzelKunde": "GS-7.A",
 		"description": "Sesshaftigkeit",
-		"id": 4828,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -279,7 +278,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4828
 	},
 	{
 		"title": "Jugendquotient",
@@ -287,7 +287,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.04829",
 		"kuerzelKunde": "GS-8.A",
 		"description": "Jugendquotient",
-		"id": 4829,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -320,7 +319,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4829
 	},
 	{
 		"title": "Baujahr Wohngebäude",
@@ -328,7 +328,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.1.04830",
 		"kuerzelKunde": "RU-1.A",
 		"description": "Baujahr Wohngebäude",
-		"id": 4830,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -361,7 +360,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4830
 	},
 	{
 		"title": "Anteil Einfamilienhäuser",
@@ -369,7 +369,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.1.04831",
 		"kuerzelKunde": "RU-2.A",
 		"description": "Anteil Einfamilienhäuser",
-		"id": 4831,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -401,7 +400,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4831
 	},
 	{
 		"title": "Anteil Grünflächen",
@@ -409,7 +409,6 @@ var indikatorensetData = [
 		"kuerzel": "I.02.1.04832",
 		"kuerzelKunde": "RU-3.A",
 		"description": "Anteil Grünflächen",
-		"id": 4832,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"kennzahlenset": "Wohnviertel",
@@ -441,7 +440,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4832
 	},
 	{
 		"title": "Fläche pro Wohnung",
@@ -449,7 +449,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.1.04833",
 		"kuerzelKunde": "RU-4.A",
 		"description": "Fläche pro Wohnung",
-		"id": 4833,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -481,7 +480,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4833
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
@@ -489,7 +489,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.1.04834",
 		"kuerzelKunde": "RU-5.A",
 		"description": "Wohnfläche pro Kopf",
-		"id": 4834,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -522,7 +521,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4834
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
@@ -530,7 +530,6 @@ var indikatorensetData = [
 		"kuerzel": "I.18.2.04835",
 		"kuerzelKunde": "WA-1.A",
 		"description": "Vermögenssteuer pro Veranlagung",
-		"id": 4835,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Wohnviertel",
@@ -562,7 +561,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4835
 	},
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
@@ -570,7 +570,6 @@ var indikatorensetData = [
 		"kuerzel": "I.18.2.04836",
 		"kuerzelKunde": "WA-2.A",
 		"description": "Einkommenssteuer pro Veranlagung",
-		"id": 4836,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Wohnviertel",
@@ -602,7 +601,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4836
 	},
 	{
 		"title": "Erwerbstätigenquote",
@@ -610,7 +610,6 @@ var indikatorensetData = [
 		"kuerzel": "I.03.1.04837",
 		"kuerzelKunde": "WA-3.A",
 		"description": "Erwerbstätigenquote",
-		"id": 4837,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Erwerbspersonen ",
 		"kennzahlenset": "Wohnviertel",
@@ -642,7 +641,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4837
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
@@ -650,7 +650,6 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.04838",
 		"kuerzelKunde": "WA-4.A",
 		"description": "Arbeitsplätze pro Kopf",
-		"id": 4838,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Wohnviertel",
@@ -682,7 +681,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4838
 	},
 	{
 		"title": "Arbeitslosenquote",
@@ -690,7 +690,6 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.04839",
 		"kuerzelKunde": "WA-5.A",
 		"description": "Arbeitslosenquote",
-		"id": 4839,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Wohnviertel",
@@ -724,7 +723,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4839
 	},
 	{
 		"title": "Sozialhilfequote",
@@ -732,7 +732,6 @@ var indikatorensetData = [
 		"kuerzel": "I.13.3.05109",
 		"kuerzelKunde": "GS-1.B",
 		"description": "Sozialhilfequote",
-		"id": 5109,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"kennzahlenset": "Wohnviertel",
@@ -762,7 +761,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=soz_sozhilfe.soz_quote' target='_blank'>Basler Atlas</a>."
-		]
+		],
+		"id": 5109
 	},
 	{
 		"title": "Anteil Ausländer",
@@ -770,7 +770,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.05110",
 		"kuerzelKunde": "GS-2.B",
 		"description": "Anteil Ausländer",
-		"id": 5110,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -800,7 +799,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevheim.anteil_al' target='_blank'>Basler Atlas</a>."
-		]
+		],
+		"id": 5110
 	},
 	{
 		"title": "Anteil Personen ohne Religionszugehörigkeit",
@@ -808,7 +808,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.7.05111",
 		"kuerzelKunde": "GS-3.B",
 		"description": "Anteil Personen ohne Religionszugehörigkeit",
-		"id": 5111,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Religionen",
 		"kennzahlenset": "Wohnviertel",
@@ -838,7 +837,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5111
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
@@ -846,7 +846,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.2.05112",
 		"kuerzelKunde": "GS-4.B",
 		"description": "Anteil Personen in Einpersonenhaushalten",
-		"id": 5112,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Wohnviertel",
@@ -876,7 +875,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5112
 	},
 	{
 		"title": "Gymnasialquote",
@@ -884,7 +884,6 @@ var indikatorensetData = [
 		"kuerzel": "I.15.6.05113",
 		"kuerzelKunde": "GS-5.B",
 		"description": "Gymnasialquote",
-		"id": 5113,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Wohnviertel",
@@ -915,7 +914,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5113
 	},
 	{
 		"title": "Altersquotient",
@@ -923,7 +923,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.05114",
 		"kuerzelKunde": "GS-6.B",
 		"description": "Altersquotient",
-		"id": 5114,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -954,7 +953,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5114
 	},
 	{
 		"title": "Sesshaftigkeit",
@@ -962,7 +962,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.05115",
 		"kuerzelKunde": "GS-7.B",
 		"description": "Sesshaftigkeit",
-		"id": 5115,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -992,7 +991,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevsess.anteil_sess10' target='_blank'>Basler Atlas</a>."
-		]
+		],
+		"id": 5115
 	},
 	{
 		"title": "Jugendquotient",
@@ -1000,7 +1000,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.05116",
 		"kuerzelKunde": "GS-8.B",
 		"description": "Jugendquotient",
-		"id": 5116,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -1031,7 +1030,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5116
 	},
 	{
 		"title": "Baujahr Wohngebäude",
@@ -1039,7 +1039,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.1.05117",
 		"kuerzelKunde": "RU-1.B",
 		"description": "Baujahr Wohngebäude",
-		"id": 5117,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -1070,7 +1069,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5117
 	},
 	{
 		"title": "Anteil Einfamilienhäuser",
@@ -1078,7 +1078,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.1.05118",
 		"kuerzelKunde": "RU-2.B",
 		"description": "Anteil Einfamilienhäuser",
-		"id": 5118,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -1108,7 +1107,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5118
 	},
 	{
 		"title": "Anteil Grünflächen",
@@ -1116,7 +1116,6 @@ var indikatorensetData = [
 		"kuerzel": "I.02.1.05119",
 		"kuerzelKunde": "RU-3.B",
 		"description": "Anteil Grünflächen",
-		"id": 5119,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"kennzahlenset": "Wohnviertel",
@@ -1146,7 +1145,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=ru_gruen.gruenflaeche_ant' target='_blank'>Basler Atlas</a>."
-		]
+		],
+		"id": 5119
 	},
 	{
 		"title": "Fläche pro Wohnung",
@@ -1154,7 +1154,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.1.05120",
 		"kuerzelKunde": "RU-4.B",
 		"description": "Fläche pro Wohnung",
-		"id": 5120,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -1184,7 +1183,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5120
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
@@ -1192,7 +1192,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.1.05121",
 		"kuerzelKunde": "RU-5.B",
 		"description": "Wohnfläche pro Kopf",
-		"id": 5121,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -1223,7 +1222,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5121
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
@@ -1231,7 +1231,6 @@ var indikatorensetData = [
 		"kuerzel": "I.18.2.05122",
 		"kuerzelKunde": "WA-1.B",
 		"description": "Vermögenssteuer pro Veranlagung",
-		"id": 5122,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Wohnviertel",
@@ -1261,7 +1260,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_ver.vermoegen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
-		]
+		],
+		"id": 5122
 	},
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
@@ -1269,7 +1269,6 @@ var indikatorensetData = [
 		"kuerzel": "I.18.2.05123",
 		"kuerzelKunde": "WA-2.B",
 		"description": "Einkommenssteuer pro Veranlagung",
-		"id": 5123,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Wohnviertel",
@@ -1299,7 +1298,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_eink.einkommen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
-		]
+		],
+		"id": 5123
 	},
 	{
 		"title": "Erwerbstätigenquote",
@@ -1307,7 +1307,6 @@ var indikatorensetData = [
 		"kuerzel": "I.03.1.05124",
 		"kuerzelKunde": "WA-3.B",
 		"description": "Erwerbstätigenquote",
-		"id": 5124,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Erwerbspersonen ",
 		"kennzahlenset": "Wohnviertel",
@@ -1337,7 +1336,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5124
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
@@ -1345,7 +1345,6 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.05125",
 		"kuerzelKunde": "WA-4.B",
 		"description": "Arbeitsplätze pro Kopf",
-		"id": 5125,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Wohnviertel",
@@ -1375,7 +1374,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5125
 	},
 	{
 		"title": "Arbeitslosenquote",
@@ -1383,7 +1383,6 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.05126",
 		"kuerzelKunde": "WA-5.B",
 		"description": "Arbeitslosenquote",
-		"id": 5126,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Wohnviertel",
@@ -1415,6 +1414,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5126
 	}
 ];

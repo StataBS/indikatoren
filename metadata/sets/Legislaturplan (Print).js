@@ -5,7 +5,6 @@ var indikatorensetData = [
 		"kuerzel": "I.04.1.06273",
 		"kuerzelKunde": "1.2",
 		"description": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
-		"id": 6273,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -36,7 +35,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6273
 	},
 	{
 		"title": "Beurteilung der Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe",
@@ -44,7 +44,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.06274",
 		"kuerzelKunde": "4.3",
 		"description": "Beurteilung der Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe",
-		"id": 6274,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -74,7 +73,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6274
 	},
 	{
 		"title": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
@@ -82,7 +82,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.06275",
 		"kuerzelKunde": "8.1",
 		"description": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
-		"id": 6275,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -115,7 +114,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6275
 	},
 	{
 		"title": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
@@ -123,7 +123,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.06276",
 		"kuerzelKunde": "9.4",
 		"description": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
-		"id": 6276,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -154,7 +153,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6276
 	},
 	{
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
@@ -162,7 +162,6 @@ var indikatorensetData = [
 		"kuerzel": "I.15.7.06277",
 		"kuerzelKunde": "3.1b",
 		"description": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
-		"id": 6277,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -192,7 +191,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6277
 	},
 	{
 		"title": "Globale und kontinentale Erreichbarkeit",
@@ -200,7 +200,6 @@ var indikatorensetData = [
 		"kuerzel": "I.11.1.06278",
 		"kuerzelKunde": "5.1",
 		"description": "Globale und kontinentale Erreichbarkeit",
-		"id": 6278,
 		"thema": "11 Verkehr",
 		"unterthema": "Hotellerie",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -231,7 +230,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6278
 	},
 	{
 		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner",
@@ -239,7 +239,6 @@ var indikatorensetData = [
 		"kuerzel": "I.04.1.06279",
 		"kuerzelKunde": "3.6",
 		"description": "Transnationale Patentanmeldungen pro 1000 Einwohner",
-		"id": 6279,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -270,7 +269,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6279
 	},
 	{
 		"title": "Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung",
@@ -278,7 +278,6 @@ var indikatorensetData = [
 		"kuerzel": "I.13.2.06281",
 		"kuerzelKunde": "11.1",
 		"description": "Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung",
-		"id": 6281,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -308,7 +307,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6281
 	},
 	{
 		"title": "Bruttoinlandprodukt in Franken pro Einwohner",
@@ -316,7 +316,6 @@ var indikatorensetData = [
 		"kuerzel": "I.04.1.06282",
 		"kuerzelKunde": "1.1",
 		"description": "Bruttoinlandprodukt in Franken pro Einwohner",
-		"id": 6282,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -347,7 +346,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6282
 	},
 	{
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
@@ -355,7 +355,6 @@ var indikatorensetData = [
 		"kuerzel": "I.04.2.06283",
 		"kuerzelKunde": "1.3",
 		"description": "Kantonaler Wettbewerbsindikator (KWI)",
-		"id": 6283,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -385,7 +384,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6283
 	},
 	{
 		"title": "Kantonales Wettbewerbsprofil",
@@ -393,7 +393,6 @@ var indikatorensetData = [
 		"kuerzel": "I.04.2.06284",
 		"kuerzelKunde": "1.4",
 		"description": "Kantonales Wettbewerbsprofil",
-		"id": 6284,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -421,7 +420,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6284
 	},
 	{
 		"title": "Steuereinnahmen aus Quellensteuer",
@@ -429,7 +429,6 @@ var indikatorensetData = [
 		"kuerzel": "I.04.1.06285",
 		"kuerzelKunde": "1.5",
 		"description": "Steuereinnahmen aus Quellensteuer",
-		"id": 6285,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -457,7 +456,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6285
 	},
 	{
 		"title": "NFA-Ressourcenindex",
@@ -465,7 +465,6 @@ var indikatorensetData = [
 		"kuerzel": "I.04.1.06286",
 		"kuerzelKunde": "2.1",
 		"description": "NFA-Ressourcenindex",
-		"id": 6286,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -493,7 +492,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6286
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
@@ -501,7 +501,6 @@ var indikatorensetData = [
 		"kuerzel": "I.04.1.06287",
 		"kuerzelKunde": "2.6a",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"id": 6287,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -532,7 +531,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6287
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -540,7 +540,6 @@ var indikatorensetData = [
 		"kuerzel": "I.04.1.06288",
 		"kuerzelKunde": "2.3",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
-		"id": 6288,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -568,7 +567,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6288
 	},
 	{
 		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
@@ -576,7 +576,6 @@ var indikatorensetData = [
 		"kuerzel": "I.04.1.06289",
 		"kuerzelKunde": "2.5",
 		"description": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
-		"id": 6289,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -604,7 +603,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6289
 	},
 	{
 		"title": "Beurteilung der kantonalen Steuern",
@@ -612,7 +612,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.06290",
 		"kuerzelKunde": "2.8",
 		"description": "Beurteilung der kantonalen Steuern",
-		"id": 6290,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -641,7 +640,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6290
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -649,7 +649,6 @@ var indikatorensetData = [
 		"kuerzel": "I.18.2.06291",
 		"kuerzelKunde": "2.7a",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"id": 6291,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -677,7 +676,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6291
 	},
 	{
 		"title": "Höchste abgeschlossene Ausbildung",
@@ -685,7 +685,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.06292",
 		"kuerzelKunde": "3.3",
 		"description": "Höchste abgeschlossene Ausbildung",
-		"id": 6292,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -715,7 +714,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6292
 	},
 	{
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
@@ -723,7 +723,6 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.06293",
 		"kuerzelKunde": "3.4",
 		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
-		"id": 6293,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -753,7 +752,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6293
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -761,7 +761,6 @@ var indikatorensetData = [
 		"kuerzel": "I.04.1.06294",
 		"kuerzelKunde": "3.5",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
-		"id": 6294,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -793,7 +792,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6294
 	},
 	{
 		"title": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft",
@@ -801,7 +801,6 @@ var indikatorensetData = [
 		"kuerzel": "I.04.2.06295",
 		"kuerzelKunde": "3.7",
 		"description": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft",
-		"id": 6295,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -832,7 +831,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6295
 	},
 	{
 		"title": "Anteil der Beschäftigten in innovativen Branchen an der gesamten Beschäftigung (Vollzeitäquivalente)",
@@ -840,7 +840,6 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.06296",
 		"kuerzelKunde": "3.8",
 		"description": "Anteil der Beschäftigten in innovativen Branchen an der gesamten Beschäftigung (Vollzeitäquivalente)",
-		"id": 6296,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -868,7 +867,8 @@ var indikatorensetData = [
 		"quellenangabe": [],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6296
 	},
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
@@ -876,7 +876,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.06297",
 		"kuerzelKunde": "4.1",
 		"description": "Bevölkerungsbestand am Jahresende",
-		"id": 6297,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -904,7 +903,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6297
 	},
 	{
 		"title": "Bevölkerung nach sozioprofessioneller Kategorie",
@@ -912,7 +912,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.06298",
 		"kuerzelKunde": "4.2",
 		"description": "Bevölkerung nach sozioprofessioneller Kategorie",
-		"id": 6298,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -940,7 +939,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6298
 	},
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
@@ -948,7 +948,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.06299",
 		"kuerzelKunde": "4.5",
 		"description": "Beurteilung von gesellschaftlicher Vielfalt",
-		"id": 6299,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -979,7 +978,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6299
 	},
 	{
 		"title": "Verhältnis der Löhne von Frauen und Männern in Basel-Stadt",
@@ -987,7 +987,6 @@ var indikatorensetData = [
 		"kuerzel": "I.03.3.06300",
 		"kuerzelKunde": "4.6",
 		"description": "Verhältnis der Löhne von Frauen und Männern in Basel-Stadt",
-		"id": 6300,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Löhne ",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1018,7 +1017,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6300
 	},
 	{
 		"title": "Anteil Arbeitnehmende in Unternehmensleitung oder Vorgesetztenfunktion nach Geschlecht",
@@ -1026,7 +1026,6 @@ var indikatorensetData = [
 		"kuerzel": "I.03.1.06301",
 		"kuerzelKunde": "4.7",
 		"description": "Anteil Arbeitnehmende in Unternehmensleitung oder Vorgesetztenfunktion nach Geschlecht",
-		"id": 6301,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Erwerbspersonen ",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1057,7 +1056,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6301
 	},
 	{
 		"title": "Einbürgerungsziffer der Ausländer sowie Ausländeranteil",
@@ -1065,7 +1065,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.6.06302",
 		"kuerzelKunde": "4.8",
 		"description": "Einbürgerungsziffer der Ausländer sowie Ausländeranteil",
-		"id": 6302,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1098,7 +1097,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6302
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens im Kanton Basel-Stadt",
@@ -1106,7 +1106,6 @@ var indikatorensetData = [
 		"kuerzel": "I.18.2.06303",
 		"kuerzelKunde": "4.9",
 		"description": "Mittelwert und Median des Reineinkommens im Kanton Basel-Stadt",
-		"id": 6303,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1136,7 +1135,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6303
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Geschlecht",
@@ -1144,7 +1144,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.06304",
 		"kuerzelKunde": "4.10a",
 		"description": "Bewertung der Lebensqualität nach Geschlecht",
-		"id": 6304,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1172,7 +1171,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6304
 	},
 	{
 		"title": "Segregationsindex nach Staatsangehörigkeit",
@@ -1180,7 +1180,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.06305",
 		"kuerzelKunde": "4.11",
 		"description": "Segregationsindex nach Staatsangehörigkeit",
-		"id": 6305,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1209,7 +1208,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6305
 	},
 	{
 		"title": "Verkehrsleistungsindex",
@@ -1217,7 +1217,6 @@ var indikatorensetData = [
 		"kuerzel": "I.11.6.06306",
 		"kuerzelKunde": "5.2",
 		"description": "Verkehrsleistungsindex",
-		"id": 6306,
 		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1245,7 +1244,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6306
 	},
 	{
 		"title": "Transit durch die Region Basel",
@@ -1253,7 +1253,6 @@ var indikatorensetData = [
 		"kuerzel": "I.06.4.06307",
 		"kuerzelKunde": "5.3",
 		"description": "Transit durch die Region Basel",
-		"id": 6307,
 		"thema": "06 Produktion, Handel",
 		"unterthema": "Aussenhandel",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1284,7 +1283,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6307
 	},
 	{
 		"title": "Jährlich durch  Stau generierte Verzögerungszeit",
@@ -1292,7 +1292,6 @@ var indikatorensetData = [
 		"kuerzel": "I.11.6.06308",
 		"kuerzelKunde": "5.4",
 		"description": "Jährlich durch  Stau generierte Verzögerungszeit",
-		"id": 6308,
 		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1320,7 +1319,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6308
 	},
 	{
 		"title": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO2) und Feinstaub (PM10)",
@@ -1328,7 +1328,6 @@ var indikatorensetData = [
 		"kuerzel": "I.02.5.06309",
 		"kuerzelKunde": "7.7",
 		"description": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO2) und Feinstaub (PM10)",
-		"id": 6309,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1356,7 +1355,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6309
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen Verkehr",
@@ -1364,7 +1364,6 @@ var indikatorensetData = [
 		"kuerzel": "I.02.5.06310",
 		"kuerzelKunde": "5.5",
 		"description": "CO<sub>2</sub>-Emissionen Verkehr",
-		"id": 6310,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1394,7 +1393,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6310
 	},
 	{
 		"title": "Übermässig mit Lärm belastete Wohnbevölkerung",
@@ -1402,7 +1402,6 @@ var indikatorensetData = [
 		"kuerzel": "I.02.14.06311",
 		"kuerzelKunde": "7.8",
 		"description": "Übermässig mit Lärm belastete Wohnbevölkerung",
-		"id": 6311,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Lärm",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1431,7 +1430,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6311
 	},
 	{
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
@@ -1439,7 +1439,6 @@ var indikatorensetData = [
 		"kuerzel": "I.08.1.06312",
 		"kuerzelKunde": "7.1",
 		"description": "Endenergieverbrauch nach Verbrauchergruppe",
-		"id": 6312,
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1467,7 +1466,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6312
 	},
 	{
 		"title": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
@@ -1475,7 +1475,6 @@ var indikatorensetData = [
 		"kuerzel": "I.08.3.06313",
 		"kuerzelKunde": "7.2",
 		"description": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
-		"id": 6313,
 		"thema": "08 Energie",
 		"unterthema": "Erneuerbare",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1504,7 +1503,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6313
 	},
 	{
 		"title": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
@@ -1512,7 +1512,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.6.06314",
 		"kuerzelKunde": "7.3",
 		"description": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
-		"id": 6314,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Entsorgung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1540,7 +1539,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6314
 	},
 	{
 		"title": "Wasserqualität: AOX-Fracht",
@@ -1548,7 +1548,6 @@ var indikatorensetData = [
 		"kuerzel": "I.02.19.06315",
 		"kuerzelKunde": "7.4",
 		"description": "Wasserqualität: AOX-Fracht",
-		"id": 6315,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1578,7 +1577,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6315
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen",
@@ -1586,7 +1586,6 @@ var indikatorensetData = [
 		"kuerzel": "I.02.5.06316",
 		"kuerzelKunde": "7.5",
 		"description": "CO<sub>2</sub>-Emissionen",
-		"id": 6316,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1616,7 +1615,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6316
 	},
 	{
 		"title": "Wassertemperatur Grundwasser",
@@ -1624,7 +1624,6 @@ var indikatorensetData = [
 		"kuerzel": "I.02.19.06317",
 		"kuerzelKunde": "7.6",
 		"description": "Wassertemperatur Grundwasser",
-		"id": 6317,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1652,7 +1651,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6317
 	},
 	{
 		"title": "Anzahl Besuche in Theater, Kinos und Museen",
@@ -1660,7 +1660,6 @@ var indikatorensetData = [
 		"kuerzel": "I.16.1.06318",
 		"kuerzelKunde": "8.2",
 		"description": "Anzahl Besuche in Theater, Kinos und Museen",
-		"id": 6318,
 		"thema": "16 Kultur und Sport",
 		"unterthema": "Kultureinrichtungen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1689,7 +1688,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6318
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -1697,7 +1697,6 @@ var indikatorensetData = [
 		"kuerzel": "I.04.1.06319",
 		"kuerzelKunde": "8.3",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
-		"id": 6319,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1729,7 +1728,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6319
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -1737,7 +1737,6 @@ var indikatorensetData = [
 		"kuerzel": "I.04.1.06320",
 		"kuerzelKunde": "9.2",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
-		"id": 6320,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1769,7 +1768,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6320
 	},
 	{
 		"title": "Anzahl Bezüger von Prämienverbilligungen",
@@ -1777,7 +1777,6 @@ var indikatorensetData = [
 		"kuerzel": "I.13.2.06321",
 		"kuerzelKunde": "9.3",
 		"description": "Anzahl Bezüger von Prämienverbilligungen",
-		"id": 6321,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1805,7 +1804,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6321
 	},
 	{
 		"title": "Stationäre Fälle in Basler Spitälern",
@@ -1813,7 +1813,6 @@ var indikatorensetData = [
 		"kuerzel": "I.14.1.06322",
 		"kuerzelKunde": "9.5",
 		"description": "Stationäre Fälle in Basler Spitälern",
-		"id": 6322,
 		"thema": "14 Gesundheit",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1841,7 +1840,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6322
 	},
 	{
 		"title": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
@@ -1849,7 +1849,6 @@ var indikatorensetData = [
 		"kuerzel": "I.14.3.06323",
 		"kuerzelKunde": "10.1",
 		"description": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
-		"id": 6323,
 		"thema": "14 Gesundheit",
 		"unterthema": "Sterblichkeit",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1878,7 +1877,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6323
 	},
 	{
 		"title": "Strassenverkehrsunfälle und verunfallte Personen",
@@ -1886,7 +1886,6 @@ var indikatorensetData = [
 		"kuerzel": "I.14.3.06324",
 		"kuerzelKunde": "10.2",
 		"description": "Strassenverkehrsunfälle und verunfallte Personen",
-		"id": 6324,
 		"thema": "14 Gesundheit",
 		"unterthema": "Sterblichkeit",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1914,7 +1913,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6324
 	},
 	{
 		"title": "Anzahl Störfälle und Ereignisse",
@@ -1922,7 +1922,6 @@ var indikatorensetData = [
 		"kuerzel": "I.14.3.06326",
 		"kuerzelKunde": "10.3",
 		"description": "Anzahl Störfälle und Ereignisse",
-		"id": 6326,
 		"thema": "14 Gesundheit",
 		"unterthema": "Sterblichkeit",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1950,7 +1949,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6326
 	},
 	{
 		"title": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
@@ -1958,7 +1958,6 @@ var indikatorensetData = [
 		"kuerzel": "I.13.2.06327",
 		"kuerzelKunde": "11.2",
 		"description": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
-		"id": 6327,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -1987,7 +1986,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6327
 	},
 	{
 		"title": "Sozialhilfequote nach Altersgruppe",
@@ -1995,7 +1995,6 @@ var indikatorensetData = [
 		"kuerzel": "I.13.2.06328",
 		"kuerzelKunde": "11.3",
 		"description": "Sozialhilfequote nach Altersgruppe",
-		"id": 6328,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -2024,7 +2023,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6328
 	},
 	{
 		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
@@ -2032,7 +2032,6 @@ var indikatorensetData = [
 		"kuerzel": "I.13.2.06329",
 		"kuerzelKunde": "11.4",
 		"description": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
-		"id": 6329,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -2061,7 +2060,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6329
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -2069,7 +2069,6 @@ var indikatorensetData = [
 		"kuerzel": "I.04.1.06330",
 		"kuerzelKunde": "11.5",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
-		"id": 6330,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -2101,7 +2100,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6330
 	},
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
@@ -2109,7 +2109,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.06331",
 		"kuerzelKunde": "12.1",
 		"description": "Vertretung der Anliegen der Bevölkerung durch Behörden",
-		"id": 6331,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -2139,7 +2138,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6331
 	},
 	{
 		"title": "Beurteilung der kantonalen Verwaltung",
@@ -2147,7 +2147,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.06332",
 		"kuerzelKunde": "12.2",
 		"description": "Beurteilung der kantonalen Verwaltung",
-		"id": 6332,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -2176,7 +2175,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6332
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
@@ -2184,7 +2184,6 @@ var indikatorensetData = [
 		"kuerzel": "I.04.1.06333",
 		"kuerzelKunde": "2.6b",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"id": 6333,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -2215,7 +2214,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6333
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
@@ -2223,7 +2223,6 @@ var indikatorensetData = [
 		"kuerzel": "I.04.1.06334",
 		"kuerzelKunde": "2.6c",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"id": 6334,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -2254,7 +2253,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6334
 	},
 	{
 		"title": "Kantonales BIP im Vergleich zu den Staatsausgaben",
@@ -2262,7 +2262,6 @@ var indikatorensetData = [
 		"kuerzel": "I.18.1.06335",
 		"kuerzelKunde": "2.4",
 		"description": "Kantonales BIP im Vergleich zu den Staatsausgaben",
-		"id": 6335,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatsrechnung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -2291,7 +2290,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6335
 	},
 	{
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
@@ -2299,7 +2299,6 @@ var indikatorensetData = [
 		"kuerzel": "I.15.7.06336",
 		"kuerzelKunde": "3.1a",
 		"description": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
-		"id": 6336,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -2329,7 +2328,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6336
 	},
 	{
 		"title": "Anzahl Lernende an Basler Berufsfachschulen",
@@ -2337,7 +2337,6 @@ var indikatorensetData = [
 		"kuerzel": "I.15.3.06337",
 		"kuerzelKunde": "3.2",
 		"description": "Anzahl Lernende an Basler Berufsfachschulen",
-		"id": 6337,
 		"thema": "15 Bildung",
 		"unterthema": "Berufsfachschulen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -2365,7 +2364,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6337
 	},
 	{
 		"title": "Anzahl Plätze in Tagesbetreuungsangeboten",
@@ -2373,7 +2373,6 @@ var indikatorensetData = [
 		"kuerzel": "I.13.2.06338",
 		"kuerzelKunde": "4.4",
 		"description": "Anzahl Plätze in Tagesbetreuungsangeboten",
-		"id": 6338,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -2401,7 +2400,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6338
 	},
 	{
 		"title": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken",
@@ -2409,7 +2409,6 @@ var indikatorensetData = [
 		"kuerzel": "I.04.1.06339",
 		"kuerzelKunde": "2.2",
 		"description": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken",
-		"id": 6339,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -2438,7 +2437,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6339
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Alter",
@@ -2446,7 +2446,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.06340",
 		"kuerzelKunde": "4.10b",
 		"description": "Bewertung der Lebensqualität nach Alter",
-		"id": 6340,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -2474,7 +2473,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6340
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Einkommensklasse",
@@ -2482,7 +2482,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.06341",
 		"kuerzelKunde": "4.10c",
 		"description": "Bewertung der Lebensqualität nach Einkommensklasse",
-		"id": 6341,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -2510,7 +2509,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6341
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -2518,7 +2518,6 @@ var indikatorensetData = [
 		"kuerzel": "I.18.2.06342",
 		"kuerzelKunde": "2.7b",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"id": 6342,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -2546,7 +2545,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6342
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -2554,7 +2554,6 @@ var indikatorensetData = [
 		"kuerzel": "I.18.2.06343",
 		"kuerzelKunde": "2.7c",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"id": 6343,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -2582,7 +2581,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6343
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Herkunft",
@@ -2590,7 +2590,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.06344",
 		"kuerzelKunde": "4.10d",
 		"description": "Bewertung der Lebensqualität nach Herkunft",
-		"id": 6344,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -2619,7 +2618,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6344
 	},
 	{
 		"title": "Durch BaselArea unterstützte internationale Ansiedlungen",
@@ -2627,7 +2627,6 @@ var indikatorensetData = [
 		"kuerzel": "I.04.1.03086",
 		"kuerzelKunde": "2.4",
 		"description": "Durch BaselArea unterstützte internationale Ansiedlungen",
-		"id": 6368,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -2659,7 +2658,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6368
 	},
 	{
 		"title": "Neugründungen in Basel-Stadt",
@@ -2667,7 +2667,6 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.05041",
 		"kuerzelKunde": "2.3",
 		"description": "Neugründungen in Basel-Stadt",
-		"id": 6369,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -2696,7 +2695,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6369
 	},
 	{
 		"title": "Medianprämie pro Prämienregion",
@@ -2704,7 +2704,6 @@ var indikatorensetData = [
 		"kuerzel": "I.14.4.06346",
 		"kuerzelKunde": "9.1",
 		"description": "Medianprämie pro Prämienregion",
-		"id": 6370,
 		"thema": "14 Gesundheit",
 		"unterthema": "Prävention, Praxen, Rettung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -2734,7 +2733,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6370
 	},
 	{
 		"title": "Anzahl Beschäftigte nach Branche",
@@ -2742,7 +2742,6 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.06347",
 		"kuerzelKunde": "2.5",
 		"description": "Anzahl Beschäftigte nach Branche",
-		"id": 6371,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -2771,7 +2770,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6371
 	},
 	{
 		"title": "Standortqualitätsindikator (SQI)",
@@ -2779,7 +2779,6 @@ var indikatorensetData = [
 		"kuerzel": "I.04.2.06348",
 		"kuerzelKunde": "1.2",
 		"description": "Standortqualitätsindikator (SQI)",
-		"id": 6372,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -2807,6 +2806,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6372
 	}
 ];

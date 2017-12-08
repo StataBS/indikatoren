@@ -5,7 +5,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04127",
 		"kuerzelKunde": "0.1.A",
 		"description": "Zufriedenheit mit dem Wohnungsangebot",
-		"id": 4127,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -35,7 +34,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4127
 	},
 	{
 		"title": "Mietpreisentwicklung",
@@ -43,7 +43,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.3.04128",
 		"kuerzelKunde": "0.1.B-1",
 		"description": "Mietpreisentwicklung",
-		"id": 4128,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Mietpreise",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -72,7 +71,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4128
 	},
 	{
 		"title": "Mietpreisentwicklung der Leerwohnungen",
@@ -80,7 +80,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.2.04129",
 		"kuerzelKunde": "0.1.B-2",
 		"description": "Mietpreisentwicklung der Leerwohnungen",
-		"id": 4129,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -109,7 +108,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4129
 	},
 	{
 		"title": "Mietpreisentwicklung der 3-Zimmer-Wohnungen",
@@ -117,7 +117,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.3.04130",
 		"kuerzelKunde": "0.1.B-3",
 		"description": "Mietpreisentwicklung der 3-Zimmer-Wohnungen",
-		"id": 4130,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Mietpreise",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -146,7 +145,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4130
 	},
 	{
 		"title": "Wohnungsbelegung",
@@ -154,7 +154,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.1.04131",
 		"kuerzelKunde": "0.1.C",
 		"description": "Wohnungsbelegung",
-		"id": 4131,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -183,7 +182,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4131
 	},
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
@@ -191,7 +191,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.04132",
 		"kuerzelKunde": "1.1.A",
 		"description": "Bevölkerungsbestand am Jahresende",
-		"id": 4132,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -223,7 +222,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4132
 	},
 	{
 		"title": "Anzahl Wohnungen",
@@ -231,7 +231,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.1.04133",
 		"kuerzelKunde": "1.2.A",
 		"description": "Anzahl Wohnungen",
-		"id": 4133,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -260,7 +259,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4133
 	},
 	{
 		"title": "Anteile am Wohnungsbestand",
@@ -268,7 +268,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.1.04134",
 		"kuerzelKunde": "1.2.B",
 		"description": "Anteile am Wohnungsbestand",
-		"id": 4134,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -297,7 +296,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4134
 	},
 	{
 		"title": "Nettowohnungsproduktion",
@@ -305,7 +305,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.1.04135",
 		"kuerzelKunde": "1.2.C-1",
 		"description": "Nettowohnungsproduktion",
-		"id": 4135,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -336,7 +335,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4135
 	},
 	{
 		"title": "Umbausaldo",
@@ -344,7 +344,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.1.04136",
 		"kuerzelKunde": "1.2.C-2",
 		"description": "Umbausaldo",
-		"id": 4136,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -373,7 +372,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4136
 	},
 	{
 		"title": "Anzahl neu erstellte Wohnungen",
@@ -381,7 +381,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.1.04137",
 		"kuerzelKunde": "1.2.E",
 		"description": "Anzahl neu erstellte Wohnungen",
-		"id": 4137,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -410,7 +409,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4137
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
@@ -418,7 +418,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.2.04138",
 		"kuerzelKunde": "1.2.F-1",
 		"description": "Anzahl Leerwohnungen und Leerwohnungsquote",
-		"id": 4138,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -447,7 +446,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4138
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
@@ -455,7 +455,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.2.04139",
 		"kuerzelKunde": "1.2.F-2",
 		"description": "Anzahl Leerwohnungen und Leerwohnungsquote",
-		"id": 4139,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -485,7 +484,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4139
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -493,7 +493,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.1.04140",
 		"kuerzelKunde": "1.3.A",
 		"description": "Mittlere Wohnfläche pro Person",
-		"id": 4140,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -524,7 +523,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4140
 	},
 	{
 		"title": "Anteile der Haushalte",
@@ -532,7 +532,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.2.04141",
 		"kuerzelKunde": "1.4.A1",
 		"description": "Anteile der Haushalte",
-		"id": 4141,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -561,7 +560,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4141
 	},
 	{
 		"title": "Anteile der Familienhaushalte",
@@ -569,7 +569,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.2.04142",
 		"kuerzelKunde": "1.4.A2",
 		"description": "Anteile der Familienhaushalte",
-		"id": 4142,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -598,7 +597,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4142
 	},
 	{
 		"title": "Anzahl Genossenschaftswohnungen und Anteil am Bestand",
@@ -606,7 +606,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.1.04143",
 		"kuerzelKunde": "1.4.B",
 		"description": "Anzahl Genossenschaftswohnungen und Anteil am Bestand",
-		"id": 4143,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -635,7 +634,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4143
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot - nur Familien",
@@ -643,7 +643,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04144",
 		"kuerzelKunde": "1.4.C",
 		"description": "Zufriedenheit mit dem Wohnungsangebot - nur Familien",
-		"id": 4144,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -672,7 +671,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4144
 	},
 	{
 		"title": "Wohneigentumsquote",
@@ -680,7 +680,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.1.04145",
 		"kuerzelKunde": "1.6.A",
 		"description": "Wohneigentumsquote",
-		"id": 4145,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -709,7 +708,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4145
 	},
 	{
 		"title": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
@@ -717,7 +717,6 @@ var indikatorensetData = [
 		"kuerzel": "I.09.1.04146",
 		"kuerzelKunde": "2.1.A",
 		"description": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
-		"id": 4146,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -746,7 +745,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4146
 	},
 	{
 		"title": "Saldo des Steuerertrages von Zu- und Wegzügern",
@@ -754,7 +754,6 @@ var indikatorensetData = [
 		"kuerzel": "I.18.2.04147",
 		"kuerzelKunde": "2.1.B",
 		"description": "Saldo des Steuerertrages von Zu- und Wegzügern",
-		"id": 4147,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -783,7 +782,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"Siehe <a href='http://www.statistik.bs.ch/zahlen/analysen/steuerstatistik.html' target='_blank'>Weiterführende Informationen zur Steuerstatistik und zur Methodik</a>."
-		]
+		],
+		"id": 4147
 	},
 	{
 		"title": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
@@ -791,7 +791,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.04148",
 		"kuerzelKunde": "2.2.A",
 		"description": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
-		"id": 4148,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -820,7 +819,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4148
 	},
 	{
 		"title": "Freiraumfläche und Anteil an der Gesamtfläche",
@@ -828,7 +828,6 @@ var indikatorensetData = [
 		"kuerzel": "I.02.1.04149",
 		"kuerzelKunde": "3.2.A",
 		"description": "Freiraumfläche und Anteil an der Gesamtfläche",
-		"id": 4149,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -857,7 +856,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4149
 	},
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
@@ -865,7 +865,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04150",
 		"kuerzelKunde": "3.2.B",
 		"description": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
-		"id": 4150,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -897,7 +896,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4150
 	},
 	{
 		"title": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
@@ -905,7 +905,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04151",
 		"kuerzelKunde": "3.3.A",
 		"description": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
-		"id": 4151,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -934,7 +933,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4151
 	},
 	{
 		"title": "Haushalte mit Familienmietzinsbeiträgen",
@@ -942,7 +942,6 @@ var indikatorensetData = [
 		"kuerzel": "I.13.2.04152",
 		"kuerzelKunde": "4.1.A",
 		"description": "Haushalte mit Familienmietzinsbeiträgen",
-		"id": 4152,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -970,7 +969,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4152
 	},
 	{
 		"title": "Ausbezahlte Familienmietzinsbeiträge",
@@ -978,7 +978,6 @@ var indikatorensetData = [
 		"kuerzel": "I.13.2.04153",
 		"kuerzelKunde": "4.1.B",
 		"description": "Ausbezahlte Familienmietzinsbeiträge",
-		"id": 4153,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1007,7 +1006,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4153
 	},
 	{
 		"title": "Bestand an Notwohnungen und ihre Belegung",
@@ -1015,7 +1015,6 @@ var indikatorensetData = [
 		"kuerzel": "I.13.3.04154",
 		"kuerzelKunde": "4.1.E",
 		"description": "Bestand an Notwohnungen und ihre Belegung",
-		"id": 4154,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1044,7 +1043,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4154
 	},
 	{
 		"title": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
@@ -1052,7 +1052,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.1.04155",
 		"kuerzelKunde": "4.2.A",
 		"description": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
-		"id": 4155,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1080,7 +1079,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4155
 	},
 	{
 		"title": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
@@ -1088,7 +1088,6 @@ var indikatorensetData = [
 		"kuerzel": "I.50.4.04156",
 		"kuerzelKunde": "4.2.C",
 		"description": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
-		"id": 4156,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1118,6 +1117,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4156
 	}
 ];
