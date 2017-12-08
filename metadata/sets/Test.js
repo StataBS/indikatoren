@@ -5,7 +5,6 @@ var indikatorensetData = [
 		"kuerzel": "I.02.1.05807",
 		"kuerzelKunde": "ST 2-1",
 		"description": "Anteil Fläche nach Art der Bodenbedeckung",
-		"id": 9998,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"kennzahlenset": "Test",
@@ -33,7 +32,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"orderKey": "ST 2-1"
+		"orderKey": "ST 2-1",
+		"id": 9998
 	},
 	{
 		"title": "Test Daten",
@@ -41,7 +41,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.1.09999",
 		"kuerzelKunde": "ST 11-2",
 		"description": "Test Daten",
-		"id": 9999,
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
 		"kennzahlenset": "Test",
@@ -77,6 +76,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 9999
 	}
 ];

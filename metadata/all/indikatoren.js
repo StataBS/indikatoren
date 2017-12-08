@@ -5,7 +5,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.02501",
 		"kuerzelKunde": "2.2",
 		"description": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
-		"id": 2501,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",
@@ -40,6 +39,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 2501,
 		"visibleInPortal": true
 	},
 	{
@@ -48,7 +48,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.02952",
 		"kuerzelKunde": "4.3",
 		"description": "Beurteilung der Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe",
-		"id": 2952,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
@@ -82,6 +81,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 2952,
 		"visibleInPortal": true
 	},
 	{
@@ -90,7 +90,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.02953",
 		"kuerzelKunde": "8.1",
 		"description": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
-		"id": 2953,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
@@ -127,6 +126,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 2953,
 		"visibleInPortal": true
 	},
 	{
@@ -135,7 +135,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.02956",
 		"kuerzelKunde": "9.4",
 		"description": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
-		"id": 2956,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
@@ -169,6 +168,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 2956,
 		"visibleInPortal": true
 	},
 	{
@@ -177,7 +177,6 @@ var indikatoren = [
 		"kuerzel": "I.15.7.03051",
 		"kuerzelKunde": "3.1b",
 		"description": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
-		"id": 3051,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
 		"kennzahlenset": "Legislaturplan",
@@ -211,6 +210,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 3051,
 		"visibleInPortal": true
 	},
 	{
@@ -219,7 +219,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.03086",
 		"kuerzelKunde": "2.4",
 		"description": "Durch BaselArea unterstützte internationale Ansiedlungen",
-		"id": 3086,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",
@@ -254,6 +253,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 3086,
 		"visibleInPortal": true
 	},
 	{
@@ -262,7 +262,6 @@ var indikatoren = [
 		"kuerzel": "I.11.6.03104",
 		"kuerzelKunde": "5.1",
 		"description": "Globale und kontinentale Erreichbarkeit",
-		"id": 3104,
 		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
 		"kennzahlenset": "Legislaturplan",
@@ -296,6 +295,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 3104,
 		"visibleInPortal": true
 	},
 	{
@@ -304,7 +304,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04127",
 		"kuerzelKunde": "0.1.A",
 		"description": "Zufriedenheit mit dem Wohnungsangebot",
-		"id": 4127,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -335,6 +334,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4127,
 		"visibleInPortal": true
 	},
 	{
@@ -343,7 +343,6 @@ var indikatoren = [
 		"kuerzel": "I.09.3.04128",
 		"kuerzelKunde": "0.1.B-1",
 		"description": "Mietpreisentwicklung",
-		"id": 4128,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Mietpreise",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -373,6 +372,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4128,
 		"visibleInPortal": true
 	},
 	{
@@ -381,7 +381,6 @@ var indikatoren = [
 		"kuerzel": "I.09.2.04129",
 		"kuerzelKunde": "0.1.B-2",
 		"description": "Mietpreisentwicklung der Leerwohnungen",
-		"id": 4129,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -411,6 +410,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4129,
 		"visibleInPortal": true
 	},
 	{
@@ -419,7 +419,6 @@ var indikatoren = [
 		"kuerzel": "I.09.3.04130",
 		"kuerzelKunde": "0.1.B-3",
 		"description": "Mietpreisentwicklung der 3-Zimmer-Wohnungen",
-		"id": 4130,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Mietpreise",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -449,6 +448,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4130,
 		"visibleInPortal": true
 	},
 	{
@@ -457,7 +457,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.04131",
 		"kuerzelKunde": "0.1.C",
 		"description": "Wohnungsbelegung",
-		"id": 4131,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -487,6 +486,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4131,
 		"visibleInPortal": true
 	},
 	{
@@ -495,7 +495,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.04132",
 		"kuerzelKunde": "1.1.A",
 		"description": "Bevölkerungsbestand am Jahresende",
-		"id": 4132,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -528,6 +527,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4132,
 		"visibleInPortal": true
 	},
 	{
@@ -536,7 +536,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.04133",
 		"kuerzelKunde": "1.2.A",
 		"description": "Anzahl Wohnungen",
-		"id": 4133,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -566,6 +565,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4133,
 		"visibleInPortal": true
 	},
 	{
@@ -574,7 +574,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.04134",
 		"kuerzelKunde": "1.2.B",
 		"description": "Anteile am Wohnungsbestand",
-		"id": 4134,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -604,6 +603,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4134,
 		"visibleInPortal": true
 	},
 	{
@@ -612,7 +612,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.04135",
 		"kuerzelKunde": "1.2.C-1",
 		"description": "Nettowohnungsproduktion",
-		"id": 4135,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -644,6 +643,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4135,
 		"visibleInPortal": true
 	},
 	{
@@ -652,7 +652,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.04136",
 		"kuerzelKunde": "1.2.C-2",
 		"description": "Umbausaldo",
-		"id": 4136,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -682,6 +681,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4136,
 		"visibleInPortal": true
 	},
 	{
@@ -690,7 +690,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.04137",
 		"kuerzelKunde": "1.2.E",
 		"description": "Anzahl neu erstellte Wohnungen",
-		"id": 4137,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -720,6 +719,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4137,
 		"visibleInPortal": true
 	},
 	{
@@ -728,7 +728,6 @@ var indikatoren = [
 		"kuerzel": "I.09.2.04138",
 		"kuerzelKunde": "1.2.F-1",
 		"description": "Anzahl Leerwohnungen und Leerwohnungsquote",
-		"id": 4138,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -758,6 +757,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4138,
 		"visibleInPortal": true
 	},
 	{
@@ -766,7 +766,6 @@ var indikatoren = [
 		"kuerzel": "I.09.2.04139",
 		"kuerzelKunde": "1.2.F-2",
 		"description": "Anzahl Leerwohnungen und Leerwohnungsquote",
-		"id": 4139,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -797,6 +796,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4139,
 		"visibleInPortal": true
 	},
 	{
@@ -805,7 +805,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.04140",
 		"kuerzelKunde": "1.3.A",
 		"description": "Mittlere Wohnfläche pro Person",
-		"id": 4140,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -837,6 +836,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4140,
 		"visibleInPortal": true
 	},
 	{
@@ -845,7 +845,6 @@ var indikatoren = [
 		"kuerzel": "I.01.2.04141",
 		"kuerzelKunde": "1.4.A1",
 		"description": "Anteile der Haushalte",
-		"id": 4141,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -875,6 +874,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4141,
 		"visibleInPortal": true
 	},
 	{
@@ -883,7 +883,6 @@ var indikatoren = [
 		"kuerzel": "I.01.2.04142",
 		"kuerzelKunde": "1.4.A2",
 		"description": "Anteile der Familienhaushalte",
-		"id": 4142,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -913,6 +912,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4142,
 		"visibleInPortal": true
 	},
 	{
@@ -921,7 +921,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.04143",
 		"kuerzelKunde": "1.4.B",
 		"description": "Anzahl Genossenschaftswohnungen und Anteil am Bestand",
-		"id": 4143,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -951,6 +950,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4143,
 		"visibleInPortal": true
 	},
 	{
@@ -959,7 +959,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04144",
 		"kuerzelKunde": "1.4.C",
 		"description": "Zufriedenheit mit dem Wohnungsangebot - nur Familien",
-		"id": 4144,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -989,6 +988,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4144,
 		"visibleInPortal": true
 	},
 	{
@@ -997,7 +997,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.04145",
 		"kuerzelKunde": "1.6.A",
 		"description": "Wohneigentumsquote",
-		"id": 4145,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1027,6 +1026,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4145,
 		"visibleInPortal": true
 	},
 	{
@@ -1035,7 +1035,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.04146",
 		"kuerzelKunde": "2.1.A",
 		"description": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
-		"id": 4146,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1065,6 +1064,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4146,
 		"visibleInPortal": true
 	},
 	{
@@ -1073,7 +1073,6 @@ var indikatoren = [
 		"kuerzel": "I.18.2.04147",
 		"kuerzelKunde": "2.1.B",
 		"description": "Saldo des Steuerertrages von Zu- und Wegzügern",
-		"id": 4147,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1103,6 +1102,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Siehe <a href='http://www.statistik.bs.ch/zahlen/analysen/steuerstatistik.html' target='_blank'>Weiterführende Informationen zur Steuerstatistik und zur Methodik</a>."
 		],
+		"id": 4147,
 		"visibleInPortal": true
 	},
 	{
@@ -1111,7 +1111,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.04148",
 		"kuerzelKunde": "2.2.A",
 		"description": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
-		"id": 4148,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1141,6 +1140,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4148,
 		"visibleInPortal": true
 	},
 	{
@@ -1149,7 +1149,6 @@ var indikatoren = [
 		"kuerzel": "I.02.1.04149",
 		"kuerzelKunde": "3.2.A",
 		"description": "Freiraumfläche und Anteil an der Gesamtfläche",
-		"id": 4149,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1179,6 +1178,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4149,
 		"visibleInPortal": true
 	},
 	{
@@ -1187,7 +1187,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04150",
 		"kuerzelKunde": "3.2.B",
 		"description": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
-		"id": 4150,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1220,6 +1219,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4150,
 		"visibleInPortal": true
 	},
 	{
@@ -1228,7 +1228,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04151",
 		"kuerzelKunde": "3.3.A",
 		"description": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
-		"id": 4151,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1258,6 +1257,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4151,
 		"visibleInPortal": true
 	},
 	{
@@ -1266,7 +1266,6 @@ var indikatoren = [
 		"kuerzel": "I.13.2.04152",
 		"kuerzelKunde": "4.1.A",
 		"description": "Haushalte mit Familienmietzinsbeiträgen",
-		"id": 4152,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1295,6 +1294,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4152,
 		"visibleInPortal": true
 	},
 	{
@@ -1303,7 +1303,6 @@ var indikatoren = [
 		"kuerzel": "I.13.2.04153",
 		"kuerzelKunde": "4.1.B",
 		"description": "Ausbezahlte Familienmietzinsbeiträge",
-		"id": 4153,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1333,6 +1332,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4153,
 		"visibleInPortal": true
 	},
 	{
@@ -1341,7 +1341,6 @@ var indikatoren = [
 		"kuerzel": "I.13.3.04154",
 		"kuerzelKunde": "4.1.E",
 		"description": "Bestand an Notwohnungen und ihre Belegung",
-		"id": 4154,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1371,6 +1370,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4154,
 		"visibleInPortal": true
 	},
 	{
@@ -1379,7 +1379,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04155",
 		"kuerzelKunde": "4.2.A",
 		"description": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
-		"id": 4155,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1408,6 +1407,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4155,
 		"visibleInPortal": true
 	},
 	{
@@ -1416,7 +1416,6 @@ var indikatoren = [
 		"kuerzel": "I.50.4.04156",
 		"kuerzelKunde": "4.2.C",
 		"description": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
-		"id": 4156,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1447,6 +1446,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4156,
 		"visibleInPortal": true
 	},
 	{
@@ -1455,7 +1455,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.04200",
 		"kuerzelKunde": "1-1",
 		"description": "Ausländeranteil nach Staatsangehörigkeit seit 2006",
-		"id": 4200,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -1488,6 +1487,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4200,
 		"visibleInPortal": true
 	},
 	{
@@ -1496,7 +1496,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.04203",
 		"kuerzelKunde": "1-2",
 		"description": "Altersquotient nach Staatsangehörigkeit",
-		"id": 4203,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -1529,6 +1528,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4203,
 		"visibleInPortal": true
 	},
 	{
@@ -1537,7 +1537,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.04218",
 		"kuerzelKunde": "1-3",
 		"description": "Jugendquotient nach Staatsangehörigkeit",
-		"id": 4218,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -1570,6 +1569,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4218,
 		"visibleInPortal": true
 	},
 	{
@@ -1578,7 +1578,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.04219",
 		"kuerzelKunde": "1-4A",
 		"description": "Anzahl Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit seit 2006",
-		"id": 4219,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -1609,6 +1608,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4219,
 		"visibleInPortal": true
 	},
 	{
@@ -1617,7 +1617,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.04220",
 		"kuerzelKunde": "1-4B",
 		"description": "Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit 2006 und 2015",
-		"id": 4220,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -1650,6 +1649,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4220,
 		"visibleInPortal": true
 	},
 	{
@@ -1658,7 +1658,6 @@ var indikatoren = [
 		"kuerzel": "I.08.3.04221",
 		"kuerzelKunde": "0603",
 		"description": "Anteil erneuerbarer Energien (ohne Mobilität)",
-		"id": 4221,
 		"thema": "08 Energie",
 		"unterthema": "Erneuerbare",
 		"kennzahlenset": "Umwelt",
@@ -1688,6 +1687,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0603' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4221,
 		"visibleInPortal": false
 	},
 	{
@@ -1696,7 +1696,6 @@ var indikatoren = [
 		"kuerzel": "I.05.3.04222",
 		"kuerzelKunde": "0601",
 		"description": "Energiepreise Schweiz",
-		"id": 4222,
 		"thema": "05 Preise",
 		"unterthema": "Durchschnittspreise",
 		"kennzahlenset": "Umwelt",
@@ -1726,6 +1725,7 @@ var indikatoren = [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/themen/05/02.html' target = '_blank'>Landesindex der Konsumentenpreise (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0601' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4222,
 		"visibleInPortal": false
 	},
 	{
@@ -1734,7 +1734,6 @@ var indikatoren = [
 		"kuerzel": "I.08.3.04223",
 		"kuerzelKunde": "0604",
 		"description": "Neue erneuerbare Energien",
-		"id": 4223,
 		"thema": "08 Energie",
 		"unterthema": "Erneuerbare",
 		"kennzahlenset": "Umwelt",
@@ -1766,6 +1765,7 @@ var indikatoren = [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0604' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4223,
 		"visibleInPortal": false
 	},
 	{
@@ -1774,7 +1774,6 @@ var indikatoren = [
 		"kuerzel": "I.08.2.04224",
 		"kuerzelKunde": "0605",
 		"description": "Eigenproduktion Strom",
-		"id": 4224,
 		"thema": "08 Energie",
 		"unterthema": "Produktion",
 		"kennzahlenset": "Umwelt",
@@ -1804,6 +1803,7 @@ var indikatoren = [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0605' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4224,
 		"visibleInPortal": false
 	},
 	{
@@ -1812,7 +1812,6 @@ var indikatoren = [
 		"kuerzel": "I.08.2.04225",
 		"kuerzelKunde": "0606",
 		"description": "Energieimportabhängigkeit",
-		"id": 4225,
 		"thema": "08 Energie",
 		"unterthema": "Produktion",
 		"kennzahlenset": "Umwelt",
@@ -1842,6 +1841,7 @@ var indikatoren = [
 			"<a href = 'http://www.statistik-bs.ch/tabellen/t08' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0606' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4225,
 		"visibleInPortal": false
 	},
 	{
@@ -1850,7 +1850,6 @@ var indikatoren = [
 		"kuerzel": "I.08.1.04226",
 		"kuerzelKunde": "0609",
 		"description": "Energiebezugsfläche mit Minergie-P® und A®-Standard",
-		"id": 4226,
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
 		"kennzahlenset": "Umwelt",
@@ -1882,6 +1881,7 @@ var indikatoren = [
 			"<a href = 'http://www.aue.bs.ch/energie/gebaeude-energie.html' target = '_blank'>Gebäude und Energie (AUE BS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0609' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4226,
 		"visibleInPortal": false
 	},
 	{
@@ -1890,7 +1890,6 @@ var indikatoren = [
 		"kuerzel": "I.08.1.04227",
 		"kuerzelKunde": "0610",
 		"description": "Spezifischer Heizenergieverbrauch von neuen Bauten",
-		"id": 4227,
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
 		"kennzahlenset": "Umwelt",
@@ -1920,6 +1919,7 @@ var indikatoren = [
 			"<a href = 'http://www.aue.bs.ch/energie/gebaeude-energie.html' target = '_blank'>Gebäude und Energie (AUE BS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0610' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4227,
 		"visibleInPortal": false
 	},
 	{
@@ -1928,7 +1928,6 @@ var indikatoren = [
 		"kuerzel": "I.02.12.04228",
 		"kuerzelKunde": "0611",
 		"description": "Heizgradtage",
-		"id": 4228,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Klima",
 		"kennzahlenset": "Umwelt",
@@ -1958,6 +1957,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0611' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4228,
 		"visibleInPortal": false
 	},
 	{
@@ -1966,7 +1966,6 @@ var indikatoren = [
 		"kuerzel": "I.08.1.04229",
 		"kuerzelKunde": "0612",
 		"description": "Energieeffizienz",
-		"id": 4229,
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
 		"kennzahlenset": "Umwelt",
@@ -1996,6 +1995,7 @@ var indikatoren = [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/raum-umwelt/ressourcen/umweltindikatorensystem/nutzung-natuerliche-ressourcen/energieeffizienz.html' target = '_blank'>Energieeffizienz Schweiz (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0612' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4229,
 		"visibleInPortal": false
 	},
 	{
@@ -2004,7 +2004,6 @@ var indikatoren = [
 		"kuerzel": "I.08.1.04230",
 		"kuerzelKunde": "0602",
 		"description": "Bruttoenergieverbrauch nach Energieträger",
-		"id": 4230,
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
 		"kennzahlenset": "Umwelt",
@@ -2034,6 +2033,7 @@ var indikatoren = [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0602' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4230,
 		"visibleInPortal": false
 	},
 	{
@@ -2042,7 +2042,6 @@ var indikatoren = [
 		"kuerzel": "I.02.19.04231",
 		"kuerzelKunde": "1604",
 		"description": "AOX-Fracht Abwasser",
-		"id": 4231,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Umwelt",
@@ -2072,6 +2071,7 @@ var indikatoren = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983281/index.html#app4' target = '_blank'>Gewässerschutzverordnung, Anhang 3.1</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1604' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4231,
 		"visibleInPortal": false
 	},
 	{
@@ -2080,7 +2080,6 @@ var indikatoren = [
 		"kuerzel": "I.02.19.04232",
 		"kuerzelKunde": "1602",
 		"description": "Nitrat im Grundwasser",
-		"id": 4232,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Umwelt",
@@ -2111,6 +2110,7 @@ var indikatoren = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983281/index.html' target = '_blank'>Gewässerschutzverordnung (GSchV, SR 814.201)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1602' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4232,
 		"visibleInPortal": false
 	},
 	{
@@ -2119,7 +2119,6 @@ var indikatoren = [
 		"kuerzel": "I.02.19.04233",
 		"kuerzelKunde": "1605",
 		"description": "Wasserverbrauch Haushalte und Kleingewerbe",
-		"id": 4233,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Umwelt",
@@ -2148,6 +2147,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1605' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4233,
 		"visibleInPortal": false
 	},
 	{
@@ -2156,7 +2156,6 @@ var indikatoren = [
 		"kuerzel": "I.02.19.04234",
 		"kuerzelKunde": "1606",
 		"description": "Wasserverbrauch Gewerbe und Industrie",
-		"id": 4234,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Umwelt",
@@ -2185,6 +2184,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1606' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4234,
 		"visibleInPortal": false
 	},
 	{
@@ -2193,7 +2193,6 @@ var indikatoren = [
 		"kuerzel": "I.02.19.04236",
 		"kuerzelKunde": "1607",
 		"description": "Gelöster Organischer Kohlenstoff (DOC)",
-		"id": 4236,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Umwelt",
@@ -2223,6 +2222,7 @@ var indikatoren = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983281/index.html#app4' target = '_blank'>Gewässerschutzverordnung, Anhang 3.1</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1607' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4236,
 		"visibleInPortal": false
 	},
 	{
@@ -2231,7 +2231,6 @@ var indikatoren = [
 		"kuerzel": "I.02.19.04237",
 		"kuerzelKunde": "1610",
 		"description": "Wassertemperatur Grundwasser",
-		"id": 4237,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Umwelt",
@@ -2261,6 +2260,7 @@ var indikatoren = [
 			"<a href = 'http://www.aue.bs.ch/wasser/grundwasser/grundwasserpegel-grundwasserqualitaet.html' target = '_blank'>Hydrologisches Jahrbuch BS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4237,
 		"visibleInPortal": false
 	},
 	{
@@ -2269,7 +2269,6 @@ var indikatoren = [
 		"kuerzel": "I.02.19.04238",
 		"kuerzelKunde": "1611",
 		"description": "Pflanzenschutzmittel im Grundwasser",
-		"id": 4238,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Umwelt",
@@ -2300,6 +2299,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1611' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4238,
 		"visibleInPortal": false
 	},
 	{
@@ -2308,7 +2308,6 @@ var indikatoren = [
 		"kuerzel": "I.02.19.04239",
 		"kuerzelKunde": "1614",
 		"description": "Ausbaugrad der Abwasserreinigungsanlagen",
-		"id": 4239,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Umwelt",
@@ -2337,6 +2336,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1614' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4239,
 		"visibleInPortal": false
 	},
 	{
@@ -2345,7 +2345,6 @@ var indikatoren = [
 		"kuerzel": "I.02.19.04240",
 		"kuerzelKunde": "1609",
 		"description": "Wassertemperatur Oberflächengewässer",
-		"id": 4240,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Umwelt",
@@ -2375,6 +2374,7 @@ var indikatoren = [
 			"<a href = 'http://www.aue.bs.ch/umweltanalytik/rheinueberwachungsstation-weil-am-rhein.html' target = '_blank'>Rheinüberwachungsstation Weil am Rhein (RÜS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1609' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4240,
 		"visibleInPortal": false
 	},
 	{
@@ -2383,7 +2383,6 @@ var indikatoren = [
 		"kuerzel": "I.14.4.04241",
 		"kuerzelKunde": "1617",
 		"description": "Medikamentenkonsum",
-		"id": 4241,
 		"thema": "14 Gesundheit",
 		"unterthema": "Prävention, Praxen, Rettung",
 		"kennzahlenset": "Umwelt",
@@ -2413,6 +2412,7 @@ var indikatoren = [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/erhebungen/sgb.html' target = '_blank'>Bundesamt für Statistik, Schweizerische Gesundheitsbefragung</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1617' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4241,
 		"visibleInPortal": false
 	},
 	{
@@ -2421,7 +2421,6 @@ var indikatoren = [
 		"kuerzel": "I.02.19.04243",
 		"kuerzelKunde": "1613",
 		"description": "Biodiversität der Fliessgewässer",
-		"id": 4243,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Umwelt",
@@ -2450,6 +2449,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1613' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4243,
 		"visibleInPortal": false
 	},
 	{
@@ -2458,7 +2458,6 @@ var indikatoren = [
 		"kuerzel": "I.02.19.04244",
 		"kuerzelKunde": "1612",
 		"description": "Organische Spurenstoffe in Gewässern",
-		"id": 4244,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Umwelt",
@@ -2487,6 +2486,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1612' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4244,
 		"visibleInPortal": false
 	},
 	{
@@ -2495,7 +2495,6 @@ var indikatoren = [
 		"kuerzel": "I.02.19.04245",
 		"kuerzelKunde": "1616",
 		"description": "Revitalisierungsrate Oberflächengewässer",
-		"id": 4245,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Umwelt",
@@ -2525,6 +2524,7 @@ var indikatoren = [
 			"<a href = 'http://www.aue.bs.ch/wasser/oberflaechengewaesser/lebensraum.html' target = '_blank'>AUE BS, Lebensraum Oberflächengewässer</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1616' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4245,
 		"visibleInPortal": false
 	},
 	{
@@ -2533,7 +2533,6 @@ var indikatoren = [
 		"kuerzel": "I.02.18.04246",
 		"kuerzelKunde": "1401",
 		"description": "Betriebseinheiten im Geltungsbereich der Störfallverordnung (StFV)",
-		"id": 4246,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Störfälle",
 		"kennzahlenset": "Umwelt",
@@ -2563,6 +2562,7 @@ var indikatoren = [
 			"<a href = 'http://www.admin.ch/opc/de/classified-compilation/19910033/index.html' target = '_blank'>Verordnung über den Schutz vor Störfällen (Störfallverordnung, StFV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-14-1401' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4246,
 		"visibleInPortal": false
 	},
 	{
@@ -2571,7 +2571,6 @@ var indikatoren = [
 		"kuerzel": "I.02.18.04247",
 		"kuerzelKunde": "1403",
 		"description": "Störfälle und Ereignisse",
-		"id": 4247,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Störfälle",
 		"kennzahlenset": "Umwelt",
@@ -2601,6 +2600,7 @@ var indikatoren = [
 			"<a href = 'http://www.kantonslabor.bs.ch/umwelt/anlagensicherheit.html' target = '_blank'>Störfallvorsorge BS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-14-1403' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4247,
 		"visibleInPortal": false
 	},
 	{
@@ -2609,7 +2609,6 @@ var indikatoren = [
 		"kuerzel": "I.02.10.04249",
 		"kuerzelKunde": "0506",
 		"description": "Bodennutzung",
-		"id": 4249,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Boden",
 		"kennzahlenset": "Umwelt",
@@ -2640,6 +2639,7 @@ var indikatoren = [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target = '_blank'>Arealstatistik Schweiz (Methode)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0506' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4249,
 		"visibleInPortal": false
 	},
 	{
@@ -2648,7 +2648,6 @@ var indikatoren = [
 		"kuerzel": "I.07.1.04250",
 		"kuerzelKunde": "0507",
 		"description": "Nutzung der landwirtschaftlichen Nutzfläche",
-		"id": 4250,
 		"thema": "07 Landwirtschaft",
 		"unterthema": "Landwirtschaft",
 		"kennzahlenset": "Umwelt",
@@ -2678,6 +2677,7 @@ var indikatoren = [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/land-forstwirtschaft/landwirtschaft.html' target = '_blank'>Landwirtschaftliche Strukturerhebung (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0507' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4250,
 		"visibleInPortal": false
 	},
 	{
@@ -2686,7 +2686,6 @@ var indikatoren = [
 		"kuerzel": "I.07.1.04252",
 		"kuerzelKunde": "0505",
 		"description": "Gewicht der Landwirtschaftsmaschinen",
-		"id": 4252,
 		"thema": "07 Landwirtschaft",
 		"unterthema": "Landwirtschaft",
 		"kennzahlenset": "Umwelt",
@@ -2717,6 +2716,7 @@ var indikatoren = [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/themen/11/03/blank/02.html' target = '_blank'>Strassenfahrzeugbestand (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0505' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4252,
 		"visibleInPortal": false
 	},
 	{
@@ -2725,7 +2725,6 @@ var indikatoren = [
 		"kuerzel": "I.02.10.04253",
 		"kuerzelKunde": "0502",
 		"description": "Bodenversiegelung",
-		"id": 4253,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Boden",
 		"kennzahlenset": "Umwelt",
@@ -2757,6 +2756,7 @@ var indikatoren = [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target = '_blank'>Arealstatistik Schweiz (Methode)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0502' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4253,
 		"visibleInPortal": false
 	},
 	{
@@ -2765,7 +2765,6 @@ var indikatoren = [
 		"kuerzel": "I.07.1.04254",
 		"kuerzelKunde": "0503",
 		"description": "Landwirtschaftliche Nutzfläche",
-		"id": 4254,
 		"thema": "07 Landwirtschaft",
 		"unterthema": "Landwirtschaft",
 		"kennzahlenset": "Umwelt",
@@ -2795,6 +2794,7 @@ var indikatoren = [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/land-forstwirtschaft/landwirtschaft.html' target = '_blank'>Landwirtschaftliche Strukturerhebung (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0503' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4254,
 		"visibleInPortal": false
 	},
 	{
@@ -2803,7 +2803,6 @@ var indikatoren = [
 		"kuerzel": "I.02.1.04255",
 		"kuerzelKunde": "0501",
 		"description": "Siedlungsfläche",
-		"id": 4255,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"kennzahlenset": "Umwelt",
@@ -2835,6 +2834,7 @@ var indikatoren = [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target = '_blank'>Arealstatistik Schweiz (Methode)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0501' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4255,
 		"visibleInPortal": false
 	},
 	{
@@ -2843,7 +2843,6 @@ var indikatoren = [
 		"kuerzel": "I.02.7.04257",
 		"kuerzelKunde": "0207",
 		"description": "Aktiv begleitete Sanierungen",
-		"id": 4257,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Altlasten",
 		"kennzahlenset": "Umwelt",
@@ -2873,6 +2872,7 @@ var indikatoren = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983151/index.html' target = '_blank'>Altlasten-Verordnung (SR 814.680)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0207' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4257,
 		"visibleInPortal": false
 	},
 	{
@@ -2881,7 +2881,6 @@ var indikatoren = [
 		"kuerzel": "I.02.7.04258",
 		"kuerzelKunde": "0205",
 		"description": "Belastete Standorte nach ihrer altlastenrechtlichen Bewertung",
-		"id": 4258,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Altlasten",
 		"kennzahlenset": "Umwelt",
@@ -2911,6 +2910,7 @@ var indikatoren = [
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?instance=default&language=de&theme=186' target = '_blank'>Kataster der belasteten Standorte im Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0205' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4258,
 		"visibleInPortal": false
 	},
 	{
@@ -2919,7 +2919,6 @@ var indikatoren = [
 		"kuerzel": "I.02.7.04259",
 		"kuerzelKunde": "0206",
 		"description": "Abgeschlossene Sanierungen",
-		"id": 4259,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Altlasten",
 		"kennzahlenset": "Umwelt",
@@ -2949,6 +2948,7 @@ var indikatoren = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983151/index.html' target = '_blank'>Altlasten-Verordnung (SR 814.680)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0206' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4259,
 		"visibleInPortal": false
 	},
 	{
@@ -2957,7 +2957,6 @@ var indikatoren = [
 		"kuerzel": "I.02.7.04260",
 		"kuerzelKunde": "0204",
 		"description": "Belastete Standorte",
-		"id": 4260,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Altlasten",
 		"kennzahlenset": "Umwelt",
@@ -2987,6 +2986,7 @@ var indikatoren = [
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?instance=default&language=de&theme=186' target = '_blank'>Kataster der belasteten Standorte im Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0204' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4260,
 		"visibleInPortal": false
 	},
 	{
@@ -2995,7 +2995,6 @@ var indikatoren = [
 		"kuerzel": "I.02.7.04261",
 		"kuerzelKunde": "0208",
 		"description": "Altlastenrechtlich beurteilte Baugesuche",
-		"id": 4261,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Altlasten",
 		"kennzahlenset": "Umwelt",
@@ -3025,6 +3024,7 @@ var indikatoren = [
 			"<a href = 'http://www.aue.bs.ch/altlasten-boden/bauen-auf-belasteten-standorten.html' target = '_blank'>Kanton Basel-Stadt: Bauen auf belasteten Standorten</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0208' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4261,
 		"visibleInPortal": false
 	},
 	{
@@ -3033,7 +3033,6 @@ var indikatoren = [
 		"kuerzel": "I.02.9.04262",
 		"kuerzelKunde": "0403",
 		"description": "Unbeabsichtigte Freisetzung von gentechnisch veränderten Organismen",
-		"id": 4262,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Biotechnologie",
 		"kennzahlenset": "Umwelt",
@@ -3063,6 +3062,7 @@ var indikatoren = [
 			"<a href = 'http://www.kantonslabor.bs.ch/berichte/jahresberichte.html' target = '_blank'>Jahresberichte Kantonales Laboratorium Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0403' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4262,
 		"visibleInPortal": false
 	},
 	{
@@ -3071,7 +3071,6 @@ var indikatoren = [
 		"kuerzel": "I.02.9.04263",
 		"kuerzelKunde": "0401",
 		"description": "Hochsicherheitslaboratorien in Biotechnologiebetrieben",
-		"id": 4263,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Biotechnologie",
 		"kennzahlenset": "Umwelt",
@@ -3101,6 +3100,7 @@ var indikatoren = [
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=67&nodefault&layers=stadtplan_grau_osm_25000,gefkatasterex' target = '_blank'>Gefahrenkataster BS (Kataster der Störfallverordnung)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0401' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4263,
 		"visibleInPortal": false
 	},
 	{
@@ -3109,7 +3109,6 @@ var indikatoren = [
 		"kuerzel": "I.02.9.04264",
 		"kuerzelKunde": "0404",
 		"description": "Beanstandungen bei Inspektionen",
-		"id": 4264,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Biotechnologie",
 		"kennzahlenset": "Umwelt",
@@ -3139,6 +3138,7 @@ var indikatoren = [
 			"<a href = 'http://www.kantonslabor.bs.ch/umwelt/anlagensicherheit/biosicherheit.html' target = '_blank'>Kantonales Laboratorium Basel-Stadt, Biosicherheit</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0404' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4264,
 		"visibleInPortal": false
 	},
 	{
@@ -3147,7 +3147,6 @@ var indikatoren = [
 		"kuerzel": "I.02.9.04265",
 		"kuerzelKunde": "0402",
 		"description": "Tätigkeiten mit gentechnisch veränderten und pathogenen Organismen",
-		"id": 4265,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Biotechnologie",
 		"kennzahlenset": "Umwelt",
@@ -3177,6 +3176,7 @@ var indikatoren = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/20100803/201506010000/814.912.pdf' target = '_blank'>Einschliessungsverordnung (ESV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0402' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4265,
 		"visibleInPortal": false
 	},
 	{
@@ -3185,7 +3185,6 @@ var indikatoren = [
 		"kuerzel": "I.02.14.04266",
 		"kuerzelKunde": "1005",
 		"description": "Fluglärm",
-		"id": 4266,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Lärm",
 		"kennzahlenset": "Umwelt",
@@ -3216,6 +3215,7 @@ var indikatoren = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19860372/index.html#app5' target = '_blank'>Lärmschutz-Verordnung (LSV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1005' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4266,
 		"visibleInPortal": false
 	},
 	{
@@ -3224,7 +3224,6 @@ var indikatoren = [
 		"kuerzel": "I.02.14.04267",
 		"kuerzelKunde": "1003",
 		"description": "Lärmreklamationen",
-		"id": 4267,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Lärm",
 		"kennzahlenset": "Umwelt",
@@ -3255,6 +3254,7 @@ var indikatoren = [
 			"<a href = 'http://www.aue.bs.ch/laerm/laermsorgen.html' target = '_blank'>Beschwerdeformular Lärmbelästigung Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1003' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4267,
 		"visibleInPortal": false
 	},
 	{
@@ -3263,7 +3263,6 @@ var indikatoren = [
 		"kuerzel": "I.02.14.04268",
 		"kuerzelKunde": "1004",
 		"description": "Eingebaute Schallschutzfenster",
-		"id": 4268,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Lärm",
 		"kennzahlenset": "Umwelt",
@@ -3294,6 +3293,7 @@ var indikatoren = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19860372/index.html' target = '_blank'>Lärmschutz-Verordnung (LSV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1004' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4268,
 		"visibleInPortal": false
 	},
 	{
@@ -3302,7 +3302,6 @@ var indikatoren = [
 		"kuerzel": "I.02.14.04269",
 		"kuerzelKunde": "1002",
 		"description": "Lärmbelastete Personen",
-		"id": 4269,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Lärm",
 		"kennzahlenset": "Umwelt",
@@ -3332,6 +3331,7 @@ var indikatoren = [
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=19&cps=2612411.74,1267773.51,25000&nodefault&layers=stadtplan_grau_osm_25000,strlaermtag' target = '_blank'>Strassenlärmkataster BS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1002' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4269,
 		"visibleInPortal": false
 	},
 	{
@@ -3340,7 +3340,6 @@ var indikatoren = [
 		"kuerzel": "I.02.14.04270",
 		"kuerzelKunde": "1008",
 		"description": "Lärmmindernder Strassenbelag",
-		"id": 4270,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Lärm",
 		"kennzahlenset": "Umwelt",
@@ -3369,6 +3368,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1008' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4270,
 		"visibleInPortal": false
 	},
 	{
@@ -3377,7 +3377,6 @@ var indikatoren = [
 		"kuerzel": "I.02.15.04272",
 		"kuerzelKunde": "1101",
 		"description": "Stickoxid-Emissionen",
-		"id": 4272,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luft",
 		"kennzahlenset": "Umwelt",
@@ -3411,6 +3410,7 @@ var indikatoren = [
 			"<a href = 'http://www.bafu.admin.ch/luft/00585/10763/index.html?lang=de' target = '_blank'>Informationen zu Stickoxiden (BAFU)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1101' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4272,
 		"visibleInPortal": false
 	},
 	{
@@ -3419,7 +3419,6 @@ var indikatoren = [
 		"kuerzel": "I.02.15.04273",
 		"kuerzelKunde": "1102",
 		"description": "Emissionen flüchtiger organischer Verbindungen (VOC)",
-		"id": 4273,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luft",
 		"kennzahlenset": "Umwelt",
@@ -3451,6 +3450,7 @@ var indikatoren = [
 			"<a href = 'http://www.bafu.admin.ch/luft/index.html?lang=de' target = '_blank'>BAFU: Informationen zum Thema Luft</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1102' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4273,
 		"visibleInPortal": false
 	},
 	{
@@ -3459,7 +3459,6 @@ var indikatoren = [
 		"kuerzel": "I.02.15.04274",
 		"kuerzelKunde": "1103",
 		"description": "Feinstaub-Emissionen (PM10)",
-		"id": 4274,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luft",
 		"kennzahlenset": "Umwelt",
@@ -3492,6 +3491,7 @@ var indikatoren = [
 			"<a href = 'http://www.bafu.admin.ch/luft/index.html?lang=de' target = '_blank'>BAFU: Informationen zum Thema Luft</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1103' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4274,
 		"visibleInPortal": false
 	},
 	{
@@ -3500,7 +3500,6 @@ var indikatoren = [
 		"kuerzel": "I.02.15.04275",
 		"kuerzelKunde": "1104",
 		"description": "Langzeitbelastungsindex",
-		"id": 4275,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luft",
 		"kennzahlenset": "Umwelt",
@@ -3534,6 +3533,7 @@ var indikatoren = [
 			"<a href = 'http://www.bafu.admin.ch/luft/index.html?lang=de' target = '_blank'>BAFU: Informationen zum Thema Luft</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1104' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4275,
 		"visibleInPortal": false
 	},
 	{
@@ -3542,7 +3542,6 @@ var indikatoren = [
 		"kuerzel": "I.07.1.04276",
 		"kuerzelKunde": "1105",
 		"description": "Rindviehbestand",
-		"id": 4276,
 		"thema": "07 Landwirtschaft",
 		"unterthema": "Landwirtschaft",
 		"kennzahlenset": "Umwelt",
@@ -3572,6 +3571,7 @@ var indikatoren = [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/lb/01.html' target = '_blank'>Landwirtschaftliche Betriebsstrukturerhebung BFS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1105' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4276,
 		"visibleInPortal": false
 	},
 	{
@@ -3580,7 +3580,6 @@ var indikatoren = [
 		"kuerzel": "I.02.15.04277",
 		"kuerzelKunde": "1108",
 		"description": "Handlungsbedarf Luftschadstoffe",
-		"id": 4277,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luft",
 		"kennzahlenset": "Umwelt",
@@ -3611,6 +3610,7 @@ var indikatoren = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1108' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4277,
 		"visibleInPortal": false
 	},
 	{
@@ -3619,7 +3619,6 @@ var indikatoren = [
 		"kuerzel": "I.02.15.04278",
 		"kuerzelKunde": "1109",
 		"description": "Feinstaub-Immissionen",
-		"id": 4278,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luft",
 		"kennzahlenset": "Umwelt",
@@ -3650,6 +3649,7 @@ var indikatoren = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1109' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4278,
 		"visibleInPortal": false
 	},
 	{
@@ -3658,7 +3658,6 @@ var indikatoren = [
 		"kuerzel": "I.02.15.04279",
 		"kuerzelKunde": "1110",
 		"description": "Grenzwertüberschreitungen Ozon",
-		"id": 4279,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luft",
 		"kennzahlenset": "Umwelt",
@@ -3689,6 +3688,7 @@ var indikatoren = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1110' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4279,
 		"visibleInPortal": false
 	},
 	{
@@ -3697,7 +3697,6 @@ var indikatoren = [
 		"kuerzel": "I.02.15.04280",
 		"kuerzelKunde": "1107",
 		"description": "Gesundheitskosten der Luftverschmutzung",
-		"id": 4280,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luft",
 		"kennzahlenset": "Umwelt",
@@ -3730,6 +3729,7 @@ var indikatoren = [
 			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung' target = '_blank'>Lufthygieneamt beider Basel: Luftreinhalteplan beider Basel 2016</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1107' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4280,
 		"visibleInPortal": false
 	},
 	{
@@ -3738,7 +3738,6 @@ var indikatoren = [
 		"kuerzel": "I.02.15.04281",
 		"kuerzelKunde": "1111",
 		"description": "Stickstoffdioxid-Immissionen",
-		"id": 4281,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luft",
 		"kennzahlenset": "Umwelt",
@@ -3769,6 +3768,7 @@ var indikatoren = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1111' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4281,
 		"visibleInPortal": false
 	},
 	{
@@ -3777,7 +3777,6 @@ var indikatoren = [
 		"kuerzel": "I.07.1.04283",
 		"kuerzelKunde": "1508",
 		"description": "Nutzungsdruck",
-		"id": 4283,
 		"thema": "07 Landwirtschaft",
 		"unterthema": "Landwirtschaft",
 		"kennzahlenset": "Umwelt",
@@ -3806,6 +3805,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1508' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4283,
 		"visibleInPortal": false
 	},
 	{
@@ -3814,7 +3814,6 @@ var indikatoren = [
 		"kuerzel": "I.07.1.04284",
 		"kuerzelKunde": "1509",
 		"description": "Biotopwert",
-		"id": 4284,
 		"thema": "07 Landwirtschaft",
 		"unterthema": "Landwirtschaft",
 		"kennzahlenset": "Umwelt",
@@ -3844,6 +3843,7 @@ var indikatoren = [
 			"<a href = 'https://www.lfi.ch/index.php' target = '_blank'>Schweizerisches Landesforstinventar (LFI)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1509' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4284,
 		"visibleInPortal": false
 	},
 	{
@@ -3852,7 +3852,6 @@ var indikatoren = [
 		"kuerzel": "I.07.1.04285",
 		"kuerzelKunde": "1505",
 		"description": "Stickstoffeintrag Wald",
-		"id": 4285,
 		"thema": "07 Landwirtschaft",
 		"unterthema": "Landwirtschaft",
 		"kennzahlenset": "Umwelt",
@@ -3882,6 +3881,7 @@ var indikatoren = [
 			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung' target = '_blank'>Luftreinhalteplan beider Basel</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1505' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4285,
 		"visibleInPortal": false
 	},
 	{
@@ -3890,7 +3890,6 @@ var indikatoren = [
 		"kuerzel": "I.07.1.04287",
 		"kuerzelKunde": "1506",
 		"description": "Zwangsnutzungen ",
-		"id": 4287,
 		"thema": "07 Landwirtschaft",
 		"unterthema": "Landwirtschaft",
 		"kennzahlenset": "Umwelt",
@@ -3919,6 +3918,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1506' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4287,
 		"visibleInPortal": false
 	},
 	{
@@ -3927,7 +3927,6 @@ var indikatoren = [
 		"kuerzel": "I.07.1.04288",
 		"kuerzelKunde": "1511",
 		"description": "Waldreservate",
-		"id": 4288,
 		"thema": "07 Landwirtschaft",
 		"unterthema": "Landwirtschaft",
 		"kennzahlenset": "Umwelt",
@@ -3957,6 +3956,7 @@ var indikatoren = [
 			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/landw-zentrum-ebenrain/natur/naturschutz/naturschutz-im-wald' target = '_blank'>Naturschutz im Wald (LZE)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1511' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4288,
 		"visibleInPortal": false
 	},
 	{
@@ -3965,7 +3965,6 @@ var indikatoren = [
 		"kuerzel": "I.07.1.04290",
 		"kuerzelKunde": "1514",
 		"description": "Waldrandpflege",
-		"id": 4290,
 		"thema": "07 Landwirtschaft",
 		"unterthema": "Landwirtschaft",
 		"kennzahlenset": "Umwelt",
@@ -3996,6 +3995,7 @@ var indikatoren = [
 			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/landw-zentrum-ebenrain/natur/naturschutz/naturschutz-im-wald' target = '_blank'>Naturschutz im Wald (LZE)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1514' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4290,
 		"visibleInPortal": false
 	},
 	{
@@ -4004,7 +4004,6 @@ var indikatoren = [
 		"kuerzel": "I.07.1.04291",
 		"kuerzelKunde": "1512",
 		"description": "Gepflegte Jungwaldfläche",
-		"id": 4291,
 		"thema": "07 Landwirtschaft",
 		"unterthema": "Landwirtschaft",
 		"kennzahlenset": "Umwelt",
@@ -4033,6 +4032,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1512' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4291,
 		"visibleInPortal": false
 	},
 	{
@@ -4041,7 +4041,6 @@ var indikatoren = [
 		"kuerzel": "I.02.17.04292",
 		"kuerzelKunde": "1301",
 		"description": "In der Luft stabile Stoffe in Kälte- und Wärmepumpenanlagen",
-		"id": 4292,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Stoffe und Produkte",
 		"kennzahlenset": "Umwelt",
@@ -4071,6 +4070,7 @@ var indikatoren = [
 			"<a href = 'http://www.admin.ch/opc/de/classified-compilation/20021520/index.html#app30' target = '_blank'>Chemikalien-Risikoreduktions-Verordnung (ChemRRV), Anhang 2.10 - Kältemittel</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-13-1301' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4292,
 		"visibleInPortal": false
 	},
 	{
@@ -4079,7 +4079,6 @@ var indikatoren = [
 		"kuerzel": "I.02.17.04293",
 		"kuerzelKunde": "1303",
 		"description": "Ozonschichtabbauende Stoffe in Kälteanlagen",
-		"id": 4293,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Stoffe und Produkte",
 		"kennzahlenset": "Umwelt",
@@ -4109,6 +4108,7 @@ var indikatoren = [
 			"<a href = 'http://www.admin.ch/opc/de/classified-compilation/20021520/index.html#app30' target = '_blank'>Chemikalien-Risikoreduktions-Verordnung (ChemRRV), Anhang 2.10 - Kältemittel</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-13-1303' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4293,
 		"visibleInPortal": false
 	},
 	{
@@ -4117,7 +4117,6 @@ var indikatoren = [
 		"kuerzel": "I.02.17.04294",
 		"kuerzelKunde": "1304",
 		"description": "Ozonschichtabbauende Stoffe (Halone) in Löschanlagen",
-		"id": 4294,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Stoffe und Produkte",
 		"kennzahlenset": "Umwelt",
@@ -4147,6 +4146,7 @@ var indikatoren = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/20021520/index.html#app31' target = '_blank'>Chemikalien-Risikoreduktions-Verordnung (ChemRRV), Anhang 2.11 - Löschmittel</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-13-1304' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4294,
 		"visibleInPortal": false
 	},
 	{
@@ -4155,7 +4155,6 @@ var indikatoren = [
 		"kuerzel": "I.11.1.04298",
 		"kuerzelKunde": "0805",
 		"description": "Elektroautos",
-		"id": 4298,
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
 		"kennzahlenset": "Umwelt",
@@ -4185,6 +4184,7 @@ var indikatoren = [
 			"<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0805' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4298,
 		"visibleInPortal": false
 	},
 	{
@@ -4193,7 +4193,6 @@ var indikatoren = [
 		"kuerzel": "I.02.12.04299",
 		"kuerzelKunde": "0808",
 		"description": "CO<sub>2</sub>-Emissionen",
-		"id": 4299,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Klima",
 		"kennzahlenset": "Umwelt",
@@ -4225,6 +4224,7 @@ var indikatoren = [
 			"<a href = 'http://www.bafu.admin.ch/klima/index.html?lang=de' target = '_blank'>Bundesamt für Umwelt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0808' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4299,
 		"visibleInPortal": false
 	},
 	{
@@ -4233,7 +4233,6 @@ var indikatoren = [
 		"kuerzel": "I.02.12.04300",
 		"kuerzelKunde": "0801",
 		"description": "Hitzetage",
-		"id": 4300,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Klima",
 		"kennzahlenset": "Umwelt",
@@ -4262,6 +4261,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4300,
 		"visibleInPortal": false
 	},
 	{
@@ -4270,7 +4270,6 @@ var indikatoren = [
 		"kuerzel": "I.02.12.04301",
 		"kuerzelKunde": "0803",
 		"description": "Jahresmitteltemperatur",
-		"id": 4301,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Klima",
 		"kennzahlenset": "Umwelt",
@@ -4302,6 +4301,7 @@ var indikatoren = [
 			"<a href = 'http://www.klimabasel.ch/' target = '_blank'>Meteorologischer Verein der Region Basel</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0803' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4301,
 		"visibleInPortal": false
 	},
 	{
@@ -4310,7 +4310,6 @@ var indikatoren = [
 		"kuerzel": "I.02.12.04302",
 		"kuerzelKunde": "0806",
 		"description": "CO<sub>2</sub>-Emissionen Neuzulassungen",
-		"id": 4302,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Klima",
 		"kennzahlenset": "Umwelt",
@@ -4340,6 +4339,7 @@ var indikatoren = [
 			"<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0806' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4302,
 		"visibleInPortal": false
 	},
 	{
@@ -4348,7 +4348,6 @@ var indikatoren = [
 		"kuerzel": "I.02.19.04303",
 		"kuerzelKunde": "1608",
 		"description": "Strukturen der Fliessgewässer",
-		"id": 4303,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Umwelt",
@@ -4379,6 +4378,7 @@ var indikatoren = [
 			"<a href = 'http://www.modul-stufen-konzept.ch/fg/index' target = '_blank'>Modul-Stufen-Konzept</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1608' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4303,
 		"visibleInPortal": false
 	},
 	{
@@ -4387,7 +4387,6 @@ var indikatoren = [
 		"kuerzel": "I.02.8.04305",
 		"kuerzelKunde": "0301",
 		"description": "Kantonale Unterschutzstellungen",
-		"id": 4305,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Biodiversität",
 		"kennzahlenset": "Umwelt",
@@ -4418,6 +4417,7 @@ var indikatoren = [
 			"<a href = 'http://www.stadtgaertnerei.bs.ch/oekologische-verantwortung/naturschutzkonzept.html' target = '_blank'>Naturschutz BS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-03-0301' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4305,
 		"visibleInPortal": false
 	},
 	{
@@ -4426,7 +4426,6 @@ var indikatoren = [
 		"kuerzel": "I.02.8.04306",
 		"kuerzelKunde": "0302",
 		"description": "Invasive gebietsfremde Arten",
-		"id": 4306,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Biodiversität",
 		"kennzahlenset": "Umwelt",
@@ -4456,6 +4455,7 @@ var indikatoren = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19920136/index.html' target = '_blank'>Übereinkommen über die Biologische Vielfalt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-03-0302' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4306,
 		"visibleInPortal": false
 	},
 	{
@@ -4464,7 +4464,6 @@ var indikatoren = [
 		"kuerzel": "I.02.8.04307",
 		"kuerzelKunde": "0305",
 		"description": "Biodiversitätsförderflächen in der Landwirtschaft",
-		"id": 4307,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Biodiversität",
 		"kennzahlenset": "Umwelt",
@@ -4494,6 +4493,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-03-0305' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4307,
 		"visibleInPortal": false
 	},
 	{
@@ -4502,7 +4502,6 @@ var indikatoren = [
 		"kuerzel": "I.02.8.04308",
 		"kuerzelKunde": "0303",
 		"description": "Landschaftszerschneidung",
-		"id": 4308,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Biodiversität",
 		"kennzahlenset": "Umwelt",
@@ -4532,6 +4531,7 @@ var indikatoren = [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/publikationen.assetdetail.344054.html' target = '_blank'>Landschaftszerschneidung Schweiz</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-03-0303' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4308,
 		"visibleInPortal": false
 	},
 	{
@@ -4540,7 +4540,6 @@ var indikatoren = [
 		"kuerzel": "I.02.1.04309",
 		"kuerzelKunde": "0902",
 		"description": "Bauzonenflächenbeanspruchung",
-		"id": 4309,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Umwelt",
@@ -4569,6 +4568,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-09-0902' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4309,
 		"visibleInPortal": false
 	},
 	{
@@ -4577,7 +4577,6 @@ var indikatoren = [
 		"kuerzel": "I.02.13.04310",
 		"kuerzelKunde": "0903",
 		"description": "Freiheitsgrad",
-		"id": 4310,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Landschaft",
 		"kennzahlenset": "Umwelt",
@@ -4608,6 +4607,7 @@ var indikatoren = [
 			"<a href = 'http://www.planungsamt.bs.ch/planungsgrundlagen-konzepte/konzepte/freiraumkonzept.html' target = '_blank'>Freiraumkonzept BS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-09-0903' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4310,
 		"visibleInPortal": false
 	},
 	{
@@ -4616,7 +4616,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.04312",
 		"kuerzelKunde": "0901",
 		"description": "Fläche der Bauzone",
-		"id": 4312,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Umwelt",
@@ -4648,6 +4647,7 @@ var indikatoren = [
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=20' target = '_blank'>Zonenplan BS (GeoViewer)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-09-0901' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4312,
 		"visibleInPortal": false
 	},
 	{
@@ -4656,7 +4656,6 @@ var indikatoren = [
 		"kuerzel": "I.02.11.04314",
 		"kuerzelKunde": "0702",
 		"description": "Hochwasser",
-		"id": 4314,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Naturgefahren",
 		"kennzahlenset": "Umwelt",
@@ -4688,6 +4687,7 @@ var indikatoren = [
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=320' target = '_blank'>Gefahrenkarte Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0702' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4314,
 		"visibleInPortal": false
 	},
 	{
@@ -4696,7 +4696,6 @@ var indikatoren = [
 		"kuerzel": "I.02.11.04315",
 		"kuerzelKunde": "0704",
 		"description": "Investitionen in den Schutz vor Naturgefahren",
-		"id": 4315,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Naturgefahren",
 		"kennzahlenset": "Umwelt",
@@ -4725,6 +4724,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0704' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4315,
 		"visibleInPortal": false
 	},
 	{
@@ -4733,7 +4733,6 @@ var indikatoren = [
 		"kuerzel": "I.09.11.04316",
 		"kuerzelKunde": "0705",
 		"description": "Gebäudeschäden durch Hochwasser und Rutschungen",
-		"id": 4316,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Naturgefahren",
 		"kennzahlenset": "Umwelt",
@@ -4764,6 +4763,7 @@ var indikatoren = [
 			"<a href = 'http://www.gesetzessammlung.bs.ch/frontend/versions/3977' target = '_blank'>Gebäudeversicherungsgesetz Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0705' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4316,
 		"visibleInPortal": false
 	},
 	{
@@ -4772,7 +4772,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.04318",
 		"kuerzelKunde": "1702",
 		"description": "Bevölkerung",
-		"id": 4318,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Umwelt",
@@ -4807,6 +4806,7 @@ var indikatoren = [
 			"<a href = 'http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Einwohner: Zentrale Begriffe BS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1702' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4318,
 		"visibleInPortal": false
 	},
 	{
@@ -4815,7 +4815,6 @@ var indikatoren = [
 		"kuerzel": "I.11.6.04319",
 		"kuerzelKunde": "1705",
 		"description": "Verkehrsleistungsindex",
-		"id": 4319,
 		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
 		"kennzahlenset": "Umwelt",
@@ -4845,6 +4844,7 @@ var indikatoren = [
 			"<a href = 'http://www.medienmitteilungen.bs.ch/verkehrspolitisches_leitbild_juni_2015.pdf' target = '_blank'>Verkehrspolitisches Leitbild und Massnahmenplan, Juni 2015</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1705' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4319,
 		"visibleInPortal": false
 	},
 	{
@@ -4853,7 +4853,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.04320",
 		"kuerzelKunde": "1703",
 		"description": "Wohnfläche",
-		"id": 4320,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Umwelt",
@@ -4886,6 +4885,7 @@ var indikatoren = [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/bau-wohnungswesen/wohnungen/wohnverhaeltnisse.html' target = '_blank'>Wohnverhältnisse Schweiz (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1703' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4320,
 		"visibleInPortal": false
 	},
 	{
@@ -4894,7 +4894,6 @@ var indikatoren = [
 		"kuerzel": "I.08.1.04321",
 		"kuerzelKunde": "0607",
 		"description": "Stromverbrauch pro Einwohner",
-		"id": 4321,
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
 		"kennzahlenset": "Umwelt",
@@ -4924,6 +4923,7 @@ var indikatoren = [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0607' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4321,
 		"visibleInPortal": false
 	},
 	{
@@ -4932,7 +4932,6 @@ var indikatoren = [
 		"kuerzel": "I.08.1.04322",
 		"kuerzelKunde": "0613",
 		"description": "Stromverbrauch nach Produktionsart",
-		"id": 4322,
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
 		"kennzahlenset": "Umwelt",
@@ -4962,6 +4961,7 @@ var indikatoren = [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0613' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4322,
 		"visibleInPortal": false
 	},
 	{
@@ -4970,7 +4970,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.04323",
 		"kuerzelKunde": "1701",
 		"description": "Bruttoinlandprodukt",
-		"id": 4323,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Umwelt",
@@ -5003,6 +5002,7 @@ var indikatoren = [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/volkswirtschaft/erhebungen/bipkt.html' target = '_blank'>BIP der Kantone (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1701' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4323,
 		"visibleInPortal": false
 	},
 	{
@@ -5011,7 +5011,6 @@ var indikatoren = [
 		"kuerzel": "I.11.1.04325",
 		"kuerzelKunde": "1704",
 		"description": "Motorfahrzeuge",
-		"id": 4325,
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
 		"kennzahlenset": "Umwelt",
@@ -5046,6 +5045,7 @@ var indikatoren = [
 			"<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1704' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4325,
 		"visibleInPortal": false
 	},
 	{
@@ -5054,7 +5054,6 @@ var indikatoren = [
 		"kuerzel": "I.09.11.04329",
 		"kuerzelKunde": "0703",
 		"description": "Erdbebenertüchtigung von Bauwerken",
-		"id": 4329,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Naturgefahren",
 		"kennzahlenset": "Umwelt",
@@ -5084,6 +5083,7 @@ var indikatoren = [
 			"<a href = 'https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/fachinformationen-erdbeben/schutz-vor-erdbeben/erdbebengerechtes-bauen/erdbebensichere-neubauten.html' target = '_blank'>Erdbebensichere Neubauten (BAFU)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0703' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4329,
 		"visibleInPortal": false
 	},
 	{
@@ -5092,7 +5092,6 @@ var indikatoren = [
 		"kuerzel": "I.02.6.04330",
 		"kuerzelKunde": "0106",
 		"description": "Auf Deponien abgelagerte Abfälle",
-		"id": 4330,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Entsorgung",
 		"kennzahlenset": "Umwelt",
@@ -5121,6 +5120,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0106' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4330,
 		"visibleInPortal": false
 	},
 	{
@@ -5129,7 +5129,6 @@ var indikatoren = [
 		"kuerzel": "I.02.6.04331",
 		"kuerzelKunde": "0102",
 		"description": "Recyclingquote",
-		"id": 4331,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Entsorgung",
 		"kennzahlenset": "Umwelt",
@@ -5159,6 +5158,7 @@ var indikatoren = [
 			"<a href = 'http://www.aue.bs.ch/abfaelle.html' target = '_blank'>Amt für Umwelt und Energie Basel-Stadt: Abfälle</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0102' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4331,
 		"visibleInPortal": false
 	},
 	{
@@ -5167,7 +5167,6 @@ var indikatoren = [
 		"kuerzel": "I.02.6.04332",
 		"kuerzelKunde": "0108",
 		"description": "Bauabfälle",
-		"id": 4332,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Entsorgung",
 		"kennzahlenset": "Umwelt",
@@ -5197,6 +5196,7 @@ var indikatoren = [
 			"<a href = 'http://www.aue.bs.ch/abfaelle/industrie-gewerbe/bauabfaelle.html' target = '_blank'>Bauabfälle (Kanton Basel-Stadt)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0108' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4332,
 		"visibleInPortal": false
 	},
 	{
@@ -5205,7 +5205,6 @@ var indikatoren = [
 		"kuerzel": "I.02.6.04333",
 		"kuerzelKunde": "0109",
 		"description": "Sonderabfälle",
-		"id": 4333,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Entsorgung",
 		"kennzahlenset": "Umwelt",
@@ -5235,6 +5234,7 @@ var indikatoren = [
 			"<a href = 'http://www.aue.bs.ch/abfaelle/industrie-gewerbe/bauabfaelle.html' target = '_blank'>Bauabfälle (Kanton Basel-Stadt)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0109' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4333,
 		"visibleInPortal": false
 	},
 	{
@@ -5243,7 +5243,6 @@ var indikatoren = [
 		"kuerzel": "I.02.6.04334",
 		"kuerzelKunde": "0104",
 		"description": "Abfallverbrennung",
-		"id": 4334,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Entsorgung",
 		"kennzahlenset": "Umwelt",
@@ -5273,6 +5272,7 @@ var indikatoren = [
 			"<a href = 'https://www.iwb.ch/Ueber-uns/Kehrichtverwertung.html' target = '_blank'>KVA Basel (IWB)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0104' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4334,
 		"visibleInPortal": false
 	},
 	{
@@ -5281,7 +5281,6 @@ var indikatoren = [
 		"kuerzel": "I.02.6.04335",
 		"kuerzelKunde": "0107",
 		"description": "Deponierte Klärschlammasche",
-		"id": 4335,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Entsorgung",
 		"kennzahlenset": "Umwelt",
@@ -5310,6 +5309,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0107' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4335,
 		"visibleInPortal": false
 	},
 	{
@@ -5318,7 +5318,6 @@ var indikatoren = [
 		"kuerzel": "I.02.6.04336",
 		"kuerzelKunde": "0105",
 		"description": "Verbrennungsrückstände",
-		"id": 4336,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Entsorgung",
 		"kennzahlenset": "Umwelt",
@@ -5348,6 +5347,7 @@ var indikatoren = [
 			"<a href = 'https://www.iwb.ch/Ueber-uns/Kehrichtverwertung/Alles-ueber-die-KVA.html' target = '_blank'>KVA Basel (IWB): Reststoffentsorgung</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0105' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4336,
 		"visibleInPortal": false
 	},
 	{
@@ -5356,7 +5356,6 @@ var indikatoren = [
 		"kuerzel": "I.02.6.04337",
 		"kuerzelKunde": "0101",
 		"description": "Siedlungsabfälle",
-		"id": 4337,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Entsorgung",
 		"kennzahlenset": "Umwelt",
@@ -5386,6 +5385,7 @@ var indikatoren = [
 			"<a href = 'http://www.aue.bs.ch/abfaelle.html' target = '_blank'>Amt für Umwelt und Energie Basel-Stadt: Abfälle</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0101' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4337,
 		"visibleInPortal": false
 	},
 	{
@@ -5394,7 +5394,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.04338",
 		"kuerzelKunde": "0103",
 		"description": "Abgebrochene Bruttogeschossfläche",
-		"id": 4338,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Umwelt",
@@ -5424,6 +5423,7 @@ var indikatoren = [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/9-bau-wohnungswesen.html' target = '_blank'>Bau- und Wohnungswesen BS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0103' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 4338,
 		"visibleInPortal": false
 	},
 	{
@@ -5432,7 +5432,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.04339",
 		"kuerzelKunde": "1-5A",
 		"description": "Anzahl Ausländer nach Art der Bewilligung seit 2006",
-		"id": 4339,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -5465,6 +5464,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4339,
 		"visibleInPortal": true
 	},
 	{
@@ -5473,7 +5473,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.04340",
 		"kuerzelKunde": "1-5B",
 		"description": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
-		"id": 4340,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -5507,6 +5506,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4340,
 		"visibleInPortal": true
 	},
 	{
@@ -5515,7 +5515,6 @@ var indikatoren = [
 		"kuerzel": "I.01.6.04342",
 		"kuerzelKunde": "1-6",
 		"description": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit seit 2006",
-		"id": 4342,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
 		"kennzahlenset": "Integration-kompakt",
@@ -5552,6 +5551,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4342,
 		"visibleInPortal": true
 	},
 	{
@@ -5560,7 +5560,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.04462",
 		"kuerzelKunde": "1-7",
 		"description": "Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014",
-		"id": 4462,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -5596,6 +5595,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4462,
 		"visibleInPortal": true
 	},
 	{
@@ -5604,7 +5604,6 @@ var indikatoren = [
 		"kuerzel": "I.01.8.04463",
 		"kuerzelKunde": "1-8",
 		"description": "Anteil Personen, welche zu Hause «deutsch» oder «schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010 bis 2014",
-		"id": 4463,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Sprachen",
 		"kennzahlenset": "Integration-kompakt",
@@ -5640,6 +5639,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4463,
 		"visibleInPortal": true
 	},
 	{
@@ -5648,7 +5648,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.04465",
 		"kuerzelKunde": "2-1",
 		"description": "Segregationsindex nach Staatsangehörigkeit seit 2006",
-		"id": 4465,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -5684,6 +5683,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4465,
 		"visibleInPortal": true
 	},
 	{
@@ -5692,7 +5692,6 @@ var indikatoren = [
 		"kuerzel": "I.01.5.04466",
 		"kuerzelKunde": "2-2",
 		"description": "Anteil Ausländer nach Wohndauer und Zuzugsort seit 2006",
-		"id": 4466,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Integration-kompakt",
@@ -5730,6 +5729,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4466,
 		"visibleInPortal": true
 	},
 	{
@@ -5738,7 +5738,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.04467",
 		"kuerzelKunde": "2-3A",
 		"description": "Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006",
-		"id": 4467,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -5775,6 +5774,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4467,
 		"visibleInPortal": true
 	},
 	{
@@ -5783,7 +5783,6 @@ var indikatoren = [
 		"kuerzel": "I.01.5.04468",
 		"kuerzelKunde": "2-4",
 		"description": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeit seit 2006",
-		"id": 4468,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Integration-kompakt",
@@ -5818,6 +5817,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4468,
 		"visibleInPortal": true
 	},
 	{
@@ -5826,7 +5826,6 @@ var indikatoren = [
 		"kuerzel": "I.03.4.04469",
 		"kuerzelKunde": "3-3",
 		"description": "Arbeitslosenquote nach Staatsangehörigkeit seit 2010",
-		"id": 4469,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Integration-kompakt",
@@ -5865,6 +5864,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4469,
 		"visibleInPortal": true
 	},
 	{
@@ -5873,7 +5873,6 @@ var indikatoren = [
 		"kuerzel": "I.50.2.04716",
 		"kuerzelKunde": "1.1.01",
 		"description": "Erhaltenene Hilfeleistungen",
-		"id": 4716,
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -5904,6 +5903,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4716,
 		"visibleInPortal": true
 	},
 	{
@@ -5912,7 +5912,6 @@ var indikatoren = [
 		"kuerzel": "I.50.4.04718",
 		"kuerzelKunde": "1.1.02",
 		"description": "Erhaltene materielle Hilfeleistungen",
-		"id": 4718,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -5943,6 +5942,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4718,
 		"visibleInPortal": true
 	},
 	{
@@ -5951,7 +5951,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04719",
 		"kuerzelKunde": "1.3.01",
 		"description": "Kulturelle Bereicherung",
-		"id": 4719,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -5981,6 +5980,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4719,
 		"visibleInPortal": true
 	},
 	{
@@ -5989,7 +5989,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04720",
 		"kuerzelKunde": "2.1.01",
 		"description": "Beurteilung des Wohnorts",
-		"id": 4720,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -6021,6 +6020,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4720,
 		"visibleInPortal": true
 	},
 	{
@@ -6029,7 +6029,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04721",
 		"kuerzelKunde": "2.1.02",
 		"description": "Beurteilung des Wohnquartiers",
-		"id": 4721,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -6061,6 +6060,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4721,
 		"visibleInPortal": true
 	},
 	{
@@ -6069,7 +6069,6 @@ var indikatoren = [
 		"kuerzel": "I.01.6.04722",
 		"kuerzelKunde": "2.1.03",
 		"description": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
-		"id": 4722,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -6104,6 +6103,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4722,
 		"visibleInPortal": true
 	},
 	{
@@ -6112,7 +6112,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04724",
 		"kuerzelKunde": "2.2.01",
 		"description": "Vertretung der Anliegen der Bevölkerung durch Behörden",
-		"id": 4724,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -6146,6 +6145,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4724,
 		"visibleInPortal": true
 	},
 	{
@@ -6154,7 +6154,6 @@ var indikatoren = [
 		"kuerzel": "I.15.6.04739",
 		"kuerzelKunde": "3-1",
 		"description": "Gymnasialquote nach Staatsangehörigkeit seit 2006",
-		"id": 4739,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Integration-kompakt",
@@ -6190,6 +6189,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4739,
 		"visibleInPortal": true
 	},
 	{
@@ -6198,7 +6198,6 @@ var indikatoren = [
 		"kuerzel": "I.15.3.04740",
 		"kuerzelKunde": "3-2",
 		"description": "Lehrabbruchquote nach Staatsangehörigkeit seit 2011",
-		"id": 4740,
 		"thema": "15 Bildung",
 		"unterthema": "Berufsfachschulen",
 		"kennzahlenset": "Integration-kompakt",
@@ -6238,6 +6237,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4740,
 		"visibleInPortal": true
 	},
 	{
@@ -6246,7 +6246,6 @@ var indikatoren = [
 		"kuerzel": "I.03.1.04741",
 		"kuerzelKunde": "3-4",
 		"description": "Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014",
-		"id": 4741,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Erwerbspersonen ",
 		"kennzahlenset": "Integration-kompakt",
@@ -6285,6 +6284,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4741,
 		"visibleInPortal": true
 	},
 	{
@@ -6293,7 +6293,6 @@ var indikatoren = [
 		"kuerzel": "I.18.3.04743",
 		"kuerzelKunde": "3-5",
 		"description": "Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit seit 2008",
-		"id": 4743,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
 		"kennzahlenset": "Integration-kompakt",
@@ -6333,6 +6332,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4743,
 		"visibleInPortal": true
 	},
 	{
@@ -6341,7 +6341,6 @@ var indikatoren = [
 		"kuerzel": "I.13.3.04822",
 		"kuerzelKunde": "GS-1.A",
 		"description": "Sozialhilfequote",
-		"id": 4822,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"kennzahlenset": "Wohnviertel",
@@ -6374,6 +6373,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4822,
 		"visibleInPortal": true
 	},
 	{
@@ -6382,7 +6382,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.04823",
 		"kuerzelKunde": "GS-2.A",
 		"description": "Anteil Ausländer",
-		"id": 4823,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -6415,6 +6414,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4823,
 		"visibleInPortal": true
 	},
 	{
@@ -6423,7 +6423,6 @@ var indikatoren = [
 		"kuerzel": "I.01.7.04824",
 		"kuerzelKunde": "GS-3.A",
 		"description": "Anteil Personen ohne Religionszugehörigkeit",
-		"id": 4824,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Religionen",
 		"kennzahlenset": "Wohnviertel",
@@ -6456,6 +6455,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4824,
 		"visibleInPortal": true
 	},
 	{
@@ -6464,7 +6464,6 @@ var indikatoren = [
 		"kuerzel": "I.01.2.04825",
 		"kuerzelKunde": "GS-4.A",
 		"description": "Anteil Personen in Einpersonenhaushalten",
-		"id": 4825,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Wohnviertel",
@@ -6497,6 +6496,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4825,
 		"visibleInPortal": true
 	},
 	{
@@ -6505,7 +6505,6 @@ var indikatoren = [
 		"kuerzel": "I.15.6.04826",
 		"kuerzelKunde": "GS-5.A",
 		"description": "Gymnasialquote",
-		"id": 4826,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Wohnviertel",
@@ -6539,6 +6538,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4826,
 		"visibleInPortal": true
 	},
 	{
@@ -6547,7 +6547,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.04827",
 		"kuerzelKunde": "GS-6.A",
 		"description": "Altersquotient",
-		"id": 4827,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -6581,6 +6580,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4827,
 		"visibleInPortal": true
 	},
 	{
@@ -6589,7 +6589,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.04828",
 		"kuerzelKunde": "GS-7.A",
 		"description": "Sesshaftigkeit",
-		"id": 4828,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -6622,6 +6621,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4828,
 		"visibleInPortal": true
 	},
 	{
@@ -6630,7 +6630,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.04829",
 		"kuerzelKunde": "GS-8.A",
 		"description": "Jugendquotient",
-		"id": 4829,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -6664,6 +6663,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4829,
 		"visibleInPortal": true
 	},
 	{
@@ -6672,7 +6672,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.04830",
 		"kuerzelKunde": "RU-1.A",
 		"description": "Baujahr Wohngebäude",
-		"id": 4830,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -6706,6 +6705,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4830,
 		"visibleInPortal": true
 	},
 	{
@@ -6714,7 +6714,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.04831",
 		"kuerzelKunde": "RU-2.A",
 		"description": "Anteil Einfamilienhäuser",
-		"id": 4831,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -6747,6 +6746,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4831,
 		"visibleInPortal": true
 	},
 	{
@@ -6755,7 +6755,6 @@ var indikatoren = [
 		"kuerzel": "I.02.1.04832",
 		"kuerzelKunde": "RU-3.A",
 		"description": "Anteil Grünflächen",
-		"id": 4832,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"kennzahlenset": "Wohnviertel",
@@ -6788,6 +6787,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4832,
 		"visibleInPortal": true
 	},
 	{
@@ -6796,7 +6796,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.04833",
 		"kuerzelKunde": "RU-4.A",
 		"description": "Fläche pro Wohnung",
-		"id": 4833,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -6829,6 +6828,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4833,
 		"visibleInPortal": true
 	},
 	{
@@ -6837,7 +6837,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.04834",
 		"kuerzelKunde": "RU-5.A",
 		"description": "Wohnfläche pro Kopf",
-		"id": 4834,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -6871,6 +6870,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4834,
 		"visibleInPortal": true
 	},
 	{
@@ -6879,7 +6879,6 @@ var indikatoren = [
 		"kuerzel": "I.18.2.04835",
 		"kuerzelKunde": "WA-1.A",
 		"description": "Vermögenssteuer pro Veranlagung",
-		"id": 4835,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Wohnviertel",
@@ -6912,6 +6911,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4835,
 		"visibleInPortal": true
 	},
 	{
@@ -6920,7 +6920,6 @@ var indikatoren = [
 		"kuerzel": "I.18.2.04836",
 		"kuerzelKunde": "WA-2.A",
 		"description": "Einkommenssteuer pro Veranlagung",
-		"id": 4836,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Wohnviertel",
@@ -6953,6 +6952,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4836,
 		"visibleInPortal": true
 	},
 	{
@@ -6961,7 +6961,6 @@ var indikatoren = [
 		"kuerzel": "I.03.1.04837",
 		"kuerzelKunde": "WA-3.A",
 		"description": "Erwerbstätigenquote",
-		"id": 4837,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Erwerbspersonen ",
 		"kennzahlenset": "Wohnviertel",
@@ -6994,6 +6993,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4837,
 		"visibleInPortal": true
 	},
 	{
@@ -7002,7 +7002,6 @@ var indikatoren = [
 		"kuerzel": "I.03.2.04838",
 		"kuerzelKunde": "WA-4.A",
 		"description": "Arbeitsplätze pro Kopf",
-		"id": 4838,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Wohnviertel",
@@ -7035,6 +7034,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4838,
 		"visibleInPortal": true
 	},
 	{
@@ -7043,7 +7043,6 @@ var indikatoren = [
 		"kuerzel": "I.03.4.04839",
 		"kuerzelKunde": "WA-5.A",
 		"description": "Arbeitslosenquote",
-		"id": 4839,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Wohnviertel",
@@ -7078,6 +7077,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4839,
 		"visibleInPortal": true
 	},
 	{
@@ -7086,7 +7086,6 @@ var indikatoren = [
 		"kuerzel": "I.50.2.04848",
 		"kuerzelKunde": "1.1.03",
 		"description": "Unterstützung von Freunden oder Nachbarn",
-		"id": 4848,
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7118,6 +7117,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4848,
 		"visibleInPortal": true
 	},
 	{
@@ -7126,7 +7126,6 @@ var indikatoren = [
 		"kuerzel": "I.50.2.04849",
 		"kuerzelKunde": "1.1.04",
 		"description": "Beurteilung des Verhältnisses zur Nachbarschaft",
-		"id": 4849,
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7155,6 +7154,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4849,
 		"visibleInPortal": true
 	},
 	{
@@ -7163,7 +7163,6 @@ var indikatoren = [
 		"kuerzel": "I.50.3.04850",
 		"kuerzelKunde": "1.1.05",
 		"description": "Zusammensetzung des Freundeskreises",
-		"id": 4850,
 		"thema": "50 Befragungen",
 		"unterthema": "Jugendbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7193,6 +7192,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4850,
 		"visibleInPortal": true
 	},
 	{
@@ -7201,7 +7201,6 @@ var indikatoren = [
 		"kuerzel": "I.50.4.04851",
 		"kuerzelKunde": "1.1.06",
 		"description": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
-		"id": 4851,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7231,6 +7230,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4851,
 		"visibleInPortal": true
 	},
 	{
@@ -7239,7 +7239,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04852",
 		"kuerzelKunde": "1.2.01",
 		"description": "Sicherheitsgefühl im Alltag",
-		"id": 4852,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7269,6 +7268,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4852,
 		"visibleInPortal": true
 	},
 	{
@@ -7277,7 +7277,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04853",
 		"kuerzelKunde": "1.2.02",
 		"description": "Bedrohungen und Angriffe",
-		"id": 4853,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7307,6 +7306,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4853,
 		"visibleInPortal": true
 	},
 	{
@@ -7315,7 +7315,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04854",
 		"kuerzelKunde": "1.2.03",
 		"description": "Sicherheitsgefühl nachts im Quartier",
-		"id": 4854,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7346,6 +7345,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4854,
 		"visibleInPortal": true
 	},
 	{
@@ -7354,7 +7354,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04855",
 		"kuerzelKunde": "1.3.02",
 		"description": "Beurteilung des Ausländeranteils",
-		"id": 4855,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7384,6 +7383,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4855,
 		"visibleInPortal": true
 	},
 	{
@@ -7392,7 +7392,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04856",
 		"kuerzelKunde": "1.3.03",
 		"description": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
-		"id": 4856,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7422,6 +7421,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4856,
 		"visibleInPortal": true
 	},
 	{
@@ -7430,7 +7430,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04857",
 		"kuerzelKunde": "2.2.02",
 		"description": "Beurteilung der Schulen in Basel-Stadt",
-		"id": 4857,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7463,6 +7462,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4857,
 		"visibleInPortal": true
 	},
 	{
@@ -7471,7 +7471,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04858",
 		"kuerzelKunde": "2.2.03",
 		"description": "Beurteilung der Chancengleichheit",
-		"id": 4858,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7503,6 +7502,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4858,
 		"visibleInPortal": true
 	},
 	{
@@ -7511,7 +7511,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04859",
 		"kuerzelKunde": "2.2.04",
 		"description": "Beurteilung der kantonalen Verwaltung",
-		"id": 4859,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7543,6 +7542,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4859,
 		"visibleInPortal": true
 	},
 	{
@@ -7551,7 +7551,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04860",
 		"kuerzelKunde": "2.3.01",
 		"description": "Beurteilung der kantonalen Steuern",
-		"id": 4860,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7583,6 +7582,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4860,
 		"visibleInPortal": true
 	},
 	{
@@ -7591,7 +7591,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04861",
 		"kuerzelKunde": "2.3.02",
 		"description": "Beurteilung der eigenen wirtschaftlichen Situation",
-		"id": 4861,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7621,6 +7620,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4861,
 		"visibleInPortal": true
 	},
 	{
@@ -7629,7 +7629,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04862",
 		"kuerzelKunde": "2.3.03",
 		"description": "Beurteilung der Bildungschancen",
-		"id": 4862,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7659,6 +7658,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4862,
 		"visibleInPortal": true
 	},
 	{
@@ -7667,7 +7667,6 @@ var indikatoren = [
 		"kuerzel": "I.18.2.04863",
 		"kuerzelKunde": "3.1.01",
 		"description": "Anteil Steuerveranlagungen mit Zuwendungen",
-		"id": 4863,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7697,6 +7696,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4863,
 		"visibleInPortal": true
 	},
 	{
@@ -7705,7 +7705,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04864",
 		"kuerzelKunde": "3.1.02",
 		"description": "Freiwillige Tätigkeit",
-		"id": 4864,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7734,6 +7733,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4864,
 		"visibleInPortal": true
 	},
 	{
@@ -7742,7 +7742,6 @@ var indikatoren = [
 		"kuerzel": "I.50.4.04865",
 		"kuerzelKunde": "3.1.03",
 		"description": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
-		"id": 4865,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7771,6 +7770,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4865,
 		"visibleInPortal": true
 	},
 	{
@@ -7779,7 +7779,6 @@ var indikatoren = [
 		"kuerzel": "I.19.1.04866",
 		"kuerzelKunde": "3.2.01",
 		"description": "Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"id": 4866,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7809,6 +7808,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4866,
 		"visibleInPortal": true
 	},
 	{
@@ -7817,7 +7817,6 @@ var indikatoren = [
 		"kuerzel": "I.19.1.04867",
 		"kuerzelKunde": "3.2.02",
 		"description": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"id": 4867,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7847,6 +7846,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4867,
 		"visibleInPortal": true
 	},
 	{
@@ -7855,7 +7855,6 @@ var indikatoren = [
 		"kuerzel": "I.19.1.04868",
 		"kuerzelKunde": "3.2.03",
 		"description": "Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl/-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"id": 4868,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7885,6 +7884,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4868,
 		"visibleInPortal": true
 	},
 	{
@@ -7893,7 +7893,6 @@ var indikatoren = [
 		"kuerzel": "I.19.1.04869",
 		"kuerzelKunde": "3.2.04",
 		"description": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"id": 4869,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7923,6 +7922,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4869,
 		"visibleInPortal": true
 	},
 	{
@@ -7931,7 +7931,6 @@ var indikatoren = [
 		"kuerzel": "I.50.3.04870",
 		"kuerzelKunde": "3.3.01",
 		"description": "Engagement in Organisationen und Vereinen",
-		"id": 4870,
 		"thema": "50 Befragungen",
 		"unterthema": "Jugendbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7960,6 +7959,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4870,
 		"visibleInPortal": true
 	},
 	{
@@ -7968,7 +7968,6 @@ var indikatoren = [
 		"kuerzel": "I.17.3.04871",
 		"kuerzelKunde": "3.3.02",
 		"description": "Wahlbeteiligung bei National- und Grossratswahlen",
-		"id": 4871,
 		"thema": "17 Politik",
 		"unterthema": "Wahlen",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7997,6 +7996,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4871,
 		"visibleInPortal": true
 	},
 	{
@@ -8005,7 +8005,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04872",
 		"kuerzelKunde": "3.3.03.A",
 		"description": "Interesse an der Politik in Basel-Stadt",
-		"id": 4872,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -8036,6 +8035,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4872,
 		"visibleInPortal": true
 	},
 	{
@@ -8044,7 +8044,6 @@ var indikatoren = [
 		"kuerzel": "I.50.4.04874",
 		"kuerzelKunde": "3.3.04",
 		"description": "Politikinteresse der über 54-Jährigen",
-		"id": 4874,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -8074,6 +8073,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4874,
 		"visibleInPortal": true
 	},
 	{
@@ -8082,7 +8082,6 @@ var indikatoren = [
 		"kuerzel": "I.50.4.04875",
 		"kuerzelKunde": "1.1.07",
 		"description": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
-		"id": 4875,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -8113,6 +8112,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4875,
 		"visibleInPortal": true
 	},
 	{
@@ -8121,7 +8121,6 @@ var indikatoren = [
 		"kuerzel": "I.01.5.04877",
 		"kuerzelKunde": "2-5",
 		"description": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeitund Alter 2015",
-		"id": 4877,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Integration-kompakt",
@@ -8158,6 +8157,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4877,
 		"visibleInPortal": true
 	},
 	{
@@ -8166,7 +8166,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.04905",
 		"kuerzelKunde": "2-3B",
 		"description": "Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006",
-		"id": 4905,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration-kompakt",
@@ -8203,6 +8202,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4905,
 		"visibleInPortal": true
 	},
 	{
@@ -8211,7 +8211,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.04908",
 		"kuerzelKunde": "",
 		"description": "Bruttowertschöpfung nach Branchengruppe in Mio. Franken",
-		"id": 4908,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Basler Index der Konsumentenpreise",
 		"kennzahlenset": "",
@@ -8241,6 +8240,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4908,
 		"visibleInPortal": true
 	},
 	{
@@ -8249,7 +8249,6 @@ var indikatoren = [
 		"kuerzel": "I.05.1.04909",
 		"kuerzelKunde": "",
 		"description": "Basler Index der Konsumentenpreise seit 1982 (Dez. 1982 = 100)",
-		"id": 4909,
 		"thema": "05 Preise",
 		"unterthema": "Basler Index der Konsumentenpreise",
 		"kennzahlenset": "",
@@ -8280,6 +8279,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4909,
 		"visibleInPortal": true
 	},
 	{
@@ -8288,7 +8288,6 @@ var indikatoren = [
 		"kuerzel": "I.05.1.04911",
 		"kuerzelKunde": "",
 		"description": "Mittlere Jahresteuerung Basel-Stadt im Vergleich zur Schweiz",
-		"id": 4911,
 		"thema": "05 Preise",
 		"unterthema": "Basler Index der Konsumentenpreise",
 		"kennzahlenset": "",
@@ -8321,6 +8320,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4911,
 		"visibleInPortal": true
 	},
 	{
@@ -8329,7 +8329,6 @@ var indikatoren = [
 		"kuerzel": "I.06.3.04912",
 		"kuerzelKunde": "",
 		"description": "Anzahl Betreibungen seit 1974",
-		"id": 4912,
 		"thema": "06 Produktion, Handel",
 		"unterthema": "Betreibungen und Konkurse",
 		"kennzahlenset": "",
@@ -8360,6 +8359,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4912,
 		"visibleInPortal": true
 	},
 	{
@@ -8368,7 +8368,6 @@ var indikatoren = [
 		"kuerzel": "I.06.1.04913",
 		"kuerzelKunde": "",
 		"description": "Wert der Ein- und Ausfuhren nach resp. aus Basel-Stadt in 1000 Franken",
-		"id": 4913,
 		"thema": "06 Produktion, Handel",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "",
@@ -8399,6 +8398,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4913,
 		"visibleInPortal": true
 	},
 	{
@@ -8407,7 +8407,6 @@ var indikatoren = [
 		"kuerzel": "I.07.1.04914",
 		"kuerzelKunde": "",
 		"description": "Landwirtschaftliche Nutzfläche und Anzahl Landwirtschaftsbetriebe",
-		"id": 4914,
 		"thema": "07 Landwirtschaft",
 		"unterthema": "Landwirtschaft",
 		"kennzahlenset": "",
@@ -8441,6 +8440,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4914,
 		"visibleInPortal": true
 	},
 	{
@@ -8449,7 +8449,6 @@ var indikatoren = [
 		"kuerzel": "I.10.1.04915",
 		"kuerzelKunde": "",
 		"description": "Logiernächte nach Herkunft",
-		"id": 4915,
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
 		"kennzahlenset": "",
@@ -8482,6 +8481,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4915,
 		"visibleInPortal": true
 	},
 	{
@@ -8490,7 +8490,6 @@ var indikatoren = [
 		"kuerzel": "I.10.1.04916",
 		"kuerzelKunde": "",
 		"description": "Logiernächte und Bettenzahl",
-		"id": 4916,
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
 		"kennzahlenset": "",
@@ -8522,6 +8521,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4916,
 		"visibleInPortal": true
 	},
 	{
@@ -8530,7 +8530,6 @@ var indikatoren = [
 		"kuerzel": "I.11.1.04917",
 		"kuerzelKunde": "",
 		"description": "Privater Motorisierungsgrad",
-		"id": 4917,
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
 		"kennzahlenset": "",
@@ -8566,6 +8565,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4917,
 		"visibleInPortal": true
 	},
 	{
@@ -8574,7 +8574,6 @@ var indikatoren = [
 		"kuerzel": "I.11.1.04918",
 		"kuerzelKunde": "",
 		"description": "Private Personenwagen pro Haushalt",
-		"id": 4918,
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
 		"kennzahlenset": "",
@@ -8613,6 +8612,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4918,
 		"visibleInPortal": true
 	},
 	{
@@ -8621,7 +8621,6 @@ var indikatoren = [
 		"kuerzel": "I.12.1.04919",
 		"kuerzelKunde": "",
 		"description": "Grundpfandbelastung in Mio. Franken seit 1990",
-		"id": 4919,
 		"thema": "12 Finanzmärkte",
 		"unterthema": "Grundpfandbelastung",
 		"kennzahlenset": "",
@@ -8651,6 +8650,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4919,
 		"visibleInPortal": true
 	},
 	{
@@ -8659,7 +8659,6 @@ var indikatoren = [
 		"kuerzel": "I.17.3.04922",
 		"kuerzelKunde": "",
 		"description": "Entwicklung des Frauenanteils bei den Kandidaturen und Wahlen zum Grossen Rat seit 1968",
-		"id": 4922,
 		"thema": "17 Politik",
 		"unterthema": "Wahlen",
 		"kennzahlenset": "",
@@ -8691,6 +8690,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4922,
 		"visibleInPortal": true
 	},
 	{
@@ -8699,7 +8699,6 @@ var indikatoren = [
 		"kuerzel": "I.19.3.04923",
 		"kuerzelKunde": "",
 		"description": "Anzahl Gewaltstraftaten pro 100000 Einwohner",
-		"id": 4923,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Strafvollzug",
 		"kennzahlenset": "",
@@ -8729,6 +8728,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4923,
 		"visibleInPortal": true
 	},
 	{
@@ -8737,7 +8737,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04931",
 		"kuerzelKunde": "1.1.08.A",
 		"description": "Gedanken über die Arbeitsstelle",
-		"id": 4931,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -8767,6 +8766,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4931,
 		"visibleInPortal": true
 	},
 	{
@@ -8775,7 +8775,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04932",
 		"kuerzelKunde": "1.1.08.B",
 		"description": "Gründe für Gedanken über die Arbeitsstelle",
-		"id": 4932,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -8807,6 +8806,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4932,
 		"visibleInPortal": true
 	},
 	{
@@ -8815,7 +8815,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.04933",
 		"kuerzelKunde": "3.3.03.B",
 		"description": "Politikinteresse der unter 30-Jährigen",
-		"id": 4933,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -8846,6 +8845,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4933,
 		"visibleInPortal": true
 	},
 	{
@@ -8854,7 +8854,6 @@ var indikatoren = [
 		"kuerzel": "I.14.1.04947",
 		"kuerzelKunde": "",
 		"description": "Hospitalisierungen in baselstädtischen Spitälern nach Hauptbereich",
-		"id": 4947,
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
 		"kennzahlenset": "",
@@ -8885,6 +8884,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4947,
 		"visibleInPortal": true
 	},
 	{
@@ -8893,7 +8893,6 @@ var indikatoren = [
 		"kuerzel": "I.14.1.04948",
 		"kuerzelKunde": "",
 		"description": "Pflegetage in baselstädtischen Spitälern nach Hauptbereich",
-		"id": 4948,
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
 		"kennzahlenset": "",
@@ -8924,6 +8923,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 4948,
 		"visibleInPortal": true
 	},
 	{
@@ -8932,7 +8932,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.05033",
 		"kuerzelKunde": "3.6",
 		"description": "Transnationale Patentanmeldungen pro 1000 Einwohner",
-		"id": 5033,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",
@@ -8966,6 +8965,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5033,
 		"visibleInPortal": true
 	},
 	{
@@ -8974,7 +8974,6 @@ var indikatoren = [
 		"kuerzel": "I.03.2.05041",
 		"kuerzelKunde": "2.3",
 		"description": "Neugründungen in Basel-Stadt",
-		"id": 5041,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Legislaturplan",
@@ -9006,6 +9005,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5041,
 		"visibleInPortal": true
 	},
 	{
@@ -9014,7 +9014,6 @@ var indikatoren = [
 		"kuerzel": "I.13.2.05066",
 		"kuerzelKunde": "11.1",
 		"description": "Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung",
-		"id": 5066,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan",
@@ -9047,6 +9046,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5066,
 		"visibleInPortal": true
 	},
 	{
@@ -9055,7 +9055,6 @@ var indikatoren = [
 		"kuerzel": "I.13.3.05109",
 		"kuerzelKunde": "GS-1.B",
 		"description": "Sozialhilfequote",
-		"id": 5109,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"kennzahlenset": "Wohnviertel",
@@ -9086,6 +9085,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=soz_sozhilfe.soz_quote' target='_blank'>Basler Atlas</a>."
 		],
+		"id": 5109,
 		"visibleInPortal": true
 	},
 	{
@@ -9094,7 +9094,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.05110",
 		"kuerzelKunde": "GS-2.B",
 		"description": "Anteil Ausländer",
-		"id": 5110,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -9125,6 +9124,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevheim.anteil_al' target='_blank'>Basler Atlas</a>."
 		],
+		"id": 5110,
 		"visibleInPortal": true
 	},
 	{
@@ -9133,7 +9133,6 @@ var indikatoren = [
 		"kuerzel": "I.01.7.05111",
 		"kuerzelKunde": "GS-3.B",
 		"description": "Anteil Personen ohne Religionszugehörigkeit",
-		"id": 5111,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Religionen",
 		"kennzahlenset": "Wohnviertel",
@@ -9164,6 +9163,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5111,
 		"visibleInPortal": true
 	},
 	{
@@ -9172,7 +9172,6 @@ var indikatoren = [
 		"kuerzel": "I.01.2.05112",
 		"kuerzelKunde": "GS-4.B",
 		"description": "Anteil Personen in Einpersonenhaushalten",
-		"id": 5112,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Wohnviertel",
@@ -9203,6 +9202,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5112,
 		"visibleInPortal": true
 	},
 	{
@@ -9211,7 +9211,6 @@ var indikatoren = [
 		"kuerzel": "I.15.6.05113",
 		"kuerzelKunde": "GS-5.B",
 		"description": "Gymnasialquote",
-		"id": 5113,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Wohnviertel",
@@ -9243,6 +9242,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5113,
 		"visibleInPortal": true
 	},
 	{
@@ -9251,7 +9251,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.05114",
 		"kuerzelKunde": "GS-6.B",
 		"description": "Altersquotient",
-		"id": 5114,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -9283,6 +9282,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5114,
 		"visibleInPortal": true
 	},
 	{
@@ -9291,7 +9291,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.05115",
 		"kuerzelKunde": "GS-7.B",
 		"description": "Sesshaftigkeit",
-		"id": 5115,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -9322,6 +9321,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevsess.anteil_sess10' target='_blank'>Basler Atlas</a>."
 		],
+		"id": 5115,
 		"visibleInPortal": true
 	},
 	{
@@ -9330,7 +9330,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.05116",
 		"kuerzelKunde": "GS-8.B",
 		"description": "Jugendquotient",
-		"id": 5116,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -9362,6 +9361,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5116,
 		"visibleInPortal": true
 	},
 	{
@@ -9370,7 +9370,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.05117",
 		"kuerzelKunde": "RU-1.B",
 		"description": "Baujahr Wohngebäude",
-		"id": 5117,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -9402,6 +9401,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5117,
 		"visibleInPortal": true
 	},
 	{
@@ -9410,7 +9410,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.05118",
 		"kuerzelKunde": "RU-2.B",
 		"description": "Anteil Einfamilienhäuser",
-		"id": 5118,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -9441,6 +9440,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5118,
 		"visibleInPortal": true
 	},
 	{
@@ -9449,7 +9449,6 @@ var indikatoren = [
 		"kuerzel": "I.02.1.05119",
 		"kuerzelKunde": "RU-3.B",
 		"description": "Anteil Grünflächen",
-		"id": 5119,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"kennzahlenset": "Wohnviertel",
@@ -9480,6 +9479,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=ru_gruen.gruenflaeche_ant' target='_blank'>Basler Atlas</a>."
 		],
+		"id": 5119,
 		"visibleInPortal": true
 	},
 	{
@@ -9488,7 +9488,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.05120",
 		"kuerzelKunde": "RU-4.B",
 		"description": "Fläche pro Wohnung",
-		"id": 5120,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -9519,6 +9518,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5120,
 		"visibleInPortal": true
 	},
 	{
@@ -9527,7 +9527,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.05121",
 		"kuerzelKunde": "RU-5.B",
 		"description": "Wohnfläche pro Kopf",
-		"id": 5121,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -9559,6 +9558,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5121,
 		"visibleInPortal": true
 	},
 	{
@@ -9567,7 +9567,6 @@ var indikatoren = [
 		"kuerzel": "I.18.2.05122",
 		"kuerzelKunde": "WA-1.B",
 		"description": "Vermögenssteuer pro Veranlagung",
-		"id": 5122,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Wohnviertel",
@@ -9598,6 +9597,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_ver.vermoegen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
 		],
+		"id": 5122,
 		"visibleInPortal": true
 	},
 	{
@@ -9606,7 +9606,6 @@ var indikatoren = [
 		"kuerzel": "I.18.2.05123",
 		"kuerzelKunde": "WA-2.B",
 		"description": "Einkommenssteuer pro Veranlagung",
-		"id": 5123,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Wohnviertel",
@@ -9637,6 +9636,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_eink.einkommen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
 		],
+		"id": 5123,
 		"visibleInPortal": true
 	},
 	{
@@ -9645,7 +9645,6 @@ var indikatoren = [
 		"kuerzel": "I.03.1.05124",
 		"kuerzelKunde": "WA-3.B",
 		"description": "Erwerbstätigenquote",
-		"id": 5124,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Erwerbspersonen ",
 		"kennzahlenset": "Wohnviertel",
@@ -9676,6 +9675,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5124,
 		"visibleInPortal": true
 	},
 	{
@@ -9684,7 +9684,6 @@ var indikatoren = [
 		"kuerzel": "I.03.2.05125",
 		"kuerzelKunde": "WA-4.B",
 		"description": "Arbeitsplätze pro Kopf",
-		"id": 5125,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Wohnviertel",
@@ -9715,6 +9714,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5125,
 		"visibleInPortal": true
 	},
 	{
@@ -9723,7 +9723,6 @@ var indikatoren = [
 		"kuerzel": "I.03.4.05126",
 		"kuerzelKunde": "WA-5.B",
 		"description": "Arbeitslosenquote",
-		"id": 5126,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Wohnviertel",
@@ -9756,6 +9755,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5126,
 		"visibleInPortal": true
 	},
 	{
@@ -9764,7 +9764,6 @@ var indikatoren = [
 		"kuerzel": "I.11.1.05130",
 		"kuerzelKunde": "",
 		"description": "Privater Motorisierungsgrad",
-		"id": 5130,
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
 		"kennzahlenset": "",
@@ -9798,6 +9797,7 @@ var indikatoren = [
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=11_fahrzeuge.11_motorisierungsgrad' target='_blank'>Basler Atlas</a>."
 		],
+		"id": 5130,
 		"visibleInPortal": true
 	},
 	{
@@ -9806,7 +9806,6 @@ var indikatoren = [
 		"kuerzel": "I.11.1.05131",
 		"kuerzelKunde": "",
 		"description": "Private Personenwagen pro Haushalt",
-		"id": 5131,
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
 		"kennzahlenset": "",
@@ -9841,6 +9840,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5131,
 		"visibleInPortal": true
 	},
 	{
@@ -9849,7 +9849,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.05201",
 		"kuerzelKunde": "ST 4-2",
 		"description": "Bevölkerungsdichte",
-		"id": 5201,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Richtplan",
@@ -9882,6 +9881,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5201,
 		"visibleInPortal": true
 	},
 	{
@@ -9890,7 +9890,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.05202",
 		"kuerzelKunde": "ST 4-3",
 		"description": "Bevölkerungsdichte",
-		"id": 5202,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Richtplan",
@@ -9923,6 +9922,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5202,
 		"visibleInPortal": true
 	},
 	{
@@ -9931,7 +9931,6 @@ var indikatoren = [
 		"kuerzel": "I.11.5.05203",
 		"kuerzelKunde": "ST 4-12",
 		"description": "Zu- und Wegpendler nach Herkunft und Ziel",
-		"id": 5203,
 		"thema": "11 Verkehr",
 		"unterthema": "Pendler",
 		"kennzahlenset": "Richtplan",
@@ -9963,6 +9962,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5203,
 		"visibleInPortal": true
 	},
 	{
@@ -9971,7 +9971,6 @@ var indikatoren = [
 		"kuerzel": "I.07.1.05797",
 		"kuerzelKunde": "1504",
 		"description": "Nachhaltige Holznutzung",
-		"id": 5797,
 		"thema": "07 Landwirtschaft",
 		"unterthema": "Landwirtschaft",
 		"kennzahlenset": "Umwelt",
@@ -10001,6 +10000,7 @@ var indikatoren = [
 			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-wald/wald/waldentwicklung' target = '_blank'>Waldplanung (Amt für Wald beider Basel)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1504' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 5797,
 		"visibleInPortal": false
 	},
 	{
@@ -10009,7 +10009,6 @@ var indikatoren = [
 		"kuerzel": "I.07.1.05798",
 		"kuerzelKunde": "1501",
 		"description": "Waldfläche",
-		"id": 5798,
 		"thema": "07 Landwirtschaft",
 		"unterthema": "Landwirtschaft",
 		"kennzahlenset": "Umwelt",
@@ -10039,6 +10038,7 @@ var indikatoren = [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target = '_blank'>Arealstatistik Schweiz (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1501' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 5798,
 		"visibleInPortal": false
 	},
 	{
@@ -10047,7 +10047,6 @@ var indikatoren = [
 		"kuerzel": "I.07.1.05799",
 		"kuerzelKunde": "0511",
 		"description": "Anteil biologisch bewirtschafteter Landwirtschaftsfläche",
-		"id": 5799,
 		"thema": "07 Landwirtschaft",
 		"unterthema": "Landwirtschaft",
 		"kennzahlenset": "Umwelt",
@@ -10077,6 +10076,7 @@ var indikatoren = [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/land-forstwirtschaft/erhebungen/stru.html' target = '_blank'>Landwirtschaftliche Strukturerhebung (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0511' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 5799,
 		"visibleInPortal": false
 	},
 	{
@@ -10085,7 +10085,6 @@ var indikatoren = [
 		"kuerzel": "I.07.1.05800",
 		"kuerzelKunde": "1503",
 		"description": "Holzernte nach Sortimenten",
-		"id": 5800,
 		"thema": "07 Landwirtschaft",
 		"unterthema": "Landwirtschaft",
 		"kennzahlenset": "Umwelt",
@@ -10115,6 +10114,7 @@ var indikatoren = [
 			"Mehr unter:<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/land-forstwirtschaft/erhebungen/fs.html' target = '_blank'>Schweizerische Forststatistik (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1503' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
+		"id": 5800,
 		"visibleInPortal": false
 	},
 	{
@@ -10123,7 +10123,6 @@ var indikatoren = [
 		"kuerzel": "I.09.2.05813",
 		"kuerzelKunde": "ST 4-5",
 		"description": "Leerwohnungsquote",
-		"id": 5813,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Richtplan",
@@ -10155,6 +10154,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5813,
 		"visibleInPortal": true
 	},
 	{
@@ -10163,7 +10163,6 @@ var indikatoren = [
 		"kuerzel": "I.09.2.05814",
 		"kuerzelKunde": "ST 4-6",
 		"description": "Leerwohnungsquote",
-		"id": 5814,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Richtplan",
@@ -10195,6 +10194,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5814,
 		"visibleInPortal": false
 	},
 	{
@@ -10203,7 +10203,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.05815",
 		"kuerzelKunde": "ST 4-7",
 		"description": "Mittlere Wohnfläche pro Person",
-		"id": 5815,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Richtplan",
@@ -10236,6 +10235,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5815,
 		"visibleInPortal": false
 	},
 	{
@@ -10244,7 +10244,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.05816",
 		"kuerzelKunde": "ST 4-8",
 		"description": "Nettowohnungsproduktion",
-		"id": 5816,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Richtplan",
@@ -10276,6 +10275,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5816,
 		"visibleInPortal": false
 	},
 	{
@@ -10284,7 +10284,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.05817",
 		"kuerzelKunde": "ST 4-9",
 		"description": "Nettowohnungsproduktion",
-		"id": 5817,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Richtplan",
@@ -10316,6 +10315,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5817,
 		"visibleInPortal": true
 	},
 	{
@@ -10324,7 +10324,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.05818",
 		"kuerzelKunde": "ST 4-10",
 		"description": "Bruttogeschossfläche Wohnen nach Wohnviertel",
-		"id": 5818,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Richtplan",
@@ -10356,6 +10355,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5818,
 		"visibleInPortal": true
 	},
 	{
@@ -10364,7 +10364,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.05819",
 		"kuerzelKunde": "ST 5-1",
 		"description": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
-		"id": 5819,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Richtplan",
@@ -10396,6 +10395,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5819,
 		"visibleInPortal": false
 	},
 	{
@@ -10404,7 +10404,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.05821",
 		"kuerzelKunde": "ST 5-2",
 		"description": "Bewertung der Lebensqualität",
-		"id": 5821,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Richtplan",
@@ -10438,6 +10437,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5821,
 		"visibleInPortal": true
 	},
 	{
@@ -10446,7 +10446,6 @@ var indikatoren = [
 		"kuerzel": "I.11.2.05822",
 		"kuerzelKunde": "ST 6-1",
 		"description": "Anteil Einwohner pro ÖV-Güteklasse",
-		"id": 5822,
 		"thema": "11 Verkehr",
 		"unterthema": "Öffentlicher Verkehr",
 		"kennzahlenset": "Richtplan",
@@ -10479,6 +10478,7 @@ var indikatoren = [
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/data/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target = '_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=340&cps=2614062.08,1267876.03,50000&nodefault&layers=stadtplan_grau_osm_50000,gueteklassen' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
 		],
+		"id": 5822,
 		"visibleInPortal": true
 	},
 	{
@@ -10487,7 +10487,6 @@ var indikatoren = [
 		"kuerzel": "I.03.2.05823",
 		"kuerzelKunde": "ST 7-2",
 		"description": "Beschäftigtendichte",
-		"id": 5823,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Richtplan",
@@ -10519,6 +10518,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5823,
 		"visibleInPortal": true
 	},
 	{
@@ -10527,7 +10527,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.05825",
 		"kuerzelKunde": "ST 7-3",
 		"description": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
-		"id": 5825,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Richtplan",
@@ -10559,6 +10558,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5825,
 		"visibleInPortal": true
 	},
 	{
@@ -10567,7 +10567,6 @@ var indikatoren = [
 		"kuerzel": "I.11.2.05891",
 		"kuerzelKunde": "ST 8-1",
 		"description": "Kontinentale Erreichbarkeit",
-		"id": 5891,
 		"thema": "11 Verkehr",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Richtplan",
@@ -10602,6 +10601,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5891,
 		"visibleInPortal": true
 	},
 	{
@@ -10610,7 +10610,6 @@ var indikatoren = [
 		"kuerzel": "I.03.2.05901",
 		"kuerzelKunde": "ST 4-11",
 		"description": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
-		"id": 5901,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Richtplan",
@@ -10643,6 +10642,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 5901,
 		"visibleInPortal": true
 	},
 	{
@@ -10651,7 +10651,6 @@ var indikatoren = [
 		"kuerzel": "I.02.6.06007",
 		"kuerzelKunde": "ST 6-2",
 		"description": "Verkehrsleistungsindex",
-		"id": 6007,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Mobilitätsverhalten",
 		"kennzahlenset": "Richtplan",
@@ -10683,6 +10682,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6007,
 		"visibleInPortal": false
 	},
 	{
@@ -10691,7 +10691,6 @@ var indikatoren = [
 		"kuerzel": "I.09.2.06009",
 		"kuerzelKunde": "",
 		"description": "Leerwohnungsquote",
-		"id": 6009,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "",
@@ -10722,6 +10721,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6009,
 		"visibleInPortal": true
 	},
 	{
@@ -10730,7 +10730,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.06124",
 		"kuerzelKunde": "2.1",
 		"description": "Bruttoinlandprodukt in Franken pro Einwohner",
-		"id": 6124,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",
@@ -10765,6 +10764,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6124,
 		"visibleInPortal": true
 	},
 	{
@@ -10773,7 +10773,6 @@ var indikatoren = [
 		"kuerzel": "I.04.2.06126",
 		"kuerzelKunde": "1.1",
 		"description": "Kantonaler Wettbewerbsindikator (KWI)",
-		"id": 6126,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Legislaturplan",
@@ -10807,6 +10806,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6126,
 		"visibleInPortal": true
 	},
 	{
@@ -10815,7 +10815,6 @@ var indikatoren = [
 		"kuerzel": "I.04.2.06127",
 		"kuerzelKunde": "1.3",
 		"description": "Kantonales Wettbewerbsprofil",
-		"id": 6127,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Legislaturplan",
@@ -10846,6 +10845,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6127,
 		"visibleInPortal": true
 	},
 	{
@@ -10854,7 +10854,6 @@ var indikatoren = [
 		"kuerzel": "I.18.2.06128",
 		"kuerzelKunde": "1.4",
 		"description": "Steuereinnahmen aus Quellensteuer",
-		"id": 6128,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
@@ -10885,6 +10884,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6128,
 		"visibleInPortal": true
 	},
 	{
@@ -10893,7 +10893,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.06129",
 		"kuerzelKunde": "2.6",
 		"description": "NFA-Ressourcenindex",
-		"id": 6129,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",
@@ -10924,6 +10923,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6129,
 		"visibleInPortal": true
 	},
 	{
@@ -10932,7 +10932,6 @@ var indikatoren = [
 		"kuerzel": "I.18.2.06130",
 		"kuerzelKunde": "2.11a",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"id": 6130,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
@@ -10966,6 +10965,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6130,
 		"visibleInPortal": true
 	},
 	{
@@ -10974,7 +10974,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.06131",
 		"kuerzelKunde": "2.8",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
-		"id": 6131,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",
@@ -11011,6 +11010,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6131,
 		"visibleInPortal": true
 	},
 	{
@@ -11019,7 +11019,6 @@ var indikatoren = [
 		"kuerzel": "I.18.2.06132",
 		"kuerzelKunde": "2.10",
 		"description": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
-		"id": 6132,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
@@ -11051,6 +11050,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6132,
 		"visibleInPortal": true
 	},
 	{
@@ -11059,7 +11059,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06133",
 		"kuerzelKunde": "2.13",
 		"description": "Beurteilung der kantonalen Steuern",
-		"id": 6133,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
@@ -11091,6 +11090,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6133,
 		"visibleInPortal": false
 	},
 	{
@@ -11099,7 +11099,6 @@ var indikatoren = [
 		"kuerzel": "I.18.2.06134",
 		"kuerzelKunde": "2.12a",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"id": 6134,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
@@ -11130,6 +11129,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6134,
 		"visibleInPortal": true
 	},
 	{
@@ -11138,7 +11138,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06136",
 		"kuerzelKunde": "3.3",
 		"description": "Höchste abgeschlossene Ausbildung",
-		"id": 6136,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
@@ -11172,6 +11171,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6136,
 		"visibleInPortal": true
 	},
 	{
@@ -11180,7 +11180,6 @@ var indikatoren = [
 		"kuerzel": "I.03.4.06137",
 		"kuerzelKunde": "3.4",
 		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
-		"id": 6137,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Legislaturplan",
@@ -11214,6 +11213,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6137,
 		"visibleInPortal": true
 	},
 	{
@@ -11222,7 +11222,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.06138",
 		"kuerzelKunde": "3.5",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
-		"id": 6138,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",
@@ -11257,6 +11256,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6138,
 		"visibleInPortal": false
 	},
 	{
@@ -11265,7 +11265,6 @@ var indikatoren = [
 		"kuerzel": "I.04.2.06140",
 		"kuerzelKunde": "3.7",
 		"description": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft",
-		"id": 6140,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Legislaturplan",
@@ -11300,6 +11299,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6140,
 		"visibleInPortal": true
 	},
 	{
@@ -11308,7 +11308,6 @@ var indikatoren = [
 		"kuerzel": "I.03.2.06141",
 		"kuerzelKunde": "3.8",
 		"description": "Anteil der Beschäftigten in innovativen Branchen an der gesamten Beschäftigung (Vollzeitäquivalente)",
-		"id": 6141,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Legislaturplan",
@@ -11342,6 +11341,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6141,
 		"visibleInPortal": true
 	},
 	{
@@ -11350,7 +11350,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.06143",
 		"kuerzelKunde": "4.1",
 		"description": "Bevölkerungsbestand am Jahresende",
-		"id": 6143,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Legislaturplan",
@@ -11381,6 +11380,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6143,
 		"visibleInPortal": false
 	},
 	{
@@ -11389,7 +11389,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.06144",
 		"kuerzelKunde": "4.2",
 		"description": "Bevölkerung nach sozioprofessioneller Kategorie",
-		"id": 6144,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Legislaturplan",
@@ -11420,6 +11419,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6144,
 		"visibleInPortal": true
 	},
 	{
@@ -11428,7 +11428,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06146",
 		"kuerzelKunde": "4.5",
 		"description": "Beurteilung von gesellschaftlicher Vielfalt",
-		"id": 6146,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
@@ -11463,6 +11462,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6146,
 		"visibleInPortal": true
 	},
 	{
@@ -11471,7 +11471,6 @@ var indikatoren = [
 		"kuerzel": "I.03.3.06147",
 		"kuerzelKunde": "4.6",
 		"description": "Verhältnis der Löhne von Frauen und Männern in Basel-Stadt",
-		"id": 6147,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Löhne ",
 		"kennzahlenset": "Legislaturplan",
@@ -11506,6 +11505,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6147,
 		"visibleInPortal": true
 	},
 	{
@@ -11514,7 +11514,6 @@ var indikatoren = [
 		"kuerzel": "I.03.1.06148",
 		"kuerzelKunde": "4.7",
 		"description": "Anteil Arbeitnehmende in Unternehmensleitung oder Vorgesetztenfunktion nach Geschlecht",
-		"id": 6148,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Erwerbspersonen ",
 		"kennzahlenset": "Legislaturplan",
@@ -11548,6 +11547,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6148,
 		"visibleInPortal": true
 	},
 	{
@@ -11556,7 +11556,6 @@ var indikatoren = [
 		"kuerzel": "I.01.6.06149",
 		"kuerzelKunde": "4.8",
 		"description": "Einbürgerungsziffer der ausländischen Bevölkerung sowie Ausländeranteil",
-		"id": 6149,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
 		"kennzahlenset": "Legislaturplan",
@@ -11593,6 +11592,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6149,
 		"visibleInPortal": true
 	},
 	{
@@ -11601,7 +11601,6 @@ var indikatoren = [
 		"kuerzel": "I.18.2.06150",
 		"kuerzelKunde": "4.9",
 		"description": "Mittelwert und Median des Reineinkommens in Basel-Stadt",
-		"id": 6150,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
@@ -11635,6 +11634,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6150,
 		"visibleInPortal": true
 	},
 	{
@@ -11643,7 +11643,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06151",
 		"kuerzelKunde": "4.10a",
 		"description": "Bewertung der Lebensqualität nach Geschlecht",
-		"id": 6151,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
@@ -11674,6 +11673,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6151,
 		"visibleInPortal": true
 	},
 	{
@@ -11682,7 +11682,6 @@ var indikatoren = [
 		"kuerzel": "I.01.5.06152",
 		"kuerzelKunde": "4.11",
 		"description": "Segregationsindex nach Staatsangehörigkeit",
-		"id": 6152,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Legislaturplan",
@@ -11715,6 +11714,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6152,
 		"visibleInPortal": true
 	},
 	{
@@ -11723,7 +11723,6 @@ var indikatoren = [
 		"kuerzel": "I.11.6.06154",
 		"kuerzelKunde": "5.2",
 		"description": "Verkehrsleistungsindex",
-		"id": 6154,
 		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
 		"kennzahlenset": "Legislaturplan",
@@ -11756,6 +11755,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6154,
 		"visibleInPortal": true
 	},
 	{
@@ -11764,7 +11764,6 @@ var indikatoren = [
 		"kuerzel": "I.06.4.06155",
 		"kuerzelKunde": "5.3",
 		"description": "Transit durch die Region Basel",
-		"id": 6155,
 		"thema": "06 Produktion, Handel",
 		"unterthema": "Aussenhandel",
 		"kennzahlenset": "Legislaturplan",
@@ -11798,6 +11797,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6155,
 		"visibleInPortal": true
 	},
 	{
@@ -11806,7 +11806,6 @@ var indikatoren = [
 		"kuerzel": "I.11.6.06156",
 		"kuerzelKunde": "5.4",
 		"description": "Jährlich durch  Stau generierte Verzögerungszeit",
-		"id": 6156,
 		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
 		"kennzahlenset": "Legislaturplan",
@@ -11837,6 +11836,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6156,
 		"visibleInPortal": true
 	},
 	{
@@ -11845,7 +11845,6 @@ var indikatoren = [
 		"kuerzel": "I.02.5.06157",
 		"kuerzelKunde": "7.7",
 		"description": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10)",
-		"id": 6157,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
 		"kennzahlenset": "Legislaturplan",
@@ -11878,6 +11877,7 @@ var indikatoren = [
 			"<a href = 'https://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>"
 		],
+		"id": 6157,
 		"visibleInPortal": true
 	},
 	{
@@ -11886,7 +11886,6 @@ var indikatoren = [
 		"kuerzel": "I.02.5.06158",
 		"kuerzelKunde": "5.5",
 		"description": "CO<sub>2</sub>-Emissionen Verkehr",
-		"id": 6158,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
 		"kennzahlenset": "Legislaturplan",
@@ -11919,6 +11918,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6158,
 		"visibleInPortal": true
 	},
 	{
@@ -11927,7 +11927,6 @@ var indikatoren = [
 		"kuerzel": "I.02.14.06159",
 		"kuerzelKunde": "7.8",
 		"description": "Übermässig mit Lärm belastete Wohnbevölkerung",
-		"id": 6159,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Lärm",
 		"kennzahlenset": "Legislaturplan",
@@ -11960,6 +11959,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6159,
 		"visibleInPortal": true
 	},
 	{
@@ -11968,7 +11968,6 @@ var indikatoren = [
 		"kuerzel": "I.08.1.06160",
 		"kuerzelKunde": "7.1",
 		"description": "Endenergieverbrauch nach Verbrauchergruppe",
-		"id": 6160,
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
 		"kennzahlenset": "Legislaturplan",
@@ -12001,6 +12000,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6160,
 		"visibleInPortal": true
 	},
 	{
@@ -12009,7 +12009,6 @@ var indikatoren = [
 		"kuerzel": "I.08.3.06161",
 		"kuerzelKunde": "7.2",
 		"description": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
-		"id": 6161,
 		"thema": "08 Energie",
 		"unterthema": "Erneuerbare",
 		"kennzahlenset": "Legislaturplan",
@@ -12041,6 +12040,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6161,
 		"visibleInPortal": true
 	},
 	{
@@ -12049,7 +12049,6 @@ var indikatoren = [
 		"kuerzel": "I.02.6.06163",
 		"kuerzelKunde": "7.3",
 		"description": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
-		"id": 6163,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Entsorgung",
 		"kennzahlenset": "Legislaturplan",
@@ -12080,6 +12079,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6163,
 		"visibleInPortal": true
 	},
 	{
@@ -12088,7 +12088,6 @@ var indikatoren = [
 		"kuerzel": "I.02.19.06164",
 		"kuerzelKunde": "7.4",
 		"description": "Wasserqualität: AOX-Fracht",
-		"id": 6164,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Legislaturplan",
@@ -12122,6 +12121,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6164,
 		"visibleInPortal": true
 	},
 	{
@@ -12130,7 +12130,6 @@ var indikatoren = [
 		"kuerzel": "I.02.5.06165",
 		"kuerzelKunde": "7.5",
 		"description": "CO<sub>2</sub>-Emissionen",
-		"id": 6165,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
 		"kennzahlenset": "Legislaturplan",
@@ -12165,6 +12164,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6165,
 		"visibleInPortal": true
 	},
 	{
@@ -12173,7 +12173,6 @@ var indikatoren = [
 		"kuerzel": "I.02.19.06166",
 		"kuerzelKunde": "7.6",
 		"description": "Wassertemperatur Grundwasser",
-		"id": 6166,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Legislaturplan",
@@ -12205,6 +12204,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6166,
 		"visibleInPortal": true
 	},
 	{
@@ -12213,7 +12213,6 @@ var indikatoren = [
 		"kuerzel": "I.16.1.06169",
 		"kuerzelKunde": "8.2",
 		"description": "Anzahl Besuche in Theater, Kinos und Museen",
-		"id": 6169,
 		"thema": "16 Kultur und Sport",
 		"unterthema": "Kultureinrichtungen",
 		"kennzahlenset": "Legislaturplan",
@@ -12246,6 +12245,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6169,
 		"visibleInPortal": true
 	},
 	{
@@ -12254,7 +12254,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.06170",
 		"kuerzelKunde": "8.3",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
-		"id": 6170,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",
@@ -12289,6 +12288,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6170,
 		"visibleInPortal": false
 	},
 	{
@@ -12297,7 +12297,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.06172",
 		"kuerzelKunde": "9.2",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
-		"id": 6172,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",
@@ -12332,6 +12331,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6172,
 		"visibleInPortal": false
 	},
 	{
@@ -12340,7 +12340,6 @@ var indikatoren = [
 		"kuerzel": "I.13.2.06173",
 		"kuerzelKunde": "9.3",
 		"description": "Anzahl Beziehende von Prämienverbilligung",
-		"id": 6173,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan",
@@ -12372,6 +12371,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6173,
 		"visibleInPortal": true
 	},
 	{
@@ -12380,7 +12380,6 @@ var indikatoren = [
 		"kuerzel": "I.14.1.06175",
 		"kuerzelKunde": "9.5",
 		"description": "Stationäre Fälle in Basler Spitälern",
-		"id": 6175,
 		"thema": "14 Gesundheit",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
@@ -12411,6 +12410,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6175,
 		"visibleInPortal": true
 	},
 	{
@@ -12419,7 +12419,6 @@ var indikatoren = [
 		"kuerzel": "I.19.1.06176",
 		"kuerzelKunde": "10.1",
 		"description": "Anzahl Straftaten nach StGB pro 1000 Einwohner",
-		"id": 6176,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Legislaturplan",
@@ -12451,6 +12450,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6176,
 		"visibleInPortal": true
 	},
 	{
@@ -12459,7 +12459,6 @@ var indikatoren = [
 		"kuerzel": "I.11.7.06177",
 		"kuerzelKunde": "10.2",
 		"description": "Anzahl Strassenverkehrsunfälle",
-		"id": 6177,
 		"thema": "11 Verkehr",
 		"unterthema": "Strassenverkehrsunfälle",
 		"kennzahlenset": "Legislaturplan",
@@ -12490,6 +12489,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6177,
 		"visibleInPortal": true
 	},
 	{
@@ -12498,7 +12498,6 @@ var indikatoren = [
 		"kuerzel": "I.14.3.06179",
 		"kuerzelKunde": "10.3",
 		"description": "Anzahl Störfälle und Ereignisse",
-		"id": 6179,
 		"thema": "14 Gesundheit",
 		"unterthema": "Sterblichkeit",
 		"kennzahlenset": "Legislaturplan",
@@ -12530,6 +12529,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6179,
 		"visibleInPortal": true
 	},
 	{
@@ -12538,7 +12538,6 @@ var indikatoren = [
 		"kuerzel": "I.13.2.06181",
 		"kuerzelKunde": "11.2",
 		"description": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
-		"id": 6181,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan",
@@ -12571,6 +12570,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6181,
 		"visibleInPortal": true
 	},
 	{
@@ -12579,7 +12579,6 @@ var indikatoren = [
 		"kuerzel": "I.13.2.06182",
 		"kuerzelKunde": "11.3",
 		"description": "Sozialhilfequote nach Altersgruppe",
-		"id": 6182,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan",
@@ -12612,6 +12611,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6182,
 		"visibleInPortal": true
 	},
 	{
@@ -12620,7 +12620,6 @@ var indikatoren = [
 		"kuerzel": "I.13.2.06183",
 		"kuerzelKunde": "11.4",
 		"description": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
-		"id": 6183,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan",
@@ -12653,6 +12652,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6183,
 		"visibleInPortal": true
 	},
 	{
@@ -12661,7 +12661,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.06184",
 		"kuerzelKunde": "11.5",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
-		"id": 6184,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",
@@ -12696,6 +12695,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6184,
 		"visibleInPortal": false
 	},
 	{
@@ -12704,7 +12704,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06185",
 		"kuerzelKunde": "12.1",
 		"description": "Vertretung der Anliegen der Bevölkerung durch Behörden",
-		"id": 6185,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
@@ -12737,6 +12736,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6185,
 		"visibleInPortal": false
 	},
 	{
@@ -12745,7 +12745,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06186",
 		"kuerzelKunde": "12.2",
 		"description": "Beurteilung der kantonalen Verwaltung",
-		"id": 6186,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
@@ -12777,6 +12776,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6186,
 		"visibleInPortal": false
 	},
 	{
@@ -12785,7 +12785,6 @@ var indikatoren = [
 		"kuerzel": "I.18.2.06201",
 		"kuerzelKunde": "2.11b",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"id": 6201,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
@@ -12819,6 +12818,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6201,
 		"visibleInPortal": true
 	},
 	{
@@ -12827,7 +12827,6 @@ var indikatoren = [
 		"kuerzel": "I.18.2.06202",
 		"kuerzelKunde": "2.11c",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"id": 6202,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
@@ -12861,6 +12860,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6202,
 		"visibleInPortal": true
 	},
 	{
@@ -12869,7 +12869,6 @@ var indikatoren = [
 		"kuerzel": "I.13.2.06203",
 		"kuerzelKunde": "",
 		"description": "Anteil Haushalte mit FAMI",
-		"id": 6203,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "",
@@ -12899,6 +12898,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6203,
 		"visibleInPortal": true
 	},
 	{
@@ -12907,7 +12907,6 @@ var indikatoren = [
 		"kuerzel": "I.13.2.06204",
 		"kuerzelKunde": "",
 		"description": "Anteil Haushalte mit Prämienverbilligung",
-		"id": 6204,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "",
@@ -12938,6 +12937,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6204,
 		"visibleInPortal": true
 	},
 	{
@@ -12946,7 +12946,6 @@ var indikatoren = [
 		"kuerzel": "I.18.1.06205",
 		"kuerzelKunde": "2.9",
 		"description": "Kantonales BIP im Vergleich zu den Staatsausgaben",
-		"id": 6205,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatsrechnung",
 		"kennzahlenset": "Legislaturplan",
@@ -12978,6 +12977,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6205,
 		"visibleInPortal": true
 	},
 	{
@@ -12986,7 +12986,6 @@ var indikatoren = [
 		"kuerzel": "I.15.7.06206",
 		"kuerzelKunde": "3.1a",
 		"description": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
-		"id": 6206,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
 		"kennzahlenset": "Legislaturplan",
@@ -13019,6 +13018,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6206,
 		"visibleInPortal": true
 	},
 	{
@@ -13027,7 +13027,6 @@ var indikatoren = [
 		"kuerzel": "I.15.3.06209",
 		"kuerzelKunde": "3.2",
 		"description": "Anzahl Lernende an Basler Berufsfachschulen",
-		"id": 6209,
 		"thema": "15 Bildung",
 		"unterthema": "Berufsfachschulen",
 		"kennzahlenset": "Legislaturplan",
@@ -13058,6 +13057,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6209,
 		"visibleInPortal": true
 	},
 	{
@@ -13066,7 +13066,6 @@ var indikatoren = [
 		"kuerzel": "I.13.2.06210",
 		"kuerzelKunde": "4.4",
 		"description": "Anzahl Plätze in Tagesbetreuungsangeboten",
-		"id": 6210,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan",
@@ -13097,6 +13096,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6210,
 		"visibleInPortal": true
 	},
 	{
@@ -13105,7 +13105,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.06211",
 		"kuerzelKunde": "2.7",
 		"description": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken",
-		"id": 6211,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",
@@ -13137,6 +13136,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6211,
 		"visibleInPortal": true
 	},
 	{
@@ -13145,7 +13145,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06213",
 		"kuerzelKunde": "4.10b",
 		"description": "Bewertung der Lebensqualität nach Alter",
-		"id": 6213,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
@@ -13176,6 +13175,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6213,
 		"visibleInPortal": true
 	},
 	{
@@ -13184,7 +13184,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.06214",
 		"kuerzelKunde": "ST 4-1",
 		"description": "Bevölkerung am Jahresende und Anzahl Wohnungen",
-		"id": 6214,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Richtplan",
@@ -13217,6 +13216,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6214,
 		"visibleInPortal": true
 	},
 	{
@@ -13225,7 +13225,6 @@ var indikatoren = [
 		"kuerzel": "I.01.9.06215",
 		"kuerzelKunde": "ST 4-4",
 		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"id": 6215,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Szenarien",
 		"kennzahlenset": "Richtplan",
@@ -13257,6 +13256,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6215,
 		"visibleInPortal": true
 	},
 	{
@@ -13265,7 +13265,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06216",
 		"kuerzelKunde": "ST 5-3",
 		"description": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
-		"id": 6216,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Richtplan",
@@ -13298,6 +13297,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6216,
 		"visibleInPortal": true
 	},
 	{
@@ -13306,7 +13306,6 @@ var indikatoren = [
 		"kuerzel": "I.09.2.06217",
 		"kuerzelKunde": "ST 7-4",
 		"description": "Leerstehende Industrie- und Gewerbeflächen",
-		"id": 6217,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Richtplan",
@@ -13338,6 +13337,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6217,
 		"visibleInPortal": true
 	},
 	{
@@ -13346,7 +13346,6 @@ var indikatoren = [
 		"kuerzel": "I.15.6.06218",
 		"kuerzelKunde": "ST 8-2",
 		"description": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
-		"id": 6218,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Richtplan",
@@ -13378,6 +13377,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6218,
 		"visibleInPortal": true
 	},
 	{
@@ -13386,7 +13386,6 @@ var indikatoren = [
 		"kuerzel": "I.01.2.06220",
 		"kuerzelKunde": "ST 5-4",
 		"description": "Indexierter Verlauf der Haushalte in Begegnungszonen",
-		"id": 6220,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Richtplan",
@@ -13419,6 +13418,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6220,
 		"visibleInPortal": true
 	},
 	{
@@ -13427,7 +13427,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06228",
 		"kuerzelKunde": "4.10c",
 		"description": "Bewertung der Lebensqualität nach Einkommensklasse",
-		"id": 6228,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
@@ -13458,6 +13457,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6228,
 		"visibleInPortal": true
 	},
 	{
@@ -13466,7 +13466,6 @@ var indikatoren = [
 		"kuerzel": "I.03.2.06236",
 		"kuerzelKunde": "ST 7-1",
 		"description": "Anzahl Beschäftigte nach Branche",
-		"id": 6236,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Richtplan",
@@ -13500,6 +13499,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6236,
 		"visibleInPortal": true
 	},
 	{
@@ -13508,7 +13508,6 @@ var indikatoren = [
 		"kuerzel": "I.18.2.06239",
 		"kuerzelKunde": "2.12b",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"id": 6239,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
@@ -13539,6 +13538,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6239,
 		"visibleInPortal": true
 	},
 	{
@@ -13547,7 +13547,6 @@ var indikatoren = [
 		"kuerzel": "I.18.2.06240",
 		"kuerzelKunde": "2.12c",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"id": 6240,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
@@ -13578,6 +13577,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6240,
 		"visibleInPortal": true
 	},
 	{
@@ -13586,7 +13586,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.06242",
 		"kuerzelKunde": "ST 4-2",
 		"description": "Bevölkerungsdichte",
-		"id": 6242,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Richtplan (Print)",
@@ -13616,6 +13615,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6242,
 		"visibleInPortal": false
 	},
 	{
@@ -13624,7 +13624,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.06243",
 		"kuerzelKunde": "ST 4-3",
 		"description": "Bevölkerungsdichte",
-		"id": 6243,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Richtplan (Print)",
@@ -13654,6 +13653,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6243,
 		"visibleInPortal": false
 	},
 	{
@@ -13662,7 +13662,6 @@ var indikatoren = [
 		"kuerzel": "I.11.5.06244",
 		"kuerzelKunde": "ST 4-12",
 		"description": "Zu- und Wegpendler nach Herkunft und Ziel",
-		"id": 6244,
 		"thema": "11 Verkehr",
 		"unterthema": "Pendler",
 		"kennzahlenset": "Richtplan (Print)",
@@ -13691,6 +13690,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6244,
 		"visibleInPortal": false
 	},
 	{
@@ -13699,7 +13699,6 @@ var indikatoren = [
 		"kuerzel": "I.09.2.06245",
 		"kuerzelKunde": "ST 4-5",
 		"description": "Leerwohnungsquote",
-		"id": 6245,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Richtplan (Print)",
@@ -13728,6 +13727,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6245,
 		"visibleInPortal": false
 	},
 	{
@@ -13736,7 +13736,6 @@ var indikatoren = [
 		"kuerzel": "I.09.2.06246",
 		"kuerzelKunde": "ST 4-6",
 		"description": "Leerwohnungsquote",
-		"id": 6246,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Richtplan (Print)",
@@ -13765,6 +13764,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6246,
 		"visibleInPortal": false
 	},
 	{
@@ -13773,7 +13773,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.06247",
 		"kuerzelKunde": "ST 4-7",
 		"description": "Mittlere Wohnfläche pro Person",
-		"id": 6247,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Richtplan (Print)",
@@ -13803,6 +13802,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6247,
 		"visibleInPortal": false
 	},
 	{
@@ -13811,7 +13811,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.06248",
 		"kuerzelKunde": "ST 4-8",
 		"description": "Nettowohnungsproduktion",
-		"id": 6248,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Richtplan (Print)",
@@ -13840,6 +13839,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6248,
 		"visibleInPortal": false
 	},
 	{
@@ -13848,7 +13848,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.06249",
 		"kuerzelKunde": "ST 4-9",
 		"description": "Nettowohnungsproduktion",
-		"id": 6249,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Richtplan (Print)",
@@ -13877,6 +13876,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6249,
 		"visibleInPortal": false
 	},
 	{
@@ -13885,7 +13885,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.06250",
 		"kuerzelKunde": "ST 4-10",
 		"description": "Bruttogeschossfläche Wohnen nach Wohnviertel",
-		"id": 6250,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Richtplan (Print)",
@@ -13914,6 +13913,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6250,
 		"visibleInPortal": false
 	},
 	{
@@ -13922,7 +13922,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06251",
 		"kuerzelKunde": "ST 5-1",
 		"description": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
-		"id": 6251,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Richtplan (Print)",
@@ -13951,6 +13950,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6251,
 		"visibleInPortal": false
 	},
 	{
@@ -13959,7 +13959,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06252",
 		"kuerzelKunde": "ST 5-2",
 		"description": "Bewertung der Lebensqualität",
-		"id": 6252,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Richtplan (Print)",
@@ -13989,6 +13988,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6252,
 		"visibleInPortal": false
 	},
 	{
@@ -13997,7 +13997,6 @@ var indikatoren = [
 		"kuerzel": "I.11.2.06253",
 		"kuerzelKunde": "ST 6-1",
 		"description": "Anteil Einwohner pro ÖV-Güteklasse",
-		"id": 6253,
 		"thema": "11 Verkehr",
 		"unterthema": "Öffentlicher Verkehr",
 		"kennzahlenset": "Richtplan (Print)",
@@ -14026,6 +14025,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6253,
 		"visibleInPortal": false
 	},
 	{
@@ -14034,7 +14034,6 @@ var indikatoren = [
 		"kuerzel": "I.03.2.06254",
 		"kuerzelKunde": "ST 7-2",
 		"description": "Beschäftigtendichte",
-		"id": 6254,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Richtplan (Print)",
@@ -14063,6 +14062,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6254,
 		"visibleInPortal": false
 	},
 	{
@@ -14071,7 +14071,6 @@ var indikatoren = [
 		"kuerzel": "I.09.1.06255",
 		"kuerzelKunde": "ST 7-3",
 		"description": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
-		"id": 6255,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Richtplan (Print)",
@@ -14100,6 +14099,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6255,
 		"visibleInPortal": false
 	},
 	{
@@ -14108,7 +14108,6 @@ var indikatoren = [
 		"kuerzel": "I.11.2.06256",
 		"kuerzelKunde": "ST 8-1",
 		"description": "Kontinentale Erreichbarkeit",
-		"id": 6256,
 		"thema": "11 Verkehr",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Richtplan (Print)",
@@ -14140,6 +14139,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6256,
 		"visibleInPortal": false
 	},
 	{
@@ -14148,7 +14148,6 @@ var indikatoren = [
 		"kuerzel": "I.03.2.06257",
 		"kuerzelKunde": "ST 4-11",
 		"description": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
-		"id": 6257,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Richtplan (Print)",
@@ -14178,6 +14177,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6257,
 		"visibleInPortal": false
 	},
 	{
@@ -14186,7 +14186,6 @@ var indikatoren = [
 		"kuerzel": "I.02.6.06258",
 		"kuerzelKunde": "ST 6-2",
 		"description": "Verkehrsleistungsindex",
-		"id": 6258,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Mobilitätsverhalten",
 		"kennzahlenset": "Richtplan (Print)",
@@ -14215,6 +14214,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6258,
 		"visibleInPortal": false
 	},
 	{
@@ -14223,7 +14223,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.06259",
 		"kuerzelKunde": "ST 4-1",
 		"description": "Bevölkerung am Jahresende und Anzahl Wohnungen",
-		"id": 6259,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Richtplan (Print)",
@@ -14253,6 +14252,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6259,
 		"visibleInPortal": false
 	},
 	{
@@ -14261,7 +14261,6 @@ var indikatoren = [
 		"kuerzel": "I.01.9.06260",
 		"kuerzelKunde": "ST 4-4",
 		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"id": 6260,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Szenarien",
 		"kennzahlenset": "Richtplan (Print)",
@@ -14290,6 +14289,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6260,
 		"visibleInPortal": false
 	},
 	{
@@ -14298,7 +14298,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06261",
 		"kuerzelKunde": "ST 5-3",
 		"description": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
-		"id": 6261,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Richtplan (Print)",
@@ -14328,6 +14327,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6261,
 		"visibleInPortal": false
 	},
 	{
@@ -14336,7 +14336,6 @@ var indikatoren = [
 		"kuerzel": "I.09.2.06262",
 		"kuerzelKunde": "ST 7-4",
 		"description": "Leerstehende Industrie- und Gewerbeflächen",
-		"id": 6262,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Richtplan (Print)",
@@ -14365,6 +14364,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6262,
 		"visibleInPortal": false
 	},
 	{
@@ -14373,7 +14373,6 @@ var indikatoren = [
 		"kuerzel": "I.15.6.06263",
 		"kuerzelKunde": "ST 8-2",
 		"description": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
-		"id": 6263,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Richtplan (Print)",
@@ -14402,6 +14401,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6263,
 		"visibleInPortal": false
 	},
 	{
@@ -14410,7 +14410,6 @@ var indikatoren = [
 		"kuerzel": "I.01.2.06264",
 		"kuerzelKunde": "ST 5-4",
 		"description": "Indexierter Verlauf der Haushalte in Begegnungszonen",
-		"id": 6264,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Richtplan (Print)",
@@ -14440,6 +14439,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6264,
 		"visibleInPortal": false
 	},
 	{
@@ -14448,7 +14448,6 @@ var indikatoren = [
 		"kuerzel": "I.03.2.06265",
 		"kuerzelKunde": "ST 7-1",
 		"description": "Anzahl Beschäftigte nach Branche",
-		"id": 6265,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Richtplan (Print)",
@@ -14478,6 +14477,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6265,
 		"visibleInPortal": false
 	},
 	{
@@ -14486,7 +14486,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06266",
 		"kuerzelKunde": "4.10d",
 		"description": "Bewertung der Lebensqualität nach Herkunft",
-		"id": 6266,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
@@ -14518,6 +14517,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6266,
 		"visibleInPortal": true
 	},
 	{
@@ -14526,7 +14526,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.06273",
 		"kuerzelKunde": "1.2",
 		"description": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
-		"id": 6273,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -14558,6 +14557,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6273,
 		"visibleInPortal": false
 	},
 	{
@@ -14566,7 +14566,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06274",
 		"kuerzelKunde": "4.3",
 		"description": "Beurteilung der Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe",
-		"id": 6274,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -14597,6 +14596,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6274,
 		"visibleInPortal": false
 	},
 	{
@@ -14605,7 +14605,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06275",
 		"kuerzelKunde": "8.1",
 		"description": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
-		"id": 6275,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -14639,6 +14638,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6275,
 		"visibleInPortal": false
 	},
 	{
@@ -14647,7 +14647,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06276",
 		"kuerzelKunde": "9.4",
 		"description": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
-		"id": 6276,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -14679,6 +14678,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6276,
 		"visibleInPortal": false
 	},
 	{
@@ -14687,7 +14687,6 @@ var indikatoren = [
 		"kuerzel": "I.15.7.06277",
 		"kuerzelKunde": "3.1b",
 		"description": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
-		"id": 6277,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -14718,6 +14717,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6277,
 		"visibleInPortal": false
 	},
 	{
@@ -14726,7 +14726,6 @@ var indikatoren = [
 		"kuerzel": "I.11.1.06278",
 		"kuerzelKunde": "5.1",
 		"description": "Globale und kontinentale Erreichbarkeit",
-		"id": 6278,
 		"thema": "11 Verkehr",
 		"unterthema": "Hotellerie",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -14758,6 +14757,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6278,
 		"visibleInPortal": false
 	},
 	{
@@ -14766,7 +14766,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.06279",
 		"kuerzelKunde": "3.6",
 		"description": "Transnationale Patentanmeldungen pro 1000 Einwohner",
-		"id": 6279,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -14798,6 +14797,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6279,
 		"visibleInPortal": false
 	},
 	{
@@ -14806,7 +14806,6 @@ var indikatoren = [
 		"kuerzel": "I.13.2.06281",
 		"kuerzelKunde": "11.1",
 		"description": "Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung",
-		"id": 6281,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -14837,6 +14836,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6281,
 		"visibleInPortal": false
 	},
 	{
@@ -14845,7 +14845,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.06282",
 		"kuerzelKunde": "1.1",
 		"description": "Bruttoinlandprodukt in Franken pro Einwohner",
-		"id": 6282,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -14877,6 +14876,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6282,
 		"visibleInPortal": false
 	},
 	{
@@ -14885,7 +14885,6 @@ var indikatoren = [
 		"kuerzel": "I.04.2.06283",
 		"kuerzelKunde": "1.3",
 		"description": "Kantonaler Wettbewerbsindikator (KWI)",
-		"id": 6283,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -14916,6 +14915,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6283,
 		"visibleInPortal": false
 	},
 	{
@@ -14924,7 +14924,6 @@ var indikatoren = [
 		"kuerzel": "I.04.2.06284",
 		"kuerzelKunde": "1.4",
 		"description": "Kantonales Wettbewerbsprofil",
-		"id": 6284,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -14953,6 +14952,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6284,
 		"visibleInPortal": false
 	},
 	{
@@ -14961,7 +14961,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.06285",
 		"kuerzelKunde": "1.5",
 		"description": "Steuereinnahmen aus Quellensteuer",
-		"id": 6285,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -14990,6 +14989,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6285,
 		"visibleInPortal": false
 	},
 	{
@@ -14998,7 +14998,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.06286",
 		"kuerzelKunde": "2.1",
 		"description": "NFA-Ressourcenindex",
-		"id": 6286,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15027,6 +15026,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6286,
 		"visibleInPortal": false
 	},
 	{
@@ -15035,7 +15035,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.06287",
 		"kuerzelKunde": "2.6a",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"id": 6287,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15067,6 +15066,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6287,
 		"visibleInPortal": false
 	},
 	{
@@ -15075,7 +15075,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.06288",
 		"kuerzelKunde": "2.3",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
-		"id": 6288,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15104,6 +15103,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6288,
 		"visibleInPortal": false
 	},
 	{
@@ -15112,7 +15112,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.06289",
 		"kuerzelKunde": "2.5",
 		"description": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
-		"id": 6289,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15141,6 +15140,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6289,
 		"visibleInPortal": false
 	},
 	{
@@ -15149,7 +15149,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06290",
 		"kuerzelKunde": "2.8",
 		"description": "Beurteilung der kantonalen Steuern",
-		"id": 6290,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15179,6 +15178,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6290,
 		"visibleInPortal": false
 	},
 	{
@@ -15187,7 +15187,6 @@ var indikatoren = [
 		"kuerzel": "I.18.2.06291",
 		"kuerzelKunde": "2.7a",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"id": 6291,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15216,6 +15215,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6291,
 		"visibleInPortal": false
 	},
 	{
@@ -15224,7 +15224,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06292",
 		"kuerzelKunde": "3.3",
 		"description": "Höchste abgeschlossene Ausbildung",
-		"id": 6292,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15255,6 +15254,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6292,
 		"visibleInPortal": false
 	},
 	{
@@ -15263,7 +15263,6 @@ var indikatoren = [
 		"kuerzel": "I.03.4.06293",
 		"kuerzelKunde": "3.4",
 		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
-		"id": 6293,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15294,6 +15293,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6293,
 		"visibleInPortal": false
 	},
 	{
@@ -15302,7 +15302,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.06294",
 		"kuerzelKunde": "3.5",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
-		"id": 6294,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15335,6 +15334,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6294,
 		"visibleInPortal": false
 	},
 	{
@@ -15343,7 +15343,6 @@ var indikatoren = [
 		"kuerzel": "I.04.2.06295",
 		"kuerzelKunde": "3.7",
 		"description": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft",
-		"id": 6295,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15375,6 +15374,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6295,
 		"visibleInPortal": false
 	},
 	{
@@ -15383,7 +15383,6 @@ var indikatoren = [
 		"kuerzel": "I.03.2.06296",
 		"kuerzelKunde": "3.8",
 		"description": "Anteil der Beschäftigten in innovativen Branchen an der gesamten Beschäftigung (Vollzeitäquivalente)",
-		"id": 6296,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15412,6 +15411,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6296,
 		"visibleInPortal": false
 	},
 	{
@@ -15420,7 +15420,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.06297",
 		"kuerzelKunde": "4.1",
 		"description": "Bevölkerungsbestand am Jahresende",
-		"id": 6297,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15449,6 +15448,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6297,
 		"visibleInPortal": false
 	},
 	{
@@ -15457,7 +15457,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.06298",
 		"kuerzelKunde": "4.2",
 		"description": "Bevölkerung nach sozioprofessioneller Kategorie",
-		"id": 6298,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15486,6 +15485,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6298,
 		"visibleInPortal": false
 	},
 	{
@@ -15494,7 +15494,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06299",
 		"kuerzelKunde": "4.5",
 		"description": "Beurteilung von gesellschaftlicher Vielfalt",
-		"id": 6299,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15526,6 +15525,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6299,
 		"visibleInPortal": false
 	},
 	{
@@ -15534,7 +15534,6 @@ var indikatoren = [
 		"kuerzel": "I.03.3.06300",
 		"kuerzelKunde": "4.6",
 		"description": "Verhältnis der Löhne von Frauen und Männern in Basel-Stadt",
-		"id": 6300,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Löhne ",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15566,6 +15565,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6300,
 		"visibleInPortal": false
 	},
 	{
@@ -15574,7 +15574,6 @@ var indikatoren = [
 		"kuerzel": "I.03.1.06301",
 		"kuerzelKunde": "4.7",
 		"description": "Anteil Arbeitnehmende in Unternehmensleitung oder Vorgesetztenfunktion nach Geschlecht",
-		"id": 6301,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Erwerbspersonen ",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15606,6 +15605,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6301,
 		"visibleInPortal": false
 	},
 	{
@@ -15614,7 +15614,6 @@ var indikatoren = [
 		"kuerzel": "I.01.6.06302",
 		"kuerzelKunde": "4.8",
 		"description": "Einbürgerungsziffer der Ausländer sowie Ausländeranteil",
-		"id": 6302,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15648,6 +15647,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6302,
 		"visibleInPortal": false
 	},
 	{
@@ -15656,7 +15656,6 @@ var indikatoren = [
 		"kuerzel": "I.18.2.06303",
 		"kuerzelKunde": "4.9",
 		"description": "Mittelwert und Median des Reineinkommens im Kanton Basel-Stadt",
-		"id": 6303,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15687,6 +15686,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6303,
 		"visibleInPortal": false
 	},
 	{
@@ -15695,7 +15695,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06304",
 		"kuerzelKunde": "4.10a",
 		"description": "Bewertung der Lebensqualität nach Geschlecht",
-		"id": 6304,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15724,6 +15723,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6304,
 		"visibleInPortal": false
 	},
 	{
@@ -15732,7 +15732,6 @@ var indikatoren = [
 		"kuerzel": "I.01.5.06305",
 		"kuerzelKunde": "4.11",
 		"description": "Segregationsindex nach Staatsangehörigkeit",
-		"id": 6305,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15762,6 +15761,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6305,
 		"visibleInPortal": false
 	},
 	{
@@ -15770,7 +15770,6 @@ var indikatoren = [
 		"kuerzel": "I.11.6.06306",
 		"kuerzelKunde": "5.2",
 		"description": "Verkehrsleistungsindex",
-		"id": 6306,
 		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15799,6 +15798,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6306,
 		"visibleInPortal": false
 	},
 	{
@@ -15807,7 +15807,6 @@ var indikatoren = [
 		"kuerzel": "I.06.4.06307",
 		"kuerzelKunde": "5.3",
 		"description": "Transit durch die Region Basel",
-		"id": 6307,
 		"thema": "06 Produktion, Handel",
 		"unterthema": "Aussenhandel",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15839,6 +15838,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6307,
 		"visibleInPortal": false
 	},
 	{
@@ -15847,7 +15847,6 @@ var indikatoren = [
 		"kuerzel": "I.11.6.06308",
 		"kuerzelKunde": "5.4",
 		"description": "Jährlich durch  Stau generierte Verzögerungszeit",
-		"id": 6308,
 		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15876,6 +15875,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6308,
 		"visibleInPortal": false
 	},
 	{
@@ -15884,7 +15884,6 @@ var indikatoren = [
 		"kuerzel": "I.02.5.06309",
 		"kuerzelKunde": "7.7",
 		"description": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO2) und Feinstaub (PM10)",
-		"id": 6309,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15913,6 +15912,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6309,
 		"visibleInPortal": false
 	},
 	{
@@ -15921,7 +15921,6 @@ var indikatoren = [
 		"kuerzel": "I.02.5.06310",
 		"kuerzelKunde": "5.5",
 		"description": "CO<sub>2</sub>-Emissionen Verkehr",
-		"id": 6310,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15952,6 +15951,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6310,
 		"visibleInPortal": false
 	},
 	{
@@ -15960,7 +15960,6 @@ var indikatoren = [
 		"kuerzel": "I.02.14.06311",
 		"kuerzelKunde": "7.8",
 		"description": "Übermässig mit Lärm belastete Wohnbevölkerung",
-		"id": 6311,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Lärm",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -15990,6 +15989,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6311,
 		"visibleInPortal": false
 	},
 	{
@@ -15998,7 +15998,6 @@ var indikatoren = [
 		"kuerzel": "I.08.1.06312",
 		"kuerzelKunde": "7.1",
 		"description": "Endenergieverbrauch nach Verbrauchergruppe",
-		"id": 6312,
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16027,6 +16026,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6312,
 		"visibleInPortal": false
 	},
 	{
@@ -16035,7 +16035,6 @@ var indikatoren = [
 		"kuerzel": "I.08.3.06313",
 		"kuerzelKunde": "7.2",
 		"description": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
-		"id": 6313,
 		"thema": "08 Energie",
 		"unterthema": "Erneuerbare",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16065,6 +16064,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6313,
 		"visibleInPortal": false
 	},
 	{
@@ -16073,7 +16073,6 @@ var indikatoren = [
 		"kuerzel": "I.09.6.06314",
 		"kuerzelKunde": "7.3",
 		"description": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
-		"id": 6314,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Entsorgung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16102,6 +16101,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6314,
 		"visibleInPortal": false
 	},
 	{
@@ -16110,7 +16110,6 @@ var indikatoren = [
 		"kuerzel": "I.02.19.06315",
 		"kuerzelKunde": "7.4",
 		"description": "Wasserqualität: AOX-Fracht",
-		"id": 6315,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16141,6 +16140,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6315,
 		"visibleInPortal": false
 	},
 	{
@@ -16149,7 +16149,6 @@ var indikatoren = [
 		"kuerzel": "I.02.5.06316",
 		"kuerzelKunde": "7.5",
 		"description": "CO<sub>2</sub>-Emissionen",
-		"id": 6316,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16180,6 +16179,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6316,
 		"visibleInPortal": false
 	},
 	{
@@ -16188,7 +16188,6 @@ var indikatoren = [
 		"kuerzel": "I.02.19.06317",
 		"kuerzelKunde": "7.6",
 		"description": "Wassertemperatur Grundwasser",
-		"id": 6317,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16217,6 +16216,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6317,
 		"visibleInPortal": false
 	},
 	{
@@ -16225,7 +16225,6 @@ var indikatoren = [
 		"kuerzel": "I.16.1.06318",
 		"kuerzelKunde": "8.2",
 		"description": "Anzahl Besuche in Theater, Kinos und Museen",
-		"id": 6318,
 		"thema": "16 Kultur und Sport",
 		"unterthema": "Kultureinrichtungen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16255,6 +16254,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6318,
 		"visibleInPortal": false
 	},
 	{
@@ -16263,7 +16263,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.06319",
 		"kuerzelKunde": "8.3",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
-		"id": 6319,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16296,6 +16295,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6319,
 		"visibleInPortal": false
 	},
 	{
@@ -16304,7 +16304,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.06320",
 		"kuerzelKunde": "9.2",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
-		"id": 6320,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16337,6 +16336,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6320,
 		"visibleInPortal": false
 	},
 	{
@@ -16345,7 +16345,6 @@ var indikatoren = [
 		"kuerzel": "I.13.2.06321",
 		"kuerzelKunde": "9.3",
 		"description": "Anzahl Bezüger von Prämienverbilligungen",
-		"id": 6321,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16374,6 +16373,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6321,
 		"visibleInPortal": false
 	},
 	{
@@ -16382,7 +16382,6 @@ var indikatoren = [
 		"kuerzel": "I.14.1.06322",
 		"kuerzelKunde": "9.5",
 		"description": "Stationäre Fälle in Basler Spitälern",
-		"id": 6322,
 		"thema": "14 Gesundheit",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16411,6 +16410,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6322,
 		"visibleInPortal": false
 	},
 	{
@@ -16419,7 +16419,6 @@ var indikatoren = [
 		"kuerzel": "I.14.3.06323",
 		"kuerzelKunde": "10.1",
 		"description": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
-		"id": 6323,
 		"thema": "14 Gesundheit",
 		"unterthema": "Sterblichkeit",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16449,6 +16448,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6323,
 		"visibleInPortal": false
 	},
 	{
@@ -16457,7 +16457,6 @@ var indikatoren = [
 		"kuerzel": "I.14.3.06324",
 		"kuerzelKunde": "10.2",
 		"description": "Strassenverkehrsunfälle und verunfallte Personen",
-		"id": 6324,
 		"thema": "14 Gesundheit",
 		"unterthema": "Sterblichkeit",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16486,6 +16485,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6324,
 		"visibleInPortal": false
 	},
 	{
@@ -16494,7 +16494,6 @@ var indikatoren = [
 		"kuerzel": "I.14.3.06326",
 		"kuerzelKunde": "10.3",
 		"description": "Anzahl Störfälle und Ereignisse",
-		"id": 6326,
 		"thema": "14 Gesundheit",
 		"unterthema": "Sterblichkeit",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16523,6 +16522,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6326,
 		"visibleInPortal": false
 	},
 	{
@@ -16531,7 +16531,6 @@ var indikatoren = [
 		"kuerzel": "I.13.2.06327",
 		"kuerzelKunde": "11.2",
 		"description": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
-		"id": 6327,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16561,6 +16560,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6327,
 		"visibleInPortal": false
 	},
 	{
@@ -16569,7 +16569,6 @@ var indikatoren = [
 		"kuerzel": "I.13.2.06328",
 		"kuerzelKunde": "11.3",
 		"description": "Sozialhilfequote nach Altersgruppe",
-		"id": 6328,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16599,6 +16598,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6328,
 		"visibleInPortal": false
 	},
 	{
@@ -16607,7 +16607,6 @@ var indikatoren = [
 		"kuerzel": "I.13.2.06329",
 		"kuerzelKunde": "11.4",
 		"description": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
-		"id": 6329,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16637,6 +16636,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6329,
 		"visibleInPortal": false
 	},
 	{
@@ -16645,7 +16645,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.06330",
 		"kuerzelKunde": "11.5",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
-		"id": 6330,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16678,6 +16677,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6330,
 		"visibleInPortal": false
 	},
 	{
@@ -16686,7 +16686,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06331",
 		"kuerzelKunde": "12.1",
 		"description": "Vertretung der Anliegen der Bevölkerung durch Behörden",
-		"id": 6331,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16717,6 +16716,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6331,
 		"visibleInPortal": false
 	},
 	{
@@ -16725,7 +16725,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06332",
 		"kuerzelKunde": "12.2",
 		"description": "Beurteilung der kantonalen Verwaltung",
-		"id": 6332,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16755,6 +16754,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6332,
 		"visibleInPortal": false
 	},
 	{
@@ -16763,7 +16763,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.06333",
 		"kuerzelKunde": "2.6b",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"id": 6333,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16795,6 +16794,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6333,
 		"visibleInPortal": false
 	},
 	{
@@ -16803,7 +16803,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.06334",
 		"kuerzelKunde": "2.6c",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"id": 6334,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16835,6 +16834,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6334,
 		"visibleInPortal": false
 	},
 	{
@@ -16843,7 +16843,6 @@ var indikatoren = [
 		"kuerzel": "I.18.1.06335",
 		"kuerzelKunde": "2.4",
 		"description": "Kantonales BIP im Vergleich zu den Staatsausgaben",
-		"id": 6335,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatsrechnung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16873,6 +16872,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6335,
 		"visibleInPortal": false
 	},
 	{
@@ -16881,7 +16881,6 @@ var indikatoren = [
 		"kuerzel": "I.15.7.06336",
 		"kuerzelKunde": "3.1a",
 		"description": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
-		"id": 6336,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16912,6 +16911,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6336,
 		"visibleInPortal": false
 	},
 	{
@@ -16920,7 +16920,6 @@ var indikatoren = [
 		"kuerzel": "I.15.3.06337",
 		"kuerzelKunde": "3.2",
 		"description": "Anzahl Lernende an Basler Berufsfachschulen",
-		"id": 6337,
 		"thema": "15 Bildung",
 		"unterthema": "Berufsfachschulen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16949,6 +16948,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6337,
 		"visibleInPortal": false
 	},
 	{
@@ -16957,7 +16957,6 @@ var indikatoren = [
 		"kuerzel": "I.13.2.06338",
 		"kuerzelKunde": "4.4",
 		"description": "Anzahl Plätze in Tagesbetreuungsangeboten",
-		"id": 6338,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -16986,6 +16985,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6338,
 		"visibleInPortal": false
 	},
 	{
@@ -16994,7 +16994,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.06339",
 		"kuerzelKunde": "2.2",
 		"description": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken",
-		"id": 6339,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -17024,6 +17023,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6339,
 		"visibleInPortal": false
 	},
 	{
@@ -17032,7 +17032,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06340",
 		"kuerzelKunde": "4.10b",
 		"description": "Bewertung der Lebensqualität nach Alter",
-		"id": 6340,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -17061,6 +17060,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6340,
 		"visibleInPortal": false
 	},
 	{
@@ -17069,7 +17069,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06341",
 		"kuerzelKunde": "4.10c",
 		"description": "Bewertung der Lebensqualität nach Einkommensklasse",
-		"id": 6341,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -17098,6 +17097,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6341,
 		"visibleInPortal": false
 	},
 	{
@@ -17106,7 +17106,6 @@ var indikatoren = [
 		"kuerzel": "I.18.2.06342",
 		"kuerzelKunde": "2.7b",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"id": 6342,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -17135,6 +17134,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6342,
 		"visibleInPortal": false
 	},
 	{
@@ -17143,7 +17143,6 @@ var indikatoren = [
 		"kuerzel": "I.18.2.06343",
 		"kuerzelKunde": "2.7c",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"id": 6343,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -17172,6 +17171,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6343,
 		"visibleInPortal": false
 	},
 	{
@@ -17180,7 +17180,6 @@ var indikatoren = [
 		"kuerzel": "I.50.1.06344",
 		"kuerzelKunde": "4.10d",
 		"description": "Bewertung der Lebensqualität nach Herkunft",
-		"id": 6344,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -17210,6 +17209,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6344,
 		"visibleInPortal": false
 	},
 	{
@@ -17218,7 +17218,6 @@ var indikatoren = [
 		"kuerzel": "I.14.4.06346",
 		"kuerzelKunde": "9.1",
 		"description": "Medianprämie pro Prämienregion",
-		"id": 6346,
 		"thema": "14 Gesundheit",
 		"unterthema": "Prävention, Praxen, Rettung",
 		"kennzahlenset": "Legislaturplan",
@@ -17251,6 +17250,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6346,
 		"visibleInPortal": true
 	},
 	{
@@ -17259,7 +17259,6 @@ var indikatoren = [
 		"kuerzel": "I.03.2.06347",
 		"kuerzelKunde": "2.5",
 		"description": "Anzahl Beschäftigte nach Branche",
-		"id": 6347,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Legislaturplan",
@@ -17291,6 +17290,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6347,
 		"visibleInPortal": false
 	},
 	{
@@ -17299,7 +17299,6 @@ var indikatoren = [
 		"kuerzel": "I.04.2.06348",
 		"kuerzelKunde": "1.2",
 		"description": "Standortqualitätsindikator (SQI)",
-		"id": 6348,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Legislaturplan",
@@ -17330,6 +17329,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6348,
 		"visibleInPortal": true
 	},
 	{
@@ -17338,7 +17338,6 @@ var indikatoren = [
 		"kuerzel": "I.04.1.03086",
 		"kuerzelKunde": "2.4",
 		"description": "Durch BaselArea unterstützte internationale Ansiedlungen",
-		"id": 6368,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -17371,6 +17370,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6368,
 		"visibleInPortal": false
 	},
 	{
@@ -17379,7 +17379,6 @@ var indikatoren = [
 		"kuerzel": "I.03.2.05041",
 		"kuerzelKunde": "2.3",
 		"description": "Neugründungen in Basel-Stadt",
-		"id": 6369,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -17409,6 +17408,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6369,
 		"visibleInPortal": false
 	},
 	{
@@ -17417,7 +17417,6 @@ var indikatoren = [
 		"kuerzel": "I.14.4.06346",
 		"kuerzelKunde": "9.1",
 		"description": "Medianprämie pro Prämienregion",
-		"id": 6370,
 		"thema": "14 Gesundheit",
 		"unterthema": "Prävention, Praxen, Rettung",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -17448,6 +17447,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6370,
 		"visibleInPortal": false
 	},
 	{
@@ -17456,7 +17456,6 @@ var indikatoren = [
 		"kuerzel": "I.03.2.06347",
 		"kuerzelKunde": "2.5",
 		"description": "Anzahl Beschäftigte nach Branche",
-		"id": 6371,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -17486,6 +17485,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6371,
 		"visibleInPortal": false
 	},
 	{
@@ -17494,7 +17494,6 @@ var indikatoren = [
 		"kuerzel": "I.04.2.06348",
 		"kuerzelKunde": "1.2",
 		"description": "Standortqualitätsindikator (SQI)",
-		"id": 6372,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Legislaturplan (Print)",
@@ -17523,6 +17522,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 6372,
 		"visibleInPortal": false
 	},
 	{
@@ -17531,7 +17531,6 @@ var indikatoren = [
 		"kuerzel": "I.02.1.05807",
 		"kuerzelKunde": "ST 2-1",
 		"description": "Anteil Fläche nach Art der Bodenbedeckung",
-		"id": 9998,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"kennzahlenset": "Test",
@@ -17559,6 +17558,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 9998,
 		"visibleInPortal": false
 	},
 	{
@@ -17567,7 +17567,6 @@ var indikatoren = [
 		"kuerzel": "I.01.1.09999",
 		"kuerzelKunde": "ST 11-2",
 		"description": "Test Daten",
-		"id": 9999,
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
 		"kennzahlenset": "Test",
@@ -17604,6 +17603,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"id": 9999,
 		"visibleInPortal": false
 	}
 ];
