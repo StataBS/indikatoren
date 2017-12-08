@@ -1,5 +1,6 @@
 var fs = require("fs");
 var glob = require("glob");
+var path = require("path");
 var indikatorenInPortal = [];
 var allIndikatoren = [];
 var kuerzelById = {};
@@ -20,6 +21,11 @@ files.forEach(function(filepath){
         delete indikator.visibleInPortal;
         delete indikator.visible;
         delete indikator.option;
+        
+	    //retrieve id from filename instead of from file contents
+	    var idFromFileName = path.basename(filepath, path.extname(filepath));
+        delete indikator.id;
+        indikator.id = parseInt(idFromFileName, 10);
         
         allIndikatoren.push(indikator);
         /*
