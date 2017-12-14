@@ -287,7 +287,8 @@ var indikatorensetData = [
 			"BAK Economics"
 		],
 		"externalLinks": [
-			""
+			"Weiterführende Informationen: <a href = 'https://www.bak-economics.com/en/solutions/regional-analysis/region-international/location-factors/erreichbarkeit/' target = '_blank'>BAK Economics</a> und",
+			"<a href = 'http://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/erreichbarkeit.html' target = '_blank'>Amt für Mobilität</a>"
 		],
 		"id": 3104
 	},

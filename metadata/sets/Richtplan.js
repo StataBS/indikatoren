@@ -553,11 +553,11 @@ var indikatorensetData = [
 	{
 		"title": "Kontinentale Erreichbarkeit",
 		"subtitle": "Stadt Basel im nationalen Vergleich",
-		"kuerzel": "I.11.2.05891",
+		"kuerzel": "I.11.6.05891",
 		"kuerzelKunde": "ST 8-1",
 		"description": "Kontinentale Erreichbarkeit",
 		"thema": "11 Verkehr",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Mobilitätsverhalten",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -580,7 +580,6 @@ var indikatorensetData = [
 		"orderKey": "02_05_00_00_00_001",
 		"parentId": null,
 		"children": [
-			"6119",
 			"6256"
 		],
 		"renderLink": [],
@@ -588,7 +587,8 @@ var indikatorensetData = [
 			"BAK Economics"
 		],
 		"externalLinks": [
-			""
+			"Weiterführende Informationen <a href = 'https://www.bak-economics.com/en/solutions/regional-analysis/region-international/location-factors/erreichbarkeit/' target = '_blank'>BAK Economics</a>, und",
+			"<a href = 'http://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/erreichbarkeit.html' target = '_blank'>Amt für Mobilität</a>"
 		],
 		"id": 5891
 	},
