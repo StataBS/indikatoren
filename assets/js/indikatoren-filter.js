@@ -66,7 +66,17 @@ $(document).ready(function(){
           return val;
         });
       }
-      initializeFilterJS(indikatorenset);
+      
+      //determine how many chart previews to display
+      var perPage = window.decodeURIComponent($.url('?PerPage'));
+      //parameter must be an int, see https://stackoverflow.com/a/14636652 
+      if (perPage > 0 && perPage <= 32){
+        perPage=perPage;
+      }
+      else {
+        perPage=16;
+      }
+      initializeFilterJS(indikatorenset, perPage);
   });  
 });
 
@@ -92,7 +102,8 @@ function resetPortalFilter(FJS, view){
 }
 
 
-function initializeFilterJS(indikatorenset){
+function initializeFilterJS(indikatorenset, perPage){
+  console.log('perPage: ' + perPage);
   var fjsConfig = {      
     template: undefined,
     search: { ele: '#searchbox', start_length: 1},
@@ -104,7 +115,7 @@ function initializeFilterJS(indikatorenset){
       container: '#pagination',
       visiblePages: 5,
       perPage: {
-        values: [16, 30, 100],
+        values: [perPage, 30, 100],
         container: '#per_page'
       },
     }
