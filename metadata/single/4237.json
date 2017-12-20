@@ -18,13 +18,11 @@
 "lesehilfe":"",
 "erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target='_blank'>Umweltbericht beider Basel</a>.",
 "template":"dotplot",
-"option":"options001",
 "visible":true,
-"visibleInPortal":false,
 "orderKey":"16_00_00_00_00_000",
 "parentId":6166,
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"externalLinks":["<a href = 'http://www.aue.bs.ch/wasser/grundwasser/grundwasserpegel-grundwasserqualitaet.html' target = '_blank'>Hydrologisches Jahrbuch BS</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target = '_blank'>Umweltbericht beider Basel</a>"]
+"externalLinks":["<a href = 'http://www.aue.bs.ch/wasser/grundwasser/grundwasserpegel-grundwasserqualitaet.html' target = '_blank'>Hydrologisches Jahrbuch BS</a>","Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target = '_blank'>Umweltbericht beider Basel</a>"]
 }

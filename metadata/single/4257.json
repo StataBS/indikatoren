@@ -18,13 +18,11 @@
 "lesehilfe":"",
 "erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0207' target='_blank'>Umweltbericht beider Basel</a>.",
 "template":"dotplot",
-"option":"options001",
 "visible":true,
-"visibleInPortal":false,
 "orderKey":"02_00_00_00_00_000",
 "parentId":null,
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"externalLinks":["<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983151/index.html' target = '_blank'>Altlasten-Verordnung (SR 814.680)</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0207' target = '_blank'>Umweltbericht beider Basel</a>"]
+"externalLinks":["<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983151/index.html' target = '_blank'>Altlasten-Verordnung (SR 814.680)</a>","Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0207' target = '_blank'>Umweltbericht beider Basel</a>"]
 }

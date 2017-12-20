@@ -18,13 +18,11 @@
 "lesehilfe":"",
 "erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-03-0301' target='_blank'>Umweltbericht beider Basel</a>.",
 "template":"dotplot",
-"option":"options001",
 "visible":true,
-"visibleInPortal":false,
 "orderKey":"03_00_00_00_00_000",
 "parentId":null,
 "children":[],
 "renderLink":[],
 "quellenangabe":["Stadtgärtnerei Basel-Stadt"],
-"externalLinks":["<a href = 'http://www.stadtgaertnerei.bs.ch/oekologische-verantwortung/naturschutzkonzept.html' target = '_blank'>Naturschutz BS</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-03-0301' target = '_blank'>Umweltbericht beider Basel</a>"]
+"externalLinks":["<a href = 'http://www.stadtgaertnerei.bs.ch/oekologische-verantwortung/naturschutzkonzept.html' target = '_blank'>Naturschutz BS</a>","Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-03-0301' target = '_blank'>Umweltbericht beider Basel</a>"]
 }

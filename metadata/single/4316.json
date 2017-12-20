@@ -18,13 +18,11 @@
 "lesehilfe":"",
 "erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0705' target='_blank'>Umweltbericht beider Basel</a>.",
 "template":"dotplot",
-"option":"options001",
 "visible":true,
-"visibleInPortal":false,
 "orderKey":"07_00_00_00_00_000",
 "parentId":null,
 "children":[],
 "renderLink":[],
 "quellenangabe":["Gebäudeversicherung des Kantons Basel-Stadt"],
-"externalLinks":["<a href = 'https://www.gvbs.ch/' target = '_blank'>Gebäudeversicherung Basel-Stadt</a>","<a href = 'http://www.gesetzessammlung.bs.ch/frontend/versions/3977' target = '_blank'>Gebäudeversicherungsgesetz Basel-Stadt</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0705' target = '_blank'>Umweltbericht beider Basel</a>"]
+"externalLinks":["<a href = 'https://www.gvbs.ch/' target = '_blank'>Gebäudeversicherung Basel-Stadt</a>","<a href = 'http://www.gesetzessammlung.bs.ch/frontend/versions/3977' target = '_blank'>Gebäudeversicherungsgesetz Basel-Stadt</a>","Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0705' target = '_blank'>Umweltbericht beider Basel</a>"]
 }

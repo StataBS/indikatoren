@@ -18,13 +18,11 @@
 "lesehilfe":"",
 "erlaeuterungen":"Jährlicher Stromverbrauch nach Produktionsart.<br><br>Die Daten zum Stromverbrauch werden im Rahmen der Energiestatistik bei den Energieversorgungsunternehmen erhoben.",
 "template":"dotplot",
-"option":"options001",
 "visible":true,
-"visibleInPortal":false,
 "orderKey":"06_00_00_00_00_000",
 "parentId":null,
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt"],
-"externalLinks":["<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0613' target = '_blank'>Umweltbericht beider Basel</a>"]
+"externalLinks":["<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>","Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0613' target = '_blank'>Umweltbericht beider Basel</a>"]
 }
