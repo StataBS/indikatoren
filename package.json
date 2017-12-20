@@ -8,8 +8,8 @@
     "highcharts": "5.0.7",
     "jquery": "3.1.1",
     "proj4": "2.4.3",
-    "seedrandom": "2.4.2", 
-    "filter-js" : "git://github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936"
+    "seedrandom": "2.4.2",
+    "filter-js": "git://github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936"
   },
   "devDependencies": {
     "casperjs": "1.1.4",
