@@ -28,23 +28,7 @@ files.forEach(function(filepath){
         indikator.id = parseInt(idFromFileName, 10);
         
         allIndikatoren.push(indikator);
-        /*
-        if (indikator.visibleInPortal == undefined || indikator.visibleInPortal == true) {
-            //Special case for Umwelt charts: Hide from Portal view //, if no complete text in field erlaeuterungen
-            //if (indikator.kennzahlenset == 'Umwelt' && indikator.erlaeuterungen.startsWith('Eine detaillierte Beschreibung des Indikators')){
-            if (indikator.kennzahlenset == 'Umwelt'){
-                //console.log(filepath + ' is Umwelt Indikator ' + 'with no complete erlaeuterungen' + ', thus hiding in portal view');
-                console.log(filepath + ' is Umwelt Indikator ' + ', thus hiding in portal view');
-            }
-            else {
-                console.log(filepath + ' is visibleInPortal, proceeding with adding to portal/indikatoren.json, all/indikatoren.json...');
-                indikatorenInPortal.push(indikator);
-            }
-        }
-        else {
-            console.log(filepath + ' is NOT visibleInPortal, ignoring for portal/indikatoren.json but adding to all/indikatoren.json');
-        } 
-        */
+
         kuerzelById[indikator.id] = indikator.kuerzel;
         idByKuerzel[indikator.kuerzel] = indikator.id.toString();
         templatesById[indikator.id] = indikator.template;
@@ -58,8 +42,8 @@ files.forEach(function(filepath){
 //handle visibleInPortal
 allIndikatoren.forEach((element, i, arr) => {
 	//is chart member of a print kennzahlenset?
-	if (element.kennzahlenset.toLowerCase().includes('print') || element.kennzahlenset == "Umwelt" || element.kennzahlenset == "Test" ) {
-		console.log(element.id + ' is in Umwelt, Test or a print kennzahlenset [' + element.kennzahlenset + '], setting visibleInPortal to false...');
+	if (element.kennzahlenset.toLowerCase().includes('print') || (element.kennzahlenset == "Umwelt" && element.erlaeuterungen.indexOf("Eine detaillierte Beschreibung des Indikators") == 0 ) || element.kennzahlenset == "Test" ) {
+		console.log(element.id + ' is in Test or a print kennzahlenset [' + element.kennzahlenset + '], or in Umwelt Kennzahlenset without an expressive field erlaeuterungen [' + element.erlaeuterungen.substring(0, 10) + '...] setting visibleInPortal to false...');
 		element.visibleInPortal = false;
 	}
 	else {
