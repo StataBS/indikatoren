@@ -1,0 +1,396 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "data": [
+        [
+          "0-4",
+          -2731
+        ],
+        [
+          "5-9",
+          -1603
+        ],
+        [
+          "10-14",
+          -914
+        ],
+        [
+          "15-19",
+          -1001
+        ],
+        [
+          "20-24",
+          -3677
+        ],
+        [
+          "25-29",
+          -7790
+        ],
+        [
+          "30-34",
+          -7691
+        ],
+        [
+          "35-39",
+          -5538
+        ],
+        [
+          "40-44",
+          -3539
+        ],
+        [
+          "45-49",
+          -2543
+        ],
+        [
+          "50-54",
+          -1962
+        ],
+        [
+          "55-59",
+          -1448
+        ],
+        [
+          "60-64",
+          -1313
+        ],
+        [
+          "65-69",
+          -959
+        ],
+        [
+          "70-74",
+          -388
+        ],
+        [
+          "75-79",
+          -216
+        ],
+        [
+          "\u003E79",
+          -252
+        ]
+      ],
+      "name": "Weggezogene",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          "0-4",
+          3881
+        ],
+        [
+          "5-9",
+          2568
+        ],
+        [
+          "10-14",
+          1884
+        ],
+        [
+          "15-19",
+          2514
+        ],
+        [
+          "20-24",
+          9797
+        ],
+        [
+          "25-29",
+          17811
+        ],
+        [
+          "30-34",
+          13862
+        ],
+        [
+          "35-39",
+          9196
+        ],
+        [
+          "40-44",
+          6337
+        ],
+        [
+          "45-49",
+          4565
+        ],
+        [
+          "50-54",
+          2931
+        ],
+        [
+          "55-59",
+          1666
+        ],
+        [
+          "60-64",
+          827
+        ],
+        [
+          "65-69",
+          427
+        ],
+        [
+          "70-74",
+          219
+        ],
+        [
+          "75-79",
+          170
+        ],
+        [
+          "\u003E79",
+          167
+        ]
+      ],
+      "name": "Zugezogene",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#000000",
+      "data": [
+        [
+          "0-4",
+          1150
+        ],
+        [
+          "5-9",
+          965
+        ],
+        [
+          "10-14",
+          970
+        ],
+        [
+          "15-19",
+          1513
+        ],
+        [
+          "20-24",
+          6120
+        ],
+        [
+          "25-29",
+          10021
+        ],
+        [
+          "30-34",
+          6171
+        ],
+        [
+          "35-39",
+          3658
+        ],
+        [
+          "40-44",
+          2798
+        ],
+        [
+          "45-49",
+          2022
+        ],
+        [
+          "50-54",
+          969
+        ],
+        [
+          "55-59",
+          218
+        ],
+        [
+          "60-64",
+          -486
+        ],
+        [
+          "65-69",
+          -532
+        ],
+        [
+          "70-74",
+          -169
+        ],
+        [
+          "75-79",
+          -46
+        ],
+        [
+          "\u003E79",
+          -85
+        ]
+      ],
+      "name": "Saldo",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": [
+    {
+      "reversed": false,
+      "type": "category",
+      "labels": {
+        "step": 1,
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickLength": 0,
+      "title": {
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickColor": "#FFFFFF"
+    },
+    {
+      "type": "category",
+      "visible": false,
+      "opposite": true,
+      "reversed": false,
+      "linkedTo": 0
+    }
+  ],
+  "chart": {
+    "type": "bar",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+                    this.credits.element.onclick = function() {};
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                          }
+                        }
+                      );
+                    }
+                }
+    },
+    "renderTo": "container-6019"
+  },
+  "plotOptions": {
+    "bar": {
+      "grouping": false
+    },
+    "series": {
+      "stacking": null,
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "groupPadding": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "2007 - 2016 zusammengefasst",
+    "align": "left"
+  },
+  "yAxis": [
+    {
+      "max": 18000,
+      "tickInterval": 6000,
+      "min": 0,
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "formatter": function () {
+                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
+            	},
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "plotLines": [
+        {
+          "value": 0,
+          "color": "white",
+          "width": 1,
+          "zIndex": 4
+        }
+      ],
+      "events": {
+        "afterSetExtremes": function (args){
+            	    this.chart.options.customFunctions.createSymmetricAxis(this);
+                }
+      }
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "y": 55,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormatter": function () {
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 0, ",", " ") + '</b><br/>';
+            }
+  },
+  "customFunctions": {
+    "createSymmetricAxis": function (axis){
+                var absMax = Math.max(Math.abs(axis.min), Math.abs(axis.max));
+                axis.setExtremes(-absMax, absMax);
+        	}
+  },
+  "exporting": {
+    "filename": "I.01.5.06019"
+  }
+}

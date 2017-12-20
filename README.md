@@ -136,8 +136,8 @@ npm run reinstall
 ```shell
 ./c9-setup.sh
 ```
-- Run application on c9: Click "Run", "New Run Configuration...", click "Runner", click "Apache httpd". Now click Run, then click the url displayed in the console log: ```https://<c9-vm-name>-<c9-username>.c9users.io```
-
+- Run application on c9: Click "Run", "New Run Configuration...", click "Runner", click "Apache httpd". Click into the field "Run Config Name" and type "Apache http" to give this configuration a name. Now click Run, then click the url displayed in the console log: ```https://<c9-vm-name>-<c9-username>.c9users.io```
+- To make this runner configuration the default, right-click the green "Run" button, click "Manage...", click "Set as Default". Now, this runner is always invoked when you click the green "Run" button.
 
 ##Licensing
 [Highcharts] (http://www.highcharts.com/) is free for personal, school or non-profit projects under the Creative Commons Attribution - Non Commercial 3.0 License.

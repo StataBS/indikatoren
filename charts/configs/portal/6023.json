@@ -1,0 +1,227 @@
+{
+  "series": [
+    {
+      "color": "#71A3B5",
+      "type": "column",
+      "pointWidth": "15",
+      "data": [
+        [
+          "Deutschland",
+          2080
+        ],
+        [
+          "Italien",
+          595
+        ],
+        [
+          "Frankreich",
+          520
+        ],
+        [
+          "USA",
+          517
+        ],
+        [
+          "UK",
+          415
+        ]
+      ],
+      "name": "Zugezogene",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73B97C",
+      "type": "column",
+      "pointWidth": "15",
+      "data": [
+        [
+          "Deutschland",
+          -1348
+        ],
+        [
+          "Italien",
+          -228
+        ],
+        [
+          "Frankreich",
+          -454
+        ],
+        [
+          "USA",
+          -480
+        ],
+        [
+          "UK",
+          -256
+        ]
+      ],
+      "name": "Weggezogene",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#000000",
+      "type": "scatter",
+      "tooltip": {
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "Deutschland",
+          732
+        ],
+        [
+          "Italien",
+          367
+        ],
+        [
+          "Frankreich",
+          66
+        ],
+        [
+          "USA",
+          37
+        ],
+        [
+          "UK",
+          159
+        ]
+      ],
+      "name": "Saldo",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "renderTo": "container-6023"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal",
+      "pointPadding": 0,
+      "groupPadding": 0.5
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Zugezogene, Weggezogene und Wanderungssaldo nach Zuzugs- und Wegzugsland 2016"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Stand: 2016",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "min": -1500
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "y": 50,
+    "itemMarginBottom": 5,
+    "itemWidth": 110,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "exporting": {
+    "filename": "I.01.5.06023"
+  }
+}
