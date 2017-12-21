@@ -3034,7 +3034,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerung",
-		"subtitle": "Anzahl Personen",
+		"subtitle": "Anzahl Personen der mittleren Wohnbevölkerung",
 		"kuerzel": "I.01.1.04318",
 		"kuerzelKunde": "1702",
 		"description": "Bevölkerung",
@@ -3070,7 +3070,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/1-bevoelkerung.html' target = '_blank'>Bevölkerungsstatistik BS</a>",
 			"<a href = 'http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Einwohner: Zentrale Begriffe BS</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1702' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1702' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4318
 	},
