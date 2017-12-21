@@ -226,7 +226,7 @@
       "fill": "#000000",
       "width": "421px"
     },
-    "text": "Anzahl Personen",
+    "text": "Anzahl Personen (der mittleren Wohnbevölkerung)",
     "align": "left",
     "widthAdjust": -44
   },
@@ -1052,7 +1052,7 @@
     "backgroundColor": "rgba(247,247,247,0.85)",
     "borderWidth": 1,
     "headerFormat": "\u003Cspan style=\"width: 80px\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style=\"padding-left: 15px; line-height: 1.4em;\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Pers.\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Pers. \u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
     "shadow": true,
     "style": {
       "color": "#333333",
@@ -1069,7 +1069,7 @@
       },
       "hideDelay": 200,
       "headerFormat": "\u003Cspan style=\"width: 80px\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style=\"padding-left: 15px; line-height: 1.4em;\"\u003E{point.key}:",
-      "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Pers.\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
+      "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Pers. \u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
       "footerFormat": "",
       "useHTML": true
     }
@@ -1422,7 +1422,7 @@
       "name": "Bevölkerung",
       "color": "#FF8028",
       "id": "BS1702_1",
-      "valueSuffix": "Anzahl Personen",
+      "valueSuffix": "Anzahl Personen (der mittleren Wohnbevölkerung)",
       "data": [
         238292,
         235606,
