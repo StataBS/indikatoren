@@ -27,7 +27,6 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_002",
 		"parentId": null,
 		"children": [
-			"6092",
 			"6242"
 		],
 		"renderLink": [],
@@ -67,7 +66,6 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_003",
 		"parentId": null,
 		"children": [
-			"6093",
 			"6243"
 		],
 		"renderLink": [],
@@ -106,7 +104,6 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_012",
 		"parentId": null,
 		"children": [
-			"6094",
 			"6244"
 		],
 		"renderLink": [],
@@ -145,7 +142,6 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_005",
 		"parentId": null,
 		"children": [
-			"6103",
 			"6245"
 		],
 		"renderLink": [],
@@ -184,7 +180,6 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_006",
 		"parentId": 6009,
 		"children": [
-			"6104",
 			"6246"
 		],
 		"renderLink": [],
@@ -223,7 +218,6 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_007",
 		"parentId": 4140,
 		"children": [
-			"6105",
 			"6247"
 		],
 		"renderLink": [],
@@ -263,7 +257,6 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_008",
 		"parentId": 4135,
 		"children": [
-			"6106",
 			"6248"
 		],
 		"renderLink": [],
@@ -302,7 +295,6 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_009",
 		"parentId": null,
 		"children": [
-			"6107",
 			"6249"
 		],
 		"renderLink": [],
@@ -375,11 +367,10 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Über 90% der Befragten sind 2015 mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2005 jeweils leicht angestiegen.",
 		"erlaeuterungen": "2003: N=1495, 2005: N=1509, 2007: N=1505, 2011: N=1516, 2015: N=1504.",
-		"template": "befragungenProzent001",
+		"template": "befragungen001",
 		"orderKey": "01_02_00_00_00_001",
 		"parentId": 4150,
 		"children": [
-			"6109",
 			"6251"
 		],
 		"renderLink": [],
@@ -420,7 +411,6 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [
 			"5165",
-			"6110",
 			"6252"
 		],
 		"renderLink": [],
@@ -459,7 +449,6 @@ var indikatorensetData = [
 		"orderKey": "01_03_00_00_00_001",
 		"parentId": null,
 		"children": [
-			"6111",
 			"6253"
 		],
 		"renderLink": [],
@@ -499,7 +488,6 @@ var indikatorensetData = [
 		"orderKey": "02_04_00_00_00_002",
 		"parentId": null,
 		"children": [
-			"6112",
 			"6254"
 		],
 		"renderLink": [],
@@ -538,7 +526,6 @@ var indikatorensetData = [
 		"orderKey": "02_04_00_00_00_003",
 		"parentId": null,
 		"children": [
-			"6114",
 			"6255"
 		],
 		"renderLink": [],
@@ -619,7 +606,6 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_011",
 		"parentId": null,
 		"children": [
-			"6120",
 			"6257"
 		],
 		"renderLink": [],
@@ -659,7 +645,6 @@ var indikatorensetData = [
 		"orderKey": "01_03_00_00_00_002",
 		"parentId": 6154,
 		"children": [
-			"6123",
 			"6258"
 		],
 		"renderLink": [],
@@ -698,13 +683,12 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_001",
 		"parentId": null,
 		"children": [
-			"6221",
 			"6259"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -738,7 +722,6 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_004",
 		"parentId": null,
 		"children": [
-			"6222",
 			"6260"
 		],
 		"renderLink": [],
@@ -778,7 +761,6 @@ var indikatorensetData = [
 		"orderKey": "01_02_00_00_00_003",
 		"parentId": null,
 		"children": [
-			"6223",
 			"6261"
 		],
 		"renderLink": [],
@@ -817,7 +799,6 @@ var indikatorensetData = [
 		"orderKey": "02_04_00_00_00_004",
 		"parentId": null,
 		"children": [
-			"6224",
 			"6262"
 		],
 		"renderLink": [],
@@ -856,7 +837,6 @@ var indikatorensetData = [
 		"orderKey": "02_05_00_00_00_002",
 		"parentId": null,
 		"children": [
-			"6225",
 			"6263"
 		],
 		"renderLink": [],
@@ -895,7 +875,6 @@ var indikatorensetData = [
 		"orderKey": "01_02_00_00_00_004",
 		"parentId": null,
 		"children": [
-			"6227",
 			"6264"
 		],
 		"renderLink": [],
@@ -936,7 +915,6 @@ var indikatorensetData = [
 		"orderKey": "02_04_00_00_00_001",
 		"parentId": null,
 		"children": [
-			"6241",
 			"6265",
 			"6347"
 		],

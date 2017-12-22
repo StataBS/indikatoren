@@ -18,12 +18,11 @@
 "lesehilfe":"Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man 2015 in den Wohnvierteln St. Alban und St. Johann. Während das Wohnviertel St. Johann einen Rückgang der BGF Arbeiten seit 1995 verzeichnete, weist das St. Alban-Quartier den stärksten Zuwachs aus.",
 "erlaeuterungen":"Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.<br> Der Rückgang im Wohnviertel St. Johann kann geht mit einer gleichzeitigen Zunahme der BGF Wohnen einher. Grund dafür waren Neubau-Projekte wie Volta West, Volta Mitte und Volta Zentrum sowie Umnutzungen generell.",
 "template":"mappie001",
-"option":"options001",
 "visible":true,
 "visibleInPortal":true,
 "orderKey":"02_04_00_00_00_003",
 "parentId":null,
-"children":["6114","6255"],
+"children":["6255"],
 "renderLink":[],
 "quellenangabe":["Planungsamt Basel-Stadt"],
 "externalLinks":[""]

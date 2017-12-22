@@ -19,6 +19,7 @@
 "erlaeuterungen":"Der Brutvogel-Index entspricht dem Verhältnis zwischen der Anzahl der tatsächlich gemessenen Arten und einer vordefinierten Bezugsgrösse. Der Index wird nur im urbanen Raum erhoben. Grössere, zusammenhängende Wälder und Landwirtschaftszonen eines Gemeindegebietes werden ausgeklammert. (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 "template":"template001",
 "visible":true,
+"visibleInPortal":true,
 "orderKey":"01_01_00_00_00_010",
 "parentId":null,
 "children":[],

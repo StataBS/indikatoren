@@ -29,7 +29,6 @@ var indikatorensetData = [
 		"orderKey": "02_00_00_00_00_002",
 		"parentId": null,
 		"children": [
-			"6125",
 			"6273"
 		],
 		"renderLink": [],
@@ -70,7 +69,6 @@ var indikatorensetData = [
 		"orderKey": "04_00_00_00_00_003",
 		"parentId": null,
 		"children": [
-			"6145",
 			"6274"
 		],
 		"renderLink": [],
@@ -114,7 +112,6 @@ var indikatorensetData = [
 		"orderKey": "08_00_00_00_00_001",
 		"parentId": null,
 		"children": [
-			"6168",
 			"6275"
 		],
 		"renderLink": [],
@@ -196,7 +193,6 @@ var indikatorensetData = [
 		"orderKey": "03_00_00_00_00_002",
 		"parentId": null,
 		"children": [
-			"6135",
 			"6277"
 		],
 		"renderLink": [],
@@ -334,11 +330,11 @@ var indikatorensetData = [
 		"id": 5033
 	},
 	{
-		"title": "Neugründungen in Basel-Stadt",
+		"title": "Anzahl Neugründungen in Basel-Stadt",
 		"subtitle": "in ausgewählten Branchen",
 		"kuerzel": "I.03.2.05041",
 		"kuerzelKunde": "2.3",
-		"description": "Neugründungen in Basel-Stadt",
+		"description": "Anzahl Neugründungen in Basel-Stadt",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Legislaturplan",
@@ -516,8 +512,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Basel-Stadt übertrifft in verschiedenen Bereichen des Kantonalen Werbeindikators den Median-Kanton, so z. B. bei «Wirtschaftsstruktur», «Innovation» und «Erreichbarkeit». Die Werte des hier dargestellten «Median-Kantons» entsprechen dem Medianwert aller Kantone der jeweiligen Säule.",
-		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt.",
+		"lesehilfe": "Basel-Stadt übertrifft in verschiedenen Bereichen des Kantonalen Wettbewerbsindikators den «Mediankanton», so z. B. bei Wirtschaftsstruktur, Innovation und Erreichbarkeit. Die Werte des hier dargestellten Mediankantons entsprechen dem Medianwert aller Kantone der jeweiligen Säule.",
+		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt. Der Mediankanton ist ein Referenzkanton, der aus den Medianwerten der jeweiligen Wettbewerbssäulen zusammengesetzt ist. Der Medianwert der jeweiligen Säule unterteiltdie Rangliste der Kantone in eine obere und eine untere Hälfte mit je 13 Kantonen. Für die Interpretation der kantonalen Wettbewerbsprofile gilt: Je höher der Wert für einen Kanton in einer Säule ist, desto besser ist seine relative Bewertung.",
 		"template": "template001",
 		"orderKey": "01_00_00_00_00_003",
 		"parentId": null,
@@ -1123,6 +1119,7 @@ var indikatorensetData = [
 		"orderKey": "04_00_00_00_00_005",
 		"parentId": null,
 		"children": [
+			"4719",
 			"6034",
 			"6299"
 		],
@@ -1608,6 +1605,7 @@ var indikatorensetData = [
 		"orderKey": "07_00_00_00_00_008",
 		"parentId": null,
 		"children": [
+			"4269",
 			"5197",
 			"6311"
 		],
@@ -1766,6 +1764,7 @@ var indikatorensetData = [
 		"orderKey": "07_00_00_00_00_004",
 		"parentId": null,
 		"children": [
+			"4231",
 			"6030",
 			"6315"
 		],
@@ -2679,9 +2678,10 @@ var indikatorensetData = [
 		"lesehilfe": "Die Nettoschulden haben sich seit dem Jahr 2000 von 19 132 auf 9 950 Franken pro Kopf im Jahr 2016 reduziert. Die Nettoschuldenquote liegt 2016 bei 3,0 ‰ des schweizerischen BIP.",
 		"erlaeuterungen": "",
 		"template": "line001",
-		"orderKey": "02_00_00_00_00_007",
-		"parentId": 5160,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
 		"children": [
+			"5160",
 			"6339"
 		],
 		"renderLink": [],

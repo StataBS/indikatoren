@@ -19,6 +19,7 @@
 "erlaeuterungen":"Gleitender Mittelwert über drei Jahre (Wert für 2015 entspricht Mittelwert der Jahre 2013-2015) der Wasserzuflussmenge der ARA Basel pro angeschlossenem Einwohner und Jahr (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>). <br>Das Einzugsgebiet der ARA Basel umfasst die Gemeinden Basel, Riehen, Bettingen, Neuwiller (F), Allschwil, Binningen, Birsfelden, Bottmingen, Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Münchenstein (Ortsteil Brüglingen).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 "template":"line001",
 "visible":true,
+"visibleInPortal":true,
 "orderKey":"01_07_00_00_00_070",
 "parentId":null,
 "children":[],
