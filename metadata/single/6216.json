@@ -18,12 +18,11 @@
 "lesehilfe":"2015 hatten die befragten Personen die Gelegenheit verschiedene Punkte, die für den Wohnort wichtig sind, einzuschätzen. Am zufriedensten sind die befragten Einwohnerinnen und Einwohner mit den Öffentlichen Verkehrsmitteln, gefolgt von den Grünanlagen. Am wenigsten zufrieden sind Sie mit den Parkplätzen und dem Angebot an Wohnungen.",
 "erlaeuterungen":"2003: N=1495, 2005: N=1509, 2007: N=1505, 2011: N=1516, 2015: N=1504.",
 "template":"befragungen001",
-"option":"options001",
 "visible":true,
 "visibleInPortal":true,
 "orderKey":"01_02_00_00_00_003",
 "parentId":null,
-"children":["6223","6261"],
+"children":["6261"],
 "renderLink":[],
 "quellenangabe":["Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"],
 "externalLinks":[""]

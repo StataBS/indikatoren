@@ -19,6 +19,7 @@
 "erlaeuterungen":"Summe der Anteile der Tempo 30-Zonen, Begegnungszonen und Fussgängerzonen (gemäss Signalisationsverordnung SSV, Art. 22a, 22b und 22c) an der Gesamtlänge der Gemeindestrassen in den Bauzonen. Nicht gezählt werden die Nationalstrassen, die Kantonsstrassen, die Privatstrassen, die unbefestigten Strassen, die Spazier- und Radwege, sowie die Güter- und Forststrassen (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 "template":"template001",
 "visible":true,
+"visibleInPortal":true,
 "orderKey":"03_40_00_00_00_510",
 "parentId":null,
 "children":[],
