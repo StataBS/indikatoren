@@ -18,12 +18,11 @@
 "lesehilfe":"Im Kanton Basel-Stadt arbeiteten 2014 rund 151 800 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von etwa 41 Beschäftigten pro Hektar. Dieser Wert lag 2011 noch bei 40 Beschäftigten.",
 "erlaeuterungen":"",
 "template":"line001",
-"option":"options001",
 "visible":true,
 "visibleInPortal":true,
 "orderKey":"02_04_00_00_00_002",
 "parentId":null,
-"children":["6112","6254"],
+"children":["6254"],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"],
 "externalLinks":[""]

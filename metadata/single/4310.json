@@ -19,10 +19,11 @@
 "erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-03-0903' target='_blank'>Umweltbericht beider Basel</a>.",
 "template":"dotplot",
 "visible":true,
+"visibleInPortal":true,
 "orderKey":"09_00_00_00_00_000",
 "parentId":null,
 "children":[],
 "renderLink":[],
 "quellenangabe":["Planungsamt Basel-Stadt"],
-"externalLinks":["<a href = 'http://www.planungsamt.bs.ch/planungsgrundlagen-konzepte/konzepte/freiraumkonzept.html' target = '_blank'>Freiraumkonzept BS</a>","Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-09-0903' target = '_blank'>Umweltbericht beider Basel</a>"]
+"externalLinks":["<a href = 'http://www.planungsamt.bs.ch/planungsgrundlagen-konzepte/konzepte/freiraumkonzept.html' target = '_blank'>Freiraumkonzept BS</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-09-0903' target = '_blank'>Umweltbericht beider Basel</a>"]
 }

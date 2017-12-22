@@ -19,6 +19,7 @@
 "erlaeuterungen":"Der Nettoverschuldungsquotient gibt an, welcher Anteil der jährlichen Fiskalerträge erforderlich wäre, um die Nettoschulden abzutragen. Er wird berechnet, indem die Nettoschulden I durch die Fiskalerträge dividiert werden. (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>). Bis zum Jahr 2011 wurde für Basel-Stadt zur Berechnung das alte Harmonisierte Rechnungslegungsmodell (HRM1) verwendet, ab 2013 das neue Modell HRM2.<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 "template":"template001",
 "visible":true,
+"visibleInPortal":true,
 "orderKey":"02_28_00_00_00_400",
 "parentId":null,
 "children":[],

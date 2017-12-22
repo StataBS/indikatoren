@@ -18,7 +18,6 @@
 "lesehilfe":"",
 "erlaeuterungen":"Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
 "template":"map001",
-"option":"options001",
 "visible":true,
 "visibleInPortal":true,
 "orderKey":"02_00_00_00_00_002",

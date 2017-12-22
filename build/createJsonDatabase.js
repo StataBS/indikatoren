@@ -17,8 +17,7 @@ files.forEach(function(filepath){
     var indikator = JSON.parse(fileContentsStripped);
     if (indikator.visible == undefined || indikator.visible == true) {
         console.log(filepath + ' is visible, adding to all/indikatoren.json...');
-        //clean up: if visible == false, chart will not be included in all/indikatoren.json, thus property not needed anymore. visibleInPortal is calculated later on.
-        delete indikator.visibleInPortal;
+        //clean up: if visible == false, chart will not be included in all/indikatoren.json, thus property not needed anymore. 
         delete indikator.visible;
         delete indikator.option;
         
@@ -41,40 +40,46 @@ files.forEach(function(filepath){
 
 //handle visibleInPortal
 allIndikatoren.forEach((element, i, arr) => {
-	//is chart member of a print kennzahlenset?
-	if (element.kennzahlenset.toLowerCase().includes('print') || (element.kennzahlenset == "Umwelt" && element.erlaeuterungen.indexOf("Eine detaillierte Beschreibung des Indikators") == 0 ) || element.kennzahlenset == "Test" ) {
-		console.log(element.id + ' is in Test or a print kennzahlenset [' + element.kennzahlenset + '], or in Umwelt Kennzahlenset without an expressive field erlaeuterungen [' + element.erlaeuterungen.substring(0, 10) + '...] setting visibleInPortal to false...');
-		element.visibleInPortal = false;
-	}
-	else {
-		//does chart have a mother?
-		if (!element["parentId"]){
-			console.log(element.id + ' does not have a parent, setting visibleInPortal to true...');
-			element.visibleInPortal = true;
+	//if visibleInPortal == false, we keep it at false on go ahead with the next chart
+	if(element.visibleInPortal){
+		//is chart member of a print kennzahlenset?
+		if ((element.kennzahlenset == "Umwelt" && element.erlaeuterungen.indexOf("Eine detaillierte Beschreibung des Indikators") == 0 ) || element.kennzahlenset == "Test" ) {
+			console.log(element.id + ' is in Test or a print kennzahlenset [' + element.kennzahlenset + '], or in Umwelt Kennzahlenset without an expressive field erlaeuterungen [' + element.erlaeuterungen.substring(0, 10) + '...] setting visibleInPortal to false...');
+			element.visibleInPortal = false;
 		}
 		else {
-			//is mother chart available? 
-			var mother = arr.find(obj => obj.id == element.parentId);
-			if (mother){
-				//is mother also in renderLink, so that both need to be displayed?
-				if (element.renderLink.indexOf(String(mother.id)) > -1){
-					console.log(element.id + ' has a parent which is also defined in renderLink, setting visibleInPortal to true...');
-					element.visibleInPortal = true;
-				}
-				else {
-					console.log(element.id + ' has a parent with an available metadata file, setting visibleInPortal to false...');
-					element.visibleInPortal = false;
-				}
-			}
-			//mother chart must be in an unpublished kennzahlenset
-			else {
-				console.log(element.id + ' does not have a parent with an available metadata file, setting visibleInPortal to true...');
+			//does chart have a mother?
+			/*
+			if (!element["parentId"]){
+				console.log(element.id + ' does not have a parent, setting visibleInPortal to true...');
 				element.visibleInPortal = true;
 			}
+			else {
+			*/
+				//is mother chart available? 
+				var mother = arr.find(obj => obj.id == element.parentId);
+				if (mother){
+					//is mother also in renderLink, so that both need to be displayed?
+					if (element.renderLink.indexOf(String(mother.id)) > -1){
+						console.log(element.id + ' has a parent which is also defined in renderLink, leaving visibleInPortal at true...');
+					}
+					else {
+						console.log(element.id + ' has a parent with an available metadata file, setting visibleInPortal to false...');
+						element.visibleInPortal = false;
+					}
+				}
+				//mother chart must be in an unpublished kennzahlenset
+				else {
+					console.log(element.id + ' does not have a parent with an available metadata file, leaving visibleInPortal at true...');
+				}
+			//}q
+		}
+		if (element.visibleInPortal) {
+			indikatorenInPortal.push(element);
 		}
 	}
-	if (element.visibleInPortal) {
-		indikatorenInPortal.push(element);
+	else {
+		console.log(element.id + ' has visibleInPortal set to false, ignoring for indikatorenInPortal');
 	}
 });
 

@@ -204,7 +204,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Kulturelle Bereicherung"
+    "text": "Beurteilung von gesellschaftlicher Vielfalt"
   },
   "subtitle": {
     "style": {
@@ -212,7 +212,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Ist das eine Bereicherung für den Kanton?»"
+    "text": "«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Bitte geben Sie mir an, ob das eine sehr grosse, eher grosse, eher nicht so grosse oder gar keine Bereicherung für den Kanton Basel-Stadt ist.»"
   },
   "navigation": {
     "menuItemStyle": {
@@ -268,7 +268,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18a"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18"
   },
   "legend": {
     "reversed": true,

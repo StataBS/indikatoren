@@ -18,12 +18,11 @@
 "lesehilfe":"Das reale Wertschöpfungswachstum in der Branche Life Sciences war im Jahr 2016 in Basel-Stadt sowie in der Gesamtschweiz stärker als in den anderen Branchen (+4,3%). Auch die freiberuflichen und wissenschaftlichen Dienstleistungen in Basel-Stadt verzeichneten eine überduchschnittliche Wachstumsrate von 3,3%. In der chemischen Industrie entwickelte sich die reale Wertschöpfung 2016 in Basel-Stadt hingegen rückläufig (-8,5%).",
 "erlaeuterungen":"",
 "template":"line001",
-"option":"options001",
 "visible":true,
 "visibleInPortal":true,
 "orderKey":"02_00_00_00_00_002",
 "parentId":null,
-"children":["6125","6273"],
+"children":["6273"],
 "renderLink":[],
 "quellenangabe":["BAK Economics"],
 "externalLinks":[""]
