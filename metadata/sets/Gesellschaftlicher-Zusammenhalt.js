@@ -76,11 +76,11 @@ var indikatorensetData = [
 		"id": 4718
 	},
 	{
-		"title": "Kulturelle Bereicherung",
-		"subtitle": "«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Ist das eine Bereicherung für den Kanton?»",
+		"title": "Beurteilung von gesellschaftlicher Vielfalt",
+		"subtitle": "«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Bitte geben Sie mir an, ob das eine sehr grosse, eher grosse, eher nicht so grosse oder gar keine Bereicherung für den Kanton Basel-Stadt ist.»",
 		"kuerzel": "I.50.1.04719",
 		"kuerzelKunde": "1.3.01",
-		"description": "Kulturelle Bereicherung",
+		"description": "Beurteilung von gesellschaftlicher Vielfalt",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -90,22 +90,24 @@ var indikatorensetData = [
 		"aktualisierungsdatum": "",
 		"schlagwort": [
 			"Ausländer",
-			"Ausland"
+			"Bevölkerung",
+			"Ausland",
+			"Geburtsort"
 		],
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter Basel-Stadts als eine sehr oder eher grosse Bereicherung für die Stadt. Die Zustimmung zu dieser Frage liegt seit 2003 jeweils über 68%.",
+		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter Basel-Stadts als eine sehr oder eher grosse Bereicherung für den Kanton.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"orderKey": "01_03_00_00_00_000",
-		"parentId": null,
+		"parentId": 6146,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18a"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18"
 		],
 		"externalLinks": [
 			""

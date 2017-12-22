@@ -18,12 +18,11 @@
 "lesehilfe":"Mit 267,5 Einwohner pro ha wies das Matthäusviertel am Jahresende 2016 die höchste Bevölkerungsdichte auf. Ebenfalls hohe Bevölkerungsdichten wiesen die Wohnviertel Gundeldingen, Iselin und Clara auf. Die Bevölkerungsdichte nimmt in den Wohnvierteln des Zentrums am stärksten zu. Im Vergleich zu 1997 am stärksten zugenommen hat die Bevölkerungsdichte im Rosentalviertel, hier ist das neue Quartier Erlenmatt entstanden.",
 "erlaeuterungen":"",
 "template":"mappie001",
-"option":"options001",
 "visible":true,
 "visibleInPortal":true,
 "orderKey":"01_01_00_00_00_003",
 "parentId":null,
-"children":["6093","6243"],
+"children":["6243"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
 "externalLinks":[""]

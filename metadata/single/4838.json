@@ -18,7 +18,6 @@
 "lesehilfe":"",
 "erlaeuterungen":"Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.<br> Im Wohnvietel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 "template":"dotplot",
-"option":"options001",
 "visible":true,
 "visibleInPortal":true,
 "orderKey":"03_00_00_00_00_007",

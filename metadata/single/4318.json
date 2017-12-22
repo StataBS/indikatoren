@@ -19,6 +19,7 @@
 "erlaeuterungen":"Die mittlere Wohnbevölkerung entspricht der im Durchschnitt eines Kalenderjahres im Kanton wohnhaften Bevölkerung. <br><br>Für detaillierte Angaben zur Methodik der kantonalen Bevölkerungsstatistik siehe weiterführende Informationen.",
 "template":"dotplot",
 "visible":true,
+"visibleInPortal":true,
 "orderKey":"17_00_00_00_00_000",
 "parentId":null,
 "children":[],

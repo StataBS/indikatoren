@@ -19,6 +19,7 @@
 "erlaeuterungen":"Anteil Beschäftigte (in Vollzeitäquivalenten) in Branchen mit hoher Arbeitsproduktivität am Total der Beschäftigten (in Vollzeitäquivalenten) in den Sektoren 1, 2 und 3. Die Branchen mit hoher Arbeitsproduktivität sind jene, deren Arbeitsproduktivität über dem schweizerischen Durchschnitt liegt (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 "template":"template001",
 "visible":true,
+"visibleInPortal":true,
 "orderKey":"02_26_00_00_00_380",
 "parentId":null,
 "children":[],

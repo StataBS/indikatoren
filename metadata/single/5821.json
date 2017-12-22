@@ -18,12 +18,11 @@
 "lesehilfe":"Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2015 vergeben die Bewohnerinnen und Bewohner im Durchschnitt der Lebensqualität im Stadtkanton eine 7,7. 2003 betrug die Durchschnittsnote 7,4.",
 "erlaeuterungen":"Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.<br>2003: N=1477, 2005: N=1500, 2007: N=1500, 2011: N=1513, 2015: N=1489.",
 "template":"befragungenProzent001",
-"option":"options001",
 "visible":true,
 "visibleInPortal":true,
 "orderKey":"01_02_00_00_00_002",
 "parentId":null,
-"children":["5165","6110","6252"],
+"children":["5165","6252"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"],
 "externalLinks":[""]

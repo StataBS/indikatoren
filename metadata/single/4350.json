@@ -19,6 +19,7 @@
 "erlaeuterungen":"Ablauffracht nach ARA pro angeschlossenem Einwohner auf der Basis eines aggregierten, synthetischen Schadstoff- und Nährstofffaktors aus dem Sauerstoffbedarf (Biochemischer Sauerstoffbedarf BSB<sub>5</sub>), und aus den Ammonium- und Phosphor-Konzentrationen (Jahresmittelwerte) im Verhältnis zu den entsprechenden Grenzwerten der Einleitungsbedingungen in der Gewässerschutzverordnung, multipliziert mit der jährlichen Wasserzuflussmenge durch die ARA (gesamt, gemessen beim ARA-Eingang). Der Indikator stellt eine mit der Schadstoff- bzw. Nährstoffbelastung gewichtete virtuell erhöhte Abflussmenge dar (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>). <br>Das Einzugsgebiet der ARA Basel umfasst die Gemeinden Basel, Riehen, Bettingen, Neuwiller (F), Allschwil, Binningen, Birsfelden, Bottmingen, Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Münchenstein (Ortsteil Brüglingen).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 "template":"line001",
 "visible":true,
+"visibleInPortal":true,
 "orderKey":"01_07_00_00_00_080",
 "parentId":null,
 "children":[],

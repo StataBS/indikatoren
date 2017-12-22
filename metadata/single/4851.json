@@ -18,7 +18,6 @@
 "lesehilfe":"2011 waren 85,3% der Befragten zufrieden mit dem Austausch mit den Nachbarn, 2015 betrug die Zufriedenheit 87,8%, wobei der Anteil sehr zufriedener Personen im Vergleich zu 2011 um 4,2 Prozentpunkte höher lag. Gleichzeitig reduzierte sich der Anteil derjenigen Personen, die keine Antwort geben konnten oder wollten, von 2011 auf 2015 um 2,5 Prozentpunkte.",
 "erlaeuterungen":"Gefragt wurde: «Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
 "template":"befragungenProzent001",
-"option":"options001",
 "visible":true,
 "visibleInPortal":true,
 "orderKey":"01_01_00_00_00_000",

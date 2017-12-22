@@ -101,7 +101,7 @@
     <tspan>Bevölkerung</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:0.9em;fill:#000000;" y="38">
-    <tspan>Anzahl Personen</tspan>
+    <tspan>Anzahl Personen (der mittleren Wohnbevölkerung)</tspan>
   </text>
   <g class="highcharts-legend">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="12" height="12" visibility="hidden"/>
