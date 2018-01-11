@@ -107,7 +107,7 @@ function injectMetadataToChartConfig(options, data, view, suppressNumberInTitle)
   options['credits']['position']['y'] = (options['credits']['position']['y'] || -5) + (-10 * data.quellenangabe.length);
   //make sure node exists before deferencing it
   options['exporting'] = (options['exporting'] || {});
-  options['exporting']['filename'] = data.kuerzel;
+  options['exporting']['filename'] = data.id;
   
   //for print, remove, title, subtitle, and credits, and set the scale
   if (view == "print"){
@@ -273,7 +273,9 @@ function deserialize(serializedJavascript){
 
 
 //create chart as image
-function exportThumbnail(id, exportType, offline, exportServer){    
+function exportThumbnail(id, exportType, offline, exportServer, filename){
+  //define default filename
+  filename = filename || id;
   var chart = $(escapeCssChars('#container-' + id)).highcharts();
   //remove callback - otherwise end up in infinite loop
   delete chart.callback;
@@ -286,18 +288,19 @@ function exportThumbnail(id, exportType, offline, exportServer){
   //set exportServer
   if (exportServer) {
     chart.options.exporting.url =  exportServer;
+    chart.options.filename = filename;
   }
   
   if (offline){     
     chart.exportChartLocal({
       type: exportType, 
-      filename: id
+      filename: filename
     });  
   }
   else {
     chart.exportChart({
       type: exportType, 
-      filename: id
+      filename: filename
     });      
   }
 }

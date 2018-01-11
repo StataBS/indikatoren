@@ -111,11 +111,12 @@ if (idByKuerzel[kuerzel] || kuerzelById[id]){
           //determine if offline exporting necessary
           var thumbnailOfflineExporting = (window.decodeURIComponent($.url('?thumbnailOfflineExporting')) === "true") ? true : false ;      
           var exportServer = window.decodeURIComponent($.url('?exportServer'));
+          var filename = (window.decodeURIComponent($.url('?kuerzelKundeAsFilename')) === "true") ? chartMetadata.kuerzelKunde : undefined;
           //load offline exporting module first if required, then invoke createThumbnail()
           (thumbnailOfflineExporting) 
-            ? $.getScript('assets/js/highcharts-offline-exporting-4.2.6.js', function(){createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting);}) 
-            : createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting, exportServer);
-          
+            ? $.getScript('assets/js/modules/highcharts/modules/offline-exporting.js', function(){createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting, undefined, filename);}) 
+            : createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting, exportServer, filename);
+            
           //add a hidden div with the contents of the svg in order for it to be captured by casperjs
           if (hiddenSVG){  
             setTimeout(function(){
@@ -138,16 +139,16 @@ else {
 }
 
 
-function createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting, exportServer){                  
+function createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting, exportServer, filename){                  
   switch (exportType){
     case "jpg":                 
-      exportThumbnail(id, "image/jpeg", thumbnailOfflineExporting, exportServer);                     
+      exportThumbnail(id, "image/jpeg", thumbnailOfflineExporting, exportServer, filename);                     
       break;                    
     case "png": 
-      exportThumbnail(id, "image/png", thumbnailOfflineExporting, exportServer);
+      exportThumbnail(id, "image/png", thumbnailOfflineExporting, exportServer, filename);
       break;
     case "svg":              
-      exportThumbnail(id, "image/svg+xml", thumbnailOfflineExporting, exportServer);
+      exportThumbnail(id, "image/svg+xml", thumbnailOfflineExporting, exportServer, filename);
       break;           
   }
 }          
