@@ -172,10 +172,11 @@ input::-ms-clear {
 .carousel-control.left { left: 7px; }
 .carousel-control.right { right: 7px; }
 
-
+/*
 .highcharts-wrapper {
     height: 415px;
 }
+*/
 
 .carousel-indicators {
     top: 15px;
