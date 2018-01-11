@@ -127,7 +127,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Strassenverkehrsunfälle und verunfallte Personen"
+    "text": "Anzahl Strassenverkehrsunfälle"
   },
   "subtitle": {
     "style": {
@@ -215,6 +215,6 @@
     }
   },
   "exporting": {
-    "filename": "I.14.3.06324"
+    "filename": 6324
   }
 }
