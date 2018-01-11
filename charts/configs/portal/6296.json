@@ -184,9 +184,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
   },
   "legend": {
     "symbolRadius": 0,
@@ -211,6 +211,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": "I.03.2.06296"
+    "filename": 6296
   }
 }

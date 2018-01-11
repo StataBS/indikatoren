@@ -339,7 +339,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Neugründungen in Basel-Stadt"
+    "text": "Anzahl Neugründungen in Basel-Stadt"
   },
   "subtitle": {
     "style": {
@@ -415,6 +415,6 @@
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": "I.03.2.05041"
+    "filename": 6369
   }
 }

@@ -18,7 +18,6 @@
 "lesehilfe":"Eine Verzögerungszeit von 27% bedeutet, dass eine durchschnittliche Reise 27% länger dauert als dies unter staufreien Bedingungen der Fall wäre.",
 "erlaeuterungen":"Damit die urbanen Flächen für die der Index berechnet wird international vergleichbar sind, wurden sie von TomTom individuell definiert. Detaillierte Informationen zu den TomTom Staudaten und der angewandten Methodik sind hier zu finden: <br/>-  <a href=’https://www.google.ch/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwi10_XS-c_XAhVS46QKHf26CBUQFggoMAA&url=http%3A%2F%2Fwww.congres-atecitsfrance.fr%2Fwp-content%2Fuploads%2F2013%2F12%2FCOHN_com085-Atelier-A7.pdf&usg=AOvVaw2VO2AxK37y7-LebxQcI6el’ target=’_blank’>TomTom Traffic Index: Toward a Global Measure  </a> <br/> -  <a href=’https://www.tomtom.com/en_gb/trafficindex/about’ target=’_blank’>TomTom Traffic Index: About  </a> <br/>  -  TomTom Traffic Index: <a href=’https://www.tomtom.com/en_gb/trafficindex/city/basel’ target=’_blank’>Basel</a>, <a href=’https://www.tomtom.com/en_gb/trafficindex/city/GNV’ target=’_blank’>Genf</a>, <a href=’https://www.tomtom.com/en_gb/trafficindex/city/ZUR’ target=’_blank’>Zürich</a>, <a href=’https://www.tomtom.com/en_gb/trafficindex/city/bern’ target=’_blank’>Bern</a>",
 "template":"line001_print",
-"option":"options001",
 "visible":true,
 "visibleInPortal":false,
 "orderKey":"05_00_00_00_00_000",
