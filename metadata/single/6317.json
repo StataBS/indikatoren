@@ -18,7 +18,6 @@
 "lesehilfe":"Die mittlere Grundwassertemperatur im Kanton Basel-Stadt betrug im Jahre 2016 14,7 °C.",
 "erlaeuterungen":"In Basel-Stadt wird die Grundwassertemperatur an 82 Messstellen kontinuierlich gemessen und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt. Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target='_blank'>Umweltbericht beider Basel</a>.",
 "template":"line001_print",
-"option":"options001",
 "visible":true,
 "visibleInPortal":false,
 "orderKey":"07_00_00_00_00_000",

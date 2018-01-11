@@ -84,7 +84,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Gewaltstraftaten pro 100 000 Einwohner"
+    "text": "Anzahl Straftaten nach StGB pro 1000 Einwohner"
   },
   "subtitle": {
     "style": {
@@ -176,6 +176,6 @@
     }
   },
   "exporting": {
-    "filename": "I.14.3.06323"
+    "filename": 6323
   }
 }

@@ -3855,7 +3855,7 @@
         }
       }
     },
-    "filename": "I.09.1.06250"
+    "filename": 6250
   },
   "customFunctions": {
     "pieSizeCategorical": function (value, conf){
