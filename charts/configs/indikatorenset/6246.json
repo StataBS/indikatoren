@@ -3863,7 +3863,7 @@
         }
       }
     },
-    "filename": "I.09.2.06246"
+    "filename": 6246
   },
   "customFunctions": {
     "pieSizeCategorical": function (value, conf){

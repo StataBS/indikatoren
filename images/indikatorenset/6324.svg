@@ -68,7 +68,7 @@
     </g>
   </g>
   <text x="3" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:10px;font-weight:bold;fill:#000000;" y="14">
-    <tspan>Strassenverkehrsunfälle und verunfallte Personen</tspan>
+    <tspan>Anzahl Strassenverkehrsunfälle</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="48.514701634551045" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 48.514701634551045 183)" y="183" opacity="1">
