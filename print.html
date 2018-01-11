@@ -37,15 +37,15 @@
 				var indikatorenset = window.decodeURIComponent($.url('?Indikatorenset'));
 				var hostname = window.decodeURIComponent($.url('hostname'));
 				var protocol = window.decodeURIComponent($.url('protocol'));
-				console.log(protocol + '://' + hostname);
+				//console.log(protocol + '://' + hostname);
 				if (indikatorensetNames.indexOf(indikatorenset) > -1){
-					console.log('Found kennzahlenset ' + indikatorenset);
+					//console.log('Found kennzahlenset ' + indikatorenset);
 					$.each(indikatoren, function(index, item){
-						console.log('Checking chart ' + index + ' (' + item.id + ') for membership in kennzahlenset "' + indikatorenset +  '"...');
+						//console.log('Checking chart ' + index + ' (' + item.id + ') for membership in kennzahlenset "' + indikatorenset +  '"...');
 						if (item.kennzahlenset == indikatorenset){
-							console.log('Creating iframe for ' + index + ' (' + item.id + ')');
+							//console.log('Creating iframe for ' + index + ' (' + item.id + ')');
 							$('<iframe/>', {
-								src: 'chart.html?id=' + item.id + '&thumbnailOfflineExporting=false&thumbnailType=png&view=print&exportServer=' + protocol + '://' + hostname + ':8081',
+								src: 'chart.html?id=' + item.id + '&thumbnailOfflineExporting=false&kuerzelKundeAsFilename=true&thumbnailType=png&view=print&exportServer=' + protocol + '://' + hostname + ':8081',
 								frameborder: 0,
 								class: "noScrolling",
 								scrolling: "no",
