@@ -2677,7 +2677,7 @@ var indikatorensetData = [
 		"lesehilfe": "Die Nettoschulden haben sich seit dem Jahr 2000 von 19 132 auf 9 950 Franken pro Kopf im Jahr 2016 reduziert. Die Nettoschuldenquote liegt 2016 bei 3,0 ‰ des schweizerischen BIP.",
 		"erlaeuterungen": "",
 		"template": "line001",
-		"orderKey": "02_00_00_00_00_000",
+		"orderKey": "02_00_00_00_00_007",
 		"parentId": null,
 		"children": [
 			"5160",
