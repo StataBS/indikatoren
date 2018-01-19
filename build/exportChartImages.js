@@ -14,14 +14,6 @@ var execute = function(path, context) {
 };
 */
 
-/*
-var keysFilePath = path.join(__dirname, '../metadata/all/kuerzelById.json');
-var ctx = execute(keysFilePath);
-var kuerzelById = ctx.kuerzelById;
-*/
-
-var kuerzelById = JSON.parse(fs.readFileSync(path.join(__dirname, '../metadata/all/kuerzelById.json'), 'utf8'));
-
 var chartDetails = [];
 /*
 console.log('Deleting previous svg files...');
@@ -39,7 +31,7 @@ go();
 
 
 function go(){
-    var views = [true, false];
+    var views = ['portal'];
     views.forEach(function(view){
         console.log('Creating array entries for indikatorensetView=' + view);
         var files = JSON.parse(fs.readFileSync('tmp/chartsToBuild.json'));
@@ -61,8 +53,8 @@ function go(){
 
 
 function createPathArray(chartId, view){
-    var imagePath = (view) ? 'images/indikatorenset/' : 'images/portal/';
-    var configPath = (view) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
+    var imagePath = 'images/' + view + '/';
+    var configPath = 'charts/configs/' + view + '/';
     var infilePath = path.join(__dirname, '../' + configPath + chartId + '.json');
     var outfilePath = path.join(__dirname, '../' + imagePath + chartId + '.svg');
     
