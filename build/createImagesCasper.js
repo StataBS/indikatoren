@@ -76,10 +76,7 @@ while (ubFileList.length > 0) {
                 this.waitForSelector('#renderDone', function(){
                     var content = this.getHTML('#chartSVG', false);
                     
-                    var path = 'images/indikatorenset/' + id + '.svg';
-                    casper.echo('Saving contents to ' + path + '...');
-                    fs.write(path, content, 'w');
-                    path = 'images/portal/' + id + '.svg';
+                    var path = 'images/portal/' + id + '.svg';
                     casper.echo('Saving contents to ' + path + '...');
                     fs.write(path, content, 'w');
 
