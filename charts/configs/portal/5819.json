@@ -3,29 +3,172 @@
     {
       "color": "#C8C8C8",
       "index": 1,
-      "legendIndex": 1
+      "legendIndex": 1,
+      "data": [
+        [
+          "2003  (N=1495)",
+          0.66889632107
+        ],
+        [
+          "2005  (N=1509)",
+          0.662690523525
+        ],
+        [
+          "2007  (N=1505)",
+          0.332225913621
+        ],
+        [
+          "2011  (N=1516)",
+          0.395778364116
+        ],
+        [
+          "2015  (N=1504)",
+          0.465425531914
+        ]
+      ],
+      "name": "Weiss nicht\u002F Keine Angabe",
+      "turboThreshold": 0
     },
     {
       "color": "#CD9C00",
       "index": 2,
-      "legendIndex": 2
+      "legendIndex": 2,
+      "data": [
+        [
+          "2003  (N=1495)",
+          2.742474916387
+        ],
+        [
+          "2005  (N=1509)",
+          3.114645460569
+        ],
+        [
+          "2007  (N=1505)",
+          2.059800664451
+        ],
+        [
+          "2011  (N=1516)",
+          1.451187335092
+        ],
+        [
+          "2015  (N=1504)",
+          0.930851063829
+        ]
+      ],
+      "name": "Sehr unzufrieden",
+      "turboThreshold": 0
     },
     {
       "color": "#FABD24",
       "index": 3,
-      "legendIndex": 3
+      "legendIndex": 3,
+      "data": [
+        [
+          "2003  (N=1495)",
+          13.91304347826
+        ],
+        [
+          "2005  (N=1509)",
+          14.314115308151
+        ],
+        [
+          "2007  (N=1505)",
+          14.152823920265
+        ],
+        [
+          "2011  (N=1516)",
+          9.4327176781
+        ],
+        [
+          "2015  (N=1504)",
+          7.313829787234
+        ]
+      ],
+      "name": "Eher unzufrieden",
+      "turboThreshold": 0
     },
     {
       "color": "#73B97C",
       "index": 4,
-      "legendIndex": 4
+      "legendIndex": 4,
+      "data": [
+        [
+          "2003  (N=1495)",
+          41.471571906354
+        ],
+        [
+          "2005  (N=1509)",
+          44.532803180914
+        ],
+        [
+          "2007  (N=1505)",
+          47.840531561461
+        ],
+        [
+          "2011  (N=1516)",
+          39.775725593667
+        ],
+        [
+          "2015  (N=1504)",
+          41.622340425531
+        ]
+      ],
+      "name": "Eher zufrieden",
+      "turboThreshold": 0
     },
     {
       "color": "#007A2F",
       "index": 5,
-      "legendIndex": 5
+      "legendIndex": 5,
+      "data": [
+        [
+          "2003  (N=1495)",
+          41.204013377926
+        ],
+        [
+          "2005  (N=1509)",
+          37.375745526838
+        ],
+        [
+          "2007  (N=1505)",
+          35.614617940199
+        ],
+        [
+          "2011  (N=1516)",
+          48.944591029023
+        ],
+        [
+          "2015  (N=1504)",
+          49.667553191489
+        ]
+      ],
+      "name": "Sehr zufrieden",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+            	return this.value.replace(" ", "<br/>");
+            }
+    }
+  },
   "chart": {
     "events": {
       "load": function () {
@@ -106,29 +249,6 @@
       "style": {
         "color": "#000000"
       }
-    }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "type": "category",
-    "uniqueNames": true,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "rotation": 0,
-      "style": {
-        "color": "#000000",
-        "width": 1,
-        "textOverflow": "none"
-      },
-      "formatter": function () {
-            	return this.value.replace(" ", "<br/>");
-            }
     }
   },
   "tooltip": {
