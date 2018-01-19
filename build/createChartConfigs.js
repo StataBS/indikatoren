@@ -43,7 +43,7 @@ var geojson_scalebarEPSG2056 = JSON.parse(fs.readFileSync('geojson/scalebar_EPSG
         //if (error) { throw error; }
 
         //var views = [true, false];
-        var views = ['indikatorenset', 'portal'/*, 'print'*/];
+        var views = ['portal'/*, 'print'*/];
         views.forEach(function(view){
             console.log('Starting creation of chart config for indikatorensetView=' + view);
 
@@ -52,7 +52,7 @@ var geojson_scalebarEPSG2056 = JSON.parse(fs.readFileSync('geojson/scalebar_EPSG
                 var indikator = JSON.parse(fs.readFileSync('metadata/single/' + id + '.json'));
                 //only create json files if indikator is visible and not from kennzahlenset "Umwelt"
                 if ((indikator.visible == undefined || indikator.visible) && indikator.kennzahlenset != "Umwelt"){
-                    console.log('Creating config for chart ' + indikator.id + ', indikatorensetView=' + view +'...');
+                    console.log('Creating config for chart ' + indikator.id + ', view=' + view +'...');
                     saveChartConfig(indikator, view, console);
                 }
                 else {
