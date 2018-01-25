@@ -6,11 +6,11 @@
       "data": [
         [
           "1 Zimmer",
-          2967
+          3084
         ],
         [
           "2 Zimmer",
-          null
+          1
         ],
         [
           "3 Zimmer",
@@ -30,7 +30,7 @@
         ],
         [
           "Alle",
-          2967
+          3085
         ]
       ],
       "name": "bis 29 m²",
@@ -42,15 +42,15 @@
       "data": [
         [
           "1 Zimmer",
-          7418
+          7462
         ],
         [
           "2 Zimmer",
-          6175
+          6205
         ],
         [
           "3 Zimmer",
-          145
+          143
         ],
         [
           "4 Zimmer",
@@ -66,7 +66,7 @@
         ],
         [
           "Alle",
-          13738
+          13810
         ]
       ],
       "name": "30-49 m²",
@@ -78,23 +78,23 @@
       "data": [
         [
           "1 Zimmer",
-          386
+          391
         ],
         [
           "2 Zimmer",
-          17479
+          17619
         ],
         [
           "3 Zimmer",
-          13441
+          13468
         ],
         [
           "4 Zimmer",
-          335
+          333
         ],
         [
           "5 Zimmer",
-          27
+          26
         ],
         [
           "6 Zimmer u. m.",
@@ -102,7 +102,7 @@
         ],
         [
           "Alle",
-          31668
+          31837
         ]
       ],
       "name": "50-69 m²",
@@ -114,19 +114,19 @@
       "data": [
         [
           "1 Zimmer",
-          122
+          123
         ],
         [
           "2 Zimmer",
-          1506
+          1546
         ],
         [
           "3 Zimmer",
-          25049
+          25173
         ],
         [
           "4 Zimmer",
-          10312
+          10333
         ],
         [
           "5 Zimmer",
@@ -138,7 +138,7 @@
         ],
         [
           "Alle",
-          37749
+          37935
         ]
       ],
       "name": "70-99 m²",
@@ -150,31 +150,31 @@
       "data": [
         [
           "1 Zimmer",
-          59
+          64
         ],
         [
           "2 Zimmer",
-          161
+          164
         ],
         [
           "3 Zimmer",
-          1819
+          1854
         ],
         [
           "4 Zimmer",
-          7832
+          7941
         ],
         [
           "5 Zimmer",
-          4774
+          4793
         ],
         [
           "6 Zimmer u. m.",
-          1823
+          1812
         ],
         [
           "Alle",
-          16468
+          16628
         ]
       ],
       "name": "100-149 m²",
@@ -186,7 +186,7 @@
       "data": [
         [
           "1 Zimmer",
-          10
+          11
         ],
         [
           "2 Zimmer",
@@ -194,23 +194,23 @@
         ],
         [
           "3 Zimmer",
-          117
+          115
         ],
         [
           "4 Zimmer",
-          578
+          575
         ],
         [
           "5 Zimmer",
-          1508
+          1512
         ],
         [
           "6 Zimmer u. m.",
-          3965
+          3960
         ],
         [
           "Alle",
-          6200
+          6195
         ]
       ],
       "name": "150 m² u. m.",
@@ -292,7 +292,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Zimmerzahl und Wohnflächenkategorie, Stand 2016",
+    "text": "nach Zimmerzahl und Wohnflächenkategorie, Stand 2017",
     "align": "left"
   },
   "yAxis": {
