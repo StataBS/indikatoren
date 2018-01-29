@@ -267,6 +267,10 @@
       "load": function (){
                     this.credits.element.onclick = function() {};
                     
+                    //create symmetric xAxes
+                    var fn = this.options.customFunctions;
+                    fn.createSymmetricAxis(this.yAxis[0]);
+                    
                     //for top-left legends with no x defined: move legend to x position of first yAxis
                     if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
                       this.update(
