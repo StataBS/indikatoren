@@ -4,7 +4,7 @@ var glob = require("glob");
 
 console.log('Adding svg ViewBox for ie...');
 
-var views = ['indikatorenset', 'portal'/*, 'print'*/];
+var views = ['portal'/*, 'print'*/];
 views.forEach(function(view){
     //var files = glob.sync("metadata/single/*.json");
     var files = JSON.parse(fs.readFileSync('tmp/chartsToBuild.json'));
