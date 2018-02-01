@@ -18505,7 +18505,7 @@
 		"lesehilfe": "Am Jahresende 2017 wiesen das Wohnviertel Bruderholz und die Gemeinde Riehen die höchsten Anteile an Kinder und Jugendlichen uner 20 Jahren auf. Besonders viele junge Erwachsene zwischen 20 und 39 Jahren leben in den Wohnvierteln Gundeldingen, Altstadt Kleinbasel, Rosental und Matthäus. Die Anteile der Senioren ab 80 Jahren hingegen sind im St. Albanviertel und in der Gemeinde Riehen am höchsten.",
 		"erlaeuterungen": "",
 		"template": "template001",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
