@@ -17,10 +17,11 @@
   <g class="highcharts-pane-group"/>
   <g class="highcharts-grid highcharts-xaxis-grid ">
     <path fill="none" class="highcharts-grid-line" d="M 68.5 41 L 68.5 349" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 148.5 41 L 148.5 349" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 229.5 41 L 229.5 349" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 309.5 41 L 309.5 349" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 390.5 41 L 390.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 135.5 41 L 135.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 202.5 41 L 202.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 269.5 41 L 269.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 336.5 41 L 336.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 403.5 41 L 403.5 349" opacity="1"/>
     <path fill="none" class="highcharts-grid-line" d="M 470.5 41 L 470.5 349" opacity="1"/>
   </g>
   <g class="highcharts-grid highcharts-yaxis-grid ">
@@ -39,15 +40,16 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(65,41) scale(1 1)" clip-path="url(#a)">
-      <path fill="none" d="M 4.0196078431337 61.12876 L 84.41176470588 59.09288000000001 L 164.80392156863 57.49128000000002 L 245.19607843137 55.10274000000001 L 325.58823529412 53.65360000000001 L 405.98039215687 52.67416" class="highcharts-graph" stroke="#B375AB" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path fill="none" d="M 4.0196078431337 61.12876 L 71.013071895422 59.09288000000001 L 138.00653594771 57.49128000000002 L 205 55.10274000000001 L 271.99346405229 53.65360000000001 L 338.98692810458 52.67416 L 405.98039215687 51.99964" class="highcharts-graph" stroke="#B375AB" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(65,41) scale(1 1)" clip-path="none">
       <path fill="#B375AB" d="M 8 61 A 4 4 0 1 1 7.999998000000167 60.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#B375AB" d="M 88 59 A 4 4 0 1 1 87.99999800000016 58.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#B375AB" d="M 168 57 A 4 4 0 1 1 167.99999800000018 56.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#B375AB" d="M 249 55 A 4 4 0 1 1 248.99999800000018 54.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#B375AB" d="M 329 54 A 4 4 0 1 1 328.9999980000002 53.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#B375AB" d="M 409 53 A 4 4 0 1 1 408.9999980000002 52.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#B375AB" d="M 75 59 A 4 4 0 1 1 74.99999800000016 58.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#B375AB" d="M 142 57 A 4 4 0 1 1 141.99999800000018 56.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#B375AB" d="M 209 55 A 4 4 0 1 1 208.99999800000018 54.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#B375AB" d="M 275 54 A 4 4 0 1 1 274.9999980000002 53.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#B375AB" d="M 342 53 A 4 4 0 1 1 341.9999980000002 52.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#B375AB" d="M 409 52 A 4 4 0 1 1 408.9999980000002 51.99600000066666 Z" class="highcharts-point"/>
     </g>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
@@ -59,42 +61,48 @@
         <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">160 306</tspan><tspan x="5" y="16">160 306</tspan>
       </text>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(79,49)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(66,49)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"/>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(160,47)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(133,47)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"/>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(240,45)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(200,45)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"/>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(321,44)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(267,44)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"/>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(365,30)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(334,43)">
+      <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"/>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(365,29)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16">
-        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">165 796</tspan><tspan x="5" y="16">165 796</tspan>
+        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">166 234</tspan><tspan x="5" y="16">166 234</tspan>
       </text>
     </g>
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="69.01960784313367" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
-      <tspan>2010</tspan>
+      2010
     </text>
-    <text x="149.41176470588022" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
-      <tspan>2011</tspan>
+    <text x="136.01307189542246" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2011
     </text>
-    <text x="229.80392156862675" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
-      <tspan>2012</tspan>
+    <text x="203.00653594771123" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2012
     </text>
-    <text x="310.1960784313733" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
-      <tspan>2013</tspan>
+    <text x="270" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2013
     </text>
-    <text x="390.5882352941198" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
-      <tspan>2014</tspan>
+    <text x="336.99346405228874" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2014
+    </text>
+    <text x="403.98692810457754" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2015
     </text>
     <text x="462.78125" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
-      <tspan>2015</tspan>
+      2016
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">

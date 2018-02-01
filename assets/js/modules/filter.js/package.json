@@ -47,7 +47,7 @@
   },
   "_requiredBy": [],
   "_resolved": "git://github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
-  "_shasum": "5f744e86f35124b617b5e5e05f39f9d6527b8789",
+  "_shasum": "72c5f616c7a0fead8e2a5219780549774237518a",
   "_shrinkwrap": null,
   "_spec": "filter-js@git://github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
   "_where": "/home/travis/build/statabs-test/indikatoren",
