@@ -28,6 +28,10 @@
         [
           2016,
           141
+        ],
+        [
+          2017,
+          145
         ]
       ],
       "name": "Notwohnungen"
@@ -60,6 +64,10 @@
         [
           2016,
           126
+        ],
+        [
+          2017,
+          125
         ]
       ],
       "name": "Notwohnungen belegt"
@@ -96,6 +104,10 @@
         [
           2016,
           89.3617021276596
+        ],
+        [
+          2017,
+          86.2068965517241
         ]
       ],
       "name": "Belegungsquote (Anteil belegter Wohnungen in %, rechte Skala)"
