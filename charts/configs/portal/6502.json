@@ -649,7 +649,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Wohnbevölkerung nach Alter und Wohnviertel im Kanton Basel-Stadt 2017"
+    "text": "Bevölkerungsbestand am Jahresende"
   },
   "subtitle": {
     "style": {
@@ -658,7 +658,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2017",
+    "text": "nach Altersklasse und Wohnviertel; Stand: 2017",
     "align": "left"
   },
   "yAxis": {
@@ -715,7 +715,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} ({point.percentage:,.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
