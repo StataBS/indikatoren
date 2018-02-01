@@ -167,7 +167,9 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, chartMetaD
         
         //load csv and draw chart            
         $.get(csvUrl, function(data){
-          drawChartFromData(data, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn);
+          //remove quotes from data
+          var dataWithoutQuotes = data.replace(/"/g, "");
+          drawChartFromData(dataWithoutQuotes, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn);
         });
       }
     ).fail(function(jqXHR, textStatus, errorThrown){
