@@ -1,0 +1,163 @@
+{
+  "series": [
+    {
+      "data": [
+        {
+          "x": 10,
+          "y": 4,
+          "z": 30,
+          "name": "Schweiz",
+          "color": "red"
+        },
+        {
+          "x": 20,
+          "y": 3,
+          "z": 100,
+          "name": "Deutschland",
+          "color": "blue"
+        },
+        {
+          "x": 55,
+          "y": 10,
+          "z": 20,
+          "name": "Österreich",
+          "color": "blue"
+        }
+      ],
+      "name": "Land"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+                  this.credits.element.onclick = function() {};
+                  //for top-left legends with no x defined: move legend to x position of first yAxis
+                  if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                    this.update(
+                      {
+                        legend: {
+                          x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                        }
+                      }
+                    );
+                  }              
+                }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "bubble",
+    "renderTo": "container-9997"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Test Title"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Test Subtitle",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "min": 0
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "fontSize": "10px"
+      },
+      "format": "{value}%"
+    },
+    "tickLength": 0,
+    "maxPadding": 0.2
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Test Quelle"
+  },
+  "legend": {
+    "enabled": false,
+    "symbolRadius": 0
+  },
+  "tooltip": {
+    "useHTML": true,
+    "headerFormat": "\u003Ctable\u003E",
+    "pointFormat": "\u003Ctr\u003E\u003Cth colspan=\"2\"\u003E\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.name}\u003C\u002Fth\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Cth\u003EX:\u003C\u002Fth\u003E\u003Ctd\u003E{point.x}\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Cth\u003EY:\u003C\u002Fth\u003E\u003Ctd\u003E{point.y}\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Cth\u003ESize:\u003C\u002Fth\u003E\u003Ctd\u003E{point.z}\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E",
+    "footerFormat": "\u003C\u002Ftable\u003E",
+    "followPointer": true
+  },
+  "plotOptions": {
+    "bubble": {
+      "label": {
+        "enabled": true
+      },
+      "dataLabels": {
+        "enabled": true,
+        "format": "{point.name}\u003Cbr\u002F\u003E{point.x}%",
+        "align": "center",
+        "y": -20,
+        "x": 30,
+        "overflow": "none",
+        "crop": false,
+        "style": {
+          "fontSize": "11px",
+          "color": "black"
+        }
+      }
+    }
+  },
+  "exporting": {
+    "filename": 9997
+  }
+}
