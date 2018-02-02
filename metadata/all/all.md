@@ -491,5 +491,6 @@ id | visible | visibleInPortal | indikatorenset
 6371 | true | false | Legislaturplan (Print)
 6372 | true | false | Legislaturplan (Print)
 6502 | true | true | 
+9997 | true | false | 
 9998 | true | false | Test
 9999 | true | false | Test
