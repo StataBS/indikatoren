@@ -5,87 +5,87 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          0.067261875
+          0.0673
         ],
         [
           "Altstadt Kleinbasel",
-          0.0809476205
+          0.0809
         ],
         [
           "Klybeck",
-          0.1181823341
+          0.1193
         ],
         [
           "Rosental",
-          0.137886656
-        ],
-        [
-          "Kleinhüningen",
-          0.155087399
+          0.1358
         ],
         [
           "Clara",
-          0.1596210662
+          0.1596
         ],
         [
           "Matthäus",
-          0.1657748081
+          0.1657
         ],
         [
           "Gundeldingen",
-          0.1748682856
+          0.176
         ],
         [
           "Vorstädte",
-          0.197906736
+          0.1947
+        ],
+        [
+          "Kleinhüningen",
+          0.2268
         ],
         [
           "Am Ring",
-          0.2387369156
-        ],
-        [
-          "St. Johann",
-          0.2711032949
+          0.2376
         ],
         [
           "Wettstein",
-          0.2812191425
+          0.2786
+        ],
+        [
+          "St. Johann",
+          0.2839
         ],
         [
           "St. Alban",
-          0.3217030196
+          0.3221
         ],
         [
           "Gotthelf",
-          0.3236973591
+          0.3241
         ],
         [
           "Breite",
-          0.3609948671
+          0.3596
         ],
         [
           "Iselin",
-          0.3644713433
+          0.3692
         ],
         [
           "Bachletten",
-          0.4165584987
+          0.4132
         ],
         [
           "Hirzbrunnen",
-          0.5900990651
+          0.5903
         ],
         [
           "Bruderholz",
-          0.7146256637
+          0.7138
         ],
         [
           "Riehen",
-          0.7949819766
+          0.7956
         ],
         [
           "Bettingen",
-          0.902449315
+          0.902
         ]
       ],
       "name": "Anteil Grünflächen",
@@ -111,23 +111,23 @@
           4
         ],
         [
-          "Kleinhüningen",
+          "Clara",
           5
         ],
         [
-          "Clara",
+          "Matthäus",
           6
         ],
         [
-          "Matthäus",
+          "Gundeldingen",
           7
         ],
         [
-          "Gundeldingen",
+          "Vorstädte",
           8
         ],
         [
-          "Vorstädte",
+          "Kleinhüningen",
           9
         ],
         [
@@ -135,11 +135,11 @@
           10
         ],
         [
-          "St. Johann",
+          "Wettstein",
           11
         ],
         [
-          "Wettstein",
+          "St. Johann",
           12
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Stand: 2017",
     "align": "left"
   },
   "plotOptions": {
