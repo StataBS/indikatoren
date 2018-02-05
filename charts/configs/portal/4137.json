@@ -55,6 +55,10 @@
         ],
         [
           2017,
+          369
+        ],
+        [
+          2018,
           0
         ]
       ],
@@ -115,6 +119,10 @@
         ],
         [
           2017,
+          null
+        ],
+        [
+          2018,
           400
         ]
       ],
@@ -130,58 +138,62 @@
       "data": [
         [
           2005,
-          null
+          325
         ],
         [
           2006,
-          null
+          325
         ],
         [
           2007,
-          null
+          325
         ],
         [
           2008,
-          null
+          325
         ],
         [
           2009,
-          null
+          325
         ],
         [
           2010,
-          null
+          325
         ],
         [
           2011,
-          null
+          325
         ],
         [
           2012,
-          null
+          325
         ],
         [
           2013,
-          null
+          325
         ],
         [
           2014,
-          298
+          325
         ],
         [
           2015,
-          347
+          325
         ],
         [
           2016,
-          353
+          325
         ],
         [
           2017,
-          381
+          325
+        ],
+        [
+          2018,
+          null
         ]
       ],
-      "name": "Entwicklung des Zehnjahresdurchschnittes gemäss Prognose"
+      "name": "Durchschnitt"
     }
   ],
   "chart": {
@@ -312,7 +324,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.2f}%)\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
