@@ -6,75 +6,75 @@
       "data": [
         [
           "Altstadt GB",
-          22
+          28
         ],
         [
           "Vorstädte",
-          131
+          141
         ],
         [
           "Am Ring",
-          55
-        ],
-        [
-          "Breite",
-          131
-        ],
-        [
-          "St. Alban",
-          116
-        ],
-        [
-          "Gundeldingen",
-          306
-        ],
-        [
-          "Bruderholz",
-          84
-        ],
-        [
-          "Bachletten",
           57
         ],
         [
+          "Breite",
+          129
+        ],
+        [
+          "St. Alban",
+          229
+        ],
+        [
+          "Gundeldingen",
+          304
+        ],
+        [
+          "Bruderholz",
+          72
+        ],
+        [
+          "Bachletten",
+          54
+        ],
+        [
           "Gotthelf",
-          -28
+          -14
         ],
         [
           "Iselin",
-          60
+          116
         ],
         [
           "St. Johann",
-          291
+          295
         ],
         [
           "Altstadt KB",
-          1
+          -3
         ],
         [
           "Clara",
-          18
+          41
         ],
         [
           "Wettstein",
-          112
+          113
         ],
         [
           "Hirzbrunnen",
-          187
+          183
         ],
         [
           "Rosental",
-          863
+          945
         ],
         [
           "Matthäus",
-          76
+          66
         ],
         [
           "Klybeck",
-          4
+          9
         ],
         [
           "Kleinhüningen",
@@ -82,14 +82,14 @@
         ],
         [
           "Riehen",
-          228
+          375
         ],
         [
           "Bettingen",
-          15
+          14
         ]
       ],
-      "name": "Nettoproduktion  2007 bis  2016",
+      "name": "Nettoproduktion  2008 bis  2017",
       "turboThreshold": 0
     }
   ],
@@ -167,7 +167,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel von 2007 bis 2016",
+    "text": "nach Wohnviertel von 2008 bis 2017",
     "align": "left"
   },
   "yAxis": {
