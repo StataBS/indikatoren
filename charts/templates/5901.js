@@ -37,7 +37,7 @@
     }
     ],
     "xAxis": {
-      "tickInterval": 2
+      "tickInterval": 1
     },
     "legend": {
       "enabled": true,
@@ -109,7 +109,7 @@
     	    //"shared": true
   		   },
     "chart": {
-      "marginBottom": 65,
+      "marginBottom": 75,
       "alignTicks": false
     }
   };
