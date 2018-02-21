@@ -2,10 +2,23 @@
     return {
     	chart: {		
         events:{
-              load: function() {
-                  this.credits.element.onclick = function() {}
-              }
-          },
+          load: function() {
+            this.credits.element.onclick = function() {};
+
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }              
+
+                  
+          }
+        },
     		"borderColor": "#fbfbfb",
     		"backgroundColor": "#fbfbfb",
     		"zoomType": "xy",
@@ -40,8 +53,6 @@
         "max": 100,
         gridLineColor: '#B9CFD7', 
         gridLineWidth: 0.5,
-        lineColor: '#B9CFD7',
-        lineWidth: 0.5,
         "title": {
           "style": {
             "color": "#000000",
@@ -89,6 +100,7 @@
         "verticalAlign": "middle",
         "align": "right",
         "symbolRadius": 0,
+        itemMarginBottom: 5,
         "itemStyle": {
           "fontWeight": "normal"
         }
@@ -100,7 +112,8 @@
       },
       "plotOptions": {
         "series": {
-          "stacking": "percent"
+          "stacking": "percent",
+          fillOpacity: 1
         }, 
         "area": {
           "lineWidth": 0,

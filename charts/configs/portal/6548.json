@@ -1,0 +1,559 @@
+{
+  "series": [
+    {
+      "color": "rgb(176, 0, 0)",
+      "data": [
+        [
+          2008,
+          298886
+        ],
+        [
+          2009,
+          314033
+        ],
+        [
+          2010,
+          303631
+        ],
+        [
+          2011,
+          306478
+        ],
+        [
+          2012,
+          313411
+        ],
+        [
+          2013,
+          322772
+        ],
+        [
+          2014,
+          363756
+        ],
+        [
+          2015,
+          398179
+        ],
+        [
+          2016,
+          406196
+        ],
+        [
+          2017,
+          424254
+        ]
+      ],
+      "name": "Schweiz"
+    },
+    {
+      "color": "rgb(255, 128, 40)",
+      "data": [
+        [
+          2008,
+          183423
+        ],
+        [
+          2009,
+          201941
+        ],
+        [
+          2010,
+          202343
+        ],
+        [
+          2011,
+          195333
+        ],
+        [
+          2012,
+          178209
+        ],
+        [
+          2013,
+          185430
+        ],
+        [
+          2014,
+          176308
+        ],
+        [
+          2015,
+          169496
+        ],
+        [
+          2016,
+          167768
+        ],
+        [
+          2017,
+          192042
+        ]
+      ],
+      "name": "Deutschland"
+    },
+    {
+      "color": "rgb(115, 186, 124)",
+      "data": [
+        [
+          2008,
+          87268
+        ],
+        [
+          2009,
+          90940
+        ],
+        [
+          2010,
+          103871
+        ],
+        [
+          2011,
+          107913
+        ],
+        [
+          2012,
+          110196
+        ],
+        [
+          2013,
+          113226
+        ],
+        [
+          2014,
+          112834
+        ],
+        [
+          2015,
+          121342
+        ],
+        [
+          2016,
+          123366
+        ],
+        [
+          2017,
+          136263
+        ]
+      ],
+      "name": "Vereinigte Staaten"
+    },
+    {
+      "color": "rgb(180, 117, 171)",
+      "data": [
+        [
+          2008,
+          81938
+        ],
+        [
+          2009,
+          78413
+        ],
+        [
+          2010,
+          79124
+        ],
+        [
+          2011,
+          83728
+        ],
+        [
+          2012,
+          81158
+        ],
+        [
+          2013,
+          84025
+        ],
+        [
+          2014,
+          92842
+        ],
+        [
+          2015,
+          95610
+        ],
+        [
+          2016,
+          101277
+        ],
+        [
+          2017,
+          98282
+        ]
+      ],
+      "name": "Vereinigtes Königreich"
+    },
+    {
+      "color": "rgb(8, 161, 217)",
+      "data": [
+        [
+          2008,
+          42805
+        ],
+        [
+          2009,
+          48130
+        ],
+        [
+          2010,
+          48297
+        ],
+        [
+          2011,
+          47407
+        ],
+        [
+          2012,
+          50822
+        ],
+        [
+          2013,
+          50040
+        ],
+        [
+          2014,
+          50443
+        ],
+        [
+          2015,
+          51414
+        ],
+        [
+          2016,
+          52631
+        ],
+        [
+          2017,
+          58011
+        ]
+      ],
+      "name": "Frankreich"
+    },
+    {
+      "color": "rgb(131, 82, 46)",
+      "data": [
+        [
+          2008,
+          39838
+        ],
+        [
+          2009,
+          41359
+        ],
+        [
+          2010,
+          45183
+        ],
+        [
+          2011,
+          42214
+        ],
+        [
+          2012,
+          41736
+        ],
+        [
+          2013,
+          44998
+        ],
+        [
+          2014,
+          46114
+        ],
+        [
+          2015,
+          46523
+        ],
+        [
+          2016,
+          48749
+        ],
+        [
+          2017,
+          50423
+        ]
+      ],
+      "name": "Italien"
+    },
+    {
+      "color": "rgb(255, 232, 70)",
+      "data": [
+        [
+          2008,
+          26850
+        ],
+        [
+          2009,
+          26997
+        ],
+        [
+          2010,
+          24543
+        ],
+        [
+          2011,
+          23998
+        ],
+        [
+          2012,
+          21644
+        ],
+        [
+          2013,
+          22484
+        ],
+        [
+          2014,
+          23691
+        ],
+        [
+          2015,
+          24685
+        ],
+        [
+          2016,
+          27206
+        ],
+        [
+          2017,
+          32835
+        ]
+      ],
+      "name": "Spanien"
+    },
+    {
+      "color": "rgb(60, 60, 60)",
+      "data": [
+        [
+          2008,
+          30464
+        ],
+        [
+          2009,
+          30835
+        ],
+        [
+          2010,
+          32733
+        ],
+        [
+          2011,
+          29277
+        ],
+        [
+          2012,
+          27068
+        ],
+        [
+          2013,
+          28043
+        ],
+        [
+          2014,
+          28322
+        ],
+        [
+          2015,
+          25330
+        ],
+        [
+          2016,
+          26061
+        ],
+        [
+          2017,
+          30405
+        ]
+      ],
+      "name": "Niederlande"
+    },
+    {
+      "color": "rgb(200, 200, 200)",
+      "data": [
+        [
+          2008,
+          217441
+        ],
+        [
+          2009,
+          197694
+        ],
+        [
+          2010,
+          231356
+        ],
+        [
+          2011,
+          242955
+        ],
+        [
+          2012,
+          257663
+        ],
+        [
+          2013,
+          254844
+        ],
+        [
+          2014,
+          268628
+        ],
+        [
+          2015,
+          269217
+        ],
+        [
+          2016,
+          264423
+        ],
+        [
+          2017,
+          305532
+        ]
+      ],
+      "name": "Übrige Länder"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+            this.credits.element.onclick = function() {};
+
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }              
+
+                  
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "area",
+    "renderTo": "container-6548"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Entwicklung der Logiernächte der Top-Märkte"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "yAxis": {
+    "min": 0,
+    "max": null,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "x": -5
+    },
+    "reversedStacks": false
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "step": 1,
+      "formatter": function (){
+                return this.value;
+            }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "reversed": true,
+    "margin": 5,
+    "padding": 5,
+    "labelFormatter": function (){
+          return this.name
+            .replace("Vereinigtes ", "Vereinigtes<br/>")
+            .replace("Vereinigte ", "Vereinigte<br/>");
+        }
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "normal",
+      "fillOpacity": 1
+    },
+    "area": {
+      "lineWidth": 0,
+      "itemMarginBottom": 5,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": 6548
+  }
+}

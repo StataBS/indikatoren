@@ -1,0 +1,431 @@
+{
+  "series": [
+    {
+      "color": "rgb(220, 68, 14)",
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2008,
+          0.737919385
+        ],
+        [
+          2009,
+          0.688160977
+        ],
+        [
+          2010,
+          0.712715736
+        ],
+        [
+          2011,
+          0.703794982
+        ],
+        [
+          2012,
+          0.698304205
+        ],
+        [
+          2013,
+          0.719753993
+        ],
+        [
+          2014,
+          0.723168077
+        ],
+        [
+          2015,
+          0.710086965
+        ],
+        [
+          2016,
+          0.708969466
+        ],
+        [
+          2017,
+          0.687306341
+        ]
+      ],
+      "name": "Effektiv: Mo-Do"
+    },
+    {
+      "color": "rgb(68, 141, 43)",
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2008,
+          0.525420574
+        ],
+        [
+          2009,
+          0.495799875
+        ],
+        [
+          2010,
+          0.476080367
+        ],
+        [
+          2011,
+          0.480256528
+        ],
+        [
+          2012,
+          0.471786578
+        ],
+        [
+          2013,
+          0.487181156
+        ],
+        [
+          2014,
+          0.496758848
+        ],
+        [
+          2015,
+          0.503085352
+        ],
+        [
+          2016,
+          0.491981573
+        ],
+        [
+          2017,
+          0.511537324
+        ]
+      ],
+      "name": "Effektiv: Fr-So"
+    },
+    {
+      "color": "rgb(250, 189, 36)",
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2008,
+          0.647346731
+        ],
+        [
+          2009,
+          0.606040831
+        ],
+        [
+          2010,
+          0.610991777
+        ],
+        [
+          2011,
+          0.607864899
+        ],
+        [
+          2012,
+          0.601275881
+        ],
+        [
+          2013,
+          0.620405741
+        ],
+        [
+          2014,
+          0.626545043
+        ],
+        [
+          2015,
+          0.621628807
+        ],
+        [
+          2016,
+          0.615605161
+        ],
+        [
+          2017,
+          0.611833344
+        ]
+      ],
+      "name": "Effektiv: Mo-So"
+    },
+    {
+      "color": "rgb(220, 68, 14)",
+      "data": [
+        [
+          2008,
+          0.737919385
+        ],
+        [
+          2009,
+          0.720871824
+        ],
+        [
+          2010,
+          0.784719284
+        ],
+        [
+          2011,
+          0.788736571
+        ],
+        [
+          2012,
+          0.785152356
+        ],
+        [
+          2013,
+          0.79865809
+        ],
+        [
+          2014,
+          0.829413211
+        ],
+        [
+          2015,
+          0.850025728
+        ],
+        [
+          2016,
+          0.859512681
+        ],
+        [
+          2017,
+          0.887483375
+        ]
+      ],
+      "name": "Auf Basis Zimmerzahl 2008: Mo-Do"
+    },
+    {
+      "color": "rgb(68, 141, 43)",
+      "data": [
+        [
+          2008,
+          0.525420574
+        ],
+        [
+          2009,
+          0.519367085
+        ],
+        [
+          2010,
+          0.524177349
+        ],
+        [
+          2011,
+          0.538219079
+        ],
+        [
+          2012,
+          0.530462713
+        ],
+        [
+          2013,
+          0.540589112
+        ],
+        [
+          2014,
+          0.56974079
+        ],
+        [
+          2015,
+          0.602229746
+        ],
+        [
+          2016,
+          0.596449383
+        ],
+        [
+          2017,
+          0.660521871
+        ]
+      ],
+      "name": "Auf Basis Zimmerzahl 2008: Fr-So"
+    },
+    {
+      "color": "rgb(250, 189, 36)",
+      "data": [
+        [
+          2008,
+          0.647346731
+        ],
+        [
+          2009,
+          0.634848202
+        ],
+        [
+          2010,
+          0.672718457
+        ],
+        [
+          2011,
+          0.681228609
+        ],
+        [
+          2012,
+          0.676056612
+        ],
+        [
+          2013,
+          0.688418639
+        ],
+        [
+          2014,
+          0.718594685
+        ],
+        [
+          2015,
+          0.744134882
+        ],
+        [
+          2016,
+          0.746323315
+        ],
+        [
+          2017,
+          0.79002897
+        ]
+      ],
+      "name": "Auf Basis Zimmerzahl 2008: Mo-So"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }
+              //move legend title
+              var title = this.legend.title;
+              title.translate(-250, 40);
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6540"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Nettozimmerauslastung nach Wochentag"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Effektiv und auf Basis der Zimmerzahl von 2008",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormatter": function (){
+	    return '<span style="color:'+ this.series.color+'">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat(100 * this.y, 1, ",", " ")  + '%</b><br/>';
+	  }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function () {
+         return 100 * this.value + "%";
+      }
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "right",
+    "symbolRadius": 0,
+    "useHTML": true,
+    "itemMarginBottom": 5,
+    "width": 210,
+    "itemWidth": 70,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "width": 40
+    },
+    "title": {
+      "text": "Effektiv:\u003Cbr\u002F\u003EAuf Basis Zimmerzahl 2008:",
+      "style": {
+        "fontWeight": "normal"
+      }
+    },
+    "labelFormatter": function (){
+        //remove text before year on each item with odd index
+        //return (this.index % 3 != 0) ? this.name.slice(-5) : this.name;
+        return this.name.slice(-5);
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "symbol": "circle",
+        "lineWidth": 2,
+        "lineColor": null
+      }
+    }
+  },
+  "exporting": {
+    "filename": 6540
+  }
+}
