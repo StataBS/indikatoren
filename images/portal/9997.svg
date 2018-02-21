@@ -53,63 +53,63 @@
     <tspan>Test Subtitle</tspan>
   </text>
   <g class="highcharts-data-labels highcharts-series-0 highcharts-bubble-series highcharts-color-0 " visibility="visible" transform="translate(46,55) scale(1 1)">
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " transform="translate(17,161)">
-      <text x="5" style="font-size:11px;font-weight:bold;color:black;fill:black;" y="16">
-        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Schweiz</tspan><tspan x="5" dy="14" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">10%</tspan><tspan x="5" y="16">Schweiz</tspan><tspan x="5" dy="14">10%</tspan>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="text-shadow:none;" transform="translate(-5,170)">
+      <text x="0" style="font-size:10;font-weight:normal;color:black;fill:black;" y="10">
+        <tspan x="0" y="10" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Schweiz</tspan><tspan x="0" y="10">Schweiz</tspan>
       </text>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " transform="translate(81,185)">
-      <text x="5" style="font-size:11px;font-weight:bold;color:black;fill:black;" y="16">
-        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Deutschland</tspan><tspan x="5" dy="14" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">20%</tspan><tspan x="5" y="16">Deutschland</tspan><tspan x="5" dy="14">20%</tspan>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="text-shadow:none;" transform="translate(62,177)">
+      <text x="0" style="font-size:10;font-weight:normal;color:black;fill:black;" y="10">
+        <tspan x="0" y="10" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Deutschland</tspan><tspan x="0" y="10">Deutschland</tspan>
       </text>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " transform="translate(353,20)">
-      <text x="5" style="font-size:11px;font-weight:bold;color:black;fill:black;" y="16">
-        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Österreich</tspan><tspan x="5" dy="14" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">55%</tspan><tspan x="5" y="16">Österreich</tspan><tspan x="5" dy="14">55%</tspan>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="text-shadow:none;" transform="translate(332,38)">
+      <text x="0" style="font-size:10;font-weight:normal;color:black;fill:black;" y="10">
+        <tspan x="0" y="10" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Österreich</tspan><tspan x="0" y="10">Österreich</tspan>
       </text>
     </g>
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
-    <text x="59.4574780058651" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="367" opacity="1">
+    <text x="59.4574780058651" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       <tspan>10%</tspan>
     </text>
-    <text x="135.36493971977842" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="367" opacity="1">
+    <text x="135.36493971977842" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       <tspan>20%</tspan>
     </text>
-    <text x="211.27240143369175" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="367" opacity="1">
+    <text x="211.27240143369175" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       <tspan>30%</tspan>
     </text>
-    <text x="287.1798631476051" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="367" opacity="1">
+    <text x="287.1798631476051" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       <tspan>40%</tspan>
     </text>
-    <text x="363.0873248615184" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="367" opacity="1">
+    <text x="363.0873248615184" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       <tspan>50%</tspan>
     </text>
-    <text x="438.99478657543176" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="367" opacity="1">
+    <text x="438.99478657543176" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       <tspan>60%</tspan>
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
-    <text x="31" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="354" opacity="1">
+    <text x="31" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="354" opacity="1">
       <tspan>0</tspan>
     </text>
-    <text x="31" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="295" opacity="1">
+    <text x="31" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="295" opacity="1">
       <tspan>2.5</tspan>
     </text>
-    <text x="31" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="236" opacity="1">
+    <text x="31" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="236" opacity="1">
       <tspan>5</tspan>
     </text>
-    <text x="31" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="177" opacity="1">
+    <text x="31" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="177" opacity="1">
       <tspan>7.5</tspan>
     </text>
-    <text x="31" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="118" opacity="1">
+    <text x="31" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="118" opacity="1">
       <tspan>10</tspan>
     </text>
-    <text x="31" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="60" opacity="1">
+    <text x="31" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="60" opacity="1">
       <tspan>12.5</tspan>
     </text>
   </g>
-  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">
+  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:black;font-size:10px;fill:black;" y="400">
     <tspan>Quelle: Test Quelle</tspan>
   </text>
 </svg>

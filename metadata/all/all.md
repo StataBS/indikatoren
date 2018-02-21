@@ -239,8 +239,8 @@ id | visible | visibleInPortal | indikatorenset
 4912 | true | true | 
 4913 | true | true | 
 4914 | true | true | 
-4915 | true | true | 
-4916 | true | true | 
+4915 | false |  | Archiv
+4916 | false |  | Archiv
 4917 | true | true | 
 4918 | true | true | 
 4919 | true | true | 
@@ -491,6 +491,20 @@ id | visible | visibleInPortal | indikatorenset
 6371 | true | false | Legislaturplan (Print)
 6372 | true | false | Legislaturplan (Print)
 6502 | true | true | 
+6537 | true | true | Tourismus
+6538 | true | true | Tourismus
+6539 | true | true | Tourismus
+6540 | true | true | Tourismus
+6541 | true | true | Tourismus
+6542 | true | true | Tourismus
+6543 | true | true | Tourismus
+6544 | true | true | Tourismus
+6545 | true | true | Tourismus
+6546 | true | true | Tourismus
+6547 | true | true | Tourismus
+6548 | true | true | Tourismus
+6549 | true | true | Tourismus
+6576 | true | true | Tourismus
 9997 | true | false | 
 9998 | true | false | Test
 9999 | true | false | Test
