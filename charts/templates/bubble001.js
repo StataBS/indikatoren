@@ -52,14 +52,15 @@
             lineColor: '#B9CFD7',
             "title": {
                 "style": {
-                    "color": "#000000",
-                    "fontSize": null
+                    "color": "black",
+                    "fontSize": "11px"
                 },
                 "text": null
             },
             "labels": {
                 "style": {
-                    "color": "#000000"
+                    "color": "black",
+                    "fontSize": "11px"
                 }
             }, 
             "min": 0
@@ -69,13 +70,14 @@
             lineWidth: 0.5,
             "title": {
                 "style": {
-                    "color": "#000000"
+                    "color": "black",
+                    "fontSize": "11px"
                 }
             },
             "labels": {
                 "style": {
-                    "color": "#000000",
-                    "fontSize": "10px"
+                    "color": "black",
+                    "fontSize": "11px"
                 }
             },
             "tickLength": 0,
@@ -83,7 +85,7 @@
         "credits": {
             "enabled": true,
             "style": {
-                "color": "#000000",
+                "color": "black",
                 "fontSize": "10px",
                 "cursor": "default"
             },
@@ -108,24 +110,36 @@
             followPointer: true
         },    	
     	plotOptions: {
+    	    series: {
+    	        marker: {
+    	            fillOpacity: 1
+    	        }
+    	    },
     	    bubble: {
     	        label: {
     	            enabled: true
     	        },
                 dataLabels: {
-                    enabled: true,
-                    format: '{point.name}<br/>{point.x}%', 
-                    align: 'center', 
-                    //verticalAlign: 'middle',
-                    y:-20,
-                    x: 30,
-                    overflow: "none",
-                    crop: false,
                     style: {
-                        fontSize: "11px", 
-                        color: 'black', 
-                        //textOutline: undefined
-                    }
+                        fontSize: 10,
+                        color: 'black',
+                        fontWeight: 'normal',
+                        textShadow: 'none',
+                    },
+                    //format: '{point.name}', 
+                    formatter: function(){
+                        return this.key.replace(" ", "<br/>");// + ': ' + this.point.z + '%';
+                    },
+                    inside: false,
+                    //align:'left',
+                    //verticalAlign: 'top',
+                    //verticalAlign: 'middle',
+                    //verticalAlign: 'top',
+                    y: -10,
+                    padding: 0,
+                    overflow: false,
+                    crop: false,
+                    enabled: true
                 }
     	    }
     	}

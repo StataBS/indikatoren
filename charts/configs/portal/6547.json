@@ -1,0 +1,215 @@
+{
+  "series": [
+    {
+      "color": "rgb(176, 0, 0)",
+      "data": [
+        [
+          2008,
+          100
+        ],
+        [
+          2009,
+          105.0678185
+        ],
+        [
+          2010,
+          101.5875618
+        ],
+        [
+          2011,
+          102.5400989
+        ],
+        [
+          2012,
+          104.8597124
+        ],
+        [
+          2013,
+          107.9916758
+        ],
+        [
+          2014,
+          121.7039272
+        ],
+        [
+          2015,
+          133.2210274
+        ],
+        [
+          2016,
+          135.903321
+        ],
+        [
+          2017,
+          141.9450894
+        ]
+      ],
+      "name": "Inland"
+    },
+    {
+      "color": "rgb(105, 146, 155)",
+      "data": [
+        [
+          2008,
+          100
+        ],
+        [
+          2009,
+          100.8847551
+        ],
+        [
+          2010,
+          108.0874389
+        ],
+        [
+          2011,
+          108.8444524
+        ],
+        [
+          2012,
+          108.2347573
+        ],
+        [
+          2013,
+          110.2901721
+        ],
+        [
+          2014,
+          112.5565648
+        ],
+        [
+          2015,
+          113.1811889
+        ],
+        [
+          2016,
+          114.2887524
+        ],
+        [
+          2017,
+          127.2899481
+        ]
+      ],
+      "name": "Ausland"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6547"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Logiernächte nach Herkunft der Gäste"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "indexiert (2008 = 100)",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 90,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 35,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": 6547
+  }
+}
