@@ -81,14 +81,15 @@
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
-        "color": "#000000",
-        "fontSize": null
+        "color": "black",
+        "fontSize": "11px"
       },
       "text": null
     },
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "black",
+        "fontSize": "11px"
       }
     },
     "min": 0
@@ -98,13 +99,14 @@
     "lineWidth": 0.5,
     "title": {
       "style": {
-        "color": "#000000"
+        "color": "black",
+        "fontSize": "11px"
       }
     },
     "labels": {
       "style": {
-        "color": "#000000",
-        "fontSize": "10px"
+        "color": "black",
+        "fontSize": "11px"
       },
       "format": "{value}%"
     },
@@ -114,7 +116,7 @@
   "credits": {
     "enabled": true,
     "style": {
-      "color": "#000000",
+      "color": "black",
       "fontSize": "10px",
       "cursor": "default"
     },
@@ -138,22 +140,31 @@
     "followPointer": true
   },
   "plotOptions": {
+    "series": {
+      "marker": {
+        "fillOpacity": 1
+      }
+    },
     "bubble": {
       "label": {
         "enabled": true
       },
       "dataLabels": {
-        "enabled": true,
-        "format": "{point.name}\u003Cbr\u002F\u003E{point.x}%",
-        "align": "center",
-        "y": -20,
-        "x": 30,
-        "overflow": "none",
-        "crop": false,
         "style": {
-          "fontSize": "11px",
-          "color": "black"
-        }
+          "fontSize": 10,
+          "color": "black",
+          "fontWeight": "normal",
+          "textShadow": "none"
+        },
+        "formatter": function (){
+                        return this.key.replace(" ", "<br/>");// + ': ' + this.point.z + '%';
+                    },
+        "inside": false,
+        "y": -10,
+        "padding": 0,
+        "overflow": false,
+        "crop": false,
+        "enabled": true
       }
     }
   },

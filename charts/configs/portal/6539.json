@@ -1,0 +1,292 @@
+{
+  "series": [
+    {
+      "color": "rgb(255, 218, 128)",
+      "data": [
+        [
+          "1- und 2-Sterne",
+          313
+        ],
+        [
+          "3-Sterne",
+          1148
+        ],
+        [
+          "4- und 5-Sterne",
+          1623
+        ],
+        [
+          "Nicht klassiert",
+          290
+        ]
+      ],
+      "name": "Angebotene Zimmer 2008",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(186, 168, 90)",
+      "data": [
+        [
+          "1- und 2-Sterne",
+          736
+        ],
+        [
+          "3-Sterne",
+          1623
+        ],
+        [
+          "4- und 5-Sterne",
+          1652
+        ],
+        [
+          "Nicht klassiert",
+          346
+        ]
+      ],
+      "name": "Angebotene Zimmer 2017",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(220, 68, 14)",
+      "type": "scatter",
+      "marker": {
+        "symbol": "diamond",
+        "radius": 8
+      },
+      "pointPlacement": -0.15,
+      "data": [
+        [
+          "1- und 2-Sterne",
+          0.66211857
+        ],
+        [
+          "3-Sterne",
+          0.666619067
+        ],
+        [
+          "4- und 5-Sterne",
+          0.67476068
+        ],
+        [
+          "Nicht klassiert",
+          0.401365677
+        ]
+      ],
+      "name": "Nettozimmerauslastung (rechte Skala) 2008",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(139, 34, 35)",
+      "type": "scatter",
+      "marker": {
+        "symbol": "diamond",
+        "radius": 8
+      },
+      "pointPlacement": 0.15,
+      "data": [
+        [
+          "1- und 2-Sterne",
+          0.494873855
+        ],
+        [
+          "3-Sterne",
+          0.635030286
+        ],
+        [
+          "4- und 5-Sterne",
+          0.643437661
+        ],
+        [
+          "Nicht klassiert",
+          0.601112747
+        ]
+      ],
+      "name": "Nettozimmerauslastung (rechte Skala) 2017",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+            //move legend title
+            var title = this.legend.title;
+            title.translate(-250, 40);
+          }
+    },
+    "type": "column",
+    "renderTo": "container-6539"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": null,
+      "pointPadding": 0
+    },
+    "scatter": {
+      "yAxis": 1,
+      "tooltip": {
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+        "pointFormatter": function (){ 
+              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
+          }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Zimmerangebot und Auslastung nach Hotelkategorie"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "yAxis": [
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      }
+    },
+    {
+      "opposite": true,
+      "min": 0,
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "style": {
+          "color": "#000000"
+        },
+        "formatter": function () {
+               return 100 * this.value + "%";
+            }
+      }
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "useHTML": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "right",
+    "itemStyle": {
+      "fontWeight": "normal",
+      "width": 40
+    },
+    "width": 200,
+    "itemWidth": 70,
+    "labelFormatter": function (){
+        //remove text before year on each item with odd index
+        //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name;
+        return this.name.slice(-4);
+    },
+    "title": {
+      "text": "Angebotene Zimmer:\u003Cbr\u002F\u003ENettozimmerauslastung (rechte Skala):",
+      "style": {
+        "fontWeight": "normal"
+      }
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 6539
+  }
+}

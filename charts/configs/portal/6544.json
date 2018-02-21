@@ -1,0 +1,248 @@
+{
+  "series": [
+    {
+      "color": "rgb(176, 0, 0)",
+      "data": [
+        [
+          "Jan 17",
+          1.55341127
+        ],
+        [
+          "Feb 17",
+          1.601740656
+        ],
+        [
+          "Mrz 17",
+          2.038599159
+        ],
+        [
+          "Apr 17",
+          1.509915534
+        ],
+        [
+          "Mai 17",
+          1.644050504
+        ],
+        [
+          "Jun 17",
+          1.62282648
+        ],
+        [
+          "Jul 17",
+          1.540796345
+        ],
+        [
+          "Aug 17",
+          1.691800443
+        ],
+        [
+          "Sep 17",
+          1.580443181
+        ],
+        [
+          "Okt 17",
+          1.526296726
+        ],
+        [
+          "Nov 17",
+          1.650750895
+        ],
+        [
+          "Dez 17",
+          1.472958864
+        ]
+      ],
+      "name": "Inland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(105, 146, 155)",
+      "data": [
+        [
+          "Jan 17",
+          1.960060379
+        ],
+        [
+          "Feb 17",
+          2.011048117
+        ],
+        [
+          "Mrz 17",
+          2.407340171
+        ],
+        [
+          "Apr 17",
+          1.91702465
+        ],
+        [
+          "Mai 17",
+          2.015095598
+        ],
+        [
+          "Jun 17",
+          2.097305982
+        ],
+        [
+          "Jul 17",
+          1.852406933
+        ],
+        [
+          "Aug 17",
+          1.808676283
+        ],
+        [
+          "Sep 17",
+          1.922955642
+        ],
+        [
+          "Okt 17",
+          1.949786636
+        ],
+        [
+          "Nov 17",
+          1.985580544
+        ],
+        [
+          "Dez 17",
+          1.869166508
+        ]
+      ],
+      "name": "Ausland",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "step": 1,
+      "formatter": function (){
+        return this.value.slice(0, 3);
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6544"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Aufenthaltsdauer im Monatsmittel"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in Tagen, Stand 2017",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.1f}"
+    }
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 35,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "dataLabels": {
+        "enabled": true,
+        "formatter": function (){
+          //only create dataLabels for max or min value within a series
+          if (this.y == Math.max.apply(null, this.series.yData) || this.y == Math.min.apply(null, this.series.yData)){
+            return Highcharts.numberFormat(this.y, 2, ",", " ");
+          }
+        }
+      },
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": 6544
+  }
+}

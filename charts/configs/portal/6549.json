@@ -1,0 +1,219 @@
+{
+  "series": [
+    {
+      "data": [
+        {
+          "x": 22.91,
+          "y": 424,
+          "z": 31.9,
+          "name": "CH",
+          "color": "rgb(176, 0, 0)"
+        },
+        {
+          "x": 3.7,
+          "y": 192,
+          "z": 14.5,
+          "name": "DE",
+          "color": "rgb(255, 128, 40)"
+        },
+        {
+          "x": 23.1,
+          "y": 136,
+          "z": 10.3,
+          "name": "US",
+          "color": "rgb(115, 186, 124)"
+        },
+        {
+          "x": 12.1,
+          "y": 98,
+          "z": 7.4,
+          "name": "GB",
+          "color": "rgb(180, 117, 171)"
+        },
+        {
+          "x": 16,
+          "y": 58,
+          "z": 4.4,
+          "name": "FR",
+          "color": "rgb(8, 161, 217)"
+        },
+        {
+          "x": 12.8,
+          "y": 50,
+          "z": 3.8,
+          "name": "IT",
+          "color": "rgb(131, 82, 46)"
+        },
+        {
+          "x": 28.8,
+          "y": 33,
+          "z": 2.5,
+          "name": "ES",
+          "color": "rgb(255, 232, 70)"
+        },
+        {
+          "x": 5.4,
+          "y": 30,
+          "z": 2.3,
+          "name": "NL",
+          "color": "rgb(60, 60, 60)"
+        },
+        {
+          "x": 28.6,
+          "y": 22,
+          "z": 1.7,
+          "name": "CN",
+          "color": "rgb(103, 39, 115)"
+        }
+      ],
+      "name": "Herkunftsland"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+                  this.credits.element.onclick = function() {};
+                  //for top-left legends with no x defined: move legend to x position of first yAxis
+                  if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                    this.update(
+                      {
+                        legend: {
+                          x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                        }
+                      }
+                    );
+                  }              
+                }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "bubble",
+    "renderTo": "container-6549"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Wachstumsbeiträge der Top-Märkte"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "black",
+        "fontSize": "11px"
+      },
+      "text": "Logiernächte 2017 in Tausend"
+    },
+    "labels": {
+      "style": {
+        "color": "black",
+        "fontSize": "11px"
+      }
+    },
+    "min": 0
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "black",
+        "fontSize": "11px"
+      },
+      "text": "Veränderung 2017 gegenüber dem Mittelwert 2008-2017"
+    },
+    "labels": {
+      "style": {
+        "color": "black",
+        "fontSize": "11px"
+      },
+      "format": "{value}%"
+    },
+    "tickLength": 0,
+    "min": 0
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "black",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik"
+  },
+  "legend": {
+    "enabled": false,
+    "symbolRadius": 0
+  },
+  "tooltip": {
+    "useHTML": false,
+    "headerFormat": "\u003Ctable\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E \u003Cspan style=\"font-size: 10px\"\u003E {point.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003EVeränderung 2017 gegenüber dem Mittelwert 2008-2017:\u003Cb\u003E {point.x}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003ELogiernächte 2017 in Tausend:\u003Cb\u003E {point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003EMarktanteil 2017:\u003Cb\u003E {point.z}%\u003C\u002Fb\u003E",
+    "footerFormat": "\u003C\u002Ftable\u003E",
+    "followPointer": true
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "fillOpacity": 1
+      }
+    },
+    "bubble": {
+      "label": {
+        "enabled": true
+      },
+      "dataLabels": {
+        "style": {
+          "fontSize": 10,
+          "color": "black",
+          "fontWeight": "normal",
+          "textShadow": "none"
+        },
+        "formatter": function (){
+                        return this.key.replace(" ", "<br/>");// + ': ' + this.point.z + '%';
+                    },
+        "inside": false,
+        "y": -5,
+        "padding": 0,
+        "overflow": false,
+        "crop": false,
+        "enabled": true,
+        "x": -20,
+        "allowOverlap": true
+      }
+    }
+  },
+  "exporting": {
+    "filename": 6549
+  }
+}
