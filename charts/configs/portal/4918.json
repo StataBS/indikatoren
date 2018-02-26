@@ -283,7 +283,8 @@
                     return Highcharts.numberFormat((this.value), 2, ",", " ");                
                 },
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       }
     },
     "min": 0
