@@ -5,87 +5,87 @@
       "data": [
         [
           "Breite",
-          0.1190652515
+          0.126
         ],
         [
           "Bruderholz",
-          0.1331406422
+          0.136
         ],
         [
           "Iselin",
-          0.1582150751
+          0.156
         ],
         [
           "Riehen",
-          0.164299291
+          0.169
         ],
         [
           "Matthäus",
-          0.1814616525
+          0.183
         ],
         [
           "Bachletten",
-          0.1872961595
+          0.214
         ],
         [
           "Bettingen",
-          0.2839533422
+          0.292
         ],
         [
           "Gotthelf",
-          0.2945914104
+          0.296
         ],
         [
           "Hirzbrunnen",
-          0.3392960807
+          0.336
         ],
         [
           "Gundeldingen",
-          0.6218140788
+          0.585
         ],
         [
           "Clara",
-          0.6749574129
+          0.667
         ],
         [
           "Klybeck",
-          0.8165756242
-        ],
-        [
-          "St. Johann",
-          0.9990028404
-        ],
-        [
-          "Am Ring",
-          1.0166387112
+          0.796
         ],
         [
           "Rosental",
-          1.050800448
+          0.87
+        ],
+        [
+          "St. Johann",
+          0.979
+        ],
+        [
+          "Am Ring",
+          1.022
         ],
         [
           "Altstadt Kleinbasel",
-          1.5517414754
+          1.654
         ],
         [
           "Wettstein",
-          1.8098230986
+          1.898
         ],
         [
           "Kleinhüningen",
-          2.0479528603
+          2.159
         ],
         [
           "St. Alban",
-          2.1513247105
-        ],
-        [
-          "Vorstädte",
-          4.577539286
+          2.231
         ],
         [
           "Altstadt Grossbasel",
-          4.595664635
+          4.32
+        ],
+        [
+          "Vorstädte",
+          4.423
         ]
       ],
       "name": "Arbeitsplätze pro Kopf",
@@ -143,15 +143,15 @@
           12
         ],
         [
-          "St. Johann",
+          "Rosental",
           13
         ],
         [
-          "Am Ring",
+          "St. Johann",
           14
         ],
         [
-          "Rosental",
+          "Am Ring",
           15
         ],
         [
@@ -171,11 +171,11 @@
           19
         ],
         [
-          "Vorstädte",
+          "Altstadt Grossbasel",
           20
         ],
         [
-          "Altstadt Grossbasel",
+          "Vorstädte",
           21
         ]
       ],
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2014",
+    "text": "Stand: 2015",
     "align": "left"
   },
   "plotOptions": {
