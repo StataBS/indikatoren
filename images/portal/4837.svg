@@ -59,13 +59,13 @@
     <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined " transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="none">
       <path fill="#689199" d="M 291 142 A 4 4 0 1 1 290.9999980000002 141.99600000066667 Z" class="highcharts-point"/>
       <path fill="#689199" d="M 277 134 A 4 4 0 1 1 276.9999980000002 133.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#689199" d="M 263 124 A 4 4 0 1 1 262.9999980000002 123.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#689199" d="M 263 123 A 4 4 0 1 1 262.9999980000002 122.99600000066667 Z" class="highcharts-point"/>
       <path fill="#689199" d="M 249 117 A 4 4 0 1 1 248.99999800000018 116.99600000066667 Z" class="highcharts-point"/>
       <path fill="#689199" d="M 235 109 A 4 4 0 1 1 234.99999800000018 108.99600000066667 Z" class="highcharts-point"/>
       <path fill="#689199" d="M 221 108 A 4 4 0 1 1 220.99999800000018 107.99600000066667 Z" class="highcharts-point"/>
       <path fill="#689199" d="M 207 106 A 4 4 0 1 1 206.99999800000018 105.99600000066667 Z" class="highcharts-point"/>
       <path fill="#689199" d="M 193 101 A 4 4 0 1 1 192.99999800000018 100.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#689199" d="M 179 96 A 4 4 0 1 1 178.99999800000018 95.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#689199" d="M 179 95 A 4 4 0 1 1 178.99999800000018 94.99600000066667 Z" class="highcharts-point"/>
       <path fill="#689199" d="M 165 94 A 4 4 0 1 1 164.99999800000018 93.99600000066667 Z" class="highcharts-point"/>
       <path fill="#689199" d="M 151 93 A 4 4 0 1 1 150.99999800000018 92.99600000066667 Z" class="highcharts-point"/>
       <path fill="#689199" d="M 137 93 A 4 4 0 1 1 136.99999800000018 92.99600000066667 Z" class="highcharts-point"/>
@@ -86,7 +86,7 @@
     <tspan>Erwerbstätigenquote</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
-    <tspan>Stand: gepoolte Daten 2010 - 2014</tspan>
+    <tspan>Stand: gepoolte Daten 2011-2015</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="66" opacity="1">

@@ -606,7 +606,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Erwerbstätigenquote",
-		"subtitle": "Stand: gepoolte Daten 2010 - 2014",
+		"subtitle": "Stand: gepoolte Daten 2011-2015",
 		"kuerzel": "I.03.1.04837",
 		"kuerzelKunde": "WA-3.A",
 		"description": "Erwerbstätigenquote",
@@ -616,7 +616,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-20T00:00:00.000",
 		"schlagwort": [
 			"Erwerb"
 		],
@@ -625,7 +625,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Im Mittel der Jahre 2011 bis 2015 ist die Erwerbstätigenquote im Wohnviertel Klybeck am tiefsten (60,9%) und im Wohnviertel Altstadt Grossbasel am grössten (83,3%)",
 		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt.",
 		"template": "dotplot",
 		"orderKey": "03_00_00_00_00_005",
@@ -646,7 +646,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
-		"subtitle": "Stand: 2014",
+		"subtitle": "Stand: 2015",
 		"kuerzel": "I.03.2.04838",
 		"kuerzelKunde": "WA-4.A",
 		"description": "Arbeitsplätze pro Kopf",
@@ -656,7 +656,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
+		"aktualisierungsdatum": "2018-02-06T00:00:00.000",
 		"schlagwort": [
 			"Erwerb"
 		],
@@ -665,7 +665,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Im Wohnviertel Breite gibt es die wenigsten Arbeitsplätze pro Kopf, im Wohnviertel Vorstädte die meisten.",
 		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.<br> Im Wohnvietel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "dotplot",
 		"orderKey": "03_00_00_00_00_007",
@@ -1303,7 +1303,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Erwerbstätigenquote",
-		"subtitle": "Stand: gepoolte Daten 2010 - 2014",
+		"subtitle": "Stand: gepoolte Daten 2011-2015",
 		"kuerzel": "I.03.1.05124",
 		"kuerzelKunde": "WA-3.B",
 		"description": "Erwerbstätigenquote",
@@ -1313,7 +1313,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-12T14:43:49.4949",
+		"aktualisierungsdatum": "2018-02-20T14:43:49.4949",
 		"schlagwort": [
 			"Erwerb"
 		],
@@ -1322,7 +1322,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Im Mittel der Jahre 2011 bis 2015 ist die Erwerbstätigenquote im Wohnviertel Klybeck am tiefsten (60,9%) und im Wohnviertel Altstadt Grossbasel am grössten (83,3%)",
 		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt.",
 		"template": "map001",
 		"orderKey": "03_00_00_00_00_006",
@@ -1341,7 +1341,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
-		"subtitle": "Stand: 2014",
+		"subtitle": "Stand: 2015",
 		"kuerzel": "I.03.2.05125",
 		"kuerzelKunde": "WA-4.B",
 		"description": "Arbeitsplätze pro Kopf",
@@ -1351,7 +1351,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-12T15:25:19.1919",
+		"aktualisierungsdatum": "2018-02-20T15:25:19.1919",
 		"schlagwort": [
 			"Erwerb"
 		],
@@ -1360,7 +1360,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Im Wohnviertel Breite gibt es die wenigsten Arbeitsplätze pro Kopf, im Wohnviertel Vorstädte die meisten.",
 		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.<br> Im Wohnvietel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "map001",
 		"orderKey": "03_00_00_00_00_008",
