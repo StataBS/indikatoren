@@ -5,87 +5,87 @@
       "data": [
         [
           "Bachletten",
-          0.2177830293
-        ],
-        [
-          "Hirzbrunnen",
-          0.2399783315
+          0.2142540293
         ],
         [
           "Bruderholz",
-          0.2415291051
+          0.2398053002
         ],
         [
           "Bettingen",
-          0.2478991597
+          0.241813602
+        ],
+        [
+          "Hirzbrunnen",
+          0.249463289
         ],
         [
           "Riehen",
-          0.2554164087
-        ],
-        [
-          "Altstadt Grossbasel",
-          0.2706205813
+          0.2609673791
         ],
         [
           "Gotthelf",
-          0.2776071376
+          0.2752971876
         ],
         [
-          "St. Alban",
-          0.3163546256
+          "Altstadt Grossbasel",
+          0.2841698842
         ],
         [
           "Wettstein",
-          0.3179886686
+          0.3113924051
         ],
         [
           "Breite",
-          0.3239704566
+          0.3286163522
+        ],
+        [
+          "St. Alban",
+          0.3310629145
         ],
         [
           "Am Ring",
-          0.3487982113
-        ],
-        [
-          "Iselin",
-          0.3751348759
+          0.3619796485
         ],
         [
           "Altstadt Kleinbasel",
-          0.3766025641
+          0.3717532468
+        ],
+        [
+          "Iselin",
+          0.3791322927
         ],
         [
           "Vorstädte",
-          0.3823178017
+          0.3840478564
         ],
         [
           "Gundeldingen",
-          0.3906043112
+          0.3930070673
         ],
         [
           "St. Johann",
-          0.4340014927
+          0.4300856531
         ],
         [
           "Clara",
-          0.463335819
+          0.4674338883
         ],
         [
           "Kleinhüningen",
-          0.4690632561
+          0.4743319269
         ],
         [
           "Matthäus",
-          0.5062146893
+          0.5057022242
         ],
         [
           "Klybeck",
-          0.5166620383
+          0.5235010338
         ],
         [
           "Rosental",
-          0.5573870574
+          0.5577767681
         ]
       ],
       "name": "Anteil Ausländer",
@@ -99,15 +99,15 @@
           1
         ],
         [
-          "Hirzbrunnen",
+          "Bruderholz",
           2
         ],
         [
-          "Bruderholz",
+          "Bettingen",
           3
         ],
         [
-          "Bettingen",
+          "Hirzbrunnen",
           4
         ],
         [
@@ -115,23 +115,23 @@
           5
         ],
         [
-          "Altstadt Grossbasel",
+          "Gotthelf",
           6
         ],
         [
-          "Gotthelf",
+          "Altstadt Grossbasel",
           7
         ],
         [
-          "St. Alban",
+          "Wettstein",
           8
         ],
         [
-          "Wettstein",
+          "Breite",
           9
         ],
         [
-          "Breite",
+          "St. Alban",
           10
         ],
         [
@@ -139,11 +139,11 @@
           11
         ],
         [
-          "Iselin",
+          "Altstadt Kleinbasel",
           12
         ],
         [
-          "Altstadt Kleinbasel",
+          "Iselin",
           13
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Stand: 2017",
     "align": "left"
   },
   "plotOptions": {

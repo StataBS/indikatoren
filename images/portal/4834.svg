@@ -59,26 +59,26 @@
     <g class="highcharts-series highcharts-series-0 highcharts-scatter-series highcharts-color-undefined " transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)"/>
     <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined " transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="none">
       <path fill="#68AB2B" d="M 291 171 A 4 4 0 1 1 290.9999980000002 170.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 277 166 A 4 4 0 1 1 276.9999980000002 165.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 263 159 A 4 4 0 1 1 262.9999980000002 158.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 249 153 A 4 4 0 1 1 248.99999800000018 152.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 235 143 A 4 4 0 1 1 234.99999800000018 142.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 221 141 A 4 4 0 1 1 220.99999800000018 140.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 207 140 A 4 4 0 1 1 206.99999800000018 139.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 193 130 A 4 4 0 1 1 192.99999800000018 129.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 179 128 A 4 4 0 1 1 178.99999800000018 127.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 165 125 A 4 4 0 1 1 164.99999800000018 124.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 151 111 A 4 4 0 1 1 150.99999800000018 110.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 137 104 A 4 4 0 1 1 136.99999800000018 103.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 277 167 A 4 4 0 1 1 276.9999980000002 166.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 263 160 A 4 4 0 1 1 262.9999980000002 159.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 249 152 A 4 4 0 1 1 248.99999800000018 151.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 235 144 A 4 4 0 1 1 234.99999800000018 143.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 221 143 A 4 4 0 1 1 220.99999800000018 142.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 207 143 A 4 4 0 1 1 206.99999800000018 142.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 193 131 A 4 4 0 1 1 192.99999800000018 130.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 179 127 A 4 4 0 1 1 178.99999800000018 126.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 165 127 A 4 4 0 1 1 164.99999800000018 126.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 151 114 A 4 4 0 1 1 150.99999800000018 113.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 137 108 A 4 4 0 1 1 136.99999800000018 107.99600000066667 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 123 87 A 4 4 0 1 1 122.99999800000016 86.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 109 84 A 4 4 0 1 1 108.99999800000016 83.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 95 81 A 4 4 0 1 1 94.99999800000016 80.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 81 75 A 4 4 0 1 1 80.99999800000016 74.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 67 66 A 4 4 0 1 1 66.99999800000016 65.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 53 65 A 4 4 0 1 1 52.99999800000017 64.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 109 87 A 4 4 0 1 1 108.99999800000016 86.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 95 82 A 4 4 0 1 1 94.99999800000016 81.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 81 76 A 4 4 0 1 1 80.99999800000016 75.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 67 69 A 4 4 0 1 1 66.99999800000016 68.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 53 68 A 4 4 0 1 1 52.99999800000017 67.99600000066667 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 39 62 A 4 4 0 1 1 38.99999800000017 61.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 25 46 A 4 4 0 1 1 24.99999800000017 45.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 11 39 A 4 4 0 1 1 10.999998000000167 38.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 25 44 A 4 4 0 1 1 24.99999800000017 43.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 11 44 A 4 4 0 1 1 10.999998000000167 43.99600000066666 Z" class="highcharts-point"/>
     </g>
     <g class="highcharts-series highcharts-series-1 highcharts-scatter-series highcharts-color-0 " visibility="hidden" transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)"/>
     <g class="highcharts-markers highcharts-series-1 highcharts-scatter-series highcharts-color-0 " visibility="hidden" transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
@@ -87,7 +87,7 @@
     <tspan>Wohnfläche pro Kopf</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
-    <tspan>Stand: 2016</tspan>
+    <tspan>Stand: 2017</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="66" opacity="1">
@@ -127,10 +127,10 @@
       <tspan>Altstadt Kleinbasel</tspan>
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="234" opacity="1">
-      <tspan>Wettstein</tspan>
+      <tspan>Am Ring</tspan>
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="248" opacity="1">
-      <tspan>Am Ring</tspan>
+      <tspan>Wettstein</tspan>
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="262" opacity="1">
       <tspan>Bachletten</tspan>
@@ -148,10 +148,10 @@
       <tspan>Vorstädte</tspan>
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="332" opacity="1">
-      <tspan>Bettingen</tspan>
+      <tspan>Altstadt Grossbasel</tspan>
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="346" opacity="1">
-      <tspan>Altstadt Grossbasel</tspan>
+      <tspan>Bettingen</tspan>
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">

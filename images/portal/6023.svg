@@ -65,10 +65,10 @@
     </g>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Zugezogene, Weggezogene und Wanderungssaldo nach</tspan><tspan dy="17" x="10">Zuzugs- und Wegzugsland 2016</tspan><title>Zugezogene, Weggezogene und Wanderungssaldo nach Zuzugs- und Wegzugsland 2016</title>
+    <tspan>Zugezogene, Weggezogene und Wanderungssaldo</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
-    <tspan>Stand: 2016</tspan>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+    <tspan>nach Zuzugs- und Wegzugsland; Stand: 2016</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(48,60)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="326" height="30" visibility="visible"/>
