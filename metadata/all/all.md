@@ -226,7 +226,7 @@ id | visible | visibleInPortal | indikatorenset
 4868 | true | true | Gesellschaftlicher-Zusammenhalt
 4869 | true | true | Gesellschaftlicher-Zusammenhalt
 4870 | true | true | Gesellschaftlicher-Zusammenhalt
-4871 | true | true | Gesellschaftlicher-Zusammenhalt
+4871 | true | true | Nachhaltigkeit
 4872 | true | true | Gesellschaftlicher-Zusammenhalt
 4874 | true | true | Gesellschaftlicher-Zusammenhalt
 4875 | true | true | Gesellschaftlicher-Zusammenhalt

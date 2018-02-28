@@ -5,87 +5,87 @@
       "data": [
         [
           "Klybeck",
-          0.1379310345
-        ],
-        [
-          "Kleinhüningen",
-          0.2222222222
-        ],
-        [
-          "Clara",
-          0.2307692308
+          0.2083333333
         ],
         [
           "Gundeldingen",
-          0.2478632479
-        ],
-        [
-          "Rosental",
-          0.25
+          0.2606635071
         ],
         [
           "Matthäus",
-          0.2569832402
+          0.3
         ],
         [
-          "Iselin",
-          0.3027888446
+          "Rosental",
+          0.3023255814
+        ],
+        [
+          "Clara",
+          0.3191489362
         ],
         [
           "Breite",
-          0.3176470588
+          0.329787234
+        ],
+        [
+          "Iselin",
+          0.3436293436
         ],
         [
           "St. Johann",
-          0.3695652174
+          0.3625498008
+        ],
+        [
+          "Kleinhüningen",
+          0.3673469388
         ],
         [
           "Hirzbrunnen",
-          0.3771428571
-        ],
-        [
-          "Gotthelf",
-          0.4457831325
-        ],
-        [
-          "St. Alban",
-          0.4960629921
-        ],
-        [
-          "Riehen",
-          0.5178082192
-        ],
-        [
-          "Bettingen",
-          0.6
-        ],
-        [
-          "Am Ring",
-          0.6
-        ],
-        [
-          "Wettstein",
-          0.6029411765
+          0.4277108434
         ],
         [
           "Altstadt Kleinbasel",
-          0.6111111111
-        ],
-        [
-          "Bruderholz",
-          0.6666666667
+          0.44
         ],
         [
           "Vorstädte",
-          0.7096774194
+          0.44
         ],
         [
-          "Bachletten",
-          0.7150537634
+          "St. Alban",
+          0.5507246377
+        ],
+        [
+          "Riehen",
+          0.5512820513
+        ],
+        [
+          "Wettstein",
+          0.5555555556
+        ],
+        [
+          "Gotthelf",
+          0.578313253
+        ],
+        [
+          "Am Ring",
+          0.5888888889
+        ],
+        [
+          "Bettingen",
+          0.652173913
         ],
         [
           "Altstadt Grossbasel",
-          0.8235294118
+          0.6666666667
+        ],
+        [
+          "Bruderholz",
+          0.6835443038
+        ],
+        [
+          "Bachletten",
+          0.693877551
         ]
       ],
       "name": "Gymnasialquote",
@@ -99,23 +99,23 @@
           1
         ],
         [
-          "Kleinhüningen",
+          "Gundeldingen",
           2
         ],
         [
-          "Clara",
+          "Matthäus",
           3
         ],
         [
-          "Gundeldingen",
+          "Rosental",
           4
         ],
         [
-          "Rosental",
+          "Clara",
           5
         ],
         [
-          "Matthäus",
+          "Breite",
           6
         ],
         [
@@ -123,11 +123,11 @@
           7
         ],
         [
-          "Breite",
+          "St. Johann",
           8
         ],
         [
-          "St. Johann",
+          "Kleinhüningen",
           9
         ],
         [
@@ -135,47 +135,47 @@
           10
         ],
         [
-          "Gotthelf",
+          "Altstadt Kleinbasel",
+          11
+        ],
+        [
+          "Vorstädte",
           11
         ],
         [
           "St. Alban",
-          12
-        ],
-        [
-          "Riehen",
           13
         ],
         [
-          "Bettingen",
-          14
-        ],
-        [
-          "Am Ring",
+          "Riehen",
           14
         ],
         [
           "Wettstein",
+          15
+        ],
+        [
+          "Gotthelf",
           16
         ],
         [
-          "Altstadt Kleinbasel",
+          "Am Ring",
           17
         ],
         [
-          "Bruderholz",
+          "Bettingen",
           18
         ],
         [
-          "Vorstädte",
+          "Altstadt Grossbasel",
           19
         ],
         [
-          "Bachletten",
+          "Bruderholz",
           20
         ],
         [
-          "Altstadt Grossbasel",
+          "Bachletten",
           21
         ]
       ],
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Stand: 2017",
     "align": "left"
   },
   "plotOptions": {
