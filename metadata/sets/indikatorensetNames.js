@@ -6,6 +6,7 @@ var indikatorensetNames = [
 	"Umwelt",
 	"Gesellschaftlicher-Zusammenhalt",
 	"Wohnviertel",
+	"Nachhaltigkeit",
 	"Richtplan",
 	"Wanderungen",
 	"Richtplan (Print)",

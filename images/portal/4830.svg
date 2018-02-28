@@ -59,8 +59,8 @@
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-scatter-series highcharts-color-undefined " transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)"/>
     <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined " transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="none">
-      <path fill="#68AB2B" d="M 291 316 A 4 4 0 1 1 290.9999980000002 315.99600000066664 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 277 196 A 4 4 0 1 1 276.9999980000002 195.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 291 315 A 4 4 0 1 1 290.9999980000002 314.99600000066664 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 277 197 A 4 4 0 1 1 276.9999980000002 196.99600000066667 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 263 158 A 4 4 0 1 1 262.9999980000002 157.99600000066667 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 249 117 A 4 4 0 1 1 248.99999800000018 116.99600000066667 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 235 104 A 4 4 0 1 1 234.99999800000018 103.99600000066667 Z" class="highcharts-point"/>
@@ -72,13 +72,13 @@
       <path fill="#68AB2B" d="M 151 85 A 4 4 0 1 1 150.99999800000018 84.99600000066667 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 137 79 A 4 4 0 1 1 136.99999800000018 78.99600000066667 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 123 78 A 4 4 0 1 1 122.99999800000016 77.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 109 76 A 4 4 0 1 1 108.99999800000016 75.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 109 75 A 4 4 0 1 1 108.99999800000016 74.99600000066667 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 95 71 A 4 4 0 1 1 94.99999800000016 70.99600000066667 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 81 69 A 4 4 0 1 1 80.99999800000016 68.99600000066667 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 67 59 A 4 4 0 1 1 66.99999800000016 58.99600000066666 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 53 55 A 4 4 0 1 1 52.99999800000017 54.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 39 55 A 4 4 0 1 1 38.99999800000017 54.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 25 37 A 4 4 0 1 1 24.99999800000017 36.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 39 53 A 4 4 0 1 1 38.99999800000017 52.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 25 36 A 4 4 0 1 1 24.99999800000017 35.99600000066666 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 11 27 A 4 4 0 1 1 10.999998000000167 26.996000000666665 Z" class="highcharts-point"/>
     </g>
     <g class="highcharts-series highcharts-series-1 highcharts-scatter-series highcharts-color-0 " visibility="hidden" transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)"/>
@@ -88,7 +88,7 @@
     <tspan>Baujahr Wohngebäude</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
-    <tspan>Stand: 2016</tspan>
+    <tspan>Stand: 2017</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="66" opacity="1">
