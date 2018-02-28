@@ -340,11 +340,11 @@ function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, stufe1,
     if (displayRenderLink) {
       if (renderLinkDisplayMode == 'slide' || renderLinkDisplayMode === undefined){
         //we're in carousel mode, slide to other chart
-        returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS, " + isIndikatorensetView(view) + ")'>Andere Darstellungsform</a> dieser Daten</li>";
+        returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS, " + isIndikatorensetView(view) + ")'>Andere Darstellungsform</a> dieser Daten.</li>";
       }
       else{
         //we're in chart-detail.html, open link to other chart
-        returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='chart-details.html?id=" + renderLink[0] + "'>Andere Darstellungsform</a> dieser Daten</li>";
+        returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='chart-details.html?id=" + renderLink[0] + "'>Andere Darstellungsform</a> dieser Daten.</li>";
       }
     }
     if (displayExternalLinks) {
