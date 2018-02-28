@@ -268,7 +268,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Aufenthaltsdauer im Monatsmittel",
-		"subtitle": "in Tagen, Stand 2017",
+		"subtitle": "in Tagen, Stand: 2017",
 		"kuerzel": "I.10.1.06544",
 		"kuerzelKunde": "2-8",
 		"description": "Aufenthaltsdauer im Monatsmittel",

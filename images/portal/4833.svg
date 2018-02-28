@@ -58,27 +58,27 @@
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-scatter-series highcharts-color-undefined " transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)"/>
     <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined " transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="none">
-      <path fill="#68AB2B" d="M 291 204 A 4 4 0 1 1 290.9999980000002 203.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 277 201 A 4 4 0 1 1 276.9999980000002 200.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 291 205 A 4 4 0 1 1 290.9999980000002 204.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 277 202 A 4 4 0 1 1 276.9999980000002 201.99600000066667 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 263 200 A 4 4 0 1 1 262.9999980000002 199.99600000066667 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 249 197 A 4 4 0 1 1 248.99999800000018 196.99600000066667 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 235 195 A 4 4 0 1 1 234.99999800000018 194.99600000066667 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 221 194 A 4 4 0 1 1 220.99999800000018 193.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 207 192 A 4 4 0 1 1 206.99999800000018 191.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 193 192 A 4 4 0 1 1 192.99999800000018 191.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 179 189 A 4 4 0 1 1 178.99999800000018 188.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 207 193 A 4 4 0 1 1 206.99999800000018 192.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 193 193 A 4 4 0 1 1 192.99999800000018 192.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 179 190 A 4 4 0 1 1 178.99999800000018 189.99600000066667 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 165 188 A 4 4 0 1 1 164.99999800000018 187.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 151 181 A 4 4 0 1 1 150.99999800000018 180.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 151 183 A 4 4 0 1 1 150.99999800000018 182.99600000066667 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 137 167 A 4 4 0 1 1 136.99999800000018 166.99600000066667 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 123 165 A 4 4 0 1 1 122.99999800000016 164.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 109 164 A 4 4 0 1 1 108.99999800000016 163.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 109 165 A 4 4 0 1 1 108.99999800000016 164.99600000066667 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 95 162 A 4 4 0 1 1 94.99999800000016 161.99600000066667 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 81 145 A 4 4 0 1 1 80.99999800000016 144.99600000066667 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 67 138 A 4 4 0 1 1 66.99999800000016 137.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 53 136 A 4 4 0 1 1 52.99999800000017 135.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 53 137 A 4 4 0 1 1 52.99999800000017 136.99600000066667 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 39 114 A 4 4 0 1 1 38.99999800000017 113.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 25 98 A 4 4 0 1 1 24.99999800000017 97.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#68AB2B" d="M 11 69 A 4 4 0 1 1 10.999998000000167 68.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 25 99 A 4 4 0 1 1 24.99999800000017 98.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#68AB2B" d="M 11 71 A 4 4 0 1 1 10.999998000000167 70.99600000066667 Z" class="highcharts-point"/>
     </g>
     <g class="highcharts-series highcharts-series-1 highcharts-scatter-series highcharts-color-0 " visibility="hidden" transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)"/>
     <g class="highcharts-markers highcharts-series-1 highcharts-scatter-series highcharts-color-0 " visibility="hidden" transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
@@ -87,7 +87,7 @@
     <tspan>Fläche pro Wohnung</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
-    <tspan>Stand: 2016</tspan>
+    <tspan>Stand: 2017</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="66" opacity="1">
@@ -109,10 +109,10 @@
       <tspan>Breite</tspan>
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="150" opacity="1">
-      <tspan>Gundeldingen</tspan>
+      <tspan>Kleinhüningen</tspan>
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="164" opacity="1">
-      <tspan>Kleinhüningen</tspan>
+      <tspan>Gundeldingen</tspan>
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="178" opacity="1">
       <tspan>St. Johann</tspan>

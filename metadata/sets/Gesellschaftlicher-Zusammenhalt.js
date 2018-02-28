@@ -1135,42 +1135,6 @@ var indikatorensetData = [
 		"id": 4870
 	},
 	{
-		"title": "Wahlbeteiligung bei National- und Grossratswahlen",
-		"subtitle": "",
-		"kuerzel": "I.17.3.04871",
-		"kuerzelKunde": "3.3.02",
-		"description": "Wahlbeteiligung bei National- und Grossratswahlen",
-		"thema": "17 Politik",
-		"unterthema": "Wahlen",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Grosser Rat"
-		],
-		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
-		"stufe2": "3.3 Gesellschaftliche Teilhabe",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Bei nationalen Wahlen liegt die Wahlbeteiligung im Stadtkanton rund 10 Prozentpunkte höher als bei den Wahlen ins kantonale Parlament.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"orderKey": "03_03_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4871
-	},
-	{
 		"title": "Interesse an der Politik in Basel-Stadt",
 		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?»",
 		"kuerzel": "I.50.1.04872",

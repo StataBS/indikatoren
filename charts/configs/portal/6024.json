@@ -331,7 +331,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Entwicklung der aus dem Ausland Zugezogenen nach Zuzugsland"
+    "text": "Entwicklung der aus dem Ausland Zugezogenen"
   },
   "subtitle": {
     "style": {
@@ -340,7 +340,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Indexiert (Wert 2007 = 100)",
+    "text": "nach Zuzugsland, indexiert (Wert 2007 = 100)",
     "align": "left"
   },
   "tooltip": {
