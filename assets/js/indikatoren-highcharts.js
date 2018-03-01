@@ -309,7 +309,7 @@ function exportThumbnail(id, exportType, offline, exportServer, filename){
 
 
 //render the html required for links to other chart, kennzahlenset or external resources
-function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, stufe1, renderLinkDisplayMode, hide){
+function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, stufe1, renderLinkDisplayMode, hideLinks, hideLinksTitle){
   var returnText = "";
   var displayLinkToIndikatorenset = kennzahlenset;
   //renderLink: Link to different view of same data
@@ -318,8 +318,8 @@ function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, stufe1,
   //any of the links need to be present 
   if (displayLinkToIndikatorenset || displayRenderLink || displayExternalLinks ) {
     returnText = " \
-        <div id='links'" + (hide ? "class='hidden'" : '')  + "> \
-          <h1>Links</h1> \
+        <div id='links'" + (hideLinks ? "class='hidden'" : '')  + "> \
+          <div><h1 id='linksTitle' " + (hideLinksTitle ? "class='hidden'" : '') + ">Links</h1></div> \
           <div class='lesehilfe'> \
             <ul class='list-unstyled'>\
         ";

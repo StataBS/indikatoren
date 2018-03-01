@@ -78,16 +78,16 @@
         <div id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" class="highcharts-wrapper"></div>
         <h1 id='title' class=<%= (hideTitle ? "'hidden'": "''" ) %>><%= 'Indikator ' + ((isIndikatorensetView(indikatorensetView)) ? kuerzelKunde : kuerzel) %></h1>
         <div id='lesehilfe' class=<%= ((hideLesehilfe || lesehilfe==="") ? "'hidden'": "''" ) %>>
-          <h1>Lesehilfe</h1>
+          <h1 id='lesehilfeTitle' class=<%= ((hideLesehilfeTitle) ? "'hidden'": "''" ) %>>Lesehilfe</h1>
           <div class='lesehilfe'><%= lesehilfe %>
           </div>
         </div>                      
         <div id='erlaeuterungen' class=<%= ((hideErlaeuterungen || erlaeuterungen==="") ? "'hidden'": "''" ) %>>
-          <h1>Erläuterungen  und methodische Hinweise</h1>
+          <h1 id='erlaeuterungeTitle'  class=<%= ((hideErlaeuterungenTitle) ? "'hidden'": "''" ) %>>Erläuterungen  und methodische Hinweise</h1>
           <div class='lesehilfe'><%= erlaeuterungen %>
           </div>
         </div>
-        <%= renderLinksHTML((typeof(kennzahlenset)!=='undefined' ? kennzahlenset: null), (typeof(renderLink) !== 'undefined' ? renderLink : null), (typeof(externalLinks)!=='undefined' ? externalLinks : null ), view, stufe1, 'link', hideLinks) %>
+        <%= renderLinksHTML((typeof(kennzahlenset)!=='undefined' ? kennzahlenset: null), (typeof(renderLink) !== 'undefined' ? renderLink : null), (typeof(externalLinks)!=='undefined' ? externalLinks : null ), view, stufe1, 'link', hideLinks, hideLinksTitle) %>
       </div>
     </script> 
     
@@ -117,8 +117,11 @@
       var hideHeader = window.decodeURIComponent($.url('?hideHeader')) === 'true';
       var hideTitle = window.decodeURIComponent($.url('?hideTitle')) === 'true';
       var hideLesehilfe = window.decodeURIComponent($.url('?hideLesehilfe')) === 'true';
+      var hideLesehilfeTitle = window.decodeURIComponent($.url('?hideLesehilfeTitle')) === 'true';
       var hideErlaeuterungen = window.decodeURIComponent($.url('?hideErlaeuterungen')) === 'true';
+      var hideErlaeuterungenTitle = window.decodeURIComponent($.url('?hideErlaeuterungenTitle')) === 'true';
       var hideLinks = window.decodeURIComponent($.url('?hideLinks')) === 'true';
+      var hideLinksTitle = window.decodeURIComponent($.url('?hideLinksTitle')) === 'true';
       
       //unhide header
       if (!hideHeader) { $('#header').removeClass('hidden'); }
