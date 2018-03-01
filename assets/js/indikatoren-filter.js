@@ -241,7 +241,7 @@ function preparePortalView(){
   renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema', baseQuery);
       
   //configure unterthema to be filtered correctly upon change of thema           
-  configureCascadedControls('#thema_criteria', '#unterthema_filter', "#thema_criteria :checked", 'Alle', 'thema','#unterthema_filter', 'all', 'unterthema', baseQuery);  
+  configureCascadedControls('#thema_criteria', '#unterthema_filter', "#thema_criteria :checked", 'Alle', 'thema','#unterthema_filter', 'all', 'unterthema', baseQuery, 'unterthema');  
 }
 
 
@@ -265,12 +265,12 @@ function prepareIndikatorensetView(indikatorenset){
   renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'orderKey', baseQuery);
 
   //add cascaded dropdowns functionality to stufe1 and stufe2
-  configureCascadedControls('#stufe1_filter', '#stufe2_filter', '#stufe1_filter', 'all', 'stufe1', '#stufe2_filter', 'all', 'stufe2', baseQuery); 
+  configureCascadedControls('#stufe1_filter', '#stufe2_filter', '#stufe1_filter', 'all', 'stufe1', '#stufe2_filter', 'all', 'stufe2', baseQuery, 'orderKey'); 
 }
 
 
 //add cascaded dropdowns functionality to level1 and level2
-function configureCascadedControls(level1Selector, level2Selector, level1ValueSelector, level1AllValue, level1Field, level2valueSelector, level2allValue, level2Field, baseQuery){  
+function configureCascadedControls(level1Selector, level2Selector, level1ValueSelector, level1AllValue, level1Field, level2valueSelector, level2allValue, level2Field, baseQuery, level2SortKey){  
 
   $(level1Selector).change(function(){    
     //save currently selected value
@@ -284,7 +284,7 @@ function configureCascadedControls(level1Selector, level2Selector, level1ValueSe
     if (selectedValue !== level1AllValue) {
       level2QueryString[level1Field] = selectedValue;
     }
-    renderDropdownFromJson(indikatoren, level2Field, level2Selector, level2Field, level2QueryString);
+    renderDropdownFromJson(indikatoren, level2Field, level2Selector, level2SortKey, level2QueryString);
     //re-set previously selected value if level 1 is not "all"
     if (selectedValue !== level1AllValue){
       $(level2Selector).val(currentLevel2Value);
