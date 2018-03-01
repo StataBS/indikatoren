@@ -53,42 +53,41 @@
     '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-KGK459');</script>
     <!-- End Google Tag Manager -->
-
-    <div id="bs-logo">
-    	<a class='bs-logo-link' style='display: block; font-family: Arial, sans-serif; color: black; text-decoration: none; padding: 10px 0px 10px 0px;' href="http://www.statistik.bs.ch" title="Startseite">
-    		<img class='bs-logo-img' style='float: left; padding: 0px 20px;' src="assets/img/logo-print.png" alt="Logo Kanton Basel-Stadt"/>
-    		<div class='bs-logo-title' style='padding-top: 17px; font-size: 11px'>Präsidialdepartement des Kantons Basel-Stadt</div>
-    		<div class='bs-logo-text' style='padding-top: 3px; font-weight: 700; font-size: 15px'>Statistisches Amt</div>
-    	</a>
-  	</div>
-
-    <div style='clear: both;'></div>
-
-    <div id='bs-nav' style='background-color: rgb(29, 78, 44); height: 45px; padding: 15px 0px 10px 50px; margin-bottom: 30px;'>
-      <a style='color: white; font-size: 13px; font-weight: 700; text-shadow: rgb(23, 62, 35) 0px -1px 0px; text-decoration: none;' href='http://www.statistik.bs.ch/zahlen/indikatoren/portal.html'>
-        Indikatoren
-      </a>
+    
+    <div id='header' class='hidden'>
+      <div id="bs-logo">
+      	<a class='bs-logo-link' style='display: block; font-family: Arial, sans-serif; color: black; text-decoration: none; padding: 10px 0px 10px 0px;' href="http://www.statistik.bs.ch" title="Startseite">
+      		<img class='bs-logo-img' style='float: left; padding: 0px 20px;' src="assets/img/logo-print.png" alt="Logo Kanton Basel-Stadt"/>
+      		<div class='bs-logo-title' style='padding-top: 17px; font-size: 11px'>Präsidialdepartement des Kantons Basel-Stadt</div>
+      		<div class='bs-logo-text' style='padding-top: 3px; font-weight: 700; font-size: 15px'>Statistisches Amt</div>
+      	</a>
+    	</div>
+  
+      <div style='clear: both;'></div>
+  
+      <div id='bs-nav' style='background-color: rgb(29, 78, 44); height: 45px; padding: 15px 0px 10px 50px; margin-bottom: 30px;'>
+        <a style='color: white; font-size: 13px; font-weight: 700; text-shadow: rgb(23, 62, 35) 0px -1px 0px; text-decoration: none;' href='http://www.statistik.bs.ch/zahlen/indikatoren/portal.html'>
+          Indikatoren
+        </a>
+      </div>
     </div>
-
+    
     <!-- template for chart plus details -->
     <script id="indikator-template-modal-portal" type="text/html">
       <div class="item">
         <div id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" class="highcharts-wrapper"></div>
-        <h1><%= 'Indikator ' + ((isIndikatorensetView(indikatorensetView)) ? kuerzelKunde : kuerzel) %></h1>
-        <!-- hide lesehilfe if empty -->
-        <div id='lesehilfe' class=<%= (lesehilfe==="" ? "'hidden'": "''" ) %>>
+        <h1 id='title' class=<%= (hideTitle ? "'hidden'": "''" ) %>><%= 'Indikator ' + ((isIndikatorensetView(indikatorensetView)) ? kuerzelKunde : kuerzel) %></h1>
+        <div id='lesehilfe' class=<%= ((hideLesehilfe || lesehilfe==="") ? "'hidden'": "''" ) %>>
           <h1>Lesehilfe</h1>
           <div class='lesehilfe'><%= lesehilfe %>
           </div>
         </div>                      
-        <!-- hide erlaeuterungen info if empty -->
-        <div id='erlaeuterungen' class=<%= (erlaeuterungen==="" ? "'hidden'": "''" ) %>>
+        <div id='erlaeuterungen' class=<%= ((hideErlaeuterungen || erlaeuterungen==="") ? "'hidden'": "''" ) %>>
           <h1>Erläuterungen  und methodische Hinweise</h1>
           <div class='lesehilfe'><%= erlaeuterungen %>
           </div>
         </div>
-        <!-- hide Links if empty -->    
-        <%= renderLinksHTML((typeof(kennzahlenset)!=='undefined' ? kennzahlenset: null), (typeof(renderLink) !== 'undefined' ? renderLink : null), (typeof(externalLinks)!=='undefined' ? externalLinks : null ), view, stufe1, 'link') %>
+        <%= renderLinksHTML((typeof(kennzahlenset)!=='undefined' ? kennzahlenset: null), (typeof(renderLink) !== 'undefined' ? renderLink : null), (typeof(externalLinks)!=='undefined' ? externalLinks : null ), view, stufe1, 'link', hideLinks) %>
       </div>
     </script> 
     
@@ -113,6 +112,17 @@
       if (!(view == 'indikatorenset' || view == 'portal' || view == 'print')) {
         view = indikatorensetView;
       }
+
+      //retrieve url parameters to control display of elements on page
+      var hideHeader = window.decodeURIComponent($.url('?hideHeader')) === 'true';
+      var hideTitle = window.decodeURIComponent($.url('?hideTitle')) === 'true';
+      var hideLesehilfe = window.decodeURIComponent($.url('?hideLesehilfe')) === 'true';
+      var hideErlaeuterungen = window.decodeURIComponent($.url('?hideErlaeuterungen')) === 'true';
+      var hideLinks = window.decodeURIComponent($.url('?hideLinks')) === 'true';
+      
+      //unhide header
+      if (!hideHeader) { $('#header').removeClass('hidden'); }
+
       
       //check if id is member in the list of existing charts
       if (templatesById[id]){
