@@ -104,6 +104,7 @@
       global templateBuilder
       */
       
+      
       //get kuerzel and id from url, encode to prevent xss 
       var id = window.decodeURIComponent($.url('?id'));
       
@@ -124,7 +125,9 @@
       var hideLinksTitle = window.decodeURIComponent($.url('?hideLinksTitle')) === 'true';
       
       //unhide header
-      if (!hideHeader) { $('#header').removeClass('hidden'); }
+      if (!hideHeader) { 
+        $('#header').removeClass('hidden'); 
+      }
 
       
       //check if id is member in the list of existing charts
@@ -136,8 +139,8 @@
             //append generated html
             var container = $('body');
             container.append(templateFunction(chartMetadata));
-            
-            lazyRenderChartById(id, chartMetadata, view);
+            //render chart. if header is hidden, remove left margin in callback
+            lazyRenderChartById(id, chartMetadata, view, true, (hideHeader ? removeLeftMargin : undefined));
         });
       }
       else {
@@ -145,6 +148,12 @@
         $('body').append('<div class="container"><div class="jumbotron"><h1>Ooops...</h1><p>Kein Chart mit diesem Kürzel bzw. dieser id gefunden.</p></div></div>');
       }
       
+      function removeLeftMargin(){
+        //decrease left margin some pixels
+        $('.item h1, div.lesehilfe, .highcharts-container').css("margin-left", function(index, value){
+          return parseInt(value, 10) - 40;
+        });        
+      }
     </script>
 
   </body>
