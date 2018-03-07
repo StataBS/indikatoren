@@ -2,7 +2,7 @@
 Find and display statistical indicators from the canton of Basel-Stadt, Switzerland. See live version [here](http://www.statistik.bs.ch/zahlen/indikatoren/).  
 
 
-##Create png files of each chart within an indikatorenset
+## Create png files of each chart within an indikatorenset
 - In a terminal window within c9.io, run the following command: 
 ```javascript
 npm run start-export-server
@@ -16,7 +16,7 @@ npm run start-export-server
 npm run stop-export-server
 ```
 
-##Manually create svg thumbnails 
+## Manually create svg thumbnails 
 - For the portal view: In Chrome, open thumbnails.html
 - For the indikatorenset view: In Chrome, open thumbnails.html?view=indikatorenset
 This will download all svg files to the local downloads directory. You can then manually move them to their respective directory below /images/.
@@ -186,6 +186,6 @@ npm run reinstall
 
 
 
-##Licensing
-[Highcharts] (http://www.highcharts.com/) is free for personal, school or non-profit projects under the Creative Commons Attribution - Non Commercial 3.0 License.
-For commercial and governmental websites and projects, you need to buy a license. See [License and Pricing] (http://shop.highsoft.com/highcharts.html).
+## Licensing
+[Highcharts](http://www.highcharts.com/) is free for personal, school or non-profit projects under the Creative Commons Attribution - Non Commercial 3.0 License.
+For commercial and governmental websites and projects, you need to buy a license. See [License and Pricing](http://shop.highsoft.com/highcharts.html).
