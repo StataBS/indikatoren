@@ -15,7 +15,7 @@ global geojson_wohnviertelEPSG2056
 		},
 		"legend": {
 			"title": {
-				"text": "in tausend Einheiten"
+				"text": ""
 			}
 		},
         "data": {

@@ -2,7 +2,7 @@
 Find and display statistical indicators from the canton of Basel-Stadt, Switzerland. See live version [here](http://www.statistik.bs.ch/zahlen/indikatoren/).  
 
 
-##Create png files of each chart within an indikatorenset
+## Create png files of each chart within an indikatorenset
 - In a terminal window within c9.io, run the following command: 
 ```javascript
 npm run start-export-server
@@ -16,7 +16,7 @@ npm run start-export-server
 npm run stop-export-server
 ```
 
-##Manually create svg thumbnails 
+## Manually create svg thumbnails 
 - For the portal view: In Chrome, open thumbnails.html
 - For the indikatorenset view: In Chrome, open thumbnails.html?view=indikatorenset
 This will download all svg files to the local downloads directory. You can then manually move them to their respective directory below /images/.
@@ -149,11 +149,43 @@ npm run reinstall
     - all deviations from the chart template file that is defined in the chart's metadata file. 
 - Edit chart-dev.html to use the chart id and template file for your current chart
 - Load chart-dev.html in the browser, and check if it matches your requirements. If not: 
-- Adapt your chart definition file [id].js until it matches your requirements by following the [Highcharts API Documentation](https://api.highcharts.com/)
+- Adapt your chart definition file [id].js until it matches your requirements by following the [Highcharts API Documentation](https://api.highcharts.com/). 
+- To get ideas check e.g. [this book](https://www.amazon.com/Learning-Highcharts-Joe-Kuan/dp/1849519080). 
 - To see which charts are based on which templates: check metadata/all/templatesById.json
 - To add the chart to portal and/or indikatorenset View: [Build the application](#build-application-locally) 
+- If you decide not to copy and adapt an existing chart, choose from the following existing templates (click onto image to open interactive chart): 
+    - area001: e.g. 6548: 
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6548" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6548.svg"></a>
+    - befragungen001: Use for survey results if numbers are given as counts:
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6266" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6266.svg"></a>  
+    - befragungenProzent001: Use for survey rsults if numbers are given in percentages:
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=5821" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/5821.svg"></a>
+    - bubble001: 
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6549" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6549.svg"></a>
+    - dotplot: 
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=4839" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/4839.svg"></a>  
+    - line001: 
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=5813" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/5813.svg"></a>
+    - map001: Wohnviertel Choropleth Map with Ranks read from data file displayed in tooltip
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=5109" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/5109.svg"></a>
+    - map002: Simple Wohnviertel Choropleth Map without ranks and with simple tooltip
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=9999" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/9999.svg"></a> 
+    - mapcolumn002: 
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6022" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6022.svg"></a> 
+    - mappie001: 
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6009" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6009.svg"></a>
+    - pie001: 
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6013" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6013.svg"></a> 
+    - populationPyramid001
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6018" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6018.svg"></a>
+    - stock001: Time axis, mini chart to filter, e.g. 4132:
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=4132" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/4132.svg"></a>
+    - template001: General Purpose template to create your own charts. Most bar, column or combination charts are based on this template. 
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6011" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6011.svg"></a>
 
 
-##Licensing
-[Highcharts] (http://www.highcharts.com/) is free for personal, school or non-profit projects under the Creative Commons Attribution - Non Commercial 3.0 License.
-For commercial and governmental websites and projects, you need to buy a license. See [License and Pricing] (http://shop.highsoft.com/highcharts.html).
+
+
+## Licensing
+[Highcharts](http://www.highcharts.com/) is free for personal, school or non-profit projects under the Creative Commons Attribution - Non Commercial 3.0 License.
+For commercial and governmental websites and projects, you need to buy a license. See [License and Pricing](http://shop.highsoft.com/highcharts.html).
