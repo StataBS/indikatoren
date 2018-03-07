@@ -149,9 +149,71 @@ npm run reinstall
     - all deviations from the chart template file that is defined in the chart's metadata file. 
 - Edit chart-dev.html to use the chart id and template file for your current chart
 - Load chart-dev.html in the browser, and check if it matches your requirements. If not: 
-- Adapt your chart definition file [id].js until it matches your requirements by following the [Highcharts API Documentation](https://api.highcharts.com/)
+- Adapt your chart definition file [id].js until it matches your requirements by following the [Highcharts API Documentation](https://api.highcharts.com/). 
+- To get ideas check e.g. [this book](https://www.amazon.com/Learning-Highcharts-Joe-Kuan/dp/1849519080). 
 - To see which charts are based on which templates: check metadata/all/templatesById.json
 - To add the chart to portal and/or indikatorenset View: [Build the application](#build-application-locally) 
+- If you decide not to copy and adapt an existing chart, choose from the following existing templates: 
+    - area001: e.g. 6548: 
+
+        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=6548" frameborder="0" allowfullscreen></iframe>
+        
+        
+    - befragungen001: 
+    
+        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=6266" frameborder="0" allowfullscreen></iframe>    
+        
+        
+    - befragungenProzent001: 
+    
+        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=5821" frameborder="0" allowfullscreen></iframe>    
+        
+        
+    - bubble001: 
+    
+        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=6549" frameborder="0" allowfullscreen></iframe>    
+        
+    - dotplot: 
+    
+        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=4839" frameborder="0" allowfullscreen></iframe>
+        
+    - line001: 
+    
+        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=5813" frameborder="0" allowfullscreen></iframe>    
+        
+    - map001: Wohnviertel Choropleth Map with Ranks read from data file displayed in tooltip
+    
+        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=5131" frameborder="0" allowfullscreen></iframe>    
+
+    - map002: Simple Wohnviertel Choropleth Map without ranks and with simple tooltip
+    
+        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=9999" frameborder="0" allowfullscreen></iframe>    
+
+    - mapcolumn002: 
+    
+        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=6022" frameborder="0" allowfullscreen></iframe>        
+        
+    - mappie001: 
+    
+        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=6009" frameborder="0" allowfullscreen></iframe>        
+        
+    - pie001: 
+    
+        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=6013" frameborder="0" allowfullscreen></iframe>        
+        
+    - populationPyramid001
+    
+        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=6018" frameborder="0" allowfullscreen></iframe>        
+        
+    - stock001: Time axis, mini chart to filter, e.g. 4132:
+    
+        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=4132" frameborder="0" allowfullscreen></iframe>
+        
+    - template001: General Purpose template to create your own charts. Most bar, column or combination charts are based on this template. 
+    
+        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=6011" frameborder="0" allowfullscreen></iframe>        
+    
+
 
 
 ##Licensing
