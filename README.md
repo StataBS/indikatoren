@@ -153,66 +153,36 @@ npm run reinstall
 - To get ideas check e.g. [this book](https://www.amazon.com/Learning-Highcharts-Joe-Kuan/dp/1849519080). 
 - To see which charts are based on which templates: check metadata/all/templatesById.json
 - To add the chart to portal and/or indikatorenset View: [Build the application](#build-application-locally) 
-- If you decide not to copy and adapt an existing chart, choose from the following existing templates: 
+- If you decide not to copy and adapt an existing chart, choose from the following existing templates (click onto image to open interactive chart): 
     - area001: e.g. 6548: 
-
-        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=6548" frameborder="0" allowfullscreen></iframe>
-        
-        
-    - befragungen001: 
-    
-        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=6266" frameborder="0" allowfullscreen></iframe>    
-        
-        
-    - befragungenProzent001: 
-    
-        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=5821" frameborder="0" allowfullscreen></iframe>    
-        
-        
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6548" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6548.svg"></a>
+    - befragungen001: Use for survey results if numbers are given as counts:
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6266" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6266.svg"></a>  
+    - befragungenProzent001: Use for survey rsults if numbers are given in percentages:
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=5821" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/5821.svg"></a>
     - bubble001: 
-    
-        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=6549" frameborder="0" allowfullscreen></iframe>    
-        
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6549" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6549.svg"></a>
     - dotplot: 
-    
-        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=4839" frameborder="0" allowfullscreen></iframe>
-        
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=4839" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/4839.svg"></a>  
     - line001: 
-    
-        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=5813" frameborder="0" allowfullscreen></iframe>    
-        
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=5813" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/5813.svg"></a>
     - map001: Wohnviertel Choropleth Map with Ranks read from data file displayed in tooltip
-    
-        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=5131" frameborder="0" allowfullscreen></iframe>    
-
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=5109" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/5109.svg"></a>
     - map002: Simple Wohnviertel Choropleth Map without ranks and with simple tooltip
-    
-        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=9999" frameborder="0" allowfullscreen></iframe>    
-
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=9999" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/9999.svg"></a> 
     - mapcolumn002: 
-    
-        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=6022" frameborder="0" allowfullscreen></iframe>        
-        
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6022" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6022.svg"></a> 
     - mappie001: 
-    
-        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=6009" frameborder="0" allowfullscreen></iframe>        
-        
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6009" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6009.svg"></a>
     - pie001: 
-    
-        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=6013" frameborder="0" allowfullscreen></iframe>        
-        
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6013" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6013.svg"></a> 
     - populationPyramid001
-    
-        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=6018" frameborder="0" allowfullscreen></iframe>        
-        
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6018" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6018.svg"></a>
     - stock001: Time axis, mini chart to filter, e.g. 4132:
-    
-        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=4132" frameborder="0" allowfullscreen></iframe>
-        
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=4132" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/4132.svg"></a>
     - template001: General Purpose template to create your own charts. Most bar, column or combination charts are based on this template. 
-    
-        <iframe width="500" height="450" src="https://statabs.github.io/indikatoren/chart.html?id=6011" frameborder="0" allowfullscreen></iframe>        
-    
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6011" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6011.svg"></a>
+
 
 
 
