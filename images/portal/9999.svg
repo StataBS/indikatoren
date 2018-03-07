@@ -70,9 +70,9 @@
       </text>
     </g>
   </g>
-  <g class="highcharts-legend" transform="translate(43,304)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="432" height="66" visibility="visible"/>
-    <g transform="translate(0,19)">
+  <g class="highcharts-legend" transform="translate(43,323)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="432" height="47" visibility="visible"/>
+    <g>
       <g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined" transform="translate(226,3)">
           <rect x="0" y="4" width="200" height="12" fill="url(#c)"/>
@@ -102,11 +102,6 @@
           </g>
         </g>
       </g>
-    </g>
-    <g class="highcharts-label highcharts-legend-title" transform="translate(5,4)">
-      <text x="3" style="font-size:11px;font-weight:normal;" y="14">
-        <tspan>in tausend Einheiten</tspan>
-      </text>
     </g>
   </g>
   <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">
