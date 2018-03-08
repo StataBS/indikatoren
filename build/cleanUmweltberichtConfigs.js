@@ -38,6 +38,10 @@ fs.readdirSync(pathBase).forEach(file => {
         delete config.lang.downloadXLS;
         delete config.lang.viewData;
         
+        //clear menu item style
+        delete config.navigation.menuItemStyle.padding;
+        delete config.navigation.menuItemStyle.fontFamily;
+        
         var stringifiedOptions = serialize(config, {space: 2});
         fs.writeFileSync(path, stringifiedOptions);
     }

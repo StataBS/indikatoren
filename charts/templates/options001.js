@@ -48,7 +48,7 @@ Highcharts.setOptions({
     "navigation": {
         "menuItemStyle": {
             "fontFamily": Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
-            "padding": '0px 10px'
+            "padding": '1px 10px'
         }
     }
 });

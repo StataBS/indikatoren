@@ -1238,7 +1238,6 @@
       "padding": "5px 0"
     },
     "menuItemStyle": {
-      "padding": "3px 12px",
       "background": "none",
       "color": "#333333",
       "fontSize": "11px",
