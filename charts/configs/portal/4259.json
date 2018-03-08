@@ -65,15 +65,6 @@
     "rangeSelectorZoom": "Zoom",
     "rangeSelectorFrom": "From",
     "rangeSelectorTo": "To",
-    "printChart": "Drucken",
-    "downloadPNG": "PNG Export",
-    "downloadJPEG": "JPEG Export",
-    "downloadPDF": "PDF Export",
-    "downloadSVG": "SVG Export",
-    "contextButtonTitle": "Exportieren\u002FDrucken",
-    "downloadCSV": "CSV Export",
-    "downloadXLS": "XLS Export",
-    "viewData": "View data table",
     "noData": "Keine Daten"
   },
   "global": {
@@ -1238,58 +1229,6 @@
     "url": "https:\u002F\u002Fexport.highcharts.com\u002F",
     "printMaxWidth": 780,
     "scale": 3,
-    "buttons": {
-      "contextButton": {
-        "className": "highcharts-contextbutton",
-        "menuClassName": "highcharts-contextmenu",
-        "symbol": "menu",
-        "_titleKey": "contextButtonTitle",
-        "menuItems": [
-          {
-            "textKey": "printChart",
-            "onclick": function () {this.print();}
-          },
-          {
-            "separator": true
-          },
-          {
-            "textKey": "downloadPNG",
-            "onclick": function () {this.exportChart();}
-          },
-          {
-            "textKey": "downloadJPEG",
-            "onclick": function () {this.exportChart({type:"image/jpeg"});}
-          },
-          {
-            "textKey": "downloadPDF",
-            "onclick": function () {this.exportChart({type:"application/pdf"});}
-          },
-          {
-            "textKey": "downloadSVG",
-            "onclick": function () {this.exportChart({type:"image/svg+xml"});}
-          },
-          {
-            "textKey": "downloadCSV",
-            "onclick": function () { this.downloadCSV(); }
-          },
-          {
-            "textKey": "downloadXLS",
-            "onclick": function () { this.downloadXLS(); }
-          },
-          {
-            "text": "Diagramm in neuem Fenster",
-            "onclick": function () {window.open("?format=chart&i=0206");}
-          },
-          {
-            "separator": true
-          },
-          {
-            "text": "Anleitung",
-            "onclick": function () {tour.start(true);}
-          }
-        ]
-      }
-    },
     "enabled": true,
     "filename": "Abgeschlossene Sanierungen",
     "csv": {

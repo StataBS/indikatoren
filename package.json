@@ -35,7 +35,7 @@
     "build:images": "node build/exportChartImages",
     "build:images_casper": "npm run server && node node_modules/casperjs/bin/casperjs.js build/createImagesCasper.js && npm run stop-server",
     "build:images_viewbox": "node build/addSvgViewbox.js",
-    "build:umwelt_charts": "node node_modules/casperjs/bin/casperjs.js build/createUmweltberichtConfigs.js",
+    "build:umwelt_charts": "node node_modules/casperjs/bin/casperjs.js build/createUmweltberichtConfigs.js && echo 'Cleaning Umwelt config files...' && node build/cleanUmweltberichtConfigs.js ",
     "build:init_print_charts": "node createMissingPrintChartsFromMetadata.js",
     "build:optimize_images": "echo 'Optimizing svg images...' && node build/optimizeImages.js && echo '...done optimizing images!'",
     "build:optimize_all_images": "echo 'Optimizing svg images...' && svgo --pretty --multipass -f images/portal/ && svgo --pretty --multipass -f images/indikatorenset/ && echo '...done optimizing images!'",
