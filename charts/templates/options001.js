@@ -4,16 +4,16 @@
 
 Highcharts.setOptions({
 	"lang": {
-		"downloadJPEG": "JPEG",
 		"resetZoom": "Zoom zurücksetzen",
 		"resetZoomTitle": "Zoom zurücksetzen 1:1",
-		"printChart": "Drucken",
-		"downloadSVG": "SVG",
-		"downloadPNG": "PNG",
 		"contextButtonTitle": "Exportieren und drucken",
-		"downloadPDF": "PDF",
-		"downloadCSV": 'CSV',
-		"downloadXLS": 'XLS',
+		"printChart": "Drucken",
+		"downloadJPEG": "Bild - JPEG",
+		"downloadSVG": "Bild - SVG",
+		"downloadPNG": "Bild - PNG",
+		"downloadPDF": "Bild - PDF",		
+		"downloadCSV": 'Daten - CSV/TSV',
+		"downloadXLS": 'Daten - XLS',
 		"decimalPoint": ",",
         "thousandsSep": " ",
         numericSymbols: null,
@@ -60,30 +60,26 @@ var indikatorensetParameter = indikatorensetView ? '&indikatorensetView=' + indi
 var menuItems = Highcharts.getOptions().exporting.buttons.contextButton.menuItems;
 menuItems.push(
     {
-        "text": "Einzelansicht", 
-        "onclick": function(){            
-            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart-details.html?id=' + this.renderTo.id.substring(10) + indikatorensetParameter + "&suppressNumberInTitle=true", '_blank'); 
-        }
-    });
-menuItems.push(
-    {
-        "text": "Einbetten", 
-        "onclick": function(){            
-            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart.html?id=' + this.renderTo.id.substring(10) + indikatorensetParameter + "&suppressNumberInTitle=true", '_blank'); 
-        }
-    });
-menuItems.push(
-    {
-        "text": "Daten", 
+        "text": "Daten - TSV/CSV", 
         "onclick": function(){            
             window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/data/' + this.renderTo.id.substring(10) + ".tsv", '_blank'); 
         }
     });
-
-
-
-
-
+menuItems.push({separator: true});
+menuItems.push(
+    {
+        "text": "Einbinden - Grafik", 
+        "onclick": function(){            
+            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart.html?id=' + this.renderTo.id.substring(10), '_blank'); 
+        }
+    });
+menuItems.push(
+    {
+        "text": "Einbinden - Grafik+Text", 
+        "onclick": function(){            
+            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart-details.html?id=' + this.renderTo.id.substring(10), '_blank'); 
+        }
+    });
 					    
 //define new chart type, necessary contents are added later on in the chart's template
 Highcharts.seriesType('mappie', 'pie', {}, {});
