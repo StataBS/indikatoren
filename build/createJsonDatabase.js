@@ -11,9 +11,10 @@ var templatesById = {};
 console.log('Searching for json files to add to json databases...');
 var files = glob.sync("metadata/single/*.json");
 files.forEach(function(filepath){
-    var fileContents = fs.readFileSync(filepath);
+    var fileContents = fs.readFileSync(filepath, 'utf8');
     //strip whitespace from start of file and save file
-    var fileContentsStripped = fileContents.slice(fileContents.indexOf('{'));
+    //replace 'nice' quotes with technical quotes - 'nice' quotes are usually created when pasting content from word, link hrefs do not work with those quotes
+    var fileContentsStripped = fileContents.slice(fileContents.indexOf('{')).replace(/’/g, "'");
     fs.writeFileSync(filepath, fileContentsStripped);
     var indikator = JSON.parse(fileContentsStripped);
     //add id and indikatorenset of current indikator to catalog, the rest will be overwritten later on
