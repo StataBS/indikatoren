@@ -18,5 +18,5 @@ indikatoren.forEach(function(indikator){
 function saveToJsonFile(kuerzel, obj, console){
     var fs = require('fs');
     var singleJson = "var indikator = " + JSON.stringify(obj, null, '\t') + ";";
-    fs.writeFile('metadata/single/' + kuerzel + '.js', singleJson);
+    fs.writeFileSync('metadata/single/' + kuerzel + '.js', singleJson);
 };
