@@ -27,7 +27,7 @@
     "svgo": "0.7.2"
   },
   "scripts": {
-    "reinstall": "rm -rf node_cache && rm -rf node_modules && npm install && LC_ALL=C",
+    "reinstall": "rm -rf node_cache && rm -rf node_modules && rm package-lock.json && npm install && LC_ALL=C",
     "build:database": "node build/createJsonDatabase",
     "build:find_changed_charts": "echo 'Comparing checksums of current files with those created after last build...' &&node build/findChangedCharts.js",
     "build:partial_databases": "node build/createKennzahlensetJsonFiles.js",
