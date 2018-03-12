@@ -49,7 +49,7 @@ function saveIndikatorenSets(indikatorensets){
             console.log('Creating file for Indikatorenset ' + setName);
             var fs = require('fs');
             var setJson = "var indikatorensetData = " + JSON.stringify(indikatorensets[indikatorenset], null, '\t') + ";";
-            fs.writeFile('metadata/sets/' + setName + '.js', setJson);
+            fs.writeFileSync('metadata/sets/' + setName + '.js', setJson);
             
             indikatorensetNames.push(setName);
         }
@@ -66,5 +66,5 @@ function saveToIndikatorensetJson(kuerzel, obj, console){
 
 function saveToJsonFile(name, obj, console){
     var jsonFile = "var " + name + " = " + JSON.stringify(obj, null, '\t') + ";";
-    fs.writeFile('metadata/sets/' + name + '.js', jsonFile);
+    fs.writeFileSync('metadata/sets/' + name + '.js', jsonFile);
 }
