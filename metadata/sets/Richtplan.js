@@ -205,15 +205,16 @@ var indikatorensetData = [
 		],
 		"aktualisierungsdatum": "2017-07-05T09:32:06.066",
 		"schlagwort": [
-			"Wohnen"
+			"Gebäude",
+			"Haushalt"
 		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1997 bis 2010 um knapp 2 m² zu. Seither ist ein Rückgang zu verzeichnen. Der Wert 2016 beträgt 41,3 m².",
-		"erlaeuterungen": "Alle Berechnungen beziehen sich auf das Jahresende und berücksichtigen rückwirkend wo immer möglich die aktuell gültigen Definitionen gemäss Gesetzgebung zu Registerharmonisierung und Volkszählung. Ab 2012 handelt es sich um kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
+		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Seither ist ein leichter Rückgang zu verzeichnen.",
+		"erlaeuterungen": "Alle Berechnungen beziehen sich auf das Jahresende und berücksichtigen rückwirkend wo immer möglich die aktuell gültigen Definitionen gemäss Gesetzgebung zu Registerharmonisierung und Volkszählung. Ab 2012 handelt es sich um kantonale Registerauswertungen, frühere Werte wurden auf basis der Volkszahälungen 1980, 1990 und 200 berechnet.",
 		"template": "line001",
 		"orderKey": "01_01_00_00_00_007",
 		"parentId": 4140,

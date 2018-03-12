@@ -485,6 +485,10 @@ id | visible | visibleInPortal | indikatorenset
 6346 | true | true | Legislaturplan
 6347 | true | false | Legislaturplan
 6348 | true | true | Legislaturplan
+6363 | true | false | 
+6364 | true | true | 
+6365 | true | true | 
+6366 | true | true | 
 6368 | true | false | Legislaturplan (Print)
 6369 | true | false | Legislaturplan (Print)
 6370 | true | false | Legislaturplan (Print)

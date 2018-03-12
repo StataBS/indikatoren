@@ -44,7 +44,7 @@ var saveToJsonFile = function(name, dir, obj, console){
     }    
     //write file    
     var jsonFile = JSON.stringify(obj, null, '\t');
-    fs.writeFile(dir +  name + '.json', jsonFile);
+    fs.writeFileSync(dir +  name + '.json', jsonFile);
 };
     
 

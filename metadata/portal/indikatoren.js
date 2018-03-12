@@ -7183,8 +7183,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 32m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, in der Gemeinde Bettingen mit 53m<sup>2</sup> über die höchste.",
-		"erlaeuterungen": "Mittlere Wohnfläche pro Einwohner im Wohnviertel (gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen) in Quadratmeter.",
+		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 32&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, in der Gemeinde Bettingen mit 53&nbsp;m<sup>2</sup> über die höchste.",
+		"erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen.",
 		"template": "map001",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_010",
@@ -11175,6 +11175,120 @@ var indikatoren = [
 			""
 		],
 		"id": 6348
+	},
+	{
+		"title": "Mittlere Wohnfläche pro Person",
+		"subtitle": "nach Haushaltsgrösse und Haushaltstyp in m², Stand: 2016",
+		"kuerzel": "I.09.1.06364",
+		"kuerzelKunde": "",
+		"description": "Mittlere Wohnfläche pro Person",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Wohnen"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Je mehr Personen in einem Haushalt wohnen, desto kleiner ist die Wohnfläche pro Kopf. In einem Einpersonenhaushalt beträgt diese 67,0&nbsp;m². In einem Familienhaushalt mit 5 Personen beträgt die Wohnfläche pro Kopf  20,2&nbsp;m².",
+		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [
+			"Informationen zu den Haushaltstypen sind hier zu finden: <a href = 'http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Häufig gefragt: Einwohner</a>."
+		],
+		"id": 6364
+	},
+	{
+		"title": "Mittlere Wohnfläche pro Person",
+		"subtitle": "nach Staatsangehörigkeit und Geschlecht in m², Stand: 2016",
+		"kuerzel": "I.09.1.06365",
+		"kuerzelKunde": "",
+		"description": "Mittlere Wohnfläche pro Person",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Wohnen"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Schweizer weisen im Durchschnitt pro Kopf einen um 11&nbsp;m² höheren Wohnflächenverbrauch auf als Ausländer. Ein geschlechtsspezifischer Unterschied des mittleren Wohnflächenverbrauchs pro Person wie bei den Schweizern (Männer: 43,2&nbsp;m², Frauen: 47,2&nbsp;m²) ist bei den ausländischen Staatsangehörigen nicht zu finden.",
+		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6365
+	},
+	{
+		"title": "Mittlere Wohnfläche pro Person",
+		"subtitle": "nach Alter und Geschlecht in m², Stand: 2016",
+		"kuerzel": "I.09.1.06366",
+		"kuerzelKunde": "",
+		"description": "Mittlere Wohnfläche pro Person",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Wohnen"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Wohnfläche pro Person nimmt mit zunehmendem Alter zu. Frauen ab 55 Jahren haben einen 5 bis 10&nbsp;m² grösseren Wohnflächenverbrauch pro Kopf als Männer derselben Altersgruppe.",
+		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
+		"template": "populationPyramid001",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6366
 	},
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
