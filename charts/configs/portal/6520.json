@@ -1,0 +1,432 @@
+{
+  "series": [
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          "2009-01",
+          16
+        ],
+        [
+          "2009-02",
+          13
+        ],
+        [
+          "2009-03",
+          15
+        ],
+        [
+          "2009-04",
+          20
+        ],
+        [
+          "2010-01",
+          12
+        ],
+        [
+          "2010-02",
+          11
+        ],
+        [
+          "2010-03",
+          28
+        ],
+        [
+          "2010-04",
+          16
+        ],
+        [
+          "2011-01",
+          23
+        ],
+        [
+          "2011-02",
+          19
+        ],
+        [
+          "2011-03",
+          14
+        ],
+        [
+          "2011-04",
+          12
+        ],
+        [
+          "2012-01",
+          12
+        ],
+        [
+          "2012-02",
+          12
+        ],
+        [
+          "2012-03",
+          16
+        ],
+        [
+          "2012-04",
+          18
+        ],
+        [
+          "2013-01",
+          15
+        ],
+        [
+          "2013-02",
+          9
+        ],
+        [
+          "2013-03",
+          18
+        ],
+        [
+          "2013-04",
+          11
+        ],
+        [
+          "2014-01",
+          10
+        ],
+        [
+          "2014-02",
+          16
+        ],
+        [
+          "2014-03",
+          8
+        ],
+        [
+          "2014-04",
+          17
+        ],
+        [
+          "2015-01",
+          24
+        ],
+        [
+          "2015-02",
+          17
+        ],
+        [
+          "2015-03",
+          24
+        ],
+        [
+          "2015-04",
+          14
+        ],
+        [
+          "2016-01",
+          16
+        ],
+        [
+          "2016-02",
+          12
+        ],
+        [
+          "2016-03",
+          12
+        ],
+        [
+          "2016-04",
+          11
+        ],
+        [
+          "2017-01",
+          10
+        ],
+        [
+          "2017-02",
+          16
+        ],
+        [
+          "2017-03",
+          13
+        ],
+        [
+          "2017-04",
+          5
+        ]
+      ],
+      "name": "Finanz-, Versicherungs-DL",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "data": [
+        [
+          "2009-01",
+          419
+        ],
+        [
+          "2009-02",
+          418
+        ],
+        [
+          "2009-03",
+          506
+        ],
+        [
+          "2009-04",
+          444
+        ],
+        [
+          "2010-01",
+          439
+        ],
+        [
+          "2010-02",
+          477
+        ],
+        [
+          "2010-03",
+          605
+        ],
+        [
+          "2010-04",
+          499
+        ],
+        [
+          "2011-01",
+          520
+        ],
+        [
+          "2011-02",
+          586
+        ],
+        [
+          "2011-03",
+          719
+        ],
+        [
+          "2011-04",
+          627
+        ],
+        [
+          "2012-01",
+          704
+        ],
+        [
+          "2012-02",
+          620
+        ],
+        [
+          "2012-03",
+          670
+        ],
+        [
+          "2012-04",
+          609
+        ],
+        [
+          "2013-01",
+          700
+        ],
+        [
+          "2013-02",
+          721
+        ],
+        [
+          "2013-03",
+          796
+        ],
+        [
+          "2013-04",
+          654
+        ],
+        [
+          "2014-01",
+          727
+        ],
+        [
+          "2014-02",
+          942
+        ],
+        [
+          "2014-03",
+          867
+        ],
+        [
+          "2014-04",
+          768
+        ],
+        [
+          "2015-01",
+          823
+        ],
+        [
+          "2015-02",
+          738
+        ],
+        [
+          "2015-03",
+          806
+        ],
+        [
+          "2015-04",
+          751
+        ],
+        [
+          "2016-01",
+          847
+        ],
+        [
+          "2016-02",
+          789
+        ],
+        [
+          "2016-03",
+          898
+        ],
+        [
+          "2016-04",
+          668
+        ],
+        [
+          "2017-01",
+          1056
+        ],
+        [
+          "2017-02",
+          842
+        ],
+        [
+          "2017-03",
+          826
+        ],
+        [
+          "2017-04",
+          690
+        ]
+      ],
+      "name": "Beratung, Planung, Forschung, Immobilien, IT, sonst. DL",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function () {
+   			 return this.value.split("-").slice(0, -1);
+		}
+    },
+    "tickLength": 0,
+    "tickInterval": 4
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6520"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (II)"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Kurz- und Daueraufenthalter, Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 45,
+    "itemWidth": 250,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": 6520
+  }
+}

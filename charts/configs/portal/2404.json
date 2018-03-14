@@ -1,0 +1,262 @@
+{
+  "series": [
+    {
+      "color": "#E7CEE2",
+      "data": [
+        [
+          2007,
+          100
+        ],
+        [
+          2008,
+          102.5
+        ],
+        [
+          2009,
+          98
+        ],
+        [
+          2010,
+          105
+        ],
+        [
+          2011,
+          107.4
+        ],
+        [
+          2012,
+          109.6
+        ],
+        [
+          2013,
+          107.3
+        ],
+        [
+          2014,
+          105.4
+        ],
+        [
+          2015,
+          107.2
+        ],
+        [
+          2016,
+          110.1
+        ]
+      ],
+      "name": "Industrie (inkl. Pharma)"
+    },
+    {
+      "color": "#B375AB",
+      "data": [
+        [
+          2007,
+          100
+        ],
+        [
+          2008,
+          107.9
+        ],
+        [
+          2009,
+          106.3
+        ],
+        [
+          2010,
+          119.6
+        ],
+        [
+          2011,
+          134.6
+        ],
+        [
+          2012,
+          141.2
+        ],
+        [
+          2013,
+          137.9
+        ],
+        [
+          2014,
+          138.6
+        ],
+        [
+          2015,
+          141.5
+        ],
+        [
+          2016,
+          147.6
+        ]
+      ],
+      "name": "Pharma"
+    },
+    {
+      "color": "#662673",
+      "data": [
+        [
+          2007,
+          100
+        ],
+        [
+          2008,
+          98.1
+        ],
+        [
+          2009,
+          98.5
+        ],
+        [
+          2010,
+          103.7
+        ],
+        [
+          2011,
+          103.1
+        ],
+        [
+          2012,
+          102.8
+        ],
+        [
+          2013,
+          101.6
+        ],
+        [
+          2014,
+          109.8
+        ],
+        [
+          2015,
+          111
+        ],
+        [
+          2016,
+          112.1
+        ]
+      ],
+      "name": "Baugewerbe"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-2404"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Wertschöpfungsentwicklung in Industrie und Baugewerbe"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt, real, indexiert (Jahr 2007 = 100)",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: BAK Economics"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 45,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": 2404
+  }
+}
