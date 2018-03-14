@@ -1,0 +1,349 @@
+{
+  "series": [
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          "Industrie (exkl. Chemie, Pharma)",
+          8176
+        ],
+        [
+          "Chemie, Pharma",
+          18295
+        ],
+        [
+          "Baugewerbe",
+          7318
+        ],
+        [
+          "Handel, Reparatur",
+          12700
+        ],
+        [
+          "Verkehr, Lagerei",
+          10916
+        ],
+        [
+          "Gastgewerbe",
+          7163
+        ],
+        [
+          "Information, Kommunikation",
+          4437
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          10121
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien",
+          18830
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          5728
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          6594
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          5093
+        ],
+        [
+          "Erziehung, Unterricht",
+          7669
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          20373
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          7289
+        ]
+      ],
+      "name": "2013",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "Industrie (exkl. Chemie, Pharma)",
+          8075
+        ],
+        [
+          "Chemie, Pharma",
+          18483
+        ],
+        [
+          "Baugewerbe",
+          7739
+        ],
+        [
+          "Handel, Reparatur",
+          12563
+        ],
+        [
+          "Verkehr, Lagerei",
+          10716
+        ],
+        [
+          "Gastgewerbe",
+          7327
+        ],
+        [
+          "Information, Kommunikation",
+          4227
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          10186
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien",
+          19292
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          5863
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          6484
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          5172
+        ],
+        [
+          "Erziehung, Unterricht",
+          8010
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          20700
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          7384
+        ]
+      ],
+      "name": "2014",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
+      "data": [
+        [
+          "Industrie (exkl. Chemie, Pharma)",
+          8208
+        ],
+        [
+          "Chemie, Pharma",
+          18844
+        ],
+        [
+          "Baugewerbe",
+          7800
+        ],
+        [
+          "Handel, Reparatur",
+          12404
+        ],
+        [
+          "Verkehr, Lagerei",
+          9760
+        ],
+        [
+          "Gastgewerbe",
+          7400
+        ],
+        [
+          "Information, Kommunikation",
+          4029
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          10074
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien",
+          19171
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          5915
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          6041
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          5214
+        ],
+        [
+          "Erziehung, Unterricht",
+          7852
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          21312
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          7527
+        ]
+      ],
+      "name": "2015",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "align": "left",
+      "x": -180,
+      "formatter": function () {
+            return this.value.replace("/", "<br/>")
+        }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 650,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "marginRight": 50,
+    "marginLeft": 200,
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-6459"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Beschäftigung nach Branche"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt, in Vollzeitäquivalenten",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "y": 45,
+    "itemWidth": 70,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 6459
+  }
+}

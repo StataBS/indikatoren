@@ -1,0 +1,432 @@
+{
+  "series": [
+    {
+      "color": "#B375AB",
+      "data": [
+        [
+          "2009-1",
+          6604
+        ],
+        [
+          "2009-2",
+          8173
+        ],
+        [
+          "2009-3",
+          20064
+        ],
+        [
+          "2009-4",
+          5094
+        ],
+        [
+          "2010-1",
+          6950
+        ],
+        [
+          "2010-2",
+          7113
+        ],
+        [
+          "2010-3",
+          13355
+        ],
+        [
+          "2010-4",
+          11439
+        ],
+        [
+          "2011-1",
+          7502
+        ],
+        [
+          "2011-2",
+          5512
+        ],
+        [
+          "2011-3",
+          17350
+        ],
+        [
+          "2011-4",
+          6809
+        ],
+        [
+          "2012-1",
+          7715
+        ],
+        [
+          "2012-2",
+          7575
+        ],
+        [
+          "2012-3",
+          23440
+        ],
+        [
+          "2012-4",
+          5871
+        ],
+        [
+          "2013-1",
+          8893
+        ],
+        [
+          "2013-2",
+          18256
+        ],
+        [
+          "2013-3",
+          20154
+        ],
+        [
+          "2013-4",
+          9170
+        ],
+        [
+          "2014-1",
+          25357
+        ],
+        [
+          "2014-2",
+          15635
+        ],
+        [
+          "2014-3",
+          16524
+        ],
+        [
+          "2014-4",
+          8380
+        ],
+        [
+          "2015-1",
+          32319
+        ],
+        [
+          "2015-2",
+          15364
+        ],
+        [
+          "2015-3",
+          23543
+        ],
+        [
+          "2015-4",
+          7030
+        ],
+        [
+          "2016-1",
+          27723
+        ],
+        [
+          "2016-2",
+          11780
+        ],
+        [
+          "2016-3",
+          19134
+        ],
+        [
+          "2016-4",
+          5422
+        ],
+        [
+          "2017-1",
+          19796
+        ],
+        [
+          "2017-2",
+          11430
+        ],
+        [
+          "2017-3",
+          21255
+        ],
+        [
+          "2017-4",
+          7916
+        ]
+      ],
+      "name": "Industrie (inkl. Chemie, Pharma)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#662673",
+      "data": [
+        [
+          "2009-1",
+          22659
+        ],
+        [
+          "2009-2",
+          22924
+        ],
+        [
+          "2009-3",
+          25190
+        ],
+        [
+          "2009-4",
+          9364
+        ],
+        [
+          "2010-1",
+          23728
+        ],
+        [
+          "2010-2",
+          12553
+        ],
+        [
+          "2010-3",
+          13731
+        ],
+        [
+          "2010-4",
+          21166
+        ],
+        [
+          "2011-1",
+          18834
+        ],
+        [
+          "2011-2",
+          14221
+        ],
+        [
+          "2011-3",
+          18963
+        ],
+        [
+          "2011-4",
+          16091
+        ],
+        [
+          "2012-1",
+          27379
+        ],
+        [
+          "2012-2",
+          18311
+        ],
+        [
+          "2012-3",
+          24196
+        ],
+        [
+          "2012-4",
+          21795
+        ],
+        [
+          "2013-1",
+          17829
+        ],
+        [
+          "2013-2",
+          42022
+        ],
+        [
+          "2013-3",
+          18890
+        ],
+        [
+          "2013-4",
+          15322
+        ],
+        [
+          "2014-1",
+          70150
+        ],
+        [
+          "2014-2",
+          40158
+        ],
+        [
+          "2014-3",
+          20919
+        ],
+        [
+          "2014-4",
+          14541
+        ],
+        [
+          "2015-1",
+          68583
+        ],
+        [
+          "2015-2",
+          30170
+        ],
+        [
+          "2015-3",
+          20258
+        ],
+        [
+          "2015-4",
+          13360
+        ],
+        [
+          "2016-1",
+          71990
+        ],
+        [
+          "2016-2",
+          29138
+        ],
+        [
+          "2016-3",
+          19088
+        ],
+        [
+          "2016-4",
+          13100
+        ],
+        [
+          "2017-1",
+          54929
+        ],
+        [
+          "2017-2",
+          31678
+        ],
+        [
+          "2017-3",
+          23283
+        ],
+        [
+          "2017-4",
+          14618
+        ]
+      ],
+      "name": "Baugewerbe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function () {
+   			 return this.value.split("-").slice(0, -1);
+		}
+    },
+    "tickLength": 0,
+    "tickInterval": 4
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-3031"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Arbeitstage von Meldepflichtigen in Industrie und Baugewerbe"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemWidth": 300,
+    "y": 45,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": 3031
+  }
+}

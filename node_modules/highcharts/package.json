@@ -1,25 +1,48 @@
 {
+  "_args": [
+    [
+      {
+        "raw": "highcharts@5.0.7",
+        "scope": null,
+        "escapedName": "highcharts",
+        "name": "highcharts",
+        "rawSpec": "5.0.7",
+        "spec": "5.0.7",
+        "type": "version"
+      },
+      "/home/ubuntu/workspace"
+    ]
+  ],
   "_from": "highcharts@5.0.7",
   "_id": "highcharts@5.0.7",
-  "_inBundle": false,
-  "_integrity": "sha1-Y+vu7gWs1W47JVS1sxoSJOHgW/Y=",
+  "_inCache": true,
   "_location": "/highcharts",
+  "_nodeVersion": "4.4.5",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/highcharts-5.0.7.tgz_1484656318585_0.42274560453370214"
+  },
+  "_npmUser": {
+    "name": "highsoft",
+    "email": "torstein@highsoft.com"
+  },
+  "_npmVersion": "2.15.5",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
-    "registry": true,
     "raw": "highcharts@5.0.7",
-    "name": "highcharts",
+    "scope": null,
     "escapedName": "highcharts",
+    "name": "highcharts",
     "rawSpec": "5.0.7",
-    "saveSpec": null,
-    "fetchSpec": "5.0.7"
+    "spec": "5.0.7",
+    "type": "version"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/highcharts/-/highcharts-5.0.7.tgz",
   "_shasum": "63ebeeee05acd56e3b2554b5b31a1224e1e05bf6",
+  "_shrinkwrap": null,
   "_spec": "highcharts@5.0.7",
   "_where": "/home/ubuntu/workspace",
   "author": {
@@ -30,9 +53,15 @@
   "bugs": {
     "url": "https://github.com/highcharts/highcharts/issues"
   },
-  "bundleDependencies": false,
-  "deprecated": false,
+  "dependencies": {},
   "description": "JavaScript charting framework",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "63ebeeee05acd56e3b2554b5b31a1224e1e05bf6",
+    "tarball": "https://registry.npmjs.org/highcharts/-/highcharts-5.0.7.tgz"
+  },
+  "gitHead": "24cf66c34f5dd79f91b5d1867a21bc6ba071ae60",
   "homepage": "http://www.highcharts.com",
   "keywords": [
     "charts",
@@ -45,10 +74,19 @@
   ],
   "license": "https://www.highcharts.com/license",
   "main": "highcharts.js",
+  "maintainers": [
+    {
+      "name": "highsoft",
+      "email": "torstein@highsoft.com"
+    }
+  ],
   "name": "highcharts",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/highcharts/highcharts-dist.git"
   },
+  "scripts": {},
   "version": "5.0.7"
 }
