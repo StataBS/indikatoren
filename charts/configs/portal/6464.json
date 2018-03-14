@@ -1,0 +1,361 @@
+{
+  "series": [
+    {
+      "color": "#ECE1D0",
+      "data": [
+        [
+          "Industrie (inkl. Pharma, exkl. Energie, Wasser)",
+          6988
+        ],
+        [
+          "Pharma",
+          9912
+        ],
+        [
+          "Baugewerbe",
+          5889
+        ],
+        [
+          "Handel, Reparatur",
+          5379
+        ],
+        [
+          "Verkehr, Lagerei",
+          5697
+        ],
+        [
+          "Gastgewerbe",
+          4163
+        ],
+        [
+          "Information, Kommunikation",
+          7876
+        ],
+        [
+          "Finanz- und Versicherungs-DL",
+          7976
+        ],
+        [
+          "Beratung, Planung, Forschung",
+          7619
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          5170
+        ],
+        [
+          "Personalvermittlung, -üerlassung",
+          5738
+        ],
+        [
+          "Öffentliche Verwaltung",
+          7467
+        ],
+        [
+          "Erziehung, Unterricht",
+          8673
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          6173
+        ],
+        [
+          "Kunst und Unterhaltung",
+          5936
+        ],
+        [
+          "Total",
+          6447
+        ]
+      ],
+      "name": "2010",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9E7C59",
+      "data": [
+        [
+          "Industrie (inkl. Pharma, exkl. Energie, Wasser)",
+          6930
+        ],
+        [
+          "Pharma",
+          10832
+        ],
+        [
+          "Baugewerbe",
+          6105
+        ],
+        [
+          "Handel, Reparatur",
+          5553
+        ],
+        [
+          "Verkehr, Lagerei",
+          5885
+        ],
+        [
+          "Gastgewerbe",
+          4365
+        ],
+        [
+          "Information, Kommunikation",
+          8156
+        ],
+        [
+          "Finanz- und Versicherungs-DL",
+          8411
+        ],
+        [
+          "Beratung, Planung, Forschung",
+          7897
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          4727
+        ],
+        [
+          "Personalvermittlung, -üerlassung",
+          5496
+        ],
+        [
+          "Öffentliche Verwaltung",
+          7411
+        ],
+        [
+          "Erziehung, Unterricht",
+          8323
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          6187
+        ],
+        [
+          "Kunst und Unterhaltung",
+          5922
+        ],
+        [
+          "Total",
+          6653
+        ]
+      ],
+      "name": "2012",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#3A2012",
+      "data": [
+        [
+          "Industrie (inkl. Pharma, exkl. Energie, Wasser)",
+          6827
+        ],
+        [
+          "Pharma",
+          10866
+        ],
+        [
+          "Baugewerbe",
+          6068
+        ],
+        [
+          "Handel, Reparatur",
+          5722
+        ],
+        [
+          "Verkehr, Lagerei",
+          6210
+        ],
+        [
+          "Gastgewerbe",
+          4333
+        ],
+        [
+          "Information, Kommunikation",
+          8165
+        ],
+        [
+          "Finanz- und Versicherungs-DL",
+          8461
+        ],
+        [
+          "Beratung, Planung, Forschung",
+          7975
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          5299
+        ],
+        [
+          "Personalvermittlung, -üerlassung",
+          5599
+        ],
+        [
+          "Öffentliche Verwaltung",
+          7369
+        ],
+        [
+          "Erziehung, Unterricht",
+          6569
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          6259
+        ],
+        [
+          "Kunst und Unterhaltung",
+          6315
+        ],
+        [
+          "Total",
+          6578
+        ]
+      ],
+      "name": "2014",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "align": "left",
+      "x": -185,
+      "formatter": function () {
+            return this.value//.replace("        ", "<br/>")
+        }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 650,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "marginLeft": 200,
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-6464"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Löhne nach Branche"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Nordwestschweiz, Median in Franken",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 3000
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "y": 55,
+    "itemWidth": 70,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 6464
+  }
+}

@@ -1,0 +1,756 @@
+{
+  "series": [
+    {
+      "color": "#E7CEE2",
+      "index": 15,
+      "data": [
+        [
+          "2008",
+          604
+        ],
+        [
+          "2009",
+          319
+        ],
+        [
+          "2010",
+          455
+        ],
+        [
+          "2011",
+          197
+        ],
+        [
+          "2012",
+          208
+        ],
+        [
+          "2013",
+          286
+        ],
+        [
+          "2014",
+          250
+        ],
+        [
+          "2015",
+          209
+        ],
+        [
+          "2016",
+          207
+        ],
+        [
+          "2017",
+          213
+        ]
+      ],
+      "name": "Industrie (exkl. Chemie, Pharma)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923F8D",
+      "index": 14,
+      "data": [
+        [
+          "2008",
+          582
+        ],
+        [
+          "2009",
+          674
+        ],
+        [
+          "2010",
+          679
+        ],
+        [
+          "2011",
+          604
+        ],
+        [
+          "2012",
+          562
+        ],
+        [
+          "2013",
+          663
+        ],
+        [
+          "2014",
+          568
+        ],
+        [
+          "2015",
+          490
+        ],
+        [
+          "2016",
+          444
+        ],
+        [
+          "2017",
+          385
+        ]
+      ],
+      "name": "Chemie, Pharma",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#662673",
+      "index": 13,
+      "data": [
+        [
+          "2008",
+          1850
+        ],
+        [
+          "2009",
+          292
+        ],
+        [
+          "2010",
+          307
+        ],
+        [
+          "2011",
+          152
+        ],
+        [
+          "2012",
+          162
+        ],
+        [
+          "2013",
+          172
+        ],
+        [
+          "2014",
+          167
+        ],
+        [
+          "2015",
+          171
+        ],
+        [
+          "2016",
+          111
+        ],
+        [
+          "2017",
+          74
+        ]
+      ],
+      "name": "Baugewerbe",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73B97C",
+      "index": 12,
+      "data": [
+        [
+          "2008",
+          628
+        ],
+        [
+          "2009",
+          560
+        ],
+        [
+          "2010",
+          547
+        ],
+        [
+          "2011",
+          480
+        ],
+        [
+          "2012",
+          439
+        ],
+        [
+          "2013",
+          477
+        ],
+        [
+          "2014",
+          469
+        ],
+        [
+          "2015",
+          420
+        ],
+        [
+          "2016",
+          373
+        ],
+        [
+          "2017",
+          360
+        ]
+      ],
+      "name": "Handel, Reparatur",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B6CFD7",
+      "index": 11,
+      "data": [
+        [
+          "2008",
+          289
+        ],
+        [
+          "2009",
+          256
+        ],
+        [
+          "2010",
+          224
+        ],
+        [
+          "2011",
+          281
+        ],
+        [
+          "2012",
+          238
+        ],
+        [
+          "2013",
+          190
+        ],
+        [
+          "2014",
+          169
+        ],
+        [
+          "2015",
+          196
+        ],
+        [
+          "2016",
+          149
+        ],
+        [
+          "2017",
+          153
+        ]
+      ],
+      "name": "Verkehr, Lagerei, Kommunikation",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "index": 10,
+      "data": [
+        [
+          "2008",
+          414
+        ],
+        [
+          "2009",
+          342
+        ],
+        [
+          "2010",
+          302
+        ],
+        [
+          "2011",
+          287
+        ],
+        [
+          "2012",
+          314
+        ],
+        [
+          "2013",
+          245
+        ],
+        [
+          "2014",
+          295
+        ],
+        [
+          "2015",
+          263
+        ],
+        [
+          "2016",
+          210
+        ],
+        [
+          "2017",
+          208
+        ]
+      ],
+      "name": "Gastgewerbe",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFDA80",
+      "index": 9,
+      "data": [
+        [
+          "2008",
+          117
+        ],
+        [
+          "2009",
+          72
+        ],
+        [
+          "2010",
+          74
+        ],
+        [
+          "2011",
+          97
+        ],
+        [
+          "2012",
+          112
+        ],
+        [
+          "2013",
+          104
+        ],
+        [
+          "2014",
+          94
+        ],
+        [
+          "2015",
+          81
+        ],
+        [
+          "2016",
+          51
+        ],
+        [
+          "2017",
+          71
+        ]
+      ],
+      "name": "Finanz-, Versicherungs-DL",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58",
+      "index": 8,
+      "data": [
+        [
+          "2008",
+          1679
+        ],
+        [
+          "2009",
+          1705
+        ],
+        [
+          "2010",
+          2174
+        ],
+        [
+          "2011",
+          2155
+        ],
+        [
+          "2012",
+          2338
+        ],
+        [
+          "2013",
+          2751
+        ],
+        [
+          "2014",
+          2831
+        ],
+        [
+          "2015",
+          2796
+        ],
+        [
+          "2016",
+          2650
+        ],
+        [
+          "2017",
+          2820
+        ]
+      ],
+      "name": "Berat., Plan., Forsch., Immob., IT",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "index": 6,
+      "data": [
+        [
+          "2008",
+          49
+        ],
+        [
+          "2009",
+          19
+        ],
+        [
+          "2010",
+          21
+        ],
+        [
+          "2011",
+          57
+        ],
+        [
+          "2012",
+          81
+        ],
+        [
+          "2013",
+          84
+        ],
+        [
+          "2014",
+          66
+        ],
+        [
+          "2015",
+          69
+        ],
+        [
+          "2016",
+          77
+        ],
+        [
+          "2017",
+          64
+        ]
+      ],
+      "name": "Öffentliche Verwaltung, Sozialvers.",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "index": 3,
+      "data": [
+        [
+          "2008",
+          222
+        ],
+        [
+          "2009",
+          244
+        ],
+        [
+          "2010",
+          213
+        ],
+        [
+          "2011",
+          229
+        ],
+        [
+          "2012",
+          163
+        ],
+        [
+          "2013",
+          167
+        ],
+        [
+          "2014",
+          175
+        ],
+        [
+          "2015",
+          155
+        ],
+        [
+          "2016",
+          111
+        ],
+        [
+          "2017",
+          116
+        ]
+      ],
+      "name": "Erziehung, Unterricht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 2,
+      "data": [
+        [
+          "2008",
+          484
+        ],
+        [
+          "2009",
+          429
+        ],
+        [
+          "2010",
+          401
+        ],
+        [
+          "2011",
+          437
+        ],
+        [
+          "2012",
+          520
+        ],
+        [
+          "2013",
+          564
+        ],
+        [
+          "2014",
+          544
+        ],
+        [
+          "2015",
+          469
+        ],
+        [
+          "2016",
+          486
+        ],
+        [
+          "2017",
+          494
+        ]
+      ],
+      "name": "Gesundheits-, Sozialwesen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#2B0099",
+      "index": 1,
+      "data": [
+        [
+          "2008",
+          264
+        ],
+        [
+          "2009",
+          269
+        ],
+        [
+          "2010",
+          211
+        ],
+        [
+          "2011",
+          229
+        ],
+        [
+          "2012",
+          191
+        ],
+        [
+          "2013",
+          206
+        ],
+        [
+          "2014",
+          222
+        ],
+        [
+          "2015",
+          180
+        ],
+        [
+          "2016",
+          170
+        ],
+        [
+          "2017",
+          143
+        ]
+      ],
+      "name": "Kultur, Unterhaltung, pers. DL",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8A8A8A",
+      "index": 0,
+      "data": [
+        [
+          "2008",
+          110
+        ],
+        [
+          "2009",
+          69
+        ],
+        [
+          "2010",
+          46
+        ],
+        [
+          "2011",
+          38
+        ],
+        [
+          "2012",
+          59
+        ],
+        [
+          "2013",
+          62
+        ],
+        [
+          "2014",
+          73
+        ],
+        [
+          "2015",
+          73
+        ],
+        [
+          "2016",
+          42
+        ],
+        [
+          "2017",
+          161
+        ]
+      ],
+      "name": "Übrige",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "step": 1
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 600,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-2151"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Neue Grenzgängerbewilligungen nach Branche"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Jährlich erteilte Bewilligungen, Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormatter": function (){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b><br/><b>' 
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}",
+      "formatter": function (){
+        return Highcharts.numberFormat((this.value),0)+''; 
+      }
+    }
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 45,
+    "itemWidth": 210,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "normal",
+      "groupPadding": 0,
+      "borderWidth": 0
+    }
+  },
+  "exporting": {
+    "filename": 2151
+  }
+}

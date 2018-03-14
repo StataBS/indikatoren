@@ -1,0 +1,211 @@
+{
+  "series": [
+    {
+      "color": "#474747",
+      "data": [
+        [
+          2011,
+          0.8904825
+        ],
+        [
+          2012,
+          0.8840209
+        ],
+        [
+          2013,
+          0.8818779
+        ],
+        [
+          2014,
+          0.8787231
+        ],
+        [
+          2015,
+          0.877545
+        ]
+      ],
+      "name": "Männer"
+    },
+    {
+      "color": "#923F8D",
+      "data": [
+        [
+          2011,
+          0.7046279
+        ],
+        [
+          2012,
+          0.6932103
+        ],
+        [
+          2013,
+          0.704487
+        ],
+        [
+          2014,
+          0.7001559
+        ],
+        [
+          2015,
+          0.7023453
+        ]
+      ],
+      "name": "Frauen"
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          2011,
+          0.8037344
+        ],
+        [
+          2012,
+          0.7950478
+        ],
+        [
+          2013,
+          0.7988232
+        ],
+        [
+          2014,
+          0.7950704
+        ],
+        [
+          2015,
+          0.7949154
+        ]
+      ],
+      "name": "Total"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6455"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Durchschnittlicher Beschäftigungsgrad nach Geschlecht"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Anteil der Vollzeitäquivalente an den Beschäftigten, Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormatter": function (){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}",
+      "formatter": function (){
+        return Highcharts.numberFormat((this.value*100),0)+'%'; 
+      }
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "x": 45,
+    "y": 55,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    },
+    "series": {
+      "connectNulls": true
+    }
+  },
+  "exporting": {
+    "filename": 6455
+  }
+}
