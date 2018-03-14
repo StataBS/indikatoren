@@ -32,6 +32,7 @@ var sortOptions = {};
 
 var indikatoren;
 var view = false;
+var perPage=16;
 
 $(document).ready(function(){
   //Render page differently depending on url query string 'Indikatorenset'
@@ -45,6 +46,24 @@ $(document).ready(function(){
   if (indikatorensetNames.indexOf(indikatorenset) > -1){
     view = true;
     jsonDatabaseUrl = 'metadata/sets/'+ indikatorenset + '.js';
+  }
+  
+  //dynamically change filterColumns in indikatorenset view only, see http://jsfiddle.net/KyleMit/pgt6tczj/
+  var maxStufe = +window.decodeURIComponent($.url('?stufe')) || 2;
+  if (view){
+    //change width of columns
+    var $myCols = $('#indikatorensetFilterControls');
+    var visibleCols = maxStufe + 1; //add the search box as a column
+    var div = Math.floor(12 / visibleCols);
+    var rem = 12 % visibleCols;
+    var colSize = (rem === 0) ? div : 2;
+    $myCols.children().removeClass().addClass('col-xs-'+colSize);
+    //hide columns to the right of maxStufe
+    $myCols.children().each(function(i, element){
+      if (i >= visibleCols){
+        $(element).hide();
+      }
+    });
   }
   
   //load data
@@ -68,13 +87,11 @@ $(document).ready(function(){
       }
       
       //determine how many chart previews to display
-      var perPage = parseInt(window.decodeURIComponent($.url('?PerPage')));
+      var perPageParam = parseInt(window.decodeURIComponent($.url('?PerPage')), 10);
       //parameter must be an int, see https://stackoverflow.com/a/14636652 
-      if (perPage > 0 && perPage <= 32){
-        perPage=perPage;
-      }
-      else {
-        perPage=16;
+      if (perPageParam > 0 && perPageParam <= 32){
+        //perPage defined globally with a default value
+        perPage=perPageParam;
       }
       initializeFilterJS(indikatorenset, perPage);
   });  
@@ -85,6 +102,7 @@ $(document).ready(function(){
 function resetPortalFilter(FJS, view){
   if (isIndikatorensetView(view)){
     $('#searchbox').val('');
+    $("#stufe3_filter").prop('selectedIndex', 0);
     $("#stufe2_filter").prop('selectedIndex', 0);
     $("#stufe1_filter").prop('selectedIndex', 0);
     FJS.filter();
@@ -133,6 +151,7 @@ function initializeFilterJS(indikatorenset, perPage){
     FJS.addCriteria({field: "kennzahlenset", ele: "#kennzahlenset_filter", all: "all"});
     FJS.addCriteria({field: "stufe1", ele: "#stufe1_filter", all: "all"});
     FJS.addCriteria({field: "stufe2", ele: "#stufe2_filter", all: "all"});
+    FJS.addCriteria({field: "stufe3", ele: "#stufe3_filter", all: "all"});
   }  
   else {
     //Portal view
@@ -239,9 +258,6 @@ function preparePortalView(){
   var baseQuery = {};
   //render unterthema dropdown for the first time   
   renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema', baseQuery);
-      
-  //configure unterthema to be filtered correctly upon change of thema           
-  configureCascadedControls('#thema_criteria', '#unterthema_filter', "#thema_criteria :checked", 'Alle', 'thema','#unterthema_filter', 'all', 'unterthema', baseQuery, 'unterthema');  
 }
 
 
@@ -263,62 +279,7 @@ function prepareIndikatorensetView(indikatorenset){
 
   renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'orderKey', baseQuery);
   renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'orderKey', baseQuery);
-
-  //add cascaded dropdowns functionality to stufe1 and stufe2
-  configureCascadedControls('#stufe1_filter', '#stufe2_filter', '#stufe1_filter', 'all', 'stufe1', '#stufe2_filter', 'all', 'stufe2', baseQuery, 'orderKey'); 
-}
-
-
-//add cascaded dropdowns functionality to level1 and level2
-function configureCascadedControls(level1Selector, level2Selector, level1ValueSelector, level1AllValue, level1Field, level2valueSelector, level2allValue, level2Field, baseQuery, level2SortKey){  
-
-  $(level1Selector).change(function(){    
-    //save currently selected value
-    var currentLevel2Value = $(level2Selector).val(); 
-    //set 2nd level dropdown to first (all)
-    $(level2Selector + ' :nth-child(1)').prop('selected', true);
-    $(level2Selector).change();
-    //filter 2nd level to include only values that occur together with selected 1st level value
-    var level2QueryString = $.extend(true, {}, baseQuery); 
-    var selectedValue = $(level1ValueSelector).val();
-    if (selectedValue !== level1AllValue) {
-      level2QueryString[level1Field] = selectedValue;
-    }
-    renderDropdownFromJson(indikatoren, level2Field, level2Selector, level2SortKey, level2QueryString);
-    //re-set previously selected value if level 1 is not "all"
-    if (selectedValue !== level1AllValue){
-      $(level2Selector).val(currentLevel2Value);
-    }
-    //if no item is selected now, select the first one
-    if (!$(level2Selector).val()){
-      $(level2Selector + ' :nth-child(1)').prop('selected', true);
-    }
-  });
-
-
-  $(level2Selector).change(function(){
-    //upon selection in level2 dropdown: if level1 is set to the first one (all), set level1 value to the single (or first) value that matches    
-    var selectedValue = $(level2valueSelector).val();           
-    //level2 value is not the first one in the list (all) and level1 value is the first one (all)
-    if (selectedValue !== level2allValue /*&& $(level1ValueSelector).val() === level1AllValue*/ ) {
-      var level1QueryString = $.extend(true, {}, baseQuery);
-      //extend JsonQuery object    
-      level1QueryString[level2Field] = selectedValue;
-      //find first level1 value that matches the selected level2 value
-      var result = JsonQuery(indikatoren).where(level1QueryString).all[0][level1Field];
-      //set level1 to the found value
-      if (level1ValueSelector.indexOf('checked') > -1) {
-        //for radios: 
-        $(level1Selector).find('[value="' + result + '"]').prop('checked', true);
-        $(level1Selector).change();
-      }
-      else {
-        //for dropdown: 
-        $(level1Selector).val([result]);
-        $(level1Selector).change();
-      }
-    }
-  });
+  renderDropdownFromJson(indikatoren, 'stufe3', '#stufe3_filter', 'orderKey', baseQuery);
 }
 
 
@@ -351,12 +312,16 @@ function renderDropdownFromJson(data, field, selector, sortKey, filterQueryStrin
     sortOptions[sortKey] = 'asc';
     JQ=JQ.order(sortOptions);
   }
+
   var allValues = JQ.pluck(field).all;
   //get unique values and filter out empty string 
   var uniqueValues = allValues.filter(function(item, i, ar){ return ar.indexOf(item) === i && item != ""; }); 
   var html = $('#option-template').html();
   var templateFunction = FilterJS.templateBuilder(html);
   var container = $(selector);
+  
+  //save the currently selected value first
+  var currentValue = $(selector).val(); 
   //remove options if any are present, but leave the first one
   var optionsToRemove = selector+' > option:gt(0)';  
   $(optionsToRemove).remove();
@@ -364,6 +329,13 @@ function renderDropdownFromJson(data, field, selector, sortKey, filterQueryStrin
   $.each(uniqueValues, function(i, c){
     container.append(templateFunction({ key: c, value: c }));
   });
+  //re-set previously selected value 
+  $(selector).val(currentValue);
+  //if no item is selected now, select the first one, and trigger a change event so that filtering is updated 
+  if (!$(selector).val()){
+    $(selector + ' :nth-child(1)').prop('selected', true);
+    $(selector).change();
+  }
 }
 
 
@@ -492,8 +464,10 @@ function getIndexByFid(fid){
 }
 
 
-//after filtering is done: update counts in dropdowns and create all carousel components
+
+//after filtering is done: update dropdonws and their counts, create all carousel components
 var afterFilter = function(result, jQ){
+
     //$('#total_indikatoren').text(result.length);    
 
     //define how counts in dropdowns or checkboxes are rendered 
@@ -505,15 +479,32 @@ var afterFilter = function(result, jQ){
     updateCountsExclusive('#raeumlicheGliederung_filter > option', 'raeumlicheGliederung', optionCountRenderFunction, result, jQ);
 
     //hide dropdowns if no specific values present, or select the single specific value
-    selectSingleEntryOrHideDropdown('#unterthema_filter');
-    selectSingleEntryOrHideDropdown('#stufe2_filter');
+    //selectSingleEntryOrHideDropdown('#unterthema_filter');
+    //selectSingleEntryOrHideDropdown('#stufe2_filter');
+    
 
+    //prepare query String object for filtering stufe1 - stufe5
+    var query = (window['FJS'] && window['FJS']['last_query'] ? window.FJS.last_query : undefined);
+    var baseQuery = (query ? (query.criteria ? query.criteria.where : undefined) : undefined);
+    //deep copy so that changes have no effect on filtering charts, only dropdowns
+    var baseQueryCopy = $.extend(true, {}, baseQuery);
+    //start from the right: remove field of dropdown and render dropdown. This way, stufe3 selection does not filter stufe2 dropdown options, and so on.
+    if (baseQueryCopy) {delete baseQueryCopy['stufe3' + '.$in'];}
+    renderDropdownFromJson(indikatoren, 'stufe3', '#stufe3_filter', 'orderKey', baseQueryCopy);
+    if (baseQueryCopy) {delete baseQueryCopy['stufe2' + '.$in'];}
+    renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'orderKey', baseQueryCopy);
+    if (baseQueryCopy) {delete baseQueryCopy['stufe1' + '.$in'];}
+    renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'orderKey', baseQueryCopy);    
+    
+    var baseQueryCopyUnterthema = $.extend(true, {}, baseQuery);
+    renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema', baseQueryCopyUnterthema);
+    
     //for multiselect dropdowns: rebuild control after select tag is updated
     $('#schlagwort_filter').multiselect('rebuild');
     $('#raeumlicheGliederung_filter').multiselect('rebuild');
     
     //if results fit in a single page: hide pagination, use bootstrap invisible class to leave row height intact    
-    (result.length <= 16) ? $('#pagination').addClass('invisible') : $('#pagination').removeClass('invisible');
+    (result.length <= perPage) ? $('#pagination').addClass('invisible') : $('#pagination').removeClass('invisible');
 
     createCarousel(result);
     
@@ -525,6 +516,7 @@ var afterFilter = function(result, jQ){
           //iterate over each displayed value of the criterion 
           items.each(function(){            
             var c = $(this), count = 0;           
+            
             //get last Query JsonQuery Object of last filter event and remove the current filter value from it
             try{
               var jsonQ = window.FJS.last_query;           
@@ -606,7 +598,7 @@ var afterFilter = function(result, jQ){
     function createCarousel(result){            
       //add a carousel-inner div for each thumbnail
       //build template function using template from DOM
-      var template = (isIndikatorensetView(indikatorensetView)) ? '#indikator-template-modal-indikatorenset' : '#indikator-template-modal-portal';
+      var template = (isIndikatorensetView(view)) ? '#indikator-template-modal-indikatorenset' : '#indikator-template-modal-portal';
       var html = $(template).html();
       var templateFunction = FilterJS.templateBuilder(html);
       var container = $('#carousel-inner');
