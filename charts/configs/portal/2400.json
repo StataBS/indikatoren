@@ -1,0 +1,360 @@
+{
+  "series": [
+    {
+      "color": "#6F6F6F",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2007,
+          158884
+        ],
+        [
+          2008,
+          161204
+        ],
+        [
+          2009,
+          158555
+        ],
+        [
+          2010,
+          163146
+        ],
+        [
+          2011,
+          165868
+        ],
+        [
+          2012,
+          166502
+        ],
+        [
+          2013,
+          163676
+        ],
+        [
+          2014,
+          163098
+        ],
+        [
+          2015,
+          163722
+        ],
+        [
+          2016,
+          165097
+        ]
+      ],
+      "name": "BS"
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          2007,
+          64024
+        ],
+        [
+          2008,
+          66763
+        ],
+        [
+          2009,
+          65283
+        ],
+        [
+          2010,
+          67248
+        ],
+        [
+          2011,
+          68133
+        ],
+        [
+          2012,
+          66594
+        ],
+        [
+          2013,
+          66932
+        ],
+        [
+          2014,
+          68215
+        ],
+        [
+          2015,
+          67456
+        ],
+        [
+          2016,
+          67010
+        ]
+      ],
+      "name": "BL"
+    },
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          2007,
+          60976
+        ],
+        [
+          2008,
+          63543
+        ],
+        [
+          2009,
+          61410
+        ],
+        [
+          2010,
+          61398
+        ],
+        [
+          2011,
+          62059
+        ],
+        [
+          2012,
+          61266
+        ],
+        [
+          2013,
+          61687
+        ],
+        [
+          2014,
+          61531
+        ],
+        [
+          2015,
+          60940
+        ],
+        [
+          2016,
+          60780
+        ]
+      ],
+      "name": "AG"
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          2007,
+          97841
+        ],
+        [
+          2008,
+          98305
+        ],
+        [
+          2009,
+          95025
+        ],
+        [
+          2010,
+          94519
+        ],
+        [
+          2011,
+          95308
+        ],
+        [
+          2012,
+          95706
+        ],
+        [
+          2013,
+          95944
+        ],
+        [
+          2014,
+          95717
+        ],
+        [
+          2015,
+          94477
+        ],
+        [
+          2016,
+          93809
+        ]
+      ],
+      "name": "ZH"
+    },
+    {
+      "color": "#990300",
+      "data": [
+        [
+          2007,
+          75470
+        ],
+        [
+          2008,
+          77563
+        ],
+        [
+          2009,
+          75401
+        ],
+        [
+          2010,
+          77019
+        ],
+        [
+          2011,
+          77731
+        ],
+        [
+          2012,
+          77573
+        ],
+        [
+          2013,
+          77986
+        ],
+        [
+          2014,
+          78151
+        ],
+        [
+          2015,
+          77525
+        ],
+        [
+          2016,
+          77230
+        ]
+      ],
+      "name": "CH"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "marginRight": 18,
+    "renderTo": "container-2400"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Nominales Bruttoinlandprodukt pro Kopf nach Kanton"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "In Franken",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 25000
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: BAK Economics"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "x": 45,
+    "y": 55,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": 2400
+  }
+}

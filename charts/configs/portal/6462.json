@@ -1,0 +1,329 @@
+{
+  "series": [
+    {
+      "color": "#C9D6DB",
+      "data": [
+        [
+          "Industrie (exkl. Chemie, Pharma)",
+          0.028
+        ],
+        [
+          "Chemie, Pharma",
+          0.082
+        ],
+        [
+          "Baugewerbe",
+          0.025
+        ],
+        [
+          "Handel, Reparatur",
+          0.024
+        ],
+        [
+          "Verkehr, Lagerei, Kommunikation",
+          0.016
+        ],
+        [
+          "Gastgewerbe",
+          0.036
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          0.007
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien, IT, Personalvermittlung, andere DL",
+          0.075
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          0.006
+        ],
+        [
+          "Erziehung, Unterricht",
+          0.022
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          0.013
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          0.041
+        ],
+        [
+          "Total",
+          0.039
+        ]
+      ],
+      "name": "2015",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#71A3B5",
+      "data": [
+        [
+          "Industrie (exkl. Chemie, Pharma)",
+          0.029
+        ],
+        [
+          "Chemie, Pharma",
+          0.073
+        ],
+        [
+          "Baugewerbe",
+          0.017
+        ],
+        [
+          "Handel, Reparatur",
+          0.03
+        ],
+        [
+          "Verkehr, Lagerei, Kommunikation",
+          0.017
+        ],
+        [
+          "Gastgewerbe",
+          0.026
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          0.004
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien, IT, Personalvermittlung, andere DL",
+          0.077
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          0.004
+        ],
+        [
+          "Erziehung, Unterricht",
+          0.026
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          0.012
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          0.023
+        ],
+        [
+          "Total",
+          0.037
+        ]
+      ],
+      "name": "2016",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          "Industrie (exkl. Chemie, Pharma)",
+          0.038
+        ],
+        [
+          "Chemie, Pharma",
+          0.075
+        ],
+        [
+          "Baugewerbe",
+          0.011
+        ],
+        [
+          "Handel, Reparatur",
+          0.024
+        ],
+        [
+          "Verkehr, Lagerei, Kommunikation",
+          0.012
+        ],
+        [
+          "Gastgewerbe",
+          0.02
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          0.004
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien, IT, Personalvermittlung, andere DL",
+          0.082
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          0.005
+        ],
+        [
+          "Erziehung, Unterricht",
+          0.025
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          0.013
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          0.028
+        ],
+        [
+          "Total",
+          0.038
+        ]
+      ],
+      "name": "2017",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "align": "left",
+      "x": -180,
+      "formatter": function () {
+            return this.value.replace("/", "<br/>")
+        }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 650,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "marginLeft": 200,
+    "marginBottom": 70,
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-6462"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Zuwanderung pro Beschäftigten nach Branche"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt, pro besetzter Stelle",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "format": "{value}%",
+      "formatter": function (){
+        return Highcharts.numberFormat((this.value*100),1)+'%'; 
+      }
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "y": 55,
+    "itemWidth": 70,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormatter": function (){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
+    }
+  },
+  "exporting": {
+    "filename": 6462
+  }
+}

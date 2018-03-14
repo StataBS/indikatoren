@@ -1,0 +1,438 @@
+{
+  "series": [
+    {
+      "color": "#923F8D",
+      "index": 1,
+      "data": [
+        [
+          "2009-01",
+          547
+        ],
+        [
+          "2009-02",
+          569
+        ],
+        [
+          "2009-03",
+          652
+        ],
+        [
+          "2009-04",
+          521
+        ],
+        [
+          "2010-01",
+          575
+        ],
+        [
+          "2010-02",
+          492
+        ],
+        [
+          "2010-03",
+          664
+        ],
+        [
+          "2010-04",
+          487
+        ],
+        [
+          "2011-01",
+          532
+        ],
+        [
+          "2011-02",
+          562
+        ],
+        [
+          "2011-03",
+          693
+        ],
+        [
+          "2011-04",
+          539
+        ],
+        [
+          "2012-01",
+          604
+        ],
+        [
+          "2012-02",
+          543
+        ],
+        [
+          "2012-03",
+          659
+        ],
+        [
+          "2012-04",
+          550
+        ],
+        [
+          "2013-01",
+          696
+        ],
+        [
+          "2013-02",
+          633
+        ],
+        [
+          "2013-03",
+          797
+        ],
+        [
+          "2013-04",
+          595
+        ],
+        [
+          "2014-01",
+          718
+        ],
+        [
+          "2014-02",
+          548
+        ],
+        [
+          "2014-03",
+          715
+        ],
+        [
+          "2014-04",
+          663
+        ],
+        [
+          "2015-01",
+          745
+        ],
+        [
+          "2015-02",
+          611
+        ],
+        [
+          "2015-03",
+          810
+        ],
+        [
+          "2015-04",
+          605
+        ],
+        [
+          "2016-01",
+          690
+        ],
+        [
+          "2016-02",
+          604
+        ],
+        [
+          "2016-03",
+          792
+        ],
+        [
+          "2016-04",
+          580
+        ],
+        [
+          "2017-01",
+          750
+        ],
+        [
+          "2017-02",
+          674
+        ],
+        [
+          "2017-03",
+          707
+        ],
+        [
+          "2017-04",
+          575
+        ]
+      ],
+      "name": "Frauen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "index": 1,
+      "data": [
+        [
+          "2009-01",
+          874
+        ],
+        [
+          "2009-02",
+          1028
+        ],
+        [
+          "2009-03",
+          1057
+        ],
+        [
+          "2009-04",
+          929
+        ],
+        [
+          "2010-01",
+          872
+        ],
+        [
+          "2010-02",
+          868
+        ],
+        [
+          "2010-03",
+          1126
+        ],
+        [
+          "2010-04",
+          899
+        ],
+        [
+          "2011-01",
+          937
+        ],
+        [
+          "2011-02",
+          1021
+        ],
+        [
+          "2011-03",
+          1274
+        ],
+        [
+          "2011-04",
+          1031
+        ],
+        [
+          "2012-01",
+          1071
+        ],
+        [
+          "2012-02",
+          1042
+        ],
+        [
+          "2012-03",
+          1127
+        ],
+        [
+          "2012-04",
+          1037
+        ],
+        [
+          "2013-01",
+          1123
+        ],
+        [
+          "2013-02",
+          1243
+        ],
+        [
+          "2013-03",
+          1215
+        ],
+        [
+          "2013-04",
+          1093
+        ],
+        [
+          "2014-01",
+          1095
+        ],
+        [
+          "2014-02",
+          1011
+        ],
+        [
+          "2014-03",
+          1284
+        ],
+        [
+          "2014-04",
+          1221
+        ],
+        [
+          "2015-01",
+          1193
+        ],
+        [
+          "2015-02",
+          1145
+        ],
+        [
+          "2015-03",
+          1282
+        ],
+        [
+          "2015-04",
+          1077
+        ],
+        [
+          "2016-01",
+          1160
+        ],
+        [
+          "2016-02",
+          1152
+        ],
+        [
+          "2016-03",
+          1200
+        ],
+        [
+          "2016-04",
+          908
+        ],
+        [
+          "2017-01",
+          1353
+        ],
+        [
+          "2017-02",
+          1093
+        ],
+        [
+          "2017-03",
+          1107
+        ],
+        [
+          "2017-04",
+          929
+        ]
+      ],
+      "name": "Männer",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function () {
+   			 return this.value.split("-").slice(0, -1);
+		}
+    },
+    "tickLength": 0,
+    "tickInterval": 4
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-2462"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Zuwanderung von Erwerbstätigen nach Geschlecht"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Kurz- und Daueraufenthalter, Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormatter": function (){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b><br/><b>' 
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}",
+      "formatter": function (){
+        return Highcharts.numberFormat((this.value),0)+''; 
+      }
+    }
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 45,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": 2462
+  }
+}

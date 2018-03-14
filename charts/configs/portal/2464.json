@@ -1,0 +1,590 @@
+{
+  "series": [
+    {
+      "color": "#008AC3",
+      "index": 1,
+      "data": [
+        [
+          "2009-01",
+          929
+        ],
+        [
+          "2009-02",
+          1124
+        ],
+        [
+          "2009-03",
+          1080
+        ],
+        [
+          "2009-04",
+          942
+        ],
+        [
+          "2010-01",
+          942
+        ],
+        [
+          "2010-02",
+          792
+        ],
+        [
+          "2010-03",
+          1187
+        ],
+        [
+          "2010-04",
+          881
+        ],
+        [
+          "2011-01",
+          926
+        ],
+        [
+          "2011-02",
+          1027
+        ],
+        [
+          "2011-03",
+          1328
+        ],
+        [
+          "2011-04",
+          1064
+        ],
+        [
+          "2012-01",
+          1082
+        ],
+        [
+          "2012-02",
+          982
+        ],
+        [
+          "2012-03",
+          1189
+        ],
+        [
+          "2012-04",
+          1015
+        ],
+        [
+          "2013-01",
+          1216
+        ],
+        [
+          "2013-02",
+          1224
+        ],
+        [
+          "2013-03",
+          1323
+        ],
+        [
+          "2013-04",
+          1204
+        ],
+        [
+          "2014-01",
+          1226
+        ],
+        [
+          "2014-02",
+          1006
+        ],
+        [
+          "2014-03",
+          1304
+        ],
+        [
+          "2014-04",
+          1283
+        ],
+        [
+          "2015-01",
+          1295
+        ],
+        [
+          "2015-02",
+          1175
+        ],
+        [
+          "2015-03",
+          1402
+        ],
+        [
+          "2015-04",
+          1166
+        ],
+        [
+          "2016-01",
+          1127
+        ],
+        [
+          "2016-02",
+          1140
+        ],
+        [
+          "2016-03",
+          1319
+        ],
+        [
+          "2016-04",
+          1002
+        ],
+        [
+          "2017-01",
+          1214
+        ],
+        [
+          "2017-02",
+          1062
+        ],
+        [
+          "2017-03",
+          1186
+        ],
+        [
+          "2017-04",
+          988
+        ]
+      ],
+      "name": "EU15\u002FEFTA",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "index": 1,
+      "data": [
+        [
+          "2009-01",
+          115
+        ],
+        [
+          "2009-02",
+          129
+        ],
+        [
+          "2009-03",
+          137
+        ],
+        [
+          "2009-04",
+          161
+        ],
+        [
+          "2010-01",
+          87
+        ],
+        [
+          "2010-02",
+          148
+        ],
+        [
+          "2010-03",
+          227
+        ],
+        [
+          "2010-04",
+          135
+        ],
+        [
+          "2011-01",
+          128
+        ],
+        [
+          "2011-02",
+          145
+        ],
+        [
+          "2011-03",
+          206
+        ],
+        [
+          "2011-04",
+          171
+        ],
+        [
+          "2012-01",
+          172
+        ],
+        [
+          "2012-02",
+          179
+        ],
+        [
+          "2012-03",
+          207
+        ],
+        [
+          "2012-04",
+          208
+        ],
+        [
+          "2013-01",
+          171
+        ],
+        [
+          "2013-02",
+          190
+        ],
+        [
+          "2013-03",
+          266
+        ],
+        [
+          "2013-04",
+          167
+        ],
+        [
+          "2014-01",
+          227
+        ],
+        [
+          "2014-02",
+          181
+        ],
+        [
+          "2014-03",
+          288
+        ],
+        [
+          "2014-04",
+          264
+        ],
+        [
+          "2015-01",
+          189
+        ],
+        [
+          "2015-02",
+          203
+        ],
+        [
+          "2015-03",
+          275
+        ],
+        [
+          "2015-04",
+          201
+        ],
+        [
+          "2016-01",
+          177
+        ],
+        [
+          "2016-02",
+          250
+        ],
+        [
+          "2016-03",
+          267
+        ],
+        [
+          "2016-04",
+          228
+        ],
+        [
+          "2017-01",
+          191
+        ],
+        [
+          "2017-02",
+          221
+        ],
+        [
+          "2017-03",
+          261
+        ],
+        [
+          "2017-04",
+          226
+        ]
+      ],
+      "name": "EU seit 2004",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "index": 2,
+      "data": [
+        [
+          "2009-01",
+          326
+        ],
+        [
+          "2009-02",
+          318
+        ],
+        [
+          "2009-03",
+          459
+        ],
+        [
+          "2009-04",
+          325
+        ],
+        [
+          "2010-01",
+          364
+        ],
+        [
+          "2010-02",
+          370
+        ],
+        [
+          "2010-03",
+          329
+        ],
+        [
+          "2010-04",
+          347
+        ],
+        [
+          "2011-01",
+          347
+        ],
+        [
+          "2011-02",
+          380
+        ],
+        [
+          "2011-03",
+          405
+        ],
+        [
+          "2011-04",
+          324
+        ],
+        [
+          "2012-01",
+          356
+        ],
+        [
+          "2012-02",
+          401
+        ],
+        [
+          "2012-03",
+          374
+        ],
+        [
+          "2012-04",
+          354
+        ],
+        [
+          "2013-01",
+          385
+        ],
+        [
+          "2013-02",
+          429
+        ],
+        [
+          "2013-03",
+          405
+        ],
+        [
+          "2013-04",
+          310
+        ],
+        [
+          "2014-01",
+          322
+        ],
+        [
+          "2014-02",
+          325
+        ],
+        [
+          "2014-03",
+          354
+        ],
+        [
+          "2014-04",
+          277
+        ],
+        [
+          "2015-01",
+          389
+        ],
+        [
+          "2015-02",
+          293
+        ],
+        [
+          "2015-03",
+          345
+        ],
+        [
+          "2015-04",
+          234
+        ],
+        [
+          "2016-01",
+          463
+        ],
+        [
+          "2016-02",
+          303
+        ],
+        [
+          "2016-03",
+          331
+        ],
+        [
+          "2016-04",
+          212
+        ],
+        [
+          "2017-01",
+          486
+        ],
+        [
+          "2017-02",
+          430
+        ],
+        [
+          "2017-03",
+          287
+        ],
+        [
+          "2017-04",
+          238
+        ]
+      ],
+      "name": "Drittstaaten",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function () {
+   			 return this.value.split("-").slice(0, -1);
+		}
+    },
+    "tickLength": 0,
+    "tickInterval": 4
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-2464"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Zuwanderung von Erwerbstätigen nach Herkunft"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Kurz- und Daueraufenthalter, Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormatter": function (){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b><br/><b>' 
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}",
+      "formatter": function (){
+        return Highcharts.numberFormat((this.value),0)+''; 
+      }
+    }
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 45,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": 2464
+  }
+}
