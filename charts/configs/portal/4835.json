@@ -4,88 +4,88 @@
       "color": "#689199",
       "data": [
         [
-          "Kleinhüningen",
-          171.10575139
+          "Klybeck",
+          185.90031762
         ],
         [
-          "Klybeck",
-          176.09207038
+          "Kleinhüningen",
+          206.8607831
         ],
         [
           "Rosental",
-          239.41690647
+          254.13869538
         ],
         [
           "Iselin",
-          439.63134635
-        ],
-        [
-          "Clara",
-          465.32129817
+          448.2365746
         ],
         [
           "Matthäus",
-          474.9281424
+          491.56606275
         ],
         [
-          "Breite",
-          475.2415108
-        ],
-        [
-          "Gundeldingen",
-          526.14626172
+          "Clara",
+          508.20508614
         ],
         [
           "St. Johann",
-          550.31399192
+          509.91830365
+        ],
+        [
+          "Breite",
+          512.9425141
+        ],
+        [
+          "Gundeldingen",
+          552.75010831
         ],
         [
           "Hirzbrunnen",
-          725.7829222
-        ],
-        [
-          "Altstadt Kleinbasel",
-          1111.3745342
-        ],
-        [
-          "Bachletten",
-          1893.3535516
-        ],
-        [
-          "Wettstein",
-          1944.5770912
-        ],
-        [
-          "Bettingen",
-          3214.2287066
-        ],
-        [
-          "Riehen",
-          3322.8178059
-        ],
-        [
-          "Am Ring",
-          3489.2898736
+          735.59236151
         ],
         [
           "Gotthelf",
-          3742.5216358
+          962.38892866
         ],
         [
-          "St. Alban",
-          4819.5869632
+          "Altstadt Kleinbasel",
+          1123.5396725
+        ],
+        [
+          "Wettstein",
+          1328.9580318
+        ],
+        [
+          "Bachletten",
+          1877.6147682
+        ],
+        [
+          "Am Ring",
+          2060.938612
+        ],
+        [
+          "Riehen",
+          3075.9103589
         ],
         [
           "Altstadt Grossbasel",
-          5343.1955206
+          5514.6161194
+        ],
+        [
+          "St. Alban",
+          5783.6317751
         ],
         [
           "Vorstädte",
-          9028.2837567
+          6165.9059687
+        ],
+        [
+          "Bettingen",
+          15530.157643
         ],
         [
           "Bruderholz",
-          20903.358745
+          18071.401123
         ]
       ],
       "name": "Vermögenssteuer pro Veranlagung",
@@ -95,11 +95,11 @@
       "visible": false,
       "data": [
         [
-          "Kleinhüningen",
+          "Klybeck",
           1
         ],
         [
-          "Klybeck",
+          "Kleinhüningen",
           2
         ],
         [
@@ -111,23 +111,23 @@
           4
         ],
         [
-          "Clara",
+          "Matthäus",
           5
         ],
         [
-          "Matthäus",
+          "Clara",
           6
         ],
         [
-          "Breite",
+          "St. Johann",
           7
         ],
         [
-          "Gundeldingen",
+          "Breite",
           8
         ],
         [
-          "St. Johann",
+          "Gundeldingen",
           9
         ],
         [
@@ -135,11 +135,11 @@
           10
         ],
         [
-          "Altstadt Kleinbasel",
+          "Gotthelf",
           11
         ],
         [
-          "Bachletten",
+          "Altstadt Kleinbasel",
           12
         ],
         [
@@ -147,19 +147,19 @@
           13
         ],
         [
-          "Bettingen",
+          "Bachletten",
           14
         ],
         [
-          "Riehen",
+          "Am Ring",
           15
         ],
         [
-          "Am Ring",
+          "Riehen",
           16
         ],
         [
-          "Gotthelf",
+          "Altstadt Grossbasel",
           17
         ],
         [
@@ -167,11 +167,11 @@
           18
         ],
         [
-          "Altstadt Grossbasel",
+          "Vorstädte",
           19
         ],
         [
-          "Vorstädte",
+          "Bettingen",
           20
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: Steuerjahr 2014",
+    "text": "Stand: Steuerjahr 2015",
     "align": "left"
   },
   "plotOptions": {
