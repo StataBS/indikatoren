@@ -18,7 +18,6 @@
   },
   "yAxis": {
     "min": 0,
-    "max": 20,
     "tickInterval": 5,
     "labels": {
       "format": "{value:,.0f}%",

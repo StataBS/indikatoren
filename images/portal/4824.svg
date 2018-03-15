@@ -58,27 +58,27 @@
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-scatter-series highcharts-color-undefined " transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)"/>
     <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined " transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="none">
-      <path fill="#923F8D" d="M 291 126 A 4 4 0 1 1 290.9999980000002 125.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#923F8D" d="M 277 110 A 4 4 0 1 1 276.9999980000002 109.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#923F8D" d="M 263 106 A 4 4 0 1 1 262.9999980000002 105.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#923F8D" d="M 249 90 A 4 4 0 1 1 248.99999800000018 89.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#923F8D" d="M 291 124 A 4 4 0 1 1 290.9999980000002 123.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#923F8D" d="M 277 114 A 4 4 0 1 1 276.9999980000002 113.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#923F8D" d="M 263 111 A 4 4 0 1 1 262.9999980000002 110.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#923F8D" d="M 249 97 A 4 4 0 1 1 248.99999800000018 96.99600000066667 Z" class="highcharts-point"/>
       <path fill="#923F8D" d="M 235 89 A 4 4 0 1 1 234.99999800000018 88.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#923F8D" d="M 221 86 A 4 4 0 1 1 220.99999800000018 85.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#923F8D" d="M 207 83 A 4 4 0 1 1 206.99999800000018 82.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#923F8D" d="M 193 81 A 4 4 0 1 1 192.99999800000018 80.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#923F8D" d="M 179 76 A 4 4 0 1 1 178.99999800000018 75.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#923F8D" d="M 165 76 A 4 4 0 1 1 164.99999800000018 75.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#923F8D" d="M 151 74 A 4 4 0 1 1 150.99999800000018 73.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#923F8D" d="M 137 73 A 4 4 0 1 1 136.99999800000018 72.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#923F8D" d="M 123 67 A 4 4 0 1 1 122.99999800000016 66.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#923F8D" d="M 109 66 A 4 4 0 1 1 108.99999800000016 65.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#923F8D" d="M 95 66 A 4 4 0 1 1 94.99999800000016 65.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#923F8D" d="M 81 64 A 4 4 0 1 1 80.99999800000016 63.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#923F8D" d="M 67 56 A 4 4 0 1 1 66.99999800000016 55.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#923F8D" d="M 53 51 A 4 4 0 1 1 52.99999800000017 50.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#923F8D" d="M 39 43 A 4 4 0 1 1 38.99999800000017 42.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#923F8D" d="M 25 33 A 4 4 0 1 1 24.99999800000017 32.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#923F8D" d="M 11 23 A 4 4 0 1 1 10.999998000000167 22.996000000666665 Z" class="highcharts-point"/>
+      <path fill="#923F8D" d="M 221 87 A 4 4 0 1 1 220.99999800000018 86.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#923F8D" d="M 207 82 A 4 4 0 1 1 206.99999800000018 81.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#923F8D" d="M 193 79 A 4 4 0 1 1 192.99999800000018 78.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#923F8D" d="M 179 78 A 4 4 0 1 1 178.99999800000018 77.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#923F8D" d="M 165 72 A 4 4 0 1 1 164.99999800000018 71.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#923F8D" d="M 151 72 A 4 4 0 1 1 150.99999800000018 71.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#923F8D" d="M 137 69 A 4 4 0 1 1 136.99999800000018 68.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#923F8D" d="M 123 66 A 4 4 0 1 1 122.99999800000016 65.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#923F8D" d="M 109 65 A 4 4 0 1 1 108.99999800000016 64.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#923F8D" d="M 95 62 A 4 4 0 1 1 94.99999800000016 61.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#923F8D" d="M 81 60 A 4 4 0 1 1 80.99999800000016 59.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#923F8D" d="M 67 55 A 4 4 0 1 1 66.99999800000016 54.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#923F8D" d="M 53 49 A 4 4 0 1 1 52.99999800000017 48.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#923F8D" d="M 39 30 A 4 4 0 1 1 38.99999800000017 29.996000000666665 Z" class="highcharts-point"/>
+      <path fill="#923F8D" d="M 25 30 A 4 4 0 1 1 24.99999800000017 29.996000000666665 Z" class="highcharts-point"/>
+      <path fill="#923F8D" d="M 11 18 A 4 4 0 1 1 10.999998000000167 17.996000000666665 Z" class="highcharts-point"/>
     </g>
     <g class="highcharts-series highcharts-series-1 highcharts-scatter-series highcharts-color-0 " visibility="hidden" transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)"/>
     <g class="highcharts-markers highcharts-series-1 highcharts-scatter-series highcharts-color-0 " visibility="hidden" transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
@@ -87,7 +87,7 @@
     <tspan>Anteil Personen ohne Religionszugehörigkeit</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
-    <tspan>Stand: 2016</tspan>
+    <tspan>Stand: 2017</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="66" opacity="1">
@@ -100,13 +100,13 @@
       <tspan>Rosental</tspan>
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="108" opacity="1">
-      <tspan>Gundeldingen</tspan>
+      <tspan>Bettingen</tspan>
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="122" opacity="1">
       <tspan>Iselin</tspan>
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="136" opacity="1">
-      <tspan>Bettingen</tspan>
+      <tspan>Gundeldingen</tspan>
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="150" opacity="1">
       <tspan>Matthäus</tspan>
@@ -115,25 +115,25 @@
       <tspan>St. Johann</tspan>
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="178" opacity="1">
-      <tspan>Riehen</tspan>
-    </text>
-    <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="192" opacity="1">
-      <tspan>Bachletten</tspan>
-    </text>
-    <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="206" opacity="1">
-      <tspan>Bruderholz</tspan>
-    </text>
-    <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="220" opacity="1">
       <tspan>Clara</tspan>
     </text>
-    <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="234" opacity="1">
-      <tspan>Hirzbrunnen</tspan>
+    <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="192" opacity="1">
+      <tspan>Riehen</tspan>
     </text>
-    <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="248" opacity="1">
+    <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="206" opacity="1">
+      <tspan>Bachletten</tspan>
+    </text>
+    <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="220" opacity="1">
+      <tspan>Bruderholz</tspan>
+    </text>
+    <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="234" opacity="1">
       <tspan>Breite</tspan>
     </text>
-    <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="262" opacity="1">
+    <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="248" opacity="1">
       <tspan>St. Alban</tspan>
+    </text>
+    <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="262" opacity="1">
+      <tspan>Hirzbrunnen</tspan>
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="276" opacity="1">
       <tspan>Gotthelf</tspan>
