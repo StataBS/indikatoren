@@ -2040,7 +2040,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "",
+		"subtitle": "in m²",
 		"kuerzel": "I.09.1.04140",
 		"kuerzelKunde": "1.3.A",
 		"description": "Mittlere Wohnfläche pro Person",
@@ -2061,7 +2061,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Seither ist ein leichter Rückgang zu verzeichnen.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Alle Berechnungen beziehen sich auf das Jahresende und berücksichtigen rückwirkend wo immer möglich die aktuell gültigen Definitionen gemäss Gesetzgebung zu Registerharmonisierung und Volkszählung. Ab 2012 handelt es sich um kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"template": "line001",
 		"visibleInPortal": true,
 		"orderKey": "02_03_00_00_00_000",
@@ -2069,6 +2069,7 @@ var indikatoren = [
 		"children": [
 			"5815",
 			"6027",
+			"6247",
 			"6362"
 		],
 		"renderLink": [],
@@ -8597,7 +8598,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
-		"subtitle": "Stand: Steuerjahr 2014",
+		"subtitle": "Stand: Steuerjahr 2015",
 		"kuerzel": "I.18.2.04835",
 		"kuerzelKunde": "WA-1.A",
 		"description": "Vermögenssteuer pro Veranlagung",
@@ -8607,7 +8608,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-05T14:15:03.033",
+		"aktualisierungsdatum": "2018-02-20T14:15:03.033",
 		"schlagwort": [
 			"Bevölkerung"
 		],
@@ -8616,7 +8617,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Im Wohnviertel Bruderholz wird der höchste Wert pro Veranlagung verzeichnet, im Wohnviertel Klybeck der niedrigste.",
 		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "dotplot",
 		"visibleInPortal": true,
@@ -11129,7 +11130,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Fläche pro Wohnung",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.09.1.05120",
 		"kuerzelKunde": "RU-4.B",
 		"description": "Fläche pro Wohnung",
@@ -11148,7 +11149,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Im Wohnviertel Klybeck sind die Wohnungen im Durchschnitt am kleinsten, in der Gemeinde Bettingen am grössten.",
 		"erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
 		"template": "map001",
 		"visibleInPortal": true,
@@ -11841,7 +11842,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "",
+		"subtitle": "in m²",
 		"kuerzel": "I.09.1.05815",
 		"kuerzelKunde": "ST 4-7",
 		"description": "Mittlere Wohnfläche pro Person",
@@ -11862,14 +11863,12 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Seither ist ein leichter Rückgang zu verzeichnen.",
-		"erlaeuterungen": "Alle Berechnungen beziehen sich auf das Jahresende und berücksichtigen rückwirkend wo immer möglich die aktuell gültigen Definitionen gemäss Gesetzgebung zu Registerharmonisierung und Volkszählung. Ab 2012 handelt es sich um kantonale Registerauswertungen, frühere Werte wurden auf basis der Volkszahälungen 1980, 1990 und 200 berechnet.",
+		"erlaeuterungen": "Alle Berechnungen beziehen sich auf das Jahresende und berücksichtigen rückwirkend wo immer möglich die aktuell gültigen Definitionen gemäss Gesetzgebung zu Registerharmonisierung und Volkszählung. Ab 2012 handelt es sich um kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"template": "line001",
 		"visibleInPortal": false,
 		"orderKey": "01_01_00_00_00_007",
 		"parentId": 4140,
-		"children": [
-			"6247"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
