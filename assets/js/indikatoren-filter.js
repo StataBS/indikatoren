@@ -49,7 +49,8 @@ $(document).ready(function(){
   }
   
   //dynamically change filterColumns in indikatorenset view only, see http://jsfiddle.net/KyleMit/pgt6tczj/
-  var maxStufe = +window.decodeURIComponent($.url('?stufe')) || 2;
+  var stufeParameter = +window.decodeURIComponent($.url('?stufe')); 
+  var maxStufe = (stufeParameter >= 0 && stufeParameter <= 5 ? stufeParameter : 2);
   if (isIndikatorensetView(view)){
     //change width of columns
     var $myCols = $('#indikatorensetFilterControls');
