@@ -193,7 +193,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "",
+		"subtitle": "in m²",
 		"kuerzel": "I.09.1.05815",
 		"kuerzelKunde": "ST 4-7",
 		"description": "Mittlere Wohnfläche pro Person",
@@ -214,13 +214,11 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Seither ist ein leichter Rückgang zu verzeichnen.",
-		"erlaeuterungen": "Alle Berechnungen beziehen sich auf das Jahresende und berücksichtigen rückwirkend wo immer möglich die aktuell gültigen Definitionen gemäss Gesetzgebung zu Registerharmonisierung und Volkszählung. Ab 2012 handelt es sich um kantonale Registerauswertungen, frühere Werte wurden auf basis der Volkszahälungen 1980, 1990 und 200 berechnet.",
+		"erlaeuterungen": "Alle Berechnungen beziehen sich auf das Jahresende und berücksichtigen rückwirkend wo immer möglich die aktuell gültigen Definitionen gemäss Gesetzgebung zu Registerharmonisierung und Volkszählung. Ab 2012 handelt es sich um kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"template": "line001",
 		"orderKey": "01_01_00_00_00_007",
 		"parentId": 4140,
-		"children": [
-			"6247"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
