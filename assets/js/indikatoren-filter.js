@@ -50,7 +50,7 @@ $(document).ready(function(){
   
   //dynamically change filterColumns in indikatorenset view only, see http://jsfiddle.net/KyleMit/pgt6tczj/
   var maxStufe = +window.decodeURIComponent($.url('?stufe')) || 2;
-  if (view){
+  if (isIndikatorensetView(view)){
     //change width of columns
     var $myCols = $('#indikatorensetFilterControls');
     var visibleCols = maxStufe + 1; //add the search box as a column
@@ -65,6 +65,7 @@ $(document).ready(function(){
       }
     });
   }
+  
   
   //load data
   $.when(    
@@ -280,6 +281,11 @@ function prepareIndikatorensetView(indikatorenset){
   renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'orderKey', baseQuery);
   renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'orderKey', baseQuery);
   renderDropdownFromJson(indikatoren, 'stufe3', '#stufe3_filter', 'orderKey', baseQuery);
+  
+  //pre-populate fields with url parameter values
+  $("#stufe1_filter").val(window.decodeURIComponent($.url('?stufe1')));
+  $("#stufe2_filter").val(window.decodeURIComponent($.url('?stufe2')));
+  $("#stufe3_filter").val(window.decodeURIComponent($.url('?stufe3')));
 }
 
 
