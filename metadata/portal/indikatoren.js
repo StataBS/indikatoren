@@ -5545,7 +5545,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Sesshaftigkeit",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.01.1.04828",
 		"kuerzelKunde": "GS-7.A",
 		"description": "Sesshaftigkeit",
@@ -5555,7 +5555,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
+		"aktualisierungsdatum": "2018-02-20T00:00:00.000",
 		"schlagwort": [
 			"Wohndauer"
 		],
@@ -5564,7 +5564,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Im Wohnviertel Bruderholz ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, am höchsten. Im Rosentalviertel ist er am niedrigsten. Dies liegt vor allem daran, dass sich im neuen Quartierteil Erlenmatt sehr viele Neuzuzüger niederlassen.",
 		"erlaeuterungen": "Anteil der seit mindestens 10 Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "dotplot",
 		"visibleInPortal": true,
@@ -8171,7 +8171,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Sesshaftigkeit",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.01.1.05115",
 		"kuerzelKunde": "GS-7.B",
 		"description": "Sesshaftigkeit",
@@ -8190,7 +8190,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Im Wohnviertel Bruderholz ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, am höchsten. Im Rosentalviertel ist er am niedrigsten. Dies liegt vor allem daran, dass sich im neuen Quartierteil Erlenmatt sehr viele Neuzuzüger niederlassen.",
 		"erlaeuterungen": "Anteil der seit mindestens 10 Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "map001",
 		"visibleInPortal": true,

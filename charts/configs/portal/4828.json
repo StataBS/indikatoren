@@ -5,87 +5,87 @@
       "data": [
         [
           "Rosental",
-          0.208028083
-        ],
-        [
-          "Vorstädte",
-          0.2751891677
+          0.2088444646
         ],
         [
           "Altstadt Kleinbasel",
-          0.2752403846
+          0.2727272727
+        ],
+        [
+          "Vorstädte",
+          0.2783649053
         ],
         [
           "Matthäus",
-          0.2908976773
+          0.2982168735
         ],
         [
           "Am Ring",
-          0.3066890255
-        ],
-        [
-          "Gundeldingen",
-          0.3108945501
+          0.3042553191
         ],
         [
           "Altstadt Grossbasel",
-          0.3153967007
-        ],
-        [
-          "St. Johann",
-          0.3177311014
+          0.3111969112
         ],
         [
           "Clara",
-          0.3233905046
+          0.3148873653
+        ],
+        [
+          "St. Johann",
+          0.3171841542
+        ],
+        [
+          "Gundeldingen",
+          0.3199426112
         ],
         [
           "Iselin",
-          0.3278383887
-        ],
-        [
-          "Klybeck",
-          0.3419883366
-        ],
-        [
-          "Breite",
-          0.3446732319
+          0.3312956259
         ],
         [
           "St. Alban",
-          0.345356094
+          0.3366194659
+        ],
+        [
+          "Klybeck",
+          0.3419710544
+        ],
+        [
+          "Breite",
+          0.3470350404
         ],
         [
           "Kleinhüningen",
-          0.3515381956
-        ],
-        [
-          "Wettstein",
-          0.3549929178
+          0.3516174402
         ],
         [
           "Gotthelf",
-          0.3571741992
+          0.3545955349
+        ],
+        [
+          "Wettstein",
+          0.3638336347
         ],
         [
           "Hirzbrunnen",
-          0.4053087757
-        ],
-        [
-          "Bruderholz",
-          0.4206125109
+          0.3984542722
         ],
         [
           "Bachletten",
-          0.4221253969
+          0.4232589088
         ],
         [
           "Bettingen",
-          0.4260504202
+          0.4265323258
         ],
         [
           "Riehen",
-          0.4324555974
+          0.4280089989
+        ],
+        [
+          "Bruderholz",
+          0.431151974
         ]
       ],
       "name": "Sesshaftigkeit",
@@ -99,11 +99,11 @@
           1
         ],
         [
-          "Vorstädte",
+          "Altstadt Kleinbasel",
           2
         ],
         [
-          "Altstadt Kleinbasel",
+          "Vorstädte",
           3
         ],
         [
@@ -115,11 +115,11 @@
           5
         ],
         [
-          "Gundeldingen",
+          "Altstadt Grossbasel",
           6
         ],
         [
-          "Altstadt Grossbasel",
+          "Clara",
           7
         ],
         [
@@ -127,7 +127,7 @@
           8
         ],
         [
-          "Clara",
+          "Gundeldingen",
           9
         ],
         [
@@ -135,15 +135,15 @@
           10
         ],
         [
-          "Klybeck",
+          "St. Alban",
           11
         ],
         [
-          "Breite",
+          "Klybeck",
           12
         ],
         [
-          "St. Alban",
+          "Breite",
           13
         ],
         [
@@ -151,11 +151,11 @@
           14
         ],
         [
-          "Wettstein",
+          "Gotthelf",
           15
         ],
         [
-          "Gotthelf",
+          "Wettstein",
           16
         ],
         [
@@ -163,19 +163,19 @@
           17
         ],
         [
-          "Bruderholz",
+          "Bachletten",
           18
         ],
         [
-          "Bachletten",
+          "Bettingen",
           19
         ],
         [
-          "Bettingen",
+          "Riehen",
           20
         ],
         [
-          "Riehen",
+          "Bruderholz",
           21
         ]
       ],
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Stand: 2017",
     "align": "left"
   },
   "plotOptions": {
