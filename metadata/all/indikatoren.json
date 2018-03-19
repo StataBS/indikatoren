@@ -2312,7 +2312,7 @@
 	},
 	{
 		"title": "Saldo des Steuerertrages von Zu- und Wegzügern",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt, in Mio. Franken",
 		"kuerzel": "I.18.2.04147",
 		"kuerzelKunde": "2.1.B",
 		"description": "Saldo des Steuerertrages von Zu- und Wegzügern",
@@ -2322,10 +2322,10 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-04-03T14:12:18.1818",
+		"aktualisierungsdatum": "2018-01-10T16:04:02.022",
 		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
+			"Wanderung",
+			"Steuer"
 		],
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.1 Grosszügiger Wohnraum",
@@ -2333,7 +2333,7 @@
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Seit 2009 ist der Saldo des Steuerertrages bei den Zugezogenen höher als bei den Wegzügern. Bei den Weggezogenen wurden die Steuerdaten des jeweiligen Vorjahres verwendet. Zugezogene Ausländer wurden ab Vorliegen einer Niederlassungsbewilligung mitberücksichtigt.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die Analyse der Effekte auf den Ertrag aus Einkommens- und Vermögenssteuer durch Zu- und Abwanderung im Kanton Basel-Stadt wird durch verschiedene methodische Aspekte erschwert. Seit der eidgenössischen Steuerharmonisierung im Jahr 2002 ist für die Steuerpflicht innerhalb der Schweiz der Wohnsitz am 31. Dezember massgebend. Es liegen daher in Basel-Stadt in der Regel keine Daten zur Einkommens- und Vermögenssituation im Jahr des Wegzugs vor. Für die Steuerstatistik der Wegzügerinnen und Wegzüger wurden daher die Steuerdaten des jeweiligen Vorjahres verwendet. Für die Zugezogenen und die ganzjährig Niedergelassenen sind die Steuerdaten des Berichtsjahres vorhanden und wurden für die Analyse verwendet. Bei der Definition der Zuzüger wurde berücksichtigt, dass Ausländer ohne Niederlassungsbewilligung in der Regel an der Quelle veranlagt werden. Aus diesem Grund wurde ein Zuzug erst bei einer Niederlassung als solcher gezählt.",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "03_01_00_00_00_000",

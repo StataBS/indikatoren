@@ -22,7 +22,7 @@
         ],
         [
           2005,
-          -13.2
+          -13.1
         ],
         [
           2006,
@@ -42,7 +42,7 @@
         ],
         [
           2010,
-          7.9
+          10.7
         ],
         [
           2011,
@@ -55,6 +55,10 @@
         [
           2013,
           12.1
+        ],
+        [
+          2014,
+          4.1
         ]
       ],
       "name": "Saldo in Mio. Franken"
@@ -126,7 +130,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt, in Mio. Franken",
     "align": "left"
   },
   "xAxis": {
