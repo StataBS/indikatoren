@@ -70,51 +70,6 @@
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
     <tspan>Basel-Stadt, in Mio. Franken</tspan>
   </text>
-  <g class="highcharts-data-labels highcharts-series-0 highcharts-column-series highcharts-color-undefined " visibility="visible" transform="translate(41,75) scale(1 1)">
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(6,227)">
-      <text x="5" style="font-size:10px;font-weight:bold;color:#000000;fill:#000000;" y="15">
-        <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">-9,7</tspan><tspan x="5" y="15">-9,7</tspan>
-      </text>
-    </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(48,252)">
-      <text x="5" style="font-size:10px;font-weight:bold;color:#000000;fill:#000000;" y="15"/>
-    </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(81,258)">
-      <text x="5" style="font-size:10px;font-weight:bold;color:#000000;fill:#000000;" y="15"/>
-    </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(114,259)">
-      <text x="5" style="font-size:10px;font-weight:bold;color:#000000;fill:#000000;" y="15"/>
-    </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(147,178)">
-      <text x="5" style="font-size:10px;font-weight:bold;color:#000000;fill:#000000;" y="15"/>
-    </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(179,149)">
-      <text x="5" style="font-size:10px;font-weight:bold;color:#000000;fill:#000000;" y="15"/>
-    </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(212,161)">
-      <text x="5" style="font-size:10px;font-weight:bold;color:#000000;fill:#000000;" y="15"/>
-    </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(245,86)">
-      <text x="5" style="font-size:10px;font-weight:bold;color:#000000;fill:#000000;" y="15"/>
-    </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(278,30)">
-      <text x="5" style="font-size:10px;font-weight:bold;color:#000000;fill:#000000;" y="15"/>
-    </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(310,85)">
-      <text x="5" style="font-size:10px;font-weight:bold;color:#000000;fill:#000000;" y="15"/>
-    </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(343,8)">
-      <text x="5" style="font-size:10px;font-weight:bold;color:#000000;fill:#000000;" y="15"/>
-    </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(376,18)">
-      <text x="5" style="font-size:10px;font-weight:bold;color:#000000;fill:#000000;" y="15"/>
-    </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(402,78)">
-      <text x="5" style="font-size:10px;font-weight:bold;color:#000000;fill:#000000;" y="15">
-        <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">4,1</tspan><tspan x="5" y="15">4,1</tspan>
-      </text>
-    </g>
-  </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="61.32326283987591" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="369" opacity="1">
       2002

@@ -1,6 +1,6 @@
 (function(){
     return {
-  "plotOptions": {
+ /* "plotOptions": {
     "series": {
       "dataLabels": {
         "enabled": true,
@@ -15,7 +15,7 @@
           }
       }
     }
-  },
+  },*/
   "yAxis": {
     "min": -15,
     "max": 15,
