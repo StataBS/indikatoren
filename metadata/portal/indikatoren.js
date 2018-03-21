@@ -1539,7 +1539,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Wohnungsangebot?»",
+		"subtitle": "«Wie zufrieden sind sie mit dem Wohnungsangebot?»",
 		"kuerzel": "I.50.1.04127",
 		"kuerzelKunde": "0.1.A",
 		"description": "Zufriedenheit mit dem Wohnungsangebot",
@@ -1758,8 +1758,7 @@ var indikatoren = [
 		"orderKey": "02_01_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"6143",
-			"6297"
+			"6143"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1875,8 +1874,7 @@ var indikatoren = [
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"5816",
-			"6248"
+			"5816"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1985,15 +1983,13 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Leerwohnungsquote erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die Leerwohnungsquote stetig angestiegen und lag 2017 bei 0,5%.",
-		"erlaeuterungen": "LWQ = Leerwohnungsquote",
+		"lesehilfe": "Mit Ausnahme der grössten Wohnungskategorie (5 und mehr Zimmer) erreichten die Leerwohnungsquoten aller Wohnungsgrössen im Jahr 2014 ihren Tiefstwert innerhalb des Beobachtungszeitraums. Die kantonale Leerwohnungsquote lag 2017 bei 0,5%.",
+		"erlaeuterungen": "",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
-		"children": [
-			"5195"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -2184,7 +2180,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2017 etwa 11%.",
+		"lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2017 rund 10%.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"visibleInPortal": true,
@@ -2260,8 +2256,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Eigentumsquote beträgt seit 2015 rund 15,5%.",
-		"erlaeuterungen": "Die Wohneigentumsquote wird als Anteil Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt sind, an den bewohnten Wohnungen berechnet.",
+		"lesehilfe": "Die Eigentumsquote stieg bis ins Jahr 2014 an und blieb anschliessend stabil bei rund 15%.",
+		"erlaeuterungen": "Die Wohneigentumsquote wird als Anteil Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt sind, and den bewohnten Wohnungen berechnet.",
 		"template": "line001",
 		"visibleInPortal": true,
 		"orderKey": "02_06_00_00_00_000",
@@ -2457,8 +2453,7 @@ var indikatoren = [
 		"orderKey": "04_02_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"5819",
-			"6251"
+			"5819"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2528,8 +2523,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist im gesamten Beobachtungszeitraum stark angestiegen.",
+		"erlaeuterungen": "FAMI = Familienmietzinsbeiträge",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "05_01_00_00_00_000",
