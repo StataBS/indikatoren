@@ -48,7 +48,7 @@
   ],
   "chart": {
     "marginBottom": 65,
-    "marginTop": 100,
+    //"marginTop": 100,
     "type": "column"
   }
 	}
