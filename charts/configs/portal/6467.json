@@ -1,0 +1,374 @@
+{
+  "series": [
+    {
+      "color": "#923F8D",
+      "index": 10,
+      "legendIndex": 0,
+      "data": [
+        [
+          "Ausland: 2002-2004",
+          0.287
+        ],
+        [
+          "Ausland: 2005-2007",
+          0.291
+        ],
+        [
+          "Ausland: 2009-2011",
+          0.275
+        ],
+        [
+          "Ausland: 2012-2014",
+          0.284
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Schweiz: 2002-2004",
+          0.142
+        ],
+        [
+          "Schweiz: 2005-2007",
+          0.196
+        ],
+        [
+          "Schweiz: 2009-2011",
+          0.21
+        ],
+        [
+          "Schweiz: 2012-2014",
+          0.227
+        ]
+      ],
+      "name": "1. Quintil",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#E7CEE2",
+      "index": 9,
+      "legendIndex": 1,
+      "data": [
+        [
+          "Ausland: 2002-2004",
+          0.233
+        ],
+        [
+          "Ausland: 2005-2007",
+          0.229
+        ],
+        [
+          "Ausland: 2009-2011",
+          0.192
+        ],
+        [
+          "Ausland: 2012-2014",
+          0.172
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Schweiz: 2002-2004",
+          0.234
+        ],
+        [
+          "Schweiz: 2005-2007",
+          0.236
+        ],
+        [
+          "Schweiz: 2009-2011",
+          0.208
+        ],
+        [
+          "Schweiz: 2012-2014",
+          0.2
+        ]
+      ],
+      "name": "2. Quintil",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#CD9C00",
+      "index": 8,
+      "legendIndex": 2,
+      "data": [
+        [
+          "Ausland: 2002-2004",
+          0.194
+        ],
+        [
+          "Ausland: 2005-2007",
+          0.164
+        ],
+        [
+          "Ausland: 2009-2011",
+          0.171
+        ],
+        [
+          "Ausland: 2012-2014",
+          0.155
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Schweiz: 2002-2004",
+          0.195
+        ],
+        [
+          "Schweiz: 2005-2007",
+          0.192
+        ],
+        [
+          "Schweiz: 2009-2011",
+          0.211
+        ],
+        [
+          "Schweiz: 2012-2014",
+          0.202
+        ]
+      ],
+      "name": "3. Quintil",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "index": 7,
+      "legendIndex": 3,
+      "data": [
+        [
+          "Ausland: 2002-2004",
+          0.134
+        ],
+        [
+          "Ausland: 2005-2007",
+          0.145
+        ],
+        [
+          "Ausland: 2009-2011",
+          0.16
+        ],
+        [
+          "Ausland: 2012-2014",
+          0.151
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Schweiz: 2002-2004",
+          0.2
+        ],
+        [
+          "Schweiz: 2005-2007",
+          0.184
+        ],
+        [
+          "Schweiz: 2009-2011",
+          0.181
+        ],
+        [
+          "Schweiz: 2012-2014",
+          0.187
+        ]
+      ],
+      "name": "4. Quintil",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "index": 6,
+      "legendIndex": 4,
+      "data": [
+        [
+          "Ausland: 2002-2004",
+          0.151
+        ],
+        [
+          "Ausland: 2005-2007",
+          0.171
+        ],
+        [
+          "Ausland: 2009-2011",
+          0.201
+        ],
+        [
+          "Ausland: 2012-2014",
+          0.238
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Schweiz: 2002-2004",
+          0.229
+        ],
+        [
+          "Schweiz: 2005-2007",
+          0.192
+        ],
+        [
+          "Schweiz: 2009-2011",
+          0.189
+        ],
+        [
+          "Schweiz: 2012-2014",
+          0.184
+        ]
+      ],
+      "name": "5. Quintil",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "min": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "renderTo": "container-6467",
+    "type": "column",
+    "inverted": true
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 100,
+      "pointWidth": 20,
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "nach Staatsangehörigkeit, 2002 bis 2014, 3-Jahres-Pooling",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function (){
+        return Highcharts.numberFormat(100 * this.value, 0, ",", " ") + '%';
+      }
+    },
+    "max": 1
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "y": 45,
+    "margin": 3,
+    "symbolPadding": 1,
+    "itemWidth": 70,
+    "align": "left",
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormatter": function (){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
+    }
+  },
+  "exporting": {
+    "filename": 6467
+  }
+}

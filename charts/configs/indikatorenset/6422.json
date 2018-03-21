@@ -1,0 +1,268 @@
+{
+  "series": [
+    {
+      "color": "#661200",
+      "visible": true,
+      "data": [
+        [
+          "Ohne Kaderfunktion",
+          85.2
+        ],
+        [
+          "Unteres Fachkader",
+          95.8
+        ],
+        [
+          "Unteres Kader",
+          93.7
+        ],
+        [
+          "Mittleres Fachkader",
+          88.5
+        ],
+        [
+          "Mittleres Kader",
+          88.1
+        ],
+        [
+          "Oberes Kader",
+          90.7
+        ]
+      ],
+      "name": "Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#dc440e",
+      "visible": true,
+      "data": [
+        [
+          "Ohne Kaderfunktion",
+          31.9
+        ],
+        [
+          "Unteres Fachkader",
+          61.9
+        ],
+        [
+          "Unteres Kader",
+          55.1
+        ],
+        [
+          "Mittleres Fachkader",
+          38.5
+        ],
+        [
+          "Mittleres Kader",
+          55
+        ],
+        [
+          "Oberes Kader",
+          61.3
+        ]
+      ],
+      "name": "Schweizer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#7f5f1a",
+      "visible": true,
+      "data": [
+        [
+          "Ohne Kaderfunktion",
+          53.3
+        ],
+        [
+          "Unteres Fachkader",
+          33.9
+        ],
+        [
+          "Unteres Kader",
+          38.6
+        ],
+        [
+          "Mittleres Fachkader",
+          50
+        ],
+        [
+          "Mittleres Kader",
+          33.2
+        ],
+        [
+          "Oberes Kader",
+          29.3
+        ]
+      ],
+      "name": "Schweizerinnen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffda80",
+      "visible": true,
+      "data": [
+        [
+          "Ohne Kaderfunktion",
+          14.8
+        ],
+        [
+          "Unteres Fachkader",
+          4.2
+        ],
+        [
+          "Unteres Kader",
+          6.3
+        ],
+        [
+          "Mittleres Fachkader",
+          11.5
+        ],
+        [
+          "Mittleres Kader",
+          11.9
+        ],
+        [
+          "Oberes Kader",
+          9.3
+        ]
+      ],
+      "name": "Ausland",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": -45
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-6422"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0,
+      "itemWidth": 10
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anteil Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit, Geschlecht und Kaderstufe"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Schweiz\u002FAusland, Stand: 2016",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EFinanzdepartement Basel-Stadt, Zentraler Personaldienst"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "y": 55,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 6422
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "series": [
+    {
+      "color": "#cd9c00",
+      "index": 0,
+      "marker": {
+        "enabled": false
+      },
+      "legendIndex": 1,
+      "data": [
+        [
+          "1997",
+          51883
+        ],
+        [
+          "1998",
+          51784
+        ],
+        [
+          "1999",
+          52281
+        ],
+        [
+          "2000",
+          51847
+        ],
+        [
+          "2001",
+          52524
+        ],
+        [
+          "2002",
+          54286
+        ],
+        [
+          "2003",
+          55353
+        ],
+        [
+          "2004",
+          56419
+        ],
+        [
+          "2005",
+          57040
+        ],
+        [
+          "2006",
+          58342
+        ],
+        [
+          "2007",
+          58673
+        ],
+        [
+          "2008",
+          60046
+        ],
+        [
+          "2009",
+          61677
+        ],
+        [
+          "2010",
+          62132
+        ],
+        [
+          "2011",
+          64095
+        ],
+        [
+          "2012",
+          65527
+        ],
+        [
+          "2013",
+          67552
+        ],
+        [
+          "2014",
+          68779
+        ],
+        [
+          "2015",
+          69587
+        ],
+        [
+          "2016",
+          70808
+        ]
+      ],
+      "name": "Ausländer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "index": 1,
+      "marker": {
+        "enabled": false
+      },
+      "legendIndex": 0,
+      "data": [
+        [
+          "1997",
+          142385
+        ],
+        [
+          "1998",
+          140408
+        ],
+        [
+          "1999",
+          137966
+        ],
+        [
+          "2000",
+          136304
+        ],
+        [
+          "2001",
+          134912
+        ],
+        [
+          "2002",
+          133799
+        ],
+        [
+          "2003",
+          132726
+        ],
+        [
+          "2004",
+          132059
+        ],
+        [
+          "2005",
+          130423
+        ],
+        [
+          "2006",
+          129026
+        ],
+        [
+          "2007",
+          129011
+        ],
+        [
+          "2008",
+          129228
+        ],
+        [
+          "2009",
+          128368
+        ],
+        [
+          "2010",
+          128201
+        ],
+        [
+          "2011",
+          127981
+        ],
+        [
+          "2012",
+          127932
+        ],
+        [
+          "2013",
+          127907
+        ],
+        [
+          "2014",
+          127692
+        ],
+        [
+          "2015",
+          127617
+        ],
+        [
+          "2016",
+          127398
+        ]
+      ],
+      "name": "Schweizer",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "area",
+    "renderTo": "container-6058"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Bevölkerung nach Staatsangehörigkeit"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": true,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 40,
+    "itemWidth": 100,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "area": {
+      "stacking": "normal",
+      "lineWidth": 0
+    }
+  },
+  "exporting": {
+    "filename": 6058
+  }
+}

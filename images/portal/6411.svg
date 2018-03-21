@@ -1,0 +1,142 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+  <desc>
+    Created with Highstock 5.0.14
+  </desc>
+  <defs>
+    <clipPath>
+      <rect x="0" y="0" width="248" height="304" fill="none"/>
+    </clipPath>
+    <clipPath id="a">
+      <rect x="0" y="0" width="248" height="304" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="485" height="415" rx="0" ry="0"/>
+  <rect fill="none" class="highcharts-plot-background" x="171" y="92" width="304" height="248"/>
+  <g class="highcharts-pane-group"/>
+  <g class="highcharts-grid highcharts-xaxis-grid ">
+    <path fill="none" class="highcharts-grid-line" d="M 171 123.5 L 475 123.5" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 171 154.5 L 475 154.5" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 171 185.5 L 475 185.5" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 171 216.5 L 475 216.5" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 171 247.5 L 475 247.5" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 171 278.5 L 475 278.5" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 171 309.5 L 475 309.5" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 171 340.5 L 475 340.5" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 171 92.5 L 475 92.5" opacity="1"/>
+  </g>
+  <g class="highcharts-grid highcharts-yaxis-grid ">
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 170.75 92 L 170.75 340" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 231.75 92 L 231.75 340" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 292.75 92 L 292.75 340" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 352.75 92 L 352.75 340" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 413.75 92 L 413.75 340" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 475.25 92 L 475.25 340" opacity="1"/>
+  </g>
+  <rect fill="none" class="highcharts-plot-border" x="171" y="92" width="304" height="248"/>
+  <g class="highcharts-axis highcharts-xaxis ">
+    <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width="0.5" d="M 170.75 92 L 170.75 340"/>
+  </g>
+  <g class="highcharts-axis highcharts-yaxis ">
+    <path fill="none" class="highcharts-axis-line" d="M 171 340 L 475 340"/>
+  </g>
+  <g class="highcharts-series-group">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(475,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
+      <rect x="228" y="0" width="10" height="249" fill="#FABD24" class="highcharts-point"/>
+      <rect x="197" y="0" width="10" height="210" fill="#FABD24" class="highcharts-point"/>
+      <rect x="166" y="0" width="10" height="176" fill="#FABD24" class="highcharts-point"/>
+      <rect x="135" y="0" width="10" height="167" fill="#FABD24" class="highcharts-point"/>
+      <rect x="104" y="0" width="10" height="155" fill="#FABD24" class="highcharts-point"/>
+      <rect x="73" y="0" width="10" height="139" fill="#FABD24" class="highcharts-point"/>
+      <rect x="42" y="0" width="10" height="126" fill="#FABD24" class="highcharts-point"/>
+      <rect x="11" y="0" width="10" height="123" fill="#FABD24" class="highcharts-point"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(475,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(475,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
+      <rect x="228" y="249" width="10" height="56" fill="#B00000" class="highcharts-point"/>
+      <rect x="197" y="210" width="10" height="95" fill="#B00000" class="highcharts-point"/>
+      <rect x="166" y="176" width="10" height="129" fill="#B00000" class="highcharts-point"/>
+      <rect x="135" y="167" width="10" height="138" fill="#B00000" class="highcharts-point"/>
+      <rect x="104" y="155" width="10" height="150" fill="#B00000" class="highcharts-point"/>
+      <rect x="73" y="139" width="10" height="166" fill="#B00000" class="highcharts-point"/>
+      <rect x="42" y="126" width="10" height="179" fill="#B00000" class="highcharts-point"/>
+      <rect x="11" y="123" width="10" height="182" fill="#B00000" class="highcharts-point"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(475,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
+  </g>
+  <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
+    <tspan>Anteil Arbeitslose in ausgewählten Berufsgruppen</tspan>
+  </text>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+    <tspan>nach Staatsangehörigkeit, Stand: 2016</tspan>
+  </text>
+  <g class="highcharts-legend" transform="translate(163,55)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="226" height="25" visibility="visible"/>
+    <g>
+      <g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(8,3)">
+          <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
+            <tspan>Schweiz</tspan>
+          </text>
+          <rect x="2" y="4" width="12" height="12" fill="#B00000" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(123,3)">
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>Ausland</tspan>
+          </text>
+          <rect x="2" y="4" width="12" height="12" fill="#FABD24" class="highcharts-point"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="highcharts-axis-labels highcharts-xaxis-labels ">
+    <text x="156" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="112" opacity="1">
+      <tspan>Bau- und Ausbaugewerbe</tspan>
+    </text>
+    <text x="156" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="143" opacity="1">
+      <tspan>Gastgewerbe, pers. DL</tspan>
+    </text>
+    <text x="156" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="174" opacity="1">
+      <tspan>Technische Berufe, Informatik</tspan>
+    </text>
+    <text x="156" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="205" opacity="1">
+      <tspan>Industrie und Gewerbe</tspan>
+    </text>
+    <text x="156" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="236" opacity="1">
+      <tspan>Land- und Forstwirtschaft</tspan>
+    </text>
+    <text x="156" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="267" opacity="1">
+      <tspan>Handels- und Verkehrsberufe</tspan>
+    </text>
+    <text x="156" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="298" opacity="1">
+      <tspan>Gesundheit, Lehre, Kultur</tspan>
+    </text>
+    <text x="156" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="329" opacity="1">
+      <tspan>Banken, Versicherungen o.ä.</tspan>
+    </text>
+  </g>
+  <g class="highcharts-axis-labels highcharts-yaxis-labels ">
+    <text x="171" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="359" opacity="1">
+      <tspan>0%</tspan>
+    </text>
+    <text x="231.8" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="359" opacity="1">
+      <tspan>20%</tspan>
+    </text>
+    <text x="292.6" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="359" opacity="1">
+      <tspan>40%</tspan>
+    </text>
+    <text x="353.4" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="359" opacity="1">
+      <tspan>60%</tspan>
+    </text>
+    <text x="414.2" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="359" opacity="1">
+      <tspan>80%</tspan>
+    </text>
+    <text x="460.953125" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="359" opacity="1">
+      <tspan>100%</tspan>
+    </text>
+  </g>
+  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">
+    <tspan>Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik</tspan>
+  </text>
+</svg>

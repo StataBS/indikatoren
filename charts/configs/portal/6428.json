@@ -1,0 +1,301 @@
+{
+  "series": [
+    {
+      "color": "#7f5f1a",
+      "data": [
+        [
+          "0-4",
+          -18.76010782
+        ],
+        [
+          "5-9",
+          -18.21705426
+        ],
+        [
+          "10-14",
+          -21.80634662
+        ],
+        [
+          "15-19",
+          -27.04296546
+        ],
+        [
+          "20-24",
+          -17.33247423
+        ],
+        [
+          "25-29",
+          -9.347553325
+        ],
+        [
+          "30-34",
+          -8.691522204
+        ],
+        [
+          "35-39",
+          -8.672861568
+        ],
+        [
+          "40-44",
+          -9.968032549
+        ],
+        [
+          "45-49",
+          -10.65658302
+        ],
+        [
+          "50-54",
+          -10.0038625
+        ],
+        [
+          "55-59",
+          -13.124035
+        ],
+        [
+          "60-64",
+          -9.471516815
+        ],
+        [
+          "65-69",
+          -0.550314465
+        ]
+      ],
+      "name": "Männer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffda80",
+      "data": [
+        [
+          "0-4",
+          16.45997745
+        ],
+        [
+          "5-9",
+          19.05080214
+        ],
+        [
+          "10-14",
+          21.08540925
+        ],
+        [
+          "15-19",
+          19.05642923
+        ],
+        [
+          "20-24",
+          13.53904282
+        ],
+        [
+          "25-29",
+          9.02189781
+        ],
+        [
+          "30-34",
+          8.179048512
+        ],
+        [
+          "35-39",
+          9.174782163
+        ],
+        [
+          "40-44",
+          10.65923254
+        ],
+        [
+          "45-49",
+          10.60056429
+        ],
+        [
+          "50-54",
+          9.002770083
+        ],
+        [
+          "55-59",
+          10.25815217
+        ],
+        [
+          "60-64",
+          3.904170364
+        ],
+        [
+          "65-69",
+          1.02258202
+        ]
+      ],
+      "name": "Frauen",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": [
+    {
+      "reversed": false,
+      "type": "category",
+      "labels": {
+        "step": 1,
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickLength": 0,
+      "title": {
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickColor": "#FFFFFF"
+    },
+    {
+      "type": "category",
+      "visible": false,
+      "opposite": true,
+      "reversed": false,
+      "linkedTo": 0
+    }
+  ],
+  "chart": {
+    "type": "bar",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+                    this.credits.element.onclick = function() {};
+                    
+                    //create symmetric xAxes
+                    var fn = this.options.customFunctions;
+                    fn.createSymmetricAxis(this.yAxis[0]);
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                          }
+                        }
+                      );
+                    }
+                }
+    },
+    "renderTo": "container-6428"
+  },
+  "plotOptions": {
+    "bar": {
+      "grouping": false
+    },
+    "series": {
+      "stacking": null,
+      "pointPadding": 0,
+      "borderWidth": 0.2,
+      "groupPadding": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Pyramide der Sozialhilfequote der Ausländer"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "nach Geschlecht, Stand: 2016",
+    "align": "left"
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "step": 1,
+        "formatter": function () {
+                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
+            	},
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "plotLines": [
+        {
+          "value": 0,
+          "color": "white",
+          "width": 1,
+          "zIndex": 4
+        }
+      ],
+      "events": {
+        "afterSetExtremes": function (args){
+            	    this.chart.options.customFunctions.createSymmetricAxis(this);
+                }
+      }
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "center",
+    "x": 10,
+    "y": 45,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormatter": function () {
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y),1, ",", " ") + '%</b><br/>';
+            }
+  },
+  "customFunctions": {
+    "createSymmetricAxis": function (axis){
+                var absMax = Math.max(Math.abs(axis.min), Math.abs(axis.max));
+                axis.setExtremes(-absMax, absMax);
+        	}
+  },
+  "exporting": {
+    "filename": 6428
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "series": [
+    {
+      "color": "#246370",
+      "visible": true,
+      "data": [
+        [
+          "Schweiz",
+          69.93916983
+        ],
+        [
+          "Deutschland",
+          62.9695909
+        ],
+        [
+          "Italien",
+          58.69795222
+        ],
+        [
+          "Türkei",
+          51.16049383
+        ],
+        [
+          "EU-17 + EFTA",
+          61.44411078
+        ],
+        [
+          "EU-Ost",
+          52.99325236
+        ],
+        [
+          "Balkan",
+          49.03116147
+        ],
+        [
+          "Mittel- und Südamerika",
+          58.375
+        ],
+        [
+          "Arabische Länder",
+          49.60365854
+        ],
+        [
+          "Afrikanische Länder",
+          46.74193548
+        ],
+        [
+          "Übrige Länder",
+          60.97945205
+        ]
+      ],
+      "name": "Einpersonenhaushalt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "visible": true,
+      "data": [
+        [
+          "Schweiz",
+          27.59977652
+        ],
+        [
+          "Deutschland",
+          29.07274712
+        ],
+        [
+          "Italien",
+          23.2288197
+        ],
+        [
+          "Türkei",
+          19.31703424
+        ],
+        [
+          "EU-17 + EFTA",
+          25.57100258
+        ],
+        [
+          "EU-Ost",
+          21.34290844
+        ],
+        [
+          "Balkan",
+          19.01353659
+        ],
+        [
+          "Mittel- und Südamerika",
+          23.07010135
+        ],
+        [
+          "Arabische Länder",
+          19.19524793
+        ],
+        [
+          "Afrikanische Länder",
+          18.82535461
+        ],
+        [
+          "Übrige Länder",
+          25.08126294
+        ]
+      ],
+      "name": "Vierpersonenhaushalt",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 50,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-6478"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0,
+      "itemWidth": 10
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Mittlere Wohnfläche pro Person"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in m² nach Staatsangehörigkeit, Stand: 2016",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "y": 55,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 6478
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "series": [
+    {
+      "name": "Anzahl",
+      "data": [
+        [
+          "Schweizer ohne Migrationshintergrund",
+          78605
+        ],
+        [
+          "Schweizer mit Migrationshintergrund",
+          26850
+        ],
+        [
+          "Ausländer der ersten Generation",
+          49062
+        ],
+        [
+          "Ausländer der zweiten und höheren Generation",
+          4609
+        ]
+      ],
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                  this.credits.element.onclick = function() {};
+              }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "pie",
+    "renderTo": "container-6481"
+  },
+  "plotOptions": {
+    "pie": {
+      "borderWidth": 0,
+      "allowPointSelect": true,
+      "cursor": true,
+      "showInLegend": true,
+      "dataLabels": {
+        "enabled": true,
+        "format": "{point.percentage:.1f}%",
+        "distance": 10,
+        "style": {
+          "color": "black",
+          "textOutline": "0px black",
+          "fontWeight": "normal",
+          "fontSize": "12px"
+        }
+      },
+      "colors": [
+        "#B00000",
+        "#FF8028",
+        "#FABD24",
+        "#E6E600"
+      ]
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anteil Personen mit und ohne Migrationshintergrund"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "nach Staatsangehörigkeit, gepoolte Daten von 2011 bis 2015",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} ({point.percentage:,.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+  },
+  "legend": {
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "useHTML": true,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "symbolRadius": 0,
+    "y": 55,
+    "enabled": true,
+    "itemWidth": 1000
+  },
+  "exporting": {
+    "filename": 6481
+  }
+}

@@ -1,0 +1,516 @@
+{
+  "series": [
+    {
+      "color": "#71a3b5",
+      "index": 6,
+      "legendIndex": 0,
+      "data": [
+        [
+          "Schweiz",
+          27.3
+        ],
+        [
+          "Deutschland",
+          19.6
+        ],
+        [
+          "Italien",
+          0.4
+        ],
+        [
+          "Türkei",
+          0.1
+        ],
+        [
+          "EU-17 + EFTA",
+          2.6
+        ],
+        [
+          "EU-Ost",
+          2.9
+        ],
+        [
+          "Balkan",
+          0.1
+        ],
+        [
+          "Mittel- und Südamerika",
+          3.2
+        ],
+        [
+          "Arabische Länder",
+          0.7
+        ],
+        [
+          "Afrikanische Länder",
+          8.4
+        ],
+        [
+          "Übrige Länder",
+          1.3
+        ]
+      ],
+      "name": "Evangelisch-reformiert",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#672773",
+      "index": 5,
+      "legendIndex": 1,
+      "data": [
+        [
+          "Schweiz",
+          19.2
+        ],
+        [
+          "Deutschland",
+          20.7
+        ],
+        [
+          "Italien",
+          24.6
+        ],
+        [
+          "Türkei",
+          0
+        ],
+        [
+          "EU-17 + EFTA",
+          17.6
+        ],
+        [
+          "EU-Ost",
+          28.3
+        ],
+        [
+          "Balkan",
+          6.9
+        ],
+        [
+          "Mittel- und Südamerika",
+          29.8
+        ],
+        [
+          "Arabische Länder",
+          0.4
+        ],
+        [
+          "Afrikanische Länder",
+          18
+        ],
+        [
+          "Übrige Länder",
+          7.2
+        ]
+      ],
+      "name": "Römisch-katholisch",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "index": 4,
+      "legendIndex": 2,
+      "data": [
+        [
+          "Schweiz",
+          0.4
+        ],
+        [
+          "Deutschland",
+          0.1
+        ],
+        [
+          "Italien",
+          0.1
+        ],
+        [
+          "Türkei",
+          0
+        ],
+        [
+          "EU-17 + EFTA",
+          0.2
+        ],
+        [
+          "EU-Ost",
+          0.3
+        ],
+        [
+          "Balkan",
+          0.1
+        ],
+        [
+          "Mittel- und Südamerika",
+          0
+        ],
+        [
+          "Arabische Länder",
+          0
+        ],
+        [
+          "Afrikanische Länder",
+          0.4
+        ],
+        [
+          "Übrige Länder",
+          0.3
+        ]
+      ],
+      "name": "Christkatholisch",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73ba7c",
+      "index": 3,
+      "legendIndex": 3,
+      "data": [
+        [
+          "Schweiz",
+          0.7
+        ],
+        [
+          "Deutschland",
+          0.5
+        ],
+        [
+          "Italien",
+          0
+        ],
+        [
+          "Türkei",
+          0
+        ],
+        [
+          "EU-17 + EFTA",
+          0.4
+        ],
+        [
+          "EU-Ost",
+          0.4
+        ],
+        [
+          "Balkan",
+          0
+        ],
+        [
+          "Mittel- und Südamerika",
+          0.4
+        ],
+        [
+          "Arabische Länder",
+          0.1
+        ],
+        [
+          "Afrikanische Länder",
+          0
+        ],
+        [
+          "Übrige Länder",
+          1.3
+        ]
+      ],
+      "name": "Israelitisch",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#E7CEE2",
+      "index": 2,
+      "legendIndex": 4,
+      "data": [
+        [
+          "Schweiz",
+          7.3
+        ],
+        [
+          "Deutschland",
+          6.2
+        ],
+        [
+          "Italien",
+          2.8
+        ],
+        [
+          "Türkei",
+          94.2
+        ],
+        [
+          "EU-17 + EFTA",
+          7.7
+        ],
+        [
+          "EU-Ost",
+          15
+        ],
+        [
+          "Balkan",
+          75.4
+        ],
+        [
+          "Mittel- und Südamerika",
+          3.4
+        ],
+        [
+          "Arabische Länder",
+          88.9
+        ],
+        [
+          "Afrikanische Länder",
+          35.2
+        ],
+        [
+          "Übrige Länder",
+          52.3
+        ]
+      ],
+      "name": "Andere",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fabd24",
+      "index": 1,
+      "legendIndex": 5,
+      "data": [
+        [
+          "Schweiz",
+          41.1
+        ],
+        [
+          "Deutschland",
+          48.8
+        ],
+        [
+          "Italien",
+          68.2
+        ],
+        [
+          "Türkei",
+          4.2
+        ],
+        [
+          "EU-17 + EFTA",
+          66.3
+        ],
+        [
+          "EU-Ost",
+          50.6
+        ],
+        [
+          "Balkan",
+          11.7
+        ],
+        [
+          "Mittel- und Südamerika",
+          61.2
+        ],
+        [
+          "Arabische Länder",
+          7.7
+        ],
+        [
+          "Afrikanische Länder",
+          33.8
+        ],
+        [
+          "Übrige Länder",
+          34.6
+        ]
+      ],
+      "name": "Keine Zugehörigkeit",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#999999",
+      "index": 0,
+      "legendIndex": 6,
+      "data": [
+        [
+          "Schweiz",
+          4
+        ],
+        [
+          "Deutschland",
+          4.1
+        ],
+        [
+          "Italien",
+          3.9
+        ],
+        [
+          "Türkei",
+          1.5
+        ],
+        [
+          "EU-17 + EFTA",
+          5.1
+        ],
+        [
+          "EU-Ost",
+          2.5
+        ],
+        [
+          "Balkan",
+          5.8
+        ],
+        [
+          "Mittel- und Südamerika",
+          2
+        ],
+        [
+          "Arabische Länder",
+          2.2
+        ],
+        [
+          "Afrikanische Länder",
+          4.2
+        ],
+        [
+          "Übrige Länder",
+          3.1
+        ]
+      ],
+      "name": "Unbekannt",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "min": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "renderTo": "container-6494",
+    "marginBottom": 120,
+    "type": "column",
+    "inverted": false
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 100,
+      "pointWidth": 20,
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anerkannte Religionen nach Staatsangehörigkeit"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Ländergruppen, Stand: 2016",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "max": 100
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemWidth": 145,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "y": 30,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 6494
+  }
+}
