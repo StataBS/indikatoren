@@ -616,7 +616,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-24T12:49:29.2929",
+		"aktualisierungsdatum": "2018-01-18T12:49:29.2929",
 		"schlagwort": [
 			"Gebäude",
 			"Haushalt"
@@ -626,7 +626,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2016 rund 10%.",
+		"lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2017 rund 10%.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"orderKey": "02_04_00_00_00_000",
@@ -690,7 +690,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-24T13:50:12.1212",
+		"aktualisierungsdatum": "2018-01-18T13:50:12.1212",
 		"schlagwort": [
 			"Gebäude",
 			"Haushalt"

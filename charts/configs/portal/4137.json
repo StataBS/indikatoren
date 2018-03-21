@@ -223,7 +223,6 @@
           }
     },
     "marginBottom": 65,
-    "marginTop": 100,
     "type": "column",
     "renderTo": "container-4137"
   },
