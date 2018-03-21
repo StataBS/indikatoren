@@ -1,0 +1,218 @@
+{
+  "series": [
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": true
+      },
+      "color": "#cd9c00",
+      "data": [
+        [
+          1997,
+          26.707
+        ],
+        [
+          1998,
+          26.944
+        ],
+        [
+          1999,
+          27.481
+        ],
+        [
+          2000,
+          27.556
+        ],
+        [
+          2001,
+          28.022
+        ],
+        [
+          2002,
+          28.862
+        ],
+        [
+          2003,
+          29.431
+        ],
+        [
+          2004,
+          29.934
+        ],
+        [
+          2005,
+          30.427
+        ],
+        [
+          2006,
+          31.138
+        ],
+        [
+          2007,
+          31.262
+        ],
+        [
+          2008,
+          31.724
+        ],
+        [
+          2009,
+          32.454
+        ],
+        [
+          2010,
+          32.644
+        ],
+        [
+          2011,
+          33.37
+        ],
+        [
+          2012,
+          33.871
+        ],
+        [
+          2013,
+          34.561
+        ],
+        [
+          2014,
+          35.007
+        ],
+        [
+          2015,
+          35.287
+        ],
+        [
+          2016,
+          35.724
+        ]
+      ],
+      "name": "Ausländeranteil in %"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6057"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Ausländeranteil"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+  },
+  "legend": {
+    "enabled": false,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "enabled": true,
+        "allowOverlap": true,
+        "y": 40,
+        "formatter": function () {
+            var last = this.series.data[this.series.data.length - 1];
+            var first = this.series.data[0];
+            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
+              return Highcharts.numberFormat(this.point.y, 1, ",", " ");
+            }
+            return "";
+          }
+      }
+    }
+  },
+  "exporting": {
+    "filename": 6057
+  }
+}

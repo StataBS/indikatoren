@@ -1,0 +1,165 @@
+{
+  "series": [
+    {
+      "name": "Anzahl",
+      "data": [
+        [
+          "Polen",
+          829
+        ],
+        [
+          "Ungarn",
+          802
+        ],
+        [
+          "Slowakei",
+          575
+        ],
+        [
+          "Rumänien",
+          535
+        ],
+        [
+          "Bulgarien",
+          279
+        ],
+        [
+          "Tschechien",
+          243
+        ],
+        [
+          "Slowenien",
+          206
+        ],
+        [
+          "Litauen",
+          100
+        ],
+        [
+          "Lettland",
+          82
+        ],
+        [
+          "Estland",
+          32
+        ]
+      ],
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                  this.credits.element.onclick = function() {};
+              }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "pie",
+    "renderTo": "container-6401"
+  },
+  "plotOptions": {
+    "pie": {
+      "borderWidth": 0,
+      "allowPointSelect": true,
+      "cursor": true,
+      "showInLegend": true,
+      "dataLabels": {
+        "enabled": true,
+        "format": "{point.percentage:.1f}%",
+        "distance": 20,
+        "style": {
+          "color": "black",
+          "textOutline": "0px black",
+          "fontWeight": "normal",
+          "fontSize": "12px"
+        }
+      },
+      "colors": [
+        "#B00000",
+        "#FF8028",
+        "#FABD24",
+        "#E6E600",
+        "#8AB77D",
+        "#68AB2B",
+        "#007A2F",
+        "#A8C3CA",
+        "#008AC3",
+        "#3C3C3C",
+        "#923F8D"
+      ]
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anteil Ausländer der Ländergruppe EU-Ost"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "nach einzelnen Staatsangehörigkeiten, Stand: 2016",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} ({point.percentage:,.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+  },
+  "legend": {
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
+    "useHTML": true,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "symbolRadius": 0,
+    "style": {
+      "fontSize": "12px"
+    }
+  },
+  "exporting": {
+    "filename": 6401
+  }
+}

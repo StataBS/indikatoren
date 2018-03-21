@@ -1,0 +1,343 @@
+{
+  "series": [
+    {
+      "index": 0,
+      "color": "#661200",
+      "tooltip": {
+        "pointFormatter": function (){
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b><br/>';
+        }
+      },
+      "data": [
+        [
+          "1990",
+          86.61
+        ],
+        [
+          "2000",
+          83.11
+        ],
+        [
+          "2011-2015",
+          79.96
+        ]
+      ],
+      "name": "Schweizer",
+      "turboThreshold": 0
+    },
+    {
+      "index": 1,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function (){
+          return this.series.name + ': <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b><br/>';
+        }
+      },
+      "data": [
+        {
+          "name": "1990",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2000",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2011-2015",
+          "low": 78.93,
+          "high": 80.99
+        }
+      ],
+      "name": "95 Vertrauensintervall",
+      "turboThreshold": 0
+    },
+    {
+      "index": 2,
+      "color": "#dc440e",
+      "tooltip": {
+        "pointFormatter": function (){
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b><br/>';
+        }
+      },
+      "data": [
+        [
+          "1990",
+          61.12
+        ],
+        [
+          "2000",
+          70.88
+        ],
+        [
+          "2011-2015",
+          75.72
+        ]
+      ],
+      "name": "Schweizerinnen",
+      "turboThreshold": 0
+    },
+    {
+      "index": 3,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function (){
+          return this.series.name + ': <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b><br/>';
+        }
+      },
+      "data": [
+        {
+          "name": "1990",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2000",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2011-2015",
+          "low": 74.68,
+          "high": 76.76
+        }
+      ],
+      "name": "95 Vertrauensintervall",
+      "turboThreshold": 0
+    },
+    {
+      "index": 4,
+      "color": "#7f5f1a",
+      "tooltip": {
+        "pointFormatter": function (){
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b><br/>';
+        }
+      },
+      "data": [
+        [
+          "1990",
+          89.05
+        ],
+        [
+          "2000",
+          83.75
+        ],
+        [
+          "2011-2015",
+          84.93
+        ]
+      ],
+      "name": "Ausländer",
+      "turboThreshold": 0
+    },
+    {
+      "index": 5,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function (){
+          return this.series.name + ': <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b><br/>';
+        }
+      },
+      "data": [
+        {
+          "name": "1990",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2000",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2011-2015",
+          "low": 83.42,
+          "high": 86.44
+        }
+      ],
+      "name": "95 Vertrauensintervall",
+      "turboThreshold": 0
+    },
+    {
+      "index": 6,
+      "color": "#ffda80",
+      "tooltip": {
+        "pointFormatter": function (){
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b><br/>';
+        }
+      },
+      "data": [
+        [
+          "1990",
+          65.49
+        ],
+        [
+          "2000",
+          72.86
+        ],
+        [
+          "2011-2015",
+          71.61
+        ]
+      ],
+      "name": "Ausländerinnen",
+      "turboThreshold": 0
+    },
+    {
+      "index": 7,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function (){
+          return this.series.name + ': <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b><br/>';
+        }
+      },
+      "data": [
+        {
+          "name": "1990",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2000",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2011-2015",
+          "low": 70.1,
+          "high": 73.12
+        }
+      ],
+      "name": "95 Vertrauensintervall",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "marginBottom": 65,
+    "marginTop": 75,
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-6418"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Erwerbsquote nach Staatsangehörigkeit und Geschlecht"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Schweiz\u002FAusland, gepoolte Daten, 2011 bis 2015",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function (){
+            return Highcharts.numberFormat((this.value),0)+'%';                
+        }
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": false
+  },
+  "exporting": {
+    "filename": 6418
+  }
+}

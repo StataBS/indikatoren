@@ -47,7 +47,6 @@
     <path fill="none" class="highcharts-axis-line" d="M 74 41 L 74 349"/>
   </g>
   <g class="highcharts-series-group">
-<<<<<<< HEAD
     <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(74,58) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 3.9313725490228 110.45748899999998 L 34.172699849173 116.743089 L 64.414027149324 37.081838999999974 L 94.655354449474 115.96946549999998 L 124.89668174962 96.89848949999998 L 155.13800904977 87.3318645 L 185.37933634992 102.52424699999997 L 215.62066365008 51.29515199999997 L 245.86199095023 104.83304099999998 L 276.10331825038 102.38340299999999 L 306.34464555053 99.89331599999997 L 336.58597285068 96.56398499999997 L 366.82730015083 107.05337099999997 L 397.06862745098 95.28838649999997" class="highcharts-graph" stroke="#B375AB" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
@@ -66,39 +65,14 @@
       <path fill="#B375AB" d="M 340 97 A 4 4 0 1 1 339.9999980000002 96.99600000066667 Z" class="highcharts-point"/>
       <path fill="#B375AB" d="M 370 107 A 4 4 0 1 1 369.9999980000002 106.99600000066667 Z" class="highcharts-point"/>
       <path fill="#B375AB" d="M 401 95 A 4 4 0 1 1 400.9999980000002 94.99600000066667 Z" class="highcharts-point"/>
-=======
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(74,41) scale(1 1)" clip-path="url(#a)">
-      <path fill="none" d="M 3.9313725490228 116.91033199999998 L 34.172699849173 123.563132 L 64.414027149324 39.248132 L 94.655354449474 122.744314 L 124.89668174962 102.559226 L 155.13800904977 92.43372600000001 L 185.37933634992 108.51363599999999 L 215.62066365008 54.291776 L 245.86199095023 110.95730799999998 L 276.10331825038 108.364564 L 306.34464555053 105.729008 L 336.58597285068 102.20517999999998 L 366.82730015083 113.30734799999999 L 397.06862745098 100.855062" class="highcharts-graph" stroke="#B375AB" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-    </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(74,41) scale(1 1)" clip-path="none">
-      <path fill="#B375AB" d="M 7 117 A 4 4 0 1 1 6.999998000000167 116.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#B375AB" d="M 38 124 A 4 4 0 1 1 37.99999800000017 123.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#B375AB" d="M 68 39 A 4 4 0 1 1 67.99999800000016 38.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#B375AB" d="M 98 123 A 4 4 0 1 1 97.99999800000016 122.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#B375AB" d="M 128 103 A 4 4 0 1 1 127.99999800000016 102.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#B375AB" d="M 159 92 A 4 4 0 1 1 158.99999800000018 91.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#B375AB" d="M 189 109 A 4 4 0 1 1 188.99999800000018 108.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#B375AB" d="M 219 54 A 4 4 0 1 1 218.99999800000018 53.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#B375AB" d="M 249 111 A 4 4 0 1 1 248.99999800000018 110.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#B375AB" d="M 280 108 A 4 4 0 1 1 279.9999980000002 107.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#B375AB" d="M 310 106 A 4 4 0 1 1 309.9999980000002 105.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#B375AB" d="M 340 102 A 4 4 0 1 1 339.9999980000002 101.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#B375AB" d="M 370 113 A 4 4 0 1 1 369.9999980000002 112.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#B375AB" d="M 401 101 A 4 4 0 1 1 400.9999980000002 100.99600000066667 Z" class="highcharts-point"/>
->>>>>>> master
     </g>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Anzahl Besucher und Besucherinnen in Basler Museen</tspan>
   </text>
-<<<<<<< HEAD
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="57"/>
   <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series " visibility="visible" transform="translate(74,58) scale(1 1)">
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-5,87)">
-=======
-  <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined " visibility="visible" transform="translate(74,41) scale(1 1)">
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-5,94)">
->>>>>>> master
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16">
         <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">1 240 842</tspan><tspan x="5" y="16">1 240 842</tspan>
       </text>

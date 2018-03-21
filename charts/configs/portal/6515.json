@@ -1,0 +1,206 @@
+{
+  "series": [
+    {
+      "name": "Anteil",
+      "data": [
+        [
+          "Schweiz",
+          20.06
+        ],
+        [
+          "Deutschland",
+          7.52
+        ],
+        [
+          "Italien",
+          60
+        ],
+        [
+          "Türkei",
+          85.71
+        ],
+        [
+          "EU-17 & EFTA",
+          53.85
+        ],
+        [
+          "EU-Ost",
+          58.62
+        ],
+        [
+          "Balkan",
+          81.63
+        ],
+        [
+          "Mittel- & Südamerika",
+          90
+        ],
+        [
+          "Arabische Länder",
+          86.67
+        ],
+        [
+          "Afrikanische Länder",
+          78.79
+        ],
+        [
+          "Übrige Länder",
+          72.55
+        ]
+      ],
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 40,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-6515"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "column": {
+      "colorByPoint": true
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": " nach Staatsangehörigkeit, Stand: 2016",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bevölkerungsdienste und Migration Basel-Stadt;\u003Cbr\u002F\u003EZentrale Informatikdienste Basel-Stadt ZID"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 35,
+    "y": 35,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "colors": [
+    "#b00000",
+    "#672773",
+    "#007a2f",
+    "#fabd24",
+    "#b475ab",
+    "#71a3b5",
+    "#b9cfd7",
+    "#ff8028",
+    "#73ba7c",
+    "#9f7c5a",
+    "#999999"
+  ],
+  "tooltip": {
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E{series.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 6515
+  }
+}
