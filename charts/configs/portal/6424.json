@@ -1,0 +1,462 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "index": 10,
+      "legendIndex": 0,
+      "data": [
+        [
+          "Oberes Kader",
+          182
+        ],
+        [
+          "Mittleres Kader",
+          218
+        ],
+        [
+          "Mittleres Fachkader",
+          136
+        ],
+        [
+          "Unteres Kader",
+          389
+        ],
+        [
+          "Unteres Fachkader",
+          133
+        ]
+      ],
+      "name": "Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#672773",
+      "index": 9,
+      "legendIndex": 1,
+      "data": [
+        [
+          "Oberes Kader",
+          9
+        ],
+        [
+          "Mittleres Kader",
+          20
+        ],
+        [
+          "Mittleres Fachkader",
+          12
+        ],
+        [
+          "Unteres Kader",
+          38
+        ],
+        [
+          "Unteres Fachkader",
+          10
+        ]
+      ],
+      "name": "Deutschland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007a2f",
+      "index": 8,
+      "legendIndex": 2,
+      "data": [
+        [
+          "Oberes Kader",
+          0
+        ],
+        [
+          "Mittleres Kader",
+          0
+        ],
+        [
+          "Mittleres Fachkader",
+          1
+        ],
+        [
+          "Unteres Kader",
+          2
+        ],
+        [
+          "Unteres Fachkader",
+          1
+        ]
+      ],
+      "name": "Italien",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fabd24",
+      "index": 7,
+      "legendIndex": 3,
+      "data": [
+        [
+          "Oberes Kader",
+          0
+        ],
+        [
+          "Mittleres Kader",
+          0
+        ],
+        [
+          "Mittleres Fachkader",
+          0
+        ],
+        [
+          "Unteres Kader",
+          0
+        ],
+        [
+          "Unteres Fachkader",
+          0
+        ]
+      ],
+      "name": "Türkei",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b475ab",
+      "index": 6,
+      "legendIndex": 4,
+      "data": [
+        [
+          "Oberes Kader",
+          1
+        ],
+        [
+          "Mittleres Kader",
+          8
+        ],
+        [
+          "Mittleres Fachkader",
+          2
+        ],
+        [
+          "Unteres Kader",
+          10
+        ],
+        [
+          "Unteres Fachkader",
+          3
+        ]
+      ],
+      "name": "EU-17 + EFTA",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#71a3b5",
+      "index": 5,
+      "legendIndex": 5,
+      "data": [
+        [
+          "Oberes Kader",
+          0
+        ],
+        [
+          "Mittleres Kader",
+          0
+        ],
+        [
+          "Mittleres Fachkader",
+          1
+        ],
+        [
+          "Unteres Kader",
+          0
+        ],
+        [
+          "Unteres Fachkader",
+          0
+        ]
+      ],
+      "name": "EU-Ost",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b9cfd7",
+      "index": 4,
+      "legendIndex": 6,
+      "data": [
+        [
+          "Oberes Kader",
+          0
+        ],
+        [
+          "Mittleres Kader",
+          0
+        ],
+        [
+          "Mittleres Fachkader",
+          0
+        ],
+        [
+          "Unteres Kader",
+          0
+        ],
+        [
+          "Unteres Fachkader",
+          1
+        ]
+      ],
+      "name": "Balkan",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "index": 3,
+      "legendIndex": 7,
+      "data": [
+        [
+          "Oberes Kader",
+          0
+        ],
+        [
+          "Mittleres Kader",
+          0
+        ],
+        [
+          "Mittleres Fachkader",
+          0
+        ],
+        [
+          "Unteres Kader",
+          1
+        ],
+        [
+          "Unteres Fachkader",
+          0
+        ]
+      ],
+      "name": "Mittel- und Südamerika",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73ba7c",
+      "index": 2,
+      "legendIndex": 8,
+      "data": [
+        [
+          "Oberes Kader",
+          0
+        ],
+        [
+          "Mittleres Kader",
+          0
+        ],
+        [
+          "Mittleres Fachkader",
+          0
+        ],
+        [
+          "Unteres Kader",
+          0
+        ],
+        [
+          "Unteres Fachkader",
+          0
+        ]
+      ],
+      "name": "Arab. Länder",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9f7c5a",
+      "index": 1,
+      "legendIndex": 9,
+      "data": [
+        [
+          "Oberes Kader",
+          0
+        ],
+        [
+          "Mittleres Kader",
+          0
+        ],
+        [
+          "Mittleres Fachkader",
+          0
+        ],
+        [
+          "Unteres Kader",
+          0
+        ],
+        [
+          "Unteres Fachkader",
+          0
+        ]
+      ],
+      "name": "Afrikan. Länder",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#999999",
+      "index": 0,
+      "legendIndex": 10,
+      "data": [
+        [
+          "Oberes Kader",
+          0
+        ],
+        [
+          "Mittleres Kader",
+          0
+        ],
+        [
+          "Mittleres Fachkader",
+          0
+        ],
+        [
+          "Unteres Kader",
+          0
+        ],
+        [
+          "Unteres Fachkader",
+          0
+        ]
+      ],
+      "name": "Übrige Länder",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "min": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "renderTo": "container-6424",
+    "marginBottom": 75,
+    "type": "column",
+    "inverted": true
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 100,
+      "pointWidth": 20,
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anzahl Angestellte in der kantonalen Verwaltung"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "nach Staatsangehörigkeit und Kaderstufe, Stand: 2009",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickAmount": 6
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EFinanzdepartement Basel-Stadt, Zentraler Personaldienst"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": 6424
+  }
+}

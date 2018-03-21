@@ -1,0 +1,678 @@
+{
+  "series": [
+    {
+      "color": "#246370",
+      "index": 9,
+      "legendIndex": 0,
+      "data": [
+        [
+          "1997",
+          33215
+        ],
+        [
+          "1998",
+          33235
+        ],
+        [
+          "1999",
+          33801
+        ],
+        [
+          "2000",
+          35400
+        ],
+        [
+          "2001",
+          36554
+        ],
+        [
+          "2002",
+          37118
+        ],
+        [
+          "2003",
+          37121
+        ],
+        [
+          "2004",
+          37122
+        ],
+        [
+          "2005",
+          36874
+        ],
+        [
+          "2006",
+          36596
+        ],
+        [
+          "2007",
+          35821
+        ],
+        [
+          "2008",
+          35595
+        ],
+        [
+          "2009",
+          35876
+        ],
+        [
+          "2010",
+          36421
+        ],
+        [
+          "2011",
+          37378
+        ],
+        [
+          "2012",
+          38470
+        ],
+        [
+          "2013",
+          39659
+        ],
+        [
+          "2014",
+          39952
+        ],
+        [
+          "2015",
+          40481
+        ],
+        [
+          "2016",
+          41416
+        ]
+      ],
+      "name": "C",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923F8D",
+      "index": 8,
+      "legendIndex": 1,
+      "data": [
+        [
+          "1997",
+          15813
+        ],
+        [
+          "1998",
+          15495
+        ],
+        [
+          "1999",
+          15370
+        ],
+        [
+          "2000",
+          14027
+        ],
+        [
+          "2001",
+          13494
+        ],
+        [
+          "2002",
+          14467
+        ],
+        [
+          "2003",
+          15204
+        ],
+        [
+          "2004",
+          15811
+        ],
+        [
+          "2005",
+          16117
+        ],
+        [
+          "2006",
+          16520
+        ],
+        [
+          "2007",
+          18142
+        ],
+        [
+          "2008",
+          19619
+        ],
+        [
+          "2009",
+          20532
+        ],
+        [
+          "2010",
+          21838
+        ],
+        [
+          "2011",
+          22527
+        ],
+        [
+          "2012",
+          22447
+        ],
+        [
+          "2013",
+          22818
+        ],
+        [
+          "2014",
+          23844
+        ],
+        [
+          "2015",
+          24490
+        ],
+        [
+          "2016",
+          25049
+        ]
+      ],
+      "name": "B",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#7F5F1A",
+      "index": 7,
+      "legendIndex": 2,
+      "data": [
+        [
+          "1997",
+          626
+        ],
+        [
+          "1998",
+          467
+        ],
+        [
+          "1999",
+          503
+        ],
+        [
+          "2000",
+          568
+        ],
+        [
+          "2001",
+          462
+        ],
+        [
+          "2002",
+          459
+        ],
+        [
+          "2003",
+          414
+        ],
+        [
+          "2004",
+          414
+        ],
+        [
+          "2005",
+          433
+        ],
+        [
+          "2006",
+          418
+        ],
+        [
+          "2007",
+          348
+        ],
+        [
+          "2008",
+          302
+        ],
+        [
+          "2009",
+          293
+        ],
+        [
+          "2010",
+          327
+        ],
+        [
+          "2011",
+          348
+        ],
+        [
+          "2012",
+          364
+        ],
+        [
+          "2013",
+          391
+        ],
+        [
+          "2014",
+          568
+        ],
+        [
+          "2015",
+          659
+        ],
+        [
+          "2016",
+          734
+        ]
+      ],
+      "name": "F",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#CD9C00",
+      "index": 6,
+      "legendIndex": 3,
+      "data": [
+        [
+          "1997",
+          685
+        ],
+        [
+          "1998",
+          674
+        ],
+        [
+          "1999",
+          644
+        ],
+        [
+          "2000",
+          685
+        ],
+        [
+          "2001",
+          864
+        ],
+        [
+          "2002",
+          1026
+        ],
+        [
+          "2003",
+          1510
+        ],
+        [
+          "2004",
+          2078
+        ],
+        [
+          "2005",
+          2806
+        ],
+        [
+          "2006",
+          4022
+        ],
+        [
+          "2007",
+          3599
+        ],
+        [
+          "2008",
+          3545
+        ],
+        [
+          "2009",
+          3851
+        ],
+        [
+          "2010",
+          2434
+        ],
+        [
+          "2011",
+          2564
+        ],
+        [
+          "2012",
+          2753
+        ],
+        [
+          "2013",
+          3153
+        ],
+        [
+          "2014",
+          2984
+        ],
+        [
+          "2015",
+          2445
+        ],
+        [
+          "2016",
+          2007
+        ]
+      ],
+      "name": "L",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "index": 5,
+      "legendIndex": 4,
+      "data": [
+        [
+          "1997",
+          902
+        ],
+        [
+          "1998",
+          1290
+        ],
+        [
+          "1999",
+          1359
+        ],
+        [
+          "2000",
+          562
+        ],
+        [
+          "2001",
+          483
+        ],
+        [
+          "2002",
+          508
+        ],
+        [
+          "2003",
+          490
+        ],
+        [
+          "2004",
+          386
+        ],
+        [
+          "2005",
+          258
+        ],
+        [
+          "2006",
+          204
+        ],
+        [
+          "2007",
+          175
+        ],
+        [
+          "2008",
+          262
+        ],
+        [
+          "2009",
+          295
+        ],
+        [
+          "2010",
+          281
+        ],
+        [
+          "2011",
+          388
+        ],
+        [
+          "2012",
+          517
+        ],
+        [
+          "2013",
+          534
+        ],
+        [
+          "2014",
+          356
+        ],
+        [
+          "2015",
+          425
+        ],
+        [
+          "2016",
+          448
+        ]
+      ],
+      "name": "N",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "index": 4,
+      "legendIndex": 5,
+      "data": [
+        [
+          "1997",
+          642
+        ],
+        [
+          "1998",
+          623
+        ],
+        [
+          "1999",
+          604
+        ],
+        [
+          "2000",
+          605
+        ],
+        [
+          "2001",
+          667
+        ],
+        [
+          "2002",
+          708
+        ],
+        [
+          "2003",
+          614
+        ],
+        [
+          "2004",
+          608
+        ],
+        [
+          "2005",
+          552
+        ],
+        [
+          "2006",
+          582
+        ],
+        [
+          "2007",
+          588
+        ],
+        [
+          "2008",
+          723
+        ],
+        [
+          "2009",
+          830
+        ],
+        [
+          "2010",
+          831
+        ],
+        [
+          "2011",
+          890
+        ],
+        [
+          "2012",
+          976
+        ],
+        [
+          "2013",
+          997
+        ],
+        [
+          "2014",
+          1075
+        ],
+        [
+          "2015",
+          1087
+        ],
+        [
+          "2016",
+          1154
+        ]
+      ],
+      "name": "Übrige",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "min": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "renderTo": "container-6071",
+    "marginBottom": 75,
+    "type": "column",
+    "inverted": false
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 100,
+      "pointWidth": 10,
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anzahl Ausländer nach Art der Bewilligung"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemWidth": 50,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "y": 30,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 6071
+  }
+}

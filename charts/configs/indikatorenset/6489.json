@@ -1,0 +1,199 @@
+{
+  "series": [
+    {
+      "color": "#661200",
+      "data": [
+        [
+          "10 bis 14 Jahre",
+          9.9
+        ],
+        [
+          "15 bis 17 Jahre",
+          34.9
+        ]
+      ],
+      "name": "Schweizer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#dc440e",
+      "data": [
+        [
+          "10 bis 14 Jahre",
+          4.4
+        ],
+        [
+          "15 bis 17 Jahre",
+          9.2
+        ]
+      ],
+      "name": "Schweizerinnen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#7f5f1a",
+      "data": [
+        [
+          "10 bis 14 Jahre",
+          10.4
+        ],
+        [
+          "15 bis 17 Jahre",
+          39.5
+        ]
+      ],
+      "name": "Ausländer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffda80",
+      "data": [
+        [
+          "10 bis 14 Jahre",
+          8.6
+        ],
+        [
+          "15 bis 17 Jahre",
+          15.7
+        ]
+      ],
+      "name": "Ausländerinnen",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-6489"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Beschuldigte Jugendliche pro 1000 Jugendliche nach Staatsangehörigkeit, Geschlecht und Alter"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Schweiz\u002FAusland, Jugendliche im Alter zwischen 10 und 17 Jahren",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}"
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "y": 70,
+    "itemWidth": 100,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 6489
+  }
+}

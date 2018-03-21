@@ -1,0 +1,164 @@
+{
+  "series": [
+    {
+      "name": "Anzahl",
+      "data": [
+        [
+          "Deutschland",
+          16066
+        ],
+        [
+          "Italien",
+          8436
+        ],
+        [
+          "Türkei",
+          6312
+        ],
+        [
+          "EU-17 + EFTA",
+          15272
+        ],
+        [
+          "EU-Ost",
+          3683
+        ],
+        [
+          "Balkan",
+          8293
+        ],
+        [
+          "Mittel- und Südamerika",
+          1717
+        ],
+        [
+          "Arabische Länder",
+          1416
+        ],
+        [
+          "Afrikanische Länder",
+          1691
+        ],
+        [
+          "Übrige Länder",
+          7922
+        ]
+      ],
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                  this.credits.element.onclick = function() {};
+              }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "pie",
+    "renderTo": "container-6060"
+  },
+  "plotOptions": {
+    "pie": {
+      "borderWidth": 0,
+      "allowPointSelect": true,
+      "cursor": true,
+      "showInLegend": true,
+      "dataLabels": {
+        "enabled": true,
+        "format": "{point.percentage:.1f}%",
+        "distance": 1,
+        "style": {
+          "color": "black",
+          "textOutline": "0px black",
+          "fontWeight": "normal",
+          "fontSize": "12px"
+        }
+      },
+      "colors": [
+        "#672773",
+        "#007a2f ",
+        "#fabd24",
+        "#b475ab",
+        "#71a3b5",
+        "#b9cfd7",
+        "#ff8028 ",
+        "#73ba7c",
+        "#9f7c5a",
+        "#999999"
+      ]
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Ausländer nach Staatsangehörigkeit"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Stand: 2016",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} ({point.percentage:,.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+  },
+  "legend": {
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
+    "useHTML": true,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "symbolRadius": 0,
+    "style": {
+      "fontSize": "12px"
+    }
+  },
+  "exporting": {
+    "filename": 6060
+  }
+}

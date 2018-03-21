@@ -1,0 +1,585 @@
+{
+  "series": [
+    {
+      "color": "#672773",
+      "data": [
+        [
+          2006,
+          4.2
+        ],
+        [
+          2007,
+          5.4
+        ],
+        [
+          2008,
+          9.3
+        ],
+        [
+          2009,
+          11.4
+        ],
+        [
+          2010,
+          10.6
+        ],
+        [
+          2011,
+          10.4
+        ],
+        [
+          2012,
+          9.9
+        ],
+        [
+          2013,
+          12.6
+        ],
+        [
+          2014,
+          14.8
+        ],
+        [
+          2015,
+          17.3
+        ]
+      ],
+      "name": "Deutschland"
+    },
+    {
+      "color": "#007a2f",
+      "data": [
+        [
+          2006,
+          11.7
+        ],
+        [
+          2007,
+          10.8
+        ],
+        [
+          2008,
+          13.1
+        ],
+        [
+          2009,
+          7.3
+        ],
+        [
+          2010,
+          5.4
+        ],
+        [
+          2011,
+          8.3
+        ],
+        [
+          2012,
+          8.8
+        ],
+        [
+          2013,
+          7.3
+        ],
+        [
+          2014,
+          11.2
+        ],
+        [
+          2015,
+          11.7
+        ]
+      ],
+      "name": "Italien"
+    },
+    {
+      "color": "#fabd24",
+      "data": [
+        [
+          2006,
+          34.3
+        ],
+        [
+          2007,
+          64.3
+        ],
+        [
+          2008,
+          58.3
+        ],
+        [
+          2009,
+          40.3
+        ],
+        [
+          2010,
+          23.2
+        ],
+        [
+          2011,
+          19
+        ],
+        [
+          2012,
+          23.3
+        ],
+        [
+          2013,
+          27.1
+        ],
+        [
+          2014,
+          16.2
+        ],
+        [
+          2015,
+          24.7
+        ]
+      ],
+      "name": "Türkei"
+    },
+    {
+      "color": "#b475ab",
+      "data": [
+        [
+          2006,
+          6.6
+        ],
+        [
+          2007,
+          8.2
+        ],
+        [
+          2008,
+          7.2
+        ],
+        [
+          2009,
+          4.9
+        ],
+        [
+          2010,
+          6.1
+        ],
+        [
+          2011,
+          5.2
+        ],
+        [
+          2012,
+          6.3
+        ],
+        [
+          2013,
+          8.7
+        ],
+        [
+          2014,
+          7.2
+        ],
+        [
+          2015,
+          11
+        ]
+      ],
+      "name": "EU-17 & EFTA"
+    },
+    {
+      "color": "#71a3b5",
+      "data": [
+        [
+          2006,
+          15.9
+        ],
+        [
+          2007,
+          22.1
+        ],
+        [
+          2008,
+          18.3
+        ],
+        [
+          2009,
+          8.5
+        ],
+        [
+          2010,
+          5.6
+        ],
+        [
+          2011,
+          12.2
+        ],
+        [
+          2012,
+          6.6
+        ],
+        [
+          2013,
+          6.1
+        ],
+        [
+          2014,
+          6.9
+        ],
+        [
+          2015,
+          7
+        ]
+      ],
+      "name": "EU-Ost"
+    },
+    {
+      "color": "#b9cfd7",
+      "data": [
+        [
+          2006,
+          34
+        ],
+        [
+          2007,
+          90.1
+        ],
+        [
+          2008,
+          76.5
+        ],
+        [
+          2009,
+          45.1
+        ],
+        [
+          2010,
+          29.2
+        ],
+        [
+          2011,
+          20.8
+        ],
+        [
+          2012,
+          19.2
+        ],
+        [
+          2013,
+          30.2
+        ],
+        [
+          2014,
+          25.1
+        ],
+        [
+          2015,
+          27.8
+        ]
+      ],
+      "name": "Balkan"
+    },
+    {
+      "color": "#ff8028",
+      "data": [
+        [
+          2006,
+          27.7
+        ],
+        [
+          2007,
+          44.2
+        ],
+        [
+          2008,
+          26.9
+        ],
+        [
+          2009,
+          17.4
+        ],
+        [
+          2010,
+          18.3
+        ],
+        [
+          2011,
+          23.8
+        ],
+        [
+          2012,
+          21.5
+        ],
+        [
+          2013,
+          23.8
+        ],
+        [
+          2014,
+          25.8
+        ],
+        [
+          2015,
+          25
+        ]
+      ],
+      "name": "Mittel- & Südamerika"
+    },
+    {
+      "color": "#73ba7c",
+      "data": [
+        [
+          2006,
+          23.2
+        ],
+        [
+          2007,
+          19.3
+        ],
+        [
+          2008,
+          41.8
+        ],
+        [
+          2009,
+          30.4
+        ],
+        [
+          2010,
+          14.5
+        ],
+        [
+          2011,
+          23.8
+        ],
+        [
+          2012,
+          32.6
+        ],
+        [
+          2013,
+          34
+        ],
+        [
+          2014,
+          30.2
+        ],
+        [
+          2015,
+          25.5
+        ]
+      ],
+      "name": "Arabische Länder"
+    },
+    {
+      "color": "#9f7c5a",
+      "data": [
+        [
+          2006,
+          49.6
+        ],
+        [
+          2007,
+          50
+        ],
+        [
+          2008,
+          26.7
+        ],
+        [
+          2009,
+          14.7
+        ],
+        [
+          2010,
+          19.7
+        ],
+        [
+          2011,
+          22.4
+        ],
+        [
+          2012,
+          21.8
+        ],
+        [
+          2013,
+          20.8
+        ],
+        [
+          2014,
+          14.9
+        ],
+        [
+          2015,
+          17.1
+        ]
+      ],
+      "name": "Afrikanische Länder"
+    },
+    {
+      "color": "#999999",
+      "data": [
+        [
+          2006,
+          31.1
+        ],
+        [
+          2007,
+          47.6
+        ],
+        [
+          2008,
+          39.9
+        ],
+        [
+          2009,
+          21.2
+        ],
+        [
+          2010,
+          16.1
+        ],
+        [
+          2011,
+          16.8
+        ],
+        [
+          2012,
+          17
+        ],
+        [
+          2013,
+          13.9
+        ],
+        [
+          2014,
+          14.2
+        ],
+        [
+          2015,
+          15.2
+        ]
+      ],
+      "name": "Übrige Länder"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6479"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E%\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "\u002F\u002FtickInterval": 5
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 35,
+    "itemWidth": 140,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": 6479
+  }
+}
