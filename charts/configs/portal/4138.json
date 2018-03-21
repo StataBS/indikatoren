@@ -290,6 +290,67 @@
       "data": [
         [
           2006,
+          1471
+        ],
+        [
+          2007,
+          1468
+        ],
+        [
+          2008,
+          1294
+        ],
+        [
+          2009,
+          969
+        ],
+        [
+          2010,
+          783
+        ],
+        [
+          2011,
+          522
+        ],
+        [
+          2012,
+          500
+        ],
+        [
+          2013,
+          361
+        ],
+        [
+          2014,
+          245
+        ],
+        [
+          2015,
+          361
+        ],
+        [
+          2016,
+          452
+        ],
+        [
+          2017,
+          546
+        ]
+      ],
+      "name": "Anzahl leere Wohnungen"
+    },
+    {
+      "color": "#ffbb58",
+      "index": 6,
+      "type": "line",
+      "yAxis": 1,
+      "marker": {
+        "enabled": false
+      },
+      "visible": false,
+      "data": [
+        [
+          2006,
           1.405933402148
         ],
         [
@@ -340,8 +401,8 @@
       "name": "LWQ alle Wohnungen (rechte Skala)"
     },
     {
-      "color": "#ffbb58",
-      "index": 6,
+      "color": "#73b97c",
+      "index": 7,
       "type": "line",
       "yAxis": 1,
       "marker": {
@@ -401,8 +462,8 @@
       "name": "LWQ 1-Zimmer"
     },
     {
-      "color": "#73b97c",
-      "index": 7,
+      "color": "#007a2f",
+      "index": 8,
       "type": "line",
       "yAxis": 1,
       "marker": {
@@ -462,14 +523,13 @@
       "name": "LWQ 2-Zimmer"
     },
     {
-      "color": "#007a2f",
-      "index": 8,
+      "color": "#689199",
+      "index": 9,
       "type": "line",
       "yAxis": 1,
       "marker": {
         "enabled": false
       },
-      "visible": false,
       "data": [
         [
           2006,
@@ -523,13 +583,14 @@
       "name": "LWQ 3-Zimmer"
     },
     {
-      "color": "#689199",
-      "index": 9,
+      "color": "#923f8d",
+      "index": 10,
       "type": "line",
       "yAxis": 1,
       "marker": {
         "enabled": false
       },
+      "visible": false,
       "data": [
         [
           2006,
@@ -581,67 +642,6 @@
         ]
       ],
       "name": "LWQ 4-Zimmer"
-    },
-    {
-      "color": "#923f8d",
-      "index": 10,
-      "type": "line",
-      "yAxis": 1,
-      "marker": {
-        "enabled": false
-      },
-      "visible": false,
-      "data": [
-        [
-          2006,
-          0.740996036532
-        ],
-        [
-          2007,
-          0.870976005464
-        ],
-        [
-          2008,
-          0.722604777692
-        ],
-        [
-          2009,
-          0.45828736315
-        ],
-        [
-          2010,
-          0.305421226775
-        ],
-        [
-          2011,
-          0.422190323397
-        ],
-        [
-          2012,
-          0.286557100716
-        ],
-        [
-          2013,
-          0.176352032247
-        ],
-        [
-          2014,
-          0.218391701115
-        ],
-        [
-          2015,
-          0.304188440839
-        ],
-        [
-          2016,
-          0.342732512852
-        ],
-        [
-          2017,
-          0.217729393468
-        ]
-      ],
-      "name": "LWQ 5+-Zimmer"
     }
   ],
   "chart": {
