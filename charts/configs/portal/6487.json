@@ -1,0 +1,336 @@
+{
+  "series": [
+    {
+      "color": "#b00000",
+      "data": [
+        [
+          2011,
+          12.6
+        ],
+        [
+          2012,
+          17.2
+        ],
+        [
+          2013,
+          18.2
+        ],
+        [
+          2014,
+          16.6
+        ],
+        [
+          2015,
+          14.7
+        ],
+        [
+          2016,
+          13.5
+        ]
+      ],
+      "name": "Schweiz"
+    },
+    {
+      "color": "#672773",
+      "data": [
+        [
+          2011,
+          7
+        ],
+        [
+          2012,
+          8.6
+        ],
+        [
+          2013,
+          12.2
+        ],
+        [
+          2014,
+          13.7
+        ],
+        [
+          2015,
+          10.7
+        ],
+        [
+          2016,
+          8.5
+        ]
+      ],
+      "name": "Deutschland"
+    },
+    {
+      "color": "#007a2f",
+      "data": [
+        [
+          2011,
+          9.1
+        ],
+        [
+          2012,
+          18.2
+        ],
+        [
+          2013,
+          11.2
+        ],
+        [
+          2014,
+          19.5
+        ],
+        [
+          2015,
+          22.2
+        ],
+        [
+          2016,
+          17.4
+        ]
+      ],
+      "name": "Italien"
+    },
+    {
+      "color": "#fabd24",
+      "data": [
+        [
+          2011,
+          21.5
+        ],
+        [
+          2012,
+          38.3
+        ],
+        [
+          2013,
+          22.1
+        ],
+        [
+          2014,
+          22
+        ],
+        [
+          2015,
+          19.9
+        ],
+        [
+          2016,
+          18.3
+        ]
+      ],
+      "name": "Türkei"
+    },
+    {
+      "color": "#b475ab",
+      "data": [
+        [
+          2011,
+          24.4
+        ],
+        [
+          2012,
+          13.6
+        ],
+        [
+          2013,
+          23
+        ],
+        [
+          2014,
+          20.1
+        ],
+        [
+          2015,
+          11.9
+        ],
+        [
+          2016,
+          12.7
+        ]
+      ],
+      "name": "EU-17 + EFTA"
+    },
+    {
+      "color": "#b9cfd7",
+      "data": [
+        [
+          2011,
+          22.2
+        ],
+        [
+          2012,
+          32.6
+        ],
+        [
+          2013,
+          30.1
+        ],
+        [
+          2014,
+          12
+        ],
+        [
+          2015,
+          21.2
+        ],
+        [
+          2016,
+          24.9
+        ]
+      ],
+      "name": "Balkan"
+    },
+    {
+      "color": "#999999",
+      "data": [
+        [
+          2011,
+          38.1
+        ],
+        [
+          2012,
+          34.5
+        ],
+        [
+          2013,
+          35.3
+        ],
+        [
+          2014,
+          30.1
+        ],
+        [
+          2015,
+          19.9
+        ],
+        [
+          2016,
+          15.8
+        ]
+      ],
+      "name": "Übrige Länder"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6487"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Beschuldigte Jugendliche pro 1000 Jugendliche"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "nach Staatsangehörigkeit",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}"
+    },
+    "max": 40
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 35,
+    "itemWidth": 140,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": 6487
+  }
+}
