@@ -155,19 +155,19 @@
     <text x="453" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="355" opacity="1">
       <tspan>0%</tspan>
     </text>
-    <text x="0" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="-9999">
+    <text x="453" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="304" opacity="1">
       <tspan>5%</tspan>
     </text>
     <text x="453" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="253" opacity="1">
       <tspan>10%</tspan>
     </text>
-    <text x="0" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="-9999">
+    <text x="453" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="202" opacity="1">
       <tspan>15%</tspan>
     </text>
     <text x="453" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="151" opacity="1">
       <tspan>20%</tspan>
     </text>
-    <text x="0" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="-9999">
+    <text x="453" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="101" opacity="1">
       <tspan>25%</tspan>
     </text>
   </g>
