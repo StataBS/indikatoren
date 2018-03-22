@@ -145,7 +145,7 @@
   
       <div id='bs-nav' style='background-color: rgb(29, 78, 44); height: 45px; padding: 15px 0px 10px 50px; margin-bottom: 30px;'>
         <a style='color: white; font-size: 13px; font-weight: 700; text-shadow: rgb(23, 62, 35) 0px -1px 0px; text-decoration: none;' href='http://www.statistik.bs.ch/zahlen/indikatoren/portal.html'>
-          Indikatoren
+          Indikatorenportal
         </a>
       </div>
     </div>
@@ -183,8 +183,7 @@
       */
       
       
-      //get kuerzel and id from url, encode to prevent xss 
-      var id = window.decodeURIComponent($.url('?id'));
+      var id = parseInt(window.decodeURIComponent($.url('?id')), 10);
       
       var indikatorensetView = (window.decodeURIComponent($.url('?indikatorensetView')) === 'true') ? true : false;
       var view = window.decodeURIComponent($.url('?view'));

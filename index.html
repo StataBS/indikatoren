@@ -48,6 +48,24 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     
+    <div id='header' class='hidden'>
+      <div id="bs-logo">
+      	<a class='bs-logo-link' style='display: block; font-family: Arial, sans-serif; color: black; text-decoration: none; padding: 10px 0px 10px 0px;' href="http://www.statistik.bs.ch" title="Startseite">
+      		<img class='bs-logo-img' style='float: left; padding: 0px 20px;' src="assets/img/logo-print.png" alt="Logo Kanton Basel-Stadt"/>
+      		<div class='bs-logo-title' style='padding-top: 17px; font-size: 11px'>Präsidialdepartement des Kantons Basel-Stadt</div>
+      		<div class='bs-logo-text' style='padding-top: 3px; font-weight: 700; font-size: 15px'>Statistisches Amt</div>
+      	</a>
+    	</div>
+  
+      <div style='clear: both;'></div>
+  
+      <div id='bs-nav' style='background-color: rgb(29, 78, 44); height: 45px; padding: 15px 0px 10px 50px; margin-bottom: 30px;'>
+        <a style='color: white; font-size: 13px; font-weight: 700; text-shadow: rgb(23, 62, 35) 0px -1px 0px; text-decoration: none;' href='http://www.statistik.bs.ch/zahlen/indikatoren/portal.html'>
+          Indikatorenportal
+        </a>
+      </div>
+    </div>    
+    
     <div class="container"> 
       <div class="modal fade carousel slide" id="lightbox" data-interval="false" data-backdrop='true'>
         <div class="modal-dialog">
@@ -90,7 +108,7 @@
           </div>
           -->
 
-          <div>
+          <div id='search'>
             <label class="sr-only" for="searchbox">Search</label>
             <input type="search" class="form-control" id="searchbox" placeholder="Suche&hellip;">
           </div>
@@ -98,7 +116,7 @@
           <button class="btn btn-block well" id="portal-reset-button">Zurücksetzen</button>
           
 
-          <div class="well">
+          <div class="well" id="thema">
             <form role="form" id="thema_criteria">
               <legend>Thema</legend>              
               <!-- Radio Buttons are dynamically added here -->         
@@ -106,7 +124,7 @@
           </div>
 
 
-          <div class="well">
+          <div class="well" id="raeumlicheGliederung">
             <fieldset id="raeumlicheGliederung_criteria" >
               <legend>Räumliche Gliederung</legend>
               <select class="form-control" id="raeumlicheGliederung_filter"  multiple="multiple">

@@ -16,7 +16,24 @@ files.forEach(function(filepath){
     //replace 'nice' quotes with technical quotes - 'nice' quotes are usually created when pasting content from word, link hrefs do not work with those quotes
     var fileContentsStripped = fileContents.slice(fileContents.indexOf('{')).replace(/’/g, "'");
     fs.writeFileSync(filepath, fileContentsStripped);
+    
     var indikator = JSON.parse(fileContentsStripped);
+    
+	//trim all strings in object, see https://codereview.stackexchange.com/a/59543
+	deepTrim(indikator);
+    function deepTrim(obj) {
+	    for (var prop in obj) {
+	        var value = obj[prop], type = typeof value;
+	        if (value != null && (type == "string" || type == "object") && obj.hasOwnProperty(prop)) {
+	            if (type == "object") {
+	                deepTrim(obj[prop]);
+	            } else {
+	                obj[prop] = obj[prop].trim();
+	            }
+	        }
+	    }
+	} 
+    
     //add id and indikatorenset of current indikator to catalog, the rest will be overwritten later on
 	allIndikatoren[indikator.id] = {'id': indikator.id, 'visible': '', 'visibleInPortal': '', 'indikatorenset': indikator.kennzahlenset };    
     if (indikator.visible == undefined || indikator.visible == true) {

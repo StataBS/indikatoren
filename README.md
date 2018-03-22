@@ -28,15 +28,12 @@ Install [node.js](https://nodejs.org), then run the following command in the con
 npm install
 ```
 
+
 ## Getting Started
 Locally build, start http server, open browser:
 ```javascript
 npm start
 ```
-
-## Get png files for usage in print publications
-- In the Chrome browser: Open print.html?Indikatorenset=_indikatorensetname_
-- All charts in the given Indikatorenset are rendered in the browser, then locally exported to png files. These are saved by the browser to the "Downloads" folder. 
 
 
 ## Get Charts from "Umweltbericht beider Basel"
@@ -49,6 +46,44 @@ npm run build:umwelt_charts
 ```javascript
 npm run build
 ```
+
+
+## URL Parameters
+
+- Most of the URL Paramaters outlibned below can be used in combination. 
+- Use ? to separate server + document from the list of parameters, then & before 2nd, 3rd (and so on) oparameter in the URL. See examples for stufe below. 
+- Filter parameters can be used even if the respective filter element is hidden. 
+- Url encoding of filter parameter values is automatically performed by the browser, just type in the value in the browser's url bar and hit enter. 
+
+| Parameter | View | Example | Default | Description | 
+|---------- | ---- | ------- | ------- | ----------- |
+| indikatorenset | Indikatorenset | [Example](https://statabs.github.io/indikatoren/?Indikatorenset=Wohnviertel) | | Switches to Indikatorenset view: Hides sidebar, thema filter, räumliche Gliederung filter, but adds stufe1 and stufe2 filter. Additionally, kuerzelKunde is displayed instead of kuerzel.  
+| stufe | Indikatorenset | [Example](https://statabs.github.io/indikatoren/?Indikatorenset=Arbeitsmarkt&stufe=3) | 2 | Sets the maximum stufe ('Kapitel' / 'Unterkapitel') to be displayed as a dropdown filter control. 
+| showHeader | Portal | [Example](https://statabs.github.io/indikatoren/?showHeader=true) | false | Displays header containing bs.ch logo, StatA text and Link to Indikatorenportal. 
+| PerPage | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?PerPage=32) | 16 | Sets the number of charts to be displayd per page. 
+| search | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?search=nominal) |  | Pre-populates the full-text search field. 
+| thema | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?thema=14%20Gesundheit) |  | Pre-populates the thema filter. 
+| unterthema | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?thema=14%20Gesundheit&unterthema=Spit%C3%A4ler) |  | Pre-populates the thema filter. 
+| raeumlicheGliederung | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?raeumlicheGliederung=Kanton) |  | Pre-populates the raeumlicheGliederung filter.  
+| stufe1, stufe2, stufe3 | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?Indikatorenset=Arbeitsmarkt&stufe=3&stufe1=Monitoring%20Basler%20Arbeitsmarkt&stufe2=Bruttoinlandprodukt%20und%20Wertsch%C3%B6pfung) |  | Pre-populates the filter for stufe1, stufe2 and stufe3. 
+| hideSidebar | Portal | [Example](https://statabs-test-indikatoren-jonasbieri.c9users.io/?raeumlicheGliederung=Kanton&hideSidebar=true) | false | Hides the sidebar that contains full text search text box, reset button, thema filter, and räumliche Gliederung filter. 
+| hideSearch | Portal | [Example](https://statabs-test-indikatoren-jonasbieri.c9users.io/?raeumlicheGliederung=Kanton&hideSearch=true) | false | Hides the full text search text box. 
+| hideResetButton | Portal | [Example](https://statabs-test-indikatoren-jonasbieri.c9users.io/?raeumlicheGliederung=Kanton&hideResetButton=true) | false | Hides the filter reset button. 
+| hideThema | Portal | [Example](https://statabs-test-indikatoren-jonasbieri.c9users.io/?raeumlicheGliederung=Kanton&hideThema=true) | false | Hides the Thema filter control. 
+| hideUnterthema | Portal | [Example](https://statabs-test-indikatoren-jonasbieri.c9users.io/?raeumlicheGliederung=Kanton&hideUnterthema=true) | false | Hides the Unterthema filter control. 
+| hideRaeumlicheGliederung | Portal | [Example](https://statabs-test-indikatoren-jonasbieri.c9users.io/?raeumlicheGliederung=Kanton&hideRaeumlicheGliederung=true) | false | Hides the Räumliche Gliederung filter control. 
+| id | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401) |  | Defines the id of the chart to be displayed. 
+| hideHeaeder | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideHeader=true) | false | Hides the header containing bs.ch logo, StatA text and Link to Indikatorenportal, decreases left margin. 
+| hideTitle | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideTitle=true) | false | Hides the chart Title in the html text below the chart. 
+| hideLesehilfe | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideLesehilfe=true) | false | Hides the Lesehilfe title and text. 
+| hideLesehilfeTitle | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideLesehilfeTitle=true) | false | Hides the Lesehilfe Title but leaves the Lesehilfe text. 
+| hideErlaeuterungen | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideErlaeuterungen=true) | false | Hides the Erlaeuterungen title and text. 
+| hideErlaeuterungenTitle | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideErlaeuterungenTitle=true) | false | Hides the Erlaeuterungen Title but leaves the Lesehilfe text. 
+| hideLinks | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideLinks=true) | false | Hides the Links title and list. 
+| hideLinksTitle | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideLinksTitle=true) | false | Hides the Links Title but leaves the Link list. 
+
+
+
 
 ## Development
 ### Add or Update Data

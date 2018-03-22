@@ -6,7 +6,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "ST 4-2",
 		"description": "Bevölkerungsdichte",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -39,7 +39,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "ST 4-3",
 		"description": "Bevölkerungsdichte",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -404,7 +404,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "ST 7-2",
 		"description": "Beschäftigtendichte",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -470,7 +470,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "ST 8-1",
 		"description": "Kontinentale Erreichbarkeit",
 		"thema": "11 Verkehr",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -503,7 +503,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "ST 4-11",
 		"description": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Schweiz"
@@ -570,7 +570,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "ST 4-1",
 		"description": "Bevölkerung am Jahresende und Anzahl Wohnungen",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -770,7 +770,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "ST 7-1",
 		"description": "Anzahl Beschäftigte nach Branche",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
