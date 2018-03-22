@@ -212,7 +212,6 @@
       },
       "labels": {
         "format": "{value:,.0f}%",
-        "step": 2,
         "style": {
           "color": "#000000"
         }
