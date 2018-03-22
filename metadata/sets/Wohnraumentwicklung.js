@@ -12,11 +12,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-19T14:07:53.5353",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt",
-			"Zufriedenheit"
-		],
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
@@ -50,10 +45,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-20T14:42:08.088",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
@@ -87,10 +78,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-19T15:46:38.3838",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
@@ -124,10 +111,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-05-22T08:59:06.066",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
@@ -161,10 +144,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-18T10:57:22.2222",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
@@ -198,11 +177,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-22T18:38:03.033",
-		"schlagwort": [
-			"Heimat",
-			"Bevölkerung",
-			"Niederlassung"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.1 Bevölkerung",
 		"stufe3": "",
@@ -238,10 +212,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-18T10:24:11.1111",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
@@ -275,10 +245,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-18T15:55:59.5959",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
@@ -312,10 +278,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-18T13:02:39.3939",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
@@ -351,10 +313,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-18T16:23:33.3333",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
@@ -388,10 +346,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-18T14:31:47.4747",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
@@ -425,10 +379,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
@@ -462,10 +412,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-08-18T09:23:29.2929",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
@@ -500,10 +446,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-18T12:33:26.2626",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.3 Wohnraumnutzung",
 		"stufe3": "",
@@ -543,10 +485,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-20T10:44:40.4040",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
@@ -580,10 +518,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-20T10:46:00.000",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
@@ -617,10 +551,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-18T12:49:29.2929",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
@@ -654,10 +584,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-24T13:33:44.4444",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
@@ -691,10 +617,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-18T13:50:12.1212",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.6 Förderung von Wohneigentum",
 		"stufe3": "",
@@ -728,10 +650,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-18T16:59:21.2121",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.1 Grosszügiger Wohnraum",
 		"stufe3": "",
@@ -765,10 +683,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-10T16:04:02.022",
-		"schlagwort": [
-			"Wanderung",
-			"Steuer"
-		],
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.1 Grosszügiger Wohnraum",
 		"stufe3": "",
@@ -802,10 +716,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-24T15:08:06.066",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.2 Anteil an Hauptwohnsitznehmern",
 		"stufe3": "",
@@ -839,9 +749,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-18T09:58:14.1414",
-		"schlagwort": [
-			"Grünflächen"
-		],
 		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.2 Freiräume",
 		"stufe3": "",
@@ -875,11 +782,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-24T15:09:53.5353",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt",
-			"Zufriedenheit"
-		],
 		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.2 Freiräume",
 		"stufe3": "",
@@ -915,10 +817,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-19T13:52:21.2121",
-		"schlagwort": [
-			"Gebäude",
-			"Zufriedenheit"
-		],
 		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.3 Städtebauliche Qualität",
 		"stufe3": "",
@@ -952,9 +850,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-22T17:53:45.4545",
-		"schlagwort": [
-			"Familie"
-		],
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
@@ -988,10 +883,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-24T15:24:49.4949",
-		"schlagwort": [
-			"Familie",
-			"Wohnen"
-		],
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
@@ -1025,10 +916,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-18T11:56:25.2525",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
@@ -1062,9 +949,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-24T15:35:33.3333",
-		"schlagwort": [
-			"Zufriedenheit"
-		],
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.2 Wohnraum für Betagte und Behinderte",
 		"stufe3": "",
@@ -1098,11 +982,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-02-17T12:40:52.5252",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt",
-			"Zufriedenheit"
-		],
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.2 Wohnraum für Betagte und Behinderte",
 		"stufe3": "",

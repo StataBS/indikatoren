@@ -17,7 +17,8 @@ files.forEach(function(filepath){
         //clean up
          delete indikator.visible;
          delete indikator.visibleInPortal;
-         delete indikator.option;        
+         delete indikator.option;      
+         delete indikator.schlagwort;
 
 	    //retrieve id from filename instead of from file contents
 	    var idFromFileName = path.basename(filepath, path.extname(filepath));
