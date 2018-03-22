@@ -12,9 +12,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-05-05T12:37:02.022",
-		"schlagwort": [
-			"Quote"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -52,9 +49,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T16:49:57.5757",
-		"schlagwort": [
-			"Ausländer"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -92,9 +86,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-05-04T14:54:05.055",
-		"schlagwort": [
-			"Religion"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -132,9 +123,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
-		"schlagwort": [
-			"Haushalt"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -172,10 +160,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T13:01:58.5858",
-		"schlagwort": [
-			"Quote",
-			"Bildung"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -213,10 +197,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T17:35:44.4444",
-		"schlagwort": [
-			"Alter",
-			"Alter"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -254,9 +234,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T00:00:00.000",
-		"schlagwort": [
-			"Wohndauer"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -294,10 +271,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T13:48:14.1414",
-		"schlagwort": [
-			"Alter",
-			"Jugend"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -335,10 +308,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T16:18:00.000",
-		"schlagwort": [
-			"Gebäude",
-			"Alter"
-		],
 		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -376,9 +345,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T16:26:13.1313",
-		"schlagwort": [
-			"Gebäude"
-		],
 		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -416,9 +382,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-03-17T14:11:56.5656",
-		"schlagwort": [
-			"Grünflächen"
-		],
 		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -456,9 +419,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T17:29:58.5858",
-		"schlagwort": [
-			"Gebäude"
-		],
 		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -496,9 +456,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T16:35:49.4949",
-		"schlagwort": [
-			"Gebäude"
-		],
 		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -538,9 +495,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T14:15:03.033",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -578,9 +532,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T00:00:00.000",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -618,9 +569,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T00:00:00.000",
-		"schlagwort": [
-			"Erwerb"
-		],
 		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -658,9 +606,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-06T00:00:00.000",
-		"schlagwort": [
-			"Erwerb"
-		],
 		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -698,10 +643,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-05-12T15:13:10.1010",
-		"schlagwort": [
-			"Arbeit",
-			"Erwerb"
-		],
 		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -740,9 +681,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-05-05T12:36:27.2727",
-		"schlagwort": [
-			"Quote"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -778,9 +716,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-03-17T14:09:23.2323",
-		"schlagwort": [
-			"Ausländer"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -816,9 +751,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-05-04T14:56:38.3838",
-		"schlagwort": [
-			"Religion"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -854,9 +786,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-05-04T14:12:33.3333",
-		"schlagwort": [
-			"Haushalt"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -892,10 +821,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-05-05T13:02:23.2323",
-		"schlagwort": [
-			"Quote",
-			"Bildung"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -931,10 +856,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Alter",
-			"Alter"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -970,9 +891,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-03-17T13:42:16.1616",
-		"schlagwort": [
-			"Wohndauer"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -1008,10 +926,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-03-17T14:09:43.4343",
-		"schlagwort": [
-			"Alter",
-			"Jugend"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -1047,10 +961,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-05-05T10:27:49.4949",
-		"schlagwort": [
-			"Gebäude",
-			"Alter"
-		],
 		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -1086,9 +996,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-05-05T13:03:41.4141",
-		"schlagwort": [
-			"Gebäude"
-		],
 		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -1124,9 +1031,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-03-17T14:12:26.2626",
-		"schlagwort": [
-			"Grünflächen"
-		],
 		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -1162,9 +1066,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-05-04T17:27:32.3232",
-		"schlagwort": [
-			"Gebäude"
-		],
 		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -1200,9 +1101,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-05-04T17:31:03.033",
-		"schlagwort": [
-			"Gebäude"
-		],
 		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -1241,9 +1139,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -1279,9 +1174,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -1317,9 +1209,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T14:43:49.4949",
-		"schlagwort": [
-			"Erwerb"
-		],
 		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -1355,9 +1244,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T15:25:19.1919",
-		"schlagwort": [
-			"Erwerb"
-		],
 		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -1393,10 +1279,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-05-12T15:25:34.3434",
-		"schlagwort": [
-			"Arbeit",
-			"Erwerb"
-		],
 		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",

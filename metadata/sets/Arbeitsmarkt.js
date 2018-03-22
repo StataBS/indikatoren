@@ -12,12 +12,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bewilligung",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -51,12 +45,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Ausländer",
-			"Bewilligung",
-			"Erwerb"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -90,12 +78,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Alter",
-			"Bewilligung",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -129,12 +111,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bewilligung",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -168,12 +144,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bewilligung",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -207,12 +177,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bewilligung",
-			"Arbeit",
-			"Erwerbstätigkeit",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -246,10 +210,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verbrechen",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
@@ -284,10 +244,6 @@ var indikatorensetData = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"BIP",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
@@ -322,10 +278,6 @@ var indikatorensetData = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Kantonsvergleich",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
@@ -359,9 +311,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
@@ -395,9 +344,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
@@ -431,10 +377,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Alter",
-			"Arbeitslosigkeit"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -468,11 +410,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Geschlecht",
-			"Arbeitslosigkeit"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -506,10 +443,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"Arbeitslosigkeit"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -543,10 +476,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeitslosigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -580,10 +509,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeitslosigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -618,10 +543,6 @@ var indikatorensetData = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeitslosigkeit",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -655,11 +576,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Erwerbstätigkeit",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -694,11 +610,6 @@ var indikatorensetData = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Erwerbstätigkeit",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -732,11 +643,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bewilligung",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -770,11 +676,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Staatsangehörigkeit",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -808,11 +709,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -846,11 +742,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -884,10 +775,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Beschäftigte",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
@@ -921,10 +808,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Beschäftigte",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
@@ -958,10 +841,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Kantonsvergleich",
-			"Beschäftigte"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
@@ -995,11 +874,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Erwerb",
-			"Erwerbstätigkeit",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Meldepflichtige",
@@ -1033,11 +907,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Erwerbstätigkeit",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Meldepflichtige",
@@ -1071,11 +940,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bewilligung",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Meldepflichtige",
@@ -1109,11 +973,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Ausländer",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Meldepflichtige",
@@ -1147,11 +1006,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Meldepflichtige",
@@ -1185,11 +1039,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Meldepflichtige",
@@ -1223,9 +1072,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
@@ -1259,9 +1105,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
@@ -1295,12 +1138,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bewilligung",
-			"Arbeit",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -1334,12 +1171,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bewilligung",
-			"Arbeit",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -1373,11 +1204,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Meldepflichtige",
@@ -1411,11 +1237,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Meldepflichtige",
@@ -1449,9 +1270,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Beschäftigte"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
@@ -1485,9 +1303,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Beschäftigte"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
@@ -1521,10 +1336,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Beschäftigte",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
@@ -1558,10 +1369,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Beschäftigte",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
@@ -1595,9 +1402,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Beschäftigte"
-		],
 		"stufe1": "Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
@@ -1631,9 +1435,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeitslosigkeit"
-		],
 		"stufe1": "Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
@@ -1667,9 +1468,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Erwerb"
-		],
 		"stufe1": "Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
@@ -1704,9 +1502,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Erwerb"
-		],
 		"stufe1": "Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
@@ -1740,9 +1535,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Erwerb"
-		],
 		"stufe1": "Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
@@ -1776,9 +1568,6 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Erwerb"
-		],
 		"stufe1": "Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
@@ -1812,10 +1601,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeitslosigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -1849,10 +1634,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeitslosigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -1886,11 +1667,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -1924,11 +1700,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -1962,10 +1733,6 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Kantonsvergleich",
-			"Löhne"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Löhne",
 		"stufe3": "",
@@ -1999,10 +1766,6 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Löhne"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Löhne",
 		"stufe3": "",
@@ -2036,10 +1799,6 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Alter",
-			"Löhne"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Löhne",
 		"stufe3": "",
@@ -2073,10 +1832,6 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bewilligung",
-			"Löhne"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Löhne",
 		"stufe3": "",
@@ -2110,10 +1865,6 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Branche",
-			"Löhne"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Löhne",
 		"stufe3": "",
@@ -2147,10 +1898,6 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Branche",
-			"Löhne"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Löhne",
 		"stufe3": "",
@@ -2184,10 +1931,6 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Branche",
-			"Löhne"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Löhne",
 		"stufe3": "",
@@ -2221,10 +1964,6 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Branche",
-			"Löhne"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Löhne",
 		"stufe3": "",
@@ -2258,10 +1997,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Kantonsvergleich",
-			"Beschäftigte"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",

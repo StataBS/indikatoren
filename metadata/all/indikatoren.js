@@ -12,12 +12,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bewilligung",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -52,12 +46,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Ausländer",
-			"Bewilligung",
-			"Erwerb"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -92,12 +80,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Alter",
-			"Bewilligung",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -132,12 +114,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bewilligung",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -172,12 +148,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bewilligung",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -212,12 +182,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bewilligung",
-			"Arbeit",
-			"Erwerbstätigkeit",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -252,10 +216,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verbrechen",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
@@ -291,10 +251,6 @@ var indikatoren = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"BIP",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
@@ -330,10 +286,6 @@ var indikatoren = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Kantonsvergleich",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
@@ -368,9 +320,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
@@ -405,9 +354,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
@@ -442,10 +388,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Alter",
-			"Arbeitslosigkeit"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -480,11 +422,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Geschlecht",
-			"Arbeitslosigkeit"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -519,10 +456,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"Arbeitslosigkeit"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -557,10 +490,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeitslosigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -595,10 +524,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeitslosigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -634,10 +559,6 @@ var indikatoren = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeitslosigkeit",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -672,11 +593,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Erwerbstätigkeit",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -712,11 +628,6 @@ var indikatoren = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Erwerbstätigkeit",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -751,11 +662,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bewilligung",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -790,11 +696,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Staatsangehörigkeit",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -829,11 +730,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -868,11 +764,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -908,11 +799,6 @@ var indikatoren = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "2017-09-26T00:00:00.000",
-		"schlagwort": [
-			"Arbeit",
-			"Standort",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -949,10 +835,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Beschäftigte",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
@@ -987,10 +869,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Beschäftigte",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
@@ -1025,10 +903,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Kantonsvergleich",
-			"Beschäftigte"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
@@ -1063,11 +937,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-02-15T10:22:47.4747",
-		"schlagwort": [
-			"Einkommen",
-			"Erwerb",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1104,13 +973,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2016-12-14T12:12:59.5959",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Museum",
-			"Kunst",
-			"Quartier",
-			"Standort"
-		],
 		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1147,12 +1009,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2016-12-14T12:19:48.4848",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Gefühl",
-			"Spital",
-			"Patient"
-		],
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1189,11 +1045,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Erwerb",
-			"Erwerbstätigkeit",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Meldepflichtige",
@@ -1228,11 +1079,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Erwerbstätigkeit",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Meldepflichtige",
@@ -1267,11 +1113,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bewilligung",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Meldepflichtige",
@@ -1306,11 +1147,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Ausländer",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Meldepflichtige",
@@ -1345,11 +1181,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Meldepflichtige",
@@ -1384,11 +1215,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Meldepflichtige",
@@ -1423,11 +1249,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-02-16T13:43:21.2121",
-		"schlagwort": [
-			"Geschlecht",
-			"Bildung",
-			"Schule"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1464,13 +1285,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2015-12-17T00:00:00.000",
-		"schlagwort": [
-			"Ausland",
-			"Niederlassung",
-			"Arbeit",
-			"Erwerbstätigkeit",
-			"Standort"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1507,12 +1321,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2015-12-17T00:00:00.000",
-		"schlagwort": [
-			"EuroAirport",
-			"Auto",
-			"Standort",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1550,11 +1358,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-19T14:07:53.5353",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt",
-			"Zufriedenheit"
-		],
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
@@ -1589,10 +1392,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-20T14:42:08.088",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
@@ -1627,10 +1426,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-19T15:46:38.3838",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
@@ -1665,10 +1460,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-05-22T08:59:06.066",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
@@ -1703,10 +1494,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-18T10:57:22.2222",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
@@ -1741,11 +1528,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-22T18:38:03.033",
-		"schlagwort": [
-			"Heimat",
-			"Bevölkerung",
-			"Niederlassung"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.1 Bevölkerung",
 		"stufe3": "",
@@ -1782,10 +1564,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-18T10:24:11.1111",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
@@ -1820,10 +1598,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-18T15:55:59.5959",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
@@ -1858,10 +1632,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-18T13:02:39.3939",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
@@ -1898,10 +1668,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-18T16:23:33.3333",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
@@ -1936,10 +1702,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-18T14:31:47.4747",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
@@ -1974,10 +1736,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
@@ -2012,10 +1770,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-08-18T09:23:29.2929",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
@@ -2051,10 +1805,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-18T12:33:26.2626",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.3 Wohnraumnutzung",
 		"stufe3": "",
@@ -2095,10 +1845,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-20T10:44:40.4040",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
@@ -2133,10 +1879,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-20T10:46:00.000",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
@@ -2171,10 +1913,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-18T12:49:29.2929",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
@@ -2209,10 +1947,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-24T13:33:44.4444",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
@@ -2247,10 +1981,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-18T13:50:12.1212",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.6 Förderung von Wohneigentum",
 		"stufe3": "",
@@ -2285,10 +2015,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-18T16:59:21.2121",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.1 Grosszügiger Wohnraum",
 		"stufe3": "",
@@ -2323,10 +2049,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-10T16:04:02.022",
-		"schlagwort": [
-			"Wanderung",
-			"Steuer"
-		],
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.1 Grosszügiger Wohnraum",
 		"stufe3": "",
@@ -2361,10 +2083,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-24T15:08:06.066",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.2 Anteil an Hauptwohnsitznehmern",
 		"stufe3": "",
@@ -2399,9 +2117,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-18T09:58:14.1414",
-		"schlagwort": [
-			"Grünflächen"
-		],
 		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.2 Freiräume",
 		"stufe3": "",
@@ -2436,11 +2151,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-24T15:09:53.5353",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt",
-			"Zufriedenheit"
-		],
 		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.2 Freiräume",
 		"stufe3": "",
@@ -2477,10 +2187,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-19T13:52:21.2121",
-		"schlagwort": [
-			"Gebäude",
-			"Zufriedenheit"
-		],
 		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.3 Städtebauliche Qualität",
 		"stufe3": "",
@@ -2515,9 +2221,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-22T17:53:45.4545",
-		"schlagwort": [
-			"Familie"
-		],
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
@@ -2552,10 +2255,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-24T15:24:49.4949",
-		"schlagwort": [
-			"Familie",
-			"Wohnen"
-		],
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
@@ -2590,10 +2289,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-18T11:56:25.2525",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
@@ -2628,9 +2323,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-24T15:35:33.3333",
-		"schlagwort": [
-			"Zufriedenheit"
-		],
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.2 Wohnraum für Betagte und Behinderte",
 		"stufe3": "",
@@ -2665,11 +2357,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-02-17T12:40:52.5252",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt",
-			"Zufriedenheit"
-		],
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.2 Wohnraum für Betagte und Behinderte",
 		"stufe3": "",
@@ -2704,13 +2391,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Quote",
-			"Bevölkerung",
-			"Ausland"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -2745,13 +2425,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Alter",
-			"Quote",
-			"Ausland",
-			"Alter",
-			"Schweiz"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -2786,11 +2459,6 @@ var indikatoren = [
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "2017-11-17T00:00:00.000",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Umwelt",
-			"Cercle Indicateurs"
-		],
 		"stufe1": "Umwelt",
 		"stufe2": "U2: Natur und Landschaft",
 		"stufe3": "",
@@ -2826,13 +2494,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-02-16T15:42:27.2727",
-		"schlagwort": [
-			"Alter",
-			"Quote",
-			"Ausland",
-			"Alter",
-			"Schweiz"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -2867,11 +2528,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausland",
-			"Bewilligung",
-			"Niederlassung"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -2906,13 +2562,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Quote",
-			"Ausland",
-			"Bewilligung",
-			"Niederlassung",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -2947,10 +2596,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			"Klima"
-		],
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -2985,9 +2630,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie"
-		],
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -3023,11 +2665,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			"Biodiversität",
-			"Klima"
-		],
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -3063,9 +2700,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie"
-		],
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -3101,9 +2735,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie"
-		],
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -3139,10 +2770,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			"Klima"
-		],
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -3179,9 +2806,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie"
-		],
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -3217,10 +2841,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			"Klima"
-		],
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -3255,9 +2875,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie"
-		],
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -3293,9 +2910,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie"
-		],
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -3331,9 +2945,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3369,10 +2980,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Boden",
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3408,9 +3015,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3445,9 +3049,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3482,9 +3083,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3520,9 +3118,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3558,11 +3153,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Boden",
-			"Stoffe und Produkte",
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3597,9 +3187,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3634,9 +3221,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3672,9 +3256,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3710,9 +3291,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3747,9 +3325,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3784,9 +3359,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3822,9 +3394,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Störfälle"
-		],
 		"stufe1": "Thema Störfälle",
 		"stufe2": "",
 		"stufe3": "",
@@ -3860,9 +3429,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Störfälle"
-		],
 		"stufe1": "Thema Störfälle",
 		"stufe2": "",
 		"stufe3": "",
@@ -3898,10 +3464,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Boden",
-			"Landschaft"
-		],
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -3937,9 +3499,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Boden"
-		],
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -3975,10 +3534,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Boden",
-			"Biodiversität"
-		],
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -4014,11 +3569,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Boden",
-			"Biodiversität",
-			"Landschaft"
-		],
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -4054,9 +3604,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Boden"
-		],
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -4092,11 +3639,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Boden",
-			"Biodiversität",
-			"Wasser"
-		],
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -4132,9 +3674,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Altlasten"
-		],
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -4170,9 +3709,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Altlasten"
-		],
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -4208,9 +3744,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Altlasten"
-		],
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -4246,9 +3779,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Altlasten"
-		],
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -4284,9 +3814,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Altlasten"
-		],
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -4322,9 +3849,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Biotechnologie"
-		],
 		"stufe1": "Thema Biotechnologie",
 		"stufe2": "",
 		"stufe3": "",
@@ -4360,9 +3884,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Biotechnologie"
-		],
 		"stufe1": "Thema Biotechnologie",
 		"stufe2": "",
 		"stufe3": "",
@@ -4398,9 +3919,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Biotechnologie"
-		],
 		"stufe1": "Thema Biotechnologie",
 		"stufe2": "",
 		"stufe3": "",
@@ -4436,9 +3954,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Biotechnologie"
-		],
 		"stufe1": "Thema Biotechnologie",
 		"stufe2": "",
 		"stufe3": "",
@@ -4474,9 +3989,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Lärm"
-		],
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -4513,9 +4025,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Lärm"
-		],
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -4552,9 +4061,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Lärm"
-		],
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -4591,9 +4097,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Lärm"
-		],
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -4629,9 +4132,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Lärm"
-		],
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -4666,11 +4166,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			"Luft",
-			"Wald"
-		],
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -4708,9 +4203,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Luft"
-		],
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -4748,10 +4240,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			"Luft"
-		],
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -4789,9 +4277,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Luft"
-		],
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -4831,9 +4316,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Luft"
-		],
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -4869,9 +4351,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Luft"
-		],
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -4908,9 +4387,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Luft"
-		],
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -4947,9 +4423,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Luft"
-		],
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -4986,10 +4459,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			"Luft"
-		],
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -5027,9 +4496,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Luft"
-		],
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -5066,9 +4532,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wald"
-		],
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -5103,9 +4566,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wald"
-		],
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -5141,9 +4601,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wald"
-		],
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -5179,9 +4636,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wald"
-		],
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -5216,9 +4670,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wald"
-		],
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -5254,10 +4705,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Landschaft",
-			"Wald"
-		],
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -5293,9 +4740,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wald"
-		],
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -5330,9 +4774,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Stoffe und Produkte"
-		],
 		"stufe1": "Thema Stoffe und Produkte",
 		"stufe2": "",
 		"stufe3": "",
@@ -5368,9 +4809,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Stoffe und Produkte"
-		],
 		"stufe1": "Thema Stoffe und Produkte",
 		"stufe2": "",
 		"stufe3": "",
@@ -5406,9 +4844,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Stoffe und Produkte"
-		],
 		"stufe1": "Thema Stoffe und Produkte",
 		"stufe2": "",
 		"stufe3": "",
@@ -5444,9 +4879,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Klima"
-		],
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -5482,11 +4914,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			"Klima",
-			"Wald"
-		],
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -5522,9 +4949,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Klima"
-		],
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -5559,11 +4983,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Biodiversität",
-			"Klima",
-			"Wasser"
-		],
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -5599,9 +5018,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Klima"
-		],
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -5637,10 +5053,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Biodiversität",
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -5676,10 +5088,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Biodiversität",
-			"Landschaft"
-		],
 		"stufe1": "Thema Biodiversität",
 		"stufe2": "",
 		"stufe3": "",
@@ -5715,9 +5123,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Biodiversität"
-		],
 		"stufe1": "Thema Biodiversität",
 		"stufe2": "",
 		"stufe3": "",
@@ -5753,10 +5158,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Boden",
-			"Biodiversität"
-		],
 		"stufe1": "Thema Biodiversität",
 		"stufe2": "",
 		"stufe3": "",
@@ -5791,9 +5192,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Biodiversität"
-		],
 		"stufe1": "Thema Biodiversität",
 		"stufe2": "",
 		"stufe3": "",
@@ -5829,9 +5227,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Landschaft"
-		],
 		"stufe1": "Thema Landschaft",
 		"stufe2": "",
 		"stufe3": "",
@@ -5866,10 +5261,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Biodiversität",
-			"Landschaft"
-		],
 		"stufe1": "Thema Landschaft",
 		"stufe2": "",
 		"stufe3": "",
@@ -5905,10 +5296,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Boden",
-			"Landschaft"
-		],
 		"stufe1": "Thema Landschaft",
 		"stufe2": "",
 		"stufe3": "",
@@ -5945,10 +5332,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Naturgefahren",
-			"Klima"
-		],
 		"stufe1": "Thema Naturgefahren",
 		"stufe2": "",
 		"stufe3": "",
@@ -5985,9 +5368,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Naturgefahren"
-		],
 		"stufe1": "Thema Naturgefahren",
 		"stufe2": "",
 		"stufe3": "",
@@ -6022,9 +5402,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Naturgefahren"
-		],
 		"stufe1": "Thema Naturgefahren",
 		"stufe2": "",
 		"stufe3": "",
@@ -6061,13 +5438,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall",
-			"Biodiversität",
-			"Naturgefahren",
-			"Landschaft",
-			"Wald"
-		],
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -6104,9 +5474,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Lärm"
-		],
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -6142,12 +5509,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			"Biodiversität",
-			"Klima",
-			"Landschaft"
-		],
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -6183,9 +5544,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie"
-		],
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -6221,9 +5579,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie"
-		],
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -6259,11 +5614,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			"Abfall",
-			"Luft"
-		],
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -6300,14 +5650,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			"Biodiversität",
-			"Klima",
-			"Landschaft",
-			"Luft",
-			"Wald"
-		],
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -6343,9 +5685,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Naturgefahren"
-		],
 		"stufe1": "Thema Naturgefahren",
 		"stufe2": "",
 		"stufe3": "",
@@ -6381,9 +5720,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall"
-		],
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -6418,9 +5754,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall"
-		],
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -6456,9 +5789,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall"
-		],
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -6494,9 +5824,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall"
-		],
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -6532,9 +5859,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall"
-		],
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -6570,9 +5894,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall"
-		],
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -6607,9 +5928,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall"
-		],
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -6645,9 +5963,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall"
-		],
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -6683,9 +5998,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall"
-		],
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -6721,13 +6033,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Ausland",
-			"Bewilligung",
-			"Niederlassung",
-			"Migration"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -6762,14 +6067,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Quote",
-			"Ausland",
-			"Bewilligung",
-			"Niederlassung",
-			"Migration",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -6804,17 +6101,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Quote",
-			"Bevölkerung",
-			"Ausland",
-			"Einbürgerung",
-			"Migrationshintergrund",
-			"Migration",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -6849,12 +6135,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Umwelt",
-			"Wasser",
-			"Cercle Indicateurs"
-		],
 		"stufe1": "Umwelt",
 		"stufe2": "U7: Wasserhaushalt",
 		"stufe3": "",
@@ -6891,12 +6171,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Umwelt",
-			"Wasser",
-			"Cercle Indicateurs"
-		],
 		"stufe1": "Umwelt",
 		"stufe2": "U7: Wasserhaushalt",
 		"stufe3": "",
@@ -6933,12 +6207,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Umwelt",
-			"Energie",
-			"Cercle Indicateurs"
-		],
 		"stufe1": "Umwelt",
 		"stufe2": "U3: Energiequalität",
 		"stufe3": "",
@@ -6975,11 +6243,6 @@ var indikatoren = [
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Umwelt",
-			"Cercle Indicateurs"
-		],
 		"stufe1": "Umwelt",
 		"stufe2": "U1: Biodiversität",
 		"stufe3": "",
@@ -7014,11 +6277,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Gebäude",
-			"Nachhaltigkeit",
-			"Cercle Indicateurs"
-		],
 		"stufe1": "Wirtschaft",
 		"stufe2": "W4: Investitionen",
 		"stufe3": "",
@@ -7053,10 +6311,6 @@ var indikatoren = [
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Cercle Indicateurs"
-		],
 		"stufe1": "Wirtschaft",
 		"stufe2": "W8: Wirtschaftsstruktur",
 		"stufe3": "",
@@ -7092,10 +6346,6 @@ var indikatoren = [
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Cercle Indicateurs"
-		],
 		"stufe1": "Wirtschaft",
 		"stufe2": "W9: Know-how",
 		"stufe3": "",
@@ -7130,10 +6380,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Cercle Indicateurs"
-		],
 		"stufe1": "Wirtschaft",
 		"stufe2": "W10: Öffentlicher Haushalt",
 		"stufe3": "",
@@ -7168,11 +6414,6 @@ var indikatoren = [
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Verkehr",
-			"Cercle Indicateurs"
-		],
 		"stufe1": "Gesellschaft",
 		"stufe2": "G1: Lärm / Wohnqualität",
 		"stufe3": "",
@@ -7207,11 +6448,6 @@ var indikatoren = [
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Verbrechen",
-			"Cercle Indicateurs"
-		],
 		"stufe1": "Gesellschaft",
 		"stufe2": "G4: Sicherheit",
 		"stufe3": "",
@@ -7248,10 +6484,6 @@ var indikatoren = [
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Cercle Indicateurs"
-		],
 		"stufe1": "Gesellschaft",
 		"stufe2": "G11: Chancengleichheit",
 		"stufe3": "",
@@ -7287,16 +6519,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Ausland",
-			"Einbürgerung",
-			"Schweiz",
-			"Geburtsort",
-			"Staatsangehörigkeit",
-			"Wanderung"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -7331,16 +6553,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Haushalt",
-			"Ausländer",
-			"Quote",
-			"Ausland",
-			"Migrationshintergrund",
-			"Migration",
-			"Deutsch"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -7375,16 +6587,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Ausland",
-			"Migration",
-			"Segregation",
-			"Index",
-			"Schweiz",
-			"Wanderung"
-		],
 		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
@@ -7419,18 +6621,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Quote",
-			"Bevölkerung",
-			"Ausland",
-			"Niederlassung",
-			"Wohndauer",
-			"Zuzug",
-			"Schweiz",
-			"Geburtsort"
-		],
 		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
@@ -7465,17 +6655,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Bevölkerung",
-			"Ausland",
-			"Niederlassung",
-			"Migration",
-			"Wohndauer",
-			"Geburtsort",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
@@ -7510,15 +6689,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Quote",
-			"Ausland",
-			"Migration",
-			"Staatsangehörigkeit",
-			"Wanderung"
-		],
 		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
@@ -7553,18 +6723,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Quote",
-			"Ausland",
-			"Migration",
-			"Staatsangehörigkeit",
-			"Arbeit",
-			"Arbeitslosigkeit",
-			"Erwerb",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -7600,11 +6758,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-08T13:22:02.022",
-		"schlagwort": [
-			"Arbeit",
-			"Hilfeleistung",
-			"Nachbarschaft"
-		],
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -7639,11 +6792,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit",
-			"Hilfeleistung",
-			"Nachbarschaft"
-		],
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -7678,12 +6826,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Ausland",
-			"Geburtsort"
-		],
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
@@ -7718,12 +6860,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-08T11:43:28.2828",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Niederlassung",
-			"Quartier",
-			"Beurteilung"
-		],
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
@@ -7758,12 +6894,6 @@ var indikatoren = [
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Niederlassung",
-			"Nachbarschaft",
-			"Beurteilung"
-		],
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
@@ -7798,15 +6928,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Ausland",
-			"Niederlassung",
-			"Einbürgerung",
-			"Migrationshintergrund",
-			"Zuzug"
-		],
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
@@ -7844,11 +6965,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-13T17:10:58.5858",
-		"schlagwort": [
-			"Verwaltung",
-			"Grosser Rat",
-			"Beurteilung"
-		],
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
@@ -7886,16 +7002,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Quote",
-			"Ausland",
-			"Staatsangehörigkeit",
-			"Bildung",
-			"Gymnasium",
-			"Gymnasialquote",
-			"Schule"
-		],
 		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -7930,20 +7036,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Quote",
-			"Ausland",
-			"Schweiz",
-			"Staatsangehörigkeit",
-			"Bildung",
-			"Arbeit",
-			"Arbeitslosigkeit",
-			"Erwerbstätigkeit",
-			"Angestellte",
-			"Schule"
-		],
 		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -7978,19 +7070,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Einkommen",
-			"Ausländer",
-			"Quote",
-			"Ausland",
-			"Migration",
-			"Schweiz",
-			"Arbeit",
-			"Arbeitslosigkeit",
-			"Erwerb",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -8025,20 +7104,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Personal",
-			"Einkommen",
-			"Ausländer",
-			"Quote",
-			"Ausland",
-			"Migration",
-			"Staatsangehörigkeit",
-			"Erwerb",
-			"Erwerbstätigkeit",
-			"Angestellte",
-			"Verwaltung"
-		],
 		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -8073,9 +7138,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-05-05T12:37:02.022",
-		"schlagwort": [
-			"Quote"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -8114,9 +7176,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T16:49:57.5757",
-		"schlagwort": [
-			"Ausländer"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -8155,9 +7214,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-05-04T14:54:05.055",
-		"schlagwort": [
-			"Religion"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -8196,9 +7252,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
-		"schlagwort": [
-			"Haushalt"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -8237,10 +7290,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T13:01:58.5858",
-		"schlagwort": [
-			"Quote",
-			"Bildung"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -8279,10 +7328,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T17:35:44.4444",
-		"schlagwort": [
-			"Alter",
-			"Alter"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -8321,9 +7366,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T00:00:00.000",
-		"schlagwort": [
-			"Wohndauer"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -8362,10 +7404,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T13:48:14.1414",
-		"schlagwort": [
-			"Alter",
-			"Jugend"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -8404,10 +7442,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T16:18:00.000",
-		"schlagwort": [
-			"Gebäude",
-			"Alter"
-		],
 		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -8446,9 +7480,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T16:26:13.1313",
-		"schlagwort": [
-			"Gebäude"
-		],
 		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -8487,9 +7518,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-03-17T14:11:56.5656",
-		"schlagwort": [
-			"Grünflächen"
-		],
 		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -8528,9 +7556,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T17:29:58.5858",
-		"schlagwort": [
-			"Gebäude"
-		],
 		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -8569,9 +7594,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T16:35:49.4949",
-		"schlagwort": [
-			"Gebäude"
-		],
 		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -8612,9 +7634,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T14:15:03.033",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -8653,9 +7672,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T00:00:00.000",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -8694,9 +7710,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T00:00:00.000",
-		"schlagwort": [
-			"Erwerb"
-		],
 		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -8735,9 +7748,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-06T00:00:00.000",
-		"schlagwort": [
-			"Erwerb"
-		],
 		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -8776,10 +7786,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-05-12T15:13:10.1010",
-		"schlagwort": [
-			"Arbeit",
-			"Erwerb"
-		],
 		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -8819,12 +7825,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit",
-			"Schule",
-			"Hilfeleistung",
-			"Nachbarschaft"
-		],
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -8859,9 +7859,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachbarschaft"
-		],
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -8896,10 +7893,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Gefühl"
-		],
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -8934,10 +7927,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Nachbarschaft"
-		],
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -8972,10 +7961,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-02-17T17:14:41.4141",
-		"schlagwort": [
-			"Gefühl",
-			"Sicherheit"
-		],
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.2 Vertrauen in Mitmenschen",
 		"stufe3": "",
@@ -9010,10 +7995,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-02-17T17:16:52.5252",
-		"schlagwort": [
-			"Gefühl",
-			"Sicherheit"
-		],
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.2 Vertrauen in Mitmenschen",
 		"stufe3": "",
@@ -9048,11 +8029,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-02-17T17:21:03.033",
-		"schlagwort": [
-			"Quartier",
-			"Gefühl",
-			"Sicherheit"
-		],
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.2 Vertrauen in Mitmenschen",
 		"stufe3": "",
@@ -9087,10 +8063,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Ausland"
-		],
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
@@ -9125,10 +8097,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Ausland"
-		],
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
@@ -9163,13 +8131,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Jugend",
-			"Bildung",
-			"Verwaltung",
-			"Beurteilung"
-		],
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
@@ -9204,12 +8165,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Verwaltung",
-			"Grosser Rat",
-			"Beurteilung"
-		],
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
@@ -9244,10 +8199,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-08T11:54:16.1616",
-		"schlagwort": [
-			"Verwaltung",
-			"Beurteilung"
-		],
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
@@ -9284,10 +8235,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-08T12:11:39.3939",
-		"schlagwort": [
-			"Verwaltung",
-			"Beurteilung"
-		],
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
@@ -9324,10 +8271,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Beurteilung"
-		],
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
@@ -9362,10 +8305,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bildung",
-			"Beurteilung"
-		],
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
@@ -9400,10 +8339,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Spende"
-		],
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
@@ -9438,9 +8373,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit"
-		],
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
@@ -9475,9 +8407,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit"
-		],
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
@@ -9512,9 +8441,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verbrechen"
-		],
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -9550,9 +8476,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verbrechen"
-		],
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -9588,9 +8511,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verbrechen"
-		],
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -9626,9 +8546,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verbrechen"
-		],
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -9664,9 +8581,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Jugend"
-		],
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
@@ -9701,9 +8615,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-01-18T00:00:00.000",
-		"schlagwort": [
-			"Grosser Rat"
-		],
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
@@ -9740,11 +8651,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verwaltung",
-			"Grosser Rat",
-			"Beurteilung"
-		],
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
@@ -9779,10 +8685,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Grosser Rat",
-			"Beurteilung"
-		],
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
@@ -9817,11 +8719,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Nachbarschaft",
-			"Quartier"
-		],
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -9856,17 +8753,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Alter",
-			"Quote",
-			"Ausland",
-			"Migration",
-			"Staatsangehörigkeit",
-			"Wanderung",
-			"Rückwanderung"
-		],
 		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
@@ -9901,17 +8787,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Bevölkerung",
-			"Ausland",
-			"Niederlassung",
-			"Migration",
-			"Wohndauer",
-			"Schweiz",
-			"Geburtsort",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
@@ -9946,10 +8821,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"BIP"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -9984,11 +8855,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Index",
-			"Konsum",
-			"Teuerung"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -10023,12 +8889,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Index",
-			"Schweiz",
-			"Konsum",
-			"Teuerung"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -10064,11 +8924,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Konsum",
-			"Konkurs"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -10103,11 +8958,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"EuroAirport",
-			"Konsum",
-			"Zoll"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -10142,14 +8992,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Grünflächen",
-			"Erwerb",
-			"Angestellte",
-			"Bauern",
-			"Boden"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -10185,11 +9027,6 @@ var indikatoren = [
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Quote",
-			"Bevölkerung",
-			"Auto"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -10229,12 +9066,6 @@ var indikatoren = [
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Haushalt",
-			"Familie",
-			"Quote",
-			"Auto"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -10275,10 +9106,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Schulden",
-			"Boden"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -10313,12 +9140,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Quote",
-			"Verwaltung",
-			"Grosser Rat"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -10355,10 +9176,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Verbrechen"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -10393,10 +9210,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit",
-			"Erwerb"
-		],
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -10431,12 +9244,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Personal",
-			"Arbeit",
-			"Angestellte",
-			"Sicherheit"
-		],
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -10471,11 +9278,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Jugend",
-			"Grosser Rat",
-			"Beurteilung"
-		],
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
@@ -10510,10 +9312,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Spital",
-			"Patient"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -10549,10 +9347,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Spital",
-			"Patient"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -10588,12 +9382,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2016-12-05T15:36:26.2626",
-		"schlagwort": [
-			"Bewilligung",
-			"Schule",
-			"Standort",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -10630,10 +9418,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2016-12-07T15:07:33.3333",
-		"schlagwort": [
-			"Arbeit",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -10670,10 +9454,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-03T15:35:31.3131",
-		"schlagwort": [
-			"Bevölkerung",
-			"Hilfeleistung"
-		],
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -10711,9 +9491,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-05-05T12:36:27.2727",
-		"schlagwort": [
-			"Quote"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -10750,9 +9527,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-03-17T14:09:23.2323",
-		"schlagwort": [
-			"Ausländer"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -10789,9 +9563,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-05-04T14:56:38.3838",
-		"schlagwort": [
-			"Religion"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -10828,9 +9599,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-05-04T14:12:33.3333",
-		"schlagwort": [
-			"Haushalt"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -10867,10 +9635,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-05-05T13:02:23.2323",
-		"schlagwort": [
-			"Quote",
-			"Bildung"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -10907,10 +9671,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Alter",
-			"Alter"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -10947,9 +9707,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-03-17T13:42:16.1616",
-		"schlagwort": [
-			"Wohndauer"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -10986,10 +9743,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-03-17T14:09:43.4343",
-		"schlagwort": [
-			"Alter",
-			"Jugend"
-		],
 		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -11026,10 +9779,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-05-05T10:27:49.4949",
-		"schlagwort": [
-			"Gebäude",
-			"Alter"
-		],
 		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -11066,9 +9815,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-05-05T13:03:41.4141",
-		"schlagwort": [
-			"Gebäude"
-		],
 		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -11105,9 +9851,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-03-17T14:12:26.2626",
-		"schlagwort": [
-			"Grünflächen"
-		],
 		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -11144,9 +9887,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-05-04T17:27:32.3232",
-		"schlagwort": [
-			"Gebäude"
-		],
 		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -11183,9 +9923,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-05-04T17:31:03.033",
-		"schlagwort": [
-			"Gebäude"
-		],
 		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -11225,9 +9962,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -11264,9 +9998,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -11303,9 +10034,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T14:43:49.4949",
-		"schlagwort": [
-			"Erwerb"
-		],
 		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -11342,9 +10070,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T15:25:19.1919",
-		"schlagwort": [
-			"Erwerb"
-		],
 		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -11381,10 +10106,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-05-12T15:25:34.3434",
-		"schlagwort": [
-			"Arbeit",
-			"Erwerb"
-		],
 		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -11423,11 +10144,6 @@ var indikatoren = [
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Quote",
-			"Bevölkerung",
-			"Auto"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -11465,12 +10181,6 @@ var indikatoren = [
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Haushalt",
-			"Familie",
-			"Quote",
-			"Auto"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -11507,10 +10217,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-07-06T14:41:09.099",
-		"schlagwort": [
-			"Bevölkerung",
-			"Wohnen"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -11547,10 +10253,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-08-17T16:15:02.022",
-		"schlagwort": [
-			"Bevölkerung",
-			"Wohnen"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -11587,9 +10289,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-06-12T14:43:40.4040",
-		"schlagwort": [
-			"Pendler"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -11626,9 +10325,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wald"
-		],
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -11664,9 +10360,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wald"
-		],
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -11702,9 +10395,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Boden"
-		],
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -11740,9 +10430,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wald"
-		],
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -11778,9 +10465,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-06-26T16:51:11.1111",
-		"schlagwort": [
-			"Wohnung"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -11817,9 +10501,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-07-04T09:44:27.2727",
-		"schlagwort": [
-			"Wohnung"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -11856,10 +10537,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-07-05T09:32:06.066",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -11895,9 +10572,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wohnen"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -11934,9 +10608,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-07-05T09:38:45.4545",
-		"schlagwort": [
-			"Wohnung"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -11973,9 +10644,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wohnung"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -12012,9 +10680,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Grünflächen"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -12051,9 +10716,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Zufriedenheit"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -12091,9 +10753,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-06-26T14:00:15.1515",
-		"schlagwort": [
-			"ÖV"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 6: Erschliessungsqualität",
 		"stufe3": "",
@@ -12131,9 +10790,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-06-26T14:38:43.4343",
-		"schlagwort": [
-			"Beschäftigte"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
@@ -12170,9 +10826,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-07-04T18:50:03.033",
-		"schlagwort": [
-			"Gebäude"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
@@ -12209,12 +10862,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-08-17T16:31:38.3838",
-		"schlagwort": [
-			"EuroAirport",
-			"Auto",
-			"Standort",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
 		"stufe3": "",
@@ -12252,9 +10899,6 @@ var indikatoren = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "2017-07-19T16:15:08.088",
-		"schlagwort": [
-			"Index"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -12292,9 +10936,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Lärm"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 6: Erschliessungsqualität",
 		"stufe3": "",
@@ -12331,9 +10972,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-08-14T15:31:35.3535",
-		"schlagwort": [
-			"Wohnung"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -12370,13 +11008,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Ausland",
-			"Migration",
-			"Staatsangehörigkeit",
-			"Wanderung"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -12411,14 +11042,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Migration",
-			"Geburtsort",
-			"Staatsangehörigkeit",
-			"Wanderung"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -12453,13 +11076,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Migration",
-			"Zuzug",
-			"Geburtsort"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -12494,13 +11110,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Ausland",
-			"Migration",
-			"Zuzug"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -12535,14 +11144,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Ausländer",
-			"Ausland",
-			"Migration",
-			"Geburtsort",
-			"Wanderung"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -12577,12 +11178,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Alter",
-			"Bevölkerung",
-			"Migration",
-			"Wanderung"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -12617,13 +11212,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Alter",
-			"Bevölkerung",
-			"Migration",
-			"Wanderung"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -12659,13 +11247,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Migration",
-			"Wanderung",
-			"Quartier"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -12701,12 +11282,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Migration",
-			"Wanderung",
-			"Quartier"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -12741,13 +11316,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Ausland",
-			"Migration",
-			"Wanderung"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -12782,14 +11350,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Migration",
-			"Zuzug",
-			"Geburtsort",
-			"Wanderung"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -12825,12 +11385,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Migration",
-			"Wanderung",
-			"Quartier"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -12865,10 +11419,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Ausland"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -12903,10 +11453,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -12941,10 +11487,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -12979,11 +11521,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Ausland",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13018,11 +11555,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Ausland",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13057,12 +11589,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Bevölkerung",
-			"Ausland",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13097,12 +11623,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Bevölkerung",
-			"Ausland",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13137,11 +11657,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Bevölkerung",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13176,12 +11691,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Bevölkerung",
-			"Ausland",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13216,11 +11725,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Bevölkerung",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13255,11 +11759,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Bevölkerung",
-			"Ausland"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13294,10 +11793,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Jugend",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13332,10 +11827,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Alter",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13370,12 +11861,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Alter",
-			"Bevölkerung",
-			"Ausland",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13410,10 +11895,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausland",
-			"Bewilligung"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13448,11 +11929,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausland",
-			"Bewilligung",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13487,11 +11963,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausland",
-			"Bewilligung",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13527,11 +11998,6 @@ var indikatoren = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausland",
-			"Bewilligung",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13566,10 +12032,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausland",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13604,9 +12066,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13641,10 +12100,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13679,10 +12134,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Ausland"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13717,10 +12168,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Segregation",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13755,10 +12202,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"Ausbildung"
-		],
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -13794,11 +12237,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Staatsangehörigkeit",
-			"Ausbildung"
-		],
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -13834,10 +12272,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"Ausbildung"
-		],
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -13874,11 +12308,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Staatsangehörigkeit",
-			"Ausbildung"
-		],
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -13915,10 +12344,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"Ausbildung"
-		],
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -13954,11 +12379,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Staatsangehörigkeit",
-			"Ausbildung"
-		],
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -13994,10 +12414,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"Ausbildung"
-		],
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -14032,11 +12448,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Staatsangehörigkeit",
-			"Ausbildung"
-		],
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -14071,12 +12482,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Alter",
-			"Bevölkerung",
-			"Bewilligung",
-			"Ausbildung"
-		],
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -14111,12 +12516,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Arbeit",
-			"BIP",
-			"Beschäftigte"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14154,11 +12553,6 @@ var indikatoren = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Schweiz",
-			"Standort",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14196,9 +12590,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verwaltung"
-		],
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14235,9 +12626,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Steuer"
-		],
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14274,9 +12662,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14313,12 +12698,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Erwerbstätigkeit",
-			"Angestellte",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14355,9 +12734,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Steuer"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14400,9 +12776,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Steuer"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14440,10 +12813,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verwaltung",
-			"Beurteilung"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14480,9 +12849,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Steuer"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14519,11 +12885,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Alter",
-			"Bildung"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14561,11 +12922,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Alter",
-			"Arbeit",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14603,13 +12959,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Staatspersonal",
-			"Angestellte",
-			"Konsum",
-			"Schulden"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14646,12 +12995,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bildung",
-			"BIP",
-			"Standort",
-			"Branche"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14689,11 +13032,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14731,9 +13069,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14770,9 +13105,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14809,12 +13141,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Ausland",
-			"Geburtsort"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14853,12 +13179,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Arbeit",
-			"Erwerb",
-			"Beschäftigte"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14896,12 +13216,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Arbeit",
-			"Erwerb",
-			"Beschäftigte"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14938,14 +13252,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Ausland",
-			"Einbürgerung",
-			"Migrationshintergrund",
-			"Migration"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14983,11 +13289,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit",
-			"Erwerbstätigkeit",
-			"Beschäftigte"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15025,9 +13326,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Gesundheit"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15064,10 +13362,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Ausland"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15105,9 +13399,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Lärm"
-		],
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15146,12 +13437,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"EuroAirport",
-			"Zoll",
-			"Zug",
-			"Mobilität"
-		],
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15188,9 +13473,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Mobilität"
-		],
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15227,9 +13509,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Luft"
-		],
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15268,11 +13547,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Umwelt",
-			"Luft"
-		],
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15309,10 +13583,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Umwelt"
-		],
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15351,9 +13621,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie"
-		],
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15392,10 +13659,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			""
-		],
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15432,9 +13695,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall"
-		],
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15471,11 +13731,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Umwelt",
-			"Wasser"
-		],
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15514,11 +13769,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Umwelt",
-			"Luft"
-		],
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15557,9 +13807,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15597,9 +13844,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Kunst"
-		],
 		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15638,13 +13882,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Staatspersonal",
-			"Angestellte",
-			"Konsum",
-			"Schulden"
-		],
 		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15681,13 +13918,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Staatspersonal",
-			"Angestellte",
-			"Konsum",
-			"Schulden"
-		],
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15724,9 +13954,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen"
-		],
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15764,9 +13991,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Gesundheit"
-		],
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15803,9 +14027,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Sicherheit"
-		],
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15843,9 +14064,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verkehr"
-		],
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15882,9 +14100,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Sicherheit"
-		],
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15922,9 +14137,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen"
-		],
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15963,9 +14175,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen"
-		],
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16004,9 +14213,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen"
-		],
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16045,13 +14251,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Staatspersonal",
-			"Angestellte",
-			"Konsum",
-			"Schulden"
-		],
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16088,11 +14287,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verwaltung",
-			"Grosser Rat",
-			"Beurteilung"
-		],
 		"stufe1": "Ziel 12:  Der Service public ist modern und kundenfreundlich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16129,10 +14323,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verwaltung",
-			"Beurteilung"
-		],
 		"stufe1": "Ziel 12:  Der Service public ist modern und kundenfreundlich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16169,12 +14359,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Erwerbstätigkeit",
-			"Angestellte",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16211,12 +14395,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Erwerbstätigkeit",
-			"Angestellte",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16253,10 +14431,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Haushalt",
-			"Familie"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -16291,11 +14465,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Haushalt",
-			"Familie",
-			"Gesundheit"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -16330,9 +14499,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"BIP"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16370,11 +14536,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Bildung",
-			"Schule"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16411,9 +14572,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bildung"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16450,9 +14608,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Familie"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16489,10 +14644,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"BIP",
-			"Schulden"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16530,9 +14681,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16569,9 +14717,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -16609,9 +14754,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -16648,10 +14790,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Bevölkerung"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -16688,9 +14826,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Gebäude"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
@@ -16727,9 +14862,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bildung"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
 		"stufe3": "",
@@ -16766,9 +14898,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Haushalt"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -16806,9 +14935,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16845,10 +14971,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit",
-			"Angestellte"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
@@ -16886,9 +15008,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Steuer"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16925,9 +15044,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Steuer"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16964,10 +15080,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-07-06T14:41:09.099",
-		"schlagwort": [
-			"Bevölkerung",
-			"Wohnen"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -17002,10 +15114,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-08-17T16:15:02.022",
-		"schlagwort": [
-			"Bevölkerung",
-			"Wohnen"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -17040,9 +15148,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-06-12T14:43:40.4040",
-		"schlagwort": [
-			"Pendler"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -17077,9 +15182,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-06-26T16:51:11.1111",
-		"schlagwort": [
-			"Wohnung"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -17114,9 +15216,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-07-04T09:44:27.2727",
-		"schlagwort": [
-			"Wohnung"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -17151,9 +15250,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-07-05T09:32:06.066",
-		"schlagwort": [
-			"Wohnen"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -17189,9 +15285,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wohnen"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -17226,9 +15319,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-07-05T09:38:45.4545",
-		"schlagwort": [
-			"Wohnung"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -17263,9 +15353,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wohnung"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -17300,9 +15387,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Grünflächen"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -17338,9 +15422,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Zufriedenheit"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -17375,9 +15456,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-06-26T14:00:15.1515",
-		"schlagwort": [
-			"ÖV"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 6: Erschliessungsqualität",
 		"stufe3": "",
@@ -17412,9 +15490,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-06-26T14:38:43.4343",
-		"schlagwort": [
-			"Beschäftigte"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
@@ -17449,9 +15524,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-07-04T18:50:03.033",
-		"schlagwort": [
-			"Gebäude"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
@@ -17486,12 +15558,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-08-17T16:31:38.3838",
-		"schlagwort": [
-			"EuroAirport",
-			"Auto",
-			"Standort",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
 		"stufe3": "",
@@ -17526,9 +15592,6 @@ var indikatoren = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "2017-07-19T16:15:08.088",
-		"schlagwort": [
-			"Index"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -17564,9 +15627,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Lärm"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 6: Erschliessungsqualität",
 		"stufe3": "",
@@ -17601,9 +15661,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -17639,9 +15696,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -17676,10 +15730,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Bevölkerung"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -17714,9 +15764,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Gebäude"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
@@ -17751,9 +15798,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bildung"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
 		"stufe3": "",
@@ -17788,9 +15832,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Haushalt"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -17826,10 +15867,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit",
-			"Angestellte"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
@@ -17864,10 +15901,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Bevölkerung"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -17905,11 +15938,6 @@ var indikatoren = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "2017-09-26T00:00:00.000",
-		"schlagwort": [
-			"Arbeit",
-			"Standort",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -17944,11 +15972,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-02-15T10:22:47.4747",
-		"schlagwort": [
-			"Einkommen",
-			"Erwerb",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -17984,13 +16007,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2016-12-14T12:12:59.5959",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Museum",
-			"Kunst",
-			"Quartier",
-			"Standort"
-		],
 		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18025,12 +16041,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2016-12-14T12:19:48.4848",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Gefühl",
-			"Spital",
-			"Patient"
-		],
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18065,11 +16075,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-02-16T13:43:21.2121",
-		"schlagwort": [
-			"Geschlecht",
-			"Bildung",
-			"Schule"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18104,12 +16109,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2015-12-17T00:00:00.000",
-		"schlagwort": [
-			"EuroAirport",
-			"Auto",
-			"Standort",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18144,12 +16143,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2016-12-05T15:36:26.2626",
-		"schlagwort": [
-			"Bewilligung",
-			"Schule",
-			"Standort",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18184,10 +16177,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-03T15:35:31.3131",
-		"schlagwort": [
-			"Bevölkerung",
-			"Hilfeleistung"
-		],
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18223,12 +16212,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Arbeit",
-			"BIP",
-			"Beschäftigte"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18263,11 +16246,6 @@ var indikatoren = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Schweiz",
-			"Standort",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18302,9 +16280,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verwaltung"
-		],
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18339,9 +16314,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Steuer"
-		],
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18376,9 +16348,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18413,12 +16382,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Erwerbstätigkeit",
-			"Angestellte",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18453,9 +16416,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Steuer"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18490,9 +16450,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Steuer"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18527,10 +16484,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verwaltung",
-			"Beurteilung"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18565,9 +16518,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Steuer"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18602,11 +16552,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Alter",
-			"Bildung"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18641,11 +16586,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Alter",
-			"Arbeit",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18680,13 +16620,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Staatspersonal",
-			"Angestellte",
-			"Konsum",
-			"Schulden"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18721,12 +16654,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bildung",
-			"BIP",
-			"Standort",
-			"Branche"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18761,11 +16688,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18800,9 +16722,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18837,9 +16756,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18874,12 +16790,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Ausland",
-			"Geburtsort"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18914,12 +16824,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Arbeit",
-			"Erwerb",
-			"Beschäftigte"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18954,12 +16858,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Arbeit",
-			"Erwerb",
-			"Beschäftigte"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18994,14 +16892,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Ausland",
-			"Einbürgerung",
-			"Migrationshintergrund",
-			"Migration"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19036,11 +16926,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit",
-			"Erwerbstätigkeit",
-			"Beschäftigte"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19075,9 +16960,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Gesundheit"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19112,10 +16994,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Ausland"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19150,9 +17028,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Lärm"
-		],
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19187,12 +17062,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"EuroAirport",
-			"Zoll",
-			"Zug",
-			"Mobilität"
-		],
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19227,9 +17096,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Mobilität"
-		],
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19264,9 +17130,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Luft"
-		],
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19301,11 +17164,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Umwelt",
-			"Luft"
-		],
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19340,10 +17198,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Umwelt"
-		],
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19378,9 +17232,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie"
-		],
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19415,10 +17266,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			""
-		],
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19453,9 +17300,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall"
-		],
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19490,11 +17334,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Umwelt",
-			"Wasser"
-		],
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19529,11 +17368,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Umwelt",
-			"Luft"
-		],
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19568,9 +17402,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19605,9 +17436,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Kunst"
-		],
 		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19643,13 +17471,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Staatspersonal",
-			"Angestellte",
-			"Konsum",
-			"Schulden"
-		],
 		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19684,13 +17505,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Staatspersonal",
-			"Angestellte",
-			"Konsum",
-			"Schulden"
-		],
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19725,9 +17539,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen"
-		],
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19762,9 +17573,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Gesundheit"
-		],
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19799,9 +17607,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Sicherheit"
-		],
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19837,9 +17642,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verkehr"
-		],
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19874,9 +17676,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Sicherheit"
-		],
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19911,9 +17710,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen"
-		],
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19949,9 +17745,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen"
-		],
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19987,9 +17780,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen"
-		],
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20025,13 +17815,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Staatspersonal",
-			"Angestellte",
-			"Konsum",
-			"Schulden"
-		],
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20066,11 +17849,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verwaltung",
-			"Grosser Rat",
-			"Beurteilung"
-		],
 		"stufe1": "Ziel 12:  Der Service public ist modern und kundenfreundlich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20105,10 +17883,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verwaltung",
-			"Beurteilung"
-		],
 		"stufe1": "Ziel 12:  Der Service public ist modern und kundenfreundlich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20143,12 +17917,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Erwerbstätigkeit",
-			"Angestellte",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20183,12 +17951,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Erwerbstätigkeit",
-			"Angestellte",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20223,9 +17985,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"BIP"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20261,11 +18020,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Bildung",
-			"Schule"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20300,9 +18054,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bildung"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20337,9 +18088,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Familie"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20374,10 +18122,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"BIP",
-			"Schulden"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20412,9 +18156,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20449,9 +18190,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20486,9 +18224,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Steuer"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20523,9 +18258,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Steuer"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20560,10 +18292,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Bevölkerung"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20598,10 +18326,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Patient",
-			"Gesundheit"
-		],
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20639,10 +18363,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit",
-			"Angestellte"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20679,9 +18399,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit"
-		],
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20718,9 +18435,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wohnen"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -20756,9 +18470,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wohnen"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -20794,9 +18505,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wohnen"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -20832,9 +18540,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wohnen"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -20870,13 +18575,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2015-12-17T00:00:00.000",
-		"schlagwort": [
-			"Ausland",
-			"Niederlassung",
-			"Arbeit",
-			"Erwerbstätigkeit",
-			"Standort"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20911,10 +18609,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2016-12-07T15:07:33.3333",
-		"schlagwort": [
-			"Arbeit",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20949,10 +18643,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Patient",
-			"Gesundheit"
-		],
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20988,10 +18678,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit",
-			"Angestellte"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -21026,9 +18712,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit"
-		],
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
@@ -21063,10 +18746,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Ausland"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -21101,10 +18780,6 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -21139,11 +18814,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Ausland",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -21178,11 +18848,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Ausland",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -21217,10 +18882,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Sprache",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -21255,11 +18916,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Alter",
-			"Ausland",
-			"Deutsch"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -21294,10 +18950,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bewilligung",
-			"Sprache"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -21332,10 +18984,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bewilligung",
-			"Sprache"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -21370,10 +19018,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"Arbeitslosigkeit"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21409,12 +19053,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Bevölkerung",
-			"Staatsangehörigkeit",
-			"Arbeitslosigkeit"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21450,11 +19088,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Bevölkerung",
-			"Ausland"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21490,11 +19123,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Staatsangehörigkeit",
-			"Arbeitslosigkeit"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21530,11 +19158,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Bevölkerung",
-			"Arbeitslosigkeit"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21570,11 +19193,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"Arbeitslosigkeit",
-			"Beruf"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21609,10 +19227,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Bevölkerung"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21647,10 +19261,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Bevölkerung"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21685,10 +19295,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21723,9 +19329,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21760,11 +19363,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Alter",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21799,10 +19397,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21837,11 +19431,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"Angestellte",
-			"Verwaltung"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21877,11 +19466,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Angestellte",
-			"Verwaltung"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21917,11 +19501,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Schweiz",
-			"Angestellte",
-			"Verwaltung"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21957,11 +19536,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"Angestellte",
-			"Verwaltung"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21997,12 +19571,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Staatsangehörigkeit",
-			"Angestellte",
-			"Verwaltung"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -22038,11 +19606,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"Angestellte",
-			"Verwaltung"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -22078,11 +19641,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"Angestellte",
-			"Verwaltung"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -22118,10 +19676,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"Sozialhilfe"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -22156,10 +19710,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"Sozialhilfe"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -22194,12 +19744,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Ausländer",
-			"Bevölkerung",
-			"Sozialhilfe"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -22234,12 +19778,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Bevölkerung",
-			"Schweiz",
-			"Sozialhilfe"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -22274,10 +19812,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"IV"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -22313,10 +19847,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"IV"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -22352,10 +19882,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"IV"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -22391,9 +19917,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
@@ -22428,9 +19951,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
@@ -22465,12 +19985,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bewilligung",
-			"Arbeit",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -22505,12 +20019,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bewilligung",
-			"Arbeit",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -22545,11 +20053,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Meldepflichtige",
@@ -22584,11 +20087,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Meldepflichtige",
@@ -22623,9 +20121,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Beschäftigte"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
@@ -22660,9 +20155,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Beschäftigte"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
@@ -22697,10 +20189,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Beschäftigte",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
@@ -22735,10 +20223,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Beschäftigte",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
@@ -22773,9 +20257,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Beschäftigte"
-		],
 		"stufe1": "Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
@@ -22810,9 +20291,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeitslosigkeit"
-		],
 		"stufe1": "Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
@@ -22847,9 +20325,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Erwerb"
-		],
 		"stufe1": "Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
@@ -22885,9 +20360,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Erwerb"
-		],
 		"stufe1": "Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
@@ -22922,9 +20394,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Erwerb"
-		],
 		"stufe1": "Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
@@ -22959,9 +20428,6 @@ var indikatoren = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Erwerb"
-		],
 		"stufe1": "Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
@@ -22996,10 +20462,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Haushalt",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -23034,10 +20496,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -23072,10 +20530,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -23110,10 +20564,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -23148,10 +20598,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"Vermögen"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -23186,10 +20632,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Arbeit"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -23224,9 +20666,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Zufriedenheit"
-		],
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -23261,10 +20700,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Familie",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23299,10 +20734,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"Wohnen"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23339,10 +20770,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"Wohnen"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23378,10 +20805,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"Wohnen"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23417,10 +20840,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"Wohnen"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23456,15 +20875,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Ausland",
-			"Niederlassung",
-			"Einbürgerung",
-			"Migrationshintergrund",
-			"Zuzug"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23499,11 +20909,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Alter",
-			"Einbürgerung"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23538,10 +20943,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Migration",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23576,10 +20977,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"Beschuldigte"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23615,12 +21012,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Alter",
-			"Staatsangehörigkeit",
-			"Beschuldigte"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23656,12 +21047,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Alter",
-			"Staatsangehörigkeit",
-			"Beschuldigte"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23697,10 +21082,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bewilligung",
-			"Beschuldigte"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23736,10 +21117,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"Beschuldigte"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23775,12 +21152,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Alter",
-			"Staatsangehörigkeit",
-			"Beschuldigte"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23816,12 +21187,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Alter",
-			"Staatsangehörigkeit",
-			"Beschuldigte"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23857,12 +21222,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Jugend",
-			"Bewilligung",
-			"Beschuldigte"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23898,10 +21257,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Jugend",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23936,10 +21291,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Staatsangehörigkeit",
-			"Arbeit"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23974,10 +21325,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Religion",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -24012,10 +21359,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Religion",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -24050,11 +21393,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verwaltung",
-			"Grosser Rat",
-			"Beurteilung"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -24089,12 +21427,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Ausland",
-			"Geburtsort"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -24129,9 +21461,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Zufriedenheit"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -24167,9 +21496,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-02-01T00:00:00.000",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -24204,10 +21530,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Zufriedenheit"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -24242,10 +21564,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeitslosigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -24280,10 +21598,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeitslosigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -24318,11 +21632,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Zufriedenheit",
-			"Wohnen"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -24357,11 +21666,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Zufriedenheit",
-			"Wohnen"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -24396,11 +21700,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Zufriedenheit",
-			"Bevölkerung"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -24435,10 +21734,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausland",
-			"Geburtsort"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -24473,9 +21768,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Sprache"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -24510,9 +21802,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Sprache"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -24547,9 +21836,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Sprache"
-		],
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -24584,9 +21870,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bildung"
-		],
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -24622,9 +21905,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bildung"
-		],
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -24660,9 +21940,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Sprache"
-		],
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -24697,9 +21974,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Sprache"
-		],
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -24734,11 +22008,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -24773,11 +22042,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -24812,10 +22076,6 @@ var indikatoren = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Kantonsvergleich",
-			"Löhne"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Löhne",
 		"stufe3": "",
@@ -24850,10 +22110,6 @@ var indikatoren = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Löhne"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Löhne",
 		"stufe3": "",
@@ -24888,10 +22144,6 @@ var indikatoren = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Alter",
-			"Löhne"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Löhne",
 		"stufe3": "",
@@ -24926,10 +22178,6 @@ var indikatoren = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bewilligung",
-			"Löhne"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Löhne",
 		"stufe3": "",
@@ -24964,10 +22212,6 @@ var indikatoren = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Branche",
-			"Löhne"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Löhne",
 		"stufe3": "",
@@ -25002,10 +22246,6 @@ var indikatoren = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Branche",
-			"Löhne"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Löhne",
 		"stufe3": "",
@@ -25040,10 +22280,6 @@ var indikatoren = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Branche",
-			"Löhne"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Löhne",
 		"stufe3": "",
@@ -25078,10 +22314,6 @@ var indikatoren = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Branche",
-			"Löhne"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Löhne",
 		"stufe3": "",
@@ -25116,10 +22348,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Kantonsvergleich",
-			"Beschäftigte"
-		],
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
@@ -25154,11 +22382,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25193,11 +22416,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25232,11 +22450,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25271,11 +22484,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25310,11 +22518,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25349,11 +22552,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25388,12 +22586,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25428,12 +22620,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25468,13 +22654,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Ausland",
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25509,13 +22688,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Ausland",
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25550,12 +22722,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25590,13 +22756,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Ausland",
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25631,13 +22790,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Ausland",
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25672,10 +22824,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bewilligung",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -25710,11 +22858,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25750,9 +22893,6 @@ var indikatoren = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "2017-09-26T00:00:00.000",
-		"schlagwort": [
-			"Test"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25787,9 +22927,6 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Boden"
-		],
 		"stufe1": "Strategie 2",
 		"stufe2": "",
 		"stufe3": "",
@@ -25824,12 +22961,6 @@ var indikatoren = [
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "2017-06-26T16:19:02.022",
-		"schlagwort": [
-			"Haushalt",
-			"Familie",
-			"Quote",
-			"Auto"
-		],
 		"stufe1": "Test",
 		"stufe2": "",
 		"stufe3": "",

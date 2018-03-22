@@ -12,11 +12,6 @@ var indikatorensetData = [
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "2017-11-17T00:00:00.000",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Umwelt",
-			"Cercle Indicateurs"
-		],
 		"stufe1": "Umwelt",
 		"stufe2": "U2: Natur und Landschaft",
 		"stufe3": "",
@@ -51,12 +46,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Umwelt",
-			"Wasser",
-			"Cercle Indicateurs"
-		],
 		"stufe1": "Umwelt",
 		"stufe2": "U7: Wasserhaushalt",
 		"stufe3": "",
@@ -92,12 +81,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Umwelt",
-			"Wasser",
-			"Cercle Indicateurs"
-		],
 		"stufe1": "Umwelt",
 		"stufe2": "U7: Wasserhaushalt",
 		"stufe3": "",
@@ -133,12 +116,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Umwelt",
-			"Energie",
-			"Cercle Indicateurs"
-		],
 		"stufe1": "Umwelt",
 		"stufe2": "U3: Energiequalität",
 		"stufe3": "",
@@ -174,11 +151,6 @@ var indikatorensetData = [
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Umwelt",
-			"Cercle Indicateurs"
-		],
 		"stufe1": "Umwelt",
 		"stufe2": "U1: Biodiversität",
 		"stufe3": "",
@@ -212,11 +184,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Gebäude",
-			"Nachhaltigkeit",
-			"Cercle Indicateurs"
-		],
 		"stufe1": "Wirtschaft",
 		"stufe2": "W4: Investitionen",
 		"stufe3": "",
@@ -250,10 +217,6 @@ var indikatorensetData = [
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Cercle Indicateurs"
-		],
 		"stufe1": "Wirtschaft",
 		"stufe2": "W8: Wirtschaftsstruktur",
 		"stufe3": "",
@@ -288,10 +251,6 @@ var indikatorensetData = [
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Cercle Indicateurs"
-		],
 		"stufe1": "Wirtschaft",
 		"stufe2": "W9: Know-how",
 		"stufe3": "",
@@ -325,10 +284,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Cercle Indicateurs"
-		],
 		"stufe1": "Wirtschaft",
 		"stufe2": "W10: Öffentlicher Haushalt",
 		"stufe3": "",
@@ -362,11 +317,6 @@ var indikatorensetData = [
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Verkehr",
-			"Cercle Indicateurs"
-		],
 		"stufe1": "Gesellschaft",
 		"stufe2": "G1: Lärm / Wohnqualität",
 		"stufe3": "",
@@ -400,11 +350,6 @@ var indikatorensetData = [
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Verbrechen",
-			"Cercle Indicateurs"
-		],
 		"stufe1": "Gesellschaft",
 		"stufe2": "G4: Sicherheit",
 		"stufe3": "",
@@ -440,10 +385,6 @@ var indikatorensetData = [
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Cercle Indicateurs"
-		],
 		"stufe1": "Gesellschaft",
 		"stufe2": "G11: Chancengleichheit",
 		"stufe3": "",
