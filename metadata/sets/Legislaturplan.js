@@ -288,7 +288,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "2.3",
 		"description": "Anzahl Neugründungen in Basel-Stadt",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -754,7 +754,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.4",
 		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -861,7 +861,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.8",
 		"description": "Anteil der Beschäftigten in innovativen Branchen",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -897,7 +897,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "4.1",
 		"description": "Bevölkerungsbestand am Jahresende",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -932,7 +932,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "4.2",
 		"description": "Bevölkerung nach sozioprofessioneller Kategorie",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1004,7 +1004,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "4.6",
 		"description": "Verhältnis der Löhne von Frauen und Männern in Basel-Stadt",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Löhne ",
+		"unterthema": "Löhne",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1040,7 +1040,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "4.7",
 		"description": "Anteil Arbeitnehmende in Unternehmensleitung oder Vorgesetztenfunktion nach Geschlecht",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Erwerbspersonen ",
+		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1250,7 +1250,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Transit durch die Region Basel",
-		"subtitle": " in Brutto-Tonnen nach Verkehrsträger",
+		"subtitle": "in Brutto-Tonnen nach Verkehrsträger",
 		"kuerzel": "I.06.4.06155",
 		"kuerzelKunde": "5.3",
 		"description": "Transit durch die Region Basel",
@@ -2610,7 +2610,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "2.5",
 		"description": "Anzahl Beschäftigte nach Branche",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"

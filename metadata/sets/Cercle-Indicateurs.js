@@ -211,7 +211,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "W08",
 		"description": "Beschäftigte in Branchen mit hoher Arbeitsproduktivität",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Cercle-Indicateurs",
 		"raeumlicheGliederung": [
 			"Gemeinde"
@@ -245,7 +245,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "W09",
 		"description": "Qualifikationsniveau",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Cercle-Indicateurs",
 		"raeumlicheGliederung": [
 			"Gemeinde"

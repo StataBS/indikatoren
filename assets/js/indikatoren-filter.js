@@ -35,12 +35,21 @@ var view = false;
 var perPage=16;
 
 $(document).ready(function(){
+  
+  //display header if requested
+  var showHeader = window.decodeURIComponent($.url('?showHeader')) === 'true';
+  if (showHeader) { 
+    $('#header').removeClass('hidden'); 
+  }
+  
+  //pre-populate searchbox
+  var searchUrlParamValue = window.decodeURIComponent($.url('?search'));
+  if (searchUrlParamValue != "undefined"){$("#searchbox").val(searchUrlParamValue);}
+  
   //Render page differently depending on url query string 'Indikatorenset'
-  //var indikatorenset = $.url('?Indikatorenset');
   var indikatorenset = window.decodeURIComponent($.url('?Indikatorenset'));
   //defines if portal or indikatorenset view is to be shown
   view = false;
-  
   var jsonDatabaseUrl = 'metadata/portal/indikatoren.js';
   //determine if valid indikaorenset name
   if (indikatorensetNames.indexOf(indikatorenset) > -1){
@@ -49,7 +58,7 @@ $(document).ready(function(){
   }
   
   //dynamically change filterColumns in indikatorenset view only, see http://jsfiddle.net/KyleMit/pgt6tczj/
-  var stufeParameter = +window.decodeURIComponent($.url('?stufe')); 
+  var stufeParameter = parseInt(window.decodeURIComponent($.url('?stufe')), 10); 
   var maxStufe = (stufeParameter >= 0 && stufeParameter <= 5 ? stufeParameter : 2);
   if (isIndikatorensetView(view)){
     //change width of columns
@@ -256,6 +265,30 @@ function preparePortalView(){
   var baseQuery = {};
   //render unterthema dropdown for the first time   
   renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema', baseQuery);
+  
+  //pre-populate fields with url parameter values
+  var themaUrlParameterVal = window.decodeURIComponent($.url('?thema'));
+  //check if thema is valid
+  if (indikatoren.find(function(element){return element['thema'] === themaUrlParameterVal;})) {
+    $("#thema_criteria :radio").filter("[value='" + themaUrlParameterVal + "']").prop("checked", true);
+  }
+  setDropdownValFromUrlParameter('unterthema');
+  var raeumlicheGliederungUrlParameterValue = window.decodeURIComponent($.url('?raeumlicheGliederung'));
+  if (raeumlicheGliederungUrlParameterValue != undefined){setMultiselectValue("#raeumlicheGliederung_filter", raeumlicheGliederungUrlParameterValue);}  
+  //hide elements upon request
+  if (window.decodeURIComponent($.url('?hideSidebar')) === 'true'){$('#sidebar-element').hide()}
+  if (window.decodeURIComponent($.url('?hideUnterthema')) === 'true'){$('#unterthema_criteria').hide()}
+  if (window.decodeURIComponent($.url('?hideSearch')) === 'true'){$('#search').hide()}
+  if (window.decodeURIComponent($.url('?hideResetButton')) === 'true'){$('#portal-reset-button').hide()}
+  if (window.decodeURIComponent($.url('?hideThema')) === 'true'){$('#thema').hide()}
+  if (window.decodeURIComponent($.url('?hideRaeumlicheGliederung')) === 'true'){$('#raeumlicheGliederung').hide()}
+}
+
+
+//set a multiselect dropdown value and trigger a change event
+function setMultiselectValue(selector, value){
+  $(selector + " option").prop('selected', false);
+  $(selector).multiselect('deselectAll', false).multiselect('select', value).multiselect('updateButtonText');
 }
 
 
@@ -280,9 +313,17 @@ function prepareIndikatorensetView(indikatorenset){
   renderDropdownFromJson(indikatoren, 'stufe3', '#stufe3_filter', 'orderKey', baseQuery);
   
   //pre-populate fields with url parameter values
-  $("#stufe1_filter").val(window.decodeURIComponent($.url('?stufe1')));
-  $("#stufe2_filter").val(window.decodeURIComponent($.url('?stufe2')));
-  $("#stufe3_filter").val(window.decodeURIComponent($.url('?stufe3')));
+  setDropdownValFromUrlParameter('stufe1');
+  setDropdownValFromUrlParameter('stufe2');
+  setDropdownValFromUrlParameter('stufe3');
+}
+
+//check if field value exists before setting value of dropdown  
+function setDropdownValFromUrlParameter(field){
+  var urlParameterValue = window.decodeURIComponent($.url('?' + field));
+  if (indikatoren.find(function(element){return element[field] === urlParameterValue;})) {
+    $("#" + field + "_filter").val(urlParameterValue);
+  }
 }
 
 

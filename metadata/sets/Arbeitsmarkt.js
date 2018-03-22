@@ -371,7 +371,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.3-02",
 		"description": "Arbeitslosenquote nach Alter",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -404,7 +404,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.3-03",
 		"description": "Arbeitslosenquote nach Herkunft und Geschlecht",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -437,7 +437,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.3-04",
 		"description": "Arbeitslose nach Ländergruppe",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -470,7 +470,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.3-05",
 		"description": "Arbeitslose in Industrie und Baugewerbe",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -503,7 +503,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.3-06",
 		"description": "Arbeitslose im Dienstleistungssektor (I)",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -536,7 +536,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.3-01",
 		"description": "Arbeitslosenquote nach Kanton",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton",
@@ -769,7 +769,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.2-05",
 		"description": "Beschäftigung in Industrie und Baugewerbe",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -802,7 +802,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.2-06",
 		"description": "Beschäftigung im Dienstleistungssektor (I)",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -835,7 +835,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.2-01",
 		"description": "Beschäftigung nach Kanton",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1264,7 +1264,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.2-03",
 		"description": "Beschäftigung nach Geschlecht",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1297,7 +1297,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.2-04",
 		"description": "Durchschnittlicher Beschäftigungsgrad nach Geschlecht",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1330,7 +1330,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.2-07",
 		"description": "Beschäftigung im Dienstleistungssektor (II)",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1363,7 +1363,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.2-08",
 		"description": "Beschäftigung im Dienstleistungssektor (III)",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1396,7 +1396,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "2.1-01",
 		"description": "Beschäftigung nach Branche",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1429,7 +1429,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "2.2-01",
 		"description": "Arbeitslosenquote nach Branche",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1562,7 +1562,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "2.4-01",
 		"description": "Löhne nach Branche",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Löhne ",
+		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
@@ -1595,7 +1595,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.3-07",
 		"description": "Arbeitslose im Dienstleistungssektor (II)",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1628,7 +1628,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.3-08",
 		"description": "Arbeitslose im Dienstleistungssektor (III)",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1727,7 +1727,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.5-01",
 		"description": "Medianlohn in der Schweiz, der Nordwestschweiz und Zürich",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Löhne ",
+		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
@@ -1760,7 +1760,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.5-02",
 		"description": "Medianlohn nach Geschlecht",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Löhne ",
+		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
@@ -1793,7 +1793,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.5-03",
 		"description": "Medianlohn nach Alter",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Löhne ",
+		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
@@ -1826,7 +1826,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.5-04",
 		"description": "Medianlohn in der Privatwirtschaft nach Bewilligungsart",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Löhne ",
+		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
@@ -1859,7 +1859,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.5-05",
 		"description": "Medianlohn in Industrie und Baugewerbe",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Löhne ",
+		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
@@ -1892,7 +1892,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.5-06",
 		"description": "Medianlohn im Dienstleistungssektor (I)",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Löhne ",
+		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
@@ -1925,7 +1925,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.5-07",
 		"description": "Medianlohn im Dienstleistungssektor (II)",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Löhne ",
+		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
@@ -1958,7 +1958,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.5-08",
 		"description": "Medianlohn im Dienstleistungssektor (III)",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Löhne ",
+		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
@@ -1991,7 +1991,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3.2-02",
 		"description": "Beschäftigung nach Grösse der Arbeitsstätte und Kanton",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
