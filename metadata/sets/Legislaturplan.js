@@ -13,11 +13,6 @@ var indikatorensetData = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "2017-09-26T00:00:00.000",
-		"schlagwort": [
-			"Arbeit",
-			"Standort",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -53,11 +48,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-02-15T10:22:47.4747",
-		"schlagwort": [
-			"Einkommen",
-			"Erwerb",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -93,13 +83,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2016-12-14T12:12:59.5959",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Museum",
-			"Kunst",
-			"Quartier",
-			"Standort"
-		],
 		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
@@ -135,12 +118,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2016-12-14T12:19:48.4848",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Gefühl",
-			"Spital",
-			"Patient"
-		],
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -176,11 +153,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-02-16T13:43:21.2121",
-		"schlagwort": [
-			"Geschlecht",
-			"Bildung",
-			"Schule"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -216,13 +188,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2015-12-17T00:00:00.000",
-		"schlagwort": [
-			"Ausland",
-			"Niederlassung",
-			"Arbeit",
-			"Erwerbstätigkeit",
-			"Standort"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -258,12 +223,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2015-12-17T00:00:00.000",
-		"schlagwort": [
-			"EuroAirport",
-			"Auto",
-			"Standort",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -300,12 +259,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2016-12-05T15:36:26.2626",
-		"schlagwort": [
-			"Bewilligung",
-			"Schule",
-			"Standort",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -341,10 +294,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2016-12-07T15:07:33.3333",
-		"schlagwort": [
-			"Arbeit",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -380,10 +329,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-03T15:35:31.3131",
-		"schlagwort": [
-			"Bevölkerung",
-			"Hilfeleistung"
-		],
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -420,12 +365,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Arbeit",
-			"BIP",
-			"Beschäftigte"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -462,11 +401,6 @@ var indikatorensetData = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Schweiz",
-			"Standort",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
@@ -503,9 +437,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verwaltung"
-		],
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
@@ -541,9 +472,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Steuer"
-		],
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
@@ -579,9 +507,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -617,12 +542,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Erwerbstätigkeit",
-			"Angestellte",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -658,9 +577,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Steuer"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -702,9 +618,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Steuer"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -741,10 +654,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verwaltung",
-			"Beurteilung"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -780,9 +689,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Steuer"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -818,11 +724,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Alter",
-			"Bildung"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -859,11 +760,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Alter",
-			"Arbeit",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -900,13 +796,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Staatspersonal",
-			"Angestellte",
-			"Konsum",
-			"Schulden"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -942,12 +831,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bildung",
-			"BIP",
-			"Standort",
-			"Branche"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -984,11 +867,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1025,9 +903,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1063,9 +938,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1101,12 +973,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Ausland",
-			"Geburtsort"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1144,12 +1010,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Arbeit",
-			"Erwerb",
-			"Beschäftigte"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1186,12 +1046,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Arbeit",
-			"Erwerb",
-			"Beschäftigte"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1227,14 +1081,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Ausland",
-			"Einbürgerung",
-			"Migrationshintergrund",
-			"Migration"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1271,11 +1117,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit",
-			"Erwerbstätigkeit",
-			"Beschäftigte"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1312,9 +1153,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Gesundheit"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1350,10 +1188,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Ausland"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1390,9 +1224,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Lärm"
-		],
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1430,12 +1261,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"EuroAirport",
-			"Zoll",
-			"Zug",
-			"Mobilität"
-		],
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1471,9 +1296,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Mobilität"
-		],
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1509,9 +1331,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Luft"
-		],
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1549,11 +1368,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Umwelt",
-			"Luft"
-		],
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1589,10 +1403,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Umwelt"
-		],
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1630,9 +1440,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie"
-		],
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1670,10 +1477,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			""
-		],
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1709,9 +1512,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall"
-		],
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1747,11 +1547,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Umwelt",
-			"Wasser"
-		],
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1789,11 +1584,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Umwelt",
-			"Luft"
-		],
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1831,9 +1621,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1870,9 +1657,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Kunst"
-		],
 		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1910,13 +1694,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Staatspersonal",
-			"Angestellte",
-			"Konsum",
-			"Schulden"
-		],
 		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1952,13 +1729,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Staatspersonal",
-			"Angestellte",
-			"Konsum",
-			"Schulden"
-		],
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1994,9 +1764,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen"
-		],
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2033,9 +1800,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Gesundheit"
-		],
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2071,9 +1835,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Sicherheit"
-		],
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2110,9 +1871,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verkehr"
-		],
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2148,9 +1906,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Sicherheit"
-		],
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2187,9 +1942,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen"
-		],
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2227,9 +1979,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen"
-		],
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2267,9 +2016,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen"
-		],
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2307,13 +2053,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Staatspersonal",
-			"Angestellte",
-			"Konsum",
-			"Schulden"
-		],
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2349,11 +2088,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verwaltung",
-			"Grosser Rat",
-			"Beurteilung"
-		],
 		"stufe1": "Ziel 12:  Der Service public ist modern und kundenfreundlich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2389,10 +2123,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verwaltung",
-			"Beurteilung"
-		],
 		"stufe1": "Ziel 12:  Der Service public ist modern und kundenfreundlich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2428,12 +2158,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Erwerbstätigkeit",
-			"Angestellte",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2469,12 +2193,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Erwerbstätigkeit",
-			"Angestellte",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2510,9 +2228,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"BIP"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2549,11 +2264,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Bildung",
-			"Schule"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2589,9 +2299,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bildung"
-		],
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2627,9 +2334,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Familie"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2665,10 +2369,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"BIP",
-			"Schulden"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2705,9 +2405,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2743,9 +2440,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2781,9 +2475,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Steuer"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2819,9 +2510,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Steuer"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2857,10 +2545,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Bevölkerung"
-		],
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2896,10 +2580,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Patient",
-			"Gesundheit"
-		],
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2936,10 +2616,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit",
-			"Angestellte"
-		],
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2975,9 +2651,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit"
-		],
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",

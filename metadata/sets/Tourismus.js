@@ -12,11 +12,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -50,11 +45,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -88,11 +78,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -126,11 +111,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -164,11 +144,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -202,11 +177,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -240,12 +210,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -279,12 +243,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -318,13 +276,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Ausland",
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -358,13 +309,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Ausland",
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -398,12 +342,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -437,13 +375,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Ausland",
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -477,13 +408,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Ausland",
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -517,11 +441,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Übernachtung",
-			"Gäste",
-			"Hotelbetten"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",

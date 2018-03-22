@@ -12,10 +12,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-07-06T14:41:09.099",
-		"schlagwort": [
-			"Bevölkerung",
-			"Wohnen"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -49,10 +45,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-08-17T16:15:02.022",
-		"schlagwort": [
-			"Bevölkerung",
-			"Wohnen"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -86,9 +78,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-06-12T14:43:40.4040",
-		"schlagwort": [
-			"Pendler"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -122,9 +111,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-06-26T16:51:11.1111",
-		"schlagwort": [
-			"Wohnung"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -158,9 +144,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-07-04T09:44:27.2727",
-		"schlagwort": [
-			"Wohnung"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -194,9 +177,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-07-05T09:32:06.066",
-		"schlagwort": [
-			"Wohnen"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -231,9 +211,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wohnen"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -267,9 +244,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-07-05T09:38:45.4545",
-		"schlagwort": [
-			"Wohnung"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -303,9 +277,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wohnung"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -339,9 +310,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Grünflächen"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -376,9 +344,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Zufriedenheit"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -412,9 +377,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-06-26T14:00:15.1515",
-		"schlagwort": [
-			"ÖV"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 6: Erschliessungsqualität",
 		"stufe3": "",
@@ -448,9 +410,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-06-26T14:38:43.4343",
-		"schlagwort": [
-			"Beschäftigte"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
@@ -484,9 +443,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-07-04T18:50:03.033",
-		"schlagwort": [
-			"Gebäude"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
@@ -520,12 +476,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-08-17T16:31:38.3838",
-		"schlagwort": [
-			"EuroAirport",
-			"Auto",
-			"Standort",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
 		"stufe3": "",
@@ -559,9 +509,6 @@ var indikatorensetData = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "2017-07-19T16:15:08.088",
-		"schlagwort": [
-			"Index"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -596,9 +543,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Lärm"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 6: Erschliessungsqualität",
 		"stufe3": "",
@@ -632,9 +576,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -669,9 +610,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -705,10 +643,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Bevölkerung"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -742,9 +676,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Gebäude"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
@@ -778,9 +709,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bildung"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
 		"stufe3": "",
@@ -814,9 +742,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Haushalt"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -851,10 +776,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit",
-			"Angestellte"
-		],
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",

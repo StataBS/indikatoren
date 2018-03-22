@@ -12,9 +12,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Boden"
-		],
 		"stufe1": "Strategie 2",
 		"stufe2": "",
 		"stufe3": "",
@@ -49,12 +46,6 @@ var indikatorensetData = [
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "2017-06-26T16:19:02.022",
-		"schlagwort": [
-			"Haushalt",
-			"Familie",
-			"Quote",
-			"Auto"
-		],
 		"stufe1": "Test",
 		"stufe2": "",
 		"stufe3": "",
