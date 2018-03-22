@@ -12,10 +12,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			"Klima"
-		],
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -49,9 +45,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie"
-		],
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -86,11 +79,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			"Biodiversität",
-			"Klima"
-		],
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -125,9 +113,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie"
-		],
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -162,9 +147,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie"
-		],
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -199,10 +181,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			"Klima"
-		],
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -238,9 +216,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie"
-		],
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -275,10 +250,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			"Klima"
-		],
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -312,9 +283,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie"
-		],
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -349,9 +317,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie"
-		],
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -386,9 +351,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -423,10 +385,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Boden",
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -461,9 +419,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -497,9 +452,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -533,9 +485,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -570,9 +519,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -607,11 +553,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Boden",
-			"Stoffe und Produkte",
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -645,9 +586,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -681,9 +619,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -718,9 +653,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -755,9 +687,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -791,9 +720,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -827,9 +753,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -864,9 +787,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Störfälle"
-		],
 		"stufe1": "Thema Störfälle",
 		"stufe2": "",
 		"stufe3": "",
@@ -901,9 +821,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Störfälle"
-		],
 		"stufe1": "Thema Störfälle",
 		"stufe2": "",
 		"stufe3": "",
@@ -938,10 +855,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Boden",
-			"Landschaft"
-		],
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -976,9 +889,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Boden"
-		],
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -1013,10 +923,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Boden",
-			"Biodiversität"
-		],
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -1051,11 +957,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Boden",
-			"Biodiversität",
-			"Landschaft"
-		],
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -1090,9 +991,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Boden"
-		],
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -1127,11 +1025,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Boden",
-			"Biodiversität",
-			"Wasser"
-		],
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -1166,9 +1059,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Altlasten"
-		],
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -1203,9 +1093,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Altlasten"
-		],
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -1240,9 +1127,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Altlasten"
-		],
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -1277,9 +1161,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Altlasten"
-		],
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -1314,9 +1195,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Altlasten"
-		],
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -1351,9 +1229,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Biotechnologie"
-		],
 		"stufe1": "Thema Biotechnologie",
 		"stufe2": "",
 		"stufe3": "",
@@ -1388,9 +1263,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Biotechnologie"
-		],
 		"stufe1": "Thema Biotechnologie",
 		"stufe2": "",
 		"stufe3": "",
@@ -1425,9 +1297,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Biotechnologie"
-		],
 		"stufe1": "Thema Biotechnologie",
 		"stufe2": "",
 		"stufe3": "",
@@ -1462,9 +1331,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Biotechnologie"
-		],
 		"stufe1": "Thema Biotechnologie",
 		"stufe2": "",
 		"stufe3": "",
@@ -1499,9 +1365,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Lärm"
-		],
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -1537,9 +1400,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Lärm"
-		],
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -1575,9 +1435,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Lärm"
-		],
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -1613,9 +1470,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Lärm"
-		],
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -1650,9 +1504,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Lärm"
-		],
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -1686,11 +1537,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			"Luft",
-			"Wald"
-		],
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -1727,9 +1573,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Luft"
-		],
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -1766,10 +1609,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			"Luft"
-		],
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -1806,9 +1645,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Luft"
-		],
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -1847,9 +1683,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Luft"
-		],
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -1884,9 +1717,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Luft"
-		],
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -1922,9 +1752,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Luft"
-		],
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -1960,9 +1787,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Luft"
-		],
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -1998,10 +1822,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			"Luft"
-		],
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -2038,9 +1858,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Luft"
-		],
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -2076,9 +1893,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wald"
-		],
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -2112,9 +1926,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wald"
-		],
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -2149,9 +1960,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wald"
-		],
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -2186,9 +1994,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wald"
-		],
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -2222,9 +2027,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wald"
-		],
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -2259,10 +2061,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Landschaft",
-			"Wald"
-		],
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -2297,9 +2095,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wald"
-		],
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -2333,9 +2128,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Stoffe und Produkte"
-		],
 		"stufe1": "Thema Stoffe und Produkte",
 		"stufe2": "",
 		"stufe3": "",
@@ -2370,9 +2162,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Stoffe und Produkte"
-		],
 		"stufe1": "Thema Stoffe und Produkte",
 		"stufe2": "",
 		"stufe3": "",
@@ -2407,9 +2196,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Stoffe und Produkte"
-		],
 		"stufe1": "Thema Stoffe und Produkte",
 		"stufe2": "",
 		"stufe3": "",
@@ -2444,9 +2230,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Klima"
-		],
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -2481,11 +2264,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			"Klima",
-			"Wald"
-		],
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -2520,9 +2298,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Klima"
-		],
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -2556,11 +2331,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Biodiversität",
-			"Klima",
-			"Wasser"
-		],
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -2595,9 +2365,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Klima"
-		],
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -2632,10 +2399,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Biodiversität",
-			"Wasser"
-		],
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -2670,10 +2433,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Biodiversität",
-			"Landschaft"
-		],
 		"stufe1": "Thema Biodiversität",
 		"stufe2": "",
 		"stufe3": "",
@@ -2708,9 +2467,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Biodiversität"
-		],
 		"stufe1": "Thema Biodiversität",
 		"stufe2": "",
 		"stufe3": "",
@@ -2745,10 +2501,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Boden",
-			"Biodiversität"
-		],
 		"stufe1": "Thema Biodiversität",
 		"stufe2": "",
 		"stufe3": "",
@@ -2782,9 +2534,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Biodiversität"
-		],
 		"stufe1": "Thema Biodiversität",
 		"stufe2": "",
 		"stufe3": "",
@@ -2819,9 +2568,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Landschaft"
-		],
 		"stufe1": "Thema Landschaft",
 		"stufe2": "",
 		"stufe3": "",
@@ -2855,10 +2601,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Biodiversität",
-			"Landschaft"
-		],
 		"stufe1": "Thema Landschaft",
 		"stufe2": "",
 		"stufe3": "",
@@ -2893,10 +2635,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Boden",
-			"Landschaft"
-		],
 		"stufe1": "Thema Landschaft",
 		"stufe2": "",
 		"stufe3": "",
@@ -2932,10 +2670,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Naturgefahren",
-			"Klima"
-		],
 		"stufe1": "Thema Naturgefahren",
 		"stufe2": "",
 		"stufe3": "",
@@ -2971,9 +2705,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Naturgefahren"
-		],
 		"stufe1": "Thema Naturgefahren",
 		"stufe2": "",
 		"stufe3": "",
@@ -3007,9 +2738,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Naturgefahren"
-		],
 		"stufe1": "Thema Naturgefahren",
 		"stufe2": "",
 		"stufe3": "",
@@ -3045,13 +2773,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall",
-			"Biodiversität",
-			"Naturgefahren",
-			"Landschaft",
-			"Wald"
-		],
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -3087,9 +2808,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Lärm"
-		],
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -3124,12 +2842,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			"Biodiversität",
-			"Klima",
-			"Landschaft"
-		],
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -3164,9 +2876,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie"
-		],
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -3201,9 +2910,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie"
-		],
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -3238,11 +2944,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			"Abfall",
-			"Luft"
-		],
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -3278,14 +2979,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			"Biodiversität",
-			"Klima",
-			"Landschaft",
-			"Luft",
-			"Wald"
-		],
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -3320,9 +3013,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Naturgefahren"
-		],
 		"stufe1": "Thema Naturgefahren",
 		"stufe2": "",
 		"stufe3": "",
@@ -3357,9 +3047,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall"
-		],
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3393,9 +3080,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall"
-		],
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3430,9 +3114,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall"
-		],
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3467,9 +3148,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall"
-		],
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3504,9 +3182,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall"
-		],
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3541,9 +3216,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall"
-		],
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3577,9 +3249,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall"
-		],
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3614,9 +3283,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall"
-		],
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3651,9 +3317,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall"
-		],
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3688,9 +3351,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wald"
-		],
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -3725,9 +3385,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wald"
-		],
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -3762,9 +3419,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Boden"
-		],
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -3799,9 +3453,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wald"
-		],
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",

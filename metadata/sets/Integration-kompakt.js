@@ -12,13 +12,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Quote",
-			"Bevölkerung",
-			"Ausland"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -52,13 +45,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Alter",
-			"Quote",
-			"Ausland",
-			"Alter",
-			"Schweiz"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -92,13 +78,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-02-16T15:42:27.2727",
-		"schlagwort": [
-			"Alter",
-			"Quote",
-			"Ausland",
-			"Alter",
-			"Schweiz"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -132,11 +111,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausland",
-			"Bewilligung",
-			"Niederlassung"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -170,13 +144,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Quote",
-			"Ausland",
-			"Bewilligung",
-			"Niederlassung",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -210,13 +177,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Ausland",
-			"Bewilligung",
-			"Niederlassung",
-			"Migration"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -250,14 +210,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Quote",
-			"Ausland",
-			"Bewilligung",
-			"Niederlassung",
-			"Migration",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -291,17 +243,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Quote",
-			"Bevölkerung",
-			"Ausland",
-			"Einbürgerung",
-			"Migrationshintergrund",
-			"Migration",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -335,16 +276,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Ausland",
-			"Einbürgerung",
-			"Schweiz",
-			"Geburtsort",
-			"Staatsangehörigkeit",
-			"Wanderung"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -378,16 +309,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Haushalt",
-			"Ausländer",
-			"Quote",
-			"Ausland",
-			"Migrationshintergrund",
-			"Migration",
-			"Deutsch"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -421,16 +342,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Ausland",
-			"Migration",
-			"Segregation",
-			"Index",
-			"Schweiz",
-			"Wanderung"
-		],
 		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
@@ -464,18 +375,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Quote",
-			"Bevölkerung",
-			"Ausland",
-			"Niederlassung",
-			"Wohndauer",
-			"Zuzug",
-			"Schweiz",
-			"Geburtsort"
-		],
 		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
@@ -509,17 +408,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Bevölkerung",
-			"Ausland",
-			"Niederlassung",
-			"Migration",
-			"Wohndauer",
-			"Geburtsort",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
@@ -553,15 +441,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Quote",
-			"Ausland",
-			"Migration",
-			"Staatsangehörigkeit",
-			"Wanderung"
-		],
 		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
@@ -595,18 +474,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Quote",
-			"Ausland",
-			"Migration",
-			"Staatsangehörigkeit",
-			"Arbeit",
-			"Arbeitslosigkeit",
-			"Erwerb",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -641,16 +508,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Quote",
-			"Ausland",
-			"Staatsangehörigkeit",
-			"Bildung",
-			"Gymnasium",
-			"Gymnasialquote",
-			"Schule"
-		],
 		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -684,20 +541,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Quote",
-			"Ausland",
-			"Schweiz",
-			"Staatsangehörigkeit",
-			"Bildung",
-			"Arbeit",
-			"Arbeitslosigkeit",
-			"Erwerbstätigkeit",
-			"Angestellte",
-			"Schule"
-		],
 		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -731,19 +574,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Einkommen",
-			"Ausländer",
-			"Quote",
-			"Ausland",
-			"Migration",
-			"Schweiz",
-			"Arbeit",
-			"Arbeitslosigkeit",
-			"Erwerb",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -777,20 +607,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Personal",
-			"Einkommen",
-			"Ausländer",
-			"Quote",
-			"Ausland",
-			"Migration",
-			"Staatsangehörigkeit",
-			"Erwerb",
-			"Erwerbstätigkeit",
-			"Angestellte",
-			"Verwaltung"
-		],
 		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -824,17 +640,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Alter",
-			"Quote",
-			"Ausland",
-			"Migration",
-			"Staatsangehörigkeit",
-			"Wanderung",
-			"Rückwanderung"
-		],
 		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
@@ -868,17 +673,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Bevölkerung",
-			"Ausland",
-			"Niederlassung",
-			"Migration",
-			"Wohndauer",
-			"Schweiz",
-			"Geburtsort",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",

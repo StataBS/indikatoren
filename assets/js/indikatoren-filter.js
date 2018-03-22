@@ -114,8 +114,6 @@ function resetPortalFilter(FJS, view){
     $('#searchbox').val('');
     $("#thema_criteria :radio:first()").prop('checked', true);
     $("#unterthema_filter").prop('selectedIndex', 0);
-    $("#schlagwort_filter option").prop('selected', true);
-    $("#schlagwort_filter").multiselect('selectAll', false).multiselect('updateButtonText');      
     $("#raeumlicheGliederung_filter").multiselect('selectAll', false).multiselect('updateButtonText');
     FJS.filter();
   }
@@ -165,7 +163,6 @@ function initializeFilterJS(indikatorenset, perPage){
     FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
     FJS.addCriteria({field: "thema", ele: "#thema_criteria input:radio", all: "Alle"});
     FJS.addCriteria({field: "unterthema", ele: "#unterthema_filter", all: "all"});
-    FJS.addCriteria({field: "schlagwort", ele: "#schlagwort_filter", all: "all"});
     FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});      
 
     //reset all filter criteria
@@ -253,7 +250,6 @@ function getSortOptions(name){
 function preparePortalView(){
   $("#main-control-element-indikatorenset").remove();    
   renderThema();
-  renderMultiselectDropdownFromJson(indikatoren, 'schlagwort', '#schlagwort_filter', true);    
   renderMultiselectDropdownFromJson(["Schweiz", "Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite"], '', '#raeumlicheGliederung_filter', false);
 
   //prepare query String object for filtering thema and unterthema
@@ -482,7 +478,6 @@ var afterFilter = function(result, jQ){
     var checkboxCountRenderFunction = function(c, count){c.next().text(c.val() + ' (' + count + ')')};
     //render new counts after each control
     updateCountsExclusive('#thema_criteria :input:gt(0)', 'thema', checkboxCountRenderFunction, result, jQ);        
-    updateCountsExclusive('#schlagwort_filter > option', 'schlagwort', optionCountRenderFunction, result, jQ);
     updateCountsExclusive('#raeumlicheGliederung_filter > option', 'raeumlicheGliederung', optionCountRenderFunction, result, jQ);
 
     //hide dropdowns if no specific values present, or select the single specific value
@@ -507,7 +502,6 @@ var afterFilter = function(result, jQ){
     renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema', baseQueryCopyUnterthema);
     
     //for multiselect dropdowns: rebuild control after select tag is updated
-    $('#schlagwort_filter').multiselect('rebuild');
     $('#raeumlicheGliederung_filter').multiselect('rebuild');
     
     //if results fit in a single page: hide pagination, use bootstrap invisible class to leave row height intact    

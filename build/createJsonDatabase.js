@@ -24,6 +24,7 @@ files.forEach(function(filepath){
         //clean up: if visible == false, chart will not be included in all/indikatoren.json, thus property not needed anymore. 
         delete indikator.visible;
         delete indikator.option;
+        delete indikator.schlagwort;
         
 	    //retrieve id from filename instead of from file contents
 	    var idFromFileName = path.basename(filepath, path.extname(filepath));
