@@ -382,7 +382,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.3-02",
 		"description": "Arbeitslosenquote nach Alter",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -416,7 +416,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.3-03",
 		"description": "Arbeitslosenquote nach Herkunft und Geschlecht",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -450,7 +450,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.3-04",
 		"description": "Arbeitslose nach Ländergruppe",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -484,7 +484,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.3-05",
 		"description": "Arbeitslose in Industrie und Baugewerbe",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -518,7 +518,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.3-06",
 		"description": "Arbeitslose im Dienstleistungssektor (I)",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -552,7 +552,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.3-01",
 		"description": "Arbeitslosenquote nach Kanton",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton",
@@ -829,7 +829,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.2-05",
 		"description": "Beschäftigung in Industrie und Baugewerbe",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -863,7 +863,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.2-06",
 		"description": "Beschäftigung im Dienstleistungssektor (I)",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -897,7 +897,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.2-01",
 		"description": "Beschäftigung nach Kanton",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1522,7 +1522,7 @@ var indikatoren = [
 		"kuerzelKunde": "1.1.A",
 		"description": "Bevölkerungsbestand am Jahresende",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -2077,7 +2077,7 @@ var indikatoren = [
 		"kuerzelKunde": "2.2.A",
 		"description": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -2385,7 +2385,7 @@ var indikatoren = [
 		"kuerzelKunde": "1-1",
 		"description": "Ausländeranteil nach Staatsangehörigkeit seit 2006",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -2419,7 +2419,7 @@ var indikatoren = [
 		"kuerzelKunde": "1-2",
 		"description": "Altersquotient nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -2488,7 +2488,7 @@ var indikatoren = [
 		"kuerzelKunde": "1-3",
 		"description": "Jugendquotient nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -2522,7 +2522,7 @@ var indikatoren = [
 		"kuerzelKunde": "1-4A",
 		"description": "Anzahl Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit seit 2006",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -2556,7 +2556,7 @@ var indikatoren = [
 		"kuerzelKunde": "1-4B",
 		"description": "Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit 2006 und 2015",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -3470,7 +3470,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Entwicklung der Bodennutzung nach Nutzungsart.<br><br>Der Indikator berücksichtigt die vier Hauptkategorien der Arealstatistik (Standardnomenklatur NOAS04):<br>- Siedlungsflächen<br>- Landwirtschaftsflächen<br>- Bestockte Flächen (Wald und Gehölze)<br>- Unproduktive Flächen (Gewässer, Fels und Geröll etc.)<br><br>Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopografie (Stichpunktprobenerhebung im Abstand von 100 x 100m). <br><br>Die hier dargestellten Werte zur Landwirtschaftsfläche sind nicht zwingend identisch mit der landwirtschaftlichen Nutzfläche gemäss der landwirtschaftlichen Betriebsstrukturerhebung (BFS). In der landwirtschaftlichen Betriebsstrukturerhebung ist der Landwirtschaftsbetrieb die grundlegende statistische Einheit. Die Nutzfläche eines Betriebs wird jenem Kanton zugeteilt, in welchem der Betrieb registriert ist. Die Werte der Arealstatistik hingegen basieren auf der Auswertung von Luftbildern.Im Kanton Basel-Stadt werden 3&#039;698 Punkte erfasst. ",
+		"erlaeuterungen": "Entwicklung der Bodennutzung nach Nutzungsart.<br><br>Der Indikator berücksichtigt die vier Hauptkategorien der Arealstatistik (Standardnomenklatur NOAS04):<br>- Siedlungsflächen<br>- Landwirtschaftsflächen<br>- Bestockte Flächen (Wald und Gehölze)<br>- Unproduktive Flächen (Gewässer, Fels und Geröll etc.)<br><br>Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopografie (Stichpunktprobenerhebung im Abstand von 100 x 100m). <br><br>Die hier dargestellten Werte zur Landwirtschaftsfläche sind nicht zwingend identisch mit der landwirtschaftlichen Nutzfläche gemäss der landwirtschaftlichen Betriebsstrukturerhebung (BFS). In der landwirtschaftlichen Betriebsstrukturerhebung ist der Landwirtschaftsbetrieb die grundlegende statistische Einheit. Die Nutzfläche eines Betriebs wird jenem Kanton zugeteilt, in welchem der Betrieb registriert ist. Die Werte der Arealstatistik hingegen basieren auf der Auswertung von Luftbildern.Im Kanton Basel-Stadt werden 3&#039;698 Punkte erfasst.",
 		"template": "dotplot",
 		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_000",
@@ -3575,7 +3575,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Fläche an versiegelten Böden. Von Bodenversiegelung spricht man, wenn die Bodenoberfläche mit praktisch undurchlässigen Materialien abgedeckt oder überdeckt wird. Der Austausch von Wasser, Luft und Energie zwischen Atmosphäre und Boden wird praktisch verhindert. Von Bedeutung sind dabei vor allem Gebäude, Verkehrsflächen, Energieversorgungsanlagen und Deponien. <br><br>Zu den versiegelten Böden werden in der Arealstatistik (Nomenklatur der Bodenbedeckung NOLC04) folgende Kategorien  gezählt:<br>- Befestigte Flächen (z.B. Verkehrsflächen)<br>- Gebäude<br>- Treibhäuser<br><br>Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopographie (Stichpunktprobenerhebung im Abstand von 100 x 100m).<br><br>Für detaillierte Angaben zur Methodik siehe weiterführende Informationen.Im Kanton Basel-Stadt werden 3&#039;698 Punkte erfasst. ",
+		"erlaeuterungen": "Fläche an versiegelten Böden. Von Bodenversiegelung spricht man, wenn die Bodenoberfläche mit praktisch undurchlässigen Materialien abgedeckt oder überdeckt wird. Der Austausch von Wasser, Luft und Energie zwischen Atmosphäre und Boden wird praktisch verhindert. Von Bedeutung sind dabei vor allem Gebäude, Verkehrsflächen, Energieversorgungsanlagen und Deponien. <br><br>Zu den versiegelten Böden werden in der Arealstatistik (Nomenklatur der Bodenbedeckung NOLC04) folgende Kategorien  gezählt:<br>- Befestigte Flächen (z.B. Verkehrsflächen)<br>- Gebäude<br>- Treibhäuser<br><br>Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopographie (Stichpunktprobenerhebung im Abstand von 100 x 100m).<br><br>Für detaillierte Angaben zur Methodik siehe weiterführende Informationen.Im Kanton Basel-Stadt werden 3&#039;698 Punkte erfasst.",
 		"template": "dotplot",
 		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_000",
@@ -3645,7 +3645,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Entwicklung der Siedlungsflächen. Als Siedlungsflächen gelten in der Arealstatistik alle Flächen, bei welchen die Bodennutzung überwiegend durch Arbeiten, Wohnen, Erholung und Verkehr geprägt ist. Die Siedlungsflächen können somit auch ausserhalb der Bauzonen liegen. Zudem können sie auch Grünflächen enthalten, sofern diese Siedlungszwecken dienen (Erholungs- und Parkanlagen, Hausgärten, Golfplätze etc.).<br><br>Zu den Siedlungsflächen werden in der Arealstatistik die folgenden Kategorien gezählt (Standardnomenklatur NOAS04_17):<br>- Industrie- und Gewerbeareal<br>- Gebäudeareal<br>- Verkehrsflächen<br>- Besondere Siedlungsflächen (Deponien, Baustellen etc.)<br>- Erholungs- und Grünanlagen<br><br>Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopografie (Stichpunktprobenerhebung im Abstand von 100 x 100m).<br><br>Für detaillierte Angaben zur Methodik siehe weiterführende Informationen.Im Kanton Basel-Stadt werden 3&#039;698 Punkte erfasst. ",
+		"erlaeuterungen": "Entwicklung der Siedlungsflächen. Als Siedlungsflächen gelten in der Arealstatistik alle Flächen, bei welchen die Bodennutzung überwiegend durch Arbeiten, Wohnen, Erholung und Verkehr geprägt ist. Die Siedlungsflächen können somit auch ausserhalb der Bauzonen liegen. Zudem können sie auch Grünflächen enthalten, sofern diese Siedlungszwecken dienen (Erholungs- und Parkanlagen, Hausgärten, Golfplätze etc.).<br><br>Zu den Siedlungsflächen werden in der Arealstatistik die folgenden Kategorien gezählt (Standardnomenklatur NOAS04_17):<br>- Industrie- und Gewerbeareal<br>- Gebäudeareal<br>- Verkehrsflächen<br>- Besondere Siedlungsflächen (Deponien, Baustellen etc.)<br>- Erholungs- und Grünanlagen<br><br>Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopografie (Stichpunktprobenerhebung im Abstand von 100 x 100m).<br><br>Für detaillierte Angaben zur Methodik siehe weiterführende Informationen.Im Kanton Basel-Stadt werden 3&#039;698 Punkte erfasst.",
 		"template": "dotplot",
 		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_000",
@@ -4502,7 +4502,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid-Immissionen im Vergleich zum gesetzlich festgelegten Grenzwert gemäss Luftreinhalte-Verordnung. Sie entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr.<br><br>Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen in den Kantonen Basel-Stadt und Basel-Landschaft: Stark verkehrsexponiert (Basel Feldbergstrasse, Muttenz A2 Hard, Basel Schwarzwaldallee, Basel Breite, Basel Steinengraben), Stadt Basel (St. Johanns-Platz, Spalenring, Dreirosenbrücke Süd), Agglomeration (Binningen (NABEL), Dornach (SO), Reinach Dorf), Ländlich (Schönenbuch). Die Messungen der Kategorie \"Ländlich\" (Schönenbuch) wurden 2016 eingestellt. Für Details zu den Stationen siehe Link \"Luftqualität in der Nordwestschweiz\" unter weiterführende Informationen. ",
+		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid-Immissionen im Vergleich zum gesetzlich festgelegten Grenzwert gemäss Luftreinhalte-Verordnung. Sie entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr.<br><br>Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen in den Kantonen Basel-Stadt und Basel-Landschaft: Stark verkehrsexponiert (Basel Feldbergstrasse, Muttenz A2 Hard, Basel Schwarzwaldallee, Basel Breite, Basel Steinengraben), Stadt Basel (St. Johanns-Platz, Spalenring, Dreirosenbrücke Süd), Agglomeration (Binningen (NABEL), Dornach (SO), Reinach Dorf), Ländlich (Schönenbuch). Die Messungen der Kategorie \"Ländlich\" (Schönenbuch) wurden 2016 eingestellt. Für Details zu den Stationen siehe Link \"Luftqualität in der Nordwestschweiz\" unter weiterführende Informationen.",
 		"template": "dotplot",
 		"visibleInPortal": true,
 		"orderKey": "11_00_00_00_00_000",
@@ -4624,11 +4624,11 @@ var indikatoren = [
 		"id": 4285
 	},
 	{
-		"title": "Zwangsnutzungen ",
+		"title": "Zwangsnutzungen",
 		"subtitle": "Kubikmeter",
 		"kuerzel": "I.07.1.04287",
 		"kuerzelKunde": "1506",
-		"description": "Zwangsnutzungen ",
+		"description": "Zwangsnutzungen",
 		"thema": "07 Landwirtschaft",
 		"unterthema": "Landwirtschaft",
 		"kennzahlenset": "Umwelt",
@@ -4920,7 +4920,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Der Indikator zeigt die Summe der aus dem kantonalen Energieverbrauch resultierenden CO<sub>2</sub>-Emissionen in die Atmosphäre. <br><br>Die CO<sub>2</sub>-Emissionen werden ausgehend vom Bruttoenergieverbrauch gemäss der kantonalen Energiestatistik ermittelt. Zur Berechnung der Emissionen wird pro Energieträger der jährliche Bruttoenergieverbrauch mit dem entsprechenden CO<sub>2</sub>-Emissionsfaktor (gemäss Schweizerischem Treibhausgasinventar) multipliziert.<br><br>Es sind zur Hauptsache CO<sub>2</sub>-Emissionen berücksichtigt, welche bei der Verbrennung von fossilen Energieträgern (Brenn- und Treibstoffe) entstehen. Die Emissionen aus der energetischen Nutzung von Holz werden nicht ausgewiesen, da Holz als CO<sub>2</sub>-neutral gilt. Die Verbrennung von biogenem Material wird ebenso als CO<sub>2</sub>-neutral betrachtet, weshalb nur 50% des in der Kehrichtverwertungsanlage verbrannten Abfalls berücksichtigt wird. Auch der Klärschlamm wird als biogen taxiert; demzufolge bleiben die entsprechenden CO<sub>2</sub>-Emissionen ebenfalls unberücksichtigt. ",
+		"erlaeuterungen": "Der Indikator zeigt die Summe der aus dem kantonalen Energieverbrauch resultierenden CO<sub>2</sub>-Emissionen in die Atmosphäre. <br><br>Die CO<sub>2</sub>-Emissionen werden ausgehend vom Bruttoenergieverbrauch gemäss der kantonalen Energiestatistik ermittelt. Zur Berechnung der Emissionen wird pro Energieträger der jährliche Bruttoenergieverbrauch mit dem entsprechenden CO<sub>2</sub>-Emissionsfaktor (gemäss Schweizerischem Treibhausgasinventar) multipliziert.<br><br>Es sind zur Hauptsache CO<sub>2</sub>-Emissionen berücksichtigt, welche bei der Verbrennung von fossilen Energieträgern (Brenn- und Treibstoffe) entstehen. Die Emissionen aus der energetischen Nutzung von Holz werden nicht ausgewiesen, da Holz als CO<sub>2</sub>-neutral gilt. Die Verbrennung von biogenem Material wird ebenso als CO<sub>2</sub>-neutral betrachtet, weshalb nur 50% des in der Kehrichtverwertungsanlage verbrannten Abfalls berücksichtigt wird. Auch der Klärschlamm wird als biogen taxiert; demzufolge bleiben die entsprechenden CO<sub>2</sub>-Emissionen ebenfalls unberücksichtigt.",
 		"template": "dotplot",
 		"visibleInPortal": false,
 		"orderKey": "08_00_00_00_00_000",
@@ -5432,7 +5432,7 @@ var indikatoren = [
 		"kuerzelKunde": "1702",
 		"description": "Bevölkerung",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Umwelt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -5515,7 +5515,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner erlaubt Aussagen über die Wohnraumverhältnisse, nicht aber über die Verteilung des Wohnraums oder über die Wohnraumqualität.<br><br>Die Berechnung dieses Indikators basiert auf dem Gebäude- und Wohnungsregister (GWR) sowie dem amtlichen Personenregister. Zur Berechnung der durchschnittlichen Wohnfläche pro Bewohner wird die Gesamtfläche der bewohnten Wohnungen durch die Summe der zugeordneten Bewohner dividiert.<br>Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone).<br>Für die Berechnung werden sämtliche einer Wohnung zugeordneten Bewohner berücksichtigt, unabhängig von ihrem Meldeverhältnis (Niedergelassene und Aufenthalter). Personen mit mehreren Wohnsitzen werden entsprechend mehrmals gezählt. Für detaillierte Angaben zur Methodik siehe weiterführende Informationen. ",
+		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner erlaubt Aussagen über die Wohnraumverhältnisse, nicht aber über die Verteilung des Wohnraums oder über die Wohnraumqualität.<br><br>Die Berechnung dieses Indikators basiert auf dem Gebäude- und Wohnungsregister (GWR) sowie dem amtlichen Personenregister. Zur Berechnung der durchschnittlichen Wohnfläche pro Bewohner wird die Gesamtfläche der bewohnten Wohnungen durch die Summe der zugeordneten Bewohner dividiert.<br>Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone).<br>Für die Berechnung werden sämtliche einer Wohnung zugeordneten Bewohner berücksichtigt, unabhängig von ihrem Meldeverhältnis (Niedergelassene und Aufenthalter). Personen mit mehreren Wohnsitzen werden entsprechend mehrmals gezählt. Für detaillierte Angaben zur Methodik siehe weiterführende Informationen.",
 		"template": "dotplot",
 		"visibleInPortal": false,
 		"orderKey": "17_00_00_00_00_000",
@@ -5656,7 +5656,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Der Motorfahrzeugbestand entspricht der Anzahl an verkehrsberechtigten Motorfahrzeugen, der Motorisierungsgrad der Anzahl Personenwagen pro 1000 Einwohner.<br><br>Die Daten basieren auf der Auswertung (Stichtag) der durch die Motorfahrzeugkontrolle zugelassenen Fahrzeuge. Der Motorfahrzeugbestand (linke Skala) umfasst die folgenden Fahrzeugkategorien:<br>- Personenwagen<br>- Lieferwagen<br>- Lastwagen<br>- Sattelschlepper<br>- Car, Autobus, Kleinbus<br>- Motorräder<br>- Übrige: Arbeitsmaschinen, Industrietraktoren etc.<br><br>Zur Berechnung des Motorisierungsgrades (rechte Skala) werden hingegen nur Personenwagen berücksichtigt. ",
+		"erlaeuterungen": "Der Motorfahrzeugbestand entspricht der Anzahl an verkehrsberechtigten Motorfahrzeugen, der Motorisierungsgrad der Anzahl Personenwagen pro 1000 Einwohner.<br><br>Die Daten basieren auf der Auswertung (Stichtag) der durch die Motorfahrzeugkontrolle zugelassenen Fahrzeuge. Der Motorfahrzeugbestand (linke Skala) umfasst die folgenden Fahrzeugkategorien:<br>- Personenwagen<br>- Lieferwagen<br>- Lastwagen<br>- Sattelschlepper<br>- Car, Autobus, Kleinbus<br>- Motorräder<br>- Übrige: Arbeitsmaschinen, Industrietraktoren etc.<br><br>Zur Berechnung des Motorisierungsgrades (rechte Skala) werden hingegen nur Personenwagen berücksichtigt.",
 		"template": "dotplot",
 		"visibleInPortal": true,
 		"orderKey": "17_00_00_00_00_000",
@@ -6027,7 +6027,7 @@ var indikatoren = [
 		"kuerzelKunde": "1-5A",
 		"description": "Anzahl Ausländer nach Art der Bewilligung seit 2006",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -6061,7 +6061,7 @@ var indikatoren = [
 		"kuerzelKunde": "1-5B",
 		"description": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -6305,7 +6305,7 @@ var indikatoren = [
 		"kuerzelKunde": "W08",
 		"description": "Beschäftigte in Branchen mit hoher Arbeitsproduktivität",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Cercle-Indicateurs",
 		"raeumlicheGliederung": [
 			"Gemeinde"
@@ -6340,7 +6340,7 @@ var indikatoren = [
 		"kuerzelKunde": "W09",
 		"description": "Qualifikationsniveau",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Cercle-Indicateurs",
 		"raeumlicheGliederung": [
 			"Gemeinde"
@@ -6513,7 +6513,7 @@ var indikatoren = [
 		"kuerzelKunde": "1-7",
 		"description": "Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -6581,7 +6581,7 @@ var indikatoren = [
 		"kuerzelKunde": "2-1",
 		"description": "Segregationsindex nach Staatsangehörigkeit seit 2006",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -6649,7 +6649,7 @@ var indikatoren = [
 		"kuerzelKunde": "2-3A",
 		"description": "Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -6717,7 +6717,7 @@ var indikatoren = [
 		"kuerzelKunde": "3-3",
 		"description": "Arbeitslosenquote nach Staatsangehörigkeit seit 2010",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -7064,7 +7064,7 @@ var indikatoren = [
 		"kuerzelKunde": "3-4",
 		"description": "Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Erwerbspersonen ",
+		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -7170,7 +7170,7 @@ var indikatoren = [
 		"kuerzelKunde": "GS-2.A",
 		"description": "Anteil Ausländer",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -7322,7 +7322,7 @@ var indikatoren = [
 		"kuerzelKunde": "GS-6.A",
 		"description": "Altersquotient",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -7360,7 +7360,7 @@ var indikatoren = [
 		"kuerzelKunde": "GS-7.A",
 		"description": "Sesshaftigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -7398,7 +7398,7 @@ var indikatoren = [
 		"kuerzelKunde": "GS-8.A",
 		"description": "Jugendquotient",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -7704,7 +7704,7 @@ var indikatoren = [
 		"kuerzelKunde": "WA-3.A",
 		"description": "Erwerbstätigenquote",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Erwerbspersonen ",
+		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -7742,7 +7742,7 @@ var indikatoren = [
 		"kuerzelKunde": "WA-4.A",
 		"description": "Arbeitsplätze pro Kopf",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -7780,7 +7780,7 @@ var indikatoren = [
 		"kuerzelKunde": "WA-5.A",
 		"description": "Arbeitslosenquote",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -8781,7 +8781,7 @@ var indikatoren = [
 		"kuerzelKunde": "2-3B",
 		"description": "Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -9412,7 +9412,7 @@ var indikatoren = [
 		"kuerzelKunde": "2.3",
 		"description": "Anzahl Neugründungen in Basel-Stadt",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -9521,7 +9521,7 @@ var indikatoren = [
 		"kuerzelKunde": "GS-2.B",
 		"description": "Anteil Ausländer",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -9665,7 +9665,7 @@ var indikatoren = [
 		"kuerzelKunde": "GS-6.B",
 		"description": "Altersquotient",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -9701,7 +9701,7 @@ var indikatoren = [
 		"kuerzelKunde": "GS-7.B",
 		"description": "Sesshaftigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -9737,7 +9737,7 @@ var indikatoren = [
 		"kuerzelKunde": "GS-8.B",
 		"description": "Jugendquotient",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -10028,7 +10028,7 @@ var indikatoren = [
 		"kuerzelKunde": "WA-3.B",
 		"description": "Erwerbstätigenquote",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Erwerbspersonen ",
+		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -10064,7 +10064,7 @@ var indikatoren = [
 		"kuerzelKunde": "WA-4.B",
 		"description": "Arbeitsplätze pro Kopf",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -10100,7 +10100,7 @@ var indikatoren = [
 		"kuerzelKunde": "WA-5.B",
 		"description": "Arbeitslosenquote",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -10211,7 +10211,7 @@ var indikatoren = [
 		"kuerzelKunde": "ST 4-2",
 		"description": "Bevölkerungsdichte",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -10247,7 +10247,7 @@ var indikatoren = [
 		"kuerzelKunde": "ST 4-3",
 		"description": "Bevölkerungsdichte",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -10366,7 +10366,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Anteil der Waldfläche an der gesamten Kantonsfläche.<br><br>Die Daten basieren auf der Arealstatistik. Der Wald gemäss Arealstatistik umfasst geschlossene und aufgelöste Waldflächen, jedoch nicht Gebüschwald und Gehölze.<br><br>Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopografie (Punktstichprobenerhebung im Abstand von 100 x 100m).Im Kanton Basel-Stadt werden 3&#039;698 Punkte erfasst. ",
+		"erlaeuterungen": "Anteil der Waldfläche an der gesamten Kantonsfläche.<br><br>Die Daten basieren auf der Arealstatistik. Der Wald gemäss Arealstatistik umfasst geschlossene und aufgelöste Waldflächen, jedoch nicht Gebüschwald und Gehölze.<br><br>Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopografie (Punktstichprobenerhebung im Abstand von 100 x 100m).Im Kanton Basel-Stadt werden 3&#039;698 Punkte erfasst.",
 		"template": "dotplot",
 		"visibleInPortal": true,
 		"orderKey": "15_00_00_00_00_000",
@@ -10784,7 +10784,7 @@ var indikatoren = [
 		"kuerzelKunde": "ST 7-2",
 		"description": "Beschäftigtendichte",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -10893,7 +10893,7 @@ var indikatoren = [
 		"kuerzelKunde": "ST 4-11",
 		"description": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Schweiz"
@@ -11413,7 +11413,7 @@ var indikatoren = [
 		"kuerzelKunde": "A1-1",
 		"description": "Ausländeranteil",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11447,7 +11447,7 @@ var indikatoren = [
 		"kuerzelKunde": "A1-2",
 		"description": "Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11481,7 +11481,7 @@ var indikatoren = [
 		"kuerzelKunde": "A1-4",
 		"description": "Anzahl Ausländer nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11515,7 +11515,7 @@ var indikatoren = [
 		"kuerzelKunde": "A1-5",
 		"description": "Ausländer nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11549,7 +11549,7 @@ var indikatoren = [
 		"kuerzelKunde": "A1-8",
 		"description": "Übrige Ausländer",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11583,7 +11583,7 @@ var indikatoren = [
 		"kuerzelKunde": "A1-9",
 		"description": "Ausländer nach Staatsangehörigkeit und Geschlecht",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11617,7 +11617,7 @@ var indikatoren = [
 		"kuerzelKunde": "A2-1",
 		"description": "Durchschnittsalter der Wohnbevölkerung",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -11651,7 +11651,7 @@ var indikatoren = [
 		"kuerzelKunde": "A2-2",
 		"description": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11685,7 +11685,7 @@ var indikatoren = [
 		"kuerzelKunde": "A2-3",
 		"description": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11719,7 +11719,7 @@ var indikatoren = [
 		"kuerzelKunde": "A2-4",
 		"description": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11753,7 +11753,7 @@ var indikatoren = [
 		"kuerzelKunde": "A2-5",
 		"description": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11787,7 +11787,7 @@ var indikatoren = [
 		"kuerzelKunde": "A2-6",
 		"description": "Jugendquotient nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11821,7 +11821,7 @@ var indikatoren = [
 		"kuerzelKunde": "A2-7",
 		"description": "Altersquotient nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11855,7 +11855,7 @@ var indikatoren = [
 		"kuerzelKunde": "A2-8",
 		"description": "Ausländeranteil nach Alter",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11889,7 +11889,7 @@ var indikatoren = [
 		"kuerzelKunde": "A3-1",
 		"description": "Anzahl Ausländer nach Art der Bewilligung",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11923,7 +11923,7 @@ var indikatoren = [
 		"kuerzelKunde": "A3-2",
 		"description": "Ausländer nach Art der Bewilligung",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11957,7 +11957,7 @@ var indikatoren = [
 		"kuerzelKunde": "A3-3",
 		"description": "Anteil Ausländer mit Niederlassungsbewilligung",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11991,7 +11991,7 @@ var indikatoren = [
 		"kuerzelKunde": "A3-5",
 		"description": "Median der Aufenthaltsdauer der Ausländer",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton",
@@ -12128,7 +12128,7 @@ var indikatoren = [
 		"kuerzelKunde": "A5-1",
 		"description": "Segregationsindex nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -12162,7 +12162,7 @@ var indikatoren = [
 		"kuerzelKunde": "A5-2",
 		"description": "Veränderung des Segregationsindex",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -12916,7 +12916,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.4",
 		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -13026,7 +13026,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.8",
 		"description": "Anteil der Beschäftigten in innovativen Branchen",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -13063,7 +13063,7 @@ var indikatoren = [
 		"kuerzelKunde": "4.1",
 		"description": "Bevölkerungsbestand am Jahresende",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -13099,7 +13099,7 @@ var indikatoren = [
 		"kuerzelKunde": "4.2",
 		"description": "Bevölkerung nach sozioprofessioneller Kategorie",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -13173,7 +13173,7 @@ var indikatoren = [
 		"kuerzelKunde": "4.6",
 		"description": "Verhältnis der Löhne von Frauen und Männern in Basel-Stadt",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Löhne ",
+		"unterthema": "Löhne",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -13210,7 +13210,7 @@ var indikatoren = [
 		"kuerzelKunde": "4.7",
 		"description": "Anteil Arbeitnehmende in Unternehmensleitung oder Vorgesetztenfunktion nach Geschlecht",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Erwerbspersonen ",
+		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -13426,7 +13426,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Transit durch die Region Basel",
-		"subtitle": " in Brutto-Tonnen nach Verkehrsträger",
+		"subtitle": "in Brutto-Tonnen nach Verkehrsträger",
 		"kuerzel": "I.06.4.06155",
 		"kuerzelKunde": "5.3",
 		"description": "Transit durch die Region Basel",
@@ -14711,7 +14711,7 @@ var indikatoren = [
 		"kuerzelKunde": "ST 4-1",
 		"description": "Bevölkerung am Jahresende und Anzahl Wohnungen",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -14965,7 +14965,7 @@ var indikatoren = [
 		"kuerzelKunde": "ST 7-1",
 		"description": "Anzahl Beschäftigte nach Branche",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -15074,7 +15074,7 @@ var indikatoren = [
 		"kuerzelKunde": "ST 4-2",
 		"description": "Bevölkerungsdichte",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -15108,7 +15108,7 @@ var indikatoren = [
 		"kuerzelKunde": "ST 4-3",
 		"description": "Bevölkerungsdichte",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -15484,7 +15484,7 @@ var indikatoren = [
 		"kuerzelKunde": "ST 7-2",
 		"description": "Beschäftigtendichte",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -15552,7 +15552,7 @@ var indikatoren = [
 		"kuerzelKunde": "ST 8-1",
 		"description": "Kontinentale Erreichbarkeit",
 		"thema": "11 Verkehr",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -15586,7 +15586,7 @@ var indikatoren = [
 		"kuerzelKunde": "ST 4-11",
 		"description": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Schweiz"
@@ -15655,7 +15655,7 @@ var indikatoren = [
 		"kuerzelKunde": "ST 4-1",
 		"description": "Bevölkerung am Jahresende und Anzahl Wohnungen",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -15861,7 +15861,7 @@ var indikatoren = [
 		"kuerzelKunde": "ST 7-1",
 		"description": "Anzahl Beschäftigte nach Branche",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -16580,7 +16580,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.4",
 		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -16682,7 +16682,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.8",
 		"description": "Anteil der Beschäftigten in innovativen Branchen an der gesamten Beschäftigung (Vollzeitäquivalente)",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -16716,7 +16716,7 @@ var indikatoren = [
 		"kuerzelKunde": "4.1",
 		"description": "Bevölkerungsbestand am Jahresende",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -16750,7 +16750,7 @@ var indikatoren = [
 		"kuerzelKunde": "4.2",
 		"description": "Bevölkerung nach sozioprofessioneller Kategorie",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -16818,7 +16818,7 @@ var indikatoren = [
 		"kuerzelKunde": "4.6",
 		"description": "Verhältnis der Löhne von Frauen und Männern in Basel-Stadt",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Löhne ",
+		"unterthema": "Löhne",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -16852,7 +16852,7 @@ var indikatoren = [
 		"kuerzelKunde": "4.7",
 		"description": "Anteil Arbeitnehmende in Unternehmensleitung oder Vorgesetztenfunktion nach Geschlecht",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Erwerbspersonen ",
+		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -17051,7 +17051,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Transit durch die Region Basel",
-		"subtitle": " in Brutto-Tonnen nach Verkehrsträger",
+		"subtitle": "in Brutto-Tonnen nach Verkehrsträger",
 		"kuerzel": "I.06.4.06307",
 		"kuerzelKunde": "5.3",
 		"description": "Transit durch die Region Basel",
@@ -18357,7 +18357,7 @@ var indikatoren = [
 		"kuerzelKunde": "2.5",
 		"description": "Anzahl Beschäftigte nach Branche",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -18603,7 +18603,7 @@ var indikatoren = [
 		"kuerzelKunde": "2.3",
 		"description": "Anzahl Neugründungen in Basel-Stadt",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -18672,7 +18672,7 @@ var indikatoren = [
 		"kuerzelKunde": "2.5",
 		"description": "Anzahl Beschäftigte nach Branche",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -18740,7 +18740,7 @@ var indikatoren = [
 		"kuerzelKunde": "A1-3",
 		"description": "Ausländeranteil nach Gemeinde und Wohnviertel",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -18774,7 +18774,7 @@ var indikatoren = [
 		"kuerzelKunde": "A1-10",
 		"description": "Ausländer nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -18808,7 +18808,7 @@ var indikatoren = [
 		"kuerzelKunde": "A1-6",
 		"description": "Anteil Ausländer der Ländergruppe EU-17+EFTA",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -18842,7 +18842,7 @@ var indikatoren = [
 		"kuerzelKunde": "A1-7",
 		"description": "Anteil Ausländer der Ländergruppe EU-Ost",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -19012,7 +19012,7 @@ var indikatoren = [
 		"kuerzelKunde": "C1-1",
 		"description": "Arbeitslosenquote nach Staatsangehörigkeit",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -19047,7 +19047,7 @@ var indikatoren = [
 		"kuerzelKunde": "C1-2",
 		"description": "Pyramide der Arbeitslosenquote der Ausländer",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -19082,7 +19082,7 @@ var indikatoren = [
 		"kuerzelKunde": "C1-3",
 		"description": "Pyramide der Arbeitslosenquote der Schweizer",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -19117,7 +19117,7 @@ var indikatoren = [
 		"kuerzelKunde": "C1-4",
 		"description": "Pyramide der Arbeitslosenquote der Ausländer",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -19152,7 +19152,7 @@ var indikatoren = [
 		"kuerzelKunde": "C1-5",
 		"description": "Pyramide der Arbeitslosenquote der Schweizer",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -19187,7 +19187,7 @@ var indikatoren = [
 		"kuerzelKunde": "C1-6",
 		"description": "Anteil Arbeitslose in ausgewählten Berufsgruppen",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -19221,7 +19221,7 @@ var indikatoren = [
 		"kuerzelKunde": "C1-7",
 		"description": "Anzahl monatlich ausgesteuerte Schweizer",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -19255,7 +19255,7 @@ var indikatoren = [
 		"kuerzelKunde": "C1-8",
 		"description": "Anzahl monatlich ausgesteuerte Ausländer",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -19289,7 +19289,7 @@ var indikatoren = [
 		"kuerzelKunde": "C2-1",
 		"description": "Erwerbstätigenquote",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Erwerbspersonen ",
+		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -19323,7 +19323,7 @@ var indikatoren = [
 		"kuerzelKunde": "C2-2",
 		"description": "Erwerbstätigenquote nach Staatsangehörigkeit",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Erwerbspersonen ",
+		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -19357,7 +19357,7 @@ var indikatoren = [
 		"kuerzelKunde": "C2-3",
 		"description": "Erwerbstätigenquote",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Erwerbspersonen ",
+		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -19391,7 +19391,7 @@ var indikatoren = [
 		"kuerzelKunde": "C2-4",
 		"description": "Erwerbsquote",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Erwerbspersonen ",
+		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -20115,7 +20115,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.2-03",
 		"description": "Beschäftigung nach Geschlecht",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -20149,7 +20149,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.2-04",
 		"description": "Durchschnittlicher Beschäftigungsgrad nach Geschlecht",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -20183,7 +20183,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.2-07",
 		"description": "Beschäftigung im Dienstleistungssektor (II)",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -20217,7 +20217,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.2-08",
 		"description": "Beschäftigung im Dienstleistungssektor (III)",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -20251,7 +20251,7 @@ var indikatoren = [
 		"kuerzelKunde": "2.1-01",
 		"description": "Beschäftigung nach Branche",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -20285,7 +20285,7 @@ var indikatoren = [
 		"kuerzelKunde": "2.2-01",
 		"description": "Arbeitslosenquote nach Branche",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -20422,7 +20422,7 @@ var indikatoren = [
 		"kuerzelKunde": "2.4-01",
 		"description": "Löhne nach Branche",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Löhne ",
+		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
@@ -20456,7 +20456,7 @@ var indikatoren = [
 		"kuerzelKunde": "C6-1",
 		"description": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Löhne ",
+		"unterthema": "Löhne",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -20937,7 +20937,7 @@ var indikatoren = [
 		"kuerzelKunde": "D3-3",
 		"description": "Anteil Personen mit und ohne Migrationshintergrund",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -21285,7 +21285,7 @@ var indikatoren = [
 		"kuerzelKunde": "D6-1",
 		"description": "Beteiligung an Freiwilligenarbeit",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -21489,7 +21489,7 @@ var indikatoren = [
 		"kuerzelKunde": "",
 		"description": "Bevölkerungsbestand am Jahresende",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Wohnviertel",
@@ -21558,7 +21558,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.3-07",
 		"description": "Arbeitslose im Dienstleistungssektor (II)",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -21592,7 +21592,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.3-08",
 		"description": "Arbeitslose im Dienstleistungssektor (III)",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -21894,7 +21894,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung",
-		"subtitle": " nach Staatsangehörigkeit, Stand: 2016",
+		"subtitle": "nach Staatsangehörigkeit, Stand: 2016",
 		"kuerzel": "I.15.6.06515",
 		"kuerzelKunde": "B6-1",
 		"description": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung",
@@ -22070,7 +22070,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.5-01",
 		"description": "Medianlohn in der Schweiz, der Nordwestschweiz und Zürich",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Löhne ",
+		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
@@ -22104,7 +22104,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.5-02",
 		"description": "Medianlohn nach Geschlecht",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Löhne ",
+		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
@@ -22138,7 +22138,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.5-03",
 		"description": "Medianlohn nach Alter",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Löhne ",
+		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
@@ -22172,7 +22172,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.5-04",
 		"description": "Medianlohn in der Privatwirtschaft nach Bewilligungsart",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Löhne ",
+		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
@@ -22206,7 +22206,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.5-05",
 		"description": "Medianlohn in Industrie und Baugewerbe",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Löhne ",
+		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
@@ -22240,7 +22240,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.5-06",
 		"description": "Medianlohn im Dienstleistungssektor (I)",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Löhne ",
+		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
@@ -22274,7 +22274,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.5-07",
 		"description": "Medianlohn im Dienstleistungssektor (II)",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Löhne ",
+		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
@@ -22308,7 +22308,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.5-08",
 		"description": "Medianlohn im Dienstleistungssektor (III)",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Löhne ",
+		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
@@ -22342,7 +22342,7 @@ var indikatoren = [
 		"kuerzelKunde": "3.2-02",
 		"description": "Beschäftigung nach Grösse der Arbeitsstätte und Kanton",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -22818,7 +22818,7 @@ var indikatoren = [
 		"kuerzelKunde": "A3-4",
 		"description": "Anteil Ausländer nach Alter und Art der Bewilligung",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
