@@ -6,7 +6,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "1-1",
 		"description": "Ausländeranteil nach Staatsangehörigkeit seit 2006",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -39,7 +39,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "1-2",
 		"description": "Altersquotient nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -72,7 +72,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "1-3",
 		"description": "Jugendquotient nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -105,7 +105,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "1-4A",
 		"description": "Anzahl Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit seit 2006",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -138,7 +138,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "1-4B",
 		"description": "Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit 2006 und 2015",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -171,7 +171,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "1-5A",
 		"description": "Anzahl Ausländer nach Art der Bewilligung seit 2006",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -204,7 +204,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "1-5B",
 		"description": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -270,7 +270,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "1-7",
 		"description": "Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -336,7 +336,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "2-1",
 		"description": "Segregationsindex nach Staatsangehörigkeit seit 2006",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -402,7 +402,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "2-3A",
 		"description": "Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -468,7 +468,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3-3",
 		"description": "Arbeitslosenquote nach Staatsangehörigkeit seit 2010",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -568,7 +568,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "3-4",
 		"description": "Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Erwerbspersonen ",
+		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -667,7 +667,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "2-3B",
 		"description": "Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"

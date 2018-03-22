@@ -72,9 +72,8 @@ global lazyRenderChartById
 global exportThumbnail
 */
 
-//get kuerzel and id from url, encode to prevent xss 
 var kuerzel = window.decodeURIComponent($.url('?kuerzel'));               
-var id = window.decodeURIComponent($.url('?id'));
+var id = parseInt(window.decodeURIComponent($.url('?id')), 10);
 var suppressNumberInTitle = (window.decodeURIComponent($.url('?suppressNumberInTitle')) === 'true') ? true : false;
 
 //check if kuerzel or id is member in the list of existing charts

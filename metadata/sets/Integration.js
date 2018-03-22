@@ -6,7 +6,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A1-1",
 		"description": "Ausländeranteil",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -39,7 +39,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A1-2",
 		"description": "Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -72,7 +72,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A1-4",
 		"description": "Anzahl Ausländer nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -105,7 +105,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A1-5",
 		"description": "Ausländer nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -138,7 +138,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A1-8",
 		"description": "Übrige Ausländer",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -171,7 +171,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A1-9",
 		"description": "Ausländer nach Staatsangehörigkeit und Geschlecht",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -204,7 +204,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A2-1",
 		"description": "Durchschnittsalter der Wohnbevölkerung",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -237,7 +237,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A2-2",
 		"description": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -270,7 +270,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A2-3",
 		"description": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -303,7 +303,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A2-4",
 		"description": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -336,7 +336,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A2-5",
 		"description": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -369,7 +369,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A2-6",
 		"description": "Jugendquotient nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -402,7 +402,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A2-7",
 		"description": "Altersquotient nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -435,7 +435,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A2-8",
 		"description": "Ausländeranteil nach Alter",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -468,7 +468,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A3-1",
 		"description": "Anzahl Ausländer nach Art der Bewilligung",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -501,7 +501,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A3-2",
 		"description": "Ausländer nach Art der Bewilligung",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -534,7 +534,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A3-3",
 		"description": "Anteil Ausländer mit Niederlassungsbewilligung",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -567,7 +567,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A3-5",
 		"description": "Median der Aufenthaltsdauer der Ausländer",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton",
@@ -700,7 +700,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A5-1",
 		"description": "Segregationsindex nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -733,7 +733,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A5-2",
 		"description": "Veränderung des Segregationsindex",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1071,7 +1071,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A1-3",
 		"description": "Ausländeranteil nach Gemeinde und Wohnviertel",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -1104,7 +1104,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A1-10",
 		"description": "Ausländer nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -1137,7 +1137,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A1-6",
 		"description": "Anteil Ausländer der Ländergruppe EU-17+EFTA",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1170,7 +1170,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A1-7",
 		"description": "Anteil Ausländer der Ländergruppe EU-Ost",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1335,7 +1335,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "C1-1",
 		"description": "Arbeitslosenquote nach Staatsangehörigkeit",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1369,7 +1369,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "C1-2",
 		"description": "Pyramide der Arbeitslosenquote der Ausländer",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1403,7 +1403,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "C1-3",
 		"description": "Pyramide der Arbeitslosenquote der Schweizer",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1437,7 +1437,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "C1-4",
 		"description": "Pyramide der Arbeitslosenquote der Ausländer",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1471,7 +1471,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "C1-5",
 		"description": "Pyramide der Arbeitslosenquote der Schweizer",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1505,7 +1505,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "C1-6",
 		"description": "Anteil Arbeitslose in ausgewählten Berufsgruppen",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1538,7 +1538,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "C1-7",
 		"description": "Anzahl monatlich ausgesteuerte Schweizer",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1571,7 +1571,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "C1-8",
 		"description": "Anzahl monatlich ausgesteuerte Ausländer",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1604,7 +1604,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "C2-1",
 		"description": "Erwerbstätigenquote",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Erwerbspersonen ",
+		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1637,7 +1637,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "C2-2",
 		"description": "Erwerbstätigenquote nach Staatsangehörigkeit",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Erwerbspersonen ",
+		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1670,7 +1670,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "C2-3",
 		"description": "Erwerbstätigenquote",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Erwerbspersonen ",
+		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1703,7 +1703,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "C2-4",
 		"description": "Erwerbsquote",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Erwerbspersonen ",
+		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -2208,7 +2208,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "C6-1",
 		"description": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Löhne ",
+		"unterthema": "Löhne",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -2675,7 +2675,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "D3-3",
 		"description": "Anteil Personen mit und ohne Migrationshintergrund",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -3013,7 +3013,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "D6-1",
 		"description": "Beteiligung an Freiwilligenarbeit",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -3504,7 +3504,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung",
-		"subtitle": " nach Staatsangehörigkeit, Stand: 2016",
+		"subtitle": "nach Staatsangehörigkeit, Stand: 2016",
 		"kuerzel": "I.15.6.06515",
 		"kuerzelKunde": "B6-1",
 		"description": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung",
@@ -3609,7 +3609,7 @@ var indikatorensetData = [
 		"kuerzelKunde": "A3-4",
 		"description": "Anteil Ausländer nach Alter und Art der Bewilligung",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
