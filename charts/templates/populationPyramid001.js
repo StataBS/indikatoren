@@ -80,7 +80,8 @@
             },
             labels: {
                 style: {
-                	color: "#000000"
+                	color: "#000000",
+                    textOverflow: 'none'
                 }, 
                 //Display absolute value
                 formatter: function () {
