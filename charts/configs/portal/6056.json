@@ -1,0 +1,343 @@
+{
+  "series": [
+    {
+      "color": "#933F8D",
+      "stack": "m",
+      "legendIndex": 3,
+      "data": [
+        [
+          "1970",
+          67396
+        ],
+        [
+          "1980",
+          54683
+        ],
+        [
+          "1990",
+          51149
+        ],
+        [
+          "2000",
+          38602
+        ],
+        [
+          "2010",
+          37690
+        ],
+        [
+          "2016",
+          40022
+        ]
+      ],
+      "name": "Vollzeit Männer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B475AB",
+      "stack": "m",
+      "legendIndex": 0,
+      "data": [
+        [
+          "1970",
+          3171
+        ],
+        [
+          "1980",
+          2972
+        ],
+        [
+          "1990",
+          4367
+        ],
+        [
+          "2000",
+          6235
+        ],
+        [
+          "2010",
+          7849
+        ],
+        [
+          "2016",
+          9831
+        ]
+      ],
+      "name": "Teilzeit Männer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "stack": "w",
+      "legendIndex": 4,
+      "data": [
+        [
+          "1970",
+          31316
+        ],
+        [
+          "1980",
+          26817
+        ],
+        [
+          "1990",
+          22780
+        ],
+        [
+          "2000",
+          19585
+        ],
+        [
+          "2010",
+          21125
+        ],
+        [
+          "2016",
+          22274
+        ]
+      ],
+      "name": "Vollzeit Frauen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFDA80",
+      "stack": "w",
+      "legendIndex": 1,
+      "data": [
+        [
+          "1970",
+          12983
+        ],
+        [
+          "1980",
+          12499
+        ],
+        [
+          "1990",
+          17192
+        ],
+        [
+          "2000",
+          18767
+        ],
+        [
+          "2010",
+          20593
+        ],
+        [
+          "2016",
+          24510
+        ]
+      ],
+      "name": "Teilzeit Frauen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8a8a8a",
+      "stack": "t",
+      "legendIndex": 5,
+      "data": [
+        [
+          "1970",
+          98712
+        ],
+        [
+          "1980",
+          81500
+        ],
+        [
+          "1990",
+          73929
+        ],
+        [
+          "2000",
+          58187
+        ],
+        [
+          "2010",
+          58814
+        ],
+        [
+          "2016",
+          62296
+        ]
+      ],
+      "name": "Vollzeit Total",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#c8c8c8",
+      "stack": "t",
+      "legendIndex": 2,
+      "data": [
+        [
+          "1970",
+          16154
+        ],
+        [
+          "1980",
+          15471
+        ],
+        [
+          "1990",
+          21559
+        ],
+        [
+          "2000",
+          25002
+        ],
+        [
+          "2010",
+          28442
+        ],
+        [
+          "2016",
+          34341
+        ]
+      ],
+      "name": "Teilzeit Total",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "marginBottom": 65,
+    "marginTop": 100,
+    "type": "column",
+    "renderTo": "container-6056"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent",
+      "pointPadding": 0,
+      "groupPadding": 0.1
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anteil Voll- und Teilzeiterwerbstätige nach Geschlecht"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "reversedStacks": false
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Volkszählung (bis 2000) und Strukturerhebung (ab 2010)"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "x": 40,
+    "y": 30,
+    "align": "left",
+    "itemWidth": 130,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}:\u003Cbr\u002F\u003E\u003Cb\u003E{point.y}\u003C\u002Fb\u003E Personen (\u003Cb\u003E{point.percentage:.1f}%\u003C\u002Fb\u003E von Total {point.stackTotal: ,2f} Personen)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 6056
+  }
+}

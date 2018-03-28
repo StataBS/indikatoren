@@ -1,0 +1,157 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+  <desc>
+    Created with Highstock 6.0.4
+  </desc>
+  <defs>
+    <clipPath>
+      <rect x="0" y="0" width="432" height="209" fill="none"/>
+    </clipPath>
+    <clipPath id="a">
+      <rect x="0" y="0" width="432" height="209" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="485" height="415" rx="0" ry="0"/>
+  <rect fill="none" class="highcharts-plot-background" x="43" y="170" width="432" height="209"/>
+  <g class="highcharts-pane-group"/>
+  <g class="highcharts-grid highcharts-xaxis-grid ">
+    <path fill="none" class="highcharts-grid-line" d="M 46.5 170 L 46.5 379" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 99.5 170 L 99.5 379" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 152.5 170 L 152.5 379" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 205.5 170 L 205.5 379" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 258.5 170 L 258.5 379" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 311.5 170 L 311.5 379" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 364.5 170 L 364.5 379" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 417.5 170 L 417.5 379" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 470.5 170 L 470.5 379" opacity="1"/>
+  </g>
+  <g class="highcharts-grid highcharts-yaxis-grid ">
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 43 379.25 L 475 379.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 43 327.25 L 475 327.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 43 275.25 L 475 275.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 43 222.25 L 475 222.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 43 169.75 L 475 169.75" opacity="1"/>
+  </g>
+  <rect fill="none" class="highcharts-plot-border" x="43" y="170" width="432" height="209"/>
+  <g class="highcharts-axis highcharts-xaxis ">
+    <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width="0.5" d="M 43 379.25 L 475 379.25"/>
+  </g>
+  <g class="highcharts-axis highcharts-yaxis ">
+    <path fill="none" class="highcharts-axis-line" d="M 43 170 L 43 379"/>
+  </g>
+  <g class="highcharts-series-group">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(43,170) scale(1 1)" clip-path="url(#a)">
+      <path fill="none" d="M 4.2352941176433 92.4825 L 57.176470588232 88.825 L 110.11764705882 79.81187500000001 L 163.05882352941 75.76250000000002 L 216 72.36625000000001 L 268.94117647059 67.14125000000001 L 321.88235294118 63.091875000000016 L 374.82352941177 57.47500000000002 L 427.76470588236 51.51850000000002" class="highcharts-graph" stroke="#B00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(43,170) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-line-series " transform="translate(43,170) scale(1 1)" clip-path="url(#a)">
+      <path fill="none" d="M 4.2352941176433 115.73375 L 57.176470588232 110.2475 L 110.11764705882 102.14875 L 163.05882352941 99.79750000000001 L 216 96.40125 L 268.94117647059 91.17625000000001 L 321.88235294118 86.2125 L 374.82352941177 79.42000000000002 L 427.76470588236 72.49687500000002" class="highcharts-graph" stroke="#662673" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-1 highcharts-line-series " transform="translate(43,170) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-2 highcharts-line-series " transform="translate(43,170) scale(1 1)" clip-path="url(#a)">
+      <path fill="none" d="M 4.2352941176433 112.59875000000001 L 57.176470588232 107.11250000000001 L 110.11764705882 99.53625000000001 L 163.05882352941 97.420125 L 216 96.009375 L 268.94117647059 89.60875000000001 L 321.88235294118 85.42875000000001 L 374.82352941177 77.59125 L 427.76470588236 74.45625000000001" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-2 highcharts-line-series " transform="translate(43,170) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-3 highcharts-line-series " transform="translate(43,170) scale(1 1)" clip-path="url(#a)">
+      <path fill="none" d="M 4.2352941176433 90.65375 L 57.176470588232 88.825 L 110.11764705882 81.51 L 163.05882352941 78.40112500000001 L 216 73.41125 L 268.94117647059 68.23850000000002 L 321.88235294118 61.576625000000035 L 374.82352941177 56.952500000000015 L 427.76470588236 48.95824999999999" class="highcharts-graph" stroke="#007A2F" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-3 highcharts-line-series " transform="translate(43,170) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-4 highcharts-line-series " transform="translate(43,170) scale(1 1)" clip-path="url(#a)">
+      <path fill="none" d="M 4.2352941176433 102.906375 L 57.176470588232 96.14000000000001 L 110.11764705882 86.604375 L 163.05882352941 84.93237500000001 L 216 83.36487500000001 L 268.94117647059 80.33437500000002 L 321.88235294118 78.24437500000002 L 374.82352941177 72.52300000000002 L 427.76470588236 67.66375000000002" class="highcharts-graph" stroke="#E6E600" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-4 highcharts-line-series " transform="translate(43,170) scale(1 1)" clip-path="none"/>
+  </g>
+  <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
+    <tspan>Medianprämie pro Prämienregion</tspan>
+  </text>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40">
+    <tspan>Basel-Stadt im kantonalen Vergleich; in Franken.</tspan>
+  </text>
+  <g class="highcharts-legend" transform="translate(35,90)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="296" height="68" visibility="visible"/>
+    <g>
+      <g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3" transform="translate(8,3)">
+          <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#007A2F" stroke-width="2"/>
+          <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
+            <tspan>Genf</tspan>
+          </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-4" transform="translate(158,3)">
+          <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#E6E600" stroke-width="2"/>
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>Bern</tspan>
+          </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0" transform="translate(8,22)">
+          <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#B00000" stroke-width="2"/>
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>Basel-Stadt</tspan>
+          </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(158,22)">
+          <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#662673" stroke-width="2"/>
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>Basel-Landschaft</tspan>
+          </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2" transform="translate(8,41)">
+          <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#008AC3" stroke-width="2"/>
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>Zürich</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="highcharts-axis-labels highcharts-xaxis-labels ">
+    <text x="47.235294117643285" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="398" opacity="1">
+      2010
+    </text>
+    <text x="100.17647058823246" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="398" opacity="1">
+      2011
+    </text>
+    <text x="153.11764705882163" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="398" opacity="1">
+      2012
+    </text>
+    <text x="206.0588235294108" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="398" opacity="1">
+      2013
+    </text>
+    <text x="259" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="398" opacity="1">
+      2014
+    </text>
+    <text x="311.94117647058914" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="398" opacity="1">
+      2015
+    </text>
+    <text x="364.88235294117834" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="398" opacity="1">
+      2016
+    </text>
+    <text x="417.82352941176754" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="398" opacity="1">
+      2017
+    </text>
+    <text x="462.78125" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="398" opacity="1">
+      2018
+    </text>
+  </g>
+  <g class="highcharts-axis-labels highcharts-yaxis-labels ">
+    <text x="28" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="384" opacity="1">
+      <tspan>0</tspan>
+    </text>
+    <text x="28" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="331" opacity="1">
+      <tspan>200</tspan>
+    </text>
+    <text x="28" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="279" opacity="1">
+      <tspan>400</tspan>
+    </text>
+    <text x="28" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="227" opacity="1">
+      <tspan>600</tspan>
+    </text>
+    <text x="28" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="175" opacity="1">
+      <tspan>800</tspan>
+    </text>
+  </g>
+  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="390">
+    <tspan>Quelle: Bundesamt für Gesundheit (BAG);</tspan><tspan x="10" dy="13">Gesundheitsdepartement Basel-Stadt</tspan>
+  </text>
+</svg>

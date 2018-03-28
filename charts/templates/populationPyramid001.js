@@ -24,7 +24,7 @@
                     fn.createSymmetricAxis(this.yAxis[0]);
                     
                     //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top'){ // && this['legend']['options']['x'] == 0){
                       this.update(
                         {
                           legend: {
@@ -80,11 +80,12 @@
             },
             labels: {
                 style: {
-                	color: "#000000"
+                	color: "#000000",
+                    textOverflow: 'none'
                 }, 
                 //Display absolute value
                 formatter: function () {
-                    return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
+                    return Highcharts.numberFormat(Math.abs(this.value), 0, ",", "\u00a0");
                 },
             },
         },   

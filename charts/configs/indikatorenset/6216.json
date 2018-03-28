@@ -1,0 +1,451 @@
+{
+  "series": [
+    {
+      "color": "#C8C8C8",
+      "index": 1,
+      "legendIndex": 1,
+      "data": [
+        [
+          "ÖV-Angebot",
+          10
+        ],
+        [
+          "Grünanlagen",
+          10
+        ],
+        [
+          "Verkehrssicherheit",
+          10
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          10
+        ],
+        [
+          "Quartierleben",
+          10
+        ],
+        [
+          "Bevölkerung",
+          10
+        ],
+        [
+          "Luftqualität",
+          10
+        ],
+        [
+          "Lärmsituation",
+          10
+        ],
+        [
+          "Öffentliche Sicherheit",
+          10
+        ],
+        [
+          "Schule, Bildung",
+          10
+        ],
+        [
+          "Arbeitsplatzangebot",
+          10
+        ],
+        [
+          "Wohnungsangebot",
+          10
+        ],
+        [
+          "Parkplätze",
+          10
+        ]
+      ],
+      "name": "Weiss nicht\u002Fk.A.",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#CD9C00",
+      "index": 2,
+      "legendIndex": 2,
+      "data": [
+        [
+          "ÖV-Angebot",
+          20
+        ],
+        [
+          "Grünanlagen",
+          20
+        ],
+        [
+          "Verkehrssicherheit",
+          20
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          20
+        ],
+        [
+          "Quartierleben",
+          20
+        ],
+        [
+          "Bevölkerung",
+          20
+        ],
+        [
+          "Luftqualität",
+          20
+        ],
+        [
+          "Lärmsituation",
+          20
+        ],
+        [
+          "Öffentliche Sicherheit",
+          20
+        ],
+        [
+          "Schule, Bildung",
+          20
+        ],
+        [
+          "Arbeitsplatzangebot",
+          20
+        ],
+        [
+          "Wohnungsangebot",
+          20
+        ],
+        [
+          "Parkplätze",
+          20
+        ]
+      ],
+      "name": "Ganz unzufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "index": 3,
+      "legendIndex": 3,
+      "data": [
+        [
+          "ÖV-Angebot",
+          30
+        ],
+        [
+          "Grünanlagen",
+          30
+        ],
+        [
+          "Verkehrssicherheit",
+          30
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          30
+        ],
+        [
+          "Quartierleben",
+          30
+        ],
+        [
+          "Bevölkerung",
+          30
+        ],
+        [
+          "Luftqualität",
+          30
+        ],
+        [
+          "Lärmsituation",
+          30
+        ],
+        [
+          "Öffentliche Sicherheit",
+          30
+        ],
+        [
+          "Schule, Bildung",
+          30
+        ],
+        [
+          "Arbeitsplatzangebot",
+          30
+        ],
+        [
+          "Wohnungsangebot",
+          30
+        ],
+        [
+          "Parkplätze",
+          30
+        ]
+      ],
+      "name": "Eher unzufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73B97C",
+      "index": 4,
+      "legendIndex": 4,
+      "data": [
+        [
+          "ÖV-Angebot",
+          40
+        ],
+        [
+          "Grünanlagen",
+          40
+        ],
+        [
+          "Verkehrssicherheit",
+          40
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          40
+        ],
+        [
+          "Quartierleben",
+          40
+        ],
+        [
+          "Bevölkerung",
+          40
+        ],
+        [
+          "Luftqualität",
+          40
+        ],
+        [
+          "Lärmsituation",
+          40
+        ],
+        [
+          "Öffentliche Sicherheit",
+          40
+        ],
+        [
+          "Schule, Bildung",
+          40
+        ],
+        [
+          "Arbeitsplatzangebot",
+          40
+        ],
+        [
+          "Wohnungsangebot",
+          40
+        ],
+        [
+          "Parkplätze",
+          40
+        ]
+      ],
+      "name": "Eher zufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "index": 5,
+      "legendIndex": 5,
+      "data": [
+        [
+          "ÖV-Angebot",
+          50
+        ],
+        [
+          "Grünanlagen",
+          50
+        ],
+        [
+          "Verkehrssicherheit",
+          50
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          50
+        ],
+        [
+          "Quartierleben",
+          50
+        ],
+        [
+          "Bevölkerung",
+          50
+        ],
+        [
+          "Luftqualität",
+          50
+        ],
+        [
+          "Lärmsituation",
+          50
+        ],
+        [
+          "Öffentliche Sicherheit",
+          50
+        ],
+        [
+          "Schule, Bildung",
+          50
+        ],
+        [
+          "Arbeitsplatzangebot",
+          50
+        ],
+        [
+          "Wohnungsangebot",
+          50
+        ],
+        [
+          "Parkplätze",
+          50
+        ]
+      ],
+      "name": "Sehr zufrieden",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+            	return this.value;
+            }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-6216"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» Stand: 2015"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
+  },
+  "yAxis": {
+    "tickInterval": 10,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value}%",
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "shared": false,
+    "valueDecimals": 1
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"
+  },
+  "legend": {
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
+    "useHTML": false,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        }
+  },
+  "exporting": {
+    "filename": 6216
+  }
+}

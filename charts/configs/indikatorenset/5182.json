@@ -1,0 +1,702 @@
+{
+  "series": [
+    {
+      "color": "#E64900",
+      "legendIndex": 0,
+      "visible": false,
+      "marker": {
+        "symbol": "diamond"
+      },
+      "data": [
+        [
+          "1980",
+          5
+        ],
+        [
+          "1990",
+          6
+        ],
+        [
+          "2000",
+          9
+        ],
+        [
+          "2010",
+          9
+        ],
+        [
+          "2011",
+          7
+        ],
+        [
+          "2012",
+          11
+        ],
+        [
+          "2013",
+          8
+        ],
+        [
+          "2014",
+          9
+        ],
+        [
+          "2015",
+          9
+        ]
+      ],
+      "name": "1. Kl. schw. Knaben",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#E64900",
+      "legendIndex": 1,
+      "visible": false,
+      "data": [
+        [
+          "1980",
+          8
+        ],
+        [
+          "1990",
+          8
+        ],
+        [
+          "2000",
+          13
+        ],
+        [
+          "2010",
+          11
+        ],
+        [
+          "2011",
+          10
+        ],
+        [
+          "2012",
+          12
+        ],
+        [
+          "2013",
+          14
+        ],
+        [
+          "2014",
+          11
+        ],
+        [
+          "2015",
+          12
+        ]
+      ],
+      "name": "1. Kl. schw. Mädchen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "legendIndex": 2,
+      "visible": false,
+      "marker": {
+        "symbol": "diamond"
+      },
+      "data": [
+        [
+          "1980",
+          13
+        ],
+        [
+          "1990",
+          15
+        ],
+        [
+          "2000",
+          16
+        ],
+        [
+          "2010",
+          16
+        ],
+        [
+          "2011",
+          17
+        ],
+        [
+          "2012",
+          19
+        ],
+        [
+          "2013",
+          16
+        ],
+        [
+          "2014",
+          14
+        ],
+        [
+          "2015",
+          14
+        ]
+      ],
+      "name": "1. Kl. ausl. Knaben",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "legendIndex": 4,
+      "visible": false,
+      "data": [
+        [
+          "1980",
+          23
+        ],
+        [
+          "1990",
+          17
+        ],
+        [
+          "2000",
+          20
+        ],
+        [
+          "2010",
+          16
+        ],
+        [
+          "2011",
+          20
+        ],
+        [
+          "2012",
+          20
+        ],
+        [
+          "2013",
+          18
+        ],
+        [
+          "2014",
+          18
+        ],
+        [
+          "2015",
+          19
+        ]
+      ],
+      "name": "1. Kl. ausl. Mädchen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "legendIndex": 4,
+      "visible": true,
+      "marker": {
+        "symbol": "diamond"
+      },
+      "data": [
+        [
+          "1980",
+          9
+        ],
+        [
+          "1990",
+          11
+        ],
+        [
+          "2000",
+          16
+        ],
+        [
+          "2010",
+          20
+        ],
+        [
+          "2011",
+          19
+        ],
+        [
+          "2012",
+          19
+        ],
+        [
+          "2013",
+          21
+        ],
+        [
+          "2014",
+          21
+        ],
+        [
+          "2015",
+          18
+        ]
+      ],
+      "name": "3. Kl. schw. Knaben",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "legendIndex": 5,
+      "visible": true,
+      "data": [
+        [
+          "1980",
+          9
+        ],
+        [
+          "1990",
+          10
+        ],
+        [
+          "2000",
+          23
+        ],
+        [
+          "2010",
+          19
+        ],
+        [
+          "2011",
+          22
+        ],
+        [
+          "2012",
+          21
+        ],
+        [
+          "2013",
+          20
+        ],
+        [
+          "2014",
+          14
+        ],
+        [
+          "2015",
+          21
+        ]
+      ],
+      "name": "3. Kl. schw. Mädchen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B375AB",
+      "legendIndex": 6,
+      "visible": true,
+      "marker": {
+        "symbol": "diamond"
+      },
+      "data": [
+        [
+          "1980",
+          20
+        ],
+        [
+          "1990",
+          21
+        ],
+        [
+          "2000",
+          36
+        ],
+        [
+          "2010",
+          31
+        ],
+        [
+          "2011",
+          33
+        ],
+        [
+          "2012",
+          32
+        ],
+        [
+          "2013",
+          33
+        ],
+        [
+          "2014",
+          29
+        ],
+        [
+          "2015",
+          31
+        ]
+      ],
+      "name": "3. Kl. ausl. Knaben",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B375AB",
+      "legendIndex": 7,
+      "visible": true,
+      "data": [
+        [
+          "1980",
+          19
+        ],
+        [
+          "1990",
+          26
+        ],
+        [
+          "2000",
+          30
+        ],
+        [
+          "2010",
+          28
+        ],
+        [
+          "2011",
+          34
+        ],
+        [
+          "2012",
+          24
+        ],
+        [
+          "2013",
+          28
+        ],
+        [
+          "2014",
+          25
+        ],
+        [
+          "2015",
+          30
+        ]
+      ],
+      "name": "3. Kl. ausl. Mädchen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFDA80",
+      "legendIndex": 8,
+      "visible": true,
+      "marker": {
+        "symbol": "diamond"
+      },
+      "data": [
+        [
+          "1980",
+          7
+        ],
+        [
+          "1990",
+          13
+        ],
+        [
+          "2000",
+          18
+        ],
+        [
+          "2010",
+          24
+        ],
+        [
+          "2011",
+          28
+        ],
+        [
+          "2012",
+          24
+        ],
+        [
+          "2013",
+          27
+        ],
+        [
+          "2014",
+          25
+        ],
+        [
+          "2015",
+          23
+        ]
+      ],
+      "name": "9. Kl. schw. Knaben",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFDA80",
+      "legendIndex": 9,
+      "visible": true,
+      "data": [
+        [
+          "1980",
+          10
+        ],
+        [
+          "1990",
+          8
+        ],
+        [
+          "2000",
+          14
+        ],
+        [
+          "2010",
+          17
+        ],
+        [
+          "2011",
+          18
+        ],
+        [
+          "2012",
+          22
+        ],
+        [
+          "2013",
+          21
+        ],
+        [
+          "2014",
+          18
+        ],
+        [
+          "2015",
+          18
+        ]
+      ],
+      "name": "9. Kl. schw. Mädchen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#3C3C3C",
+      "legendIndex": 10,
+      "visible": true,
+      "marker": {
+        "symbol": "diamond"
+      },
+      "data": [
+        [
+          "1980",
+          11
+        ],
+        [
+          "1990",
+          21
+        ],
+        [
+          "2000",
+          29
+        ],
+        [
+          "2010",
+          36
+        ],
+        [
+          "2011",
+          39
+        ],
+        [
+          "2012",
+          42
+        ],
+        [
+          "2013",
+          44
+        ],
+        [
+          "2014",
+          32
+        ],
+        [
+          "2015",
+          33
+        ]
+      ],
+      "name": "9. Kl. ausl. Knaben",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#3C3C3C",
+      "legendIndex": 11,
+      "visible": true,
+      "data": [
+        [
+          "1980",
+          9
+        ],
+        [
+          "1990",
+          24
+        ],
+        [
+          "2000",
+          24
+        ],
+        [
+          "2010",
+          34
+        ],
+        [
+          "2011",
+          29
+        ],
+        [
+          "2012",
+          22
+        ],
+        [
+          "2013",
+          30
+        ],
+        [
+          "2014",
+          33
+        ],
+        [
+          "2015",
+          24
+        ]
+      ],
+      "name": "9. Kl. ausl. Mädchen",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "type": "scatter",
+    "inverted": false,
+    "renderTo": "container-5182"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "scatter": {
+      "marker": {
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Übergewichtige Kinder nach Schulstufe, Heimat und Geschlecht"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in %",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "y": 50,
+    "itemMarginBottom": 5,
+    "itemWidth": 200,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": 5182
+  }
+}

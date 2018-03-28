@@ -1,0 +1,229 @@
+{
+  "series": [
+    {
+      "color": "#83522E",
+      "visible": true,
+      "data": [
+        [
+          "Matthäus",
+          6.22
+        ],
+        [
+          "Altstadt Kleinbasel",
+          8.14
+        ],
+        [
+          "Clara",
+          9.05
+        ],
+        [
+          "Altstadt Grossbasel",
+          9.8
+        ],
+        [
+          "Gundeldingen",
+          10.9
+        ],
+        [
+          "Rosental",
+          13.03
+        ],
+        [
+          "Klybeck",
+          15.13
+        ],
+        [
+          "Am Ring",
+          20.09
+        ],
+        [
+          "Gotthelf",
+          22.89
+        ],
+        [
+          "Iselin",
+          23.93
+        ],
+        [
+          "Breite",
+          27.71
+        ],
+        [
+          "St. Johann",
+          34.24
+        ],
+        [
+          "Vorstädte",
+          35.02
+        ],
+        [
+          "Wettstein",
+          38.08
+        ],
+        [
+          "Bachletten",
+          46.71
+        ],
+        [
+          "St. Alban",
+          86.01
+        ],
+        [
+          "Kleinhüningen",
+          107.73
+        ],
+        [
+          "Hirzbrunnen",
+          196.26
+        ],
+        [
+          "Bruderholz",
+          199.99
+        ],
+        [
+          "Riehen",
+          404.98
+        ],
+        [
+          "Bettingen",
+          1686.65
+        ]
+      ],
+      "name": "Grünfläche",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 40,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "marginRight": 18,
+    "type": "scatter",
+    "inverted": true,
+    "renderTo": "container-5198"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "useHTML": true,
+    "text": "Grünfläche pro Kopf nach Wohnviertel"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, 2017",
+    "align": "left",
+    "useHTML": true
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EGrundbuch- und Vermessungsamt Basel-Stadt"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": false
+  },
+  "tooltip": {
+    "useHTML": true,
+    "formatter": function (args){
+                return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.key + ':</span><br/>' + 
+                    '<b>' + Highcharts.numberFormat(this.y, 1) + '</b> m<sup>2</sup> pro Einwohner';
+            },
+    "shared": true
+  },
+  "exporting": {
+    "filename": 5198
+  }
+}

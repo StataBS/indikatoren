@@ -1,0 +1,431 @@
+{
+  "series": [
+    {
+      "color": "#83038",
+      "index": 0,
+      "legendIndex": 0,
+      "data": [
+        [
+          "Alle",
+          35.3
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Männl.",
+          33.5
+        ],
+        [
+          "Weibl.",
+          37.1
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Deutsch",
+          47.1
+        ],
+        [
+          "Fremdspr.",
+          23.3
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Schweiz",
+          43.8
+        ],
+        [
+          "Ausland",
+          20.9
+        ]
+      ],
+      "name": "Gymnasium",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
+      "index": 1,
+      "legendIndex": 1,
+      "data": [
+        [
+          "Alle",
+          9.2
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Männl.",
+          5.9
+        ],
+        [
+          "Weibl.",
+          12.8
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Deutsch",
+          11.4
+        ],
+        [
+          "Fremdspr.",
+          7.1
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Schweiz",
+          9.9
+        ],
+        [
+          "Ausland",
+          8.1
+        ]
+      ],
+      "name": "Andere weiterführende Schulen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "index": 2,
+      "legendIndex": 2,
+      "data": [
+        [
+          "Alle",
+          30.9
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Männl.",
+          32.6
+        ],
+        [
+          "Weibl.",
+          29.1
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Deutsch",
+          18.5
+        ],
+        [
+          "Fremdspr.",
+          43.4
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Schweiz",
+          23.1
+        ],
+        [
+          "Ausland",
+          44.1
+        ]
+      ],
+      "name": "Brückenangebote\u002F12. Schuljahr",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "index": 3,
+      "legendIndex": 3,
+      "data": [
+        [
+          "Alle",
+          17.2
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Männl.",
+          21.8
+        ],
+        [
+          "Weibl.",
+          12.2
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Deutsch",
+          16.1
+        ],
+        [
+          "Fremdspr.",
+          18.2
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Schweiz",
+          17.4
+        ],
+        [
+          "Ausland",
+          16.8
+        ]
+      ],
+      "name": "Berufliche Grundbildung",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#D3E2E4",
+      "index": 4,
+      "legendIndex": 4,
+      "data": [
+        [
+          "Alle",
+          6
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Männl.",
+          4.6
+        ],
+        [
+          "Weibl.",
+          7.4
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Deutsch",
+          5.9
+        ],
+        [
+          "Fremdspr.",
+          6.1
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Schweiz",
+          4.9
+        ],
+        [
+          "Ausland",
+          7.7
+        ]
+      ],
+      "name": "Andere Lösung\u002FUnbekannt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "index": 5,
+      "legendIndex": 5,
+      "data": [
+        [
+          "Alle",
+          1.4
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Männl.",
+          1.5
+        ],
+        [
+          "Weibl.",
+          1.3
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Deutsch",
+          1
+        ],
+        [
+          "Fremdspr.",
+          1.9
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Schweiz",
+          0.9
+        ],
+        [
+          "Ausland",
+          2.3
+        ]
+      ],
+      "name": "Keine Lösung",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "align": "left",
+      "x": -50
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "renderTo": "container-6039",
+    "marginBottom": 75,
+    "inverted": true,
+    "marginLeft": 110
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Übertritte nach der obligatorischen Schulzeit"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "im Schuljahr 2015\u002F16",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "max": 100,
+    "tickInterval": 20
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 40,
+    "itemWidth": 200,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "pointWidth": 10,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal"
+    }
+  },
+  "exporting": {
+    "filename": 6039
+  }
+}

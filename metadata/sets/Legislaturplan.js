@@ -713,7 +713,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Höchste abgeschlossene Ausbildung",
-		"subtitle": "«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»",
+		"subtitle": "Nach Geschlecht, Staatsangehörigkeit und Altersklasse, Stand: 2015 <br>«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»",
 		"kuerzel": "I.50.1.06136",
 		"kuerzelKunde": "3.3",
 		"description": "Höchste abgeschlossene Ausbildung",
@@ -729,7 +729,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "10,2% der Befragten haben einen obligatorischen Schulabschluss. 33,5% aller Befragten absolvierten ein Studium an einer Fachhochschule oder Universität. Ein deutlicher Unterschied zwischen den Geschlechtern ist hier zu beobachten: Bei den Männern liegt der Anteil bei 39,2%, bei den Frauen bei 28,6%.",
+		"lesehilfe": "9,2% der Befragten haben einen obligatorischen Schulabschluss. 40,6% aller Befragten absolvierten ein Studium an einer Fachhochschule oder Universität. Ein deutlicher Unterschied zwischen den Geschlechtern ist hier zu beobachten: Bei den Männern liegt der Anteil bei 46,4%, bei den Frauen bei 35,7%.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
 		"orderKey": "03_00_00_00_00_004",
@@ -746,42 +746,6 @@ var indikatorensetData = [
 			""
 		],
 		"id": 6136
-	},
-	{
-		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
-		"subtitle": "",
-		"kuerzel": "I.03.4.06137",
-		"kuerzelKunde": "3.4",
-		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
-		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt 2016 auf 3,9% gestiegen. Die Jugendarbeitslosenquote liegt 2016 unverändert bei 4,5%. Die Arbeitslosenquote der Personen über 50 Jahre liegt mit 3,1% wie in den Vorjahren deutlich unterhalb des Durchschnitts.",
-		"erlaeuterungen": "Die Arbeitslosenquote berechnet sich folgendermassen: Registrierte Arbeitslose geteilt durch Erwerbspersonen mal 100.",
-		"template": "line001",
-		"orderKey": "03_00_00_00_00_005",
-		"parentId": null,
-		"children": [
-			"6053",
-			"6293"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 6137
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -819,11 +783,11 @@ var indikatorensetData = [
 		"id": 6138
 	},
 	{
-		"title": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft",
-		"subtitle": "Anteil am BIP",
+		"title": "Aufwendungen für Forschung und Entwicklung",
+		"subtitle": "in der Privatwirtschaft; Anteil am BIP",
 		"kuerzel": "I.04.2.06140",
 		"kuerzelKunde": "3.7",
-		"description": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft",
+		"description": "Aufwendungen für Forschung und Entwicklung",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Legislaturplan",
@@ -836,8 +800,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Nordwestschweiz machten 2012 die Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft 7,3% des Bruttoinlandprodukts aus. Dieser Anteil ist höher als 2008, als er noch bei 6,6% lag.",
-		"erlaeuterungen": "Revidierte Zahlen zu den Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft für das Jahr 2012. Die Grossregion Genferseeregion umfasst die Kantone Waadt, Wallis und Genf. Die Grossregion Nordwestschweiz beinhaltet die Kantone Basel-Stadt, Basel-Landschaft und Aargau. Die Grossregion Zürich entspricht dem Kanton Zürich. BIP = Bruttoinlandprodukt.",
+		"lesehilfe": "In der Nordwestschweiz machen die Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft im Jahr 2015 8,0% des Bruttoinlandprodukts aus. Dieser Anteil steigt von Jahr zu Jahr an und ist höher als in den beiden Vergleichsregionen.",
+		"erlaeuterungen": "Revidierte Zahlen zu den Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft für das Jahr 2012. Die Grossregion Genferseeregion umfasst die Kantone Waadt, Wallis und Genf. Die Grossregion Nordwestschweiz beinhaltet die Kantone Basel-Stadt, Basel-Landschaft und Aargau. Die Grossregion Zürich entspricht dem Kanton Zürich. BIP = Bruttoinlandprodukt. Die BIP-Daten im 2015 sind provisorische Werte.",
 		"template": "template001",
 		"orderKey": "03_00_00_00_00_008",
 		"parentId": null,
@@ -1057,7 +1021,8 @@ var indikatorensetData = [
 		"orderKey": "04_00_00_00_00_007",
 		"parentId": null,
 		"children": [
-			"6301"
+			"6301",
+			"6435"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1230,13 +1195,14 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf Kantonsgebiet liegt 2016 um 1%, diejenige des Veloverkehrs um 22,9% höher als im Jahr 2010. Der Wert für Fussgänger stieg von 2013 bis 2014 um 7 Prozentpunkte, sank dann aber bis 2016 wieder auf einen Indexwert von 102,5.",
-		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet.<br/> <br/>Autoverkehr: Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 35 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Der Index umfasst die Verkehrsleistung aller Motorfahrzeuge (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes.<br/><br/>Veloverkehr: Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Da der Veloverkehr stark wetterabhängig ist, wurde vom Statistischen Amt des Kantons Basel-Stadt ein Modell entwickelt, welches es zulässt, den Wettereinfluss aus der Verkehrsentwicklung herauszurechnen.<br/><br/>Fussverkehr: Der Index für den Fussverkehr basiert auf rund 17 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr (ÖV): Der Index des öffentlichen Verkehrs wird auf Basis der Verkehrsdaten von Tram- und Buslinien der BVB und der BLT und den S-Bahnen (nur alle zwei Jahre), abgegrenzt auf das Gebiet des Kantons Basel-Stadt, berechnet. Der Gesamtindex für den ÖV kann im jeweiligen Jahr erst im Herbst veröffentlicht werden, sobald die Daten für die S-Bahnen vorliegen.<br/> <br/>Aus der Veränderung an den Zählstellen wird die Veränderung auf dem ganzen Kantonsgebiet abgeleitet, indem jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet wird.<br/> <br/>Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
+		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet.<br/> <br/>Autoverkehr:<br/>Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 35 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Der Index umfasst die Verkehrsleistung aller Motorfahrzeuge (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes.<br/><br/>Veloverkehr:<br/> Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Da der Veloverkehr stark wetterabhängig ist, wurde vom Statistischen Amt des Kantons Basel-Stadt ein Modell entwickelt, welches es zulässt, den Wettereinfluss aus der Verkehrsentwicklung herauszurechnen.<br/><br/>Fussverkehr:<br/>Der Index für den Fussverkehr basiert auf rund 17 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr (ÖV):<br/>Der Index des öffentlichen Verkehrs wird auf Basis der Verkehrsdaten von Tram- und Buslinien der BVB und der BLT und den S-Bahnen (nur alle zwei Jahre), abgegrenzt auf das Gebiet des Kantons Basel-Stadt, berechnet. Der Gesamtindex für den ÖV kann im jeweiligen Jahr erst im Herbst veröffentlicht werden, sobald die Daten für die S-Bahnen vorliegen.<br/> <br/>Aus der Veränderung an den Zählstellen wird die Veränderung auf dem ganzen Kantonsgebiet abgeleitet, indem jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet wird.<br/> <br/>Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
 		"template": "line001",
 		"orderKey": "05_00_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"4319",
 			"6007",
+			"6258",
 			"6306"
 		],
 		"renderLink": [],
@@ -1319,11 +1285,11 @@ var indikatorensetData = [
 		"id": 6156
 	},
 	{
-		"title": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10)",
-		"subtitle": "in Mikrogramm pro m<sup>3</sup>",
+		"title": "Luftqualität: Langzeitbelastung der Luft",
+		"subtitle": "in Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10) in Mikrogramm pro m<sup>3</sup>",
 		"kuerzel": "I.02.5.06157",
 		"kuerzelKunde": "7.7",
-		"description": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10)",
+		"description": "Luftqualität: Langzeitbelastung der Luft",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
 		"kennzahlenset": "Legislaturplan",
@@ -1337,7 +1303,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Sowohl die Stickstoffdioxid- als auch die Feinstaubkonzentrationen lagen 2016 mit 27,8 resp. 16,1 Mikrogramm pro Kubikmeter unter dem jeweiligen Grenzwert.",
-		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. <br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege. <br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>. <br><br>Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>). Für Details zu den Stationen siehe Link «Luftqualität in der Nordwestschweiz».",
+		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>.",
 		"template": "line001",
 		"orderKey": "07_00_00_00_00_007",
 		"parentId": null,
@@ -1408,7 +1374,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB (A) ausgesetzt sind, betrug 2008 24,6%. Bei 14,5% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16,2% der Grenzwert in der Nacht.",
+		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB(A) ausgesetzt sind, betrug 2008 24,6%. Bei 14,5% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16,2% der Grenzwert in der Nacht.",
 		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Stufen II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmission an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
 		"template": "template001",
 		"orderKey": "07_00_00_00_00_008",
@@ -1488,6 +1454,7 @@ var indikatorensetData = [
 		"orderKey": "07_00_00_00_00_002",
 		"parentId": 3094,
 		"children": [
+			"5795",
 			"6313"
 		],
 		"renderLink": [],
@@ -1500,11 +1467,11 @@ var indikatorensetData = [
 		"id": 6161
 	},
 	{
-		"title": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
-		"subtitle": "",
+		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
+		"subtitle": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf",
 		"kuerzel": "I.02.6.06163",
 		"kuerzelKunde": "7.3",
-		"description": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
+		"description": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Entsorgung",
 		"kennzahlenset": "Legislaturplan",
@@ -1523,6 +1490,7 @@ var indikatorensetData = [
 		"orderKey": "07_00_00_00_00_003",
 		"parentId": null,
 		"children": [
+			"5796",
 			"6314"
 		],
 		"renderLink": [],
@@ -1535,11 +1503,11 @@ var indikatorensetData = [
 		"id": 6163
 	},
 	{
-		"title": "Wasserqualität: AOX-Fracht",
-		"subtitle": "in Milligramm pro Liter",
+		"title": "Wasserqualität: AOX-Konzentration",
+		"subtitle": "in Milligramm pro Liter gereinigtem Abwasser",
 		"kuerzel": "I.02.19.06164",
 		"kuerzelKunde": "7.4",
-		"description": "Wasserqualität: AOX-Fracht",
+		"description": "Wasserqualität: AOX-Konzentration",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Legislaturplan",
@@ -1752,11 +1720,11 @@ var indikatorensetData = [
 		"id": 6172
 	},
 	{
-		"title": "Anzahl Beziehende von Prämienverbilligung",
+		"title": "Bezügerinnen und Bezüger von Prämienverbilligung",
 		"subtitle": "",
 		"kuerzel": "I.13.2.06173",
 		"kuerzelKunde": "9.3",
-		"description": "Anzahl Beziehende von Prämienverbilligung",
+		"description": "Bezügerinnen und Bezüger von Prämienverbilligung",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan",
@@ -1769,7 +1737,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2016 erhält etwas mehr als ein Viertel der in Basel-Stadtwohnhaften Personen Prämienverbilligung.",
+		"lesehilfe": "2016 erhält etwas mehr als ein Viertel der in Basel-Stadt wohnhaften Personen Prämienverbilligung.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"orderKey": "09_00_00_00_00_003",
@@ -1947,8 +1915,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2,2% der baselstädtischen Haushalte erhalten 2016 Familienmietzinsbeiträge (FAMI). In 14,5% der Haushalte bezieht mindestens eine Person Prämienverbilligung.",
-		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge; Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt.",
+		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2017 Familienmietzinsbeiträge. In 14,7% der Haushalte bezieht mindestens eine Person reine Prämienverbilligung.",
+		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge<br>Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"template": "line001",
 		"orderKey": "11_00_00_00_00_002",
 		"parentId": null,
@@ -1984,7 +1952,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Minderjährige weisen 2016 mit 13,5% die höchste Sozialhilfequote aus. Die Sozialhilfequote der 51- bis 65-Jährigen ist vergleichsweise gering, steigt aber über den gesamten Zeitverlauf kontinuierlich.",
+		"lesehilfe": "Minderjährige weisen 2017 mit 13,8% die höchste Sozialhilfequote aus. Die Sozialhilfequote der 51- bis 65-Jährigen ist vergleichsweise gering, steigt aber über den gesamten Zeitverlauf kontinuierlich.",
 		"erlaeuterungen": "Nur Stadt Basel, ohne Riehen und Bettingen.",
 		"template": "line001",
 		"orderKey": "11_00_00_00_00_003",
@@ -2023,7 +1991,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der Anteil Zahlfälle mit einer Bezugsdauer von mehr als 36 Monaten lag 2016 bei 47%. Seit 2011 hat sich dieser stetig erhöht.",
 		"erlaeuterungen": "Nur Stadt Basel, ohne Riehen und Bettingen. Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
-		"template": "template001",
+		"template": "befragungen001",
 		"orderKey": "11_00_00_00_00_004",
 		"parentId": null,
 		"children": [
@@ -2357,11 +2325,11 @@ var indikatorensetData = [
 		"id": 6210
 	},
 	{
-		"title": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken",
-		"subtitle": "",
+		"title": "Nettoschuldenquote und Nettoschulden pro Kopf",
+		"subtitle": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Kopf in Franken",
 		"kuerzel": "I.04.1.06211",
 		"kuerzelKunde": "2.7",
-		"description": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken",
+		"description": "Nettoschuldenquote und Nettoschulden pro Kopf",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",
@@ -2672,5 +2640,75 @@ var indikatorensetData = [
 			""
 		],
 		"id": 6348
+	},
+	{
+		"title": "Beurteilung der Kantonspolizei",
+		"subtitle": "«Wie würden Sie die folgenden Eigenschaften der Basler Polizistinnen und Polizisten bewerten?», Stand: 2012",
+		"kuerzel": "I.85.2.06437",
+		"kuerzelKunde": "10.4a",
+		"description": "Beurteilung der Kantonspolizei",
+		"thema": "50 Befragungen",
+		"unterthema": "Befragungen für öffentliche Organe",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "87,2% der Befragten stimmen der Aussage, dass die Basler Polizistinnen und Polizisten hilfsbereit sind, mit einer 7 oder mehr zu. Dass die Basler Polizistinnen und Polizisten sympathisch sind, bejahen 77,7% der Befragten. Kritischer sehen die Befragten den Aspekt Respekt: 7,5% der Befragten antworten auf diese Frage mit einer 4 oder weniger.",
+		"erlaeuterungen": "Die Antwortkategorien in der Abbildung wurden abgekürzt. Die vollständigen Fragen lauten: Freundlich: Der Basler Polizist oder die Basler Polizistin ist freundlich; Handelt angemessen: Der Basler Polizist oder die Basler Polizistin handelt der Situation angemessen; Hilfsbereit: Der Basler Polizist oder die Basler Polizistin ist hilfsbereit; Sympathisch: Der Basler Polizist oder die Basler Polizistin ist sympathisch;  Respektvoll: Der Basler Polizist oder die Basler Polizistin behandelt die Leute mit Respekt; Nimmt Anliegen ernst: Der Basler Polizist oder die Basler Polizistin nimmt die Anliegen der Bevölkerung ernst; Gerecht: Der Basler Polizist oder die Basler Polizistin hat einen ausgeprägten Sinn für Gerechtigkeit. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"template": "befragungen001",
+		"orderKey": "10_00_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6442"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Justiz- und Sicherheitsdepartement des Kantons Basel-Stadt, Kundenbefragung 2012, F 51"
+		],
+		"externalLinks": [
+			"Der Ergebnisbericht von 2015 ist auf der <a href = 'http://www.polizei.bs.ch/ueber-uns/kundenbefragungen.html' target = '_blank'>Internetseite der Kantonspolizei</a> publiziert."
+		],
+		"id": 6437
+	},
+	{
+		"title": "Beurteilung der Kantonspolizei",
+		"subtitle": "«Wie würden Sie die folgenden Eigenschaften der Basler Polizistinnen und Polizisten bewerten?», Stand: 2015",
+		"kuerzel": "I.85.2.06438",
+		"kuerzelKunde": "10.4b",
+		"description": "Beurteilung der Kantonspolizei",
+		"thema": "50 Befragungen",
+		"unterthema": "Befragungen für öffentliche Organe",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Eigenschaften der Basler Polizistinnen und Polizisten bewerten. 86,5% der befragten Personen bewerten die Hilfsbereitschaft der Basler Polizistinnen und Polizisten mit 10, 9, 8 oder 7. Weniger einverstanden sind die befragten Personen mit der Aussage, dass Basler Polizistinnen und Polizisten einen ausgeprägten Sinn für Gerechtigkeit haben. Hier geben 79,3% der Befragten den Wert 7 oder mehr an.",
+		"erlaeuterungen": "Die Antwortkategorien in der Abbildung wurden abgekürzt. Die vollständigen Fragen lauten: Freundlich: Der Basler Polizist oder die Basler Polizistin ist freundlich; Handelt angemessen: Der Basler Polizist oder die Basler Polizistin handelt der Situation angemessen; Hilfsbereit: Der Basler Polizist oder die Basler Polizistin ist hilfsbereit; Sympathisch: Der Basler Polizist oder die Basler Polizistin ist sympathisch;  Respektvoll: Der Basler Polizist oder die Basler Polizistin behandelt die Leute mit Respekt; Nimmt Anliegen ernst: Der Basler Polizist oder die Basler Polizistin nimmt die Anliegen von der Bevölkerung ernst; Gerecht: Der Basler Polizist oder die Basler Polizistin hat einen ausgeprägten Sinn für Gerechtigkeit. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"template": "befragungen001",
+		"orderKey": "10_00_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6443"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Justiz- und Sicherheitsdepartement des Kantons Basel-Stadt, Kundenbefragung 2015, F 51"
+		],
+		"externalLinks": [
+			"Der Ergebnisbericht von 2015 ist auf der <a href = 'http://www.polizei.bs.ch/ueber-uns/kundenbefragungen.html' target = '_blank'>Internetseite der Kantonspolizei</a> publiziert."
+		],
+		"id": 6438
 	}
 ];

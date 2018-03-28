@@ -2,26 +2,27 @@
   "series": [
     {
       "color": "#007a2f",
+      "index": 0,
       "data": [
         [
-          "2003 (N=1477)",
-          8.124576844955
+          "2003 (Ø 7,4)",
+          120
         ],
         [
-          "2005 (N=1500)",
-          6.8
+          "2005 (Ø 7,3)",
+          102
         ],
         [
-          "2007 (N=1500)",
-          7
+          "2007 (Ø 7,4)",
+          105
         ],
         [
-          "2011 (N=1513)",
-          13.417052214144
+          "2011 (Ø 7,7)",
+          203
         ],
         [
-          "2015 (N=1489)",
-          11.618535930154
+          "2015 (Ø 7,8)",
+          173
         ]
       ],
       "name": "Note 10",
@@ -29,26 +30,27 @@
     },
     {
       "color": "#44ab2b",
+      "index": 1,
       "data": [
         [
-          "2003 (N=1477)",
-          7.041299932295
+          "2003 (Ø 7,4)",
+          104
         ],
         [
-          "2005 (N=1500)",
-          10
+          "2005 (Ø 7,3)",
+          150
         ],
         [
-          "2007 (N=1500)",
-          10.666666666666
+          "2007 (Ø 7,4)",
+          160
         ],
         [
-          "2011 (N=1513)",
-          11.103767349636
+          "2011 (Ø 7,7)",
+          168
         ],
         [
-          "2015 (N=1489)",
-          14.97649429147
+          "2015 (Ø 7,8)",
+          223
         ]
       ],
       "name": "Note 9",
@@ -56,26 +58,27 @@
     },
     {
       "color": "#73ba7c",
+      "index": 2,
       "data": [
         [
-          "2003 (N=1477)",
-          38.997968855788
+          "2003 (Ø 7,4)",
+          576
         ],
         [
-          "2005 (N=1500)",
-          36.4
+          "2005 (Ø 7,3)",
+          546
         ],
         [
-          "2007 (N=1500)",
-          38.066666666666
+          "2007 (Ø 7,4)",
+          571
         ],
         [
-          "2011 (N=1513)",
-          38.466622604097
+          "2011 (Ø 7,7)",
+          582
         ],
         [
-          "2015 (N=1489)",
-          39.623908663532
+          "2015 (Ø 7,8)",
+          590
         ]
       ],
       "name": "Note 8",
@@ -83,26 +86,27 @@
     },
     {
       "color": "#d7e9d2",
+      "index": 3,
       "data": [
         [
-          "2003 (N=1477)",
-          23.764387271496
+          "2003 (Ø 7,4)",
+          351
         ],
         [
-          "2005 (N=1500)",
-          24.2
+          "2005 (Ø 7,3)",
+          363
         ],
         [
-          "2007 (N=1500)",
-          24.8
+          "2007 (Ø 7,4)",
+          372
         ],
         [
-          "2011 (N=1513)",
-          21.612690019828
+          "2011 (Ø 7,7)",
+          327
         ],
         [
-          "2015 (N=1489)",
-          18.871725990597
+          "2015 (Ø 7,8)",
+          281
         ]
       ],
       "name": "Note 7",
@@ -110,26 +114,27 @@
     },
     {
       "color": "#b9cfd7",
+      "index": 4,
       "data": [
         [
-          "2003 (N=1477)",
-          9.749492213947
+          "2003 (Ø 7,4)",
+          144
         ],
         [
-          "2005 (N=1500)",
-          9.533333333333
+          "2005 (Ø 7,3)",
+          143
         ],
         [
-          "2007 (N=1500)",
-          8.666666666666
+          "2007 (Ø 7,4)",
+          130
         ],
         [
-          "2011 (N=1513)",
-          6.146728354263
+          "2011 (Ø 7,7)",
+          93
         ],
         [
-          "2015 (N=1489)",
-          6.245802552048
+          "2015 (Ø 7,8)",
+          93
         ]
       ],
       "name": "Note 6",
@@ -137,26 +142,27 @@
     },
     {
       "color": "#71a3b5",
+      "index": 5,
       "data": [
         [
-          "2003 (N=1477)",
-          9.275558564658
+          "2003 (Ø 7,4)",
+          137
         ],
         [
-          "2005 (N=1500)",
-          9.333333333333
+          "2005 (Ø 7,3)",
+          140
         ],
         [
-          "2007 (N=1500)",
-          7.6
+          "2007 (Ø 7,4)",
+          114
         ],
         [
-          "2011 (N=1513)",
-          6.345009914077
+          "2011 (Ø 7,7)",
+          96
         ],
         [
-          "2015 (N=1489)",
-          6.245802552048
+          "2015 (Ø 7,8)",
+          93
         ]
       ],
       "name": "Note 5",
@@ -164,26 +170,27 @@
     },
     {
       "color": "#ffbb58",
+      "index": 6,
       "data": [
         [
-          "2003 (N=1477)",
-          1.557210561949
+          "2003 (Ø 7,4)",
+          23
         ],
         [
-          "2005 (N=1500)",
-          2
+          "2005 (Ø 7,3)",
+          30
         ],
         [
-          "2007 (N=1500)",
-          1.733333333333
+          "2007 (Ø 7,4)",
+          26
         ],
         [
-          "2011 (N=1513)",
-          1.321877065432
+          "2011 (Ø 7,7)",
+          20
         ],
         [
-          "2015 (N=1489)",
-          1.074546675621
+          "2015 (Ø 7,8)",
+          16
         ]
       ],
       "name": "Note 4",
@@ -191,26 +198,27 @@
     },
     {
       "color": "#ff8028",
+      "index": 7,
       "data": [
         [
-          "2003 (N=1477)",
-          0.947867298578
+          "2003 (Ø 7,4)",
+          14
         ],
         [
-          "2005 (N=1500)",
-          1.133333333333
+          "2005 (Ø 7,3)",
+          17
         ],
         [
-          "2007 (N=1500)",
-          0.866666666666
+          "2007 (Ø 7,4)",
+          13
         ],
         [
-          "2011 (N=1513)",
-          0.859220092531
+          "2011 (Ø 7,7)",
+          13
         ],
         [
-          "2015 (N=1489)",
-          0.940228341168
+          "2015 (Ø 7,8)",
+          14
         ]
       ],
       "name": "Note 3",
@@ -218,26 +226,27 @@
     },
     {
       "color": "#dc440e",
+      "index": 8,
       "data": [
         [
-          "2003 (N=1477)",
-          0.203114421123
+          "2003 (Ø 7,4)",
+          3
         ],
         [
-          "2005 (N=1500)",
-          0.266666666666
+          "2005 (Ø 7,3)",
+          4
         ],
         [
-          "2007 (N=1500)",
-          0.266666666666
+          "2007 (Ø 7,4)",
+          4
         ],
         [
-          "2011 (N=1513)",
-          0.264375413086
+          "2011 (Ø 7,7)",
+          4
         ],
         [
-          "2015 (N=1489)",
-          0.134318334452
+          "2015 (Ø 7,8)",
+          2
         ]
       ],
       "name": "Note 2",
@@ -245,26 +254,27 @@
     },
     {
       "color": "#b00000",
+      "index": 9,
       "data": [
         [
-          "2003 (N=1477)",
-          0.338524035206
+          "2003 (Ø 7,4)",
+          5
         ],
         [
-          "2005 (N=1500)",
-          0.333333333333
+          "2005 (Ø 7,3)",
+          5
         ],
         [
-          "2007 (N=1500)",
-          0.333333333333
+          "2007 (Ø 7,4)",
+          5
         ],
         [
-          "2011 (N=1513)",
-          0.462656972901
+          "2011 (Ø 7,7)",
+          7
         ],
         [
-          "2015 (N=1489)",
-          0.268636668905
+          "2015 (Ø 7,8)",
+          4
         ]
       ],
       "name": "Note 1",
@@ -290,7 +300,17 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-            	return this.value.replace(" ", "<br/>");
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
             }
     }
   },
@@ -337,7 +357,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»"
+    "text": "«Wie zufrieden sind Sie mit Parks und Grünanlagen am Wohnort?»"
   },
   "navigation": {
     "menuItemStyle": {
@@ -358,7 +378,6 @@
   },
   "yAxis": {
     "tickInterval": 10,
-    "reversedStacks": true,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -374,12 +393,13 @@
       "style": {
         "color": "#000000"
       }
-    }
+    },
+    "reversedStacks": true
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
     "shared": false,
-    "valueDecimals": 1
+    "valueDecimals": 0
   },
   "credits": {
     "enabled": true,
@@ -397,20 +417,19 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
   },
   "legend": {
-    "reversed": false,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
     "useHTML": false,
     "itemStyle": {
-      "fontWeight": "normal",
-      "width": 115
+      "fontWeight": "normal"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
-        }
+        },
+    "reversed": false
   },
   "exporting": {
     "filename": 5821
