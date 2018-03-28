@@ -262,7 +262,8 @@
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/', '/<br/>');
-        }
+        },
+    "reversed": false
   },
   "exporting": {
     "filename": 5192

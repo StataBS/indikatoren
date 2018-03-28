@@ -9,9 +9,6 @@
   "xAxis": {
       "type": "category",
   },
-  "legend": {
-      "reversed": false
-  },
     "legend": {
         "layout": "vertical",
         "verticalAlign": "middle",
@@ -24,7 +21,8 @@
         "symbolRadius": 0,
         "labelFormatter": function () {
             return this.name.replace('/', '/<br/>');
-        }
+        },
+        "reversed": false
     }
 	}
 }());
