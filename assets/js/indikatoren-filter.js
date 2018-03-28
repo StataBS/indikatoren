@@ -274,7 +274,9 @@ function preparePortalView(){
   }
   setDropdownValFromUrlParameter('unterthema');
   var raeumlicheGliederungUrlParameterValue = window.decodeURIComponent($.url('?raeumlicheGliederung'));
-  if (raeumlicheGliederungUrlParameterValue != undefined){setMultiselectValue("#raeumlicheGliederung_filter", raeumlicheGliederungUrlParameterValue);}  
+  if (raeumlicheGliederungUrlParameterValue != "undefined"){
+    setMultiselectValue("#raeumlicheGliederung_filter", raeumlicheGliederungUrlParameterValue);
+  }  
   //hide elements upon request
   if (window.decodeURIComponent($.url('?hideSidebar')) === 'true'){$('#sidebar-element').hide()}
   if (window.decodeURIComponent($.url('?hideUnterthema')) === 'true'){$('#unterthema_criteria').hide()}
