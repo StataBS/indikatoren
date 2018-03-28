@@ -3,9 +3,12 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "color": "#008AC3",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
       "data": [
         [
           2000,
@@ -33,19 +36,19 @@
         ],
         [
           2006,
-          4.7
+          4.73230268766426
         ],
         [
           2007,
-          5.5
+          5.47021580300814
         ],
         [
           2008,
-          5.1
+          5.11291971406451
         ],
         [
           2009,
-          4.6
+          4.5534495412844
         ],
         [
           2010,
@@ -76,14 +79,17 @@
           3
         ]
       ],
-      "name": "Nettoschuldenquote in ‰ (linke Skala)"
+      "name": "Nettoschuldenquote"
     },
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "color": "#68AB2B",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
       "yAxis": 1,
       "data": [
         [
@@ -112,15 +118,15 @@
         ],
         [
           2006,
-          12231
+          12230.9937911601
         ],
         [
           2007,
-          14875.5
+          14875.500350445
         ],
         [
           2008,
-          14389.8
+          14389.8349904802
         ],
         [
           2009,
@@ -155,7 +161,7 @@
           9950
         ]
       ],
-      "name": "Nettoschulden pro Kopf in Franken (rechte Skala)"
+      "name": "Nettoschulden pro Kopf (rechte Skala)"
     }
   ],
   "chart": {
@@ -194,7 +200,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken"
+    "text": "Nettoschuldenquote und Nettoschulden pro Kopf"
   },
   "subtitle": {
     "style": {
@@ -203,17 +209,16 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Kopf in Franken",
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": false
   },
   "yAxis": [
     {
       "labels": {
-        "format": "{value:,.0f}‰",
+        "format": "{value:,.f}",
         "style": {
           "color": "#000000"
         }
@@ -230,7 +235,7 @@
         "text": null
       },
       "labels": {
-        "format": "{value:,.0f} Fr.",
+        "format": "{value:,.f}",
         "style": {
           "color": "#000000"
         }
@@ -245,7 +250,8 @@
     "lineWidth": 0.5,
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       }
     },
     "tickLength": 0,
@@ -273,8 +279,8 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 35,
-    "itemWidth": 500,
+    "y": 55,
+    "itemWidth": 150,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"

@@ -1,23 +1,43 @@
 {
   "series": [
     {
+      "color": "#FABD24",
+      "visible": true,
+      "data": [
+        [
+          "2008",
+          1.78415011240352
+        ],
+        [
+          "2012",
+          1.53982784147816
+        ],
+        [
+          "2015",
+          1.66703374865647
+        ]
+      ],
+      "name": "Genferseeregion",
+      "turboThreshold": 0
+    },
+    {
       "color": "#CD9C00",
       "visible": true,
       "data": [
         [
-          "Genferseeregion",
-          1.78837908010601
+          "2008",
+          6.57209231401793
         ],
         [
-          "Nordwestschweiz",
-          6.62481836746059
+          "2012",
+          7.1634547380111
         ],
         [
-          "Zürich",
-          0.776009702247282
+          "2015",
+          8.01277028153831
         ]
       ],
-      "name": "2008",
+      "name": "Nordwestschweiz",
       "turboThreshold": 0
     },
     {
@@ -25,19 +45,19 @@
       "visible": true,
       "data": [
         [
-          "Genferseeregion",
-          1.53976242418022
+          "2008",
+          0.773963498792129
         ],
         [
-          "Nordwestschweiz",
-          7.26424368213479
+          "2012",
+          1.08005156852695
         ],
         [
-          "Zürich",
-          1.08128257546252
+          "2015",
+          1.21382630693244
         ]
       ],
-      "name": "2012",
+      "name": "Zürich",
       "turboThreshold": 0
     }
   ],
@@ -108,7 +128,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft"
+    "text": "Aufwendungen für Forschung und Entwicklung"
   },
   "subtitle": {
     "style": {
@@ -117,7 +137,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anteil am BIP",
+    "text": "in der Privatwirtschaft; Anteil am BIP",
     "align": "left"
   },
   "yAxis": {

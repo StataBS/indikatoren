@@ -1,0 +1,476 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2002,
+          177064
+        ],
+        [
+          2003,
+          196159
+        ],
+        [
+          2004,
+          188239
+        ],
+        [
+          2005,
+          177781
+        ],
+        [
+          2006,
+          158343
+        ],
+        [
+          2007,
+          165188
+        ],
+        [
+          2008,
+          176166
+        ],
+        [
+          2009,
+          178716
+        ],
+        [
+          2010,
+          177988
+        ],
+        [
+          2011,
+          164645
+        ],
+        [
+          2012,
+          165614
+        ],
+        [
+          2013,
+          188838
+        ],
+        [
+          2014,
+          169077
+        ],
+        [
+          2015,
+          166347
+        ],
+        [
+          2016,
+          172013
+        ]
+      ],
+      "name": "Theater"
+    },
+    {
+      "color": "#007A2F",
+      "visible": true,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2002,
+          105198
+        ],
+        [
+          2003,
+          132498
+        ],
+        [
+          2004,
+          138958
+        ],
+        [
+          2005,
+          166732
+        ],
+        [
+          2006,
+          162132
+        ],
+        [
+          2007,
+          164400
+        ],
+        [
+          2008,
+          169652
+        ],
+        [
+          2009,
+          187338
+        ],
+        [
+          2010,
+          173064
+        ],
+        [
+          2011,
+          181020
+        ],
+        [
+          2012,
+          175289
+        ],
+        [
+          2013,
+          171317
+        ],
+        [
+          2014,
+          156935
+        ],
+        [
+          2015,
+          175272
+        ],
+        [
+          2016,
+          171861
+        ]
+      ],
+      "name": "Kleintheater"
+    },
+    {
+      "color": "#4f81bd",
+      "visible": true,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2002,
+          1311384
+        ],
+        [
+          2003,
+          1162152
+        ],
+        [
+          2004,
+          1224808
+        ],
+        [
+          2005,
+          987154
+        ],
+        [
+          2006,
+          915071
+        ],
+        [
+          2007,
+          843992
+        ],
+        [
+          2008,
+          834873
+        ],
+        [
+          2009,
+          873439
+        ],
+        [
+          2010,
+          833686
+        ],
+        [
+          2011,
+          791686
+        ],
+        [
+          2012,
+          843495
+        ],
+        [
+          2013,
+          727974
+        ],
+        [
+          2014,
+          654374
+        ],
+        [
+          2015,
+          644883
+        ],
+        [
+          2016,
+          629843
+        ]
+      ],
+      "name": "Kinos"
+    },
+    {
+      "color": "#662673",
+      "visible": true,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2002,
+          1240842
+        ],
+        [
+          2003,
+          1197642
+        ],
+        [
+          2004,
+          1745142
+        ],
+        [
+          2005,
+          1202959
+        ],
+        [
+          2006,
+          1334031
+        ],
+        [
+          2007,
+          1399781
+        ],
+        [
+          2008,
+          1295366
+        ],
+        [
+          2009,
+          1647456
+        ],
+        [
+          2010,
+          1279498
+        ],
+        [
+          2011,
+          1296334
+        ],
+        [
+          2012,
+          1313448
+        ],
+        [
+          2013,
+          1336330
+        ],
+        [
+          2014,
+          1264238
+        ],
+        [
+          2015,
+          1345097
+        ],
+        [
+          2016,
+          1374857
+        ]
+      ],
+      "name": "Museen"
+    },
+    {
+      "color": "#FABD24",
+      "visible": true,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2002,
+          1108319
+        ],
+        [
+          2003,
+          1155199
+        ],
+        [
+          2004,
+          1204675
+        ],
+        [
+          2005,
+          1201495
+        ],
+        [
+          2006,
+          1218110
+        ],
+        [
+          2007,
+          1267437
+        ],
+        [
+          2008,
+          1269549
+        ],
+        [
+          2009,
+          1285704
+        ],
+        [
+          2010,
+          1313736
+        ],
+        [
+          2011,
+          1325393
+        ],
+        [
+          2012,
+          1294856
+        ],
+        [
+          2013,
+          1236134
+        ],
+        [
+          2014,
+          1162895
+        ],
+        [
+          2015,
+          1177925
+        ],
+        [
+          2016,
+          1270137
+        ]
+      ],
+      "name": "Stadtbibliothek"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-5194"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anzahl Besuche in Theater, Kinos und Museen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 2
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Jeweilige Institutionen;\u003Cbr\u002F\u003EProCinema"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 35,
+    "itemWidth": 120,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": 5194
+  }
+}

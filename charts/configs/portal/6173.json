@@ -91,7 +91,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Beziehende von Prämienverbilligung"
+    "text": "Bezügerinnen und Bezüger von Prämienverbilligung"
   },
   "subtitle": {
     "style": {
@@ -130,7 +130,8 @@
     "lineWidth": 0.5,
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       }
     },
     "tickLength": 0,

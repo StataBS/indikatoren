@@ -311,7 +311,8 @@ function exportThumbnail(id, exportType, offline, exportServer, filename){
 //render the html required for links to other chart, kennzahlenset or external resources
 function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, stufe1, renderLinkDisplayMode, hideLinks, hideLinksTitle){
   var returnText = "";
-  var displayLinkToIndikatorenset = kennzahlenset;
+  //for the moment, do not create a link for charts of kennzahlenset 'nachhaltigkeit. todo: remove this when web team is ready for a page in the cms
+  var displayLinkToIndikatorenset = kennzahlenset && kennzahlenset.toLowerCase() != 'nachhaltigkeit';
   //renderLink: Link to different view of same data
   var displayRenderLink = (renderLink && renderLink.length && renderLink[0].length);
   var displayExternalLinks = (externalLinks && externalLinks.length && externalLinks[0].length);
@@ -323,7 +324,7 @@ function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, stufe1,
           <div class='lesehilfe'> \
             <ul class='list-unstyled'>\
         ";
-    // Only display Link to Indikatorenset if not already in Indikatorenset View
+    //Only display Link to Indikatorenset if not already in Indikatorenset View
     if (displayLinkToIndikatorenset) {
       returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/"+ kennzahlenset.toLowerCase().replace(" ", "-") + ".html' target='_blank'>" + kennzahlenset.replace('-', ' ') + "</a>";
       //in indikatorenset View, add the stufe1 text here

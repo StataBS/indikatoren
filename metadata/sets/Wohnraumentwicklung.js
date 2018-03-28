@@ -384,12 +384,14 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit Ausnahme der grössten Wohnungskategorie (5 und mehr Zimmer) erreichten die Leerwohnungsquoten aller Wohnungsgrössen im Jahr 2014 ihren Tiefstwert innerhalb des Beobachtungszeitraums. Die kantonale Leerwohnungsquote lag 2017 bei 0,5%.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Leerwohnungsquoten erreichten im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die Leerwohnungsquote stetig angestiegen und lag 2017 bei 0,5%.",
+		"erlaeuterungen": "LWQ = Leerwohnungsquote",
 		"template": "template001",
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"5195"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"

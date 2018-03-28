@@ -1,0 +1,410 @@
+{
+  "series": [
+    {
+      "color": "#661200",
+      "visible": true,
+      "data": [
+        [
+          "Life Sciences Industrie",
+          23.7673757206707
+        ],
+        [
+          "Chemische Industrie",
+          2.83400593716528
+        ],
+        [
+          "Finanz- und Versicherungsdienstl.",
+          16.1764467550219
+        ],
+        [
+          "Verkehr und Lagerei",
+          5.78552968146213
+        ],
+        [
+          "Handel und Reparatur",
+          8.77977603103516
+        ],
+        [
+          "Unternehmens- und freiberufl. Dienstl.",
+          9.68115007477452
+        ],
+        [
+          "Grundstücks- und Wohnungswesen",
+          4.1672291176582
+        ],
+        [
+          "Baugewerbe",
+          3.29850817383142
+        ],
+        [
+          "Öffentliche Verwaltung",
+          6.884489502339
+        ],
+        [
+          "Gesundheits- und Sozialwesen",
+          6.03998607403604
+        ],
+        [
+          "Tourismus",
+          1.59438979833955
+        ],
+        [
+          "Übrige Branchen",
+          8.15710719650077
+        ]
+      ],
+      "name": "2000",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "visible": true,
+      "data": [
+        [
+          "Life Sciences Industrie",
+          34.5433576207477
+        ],
+        [
+          "Chemische Industrie",
+          2.60582728032615
+        ],
+        [
+          "Finanz- und Versicherungsdienstl.",
+          11.6256317758609
+        ],
+        [
+          "Verkehr und Lagerei",
+          5.0278312273379
+        ],
+        [
+          "Handel und Reparatur",
+          7.40277368658891
+        ],
+        [
+          "Unternehmens- und freiberufl. Dienstl.",
+          10.5249470572235
+        ],
+        [
+          "Grundstücks- und Wohnungswesen",
+          3.4773986408923
+        ],
+        [
+          "Baugewerbe",
+          2.35422621091324
+        ],
+        [
+          "Öffentliche Verwaltung",
+          6.56126049921641
+        ],
+        [
+          "Gesundheits- und Sozialwesen",
+          6.03674648207154
+        ],
+        [
+          "Tourismus",
+          1.19591821299969
+        ],
+        [
+          "Übrige Branchen",
+          6.0382540254956
+        ]
+      ],
+      "name": "2005",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#dc440e",
+      "visible": true,
+      "data": [
+        [
+          "Life Sciences Industrie",
+          39.4659503780384
+        ],
+        [
+          "Chemische Industrie",
+          1.26103688954216
+        ],
+        [
+          "Finanz- und Versicherungsdienstl.",
+          10.349253233039
+        ],
+        [
+          "Verkehr und Lagerei",
+          4.31274448920982
+        ],
+        [
+          "Handel und Reparatur",
+          7.91066209621313
+        ],
+        [
+          "Unternehmens- und freiberufl. Dienstl.",
+          9.90268632134153
+        ],
+        [
+          "Grundstücks- und Wohnungswesen",
+          3.28276092750762
+        ],
+        [
+          "Baugewerbe",
+          2.04503535221755
+        ],
+        [
+          "Öffentliche Verwaltung",
+          6.36861669993514
+        ],
+        [
+          "Gesundheits- und Sozialwesen",
+          5.91703721267732
+        ],
+        [
+          "Tourismus",
+          1.22469621221848
+        ],
+        [
+          "Übrige Branchen",
+          6.69848329851762
+        ]
+      ],
+      "name": "2010",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "visible": true,
+      "data": [
+        [
+          "Life Sciences Industrie",
+          36.0526101119455
+        ],
+        [
+          "Chemische Industrie",
+          1.00231942292743
+        ],
+        [
+          "Finanz- und Versicherungsdienstl.",
+          10.2079497467046
+        ],
+        [
+          "Verkehr und Lagerei",
+          4.24207765928622
+        ],
+        [
+          "Handel und Reparatur",
+          7.14473757156379
+        ],
+        [
+          "Unternehmens- und freiberufl. Dienstl.",
+          12.5401791987112
+        ],
+        [
+          "Grundstücks- und Wohnungswesen",
+          3.46201346803416
+        ],
+        [
+          "Baugewerbe",
+          2.30845065585898
+        ],
+        [
+          "Öffentliche Verwaltung",
+          7.01603165748101
+        ],
+        [
+          "Gesundheits- und Sozialwesen",
+          6.54016592395308
+        ],
+        [
+          "Tourismus",
+          1.37822756629448
+        ],
+        [
+          "Übrige Branchen",
+          7.10291759431212
+        ]
+      ],
+      "name": "2015",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "visible": true,
+      "data": [
+        [
+          "Life Sciences Industrie",
+          36.2629799458759
+        ],
+        [
+          "Chemische Industrie",
+          0.893447250041893
+        ],
+        [
+          "Finanz- und Versicherungsdienstl.",
+          10.2604923147009
+        ],
+        [
+          "Verkehr und Lagerei",
+          4.19524821626592
+        ],
+        [
+          "Handel und Reparatur",
+          6.89693058388959
+        ],
+        [
+          "Unternehmens- und freiberufl. Dienstl.",
+          12.6992949767718
+        ],
+        [
+          "Grundstücks- und Wohnungswesen",
+          3.47288374146681
+        ],
+        [
+          "Baugewerbe",
+          2.23633105911935
+        ],
+        [
+          "Öffentliche Verwaltung",
+          7.00471985146473
+        ],
+        [
+          "Gesundheits- und Sozialwesen",
+          6.65672704914105
+        ],
+        [
+          "Tourismus",
+          1.35292478653075
+        ],
+        [
+          "Übrige Branchen",
+          7.1745729746894
+        ]
+      ],
+      "name": "2016",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "inverted": true,
+    "marginLeft": 210,
+    "marginBottom": 55,
+    "marginRight": 15,
+    "renderTo": "container-6047"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Branchenanteile an der nominalen Wertschöpfung"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": null,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "max": 40
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: BAK Economics"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 30,
+    "itemWidth": 60,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "pointPadding": 0,
+      "groupPadding": 0.1,
+      "borderWidth": 0
+    }
+  },
+  "exporting": {
+    "filename": 6047
+  }
+}

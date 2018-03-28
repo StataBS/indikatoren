@@ -2,7 +2,7 @@
     return {
       "xAxis": {
         "type": "category",
-        "labels": {
+         "labels": {
             "formatter": function() {
             	return this.value;
             }

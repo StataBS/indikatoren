@@ -1741,13 +1741,15 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit Ausnahme der grössten Wohnungskategorie (5 und mehr Zimmer) erreichten die Leerwohnungsquoten aller Wohnungsgrössen im Jahr 2014 ihren Tiefstwert innerhalb des Beobachtungszeitraums. Die kantonale Leerwohnungsquote lag 2017 bei 0,5%.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Leerwohnungsquoten erreichten im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die Leerwohnungsquote stetig angestiegen und lag 2017 bei 0,5%.",
+		"erlaeuterungen": "LWQ = Leerwohnungsquote",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"5195"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -3219,40 +3221,6 @@
 		"id": 4281
 	},
 	{
-		"title": "Hitzetage",
-		"subtitle": "Anzahl Tage",
-		"kuerzel": "I.02.12.04300",
-		"kuerzelKunde": "0801",
-		"description": "Hitzetage",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Klima",
-		"kennzahlenset": "Umwelt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Thema Klima",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat.<br><br>Die Summe der Tage eines Jahres, an denen das Maximum der Lufttemperatur über 30 °C liegt ergibt die Anzahl Hitzetage pro Jahr. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33&#039; N / 7°35&#039; E).",
-		"template": "dotplot",
-		"visibleInPortal": true,
-		"orderKey": "08_00_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Meteorologischer Verein der Region Basel"
-		],
-		"externalLinks": [
-			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
-		],
-		"id": 4300
-	},
-	{
 		"title": "Jahresmitteltemperatur",
 		"subtitle": "°C",
 		"kuerzel": "I.02.12.04301",
@@ -4413,7 +4381,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen Jahren diversen Schwankungen. Die Höchstwerte wurden 2007  mit 2 023 und 2008  mit 1 798 eingebürgerten Ausländern erreicht. Danach gingen die Einbürgerungen zurück, 2011 erwarben noch 835 Ausländer die Schweizer Staatsangehörigkeit. Zwischen 2012 und 2015 nahm die Zahl der Eingebürgerungen tendeziell wieder zu, im Jahr 2015 erhielten 1 170 Personen das Schweizer Bürgerrecht. 2016 liessen sich 752 Ausländer einbürgern, dies ist der tiefste Wert der letzten zehn Jahre. Die Einbürgerungsziffer verläuft entsprechdend den absoluten Werten und lag 2016 bei 10,6.",
+		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen Jahren diversen Schwankungen. Die Höchstwerte wurden 2007  mit 2 023 und 2008  mit 1 798 eingebürgerten Ausländern erreicht. Danach gingen die Einbürgerungen zurück, 2011 erwarben noch 835 Ausländer die Schweizer Staatsangehörigkeit. Zwischen 2012 und 2015 nahm die Zahl der Eingebürgerungen tendenziell wieder zu, im Jahr 2015 erhielten 1 170 Personen das Schweizer Bürgerrecht. 2016 liessen sich 752 Ausländer einbürgern, dies ist der tiefste Wert der letzten zehn Jahre. Die Einbürgerungsziffer verläuft entsprechdend den absoluten Werten und lag 2016 bei 10,6.",
 		"erlaeuterungen": "Voraussetzung für eine ordentliche Einbürgerung ist u. a. eine 12-jährige Wohndauer in der Schweiz. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die 5 Jahre in der Schweiz gelebt haben und die seit 3 Jahren verheiratet sind. Die Einbürgerungsziffer wird als Anzahl Einbürgerungen (ordentliche und erleichterte) pro 1000 Ausländer am Jahresende berechnet.",
 		"template": "template001",
 		"visibleInPortal": true,
@@ -4452,7 +4420,7 @@
 		"stufe5": "",
 		"lesehilfe": "2015 fühlten sich 68,2% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2011 entspricht dies einem Rückgang um 2,2 Prozentpunkte. In den vorhergehenden Befragungsjahren lag die Zufriedenheit mit der Vertretung durch die Behörden jeweils deutlich unter derjenigen von 2011 und 2015 und die Frage konnte deutlich häufiger nicht beantwortet werden.",
 		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"template": "befragungen001",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
@@ -5448,7 +5416,7 @@
 		"stufe5": "",
 		"lesehilfe": "Mit einem Anteil von 42,2% fühlten sich 2015 weniger als die Hälfte der Befragten im Alltag sehr sicher und 49,0% fühlten sich eher sicher. Im Vergleich zu den vorherigen Befragungen fühlten sich die Befragten im Alltag weniger sicher. Am höchsten war das Sicherheitsempfinden 2005, als der Anteil Personen, die sich sehr sicher fühlten, bei 56,0% und die insgesamte Sicherheit bei 94,6% lag.",
 		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"template": "befragungen001",
 		"visibleInPortal": true,
 		"orderKey": "01_02_00_00_00_000",
 		"parentId": null,
@@ -6083,11 +6051,11 @@
 		"id": 4870
 	},
 	{
-		"title": "Wahlbeteiligung bei National- und Grossratswahlen",
+		"title": "Wahlbeteiligung an National- und Grossratswahlen",
 		"subtitle": "",
 		"kuerzel": "I.17.3.04871",
 		"kuerzelKunde": "3.3.02",
-		"description": "Wahlbeteiligung bei National- und Grossratswahlen",
+		"description": "Wahlbeteiligung an National- und Grossratswahlen",
 		"thema": "17 Politik",
 		"unterthema": "Wahlen",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
@@ -7685,6 +7653,589 @@
 		"id": 5131
 	},
 	{
+		"title": "Bevölkerungspyramide am Jahresende",
+		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Stand: 2017",
+		"kuerzel": "I.01.1.05142",
+		"kuerzelKunde": "BE2",
+		"description": "Bevölkerungspyramide am Jahresende",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-03-01T13:06:51.5151",
+		"stufe1": "Bereich Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass es in den höheren Altersgruppen zahlreiche Schweizerinnen gibt.",
+		"erlaeuterungen": "",
+		"template": "populationPyramid001",
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_102",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5142
+	},
+	{
+		"title": "Altersquotient",
+		"subtitle": "",
+		"kuerzel": "I.01.1.05144",
+		"kuerzelKunde": "BE3",
+		"description": "Altersquotient",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-03-13T15:47:44.4444",
+		"stufe1": "Bereich Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Altersquotient ist zwischen 2008 und 2017 leicht gesunken. Dies ist darauf zurückzuführen, dass die Zahl der Personen im Erwerbsalter stärker zugenommen hat als diejenige der Senioren.",
+		"erlaeuterungen": "Der Altersquotient bezeichnet die Anzahl 65-Jährige und Ältere pro 100 20- bis 64-Jährige.",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_103",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5144
+	},
+	{
+		"title": "Jugendquotient",
+		"subtitle": "",
+		"kuerzel": "I.01.1.05147",
+		"kuerzelKunde": "BE4",
+		"description": "Jugendquotient",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-03-13T16:34:54.5454",
+		"stufe1": "Bereich Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Jugendquotient ist von 2008 bis 2011 leicht zurückgegangen. Dies liegt daran, dass die Zahl der Jugendlichen deutlich weniger stark gestiegen ist als jene der Personen im Erwerbsalter. Seit 2013 steigt der Jugendquotient wieder.",
+		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl 0- bis 19-Jähriger pro 100 20- bis 64-Jährige.",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_104",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5147
+	},
+	{
+		"title": "Saldo aus Geburten und Todesfällen",
+		"subtitle": "",
+		"kuerzel": "I.01.1.05148",
+		"kuerzelKunde": "BE6",
+		"description": "Saldo aus Geburten und Todesfällen",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-03-14T12:02:20.2020",
+		"stufe1": "Bereich Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In den Jahren 2007 bis 2015 überstieg die Zahl der Todesfälle stets diejenige der Geburten. 2016 hingegen gab es mehr Lebendgeborene als Gestorbene, der Saldo aus Geburten und Todesfällen betrug 152.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_107",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5148
+	},
+	{
+		"title": "Geburtenziffer nach Staatsangehörigkeit",
+		"subtitle": "",
+		"kuerzel": "I.01.1.05149",
+		"kuerzelKunde": "BE7",
+		"description": "Geburtenziffer nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-03-14T12:14:05.055",
+		"stufe1": "Bereich Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die rohe Geburtenziffer hat in den vergangenen zehn Jahren von 8,9 auf 11,0 zugenommen. Nach Staatsangehörigkeit betrachtet zeigt sich, dass sowohl die rohe Geburtenziffer der Schweizer (von 7,7 auf 9,5) wie auch jene der Ausländer (von 11,4 auf 13,7) gestiegen ist.",
+		"erlaeuterungen": "Lebendgeborene auf 1 000 Einwohner der mittleren Wohnbevölkerung.",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_109",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5149
+	},
+	{
+		"title": "Wanderungen: Schweizer",
+		"subtitle": "Stand: 2007 bis 2016",
+		"kuerzel": "I.01.5.05156",
+		"kuerzelKunde": "BE8.2",
+		"description": "Wanderungen: Schweizer",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Zwischen 2007 und 2016 wiesen die zu- und weggezogenen Schweizer einzig in den Fünfjahresklassen der 15- bis 19-Jährigen sowie der 20- bis 24-Jährigen positive Wanderungssaldi auf. Deutlich mehr Weg- als Zuzüge verzeichneten die Schweizer im Alter zwischen 30 und 34 Jahren.",
+		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung.",
+		"template": "populationPyramid001",
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_111",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5156
+	},
+	{
+		"title": "Wanderungen: Ausländer",
+		"subtitle": "Stand: 2007 bis 2016",
+		"kuerzel": "I.01.5.05157",
+		"kuerzelKunde": "BE8.3",
+		"description": "Wanderungen: Ausländer",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In allen elf Fünfjahresklassen zwischen 0 und 54 Jahren ergaben sich bei den zu- und weggezogenen ausländischen Staatsangehörigen der Jahre 2007 bis 2016 Wanderungsgewinne. Am deutlichsten zeigte sich dies bei den Ausländern im Alter zwischen 25 und 29 Jahren, bei welchen der Zuzugsüberschuss 7 252 betrug. Kleine Wanderungsverluste zeigen sich in den Altersklassen ab 55 Jahren.",
+		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung.",
+		"template": "populationPyramid001",
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_112",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5157
+	},
+	{
+		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
+		"subtitle": "Stand: 2015 <br> «Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?»",
+		"kuerzel": "I.50.1.05178",
+		"kuerzelKunde": "GW2",
+		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Lebensqualität",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2015 hatten die befragten Personen die Gelegenheit, 23 Punkte, die für den Wohnort wichtig sind, zu bewerten. Am zufriedensten sind sie mit der generellen Vielfalt der Einkaufsmöglichkeiten in Basel, gefolgt von den öffentlichen Verkehrsmitteln und der Gesundheitsversorgung. Beim Thema Parkplätze gehen die Meinungen auseinander: Der Anteil Zufriedener und der Anteil Unzufriedener halten sich in etwa die Waage.",
+		"erlaeuterungen": "Frage 6 zur Zufriedenheit ist eine Filterfrage und wurde nur den Personen gestellt, die Frage 5 zur Wichtigkeit nicht mit «Keine Angabe» beantwortet haben.",
+		"template": "befragungen001",
+		"visibleInPortal": true,
+		"orderKey": "03_01_00_00_00_302",
+		"parentId": null,
+		"children": [
+			"6174",
+			"6216",
+			"6261"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5178
+	},
+	{
+		"title": "Lebenserwartung bei Geburt",
+		"subtitle": "nach Geschlecht in Jahren",
+		"kuerzel": "I.14.3.05180",
+		"kuerzelKunde": "GW3",
+		"description": "Lebenserwartung bei Geburt",
+		"thema": "14 Gesundheit",
+		"unterthema": "Sterblichkeit",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Gesundheit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Lebenserwartung bei Geburt für Frauen liegt im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2016 liegen bei 84,4 Jahren (Frauen) und 80,4 Jahren (Männer).",
+		"erlaeuterungen": "Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "03_02_00_00_00_303",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5180
+	},
+	{
+		"title": "Empfundene gesundheitliche Verfassung",
+		"subtitle": "nach Altersgruppe <br> «Und darf ich fragen, wie es Ihnen zur Zeit gsundheitlich geht?»",
+		"kuerzel": "I.50.1.05181",
+		"kuerzelKunde": "GW4",
+		"description": "Empfundene gesundheitliche Verfassung",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Gesundheit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "39,2% der Befragten geht es gesundheitlich sehr gut, 47,2% gut. Betrachtet nach Alter fühlen sich die über 69-Jährigen gegenüber den Jüngeren zwar erwartungsgemäss häufiger nicht so gut, allerdings verschlechtert sich das Befinden der Befragten im Verlauf des Alters nicht gleichmässig. So geben 56,7% der Altersgruppe zwischen 30 und 39 Jahren an, sich sehr gut zu fühlen, bei den Jüngeren sind es mit 54,6% knapp weniger. Bei der Kategorie «Gut» verläuft die Entwicklung nahezu konträr zum Alter: So liegt der Wert mit 55,1% bei den über 69-Jährigen am höchsten. Sehr gut fühlt sich allerdings nur ein Viertel. Fasst man die Kategorien «Sehr gut» und «Gut» zusammen, schneidet die Altersgruppe zwischen 60 und 69 Jahren besser ab als die beiden jüngeren Gruppen und nahezu identisch wie die Gruppe der 30- bis 39-Jährigen. Die empfundene gesundheitliche Verfassung blieb über die Jahre 2003 bis 2015 weitgehend konstant. Gut 80% der Befragten gaben an, sich gesundheitlich gut oder gar sehr gut zu fühlen.",
+		"erlaeuterungen": "",
+		"template": "befragungen001",
+		"visibleInPortal": true,
+		"orderKey": "03_02_00_00_00_304",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S11"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5181
+	},
+	{
+		"title": "Übergewichtige Kinder",
+		"subtitle": "nach Schulstufe, Heimat und Geschlecht in %",
+		"kuerzel": "I.14.1.05182",
+		"kuerzelKunde": "GW5",
+		"description": "Übergewichtige Kinder",
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-03-13T17:07:10.1010",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Gesundheit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Schuljahr 2014/2015 waren 19% der Schweizer Mädchen in der neunten Klasse übergewichtig, d.h. sie hatten einen BMI-Wert, der über dem Referenzwert für Übergewicht für ihr Alter und Geschlecht lag.",
+		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchunen und nur für die dargestellten Schulstufen erhoben. Die BMI-Referenzwerte für Übergewicht variieren nach Alter und Geschlecht und werden von Zeit zu Zeit neu erhoben. Damit die Anteile vergleichbar bleiben, werden stets dieselben Referenzwerte nach Tim J Cole (BMJ Vol. 320, 5/2000) verwendet.",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "03_02_00_00_00_305",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5182
+	},
+	{
+		"title": "Strassenverkehrsunfälle und verunfallte Personen",
+		"subtitle": "",
+		"kuerzel": "I.11.7.05186",
+		"kuerzelKunde": "GW10",
+		"description": "Strassenverkehrsunfälle und verunfallte Personen",
+		"thema": "11 Verkehr",
+		"unterthema": "Strassenverkehrsunfälle",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Sicherheit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Zahl der Unfälle lag 2016 bei insgesamt 1 140. Diese setzt sich zusammen aus 871 durch die Polizei rapportierte Unfälle und 269 beanzeigte Parkschäden. Insgesamt gab es 490 verunfallte Personen: 389 Leichtverletzte, 97 Schwerverletzte und 4 Getötete.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "03_04_00_00_00_310",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5186
+	},
+	{
+		"title": "Besuchte Weiterbildungen und Kurse in den letzten zwölf Monaten",
+		"subtitle": "«Haben Sie in den letzten 12 Monaten eine Veranstaltung oder einen Kurs besucht oder machen Sie zurzeit eine Weiterbildung?»",
+		"kuerzel": "I.50.1.05192",
+		"kuerzelKunde": "GW14",
+		"description": "Besuchte Weiterbildungen und Kurse in den letzten zwölf Monaten",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Bildung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "22,4% der Befragten gaben 2015 an, innerhalb der letzten zwölf Monate einen Weiterbildungskurs besucht zu haben, 14,1% haben mehrere Kurse besucht. 63,3% gaben 2015 an, keinen Kurs besucht zu haben. 2003 lag dieser Wert bei 54,1%.",
+		"erlaeuterungen": "",
+		"template": "befragungen001",
+		"visibleInPortal": true,
+		"orderKey": "03_05_00_00_00_314",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, Frage F15"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5192
+	},
+	{
+		"title": "Staatsausgaben für Kultur und Freizeit",
+		"subtitle": "pro Kopf in Franken",
+		"kuerzel": "I.18.1.05193",
+		"kuerzelKunde": "GW15",
+		"description": "Staatsausgaben für Kultur und Freizeit",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Staatsrechnung",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Bildung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Ausgaben im Bereich Kultur, Sport und Freizeit, Kirche sind zwischen 2008 und 2015 von rund 1 300 Fr. auf ca. 1 680 Fr. pro Kopf gestiegen.",
+		"erlaeuterungen": "Ausgaben nach Funktion berechnet von der Eidgenössischen Finanzverwaltung; pro Kopf der mittleren Wohnbevölkerung Basel-Stadt.",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "03_05_00_00_00_315",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Eidgenössische Finanzverwaltung"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5193
+	},
+	{
+		"title": "Mietpreisindex",
+		"subtitle": "Indexwert (Basis 2015 = 100)",
+		"kuerzel": "I.09.3.05196",
+		"kuerzelKunde": "GW18",
+		"description": "Mietpreisindex",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Mietpreise",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Wohnen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von berechneten 80,4 Punkten im Jahr 1995 auf den aktuellen Wert von 102,8 im November 2017.",
+		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1-6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden.",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "03_06_00_00_00_318",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5196
+	},
+	{
+		"title": "Grünfläche pro Kopf nach Wohnviertel",
+		"subtitle": "in m<sup>2</sup>, 2017",
+		"kuerzel": "I.02.1.05198",
+		"kuerzelKunde": "GW20",
+		"description": "Grünfläche pro Kopf nach Wohnviertel",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-03-16T14:52:33.3333",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Wohnen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Anteil an Grünfläche pro Person variiert stark zwischen den einzelnen Wohnvierteln resp. Landgemeinden. Erwartungsgemäss ist er im dicht bewohnten Matthäusquartier (rund 6 m<sup>2</sup>) und in der Basler Innenstadt (Altstadt Kleinbasel: 8 m<sup>2</sup>, Clara: 9 m<sup>2</sup>) am kleinsten. Überdurchschnittlich hoch dagegen ist der Anteil in den Wohnvierteln Hirzbrunnen (196 m<sup>2</sup>), Bruderholz (200 m<sup>2</sup>) und in den Landgemeinden Riehen (405 m<sup>2</sup>) und Bettingen (1 687 m<sup>2</sup>).",
+		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert.",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "03_06_00_00_00_320",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5198
+	},
+	{
+		"title": "Ausgaben für Umbau- und Unterhaltsarbeiten",
+		"subtitle": "in 1 000 Franken sowie Anteil am Total der Bauausgaben",
+		"kuerzel": "I.09.1.05199",
+		"kuerzelKunde": "GW21",
+		"description": "Ausgaben für Umbau- und Unterhaltsarbeiten",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-02-16T00:00:00.000",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Infrastruktur",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das Total der Bauausgaben stieg seit 2011 bis 2015 kontinuierlich an. Der Anteil Ausgaben für Umbau- und Unterhaltsarbeiten lag in den meisten Jahren leicht unterhalb oder oberhalb der 50%-Marke. Der tiefste Wert ergab sich 2010 mit einem Anteil von 35% an den totalen Bauausgaben.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "03_07_00_00_00_321",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5199
+	},
+	{
 		"title": "Bevölkerungsdichte",
 		"subtitle": "Anzahl Einwohner pro Hektar",
 		"kuerzel": "I.01.1.05201",
@@ -7791,6 +8342,40 @@
 			""
 		],
 		"id": 5203
+	},
+	{
+		"title": "Ökologischer Fussabdruck der Schweiz",
+		"subtitle": "in globalen Hektaren pro Kopf",
+		"kuerzel": "I.08.1.05793",
+		"kuerzelKunde": "NL1",
+		"description": "Ökologischer Fussabdruck der Schweiz",
+		"thema": "08 Energie",
+		"unterthema": "Verbrauch",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Natürliche Lebensgrundlagen",
+		"stufe2": "Umgang mit Energie und Ressourcen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2013 5,3 globale Hektaren pro Kopf.",
+		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er wird von Global Footprint Network berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden.",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "04_01_00_00_00_401",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Global Footprint Network"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/oekologischer-fussabdruck.html' target = '_blank'>Bundesamt für Statistik: Der ökologische Fussabdruck der Schweiz</a>"
+		],
+		"id": 5793
 	},
 	{
 		"title": "Waldfläche",
@@ -7937,7 +8522,7 @@
 	},
 	{
 		"title": "Bewertung der Lebensqualität",
-		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»",
+		"subtitle": "«Wie zufrieden sind Sie mit Parks und Grünanlagen am Wohnort?»",
 		"kuerzel": "I.50.1.05821",
 		"kuerzelKunde": "ST 5-2",
 		"description": "Bewertung der Lebensqualität",
@@ -7948,16 +8533,16 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
+		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2015 vergeben die Bewohnerinnen und Bewohner im Durchschnitt der Lebensqualität im Stadtkanton eine 7,7. 2003 betrug die Durchschnittsnote 7,4.",
-		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.<br>2003: N=1477, 2005: N=1500, 2007: N=1500, 2011: N=1513, 2015: N=1489.",
-		"template": "befragungenProzent001",
+		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2015 vergeben die Bewohnerinnen und Bewohner im Durchschnitt der Lebensqualität im Stadtkanton eine 7,8. 2003 betrug die Durchschnittsnote 7,4.",
+		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt. Da im Datensatz nicht für alle statistischen Wohnviertel genügend Beobachtungen vorliegen, wurden einzelne Wohnviertel zu grösseren Gebietseinheiten zusammengefasst. Es sind dies: Innenstadt = Altstadt Grossbasel, Vorstädte, Altstadt Kleinbasel; Am Ring West = Am Ring, Bachletten, Gotthelf, Iselin; Unteres Kleinbasel = Clara, Rosental, Matthäus, Klybeck, Kleinhüningen; Oberes Kleinbasel = Wettstein, Hirzbrunnen.",
+		"template": "befragungen001",
 		"visibleInPortal": true,
-		"orderKey": "01_02_00_00_00_002",
+		"orderKey": "05_00_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"5165",
@@ -8601,6 +9186,449 @@
 			""
 		],
 		"id": 6025
+	},
+	{
+		"title": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
+		"subtitle": "",
+		"kuerzel": "I.02.10.06026",
+		"kuerzelKunde": "NL5",
+		"description": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Boden",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Natürliche Lebensgrundlagen",
+		"stufe2": "Umgang mit Energie und Ressourcen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Auf gut der Hälfte der Kantonsfläche (2017: 51%) ist der Boden von Grünflächen bedeckt. Gewässer haben im Kanton Basel-Stadt mit 3,6% einen nur sehr geringen Anteil an der Gesamtfläche. Die Flächenanteile der drei Bodenbedeckungskategorien verändern sich über die Zeit nur minimal.",
+		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Befestigte Flächen sind: Bahn-, Tram-, Hafen- und Fabrikareale; Strassen, Wege, Trottoirs und Verkehrsinseln; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; übrige befestigte Flächen. Unter Gewässer fallen sowohl stehende als auch fliessende Gewässer. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100&nbsp;m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert.",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "04_01_00_00_00_405",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6026
+	},
+	{
+		"title": "Anteile der Verkehrsmittel",
+		"subtitle": "",
+		"kuerzel": "I.11.2.06028",
+		"kuerzelKunde": "NL7",
+		"description": "Anteile der Verkehrsmittel",
+		"thema": "11 Verkehr",
+		"unterthema": "Öffentlicher Verkehr",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Natürliche Lebensgrundlagen",
+		"stufe2": "Umgang mit Energie und Ressourcen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Anteil der zu Fuss zurückgelegten Etappen liegt 2015 in Basel-Stadt bei rund 51%, gemessen an der Tagesunterwegszeit bei etwa 41%. Rund 8% der Tagesdistanz werden zu Fuss zurückgelegt. Rund 43% der täglich zurückgelegten Distanz wird mit dem motorisierten Individualverkehrs (MIV), also mit dem Auto oder mit motorisierten Zweirädern bewältigt. Der öffentliche Verkehr (Bahn, Bus, Tram, Postauto) kommt ebenfalls auf einen Anteil von 43%.",
+		"erlaeuterungen": "Die Ergebnisse von 2015 basieren auf der Hochrechnung einer Stichprobenerhebung von 1 241 Zielpersonen (2010: 1 253 Zielpersonen) mit Wohnort im Kanton Basel-Stadt. Eine Etappe beginnt mit jedem Verkehrsmittelwechsel (auch beim Umsteigen) oder bei einem neuen Verkehrszweck. Bei der Tagesunterwegszeit werden Warte- und Umsteigezeiten nicht mitgerechnet.",
+		"template": "befragungen001",
+		"visibleInPortal": true,
+		"orderKey": "04_01_00_00_00_407",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6028
+	},
+	{
+		"title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
+		"subtitle": "",
+		"kuerzel": "I.18.2.06036",
+		"kuerzelKunde": "GZ3",
+		"description": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
+		"stufe2": "Chancengerechtigkeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitablauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich etwas konstanter auf höherem Niveau. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "05_02_00_00_00_503",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6036
+	},
+	{
+		"title": "Verhältnis der Löhne von Frauen und Männern",
+		"subtitle": "in der Nordwestschweiz",
+		"kuerzel": "I.03.3.06037",
+		"kuerzelKunde": "GZ4",
+		"description": "Verhältnis der Löhne von Frauen und Männern",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Löhne",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
+		"stufe2": "Chancengerechtigkeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In der Nordwestschweiz erreichen die Löhne der Frauen seit Jahren im Durchschnitt rund 80% der Löhne der Männer. Dieses Verhältnis nahm von rund 83% im Jahr 2012 auf rund 86% im Jahr 2014 zu.",
+		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert, im privaten Sektor (ohne Landwirtschaft).",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "05_02_00_00_00_504",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6037
+	},
+	{
+		"title": "Übertritte nach der obligatorischen Schulzeit",
+		"subtitle": "im Schuljahr 2016/17",
+		"kuerzel": "I.15.1.06039",
+		"kuerzelKunde": "GZ6",
+		"description": "Übertritte nach der obligatorischen Schulzeit",
+		"thema": "15 Bildung",
+		"unterthema": "Schulen und Schulpersonal",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
+		"stufe2": "Chancengerechtigkeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Nach wie vor treten Schülerinnen nach der obligatorischen Schulzeit deutlich häufiger ins Gymnasium oder eine weiterführende Schule ein als Schüler, letztere besuchen danach hingegen häufiger eine berufliche Grundbildung. Noch deutlicher sind die Unterschiede, wenn die Schülerinnen und Schüler nach Staatsangehörigkeit oder Erstsprache gruppiert werden.",
+		"erlaeuterungen": "Jährliche Befragung von Schulabgängerinnen und Schulabgängern durch das Erziehungsdepartement Basel-Stadt.",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "05_02_00_00_00_506",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6039
+	},
+	{
+		"title": "Beteiligung der Bevölkerung an Freiwilligenarbeit",
+		"subtitle": "Tätigkeitsbereiche der freiwillig tätigen Personen in %",
+		"kuerzel": "I.50.1.06041",
+		"kuerzelKunde": "GZ7.2",
+		"description": "Beteiligung der Bevölkerung an Freiwilligenarbeit",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
+		"stufe2": "Gesellschaftliche Verantwortung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "43% gaben an, im sozialen Bereich engagiert zu sein, während im Bereich Umwelt nur 7% tätig waren. Bei dieser Frage waren Mehrfachnennungen möglich.",
+		"erlaeuterungen": "Die Frage S22 haben 1 506 Personen beantwortet.",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "05_03_00_00_00_508",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S22"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6041
+	},
+	{
+		"title": "Anzahl Beschäftigte nach Sektor",
+		"subtitle": "in Vollzeitäquivalenten",
+		"kuerzel": "I.03.2.06046",
+		"kuerzelKunde": "WE2",
+		"description": "Anzahl Beschäftigte nach Sektor",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
+		"stufe2": "Wirtschaftssystem",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In Basel-Stadt waren im Jahr 2015 rund 152 000 Beschäftigte in Vollzeitäquivalenten (VZÄ) tätig. Dies entspricht einer Zunahme um 12,8% gegenüber 2005. Im Jahr 2015 waren 77% der VZÄ im sekundären Sektor und 23% im Dienstleistungssektor beschäftigt.",
+		"erlaeuterungen": "Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "06_01_00_00_00_602",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6046
+	},
+	{
+		"title": "Branchenanteile an der nominalen Wertschöpfung",
+		"subtitle": "",
+		"kuerzel": "I.04.1.06047",
+		"kuerzelKunde": "WE3",
+		"description": "Branchenanteile an der nominalen Wertschöpfung",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
+		"stufe2": "Wirtschaftssystem",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Anteil der Life Sciences Industrie an der nominalen Gesamtwertschöpfung des Kantons Basel-Stadt liegt 2016 bei 36%. Im Jahr 2000 lag er noch bei 24%. Den grössten Rückgang des Wertschöpfungsanteils verzeichnete die Branche der Finanz- und Versicherungsdienstleistungen.",
+		"erlaeuterungen": "Die Branchenanteile werden mit der nominalen Wertschöpfung in der Branche durch die gesamte nominale Wertschöpfung im Kanton Basel-Stadt geteilt.",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "06_01_00_00_00_603",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6047
+	},
+	{
+		"title": "Entkopplung von Wachstum und Umweltverbrauch",
+		"subtitle": "BIP des Kantons Basel-Stadt in Fr. und ökologischer Fussabdruck in globalen Hektaren pro Kopf",
+		"kuerzel": "I.04.2.06051",
+		"kuerzelKunde": "WE7",
+		"description": "Entkopplung von Wachstum und Umweltverbrauch",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
+		"stufe2": "Wirtschaftssystem",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2013 5,3 globale Hektaren pro Kopf. Das Bruttoinlandprodukt pro Kopf des Kantons Basel-Stadt ist zwischen den 1990er-Jahren und 2013 stark gestiegen.",
+		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Das Bruttoinlandprodukt (BIP; Stand der Daten: Juli 2017) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. <br>Der Stand der BIP-Daten ist Juli 2017.",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "06_01_00_00_00_607",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Economics",
+			"Global Footprint Network"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/oekologischer-fussabdruck.html' target = '_blank'>Bundesamt für Statistik: Der ökologische Fussabdruck der Schweiz</a>"
+		],
+		"id": 6051
+	},
+	{
+		"title": "Nettoerwerbstätigenquote nach Geschlecht und Heimat",
+		"subtitle": "",
+		"kuerzel": "I.03.1.06052",
+		"kuerzelKunde": "WE8",
+		"description": "Nettoerwerbstätigenquote nach Geschlecht und Heimat",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Erwerbspersonen",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-02-07T00:00:00.000",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
+		"stufe2": "Erwerbsarbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2016 insgesamt bei rund 74%. Bei den Männern lag sie mit 77% über derjenigen der Frauen (72%). Seit 1970 glichen sich die Werte für Männer, Frauen, Schweizer und Ausländer stark an.",
+		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Nettoerwerbstätigenquote bezeichnet den Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre).",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "06_02_00_00_00_608",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Volkszählung (bis 2000) und Strukturerhebung (ab 2010)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6052
+	},
+	{
+		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
+		"subtitle": "",
+		"kuerzel": "I.03.4.06053",
+		"kuerzelKunde": "WE9",
+		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
+		"stufe2": "Erwerbsarbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt 2017 auf 3,8% gesunken. Die Jugendarbeitslosenquote reduzierte sich 2017 auf 4,2%. Die Arbeitslosenquote der Personen über 50 Jahre lag mit 3,1% wie in den Vorjahren deutlich unterhalb des Durchschnitts.",
+		"erlaeuterungen": "Die Arbeitslosenquote berechnet sich folgendermassen: Registrierte Arbeitslose geteilt durch Erwerbspersonen mal 100.",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "06_02_00_00_00_609",
+		"parentId": 6137,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6053
+	},
+	{
+		"title": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
+		"subtitle": "",
+		"kuerzel": "I.13.2.06055",
+		"kuerzelKunde": "WE11",
+		"description": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
+		"stufe2": "Erwerbsarbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Anzahl angebotener Plätze in der Tagesbetreuung (Tagesheime oder Tagesfamilien) sowie in den Tagesstrukturen der Schulen erfuhr in den letzten Jahren ein stetiges Wachstum. In der Stichwoche 2016 lag diese bei 4 161, respektive 4 272. In den Tagesstrukturen der Quartiere wurden 2016 832 Plätze angeboten, in den Tagesferien 195.",
+		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September, bei den Tagesferien handelt es sich um die durchschnittliche Anzahl angebotener Plätze innerhalb eines Kalenderjahres.<br>Tagesbetreung: Stichwoche im Oktober.",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "06_02_00_00_00_611",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6055
+	},
+	{
+		"title": "Anteil Voll- und Teilzeiterwerbstätige nach Geschlecht",
+		"subtitle": "",
+		"kuerzel": "I.03.1.06056",
+		"kuerzelKunde": "WE12",
+		"description": "Anteil Voll- und Teilzeiterwerbstätige nach Geschlecht",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Erwerbspersonen",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-02-07T00:00:00.000",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
+		"stufe2": "Erwerbsarbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Rund 20% der erwerbstätigen Männer gingen 2016 einer Teilzeitbeschäftigung nach; 1970 waren es noch 4%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2016 bei 52%.",
+		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Grundgesamtheit umfasst alle Personen der ständigen Wohnbevölkerung am Hauptwohnsitz ab vollendetem 15. Altersjahr, die in Privathaushalten leben, ohne Diplomaten, internationale Funktionäre und deren Angehörige.",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "06_02_00_00_00_612",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Volkszählung (bis 2000) und Strukturerhebung (ab 2010)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6056
 	},
 	{
 		"title": "Ausländeranteil",
@@ -10000,7 +11028,7 @@
 	},
 	{
 		"title": "Höchste abgeschlossene Ausbildung",
-		"subtitle": "«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»",
+		"subtitle": "Nach Geschlecht, Staatsangehörigkeit und Altersklasse, Stand: 2015 <br>«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»",
 		"kuerzel": "I.50.1.06136",
 		"kuerzelKunde": "3.3",
 		"description": "Höchste abgeschlossene Ausbildung",
@@ -10016,7 +11044,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "10,2% der Befragten haben einen obligatorischen Schulabschluss. 33,5% aller Befragten absolvierten ein Studium an einer Fachhochschule oder Universität. Ein deutlicher Unterschied zwischen den Geschlechtern ist hier zu beobachten: Bei den Männern liegt der Anteil bei 39,2%, bei den Frauen bei 28,6%.",
+		"lesehilfe": "9,2% der Befragten haben einen obligatorischen Schulabschluss. 40,6% aller Befragten absolvierten ein Studium an einer Fachhochschule oder Universität. Ein deutlicher Unterschied zwischen den Geschlechtern ist hier zu beobachten: Bei den Männern liegt der Anteil bei 46,4%, bei den Frauen bei 35,7%.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
 		"visibleInPortal": true,
@@ -10036,48 +11064,11 @@
 		"id": 6136
 	},
 	{
-		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
-		"subtitle": "",
-		"kuerzel": "I.03.4.06137",
-		"kuerzelKunde": "3.4",
-		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
-		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt 2016 auf 3,9% gestiegen. Die Jugendarbeitslosenquote liegt 2016 unverändert bei 4,5%. Die Arbeitslosenquote der Personen über 50 Jahre liegt mit 3,1% wie in den Vorjahren deutlich unterhalb des Durchschnitts.",
-		"erlaeuterungen": "Die Arbeitslosenquote berechnet sich folgendermassen: Registrierte Arbeitslose geteilt durch Erwerbspersonen mal 100.",
-		"template": "line001",
-		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_005",
-		"parentId": null,
-		"children": [
-			"6053",
-			"6293"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 6137
-	},
-	{
-		"title": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft",
-		"subtitle": "Anteil am BIP",
+		"title": "Aufwendungen für Forschung und Entwicklung",
+		"subtitle": "in der Privatwirtschaft; Anteil am BIP",
 		"kuerzel": "I.04.2.06140",
 		"kuerzelKunde": "3.7",
-		"description": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft",
+		"description": "Aufwendungen für Forschung und Entwicklung",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Legislaturplan",
@@ -10090,8 +11081,8 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Nordwestschweiz machten 2012 die Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft 7,3% des Bruttoinlandprodukts aus. Dieser Anteil ist höher als 2008, als er noch bei 6,6% lag.",
-		"erlaeuterungen": "Revidierte Zahlen zu den Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft für das Jahr 2012. Die Grossregion Genferseeregion umfasst die Kantone Waadt, Wallis und Genf. Die Grossregion Nordwestschweiz beinhaltet die Kantone Basel-Stadt, Basel-Landschaft und Aargau. Die Grossregion Zürich entspricht dem Kanton Zürich. BIP = Bruttoinlandprodukt.",
+		"lesehilfe": "In der Nordwestschweiz machen die Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft im Jahr 2015 8,0% des Bruttoinlandprodukts aus. Dieser Anteil steigt von Jahr zu Jahr an und ist höher als in den beiden Vergleichsregionen.",
+		"erlaeuterungen": "Revidierte Zahlen zu den Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft für das Jahr 2012. Die Grossregion Genferseeregion umfasst die Kantone Waadt, Wallis und Genf. Die Grossregion Nordwestschweiz beinhaltet die Kantone Basel-Stadt, Basel-Landschaft und Aargau. Die Grossregion Zürich entspricht dem Kanton Zürich. BIP = Bruttoinlandprodukt. Die BIP-Daten im 2015 sind provisorische Werte.",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_008",
@@ -10282,7 +11273,8 @@
 		"orderKey": "04_00_00_00_00_007",
 		"parentId": null,
 		"children": [
-			"6301"
+			"6301",
+			"6435"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -10459,7 +11451,7 @@
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf Kantonsgebiet liegt 2016 um 1%, diejenige des Veloverkehrs um 22,9% höher als im Jahr 2010. Der Wert für Fussgänger stieg von 2013 bis 2014 um 7 Prozentpunkte, sank dann aber bis 2016 wieder auf einen Indexwert von 102,5.",
-		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet.<br/> <br/>Autoverkehr: Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 35 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Der Index umfasst die Verkehrsleistung aller Motorfahrzeuge (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes.<br/><br/>Veloverkehr: Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Da der Veloverkehr stark wetterabhängig ist, wurde vom Statistischen Amt des Kantons Basel-Stadt ein Modell entwickelt, welches es zulässt, den Wettereinfluss aus der Verkehrsentwicklung herauszurechnen.<br/><br/>Fussverkehr: Der Index für den Fussverkehr basiert auf rund 17 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr (ÖV): Der Index des öffentlichen Verkehrs wird auf Basis der Verkehrsdaten von Tram- und Buslinien der BVB und der BLT und den S-Bahnen (nur alle zwei Jahre), abgegrenzt auf das Gebiet des Kantons Basel-Stadt, berechnet. Der Gesamtindex für den ÖV kann im jeweiligen Jahr erst im Herbst veröffentlicht werden, sobald die Daten für die S-Bahnen vorliegen.<br/> <br/>Aus der Veränderung an den Zählstellen wird die Veränderung auf dem ganzen Kantonsgebiet abgeleitet, indem jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet wird.<br/> <br/>Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
+		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet.<br/> <br/>Autoverkehr:<br/>Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 35 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Der Index umfasst die Verkehrsleistung aller Motorfahrzeuge (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes.<br/><br/>Veloverkehr:<br/> Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Da der Veloverkehr stark wetterabhängig ist, wurde vom Statistischen Amt des Kantons Basel-Stadt ein Modell entwickelt, welches es zulässt, den Wettereinfluss aus der Verkehrsentwicklung herauszurechnen.<br/><br/>Fussverkehr:<br/>Der Index für den Fussverkehr basiert auf rund 17 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr (ÖV):<br/>Der Index des öffentlichen Verkehrs wird auf Basis der Verkehrsdaten von Tram- und Buslinien der BVB und der BLT und den S-Bahnen (nur alle zwei Jahre), abgegrenzt auf das Gebiet des Kantons Basel-Stadt, berechnet. Der Gesamtindex für den ÖV kann im jeweiligen Jahr erst im Herbst veröffentlicht werden, sobald die Daten für die S-Bahnen vorliegen.<br/> <br/>Aus der Veränderung an den Zählstellen wird die Veränderung auf dem ganzen Kantonsgebiet abgeleitet, indem jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet wird.<br/> <br/>Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
 		"template": "line001",
 		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_002",
@@ -10467,6 +11459,7 @@
 		"children": [
 			"4319",
 			"6007",
+			"6258",
 			"6306"
 		],
 		"renderLink": [],
@@ -10551,11 +11544,11 @@
 		"id": 6156
 	},
 	{
-		"title": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10)",
-		"subtitle": "in Mikrogramm pro m<sup>3</sup>",
+		"title": "Luftqualität: Langzeitbelastung der Luft",
+		"subtitle": "in Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10) in Mikrogramm pro m<sup>3</sup>",
 		"kuerzel": "I.02.5.06157",
 		"kuerzelKunde": "7.7",
-		"description": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10)",
+		"description": "Luftqualität: Langzeitbelastung der Luft",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
 		"kennzahlenset": "Legislaturplan",
@@ -10569,7 +11562,7 @@
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Sowohl die Stickstoffdioxid- als auch die Feinstaubkonzentrationen lagen 2016 mit 27,8 resp. 16,1 Mikrogramm pro Kubikmeter unter dem jeweiligen Grenzwert.",
-		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. <br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege. <br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>. <br><br>Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>). Für Details zu den Stationen siehe Link «Luftqualität in der Nordwestschweiz».",
+		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>.",
 		"template": "line001",
 		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_007",
@@ -10642,7 +11635,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB (A) ausgesetzt sind, betrug 2008 24,6%. Bei 14,5% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16,2% der Grenzwert in der Nacht.",
+		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB(A) ausgesetzt sind, betrug 2008 24,6%. Bei 14,5% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16,2% der Grenzwert in der Nacht.",
 		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Stufen II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmission an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
 		"template": "template001",
 		"visibleInPortal": true,
@@ -10725,6 +11718,7 @@
 		"orderKey": "07_00_00_00_00_002",
 		"parentId": 3094,
 		"children": [
+			"5795",
 			"6313"
 		],
 		"renderLink": [],
@@ -10737,11 +11731,11 @@
 		"id": 6161
 	},
 	{
-		"title": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
-		"subtitle": "",
+		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
+		"subtitle": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf",
 		"kuerzel": "I.02.6.06163",
 		"kuerzelKunde": "7.3",
-		"description": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
+		"description": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Entsorgung",
 		"kennzahlenset": "Legislaturplan",
@@ -10761,6 +11755,7 @@
 		"orderKey": "07_00_00_00_00_003",
 		"parentId": null,
 		"children": [
+			"5796",
 			"6314"
 		],
 		"renderLink": [],
@@ -10773,11 +11768,11 @@
 		"id": 6163
 	},
 	{
-		"title": "Wasserqualität: AOX-Fracht",
-		"subtitle": "in Milligramm pro Liter",
+		"title": "Wasserqualität: AOX-Konzentration",
+		"subtitle": "in Milligramm pro Liter gereinigtem Abwasser",
 		"kuerzel": "I.02.19.06164",
 		"kuerzelKunde": "7.4",
-		"description": "Wasserqualität: AOX-Fracht",
+		"description": "Wasserqualität: AOX-Konzentration",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Legislaturplan",
@@ -10924,11 +11919,11 @@
 		"id": 6169
 	},
 	{
-		"title": "Anzahl Beziehende von Prämienverbilligung",
+		"title": "Bezügerinnen und Bezüger von Prämienverbilligung",
 		"subtitle": "",
 		"kuerzel": "I.13.2.06173",
 		"kuerzelKunde": "9.3",
-		"description": "Anzahl Beziehende von Prämienverbilligung",
+		"description": "Bezügerinnen und Bezüger von Prämienverbilligung",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan",
@@ -10941,7 +11936,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2016 erhält etwas mehr als ein Viertel der in Basel-Stadtwohnhaften Personen Prämienverbilligung.",
+		"lesehilfe": "2016 erhält etwas mehr als ein Viertel der in Basel-Stadt wohnhaften Personen Prämienverbilligung.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"visibleInPortal": true,
@@ -11124,8 +12119,8 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2,2% der baselstädtischen Haushalte erhalten 2016 Familienmietzinsbeiträge (FAMI). In 14,5% der Haushalte bezieht mindestens eine Person Prämienverbilligung.",
-		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge; Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt.",
+		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2017 Familienmietzinsbeiträge. In 14,7% der Haushalte bezieht mindestens eine Person reine Prämienverbilligung.",
+		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge<br>Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"template": "line001",
 		"visibleInPortal": true,
 		"orderKey": "11_00_00_00_00_002",
@@ -11162,7 +12157,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Minderjährige weisen 2016 mit 13,5% die höchste Sozialhilfequote aus. Die Sozialhilfequote der 51- bis 65-Jährigen ist vergleichsweise gering, steigt aber über den gesamten Zeitverlauf kontinuierlich.",
+		"lesehilfe": "Minderjährige weisen 2017 mit 13,8% die höchste Sozialhilfequote aus. Die Sozialhilfequote der 51- bis 65-Jährigen ist vergleichsweise gering, steigt aber über den gesamten Zeitverlauf kontinuierlich.",
 		"erlaeuterungen": "Nur Stadt Basel, ohne Riehen und Bettingen.",
 		"template": "line001",
 		"visibleInPortal": true,
@@ -11202,7 +12197,7 @@
 		"stufe5": "",
 		"lesehilfe": "Der Anteil Zahlfälle mit einer Bezugsdauer von mehr als 36 Monaten lag 2016 bei 47%. Seit 2011 hat sich dieser stetig erhöht.",
 		"erlaeuterungen": "Nur Stadt Basel, ohne Riehen und Bettingen. Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
-		"template": "template001",
+		"template": "befragungen001",
 		"visibleInPortal": true,
 		"orderKey": "11_00_00_00_00_004",
 		"parentId": null,
@@ -11506,11 +12501,11 @@
 		"id": 6210
 	},
 	{
-		"title": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken",
-		"subtitle": "",
+		"title": "Nettoschuldenquote und Nettoschulden pro Kopf",
+		"subtitle": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Kopf in Franken",
 		"kuerzel": "I.04.1.06211",
 		"kuerzelKunde": "2.7",
-		"description": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken",
+		"description": "Nettoschuldenquote und Nettoschulden pro Kopf",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",
@@ -13325,6 +14320,112 @@
 			""
 		],
 		"id": 6432
+	},
+	{
+		"title": "Jahresmitteltemperatur",
+		"subtitle": "in °C",
+		"kuerzel": "I.02.3.06434",
+		"kuerzelKunde": "NL13",
+		"description": "Jahresmitteltemperatur",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Witterung",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Natürliche Lebensgrundlagen",
+		"stufe2": "Klimawandel",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das Mittel der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2017 11,5&nbsp;°C.",
+		"erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M; 47°33&#039; N / 7°35&#039; E).",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "04_02_00_00_00_413",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Meteorologischer Verein der Region Basel"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6434
+	},
+	{
+		"title": "Beurteilung der Kantonspolizei",
+		"subtitle": "«Wie würden Sie die folgenden Eigenschaften der Basler Polizistinnen und Polizisten bewerten?», Stand: 2012",
+		"kuerzel": "I.85.2.06437",
+		"kuerzelKunde": "10.4a",
+		"description": "Beurteilung der Kantonspolizei",
+		"thema": "50 Befragungen",
+		"unterthema": "Befragungen für öffentliche Organe",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "87,2% der Befragten stimmen der Aussage, dass die Basler Polizistinnen und Polizisten hilfsbereit sind, mit einer 7 oder mehr zu. Dass die Basler Polizistinnen und Polizisten sympathisch sind, bejahen 77,7% der Befragten. Kritischer sehen die Befragten den Aspekt Respekt: 7,5% der Befragten antworten auf diese Frage mit einer 4 oder weniger.",
+		"erlaeuterungen": "Die Antwortkategorien in der Abbildung wurden abgekürzt. Die vollständigen Fragen lauten: Freundlich: Der Basler Polizist oder die Basler Polizistin ist freundlich; Handelt angemessen: Der Basler Polizist oder die Basler Polizistin handelt der Situation angemessen; Hilfsbereit: Der Basler Polizist oder die Basler Polizistin ist hilfsbereit; Sympathisch: Der Basler Polizist oder die Basler Polizistin ist sympathisch;  Respektvoll: Der Basler Polizist oder die Basler Polizistin behandelt die Leute mit Respekt; Nimmt Anliegen ernst: Der Basler Polizist oder die Basler Polizistin nimmt die Anliegen der Bevölkerung ernst; Gerecht: Der Basler Polizist oder die Basler Polizistin hat einen ausgeprägten Sinn für Gerechtigkeit. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"template": "befragungen001",
+		"visibleInPortal": true,
+		"orderKey": "10_00_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6442"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Justiz- und Sicherheitsdepartement des Kantons Basel-Stadt, Kundenbefragung 2012, F 51"
+		],
+		"externalLinks": [
+			"Der Ergebnisbericht von 2015 ist auf der <a href = 'http://www.polizei.bs.ch/ueber-uns/kundenbefragungen.html' target = '_blank'>Internetseite der Kantonspolizei</a> publiziert."
+		],
+		"id": 6437
+	},
+	{
+		"title": "Beurteilung der Kantonspolizei",
+		"subtitle": "«Wie würden Sie die folgenden Eigenschaften der Basler Polizistinnen und Polizisten bewerten?», Stand: 2015",
+		"kuerzel": "I.85.2.06438",
+		"kuerzelKunde": "10.4b",
+		"description": "Beurteilung der Kantonspolizei",
+		"thema": "50 Befragungen",
+		"unterthema": "Befragungen für öffentliche Organe",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Eigenschaften der Basler Polizistinnen und Polizisten bewerten. 86,5% der befragten Personen bewerten die Hilfsbereitschaft der Basler Polizistinnen und Polizisten mit 10, 9, 8 oder 7. Weniger einverstanden sind die befragten Personen mit der Aussage, dass Basler Polizistinnen und Polizisten einen ausgeprägten Sinn für Gerechtigkeit haben. Hier geben 79,3% der Befragten den Wert 7 oder mehr an.",
+		"erlaeuterungen": "Die Antwortkategorien in der Abbildung wurden abgekürzt. Die vollständigen Fragen lauten: Freundlich: Der Basler Polizist oder die Basler Polizistin ist freundlich; Handelt angemessen: Der Basler Polizist oder die Basler Polizistin handelt der Situation angemessen; Hilfsbereit: Der Basler Polizist oder die Basler Polizistin ist hilfsbereit; Sympathisch: Der Basler Polizist oder die Basler Polizistin ist sympathisch;  Respektvoll: Der Basler Polizist oder die Basler Polizistin behandelt die Leute mit Respekt; Nimmt Anliegen ernst: Der Basler Polizist oder die Basler Polizistin nimmt die Anliegen von der Bevölkerung ernst; Gerecht: Der Basler Polizist oder die Basler Polizistin hat einen ausgeprägten Sinn für Gerechtigkeit. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"template": "befragungen001",
+		"visibleInPortal": true,
+		"orderKey": "10_00_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6443"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Justiz- und Sicherheitsdepartement des Kantons Basel-Stadt, Kundenbefragung 2015, F 51"
+		],
+		"externalLinks": [
+			"Der Ergebnisbericht von 2015 ist auf der <a href = 'http://www.polizei.bs.ch/ueber-uns/kundenbefragungen.html' target = '_blank'>Internetseite der Kantonspolizei</a> publiziert."
+		],
+		"id": 6438
 	},
 	{
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (II)",
@@ -16234,6 +17335,40 @@
 		"id": 6570
 	},
 	{
+		"title": "Saldo aus Anzahl Baumpflanzungen und -fällungen",
+		"subtitle": "",
+		"kuerzel": "I.02.13.06574",
+		"kuerzelKunde": "NL11",
+		"description": "Saldo aus Anzahl Baumpflanzungen und -fällungen",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Landschaft",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Gemeinde"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Natürliche Lebensgrundlagen",
+		"stufe2": "Klimawandel",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahre 2017 betrug der kumulierte Saldo 2 294 Bäume. Im selben Jahr wurden leicht mehr Bäume gefällt (398) als gepflanzt (392).",
+		"erlaeuterungen": "Der ausgewiesene Auszug aus dem Baumkataster umfasst den durch die Stadtgärtnerei Basel gepflegten Allmendbaumbestand in der Stadt Basel.",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "04_02_00_00_00_411",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Stadtgärtnerei Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6574
+	},
+	{
 		"title": "Ankünfte nach Monat und Herkunft",
 		"subtitle": "",
 		"kuerzel": "I.10.1.06576",
@@ -16266,5 +17401,41 @@
 			""
 		],
 		"id": 6576
+	},
+	{
+		"title": "Anzahl Ausländer nach Staatsangehörigkeit",
+		"subtitle": "",
+		"kuerzel": "I.01.1.06599",
+		"kuerzelKunde": "BE1",
+		"description": "Anzahl Ausländer nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Ende 2016 bildeten die Deutschen mit 16 066 Personen die grösste Bevölkerungsgruppe im Kanton. Ihre Anzahl ist seit 2002 kontinuierlich gestiegen. Diesem Anstieg steht ein Rückgang der Anzahl Italiener, Türken und Personen aus dem Balkan gegenüber, wobei die Anzahl Italiener seit 2013 wieder leicht zugenommen hat.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_101",
+		"parentId": null,
+		"children": [
+			"6059"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6599
 	}
 ]

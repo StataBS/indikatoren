@@ -1,0 +1,330 @@
+{
+  "series": [
+    {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      },
+      "color": "#008AC3",
+      "yAxis": 0,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          1995,
+          5.851796028
+        ],
+        [
+          1996,
+          5.72095303
+        ],
+        [
+          1997,
+          5.786287235
+        ],
+        [
+          1998,
+          5.848771422
+        ],
+        [
+          1999,
+          5.627476151
+        ],
+        [
+          2000,
+          5.901301849
+        ],
+        [
+          2001,
+          5.513957233
+        ],
+        [
+          2002,
+          5.329035448
+        ],
+        [
+          2003,
+          5.385000042
+        ],
+        [
+          2004,
+          5.367922787
+        ],
+        [
+          2005,
+          5.753818301
+        ],
+        [
+          2006,
+          5.718170714
+        ],
+        [
+          2007,
+          5.971283725
+        ],
+        [
+          2008,
+          5.935551248
+        ],
+        [
+          2009,
+          5.452822642
+        ],
+        [
+          2010,
+          5.764097266
+        ],
+        [
+          2011,
+          5.505401273
+        ],
+        [
+          2012,
+          5.201460501
+        ],
+        [
+          2013,
+          5.283186311
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ]
+      ],
+      "name": "Ökologischer Fussabdruck Schweiz"
+    },
+    {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      },
+      "color": "#68AB2B",
+      "yAxis": 1,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          1995,
+          94511.2857727078
+        ],
+        [
+          1996,
+          93494.3960176371
+        ],
+        [
+          1997,
+          93570.8620981016
+        ],
+        [
+          1998,
+          97694.0963882796
+        ],
+        [
+          1999,
+          100875.503597658
+        ],
+        [
+          2000,
+          109033.021801276
+        ],
+        [
+          2001,
+          117261.35369774
+        ],
+        [
+          2002,
+          121841.452347636
+        ],
+        [
+          2003,
+          126728.380092349
+        ],
+        [
+          2004,
+          133564.744800801
+        ],
+        [
+          2005,
+          139892.862649426
+        ],
+        [
+          2006,
+          149653.593834355
+        ],
+        [
+          2007,
+          158883.892518599
+        ],
+        [
+          2008,
+          161203.589112426
+        ],
+        [
+          2009,
+          158555.295159374
+        ],
+        [
+          2010,
+          163145.576097882
+        ],
+        [
+          2011,
+          165868.433611824
+        ],
+        [
+          2012,
+          166502.118843679
+        ],
+        [
+          2013,
+          163676.469956677
+        ],
+        [
+          2014,
+          163097.85187086
+        ],
+        [
+          2015,
+          163722.201470449
+        ],
+        [
+          2016,
+          165096.596949813
+        ]
+      ],
+      "name": "BIP Kanton Basel-Stadt (rechte Skala)"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6051"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Entkopplung von Wachstum und Umweltverbrauch"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "BIP des Kantons Basel-Stadt in Fr. und ökologischer Fussabdruck in globalen Hektaren pro Kopf",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "yAxis": [
+    {
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "title": {
+        "enabled": false
+      }
+    },
+    {
+      "opposite": true,
+      "title": {
+        "enabled": false
+      },
+      "min": 0,
+      "max": 240000,
+      "gridLineWidth": 0,
+      "labels": {
+        "style": {
+          "color": "#000000"
+        }
+      }
+    }
+  ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 2
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: BAK Economics;\u003Cbr\u002F\u003EGlobal Footprint Network"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 55,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "exporting": {
+    "filename": 6051
+  }
+}
