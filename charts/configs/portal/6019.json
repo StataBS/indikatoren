@@ -333,7 +333,8 @@
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", "\u00a0");
             	},
         "style": {
-          "color": "#000000"
+          "color": "#000000",
+          "textOverflow": "none"
         }
       },
       "plotLines": [
