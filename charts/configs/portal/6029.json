@@ -1,0 +1,602 @@
+{
+  "series": [
+    {
+      "color": "#008AC3",
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          1991,
+          52.77638
+        ],
+        [
+          1992,
+          49.88818
+        ],
+        [
+          1993,
+          47.23211
+        ],
+        [
+          1994,
+          42.71971
+        ],
+        [
+          1995,
+          40.23138
+        ],
+        [
+          1996,
+          43.12835
+        ],
+        [
+          1997,
+          41.19286
+        ],
+        [
+          1998,
+          36.02217
+        ],
+        [
+          1999,
+          36.03563
+        ],
+        [
+          2000,
+          33.78914
+        ],
+        [
+          2001,
+          32.99406
+        ],
+        [
+          2002,
+          32.67156
+        ],
+        [
+          2003,
+          34.79605
+        ],
+        [
+          2004,
+          33.33431
+        ],
+        [
+          2005,
+          32.65082
+        ],
+        [
+          2006,
+          33.83535
+        ],
+        [
+          2007,
+          31.47878
+        ],
+        [
+          2008,
+          32.36896
+        ],
+        [
+          2009,
+          32.72745
+        ],
+        [
+          2010,
+          32.44399
+        ],
+        [
+          2011,
+          33.232
+        ],
+        [
+          2012,
+          31.81037
+        ],
+        [
+          2013,
+          30.98476
+        ],
+        [
+          2014,
+          31.87639
+        ],
+        [
+          2015,
+          31.47181
+        ],
+        [
+          2016,
+          27.81699
+        ],
+        [
+          2017,
+          null
+        ]
+      ],
+      "name": "Stickstoffdioxid (NO\u003Csup\u003E2\u003C\u002Fsup\u003E)"
+    },
+    {
+      "color": "#68AB2B",
+      "visible": true,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          1991,
+          null
+        ],
+        [
+          1992,
+          null
+        ],
+        [
+          1993,
+          null
+        ],
+        [
+          1994,
+          null
+        ],
+        [
+          1995,
+          null
+        ],
+        [
+          1996,
+          null
+        ],
+        [
+          1997,
+          28.6
+        ],
+        [
+          1998,
+          24.29501
+        ],
+        [
+          1999,
+          20.70362
+        ],
+        [
+          2000,
+          20.8
+        ],
+        [
+          2001,
+          20.1
+        ],
+        [
+          2002,
+          21.8
+        ],
+        [
+          2003,
+          24.73259
+        ],
+        [
+          2004,
+          18.96609
+        ],
+        [
+          2005,
+          21.23101
+        ],
+        [
+          2006,
+          23.7
+        ],
+        [
+          2007,
+          22.5
+        ],
+        [
+          2008,
+          20.7
+        ],
+        [
+          2009,
+          22
+        ],
+        [
+          2010,
+          21.4
+        ],
+        [
+          2011,
+          22.27
+        ],
+        [
+          2012,
+          19.143
+        ],
+        [
+          2013,
+          19.08822
+        ],
+        [
+          2014,
+          16.87041
+        ],
+        [
+          2015,
+          18.3
+        ],
+        [
+          2016,
+          16.1
+        ],
+        [
+          2017,
+          null
+        ]
+      ],
+      "name": "Feinstaub (PM10)"
+    },
+    {
+      "color": "#2B0099",
+      "marker": {
+        "enabled": false
+      },
+      "dashStyle": "LongDash",
+      "data": [
+        [
+          1991,
+          30
+        ],
+        [
+          1992,
+          30
+        ],
+        [
+          1993,
+          30
+        ],
+        [
+          1994,
+          30
+        ],
+        [
+          1995,
+          30
+        ],
+        [
+          1996,
+          30
+        ],
+        [
+          1997,
+          30
+        ],
+        [
+          1998,
+          30
+        ],
+        [
+          1999,
+          30
+        ],
+        [
+          2000,
+          30
+        ],
+        [
+          2001,
+          30
+        ],
+        [
+          2002,
+          30
+        ],
+        [
+          2003,
+          30
+        ],
+        [
+          2004,
+          30
+        ],
+        [
+          2005,
+          30
+        ],
+        [
+          2006,
+          30
+        ],
+        [
+          2007,
+          30
+        ],
+        [
+          2008,
+          30
+        ],
+        [
+          2009,
+          30
+        ],
+        [
+          2010,
+          30
+        ],
+        [
+          2011,
+          30
+        ],
+        [
+          2012,
+          30
+        ],
+        [
+          2013,
+          30
+        ],
+        [
+          2014,
+          30
+        ],
+        [
+          2015,
+          30
+        ],
+        [
+          2016,
+          30
+        ],
+        [
+          2017,
+          null
+        ]
+      ],
+      "name": "Langzeitgrenzwert NO2"
+    },
+    {
+      "color": "#007A2F",
+      "visible": true,
+      "marker": {
+        "enabled": false
+      },
+      "dashStyle": "LongDash",
+      "data": [
+        [
+          1991,
+          null
+        ],
+        [
+          1992,
+          null
+        ],
+        [
+          1993,
+          null
+        ],
+        [
+          1994,
+          null
+        ],
+        [
+          1995,
+          null
+        ],
+        [
+          1996,
+          null
+        ],
+        [
+          1997,
+          20
+        ],
+        [
+          1998,
+          20
+        ],
+        [
+          1999,
+          20
+        ],
+        [
+          2000,
+          20
+        ],
+        [
+          2001,
+          20
+        ],
+        [
+          2002,
+          20
+        ],
+        [
+          2003,
+          20
+        ],
+        [
+          2004,
+          20
+        ],
+        [
+          2005,
+          20
+        ],
+        [
+          2006,
+          20
+        ],
+        [
+          2007,
+          20
+        ],
+        [
+          2008,
+          20
+        ],
+        [
+          2009,
+          20
+        ],
+        [
+          2010,
+          20
+        ],
+        [
+          2011,
+          20
+        ],
+        [
+          2012,
+          20
+        ],
+        [
+          2013,
+          20
+        ],
+        [
+          2014,
+          20
+        ],
+        [
+          2015,
+          20
+        ],
+        [
+          2016,
+          20
+        ],
+        [
+          2017,
+          null
+        ]
+      ],
+      "name": "Langzeitgrenzwert PM10"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6029"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "useHTML": true,
+    "text": "Luftqualität: Langzeitbelastung der Luft"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in Jahresmittelwerte für Stickstoffdioxid (NO\u003Csub\u003E2\u003C\u002Fsub\u003E) und Feinstaub (PM10) in Mikrogramm pro m\u003Csup\u003E3\u003C\u002Fsup\u003E",
+    "align": "left",
+    "useHTML": true
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 2
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Lufthygieneamt beider Basel"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "symbolWidth": 30,
+    "y": 65,
+    "itemWidth": 220,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": 6029
+  }
+}

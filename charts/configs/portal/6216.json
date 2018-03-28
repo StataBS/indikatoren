@@ -7,55 +7,55 @@
       "data": [
         [
           "ÖV-Angebot",
-          0.9
+          10
         ],
         [
           "Grünanlagen",
-          0.5
+          10
         ],
         [
           "Verkehrssicherheit",
-          1.1
+          10
         ],
         [
           "Gebäude\u002FStrassenbild",
-          2.4
+          10
         ],
         [
           "Quartierleben",
-          9.2
+          10
         ],
         [
           "Bevölkerung",
-          5.6
+          10
         ],
         [
           "Luftqualität",
-          2.5
+          10
         ],
         [
           "Lärmsituation",
-          0.3
+          10
         ],
         [
           "Öffentliche Sicherheit",
-          0.8
+          10
         ],
         [
           "Schule, Bildung",
-          19.6
+          10
         ],
         [
           "Arbeitsplatzangebot",
-          25.4
+          10
         ],
         [
           "Wohnungsangebot",
-          14.6
+          10
         ],
         [
           "Parkplätze",
-          27
+          10
         ]
       ],
       "name": "Weiss nicht\u002Fk.A.",
@@ -68,55 +68,55 @@
       "data": [
         [
           "ÖV-Angebot",
-          0.3
+          20
         ],
         [
           "Grünanlagen",
-          0.9
+          20
         ],
         [
           "Verkehrssicherheit",
-          1.5
+          20
         ],
         [
           "Gebäude\u002FStrassenbild",
-          1.5
+          20
         ],
         [
           "Quartierleben",
-          0.7
+          20
         ],
         [
           "Bevölkerung",
-          1.4
+          20
         ],
         [
           "Luftqualität",
-          2.4
+          20
         ],
         [
           "Lärmsituation",
-          4.4
+          20
         ],
         [
           "Öffentliche Sicherheit",
-          3.5
+          20
         ],
         [
           "Schule, Bildung",
-          0.8
+          20
         ],
         [
           "Arbeitsplatzangebot",
-          2
+          20
         ],
         [
           "Wohnungsangebot",
-          5.8
+          20
         ],
         [
           "Parkplätze",
-          16.4
+          20
         ]
       ],
       "name": "Ganz unzufrieden",
@@ -129,55 +129,55 @@
       "data": [
         [
           "ÖV-Angebot",
-          3.5
+          30
         ],
         [
           "Grünanlagen",
-          7.3
+          30
         ],
         [
           "Verkehrssicherheit",
-          11.5
+          30
         ],
         [
           "Gebäude\u002FStrassenbild",
-          12.2
+          30
         ],
         [
           "Quartierleben",
-          7.7
+          30
         ],
         [
           "Bevölkerung",
-          10.7
+          30
         ],
         [
           "Luftqualität",
-          14.6
+          30
         ],
         [
           "Lärmsituation",
-          15.7
+          30
         ],
         [
           "Öffentliche Sicherheit",
-          19.1
+          30
         ],
         [
           "Schule, Bildung",
-          7.3
+          30
         ],
         [
           "Arbeitsplatzangebot",
-          14.8
+          30
         ],
         [
           "Wohnungsangebot",
-          28.9
+          30
         ],
         [
           "Parkplätze",
-          21.3
+          30
         ]
       ],
       "name": "Eher unzufrieden",
@@ -190,55 +190,55 @@
       "data": [
         [
           "ÖV-Angebot",
-          26.4
+          40
         ],
         [
           "Grünanlagen",
-          41.6
+          40
         ],
         [
           "Verkehrssicherheit",
-          61.4
+          40
         ],
         [
           "Gebäude\u002FStrassenbild",
-          60.7
+          40
         ],
         [
           "Quartierleben",
-          55.9
+          40
         ],
         [
           "Bevölkerung",
-          60.7
+          40
         ],
         [
           "Luftqualität",
-          61.8
+          40
         ],
         [
           "Lärmsituation",
-          50.1
+          40
         ],
         [
           "Öffentliche Sicherheit",
-          55.4
+          40
         ],
         [
           "Schule, Bildung",
-          43.2
+          40
         ],
         [
           "Arbeitsplatzangebot",
-          46.5
+          40
         ],
         [
           "Wohnungsangebot",
-          39.8
+          40
         ],
         [
           "Parkplätze",
-          27.1
+          40
         ]
       ],
       "name": "Eher zufrieden",
@@ -251,55 +251,55 @@
       "data": [
         [
           "ÖV-Angebot",
-          68.9
+          50
         ],
         [
           "Grünanlagen",
-          49.7
+          50
         ],
         [
           "Verkehrssicherheit",
-          24.5
+          50
         ],
         [
           "Gebäude\u002FStrassenbild",
-          23.2
+          50
         ],
         [
           "Quartierleben",
-          26.6
+          50
         ],
         [
           "Bevölkerung",
-          21.6
+          50
         ],
         [
           "Luftqualität",
-          18.7
+          50
         ],
         [
           "Lärmsituation",
-          29.5
+          50
         ],
         [
           "Öffentliche Sicherheit",
-          21.1
+          50
         ],
         [
           "Schule, Bildung",
-          29
+          50
         ],
         [
           "Arbeitsplatzangebot",
-          11.3
+          50
         ],
         [
           "Wohnungsangebot",
-          11
+          50
         ],
         [
           "Parkplätze",
-          8.2
+          50
         ]
       ],
       "name": "Sehr zufrieden",

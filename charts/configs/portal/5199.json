@@ -1,0 +1,345 @@
+{
+  "series": [
+    {
+      "color": "#FFBB58",
+      "index": 0,
+      "type": "column",
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "legendIndex": 1,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2005,
+          594996
+        ],
+        [
+          2006,
+          533013
+        ],
+        [
+          2007,
+          671982
+        ],
+        [
+          2008,
+          562603
+        ],
+        [
+          2009,
+          492470
+        ],
+        [
+          2010,
+          403304
+        ],
+        [
+          2011,
+          577475
+        ],
+        [
+          2012,
+          699423
+        ],
+        [
+          2013,
+          690304
+        ],
+        [
+          2014,
+          857564
+        ],
+        [
+          2015,
+          962172
+        ],
+        [
+          2016,
+          945838
+        ]
+      ],
+      "name": "Umbau- und Unterhaltsarbeiten"
+    },
+    {
+      "color": "#A8C3CA",
+      "index": 0,
+      "type": "column",
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "legendIndex": 3,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2005,
+          1247400
+        ],
+        [
+          2006,
+          1276800
+        ],
+        [
+          2007,
+          1416000
+        ],
+        [
+          2008,
+          1439900
+        ],
+        [
+          2009,
+          1357300
+        ],
+        [
+          2010,
+          1163500
+        ],
+        [
+          2011,
+          1121800
+        ],
+        [
+          2012,
+          1458600
+        ],
+        [
+          2013,
+          1527800
+        ],
+        [
+          2014,
+          1693700
+        ],
+        [
+          2015,
+          1888900
+        ],
+        [
+          2016,
+          1855800
+        ]
+      ],
+      "name": "Gesamte Bauausgaben"
+    },
+    {
+      "color": "#246370",
+      "index": 1,
+      "type": "line",
+      "yAxis": 1,
+      "legendIndex": 3,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2005,
+          47.6988936988937
+        ],
+        [
+          2006,
+          41.7460056390977
+        ],
+        [
+          2007,
+          47.4563559322034
+        ],
+        [
+          2008,
+          39.0723661365373
+        ],
+        [
+          2009,
+          36.2830619612466
+        ],
+        [
+          2010,
+          34.6629995702621
+        ],
+        [
+          2011,
+          51.4775361026921
+        ],
+        [
+          2012,
+          47.9516659810777
+        ],
+        [
+          2013,
+          45.182877339966
+        ],
+        [
+          2014,
+          50.6325795595442
+        ],
+        [
+          2015,
+          50.9382180104823
+        ],
+        [
+          2016,
+          50.966591227503
+        ]
+      ],
+      "name": "Anteil am Total der Bausgaben (rechte Skala)"
+    }
+  ],
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "marginBottom": 65,
+    "alignTicks": false,
+    "renderTo": "container-5199"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Ausgaben für Umbau- und Unterhaltsarbeiten"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in 1 000 Franken sowie Anteil am Total der Bauausgaben",
+    "align": "left"
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "max": 2000000,
+      "tickInterval": 400000,
+      "title": {
+        "text": null,
+        "color": "#000000",
+        "fontSize": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
+      }
+    },
+    {
+      "min": 0,
+      "max": 100,
+      "tickInterval": 20,
+      "title": {
+        "text": null,
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        }
+      },
+      "labels": {
+        "format": "{value:,.0f}%",
+        "style": {
+          "color": "black"
+        }
+      },
+      "opposite": true
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "y": 40,
+    "x": 45,
+    "width": 300,
+    "itemMarginBottom": 5,
+    "itemWidth": 300,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {},
+  "exporting": {
+    "filename": 5199
+  }
+}

@@ -1,148 +1,148 @@
 {
   "series": [
     {
-      "color": "#007A2F",
-      "index": 0,
-      "legendIndex": 0,
-      "data": [
-        [
-          "2003 (N=1497)",
-          22.6
-        ],
-        [
-          "2005 (N=1510)",
-          23.2
-        ],
-        [
-          "2007 (N=1509)",
-          19.5
-        ],
-        [
-          "2011 (N=1516)",
-          25.8
-        ],
-        [
-          "2015 (N=1506)",
-          23.6
-        ]
-      ],
-      "name": "Sehr grosse  Bereicherung",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#73BA7C",
-      "index": 1,
-      "legendIndex": 1,
-      "data": [
-        [
-          "2003 (N=1497)",
-          45.6
-        ],
-        [
-          "2005 (N=1510)",
-          47.2
-        ],
-        [
-          "2007 (N=1509)",
-          49.4
-        ],
-        [
-          "2011 (N=1516)",
-          46.5
-        ],
-        [
-          "2015 (N=1506)",
-          52.3
-        ]
-      ],
-      "name": "Eher grosse  Bereicherung",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FFBB58",
-      "index": 3,
-      "legendIndex": 3,
-      "data": [
-        [
-          "2003 (N=1497)",
-          21.5
-        ],
-        [
-          "2005 (N=1510)",
-          20.8
-        ],
-        [
-          "2007 (N=1509)",
-          20.1
-        ],
-        [
-          "2011 (N=1516)",
-          19.9
-        ],
-        [
-          "2015 (N=1506)",
-          17.1
-        ]
-      ],
-      "name": "Eher nicht so grosse  Bereicherung",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FF8028",
+      "color": "#007a2f",
       "index": 4,
       "legendIndex": 4,
       "data": [
         [
-          "2003 (N=1497)",
-          5.9
+          "2003",
+          339
         ],
         [
-          "2005 (N=1510)",
-          5.2
+          "2005",
+          351
         ],
         [
-          "2007 (N=1509)",
-          5.4
+          "2007",
+          295
         ],
         [
-          "2011 (N=1516)",
-          5.2
+          "2011",
+          391
         ],
         [
-          "2015 (N=1506)",
-          3.6
+          "2015",
+          355
         ]
       ],
-      "name": "Gar keine  Bereicherung",
+      "name": "Sehr grosse",
       "turboThreshold": 0
     },
     {
-      "color": "#C8C8C8",
+      "color": "#68ab2b",
+      "index": 3,
+      "legendIndex": 3,
+      "data": [
+        [
+          "2003",
+          682
+        ],
+        [
+          "2005",
+          713
+        ],
+        [
+          "2007",
+          746
+        ],
+        [
+          "2011",
+          705
+        ],
+        [
+          "2015",
+          788
+        ]
+      ],
+      "name": "Eher grosse",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffbb58",
       "index": 2,
       "legendIndex": 2,
       "data": [
         [
-          "2003 (N=1497)",
-          4.3
+          "2003",
+          322
         ],
         [
-          "2005 (N=1510)",
-          3.6
+          "2005",
+          314
         ],
         [
-          "2007 (N=1509)",
-          5.6
+          "2007",
+          303
         ],
         [
-          "2011 (N=1516)",
-          2.6
+          "2011",
+          302
         ],
         [
-          "2015 (N=1506)",
-          3.4
+          "2015",
+          258
         ]
       ],
-      "name": "Weiss nicht \u002F  keine Angabe",
+      "name": "Eher nicht so grosse",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#dc440e",
+      "index": 1,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2003",
+          89
+        ],
+        [
+          "2005",
+          78
+        ],
+        [
+          "2007",
+          81
+        ],
+        [
+          "2011",
+          79
+        ],
+        [
+          "2015",
+          54
+        ]
+      ],
+      "name": "Gar keine",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#999999",
+      "index": 0,
+      "legendIndex": 0,
+      "data": [
+        [
+          "2003",
+          65
+        ],
+        [
+          "2005",
+          54
+        ],
+        [
+          "2007",
+          84
+        ],
+        [
+          "2011",
+          39
+        ],
+        [
+          "2015",
+          51
+        ]
+      ],
+      "name": "Weiss nicht \u002F keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -165,7 +165,17 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-            	return this.value.replace(" ", "<br/>");
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
             }
     }
   },
@@ -233,7 +243,6 @@
   },
   "yAxis": {
     "tickInterval": 10,
-    "reversedStacks": false,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -252,7 +261,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
     "shared": false
   },
   "credits": {
@@ -271,15 +280,13 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18"
   },
   "legend": {
-    "reversed": true,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
     "useHTML": false,
     "itemStyle": {
-      "fontWeight": "normal",
-      "width": 115
+      "fontWeight": "normal"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {

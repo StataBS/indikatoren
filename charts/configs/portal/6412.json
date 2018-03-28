@@ -1270,7 +1270,8 @@
     "lineWidth": 0.5,
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       },
       "rotation": -45,
       "formatter": function (){

@@ -1,0 +1,292 @@
+{
+  "series": [
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "color": "#008AC3",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2000,
+          8.6
+        ],
+        [
+          2001,
+          8.5
+        ],
+        [
+          2002,
+          8.5
+        ],
+        [
+          2003,
+          8.1
+        ],
+        [
+          2004,
+          7.7
+        ],
+        [
+          2005,
+          6.9
+        ],
+        [
+          2006,
+          4.73230268766426
+        ],
+        [
+          2007,
+          5.47021580300814
+        ],
+        [
+          2008,
+          5.11291971406451
+        ],
+        [
+          2009,
+          4.5534495412844
+        ],
+        [
+          2010,
+          3.3
+        ],
+        [
+          2011,
+          3
+        ],
+        [
+          2012,
+          3.5
+        ],
+        [
+          2013,
+          3.2
+        ],
+        [
+          2014,
+          3
+        ],
+        [
+          2015,
+          2.9
+        ],
+        [
+          2016,
+          3
+        ]
+      ],
+      "name": "Nettoschuldenquote"
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "color": "#68AB2B",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "yAxis": 1,
+      "data": [
+        [
+          2000,
+          19131.6
+        ],
+        [
+          2001,
+          19371
+        ],
+        [
+          2002,
+          19605.6
+        ],
+        [
+          2003,
+          18827.5
+        ],
+        [
+          2004,
+          18441.8
+        ],
+        [
+          2005,
+          16868.3
+        ],
+        [
+          2006,
+          12230.9937911601
+        ],
+        [
+          2007,
+          14875.500350445
+        ],
+        [
+          2008,
+          14389.8349904802
+        ],
+        [
+          2009,
+          13036
+        ],
+        [
+          2010,
+          9495
+        ],
+        [
+          2011,
+          8916
+        ],
+        [
+          2012,
+          10631
+        ],
+        [
+          2013,
+          10450
+        ],
+        [
+          2014,
+          9944
+        ],
+        [
+          2015,
+          9313
+        ],
+        [
+          2016,
+          9950
+        ]
+      ],
+      "name": "Nettoschulden pro Kopf (rechte Skala)"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-5160"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Nettoschuldenquote und Nettoschulden pro Kopf"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Kopf in Franken",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "yAxis": [
+    {
+      "labels": {
+        "format": "{value:,.f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "title": ""
+    },
+    {
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "gridLineWidth": 0,
+      "opposite": true
+    }
+  ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 2
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 55,
+    "itemWidth": 150,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "exporting": {
+    "filename": 5160
+  }
+}

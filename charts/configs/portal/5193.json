@@ -1,0 +1,304 @@
+{
+  "series": [
+    {
+      "color": "#007a2f",
+      "index": 0,
+      "legendIndex": 0,
+      "data": [
+        [
+          2008,
+          426.10535223186
+        ],
+        [
+          2009,
+          478.131129314775
+        ],
+        [
+          2010,
+          493.331457805841
+        ],
+        [
+          2011,
+          506.764702821401
+        ],
+        [
+          2012,
+          572.586832555728
+        ],
+        [
+          2013,
+          514.993193085202
+        ],
+        [
+          2014,
+          600.639515314709
+        ],
+        [
+          2015,
+          655.465597319865
+        ]
+      ],
+      "name": "Kulturerbe"
+    },
+    {
+      "color": "#68ab2b",
+      "index": 1,
+      "legendIndex": 2,
+      "data": [
+        [
+          2008,
+          373.0748889359
+        ],
+        [
+          2009,
+          347.935305901973
+        ],
+        [
+          2010,
+          344.857407812614
+        ],
+        [
+          2011,
+          355.209341534235
+        ],
+        [
+          2012,
+          372.457231726283
+        ],
+        [
+          2013,
+          370.357812540135
+        ],
+        [
+          2014,
+          425.639770304866
+        ],
+        [
+          2015,
+          542.128372376336
+        ]
+      ],
+      "name": "Kultur, übrige"
+    },
+    {
+      "color": "#923f8d",
+      "index": 2,
+      "legendIndex": 1,
+      "data": [
+        [
+          2008,
+          504.231013327692
+        ],
+        [
+          2009,
+          344.332448789083
+        ],
+        [
+          2010,
+          366.113386056495
+        ],
+        [
+          2011,
+          396.994390500276
+        ],
+        [
+          2012,
+          423.893208916537
+        ],
+        [
+          2013,
+          403.251907220467
+        ],
+        [
+          2014,
+          427.842885264629
+        ],
+        [
+          2015,
+          481.109616507195
+        ]
+      ],
+      "name": "Sport und Freizeit"
+    },
+    {
+      "color": "#b375ab",
+      "index": 3,
+      "legendIndex": 3,
+      "data": [
+        [
+          2008,
+          0
+        ],
+        [
+          2009,
+          0
+        ],
+        [
+          2010,
+          0
+        ],
+        [
+          2011,
+          0
+        ],
+        [
+          2012,
+          4.35977190254018
+        ],
+        [
+          2013,
+          4.46944594282192
+        ],
+        [
+          2014,
+          3.7483553134849
+        ],
+        [
+          2015,
+          0
+        ]
+      ],
+      "name": "Kirchen, rel. Angelegenheiten"
+    }
+  ],
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "marginBottom": 75,
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-5193"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 100,
+      "pointWidth": 30,
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Staatsausgaben für Kultur und Freizeit"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "pro Kopf in Franken",
+    "align": "left"
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Eidgenössische Finanzverwaltung"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "y": 40,
+    "itemWidth": 150,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
+    "shared": true
+  },
+  "exporting": {
+    "filename": 5193
+  }
+}

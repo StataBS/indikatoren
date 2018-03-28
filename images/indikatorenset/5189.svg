@@ -1,0 +1,120 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+  <desc>
+    Created with Highstock 5.0.14
+  </desc>
+  <defs>
+    <clipPath>
+      <rect x="0" y="0" width="438" height="308" fill="none"/>
+    </clipPath>
+    <clipPath id="a">
+      <rect x="0" y="0" width="438" height="308" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="485" height="415" rx="0" ry="0"/>
+  <rect fill="none" class="highcharts-plot-background" x="37" y="41" width="438" height="308"/>
+  <g class="highcharts-pane-group"/>
+  <g class="highcharts-grid highcharts-xaxis-grid ">
+    <path fill="none" class="highcharts-grid-line" d="M 76.5 41 L 76.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 116.5 41 L 116.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 155.5 41 L 155.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 195.5 41 L 195.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 235.5 41 L 235.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 275.5 41 L 275.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 315.5 41 L 315.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 355.5 41 L 355.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 394.5 41 L 394.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 434.5 41 L 434.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 474.5 41 L 474.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 36.5 41 L 36.5 349" opacity="1"/>
+  </g>
+  <g class="highcharts-grid highcharts-yaxis-grid ">
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 37 349.25 L 475 349.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 37 272.25 L 475 272.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 37 195.25 L 475 195.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 37 118.25 L 475 118.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 37 40.75 L 475 40.75" opacity="1"/>
+  </g>
+  <rect fill="none" class="highcharts-plot-border" x="37" y="41" width="438" height="308"/>
+  <g class="highcharts-axis highcharts-xaxis ">
+    <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width="0.5" d="M 37 349.25 L 475 349.25"/>
+  </g>
+  <g class="highcharts-axis highcharts-yaxis ">
+    <path fill="none" class="highcharts-axis-line" d="M 37 41 L 37 349"/>
+  </g>
+  <g class="highcharts-series-group">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(37,41) scale(1 1)" clip-path="url(#a)">
+      <rect x="8" y="63" width="24" height="246" fill="#CD9C00" class="highcharts-point"/>
+      <rect x="48" y="16" width="24" height="293" fill="#CD9C00" class="highcharts-point"/>
+      <rect x="88" y="32" width="23" height="277" fill="#CD9C00" class="highcharts-point"/>
+      <rect x="127" y="63" width="24" height="246" fill="#CD9C00" class="highcharts-point"/>
+      <rect x="167" y="78" width="24" height="231" fill="#CD9C00" class="highcharts-point"/>
+      <rect x="207" y="186" width="24" height="123" fill="#CD9C00" class="highcharts-point"/>
+      <rect x="247" y="140" width="24" height="169" fill="#CD9C00" class="highcharts-point"/>
+      <rect x="287" y="155" width="24" height="154" fill="#CD9C00" class="highcharts-point"/>
+      <rect x="327" y="232" width="23" height="77" fill="#CD9C00" class="highcharts-point"/>
+      <rect x="366" y="155" width="24" height="154" fill="#CD9C00" class="highcharts-point"/>
+      <rect x="406" y="170" width="24" height="139" fill="#CD9C00" class="highcharts-point"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(37,41) scale(1 1)" clip-path="none"/>
+  </g>
+  <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
+    <tspan>Anzahl Störfälle und Ereignisse</tspan>
+  </text>
+  <g class="highcharts-axis-labels highcharts-xaxis-labels ">
+    <text x="56.90909090909091" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2006
+    </text>
+    <text x="96.72727272727273" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2007
+    </text>
+    <text x="136.54545454545453" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2008
+    </text>
+    <text x="176.36363636363637" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2009
+    </text>
+    <text x="216.1818181818182" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2010
+    </text>
+    <text x="255.99999999999997" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2011
+    </text>
+    <text x="295.8181818181818" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2012
+    </text>
+    <text x="335.6363636363636" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2013
+    </text>
+    <text x="375.4545454545455" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2014
+    </text>
+    <text x="415.2727272727273" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2015
+    </text>
+    <text x="455.0909090909091" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2016
+    </text>
+  </g>
+  <g class="highcharts-axis-labels highcharts-yaxis-labels ">
+    <text x="22" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="354" opacity="1">
+      <tspan>0</tspan>
+    </text>
+    <text x="22" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="277" opacity="1">
+      <tspan>5</tspan>
+    </text>
+    <text x="22" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="200" opacity="1">
+      <tspan>10</tspan>
+    </text>
+    <text x="22" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="123" opacity="1">
+      <tspan>15</tspan>
+    </text>
+    <text x="22" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="46" opacity="1">
+      <tspan>20</tspan>
+    </text>
+  </g>
+  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">
+    <tspan>Quelle: Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit</tspan>
+  </text>
+</svg>

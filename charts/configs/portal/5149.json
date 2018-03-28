@@ -1,0 +1,275 @@
+{
+  "series": [
+    {
+      "color": "#008AC3",
+      "legendIndex": 0,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2007,
+          7.711248851803
+        ],
+        [
+          2008,
+          7.699919599233
+        ],
+        [
+          2009,
+          8.09509805439
+        ],
+        [
+          2010,
+          8.616269132157
+        ],
+        [
+          2011,
+          8.302310004828
+        ],
+        [
+          2012,
+          8.66821809549
+        ],
+        [
+          2013,
+          8.499136806418
+        ],
+        [
+          2014,
+          8.733590310953
+        ],
+        [
+          2015,
+          9.495879368614
+        ],
+        [
+          2016,
+          9.457468814643
+        ]
+      ],
+      "name": "Schweiz"
+    },
+    {
+      "color": "#68AB2B",
+      "legendIndex": 1,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2007,
+          11.364216328405
+        ],
+        [
+          2008,
+          11.703053844093
+        ],
+        [
+          2009,
+          11.859829504782
+        ],
+        [
+          2010,
+          12.666835346954
+        ],
+        [
+          2011,
+          12.575263421976
+        ],
+        [
+          2012,
+          12.645344354316
+        ],
+        [
+          2013,
+          13.114852495423
+        ],
+        [
+          2014,
+          12.30403730807
+        ],
+        [
+          2015,
+          12.292191435768
+        ],
+        [
+          2016,
+          13.726884779516
+        ]
+      ],
+      "name": "Ausland"
+    },
+    {
+      "color": "#3C3C3C",
+      "legendIndex": 2,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2007,
+          8.851390098336
+        ],
+        [
+          2008,
+          8.964459488047
+        ],
+        [
+          2009,
+          9.308691958339
+        ],
+        [
+          2010,
+          9.950715305346
+        ],
+        [
+          2011,
+          9.720357592598
+        ],
+        [
+          2012,
+          10.005184033177
+        ],
+        [
+          2013,
+          10.079371195191
+        ],
+        [
+          2014,
+          9.975214956702
+        ],
+        [
+          2015,
+          10.481967462754
+        ],
+        [
+          2016,
+          10.973798288249
+        ]
+      ],
+      "name": "Total"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-5149"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Geburtenziffer nach Staatsangehörigkeit"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 35,
+    "itemWidth": 100,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": 5149
+  }
+}

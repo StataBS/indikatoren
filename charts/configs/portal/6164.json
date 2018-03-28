@@ -161,7 +161,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Wasserqualität: AOX-Fracht"
+    "text": "Wasserqualität: AOX-Konzentration"
   },
   "subtitle": {
     "style": {
@@ -170,7 +170,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Milligramm pro Liter",
+    "text": "in Milligramm pro Liter gereinigtem Abwasser",
     "align": "left"
   },
   "tooltip": {
@@ -200,7 +200,8 @@
     "lineWidth": 0.5,
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       }
     },
     "tickLength": 0

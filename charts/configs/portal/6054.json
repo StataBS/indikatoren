@@ -1,0 +1,566 @@
+{
+  "series": [
+    {
+      "color": "#b00000 ",
+      "legendIndex": 0,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          1991,
+          56648.49328
+        ],
+        [
+          1992,
+          59623.12726
+        ],
+        [
+          1993,
+          60493.25898
+        ],
+        [
+          1994,
+          60044.80596
+        ],
+        [
+          1995,
+          60220.84504
+        ],
+        [
+          1996,
+          59155.11279
+        ],
+        [
+          1997,
+          58517.38887
+        ],
+        [
+          1998,
+          59512.14733
+        ],
+        [
+          1999,
+          59758.97207
+        ],
+        [
+          2000,
+          60053.37432
+        ],
+        [
+          2001,
+          62239.55441
+        ],
+        [
+          2002,
+          62656.40051
+        ],
+        [
+          2003,
+          62273.90186
+        ],
+        [
+          2004,
+          61575.92137
+        ],
+        [
+          2005,
+          62274.27695
+        ],
+        [
+          2006,
+          62984.10357
+        ],
+        [
+          2007,
+          65318.1523
+        ],
+        [
+          2008,
+          64909.78598
+        ],
+        [
+          2009,
+          65107.26371
+        ],
+        [
+          2010,
+          65751.33359
+        ],
+        [
+          2011,
+          64817.92329
+        ],
+        [
+          2012,
+          65189.10349
+        ],
+        [
+          2013,
+          66943.47108
+        ],
+        [
+          2014,
+          68538.48458
+        ],
+        [
+          2015,
+          68247.75622
+        ]
+      ],
+      "name": "Mittelwert"
+    },
+    {
+      "color": "#672773",
+      "legendIndex": 1,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          1991,
+          45700
+        ],
+        [
+          1992,
+          48400
+        ],
+        [
+          1993,
+          49000
+        ],
+        [
+          1994,
+          48900
+        ],
+        [
+          1995,
+          48800
+        ],
+        [
+          1996,
+          47700
+        ],
+        [
+          1997,
+          47300
+        ],
+        [
+          1998,
+          47200
+        ],
+        [
+          1999,
+          47200
+        ],
+        [
+          2000,
+          47300
+        ],
+        [
+          2001,
+          49000
+        ],
+        [
+          2002,
+          49500
+        ],
+        [
+          2003,
+          49270
+        ],
+        [
+          2004,
+          48884
+        ],
+        [
+          2005,
+          48536
+        ],
+        [
+          2006,
+          48563
+        ],
+        [
+          2007,
+          49530
+        ],
+        [
+          2008,
+          47442
+        ],
+        [
+          2009,
+          47980
+        ],
+        [
+          2010,
+          48072
+        ],
+        [
+          2011,
+          48350
+        ],
+        [
+          2012,
+          48409
+        ],
+        [
+          2013,
+          48816
+        ],
+        [
+          2014,
+          49044
+        ],
+        [
+          2015,
+          49142
+        ]
+      ],
+      "name": "Median"
+    },
+    {
+      "color": "#007a2f",
+      "legendIndex": 2,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          1991,
+          133214.8453
+        ],
+        [
+          1992,
+          139274.6213
+        ],
+        [
+          1993,
+          141359.5029
+        ],
+        [
+          1994,
+          139609.1111
+        ],
+        [
+          1995,
+          140864.734
+        ],
+        [
+          1996,
+          140905.5683
+        ],
+        [
+          1997,
+          139716.8281
+        ],
+        [
+          1998,
+          145144.3701
+        ],
+        [
+          1999,
+          146431.543
+        ],
+        [
+          2000,
+          148581.7617
+        ],
+        [
+          2001,
+          153127.9656
+        ],
+        [
+          2002,
+          151945.1402
+        ],
+        [
+          2003,
+          151812.9078
+        ],
+        [
+          2004,
+          150495.3489
+        ],
+        [
+          2005,
+          155470.2313
+        ],
+        [
+          2006,
+          158852.2922
+        ],
+        [
+          2007,
+          166811.7899
+        ],
+        [
+          2008,
+          171656.6346
+        ],
+        [
+          2009,
+          171316.6597
+        ],
+        [
+          2010,
+          173953.5132
+        ],
+        [
+          2011,
+          168643.7715
+        ],
+        [
+          2012,
+          170297.2833
+        ],
+        [
+          2013,
+          177712.229
+        ],
+        [
+          2014,
+          184561.5319
+        ],
+        [
+          2015,
+          183184.5627
+        ]
+      ],
+      "name": "Mittelwert oberstes Quintil"
+    },
+    {
+      "color": "#008AC3",
+      "legendIndex": 3,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          1991,
+          10363.33233
+        ],
+        [
+          1992,
+          11072.23817
+        ],
+        [
+          1993,
+          11395.59865
+        ],
+        [
+          1994,
+          11184.17566
+        ],
+        [
+          1995,
+          11172.69763
+        ],
+        [
+          1996,
+          9584.033909
+        ],
+        [
+          1997,
+          9165.498343
+        ],
+        [
+          1998,
+          8862.787581
+        ],
+        [
+          1999,
+          8634.922135
+        ],
+        [
+          2000,
+          8004.726058
+        ],
+        [
+          2001,
+          8695.953273
+        ],
+        [
+          2002,
+          9904.650301
+        ],
+        [
+          2003,
+          8957.409374
+        ],
+        [
+          2004,
+          8116.631506
+        ],
+        [
+          2005,
+          7465.380603
+        ],
+        [
+          2006,
+          7545.596439
+        ],
+        [
+          2007,
+          7955.245495
+        ],
+        [
+          2008,
+          7110.533607
+        ],
+        [
+          2009,
+          6974.999508
+        ],
+        [
+          2010,
+          6868.167553
+        ],
+        [
+          2011,
+          6900.976641
+        ],
+        [
+          2012,
+          6799.302177
+        ],
+        [
+          2013,
+          6764.546724
+        ],
+        [
+          2014,
+          6709.116047
+        ],
+        [
+          2015,
+          6536.396195
+        ]
+      ],
+      "name": "Mittelwert unterstes Quintil"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6054"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Mittelwert und Median des Reineinkommens in Basel-Stadt"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in Franken",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 3
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Steuerstatistik Basel-Stadt"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 45,
+    "itemWidth": 200,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": 6054
+  }
+}
