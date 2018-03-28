@@ -84,7 +84,7 @@
                 }, 
                 //Display absolute value
                 formatter: function () {
-                    return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
+                    return Highcharts.numberFormat(Math.abs(this.value), 0, ",", "\u00a0");
                 },
             },
         },   
