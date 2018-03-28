@@ -69,9 +69,10 @@
   "xAxis": {
     lineColor: '#B9CFD7', 
     lineWidth: 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000"
+    labels: {
+      style: {
+        color: "#000000",
+        textOverflow: 'none'
       }
     },
     "tickLength": 0

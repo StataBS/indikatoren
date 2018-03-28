@@ -1,8 +1,9 @@
 {
   "series": [
     {
-      "color": "#ffbb58",
-      "index": 0,
+      "color": "#B00000",
+      "index": 1,
+      "legendIndex": 2,
       "visible": false,
       "data": [
         [
@@ -57,8 +58,9 @@
       "name": "1-Zimmer"
     },
     {
-      "color": "#73b97c",
-      "index": 1,
+      "color": "#ffbb58",
+      "index": 2,
+      "legendIndex": 4,
       "visible": false,
       "data": [
         [
@@ -114,7 +116,8 @@
     },
     {
       "color": "#007a2f",
-      "index": 2,
+      "index": 3,
+      "legendIndex": 6,
       "visible": false,
       "data": [
         [
@@ -169,8 +172,10 @@
       "name": "3-Zimmer"
     },
     {
-      "color": "#689199",
-      "index": 3,
+      "color": "#923f8d",
+      "index": 4,
+      "legendIndex": 8,
+      "visible": false,
       "data": [
         [
           2006,
@@ -224,8 +229,9 @@
       "name": "4-Zimmer"
     },
     {
-      "color": "#923f8d",
-      "index": 4,
+      "color": "#2B0099",
+      "index": 5,
+      "legendIndex": 10,
       "visible": false,
       "data": [
         [
@@ -280,8 +286,66 @@
       "name": "5+-Zimmer"
     },
     {
-      "color": "#b00000",
+      "color": "#8A8A8A",
+      "index": 0,
+      "legendIndex": 0,
+      "visible": true,
+      "data": [
+        [
+          2006,
+          1471
+        ],
+        [
+          2007,
+          1468
+        ],
+        [
+          2008,
+          1294
+        ],
+        [
+          2009,
+          969
+        ],
+        [
+          2010,
+          783
+        ],
+        [
+          2011,
+          522
+        ],
+        [
+          2012,
+          500
+        ],
+        [
+          2013,
+          361
+        ],
+        [
+          2014,
+          245
+        ],
+        [
+          2015,
+          361
+        ],
+        [
+          2016,
+          452
+        ],
+        [
+          2017,
+          546
+        ]
+      ],
+      "name": "Anzahl leere Wohnungen"
+    },
+    {
+      "color": "#000000",
       "index": 5,
+      "legendIndex": 0,
       "type": "line",
       "yAxis": 1,
       "marker": {
@@ -340,8 +404,9 @@
       "name": "LWQ alle Wohnungen (rechte Skala)"
     },
     {
-      "color": "#ffbb58",
+      "color": "#B00000",
       "index": 6,
+      "legendIndex": 3,
       "type": "line",
       "yAxis": 1,
       "marker": {
@@ -401,9 +466,10 @@
       "name": "LWQ 1-Zimmer"
     },
     {
-      "color": "#73b97c",
+      "color": "#ffbb58",
       "index": 7,
       "type": "line",
+      "legendIndex": 5,
       "yAxis": 1,
       "marker": {
         "enabled": false
@@ -464,6 +530,7 @@
     {
       "color": "#007a2f",
       "index": 8,
+      "legendIndex": 7,
       "type": "line",
       "yAxis": 1,
       "marker": {
@@ -523,13 +590,15 @@
       "name": "LWQ 3-Zimmer"
     },
     {
-      "color": "#689199",
+      "color": "#923f8d",
       "index": 9,
+      "legendIndex": 9,
       "type": "line",
       "yAxis": 1,
       "marker": {
         "enabled": false
       },
+      "visible": false,
       "data": [
         [
           2006,
@@ -583,8 +652,9 @@
       "name": "LWQ 4-Zimmer"
     },
     {
-      "color": "#923f8d",
+      "color": "#2B0099",
       "index": 10,
+      "legendIndex": 11,
       "type": "line",
       "yAxis": 1,
       "marker": {
@@ -682,11 +752,12 @@
         }
       },
       "stacking": null,
-      "groupPadding": 0.05
+      "pointPadding": 0,
+      "groupPadding": 0.1
     },
     "line": {
       "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
         "shared": false
       },
       "shadow": true
@@ -788,13 +859,14 @@
   },
   "legend": {
     "symbolRadius": 0,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 7,
-    "align": "right",
+    "y": 45,
+    "enabled": true,
+    "layout": "horizontal",
+    "itemWidth": 210,
+    "verticalAlign": "top",
+    "align": "left",
     "itemStyle": {
-      "fontWeight": "normal",
-      "width": 85
+      "fontWeight": "normal"
     }
   },
   "tooltip": {

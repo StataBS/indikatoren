@@ -1,0 +1,345 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "legendIndex": 1,
+      "data": [
+        [
+          2005,
+          1913
+        ],
+        [
+          2006,
+          1998
+        ],
+        [
+          2007,
+          2101
+        ],
+        [
+          2008,
+          2239
+        ],
+        [
+          2009,
+          2316
+        ],
+        [
+          2010,
+          2928
+        ],
+        [
+          2011,
+          3212
+        ],
+        [
+          2012,
+          3457
+        ],
+        [
+          2013,
+          3560
+        ],
+        [
+          2014,
+          3859
+        ],
+        [
+          2015,
+          3987
+        ],
+        [
+          2016,
+          4161
+        ]
+      ],
+      "name": "Tagesbetreuung"
+    },
+    {
+      "color": "#662673",
+      "legendIndex": 4,
+      "data": [
+        [
+          2005,
+          467
+        ],
+        [
+          2006,
+          571
+        ],
+        [
+          2007,
+          752
+        ],
+        [
+          2008,
+          799
+        ],
+        [
+          2009,
+          819
+        ],
+        [
+          2010,
+          910
+        ],
+        [
+          2011,
+          802
+        ],
+        [
+          2012,
+          743
+        ],
+        [
+          2013,
+          851
+        ],
+        [
+          2014,
+          919
+        ],
+        [
+          2015,
+          782
+        ],
+        [
+          2016,
+          832
+        ]
+      ],
+      "name": "Tagesstrukturen in den Quartieren"
+    },
+    {
+      "color": "#008AC3",
+      "legendIndex": 2,
+      "data": [
+        [
+          2005,
+          392
+        ],
+        [
+          2006,
+          394
+        ],
+        [
+          2007,
+          488
+        ],
+        [
+          2008,
+          620
+        ],
+        [
+          2009,
+          814
+        ],
+        [
+          2010,
+          1173
+        ],
+        [
+          2011,
+          1510
+        ],
+        [
+          2012,
+          2209
+        ],
+        [
+          2013,
+          2966
+        ],
+        [
+          2014,
+          3706
+        ],
+        [
+          2015,
+          4096
+        ],
+        [
+          2016,
+          4272
+        ]
+      ],
+      "name": "Tagesstrukturen in den Schulen"
+    },
+    {
+      "color": "#007A2F",
+      "legendIndex": 3,
+      "data": [
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          153
+        ],
+        [
+          2010,
+          178
+        ],
+        [
+          2011,
+          176
+        ],
+        [
+          2012,
+          182
+        ],
+        [
+          2013,
+          193
+        ],
+        [
+          2014,
+          198
+        ],
+        [
+          2015,
+          198
+        ],
+        [
+          2016,
+          195
+        ]
+      ],
+      "name": "Tagesferien"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6055"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 35,
+    "itemWidth": 150,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": 6055
+  }
+}

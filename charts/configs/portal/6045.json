@@ -1,0 +1,421 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          1995,
+          94511.2857727078
+        ],
+        [
+          1996,
+          93494.3960176371
+        ],
+        [
+          1997,
+          93570.8620981016
+        ],
+        [
+          1998,
+          97694.0963882796
+        ],
+        [
+          1999,
+          100875.503597658
+        ],
+        [
+          2000,
+          109033.021801276
+        ],
+        [
+          2001,
+          117261.35369774
+        ],
+        [
+          2002,
+          121841.452347636
+        ],
+        [
+          2003,
+          126728.380092349
+        ],
+        [
+          2004,
+          133564.744800801
+        ],
+        [
+          2005,
+          139892.862649426
+        ],
+        [
+          2006,
+          149653.593834355
+        ],
+        [
+          2007,
+          158883.892518599
+        ],
+        [
+          2008,
+          161203.589112426
+        ],
+        [
+          2009,
+          158555.295159374
+        ],
+        [
+          2010,
+          163145.576097882
+        ],
+        [
+          2011,
+          165868.433611824
+        ],
+        [
+          2012,
+          166502.118843679
+        ],
+        [
+          2013,
+          163676.469956677
+        ],
+        [
+          2014,
+          163097.85187086
+        ],
+        [
+          2015,
+          163722.201470449
+        ],
+        [
+          2016,
+          165096.596949813
+        ]
+      ],
+      "name": "Kanton Basel-Stadt"
+    },
+    {
+      "color": "#007A2F",
+      "visible": true,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          1995,
+          75972.8536116435
+        ],
+        [
+          1996,
+          77855.8159015403
+        ],
+        [
+          1997,
+          80491.6435468299
+        ],
+        [
+          1998,
+          82296.6764931506
+        ],
+        [
+          1999,
+          82587.5111859825
+        ],
+        [
+          2000,
+          86107.8743497928
+        ],
+        [
+          2001,
+          85159.1166239615
+        ],
+        [
+          2002,
+          83630.6379502836
+        ],
+        [
+          2003,
+          83266.1114992184
+        ],
+        [
+          2004,
+          85841.9847799493
+        ],
+        [
+          2005,
+          89717.6439556244
+        ],
+        [
+          2006,
+          95695.5190001833
+        ],
+        [
+          2007,
+          102137.339001424
+        ],
+        [
+          2008,
+          104262.019921622
+        ],
+        [
+          2009,
+          99920.0044620461
+        ],
+        [
+          2010,
+          102471.581799984
+        ],
+        [
+          2011,
+          101836.499826513
+        ],
+        [
+          2012,
+          101077.319647761
+        ],
+        [
+          2013,
+          101832.662306956
+        ],
+        [
+          2014,
+          101262.409412224
+        ],
+        [
+          2015,
+          100778.558948725
+        ],
+        [
+          2016,
+          100132.268335232
+        ]
+      ],
+      "name": "Kanton Genf"
+    },
+    {
+      "color": "#4f81bd",
+      "visible": true,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          1995,
+          72113.0773076249
+        ],
+        [
+          1996,
+          74178.5068532119
+        ],
+        [
+          1997,
+          77211.7681606671
+        ],
+        [
+          1998,
+          80070.7035184464
+        ],
+        [
+          1999,
+          81673.7644465394
+        ],
+        [
+          2000,
+          86630.377934495
+        ],
+        [
+          2001,
+          85932.9043143975
+        ],
+        [
+          2002,
+          83616.1456967499
+        ],
+        [
+          2003,
+          84101.42999098
+        ],
+        [
+          2004,
+          85243.821861751
+        ],
+        [
+          2005,
+          87364.4760555018
+        ],
+        [
+          2006,
+          92623.8096641694
+        ],
+        [
+          2007,
+          97841.0578831349
+        ],
+        [
+          2008,
+          98304.7894945161
+        ],
+        [
+          2009,
+          95025.4466814697
+        ],
+        [
+          2010,
+          94519.2875816121
+        ],
+        [
+          2011,
+          95307.7672533827
+        ],
+        [
+          2012,
+          95706.186554295
+        ],
+        [
+          2013,
+          95944.3244383664
+        ],
+        [
+          2014,
+          95716.8148982918
+        ],
+        [
+          2015,
+          94476.8378286383
+        ],
+        [
+          2016,
+          93808.8066353861
+        ]
+      ],
+      "name": "Kanton Zürich"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6045"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Bruttoinlandprodukt in Franken pro Einwohner"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "nach Kanton",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 3
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: BAK Economics"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "x": 45,
+    "y": 35,
+    "itemWidth": 135,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": 6045
+  }
+}

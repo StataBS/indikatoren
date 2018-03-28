@@ -1,0 +1,344 @@
+{
+  "series": [
+    {
+      "color": "#8A8A8A",
+      "legendIndex": 3,
+      "data": [
+        [
+          2003,
+          1709.64
+        ],
+        [
+          2004,
+          1710.23
+        ],
+        [
+          2005,
+          1702.52
+        ],
+        [
+          2006,
+          1699.72
+        ],
+        [
+          2007,
+          1698.45
+        ],
+        [
+          2008,
+          1701.69
+        ],
+        [
+          2009,
+          1701.43
+        ],
+        [
+          2010,
+          1700.44
+        ],
+        [
+          2011,
+          1698.76
+        ],
+        [
+          2012,
+          1698.08
+        ],
+        [
+          2013,
+          1690.46
+        ],
+        [
+          2014,
+          1688.79
+        ],
+        [
+          2015,
+          1691.19
+        ],
+        [
+          2016,
+          1688.46
+        ],
+        [
+          2017,
+          1675.72
+        ]
+      ],
+      "name": "Befestigte Fläche und Gebäude"
+    },
+    {
+      "color": "#008AC3",
+      "legendIndex": 2,
+      "data": [
+        [
+          2003,
+          134.25
+        ],
+        [
+          2004,
+          132.96
+        ],
+        [
+          2005,
+          133.35
+        ],
+        [
+          2006,
+          133.46
+        ],
+        [
+          2007,
+          133.4
+        ],
+        [
+          2008,
+          133.57
+        ],
+        [
+          2009,
+          133.51
+        ],
+        [
+          2010,
+          133.51
+        ],
+        [
+          2011,
+          133.72
+        ],
+        [
+          2012,
+          133.68
+        ],
+        [
+          2013,
+          133.74
+        ],
+        [
+          2014,
+          133.77
+        ],
+        [
+          2015,
+          133.79
+        ],
+        [
+          2016,
+          133.77
+        ],
+        [
+          2017,
+          133.92
+        ]
+      ],
+      "name": "Gewässer"
+    },
+    {
+      "color": "#68ab2b",
+      "legendIndex": 1,
+      "data": [
+        [
+          2003,
+          1851.44
+        ],
+        [
+          2004,
+          1852.15
+        ],
+        [
+          2005,
+          1859.34
+        ],
+        [
+          2006,
+          1862.04
+        ],
+        [
+          2007,
+          1863.38
+        ],
+        [
+          2008,
+          1860.08
+        ],
+        [
+          2009,
+          1860.39
+        ],
+        [
+          2010,
+          1861.38
+        ],
+        [
+          2011,
+          1862.86
+        ],
+        [
+          2012,
+          1863.58
+        ],
+        [
+          2013,
+          1871.13
+        ],
+        [
+          2014,
+          1872.84
+        ],
+        [
+          2015,
+          1870.42
+        ],
+        [
+          2016,
+          1873.17
+        ],
+        [
+          2017,
+          1885.76
+        ]
+      ],
+      "name": "Grünfläche"
+    }
+  ],
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "type": "column",
+    "renderTo": "container-6026"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    },
+    "column": {
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anteile der Bodenbedeckungsarten an der Kantonsfläche"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "min": 0
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "y": 35,
+    "itemWidth": 100,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} ha\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": 6026
+  }
+}

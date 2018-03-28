@@ -1,0 +1,464 @@
+{
+  "series": [
+    {
+      "color": "#3C3C3C",
+      "legendIndex": 1,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          1993,
+          0.055474
+        ],
+        [
+          1994,
+          0.057415
+        ],
+        [
+          1995,
+          0.04917
+        ],
+        [
+          1996,
+          0.046603
+        ],
+        [
+          1997,
+          0.049123
+        ],
+        [
+          1998,
+          0.037414
+        ],
+        [
+          1999,
+          0.024696
+        ],
+        [
+          2000,
+          0.021014
+        ],
+        [
+          2001,
+          0.021615
+        ],
+        [
+          2002,
+          0.030024
+        ],
+        [
+          2003,
+          0.042614
+        ],
+        [
+          2004,
+          0.045756
+        ],
+        [
+          2005,
+          0.040622
+        ],
+        [
+          2006,
+          0.03732
+        ],
+        [
+          2007,
+          0.032383
+        ],
+        [
+          2008,
+          0.029958
+        ],
+        [
+          2009,
+          0.037971
+        ],
+        [
+          2010,
+          0.041761
+        ],
+        [
+          2011,
+          0.036521
+        ],
+        [
+          2012,
+          0.036525
+        ],
+        [
+          2013,
+          0.037258
+        ],
+        [
+          2014,
+          0.033927
+        ],
+        [
+          2015,
+          0.036527
+        ],
+        [
+          2016,
+          0.038668
+        ],
+        [
+          2017,
+          0.037596
+        ]
+      ],
+      "name": "Total"
+    },
+    {
+      "color": "#68AB2B",
+      "visible": true,
+      "legendIndex": 0,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          1993,
+          0.060322
+        ],
+        [
+          1994,
+          0.061597
+        ],
+        [
+          1995,
+          0.050302
+        ],
+        [
+          1996,
+          0.047672
+        ],
+        [
+          1997,
+          0.053929
+        ],
+        [
+          1998,
+          0.036291
+        ],
+        [
+          1999,
+          0.024485
+        ],
+        [
+          2000,
+          0.025388
+        ],
+        [
+          2001,
+          0.026925
+        ],
+        [
+          2002,
+          0.041457
+        ],
+        [
+          2003,
+          0.062756
+        ],
+        [
+          2004,
+          0.069096
+        ],
+        [
+          2005,
+          0.061438
+        ],
+        [
+          2006,
+          0.053328
+        ],
+        [
+          2007,
+          0.04097
+        ],
+        [
+          2008,
+          0.035646
+        ],
+        [
+          2009,
+          0.047509
+        ],
+        [
+          2010,
+          0.06224
+        ],
+        [
+          2011,
+          0.051462
+        ],
+        [
+          2012,
+          0.045042
+        ],
+        [
+          2013,
+          0.046156
+        ],
+        [
+          2014,
+          0.044461
+        ],
+        [
+          2015,
+          0.045338
+        ],
+        [
+          2016,
+          0.044922
+        ],
+        [
+          2017,
+          0.041872
+        ]
+      ],
+      "name": "15-24 Jahre"
+    },
+    {
+      "color": "#008AC3",
+      "legendIndex": 2,
+      "visible": true,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          1993,
+          0.035554
+        ],
+        [
+          1994,
+          0.040167
+        ],
+        [
+          1995,
+          0.034192
+        ],
+        [
+          1996,
+          0.030686
+        ],
+        [
+          1997,
+          0.032827
+        ],
+        [
+          1998,
+          0.026557
+        ],
+        [
+          1999,
+          0.017722
+        ],
+        [
+          2000,
+          0.015117
+        ],
+        [
+          2001,
+          0.014707
+        ],
+        [
+          2002,
+          0.020212
+        ],
+        [
+          2003,
+          0.02693
+        ],
+        [
+          2004,
+          0.031453
+        ],
+        [
+          2005,
+          0.030028
+        ],
+        [
+          2006,
+          0.028681
+        ],
+        [
+          2007,
+          0.026987
+        ],
+        [
+          2008,
+          0.025871
+        ],
+        [
+          2009,
+          0.030116
+        ],
+        [
+          2010,
+          0.03071
+        ],
+        [
+          2011,
+          0.028444
+        ],
+        [
+          2012,
+          0.02834
+        ],
+        [
+          2013,
+          0.029413
+        ],
+        [
+          2014,
+          0.028036
+        ],
+        [
+          2015,
+          0.0293
+        ],
+        [
+          2016,
+          0.031327
+        ],
+        [
+          2017,
+          0.030549
+        ]
+      ],
+      "name": "50 Jahre und mehr"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6053"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Arbeitslosenquote im Jahresmittel nach Altersgruppe"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormatter": function (){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}",
+      "formatter": function (){
+        return Highcharts.numberFormat((this.value*100),0)+'%'; 
+      }
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 2
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 35,
+    "itemWidth": 500,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": 6053
+  }
+}

@@ -6,26 +6,26 @@
       "data": [
         [
           "2011",
-          14.87
+          14.867748
         ],
         [
           "2012",
-          14.91
+          14.910901
         ],
         [
           "2013",
-          14.45
+          14.452217
         ],
         [
           "2014",
-          14.45
+          14.448236
         ],
         [
           "2015",
-          14.84
+          14.842948
         ]
       ],
-      "name": "Industrie Total",
+      "name": "Industrie",
       "turboThreshold": 0
     },
     {
@@ -34,26 +34,26 @@
       "data": [
         [
           "2011",
-          1.67
+          1.6651134
         ],
         [
           "2012",
-          1.73
+          1.7304467
         ],
         [
           "2013",
-          1.83
+          1.8278602
         ],
         [
           "2014",
-          1.86
+          1.8622296
         ],
         [
           "2015",
-          1.74
+          1.7449017
         ]
       ],
-      "name": "Dienstleistungen Total",
+      "name": "Dienstleistungen",
       "turboThreshold": 0
     }
   ],
@@ -182,14 +182,14 @@
     "verticalAlign": "top",
     "align": "left",
     "y": 45,
-    "width": 200,
+    "itemWidth": 120,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.2f}%\u003C\u002Fb\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.1f}%\u003C\u002Fb\u003E",
     "shared": true
   },
   "exporting": {
