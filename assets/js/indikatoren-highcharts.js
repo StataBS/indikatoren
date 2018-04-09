@@ -311,8 +311,7 @@ function exportThumbnail(id, exportType, offline, exportServer, filename){
 //render the html required for links to other chart, kennzahlenset or external resources
 function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, stufe1, renderLinkDisplayMode, hideLinks, hideLinksTitle){
   var returnText = "";
-  //for the moment, do not create a link for charts of kennzahlenset 'nachhaltigkeit. todo: remove this when web team is ready for a page in the cms
-  var displayLinkToIndikatorenset = kennzahlenset && kennzahlenset.toLowerCase() != 'nachhaltigkeit';
+  var displayLinkToIndikatorenset = kennzahlenset;
   //renderLink: Link to different view of same data
   var displayRenderLink = (renderLink && renderLink.length && renderLink[0].length);
   var displayExternalLinks = (externalLinks && externalLinks.length && externalLinks[0].length);
