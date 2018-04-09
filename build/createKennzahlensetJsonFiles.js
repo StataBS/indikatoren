@@ -44,7 +44,7 @@ files.forEach(function(filepath){
         saveToIndikatorensetJson(indikator.id, indikator, console);
     }
     else {
-        console.log('Chart ' + indikator.id + ' is invisible or in kennzahlenset "Umwelt", ignoring.');
+        console.log('Chart ' + indikator.id + ' is invisible", ignoring.');
     }
 });
  
