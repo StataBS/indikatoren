@@ -133,6 +133,31 @@ Manually create svg thumbnails:
 This will download all svg files to the local downloads directory. You can then manually move them to their respective directory below /images/.
 
 
+### What does the build script do?
+The build script does the following things: 
+- npm run build:database: Creates metadata database files to be used in portal view: 
+    - Loads each chart's metadata file from metadata/single/[id].json and evaluates if it is visible (visible == true) and/or visible in portal view (visibleInPortal == true). 
+    - Metadata of each charts that has property visible == true gets copied into the file metadata/all/indikatoren.json
+    - A chart gets the property visibleInPortal set to true if it: 
+        - has property visibleInPortal set to true or undefined, and
+        - is not member of kennzahlenset "Test", "-print", and
+        - has no parent chart of which the metadata file is present or has a parent chart and links to that chart because it is e.g. the same data but presented differently.
+    - Metadata of each chart with metadata visibleInPortal == true gets copied into the file metadata/portal/indikatoren.json. 
+    - Files metadata/all/kuerzelById.json, idByKuerzel.json, templateById.json, all.md are created. Those can be used by humans to quickly look up id, kuerzel, kennzahlenset, visible, visibleInPortal and template of each chart. 
+- npm run build:find_changed_charts: Checks which charts must be rebuilt since last build: 
+    - Calculates hash code of each file in data/, metadata/single/, charts/templates/ and compares it to the hash code after the previous build (created by npm run build:save_checksums). If a chart's data, metadata, config file or template config have changed since last build, its id is added to file tmp/chartsToBuild.json. 
+- npm run build:partial_databases: Creates a json database for each kennzahlenset: 
+    - Runs through all files metadata/single/*.json and adds charts that have property visible == true or visible == undefined to a file metadata/sets/[kennzahlenset].json. This file is loaded by index.html when parameter ?indikatorenset is specified, instead of the larger file metadata/portal/indikatoren.json. 
+- npm run build:charts: Creates Highcharts config file for each chart: 
+    - Runs through each chart in tmp/chartsToBuild.json to create a highchart config file charts/configs/portal/[id].json by combining the chart's from data/[id].tsv, metadata from metadata/single/[id].json, template from charts/templates/[id].js and template's config from charts/templates/[template].js. 
+- npm run build:images: Creates the svg file for each chart to be used as a preview: 
+    - Runs through each chart in tmp/chartsToBuild.json to create a file images/portal/[id].svg from its Highcharts config file charts/config/[id].json. 
+- npm run build:images_viewbox: Adds viewbox to the generated svg files so that IE displays them nicely. 
+- npm run build:optimize_images: Optimizes svg files so that they are smaller. 
+- npm run build:save_checksums: Saves checksums of all files to metadata/all/hasesAfterBuild.json so that during next build, npm run build:find_changed_charts can find changes. 
+- npm run build:copy_modules: Copies npm modules that are required for the live website (defined in packages.json, key "dependencies") to assets/js/modules. 
+- npm run build:copy_data_per_set: Copies tsv files to a folder defined by the chart's kennzahlenset (data/sets/[kennzahlenset]/[id].tsv)
+
 ### Update dependencies
 Update version numbers in package.json, then run the following command to do a clean reinstall: 
 ```javascript
@@ -193,7 +218,7 @@ npm run reinstall
         <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6548" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6548.svg"></a>
     - befragungen001: Use for survey results if numbers are given as counts:
         <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6266" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6266.svg"></a>  
-    - befragungenProzent001: Use for survey rsults if numbers are given in percentages:
+    - befragungenProzent001: Use for survey results if numbers are given in percentages:
         <a href="https://statabs.github.io/indikatoren/chart-details.html?id=5821" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/5821.svg"></a>
     - bubble001: 
         <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6549" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6549.svg"></a>
