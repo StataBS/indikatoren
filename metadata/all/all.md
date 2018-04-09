@@ -70,12 +70,12 @@ id | visible | visibleInPortal | indikatorenset
 4154 | true | true | Wohnraumentwicklung
 4155 | true | true | Wohnraumentwicklung
 4156 | true | true | Wohnraumentwicklung
-4200 | true | true | Integration-kompakt
-4203 | true | true | Integration-kompakt
+4200 | false |  | Integration-kompakt
+4203 | false |  | Integration-kompakt
 4211 | true | true | Cercle-Indicateurs
-4218 | true | true | Integration-kompakt
-4219 | true | true | Integration-kompakt
-4220 | true | true | Integration-kompakt
+4218 | false |  | Integration-kompakt
+4219 | false |  | Integration-kompakt
+4220 | false |  | Integration-kompakt
 4221 | true | true | Umwelt
 4222 | true | false | Umwelt
 4223 | true | true | Umwelt
@@ -186,9 +186,9 @@ id | visible | visibleInPortal | indikatorenset
 4336 | true | false | Umwelt
 4337 | true | true | Umwelt
 4338 | true | false | Umwelt
-4339 | true | true | Integration-kompakt
-4340 | true | true | Integration-kompakt
-4342 | true | true | Integration-kompakt
+4339 | true | true | 
+4340 | false |  | Integration-kompakt
+4342 | false |  | Integration-kompakt
 4348 | true | true | Cercle-Indicateurs
 4350 | true | true | Cercle-Indicateurs
 4352 | true | true | Cercle-Indicateurs
@@ -200,13 +200,13 @@ id | visible | visibleInPortal | indikatorenset
 4364 | true | true | Cercle-Indicateurs
 4367 | true | true | Cercle-Indicateurs
 4374 | true | true | Cercle-Indicateurs
-4462 | true | true | Integration-kompakt
-4463 | true | true | Integration-kompakt
-4465 | true | true | Integration-kompakt
-4466 | true | true | Integration-kompakt
-4467 | true | true | Integration-kompakt
-4468 | true | true | Integration-kompakt
-4469 | true | true | Integration-kompakt
+4462 | true | true | 
+4463 | true | true | 
+4465 | false |  | Integration-kompakt
+4466 | false |  | Integration-kompakt
+4467 | false |  | Integration-kompakt
+4468 | false |  | Integration-kompakt
+4469 | false |  | Integration-kompakt
 4716 | true | true | Gesellschaftlicher-Zusammenhalt
 4718 | true | true | Gesellschaftlicher-Zusammenhalt
 4719 | true | false | Gesellschaftlicher-Zusammenhalt
@@ -214,10 +214,10 @@ id | visible | visibleInPortal | indikatorenset
 4721 | true | true | Gesellschaftlicher-Zusammenhalt
 4722 | true | true | Gesellschaftlicher-Zusammenhalt
 4724 | true | true | Gesellschaftlicher-Zusammenhalt
-4739 | true | true | Integration-kompakt
-4740 | true | true | Integration-kompakt
-4741 | true | true | Integration-kompakt
-4743 | true | true | Integration-kompakt
+4739 | false |  | Integration-kompakt
+4740 | false |  | Integration-kompakt
+4741 | false |  | Integration-kompakt
+4743 | false |  | Integration-kompakt
 4822 | true | true | Wohnviertel
 4823 | true | true | Wohnviertel
 4824 | true | true | Wohnviertel
@@ -263,8 +263,8 @@ id | visible | visibleInPortal | indikatorenset
 4872 | true | true | Gesellschaftlicher-Zusammenhalt
 4874 | true | true | Gesellschaftlicher-Zusammenhalt
 4875 | true | true | Gesellschaftlicher-Zusammenhalt
-4877 | true | true | Integration-kompakt
-4905 | true | true | Integration-kompakt
+4877 | false |  | Integration-kompakt
+4905 | false |  | Integration-kompakt
 4906 | false |  | 
 4908 | true | true | 
 4909 | true | true | 
