@@ -1,29 +1,24 @@
-{"title":"Wassertemperatur Grundwasser",
-"subtitle":"in °C",
-"kuerzel":"I.02.19.06166",
-"kuerzelKunde":"7.6",
-"description":"Wassertemperatur Grundwasser",
-"id":6166,
-"thema":"02 Raum, Umwelt",
-"unterthema":"Wasser",
-"kennzahlenset":"Legislaturplan",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Wasser"],
-"stufe1":"Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die mittlere Grundwassertemperatur im Kanton Basel-Stadt betrug im Jahre 2016 14,7 °C.",
-"erlaeuterungen":"In Basel-Stadt wird die Grundwassertemperatur an 82 Messstellen kontinuierlich gemessen und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt. Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target='_blank'>Umweltbericht beider Basel</a>.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"07_00_00_00_00_006",
-"parentId":null,
-"children":["4237","6317"],
-"renderLink":[],
-"quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"externalLinks":[""]
-}
+Jahr	Kanton Basel-Stadt
+1994	13.8
+1995	13.9
+1996	13.7
+1997	13.6
+1998	13.6
+1999	13.7
+2000	13.8
+2001	13.9
+2002	13.9
+2003	14
+2004	14.2
+2005	14.1
+2006	13.9
+2007	14
+2008	14
+2009	14
+2010	14.3
+2011	14.3
+2012	14.5
+2013	14.5
+2014	14.6
+2015	14.7
+2016	14.7

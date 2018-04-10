@@ -1,29 +1,22 @@
-{"title":"Arbeitslosenquote",
-"subtitle":"Stand: 2016",
-"kuerzel":"I.03.4.05126",
-"kuerzelKunde":"WA-5.B",
-"description":"Arbeitslosenquote",
-"id":5126,
-"thema":"03 Erwerbsleben",
-"unterthema":"Arbeitslose ",
-"kennzahlenset":"Wohnviertel",
-"raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2017-05-12T15:25:34.3434",
-"schlagwort":["Arbeit","Erwerb"],
-"stufe1":"Bereich 3: Wirtschaft und Arbeit",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Anteil als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent, jeweils Ende Jahr. Erwerbspersonen aus den Jahren 2010 - 2014, Hochrechnung auf Basis einer Stichprobe von 5 000 Personen pro Jahr. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet.",
-"template":"map001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_00_00_00_00_010",
-"parentId":4839,
-"children":[],
-"renderLink":["4839"],
-"quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)","Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"],
-"externalLinks":[""]
-}
+﻿wohnviertel_id	Arbeitslosenquote	Rang	wohnviertel	jahr_num
+20	0.0193855888	1	Riehen	2016
+30	0.0193855888	1	Bettingen	2016
+8	0.0241987109	3	Bachletten	2016
+2	0.0242808282	4	Vorstädte	2016
+7	0.0251482114	5	Bruderholz	2016
+1	0.0257474605	6	Altstadt Grossbasel	2016
+5	0.0293703729	7	St. Alban	2016
+3	0.0313845067	8	Am Ring	2016
+9	0.0344512819	9	Gotthelf	2016
+14	0.038280833	10	Wettstein	2016
+15	0.0402258999	11	Hirzbrunnen	2016
+6	0.0418457558	12	Gundeldingen	2016
+4	0.0492950163	13	Breite	2016
+10	0.0501539147	14	Iselin	2016
+11	0.050352553	15	St. Johann	2016
+13	0.0539961926	16	Clara	2016
+12	0.0542989532	17	Altstadt Kleinbasel	2016
+17	0.0554710741	18	Matthäus	2016
+19	0.0631074121	19	Kleinhüningen	2016
+16	0.0654724892	20	Rosental	2016
+18	0.0716586613	21	Klybeck	2016

@@ -1,29 +1,22 @@
-{"title":"Biodiversität der Fliessgewässer",
-"subtitle":"Bewertungsklassen",
-"kuerzel":"I.02.19.04243",
-"kuerzelKunde":"1613",
-"description":"Biodiversität der Fliessgewässer",
-"id":4243,
-"thema":"02 Raum, Umwelt",
-"unterthema":"Wasser",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Wasser"],
-"stufe1":"Thema Wasser",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1613' target='_blank'>Umweltbericht beider Basel</a>.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"16_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"externalLinks":["Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1613' target = '_blank'>Umweltbericht beider Basel</a>"]
-}
+"Jahr"	"Makrozoobenthos Wiese"	"Fischfauna Wiese"	"Zielwert"
+1996	"4 = gut"		"4 = gut"
+1997			"4 = gut"
+1998			"4 = gut"
+1999			"4 = gut"
+2000			"4 = gut"
+2001	"4 = gut"		"4 = gut"
+2002			"4 = gut"
+2003			"4 = gut"
+2004		"2 = unbefriedigend"	"4 = gut"
+2005			"4 = gut"
+2006	"4 = gut"		"4 = gut"
+2007			"4 = gut"
+2008			"4 = gut"
+2009			"4 = gut"
+2010			"4 = gut"
+2011	"5 = sehr gut"	"4 = gut"	"4 = gut"
+2012			"4 = gut"
+2013			"4 = gut"
+2014			"4 = gut"
+2015			"4 = gut"
+2016	"4 = gut"		"4 = gut"

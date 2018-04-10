@@ -1,29 +1,22 @@
-{"title":"Sesshaftigkeit",
-"subtitle":"Stand: 2017",
-"kuerzel":"I.01.1.04828",
-"kuerzelKunde":"GS-7.A",
-"description":"Sesshaftigkeit",
-"id":4828,
-"thema":"01 Bevölkerung",
-"unterthema":"Bestand und Struktur ",
-"kennzahlenset":"Wohnviertel",
-"raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2018-02-20T00:00:00.000",
-"schlagwort":["Wohndauer"],
-"stufe1":"Bereich 1: Gesellschaft und Soziales",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Im Wohnviertel Bruderholz ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, am höchsten. Im Rosentalviertel ist er am niedrigsten. Dies liegt vor allem daran, dass sich im neuen Quartierteil Erlenmatt sehr viele Neuzuzüger niederlassen.",
-"erlaeuterungen":"Anteil der seit mindestens 10 Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_013",
-"parentId":null,
-"children":["5115"],
-"renderLink":["5115"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
-}
+﻿wohnviertel_id	Sesshaftigkeit	Rang	wohnviertel	jahr_num
+16	0.2088444646	1	Rosental	2017
+12	0.2727272727	2	Altstadt Kleinbasel	2017
+2	0.2783649053	3	Vorstädte	2017
+17	0.2982168735	4	Matthäus	2017
+3	0.3042553191	5	Am Ring	2017
+1	0.3111969112	6	Altstadt Grossbasel	2017
+13	0.3148873653	7	Clara	2017
+11	0.3171841542	8	St. Johann	2017
+6	0.3199426112	9	Gundeldingen	2017
+10	0.3312956259	10	Iselin	2017
+5	0.3366194659	11	St. Alban	2017
+18	0.3419710544	12	Klybeck	2017
+4	0.3470350404	13	Breite	2017
+19	0.3516174402	14	Kleinhüningen	2017
+9	0.3545955349	15	Gotthelf	2017
+14	0.3638336347	16	Wettstein	2017
+15	0.3984542722	17	Hirzbrunnen	2017
+8	0.4232589088	18	Bachletten	2017
+30	0.4265323258	19	Bettingen	2017
+20	0.4280089989	20	Riehen	2017
+7	0.431151974	21	Bruderholz	2017

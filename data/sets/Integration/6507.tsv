@@ -1,29 +1,20 @@
-{"title":"Beurteilung des Wohnorts nach Heimat",
-"subtitle":"«Wie gerne leben Sie insgesamt an Ihrem Wohnort?»",
-"kuerzel":"I.50.1.06507",
-"kuerzelKunde":"D9-1",
-"description":"Beurteilung des Wohnorts nach Heimat",
-"id":6507,
-"thema":"50 Befragungen",
-"unterthema":"Bevölkerungsbefragung",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Heimat","Zufriedenheit","Wohnen"],
-"stufe1":"Kapitel D Politik und Zusammenleben",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"71,1% der befragten Personen leben sehr gerne an ihrem Wohnort und ein Viertel eher gerne. Im Vergleich zu 2011 ist der Anteil Personen, die sehr oder eher gerne im Kanton Basel-Stadt leben, um 1,1 Prozentpunkte gesunken. Die Einschätzung des Wohnorts unterscheidet sich nach Staatsangehörigkeit nicht signifikant. 96,0% der Befragten mit ausländischer Staatsbürgerschaft leben sehr oder eher gerne an ihrem Wohnort, bei den Schweizerinnen und Schweizern leben 97,0% sehr oder eher gerne an ihrem Wohnort.",
-"erlaeuterungen":"Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Während jeweils rund sechs Wochen werden zwischen Januar und März 1 500 zufällig ausgewählte Einwohnerinnen und Einwohner im Kanton Basel-Stadt telefonisch zu einem breiten Spektrum von Themen befragt, welche die staatliche Tätigkeit abbilden.",
-"template":"befragungen001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"04_00_00_00_00_026",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F1c"],
-"externalLinks":[""]
-}
+﻿Jahr	Sehr zufrieden	Eher zufrieden	Eher unzufrieden	Sehr unzufrieden	Weiss nicht / Keine Angabe	Total
+2015 Total	1080	379	30	11	6	1506
+2015 Schweiz	968	325	25	10	5	1506
+2015 Ausland	112	54	5	1	1	1506
+ 						
+2011 Total	1145	341	19	9	2	1516
+2011 Schweiz	982	291	18	9	2	1516
+2011 Ausland	163	50	1	0	0	1516
+  						
+2007 Total	959	485	53	7	5	1509
+2007 Schweiz	850	424	45	7	5	1509
+2007 Ausland	109	61	8	0	0	1509
+   						
+2005 Total	942	508	48	11	1	1510
+2005 Schweiz	807	440	41	11	1	1510
+2005 Ausland	135	68	7	0	0	1510
+   						
+2003 Total	967	467	51	9	3	1497
+2003 Schweiz	849	392	40	7	3	1497
+2003 Ausland	118	75	11	2	0	1497

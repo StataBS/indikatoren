@@ -1,29 +1,17 @@
-{"title":"Hochsicherheitslaboratorien in Biotechnologiebetrieben",
-"subtitle":"Anzahl Laboratorien",
-"kuerzel":"I.02.9.04263",
-"kuerzelKunde":"0401",
-"description":"Hochsicherheitslaboratorien in Biotechnologiebetrieben",
-"id":4263,
-"thema":"02 Raum, Umwelt",
-"unterthema":"Biotechnologie",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Biotechnologie"],
-"stufe1":"Thema Biotechnologie",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0401' target='_blank'>Umweltbericht beider Basel</a>.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"04_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Umwelt (BAFU)"],
-"externalLinks":["<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=67&nodefault&layers=stadtplan_grau_osm_25000,gefkatasterex' target = '_blank'>Gefahrenkataster BS (Kataster der Störfallverordnung)</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0401' target = '_blank'>Umweltbericht beider Basel</a>"]
-}
+"Jahr"	"Hochsicherheitslaboratorien in Biotechnologiebetrieben"
+2001	1
+2002	1
+2003	2
+2004	2
+2005	2
+2006	2
+2007	3
+2008	4
+2009	4
+2010	4
+2011	4
+2012	5
+2013	5
+2014	6
+2015	6
+2016	6

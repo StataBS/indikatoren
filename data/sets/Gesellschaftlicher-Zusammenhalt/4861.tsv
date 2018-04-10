@@ -1,29 +1,6 @@
-{"title":"Beurteilung der eigenen wirtschaftlichen Situation",
-"subtitle":"«Wie geht es Ihnen wirtschaftlich gesehen im Moment?»",
-"kuerzel":"I.50.1.04861",
-"kuerzelKunde":"2.3.02",
-"description":"Beurteilung der eigenen wirtschaftlichen Situation",
-"id":4861,
-"thema":"50 Befragungen",
-"unterthema":"Bevölkerungsbefragung",
-"kennzahlenset":"Gesellschaftlicher-Zusammenhalt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Einkommen","Beurteilung"],
-"stufe1":"Kernbereich 2: Verbundenheit",
-"stufe2":"2.3 Gerechtigkeitsempfinden",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"89,7% der befragten Personen ging es 2015 wirtschaftlich gesehen sehr gut oder eher gut. Im Vergleich zu 2011 entspricht dies einem Anstieg um 2,5 Prozentpunkte. Für diese Frage wurde die Stichprobe der Bevölkerungsbefragung zugunsten der Vergleichbarkeit für den Städtevergleich ab 2005 gesplittet bzw. reduziert, weshalb ab 2005 weniger Antworten vorliegen.",
-"erlaeuterungen":"",
-"template":"befragungenProzent001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_03_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14b"],
-"externalLinks":[""]
-}
+Antwort,Sehr gut,Eher gut,Eher nicht so gut,Gar nicht gut,Weiss nicht / keine Angabe
+2003 (N=1497),21,61.9,14.2,2.1,0.9
+2005 (N=782),18.5,65.6,12.8,2.7,0.4
+2007 (N=762),19.8,65.5,12.9,1.6,0.3
+2011 (N=1009),31.5,55.7,9.6,2.9,0.3
+2015 (N=1001),31.3,58.4,8.7,1.1,0.5

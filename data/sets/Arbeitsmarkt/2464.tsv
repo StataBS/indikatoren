@@ -1,29 +1,38 @@
-{"title":"Zuwanderung von Erwerbstätigen nach Herkunft",
-"subtitle":"Kurz- und Daueraufenthalter, Basel-Stadt",
-"kuerzel":"I.03.5.02464",
-"kuerzelKunde":"3.4-12",
-"description":"Zuwanderung von Erwerbstätigen nach Herkunft",
-"id":2464,
-"thema":"03 Erwerbsleben",
-"unterthema":"Ausländische Erwerbstätige",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Ausländer","Staatsangehörigkeit","Erwerbstätigkeit"],
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Ausländische Erwerbstätige",
-"stufe3":"Zuwanderung",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Rund zwei Drittel der Zuwanderung kommen aus den EU15/EFTA-Staaten (ca. 1 100 Personen pro Quartal in den letzten fünf Jahren). Die Zuwanderung aus den Ländern, die ab 2004 der EU beigetreten sind, macht ca. 13% der Gesamtzuwanderung aus. Rund 21% der zugewanderten Erwerbstätigen kommen aus Drittstaaten (ca. 390 Personen pro Quartal). Im 1. Quartal 2017 wurde hier ein Spitzenwert von 695 Bewilligungen für Angehörige aus Drittstaaten erreicht.",
-"erlaeuterungen":"Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_04_02_00_00_412",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"],
-"externalLinks":[""]
-}
+﻿"Datum"	"EU15/EFTA"	"EU seit 2004"	"Drittstaaten"
+"2009-01"	929	115	326
+"2009-02"	1124	129	318
+"2009-03"	1080	137	459
+"2009-04"	942	161	325
+"2010-01"	942	87	364
+"2010-02"	792	148	370
+"2010-03"	1187	227	329
+"2010-04"	881	135	347
+"2011-01"	926	128	347
+"2011-02"	1027	145	380
+"2011-03"	1328	206	405
+"2011-04"	1064	171	324
+"2012-01"	1082	172	356
+"2012-02"	982	179	401
+"2012-03"	1189	207	374
+"2012-04"	1015	208	354
+"2013-01"	1216	171	385
+"2013-02"	1224	190	429
+"2013-03"	1323	266	405
+"2013-04"	1204	167	310
+"2014-01"	1226	227	322
+"2014-02"	1006	181	325
+"2014-03"	1304	288	354
+"2014-04"	1283	264	277
+"2015-01"	1295	189	389
+"2015-02"	1175	203	293
+"2015-03"	1402	275	345
+"2015-04"	1166	201	234
+"2016-01"	1127	177	463
+"2016-02"	1140	250	303
+"2016-03"	1319	267	331
+"2016-04"	1002	228	212
+"2017-01"	1214	191	486
+"2017-02"	1062	221	430
+"2017-03"	1186	261	287
+"2017-04"	988	226	238
+

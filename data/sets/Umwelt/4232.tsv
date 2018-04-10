@@ -1,29 +1,25 @@
-{"title":"Nitrat im Grundwasser",
-"subtitle":"Prozent (Anteil der Messstellen mit Grenzwertüberschreitung)",
-"kuerzel":"I.02.19.04232",
-"kuerzelKunde":"1602",
-"description":"Nitrat im Grundwasser",
-"id":4232,
-"thema":"02 Raum, Umwelt",
-"unterthema":"Wasser",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Boden","Wasser"],
-"stufe1":"Thema Wasser",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-1602' target='_blank'>Umweltbericht beider Basel</a>.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"16_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"externalLinks":["<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983281/index.html' target = '_blank'>Gewässerschutzverordnung (GSchV, SR 814.201)</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1602' target = '_blank'>Umweltbericht beider Basel</a>"]
-}
+"Jahr"	"Nitrat im Grundwasser"
+1993	57.9
+1994	52.4
+1995	57.1
+1996	54.5
+1997	47.6
+1998	57.1
+1999	33.3
+2000	63.6
+2001	65.2
+2002	63.6
+2003	59.1
+2004	45
+2005	52.2
+2006	43.5
+2007	40
+2008	39.1
+2009	41.7
+2010	33.3
+2011	41.7
+2012	33.3
+2013	41.7
+2014	32
+2015	29.2
+2016	36.4

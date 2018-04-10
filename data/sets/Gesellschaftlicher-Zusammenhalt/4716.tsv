@@ -1,29 +1,9 @@
-{"title":"Erhaltenene Hilfeleistungen",
-"subtitle":"«Erhalten Sie oder ein anderes Haushaltsmitglied (finanzielle oder materielle) Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»",
-"kuerzel":"I.50.2.04716",
-"kuerzelKunde":"1.1.01",
-"description":"Erhaltenene Hilfeleistungen",
-"id":4716,
-"thema":"50 Befragungen",
-"unterthema":"Familienbefragung",
-"kennzahlenset":"Gesellschaftlicher-Zusammenhalt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2017-03-08T13:22:02.022",
-"schlagwort":["Arbeit","Hilfeleistung","Nachbarschaft"],
-"stufe1":"Kernbereich 1: Soziale Beziehungen",
-"stufe2":"1.1 Soziale Netze",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"2013 erhielten 39,7% der Befragten von Freunden oder Bekannten Hilfeleistungen (2009: 46,2%), 28,5% von den Nachbarn (2009: 34,1%). Von den Arbeitskollegen Hilfeleistungen zu bekommen, bejahten 2013 12,1% der Befragten, 2009 waren es 13,3%.",
-"erlaeuterungen":"2013: N=3119; 2009: N=2231",
-"template":"befragungen001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_01_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F74c-e"],
-"externalLinks":[""]
-}
+Antwort	Ja, regelmässig	Ja, hin und wieder	Ja, selten	Nein, nie	Nein, nicht möglich	Keine Angabe
+Arbeitskollegen 2013	0.4	2.9	8.8	70.3	2.8	14.8
+Arbeitskollegen 2009	0.4	3.2	9.7	71.9	2.6	12.2
+.
+Nachbarn 2013	1.2	10.9	16.4	57.2	1.5	12.8
+Nachbarn 2009	2.7	12	19.4	54.2	1.3	10.5
+..
+Freunde und Bekannte 2013	3	16.8	19.9	46.6	1.9	11.8
+Freunde und Bekannte 2009	3.8	18.9	23.5	43.3	1.3	9.3

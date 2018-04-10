@@ -1,29 +1,13 @@
-{"title":"Zwangsnutzungen ",
-"subtitle":"Kubikmeter",
-"kuerzel":"I.07.1.04287",
-"kuerzelKunde":"1506",
-"description":"Zwangsnutzungen ",
-"id":4287,
-"thema":"07 Landwirtschaft",
-"unterthema":"Landwirtschaft",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Wald"],
-"stufe1":"Thema Wald",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1506' target='_blank'>Umweltbericht beider Basel</a>.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"15_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Amt für Wald beider Basel"],
-"externalLinks":["Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1506' target = '_blank'>Umweltbericht beider Basel</a>"]
-}
+"Jahr"	"Biotische Schadereignisse"	"Abiotische Schadereignisse"
+2004	21873	3388
+2005	10654	5318
+2006	12517	7689
+2007	9576	4403
+2008	4218	3659
+2009	2835	11655
+2010	3562	3544
+2011	2400	1757
+2012	2661	23371
+2013	1863	5054
+2014	6989	2634
+2015	6308	2083

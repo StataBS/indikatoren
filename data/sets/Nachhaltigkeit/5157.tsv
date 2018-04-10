@@ -1,29 +1,21 @@
-{"title":"Wanderungen: Ausländer",
-"subtitle":"Stand: 2007 bis 2016",
-"kuerzel":"I.01.5.05157",
-"kuerzelKunde":"BE8.3",
-"description":"Wanderungen: Ausländer",
-"id":5157,
-"thema":"01 Bevölkerung",
-"unterthema":"Wanderungen",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Bevölkerung","Ausland","Wanderung"],
-"stufe1":"Bereich Bevölkerung",
-"stufe2":"Bevölkerung",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"In allen elf Fünfjahresklassen zwischen 0 und 54 Jahren ergaben sich bei den zu- und weggezogenen ausländischen Staatsangehörigen der Jahre 2007 bis 2016 Wanderungsgewinne. Am deutlichsten zeigte sich dies bei den Ausländern im Alter zwischen 25 und 29 Jahren, bei welchen der Zuzugsüberschuss 7 252 betrug. Kleine Wanderungsverluste zeigen sich in den Altersklassen ab 55 Jahren.",
-"erlaeuterungen":"Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung.",
-"template":"populationPyramid001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_01_00_00_00_112",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
-}
+Alter	Zugezogene	Weggezogene	Saldo
+0-4	3986	3807	179
+5-9	2576	2237	339
+10-14	1844	1211	633
+15-19	2565	1340	1225
+20-24	10973	6383	4590
+25-29	20824	13572	7252
+30-34	16694	13704	2990
+35-39	11020	10102	918
+40-44	7497	6566	931
+45-49	5288	4652	636
+50-54	3193	2952	241
+55-59	1701	1860	-159
+60-64	731	1331	-600
+65-69	289	881	-592
+70-74	153	358	-205
+75-79	104	186	-82
+80-84	44	96	-52
+85-89	28	53	-25
+90-94	7	20	-13
+95-99	1	1	0

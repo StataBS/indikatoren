@@ -1,29 +1,22 @@
-{"title":"Baujahr Wohngebäude",
-"subtitle":"Stand: 2017",
-"kuerzel":"I.09.1.04830",
-"kuerzelKunde":"RU-1.A",
-"description":"Baujahr Wohngebäude",
-"id":4830,
-"thema":"09 Bau-, Wohnungswesen",
-"unterthema":"Gebäude und Wohnungen",
-"kennzahlenset":"Wohnviertel",
-"raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2018-02-20T16:18:00.000",
-"schlagwort":["Gebäude","Alter"],
-"stufe1":"Bereich 2: Raum und Umwelt",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Das Wohnviertel Altstadt Grossbasel verfügt über die älteste Bausubstanz, die Gemeinde Bettingen über die modernste.",
-"erlaeuterungen":"Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_00_00_00_00_001",
-"parentId":null,
-"children":["5117"],
-"renderLink":["5117"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
-"externalLinks":[""]
-}
+﻿wohnviertel_id	Baujahr Wohngebäude	Rang	wohnviertel	jahr_num
+1	1822.9739479	1	Altstadt Grossbasel	2017
+12	1880.2206406	2	Altstadt Kleinbasel	2017
+2	1898.8798521	3	Vorstädte	2017
+3	1918.832483	4	Am Ring	2017
+9	1924.7530612	5	Gotthelf	2017
+17	1925.1191937	6	Matthäus	2017
+13	1928.2022901	7	Clara	2017
+6	1932.2727273	8	Gundeldingen	2017
+11	1932.9564931	9	St. Johann	2017
+14	1933.15625	10	Wettstein	2017
+8	1934.1737915	11	Bachletten	2017
+18	1936.9816092	12	Klybeck	2017
+10	1937.1588721	13	Iselin	2017
+5	1938.8973928	14	St. Alban	2017
+4	1940.8815592	15	Breite	2017
+15	1941.7718078	16	Hirzbrunnen	2017
+19	1946.4011976	17	Kleinhüningen	2017
+7	1948.622051	18	Bruderholz	2017
+16	1949.2990033	19	Rosental	2017
+20	1957.6253324	20	Riehen	2017
+30	1961.9485531	21	Bettingen	2017

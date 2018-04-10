@@ -1,30 +1,7 @@
-{"title":"Bruttowertschöpfung nach Branchengruppe in Mio. Franken",
-"subtitle":"",
-"kuerzel":"I.04.1.04908",
-"kuerzelKunde":"",
-"description":"Bruttowertschöpfung nach Branchengruppe in Mio. Franken",
-"id":4908,
-"thema":"04 Volkswirtschaft",
-"unterthema":"Basler Index der Konsumentenpreise",
-"kennzahlenset":"",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Einkommen","BIP"],
-"stufe1":"",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Branchengruppe Bau und Herstellung von Waren macht mit über 12,5 Mrd. Franken im Jahr 2013 wie in sämtlichen anderen Beobachtungsjahren den grössten Anteil an der Bruttowertschöpfung des Kantons Basel-Stadt aus.",
-"erlaeuterungen":"Bau u. Herst. v. Waren umfasst: Bergbau und Gewinnung von Steinen und Erden, Herstellung von Waren, Bau; Handel und Informationsdienstl. umfasst: Handel und Reparatur von Fahrzeugen, Transport, Informationsdienstleistungen und Telekommunikation, Beherbergung und Gastronomie; Wirtschaftl. Dienstl. u. Unterhaltung umfasst: Grundstücks- und Wohnungswesen, sonstige freiberufliche, wissenschaftliche und technische Tätigkeiten, wirtschaftliche Dienstleistungen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen; Finanzen und Versicherungen umfasst: Erbringung von Finanzdienstleistungen und Versicherungen; Versorgung und Bildung umfasst: Energieversorgung, Wasserversorgung, Sammlung, Behandlung und Beseitigung von Abfällen, Erziehung und Unterricht, Gesundheitswesen; Private Haushalte umfasst: Private Haushalte als Hersteller; Landwirtschaft umfasst: Landwirtschaft, Forstwirtschaft und Fischerei.",
-"template":"template001",
-"option":"options001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung"],
-"externalLinks":[""]
-}
+JAHR,Landwirtschaft etc.,Private Haushalte,Versorgung und Bildung,Öffentliche Verwaltung,Finanzen und Versicherungen,Wirtsch. Dienstl. u. Unterhaltung,Handel u. Informationsdienstl,Bau u. Herst. v. Waren
+2008,4,739,1749,1764,3107,3984,4909,12702
+2009,4,736,1864,1850,2986,4200,4783,12323
+2010,4,754,1854,1875,2847,4358,4974,12409
+2011,4,768,1864,1960,3337,4539,5028,12275
+2012,4,764,2083,2028,3169,4628,5023,12436
+2013,4,763,1913,2062,2885,4904,4953,12527

@@ -1,29 +1,38 @@
-{"title":"Zuwanderung von Erwerbstätigen im Dienstleistungssektor (III)",
-"subtitle":"Kurz- und Daueraufenthalter, Basel-Stadt",
-"kuerzel":"I.03.5.06521",
-"kuerzelKunde":"3.4-16",
-"description":"Zuwanderung von Erwerbstätigen im Dienstleistungssektor (III)",
-"id":6521,
-"thema":"03 Erwerbsleben",
-"unterthema":"Ausländische Erwerbstätige",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Ausländer","Erwerbstätigkeit","Branche"],
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Ausländische Erwerbstätige",
-"stufe3":"Zuwanderung",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Im Gesundheits- und Sozialwesen sowie in der Branche Erziehung und Unterricht werden pro Quartal rund 100 neue Aufenthaltsbewilligungen für  Erwerbstätige erteilt. Zum Anfang des Schuljahres ist die Anzahl der neuen Bewilligungen im Unterrichtswesen jeweils höher als im Rest des Jahres. Im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen schwankt die Zuwanderung zwischen 60 und 170 Personen pro Quartal. Hier werden auch Vereine und religiöse Vereinigungen erfasst.",
-"erlaeuterungen":"Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_04_02_00_00_416",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"],
-"externalLinks":[""]
-}
+﻿"Datum"	"Öffentliche Verwaltung, Sozialversicherungen"	"Erziehung, Unterricht"	"Gesundheits-, Sozialwesen"	"Kultur, Unterhaltung, pers. DL"
+"2009-01"	6	121	100	52
+"2009-02"	8	75	123	90
+"2009-03"	8	156	131	117
+"2009-04"	10	113	108	80
+"2010-01"	6	93	108	57
+"2010-02"	6	60	89	85
+"2010-03"	10	113	109	85
+"2010-04"	3	75	73	58
+"2011-01"	9	71	88	58
+"2011-02"	7	69	67	107
+"2011-03"	9	118	87	114
+"2011-04"	6	66	86	46
+"2012-01"	3	88	88	69
+"2012-02"	5	57	85	78
+"2012-03"	9	74	79	104
+"2012-04"	11	60	71	95
+"2013-01"	5	80	99	70
+"2013-02"	5	64	96	85
+"2013-03"	10	101	94	141
+"2013-04"	4	64	88	69
+"2014-01"	5	97	87	60
+"2014-02"	4	73	105	95
+"2014-03"	5	112	97	99
+"2014-04"	4	87	109	76
+"2015-01"	8	77	90	141
+"2015-02"	4	48	84	106
+"2015-03"	15	92	123	169
+"2015-04"	6	64	79	52
+"2016-01"	6	73	95	61
+"2016-02"	5	75	74	56
+"2016-03"	12	115	97	79
+"2016-04"	1	75	100	67
+"2017-01"	5	79	96	40
+"2017-02"	7	79	79	81
+"2017-03"	10	89	98	111
+"2017-04"	6	78	104	95
+

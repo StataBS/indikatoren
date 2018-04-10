@@ -1,29 +1,10 @@
-{"title":"Globale und kontinentale Erreichbarkeit",
-"subtitle":"Stadt Basel im nationalen Vergleich",
-"kuerzel":"I.11.6.03104",
-"kuerzelKunde":"5.1",
-"description":"Globale und kontinentale Erreichbarkeit",
-"id":3104,
-"thema":"11 Verkehr",
-"unterthema":"Mobilitätsverhalten",
-"kennzahlenset":"Legislaturplan",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2015-12-17T00:00:00.000",
-"schlagwort":["EuroAirport","Auto","Standort","Kantonsvergleich"],
-"stufe1":"Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die kontinentale Erreichbarkeit der Stadt Basel hat sich zwischen 2000 und 2014 verbessert. Die Entwicklung bei den anderen Schweizer Städte verläuft im gleichen Zeitraum identisch. Die Stadt Zürich bewegt sich auf einem höheren Niveau als Basel und Genf, die Stadt Bern liegt darunter. Die Entwicklung bei der globalen Erreichbarkeit verläuft bei allen Städten parallel und über die Jahre auf gleichbleibendem Niveau. Basel bewegt sich bei diesem indikator zusammen mit Genf zwischen dem Level von Zürich und Bern.",
-"erlaeuterungen":"Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002; globale Erreichbarkeit = Erreichbarkeit von Regionen ausserhalb Europas; kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Ihnen liegen Strassenerreichbarkeit, Bahnfahr- und Flugpläne zugrunde. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"05_00_00_00_00_001",
-"parentId":null,
-"children":["6278"],
-"renderLink":[],
-"quellenangabe":["BAK Economics"],
-"externalLinks":["Weiterführende Informationen: <a href = 'https://www.bak-economics.com/en/solutions/regional-analysis/region-international/location-factors/erreichbarkeit/' target = '_blank'>BAK Economics</a> und","<a href = 'http://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/erreichbarkeit.html' target = '_blank'>Amt für Mobilität</a>"]
-}
+Jahr	BS global	BE global	GE global	ZH global	BS kontinental	BE kontinental	GE kontinental	ZH kontinental
+2000	107.5853	105.1817	106.9877	113.6136	126.6112	108.4681	124.9565	141.9549
+2002	106.8432	103.9817	106.5614	112.5612	124.9015	104.3611	127.3041	137.1414
+2003	104.8577	101.9157	105.4989	110.1057	117.8925	100.2264	123.2102	132.7222
+2004	106.5483	103.7479	107.8142	112.066	119.0159	101.1864	122.5876	132.0871
+2006	106.6269	104.3733	107.7053	111.3452	117.1611	104.8436	122.2398	130.3061
+2008	107.2311	105.5164	107.2748	111.4037	135.3056	119.6274	136.8721	148.028
+2010	107.8557	106.3234	107.9276	112.5485	135.9693	121.6514	135.9837	148.6229
+2012	108.5761	106.9653	108.3006	113.3995	135.2396	124.955	137.5492	148.4009
+2014	107.9746	106.1885	108.4709	112.5891	134.6885	120.8834	137.8176	147.5576

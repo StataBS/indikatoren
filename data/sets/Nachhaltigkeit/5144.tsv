@@ -1,29 +1,11 @@
-{"title":"Altersquotient",
-"subtitle":"",
-"kuerzel":"I.01.1.05144",
-"kuerzelKunde":"BE3",
-"description":"Altersquotient",
-"id":5144,
-"thema":"01 Bevölkerung",
-"unterthema":"Bestand und Struktur ",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2017-03-13T15:47:44.4444",
-"schlagwort":["Alter","Bevölkerung"],
-"stufe1":"Bereich Bevölkerung",
-"stufe2":"Bevölkerung",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Der Altersquotient ist zwischen 2008 und 2017 leicht gesunken. Dies ist darauf zurückzuführen, dass die Zahl der Personen im Erwerbsalter stärker zugenommen hat als diejenige der Senioren.",
-"erlaeuterungen":"Der Altersquotient bezeichnet die Anzahl 65-Jährige und Ältere pro 100 20- bis 64-Jährige.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_01_00_00_00_103",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
-}
+﻿Jahr	Altersquotient	20-64 Jährige	65 und älter
+2008	32.366713492541	119592	38708
+2009	32.024923669188	120528	38599
+2010	31.904268974369	120755	38526
+2011	31.668412610076	122188	38695
+2012	31.466675324886	123197	38766
+2013	31.209603695209	124702	38919
+2014	31.07486507386	125439	38980
+2015	30.932563815156	125793	38911
+2016	30.73833039435	126461	38872
+2017	30.603332755277	126862	38824

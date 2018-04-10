@@ -1,29 +1,11 @@
-{"title":"Umbausaldo",
-"subtitle":"nach Art des Umbaus",
-"kuerzel":"I.09.1.04136",
-"kuerzelKunde":"1.2.C-2",
-"description":"Umbausaldo",
-"id":4136,
-"thema":"09 Bau-, Wohnungswesen",
-"unterthema":"Gebäude und Wohnungen",
-"kennzahlenset":"Wohnraumentwicklung",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-01-18T16:23:33.3333",
-"schlagwort":["Gebäude","Haushalt"],
-"stufe1":"Ziel 1: Gesellschaftspolitik",
-"stufe2":"1.2 Wohnraum erhalten und erneuern",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Seit 2011 ist der Umbausaldo positiv. Der sprunghafte Anstieg 2014 ist auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume (Büros) zu Wohnungen zurückzuführen. Ansonsten trägt der Dachstockausbau zum positiven Umbausaldo bei.",
-"erlaeuterungen":"Die prozentualen Anteile im Tooltip beziehen sich auf das Total der Zugänge resp. das Total der Abgänge.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_02_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
-"externalLinks":[""]
-}
+﻿Jahr	Büros zu Wohnungen	(Dachstock-) Ausbauten	Saldo aus Zusammenlegungen/ Aufteilungen	Sonstige Umnutzungen	Zweckentfremdungen von Wohnungen	Umbausaldo
+2008	11	19	-64	22	-16	-28
+2009	34	6	-51	2	-10	-18
+2010	7	40	-64	18	-19	-18
+2011	17	37	-22	0	-14	18
+2012	34	21	-30	10	-7	28
+2013	4	32	-25	31	-6	35
+2014	110	72	-25	31	-8	180
+2015	7	63	-17	9	-37	25
+2016	26	56	-1	33	-8	106
+2017	8	60	-12	6	-8	54

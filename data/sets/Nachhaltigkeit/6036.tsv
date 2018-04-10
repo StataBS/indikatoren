@@ -1,29 +1,51 @@
-{"title":"Gini-Koeffizienten von Reineinkommen und Reinvermögen",
-"subtitle":"",
-"kuerzel":"I.18.2.06036",
-"kuerzelKunde":"GZ3",
-"description":"Gini-Koeffizienten von Reineinkommen und Reinvermögen",
-"id":6036,
-"thema":"18 Öffentliche Finanzen",
-"unterthema":"Steuern",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Einkommen","Arbeit","Erwerb"],
-"stufe1":"Bereich Gesellschaftlicher Zusammenhalt",
-"stufe2":"Chancengerechtigkeit",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Der Gini-Koeffizient des Reineinkommens nimmt im Zeitablauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich etwas konstanter auf höherem Niveau. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
-"erlaeuterungen":"",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"05_02_00_00_00_503",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Steuerstatistik Basel-Stadt"],
-"externalLinks":[""]
-}
+Jahr	Reineinkommen	Reinvermögen
+		
+1991	0.432	0.937
+		
+1992	0.428	0.866
+		
+1993	0.428	0.864
+		
+1994	0.426	0.869
+		
+1995	0.429	0.872
+		
+1996	0.443	0.891
+		
+1997	0.445	0.901
+		
+1998	0.455	0.91
+		
+1999	0.459	0.912
+		
+2000	0.466	
+		
+2001	0.46	0.912
+		
+2002	0.45	0.906
+		
+2003	0.455	0.911
+		
+2004	0.459	0.914
+		
+2005	0.471	0.925
+		
+2006	0.476	0.928
+		
+2007	0.482	0.927
+		
+2008	0.502	0.921
+		
+2009	0.5	0.923
+		
+2010	0.503	0.919
+		
+2011	0.494	0.913
+		
+2012	0.496	0.916
+		
+2013	0.505	0.926
+		
+2014	0.513	0.928
+		
+2015	0.512	0.920

@@ -1,29 +1,12 @@
-{"title":"Anteil Arbeitnehmende in Unternehmensleitung oder mit Vorgesetztenfunktion nach Geschlecht",
-"subtitle":"",
-"kuerzel":"I.03.2.06435",
-"kuerzelKunde":"GZ5",
-"description":"Anteil Arbeitnehmende in Unternehmensleitung oder mit Vorgesetztenfunktion nach Geschlecht",
-"id":6435,
-"thema":"03 Erwerbsleben",
-"unterthema":"Beschäftigte ",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Geschlecht","Arbeit","Erwerb","Beschäftigte"],
-"stufe1":"Bereich Gesellschaftlicher Zusammenhalt",
-"stufe2":"Chancengerechtigkeit",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2016 bei den Männern etwa 38%, bei den Frauen rund 27%.",
-"erlaeuterungen":"Die Ergebnisse basieren auf der Hochrechnung einer Stichprobenerhebung von rund 1&nbsp;500 in Basel-Stadt wohnhaften Personen. Bei der Interpretation der Ergebnisse muss die Unsicherheit von Stichprobenerhebungen berücksichtigt werden.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"05_02_00_00_00_505",
-"parentId":6148,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"],
-"externalLinks":[""]
-}
+﻿jahr	Männer	Frauen
+2006	38.2	25.8
+2007	37.3	26
+2008	44.3	29.2
+2009	42.5	28.8
+2010	35.9	23.4
+2011	35	22.7
+2012	39.3	20.9
+2013	38.6	28.4
+2014	37.8	23.7
+2015	37.1	26.4
+2016	37.7	26.6

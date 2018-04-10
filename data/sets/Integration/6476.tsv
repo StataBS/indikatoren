@@ -1,29 +1,12 @@
-{"title":"Mittlere Wohnfläche pro Person",
-"subtitle":"in m² nach Staatsangehörigkeit, Stand: 2016",
-"kuerzel":"I.09.1.06476",
-"kuerzelKunde":"D2-2",
-"description":"Mittlere Wohnfläche pro Person",
-"id":6476,
-"thema":"09 Bau-, Wohnungswesen",
-"unterthema":"Gebäude und Wohnungen",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Staatsangehörigkeit","Wohnen"],
-"stufe1":"Kapitel D Politik und Zusammenleben",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Differenziert nach Ländergruppen zeigt sich, dass die Schweizer mit 45,3 m2 die höchste mittlere Wohnfläche haben. Knapp dahinter befinden sich die Deutschen. Eine vergleichsweise tiefe Wohnfläche pro Person besitzen Personen aus dem Balkangebiet oder aus arabischen oder afrikanischen Ländern.",
-"erlaeuterungen":"Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"04_00_00_00_00_003",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
-"externalLinks":[""]
-}
+Staatsangehörigkeit	FlächeproPerson
+Schweiz	45.33018081
+Deutschland	43.1440069
+Italien	35.53107107
+Türkei	25.18731873
+EU-17 + EFTA	36.27620034
+EU-Ost	32.11055899
+Balkan	23.67234704
+Mittel- und Südamerika	31.71076327
+Arabische Länder	24.49706392
+Afrikanische Länder	24.87899228
+Übrige Länder	32.80828855

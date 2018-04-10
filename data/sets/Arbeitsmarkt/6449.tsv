@@ -1,29 +1,12 @@
-{"title":"Wertschöpfungsentwicklung im Dienstleistungssektor (III)",
-"subtitle":"Basel-Stadt, real, indexiert (Jahr 2007 = 100)",
-"kuerzel":"I.04.2.06449",
-"kuerzelKunde":"3.1-07",
-"description":"Wertschöpfungsentwicklung im Dienstleistungssektor (III)",
-"id":6449,
-"thema":"04 Volkswirtschaft",
-"unterthema":"Konjunktur",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Branche"],
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Bruttoinlandprodukt und Wertschöpfung",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Branchen Gesundheits- und Sozialwesen (+26,5%) sowie Öffentliche Verwaltung und Sozialversicherungen (+14,5%) verzeichneten seit 2007 einen Zuwachs der realen Wertschöpfung (gegenüber Vorjahr +2,5% sowie +0,6%). Einen Rückgang hingegen gab es in den Branchen Erziehung und Unterricht (-9,7%) sowie Kultur und Unterhaltung (-8,3%) seit 2007 (gegenüber Vorjahr +2,8% sowie -4,3%). Die staatlichen Bildungsinstitutionen sind in dieser Abbildung in der Öffentlichen Verwaltung, und nicht in der Branche Erziehung und Unterricht enthalten.",
-"erlaeuterungen":"Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_01_00_00_00_107",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["BAK Economics"],
-"externalLinks":[""]
-}
+﻿"Jahr"	"Öffentliche Verwaltung, Sozialversicherungen (inkl. staatl. Bildungsinstitutionen)"	"Erziehung, Unterricht"	"Gesundheits-, Sozialwesen"	"Kultur, Unterhaltung"
+2007	100.0	100.0	100.0	100.0
+2008	98.7	98.0	105.4	105.2
+2009	100.4	94.3	109.2	107.6
+2010	102.5	86.0	110.4	101.3
+2011	105.1	87.8	112.7	94.3
+2012	109.0	82.9	112.9	88.8
+2013	108.0	84.4	119.4	78.1
+2014	110.3	85.7	121.2	99.2
+2015	113.8	87.8	123.4	95.8
+2016	114.5	90.3	126.5	91.7
+

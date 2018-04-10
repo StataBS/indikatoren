@@ -1,30 +1,22 @@
-{"title":"Private Personenwagen pro Haushalt",
-"subtitle":"Stand: 2015",
-"kuerzel":"I.11.1.04918",
-"kuerzelKunde":"",
-"description":"Private Personenwagen pro Haushalt",
-"id":4918,
-"thema":"11 Verkehr",
-"unterthema":"Motorfahrzeuge",
-"kennzahlenset":"",
-"raeumlicheGliederung":["Wohnviertel","Gemeinde"],
-"aktualisierungsdatum":"",
-"schlagwort":["Haushalt","Familie","Quote","Auto"],
-"stufe1":"",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"In den beiden Landgemeinden besitzen die Haushalte im Schnitt am meisten Personenwagen, in der Kleinbasler Altstadt am wenigsten.",
-"erlaeuterungen":"",
-"template":"dotplot",
-"option":"options001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"_000",
-"parentId":null,
-"children":["5131","5829"],
-"renderLink":["5131","5829"],
-"quellenangabe":["Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"],
-"externalLinks":[""]
-}
+﻿Wohnviertel_Id	Personenwagen pro Haushalt	Rang	Wohnviertel	Jahr
+12	0.298363095238	1	Altstadt Kleinbasel 	2015
+17	0.34602294214	2	Matthäus 	2015
+6	0.373477132015	3	Gundeldingen 	2015
+9	0.409791723018	4	Gotthelf 	2015
+10	0.411931818181	5	Iselin 	2015
+11	0.41393758959	6	St. Johann 	2015
+2	0.424231464737	7	Vorstädte 	2015
+16	0.42765164351	8	Rosental 	2015
+1	0.429547395388	9	Altstadt Grossbasel	2015
+3	0.431914501566	10	Am Ring 	2015
+18	0.475461893764	11	Klybeck 	2015
+13	0.479378942261	12	Clara 	2015
+14	0.487170830519	13	Wettstein 	2015
+4	0.49317617866	14	Breite 	2015
+8	0.551899491474	15	Bachletten 	2015
+5	0.583408152271	16	St. Alban 	2015
+19	0.589465530596	17	Kleinhüningen 	2015
+15	0.613840340103	18	Hirzbrunnen 	2015
+7	0.745117676514	19	Bruderholz 	2015
+20	0.808407266582	20	Riehen 	2015
+30	1.087606837606	21	Bettingen	2015

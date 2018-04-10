@@ -1,30 +1,5 @@
-{"title":"Beschäftigtendichte",
-"subtitle":"Anzahl Beschäftigte pro Hektar",
-"kuerzel":"I.03.2.06254",
-"kuerzelKunde":"ST 7-2",
-"description":"Beschäftigtendichte",
-"id":6254,
-"thema":"03 Erwerbsleben",
-"unterthema":"Beschäftigte ",
-"kennzahlenset":"Richtplan (Print)",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2017-06-26T14:38:43.4343",
-"schlagwort":["Beschäftigte"],
-"stufe1":"Sachgebiet Siedlung - Wirtschaft",
-"stufe2":"Strategie 7: Raum für die Entwicklung der Wirtschaft",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Im Kanton Basel-Stadt arbeiteten 2014 rund 151 800 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von etwa 41 Beschäftigten pro Hektar. Dieser Wert lag 2011 noch bei 40 Beschäftigten.",
-"erlaeuterungen":"",
-"template":"line001_print",
-"option":"options001",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"02_04_00_00_00_000",
-"parentId":5823,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"],
-"externalLinks":[""]
-}
+﻿jahr	Beschäftigte pro ha	Anzahl Beschäftigte	Fläche Kanton in ha
+2011	39.973265	147729.5978359	3695.71
+2012	40.21803	148634.1781839	3695.71
+2013	40.798944	150781.0675498	3695.71
+2014	41.085212	151839.0317362	3695.71

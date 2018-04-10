@@ -1,29 +1,6 @@
-{"title":"Interesse an der Politik in Basel-Stadt",
-"subtitle":"«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?»",
-"kuerzel":"I.50.1.04872",
-"kuerzelKunde":"3.3.03.A",
-"description":"Interesse an der Politik in Basel-Stadt",
-"id":4872,
-"thema":"50 Befragungen",
-"unterthema":"Bevölkerungsbefragung",
-"kennzahlenset":"Gesellschaftlicher-Zusammenhalt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Verwaltung","Grosser Rat","Beurteilung"],
-"stufe1":"Kernbereich 3: Gemeinwohlorientierung",
-"stufe2":"3.3 Gesellschaftliche Teilhabe",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"29,6% der befragten Personen interessierten sich 2015 sehr stark für die Politik im Kanton Basel-Stadt. Das sind 1,4 Prozentpunkte mehr als 2011 und auch mehr als in den vergangenen Befragungen seit 2003.",
-"erlaeuterungen":"",
-"template":"befragungenProzent001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_03_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F20"],
-"externalLinks":[""]
-}
+Antworten,Sehr stark,Eher stark,Eher nicht,Gar nicht,Weiss nicht / keine Angabe
+2003 (N=1497),21.9,39.1,24.7,14.2,0
+2005 (N=1510),26.1,42.1,21.5,10.3,0
+2007 (N=1509),23.7,40,23.5,12.9,0
+2011 (N=1516),28.2,40.8,23,7.8,0.3
+2015 (N=1506),29.6,43,20.8,6.2,0.5

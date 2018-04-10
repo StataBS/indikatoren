@@ -1,29 +1,8 @@
-{"title":"Verhältnis der Löhne von Frauen und Männern",
-"subtitle":"in der Nordwestschweiz",
-"kuerzel":"I.03.3.06037",
-"kuerzelKunde":"GZ4",
-"description":"Verhältnis der Löhne von Frauen und Männern",
-"id":6037,
-"thema":"03 Erwerbsleben",
-"unterthema":"Löhne ",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Geschlecht","Arbeit","Erwerb","Löhne"],
-"stufe1":"Bereich Gesellschaftlicher Zusammenhalt",
-"stufe2":"Chancengerechtigkeit",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"In der Nordwestschweiz erreichen die Löhne der Frauen seit Jahren im Durchschnitt rund 80% der Löhne der Männer. Dieses Verhältnis nahm von rund 83% im Jahr 2012 auf rund 86% im Jahr 2014 zu.",
-"erlaeuterungen":"Grundlage ist der Median des monatlichen Bruttolohns, standardisiert, im privaten Sektor (ohne Landwirtschaft).",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"05_02_00_00_00_504",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"],
-"externalLinks":[""]
-}
+﻿Jahr	Verhältnis der Löhne von Frauen und Männern	Frauen Bruttolohn	Männer Bruttolohn
+2002	0.792556742323097	4749	5992
+2004	0.799902072792558	4901	6127
+2006	0.812689303363622	5098	6273
+2008	0.815384615384615	5300	6500
+2010	0.8228631833283	5449	6622
+2012	0.827756764620308	5690	6874
+2014	0.855968286595214	5830	6811

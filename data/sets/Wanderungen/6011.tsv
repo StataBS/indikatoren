@@ -1,29 +1,11 @@
-{"title":"Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
-"subtitle":"",
-"kuerzel":"I.01.5.06011",
-"kuerzelKunde":"1-1",
-"description":"Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
-"id":6011,
-"thema":"01 Bevölkerung",
-"unterthema":"Wanderungen",
-"kennzahlenset":"Wanderungen",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Bevölkerung","Ausland","Migration","Staatsangehörigkeit","Wanderung"],
-"stufe1":"",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"2016 zogen 14 849 Personen neu in den Kanton Basel-Stadt. In den letzten zehn Jahren wurden lediglich 2013 mit 15 236 Personen mehr Neuzuzüger registriert. Bei den Weggezogenen wurde 2016 mit 13 947 Personen der Zehnjahresrekord erreicht. Der Wanderunggsaldo fällt seit dem Jahr 2007 stets positiv aus.",
-"erlaeuterungen":"",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"_001",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
-}
+Jahr	Zuzugsort: unbekannt	Zuzugsort: Ausland	Zuzugsort: übrige Schweiz	Zuzugsort: Schweizer Agglo BS	Wegzugsort: unbekannt	Wegzugsort: Ausland	Wegzugsort: übrige Schweiz	Wegzugsort: Schweizer Agglo BS	 Saldo
+2007	132	6965	2929	2666	-897	-3941	-3114	-4181	559
+2008	155	7789	3238	2987	-1160	-3866	-3057	-4052	2034
+2009	189	7432	3049	2802	-1023	-3844	-2915	-4024	1666
+2010	179	7482	3082	2846	-2599	-4077	-2912	-3738	263
+2011	178	8016	3135	2996	-1406	-4331	-2837	-4083	1668
+2012	215	7994	3003	2967	-1525	-4286	-2774	-3856	1738
+2013	99	8953	3223	2961	-1600	-4687	-2901	-4149	1899
+2014	17	7872	2936	2695	-1215	-4604	-2859	-4049	793
+2015	44	8027	3199	3009	-1372	-4933	-3001	-4261	712
+2016	31	8291	3426	3101	-1425	-5004	-3035	-4483	902

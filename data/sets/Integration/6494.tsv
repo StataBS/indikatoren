@@ -1,29 +1,12 @@
-{"title":"Anerkannte Religionen nach Staatsangehörigkeit",
-"subtitle":"Stand: 2016",
-"kuerzel":"I.01.7.06494",
-"kuerzelKunde":"D7-2",
-"description":"Anerkannte Religionen nach Staatsangehörigkeit",
-"id":6494,
-"thema":"01 Bevölkerung",
-"unterthema":"Religionen",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Religion","Staatsangehörigkeit"],
-"stufe1":"Kapitel D Politik und Zusammenleben",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Im Vergleich zu 2006 fällt auf, dass bei Personen aus den Ländern EU-17 + EFTA, EU-Ost sowie aus Mittel- und Südamerika die Anteile der Römisch-Katholiken stark abgenommen haben. Bei Personen aus afrikanischen Ländern ist der Anteil der Angehörigen anderer Religionsgemeinschaften nochmals gewachsen, nämlich von 35,2% auf 56,2%. Der Anteil der Personen ohne religiöse Zugehörigkeit ist generell höher geworden, insbesondere bei Deutschen und bei Personen aus den Ländergruppen EU-17 + EFTA sowie EU-Ost.",
-"erlaeuterungen":"Seit 2015 weist das Statistische Amt aus Datenschutzgründen nur noch die öffentlich-rechtlich anerkannten Religionen aus. Um die Indikatoren mit Indikator D7-1 und D7-2 vergleichen zu können, werden in beiden nur die öffentlich-rechtlich anerkannten Religionen ausgewiesen.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"04_00_00_00_00_021",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
-}
+Staatsangehörigkeit	 Evangelisch-reformiert	 Römisch-katholisch	 Christkatholisch	 Israelitisch	 Andere	 Keine Zugehörigkeit	 Unbekannt
+Schweiz	20.9	15.5	0.4	0.5	11.6	46.2	4.8
+Deutschland	12.0	15.6	0.3	0.3	10.9	59.2	1.7
+Italien	0.4	21.1	0.8	0.1	5.5	67.0	5.2
+Türkei	0.1	0.0	0.0	0.0	90.9	7.0	1.9
+EU-17 + EFTA	1.3	9.6	0.4	0.3	8.6	75.3	4.6
+EU-Ost	1.9	15.2	1.1	0.2	18.3	60.1	3.1
+Balkan	0.1	5.8	0.1	0.0	76.4	11.9	5.8
+Mittel- und Südamerika	2.2	19.6	0.6	0.0	8.0	65.1	4.4
+Arabische Länder	0.1	0.4	0.1	0.1	84.0	7.8	7.5
+Afrikanische Länder	3.6	11.2	0.4	0.0	56.2	21.3	7.3
+Übrige Länder	1.0	4.2	0.1	0.8	51.4	40.2	2.3

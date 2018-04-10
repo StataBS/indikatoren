@@ -1,29 +1,17 @@
-{"title":"Tätigkeiten mit gentechnisch veränderten und pathogenen Organismen",
-"subtitle":"Anzahl Meldungen",
-"kuerzel":"I.02.9.04265",
-"kuerzelKunde":"0402",
-"description":"Tätigkeiten mit gentechnisch veränderten und pathogenen Organismen",
-"id":4265,
-"thema":"02 Raum, Umwelt",
-"unterthema":"Biotechnologie",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Biotechnologie"],
-"stufe1":"Thema Biotechnologie",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0402' target='_blank'>Umweltbericht beider Basel</a>.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"04_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Kantonales Laboratorium Basel-Stadt"],
-"externalLinks":["<a href = 'https://www.admin.ch/opc/de/classified-compilation/20100803/201506010000/814.912.pdf' target = '_blank'>Einschliessungsverordnung (ESV)</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0402' target = '_blank'>Umweltbericht beider Basel</a>"]
-}
+"Jahr"	"Klasse 1: Kein oder vernachlässigbar kleines Risiko"	"Klasse 2: Geringes Risiko"	"Klasse 3: Mässiges Risiko"	"Tätigkeiten insgesamt"
+2001				74
+2002				190
+2003				264
+2004				287
+2005				318
+2006				327
+2007				356
+2008				380
+2009				421
+2010	224	214	9	
+2011	233	241	8	
+2012	200	249	10	
+2013	68	278	10	
+2014	68	311	10	
+2015	72	325	12	
+2016	68	340	13	

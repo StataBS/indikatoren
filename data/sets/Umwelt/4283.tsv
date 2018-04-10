@@ -1,29 +1,9 @@
-{"title":"Nutzungsdruck",
-"subtitle":"Anzahl bewilligte Gesuche",
-"kuerzel":"I.07.1.04283",
-"kuerzelKunde":"1508",
-"description":"Nutzungsdruck",
-"id":4283,
-"thema":"07 Landwirtschaft",
-"unterthema":"Landwirtschaft",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Wald"],
-"stufe1":"Thema Wald",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1508' target='_blank'>Umweltbericht beider Basel</a>.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"15_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Amt für Wald beider Basel"],
-"externalLinks":["Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1508' target = '_blank'>Umweltbericht beider Basel</a>"]
-}
+"Jahr"	"Bewilligte Veranstaltungen"	"Bewilligte Rodungsgesuche"
+2008	14	8
+2009	23	12
+2010	20	9
+2011	20	10
+2012	26	11
+2013	23	5
+2014	20	13
+2015	15	11

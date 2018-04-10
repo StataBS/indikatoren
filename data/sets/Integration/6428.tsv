@@ -1,29 +1,15 @@
-{"title":"Pyramide der Sozialhilfequote der Ausländer",
-"subtitle":"nach Geschlecht, Stand: 2016",
-"kuerzel":"I.13.3.06428",
-"kuerzelKunde":"C4-3",
-"description":"Pyramide der Sozialhilfequote der Ausländer",
-"id":6428,
-"thema":"13 Soziale Sicherheit",
-"unterthema":"Sozialhilfe und Notwohnen",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Geschlecht","Ausländer","Bevölkerung","Sozialhilfe"],
-"stufe1":"Kapitel C Erwerb und Auskommen",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die höchste Sozialhilfequote betrifft Personen unter 20 Jahren. Männer weisen in fast allen Altersgruppen eine höhere Sozialhilfequote auf als Frauen. Im Alter von 5 bis 9 sowie 35 bis 44 ist die Quote der weiblichen ausländischen Bevölkerung jedoch höher als jene der männlichen. Im Alter 55 bis 59 und 20 bis 24 ist sowohl bei Männern als auch Frauen ein erhöhtes Sozialhilferisiko zu beobachten.",
-"erlaeuterungen":"Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Seit Anfang 2012 beruhen die Zahlen ab 2001 auf den Daten, welche die Sozialhilfe Basel im Jahr 2011 für das Management Information System (MIS) des WSU bereinigt und aufbereitet hat. Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Ab 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt.",
-"template":"populationPyramid001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_00_00_00_00_022",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Sozialhilfestatistik"],
-"externalLinks":[""]
-}
+Alter	Männer	Frauen
+0-4	18.76010782	16.45997745
+5-9	18.21705426	19.05080214
+10-14	21.80634662	21.08540925
+15-19	27.04296546	19.05642923
+20-24	17.33247423	13.53904282
+25-29	9.347553325	9.02189781
+30-34	8.691522204	8.179048512
+35-39	8.672861568	9.174782163
+40-44	9.968032549	10.65923254
+45-49	10.65658302	10.60056429
+50-54	10.0038625	9.002770083
+55-59	13.124035	10.25815217
+60-64	9.471516815	3.904170364
+65-69	0.550314465	1.02258202

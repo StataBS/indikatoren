@@ -1,29 +1,15 @@
-{"title":"Anzahl angestellte Ausländer in der kantonalen Verwaltung",
-"subtitle":"nach Kaderstufe",
-"kuerzel":"I.18.3.06420",
-"kuerzelKunde":"C3-2",
-"description":"Anzahl angestellte Ausländer in der kantonalen Verwaltung",
-"id":6420,
-"thema":"18 Öffentliche Finanzen",
-"unterthema":"Staatspersonal",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Ausländer","Angestellte","Verwaltung"],
-"stufe1":"Kapitel C Erwerb und Auskommen",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"In absoluten Zahlen betrachtet stagniert die Anzahl ausländischer Staatsangestellter mit Wohnsitz Basel-Stadt. Zudem fallen über 90% der ausländischen Staatsangestellten mit Wohnsitz Basel-Stadt in die Kategorie «Ohne Kaderfunktion». Die Zahl ausländischer Staatsangestellter mit Kaderfunktion ist im Beobachtungszeitraum gestiegen.",
-"erlaeuterungen":"Der Indikator zeigt das ausländische Staatspersonal mit Wohnsitz Basel-Stadt. Definition Staatspersonal auf Basis des ordentlichen Bestandes (sog. Headcount). Ausgewertet nach Kaderstufe. In die Auswertung fliessen nur Angaben der Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler) ein.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_00_00_00_00_014",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Finanzdepartement Basel-Stadt, Zentraler Personaldienst"],
-"externalLinks":[""]
-}
+Jahr	 Ohne Kaderfunktion	 Unteres Fachkader	 Unteres Kader	 Mittleres Fachkader	 Mittleres Kader	 Oberes Kader	Total
+2003	658	6	12	7	10	2	695
+2004	641	7	12	6	9	5	680
+2005	589	6	12	7	11	6	631
+2006	583	4	13	8	11	5	624
+2007	553	7	11	6	12	5	594
+2008	577	7	12	6	16	6	624
+2009	619	6	12	7	17	6	667
+2010	625	5	13	8	15	6	672
+2011	626	8	13	11	18	5	681
+2012	641	9	15	11	19	6	701
+2013	597	13	18	7	20	6	661
+2014	613	14	17	10	15	6	675
+2015	632	12	21	12	15	5	697
+2016	674	7	24	12	13	5	735

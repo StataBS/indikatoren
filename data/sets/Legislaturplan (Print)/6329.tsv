@@ -1,29 +1,12 @@
-{"title":"Zahlfälle der Sozialhilfe nach Bezugsdauer",
-"subtitle":"",
-"kuerzel":"I.13.2.06329",
-"kuerzelKunde":"11.4",
-"description":"Zahlfälle der Sozialhilfe nach Bezugsdauer",
-"id":6329,
-"thema":"13 Soziale Sicherheit",
-"unterthema":"Sozialleistungen",
-"kennzahlenset":"Legislaturplan (Print)",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Einkommen"],
-"stufe1":"Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Der Anteil Zahlfälle mit einer Bezugsdauer von mehr als 36 Monaten lag 2016 bei 47%. Seit 2011 hat sich dieser stetig erhöht.",
-"erlaeuterungen":"Nur Stadt Basel, ohne Riehen und Bettingen. Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
-"template":"template001_print",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"11_00_00_00_00_000",
-"parentId":6183,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Sozialhilfestatistik","Departement für Wirtschaft, Soziales und Umwelt"],
-"externalLinks":[""]
-}
+Jahr	Bis 3 Monate	4 bis 12 Monate	13 bis 36 Monate	Über 36 Monate
+2006	498	1049	1948	2092
+2007	452	862	1527	2199
+2008	460	818	1273	2158
+2009	516	943	1235	2078
+2010	474	913	1399	2052
+2011	501	1088	1479	2059
+2012	485	1020	1597	2164
+2013	534	948	1573	2279
+2014	462	884	1521	2381
+2015	527	1001	1477	2509
+2016	371	1118	1710	2840

@@ -1,30 +1,22 @@
-{"title":"Privater Motorisierungsgrad",
-"subtitle":"Private Personenwagen pro 1000 Einwohner 2015",
-"kuerzel":"I.11.1.05130",
-"kuerzelKunde":"",
-"description":"Privater Motorisierungsgrad",
-"id":5130,
-"thema":"11 Verkehr",
-"unterthema":"Motorfahrzeuge",
-"kennzahlenset":"",
-"raeumlicheGliederung":["Wohnviertel","Gemeinde"],
-"aktualisierungsdatum":"",
-"schlagwort":["Quote","Bevölkerung","Auto"],
-"stufe1":"",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Der Motorisierungsgrad zeigt die Anzahl privater Personenwagen auf 1000 Einwohner.",
-"template":"map001",
-"option":"options001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"_000",
-"parentId":4917,
-"children":[],
-"renderLink":["4917"],
-"quellenangabe":["Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"],
-"externalLinks":["Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=11_fahrzeuge.11_motorisierungsgrad' target='_blank'>Basler Atlas</a>."]
-}
+﻿Wohnviertel_Id	Motorisierungsgrad	Rang	Wohnviertel	Jahr
+12	164.681724845996	1	Altstadt Kleinbasel 	2015
+17	169.737818451645	2	Matthäus 	2015
+6	198.3032873807	3	Gundeldingen 	2015
+11	199.574694311536	4	St. Johann 	2015
+1	203.643724696356	5	Altstadt Grossbasel	2015
+16	204.438684594201	6	Rosental 	2015
+10	218.478784956606	7	Iselin 	2015
+3	220.259349746288	8	Am Ring 	2015
+9	221.458851045169	9	Gotthelf 	2015
+18	226.205191594561	10	Klybeck 	2015
+2	237.834549878345	11	Vorstädte 	2015
+13	245.222139488707	12	Clara 	2015
+14	257.356875334403	13	Wettstein 	2015
+19	262.413793103448	14	Kleinhüningen 	2015
+4	269.552441229656	15	Breite 	2015
+8	272.10382715139	16	Bachletten 	2015
+15	288.649489115948	17	Hirzbrunnen 	2015
+5	297.827481895682	18	St. Alban 	2015
+7	328.295642581357	19	Bruderholz 	2015
+20	366.764099861038	20	Riehen 	2015
+30	422.757475083056	21	Bettingen	2015

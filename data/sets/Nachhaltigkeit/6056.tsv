@@ -1,29 +1,8 @@
-{"title":"Anteil Voll- und Teilzeiterwerbstätige nach Geschlecht",
-"subtitle":"",
-"kuerzel":"I.03.1.06056",
-"kuerzelKunde":"WE12",
-"description":"Anteil Voll- und Teilzeiterwerbstätige nach Geschlecht",
-"id":6056,
-"thema":"03 Erwerbsleben",
-"unterthema":"Erwerbspersonen ",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-02-07T00:00:00.000",
-"schlagwort":["Geschlecht","Bevölkerung","Arbeit","Erwerbstätigkeit"],
-"stufe1":"Bereich Wirtschaftliche Entfaltung",
-"stufe2":"Erwerbsarbeit",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Rund 20% der erwerbstätigen Männer gingen 2016 einer Teilzeitbeschäftigung nach; 1970 waren es noch 4%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2016 bei 52%.",
-"erlaeuterungen":"Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Grundgesamtheit umfasst alle Personen der ständigen Wohnbevölkerung am Hauptwohnsitz ab vollendetem 15. Altersjahr, die in Privathaushalten leben, ohne Diplomaten, internationale Funktionäre und deren Angehörige.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"06_02_00_00_00_612",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Volkszählung (bis 2000) und Strukturerhebung (ab 2010)"],
-"externalLinks":[""]
-}
+﻿"Jahr"	"Vollzeit Männer"	"Teilzeit Männer"	"Vollzeit Frauen"	"Teilzeit Frauen"	"Vollzeit Total"	"Teilzeit Total"
+1970	67396	3171	31316	12983	98712	16154
+1980	54683	2972	26817	12499	81500	15471
+1990	51149	4367	22780	17192	73929	21559
+2000	38602	6235	19585	18767	58187	25002
+2010	37690	7849	21125	20593	58814	28442
+2016	40022	9831	22274	24510	62296	34341
+

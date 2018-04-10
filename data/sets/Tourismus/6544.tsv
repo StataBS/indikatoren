@@ -1,29 +1,13 @@
-{"title":"Aufenthaltsdauer im Monatsmittel",
-"subtitle":"in Tagen, Stand: 2017",
-"kuerzel":"I.10.1.06544",
-"kuerzelKunde":"2-8",
-"description":"Aufenthaltsdauer im Monatsmittel",
-"id":6544,
-"thema":"10 Tourismus",
-"unterthema":"Hotellerie",
-"kennzahlenset":"Tourismus",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Ausländer","Übernachtung","Gäste","Hotelbetten"],
-"stufe1":"",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Bei den ausländischen Gästen wurde im August mit 1,81 Tagen die kürzeste Aufenthaltsdauer verzeichnet, bei den Schweizer Gästen im Dezember mit einer durchschnittlichen Aufenthaltsdauer von 1,47 Tagen.",
-"erlaeuterungen":"",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"_008",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Tourismusstatistik"],
-"externalLinks":[""]
-}
+Monat 2017	Inland	Ausland
+Jan 17	1.55341127	1.960060379
+Feb 17	1.601740656	2.011048117
+Mrz 17	2.038599159	2.407340171
+Apr 17	1.509915534	1.91702465
+Mai 17	1.644050504	2.015095598
+Jun 17	1.62282648	2.097305982
+Jul 17	1.540796345	1.852406933
+Aug 17	1.691800443	1.808676283
+Sep 17	1.580443181	1.922955642
+Okt 17	1.526296726	1.949786636
+Nov 17	1.650750895	1.985580544
+Dez 17	1.472958864	1.869166508
