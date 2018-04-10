@@ -1,29 +1,13 @@
-{"title":"Durchschnittliche Betriebsgrösse",
-"subtitle":"Zimmer pro Betrieb",
-"kuerzel":"I.10.1.06538",
-"kuerzelKunde":"2-2",
-"description":"Durchschnittliche Betriebsgrösse",
-"id":6538,
-"thema":"10 Tourismus",
-"unterthema":"Hotellerie",
-"kennzahlenset":"Tourismus",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Übernachtung","Gäste","Hotelbetten"],
-"stufe1":"",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Nach Hotelkategorie betrachtet fallen im Jahr 2017 durchschnittlich 97 Zimmer auf die Betriebe mit 4- oder 5-Sternen, 62 auf die 3-Sterne-Hotels, 74 Zimmer auf 1- und 2-Sterne-Hotels sowie 29 Zimmer auf die nicht klassierten Kategorien. Im selben Zeitraum gibt es im Total 67 Zimmer pro Betrieb.",
-"erlaeuterungen":"Als durchschnittliche Betriebsgrösse wird die Anzahl Zimmer je Betrieb bezeichnet.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"_002",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Tourismusstatistik"],
-"externalLinks":[""]
-}
+Jahr	 1- und 2-Sterne	 3-Sterne	 4- und 5-Sterne	 Nicht klassiert	 Total
+2008	44.76971116	47.83333333	115.960968	16.0941105	53.56405586
+2009	47.20136986	48.52107482	116.2547945	15.77727639	54.38368809
+2010	51.65958904	51.19279554	109.7727854	16.08122482	55.45454917
+2011	51.77089041	51.88310502	112.550137	17.40924658	57.30016604
+2012	47.05191257	53.51954603	111.8100182	12.38041194	57.48828448
+2013	50.90361146	53.00854795	107.4643836	11.65753425	58.50740582
+2014	55.1633873	53.56591781	99.80608828	12.78547945	60.47358733
+2015	65.97708593	54.73380822	101.3768645	15.0859589	65.15426425
+2016	71.89972678	55.81799075	95.48542805	20.20846995	63.92324112
+2017	73.64876712	62.41896733	97.16518936	28.84794521	67.03637513
+Ø 2008-2017	56.00460516	53.24950868	106.7646657	16.6327658	59.32856173
+

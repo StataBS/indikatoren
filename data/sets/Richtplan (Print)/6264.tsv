@@ -1,30 +1,7 @@
-{"title":"Indexierter Verlauf der Haushalte in Begegnungszonen",
-"subtitle":"",
-"kuerzel":"I.01.2.06264",
-"kuerzelKunde":"ST 5-4",
-"description":"Indexierter Verlauf der Haushalte in Begegnungszonen",
-"id":6264,
-"thema":"01 Bevölkerung",
-"unterthema":"Haushalte",
-"kennzahlenset":"Richtplan (Print)",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Haushalt"],
-"stufe1":"Sachgebiet Siedlung - Wohnen",
-"stufe2":"Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2016 prozentual stärker angestiegen als das Total der Privathaushalte in der Stadt Basel. Ende 2016 gibt es 6 954 Privathaushalte in Begegnungszonen.",
-"erlaeuterungen":"",
-"template":"line001_print",
-"option":"options001",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"01_02_00_00_00_000",
-"parentId":6220,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Planungsamt Basel-Stadt"],
-"externalLinks":[""]
-}
+Jahr	Haushalte in Begegnungszonen	Haushalte in der Stadt Basel
+2011	100	100
+2012	100.397878	101.0660224
+2013	101.0462717	101.6259418
+2014	101.6357206	101.36373
+2015	101.8567639	101.0694575
+2016	102.4756852	101.3305242

@@ -1,29 +1,18 @@
-{"title":"Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
-"subtitle":"2007 - 2016 zusammengefasst",
-"kuerzel":"I.01.5.06019",
-"kuerzelKunde":"1-9",
-"description":"Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
-"id":6019,
-"thema":"01 Bevölkerung",
-"unterthema":"Wanderungen",
-"kennzahlenset":"Wanderungen",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Ausländer","Alter","Bevölkerung","Migration","Wanderung"],
-"stufe1":"",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Bei den aus dem Ausland Zu- bzw. Weggezogenen ergeben sich für alle Fünfjahresklassen zwischen 0 und 59 Jahren Wanderungsgewinne. In den Altersgruppen der 60-Jährigen und Älteren überstieg hingegen die Zahl der Wegzüger jene der Zuzüger.",
-"erlaeuterungen":"",
-"template":"populationPyramid001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"_009",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
-}
+Alter	 Weggezogene	 Zugezogene	 Saldo
+0-4	2731	3881	1150
+5-9	1603	2568	965
+10-14	914	1884	970
+15-19	1001	2514	1513
+20-24	3677	9797	6120
+25-29	7790	17811	10021
+30-34	7691	13862	6171
+35-39	5538	9196	3658
+40-44	3539	6337	2798
+45-49	2543	4565	2022
+50-54	1962	2931	969
+55-59	1448	1666	218
+60-64	1313	827	-486
+65-69	959	427	-532
+70-74	388	219	-169
+75-79	216	170	-46
+>79	252	167	-85

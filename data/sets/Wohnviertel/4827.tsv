@@ -1,29 +1,22 @@
-{"title":"Altersquotient",
-"subtitle":"Stand: 2017",
-"kuerzel":"I.01.1.04827",
-"kuerzelKunde":"GS-6.A",
-"description":"Altersquotient",
-"id":4827,
-"thema":"01 Bevölkerung",
-"unterthema":"Bestand und Struktur ",
-"kennzahlenset":"Wohnviertel",
-"raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2018-02-20T17:35:44.4444",
-"schlagwort":["Alter","Alter"],
-"stufe1":"Bereich 1: Gesellschaft und Soziales",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Der Altersquotient ist im Wohnviertel Rosental am geringsten, im Wohnviertel Riehen am höchsten.",
-"erlaeuterungen":"Anteil der über 64-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_011",
-"parentId":null,
-"children":["5114"],
-"renderLink":["5114"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
-}
+﻿wohnviertel_id	Altersquotient	Rang	wohnviertel	jahr_num
+16	0.1244444444	1	Rosental	2017
+17	0.1771840394	2	Matthäus	2017
+18	0.2034212696	3	Klybeck	2017
+6	0.219809322	4	Gundeldingen	2017
+11	0.2299215096	5	St. Johann	2017
+10	0.2522425547	6	Iselin	2017
+12	0.2743055556	7	Altstadt Kleinbasel	2017
+1	0.2812328013	8	Altstadt Grossbasel	2017
+19	0.285391991	9	Kleinhüningen	2017
+14	0.2948402948	10	Wettstein	2017
+13	0.3210332103	11	Clara	2017
+4	0.3408931083	12	Breite	2017
+3	0.3426260292	13	Am Ring	2017
+9	0.3449315704	14	Gotthelf	2017
+2	0.3685828466	15	Vorstädte	2017
+8	0.3699692308	16	Bachletten	2017
+30	0.4144927536	17	Bettingen	2017
+7	0.4217833399	18	Bruderholz	2017
+15	0.422836584	19	Hirzbrunnen	2017
+5	0.4655742871	20	St. Alban	2017
+20	0.4815329799	21	Riehen	2017

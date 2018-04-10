@@ -1,29 +1,23 @@
-{"title":"Motorfahrzeuge",
-"subtitle":"Anzahl Motorfahrzeuge; Anzahl Personenwagen pro 1000 Einwohner",
-"kuerzel":"I.11.1.04325",
-"kuerzelKunde":"1704",
-"description":"Motorfahrzeuge",
-"id":4325,
-"thema":"11 Verkehr",
-"unterthema":"Motorfahrzeuge",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Energie","Biodiversität","Klima","Landschaft","Luft","Wald"],
-"stufe1":"Thema Querschnittsindikatoren",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Der Motorfahrzeugbestand entspricht der Anzahl an verkehrsberechtigten Motorfahrzeugen, der Motorisierungsgrad der Anzahl Personenwagen pro 1000 Einwohner.<br><br>Die Daten basieren auf der Auswertung (Stichtag) der durch die Motorfahrzeugkontrolle zugelassenen Fahrzeuge. Der Motorfahrzeugbestand (linke Skala) umfasst die folgenden Fahrzeugkategorien:<br>- Personenwagen<br>- Lieferwagen<br>- Lastwagen<br>- Sattelschlepper<br>- Car, Autobus, Kleinbus<br>- Motorräder<br>- Übrige: Arbeitsmaschinen, Industrietraktoren etc.<br><br>Zur Berechnung des Motorisierungsgrades (rechte Skala) werden hingegen nur Personenwagen berücksichtigt. ",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"17_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt"],
-"externalLinks":["<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1704' target = '_blank'>Umweltbericht beider Basel</a>"]
-}
+"Jahr"	"Motorfahrzeugbestand"	"Motorisierungsgrad (rechte Skala)"
+1995	71774	298.9
+1996	71621	299.4
+1997	71277	299.9
+1998	72401	306.6
+1999	73176	311.3
+2000	73430	315.7
+2001	73851	318.9
+2002	73748	317.6
+2003	73903	314.9
+2004	78738	331.6
+2005	78326	329.5
+2006	77930	327.5
+2007	77788	325.6
+2008	77695	322.8
+2009	77523	319.1
+2010	78123	319.3
+2011	78827	320.8
+2012	79996	325
+2013	79824	320.2
+2014	80306	319.4
+2015	80258	316.6
+2016	81865	320

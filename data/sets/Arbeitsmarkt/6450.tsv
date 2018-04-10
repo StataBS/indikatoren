@@ -1,29 +1,42 @@
-{"title":"Grenzgänger im Dienstleistungssektor (II)",
-"subtitle":"Bestand Ende Quartal, Basel-Stadt",
-"kuerzel":"I.03.5.06450",
-"kuerzelKunde":"3.4-07",
-"description":"Grenzgänger im Dienstleistungssektor (II)",
-"id":6450,
-"thema":"03 Erwerbsleben",
-"unterthema":"Ausländische Erwerbstätige",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Bewilligung","Arbeit","Erwerbstätigkeit","Branche"],
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Ausländische Erwerbstätige",
-"stufe3":"Grenzgänger",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Branche Beratung, Planung, Forschung und Immobilien verzeichnet den grössten Anstieg der Grenzgängerzahl in den letzten zehn Jahren. Im 4. Quartal 2017 liegt sie bei 6 385 Personen. Gegenüber 2007 hat sich die Zahl fast verdreifacht. Im Vergleich zu 2016 beträgt das Plus 8,1%. Auch in der Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen ist die Anzahl Grenzgänger seit 2007 stark gestiegen. Aktuell beträgt sie 2 350 Personen (+9,3% gegenüber Vorjahr). Ein ähnliches langfristiges Bild zeigt die Branche Personalvermittlung und -überlassung (2 232 Personen), mit einem Anstieg um 4,4% gegenüber dem Vorjahr.",
-"erlaeuterungen":"Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_04_01_00_00_407",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"],
-"externalLinks":[""]
-}
+﻿""	"Finanz-, Versicherungs-DL"	"Beratung, Planung, Forschung, Immobilien"	"Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL"	"Personalvermittlung, -überlassung"
+"2008-1"	1053	2429	962	1086
+"2008-2"	1068	2465	986	1201
+"2008-3"	1072	2404	961	1192
+"2008-4"	1049	2413	962	1125
+"2009-1"	1050	2509	1009	1090
+"2009-2"	1062	2591	1028	1145
+"2009-3"	1066	2609	1100	1148
+"2009-4"	1074	2671	1085	1218
+"2010-1"	1093	2801	1070	1274
+"2010-2"	1093	2967	1156	1387
+"2010-3"	1095	3010	1168	1460
+"2010-4"	1146	2906	1115	1503
+"2011-1"	1149	2992	1111	1404
+"2011-2"	1142	3064	1221	1560
+"2011-3"	1164	3237	1202	1698
+"2011-4"	1161	3323	1279	1554
+"2012-1"	1169	3386	1294	1436
+"2012-2"	1167	3619	1348	1722
+"2012-3"	1189	3762	1478	1907
+"2012-4"	1220	3898	1481	1768
+"2013-1"	1239	4242	1524	1698
+"2013-2"	1236	4353	1607	1961
+"2013-3"	1237	4464	1613	2131
+"2013-4"	1239	4390	1659	2008
+"2014-1"	1226	4398	1652	1942
+"2014-2"	1224	4577	1716	2182
+"2014-3"	1237	4729	1803	2235
+"2014-4"	1236	4825	1797	2036
+"2015-1"	1253	4888	1753	1996
+"2015-2"	1186	5138	1878	2160
+"2015-3"	1108	5279	1990	2218
+"2015-4"	1105	5294	2035	1902
+"2016-1"	1039	5553	2068	2119
+"2016-2"	1030	5720	2127	2159
+"2016-3"	1019	5752	2118	2207
+"2016-4"	1014	5905	2149	2137
+"2017-1"	1023	6006	2127	2096
+"2017-2"	994	6061	2196	2104
+"2017-3"	931	6207	2386	2181
+"2017-4"	897	6385	2350	2232
+

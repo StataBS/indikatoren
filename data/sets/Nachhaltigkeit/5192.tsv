@@ -1,29 +1,6 @@
-{"title":"Besuchte Weiterbildungen und Kurse in den letzten zwölf Monaten",
-"subtitle":"«Haben Sie in den letzten 12 Monaten eine Veranstaltung oder einen Kurs besucht oder machen Sie zurzeit eine Weiterbildung?»",
-"kuerzel":"I.50.1.05192",
-"kuerzelKunde":"GW14",
-"description":"Besuchte Weiterbildungen und Kurse in den letzten zwölf Monaten",
-"id":5192,
-"thema":"50 Befragungen",
-"unterthema":"Bevölkerungsbefragung",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Bildung"],
-"stufe1":"Bereich Grundbedürfnisse und Wohlergehen",
-"stufe2":"Bildung",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"22,4% der Befragten gaben 2015 an, innerhalb der letzten zwölf Monate einen Weiterbildungskurs besucht zu haben, 14,1% haben mehrere Kurse besucht. 63,3% gaben 2015 an, keinen Kurs besucht zu haben. 2003 lag dieser Wert bei 54,1%.",
-"erlaeuterungen":"",
-"template":"befragungen001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_05_00_00_00_314",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, Frage F15"],
-"externalLinks":[""]
-}
+Jahr	 Eine(n)	 Mehrere	 Keine	 Weiss nicht/Keine Angabe
+2003	259	428	810	0
+2005	326	292	892	0
+2007	325	237	947	0
+2011	310	249	956	1
+2015	338	213	953	2

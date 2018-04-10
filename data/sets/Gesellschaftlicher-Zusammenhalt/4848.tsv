@@ -1,29 +1,8 @@
-{"title":"Unterstützung von Freunden oder Nachbarn",
-"subtitle":"«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch an Freunde/Nachbarn gewendet?»",
-"kuerzel":"I.50.2.04848",
-"kuerzelKunde":"1.1.03",
-"description":"Unterstützung von Freunden oder Nachbarn",
-"id":4848,
-"thema":"50 Befragungen",
-"unterthema":"Familienbefragung",
-"kennzahlenset":"Gesellschaftlicher-Zusammenhalt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Arbeit","Schule","Hilfeleistung","Nachbarschaft"],
-"stufe1":"Kernbereich 1: Soziale Beziehungen",
-"stufe2":"1.1 Soziale Netze",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Knapp die Hälfte der Befragten haben 2009 und 2013 angegeben, sich bei Erziehungsfragen schon einmal an Freunde oder Nachbarn gewendet zu haben. Im Vergleich zu den anderen Lebenssituationen, in welchen die Befragten Hilfe in Anspruch nehmen, ist dies der deutlich grösste Anteil.",
-"erlaeuterungen":"",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_01_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F72a-g"],
-"externalLinks":[""]
-}
+Situation,2009 (N=3119),2013 (N=2231)
+Berufliche Probleme,26.6110933,29.22456298
+Gesundheitliche Probleme,18.94838089,20.6185567
+Finanzielle Probleme,9.426098108,8.337068579
+Wohnungsprobleme,19.01250401,22.27700583
+Partnerschaftliche Probleme,31.22795768,33.34827432
+Schulische Probleme der Kinder,23.56524527,22.99417302
+Erziehungsfragen oder -probleme,46.90605963,46.57104437

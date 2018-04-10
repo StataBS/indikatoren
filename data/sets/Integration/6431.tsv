@@ -1,29 +1,17 @@
-{"title":"IV-Quote nach Staatsangehörigkeit",
-"subtitle":"Top 6 der IV-Bezüger",
-"kuerzel":"I.13.1.06431",
-"kuerzelKunde":"C5-2",
-"description":"IV-Quote nach Staatsangehörigkeit",
-"id":6431,
-"thema":"13 Soziale Sicherheit",
-"unterthema":"Sozialversicherungen",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Staatsangehörigkeit","IV"],
-"stufe1":"Kapitel C Erwerb und Auskommen",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Seit 2009 ist die IV-Quote bei allen dargestellten Staatsangehörigkeiten zurückgegangen. Mit 12,0% weist die Türkei 2016 die höchste IV-Quote auf, gefolgt von den Ländern des ehemaligen Jugoslawien mit 10,7% und Italien mit 8,6%. Die IV-Quote der Schweizerinnen und Schweizer liegt bei 8,0%.",
-"erlaeuterungen":"IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen werden für das Jahr 2001 die 18- bis 61-Jährigen, ab 2002 die 18- bis 62-Jährigen und ab 2005 die 18- bis 63-Jährigen berücksichtigt, bei den Männern sind es die 18- bis 64-Jährigen im erwerbsfähigen Alter. Es werden nur jene Nationen berücksichtigt, die 2016 mehr als 50 IV-Bezügerinnen und Bezüger aufweisen. Ehemaliges Jugoslawien: Um eine Zeitreihe über den gesamten Beobachtungszeitraum zu gewährleisten, werden die betroffenen Staaten über den gesamten Zeitraum zusammengefasst dargestellt. Im Zuge der Einführung der 13-stelligen Versichertennummer wurden 2009 zahlreiche Personen neu als Schweizer geführt, deren Einbürgerung bereits in den Vorjahren vollzogen wurde.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_00_00_00_00_025",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Bundesamt für Sozialversicherungen"],
-"externalLinks":[""]
-}
+Jahr	 Türkei	 Ehemaliges Jugoslawien	 Italien	 Schweiz	 Spanien	 Sri Lanka	 Österreich	 Portugal
+2001	10.0	9.6	15.8	8.1	10.5	1.4	7.6	4.3
+2002	12.3	11.2	16.5	8.5	11.4	2.2	7.4	4.3
+2003	13.3	12.0	16.7	8.7	12.1	1.4	7.7	4.8
+2004	14.1	13.2	16.8	8.9	12.7	1.4	7.5	4.6
+2005	14.6	13.8	16.8	9.0	13.5	2.3	7.2	5.0
+2006	15.0	13.9	16.5	9.0	13.8	2.8	6.7	4.5
+2007	16.1	14.8	16.0	9.0	14.3	3.5	6.9	4.3
+2008	17.0	15.8	15.7	8.9	14.5	4.1	5.8	4.0
+2009	14.2	13.7	13.9	9.3	13.5	3.3	4.6	3.6
+2010	13.7	13.7	13.4	9.1	13.1	3.6	5.0	3.7
+2011	13.7	13.3	12.9	9.1	12.1	3.8	4.9	3.4
+2012	13.2	12.9	12.2	8.8	10.9	3.5	4.0	3.2
+2013	12.6	12.3	10.8	8.6	9.3	4.2	3.4	2.9
+2014	12.2	11.9	10.0	8.3	8.3	4.1	3.4	2.9
+2015	12.0	11.4	9.2	8.1	7.6	4.4	3.0	2.9
+2016	12.0	10.7	8.6	8.0	7.2	4.6	3.0	2.8

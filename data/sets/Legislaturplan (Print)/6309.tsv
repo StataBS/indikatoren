@@ -1,29 +1,27 @@
-{"title":"Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO2) und Feinstaub (PM10)",
-"subtitle":"in Mikrogramm pro m<sup>3</sup>",
-"kuerzel":"I.02.5.06309",
-"kuerzelKunde":"7.7",
-"description":"Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO2) und Feinstaub (PM10)",
-"id":6309,
-"thema":"02 Raum, Umwelt",
-"unterthema":"Luftschadstoffe",
-"kennzahlenset":"Legislaturplan (Print)",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Luft"],
-"stufe1":"Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Sowohl die Stickstoffdioxid- als auch die Feinstaubkonzentrationen lagen 2016 mit 25 resp. 16 Mikrogramm pro Kubikmeter unter dem jeweiligen Grenzwert.",
-"erlaeuterungen":"Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. <br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege. <br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>. <br><br>Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>). Für Details zu den Stationen siehe Link «Luftqualität in der Nordwestschweiz».",
-"template":"line001_print",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"07_00_00_00_00_000",
-"parentId":6157,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Lufthygieneamt beider Basel"],
-"externalLinks":[""]
-}
+Jahr	Jahresmittelwerte Stickstoffdioxid	Jahresmittelwerte Feinstaub	Grenzwert Stickstoffdioxid	Grenzwert Feinstaub
+1991.0	52.8		30.0	20.0
+1992.0	49.9		30.0	20.0
+1993.0	47.2		30.0	20.0
+1994.0	42.7		30.0	20.0
+1995.0	40.2		30.0	20.0
+1996.0	43.1		30.0	20.0
+1997.0	41.2	28.6	30.0	20.0
+1998.0	36.0	24.3	30.0	20.0
+1999.0	36.0	20.7	30.0	20.0
+2000.0	33.8	20.8	30.0	20.0
+2001.0	33.0	20.1	30.0	20.0
+2002.0	32.7	21.8	30.0	20.0
+2003.0	34.8	24.7	30.0	20.0
+2004.0	33.3	19.0	30.0	20.0
+2005.0	32.7	21.2	30.0	20.0
+2006.0	33.8	23.7	30.0	20.0
+2007.0	31.5	22.5	30.0	20.0
+2008.0	32.4	20.7	30.0	20.0
+2009.0	32.7	22.0	30.0	20.0
+2010.0	32.4	21.4	30.0	20.0
+2011.0	33.2	22.3	30.0	20.0
+2012.0	31.8	19.1	30.0	20.0
+2013.0	31.0	19.1	30.0	20.0
+2014.0	31.9	16.9	30.0	20.0
+2015.0	31.5	18.3	30.0	20.0
+2016.0	27.8	16.1	30.0	20.0

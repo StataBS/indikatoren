@@ -1,29 +1,38 @@
-{"title":"Arbeitstage von Meldepflichtigen im Dienstleistungssektor (I)",
-"subtitle":"Basel-Stadt",
-"kuerzel":"I.03.5.03032",
-"kuerzelKunde":"3.4-22",
-"description":"Arbeitstage von Meldepflichtigen im Dienstleistungssektor (I)",
-"id":3032,
-"thema":"03 Erwerbsleben",
-"unterthema":"Ausländische Erwerbstätige",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Ausländer","Erwerbstätigkeit","Branche"],
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Ausländische Erwerbstätige",
-"stufe3":"Meldepflichtige",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"In den Branchen Handel, Verkehr, Gastgewerbe und IT- Dienstleistung leisteten 2 682 Meldepflichtige 61 039 Arbeitstage. Im Vergleich zum Vorjahr entspricht dies bei den Arbeitstagen einer Zunahme um 4,7%. Im Gastgewerbe wurden 2017 insgesamt 1 213 Meldepflichtige registriert, die  28 778 Arbeitstage leisteten. Im Vergleich zum Vorjahr bedeutet dies eine Zunahme um 3 719 Arbeitstage bzw. 14,8%. Die messebedingten Spitzen im Gastgewerbe jeweils im 1. Quartal bzw. im März sind weiterhin erkennbar.",
-"erlaeuterungen":"Meldepflichtige: Dienstleistungserbringung von ausländischen Unternehmen und Selbstständigen in der Schweiz während maximal 90 Arbeitstagen pro Jahr.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_04_03_00_00_422",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"],
-"externalLinks":[""]
-}
+﻿""	"Handel, Reparatur"	"Verkehr, Lagerei, Kommunikation"	"Gastgewerbe"	"IT-Dienstleistungen"
+"2009-1"	1409	679	2972	1539
+"2009-2"	910	813	2528	2354
+"2009-3"	3439	1026	2736	1792
+"2009-4"	2564	238	4544	1812
+"2010-1"	1120	646	4185	2156
+"2010-2"	1107	361	1887	1936
+"2010-3"	3539	451	3031	1935
+"2010-4"	4610	497	7265	3782
+"2011-1"	2208	2093	4580	4497
+"2011-2"	2101	551	3450	2231
+"2011-3"	1887	421	3822	2434
+"2011-4"	3616	454	7190	2184
+"2012-1"	1413	2303	8024	2458
+"2012-2"	1328	1306	4708	2146
+"2012-3"	1959	466	5052	1638
+"2012-4"	3255	419	5990	2224
+"2013-1"	1679	1314	3736	3210
+"2013-2"	1589	1870	6659	3274
+"2013-3"	2075	545	3929	2766
+"2013-4"	3480	523	6022	3026
+"2014-1"	2848	2229	4141	3516
+"2014-2"	2374	808	3724	2404
+"2014-3"	2306	553	4758	2581
+"2014-4"	3810	759	4987	4162
+"2015-1"	3214	2303	6613	4180
+"2015-2"	2081	1550	4895	3362
+"2015-3"	3960	792	4861	3778
+"2015-4"	5075	380	6741	4336
+"2016-1"	4378	1389	7656	4602
+"2016-2"	3253	834	4678	3201
+"2016-3"	3565	471	5457	3018
+"2016-4"	5235	343	7268	2973
+"2017-1"	4119	1041	8320	4411
+"2017-2"	3888	722	6532	3411
+"2017-3"	3279	819	6334	2621
+"2017-4"	4983	400	7592	2567
+

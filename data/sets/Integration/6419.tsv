@@ -1,29 +1,11 @@
-{"title":"Anteil der Staatsangestellten nach Staatsangehörigkeit",
-"subtitle":"",
-"kuerzel":"I.18.3.06419",
-"kuerzelKunde":"C3-1",
-"description":"Anteil der Staatsangestellten nach Staatsangehörigkeit",
-"id":6419,
-"thema":"18 Öffentliche Finanzen",
-"unterthema":"Staatspersonal",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Staatsangehörigkeit","Angestellte","Verwaltung"],
-"stufe1":"Kapitel C Erwerb und Auskommen",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Quote ist zwischen 2007 und 2016 bei den Angestellten mit Schweizer Pass mehr als doppelt so hoch als bei den übrigen betrachteten Ländergruppen. Nach den Schweizerinnen und Schweizern sind die Deutschen (Tendenz zunehmend) sowie die Italienerinnen und Italiener  (Tendenz abnehmend) am besten vertreten.",
-"erlaeuterungen":"Die Angestelltenquote zeigt den Anteil des Staatspersonals mit Wohnsitz Basel-Stadt an der erwerbsfähigen Bevölkerung (15 bis 64 Jahre) des Kantons Basel-Stadt. Definition Staatspersonal auf Basis des ordentlichen Bestandes (sog. Headcount). Ausgewertet nach Staatsangehörigkeit (Ländergruppen). In die Auswertung fliessen nur Angaben der Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler) ein.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_00_00_00_00_013",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Finanzdepartement Basel-Stadt, Zentraler Personaldienst"],
-"externalLinks":[""]
-}
+Jahr	 Schweiz	 Deutschland	 Italien	 Türkei	 EU-17 & EFTA	 EU-Ost	 Balkan	 Mittel- & Südamerika	 Arab. Länder	 Afrikan. Länder	 Übrige Länder
+2007	5.4	1.8	2.9	0.7	1.3	0.5	0.6	0.6	0.5	0.5	0.4
+2008	5.4	1.8	2.9	0.9	1.4	0.4	0.7	0.7	0.4	0.5	0.4
+2009	5.8	2	3	0.9	1.3	0.2	0.7	0.8	0.4	0.7	0.3
+2010	5.6	2.1	2.9	0.9	1.3	0.4	0.7	0.8	0.3	0.7	0.3
+2011	5.7	2.2	2.9	0.9	1.2	0.2	0.8	1	0.3	0.7	0.2
+2012	5.8	2.4	2.7	1	1.1	0.2	0.8	1	0	0.9	0.1
+2013	5.6	2.1	2.4	0.9	1	0.3	0.9	1	0.2	1.3	0.1
+2014	5.6	2.2	2.2	1	0.9	0.4	1	0.9	0.3	1.3	0.2
+2015	5.6	2.3	2.2	1	0.8	0.4	1	1	0.3	1.3	0.1
+2016	5.7	2.4	2.3	1.1	0.9	0.5	1	1.1	0.4	1.5	0.1

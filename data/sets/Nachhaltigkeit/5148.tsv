@@ -1,29 +1,11 @@
-{"title":"Saldo aus Geburten und Todesfällen",
-"subtitle":"",
-"kuerzel":"I.01.1.05148",
-"kuerzelKunde":"BE6",
-"description":"Saldo aus Geburten und Todesfällen",
-"id":5148,
-"thema":"01 Bevölkerung",
-"unterthema":"Bestand und Struktur ",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2017-03-14T12:02:20.2020",
-"schlagwort":["Alter","Bevölkerung"],
-"stufe1":"Bereich Bevölkerung",
-"stufe2":"Bevölkerung",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"In den Jahren 2007 bis 2015 überstieg die Zahl der Todesfälle stets diejenige der Geburten. 2016 hingegen gab es mehr Lebendgeborene als Gestorbene, der Saldo aus Geburten und Todesfällen betrug 152.",
-"erlaeuterungen":"",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_01_00_00_00_107",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
-}
+﻿Jahr	Saldo Geburt/Tod	Lebendgeborene	Gestorbene
+2007	-351	1667	2018
+2008	-478	1695	2173
+2009	-407	1775	2182
+2010	-279	1910	2189
+2011	-163	1868	2031
+2012	-229	1930	2159
+2013	-120	1962	2082
+2014	-177	1956	2133
+2015	-126	2065	2191
+2016	152	2172	2020

@@ -1,29 +1,12 @@
-{"title":"Jugendquotient nach Staatsangehörigkeit",
-"subtitle":"",
-"kuerzel":"I.01.1.06068",
-"kuerzelKunde":"A2-6",
-"description":"Jugendquotient nach Staatsangehörigkeit",
-"id":6068,
-"thema":"01 Bevölkerung",
-"unterthema":"Bestand und Struktur ",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Jugend","Staatsangehörigkeit"],
-"stufe1":"Kapitel A Bevölkerungsstruktur",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"2016 liegt der Jugendquotient der Schweizer bei 27,4. Deutlich höhere Jugendquotienten ergeben sich 2016 für Personen aus afrikanischen (42,0) und arabischen Ländern (40,1) sowie für Personen aus dem Balkan (33,0) und der Türkei (30,4). Die niedrigsten Jugendquotienten weisen Personen aus der Ländergruppe EU-Ost, Mittel- und Südamerikaner sowie Deutsche auf. Im Vergleich zu 1997 ist der Jugendquotient der Personen aus arabischen Ländern am stärksten gestiegen und jener von Personen aus der Türkei und dem Balkan stark gesunken.",
-"erlaeuterungen":"Jugendquotient: Anzahl maximal 19-Jähriger pro 100 20- bis 64-Jährige.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_016",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
-}
+Staatsangehörigkeit	1997	2016
+Schweiz	24.3	27.4
+Deutschland	10.9	17.0
+Italien	27.2	21.1
+Türkei	69.5	30.4
+EU-17 + EFTA	25.7	23.4
+EU-Ost	18.4	16.0
+Balkan	54.5	33.1
+Mittel- und Südamerika	25.9	16.9
+Arabische Länder	26.4	40.1
+Afrikanische Länder	36.3	42.0
+Übrige Länder	32.6	28.9

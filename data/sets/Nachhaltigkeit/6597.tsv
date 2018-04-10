@@ -1,29 +1,21 @@
-{"title":" Ausländeranteil",
-"subtitle":"",
-"kuerzel":"I.01.1.06597",
-"kuerzelKunde":"BE5.2",
-"description":" Ausländeranteil",
-"id":6597,
-"thema":"01 Bevölkerung",
-"unterthema":"Bestand und Struktur ",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Bevölkerung","Ausland"],
-"stufe1":"Bereich Bevölkerung",
-"stufe2":"Bevölkerung",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Von 1997 bis 2016 stieg der Anteil der ausländischen Personen an der Bevölkerung von 26,8% auf 35,7%. Der stärkste Anstieg um über 0,8 Prozentpunkte wurde 2002 verzeichnet. In diesem Jahr traten die bilateralen Verträge zwischen der Schweiz und der EU in Kraft, welche den Aufenthalt von EU- und EFTA-Staatsangehörigen erleichterten. Lediglich geringfügige Anstiege waren in den Jahren 2000, 2007 und 2010 zu beobachten.",
-"erlaeuterungen":"",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_01_00_00_00_106",
-"parentId":6057,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
-}
+﻿Jahr	Ausländeranteil	Ausländer	Bevölkerung
+1997	26.755828738809	51974	194253
+1998	27.013184399414	51898	192121
+1999	27.523259055122	52333	190141
+2000	27.876052084496	52429	188079
+2001	28.077606303244	52634	187459
+2002	28.87269632742	54285	188015
+2003	29.465021013426	55457	188213
+2004	29.965990545265	56479	188477
+2005	30.435291613452	57194	187920
+2006	31.191957058873	58576	187792
+2007	31.339361702127	58918	188000
+2008	31.827006267277	60330	189556
+2009	32.584440426591	62176	190815
+2010	33.112856985623	63179	190799
+2011	33.504243281471	64430	192304
+2012	33.871259543365	65527	193459
+2013	34.560700709611	67552	195459
+2014	35.007202080714	68779	196471
+2015	35.286809598182	69587	197204
+2016	35.724448301262	70808	198206

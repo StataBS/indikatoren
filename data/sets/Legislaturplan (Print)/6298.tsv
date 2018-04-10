@@ -1,29 +1,13 @@
-{"title":"Bevölkerung nach sozioprofessioneller Kategorie",
-"subtitle":"",
-"kuerzel":"I.01.1.06298",
-"kuerzelKunde":"4.2",
-"description":"Bevölkerung nach sozioprofessioneller Kategorie",
-"id":6298,
-"thema":"01 Bevölkerung",
-"unterthema":"Bestand und Struktur ",
-"kennzahlenset":"Legislaturplan (Print)",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Bevölkerung"],
-"stufe1":"Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Von der baselstädtischen Wohnbevölkerung arbeiteten im Jahr 2015 rund 3 400 Personen im obersten Management.",
-"erlaeuterungen":"Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren. Bei der Interpretation der Ergebnisse muss die Unsicherheit von Stichprobenerhebungen berücksichtigt werden.",
-"template":"template001_print",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"04_00_00_00_00_000",
-"parentId":6144,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)"],
-"externalLinks":[""]
-}
+﻿Jahr	2015
+Oberstes Management	3389
+Freie und gleichgestellte Berufe	3231
+Andere Selbstständige	7281
+Akademische Berufe und oberes Kader	24704
+Intermediäre Berufe	21084
+Qualifizierte nichtmanuelle Berufe	15857
+Qualifizierte manuelle Berufe	4138
+Ungelernte Angestellte und Arbeiter	6930
+Lernende in dualer berufl. Grundbildung	2723
+Nicht zuteilbare Erwerbstätige	5649
+Erwerbslose	7201
+Nichterwerbspersonen	59644

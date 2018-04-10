@@ -1,29 +1,13 @@
-{"title":"Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
-"subtitle":"",
-"kuerzel":"I.13.2.06055",
-"kuerzelKunde":"WE11",
-"description":"Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
-"id":6055,
-"thema":"13 Soziale Sicherheit",
-"unterthema":"Sozialleistungen",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Alter","Familie","Schule"],
-"stufe1":"Bereich Wirtschaftliche Entfaltung",
-"stufe2":"Erwerbsarbeit",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Anzahl angebotener Plätze in der Tagesbetreuung (Tagesheime oder Tagesfamilien) sowie in den Tagesstrukturen der Schulen erfuhr in den letzten Jahren ein stetiges Wachstum. In der Stichwoche 2016 lag diese bei 4 161, respektive 4 272. In den Tagesstrukturen der Quartiere wurden 2016 832 Plätze angeboten, in den Tagesferien 195.",
-"erlaeuterungen":"Tagesstrukturen: Stichwoche im September, bei den Tagesferien handelt es sich um die durchschnittliche Anzahl angebotener Plätze innerhalb eines Kalenderjahres.<br>Tagesbetreung: Stichwoche im Oktober.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"06_02_00_00_00_611",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"],
-"externalLinks":[""]
-}
+﻿Jahr	Tagesbetreuung	Tagesstrukturen in den Quartieren	Tagesstrukturen in den Schulen	Tagesferien
+2005	1913	467	392	
+2006	1998	571	394	
+2007	2101	752	488	
+2008	2239	799	620	
+2009	2316	819	814	153
+2010	2928	910	1173	178
+2011	3212	802	1510	176
+2012	3457	743	2209	182
+2013	3560	851	2966	193
+2014	3859	919	3706	198
+2015	3987	782	4096	198
+2016	4161	832	4272	195

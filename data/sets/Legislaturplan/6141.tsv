@@ -1,29 +1,7 @@
-{"title":"Anteil der Beschäftigten in innovativen Branchen",
-"subtitle":"an der gesamten Beschäftigung (in Vollzeitäquivalenten)",
-"kuerzel":"I.03.2.06141",
-"kuerzelKunde":"3.8",
-"description":"Anteil der Beschäftigten in innovativen Branchen",
-"id":6141,
-"thema":"03 Erwerbsleben",
-"unterthema":"Beschäftigte ",
-"kennzahlenset":"Legislaturplan",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Arbeit","Erwerbstätigkeit","Branche"],
-"stufe1":"Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Insgesamt waren 2015 knapp 17% der Beschäftigten (in Vollzeitäquivalenten) in Basel-Stadt in innovativen Branchen tätig, der Grossteil davon in Industriebranchen.",
-"erlaeuterungen":"Als innovative Branchen gelten (NOGA 2-Steller in Klammer): Herstellung von chemischen (20) und pharmazeutischen Produkten (21), Gummi- und Kunststoffwaren (22), elektronischen und optischen Produkten (26), elektrischen Ausrüstungen (27), Maschinenbau (28), sonstiger Fahrzeugbau (30), Herstellung von medizinischen und zahnmedizinischen Apparaten und Materialien (325), Reparatur und Installation von Maschinen und Ausrüstungen (33), Forschung und Entwicklung (72).",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_00_00_00_00_009",
-"parentId":null,
-"children":["6048","6296"],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"],
-"externalLinks":[""]
-}
+﻿"Jahr"	"Industrie"	"Dienstleistungen"
+2011	14.867748	1.6651134
+2012	14.910901	1.7304467
+2013	14.452217	1.8278602
+2014	14.448236	1.8622296
+2015	14.842948	1.7449017
+

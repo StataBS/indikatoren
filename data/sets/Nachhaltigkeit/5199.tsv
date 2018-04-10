@@ -1,29 +1,13 @@
-{"title":"Ausgaben für Umbau- und Unterhaltsarbeiten",
-"subtitle":"in 1 000 Franken sowie Anteil am Total der Bauausgaben",
-"kuerzel":"I.09.1.05199",
-"kuerzelKunde":"GW21",
-"description":"Ausgaben für Umbau- und Unterhaltsarbeiten",
-"id":5199,
-"thema":"09 Bau-, Wohnungswesen",
-"unterthema":"Gebäude und Wohnungen",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-02-16T00:00:00.000",
-"schlagwort":["Bau"],
-"stufe1":"Bereich Grundbedürfnisse und Wohlergehen",
-"stufe2":"Infrastruktur",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Das Total der Bauausgaben stieg seit 2011 bis 2015 kontinuierlich an. Der Anteil Ausgaben für Umbau- und Unterhaltsarbeiten lag in den meisten Jahren leicht unterhalb oder oberhalb der 50%-Marke. Der tiefste Wert ergab sich 2010 mit einem Anteil von 35% an den totalen Bauausgaben.",
-"erlaeuterungen":"",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_07_00_00_00_321",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"],
-"externalLinks":[""]
-}
+﻿Jahr	Umbau- und Unterhaltsarbeiten	Gesamte Bauausgaben	Anteil am Total der Bausgaben (rechte Skala)
+2005	594996	1247400	47.6988936988937
+2006	533013	1276800	41.7460056390977
+2007	671982	1416000	47.4563559322034
+2008	562603	1439900	39.0723661365373
+2009	492470	1357300	36.2830619612466
+2010	403304	1163500	34.6629995702621
+2011	577475	1121800	51.4775361026921
+2012	699423	1458600	47.9516659810777
+2013	690304	1527800	45.182877339966
+2014	857564	1693700	50.6325795595442
+2015	962172	1888900	50.9382180104823
+2016	945838	1855800	50.966591227503

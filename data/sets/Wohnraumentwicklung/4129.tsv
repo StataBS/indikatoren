@@ -1,29 +1,13 @@
-{"title":"Mietpreisentwicklung der Leerwohnungen",
-"subtitle":"nach Zimmerzahl",
-"kuerzel":"I.09.2.04129",
-"kuerzelKunde":"0.1.B-2",
-"description":"Mietpreisentwicklung der Leerwohnungen",
-"id":4129,
-"thema":"09 Bau-, Wohnungswesen",
-"unterthema":"Leerstand",
-"kennzahlenset":"Wohnraumentwicklung",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2017-01-19T15:46:38.3838",
-"schlagwort":["Gebäude","Haushalt"],
-"stufe1":"Leitgedanke",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Mietpreisentwicklung der Leerwohnungen ist im Zehnjahresvergleich leicht ansteigend. Da es grundsätzlich wenige leerstehende 5-Zimmerwohnungen gibt, sind die ausgewiesenen Durchschnittsmieten in dieser Kategorie grösseren Schwankungen unterworfen bzw. können wie im Jahr 2014 aufgrund zu kleiner Stichprobe gar nicht berechnet werden.",
-"erlaeuterungen":"Bei den Mietpreisen für Leerwohnungen handelt es sich um Angebotsmieten, nicht um Bestandsmieten. 2014 kann keine Durchschnittsmiete für leerstehende 5-Zimmerwohnungen angegeben werden, weil in dieser Kategorie zu wenige Beobachtungen vorlagen.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Leerstandserhebung"],
-"externalLinks":[""]
-}
+﻿Jahr	1-Zimmer	2-Zimmer	3-Zimmer	4-Zimmer	5-Zimmer
+2006	604	994	1405	2033	2282
+2007	592	965	1388	1891	2330
+2008	628	1053	1367	1837	2417
+2009	685	1034	1454	1945	2704
+2010	869	1168	1505	2071	2293
+2011	813	1137	1560	2039	2422
+2012	906	1150	1667	2148	2691
+2013	797	1218	1556	2174	2751
+2014	763	1208	1768	2302	
+2015	1015	1355	1817	2284	2811
+2016	940	1440	1705	2393	3634
+2017	919	1294	1617	2468	3112

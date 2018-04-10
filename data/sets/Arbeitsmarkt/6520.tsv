@@ -1,29 +1,38 @@
-{"title":"Zuwanderung von Erwerbstätigen im Dienstleistungssektor (II)",
-"subtitle":"Kurz- und Daueraufenthalter, Basel-Stadt",
-"kuerzel":"I.03.5.06520",
-"kuerzelKunde":"3.4-15",
-"description":"Zuwanderung von Erwerbstätigen im Dienstleistungssektor (II)",
-"id":6520,
-"thema":"03 Erwerbsleben",
-"unterthema":"Ausländische Erwerbstätige",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Ausländer","Erwerbstätigkeit","Branche"],
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Ausländische Erwerbstätige",
-"stufe3":"Zuwanderung",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Der grösste Teil der zugewanderten Erwerbstätigen ist im Bereich Beratung, Planung, Forschung, Immobilien, IT und sonstige Dienstleistungen (inkl. Gebäudereinigung und Personalvermittlung) tätig. Mit rund 800 neuen Bewilligungen pro Quartal hat sich die Zuwanderung in diesem Bereich seit 2009 fast verdoppelt. Im 1. Quartal 2017 wurde ein Höchstwert von 1 056 neuen Bewilligungen erreicht. Diese breit gefasste Dienstleistungsgruppe kann nicht detaillierter ausgewiesen werden.",
-"erlaeuterungen":"Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_04_02_00_00_415",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"],
-"externalLinks":[""]
-}
+﻿"Datum"	"Finanz-, Versicherungs-DL"	"Beratung, Planung, Forschung, Immobilien, IT, sonst. DL"
+"2009-01"	16	419
+"2009-02"	13	418
+"2009-03"	15	506
+"2009-04"	20	444
+"2010-01"	12	439
+"2010-02"	11	477
+"2010-03"	28	605
+"2010-04"	16	499
+"2011-01"	23	520
+"2011-02"	19	586
+"2011-03"	14	719
+"2011-04"	12	627
+"2012-01"	12	704
+"2012-02"	12	620
+"2012-03"	16	670
+"2012-04"	18	609
+"2013-01"	15	700
+"2013-02"	9	721
+"2013-03"	18	796
+"2013-04"	11	654
+"2014-01"	10	727
+"2014-02"	16	942
+"2014-03"	8	867
+"2014-04"	17	768
+"2015-01"	24	823
+"2015-02"	17	738
+"2015-03"	24	806
+"2015-04"	14	751
+"2016-01"	16	847
+"2016-02"	12	789
+"2016-03"	12	898
+"2016-04"	11	668
+"2017-01"	10	1056
+"2017-02"	16	842
+"2017-03"	13	826
+"2017-04"	5	690
+

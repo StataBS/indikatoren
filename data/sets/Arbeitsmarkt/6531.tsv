@@ -1,29 +1,6 @@
-{"title":"Beschäftigung nach Grösse der Arbeitsstätte und Kanton",
-"subtitle":"Anteil der Vollzeitäquivalente, Stand: 2015",
-"kuerzel":"I.03.2.06531",
-"kuerzelKunde":"3.2-02",
-"description":"Beschäftigung nach Grösse der Arbeitsstätte und Kanton",
-"id":6531,
-"thema":"03 Erwerbsleben",
-"unterthema":"Beschäftigte ",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Kantonsvergleich","Beschäftigte"],
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Beschäftigung",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Von den rund 151 600 VZÄ im Kanton Basel-Stadt im Jahr 2015, sind 35% in grossen Arbeitsstätten (250 VZÄ und mehr) tätig. Im Kanton Basel-Landschaft sind lediglich 13% der VZÄ in grossen Arbeitsstätten beschäftigt. Auch in den Kantonen Aargau und Zürich fällt dieser Anteil mit 18% bzw. 23% tiefer aus.",
-"erlaeuterungen":"Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen.",
-"template":"befragungen001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_02_00_00_00_202",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"],
-"externalLinks":[""]
-}
+﻿"Grösse"	"BS"	"BL"	"AG"	"ZH"	"CH"
+"bis 9 VZÄ"	27812	32796	77221	195964	1176210
+"10 bis 49 VZÄ"	31906	33304	71529	205148	1102929
+"50 bis 249 VZÄ"	38328	35916	66456	203100	1020688
+"250 VZÄ u.m."	53586	15270	46543	184286	699381
+

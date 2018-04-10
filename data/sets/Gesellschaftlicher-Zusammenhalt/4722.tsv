@@ -1,28 +1,12 @@
-{"title":"Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
-"subtitle":"",
-"kuerzel":"I.01.6.04722",
-"kuerzelKunde":"2.1.03",
-"description":"Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
-"id":4722,
-"thema":"01 Bevölkerung",
-"unterthema":"Einbürgerungen",
-"kennzahlenset":"Gesellschaftlicher-Zusammenhalt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"stufe1":"Kernbereich 2: Verbundenheit",
-"stufe2":"2.1 Identifikation",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Zahl der Einbürgerungen unterlag in den vergangenen Jahren diversen Schwankungen. Die Höchstwerte wurden 2007  mit 2 023 und 2008  mit 1 798 eingebürgerten Ausländern erreicht. Danach gingen die Einbürgerungen zurück, 2011 erwarben noch 835 Ausländer die Schweizer Staatsangehörigkeit. Zwischen 2012 und 2015 nahm die Zahl der Eingebürgerungen tendenziell wieder zu, im Jahr 2015 erhielten 1 170 Personen das Schweizer Bürgerrecht. 2016 liessen sich 752 Ausländer einbürgern, dies ist der tiefste Wert der letzten zehn Jahre. Die Einbürgerungsziffer verläuft entsprechdend den absoluten Werten und lag 2016 bei 10,6.",
-"erlaeuterungen":"Voraussetzung für eine ordentliche Einbürgerung ist u. a. eine 12-jährige Wohndauer in der Schweiz. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die 5 Jahre in der Schweiz gelebt haben und die seit 3 Jahren verheiratet sind. Die Einbürgerungsziffer wird als Anzahl Einbürgerungen (ordentliche und erleichterte) pro 1000 Ausländer am Jahresende berechnet.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_01_00_00_00_000",
-"parentId":null,
-"children":["6043","6479"],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
-}
+﻿Jahr	Erleichtert Eingebürgerte	Ordentlich Eingebürgerte	Einbürgerungsziffer (rechte Skala)	Eingebürgerte Total	AusländerTotal
+2006	256	879	19.376536465446	1135	58576
+2007	200	1823	34.335856614277	2023	58918
+2008	204	1594	29.802751533233	1798	60330
+2009	160	1019	18.962300566134	1179	62176
+2010	156	711	13.722914259484	867	63179
+2011	278	557	12.959801334781	835	64430
+2012	214	654	13.246448029056	868	65527
+2013	175	871	15.484367598294	1046	67552
+2014	232	749	14.263074484944	981	68779
+2015	209	961	16.813485277422	1170	69587
+2016	214	538	10.620268896169	752	70808
