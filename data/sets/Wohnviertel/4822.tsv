@@ -1,29 +1,22 @@
-{"title":"Sozialhilfequote",
-"subtitle":"Stand: 2016",
-"kuerzel":"I.13.3.04822",
-"kuerzelKunde":"GS-1.A",
-"description":"Sozialhilfequote",
-"id":4822,
-"thema":"13 Soziale Sicherheit",
-"unterthema":"Sozialhilfe und Notwohnen",
-"kennzahlenset":"Wohnviertel",
-"raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2017-05-05T12:37:02.022",
-"schlagwort":["Quote"],
-"stufe1":"Bereich 1: Gesellschaft und Soziales",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger an der Wohnbevölkerung des Wohnviertels.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_001",
-"parentId":null,
-"children":["5109"],
-"renderLink":["5109"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Sozialhilfestatistik"],
-"externalLinks":[""]
-}
+﻿wohnviertel_id	Sozialhilfequote	Rang	wohnviertel	jahr_num
+30	0.012605042	1	Bettingen	2016
+7	0.0155299739	2	Bruderholz	2016
+1	0.0192458759	3	Altstadt Grossbasel	2016
+8	0.0260689757	4	Bachletten	2016
+2	0.0292712067	5	Vorstädte	2016
+5	0.0297356828	6	St. Alban	2016
+20	0.0354745012	7	Riehen	2016
+3	0.0358673374	8	Am Ring	2016
+9	0.0440251572	9	Gotthelf	2016
+15	0.0474539545	10	Hirzbrunnen	2016
+14	0.0478045326	11	Wettstein	2016
+4	0.0574082363	12	Breite	2016
+12	0.0721153846	13	Altstadt Kleinbasel	2016
+6	0.0721360097	14	Gundeldingen	2016
+13	0.0797912006	15	Clara	2016
+11	0.0874826741	16	St. Johann	2016
+10	0.0941134157	17	Iselin	2016
+16	0.1051587302	18	Rosental	2016
+17	0.1200878845	19	Matthäus	2016
+18	0.1362121633	20	Klybeck	2016
+19	0.1431040442	21	Kleinhüningen	2016

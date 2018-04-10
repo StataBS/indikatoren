@@ -1,29 +1,10 @@
-{"title":"Investitionen in den Schutz vor Naturgefahren",
-"subtitle":"Tausend CHF",
-"kuerzel":"I.02.11.04315",
-"kuerzelKunde":"0704",
-"description":"Investitionen in den Schutz vor Naturgefahren",
-"id":4315,
-"thema":"02 Raum, Umwelt",
-"unterthema":"Naturgefahren",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Naturgefahren"],
-"stufe1":"Thema Naturgefahren",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0704' target='_blank'>Umweltbericht beider Basel</a>.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"07_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Amt für Wald beider Basel; Tiefbauamt Basel-Stadt"],
-"externalLinks":["Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0704' target = '_blank'>Umweltbericht beider Basel</a>"]
-}
+"Jahr"	"Schutzwaldpflege"	"Gefahrengrundlagen WaG"	"Grundangebot Schutzbauten WaG"	"Einzelprojekte WaG"	"Gefahrengrundlagen WBG"	"Grundangebot Schutzbauten WBG"	"Einzelprojekte WBG"
+2008	0	32.7	0	0	56.3	252	897.3
+2009	0	15	0	0	56.3	252	897.3
+2010	0	5	0	0	56.3	252	897.3
+2011	5	10.5	0	0	56.3	252	897.3
+2012	0	8.4	0	0	57.7	648.7	0
+2013	0	0	0	0	57.7	648.7	0
+2014	14.3	0	0	0	57.7	648.7	0
+2015	6.8	0	0	0	57.7	648.7	0
+2016	0	0	0	0	78.1	796.3	0

@@ -1,30 +1,22 @@
-{"title":"Test Daten",
-"subtitle":"",
-"kuerzel":"I.01.1.09999",
-"kuerzelKunde":"ST 11-2",
-"description":"Test Daten",
-"id":9999,
-"thema":"11 Verkehr",
-"unterthema":"Motorfahrzeuge",
-"kennzahlenset":"Test",
-"raeumlicheGliederung":["Wohnviertel","Gemeinde"],
-"aktualisierungsdatum":"2017-06-26T16:19:02.022",
-"schlagwort":["Haushalt","Familie","Quote","Auto"],
-"stufe1":"Test",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Test Daten",
-"erlaeuterungen":"",
-"template":"map002",
-"option":"options001",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"11_00_00_00_00_002",
-"parentId": 9998,
-"children":[""],
-"renderLink":[""],
-"quellenangabe":["Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"],
-"externalLinks":[""]
-}
+Wohnviertel Id	wohnviertel	Test-Messwert im Jahr 1999
+1	Altstadt Grossbasel	98117
+2	Iselin	99422
+3	St. Johann	75841
+4	Altstadt Kleinbasel	56292
+5	Clara	100470
+6	Wettstein	55575
+7	Hirzbrunnen	115298
+8	Rosental	77778
+9	Matthäus	63532
+10	Klybeck	51788
+11	Kleinhüningen	52273
+12	Vorstädte	61193
+13	Riehen	49702
+14	Am Ring	73498
+15	Bettingen	59376
+16	Breite	51788
+17	St. Alban	50044
+18	Gundeldingen	42281
+19	Bruderholz	45955
+20	Bachletten	90865
+30	Gotthelf	122319

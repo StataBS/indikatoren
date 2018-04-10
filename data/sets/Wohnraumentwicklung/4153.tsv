@@ -1,29 +1,14 @@
-{"title":"Ausbezahlte Familienmietzinsbeiträge",
-"subtitle":"Basel-Stadt, in Franken",
-"kuerzel":"I.13.2.04153",
-"kuerzelKunde":"4.1.B",
-"description":"Ausbezahlte Familienmietzinsbeiträge",
-"id":4153,
-"thema":"13 Soziale Sicherheit",
-"unterthema":"Sozialleistungen",
-"kennzahlenset":"Wohnraumentwicklung",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2017-01-24T15:24:49.4949",
-"schlagwort":["Familie","Wohnen"],
-"stufe1":"Ziel 4: Sozialpolitik",
-"stufe2":"4.1 Unterstützung Benachteiligter",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die ausbezahlten Familienmietzinsbeiträge sind seit 2008 stark gestiegen und betragen 2017 rund 10,7 Mio. Franken.",
-"erlaeuterungen":"Die Leistungen nach Wohnraumfördergesetz liefen per Ende 2008 aus. Das Gesetz wurde per 1.1.2009 aufgehoben. Dies hatte einen Einfluss auf die Anzahl unterstützter Mietverhältnisse nach Mietbeitragsgesetz.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"05_01_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Amt für Sozialbeiträge Basel-Stadt"],
-"externalLinks":[""]
-}
+﻿Jahr	Familienmietzinsbeiträge in Franken
+2005	899370
+2006	752081
+2007	568955
+2008	584752
+2009	1936979
+2010	3114546
+2011	4254039
+2012	5180983
+2013	8086220
+2014	8914139
+2015	9525625
+2016	10113441
+2017	10718633

@@ -1,29 +1,20 @@
-{"title":"Zufriedenheit mit dem Kulturangebot",
-"subtitle":"«Wie zufrieden sind Sie mit dem Kulturangebot?»",
-"kuerzel":"I.50.1.06499",
-"kuerzelKunde":"D8-3",
-"description":"Zufriedenheit mit dem Kulturangebot",
-"id":6499,
-"thema":"50 Befragungen",
-"unterthema":"Bevölkerungsbefragung",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Zufriedenheit"],
-"stufe1":"Kapitel D Politik und Zusammenleben",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Mit dem Kulturangebot in Basel-Stadt sind 89,9% sehr oder eher zufrieden. Die Einschätzung des Kulturangebots unterscheidet sich nach Staatsangehörigkeit signifikant. 91,2% der Befragten mit ausländischer Staatsbürgerschaft sind sehr oder eher zufrieden mit dem Kulturangebot, bei den Schweizerinnen und Schweizern sind 89,7% sehr oder eher zufrieden.",
-"erlaeuterungen":"Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Während jeweils rund sechs Wochen werden zwischen Januar und März 1 500 zufällig ausgewählte Einwohnerinnen und Einwohner im Kanton Basel-Stadt telefonisch zu einem breiten Spektrum von Themen befragt, welche die staatliche Tätigkeit abbilden.",
-"template":"befragungen001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"04_00_00_00_00_024",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_12"],
-"externalLinks":[""]
-}
+	 Sehr zufrieden	 Eher zufrieden	 Eher unzufrieden	 Ganz unzufrieden	 Weiss nicht / keine Angabe
+2015 Total	650	693	69	6	77
+2015 Schweiz	591	596	58	6	73
+2015 Ausland	59	97	11	0	4
+.
+2011 Total	737	625	93	9	45
+2011 Schweiz	635	536	78	7	39
+2011 Ausland	102	89	15	2	6
+..
+2007 Total	493	808	126	10	62
+2007 Schweiz	444	711	105	8	55
+2007 Ausland	49	97	21	2	7
+...
+2005 Total	518	781	120	24	61
+2005 Schweiz	455	670	102	17	51
+2005 Ausland	63	111	18	7	10
+....
+2003 Total	587	690	116	15	80
+2003 Schweiz	507	597	102	13	65
+2003 Ausland	80	93	14	2	15

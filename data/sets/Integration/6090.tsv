@@ -1,29 +1,13 @@
-{"title":"Bevölkerung nach höchster abgeschlossener Ausbildung",
-"subtitle":"Personen ab 15 Jahren nach Staatsangehörigkeit, gepoolte Daten 2011 - 2015",
-"kuerzel":"I.15.7.06090",
-"kuerzelKunde":"B4-2",
-"description":"Bevölkerung nach höchster abgeschlossener Ausbildung",
-"id":6090,
-"thema":"15 Bildung",
-"unterthema":"Bildungsabschlüsse",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Bevölkerung","Staatsangehörigkeit","Ausbildung"],
-"stufe1":"Kapitel B Schule und Bildung",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Bei Personen aus Deutschland (68%), EU-Ost (53%), EU-17 + EFTA (50%) und Mittel- und Südamerika (39%) ist der Anteil Personen mit Tertiärausbildung grösser als bei den Schweizer Staatsangehörigen (33%). Geringe Anteile der Tertiärausbildung weisen Personen aus der Türkei und dem Balkan (je 11%) auf.",
-"erlaeuterungen":"Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe:  Höhere Fachschule, Fachhochschule, Universität.",
-"template":"befragungen001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_00_00_00_00_008",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)"],
-"externalLinks":[""]
-}
+﻿"Staatsangehörigkeit"	"Sekundarstufe I"	"Sekundarstufe II"	"Tertiärstufe"
+"Schweiz"	20889.555042	50452.709772	35106.535186
+"Deutschland"	856.91947052	3348.8319647	9063.3702945
+"Italien"	3193.6371880	2016.6917552	1518.6567830
+"Türkei"	3858.8225095	836.28742517	567.28603775
+"EU-17 + EFTA"	3303.1318059	2147.7562612	5357.1052534
+"EU-Ost"	301.30798495	714.90961602	1156.7587738
+"Balkan"	3995.7388776	2152.3046208	725.35322498
+"Mittel- und Südamerika"	635.59695563	283.47056514	588.14988409
+"Arabische Länder"	296.63935726	228.85547585	214.06595033
+"Afrikanische Länder"	519.28190501	235.33954244	219.13496949
+"Übrige Länder"	1430.2320469	682.45283710	3298.1106637
+

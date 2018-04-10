@@ -1,29 +1,22 @@
-{"title":"Kantonales BIP im Vergleich zu den Staatsausgaben",
-"subtitle":"indexiert (1995 = 100)",
-"kuerzel":"I.18.1.06205",
-"kuerzelKunde":"2.9",
-"description":"Kantonales BIP im Vergleich zu den Staatsausgaben",
-"id":6205,
-"thema":"18 Öffentliche Finanzen",
-"unterthema":"Staatsrechnung",
-"kennzahlenset":"Legislaturplan",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["BIP"],
-"stufe1":"Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Das kantonale nominale Bruttoinlandprodukt stieg von 1999 bis 2008 relativ stark, danach war das Wachstum moderat. Die Staatsausgaben in Basel-Stadt erhöhten sich vor allem in den letzten Jahren überdurchschnittlich.",
-"erlaeuterungen":"Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_00_00_00_00_009",
-"parentId":null,
-"children":["6335"],
-"renderLink":[],
-"quellenangabe":["Eidgenössische Finanzverwaltung","BAK Economics"],
-"externalLinks":[""]
-}
+Jahr	Nominales BIP BS	Staatsausgaben BS
+1995	100	100
+1996	98	105
+1997	98	106
+1998	101	106
+1999	103	105
+2000	111	110
+2001	118	120
+2002	123	116
+2003	128	117
+2004	135	115
+2005	140	119
+2006	149	120
+2007	159	152
+2008	163	130
+2009	161	116
+2010	163	125
+2011	167	125
+2012	169	134
+2013	167	135
+2014	168	140
+2015	170	147

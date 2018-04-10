@@ -1,30 +1,43 @@
-{"title":"Anzahl Betreibungen seit 1974",
-"subtitle":"",
-"kuerzel":"I.06.3.04912",
-"kuerzelKunde":"",
-"description":"Anzahl Betreibungen seit 1974",
-"id":4912,
-"thema":"06 Produktion, Handel",
-"unterthema":"Betreibungen und Konkurse",
-"kennzahlenset":"",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Einkommen","Konsum","Konkurs"],
-"stufe1":"",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Seit den 1990er-Jahren hat sich die Anzahl Betreibungen im Kanton Basel-Stadt von 40 000 auf knapp 80 000 Fälle im Jahr verdoppelt.",
-"erlaeuterungen":"",
-"template":"line001",
-"option":"options001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Beitreibungs- und Konkursamt Basel-Stadt"],
-"externalLinks":[""]
-}
+Jahr,Anzahl Betreibungen
+1974,37565
+1975,37374
+1976,39407
+1977,46234
+1978,55009
+1979,48153
+1980,49029
+1981,47501
+1982,53103
+1983,51244
+1984,46578
+1985,46503
+1986,44962
+1987,44469
+1988,41581
+1989,41941
+1990,39663
+1991,46323
+1992,46411
+1993,49661
+1994,47872
+1995,48867
+1996,47770
+1997,52919
+1998,50350
+1999,51363
+2000,55646
+2001,62791
+2002,64524
+2003,65117
+2004,72178
+2005,71831
+2006,72563
+2007,71874
+2008,69327
+2009,73327
+2010,72940
+2011,72353
+2012,73479
+2013,72673
+2014,77379
+2015,76524

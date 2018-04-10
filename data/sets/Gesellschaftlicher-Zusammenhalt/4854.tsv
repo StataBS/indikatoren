@@ -1,29 +1,6 @@
-{"title":"Sicherheitsgefühl nachts im Quartier",
-"subtitle":"«Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?»",
-"kuerzel":"I.50.1.04854",
-"kuerzelKunde":"1.2.03",
-"description":"Sicherheitsgefühl nachts im Quartier",
-"id":4854,
-"thema":"50 Befragungen",
-"unterthema":"Bevölkerungsbefragung",
-"kennzahlenset":"Gesellschaftlicher-Zusammenhalt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2017-02-17T17:21:03.033",
-"schlagwort":["Quartier","Gefühl","Sicherheit"],
-"stufe1":"Kernbereich 1: Soziale Beziehungen",
-"stufe2":"1.2 Vertrauen in Mitmenschen",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"2015 wurde die Sicherheit nachts draussen im Vergleich zu den Vorjahren kritischer bewertet: 62,4% fühlten sich nachts im Quartier sehr oder eher sicher, das sind 1,1 Prozentpunkte weniger als 2011. Der Anteil der Befragten, die sich sehr sicher fühlten, ging im selben Zeitraum von 28,8% auf 24,5% zurück und seit 2003 um insgesamt mehr als 9 Prozentpunkte.",
-"erlaeuterungen":"",
-"template":"befragungenProzent001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_02_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9d"],
-"externalLinks":[""]
-}
+Antwort,Sehr sicher,Eher sicher,Eher unsicher,Ganz unsicher,Geht nachts nie raus,Weiss nicht / keine Angabe
+2003 (N=1497),33.7,36.2,16.6,5.8,7.7,0
+2005 (N=1510),34.2,35.5,16.9,6,7.4,0
+2007 (N=1509),29.8,37.4,18.9,6,7.9,0
+2011 (N=1516),28.8,34.8,23.3,7.1,6.1,0.1
+2015 (N=1506),24.5,37.9,22.2,7.4,7.9,0.1

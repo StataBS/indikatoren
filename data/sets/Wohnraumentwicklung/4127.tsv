@@ -1,29 +1,6 @@
-{"title":"Zufriedenheit mit dem Wohnungsangebot",
-"subtitle":"«Wie zufrieden sind sie mit dem Wohnungsangebot?»",
-"kuerzel":"I.50.1.04127",
-"kuerzelKunde":"0.1.A",
-"description":"Zufriedenheit mit dem Wohnungsangebot",
-"id":4127,
-"thema":"50 Befragungen",
-"unterthema":"Bevölkerungsbefragung",
-"kennzahlenset":"Wohnraumentwicklung",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2017-01-19T14:07:53.5353",
-"schlagwort":["Gebäude","Haushalt","Zufriedenheit"],
-"stufe1":"Leitgedanke",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Hälfte der Befragten ist mit dem Wohnungsangebot «eher zufrieden» oder «sehr zufrieden». Seit der ersten Bevölkerungsbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte.",
-"erlaeuterungen":"",
-"template":"befragungen001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_9"],
-"externalLinks":[""]
-}
+﻿Jahr	Weiss nicht / Keine Angabe	Sehr unzufrieden	Eher unzufrieden	Eher zufrieden	Sehr zufrieden	Total
+2003	274	49	342	601	186	1452
+2005	213	42	375	676	173	1479
+2007	259	23	278	744	170	1474
+2011	159	29	330	694	280	1492
+2015	202	80	401	551	152	1386

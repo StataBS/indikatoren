@@ -1,29 +1,18 @@
-{"title":"Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken",
-"subtitle":"",
-"kuerzel":"I.04.1.06339",
-"kuerzelKunde":"2.7",
-"description":"Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken",
-"id":6339,
-"thema":"04 Volkswirtschaft",
-"unterthema":"Volkseinkommen",
-"kennzahlenset":"Legislaturplan (Print)",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["BIP","Schulden"],
-"stufe1":"Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Nettoschulden haben sich seit dem Jahr 2000 von 19 132 auf 9 950 Franken pro Kopf im Jahr 2016 reduziert. Die Nettoschuldenquote liegt 2016 bei 3,0 ‰ des schweizerischen BIP.",
-"erlaeuterungen":"",
-"template":"line001_print",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"02_00_00_00_00_000",
-"parentId":6211,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Jahresbericht des Kantons Basel-Stadt"],
-"externalLinks":[""]
-}
+Jahr	 Nettoschuldenquote in ‰ (linke Skala)	 Nettoschulden pro Kopf in Franken (rechte Skala)
+2000	8.6	19131.6
+2001	8.5	19371
+2002	8.5	19605.6
+2003	8.1	18827.5
+2004	7.7	18441.8
+2005	6.9	16868.3
+2006	4.7	12231
+2007	5.5	14875.5
+2008	5.1	14389.8
+2009	4.6	13036
+2010	3.3	9495
+2011	3	8916
+2012	3.5	10631
+2013	3.2	10450
+2014	3	9944
+2015	2.9	9313
+2016	3	9950

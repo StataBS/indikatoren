@@ -1,29 +1,11 @@
-{"title":"Ausländer nach Art der Bewilligung",
-"subtitle":"nach Staatsangehörigkeit, Stand: 2016",
-"kuerzel":"I.01.1.06072",
-"kuerzelKunde":"A3-2",
-"description":"Ausländer nach Art der Bewilligung",
-"id":6072,
-"thema":"01 Bevölkerung",
-"unterthema":"Bestand und Struktur ",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Ausland","Bewilligung","Staatsangehörigkeit"],
-"stufe1":"Kapitel A Bevölkerungsstruktur",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Hauptsächlich im Besitz einer Niederlassungsbewilligung sind Personen aus Italien (74,0%), der Türkei (84,6%) und dem Balkan (82,3%). Ein etwas anderes Bild zeigt sich bei den Personen aus den EU-Oststaaten: Mit 18,6% ist der Anteil an Niederlassungsbewilligungen unterdurchschnittlich, dagegen der Anteil an Aufenthaltsbewillungen mit 72,2% im Vergleich zu den anderen ausgewählten Ländergruppen hoch. Die arabischen (19,9%) und afrikanischen (11,6%) Länder haben einen vergleichsweise hohen Anteil an vorläufig Aufgenommenen.",
-"erlaeuterungen":"Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_020",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
-}
+Staatsangehärigkeit	 C	 B	 F	 L	 N	 Übrige
+Deutschland	58.8	36.7	0.0	2.0	0.0	2.5
+Italien	74.0	23.5	0.0	1.5	0.0	1.0
+Türkei	84.6	14.5	0.3	0.2	0.2	0.2
+EU-17 + EFTA	55.0	39.8	0.0	3.0	0.0	2.2
+EU-Ost	18.6	72.2	0.0	8.0	0.0	1.2
+Balkan	82.3	16.2	0.7	0.3	0.4	0.2
+ Mittel- und Südamerika	43.9	51.1	0.1	2.9	0.0	2.0
+Arabische Länder	32.0	36.0	19.9	1.4	10.5	0.1
+Afrikanische Länder	38.6	42.2	11.6	0.7	6.4	0.5
+Übrige Länder	33.1	51.4	2.2	8.7	1.8	2.7

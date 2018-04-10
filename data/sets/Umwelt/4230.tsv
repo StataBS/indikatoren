@@ -1,29 +1,7 @@
-{"title":"Bruttoenergieverbrauch nach Energieträger",
-"subtitle":"Gigawattstunden",
-"kuerzel":"I.08.1.04230",
-"kuerzelKunde":"0602",
-"description":"Bruttoenergieverbrauch nach Energieträger",
-"id":4230,
-"thema":"08 Energie",
-"unterthema":"Verbrauch",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Energie"],
-"stufe1":"Thema Energie",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Bruttoenergieverbrauch pro Jahr nach Energieträger. Der Bruttoverbrauch zeigt die Energie in der Form, in welcher sie in den Kanton importiert oder im Kanton aus natürlichen Quellen gewonnen wird (ohne Flugtreibstoffe). Im Gegensatz dazu bildet der Endenergieverbrauch die Energie in der Form ab, wie sie beim Endverbraucher eingesetzt wird. Die Differenz zwischen den beiden Grössen entspricht den Zu- respektive Abgängen in Folge der Umwandlung in Elektrizität und Fernwärme.<br><br>Der Bruttoenergieverbrauch wird für die leitungsgebundenen Energieträger erhoben und für die nicht leitungsgebundenen Energieträger geschätzt. Für detaillierte Angaben zur Methodik siehe weiterführende Informationen.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"06_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt"],
-"externalLinks":["<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0602' target = '_blank'>Umweltbericht beider Basel</a>"]
-}
+"Jahr"	"Heizöl (inkl. Flüssiggas)"	"Treibstoffe"	"Erdgas"	"Elektrizität"	"Kehricht	 Industrieabfall"	"Erneuerbare Energieträger"
+1995	1666	629	1911	1413	643	241.1
+2000	1459	726	1855	1457	665	239
+2004	1189	756	2018.6	1572	568.1	272.3
+2010	550.9	768.6	1956.7	1287.2	800.2	376.3
+2012	479.9	740.6	1713.5	1136.7	836	439.1
+2014	394.8	734.6	1417.1	978.4	845.2	503.7

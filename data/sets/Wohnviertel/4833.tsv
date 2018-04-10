@@ -1,29 +1,22 @@
-{"title":"Fläche pro Wohnung",
-"subtitle":"Stand: 2017",
-"kuerzel":"I.09.1.04833",
-"kuerzelKunde":"RU-4.A",
-"description":"Fläche pro Wohnung",
-"id":4833,
-"thema":"09 Bau-, Wohnungswesen",
-"unterthema":"Gebäude und Wohnungen",
-"kennzahlenset":"Wohnviertel",
-"raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2018-02-20T17:29:58.5858",
-"schlagwort":["Gebäude"],
-"stufe1":"Bereich 2: Raum und Umwelt",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Im Wohnviertel Klybeck sind die Wohnungen im Durchschnitt am kleinsten, in der Gemeinde Bettingen am grössten.",
-"erlaeuterungen":"Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_00_00_00_00_007",
-"parentId":null,
-"children":["5120"],
-"renderLink":["5120"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
-"externalLinks":[""]
-}
+﻿wohnviertel_id	Fläche pro Wohnung	Rang	wohnviertel	jahr_num
+18	65.419001868	1	Klybeck	2017
+13	66.391708968	2	Clara	2017
+17	67.244349005	3	Matthäus	2017
+10	68.511779293	4	Iselin	2017
+16	69.447001989	5	Rosental	2017
+4	70.004521477	6	Breite	2017
+19	70.42468773	7	Kleinhüningen	2017
+6	70.427866942	8	Gundeldingen	2017
+11	71.680063511	9	St. Johann	2017
+12	72.17236927	10	Altstadt Kleinbasel	2017
+9	74.544131911	11	Gotthelf	2017
+15	80.960734102	12	Hirzbrunnen	2017
+2	81.703573521	13	Vorstädte	2017
+3	81.96043395	14	Am Ring	2017
+14	83.225836146	15	Wettstein	2017
+1	89.982578397	16	Altstadt Grossbasel	2017
+8	92.894002211	17	Bachletten	2017
+5	93.466570467	18	St. Alban	2017
+20	102.73655706	19	Riehen	2017
+7	109.24315693	20	Bruderholz	2017
+30	120.82306163	21	Bettingen	2017

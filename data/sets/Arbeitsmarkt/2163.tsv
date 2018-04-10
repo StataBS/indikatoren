@@ -1,29 +1,41 @@
-{"title":"Grenzgänger im Dienstleistungssektor (I)",
-"subtitle":"Bestand Ende Quartal, Basel-Stadt",
-"kuerzel":"I.03.5.02163",
-"kuerzelKunde":"3.4-06",
-"description":"Grenzgänger im Dienstleistungssektor (I)",
-"id":2163,
-"thema":"03 Erwerbsleben",
-"unterthema":"Ausländische Erwerbstätige",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Ausländer","Bewilligung","Erwerbstätigkeit","Branche"],
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Ausländische Erwerbstätige",
-"stufe3":"Grenzgänger",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Etwas zurückentwickelt hat sich in den letzten Jahren die Zahl der Grenzgänger in der Branche Handel und Reparatur. Sie betrug 2017 zum Ende des 4. Quartals 3 224 (-5,0% gegenüber Vorjahr). Mehr Grenzgänger als früher arbeiten in der Branche Information und Kommunikation, aktuell 1 374 (+5,6% gegenüber Vorjahr). Im Gastgewerbe sowie in der Branche Verkehr und Lagerei gingen die Zahlen in den letzten Jahren etwas zurück.",
-"erlaeuterungen":"Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_04_01_00_00_406",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"],
-"externalLinks":[""]
-}
+	Handel, Reparatur	Verkehr, Lagerei	Gastgewerbe	Information, Kommunikation
+2008-1	3741	1689	1307	649
+2008-2	3858	1655	1299	631
+2008-3	3758	1592	1219	575
+2008-4	3723	1621	1171	581
+2009-1	3750	1561	1176	652
+2009-2	3898	1578	1201	659
+2009-3	3925	1572	1193	683
+2009-4	3975	1548	1201	657
+2010-1	4047	1598	1240	727
+2010-2	4126	1595	1268	725
+2010-3	4079	1611	1225	770
+2010-4	4008	1493	1291	687
+2011-1	4007	1391	1247	732
+2011-2	4009	1369	1249	752
+2011-3	4054	1416	1232	806
+2011-4	3996	1469	1249	786
+2012-1	3991	1491	1215	826
+2012-2	3872	1540	1217	878
+2012-3	3750	1487	1185	984
+2012-4	3688	1432	1145	972
+2013-1	3546	1362	1128	992
+2013-2	3515	1348	1116	997
+2013-3	3525	1362	1109	980
+2013-4	3527	1332	1079	1068
+2014-1	3519	1318	1082	1115
+2014-2	3523	1309	1105	1060
+2014-3	3530	1304	1099	1098
+2014-4	3530	1261	1086	1101
+2015-1	3508	1295	1077	1126
+2015-2	3492	1286	1075	1154
+2015-3	3494	1298	1083	1251
+2015-4	3492	1311	1076	1241
+2016-1	3402	1294	1089	1310
+2016-2	3380	1218	1079	1250
+2016-3	3393	1221	1060	1282
+2016-4	3393	1167	1066	1301
+2017-1	3341	1176	1052	1263
+2017-2	3326	1151	1013	1319
+2017-3	3256	1140	1009	1364
+2017-4	3224	1116	1001	1374

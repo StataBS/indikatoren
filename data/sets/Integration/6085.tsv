@@ -1,29 +1,7 @@
-{"title":"Lernendenquote nach Staatsangehörigkeit und Geschlecht",
-"subtitle":"",
-"kuerzel":"I.15.3.06085",
-"kuerzelKunde":"B3-2",
-"description":"Lernendenquote nach Staatsangehörigkeit und Geschlecht",
-"id":6085,
-"thema":"15 Bildung",
-"unterthema":"Berufsfachschulen",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Geschlecht","Staatsangehörigkeit","Ausbildung"],
-"stufe1":"Kapitel B Schule und Bildung",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Lernende mit ausländischem Pass und Wohnort Basel-Stadt schliessen mit Lehrbetrieben im Kanton Basel-Stadt seit 2014 häufiger einen Lehrvertrag ab als Schweizerinnen und Schweizer. In den Jahren davor war das genau umgekehrt. Nach Geschlecht differenziert liegen die Quoten bei den Schweizer Lernenden weiter auseinander als bei deren ausländischen Kolleginnen und Kollegen.",
-"erlaeuterungen":"Lernendenquote: Lernende mit Wohnort Basel-Stadt und Lehrbetrieb im Kanton Basel-Stadt im Verhältnis zu den 16- bis 20-Jährigen der Wohnbevölkerung des Kantons Basel-Stadt. Dadurch sind insbesondere Lernende mit Wohnort-Basel-Stadt und Lehrbetrieb in Basel-Landschaft ausgeklammert.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_00_00_00_00_006",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"],
-"externalLinks":[""]
-}
+Staatsangehörigkeit	 Schweiz	 Schweizer	 Schweizerinnen	 Ausland	 Ausländer	 Ausländerinnen
+2011	23.4	24.6	22.1	19.4	20.7	18.2
+2012	23.6	25.9	21.4	21.0	21.6	20.3
+2013	24.7	27.7	21.8	22.7	23.6	21.9
+2014	24.4	27.2	21.5	25.3	26.7	23.7
+2015	27.5	30.2	24.9	30.1	31.8	28.4
+2016	28.4	31.1	25.7	31.3	31.4	31.3

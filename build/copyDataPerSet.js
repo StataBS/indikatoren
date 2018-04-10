@@ -10,6 +10,9 @@ files.forEach(function(filepath){
     var indikatorenset = indikator.kennzahlenset;
     var destDir = 'data/sets/' + (indikatorenset ? indikatorenset : '(empty)');
     var destFile = destDir + '/' + id + '.tsv';
+    var sourceFile = 'data/' + id + '.tsv';
     fs.ensureDirSync(destDir);
-    fs.copySync(filepath, destFile);
+    if (indikator.visible){
+        fs.copySync(sourceFile, destFile);
+    }
 });

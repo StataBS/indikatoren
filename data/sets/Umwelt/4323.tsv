@@ -1,29 +1,36 @@
-{"title":"Bruttoinlandprodukt",
-"subtitle":"Millionen CHF",
-"kuerzel":"I.04.1.04323",
-"kuerzelKunde":"1701",
-"description":"Bruttoinlandprodukt",
-"id":4323,
-"thema":"04 Volkswirtschaft",
-"unterthema":"Volkseinkommen",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Energie","Abfall","Luft"],
-"stufe1":"Thema Querschnittsindikatoren",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen).<br><br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"17_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["BAK Economics","Bundesamt für Statistik (BFS)"],
-"externalLinks":["<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/volkswirtschaft/erhebungen/bipkt.html' target = '_blank'>BIP der Kantone (BFS)</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1701' target = '_blank'>Umweltbericht beider Basel</a>"]
-}
+"Jahr"	"Bruttoinlandprodukt"	"DateTime"
+1980	8746.8	" "
+1981	9304.6	" "
+1982	10033.6	" "
+1983	10468.1	" "
+1984	11241.2	" "
+1985	12046.7	" "
+1986	13102.8	" "
+1987	13350.7	" "
+1988	14151.8	" "
+1989	15315.4	" "
+1990	16299.1	" "
+1991	17086.4	" "
+1992	17506.8	" "
+1993	18081.5	" "
+1994	18529.8	" "
+1995	18501.4	" "
+1996	18223.3	" "
+1997	18064.2	" "
+1998	18611.1	" "
+1999	19011	" "
+2000	20461.9	" "
+2001	21865.6	" "
+2002	22750.1	" "
+2003	23654.2	" "
+2004	24943.6	" "
+2005	25964.3	" "
+2006	27659.3	" "
+2007	29429.6	" "
+2008	30092.2	" "
+2009	29792.2	" "
+2010	30173.8	" "
+2011	30893.8	" "
+2012	31206.7	" "
+2013	30989.7	" "
+2014	31083.2	" "

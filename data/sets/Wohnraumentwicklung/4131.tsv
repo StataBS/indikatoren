@@ -1,29 +1,6 @@
-{"title":"Wohnungsbelegung",
-"subtitle":"nach Belegungsart",
-"kuerzel":"I.09.1.04131",
-"kuerzelKunde":"0.1.C",
-"description":"Wohnungsbelegung",
-"id":4131,
-"thema":"09 Bau-, Wohnungswesen",
-"unterthema":"Gebäude und Wohnungen",
-"kennzahlenset":"Wohnraumentwicklung",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-01-18T10:57:22.2222",
-"schlagwort":["Gebäude","Haushalt"],
-"stufe1":"Leitgedanke",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Der Anteil der Genossenschaftswohnungen ist seit 2013 leicht angestiegen.",
-"erlaeuterungen":"Die Daten beziehen sich auf die belegten Wohnungen (Haushalte). Unter sonstigen Wohnungen werden Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen gezählt.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
-"externalLinks":[""]
-}
+Jahr	Eigentümerwohungen	Genossenschaftswohnungen	Mietwohnungen	sonstige Wohnungen	gesamter Wohnungsbestand
+2013	14991	10383	72504	607	98713
+2014	15047	10393	72268	589	98500
+2015	15096	10359	71967	606	98198
+2016	15186	10566	71949	612	98466
+2017	15148	10588	71856	621	98376

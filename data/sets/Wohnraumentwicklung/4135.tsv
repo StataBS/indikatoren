@@ -1,29 +1,14 @@
-{"title":"Nettowohnungsproduktion",
-"subtitle":"",
-"kuerzel":"I.09.1.04135",
-"kuerzelKunde":"1.2.C-1",
-"description":"Nettowohnungsproduktion",
-"id":4135,
-"thema":"09 Bau-, Wohnungswesen",
-"unterthema":"Gebäude und Wohnungen",
-"kennzahlenset":"Wohnraumentwicklung",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-01-18T13:02:39.3939",
-"schlagwort":["Gebäude","Haushalt"],
-"stufe1":"Ziel 1: Gesellschaftspolitik",
-"stufe2":"1.2 Wohnraum erhalten und erneuern",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"2017 war der Umbausaldo wiederum positiv wie stets seit 2011. Dazu beigetragen hat eine Vielzahl von Dachstockausbauten.",
-"erlaeuterungen":"",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_02_00_00_00_000",
-"parentId":null,
-"children":["5816"],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
-"externalLinks":[""]
-}
+﻿Jahr	Neubau	Abbruch	Umbausaldo	Nettowohnungsproduktion
+2005	301	-14	-72	215
+2006	353	-134	-56	163
+2007	120	-107	-74	-61
+2008	201	-125	-28	48
+2009	468	-150	-18	300
+2010	372	-146	-18	208
+2011	351	-58	18	311
+2012	268	-26	28	270
+2013	177	-41	35	171
+2014	369	-53	180	496
+2015	788	-178	25	635
+2016	412	-75	106	443
+2017	369	-59	54	364

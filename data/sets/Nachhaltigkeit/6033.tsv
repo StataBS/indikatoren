@@ -1,29 +1,58 @@
-{"title":"Hitzetage",
-"subtitle":"Anzahl Tage",
-"kuerzel":"I.02.3.06033",
-"kuerzelKunde":"NL12",
-"description":"Hitzetage",
-"id":6033,
-"thema":"02 Raum, Umwelt",
-"unterthema":"Witterung",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Klima"],
-"stufe1":"Bereich Natürliche Lebensgrundlagen",
-"stufe2":"Klimawandel",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Im Jahr 2017 wurden 28 Hitzetage verzeichnet. Das Maximum innerhalb des dargestellten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
-"erlaeuterungen":"Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat.<br><b<br>Die Summe der Tage eines Jahres, an denen das Maximum der Lufttemperatur über 30&nbsp;°C liegt, ergibt die Anzahl Hitzetage pro Jahr. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33&#039; N / 7°35&#039; E).",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"04_02_00_00_00_412",
-"parentId":4300,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Meteorologischer Verein der Region Basel"],
-"externalLinks":[""]
-}
+﻿Jahr	Anzahl Hitzetage
+1961	18
+1962	20
+1963	9
+1964	24
+1965	6
+1966	7
+1967	12
+1968	6
+1969	7
+1970	4
+1971	14
+1972	4
+1973	10
+1974	7
+1975	11
+1976	23
+1977	1
+1978	2
+1979	7
+1980	5
+1981	8
+1982	10
+1983	23
+1984	9
+1985	10
+1986	16
+1987	12
+1988	8
+1989	10
+1990	16
+1991	16
+1992	22
+1993	11
+1994	28
+1995	20
+1996	6
+1997	13
+1998	18
+1999	7
+2000	15
+2001	14
+2002	12
+2003	43
+2004	14
+2005	19
+2006	25
+2007	8
+2008	9
+2009	17
+2010	19
+2011	15
+2012	13
+2013	15
+2014	9
+2015	32
+2016	13
+2017	28

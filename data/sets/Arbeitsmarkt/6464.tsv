@@ -1,29 +1,17 @@
-{"title":"Löhne nach Branche",
-"subtitle":"Nordwestschweiz, Median in Franken",
-"kuerzel":"I.03.3.06464",
-"kuerzelKunde":"2.4-01",
-"description":"Löhne nach Branche",
-"id":6464,
-"thema":"03 Erwerbsleben",
-"unterthema":"Löhne ",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Grossregion"],
-"aktualisierungsdatum":"",
-"schlagwort":["Erwerb"],
-"stufe1":"Übersicht Basler Arbeitsmarkt",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die höchsten Medianlöhne auf dem Arbeitsmarkt der Nordwestschweiz werden mit einem Bruttolohn von rund 10 900 Franken in der Pharmazeutischen Industrie gezahlt. Auch bei den Finanz- und Versicherungsdienstleistungen (8 500 Franken), dem Bereich Information und Kommunikation (8 200 Franken), Beratung, Planung, Forschung (8 000) und der Branche Öffentliche Verwaltung und Sozialversicherungen (7 400) werden überdurchschnittliche Löhne bezahlt. Die tiefsten Löhne werden im Mittel im Gastgewerbe mit 4 300 Franken bezahlt. Sie liegen damit bei etwa zwei Dritteln des Medianlohnes über alle Branchen der Nordwestschweiz von 6 600 Franken.",
-"erlaeuterungen":"Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_401",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"],
-"externalLinks":[""]
-}
+Branche	2010	2012	2014
+"Industrie (inkl. Pharma, exkl. Energie, Wasser)"	6988	6930	6827
+Pharma	9912	10832	10866
+Baugewerbe	5889	6105	6068
+Handel, Reparatur	5379	5553	5722
+Verkehr, Lagerei	5697	5885	6210
+Gastgewerbe	4163	4365	4333
+"Information, Kommunikation"	7876	8156	8165
+"Finanz- und Versicherungs-DL"	7976	8411	8461
+"Beratung, Planung, Forschung"	7619	7897	7975
+Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL	5170	4727	5299
+"Personalvermittlung, -üerlassung"	5738	5496	5599
+"Öffentliche Verwaltung"	7467	7411	7369
+"Erziehung, Unterricht"	8673	8323	6 569
+"Gesundheits-, Sozialwesen"	6173	6187	6259
+Kunst und Unterhaltung	5936	5922	6315
+Total	6447	6653	6578

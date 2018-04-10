@@ -1,29 +1,3 @@
-{"title":"Strukturen der Fliessgewässer",
-"subtitle":"Kilometer",
-"kuerzel":"I.02.19.04303",
-"kuerzelKunde":"1608",
-"description":"Strukturen der Fliessgewässer",
-"id":4303,
-"thema":"02 Raum, Umwelt",
-"unterthema":"Wasser",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Biodiversität","Wasser"],
-"stufe1":"Thema Wasser",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-03-1608' target='_blank'>Umweltbericht beider Basel</a>.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"16_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"externalLinks":["<a href = 'http://www.modul-stufen-konzept.ch/fg/index' target = '_blank'>Modul-Stufen-Konzept</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1608' target = '_blank'>Umweltbericht beider Basel</a>"]
-}
+"Jahr"	"natürlich	 naturnah"	"wenig beeinträchtigt"	"stark beeinträchtigt"	"künstlich	 naturfremd"	"eingedolt"
+2006	1	4.5	13.2	6.8	9.5
+2014	2	9.7	13.1	13.4	9.4

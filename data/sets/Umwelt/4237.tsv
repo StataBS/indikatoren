@@ -1,29 +1,24 @@
-{"title":"Wassertemperatur Grundwasser",
-"subtitle":"°C",
-"kuerzel":"I.02.19.04237",
-"kuerzelKunde":"1610",
-"description":"Wassertemperatur Grundwasser",
-"id":4237,
-"thema":"02 Raum, Umwelt",
-"unterthema":"Wasser",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Wasser"],
-"stufe1":"Thema Wasser",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target='_blank'>Umweltbericht beider Basel</a>.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"16_00_00_00_00_000",
-"parentId":6166,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"externalLinks":["<a href = 'http://www.aue.bs.ch/wasser/grundwasser/grundwasserpegel-grundwasserqualitaet.html' target = '_blank'>Hydrologisches Jahrbuch BS</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target = '_blank'>Umweltbericht beider Basel</a>"]
-}
+"Jahr"	"Wassertemperatur Grundwasser"
+1994	13.8
+1995	13.9
+1996	13.7
+1997	13.6
+1998	13.6
+1999	13.7
+2000	13.8
+2001	13.9
+2002	13.9
+2003	14
+2004	14.2
+2005	14.1
+2006	13.9
+2007	14
+2008	14
+2009	14
+2010	14.3
+2011	14.3
+2012	14.5
+2013	14.5
+2014	14.6
+2015	14.7
+2016	14.7

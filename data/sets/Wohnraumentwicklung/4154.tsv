@@ -1,29 +1,8 @@
-{"title":"Bestand an Notwohnungen und ihre Belegung",
-"subtitle":"",
-"kuerzel":"I.13.3.04154",
-"kuerzelKunde":"4.1.E",
-"description":"Bestand an Notwohnungen und ihre Belegung",
-"id":4154,
-"thema":"13 Soziale Sicherheit",
-"unterthema":"Sozialhilfe und Notwohnen",
-"kennzahlenset":"Wohnraumentwicklung",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-01-18T11:56:25.2525",
-"schlagwort":["Gebäude","Haushalt"],
-"stufe1":"Ziel 4: Sozialpolitik",
-"stufe2":"4.1 Unterstützung Benachteiligter",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die wenigen Notwohnungen – 2017 machten sie 0,13% des Wohnungsbestandes aus – waren immer zu mindestens 86% belegt. In den Jahren 2013 und 2014 betrug die Belegung sogar mehr als 95%. Durch Aufstockungen bestehender Blockrandsiedlungen konnte das Angebot seit 2013 um 50 Logis erhöht werden.",
-"erlaeuterungen":"Die Belegung wird Ende Jahr gemäss den Einträgen im Einwohnerregister gemessen.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"05_01_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Sozialhilfe Basel"],
-"externalLinks":[""]
-}
+﻿Jahr	Notwohnungen	Notwohnungen belegt	Belegungsquote (Anteil belegter Wohnungen in %, rechte Skala)
+2011	104	94	90.3846153846154
+2012	101	95	94.0594059405941
+2013	98	95	96.9387755102041
+2014	102	99	97.0588235294118
+2015	141	130	92.1985815602837
+2016	141	126	89.3617021276596
+2017	145	125	86.2068965517241

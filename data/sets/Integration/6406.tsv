@@ -1,29 +1,8 @@
-{"title":"Arbeitslosenquote nach Staatsangehörigkeit",
-"subtitle":"",
-"kuerzel":"I.03.4.06406",
-"kuerzelKunde":"C1-1",
-"description":"Arbeitslosenquote nach Staatsangehörigkeit",
-"id":6406,
-"thema":"03 Erwerbsleben",
-"unterthema":"Arbeitslose ",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Staatsangehörigkeit","Arbeitslosigkeit"],
-"stufe1":"Kapitel C Erwerb und Auskommen",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Arbeitslosenquote der Ausländer ist in Basel-Stadt von 4,6% im Jahr 2014 auf 5,5% im Jahr 2016 angestiegen, während diejenige der Schweizer relativ konstant bei rund 2,9% liegt. Die Quote der Personen aus EU-Ost ist deutlich angestiegen, von 3,2% im Jahr 2010 auf 12,0% im Jahr 2016. Von den Ausländern weisen die Deutschen die tiefsten Quoten auf (2016: 3,5%).",
-"erlaeuterungen":"Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu erhöhen, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Sturkturerhebungen 2010-2014 verwendet worden.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_00_00_00_00_001",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)","Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"],
-"externalLinks":[""]
-}
+Jahr	 Schweiz	 Deutschland	 Italien	 Türkei	 EU-17 & EFTA	 EU-Ost	 Balkan	 Mittel- & Südamerika	 Arabische Länder	 Afrikanische Länder	 Übrige Länder
+2010	3.3	3.1	5.5	11.7	3.4	3.2	8.9	6	9.6	9.5	3.6
+2011	2.9	2.8	4.9	9.4	3.5	3.7	7.3	5.9	7.3	6.4	3.5
+2012	2.9	2.9	4.4	8.6	3.8	4.5	7	6.5	7.1	8	3.3
+2013	2.9	3.1	4.6	9.1	4.2	5.9	6.9	6.6	7	7.4	3
+2014	2.7	2.9	4.6	8.1	4.4	6.8	6.8	5.1	7.4	6.4	3.2
+2015	2.8	3.3	4.6	8	5.2	8.5	7.3	5.7	7.6	8	3.5
+2016	2.9	3.5	5.2	8.5	5.5	12	7	6.1	7.8	8	3.9
