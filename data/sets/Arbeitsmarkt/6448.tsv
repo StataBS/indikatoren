@@ -1,29 +1,12 @@
-{"title":"Wertschöpfungsentwicklung im Dienstleistungssektor (II)",
-"subtitle":"Basel-Stadt, real, indexiert (Jahr 2007 = 100)",
-"kuerzel":"I.04.2.06448",
-"kuerzelKunde":"3.1-06",
-"description":"Wertschöpfungsentwicklung im Dienstleistungssektor (II)",
-"id":6448,
-"thema":"04 Volkswirtschaft",
-"unterthema":"Konjunktur",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Branche"],
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Bruttoinlandprodukt und Wertschöpfung",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Alle abgebildeten Dienstleistungsbranchen verzeichneten seit dem Jahr 2007 einen Anstieg der realen Wertschöpfung: Am stärksten wuchs sie mit 29,1% in der Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (gegenüber Vorjahr +1,9%). Der in ihr enthaltene Bereich Personalvermittlung und         -überlassung verzeichnete einen Wert von +16,8% (gegenüber Vorjahr +1,9%). Die Branche Beratung, Planung und Forschung wies ein Plus von 26,5% (gegenüber Vorjahr +3,3%) auf, die Finanz- und Versicherungsdienstleistungen eines von 6,2% (gegenüber Vorjahr +1,6%).",
-"erlaeuterungen":"Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_01_00_00_00_106",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["BAK Economics"],
-"externalLinks":[""]
-}
+﻿"Jahr"	"Finanz-, Versicherungs-DL"	"Beratung, Planung, Forschung"	"Gebäudebet., Sicherh., sonst. wirtsch. DL (inkl. Pers.verm., -überl.)"	"Personalvermittlung, -überlassung"
+2007	100.0	100.0	100.0	100.0
+2008	94.4	93.1	94.5	90.5
+2009	89.8	99.7	93.7	87.6
+2010	90.7	99.7	100.0	90.1
+2011	93.5	99.6	104.8	92.1
+2012	96.8	108.4	113.9	101.3
+2013	103.0	116.8	119.8	107.1
+2014	102.7	120.7	124.0	111.4
+2015	104.5	122.5	126.7	114.6
+2016	106.2	126.5	129.1	116.8
+

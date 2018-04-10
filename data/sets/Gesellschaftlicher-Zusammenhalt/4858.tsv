@@ -1,29 +1,13 @@
-{"title":"Beurteilung der Chancengleichheit",
-"subtitle":"«Die Chancengleichheit wird von den Behörden zielstrebig vorangetrieben.»",
-"kuerzel":"I.50.1.04858",
-"kuerzelKunde":"2.2.03",
-"description":"Beurteilung der Chancengleichheit",
-"id":4858,
-"thema":"50 Befragungen",
-"unterthema":"Bevölkerungsbefragung",
-"kennzahlenset":"Gesellschaftlicher-Zusammenhalt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Geschlecht","Verwaltung","Grosser Rat","Beurteilung"],
-"stufe1":"Kernbereich 2: Verbundenheit",
-"stufe2":"2.2 Vertrauen in Institutionen",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"2015 zeigten sich 51,9% der Befragten mit der Aussage, dass die kantonalen Behörden die Chancengleichheit von Männern und Frauen zielstrebig vorantreiben, eher oder sehr einverstanden. Somit ist die Zustimmung seit 2007 (44,5% eher oder sehr Einverstandene) beständig gestiegen.",
-"erlaeuterungen":"",
-"template":"befragungenProzent001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_02_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_7"],
-"externalLinks":[""]
-}
+Antwort,Sehr einverstanden,Eher einverstanden,Weiss nicht / keine Angabe.,Eher nicht einverstanden,Überhaupt nicht einverstanden
+2003 (N=1497),14.8,31.7,22.8,13.2,17.4
+2005 (N=1510),12.2,33.3,25.3,12.4,16.8
+2007 (N=1509),10.0,34.5,25.9,10.3,19.2
+2011 (N=1516),18.3,31.7,25.3,9.0,15.6
+2015 (N=1506),12.7,39.2,24.2,6.8,17.0
+
+
+
+
+
+
+

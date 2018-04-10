@@ -1,29 +1,11 @@
-{"title":"Logiernächte nach Herkunft der Gäste",
-"subtitle":"indexiert (2008 = 100)",
-"kuerzel":"I.10.1.06547",
-"kuerzelKunde":"2-12",
-"description":"Logiernächte nach Herkunft der Gäste",
-"id":6547,
-"thema":"10 Tourismus",
-"unterthema":"Hotellerie",
-"kennzahlenset":"Tourismus",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Ausländer","Übernachtung","Gäste","Hotelbetten"],
-"stufe1":"",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Seit dem Jahr 2008 ist Anzahl Logiernächte der inländischen Gäste um 41,9% gewachsen. Die ausländischen Besucher verzeichnen seit 2008 einen Zuwachs der Übernachtungen um 27,3%.",
-"erlaeuterungen":"",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"_012",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Tourismusstatistik"],
-"externalLinks":[""]
-}
+Jahr	 Inland	 Ausland
+2008	100	100
+2009	105.0678185	100.8847551
+2010	101.5875618	108.0874389
+2011	102.5400989	108.8444524
+2012	104.8597124	108.2347573
+2013	107.9916758	110.2901721
+2014	121.7039272	112.5565648
+2015	133.2210274	113.1811889
+2016	135.903321	114.2887524
+2017	141.9450894	127.2899481

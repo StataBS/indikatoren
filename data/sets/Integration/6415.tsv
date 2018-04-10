@@ -1,29 +1,5 @@
-{"title":"Erwerbstätigenquote",
-"subtitle":"nach Staatsangehörigkeit und Geschlecht, gepoolte Daten 2011 bis 2015",
-"kuerzel":"I.03.1.06415",
-"kuerzelKunde":"C2-1",
-"description":"Erwerbstätigenquote",
-"id":6415,
-"thema":"03 Erwerbsleben",
-"unterthema":"Erwerbspersonen ",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Geschlecht","Staatsangehörigkeit"],
-"stufe1":"Kapitel C Erwerb und Auskommen",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Erwerbstätigenquoten der Schweizer und der Ausländer lagen in allen betrachteten Jahren nahe beieinander. Das Gleiche gilt für die Schweizerinnen und Ausländerinnen. In den letzten Jahren haben sich die Quoten der Männer und Frauen angeglichen. Dieser Effekt war bei den Schweizer Staatsangehörigen etwas stärker ausgeprägt.",
-"erlaeuterungen":"Ab 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Linien geben die Konfidenzintervalle auf dem 95%-Niveau an.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_00_00_00_00_009",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)"],
-"externalLinks":[""]
-}
+﻿"Jahr"	"Schweizer"	"Schweizer 95% Vertrauensintervall"	"Schweizer 95% Vertrauensintervall Obergrenze"	"Schweizerinnen"	"Schweizerinnen 95% Vertrauensintervall"	"Schweizerinnen 95% Vertrauensintervall Obergrenze"	"Ausländer"	"Ausländer 95% Vertrauensintervall"	"Ausländer 95% Vertrauensintervall Obergrenze"	"Ausländerinnen"	"Ausländerinnen 95% Vertrauensintervall"	"Ausländerinnen 95% Vertrauensintervall Obergrenze"
+"1990"	0.847	""	""	0.595	""	""	0.862	""	""	0.624	""	""
+"2000"	0.793	""	""	0.676	""	""	0.780	""	""	0.642	""	""
+"2011-2015"	0.757	0.746	0.768	0.727	0.716	0.737	0.765	0.751	0.779	0.656	0.640	0.672
+

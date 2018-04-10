@@ -1,29 +1,27 @@
-{"title":"Kantonaler Wettbewerbsindikator (KWI)",
-"subtitle":"Basel-Stadt im kantonalen Vergleich, Stand: 2016",
-"kuerzel":"I.04.2.06126",
-"kuerzelKunde":"1.1",
-"description":"Kantonaler Wettbewerbsindikator (KWI)",
-"id":6126,
-"thema":"04 Volkswirtschaft",
-"unterthema":"Konjunktur",
-"kennzahlenset":"Legislaturplan",
-"raeumlicheGliederung":["Schweiz"],
-"aktualisierungsdatum":"",
-"schlagwort":["Schweiz","Standort","Kantonsvergleich"],
-"stufe1":"Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Im Jahr 2016 liegt Basel-Stadt beim Kantonalen Wettbewerbsindikatorder UBS mit einem Wert von 88,4 auf Rang 3 aller Schweizer Kantone. Der Nachbarkanton Basel-Landschaft belegt Rang 9.",
-"erlaeuterungen":"Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_001",
-"parentId":null,
-"children":["6050","6283"],
-"renderLink":[],
-"quellenangabe":["UBS Switzerland AG"],
-"externalLinks":[""]
-}
+Kanton KWI
+ZG	100.0
+ZH	96.5
+BS	88.4
+AG	82.1
+LU	79.3
+NW	77.4
+VD	76.9
+SZ	75.7
+BL	72.8
+GE	70.4
+TG	66.2
+FR	64.7
+SG	63.8
+OW	63.8
+SH	63.2
+SO	62.7
+BE	60.9
+AR	59.7
+AI	59.2
+NE	55.8
+TI	51.8
+GL	49.9
+UR	43
+GR	41.9
+VS	36.8
+JU	36.1

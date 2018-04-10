@@ -1,29 +1,21 @@
-{"title":"Bevölkerungspyramide der Schweizerinnen und Schweizer",
-"subtitle":"Stand: 2016",
-"kuerzel":"I.01.1.06066",
-"kuerzelKunde":"A2-4",
-"description":"Bevölkerungspyramide der Schweizerinnen und Schweizer",
-"id":6066,
-"thema":"01 Bevölkerung",
-"unterthema":"Bestand und Struktur ",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Geschlecht","Bevölkerung","Staatsangehörigkeit"],
-"stufe1":"Kapitel A Bevölkerungsstruktur",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"2016 ist die Basis der Alterspyramide der Schweizerinnen und Schweizer etwas breiter als 1997, der Anteil der Kinder und Jugendlichen hat zugenommen.",
-"erlaeuterungen":"Prozentanteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
-"template":"populationPyramid001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_014",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
-}
+Alter	Männer	Frauen
+0-4	2.2	2
+5-10	1.9	1.9
+10-14	1.9	1.8
+15-19	2.2	2
+20-24	2.9	3.5
+25-29	3.6	4
+30-34	3.2	3.3
+35-39	2.7	2.6
+40-44	2.4	2.5
+45-49	2.9	3.1
+50-54	3.6	3.8
+55-59	3.4	3.8
+60-64	3	3.4
+65-69	2.7	3.3
+70-74	2.5	3.2
+75-79	1.9	2.9
+80-84	1.6	2.7
+85-89	1.1	2.3
+90-94	0.4	1.2
+>94	0.1	0.4

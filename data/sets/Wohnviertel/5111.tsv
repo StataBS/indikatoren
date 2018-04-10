@@ -1,29 +1,22 @@
-{"title":"Anteil Personen ohne Religionszugehörigkeit",
-"subtitle":"Stand: 2017",
-"kuerzel":"I.01.7.05111",
-"kuerzelKunde":"GS-3.B",
-"description":"Anteil Personen ohne Religionszugehörigkeit",
-"id":5111,
-"thema":"01 Bevölkerung",
-"unterthema":"Religionen",
-"kennzahlenset":"Wohnviertel",
-"raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2017-05-04T14:56:38.3838",
-"schlagwort":["Religion"],
-"stufe1":"Bereich 1: Gesellschaft und Soziales",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Der Anteil Personen ohne Religionszugehörigkeit ist im Wohnviertel Kleinhüningen mit 39% am geringsten, im Wohnviertel Altstadt Kleinbasel mit 57% am höchsten.",
-"erlaeuterungen":"Anteil Personen ohne Religionszugehörigkeit an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
-"template":"map001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_006",
-"parentId":4824,
-"children":[],
-"renderLink":["4824"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
-}
+﻿wohnviertel_id	Anteil Konfessionslose	Rang	wohnviertel	jahr_num
+19	0.3948663854	1	Kleinhüningen	2017
+18	0.4121295658	2	Klybeck	2017
+16	0.4160230198	3	Rosental	2017
+30	0.4391267842	4	Bettingen	2017
+10	0.4521930085	5	Iselin	2017
+6	0.4567724109	6	Gundeldingen	2017
+17	0.4649990549	7	Matthäus	2017
+11	0.4697537473	8	St. Johann	2017
+13	0.4708619001	9	Clara	2017
+20	0.4805961755	10	Riehen	2017
+8	0.4814431465	11	Bachletten	2017
+7	0.485559762	12	Bruderholz	2017
+4	0.4916891285	13	Breite	2017
+5	0.4933679871	14	St. Alban	2017
+15	0.4971017604	15	Hirzbrunnen	2017
+9	0.5010147869	16	Gotthelf	2017
+3	0.5094357077	17	Am Ring	2017
+1	0.5196911197	18	Altstadt Grossbasel	2017
+14	0.5497287523	19	Wettstein	2017
+2	0.5509471585	20	Vorstädte	2017
+12	0.5706168831	21	Altstadt Kleinbasel	2017

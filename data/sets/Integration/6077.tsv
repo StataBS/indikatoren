@@ -1,29 +1,12 @@
-{"title":"Zusammengefasste Geburtenziffer",
-"subtitle":"Arithmetisches Mittel der Jahre 2006 bis 2016 nach Staatsangehörigkeit",
-"kuerzel":"I.01.3.06077",
-"kuerzelKunde":"A4-3",
-"description":"Zusammengefasste Geburtenziffer",
-"id":6077,
-"thema":"01 Bevölkerung",
-"unterthema":"Geburten und Todesfälle",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Bevölkerung","Staatsangehörigkeit"],
-"stufe1":"Kapitel A Bevölkerungsstruktur",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Im Mittel der Jahre 2006 bis 2016 wiesen die Frauen aus arabischen und afrikanischen Ländern sowie dem Balkan die höchsten zusammengefassten Geburtenziffern auf. Eher niedrig sind die zusammengefasste Geburtenziffern bei Schweizerinnen, Deutschen, Italienerinnen und bei Frauen aus der Ländergruppe EU-Ost.",
-"erlaeuterungen":"Die zusammengefasste Geburtenziffer bezeichnet die Anzahl Kinder, die eine Frau im Verlauf ihres Lebens zur Welt bringen würde, wenn für deren ganzes Leben die altersspezifischen Geburtenziffern (Zahl der Geburten der Frauen eines bestimmten Alters dividiert durch die Zahl aller Frauen dieses Alters multipliziert mit 1 000.) eines bestimmten Kalenderjahres konstant blieben. Das arithmetische Mittel wird hier berechnet indem man die zusammengefassten Geburtenziffern der einzelnen Jahre addiert und die Summe durch die Anzahl der berücksichtigten Jahre teilt.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_026",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
-}
+Ländergruppe	Arithmetisches Mitteld der Jahre 2006-2016
+Schweiz	1.13
+Deutschland	1.09
+Italien	1.08
+Türkei	2.04
+EU-17 + EFTA	1.30
+EU-Ost	1.02
+Balkan	2.15
+Nord-, Mittel- und Südamerika	1.59
+Arabische Länder	3.37
+Afrikanische Länder	2.56
+Übrige Länder	1.57

@@ -1,30 +1,6 @@
-{"title":"Zufriedenheit mit Grünanlagen und Parks am Wohnort",
-"subtitle":"«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?»",
-"kuerzel":"I.50.1.06251",
-"kuerzelKunde":"ST 5-1",
-"description":"Zufriedenheit mit Grünanlagen und Parks am Wohnort",
-"id":6251,
-"thema":"50 Befragungen",
-"unterthema":"Bevölkerungsbefragung",
-"kennzahlenset":"Richtplan (Print)",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Grünflächen"],
-"stufe1":"Sachgebiet Siedlung - Wohnen",
-"stufe2":"Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Über 90% der Befragten sind 2015 mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2005 jeweils leicht angestiegen.",
-"erlaeuterungen":"2003: N=1495, 2005: N=1509, 2007: N=1505, 2011: N=1516, 2015: N=1504.",
-"template":"befragungen001_print",
-"option":"options001",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"01_02_00_00_00_000",
-"parentId":5819,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"],
-"externalLinks":[""]
-}
+Jahr	Weiss nicht/ Keine Angabe	Sehr unzufrieden	Eher unzufrieden	Eher zufrieden	Sehr zufrieden
+2003	0.66889632107	2.742474916387	13.91304347826	41.471571906354	41.204013377926
+2005	0.662690523525	3.114645460569	14.314115308151	44.532803180914	37.375745526838
+2007	0.332225913621	2.059800664451	14.152823920265	47.840531561461	35.614617940199
+2011	0.395778364116	1.451187335092	9.4327176781	39.775725593667	48.944591029023
+2015	0.465425531914	0.930851063829	7.313829787234	41.622340425531	49.667553191489

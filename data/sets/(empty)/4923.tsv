@@ -1,30 +1,17 @@
-{"title":"Anzahl Gewaltstraftaten pro 100000 Einwohner",
-"subtitle":"",
-"kuerzel":"I.19.3.04923",
-"kuerzelKunde":"",
-"description":"Anzahl Gewaltstraftaten pro 100000 Einwohner",
-"id":4923,
-"thema":"19 Rechtspflege",
-"unterthema":"Strafvollzug",
-"kennzahlenset":"",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Bevölkerung","Verbrechen"],
-"stufe1":"",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Zahl der Gewaltstraftaten (vorsätzliche Tötungs- und Körperverletzungsdelikte, Raub, Vergewaltigung) pro 100 000 Einwohner der mittleren Wohnbevölkerung ging von 2005 bis 2007 zurück. Danach stieg die Zahl bis zum Jahr 2011 kontinuierlich. Seither wird wieder ein Rückgang verzeichnet.",
-"erlaeuterungen":"",
-"template":"line001",
-"option":"options001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"],
-"externalLinks":[""]
-}
+﻿Jahr,Gewaltstraftaten
+2000,347
+2001,318
+2002,390
+2003,384
+2004,407
+2005,349
+2006,306
+2007,268
+2008,310
+2009,374
+2010,409
+2011,464
+2012,462
+2013,411
+2014,350
+2015,335

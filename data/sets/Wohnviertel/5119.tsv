@@ -1,29 +1,22 @@
-{"title":"Anteil Grünflächen",
-"subtitle":"Stand: 2017",
-"kuerzel":"I.02.1.05119",
-"kuerzelKunde":"RU-3.B",
-"description":"Anteil Grünflächen",
-"id":5119,
-"thema":"02 Raum, Umwelt",
-"unterthema":"Räumliche Gliederung und Bodennutzung",
-"kennzahlenset":"Wohnviertel",
-"raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2017-03-17T14:12:26.2626",
-"schlagwort":["Grünflächen"],
-"stufe1":"Bereich 2: Raum und Umwelt",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Der Anteil Grünflächen ist in den beiden Landgemeinden Bettingen und Riehen am höchsten. Auch in den Wohnvierteln Bruderholz und Hirzbrunnen liegt er noch über 50%. Am geringsten ist der Anteil Grünflächen in den innenstädtischen Wohnvierteln Altstadt Grossbasel und Altstadt Kleinbasel.",
-"erlaeuterungen":"Anteil der Grünflächen an der gesamten Fläche des jeweiligen Wohnviertels. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert.",
-"template":"map001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_00_00_00_00_006",
-"parentId":4832,
-"children":[],
-"renderLink":["4832"],
-"quellenangabe":["Grundbuch- und Vermessungsamt Basel-Stadt"],
-"externalLinks":["Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=ru_gruen.gruenflaeche_ant' target='_blank'>Basler Atlas</a>."]
-}
+﻿wohnviertel_id	Anteil Grünflächen	Rang	wohnviertel	jahr_num
+1	0.0673	1	Altstadt Grossbasel	2017
+12	0.0809	2	Altstadt Kleinbasel	2017
+18	0.1193	3	Klybeck	2017
+16	0.1358	4	Rosental	2017
+13	0.1596	5	Clara	2017
+17	0.1657	6	Matthäus	2017
+6	0.176	7	Gundeldingen	2017
+2	0.1947	8	Vorstädte	2017
+19	0.2268	9	Kleinhüningen	2017
+3	0.2376	10	Am Ring	2017
+14	0.2786	11	Wettstein	2017
+11	0.2839	12	St. Johann	2017
+5	0.3221	13	St. Alban	2017
+9	0.3241	14	Gotthelf	2017
+4	0.3596	15	Breite	2017
+10	0.3692	16	Iselin	2017
+8	0.4132	17	Bachletten	2017
+15	0.5903	18	Hirzbrunnen	2017
+7	0.7138	19	Bruderholz	2017
+20	0.7956	20	Riehen	2017
+30	0.902	21	Bettingen	2017

@@ -1,29 +1,47 @@
-{"title":"Bevölkerung",
-"subtitle":"Anzahl Personen der mittleren Wohnbevölkerung",
-"kuerzel":"I.01.1.04318",
-"kuerzelKunde":"1702",
-"description":"Bevölkerung",
-"id":4318,
-"thema":"01 Bevölkerung",
-"unterthema":"Bestand und Struktur ",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Abfall","Biodiversität","Naturgefahren","Landschaft","Wald"],
-"stufe1":"Thema Querschnittsindikatoren",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Die mittlere Wohnbevölkerung entspricht der im Durchschnitt eines Kalenderjahres im Kanton wohnhaften Bevölkerung. <br><br>Für detaillierte Angaben zur Methodik der kantonalen Bevölkerungsstatistik siehe weiterführende Informationen.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"17_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt"],
-"externalLinks":["<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/1-bevoelkerung.html' target = '_blank'>Bevölkerungsstatistik BS</a>","<a href = 'http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Einwohner: Zentrale Begriffe BS</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1702' target = '_blank'>Umweltbericht beider Basel</a>"]
-}
+"Jahr"	"Bevölkerung"	"DateTime"
+1971	238292	" "
+1972	235606	" "
+1973	232639	" "
+1974	228930	" "
+1975	223781	" "
+1976	218822	" "
+1977	214964	" "
+1978	212261	" "
+1979	210264	" "
+1980	209044	" "
+1981	207538	" "
+1982	206300	" "
+1983	204565	" "
+1984	203686	" "
+1985	203073	" "
+1986	201824	" "
+1987	199926	" "
+1988	198739	" "
+1989	197874	" "
+1990	197622	" "
+1991	199092	" "
+1992	199781	" "
+1993	200153	" "
+1994	200068	" "
+1995	199173	" "
+1996	198021	" "
+1997	195972	" "
+1998	193700	" "
+1999	191843	" "
+2000	189507	" "
+2001	188215	" "
+2002	188196	" "
+2003	188552	" "
+2004	188796	" "
+2005	188705	" "
+2006	188441	" "
+2007	188332	" "
+2008	189080	" "
+2009	190682	" "
+2010	191946	" "
+2011	192174	" "
+2012	192900	" "
+2013	194655	" "
+2014	196086	" "
+2015	197005	" "
+2016	197926	" "

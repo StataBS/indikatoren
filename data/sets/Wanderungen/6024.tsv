@@ -1,29 +1,11 @@
-{"title":"Entwicklung der aus dem Ausland Zugezogenen",
-"subtitle":"nach Zuzugsland, indexiert (Wert 2007 = 100)",
-"kuerzel":"I.01.5.06024",
-"kuerzelKunde":"1-5",
-"description":"Entwicklung der aus dem Ausland Zugezogenen",
-"id":6024,
-"thema":"01 Bevölkerung",
-"unterthema":"Wanderungen",
-"kennzahlenset":"Wanderungen",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Ausländer","Bevölkerung","Migration","Zuzug","Geburtsort","Wanderung"],
-"stufe1":"",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Zuwanderung aus Italien ist 2016 gegenüber 2007 um 142% (2007=100 Punkte) gestiegen. Zugenommen hat auch der Zuzug aus Frankreich (40%), aus den Vereinigten Staaten (23%) und aus dem Vereinigten Königreich (6%). Weniger Personen als 2007 kamen aus Deutschland. Hier nahm die Zahl der Zuzüger um 19% ab.",
-"erlaeuterungen":"",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"_005",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
-}
+Zuzugsland_id	 Deutschland	 Italien	 Frankreich	 USA	 UK	 Übriges Ausland	Total
+2007	100.0	100.0	100.0	100.0	100.0	100.0	100.0
+2008	100.5	120.7	97.6	109.5	115.6	122.5	111.8
+2009	91.9	115.4	97.0	120.7	124.5	115.6	106.7
+2010	89.0	128.0	94.6	135.2	124.2	117.0	107.4
+2011	83.2	130.1	96.2	125.9	146.4	137.9	115.1
+2012	75.7	160.6	96.8	121.6	125.0	144.5	114.8
+2013	83.8	210.6	117.5	139.9	139.3	158.5	128.5
+2014	73.9	229.7	137.4	122.8	105.9	133.5	113.0
+2015	75.0	232.5	164.2	108.3	99.0	137.1	115.2
+2016	81.4	241.9	139.8	122.8	105.9	139.8	119.0

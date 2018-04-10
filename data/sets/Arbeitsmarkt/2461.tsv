@@ -1,29 +1,38 @@
-{"title":"Zuwanderung von Erwerbstätigen nach Arbeitskanton",
-"subtitle":"Kurz- und Daueraufenthalter",
-"kuerzel":"I.03.5.02461",
-"kuerzelKunde":"3.4-09",
-"description":"Zuwanderung von Erwerbstätigen nach Arbeitskanton",
-"id":2461,
-"thema":"03 Erwerbsleben",
-"unterthema":"Ausländische Erwerbstätige",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Ausländer","Erwerbstätigkeit","Kantonsvergleich"],
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Ausländische Erwerbstätige",
-"stufe3":"Zuwanderung",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Zuwanderung von Erwerbstätigen liegt im Kanton Basel-Stadt im 4. Quartal 2017 bei 1 504 Personen. Im Gesamtjahr 2017 sind  7 188 ausländische Arbeitskräfte in den baselstädtischen Arbeitsmarkt zugewandert, was einem Anstieg um 1,4% gegenüber 2016 entspricht. Einen Rückgang der Zuwanderung verzeichneten 2017 die Kantone Aargau (-7,4%) und Zürich (-1,3%) sowie die Gesamtschweiz (-1,0%).",
-"erlaeuterungen":"Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_04_02_00_00_409",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"],
-"externalLinks":[""]
-}
+﻿"Datum"	"BS"	"BL"	"AG"	"ZH"
+"2009-01"	1421	528	1985	7243
+"2009-02"	1597	680	2277	6699
+"2009-03"	1709	643	2344	6888
+"2009-04"	1450	625	1669	6454
+"2010-01"	1447	460	1755	6430
+"2010-02"	1360	694	1996	6688
+"2010-03"	1790	689	2048	8134
+"2010-04"	1386	405	1524	6330
+"2011-01"	1469	543	2069	7690
+"2011-02"	1583	631	2471	7756
+"2011-03"	1967	630	2628	8038
+"2011-04"	1570	566	2065	6330
+"2012-01"	1675	537	1970	7194
+"2012-02"	1585	588	2601	7428
+"2012-03"	1786	704	2756	7731
+"2012-04"	1587	535	2022	6407
+"2013-01"	1819	560	2238	7421
+"2013-02"	1876	759	3143	8201
+"2013-03"	2012	876	3006	8513
+"2013-04"	1688	777	2519	8348
+"2014-01"	1813	706	2668	8377
+"2014-02"	1559	776	3009	7762
+"2014-03"	1999	872	3155	8307
+"2014-04"	1884	758	2373	7682
+"2015-01"	1938	662	2595	8228
+"2015-02"	1756	659	2927	8086
+"2015-03"	2092	657	3141	8905
+"2015-04"	1682	552	2475	7048
+"2016-01"	1850	603	2310	7781
+"2016-02"	1756	655	2726	8316
+"2016-03"	1992	669	2462	8401
+"2016-04"	1488	542	2041	6608
+"2017-01"	2103	629	2000	7758
+"2017-02"	1767	669	2439	8133
+"2017-03"	1814	636	2450	8202
+"2017-04"	1504	581	1942	6624
+

@@ -1,29 +1,11 @@
-{"title":"Pyramide der Arbeitslosenquote der Schweizer",
-"subtitle":"nach Geschlecht, Stand: 2016",
-"kuerzel":"I.03.4.06410",
-"kuerzelKunde":"C1-5",
-"description":"Pyramide der Arbeitslosenquote der Schweizer",
-"id":6410,
-"thema":"03 Erwerbsleben",
-"unterthema":"Arbeitslose ",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Geschlecht","Bevölkerung","Arbeitslosigkeit"],
-"stufe1":"Kapitel C Erwerb und Auskommen",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Bei den Schweizerinnen und Schweizern sind im Jahr 2016 die Männer zwischen 20 und 34 Jahren am stärksten von Arbeitslosigkeit betroffen. Die Arbeitslosenquote ist aber auch in diesen Altersgruppen tiefer als bei den ausländischen Männern. Bei den Frauen registrieren die Altersgruppen zwischen 25 und 34 Jahren die höchsten Quoten.",
-"erlaeuterungen":"Die Arbeitslosenquote im Jahr 2016 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2010-2014 berechnet.",
-"template":"populationPyramid001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_00_00_00_00_005",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)","Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"],
-"externalLinks":[""]
-}
+Alter	 Männer	 Frauen
+15-19	4.0	3.3
+20-24	5.0	3.1
+25-29	4.3	3.6
+30-34	4.8	3.6
+35-39	3.3	3.1
+40-44	2.6	2.7
+45-49	2.2	2.1
+50-54	2.8	2.2
+55-59	2.6	2.1
+60-64	2.9	2.5

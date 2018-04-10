@@ -1,30 +1,6 @@
-{"title":"Bewertung der Lebensqualität",
-"subtitle":"«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»",
-"kuerzel":"I.50.1.06252",
-"kuerzelKunde":"ST 5-2",
-"description":"Bewertung der Lebensqualität",
-"id":6252,
-"thema":"50 Befragungen",
-"unterthema":"Bevölkerungsbefragung",
-"kennzahlenset":"Richtplan (Print)",
-"raeumlicheGliederung":["Wohnviertel","Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Zufriedenheit"],
-"stufe1":"Sachgebiet Siedlung - Wohnen",
-"stufe2":"Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2015 vergeben die Bewohnerinnen und Bewohner im Durchschnitt der Lebensqualität im Stadtkanton eine 7,7. 2003 betrug die Durchschnittsnote 7,4.",
-"erlaeuterungen":"Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.<br>2003: N=1477, 2005: N=1500, 2007: N=1500, 2011: N=1513, 2015: N=1489.",
-"template":"befragungen001_print",
-"option":"options001",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"01_02_00_00_00_000",
-"parentId":5821,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"],
-"externalLinks":[""]
-}
+﻿Jahr	Note 10	Note 9	Note 8	Note 7	Note 6	Note 5	Note 4	Note 3	Note 2	Note 1	Notendurchschnitt
+2003 	8.124576844955	7.041299932295	38.997968855788	23.764387271496	9.749492213947	9.275558564658	1.557210561949	0.947867298578	0.203114421123	0.338524035206	7.376438727149
+2005 	6.8	10	36.4	24.2	9.533333333333	9.333333333333	2	1.133333333333	0.266666666666	0.333333333333	7.347333333333
+2007 	7	10.666666666666	38.066666666666	24.8	8.666666666666	7.6	1.733333333333	0.866666666666	0.266666666666	0.333333333333	7.445333333333
+2011 	13.417052214144	11.103767349636	38.466622604097	21.612690019828	6.146728354263	6.345009914077	1.321877065432	0.859220092531	0.264375413086	0.462656972901	7.705882352941
+2015 	11.618535930154	14.97649429147	39.623908663532	18.871725990597	6.245802552048	6.245802552048	1.074546675621	0.940228341168	0.134318334452	0.268636668905	7.764271323035

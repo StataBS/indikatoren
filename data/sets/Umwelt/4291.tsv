@@ -1,29 +1,9 @@
-{"title":"Gepflegte Jungwaldfläche",
-"subtitle":"Hektaren",
-"kuerzel":"I.07.1.04291",
-"kuerzelKunde":"1512",
-"description":"Gepflegte Jungwaldfläche",
-"id":4291,
-"thema":"07 Landwirtschaft",
-"unterthema":"Landwirtschaft",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Wald"],
-"stufe1":"Thema Wald",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1512' target='_blank'>Umweltbericht beider Basel</a>.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"15_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Landwirtschaftliches Zentrum Ebenrain"],
-"externalLinks":["Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1512' target = '_blank'>Umweltbericht beider Basel</a>"]
-}
+"Jahr"	"Gepflegte Jungwaldfläche"	"Zielwert Basel-Stadt"
+2008	21	25
+2009	22	25
+2010	20	25
+2011	22	25
+2012	28	25
+2013	30	25
+2014	10	25
+2015	15	25

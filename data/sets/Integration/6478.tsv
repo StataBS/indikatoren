@@ -1,29 +1,12 @@
-{"title":"Mittlere Wohnfläche pro Person",
-"subtitle":"in m² nach Staatsangehörigkeit, Stand: 2016",
-"kuerzel":"I.01.2.06478",
-"kuerzelKunde":"D2-4",
-"description":"Mittlere Wohnfläche pro Person",
-"id":6478,
-"thema":"01 Bevölkerung",
-"unterthema":"Haushalte",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Staatsangehörigkeit","Wohnen"],
-"stufe1":"Kapitel D Politik und Zusammenleben",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Vergleicht man Personen in Einpersonenhaushalten oder Vierpersonenhaushalten nach Ländergruppen miteinander, sind die Unterschiede geringer. Es zeigt sich jedoch ein ähnliches Bild wie im Indikator D2-2.",
-"erlaeuterungen":"Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"04_00_00_00_00_006",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
-"externalLinks":[""]
-}
+Staatsangehörigkeit	 Einpersonenhaushalt	 Vierpersonenhaushalt
+Schweiz	69.93916983	27.59977652
+Deutschland	62.9695909	29.07274712
+Italien	58.69795222	23.2288197
+Türkei	51.16049383	19.31703424
+EU-17 + EFTA	61.44411078	25.57100258
+EU-Ost	52.99325236	21.34290844
+Balkan	49.03116147	19.01353659
+Mittel- und Südamerika	58.375	23.07010135
+Arabische Länder	49.60365854	19.19524793
+Afrikanische Länder	46.74193548	18.82535461
+Übrige Länder	60.97945205	25.08126294

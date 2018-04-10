@@ -1,30 +1,15 @@
-{"title":"Landwirtschaftliche Nutzfläche und Anzahl Landwirtschaftsbetriebe",
-"subtitle":"",
-"kuerzel":"I.07.1.04914",
-"kuerzelKunde":"",
-"description":"Landwirtschaftliche Nutzfläche und Anzahl Landwirtschaftsbetriebe",
-"id":4914,
-"thema":"07 Landwirtschaft",
-"unterthema":"Landwirtschaft",
-"kennzahlenset":"",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Nachhaltigkeit","Grünflächen","Erwerb","Angestellte","Bauern","Boden"],
-"stufe1":"",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Sowohl die Anzahl landwirtschaftlicher Betriebe als auch die Nutzfläche sind in den letzten Jahren tendenziell rückläufig.",
-"erlaeuterungen":"Die landwirtschaftliche Nutzfläche eines baselstädtischen Betriebes kann auch im Ausland liegen.",
-"template":"line001",
-"option":"options001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Landwirtschaftliche Strukturerhebung"],
-"externalLinks":[""]
-}
+﻿Jahr,Anzahl Betriebe (linke Achse),Landwirtschaftliche Nutzfläche in Hektar (rechte Achse)
+2001,18,476
+2002,19,505
+2003,18,470
+2004,17,465
+2005,14,463
+2006,14,460
+2007,14,414
+2008,14,463
+2009,14,463
+2010,14,472
+2011,13,418
+2012,13,419
+2013,11,424
+2014,12,419

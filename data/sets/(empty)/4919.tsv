@@ -1,30 +1,27 @@
-{"title":"Grundpfandbelastung in Mio. Franken seit 1990",
-"subtitle":"",
-"kuerzel":"I.12.1.04919",
-"kuerzelKunde":"",
-"description":"Grundpfandbelastung in Mio. Franken seit 1990",
-"id":4919,
-"thema":"12 Finanzmärkte",
-"unterthema":"Grundpfandbelastung",
-"kennzahlenset":"",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Schulden","Boden"],
-"stufe1":"",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Seit 1990 hat sich die Summe der Grundpfandverschreibungen von 14 auf 28 Millionen verdoppelt.",
-"erlaeuterungen":"Zur Sicherung einer Forderung kann ein Grundstück mit einem Grundpfandrecht verpfändet werden. In Basel-Stadt kann dies in Form eines Schuldbriefs oder einer Grundpfandverschreibung erfolgen.",
-"template":"line001",
-"option":"options001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Grundbuch- und Vermessungsamt Basel-Stadt"],
-"externalLinks":[""]
-}
+﻿Jahr,Mio Franken
+1990,13578
+1991,14280
+1992,14647
+1993,15162
+1994,15761
+1995,16179
+1996,16595
+1997,17007
+1998,17387
+1999,17974
+2000,18477
+2001,19045
+2002,19500
+2003,20026
+2004,20688
+2005,21171
+2006,21715
+2007,23197
+2008,23951
+2009,24605
+2010,25141
+2011,25790
+2012,26374
+2013,27530
+2014,28097
+2015,28557

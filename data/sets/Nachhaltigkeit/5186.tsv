@@ -1,29 +1,23 @@
-{"title":"Strassenverkehrsunfälle und verunfallte Personen",
-"subtitle":"",
-"kuerzel":"I.11.7.05186",
-"kuerzelKunde":"GW10",
-"description":"Strassenverkehrsunfälle und verunfallte Personen",
-"id":5186,
-"thema":"11 Verkehr",
-"unterthema":"Strassenverkehrsunfälle",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Auto","Sicherheit","Verkehr"],
-"stufe1":"Bereich Grundbedürfnisse und Wohlergehen",
-"stufe2":"Sicherheit",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Zahl der Unfälle lag 2016 bei insgesamt 1 140. Diese setzt sich zusammen aus 871 durch die Polizei rapportierte Unfälle und 269 beanzeigte Parkschäden. Insgesamt gab es 490 verunfallte Personen: 389 Leichtverletzte, 97 Schwerverletzte und 4 Getötete.",
-"erlaeuterungen":"",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_04_00_00_00_310",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Kantonspolizei Basel-Stadt"],
-"externalLinks":[""]
-}
+﻿Jahr	Anzahl Unfälle	Verunfallte Personen
+1995	3965	980
+1996	3933	852
+1997	3905	935
+1998	2906	862
+1999	2919	859
+2000	2340	760
+2001	2221	708
+2002	2026	659
+2003	2010	666
+2004	1812	603
+2005	1864	694
+2006	1836	659
+2007	1746	603
+2008	1464	589
+2009	1350	567
+2010	1153	462
+2011	948	391
+2012	898	307
+2013	1029	399
+2014	1106	437
+2015	1126	473
+2016	1140	490

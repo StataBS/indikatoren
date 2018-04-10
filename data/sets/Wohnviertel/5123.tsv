@@ -1,29 +1,22 @@
-{"title":"Einkommenssteuer pro Veranlagung",
-"subtitle":"Stand: Steuerjahr 2015",
-"kuerzel":"I.18.2.05123",
-"kuerzelKunde":"WA-2.B",
-"description":"Einkommenssteuer pro Veranlagung",
-"id":5123,
-"thema":"18 Öffentliche Finanzen",
-"unterthema":"Steuern",
-"kennzahlenset":"Wohnviertel",
-"raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"",
-"schlagwort":["Bevölkerung"],
-"stufe1":"Bereich 3: Wirtschaft und Arbeit",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Das Wohnviertel Bruderholz verzeichnet im Durchschnitt die höchste Einkommenssteuer pro Veranlagung, die niedrigsten Werte weist das Wohnviertel Klybeck auf.",
-"erlaeuterungen":"Mittlere Einkommenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
-"template":"map001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_00_00_00_00_004",
-"parentId":4836,
-"children":[],
-"renderLink":["4836"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Steuerstatistik"],
-"externalLinks":["Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_eink.einkommen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."]
-}
+﻿wohnviertel_id	Einkommenssteuer pro Veranlagung	Rang	wohnviertel	jahr_num
+18	4462.0400684	1	Klybeck	2015
+19	4908.5997514	2	Kleinhüningen	2015
+13	6127.2649713	3	Clara	2015
+17	6313.3239063	4	Matthäus	2015
+10	6316.4219119	5	Iselin	2015
+16	6401.2032932	6	Rosental	2015
+11	6584.1510923	7	St. Johann	2015
+6	7236.5977818	8	Gundeldingen	2015
+4	7288.0944151	9	Breite	2015
+15	7527.794101	10	Hirzbrunnen	2015
+9	8647.5237414	11	Gotthelf	2015
+12	8736.081864	12	Altstadt Kleinbasel	2015
+14	10771.600289	13	Wettstein	2015
+3	11315.365443	14	Am Ring	2015
+8	11394.452909	15	Bachletten	2015
+20	13428.811448	16	Riehen	2015
+5	16187.932598	17	St. Alban	2015
+2	16404.67856	18	Vorstädte	2015
+1	16657.376716	19	Altstadt Grossbasel	2015
+30	19464.664013	20	Bettingen	2015
+7	19693.706779	21	Bruderholz	2015

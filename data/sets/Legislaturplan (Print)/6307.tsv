@@ -1,29 +1,11 @@
-{"title":"Transit durch die Region Basel",
-"subtitle":" in Brutto-Tonnen nach Verkehrsträger",
-"kuerzel":"I.06.4.06307",
-"kuerzelKunde":"5.3",
-"description":"Transit durch die Region Basel",
-"id":6307,
-"thema":"06 Produktion, Handel",
-"unterthema":"Aussenhandel",
-"kennzahlenset":"Legislaturplan (Print)",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["EuroAirport","Zoll","Zug","Mobilität"],
-"stufe1":"Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Der Transit durch die Region Basel nimmt auf der Strasse  seit 2010 kontinuierlich ab. Der Transit auf den Schienen hat seit 2007 zugenommen.",
-"erlaeuterungen":"",
-"template":"line001_print",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"05_00_00_00_00_000",
-"parentId":6155,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Eidgenössische Zollverwaltung EZV"],
-"externalLinks":[""]
-}
+Jahr	Schiene Ausgang	Schiene Eingang	Strasse Ausgang	Strasse Eingang	Pipeline Ausgang	Total
+2007	10266928	16549175	3214875	3124646	4393165	24066986
+2008	10595548	17035277	3250575	3128538	4112209	24276024
+2009	9413118	14759973	3028413	2897373	3211597	20868943
+2010	10465771	15584382	3455426	3087929	2316394	20988705
+2011	11624047	15811409	3211924	2713411	3046603	21571423
+2012	11540113	14734179	2842508	2353192	1862414	18949785
+2013	12946838	16160138	2617927	2147810	622155	18930102
+2014	13297398	16263522	2550360	2087055	1769525	20120102
+2015	14561328	18664332	2307428	1960269	1900627	22525228
+2016	14161516	18121077	2184931	1747475	510261	20378813

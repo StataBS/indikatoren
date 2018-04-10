@@ -1,29 +1,6 @@
-{"title":"Beurteilung der Schulen in Basel-Stadt",
-"subtitle":"«Die Schulen des Kantons Basel-Stadt bereiten die Jugendlichen gut fürs Leben vor.»",
-"kuerzel":"I.50.1.04857",
-"kuerzelKunde":"2.2.02",
-"description":"Beurteilung der Schulen in Basel-Stadt",
-"id":4857,
-"thema":"50 Befragungen",
-"unterthema":"Bevölkerungsbefragung",
-"kennzahlenset":"Gesellschaftlicher-Zusammenhalt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Zufriedenheit","Jugend","Bildung","Verwaltung","Beurteilung"],
-"stufe1":"Kernbereich 2: Verbundenheit",
-"stufe2":"2.2 Vertrauen in Institutionen",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Dass die Schulen im Kanton Basel-Stadt eine gute Vorbereitung fürs Leben im Allgemeinen sind, bejahten 2015 rund 43,6% der Befragten. Im Vergleich zum Jahr 2011 bedeutet dies einen Rückgang um 4,4 Prozentpunkte. Insbesondere bei der starken Zustimmung zu dieser Aussage gab es eine deutliche Abnahme von 2011 auf 2015.",
-"erlaeuterungen":"",
-"template":"befragungenProzent001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_02_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_1"],
-"externalLinks":[""]
-}
+Jahr,Sehr einverstanden,Eher einverstanden,Weiss nicht / keine Antwort,Eher nicht einverstanden,Überhaupt nicht einverstanden
+2003 (N=1497),8.5,25.4,20.4,28.5,17.2
+2005 (N=1510),7.4,24.4,30.8,15.4,22.1
+2007 (N=1509),5.9,26.8,22.6,31.5,13.2
+2011 (N=1516),16.9,31.1,16.4,25.5,10.2
+2015 (N=1506),9,34.6,23.2,25.5,7.6
