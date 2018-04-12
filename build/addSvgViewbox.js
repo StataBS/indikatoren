@@ -21,6 +21,7 @@ views.forEach(function(view){
                     var re = new RegExp (regex);
                     //hard-code viewbox to make sure all images have the same dimensions so that the grid looks good in Firefox, too
                     //var replace = 'viewBox="0 0 $1 $2">';
+                    //var replace = 'viewBox="0 0 485 415" width="485" height="415">';
                     var replace = 'viewBox="0 0 485 415">';
                     var svgWithViewBox = svg.replace(re, replace);            
                     fs.writeFileSync(path + indikator.id + '.svg', svgWithViewBox);
