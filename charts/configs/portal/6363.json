@@ -1,6 +1,7 @@
 {
   "series": [
     {
+      "xAxis": 0,
       "data": [
         [
           "Einpersonenhaushalte",
@@ -11,40 +12,40 @@
           32.6
         ],
         [
-          "&nbsp;&nbsp;&nbsp;&nbsp;Verheiratete\u002Fregistrierte Paare ohne Kinder",
-          46.11
+          "Verheiratete\u002Fregistrierte Paare ohne Kinder",
+          null
         ],
         [
-          "&nbsp;&nbsp;&nbsp;&nbsp;Paare mit minderjährigen Kindern",
-          25.08
+          "Paare mit minderjährigen Kindern",
+          null
         ],
         [
-          "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Verheiratete Paare mit Kindern",
-          24.88
+          "Verheiratete Paare mit Kindern",
+          null
         ],
         [
-          "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unverheiratete Paare mit Kindern",
-          26.8
+          "Unverheiratete Paare mit Kindern",
+          null
         ],
         [
-          "&nbsp;&nbsp;&nbsp;&nbsp;Einelternhaushalte mit minderjährigen Kindern",
-          30.03
+          "Einelternhaushalte mit minderj. Kindern",
+          null
         ],
         [
-          "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ohne weitere Personen",
-          32.79
+          "Ohne weitere Personen",
+          null
         ],
         [
-          "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mit Grosseltern(-teil)",
-          25.28
+          "Mit Grosseltern(-teil)",
+          null
         ],
         [
-          "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mit weiteren Personen",
-          25.58
+          "Mit weiteren Personen",
+          null
         ],
         [
-          "&nbsp;&nbsp;&nbsp;&nbsp;Eltern(-teil) mit nur volljährigen Kindern",
-          33.22
+          "Eltern(-teil) mit nur volljährigen Kindern",
+          null
         ],
         [
           "Nichtfamilienhaushalte",
@@ -53,32 +54,168 @@
       ],
       "name": "Mittlere Wohnfläche",
       "turboThreshold": 0
+    },
+    {
+      "xAxis": 1,
+      "data": [
+        [
+          "Einpersonenhaushalte",
+          null
+        ],
+        [
+          "Familienhaushalte",
+          null
+        ],
+        [
+          "Verheiratete\u002Fregistrierte Paare ohne Kinder",
+          46.11
+        ],
+        [
+          "Paare mit minderjährigen Kindern",
+          25.08
+        ],
+        [
+          "Verheiratete Paare mit Kindern",
+          null
+        ],
+        [
+          "Unverheiratete Paare mit Kindern",
+          null
+        ],
+        [
+          "Einelternhaushalte mit minderj. Kindern",
+          30.03
+        ],
+        [
+          "Ohne weitere Personen",
+          null
+        ],
+        [
+          "Mit Grosseltern(-teil)",
+          null
+        ],
+        [
+          "Mit weiteren Personen",
+          null
+        ],
+        [
+          "Eltern(-teil) mit nur volljährigen Kindern",
+          33.22
+        ],
+        [
+          "Nichtfamilienhaushalte",
+          null
+        ]
+      ],
+      "name": "Mittlere Wohnfläche",
+      "turboThreshold": 0
+    },
+    {
+      "xAxis": 2,
+      "data": [
+        [
+          "Einpersonenhaushalte",
+          null
+        ],
+        [
+          "Familienhaushalte",
+          null
+        ],
+        [
+          "Verheiratete\u002Fregistrierte Paare ohne Kinder",
+          null
+        ],
+        [
+          "Paare mit minderjährigen Kindern",
+          null
+        ],
+        [
+          "Verheiratete Paare mit Kindern",
+          24.88
+        ],
+        [
+          "Unverheiratete Paare mit Kindern",
+          26.8
+        ],
+        [
+          "Einelternhaushalte mit minderj. Kindern",
+          null
+        ],
+        [
+          "Ohne weitere Personen",
+          32.79
+        ],
+        [
+          "Mit Grosseltern(-teil)",
+          25.28
+        ],
+        [
+          "Mit weiteren Personen",
+          25.58
+        ],
+        [
+          "Eltern(-teil) mit nur volljährigen Kindern",
+          null
+        ],
+        [
+          "Nichtfamilienhaushalte",
+          null
+        ]
+      ],
+      "name": "Mittlere Wohnfläche",
+      "turboThreshold": 0
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "title": {
-      "style": {
-        "color": "#000000"
+  "xAxis": [
+    {
+      "type": "category",
+      "tickLength": 0,
+      "labels": {
+        "align": "left",
+        "step": 1,
+        "rotation": 0,
+        "x": -240,
+        "formatter": function () {
+              //get index of current value
+              var index = this.axis.names.indexOf(this.value);
+              //check if there's data at this index. if not, suppress axis label
+              return this.axis.series[0].yData[index] ? this.value : "";
+            }
       }
     },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      },
-      "useHTML": true,
-      "align": "left",
-      "step": 1,
-      "rotation": 0,
-      "x": -240,
-      "padding": -100
+    {
+      "type": "category",
+      "tickLength": 0,
+      "labels": {
+        "align": "left",
+        "step": 1,
+        "rotation": 0,
+        "x": -220,
+        "formatter": function () {
+              //get index of current value
+              var index = this.axis.names.indexOf(this.value);
+              //check if there's data at this index. if not, suppress axis label
+              return this.axis.series[0].yData[index] ? this.value : "";
+            }
+      }
     },
-    "tickLength": 0
-  },
+    {
+      "type": "category",
+      "tickLength": 0,
+      "labels": {
+        "align": "left",
+        "step": 1,
+        "rotation": 0,
+        "x": -200,
+        "formatter": function () {
+              //get index of current value
+              var index = this.axis.names.indexOf(this.value);
+              //check if there's data at this index. if not, suppress axis label
+              return this.axis.series[0].yData[index] ? this.value : "";
+            }
+      }
+    }
+  ],
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -131,7 +268,6 @@
       "color": "#000000"
     },
     "align": "left",
-    "useHTML": true,
     "text": "Mittlere Wohnfläche pro Person"
   },
   "subtitle": {
@@ -214,7 +350,6 @@
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E● \u003C\u002Fspan\u003E \u003Cb\u003E {point.y:.1f} m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "allowHTML": true,
     "filename": 6363
   }
 }
