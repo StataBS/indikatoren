@@ -19,7 +19,7 @@
 "erlaeuterungen":"Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.<br>Minderjährige Kinder: unter 18 Jahre, volljährige Kinder: 18 Jahre und älter. <br>Beim Haushaltstyp «Unverheiratete Paare mit Kindern» ist mindestens ein gemeinsames Kind vorhanden. Nichtfamilienhaushalte sind zum Beispiel Wohngemeinschaften oder unverheiratete Paare ohne mindestens ein gemeinsames Kind.",
 "template":"template001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
 "orderKey":"_000",
 "parentId":null,
 "children":[],
