@@ -615,7 +615,7 @@ id | visible | visibleInPortal | indikatorenset
 6346 | true | true | Legislaturplan
 6347 | true | false | Legislaturplan
 6348 | true | true | Legislaturplan
-6363 | true | false | 
+6363 | true | true | 
 6364 | true | true | 
 6365 | true | true | 
 6366 | true | true | 
