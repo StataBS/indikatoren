@@ -4,265 +4,273 @@
       "color": "#8b2223",
       "data": [
         [
-          1961,
+          null,
           18
         ],
         [
-          1962,
+          null,
           20
         ],
         [
-          1963,
+          null,
           9
         ],
         [
-          1964,
+          null,
           24
         ],
         [
-          1965,
+          null,
           6
         ],
         [
-          1966,
+          null,
           7
         ],
         [
-          1967,
+          null,
           12
         ],
         [
-          1968,
+          null,
           6
         ],
         [
-          1969,
+          null,
           7
         ],
         [
-          1970,
+          null,
           4
         ],
         [
-          1971,
+          null,
           14
         ],
         [
-          1972,
+          null,
           4
         ],
         [
-          1973,
+          null,
           10
         ],
         [
-          1974,
+          null,
           7
         ],
         [
-          1975,
+          null,
           11
         ],
         [
-          1976,
+          null,
           23
         ],
         [
-          1977,
+          null,
           1
         ],
         [
-          1978,
+          null,
           2
         ],
         [
-          1979,
+          null,
           7
         ],
         [
-          1980,
+          null,
           5
         ],
         [
-          1981,
+          null,
           8
         ],
         [
-          1982,
+          null,
           10
         ],
         [
-          1983,
+          null,
           23
         ],
         [
-          1984,
+          null,
           9
         ],
         [
-          1985,
+          null,
           10
         ],
         [
-          1986,
+          null,
           16
         ],
         [
-          1987,
+          null,
           12
         ],
         [
-          1988,
+          null,
           8
         ],
         [
-          1989,
+          null,
           10
         ],
         [
-          1990,
+          null,
           16
         ],
         [
-          1991,
+          null,
           16
         ],
         [
-          1992,
+          null,
           22
         ],
         [
-          1993,
+          null,
           11
         ],
         [
-          1994,
+          null,
           28
         ],
         [
-          1995,
+          null,
           20
         ],
         [
-          1996,
+          null,
           6
         ],
         [
-          1997,
+          null,
           13
         ],
         [
-          1998,
+          null,
           18
         ],
         [
-          1999,
+          null,
           7
         ],
         [
-          2000,
+          null,
           15
         ],
         [
-          2001,
+          null,
           14
         ],
         [
-          2002,
+          null,
           12
         ],
         [
-          2003,
+          null,
           43
         ],
         [
-          2004,
+          null,
           14
         ],
         [
-          2005,
+          null,
           19
         ],
         [
-          2006,
+          null,
           25
         ],
         [
-          2007,
+          null,
           8
         ],
         [
-          2008,
+          null,
           9
         ],
         [
-          2009,
+          null,
           17
         ],
         [
-          2010,
+          null,
           19
         ],
         [
-          2011,
+          null,
           15
         ],
         [
-          2012,
+          null,
           13
         ],
         [
-          2013,
+          null,
           15
         ],
         [
-          2014,
+          null,
           9
         ],
         [
-          2015,
+          null,
           32
         ],
         [
-          2016,
+          null,
           13
         ],
         [
-          2017,
+          null,
           28
         ]
       ],
       "name": "Anzahl Hitzetage"
     }
   ],
+  "isStock": true,
   "chart": {
-    "events": {
-      "load": function () {
-              this.credits.element.onclick = function() {};
-              
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-          }
-    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
     "width": 485,
     "height": 415,
-    "spacingBottom": 45,
+    "spacingBottom": 60,
     "style": {
       "fontFamily": "Arial"
     },
+    "events": {
+      "load": function () {
+                  this.credits.element.onclick = function() {};
+                  //for top-left legends with no x defined: move legend to x position of first yAxis
+                  if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                    this.update(
+                      {
+                        legend: {
+                          x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                        }
+                      }
+                    );
+                  }              
+                }
+    },
     "type": "column",
     "renderTo": "container-6033"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
   },
   "title": {
     "style": {
@@ -283,14 +291,32 @@
     "text": "Anzahl Tage",
     "align": "left"
   },
-  "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "ordinal": false,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "endOnTick": true,
+    "startOnTick": true,
+    "showFirstLabel": true,
+    "showLastLabel": true,
+    "tickInterval": 31536000000,
+    "minTickInterval": 31536000000
   },
   "yAxis": {
-    "min": 0,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000",
@@ -299,26 +325,24 @@
       "text": null
     },
     "labels": {
+      "y": 3,
       "style": {
         "color": "#000000"
       },
       "format": "{value:,.0f}"
+    },
+    "showLastLabel": true,
+    "endOnTick": true,
+    "tickAmount": 6,
+    "opposite": false
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
     }
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 5
-  },
   "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -334,13 +358,59 @@
     "text": "Quelle: Meteorologischer Verein der Region Basel"
   },
   "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
     "symbolRadius": 0
   },
+  "rangeSelector": {
+    "buttonPosition": {
+      "x": 10,
+      "y": 365
+    },
+    "buttons": [
+      {
+        "count": 10,
+        "type": "year",
+        "text": "10 J"
+      },
+      {
+        "count": 20,
+        "type": "year",
+        "text": "20 J"
+      },
+      {
+        "count": 50,
+        "type": "year",
+        "text": "50 J"
+      },
+      {
+        "type": "all",
+        "text": "Alle J"
+      }
+    ],
+    "buttonSpacing": 15,
+    "inputEnabled": false,
+    "selected": 1,
+    "inputDateFormat": "%Y",
+    "inputEditDateFormat": "%Y"
+  },
+  "navigator": {
+    "margin": 10,
+    "height": 30,
+    "series": {
+      "includeInCSVExport": false
+    },
+    "outlineColor": "#B9CFD7"
+  },
+  "tooltip": {
+    "dateTimeLabelFormats": {
+      "day": "%A, %e. %b, %Y"
+    },
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
   "exporting": {
+    "csv": {
+      "dateFormat": "%d.%m.%Y"
+    },
     "filename": 6033
   }
 }
