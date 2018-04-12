@@ -57,7 +57,7 @@
         "xAxis": {
             lineColor: '#B9CFD7', 
             lineWidth: 0.5,
-            "uniqueNames": true,
+            //"uniqueNames": true,
             "ordinal": false,
             "title": {
                 "style": {
