@@ -390,7 +390,7 @@ id | visible | visibleInPortal | indikatorenset
 6029 | true | false | Nachhaltigkeit
 6030 | true | false | Nachhaltigkeit
 6031 | true | false | Nachhaltigkeit
-6033 | true | false | Nachhaltigkeit
+6033 | true | true | Nachhaltigkeit
 6034 | true | false | Nachhaltigkeit
 6035 | true | false | Nachhaltigkeit
 6036 | true | true | Nachhaltigkeit

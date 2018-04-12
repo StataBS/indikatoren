@@ -82,9 +82,9 @@ visibleIndikatoren.forEach((element, i, arr) => {
 			}
 			else {
 			*/
-				//is mother chart available? 
+				//is mother chart available and visibleInPortal? 
 				var mother = arr.find(obj => obj.id == element.parentId);
-				if (mother){
+				if (mother && mother["visibleInPortal"]){
 					//is mother also in renderLink, so that both need to be displayed?
 					if (element.renderLink.indexOf(String(mother.id)) > -1){
 						console.log(element.id + ' has a parent which is also defined in renderLink, leaving visibleInPortal at true...');
@@ -96,7 +96,7 @@ visibleIndikatoren.forEach((element, i, arr) => {
 				}
 				//mother chart must be in an unpublished kennzahlenset
 				else {
-					console.log(element.id + ' does not have a parent with an available metadata file, leaving visibleInPortal at true...');
+					console.log(element.id + ' does not have a mother with an available metadata file and visibleInPortal == true, leaving visibleInPortal at true...');
 				}
 			//}q
 		}
