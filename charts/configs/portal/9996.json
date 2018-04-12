@@ -1,593 +1,87 @@
 {
   "series": [
     {
-      "color": "#71A3B5",
-      "type": "column",
-      "pointWidth": "15",
       "data": [
         [
-          "\"Altstadt Grossbasel\"",
-          262
-        ],
-        [
-          "\"Vorstädte\"",
-          563
-        ],
-        [
-          "\"Am Ring\"",
-          1515
-        ],
-        [
-          "\"Breite\"",
-          1277
-        ],
-        [
-          "\"St. Alban\"",
-          1856
-        ],
-        [
-          "\"Gundeldingen\"",
-          2698
-        ],
-        [
-          "\"Bruderholz\"",
-          1974
-        ],
-        [
-          "\"Bachletten\"",
-          2395
-        ],
-        [
-          "\"Gotthelf\"",
-          1100
-        ],
-        [
-          "\"Iselin\"",
-          2889
-        ],
-        [
-          "\"St. Johann\"",
-          3167
-        ],
-        [
-          "\"Altstadt Kleinbasel\"",
-          262
-        ],
-        [
-          "\"Clara\"",
-          504
-        ],
-        [
-          "\"Wettstein\"",
-          787
-        ],
-        [
-          "\"Hirzbrunnen\"",
-          1802
-        ],
-        [
-          "\"Rosental\"",
-          1290
-        ],
-        [
-          "\"Matthäus\"",
-          2477
-        ],
-        [
-          "\"Klybeck\"",
-          1416
-        ],
-        [
-          "\"Kleinhüningen\"",
-          565
-        ],
-        [
-          "\"Riehen\"",
-          4288
-        ],
-        [
-          "\"Bettingen\"",
-          215
-        ],
-        [
-          "\"Kanton BS\"",
-          33302
-        ]
-      ],
-      "name": "\"0-19\"",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#B00000",
-      "type": "column",
-      "pointWidth": "15",
-      "data": [
-        [
-          "\"Altstadt Grossbasel\"",
-          747
-        ],
-        [
-          "\"Vorstädte\"",
-          1583
-        ],
-        [
-          "\"Am Ring\"",
-          3634
-        ],
-        [
-          "\"Breite\"",
-          2848
-        ],
-        [
-          "\"St. Alban\"",
-          2861
-        ],
-        [
-          "\"Gundeldingen\"",
-          7243
-        ],
-        [
-          "\"Bruderholz\"",
-          1780
-        ],
-        [
-          "\"Bachletten\"",
-          3385
-        ],
-        [
-          "\"Gotthelf\"",
-          1952
-        ],
-        [
-          "\"Iselin\"",
-          5681
-        ],
-        [
-          "\"St. Johann\"",
-          6545
-        ],
-        [
-          "\"Altstadt Kleinbasel\"",
-          939
-        ],
-        [
-          "\"Clara\"",
-          1360
-        ],
-        [
-          "\"Wettstein\"",
-          1748
-        ],
-        [
-          "\"Hirzbrunnen\"",
-          2390
-        ],
-        [
-          "\"Rosental\"",
-          2893
-        ],
-        [
-          "\"Matthäus\"",
-          6029
-        ],
-        [
-          "\"Klybeck\"",
-          2366
-        ],
-        [
-          "\"Kleinhüningen\"",
-          839
-        ],
-        [
-          "\"Riehen\"",
-          3830
-        ],
-        [
-          "\"Bettingen\"",
-          254
-        ],
-        [
-          "\"Kanton BS\"",
-          60907
-        ]
-      ],
-      "name": "\"20-39\"",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FF8028",
-      "type": "column",
-      "pointWidth": "15",
-      "data": [
-        [
-          "\"Altstadt Grossbasel\"",
-          884
-        ],
-        [
-          "\"Vorstädte\"",
-          1395
-        ],
-        [
-          "\"Am Ring\"",
-          2737
-        ],
-        [
-          "\"Breite\"",
-          2353
-        ],
-        [
-          "\"St. Alban\"",
-          2911
-        ],
-        [
-          "\"Gundeldingen\"",
-          4959
-        ],
-        [
-          "\"Bruderholz\"",
-          2774
-        ],
-        [
-          "\"Bachletten\"",
-          3895
-        ],
-        [
-          "\"Gotthelf\"",
-          1947
-        ],
-        [
-          "\"Iselin\"",
-          4611
-        ],
-        [
-          "\"St. Johann\"",
-          5112
-        ],
-        [
-          "\"Altstadt Kleinbasel\"",
-          656
-        ],
-        [
-          "\"Clara\"",
-          1129
-        ],
-        [
-          "\"Wettstein\"",
-          1599
-        ],
-        [
-          "\"Hirzbrunnen\"",
-          2356
-        ],
-        [
-          "\"Rosental\"",
-          1577
-        ],
-        [
-          "\"Matthäus\"",
-          4461
-        ],
-        [
-          "\"Klybeck\"",
-          2111
-        ],
-        [
-          "\"Kleinhüningen\"",
-          769
-        ],
-        [
-          "\"Riehen\"",
-          6337
-        ],
-        [
-          "\"Bettingen\"",
-          354
-        ],
-        [
-          "\"Kanton BS\"",
-          54927
-        ]
-      ],
-      "name": "\"40-59\"",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#CD9C00",
-      "type": "column",
-      "pointWidth": "15",
-      "data": [
-        [
-          "\"Altstadt Grossbasel\"",
-          581
-        ],
-        [
-          "\"Vorstädte\"",
-          1043
-        ],
-        [
-          "\"Am Ring\"",
-          2047
-        ],
-        [
-          "\"Breite\"",
-          1693
-        ],
-        [
-          "\"St. Alban\"",
-          2194
-        ],
-        [
-          "\"Gundeldingen\"",
-          3020
-        ],
-        [
-          "\"Bruderholz\"",
-          1931
-        ],
-        [
-          "\"Bachletten\"",
-          2818
-        ],
-        [
-          "\"Gotthelf\"",
-          1349
-        ],
-        [
-          "\"Iselin\"",
-          2777
-        ],
-        [
-          "\"St. Johann\"",
-          2800
-        ],
-        [
-          "\"Altstadt Kleinbasel\"",
-          457
-        ],
-        [
-          "\"Clara\"",
-          768
-        ],
-        [
-          "\"Wettstein\"",
-          1058
-        ],
-        [
-          "\"Hirzbrunnen\"",
-          2007
-        ],
-        [
-          "\"Rosental\"",
-          660
-        ],
-        [
-          "\"Matthäus\"",
-          2431
-        ],
-        [
-          "\"Klybeck\"",
-          1089
-        ],
-        [
-          "\"Kleinhüningen\"",
-          516
-        ],
-        [
-          "\"Riehen\"",
-          4838
-        ],
-        [
-          "\"Bettingen\"",
-          268
-        ],
-        [
-          "\"Kanton BS\"",
-          36345
-        ]
-      ],
-      "name": "\"60-79\"",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#923F8D",
-      "type": "column",
-      "pointWidth": "15",
-      "data": [
-        [
-          "\"Altstadt Grossbasel\"",
-          116
-        ],
-        [
-          "\"Vorstädte\"",
-          428
-        ],
-        [
-          "\"Am Ring\"",
-          865
-        ],
-        [
-          "\"Breite\"",
-          727
-        ],
-        [
-          "\"St. Alban\"",
-          1331
-        ],
-        [
-          "\"Gundeldingen\"",
-          896
-        ],
-        [
-          "\"Bruderholz\"",
-          778
-        ],
-        [
-          "\"Bachletten\"",
-          1030
-        ],
-        [
-          "\"Gotthelf\"",
-          547
-        ],
-        [
-          "\"Iselin\"",
-          887
-        ],
-        [
-          "\"St. Johann\"",
-          1049
-        ],
-        [
-          "\"Altstadt Kleinbasel\"",
-          150
-        ],
-        [
-          "\"Clara\"",
-          320
-        ],
-        [
-          "\"Wettstein\"",
-          338
-        ],
-        [
-          "\"Hirzbrunnen\"",
-          759
-        ],
-        [
-          "\"Rosental\"",
-          183
-        ],
-        [
-          "\"Matthäus\"",
-          468
-        ],
-        [
-          "\"Klybeck\"",
-          273
-        ],
-        [
-          "\"Kleinhüningen\"",
-          155
-        ],
-        [
-          "\"Riehen\"",
-          2030
-        ],
-        [
-          "\"Bettingen\"",
-          99
-        ],
-        [
-          "\"Kanton BS\"",
-          13429
-        ]
-      ],
-      "name": "\"80-99\"",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#999999",
-      "type": "column",
-      "pointWidth": "15",
-      "data": [
-        [
-          "\"Altstadt Grossbasel\"",
-          0
-        ],
-        [
-          "\"Vorstädte\"",
+          "Anteil&nbsp;Sozialhilfeempfänger",
           3
         ],
         [
-          "\"Am Ring\"",
-          12
-        ],
-        [
-          "\"Breite\"",
+          "Anteil&nbsp;Ausländer",
           6
         ],
         [
-          "\"St. Alban\"",
-          5
+          "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
+          19
         ],
         [
-          "\"Gundeldingen\"",
-          3
+          "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
+          19
         ],
         [
-          "\"Bruderholz\"",
-          8
+          "Gymnasialquote",
+          20
         ],
         [
-          "\"Bachletten\"",
-          3
+          "Altersquotient",
+          9
         ],
         [
-          "\"Gotthelf\"",
-          3
+          "Anteil&nbsp;Sesshafte",
+          10
         ],
         [
-          "\"Iselin\"",
-          4
-        ],
-        [
-          "\"St. Johann\"",
-          7
-        ],
-        [
-          "\"Altstadt Kleinbasel\"",
-          0
-        ],
-        [
-          "\"Clara\"",
-          3
-        ],
-        [
-          "\"Wettstein\"",
-          0
-        ],
-        [
-          "\"Hirzbrunnen\"",
-          2
-        ],
-        [
-          "\"Rosental\"",
-          0
-        ],
-        [
-          "\"Matthäus\"",
-          5
-        ],
-        [
-          "\"Klybeck\"",
-          0
-        ],
-        [
-          "\"Kleinhüningen\"",
-          0
-        ],
-        [
-          "\"Riehen\"",
-          13
-        ],
-        [
-          "\"Bettingen\"",
+          "Jugendquotient",
           1
         ],
         [
-          "\"Kanton BS\"",
-          78
+          "Baujahr&nbsp;Wohngebaeude",
+          1
+        ],
+        [
+          "Anteil Einfamilienhäuser",
+          7
+        ],
+        [
+          "Anteil&nbsp;Grünfläche",
+          1
+        ],
+        [
+          "Fläche&nbsp;pro&nbsp;Wohnung",
+          16
+        ],
+        [
+          "Wohnfläche&nbsp;pro&nbsp;Kopf",
+          21
+        ],
+        [
+          "Vermögenssteuer",
+          19
+        ],
+        [
+          "Einkommenssteuer",
+          20
+        ],
+        [
+          "Erwerbstätigenquote",
+          21
+        ],
+        [
+          "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
+          20
+        ],
+        [
+          "Arbeitslosenquote",
+          1
         ]
       ],
-      "name": "\"100 u. ä.\"",
+      "name": "Rang",
       "turboThreshold": 0
     }
   ],
   "xAxis": {
     "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
+    "uniqueNames": false,
     "title": {
       "style": {
         "color": "#000000"
@@ -595,61 +89,76 @@
     },
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "fontSize": "10px"
       },
-      "rotation": -90
+      "useHTML": false,
+      "formatter": function (){
+                    return (this.value + "").replace(/&nbsp;/g, "\u00A0");
+                }
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "tickmarkPlacement": "on",
+    "lineWidth": 0,
+    "tickInterval": 1,
+    "gridLineColor": "white"
   },
   "chart": {
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {};
+                    //draw spider backgrounds
+                    //colors of StatA Bereiche: violett3 #923F8D, gruen3 #68AB2B, blau3 #689199
+                    var top = -Math.PI/2;
+                    var endPurple = top + 2*Math.PI/18*8;
+                    var endGreen = endPurple + 2*Math.PI/18*5;
+                    var endBlue = top;
+                    var centerX = 242.5;
+                    var centerY = 212.5;
+                    var radius = 136;
+                    this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
+                        fill: '#923F8D',
+                        stroke: '#923F8D',
+                        'stroke-width': 0,
+                        'fill-opacity': 0.5
+                    }).add();
+                    this.renderer.arc(centerX, centerY, radius, 0, endPurple, endGreen).attr({
+                        fill: '#68AB2B',
+                        stroke: '#68AB2B',
+                        'stroke-width': 0,
+                        'fill-opacity': 0.5
+                    }).add();
+                    this.renderer.arc(centerX, centerY, radius, 0, endGreen, endBlue).attr({
+                        fill: '#689199',
+                        stroke: '#689199',
+                        'stroke-width': 0, 
+                        'fill-opacity': 0.5
+                    }).add();
+                }
+    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 30,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
-    "events": {
-      "load": function (){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
-                }
-              );
-            }
-          }
-    },
+    "type": "area",
+    "polar": true,
     "renderTo": "container-9996"
   },
-  "plotOptions": {
-    "series": {
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "stacking": "percent",
-      "pointPadding": 0,
-      "groupPadding": 0.5
-    }
-  },
+  "pane": {},
   "title": {
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
+      "fontFamily": "Arial",
       "color": "#000000"
     },
     "align": "left",
-    "text": "Wohnbevölkerung nach Alter und Wohnviertel im Kanton Basel-Stadt 2017"
+    "text": "Quartierradar Altstadt Grossbasel"
   },
   "subtitle": {
     "style": {
@@ -658,13 +167,33 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2017",
+    "text": "Stand 2016",
     "align": "left"
   },
+  "plotOptions": {
+    "area": {
+      "lineColor": "white",
+      "lineWidth": 0.5
+    },
+    "series": {
+      "lineWidth": 1,
+      "color": "#808080",
+      "marker": {
+        "enabled": false
+      },
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
   "yAxis": {
-    "gridLineColor": "#B9CFD7",
-    "gridLineWidth": 0.5,
-    "lineColor": "#B9CFD7",
+    "lineColor": "white",
     "title": {
       "style": {
         "color": "#000000",
@@ -673,17 +202,23 @@
       "text": null
     },
     "labels": {
+      "y": 11,
+      "x": 0,
+      "overflow": "justified",
       "style": {
-        "color": "#000000"
-      },
-      "format": "{value:,.0f}%"
-    }
-  },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
+        "color": "white",
+        "textOverflow": "none",
+        "fontSize": "10px"
+      }
+    },
+    "min": 1,
+    "max": 21,
+    "tickInterval": 7,
+    "showFirstLabel": false,
+    "showLastLabel": true,
+    "gridLineInterpolation": "polygon",
+    "lineWidth": 0,
+    "gridLineColor": "white"
   },
   "credits": {
     "enabled": true,
@@ -698,26 +233,25 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt"
   },
   "legend": {
-    "symbolRadius": 0,
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "y": 55,
-    "itemMarginBottom": 5,
-    "itemWidth": 70,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "enabled": false,
+    "symbolRadius": 0
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    "padding": 0,
+    "useHTML": true,
+    "formatter": function () {
+                return "" + 
+                '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
+                  '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
+                  '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.series.name + ': <b>' + this.point.y + '</b><br/>' + 
+                '</div>';
+            }
   },
   "exporting": {
+    "allowHTML": false,
     "filename": 9996
   }
 }
