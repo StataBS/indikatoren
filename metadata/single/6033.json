@@ -17,7 +17,7 @@
 "stufe5":"", 
 "lesehilfe":"Im Jahr 2017 wurden 28 Hitzetage verzeichnet. Das Maximum innerhalb des dargestellten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
 "erlaeuterungen":"Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat.<br><b<br>Die Summe der Tage eines Jahres, an denen das Maximum der Lufttemperatur über 30&nbsp;°C liegt, ergibt die Anzahl Hitzetage pro Jahr. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33&#039; N / 7°35&#039; E).",
-"template":"line001",
+"template":"stock001",
 "visible":true,
 "visibleInPortal":true,
 "orderKey":"04_02_00_00_00_412",
