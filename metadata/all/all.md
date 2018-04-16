@@ -409,7 +409,7 @@ id | visible | visibleInPortal | indikatorenset
 6050 | true | false | Nachhaltigkeit
 6051 | true | true | Nachhaltigkeit
 6052 | true | true | Nachhaltigkeit
-6053 | true | true | Nachhaltigkeit
+6053 | true | false | Nachhaltigkeit
 6054 | true | false | Nachhaltigkeit
 6055 | true | true | Nachhaltigkeit
 6056 | true | true | Nachhaltigkeit
@@ -456,7 +456,7 @@ id | visible | visibleInPortal | indikatorenset
 6133 | true | false | Legislaturplan
 6134 | true | true | Legislaturplan
 6136 | true | true | Legislaturplan
-6137 | false |  | Legislaturplan
+6137 | true | true | Legislaturplan
 6138 | true | false | Legislaturplan
 6140 | true | true | Legislaturplan
 6141 | true | true | Legislaturplan
