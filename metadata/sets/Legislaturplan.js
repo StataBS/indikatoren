@@ -748,6 +748,42 @@ var indikatorensetData = [
 		"id": 6136
 	},
 	{
+		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
+		"subtitle": "",
+		"kuerzel": "I.03.4.06137",
+		"kuerzelKunde": "3.4",
+		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt 2017 auf 3,8% gesunken. Die Jugendarbeitslosenquote reduzierte sich 2017 auf 4,2%. Die Arbeitslosenquote der Personen über 50 Jahre lag mit 3,1% wie in den Vorjahren deutlich unterhalb des Durchschnitts.",
+		"erlaeuterungen": "Die Arbeitslosenquote berechnet sich folgendermassen: Registrierte Arbeitslose geteilt durch Erwerbspersonen mal 100.",
+		"template": "line001",
+		"orderKey": "03_00_00_00_00_005",
+		"parentId": null,
+		"children": [
+			"6053",
+			"6293"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6137
+	},
+	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
 		"subtitle": "pro Kopf in Franken",
 		"kuerzel": "I.04.1.06138",
