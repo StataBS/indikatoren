@@ -268,13 +268,13 @@
     "align": "left",
     "useHTML": false,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "y": 35,
     "itemWidth": 200
   },
   "exporting": {

@@ -222,11 +222,13 @@
       "style": {
         "color": "#000000",
         "width": 1,
+        "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
       "formatter": function () {
                   	 return this.value.replace("  ", "<br/>");
             },
+      "useHTML": true,
       "align": "left",
       "x": -140
     }
@@ -251,7 +253,12 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 30,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -344,7 +351,8 @@
     "align": "right",
     "useHTML": false,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
@@ -352,6 +360,7 @@
         }
   },
   "exporting": {
+    "allowHTML": true,
     "filename": 6028
   }
 }

@@ -290,7 +290,6 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 25,
     "itemWidth": 500,
     "itemMarginBottom": 5,
     "itemStyle": {

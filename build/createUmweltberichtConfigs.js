@@ -1,10 +1,8 @@
 // invoke in bash using this command line: 
 // node node_modules/casperjs/bin/casperjs.js build/createUmweltberichtConfigs.js
-/* 
-    global Highcharts
-*/
 
-var charts = [];
+var serialize = require('serialize-javascript');
+
 var casper = require('casper').create();
 //var urlbase = 'http://ub.basleratlas.ch/?format=chart_export2indikatorenportal&i=';
 var urlbase = 'http://ub.basleratlas.ch/?format=stata&k=bs&i=';
@@ -119,7 +117,15 @@ function getCharts() {
 }
 
 
+//from https://github.com/yahoo/serialize-javascript
+function deserialize(serializedJavascript){
+  return eval('(' + serializedJavascript + ')');
+}
+
+
 casper.run(function() {
     this.exit();
 });
+
+
 

@@ -32,7 +32,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	"y": 45,
+	//"y": 45,
  	itemWidth: 100,
 	"itemMarginBottom": 5,
     "itemStyle": {

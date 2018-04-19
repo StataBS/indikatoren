@@ -122,13 +122,11 @@
     } 
   },    
    "legend": {
-   	itemDistance: 12,
+   	itemDistance: 5,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    //"x": 25,
-	  "y": 45,    
     "itemStyle": {
       "fontWeight": "normal"
     }

@@ -146,7 +146,12 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 30,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -168,9 +173,8 @@
           }
     },
     "renderTo": "container-4911",
-    "marginBottom": 65,
-    "marginTop": 75,
-    "type": "column"
+    "type": "column",
+    "marginBottom": 65
   },
   "plotOptions": {
     "series": {
@@ -263,8 +267,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 118,
-    "y": 35,
     "itemStyle": {
       "fontWeight": "normal"
     }

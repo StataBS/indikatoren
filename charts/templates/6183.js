@@ -24,12 +24,13 @@
 	 {"color": "#083038", index: 3, legendIndex: 3},  /* */
      ],
   "legend": { 
-     y: 25,
+     //y: 25,
     "enabled": true,
     "layout": "horizontal",
     "itemWidth": 200,
     "verticalAlign": "top",
     "align": "left",
+
     "itemStyle": {
     "fontWeight": "normal"
     }

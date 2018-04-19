@@ -33,10 +33,10 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	"x": 25,
-	itemWidth: 100,
+    itemDistance: 0,
+    padding: 0,
     "itemStyle": {
-    "fontWeight": "normal"
+      "fontWeight": "normal"
     }
   },
   "series": [

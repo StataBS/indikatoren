@@ -1,8 +1,12 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<<<<<<< HEAD
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+=======
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" width="485" height="415">
+>>>>>>> master
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.0.4
   </desc>
   <defs>
     <clipPath>
@@ -40,7 +44,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 74 75 L 74 340"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(74,75) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(74,75) scale(1 1)" clip-path="url(#a)">
       <rect x="1" y="144" width="10" height="86" fill="#008AC3" class="highcharts-point"/>
       <rect x="13" y="151" width="10" height="77" fill="#008AC3" class="highcharts-point"/>
       <rect x="25" y="154" width="10" height="79" fill="#008AC3" class="highcharts-point"/>
@@ -68,8 +72,8 @@
       <rect x="284" y="61" width="10" height="141" fill="#008AC3" class="highcharts-point"/>
       <rect x="296" y="54" width="10" height="142" fill="#008AC3" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(74,75) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(74,75) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(74,75) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series " transform="translate(74,75) scale(1 1)" clip-path="url(#a)">
       <rect x="1" y="230" width="10" height="36" fill="#DC440E" class="highcharts-point"/>
       <rect x="13" y="228" width="10" height="38" fill="#DC440E" class="highcharts-point"/>
       <rect x="25" y="233" width="10" height="33" fill="#DC440E" class="highcharts-point"/>
@@ -97,11 +101,12 @@
       <rect x="284" y="202" width="10" height="64" fill="#DC440E" class="highcharts-point"/>
       <rect x="296" y="196" width="10" height="70" fill="#DC440E" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(74,75) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-1 highcharts-column-series " transform="translate(74,75) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Logiernächte nach Herkunft</tspan>
   </text>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40"/>
   <g class="highcharts-legend" transform="translate(393,173)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="81" height="49" visibility="visible"/>
     <g>

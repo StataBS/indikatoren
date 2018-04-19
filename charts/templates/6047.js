@@ -53,10 +53,15 @@
       "verticalAlign": "top",
       "align": "left",
       //"x": 155,
-      "y": 30,   
-      "itemWidth": 60,
+      //"y": 30,   
+      //"itemWidth": 60,
+      itemDistance: 5,
+      symbolPadding: 1,
+      padding: 0,
       "itemStyle": {
-        "fontWeight": "normal"
+        "fontWeight": "normal",
+        textOverflow: null,
+        whitspace: 'nowrap'
       }
     },
     tooltip: {

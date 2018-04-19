@@ -27,12 +27,10 @@
 	"max": undefined
   },
   "legend": {
-  	"itemWidth": 140,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	  "y": 20,
     "itemStyle": {
       "fontWeight": "normal"
     }

@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.1.0
   </desc>
   <defs>
     <clipPath>
@@ -40,7 +40,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 147 187 L 494 187"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(494,187) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(494,187) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <rect x="132.5" y="31.5" width="4" height="84" fill="#8a8a8a" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="119.5" y="113.5" width="4" height="2" fill="#8a8a8a" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="107.5" y="100.5" width="4" height="15" fill="#8a8a8a" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
@@ -53,8 +53,8 @@
       <rect x="18.5" y="84.5" width="4" height="31" fill="#8a8a8a" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="6.5" y="36.5" width="4" height="79" fill="#8a8a8a" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(494,187) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(494,187) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(494,187) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series " transform="translate(494,187) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <rect x="128.5" y="17.5" width="4" height="98" fill="#ff8028" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="116.5" y="115.5" width="4" height="196" fill="#ff8028" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-negative"/>
       <rect x="103.5" y="93.5" width="4" height="22" fill="#ff8028" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
@@ -67,16 +67,16 @@
       <rect x="15.5" y="101.5" width="4" height="14" fill="#ff8028" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="2.5" y="57.5" width="4" height="58" fill="#ff8028" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(494,187) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(494,187) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)"/>
-    <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(494,187) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(494,187) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)"/>
-    <g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(494,187) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-1 highcharts-column-series " transform="translate(494,187) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-2 highcharts-column-series " visibility="hidden" transform="translate(494,187) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)"/>
+    <g class="highcharts-markers highcharts-series-2 highcharts-column-series " visibility="hidden" transform="translate(494,187) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-3 highcharts-column-series " visibility="hidden" transform="translate(494,187) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)"/>
+    <g class="highcharts-markers highcharts-series-3 highcharts-column-series " visibility="hidden" transform="translate(494,187) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
   <text x="3" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:10px;font-weight:bold;fill:#000000;" y="14">
     <tspan>Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen</tspan>
   </text>
-  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:arial;fill:#000000;" y="32">
+  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:Arial;fill:#000000;" y="32">
     <tspan>Basel-Stadt im nationalen Vergleich, Stand: 2016</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(506,85)">
@@ -103,7 +103,7 @@
       <tspan>Life Sciences</tspan>
     </text>
     <text x="132" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="85" opacity="1">
-      <tspan>Baugewerbe</tspan>
+      Baugewerbe
     </text>
     <text x="132" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="110" opacity="1">
       <tspan>Verkehr und Lagerei</tspan>
@@ -122,19 +122,19 @@
     <text x="147" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
       -10%
     </text>
-    <text x="378.3333333333333" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
+    <text x="378.33333333333" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
       0%
     </text>
-    <text x="204.83333333333331" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
+    <text x="204.83333333333" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
       -7.5%
     </text>
-    <text x="262.66666666666663" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
+    <text x="262.66666666667" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
       -5%
     </text>
     <text x="320.5" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
       -2.5%
     </text>
-    <text x="436.1666666666667" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
+    <text x="436.16666666667" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
       2.5%
     </text>
     <text x="494" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">

@@ -330,8 +330,8 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "x": 25,
-    "itemWidth": 100
+    "itemDistance": 0,
+    "padding": 0
   },
   "plotOptions": {
     "series": {

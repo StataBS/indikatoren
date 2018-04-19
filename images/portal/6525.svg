@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.1.0
   </desc>
   <defs>
     <clipPath>
@@ -43,7 +43,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 126 349 L 467 349"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(467,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(467,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <rect x="260" y="55" width="20" height="287" fill="#007A2F" class="highcharts-point"/>
       <rect x="211" y="59" width="20" height="283" fill="#007A2F" class="highcharts-point"/>
       <rect x="162" y="67" width="20" height="275" fill="#007A2F" class="highcharts-point"/>
@@ -51,12 +51,12 @@
       <rect x="64" y="90" width="20" height="252" fill="#007A2F" class="highcharts-point"/>
       <rect x="14" y="114" width="21" height="228" fill="#007A2F" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(467,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(467,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Medianlohn in der Privatwirtschaft nach Bewilligungsart</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40">
     <tspan>In Franken, Nordwestschweiz, Stand: 2014</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
@@ -64,10 +64,10 @@
       <tspan>Grenzgäger (G)</tspan>
     </text>
     <text x="111" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="133" opacity="1">
-      <tspan>Schweizer</tspan>
+      Schweizer
     </text>
     <text x="111" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="182" opacity="1">
-      <tspan>Total</tspan>
+      Total
     </text>
     <text x="111" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="231" opacity="1">
       <tspan>Niedergelassene (C)</tspan>

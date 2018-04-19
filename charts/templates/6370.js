@@ -40,7 +40,6 @@
     //"x": 45,
     //"y": 35,
     margin: 2,
-    "itemWidth": 90,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

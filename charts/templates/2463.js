@@ -26,10 +26,10 @@
  
   },
  "legend": { 
-     y: 55,
+     //y: 55,
     "enabled": true,
     "layout": "horizontal",
-   "itemWidth": 210,
+    //"itemWidth": 210,
     "verticalAlign": "top",
     "align": "left",
     "itemStyle": {

@@ -113,8 +113,6 @@
     }
   ],
   "chart": {
-    "marginBottom": 95,
-    "marginTop": 75,
     "type": "column"
   }
 	}

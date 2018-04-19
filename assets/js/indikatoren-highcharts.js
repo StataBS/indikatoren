@@ -11,8 +11,10 @@ global templatesById
 //parse csv and configure HighCharts object
 function parseData(chartOptions, data, completeHandler) {
     try {
+      //create data options, guess delimiter
       var dataOptions = Highcharts.merge(chartOptions.data, {
-          csv: data
+          csv: data,
+          itemDelimiter: (data.indexOf('\t') !== -1 ? '\t' : ',')
       });
       
       //delete data node in chartOptions after merging into dataOptions
@@ -23,7 +25,6 @@ function parseData(chartOptions, data, completeHandler) {
       Highcharts.data(dataOptions, chartOptions);
     } 
     catch (error) {
-      console.log(error);
       completeHandler(undefined);
     }      
 }

@@ -30,7 +30,7 @@
     "align": "left",
     //itemWidth: 300,
     //"x": 40,
-    "y": 55,    
+    //"y": 55,    
     "itemStyle": {
       "fontWeight": "normal"
     }

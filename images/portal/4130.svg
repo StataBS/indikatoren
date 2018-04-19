@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.1.0
   </desc>
   <defs>
     <clipPath>
@@ -47,10 +47,10 @@
     <path fill="none" class="highcharts-axis-line" d="M 52 41 L 52 349"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(52,41) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(52,41) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 17.625 163.24 L 52.875 158.72266666666667 L 88.125 155.84799999999998 L 123.375 149.89333333333332 L 158.625 147.42933333333332 L 193.875 146.19733333333332 L 229.125 143.73333333333332 L 264.375 141.88533333333334 L 299.625 140.65333333333334 L 334.875 138.80533333333332 L 370.125 136.75199999999998 L 405.375 133.672" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(52,41) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(52,41) scale(1 1)" clip-path="none">
       <path fill="#008AC3" d="M 21 163 A 4 4 0 1 1 20.99999800000017 162.99600000066667 Z" class="highcharts-point"/>
       <path fill="#008AC3" d="M 56 159 A 4 4 0 1 1 55.99999800000017 158.99600000066667 Z" class="highcharts-point"/>
       <path fill="#008AC3" d="M 92 156 A 4 4 0 1 1 91.99999800000016 155.99600000066667 Z" class="highcharts-point"/>
@@ -64,10 +64,10 @@
       <path fill="#008AC3" d="M 374 137 A 4 4 0 1 1 373.9999980000002 136.99600000066667 Z" class="highcharts-point"/>
       <path fill="#008AC3" d="M 409 134 A 4 4 0 1 1 408.9999980000002 133.99600000066667 Z" class="highcharts-point"/>
     </g>
-    <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(52,41) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-1 highcharts-line-series " transform="translate(52,41) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 17.625 84.18666666666667 L 52.875 81.31199999999998 L 88.125 79.464 L 123.375 76.17866666666666 L 158.625 70.01866666666666 L 193.875 78.64266666666666 L 229.125 61.599999999999994 L 264.375 58.93066666666667 L 299.625 57.28799999999998 L 334.875 56.05599999999998 L 370.125 52.15466666666666 L 405.375 48.66399999999999" class="highcharts-graph" stroke="#990300" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(52,41) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-1 highcharts-line-series " transform="translate(52,41) scale(1 1)" clip-path="none">
       <path fill="#990300" d="M 21 84 A 4 4 0 1 1 20.99999800000017 83.99600000066667 Z" class="highcharts-point"/>
       <path fill="#990300" d="M 56 81 A 4 4 0 1 1 55.99999800000017 80.99600000066667 Z" class="highcharts-point"/>
       <path fill="#990300" d="M 92 79 A 4 4 0 1 1 91.99999800000016 78.99600000066667 Z" class="highcharts-point"/>
@@ -85,7 +85,8 @@
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Mietpreisentwicklung der 3-Zimmer-Wohnungen</tspan>
   </text>
-  <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined " visibility="visible" transform="translate(52,41) scale(1 1)">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40"/>
+  <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series " visibility="visible" transform="translate(52,41) scale(1 1)">
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(13,153)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"/>
     </g>
@@ -125,7 +126,7 @@
       </text>
     </g>
   </g>
-  <g class="highcharts-data-labels highcharts-series-1 highcharts-line-series highcharts-color-undefined " visibility="visible" transform="translate(52,41) scale(1 1)">
+  <g class="highcharts-data-labels highcharts-series-1 highcharts-line-series " visibility="visible" transform="translate(52,41) scale(1 1)">
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(13,74)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"/>
     </g>
@@ -205,16 +206,16 @@
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
     <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="354" opacity="1">
-      <tspan>0</tspan>
+      0
     </text>
     <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="302" opacity="1">
-      <tspan>250</tspan>
+      250
     </text>
     <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="251" opacity="1">
-      <tspan>500</tspan>
+      500
     </text>
     <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="200" opacity="1">
-      <tspan>750</tspan>
+      750
     </text>
     <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="148" opacity="1">
       <tspan>1 000</tspan>

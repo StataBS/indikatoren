@@ -5,7 +5,7 @@ var filePaths = [];
 
 var views = ['portal'/*, 'print'*/];
 views.forEach(function(view){
-    console.log('Starting creation of chart config for indikatorensetView=' + view);
+    console.log('Starting optimizing svg files for indikatorensetView=' + view);
     var files = JSON.parse(fs.readFileSync('tmp/chartsToBuild.json'));
     files.forEach(function(id){        
        filePaths.push('images/' + view + '/' + id + '.svg'); 

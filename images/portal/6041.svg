@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.1.0
   </desc>
   <defs>
     <clipPath>
@@ -40,7 +40,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 120 354 L 475 354"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(475,354) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(475,354) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <rect x="263.5" y="47.5" width="20" height="308" fill="#0F7399" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="213.5" y="191.5" width="20" height="164" fill="#0F7399" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="163.5" y="211.5" width="20" height="144" fill="#0F7399" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
@@ -48,29 +48,29 @@
       <rect x="64.5" y="307.5" width="20" height="48" fill="#0F7399" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="14.5" y="255.5" width="20" height="100" fill="#0F7399" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(475,354) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(475,354) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Beteiligung der Bevölkerung an Freiwilligenarbeit</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40">
     <tspan>Tätigkeitsbereiche der freiwillig tätigen Personen in %</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="84" opacity="1">
-      <tspan>Soziales</tspan>
+      Soziales
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="134" opacity="1">
-      <tspan>Nachbarschaftshilfe</tspan>
+      Nachbarschaftshilfe
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="184" opacity="1">
       <tspan>Sport und Freizeit</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="234" opacity="1">
-      <tspan>Kultur</tspan>
+      Kultur
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="284" opacity="1">
-      <tspan>Umwelt</tspan>
+      Umwelt
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="334" opacity="1">
       <tspan>Anderer Bereich</tspan>

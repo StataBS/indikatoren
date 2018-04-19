@@ -5,7 +5,7 @@
     return {
       legend: {
     	width: 118,
-    	y: 25,
+    	//y: 25,
     	margin: 0,
     	padding: 0,
     	useHTML: true, 

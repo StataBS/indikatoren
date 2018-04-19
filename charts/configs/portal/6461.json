@@ -242,7 +242,12 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 650,
-    "spacingBottom": 30,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -348,8 +353,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "y": 55,
-    "itemWidth": 70,
     "itemStyle": {
       "fontWeight": "normal"
     }

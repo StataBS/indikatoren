@@ -10143,7 +10143,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Empfundene gesundheitliche Verfassung",
-		"subtitle": "nach Altersgruppe <br> «Und darf ich fragen, wie es Ihnen zur Zeit gsundheitlich geht?»",
+		"subtitle": "nach Altersgruppe <br> «Und darf ich fragen, wie es Ihnen zur Zeit gesundheitlich geht?»",
 		"kuerzel": "I.50.1.05181",
 		"kuerzelKunde": "GW4",
 		"description": "Empfundene gesundheitliche Verfassung",

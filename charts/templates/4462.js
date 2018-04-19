@@ -27,8 +27,8 @@
   "legend": {
     "layout": "horizontal",
     "verticalAlign": "top",
-    "x": 46,
-    "y": 45, 
+    //"y": 45, 
+    padding: 0,
     "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {

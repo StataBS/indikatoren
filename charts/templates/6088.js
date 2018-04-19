@@ -35,7 +35,7 @@ global Highcharts
     "verticalAlign": "top",
     "align": "left",
     //"x": 25,
-	"y": 55,    
+	  //"y": 55,    
     "itemStyle": {
       "fontWeight": "normal"
     }

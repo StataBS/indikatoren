@@ -24,10 +24,10 @@
     "verticalAlign": "top",
     "align": "left",
     //"width": 50,
-  	"y": 50,
+  	//"y": 50,
   	//"x": 40,
   	"itemMarginBottom": 5,
-  	 itemWidth: 110,
+  	//itemWidth: 110,
     "itemStyle": {
     "fontWeight": "normal"
     }

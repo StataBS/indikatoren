@@ -374,7 +374,9 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "whiteSpace": "nowrap"
     },
     "itemWidth": 130,
     "itemMarginBottom": 5

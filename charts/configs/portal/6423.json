@@ -216,7 +216,12 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 50,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -239,6 +244,7 @@
     },
     "type": "column",
     "inverted": true,
+    "spacingBottom": 50,
     "renderTo": "container-6423"
   },
   "plotOptions": {
@@ -314,11 +320,10 @@
   "legend": {
     "symbolRadius": 0,
     "enabled": true,
-    "itemWidth": 100,
+    "itemDistance": 5,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "y": 45,
     "itemStyle": {
       "fontWeight": "normal"
     }
