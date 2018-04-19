@@ -12,7 +12,7 @@
 		  align: "left",
           x: -185,
           "formatter": function() {
-            return this.value//.replace("        ", "<br/>")
+            return this.value;//.replace("        ", "<br/>")
         },
         style: { 
 			textOverflow: 'none' // prevents ellipsis
@@ -40,9 +40,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    //"x": 25,
-	"y": 55,  
-	"itemWidth": 70,
     "itemStyle": {
       "fontWeight": "normal"
     },
@@ -57,5 +54,5 @@
     "type": "column",
     "inverted": true
   }
-}
+};
 }());

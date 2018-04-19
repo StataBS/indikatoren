@@ -62,9 +62,8 @@
   "legend": {
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
-    "x": 46,
-    "y": 30,
+    "itemMarginBottom": 2,
+    //"x": 46,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

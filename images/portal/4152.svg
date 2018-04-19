@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.1.0
   </desc>
   <defs>
     <clipPath>
@@ -51,7 +51,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 435 75 L 435 355"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(52,75) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(52,75) scale(1 1)" clip-path="url(#a)">
       <rect x="19" y="145" width="31" height="136" fill="#923f8d" class="highcharts-point"/>
       <rect x="82" y="106" width="31" height="175" fill="#923f8d" class="highcharts-point"/>
       <rect x="145" y="81" width="31" height="200" fill="#923f8d" class="highcharts-point"/>
@@ -59,11 +59,11 @@
       <rect x="271" y="49" width="31" height="232" fill="#923f8d" class="highcharts-point"/>
       <rect x="333" y="32" width="31" height="249" fill="#923f8d" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(52,75) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(52,75) scale(1 1)" clip-path="url(#b)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(52,75) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-line-series " transform="translate(52,75) scale(1 1)" clip-path="url(#b)">
       <path fill="none" d="M 34.532786885244 139.9049226211 L 97.319672131146 102.01899640858335 L 160.10655737705 76.96168508641668 L 222.89344262295 58.875307940166635 L 285.68032786885 43.58736236143332 L 348.46721311476 26.80694770273334" class="highcharts-graph" stroke="#cd9c00" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(52,75) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-1 highcharts-line-series " transform="translate(52,75) scale(1 1)" clip-path="none">
       <path fill="#cd9c00" d="M 38 140 A 4 4 0 1 1 37.99999800000017 139.99600000066667 Z" class="highcharts-point"/>
       <path fill="#cd9c00" d="M 101 102 A 4 4 0 1 1 100.99999800000016 101.99600000066667 Z" class="highcharts-point"/>
       <path fill="#cd9c00" d="M 164 77 A 4 4 0 1 1 163.99999800000018 76.99600000066667 Z" class="highcharts-point"/>
@@ -75,7 +75,8 @@
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Haushalte mit Familienmietzinsbeiträgen</tspan>
   </text>
-  <g class="highcharts-legend" transform="translate(44,35)">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40"/>
+  <g class="highcharts-legend" transform="translate(44,41)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="337" height="25" visibility="visible"/>
     <g>
       <g>
@@ -96,31 +97,31 @@
     </g>
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
-    <text x="86.53278688524355" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="374" opacity="1">
-      <tspan>2011</tspan>
+    <text x="86.532786885244" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="374" opacity="1">
+      2011
     </text>
-    <text x="149.31967213114615" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="374" opacity="1">
-      <tspan>2012</tspan>
+    <text x="149.31967213115" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="374" opacity="1">
+      2012
     </text>
-    <text x="212.10655737704872" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="374" opacity="1">
-      <tspan>2013</tspan>
+    <text x="212.10655737705" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="374" opacity="1">
+      2013
     </text>
-    <text x="274.8934426229513" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="374" opacity="1">
-      <tspan>2014</tspan>
+    <text x="274.89344262295" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="374" opacity="1">
+      2014
     </text>
-    <text x="337.68032786885385" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="374" opacity="1">
-      <tspan>2015</tspan>
+    <text x="337.68032786885" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="374" opacity="1">
+      2015
     </text>
-    <text x="400.4672131147564" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="374" opacity="1">
-      <tspan>2016</tspan>
+    <text x="400.46721311476" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="374" opacity="1">
+      2016
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
     <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="360" opacity="1">
-      <tspan>0</tspan>
+      0
     </text>
     <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="290" opacity="1">
-      <tspan>600</tspan>
+      600
     </text>
     <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="220" opacity="1">
       <tspan>1 200</tspan>
@@ -134,19 +135,19 @@
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
     <text x="450" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="360" opacity="1">
-      <tspan>0.0%</tspan>
+      0.0%
     </text>
     <text x="450" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="290" opacity="1">
-      <tspan>0.6%</tspan>
+      0.6%
     </text>
     <text x="450" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="220" opacity="1">
-      <tspan>1.2%</tspan>
+      1.2%
     </text>
     <text x="450" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="150" opacity="1">
-      <tspan>1.8%</tspan>
+      1.8%
     </text>
     <text x="450" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="80" opacity="1">
-      <tspan>2.4%</tspan>
+      2.4%
     </text>
   </g>
   <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">

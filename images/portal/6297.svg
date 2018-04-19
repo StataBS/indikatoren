@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.1.0
   </desc>
   <defs>
     <clipPath>
@@ -52,41 +52,42 @@
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Bevölkerungsbestand am Jahresende</tspan>
   </text>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40"/>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
-    <text x="77.2183125070639" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 77.2183125070639 175)" y="175" opacity="1">
-      <tspan>1970</tspan>
+    <text x="77.21831250706367" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 77.21831250706367 175)" y="175" opacity="1">
+      1970
     </text>
-    <text x="102.25580970876527" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 102.25580970876527 175)" y="175" opacity="1">
-      <tspan>1975</tspan>
+    <text x="102.25580970876567" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 102.25580970876567 175)" y="175" opacity="1">
+      1975
     </text>
-    <text x="127.29330691046663" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 127.29330691046663 175)" y="175" opacity="1">
-      <tspan>1980</tspan>
+    <text x="127.29330691047068" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 127.29330691047068 175)" y="175" opacity="1">
+      1980
     </text>
-    <text x="152.3445157754767" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 152.3445157754767 175)" y="175" opacity="1">
-      <tspan>1985</tspan>
+    <text x="152.3445157754807" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 152.3445157754807 175)" y="175" opacity="1">
+      1985
     </text>
-    <text x="177.3820129771781" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 177.3820129771781 175)" y="175" opacity="1">
-      <tspan>1990</tspan>
+    <text x="177.3820129771807" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 177.3820129771807 175)" y="175" opacity="1">
+      1990
     </text>
-    <text x="202.41951017887945" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 202.41951017887945 175)" y="175" opacity="1">
-      <tspan>1995</tspan>
+    <text x="202.4195101788807" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 202.4195101788807 175)" y="175" opacity="1">
+      1995
     </text>
-    <text x="227.45700738058082" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 227.45700738058082 175)" y="175" opacity="1">
-      <tspan>2000</tspan>
+    <text x="227.45700738058068" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 227.45700738058068 175)" y="175" opacity="1">
+      2000
     </text>
-    <text x="252.5082162455909" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 252.5082162455909 175)" y="175" opacity="1">
-      <tspan>2005</tspan>
+    <text x="252.5082162455907" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 252.5082162455907 175)" y="175" opacity="1">
+      2005
     </text>
-    <text x="277.5457134472922" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 277.5457134472922 175)" y="175" opacity="1">
-      <tspan>2010</tspan>
+    <text x="277.54571344729067" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 277.54571344729067 175)" y="175" opacity="1">
+      2010
     </text>
-    <text x="302.5832106489936" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 302.5832106489936 175)" y="175" opacity="1">
-      <tspan>2015</tspan>
+    <text x="302.58321064899064" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 302.58321064899064 175)" y="175" opacity="1">
+      2015
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
     <text x="50" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="162" opacity="1">
-      <tspan>0</tspan>
+      0
     </text>
     <text x="50" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="138" opacity="1">
       <tspan>50 000</tspan>

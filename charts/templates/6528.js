@@ -29,8 +29,8 @@
     "verticalAlign": "top",
     "align": "left",
     //"x": 25,
-	"y": 55,  
-	"itemWidth": 300,
+	  //"y": 55,  
+	  "itemWidth": 300,
     "itemStyle": {
       "fontWeight": "normal"
     }

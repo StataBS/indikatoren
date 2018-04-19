@@ -99,7 +99,7 @@
         "verticalAlign": "top",
         "align": "center",
         x: 10,
-       	"y": 50,    
+       	//"y": 50,    
         "itemStyle": {
           "fontWeight": "normal"
         }

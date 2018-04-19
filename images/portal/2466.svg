@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.1.0
   </desc>
   <defs>
     <clipPath>
@@ -41,23 +41,23 @@
     <path fill="none" class="highcharts-axis-line" d="M 43 140 L 43 349"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(43,140) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(43,140) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 6 121.22 L 18 120.17500000000001 L 30 98.23 L 42 123.31 L 54 117.04 L 66 129.58 L 78 72.10500000000002 L 90 109.72500000000001 L 102 117.04 L 114 108.68 L 126 79.42000000000002 L 138 112.86000000000001 L 150 123.31 L 162 113.905 L 174 103.45500000000001 L 186 109.72500000000001 L 198 91.96000000000001 L 210 104.5 L 222 96.14000000000001 L 234 95.09500000000001 L 246 82.555 L 258 86.73500000000001 L 270 98.23 L 282 91.96000000000001 L 294 126.44500000000001 L 306 111.81500000000001 L 318 108.68 L 330 93.00500000000001 L 342 101.36500000000001 L 354 86.73500000000001 L 366 54.34 L 378 112.86000000000001 L 390 112.86000000000001 L 402 113.905 L 414 103.45500000000001 L 426 124.355" class="highcharts-graph" stroke="#73B97C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(43,140) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(43,140) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(43,140) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-line-series " transform="translate(43,140) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 6 158.84 L 18 147.345 L 30 160.93 L 42 178.695 L 54 170.335 L 66 155.705 L 78 154.66 L 90 156.75 L 102 154.66 L 114 137.94 L 126 153.615 L 138 155.705 L 150 143.16500000000002 L 162 149.435 L 174 165.11 L 186 173.47 L 198 118.08500000000001 L 210 142.12 L 222 159.885 L 234 156.75 L 246 134.805 L 258 134.805 L 270 141.075 L 282 158.84 L 294 146.3 L 306 157.79500000000002 L 318 149.435 L 330 141.075 L 342 135.85000000000002 L 354 128.53500000000003 L 366 159.885 L 378 164.065 L 390 156.75 L 402 158.84 L 414 172.425 L 426 175.56" class="highcharts-graph" stroke="#007A2F" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(43,140) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(43,140) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-1 highcharts-line-series " transform="translate(43,140) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-2 highcharts-line-series " transform="translate(43,140) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 6 82.555 L 18 100.32000000000001 L 30 68.97 L 42 54.34 L 54 91.96000000000001 L 66 105.545 L 78 91.96000000000001 L 90 70.01500000000001 L 102 98.23 L 114 89.87 L 126 101.36500000000001 L 138 99.275 L 150 103.45500000000001 L 162 102.41000000000001 L 174 110.77000000000001 L 186 91.96000000000001 L 198 109.72500000000001 L 210 128.53500000000003 L 222 102.41000000000001 L 234 115.995 L 246 112.86000000000001 L 258 82.555 L 270 105.545 L 282 88.825 L 294 101.36500000000001 L 306 107.635 L 318 107.635 L 330 117.04 L 342 128.53500000000003 L 354 141.075 L 366 129.58 L 378 152.57 L 390 155.705 L 402 152.57 L 414 143.16500000000002 L 426 160.93" class="highcharts-graph" stroke="#0A3B19" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(43,140) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-2 highcharts-line-series " transform="translate(43,140) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Zuwanderung von Erwerbstätigen im Dienstleistungssektor (I)</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40">
     <tspan>Kurz- und Daueraufenthalter, Basel-Stadt</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(35,55)">
@@ -116,19 +116,19 @@
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
     <text x="28" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="354" opacity="1">
-      <tspan>0</tspan>
+      0
     </text>
     <text x="28" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="301" opacity="1">
-      <tspan>50</tspan>
+      50
     </text>
     <text x="28" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="249" opacity="1">
-      <tspan>100</tspan>
+      100
     </text>
     <text x="28" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="197" opacity="1">
-      <tspan>150</tspan>
+      150
     </text>
     <text x="28" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="145" opacity="1">
-      <tspan>200</tspan>
+      200
     </text>
   </g>
   <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">

@@ -44,7 +44,7 @@
           114.5
         ]
       ],
-      "name": "Öffentliche Verwaltung, Sozialversicherungen (inkl. staatl. Bildungsinstitutionen)"
+      "name": "Öffentliche Verwaltung, Sozialversicherungen \u003Cbr\u002F\u003E(inkl. staatl. Bildungsinstitutionen)"
     },
     {
       "color": "#008AC3",
@@ -289,8 +289,7 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 45,
-    "itemWidth": 250,
+    "symbolPadding": 3,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"

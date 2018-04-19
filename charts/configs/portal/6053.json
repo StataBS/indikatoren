@@ -402,9 +402,8 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}",
       "formatter": function (){
-        return Highcharts.numberFormat((this.value*100),0)+'%'; 
+        return Highcharts.numberFormat((this.value*100), 0)+'%'; 
       }
     }
   },
@@ -442,8 +441,6 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 35,
-    "itemWidth": 500,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"

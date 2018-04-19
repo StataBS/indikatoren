@@ -436,8 +436,7 @@
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
-        },
-    "y": -6
+        }
   },
   "exporting": {
     "filename": 6252

@@ -43,11 +43,13 @@ global Highcharts
     "verticalAlign": "top",
     "align": "left",
     //"width": 50,
-	  "y": 15,
+	  //"y": 15,
     "itemMarginBottom": 5,
     itemWidth: 200,
     "itemStyle": {
-    "fontWeight": "normal"
+      "fontWeight": "normal",
+      textOverflow: null,
+      whiteSpace: 'nowrap'
     }
   },
   "series": [

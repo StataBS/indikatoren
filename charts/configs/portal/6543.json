@@ -728,7 +728,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.f}"
     }
   },
   "xAxis": {
@@ -772,7 +772,6 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 30,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"

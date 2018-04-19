@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.1.0
   </desc>
   <defs>
     <clipPath>
@@ -55,8 +55,8 @@
     <path fill="none" class="highcharts-axis-line" d="M 112 349 L 475 349"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-scatter-series highcharts-color-undefined " transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)"/>
-    <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined " transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="none">
+    <g class="highcharts-series highcharts-series-0 highcharts-scatter-series " transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series " transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="none">
       <path fill="#68AB2B" d="M 291 276 A 4 4 0 1 1 290.9999980000002 275.99600000066664 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 277 263 A 4 4 0 1 1 276.9999980000002 262.99600000066664 Z" class="highcharts-point"/>
       <path fill="#68AB2B" d="M 263 255 A 4 4 0 1 1 262.9999980000002 254.99600000066667 Z" class="highcharts-point"/>
@@ -82,10 +82,10 @@
     <g class="highcharts-series highcharts-series-1 highcharts-scatter-series highcharts-color-0 " visibility="hidden" transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)"/>
     <g class="highcharts-markers highcharts-series-1 highcharts-scatter-series highcharts-color-0 " visibility="hidden" transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
-  <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;font-family:arial;fill:#000000;" y="21">
+  <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;font-family:Arial;fill:#000000;" y="21">
     <tspan>Private Personenwagen pro Haushalt</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40">
     <tspan>Stand: 2015</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
@@ -93,25 +93,25 @@
       <tspan>Altstadt Kleinbasel</tspan>
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="80" opacity="1">
-      <tspan>Matthäus</tspan>
+      Matthäus
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="94" opacity="1">
-      <tspan>Gundeldingen</tspan>
+      Gundeldingen
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="108" opacity="1">
-      <tspan>Gotthelf</tspan>
+      Gotthelf
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="122" opacity="1">
-      <tspan>Iselin</tspan>
+      Iselin
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="136" opacity="1">
       <tspan>St. Johann</tspan>
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="150" opacity="1">
-      <tspan>Vorstädte</tspan>
+      Vorstädte
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="164" opacity="1">
-      <tspan>Rosental</tspan>
+      Rosental
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="178" opacity="1">
       <tspan>Altstadt Grossbasel</tspan>
@@ -120,45 +120,45 @@
       <tspan>Am Ring</tspan>
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="206" opacity="1">
-      <tspan>Klybeck</tspan>
+      Klybeck
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="220" opacity="1">
-      <tspan>Clara</tspan>
+      Clara
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="234" opacity="1">
-      <tspan>Wettstein</tspan>
+      Wettstein
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="248" opacity="1">
-      <tspan>Breite</tspan>
+      Breite
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="262" opacity="1">
-      <tspan>Bachletten</tspan>
+      Bachletten
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="276" opacity="1">
       <tspan>St. Alban</tspan>
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="290" opacity="1">
-      <tspan>Kleinhüningen</tspan>
+      Kleinhüningen
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="304" opacity="1">
-      <tspan>Hirzbrunnen</tspan>
+      Hirzbrunnen
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="318" opacity="1">
-      <tspan>Bruderholz</tspan>
+      Bruderholz
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="332" opacity="1">
-      <tspan>Riehen</tspan>
+      Riehen
     </text>
     <text x="97" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="346" opacity="1">
-      <tspan>Bettingen</tspan>
+      Bettingen
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
     <text x="112" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
-      <tspan>0,00</tspan>
+      0,00
     </text>
     <text x="402.4" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
-      <tspan>1,00</tspan>
+      1,00
     </text>
     <text x="184.6" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       0,25
@@ -166,7 +166,7 @@
     <text x="257.2" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       0,50
     </text>
-    <text x="329.79999999999995" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+    <text x="329.8" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       0,75
     </text>
     <text x="464.3125" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">

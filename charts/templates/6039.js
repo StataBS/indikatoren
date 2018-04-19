@@ -34,8 +34,10 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	"y": 40,
-	"itemWidth": 200,
+	  //"y": 40,
+	  //"itemWidth": 200,
+	  itemDistance: 0,
+	  padding: 0,
     "itemStyle": {
       "fontWeight": "normal"
     }

@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.1.0
   </desc>
   <defs>
     <clipPath>
@@ -55,7 +55,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 52 55 L 52 297"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(52,55) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(52,55) scale(1 1)" clip-path="url(#a)">
       <rect x="5" y="189" width="10" height="6" fill="#83522E" class="highcharts-point"/>
       <rect x="25" y="167" width="10" height="28" fill="#83522E" class="highcharts-point"/>
       <rect x="46" y="184" width="10" height="11" fill="#83522E" class="highcharts-point"/>
@@ -78,94 +78,94 @@
       <rect x="388" y="122" width="10" height="73" fill="#83522E" class="highcharts-point"/>
       <rect x="408" y="192" width="10" height="3" fill="#83522E" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(52,55) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(52,55) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Nettowohnungsproduktion</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40">
     <tspan>nach Wohnviertel von 2008 bis 2017</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
-    <text x="65.73809523809524" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 65.73809523809524 309)" y="309" opacity="1">
+    <text x="65.7380952380951" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 65.7380952380951 309)" y="309" opacity="1">
       <tspan>Altstadt GB</tspan>
     </text>
-    <text x="85.88095238095238" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 85.88095238095238 309)" y="309" opacity="1">
-      <tspan>Vorstädte</tspan>
+    <text x="85.8809523809521" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 85.8809523809521 309)" y="309" opacity="1">
+      Vorstädte
     </text>
-    <text x="106.02380952380952" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 106.02380952380952 309)" y="309" opacity="1">
+    <text x="106.0238095238081" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 106.0238095238081 309)" y="309" opacity="1">
       <tspan>Am Ring</tspan>
     </text>
-    <text x="126.16666666666664" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 126.16666666666664 309)" y="309" opacity="1">
-      <tspan>Breite</tspan>
+    <text x="126.16666666666809" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 126.16666666666809 309)" y="309" opacity="1">
+      Breite
     </text>
-    <text x="146.3095238095238" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 146.3095238095238 309)" y="309" opacity="1">
+    <text x="146.3095238095281" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 146.3095238095281 309)" y="309" opacity="1">
       <tspan>St. Alban</tspan>
     </text>
-    <text x="166.4523809523809" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 166.4523809523809 309)" y="309" opacity="1">
-      <tspan>Gundeldingen</tspan>
+    <text x="166.45238095237806" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 166.45238095237806 309)" y="309" opacity="1">
+      Gundeldingen
     </text>
     <text x="186.59523809523807" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 186.59523809523807 309)" y="309" opacity="1">
-      <tspan>Bruderholz</tspan>
+      Bruderholz
     </text>
-    <text x="206.7380952380952" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 206.7380952380952 309)" y="309" opacity="1">
-      <tspan>Bachletten</tspan>
+    <text x="206.73809523809808" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 206.73809523809808 309)" y="309" opacity="1">
+      Bachletten
     </text>
-    <text x="226.88095238095238" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 226.88095238095238 309)" y="309" opacity="1">
-      <tspan>Gotthelf</tspan>
+    <text x="226.88095238094806" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 226.88095238094806 309)" y="309" opacity="1">
+      Gotthelf
     </text>
-    <text x="247.02380952380955" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 247.02380952380955 309)" y="309" opacity="1">
-      <tspan>Iselin</tspan>
+    <text x="247.02380952380807" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 247.02380952380807 309)" y="309" opacity="1">
+      Iselin
     </text>
-    <text x="267.1666666666667" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 267.1666666666667 309)" y="309" opacity="1">
+    <text x="267.1666666666681" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 267.1666666666681 309)" y="309" opacity="1">
       <tspan>St. Johann</tspan>
     </text>
-    <text x="287.30952380952385" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 287.30952380952385 309)" y="309" opacity="1">
+    <text x="287.3095238095281" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 287.3095238095281 309)" y="309" opacity="1">
       <tspan>Altstadt KB</tspan>
     </text>
-    <text x="307.45238095238096" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 307.45238095238096 309)" y="309" opacity="1">
-      <tspan>Clara</tspan>
+    <text x="307.4523809523781" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 307.4523809523781 309)" y="309" opacity="1">
+      Clara
     </text>
     <text x="327.59523809523813" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 327.59523809523813 309)" y="309" opacity="1">
-      <tspan>Wettstein</tspan>
+      Wettstein
     </text>
-    <text x="347.73809523809524" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 347.73809523809524 309)" y="309" opacity="1">
-      <tspan>Hirzbrunnen</tspan>
+    <text x="347.73809523809814" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 347.73809523809814 309)" y="309" opacity="1">
+      Hirzbrunnen
     </text>
-    <text x="367.8809523809524" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 367.8809523809524 309)" y="309" opacity="1">
-      <tspan>Rosental</tspan>
+    <text x="367.88095238094814" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 367.88095238094814 309)" y="309" opacity="1">
+      Rosental
     </text>
-    <text x="388.0238095238095" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 388.0238095238095 309)" y="309" opacity="1">
-      <tspan>Matthäus</tspan>
+    <text x="388.02380952380815" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 388.02380952380815 309)" y="309" opacity="1">
+      Matthäus
     </text>
-    <text x="408.1666666666667" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 408.1666666666667 309)" y="309" opacity="1">
-      <tspan>Klybeck</tspan>
+    <text x="408.1666666666681" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 408.1666666666681 309)" y="309" opacity="1">
+      Klybeck
     </text>
-    <text x="428.3095238095238" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 428.3095238095238 309)" y="309" opacity="1">
-      <tspan>Kleinhüningen</tspan>
+    <text x="428.3095238095281" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 428.3095238095281 309)" y="309" opacity="1">
+      Kleinhüningen
     </text>
-    <text x="448.45238095238096" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 448.45238095238096 309)" y="309" opacity="1">
-      <tspan>Riehen</tspan>
+    <text x="448.4523809523781" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 448.4523809523781 309)" y="309" opacity="1">
+      Riehen
     </text>
     <text x="468.59523809523813" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 468.59523809523813 309)" y="309" opacity="1">
-      <tspan>Bettingen</tspan>
+      Bettingen
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
     <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="302" opacity="1">
-      <tspan>-250</tspan>
+      -250
     </text>
     <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="253" opacity="1">
-      <tspan>0</tspan>
+      0
     </text>
     <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="205" opacity="1">
-      <tspan>250</tspan>
+      250
     </text>
     <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="156" opacity="1">
-      <tspan>500</tspan>
+      500
     </text>
     <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="108" opacity="1">
-      <tspan>750</tspan>
+      750
     </text>
     <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="60" opacity="1">
       <tspan>1 000</tspan>

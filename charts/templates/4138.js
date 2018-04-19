@@ -62,17 +62,19 @@
     shared: false
   },
   "legend": { 
-  	//x:-5,
-     y: 45,
     "enabled": true,
     "layout": "horizontal",
-     "itemWidth": 210,
+    itemDistance: -10, 
+    padding: 0,
+    symbolPadding: 3,
     "verticalAlign": "top",
     "align": "left",
     "itemStyle": {
-    "fontWeight": "normal",
+      "fontWeight": "normal",
+      textOverflow: null,
+      whitespace: 'nowrap'
+    },
   },
-},
   "series": [
     {
       "color": "#B00000",

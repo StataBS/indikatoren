@@ -63,9 +63,9 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "x": 46,
-    "y": 30,
+    //"y": 30,
     "align": "left",
+    padding: -6,
     "itemStyle": {
       "fontWeight": "normal"
     }

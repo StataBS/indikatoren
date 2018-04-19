@@ -44,15 +44,11 @@
   ],
   "legend": { 
   	 //x:-5,
-     y: 35,
+     //y: 35,
     "enabled": true,
     "layout": "horizontal",
-   "itemWidth": 160,
     "verticalAlign": "top",
     "align": "left",
-     "labelFormatter": function () {
-            return this.name;
-        },
     "itemStyle": {
     "fontWeight": "normal"
     }

@@ -40,8 +40,8 @@
   "legend": {
     "enabled": true,
     "x": 45,
-    "y": 35,
-    "itemWidth": 135,
+    //"y": 35,
+    //"itemWidth": 135,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

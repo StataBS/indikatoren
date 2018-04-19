@@ -21,7 +21,7 @@
           755094.785461333
         ]
       ],
-      "name": "CO2-Emissionen Total",
+      "name": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen Total",
       "turboThreshold": 0
     },
     {
@@ -48,7 +48,7 @@
           3.85083476363092
         ]
       ],
-      "name": "CO2-Emissionen pro Kopf (rechte Skala)",
+      "name": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen pro Kopf (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -74,7 +74,12 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 30,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -182,14 +187,15 @@
     "symbolRadius": 0,
     "useHTML": true,
     "enabled": true,
-    "y": 35,
-    "itemWidth": 160,
+    "itemDistance": 12,
+    "padding": 0,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null
     }
   },
   "tooltip": {
@@ -197,6 +203,7 @@
     "useHTML": true
   },
   "exporting": {
+    "allowHTML": true,
     "filename": 6031
   }
 }

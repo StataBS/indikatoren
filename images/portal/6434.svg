@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.1.0
   </desc>
   <defs>
     <clipPath>
@@ -44,46 +44,46 @@
     <path fill="none" class="highcharts-axis-line" d="M 37 55 L 37 349"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,55) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(37,55) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 4.2941176470584 47.03999999999999 L 11.962184873949 89.37600000000003 L 19.63025210084 91.72800000000001 L 27.298319327731 61.15199999999999 L 34.966386554621 77.61600000000001 L 42.634453781512 58.80000000000001 L 50.302521008403 58.80000000000001 L 57.970588235294 70.56 L 65.638655462185 79.96800000000002 L 73.306722689075 72.912 L 80.974789915966 68.208 L 88.642857142857 79.96800000000002 L 96.310924369748 70.56 L 103.97899159664 54.09600000000003 L 111.64705882353 61.15199999999999 L 119.31512605042 54.09600000000003 L 126.98319327731 56.44800000000001 L 134.6512605042 75.26399999999998 L 142.31932773109 63.50399999999999 L 149.98739495798 79.96800000000002 L 157.65546218487 61.15199999999999 L 165.32352941176 47.03999999999999 L 172.99159663866 47.03999999999999 L 180.65966386555 65.85600000000002 L 188.32773109244 75.26399999999998 L 195.99579831933 72.912 L 203.66386554622 70.56 L 211.33193277311 42.33600000000001 L 219 44.68800000000002 L 226.66806722689 39.98399999999998 L 234.33613445378 58.80000000000001 L 242.00420168067 42.33600000000001 L 249.67226890756 51.744 L 257.34033613445 18.81600000000003 L 265.00840336134 44.68800000000002 L 272.67647058824 72.912 L 280.34453781513 44.68800000000002 L 288.01260504202 44.68800000000002 L 295.68067226891 44.68800000000002 L 303.3487394958 25.872000000000014 L 311.01680672269 42.33600000000001 L 318.68487394958 30.576000000000022 L 326.35294117647 28.22399999999999 L 334.02100840336 45.6680000000008 L 341.68907563025 47.23599999999925 L 349.35714285714 37.632000000000005 L 357.02521008403 27.831999999999198 L 364.69327731092 39.98399999999998 L 372.36134453782 35.28000000000003 L 380.02941176471 61.15199999999999 L 387.6974789916 18.81600000000003 L 395.36554621849 39.98399999999998 L 403.03361344538 49.391999999999996 L 410.70168067227 14.112000000000023 L 418.36974789916 16.464 L 426.03781512605 35.28000000000003 L 433.70588235294 23.519999999999982" class="highcharts-graph" stroke="#8b2223" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,55) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(37,55) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Jahresmitteltemperatur</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40">
     <tspan>in °C</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
-    <text x="71.9663865546215" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+    <text x="71.966386554621" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       1965
     </text>
-    <text x="110.30672268907536" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+    <text x="110.30672268908" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       1970
     </text>
-    <text x="148.64705882352922" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+    <text x="148.64705882353" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       1975
     </text>
-    <text x="186.98739495798307" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+    <text x="186.98739495798" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       1980
     </text>
-    <text x="225.32773109243692" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+    <text x="225.32773109244" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       1985
     </text>
-    <text x="263.6680672268908" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+    <text x="263.66806722689" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       1990
     </text>
-    <text x="302.0084033613446" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+    <text x="302.00840336134" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       1995
     </text>
-    <text x="340.3487394957985" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+    <text x="340.3487394958" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       2000
     </text>
-    <text x="378.6890756302523" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+    <text x="378.68907563025" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       2005
     </text>
-    <text x="417.0294117647062" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+    <text x="417.02941176471" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       2010
     </text>
     <text x="455.36974789916" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
@@ -92,22 +92,22 @@
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
     <text x="22" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="354" opacity="1">
-      <tspan>0</tspan>
+      0
     </text>
     <text x="22" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="295" opacity="1">
-      <tspan>3</tspan>
+      3
     </text>
     <text x="22" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="236" opacity="1">
-      <tspan>5</tspan>
+      5
     </text>
     <text x="22" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="177" opacity="1">
-      <tspan>8</tspan>
+      8
     </text>
     <text x="22" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="118" opacity="1">
-      <tspan>10</tspan>
+      10
     </text>
     <text x="22" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="60" opacity="1">
-      <tspan>13</tspan>
+      13
     </text>
   </g>
   <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">

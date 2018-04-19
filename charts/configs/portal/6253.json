@@ -135,8 +135,7 @@
       "fontSize": "10px"
     },
     "symbolRadius": 0,
-    "enabled": true,
-    "itemWidth": 100
+    "enabled": true
   },
   "exporting": {
     "filename": 6253

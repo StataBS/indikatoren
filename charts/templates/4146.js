@@ -49,7 +49,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-		"y": 25,
+		//"y": 25,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -76,8 +76,6 @@
     "shared": false
   },
   "chart": {
-    "marginBottom": 65,
-    "marginTop": 75,
     "type": "line"
   },
   plotOptions: 

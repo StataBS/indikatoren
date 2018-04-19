@@ -43,7 +43,7 @@
     { "color": "#007a2f", index: 4, legendIndex: 0}, // dunkelgrün
   ],
   "legend": { 
-     y: 45,
+     //y: 45,
     "enabled": true,
     "layout": "horizontal",
     "itemWidth": 150,

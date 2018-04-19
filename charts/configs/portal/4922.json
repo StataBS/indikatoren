@@ -122,7 +122,12 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 30,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -145,7 +150,6 @@
     },
     "renderTo": "container-4922",
     "marginBottom": 65,
-    "marginTop": 75,
     "type": "column"
   },
   "plotOptions": {
@@ -244,7 +248,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "y": 35,
     "itemStyle": {
       "fontWeight": "normal"
     }

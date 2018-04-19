@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.1.0
   </desc>
   <defs>
     <clipPath>
@@ -42,10 +42,10 @@
     <path fill="none" class="highcharts-axis-line" d="M 43 48 L 43 167"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 2.6862745098042 36.889999999999986 L 14.896613190731 36.295 L 27.106951871658 37.485 L 39.317290552585 38.08 L 51.527629233512 38.08 L 63.737967914439 37.485 L 75.948306595366 36.889999999999986 L 88.158645276292 36.295 L 100.36898395722 36.295 L 112.57932263815 35.7 L 124.78966131907 34.510000000000005 L 137 35.105000000000004 L 149.21033868093 36.295 L 161.42067736185 35.7 L 173.63101604278 35.7 L 185.84135472371 35.7 L 198.05169340463 33.91499999999999 L 210.26203208556 33.91499999999999 L 222.47237076649 32.724999999999994 L 234.68270944742 32.724999999999994 L 246.89304812834 32.129999999999995 L 259.10338680927 31.534999999999997 L 271.3137254902 31.534999999999997" class="highcharts-graph" stroke="#8b2223" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(43,48) scale(1 1)" clip-path="none">
       <path fill="#8b2223" d="M 6 37 A 4 4 0 1 1 5.999998000000167 36.99600000066666 Z" class="highcharts-point"/>
       <path fill="#8b2223" d="M 18 36 A 4 4 0 1 1 17.99999800000017 35.99600000066666 Z" class="highcharts-point"/>
       <path fill="#8b2223" d="M 31 37 A 4 4 0 1 1 30.99999800000017 36.99600000066666 Z" class="highcharts-point"/>
@@ -74,10 +74,10 @@
   <text x="3" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:10px;font-weight:bold;fill:#000000;" y="14">
     <tspan>Wassertemperatur Grundwasser</tspan>
   </text>
-  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:arial;fill:#000000;" y="32">
+  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:Arial;fill:#000000;" y="32">
     <tspan>in °C</tspan>
   </text>
-  <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined " visibility="visible" transform="translate(43,48) scale(1 1)">
+  <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series " visibility="visible" transform="translate(43,48) scale(1 1)">
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-5,44)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16">
         <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">13,8</tspan><tspan x="5" y="16">13,8</tspan>
@@ -153,41 +153,41 @@
     </g>
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
-    <text x="48.51470163455044" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 48.51470163455044 183)" y="183" opacity="1">
-      <tspan>1994</tspan>
+    <text x="48.51470163455019" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 48.51470163455019 183)" y="183" opacity="1">
+      1994
     </text>
-    <text x="72.93537899640421" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 72.93537899640421 183)" y="183" opacity="1">
-      <tspan>1996</tspan>
+    <text x="72.93537899640418" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 72.93537899640418 183)" y="183" opacity="1">
+      1996
     </text>
-    <text x="97.35605635825797" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 97.35605635825797 183)" y="183" opacity="1">
-      <tspan>1998</tspan>
+    <text x="97.35605635825819" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 97.35605635825819 183)" y="183" opacity="1">
+      1998
     </text>
-    <text x="121.77673372011175" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 121.77673372011175 183)" y="183" opacity="1">
-      <tspan>2000</tspan>
+    <text x="121.77673372011618" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 121.77673372011618 183)" y="183" opacity="1">
+      2000
     </text>
-    <text x="146.19741108196553" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 146.19741108196553 183)" y="183" opacity="1">
-      <tspan>2002</tspan>
+    <text x="146.19741108196618" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 146.19741108196618 183)" y="183" opacity="1">
+      2002
     </text>
-    <text x="170.6180884438193" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 170.6180884438193 183)" y="183" opacity="1">
-      <tspan>2004</tspan>
+    <text x="170.6180884438162" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 170.6180884438162 183)" y="183" opacity="1">
+      2004
     </text>
-    <text x="195.03876580567308" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 195.03876580567308 183)" y="183" opacity="1">
-      <tspan>2006</tspan>
+    <text x="195.03876580567618" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 195.03876580567618 183)" y="183" opacity="1">
+      2006
     </text>
-    <text x="219.45944316752684" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 219.45944316752684 183)" y="183" opacity="1">
-      <tspan>2008</tspan>
+    <text x="219.4594431675262" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 219.4594431675262 183)" y="183" opacity="1">
+      2008
     </text>
-    <text x="243.8801205293806" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 243.8801205293806 183)" y="183" opacity="1">
-      <tspan>2010</tspan>
+    <text x="243.88012052937617" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 243.88012052937617 183)" y="183" opacity="1">
+      2010
     </text>
-    <text x="268.3007978912344" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 268.3007978912344 183)" y="183" opacity="1">
-      <tspan>2012</tspan>
+    <text x="268.3007978912362" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 268.3007978912362 183)" y="183" opacity="1">
+      2012
     </text>
-    <text x="292.7214752530882" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 292.7214752530882 183)" y="183" opacity="1">
-      <tspan>2014</tspan>
+    <text x="292.7214752530862" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 292.7214752530862 183)" y="183" opacity="1">
+      2014
     </text>
-    <text x="317.14215261494195" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 317.14215261494195 183)" y="183" opacity="1">
-      <tspan>2016</tspan>
+    <text x="317.1421526149462" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 317.1421526149462 183)" y="183" opacity="1">
+      2016
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">

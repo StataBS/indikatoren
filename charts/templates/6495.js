@@ -43,22 +43,24 @@
     { "color": "#999999", index: 0, legendIndex: 4}, // grau
   ],
   "legend": { 
-     y: 45,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    alignColumns: false, 
+    itemDistance: 15, 
      "labelFormatter": function () {
-            return this.name;
-        },
+        return this.name;
+    },
     "itemStyle": {
-    "fontWeight": "normal"
+        "fontWeight": "normal", 
+        textOverflow: null, 
+        whitespace: 'nowrap'
     }
   },
 
 "chart": {     
 	 marginLeft: 150, 
-	 //marginBottom: 100,
      "inverted": true,
       "height": 500,
   },

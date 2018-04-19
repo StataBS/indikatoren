@@ -163,8 +163,7 @@
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
-    },
-    "y": 55
+    }
   },
   "plotOptions": {
     "series": {

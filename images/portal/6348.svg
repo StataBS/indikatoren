@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.1.0
   </desc>
   <defs>
     <clipPath>
@@ -61,7 +61,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 35 55 L 35 348"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(35,55) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(35,55) scale(1 1)" clip-path="url(#a)">
       <rect x="4" y="41" width="9" height="107" fill="#69929B" class="highcharts-point highcharts-color-0"/>
       <rect x="21" y="79" width="9" height="69" fill="#69929B" class="highcharts-point highcharts-color-1"/>
       <rect x="38" y="100" width="9" height="48" fill="#69929B" class="highcharts-point highcharts-color-2"/>
@@ -89,115 +89,115 @@
       <rect x="411" y="148" width="9" height="76" fill="#69929B" class="highcharts-point highcharts-negative highcharts-color-24"/>
       <rect x="427" y="148" width="9" height="89" fill="#69929B" class="highcharts-point highcharts-negative highcharts-color-25"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(35,55) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(35,55) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Standortqualitätsindikator (SQI)</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40">
     <tspan>Basel-Stadt im kantonalen Vergleich, Stand: 2016</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
-    <text x="47.128205128205124" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 47.128205128205124 360)" y="360" opacity="1">
-      <tspan>ZG</tspan>
+    <text x="47.1282051282052" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 47.1282051282052 360)" y="360" opacity="1">
+      ZG
     </text>
-    <text x="64.05128205128204" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 64.05128205128204 360)" y="360" opacity="1">
-      <tspan>ZH</tspan>
+    <text x="64.0512820512822" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 64.0512820512822 360)" y="360" opacity="1">
+      ZH
     </text>
-    <text x="80.97435897435898" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 80.97435897435898 360)" y="360" opacity="1">
-      <tspan>AG</tspan>
+    <text x="80.9743589743592" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 80.9743589743592 360)" y="360" opacity="1">
+      AG
     </text>
-    <text x="97.8974358974359" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 97.8974358974359 360)" y="360" opacity="1">
-      <tspan>BS</tspan>
+    <text x="97.8974358974382" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 97.8974358974382 360)" y="360" opacity="1">
+      BS
     </text>
-    <text x="114.82051282051283" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 114.82051282051283 360)" y="360" opacity="1">
-      <tspan>NW</tspan>
+    <text x="114.8205128205082" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 114.8205128205082 360)" y="360" opacity="1">
+      NW
     </text>
-    <text x="131.74358974358975" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 131.74358974358975 360)" y="360" opacity="1">
-      <tspan>LU</tspan>
+    <text x="131.74358974358822" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 131.74358974358822 360)" y="360" opacity="1">
+      LU
     </text>
-    <text x="148.66666666666666" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 148.66666666666666 360)" y="360" opacity="1">
-      <tspan>SZ</tspan>
+    <text x="148.6666666666682" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 148.6666666666682 360)" y="360" opacity="1">
+      SZ
     </text>
-    <text x="165.5897435897436" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 165.5897435897436 360)" y="360" opacity="1">
-      <tspan>OW</tspan>
+    <text x="165.5897435897482" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 165.5897435897482 360)" y="360" opacity="1">
+      OW
     </text>
-    <text x="182.5128205128205" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 182.5128205128205 360)" y="360" opacity="1">
-      <tspan>TG</tspan>
+    <text x="182.5128205128182" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 182.5128205128182 360)" y="360" opacity="1">
+      TG
     </text>
-    <text x="199.43589743589743" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 199.43589743589743 360)" y="360" opacity="1">
-      <tspan>AR</tspan>
+    <text x="199.4358974358982" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 199.4358974358982 360)" y="360" opacity="1">
+      AR
     </text>
-    <text x="216.35897435897436" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 216.35897435897436 360)" y="360" opacity="1">
-      <tspan>BL</tspan>
+    <text x="216.3589743589782" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 216.3589743589782 360)" y="360" opacity="1">
+      BL
     </text>
-    <text x="233.28205128205127" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 233.28205128205127 360)" y="360" opacity="1">
-      <tspan>SH</tspan>
+    <text x="233.2820512820482" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 233.2820512820482 360)" y="360" opacity="1">
+      SH
     </text>
     <text x="250.20512820512823" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 250.20512820512823 360)" y="360" opacity="1">
-      <tspan>GE</tspan>
+      GE
     </text>
-    <text x="267.12820512820514" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 267.12820512820514 360)" y="360" opacity="1">
-      <tspan>AI</tspan>
+    <text x="267.1282051282082" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 267.1282051282082 360)" y="360" opacity="1">
+      AI
     </text>
-    <text x="284.05128205128204" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 284.05128205128204 360)" y="360" opacity="1">
-      <tspan>SG</tspan>
+    <text x="284.05128205127824" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 284.05128205127824 360)" y="360" opacity="1">
+      SG
     </text>
-    <text x="300.974358974359" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 300.974358974359 360)" y="360" opacity="1">
-      <tspan>SO</tspan>
+    <text x="300.9743589743582" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 300.9743589743582 360)" y="360" opacity="1">
+      SO
     </text>
-    <text x="317.8974358974359" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 317.8974358974359 360)" y="360" opacity="1">
-      <tspan>VD</tspan>
+    <text x="317.89743589743824" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 317.89743589743824 360)" y="360" opacity="1">
+      VD
     </text>
-    <text x="334.8205128205128" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 334.8205128205128 360)" y="360" opacity="1">
-      <tspan>BE</tspan>
+    <text x="334.8205128205082" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 334.8205128205082 360)" y="360" opacity="1">
+      BE
     </text>
-    <text x="351.7435897435898" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 351.7435897435898 360)" y="360" opacity="1">
-      <tspan>NE</tspan>
+    <text x="351.74358974358825" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 351.74358974358825 360)" y="360" opacity="1">
+      NE
     </text>
-    <text x="368.6666666666667" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 368.6666666666667 360)" y="360" opacity="1">
-      <tspan>UR</tspan>
+    <text x="368.6666666666682" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 368.6666666666682 360)" y="360" opacity="1">
+      UR
     </text>
-    <text x="385.5897435897436" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 385.5897435897436 360)" y="360" opacity="1">
-      <tspan>GL</tspan>
+    <text x="385.58974358974825" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 385.58974358974825 360)" y="360" opacity="1">
+      GL
     </text>
-    <text x="402.51282051282055" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 402.51282051282055 360)" y="360" opacity="1">
-      <tspan>FR</tspan>
+    <text x="402.5128205128182" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 402.5128205128182 360)" y="360" opacity="1">
+      FR
     </text>
-    <text x="419.43589743589746" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 419.43589743589746 360)" y="360" opacity="1">
-      <tspan>TI</tspan>
+    <text x="419.43589743589826" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 419.43589743589826 360)" y="360" opacity="1">
+      TI
     </text>
-    <text x="436.35897435897436" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 436.35897435897436 360)" y="360" opacity="1">
-      <tspan>GR</tspan>
+    <text x="436.35897435897823" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 436.35897435897823 360)" y="360" opacity="1">
+      GR
     </text>
-    <text x="453.2820512820513" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 453.2820512820513 360)" y="360" opacity="1">
-      <tspan>VS</tspan>
+    <text x="453.28205128204826" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 453.28205128204826 360)" y="360" opacity="1">
+      VS
     </text>
     <text x="470.20512820512823" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 470.20512820512823 360)" y="360" opacity="1">
-      <tspan>JU</tspan>
+      JU
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
     <text x="20" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="353" opacity="1">
-      <tspan>-3</tspan>
+      -3
     </text>
     <text x="20" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="304" opacity="1">
-      <tspan>-2</tspan>
+      -2
     </text>
     <text x="20" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="255" opacity="1">
-      <tspan>-1</tspan>
+      -1
     </text>
     <text x="20" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="206" opacity="1">
-      <tspan>0</tspan>
+      0
     </text>
     <text x="20" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="157" opacity="1">
-      <tspan>1</tspan>
+      1
     </text>
     <text x="20" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="108" opacity="1">
-      <tspan>2</tspan>
+      2
     </text>
     <text x="20" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="60" opacity="1">
-      <tspan>3</tspan>
+      3
     </text>
   </g>
   <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">

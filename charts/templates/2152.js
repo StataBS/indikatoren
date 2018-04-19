@@ -21,10 +21,9 @@
      }  
   },
  "legend": { 
-     y: 45,
+     //y: 45,
     "enabled": true,
     "layout": "horizontal",
-   "itemWidth": 200,
     "verticalAlign": "top",
     "align": "left",
     "itemStyle": {
@@ -47,7 +46,7 @@
     },
   },  
   "chart": {
-  	height: 600,
+  	//height: 600,
   	type: "column",
     "inverted": false,
   }

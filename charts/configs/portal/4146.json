@@ -172,7 +172,12 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 30,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -193,8 +198,6 @@
             }
           }
     },
-    "marginBottom": 65,
-    "marginTop": 75,
     "type": "line",
     "renderTo": "container-4146"
   },
@@ -311,7 +314,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "y": 25,
     "itemStyle": {
       "fontWeight": "normal"
     }

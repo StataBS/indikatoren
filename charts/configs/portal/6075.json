@@ -966,8 +966,6 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 30,
-    "itemWidth": 145,
     "itemStyle": {
       "fontWeight": "normal"
     }

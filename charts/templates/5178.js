@@ -44,9 +44,8 @@
         "layout": "horizontal",
         "verticalAlign": "top",
         "align": "left",
-        "y": 60,
-         //x:-5,
-        "itemWidth": 130,
+        padding: 0,
+        itemDistance: 5,
     },
     "chart": {      
     	 marginLeft: 200,

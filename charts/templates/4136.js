@@ -27,7 +27,8 @@
     "align": "right",
     "itemStyle": {
       "fontWeight": "normal",
-      "width": 111
+      "width": 111, 
+      textOverflow: null
     }
   },
   "series": [
@@ -59,8 +60,6 @@
     }
   ],
   "chart": {
-    "marginBottom": 65,
-    "marginTop": 75,
     "zoomType": "xy",
     "type": "column"
   }

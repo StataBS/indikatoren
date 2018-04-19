@@ -30,8 +30,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 118,
-		"y": 35,    
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -42,9 +40,8 @@
   },  
   "chart": {      
     "renderTo": 'container-I.05.1.0001',
-    "marginBottom": 65,
-    "marginTop": 75,
     "type": "column",
+    "marginBottom": 65,
   }
 	}
 }());
