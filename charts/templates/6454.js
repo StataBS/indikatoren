@@ -46,7 +46,7 @@
         "align": "left",
         itemWidth: 180, 
         itemMarginBottom: 5,
-		"y": 35,    
+		    //"y": 35,    
         "itemStyle": {
           "fontWeight": "normal"
         }

@@ -18,6 +18,10 @@
           112
         ],
         [
+          "undefined",
+          null
+        ],
+        [
           "2011 Total",
           1145
         ],
@@ -28,6 +32,10 @@
         [
           "2011 Ausland",
           163
+        ],
+        [
+          "undefined",
+          null
         ],
         [
           "2007 Total",
@@ -42,6 +50,10 @@
           109
         ],
         [
+          "undefined",
+          null
+        ],
+        [
           "2005 Total",
           942
         ],
@@ -52,6 +64,10 @@
         [
           "2005 Ausland",
           135
+        ],
+        [
+          "undefined",
+          null
         ],
         [
           "2003 Total",
@@ -87,6 +103,10 @@
           54
         ],
         [
+          "undefined",
+          null
+        ],
+        [
           "2011 Total",
           341
         ],
@@ -97,6 +117,10 @@
         [
           "2011 Ausland",
           50
+        ],
+        [
+          "undefined",
+          null
         ],
         [
           "2007 Total",
@@ -111,6 +135,10 @@
           61
         ],
         [
+          "undefined",
+          null
+        ],
+        [
           "2005 Total",
           508
         ],
@@ -121,6 +149,10 @@
         [
           "2005 Ausland",
           68
+        ],
+        [
+          "undefined",
+          null
         ],
         [
           "2003 Total",
@@ -156,6 +188,10 @@
           5
         ],
         [
+          "undefined",
+          null
+        ],
+        [
           "2011 Total",
           19
         ],
@@ -166,6 +202,10 @@
         [
           "2011 Ausland",
           1
+        ],
+        [
+          "undefined",
+          null
         ],
         [
           "2007 Total",
@@ -180,6 +220,10 @@
           8
         ],
         [
+          "undefined",
+          null
+        ],
+        [
           "2005 Total",
           48
         ],
@@ -190,6 +234,10 @@
         [
           "2005 Ausland",
           7
+        ],
+        [
+          "undefined",
+          null
         ],
         [
           "2003 Total",
@@ -225,6 +273,10 @@
           1
         ],
         [
+          "undefined",
+          null
+        ],
+        [
           "2011 Total",
           9
         ],
@@ -235,6 +287,10 @@
         [
           "2011 Ausland",
           0
+        ],
+        [
+          "undefined",
+          null
         ],
         [
           "2007 Total",
@@ -249,6 +305,10 @@
           0
         ],
         [
+          "undefined",
+          null
+        ],
+        [
           "2005 Total",
           11
         ],
@@ -259,6 +319,10 @@
         [
           "2005 Ausland",
           0
+        ],
+        [
+          "undefined",
+          null
         ],
         [
           "2003 Total",
@@ -294,6 +358,10 @@
           1
         ],
         [
+          "undefined",
+          null
+        ],
+        [
           "2011 Total",
           2
         ],
@@ -304,6 +372,10 @@
         [
           "2011 Ausland",
           0
+        ],
+        [
+          "undefined",
+          null
         ],
         [
           "2007 Total",
@@ -318,6 +390,10 @@
           0
         ],
         [
+          "undefined",
+          null
+        ],
+        [
           "2005 Total",
           1
         ],
@@ -328,6 +404,10 @@
         [
           "2005 Ausland",
           0
+        ],
+        [
+          "undefined",
+          null
         ],
         [
           "2003 Total",
@@ -362,6 +442,7 @@
       "style": {
         "color": "#000000",
         "width": 1,
+        "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
       "formatter": function () {
@@ -402,7 +483,12 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 500,
-    "spacingBottom": 30,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -497,13 +583,13 @@
     "align": "left",
     "useHTML": false,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name;
         },
-    "y": 45,
     "enabled": true,
     "itemWidth": 150
   },

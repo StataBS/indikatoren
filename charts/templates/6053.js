@@ -5,9 +5,8 @@
   },
   "yAxis": {
 	"labels": {
-		"format": "{value:,.0f}",
 		"formatter": function(){
-        return Highcharts.numberFormat((this.value*100),0)+'%'; 
+        return Highcharts.numberFormat((this.value*100), 0)+'%'; 
       }, 
 	}
   },	
@@ -40,9 +39,6 @@
   ],
   "legend": {
     "enabled": true,
-    //"x": 45,
-    "y": 35,
-    "itemWidth": 500,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

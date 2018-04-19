@@ -3,7 +3,7 @@
     "legend": {
 	    "itemMarginBottom": 4,
 	    verticalAlign: "top",
-	    y: -6
+	    //y: -6
   },
 
     "chart": {

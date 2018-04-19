@@ -280,7 +280,8 @@
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
-      "width": 115
+      "width": 115,
+      "textOverflow": null
     },
     "symbolRadius": 0,
     "labelFormatter": function () {

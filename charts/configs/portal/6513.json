@@ -242,6 +242,7 @@
       "style": {
         "color": "#000000",
         "width": 1,
+        "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
       "formatter": function () {
@@ -259,7 +260,7 @@
             	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
             },
       "align": "left",
-      "x": -200
+      "x": -180
     }
   },
   "chart": {
@@ -282,13 +283,18 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 30,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "type": "column",
-    "marginLeft": 215,
+    "marginLeft": 195,
     "inverted": true,
     "renderTo": "container-6513"
   },
@@ -378,17 +384,17 @@
     "align": "left",
     "useHTML": false,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "y": 70,
-    "x": -5,
-    "margin": 3,
-    "enabled": true,
-    "itemWidth": 160
+    "alignColumns": false,
+    "itemDistance": 5,
+    "padding": 0,
+    "enabled": true
   },
   "exporting": {
     "filename": 6513

@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.1.0
   </desc>
   <defs>
     <clipPath>
@@ -36,19 +36,19 @@
     <path fill="none" class="highcharts-axis-line" d="M 49 87 L 49 179"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(49,87) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(49,87) scale(1 1)" clip-path="url(#a)">
       <rect x="7" y="35" width="40" height="58" fill="#CD9C00" class="highcharts-point"/>
       <rect x="60" y="20" width="40" height="73" fill="#CD9C00" class="highcharts-point"/>
       <rect x="114" y="67" width="40" height="26" fill="#CD9C00" class="highcharts-point"/>
       <rect x="168" y="39" width="40" height="54" fill="#CD9C00" class="highcharts-point"/>
       <rect x="221" y="55" width="40" height="38" fill="#CD9C00" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(49,87) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(49,87) scale(1 1)" clip-path="none"/>
   </g>
   <text x="3" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:10px;font-weight:bold;fill:#000000;" y="14">
     <tspan>Steuerbelastung natürlicher Personen in ausgewählten</tspan><tspan dy="13" x="3">Kantonshauptorten</tspan><title>Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten</title>
   </text>
-  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:arial;fill:#000000;" y="45">
+  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:Arial;fill:#000000;" y="45">
     <tspan>Doppelverdiener mit zwei Kindern und einem</tspan><tspan dy="13" x="3">Bruttoarbeitseinkommen von</tspan><tspan x="3" dy="13">100 000 Fr.; Stand: 2016</tspan><title>Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2016</title>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
@@ -70,7 +70,7 @@
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
     <text x="34" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="182" opacity="1">
-      <tspan>0</tspan>
+      0
     </text>
     <text x="34" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="136" opacity="1">
       <tspan>5 000</tspan>

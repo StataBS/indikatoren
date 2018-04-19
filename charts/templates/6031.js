@@ -75,20 +75,26 @@
     "legend": {
       useHTML: true,
       "enabled": true,
-      "y": 35,
-      itemWidth: 160,
+      //"y": 35,
+      //itemWidth: 160,
+      itemDistance: 12,
+      padding: 0,
       "layout": "horizontal",
       "verticalAlign": "top",
       "itemMarginBottom": 5,
       "align": "left",
       "itemStyle": {
-       "fontWeight": "normal"
+        "fontWeight": "normal", 
+        textOverflow: null,
       }
     },
     "chart": {    
       //"marginBottom": 75,
       //"marginTop": 75,
       "type": "column"
+    },
+    exporting: {
+      allowHTML: true
     }
   };
 }());

@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.1.0
   </desc>
   <defs>
     <clipPath>
@@ -42,23 +42,23 @@
     <path fill="none" class="highcharts-axis-line" d="M 52 116 L 52 349"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(52,116) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(52,116) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 5.875 230.0176 L 17.625 230.5768 L 29.375 230.204 L 41.125 229.272 L 52.875 230.7632 L 64.625 230.9496 L 76.375 227.7808 L 88.125 230.0176 L 99.875 228.7128 L 111.625 229.4584 L 123.375 230.3904 L 135.125 230.7632 L 146.875 230.7632 L 158.625 230.7632 L 170.375 230.0176 L 182.125 229.6448 L 193.875 230.204 L 205.625 231.3224 L 217.375 229.6448 L 229.125 230.9496 L 240.875 231.136 L 252.625 230.0176 L 264.375 231.5088 L 276.125 229.8312 L 287.875 228.5264 L 299.625 229.8312 L 311.375 228.5264 L 323.125 230.3904 L 334.875 230.0176 L 346.625 230.7632 L 358.375 230.7632 L 370.125 230.9496 L 381.875 231.136 L 393.625 230.0176 L 405.375 230.5768 L 417.125 232.068" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(52,116) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(52,116) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(52,116) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-line-series " transform="translate(52,116) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 5.875 154.89839999999998 L 17.625 155.0848 L 29.375 138.6816 L 41.125 150.2384 L 52.875 151.1704 L 64.625 144.0872 L 76.375 120.228 L 88.125 139.9864 L 99.875 136.072 L 111.625 123.7696 L 123.375 98.9784 L 135.125 116.12719999999999 L 146.875 101.77439999999999 L 158.625 117.43199999999999 L 170.375 108.112 L 182.125 119.4824 L 193.875 102.51999999999998 L 205.625 98.60559999999998 L 217.375 84.62559999999999 L 229.125 111.0944 L 240.875 97.4872 L 252.625 57.41119999999998 L 264.375 71.3912 L 276.125 89.84479999999999 L 287.875 79.59279999999998 L 299.625 95.4368 L 311.375 82.76159999999999 L 323.125 93.0136 L 334.875 75.11919999999998 L 346.625 85.93039999999999 L 358.375 65.6128 L 370.125 108.48479999999999 L 381.875 36.16159999999999 L 393.625 76.0512 L 405.375 79.03359999999998 L 417.125 104.38399999999999" class="highcharts-graph" stroke="#DC440E" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(52,116) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-1 highcharts-line-series " transform="translate(52,116) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Zuwanderung von Erwerbstätigen im Dienstleistungssektor (II)</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40">
     <tspan>Kurz- und Daueraufenthalter, Basel-Stadt</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(44,55)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="246" height="49" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="338" height="49" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
@@ -70,7 +70,7 @@
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(8,22)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#DC440E" stroke-width="2"/>
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Beratung, Planung, Forschung, Imm…</tspan><title>Beratung, Planung, Forschung, Immobilien, IT, sonst. DL</title>
+            <tspan>Beratung, Planung, Forschung, Immobilien, IT, sonst. DL</tspan>
           </text>
         </g>
       </g>
@@ -107,16 +107,16 @@
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
     <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="354" opacity="1">
-      <tspan>0</tspan>
+      0
     </text>
     <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="307" opacity="1">
-      <tspan>250</tspan>
+      250
     </text>
     <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="260" opacity="1">
-      <tspan>500</tspan>
+      500
     </text>
     <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="214" opacity="1">
-      <tspan>750</tspan>
+      750
     </text>
     <text x="37" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="167" opacity="1">
       <tspan>1 000</tspan>

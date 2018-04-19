@@ -1,89 +1,89 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.1.0
   </desc>
   <defs>
     <clipPath>
-      <rect x="0" y="0" width="608" height="131" fill="none"/>
+      <rect x="0" y="0" width="608" height="90" fill="none"/>
     </clipPath>
     <clipPath id="a">
-      <rect x="0" y="0" width="608" height="131" fill="none"/>
+      <rect x="0" y="0" width="608" height="90" fill="none"/>
     </clipPath>
   </defs>
   <rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="665" height="208" rx="0" ry="0"/>
-  <rect fill="none" class="highcharts-plot-background" x="54" y="48" width="608" height="131"/>
+  <rect fill="none" class="highcharts-plot-background" x="54" y="89" width="608" height="90"/>
   <g class="highcharts-pane-group"/>
   <g class="highcharts-grid highcharts-xaxis-grid ">
-    <path fill="none" class="highcharts-grid-line" d="M 83.5 48 L 83.5 179" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 114.5 48 L 114.5 179" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 144.5 48 L 144.5 179" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 175.5 48 L 175.5 179" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 205.5 48 L 205.5 179" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 235.5 48 L 235.5 179" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 266.5 48 L 266.5 179" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 296.5 48 L 296.5 179" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 327.5 48 L 327.5 179" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 357.5 48 L 357.5 179" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 387.5 48 L 387.5 179" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 418.5 48 L 418.5 179" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 448.5 48 L 448.5 179" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 479.5 48 L 479.5 179" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 509.5 48 L 509.5 179" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 539.5 48 L 539.5 179" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 570.5 48 L 570.5 179" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 600.5 48 L 600.5 179" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 631.5 48 L 631.5 179" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 661.5 48 L 661.5 179" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 53.5 48 L 53.5 179" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 83.5 89 L 83.5 179" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 114.5 89 L 114.5 179" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 144.5 89 L 144.5 179" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 175.5 89 L 175.5 179" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 205.5 89 L 205.5 179" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 235.5 89 L 235.5 179" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 266.5 89 L 266.5 179" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 296.5 89 L 296.5 179" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 327.5 89 L 327.5 179" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 357.5 89 L 357.5 179" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 387.5 89 L 387.5 179" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 418.5 89 L 418.5 179" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 448.5 89 L 448.5 179" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 479.5 89 L 479.5 179" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 509.5 89 L 509.5 179" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 539.5 89 L 539.5 179" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 570.5 89 L 570.5 179" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 600.5 89 L 600.5 179" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 631.5 89 L 631.5 179" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 661.5 89 L 661.5 179" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 53.5 89 L 53.5 179" opacity="1"/>
   </g>
   <g class="highcharts-grid highcharts-yaxis-grid ">
     <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 54 179.25 L 662 179.25" opacity="1"/>
-    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 54 114.25 L 662 114.25" opacity="1"/>
-    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 54 47.75 L 662 47.75" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 54 134.25 L 662 134.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 54 88.75 L 662 88.75" opacity="1"/>
   </g>
-  <rect fill="none" class="highcharts-plot-border" x="54" y="48" width="608" height="131"/>
+  <rect fill="none" class="highcharts-plot-border" x="54" y="89" width="608" height="90"/>
   <g class="highcharts-axis highcharts-xaxis ">
     <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width="0.5" d="M 54 179.25 L 662 179.25"/>
   </g>
   <g class="highcharts-axis highcharts-yaxis ">
-    <path fill="none" class="highcharts-axis-line" d="M 54 48 L 54 179"/>
+    <path fill="none" class="highcharts-axis-line" d="M 54 89 L 54 179"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-area-series highcharts-color-undefined " transform="translate(54,48) scale(1 1)" clip-path="url(#a)">
-      <path fill="rgb(0,122,47)" fill-opacity="0.75" d="M 15.2 86.32048499999999 L 45.6 100.92371 L 76 79.70695 L 106.4 78.09565 L 136.8 87.01937000000001 L 167.2 98.60763 L 197.6 89.14157 L 228 75.30142000000001 L 258.4 52.781864999999996 L 288.8 70.592625 L 319.2 72.95259 L 349.6 68.936785 L 380 58.341505 L 410.4 38.553955 L 440.8 20.512635000000003 L 471.2 33.71940000000001 L 501.6 53.892745000000005 L 532 55.40448500000001 L 562.4 62.784369999999996 L 592.8 74.510835 L 592.8 75.84376 L 562.4 63.322125 L 532 55.851195000000004 L 501.6 54.968255 L 471.2 34.41173500000001 L 440.8 21.822635000000005 L 410.4 38.603080000000006 L 380 58.640185 L 349.6 69.60161 L 319.2 73.650165 L 288.8 77.37973500000001 L 258.4 60.022890000000004 L 228 82.12652 L 197.6 96.71468 L 167.2 106.17091500000001 L 136.8 96.57451 L 106.4 87.29709 L 76 90.202015 L 45.6 102.856615 L 15.2 86.57135" class="highcharts-area"/>
-      <path fill="none" d="M 15.2 86.32048499999999 L 45.6 100.92371 L 76 79.70695 L 106.4 78.09565 L 136.8 87.01937000000001 L 167.2 98.60763 L 197.6 89.14157 L 228 75.30142000000001 L 258.4 52.781864999999996 L 288.8 70.592625 L 319.2 72.95259 L 349.6 68.936785 L 380 58.341505 L 410.4 38.553955 L 440.8 20.512635000000003 L 471.2 33.71940000000001 L 501.6 53.892745000000005 L 532 55.40448500000001 L 562.4 62.784369999999996 L 592.8 74.510835" class="highcharts-graph" stroke-linejoin="round" stroke-linecap="round"/>
+    <g class="highcharts-series highcharts-series-0 highcharts-area-series " transform="translate(54,89) scale(1 1)" clip-path="url(#a)">
+      <path fill="rgb(0,122,47)" fill-opacity="0.75" d="M 15.2 59.30415 L 45.6 69.3369 L 76 54.7605 L 106.4 53.6535 L 136.8 59.7843 L 167.2 67.7457 L 197.6 61.2423 L 228 51.7338 L 258.4 36.262350000000005 L 288.8 48.49875 L 319.2 50.1201 L 349.6 47.36115 L 380 40.08195 L 410.4 26.487450000000003 L 440.8 14.092650000000006 L 471.2 23.165999999999997 L 501.6 37.02555 L 532 38.06415 L 562.4 43.1343 L 592.8 51.19065 L 592.8 52.1064 L 562.4 43.503750000000004 L 532 38.371050000000004 L 501.6 37.764450000000004 L 471.2 23.64165 L 440.8 14.992649999999998 L 410.4 26.5212 L 380 40.287150000000004 L 349.6 47.8179 L 319.2 50.59935 L 288.8 53.16165 L 258.4 41.2371 L 228 56.4228 L 197.6 66.4452 L 167.2 72.94185 L 136.8 66.3489 L 106.4 59.9751 L 76 61.97085 L 45.6 70.66485 L 15.2 59.4765" class="highcharts-area"/>
+      <path fill="none" d="M 15.2 59.30415 L 45.6 69.3369 L 76 54.7605 L 106.4 53.6535 L 136.8 59.7843 L 167.2 67.7457 L 197.6 61.2423 L 228 51.7338 L 258.4 36.262350000000005 L 288.8 48.49875 L 319.2 50.1201 L 349.6 47.36115 L 380 40.08195 L 410.4 26.487450000000003 L 440.8 14.092650000000006 L 471.2 23.165999999999997 L 501.6 37.02555 L 532 38.06415 L 562.4 43.1343 L 592.8 51.19065" class="highcharts-graph" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-area-series highcharts-color-undefined " transform="translate(54,48) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-area-series highcharts-color-undefined " transform="translate(54,48) scale(1 1)" clip-path="url(#a)">
-      <path fill="rgb(113,163,181)" fill-opacity="0.75" d="M 15.2 86.57135 L 45.6 102.856615 L 76 90.202015 L 106.4 87.29709 L 136.8 96.57451 L 167.2 106.17091500000001 L 197.6 96.71468 L 228 82.12652 L 258.4 60.022890000000004 L 288.8 77.37973500000001 L 319.2 73.650165 L 349.6 69.60161 L 380 58.640185 L 410.4 38.603080000000006 L 440.8 21.822635000000005 L 471.2 34.41173500000001 L 501.6 54.968255 L 532 55.851195000000004 L 562.4 63.322125 L 592.8 75.84376 L 592.8 80.94817499999999 L 562.4 67.819355 L 532 59.863725 L 501.6 68.05974 L 471.2 46.268545 L 440.8 34.21851000000001 L 410.4 42.24619 L 380 61.583755 L 349.6 73.993385 L 319.2 82.530655 L 288.8 85.324885 L 258.4 65.84453 L 228 84.33518000000001 L 197.6 98.933165 L 167.2 107.29293 L 136.8 97.57797 L 106.4 88.02741499999999 L 76 93.892285 L 45.6 106.303225 L 15.2 93.224185" class="highcharts-area"/>
-      <path fill="none" d="M 15.2 86.57135 L 45.6 102.856615 L 76 90.202015 L 106.4 87.29709 L 136.8 96.57451 L 167.2 106.17091500000001 L 197.6 96.71468 L 228 82.12652 L 258.4 60.022890000000004 L 288.8 77.37973500000001 L 319.2 73.650165 L 349.6 69.60161 L 380 58.640185 L 410.4 38.603080000000006 L 440.8 21.822635000000005 L 471.2 34.41173500000001 L 501.6 54.968255 L 532 55.851195000000004 L 562.4 63.322125 L 592.8 75.84376" class="highcharts-graph" stroke-linejoin="round" stroke-linecap="round"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-area-series " transform="translate(54,89) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-area-series " transform="translate(54,89) scale(1 1)" clip-path="url(#a)">
+      <path fill="rgb(113,163,181)" fill-opacity="0.75" d="M 15.2 59.4765 L 45.6 70.66485 L 76 61.97085 L 106.4 59.9751 L 136.8 66.3489 L 167.2 72.94185 L 197.6 66.4452 L 228 56.4228 L 258.4 41.2371 L 288.8 53.16165 L 319.2 50.59935 L 349.6 47.8179 L 380 40.287150000000004 L 410.4 26.5212 L 440.8 14.992649999999998 L 471.2 23.64165 L 501.6 37.764450000000004 L 532 38.371050000000004 L 562.4 43.503750000000004 L 592.8 52.1064 L 592.8 55.61325 L 562.4 46.593450000000004 L 532 41.12775 L 501.6 46.7586 L 471.2 31.787550000000003 L 440.8 23.508899999999997 L 410.4 29.024100000000004 L 380 42.30945 L 349.6 50.83515 L 319.2 56.700450000000004 L 288.8 58.62015 L 258.4 45.2367 L 228 57.940200000000004 L 197.6 67.96935 L 167.2 73.7127 L 136.8 67.03829999999999 L 106.4 60.47685 L 76 64.50615 L 45.6 73.03275 L 15.2 64.04715" class="highcharts-area"/>
+      <path fill="none" d="M 15.2 59.4765 L 45.6 70.66485 L 76 61.97085 L 106.4 59.9751 L 136.8 66.3489 L 167.2 72.94185 L 197.6 66.4452 L 228 56.4228 L 258.4 41.2371 L 288.8 53.16165 L 319.2 50.59935 L 349.6 47.8179 L 380 40.287150000000004 L 410.4 26.5212 L 440.8 14.992649999999998 L 471.2 23.64165 L 501.6 37.764450000000004 L 532 38.371050000000004 L 562.4 43.503750000000004 L 592.8 52.1064" class="highcharts-graph" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-area-series highcharts-color-undefined " transform="translate(54,48) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-2 highcharts-area-series highcharts-color-undefined " transform="translate(54,48) scale(1 1)" clip-path="url(#a)">
-      <path fill="rgb(230,230,0)" fill-opacity="0.75" d="M 15.2 93.224185 L 45.6 106.303225 L 76 93.892285 L 106.4 88.02741499999999 L 136.8 97.57797 L 167.2 107.29293 L 197.6 98.933165 L 228 84.33518000000001 L 258.4 65.84453 L 288.8 85.324885 L 319.2 82.530655 L 349.6 73.993385 L 380 61.583755 L 410.4 42.24619 L 440.8 34.21851000000001 L 471.2 46.268545 L 501.6 68.05974 L 532 59.863725 L 562.4 67.819355 L 592.8 80.94817499999999 L 592.8 87.86431999999999 L 562.4 79.331635 L 532 71.120555 L 501.6 74.284205 L 471.2 55.65666 L 440.8 44.942825 L 410.4 51.09917 L 380 74.81475499999999 L 349.6 79.62442 L 319.2 87.709085 L 288.8 93.605395 L 258.4 73.44515 L 228 89.008605 L 197.6 101.633075 L 167.2 110.184755 L 136.8 101.69399 L 106.4 91.783185 L 76 98.550645 L 45.6 112.850605 L 15.2 99.847545" class="highcharts-area"/>
-      <path fill="none" d="M 15.2 93.224185 L 45.6 106.303225 L 76 93.892285 L 106.4 88.02741499999999 L 136.8 97.57797 L 167.2 107.29293 L 197.6 98.933165 L 228 84.33518000000001 L 258.4 65.84453 L 288.8 85.324885 L 319.2 82.530655 L 349.6 73.993385 L 380 61.583755 L 410.4 42.24619 L 440.8 34.21851000000001 L 471.2 46.268545 L 501.6 68.05974 L 532 59.863725 L 562.4 67.819355 L 592.8 80.94817499999999" class="highcharts-graph" stroke-linejoin="round" stroke-linecap="round"/>
+    <g class="highcharts-markers highcharts-series-1 highcharts-area-series " transform="translate(54,89) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-2 highcharts-area-series " transform="translate(54,89) scale(1 1)" clip-path="url(#a)">
+      <path fill="rgb(230,230,0)" fill-opacity="0.75" d="M 15.2 64.04715 L 45.6 73.03275 L 76 64.50615 L 106.4 60.47685 L 136.8 67.03829999999999 L 167.2 73.7127 L 197.6 67.96935 L 228 57.940200000000004 L 258.4 45.2367 L 288.8 58.62015 L 319.2 56.700450000000004 L 349.6 50.83515 L 380 42.30945 L 410.4 29.024100000000004 L 440.8 23.508899999999997 L 471.2 31.787550000000003 L 501.6 46.7586 L 532 41.12775 L 562.4 46.593450000000004 L 592.8 55.61325 L 592.8 60.3648 L 562.4 54.50265 L 532 48.86145 L 501.6 51.03495 L 471.2 38.2374 L 440.8 30.87675 L 410.4 35.106300000000005 L 380 51.39945 L 349.6 54.7038 L 319.2 60.25815 L 288.8 64.30905 L 258.4 50.4585 L 228 61.15095 L 197.6 69.82425 L 167.2 75.69945 L 136.8 69.8661 L 106.4 63.05715 L 76 67.70655 L 45.6 77.53095 L 15.2 68.59755" class="highcharts-area"/>
+      <path fill="none" d="M 15.2 64.04715 L 45.6 73.03275 L 76 64.50615 L 106.4 60.47685 L 136.8 67.03829999999999 L 167.2 73.7127 L 197.6 67.96935 L 228 57.940200000000004 L 258.4 45.2367 L 288.8 58.62015 L 319.2 56.700450000000004 L 349.6 50.83515 L 380 42.30945 L 410.4 29.024100000000004 L 440.8 23.508899999999997 L 471.2 31.787550000000003 L 501.6 46.7586 L 532 41.12775 L 562.4 46.593450000000004 L 592.8 55.61325" class="highcharts-graph" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-2 highcharts-area-series highcharts-color-undefined " transform="translate(54,48) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-3 highcharts-area-series highcharts-color-undefined " transform="translate(54,48) scale(1 1)" clip-path="url(#a)">
-      <path fill="rgb(255,128,40)" fill-opacity="0.75" d="M 15.2 99.847545 L 45.6 112.850605 L 76 98.550645 L 106.4 91.783185 L 136.8 101.69399 L 167.2 110.184755 L 197.6 101.633075 L 228 89.008605 L 258.4 73.44515 L 288.8 93.605395 L 319.2 87.709085 L 349.6 79.62442 L 380 74.81475499999999 L 410.4 51.09917 L 440.8 44.942825 L 471.2 55.65666 L 501.6 74.284205 L 532 71.120555 L 562.4 79.331635 L 592.8 87.86431999999999 L 592.8 95.25992500000001 L 562.4 91.07643999999999 L 532 81.531125 L 501.6 84.345005 L 471.2 71.28037499999999 L 440.8 73.419605 L 410.4 77.483225 L 380 98.69933 L 349.6 91.14849000000001 L 319.2 96.57385500000001 L 288.8 102.656185 L 258.4 87.937025 L 228 96.808345 L 197.6 108.695285 L 167.2 115.46209 L 136.8 116.564455 L 106.4 106.26458 L 76 112.310885 L 45.6 121.24836 L 15.2 114.726525" class="highcharts-area"/>
-      <path fill="none" d="M 15.2 99.847545 L 45.6 112.850605 L 76 98.550645 L 106.4 91.783185 L 136.8 101.69399 L 167.2 110.184755 L 197.6 101.633075 L 228 89.008605 L 258.4 73.44515 L 288.8 93.605395 L 319.2 87.709085 L 349.6 79.62442 L 380 74.81475499999999 L 410.4 51.09917 L 440.8 44.942825 L 471.2 55.65666 L 501.6 74.284205 L 532 71.120555 L 562.4 79.331635 L 592.8 87.86431999999999" class="highcharts-graph" stroke-linejoin="round" stroke-linecap="round"/>
+    <g class="highcharts-markers highcharts-series-2 highcharts-area-series " transform="translate(54,89) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-3 highcharts-area-series " transform="translate(54,89) scale(1 1)" clip-path="url(#a)">
+      <path fill="rgb(255,128,40)" fill-opacity="0.75" d="M 15.2 68.59755 L 45.6 77.53095 L 76 67.70655 L 106.4 63.05715 L 136.8 69.8661 L 167.2 75.69945 L 197.6 69.82425 L 228 61.15095 L 258.4 50.4585 L 288.8 64.30905 L 319.2 60.25815 L 349.6 54.7038 L 380 51.39945 L 410.4 35.106300000000005 L 440.8 30.87675 L 471.2 38.2374 L 501.6 51.03495 L 532 48.86145 L 562.4 54.50265 L 592.8 60.3648 L 592.8 65.44575 L 562.4 62.571600000000004 L 532 56.01375 L 501.6 57.94695 L 471.2 48.97125 L 440.8 50.44095 L 410.4 53.23275 L 380 67.8087 L 349.6 62.6211 L 319.2 66.34845 L 288.8 70.52715 L 258.4 60.41475 L 228 66.50955 L 197.6 74.67615 L 167.2 79.3251 L 136.8 80.08245 L 106.4 73.0062 L 76 77.16015 L 45.6 83.3004 L 15.2 78.81975" class="highcharts-area"/>
+      <path fill="none" d="M 15.2 68.59755 L 45.6 77.53095 L 76 67.70655 L 106.4 63.05715 L 136.8 69.8661 L 167.2 75.69945 L 197.6 69.82425 L 228 61.15095 L 258.4 50.4585 L 288.8 64.30905 L 319.2 60.25815 L 349.6 54.7038 L 380 51.39945 L 410.4 35.106300000000005 L 440.8 30.87675 L 471.2 38.2374 L 501.6 51.03495 L 532 48.86145 L 562.4 54.50265 L 592.8 60.3648" class="highcharts-graph" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-3 highcharts-area-series highcharts-color-undefined " transform="translate(54,48) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-4 highcharts-area-series highcharts-color-undefined " transform="translate(54,48) scale(1 1)" clip-path="url(#a)">
-      <path fill="rgb(176,0,0)" fill-opacity="0.75" d="M 15.2 114.726525 L 45.6 121.24836 L 76 112.310885 L 106.4 106.26458 L 136.8 116.564455 L 167.2 115.46209 L 197.6 108.695285 L 228 96.808345 L 258.4 87.937025 L 288.8 102.656185 L 319.2 96.57385500000001 L 349.6 91.14849000000001 L 380 98.69933 L 410.4 77.483225 L 440.8 73.419605 L 471.2 71.28037499999999 L 501.6 84.345005 L 532 81.531125 L 562.4 91.07643999999999 L 592.8 95.25992500000001 L 592.8 131 L 562.4 131 L 532 131 L 501.6 131 L 471.2 131 L 440.8 131 L 410.4 131 L 380 131 L 349.6 131 L 319.2 131 L 288.8 131 L 258.4 131 L 228 131 L 197.6 131 L 167.2 131 L 136.8 131 L 106.4 131 L 76 131 L 45.6 131 L 15.2 131" class="highcharts-area"/>
-      <path fill="none" d="M 15.2 114.726525 L 45.6 121.24836 L 76 112.310885 L 106.4 106.26458 L 136.8 116.564455 L 167.2 115.46209 L 197.6 108.695285 L 228 96.808345 L 258.4 87.937025 L 288.8 102.656185 L 319.2 96.57385500000001 L 349.6 91.14849000000001 L 380 98.69933 L 410.4 77.483225 L 440.8 73.419605 L 471.2 71.28037499999999 L 501.6 84.345005 L 532 81.531125 L 562.4 91.07643999999999 L 592.8 95.25992500000001" class="highcharts-graph" stroke-linejoin="round" stroke-linecap="round"/>
+    <g class="highcharts-markers highcharts-series-3 highcharts-area-series " transform="translate(54,89) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-4 highcharts-area-series " transform="translate(54,89) scale(1 1)" clip-path="url(#a)">
+      <path fill="rgb(176,0,0)" fill-opacity="0.75" d="M 15.2 78.81975 L 45.6 83.3004 L 76 77.16015 L 106.4 73.0062 L 136.8 80.08245 L 167.2 79.3251 L 197.6 74.67615 L 228 66.50955 L 258.4 60.41475 L 288.8 70.52715 L 319.2 66.34845 L 349.6 62.6211 L 380 67.8087 L 410.4 53.23275 L 440.8 50.44095 L 471.2 48.97125 L 501.6 57.94695 L 532 56.01375 L 562.4 62.571600000000004 L 592.8 65.44575 L 592.8 90 L 562.4 90 L 532 90 L 501.6 90 L 471.2 90 L 440.8 90 L 410.4 90 L 380 90 L 349.6 90 L 319.2 90 L 288.8 90 L 258.4 90 L 228 90 L 197.6 90 L 167.2 90 L 136.8 90 L 106.4 90 L 76 90 L 45.6 90 L 15.2 90" class="highcharts-area"/>
+      <path fill="none" d="M 15.2 78.81975 L 45.6 83.3004 L 76 77.16015 L 106.4 73.0062 L 136.8 80.08245 L 167.2 79.3251 L 197.6 74.67615 L 228 66.50955 L 258.4 60.41475 L 288.8 70.52715 L 319.2 66.34845 L 349.6 62.6211 L 380 67.8087 L 410.4 53.23275 L 440.8 50.44095 L 471.2 48.97125 L 501.6 57.94695 L 532 56.01375 L 562.4 62.571600000000004 L 592.8 65.44575" class="highcharts-graph" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-4 highcharts-area-series highcharts-color-undefined " transform="translate(54,48) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-4 highcharts-area-series " transform="translate(54,89) scale(1 1)" clip-path="none"/>
   </g>
   <text x="3" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:10px;font-weight:bold;fill:#000000;" y="14">
     <tspan>Leerstehende Industrie- und Gewerbeflächen</tspan>
   </text>
-  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:arial;fill:#000000;" y="32">
+  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:Arial;fill:#000000;" y="32">
     <tspan>in Quadratmetern</tspan>
   </text>
-  <g class="highcharts-legend" transform="translate(43,7)">
+  <g class="highcharts-legend" transform="translate(43,48)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="496" height="29" visibility="visible"/>
     <g>
       <g>
@@ -133,19 +133,19 @@
     <text x="160.4" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
       2000
     </text>
-    <text x="190.79999999999998" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
+    <text x="190.8" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
       2001
     </text>
-    <text x="221.2" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
+    <text x="221.20000000000002" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
       2002
     </text>
-    <text x="251.59999999999997" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
+    <text x="251.60000000000002" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
       2003
     </text>
     <text x="282" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
       2004
     </text>
-    <text x="312.4" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
+    <text x="312.40000000000003" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
       2005
     </text>
     <text x="342.8" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
@@ -154,16 +154,16 @@
     <text x="373.2" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
       2007
     </text>
-    <text x="403.59999999999997" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
+    <text x="403.6" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
       2008
     </text>
     <text x="434" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
       2009
     </text>
-    <text x="464.4" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
+    <text x="464.40000000000003" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
       2010
     </text>
-    <text x="494.79999999999995" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
+    <text x="494.8" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
       2011
     </text>
     <text x="525.1999999999999" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="199" opacity="1">
@@ -184,12 +184,12 @@
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
     <text x="39" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="182" opacity="1">
-      <tspan>0</tspan>
+      0
     </text>
-    <text x="39" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="117" opacity="1">
+    <text x="39" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="137" opacity="1">
       <tspan>100 000</tspan>
     </text>
-    <text x="39" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="51" opacity="1">
+    <text x="39" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="92" opacity="1">
       <tspan>200 000</tspan>
     </text>
   </g>

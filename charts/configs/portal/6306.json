@@ -340,8 +340,8 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "itemWidth": 130,
     "margin": 3,
+    "itemDistance": 5,
     "itemMarginBottom": 5
   },
   "plotOptions": {

@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.1.0
   </desc>
   <defs>
     <clipPath>
@@ -14,7 +14,7 @@
   <g class="highcharts-pane-group"/>
   <rect fill="none" class="highcharts-plot-border" x="10" y="55" width="317" height="315"/>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-pie-series highcharts-color-undefined " transform="translate(10,55) scale(1 1)">
+    <g class="highcharts-series highcharts-series-0 highcharts-pie-series " transform="translate(10,55) scale(1 1)">
       <path fill="#B00000" d="M 153.97871615021384 47.50000216747496 A 104.5 104.5 0 0 1 254.07652074296936 121.91777940407295 L 154 152 A 0 0 0 0 0 154 152 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
       <path fill="#FF8028" d="M 254.1065529202954 122.01787094924555 A 104.5 104.5 0 0 1 220.34036867255577 232.74159698934238 L 154 152 A 0 0 0 0 0 154 152 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-1"/>
       <path fill="#FABD24" d="M 220.25959391884177 232.80789697616308 A 104.5 104.5 0 0 1 154.605712758324 256.49824454053953 L 154 152 A 0 0 0 0 0 154 152 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-2"/>
@@ -23,15 +23,15 @@
       <path fill="#68AB2B" d="M 84.92134051041376 230.41166241779214 A 104.5 104.5 0 0 1 63.867985806397044 204.881660501578 L 154 152 A 0 0 0 0 0 154 152 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-5"/>
       <path fill="#007A2F" d="M 63.815149220712414 204.79150206157837 A 104.5 104.5 0 0 1 153.85485159647152 47.50010080415889 L 154 152 A 0 0 0 0 0 154 152 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-6"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-pie-series highcharts-color-undefined " transform="translate(10,55) scale(1 1)"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-pie-series " transform="translate(10,55) scale(1 1)"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Übrige Ausländer</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40">
     <tspan>nach einzelnen Staatsangehörigkeiten, Stand: 2016</tspan>
   </text>
-  <g class="highcharts-data-labels highcharts-series-0 highcharts-pie-series highcharts-color-undefined " visibility="visible" transform="translate(10,55) scale(1 1)">
+  <g class="highcharts-data-labels highcharts-series-0 highcharts-pie-series " visibility="visible" transform="translate(10,55) scale(1 1)">
     <path fill="none" class="highcharts-data-label-connector highcharts-color-0" stroke="#B00000" stroke-width="1" d="M 226.88410108158973 60.16392473944177 C 221.88410108158973 60.16392473944177 218.30065473670294 64.97629549545356 217.10617262174068 66.58041908079082 L 215.91169050677843 68.18454266612808"/>
     <path fill="none" class="highcharts-data-label-connector highcharts-color-1" stroke="#FF8028" stroke-width="1" d="M 267.99940187373534 185.4683580310448 C 262.99940187373534 185.4683580310448 257.26144195022084 183.71455761020403 255.3487886423827 183.12995746992377 L 253.4361353345445 182.5453573296435"/>
     <path fill="none" class="highcharts-data-label-connector highcharts-color-2" stroke="#FABD24" stroke-width="1" d="M 197.31026980375415 259.72192422046595 C 192.31026980375415 259.72192422046595 190.27654387517308 254.07710723074723 189.59863523231274 252.19550156750765 L 188.9207265894524 250.31389590426807"/>

@@ -74,7 +74,7 @@ global Highcharts
   "legend": {
     enabled: true,
     useHTML: true,
-    //"y": 35,
+    "y": -45,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

@@ -43,7 +43,7 @@
     { "color": "#999999", index: 0, legendIndex: 4}, // grau
   ],
   "legend": { 
-     y: 55,
+     //y: 55,
     "enabled": true,
     itemWidth: 150,
     "layout": "horizontal",

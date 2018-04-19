@@ -121,7 +121,6 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "marginTop": 120,
     "renderTo": "container-4463"
   },
   "title": {
@@ -205,8 +204,7 @@
     "align": "left",
     "symbolRadius": 0,
     "itemMarginBottom": 5,
-    "x": 35,
-    "y": 50
+    "x": 35
   },
   "plotOptions": {
     "series": {

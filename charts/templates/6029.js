@@ -11,7 +11,7 @@
   },
   "yAxis": {
 	"labels": {
-		"format": "{value:,.0f}"
+		"format": "{value:,.0f}",
 	}
   },	
   "tooltip": {
@@ -47,9 +47,7 @@
   "legend": {
   	symbolWidth: 30,
     "enabled": true,
-    //"x": 25,
-    "y": 65,
-    "itemWidth": 220,
+    useHTML: true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
@@ -66,6 +64,9 @@
         "symbol": "circle",
       }
     }
+  },
+  exporting:{
+    allowHTML: true 
   }
 }
 }());

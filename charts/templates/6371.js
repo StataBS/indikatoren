@@ -27,7 +27,7 @@
  "legend": {
     enabled:true,
     margin: 0,
-    y: -3,
+    //y: -3,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5, 

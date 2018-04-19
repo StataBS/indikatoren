@@ -3842,7 +3842,6 @@
     "useHTML": true,
     "layout": "vertical",
     "x": -185,
-    "y": 3,
     "itemMarginBottom": 2,
     "symbolRadius": 0
   },

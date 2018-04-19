@@ -15,10 +15,9 @@
   },
   "legend": {
     "enabled": true,
-    "layout": "vertical",
+    "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "top",
-		"y": 40,
+    "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -46,7 +45,6 @@
     "shared": false
   },
   "chart": {
-    "marginTop": 150,
     "type": "column"
   }
 	}

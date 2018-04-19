@@ -53,7 +53,7 @@
      "inverted": true,
   },
   "legend": { 
-     y: 90,
+     //y: 90,
      x: -5,
     "enabled": true,
     "layout": "horizontal",

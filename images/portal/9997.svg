@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.1.0
   </desc>
   <defs>
     <clipPath>
@@ -46,10 +46,10 @@
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-bubble-series highcharts-color-0 " transform="translate(46,55) scale(1 1)" clip-path="none"/>
   </g>
-  <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;font-family:arial;fill:#000000;" y="21">
+  <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;font-family:Arial;fill:#000000;" y="21">
     <tspan>Test Title</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40">
     <tspan>Test Subtitle</tspan>
   </text>
   <g class="highcharts-data-labels highcharts-series-0 highcharts-bubble-series highcharts-color-0 " visibility="visible" transform="translate(46,55) scale(1 1)">
@@ -70,43 +70,43 @@
     </g>
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
-    <text x="59.4574780058651" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
-      <tspan>10%</tspan>
+    <text x="59.457478005865" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      10%
     </text>
-    <text x="135.36493971977842" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
-      <tspan>20%</tspan>
+    <text x="135.36493971978" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      20%
     </text>
-    <text x="211.27240143369175" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
-      <tspan>30%</tspan>
+    <text x="211.27240143369" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      30%
     </text>
-    <text x="287.1798631476051" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
-      <tspan>40%</tspan>
+    <text x="287.17986314761" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      40%
     </text>
-    <text x="363.0873248615184" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
-      <tspan>50%</tspan>
+    <text x="363.08732486152" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      50%
     </text>
-    <text x="438.99478657543176" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
-      <tspan>60%</tspan>
+    <text x="438.99478657543" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      60%
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
     <text x="31" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="354" opacity="1">
-      <tspan>0</tspan>
+      0
     </text>
     <text x="31" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="295" opacity="1">
-      <tspan>2.5</tspan>
+      2.5
     </text>
     <text x="31" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="236" opacity="1">
-      <tspan>5</tspan>
+      5
     </text>
     <text x="31" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="177" opacity="1">
-      <tspan>7.5</tspan>
+      7.5
     </text>
     <text x="31" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="118" opacity="1">
-      <tspan>10</tspan>
+      10
     </text>
     <text x="31" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="60" opacity="1">
-      <tspan>12.5</tspan>
+      12.5
     </text>
   </g>
   <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:black;font-size:10px;fill:black;" y="400">

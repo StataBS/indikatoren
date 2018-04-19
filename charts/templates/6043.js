@@ -59,7 +59,7 @@
     //"footerFormat": 'Total: <b>{point.total:,.0f}</b>',
   },  
   "legend": { 
-     y: 35,
+     //y: 35,
      itemMarginBottom: 5,
     "enabled": true,
     "layout": "horizontal",

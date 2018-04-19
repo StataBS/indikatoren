@@ -52,11 +52,11 @@
      "inverted": true,
   },
   "legend": { 
-     y: 80,
-     x: -5,
     "enabled": true,
     "layout": "horizontal",
-   "itemWidth": 160,
+    alignColumns: false, 
+    itemDistance: 5, 
+    padding: 0,
     "verticalAlign": "top",
     "align": "left",
     "itemStyle": {

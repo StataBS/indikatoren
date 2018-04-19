@@ -44,12 +44,12 @@
   },
   legend: {
         reversed: false,
-        itemDistance: 12,
+        itemDistance: 5,
         layout: "horizontal",
         verticalAlign: "top",
         itemMarginBottom: 5,     
         align: "left",
-        y: 15,
+        //y: 15,
         itemStyle: {
             fontWeight: "normal"
         },

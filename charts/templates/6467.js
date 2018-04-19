@@ -33,11 +33,9 @@
     enabled:true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    //"itemMarginBottom": 5, // space between legend boxes
-    y: 45,
-    margin: 3,
     symbolPadding: 1,
-    itemWidth: 70,
+    itemDistance: 1, 
+    padding: 0,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
