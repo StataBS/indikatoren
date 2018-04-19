@@ -710,9 +710,9 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "itemWidth": 115,
     "margin": 6,
     "padding": 1,
+    "itemDistance": 5,
     "itemMarginBottom": 1
   },
   "plotOptions": {

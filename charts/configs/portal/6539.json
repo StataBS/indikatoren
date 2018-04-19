@@ -127,7 +127,12 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 30,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -148,7 +153,7 @@
             }
             //move legend title
             var title = this.legend.title;
-            title.translate(-250, 40);
+            title.translate(-215, 40);
           }
     },
     "type": "column",
@@ -260,6 +265,7 @@
   "legend": {
     "symbolRadius": 0,
     "useHTML": true,
+    "y": -40,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

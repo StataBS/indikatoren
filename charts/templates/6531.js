@@ -24,10 +24,9 @@
 	 {"color": "#D3E2E4", index: 0, legendIndex: 3},  /* */
      ],
   "legend": { 
-     y: 45,
     "enabled": true,
     "layout": "horizontal",
-    "itemWidth": 105,
+    itemDistance: 5, 
     "verticalAlign": "top",
     "align": "left",
     "itemStyle": {

@@ -17,7 +17,7 @@
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "x": 35,
-    "y": 50,
+    //"y": 50,
     "align": "left"
   },
 
@@ -54,7 +54,7 @@
     "shared": false
   },  
   "chart": {    
-    "marginTop": 120
+    //"marginTop": 120
   },  
   "plotOptions": {
     "series": {

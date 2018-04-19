@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.1.0
   </desc>
   <defs>
     <clipPath>
@@ -41,7 +41,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 74 75 L 74 340"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(74,75) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(74,75) scale(1 1)" clip-path="url(#a)">
       <rect x="5" y="148" width="25" height="118" fill="#246370" class="highcharts-point"/>
       <rect x="40" y="152" width="25" height="114" fill="#246370" class="highcharts-point"/>
       <rect x="75" y="155" width="25" height="111" fill="#246370" class="highcharts-point"/>
@@ -51,8 +51,8 @@
       <rect x="214" y="149" width="25" height="117" fill="#246370" class="highcharts-point"/>
       <rect x="249" y="151" width="25" height="115" fill="#246370" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(74,75) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(74,75) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(74,75) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series " transform="translate(74,75) scale(1 1)" clip-path="url(#a)">
       <rect x="5" y="111" width="25" height="37" fill="#D3E2E4" class="highcharts-point"/>
       <rect x="40" y="115" width="25" height="37" fill="#D3E2E4" class="highcharts-point"/>
       <rect x="75" y="120" width="25" height="35" fill="#D3E2E4" class="highcharts-point"/>
@@ -62,8 +62,8 @@
       <rect x="214" y="125" width="25" height="24" fill="#D3E2E4" class="highcharts-point"/>
       <rect x="249" y="128" width="25" height="23" fill="#D3E2E4" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(74,75) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(74,75) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-1 highcharts-column-series " transform="translate(74,75) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-2 highcharts-column-series " transform="translate(74,75) scale(1 1)" clip-path="url(#a)">
       <rect x="5" y="79" width="25" height="32" fill="#68AB2B" class="highcharts-point"/>
       <rect x="40" y="79" width="25" height="36" fill="#68AB2B" class="highcharts-point"/>
       <rect x="75" y="84" width="25" height="36" fill="#68AB2B" class="highcharts-point"/>
@@ -73,8 +73,8 @@
       <rect x="214" y="89" width="25" height="36" fill="#68AB2B" class="highcharts-point"/>
       <rect x="249" y="94" width="25" height="34" fill="#68AB2B" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(74,75) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(74,75) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-2 highcharts-column-series " transform="translate(74,75) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-3 highcharts-column-series " transform="translate(74,75) scale(1 1)" clip-path="url(#a)">
       <rect x="5" y="58" width="25" height="21" fill="#662673" class="highcharts-point"/>
       <rect x="40" y="60" width="25" height="19" fill="#662673" class="highcharts-point"/>
       <rect x="75" y="65" width="25" height="19" fill="#662673" class="highcharts-point"/>
@@ -84,11 +84,12 @@
       <rect x="214" y="64" width="25" height="25" fill="#662673" class="highcharts-point"/>
       <rect x="249" y="68" width="25" height="26" fill="#662673" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(74,75) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-3 highcharts-column-series " transform="translate(74,75) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Pflegetage in baselstädtischen Spitälern nach Hauptbereich</tspan>
   </text>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40"/>
   <g class="highcharts-legend" transform="translate(365,154)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="109" height="87" visibility="visible"/>
     <g>
@@ -148,7 +149,7 @@
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
     <text x="59" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="345" opacity="1">
-      <tspan>0</tspan>
+      0
     </text>
     <text x="59" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="278" opacity="1">
       <tspan>250 000</tspan>

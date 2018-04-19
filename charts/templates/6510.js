@@ -42,15 +42,13 @@
     { "color": "#999999", index: 0, legendIndex: 0}, // 
   ],
   "legend": { 
-  	 //x:-5,
-     y: 60,
     "enabled": true,
     "layout": "horizontal",
    //"itemWidth": 150,
     "verticalAlign": "top",
     "align": "left",
     reversed: true,
-     "labelFormatter": function () {
+     "_labelFormatter": function () {
             return this.name;
         },
     "itemStyle": {

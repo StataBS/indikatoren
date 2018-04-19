@@ -107,8 +107,6 @@
     },
     "type": "column",
     "renderTo": "container-6209",
-    "marginBottom": 75,
-    "marginTop": 75,
     "inverted": false
   },
   "title": {
@@ -175,8 +173,6 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 35,
-    "width": 200,
     "itemStyle": {
       "fontWeight": "normal"
     }

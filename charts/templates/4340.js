@@ -27,10 +27,10 @@
   "legend": {
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
-    "x": 5,
-    "y": 35, 
-    "align": "right",
+    "y": -10, 
+    "align": "left",
+    symbolPadding: 0,
+    padding: 0,
     "itemStyle": {
       "fontWeight": "normal"
     }

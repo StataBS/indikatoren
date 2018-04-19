@@ -1,26 +1,26 @@
 {
-  "_from": "highcharts@5.0.7",
-  "_id": "highcharts@5.0.7",
+  "_from": "highcharts@6.1.0",
+  "_id": "highcharts@6.1.0",
   "_inBundle": false,
-  "_integrity": "sha1-Y+vu7gWs1W47JVS1sxoSJOHgW/Y=",
+  "_integrity": "sha512-YZotALyZD1xJixB8pNOKqBpmxV/NrOpMHQ3l7/CMB1hn5U7KRSviaeyv8/1MT7/rTgEFPOW85mdaFKFr2EfeAw==",
   "_location": "/highcharts",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "highcharts@5.0.7",
+    "raw": "highcharts@6.1.0",
     "name": "highcharts",
     "escapedName": "highcharts",
-    "rawSpec": "5.0.7",
+    "rawSpec": "6.1.0",
     "saveSpec": null,
-    "fetchSpec": "5.0.7"
+    "fetchSpec": "6.1.0"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/highcharts/-/highcharts-5.0.7.tgz",
-  "_shasum": "63ebeeee05acd56e3b2554b5b31a1224e1e05bf6",
-  "_spec": "highcharts@5.0.7",
+  "_resolved": "https://registry.npmjs.org/highcharts/-/highcharts-6.1.0.tgz",
+  "_shasum": "115a6ee10ad36a53d9913f1030c6d46da16c7cb5",
+  "_spec": "highcharts@6.1.0",
   "_where": "/home/travis/build/statabs-test/indikatoren",
   "author": {
     "name": "Highsoft AS",
@@ -50,5 +50,5 @@
     "type": "git",
     "url": "git+https://github.com/highcharts/highcharts-dist.git"
   },
-  "version": "5.0.7"
+  "version": "6.1.0"
 }

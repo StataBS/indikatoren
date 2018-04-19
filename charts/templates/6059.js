@@ -27,12 +27,11 @@
 	"max": undefined
   },
   "legend": {
-  	"itemWidth": 138,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	  "y": 20,
+	  //"y": 20,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -51,7 +50,7 @@
 ],
   "chart": {
     "renderTo": 'container-I.01.1.0016', 
-    "marginBottom": 75,
+    //"marginBottom": 75,
     //"marginTop": 75,
     "type": "column",
     "inverted": false

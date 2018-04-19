@@ -17,13 +17,13 @@
             lineWidth: 0,
 
         }
-  },
-  "yAxis": {
-    "labels": {
-      "format": "{value:,.0f}",
-    }
-  },
-"xAxis": {
+    },
+    "yAxis": {
+        "labels": {
+          "format": "{value:,.0f}",
+        }
+    },
+    "xAxis": {
   	"type": "category",
     "tickInterval": 4,
      labels:{
@@ -37,12 +37,11 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	"y": 40,
 	"x": 45,
- 	itemWidth: 100,
+	itemDistance: 10,
 	"itemMarginBottom": 5,
     "itemStyle": {
-    "fontWeight": "normal"
+        "fontWeight": "normal"
     }
   },
   "series": [

@@ -442,6 +442,7 @@
       "style": {
         "color": "#000000",
         "width": 1,
+        "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
       "formatter": function () {
@@ -482,7 +483,12 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 500,
-    "spacingBottom": 30,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -577,14 +583,17 @@
     "align": "left",
     "useHTML": false,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "whitespace": "nowrap"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
-            return this.name;
-        },
-    "y": 45,
-    "enabled": true
+        return this.name;
+    },
+    "enabled": true,
+    "alignColumns": false,
+    "itemDistance": 15
   },
   "exporting": {
     "filename": 6495

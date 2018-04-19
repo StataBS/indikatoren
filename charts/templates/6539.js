@@ -95,7 +95,7 @@
   },
   legend: {
     useHTML: true,
-    //y: 25,
+    y: -40,
     layout: "horizontal",
     verticalAlign: "top",
     itemMarginBottom: 5,     
@@ -145,7 +145,7 @@
             }
             //move legend title
             var title = this.legend.title;
-            title.translate(-250, 40);
+            title.translate(-215, 40);
           }
         }              
  }

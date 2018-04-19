@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.1.0
   </desc>
   <defs>
     <clipPath>
@@ -44,7 +44,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 41 55 L 41 286"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(41,55) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(41,55) scale(1 1)" clip-path="url(#a)">
       <rect x="10" y="117" width="19" height="72" fill="#b00000" class="highcharts-point highcharts-negative highcharts-color-0"/>
       <rect x="50" y="117" width="19" height="15" fill="#672773" class="highcharts-point highcharts-negative highcharts-color-1"/>
       <rect x="89" y="117" width="19" height="84" fill="#007a2f" class="highcharts-point highcharts-negative highcharts-color-2"/>
@@ -57,43 +57,43 @@
       <rect x="365" y="99" width="19" height="18" fill="#9f7c5a" class="highcharts-point highcharts-color-9"/>
       <rect x="405" y="109" width="19" height="8" fill="#999999" class="highcharts-point highcharts-color-10"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(41,55) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(41,55) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Veränderung des Segregationsindex</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40">
     <tspan>2016 gegenüber 1997, nach Staatsangehörigkeit</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
-    <text x="63.3199975916234" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 63.3199975916234 302)" y="302" opacity="1">
-      <tspan>Schweiz</tspan>
+    <text x="63.31999759162294" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 63.31999759162294 302)" y="302" opacity="1">
+      Schweiz
     </text>
-    <text x="102.77454304616884" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 102.77454304616884 302)" y="302" opacity="1">
-      <tspan>Deutschland</tspan>
+    <text x="102.77454304616793" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 102.77454304616793 302)" y="302" opacity="1">
+      Deutschland
     </text>
-    <text x="142.2290885007143" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 142.2290885007143 302)" y="302" opacity="1">
-      <tspan>Italien</tspan>
+    <text x="142.22908850071798" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 142.22908850071798 302)" y="302" opacity="1">
+      Italien
     </text>
-    <text x="181.68363395525978" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 181.68363395525978 302)" y="302" opacity="1">
-      <tspan>Türkei</tspan>
+    <text x="181.68363395525796" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 181.68363395525796 302)" y="302" opacity="1">
+      Türkei
     </text>
-    <text x="221.13817940980522" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 221.13817940980522 302)" y="302" opacity="1">
+    <text x="221.13817940980798" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 221.13817940980798 302)" y="302" opacity="1">
       <tspan>EU-17 &amp; EFTA</tspan>
     </text>
-    <text x="260.59272486435066" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 260.59272486435066 302)" y="302" opacity="1">
-      <tspan>EU-Ost</tspan>
+    <text x="260.59272486434793" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 260.59272486434793 302)" y="302" opacity="1">
+      EU-Ost
     </text>
-    <text x="300.0472703188961" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 300.0472703188961 302)" y="302" opacity="1">
-      <tspan>Balkan</tspan>
+    <text x="300.0472703188979" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 300.0472703188979 302)" y="302" opacity="1">
+      Balkan
     </text>
-    <text x="339.50181577344154" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 339.50181577344154 302)" y="302" opacity="1">
+    <text x="339.5018157734379" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 339.5018157734379 302)" y="302" opacity="1">
       <tspan>Mittel- &amp; Südamerika</tspan>
     </text>
-    <text x="378.95636122798703" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 378.95636122798703 302)" y="302" opacity="1">
+    <text x="378.9563612279879" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 378.9563612279879 302)" y="302" opacity="1">
       <tspan>Arabische Länder</tspan>
     </text>
-    <text x="418.41090668253247" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 418.41090668253247 302)" y="302" opacity="1">
+    <text x="418.4109066825279" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 418.4109066825279 302)" y="302" opacity="1">
       <tspan>Afrikanische Länder</tspan>
     </text>
     <text x="457.8654521370779" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 457.8654521370779 302)" y="302" opacity="1">
@@ -102,19 +102,19 @@
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
     <text x="26" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="233" opacity="1">
-      <tspan>-10</tspan>
+      -10
     </text>
     <text x="26" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="175" opacity="1">
-      <tspan>0</tspan>
+      0
     </text>
     <text x="26" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="117" opacity="1">
-      <tspan>10</tspan>
+      10
     </text>
     <text x="26" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="291" opacity="1">
-      <tspan>-20</tspan>
+      -20
     </text>
     <text x="26" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="60" opacity="1">
-      <tspan>20</tspan>
+      20
     </text>
   </g>
   <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">

@@ -398,6 +398,7 @@
     "align": "right",
     "symbolRadius": 0,
     "useHTML": true,
+    "y": -45,
     "itemMarginBottom": 5,
     "width": 210,
     "itemWidth": 70,

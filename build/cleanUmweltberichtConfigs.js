@@ -1,22 +1,7 @@
-/* 
-    global Highcharts
-*/
-
-var charts = [];
 var fs = require('fs');
 var pathBase = "metadata/single/";
 
 var serialize = require('serialize-javascript');
-
-
-/*
-// http://phantomjs.org/api/fs/method/list.html
-var ubFileList = fs.list(pathBase);
-//remove . and .. from list
-ubFileList.shift();
-ubFileList.shift();
-*/
-
 
 fs.readdirSync(pathBase).forEach(file => {
     var id = file.substr(0,4);
@@ -50,28 +35,6 @@ fs.readdirSync(pathBase).forEach(file => {
         //console.log(error);
     }
 });
-
-
-var ubFileList=[];
-//loop over array of urls: https://stackoverflow.com/a/25601585 
-while (ubFileList.length > 0) {
-    var id = ubFileList.pop().substr(0,4);
-    var idText = padLeft(id, 4);
-
-    (function(id){
-
-        //evaluate json and check if indicator belongs to kennzahlenset Umwelt
-        var currentConfig = require(fs.workingDirectory + "/" + pathBase + id + ".json");
-        if (currentConfig.kennzahlenset == "Umwelt" && currentConfig.visible) {
-            var path = 'charts/configs/portal/' + id + '.json';
-            var config = fs.readFileSync(path, 'utf8');
-            console.log(config);
-        }
-        else {
-            console.log('Chart ' + id + ' is either not visible (visible: ' + currentConfig["visible"] + '), or belongs to kennzahlenset ' + currentConfig.kennzahlenset +', which is not "Umwelt", thus ignoring here. ');
-        }
-    })(idText);
-}        
 
 
 //https://stackoverflow.com/a/5367656

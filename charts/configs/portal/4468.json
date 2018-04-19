@@ -523,8 +523,8 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 35,
     "itemMarginBottom": 5,
+    "padding": 0,
     "itemStyle": {
       "fontWeight": "normal"
     }

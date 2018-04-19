@@ -15,6 +15,7 @@
          		color: "black",
          },
       },
+
     },
     {
     	"min": 90,
@@ -44,13 +45,13 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-  	"y": 40,
-  	"x": 45,
-  	"width": 300,
-  	"itemMarginBottom": 5,
-      "itemWidth": 120, 
+      itemWidth: 140,
+  	  "itemMarginBottom": 5,
+      //"itemWidth": 140, 
       "itemStyle": {
-      "fontWeight": "normal"
+        "fontWeight": "normal", 
+        textOverflow: 'nowrap',
+        whiteSpace: "nowrap"
       }
     },
     "series": [

@@ -24,7 +24,7 @@
    	 symbolWidth: 30,
     "enabled": true,
     //"x": 45,
-    "y": 50,
+    //"y": 50,
     "itemWidth": 210,
     "layout": "horizontal",
     "verticalAlign": "top",

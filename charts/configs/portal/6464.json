@@ -232,7 +232,7 @@
       "align": "left",
       "x": -185,
       "formatter": function () {
-            return this.value//.replace("        ", "<br/>")
+            return this.value;//.replace("        ", "<br/>")
         }
     },
     "tickLength": 0
@@ -242,7 +242,12 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 650,
-    "spacingBottom": 30,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -345,8 +350,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "y": 55,
-    "itemWidth": 70,
     "itemStyle": {
       "fontWeight": "normal"
     }

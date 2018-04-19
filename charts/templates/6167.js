@@ -25,7 +25,7 @@
   "legend": {
     "enabled": false,
     "x": 250,
-  	"y": 55,   
+  	//"y": 55,   
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "top",

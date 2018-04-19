@@ -24,6 +24,10 @@
               //check if there's data at this index. if not, suppress axis label
               return this.axis.series[0].yData[index] ? this.value : "";
             },            
+            style: {
+                "color": "#000000",
+                "fontSize": "10px"
+            }            
           },  
         },
         {
@@ -40,6 +44,10 @@
               //check if there's data at this index. if not, suppress axis label
               return this.axis.series[0].yData[index] ? this.value : "";
             },            
+            style: {
+                "color": "#000000",
+                "fontSize": "10px"
+            }            
           },  
         },    
         {
@@ -56,6 +64,10 @@
               //check if there's data at this index. if not, suppress axis label
               return this.axis.series[0].yData[index] ? this.value : "";
             },            
+            style: {
+                "color": "#000000",
+                "fontSize": "10px"
+            }            
           },  
         },    
       ],
@@ -84,7 +96,7 @@
         "layout": "horizontal",
         "verticalAlign": "top",
         "align": "left",
-       	"y": 35,    
+       	//"y": 35,    
         "itemStyle": {
           "fontWeight": "normal"
         }

@@ -31,13 +31,13 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	"y": 40,
- 	itemWidth: 100,
- 	labelFormatter: function(){
-    //only return last word
-    return this.name.split(" ").slice(-1);
-        },
-	"itemMarginBottom": 5,
+	  //"y": 40,
+ 	  itemWidth: 100,
+ 	  labelFormatter: function(){
+      //only return last word
+      return this.name.split(" ").slice(-1);
+    },
+  	"itemMarginBottom": 5,
     "itemStyle": {
     "fontWeight": "normal"
     }

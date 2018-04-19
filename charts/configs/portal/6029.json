@@ -115,7 +115,7 @@
           null
         ]
       ],
-      "name": "Stickstoffdioxid (NO\u003Csup\u003E2\u003C\u002Fsup\u003E)"
+      "name": "Stickstoffdioxid (NO\u003Csub\u003E2\u003C\u002Fsub\u003E)"
     },
     {
       "color": "#68AB2B",
@@ -351,7 +351,7 @@
           null
         ]
       ],
-      "name": "Langzeitgrenzwert NO2"
+      "name": "Langzeitgrenzwert NO\u003Csub\u003E2\u003C\u002Fsub\u003E"
     },
     {
       "color": "#007A2F",
@@ -580,8 +580,7 @@
     "align": "left",
     "symbolRadius": 0,
     "symbolWidth": 30,
-    "y": 65,
-    "itemWidth": 220,
+    "useHTML": true,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
@@ -597,6 +596,7 @@
     }
   },
   "exporting": {
+    "allowHTML": true,
     "filename": 6029
   }
 }

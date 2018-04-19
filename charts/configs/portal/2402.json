@@ -473,7 +473,12 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 600,
-    "spacingBottom": 30,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -575,7 +580,6 @@
   "legend": {
     "symbolRadius": 0,
     "x": -1,
-    "y": 45,
     "enabled": true,
     "layout": "horizontal",
     "itemWidth": 1000,

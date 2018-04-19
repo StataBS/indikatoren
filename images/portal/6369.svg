@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.1.0
   </desc>
   <defs>
     <clipPath>
@@ -38,89 +38,89 @@
     <path fill="none" class="highcharts-axis-line" d="M 43 48 L 43 179"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
       <rect x="3" y="41" width="24" height="15" fill="#E7CEE2" class="highcharts-point"/>
       <rect x="32" y="14" width="24" height="21" fill="#E7CEE2" class="highcharts-point"/>
       <rect x="61" y="32" width="24" height="16" fill="#E7CEE2" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
       <rect x="3" y="56" width="24" height="11" fill="#672773" class="highcharts-point"/>
       <rect x="32" y="35" width="24" height="16" fill="#672773" class="highcharts-point"/>
       <rect x="61" y="48" width="24" height="13" fill="#672773" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-1 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-2 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
       <rect x="3" y="67" width="24" height="2" fill="#B9CFD7" class="highcharts-point"/>
       <rect x="32" y="51" width="24" height="2" fill="#B9CFD7" class="highcharts-point"/>
       <rect x="61" y="61" width="24" height="3" fill="#B9CFD7" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-2 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-3 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
       <rect x="3" y="69" width="24" height="3" fill="#008AC3" class="highcharts-point"/>
       <rect x="32" y="53" width="24" height="5" fill="#008AC3" class="highcharts-point"/>
       <rect x="61" y="64" width="24" height="5" fill="#008AC3" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-3 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-4 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
       <rect x="3" y="72" width="24" height="3" fill="#2B0099" class="highcharts-point"/>
       <rect x="32" y="58" width="24" height="2" fill="#2B0099" class="highcharts-point"/>
       <rect x="61" y="69" width="24" height="2" fill="#2B0099" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-5 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-4 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-5 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
       <rect x="3" y="75" width="24" height="3" fill="#73BA7C" class="highcharts-point"/>
       <rect x="32" y="60" width="24" height="4" fill="#73BA7C" class="highcharts-point"/>
       <rect x="61" y="71" width="24" height="4" fill="#73BA7C" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-5 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-6 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-5 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-6 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
       <rect x="3" y="78" width="24" height="3" fill="#D7E8D2" class="highcharts-point"/>
       <rect x="32" y="64" width="24" height="2" fill="#D7E8D2" class="highcharts-point"/>
       <rect x="61" y="75" width="24" height="4" fill="#D7E8D2" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-6 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-7 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-6 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-7 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
       <rect x="3" y="81" width="24" height="2" fill="#007A2F" class="highcharts-point"/>
       <rect x="32" y="66" width="24" height="4" fill="#007A2F" class="highcharts-point"/>
       <rect x="61" y="79" width="24" height="3" fill="#007A2F" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-7 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-8 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-7 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-8 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
       <rect x="3" y="83" width="24" height="7" fill="#FFDA80" class="highcharts-point"/>
       <rect x="32" y="70" width="24" height="8" fill="#FFDA80" class="highcharts-point"/>
       <rect x="61" y="82" width="24" height="6" fill="#FFDA80" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-8 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-9 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-8 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-9 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
       <rect x="3" y="90" width="24" height="11" fill="#FFBB58" class="highcharts-point"/>
       <rect x="32" y="78" width="24" height="12" fill="#FFBB58" class="highcharts-point"/>
       <rect x="61" y="88" width="24" height="11" fill="#FFBB58" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-9 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-10 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-9 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-10 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
       <rect x="3" y="101" width="24" height="5" fill="#FF8028" class="highcharts-point"/>
       <rect x="32" y="90" width="24" height="7" fill="#FF8028" class="highcharts-point"/>
       <rect x="61" y="99" width="24" height="4" fill="#FF8028" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-10 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-11 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-10 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-11 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
       <rect x="3" y="106" width="24" height="26" fill="#DC440E" class="highcharts-point"/>
       <rect x="32" y="97" width="24" height="35" fill="#DC440E" class="highcharts-point"/>
       <rect x="61" y="103" width="24" height="29" fill="#DC440E" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-11 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-12 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-11 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-12 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="url(#a)">
       <rect x="3" y="132" width="24" height="0" fill="#8B2223" class="highcharts-point"/>
       <rect x="32" y="132" width="24" height="0" fill="#8B2223" class="highcharts-point"/>
       <rect x="61" y="132" width="24" height="0" fill="#8B2223" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-12 highcharts-column-series highcharts-color-undefined " transform="translate(43,48) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-12 highcharts-column-series " transform="translate(43,48) scale(1 1)" clip-path="none"/>
   </g>
   <text x="3" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:10px;font-weight:bold;fill:#000000;" y="14">
     <tspan>Anzahl Neugründungen in Basel-Stadt</tspan>
   </text>
-  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:arial;fill:#000000;" y="32">
+  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:Arial;fill:#000000;" y="32">
     <tspan>in ausgewählten Branchen</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(142,7)">
@@ -221,16 +221,16 @@
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
     <text x="28" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="182" opacity="1">
-      <tspan>0</tspan>
+      0
     </text>
     <text x="28" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="160" opacity="1">
-      <tspan>250</tspan>
+      250
     </text>
     <text x="28" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="138" opacity="1">
-      <tspan>500</tspan>
+      500
     </text>
     <text x="28" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="117" opacity="1">
-      <tspan>750</tspan>
+      750
     </text>
     <text x="28" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="95" opacity="1">
       <tspan>1 000</tspan>
