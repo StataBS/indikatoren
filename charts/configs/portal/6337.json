@@ -112,7 +112,8 @@
     },
     "type": "column",
     "renderTo": "container-6337",
-    "inverted": false
+    "inverted": false,
+    "spacingBottom": 8
   },
   "title": {
     "style": {

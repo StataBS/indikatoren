@@ -1,29 +1,40 @@
-{"title":"Vermögenssteuer pro Veranlagung",
-"subtitle":"Stand: Steuerjahr 2015",
-"kuerzel":"I.18.2.05122",
-"kuerzelKunde":"WA-1.B",
-"description":"Vermögenssteuer pro Veranlagung",
-"id":5122,
-"thema":"18 Öffentliche Finanzen",
-"unterthema":"Steuern",
-"kennzahlenset":"Wohnviertel",
-"raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"",
-"schlagwort":["Bevölkerung"],
-"stufe1":"Bereich 3: Wirtschaft und Arbeit",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Im Wohnviertel Bruderholz wird der höchste Wert pro Veranlagung verzeichnet, im Wohnviertel Klybeck der niedrigste.",
-"erlaeuterungen":"Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
-"template":"map001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_00_00_00_00_002",
-"parentId":4835,
-"children":[],
-"renderLink":["4835"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Steuerstatistik"],
-"externalLinks":["Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_ver.vermoegen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."]
+{
+ "title": "Vermögenssteuer pro Veranlagung",
+ "subtitle": "Stand: Steuerjahr 2015",
+ "kuerzel": "I.18.2.05122",
+ "kuerzelKunde": "WA-1.B",
+ "description": "Vermögenssteuer pro Veranlagung",
+ "id": 5122,
+ "thema": "18 Öffentliche Finanzen",
+ "unterthema": "Steuern",
+ "kennzahlenset": "Wohnviertel",
+ "raeumlicheGliederung": [
+  "Wohnviertel"
+ ],
+ "aktualisierungsdatum": "2018-02-28T00:00:00.000",
+ "schlagwort": [
+  "Bevölkerung"
+ ],
+ "stufe1": "Bereich 3: Wirtschaft und Arbeit",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Im Wohnviertel Bruderholz wird der höchste Wert pro Veranlagung verzeichnet, im Wohnviertel Klybeck der niedrigste.",
+ "erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
+ "template": "map001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "03_00_00_00_00_002",
+ "parentId": 4835,
+ "children": [],
+ "renderLink": [
+  "4835"
+ ],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Steuerstatistik"
+ ],
+ "externalLinks": [
+  "Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_ver.vermoegen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
+ ]
 }

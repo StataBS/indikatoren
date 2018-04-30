@@ -1,29 +1,39 @@
-{"title":"Altersquotient",
-"subtitle":"",
-"kuerzel":"I.01.1.05144",
-"kuerzelKunde":"BE3",
-"description":"Altersquotient",
-"id":5144,
-"thema":"01 Bevölkerung",
-"unterthema":"Bestand und Struktur ",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2017-03-13T15:47:44.4444",
-"schlagwort":["Alter","Bevölkerung"],
-"stufe1":"Bereich Bevölkerung",
-"stufe2":"Bevölkerung",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Der Altersquotient ist zwischen 2008 und 2017 leicht gesunken. Dies ist darauf zurückzuführen, dass die Zahl der Personen im Erwerbsalter stärker zugenommen hat als diejenige der Senioren.",
-"erlaeuterungen":"Der Altersquotient bezeichnet die Anzahl 65-Jährige und Ältere pro 100 20- bis 64-Jährige.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_01_00_00_00_103",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Altersquotient",
+ "subtitle": "",
+ "kuerzel": "I.01.1.05144",
+ "kuerzelKunde": "BE3",
+ "description": "Altersquotient",
+ "id": 5144,
+ "thema": "01 Bevölkerung",
+ "unterthema": "Bestand und Struktur ",
+ "kennzahlenset": "Nachhaltigkeit",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-03-13T15:47:44.4444",
+ "schlagwort": [
+  "Alter",
+  "Bevölkerung"
+ ],
+ "stufe1": "Bereich Bevölkerung",
+ "stufe2": "Bevölkerung",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Der Altersquotient ist zwischen 2008 und 2017 leicht gesunken. Dies ist darauf zurückzuführen, dass die Zahl der Personen im Erwerbsalter stärker zugenommen hat als diejenige der Senioren.",
+ "erlaeuterungen": "Der Altersquotient bezeichnet die Anzahl 65-Jährige und Ältere pro 100 20- bis 64-Jährige.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_01_00_00_00_103",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

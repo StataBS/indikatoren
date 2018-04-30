@@ -99,8 +99,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -160,9 +160,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Amt für Sozialbeiträge Basel-Stadt"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Amt für Sozialbeiträge Basel-Stadt\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-1"
   },
   "legend": {
     "enabled": false,

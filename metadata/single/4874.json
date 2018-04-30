@@ -1,29 +1,39 @@
-{"title":"Politikinteresse der über 54-Jährigen",
-"subtitle":"«Wie stark beschäftigt Sie im Moment das Thema Politik?»",
-"kuerzel":"I.50.4.04874",
-"kuerzelKunde":"3.3.04",
-"description":"Politikinteresse der über 54-Jährigen",
-"id":4874,
-"thema":"50 Befragungen",
-"unterthema":"Befragung 55 plus",
-"kennzahlenset":"Gesellschaftlicher-Zusammenhalt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Grosser Rat","Beurteilung"],
-"stufe1":"Kernbereich 3: Gemeinwohlorientierung",
-"stufe2":"3.3 Gesellschaftliche Teilhabe",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"2011 gaben 69,7% und 2015 76,7% der Befragten an, das Thema Politik beschäftige sie eher oder sehr stark. Der Anteil Befragter, welche keine Angabe zu dieser Frage machen konnten, ging von 8,8% im Jahr 2011 auf 3,9% im Jahr 2015 zurück.",
-"erlaeuterungen":"",
-"template":"befragungenProzent001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_03_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F57a"],
-"externalLinks":[""]
+{
+ "title": "Politikinteresse der über 54-Jährigen",
+ "subtitle": "«Wie stark beschäftigt Sie im Moment das Thema Politik?»",
+ "kuerzel": "I.50.4.04874",
+ "kuerzelKunde": "3.3.04",
+ "description": "Politikinteresse der über 54-Jährigen",
+ "id": 4874,
+ "thema": "50 Befragungen",
+ "unterthema": "Befragung 55 plus",
+ "kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2016-09-21T00:00:00.000",
+ "schlagwort": [
+  "Grosser Rat",
+  "Beurteilung"
+ ],
+ "stufe1": "Kernbereich 3: Gemeinwohlorientierung",
+ "stufe2": "3.3 Gesellschaftliche Teilhabe",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "2011 gaben 69,7% und 2015 76,7% der Befragten an, das Thema Politik beschäftige sie eher oder sehr stark. Der Anteil Befragter, welche keine Angabe zu dieser Frage machen konnten, ging von 8,8% im Jahr 2011 auf 3,9% im Jahr 2015 zurück.",
+ "erlaeuterungen": "",
+ "template": "befragungenProzent001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "03_03_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F57a"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

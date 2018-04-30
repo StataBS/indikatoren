@@ -756,7 +756,8 @@
                 }
     },
     "alignTicks": false,
-    "renderTo": "container-6259"
+    "renderTo": "container-6259",
+    "spacingBottom": 18
   },
   "plotOptions": {
     "series": {

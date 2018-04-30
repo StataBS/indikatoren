@@ -1,29 +1,40 @@
-{"title":"Arbeitslosenquote im Jahresmittel nach Altersgruppe",
-"subtitle":"",
-"kuerzel":"I.03.4.06053",
-"kuerzelKunde":"WE9",
-"description":"Arbeitslosenquote im Jahresmittel nach Altersgruppe",
-"id":6053,
-"thema":"03 Erwerbsleben",
-"unterthema":"Arbeitslose ",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Alter","Arbeit","Erwerbstätigkeit"],
-"stufe1":"Bereich Wirtschaftliche Entfaltung",
-"stufe2":"Erwerbsarbeit",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt 2017 auf 3,8% gesunken. Die Jugendarbeitslosenquote reduzierte sich 2017 auf 4,2%. Die Arbeitslosenquote der Personen über 50 Jahre lag mit 3,1% wie in den Vorjahren deutlich unterhalb des Durchschnitts.",
-"erlaeuterungen":"Die Arbeitslosenquote berechnet sich folgendermassen: Registrierte Arbeitslose geteilt durch Erwerbspersonen mal 100.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"06_02_00_00_00_609",
-"parentId":6137,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"],
-"externalLinks":[""]
+{
+ "title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
+ "subtitle": "",
+ "kuerzel": "I.03.4.06053",
+ "kuerzelKunde": "WE9",
+ "description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
+ "id": 6053,
+ "thema": "03 Erwerbsleben",
+ "unterthema": "Arbeitslose ",
+ "kennzahlenset": "Nachhaltigkeit",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-04-03T00:00:00.000",
+ "schlagwort": [
+  "Alter",
+  "Arbeit",
+  "Erwerbstätigkeit"
+ ],
+ "stufe1": "Bereich Wirtschaftliche Entfaltung",
+ "stufe2": "Erwerbsarbeit",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt 2017 auf 3,8% gesunken. Die Jugendarbeitslosenquote reduzierte sich 2017 auf 4,2%. Die Arbeitslosenquote der Personen über 50 Jahre lag mit 3,1% wie in den Vorjahren deutlich unterhalb des Durchschnitts.",
+ "erlaeuterungen": "Die Arbeitslosenquote berechnet sich folgendermassen: Registrierte Arbeitslose geteilt durch Erwerbspersonen mal 100.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "06_02_00_00_00_609",
+ "parentId": 6137,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

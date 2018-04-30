@@ -1,28 +1,39 @@
-{"title":"Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
-"subtitle":"",
-"kuerzel":"I.13.2.06181",
-"kuerzelKunde":"11.2",
-"description":"Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
-"id":6181,
-"thema":"13 Soziale Sicherheit",
-"unterthema":"Sozialleistungen",
-"kennzahlenset":"Legislaturplan",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"stufe1":"Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"2,3% der baselstädtischen Haushalte erhalten Ende 2017 Familienmietzinsbeiträge. In 14,7% der Haushalte bezieht mindestens eine Person reine Prämienverbilligung.",
-"erlaeuterungen":"FAMI: Familienmietzinsbeiträge<br>Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"11_00_00_00_00_002",
-"parentId":null,
-"children":["5183","6327"],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Basler Informationssystem Sozialleistungen (BISS)"],
-"externalLinks":[""]
+{
+ "title": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
+ "subtitle": "",
+ "kuerzel": "I.13.2.06181",
+ "kuerzelKunde": "11.2",
+ "description": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
+ "id": 6181,
+ "thema": "13 Soziale Sicherheit",
+ "unterthema": "Sozialleistungen",
+ "kennzahlenset": "Legislaturplan",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-11-29T00:00:00.000",
+ "stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2017 Familienmietzinsbeiträge. In 14,7% der Haushalte bezieht mindestens eine Person reine Prämienverbilligung.",
+ "erlaeuterungen": "FAMI: Familienmietzinsbeiträge<br>Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "11_00_00_00_00_002",
+ "parentId": null,
+ "children": [
+  "5183",
+  "6327"
+ ],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+  "Basler Informationssystem Sozialleistungen (BISS)"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

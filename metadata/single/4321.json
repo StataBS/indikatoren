@@ -1,29 +1,39 @@
-{"title":"Stromverbrauch pro Einwohner",
-"subtitle":"Megawattstunden",
-"kuerzel":"I.08.1.04321",
-"kuerzelKunde":"0607",
-"description":"Stromverbrauch pro Einwohner",
-"id":4321,
-"thema":"08 Energie",
-"unterthema":"Verbrauch",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Energie"],
-"stufe1":"Thema Energie",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Jährlicher Stromverbrauch pro Einwohner.<br><br>Skalierung des Stromverbrauchs über die mittlere Wohnbevölkerung. Die Daten zum Stromverbrauch werden im Rahmen der kantonalen Energiestatistik bei den Energieversorgungsunternehmen erhoben.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"06_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt"],
-"externalLinks":["<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0607' target = '_blank'>Umweltbericht beider Basel</a>"]
+{
+ "title": "Stromverbrauch pro Einwohner",
+ "subtitle": "Megawattstunden",
+ "kuerzel": "I.08.1.04321",
+ "kuerzelKunde": "0607",
+ "description": "Stromverbrauch pro Einwohner",
+ "id": 4321,
+ "thema": "08 Energie",
+ "unterthema": "Verbrauch",
+ "kennzahlenset": "Umwelt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-07-11T00:00:00.000",
+ "schlagwort": [
+  "Energie"
+ ],
+ "stufe1": "Thema Energie",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "",
+ "erlaeuterungen": "Jährlicher Stromverbrauch pro Einwohner.<br><br>Skalierung des Stromverbrauchs über die mittlere Wohnbevölkerung. Die Daten zum Stromverbrauch werden im Rahmen der kantonalen Energiestatistik bei den Energieversorgungsunternehmen erhoben.",
+ "template": "dotplot",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "06_00_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt"
+ ],
+ "externalLinks": [
+  "<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
+  "Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0607' target = '_blank'>Umweltbericht beider Basel</a>"
+ ]
 }

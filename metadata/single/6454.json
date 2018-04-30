@@ -1,29 +1,38 @@
-{"title":"Beschäftigung nach Geschlecht",
-"subtitle":"Anzahl Beschäftigte und Vollzeitäquivalente, Basel-Stadt",
-"kuerzel":"I.03.2.06454",
-"kuerzelKunde":"3.2-03",
-"description":"Beschäftigung nach Geschlecht",
-"id":6454,
-"thema":"03 Erwerbsleben",
-"unterthema":"Beschäftigte ",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Beschäftigte"],
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Beschäftigung",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Im Jahr 2015 beträgt die Beschäftigung bei den Frauen rund 63 200 VZÄ (90 000 Beschäftigte), was einem Zuwachs um rund 400 VZÄ gegenüber dem Vorjahr entspricht. Bei den Männern ist die Beschäftigung im gleichen Zeitraum um rund 1 000 VZÄ auf 88 400 VZÄ (100 100 Beschäftigte) gesunken.",
-"erlaeuterungen":"Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_02_00_00_00_203",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"],
-"externalLinks":[""]
+{
+ "title": "Beschäftigung nach Geschlecht",
+ "subtitle": "Anzahl Beschäftigte und Vollzeitäquivalente, Basel-Stadt",
+ "kuerzel": "I.03.2.06454",
+ "kuerzelKunde": "3.2-03",
+ "description": "Beschäftigung nach Geschlecht",
+ "id": 6454,
+ "thema": "03 Erwerbsleben",
+ "unterthema": "Beschäftigte ",
+ "kennzahlenset": "Arbeitsmarkt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-14T00:00:00.000",
+ "schlagwort": [
+  "Beschäftigte"
+ ],
+ "stufe1": "Monitoring Basler Arbeitsmarkt",
+ "stufe2": "Beschäftigung",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Im Jahr 2015 beträgt die Beschäftigung bei den Frauen rund 63 200 VZÄ (90 000 Beschäftigte), was einem Zuwachs um rund 400 VZÄ gegenüber dem Vorjahr entspricht. Bei den Männern ist die Beschäftigung im gleichen Zeitraum um rund 1 000 VZÄ auf 88 400 VZÄ (100 100 Beschäftigte) gesunken.",
+ "erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen.",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_02_00_00_00_203",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

@@ -1,29 +1,40 @@
-{"title":"Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
-"subtitle":"",
-"kuerzel":"I.13.2.06055",
-"kuerzelKunde":"WE11",
-"description":"Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
-"id":6055,
-"thema":"13 Soziale Sicherheit",
-"unterthema":"Sozialleistungen",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Alter","Familie","Schule"],
-"stufe1":"Bereich Wirtschaftliche Entfaltung",
-"stufe2":"Erwerbsarbeit",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Anzahl angebotener Plätze in der Tagesbetreuung (Tagesheime oder Tagesfamilien) sowie in den Tagesstrukturen der Schulen erfuhr in den letzten Jahren ein stetiges Wachstum. In der Stichwoche 2016 lag diese bei 4 161, respektive 4 272. In den Tagesstrukturen der Quartiere wurden 2016 832 Plätze angeboten, in den Tagesferien 195.",
-"erlaeuterungen":"Tagesstrukturen: Stichwoche im September, bei den Tagesferien handelt es sich um die durchschnittliche Anzahl angebotener Plätze innerhalb eines Kalenderjahres.<br>Tagesbetreung: Stichwoche im Oktober.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"06_02_00_00_00_611",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"],
-"externalLinks":[""]
+{
+ "title": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
+ "subtitle": "",
+ "kuerzel": "I.13.2.06055",
+ "kuerzelKunde": "WE11",
+ "description": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
+ "id": 6055,
+ "thema": "13 Soziale Sicherheit",
+ "unterthema": "Sozialleistungen",
+ "kennzahlenset": "Nachhaltigkeit",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-04-03T00:00:00.000",
+ "schlagwort": [
+  "Alter",
+  "Familie",
+  "Schule"
+ ],
+ "stufe1": "Bereich Wirtschaftliche Entfaltung",
+ "stufe2": "Erwerbsarbeit",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die Anzahl angebotener Plätze in der Tagesbetreuung (Tagesheime oder Tagesfamilien) sowie in den Tagesstrukturen der Schulen erfuhr in den letzten Jahren ein stetiges Wachstum. In der Stichwoche 2016 lag diese bei 4 161, respektive 4 272. In den Tagesstrukturen der Quartiere wurden 2016 832 Plätze angeboten, in den Tagesferien 195.",
+ "erlaeuterungen": "Tagesstrukturen: Stichwoche im September, bei den Tagesferien handelt es sich um die durchschnittliche Anzahl angebotener Plätze innerhalb eines Kalenderjahres.<br>Tagesbetreung: Stichwoche im Oktober.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "06_02_00_00_00_611",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

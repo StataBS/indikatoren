@@ -857,7 +857,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -884,7 +884,8 @@
             }
           }
     },
-    "renderTo": "container-6215"
+    "renderTo": "container-6215",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -973,9 +974,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsszenarien\u003Cbr\u002F\u003EZuletzt geändert: 2017-10-27"
   },
   "legend": {
     "symbolRadius": 0,

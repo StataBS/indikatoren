@@ -1,29 +1,40 @@
-{"title":"Bevölkerungspyramide der Ausländerinnen und Ausländer",
-"subtitle":"Stand: 2016",
-"kuerzel":"I.01.1.06067",
-"kuerzelKunde":"A2-5",
-"description":"Bevölkerungspyramide der Ausländerinnen und Ausländer",
-"id":6067,
-"thema":"01 Bevölkerung",
-"unterthema":"Bestand und Struktur ",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Geschlecht","Bevölkerung","Ausland"],
-"stufe1":"Kapitel A Bevölkerungsstruktur",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Im Jahr 2016 war bei den ausländischen Männern die Altersgruppe der 35- bis 39-Jährigen am grössten, der breiteste Balken der Pyramide hat sich im Vergleich zu 1997 um eine Fünfjahresklasse nach oben verschoben. Bei den Ausländerinnen bilden immer noch die 30- bis 34-Jährigen die grösste Gruppe. Etwas schmaler geworden sind seit dem Jahr 1997 die Balken der Kinder und Jugendlichen.",
-"erlaeuterungen":"Prozentanteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
-"template":"populationPyramid001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_015",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
+ "subtitle": "Stand: 2016",
+ "kuerzel": "I.01.1.06067",
+ "kuerzelKunde": "A2-5",
+ "description": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
+ "id": 6067,
+ "thema": "01 Bevölkerung",
+ "unterthema": "Bestand und Struktur ",
+ "kennzahlenset": "Integration",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-21T00:00:00.000",
+ "schlagwort": [
+  "Geschlecht",
+  "Bevölkerung",
+  "Ausland"
+ ],
+ "stufe1": "Kapitel A Bevölkerungsstruktur",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Im Jahr 2016 war bei den ausländischen Männern die Altersgruppe der 35- bis 39-Jährigen am grössten, der breiteste Balken der Pyramide hat sich im Vergleich zu 1997 um eine Fünfjahresklasse nach oben verschoben. Bei den Ausländerinnen bilden immer noch die 30- bis 34-Jährigen die grösste Gruppe. Etwas schmaler geworden sind seit dem Jahr 1997 die Balken der Kinder und Jugendlichen.",
+ "erlaeuterungen": "Prozentanteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
+ "template": "populationPyramid001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_00_00_00_00_015",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

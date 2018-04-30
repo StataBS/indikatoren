@@ -625,7 +625,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6305"
+    "renderTo": "container-6305",
+    "spacingBottom": 3
   },
   "title": {
     "style": {

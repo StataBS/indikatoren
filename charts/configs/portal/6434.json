@@ -256,8 +256,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -329,9 +329,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Meteorologischer Verein der Region Basel"
+    "text": "Quelle: Meteorologischer Verein der Region Basel\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
   },
   "legend": {
     "enabled": false,

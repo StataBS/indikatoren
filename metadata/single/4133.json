@@ -1,29 +1,39 @@
-{"title":"Anzahl Wohnungen",
-"subtitle":"nach Zimmerzahl",
-"kuerzel":"I.09.1.04133",
-"kuerzelKunde":"1.2.A",
-"description":"Anzahl Wohnungen",
-"id":4133,
-"thema":"09 Bau-, Wohnungswesen",
-"unterthema":"Gebäude und Wohnungen",
-"kennzahlenset":"Wohnraumentwicklung",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-01-18T10:24:11.1111",
-"schlagwort":["Gebäude","Haushalt"],
-"stufe1":"Ziel 1: Gesellschaftspolitik",
-"stufe2":"1.2 Wohnraum erhalten und erneuern",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Seit 2008 steigt der gesamte Wohnungsbestand leicht und stetig an. Am stärksten war das Wachstum bei den Fünf- bzw. Vierzimmerwohnungen (+10,9% bzw. 8,6% seit 2008). Rückläufig war dagegen die Entwicklung bei den Einzimmerwohnungen (-3,2%).",
-"erlaeuterungen":"",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_02_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Anzahl Wohnungen",
+ "subtitle": "nach Zimmerzahl",
+ "kuerzel": "I.09.1.04133",
+ "kuerzelKunde": "1.2.A",
+ "description": "Anzahl Wohnungen",
+ "id": 4133,
+ "thema": "09 Bau-, Wohnungswesen",
+ "unterthema": "Gebäude und Wohnungen",
+ "kennzahlenset": "Wohnraumentwicklung",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-01-18T10:24:11.1111",
+ "schlagwort": [
+  "Gebäude",
+  "Haushalt"
+ ],
+ "stufe1": "Ziel 1: Gesellschaftspolitik",
+ "stufe2": "1.2 Wohnraum erhalten und erneuern",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Seit 2008 steigt der gesamte Wohnungsbestand leicht und stetig an. Am stärksten war das Wachstum bei den Fünf- bzw. Vierzimmerwohnungen (+10,9% bzw. 8,6% seit 2008). Rückläufig war dagegen die Entwicklung bei den Einzimmerwohnungen (-3,2%).",
+ "erlaeuterungen": "",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_02_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

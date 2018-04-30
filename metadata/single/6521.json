@@ -1,29 +1,40 @@
-{"title":"Zuwanderung von Erwerbstätigen im Dienstleistungssektor (III)",
-"subtitle":"Kurz- und Daueraufenthalter, Basel-Stadt",
-"kuerzel":"I.03.5.06521",
-"kuerzelKunde":"3.4-16",
-"description":"Zuwanderung von Erwerbstätigen im Dienstleistungssektor (III)",
-"id":6521,
-"thema":"03 Erwerbsleben",
-"unterthema":"Ausländische Erwerbstätige",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Ausländer","Erwerbstätigkeit","Branche"],
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Ausländische Erwerbstätige",
-"stufe3":"Zuwanderung",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Im Gesundheits- und Sozialwesen sowie in der Branche Erziehung und Unterricht werden pro Quartal rund 100 neue Aufenthaltsbewilligungen für  Erwerbstätige erteilt. Zum Anfang des Schuljahres ist die Anzahl der neuen Bewilligungen im Unterrichtswesen jeweils höher als im Rest des Jahres. Im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen schwankt die Zuwanderung zwischen 60 und 170 Personen pro Quartal. Hier werden auch Vereine und religiöse Vereinigungen erfasst.",
-"erlaeuterungen":"Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_04_02_00_00_416",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"],
-"externalLinks":[""]
+{
+ "title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (III)",
+ "subtitle": "Kurz- und Daueraufenthalter, Basel-Stadt",
+ "kuerzel": "I.03.5.06521",
+ "kuerzelKunde": "3.4-16",
+ "description": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (III)",
+ "id": 6521,
+ "thema": "03 Erwerbsleben",
+ "unterthema": "Ausländische Erwerbstätige",
+ "kennzahlenset": "Arbeitsmarkt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-14T00:00:00.000",
+ "schlagwort": [
+  "Ausländer",
+  "Erwerbstätigkeit",
+  "Branche"
+ ],
+ "stufe1": "Monitoring Basler Arbeitsmarkt",
+ "stufe2": "Ausländische Erwerbstätige",
+ "stufe3": "Zuwanderung",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Im Gesundheits- und Sozialwesen sowie in der Branche Erziehung und Unterricht werden pro Quartal rund 100 neue Aufenthaltsbewilligungen für  Erwerbstätige erteilt. Zum Anfang des Schuljahres ist die Anzahl der neuen Bewilligungen im Unterrichtswesen jeweils höher als im Rest des Jahres. Im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen schwankt die Zuwanderung zwischen 60 und 170 Personen pro Quartal. Hier werden auch Vereine und religiöse Vereinigungen erfasst.",
+ "erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_04_02_00_00_416",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

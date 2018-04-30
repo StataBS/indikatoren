@@ -42,11 +42,13 @@
 				$.each(indikatoren, function(index, item){
 					//hide print indikatoren
 					if(item.kennzahlenset.toLowerCase().indexOf('print') == -1){
-						$('<img/>', {
+						var img = $('<img/>', {
+							id: item.id,
 							src: 'images/portal/' + item.id + '.svg', 
 							width: '25%'
-						}
-						).appendTo('body');
+						})
+						.appendTo('body');
+						img.wrap("<a target='_blank' href='chart-details.html?id=" + img.attr("id") + "' </a>");
 					}
 				});
 			});

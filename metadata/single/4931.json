@@ -1,29 +1,39 @@
-{"title":"Gedanken über die Arbeitsstelle",
-"subtitle":"«Machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
-"kuerzel":"I.50.1.04931",
-"kuerzelKunde":"1.1.08.A",
-"description":"Gedanken über die Arbeitsstelle",
-"id":4931,
-"thema":"50 Befragungen",
-"unterthema":"Bevölkerungsbefragung",
-"kennzahlenset":"Gesellschaftlicher-Zusammenhalt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Arbeit","Erwerb"],
-"stufe1":"Kernbereich 1: Soziale Beziehungen",
-"stufe2":"1.1 Soziale Netze",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"2015 machten sich zwei Drittel der befragten erwerbstätigen Personen Gedanken über ihre Arbeitsstelle. Seit 2007 ist der Anteil von 58,2% auf 67,8% angestiegen.",
-"erlaeuterungen":"",
-"template":"befragungenProzent001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_01_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14e"],
-"externalLinks":[""]
+{
+ "title": "Gedanken über die Arbeitsstelle",
+ "subtitle": "«Machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
+ "kuerzel": "I.50.1.04931",
+ "kuerzelKunde": "1.1.08.A",
+ "description": "Gedanken über die Arbeitsstelle",
+ "id": 4931,
+ "thema": "50 Befragungen",
+ "unterthema": "Bevölkerungsbefragung",
+ "kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2016-09-21T00:00:00.000",
+ "schlagwort": [
+  "Arbeit",
+  "Erwerb"
+ ],
+ "stufe1": "Kernbereich 1: Soziale Beziehungen",
+ "stufe2": "1.1 Soziale Netze",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "2015 machten sich zwei Drittel der befragten erwerbstätigen Personen Gedanken über ihre Arbeitsstelle. Seit 2007 ist der Anteil von 58,2% auf 67,8% angestiegen.",
+ "erlaeuterungen": "",
+ "template": "befragungenProzent001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_01_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14e"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

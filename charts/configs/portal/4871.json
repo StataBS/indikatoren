@@ -54,7 +54,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -84,7 +84,8 @@
     "marginBottom": 65,
     "marginTop": 75,
     "type": "column",
-    "renderTo": "container-4871"
+    "renderTo": "container-4871",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -152,9 +153,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Staatskanzlei Basel-Stadt"
+    "text": "Quelle: Staatskanzlei Basel-Stadt\u003Cbr\u002F\u003EZuletzt geändert: 2018-1-18"
   },
   "legend": {
     "symbolRadius": 0,

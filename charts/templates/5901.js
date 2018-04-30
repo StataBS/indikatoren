@@ -47,7 +47,6 @@
       "align": "left",
       itemWidth: 140,
   	  "itemMarginBottom": 5,
-      //"itemWidth": 140, 
       "itemStyle": {
         "fontWeight": "normal", 
         textOverflow: 'nowrap',
@@ -110,7 +109,6 @@
     	    //"shared": true
   		   },
     "chart": {
-      "marginBottom": 75,
       "alignTicks": false
     }
   };

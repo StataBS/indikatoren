@@ -1,29 +1,39 @@
-{"title":"Veränderung des Segregationsindex",
-"subtitle":"2016 gegenüber 1997, nach Staatsangehörigkeit",
-"kuerzel":"I.01.1.06079",
-"kuerzelKunde":"A5-2",
-"description":"Veränderung des Segregationsindex",
-"id":6079,
-"thema":"01 Bevölkerung",
-"unterthema":"Bestand und Struktur ",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Segregation","Staatsangehörigkeit"],
-"stufe1":"Kapitel A Bevölkerungsstruktur",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Zwischen 1997 und 2016 sind die Segregationsindices der meisten Gruppen gesunken. Am stärksten war der Rückgang bei den Italienern (-14,6 Punkte) und den Schweizern (-12,5 Punkte). Stärker segregiert als vor 20 Jahren waren Personen aus arabischen und afrikanischen Ländern.",
-"erlaeuterungen":"Der Segregationsindex misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betracheten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 würde bedeuten, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross wäre.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_028",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Veränderung des Segregationsindex",
+ "subtitle": "2016 gegenüber 1997, nach Staatsangehörigkeit",
+ "kuerzel": "I.01.1.06079",
+ "kuerzelKunde": "A5-2",
+ "description": "Veränderung des Segregationsindex",
+ "id": 6079,
+ "thema": "01 Bevölkerung",
+ "unterthema": "Bestand und Struktur ",
+ "kennzahlenset": "Integration",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-21T00:00:00.000",
+ "schlagwort": [
+  "Segregation",
+  "Staatsangehörigkeit"
+ ],
+ "stufe1": "Kapitel A Bevölkerungsstruktur",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Zwischen 1997 und 2016 sind die Segregationsindices der meisten Gruppen gesunken. Am stärksten war der Rückgang bei den Italienern (-14,6 Punkte) und den Schweizern (-12,5 Punkte). Stärker segregiert als vor 20 Jahren waren Personen aus arabischen und afrikanischen Ländern.",
+ "erlaeuterungen": "Der Segregationsindex misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betracheten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 würde bedeuten, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross wäre.",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_00_00_00_00_028",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

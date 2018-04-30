@@ -3733,7 +3733,8 @@
 					fn.AddPieLegendClickHandler(chart);
 	            }
     },
-    "renderTo": "container-6250"
+    "renderTo": "container-6250",
+    "spacingBottom": 2
   },
   "title": {
     "style": {

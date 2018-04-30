@@ -1,29 +1,39 @@
-{"title":"Anerkannte Religionen nach Staatsangehörigkeit",
-"subtitle":"Stand: 2006",
-"kuerzel":"I.01.7.06493",
-"kuerzelKunde":"D7-1",
-"description":"Anerkannte Religionen nach Staatsangehörigkeit",
-"id":6493,
-"thema":"01 Bevölkerung",
-"unterthema":"Religionen",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Religion","Staatsangehörigkeit"],
-"stufe1":"Kapitel D Politik und Zusammenleben",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Diese Grafik zeigt für das Jahr 2006 die Wohnbevölkerung nach Religionszugehörigkeit, wobei nur die öffentlich-rechtlich anerkannten Gemeinschaften ausgewiesen werden. Die höchsten Anteile an Personen, die der evangelisch-reformierten Kirche angehören, weisen Schweizer (27,3%) und Deutsche (19,6%) auf. Die höchsten Anteile an Katholiken gibt es bei den  Mittel- und Südamerikanern (29,8%), bei Personen aus den EU-Ost-Ländern (28,3%) sowie bei den Italienern (24,6%). 94,2% der Türken, 88,9% der Personen aus arabischen Ländern und 75,4% der Personen aus dem Balkan gehören einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an. Hohe Anteile an Personen ohne religiöse Zugehörigkeit (>60%) weisen die Italiener, die Personen aus der Ländergruppe EU-17 und EFTA sowie  Mittel- und Südamerikaner auf.",
-"erlaeuterungen":"Seit 2015 weist das Statistische Amt aus Datenschutzgründen nur noch die öffentlich-rechtlich anerkannten Religionen aus. Um die Indikatoren mit Indikator D7-1 und D7-2 vergleichen zu können, werden in beiden nur die öffentlich-rechtlich anerkannten Religionen ausgewiesen.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"04_00_00_00_00_020",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Anerkannte Religionen nach Staatsangehörigkeit",
+ "subtitle": "Stand: 2006",
+ "kuerzel": "I.01.7.06493",
+ "kuerzelKunde": "D7-1",
+ "description": "Anerkannte Religionen nach Staatsangehörigkeit",
+ "id": 6493,
+ "thema": "01 Bevölkerung",
+ "unterthema": "Religionen",
+ "kennzahlenset": "Integration",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-21T00:00:00.000",
+ "schlagwort": [
+  "Religion",
+  "Staatsangehörigkeit"
+ ],
+ "stufe1": "Kapitel D Politik und Zusammenleben",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Diese Grafik zeigt für das Jahr 2006 die Wohnbevölkerung nach Religionszugehörigkeit, wobei nur die öffentlich-rechtlich anerkannten Gemeinschaften ausgewiesen werden. Die höchsten Anteile an Personen, die der evangelisch-reformierten Kirche angehören, weisen Schweizer (27,3%) und Deutsche (19,6%) auf. Die höchsten Anteile an Katholiken gibt es bei den  Mittel- und Südamerikanern (29,8%), bei Personen aus den EU-Ost-Ländern (28,3%) sowie bei den Italienern (24,6%). 94,2% der Türken, 88,9% der Personen aus arabischen Ländern und 75,4% der Personen aus dem Balkan gehören einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an. Hohe Anteile an Personen ohne religiöse Zugehörigkeit (>60%) weisen die Italiener, die Personen aus der Ländergruppe EU-17 und EFTA sowie  Mittel- und Südamerikaner auf.",
+ "erlaeuterungen": "Seit 2015 weist das Statistische Amt aus Datenschutzgründen nur noch die öffentlich-rechtlich anerkannten Religionen aus. Um die Indikatoren mit Indikator D7-1 und D7-2 vergleichen zu können, werden in beiden nur die öffentlich-rechtlich anerkannten Religionen ausgewiesen.",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "04_00_00_00_00_020",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

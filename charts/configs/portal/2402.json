@@ -472,7 +472,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 600,
+    "height": 613,
     "spacing": [
       10,
       10,
@@ -501,7 +501,8 @@
     },
     "type": "column",
     "inverted": false,
-    "renderTo": "container-2402"
+    "renderTo": "container-2402",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -573,9 +574,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: BAK Economics"
+    "text": "Quelle: BAK Economics\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
   },
   "legend": {
     "symbolRadius": 0,

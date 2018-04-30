@@ -237,7 +237,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -265,7 +265,8 @@
           }
     },
     "type": "column",
-    "renderTo": "container-4139"
+    "renderTo": "container-4139",
+    "spacingBottom": 50
   },
   "plotOptions": {
     "series": {
@@ -354,9 +355,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Leerstandserhebung"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Leerstandserhebung\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-1"
   },
   "legend": {
     "symbolRadius": 0,

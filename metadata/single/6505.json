@@ -1,29 +1,39 @@
-{"title":"Arbeitslose im Dienstleistungssektor (II)",
-"subtitle":"Basel-Stadt",
-"kuerzel":"I.03.4.06505",
-"kuerzelKunde":"3.3-07",
-"description":"Arbeitslose im Dienstleistungssektor (II)",
-"id":6505,
-"thema":"03 Erwerbsleben",
-"unterthema":"Arbeitslose ",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Arbeitslosigkeit","Branche"],
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Arbeitslosigkeit",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Im Bereich Beratung, Planung, Forschung, Immobilien sind die Arbeitslosenzahlen im Verlauf des Jahres 2017 auf 298 Personen zurückgegangen (-49 Personen). Im Bereich Gebäudebetreuung und Sicherheit verringerte sich die Zahl auf 237 Personen (-67 Personen). Bei den Finanz- und Versicherungs¬dienstleistungen sind in den letzten Jahren relativ konstante Werte von 120 bis 130 Arbeitslosen zu beobachten. Geringer ist die Zahl der Arbeitslosen aus der Branche Personalvermittlung und -überlassung, wobei der Wert Ende Dezember 2017 auf 61 Personen gestiegen ist.",
-"erlaeuterungen":"Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_03_00_00_00_307",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"],
-"externalLinks":[""]
+{
+ "title": "Arbeitslose im Dienstleistungssektor (II)",
+ "subtitle": "Basel-Stadt",
+ "kuerzel": "I.03.4.06505",
+ "kuerzelKunde": "3.3-07",
+ "description": "Arbeitslose im Dienstleistungssektor (II)",
+ "id": 6505,
+ "thema": "03 Erwerbsleben",
+ "unterthema": "Arbeitslose ",
+ "kennzahlenset": "Arbeitsmarkt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-14T00:00:00.000",
+ "schlagwort": [
+  "Arbeitslosigkeit",
+  "Branche"
+ ],
+ "stufe1": "Monitoring Basler Arbeitsmarkt",
+ "stufe2": "Arbeitslosigkeit",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Im Bereich Beratung, Planung, Forschung, Immobilien sind die Arbeitslosenzahlen im Verlauf des Jahres 2017 auf 298 Personen zurückgegangen (-49 Personen). Im Bereich Gebäudebetreuung und Sicherheit verringerte sich die Zahl auf 237 Personen (-67 Personen). Bei den Finanz- und Versicherungs¬dienstleistungen sind in den letzten Jahren relativ konstante Werte von 120 bis 130 Arbeitslosen zu beobachten. Geringer ist die Zahl der Arbeitslosen aus der Branche Personalvermittlung und -überlassung, wobei der Wert Ende Dezember 2017 auf 61 Personen gestiegen ist.",
+ "erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_03_00_00_00_307",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

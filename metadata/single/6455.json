@@ -1,29 +1,38 @@
-{"title":"Durchschnittlicher Beschäftigungsgrad nach Geschlecht",
-"subtitle":"Anteil der Vollzeitäquivalente an den Beschäftigten, Basel-Stadt",
-"kuerzel":"I.03.2.06455",
-"kuerzelKunde":"3.2-04",
-"description":"Durchschnittlicher Beschäftigungsgrad nach Geschlecht",
-"id":6455,
-"thema":"03 Erwerbsleben",
-"unterthema":"Beschäftigte ",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Beschäftigte"],
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Beschäftigung",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Auf Vollzeitstellen umgerechnet entsprechen die 190 800 Beschäftigten aus dem Jahr 2015 rund 151 600 VZÄ. Daraus resultiert ein durchschnittlicher Beschäftigungsgrad von 79%. Der durchschnittliche Beschäftigungsgrad der Männer liegt im Jahr 2015 bei 88%, während er bei den Frauen 70% beträgt.",
-"erlaeuterungen":"Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_02_00_00_00_204",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"],
-"externalLinks":[""]
+{
+ "title": "Durchschnittlicher Beschäftigungsgrad nach Geschlecht",
+ "subtitle": "Anteil der Vollzeitäquivalente an den Beschäftigten, Basel-Stadt",
+ "kuerzel": "I.03.2.06455",
+ "kuerzelKunde": "3.2-04",
+ "description": "Durchschnittlicher Beschäftigungsgrad nach Geschlecht",
+ "id": 6455,
+ "thema": "03 Erwerbsleben",
+ "unterthema": "Beschäftigte ",
+ "kennzahlenset": "Arbeitsmarkt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-14T00:00:00.000",
+ "schlagwort": [
+  "Beschäftigte"
+ ],
+ "stufe1": "Monitoring Basler Arbeitsmarkt",
+ "stufe2": "Beschäftigung",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Auf Vollzeitstellen umgerechnet entsprechen die 190 800 Beschäftigten aus dem Jahr 2015 rund 151 600 VZÄ. Daraus resultiert ein durchschnittlicher Beschäftigungsgrad von 79%. Der durchschnittliche Beschäftigungsgrad der Männer liegt im Jahr 2015 bei 88%, während er bei den Frauen 70% beträgt.",
+ "erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_02_00_00_00_204",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

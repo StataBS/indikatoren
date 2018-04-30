@@ -1,29 +1,39 @@
-{"title":"Sonderabfälle",
-"subtitle":"Tonnen",
-"kuerzel":"I.02.6.04333",
-"kuerzelKunde":"0109",
-"description":"Sonderabfälle",
-"id":4333,
-"thema":"02 Raum, Umwelt",
-"unterthema":"Entsorgung",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Abfall"],
-"stufe1":"Thema Abfall",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0109' target='_blank'>Umweltbericht beider Basel</a>.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"externalLinks":["<a href = 'http://www.aue.bs.ch/abfaelle/industrie-gewerbe/bauabfaelle.html' target = '_blank'>Bauabfälle (Kanton Basel-Stadt)</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0109' target = '_blank'>Umweltbericht beider Basel</a>"]
+{
+ "title": "Sonderabfälle",
+ "subtitle": "Tonnen",
+ "kuerzel": "I.02.6.04333",
+ "kuerzelKunde": "0109",
+ "description": "Sonderabfälle",
+ "id": 4333,
+ "thema": "02 Raum, Umwelt",
+ "unterthema": "Entsorgung",
+ "kennzahlenset": "Umwelt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-07-11T00:00:00.000",
+ "schlagwort": [
+  "Abfall"
+ ],
+ "stufe1": "Thema Abfall",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "",
+ "erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0109' target='_blank'>Umweltbericht beider Basel</a>.",
+ "template": "dotplot",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_00_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Amt für Umwelt und Energie Basel-Stadt"
+ ],
+ "externalLinks": [
+  "<a href = 'http://www.aue.bs.ch/abfaelle/industrie-gewerbe/bauabfaelle.html' target = '_blank'>Bauabfälle (Kanton Basel-Stadt)</a>",
+  "Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0109' target = '_blank'>Umweltbericht beider Basel</a>"
+ ]
 }

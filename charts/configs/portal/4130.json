@@ -155,8 +155,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -215,9 +215,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung\u003Cbr\u002F\u003EZuletzt geändert: 2017-5-22"
   },
   "legend": {
     "enabled": false,

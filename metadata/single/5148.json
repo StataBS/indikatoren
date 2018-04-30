@@ -1,29 +1,39 @@
-{"title":"Saldo aus Geburten und Todesfällen",
-"subtitle":"",
-"kuerzel":"I.01.1.05148",
-"kuerzelKunde":"BE6",
-"description":"Saldo aus Geburten und Todesfällen",
-"id":5148,
-"thema":"01 Bevölkerung",
-"unterthema":"Bestand und Struktur ",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2017-03-14T12:02:20.2020",
-"schlagwort":["Alter","Bevölkerung"],
-"stufe1":"Bereich Bevölkerung",
-"stufe2":"Bevölkerung",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"In den Jahren 2007 bis 2015 überstieg die Zahl der Todesfälle stets diejenige der Geburten. 2016 hingegen gab es mehr Lebendgeborene als Gestorbene, der Saldo aus Geburten und Todesfällen betrug 152.",
-"erlaeuterungen":"",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_01_00_00_00_107",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Saldo aus Geburten und Todesfällen",
+ "subtitle": "",
+ "kuerzel": "I.01.1.05148",
+ "kuerzelKunde": "BE6",
+ "description": "Saldo aus Geburten und Todesfällen",
+ "id": 5148,
+ "thema": "01 Bevölkerung",
+ "unterthema": "Bestand und Struktur ",
+ "kennzahlenset": "Nachhaltigkeit",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-03-14T12:02:20.2020",
+ "schlagwort": [
+  "Alter",
+  "Bevölkerung"
+ ],
+ "stufe1": "Bereich Bevölkerung",
+ "stufe2": "Bevölkerung",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "In den Jahren 2007 bis 2015 überstieg die Zahl der Todesfälle stets diejenige der Geburten. 2016 hingegen gab es mehr Lebendgeborene als Gestorbene, der Saldo aus Geburten und Todesfällen betrug 152.",
+ "erlaeuterungen": "",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_01_00_00_00_107",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

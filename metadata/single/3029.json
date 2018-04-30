@@ -1,29 +1,40 @@
-{"title":"Arbeitstage von Meldepflichtigen nach Erwerbsstatus",
-"subtitle":"Basel-Stadt",
-"kuerzel":"I.03.5.03029",
-"kuerzelKunde":"3.4-19",
-"description":"Arbeitstage von Meldepflichtigen nach Erwerbsstatus",
-"id":3029,
-"thema":"03 Erwerbsleben",
-"unterthema":"Ausländische Erwerbstätige",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Ausländer","Bewilligung","Erwerbstätigkeit"],
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Ausländische Erwerbstätige",
-"stufe3":"Meldepflichtige",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Messe- und ferienbedingt ist der Bedarf an Arbeitskräften saisonalen Schwankungen ausgesetzt. Bei den Arbeitnehmenden hat 2017 die Zahl der Arbeitstage im Vergleich zum Vorjahr um 23 256 bzw. 8,5% auf 297 024 Arbeitstage zugenommen. Bei den Selbständigerwerbenden und Entsandten wurden 2017 weniger Arbeitstage verzeichnet als im Vorjahr.",
-"erlaeuterungen":"Meldepflichtige: Dienstleistungserbringung von ausländischen Unternehmen und Selbstständigen in der Schweiz während maximal 90 Arbeitstagen pro Jahr.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_04_03_00_00_419",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"],
-"externalLinks":[""]
+{
+ "title": "Arbeitstage von Meldepflichtigen nach Erwerbsstatus",
+ "subtitle": "Basel-Stadt",
+ "kuerzel": "I.03.5.03029",
+ "kuerzelKunde": "3.4-19",
+ "description": "Arbeitstage von Meldepflichtigen nach Erwerbsstatus",
+ "id": 3029,
+ "thema": "03 Erwerbsleben",
+ "unterthema": "Ausländische Erwerbstätige",
+ "kennzahlenset": "Arbeitsmarkt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-14T00:00:00.000",
+ "schlagwort": [
+  "Ausländer",
+  "Bewilligung",
+  "Erwerbstätigkeit"
+ ],
+ "stufe1": "Monitoring Basler Arbeitsmarkt",
+ "stufe2": "Ausländische Erwerbstätige",
+ "stufe3": "Meldepflichtige",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Messe- und ferienbedingt ist der Bedarf an Arbeitskräften saisonalen Schwankungen ausgesetzt. Bei den Arbeitnehmenden hat 2017 die Zahl der Arbeitstage im Vergleich zum Vorjahr um 23 256 bzw. 8,5% auf 297 024 Arbeitstage zugenommen. Bei den Selbständigerwerbenden und Entsandten wurden 2017 weniger Arbeitstage verzeichnet als im Vorjahr.",
+ "erlaeuterungen": "Meldepflichtige: Dienstleistungserbringung von ausländischen Unternehmen und Selbstständigen in der Schweiz während maximal 90 Arbeitstagen pro Jahr.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_04_03_00_00_419",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

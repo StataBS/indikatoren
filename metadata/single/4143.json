@@ -1,29 +1,39 @@
-{"title":"Anzahl Genossenschaftswohnungen und Anteil am Bestand",
-"subtitle":"",
-"kuerzel":"I.09.1.04143",
-"kuerzelKunde":"1.4.B",
-"description":"Anzahl Genossenschaftswohnungen und Anteil am Bestand",
-"id":4143,
-"thema":"09 Bau-, Wohnungswesen",
-"unterthema":"Gebäude und Wohnungen",
-"kennzahlenset":"Wohnraumentwicklung",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-01-18T12:49:29.2929",
-"schlagwort":["Gebäude","Haushalt"],
-"stufe1":"Ziel 1: Gesellschaftspolitik",
-"stufe2":"1.4 Familiengerechter Wohnraum",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2017 rund 10%.",
-"erlaeuterungen":"",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_04_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Anzahl Genossenschaftswohnungen und Anteil am Bestand",
+ "subtitle": "",
+ "kuerzel": "I.09.1.04143",
+ "kuerzelKunde": "1.4.B",
+ "description": "Anzahl Genossenschaftswohnungen und Anteil am Bestand",
+ "id": 4143,
+ "thema": "09 Bau-, Wohnungswesen",
+ "unterthema": "Gebäude und Wohnungen",
+ "kennzahlenset": "Wohnraumentwicklung",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-01-18T12:49:29.2929",
+ "schlagwort": [
+  "Gebäude",
+  "Haushalt"
+ ],
+ "stufe1": "Ziel 1: Gesellschaftspolitik",
+ "stufe2": "1.4 Familiengerechter Wohnraum",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2017 rund 10%.",
+ "erlaeuterungen": "",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_04_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

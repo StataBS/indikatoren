@@ -486,7 +486,8 @@
                     
                 }
     },
-    "renderTo": "container-6288"
+    "renderTo": "container-6288",
+    "spacingBottom": 8
   },
   "plotOptions": {
     "series": {

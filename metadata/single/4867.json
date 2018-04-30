@@ -1,29 +1,39 @@
-{"title":"Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-"subtitle":"",
-"kuerzel":"I.19.1.04867",
-"kuerzelKunde":"3.2.02",
-"description":"Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-"id":4867,
-"thema":"19 Rechtspflege",
-"unterthema":"Polizei",
-"kennzahlenset":"Gesellschaftlicher-Zusammenhalt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Verbrechen"],
-"stufe1":"Kernbereich 3: Gemeinwohlorientierung",
-"stufe2":"3.2 Anerkennung sozialer Regeln",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Quote erhöhte sich zwischen 2008 und 2009 von 4,5 auf 5,5. In den beiden folgenden Jahre ging sie zurück. Seit 2012 steigt sie in der Tendenz erneut, 2014 wurden pro 1000 18-Jährige und Ältere 6,6 Anzeigen wegen Veruntreuung und Betrug erfasst.",
-"erlaeuterungen":"",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_02_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt","Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"],
-"externalLinks":[""]
+{
+ "title": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
+ "subtitle": "",
+ "kuerzel": "I.19.1.04867",
+ "kuerzelKunde": "3.2.02",
+ "description": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
+ "id": 4867,
+ "thema": "19 Rechtspflege",
+ "unterthema": "Polizei",
+ "kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2016-09-21T00:00:00.000",
+ "schlagwort": [
+  "Verbrechen"
+ ],
+ "stufe1": "Kernbereich 3: Gemeinwohlorientierung",
+ "stufe2": "3.2 Anerkennung sozialer Regeln",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die Quote erhöhte sich zwischen 2008 und 2009 von 4,5 auf 5,5. In den beiden folgenden Jahre ging sie zurück. Seit 2012 steigt sie in der Tendenz erneut, 2014 wurden pro 1000 18-Jährige und Ältere 6,6 Anzeigen wegen Veruntreuung und Betrug erfasst.",
+ "erlaeuterungen": "",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "03_02_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt",
+  "Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

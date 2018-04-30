@@ -1,7 +1,7 @@
 (function(){
     return {
     "yAxis":{
-    tickInterval:25,
+      tickInterval:25,
     },
  	"xAxis": {
         "type": "category",
@@ -35,7 +35,7 @@
       valueDecimals: 1
     },
     exporting: {
-      allowHTML: true,
+      allowHTML: false,
     }
 };
 }());

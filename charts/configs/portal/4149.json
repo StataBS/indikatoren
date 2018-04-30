@@ -102,7 +102,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -131,7 +131,8 @@
     },
     "marginTop": 85,
     "type": "line",
-    "renderTo": "container-4149"
+    "renderTo": "container-4149",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -237,9 +238,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-1"
   },
   "legend": {
     "symbolRadius": 0,

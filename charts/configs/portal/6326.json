@@ -100,7 +100,8 @@
     },
     "type": "column",
     "inverted": false,
-    "renderTo": "container-6326"
+    "renderTo": "container-6326",
+    "spacingBottom": 8
   },
   "title": {
     "style": {

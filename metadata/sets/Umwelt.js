@@ -11,7 +11,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -44,7 +44,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -78,7 +78,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -112,7 +112,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -146,7 +146,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -180,7 +180,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -215,7 +215,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -249,7 +249,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -282,7 +282,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -316,7 +316,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -350,7 +350,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -384,7 +384,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -418,7 +418,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -451,7 +451,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -484,7 +484,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -518,7 +518,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -552,7 +552,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -585,7 +585,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -618,7 +618,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -652,7 +652,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -686,7 +686,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -719,7 +719,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -752,7 +752,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -786,7 +786,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Störfälle",
 		"stufe2": "",
 		"stufe3": "",
@@ -820,7 +820,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Störfälle",
 		"stufe2": "",
 		"stufe3": "",
@@ -854,7 +854,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -888,7 +888,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -922,7 +922,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -956,7 +956,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -990,7 +990,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -1024,7 +1024,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -1058,7 +1058,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -1092,7 +1092,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -1126,7 +1126,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -1160,7 +1160,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -1194,7 +1194,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -1228,7 +1228,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Biotechnologie",
 		"stufe2": "",
 		"stufe3": "",
@@ -1262,7 +1262,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Biotechnologie",
 		"stufe2": "",
 		"stufe3": "",
@@ -1296,7 +1296,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Biotechnologie",
 		"stufe2": "",
 		"stufe3": "",
@@ -1330,7 +1330,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Biotechnologie",
 		"stufe2": "",
 		"stufe3": "",
@@ -1364,7 +1364,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -1399,7 +1399,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -1434,7 +1434,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -1469,7 +1469,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -1503,7 +1503,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -1536,7 +1536,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -1572,7 +1572,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -1608,7 +1608,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -1644,7 +1644,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -1682,7 +1682,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -1716,7 +1716,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -1751,7 +1751,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -1786,7 +1786,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -1821,7 +1821,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -1857,7 +1857,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -1892,7 +1892,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -1925,7 +1925,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -1959,7 +1959,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -1993,7 +1993,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -2026,7 +2026,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -2060,7 +2060,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -2094,7 +2094,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -2127,7 +2127,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Stoffe und Produkte",
 		"stufe2": "",
 		"stufe3": "",
@@ -2161,7 +2161,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Stoffe und Produkte",
 		"stufe2": "",
 		"stufe3": "",
@@ -2195,7 +2195,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Stoffe und Produkte",
 		"stufe2": "",
 		"stufe3": "",
@@ -2229,7 +2229,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -2263,7 +2263,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -2297,7 +2297,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -2330,7 +2330,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -2364,7 +2364,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -2398,7 +2398,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -2432,7 +2432,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Biodiversität",
 		"stufe2": "",
 		"stufe3": "",
@@ -2466,7 +2466,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Biodiversität",
 		"stufe2": "",
 		"stufe3": "",
@@ -2500,7 +2500,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Biodiversität",
 		"stufe2": "",
 		"stufe3": "",
@@ -2533,7 +2533,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Biodiversität",
 		"stufe2": "",
 		"stufe3": "",
@@ -2567,7 +2567,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Landschaft",
 		"stufe2": "",
 		"stufe3": "",
@@ -2600,7 +2600,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Landschaft",
 		"stufe2": "",
 		"stufe3": "",
@@ -2634,7 +2634,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Landschaft",
 		"stufe2": "",
 		"stufe3": "",
@@ -2669,7 +2669,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Naturgefahren",
 		"stufe2": "",
 		"stufe3": "",
@@ -2704,7 +2704,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Naturgefahren",
 		"stufe2": "",
 		"stufe3": "",
@@ -2737,7 +2737,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Naturgefahren",
 		"stufe2": "",
 		"stufe3": "",
@@ -2772,7 +2772,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -2807,7 +2807,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -2841,7 +2841,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -2875,7 +2875,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -2909,7 +2909,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -2943,7 +2943,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -2978,7 +2978,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -3012,7 +3012,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Naturgefahren",
 		"stufe2": "",
 		"stufe3": "",
@@ -3046,7 +3046,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3079,7 +3079,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3113,7 +3113,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3147,7 +3147,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3181,7 +3181,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3215,7 +3215,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3248,7 +3248,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3282,7 +3282,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3316,7 +3316,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3350,7 +3350,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -3384,7 +3384,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -3418,7 +3418,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -3452,7 +3452,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",

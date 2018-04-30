@@ -1,29 +1,39 @@
-{"title":"Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
-"subtitle":"",
-"kuerzel":"I.01.1.04148",
-"kuerzelKunde":"2.2.A",
-"description":"Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
-"id":4148,
-"thema":"01 Bevölkerung",
-"unterthema":"Bestand und Struktur ",
-"kennzahlenset":"Wohnraumentwicklung",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2017-01-24T15:08:06.066",
-"schlagwort":["Gebäude","Haushalt"],
-"stufe1":"Ziel 2: Fiskalpolitik",
-"stufe2":"2.2 Anteil an Hauptwohnsitznehmern",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Anzahl volljähriger Personen mit Hauptwohnsitz in Basel-Stadt nimmt stetig zu. Diese Personen versteuern ihr Einkommen oder ihre Vermögenswerte, falls vorhanden, in der Regel in Basel-Stadt.",
-"erlaeuterungen":"Für den Indikator werden die Personen ab 18 Jahren mit dem Meldeverhältnis Hauptwohnsitz in Basel-Stadt und dem Bevölkerungstyp Nichtständige Wohnbevölkerung oder Ständige Wohnbevölkerung berücksichtigt.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_02_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"],
-"externalLinks":[""]
+{
+ "title": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
+ "subtitle": "",
+ "kuerzel": "I.01.1.04148",
+ "kuerzelKunde": "2.2.A",
+ "description": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
+ "id": 4148,
+ "thema": "01 Bevölkerung",
+ "unterthema": "Bestand und Struktur ",
+ "kennzahlenset": "Wohnraumentwicklung",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-01-24T15:08:06.066",
+ "schlagwort": [
+  "Gebäude",
+  "Haushalt"
+ ],
+ "stufe1": "Ziel 2: Fiskalpolitik",
+ "stufe2": "2.2 Anteil an Hauptwohnsitznehmern",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die Anzahl volljähriger Personen mit Hauptwohnsitz in Basel-Stadt nimmt stetig zu. Diese Personen versteuern ihr Einkommen oder ihre Vermögenswerte, falls vorhanden, in der Regel in Basel-Stadt.",
+ "erlaeuterungen": "Für den Indikator werden die Personen ab 18 Jahren mit dem Meldeverhältnis Hauptwohnsitz in Basel-Stadt und dem Bevölkerungstyp Nichtständige Wohnbevölkerung oder Ständige Wohnbevölkerung berücksichtigt.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "03_02_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

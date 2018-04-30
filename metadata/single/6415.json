@@ -1,29 +1,39 @@
-{"title":"Erwerbstätigenquote",
-"subtitle":"nach Staatsangehörigkeit und Geschlecht, gepoolte Daten 2011 bis 2015",
-"kuerzel":"I.03.1.06415",
-"kuerzelKunde":"C2-1",
-"description":"Erwerbstätigenquote",
-"id":6415,
-"thema":"03 Erwerbsleben",
-"unterthema":"Erwerbspersonen ",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Geschlecht","Staatsangehörigkeit"],
-"stufe1":"Kapitel C Erwerb und Auskommen",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Erwerbstätigenquoten der Schweizer und der Ausländer lagen in allen betrachteten Jahren nahe beieinander. Das Gleiche gilt für die Schweizerinnen und Ausländerinnen. In den letzten Jahren haben sich die Quoten der Männer und Frauen angeglichen. Dieser Effekt war bei den Schweizer Staatsangehörigen etwas stärker ausgeprägt.",
-"erlaeuterungen":"Ab 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Linien geben die Konfidenzintervalle auf dem 95%-Niveau an.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_00_00_00_00_009",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)"],
-"externalLinks":[""]
+{
+ "title": "Erwerbstätigenquote",
+ "subtitle": "nach Staatsangehörigkeit und Geschlecht, gepoolte Daten 2011 bis 2015",
+ "kuerzel": "I.03.1.06415",
+ "kuerzelKunde": "C2-1",
+ "description": "Erwerbstätigenquote",
+ "id": 6415,
+ "thema": "03 Erwerbsleben",
+ "unterthema": "Erwerbspersonen ",
+ "kennzahlenset": "Integration",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-21T00:00:00.000",
+ "schlagwort": [
+  "Geschlecht",
+  "Staatsangehörigkeit"
+ ],
+ "stufe1": "Kapitel C Erwerb und Auskommen",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die Erwerbstätigenquoten der Schweizer und der Ausländer lagen in allen betrachteten Jahren nahe beieinander. Das Gleiche gilt für die Schweizerinnen und Ausländerinnen. In den letzten Jahren haben sich die Quoten der Männer und Frauen angeglichen. Dieser Effekt war bei den Schweizer Staatsangehörigen etwas stärker ausgeprägt.",
+ "erlaeuterungen": "Ab 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Linien geben die Konfidenzintervalle auf dem 95%-Niveau an.",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "03_00_00_00_00_009",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

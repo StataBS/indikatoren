@@ -1,30 +1,43 @@
-{"title":"Sicherheitsempfinden im Alltag nach Geschlecht",
-"subtitle":"«Wie sicher fühlen Sie sich ganz allgemein im Alltag?»",
-"kuerzel":"I.50.1.06178",
-"kuerzelKunde":"10.4",
-"description":"Sicherheitsempfinden im Alltag nach Geschlecht",
-"id":6325,
-"thema":"50 Befragungen",
-"unterthema":"Bevölkerungsbefragung",
-"kennzahlenset":"Legislaturplan (Print)",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Bevölkerung","Verbrechen","Gefühl"],
-"stufe1":"Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Mit einem Anteil von 42,2% fühlte sich weniger als die Hälfte der Befragten im Alltag sehr sicher und 49,0% fühlten sich eher sicher. Im Vergleich zu den vorherigen Befragungen fühlten sich dieBefragten im Alltag weniger sicher. Am höchsten war dasSicherheitsempfinden 2003 als der Anteil derjenigen, die sichgrundsätzlich sehr sicher fühlen, über 55% lag.",
-"erlaeuterungen":"",
-"template":"befragungen001_print",
-"option":"options001",
-"visible":false,
-"visibleInPortal":false,
-"orderKey":"10_00_00_00_00_000",
-"parentId":6178,
-"children":[],
-"renderLink":[""],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9"],
-"externalLinks":[""]
+{
+ "title": "Sicherheitsempfinden im Alltag nach Geschlecht",
+ "subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?»",
+ "kuerzel": "I.50.1.06178",
+ "kuerzelKunde": "10.4",
+ "description": "Sicherheitsempfinden im Alltag nach Geschlecht",
+ "id": 6325,
+ "thema": "50 Befragungen",
+ "unterthema": "Bevölkerungsbefragung",
+ "kennzahlenset": "Legislaturplan (Print)",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "",
+ "schlagwort": [
+  "Bevölkerung",
+  "Verbrechen",
+  "Gefühl"
+ ],
+ "stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Mit einem Anteil von 42,2% fühlte sich weniger als die Hälfte der Befragten im Alltag sehr sicher und 49,0% fühlten sich eher sicher. Im Vergleich zu den vorherigen Befragungen fühlten sich dieBefragten im Alltag weniger sicher. Am höchsten war dasSicherheitsempfinden 2003 als der Anteil derjenigen, die sichgrundsätzlich sehr sicher fühlen, über 55% lag.",
+ "erlaeuterungen": "",
+ "template": "befragungen001_print",
+ "option": "options001",
+ "visible": false,
+ "visibleInPortal": false,
+ "orderKey": "10_00_00_00_00_000",
+ "parentId": 6178,
+ "children": [],
+ "renderLink": [
+  ""
+ ],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

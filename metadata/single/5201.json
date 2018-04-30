@@ -1,29 +1,41 @@
-{"title":"Bevölkerungsdichte",
-"subtitle":"Anzahl Einwohner pro Hektar",
-"kuerzel":"I.01.1.05201",
-"kuerzelKunde":"ST 4-2",
-"description":"Bevölkerungsdichte",
-"id":5201,
-"thema":"01 Bevölkerung",
-"unterthema":"Bestand und Struktur ",
-"kennzahlenset":"Richtplan",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2017-07-06T14:41:09.099",
-"schlagwort":["Bevölkerung","Wohnen"],
-"stufe1":"Sachgebiet Siedlung - Wohnen",
-"stufe2":"Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Bis 2002 verzeichnete Basel-Stadt sinkende Bevölkerungszahlen. Seit 2007 nimmt die baselstädtische Wohnbevölkerung und mit ihr die Bevölkerungsdichte wieder zu.",
-"erlaeuterungen":"",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_01_00_00_00_002",
-"parentId":null,
-"children":["6242"],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Bevölkerungsdichte",
+ "subtitle": "Anzahl Einwohner pro Hektar",
+ "kuerzel": "I.01.1.05201",
+ "kuerzelKunde": "ST 4-2",
+ "description": "Bevölkerungsdichte",
+ "id": 5201,
+ "thema": "01 Bevölkerung",
+ "unterthema": "Bestand und Struktur ",
+ "kennzahlenset": "Richtplan",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-01-16T00:00:00.000",
+ "schlagwort": [
+  "Bevölkerung",
+  "Wohnen"
+ ],
+ "stufe1": "Sachgebiet Siedlung - Wohnen",
+ "stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Bis 2002 verzeichnete Basel-Stadt sinkende Bevölkerungszahlen. Seit 2007 nimmt die baselstädtische Wohnbevölkerung und mit ihr die Bevölkerungsdichte wieder zu.",
+ "erlaeuterungen": "",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_01_00_00_00_002",
+ "parentId": null,
+ "children": [
+  "6242"
+ ],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

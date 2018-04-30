@@ -92,7 +92,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       15,
       3,
@@ -103,7 +103,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6247"
+    "renderTo": "container-6247",
+    "spacingBottom": 28
   },
   "title": {
     "style": {
@@ -172,9 +173,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2017-7-5"
   },
   "legend": {
     "enabled": false,

@@ -73,7 +73,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -101,7 +101,8 @@
           }
     },
     "type": "column",
-    "renderTo": "container-6031"
+    "renderTo": "container-6031",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -179,9 +180,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
   },
   "legend": {
     "symbolRadius": 0,

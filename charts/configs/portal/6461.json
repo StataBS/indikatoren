@@ -241,7 +241,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 650,
+    "height": 663,
     "spacing": [
       10,
       10,
@@ -272,7 +272,8 @@
     "marginBottom": 70,
     "type": "column",
     "inverted": true,
-    "renderTo": "container-6461"
+    "renderTo": "container-6461",
+    "spacingBottom": 50
   },
   "plotOptions": {
     "series": {
@@ -343,9 +344,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
   },
   "legend": {
     "symbolRadius": 0,

@@ -1,29 +1,38 @@
-{"title":"Anzahl Strassenverkehrsunfälle",
-"subtitle":"",
-"kuerzel":"I.14.3.06324",
-"kuerzelKunde":"10.2",
-"description":"Anzahl Strassenverkehrsunfälle",
-"id":6324,
-"thema":"14 Gesundheit",
-"unterthema":"Sterblichkeit",
-"kennzahlenset":"Legislaturplan (Print)",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Verkehr"],
-"stufe1":"Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Von 1995 bis 2012 ist die Anzahl Strassenverkehrsunfälle von knapp 4 000 auf rund 900 Unfälle gesunken. Auch die Anzahl der verunfallten Personen lag 2012 mit 307 Personen am tiefsten. Bis 2015 ist bei beiden Werten wieder ein leichter Anstieg zu beobachten.",
-"erlaeuterungen":"",
-"template":"line001_print",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"10_00_00_00_00_000",
-"parentId":6177,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Kantonspolizei Basel-Stadt"],
-"externalLinks":[""]
+{
+ "title": "Anzahl Strassenverkehrsunfälle",
+ "subtitle": "",
+ "kuerzel": "I.14.3.06324",
+ "kuerzelKunde": "10.2",
+ "description": "Anzahl Strassenverkehrsunfälle",
+ "id": 6324,
+ "thema": "14 Gesundheit",
+ "unterthema": "Sterblichkeit",
+ "kennzahlenset": "Legislaturplan (Print)",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "",
+ "schlagwort": [
+  "Verkehr"
+ ],
+ "stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Von 1995 bis 2012 ist die Anzahl Strassenverkehrsunfälle von knapp 4 000 auf rund 900 Unfälle gesunken. Auch die Anzahl der verunfallten Personen lag 2012 mit 307 Personen am tiefsten. Bis 2015 ist bei beiden Werten wieder ein leichter Anstieg zu beobachten.",
+ "erlaeuterungen": "",
+ "template": "line001_print",
+ "visible": true,
+ "visibleInPortal": false,
+ "orderKey": "10_00_00_00_00_000",
+ "parentId": 6177,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Kantonspolizei Basel-Stadt"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

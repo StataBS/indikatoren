@@ -200,7 +200,8 @@
     "zoomType": "xy",
     "type": "column",
     "spacingTop": 12,
-    "renderTo": "container-6299"
+    "renderTo": "container-6299",
+    "spacingBottom": 3
   },
   "title": {
     "style": {

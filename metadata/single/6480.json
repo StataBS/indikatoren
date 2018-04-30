@@ -1,29 +1,40 @@
-{"title":"Anzahl ordentlich Eingebürgerte",
-"subtitle":"nach Geschlecht und Altersgruppe, aufsummiert von 2006 bis 2016",
-"kuerzel":"I.01.6.06480",
-"kuerzelKunde":"D3-2",
-"description":"Anzahl ordentlich Eingebürgerte",
-"id":6480,
-"thema":"01 Bevölkerung",
-"unterthema":"Einbürgerungen",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Geschlecht","Alter","Einbürgerung"],
-"stufe1":"Kapitel D Politik und Zusammenleben",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"In dieser Abbildung sind die ordentlich eingebürgerten Ausländer der Jahre 2006 bis 2016 zusammengefasst dargestellt. Bis zur Altersgruppe der 15- bis 19-Jährigen nimmt die Zahl der ordentlich eingebürgerten Ausländer kontinuierlich zu. Bei den 20- bis 24-Jährigen und 25- bis 29-Jährigen lassen sich deutlich weniger Ausländer einbürgern. Danach steigt die Zahl der Eingebürgerten nochmals bis zur Gruppe der 40- bis 44-Jährigen. Ab der Altersgruppe 45 bis 49 Jahre gehen die Einbürgerungen mit jeder Altersgruppe zurück. Insgesamt sind gut die Hälfte der Eingebürgerten Frauen. Die höchsten Frauenanteile weisen die 20- bis 24-Jährigen (62%) und die 25- bis 29-Jährigen (60%) auf.",
-"erlaeuterungen":"",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"04_00_00_00_00_008",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Anzahl ordentlich Eingebürgerte",
+ "subtitle": "nach Geschlecht und Altersgruppe, aufsummiert von 2006 bis 2016",
+ "kuerzel": "I.01.6.06480",
+ "kuerzelKunde": "D3-2",
+ "description": "Anzahl ordentlich Eingebürgerte",
+ "id": 6480,
+ "thema": "01 Bevölkerung",
+ "unterthema": "Einbürgerungen",
+ "kennzahlenset": "Integration",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-21T00:00:00.000",
+ "schlagwort": [
+  "Geschlecht",
+  "Alter",
+  "Einbürgerung"
+ ],
+ "stufe1": "Kapitel D Politik und Zusammenleben",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "In dieser Abbildung sind die ordentlich eingebürgerten Ausländer der Jahre 2006 bis 2016 zusammengefasst dargestellt. Bis zur Altersgruppe der 15- bis 19-Jährigen nimmt die Zahl der ordentlich eingebürgerten Ausländer kontinuierlich zu. Bei den 20- bis 24-Jährigen und 25- bis 29-Jährigen lassen sich deutlich weniger Ausländer einbürgern. Danach steigt die Zahl der Eingebürgerten nochmals bis zur Gruppe der 40- bis 44-Jährigen. Ab der Altersgruppe 45 bis 49 Jahre gehen die Einbürgerungen mit jeder Altersgruppe zurück. Insgesamt sind gut die Hälfte der Eingebürgerten Frauen. Die höchsten Frauenanteile weisen die 20- bis 24-Jährigen (62%) und die 25- bis 29-Jährigen (60%) auf.",
+ "erlaeuterungen": "",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "04_00_00_00_00_008",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

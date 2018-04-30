@@ -46,7 +46,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       7,
       3,
@@ -57,7 +57,8 @@
       "fontFamily": "Arial"
     },
     "type": "pie",
-    "renderTo": "container-6253"
+    "renderTo": "container-6253",
+    "spacingBottom": 13
   },
   "plotOptions": {
     "pie": {
@@ -121,9 +122,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Amt für Mobilität Basel-Stadt"
+    "text": "Quelle: Amt für Mobilität Basel-Stadt\u003Cbr\u002F\u003EZuletzt geändert: 2017-6-26"
   },
   "legend": {
     "layout": "horizontal",

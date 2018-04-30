@@ -1,29 +1,40 @@
-{"title":"Schulabgängerinnen und -abgänger ohne Anschlusslösung",
-"subtitle":"nach Geschlecht",
-"kuerzel":"I.15.7.06277",
-"kuerzelKunde":"3.1b",
-"description":"Schulabgängerinnen und -abgänger ohne Anschlusslösung",
-"id":6277,
-"thema":"15 Bildung",
-"unterthema":"Bildungsabschlüsse",
-"kennzahlenset":"Legislaturplan (Print)",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2017-02-16T13:43:21.2121",
-"schlagwort":["Geschlecht","Bildung","Schule"],
-"stufe1":"Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Jugendlichen der Abschlussklassen der Sekundarstufe I werden jeweils Ende Schuljahr schriftlich über ihren nächsten Ausbildungsschritt befragt. Nachdem sich die Mädchen bei der Suche nach einer Anschlusslösung bis 2010 vergleichsweise schwer getan haben, gelingt ihnen dies seit 2011 besser als den Knaben (Ausnahme 2012). Die Werte 2017 deuten darauf hin, dass die Jugendlichen wieder mehr Mühe haben, eine für sie passende Anschlusslösung zu finden. Unruhiger Kurvenverlauf aufgrund der vergleichsweise geringen Zahl an Beobachtungen.",
-"erlaeuterungen":"Datengrundlage bildet die jährliche Befragung der Schulabgängerinnen und Schulabgänger durch die Bildungsstatistikstelle des Bereichs Mittelschulen und Berufsbildung im Basler Erziehungsdepartement. Die Weiterbildungsschule wurde per Ende Schuljahr 2016/17 aufgelöst.",
-"template":"line001_print",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"03_00_00_00_00_000",
-"parentId":3051,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"],
-"externalLinks":[""]
+{
+ "title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
+ "subtitle": "nach Geschlecht",
+ "kuerzel": "I.15.7.06277",
+ "kuerzelKunde": "3.1b",
+ "description": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
+ "id": 6277,
+ "thema": "15 Bildung",
+ "unterthema": "Bildungsabschlüsse",
+ "kennzahlenset": "Legislaturplan (Print)",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-11-29T00:00:00.0000",
+ "schlagwort": [
+  "Geschlecht",
+  "Bildung",
+  "Schule"
+ ],
+ "stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die Jugendlichen der Abschlussklassen der Sekundarstufe I werden jeweils Ende Schuljahr schriftlich über ihren nächsten Ausbildungsschritt befragt. Nachdem sich die Mädchen bei der Suche nach einer Anschlusslösung bis 2010 vergleichsweise schwer getan haben, gelingt ihnen dies seit 2011 besser als den Knaben (Ausnahme 2012). Die Werte 2017 deuten darauf hin, dass die Jugendlichen wieder mehr Mühe haben, eine für sie passende Anschlusslösung zu finden. Unruhiger Kurvenverlauf aufgrund der vergleichsweise geringen Zahl an Beobachtungen.",
+ "erlaeuterungen": "Datengrundlage bildet die jährliche Befragung der Schulabgängerinnen und Schulabgänger durch die Bildungsstatistikstelle des Bereichs Mittelschulen und Berufsbildung im Basler Erziehungsdepartement. Die Weiterbildungsschule wurde per Ende Schuljahr 2016/17 aufgelöst.",
+ "template": "line001_print",
+ "visible": true,
+ "visibleInPortal": false,
+ "orderKey": "03_00_00_00_00_000",
+ "parentId": 3051,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

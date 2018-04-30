@@ -1,29 +1,44 @@
-{"title":"Bruttoinlandprodukt in Franken pro Einwohner",
-"subtitle":"nach Kanton",
-"kuerzel":"I.04.1.06124",
-"kuerzelKunde":"2.1",
-"description":"Bruttoinlandprodukt in Franken pro Einwohner",
-"id":6124,
-"thema":"04 Volkswirtschaft",
-"unterthema":"Volkseinkommen",
-"kennzahlenset":"Legislaturplan",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Einkommen","Arbeit","BIP","Beschäftigte"],
-"stufe1":"Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit den 1990er-Jahren stark gestiegen. Seit 2007 blieben die Werte in den Kantonen Basel-Stadt, Genf und Zürich relativ konstant.",
-"erlaeuterungen":"Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_00_00_00_00_001",
-"parentId":null,
-"children":["6045","6282"],
-"renderLink":[],
-"quellenangabe":["BAK Economics"],
-"externalLinks":[""]
+{
+ "title": "Bruttoinlandprodukt in Franken pro Einwohner",
+ "subtitle": "nach Kanton",
+ "kuerzel": "I.04.1.06124",
+ "kuerzelKunde": "2.1",
+ "description": "Bruttoinlandprodukt in Franken pro Einwohner",
+ "id": 6124,
+ "thema": "04 Volkswirtschaft",
+ "unterthema": "Volkseinkommen",
+ "kennzahlenset": "Legislaturplan",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-11-29T00:00:00.000",
+ "schlagwort": [
+  "Einkommen",
+  "Arbeit",
+  "BIP",
+  "Beschäftigte"
+ ],
+ "stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit den 1990er-Jahren stark gestiegen. Seit 2007 blieben die Werte in den Kantonen Basel-Stadt, Genf und Zürich relativ konstant.",
+ "erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_00_00_00_00_001",
+ "parentId": null,
+ "children": [
+  "6045",
+  "6282"
+ ],
+ "renderLink": [],
+ "quellenangabe": [
+  "BAK Economics"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

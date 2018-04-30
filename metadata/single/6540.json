@@ -1,29 +1,40 @@
-{"title":"Nettozimmerauslastung nach Wochentag",
-"subtitle":"Effektiv und auf Basis der Zimmerzahl von 2008",
-"kuerzel":"I.10.1.06540",
-"kuerzelKunde":"2-4",
-"description":"Nettozimmerauslastung nach Wochentag",
-"id":6540,
-"thema":"10 Tourismus",
-"unterthema":"Hotellerie",
-"kennzahlenset":"Tourismus",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Übernachtung","Gäste","Hotelbetten"],
-"stufe1":"",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"2017 lag die durchschnittliche Nettozimmerauslastung von Montag bis Sonntag bei 61,2%. 2017 waren die Zimmer von Montag bis Donnerstag zu 68,7% ausgelastet, von Freitag bis Sonntag zu 51,2%. Auf Basis der Anzahl verfügbare Zimmer 2008 hat die Nettozimmerauslastung 2017 jedoch sowohl an Werktagen als auch am Wochenende um 15,0 bzw. 13,5 Prozentpunkte zugenommen.",
-"erlaeuterungen":"",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"_004",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Tourismusstatistik"],
-"externalLinks":[""]
+{
+ "title": "Nettozimmerauslastung nach Wochentag",
+ "subtitle": "Effektiv und auf Basis der Zimmerzahl von 2008",
+ "kuerzel": "I.10.1.06540",
+ "kuerzelKunde": "2-4",
+ "description": "Nettozimmerauslastung nach Wochentag",
+ "id": 6540,
+ "thema": "10 Tourismus",
+ "unterthema": "Hotellerie",
+ "kennzahlenset": "Tourismus",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-02-15T00:00:00.000",
+ "schlagwort": [
+  "Übernachtung",
+  "Gäste",
+  "Hotelbetten"
+ ],
+ "stufe1": "",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "2017 lag die durchschnittliche Nettozimmerauslastung von Montag bis Sonntag bei 61,2%. 2017 waren die Zimmer von Montag bis Donnerstag zu 68,7% ausgelastet, von Freitag bis Sonntag zu 51,2%. Auf Basis der Anzahl verfügbare Zimmer 2008 hat die Nettozimmerauslastung 2017 jedoch sowohl an Werktagen als auch am Wochenende um 15,0 bzw. 13,5 Prozentpunkte zugenommen.",
+ "erlaeuterungen": "",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "_004",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Tourismusstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

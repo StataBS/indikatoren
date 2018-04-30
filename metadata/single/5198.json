@@ -1,29 +1,39 @@
-{"title":"Grünfläche pro Kopf nach Wohnviertel",
-"subtitle":"in m<sup>2</sup>, 2017",
-"kuerzel":"I.02.1.05198",
-"kuerzelKunde":"GW20",
-"description":"Grünfläche pro Kopf nach Wohnviertel",
-"id":5198,
-"thema":"02 Raum, Umwelt",
-"unterthema":"Räumliche Gliederung und Bodennutzung",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2017-03-16T14:52:33.3333",
-"schlagwort":["Umwelt"],
-"stufe1":"Bereich Grundbedürfnisse und Wohlergehen",
-"stufe2":"Wohnen",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Der Anteil an Grünfläche pro Person variiert stark zwischen den einzelnen Wohnvierteln resp. Landgemeinden. Erwartungsgemäss ist er im dicht bewohnten Matthäusquartier (rund 6 m<sup>2</sup>) und in der Basler Innenstadt (Altstadt Kleinbasel: 8 m<sup>2</sup>, Clara: 9 m<sup>2</sup>) am kleinsten. Überdurchschnittlich hoch dagegen ist der Anteil in den Wohnvierteln Hirzbrunnen (196 m<sup>2</sup>), Bruderholz (200 m<sup>2</sup>) und in den Landgemeinden Riehen (405 m<sup>2</sup>) und Bettingen (1 687 m<sup>2</sup>).",
-"erlaeuterungen":"Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_06_00_00_00_320",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Grundbuch- und Vermessungsamt Basel-Stadt"],
-"externalLinks":[""]
+{
+ "title": "Grünfläche pro Kopf nach Wohnviertel",
+ "subtitle": "in m<sup>2</sup>, 2017",
+ "kuerzel": "I.02.1.05198",
+ "kuerzelKunde": "GW20",
+ "description": "Grünfläche pro Kopf nach Wohnviertel",
+ "id": 5198,
+ "thema": "02 Raum, Umwelt",
+ "unterthema": "Räumliche Gliederung und Bodennutzung",
+ "kennzahlenset": "Nachhaltigkeit",
+ "raeumlicheGliederung": [
+  "Wohnviertel"
+ ],
+ "aktualisierungsdatum": "2018-04-03T00:00:00.0000",
+ "schlagwort": [
+  "Umwelt"
+ ],
+ "stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+ "stufe2": "Wohnen",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Der Anteil an Grünfläche pro Person variiert stark zwischen den einzelnen Wohnvierteln resp. Landgemeinden. Erwartungsgemäss ist er im dicht bewohnten Matthäusquartier (rund 6 m<sup>2</sup>) und in der Basler Innenstadt (Altstadt Kleinbasel: 8 m<sup>2</sup>, Clara: 9 m<sup>2</sup>) am kleinsten. Überdurchschnittlich hoch dagegen ist der Anteil in den Wohnvierteln Hirzbrunnen (196 m<sup>2</sup>), Bruderholz (200 m<sup>2</sup>) und in den Landgemeinden Riehen (405 m<sup>2</sup>) und Bettingen (1 687 m<sup>2</sup>).",
+ "erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert.",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "03_06_00_00_00_320",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+  "Grundbuch- und Vermessungsamt Basel-Stadt"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

@@ -1,29 +1,39 @@
-{"title":"Anteil Personen mit Hauptsprache Deutsch",
-"subtitle":"nach Staatsangehörigkeit, gepoolte Daten 2011 bis 2015",
-"kuerzel":"I.01.8.06402",
-"kuerzelKunde":"A6-1",
-"description":"Anteil Personen mit Hauptsprache Deutsch",
-"id":6402,
-"thema":"01 Bevölkerung",
-"unterthema":"Sprachen",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Sprache","Staatsangehörigkeit"],
-"stufe1":"Kapitel A Bevölkerungsstruktur",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Abgesehen von den Deutschen und Schweizern gaben Personen aus dem Balkan (46,5%), Italien (40,7%) und der Türkei (40,3%) am häufigsten Deutsch als Hauptsprache an, während die geringsten Anteile bei Personen aus den EU-17 + EFTA-Ländern (31,8%), Mittel- und Südamerika (29,2%) und der Kategorie «Übrige Länder»  (21,8%) zu beobachten sind.",
-"erlaeuterungen":"Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst.",
-"template":"befragungen001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_029",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)"],
-"externalLinks":[""]
+{
+ "title": "Anteil Personen mit Hauptsprache Deutsch",
+ "subtitle": "nach Staatsangehörigkeit, gepoolte Daten 2011 bis 2015",
+ "kuerzel": "I.01.8.06402",
+ "kuerzelKunde": "A6-1",
+ "description": "Anteil Personen mit Hauptsprache Deutsch",
+ "id": 6402,
+ "thema": "01 Bevölkerung",
+ "unterthema": "Sprachen",
+ "kennzahlenset": "Integration",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-21T00:00:00.000",
+ "schlagwort": [
+  "Sprache",
+  "Staatsangehörigkeit"
+ ],
+ "stufe1": "Kapitel A Bevölkerungsstruktur",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Abgesehen von den Deutschen und Schweizern gaben Personen aus dem Balkan (46,5%), Italien (40,7%) und der Türkei (40,3%) am häufigsten Deutsch als Hauptsprache an, während die geringsten Anteile bei Personen aus den EU-17 + EFTA-Ländern (31,8%), Mittel- und Südamerika (29,2%) und der Kategorie «Übrige Länder»  (21,8%) zu beobachten sind.",
+ "erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst.",
+ "template": "befragungen001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_00_00_00_00_029",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

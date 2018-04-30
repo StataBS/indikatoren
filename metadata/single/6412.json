@@ -1,29 +1,39 @@
-{"title":"Anzahl monatlich ausgesteuerte Schweizer",
-"subtitle":"nach Geschlecht",
-"kuerzel":"I.03.4.06412",
-"kuerzelKunde":"C1-7",
-"description":"Anzahl monatlich ausgesteuerte Schweizer",
-"id":6412,
-"thema":"03 Erwerbsleben",
-"unterthema":"Arbeitslose ",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Geschlecht","Bevölkerung"],
-"stufe1":"Kapitel C Erwerb und Auskommen",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Pro Monat werden insgesamt rund 100 Personen von der Arbeitslosenversicherung ausgesteuert. Im Durchschnitt der letzten Jahren sind rund 45% der Ausgesteuerten Schweizer Nationalität. Die Anzahl Männer und Frauen unterscheiden sich nicht gross.",
-"erlaeuterungen":"Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind 506 Arbeitslose ausgesteuert worden. Dieser Spitzenwert ist auf die Revision des Arbeistlosenversicherungsgesetzes zurückzuführen.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_00_00_00_00_007",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"],
-"externalLinks":[""]
+{
+ "title": "Anzahl monatlich ausgesteuerte Schweizer",
+ "subtitle": "nach Geschlecht",
+ "kuerzel": "I.03.4.06412",
+ "kuerzelKunde": "C1-7",
+ "description": "Anzahl monatlich ausgesteuerte Schweizer",
+ "id": 6412,
+ "thema": "03 Erwerbsleben",
+ "unterthema": "Arbeitslose ",
+ "kennzahlenset": "Integration",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-21T00:00:00.000",
+ "schlagwort": [
+  "Geschlecht",
+  "Bevölkerung"
+ ],
+ "stufe1": "Kapitel C Erwerb und Auskommen",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Pro Monat werden insgesamt rund 100 Personen von der Arbeitslosenversicherung ausgesteuert. Im Durchschnitt der letzten Jahren sind rund 45% der Ausgesteuerten Schweizer Nationalität. Die Anzahl Männer und Frauen unterscheiden sich nicht gross.",
+ "erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind 506 Arbeitslose ausgesteuert worden. Dieser Spitzenwert ist auf die Revision des Arbeistlosenversicherungsgesetzes zurückzuführen.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "03_00_00_00_00_007",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

@@ -1,29 +1,39 @@
-{"title":"Ausländeranteil nach Gemeinde und Wohnviertel",
-"subtitle":"Stand: 2016 und Veränderung seit 1997",
-"kuerzel":"I.01.1.06398",
-"kuerzelKunde":"A1-3",
-"description":"Ausländeranteil nach Gemeinde und Wohnviertel",
-"id":6398,
-"thema":"01 Bevölkerung",
-"unterthema":"Bestand und Struktur ",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"",
-"schlagwort":["Bevölkerung","Ausland"],
-"stufe1":"Kapitel A Bevölkerungsstruktur",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Ende 2016 wiesen die Wohnviertel Clara, Rosental, Mattäus, Klybeck und Kleinhüningen die höchsten Ausländeranteile auf (≥45%). Die tiefsten Ausländeranteile wurden in den Wohnvierteln Bruderholz, Gotthelf, Hirzbrunnen und in der Gemeinde Bettingen verzeichnet (<25%). Seit 1997 am särksten zugenommen haben die Ausländeranteile in den Wohnvierteln Vorstädte, Am Ring, St. Alban, Bruderholz, Altstadt Kleinbasel und Wettstein sowie in der Gemeinde Riehen.",
-"erlaeuterungen":"",
-"template":"mappie001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_003",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Ausländeranteil nach Gemeinde und Wohnviertel",
+ "subtitle": "Stand: 2016 und Veränderung seit 1997",
+ "kuerzel": "I.01.1.06398",
+ "kuerzelKunde": "A1-3",
+ "description": "Ausländeranteil nach Gemeinde und Wohnviertel",
+ "id": 6398,
+ "thema": "01 Bevölkerung",
+ "unterthema": "Bestand und Struktur ",
+ "kennzahlenset": "Integration",
+ "raeumlicheGliederung": [
+  "Wohnviertel"
+ ],
+ "aktualisierungsdatum": "2018-03-21T00:00:00.000",
+ "schlagwort": [
+  "Bevölkerung",
+  "Ausland"
+ ],
+ "stufe1": "Kapitel A Bevölkerungsstruktur",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Ende 2016 wiesen die Wohnviertel Clara, Rosental, Mattäus, Klybeck und Kleinhüningen die höchsten Ausländeranteile auf (≥45%). Die tiefsten Ausländeranteile wurden in den Wohnvierteln Bruderholz, Gotthelf, Hirzbrunnen und in der Gemeinde Bettingen verzeichnet (<25%). Seit 1997 am särksten zugenommen haben die Ausländeranteile in den Wohnvierteln Vorstädte, Am Ring, St. Alban, Bruderholz, Altstadt Kleinbasel und Wettstein sowie in der Gemeinde Riehen.",
+ "erlaeuterungen": "",
+ "template": "mappie001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_00_00_00_00_003",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

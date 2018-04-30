@@ -1,29 +1,40 @@
-{"title":"Medianprämie pro Prämienregion",
-"subtitle":"Basel-Stadt im kantonalen Vergleich; in Franken.",
-"kuerzel":"I.14.4.06346",
-"kuerzelKunde":"9.1",
-"description":"Medianprämie pro Prämienregion",
-"id":6370,
-"thema":"14 Gesundheit",
-"unterthema":"Prävention, Praxen, Rettung",
-"kennzahlenset":"Legislaturplan (Print)",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Patient","Gesundheit"],
-"stufe1":"Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"In den teuersten Prämienregionen aller verglichenen Kantone steigen die Medianprämien seit 2010 setig an. Basel-Stadt liegt zusammen mit Genf an der Spitze dieser Rangliste.",
-"erlaeuterungen":"Verglichen wird der Medianwert der Standardprämien aller Versicherer in den Vergleichskantonen. Standardprämie: Monatsprämie der Obligatorischen Krankenpflegeversicherung gemäss dem Bundesgesetz über die Krankenversicherung (KVG) für Erwachsene, Franchise Fr. 300, mit Unfalldeckung, ohne besondere Versicherungsmodelle mit eingeschränkter Arztwahl gemäss Art. 62 KVG. Der Medianwert ist der Wert einer Zahlenreihe, der an der mittleren (zentralen) Stelle steht, wenn man die Werte der Größe nach sortiert.",
-"template":"line001_print",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"09_00_00_00_00_000",
-"parentId":6346,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Gesundheit (BAG)","Gesundheitsdepartement Basel-Stadt"],
-"externalLinks":[""]
+{
+ "title": "Medianprämie pro Prämienregion",
+ "subtitle": "Basel-Stadt im kantonalen Vergleich; in Franken.",
+ "kuerzel": "I.14.4.06346",
+ "kuerzelKunde": "9.1",
+ "description": "Medianprämie pro Prämienregion",
+ "id": 6370,
+ "thema": "14 Gesundheit",
+ "unterthema": "Prävention, Praxen, Rettung",
+ "kennzahlenset": "Legislaturplan (Print)",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "",
+ "schlagwort": [
+  "Patient",
+  "Gesundheit"
+ ],
+ "stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "In den teuersten Prämienregionen aller verglichenen Kantone steigen die Medianprämien seit 2010 setig an. Basel-Stadt liegt zusammen mit Genf an der Spitze dieser Rangliste.",
+ "erlaeuterungen": "Verglichen wird der Medianwert der Standardprämien aller Versicherer in den Vergleichskantonen. Standardprämie: Monatsprämie der Obligatorischen Krankenpflegeversicherung gemäss dem Bundesgesetz über die Krankenversicherung (KVG) für Erwachsene, Franchise Fr. 300, mit Unfalldeckung, ohne besondere Versicherungsmodelle mit eingeschränkter Arztwahl gemäss Art. 62 KVG. Der Medianwert ist der Wert einer Zahlenreihe, der an der mittleren (zentralen) Stelle steht, wenn man die Werte der Größe nach sortiert.",
+ "template": "line001_print",
+ "visible": true,
+ "visibleInPortal": false,
+ "orderKey": "09_00_00_00_00_000",
+ "parentId": 6346,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Bundesamt für Gesundheit (BAG)",
+  "Gesundheitsdepartement Basel-Stadt"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

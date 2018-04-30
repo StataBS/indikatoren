@@ -1,30 +1,39 @@
-{"title":"Nettowohnungsproduktion",
-"subtitle":"",
-"kuerzel":"I.09.1.06248",
-"kuerzelKunde":"ST 4-8",
-"description":"Nettowohnungsproduktion",
-"id":6248,
-"thema":"09 Bau-, Wohnungswesen",
-"unterthema":"Gebäude und Wohnungen",
-"kennzahlenset":"Richtplan (Print)",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Wohnen"],
-"stufe1":"Sachgebiet Siedlung - Wohnen",
-"stufe2":"Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Seit 2014 war die Nettowohnungsproduktion überdurchschnittlich hoch. Dazu beigetragen hat eine hohe Neubauproduktion, ein positiver Umbausaldo und mit Ausnahme von 2015 eine niedrige Anzahl von Abbrüchen.",
-"erlaeuterungen":"",
-"template":"line001_print",
-"option":"options001",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"01_01_00_00_00_000",
-"parentId":5816,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Nettowohnungsproduktion",
+ "subtitle": "",
+ "kuerzel": "I.09.1.06248",
+ "kuerzelKunde": "ST 4-8",
+ "description": "Nettowohnungsproduktion",
+ "id": 6248,
+ "thema": "09 Bau-, Wohnungswesen",
+ "unterthema": "Gebäude und Wohnungen",
+ "kennzahlenset": "Richtplan (Print)",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "",
+ "schlagwort": [
+  "Wohnen"
+ ],
+ "stufe1": "Sachgebiet Siedlung - Wohnen",
+ "stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Seit 2014 war die Nettowohnungsproduktion überdurchschnittlich hoch. Dazu beigetragen hat eine hohe Neubauproduktion, ein positiver Umbausaldo und mit Ausnahme von 2015 eine niedrige Anzahl von Abbrüchen.",
+ "erlaeuterungen": "",
+ "template": "line001_print",
+ "option": "options001",
+ "visible": true,
+ "visibleInPortal": false,
+ "orderKey": "01_01_00_00_00_000",
+ "parentId": 5816,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }
