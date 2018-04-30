@@ -1,29 +1,32 @@
 {
-  "_from": "seedrandom@2.4.2",
-  "_id": "seedrandom@2.4.2",
+  "_from": "seedrandom@2.4.3",
+  "_id": "seedrandom@2.4.3",
   "_inBundle": false,
-  "_integrity": "sha1-GNeMQSh9E6/46tsp4jWTiySKqf8=",
+  "_integrity": "sha1-JDhQTa0zkXMUv/GKxNeU8W1qrsw=",
   "_location": "/seedrandom",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "seedrandom@2.4.2",
+    "raw": "seedrandom@2.4.3",
     "name": "seedrandom",
     "escapedName": "seedrandom",
-    "rawSpec": "2.4.2",
+    "rawSpec": "2.4.3",
     "saveSpec": null,
-    "fetchSpec": "2.4.2"
+    "fetchSpec": "2.4.3"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/seedrandom/-/seedrandom-2.4.2.tgz",
-  "_shasum": "18d78c41287d13aff8eadb29e235938b248aa9ff",
-  "_spec": "seedrandom@2.4.2",
+  "_resolved": "https://registry.npmjs.org/seedrandom/-/seedrandom-2.4.3.tgz",
+  "_shasum": "2438504dad33917314bff18ac4d794f16d6aaecc",
+  "_spec": "seedrandom@2.4.3",
   "_where": "/home/ubuntu/workspace",
   "author": {
     "name": "David Bau"
+  },
+  "browser": {
+    "crypto": false
   },
   "bugs": {
     "url": "https://github.com/davidbau/seedrandom/issues"
@@ -48,20 +51,21 @@
     "blanket": "latest",
     "grunt": "latest",
     "grunt-bowercopy": "latest",
+    "grunt-browserify": "latest",
     "grunt-cli": "latest",
-    "grunt-contrib-qunit": "<=0.5.2",
+    "grunt-contrib-connect": "latest",
+    "grunt-contrib-qunit": "latest",
     "grunt-contrib-uglify": "latest",
     "grunt-mocha-cov": "latest",
     "grunt-release": "latest",
-    "grunt-sed": "latest",
-    "phantomjs": "latest",
+    "phantomjs-prebuilt": "latest",
     "proxyquire": "latest",
     "requirejs": "latest"
   },
   "homepage": "http://davidbau.com/archives/2010/01/30/random_seeds_coded_hints_and_quintillions.html",
   "keywords": [
-    "random",
     "seed",
+    "random",
     "crypto"
   ],
   "license": "MIT",
@@ -74,5 +78,5 @@
   "scripts": {
     "test": "grunt travis"
   },
-  "version": "2.4.2"
+  "version": "2.4.3"
 }
