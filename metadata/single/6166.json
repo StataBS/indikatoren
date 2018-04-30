@@ -1,29 +1,41 @@
-{"title":"Wassertemperatur Grundwasser",
-"subtitle":"in °C",
-"kuerzel":"I.02.19.06166",
-"kuerzelKunde":"7.6",
-"description":"Wassertemperatur Grundwasser",
-"id":6166,
-"thema":"02 Raum, Umwelt",
-"unterthema":"Wasser",
-"kennzahlenset":"Legislaturplan",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Wasser"],
-"stufe1":"Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die mittlere Grundwassertemperatur im Kanton Basel-Stadt betrug im Jahre 2016 14,7 °C.",
-"erlaeuterungen":"In Basel-Stadt wird die Grundwassertemperatur an 82 Messstellen kontinuierlich gemessen und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt. Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target='_blank'>Umweltbericht beider Basel</a>.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"07_00_00_00_00_006",
-"parentId":null,
-"children":["4237","6317"],
-"renderLink":[],
-"quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"externalLinks":[""]
+{
+ "title": "Wassertemperatur Grundwasser",
+ "subtitle": "in °C",
+ "kuerzel": "I.02.19.06166",
+ "kuerzelKunde": "7.6",
+ "description": "Wassertemperatur Grundwasser",
+ "id": 6166,
+ "thema": "02 Raum, Umwelt",
+ "unterthema": "Wasser",
+ "kennzahlenset": "Legislaturplan",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-11-29T00:00:00.000",
+ "schlagwort": [
+  "Wasser"
+ ],
+ "stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die mittlere Grundwassertemperatur im Kanton Basel-Stadt betrug im Jahre 2016 14,7 °C.",
+ "erlaeuterungen": "In Basel-Stadt wird die Grundwassertemperatur an 82 Messstellen kontinuierlich gemessen und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt. Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target='_blank'>Umweltbericht beider Basel</a>.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "07_00_00_00_00_006",
+ "parentId": null,
+ "children": [
+  "4237",
+  "6317"
+ ],
+ "renderLink": [],
+ "quellenangabe": [
+  "Amt für Umwelt und Energie Basel-Stadt"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

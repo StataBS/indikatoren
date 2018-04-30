@@ -94,7 +94,8 @@
     },
     "type": "column",
     "inverted": false,
-    "renderTo": "container-6295"
+    "renderTo": "container-6295",
+    "spacingBottom": 8
   },
   "plotOptions": {
     "series": {

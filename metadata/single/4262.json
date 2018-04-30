@@ -1,29 +1,39 @@
-{"title":"Unbeabsichtigte Freisetzung von gentechnisch veränderten Organismen",
-"subtitle":"Anzahl Pflanzen",
-"kuerzel":"I.02.9.04262",
-"kuerzelKunde":"0403",
-"description":"Unbeabsichtigte Freisetzung von gentechnisch veränderten Organismen",
-"id":4262,
-"thema":"02 Raum, Umwelt",
-"unterthema":"Biotechnologie",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Biotechnologie"],
-"stufe1":"Thema Biotechnologie",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0403' target='_blank'>Umweltbericht beider Basel</a>.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"04_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Kantonales Laboratorium Basel-Stadt"],
-"externalLinks":["<a href = 'http://www.kantonslabor.bs.ch/berichte/jahresberichte.html' target = '_blank'>Jahresberichte Kantonales Laboratorium Basel-Stadt</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0403' target = '_blank'>Umweltbericht beider Basel</a>"]
+{
+ "title": "Unbeabsichtigte Freisetzung von gentechnisch veränderten Organismen",
+ "subtitle": "Anzahl Pflanzen",
+ "kuerzel": "I.02.9.04262",
+ "kuerzelKunde": "0403",
+ "description": "Unbeabsichtigte Freisetzung von gentechnisch veränderten Organismen",
+ "id": 4262,
+ "thema": "02 Raum, Umwelt",
+ "unterthema": "Biotechnologie",
+ "kennzahlenset": "Umwelt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-07-11T00:00:00.000",
+ "schlagwort": [
+  "Biotechnologie"
+ ],
+ "stufe1": "Thema Biotechnologie",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "",
+ "erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0403' target='_blank'>Umweltbericht beider Basel</a>.",
+ "template": "dotplot",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "04_00_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Kantonales Laboratorium Basel-Stadt"
+ ],
+ "externalLinks": [
+  "<a href = 'http://www.kantonslabor.bs.ch/berichte/jahresberichte.html' target = '_blank'>Jahresberichte Kantonales Laboratorium Basel-Stadt</a>",
+  "Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0403' target = '_blank'>Umweltbericht beider Basel</a>"
+ ]
 }

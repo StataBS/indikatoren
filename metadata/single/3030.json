@@ -1,29 +1,40 @@
-{"title":"Anteil der weiblichen Meldepflichtigen nach Erwerbsstatus",
-"subtitle":"Basel-Stadt",
-"kuerzel":"I.03.5.03030",
-"kuerzelKunde":"3.4-20",
-"description":"Anteil der weiblichen Meldepflichtigen nach Erwerbsstatus",
-"id":3030,
-"thema":"03 Erwerbsleben",
-"unterthema":"Ausländische Erwerbstätige",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Geschlecht","Ausländer","Erwerbstätigkeit"],
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Ausländische Erwerbstätige",
-"stufe3":"Meldepflichtige",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Rund ein Drittel der Meldepflichtigen ist weiblich, bei den Arbeitnehmenden liegt der Frauenanteil im Mittel des Jahres 2017 bei 43,8%. Der Anteil weiblicher Entsandter liegt 2017 bei 8,7%, jener der Selbstständigerwerbenden bei 8,1%.",
-"erlaeuterungen":"Meldepflichtige: Dienstleistungserbringung von ausländischen Unternehmen und Selbstständigen in der Schweiz während maximal 90 Arbeitstagen pro Jahr.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_04_03_00_00_420",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"],
-"externalLinks":[""]
+{
+ "title": "Anteil der weiblichen Meldepflichtigen nach Erwerbsstatus",
+ "subtitle": "Basel-Stadt",
+ "kuerzel": "I.03.5.03030",
+ "kuerzelKunde": "3.4-20",
+ "description": "Anteil der weiblichen Meldepflichtigen nach Erwerbsstatus",
+ "id": 3030,
+ "thema": "03 Erwerbsleben",
+ "unterthema": "Ausländische Erwerbstätige",
+ "kennzahlenset": "Arbeitsmarkt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-14T00:00:00.000",
+ "schlagwort": [
+  "Geschlecht",
+  "Ausländer",
+  "Erwerbstätigkeit"
+ ],
+ "stufe1": "Monitoring Basler Arbeitsmarkt",
+ "stufe2": "Ausländische Erwerbstätige",
+ "stufe3": "Meldepflichtige",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Rund ein Drittel der Meldepflichtigen ist weiblich, bei den Arbeitnehmenden liegt der Frauenanteil im Mittel des Jahres 2017 bei 43,8%. Der Anteil weiblicher Entsandter liegt 2017 bei 8,7%, jener der Selbstständigerwerbenden bei 8,1%.",
+ "erlaeuterungen": "Meldepflichtige: Dienstleistungserbringung von ausländischen Unternehmen und Selbstständigen in der Schweiz während maximal 90 Arbeitstagen pro Jahr.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_04_03_00_00_420",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

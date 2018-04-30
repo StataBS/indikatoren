@@ -42,7 +42,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -69,10 +69,9 @@
             }
           }
     },
-    "marginBottom": 65,
-    "marginTop": 75,
     "type": "column",
-    "renderTo": "container-4211"
+    "renderTo": "container-4211",
+    "spacingBottom": 50
   },
   "plotOptions": {
     "series": {
@@ -147,9 +146,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Amt für Wald beider Basel;\u003Cbr\u002F\u003EStadtgärtnerei Basel-Stadt"
+    "text": "Quelle: Amt für Wald beider Basel;\u003Cbr\u002F\u003EStadtgärtnerei Basel-Stadt\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-17"
   },
   "legend": {
     "symbolRadius": 0,

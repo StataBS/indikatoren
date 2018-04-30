@@ -99,7 +99,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6264"
+    "renderTo": "container-6264",
+    "spacingBottom": 18
   },
   "title": {
     "style": {

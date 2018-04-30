@@ -1,29 +1,38 @@
-{"title":"Anzahl Störfälle und Ereignisse",
-"subtitle":"",
-"kuerzel":"I.14.3.05189",
-"kuerzelKunde":"GW12",
-"description":"Anzahl Störfälle und Ereignisse",
-"id":5189,
-"thema":"14 Gesundheit",
-"unterthema":"Sterblichkeit",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Sicherheit"],
-"stufe1":"Bereich Grundbedürfnisse und Wohlergehen",
-"stufe2":"Sicherheit",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"2016 sind bei der Chemiefachberatung des Kantons 9 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
-"erlaeuterungen":"Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten. Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IRFB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten:<br><br/><br/>a) ausserhalb des Betriebsareals,<br/> b) auf oder ausserhalb des Verkehrswegs,<br/> c) ausserhalb der Rohrleitungsanlage.<br/><br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt aber im Ermessen der zuständigen Fachstelle.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_04_00_00_00_312",
-"parentId":6179,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"],
-"externalLinks":[""]
+{
+ "title": "Anzahl Störfälle und Ereignisse",
+ "subtitle": "",
+ "kuerzel": "I.14.3.05189",
+ "kuerzelKunde": "GW12",
+ "description": "Anzahl Störfälle und Ereignisse",
+ "id": 5189,
+ "thema": "14 Gesundheit",
+ "unterthema": "Sterblichkeit",
+ "kennzahlenset": "Nachhaltigkeit",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-04-03T00:00:00.000",
+ "schlagwort": [
+  "Sicherheit"
+ ],
+ "stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+ "stufe2": "Sicherheit",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "2016 sind bei der Chemiefachberatung des Kantons 9 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
+ "erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten. Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IRFB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten:<br><br/><br/>a) ausserhalb des Betriebsareals,<br/> b) auf oder ausserhalb des Verkehrswegs,<br/> c) ausserhalb der Rohrleitungsanlage.<br/><br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt aber im Ermessen der zuständigen Fachstelle.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "03_04_00_00_00_312",
+ "parentId": 6179,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

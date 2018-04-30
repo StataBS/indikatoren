@@ -1,29 +1,40 @@
-{"title":"Fläche pro Wohnung",
-"subtitle":"Stand: 2017",
-"kuerzel":"I.09.1.05120",
-"kuerzelKunde":"RU-4.B",
-"description":"Fläche pro Wohnung",
-"id":5120,
-"thema":"09 Bau-, Wohnungswesen",
-"unterthema":"Gebäude und Wohnungen",
-"kennzahlenset":"Wohnviertel",
-"raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2017-05-04T17:27:32.3232",
-"schlagwort":["Gebäude"],
-"stufe1":"Bereich 2: Raum und Umwelt",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Im Wohnviertel Klybeck sind die Wohnungen im Durchschnitt am kleinsten, in der Gemeinde Bettingen am grössten.",
-"erlaeuterungen":"Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
-"template":"map001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_00_00_00_00_008",
-"parentId":4833,
-"children":[],
-"renderLink":["4833"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Fläche pro Wohnung",
+ "subtitle": "Stand: 2017",
+ "kuerzel": "I.09.1.05120",
+ "kuerzelKunde": "RU-4.B",
+ "description": "Fläche pro Wohnung",
+ "id": 5120,
+ "thema": "09 Bau-, Wohnungswesen",
+ "unterthema": "Gebäude und Wohnungen",
+ "kennzahlenset": "Wohnviertel",
+ "raeumlicheGliederung": [
+  "Wohnviertel"
+ ],
+ "aktualisierungsdatum": "2018-02-20T00:00:00.0000",
+ "schlagwort": [
+  "Gebäude"
+ ],
+ "stufe1": "Bereich 2: Raum und Umwelt",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Im Wohnviertel Klybeck sind die Wohnungen im Durchschnitt am kleinsten, in der Gemeinde Bettingen am grössten.",
+ "erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
+ "template": "map001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_00_00_00_00_008",
+ "parentId": 4833,
+ "children": [],
+ "renderLink": [
+  "4833"
+ ],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

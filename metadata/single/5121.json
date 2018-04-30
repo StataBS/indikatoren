@@ -1,29 +1,43 @@
-{"title":"Wohnfläche pro Kopf",
-"subtitle":"Stand: 2017",
-"kuerzel":"I.09.1.05121",
-"kuerzelKunde":"RU-5.B",
-"description":"Wohnfläche pro Kopf",
-"id":5121,
-"thema":"09 Bau-, Wohnungswesen",
-"unterthema":"Gebäude und Wohnungen",
-"kennzahlenset":"Wohnviertel",
-"raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2017-05-04T17:31:03.033",
-"schlagwort":["Gebäude"],
-"stufe1":"Bereich 2: Raum und Umwelt",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Im Wohnviertel Klybeck verfügen die Bewohner mit 32&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, in der Gemeinde Bettingen mit 53&nbsp;m<sup>2</sup> über die höchste.",
-"erlaeuterungen":"Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen.",
-"template":"map001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_00_00_00_00_010",
-"parentId":4834,
-"children":["6367"],
-"renderLink":["4834"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Wohnfläche pro Kopf",
+ "subtitle": "Stand: 2017",
+ "kuerzel": "I.09.1.05121",
+ "kuerzelKunde": "RU-5.B",
+ "description": "Wohnfläche pro Kopf",
+ "id": 5121,
+ "thema": "09 Bau-, Wohnungswesen",
+ "unterthema": "Gebäude und Wohnungen",
+ "kennzahlenset": "Wohnviertel",
+ "raeumlicheGliederung": [
+  "Wohnviertel"
+ ],
+ "aktualisierungsdatum": "2018-02-20T00:00:00.0000",
+ "schlagwort": [
+  "Gebäude"
+ ],
+ "stufe1": "Bereich 2: Raum und Umwelt",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 32&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, in der Gemeinde Bettingen mit 53&nbsp;m<sup>2</sup> über die höchste.",
+ "erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen.",
+ "template": "map001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_00_00_00_00_010",
+ "parentId": 4834,
+ "children": [
+  "6367"
+ ],
+ "renderLink": [
+  "4834"
+ ],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+  "Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

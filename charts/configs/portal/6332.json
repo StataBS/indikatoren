@@ -199,7 +199,8 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "renderTo": "container-6332"
+    "renderTo": "container-6332",
+    "spacingBottom": 3
   },
   "title": {
     "style": {

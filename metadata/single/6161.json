@@ -1,29 +1,42 @@
-{"title":"Anteil erneuerbare Energie am Bruttoenergieverbrauch",
-"subtitle":"",
-"kuerzel":"I.08.3.06161",
-"kuerzelKunde":"7.2",
-"description":"Anteil erneuerbare Energie am Bruttoenergieverbrauch",
-"id":6161,
-"thema":"08 Energie",
-"unterthema":"Erneuerbare",
-"kennzahlenset":"Legislaturplan",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Energie",""],
-"stufe1":"Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Im Jahr 2010 lag der Anteil der erneuerbaren Energieträger bei 35,0%. Zwei Jahre später fiel der Wert mit 36,2% bereits höher aus. Im Jahr 2014  stammte 37,9% der Energie aus erneuerbaren Quellen.",
-"erlaeuterungen":"Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Schlamm, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).<br><br>Die Summe der Verbräuche der erneuerbaren Energien wird durch den Gesamtenergieverbrauch dividiert.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"07_00_00_00_00_002",
-"parentId":3094,
-"children":["5795","6313"],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Energiestatistik"],
-"externalLinks":[""]
+{
+ "title": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
+ "subtitle": "",
+ "kuerzel": "I.08.3.06161",
+ "kuerzelKunde": "7.2",
+ "description": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
+ "id": 6161,
+ "thema": "08 Energie",
+ "unterthema": "Erneuerbare",
+ "kennzahlenset": "Legislaturplan",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-11-29T00:00:00.000",
+ "schlagwort": [
+  "Energie",
+  ""
+ ],
+ "stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Im Jahr 2010 lag der Anteil der erneuerbaren Energieträger bei 35,0%. Zwei Jahre später fiel der Wert mit 36,2% bereits höher aus. Im Jahr 2014  stammte 37,9% der Energie aus erneuerbaren Quellen.",
+ "erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Schlamm, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).<br><br>Die Summe der Verbräuche der erneuerbaren Energien wird durch den Gesamtenergieverbrauch dividiert.",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "07_00_00_00_00_002",
+ "parentId": 3094,
+ "children": [
+  "5795",
+  "6313"
+ ],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Energiestatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

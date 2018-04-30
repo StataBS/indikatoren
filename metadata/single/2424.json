@@ -1,29 +1,40 @@
-{"title":"Arbeitslosenquote nach Herkunft und Geschlecht",
-"subtitle":"Basel-Stadt",
-"kuerzel":"I.03.4.02424",
-"kuerzelKunde":"3.3-03",
-"description":"Arbeitslosenquote nach Herkunft und Geschlecht",
-"id":2424,
-"thema":"03 Erwerbsleben",
-"unterthema":"Arbeitslose ",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Heimat","Geschlecht","Arbeitslosigkeit"],
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Arbeitslosigkeit",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Ausländer und Ausländerinnen sind über die ganze Zeit hinweg stärker von Arbeitslosigkeit betroffen als Schweizer und Schweizerinnen. Die Arbeitslosigkeit der ausländischen Männer ist ausserdem stark von saisonalen Schwankungen geprägt. Ende Dezember 2017 beträgt die Arbeitslosenquote der ausländischen Männer 5,9%, einen ganzen Prozentpunkt weniger als vor Jahresfrist. Auch die Arbeitslosenquoten der Schweizer Männer (3,0% Ende 2017), der Schweizer Frauen (2,5%) und der ausländischen Frauen (4,5%) sind gegenüber Ende 2016 leicht gesunken.",
-"erlaeuterungen":"Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich mit der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_03_00_00_00_303",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"],
-"externalLinks":[""]
+{
+ "title": "Arbeitslosenquote nach Herkunft und Geschlecht",
+ "subtitle": "Basel-Stadt",
+ "kuerzel": "I.03.4.02424",
+ "kuerzelKunde": "3.3-03",
+ "description": "Arbeitslosenquote nach Herkunft und Geschlecht",
+ "id": 2424,
+ "thema": "03 Erwerbsleben",
+ "unterthema": "Arbeitslose ",
+ "kennzahlenset": "Arbeitsmarkt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-14T00:00:00.000",
+ "schlagwort": [
+  "Heimat",
+  "Geschlecht",
+  "Arbeitslosigkeit"
+ ],
+ "stufe1": "Monitoring Basler Arbeitsmarkt",
+ "stufe2": "Arbeitslosigkeit",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Ausländer und Ausländerinnen sind über die ganze Zeit hinweg stärker von Arbeitslosigkeit betroffen als Schweizer und Schweizerinnen. Die Arbeitslosigkeit der ausländischen Männer ist ausserdem stark von saisonalen Schwankungen geprägt. Ende Dezember 2017 beträgt die Arbeitslosenquote der ausländischen Männer 5,9%, einen ganzen Prozentpunkt weniger als vor Jahresfrist. Auch die Arbeitslosenquoten der Schweizer Männer (3,0% Ende 2017), der Schweizer Frauen (2,5%) und der ausländischen Frauen (4,5%) sind gegenüber Ende 2016 leicht gesunken.",
+ "erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich mit der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_03_00_00_00_303",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

@@ -223,7 +223,8 @@
                     
                 }
     },
-    "renderTo": "container-6263"
+    "renderTo": "container-6263",
+    "spacingBottom": 8
   },
   "plotOptions": {
     "series": {

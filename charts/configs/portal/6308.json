@@ -206,7 +206,8 @@
     },
     "type": "line",
     "spacingTop": 10,
-    "renderTo": "container-6308"
+    "renderTo": "container-6308",
+    "spacingBottom": 8
   },
   "title": {
     "style": {

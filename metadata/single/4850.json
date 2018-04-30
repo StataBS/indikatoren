@@ -1,29 +1,39 @@
-{"title":"Zusammensetzung des Freundeskreises",
-"subtitle":"«Wie sieht Dein Freundeskreis aus?»",
-"kuerzel":"I.50.3.04850",
-"kuerzelKunde":"1.1.05",
-"description":"Zusammensetzung des Freundeskreises",
-"id":4850,
-"thema":"50 Befragungen",
-"unterthema":"Jugendbefragung",
-"kennzahlenset":"Gesellschaftlicher-Zusammenhalt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Geschlecht","Gefühl"],
-"stufe1":"Kernbereich 1: Soziale Beziehungen",
-"stufe2":"1.1 Soziale Netze",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"2013 gaben 78,7% der befragten Jugendlichen an, sowohl Mädchen als auch Jungen in ihrem Freundeskreis zu haben. 0,8% gaben an, keinen Freundeskreis zu haben. Weitere 3,9% machten keine Angabe. Im Jahr 2009 weichen die Angaben der Jugendlichen bei allen Antwortkategorien um weniger als 2 Prozentpunkte von den Werten des Jahres 2015 ab.",
-"erlaeuterungen":"",
-"template":"befragungenProzent001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_01_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F34"],
-"externalLinks":[""]
+{
+ "title": "Zusammensetzung des Freundeskreises",
+ "subtitle": "«Wie sieht Dein Freundeskreis aus?»",
+ "kuerzel": "I.50.3.04850",
+ "kuerzelKunde": "1.1.05",
+ "description": "Zusammensetzung des Freundeskreises",
+ "id": 4850,
+ "thema": "50 Befragungen",
+ "unterthema": "Jugendbefragung",
+ "kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2016-09-21T00:00:00.000",
+ "schlagwort": [
+  "Geschlecht",
+  "Gefühl"
+ ],
+ "stufe1": "Kernbereich 1: Soziale Beziehungen",
+ "stufe2": "1.1 Soziale Netze",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "2013 gaben 78,7% der befragten Jugendlichen an, sowohl Mädchen als auch Jungen in ihrem Freundeskreis zu haben. 0,8% gaben an, keinen Freundeskreis zu haben. Weitere 3,9% machten keine Angabe. Im Jahr 2009 weichen die Angaben der Jugendlichen bei allen Antwortkategorien um weniger als 2 Prozentpunkte von den Werten des Jahres 2015 ab.",
+ "erlaeuterungen": "",
+ "template": "befragungenProzent001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_01_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F34"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

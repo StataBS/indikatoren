@@ -1,29 +1,39 @@
-{"title":"Betriebseinheiten im Geltungsbereich der Störfallverordnung (StFV)",
-"subtitle":"Anzahl Betriebseinheiten",
-"kuerzel":"I.02.18.04246",
-"kuerzelKunde":"1401",
-"description":"Betriebseinheiten im Geltungsbereich der Störfallverordnung (StFV)",
-"id":4246,
-"thema":"02 Raum, Umwelt",
-"unterthema":"Störfälle",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Störfälle"],
-"stufe1":"Thema Störfälle",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-14-1401' target='_blank'>Umweltbericht beider Basel</a>.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"14_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Kantonales Laboratorium Basel-Stadt"],
-"externalLinks":["<a href = 'http://www.admin.ch/opc/de/classified-compilation/19910033/index.html' target = '_blank'>Verordnung über den Schutz vor Störfällen (Störfallverordnung, StFV)</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-14-1401' target = '_blank'>Umweltbericht beider Basel</a>"]
+{
+ "title": "Betriebseinheiten im Geltungsbereich der Störfallverordnung (StFV)",
+ "subtitle": "Anzahl Betriebseinheiten",
+ "kuerzel": "I.02.18.04246",
+ "kuerzelKunde": "1401",
+ "description": "Betriebseinheiten im Geltungsbereich der Störfallverordnung (StFV)",
+ "id": 4246,
+ "thema": "02 Raum, Umwelt",
+ "unterthema": "Störfälle",
+ "kennzahlenset": "Umwelt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-07-11T00:00:00.000",
+ "schlagwort": [
+  "Störfälle"
+ ],
+ "stufe1": "Thema Störfälle",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "",
+ "erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-14-1401' target='_blank'>Umweltbericht beider Basel</a>.",
+ "template": "dotplot",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "14_00_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Kantonales Laboratorium Basel-Stadt"
+ ],
+ "externalLinks": [
+  "<a href = 'http://www.admin.ch/opc/de/classified-compilation/19910033/index.html' target = '_blank'>Verordnung über den Schutz vor Störfällen (Störfallverordnung, StFV)</a>",
+  "Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-14-1401' target = '_blank'>Umweltbericht beider Basel</a>"
+ ]
 }

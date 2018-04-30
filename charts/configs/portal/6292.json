@@ -557,7 +557,8 @@
     "zoomType": "xy",
     "type": "column",
     "inverted": true,
-    "renderTo": "container-6292"
+    "renderTo": "container-6292",
+    "spacingBottom": 3
   },
   "title": {
     "style": {

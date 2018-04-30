@@ -178,7 +178,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       7,
       3,
@@ -189,7 +189,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6277"
+    "renderTo": "container-6277",
+    "spacingBottom": 18
   },
   "title": {
     "style": {
@@ -258,9 +259,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
   },
   "legend": {
     "enabled": true,

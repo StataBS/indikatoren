@@ -1,29 +1,40 @@
-{"title":"Anteil Personen ohne Religionszugehörigkeit",
-"subtitle":"Stand: 2017",
-"kuerzel":"I.01.7.05111",
-"kuerzelKunde":"GS-3.B",
-"description":"Anteil Personen ohne Religionszugehörigkeit",
-"id":5111,
-"thema":"01 Bevölkerung",
-"unterthema":"Religionen",
-"kennzahlenset":"Wohnviertel",
-"raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2017-05-04T14:56:38.3838",
-"schlagwort":["Religion"],
-"stufe1":"Bereich 1: Gesellschaft und Soziales",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Der Anteil Personen ohne Religionszugehörigkeit ist im Wohnviertel Kleinhüningen mit 39% am geringsten, im Wohnviertel Altstadt Kleinbasel mit 57% am höchsten.",
-"erlaeuterungen":"Anteil Personen ohne Religionszugehörigkeit an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
-"template":"map001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_006",
-"parentId":4824,
-"children":[],
-"renderLink":["4824"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Anteil Personen ohne Religionszugehörigkeit",
+ "subtitle": "Stand: 2017",
+ "kuerzel": "I.01.7.05111",
+ "kuerzelKunde": "GS-3.B",
+ "description": "Anteil Personen ohne Religionszugehörigkeit",
+ "id": 5111,
+ "thema": "01 Bevölkerung",
+ "unterthema": "Religionen",
+ "kennzahlenset": "Wohnviertel",
+ "raeumlicheGliederung": [
+  "Wohnviertel"
+ ],
+ "aktualisierungsdatum": "2018-01-20T00:00:00.0000",
+ "schlagwort": [
+  "Religion"
+ ],
+ "stufe1": "Bereich 1: Gesellschaft und Soziales",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Der Anteil Personen ohne Religionszugehörigkeit ist im Wohnviertel Kleinhüningen mit 39% am geringsten, im Wohnviertel Altstadt Kleinbasel mit 57% am höchsten.",
+ "erlaeuterungen": "Anteil Personen ohne Religionszugehörigkeit an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
+ "template": "map001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_00_00_00_00_006",
+ "parentId": 4824,
+ "children": [],
+ "renderLink": [
+  "4824"
+ ],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

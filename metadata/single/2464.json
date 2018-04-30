@@ -1,29 +1,40 @@
-{"title":"Zuwanderung von Erwerbstätigen nach Herkunft",
-"subtitle":"Kurz- und Daueraufenthalter, Basel-Stadt",
-"kuerzel":"I.03.5.02464",
-"kuerzelKunde":"3.4-12",
-"description":"Zuwanderung von Erwerbstätigen nach Herkunft",
-"id":2464,
-"thema":"03 Erwerbsleben",
-"unterthema":"Ausländische Erwerbstätige",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Ausländer","Staatsangehörigkeit","Erwerbstätigkeit"],
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Ausländische Erwerbstätige",
-"stufe3":"Zuwanderung",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Rund zwei Drittel der Zuwanderung kommen aus den EU15/EFTA-Staaten (ca. 1 100 Personen pro Quartal in den letzten fünf Jahren). Die Zuwanderung aus den Ländern, die ab 2004 der EU beigetreten sind, macht ca. 13% der Gesamtzuwanderung aus. Rund 21% der zugewanderten Erwerbstätigen kommen aus Drittstaaten (ca. 390 Personen pro Quartal). Im 1. Quartal 2017 wurde hier ein Spitzenwert von 695 Bewilligungen für Angehörige aus Drittstaaten erreicht.",
-"erlaeuterungen":"Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_04_02_00_00_412",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"],
-"externalLinks":[""]
+{
+ "title": "Zuwanderung von Erwerbstätigen nach Herkunft",
+ "subtitle": "Kurz- und Daueraufenthalter, Basel-Stadt",
+ "kuerzel": "I.03.5.02464",
+ "kuerzelKunde": "3.4-12",
+ "description": "Zuwanderung von Erwerbstätigen nach Herkunft",
+ "id": 2464,
+ "thema": "03 Erwerbsleben",
+ "unterthema": "Ausländische Erwerbstätige",
+ "kennzahlenset": "Arbeitsmarkt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-14T00:00:00.000",
+ "schlagwort": [
+  "Ausländer",
+  "Staatsangehörigkeit",
+  "Erwerbstätigkeit"
+ ],
+ "stufe1": "Monitoring Basler Arbeitsmarkt",
+ "stufe2": "Ausländische Erwerbstätige",
+ "stufe3": "Zuwanderung",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Rund zwei Drittel der Zuwanderung kommen aus den EU15/EFTA-Staaten (ca. 1 100 Personen pro Quartal in den letzten fünf Jahren). Die Zuwanderung aus den Ländern, die ab 2004 der EU beigetreten sind, macht ca. 13% der Gesamtzuwanderung aus. Rund 21% der zugewanderten Erwerbstätigen kommen aus Drittstaaten (ca. 390 Personen pro Quartal). Im 1. Quartal 2017 wurde hier ein Spitzenwert von 695 Bewilligungen für Angehörige aus Drittstaaten erreicht.",
+ "erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_04_02_00_00_412",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

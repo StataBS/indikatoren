@@ -1,29 +1,40 @@
-{"title":"Anteil Personen in Einpersonenhaushalten",
-"subtitle":"Stand: 2016",
-"kuerzel":"I.01.2.05112",
-"kuerzelKunde":"GS-4.B",
-"description":"Anteil Personen in Einpersonenhaushalten",
-"id":5112,
-"thema":"01 Bevölkerung",
-"unterthema":"Haushalte",
-"kennzahlenset":"Wohnviertel",
-"raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2017-05-04T14:12:33.3333",
-"schlagwort":["Haushalt"],
-"stufe1":"Bereich 1: Gesellschaft und Soziales",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten des Wohnviertels in Prozent.",
-"template":"map001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_008",
-"parentId":4825,
-"children":[],
-"renderLink":["4825"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Anteil Personen in Einpersonenhaushalten",
+ "subtitle": "Stand: 2016",
+ "kuerzel": "I.01.2.05112",
+ "kuerzelKunde": "GS-4.B",
+ "description": "Anteil Personen in Einpersonenhaushalten",
+ "id": 5112,
+ "thema": "01 Bevölkerung",
+ "unterthema": "Haushalte",
+ "kennzahlenset": "Wohnviertel",
+ "raeumlicheGliederung": [
+  "Wohnviertel"
+ ],
+ "aktualisierungsdatum": "2017-05-04T14:12:33.3333",
+ "schlagwort": [
+  "Haushalt"
+ ],
+ "stufe1": "Bereich 1: Gesellschaft und Soziales",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "",
+ "erlaeuterungen": "Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten des Wohnviertels in Prozent.",
+ "template": "map001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_00_00_00_00_008",
+ "parentId": 4825,
+ "children": [],
+ "renderLink": [
+  "4825"
+ ],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

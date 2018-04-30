@@ -458,7 +458,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -485,7 +485,8 @@
             }
           }
     },
-    "renderTo": "container-6138"
+    "renderTo": "container-6138",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -587,9 +588,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Eidgenössische Finanzverwaltung"
+    "text": "Quelle: Eidgenössische Finanzverwaltung\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
   },
   "legend": {
     "symbolRadius": 0,

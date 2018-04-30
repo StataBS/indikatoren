@@ -74,9 +74,6 @@
         "symbol": "circle",
       }
     }
-  },
-  chart:{
-	marginBottom: 70
   }
 }
 }());

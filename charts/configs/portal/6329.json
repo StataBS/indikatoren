@@ -266,7 +266,8 @@
     },
     "renderTo": "container-6329",
     "type": "column",
-    "inverted": false
+    "inverted": false,
+    "spacingBottom": 18
   },
   "plotOptions": {
     "series": {

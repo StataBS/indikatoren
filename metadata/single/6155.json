@@ -1,29 +1,43 @@
-{"title":"Transit durch die Region Basel",
-"subtitle":" in Brutto-Tonnen nach Verkehrsträger",
-"kuerzel":"I.06.4.06155",
-"kuerzelKunde":"5.3",
-"description":"Transit durch die Region Basel",
-"id":6155,
-"thema":"06 Produktion, Handel",
-"unterthema":"Aussenhandel",
-"kennzahlenset":"Legislaturplan",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["EuroAirport","Zoll","Zug","Mobilität"],
-"stufe1":"Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Der Transit durch die Region Basel nimmt auf der Strasse  seit 2010 kontinuierlich ab. Der Transit auf den Schienen hat seit 2007 zugenommen.",
-"erlaeuterungen":"",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"05_00_00_00_00_003",
-"parentId":null,
-"children":["6307"],
-"renderLink":[],
-"quellenangabe":["Eidgenössische Zollverwaltung EZV"],
-"externalLinks":[""]
+{
+ "title": "Transit durch die Region Basel",
+ "subtitle": " in Brutto-Tonnen nach Verkehrsträger",
+ "kuerzel": "I.06.4.06155",
+ "kuerzelKunde": "5.3",
+ "description": "Transit durch die Region Basel",
+ "id": 6155,
+ "thema": "06 Produktion, Handel",
+ "unterthema": "Aussenhandel",
+ "kennzahlenset": "Legislaturplan",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-11-29T00:00:00.000",
+ "schlagwort": [
+  "EuroAirport",
+  "Zoll",
+  "Zug",
+  "Mobilität"
+ ],
+ "stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse  seit 2010 kontinuierlich ab. Der Transit auf den Schienen hat seit 2007 zugenommen.",
+ "erlaeuterungen": "",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "05_00_00_00_00_003",
+ "parentId": null,
+ "children": [
+  "6307"
+ ],
+ "renderLink": [],
+ "quellenangabe": [
+  "Eidgenössische Zollverwaltung EZV"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

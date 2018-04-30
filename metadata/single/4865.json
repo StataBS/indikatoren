@@ -1,29 +1,38 @@
-{"title":"Ehrenamtliche Tätigkeit \u002F Freiwilligenarbeit im Alter",
-"subtitle":"«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?»",
-"kuerzel":"I.50.4.04865",
-"kuerzelKunde":"3.1.03",
-"description":"Ehrenamtliche Tätigkeit \u002F Freiwilligenarbeit im Alter",
-"id":4865,
-"thema":"50 Befragungen",
-"unterthema":"Befragung 55 plus",
-"kennzahlenset":"Gesellschaftlicher-Zusammenhalt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Arbeit"],
-"stufe1":"Kernbereich 3: Gemeinwohlorientierung",
-"stufe2":"3.1 Solidarität und Hilfsbereitschaft",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"2015 gaben 27,5% der Befragten an, sich in ihrer Freizeit ehrenamtlich zu betätigen, 2011 waren es 21,7%. Der Anteil Befragter, welche keine Angabe zu dieser Frage machten, nahm von 18,1% im Jahr 2011 auf 8,1% im Jahr 2015 ab.",
-"erlaeuterungen":"Die Fragestellung hat sich leicht verändert von «Sind Sie in Ihrer Freizeit ehrenamtlich tätig?» im Jahr 2011 zu «Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?» im Jahr 2015",
-"template":"befragungenProzent001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_01_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F29"],
-"externalLinks":[""]
+{
+ "title": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
+ "subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?»",
+ "kuerzel": "I.50.4.04865",
+ "kuerzelKunde": "3.1.03",
+ "description": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
+ "id": 4865,
+ "thema": "50 Befragungen",
+ "unterthema": "Befragung 55 plus",
+ "kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2016-09-21T00:00:00.000",
+ "schlagwort": [
+  "Arbeit"
+ ],
+ "stufe1": "Kernbereich 3: Gemeinwohlorientierung",
+ "stufe2": "3.1 Solidarität und Hilfsbereitschaft",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "2015 gaben 27,5% der Befragten an, sich in ihrer Freizeit ehrenamtlich zu betätigen, 2011 waren es 21,7%. Der Anteil Befragter, welche keine Angabe zu dieser Frage machten, nahm von 18,1% im Jahr 2011 auf 8,1% im Jahr 2015 ab.",
+ "erlaeuterungen": "Die Fragestellung hat sich leicht verändert von «Sind Sie in Ihrer Freizeit ehrenamtlich tätig?» im Jahr 2011 zu «Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?» im Jahr 2015",
+ "template": "befragungenProzent001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "03_01_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F29"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

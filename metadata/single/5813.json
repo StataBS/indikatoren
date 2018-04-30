@@ -1,29 +1,40 @@
-{"title":"Leerwohnungsquote",
-"subtitle":"in Prozent",
-"kuerzel":"I.09.2.05813",
-"kuerzelKunde":"ST 4-5",
-"description":"Leerwohnungsquote",
-"id":5813,
-"thema":"09 Bau-, Wohnungswesen",
-"unterthema":"Leerstand",
-"kennzahlenset":"Richtplan",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2017-06-26T16:51:11.1111",
-"schlagwort":["Wohnung"],
-"stufe1":"Sachgebiet Siedlung - Wohnen",
-"stufe2":"Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Leerwohnungsquote sank seit 2006 kontinuierlich und erreichte 2014 mit 0,2% den tiefsten Wert. Seither steigt sie wieder leicht an.",
-"erlaeuterungen":"Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_01_00_00_00_005",
-"parentId":null,
-"children":["6245"],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Leerstandserhebung"],
-"externalLinks":[""]
+{
+ "title": "Leerwohnungsquote",
+ "subtitle": "in Prozent",
+ "kuerzel": "I.09.2.05813",
+ "kuerzelKunde": "ST 4-5",
+ "description": "Leerwohnungsquote",
+ "id": 5813,
+ "thema": "09 Bau-, Wohnungswesen",
+ "unterthema": "Leerstand",
+ "kennzahlenset": "Richtplan",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-06-26T16:51:11.1111",
+ "schlagwort": [
+  "Wohnung"
+ ],
+ "stufe1": "Sachgebiet Siedlung - Wohnen",
+ "stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die Leerwohnungsquote sank seit 2006 kontinuierlich und erreichte 2014 mit 0,2% den tiefsten Wert. Seither steigt sie wieder leicht an.",
+ "erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_01_00_00_00_005",
+ "parentId": null,
+ "children": [
+  "6245"
+ ],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Leerstandserhebung"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

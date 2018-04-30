@@ -501,7 +501,8 @@
       "fontFamily": "Arial"
     },
     "type": "area",
-    "renderTo": "container-6262"
+    "renderTo": "container-6262",
+    "spacingBottom": 8
   },
   "title": {
     "style": {

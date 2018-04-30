@@ -220,7 +220,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -250,7 +250,8 @@
     "marginBottom": 65,
     "marginTop": 100,
     "type": "column",
-    "renderTo": "container-6056"
+    "renderTo": "container-6056",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -320,9 +321,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Volkszählung (bis 2000) und Strukturerhebung (ab 2010)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Volkszählung (bis 2000) und Strukturerhebung (ab 2010)\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-7"
   },
   "legend": {
     "symbolRadius": 0,

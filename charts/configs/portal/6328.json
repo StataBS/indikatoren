@@ -411,7 +411,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6328"
+    "renderTo": "container-6328",
+    "spacingBottom": 18
   },
   "title": {
     "style": {

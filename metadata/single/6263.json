@@ -1,30 +1,39 @@
-{"title":"Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
-"subtitle":"",
-"kuerzel":"I.15.6.06263",
-"kuerzelKunde":"ST 8-2",
-"description":"Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
-"id":6263,
-"thema":"15 Bildung",
-"unterthema":"Bildungsniveau",
-"kennzahlenset":"Richtplan (Print)",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Bildung"],
-"stufe1":"Sachgebiet Siedlung - Wirtschaft",
-"stufe2":"Strategie 8: Qualität für Wirtschaft und Bildung",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Seit 1990 hat sich der Anteil der Personen mit einer Ausbildung auf Tertiärstufe kontinuierlich erhöht. 2015 beträgt dieser Anteil 38%. Ebenfalls 38% der baselstädtischen Wohnbevölkerung besitzt eine höchste abgeschlossene Ausbildung auf Niveau Sekundarstufe 2 und 24% auf Niveau Sekundarstufe 1.",
-"erlaeuterungen":"Die Sekundarstufe I umfasst Ausbildungen bis maximal der obligatorischen Schule. Unter Sekundarstufe II ist die berufliche Grundbildung, z. B. eine Berufslehre, sowie die allgemeinbildende Schule, z. B. die gymnasiale Maturität, zusammengefasst. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. die höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen, wie z. B. ein Bachelor- oder Masterstudium.",
-"template":"template001_print",
-"option":"options001",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"02_05_00_00_00_000",
-"parentId":6218,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)"],
-"externalLinks":[""]
+{
+ "title": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
+ "subtitle": "",
+ "kuerzel": "I.15.6.06263",
+ "kuerzelKunde": "ST 8-2",
+ "description": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
+ "id": 6263,
+ "thema": "15 Bildung",
+ "unterthema": "Bildungsniveau",
+ "kennzahlenset": "Richtplan (Print)",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "",
+ "schlagwort": [
+  "Bildung"
+ ],
+ "stufe1": "Sachgebiet Siedlung - Wirtschaft",
+ "stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Seit 1990 hat sich der Anteil der Personen mit einer Ausbildung auf Tertiärstufe kontinuierlich erhöht. 2015 beträgt dieser Anteil 38%. Ebenfalls 38% der baselstädtischen Wohnbevölkerung besitzt eine höchste abgeschlossene Ausbildung auf Niveau Sekundarstufe 2 und 24% auf Niveau Sekundarstufe 1.",
+ "erlaeuterungen": "Die Sekundarstufe I umfasst Ausbildungen bis maximal der obligatorischen Schule. Unter Sekundarstufe II ist die berufliche Grundbildung, z. B. eine Berufslehre, sowie die allgemeinbildende Schule, z. B. die gymnasiale Maturität, zusammengefasst. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. die höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen, wie z. B. ein Bachelor- oder Masterstudium.",
+ "template": "template001_print",
+ "option": "options001",
+ "visible": true,
+ "visibleInPortal": false,
+ "orderKey": "02_05_00_00_00_000",
+ "parentId": 6218,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

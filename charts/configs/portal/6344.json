@@ -720,7 +720,8 @@
     "type": "column",
     "marginLeft": 140,
     "inverted": true,
-    "renderTo": "container-6344"
+    "renderTo": "container-6344",
+    "spacingBottom": 3
   },
   "title": {
     "style": {

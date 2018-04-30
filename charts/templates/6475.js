@@ -38,7 +38,6 @@
     shared: false
   },  
   "chart": {
-    "marginBottom": 75,
     "type": "column",
     "inverted": false
   }

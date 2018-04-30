@@ -1,29 +1,39 @@
-{"title":"Beurteilung der kantonalen Steuern",
-"subtitle":"«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?»",
-"kuerzel":"I.50.1.06290",
-"kuerzelKunde":"2.13",
-"description":"Beurteilung der kantonalen Steuern",
-"id":6290,
-"thema":"50 Befragungen",
-"unterthema":"Bevölkerungsbefragung",
-"kennzahlenset":"Legislaturplan (Print)",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Verwaltung","Beurteilung"],
-"stufe1":"Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"2015 gaben mit 56,4% mehr als die Hälfte der Befragten an, dass die kantonalen Steuern und Gebühren beibehalten werden sollten. Dieser Anteil fällt im Vergleich zu den Vorjahren deutlich höher aus (2011: 45,6%, 2007: 30,0%).",
-"erlaeuterungen":"",
-"template":"befragungen001_print",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"02_00_00_00_00_000",
-"parentId":6133,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8"],
-"externalLinks":[""]
+{
+ "title": "Beurteilung der kantonalen Steuern",
+ "subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?»",
+ "kuerzel": "I.50.1.06290",
+ "kuerzelKunde": "2.13",
+ "description": "Beurteilung der kantonalen Steuern",
+ "id": 6290,
+ "thema": "50 Befragungen",
+ "unterthema": "Bevölkerungsbefragung",
+ "kennzahlenset": "Legislaturplan (Print)",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "",
+ "schlagwort": [
+  "Verwaltung",
+  "Beurteilung"
+ ],
+ "stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "2015 gaben mit 56,4% mehr als die Hälfte der Befragten an, dass die kantonalen Steuern und Gebühren beibehalten werden sollten. Dieser Anteil fällt im Vergleich zu den Vorjahren deutlich höher aus (2011: 45,6%, 2007: 30,0%).",
+ "erlaeuterungen": "",
+ "template": "befragungen001_print",
+ "visible": true,
+ "visibleInPortal": false,
+ "orderKey": "02_00_00_00_00_000",
+ "parentId": 6133,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

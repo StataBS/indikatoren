@@ -1,29 +1,39 @@
-{"title":"In der Luft stabile Stoffe in Kälte- und Wärmepumpenanlagen",
-"subtitle":"Kilogramm",
-"kuerzel":"I.02.17.04292",
-"kuerzelKunde":"1301",
-"description":"In der Luft stabile Stoffe in Kälte- und Wärmepumpenanlagen",
-"id":4292,
-"thema":"02 Raum, Umwelt",
-"unterthema":"Stoffe und Produkte",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Stoffe und Produkte"],
-"stufe1":"Thema Stoffe und Produkte",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-13-1301' target='_blank'>Umweltbericht beider Basel</a>.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"13_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Umwelt (BAFU)"],
-"externalLinks":["<a href = 'http://www.admin.ch/opc/de/classified-compilation/20021520/index.html#app30' target = '_blank'>Chemikalien-Risikoreduktions-Verordnung (ChemRRV), Anhang 2.10 - Kältemittel</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-13-1301' target = '_blank'>Umweltbericht beider Basel</a>"]
+{
+ "title": "In der Luft stabile Stoffe in Kälte- und Wärmepumpenanlagen",
+ "subtitle": "Kilogramm",
+ "kuerzel": "I.02.17.04292",
+ "kuerzelKunde": "1301",
+ "description": "In der Luft stabile Stoffe in Kälte- und Wärmepumpenanlagen",
+ "id": 4292,
+ "thema": "02 Raum, Umwelt",
+ "unterthema": "Stoffe und Produkte",
+ "kennzahlenset": "Umwelt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-07-11T00:00:00.000",
+ "schlagwort": [
+  "Stoffe und Produkte"
+ ],
+ "stufe1": "Thema Stoffe und Produkte",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "",
+ "erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-13-1301' target='_blank'>Umweltbericht beider Basel</a>.",
+ "template": "dotplot",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "13_00_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Bundesamt für Umwelt (BAFU)"
+ ],
+ "externalLinks": [
+  "<a href = 'http://www.admin.ch/opc/de/classified-compilation/20021520/index.html#app30' target = '_blank'>Chemikalien-Risikoreduktions-Verordnung (ChemRRV), Anhang 2.10 - Kältemittel</a>",
+  "Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-13-1301' target = '_blank'>Umweltbericht beider Basel</a>"
+ ]
 }

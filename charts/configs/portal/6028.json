@@ -6,11 +6,11 @@
       "legendIndex": 0,
       "data": [
         [
-          "2010: Etappen pro Tag   Anzahl",
+          "2010: Etappen pro Tag  Anzahl",
           3.2526782
         ],
         [
-          "2015: Etappen pro Tag   Anzahl",
+          "2015: Etappen pro Tag  Anzahl",
           2.9214036
         ],
         [
@@ -18,11 +18,11 @@
           null
         ],
         [
-          "2010: Tagesunterwegszeit   in Minuten",
+          "2010: Tagesunterwegszeit  in Minuten",
           38.444439
         ],
         [
-          "2015: Tagesunterwegszeit   in Minuten",
+          "2015: Tagesunterwegszeit  in Minuten",
           31.35447
         ],
         [
@@ -30,11 +30,11 @@
           null
         ],
         [
-          "2010: Tagesdistanz   in Kilometer",
+          "2010: Tagesdistanz  in Kilometer",
           2.4660112
         ],
         [
-          "2015: Tagesdistanz   in Kilometer",
+          "2015: Tagesdistanz  in Kilometer",
           2.0930536
         ]
       ],
@@ -47,11 +47,11 @@
       "legendIndex": 1,
       "data": [
         [
-          "2010: Etappen pro Tag   Anzahl",
+          "2010: Etappen pro Tag  Anzahl",
           0.6109837
         ],
         [
-          "2015: Etappen pro Tag   Anzahl",
+          "2015: Etappen pro Tag  Anzahl",
           0.6141527
         ],
         [
@@ -59,11 +59,11 @@
           null
         ],
         [
-          "2010: Tagesunterwegszeit   in Minuten",
+          "2010: Tagesunterwegszeit  in Minuten",
           8.3670952
         ],
         [
-          "2015: Tagesunterwegszeit   in Minuten",
+          "2015: Tagesunterwegszeit  in Minuten",
           8.9492522
         ],
         [
@@ -71,11 +71,11 @@
           null
         ],
         [
-          "2010: Tagesdistanz   in Kilometer",
+          "2010: Tagesdistanz  in Kilometer",
           1.7253601
         ],
         [
-          "2015: Tagesdistanz   in Kilometer",
+          "2015: Tagesdistanz  in Kilometer",
           1.6884046
         ]
       ],
@@ -88,11 +88,11 @@
       "legendIndex": 2,
       "data": [
         [
-          "2010: Etappen pro Tag   Anzahl",
+          "2010: Etappen pro Tag  Anzahl",
           0.7656544
         ],
         [
-          "2015: Etappen pro Tag   Anzahl",
+          "2015: Etappen pro Tag  Anzahl",
           0.8338522
         ],
         [
@@ -100,11 +100,11 @@
           null
         ],
         [
-          "2010: Tagesunterwegszeit   in Minuten",
+          "2010: Tagesunterwegszeit  in Minuten",
           15.563063
         ],
         [
-          "2015: Tagesunterwegszeit   in Minuten",
+          "2015: Tagesunterwegszeit  in Minuten",
           17.15333
         ],
         [
@@ -112,11 +112,11 @@
           null
         ],
         [
-          "2010: Tagesdistanz   in Kilometer",
+          "2010: Tagesdistanz  in Kilometer",
           10.058921
         ],
         [
-          "2015: Tagesdistanz   in Kilometer",
+          "2015: Tagesdistanz  in Kilometer",
           11.594023
         ]
       ],
@@ -129,11 +129,11 @@
       "legendIndex": 3,
       "data": [
         [
-          "2010: Etappen pro Tag   Anzahl",
+          "2010: Etappen pro Tag  Anzahl",
           1.2702954
         ],
         [
-          "2015: Etappen pro Tag   Anzahl",
+          "2015: Etappen pro Tag  Anzahl",
           1.283706
         ],
         [
@@ -141,11 +141,11 @@
           null
         ],
         [
-          "2010: Tagesunterwegszeit   in Minuten",
+          "2010: Tagesunterwegszeit  in Minuten",
           18.169132
         ],
         [
-          "2015: Tagesunterwegszeit   in Minuten",
+          "2015: Tagesunterwegszeit  in Minuten",
           17.745773
         ],
         [
@@ -153,11 +153,11 @@
           null
         ],
         [
-          "2010: Tagesdistanz   in Kilometer",
+          "2010: Tagesdistanz  in Kilometer",
           9.922729
         ],
         [
-          "2015: Tagesdistanz   in Kilometer",
+          "2015: Tagesdistanz  in Kilometer",
           11.610472
         ]
       ],
@@ -170,11 +170,11 @@
       "legendIndex": 4,
       "data": [
         [
-          "2010: Etappen pro Tag   Anzahl",
+          "2010: Etappen pro Tag  Anzahl",
           0.0596431
         ],
         [
-          "2015: Etappen pro Tag   Anzahl",
+          "2015: Etappen pro Tag  Anzahl",
           0.0619608
         ],
         [
@@ -182,11 +182,11 @@
           null
         ],
         [
-          "2010: Tagesunterwegszeit   in Minuten",
+          "2010: Tagesunterwegszeit  in Minuten",
           1.1691897
         ],
         [
-          "2015: Tagesunterwegszeit   in Minuten",
+          "2015: Tagesunterwegszeit  in Minuten",
           1.0578035
         ],
         [
@@ -194,11 +194,11 @@
           null
         ],
         [
-          "2010: Tagesdistanz   in Kilometer",
+          "2010: Tagesdistanz  in Kilometer",
           0.4428068
         ],
         [
-          "2015: Tagesdistanz   in Kilometer",
+          "2015: Tagesdistanz  in Kilometer",
           0.268806
         ]
       ],
@@ -252,7 +252,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -266,7 +266,8 @@
     "type": "column",
     "marginLeft": 150,
     "inverted": true,
-    "renderTo": "container-6028"
+    "renderTo": "container-6028",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -340,9 +341,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr"
+    "text": "Quelle: Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
   },
   "legend": {
     "layout": "vertical",
@@ -360,7 +361,7 @@
         }
   },
   "exporting": {
-    "allowHTML": true,
+    "allowHTML": false,
     "filename": 6028
   }
 }

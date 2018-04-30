@@ -1,29 +1,39 @@
-{"title":"Bevölkerungsbestand am Jahresende",
-"subtitle":"nach Altersklasse und Wohnviertel; Stand: 2017",
-"kuerzel":"I.01.1.06502",
-"kuerzelKunde":"",
-"description":"Bevölkerungsbestand am Jahresende",
-"id":6502,
-"thema":"01 Bevölkerung",
-"unterthema":"Bestand und Struktur ",
-"kennzahlenset":"",
-"raeumlicheGliederung":["Wohnviertel","Kanton"],
-"aktualisierungsdatum":"2018-02-01T00:00:00.000",
-"schlagwort":["Bevölkerung"],
-"stufe1":"",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Am Jahresende 2017 wiesen das Wohnviertel Bruderholz und die Gemeinde Riehen die höchsten Anteile an Kinder und Jugendlichen uner 20 Jahren auf. Besonders viele junge Erwachsene zwischen 20 und 39 Jahren leben in den Wohnvierteln Gundeldingen, Altstadt Kleinbasel, Rosental und Matthäus. Die Anteile der Senioren ab 80 Jahren hingegen sind im St. Albanviertel und in der Gemeinde Riehen am höchsten.",
-"erlaeuterungen":"",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Bevölkerungsbestand am Jahresende",
+ "subtitle": "nach Altersklasse und Wohnviertel; Stand: 2017",
+ "kuerzel": "I.01.1.06502",
+ "kuerzelKunde": "",
+ "description": "Bevölkerungsbestand am Jahresende",
+ "id": 6502,
+ "thema": "01 Bevölkerung",
+ "unterthema": "Bestand und Struktur ",
+ "kennzahlenset": "",
+ "raeumlicheGliederung": [
+  "Wohnviertel",
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-02-01T00:00:00.000",
+ "schlagwort": [
+  "Bevölkerung"
+ ],
+ "stufe1": "",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Am Jahresende 2017 wiesen das Wohnviertel Bruderholz und die Gemeinde Riehen die höchsten Anteile an Kinder und Jugendlichen uner 20 Jahren auf. Besonders viele junge Erwachsene zwischen 20 und 39 Jahren leben in den Wohnvierteln Gundeldingen, Altstadt Kleinbasel, Rosental und Matthäus. Die Anteile der Senioren ab 80 Jahren hingegen sind im St. Albanviertel und in der Gemeinde Riehen am höchsten.",
+ "erlaeuterungen": "",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

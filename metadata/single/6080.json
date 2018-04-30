@@ -1,29 +1,40 @@
-{"title":"Gymnasialquote nach Staatsangehörigkeit",
-"subtitle":"",
-"kuerzel":"I.15.1.06080",
-"kuerzelKunde":"B1-1",
-"description":"Gymnasialquote nach Staatsangehörigkeit",
-"id":6080,
-"thema":"15 Bildung",
-"unterthema":"Schulen und Schulpersonal",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Staatsangehörigkeit","Ausbildung"],
-"stufe1":"Kapitel B Schule und Bildung",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die höchste Gymnasialquote erreichen die Schülerinnen und Schüler mit deutscher Staatsbürgerschaft. An zweiter Stelle folgen die Schweizer Gymnasiastinnen und Gymnasiasten. Die Schülerinnen und Schüler aus EU-Ost folgen an dritter Stelle. Die weiteren Ländergruppen folgen mit einigem Abstand.",
-"erlaeuterungen":"Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. 2016 aus methodischen Gründen –  schrittweise Ablösung der Weiterbildungsschule WBS durch die Sekundarschule Sek – WBS Stufe 11 und Sek P Stufe 10 in die Auswertung einbezogen.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_00_00_00_00_001",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Statistisches Amt Basel-Stadt, Bildungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Gymnasialquote nach Staatsangehörigkeit",
+ "subtitle": "",
+ "kuerzel": "I.15.1.06080",
+ "kuerzelKunde": "B1-1",
+ "description": "Gymnasialquote nach Staatsangehörigkeit",
+ "id": 6080,
+ "thema": "15 Bildung",
+ "unterthema": "Schulen und Schulpersonal",
+ "kennzahlenset": "Integration",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-21T00:00:00.000",
+ "schlagwort": [
+  "Staatsangehörigkeit",
+  "Ausbildung"
+ ],
+ "stufe1": "Kapitel B Schule und Bildung",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die höchste Gymnasialquote erreichen die Schülerinnen und Schüler mit deutscher Staatsbürgerschaft. An zweiter Stelle folgen die Schweizer Gymnasiastinnen und Gymnasiasten. Die Schülerinnen und Schüler aus EU-Ost folgen an dritter Stelle. Die weiteren Ländergruppen folgen mit einigem Abstand.",
+ "erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. 2016 aus methodischen Gründen –  schrittweise Ablösung der Weiterbildungsschule WBS durch die Sekundarschule Sek – WBS Stufe 11 und Sek P Stufe 10 in die Auswertung einbezogen.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_00_00_00_00_001",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+  "Statistisches Amt Basel-Stadt, Bildungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

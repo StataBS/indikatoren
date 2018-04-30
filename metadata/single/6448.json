@@ -1,29 +1,38 @@
-{"title":"Wertschöpfungsentwicklung im Dienstleistungssektor (II)",
-"subtitle":"Basel-Stadt, real, indexiert (Jahr 2007 = 100)",
-"kuerzel":"I.04.2.06448",
-"kuerzelKunde":"3.1-06",
-"description":"Wertschöpfungsentwicklung im Dienstleistungssektor (II)",
-"id":6448,
-"thema":"04 Volkswirtschaft",
-"unterthema":"Konjunktur",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Branche"],
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Bruttoinlandprodukt und Wertschöpfung",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Alle abgebildeten Dienstleistungsbranchen verzeichneten seit dem Jahr 2007 einen Anstieg der realen Wertschöpfung: Am stärksten wuchs sie mit 29,1% in der Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (gegenüber Vorjahr +1,9%). Der in ihr enthaltene Bereich Personalvermittlung und         -überlassung verzeichnete einen Wert von +16,8% (gegenüber Vorjahr +1,9%). Die Branche Beratung, Planung und Forschung wies ein Plus von 26,5% (gegenüber Vorjahr +3,3%) auf, die Finanz- und Versicherungsdienstleistungen eines von 6,2% (gegenüber Vorjahr +1,6%).",
-"erlaeuterungen":"Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_01_00_00_00_106",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["BAK Economics"],
-"externalLinks":[""]
+{
+ "title": "Wertschöpfungsentwicklung im Dienstleistungssektor (II)",
+ "subtitle": "Basel-Stadt, real, indexiert (Jahr 2007 = 100)",
+ "kuerzel": "I.04.2.06448",
+ "kuerzelKunde": "3.1-06",
+ "description": "Wertschöpfungsentwicklung im Dienstleistungssektor (II)",
+ "id": 6448,
+ "thema": "04 Volkswirtschaft",
+ "unterthema": "Konjunktur",
+ "kennzahlenset": "Arbeitsmarkt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-14T00:00:00.000",
+ "schlagwort": [
+  "Branche"
+ ],
+ "stufe1": "Monitoring Basler Arbeitsmarkt",
+ "stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Alle abgebildeten Dienstleistungsbranchen verzeichneten seit dem Jahr 2007 einen Anstieg der realen Wertschöpfung: Am stärksten wuchs sie mit 29,1% in der Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (gegenüber Vorjahr +1,9%). Der in ihr enthaltene Bereich Personalvermittlung und         -überlassung verzeichnete einen Wert von +16,8% (gegenüber Vorjahr +1,9%). Die Branche Beratung, Planung und Forschung wies ein Plus von 26,5% (gegenüber Vorjahr +3,3%) auf, die Finanz- und Versicherungsdienstleistungen eines von 6,2% (gegenüber Vorjahr +1,6%).",
+ "erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_01_00_00_00_106",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "BAK Economics"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

@@ -1,28 +1,38 @@
-{"title":"Nettoschuldenquote und Nettoschulden pro Kopf",
-"subtitle":"Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Kopf in Franken",
-"kuerzel":"I.04.1.06211",
-"kuerzelKunde":"2.7",
-"description":"Nettoschuldenquote und Nettoschulden pro Kopf",
-"id":6211,
-"thema":"04 Volkswirtschaft",
-"unterthema":"Volkseinkommen",
-"kennzahlenset":"Legislaturplan",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"stufe1":"Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Nettoschulden haben sich seit dem Jahr 2000 von 19 132 auf 9 950 Franken pro Kopf im Jahr 2016 reduziert. Die Nettoschuldenquote liegt 2016 bei 3,0 ‰ des schweizerischen BIP.",
-"erlaeuterungen":"",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_00_00_00_00_007",
-"parentId":null,
-"children":["5160","6339"],
-"renderLink":[],
-"quellenangabe":["Jahresbericht des Kantons Basel-Stadt"],
-"externalLinks":[""]
+{
+ "title": "Nettoschuldenquote und Nettoschulden pro Kopf",
+ "subtitle": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Kopf in Franken",
+ "kuerzel": "I.04.1.06211",
+ "kuerzelKunde": "2.7",
+ "description": "Nettoschuldenquote und Nettoschulden pro Kopf",
+ "id": 6211,
+ "thema": "04 Volkswirtschaft",
+ "unterthema": "Volkseinkommen",
+ "kennzahlenset": "Legislaturplan",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-11-29T00:00:00.000",
+ "stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die Nettoschulden haben sich seit dem Jahr 2000 von 19 132 auf 9 950 Franken pro Kopf im Jahr 2016 reduziert. Die Nettoschuldenquote liegt 2016 bei 3,0 ‰ des schweizerischen BIP.",
+ "erlaeuterungen": "",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_00_00_00_00_007",
+ "parentId": null,
+ "children": [
+  "5160",
+  "6339"
+ ],
+ "renderLink": [],
+ "quellenangabe": [
+  "Jahresbericht des Kantons Basel-Stadt"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

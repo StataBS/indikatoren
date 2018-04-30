@@ -1,29 +1,40 @@
-{"title":"Mittlere Anzahl Personen pro Haushalt",
-"subtitle":"nach Staatsangehörigkeit, Stand: 2016",
-"kuerzel":"I.01.2.06477",
-"kuerzelKunde":"D2-3",
-"description":"Mittlere Anzahl Personen pro Haushalt",
-"id":6477,
-"thema":"01 Bevölkerung",
-"unterthema":"Haushalte",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Staatsangehörigkeit","Wohnen"],
-"stufe1":"Kapitel D Politik und Zusammenleben",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Deutsche leben im Durchschnitt in Haushalten mit 1,8 Personen. Dieser Wert ist leicht tiefer als derjenige der Schweizer. Personen aus der Türkei, dem Balkan und aus arabischen Ländern leben vergleichsweise in grösseren Haushalten.",
-"erlaeuterungen":"Pro Person wurde ein Haushaltanteil berechnet (z. B. bei einem Vierpersonenhaushalt hat eine Person einen Haushaltanteil von 0,25). Diese Haushaltanteile wurden pro Ländergruppe aufsummiert. Anschliessend wurde die Anzahl Personen dieser Ländergruppe geteilt durch die aufsummierten Haushaltanteile, damit man die mittlere Anzahl Personen pro Haushalt erhält. Somit ist es möglich, die Ländergruppen zu betrachten, obwohl es Haushalte mit unterschiedlichen Ländergruppen gibt.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"04_00_00_00_00_005",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Mittlere Anzahl Personen pro Haushalt",
+ "subtitle": "nach Staatsangehörigkeit, Stand: 2016",
+ "kuerzel": "I.01.2.06477",
+ "kuerzelKunde": "D2-3",
+ "description": "Mittlere Anzahl Personen pro Haushalt",
+ "id": 6477,
+ "thema": "01 Bevölkerung",
+ "unterthema": "Haushalte",
+ "kennzahlenset": "Integration",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-21T00:00:00.000",
+ "schlagwort": [
+  "Staatsangehörigkeit",
+  "Wohnen"
+ ],
+ "stufe1": "Kapitel D Politik und Zusammenleben",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Deutsche leben im Durchschnitt in Haushalten mit 1,8 Personen. Dieser Wert ist leicht tiefer als derjenige der Schweizer. Personen aus der Türkei, dem Balkan und aus arabischen Ländern leben vergleichsweise in grösseren Haushalten.",
+ "erlaeuterungen": "Pro Person wurde ein Haushaltanteil berechnet (z. B. bei einem Vierpersonenhaushalt hat eine Person einen Haushaltanteil von 0,25). Diese Haushaltanteile wurden pro Ländergruppe aufsummiert. Anschliessend wurde die Anzahl Personen dieser Ländergruppe geteilt durch die aufsummierten Haushaltanteile, damit man die mittlere Anzahl Personen pro Haushalt erhält. Somit ist es möglich, die Ländergruppen zu betrachten, obwohl es Haushalte mit unterschiedlichen Ländergruppen gibt.",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "04_00_00_00_00_005",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+  "Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

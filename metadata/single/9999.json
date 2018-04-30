@@ -1,30 +1,47 @@
-{"title":"Test Daten",
-"subtitle":"",
-"kuerzel":"I.01.1.09999",
-"kuerzelKunde":"ST 11-2",
-"description":"Test Daten",
-"id":9999,
-"thema":"11 Verkehr",
-"unterthema":"Motorfahrzeuge",
-"kennzahlenset":"Test",
-"raeumlicheGliederung":["Wohnviertel","Gemeinde"],
-"aktualisierungsdatum":"2017-06-26T16:19:02.022",
-"schlagwort":["Haushalt","Familie","Quote","Auto"],
-"stufe1":"Test",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Test Daten",
-"erlaeuterungen":"",
-"template":"map002",
-"option":"options001",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"11_00_00_00_00_002",
-"parentId": 9998,
-"children":[""],
-"renderLink":[""],
-"quellenangabe":["Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"],
-"externalLinks":[""]
+{
+ "title": "Test Daten",
+ "subtitle": "",
+ "kuerzel": "I.01.1.09999",
+ "kuerzelKunde": "ST 11-2",
+ "description": "Test Daten",
+ "id": 9999,
+ "thema": "11 Verkehr",
+ "unterthema": "Motorfahrzeuge",
+ "kennzahlenset": "Test",
+ "raeumlicheGliederung": [
+  "Wohnviertel",
+  "Gemeinde"
+ ],
+ "aktualisierungsdatum": "2017-06-26T16:19:02.022",
+ "schlagwort": [
+  "Haushalt",
+  "Familie",
+  "Quote",
+  "Auto"
+ ],
+ "stufe1": "Test",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Test Daten",
+ "erlaeuterungen": "",
+ "template": "map002",
+ "option": "options001",
+ "visible": true,
+ "visibleInPortal": false,
+ "orderKey": "11_00_00_00_00_002",
+ "parentId": 9998,
+ "children": [
+  ""
+ ],
+ "renderLink": [
+  ""
+ ],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

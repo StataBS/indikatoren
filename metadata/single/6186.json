@@ -1,29 +1,41 @@
-{"title":"Beurteilung der kantonalen Verwaltung",
-"subtitle":"«Denken Sie einmal an den letzten Kontakt, den Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»",
-"kuerzel":"I.50.1.06186",
-"kuerzelKunde":"12.2",
-"description":"Beurteilung der kantonalen Verwaltung",
-"id":6186,
-"thema":"50 Befragungen",
-"unterthema":"Bevölkerungsbefragung",
-"kennzahlenset":"Legislaturplan",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Verwaltung","Beurteilung"],
-"stufe1":"Ziel 12:  Der Service public ist modern und kundenfreundlich.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"73,7% der befragten Personen schätzten 2015 ihren letzten Kontakt, den sie mit der Verwaltung des Kantons Basel-Stadt hatten, als positiv ein. Das sind 3,8 Prozentpunkte weniger als 2011, aber mehr als in der Befragung von 2007 (64,4%).",
-"erlaeuterungen":"",
-"template":"befragungen001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"12_00_00_00_00_002",
-"parentId":4859,
-"children":["6332"],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F19a"],
-"externalLinks":[""]
+{
+ "title": "Beurteilung der kantonalen Verwaltung",
+ "subtitle": "«Denken Sie einmal an den letzten Kontakt, den Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»",
+ "kuerzel": "I.50.1.06186",
+ "kuerzelKunde": "12.2",
+ "description": "Beurteilung der kantonalen Verwaltung",
+ "id": 6186,
+ "thema": "50 Befragungen",
+ "unterthema": "Bevölkerungsbefragung",
+ "kennzahlenset": "Legislaturplan",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-11-29T00:00:00.000",
+ "schlagwort": [
+  "Verwaltung",
+  "Beurteilung"
+ ],
+ "stufe1": "Ziel 12:  Der Service public ist modern und kundenfreundlich.",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "73,7% der befragten Personen schätzten 2015 ihren letzten Kontakt, den sie mit der Verwaltung des Kantons Basel-Stadt hatten, als positiv ein. Das sind 3,8 Prozentpunkte weniger als 2011, aber mehr als in der Befragung von 2007 (64,4%).",
+ "erlaeuterungen": "",
+ "template": "befragungen001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "12_00_00_00_00_002",
+ "parentId": 4859,
+ "children": [
+  "6332"
+ ],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F19a"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }
