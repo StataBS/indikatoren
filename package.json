@@ -19,7 +19,7 @@
     "gh-pages-travis": "1.0.0",
     "glob": "7.1.1",
     "hash-files": "1.1.1",
-    "highcharts-export-server": "2.0.4",
+    "highcharts-export-server": "2.0.12",
     "http-server": "0.11.1",
     "jsdom": "9.8.0",
     "jsondiffpatch": "0.2.4",
@@ -27,10 +27,13 @@
     "serialize-javascript": "1.3.0",
     "svgo": "0.7.2"
   },
+  "engines": {
+    "node": ">=8.10.0"
+  },
   "scripts": {
     "reinstall": "rm -rf node_cache && rm -rf node_modules && rm package-lock.json & npm install && LC_ALL=C",
     "build:database": "node build/createJsonDatabase",
-    "build:find_changed_charts": "echo 'Comparing checksums of current files with those created after last build...' &&node build/findChangedCharts.js",
+    "build:find_changed_charts": "echo 'Comparing checksums of current files with those created after last build...' && node build/findChangedCharts.js",
     "build:partial_databases": "node build/createKennzahlensetJsonFiles.js",
     "build:copy_data_per_set": "node build/copyDataPerSet.js",
     "build:charts": "node build/createChartConfigs",
@@ -55,7 +58,8 @@
     "deploy": "npm run deploy:gh-pages && npm run deploy:ftp && pwd",
     "set-environment-variables": "export HIGHCHARTS_VERSION=6.0.4 && export ACCEPT_HIGHCHARTS_LICENSE=YES && export HIGHCHARTS_USE_STYLED=NO && export HIGHCHARTS_USE_MAPS=YES &&  LC_ALL=C",
     "start-export-server": "echo 'Starting highcharts-export-server using forever...' && forever start node_modules/highcharts-export-server/bin/cli.js --enableServer 1 --port 8081 --killSignal SIGINT",
-    "stop-export-server": "echo 'stopping highcharts-export-server...' &&forever stop node_modules/highcharts-export-server/bin/cli.js"
+    "stop-export-server": "echo 'stopping highcharts-export-server...' &&forever stop node_modules/highcharts-export-server/bin/cli.js",
+    "preinstall": "export ACCEPT_HIGHCHARTS_LICENSE=1 && export HIGHCHARTS_USE_STYLED=NO && export HIGHCHARTS_VERSION=6.1.0 && LC_ALL=C"
   },
   "repository": {
     "type": "git",
