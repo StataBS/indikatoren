@@ -142,7 +142,6 @@
 					
 					//put the columns on the map
 					fn.drawColumns(chart, columnSeries, choroplethSeries, columnSeriesConfig, color, chartHeight, columnWidth);
-
 	                
 					//column values in legend
 					var legendColumnValues = [5, 2.5]; 

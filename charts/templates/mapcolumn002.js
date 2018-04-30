@@ -215,6 +215,8 @@
 			      xAxis.series.forEach(function(s) {
 			      	//if series must be hidden due to clicking on legend: hide despite ok position
 			        s.setVisible(true && !s._hide, false);
+			        //define column width here and increase with zooming
+			        s.update({pointWidth: s.options.columnWidth * zoomRatio}, false);
 			      });
 			
 			      xAxis.update({
@@ -279,6 +281,7 @@
 						xAxis: state.index + 1,
 						yAxis: state.index + 1,
 						pointPadding: 0,
+						columnWidth: columnWidth,
 						groupPadding: 0,
 						borderWidth: 0,		
 						data: [], 
