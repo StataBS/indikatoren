@@ -1,29 +1,39 @@
-{"title":"Verkehrsleistungsindex",
-"subtitle":"Indexwert (Basis 2010 = 100)",
-"kuerzel":"I.11.6.04319",
-"kuerzelKunde":"1705",
-"description":"Verkehrsleistungsindex",
-"id":4319,
-"thema":"11 Verkehr",
-"unterthema":"Mobilitätsverhalten",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Lärm"],
-"stufe1":"Thema Querschnittsindikatoren",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"17_00_00_00_00_000",
-"parentId":6154,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Amt für Mobilität Basel-Stadt"],
-"externalLinks":["<a href = 'http://www.medienmitteilungen.bs.ch/verkehrspolitisches_leitbild_juni_2015.pdf' target = '_blank'>Verkehrspolitisches Leitbild und Massnahmenplan, Juni 2015</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1705' target = '_blank'>Umweltbericht beider Basel</a>"]
+{
+ "title": "Verkehrsleistungsindex",
+ "subtitle": "Indexwert (Basis 2010 = 100)",
+ "kuerzel": "I.11.6.04319",
+ "kuerzelKunde": "1705",
+ "description": "Verkehrsleistungsindex",
+ "id": 4319,
+ "thema": "11 Verkehr",
+ "unterthema": "Mobilitätsverhalten",
+ "kennzahlenset": "Umwelt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-07-11T00:00:00.000",
+ "schlagwort": [
+  "Lärm"
+ ],
+ "stufe1": "Thema Querschnittsindikatoren",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "",
+ "erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
+ "template": "dotplot",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "17_00_00_00_00_000",
+ "parentId": 6154,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Amt für Mobilität Basel-Stadt"
+ ],
+ "externalLinks": [
+  "<a href = 'http://www.medienmitteilungen.bs.ch/verkehrspolitisches_leitbild_juni_2015.pdf' target = '_blank'>Verkehrspolitisches Leitbild und Massnahmenplan, Juni 2015</a>",
+  "Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1705' target = '_blank'>Umweltbericht beider Basel</a>"
+ ]
 }

@@ -1,29 +1,40 @@
-{"title":"Durchschnittliche Betriebsgrösse",
-"subtitle":"Zimmer pro Betrieb",
-"kuerzel":"I.10.1.06538",
-"kuerzelKunde":"2-2",
-"description":"Durchschnittliche Betriebsgrösse",
-"id":6538,
-"thema":"10 Tourismus",
-"unterthema":"Hotellerie",
-"kennzahlenset":"Tourismus",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Übernachtung","Gäste","Hotelbetten"],
-"stufe1":"",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Nach Hotelkategorie betrachtet fallen im Jahr 2017 durchschnittlich 97 Zimmer auf die Betriebe mit 4- oder 5-Sternen, 62 auf die 3-Sterne-Hotels, 74 Zimmer auf 1- und 2-Sterne-Hotels sowie 29 Zimmer auf die nicht klassierten Kategorien. Im selben Zeitraum gibt es im Total 67 Zimmer pro Betrieb.",
-"erlaeuterungen":"Als durchschnittliche Betriebsgrösse wird die Anzahl Zimmer je Betrieb bezeichnet.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"_002",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Tourismusstatistik"],
-"externalLinks":[""]
+{
+ "title": "Durchschnittliche Betriebsgrösse",
+ "subtitle": "Zimmer pro Betrieb",
+ "kuerzel": "I.10.1.06538",
+ "kuerzelKunde": "2-2",
+ "description": "Durchschnittliche Betriebsgrösse",
+ "id": 6538,
+ "thema": "10 Tourismus",
+ "unterthema": "Hotellerie",
+ "kennzahlenset": "Tourismus",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-02-15T00:00:00.000",
+ "schlagwort": [
+  "Übernachtung",
+  "Gäste",
+  "Hotelbetten"
+ ],
+ "stufe1": "",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Nach Hotelkategorie betrachtet fallen im Jahr 2017 durchschnittlich 97 Zimmer auf die Betriebe mit 4- oder 5-Sternen, 62 auf die 3-Sterne-Hotels, 74 Zimmer auf 1- und 2-Sterne-Hotels sowie 29 Zimmer auf die nicht klassierten Kategorien. Im selben Zeitraum gibt es im Total 67 Zimmer pro Betrieb.",
+ "erlaeuterungen": "Als durchschnittliche Betriebsgrösse wird die Anzahl Zimmer je Betrieb bezeichnet.",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "_002",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Tourismusstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

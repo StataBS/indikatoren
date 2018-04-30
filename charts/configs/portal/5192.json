@@ -171,7 +171,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -183,7 +183,8 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "renderTo": "container-5192"
+    "renderTo": "container-5192",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -253,9 +254,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, Frage F15"
+    "text": "Quelle: Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, Frage F15\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
   },
   "legend": {
     "layout": "vertical",

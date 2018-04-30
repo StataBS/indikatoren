@@ -1,29 +1,38 @@
-{"title":"Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-"subtitle":"Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von <br/> 100 000 Fr.; Stand: 2016",
-"kuerzel":"I.18.2.06291",
-"kuerzelKunde":"2.12a",
-"description":"Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-"id":6291,
-"thema":"18 Öffentliche Finanzen",
-"unterthema":"Steuern",
-"kennzahlenset":"Legislaturplan (Print)",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Steuer"],
-"stufe1":"Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"In Basel beträgt die Steuerbelastung 2016 im ausgewählten Modellfall 6 309 Franken. In den fünf Kantonshauptorten liegt sie in Bern am höchsten, in Genf am tiefsten.",
-"erlaeuterungen":"Die Werte zeigen die Steuerbelastung (Kantons-, Gemeinde- und Kirchensteuern) in Franken für Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Franken im Jahr 2016.",
-"template":"template001_print",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"02_00_00_00_00_000",
-"parentId":6134,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Eidgenössische Steuerverwaltung"],
-"externalLinks":[""]
+{
+ "title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
+ "subtitle": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von <br/> 100 000 Fr.; Stand: 2016",
+ "kuerzel": "I.18.2.06291",
+ "kuerzelKunde": "2.12a",
+ "description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
+ "id": 6291,
+ "thema": "18 Öffentliche Finanzen",
+ "unterthema": "Steuern",
+ "kennzahlenset": "Legislaturplan (Print)",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "",
+ "schlagwort": [
+  "Steuer"
+ ],
+ "stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "In Basel beträgt die Steuerbelastung 2016 im ausgewählten Modellfall 6 309 Franken. In den fünf Kantonshauptorten liegt sie in Bern am höchsten, in Genf am tiefsten.",
+ "erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gemeinde- und Kirchensteuern) in Franken für Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Franken im Jahr 2016.",
+ "template": "template001_print",
+ "visible": true,
+ "visibleInPortal": false,
+ "orderKey": "02_00_00_00_00_000",
+ "parentId": 6134,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Eidgenössische Steuerverwaltung"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

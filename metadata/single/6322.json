@@ -1,29 +1,38 @@
-{"title":"Stationäre Fälle in Basler Spitälern",
-"subtitle":"Nach Hauptbereich und Wohnort",
-"kuerzel":"I.14.1.06322",
-"kuerzelKunde":"9.5",
-"description":"Stationäre Fälle in Basler Spitälern",
-"id":6322,
-"thema":"14 Gesundheit",
-"unterthema":"Bevölkerungsbefragung",
-"kennzahlenset":"Legislaturplan (Print)",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Gesundheit"],
-"stufe1":"Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Im Jahr 2016 wurden zum ersten Mal im Beobachtungszeitraum mehr auserkantonale Patienten (40 481) behandelt als Patienten mit Wohnort im Kanton Basel-Stadt (38 585). Von den insgesamt 38 585 Fällen aus dem Stadtkanton können über 77% dem Hauptbereich der Akutsomatik zugerechnet werden. Bei den ausserkantonalen Fällen macht der Anteil der Akutsomatik hingegen über 91% aus.",
-"erlaeuterungen":"Gezählt werden alle stationären Fälle mit Austritt im jeweiligen Erhebungsjahr (A-Fälle). Die Aufteilung in BS und Nicht-BS erfolgt anhand des Wohnorts der Patienten. Patienten mit Wohnsitz im Ausland sind in den Nicht-BS-Fällen eingeschlossen. Die Aufteilung in die Hauptbereiche erfolgt anhand der Hauptkostenstelle.",
-"template":"template001_print",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"09_00_00_00_00_000",
-"parentId":6175,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Gesundheitsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Stationäre Fälle in Basler Spitälern",
+ "subtitle": "Nach Hauptbereich und Wohnort",
+ "kuerzel": "I.14.1.06322",
+ "kuerzelKunde": "9.5",
+ "description": "Stationäre Fälle in Basler Spitälern",
+ "id": 6322,
+ "thema": "14 Gesundheit",
+ "unterthema": "Bevölkerungsbefragung",
+ "kennzahlenset": "Legislaturplan (Print)",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "",
+ "schlagwort": [
+  "Gesundheit"
+ ],
+ "stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Im Jahr 2016 wurden zum ersten Mal im Beobachtungszeitraum mehr auserkantonale Patienten (40 481) behandelt als Patienten mit Wohnort im Kanton Basel-Stadt (38 585). Von den insgesamt 38 585 Fällen aus dem Stadtkanton können über 77% dem Hauptbereich der Akutsomatik zugerechnet werden. Bei den ausserkantonalen Fällen macht der Anteil der Akutsomatik hingegen über 91% aus.",
+ "erlaeuterungen": "Gezählt werden alle stationären Fälle mit Austritt im jeweiligen Erhebungsjahr (A-Fälle). Die Aufteilung in BS und Nicht-BS erfolgt anhand des Wohnorts der Patienten. Patienten mit Wohnsitz im Ausland sind in den Nicht-BS-Fällen eingeschlossen. Die Aufteilung in die Hauptbereiche erfolgt anhand der Hauptkostenstelle.",
+ "template": "template001_print",
+ "visible": true,
+ "visibleInPortal": false,
+ "orderKey": "09_00_00_00_00_000",
+ "parentId": 6175,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

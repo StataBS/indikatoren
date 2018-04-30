@@ -1,29 +1,42 @@
-{"title":"Fläche pro Wohnung",
-"subtitle":"Stand: 2017",
-"kuerzel":"I.09.1.04833",
-"kuerzelKunde":"RU-4.A",
-"description":"Fläche pro Wohnung",
-"id":4833,
-"thema":"09 Bau-, Wohnungswesen",
-"unterthema":"Gebäude und Wohnungen",
-"kennzahlenset":"Wohnviertel",
-"raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2018-02-20T17:29:58.5858",
-"schlagwort":["Gebäude"],
-"stufe1":"Bereich 2: Raum und Umwelt",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Im Wohnviertel Klybeck sind die Wohnungen im Durchschnitt am kleinsten, in der Gemeinde Bettingen am grössten.",
-"erlaeuterungen":"Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_00_00_00_00_007",
-"parentId":null,
-"children":["5120"],
-"renderLink":["5120"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Fläche pro Wohnung",
+ "subtitle": "Stand: 2017",
+ "kuerzel": "I.09.1.04833",
+ "kuerzelKunde": "RU-4.A",
+ "description": "Fläche pro Wohnung",
+ "id": 4833,
+ "thema": "09 Bau-, Wohnungswesen",
+ "unterthema": "Gebäude und Wohnungen",
+ "kennzahlenset": "Wohnviertel",
+ "raeumlicheGliederung": [
+  "Wohnviertel"
+ ],
+ "aktualisierungsdatum": "2018-02-20T17:29:58.5858",
+ "schlagwort": [
+  "Gebäude"
+ ],
+ "stufe1": "Bereich 2: Raum und Umwelt",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Im Wohnviertel Klybeck sind die Wohnungen im Durchschnitt am kleinsten, in der Gemeinde Bettingen am grössten.",
+ "erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
+ "template": "dotplot",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_00_00_00_00_007",
+ "parentId": null,
+ "children": [
+  "5120"
+ ],
+ "renderLink": [
+  "5120"
+ ],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

@@ -1,29 +1,39 @@
-{"title":"Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
-"subtitle":"",
-"kuerzel":"I.09.1.04146",
-"kuerzelKunde":"2.1.A",
-"description":"Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
-"id":4146,
-"thema":"09 Bau-, Wohnungswesen",
-"unterthema":"Gebäude und Wohnungen",
-"kennzahlenset":"Wohnraumentwicklung",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-01-18T16:59:21.2121",
-"schlagwort":["Gebäude","Haushalt"],
-"stufe1":"Ziel 2: Fiskalpolitik",
-"stufe2":"2.1 Grosszügiger Wohnraum",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Der Anteil Wohnungen mit 4 oder mehr Zimmern stieg zum einen in der Dekade der 1970er-Jahre, und zwar um 2,6 Prozentpunkte. Zum anderen nahm er von 2005 bis 2014 (1,9 Prozentpunkte) zu. Dazwischen war kaum oder nur ein marginales Wachstum zu verzeichnen.",
-"erlaeuterungen":"",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_01_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
+ "subtitle": "",
+ "kuerzel": "I.09.1.04146",
+ "kuerzelKunde": "2.1.A",
+ "description": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
+ "id": 4146,
+ "thema": "09 Bau-, Wohnungswesen",
+ "unterthema": "Gebäude und Wohnungen",
+ "kennzahlenset": "Wohnraumentwicklung",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-01-18T16:59:21.2121",
+ "schlagwort": [
+  "Gebäude",
+  "Haushalt"
+ ],
+ "stufe1": "Ziel 2: Fiskalpolitik",
+ "stufe2": "2.1 Grosszügiger Wohnraum",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Der Anteil Wohnungen mit 4 oder mehr Zimmern stieg zum einen in der Dekade der 1970er-Jahre, und zwar um 2,6 Prozentpunkte. Zum anderen nahm er von 2005 bis 2014 (1,9 Prozentpunkte) zu. Dazwischen war kaum oder nur ein marginales Wachstum zu verzeichnen.",
+ "erlaeuterungen": "",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "03_01_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

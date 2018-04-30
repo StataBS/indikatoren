@@ -1,30 +1,41 @@
-{"title":"Leerwohnungsquote",
-"subtitle":"nach Wohnviertel",
-"kuerzel":"I.09.2.06009",
-"kuerzelKunde":"",
-"description":"Leerwohnungsquote",
-"id":6009,
-"thema":"09 Bau-, Wohnungswesen",
-"unterthema":"Leerstand",
-"kennzahlenset":"",
-"raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2017-08-14T15:31:35.3535",
-"schlagwort":["Wohnung"],
-"stufe1":"",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die höchste Leerwohnungsquote aller Wohnviertel wurde 2017 in Bettingen verzeichnet.",
-"erlaeuterungen":"Stichtag ist der 1. Juni.",
-"template":"mappie001",
-"option":"options001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"_000",
-"parentId":null,
-"children":["5814"],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Leerstandserhebung"],
-"externalLinks":[""]
+{
+ "title": "Leerwohnungsquote",
+ "subtitle": "nach Wohnviertel",
+ "kuerzel": "I.09.2.06009",
+ "kuerzelKunde": "",
+ "description": "Leerwohnungsquote",
+ "id": 6009,
+ "thema": "09 Bau-, Wohnungswesen",
+ "unterthema": "Leerstand",
+ "kennzahlenset": "",
+ "raeumlicheGliederung": [
+  "Wohnviertel"
+ ],
+ "aktualisierungsdatum": "2017-08-14T15:31:35.3535",
+ "schlagwort": [
+  "Wohnung"
+ ],
+ "stufe1": "",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2017 in Bettingen verzeichnet.",
+ "erlaeuterungen": "Stichtag ist der 1. Juni.",
+ "template": "mappie001",
+ "option": "options001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "_000",
+ "parentId": null,
+ "children": [
+  "5814"
+ ],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Leerstandserhebung"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

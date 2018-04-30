@@ -1,29 +1,40 @@
-{"title":"Geöffnete Betriebe nach Hotelkategorie",
-"subtitle":"",
-"kuerzel":"I.10.1.06537",
-"kuerzelKunde":"2-1",
-"description":"Geöffnete Betriebe nach Hotelkategorie",
-"id":6537,
-"thema":"10 Tourismus",
-"unterthema":"Hotellerie",
-"kennzahlenset":"Tourismus",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Übernachtung","Gäste","Hotelbetten"],
-"stufe1":"",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Im Jahr 2017 gehören von den total 65 geöffneten Betrieben 17 Betriebe zur Kategorie der 4- oder 5-Sterne-Hotels, 26 Betriebe zur Kategorie der 3-Sterne-Hotels, 10 Betriebe zu den 1- und 2-Sterne-Hotels sowie 12 Betriebe zur nicht klassierten Kategorie. Im Vergleich zu 2008 hat die durchschnittliche Zahl geöffneter Betriebe im Jahr 2017 um 2 Betriebe zugenommen.",
-"erlaeuterungen":"",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"_001",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Tourismusstatistik"],
-"externalLinks":[""]
+{
+ "title": "Geöffnete Betriebe nach Hotelkategorie",
+ "subtitle": "",
+ "kuerzel": "I.10.1.06537",
+ "kuerzelKunde": "2-1",
+ "description": "Geöffnete Betriebe nach Hotelkategorie",
+ "id": 6537,
+ "thema": "10 Tourismus",
+ "unterthema": "Hotellerie",
+ "kennzahlenset": "Tourismus",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-02-15T00:00:00.000",
+ "schlagwort": [
+  "Übernachtung",
+  "Gäste",
+  "Hotelbetten"
+ ],
+ "stufe1": "",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Im Jahr 2017 gehören von den total 65 geöffneten Betrieben 17 Betriebe zur Kategorie der 4- oder 5-Sterne-Hotels, 26 Betriebe zur Kategorie der 3-Sterne-Hotels, 10 Betriebe zu den 1- und 2-Sterne-Hotels sowie 12 Betriebe zur nicht klassierten Kategorie. Im Vergleich zu 2008 hat die durchschnittliche Zahl geöffneter Betriebe im Jahr 2017 um 2 Betriebe zugenommen.",
+ "erlaeuterungen": "",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "_001",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Tourismusstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

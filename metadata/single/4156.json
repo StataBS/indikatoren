@@ -1,29 +1,40 @@
-{"title":"Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
-"subtitle":"«Wie zufrieden sind Sie mit der altersangepassten Einrichtung des Wohngebäudes?»",
-"kuerzel":"I.50.4.04156",
-"kuerzelKunde":"4.2.C",
-"description":"Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
-"id":4156,
-"thema":"50 Befragungen",
-"unterthema":"Befragung 55 plus",
-"kennzahlenset":"Wohnraumentwicklung",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2017-02-17T12:40:52.5252",
-"schlagwort":["Gebäude","Haushalt","Zufriedenheit"],
-"stufe1":"Ziel 4: Sozialpolitik",
-"stufe2":"4.2 Wohnraum für Betagte und Behinderte",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Sowohl 2011 als auch 2015 sind gut zwei Drittel der Befragten mit der altersangepassten Einrichtung des Wohngebäudes eher bis sehr zufrieden.",
-"erlaeuterungen":"",
-"template":"befragungen001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"05_02_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10_c"],
-"externalLinks":[""]
+{
+ "title": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
+ "subtitle": "«Wie zufrieden sind Sie mit der altersangepassten Einrichtung des Wohngebäudes?»",
+ "kuerzel": "I.50.4.04156",
+ "kuerzelKunde": "4.2.C",
+ "description": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
+ "id": 4156,
+ "thema": "50 Befragungen",
+ "unterthema": "Befragung 55 plus",
+ "kennzahlenset": "Wohnraumentwicklung",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-02-17T12:40:52.5252",
+ "schlagwort": [
+  "Gebäude",
+  "Haushalt",
+  "Zufriedenheit"
+ ],
+ "stufe1": "Ziel 4: Sozialpolitik",
+ "stufe2": "4.2 Wohnraum für Betagte und Behinderte",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Sowohl 2011 als auch 2015 sind gut zwei Drittel der Befragten mit der altersangepassten Einrichtung des Wohngebäudes eher bis sehr zufrieden.",
+ "erlaeuterungen": "",
+ "template": "befragungen001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "05_02_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10_c"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

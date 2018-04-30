@@ -1,29 +1,39 @@
-{"title":"Grenzgänger pro Beschäftigen nach Branche",
-"subtitle":"Basel-Stadt, pro besetzter Stelle",
-"kuerzel":"I.03.5.06461",
-"kuerzelKunde":"2.3-01",
-"description":"Grenzgänger pro Beschäftigen nach Branche",
-"id":6461,
-"thema":"03 Erwerbsleben",
-"unterthema":"Ausländische Erwerbstätige",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Erwerb"],
-"stufe1":"Übersicht Basler Arbeitsmarkt",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Abbildung zeigt die Zahl der Grenzgänger im Vergleich zu den auf dem baselstädtischen Arbeitsmarkt besetzten Stellen. Beispielsweise kommen in der Branche Chemie und Pharma 2017 rund 35 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2015) in diesem Bereich. Die Grenzgänger spielen auch in der Personalvermittlung und -überlassung (31%), der Industrie (ohne Chemie und Pharma, 28%), im Bereich der Gebäudebetreuung, Sicherheit und sonstigen wirtschaftlichen Dienstleistungen (28%), der Information und Kommunikation (28%), der Beratung, Planung, Forschung und im Immobilienwesen (27%), dem Baugewerbe (22%) sowie dem Handel (21%) eine wichtige Rolle. Eine eher geringe Bedeutung haben die Grenzgänger in den Bereichen Erziehung und Unterricht (5%), Kultur, Unterhaltung und persönliche Dienstleistungen (7%), Finanz- und Versicherungsdienstleistungen (8%) sowie in der Branche Öffentliche Verwaltung und Sozialversicherungen (9%).",
-"erlaeuterungen":"Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Beschäftigte (besetzte Stelle): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_301",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)","Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"],
-"externalLinks":[""]
+{
+ "title": "Grenzgänger pro Beschäftigen nach Branche",
+ "subtitle": "Basel-Stadt, pro besetzter Stelle",
+ "kuerzel": "I.03.5.06461",
+ "kuerzelKunde": "2.3-01",
+ "description": "Grenzgänger pro Beschäftigen nach Branche",
+ "id": 6461,
+ "thema": "03 Erwerbsleben",
+ "unterthema": "Ausländische Erwerbstätige",
+ "kennzahlenset": "Arbeitsmarkt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-14T00:00:00.000",
+ "schlagwort": [
+  "Erwerb"
+ ],
+ "stufe1": "Übersicht Basler Arbeitsmarkt",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die Abbildung zeigt die Zahl der Grenzgänger im Vergleich zu den auf dem baselstädtischen Arbeitsmarkt besetzten Stellen. Beispielsweise kommen in der Branche Chemie und Pharma 2017 rund 35 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2015) in diesem Bereich. Die Grenzgänger spielen auch in der Personalvermittlung und -überlassung (31%), der Industrie (ohne Chemie und Pharma, 28%), im Bereich der Gebäudebetreuung, Sicherheit und sonstigen wirtschaftlichen Dienstleistungen (28%), der Information und Kommunikation (28%), der Beratung, Planung, Forschung und im Immobilienwesen (27%), dem Baugewerbe (22%) sowie dem Handel (21%) eine wichtige Rolle. Eine eher geringe Bedeutung haben die Grenzgänger in den Bereichen Erziehung und Unterricht (5%), Kultur, Unterhaltung und persönliche Dienstleistungen (7%), Finanz- und Versicherungsdienstleistungen (8%) sowie in der Branche Öffentliche Verwaltung und Sozialversicherungen (9%).",
+ "erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Beschäftigte (besetzte Stelle): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_00_00_00_00_301",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
+  "Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

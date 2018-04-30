@@ -29,8 +29,6 @@
     }
   ],
   "chart": {
-    "marginBottom": 85,
-    "marginTop": 75,
     "type": "line"
   },
   "subtitle": {

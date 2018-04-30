@@ -1,29 +1,40 @@
-{"title":"Bevölkerungspyramide der Schweizerinnen und Schweizer",
-"subtitle":"Stand: 1997",
-"kuerzel":"I.01.1.06064",
-"kuerzelKunde":"A2-2",
-"description":"Bevölkerungspyramide der Schweizerinnen und Schweizer",
-"id":6064,
-"thema":"01 Bevölkerung",
-"unterthema":"Bestand und Struktur ",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Geschlecht","Bevölkerung","Staatsangehörigkeit"],
-"stufe1":"Kapitel A Bevölkerungsstruktur",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Diese Bevölkerungspyramide zeigt die Alterszusammensetzung der Schweizerinnen und Schweizer im Jahr 1997. Die Basis dieser Pyramide ist eher schmal, der Anteil der Kinder und Jugendlichen bis 19 Jahre ist eher klein. Bei den Männern verschmälert sich die Pyramide nach oben früher als bei den Frauen. Es gibt mehr ältere Frauen als ältere Männer. Die grösste Fünfjahresklasse bilden bei den Männern die 30- bis 34-Jährigen. Bei den Frauen sind die Klassen der 30- bis 34-Jährigen und der 65- bis 69-Jährigen am stärksten besetzt.",
-"erlaeuterungen":"Prozentanteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
-"template":"populationPyramid001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_012",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
+ "subtitle": "Stand: 1997",
+ "kuerzel": "I.01.1.06064",
+ "kuerzelKunde": "A2-2",
+ "description": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
+ "id": 6064,
+ "thema": "01 Bevölkerung",
+ "unterthema": "Bestand und Struktur ",
+ "kennzahlenset": "Integration",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-21T00:00:00.000",
+ "schlagwort": [
+  "Geschlecht",
+  "Bevölkerung",
+  "Staatsangehörigkeit"
+ ],
+ "stufe1": "Kapitel A Bevölkerungsstruktur",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Diese Bevölkerungspyramide zeigt die Alterszusammensetzung der Schweizerinnen und Schweizer im Jahr 1997. Die Basis dieser Pyramide ist eher schmal, der Anteil der Kinder und Jugendlichen bis 19 Jahre ist eher klein. Bei den Männern verschmälert sich die Pyramide nach oben früher als bei den Frauen. Es gibt mehr ältere Frauen als ältere Männer. Die grösste Fünfjahresklasse bilden bei den Männern die 30- bis 34-Jährigen. Bei den Frauen sind die Klassen der 30- bis 34-Jährigen und der 65- bis 69-Jährigen am stärksten besetzt.",
+ "erlaeuterungen": "Prozentanteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
+ "template": "populationPyramid001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_00_00_00_00_012",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

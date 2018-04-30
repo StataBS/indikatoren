@@ -1,29 +1,40 @@
-{"title":"Gini-Koeffizienten von Reineinkommen und Reinvermögen",
-"subtitle":"",
-"kuerzel":"I.18.2.06036",
-"kuerzelKunde":"GZ3",
-"description":"Gini-Koeffizienten von Reineinkommen und Reinvermögen",
-"id":6036,
-"thema":"18 Öffentliche Finanzen",
-"unterthema":"Steuern",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Einkommen","Arbeit","Erwerb"],
-"stufe1":"Bereich Gesellschaftlicher Zusammenhalt",
-"stufe2":"Chancengerechtigkeit",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Der Gini-Koeffizient des Reineinkommens nimmt im Zeitablauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich etwas konstanter auf höherem Niveau. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
-"erlaeuterungen":"",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"05_02_00_00_00_503",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Steuerstatistik Basel-Stadt"],
-"externalLinks":[""]
+{
+ "title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
+ "subtitle": "",
+ "kuerzel": "I.18.2.06036",
+ "kuerzelKunde": "GZ3",
+ "description": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
+ "id": 6036,
+ "thema": "18 Öffentliche Finanzen",
+ "unterthema": "Steuern",
+ "kennzahlenset": "Nachhaltigkeit",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-04-03T00:00:00.000",
+ "schlagwort": [
+  "Einkommen",
+  "Arbeit",
+  "Erwerb"
+ ],
+ "stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
+ "stufe2": "Chancengerechtigkeit",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitablauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich etwas konstanter auf höherem Niveau. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
+ "erlaeuterungen": "",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "05_02_00_00_00_503",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Steuerstatistik Basel-Stadt"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

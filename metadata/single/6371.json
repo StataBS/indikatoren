@@ -1,29 +1,39 @@
-{"title":"Anzahl Beschäftigte nach Branche",
-"subtitle":"",
-"kuerzel":"I.03.2.06347",
-"kuerzelKunde":"2.5",
-"description":"Anzahl Beschäftigte nach Branche",
-"id":6371,
-"thema":"03 Erwerbsleben",
-"unterthema":"Beschäftigte ",
-"kennzahlenset":"Legislaturplan (Print)",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Arbeit","Angestellte"],
-"stufe1":"Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Im Jahr 2015 sind in Basel-Stadt 190 753 Personen beschäftigt. Das sind 821 Personen weniger als im Vorjahr.  Den grössten Beschäftigungsrückgang verzeichnet die Branchengruppe Handel und Verkehr mit einer Abnahme um 1512 Personen, während im Gesundheits- und Sozialwesen mit 549 zusätzlichen Beschäftigten der grösste Zuwachs zu beobachten ist.",
-"erlaeuterungen":"Unternehmens-DL, Freiberufe umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; Übrige Branchen umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
-"template":"template001_print",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"02_00_00_00_00_000",
-"parentId":6347,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"],
-"externalLinks":[""]
+{
+ "title": "Anzahl Beschäftigte nach Branche",
+ "subtitle": "",
+ "kuerzel": "I.03.2.06347",
+ "kuerzelKunde": "2.5",
+ "description": "Anzahl Beschäftigte nach Branche",
+ "id": 6371,
+ "thema": "03 Erwerbsleben",
+ "unterthema": "Beschäftigte ",
+ "kennzahlenset": "Legislaturplan (Print)",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "",
+ "schlagwort": [
+  "Arbeit",
+  "Angestellte"
+ ],
+ "stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Im Jahr 2015 sind in Basel-Stadt 190 753 Personen beschäftigt. Das sind 821 Personen weniger als im Vorjahr.  Den grössten Beschäftigungsrückgang verzeichnet die Branchengruppe Handel und Verkehr mit einer Abnahme um 1512 Personen, während im Gesundheits- und Sozialwesen mit 549 zusätzlichen Beschäftigten der grösste Zuwachs zu beobachten ist.",
+ "erlaeuterungen": "Unternehmens-DL, Freiberufe umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; Übrige Branchen umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
+ "template": "template001_print",
+ "visible": true,
+ "visibleInPortal": false,
+ "orderKey": "02_00_00_00_00_000",
+ "parentId": 6347,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

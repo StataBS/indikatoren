@@ -1,29 +1,39 @@
-{"title":"Anteile der Haushalte",
-"subtitle":"nach Art des Haushalts",
-"kuerzel":"I.01.2.04141",
-"kuerzelKunde":"1.4.A1",
-"description":"Anteile der Haushalte",
-"id":4141,
-"thema":"01 Bevölkerung",
-"unterthema":"Haushalte",
-"kennzahlenset":"Wohnraumentwicklung",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2017-03-20T10:44:40.4040",
-"schlagwort":["Gebäude","Haushalt"],
-"stufe1":"Ziel 1: Gesellschaftspolitik",
-"stufe2":"1.4 Familiengerechter Wohnraum",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2016 rund 47% aus.",
-"erlaeuterungen":"Nichtfamilienhaushalte sind Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind. Die übrigen Mehrpersonenhaushalte werden zu den Familienhaushalten gezählt.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_04_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Anteile der Haushalte",
+ "subtitle": "nach Art des Haushalts",
+ "kuerzel": "I.01.2.04141",
+ "kuerzelKunde": "1.4.A1",
+ "description": "Anteile der Haushalte",
+ "id": 4141,
+ "thema": "01 Bevölkerung",
+ "unterthema": "Haushalte",
+ "kennzahlenset": "Wohnraumentwicklung",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-03-20T10:44:40.4040",
+ "schlagwort": [
+  "Gebäude",
+  "Haushalt"
+ ],
+ "stufe1": "Ziel 1: Gesellschaftspolitik",
+ "stufe2": "1.4 Familiengerechter Wohnraum",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2016 rund 47% aus.",
+ "erlaeuterungen": "Nichtfamilienhaushalte sind Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind. Die übrigen Mehrpersonenhaushalte werden zu den Familienhaushalten gezählt.",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_04_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

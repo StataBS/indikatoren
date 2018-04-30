@@ -1,29 +1,40 @@
-{"title":"Ankünfte nach Monat und Herkunft",
-"subtitle":"",
-"kuerzel":"I.10.1.06576",
-"kuerzelKunde":"2-9",
-"description":"Ankünfte nach Monat und Herkunft",
-"id":6576,
-"thema":"10 Tourismus",
-"unterthema":"Hotellerie",
-"kennzahlenset":"Tourismus",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Übernachtung","Gäste","Hotelbetten"],
-"stufe1":"",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Insgesamt 719 857 Gäste haben 2017 in den baselstädtischen Hotelbetrieben übernachtet.  Die Zahl der Ankünfte hat sich im Vergleich zu 2016 um 10,9% bzw. 70 755 erhöht.",
-"erlaeuterungen":"",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"_009",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Tourismusstatistik"],
-"externalLinks":[""]
+{
+ "title": "Ankünfte nach Monat und Herkunft",
+ "subtitle": "",
+ "kuerzel": "I.10.1.06576",
+ "kuerzelKunde": "2-9",
+ "description": "Ankünfte nach Monat und Herkunft",
+ "id": 6576,
+ "thema": "10 Tourismus",
+ "unterthema": "Hotellerie",
+ "kennzahlenset": "Tourismus",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-02-15T00:00:00.000",
+ "schlagwort": [
+  "Übernachtung",
+  "Gäste",
+  "Hotelbetten"
+ ],
+ "stufe1": "",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Insgesamt 719 857 Gäste haben 2017 in den baselstädtischen Hotelbetrieben übernachtet.  Die Zahl der Ankünfte hat sich im Vergleich zu 2016 um 10,9% bzw. 70 755 erhöht.",
+ "erlaeuterungen": "",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "_009",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Tourismusstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

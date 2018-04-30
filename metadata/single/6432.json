@@ -1,29 +1,40 @@
-{"title":"IV-Quote nach Staatsangehörigkeit und Alter",
-"subtitle":"Stand: 2016",
-"kuerzel":"I.13.1.06432",
-"kuerzelKunde":"C5-3",
-"description":"IV-Quote nach Staatsangehörigkeit und Alter",
-"id":6432,
-"thema":"13 Soziale Sicherheit",
-"unterthema":"Sozialversicherungen",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Staatsangehörigkeit","IV"],
-"stufe1":"Kapitel C Erwerb und Auskommen",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die IV-Quote der ausländischen Bevölkerung ist bis zum Alter von 60 Jahren tiefer als jene der Schweizer. Bei den 60- bis 64-Jährigen beträgt die IV-Quote 23,5% bei den Ausländern respektive 17,4% bei den Schweizern. Ab 40 Jahren nimmt das Wachstum der IV-Quote bei den Ausländern deutlich zu. Bei den Schweizern ist ein eher lineares Wachstum der IV-Quote ab 30 Jahren zu beobachten.",
-"erlaeuterungen":"",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_00_00_00_00_026",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Bundesamt für Sozialversicherungen"],
-"externalLinks":[""]
+{
+ "title": "IV-Quote nach Staatsangehörigkeit und Alter",
+ "subtitle": "Stand: 2016",
+ "kuerzel": "I.13.1.06432",
+ "kuerzelKunde": "C5-3",
+ "description": "IV-Quote nach Staatsangehörigkeit und Alter",
+ "id": 6432,
+ "thema": "13 Soziale Sicherheit",
+ "unterthema": "Sozialversicherungen",
+ "kennzahlenset": "Integration",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-21T00:00:00.000",
+ "schlagwort": [
+  "Staatsangehörigkeit",
+  "IV"
+ ],
+ "stufe1": "Kapitel C Erwerb und Auskommen",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die IV-Quote der ausländischen Bevölkerung ist bis zum Alter von 60 Jahren tiefer als jene der Schweizer. Bei den 60- bis 64-Jährigen beträgt die IV-Quote 23,5% bei den Ausländern respektive 17,4% bei den Schweizern. Ab 40 Jahren nimmt das Wachstum der IV-Quote bei den Ausländern deutlich zu. Bei den Schweizern ist ein eher lineares Wachstum der IV-Quote ab 30 Jahren zu beobachten.",
+ "erlaeuterungen": "",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "03_00_00_00_00_026",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+  "Bundesamt für Sozialversicherungen"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

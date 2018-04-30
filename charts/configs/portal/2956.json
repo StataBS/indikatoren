@@ -283,7 +283,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -312,7 +312,8 @@
     },
     "type": "column",
     "inverted": false,
-    "renderTo": "container-2956"
+    "renderTo": "container-2956",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -380,9 +381,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_8"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_8\u003Cbr\u002F\u003EZuletzt geändert: 2016-12-14"
   },
   "legend": {
     "symbolRadius": 0,

@@ -39,9 +39,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	//"y": 40,
-	//"x": 40,
-	"itemMarginBottom": 5,
+	  "itemMarginBottom": 5,
     "itemStyle": {
     "fontWeight": "normal"
     }
@@ -67,7 +65,6 @@
     "shared": true,
   },
   "chart": {
-    "marginBottom": 65,
     "type": "line",
     "alignTicks": false
   }

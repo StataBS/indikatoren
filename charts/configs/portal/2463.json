@@ -957,8 +957,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 600,
-    "spacingBottom": 45,
+    "height": 613,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -1024,9 +1024,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
   },
   "legend": {
     "enabled": true,

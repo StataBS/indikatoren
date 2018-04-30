@@ -1,29 +1,40 @@
-{"title":"Bruttogeschossfläche Wohnen nach Wohnviertel",
-"subtitle":"in Quadratmetern",
-"kuerzel":"I.09.1.05818",
-"kuerzelKunde":"ST 4-10",
-"description":"Bruttogeschossfläche Wohnen nach Wohnviertel",
-"id":5818,
-"thema":"09 Bau-, Wohnungswesen",
-"unterthema":"Gebäude und Wohnungen",
-"kennzahlenset":"Richtplan",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Wohnung"],
-"stufe1":"Sachgebiet Siedlung - Wohnen",
-"stufe2":"Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die stärkste Zunahme der für Wohnen genutzten Bruttogeschossfläche (BGF) von 1995 bis 2015 ergab sich - neben der Gemeinde Riehen - dank der Überbauung des Erlenmattareals im Wohnviertel Rosental. Nach Riehen weisen die Wohnviertel Gundeldingen und St. Johann im Jahr 2015 die höchsten Werte der BGF Wohnen auf.",
-"erlaeuterungen":"Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.",
-"template":"mappie001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_01_00_00_00_010",
-"parentId":null,
-"children":["6250"],
-"renderLink":[],
-"quellenangabe":["Planungsamt Basel-Stadt"],
-"externalLinks":[""]
+{
+ "title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
+ "subtitle": "in Quadratmetern",
+ "kuerzel": "I.09.1.05818",
+ "kuerzelKunde": "ST 4-10",
+ "description": "Bruttogeschossfläche Wohnen nach Wohnviertel",
+ "id": 5818,
+ "thema": "09 Bau-, Wohnungswesen",
+ "unterthema": "Gebäude und Wohnungen",
+ "kennzahlenset": "Richtplan",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-10-27T00:00:00.000",
+ "schlagwort": [
+  "Wohnung"
+ ],
+ "stufe1": "Sachgebiet Siedlung - Wohnen",
+ "stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die stärkste Zunahme der für Wohnen genutzten Bruttogeschossfläche (BGF) von 1995 bis 2015 ergab sich - neben der Gemeinde Riehen - dank der Überbauung des Erlenmattareals im Wohnviertel Rosental. Nach Riehen weisen die Wohnviertel Gundeldingen und St. Johann im Jahr 2015 die höchsten Werte der BGF Wohnen auf.",
+ "erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.",
+ "template": "mappie001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_01_00_00_00_010",
+ "parentId": null,
+ "children": [
+  "6250"
+ ],
+ "renderLink": [],
+ "quellenangabe": [
+  "Planungsamt Basel-Stadt"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

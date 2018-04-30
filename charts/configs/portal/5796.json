@@ -269,7 +269,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -297,7 +297,8 @@
           }
     },
     "type": "column",
-    "renderTo": "container-5796"
+    "renderTo": "container-5796",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -374,9 +375,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
   },
   "legend": {
     "symbolRadius": 0,

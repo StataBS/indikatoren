@@ -1,29 +1,40 @@
-{"title":"Kantonales Wettbewerbsprofil",
-"subtitle":"Basel-Stadt im Vergleich zum Median-Kanton, Stand: 2016",
-"kuerzel":"I.04.2.06127",
-"kuerzelKunde":"1.3",
-"description":"Kantonales Wettbewerbsprofil",
-"id":6127,
-"thema":"04 Volkswirtschaft",
-"unterthema":"Konjunktur",
-"kennzahlenset":"Legislaturplan",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Verwaltung"],
-"stufe1":"Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Basel-Stadt übertrifft in verschiedenen Bereichen des Kantonalen Wettbewerbsindikators den «Mediankanton», so z. B. bei Wirtschaftsstruktur, Innovation und Erreichbarkeit. Die Werte des hier dargestellten Mediankantons entsprechen dem Medianwert aller Kantone der jeweiligen Säule.",
-"erlaeuterungen":"Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt. Der Mediankanton ist ein Referenzkanton, der aus den Medianwerten der jeweiligen Wettbewerbssäulen zusammengesetzt ist. Der Medianwert der jeweiligen Säule unterteiltdie Rangliste der Kantone in eine obere und eine untere Hälfte mit je 13 Kantonen. Für die Interpretation der kantonalen Wettbewerbsprofile gilt: Je höher der Wert für einen Kanton in einer Säule ist, desto besser ist seine relative Bewertung.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_003",
-"parentId":null,
-"children":["6284"],
-"renderLink":[],
-"quellenangabe":["UBS Switzerland AG"],
-"externalLinks":[""]
+{
+ "title": "Kantonales Wettbewerbsprofil",
+ "subtitle": "Basel-Stadt im Vergleich zum Median-Kanton, Stand: 2016",
+ "kuerzel": "I.04.2.06127",
+ "kuerzelKunde": "1.3",
+ "description": "Kantonales Wettbewerbsprofil",
+ "id": 6127,
+ "thema": "04 Volkswirtschaft",
+ "unterthema": "Konjunktur",
+ "kennzahlenset": "Legislaturplan",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-11-29T00:00:00.000",
+ "schlagwort": [
+  "Verwaltung"
+ ],
+ "stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Basel-Stadt übertrifft in verschiedenen Bereichen des Kantonalen Wettbewerbsindikators den «Mediankanton», so z. B. bei Wirtschaftsstruktur, Innovation und Erreichbarkeit. Die Werte des hier dargestellten Mediankantons entsprechen dem Medianwert aller Kantone der jeweiligen Säule.",
+ "erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt. Der Mediankanton ist ein Referenzkanton, der aus den Medianwerten der jeweiligen Wettbewerbssäulen zusammengesetzt ist. Der Medianwert der jeweiligen Säule unterteiltdie Rangliste der Kantone in eine obere und eine untere Hälfte mit je 13 Kantonen. Für die Interpretation der kantonalen Wettbewerbsprofile gilt: Je höher der Wert für einen Kanton in einer Säule ist, desto besser ist seine relative Bewertung.",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_00_00_00_00_003",
+ "parentId": null,
+ "children": [
+  "6284"
+ ],
+ "renderLink": [],
+ "quellenangabe": [
+  "UBS Switzerland AG"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

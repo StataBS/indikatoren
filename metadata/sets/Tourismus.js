@@ -11,7 +11,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -44,7 +44,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -77,7 +77,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -110,7 +110,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -143,7 +143,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -176,7 +176,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -209,7 +209,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -242,7 +242,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -275,7 +275,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -308,7 +308,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -341,7 +341,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -374,7 +374,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -407,7 +407,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -440,7 +440,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",

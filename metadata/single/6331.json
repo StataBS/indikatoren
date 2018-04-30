@@ -1,29 +1,40 @@
-{"title":"Vertretung der Anliegen der Bevölkerung durch Behörden",
-"subtitle":"«Wie gut vertreten Ihrer Meinung nach die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen von der Bevölkerung?»",
-"kuerzel":"I.50.1.06331",
-"kuerzelKunde":"12.1",
-"description":"Vertretung der Anliegen der Bevölkerung durch Behörden",
-"id":6331,
-"thema":"50 Befragungen",
-"unterthema":"Bevölkerungsbefragung",
-"kennzahlenset":"Legislaturplan (Print)",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Verwaltung","Grosser Rat","Beurteilung"],
-"stufe1":"Ziel 12:  Der Service public ist modern und kundenfreundlich.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"2015 fühlten sich 68,2% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2011 entspricht dies einem Rückgang um 2,2 Prozentpunkte. In den vorhergehenden Befragungsjahren lag die Zufriedenheit mit der Vertretung durch die Behörden jeweils deutlich unter derjenigen von 2011 und 2015, und die Frage konnte deutlich häufiger nicht beantwortet werden.",
-"erlaeuterungen":"",
-"template":"befragungen001_print",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"12_00_00_00_00_000",
-"parentId":6185,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F21a"],
-"externalLinks":[""]
+{
+ "title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
+ "subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen von der Bevölkerung?»",
+ "kuerzel": "I.50.1.06331",
+ "kuerzelKunde": "12.1",
+ "description": "Vertretung der Anliegen der Bevölkerung durch Behörden",
+ "id": 6331,
+ "thema": "50 Befragungen",
+ "unterthema": "Bevölkerungsbefragung",
+ "kennzahlenset": "Legislaturplan (Print)",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "",
+ "schlagwort": [
+  "Verwaltung",
+  "Grosser Rat",
+  "Beurteilung"
+ ],
+ "stufe1": "Ziel 12:  Der Service public ist modern und kundenfreundlich.",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "2015 fühlten sich 68,2% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2011 entspricht dies einem Rückgang um 2,2 Prozentpunkte. In den vorhergehenden Befragungsjahren lag die Zufriedenheit mit der Vertretung durch die Behörden jeweils deutlich unter derjenigen von 2011 und 2015, und die Frage konnte deutlich häufiger nicht beantwortet werden.",
+ "erlaeuterungen": "",
+ "template": "befragungen001_print",
+ "visible": true,
+ "visibleInPortal": false,
+ "orderKey": "12_00_00_00_00_000",
+ "parentId": 6185,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F21a"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

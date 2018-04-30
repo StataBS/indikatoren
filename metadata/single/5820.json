@@ -1,30 +1,42 @@
-{"title":"Anteil übermässig mit Lärm belasteter Einwohner",
-"subtitle":"",
-"kuerzel":"I.02.5.05820",
-"kuerzelKunde":"ST 5-2",
-"description":"Anteil übermässig mit Lärm belasteter Einwohner",
-"id":5820,
-"thema":"02 Raum, Umwelt",
-"unterthema":"Luftschadstoffe",
-"kennzahlenset":"",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2017-06-22T11:57:46.4646",
-"schlagwort":["Bevölkerung","Umwelt"],
-"stufe1":"Strategie 5",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB (A) ausgesetzt sind, betrug 2008 knapp 24%. Bei 14% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16% der Grenzwert in der Nacht.",
-"erlaeuterungen":"Lärmbelastete Einwohner sind Personen, welche einer Lärmbelastung über dem Immissionsgrenzwert (IGW) gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Wohngebiete sind gemäss LSV den Empfindlichkeitsstufen (ES) I (Erholung; IGW 55 dB (A) am Tag und  45 dB (A) in der Nacht), II (Wohnzonen; IGW: 60 dB (A) am Tag und  50 dB (A) in der Nacht) und III (Wohn-/Gewerbezonen; IGW: 65 dB (A) am Tag und 55 dB (A) in der Nacht) zugeteilt.",
-"template":"template001",
-"option":"options001",
-"visible":false,
-"visibleInPortal":false,
-"orderKey":"Strategie 5_002",
-"parentId":5061,
-"children":["5880"],
-"renderLink":[],
-"quellenangabe":["Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster"],
-"externalLinks":[""]
+{
+ "title": "Anteil übermässig mit Lärm belasteter Einwohner",
+ "subtitle": "",
+ "kuerzel": "I.02.5.05820",
+ "kuerzelKunde": "ST 5-2",
+ "description": "Anteil übermässig mit Lärm belasteter Einwohner",
+ "id": 5820,
+ "thema": "02 Raum, Umwelt",
+ "unterthema": "Luftschadstoffe",
+ "kennzahlenset": "",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-06-22T11:57:46.4646",
+ "schlagwort": [
+  "Bevölkerung",
+  "Umwelt"
+ ],
+ "stufe1": "Strategie 5",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB (A) ausgesetzt sind, betrug 2008 knapp 24%. Bei 14% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16% der Grenzwert in der Nacht.",
+ "erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche einer Lärmbelastung über dem Immissionsgrenzwert (IGW) gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Wohngebiete sind gemäss LSV den Empfindlichkeitsstufen (ES) I (Erholung; IGW 55 dB (A) am Tag und  45 dB (A) in der Nacht), II (Wohnzonen; IGW: 60 dB (A) am Tag und  50 dB (A) in der Nacht) und III (Wohn-/Gewerbezonen; IGW: 65 dB (A) am Tag und 55 dB (A) in der Nacht) zugeteilt.",
+ "template": "template001",
+ "option": "options001",
+ "visible": false,
+ "visibleInPortal": false,
+ "orderKey": "Strategie 5_002",
+ "parentId": 5061,
+ "children": [
+  "5880"
+ ],
+ "renderLink": [],
+ "quellenangabe": [
+  "Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

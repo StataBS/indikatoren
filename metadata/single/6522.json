@@ -1,29 +1,39 @@
-{"title":"Medianlohn in der Schweiz, der Nordwestschweiz und Zürich",
-"subtitle":"Median in Franken",
-"kuerzel":"I.03.3.06522",
-"kuerzelKunde":"3.5-01",
-"description":"Medianlohn in der Schweiz, der Nordwestschweiz und Zürich",
-"id":6522,
-"thema":"03 Erwerbsleben",
-"unterthema":"Löhne ",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Grossregion"],
-"aktualisierungsdatum":"",
-"schlagwort":["Kantonsvergleich","Löhne"],
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Löhne",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Ergebnisse der Lohnstrukturerhebung zeigen, dass der Bruttomedianlohn in der Nordwestschweiz im Jahr 2014 mit 6 580 Franken 2,3% höher als im Landesdurchschnitt liegt, aber 3,4% tiefer als im Kanton Zürich ausfällt. Im Vergleich zu 2010 stieg der Medianlohn in der Nordwestschweiz um 2,0%, aber im Vergleich zu 2012 ging er um 1,1% zurück.",
-"erlaeuterungen":"Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_05_00_00_00_501",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"],
-"externalLinks":[""]
+{
+ "title": "Medianlohn in der Schweiz, der Nordwestschweiz und Zürich",
+ "subtitle": "Median in Franken",
+ "kuerzel": "I.03.3.06522",
+ "kuerzelKunde": "3.5-01",
+ "description": "Medianlohn in der Schweiz, der Nordwestschweiz und Zürich",
+ "id": 6522,
+ "thema": "03 Erwerbsleben",
+ "unterthema": "Löhne ",
+ "kennzahlenset": "Arbeitsmarkt",
+ "raeumlicheGliederung": [
+  "Grossregion"
+ ],
+ "aktualisierungsdatum": "2018-03-14T00:00:00.000",
+ "schlagwort": [
+  "Kantonsvergleich",
+  "Löhne"
+ ],
+ "stufe1": "Monitoring Basler Arbeitsmarkt",
+ "stufe2": "Löhne",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die Ergebnisse der Lohnstrukturerhebung zeigen, dass der Bruttomedianlohn in der Nordwestschweiz im Jahr 2014 mit 6 580 Franken 2,3% höher als im Landesdurchschnitt liegt, aber 3,4% tiefer als im Kanton Zürich ausfällt. Im Vergleich zu 2010 stieg der Medianlohn in der Nordwestschweiz um 2,0%, aber im Vergleich zu 2012 ging er um 1,1% zurück.",
+ "erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_05_00_00_00_501",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

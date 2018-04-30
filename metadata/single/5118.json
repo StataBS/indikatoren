@@ -1,29 +1,40 @@
-{"title":"Anteil Einfamilienhäuser",
-"subtitle":"Stand: 2017",
-"kuerzel":"I.09.1.05118",
-"kuerzelKunde":"RU-2.B",
-"description":"Anteil Einfamilienhäuser",
-"id":5118,
-"thema":"09 Bau-, Wohnungswesen",
-"unterthema":"Gebäude und Wohnungen",
-"kennzahlenset":"Wohnviertel",
-"raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2017-05-05T13:03:41.4141",
-"schlagwort":["Gebäude"],
-"stufe1":"Bereich 2: Raum und Umwelt",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Der Anteil Einfamilienhäuser ist in Bettingen am höchsten, im Wohnviertel Clara am niedrigsten.",
-"erlaeuterungen":"Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels in Prozent.",
-"template":"map001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_00_00_00_00_004",
-"parentId":4831,
-"children":[],
-"renderLink":["4831"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Anteil Einfamilienhäuser",
+ "subtitle": "Stand: 2017",
+ "kuerzel": "I.09.1.05118",
+ "kuerzelKunde": "RU-2.B",
+ "description": "Anteil Einfamilienhäuser",
+ "id": 5118,
+ "thema": "09 Bau-, Wohnungswesen",
+ "unterthema": "Gebäude und Wohnungen",
+ "kennzahlenset": "Wohnviertel",
+ "raeumlicheGliederung": [
+  "Wohnviertel"
+ ],
+ "aktualisierungsdatum": "2018-02-20T00:00:00.0000",
+ "schlagwort": [
+  "Gebäude"
+ ],
+ "stufe1": "Bereich 2: Raum und Umwelt",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Der Anteil Einfamilienhäuser ist in Bettingen am höchsten, im Wohnviertel Clara am niedrigsten.",
+ "erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels in Prozent.",
+ "template": "map001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_00_00_00_00_004",
+ "parentId": 4831,
+ "children": [],
+ "renderLink": [
+  "4831"
+ ],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

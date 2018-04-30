@@ -1,30 +1,39 @@
-{"title":"Leerwohnungsquote",
-"subtitle":"nach Wohnviertel in Prozent",
-"kuerzel":"I.09.2.06246",
-"kuerzelKunde":"ST 4-6",
-"description":"Leerwohnungsquote",
-"id":6246,
-"thema":"09 Bau-, Wohnungswesen",
-"unterthema":"Leerstand",
-"kennzahlenset":"Richtplan (Print)",
-"raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2017-07-04T09:44:27.2727",
-"schlagwort":["Wohnung"],
-"stufe1":"Sachgebiet Siedlung - Wohnen",
-"stufe2":"Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die höchsten Leerwohnungsquote wurden 2016 im Hirzbrunnen, im St. Alban sowie in der Gemeinde Bettingen verzeichnet. Die überwiegende Mehrheit der Wohnviertel erfuhr einen Rückgang der Leerwohnungsquote seit 1998.",
-"erlaeuterungen":"Stichtag ist der 1. Juni.",
-"template":"mappie001_print",
-"option":"options001",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"01_01_00_00_00_000",
-"parentId":5814,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Leerstandserhebung"],
-"externalLinks":[""]
+{
+ "title": "Leerwohnungsquote",
+ "subtitle": "nach Wohnviertel in Prozent",
+ "kuerzel": "I.09.2.06246",
+ "kuerzelKunde": "ST 4-6",
+ "description": "Leerwohnungsquote",
+ "id": 6246,
+ "thema": "09 Bau-, Wohnungswesen",
+ "unterthema": "Leerstand",
+ "kennzahlenset": "Richtplan (Print)",
+ "raeumlicheGliederung": [
+  "Wohnviertel"
+ ],
+ "aktualisierungsdatum": "2017-07-04T09:44:27.2727",
+ "schlagwort": [
+  "Wohnung"
+ ],
+ "stufe1": "Sachgebiet Siedlung - Wohnen",
+ "stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die höchsten Leerwohnungsquote wurden 2016 im Hirzbrunnen, im St. Alban sowie in der Gemeinde Bettingen verzeichnet. Die überwiegende Mehrheit der Wohnviertel erfuhr einen Rückgang der Leerwohnungsquote seit 1998.",
+ "erlaeuterungen": "Stichtag ist der 1. Juni.",
+ "template": "mappie001_print",
+ "option": "options001",
+ "visible": true,
+ "visibleInPortal": false,
+ "orderKey": "01_01_00_00_00_000",
+ "parentId": 5814,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Leerstandserhebung"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

@@ -44,7 +44,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -77,7 +77,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
@@ -143,7 +143,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
@@ -176,7 +176,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-02-28T00:00:00.000",
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
@@ -248,7 +248,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -281,7 +281,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -314,7 +314,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -347,7 +347,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -479,7 +479,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
@@ -512,7 +512,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
@@ -545,7 +545,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
@@ -578,7 +578,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
@@ -681,7 +681,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
@@ -714,7 +714,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
@@ -747,7 +747,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-02-28T00:00:00.000",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
@@ -780,7 +780,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
@@ -813,7 +813,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
@@ -846,7 +846,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -880,7 +880,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -914,7 +914,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -948,7 +948,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -982,7 +982,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
@@ -1050,7 +1050,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
@@ -1083,7 +1083,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
@@ -1116,7 +1116,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -1149,7 +1149,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -1182,7 +1182,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -1215,7 +1215,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",

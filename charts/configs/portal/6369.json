@@ -285,7 +285,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       7,
       3,
@@ -315,7 +315,8 @@
     },
     "type": "column",
     "inverted": false,
-    "renderTo": "container-6369"
+    "renderTo": "container-6369",
+    "spacingBottom": 18
   },
   "plotOptions": {
     "series": {
@@ -389,9 +390,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)\u003Cbr\u002F\u003EZuletzt geändert: 2016-12-7"
   },
   "legend": {
     "symbolRadius": 0,

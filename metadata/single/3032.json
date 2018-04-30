@@ -1,29 +1,40 @@
-{"title":"Arbeitstage von Meldepflichtigen im Dienstleistungssektor (I)",
-"subtitle":"Basel-Stadt",
-"kuerzel":"I.03.5.03032",
-"kuerzelKunde":"3.4-22",
-"description":"Arbeitstage von Meldepflichtigen im Dienstleistungssektor (I)",
-"id":3032,
-"thema":"03 Erwerbsleben",
-"unterthema":"Ausländische Erwerbstätige",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Ausländer","Erwerbstätigkeit","Branche"],
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Ausländische Erwerbstätige",
-"stufe3":"Meldepflichtige",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"In den Branchen Handel, Verkehr, Gastgewerbe und IT- Dienstleistung leisteten 2 682 Meldepflichtige 61 039 Arbeitstage. Im Vergleich zum Vorjahr entspricht dies bei den Arbeitstagen einer Zunahme um 4,7%. Im Gastgewerbe wurden 2017 insgesamt 1 213 Meldepflichtige registriert, die  28 778 Arbeitstage leisteten. Im Vergleich zum Vorjahr bedeutet dies eine Zunahme um 3 719 Arbeitstage bzw. 14,8%. Die messebedingten Spitzen im Gastgewerbe jeweils im 1. Quartal bzw. im März sind weiterhin erkennbar.",
-"erlaeuterungen":"Meldepflichtige: Dienstleistungserbringung von ausländischen Unternehmen und Selbstständigen in der Schweiz während maximal 90 Arbeitstagen pro Jahr.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_04_03_00_00_422",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"],
-"externalLinks":[""]
+{
+ "title": "Arbeitstage von Meldepflichtigen im Dienstleistungssektor (I)",
+ "subtitle": "Basel-Stadt",
+ "kuerzel": "I.03.5.03032",
+ "kuerzelKunde": "3.4-22",
+ "description": "Arbeitstage von Meldepflichtigen im Dienstleistungssektor (I)",
+ "id": 3032,
+ "thema": "03 Erwerbsleben",
+ "unterthema": "Ausländische Erwerbstätige",
+ "kennzahlenset": "Arbeitsmarkt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-14T00:00:00.000",
+ "schlagwort": [
+  "Ausländer",
+  "Erwerbstätigkeit",
+  "Branche"
+ ],
+ "stufe1": "Monitoring Basler Arbeitsmarkt",
+ "stufe2": "Ausländische Erwerbstätige",
+ "stufe3": "Meldepflichtige",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "In den Branchen Handel, Verkehr, Gastgewerbe und IT- Dienstleistung leisteten 2 682 Meldepflichtige 61 039 Arbeitstage. Im Vergleich zum Vorjahr entspricht dies bei den Arbeitstagen einer Zunahme um 4,7%. Im Gastgewerbe wurden 2017 insgesamt 1 213 Meldepflichtige registriert, die  28 778 Arbeitstage leisteten. Im Vergleich zum Vorjahr bedeutet dies eine Zunahme um 3 719 Arbeitstage bzw. 14,8%. Die messebedingten Spitzen im Gastgewerbe jeweils im 1. Quartal bzw. im März sind weiterhin erkennbar.",
+ "erlaeuterungen": "Meldepflichtige: Dienstleistungserbringung von ausländischen Unternehmen und Selbstständigen in der Schweiz während maximal 90 Arbeitstagen pro Jahr.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_04_03_00_00_422",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

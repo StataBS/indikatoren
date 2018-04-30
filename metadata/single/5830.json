@@ -1,30 +1,38 @@
-{"title":"Kurskilometer des öff. Verkehrs in Basel-Stadt",
-"subtitle":"in Mio. Kilometer",
-"kuerzel":"I.11.2.05830",
-"kuerzelKunde":"",
-"description":"Kurskilometer des öff. Verkehrs in Basel-Stadt",
-"id":5830,
-"thema":"11 Verkehr",
-"unterthema":"Öffentlicher Verkehr",
-"kennzahlenset":"Richtplan",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2017-07-04T10:03:49.4949",
-"schlagwort":["Mobilität"],
-"stufe1":"Strategie 11",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"wird zurzeit nicht verwendet",
-"erlaeuterungen":"",
-"template":"template001",
-"option":"options001",
-"visible":false,
-"visibleInPortal":false,
-
-"parentId":null,
-"children":["5889"],
-"renderLink":[],
-"quellenangabe":[],
-"externalLinks":[""]
+{
+ "title": "Kurskilometer des öff. Verkehrs in Basel-Stadt",
+ "subtitle": "in Mio. Kilometer",
+ "kuerzel": "I.11.2.05830",
+ "kuerzelKunde": "",
+ "description": "Kurskilometer des öff. Verkehrs in Basel-Stadt",
+ "id": 5830,
+ "thema": "11 Verkehr",
+ "unterthema": "Öffentlicher Verkehr",
+ "kennzahlenset": "Richtplan",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-07-04T10:03:49.4949",
+ "schlagwort": [
+  "Mobilität"
+ ],
+ "stufe1": "Strategie 11",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "wird zurzeit nicht verwendet",
+ "erlaeuterungen": "",
+ "template": "template001",
+ "option": "options001",
+ "visible": false,
+ "visibleInPortal": false,
+ "parentId": null,
+ "children": [
+  "5889"
+ ],
+ "renderLink": [],
+ "quellenangabe": [],
+ "externalLinks": [
+  ""
+ ]
 }

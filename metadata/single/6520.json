@@ -1,29 +1,40 @@
-{"title":"Zuwanderung von Erwerbstätigen im Dienstleistungssektor (II)",
-"subtitle":"Kurz- und Daueraufenthalter, Basel-Stadt",
-"kuerzel":"I.03.5.06520",
-"kuerzelKunde":"3.4-15",
-"description":"Zuwanderung von Erwerbstätigen im Dienstleistungssektor (II)",
-"id":6520,
-"thema":"03 Erwerbsleben",
-"unterthema":"Ausländische Erwerbstätige",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Ausländer","Erwerbstätigkeit","Branche"],
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Ausländische Erwerbstätige",
-"stufe3":"Zuwanderung",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Der grösste Teil der zugewanderten Erwerbstätigen ist im Bereich Beratung, Planung, Forschung, Immobilien, IT und sonstige Dienstleistungen (inkl. Gebäudereinigung und Personalvermittlung) tätig. Mit rund 800 neuen Bewilligungen pro Quartal hat sich die Zuwanderung in diesem Bereich seit 2009 fast verdoppelt. Im 1. Quartal 2017 wurde ein Höchstwert von 1 056 neuen Bewilligungen erreicht. Diese breit gefasste Dienstleistungsgruppe kann nicht detaillierter ausgewiesen werden.",
-"erlaeuterungen":"Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_04_02_00_00_415",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"],
-"externalLinks":[""]
+{
+ "title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (II)",
+ "subtitle": "Kurz- und Daueraufenthalter, Basel-Stadt",
+ "kuerzel": "I.03.5.06520",
+ "kuerzelKunde": "3.4-15",
+ "description": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (II)",
+ "id": 6520,
+ "thema": "03 Erwerbsleben",
+ "unterthema": "Ausländische Erwerbstätige",
+ "kennzahlenset": "Arbeitsmarkt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-14T00:00:00.000",
+ "schlagwort": [
+  "Ausländer",
+  "Erwerbstätigkeit",
+  "Branche"
+ ],
+ "stufe1": "Monitoring Basler Arbeitsmarkt",
+ "stufe2": "Ausländische Erwerbstätige",
+ "stufe3": "Zuwanderung",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Der grösste Teil der zugewanderten Erwerbstätigen ist im Bereich Beratung, Planung, Forschung, Immobilien, IT und sonstige Dienstleistungen (inkl. Gebäudereinigung und Personalvermittlung) tätig. Mit rund 800 neuen Bewilligungen pro Quartal hat sich die Zuwanderung in diesem Bereich seit 2009 fast verdoppelt. Im 1. Quartal 2017 wurde ein Höchstwert von 1 056 neuen Bewilligungen erreicht. Diese breit gefasste Dienstleistungsgruppe kann nicht detaillierter ausgewiesen werden.",
+ "erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_04_02_00_00_415",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

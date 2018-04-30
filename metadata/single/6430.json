@@ -1,29 +1,40 @@
-{"title":"IV-Quote nach Staatsangehörigkeit",
-"subtitle":"",
-"kuerzel":"I.13.1.06430",
-"kuerzelKunde":"C5-1",
-"description":"IV-Quote nach Staatsangehörigkeit",
-"id":6430,
-"thema":"13 Soziale Sicherheit",
-"unterthema":"Sozialversicherungen",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Staatsangehörigkeit","IV"],
-"stufe1":"Kapitel C Erwerb und Auskommen",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Seit 2005 sank die IV-Quote kontinuierlich von 8,9% auf 6,5%. Die höchste IV-Quote weist 2016 mit 12,0% die Türkei auf, gefolgt von den Balkanländern (10,0%) und Italien (8,6%). Gegenüber 2001 ist die IV-Quote der Italienerinnen und Italiener um 7,3 Prozentpunkte gesunken. Die IV-Quoten der arabischen, afrikanischen und übrigen Länder sind deutlich unter dem Durchschnitt. Sie haben die 5%-Marke über den Gesamtbeobachtungszeitraum nie überschritten.",
-"erlaeuterungen":"IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen werden für das Jahr 2001 die 18- bis 61-Jährigen, ab 2002 die 18- bis 62-Jährigen und ab 2005 die 18- bis 63-Jährigen berücksichtigt, bei den Männern sind es die 18- bis 64-Jährigen im erwerbsfähigen Alter.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_00_00_00_00_024",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Bundesamt für Sozialversicherungen"],
-"externalLinks":[""]
+{
+ "title": "IV-Quote nach Staatsangehörigkeit",
+ "subtitle": "",
+ "kuerzel": "I.13.1.06430",
+ "kuerzelKunde": "C5-1",
+ "description": "IV-Quote nach Staatsangehörigkeit",
+ "id": 6430,
+ "thema": "13 Soziale Sicherheit",
+ "unterthema": "Sozialversicherungen",
+ "kennzahlenset": "Integration",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-21T00:00:00.000",
+ "schlagwort": [
+  "Staatsangehörigkeit",
+  "IV"
+ ],
+ "stufe1": "Kapitel C Erwerb und Auskommen",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Seit 2005 sank die IV-Quote kontinuierlich von 8,9% auf 6,5%. Die höchste IV-Quote weist 2016 mit 12,0% die Türkei auf, gefolgt von den Balkanländern (10,0%) und Italien (8,6%). Gegenüber 2001 ist die IV-Quote der Italienerinnen und Italiener um 7,3 Prozentpunkte gesunken. Die IV-Quoten der arabischen, afrikanischen und übrigen Länder sind deutlich unter dem Durchschnitt. Sie haben die 5%-Marke über den Gesamtbeobachtungszeitraum nie überschritten.",
+ "erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen werden für das Jahr 2001 die 18- bis 61-Jährigen, ab 2002 die 18- bis 62-Jährigen und ab 2005 die 18- bis 63-Jährigen berücksichtigt, bei den Männern sind es die 18- bis 64-Jährigen im erwerbsfähigen Alter.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "03_00_00_00_00_024",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+  "Bundesamt für Sozialversicherungen"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

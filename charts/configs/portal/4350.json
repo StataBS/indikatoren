@@ -71,14 +71,12 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 75,
     "style": {
       "fontFamily": "Arial"
     },
     "type": "line",
-    "marginBottom": 85,
-    "marginTop": 75,
     "renderTo": "container-4350"
   },
   "title": {
@@ -132,9 +130,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -45
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EProRheno AG;\u003Cbr\u002F\u003EStatistisches Amt Basel-Landschaft"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EProRheno AG;\u003Cbr\u002F\u003EStatistisches Amt Basel-Landschaft\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-14"
   },
   "legend": {
     "enabled": false,

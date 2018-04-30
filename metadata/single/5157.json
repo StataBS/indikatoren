@@ -1,29 +1,40 @@
-{"title":"Wanderungen: Ausländer",
-"subtitle":"Stand: 2007 bis 2016",
-"kuerzel":"I.01.5.05157",
-"kuerzelKunde":"BE8.3",
-"description":"Wanderungen: Ausländer",
-"id":5157,
-"thema":"01 Bevölkerung",
-"unterthema":"Wanderungen",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Bevölkerung","Ausland","Wanderung"],
-"stufe1":"Bereich Bevölkerung",
-"stufe2":"Bevölkerung",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"In allen elf Fünfjahresklassen zwischen 0 und 54 Jahren ergaben sich bei den zu- und weggezogenen ausländischen Staatsangehörigen der Jahre 2007 bis 2016 Wanderungsgewinne. Am deutlichsten zeigte sich dies bei den Ausländern im Alter zwischen 25 und 29 Jahren, bei welchen der Zuzugsüberschuss 7 252 betrug. Kleine Wanderungsverluste zeigen sich in den Altersklassen ab 55 Jahren.",
-"erlaeuterungen":"Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung.",
-"template":"populationPyramid001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_01_00_00_00_112",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Wanderungen: Ausländer",
+ "subtitle": "Stand: 2007 bis 2016",
+ "kuerzel": "I.01.5.05157",
+ "kuerzelKunde": "BE8.3",
+ "description": "Wanderungen: Ausländer",
+ "id": 5157,
+ "thema": "01 Bevölkerung",
+ "unterthema": "Wanderungen",
+ "kennzahlenset": "Nachhaltigkeit",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-04-03T00:00:00.000",
+ "schlagwort": [
+  "Bevölkerung",
+  "Ausland",
+  "Wanderung"
+ ],
+ "stufe1": "Bereich Bevölkerung",
+ "stufe2": "Bevölkerung",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "In allen elf Fünfjahresklassen zwischen 0 und 54 Jahren ergaben sich bei den zu- und weggezogenen ausländischen Staatsangehörigen der Jahre 2007 bis 2016 Wanderungsgewinne. Am deutlichsten zeigte sich dies bei den Ausländern im Alter zwischen 25 und 29 Jahren, bei welchen der Zuzugsüberschuss 7 252 betrug. Kleine Wanderungsverluste zeigen sich in den Altersklassen ab 55 Jahren.",
+ "erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung.",
+ "template": "populationPyramid001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_01_00_00_00_112",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

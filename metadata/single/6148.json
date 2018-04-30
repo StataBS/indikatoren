@@ -1,29 +1,44 @@
-{"title":"Anteil Arbeitnehmende in Unternehmensleitung oder Vorgesetztenfunktion nach Geschlecht",
-"subtitle":"",
-"kuerzel":"I.03.1.06148",
-"kuerzelKunde":"4.7",
-"description":"Anteil Arbeitnehmende in Unternehmensleitung oder Vorgesetztenfunktion nach Geschlecht",
-"id":6148,
-"thema":"03 Erwerbsleben",
-"unterthema":"Erwerbspersonen ",
-"kennzahlenset":"Legislaturplan",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Geschlecht","Arbeit","Erwerb","Beschäftigte"],
-"stufe1":"Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2016 bei den Männern etwa 38%, bei den Frauen rund 27%.",
-"erlaeuterungen":"Die Ergebnisse basieren auf der Hochrechnung einer Stichprobenerhebung von rund 1 500 in Basel-Stadt wohnhaften Personen. Bei der Interpretation der Ergebnisse muss die Unsicherheit von Stichprobenerhebungen berücksichtigt werden.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"04_00_00_00_00_007",
-"parentId":null,
-"children":["6301","6435"],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"],
-"externalLinks":[""]
+{
+ "title": "Anteil Arbeitnehmende in Unternehmensleitung oder Vorgesetztenfunktion nach Geschlecht",
+ "subtitle": "",
+ "kuerzel": "I.03.1.06148",
+ "kuerzelKunde": "4.7",
+ "description": "Anteil Arbeitnehmende in Unternehmensleitung oder Vorgesetztenfunktion nach Geschlecht",
+ "id": 6148,
+ "thema": "03 Erwerbsleben",
+ "unterthema": "Erwerbspersonen ",
+ "kennzahlenset": "Legislaturplan",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-11-29T00:00:00.000",
+ "schlagwort": [
+  "Geschlecht",
+  "Arbeit",
+  "Erwerb",
+  "Beschäftigte"
+ ],
+ "stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2016 bei den Männern etwa 38%, bei den Frauen rund 27%.",
+ "erlaeuterungen": "Die Ergebnisse basieren auf der Hochrechnung einer Stichprobenerhebung von rund 1 500 in Basel-Stadt wohnhaften Personen. Bei der Interpretation der Ergebnisse muss die Unsicherheit von Stichprobenerhebungen berücksichtigt werden.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "04_00_00_00_00_007",
+ "parentId": null,
+ "children": [
+  "6301",
+  "6435"
+ ],
+ "renderLink": [],
+ "quellenangabe": [
+  "Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

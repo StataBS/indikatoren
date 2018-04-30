@@ -1,29 +1,40 @@
-{"title":"Strassenverkehrsunfälle und verunfallte Personen",
-"subtitle":"",
-"kuerzel":"I.11.7.05186",
-"kuerzelKunde":"GW10",
-"description":"Strassenverkehrsunfälle und verunfallte Personen",
-"id":5186,
-"thema":"11 Verkehr",
-"unterthema":"Strassenverkehrsunfälle",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Auto","Sicherheit","Verkehr"],
-"stufe1":"Bereich Grundbedürfnisse und Wohlergehen",
-"stufe2":"Sicherheit",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Zahl der Unfälle lag 2016 bei insgesamt 1 140. Diese setzt sich zusammen aus 871 durch die Polizei rapportierte Unfälle und 269 beanzeigte Parkschäden. Insgesamt gab es 490 verunfallte Personen: 389 Leichtverletzte, 97 Schwerverletzte und 4 Getötete.",
-"erlaeuterungen":"",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_04_00_00_00_310",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Kantonspolizei Basel-Stadt"],
-"externalLinks":[""]
+{
+ "title": "Strassenverkehrsunfälle und verunfallte Personen",
+ "subtitle": "",
+ "kuerzel": "I.11.7.05186",
+ "kuerzelKunde": "GW10",
+ "description": "Strassenverkehrsunfälle und verunfallte Personen",
+ "id": 5186,
+ "thema": "11 Verkehr",
+ "unterthema": "Strassenverkehrsunfälle",
+ "kennzahlenset": "Nachhaltigkeit",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-04-03T00:00:00.000",
+ "schlagwort": [
+  "Auto",
+  "Sicherheit",
+  "Verkehr"
+ ],
+ "stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+ "stufe2": "Sicherheit",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die Zahl der Unfälle lag 2016 bei insgesamt 1 140. Diese setzt sich zusammen aus 871 durch die Polizei rapportierte Unfälle und 269 beanzeigte Parkschäden. Insgesamt gab es 490 verunfallte Personen: 389 Leichtverletzte, 97 Schwerverletzte und 4 Getötete.",
+ "erlaeuterungen": "",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "03_04_00_00_00_310",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Kantonspolizei Basel-Stadt"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

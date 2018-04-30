@@ -103,7 +103,8 @@
                 }
     },
     "type": "column",
-    "renderTo": "container-6310"
+    "renderTo": "container-6310",
+    "spacingBottom": 8
   },
   "plotOptions": {
     "series": {

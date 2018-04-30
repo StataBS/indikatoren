@@ -1,29 +1,40 @@
-{"title":"Übrige Ausländer",
-"subtitle":"nach einzelnen Staatsangehörigkeiten, Stand: 2016",
-"kuerzel":"I.01.1.06061",
-"kuerzelKunde":"A1-8",
-"description":"Übrige Ausländer",
-"id":6061,
-"thema":"01 Bevölkerung",
-"unterthema":"Bestand und Struktur ",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Bevölkerung","Ausland","Staatsangehörigkeit"],
-"stufe1":"Kapitel A Bevölkerungsstruktur",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Von 7 922 Personen, die Ende 2016 zur Kategorie «Übriges Ausland» zählten, bildeten Inder die grösste Bevölkerungsgruppe, gefolgt von Staatsangehörigen der Vereinigten Staaten und von Sri Lanka.",
-"erlaeuterungen":"",
-"template":"pie001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_008",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Übrige Ausländer",
+ "subtitle": "nach einzelnen Staatsangehörigkeiten, Stand: 2016",
+ "kuerzel": "I.01.1.06061",
+ "kuerzelKunde": "A1-8",
+ "description": "Übrige Ausländer",
+ "id": 6061,
+ "thema": "01 Bevölkerung",
+ "unterthema": "Bestand und Struktur ",
+ "kennzahlenset": "Integration",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-21T00:00:00.000",
+ "schlagwort": [
+  "Bevölkerung",
+  "Ausland",
+  "Staatsangehörigkeit"
+ ],
+ "stufe1": "Kapitel A Bevölkerungsstruktur",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Von 7 922 Personen, die Ende 2016 zur Kategorie «Übriges Ausland» zählten, bildeten Inder die grösste Bevölkerungsgruppe, gefolgt von Staatsangehörigen der Vereinigten Staaten und von Sri Lanka.",
+ "erlaeuterungen": "",
+ "template": "pie001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_00_00_00_00_008",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

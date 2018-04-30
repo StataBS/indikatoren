@@ -1,29 +1,39 @@
-{"title":"Bedrohungen und Angriffe",
-"subtitle":"«Sind Sie im letzten Jahr bedroht oder angegriffen worden?»",
-"kuerzel":"I.50.1.04853",
-"kuerzelKunde":"1.2.02",
-"description":"Bedrohungen und Angriffe",
-"id":4853,
-"thema":"50 Befragungen",
-"unterthema":"Bevölkerungsbefragung",
-"kennzahlenset":"Gesellschaftlicher-Zusammenhalt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2017-02-17T17:16:52.5252",
-"schlagwort":["Gefühl","Sicherheit"],
-"stufe1":"Kernbereich 1: Soziale Beziehungen",
-"stufe2":"1.2 Vertrauen in Mitmenschen",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"2015 gaben 6,2% der Befragten an, im letzten Jahr bedroht oder angegriffen worden zu sein. Dieser Anteil ist im Vergleich mit den Vorjahren um zwischen 1,4 (2011) bis 2,8 (2005) Prozentpunkte geringer.",
-"erlaeuterungen":"",
-"template":"befragungenProzent001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_02_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9b"],
-"externalLinks":[""]
+{
+ "title": "Bedrohungen und Angriffe",
+ "subtitle": "«Sind Sie im letzten Jahr bedroht oder angegriffen worden?»",
+ "kuerzel": "I.50.1.04853",
+ "kuerzelKunde": "1.2.02",
+ "description": "Bedrohungen und Angriffe",
+ "id": 4853,
+ "thema": "50 Befragungen",
+ "unterthema": "Bevölkerungsbefragung",
+ "kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-02-17T17:16:52.5252",
+ "schlagwort": [
+  "Gefühl",
+  "Sicherheit"
+ ],
+ "stufe1": "Kernbereich 1: Soziale Beziehungen",
+ "stufe2": "1.2 Vertrauen in Mitmenschen",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "2015 gaben 6,2% der Befragten an, im letzten Jahr bedroht oder angegriffen worden zu sein. Dieser Anteil ist im Vergleich mit den Vorjahren um zwischen 1,4 (2011) bis 2,8 (2005) Prozentpunkte geringer.",
+ "erlaeuterungen": "",
+ "template": "befragungenProzent001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_02_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9b"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

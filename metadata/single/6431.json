@@ -1,29 +1,40 @@
-{"title":"IV-Quote nach Staatsangehörigkeit",
-"subtitle":"Top 6 der IV-Bezüger",
-"kuerzel":"I.13.1.06431",
-"kuerzelKunde":"C5-2",
-"description":"IV-Quote nach Staatsangehörigkeit",
-"id":6431,
-"thema":"13 Soziale Sicherheit",
-"unterthema":"Sozialversicherungen",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Staatsangehörigkeit","IV"],
-"stufe1":"Kapitel C Erwerb und Auskommen",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Seit 2009 ist die IV-Quote bei allen dargestellten Staatsangehörigkeiten zurückgegangen. Mit 12,0% weist die Türkei 2016 die höchste IV-Quote auf, gefolgt von den Ländern des ehemaligen Jugoslawien mit 10,7% und Italien mit 8,6%. Die IV-Quote der Schweizerinnen und Schweizer liegt bei 8,0%.",
-"erlaeuterungen":"IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen werden für das Jahr 2001 die 18- bis 61-Jährigen, ab 2002 die 18- bis 62-Jährigen und ab 2005 die 18- bis 63-Jährigen berücksichtigt, bei den Männern sind es die 18- bis 64-Jährigen im erwerbsfähigen Alter. Es werden nur jene Nationen berücksichtigt, die 2016 mehr als 50 IV-Bezügerinnen und Bezüger aufweisen. Ehemaliges Jugoslawien: Um eine Zeitreihe über den gesamten Beobachtungszeitraum zu gewährleisten, werden die betroffenen Staaten über den gesamten Zeitraum zusammengefasst dargestellt. Im Zuge der Einführung der 13-stelligen Versichertennummer wurden 2009 zahlreiche Personen neu als Schweizer geführt, deren Einbürgerung bereits in den Vorjahren vollzogen wurde.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_00_00_00_00_025",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Bundesamt für Sozialversicherungen"],
-"externalLinks":[""]
+{
+ "title": "IV-Quote nach Staatsangehörigkeit",
+ "subtitle": "Top 6 der IV-Bezüger",
+ "kuerzel": "I.13.1.06431",
+ "kuerzelKunde": "C5-2",
+ "description": "IV-Quote nach Staatsangehörigkeit",
+ "id": 6431,
+ "thema": "13 Soziale Sicherheit",
+ "unterthema": "Sozialversicherungen",
+ "kennzahlenset": "Integration",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-21T00:00:00.000",
+ "schlagwort": [
+  "Staatsangehörigkeit",
+  "IV"
+ ],
+ "stufe1": "Kapitel C Erwerb und Auskommen",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Seit 2009 ist die IV-Quote bei allen dargestellten Staatsangehörigkeiten zurückgegangen. Mit 12,0% weist die Türkei 2016 die höchste IV-Quote auf, gefolgt von den Ländern des ehemaligen Jugoslawien mit 10,7% und Italien mit 8,6%. Die IV-Quote der Schweizerinnen und Schweizer liegt bei 8,0%.",
+ "erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen werden für das Jahr 2001 die 18- bis 61-Jährigen, ab 2002 die 18- bis 62-Jährigen und ab 2005 die 18- bis 63-Jährigen berücksichtigt, bei den Männern sind es die 18- bis 64-Jährigen im erwerbsfähigen Alter. Es werden nur jene Nationen berücksichtigt, die 2016 mehr als 50 IV-Bezügerinnen und Bezüger aufweisen. Ehemaliges Jugoslawien: Um eine Zeitreihe über den gesamten Beobachtungszeitraum zu gewährleisten, werden die betroffenen Staaten über den gesamten Zeitraum zusammengefasst dargestellt. Im Zuge der Einführung der 13-stelligen Versichertennummer wurden 2009 zahlreiche Personen neu als Schweizer geführt, deren Einbürgerung bereits in den Vorjahren vollzogen wurde.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "03_00_00_00_00_025",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+  "Bundesamt für Sozialversicherungen"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

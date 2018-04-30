@@ -1,29 +1,39 @@
-{"title":"Beschäftigung im Dienstleistungssektor (III)",
-"subtitle":"Anzahl Vollzeitäquivalente, Basel-Stadt",
-"kuerzel":"I.03.2.06457",
-"kuerzelKunde":"3.2-08",
-"description":"Beschäftigung im Dienstleistungssektor (III)",
-"id":6457,
-"thema":"03 Erwerbsleben",
-"unterthema":"Beschäftigte ",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Beschäftigte","Branche"],
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Beschäftigung",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Im Gesundheits- und Sozialwesen liegt die Beschäftigung im Jahr 2015 bei rund 21 300 VZÄ, was einem Wachstum von 3,0% gegenüber dem Vorjahr entspricht. Auch in der Branche Öffentliche Verwaltung und Sozialversicherungen sowie in der Branche Kultur, Unterhaltung und persönliche Dienstleistungen hat die Beschäftigung zugenommen, und zwar um 0,8% bzw. 1,9%. Die Branche Erziehung und Unterricht verzeichnet im Jahr 2015 einen Rückgang der VZÄ um 2,0% gegenüber dem Vorjahr.",
-"erlaeuterungen":"Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_02_00_00_00_208",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"],
-"externalLinks":[""]
+{
+ "title": "Beschäftigung im Dienstleistungssektor (III)",
+ "subtitle": "Anzahl Vollzeitäquivalente, Basel-Stadt",
+ "kuerzel": "I.03.2.06457",
+ "kuerzelKunde": "3.2-08",
+ "description": "Beschäftigung im Dienstleistungssektor (III)",
+ "id": 6457,
+ "thema": "03 Erwerbsleben",
+ "unterthema": "Beschäftigte ",
+ "kennzahlenset": "Arbeitsmarkt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-14T00:00:00.000",
+ "schlagwort": [
+  "Beschäftigte",
+  "Branche"
+ ],
+ "stufe1": "Monitoring Basler Arbeitsmarkt",
+ "stufe2": "Beschäftigung",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Im Gesundheits- und Sozialwesen liegt die Beschäftigung im Jahr 2015 bei rund 21 300 VZÄ, was einem Wachstum von 3,0% gegenüber dem Vorjahr entspricht. Auch in der Branche Öffentliche Verwaltung und Sozialversicherungen sowie in der Branche Kultur, Unterhaltung und persönliche Dienstleistungen hat die Beschäftigung zugenommen, und zwar um 0,8% bzw. 1,9%. Die Branche Erziehung und Unterricht verzeichnet im Jahr 2015 einen Rückgang der VZÄ um 2,0% gegenüber dem Vorjahr.",
+ "erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_02_00_00_00_208",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

@@ -1,29 +1,39 @@
-{"title":"Erdbebenertüchtigung von Bauwerken",
-"subtitle":"Anzahl Bauwerke",
-"kuerzel":"I.09.11.04329",
-"kuerzelKunde":"0703",
-"description":"Erdbebenertüchtigung von Bauwerken",
-"id":4329,
-"thema":"09 Bau-, Wohnungswesen",
-"unterthema":"Naturgefahren",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Naturgefahren"],
-"stufe1":"Thema Naturgefahren",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0703' target='_blank'>Umweltbericht beider Basel</a>.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"07_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bau- und Gastgewerbeinspektorat Basel-Stadt"],
-"externalLinks":["<a href = 'https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/fachinformationen-erdbeben/schutz-vor-erdbeben/erdbebengerechtes-bauen/erdbebensichere-neubauten.html' target = '_blank'>Erdbebensichere Neubauten (BAFU)</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0703' target = '_blank'>Umweltbericht beider Basel</a>"]
+{
+ "title": "Erdbebenertüchtigung von Bauwerken",
+ "subtitle": "Anzahl Bauwerke",
+ "kuerzel": "I.09.11.04329",
+ "kuerzelKunde": "0703",
+ "description": "Erdbebenertüchtigung von Bauwerken",
+ "id": 4329,
+ "thema": "09 Bau-, Wohnungswesen",
+ "unterthema": "Naturgefahren",
+ "kennzahlenset": "Umwelt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-07-11T00:00:00.000",
+ "schlagwort": [
+  "Naturgefahren"
+ ],
+ "stufe1": "Thema Naturgefahren",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "",
+ "erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0703' target='_blank'>Umweltbericht beider Basel</a>.",
+ "template": "dotplot",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "07_00_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Bau- und Gastgewerbeinspektorat Basel-Stadt"
+ ],
+ "externalLinks": [
+  "<a href = 'https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/fachinformationen-erdbeben/schutz-vor-erdbeben/erdbebengerechtes-bauen/erdbebensichere-neubauten.html' target = '_blank'>Erdbebensichere Neubauten (BAFU)</a>",
+  "Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0703' target = '_blank'>Umweltbericht beider Basel</a>"
+ ]
 }

@@ -221,7 +221,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       7,
       3,
@@ -232,7 +232,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6256"
+    "renderTo": "container-6256",
+    "spacingBottom": 18
   },
   "title": {
     "style": {
@@ -301,9 +302,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: BAK Economics"
+    "text": "Quelle: BAK Economics\u003Cbr\u002F\u003EZuletzt geändert: 2017-8-17"
   },
   "legend": {
     "enabled": true,

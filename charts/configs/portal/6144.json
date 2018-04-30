@@ -80,7 +80,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -109,7 +109,8 @@
     },
     "type": "column",
     "inverted": true,
-    "renderTo": "container-6144"
+    "renderTo": "container-6144",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -179,9 +180,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
   },
   "legend": {
     "symbolRadius": 0,

@@ -1,29 +1,41 @@
-{"title":"Interne Erreichbarkeit",
-"subtitle":"",
-"kuerzel":"I.03.2.06005",
-"kuerzelKunde":"ST 08-1",
-"description":"Interne Erreichbarkeit",
-"id":6005,
-"thema":"03 Erwerbsleben",
-"unterthema":"Beschäftigte ",
-"kennzahlenset":"Richtplan",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Standort","Kantonsvergleich"],
-"stufe1":"",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"",
-"template":"line001",
-"option":"options001",
-"visible":false,
-"visibleInPortal":false,
-"parentId":null,
-"children":["6006"],
-"renderLink":[],
-"quellenangabe":["BAK Basel Economics"],
-"externalLinks":[""]
+{
+ "title": "Interne Erreichbarkeit",
+ "subtitle": "",
+ "kuerzel": "I.03.2.06005",
+ "kuerzelKunde": "ST 08-1",
+ "description": "Interne Erreichbarkeit",
+ "id": 6005,
+ "thema": "03 Erwerbsleben",
+ "unterthema": "Beschäftigte ",
+ "kennzahlenset": "Richtplan",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-10-27T00:00:00.000",
+ "schlagwort": [
+  "Standort",
+  "Kantonsvergleich"
+ ],
+ "stufe1": "",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "",
+ "erlaeuterungen": "",
+ "template": "line001",
+ "option": "options001",
+ "visible": false,
+ "visibleInPortal": false,
+ "parentId": null,
+ "children": [
+  "6006"
+ ],
+ "renderLink": [],
+ "quellenangabe": [
+  "BAK Basel Economics"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

@@ -1,29 +1,38 @@
-{"title":"Bezügerinnen und Bezüger von Prämienverbilligung",
-"subtitle":"",
-"kuerzel":"I.13.2.02917",
-"kuerzelKunde":"GW6",
-"description":"Bezügerinnen und Bezüger von Prämienverbilligung",
-"id":2917,
-"thema":"13 Soziale Sicherheit",
-"unterthema":"Sozialleistungen",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Einkommen"],
-"stufe1":"Bereich Grundbedürfnisse und Wohlergehen",
-"stufe2":"Gesundheit",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"2016 erhält etwas mehr als ein Viertel der in Basel-Stadt wohnhaften Personen Prämienverbilligung.",
-"erlaeuterungen":"",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_02_00_00_00_306",
-"parentId":6173,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Amt für Sozialbeiträge, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"],
-"externalLinks":[""]
+{
+ "title": "Bezügerinnen und Bezüger von Prämienverbilligung",
+ "subtitle": "",
+ "kuerzel": "I.13.2.02917",
+ "kuerzelKunde": "GW6",
+ "description": "Bezügerinnen und Bezüger von Prämienverbilligung",
+ "id": 2917,
+ "thema": "13 Soziale Sicherheit",
+ "unterthema": "Sozialleistungen",
+ "kennzahlenset": "Nachhaltigkeit",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-04-03T00:00:00.000",
+ "schlagwort": [
+  "Einkommen"
+ ],
+ "stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+ "stufe2": "Gesundheit",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "2016 erhält etwas mehr als ein Viertel der in Basel-Stadt wohnhaften Personen Prämienverbilligung.",
+ "erlaeuterungen": "",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "03_02_00_00_00_306",
+ "parentId": 6173,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Amt für Sozialbeiträge, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

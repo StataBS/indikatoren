@@ -290,13 +290,12 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 65,
     "style": {
       "fontFamily": "Arial"
     },
     "type": "line",
-    "marginBottom": 75,
     "alignTicks": false,
     "renderTo": "container-5901"
   },
@@ -383,9 +382,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)\u003Cbr\u002F\u003EZuletzt geändert: 2018-1-16"
   },
   "legend": {
     "enabled": true,
