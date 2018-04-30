@@ -19,7 +19,7 @@
     "gh-pages-travis": "1.0.0",
     "glob": "7.1.1",
     "hash-files": "1.1.1",
-    "highcharts-export-server": "2.0.4",
+    "highcharts-export-server": "2.0.12",
     "http-server": "0.11.1",
     "jsdom": "9.8.0",
     "jsondiffpatch": "0.2.4",
@@ -27,10 +27,13 @@
     "serialize-javascript": "1.3.0",
     "svgo": "0.7.2"
   },
+  "engines": {
+    "node": ">=8.10.0"
+  },
   "scripts": {
     "reinstall": "rm -rf node_cache && rm -rf node_modules && rm package-lock.json & npm install && LC_ALL=C",
     "build:database": "node build/createJsonDatabase",
-    "build:find_changed_charts": "echo 'Comparing checksums of current files with those created after last build...' &&node build/findChangedCharts.js",
+    "build:find_changed_charts": "echo 'Comparing checksums of current files with those created after last build...' && node build/findChangedCharts.js",
     "build:partial_databases": "node build/createKennzahlensetJsonFiles.js",
     "build:copy_data_per_set": "node build/copyDataPerSet.js",
     "build:charts": "node build/createChartConfigs",

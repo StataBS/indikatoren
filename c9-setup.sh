@@ -4,7 +4,7 @@
 . ~/.bashrc
 
 rm -rf node_modules 
-nvm install 6 
+nvm use v8.10.0
 #setting variables for highcharts export module, see https://github.com/highcharts/node-export-server
 echo 'export ACCEPT_HIGHCHARTS_LICENSE=YES' >> ../.bashrc
 echo 'export HIGHCHARTS_USE_STYLED=NO' >> ../.bashrc
