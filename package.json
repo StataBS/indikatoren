@@ -7,25 +7,25 @@
     "bootstrap": "3.3.7",
     "bootstrap-multiselect": "0.9.13-1",
     "highcharts": "6.1.0",
-    "jquery": "3.1.1",
+    "jquery": "3.2.0",
     "proj4": "2.4.3",
-    "seedrandom": "2.4.2"
+    "seedrandom": "2.4.3"
   },
   "devDependencies": {
     "casperjs": "1.1.4",
-    "copy-node-modules": "1.0.2",
+    "copy-node-modules": "1.0.3",
     "forever": "0.15.3",
     "fs-extra": "5.0.0",
-    "gh-pages-travis": "1.0.0",
+    "gh-pages-travis": "1.0.1",
     "glob": "7.1.1",
     "hash-files": "1.1.1",
     "highcharts-export-server": "2.0.12",
     "http-server": "0.11.1",
-    "jsdom": "9.8.0",
-    "jsondiffpatch": "0.2.4",
-    "rimraf": "2.5.4",
-    "serialize-javascript": "1.3.0",
-    "svgo": "0.7.2"
+    "jsdom": "9.12.0",
+    "jsondiffpatch": "0.2.5",
+    "rimraf": "2.6.2",
+    "serialize-javascript": "1.5.0",
+    "svgo": "1.0.0"
   },
   "engines": {
     "node": ">=8.10.0"

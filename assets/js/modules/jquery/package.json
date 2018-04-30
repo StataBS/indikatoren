@@ -1,31 +1,31 @@
 {
-  "_from": "jquery@3.1.1",
-  "_id": "jquery@3.1.1",
+  "_from": "jquery@3.2.0",
+  "_id": "jquery@3.2.0",
   "_inBundle": false,
-  "_integrity": "sha1-NHwcIcfgBBFeCk2jLOzgQfrTyKM=",
+  "_integrity": "sha1-O9u6ZuHu4HhVMt3a2w4NJSHKWEs=",
   "_location": "/jquery",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "jquery@3.1.1",
+    "raw": "jquery@3.2.0",
     "name": "jquery",
     "escapedName": "jquery",
-    "rawSpec": "3.1.1",
+    "rawSpec": "3.2.0",
     "saveSpec": null,
-    "fetchSpec": "3.1.1"
+    "fetchSpec": "3.2.0"
   },
   "_requiredBy": [
     "/",
     "/@statabs/statabs-filter"
   ],
-  "_resolved": "https://registry.npmjs.org/jquery/-/jquery-3.1.1.tgz",
-  "_shasum": "347c1c21c7e004115e0a4da32cece041fad3c8a3",
-  "_spec": "jquery@3.1.1",
+  "_resolved": "https://registry.npmjs.org/jquery/-/jquery-3.2.0.tgz",
+  "_shasum": "3bdbba66e1eee0785532dddadb0e0d2521ca584b",
+  "_spec": "jquery@3.2.0",
   "_where": "/home/ubuntu/workspace",
   "author": {
-    "name": "jQuery Foundation and other contributors",
-    "url": "https://github.com/jquery/jquery/blob/3.1.1/AUTHORS.txt"
+    "name": "JS Foundation and other contributors",
+    "url": "https://github.com/jquery/jquery/blob/3.2.0/AUTHORS.txt"
   },
   "bugs": {
     "url": "https://github.com/jquery/jquery/issues"
@@ -58,8 +58,8 @@
       "Traversing",
       "Wrap"
     ],
-    "markerPattern": "^((clos|fix|resolv)(e[sd]|ing))|(refs?)",
-    "ticketPattern": "^((Closes|Fixes) ([a-zA-Z]{2,}-)[0-9]+)|(Refs? [^#])"
+    "markerPattern": "^((clos|fix|resolv)(e[sd]|ing))|^(refs?)",
+    "ticketPattern": "^((Closes|Fixes) ([a-zA-Z]{2,}-)[0-9]+)|^(Refs? [^#])"
   },
   "dependencies": {},
   "deprecated": false,
@@ -119,5 +119,5 @@
     "test": "grunt && grunt test:slow"
   },
   "title": "jQuery",
-  "version": "3.1.1"
+  "version": "3.2.0"
 }
