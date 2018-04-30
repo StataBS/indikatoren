@@ -1,48 +1,26 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "@statabs/statabs-filter@2.1.1",
-        "scope": "@statabs",
-        "escapedName": "@statabs%2fstatabs-filter",
-        "name": "@statabs/statabs-filter",
-        "rawSpec": "2.1.1",
-        "spec": "2.1.1",
-        "type": "version"
-      },
-      "/home/ubuntu/workspace"
-    ]
-  ],
   "_from": "@statabs/statabs-filter@2.1.1",
   "_id": "@statabs/statabs-filter@2.1.1",
-  "_inCache": true,
+  "_inBundle": false,
+  "_integrity": "sha512-IsQi5mQls2XaQXk+QcOSvqxjkFGdACeuunEL6CIopOMzBpwgYjfVRo4QPU+E/jqa7Hs9N738RYZf6VBczVTfmQ==",
   "_location": "/@statabs/statabs-filter",
-  "_nodeVersion": "8.9.4",
-  "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/statabs-filter-2.1.1.tgz_1517842430662_0.9690703838132322"
-  },
-  "_npmUser": {
-    "name": "jb3-2",
-    "email": "jonas.bieri@gmail.com"
-  },
-  "_npmVersion": "5.6.0",
   "_phantomChildren": {},
   "_requested": {
+    "type": "version",
+    "registry": true,
     "raw": "@statabs/statabs-filter@2.1.1",
-    "scope": "@statabs",
-    "escapedName": "@statabs%2fstatabs-filter",
     "name": "@statabs/statabs-filter",
+    "escapedName": "@statabs%2fstatabs-filter",
+    "scope": "@statabs",
     "rawSpec": "2.1.1",
-    "spec": "2.1.1",
-    "type": "version"
+    "saveSpec": null,
+    "fetchSpec": "2.1.1"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/@statabs/statabs-filter/-/statabs-filter-2.1.1.tgz",
   "_shasum": "c50e19d25d2064fd29c605ea5d600b48d5b9c01a",
-  "_shrinkwrap": null,
   "_spec": "@statabs/statabs-filter@2.1.1",
   "_where": "/home/ubuntu/workspace",
   "author": {
@@ -52,9 +30,11 @@
   "bugs": {
     "url": "https://github.com/statabs-test/filter.js/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "jquery": "x.x.x"
   },
+  "deprecated": false,
   "description": "A javascript library for filtering json object and rendering html",
   "devDependencies": {
     "browser-sync": ">= 1.7.2",
@@ -75,13 +55,6 @@
     "run-sequence": ">= 1.0.2",
     "serve-static": ">= 1.7.1"
   },
-  "directories": {},
-  "dist": {
-    "integrity": "sha512-IsQi5mQls2XaQXk+QcOSvqxjkFGdACeuunEL6CIopOMzBpwgYjfVRo4QPU+E/jqa7Hs9N738RYZf6VBczVTfmQ==",
-    "shasum": "c50e19d25d2064fd29c605ea5d600b48d5b9c01a",
-    "tarball": "https://registry.npmjs.org/@statabs/statabs-filter/-/statabs-filter-2.1.1.tgz"
-  },
-  "gitHead": "947756dfbad07ac524d43a9e0d7ab9161cbcbd58",
   "homepage": "https://github.com/statabs-test/filter.js",
   "keywords": [
     "filter",
@@ -94,15 +67,7 @@
       "url": "https://github.com/statabs-test/filter.js/blob/master/LICENSE"
     }
   ],
-  "maintainers": [
-    {
-      "name": "jb3-2",
-      "email": "jonas.bieri@gmail.com"
-    }
-  ],
   "name": "@statabs/statabs-filter",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/statabs-test/filter.js.git"

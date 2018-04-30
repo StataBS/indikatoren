@@ -1,44 +1,25 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "seedrandom@2.4.2",
-        "scope": null,
-        "escapedName": "seedrandom",
-        "name": "seedrandom",
-        "rawSpec": "2.4.2",
-        "spec": "2.4.2",
-        "type": "version"
-      },
-      "/home/ubuntu/workspace"
-    ]
-  ],
   "_from": "seedrandom@2.4.2",
   "_id": "seedrandom@2.4.2",
-  "_inCache": true,
+  "_inBundle": false,
+  "_integrity": "sha1-GNeMQSh9E6/46tsp4jWTiySKqf8=",
   "_location": "/seedrandom",
-  "_nodeVersion": "0.12.2",
-  "_npmUser": {
-    "name": "davidbau",
-    "email": "david.bau@gmail.com"
-  },
-  "_npmVersion": "2.7.4",
   "_phantomChildren": {},
   "_requested": {
+    "type": "version",
+    "registry": true,
     "raw": "seedrandom@2.4.2",
-    "scope": null,
-    "escapedName": "seedrandom",
     "name": "seedrandom",
+    "escapedName": "seedrandom",
     "rawSpec": "2.4.2",
-    "spec": "2.4.2",
-    "type": "version"
+    "saveSpec": null,
+    "fetchSpec": "2.4.2"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/seedrandom/-/seedrandom-2.4.2.tgz",
   "_shasum": "18d78c41287d13aff8eadb29e235938b248aa9ff",
-  "_shrinkwrap": null,
   "_spec": "seedrandom@2.4.2",
   "_where": "/home/ubuntu/workspace",
   "author": {
@@ -47,6 +28,7 @@
   "bugs": {
     "url": "https://github.com/davidbau/seedrandom/issues"
   },
+  "bundleDependencies": false,
   "config": {
     "blanket": {
       "pattern": [
@@ -60,7 +42,7 @@
       ]
     }
   },
-  "dependencies": {},
+  "deprecated": false,
   "description": "Seeded random number generator for Javascript.",
   "devDependencies": {
     "blanket": "latest",
@@ -76,12 +58,6 @@
     "proxyquire": "latest",
     "requirejs": "latest"
   },
-  "directories": {},
-  "dist": {
-    "shasum": "18d78c41287d13aff8eadb29e235938b248aa9ff",
-    "tarball": "https://registry.npmjs.org/seedrandom/-/seedrandom-2.4.2.tgz"
-  },
-  "gitHead": "1b530945501d4bc4fb467b7d865cbadd0374cc31",
   "homepage": "http://davidbau.com/archives/2010/01/30/random_seeds_coded_hints_and_quintillions.html",
   "keywords": [
     "random",
@@ -90,15 +66,7 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "maintainers": [
-    {
-      "name": "davidbau",
-      "email": "david.bau@gmail.com"
-    }
-  ],
   "name": "seedrandom",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git://github.com/davidbau/seedrandom.git"
