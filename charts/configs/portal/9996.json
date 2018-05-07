@@ -4,15 +4,15 @@
       "data": [
         [
           "Anteil&nbsp;Sozialhilfeempfänger",
-          3
+          2
         ],
         [
           "Anteil&nbsp;Ausländer",
-          6
+          7
         ],
         [
           "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          19
+          18
         ],
         [
           "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
@@ -20,15 +20,15 @@
         ],
         [
           "Gymnasialquote",
-          20
+          19
         ],
         [
           "Altersquotient",
-          9
+          8
         ],
         [
           "Anteil&nbsp;Sesshafte",
-          10
+          6
         ],
         [
           "Jugendquotient",
@@ -40,7 +40,7 @@
         ],
         [
           "Anteil Einfamilienhäuser",
-          7
+          8
         ],
         [
           "Anteil&nbsp;Grünfläche",
@@ -52,15 +52,15 @@
         ],
         [
           "Wohnfläche&nbsp;pro&nbsp;Kopf",
-          21
+          20
         ],
         [
           "Vermögenssteuer",
-          19
+          17
         ],
         [
           "Einkommenssteuer",
-          20
+          19
         ],
         [
           "Erwerbstätigenquote",
@@ -72,7 +72,7 @@
         ],
         [
           "Arbeitslosenquote",
-          1
+          6
         ]
       ],
       "name": "Rang",
@@ -233,7 +233,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt\u003Cbr\u002F\u003EZuletzt geändert: 2017-9-26"
+    "text": "Quelle: Statistisches Amt Basel-Stadt\u003Cbr\u002F\u003EZuletzt geändert: 9\u002F26\u002F2017"
   },
   "legend": {
     "enabled": false,
