@@ -1,4 +1,4 @@
-Publikationsjahr	Indikator_Nr	jahr_num	jahr_char	Wert		Indikator_Name	Wohnviertel_id	Wohnviertel	Rang
+Publikationsjahr	Indikator_Nr	jahr_num	jahr_char	Wert	Indikator_Label	Indikator_Name	Wohnviertel_id	Wohnviertel	Rang
 2018	1	2017	2017	0.0166023166	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfeanteil	1	Altstadt Grossbasel	2
 2018	1	2017	2017	0.0362911266	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfeanteil	2	Vorstädte	6
 2018	1	2017	2017	0.0369102683	Anteil&nbsp;Sozialhilfeempfänger	Sozialhilfeanteil	3	Am Ring	7
