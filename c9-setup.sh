@@ -1,9 +1,12 @@
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+
 # make sure nvm can be called, see http://unix.stackexchange.com/questions/184508/nvm-command-not-available-in-bash-script
 . ~/.nvm/nvm.sh
 . ~/.profile
 . ~/.bashrc
 
 rm -rf node_modules 
+
 nvm use v8.10.0
 #setting variables for highcharts export module, see https://github.com/highcharts/node-export-server
 echo 'export ACCEPT_HIGHCHARTS_LICENSE=YES' >> ../.bashrc
