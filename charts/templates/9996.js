@@ -10,7 +10,7 @@
         ],  
         parsed: function(columns){
           //define which wohnviertel to display
-          var filterValue = 1;
+          var filterValue = 20;
           
           //define which column (zero-based index) should be filtered with above value 
           var filterColumnIndex = 7;
