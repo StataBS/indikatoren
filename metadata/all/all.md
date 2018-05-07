@@ -753,6 +753,7 @@ id | visible | visibleInPortal | indikatorenset
 6592 | true | false | Nachhaltigkeit
 6597 | true | false | Nachhaltigkeit
 6599 | true | true | Nachhaltigkeit
+6623 | true | true | 
 9996 | true | false | 
 9997 | true | false | 
 9998 | true | false | Test
