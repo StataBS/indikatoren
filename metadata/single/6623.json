@@ -24,5 +24,25 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+"externalLinks":[""],
+"delimiter": "\t",
+"tableSchema": {
+     "aboutUrl": "http://ld.data-bs.ch/dataset/6623/observation/{Jahr}-Raum0",
+     "columns": [
+       {
+         "titles": "Jahr",
+         "propertyUrl": "http://ld.data-bs.ch/property/jahr",
+         "datatype": "date"
+       },
+       {
+         "titles": "Bevölkerung Stadt Basel",
+         "propertyUrl": "http://ld.data-bs.ch/property/bevolkerung-stadt-basel"
+       },
+       {
+         "virtual": true,
+         "propertyUrl": "http://ld.data-bs.ch/property/raum",
+         "valueUrl": "http://ld.data-bs.ch/code/raum/Raum0"
+       }
+     ]
+   }
 }
