@@ -24839,6 +24839,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
+		"delimiter": "",
 		"id": 6623
 	},
 	{
