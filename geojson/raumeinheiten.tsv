@@ -1,0 +1,70 @@
+wohnbezirk_name	wohnbezirk_id	wohnviertel_name	wohnviertel_name_kurz	wohnviertel_id	gemeinde_name	gemeinde_id_bfs	kanton_name	kanton_name_kurz	kanton_id_bfs	sort_order
+Burgviertel	11	Altstadt Grossbasel	Altstadt GB	1	Basel	2701	Basel-Stadt	BS	12	1
+Geschäftsviertel	12	Altstadt Grossbasel	Altstadt GB	1	Basel	2701	Basel-Stadt	BS	12	2
+Leonhard	13	Altstadt Grossbasel	Altstadt GB	1	Basel	2701	Basel-Stadt	BS	12	3
+Peter	14	Altstadt Grossbasel	Altstadt GB	1	Basel	2701	Basel-Stadt	BS	12	4
+St. Johann und Universität	21	Vorstädte	Vorstädte	2	Basel	2701	Basel-Stadt	BS	12	5
+Spalen	22	Vorstädte	Vorstädte	2	Basel	2701	Basel-Stadt	BS	12	6
+Steinen	23	Vorstädte	Vorstädte	2	Basel	2701	Basel-Stadt	BS	12	7
+Aeschen	24	Vorstädte	Vorstädte	2	Basel	2701	Basel-Stadt	BS	12	8
+Alban	25	Vorstädte	Vorstädte	2	Basel	2701	Basel-Stadt	BS	12	9
+Albantal	26	Vorstädte	Vorstädte	2	Basel	2701	Basel-Stadt	BS	12	10
+St. Johann	31	Am Ring	Am Ring	3	Basel	2701	Basel-Stadt	BS	12	11
+Spalen	32	Am Ring	Am Ring	3	Basel	2701	Basel-Stadt	BS	12	12
+Steinen	33	Am Ring	Am Ring	3	Basel	2701	Basel-Stadt	BS	12	13
+Markthalle	34	Am Ring	Am Ring	3	Basel	2701	Basel-Stadt	BS	12	14
+Zürcherstrasse	41	Breite	Breite	4	Basel	2701	Basel-Stadt	BS	12	15
+Lehenmatte	42	Breite	Breite	4	Basel	2701	Basel-Stadt	BS	12	16
+Heumatt	51	St. Alban	St. Alban	5	Basel	2701	Basel-Stadt	BS	12	17
+Peter Merian	52	St. Alban	St. Alban	5	Basel	2701	Basel-Stadt	BS	12	18
+Luftmatt	53	St. Alban	St. Alban	5	Basel	2701	Basel-Stadt	BS	12	19
+Gellert	54	St. Alban	St. Alban	5	Basel	2701	Basel-Stadt	BS	12	20
+St. Jakob-Dreispitz	55	St. Alban	St. Alban	5	Basel	2701	Basel-Stadt	BS	12	21
+Margarethen	61	Gundeldingen	Gundeldingen	6	Basel	2701	Basel-Stadt	BS	12	22
+Thierstein	62	Gundeldingen	Gundeldingen	6	Basel	2701	Basel-Stadt	BS	12	23
+Delsbergerallee	63	Gundeldingen	Gundeldingen	6	Basel	2701	Basel-Stadt	BS	12	24
+Thiersteinerrain	71	Bruderholz	Bruderholz	7	Basel	2701	Basel-Stadt	BS	12	25
+Batterie-Nord	72	Bruderholz	Bruderholz	7	Basel	2701	Basel-Stadt	BS	12	26
+Batterie-Süd	73	Bruderholz	Bruderholz	7	Basel	2701	Basel-Stadt	BS	12	27
+Paulus	81	Bachletten	Bachletten	8	Basel	2701	Basel-Stadt	BS	12	28
+Bernerring	82	Bachletten	Bachletten	8	Basel	2701	Basel-Stadt	BS	12	29
+Holee	83	Bachletten	Bachletten	8	Basel	2701	Basel-Stadt	BS	12	30
+Schützenmatte	84	Bachletten	Bachletten	8	Basel	2701	Basel-Stadt	BS	12	31
+Weiherhof	85	Bachletten	Bachletten	8	Basel	2701	Basel-Stadt	BS	12	32
+Blauen	91	Gotthelf	Gotthelf	9	Basel	2701	Basel-Stadt	BS	12	33
+Gottfried Keller	92	Gotthelf	Gotthelf	9	Basel	2701	Basel-Stadt	BS	12	34
+Oekolampad	101	Iselin	Iselin	10	Basel	2701	Basel-Stadt	BS	12	35
+Wasgenring-Ost	102	Iselin	Iselin	10	Basel	2701	Basel-Stadt	BS	12	36
+Wasgenring-West	103	Iselin	Iselin	10	Basel	2701	Basel-Stadt	BS	12	37
+Pestalozzi	111	St. Johann	St. Johann	11	Basel	2701	Basel-Stadt	BS	12	38
+Kannenfeld	112	St. Johann	St. Johann	11	Basel	2701	Basel-Stadt	BS	12	39
+Landskron	113	St. Johann	St. Johann	11	Basel	2701	Basel-Stadt	BS	12	40
+Lysbüchel	114	St. Johann	St. Johann	11	Basel	2701	Basel-Stadt	BS	12	41
+Friedmatt	115	St. Johann	St. Johann	11	Basel	2701	Basel-Stadt	BS	12	42
+Theodor	121	Altstadt Kleinbasel	Altstadt KB	12	Basel	2701	Basel-Stadt	BS	12	45
+Klingental	122	Altstadt Kleinbasel	Altstadt KB	12	Basel	2701	Basel-Stadt	BS	12	46
+Clarahof	131	Clara	Clara	13	Basel	2701	Basel-Stadt	BS	12	47
+Claramatte	132	Clara	Clara	13	Basel	2701	Basel-Stadt	BS	12	48
+Rosengarten	141	Wettstein	Wettstein	14	Basel	2701	Basel-Stadt	BS	12	49
+Solitude	142	Wettstein	Wettstein	14	Basel	2701	Basel-Stadt	BS	12	50
+Eglisee	151	Hirzbrunnen	Hirzbrunnen	15	Basel	2701	Basel-Stadt	BS	12	51
+Kleinriehen-Nord	152	Hirzbrunnen	Hirzbrunnen	15	Basel	2701	Basel-Stadt	BS	12	52
+Kleinriehen-Süd	153	Hirzbrunnen	Hirzbrunnen	15	Basel	2701	Basel-Stadt	BS	12	53
+Messe	161	Rosental	Rosental	16	Basel	2701	Basel-Stadt	BS	12	55
+Erlenmatt	162	Rosental	Rosental	16	Basel	2701	Basel-Stadt	BS	12	56
+Flora	171	Matthäus	Matthäus	17	Basel	2701	Basel-Stadt	BS	12	57
+Dreirosen	172	Matthäus	Matthäus	17	Basel	2701	Basel-Stadt	BS	12	58
+Haltingerstrasse	173	Matthäus	Matthäus	17	Basel	2701	Basel-Stadt	BS	12	59
+Bläsi	174	Matthäus	Matthäus	17	Basel	2701	Basel-Stadt	BS	12	60
+Klybeck	180	Klybeck	Klybeck	18	Basel	2701	Basel-Stadt	BS	12	63
+Kleinhüningen	190	Kleinhüningen	Kleinhüningen	19	Basel	2701	Basel-Stadt	BS	12	64
+Riehen-Dorf	201	Riehen	Riehen	20	Riehen	2703	Basel-Stadt	BS	12	66
+Stettenfeld	202	Riehen	Riehen	20	Riehen	2703	Basel-Stadt	BS	12	67
+Bischoffhöhe	203	Riehen	Riehen	20	Riehen	2703	Basel-Stadt	BS	12	68
+Moos	204	Riehen	Riehen	20	Riehen	2703	Basel-Stadt	BS	12	69
+Wenken	205	Riehen	Riehen	20	Riehen	2703	Basel-Stadt	BS	12	70
+Kornfeld	206	Riehen	Riehen	20	Riehen	2703	Basel-Stadt	BS	12	71
+Niederholz	207	Riehen	Riehen	20	Riehen	2703	Basel-Stadt	BS	12	72
+Pfaffenloh	208	Riehen	Riehen	20	Riehen	2703	Basel-Stadt	BS	12	73
+Bettingen-Dorf	301	Bettingen	Bettingen	30	Bettingen	2702	Basel-Stadt	BS	12	74
+Chrischona	302	Bettingen	Bettingen	30	Bettingen	2702	Basel-Stadt	BS	12	75
