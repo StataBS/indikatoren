@@ -26,6 +26,7 @@
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
 "externalLinks":[""],
 "delimiter": "\t",
+"publishLod": true,
 "tableSchema": {
      "aboutUrl": "http://ld.data-bs.ch/dataset/6623/observation/{Jahr}-Raum0",
      "columns": [
