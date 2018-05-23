@@ -509,6 +509,7 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
@@ -518,7 +519,6 @@
     "verticalAlign": "middle",
     "align": "right",
     "reversed": true,
-    "itemMarginBottom": 5,
     "labelFormatter": function (){
       return this.name.replace(" ", "<br/>").replace("-", "<br/>");
     }

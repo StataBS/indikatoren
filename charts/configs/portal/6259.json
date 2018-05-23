@@ -871,6 +871,7 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
@@ -879,8 +880,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 45,
-    "itemMarginBottom": 5
+    "x": 45
   },
   "dataLabels": {
     "enabled": false,

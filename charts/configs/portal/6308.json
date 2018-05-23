@@ -287,12 +287,17 @@
     "verticalAlign": "middle",
     "align": "right",
     "symbolRadius": 0,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "itemWidth": 50,
-    "itemMarginBottom": 5
+    "padding": 0,
+    "itemWidth": 50
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6308
   },
   "plotOptions": {
     "line": {
@@ -315,8 +320,5 @@
               }
       }
     }
-  },
-  "exporting": {
-    "filename": 6308
   }
 }

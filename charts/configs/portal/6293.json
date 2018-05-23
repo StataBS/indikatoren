@@ -435,13 +435,18 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
+    "itemMarginBottom": 3,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
+    "padding": 0,
     "itemWidth": 200,
-    "itemMarginBottom": 3,
     "margin": 3
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6293
   },
   "plotOptions": {
     "line": {
@@ -451,8 +456,5 @@
         "symbol": "circle"
       }
     }
-  },
-  "exporting": {
-    "filename": 6293
   }
 }

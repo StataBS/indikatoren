@@ -31,7 +31,7 @@
 
         ],
 		dataLabels: {
-		                enabled: true,
+		                enabled: false,
 		                format: '{point.percentage:.1f}%',
 		                distance: 10,
 		                style: {

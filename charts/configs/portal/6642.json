@@ -167,7 +167,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}%"
-    }
+    },
+    "tickAmount": 5
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -203,14 +204,20 @@
     "verticalAlign": "middle",
     "align": "right",
     "symbolRadius": 0,
+    "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px"
-    }
+    },
+    "padding": 0
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6642
   },
   "plotOptions": {
     "series": {
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
         "allowOverlap": true,
         "y": 40,
         "formatter": function () {
@@ -223,8 +230,5 @@
           }
       }
     }
-  },
-  "exporting": {
-    "filename": 6642
   }
 }

@@ -914,7 +914,7 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
+    "width": 665,
     "height": 208,
     "spacing": [
       7,
@@ -943,10 +943,9 @@
                     
                 }
     },
-    "renderTo": "container-6644",
-    "marginBottom": 75,
     "type": "column",
     "inverted": false,
+    "renderTo": "container-6644",
     "spacingBottom": 8
   },
   "plotOptions": {
@@ -960,8 +959,6 @@
           "color": "black"
         }
       },
-      "pointPadding": 100,
-      "pointWidth": 10,
       "stacking": "normal"
     }
   },
@@ -1002,7 +999,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickAmount": 5
   },
   "navigation": {
     "menuItemStyle": {
@@ -1027,14 +1025,16 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "reversed": true
   },
   "dataLabels": {
     "enabled": false,

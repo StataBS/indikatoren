@@ -2,9 +2,11 @@
     return {
 "plotOptions": {
     "series": {
+      /*
       pointPadding: 100,
       borderWidth: 0,
-      "pointWidth": 10,
+      pointWidth: 10,
+      */
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -21,6 +23,7 @@
   "yAxis": {
   	 //max: 120000,
      //tickInterval: 60000,
+     tickAmount: 5,
     "labels": {
       "format": "{value:,.0f}",
     },
@@ -28,9 +31,11 @@
   },
   "legend": {
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    itemMarginBottom: 1,
+    "align": "right",
+    reversed: true,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -48,16 +53,15 @@
   {"color": "#999999", index: 0, legendIndex: 9}, /*Übrige Länder*/
 ],
   "chart": {
-    "renderTo": 'container-I.01.1.0016', 
-    "marginBottom": 75,
     //"marginTop": 75,
     "type": "column",
-    "inverted": false
+    "inverted": false, 
+    width: 665
   },
   "tooltip": {
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
   //"footerFormat": 'Total: <b>{point.total:,.0f}</b>',
    "shared": false
   },
-}
+};
 }());

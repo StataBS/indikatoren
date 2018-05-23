@@ -263,10 +263,9 @@
                     
                 }
     },
-    "renderTo": "container-6647",
-    "marginBottom": 75,
     "type": "column",
     "inverted": false,
+    "renderTo": "container-6647",
     "spacingBottom": 8
   },
   "plotOptions": {
@@ -280,8 +279,6 @@
           "color": "black"
         }
       },
-      "pointPadding": 100,
-      "pointWidth": 50,
       "stacking": "normal"
     }
   },
@@ -323,7 +320,8 @@
       },
       "format": "{value:,.0f}%"
     },
-    "max": 100
+    "max": 100,
+    "tickAmount": 5
   },
   "navigation": {
     "menuItemStyle": {
@@ -348,13 +346,13 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
     "reversed": true,
     "enabled": true,
-    "itemMarginBottom": 5,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right"

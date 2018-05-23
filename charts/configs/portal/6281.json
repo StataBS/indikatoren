@@ -256,6 +256,7 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
@@ -268,8 +269,7 @@
     "padding": 3,
     "labelFormatter": function (){
   	  return this.name.replace("(rechte", "<br/>(rechte");
-  	},
-    "itemMarginBottom": 5
+  	}
   },
   "dataLabels": {
     "enabled": false,

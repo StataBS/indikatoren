@@ -474,6 +474,7 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
@@ -482,7 +483,6 @@
     "margin": 0,
     "layout": "vertical",
     "verticalAlign": "middle",
-    "itemMarginBottom": 5,
     "align": "right"
   },
   "dataLabels": {

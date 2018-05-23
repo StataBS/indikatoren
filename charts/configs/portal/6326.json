@@ -169,10 +169,16 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
+    "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
-    }
+    },
+    "padding": 0
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6326
   },
   "plotOptions": {
     "series": {
@@ -180,8 +186,5 @@
       "borderWidth": 0,
       "itemWidth": 10
     }
-  },
-  "exporting": {
-    "filename": 6326
   }
 }

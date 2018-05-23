@@ -2,9 +2,11 @@
     return {
 "plotOptions": {
     "series": {
+      /*
       pointPadding: 100,
       borderWidth: 0,
       "pointWidth": 50,
+      */
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -20,20 +22,18 @@
   },  
   "yAxis": {
   	 max: 100,
+  	 tickAmount: 5,
      //tickInterval: 60000,
     "labels": {
       "format": "{value:,.0f}%",
     },
   },
   "legend": {
-  	//"itemWidth": 140,
   	reversed: true,
     "enabled": true,
-    itemMarginBottom: 5,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
-	  //"y": 40,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -51,9 +51,6 @@
   {"color": "#999999", index: 0, legendIndex: 9}, /*Übrige Länder*/
 ],
   "chart": {
-    "renderTo": 'container-I.01.1.0016', 
-    "marginBottom": 75,
-    //"marginTop": 75,
     "type": "column",
     "inverted": false
   },

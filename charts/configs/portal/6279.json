@@ -212,6 +212,7 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
@@ -222,7 +223,6 @@
     "align": "left",
     "margin": 5,
     "padding": 2,
-    "itemMarginBottom": 2,
     "itemWidth": 300
   },
   "dataLabels": {

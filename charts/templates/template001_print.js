@@ -115,8 +115,11 @@
         }
     },
     "legend": {
-        "symbolRadius": 0,
-        itemStyle:{"fontSize": "10px"}
+        symbolRadius: 0,
+        itemMarginBottom: 1,
+        itemStyle:{
+            fontSize: "10px"
+        }
     },
     dataLabels: {
             enabled: false,

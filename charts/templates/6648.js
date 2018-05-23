@@ -2,8 +2,12 @@
     return {
   "xAxis": {
   	tickInterval: 1,
+  	labels: {
+	    rotation: -45   	  
+  	}
   },
   "yAxis": {
+    tickAmount: 4,
 	  "labels": {
 		  "format": "{value}"
 	  }
@@ -23,12 +27,8 @@
    "legend": {
    	 symbolWidth: 30,
     "enabled": true,
-    //"x": 45,
-    //"y": 50,
-    "itemWidth": 210,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
@@ -42,5 +42,5 @@
       } 
     }
   }
-}
+};
 }());

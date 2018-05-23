@@ -21,7 +21,8 @@
   "yAxis": {
     "labels": {
       "format": "{value:,.0f}",
-    }
+    }, 
+    tickAmount: 6
   },
   "xAxis": {
   	"type": "category",
@@ -31,16 +32,13 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	//"y": 40,
- 	itemWidth: 100,
-	"itemMarginBottom": 5,
     "itemStyle": {
-    "fontWeight": "normal"
+        "fontWeight": "normal"
     }
   },
   "series": [
-   {"color":"#cd9c00", "index": 0, "marker": {"enabled": false}, legendIndex: 1}, //rot
-   {"color":"#b00000", "index": 1, "marker": {"enabled": false}, legendIndex: 0}, //orange
+   {"color":"rgba(205, 156, 0, 0.75)", "index": 0, "marker": {"enabled": false}, legendIndex: 1}, 
+   {"color":"rgba(176, 0, 0, 0.75)", "index": 1, "marker": {"enabled": false}, legendIndex: 0}, 
 
   ],  
   "tooltip": {

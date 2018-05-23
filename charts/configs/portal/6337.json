@@ -181,10 +181,16 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
+    "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
-    }
+    },
+    "padding": 0
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6337
   },
   "plotOptions": {
     "series": {
@@ -198,8 +204,5 @@
       },
       "stacking": "normal"
     }
-  },
-  "exporting": {
-    "filename": 6337
   }
 }

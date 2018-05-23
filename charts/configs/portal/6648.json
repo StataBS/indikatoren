@@ -604,7 +604,8 @@
         "color": "#000000"
       },
       "format": "{value}"
-    }
+    },
+    "tickAmount": 4
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -613,7 +614,8 @@
       "style": {
         "fontSize": 10,
         "color": "#000000"
-      }
+      },
+      "rotation": -45
     },
     "tickLength": 0,
     "tickInterval": 1
@@ -640,13 +642,17 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
+    "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "symbolWidth": 30,
-    "itemWidth": 210,
-    "itemMarginBottom": 5
+    "padding": 0,
+    "symbolWidth": 30
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6648
   },
   "plotOptions": {
     "line": {
@@ -655,8 +661,5 @@
         "symbol": "circle"
       }
     }
-  },
-  "exporting": {
-    "filename": 6648
   }
 }

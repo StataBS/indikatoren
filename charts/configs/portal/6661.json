@@ -717,20 +717,22 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "itemDistance": 0,
-    "itemMarginBottom": 2
+    "padding": 0,
+    "itemDistance": 0
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6661
   },
   "plotOptions": {
     "area": {
       "stacking": "normal",
       "lineWidth": 0
     }
-  },
-  "exporting": {
-    "filename": 6661
   }
 }

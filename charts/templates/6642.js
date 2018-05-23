@@ -1,12 +1,13 @@
 (function(){
     return {
    "yAxis": {
+     tickAmount: 5,
     "labels": {
       "format": "{value:,.0f}%",
     }
   },
   "xAxis": {
-	"tickInterval": 1,
+	  "tickInterval": 1,
   },
   "series": [
     {
@@ -24,7 +25,7 @@
   "plotOptions": {
     "series": {
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
         "allowOverlap": true,
           y: 40,
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869

@@ -56,9 +56,9 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      7,
+      1,
       3,
-      3,
+      1,
       3
     ],
     "style": {
@@ -66,7 +66,7 @@
     },
     "type": "pie",
     "renderTo": "container-6646",
-    "spacingBottom": 3
+    "spacingBottom": 1
   },
   "plotOptions": {
     "pie": {
@@ -75,7 +75,7 @@
       "cursor": true,
       "showInLegend": true,
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
         "format": "{point.percentage:.1f}%",
         "distance": 10,
         "style": {
@@ -145,6 +145,7 @@
       "fontSize": "10px"
     },
     "symbolRadius": 0,
+    "itemMarginBottom": 1,
     "style": {
       "fontSize": "12px"
     }

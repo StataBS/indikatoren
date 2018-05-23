@@ -99,7 +99,14 @@
     "verticalAlign": "middle",
     "align": "right",
     "symbolRadius": 0,
-    itemStyle:{"fontSize": "10px"}
+    itemMarginBottom: 1,
+    itemStyle:{
+      fontSize: "10px"
+    },
+    padding: 0,
+  }, 
+  exporting: {
+    enabled: false
   }
 	};
 }());

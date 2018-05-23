@@ -974,10 +974,16 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
+    "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
-    }
+    },
+    "padding": 0
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6660
   },
   "plotOptions": {
     "line": {
@@ -986,8 +992,5 @@
         "symbol": "circle"
       }
     }
-  },
-  "exporting": {
-    "filename": 6660
   }
 }

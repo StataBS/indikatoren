@@ -9,9 +9,9 @@
     		"borderColor": "#fbfbfb",
     		"backgroundColor": "#fbfbfb",
     		"zoomType": "xy",
-		"width": 320,
-    	"height": 208, 
-        spacing: [7,3,3,3],  
+		    "width": 320,
+    	  "height": 208, 
+        spacing: [1,3,1,3],  
     		"style": {
     		  "fontFamily": "Arial"
     		},
@@ -82,7 +82,8 @@
             "fontWeight": "normal",
             "fontSize": "10px"
         },
-        "symbolRadius": 0
+        "symbolRadius": 0,
+        itemMarginBottom: 1
       }
-	}
+	};
 }());

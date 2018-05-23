@@ -568,21 +568,23 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
+    "padding": 0,
     "x": 40,
-    "itemWidth": 100,
-    "itemMarginBottom": 5
+    "itemWidth": 100
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6262
   },
   "plotOptions": {
     "area": {
       "stacking": "normal",
       "lineWidth": 0
     }
-  },
-  "exporting": {
-    "filename": 6262
   }
 }

@@ -215,9 +215,15 @@
     "verticalAlign": "middle",
     "align": "right",
     "symbolRadius": 0,
+    "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px"
-    }
+    },
+    "padding": 0
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6317
   },
   "plotOptions": {
     "series": {
@@ -235,8 +241,5 @@
           }
       }
     }
-  },
-  "exporting": {
-    "filename": 6317
   }
 }
