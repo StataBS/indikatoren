@@ -128,6 +128,7 @@ function injectMetadataToChartConfig(options, data, view, suppressNumberInTitle)
   //for print, remove, title, subtitle, and credits, and set the scale
   if (view == "print"){
     options.title.text = null;
+    options.title.margin = 0;
     delete options.subtitle;
     options.credits.text = ' ';
     //options.exporting.scale = 4;
