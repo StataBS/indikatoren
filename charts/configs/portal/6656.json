@@ -549,11 +549,12 @@
       "style": {
         "fontSize": 10,
         "color": "#000000"
-      }
+      },
+      "step": 1,
+      "rotation": -45
     },
     "tickLength": 0,
-    "min": 0,
-    "tickInterval": 1
+    "min": 0
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -587,10 +588,9 @@
                     
                 }
     },
-    "renderTo": "container-6656",
-    "marginBottom": 75,
     "type": "column",
     "inverted": false,
+    "renderTo": "container-6656",
     "spacingBottom": 8
   },
   "plotOptions": {
@@ -604,8 +604,6 @@
           "color": "black"
         }
       },
-      "pointPadding": 100,
-      "pointWidth": 10,
       "stacking": "normal"
     }
   },
@@ -646,7 +644,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickAmount": 5
   },
   "navigation": {
     "menuItemStyle": {

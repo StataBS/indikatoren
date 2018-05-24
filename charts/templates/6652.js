@@ -25,16 +25,18 @@
             max: 7,
             tickInterval: 1,
             min:0,
+            offset: -5,
             title: {
                 text: null
             },
-            "labels": {
+            labels: {
             	step: 1,
                 formatter: function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
             	},
-                "style": {
-                    "color": "#000000"
+                style: {
+                    color: "#000000", 
+                    fontSize: '9px'
                 }
             },
             plotLines: [{
@@ -56,7 +58,8 @@
                 labels: {
     	        	step: 1,
 	                style: {
-	                    color: "#000000"
+	                    color: "#000000", 
+	                    fontSize: '9px'
 	                }
                 }, 
                 tickLength: 0, 
@@ -94,15 +97,10 @@
 	    ],
     "legend": {
         "enabled": true,
-        //itemWidth: 210,
         "layout": "horizontal",
         "verticalAlign": "top",
         "align": "center",
         x: 10,
-       	//"y": 35,    
-        "itemStyle": {
-          "fontWeight": "normal"
-        }
       },
         plotOptions: {
             series: {

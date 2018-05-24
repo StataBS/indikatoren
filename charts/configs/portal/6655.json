@@ -1247,12 +1247,11 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "step": 1,
-      "rotation": 0
+      "overflow": "justify",
+      "step": 1
     },
     "tickLength": 0,
-    "endOnTick": false,
-    "tickInterval": 5
+    "tickInterval": 10
   },
   "chart": {
     "events": {
@@ -1277,17 +1276,17 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      7,
-      3,
+      1,
       8,
-      3
+      1,
+      1
     ],
     "style": {
       "fontFamily": "Arial"
     },
     "type": "line",
     "renderTo": "container-6655",
-    "spacingBottom": 8
+    "spacingBottom": 1
   },
   "title": {
     "style": {
@@ -1330,6 +1329,7 @@
         "fontSize": 10,
         "color": "#000000"
       },
+      "x": -5,
       "format": "{value}%"
     },
     "max": 60
@@ -1356,13 +1356,12 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0,
-    "itemWidth": 100
+    "padding": 1
   },
   "exporting": {
     "enabled": false,

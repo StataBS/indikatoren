@@ -71,7 +71,7 @@
         "labels": {
             "style": {
             	fontSize: 10,
-                "color": "#000000"
+                color: "#000000",
             }
         },
         "tickLength": 0,
@@ -83,7 +83,7 @@
         "title": {
             "style": {
                 "color": "#000000",
-                "fontSize": 10, 
+                "fontSize": 10
             },
             "text": ''
         },
@@ -91,7 +91,7 @@
             y: 3, 
             "style": {
             	fontSize: 10,
-                "color": "#000000",
+                color: "#000000"
             }
         }
     },    
@@ -125,5 +125,5 @@
             enabled: false,
             style: {fontSize: 10}
         }
-	}
+	};
 }());

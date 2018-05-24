@@ -2,17 +2,20 @@
     return {
   "xAxis": {
     type: 'category',
-    endOnTick: false,
-    "tickInterval": 5,
-     "labels": {
-     	step:1,
-      "rotation": 0,
+    //endOnTick: false,
+    tickInterval: 10,
+    labels: {
+        overflow: "justify",
+       	step: 1,
+        //rotation: -45,
      }
   },
   "yAxis": {
     "min": 0, 
     max: 60,
-	  "labels": {
+    //offset: -0,
+	  labels: {
+	    x: -5,
 		  "format": "{value}%"
 	  }
   },	
@@ -37,13 +40,11 @@
   ],
    "legend": {
     "enabled": true,
-    //"x": 45,
-    //"y": 30,
-    "itemWidth": 100,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 1,
     "align": "left",
+    padding: 1,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -55,6 +56,9 @@
         "symbol": "circle",
       } 
     }
+  }, 
+  chart: {
+    spacing: [1,8,1,1]
   }
-}
+};
 }());

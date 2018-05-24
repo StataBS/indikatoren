@@ -1,22 +1,18 @@
 (function(){
     return {
-   plotOptions: {
-        series: {
-            pointPadding: 0,
-            borderWidth: 0,
-			itemWidth: 10, 
-
-        }
-   },
   "xAxis": {
     "type": "category",
     "labels": {
+      y: 3,
+      step: 1,
       "rotation": 0 
     } 
   },
   "yAxis": {
-    "labels": {
-      "format": "{value:,.0f}"
+    ofset: -5,
+    labels: {
+      "format": "{value:,.0f}",
+      y: 18
     }    
   },
   "series": [
@@ -28,8 +24,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    //"x": 25,
-	  //"y": 30,    
+    padding: 1,
     "itemStyle": {
       "fontWeight": "normal"
     }

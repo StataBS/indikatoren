@@ -1,22 +1,27 @@
 (function(){
     return {
    plotOptions: {
-        series: {
-            pointPadding: 0,
-            borderWidth: 0,
-			itemWidth: 10, 
-
+        series: {/*
+          pointPadding: 0,
+          borderWidth: 0,
+			    itemWidth: 10, 
+			    */
         }
    },
-  "xAxis": {
-    "type": "category",
-    "labels": {
-      "rotation": 0 
+  xAxis: {
+    type: "category",
+    labels: {
+      rotation: 0,
+      y: 3, 
+      padding: 0,
+      step: 1,
     } 
   },
-  "yAxis": {
-    "labels": {
-      "format": "{value:,.0f}"
+  yAxis: {
+    offset: -5,
+    labels: {
+      y: 18, 
+      format: "{value:,.0f}"
     }    
   },
   "series": [
@@ -28,20 +33,19 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    //"x": 25,
-	  //"y": 30,    
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    }, 
+    padding: 1
   },
    tooltip: {
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
     "shared": false
   },
-  "chart": {      
-    "type": "column",
-    "inverted": true,
-    //"spacingTop": 100
+  chart: {      
+    type: "column",
+    inverted: true,
+    marginLeft: 120
   }
-}
+};
 }());

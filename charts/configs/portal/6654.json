@@ -120,6 +120,8 @@
         "fontSize": 10,
         "color": "#000000"
       },
+      "y": 3,
+      "step": 1,
       "rotation": 0
     },
     "tickLength": 0
@@ -171,9 +173,7 @@
           "fontWeight": "normal",
           "color": "black"
         }
-      },
-      "pointPadding": 0,
-      "itemWidth": 10
+      }
     }
   },
   "title": {
@@ -207,13 +207,14 @@
       "text": ""
     },
     "labels": {
-      "y": 3,
+      "y": 18,
       "style": {
         "fontSize": 10,
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "ofset": -5
   },
   "navigation": {
     "menuItemStyle": {
@@ -246,7 +247,8 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "padding": 1
   },
   "dataLabels": {
     "enabled": false,

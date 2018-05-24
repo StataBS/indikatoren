@@ -28,13 +28,16 @@
             title: {
                 text: null
             },
+            offset: -5,
             "labels": {
                 formatter: function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
             	},
                 "style": {
-                    "color": "#000000"
-                }
+                    "color": "#000000", 
+                    fontSize: '9px'
+                }, 
+                distance: -50, 
             },
             plotLines: [{
                 value: 0,
@@ -55,7 +58,8 @@
                 labels: {
     	        	step: 1,
 	                style: {
-	                    color: "#000000"
+	                    color: "#000000", 
+	                    fontSize: '9px'
 	                }
                 }, 
                 tickLength: 0, 

@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<bitte Kommentar erfassen>",
 "erlaeuterungen":"Prozentanteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
-"template":"",
+"template":"populationPyramid001_print",
 "visible":true,
 "visibleInPortal":false,
 "orderKey":"01_00_00_00_00_000",

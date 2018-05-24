@@ -2,9 +2,9 @@
     return {
 "plotOptions": {
     "series": {
-      pointPadding: 100,
-      borderWidth: 0,
-      "pointWidth": 20,
+      //pointPadding: 100,
+      //borderWidth: 0,
+      //"pointWidth": 20,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -16,12 +16,16 @@
   "xAxis": {
   	min: 0,
     "type": "category",
-    "tickInterval": 1
+    "tickInterval": 1,
+    labels: {
+      y: 3
+    }
   },  
   "yAxis": {
   	max: 100,
      //tickInterval: 60000,
     "labels": {
+      y: 10,
       "format": "{value:,.0f}%",
     },
   },
@@ -29,7 +33,8 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    itemDistance: 15,
+    padding: 1,
+    itemDistance: 10,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
@@ -44,9 +49,6 @@
   {"color": "#DC440E", index: 4, legendIndex: 5}, /**/
 ],
   "chart": {
-    "renderTo": 'container-I.01.1.0016', 
-    "marginBottom": 75,
-    //"marginTop": 75,
     "type": "column",
     "inverted": true
   },
@@ -54,5 +56,8 @@
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
    "shared": false
   },
-}
+  exporting: {
+    enabled: false
+  }
+};
 }());

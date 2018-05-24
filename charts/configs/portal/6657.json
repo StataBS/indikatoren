@@ -309,7 +309,8 @@
       "style": {
         "fontSize": 10,
         "color": "#000000"
-      }
+      },
+      "y": 3
     },
     "tickLength": 0,
     "min": 0,
@@ -347,10 +348,9 @@
                     
                 }
     },
-    "renderTo": "container-6657",
-    "marginBottom": 75,
     "type": "column",
     "inverted": true,
+    "renderTo": "container-6657",
     "spacingBottom": 8
   },
   "plotOptions": {
@@ -364,8 +364,6 @@
           "color": "black"
         }
       },
-      "pointPadding": 100,
-      "pointWidth": 20,
       "stacking": "normal"
     }
   },
@@ -400,7 +398,7 @@
       "text": ""
     },
     "labels": {
-      "y": 3,
+      "y": 10,
       "style": {
         "fontSize": 10,
         "color": "#000000"
@@ -440,7 +438,8 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemDistance": 15,
+    "padding": 1,
+    "itemDistance": 10,
     "align": "left"
   },
   "dataLabels": {
@@ -454,6 +453,7 @@
     "shared": false
   },
   "exporting": {
+    "enabled": false,
     "filename": 6657
   }
 }
