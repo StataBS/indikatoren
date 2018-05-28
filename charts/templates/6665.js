@@ -3,6 +3,7 @@
   "xAxis": {
   },
   "yAxis": {
+    tickAmount: 5,
 	  "labels": {
 		  "format": "{value}%"
 	  }
@@ -23,11 +24,9 @@
   ],
    "legend": {
     "enabled": true,
-    //"y": 15,
-    "itemWidth": 140,
+    padding: 1,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
@@ -41,5 +40,5 @@
       } 
     }
   }
-}
+};
 }());

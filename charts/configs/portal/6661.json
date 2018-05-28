@@ -681,7 +681,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickAmount": 6
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -693,7 +694,8 @@
       }
     },
     "tickLength": 0,
-    "type": "linear"
+    "type": "linear",
+    "tickInterval": 2
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -717,12 +719,12 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 2,
+    "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0,
+    "padding": 1,
     "itemDistance": 0
   },
   "exporting": {

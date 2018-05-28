@@ -2,9 +2,6 @@
 (function(){
     return {
   "plotOptions": {
-  	   series: {
-          //pointWidth: 5, 
-        },
     "column": {
         "colorByPoint": true
     }
@@ -12,12 +9,14 @@
  "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": 0 
+      "rotation": 0,
+      step: 1,
+      y: 3
     } 
   },
   "yAxis": {
-	//"max": 100,
     "labels": {
+      y: 18,
       "format": "{value:,.0f}"
     }    
   },
@@ -57,9 +56,9 @@
   "chart": {      
     "type": "column",
     "inverted": true,
-    "spacingBottom": 40
+    marginLeft: 150,
   }
-}
+};
 }());
 
 

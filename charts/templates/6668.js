@@ -4,6 +4,7 @@
   	tickInterval: 1,
   },
   "yAxis": {
+    tickAmount: 7,
 	  "labels": {
 		  "format": "{value}%"
 	  }
@@ -21,14 +22,9 @@
   {"color": "#ffda80", legendIndex: 5, dashStyle: 'LongDash'}, /*Ausländerinnnen*/
   ],
    "legend": {
-   	symbolWidth: 30,
     "enabled": true,
-    //"x": 45,
-    "y": 15,
-    "itemWidth": 160,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
@@ -43,7 +39,6 @@
     }
   },
   chart:{
-  	spacingBottom: 60,
   }
-}
+};
 }());

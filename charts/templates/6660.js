@@ -1,12 +1,11 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 2,
+    "tickInterval": 3,
   },
   "yAxis": {
     "min": 0, 
-    //tickInterval: 10,
-    max: 40, 
+    tickAmount: 5,
 	  "labels": {
 		  "format": "{value}%"
 	  }
@@ -31,7 +30,7 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    //"itemMarginBottom": 5,
+    padding: 1,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

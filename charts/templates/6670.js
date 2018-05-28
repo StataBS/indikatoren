@@ -3,6 +3,7 @@
   "xAxis": {
   },
   "yAxis": {
+    tickAmount: 5,
 	  "labels": {
 		  "format": "{value}%"
 	  }
@@ -20,13 +21,9 @@
   {"color": "#ffda80", legendIndex: 5, dashStyle: 'LongDash'}, /*Ausländerinnnen*/
   ],
    "legend": {
-   	 symbolWidth: 30,
     "enabled": true,
-    //"y": 15,
-    "itemWidth": 160,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

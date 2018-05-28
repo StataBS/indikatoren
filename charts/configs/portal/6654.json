@@ -160,6 +160,7 @@
     },
     "type": "column",
     "inverted": true,
+    "marginLeft": 120,
     "renderTo": "container-6654",
     "spacingBottom": 8
   },
@@ -213,8 +214,7 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    },
-    "ofset": -5
+    }
   },
   "navigation": {
     "menuItemStyle": {

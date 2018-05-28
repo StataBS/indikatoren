@@ -66,7 +66,9 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "rotation": 0
+      "rotation": 0,
+      "step": 1,
+      "y": 3
     },
     "tickLength": 0
   },
@@ -104,8 +106,9 @@
     },
     "type": "column",
     "inverted": true,
-    "spacingBottom": 40,
-    "renderTo": "container-6662"
+    "marginLeft": 150,
+    "renderTo": "container-6662",
+    "spacingBottom": 8
   },
   "plotOptions": {
     "series": {
@@ -154,7 +157,7 @@
       "text": ""
     },
     "labels": {
-      "y": 3,
+      "y": 18,
       "style": {
         "fontSize": 10,
         "color": "#000000"

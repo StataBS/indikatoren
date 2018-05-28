@@ -112,7 +112,9 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "rotation": 0
+      "rotation": 0,
+      "y": 3,
+      "step": 1
     },
     "tickLength": 0
   },
@@ -150,6 +152,7 @@
     },
     "type": "column",
     "inverted": true,
+    "marginLeft": 120,
     "renderTo": "container-6658",
     "spacingBottom": 8
   },
@@ -163,9 +166,7 @@
           "fontWeight": "normal",
           "color": "black"
         }
-      },
-      "pointPadding": 0,
-      "itemWidth": 10
+      }
     }
   },
   "title": {
@@ -199,10 +200,11 @@
       "text": ""
     },
     "labels": {
-      "y": 3,
+      "y": 18,
       "style": {
         "fontSize": 10,
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       },
       "format": "{value:,.0f}%"
     }
@@ -238,7 +240,8 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "padding": 1
   },
   "dataLabels": {
     "enabled": false,

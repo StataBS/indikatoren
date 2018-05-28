@@ -6,11 +6,14 @@
   {"color": "rgb(231,207,226)", index: 0, legendIndex:2}, /*Tert.*/
 ],
   "chart": {
-    "inverted": true
+    "inverted": true,
+    marginLeft: 120,
+    spacingRight: 3
   }, 
   legend: {
-    itemDistance: 5,
     "enabled": true,
+    padding: 1,
+    itemDistance: 1,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
@@ -20,13 +23,26 @@
   },  
   xAxis: {
     labels: {
+      step: 1,
+      y: 3,
       formatter: function() {
       	return this.value;
-      }
+      },
+      style: undefined
     }
   },
   yAxis: {
      tickInterval: 20,
+     labels: {
+       y: 18, 
+       overflow: 'justify',
+       style: {
+         textOverflow: 'none'
+       }
+     }, 
+  },
+  exporting: {
+    enabled: false
   }
 };
 }());

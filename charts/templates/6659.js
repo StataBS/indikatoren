@@ -1,22 +1,17 @@
 (function(){
     return {
-   plotOptions: {
-        series: {
-            pointPadding: 0,
-            borderWidth: 0,
-			itemWidth: 10, 
-
-        }
-   },
   "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": 0 
+      sytep: 1, 
+      y: 3,
+      "rotation": 0,
     } 
   },
   "yAxis": {
     "labels": {
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}",
+      y: 18, 
     }    
   },
   "series": [
@@ -28,8 +23,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    //"x": 25,
-	  //"y": 40,    
+    padding: 1,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -41,7 +35,7 @@
   "chart": {      
     "type": "column",
     "inverted": true,
-    //"spacingTop": 100
+    marginLeft: 120
   }
-}
+};
 }());

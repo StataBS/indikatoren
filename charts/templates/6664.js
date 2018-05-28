@@ -18,6 +18,7 @@
   "yAxis": {
   	max: 15,
   	min: -15,
+  	tickAmount: 7,
     "labels": {
       "format": "{value:,.0f}"
     }    
@@ -58,9 +59,8 @@
   "chart": {      
     "type": "column",
     "inverted": false,
-    "spacingBottom": 40
   }
-}
+};
 }());
 
 

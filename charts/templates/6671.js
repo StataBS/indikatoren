@@ -4,14 +4,6 @@ global Highcharts
 
 (function(){
     return {
-   plotOptions: {
-        series: {
-            pointPadding: 0,
-            borderWidth: 0,
-			itemWidth: 10, 
-
-        }
-   },
   "xAxis": {
     "type": "category",
     "labels": {
@@ -34,8 +26,6 @@ global Highcharts
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    //"x": 25,
-	  //"y": 55,    
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -49,7 +39,6 @@ global Highcharts
   "chart": {      
     "type": "column",
     "inverted": false,
-    //"spacingTop": 100
   }
 };
 }());

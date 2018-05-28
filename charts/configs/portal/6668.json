@@ -559,8 +559,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "spacingBottom": 80,
-    "renderTo": "container-6668"
+    "renderTo": "container-6668",
+    "spacingBottom": 28
   },
   "title": {
     "style": {
@@ -603,7 +603,8 @@
         "color": "#000000"
       },
       "format": "{value}%"
-    }
+    },
+    "tickAmount": 7
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -639,15 +640,12 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0,
-    "symbolWidth": 30,
-    "y": 15,
-    "itemWidth": 160
+    "padding": 0
   },
   "exporting": {
     "enabled": false,

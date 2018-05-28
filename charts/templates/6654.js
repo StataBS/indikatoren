@@ -9,7 +9,6 @@
     } 
   },
   "yAxis": {
-    ofset: -5,
     labels: {
       "format": "{value:,.0f}",
       y: 18
@@ -36,7 +35,7 @@
   "chart": {      
     "type": "column",
     "inverted": true,
-    //"spacingTop": 100
+    marginLeft: 120
   }
-}
+};
 }());

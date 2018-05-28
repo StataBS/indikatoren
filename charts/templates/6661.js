@@ -4,27 +4,21 @@
     "type": "area",
    },
   plotOptions: {
-        /*series: {
-        	"stacking": "normal",
-			pointPadding: 0,
-            borderWidth: 0,
-            pointWidth: 10, 
-
-        }*/
          area: {
             stacking: 'normal',
-            //lineColor: '#666666',
             lineWidth: 0,
 
         }
   },
   "yAxis": {
+    tickAmount: 6,
     "labels": {
       "format": "{value:,.0f}",
     }
   },
   "xAxis": {
   	"type": "linear",
+  	tickInterval: 2,
   },
   "legend": {
     "enabled": true,
@@ -32,9 +26,9 @@
     "verticalAlign": "top",
     "align": "left",
     itemDistance: 0,
-    itemMarginBottom: 2,
+    padding: 1,
     "itemStyle": {
-    "fontWeight": "normal"
+      "fontWeight": "normal"
     }
   },
   "series": [

@@ -104,8 +104,8 @@
     },
     "type": "column",
     "inverted": false,
-    "spacingBottom": 40,
-    "renderTo": "container-6664"
+    "renderTo": "container-6664",
+    "spacingBottom": 8
   },
   "plotOptions": {
     "series": {
@@ -162,7 +162,8 @@
       "format": "{value:,.0f}"
     },
     "max": 15,
-    "min": -15
+    "min": -15,
+    "tickAmount": 7
   },
   "navigation": {
     "menuItemStyle": {
