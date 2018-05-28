@@ -6,29 +6,38 @@
   {"color": "rgb(231,207,226)", index: 0, legendIndex:2}, /*Tert.*/
 ],
   "chart": {
-    "inverted": true
+    "inverted": true, 
   }, 
   legend: {
-    itemDistance: 5,
+    itemDistance: 0,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	  //"y": 45,
+    padding: 1,	  
     "itemStyle": {
       "fontWeight": "normal"
     }
   },  
   xAxis: {
     labels: {
+      //y: 3,
       formatter: function() {
-      	return this.value.replace(" ", "<br/>");
+      	return this.value;
       }
     }
   },
   yAxis: {
-     tickInterval: 20,
+    tickInterval: 20,
+    labels: {
+      y: 18, 
+      overflow: 'justify',
+      style: {
+        textOverflow: 'none'
+      }
+    }
   }
+
 };
 }());
 

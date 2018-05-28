@@ -1051,7 +1051,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Den grössten Anteil Personen mit Tertiärausbildung (44%) weisen die Ausländerinnen und Ausländer auf, auch der Anteil Personen mit Sekundarstufe I (33%) ist am grössten.",
 		"erlaeuterungen": "Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe:  Höhere Fachschule, Fachhochschule, Universität.",
-		"template": "template001_print",
+		"template": "befragungen001_print",
 		"orderKey": "02_00_00_00_00_000",
 		"parentId": 6091,
 		"children": [],
