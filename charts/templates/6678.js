@@ -5,27 +5,38 @@
     {"color": "#E7CEE2", index: 0, legendIndex: 1}, /*Italien*/
   ],
   chart: {
-    inverted: true
+    inverted: true, 
+    marginLeft: 120,
+    spacingRight: 3,
   },
   legend: {
-    itemDistance: 15,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	  //"y": 45,
+    padding: 1,
+    itemDistance: 1,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },  
   yAxis: {
-    tickInterval: 20
+    tickInterval: 20, 
+     labels: {
+       y: 18, 
+       overflow: 'justify',
+       style: {
+         textOverflow: 'none'
+       }
+     }, 
   },
   xAxis: {
     labels: {
+      step: 1,
       formatter: function() {
       	return this.value;
-      }
+      },
+      style: undefined
     }
   },
 

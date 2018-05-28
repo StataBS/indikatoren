@@ -954,7 +954,7 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
+    "width": 665,
     "height": 208,
     "spacing": [
       7,
@@ -983,10 +983,9 @@
                     
                 }
     },
-    "renderTo": "container-6675",
-    "marginBottom": 90,
     "type": "column",
     "inverted": false,
+    "renderTo": "container-6675",
     "spacingBottom": 8
   },
   "plotOptions": {
@@ -1000,8 +999,6 @@
           "color": "black"
         }
       },
-      "pointPadding": 100,
-      "pointWidth": 10,
       "stacking": "normal"
     }
   },
@@ -1074,10 +1071,13 @@
       "fontWeight": "normal"
     },
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "itemDistance": 5
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "y": -25,
+    "align": "right",
+    "padding": 1,
+    "itemDistance": 1,
+    "reversed": true
   },
   "dataLabels": {
     "enabled": false,
@@ -1090,6 +1090,7 @@
     "shared": false
   },
   "exporting": {
+    "enabled": false,
     "filename": 6675
   }
 }

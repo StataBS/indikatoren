@@ -24,11 +24,12 @@
         yAxis:[{
             //max: 7,
             tickInterval: 1,
-            min:0,
+            min: 0,
             title: {
                 text: null
             },
             "labels": {
+                rotation: 0,
                 formatter: function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
             	},
@@ -94,12 +95,10 @@
 	    ],
     "legend": {
         "enabled": true,
-        //itemWidth: 210,
         "layout": "horizontal",
         "verticalAlign": "top",
         "align": "center",
         x: 10,
-       	//"y": 50,    
         "itemStyle": {
           "fontWeight": "normal"
         }
@@ -115,7 +114,7 @@
             }
         },
         chart:{
-        	spacingBottom: 50,
+        	spacingRight: 2,
         }
 	};
 }());

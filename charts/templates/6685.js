@@ -23,18 +23,19 @@
         },
         yAxis:[{
             //max: 7,
-            //tickInterval: 1,
+            tickInterval: 2,
             min:0,
             title: {
                 text: null
             },
             "labels": {
-            	step: 1,
+            	rotation: 0,
                 formatter: function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
             	},
                 "style": {
-                    "color": "#000000"
+                    "color": "#000000",
+                    textOverflow: 'none'
                 }
             },
             plotLines: [{
@@ -94,12 +95,10 @@
 	    ],
     "legend": {
         "enabled": true,
-        //itemWidth: 210,
         "layout": "horizontal",
         "verticalAlign": "top",
         "align": "center",
         x: 10,
-       	//"y": 50,    
         "itemStyle": {
           "fontWeight": "normal"
         }
@@ -115,7 +114,7 @@
             }
         },
         chart:{
-        	spacingBottom: 50,
+            spacingRight: 4,
         }
 	};
 }());

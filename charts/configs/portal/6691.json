@@ -176,10 +176,9 @@
                     
                 }
     },
-    "marginBottom": 65,
-    "marginTop": 75,
     "type": "column",
     "inverted": true,
+    "marginLeft": 120,
     "renderTo": "container-6691",
     "spacingBottom": 8
   },
@@ -193,8 +192,7 @@
           "fontWeight": "normal",
           "color": "black"
         }
-      },
-      "pointPadding": 0
+      }
     }
   },
   "title": {
@@ -228,7 +226,7 @@
       "text": ""
     },
     "labels": {
-      "y": 3,
+      "y": 15,
       "style": {
         "fontSize": 10,
         "color": "#000000"

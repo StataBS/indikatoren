@@ -263,7 +263,6 @@
                     
                 }
     },
-    "marginBottom": 65,
     "type": "column",
     "inverted": false,
     "renderTo": "container-6693",
@@ -322,7 +321,8 @@
       "formatter": function (){
             return Highcharts.numberFormat((100 * this.value),0)+'%';                
         }
-    }
+    },
+    "tickInterval": 0.25
   },
   "navigation": {
     "menuItemStyle": {
@@ -354,7 +354,7 @@
     },
     "enabled": true,
     "useHTML": false,
-    "itemDistance": 5,
+    "padding": 1,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left"

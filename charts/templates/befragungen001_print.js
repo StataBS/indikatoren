@@ -96,10 +96,10 @@
         },
         "labels": {
             "rotation": 0,
-           "style": {
+            "style": {
                 "color": "#000000",
                 "width": 1,
-                "textOverflow": "none",
+                //"textOverflow": "none",
                 "fontSize": "10px",
             },
             "formatter": function() {

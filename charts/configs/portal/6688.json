@@ -1357,7 +1357,8 @@
         "color": "#000000"
       },
       "format": "{value}"
-    }
+    },
+    "tickInterval": 25
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -1381,7 +1382,7 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"

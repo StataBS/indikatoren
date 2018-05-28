@@ -119,6 +119,7 @@ global Highcharts
     "type": "category"    
   },
   "yAxis": {
+    tickInterval: 0.25,
     "labels": {
         "formatter": function(){
             return Highcharts.numberFormat((100 * this.value),0)+'%';                
@@ -128,7 +129,7 @@ global Highcharts
    "legend": {
     "enabled": true,
     "useHTML": false,
-     itemDistance: 5,
+    padding: 1,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
@@ -137,8 +138,6 @@ global Highcharts
     }
   },
   "chart": {    
-    "marginBottom": 65,
-    //"marginTop": 75,
     "type": "column",
     "inverted": false
   }

@@ -1,11 +1,11 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 1,
+    //"tickInterval": 1,
   },
   "yAxis": {
     "min": 0, 
-    //tickInterval: 10,
+    tickInterval: 2.5,
 	  "labels": {
 		  "format": "{value}%"
 	  }
@@ -30,9 +30,7 @@
    "legend": {
     "enabled": true,
     "layout": "horizontal",
-    itemDistance: 5,
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
@@ -46,5 +44,5 @@
       } 
     }
   }
-}
+};
 }());

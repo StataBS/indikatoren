@@ -299,6 +299,9 @@
       "style": {
         "fontSize": 10,
         "color": "#000000"
+      },
+      "formatter": function (){
+        return this.value.replace(" Jahre", "");
       }
     },
     "tickLength": 0
@@ -335,7 +338,6 @@
                     
                 }
     },
-    "marginBottom": 65,
     "type": "column",
     "inverted": false,
     "renderTo": "container-6692",
@@ -351,8 +353,7 @@
           "fontWeight": "normal",
           "color": "black"
         }
-      },
-      "pointPadding": 0
+      }
     }
   },
   "title": {
@@ -394,7 +395,8 @@
       "formatter": function (){
             return Highcharts.numberFormat((100 * this.value),0)+'%';                
         }
-    }
+    },
+    "tickInterval": 0.25
   },
   "navigation": {
     "menuItemStyle": {
@@ -425,7 +427,7 @@
       "fontWeight": "normal"
     },
     "enabled": true,
-    "itemDistance": 5,
+    "padding": 1,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left"

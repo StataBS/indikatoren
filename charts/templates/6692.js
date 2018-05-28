@@ -33,12 +33,6 @@ global Highcharts
       }
     ]  
   },
-	plotOptions: {
-        series: {
-            pointPadding: 0,
-            borderWidth: 0
-        }
-    },
   "series": [
     {
       "index": 0,
@@ -116,9 +110,15 @@ global Highcharts
     
   ],  
   "xAxis": {
-    "type": "category"    
+    "type": "category",
+    labels: {
+      formatter: function(){
+        return this.value.replace(" Jahre", "");
+      }
+    }
   },
   "yAxis": {
+    tickInterval: 0.25,
     "labels": {
         "formatter": function(){
             return Highcharts.numberFormat((100 * this.value),0)+'%';                
@@ -127,7 +127,7 @@ global Highcharts
   },    
    "legend": {
     "enabled": true,
-     itemDistance: 5,
+    padding: 1,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
@@ -136,8 +136,6 @@ global Highcharts
     }
   },
   "chart": {    
-    "marginBottom": 65,
-    //"marginTop": 75,
     "type": "column",
     "inverted": false
   }

@@ -18,12 +18,6 @@ global Highcharts
       }
     ]  
   },
-	plotOptions: {
-        series: {
-            pointPadding: 0,
-            borderWidth: 0
-        }
-    },
     "series": [
     {
       "index": 0,
@@ -49,6 +43,7 @@ global Highcharts
   },
   "yAxis": {
     "labels": {
+        y: 15,
         "formatter": function(){
             return Highcharts.numberFormat((100 * this.value),0)+'%';                
         },
@@ -58,10 +53,9 @@ global Highcharts
     "enabled": false
   },
   "chart": {    
-    "marginBottom": 65,
-    "marginTop": 75,
     "type": "column",
-    "inverted": true
+    "inverted": true, 
+    marginLeft: 120
   }
 	};
 }());

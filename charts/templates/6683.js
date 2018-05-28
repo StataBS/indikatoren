@@ -115,7 +115,6 @@
             }
         },
         chart:{
-        	spacingBottom: 50,
         }
 	};
 }());

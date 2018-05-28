@@ -53,7 +53,6 @@
   {"color": "#999999", index: 0, legendIndex: 9}, /*Übrige Länder*/
 ],
   "chart": {
-    //"marginTop": 75,
     "type": "column",
     "inverted": false, 
     width: 665

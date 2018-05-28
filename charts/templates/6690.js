@@ -115,6 +115,7 @@
     "type": "category"    
   },
   "yAxis": {
+    tickAmount: 5,
     "labels": {
         "formatter": function(){
             return Highcharts.numberFormat((100*this.value),0)+'%';                
@@ -122,20 +123,18 @@
     } 
   },    
    "legend": {
-   	itemDistance: 5,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
+    padding: 1,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "chart": {    
-    "marginBottom": 65,
-    //"marginTop": 75,
     "type": "column",
     "inverted": false
   }
-	}
+	};
 }());

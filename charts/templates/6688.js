@@ -15,7 +15,7 @@
   },
   "yAxis": {
     "min": 0, 
-    //tickInterval: 10,
+    tickInterval: 25,
 	  "labels": {
 		  "format": "{value}"
 	  }
@@ -32,7 +32,6 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
@@ -46,5 +45,5 @@
       } 
     }
   }
-}
+};
 }());

@@ -322,7 +322,6 @@
       "style": {
         "color": "#000000",
         "width": 1,
-        "textOverflow": "none",
         "fontSize": "10px"
       },
       "formatter": function () {
