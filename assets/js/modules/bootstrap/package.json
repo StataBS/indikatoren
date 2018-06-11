@@ -1,10 +1,4 @@
 {
-  "_args": [
-    [
-      "bootstrap@3.3.7",
-      "/home/ubuntu/workspace"
-    ]
-  ],
   "_from": "bootstrap@3.3.7",
   "_id": "bootstrap@3.3.7",
   "_inBundle": false,
@@ -25,7 +19,8 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz",
-  "_spec": "3.3.7",
+  "_shasum": "5a389394549f23330875a3b150656574f8a9eb71",
+  "_spec": "bootstrap@3.3.7",
   "_where": "/home/ubuntu/workspace",
   "author": {
     "name": "Twitter, Inc."
@@ -33,6 +28,8 @@
   "bugs": {
     "url": "https://github.com/twbs/bootstrap/issues"
   },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
   "devDependencies": {
     "btoa": "~1.1.2",
