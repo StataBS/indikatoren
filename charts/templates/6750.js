@@ -2,9 +2,6 @@
     return {
 "plotOptions": {
     "series": {
-      pointPadding: 100,
-      borderWidth: 0,
-      "pointWidth": 30,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -23,15 +20,15 @@
      //tickInterval: 60000,
     "labels": {
       "format": "{value:,.0f}%",
+      y: 18, 
     },
   },
   "legend": {
-  	//"itemWidth": 50,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	  //"y": 30,
+    margin: 1,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -46,8 +43,6 @@
 ],
   "chart": {
     "renderTo": 'container-I.01.1.0016', 
-    "marginBottom": 75,
-    //"marginTop": 75,
     "type": "column",
     "inverted": true
   },
