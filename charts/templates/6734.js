@@ -4,7 +4,7 @@
     "series": {
       pointPadding: 100,
       borderWidth: 0,
-      "pointWidth": 20,
+      "pointWidth": 5,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -25,22 +25,7 @@
       "format": "{value:,.0f}%",
     },
   },
-  "legend": {
-  	//"itemWidth": 145,
-    "enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
-    reversed: true,
-    itemMarginBottom: 5,
-    labelFormatter: function(){
-      return this.name.replace(" ", "<br/>").replace("-", "<br/>");
-    },
-	  //"y": 30,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
-  },
+
  "series": [
   {"color": "#71a3b5", index: 6, legendIndex: 0}, 
   {"color": "#672773", index: 5, legendIndex: 1}, 
