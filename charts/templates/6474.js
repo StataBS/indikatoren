@@ -21,6 +21,7 @@
   {"color": "#083038"}, /**/
   ],
    "legend": {
+   	margin: 20,
     "enabled": true,
     //"x": 45,
     //"y": 35,

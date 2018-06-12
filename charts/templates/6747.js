@@ -18,6 +18,7 @@
   "yAxis": {
 	//"max": 100,
     "labels": {
+  		y: 15,
       "format": "{value:,.0f}%"
     }    
   },

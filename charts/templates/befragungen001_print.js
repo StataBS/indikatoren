@@ -4,7 +4,6 @@
         "events":{
             "load": function() {
                 this.credits.element.onclick = function() {};
-
               //for top-left legends with no x defined: move legend to x position of first yAxis
               if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
                 this.update(
@@ -15,7 +14,6 @@
                   }
                 );
               }                              
-                
             }
         },
         "borderColor": "#fbfbfb",
@@ -99,11 +97,23 @@
             "style": {
                 "color": "#000000",
                 "width": 1,
-                //"textOverflow": "none",
+                 whiteSpace: 'nowrap', 
+                "textOverflow": "none",
                 "fontSize": "10px",
             },
-            "formatter": function() {
-            	return this.value.replace(" ", "<br/>");
+              "formatter": function() {
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
             }
         }
     },

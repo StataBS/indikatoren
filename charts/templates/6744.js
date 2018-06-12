@@ -4,7 +4,7 @@
         "type": "category",
         "labels": {
            align: "left",
-            x: -180,
+            x: -160,
             "formatter": function() {
                 //add sum of observations of visible series to the axis label
                 var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
@@ -22,9 +22,10 @@
         } 
   },  
   yAxis:{
-  	tickInterval: 20,
+  	tickInterval: 50,
   	max: 100,
   	labels:{
+  		y: 15,
   		"type": "category",
   		rotation: 0,
   		style:{
@@ -47,16 +48,17 @@
 
   ],
 "chart": {     
-	 marginLeft: 195, 
+	 marginLeft: 165, 
 	 //marginBottom: 100,
      "inverted": true,
   },
-  "legend": { 
+"legend": {
+  	x: -1,
+    margin: 10,
+    padding: 1,
+    itemWidth: 155,
     "enabled": true,
     "layout": "horizontal",
-    alignColumns: false, 
-    itemDistance: 5, 
-    padding: 0,
     "verticalAlign": "top",
     "align": "left",
     "itemStyle": {

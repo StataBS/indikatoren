@@ -16,6 +16,7 @@
   },
   "yAxis": {
     "labels": {
+      y: 15,
       "format": "{value:,.0f}"
     }    
   },
@@ -24,6 +25,7 @@
   {"color": "#E6E600", "visible": true}, /* gelb*/
   ],
   "legend": {
+  	margin: 10,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

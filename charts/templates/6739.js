@@ -26,6 +26,7 @@
   	tickInterval: 20,
   	max: 100,
   	labels:{
+  		y: 15,
   		rotation: 0,
   	}
   },

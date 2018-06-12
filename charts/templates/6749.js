@@ -4,7 +4,7 @@
         "type": "category",
         "labels": {
            align: "left",
-            x: -90,
+            x: -160,
             "formatter": function() {
                 //add sum of observations of visible series to the axis label
                 var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
@@ -18,13 +18,15 @@
                 var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
                 //check for value that contains only spaces
             	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
             }
         } 
   },  
   yAxis:{
-  	tickInterval: 20,
+  	tickInterval: 50,
   	max: 100,
   	labels:{
+  		y: 15,
   		"type": "category",
   		rotation: 0,
   			style:{
@@ -48,12 +50,14 @@
 
   ],
 "chart": {     
-	 marginLeft: 105, 
+	 marginLeft: 165, 
      "inverted": true,
   },
-  "legend": { 
-    margin: 1,
+  "legend": {
+  	x: -1,
+    margin: 10,
     padding: 1,
+    itemWidth: 120,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

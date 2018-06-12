@@ -31,7 +31,7 @@
   },
   plotOptions: {
   	series:{
-  			 "pointWidth": 80,
+  			 "pointWidth": 40,
   	},
   	column: {
   		groupPadding: 0,

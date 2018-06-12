@@ -252,7 +252,6 @@
                 }
     },
     "renderTo": "container-6750",
-    "marginBottom": 75,
     "type": "column",
     "inverted": true,
     "spacingBottom": 8
@@ -268,8 +267,6 @@
           "color": "black"
         }
       },
-      "pointPadding": 100,
-      "pointWidth": 30,
       "stacking": "normal"
     }
   },
@@ -304,7 +301,7 @@
       "text": ""
     },
     "labels": {
-      "y": 3,
+      "y": 18,
       "style": {
         "fontSize": 10,
         "color": "#000000"
@@ -344,7 +341,8 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "margin": 1
   },
   "dataLabels": {
     "enabled": false,
