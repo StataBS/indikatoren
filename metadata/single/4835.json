@@ -1,42 +1,28 @@
-{
- "title": "Vermögenssteuer pro Veranlagung",
- "subtitle": "Stand: Steuerjahr 2015",
- "kuerzel": "I.18.2.04835",
- "kuerzelKunde": "WA-1.A",
- "description": "Vermögenssteuer pro Veranlagung",
- "id": 4835,
- "thema": "18 Öffentliche Finanzen",
- "unterthema": "Steuern",
- "kennzahlenset": "Wohnviertel",
- "raeumlicheGliederung": [
-  "Wohnviertel"
- ],
- "aktualisierungsdatum": "2018-02-20T14:15:03.033",
- "schlagwort": [
-  "Bevölkerung"
- ],
- "stufe1": "Bereich 3: Wirtschaft und Arbeit",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Im Wohnviertel Bruderholz wird der höchste Wert pro Veranlagung verzeichnet, im Wohnviertel Klybeck der niedrigste.",
- "erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
- "template": "dotplot",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "03_00_00_00_00_001",
- "parentId": null,
- "children": [
-  "5122"
- ],
- "renderLink": [
-  "5122"
- ],
- "quellenangabe": [
-  "Statistisches Amt Basel-Stadt, Steuerstatistik"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Vermögenssteuer pro Veranlagung",
+"subtitle":"Stand: Steuerjahr 2015",
+"kuerzel":"I.18.2.04835",
+"kuerzelKunde":"WA-1.A",
+"description":"Vermögenssteuer pro Veranlagung",
+"id":4835,
+"thema":"18 Öffentliche Finanzen",
+"unterthema":"Steuern",
+"kennzahlenset":"Wohnviertel",
+"raeumlicheGliederung":["Wohnviertel"],
+"aktualisierungsdatum":"2018-02-20T14:15:03.033",
+"stufe1":"Teil 2: Rang-Grafiken",
+"stufe2":"Wirtschaft und Arbeit",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Im Wohnviertel Bruderholz wird der höchste Wert pro Veranlagung verzeichnet, im Wohnviertel Klybeck der niedrigste.",
+"erlaeuterungen":"Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
+"template":"dotplot",
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"02_03_00_00_00_014",
+"parentId":null,
+"children":["5122"],
+"renderLink":["5122"],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Steuerstatistik"],
+"externalLinks":[""]
 }
