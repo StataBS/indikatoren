@@ -3262,7 +3262,7 @@
         ],
         [
           5,
-          0.0293703729
+          0.0295674895
         ],
         [
           3,
@@ -3278,7 +3278,7 @@
         ],
         [
           15,
-          0.0402258999
+          0.0404742079
         ],
         [
           6,
@@ -3294,7 +3294,7 @@
         ],
         [
           11,
-          0.050352553
+          0.050458782
         ],
         [
           13,
@@ -3306,7 +3306,7 @@
         ],
         [
           17,
-          0.0554710741
+          0.0555946177
         ],
         [
           19,
@@ -3318,7 +3318,7 @@
         ],
         [
           18,
-          0.0716586613
+          0.0719648949
         ]
       ]
     },
@@ -3674,7 +3674,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2017-5-12"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2017-12-18"
   },
   "colorAxis": {
     "min": 0,

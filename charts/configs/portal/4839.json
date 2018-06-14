@@ -29,7 +29,7 @@
         ],
         [
           "St. Alban",
-          0.0293703729
+          0.0295674895
         ],
         [
           "Am Ring",
@@ -45,7 +45,7 @@
         ],
         [
           "Hirzbrunnen",
-          0.0402258999
+          0.0404742079
         ],
         [
           "Gundeldingen",
@@ -61,7 +61,7 @@
         ],
         [
           "St. Johann",
-          0.050352553
+          0.050458782
         ],
         [
           "Clara",
@@ -73,7 +73,7 @@
         ],
         [
           "Matthäus",
-          0.0554710741
+          0.0555946177
         ],
         [
           "Kleinhüningen",
@@ -85,7 +85,7 @@
         ],
         [
           "Klybeck",
-          0.0716586613
+          0.0719648949
         ]
       ],
       "name": "Arbeitslosenquote",
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2017-5-12"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2017-12-18"
   },
   "legend": {
     "enabled": false,

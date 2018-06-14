@@ -5,87 +5,87 @@
       "data": [
         [
           "Klybeck",
-          0.6085441
+          0.6147351
         ],
         [
           "Kleinhüningen",
-          0.632004
+          0.6593773
         ],
         [
           "Clara",
-          0.6597515
+          0.6647432
         ],
         [
           "Matthäus",
-          0.6766771
+          0.6812807
         ],
         [
           "St. Johann",
-          0.7007318
-        ],
-        [
-          "Iselin",
-          0.7022998
-        ],
-        [
-          "Rosental",
-          0.7069896
-        ],
-        [
-          "Hirzbrunnen",
-          0.7221371
-        ],
-        [
-          "Breite",
-          0.7366764
-        ],
-        [
-          "Bruderholz",
-          0.7414838
-        ],
-        [
-          "Riehen",
-          0.7426001
-        ],
-        [
-          "Bettingen",
-          0.7426001
+          0.7033538
         ],
         [
           "Altstadt Kleinbasel",
-          0.7428789
+          0.7043903
+        ],
+        [
+          "Iselin",
+          0.7057801
+        ],
+        [
+          "Hirzbrunnen",
+          0.7095861
+        ],
+        [
+          "Rosental",
+          0.7270216
         ],
         [
           "St. Alban",
-          0.7457145
+          0.728567
         ],
         [
-          "Gundeldingen",
-          0.7515027
+          "Bruderholz",
+          0.7357069
+        ],
+        [
+          "Breite",
+          0.7402545
+        ],
+        [
+          "Riehen",
+          0.7411724
+        ],
+        [
+          "Bettingen",
+          0.7411724
         ],
         [
           "Gotthelf",
-          0.7561848
+          0.7497291
+        ],
+        [
+          "Gundeldingen",
+          0.7611024
         ],
         [
           "Vorstädte",
-          0.7795234
+          0.7730197
         ],
         [
           "Bachletten",
-          0.7890182
+          0.780543
         ],
         [
           "Wettstein",
-          0.7898663
+          0.8001765
         ],
         [
           "Am Ring",
-          0.7999316
+          0.8011046
         ],
         [
           "Altstadt Grossbasel",
-          0.8330483
+          0.8563774
         ]
       ],
       "name": "Erwerbstätigenquote",
@@ -115,11 +115,11 @@
           5
         ],
         [
-          "Iselin",
+          "Altstadt Kleinbasel",
           6
         ],
         [
-          "Rosental",
+          "Iselin",
           7
         ],
         [
@@ -127,35 +127,35 @@
           8
         ],
         [
-          "Breite",
+          "Rosental",
           9
         ],
         [
-          "Bruderholz",
+          "St. Alban",
           10
         ],
         [
-          "Riehen",
+          "Bruderholz",
           11
         ],
         [
-          "Bettingen",
+          "Breite",
           12
         ],
         [
-          "Altstadt Kleinbasel",
+          "Riehen",
           13
         ],
         [
-          "St. Alban",
+          "Bettingen",
           14
         ],
         [
-          "Gundeldingen",
+          "Gotthelf",
           15
         ],
         [
-          "Gotthelf",
+          "Gundeldingen",
           16
         ],
         [
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-20"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-27"
   },
   "legend": {
     "enabled": false,
