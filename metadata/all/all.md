@@ -754,6 +754,27 @@ id | visible | visibleInPortal | indikatorenset
 6597 | true | false | Nachhaltigkeit
 6599 | true | true | Nachhaltigkeit
 6623 | true | true | 
+6630 | true | true | Wohnviertel
+6631 | true | true | Wohnviertel
+6632 | true | true | Wohnviertel
+6633 | true | true | Wohnviertel
+6634 | true | true | Wohnviertel
+6635 | true | true | Wohnviertel
+6636 | true | true | Wohnviertel
+6637 | true | true | Wohnviertel
+6638 | true | true | Wohnviertel
+6639 | true | true | Wohnviertel
+6640 | true | true | Wohnviertel
+6641 | true | true | Wohnviertel
+6751 | true | true | Wohnviertel
+6752 | true | true | Wohnviertel
+6753 | true | true | Wohnviertel
+6754 | true | true | Wohnviertel
+6755 | true | true | Wohnviertel
+6756 | true | true | Wohnviertel
+6757 | true | true | Wohnviertel
+6758 | true | true | Wohnviertel
+6759 | true | true | Wohnviertel
 9996 | true | false | 
 9997 | true | false | 
 9998 | true | false | Test

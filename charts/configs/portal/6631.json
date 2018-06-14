@@ -1,0 +1,293 @@
+{
+  "series": [
+    {
+      "data": [
+        {
+          "name": "Anteil&nbsp;Sozialhilfeempfänger",
+          "Wohnviertel": "Vorstädte",
+          "y": 6,
+          "Wert": 0.0362911266
+        },
+        {
+          "name": "Anteil&nbsp;Ausländer",
+          "Wohnviertel": "Vorstädte",
+          "y": 14,
+          "Wert": 0.3840478564
+        },
+        {
+          "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
+          "Wohnviertel": "Vorstädte",
+          "y": 20,
+          "Wert": 0.5509471585
+        },
+        {
+          "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
+          "Wohnviertel": "Vorstädte",
+          "y": 20,
+          "Wert": 0.3167572085
+        },
+        {
+          "name": "Gymnasialquote",
+          "Wohnviertel": "Vorstädte",
+          "y": 11,
+          "Wert": 0.44
+        },
+        {
+          "name": "Altersquotient",
+          "Wohnviertel": "Vorstädte",
+          "y": 15,
+          "Wert": 0.3685828466
+        },
+        {
+          "name": "Anteil&nbsp;Sesshafte",
+          "Wohnviertel": "Vorstädte",
+          "y": 3,
+          "Wert": 0.2783649053
+        },
+        {
+          "name": "Jugendquotient",
+          "Wohnviertel": "Vorstädte",
+          "y": 3,
+          "Wert": 0.1730710114
+        },
+        {
+          "name": "Baujahr&nbsp;Wohngebäude",
+          "Wohnviertel": "Vorstädte",
+          "y": 3,
+          "Wert": 1898.8798521
+        },
+        {
+          "name": "Anteil Einfamilienhäuser",
+          "Wohnviertel": "Vorstädte",
+          "y": 6,
+          "Wert": 0.0776340111
+        },
+        {
+          "name": "Anteil&nbsp;Grünfläche",
+          "Wohnviertel": "Vorstädte",
+          "y": 8,
+          "Wert": 0.1947350181
+        },
+        {
+          "name": "Fläche&nbsp;pro&nbsp;Wohnung",
+          "Wohnviertel": "Vorstädte",
+          "y": 13,
+          "Wert": 81.703573521
+        },
+        {
+          "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
+          "Wohnviertel": "Vorstädte",
+          "y": 19,
+          "Wert": 49.710686542
+        },
+        {
+          "name": "Vermögenssteuer",
+          "Wohnviertel": "Vorstädte",
+          "y": 19,
+          "Wert": 6165.9059687
+        },
+        {
+          "name": "Einkommenssteuer",
+          "Wohnviertel": "Vorstädte",
+          "y": 18,
+          "Wert": 16404.67856
+        },
+        {
+          "name": "Erwerbstätigenquote",
+          "Wohnviertel": "Vorstädte",
+          "y": 17,
+          "Wert": 0.7730196667
+        },
+        {
+          "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
+          "Wohnviertel": "Vorstädte",
+          "y": 21,
+          "Wert": 4.4226589734
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Vorstädte",
+          "y": 4,
+          "Wert": 0.0242808282
+        }
+      ],
+      "name": "Wert",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "fontSize": "10px"
+      },
+      "useHTML": false,
+      "formatter": function (){
+                    return (this.value + "").replace(/&nbsp;/g, "\u00A0");
+                }
+    },
+    "tickLength": 0,
+    "tickmarkPlacement": "on",
+    "lineWidth": 0,
+    "tickInterval": 1,
+    "gridLineColor": "white"
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {};
+                    //draw spider backgrounds
+                    //colors of StatA Bereiche: violett3 #923F8D, gruen3 #68AB2B, blau3 #689199
+                    var top = -Math.PI/2;
+                    var endPurple = top + 2*Math.PI/18*8;
+                    var endGreen = endPurple + 2*Math.PI/18*5;
+                    var endBlue = top;
+                    var centerX = 242.5;
+                    var centerY = 212.5;
+                    var radius = 136;
+                    this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
+                        fill: '#923F8D',
+                        stroke: '#923F8D',
+                        'stroke-width': 0,
+                        'fill-opacity': 0.5
+                    }).add();
+                    this.renderer.arc(centerX, centerY, radius, 0, endPurple, endGreen).attr({
+                        fill: '#68AB2B',
+                        stroke: '#68AB2B',
+                        'stroke-width': 0,
+                        'fill-opacity': 0.5
+                    }).add();
+                    this.renderer.arc(centerX, centerY, radius, 0, endGreen, endBlue).attr({
+                        fill: '#689199',
+                        stroke: '#689199',
+                        'stroke-width': 0, 
+                        'fill-opacity': 0.5
+                    }).add();
+                }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "area",
+    "polar": true,
+    "renderTo": "container-6631"
+  },
+  "pane": {},
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Quartierradar Vorstädte"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Ausgabe 2018",
+    "align": "left"
+  },
+  "plotOptions": {
+    "area": {
+      "lineColor": "white",
+      "lineWidth": 0.5
+    },
+    "series": {
+      "lineWidth": 1,
+      "color": "#808080",
+      "marker": {
+        "enabled": false
+      },
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "yAxis": {
+    "lineColor": "white",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "y": 11,
+      "x": 0,
+      "overflow": "justified",
+      "style": {
+        "color": "white",
+        "textOverflow": "none",
+        "fontSize": "10px"
+      }
+    },
+    "min": 1,
+    "max": 21,
+    "tickInterval": 7,
+    "showFirstLabel": false,
+    "showLastLabel": true,
+    "gridLineInterpolation": "polygon",
+    "lineWidth": 0,
+    "gridLineColor": "white"
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt"
+  },
+  "legend": {
+    "enabled": false,
+    "symbolRadius": 0
+  },
+  "tooltip": {
+    "padding": 0,
+    "useHTML": true,
+    "formatter": function () {
+              return "" + 
+              '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
+                '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
+                '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ' <b>' + this.point.y + '</b><br/>' + 
+              '</div>';
+          }
+  },
+  "exporting": {
+    "allowHTML": false,
+    "filename": 6631
+  }
+}

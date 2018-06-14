@@ -2,80 +2,116 @@
   "series": [
     {
       "data": [
-        [
-          "Anteil&nbsp;Sozialhilfeempfänger",
-          8
-        ],
-        [
-          "Anteil&nbsp;Ausländer",
-          5
-        ],
-        [
-          "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          10
-        ],
-        [
-          "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
-          3
-        ],
-        [
-          "Gymnasialquote",
-          14
-        ],
-        [
-          "Altersquotient",
-          21
-        ],
-        [
-          "Anteil&nbsp;Sesshafte",
-          20
-        ],
-        [
-          "Jugendquotient",
-          20
-        ],
-        [
-          "Baujahr&nbsp;Wohngebaeude",
-          20
-        ],
-        [
-          "Anteil Einfamilienhäuser",
-          18
-        ],
-        [
-          "Anteil&nbsp;Grünfläche",
-          20
-        ],
-        [
-          "Fläche&nbsp;pro&nbsp;Wohnung",
-          19
-        ],
-        [
-          "Wohnfläche&nbsp;pro&nbsp;Kopf",
-          16
-        ],
-        [
-          "Vermögenssteuer",
-          16
-        ],
-        [
-          "Einkommenssteuer",
-          16
-        ],
-        [
-          "Erwerbstätigenquote",
-          13
-        ],
-        [
-          "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
-          4
-        ],
-        [
-          "Arbeitslosenquote",
-          1
-        ]
+        {
+          "name": "Anteil&nbsp;Sozialhilfeempfänger",
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 2,
+          "Wert": 0.0166023166
+        },
+        {
+          "name": "Anteil&nbsp;Ausländer",
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 7,
+          "Wert": 0.2841698842
+        },
+        {
+          "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 18,
+          "Wert": 0.5196911197
+        },
+        {
+          "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 19,
+          "Wert": 0.2922636103
+        },
+        {
+          "name": "Gymnasialquote",
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 19,
+          "Wert": 0.6666666667
+        },
+        {
+          "name": "Altersquotient",
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 8,
+          "Wert": 0.2812328013
+        },
+        {
+          "name": "Anteil&nbsp;Sesshafte",
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 6,
+          "Wert": 0.3111969112
+        },
+        {
+          "name": "Jugendquotient",
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 1,
+          "Wert": 0.1441937259
+        },
+        {
+          "name": "Baujahr&nbsp;Wohngebäude",
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 1,
+          "Wert": 1822.9739479
+        },
+        {
+          "name": "Anteil Einfamilienhäuser",
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 8,
+          "Wert": 0.1022044088
+        },
+        {
+          "name": "Anteil&nbsp;Grünfläche",
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 1,
+          "Wert": 0.0672594599
+        },
+        {
+          "name": "Fläche&nbsp;pro&nbsp;Wohnung",
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 16,
+          "Wert": 89.982578397
+        },
+        {
+          "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 20,
+          "Wert": 52.670028818
+        },
+        {
+          "name": "Vermögenssteuer",
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 17,
+          "Wert": 5514.6161194
+        },
+        {
+          "name": "Einkommenssteuer",
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 19,
+          "Wert": 16657.376716
+        },
+        {
+          "name": "Erwerbstätigenquote",
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 21,
+          "Wert": 0.8563773753
+        },
+        {
+          "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 20,
+          "Wert": 4.3204680878
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 6,
+          "Wert": 0.0257474605
+        }
       ],
-      "name": "Rang",
+      "name": "Wert",
       "turboThreshold": 0
     }
   ],
@@ -233,7 +269,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt\u003Cbr\u002F\u003EZuletzt geändert: 9\u002F26\u002F2017"
+    "text": "Quelle: Statistisches Amt Basel-Stadt\u003Cbr\u002F\u003EZuletzt geändert: 2017-9-26"
   },
   "legend": {
     "enabled": false,
@@ -243,12 +279,12 @@
     "padding": 0,
     "useHTML": true,
     "formatter": function () {
-                return "" + 
-                '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
-                  '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
-                  '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.series.name + ': <b>' + this.point.y + '</b><br/>' + 
-                '</div>';
-            }
+              return "" + 
+              '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
+                '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
+                '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ' <b>' + this.point.y + '</b><br/>' + 
+              '</div>';
+          }
   },
   "exporting": {
     "allowHTML": false,
