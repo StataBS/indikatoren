@@ -4041,13 +4041,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-05T12:37:02.022",
+		"aktualisierungsdatum": "2017-12-18T11:37:16.1616",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Sozialhilfeempfänger ist in Kleinhüningen am höchsten, in Bettingen am niedrigsten.",
+		"lesehilfe": "Der Anteil Sozialhilfeempfänger ist im Wohnviertel Klybeck am höchsten, in Bettingen am niedrigsten.",
 		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger an der Wohnbevölkerung des Wohnviertels.",
 		"template": "dotplot",
 		"visibleInPortal": true,
@@ -4117,7 +4117,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-04T14:54:05.055",
+		"aktualisierungsdatum": "2017-12-18T11:37:16.1616",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -4155,7 +4155,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
+		"aktualisierungsdatum": "2017-12-18T11:37:16.1616",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -4193,7 +4193,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T13:01:58.5858",
+		"aktualisierungsdatum": "2018-02-28T10:59:29.2929",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -4231,7 +4231,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T17:35:44.4444",
+		"aktualisierungsdatum": "2018-02-28T11:33:02.022",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -4307,7 +4307,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T13:48:14.1414",
+		"aktualisierungsdatum": "2018-02-28T12:02:02.022",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -4345,7 +4345,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T16:18:00.000",
+		"aktualisierungsdatum": "2018-02-28T12:04:17.1717",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -4383,7 +4383,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T16:26:13.1313",
+		"aktualisierungsdatum": "2018-02-28T11:09:06.066",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -4421,7 +4421,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-03-17T14:11:56.5656",
+		"aktualisierungsdatum": "2018-02-02T11:33:24.2424",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -4459,7 +4459,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T17:29:58.5858",
+		"aktualisierungsdatum": "2018-02-28T11:14:15.1515",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -4497,7 +4497,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T16:35:49.4949",
+		"aktualisierungsdatum": "2018-02-28T11:30:29.2929",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -4575,7 +4575,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T00:00:00.000",
+		"aktualisierungsdatum": "2018-02-28T11:35:52.5252",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -4613,7 +4613,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T00:00:00.000",
+		"aktualisierungsdatum": "2018-02-27T11:24:39.3939",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -4651,7 +4651,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-06T00:00:00.000",
+		"aktualisierungsdatum": "2018-02-27T11:06:15.1515",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -4689,7 +4689,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-12T15:13:10.1010",
+		"aktualisierungsdatum": "2017-12-18T11:37:16.1616",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -6326,13 +6326,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-05T12:36:27.2727",
+		"aktualisierungsdatum": "2017-12-18T11:37:16.1616",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Sozialhilfeempfänger ist in Kleinhüningen am höchsten, in Bettingen am niedrigsten.",
+		"lesehilfe": "Der Anteil Sozialhilfeempfänger ist im Wohnviertel Klybeck am höchsten, in Bettingen am niedrigsten.",
 		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger an der Wohnbevölkerung des Wohnviertels.",
 		"template": "map001",
 		"visibleInPortal": true,
@@ -6362,7 +6362,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-03-17T14:09:23.2323",
+		"aktualisierungsdatum": "2018-02-28T10:53:24.2424",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -6398,7 +6398,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-04T14:56:38.3838",
+		"aktualisierungsdatum": "2017-12-18T11:37:16.1616",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -6434,7 +6434,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-04T14:12:33.3333",
+		"aktualisierungsdatum": "2017-12-18T11:37:16.1616",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -6470,7 +6470,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-05T13:02:23.2323",
+		"aktualisierungsdatum": "2018-02-28T10:56:50.5050",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -6506,7 +6506,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-28T11:31:42.4242",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -6542,7 +6542,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-03-17T13:42:16.1616",
+		"aktualisierungsdatum": "2017-12-18T11:37:16.1616",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -6578,7 +6578,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-03-17T14:09:43.4343",
+		"aktualisierungsdatum": "2018-02-28T12:00:42.4242",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -6614,7 +6614,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-05T10:27:49.4949",
+		"aktualisierungsdatum": "2018-02-28T12:03:09.099",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -6650,7 +6650,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-05T13:03:41.4141",
+		"aktualisierungsdatum": "2018-02-28T11:07:43.4343",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -6686,7 +6686,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-03-17T14:12:26.2626",
+		"aktualisierungsdatum": "2018-02-02T11:40:55.5555",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -6722,7 +6722,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-04T17:27:32.3232",
+		"aktualisierungsdatum": "2017-12-18T11:37:16.1616",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -6758,7 +6758,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-04T17:31:03.033",
+		"aktualisierungsdatum": "2018-02-28T11:28:55.5555",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -6795,7 +6795,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-28T12:06:20.2020",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -6831,7 +6831,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-28T11:34:18.1818",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -6903,7 +6903,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T15:25:19.1919",
+		"aktualisierungsdatum": "2018-02-28T12:43:32.3232",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -6939,7 +6939,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-12T15:25:34.3434",
+		"aktualisierungsdatum": "2017-12-18T11:37:16.1616",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -16951,7 +16951,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Altstadt Grossbasel leben sehr viele Personen in Einpersonenhaushalten und der Anteil Personen ohne Religionszugehörigkeit ist hoch, ebenso die Gymnasialquote. Die Bausubstanz ist die älteste im ganzen Kanton. Die durchschnittliche Wohnfläche pro Einwohner ist gross. Ausserdem gibt es im Wohnviertel die zweitmeisten Arbeitsplätze pro Einwohner und die höchste Erwerbstätigenquote.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales </font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_001",
@@ -16985,7 +16985,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Vorstädte leben sehr viele Personen in Einpersonenhaushalten und der Anteil Personen ohne Religionszugehörigkeit ist hoch. Die Bausubstanz ist eine der ältesten im Kanton. Die durchschnittliche Wohnfläche pro Einwohner ist gross. Ausserdem verfügt das Wohnviertel über die meisten Arbeitsplätzen pro Kopf, eine hohe Erwerbstätigenquote sowie hohe Vermögens- und Einkommenssteuerwerte.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales </font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_002",
@@ -17019,7 +17019,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Am Ring leben viele Personen ohne Religionszugehörigkeit und der Anteil Personen, die in Einpersonenhaushalten wohnen, ist hoch. Die Bausubstanz zählt zu den ältesten im Kanton. Ausserdem ist die Erwerbstätigenquote sehr hoch und die Arbeitslosenquote eher niedrig.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales </font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_003",
@@ -17053,7 +17053,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Beim Wohnviertel Breite sticht der Anteil Personen, die in Einpersonenhaushalten leben, etwas hervor, ebenso der Anteil Grünflächen und das mittlere Baujahr der Gebäude. Einfamilienhäuser gibt es wenige und die Wohnungen sind eher klein. Ausserdem weist das Wohnviertel bei den Arbeitsplätzen pro Kopf den geringsten Anteil auf.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales </font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_004",
@@ -17087,7 +17087,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Beim Wohnviertel St. Alban sticht der zweithöchste Altersquotient hervor, wobei der Jugendquotient auch im oberen Drittel rangiert. Die Wohnungen sind überdurchschnittlich gross, ebenso die Wohnfläche pro Kopf. Ausserdem zeichnet sich das Wohnviertel durch einen sehr hohen Anteil Arbeitsplätzen pro Einwohner aus. Ebenfalls hoch sind die Werte der Einkommens- und Vermögenssteuer.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales </font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_005",
@@ -17121,7 +17121,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Das Wohnviertel Gundeldingen verzeichnet einen hohen Ausländeranteil. Ausserdem leben dort viele Personen in Einpersonenhaushalten. Die Gymnasialquote ist die zweitniedrigste im Kanton. Einfamilienhäuser gibt es im Wohnviertel wenige. Die Erwerbstätigenquote hingegen ist hoch.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales </font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_006",
@@ -17155,7 +17155,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Das Wohnviertel Bruderholz hat einen geringen Anteil Ausländer und Sozialhilfeempfänger. Sowohl der Jugend- als auch der Altersquotient sind sehr hoch und die Sesshaftigkeit ist ausgeprägt. Der Anteil Grünflächen ist gross und es gibt viele Einfamilienhäuser sowie grosse Wohnungen. Ausserdem sind die Erträge aus Vermögens- und Einkommenssteuer die höchsten im ganzen Kanton.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales </font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_007",
@@ -17189,7 +17189,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Bachletten wohnen anteilsmässig die wenigsten Ausländer. Die Sesshaftigkeit ist stark ausgeprägt und die Gymnasialquote die höchste im Kanton. Das Wohnviertel hat einen hohen Anteil Einfamilienhäusern und Grünflächen. Ausserdem ist die Erwerbstätigenquote im Wohnviertel hoch, die Anzahl Arbeitsplätze pro Kopf dagegen gering.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales </font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_008",
@@ -17223,7 +17223,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Beim Wohnviertel Gotthelf sticht der Anteil der Personen, die in Einpersonenhaushalten leben, etwas hervor. Auch der Anteil Personen ohne Religionszugehörigkeit und die Gymnasialquote liegen im oberen Drittel. Das Wohnviertel verfügt über einen relativ grossen Anteil Einfamilienhäuser und Grünflächen sowie eine alte Bausubstanz. Die Erwerbstätigenquote ist relativ hoch.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales </font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_009",
@@ -17257,7 +17257,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Iselin sticht der hohe Anteil Sozialhilfeempfänger hervor. Personen ohne Religionszugehörigkeit leben wenige im Wohnviertel. Der Anteil Grünflächen ist ausgeprägt. Die durchschnittliche Fläche pro Wohnung gehört mit zu den geringsten im Kanton. Ausserdem verfügt das Wohnviertel über wenige Arbeitsplätze pro Kopf sowie eine geringe Erwerbstätigenquote.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales </font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_010",
@@ -17291,7 +17291,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Das Wohnviertel St. Johann verzeichnet einen hohen Anteil Ausländer und Sozialhilfeempfänger. Der Altersquotient ist niedrig. Die Wohnfläche pro Wohnung und die Wohnfläche pro Kopf sind vergleichsweise gering. Der Anteil Einfamilienhäuser sticht etwas hervor. Die Erwerbstätigenquote ist tief, ebenso die Erträge aus der Einkommenssteuer.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales </font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_011",
@@ -17325,7 +17325,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Altstadt Kleinbasel leben die meisten Personen ohne Religionszugehörigkeit und der Anteil Personen, die in Einpersonenhaushalten wohnen, ist der höchste. Der Jugendquotient ist der zweitniedrigste im ganzen Kanton. Die Bausubstanz ist sehr alt und der Anteil Grünflächen gering. Ausserdem verfügt das Wohnviertel über einen relativ hohen Anteil Arbeitsplätzen pro Kopf sowie eine hohe Arbeitslosenquote.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales </font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_012",
@@ -17359,7 +17359,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Das Wohnviertel Clara verzeichnet einen hohen Anteil Ausländer und Sozialhilfeempfänger. Der Jugendquotient und die Gymnasialquote sind niedrig. Der Anteil Einfamilienhäusern ist der niedrigste im ganzen Kanton. Ausserdem ist die Erwerbstätigenquote sehr gering. Die Arbeitslosenquote hingegen liegt im oberen Drittel.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales </font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_013",
@@ -17393,7 +17393,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Wettstein ist der Anteil Personen ohne Religionszugehörigkeit einer der höchsten im ganzen Kanton. Die Sesshaftigkeit ist ausgeprägt und die Gymnasialquote hoch. Der Jugendquotient und der Anteil Ausländer sind dagegen niedrig. Die Wohnungen sind im Durchschnitt relativ gross. Ausserdem verzeichnet das Wohnviertel einen hohen Anteil Arbeitsplätze pro Kopf sowie eine sehr hohe Erwerbstätigenquote.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales </font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_014",
@@ -17427,7 +17427,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Hirzbrunnen ist die Sesshaftigkeit ausgeprägt. Ebenfalls mit zu den höchsten Werten im Kanton zählen sowohl der Jugend- als auch der Altersquotient. Dagegen leben wenige Personen in Einpersonenhaushalten und auch der Ausländeranteil ist gering. Das Wohnviertel zeichnet sich durch einen hohen Anteil Grünflächen und Einfamilienhäusern aus. Ausserdem verzeichnet das Wohnviertel eine Erwerbstätigenquote und einen Anteil Arbeitsplätzen pro Kopf, die im unteren Mittelfeld liegen, ebenso wie die Arbeitslosenquote und die Steuererträge.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales </font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_015",
@@ -17461,7 +17461,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Rosental sind die Einwohner am wenigsten sesshaft. Der Altersquotient ist der tiefste im ganzen Kanton, der Anteil Ausländer dagegen der höchste. Das Wohnviertel weist einen niedrigen Anteil Einfamilienhäusern aus und verfügt mit der Erlenmatt-Siedlung über relativ viele Neubauten. Ausserdem verzeichnet das Wohnviertel eine der höchsten Arbeitslosenquoten. Die Steuererträge sind vergleichsweise gering.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales </font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_016",
@@ -17495,7 +17495,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Das Wohnviertel Matthäus verzeichnet einen hohen Anteil Ausländer und Sozialhilfeempfänger. Der Altersquotient ist der zweitniedrigste im Kanton. Die Wohnungen gehören zu den kleinsten im Kantonsgebiet, die Wohnfläche pro Kopf ist ebenso wie der Anteil Einfamilienhäuser tief. Das Wohnviertel weist wenige Arbeitsplätze pro Kopf und geringe Steuererträge auf. Die Arbeitslosenquote ist eine der höchsten im Kanton.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales </font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_017",
@@ -17529,7 +17529,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Das Wohnviertel Klybeck verzeichnet den höchsten Anteil Sozialhilfeempfänger und einen hohen Ausländeranteil. Altersquotient und Anteil Personen ohne Religionszugehörigkeit sind dagegen niedrig. Die Wohnungen und die Wohnfläche pro Kopf sind die kleinsten im Kanton. Das Wohnviertel weist die niedrigsten Steuererträge und die geringste Erwerbstätigenquote auf. Die Arbeitslosenquote ist die höchste im Kanton.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales </font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_018",
@@ -17563,7 +17563,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Beim Wohnviertel Kleinhüningen sticht der zweithöchste Anteil Sozialhilfeempfänger hervor. Der Anteil Personen ohne Religionszugehörigkeit ist dagegen der niedrigste im Kanton. Die Bauten im Wohnviertel sind neueren Datums, die Wohnfläche pro Kopf eine der kleinsten im Kanton. Ausserdem verzeichnet das Wohnviertel eine der höchsten Arbeitslosenquoten und die Steuererträge gehören mit zu den niedrigsten im Kanton.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales </font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_019",
@@ -17597,7 +17597,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Alters- und der Jugendquotient sowie der Anteil Sesshafter sind in der Gemeinde Riehen stark ausgeprägt. Der Anteil Einpersonenhaushalte dagegen ist gering. Die Gemeinde verfügt über einen hohen Anteil Grünflächen und Einfamilienhäusern sowie grosse Wohnungen und viel Wohnfläche pro Kopf. Ausserdem liegen die Erträge aus Einkommens- und Vermögenssteuer im oberen Drittel.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales </font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_020",
@@ -17631,7 +17631,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Alters- und der Jugendquotient sowie der Anteil Sesshafter sind in der Gemeinde Bettingen stark ausgeprägt. Der Anteil Sozialhilfeempfänger und der Anteil Einpersonenhaushalte sind der tiefste im ganzen Kanton. Bettingen verfügt über den grössten Grünflächen- und Einfamilienhausanteil sowie die grössten Wohnungen und die meiste Wohnfläche pro Kopf. Ausserdem ist die Arbeitslosenquote niedrig.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales </font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_021",

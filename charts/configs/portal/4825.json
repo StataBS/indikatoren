@@ -5,87 +5,87 @@
       "data": [
         [
           "Bettingen",
-          0.126394052
+          0.1311627907
         ],
         [
           "Bruderholz",
-          0.1561637788
+          0.1545054945
         ],
         [
           "Riehen",
-          0.1656778837
-        ],
-        [
-          "Kleinhüningen",
-          0.1869393613
+          0.1628540045
         ],
         [
           "Hirzbrunnen",
-          0.1926121372
+          0.1886155855
         ],
         [
-          "Rosental",
-          0.2099798543
+          "Kleinhüningen",
+          0.1952813067
         ],
         [
           "Bachletten",
-          0.2165757417
+          0.2107660146
+        ],
+        [
+          "Rosental",
+          0.2144399877
         ],
         [
           "Klybeck",
-          0.2207061471
+          0.2177126918
         ],
         [
           "St. Johann",
-          0.2319218603
+          0.2289479562
         ],
         [
           "St. Alban",
-          0.2442383361
+          0.2392694911
         ],
         [
           "Matthäus",
-          0.2448914227
+          0.2433320448
         ],
         [
           "Wettstein",
-          0.2606643674
+          0.2642381657
         ],
         [
           "Iselin",
-          0.2700090607
+          0.2655998089
         ],
         [
           "Clara",
-          0.2705667276
+          0.2677286742
         ],
         [
           "Gundeldingen",
-          0.2741177106
+          0.273321097
         ],
         [
           "Am Ring",
-          0.2812912395
+          0.2780228594
         ],
         [
           "Breite",
-          0.2817591432
+          0.2849794239
         ],
         [
           "Gotthelf",
-          0.2907906426
+          0.2869757174
         ],
         [
           "Altstadt Grossbasel",
-          0.3013100437
+          0.2922636103
         ],
         [
           "Vorstädte",
-          0.3250573753
+          0.3167572085
         ],
         [
           "Altstadt Kleinbasel",
-          0.3301846286
+          0.3210091344
         ]
       ],
       "name": "Anteil Personen in Einpersonenhaushalten",
@@ -107,19 +107,19 @@
           3
         ],
         [
-          "Kleinhüningen",
+          "Hirzbrunnen",
           4
         ],
         [
-          "Hirzbrunnen",
+          "Kleinhüningen",
           5
         ],
         [
-          "Rosental",
+          "Bachletten",
           6
         ],
         [
-          "Bachletten",
+          "Rosental",
           7
         ],
         [
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2016-6-30"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2017-12-18"
   },
   "legend": {
     "enabled": false,
