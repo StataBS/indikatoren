@@ -847,7 +847,8 @@
         "color": "#000000"
       },
       "format": "{value}%"
-    }
+    },
+    "tickInterval": 40
   },
   "xAxis": {
     "lineColor": "#B9CFD7",

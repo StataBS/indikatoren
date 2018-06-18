@@ -460,7 +460,7 @@
         }
       },
       "pointPadding": 100,
-      "pointWidth": 20,
+      "pointWidth": 10,
       "stacking": "normal"
     }
   },

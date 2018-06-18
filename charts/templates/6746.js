@@ -5,7 +5,6 @@
             pointPadding: 0,
             borderWidth: 0,
 			itemWidth: 10, 
-
         }
    },
   "xAxis": {
@@ -17,7 +16,6 @@
   },
   "yAxis": {
     "labels": {
-      y: 15,
       "format": "{value:,.0f}"
     }    
   },
@@ -27,12 +25,10 @@
   ],
   "legend": {
   	x:-5,
-  	margin: 10,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    itemDistance: 5,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -42,8 +38,7 @@
     "shared": false
   },
   "chart": {
-  	plotAreaWidth: 300,
-    plotAreaHeight: 600,
+  	spacing: [0,3,0,3], /*top, right, bottom and left */
     "type": "column",
     "inverted": false,
   }

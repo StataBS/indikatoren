@@ -422,7 +422,7 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
+    "width": 665,
     "height": 208,
     "spacing": [
       7,
@@ -451,8 +451,8 @@
                     
                 }
     },
-    "spacingBottom": 60,
-    "renderTo": "container-6723"
+    "renderTo": "container-6723",
+    "spacingBottom": 18
   },
   "plotOptions": {
     "series": {

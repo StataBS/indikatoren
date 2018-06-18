@@ -460,7 +460,7 @@
         }
       },
       "pointPadding": 100,
-      "pointWidth": 20,
+      "pointWidth": 10,
       "stacking": "normal"
     }
   },
@@ -501,8 +501,7 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    },
-    "tickAmount": 7
+    }
   },
   "navigation": {
     "menuItemStyle": {

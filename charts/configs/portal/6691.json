@@ -142,7 +142,10 @@
         "color": "#000000"
       }
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "style": {
+      "textOverflow": "none"
+    }
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -176,6 +179,7 @@
                     
                 }
     },
+    "marginRight": 18,
     "type": "column",
     "inverted": true,
     "marginLeft": 120,

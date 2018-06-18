@@ -79,7 +79,7 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      7,
+      15,
       3,
       8,
       3
@@ -107,8 +107,8 @@
     },
     "type": "column",
     "inverted": true,
-    "spacingBottom": 50,
-    "renderTo": "container-6747"
+    "renderTo": "container-6747",
+    "spacingBottom": 18
   },
   "plotOptions": {
     "series": {

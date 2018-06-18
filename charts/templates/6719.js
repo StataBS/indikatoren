@@ -48,7 +48,8 @@
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
     "shared": false
   },
-  "chart": {      
+  "chart": {     
+  	spacing: [0,3,0,3], /*top, right, bottom and left */
     "type": "column",
     "inverted": true,
   }

@@ -353,7 +353,9 @@
           "fontWeight": "normal",
           "color": "black"
         }
-      }
+      },
+      "pointPadding": 0,
+      "groupPadding": 0.1
     }
   },
   "title": {

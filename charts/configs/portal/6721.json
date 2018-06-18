@@ -231,7 +231,6 @@
                 }
     },
     "renderTo": "container-6721",
-    "marginBottom": 75,
     "type": "column",
     "inverted": false,
     "spacingBottom": 8

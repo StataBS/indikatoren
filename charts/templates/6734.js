@@ -41,10 +41,8 @@
 ],
   "chart": {
     "renderTo": 'container-I.01.1.0016', 
-    "marginBottom": 130,
-    //"marginTop": 75,
-    "type": "column",
-    "inverted": false
+       "type": "column",
+    "inverted": false,
   },
   "tooltip": {
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>',
@@ -58,7 +56,6 @@
     "verticalAlign": "top",
     "align": "right",
     reversed: true,
-    itemMarginBottom: 5,
     labelFormatter: function(){
       return this.name.replace(" ", "<br/>").replace("-", "<br/>");
     },

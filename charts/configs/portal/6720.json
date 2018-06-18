@@ -207,7 +207,6 @@
       "fontFamily": "Arial"
     },
     "type": "column",
-    "marginBottom": 65,
     "renderTo": "container-6720",
     "spacingBottom": 8
   },

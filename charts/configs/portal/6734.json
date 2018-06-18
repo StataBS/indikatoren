@@ -400,7 +400,7 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      7,
+      15,
       3,
       8,
       3
@@ -427,7 +427,6 @@
                 }
     },
     "renderTo": "container-6734",
-    "marginBottom": 130,
     "type": "column",
     "inverted": false,
     "spacingBottom": 8

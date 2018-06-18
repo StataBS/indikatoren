@@ -141,10 +141,12 @@
                     
                 }
     },
+    "plotAreaWidth": 300,
+    "plotAreaHeight": 600,
     "type": "column",
     "inverted": false,
-    "spacingBottom": 60,
-    "renderTo": "container-6746"
+    "renderTo": "container-6746",
+    "spacingBottom": 18
   },
   "plotOptions": {
     "series": {

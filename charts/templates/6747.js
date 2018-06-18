@@ -61,6 +61,7 @@
   "chart": {      
     "type": "column",
     "inverted": true,
+    spacing: [15,3,8,3] /*top, right, bottom and left */	
   }
 }
 }());

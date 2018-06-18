@@ -208,6 +208,8 @@
         "fontSize": 10,
         "color": "#000000"
       },
+      "step": 1,
+      "x": -5,
       "rotation": 0
     },
     "tickLength": 0
@@ -244,6 +246,7 @@
                     
                 }
     },
+    "marginRight": 18,
     "type": "column",
     "inverted": true,
     "spacingBottom": 60,
@@ -295,14 +298,14 @@
       "text": ""
     },
     "labels": {
-      "y": 3,
+      "y": 18,
       "style": {
         "fontSize": 10,
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       },
-      "format": "{value:,.0f}%"
-    },
-    "max": 100
+      "format": "{value:,.0f}"
+    }
   },
   "navigation": {
     "menuItemStyle": {
@@ -332,6 +335,7 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
+    "x": -1,
     "enabled": true,
     "itemDistance": 5,
     "layout": "horizontal",
@@ -345,7 +349,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
