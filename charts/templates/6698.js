@@ -11,11 +11,17 @@
   "xAxis": {
     "type": "category",
     "labels": {
+    	step:1,
+    	x:-5,
       "rotation": 0 
     } 
   },
   "yAxis": {
     "labels": {
+    y: 18,
+    style: { 
+		textOverflow: 'none' // prevents ellipsis
+		},
       "format": "{value:,.0f}"
     }    
   },
@@ -28,6 +34,7 @@
   {"color": "#ffda80", "visible": true} /*  */
   ],
   "legend": {
+  	x:-1,
     "enabled": true,
     itemDistance: 5, 
     "layout": "horizontal",
@@ -41,7 +48,8 @@
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
     "shared": false
   },
-  "chart": {      
+  "chart": { 
+  	marginRight:18,
     "type": "column",
     "inverted": true,
     "spacingBottom": 50

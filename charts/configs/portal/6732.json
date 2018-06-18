@@ -118,9 +118,13 @@
     "labels": {
       "style": {
         "fontSize": 10,
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       },
-      "rotation": 0
+      "step": 1,
+      "rotation": 0,
+      "x": -10,
+      "padding": -100
     },
     "tickLength": 0
   },
@@ -207,7 +211,7 @@
       "text": ""
     },
     "labels": {
-      "y": 3,
+      "y": 18,
       "style": {
         "fontSize": 10,
         "color": "#000000"
@@ -215,7 +219,8 @@
       "formatter": function (){
         return Highcharts.numberFormat(100 * this.value, 0, ",", " ") + '%';
       }
-    }
+    },
+    "max": 0.4
   },
   "navigation": {
     "menuItemStyle": {

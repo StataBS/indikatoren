@@ -48,7 +48,8 @@
 
   ],
 "chart": {     
-	 marginLeft: 165, 
+	 marginLeft: 165,
+	 marginRight: 5,
 	 //marginBottom: 100,
      "inverted": true,
   },

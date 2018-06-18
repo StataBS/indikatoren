@@ -120,6 +120,9 @@
         "fontSize": 10,
         "color": "#000000"
       },
+      "step": 1,
+      "padding": -100,
+      "x": -5,
       "rotation": 0
     },
     "tickLength": 0
@@ -207,7 +210,7 @@
       "text": ""
     },
     "labels": {
-      "y": 3,
+      "y": 10,
       "style": {
         "fontSize": 10,
         "color": "#000000"
@@ -243,6 +246,7 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
+    "margin": 1,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

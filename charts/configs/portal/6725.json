@@ -159,7 +159,6 @@
                     
                 }
     },
-    "marginBottom": 100,
     "type": "column",
     "inverted": false,
     "renderTo": "container-6725",
@@ -216,7 +215,9 @@
         "color": "#000000"
       },
       "format": "{value}"
-    }
+    },
+    "max": 80,
+    "tickInterval": 40
   },
   "navigation": {
     "menuItemStyle": {

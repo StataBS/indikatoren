@@ -216,7 +216,7 @@
       "fontWeight": "normal"
     },
     "padding": 0,
-    "itemWidth": 140
+    "itemWidth": 100
   },
   "exporting": {
     "enabled": false,

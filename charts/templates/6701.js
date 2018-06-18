@@ -20,7 +20,7 @@
   },  
   "yAxis": {
   	 //max: 120000,
-     //tickInterval: 60000,
+     tickInterval: 8000,
     "labels": {
       "format": "{value:,.0f}",
     },
@@ -54,12 +54,14 @@
     "marginBottom": 75,
     //"marginTop": 75,
     "type": "column",
-    "inverted": false
+    "inverted": false,
+    width: 665
   },
   "tooltip": {
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
   //"footerFormat": 'Total: <b>{point.total:,.0f}</b>',
    //"shared": true
   },
+
 }
 }());

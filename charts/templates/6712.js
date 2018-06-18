@@ -11,13 +11,20 @@
   "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": 0 
+    	padding: -100,
+    	x:-5,
+       step:1,
+      "rotation": 0,
     } 
   },
   "yAxis": {
   	//max: 140000,
   	tickInterval: 200000,
     "labels": {
+	style: { 
+		textOverflow: 'none' // prevents ellipsis
+	},
+    y: 18,
       "format": "{value:,.0f}"
     }    
   },
@@ -26,6 +33,8 @@
   {"color": "#E7CEE2", "visible": true} /* grün */
   ],
   "legend": {
+  	margin:1,
+  	itemWidth: 120,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
@@ -40,7 +49,8 @@
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
     "shared": false
   },
-  "chart": {      
+  "chart": {   
+  	marginRight: 18,
     "type": "column",
     "inverted": true,
     //"spacingTop": 100

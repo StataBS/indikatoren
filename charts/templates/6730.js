@@ -19,12 +19,15 @@
         }
   },
   "yAxis": {
+    tickInterval: 25,
+	max: 125, 
     "labels": {
       "format": "{value:,.0f}",
     }
   },
   "xAxis": {
   	"type": "linear",
+  	tickInterval:1,
   },
   "legend": {
     "enabled": true,
@@ -32,7 +35,7 @@
     "verticalAlign": "top",
     "align": "left",
 	//"y": 60,
- 	itemWidth: 100,
+ 	itemWidth: 80,
 	"itemMarginBottom": 5,
     "itemStyle": {
     "fontWeight": "normal"

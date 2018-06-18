@@ -287,6 +287,8 @@
       "style": {
         "color": "#000000",
         "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none",
         "fontSize": "10px"
       },
       "formatter": function () {
@@ -305,7 +307,7 @@
             	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
             },
       "align": "left",
-      "x": -190
+      "x": -160
     }
   },
   "chart": {
@@ -340,7 +342,7 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "marginLeft": 200,
+    "marginLeft": 165,
     "inverted": true,
     "renderTo": "container-6749",
     "spacingBottom": 3
@@ -383,7 +385,7 @@
     }
   },
   "yAxis": {
-    "tickInterval": 20,
+    "tickInterval": 50,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -395,7 +397,7 @@
       "text": ""
     },
     "labels": {
-      "y": 3,
+      "y": 15,
       "format": "{value}%",
       "style": {
         "color": "#000000",
@@ -440,8 +442,10 @@
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "margin": 1,
+    "x": -1,
+    "margin": 10,
     "padding": 1,
+    "itemWidth": 120,
     "enabled": true
   },
   "exporting": {

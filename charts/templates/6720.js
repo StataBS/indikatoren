@@ -91,7 +91,6 @@
     }    
   ],
   "chart": {
-    "marginBottom": 65,
     "type": "column"
   }
 	}

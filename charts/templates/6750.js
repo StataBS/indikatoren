@@ -42,6 +42,7 @@
   {"color": "#DC440E", index: 4, legendIndex: 5}, /**/
 ],
   "chart": {
+  	spacing: [3,3,8,3],
     "renderTo": 'container-I.01.1.0016', 
     "type": "column",
     "inverted": true

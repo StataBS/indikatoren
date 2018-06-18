@@ -216,7 +216,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)\u003Cbr\u002F\u003EZuletzt geändert: 3\u002F21\u002F2018"
   },
   "legend": {
     "enabled": true,
@@ -224,6 +224,7 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
+    "margin": 20,
     "itemWidth": 150,
     "itemMarginBottom": 5,
     "itemStyle": {

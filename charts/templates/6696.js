@@ -4,7 +4,7 @@
     "series": {
       pointPadding: 100,
       borderWidth: 0,
-      "pointWidth": 20,
+      "pointWidth": 10,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -20,8 +20,6 @@
   },  
   "yAxis": {
   	 //max: 120000,
-     //tickInterval: 60000,
-     tickAmount: 7,
     "labels": {
       "format": "{value:,.0f}",
     },

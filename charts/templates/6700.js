@@ -4,7 +4,7 @@
     "series": {
       pointPadding: 100,
       borderWidth: 0,
-      "pointWidth": 20,
+      "pointWidth": 10,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -16,25 +16,28 @@
   "xAxis": {
   	min: 0,
     "type": "category",
-    "tickInterval": 1
+    "tickInterval": 1,
+    labels:{
+    	step:1,
+    	x:-5
+    }
   },  
   "yAxis": {
-  	 //max: 120000,
-     //tickInterval: 60000,
-    "labels": {
+     "labels": {
+    	y: 18,
       "format": "{value:,.0f}",
     },
-	"max": undefined
   },
-"legend": {
-    enabled:true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5, // space between legend boxes
-    "align": "right",
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+  "legend": { 
+  	x:-1,
+  	itemWidth: 135,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+     "itemStyle": {
+    "fontWeight": "normal"
+     },
   },
  "series": [
   {"color": "#B00000", index: 10, legendIndex: 0}, /*Schweiz*/
@@ -54,7 +57,8 @@
     "marginBottom": 75,
     //"marginTop": 75,
     "type": "column",
-    "inverted": true
+    "inverted": true,
+     width:665,
   },
   "tooltip": {
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',

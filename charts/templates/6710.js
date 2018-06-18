@@ -11,6 +11,9 @@
   "xAxis": {
     "type": "category",
     "labels": {
+    	step:1,
+    	padding:-100,
+    	x:-5,
       "rotation": 0 
     } 
   },
@@ -18,6 +21,7 @@
   	//max: 140000,
   	//tickInterval: 40000,
     "labels": {
+    	y:10,
       "format": "{value:,.0f}"
     }    
   },
@@ -26,6 +30,7 @@
   {"color": "#A8C3CA", "visible": true} /*  */
   ],
   "legend": {
+  	margin:1,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

@@ -4,7 +4,7 @@
     "series": {
       pointPadding: 100,
       borderWidth: 0,
-      "pointWidth": 80,
+      "pointWidth": 40,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -16,7 +16,10 @@
   "xAxis": {
   	min: 0,
     "type": "category",
-    "tickInterval": 1
+    "tickInterval": 1,
+    labels:{
+    rotation:0,	
+    }
   },  
   "yAxis": {
   	 max: 100,
@@ -25,15 +28,19 @@
       "format": "{value:,.0f}%",
     },
   },
-  "legend": {
-    "enabled": true,
-    "layout": "horizontal",
+
+"legend": {
+    enabled:true,
+    "layout": "vertical",
     "verticalAlign": "top",
-    "align": "left",
+    y:-8,
+    "itemMarginBottom": 5, // space between legend boxes
+    "align": "right",
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
+
  "series": [
   {"color": "#672773", index: 5, legendIndex: 0}, 
   {"color": "#b475ab", index: 4, legendIndex: 1},

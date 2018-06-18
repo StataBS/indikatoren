@@ -11,14 +11,19 @@
   "xAxis": {
     "type": "category",
     "labels": {
+    	step:1,
+    	x:-5,
       "rotation": 0 
     } 
   },
   "yAxis": {
     "labels": {
-      "format": "{value:,.0f}%"
-    },
-    max: 100,
+    y: 18,
+    style: { 
+		textOverflow: 'none' // prevents ellipsis
+		},
+      "format": "{value:,.0f}"
+    }    
   },
   "series": [
   {"color": "#b00000", "visible": true}, /* */
@@ -29,22 +34,22 @@
   {"color": "#ffda80", "visible": true} /*  */
   ],
   "legend": {
+  	x:-1,
     "enabled": true,
-    itemDistance: 5,
+    itemDistance: 5, 
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    //"x": 25,
-	  //"y": 45,    
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
    tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
     "shared": false
   },
-  "chart": {      
+  "chart": { 
+  	marginRight:18,
     "type": "column",
     "inverted": true,
     "spacingBottom": 50

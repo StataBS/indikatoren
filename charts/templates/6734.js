@@ -16,11 +16,15 @@
   "xAxis": {
   	min: 0,
     "type": "category",
-    "tickInterval": 1
+    "tickInterval": 1,
+    labels:{
+    rotation:-90,
+    step:1,
+    }
   },  
   "yAxis": {
   	 max: 100,
-     //tickInterval: 60000,
+     tickInterval: 50,
     "labels": {
       "format": "{value:,.0f}%",
     },
@@ -45,6 +49,23 @@
   "tooltip": {
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>',
    "shared": false
+  },
+  "legend": {
+  	y: -8,
+  	//"itemWidth": 145,
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "top",
+    "align": "right",
+    reversed: true,
+    itemMarginBottom: 5,
+    labelFormatter: function(){
+      return this.name.replace(" ", "<br/>").replace("-", "<br/>");
+    },
+	  //"y": 30,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
   },
 }
 }());

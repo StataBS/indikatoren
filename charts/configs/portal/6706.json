@@ -538,7 +538,9 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0
+    "padding": 0,
+    "x": 3,
+    "itemWidth": 153
   },
   "exporting": {
     "enabled": false,

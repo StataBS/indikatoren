@@ -10,9 +10,12 @@
     }
   },
  "xAxis": {
+ 	tickInterval: 1,
     "type": "category",
     "labels": {
-      "rotation": 0 
+      "rotation": 0,
+       	step:1,
+       	x: -5,
     } 
   },
   "yAxis": {
@@ -58,7 +61,6 @@
   "chart": {      
     "type": "column",
     "inverted": true,
-    "spacingBottom": 40
   }
 }
 }());

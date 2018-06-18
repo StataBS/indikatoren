@@ -47,7 +47,7 @@
     }
   },
   chart:{
-  	spacingBottom: 50,
+  	width: 665,
   }
 }
 }());

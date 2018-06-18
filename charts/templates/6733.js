@@ -4,7 +4,7 @@
     "series": {
       pointPadding: 100,
       borderWidth: 0,
-      "pointWidth": 20,
+      "pointWidth": 5,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -16,31 +16,20 @@
   "xAxis": {
   	min: 0,
     "type": "category",
-    "tickInterval": 1
+    "tickInterval": 1,
+    labels:{
+    rotation:-90,
+    step:1,
+    }
   },  
   "yAxis": {
-  max: 100,
-     //tickInterval: 60000,
+  	 max: 100,
+     tickInterval: 50,
     "labels": {
       "format": "{value:,.0f}%",
     },
   },
-  "legend": {
-  	//"itemWidth": 145,
-    "enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
-    reversed: true,
-    itemMarginBottom: 5,
-    labelFormatter: function(){
-      return this.name.replace(" ", "<br/>").replace("-", "<br/>");
-    },
-	  //"y": 30,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
-  },
+
  "series": [
   {"color": "#71a3b5", index: 6, legendIndex: 0}, 
   {"color": "#672773", index: 5, legendIndex: 1}, 
@@ -52,7 +41,6 @@
 ],
   "chart": {
     "renderTo": 'container-I.01.1.0016', 
-    "marginBottom": 130,
     //"marginTop": 75,
     "type": "column",
     "inverted": false
@@ -60,6 +48,22 @@
   "tooltip": {
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>',
    "shared": false
+  },
+  "legend": {
+  	y: -8,
+  	//"itemWidth": 145,
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "top",
+    "align": "right",
+    reversed: true,
+    labelFormatter: function(){
+      return this.name.replace(" ", "<br/>").replace("-", "<br/>");
+    },
+	  //"y": 30,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
   },
 }
 }());

@@ -667,6 +667,8 @@
       "style": {
         "color": "#000000",
         "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none",
         "fontSize": "10px"
       },
       "formatter": function () {

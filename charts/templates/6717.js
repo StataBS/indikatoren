@@ -12,13 +12,17 @@
  "xAxis": {
     "type": "category",
     "labels": {
+      padding:-100,
+      x:-5,
+      step:1,
       "rotation": 0 
     } 
   },
   "yAxis": {
 	//"max": 100,
     "labels": {
-      "format": "{value:,.0f}"
+       y: 18,
+      "format": "{value:,.1f}"
     }    
   },
   
@@ -57,7 +61,6 @@
   "chart": {      
     "type": "column",
     "inverted": true,
-    "spacingBottom": 40
   }
 }
 }());

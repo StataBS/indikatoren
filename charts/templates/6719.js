@@ -1,23 +1,28 @@
 (function(){
     return {
    plotOptions: {
-        series: {
-            pointPadding: 0,
-            borderWidth: 0,
-			itemWidth: 10, 
+           series: {
+            pointPadding: 0, 
+			groupPadding: 0.1, 
+			borderWidth: 0,
 
         }
+
    },
   "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": 0 
-    } 
+      x:-5,
+      step: 1,
+      "rotation": 0,
+       padding: -100,
+         } 
   },
   "yAxis": {
   	//max: 140000,
   	//tickInterval: 40000,
     "labels": {
+    	y: 10,
       "format": "{value:,.0f}"
     }    
   },
@@ -26,6 +31,9 @@
   {"color": "#A8C3CA", "visible": true} /*  */
   ],
   "legend": {
+  	margin:1,
+  	x:-8,
+  	itemWidth: 150,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
@@ -43,7 +51,6 @@
   "chart": {      
     "type": "column",
     "inverted": true,
-    "spacingBottom": 50
   }
 }
 }());

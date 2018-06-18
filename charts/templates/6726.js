@@ -33,7 +33,7 @@
     "verticalAlign": "top",
     "align": "left",
 	//"y": 45,
- 	itemWidth: 100,
+ 	itemWidth: 80,
 	"itemMarginBottom": 5,
     "itemStyle": {
     "fontWeight": "normal"

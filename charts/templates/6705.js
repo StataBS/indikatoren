@@ -44,6 +44,10 @@
         "symbol": "circle",
       } 
     }
-  }
+  },
+"chart": {
+  	"width": 665
+ },
+
 }
 }());

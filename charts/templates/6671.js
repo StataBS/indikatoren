@@ -4,6 +4,11 @@ global Highcharts
 
 (function(){
     return {
+ plotOptions: {
+        series: {
+            pointPadding: 0,
+        }
+    },
   "xAxis": {
     "type": "category",
     "labels": {

@@ -11,7 +11,8 @@
   "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": 0 
+      "rotation": -90,
+       step:1
     } 
   },
   "yAxis": {
@@ -25,6 +26,7 @@
   {"color": "#E6E600", "visible": true}, /* gelb*/
   ],
   "legend": {
+  	x:-5,
   	margin: 10,
     "enabled": true,
     "layout": "horizontal",
@@ -39,10 +41,11 @@
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
     "shared": false
   },
-  "chart": {      
+  "chart": {
+  	plotAreaWidth: 300,
+    plotAreaHeight: 600,
     "type": "column",
-    "inverted": true,
-    "spacingBottom": 50,
+    "inverted": false,
   }
 }
 }());

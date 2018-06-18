@@ -3,8 +3,8 @@
  	"xAxis": {
         "type": "category",
         "labels": {
-           //align: "left",
-            
+           align: "left",
+           x:-70,
             "formatter": function() {
                 //add sum of observations of visible series to the axis label
                 var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
@@ -17,19 +17,23 @@
                 //use N if all series are visible, otherwise use n
                 var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
                 //check for value that contains only spaces
-            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + '<br/> (' + nString + sum + ')';
+            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
             }
         } 
   },  
   yAxis:{
-  	tickInterval: 20,
+  	tickInterval: 50,
   	max: 100,
   	labels:{
+  		y:10,
   		"type": "category",
   		rotation: 0,
   	}
   },
   plotOptions: {
+  	  "series": {
+      "pointWidth": 20,
+  	  },
   	column: {
   		groupPadding: 0,
 
@@ -42,22 +46,18 @@
     { "color": "#68ab2b", index: 3, legendIndex: 1}, // grün
     { "color": "#007a2f", index: 4, legendIndex: 0}, // dunkelgrün
   ],
-  "legend": { 
-     //y: 45,
-    "enabled": true,
-    "layout": "horizontal",
-    "itemWidth": 150,
-    "verticalAlign": "top",
-    "align": "left",
-     "labelFormatter": function () {
-            return this.name;
-        },
+"legend": {
+    enabled:true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5, // space between legend boxes
+    "align": "right",
     "itemStyle": {
-    "fontWeight": "normal"
+      "fontWeight": "normal"
     }
   },
-
-"chart": {     
+"chart": {    
+	marginLeft: 75, 
 	 //marginLeft: 150, 
 	 //marginBottom: 100,
      "inverted": true,

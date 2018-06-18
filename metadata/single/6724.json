@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<bitte Kommentar erfassen>",
 "erlaeuterungen":"Die Rate wird berechnet, in dem die Anzahl Beschuldigte durch die Anzahl Einwohner der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1 000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder dem Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
-"template":"line001_print",
+"template":"template001_print",
 "visible":true,
 "visibleInPortal":false,
 "orderKey":"04_00_00_00_00_000",

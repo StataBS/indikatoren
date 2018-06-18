@@ -2,9 +2,9 @@
     return {
 "plotOptions": {
     "series": {
-      pointPadding: 100,
+      pointPadding: 20,
       borderWidth: 0,
-      "pointWidth": 20,
+      "pointWidth": 10,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -23,6 +23,7 @@
   	 //max: 120000,
      //tickInterval: 25,
     "labels": {
+    	y:10,
       formatter: function(){
         return Highcharts.numberFormat(100 * this.value, 0, ",", " ") + '%';
       },
@@ -30,6 +31,7 @@
     },
   },
 "legend": {
+	x:-1,
     enabled:true,
     "layout": "horizontal",
     "verticalAlign": "top",

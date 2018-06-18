@@ -138,6 +138,14 @@ global Highcharts
   "chart": {    
     "type": "column",
     "inverted": false
-  }
+  },
+plotOptions: 
+	{ series: 
+		{ 
+		pointPadding: 0, 
+		groupPadding: 0.1, 
+		borderWidth: 0,
+		} 
+	},
 	};
 }());

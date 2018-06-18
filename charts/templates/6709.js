@@ -11,21 +11,31 @@
   "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": 0 
+    	step:1,
+    	padding:-100,
+    	x:-5,
+      "rotation": 0,
+      style: { 
+		textOverflow: 'none' // prevents ellipsis
+		} 
     } 
   },
   "yAxis": {
-  	max: 140000,
-  	tickInterval: 40000,
+  	//max: 140000,
+  	//tickInterval: 40000,
     "labels": {
+    	y:10,
       "format": "{value:,.0f}"
     }    
   },
   "series": [
-  {"color": "#246370", "visible": true}, /* gelb*/
-  {"color": "#A8C3CA", "visible": true} /* grün */
+  {"color": "#246370", "visible": true}, /* */
+  {"color": "#A8C3CA", "visible": true} /*  */
   ],
   "legend": {
+  	//x:-1,
+  	itemWidth: 110,
+  	margin:1,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
@@ -40,7 +50,8 @@
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
     "shared": false
   },
-  "chart": {      
+  "chart": {   
+  	 marginRight: 18,
     "type": "column",
     "inverted": true,
     //"spacingTop": 100

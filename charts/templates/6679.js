@@ -5,6 +5,7 @@
     {"color": "#E7CEE2", index: 0, legendIndex: 1}, /*Italien*/
   ],
   chart: {
+  	marginRight: 5,
     inverted: true
   },
   legend: {

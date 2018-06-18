@@ -11,13 +11,20 @@
   "xAxis": {
     "type": "category",
     "labels": {
-    	"rotation": 0 
+    	step:1,
+    	"rotation": 0,
+    	 x: -10,
+    	 padding: -100,
+    	 style: {
+            textOverflow: 'none' 
+        }
     } 
   },
   "yAxis": {
-  	//max: 140000,
+  	max: 0.4,
   	//tickInterval: 40000,
     "labels": {
+	  y:18,
       formatter: function(){
         return Highcharts.numberFormat(100 * this.value, 0, ",", " ") + '%';
       }

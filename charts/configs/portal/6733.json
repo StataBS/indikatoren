@@ -386,7 +386,9 @@
       "style": {
         "fontSize": 10,
         "color": "#000000"
-      }
+      },
+      "rotation": -90,
+      "step": 1
     },
     "tickLength": 0,
     "min": 0,
@@ -442,7 +444,7 @@
         }
       },
       "pointPadding": 100,
-      "pointWidth": 20,
+      "pointWidth": 5,
       "stacking": "normal"
     }
   },
@@ -484,7 +486,8 @@
       },
       "format": "{value:,.0f}%"
     },
-    "max": 100
+    "max": 100,
+    "tickInterval": 50
   },
   "navigation": {
     "menuItemStyle": {
@@ -514,9 +517,10 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
+    "y": -8,
     "enabled": true,
     "layout": "vertical",
-    "verticalAlign": "middle",
+    "verticalAlign": "top",
     "align": "right",
     "reversed": true,
     "labelFormatter": function (){

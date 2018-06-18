@@ -39,7 +39,10 @@ global Highcharts
     }
   ],  
   "xAxis": {
-    "type": "category"    
+    "type": "category",
+		style: { 
+			textOverflow: 'none' // prevents ellipsis
+		} 
   },
   "yAxis": {
     "labels": {
@@ -52,7 +55,8 @@ global Highcharts
   "legend": {
     "enabled": false
   },
-  "chart": {    
+  "chart": {  
+    	marginRight: 18,
     "type": "column",
     "inverted": true, 
     marginLeft: 120

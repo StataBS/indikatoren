@@ -23,6 +23,8 @@
   {"color": "#672773"}, /* */
   ],
    "legend": {
+   	x:3,
+   	itemWidth: 153,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
