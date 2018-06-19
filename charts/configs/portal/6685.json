@@ -122,16 +122,17 @@
     }
   ],
   "chart": {
+    "marginRight": 20,
     "type": "bar",
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
     "height": 208,
     "spacing": [
-      1,
-      1,
-      1,
-      1
+      7,
+      3,
+      8,
+      3
     ],
     "style": {
       "fontFamily": "Arial"
@@ -159,7 +160,7 @@
     },
     "spacingRight": 4,
     "renderTo": "container-6685",
-    "spacingBottom": 11
+    "spacingBottom": 18
   },
   "plotOptions": {
     "bar": {

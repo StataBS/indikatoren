@@ -9,13 +9,14 @@
     "type": "category",
     "tickInterval": 1, 
     labels: {
-      y: 3
+      y: 3,
     }
   },  
   "yAxis": {
   	max: 100,
   	tickInterval: 20,
     "labels": {
+    	      rotation:0,
         y: 15,
         "format": "{value:,.0f}%",
         style:{
@@ -38,6 +39,7 @@
   {"color": "#FABD24", index: 1, legendIndex: 1}, /**/
 ],
   "chart": {
+  	marginRight: 20,
     "type": "column",
     "inverted": true, 
     marginLeft: 150

@@ -53,7 +53,6 @@
   	marginRight: 18,
     "type": "column",
     "inverted": true,
-    //"spacingTop": 100
   }
 }
 }());

@@ -1,5 +1,8 @@
 (function(){
     return {
+ chart: {
+        	marginRight: 20,
+ },
   "xAxis": {
     type: 'category',
     //endOnTick: false,
@@ -57,8 +60,5 @@
       } 
     }
   }, 
-  chart: {
-    spacing: [1,8,1,1]
-  }
 };
 }());

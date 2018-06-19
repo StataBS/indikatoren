@@ -52,7 +52,6 @@
   	marginRight:18,
     "type": "column",
     "inverted": true,
-    "spacingBottom": 50
   }
 }
 }());

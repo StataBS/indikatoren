@@ -1,10 +1,10 @@
 (function(){
     return {
-  "xAxis": {
+"xAxis": {
   	type: 'category',
-    "tickInterval": 12,
+    tickInterval: 10,
     labels: { 
-      rotation: -45,
+      //rotation: 0,
       formatter: function(){
         return this.value.split(" ")[0];
       },

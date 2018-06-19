@@ -375,7 +375,6 @@
                 }
     },
     "renderTo": "container-6700",
-    "marginBottom": 75,
     "type": "column",
     "inverted": true,
     "spacingBottom": 18

@@ -7,7 +7,10 @@
     }
   },
   "xAxis": {
-	  "tickInterval": 1,
+	  "tickInterval": 5,
+	  labels:{
+	  	rortation:0,
+	  }
   },
   "series": [
     {

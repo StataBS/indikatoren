@@ -55,7 +55,8 @@
       "fontWeight": "normal"
     }
   },
-"chart": {     
+"chart": {    
+	  spacing: [15,3,8,3], 
      "inverted": false,
   },
 };

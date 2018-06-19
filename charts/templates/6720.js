@@ -12,7 +12,11 @@
     }
   },
   "xAxis": {
-    "type": "category"    
+  	tickInterval:2,
+    "type": "category",    
+    labels:{
+    	rotation:0,
+    }
   },  
   "yAxis": [
     {

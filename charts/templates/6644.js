@@ -18,7 +18,10 @@
   "xAxis": {
   	min: 0,
     "type": "category",
-    "tickInterval": 1
+    "tickInterval": 2,
+    labels:{
+    	rotation:0,
+    }
   },  
   "yAxis": {
   	 //max: 120000,

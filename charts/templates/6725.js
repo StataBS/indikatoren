@@ -7,7 +7,10 @@
         }
     },
   "xAxis": {
-    "type": "category"
+    "type": "category",
+    labels:{
+    	rotation:-90,
+    }
   },
   "yAxis": {
     "max": 80,

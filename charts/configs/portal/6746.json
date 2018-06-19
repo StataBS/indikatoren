@@ -141,8 +141,6 @@
                     
                 }
     },
-    "plotAreaWidth": 300,
-    "plotAreaHeight": 600,
     "type": "column",
     "inverted": false,
     "renderTo": "container-6746",
@@ -194,7 +192,7 @@
       "text": ""
     },
     "labels": {
-      "y": 15,
+      "y": 3,
       "style": {
         "fontSize": 10,
         "color": "#000000"
@@ -231,12 +229,10 @@
       "fontWeight": "normal"
     },
     "x": -5,
-    "margin": 10,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "itemDistance": 5
+    "align": "left"
   },
   "dataLabels": {
     "enabled": false,

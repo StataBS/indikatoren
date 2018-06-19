@@ -6,6 +6,7 @@
   {"color": "rgb(231,207,226)", index: 0, legendIndex:2}, /*Tert.*/
 ],
   "chart": {
+  	marginRight: 20,
     "inverted": true, 
   }, 
   legend: {
@@ -21,7 +22,6 @@
   },  
   xAxis: {
     labels: {
-      //y: 3,
       formatter: function() {
       	return this.value;
       }
@@ -30,6 +30,7 @@
   yAxis: {
     tickInterval: 20,
     labels: {
+      rotation:0,
       y: 18, 
       overflow: 'justify',
       style: {
