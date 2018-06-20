@@ -49,7 +49,6 @@
     "shared": false
   },
   "chart": {     
-  	spacing: [0,3,0,3], /*top, right, bottom and left */
     "type": "column",
     "inverted": true,
   }

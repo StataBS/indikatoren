@@ -115,6 +115,7 @@
         }
     },
     "legend": {
+    	padding: 0,
         symbolRadius: 0,
         itemMarginBottom: 1,
         itemStyle:{

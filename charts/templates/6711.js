@@ -15,15 +15,15 @@
     } 
   },
      "yAxis": [{
+     tickAmount: 3,
+     tickInterval: 100000,
+     max: 200000,
     "labels": {
       "format": "{value:,.0f}",
       "style": {
         "color": "#000000"
       }
     },
-    "min": 0,
-    //"max": 350000,
-    tickAmount: 7,
     "title": ""
   },
   {
@@ -40,10 +40,10 @@
         "color": "#000000"
       }
     },
-    "min": 0,
-    //"max": 1000,
-    //tickInterval: 150,
-    tickAmount: 7,
+	"min": 0,
+     max: 600,
+     tickAmount: 3,
+	tickInterval: 600,
     "gridLineWidth": 0,
     "opposite": true
   }

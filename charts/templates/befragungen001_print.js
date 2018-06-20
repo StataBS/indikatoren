@@ -20,7 +20,7 @@
         "backgroundColor": "#fbfbfb",
        	"width": 320,
     	"height": 208, 
-        spacing: [8,0,3,2],
+    	spacing: [7,3,8,3], /*top, right, bottom and left */
          "style": {
 			"fontFamily": "Arial",
 			"fontSize": "10px",
@@ -135,6 +135,7 @@
         }
     },
     "legend": {
+    	 padding: 0,
         "layout": "vertical",
         "verticalAlign": "middle",
         //"itemMarginBottom": 5,     
