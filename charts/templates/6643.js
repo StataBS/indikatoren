@@ -26,6 +26,7 @@
   },
   "xAxis": {
   	"type": "category",
+  	tickInterval: 5,
   },
   "legend": {
     "enabled": true,
@@ -39,7 +40,6 @@
   "series": [
    {"color":"rgba(205, 156, 0, 0.75)", "index": 0, "marker": {"enabled": false}, legendIndex: 1}, 
    {"color":"rgba(176, 0, 0, 0.75)", "index": 1, "marker": {"enabled": false}, legendIndex: 0}, 
-
   ],  
   "tooltip": {
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',

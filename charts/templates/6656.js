@@ -2,9 +2,9 @@
     return {
 "plotOptions": {
     "series": {
-      //pointPadding: 100,
-      //borderWidth: 0,
-      //"pointWidth": 10,
+      pointPadding: 100,
+      borderWidth: 0,
+      "pointWidth": 3,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -17,14 +17,14 @@
   	min: 0,
     "type": "category",
     "tickInterval": 2,
-    labels: {
-      step: 1, 
-      rotation: 0
+    labels:{
+    	step:1,
     }
   },  
   "yAxis": {
-     tickAmount: 5,
+     //tickInterval: 60000,
     "labels": {
+    y: 10,
       "format": "{value:,.0f}",
     },
   },
@@ -33,6 +33,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+	  //"y": 30,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -46,12 +47,14 @@
   {"color": "#DC440E", index: 4, legendIndex: 5}, /**/
 ],
   "chart": {
+    "renderTo": 'container-I.01.1.0016', 
+    //"marginTop": 75,
     "type": "column",
-    "inverted": false
+    "inverted": true
   },
   "tooltip": {
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
    "shared": false
   },
-};
+}
 }());

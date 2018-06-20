@@ -30,7 +30,7 @@
     },
   },
   "legend": {
-    "enabled": true,
+     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     padding: 1,

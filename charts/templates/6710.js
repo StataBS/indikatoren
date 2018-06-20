@@ -30,8 +30,8 @@
   {"color": "#A8C3CA", "visible": true} /*  */
   ],
   "legend": {
-  	margin:1,
-    "enabled": true,
+	x:-1,
+	"enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",

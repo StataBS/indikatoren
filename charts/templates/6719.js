@@ -31,8 +31,7 @@
   {"color": "#A8C3CA", "visible": true} /*  */
   ],
   "legend": {
-  	margin:1,
-  	x:-8,
+  	x:-1,
   	itemWidth: 150,
     "enabled": true,
     "layout": "horizontal",

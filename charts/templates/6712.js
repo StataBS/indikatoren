@@ -33,7 +33,6 @@
   {"color": "#E7CEE2", "visible": true} /* grün */
   ],
   "legend": {
-  	margin:1,
   	itemWidth: 120,
     "enabled": true,
     "layout": "horizontal",

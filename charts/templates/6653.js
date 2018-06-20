@@ -1,11 +1,10 @@
 (function(){
     return {
    plotOptions: {
-        series: {/*
-          pointPadding: 0,
-          borderWidth: 0,
-			    itemWidth: 10, 
-			    */
+        series: {
+            pointPadding: 0,
+            borderWidth: 0,
+            pointWidth: 5, 
         }
    },
   xAxis: {

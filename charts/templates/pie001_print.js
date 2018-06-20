@@ -11,7 +11,7 @@
     		"zoomType": "xy",
 		    "width": 320,
     	  "height": 208, 
-        spacing: [1,3,1,3],  
+    	spacing: [7,3,8,3], /*top, right, bottom and left */
     		"style": {
     		  "fontFamily": "Arial"
     		},
@@ -73,6 +73,7 @@
         }
       },
       "legend": {
+      	padding: 0,
         "layout": "vertical",
         "verticalAlign": "middle",
         //"itemMarginBottom": 5,     
