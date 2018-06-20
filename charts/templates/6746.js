@@ -25,7 +25,7 @@
   {"color": "#E6E600", "visible": true}, /* gelb*/
   ],
   "legend": {
-  	x:-5,
+  	x:-1,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
