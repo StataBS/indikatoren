@@ -5,27 +5,27 @@
       "data": [
         [
           "Deutschland",
-          2080
+          1956
         ],
         [
           "Italien",
-          595
-        ],
-        [
-          "Frankreich",
-          520
+          526
         ],
         [
           "USA",
-          517
+          512
+        ],
+        [
+          "Frankreich",
+          431
         ],
         [
           "UK",
-          415
+          431
         ],
         [
           "Übriges Ausland",
-          4164
+          3841
         ]
       ],
       "turboThreshold": 0
@@ -78,8 +78,8 @@
       "colors": [
         "#71A3B5",
         "#B00000 ",
-        "#FF8028",
         "#CD9C00",
+        "#FF8028",
         "#923F8D",
         "#999999"
       ]
@@ -101,7 +101,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Basel-Stadt, 2017",
     "align": "left"
   },
   "tooltip": {
@@ -122,7 +122,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2017-12-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2018-6-20"
   },
   "legend": {
     "layout": "vertical",

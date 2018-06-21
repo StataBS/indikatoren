@@ -13,5 +13,6 @@ var indikatorensetNames = [
 	"Richtplan (Print)",
 	"Legislaturplan (Print)",
 	"Tourismus",
+	"Wanderungen (Print)",
 	"Test"
 ];

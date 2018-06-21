@@ -28,7 +28,7 @@
                    dataClasses: [{
                 to: 0.2999,
                 color: '#D7E8D2',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;0,30"
+                name:  "<span style='color: rgba(0,0,0,0)'>27,0</span> <;0,30"
             }, {
                 from: 0.3,
                 to:  0.3999,
@@ -47,7 +47,7 @@
             },{
                 from: 0.6,
                 color: '#0A3B19',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;0,60"
+                name:  "<span style='color: rgba(0,0,0,0)'>27,0</span> ≥ 0,60"
             }], 
         },
         "data": {
