@@ -3257,87 +3257,87 @@
       "data": [
         [
           1,
-          4.006284368
+          1.66023166
         ],
         [
           2,
-          2.130625249
+          0.877367896
         ],
         [
           3,
-          1.611701137
+          1.026827012
         ],
         [
           4,
-          1.253357207
+          -0.235849057
         ],
         [
           5,
-          0.110132159
+          2.410826313
         ],
         [
           6,
-          -0.508447646
+          -0.935225039
         ],
         [
           7,
-          2.19374457
+          0.55164954
         ],
         [
           8,
-          -0.110774684
+          -0.251367736
         ],
         [
           9,
-          0.234020769
+          0.623369092
         ],
         [
           10,
-          0.107900731
+          0.53415633
         ],
         [
           11,
-          -0.794327753
+          -0.717344754
         ],
         [
           12,
-          1.362179487
+          -0.36525974
         ],
         [
           13,
-          1.068854089
+          2.252693438
         ],
         [
           14,
-          -0.283286119
+          -2.441229656
         ],
         [
           15,
-          2.795232936
+          1.191498497
         ],
         [
           16,
-          4.685592186
+          -0.015144631
         ],
         [
           17,
-          -1.72002511
+          -1.360972844
         ],
         [
           18,
-          -1.513468481
+          0.509993108
         ],
         [
           19,
-          -0.103698583
+          -1.828410689
         ],
         [
           20,
-          0.899957145
+          2.146606674
         ],
         [
           30,
-          -0.756302521
+          0.587741394
         ]
       ]
     },
@@ -3345,88 +3345,88 @@
       "visible": false,
       "data": [
         [
-          "Altstadt GB",
-          3.377847604
+          "Altstadt Grossbasel",
+          0.9
         ],
         [
           "Vorstädte",
-          3.265631223
+          1.6
         ],
         [
           "Am Ring",
-          2.915967952
+          2.2
         ],
         [
           "Breite",
-          -0.246195166
+          -0.5
         ],
         [
           "St. Alban",
-          -0.926945668
+          0.9
         ],
         [
           "Gundeldingen",
-          0.667337535
+          0.7
         ],
         [
           "Bruderholz",
-          0.510425717
+          -0.8
         ],
         [
           "Bachletten",
-          -0.273244221
+          -0.7
         ],
         [
           "Gotthelf",
-          -0.07313149
+          0.7
         ],
         [
           "Iselin",
-          -0.383647045
+          -0.6
         ],
         [
           "St. Johann",
-          -0.389167289
+          -0.2
         ],
         [
-          "Altstadt KB",
-          0.120192308
+          "Altstadt Kleinbasel",
+          0.6
         ],
         [
           "Clara",
-          0.745712155
+          1.5
         ],
         [
           "Wettstein",
-          2.124645892
+          0.8
         ],
         [
           "Hirzbrunnen",
-          0.498374865
+          -0.4
         ],
         [
           "Rosental",
-          4.548229548
+          1.9
         ],
         [
           "Matthäus",
-          0.131826742
+          0.2
         ],
         [
           "Klybeck",
-          -0.444321022
+          0.4
         ],
         [
           "Kleinhüningen",
-          -0.24196336
+          -1.1
         ],
         [
           "Riehen",
-          0.033331746
+          0.4
         ],
         [
           "Bettingen",
-          -1.512605042
+          -0.9
         ]
       ],
       "name": "Wanderung"
@@ -3439,87 +3439,87 @@
       "data": [
         [
           1,
-          3.377847604
+          0.9
         ],
         [
           2,
-          3.265631223
+          1.6
         ],
         [
           3,
-          2.915967952
+          2.2
         ],
         [
           4,
-          -0.246195166
+          -0.5
         ],
         [
           5,
-          -0.926945668
+          0.9
         ],
         [
           6,
-          0.667337535
+          0.7
         ],
         [
           7,
-          0.510425717
+          -0.8
         ],
         [
           8,
-          -0.273244221
+          -0.7
         ],
         [
           9,
-          -0.07313149
+          0.7
         ],
         [
           10,
-          -0.383647045
+          -0.6
         ],
         [
           11,
-          -0.389167289
+          -0.2
         ],
         [
           12,
-          0.120192308
+          0.6
         ],
         [
           13,
-          0.745712155
+          1.5
         ],
         [
           14,
-          2.124645892
+          0.8
         ],
         [
           15,
-          0.498374865
+          -0.4
         ],
         [
           16,
-          4.548229548
+          1.9
         ],
         [
           17,
-          0.131826742
+          0.2
         ],
         [
           18,
-          -0.444321022
+          0.4
         ],
         [
           19,
-          -0.24196336
+          -1.1
         ],
         [
           20,
-          0.033331746
+          0.4
         ],
         [
           30,
-          -1.512605042
+          -0.9
         ]
       ],
       "name": "Wanderung"
@@ -3532,87 +3532,87 @@
       "data": [
         [
           1,
-          0.628436764
+          0.8
         ],
         [
           2,
-          -1.135005974
+          -0.7
         ],
         [
           3,
-          -1.304266816
+          -1.1
         ],
         [
           4,
-          1.499552372
+          0.2
         ],
         [
           5,
-          1.037077827
+          1.6
         ],
         [
           6,
-          -1.175785181
+          -1.6
         ],
         [
           7,
-          1.683318853
+          1.4
         ],
         [
           8,
-          0.162469537
+          0.5
         ],
         [
           9,
-          0.30715226
+          -0.1
         ],
         [
           10,
-          0.491547776
+          1.1
         ],
         [
           11,
-          -0.405160465
+          -0.5
         ],
         [
           12,
-          1.241987179
+          -1
         ],
         [
           13,
-          0.323141934
+          0.7
         ],
         [
           14,
-          -2.407932011
+          -3.2
         ],
         [
           15,
-          2.296858072
+          1.6
         ],
         [
           16,
-          0.137362637
+          -1.9
         ],
         [
           17,
-          -1.851851852
+          -1.6
         ],
         [
           18,
-          -1.069147459
+          0.1
         ],
         [
           19,
-          0.138264777
+          -0.8
         ],
         [
           20,
-          0.866625399
+          1.8
         ],
         [
           30,
-          0.756302521
+          1.5
         ]
       ],
       "name": "Umzug"
@@ -3904,6 +3904,7 @@
 					
 					//put the columns on the map
 					fn.drawColumns(chart, columnSeries, choroplethSeries, columnSeriesConfig, color, chartHeight, columnWidth);
+
 	                
 					//column values in legend
 					var legendColumnValues = [5, 2.5]; 
@@ -3911,7 +3912,7 @@
                 	//Add manually drawn legend	
                 	var legendTop = 220;
                 	var legendLeft = 365;
-	                fn.addLegendTitle(chart, 'Wanderung/Umzug', 265, 215);
+	                fn.addLegendTitle(chart, 'Wanderung/Umzug', 265, 220); 
 	                
 	                fn.addLegendColumnChart(chart, legendLeft+35,  legendTop+45,  legendColumnValues, color, 'columnLegendHideOnZoom');
 	                
@@ -3919,15 +3920,15 @@
 	                //fn.addLegendText(chart,        legendLeft+71, legendTop+45,  ',', undefined, 'columnLegendHideOnZoom');
 	                fn.addLegendText(chart,        legendLeft+63, legendTop+45,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
 
-					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+20,  10, color(1, 0));
-					fn.addLegendText(chart,        legendLeft-80, legendTop+30,  'Wanderung positiv');
-					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+35,  10, color(-1, 0));
-					fn.addLegendText(chart,        legendLeft-80, legendTop+45,  'Wanderung negativ');
+					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+22,  10, color(1, 0));
+					fn.addLegendText(chart,        legendLeft-80, legendTop+32,  'Wanderung positiv');
+					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+37,  10, color(-1, 0));
+					fn.addLegendText(chart,        legendLeft-80, legendTop+47,  'Wanderung negativ');
 					
-					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+50,  10, color(1, 1));
-					fn.addLegendText(chart,        legendLeft-80, legendTop+60,  'Umzug positiv');
-					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+65, 10, color(-1, 1));
-					fn.addLegendText(chart,        legendLeft-80, legendTop+75 , 'Umzug negativ');
+					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+52,  10, color(1, 1));
+					fn.addLegendText(chart,        legendLeft-80, legendTop+62,  'Umzug positiv');
+					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+67, 10, color(-1, 1));
+					fn.addLegendText(chart,        legendLeft-80, legendTop+77 , 'Umzug negativ');
 					fn.addLegendTextbold(chart,    legendLeft-98, legendTop+100 , 'Bevölkerungssaldo');	
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+105 , 'Bewegung pro 100 Einwohner');
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+108 , '(Saldo total)');
@@ -3955,7 +3956,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Stand: 2017",
     "align": "left"
   },
   "credits": {
@@ -3971,10 +3972,10 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2017-12-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2018-6-20"
   },
   "colorAxis": {
-    "min": 0,
+    "min": -1,
     "gridLineColor": "#fbfbfb",
     "gridLineWidth": 1,
     "labels": {
@@ -3991,8 +3992,21 @@
     "marker": {
       "color": "black"
     },
-    "minColor": "#eff6e9",
-    "maxColor": "#4b7b1f"
+    "stops": [
+      [
+        0,
+        "rgb(0,135,135)"
+      ],
+      [
+        0.25,
+        "rgb(230,230,230)"
+      ],
+      [
+        0.9,
+        "rgb(103,39,115)"
+      ]
+    ],
+    "max": 5
   },
   "mapNavigation": {
     "enabled": true,
