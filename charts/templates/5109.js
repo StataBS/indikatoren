@@ -41,7 +41,9 @@ global geojson_wohnviertelEPSG2056
 				}
 			}, 
 			{
-				"visible": false
+				visible: false,
+				showInLegend: false,
+    			colorAxis: false
 			}	
 		]
 	};
