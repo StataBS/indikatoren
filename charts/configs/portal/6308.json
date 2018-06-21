@@ -196,10 +196,10 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
@@ -207,7 +207,7 @@
     "type": "line",
     "spacingTop": 10,
     "renderTo": "container-6308",
-    "spacingBottom": 8
+    "spacingBottom": 2
   },
   "title": {
     "style": {

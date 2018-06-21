@@ -174,9 +174,9 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      8,
-      0,
-      3,
+      2,
+      2,
+      2,
       2
     ],
     "style": {
@@ -186,7 +186,7 @@
     "zoomType": "xy",
     "type": "column",
     "renderTo": "container-6290",
-    "spacingBottom": 3
+    "spacingBottom": 2
   },
   "title": {
     "style": {
@@ -263,6 +263,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8"
   },
   "legend": {
+    "padding": 0,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",

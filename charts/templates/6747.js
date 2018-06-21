@@ -14,8 +14,9 @@
     "type": "category",
     "labels": {
       "rotation": 0,
-       	step:1,
+       	step: 1,
        	x: -5,
+       	y: 3
     } 
   },
   "yAxis": {
@@ -47,8 +48,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 35,
-	  //"y": 35,    
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -61,7 +60,7 @@
   "chart": {      
     "type": "column",
     "inverted": true,
-    spacing: [15,3,8,3] /*top, right, bottom and left */	
+    //spacing: [15,3,8,3] /*top, right, bottom and left */	
   }
 }
 }());

@@ -859,10 +859,10 @@
     "width": 665,
     "height": 208,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
@@ -886,7 +886,7 @@
                 }
     },
     "renderTo": "container-6260",
-    "spacingBottom": 8
+    "spacingBottom": 2
   },
   "plotOptions": {
     "series": {
@@ -987,6 +987,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
   },
   "legend": {
+    "padding": 1,
     "symbolRadius": 0,
     "itemMarginBottom": 5,
     "itemStyle": {

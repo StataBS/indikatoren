@@ -32,7 +32,7 @@
   },
   "legend": { 
   	x:-1,
-  	itemWidth: 150,
+  	itemDistance: 1, 
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
@@ -55,11 +55,10 @@
   {"color": "#999999", index: 0, legendIndex: 10}, /*Übrige Länder*/
 ],
   "chart": {
-    "renderTo": 'container-I.01.1.0016', 
     //"marginTop": 75,
     "type": "column",
     "inverted": true,
-     width:665,
+     //width:665,
   },
   "tooltip": {
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',

@@ -82,9 +82,9 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      8,
-      0,
-      3,
+      2,
+      2,
+      2,
       2
     ],
     "style": {
@@ -96,7 +96,7 @@
     "inverted": true,
     "spacingRight": 3,
     "renderTo": "container-6680",
-    "spacingBottom": 3
+    "spacingBottom": 2
   },
   "title": {
     "style": {
@@ -175,6 +175,7 @@
     "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
   },
   "legend": {
+    "padding": 1,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
@@ -188,8 +189,7 @@
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "enabled": true,
-    "padding": 1
+    "enabled": true
   },
   "exporting": {
     "filename": 6680

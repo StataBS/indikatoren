@@ -124,6 +124,7 @@
       "step": 1,
       "padding": -100,
       "x": -5,
+      "y": 3,
       "rotation": 0
     },
     "tickLength": 0
@@ -134,10 +135,10 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
@@ -164,7 +165,7 @@
     "type": "column",
     "inverted": true,
     "renderTo": "container-6709",
-    "spacingBottom": 8
+    "spacingBottom": 2
   },
   "plotOptions": {
     "series": {
@@ -242,18 +243,19 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik"
   },
   "legend": {
+    "padding": 1,
     "symbolRadius": 0,
     "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "itemWidth": 110,
-    "margin": 1,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "itemDistance": 10,
+    "symbolPadding": 3
   },
   "dataLabels": {
     "enabled": false,

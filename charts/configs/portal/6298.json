@@ -194,6 +194,7 @@
     "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
   },
   "legend": {
+    "padding": 1,
     "symbolRadius": 0,
     "itemMarginBottom": 1,
     "itemStyle": {

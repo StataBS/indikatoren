@@ -400,9 +400,9 @@
     "width": 320,
     "height": 500,
     "spacing": [
-      8,
-      0,
-      3,
+      2,
+      2,
+      2,
       2
     ],
     "style": {
@@ -414,7 +414,7 @@
     "marginLeft": 150,
     "inverted": true,
     "renderTo": "container-6742",
-    "spacingBottom": 3
+    "spacingBottom": 2
   },
   "title": {
     "style": {
@@ -497,6 +497,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F17a"
   },
   "legend": {
+    "padding": 0,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",

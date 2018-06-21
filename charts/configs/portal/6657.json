@@ -322,10 +322,10 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
@@ -350,8 +350,9 @@
     },
     "type": "column",
     "inverted": true,
+    "marginLeft": 120,
     "renderTo": "container-6657",
-    "spacingBottom": 8
+    "spacingBottom": 2
   },
   "plotOptions": {
     "series": {
@@ -401,7 +402,8 @@
       "y": 10,
       "style": {
         "fontSize": 10,
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       },
       "format": "{value:,.0f}%"
     },
@@ -429,6 +431,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
+    "padding": 1,
     "symbolRadius": 0,
     "itemMarginBottom": 1,
     "itemStyle": {
@@ -438,7 +441,6 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "padding": 1,
     "itemDistance": 10,
     "align": "left"
   },

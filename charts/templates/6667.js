@@ -1,8 +1,5 @@
 (function(){
     return {
-   chart:{
-   	marginRight: 20,
-   },
   "xAxis": {
     "tickInterval": 5,
     labels:{

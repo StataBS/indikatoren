@@ -114,17 +114,18 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
     },
     "type": "line",
+    "spacingTop": 7,
     "renderTo": "container-6642",
-    "spacingBottom": 8
+    "spacingBottom": 2
   },
   "title": {
     "style": {
@@ -177,10 +178,11 @@
       "style": {
         "fontSize": 10,
         "color": "#000000"
-      }
+      },
+      "rortation": 0
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickInterval": 5
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -213,22 +215,5 @@
   "exporting": {
     "enabled": false,
     "filename": 6642
-  },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "enabled": false,
-        "allowOverlap": true,
-        "y": 40,
-        "formatter": function () {
-            var last = this.series.data[this.series.data.length - 1];
-            var first = this.series.data[0];
-            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 1, ",", " ") + '%';
-            }
-            return "";
-          }
-      }
-    }
   }
 }

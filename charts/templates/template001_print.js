@@ -5,7 +5,7 @@
         "backgroundColor": "#fbfbfb",
  		"width": 320,
     	"height": 208,  
-    	spacing: [7,3,8,3], /*top, right, bottom and left */
+    	spacing: [2,2,2,2], /*top, right, bottom and left */
         "style": {
             "fontFamily": "Arial"
         },
@@ -117,6 +117,7 @@
     "legend": {
     	padding: 0,
         symbolRadius: 0,
+        padding: 1,
         itemMarginBottom: 1,
         itemStyle:{
             fontSize: "10px"

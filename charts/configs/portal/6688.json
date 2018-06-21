@@ -1273,13 +1273,12 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "rotation": -45,
       "formatter": function (){
         return this.value.split(" ")[0];
       }
     },
     "tickLength": 0,
-    "tickInterval": 12
+    "tickInterval": 10
   },
   "chart": {
     "events": {
@@ -1304,17 +1303,17 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
     },
     "type": "line",
     "renderTo": "container-6688",
-    "spacingBottom": 8
+    "spacingBottom": 2
   },
   "title": {
     "style": {

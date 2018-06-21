@@ -116,10 +116,10 @@
     "width": 320,
     "height": 221,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
@@ -145,7 +145,7 @@
     "type": "line",
     "alignTicks": false,
     "renderTo": "container-6281",
-    "spacingBottom": 28
+    "spacingBottom": 22
   },
   "plotOptions": {
     "series": {
@@ -255,6 +255,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EAmt für Sozialbeiträge, Abteilung Prämienverbilligungen\u003Cbr\u002F\u003EZuletzt geändert: 2017-1-3"
   },
   "legend": {
+    "padding": 3,
     "symbolRadius": 0,
     "itemMarginBottom": 5,
     "itemStyle": {
@@ -266,7 +267,6 @@
     "verticalAlign": "top",
     "align": "left",
     "margin": 3,
-    "padding": 3,
     "labelFormatter": function (){
   	  return this.name.replace("(rechte", "<br/>(rechte");
   	}

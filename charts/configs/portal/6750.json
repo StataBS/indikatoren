@@ -213,7 +213,8 @@
       "style": {
         "fontSize": 10,
         "color": "#000000"
-      }
+      },
+      "y": 3
     },
     "tickLength": 0,
     "min": 0,
@@ -225,10 +226,10 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
@@ -251,10 +252,10 @@
                     
                 }
     },
-    "renderTo": "container-6750",
     "type": "column",
     "inverted": true,
-    "spacingBottom": 8
+    "renderTo": "container-6750",
+    "spacingBottom": 2
   },
   "plotOptions": {
     "series": {
@@ -301,7 +302,7 @@
       "text": ""
     },
     "labels": {
-      "y": 18,
+      "y": 10,
       "style": {
         "fontSize": 10,
         "color": "#000000"
@@ -332,6 +333,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
+    "padding": 1,
     "symbolRadius": 0,
     "itemMarginBottom": 1,
     "itemStyle": {
@@ -341,8 +343,9 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "margin": 1
+    "itemDistance": 10,
+    "symbolPadding": 3,
+    "align": "left"
   },
   "dataLabels": {
     "enabled": false,
@@ -355,6 +358,7 @@
     "shared": false
   },
   "exporting": {
+    "enabled": false,
     "filename": 6750
   }
 }

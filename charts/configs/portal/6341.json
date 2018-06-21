@@ -846,6 +846,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
   },
   "legend": {
+    "padding": 0,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",

@@ -10,12 +10,12 @@
   "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": -90,
-       step:1
+      "rotation": -45,
+       step: 1
     } 
   },
   "yAxis": {
-  	 tickInterval:600,
+  	 tickAmount: 5,
     "labels": {
       "format": "{value:,.0f}"
     }    

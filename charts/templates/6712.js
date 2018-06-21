@@ -13,8 +13,9 @@
     "labels": {
     	padding: -100,
     	x:-5,
-       step:1,
-      "rotation": 0,
+      step:1,
+      rotation: 0,
+      y: 3,
     } 
   },
   "yAxis": {
@@ -33,7 +34,8 @@
   {"color": "#E7CEE2", "visible": true} /* grün */
   ],
   "legend": {
-  	itemWidth: 120,
+  	//itemWidth: 120,
+  	itemDistance: 6,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

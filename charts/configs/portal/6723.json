@@ -425,10 +425,10 @@
     "width": 665,
     "height": 208,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
@@ -452,7 +452,7 @@
                 }
     },
     "renderTo": "container-6723",
-    "spacingBottom": 18
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -553,6 +553,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
   },
   "legend": {
+    "padding": 1,
     "symbolRadius": 0,
     "itemMarginBottom": 5,
     "itemStyle": {

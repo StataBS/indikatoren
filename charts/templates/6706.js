@@ -5,7 +5,7 @@
   },
   "yAxis": {
     "min": 0, 
-    //tickInterval: 10,
+    tickAmount: 5,
 	  "labels": {
 		  "format": "{value}%"
 	  }
@@ -23,12 +23,10 @@
   {"color": "#672773"}, /* */
   ],
    "legend": {
-   	x:3,
-   	itemWidth: 153,
     "enabled": true,
     "layout": "horizontal",
+    itemDistance: 0,
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

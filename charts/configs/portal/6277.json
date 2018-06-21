@@ -180,17 +180,17 @@
     "width": 320,
     "height": 221,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
     },
     "type": "line",
     "renderTo": "container-6277",
-    "spacingBottom": 18
+    "spacingBottom": 12
   },
   "title": {
     "style": {

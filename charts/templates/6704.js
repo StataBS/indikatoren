@@ -23,19 +23,20 @@
         },
         yAxis:[{
             //max: 7,
-            tickInterval: 1,
-            min:0,
+            tickInterval: 2,
+            min: 0,
             title: {
                 text: null
             },
             "labels": {
+                rotation: 0,
                 formatter: function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
             	},
                 "style": {
                     "color": "#000000",
                     textOverflow: 'none' // prevents ellipsis
-                }
+                }, 
             },
             plotLines: [{
                 value: 0,

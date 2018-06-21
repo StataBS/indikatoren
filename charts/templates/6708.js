@@ -38,7 +38,7 @@
     symbolPadding: 1,
     itemDistance: 1, 
     padding: 0,
-    "align": "left",
+    "align": "right",
     "itemStyle": {
       "fontWeight": "normal"
     }

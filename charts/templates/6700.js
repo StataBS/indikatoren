@@ -30,7 +30,7 @@
   },
   "legend": { 
   	x:-1,
-  	itemWidth: 135,
+  	//itemWidth: 135,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
@@ -57,7 +57,7 @@
     //"marginTop": 75,
     "type": "column",
     "inverted": true,
-     width:665,
+     //width:665,
   },
   "tooltip": {
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',

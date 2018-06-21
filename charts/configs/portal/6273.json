@@ -245,10 +245,10 @@
     "width": 600,
     "height": 221,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
@@ -256,7 +256,7 @@
     "type": "column",
     "inverted": true,
     "renderTo": "container-6273",
-    "spacingBottom": 18
+    "spacingBottom": 12
   },
   "title": {
     "style": {

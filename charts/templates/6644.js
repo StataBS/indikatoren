@@ -58,7 +58,8 @@
   "chart": {
     "type": "column",
     "inverted": false, 
-    width: 665
+    width: 665,
+    spacingTop: 7
   },
   "tooltip": {
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',

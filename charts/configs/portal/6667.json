@@ -970,17 +970,17 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
     },
     "type": "line",
     "renderTo": "container-6667",
-    "spacingBottom": 28
+    "spacingBottom": 22
   },
   "title": {
     "style": {
@@ -1033,7 +1033,8 @@
       "style": {
         "fontSize": 10,
         "color": "#000000"
-      }
+      },
+      "rotation": 0
     },
     "tickLength": 0,
     "tickInterval": 5

@@ -287,10 +287,10 @@
     "width": 320,
     "height": 221,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
@@ -316,7 +316,7 @@
     "type": "column",
     "inverted": false,
     "renderTo": "container-6369",
-    "spacingBottom": 18
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -395,6 +395,7 @@
     "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)\u003Cbr\u002F\u003EZuletzt geändert: 2016-12-7"
   },
   "legend": {
+    "padding": 1,
     "symbolRadius": 0,
     "itemMarginBottom": 1,
     "itemStyle": {

@@ -55,7 +55,8 @@
 ],
   "chart": {
     "type": "column",
-    "inverted": false
+    "inverted": false, 
+    spacingTop: 7
   },
   "tooltip": {
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',

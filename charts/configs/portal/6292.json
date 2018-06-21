@@ -549,9 +549,9 @@
     "width": 665,
     "height": 208,
     "spacing": [
-      8,
-      0,
-      3,
+      2,
+      2,
+      2,
       2
     ],
     "style": {
@@ -562,7 +562,7 @@
     "type": "column",
     "inverted": true,
     "renderTo": "container-6292",
-    "spacingBottom": 3
+    "spacingBottom": 2
   },
   "title": {
     "style": {
@@ -640,6 +640,7 @@
     "text": "Quelle: Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, S15A"
   },
   "legend": {
+    "padding": 0,
     "layout": "vertical",
     "verticalAlign": "top",
     "align": "right",

@@ -161,10 +161,10 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
@@ -191,7 +191,7 @@
                 }
     },
     "renderTo": "container-6704",
-    "spacingBottom": 8
+    "spacingBottom": 2
   },
   "plotOptions": {
     "bar": {
@@ -230,12 +230,13 @@
   },
   "yAxis": [
     {
-      "tickInterval": 1,
+      "tickInterval": 2,
       "min": 0,
       "title": {
         "text": null
       },
       "labels": {
+        "rotation": 0,
         "formatter": function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
             	},

@@ -85,7 +85,7 @@
         "fontSize": "10px"
       },
       "formatter": function () {
-      	return this.value;
+      	return this.value.replace("Eingebürgerte", "Eingebürgerte<br/>").replace("seit", "<br/>seit");
       }
     }
   },
@@ -110,9 +110,9 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      8,
-      0,
-      3,
+      2,
+      2,
+      2,
       2
     ],
     "style": {
@@ -121,9 +121,10 @@
     },
     "zoomType": "xy",
     "type": "column",
+    "marginRight": 10,
     "inverted": true,
     "renderTo": "container-6673",
-    "spacingBottom": 3
+    "spacingBottom": 2
   },
   "title": {
     "style": {
@@ -179,6 +180,7 @@
         "fontSize": "10px",
         "textOverflow": "none"
       },
+      "rotation": 0,
       "overflow": "justify"
     }
   },
@@ -202,6 +204,7 @@
     "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
   },
   "legend": {
+    "padding": 1,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
@@ -215,9 +218,8 @@
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "itemDistance": 0,
-    "enabled": true,
-    "padding": 1
+    "itemDistance": 2,
+    "enabled": true
   },
   "exporting": {
     "filename": 6673

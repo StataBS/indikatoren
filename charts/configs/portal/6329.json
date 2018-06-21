@@ -238,10 +238,10 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
@@ -267,7 +267,7 @@
     "renderTo": "container-6329",
     "type": "column",
     "inverted": false,
-    "spacingBottom": 18
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -347,6 +347,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003EDepartement für Wirtschaft, Soziales und Umwelt"
   },
   "legend": {
+    "padding": 1,
     "symbolRadius": 0,
     "itemMarginBottom": 5,
     "itemStyle": {

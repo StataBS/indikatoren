@@ -11,13 +11,11 @@
   "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": -90 
+      "rotation": -45 
     } 
   },
      "yAxis": [{
-     tickAmount: 3,
-     tickInterval: 100000,
-     max: 200000,
+     tickAmount: 5,
     "labels": {
       "format": "{value:,.0f}",
       "style": {
@@ -42,8 +40,7 @@
     },
 	"min": 0,
      max: 600,
-     tickAmount: 3,
-	tickInterval: 600,
+     tickAmount: 5,
     "gridLineWidth": 0,
     "opposite": true
   }
@@ -62,14 +59,12 @@
   },
   ],
   "legend": {
-  	//itemWidth: 300,
   	padding: 0,
+  	alignColumns: false, 
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    //"x": 25,
-	  //"y": 60,    
     "itemStyle": {
       "fontWeight": "normal"
     }

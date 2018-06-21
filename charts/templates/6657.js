@@ -27,6 +27,9 @@
     "labels": {
       y: 10,
       "format": "{value:,.0f}%",
+      style: {
+        textOverflow: 'none'
+      }
     },
   },
   "legend": {
@@ -50,7 +53,8 @@
 ],
   "chart": {
     "type": "column",
-    "inverted": true
+    "inverted": true, 
+    marginLeft: 120
   },
   "tooltip": {
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',

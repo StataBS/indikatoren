@@ -35,6 +35,7 @@
     "verticalAlign": "top",
     padding: 1,
     itemDistance: 10,
+    symbolPadding: 3,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

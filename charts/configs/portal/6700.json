@@ -345,13 +345,13 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 665,
+    "width": 320,
     "height": 208,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
@@ -377,7 +377,7 @@
     "renderTo": "container-6700",
     "type": "column",
     "inverted": true,
-    "spacingBottom": 18
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -456,6 +456,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EFinanzdepartement Basel-Stadt, Zentraler Personaldienst"
   },
   "legend": {
+    "padding": 1,
     "symbolRadius": 0,
     "itemMarginBottom": 1,
     "itemStyle": {
@@ -463,7 +464,6 @@
       "fontWeight": "normal"
     },
     "x": -1,
-    "itemWidth": 135,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

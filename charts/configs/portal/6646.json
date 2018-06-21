@@ -56,17 +56,17 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      1,
-      3,
-      1,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
     },
     "type": "pie",
     "renderTo": "container-6646",
-    "spacingBottom": 1
+    "spacingBottom": 2
   },
   "plotOptions": {
     "pie": {
@@ -136,6 +136,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
+    "padding": 0,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",

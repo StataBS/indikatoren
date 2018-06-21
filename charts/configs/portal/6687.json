@@ -109,10 +109,10 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
@@ -135,11 +135,12 @@
                     
                 }
     },
+    "marginRight": 20,
     "type": "column",
     "inverted": true,
     "marginLeft": 150,
     "renderTo": "container-6687",
-    "spacingBottom": 8
+    "spacingBottom": 2
   },
   "plotOptions": {
     "series": {
@@ -192,6 +193,7 @@
         "color": "#000000",
         "textOverflow": "none"
       },
+      "rotation": 0,
       "format": "{value:,.0f}%"
     },
     "max": 100,
@@ -219,6 +221,7 @@
     "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
   },
   "legend": {
+    "padding": 1,
     "symbolRadius": 0,
     "itemMarginBottom": 1,
     "itemStyle": {
@@ -228,8 +231,7 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "padding": 1
+    "align": "left"
   },
   "dataLabels": {
     "enabled": false,

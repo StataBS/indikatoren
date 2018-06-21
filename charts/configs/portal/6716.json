@@ -70,10 +70,10 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
@@ -99,7 +99,7 @@
     "type": "column",
     "inverted": false,
     "renderTo": "container-6716",
-    "spacingBottom": 28
+    "spacingBottom": 22
   },
   "plotOptions": {
     "series": {
@@ -176,6 +176,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Eidgenössische Volks- und Wohnungszählungen 1990 und 2000"
   },
   "legend": {
+    "padding": 1,
     "symbolRadius": 0,
     "itemMarginBottom": 1,
     "itemStyle": {

@@ -239,6 +239,7 @@
     "text": "Quelle: Polizeiliche Kriminalitätsstatistk (PKS)"
   },
   "legend": {
+    "padding": 1,
     "symbolRadius": 0,
     "itemMarginBottom": 5,
     "itemStyle": {

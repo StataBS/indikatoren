@@ -11,7 +11,6 @@
     spacingRight: 3
   }, 
   legend: {
-  	x:-1,
     "enabled": true,
     padding: 1,
     itemDistance: 1,

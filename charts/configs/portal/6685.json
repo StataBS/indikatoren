@@ -129,10 +129,10 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
@@ -160,7 +160,7 @@
     },
     "spacingRight": 4,
     "renderTo": "container-6685",
-    "spacingBottom": 18
+    "spacingBottom": 12
   },
   "plotOptions": {
     "bar": {

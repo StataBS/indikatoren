@@ -5,6 +5,7 @@
   },
   "yAxis": {
     "min": 0, 
+    tickAmount: 5,
 	  "labels": {
 		  "format": "{value}%"
 	  }
@@ -31,7 +32,7 @@
     itemDistance: 5, 
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
+    //"itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
@@ -46,8 +47,7 @@
     }
   },
 "chart": {
-  	"width": 665
+  	//"width": 665
  },
-
-}
+};
 }());

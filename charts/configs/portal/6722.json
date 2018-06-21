@@ -44,17 +44,17 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      1,
-      3,
-      1,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
     },
     "type": "pie",
     "renderTo": "container-6722",
-    "spacingBottom": 1
+    "spacingBottom": 2
   },
   "plotOptions": {
     "pie": {
@@ -121,6 +121,7 @@
     "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
   },
   "legend": {
+    "padding": 0,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",

@@ -488,10 +488,10 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
@@ -516,7 +516,7 @@
     },
     "inverted": false,
     "renderTo": "container-6322",
-    "spacingBottom": 8
+    "spacingBottom": 2
   },
   "plotOptions": {
     "series": {
@@ -596,6 +596,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
   },
   "legend": {
+    "padding": 2,
     "symbolRadius": 0,
     "itemMarginBottom": 5,
     "itemStyle": {
@@ -606,8 +607,7 @@
     "verticalAlign": "top",
     "align": "left",
     "itemWidth": 120,
-    "margin": 2,
-    "padding": 2
+    "margin": 2
   },
   "dataLabels": {
     "enabled": false,

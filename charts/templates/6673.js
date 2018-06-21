@@ -6,11 +6,11 @@
   {"color": "rgb(231,207,226)", index: 0, legendIndex:2}, /*Tert.*/
 ],
   "chart": {
-  	marginRight: 20,
+  	marginRight: 10,
     "inverted": true, 
   }, 
   legend: {
-    itemDistance: 0,
+    itemDistance: 2,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
@@ -23,7 +23,7 @@
   xAxis: {
     labels: {
       formatter: function() {
-      	return this.value;
+      	return this.value.replace("Eingebürgerte", "Eingebürgerte<br/>").replace("seit", "<br/>seit");
       }
     }
   },

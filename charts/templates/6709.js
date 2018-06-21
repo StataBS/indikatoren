@@ -11,13 +11,14 @@
   "xAxis": {
     "type": "category",
     "labels": {
-    	step:1,
+    	step: 1,
     	padding:-100,
     	x:-5,
+    	y: 3,
       "rotation": 0,
       style: { 
-		textOverflow: 'none' // prevents ellipsis
-		} 
+  		  textOverflow: 'none' // prevents ellipsis
+  		} 
     } 
   },
   "yAxis": {
@@ -33,14 +34,13 @@
   {"color": "#A8C3CA", "visible": true} /*  */
   ],
   "legend": {
-  	x:-1,
-  	itemWidth: 110,
+  	
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    //"x": 25,
-	  //"y": 45,    
+    itemDistance: 10,
+    symbolPadding: 3,
     "itemStyle": {
       "fontWeight": "normal"
     }

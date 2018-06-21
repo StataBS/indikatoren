@@ -76,10 +76,10 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
@@ -104,7 +104,7 @@
     },
     "type": "column",
     "renderTo": "container-6316",
-    "spacingBottom": 8
+    "spacingBottom": 2
   },
   "plotOptions": {
     "series": {
@@ -194,6 +194,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik"
   },
   "legend": {
+    "padding": 1,
     "symbolRadius": 0,
     "itemMarginBottom": 5,
     "itemStyle": {

@@ -485,9 +485,9 @@
     "width": 320,
     "height": 520,
     "spacing": [
-      8,
-      0,
-      3,
+      2,
+      2,
+      2,
       2
     ],
     "style": {
@@ -499,7 +499,7 @@
     "marginLeft": 140,
     "inverted": true,
     "renderTo": "container-6736",
-    "spacingBottom": 3
+    "spacingBottom": 2
   },
   "title": {
     "style": {
@@ -582,6 +582,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18"
   },
   "legend": {
+    "padding": 0,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
@@ -597,7 +598,6 @@
         },
     "enabled": true,
     "itemDistance": 5,
-    "padding": 0,
     "symbolPadding": 3,
     "alignColumns": false
   },

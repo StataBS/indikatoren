@@ -196,7 +196,8 @@
         "color": "#000000"
       }
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "tickInterval": 5
   },
   "chart": {
     "events": {
@@ -221,17 +222,17 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
     },
     "type": "area",
     "renderTo": "container-6643",
-    "spacingBottom": 8
+    "spacingBottom": 2
   },
   "title": {
     "style": {

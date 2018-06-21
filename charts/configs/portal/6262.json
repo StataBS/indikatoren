@@ -492,17 +492,17 @@
     "width": 665,
     "height": 208,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
     },
     "type": "area",
     "renderTo": "container-6262",
-    "spacingBottom": 8
+    "spacingBottom": 2
   },
   "title": {
     "style": {
