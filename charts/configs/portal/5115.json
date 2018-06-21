@@ -3324,6 +3324,8 @@
     },
     {
       "visible": false,
+      "showInLegend": false,
+      "colorAxis": false,
       "data": [
         [
           1,
