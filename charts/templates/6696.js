@@ -14,7 +14,11 @@
     }
   },
   "xAxis": {
-    "tickInterval": 1
+    type: 'category',
+    labels: {
+      step: 1,
+      rotation: -45
+    }
   },  
   "yAxis": {
   	 max: 5000,

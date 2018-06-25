@@ -121,6 +121,7 @@
         "color": "#000000"
       },
       "x": -5,
+      "y": 3,
       "step": 1,
       "rotation": 0,
       "padding": -100
@@ -216,7 +217,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 10
   },
   "navigation": {
     "menuItemStyle": {

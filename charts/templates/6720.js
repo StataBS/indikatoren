@@ -22,6 +22,7 @@
     {
       gridLineColor: '#B9CFD7', 
       gridLineWidth: 0.5,
+      tickAmount: 5,
       "title": {
           "style": {
               "color": "#000000",
@@ -40,6 +41,7 @@
     {
       gridLineColor: '#B9CFD7', 
       gridLineWidth: 0.5,
+      tickAmount: 5,
       "min": 0,
       "title": {
           "style": {

@@ -336,7 +336,8 @@
         "color": "#000000"
       },
       "step": 1,
-      "x": -5
+      "x": -5,
+      "y": 3
     },
     "tickLength": 0,
     "min": 0,
@@ -374,9 +375,10 @@
                     
                 }
     },
-    "renderTo": "container-6700",
+    "marginRight": 3,
     "type": "column",
     "inverted": true,
+    "renderTo": "container-6700",
     "spacingBottom": 2
   },
   "plotOptions": {
@@ -432,7 +434,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 100
   },
   "navigation": {
     "menuItemStyle": {

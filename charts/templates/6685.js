@@ -21,7 +21,7 @@
                 negateNumbersInColumn(1);
             }     
         },
-        yAxis:[{
+        yAxis:{
             //max: 7,
             tickInterval: 2,
             min:0,
@@ -50,7 +50,7 @@
             	    this.chart.options.customFunctions.createSymmetricAxis(this);
                 }, 
             }
-        }],
+        },
         xAxis: [{
                 reversed: false,
                 type: 'category',
@@ -66,7 +66,9 @@
 	                    color: "#000000"
 	                }
 	            },
-	            tickColor: "#FFFFFF"
+	            tickColor: "#FFFFFF",
+	            lineColor: '#B9CFD7',
+                lineWidth: 0.5,
             }, 
             { // mirror axis on right side
                 type: 'category',

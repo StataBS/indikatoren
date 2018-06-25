@@ -152,7 +152,8 @@
         "color": "#000000"
       },
       "format": "{value}"
-    }
+    },
+    "tickInterval": 10
   },
   "navigation": {
     "menuItemStyle": {

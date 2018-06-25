@@ -2,9 +2,6 @@
     return {
 "plotOptions": {
     "series": {
-      pointPadding: 100,
-      borderWidth: 0,
-      "pointWidth": 10,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -16,11 +13,11 @@
   "xAxis": {
     "type": "category",
     labels:{
-    	rotation:-90,
+    	rotation: -45,
     }
   },  
   "yAxis": {
-     //tickInterval: 60000,
+     tickAmount: 7,
     "labels": {
       "format": "{value:,.0f}",
     },
@@ -31,7 +28,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	  //"y": 50,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -41,9 +37,6 @@
   {"color": "#FABD24", index: 0, legendIndex: 1}, /**/
 ],
   "chart": {
-  	marginBottom: 386723,
-    "renderTo": 'container-I.01.1.0016', 
-    //"marginTop": 75,
     "type": "column",
     "inverted": false
   },

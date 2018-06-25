@@ -19,20 +19,20 @@
         }
   },
   "yAxis": {
+      tickAmount: 6,
     "labels": {
       "format": "{value:,.0f}",
     }
   },
   "xAxis": {
-  	"type": "linear",
-  	tickInterval: 1
+  	type: "linear",
+  	tickInterval: 1,
   },
   "legend": {
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	//"y": 45,
  	itemWidth: 80,
 	"itemMarginBottom": 5,
     "itemStyle": {

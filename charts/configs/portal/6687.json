@@ -98,7 +98,8 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "y": 3
+      "y": 3,
+      "padding": 0
     },
     "tickLength": 0,
     "tickInterval": 1
@@ -135,7 +136,7 @@
                     
                 }
     },
-    "marginRight": 20,
+    "marginRight": 6,
     "type": "column",
     "inverted": true,
     "marginLeft": 150,

@@ -4,7 +4,8 @@
         "type": "category",
         "labels": {
            align: "left",
-            x: -160,
+            x: -135,
+            y: 3,
             "formatter": function() {
                 //add sum of observations of visible series to the axis label
                 var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
@@ -16,9 +17,9 @@
                 }, 0);
                 //use N if all series are visible, otherwise use n
                 var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                var category = this.value.replace("und weitere", "u.a.");
                 //check for value that contains only spaces
-            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
-            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
+            	return (category.replace(/\s/g,"") == "") ? category : category + ' (' + nString + sum + ')';
             }
         } 
   },  
@@ -50,22 +51,25 @@
 
   ],
 "chart": {     
-	 marginLeft: 165, 
+	 marginLeft: 140, 
 	 marginRight: 5,
      "inverted": true,
   },
   "legend": {
-  	x: -1,
+    x: -1,
     margin: 10,
     padding: 1,
-    itemWidth: 120,
+    itemDistance: 1,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    //width: 320,
+    symbolPadding: 1,
     "itemStyle": {
-    "fontWeight": "normal"
-    }
+        "fontWeight": "normal",
+        textOverflow: "none", 
+    },
   },
-}
+};
 }());

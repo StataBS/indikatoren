@@ -1448,7 +1448,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Bei den Schweizer Erwerbspersonen waren 1997 die Frauen zwischen 30 und 39 Jahren am stärksten von Arbeitslosigkeit betroffen. Allgemein war die Arbeitslosenquote der Schweizerinnen  und Schweizer für alle Altersgruppen deutlich tiefer als diejenige der ausländischen Erwerbspersonen.",
 		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 1997 wird mit den Erwerbspersonen aus der Volkszählung von 1990 berechnet.",
-		"template": "",
+		"template": "populationPyramid001_print",
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_000",
 		"parentId": 6408,

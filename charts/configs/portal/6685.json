@@ -111,7 +111,9 @@
           "color": "#000000"
         }
       },
-      "tickColor": "#FFFFFF"
+      "tickColor": "#FFFFFF",
+      "lineColor": "#B9CFD7",
+      "lineWidth": 0.5
     },
     {
       "type": "category",
@@ -197,38 +199,44 @@
     "text": "nach Geschlecht, Stand: 2016",
     "align": "left"
   },
-  "yAxis": [
-    {
-      "tickInterval": 2,
-      "min": 0,
-      "title": {
-        "text": null
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
       },
-      "labels": {
-        "rotation": 0,
-        "formatter": function () {
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none",
+        "fontSize": "9px"
+      },
+      "distance": -50,
+      "formatter": function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
             	},
-        "style": {
-          "color": "#000000",
-          "textOverflow": "none"
-        }
-      },
-      "plotLines": [
-        {
-          "value": 0,
-          "color": "white",
-          "width": 1,
-          "zIndex": 4
-        }
-      ],
-      "events": {
-        "afterSetExtremes": function (args){
+      "rotation": 0
+    },
+    "tickInterval": 2,
+    "min": 0,
+    "plotLines": [
+      {
+        "value": 0,
+        "color": "white",
+        "width": 1,
+        "zIndex": 4
+      }
+    ],
+    "events": {
+      "afterSetExtremes": function (args){
             	    this.chart.options.customFunctions.createSymmetricAxis(this);
                 }
-      }
     }
-  ],
+  },
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",

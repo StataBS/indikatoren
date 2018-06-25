@@ -10,6 +10,7 @@
     "tickInterval": 1, 
     labels: {
       y: 3,
+      padding: 0
     }
   },  
   "yAxis": {
@@ -39,7 +40,7 @@
   {"color": "#FABD24", index: 1, legendIndex: 1}, /**/
 ],
   "chart": {
-  	marginRight: 20,
+  	marginRight: 6,
     "type": "column",
     "inverted": true, 
     marginLeft: 150

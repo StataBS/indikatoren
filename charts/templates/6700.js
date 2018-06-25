@@ -18,25 +18,26 @@
     "type": "category",
     "tickInterval": 1,
     labels:{
-    	step:1,
-    	x:-5
+    	step: 1,
+    	x: -5,
+    	y: 3
     }
   },  
   "yAxis": {
-     "labels": {
-    	y: 18,
-      "format": "{value:,.0f}",
+    tickInterval: 100,
+    labels: {
+      	y: 18,
+        "format": "{value:,.0f}",
     },
   },
   "legend": { 
   	x:-1,
-  	//itemWidth: 135,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-     "itemStyle": {
-    "fontWeight": "normal"
+    "itemStyle": {
+      "fontWeight": "normal"
      },
   },
  "series": [
@@ -53,14 +54,12 @@
   {"color": "#999999", index: 0, legendIndex: 10}, /*Übrige Länder*/
 ],
   "chart": {
-    "renderTo": 'container-I.01.1.0016', 
-    //"marginTop": 75,
+    marginRight: 3,
     "type": "column",
     "inverted": true,
-     //width:665,
   },
   "tooltip": {
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
   },
-}
+};
 }());

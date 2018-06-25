@@ -74,6 +74,7 @@
       },
       "legend": {
       	padding: 0,
+      	margin: 0,
         "layout": "vertical",
         "verticalAlign": "middle",
         //"itemMarginBottom": 5,     

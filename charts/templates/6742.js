@@ -23,7 +23,7 @@
         } 
   },  
   yAxis:{
-  	tickInterval: 20,
+  	tickInterval: 25,
   	max: 100,
   	labels:{
   	   "type": "category",

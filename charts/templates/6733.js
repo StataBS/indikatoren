@@ -15,7 +15,7 @@
     "type": "category",
     "tickInterval": 1,
     labels:{
-    rotation:-90,
+    rotation:-45,
     step:1,
     }
   },  
@@ -38,7 +38,7 @@
 ],
   "chart": {
     "renderTo": 'container-I.01.1.0016', 
-    spacing: [6,2,3,2], 	
+    spacing: [6,2,2,2], 	
     "type": "column",
     "inverted": false
   },
@@ -59,5 +59,5 @@
       "fontWeight": "normal"
     }
   },
-}
+};
 }());

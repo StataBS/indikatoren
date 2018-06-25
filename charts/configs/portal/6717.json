@@ -68,6 +68,7 @@
       },
       "padding": -100,
       "x": -5,
+      "y": 3,
       "step": 1,
       "rotation": 0
     },
@@ -161,9 +162,9 @@
       "style": {
         "fontSize": 10,
         "color": "#000000"
-      },
-      "format": "{value:,.1f}"
-    }
+      }
+    },
+    "tickInterval": 10
   },
   "navigation": {
     "menuItemStyle": {

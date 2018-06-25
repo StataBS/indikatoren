@@ -21,10 +21,10 @@
                 negateNumbersInColumn(1);
             }     
         },
-        yAxis:[{
-            max:6,
+        yAxis:{
+            max: 6,
             tickInterval: 1,
-            min:0,
+            min: 0,
             title: {
                 text: null
             },
@@ -50,7 +50,7 @@
             	    this.chart.options.customFunctions.createSymmetricAxis(this);
                 }, 
             }
-        }],
+        },
         xAxis: [{
                 reversed: false,
                 type: 'category',
@@ -67,7 +67,9 @@
 	                    color: "#000000"
 	                }
 	            },
-	            tickColor: "#FFFFFF"
+	            tickColor: "#FFFFFF",
+	            lineColor: '#B9CFD7',
+                lineWidth: 0.5,
             }, 
             { // mirror axis on right side
                 type: 'category',
@@ -115,7 +117,8 @@
             }
         },
         chart:{
-            spacingRight: 2,
+            //spacingRight: 0,
+            marginRight: 2,
         }
 	};
 }());

@@ -66,7 +66,9 @@
 	                    color: "#000000"
 	                }
 	            },
-	            tickColor: "#FFFFFF"
+	            tickColor: "#FFFFFF",
+	            lineColor: '#B9CFD7',
+                lineWidth: 0.5,
             }, 
             { // mirror axis on right side
                 type: 'category',

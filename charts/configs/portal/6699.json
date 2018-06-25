@@ -337,6 +337,7 @@
       },
       "step": 1,
       "x": -5,
+      "y": 3,
       "rotation": 0
     },
     "tickLength": 0,
@@ -375,7 +376,7 @@
                     
                 }
     },
-    "marginRight": 10,
+    "marginRight": 8,
     "type": "column",
     "inverted": true,
     "renderTo": "container-6699",
@@ -436,8 +437,7 @@
       "format": "{value:,.0f}",
       "rotation": 0
     },
-    "max": 450,
-    "tickInterval": 50
+    "tickInterval": 100
   },
   "navigation": {
     "menuItemStyle": {

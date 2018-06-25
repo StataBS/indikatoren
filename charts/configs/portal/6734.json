@@ -387,7 +387,7 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "rotation": -90,
+      "rotation": -45,
       "step": 1
     },
     "tickLength": 0,
@@ -400,10 +400,10 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      15,
-      3,
-      8,
-      3
+      6,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
@@ -429,7 +429,7 @@
     "renderTo": "container-6734",
     "type": "column",
     "inverted": false,
-    "spacingBottom": 8
+    "spacingBottom": 2
   },
   "plotOptions": {
     "series": {
@@ -442,8 +442,6 @@
           "color": "black"
         }
       },
-      "pointPadding": 100,
-      "pointWidth": 5,
       "stacking": "normal"
     }
   },
@@ -517,7 +515,6 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "y": -8,
     "enabled": true,
     "layout": "vertical",
     "verticalAlign": "top",

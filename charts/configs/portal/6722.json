@@ -122,9 +122,10 @@
   },
   "legend": {
     "padding": 0,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "margin": 0,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "useHTML": true,
     "itemStyle": {
       "fontWeight": "normal",
@@ -133,7 +134,16 @@
     "symbolRadius": 0,
     "itemMarginBottom": 1,
     "enabled": true,
-    "itemWidth": 1000
+    "labelFormatter": function (){
+	        return this.name
+	            .replace("ohne", "ohne<br/>")
+	            .replace("mit", "mit<br/>")
+	            .replace("Migrationshintergrund", "Migrations-<br/>hintergrund")
+	            .replace(" der", "<br/>der")
+	            .replace(" und", "<br/>und")
+	            .replace(" Generation", "<br/>Generation")
+            ;
+	    }
   },
   "exporting": {
     "filename": 6722

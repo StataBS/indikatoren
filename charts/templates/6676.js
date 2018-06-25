@@ -1,8 +1,11 @@
 (function(){
     return {
       legend:{
+        labelFormatter: function(){
+            return this.name.replace(" ", "<br/>");
+        },  
       	style: {
-		fontSize: "12px"
+		    fontSize: "12px"
 		}
       },
       "data":{

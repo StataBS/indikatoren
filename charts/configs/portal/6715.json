@@ -197,7 +197,8 @@
         "color": "#000000"
       },
       "format": "{value}%"
-    }
+    },
+    "tickInterval": 1
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -233,13 +234,12 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0,
-    "itemWidth": 150
+    "padding": 0
   },
   "exporting": {
     "enabled": false,

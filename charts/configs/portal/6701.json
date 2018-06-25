@@ -913,7 +913,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickInterval": 8000
+    "tickAmount": 7
   },
   "navigation": {
     "menuItemStyle": {

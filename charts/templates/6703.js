@@ -94,12 +94,9 @@
 	    ],
     "legend": {
         "enabled": true,
-        //itemWidth: 210,
         "layout": "horizontal",
         "verticalAlign": "top",
         "align": "center",
-        x: 10,
-       	//"y": 45,    
         "itemStyle": {
           "fontWeight": "normal"
         }

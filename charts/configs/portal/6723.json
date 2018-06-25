@@ -529,7 +529,8 @@
       },
       "format": "{value}"
     },
-    "min": 0
+    "min": 0,
+    "tickAmount": 7
   },
   "navigation": {
     "menuItemStyle": {
@@ -555,7 +556,7 @@
   "legend": {
     "padding": 1,
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"

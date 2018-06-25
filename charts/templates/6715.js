@@ -5,7 +5,7 @@
   },
   "yAxis": {
     "min": 0, 
-    //tickInterval: 10,
+    tickInterval: 1,
 	  "labels": {
 		  "format": "{value}%"
 	  }
@@ -22,12 +22,9 @@
   ],
    "legend": {
     "enabled": true,
-    //"x": 45,
-    //"y": 35,
-    "itemWidth": 150,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 1,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
@@ -41,5 +38,5 @@
       } 
     }
   }
-}
+};
 }());

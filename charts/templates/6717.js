@@ -12,17 +12,18 @@
  "xAxis": {
     "type": "category",
     "labels": {
-      padding:-100,
-      x:-5,
-      step:1,
+      padding: -100,
+      x: -5,
+      y: 3,
+      step: 1,
       "rotation": 0 
     } 
   },
   "yAxis": {
-	//"max": 100,
+  	tickInterval: 10,
     "labels": {
        y: 18,
-      "format": "{value:,.1f}"
+      //format: "{value:,.0f}"
     }    
   },
   

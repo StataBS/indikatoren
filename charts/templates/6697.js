@@ -11,8 +11,9 @@
   "xAxis": {
     "type": "category",
     "labels": {
-    	step:1,
-    	x:-5,
+    	step: 1,
+    	x: -5,
+    	y: 1,
       "rotation": 0 
     } 
   },

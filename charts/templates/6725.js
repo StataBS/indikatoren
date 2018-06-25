@@ -9,14 +9,14 @@
   "xAxis": {
     "type": "category",
     labels:{
-    	rotation:-90,
+    	rotation:-45,
     }
   },
   "yAxis": {
   	max: 75,
   	tickInterval: 25,
-    "labels": {
-      "format": "{value}" 
+    labels: {
+      format: "{value}", 
     }    
   },
   "series": [
@@ -40,11 +40,10 @@
     shared: false
   },  
   "chart": {  
-  	 marginBottom: 68,
     "type": "column",
     "inverted": false
   }
-}
+};
 }());
 
  

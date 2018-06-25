@@ -11,8 +11,9 @@
   "xAxis": {
     "type": "category",
     "labels": {
-    	step:1,
-    	x:-5,
+    	step: 1,
+    	x: -5,
+    	y: 1,
       "rotation": 0 
     } 
   },
@@ -35,7 +36,7 @@
   {"color": "#ffda80", "visible": true} /*  */
   ],
   "legend": {
-  	x:-1,
+  	x: -1,
     "enabled": true,
     itemDistance: 5, 
     "layout": "horizontal",
@@ -50,7 +51,7 @@
     "shared": false
   },
   "chart": { 
-  	marginRight:18,
+  	marginRight: 18,
     "type": "column",
     "inverted": true,
   }

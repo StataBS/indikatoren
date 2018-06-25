@@ -9,7 +9,7 @@
   "xAxis": {
     "type": "category",
     labels:{
-    	rotation:-90,
+    	rotation: -45,
     }
   },
   "yAxis": {
@@ -41,11 +41,10 @@
     shared: false
   },  
   "chart": {    
-  	marginBottom: 66,
     "type": "column",
     "inverted": false
   }
-}
+};
 }());
 
  

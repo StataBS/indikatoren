@@ -1,26 +1,24 @@
 (function(){
     return {
    plotOptions: {
-           series: {
-            pointPadding: 0, 
-			groupPadding: 0.1, 
-			borderWidth: 0,
-
-        }
-
+      series: {
+        pointPadding: 0, 
+  			groupPadding: 0.1, 
+  			borderWidth: 0,
+      }
    },
   "xAxis": {
     "type": "category",
     "labels": {
-      x:-5,
+      x: -5,
+      y: 3,
       step: 1,
       "rotation": 0,
        padding: -100,
          } 
   },
   "yAxis": {
-  	//max: 140000,
-  	//tickInterval: 40000,
+  	tickInterval: 10,
     "labels": {
     	y: 10,
       "format": "{value:,.0f}"

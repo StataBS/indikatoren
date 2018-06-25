@@ -1,14 +1,22 @@
 (function(){
     return {
 	  "legend": { 
-	    //y: 55,
 	    "enabled": true,
-	    "layout": "horizontal",
-	   "itemWidth": 1000,
-	    "verticalAlign": "top",
-	    "align": "left",
+	    "layout": "vertical",
+	    "verticalAlign": "middle",
+	    "align": "right",
 	    "itemStyle": {
-	    "fontWeight": "normal"
+	        "fontWeight": "normal"
+	    },
+	    labelFormatter: function(){
+	        return this.name
+	            .replace("ohne", "ohne<br/>")
+	            .replace("mit", "mit<br/>")
+	            .replace("Migrationshintergrund", "Migrations-<br/>hintergrund")
+	            .replace(" der", "<br/>der")
+	            .replace(" und", "<br/>und")
+	            .replace(" Generation", "<br/>Generation")
+            ;
 	    }
 	  },
       "data":{

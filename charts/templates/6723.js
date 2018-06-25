@@ -5,6 +5,7 @@
   },
   "yAxis": {
     "min": 0, 
+    tickAmount: 7,
     //tickInterval: 10,
 	  "labels": {
 		  "format": "{value}"
@@ -32,7 +33,7 @@
     itemDistance: 5,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
+    //"itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

@@ -119,7 +119,7 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "rotation": -90
+      "rotation": -45
     },
     "tickLength": 0
   },
@@ -155,7 +155,6 @@
       "fontFamily": "Arial"
     },
     "type": "column",
-    "marginBottom": 66,
     "inverted": false,
     "renderTo": "container-6724",
     "spacingBottom": 2
