@@ -56,7 +56,7 @@
     }
   },
 "chart": {    
-	  spacing: [15,3,8,3], 
+	  spacing: [8,2,2,2], 
      "inverted": false,
   },
 };

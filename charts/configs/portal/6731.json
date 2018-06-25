@@ -130,10 +130,10 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      15,
-      3,
       8,
-      3
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
@@ -159,7 +159,7 @@
     "renderTo": "container-6731",
     "type": "column",
     "inverted": false,
-    "spacingBottom": 8
+    "spacingBottom": 2
   },
   "plotOptions": {
     "series": {
@@ -248,8 +248,7 @@
     },
     "enabled": true,
     "layout": "vertical",
-    "verticalAlign": "top",
-    "y": -8,
+    "verticalAlign": "middle",
     "align": "right"
   },
   "dataLabels": {

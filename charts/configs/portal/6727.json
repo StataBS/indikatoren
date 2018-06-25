@@ -288,7 +288,8 @@
       },
       "format": "{value}"
     },
-    "max": 40
+    "max": 40,
+    "tickInterval": 10
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -324,13 +325,12 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0,
-    "itemWidth": 140
+    "padding": 0
   },
   "exporting": {
     "enabled": false,
