@@ -306,6 +306,7 @@
     },
     "type": "line",
     "renderTo": "container-6665",
+    "spacingBottom": 12
   },
   "title": {
     "style": {

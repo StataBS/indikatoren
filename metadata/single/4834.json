@@ -1,44 +1,29 @@
-{
- "title": "Wohnfläche pro Kopf",
- "subtitle": "Stand: 2017",
- "kuerzel": "I.09.1.04834",
- "kuerzelKunde": "RU-5.A",
- "description": "Wohnfläche pro Kopf",
- "id": 4834,
- "thema": "09 Bau-, Wohnungswesen",
- "unterthema": "Gebäude und Wohnungen",
- "kennzahlenset": "Wohnviertel",
- "raeumlicheGliederung": [
-  "Wohnviertel"
- ],
- "aktualisierungsdatum": "2018-02-20T16:35:49.4949",
- "schlagwort": [
-  "Gebäude"
- ],
- "stufe1": "Bereich 2: Raum und Umwelt",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 32m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, in der Gemeinde Bettingen mit 53m<sup>2</sup> über die höchste.",
- "erlaeuterungen": "Mittlere Wohnfläche pro Einwohner im Wohnviertel (gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen) in Quadratmeter.",
- "template": "dotplot",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "02_00_00_00_00_009",
- "parentId": null,
- "children": [
-  "5121",
-  "5903"
- ],
- "renderLink": [
-  "5121"
- ],
- "quellenangabe": [
-  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-  "Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Wohnfläche pro Kopf",
+"subtitle":"Stand: 2017",
+"kuerzel":"I.09.1.4834",
+"kuerzelKunde":"RU-5.A",
+"description":"Wohnfläche pro Kopf",
+"id":4834,
+"thema":"09 Bau-, Wohnungswesen",
+"unterthema":"Gebäude und Wohnungen",
+"kennzahlenset":"Wohnviertel",
+"raeumlicheGliederung":["Wohnviertel"],
+"aktualisierungsdatum":"2018-06-14T09:46:37.3737",
+"stufe1":"Teil 2: Rang-Grafiken",
+"stufe2":"Raum und Umwelt",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Im Wohnviertel Klybeck verfügen die Bewohner mit 32&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, in der Gemeinde Bettingen mit 53&nbsp;m<sup>2</sup> über die höchste.",
+"erlaeuterungen":"Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen.",
+"template":"dotplot",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"02_02_00_00_00_013",
+"parentId":null,
+"children":["5121","5903"],
+"renderLink":["5121"],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
+"externalLinks":[""]
 }

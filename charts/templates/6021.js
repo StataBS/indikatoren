@@ -27,7 +27,7 @@
     "verticalAlign": "top",
     "align": "left",
 	 "itemMarginBottom": 5,
-	  itemWidth: 130,
+	  //itemWidth: 130,
     "itemStyle": {
     "fontWeight": "normal"
     }
@@ -46,16 +46,16 @@
       "index": 4
     },
       {
-      "color": "#FF8028", //orange
-      "type": "column",
-      "pointWidth": "15",
-      "index": 3
-    },
-     {
-      "color": "#CD9C00", // braun
+      "color": "#CD9C00", //orange
       "type": "column",
       "pointWidth": "15",
       "index": 2
+    },
+     {
+      "color": "#FF8028", // braun
+      "type": "column",
+      "pointWidth": "15",
+      "index": 3
     },
       {
       "color": "#923F8D", // violett

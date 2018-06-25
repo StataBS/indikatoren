@@ -41,7 +41,9 @@
 				}
 			}, 
 			{
-				"visible": false
+				visible: false,
+				showInLegend: false,
+    			colorAxis: false
 			}	
 		]
 	};

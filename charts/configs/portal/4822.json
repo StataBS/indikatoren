@@ -5,87 +5,87 @@
       "data": [
         [
           "Bettingen",
-          0.012605042
-        ],
-        [
-          "Bruderholz",
-          0.0155299739
+          0.0159529807
         ],
         [
           "Altstadt Grossbasel",
-          0.0192458759
+          0.0166023166
+        ],
+        [
+          "Bruderholz",
+          0.0179556517
         ],
         [
           "Bachletten",
-          0.0260689757
-        ],
-        [
-          "Vorstädte",
-          0.0292712067
-        ],
-        [
-          "St. Alban",
-          0.0297356828
-        ],
-        [
-          "Riehen",
-          0.0354745012
-        ],
-        [
-          "Am Ring",
-          0.0358673374
-        ],
-        [
-          "Gotthelf",
-          0.0440251572
-        ],
-        [
-          "Hirzbrunnen",
-          0.0474539545
+          0.0246931835
         ],
         [
           "Wettstein",
-          0.0478045326
+          0.0359855335
+        ],
+        [
+          "Vorstädte",
+          0.0362911266
+        ],
+        [
+          "Am Ring",
+          0.0369102683
+        ],
+        [
+          "Riehen",
+          0.0369328834
+        ],
+        [
+          "St. Alban",
+          0.039971321
+        ],
+        [
+          "Gotthelf",
+          0.046390258
+        ],
+        [
+          "Hirzbrunnen",
+          0.048733362
         ],
         [
           "Breite",
-          0.0574082363
-        ],
-        [
-          "Altstadt Kleinbasel",
-          0.0721153846
+          0.0592991914
         ],
         [
           "Gundeldingen",
-          0.0721360097
+          0.0714703225
+        ],
+        [
+          "Altstadt Kleinbasel",
+          0.0799512987
         ],
         [
           "Clara",
-          0.0797912006
+          0.0844760039
         ],
         [
           "St. Johann",
-          0.0874826741
+          0.0888650964
         ],
         [
           "Iselin",
-          0.0941134157
+          0.0970977506
         ],
         [
           "Rosental",
-          0.1051587302
+          0.1117673785
         ],
         [
           "Matthäus",
-          0.1200878845
-        ],
-        [
-          "Klybeck",
-          0.1362121633
+          0.1171948838
         ],
         [
           "Kleinhüningen",
-          0.1431040442
+          0.1332630098
+        ],
+        [
+          "Klybeck",
+          0.1394900069
         ]
       ],
       "name": "Sozialhilfequote",
@@ -99,11 +99,11 @@
           1
         ],
         [
-          "Bruderholz",
+          "Altstadt Grossbasel",
           2
         ],
         [
-          "Altstadt Grossbasel",
+          "Bruderholz",
           3
         ],
         [
@@ -111,31 +111,31 @@
           4
         ],
         [
-          "Vorstädte",
+          "Wettstein",
           5
         ],
         [
-          "St. Alban",
+          "Vorstädte",
           6
         ],
         [
-          "Riehen",
+          "Am Ring",
           7
         ],
         [
-          "Am Ring",
+          "Riehen",
           8
         ],
         [
-          "Gotthelf",
+          "St. Alban",
           9
         ],
         [
-          "Hirzbrunnen",
+          "Gotthelf",
           10
         ],
         [
-          "Wettstein",
+          "Hirzbrunnen",
           11
         ],
         [
@@ -143,11 +143,11 @@
           12
         ],
         [
-          "Altstadt Kleinbasel",
+          "Gundeldingen",
           13
         ],
         [
-          "Gundeldingen",
+          "Altstadt Kleinbasel",
           14
         ],
         [
@@ -171,11 +171,11 @@
           19
         ],
         [
-          "Klybeck",
+          "Kleinhüningen",
           20
         ],
         [
-          "Kleinhüningen",
+          "Klybeck",
           21
         ]
       ],
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Stand: 2017",
     "align": "left"
   },
   "plotOptions": {
@@ -280,7 +280,7 @@
     },
     "labels": {
       "formatter": function (){
-                    return Highcharts.numberFormat((this.value*100),0)+'%';                
+                    return Highcharts.numberFormat((this.value*100), 1)+'%';                
                 },
       "style": {
         "color": "#000000",
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik\u003Cbr\u002F\u003EZuletzt geändert: 2017-5-5"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik\u003Cbr\u002F\u003EZuletzt geändert: 2017-12-18"
   },
   "legend": {
     "enabled": false,

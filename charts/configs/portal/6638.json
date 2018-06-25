@@ -1,0 +1,293 @@
+{
+  "series": [
+    {
+      "data": [
+        {
+          "name": "Anteil&nbsp;Sozialhilfeempfänger",
+          "Wohnviertel": "Hirzbrunnen",
+          "y": 11,
+          "Wert": 0.048733362
+        },
+        {
+          "name": "Anteil&nbsp;Ausländer",
+          "Wohnviertel": "Hirzbrunnen",
+          "y": 4,
+          "Wert": 0.249463289
+        },
+        {
+          "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
+          "Wohnviertel": "Hirzbrunnen",
+          "y": 15,
+          "Wert": 0.4971017604
+        },
+        {
+          "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
+          "Wohnviertel": "Hirzbrunnen",
+          "y": 4,
+          "Wert": 0.1886155855
+        },
+        {
+          "name": "Gymnasialquote",
+          "Wohnviertel": "Hirzbrunnen",
+          "y": 10,
+          "Wert": 0.4277108434
+        },
+        {
+          "name": "Altersquotient",
+          "Wohnviertel": "Hirzbrunnen",
+          "y": 19,
+          "Wert": 0.422836584
+        },
+        {
+          "name": "Anteil&nbsp;Sesshafte",
+          "Wohnviertel": "Hirzbrunnen",
+          "y": 17,
+          "Wert": 0.3984542722
+        },
+        {
+          "name": "Jugendquotient",
+          "Wohnviertel": "Hirzbrunnen",
+          "y": 19,
+          "Wert": 0.3412232532
+        },
+        {
+          "name": "Baujahr&nbsp;Wohngebäude",
+          "Wohnviertel": "Hirzbrunnen",
+          "y": 16,
+          "Wert": 1941.7718078
+        },
+        {
+          "name": "Anteil Einfamilienhäuser",
+          "Wohnviertel": "Hirzbrunnen",
+          "y": 19,
+          "Wert": 0.6972187105
+        },
+        {
+          "name": "Anteil&nbsp;Grünfläche",
+          "Wohnviertel": "Hirzbrunnen",
+          "y": 18,
+          "Wert": 0.5903189074
+        },
+        {
+          "name": "Fläche&nbsp;pro&nbsp;Wohnung",
+          "Wohnviertel": "Hirzbrunnen",
+          "y": 12,
+          "Wert": 80.960734102
+        },
+        {
+          "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
+          "Wohnviertel": "Hirzbrunnen",
+          "y": 10,
+          "Wert": 38.967116725
+        },
+        {
+          "name": "Vermögenssteuer",
+          "Wohnviertel": "Hirzbrunnen",
+          "y": 10,
+          "Wert": 735.59236151
+        },
+        {
+          "name": "Einkommenssteuer",
+          "Wohnviertel": "Hirzbrunnen",
+          "y": 10,
+          "Wert": 7527.794101
+        },
+        {
+          "name": "Erwerbstätigenquote",
+          "Wohnviertel": "Hirzbrunnen",
+          "y": 8,
+          "Wert": 0.7095861405
+        },
+        {
+          "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
+          "Wohnviertel": "Hirzbrunnen",
+          "y": 9,
+          "Wert": 0.3361931625
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Hirzbrunnen",
+          "y": 11,
+          "Wert": 0.0404742079
+        }
+      ],
+      "name": "Wert",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "fontSize": "10px"
+      },
+      "useHTML": false,
+      "formatter": function (){
+                    return (this.value + "").replace(/&nbsp;/g, "\u00A0");
+                }
+    },
+    "tickLength": 0,
+    "tickmarkPlacement": "on",
+    "lineWidth": 0,
+    "tickInterval": 1,
+    "gridLineColor": "white"
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {};
+                    //draw spider backgrounds
+                    //colors of StatA Bereiche: violett3 #923F8D, gruen3 #68AB2B, blau3 #689199
+                    var top = -Math.PI/2;
+                    var endPurple = top + 2*Math.PI/18*8;
+                    var endGreen = endPurple + 2*Math.PI/18*5;
+                    var endBlue = top;
+                    var centerX = 242.5;
+                    var centerY = 212.5;
+                    var radius = 136;
+                    this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
+                        fill: '#923F8D',
+                        stroke: '#923F8D',
+                        'stroke-width': 0,
+                        'fill-opacity': 0.5
+                    }).add();
+                    this.renderer.arc(centerX, centerY, radius, 0, endPurple, endGreen).attr({
+                        fill: '#68AB2B',
+                        stroke: '#68AB2B',
+                        'stroke-width': 0,
+                        'fill-opacity': 0.5
+                    }).add();
+                    this.renderer.arc(centerX, centerY, radius, 0, endGreen, endBlue).attr({
+                        fill: '#689199',
+                        stroke: '#689199',
+                        'stroke-width': 0, 
+                        'fill-opacity': 0.5
+                    }).add();
+                }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "area",
+    "polar": true,
+    "renderTo": "container-6638"
+  },
+  "pane": {},
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Quartierradar Gotthelf"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Ausgabe 2018",
+    "align": "left"
+  },
+  "plotOptions": {
+    "area": {
+      "lineColor": "white",
+      "lineWidth": 0.5
+    },
+    "series": {
+      "lineWidth": 1,
+      "color": "#808080",
+      "marker": {
+        "enabled": false
+      },
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "yAxis": {
+    "lineColor": "white",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "y": 11,
+      "x": 0,
+      "overflow": "justified",
+      "style": {
+        "color": "white",
+        "textOverflow": "none",
+        "fontSize": "10px"
+      }
+    },
+    "min": 1,
+    "max": 21,
+    "tickInterval": 7,
+    "showFirstLabel": false,
+    "showLastLabel": true,
+    "gridLineInterpolation": "polygon",
+    "lineWidth": 0,
+    "gridLineColor": "white"
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt\u003Cbr\u002F\u003EZuletzt geändert: 2018-6-14"
+  },
+  "legend": {
+    "enabled": false,
+    "symbolRadius": 0
+  },
+  "tooltip": {
+    "padding": 0,
+    "useHTML": true,
+    "formatter": function () {
+              return "" + 
+              '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
+                '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
+                '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ' <b>' + this.point.y + '</b><br/>' + 
+              '</div>';
+          }
+  },
+  "exporting": {
+    "allowHTML": false,
+    "filename": 6638
+  }
+}

@@ -1,43 +1,28 @@
-{
- "title": "Baujahr Wohngebäude",
- "subtitle": "Stand: 2017",
- "kuerzel": "I.09.1.04830",
- "kuerzelKunde": "RU-1.A",
- "description": "Baujahr Wohngebäude",
- "id": 4830,
- "thema": "09 Bau-, Wohnungswesen",
- "unterthema": "Gebäude und Wohnungen",
- "kennzahlenset": "Wohnviertel",
- "raeumlicheGliederung": [
-  "Wohnviertel"
- ],
- "aktualisierungsdatum": "2018-02-20T16:18:00.000",
- "schlagwort": [
-  "Gebäude",
-  "Alter"
- ],
- "stufe1": "Bereich 2: Raum und Umwelt",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Das Wohnviertel Altstadt Grossbasel verfügt über die älteste Bausubstanz, die Gemeinde Bettingen über die modernste.",
- "erlaeuterungen": "Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
- "template": "dotplot",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "02_00_00_00_00_001",
- "parentId": null,
- "children": [
-  "5117"
- ],
- "renderLink": [
-  "5117"
- ],
- "quellenangabe": [
-  "Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Baujahr Wohngebäude",
+"subtitle":"Stand: 2017",
+"kuerzel":"I.09.1.04830",
+"kuerzelKunde":"RU-1.A",
+"description":"Baujahr Wohngebäude",
+"id":4830,
+"thema":"09 Bau-, Wohnungswesen",
+"unterthema":"Gebäude und Wohnungen",
+"kennzahlenset":"Wohnviertel",
+"raeumlicheGliederung":["Wohnviertel"],
+"aktualisierungsdatum":"2018-02-28T12:04:17.1717",
+"stufe1":"Teil 2: Rang-Grafiken",
+"stufe2":"Raum und Umwelt",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Das Wohnviertel Altstadt Grossbasel verfügt über die älteste Bausubstanz, die Gemeinde Bettingen über die modernste.",
+"erlaeuterungen":"Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
+"template":"dotplot",
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"02_02_00_00_00_009",
+"parentId":null,
+"children":["5117"],
+"renderLink":["5117"],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
+"externalLinks":[""]
 }

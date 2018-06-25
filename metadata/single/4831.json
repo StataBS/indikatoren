@@ -1,42 +1,29 @@
-{
- "title": "Anteil Einfamilienhäuser",
- "subtitle": "Stand: 2017",
- "kuerzel": "I.09.1.04831",
- "kuerzelKunde": "RU-2.A",
- "description": "Anteil Einfamilienhäuser",
- "id": 4831,
- "thema": "09 Bau-, Wohnungswesen",
- "unterthema": "Gebäude und Wohnungen",
- "kennzahlenset": "Wohnviertel",
- "raeumlicheGliederung": [
-  "Wohnviertel"
- ],
- "aktualisierungsdatum": "2018-02-20T16:26:13.1313",
- "schlagwort": [
-  "Gebäude"
- ],
- "stufe1": "Bereich 2: Raum und Umwelt",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Der Anteil Einfamilienhäuser ist in Bettingen am höchsten, im Wohnviertel Clara am niedrigsten.",
- "erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels in Prozent.",
- "template": "dotplot",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "02_00_00_00_00_003",
- "parentId": null,
- "children": [
-  "5118"
- ],
- "renderLink": [
-  "5118"
- ],
- "quellenangabe": [
-  "Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Anteil Einfamilienhäuser",
+"subtitle":"Stand: 2017",
+"kuerzel":"I.09.1.4831",
+"kuerzelKunde":"RU-2.A",
+"description":"Anteil Einfamilienhäuser",
+"id":4831,
+"thema":"09 Bau-, Wohnungswesen",
+"unterthema":"Gebäude und Wohnungen",
+"kennzahlenset":"Wohnviertel",
+"raeumlicheGliederung":["Wohnviertel"],
+"aktualisierungsdatum":"2018-06-14T09:46:37.3737",
+"stufe1":"Teil 2: Rang-Grafiken",
+"stufe2":"Raum und Umwelt",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Der Anteil Einfamilienhäuser ist in Bettingen am höchsten, im Wohnviertel Clara am niedrigsten.",
+"erlaeuterungen":"Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels in Prozent.",
+"template":"dotplot",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"02_02_00_00_00_010",
+"parentId":null,
+"children":["5118"],
+"renderLink":["5118"],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
+"externalLinks":[""]
 }
