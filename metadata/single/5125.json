@@ -1,40 +1,28 @@
-{
- "title": "Arbeitsplätze pro Kopf",
- "subtitle": "Stand: 2015",
- "kuerzel": "I.03.2.05125",
- "kuerzelKunde": "WA-4.B",
- "description": "Arbeitsplätze pro Kopf",
- "id": 5125,
- "thema": "03 Erwerbsleben",
- "unterthema": "Beschäftigte ",
- "kennzahlenset": "Wohnviertel",
- "raeumlicheGliederung": [
-  "Wohnviertel"
- ],
- "aktualisierungsdatum": "2018-02-20T15:25:19.1919",
- "schlagwort": [
-  "Erwerb"
- ],
- "stufe1": "Bereich 3: Wirtschaft und Arbeit",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Im Wohnviertel Breite gibt es die wenigsten Arbeitsplätze pro Kopf, im Wohnviertel Vorstädte die meisten.",
- "erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.<br> Im Wohnvietel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
- "template": "map001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "03_00_00_00_00_008",
- "parentId": 4838,
- "children": [],
- "renderLink": [
-  "4838"
- ],
- "quellenangabe": [
-  "Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Arbeitsplätze pro Kopf",
+"subtitle":"Stand: 2015",
+"kuerzel":"I.03.2.05125",
+"kuerzelKunde":"WA-4.B",
+"description":"Arbeitsplätze pro Kopf",
+"id":5125,
+"thema":"03 Erwerbsleben",
+"unterthema":"Beschäftigte ",
+"kennzahlenset":"Wohnviertel",
+"raeumlicheGliederung":["Wohnviertel"],
+"aktualisierungsdatum":"2018-02-28T12:43:32.3232",
+"stufe1":"Teil 3: Karten",
+"stufe2":"Wirtschaft und Arbeit",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Im Wohnviertel Breite gibt es die wenigsten Arbeitsplätze pro Kopf, im Wohnviertel Vorstädte die meisten.",
+"erlaeuterungen":"Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.<br> Im Wohnvietel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
+"template":"map001",
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"03_03_00_00_00_017",
+"parentId":4838,
+"children":[],
+"renderLink":["4838"],
+"quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"],
+"externalLinks":[""]
 }

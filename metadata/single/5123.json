@@ -1,40 +1,28 @@
-{
- "title": "Einkommenssteuer pro Veranlagung",
- "subtitle": "Stand: Steuerjahr 2015",
- "kuerzel": "I.18.2.05123",
- "kuerzelKunde": "WA-2.B",
- "description": "Einkommenssteuer pro Veranlagung",
- "id": 5123,
- "thema": "18 Öffentliche Finanzen",
- "unterthema": "Steuern",
- "kennzahlenset": "Wohnviertel",
- "raeumlicheGliederung": [
-  "Wohnviertel"
- ],
- "aktualisierungsdatum": "2018-02-28T00:00:00.000",
- "schlagwort": [
-  "Bevölkerung"
- ],
- "stufe1": "Bereich 3: Wirtschaft und Arbeit",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Das Wohnviertel Bruderholz verzeichnet im Durchschnitt die höchste Einkommenssteuer pro Veranlagung, die niedrigsten Werte weist das Wohnviertel Klybeck auf.",
- "erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
- "template": "map001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "03_00_00_00_00_004",
- "parentId": 4836,
- "children": [],
- "renderLink": [
-  "4836"
- ],
- "quellenangabe": [
-  "Statistisches Amt Basel-Stadt, Steuerstatistik"
- ],
- "externalLinks": [
-  "Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_eink.einkommen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
- ]
+{"title":"Einkommenssteuer pro Veranlagung",
+"subtitle":"Stand: Steuerjahr 2015",
+"kuerzel":"I.18.2.05123",
+"kuerzelKunde":"WA-2.B",
+"description":"Einkommenssteuer pro Veranlagung",
+"id":5123,
+"thema":"18 Öffentliche Finanzen",
+"unterthema":"Steuern",
+"kennzahlenset":"Wohnviertel",
+"raeumlicheGliederung":["Wohnviertel"],
+"aktualisierungsdatum":"2018-02-28T11:34:18.1818",
+"stufe1":"Teil 3: Karten",
+"stufe2":"Wirtschaft und Arbeit",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Das Wohnviertel Bruderholz verzeichnet im Durchschnitt die höchste Einkommenssteuer pro Veranlagung, die niedrigsten Werte weist das Wohnviertel Klybeck auf.",
+"erlaeuterungen":"Mittlere Einkommenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
+"template":"map001",
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"03_03_00_00_00_015",
+"parentId":4836,
+"children":[],
+"renderLink":["4836"],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Steuerstatistik"],
+"externalLinks":["Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_eink.einkommen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."]
 }

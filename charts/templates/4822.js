@@ -1,3 +1,6 @@
+/*
+	global Highcharts
+*/
 (function() {
 	return {
 		"series": [{
@@ -7,6 +10,13 @@
 				"visible": false
 			}
 		],
+		yAxis: {
+			labels: {
+                formatter: function(){
+                    return Highcharts.numberFormat((this.value*100), 1)+'%';                
+                },			
+			},
+		},
 		"data": {
 		    "parsed": function (columns) {
 		    	

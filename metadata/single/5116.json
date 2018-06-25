@@ -1,41 +1,28 @@
-{
- "title": "Jugendquotient",
- "subtitle": "Stand: 2017",
- "kuerzel": "I.01.1.05116",
- "kuerzelKunde": "GS-8.B",
- "description": "Jugendquotient",
- "id": 5116,
- "thema": "01 Bevölkerung",
- "unterthema": "Bestand und Struktur ",
- "kennzahlenset": "Wohnviertel",
- "raeumlicheGliederung": [
-  "Wohnviertel"
- ],
- "aktualisierungsdatum": "2018-02-20T00:00:00.0000",
- "schlagwort": [
-  "Alter",
-  "Jugend"
- ],
- "stufe1": "Bereich 1: Gesellschaft und Soziales",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Den höchsten Jugendquotient weist das Wohnviertel Bruderholz auf, den niederigsten das Wohnviertel Altstadt Grossbasel.",
- "erlaeuterungen": "Anteil der unter 20-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
- "template": "map001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "01_00_00_00_00_016",
- "parentId": 4829,
- "children": [],
- "renderLink": [
-  "4829"
- ],
- "quellenangabe": [
-  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Jugendquotient",
+"subtitle":"Stand: 2017",
+"kuerzel":"I.01.1.05116",
+"kuerzelKunde":"GS-8.B",
+"description":"Jugendquotient",
+"id":5116,
+"thema":"01 Bevölkerung",
+"unterthema":"Bestand und Struktur ",
+"kennzahlenset":"Wohnviertel",
+"raeumlicheGliederung":["Wohnviertel"],
+"aktualisierungsdatum":"2018-02-28T12:00:42.4242",
+"stufe1":"Teil 3: Karten",
+"stufe2":"Gesellschaft und Soziales",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Den höchsten Jugendquotient weist das Wohnviertel Bruderholz auf, den niederigsten das Wohnviertel Altstadt Grossbasel.",
+"erlaeuterungen":"Anteil der unter 20-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
+"template":"map001",
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"03_01_00_00_00_008",
+"parentId":4829,
+"children":[],
+"renderLink":["4829"],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
+"externalLinks":[""]
 }

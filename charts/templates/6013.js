@@ -11,7 +11,7 @@
       "series": [ 
           {
               "name": "Anzahl"
-          }        
+          }, 
       ],
     	"tooltip": {
     		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} ({point.percentage:,.1f}%)</b><br/>',
@@ -22,8 +22,8 @@
          colors: [
            '#71A3B5', 
            '#B00000 ',
-           '#FF8028',
            '#CD9C00',
+           '#FF8028',
            '#923F8D',
            '#999999'         ],
 		dataLabels: {

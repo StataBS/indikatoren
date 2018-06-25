@@ -400,10 +400,10 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      15,
+      6,
+      2,
       3,
-      8,
-      3
+      2
     ],
     "style": {
       "fontFamily": "Arial"
@@ -429,7 +429,7 @@
     "renderTo": "container-6733",
     "type": "column",
     "inverted": false,
-    "spacingBottom": 8
+    "spacingBottom": 3
   },
   "plotOptions": {
     "series": {
@@ -442,8 +442,6 @@
           "color": "black"
         }
       },
-      "pointPadding": 100,
-      "pointWidth": 5,
       "stacking": "normal"
     }
   },
@@ -486,7 +484,7 @@
       "format": "{value:,.0f}%"
     },
     "max": 100,
-    "tickInterval": 50
+    "tickInterval": 20
   },
   "navigation": {
     "menuItemStyle": {
@@ -517,7 +515,6 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "y": -8,
     "enabled": true,
     "layout": "vertical",
     "verticalAlign": "top",

@@ -32,10 +32,8 @@
   "legend": {
 	"enabled": true,
     "layout": "horizontal",
-    "verticalAlign": "top",
     "align": "left",
-    //"x": 25,
-	  //"y": 45,    
+    "verticalAlign": 'top',
     "itemStyle": {
       "fontWeight": "normal"
     }

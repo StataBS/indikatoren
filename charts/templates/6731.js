@@ -23,17 +23,17 @@
   },  
   "yAxis": {
   	 max: 100,
-     //tickInterval: 60000,
+     tickInterval: 25,
     "labels": {
       "format": "{value:,.0f}%",
     },
   },
 
 "legend": {
-    enabled:true,
+    enabled: true,
     "layout": "vertical",
-    "verticalAlign": "top",
-    y:-8,
+    "verticalAlign": "middle",
+    reversed: true,
     "itemMarginBottom": 5, // space between legend boxes
     "align": "right",
     "itemStyle": {
@@ -50,7 +50,7 @@
   {"color": "#999999", index: 0, legendIndex: 5}, 
   ],
   "chart": {
-  	 //spacing: [15,3,8,3],
+  	 spacing: [5,2,2,2],
     "renderTo": 'container-I.01.1.0016', 
     "type": "column",
     "inverted": false
@@ -59,5 +59,5 @@
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
    "shared": false
   },
-}
+};
 }());

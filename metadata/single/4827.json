@@ -1,43 +1,29 @@
-{
- "title": "Altersquotient",
- "subtitle": "Stand: 2017",
- "kuerzel": "I.01.1.04827",
- "kuerzelKunde": "GS-6.A",
- "description": "Altersquotient",
- "id": 4827,
- "thema": "01 Bevölkerung",
- "unterthema": "Bestand und Struktur ",
- "kennzahlenset": "Wohnviertel",
- "raeumlicheGliederung": [
-  "Wohnviertel"
- ],
- "aktualisierungsdatum": "2018-02-20T17:35:44.4444",
- "schlagwort": [
-  "Alter",
-  "Alter"
- ],
- "stufe1": "Bereich 1: Gesellschaft und Soziales",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am geringsten, im Wohnviertel Riehen am höchsten.",
- "erlaeuterungen": "Anteil der über 64-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
- "template": "dotplot",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "01_00_00_00_00_011",
- "parentId": null,
- "children": [
-  "5114"
- ],
- "renderLink": [
-  "5114"
- ],
- "quellenangabe": [
-  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Altersquotient",
+"subtitle":"Stand: 2017",
+"kuerzel":"I.01.1.4827",
+"kuerzelKunde":"GS-6.A",
+"description":"Altersquotient",
+"id":4827,
+"thema":"01 Bevölkerung",
+"unterthema":"Bestand und Struktur ",
+"kennzahlenset":"Wohnviertel",
+"raeumlicheGliederung":["Wohnviertel"],
+"aktualisierungsdatum":"2018-06-14T09:46:37.3737",
+"stufe1":"Teil 2: Rang-Grafiken",
+"stufe2":"Gesellschaft und Soziales",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Der Altersquotient ist im Wohnviertel Rosental am geringsten, im Wohnviertel Riehen am höchsten.",
+"erlaeuterungen":"Anteil der über 64-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
+"template":"dotplot",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"02_01_00_00_00_006",
+"parentId":null,
+"children":["5114"],
+"renderLink":["5114"],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
+"externalLinks":[""]
 }

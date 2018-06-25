@@ -150,7 +150,8 @@
       "formatter": function (){
         return  Highcharts.numberFormat(100 * this.value, 0, ",", " ") + "%";
       }
-    }
+    },
+    "tickInterval": 0.2
   },
   "navigation": {
     "menuItemStyle": {

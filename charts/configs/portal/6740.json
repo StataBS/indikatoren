@@ -438,7 +438,7 @@
       }
     },
     "labels": {
-      "rotation": 0,
+      "rotation": -90,
       "style": {
         "color": "#000000",
         "width": 1,
@@ -461,7 +461,7 @@
             	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
             },
       "align": "left",
-      "x": -110
+      "y": 110
     }
   },
   "chart": {
@@ -482,8 +482,8 @@
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
-    "height": 500,
+    "width": 665,
+    "height": 208,
     "spacing": [
       2,
       2,
@@ -496,8 +496,8 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "marginLeft": 115,
-    "inverted": true,
+    "marginBottom": 110,
+    "inverted": false,
     "renderTo": "container-6740",
     "spacingBottom": 2
   },
@@ -539,7 +539,7 @@
     }
   },
   "yAxis": {
-    "tickInterval": 50,
+    "tickInterval": 20,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -551,14 +551,13 @@
       "text": ""
     },
     "labels": {
-      "y": 15,
+      "y": 3,
       "format": "{value}%",
       "style": {
         "color": "#000000",
         "fontSize": "10px"
       },
-      "type": "category",
-      "rotation": 0
+      "type": "category"
     },
     "max": 100
   },
@@ -590,14 +589,17 @@
     "itemStyle": {
       "fontSize": "10px",
       "fontFamily": "Arial",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "whitespace": "nowrap"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
-            return this.name;
-        },
+        return this.name;
+    },
     "enabled": true,
-    "itemWidth": 170
+    "alignColumns": false,
+    "itemDistance": 15
   },
   "exporting": {
     "filename": 6740

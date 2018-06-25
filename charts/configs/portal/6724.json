@@ -155,7 +155,7 @@
       "fontFamily": "Arial"
     },
     "type": "column",
-    "marginBottom": 65,
+    "marginBottom": 66,
     "inverted": false,
     "renderTo": "container-6724",
     "spacingBottom": 2
@@ -202,8 +202,8 @@
       },
       "format": "{value}"
     },
-    "max": 80,
-    "tickInterval": 40
+    "max": 75,
+    "tickInterval": 25
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -233,6 +233,7 @@
       "fontWeight": "normal"
     },
     "padding": 0,
+    "itemWidth": 100,
     "itemDistance": 5
   },
   "exporting": {

@@ -486,7 +486,7 @@
       "format": "{value:,.0f}%"
     },
     "max": 100,
-    "tickInterval": 50
+    "tickInterval": 20
   },
   "navigation": {
     "menuItemStyle": {

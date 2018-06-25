@@ -1,40 +1,28 @@
-{
- "title": "Anteil Ausländer",
- "subtitle": "Stand: 2017",
- "kuerzel": "I.01.1.05110",
- "kuerzelKunde": "GS-2.B",
- "description": "Anteil Ausländer",
- "id": 5110,
- "thema": "01 Bevölkerung",
- "unterthema": "Bestand und Struktur ",
- "kennzahlenset": "Wohnviertel",
- "raeumlicheGliederung": [
-  "Wohnviertel"
- ],
- "aktualisierungsdatum": "2018-01-20T00:00:00.0000",
- "schlagwort": [
-  "Ausländer"
- ],
- "stufe1": "Bereich 1: Gesellschaft und Soziales",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Der Ausländeranteil ist im Wohnviertel Bachletten mit 22% am geringsten, im Wohnviertel Rosental mit 56% am höchsten.",
- "erlaeuterungen": "Anteil der ausländischen Wohnbevölkerung an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
- "template": "map001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "01_00_00_00_00_004",
- "parentId": 4823,
- "children": [],
- "renderLink": [
-  "4823"
- ],
- "quellenangabe": [
-  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
- ],
- "externalLinks": [
-  "Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevheim.anteil_al' target='_blank'>Basler Atlas</a>."
- ]
+{"title":"Anteil Ausländer",
+"subtitle":"Stand: 2017",
+"kuerzel":"I.01.1.05110",
+"kuerzelKunde":"GS-2.B",
+"description":"Anteil Ausländer",
+"id":5110,
+"thema":"01 Bevölkerung",
+"unterthema":"Bestand und Struktur ",
+"kennzahlenset":"Wohnviertel",
+"raeumlicheGliederung":["Wohnviertel"],
+"aktualisierungsdatum":"2018-02-28T10:53:24.2424",
+"stufe1":"Teil 3: Karten",
+"stufe2":"Gesellschaft und Soziales",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Der Ausländeranteil ist im Wohnviertel Bachletten mit 22% am geringsten, im Wohnviertel Rosental mit 56% am höchsten.",
+"erlaeuterungen":"Anteil der ausländischen Wohnbevölkerung an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
+"template":"map001",
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"03_01_00_00_00_002",
+"parentId":4823,
+"children":[],
+"renderLink":["4823"],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
+"externalLinks":["Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevheim.anteil_al' target='_blank'>Basler Atlas</a>."]
 }

@@ -305,7 +305,8 @@
         "textOverflow": "none"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": 4000
   },
   "navigation": {
     "menuItemStyle": {

@@ -160,7 +160,7 @@
                     
                 }
     },
-    "marginBottom": 65,
+    "marginBottom": 68,
     "type": "column",
     "inverted": false,
     "renderTo": "container-6725",
@@ -218,8 +218,8 @@
       },
       "format": "{value}"
     },
-    "max": 80,
-    "tickInterval": 40
+    "max": 75,
+    "tickInterval": 25
   },
   "navigation": {
     "menuItemStyle": {

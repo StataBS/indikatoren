@@ -247,11 +247,10 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "x": -1,
     "enabled": true,
     "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "verticalAlign": "top"
   },
   "dataLabels": {
     "enabled": false,

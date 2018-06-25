@@ -14,5 +14,6 @@ var indikatorensetNames = [
 	"Legislaturplan (Print)",
 	"Tourismus",
 	"Integration (Print)",
+	"Wanderungen (Print)",
 	"Test"
 ];

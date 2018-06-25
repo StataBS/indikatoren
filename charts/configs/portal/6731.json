@@ -130,7 +130,7 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      2,
+      5,
       2,
       2,
       2
@@ -215,7 +215,8 @@
       },
       "format": "{value:,.0f}%"
     },
-    "max": 100
+    "max": 100,
+    "tickInterval": 25
   },
   "navigation": {
     "menuItemStyle": {
@@ -248,8 +249,8 @@
     },
     "enabled": true,
     "layout": "vertical",
-    "verticalAlign": "top",
-    "y": -8,
+    "verticalAlign": "middle",
+    "reversed": true,
     "align": "right"
   },
   "dataLabels": {
