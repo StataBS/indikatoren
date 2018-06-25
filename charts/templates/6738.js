@@ -3,8 +3,9 @@
  	"xAxis": {
         "type": "category",
         "labels": {
+           rotation: -90,
            align: "left",
-            x: -140,
+            y: 110,
             "formatter": function() {
                 //add sum of observations of visible series to the axis label
                 var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
@@ -25,8 +26,7 @@
   	tickInterval: 20,
   	max: 100,
   	labels:{
-  		"type": "category",
-  		rotation: 0,
+  	   "type": "category",
   	}
   },
   plotOptions: {
@@ -43,25 +43,26 @@
     { "color": "#999999", index: 0, legendIndex: 4}, // grau
   ],
   "legend": { 
-     //y: 45,
     "enabled": true,
     "layout": "horizontal",
-   "itemWidth": 150,
     "verticalAlign": "top",
     "align": "left",
+    alignColumns: false, 
+    itemDistance: 15, 
      "labelFormatter": function () {
-            return this.name;
-        },
+        return this.name;
+    },
     "itemStyle": {
-    "fontWeight": "normal"
+        "fontWeight": "normal", 
+        textOverflow: null, 
+        whitespace: 'nowrap'
     }
   },
 
-"chart": {     
-	 marginLeft: 150, 
-	 //marginBottom: 100,
-     "inverted": true,
-      "height": 500,
+"chart": { 
+	  marginBottom: 110,
+     "inverted": false,
+         width: 665, 
   },
 }
 }());

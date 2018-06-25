@@ -13,8 +13,8 @@
     }
   },
   "yAxis": {
-    "max": 80,
-  	tickInterval: 40,
+  	max: 75,
+  	tickInterval: 25,
     "labels": {
       "format": "{value}" 
     }    
@@ -26,6 +26,7 @@
   {"color": "#ffda80"}, 
   ],
   "legend": {
+  	itemWidth: 100,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
@@ -40,7 +41,7 @@
     shared: false
   },  
   "chart": {    
-  	marginBottom: 65,
+  	marginBottom: 66,
     "type": "column",
     "inverted": false
   }

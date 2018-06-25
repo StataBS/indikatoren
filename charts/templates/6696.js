@@ -14,16 +14,14 @@
     }
   },
   "xAxis": {
-  	min: 0,
-    "type": "category",
     "tickInterval": 1
   },  
   "yAxis": {
-  	 //max: 120000,
+  	 max: 5000,
+  	 tickInterval: 1000,
     "labels": {
       "format": "{value:,.0f}",
     },
-	"max": undefined
   },
   "legend": {
     "enabled": true,

@@ -16,6 +16,7 @@ global Highcharts
     } 
   },
   "yAxis": {
+  	tickInterval: 0.2,
     "labels": {
       "formatter": function(){
         return  Highcharts.numberFormat(100 * this.value, 0, ",", " ") + "%";

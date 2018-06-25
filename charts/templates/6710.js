@@ -30,7 +30,6 @@
   {"color": "#A8C3CA", "visible": true} /*  */
   ],
   "legend": {
-	x:-1,
 	"enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

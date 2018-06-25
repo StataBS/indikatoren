@@ -13,8 +13,8 @@
     }
   },
   "yAxis": {
-    "max": 80,
-  	tickInterval: 40,
+  	max: 75,
+  	tickInterval: 25,
     "labels": {
       "format": "{value}" 
     }    
@@ -40,7 +40,7 @@
     shared: false
   },  
   "chart": {  
-  	 marginBottom: 65,
+  	 marginBottom: 68,
     "type": "column",
     "inverted": false
   }

@@ -3,8 +3,9 @@
  	"xAxis": {
         "type": "category",
         "labels": {
+           rotation: -90,
            align: "left",
-            x: -140,
+            y: 110,
             "formatter": function() {
                 //add sum of observations of visible series to the axis label
                 var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
@@ -25,8 +26,7 @@
   	tickInterval: 20,
   	max: 100,
   	labels:{
-  		"type": "category",
-  		rotation: 0,
+  	   "type": "category",
   	}
   },
   plotOptions: {
@@ -59,10 +59,10 @@
     }
   },
 
-"chart": {     
-	 marginLeft: 150, 
-     "inverted": true,
-      "height": 500,
+"chart": { 
+	  marginBottom: 110,
+     "inverted": false,
+         width: 665, 
   },
 }
 }());

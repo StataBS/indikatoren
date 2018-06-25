@@ -2,10 +2,10 @@
     return {
  	"xAxis": {
         "type": "category",
-        uniqueNames: false,
         "labels": {
+           rotation: -90,
            align: "left",
-            x: -140,
+            y: 110,
             "formatter": function() {
                 //add sum of observations of visible series to the axis label
                 var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
@@ -17,8 +17,8 @@
                 }, 0);
                 //use N if all series are visible, otherwise use n
                 var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
-                //check for value empty values
-            	return (this.value == "undefined") ? "" : this.value + ' (' + nString + sum + ')';
+                //check for value that contains only spaces
+            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
             }
         } 
   },  
@@ -26,8 +26,7 @@
   	tickInterval: 20,
   	max: 100,
   	labels:{
-  		y: 15,
-  		rotation: 0,
+  	   "type": "category",
   	}
   },
   plotOptions: {
@@ -46,22 +45,24 @@
   "legend": { 
     "enabled": true,
     "layout": "horizontal",
-   "itemWidth": 150,
     "verticalAlign": "top",
     "align": "left",
+    alignColumns: false, 
+    itemDistance: 15, 
      "labelFormatter": function () {
-            return this.name;
-        },
+        return this.name;
+    },
     "itemStyle": {
-    "fontWeight": "normal"
+        "fontWeight": "normal", 
+        textOverflow: null, 
+        whitespace: 'nowrap'
     }
   },
 
-"chart": {     
-	 marginLeft: 150, 
-	 //marginBottom: 100,
-     "inverted": true,
-      "height": 500,
+"chart": { 
+	  marginBottom: 110,
+     "inverted": false,
+         width: 665, 
   },
 }
 }());

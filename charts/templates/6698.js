@@ -17,6 +17,7 @@
     } 
   },
   "yAxis": {
+  	max: 4000,
     "labels": {
     y: 18,
     style: { 
