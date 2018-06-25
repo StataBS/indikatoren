@@ -160,7 +160,7 @@
     },
     "spacingRight": 2,
     "renderTo": "container-6686",
-    "spacingBottom": 12
+    "spacingBottom": 2
   },
   "plotOptions": {
     "bar": {
@@ -194,7 +194,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Geschlecht, Stand: 2016",
+    "text": "nach Geschlecht, Stand: 2017",
     "align": "left"
   },
   "yAxis": [
@@ -247,9 +247,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
   },
   "legend": {
     "symbolRadius": 0,

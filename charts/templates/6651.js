@@ -25,7 +25,7 @@
             //max: 7,
             tickInterval: 1,
             min:0,
-            offset: -5,
+            //offset: -5,
             title: {
                 text: null
             },

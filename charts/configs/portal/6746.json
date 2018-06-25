@@ -144,7 +144,7 @@
     "type": "column",
     "inverted": false,
     "renderTo": "container-6746",
-    "spacingBottom": 12
+    "spacingBottom": 2
   },
   "plotOptions": {
     "series": {
@@ -218,9 +218,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung;\u003Cbr\u002F\u003EBevölkerungsdienste und Migration Basel-Stadt"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung"
   },
   "legend": {
     "padding": 1,

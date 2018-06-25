@@ -41,6 +41,7 @@
   {"color": "#FABD24", index: 0, legendIndex: 1}, /**/
 ],
   "chart": {
+  	marginBottom: 386723,
     "renderTo": 'container-I.01.1.0016', 
     //"marginTop": 75,
     "type": "column",

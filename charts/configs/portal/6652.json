@@ -274,7 +274,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Basel-Stadt, 2017",
     "align": "left"
   },
   "yAxis": [
@@ -282,7 +282,6 @@
       "max": 7,
       "tickInterval": 1,
       "min": 0,
-      "offset": -5,
       "title": {
         "text": null
       },

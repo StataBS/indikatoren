@@ -1285,7 +1285,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "marginRight": 20,
+    "marginRight": 7,
     "renderTo": "container-6655",
     "spacingBottom": 2
   },
@@ -1330,7 +1330,7 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "x": -5,
+      "x": -8,
       "format": "{value}%"
     },
     "max": 60
@@ -1362,7 +1362,7 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 1
+    "padding": 0
   },
   "exporting": {
     "enabled": false,

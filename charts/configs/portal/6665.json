@@ -306,6 +306,7 @@
     },
     "type": "line",
     "renderTo": "container-6665",
+    "spacingBottom": 2
   },
   "title": {
     "style": {
@@ -375,9 +376,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bildungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik"
   },
   "legend": {
     "enabled": true,
@@ -390,7 +391,7 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 1
+    "padding": 0
   },
   "exporting": {
     "enabled": false,

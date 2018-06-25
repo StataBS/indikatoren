@@ -984,6 +984,7 @@
                     
                 }
     },
+    "marginBottom": 63,
     "type": "column",
     "inverted": false,
     "spacingTop": 7,

@@ -78,10 +78,10 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      15,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
@@ -107,7 +107,7 @@
     "type": "column",
     "inverted": true,
     "renderTo": "container-6718",
-    "spacingBottom": 18
+    "spacingBottom": 2
   },
   "plotOptions": {
     "series": {
@@ -181,9 +181,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
     "padding": 1,

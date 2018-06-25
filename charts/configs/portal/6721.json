@@ -230,6 +230,7 @@
                     
                 }
     },
+    "marginBottom": 386723,
     "renderTo": "container-6721",
     "type": "column",
     "inverted": false,
@@ -267,7 +268,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Geschlecht und Altersgruppe, aufsummiert von 2006 bis 2016",
+    "text": "nach Geschlecht und Altersgruppe, aufsummiert von 2007 bis 2017",
     "align": "left"
   },
   "yAxis": {

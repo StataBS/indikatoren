@@ -250,7 +250,7 @@
     "type": "column",
     "inverted": true,
     "renderTo": "container-6698",
-    "spacingBottom": 12
+    "spacingBottom": 2
   },
   "plotOptions": {
     "series": {
@@ -283,7 +283,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, Stand: 2016",
+    "text": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, Stand: 2017",
     "align": "left"
   },
   "yAxis": {
@@ -324,9 +324,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EFinanzdepartement Basel-Stadt, Zentraler Personaldienst"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
     "padding": 1,

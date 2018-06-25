@@ -336,7 +336,8 @@
         "color": "#000000"
       },
       "step": 1,
-      "x": -5
+      "x": -5,
+      "rotation": 0
     },
     "tickLength": 0,
     "min": 0,
@@ -374,10 +375,11 @@
                     
                 }
     },
+    "marginRight": 10,
     "type": "column",
     "inverted": true,
     "renderTo": "container-6699",
-    "spacingBottom": 12
+    "spacingBottom": 2
   },
   "plotOptions": {
     "series": {
@@ -411,7 +413,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit und Kaderstufe, Stand: 2009",
+    "text": "nach Staatsangehörigkeit und Kaderstufe, Stand: 2010",
     "align": "left"
   },
   "yAxis": {
@@ -431,7 +433,8 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}",
+      "rotation": 0
     },
     "max": 450,
     "tickInterval": 50
@@ -453,9 +456,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EFinanzdepartement Basel-Stadt, Zentraler Personaldienst"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
     "padding": 1,

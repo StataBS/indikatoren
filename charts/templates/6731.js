@@ -50,7 +50,7 @@
   {"color": "#999999", index: 0, legendIndex: 5}, 
   ],
   "chart": {
-  	 spacing: [15,3,8,3],
+  	 //spacing: [15,3,8,3],
     "renderTo": 'container-I.01.1.0016', 
     "type": "column",
     "inverted": false

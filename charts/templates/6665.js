@@ -25,7 +25,7 @@
   ],
    "legend": {
     "enabled": true,
-    padding: 1,
+    //padding: 1,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",

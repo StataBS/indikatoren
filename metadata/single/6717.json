@@ -1,6 +1,6 @@
 {"title":"Mittlere Wohnfläche pro Person",
 "subtitle":"in m² nach Staatsangehörigkeit, Stand: 2016",
-"kuerzel":"I.09.1.06476",
+"kuerzel":"I.09.1.6717",
 "kuerzelKunde":"D2-2",
 "description":"Mittlere Wohnfläche pro Person",
 "id":6717,
@@ -17,12 +17,13 @@
 "lesehilfe":"<bitte Kommentar erfassen>",
 "erlaeuterungen":"Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
 "template":"template001_print",
+"printformat":"", 
 "visible":true,
 "visibleInPortal":false,
 "orderKey":"04_00_00_00_00_000",
 "parentId":6476,
 "children":[],
 "renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
 "externalLinks":[""]
 }

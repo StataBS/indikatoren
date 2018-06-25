@@ -109,10 +109,10 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      15,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial",
@@ -122,7 +122,7 @@
     "type": "column",
     "inverted": false,
     "renderTo": "container-6743",
-    "spacingBottom": 8
+    "spacingBottom": 2
   },
   "title": {
     "style": {
@@ -203,7 +203,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F36"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F37"
   },
   "legend": {
     "padding": 0,

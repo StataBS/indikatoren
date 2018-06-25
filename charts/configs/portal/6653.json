@@ -217,8 +217,7 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    },
-    "offset": -5
+    }
   },
   "navigation": {
     "menuItemStyle": {

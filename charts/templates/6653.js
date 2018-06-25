@@ -17,7 +17,7 @@
     } 
   },
   yAxis: {
-    offset: -5,
+    //offset: -5,
     labels: {
       y: 18, 
       format: "{value:,.0f}"

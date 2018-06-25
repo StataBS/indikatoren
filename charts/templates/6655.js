@@ -1,7 +1,7 @@
 (function(){
     return {
  chart: {
-        	marginRight: 20,
+        	marginRight: 7,
  },
   "xAxis": {
     type: 'category',
@@ -18,7 +18,7 @@
     max: 60,
     //offset: -0,
 	  labels: {
-	    x: -5,
+	    x: -8,
 		  "format": "{value}%"
 	  }
   },	
@@ -47,7 +47,6 @@
     "verticalAlign": "top",
     "itemMarginBottom": 1,
     "align": "left",
-    padding: 1,
     "itemStyle": {
       "fontWeight": "normal"
     }

@@ -163,7 +163,7 @@
     },
     "type": "area",
     "renderTo": "container-6726",
-    "spacingBottom": 12
+    "spacingBottom": 2
   },
   "title": {
     "style": {
@@ -232,9 +232,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
     "enabled": true,

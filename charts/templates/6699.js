@@ -19,7 +19,8 @@
     "tickInterval": 1,
     labels:{
     	step:1,
-    	x:-5
+    	x:-5,
+    	rotation:0,
     }
   },  
   "yAxis": {
@@ -28,6 +29,7 @@
     "labels": {
     	y: 18,
       "format": "{value:,.0f}",
+        rotation:0,
     },
   },
   "legend": { 
@@ -55,7 +57,7 @@
   {"color": "#999999", index: 0, legendIndex: 10}, /*Übrige Länder*/
 ],
   "chart": {
-    //"marginTop": 75,
+    "marginRight": 10,
     "type": "column",
     "inverted": true,
      //width:665,

@@ -10,10 +10,10 @@
   "xAxis": {
   	min: 0,
     "type": "category",
-    //"tickInterval": 2,
+    "tickInterval": 3,
     labels:{
     	step:1,
-    	rotation: -45, 
+    	//rotation: -45, 
     }
   },  
   "yAxis": {

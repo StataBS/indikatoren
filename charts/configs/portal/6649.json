@@ -274,7 +274,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 1997",
+    "text": "Basel-Stadt, 1998",
     "align": "left"
   },
   "yAxis": [
@@ -284,7 +284,6 @@
       "title": {
         "text": null
       },
-      "offset": -5,
       "labels": {
         "formatter": function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";

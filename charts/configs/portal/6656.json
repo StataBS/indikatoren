@@ -550,11 +550,11 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "step": 1,
-      "rotation": -45
+      "step": 1
     },
     "tickLength": 0,
-    "min": 0
+    "min": 0,
+    "tickInterval": 3
   },
   "chart": {
     "borderColor": "#fbfbfb",

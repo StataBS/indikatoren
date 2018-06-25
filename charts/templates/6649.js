@@ -28,7 +28,7 @@
             title: {
                 text: null
             },
-            offset: -5,
+            //offset: -5,
             "labels": {
                 formatter: function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";

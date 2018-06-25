@@ -1,25 +1,48 @@
 {
+  "_args": [
+    [
+      {
+        "raw": "seedrandom@2.4.3",
+        "scope": null,
+        "escapedName": "seedrandom",
+        "name": "seedrandom",
+        "rawSpec": "2.4.3",
+        "spec": "2.4.3",
+        "type": "version"
+      },
+      "/home/ubuntu/workspace"
+    ]
+  ],
   "_from": "seedrandom@2.4.3",
   "_id": "seedrandom@2.4.3",
-  "_inBundle": false,
-  "_integrity": "sha1-JDhQTa0zkXMUv/GKxNeU8W1qrsw=",
+  "_inCache": true,
   "_location": "/seedrandom",
+  "_nodeVersion": "0.12.7",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/seedrandom-2.4.3.tgz_1492464071331_0.735693046124652"
+  },
+  "_npmUser": {
+    "name": "davidbau",
+    "email": "david.bau@gmail.com"
+  },
+  "_npmVersion": "2.11.3",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
-    "registry": true,
     "raw": "seedrandom@2.4.3",
-    "name": "seedrandom",
+    "scope": null,
     "escapedName": "seedrandom",
+    "name": "seedrandom",
     "rawSpec": "2.4.3",
-    "saveSpec": null,
-    "fetchSpec": "2.4.3"
+    "spec": "2.4.3",
+    "type": "version"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/seedrandom/-/seedrandom-2.4.3.tgz",
   "_shasum": "2438504dad33917314bff18ac4d794f16d6aaecc",
+  "_shrinkwrap": null,
   "_spec": "seedrandom@2.4.3",
   "_where": "/home/ubuntu/workspace",
   "author": {
@@ -31,7 +54,6 @@
   "bugs": {
     "url": "https://github.com/davidbau/seedrandom/issues"
   },
-  "bundleDependencies": false,
   "config": {
     "blanket": {
       "pattern": [
@@ -45,7 +67,7 @@
       ]
     }
   },
-  "deprecated": false,
+  "dependencies": {},
   "description": "Seeded random number generator for Javascript.",
   "devDependencies": {
     "blanket": "latest",
@@ -62,6 +84,12 @@
     "proxyquire": "latest",
     "requirejs": "latest"
   },
+  "directories": {},
+  "dist": {
+    "shasum": "2438504dad33917314bff18ac4d794f16d6aaecc",
+    "tarball": "https://registry.npmjs.org/seedrandom/-/seedrandom-2.4.3.tgz"
+  },
+  "gitHead": "fb0b577c76938ba2b438835073de218fae3e2c3a",
   "homepage": "http://davidbau.com/archives/2010/01/30/random_seeds_coded_hints_and_quintillions.html",
   "keywords": [
     "seed",
@@ -70,7 +98,15 @@
   ],
   "license": "MIT",
   "main": "index.js",
+  "maintainers": [
+    {
+      "name": "davidbau",
+      "email": "david.bau@gmail.com"
+    }
+  ],
   "name": "seedrandom",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git://github.com/davidbau/seedrandom.git"
