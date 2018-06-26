@@ -3,29 +3,30 @@
    plotOptions: {
         series: {
             pointPadding: 0,
-            borderWidth: 0,
-			itemWidth: 10, 
         }
    },
+
   "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": -45,
-       step: 1
+      y: 3,
+      step: 1,
+      "rotation": 0 
     } 
   },
   "yAxis": {
-  	 tickAmount: 5,
-    "labels": {
-      "format": "{value:,.0f}"
+  	tickInterval: 250,
+    labels: {
+      "format": "{value:,.0f}",
+      y: 18
     }    
   },
   "series": [
-  {"color": "#68AB2B", "visible": true}, /* grün */
   {"color": "#E6E600", "visible": true}, /* gelb*/
+  {"color": "#68AB2B", "visible": true} /* grün */
   ],
   "legend": {
-  	x:-1,
+  	x:114,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
@@ -35,12 +36,14 @@
     }
   },
    tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
     "shared": false
   },
-  "chart": {
+  "chart": {      
     "type": "column",
-    "inverted": false,
+    "inverted": true,
+    marginLeft: 120,
+    marginRight: 9,
   }
-}
+};
 }());

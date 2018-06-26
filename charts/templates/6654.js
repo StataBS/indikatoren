@@ -17,6 +17,7 @@
     } 
   },
   "yAxis": {
+  	tickInterval: 10,
     labels: {
       "format": "{value:,.0f}",
       y: 18
@@ -27,6 +28,7 @@
   {"color": "#68AB2B", "visible": true} /* grün */
   ],
   "legend": {
+  	x: 114,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

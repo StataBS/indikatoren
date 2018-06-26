@@ -3,9 +3,11 @@
  	"xAxis": {
         "type": "category",
         "labels": {
-           rotation: -90,
-           align: "left",
-            y: 110,
+           rotation: -45,
+           y: 6,
+           x: 10,
+           //align: "left",
+           //y: 110,
             "formatter": function() {
                 //add sum of observations of visible series to the axis label
                 var allVisibleSeries = this.chart.series.filter(function(val, i, arr){

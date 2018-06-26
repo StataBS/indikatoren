@@ -10,12 +10,12 @@
     "type": "category",
     "tickInterval": 1, 
     labels: {
-      rotation:-90,
+      rotation:-45,
     }
   },  
   "yAxis": {
   	 max: 100,
-     //tickInterval: 60000,
+     tickInterval: 25,
     "labels": {
       "format": "{value:,.0f}%",
     },

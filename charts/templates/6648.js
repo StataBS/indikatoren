@@ -7,8 +7,8 @@
   	}
   },
   "yAxis": {
-    tickAmount: 4,
-	  "labels": {
+	tickInterval: 10,
+	"labels": {
 		  "format": "{value}"
 	  }
   },	

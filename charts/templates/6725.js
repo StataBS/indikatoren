@@ -9,14 +9,14 @@
   "xAxis": {
     "type": "category",
     labels:{
-    	rotation:-45,
+    	rotation: -45,
     }
   },
   "yAxis": {
   	max: 75,
   	tickInterval: 25,
-    labels: {
-      format: "{value}", 
+    "labels": {
+      "format": "{value}" 
     }    
   },
   "series": [
@@ -39,7 +39,7 @@
     pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>',
     shared: false
   },  
-  "chart": {  
+  "chart": {    
     "type": "column",
     "inverted": false
   }
