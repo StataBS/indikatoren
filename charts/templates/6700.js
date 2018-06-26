@@ -20,24 +20,27 @@
     labels:{
     	step: 1,
     	x: -5,
-    	y: 3
+    	y: 3,
+    	rotation: 0,
     }
   },  
   "yAxis": {
     tickInterval: 100,
     labels: {
-      	y: 18,
-        "format": "{value:,.0f}",
+    	y: 18,
+      "format": "{value:,.0f}",
+        rotation:0,
     },
   },
   "legend": { 
   	x:-1,
+  	itemDistance: 1, 
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "itemStyle": {
-      "fontWeight": "normal"
+     "itemStyle": {
+    "fontWeight": "normal"
      },
   },
  "series": [
@@ -54,7 +57,7 @@
   {"color": "#999999", index: 0, legendIndex: 10}, /*Übrige Länder*/
 ],
   "chart": {
-    marginRight: 3,
+    "marginRight": 8,
     "type": "column",
     "inverted": true,
   },
