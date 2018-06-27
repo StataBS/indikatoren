@@ -605,7 +605,7 @@
       },
       "format": "{value}"
     },
-    "tickAmount": 4
+    "tickInterval": 10
   },
   "xAxis": {
     "lineColor": "#B9CFD7",

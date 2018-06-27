@@ -550,11 +550,11 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "step": 1
+      "step": 1,
+      "rotation": -45
     },
     "tickLength": 0,
-    "min": 0,
-    "tickInterval": 3
+    "min": 0
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -644,7 +644,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 15000
   },
   "navigation": {
     "menuItemStyle": {

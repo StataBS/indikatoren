@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#68AB2B",
+      "color": "#E6E600",
       "visible": true,
       "data": [
         [
@@ -45,7 +45,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#E6E600",
+      "color": "#68AB2B",
       "visible": true,
       "data": [
         [
@@ -104,8 +104,9 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "rotation": -45,
-      "step": 1
+      "y": 3,
+      "step": 1,
+      "rotation": 0
     },
     "tickLength": 0
   },
@@ -142,7 +143,9 @@
                 }
     },
     "type": "column",
-    "inverted": false,
+    "inverted": true,
+    "marginLeft": 120,
+    "marginRight": 9,
     "renderTo": "container-6746",
     "spacingBottom": 2
   },
@@ -157,8 +160,7 @@
           "color": "black"
         }
       },
-      "pointPadding": 0,
-      "itemWidth": 10
+      "pointPadding": 0
     }
   },
   "title": {
@@ -192,14 +194,14 @@
       "text": ""
     },
     "labels": {
-      "y": 3,
+      "y": 18,
       "style": {
         "fontSize": 10,
         "color": "#000000"
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 5
+    "tickInterval": 250
   },
   "navigation": {
     "menuItemStyle": {
@@ -230,7 +232,7 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "x": -1,
+    "x": 114,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
@@ -243,7 +245,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {

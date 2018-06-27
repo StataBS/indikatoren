@@ -239,6 +239,7 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
+    "x": 114,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

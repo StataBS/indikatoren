@@ -217,7 +217,9 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 10,
+    "max": 70
   },
   "navigation": {
     "menuItemStyle": {
@@ -248,6 +250,7 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
+    "x": 114,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

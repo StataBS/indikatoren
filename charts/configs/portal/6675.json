@@ -946,7 +946,7 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "rotation": -90
+      "rotation": -45
     },
     "tickLength": 0,
     "min": 0,
@@ -1043,7 +1043,8 @@
       },
       "format": "{value:,.0f}%"
     },
-    "max": 100
+    "max": 100,
+    "tickInterval": 25
   },
   "navigation": {
     "menuItemStyle": {

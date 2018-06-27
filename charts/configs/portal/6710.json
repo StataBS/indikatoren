@@ -118,11 +118,13 @@
     "labels": {
       "style": {
         "fontSize": 10,
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       },
       "step": 1,
       "padding": -100,
       "x": -5,
+      "y": 3,
       "rotation": 0
     },
     "tickLength": 0
@@ -159,6 +161,7 @@
                     
                 }
     },
+    "marginRight": 18,
     "type": "column",
     "inverted": true,
     "renderTo": "container-6710",
@@ -249,8 +252,10 @@
     },
     "enabled": true,
     "layout": "horizontal",
+    "verticalAlign": "top",
     "align": "left",
-    "verticalAlign": "top"
+    "itemDistance": 10,
+    "symbolPadding": 3
   },
   "dataLabels": {
     "enabled": false,
