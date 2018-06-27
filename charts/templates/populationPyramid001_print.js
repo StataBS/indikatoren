@@ -5,7 +5,7 @@
 (function(){
     return {
         chart: {
-        	marginRight: 20,
+        	marginRight: 11,
             type: 'bar', 
             borderColor: "#fbfbfb", 
             backgroundColor: "#fbfbfb",

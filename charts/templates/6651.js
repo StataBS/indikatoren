@@ -26,6 +26,8 @@
             tickInterval: 1,
             min:0,
             //offset: -5,
+            gridLineColor: '#B9CFD7',
+            gridLineWidth: 0.5,
             title: {
                 text: null
             },
@@ -67,7 +69,9 @@
 	                    color: "#000000"
 	                }
 	            },
-	            tickColor: "#FFFFFF"
+	            tickColor: "#FFFFFF",
+                lineColor: '#B9CFD7',
+                lineWidth: 0.5,
             }, 
             { // mirror axis on right side
                 type: 'category',
@@ -96,12 +100,9 @@
 	    ],
     "legend": {
         "enabled": true,
-        //itemWidth: 210,
         "layout": "horizontal",
         "verticalAlign": "top",
         "align": "center",
-       	//"y": 35,    
-       	x: 10,
       },
         plotOptions: {
             series: {

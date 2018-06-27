@@ -24,7 +24,9 @@
         yAxis:[{
             //max: 7,
             tickInterval: 1,
-            min:0,
+            min: 0,
+            gridLineColor: '#B9CFD7',
+            gridLineWidth: 0.5,
             title: {
                 text: null
             },
@@ -68,7 +70,9 @@
 	                    color: "#000000"
 	                }
 	            },
-	            tickColor: "#FFFFFF"
+	            tickColor: "#FFFFFF",
+	            lineColor: '#B9CFD7',
+                lineWidth: 0.5,
             }, 
             { // mirror axis on right side
                 type: 'category',
@@ -97,13 +101,9 @@
 	    ],
     "legend": {
         "enabled": true,
-        //itemWidth: 210,
         "layout": "horizontal",
         "verticalAlign": "top",
         "align": "center",
-        x: 10,
-       	//"y": 35,    
-       	//x: 180,
         "itemStyle": {
           "fontWeight": "normal"
         }

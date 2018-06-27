@@ -111,7 +111,9 @@
           "color": "#000000"
         }
       },
-      "tickColor": "#FFFFFF"
+      "tickColor": "#FFFFFF",
+      "lineColor": "#B9CFD7",
+      "lineWidth": 0.5
     },
     {
       "type": "category",
@@ -122,7 +124,7 @@
     }
   ],
   "chart": {
-    "marginRight": 20,
+    "marginRight": 11,
     "type": "bar",
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -199,6 +201,8 @@
   "yAxis": [
     {
       "min": 0,
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
       "title": {
         "text": null
       },
@@ -258,7 +262,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "center",
-    "x": 10
+    "x": 5
   },
   "tooltip": {
     "pointFormatter": function () {

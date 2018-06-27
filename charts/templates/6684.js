@@ -28,6 +28,8 @@
             title: {
                 text: null
             },
+            gridLineColor: '#B9CFD7',
+            gridLineWidth: 0.5,
             "labels": {
                 rotation: 0,
                 formatter: function () {
@@ -67,7 +69,7 @@
 	                }
 	            },
 	            tickColor: "#FFFFFF",
-	            lineColor: '#B9CFD7',
+                lineColor: '#B9CFD7',
                 lineWidth: 0.5,
             }, 
             { // mirror axis on right side
@@ -100,7 +102,7 @@
         "layout": "horizontal",
         "verticalAlign": "top",
         "align": "center",
-        x: 10,
+        x: 3,
         "itemStyle": {
           "fontWeight": "normal"
         }

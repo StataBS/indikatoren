@@ -124,7 +124,7 @@
     }
   ],
   "chart": {
-    "marginRight": 20,
+    "marginRight": 11,
     "type": "bar",
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -206,6 +206,8 @@
       "title": {
         "text": null
       },
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
       "labels": {
         "rotation": 0,
         "formatter": function () {
@@ -263,7 +265,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "center",
-    "x": 10
+    "x": 3
   },
   "tooltip": {
     "pointFormatter": function () {
