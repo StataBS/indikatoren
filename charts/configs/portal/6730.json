@@ -33,7 +33,7 @@
           49
         ]
       ],
-      "name": "C-Bew."
+      "name": "C-Bewilligung"
     },
     {
       "color": "#923F8D",
@@ -68,7 +68,7 @@
           9
         ]
       ],
-      "name": "B-Bew."
+      "name": "B-Bewilligung"
     },
     {
       "color": "#FF8028",
@@ -225,8 +225,7 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0,
-    "itemWidth": 80
+    "padding": 0
   },
   "exporting": {
     "enabled": false,

@@ -23,7 +23,7 @@
   xAxis: {
     labels: {
       formatter: function() {
-      	return this.value.replace("Eingebürgerte", "Eingebürgerte<br/>").replace("seit", "<br/>seit");
+      	return this.value.replace("Eingebürgerte", "Eingebürgerte<br/>").replace("seit", "<br/>seit ");
       }
     }
   },

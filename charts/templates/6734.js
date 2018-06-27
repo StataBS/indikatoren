@@ -57,7 +57,8 @@
       return this.name.replace(" ", "<br/>").replace("-", "<br/>");
     },
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      lineHeight: 10
     }
   },
 };

@@ -582,7 +582,7 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "format": "{value}%"
+      "format": "{value:,.f}%"
     },
     "tickInterval": 2.5
   },

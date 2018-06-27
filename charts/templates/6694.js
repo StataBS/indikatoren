@@ -7,7 +7,7 @@
     "min": 0, 
     tickInterval: 2.5,
 	  "labels": {
-		  "format": "{value}%"
+		  "format": "{value:,.f}%"
 	  }
   },	
   "tooltip": {

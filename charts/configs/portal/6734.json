@@ -513,7 +513,8 @@
     "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "lineHeight": 10
     },
     "enabled": true,
     "layout": "vertical",
