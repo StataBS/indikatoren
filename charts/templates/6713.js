@@ -3,10 +3,10 @@
  	"xAxis": {
         "type": "category",
         "labels": {
-           rotation: -45,
-           y: 6,
-           x: 10,
-           //align: "left",
+           rotation: -90,
+           y: 10,
+           x: -6,
+           align: "right",
            //y: 110,
             "formatter": function() {
                 //add sum of observations of visible series to the axis label
@@ -20,7 +20,7 @@
                 //use N if all series are visible, otherwise use n
                 var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
                 //check for value that contains only spaces
-            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + '<br/>(' + nString + sum + ')';
             }
         } 
   },  
@@ -61,10 +61,10 @@
     }
   },
 
-"chart": { 
-	  marginBottom: 110,
-     "inverted": false,
-         width: 665, 
+chart: { 
+    inverted: false,
+    width: 665, 
+    marginBottom: 75,
   },
-}
+};
 }());
