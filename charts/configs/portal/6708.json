@@ -278,9 +278,9 @@
                     
                 }
     },
-    "renderTo": "container-6708",
     "type": "column",
     "inverted": true,
+    "renderTo": "container-6708",
     "spacingBottom": 2
   },
   "plotOptions": {
@@ -375,7 +375,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "symbolPadding": 1,
-    "itemDistance": 1,
+    "itemDistance": 3,
     "align": "right"
   },
   "dataLabels": {

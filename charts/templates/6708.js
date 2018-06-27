@@ -31,12 +31,12 @@
     },
   },
 "legend": {
-	x:-1,
+	  x:-1,
     enabled:true,
     "layout": "horizontal",
     "verticalAlign": "top",
     symbolPadding: 1,
-    itemDistance: 1, 
+    itemDistance: 3, 
     padding: 0,
     "align": "right",
     "itemStyle": {
@@ -51,9 +51,6 @@
   {"color": "#008AC3", index: 6, legendIndex: 4}, /**/
 ],
   "chart": {
-    "renderTo": 'container-I.01.1.0016', 
-    //"marginBottom": 75,
-    //"marginTop": 75,
     "type": "column",
     "inverted": true
   },

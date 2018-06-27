@@ -101,7 +101,7 @@
         "layout": "horizontal",
         "verticalAlign": "top",
         "align": "center",
-        x: 10,
+        x: 3,
         "itemStyle": {
           "fontWeight": "normal"
         }
@@ -117,8 +117,6 @@
             }
         },
         chart:{
-            //spacingRight: 0,
-            marginRight: 2,
         }
 	};
 }());

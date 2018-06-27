@@ -461,15 +461,15 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
-    "padding": 1,
+    "padding": 0,
     "symbolRadius": 0,
     "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "x": -1,
     "itemDistance": 1,
+    "symbolPadding": 0,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

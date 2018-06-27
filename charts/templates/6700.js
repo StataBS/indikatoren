@@ -33,8 +33,9 @@
     },
   },
   "legend": { 
-  	x:-1,
   	itemDistance: 1, 
+  	padding: 0,
+  	symbolPadding: 0,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

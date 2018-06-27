@@ -289,7 +289,8 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "center"
+    "align": "center",
+    "x": 2
   },
   "tooltip": {
     "pointFormatter": function () {
