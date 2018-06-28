@@ -20,7 +20,7 @@ echo '#changes made by c9-setup.sh start here: ====' >> ../.bashrc
 echo 'export ACCEPT_HIGHCHARTS_LICENSE=YES' >> ../.bashrc
 echo 'export HIGHCHARTS_USE_STYLED=NO' >> ../.bashrc
 echo 'export HIGHCHARTS_USE_MAPS=YES' >> ../.bashrc
-echo 'export HIGHCHARTS_VERSION=6.1.0' >> ../.bashrc
+echo 'export HIGHCHARTS_VERSION=6.1.1' >> ../.bashrc
 #setting bash locale to fix error 'Fontconfig warning: ignoring C.UTF-8: not a valid language tag', see https://github.com/giakki/uncss/issues/166
 echo 'LC_ALL=C' >> ../.bashrc
 
