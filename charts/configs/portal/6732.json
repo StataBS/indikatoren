@@ -9,19 +9,19 @@
           0.299
         ],
         [
-          "institutionalisiert: 2007",
+          "2007",
           0.25
         ],
         [
-          "institutionalisiert: 2010",
+          "2010",
           0.234
         ],
         [
-          "institutionalisiert: 2013",
+          "2013",
           0.23
         ],
         [
-          "institutionalisiert: 2016",
+          "2016",
           0.261
         ],
         [
@@ -33,19 +33,19 @@
           0.235
         ],
         [
-          "informell: 2007",
+          "2007",
           0.19
         ],
         [
-          "informell: 2010",
+          "2010",
           0.212
         ],
         [
-          "informell: 2013",
+          "2013",
           0.197
         ],
         [
-          "informell: 2016",
+          "2016",
           0.391
         ]
       ],
@@ -61,19 +61,19 @@
           0.096
         ],
         [
-          "institutionalisiert: 2007",
+          "2007",
           0.089
         ],
         [
-          "institutionalisiert: 2010",
+          "2010",
           0.174
         ],
         [
-          "institutionalisiert: 2013",
+          "2013",
           0.104
         ],
         [
-          "institutionalisiert: 2016",
+          "2016",
           0.088
         ],
         [
@@ -85,19 +85,19 @@
           0.129
         ],
         [
-          "informell: 2007",
+          "2007",
           0.136
         ],
         [
-          "informell: 2010",
+          "2010",
           0.106
         ],
         [
-          "informell: 2013",
+          "2013",
           0.113
         ],
         [
-          "informell: 2016",
+          "2016",
           0.181
         ]
       ],
@@ -107,7 +107,7 @@
   ],
   "xAxis": {
     "type": "category",
-    "uniqueNames": true,
+    "uniqueNames": false,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
     "title": {
@@ -124,6 +124,7 @@
       "step": 1,
       "rotation": 0,
       "x": -10,
+      "y": 3,
       "padding": -100
     },
     "tickLength": 0
@@ -147,12 +148,15 @@
       "load": function () {
                     this.credits.element.onclick = function() {};
                     
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
                     //for top-left legends with no x defined: move legend to x position of first yAxis
                     if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
                       this.update(
                         {
                           legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
                           }
                         }
                       );

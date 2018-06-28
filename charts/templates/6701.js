@@ -27,14 +27,21 @@
     },
 	"max": undefined
   },
-  "legend": {
+  "legend": { 
     "enabled": true,
-    itemDistance: 3, 
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    y: 7,
+    reversed: true,
+    itemMarginBottom: 3,
+     "labelFormatter": function () {
+        return this.name.replace("/ ", "/<br/>");
+    },
     "itemStyle": {
-      "fontWeight": "normal"
+        "fontWeight": "normal", 
+        textOverflow: null, 
+        whitespace: 'nowrap',
     }
   },
  "series": [
@@ -55,7 +62,8 @@
     //"marginTop": 75,
     "type": "column",
     "inverted": false,
-    width: 665
+    width: 665,
+    spacingTop: 5,
   },
   "tooltip": {
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',

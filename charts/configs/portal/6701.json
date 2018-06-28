@@ -843,12 +843,15 @@
       "load": function () {
                     this.credits.element.onclick = function() {};
                     
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
                     //for top-left legends with no x defined: move legend to x position of first yAxis
                     if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
                       this.update(
                         {
                           legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
                           }
                         }
                       );
@@ -859,6 +862,7 @@
     "renderTo": "container-6701",
     "type": "column",
     "inverted": false,
+    "spacingTop": 5,
     "spacingBottom": 2
   },
   "plotOptions": {
@@ -939,16 +943,22 @@
   "legend": {
     "padding": 1,
     "symbolRadius": 0,
-    "itemMarginBottom": 1,
+    "itemMarginBottom": 3,
     "itemStyle": {
       "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "whitespace": "nowrap"
     },
     "enabled": true,
-    "itemDistance": 3,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "y": 7,
+    "reversed": true,
+    "labelFormatter": function () {
+        return this.name.replace("/ ", "/<br/>");
+    }
   },
   "dataLabels": {
     "enabled": false,

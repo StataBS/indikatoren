@@ -45,18 +45,19 @@
   ],
   "legend": { 
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    alignColumns: false, 
-    itemDistance: 15, 
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    y: -13,
+    reversed: true,
+    itemMarginBottom: 3,
      "labelFormatter": function () {
-        return this.name;
+        return this.name.replace("/ ", "/<br/>");
     },
     "itemStyle": {
         "fontWeight": "normal", 
         textOverflow: null, 
-        whitespace: 'nowrap'
+        whitespace: 'nowrap',
     }
   },
 
@@ -64,6 +65,7 @@ chart: {
      inverted: false,
      width: 665, 
      marginBottom: 75,
+     spacingTop: 5,
   },
 };
 }());

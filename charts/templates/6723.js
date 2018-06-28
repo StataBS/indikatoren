@@ -31,10 +31,10 @@
    "legend": {
     "enabled": true,
     itemDistance: 5,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    //"itemMarginBottom": 5,
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 3,
+    "align": "right",
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -49,6 +49,8 @@
   },
   chart:{
   	width: 665,
+  	spacingTop: 5,
+  	type: 'line'
   }
-}
+};
 }());

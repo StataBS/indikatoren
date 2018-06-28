@@ -45,25 +45,27 @@
   ],
   "legend": { 
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    alignColumns: false, 
-    itemDistance: 15, 
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    y: -13,
+    reversed: true,
+    itemMarginBottom: 3,
      "labelFormatter": function () {
-        return this.name;
+        return this.name.replace("/ ", "/<br/>");
     },
     "itemStyle": {
         "fontWeight": "normal", 
         textOverflow: null, 
-        whitespace: 'nowrap'
+        whitespace: 'nowrap',
     }
   },
 
 "chart": { 
 	  marginBottom: 75,
      "inverted": false,
-         width: 665, 
+     width: 665, 
+     spacingTop: 5,
   },
-}
+};
 }());

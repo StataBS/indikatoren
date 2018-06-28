@@ -13,13 +13,13 @@
     "type": "category",
     "labels": {
       "rotation": -45, 
-      
     } 
   },
   "yAxis": {
   	max: 15,
   	min: -15,
   	tickAmount: 7,
+  	//gridLineWidth: 1,
     "labels": {
       "format": "{value:,.0f}"
     }    

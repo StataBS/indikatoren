@@ -6,7 +6,7 @@
 	    "verticalAlign": "middle",
 	    "align": "right",
 	    "itemStyle": {
-	        "fontWeight": "normal"
+	        "fontWeight": "normal",
 	    },
 	    labelFormatter: function(){
 	        return this.name

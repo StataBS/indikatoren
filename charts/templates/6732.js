@@ -10,10 +10,12 @@
    },
   "xAxis": {
     "type": "category",
+    uniqueNames: false,
     "labels": {
-    	step:1,
+    	step: 1,
     	"rotation": 0,
     	 x: -10,
+    	 y: 3,
     	 padding: -100,
     	 style: {
             textOverflow: 'none' 
