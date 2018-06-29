@@ -27,7 +27,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    itemDistance: 5,  
+    itemDistance: 10,  
     "itemStyle": {
       "fontWeight": "normal"
     }
