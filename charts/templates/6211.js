@@ -10,12 +10,6 @@
     "min": 0,
     "max": undefined,
     "title": "", 
-    events: {
-      afterSetExtremes: function(){
-        this.chart.options.customFunctions.optimalAxisLabelDecimals(this.chart.yAxis[0], '{value:,.howManyDecimalsf}');
-      }
-    },
-    
   },
   {
     "title": {

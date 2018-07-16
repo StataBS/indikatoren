@@ -224,12 +224,7 @@
         }
       },
       "min": 0,
-      "title": "",
-      "events": {
-        "afterSetExtremes": function (){
-        this.chart.options.customFunctions.optimalAxisLabelDecimals(this.chart.yAxis[0], '{value:,.howManyDecimalsf}');
-      }
-      }
+      "title": ""
     },
     {
       "title": {
