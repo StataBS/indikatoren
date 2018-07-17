@@ -225,7 +225,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Mittelwert und Median des Reinvermögens pro Veranlagung"
+    "text": "Mittelwert und Median des Reineinkommens pro Veranlagung"
   },
   "subtitle": {
     "style": {
@@ -234,7 +234,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: Steuerjahr 2014",
+    "text": "nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt,\u003Cbr\u002F\u003ESteuerjahr 2014",
     "align": "left"
   },
   "yAxis": [
