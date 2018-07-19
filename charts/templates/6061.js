@@ -5,9 +5,6 @@
 		fontSize: "12px"
 		}
       },
-      "data":{
-      	"switchRowsAndColumns": true
-      },
       "series": [ 
           {
               "name": "Anzahl"
