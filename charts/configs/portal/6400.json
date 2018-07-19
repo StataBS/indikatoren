@@ -1,7 +1,6 @@
 {
   "series": [
     {
-      "name": "Anzahl",
       "data": [
         [
           "Spanien",
@@ -48,6 +47,7 @@
           604
         ]
       ],
+      "name": "Anzahl",
       "turboThreshold": 0
     }
   ],
