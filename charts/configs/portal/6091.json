@@ -14,7 +14,7 @@
           15873.445861
         ],
         [
-          "Schweizer\u002F-innnen seit Geburt",
+          "Schweizer\u002F-innen seit Geburt",
           25244.264834
         ]
       ],
@@ -35,7 +35,7 @@
           22595.240907
         ],
         [
-          "Schweizer\u002F-innnen seit Geburt",
+          "Schweizer\u002F-innen seit Geburt",
           77296.643307
         ]
       ],
@@ -56,7 +56,7 @@
           15232.238046
         ],
         [
-          "Schweizer\u002F-innnen seit Geburt",
+          "Schweizer\u002F-innen seit Geburt",
           54669.007708
         ]
       ],
@@ -84,8 +84,9 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-      	return this.value.replace(" ", "<br/>");
-      }
+      	return this.value;//.replace("Eingebürgerte ", "Eingebürgerte<br/>");
+      },
+      "useHTML": false
     }
   },
   "chart": {
@@ -138,6 +139,7 @@
       "color": "#000000"
     },
     "align": "left",
+    "useHTML": true,
     "text": "Personen ab 15 Jahren nach Migrationsstatus, gepoolte Daten 2011 - 2015"
   },
   "navigation": {

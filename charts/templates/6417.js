@@ -140,6 +140,9 @@ global Highcharts
     //"marginTop": 75,
     "type": "column",
     "inverted": false
+  }, 
+  subtitle: {
+    useHTML: true
   }
 	};
 }());
