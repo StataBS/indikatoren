@@ -21,8 +21,9 @@
   },  
   xAxis: {
     labels: {
+      useHTML: false,
       formatter: function() {
-      	return this.value.replace(" ", "<br/>");
+      	return this.value;//.replace("Eingebürgerte ", "Eingebürgerte<br/>");
       }
     }
   },
