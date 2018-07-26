@@ -24,7 +24,7 @@
   xAxis: {
     labels: {
       formatter: function() {
-      	return this.value.replace(" ", "<br/>");
+      	return this.value;
       }
     }
   },
