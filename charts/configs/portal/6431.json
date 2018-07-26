@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#fabd24",
+      "color": "#b00000",
       "data": [
         [
           2001,
@@ -75,7 +75,7 @@
       "name": "Schweiz"
     },
     {
-      "color": "#b9cfd7",
+      "color": "#007a2f",
       "data": [
         [
           2001,
@@ -149,7 +149,7 @@
       "name": "Italien"
     },
     {
-      "color": "#007a2f",
+      "color": "#662673",
       "data": [
         [
           2001,
@@ -223,7 +223,7 @@
       "name": "Portugal"
     },
     {
-      "color": "#b00000",
+      "color": "#E7CEE2",
       "data": [
         [
           2001,
@@ -297,7 +297,7 @@
       "name": "Spanien"
     },
     {
-      "color": "#E7CEE2",
+      "color": "#fabd24",
       "data": [
         [
           2001,
@@ -371,7 +371,7 @@
       "name": "Türkei"
     },
     {
-      "color": "#672773",
+      "color": "#b9cfd7",
       "data": [
         [
           2001,
@@ -490,7 +490,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Top 6 der IV-Bezüger",
+    "text": "Top 6 der IV-Bezüger, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {

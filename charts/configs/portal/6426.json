@@ -68,9 +68,17 @@
         [
           "2016",
           5778
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2017",
+          6163
         ]
       ],
-      "name": "Schweiz",
+      "name": "Schweiz (Stadt)",
       "turboThreshold": 0
     },
     {
@@ -141,9 +149,17 @@
         [
           "2016",
           390
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2017",
+          466
         ]
       ],
-      "name": "Deutschland",
+      "name": "Deutschland (Stadt)",
       "turboThreshold": 0
     },
     {
@@ -214,9 +230,17 @@
         [
           "2016",
           496
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2017",
+          515
         ]
       ],
-      "name": "Italien",
+      "name": "Italien (Stadt)",
       "turboThreshold": 0
     },
     {
@@ -287,9 +311,17 @@
         [
           "2016",
           1327
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2017",
+          1322
         ]
       ],
-      "name": "Türkei",
+      "name": "Türkei (Stadt)",
       "turboThreshold": 0
     },
     {
@@ -360,9 +392,17 @@
         [
           "2016",
           672
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2017",
+          695
         ]
       ],
-      "name": "EU-17 & EFTA",
+      "name": "EU-17 + EFTA  (Stadt)",
       "turboThreshold": 0
     },
     {
@@ -433,9 +473,17 @@
         [
           "2016",
           326
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2017",
+          368
         ]
       ],
-      "name": "EU-Ost",
+      "name": "EU-Ost (Stadt)",
       "turboThreshold": 0
     },
     {
@@ -506,9 +554,17 @@
         [
           "2016",
           942
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2017",
+          988
         ]
       ],
-      "name": "Balkan",
+      "name": "Balkan (Stadt)",
       "turboThreshold": 0
     },
     {
@@ -579,9 +635,17 @@
         [
           "2016",
           310
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2017",
+          284
         ]
       ],
-      "name": "Mittel- & Südamerika",
+      "name": "Nord-, Mittel- und Südamerika (Stadt)",
       "turboThreshold": 0
     },
     {
@@ -652,9 +716,17 @@
         [
           "2016",
           888
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2017",
+          960
         ]
       ],
-      "name": "Arabische Länder",
+      "name": "Arabische Länder (Stadt)",
       "turboThreshold": 0
     },
     {
@@ -725,9 +797,17 @@
         [
           "2016",
           925
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2017",
+          953
         ]
       ],
-      "name": "Afrikanische Länder",
+      "name": "Afrikanische Länder (Stadt)",
       "turboThreshold": 0
     },
     {
@@ -737,19 +817,19 @@
       "data": [
         [
           "2001",
-          250
+          247
         ],
         [
           "2002",
-          264
+          262
         ],
         [
           "2003",
-          311
+          310
         ],
         [
           "2004",
-          403
+          402
         ],
         [
           "2005",
@@ -757,50 +837,58 @@
         ],
         [
           "2006",
-          465
+          456
         ],
         [
           "2007",
-          443
+          434
         ],
         [
           "2008",
-          487
+          476
         ],
         [
           "2009",
-          484
+          476
         ],
         [
           "2010",
-          514
+          505
         ],
         [
           "2011",
-          649
+          639
         ],
         [
           "2012",
-          706
+          696
         ],
         [
           "2013",
-          745
+          737
         ],
         [
           "2014",
-          793
+          784
         ],
         [
           "2015",
-          755
+          744
         ],
         [
           "2016",
-          795
+          779
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2017",
+          853
         ]
       ],
-      "name": "Übrige Länder",
+      "name": "Übrige Länder (Stadt)",
       "turboThreshold": 0
     }
   ],
@@ -931,6 +1019,9 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "labelFormatter": function () {
+	        return this.name.slice(0, this.name.indexOf('(Stadt)'));
+	      },
     "enabled": true,
     "itemDistance": 3,
     "layout": "horizontal",

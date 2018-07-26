@@ -209,7 +209,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Pyramide der Sozialhilfequote der Schweizer"
+    "text": "Sozialhilfequote der Schweizer"
   },
   "subtitle": {
     "style": {
@@ -218,7 +218,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Geschlecht, Stand: 2016",
+    "text": "nach Alter und Geschlecht, Basel-Stadt, 2017",
     "align": "left"
   },
   "yAxis": [

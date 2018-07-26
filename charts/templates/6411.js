@@ -40,7 +40,7 @@
   },
  "series": [
   {"color": "#B00000", index: 2, legendIndex: 0}, /**/
-  {"color": "#FABD24", index: 1, legendIndex: 1}, /**/
+  {"color": "#cd9c00", index: 1, legendIndex: 1}, /**/
 ],
   "chart": {
     "renderTo": 'container-I.01.1.0016', 
