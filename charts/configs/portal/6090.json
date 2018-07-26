@@ -234,6 +234,7 @@
       "color": "#000000"
     },
     "align": "left",
+    "useHTML": true,
     "text": "Personen ab 15 Jahren nach Staatsangehörigkeit, gepoolte Daten 2011 - 2015"
   },
   "navigation": {
