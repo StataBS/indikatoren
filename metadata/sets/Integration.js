@@ -3013,8 +3013,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beteiligung an Freiwilligenarbeit",
-		"subtitle": "nach Staatsangehörigkeit",
-		"kuerzel": "I.03.2.06492",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
+		"kuerzel": "I.03.2.6492",
 		"kuerzelKunde": "D6-1",
 		"description": "Beteiligung an Freiwilligenarbeit",
 		"thema": "03 Erwerbsleben",
@@ -3023,18 +3023,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-03-21T13:51:37.3737",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die prozentuale Beteiligung an institutionalisierter Freiwilligenarbeit der Schweizer Staatsangehörigen ist von 29,9% im Jahr 2004 auf 23,0% im Jahr 2013 gesunken, bevor der Anteil 2016 (26,1%) wieder zunahm. Bei den Ausländern lag sie tiefer, nämlich mit Ausnahme des Jahres 2010 (17,4%) bei oder leicht unter 10%. Die prozentuale Beteiligung an informeller Freiwilligenarbeit blieb über die Zeit relativ konstant, stieg allerdings aus methodischen Gründen im Jahr 2016 stark an. Auch die Beteiligung an informeller Freiwilligenarbeit ist bei den Ausländern tiefer als bei den Schweizern.",
+		"lesehilfe": "Die prozentuale Beteiligung an institutionalisierter Freiwilligenarbeit der Schweizer Staatsangehörigen ist von 29,9% im Jahr 2004 auf 23,0% im Jahr 2013 gesunken, bevor der Anteil 2016 wieder auf 26,1% zugenommen hat. Bei den Ausländern liegt sie tiefer, nämlich mit Ausnahme des Jahres 2010 (17,4%) bei oder leicht unter 10%. Die prozentuale Beteiligung an informeller Freiwilligenarbeit ist über die Zeit relativ konstant geblieben, steigt allerdings aus methodischen Gründen im Jahr 2016 stark an. Auch die Beteiligung an informeller Freiwilligenarbeit ist bei den Ausländern tiefer als bei den Schweizern.",
 		"erlaeuterungen": "Die institutionalisierte Freiwilligenarbeit umfasst unbezahlte, freiwillige Tätigkeiten in einem Verein, einer Organisationen oder einer Institution. Die informelle Freiwilligenarbeit beinhaltet Hilfeleistungen für Verwandte und Bekannte. Die Frage zur informellen Freiwilligenarbeit wurde im Rahmen der SAKE 2016 überarbeitet, weshalb ein Reihenbruch zwischen 2013 und 2016 nicht auszuschliessen ist.",
 		"template": "template001",
+		"printformat": "",
 		"orderKey": "04_00_00_00_00_019",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6732"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
