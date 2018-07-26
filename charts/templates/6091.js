@@ -8,6 +8,9 @@
   "chart": {
     "inverted": true
   }, 
+  subtitle: {
+    useHTML: true,
+  },
   legend: {
     itemDistance: 5,
     "enabled": true,
