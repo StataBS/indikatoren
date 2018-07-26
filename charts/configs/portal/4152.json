@@ -40,6 +40,9 @@
       "tooltip": {
         "valueDecimals": 1
       },
+      "marker": {
+        "enabled": false
+      },
       "data": [
         [
           2011,

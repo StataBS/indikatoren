@@ -74,6 +74,9 @@
       "yAxis": 1, 
       tooltip: {
         valueDecimals: 1
+      }, 
+      marker: {
+        enabled: false
       }
     }
   ],  
