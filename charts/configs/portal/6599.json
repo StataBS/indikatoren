@@ -976,7 +976,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": 75000
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
