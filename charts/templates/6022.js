@@ -8,7 +8,7 @@
     return {
     	"legend": {
 			"title": {
-				"text": ""
+				"text": "Bevölkerungssaldo"
 			}
 			},
 		"colorAxis": {
@@ -74,7 +74,7 @@
 							'<table>'
 							+'<tr><td><span style="color:' + this.color + '">●</span></td> <td>' + this.series.name + ': </td> <td><b>' + Highcharts.numberFormat((this.value),2) + '</b></td></tr><br/>';
 						//add a tooltip row for each column
-						Highcharts.each(columnSeries.points, function(element, index, array){
+						Highcharts.each(columnSeries.points || [], function(element, index, array){
 							(columnSeries.visible) ? tooltipText += ('<tr><td><span style="color:' + element.color + '">●</span></td> <td>' + element.name + ': </td> <td><b>' + Highcharts.numberFormat((element.y),2) + '</b></td></tr><br/>') : undefined ;	
 						});
 						tooltipText += '</table>';
@@ -157,7 +157,7 @@
                 	//Add manually drawn legend	
                 	var legendTop = 220;
                 	var legendLeft = 365;
-	                fn.addLegendTitle(chart, 'Wanderung/Umzug', 265, 220); 
+	                fn.addLegendTitle(chart, 265, 220, 'Wanderung/Umzug'); 
 	                
 	                fn.addLegendColumnChart(chart, legendLeft+35,  legendTop+45,  legendColumnValues, color, 'columnLegendHideOnZoom');
 	                
@@ -174,7 +174,7 @@
 					fn.addLegendText(chart,        legendLeft-80, legendTop+62,  'Umzug positiv');
 					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+67, 10, color(-1, 1));
 					fn.addLegendText(chart,        legendLeft-80, legendTop+77 , 'Umzug negativ');
-					fn.addLegendTextbold(chart,    legendLeft-98, legendTop+100 , 'Bevölkerungssaldo');	
+					//fn.addLegendTitle(chart,    legendLeft-98, legendTop+100 , 'Bevölkerungssaldo');	
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+105 , 'Bewegung pro 100 Einwohner');
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+108 , '(Saldo total)');
 					
