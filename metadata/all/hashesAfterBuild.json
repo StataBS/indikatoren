@@ -2626,7 +2626,7 @@
 	},
 	"6059": {
 		"metadata": "f88f42a7c03076fcbd710c887542697a89a03e59",
-		"chartConfig": "a2cded77510a5521c14b4e8c420b6e9db923823c",
+		"chartConfig": "fea2ed50ae068f5855cf4d770a6e816c97574502",
 		"data": "7d365922585d8c108179209eed3c4c5074dbe778",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "22dd86e8ba43e482db247507c8768e51a9987845"
@@ -2653,7 +2653,7 @@
 		"template": "22dd86e8ba43e482db247507c8768e51a9987845"
 	},
 	"6063": {
-		"metadata": "37657302b2fddf1662df4f7763cb40b18e9a4162",
+		"metadata": "cf56d04dd081595c94ede27d62bc232d774ecbed",
 		"chartConfig": "cb968d6c1c672bc236fdfe707a7d9488adb8b7c1",
 		"data": "0b30247d245eddef2f94fa4f4ee661f2884812b4",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
