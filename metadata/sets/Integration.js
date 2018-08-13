@@ -207,7 +207,7 @@ var indikatorensetData = [
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
-			"Wohnviertel"
+			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
