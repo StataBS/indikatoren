@@ -13,83 +13,83 @@
       "data": [
         [
           1995,
-          5.851796028
+          5.737941792
         ],
         [
           1996,
-          5.72095303
+          5.596989268
         ],
         [
           1997,
-          5.786287235
+          5.64138907
         ],
         [
           1998,
-          5.848771422
+          5.709809346
         ],
         [
           1999,
-          5.627476151
+          5.487624131
         ],
         [
           2000,
-          5.901301849
+          5.591844333
         ],
         [
           2001,
-          5.513957233
+          5.346655805
         ],
         [
           2002,
-          5.329035448
+          5.237355478
         ],
         [
           2003,
-          5.385000042
+          5.286456539
         ],
         [
           2004,
-          5.367922787
+          5.348015861
         ],
         [
           2005,
-          5.753818301
+          5.590850809
         ],
         [
           2006,
-          5.718170714
+          5.572617568
         ],
         [
           2007,
-          5.971283725
+          5.842511093
         ],
         [
           2008,
-          5.935551248
+          5.810678764
         ],
         [
           2009,
-          5.452822642
+          5.291744592
         ],
         [
           2010,
-          5.764097266
+          5.462485731
         ],
         [
           2011,
-          5.505401273
+          5.391104561
         ],
         [
           2012,
-          5.201460501
+          5.098662881
         ],
         [
           2013,
-          5.283186311
+          5.147435509
         ],
         [
           2014,
-          null
+          4.850440134
         ],
         [
           2015,
@@ -250,7 +250,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "BIP des Kantons Basel-Stadt in Fr. und ökologischer Fussabdruck in globalen Hektaren pro Kopf",
+    "text": "Nominales Bruttoinlandprodukt des Kantons Basel-Stadt in Fr. pro Kopf und ökologischer Fussabdruck der Schweiz in globalen Hektaren pro Kopf",
     "align": "left"
   },
   "tooltip": {
@@ -310,7 +310,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: BAK Economics;\u003Cbr\u002F\u003EGlobal Footprint Network\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: BAK Economics;\u003Cbr\u002F\u003EGlobal Footprint Network\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-15"
   },
   "legend": {
     "enabled": true,
