@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "2016",
+      "name": "2017",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3244,87 +3244,87 @@
       "data": [
         [
           1,
-          0
+          0.0853242321
         ],
         [
           2,
-          0.2873
+          0.3260869565
         ],
         [
           3,
-          0.8422
+          0.9506057782
         ],
         [
           4,
-          2.147
+          2.316442606
         ],
         [
           5,
-          1.2373
+          1.3427690074
         ],
         [
           6,
-          2.6012
+          2.5287124723
         ],
         [
           7,
-          1.1706
+          1.4218009479
         ],
         [
           8,
-          1.4504
+          1.3838199513
         ],
         [
           9,
-          1.3844
+          1.5752308528
         ],
         [
           10,
-          2.8386
+          3.0482256597
         ],
         [
           11,
-          3.4544
+          3.6377970492
         ],
         [
           12,
-          1.1211
+          1.4548238897
         ],
         [
           13,
-          2.3449
+          2.288218111
         ],
         [
           14,
-          1.1498
+          1.2362637363
         ],
         [
           15,
-          2.814
+          2.8780264961
         ],
         [
           16,
-          3.2707
+          3.1330749354
         ],
         [
           17,
-          2.8579
+          2.975584944
         ],
         [
           18,
-          4.8278
+          4.6865846514
         ],
         [
           19,
-          5.2467
+          5.0314465409
         ],
         [
           20,
-          1.2104
+          1.4434060228
         ],
         [
           30,
-          1.0989
+          1.3071895425
         ]
       ]
     },
@@ -3333,90 +3333,90 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          0
+          0.0853242321
         ],
         [
-          "Vorstädte",
-          -0.0784
+          "Vorst�dte",
+          -0.039543756
         ],
         [
           "Am Ring",
-          0.1468
+          0.2551445776
         ],
         [
           "Breite",
-          0.6255
+          0.794975328
         ],
         [
           "St. Alban",
-          0.4559
+          0.5613802665
         ],
         [
           "Gundeldingen",
-          0.5848
+          0.5123419393
         ],
         [
           "Bruderholz",
-          0.4067
+          0.657877833
         ],
         [
           "Bachletten",
-          0.3905
+          0.3239602708
         ],
         [
           "Gotthelf",
-          0.3767
+          0.567540585
         ],
         [
           "Iselin",
-          0.961
+          1.1706653502
         ],
         [
           "St. Johann",
-          1.1377
+          1.3211103483
         ],
         [
           "Altstadt Kleinbasel",
-          0.0299
+          0.3636313722
         ],
         [
           "Clara",
-          0.7056
+          0.6488738487
         ],
         [
           "Wettstein",
-          0.458
+          0.5444615917
         ],
         [
           "Hirzbrunnen",
-          0.9569
+          1.020883639
         ],
         [
           "Rosental",
-          0.7066
+          0.5689723713
         ],
         [
-          "Matthäus",
-          0.8981
+          "Matth�us",
+          1.0157859491
         ],
         [
           "Klybeck",
-          1.5824
+          1.441148546
         ],
         [
-          "Kleinhüningen",
-          1.9211
+          "Kleinh�ningen",
+          1.7058471596
         ],
         [
           "Riehen",
-          0.2591
+          0.4921323731
         ],
         [
           "Bettingen",
-          1.0989
+          1.3071895425
         ]
       ],
-      "name": "Differenz 2016 zu 2012"
+      "name": "Differenz 2017 zu 2012"
     },
     {
       "name": "Rhein",
@@ -3728,7 +3728,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Stand: 2016",
+    "text": "nach Wohnviertel, 2017",
     "align": "left"
   },
   "credits": {
@@ -3744,7 +3744,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-15"
   },
   "colorAxis": {
     "min": 0,

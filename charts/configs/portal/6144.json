@@ -6,54 +6,54 @@
       "data": [
         [
           "Oberstes Management",
-          3389
+          3383
         ],
         [
           "Freie und gleichgestellte Berufe",
-          3231
+          2389
         ],
         [
           "Andere Selbstständige",
-          7281
+          6088
         ],
         [
           "Akademische Berufe und oberes Kader",
-          24704
+          26686
         ],
         [
           "Intermediäre Berufe",
-          21084
+          23454
         ],
         [
           "Qualifizierte nichtmanuelle Berufe",
-          15857
+          15367
         ],
         [
           "Qualifizierte manuelle Berufe",
-          4138
+          4749
         ],
         [
           "Ungelernte Angestellte und Arbeiter",
-          6930
+          6753
         ],
         [
           "Lernende in dualer berufl. Grundbildung",
-          2723
+          2253
         ],
         [
           "Nicht zuteilbare Erwerbstätige",
-          5649
+          5517
         ],
         [
           "Erwerbslose",
-          7201
+          6640
         ],
         [
           "Nichterwerbspersonen",
-          59644
+          59372
         ]
       ],
-      "name": "2015",
+      "name": "2016",
       "turboThreshold": 0
     }
   ],
@@ -140,7 +140,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt, 2016",
     "align": "left"
   },
   "yAxis": {
@@ -182,7 +182,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-15"
   },
   "legend": {
     "symbolRadius": 0,

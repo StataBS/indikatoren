@@ -1,40 +1,29 @@
-{
- "title": "Bevölkerung nach sozioprofessioneller Kategorie",
- "subtitle": "",
- "kuerzel": "I.01.1.06144",
- "kuerzelKunde": "4.2",
- "description": "Bevölkerung nach sozioprofessioneller Kategorie",
- "id": 6144,
- "thema": "01 Bevölkerung",
- "unterthema": "Bestand und Struktur ",
- "kennzahlenset": "Legislaturplan",
- "raeumlicheGliederung": [
-  "Kanton"
- ],
- "aktualisierungsdatum": "2017-11-29T00:00:00.000",
- "schlagwort": [
-  "Bevölkerung"
- ],
- "stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Von der baselstädtischen Wohnbevölkerung arbeiteten im Jahr 2015 rund 3 400 Personen im obersten Management.",
- "erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren. Bei der Interpretation der Ergebnisse muss die Unsicherheit von Stichprobenerhebungen berücksichtigt werden.",
- "template": "template001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "04_00_00_00_00_002",
- "parentId": null,
- "children": [
-  "6298"
- ],
- "renderLink": [],
- "quellenangabe": [
-  "Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Bevölkerung nach sozioprofessioneller Kategorie",
+"subtitle":"Basel-Stadt, 2016",
+"kuerzel":"I.01.1.6144",
+"kuerzelKunde":"4.2",
+"description":"Bevölkerung nach sozioprofessioneller Kategorie",
+"id":6144,
+"thema":"01 Bevölkerung",
+"unterthema":"Bestand und Struktur ",
+"kennzahlenset":"Legislaturplan",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2018-08-15T12:00:00.0000",
+"stufe1":"Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Von der baselstädtischen Wohnbevölkerung arbeiteten im Jahr 2016 rund 3 400 Personen im obersten Management.",
+"erlaeuterungen":"Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren. Bei der Interpretation der Ergebnisse muss die Unsicherheit von Stichprobenerhebungen berücksichtigt werden.",
+"template":"template001",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"04_00_00_00_00_002",
+"parentId":null,
+"children":["6298"],
+"renderLink":[],
+"quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)"],
+"externalLinks":[""]
 }
