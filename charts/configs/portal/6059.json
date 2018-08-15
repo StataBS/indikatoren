@@ -992,7 +992,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": 75000
   },
   "navigation": {
     "menuItemStyle": {
