@@ -477,7 +477,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Mittelwert und Median des Reineinkommens in Basel-Stadt"
+    "text": "Mittelwert und Median des Reineinkommens"
   },
   "subtitle": {
     "style": {
@@ -486,7 +486,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Franken",
+    "text": "in Franken, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -536,7 +536,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Steuerstatistik Basel-Stadt\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-15"
   },
   "legend": {
     "enabled": true,

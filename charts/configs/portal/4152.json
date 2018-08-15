@@ -7,19 +7,19 @@
       "data": [
         [
           2011,
-          1167
+          1165
         ],
         [
           2012,
-          1498
+          1497
         ],
         [
           2013,
-          1718
+          1717
         ],
         [
           2014,
-          1867
+          1865
         ],
         [
           2015,
@@ -28,6 +28,10 @@
         [
           2016,
           2137
+        ],
+        [
+          2017,
+          2225
         ]
       ],
       "name": "Anzahl Haushalte"
@@ -46,27 +50,31 @@
       "data": [
         [
           2011,
-          1.200814948962
+          1.2038108622
         ],
         [
           2012,
-          1.525551459355
+          1.5303306005
         ],
         [
           2013,
-          1.740328413545
+          1.7469959199
         ],
         [
           2014,
-          1.89535450337
+          1.9029641345
         ],
         [
           2015,
-          2.026394036902
+          2.03620141
         ],
         [
           2016,
-          2.170226162548
+          2.180589994
+        ],
+        [
+          2017,
+          2.2729130062
         ]
       ],
       "name": "Anteil in Prozent (rechte Skala)"
@@ -134,7 +142,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -212,7 +220,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)\u003Cbr\u002F\u003EZuletzt geändert: 2017-3-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-15"
   },
   "legend": {
     "symbolRadius": 0,
