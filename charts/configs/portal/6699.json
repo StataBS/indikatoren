@@ -7,23 +7,23 @@
       "data": [
         [
           "Oberes Kader",
-          182
+          177
         ],
         [
           "Mittleres Kader",
-          218
+          224
         ],
         [
           "Mittleres Fachkader",
-          136
+          145
         ],
         [
           "Unteres Kader",
-          389
+          400
         ],
         [
           "Unteres Fachkader",
-          133
+          124
         ]
       ],
       "name": "Schweiz",
@@ -48,7 +48,7 @@
         ],
         [
           "Unteres Kader",
-          38
+          40
         ],
         [
           "Unteres Fachkader",
@@ -139,10 +139,10 @@
         ],
         [
           "Unteres Fachkader",
-          3
+          4
         ]
       ],
-      "name": "EU-17 & EFTA",
+      "name": "EU-17 + EFTA",
       "turboThreshold": 0
     },
     {
@@ -229,7 +229,7 @@
           0
         ]
       ],
-      "name": "Mittel- & Südamerika",
+      "name": "Mittel- und Südamerika",
       "turboThreshold": 0
     },
     {

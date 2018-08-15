@@ -5,47 +5,47 @@
       "data": [
         [
           "Schweiz",
-          20.06
+          23.58
         ],
         [
           "Deutschland",
-          7.52
+          6.87
         ],
         [
           "Italien",
-          60
+          70
         ],
         [
           "Türkei",
-          85.71
+          87.5
         ],
         [
           "EU-17 & EFTA",
-          53.85
+          52.21
         ],
         [
           "EU-Ost",
-          58.62
+          60.61
         ],
         [
           "Balkan",
-          81.63
+          81.36
         ],
         [
-          "Mittel- & Südamerika",
-          90
+          "Mittel- und Südamerika",
+          72.73
         ],
         [
           "Arabische Länder",
-          86.67
+          84.62
         ],
         [
           "Afrikanische Länder",
-          78.79
+          74.19
         ],
         [
           "Übrige Länder",
-          72.55
+          76.3
         ]
       ],
       "turboThreshold": 0

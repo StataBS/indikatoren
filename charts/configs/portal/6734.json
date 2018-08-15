@@ -7,11 +7,11 @@
       "data": [
         [
           "Schweiz",
-          20.9
+          20.4
         ],
         [
           "Deutschland",
-          12
+          11.7
         ],
         [
           "Italien",
@@ -22,7 +22,7 @@
           0.1
         ],
         [
-          "EU-17 & EFTA",
+          "EU-17 + EFTA",
           1.3
         ],
         [
@@ -34,8 +34,8 @@
           0.1
         ],
         [
-          "Mittel- & Südamerika",
-          2.2
+          "Mittel- und Südamerika",
+          2.4
         ],
         [
           "Arabische Länder",
@@ -43,11 +43,11 @@
         ],
         [
           "Afrikanische Länder",
-          3.6
+          3.4
         ],
         [
           "Übrige Länder",
-          1
+          0.8
         ]
       ],
       "name": "Evangelisch-reformiert",
@@ -60,47 +60,47 @@
       "data": [
         [
           "Schweiz",
-          15.5
+          15.2
         ],
         [
           "Deutschland",
-          15.6
+          15.5
         ],
         [
           "Italien",
-          21.1
+          20.5
         ],
         [
           "Türkei",
           0
         ],
         [
-          "EU-17 & EFTA",
-          9.6
+          "EU-17 + EFTA",
+          9.3
         ],
         [
           "EU-Ost",
-          15.2
+          14.3
         ],
         [
           "Balkan",
           5.8
         ],
         [
-          "Mittel- & Südamerika",
-          19.6
+          "Mittel- und Südamerika",
+          18.7
         ],
         [
           "Arabische Länder",
-          0.4
+          0.6
         ],
         [
           "Afrikanische Länder",
-          11.2
+          10.7
         ],
         [
           "Übrige Länder",
-          4.2
+          4.1
         ]
       ],
       "name": "Römisch-katholisch",
@@ -117,31 +117,31 @@
         ],
         [
           "Deutschland",
-          0.3
+          0.2
         ],
         [
           "Italien",
-          0.8
+          0.6
         ],
         [
           "Türkei",
           0
         ],
         [
-          "EU-17 & EFTA",
-          0.4
+          "EU-17 + EFTA",
+          0.3
         ],
         [
           "EU-Ost",
-          1.1
+          0.8
         ],
         [
           "Balkan",
           0.1
         ],
         [
-          "Mittel- & Südamerika",
-          0.6
+          "Mittel- und Südamerika",
+          0.4
         ],
         [
           "Arabische Länder",
@@ -149,7 +149,7 @@
         ],
         [
           "Afrikanische Länder",
-          0.4
+          0.5
         ],
         [
           "Übrige Länder",
@@ -181,24 +181,24 @@
           0
         ],
         [
-          "EU-17 & EFTA",
-          0.3
+          "EU-17 + EFTA",
+          0.2
         ],
         [
           "EU-Ost",
-          0.2
+          0.3
         ],
         [
           "Balkan",
           0
         ],
         [
-          "Mittel- & Südamerika",
-          0
+          "Mittel- und Südamerika",
+          0.1
         ],
         [
           "Arabische Länder",
-          0.1
+          0
         ],
         [
           "Afrikanische Länder",
@@ -219,47 +219,47 @@
       "data": [
         [
           "Schweiz",
-          11.6
+          12
         ],
         [
           "Deutschland",
-          10.9
+          10.5
         ],
         [
           "Italien",
-          5.5
+          5.9
         ],
         [
           "Türkei",
-          90.9
+          90.5
         ],
         [
-          "EU-17 & EFTA",
-          8.6
+          "EU-17 + EFTA",
+          8.7
         ],
         [
           "EU-Ost",
-          18.3
+          19
         ],
         [
           "Balkan",
-          76.4
+          76.2
         ],
         [
-          "Mittel- & Südamerika",
-          8
+          "Mittel- und Südamerika",
+          7.9
         ],
         [
           "Arabische Länder",
-          84
+          84.3
         ],
         [
           "Afrikanische Länder",
-          56.2
+          57.6
         ],
         [
           "Übrige Länder",
-          51.4
+          51
         ]
       ],
       "name": "Andere",
@@ -272,47 +272,47 @@
       "data": [
         [
           "Schweiz",
-          46.2
+          46.6
         ],
         [
           "Deutschland",
-          59.2
+          59.7
         ],
         [
           "Italien",
-          67
+          66.9
         ],
         [
           "Türkei",
-          7
+          7.3
         ],
         [
-          "EU-17 & EFTA",
-          75.3
+          "EU-17 + EFTA",
+          75.2
         ],
         [
           "EU-Ost",
-          60.1
+          59.7
         ],
         [
           "Balkan",
-          11.9
+          12.3
         ],
         [
-          "Mittel- & Südamerika",
-          65.1
+          "Mittel- und Südamerika",
+          65.8
         ],
         [
           "Arabische Länder",
-          7.8
+          7.6
         ],
         [
           "Afrikanische Länder",
-          21.3
+          20.1
         ],
         [
           "Übrige Länder",
-          40.2
+          40.7
         ]
       ],
       "name": "Keine Zugehörigkeit",
@@ -325,47 +325,47 @@
       "data": [
         [
           "Schweiz",
-          4.8
+          4.9
         ],
         [
           "Deutschland",
-          1.7
+          2
         ],
         [
           "Italien",
-          5.2
+          5.7
         ],
         [
           "Türkei",
-          1.9
+          2
         ],
         [
-          "EU-17 & EFTA",
-          4.6
+          "EU-17 + EFTA",
+          5
         ],
         [
           "EU-Ost",
-          3.1
+          4
         ],
         [
           "Balkan",
-          5.8
+          5.6
         ],
         [
-          "Mittel- & Südamerika",
-          4.4
+          "Mittel- und Südamerika",
+          4.8
         ],
         [
           "Arabische Länder",
-          7.5
-        ],
-        [
-          "Afrikanische Länder",
           7.3
         ],
         [
+          "Afrikanische Länder",
+          7.8
+        ],
+        [
           "Übrige Länder",
-          2.3
+          2.5
         ]
       ],
       "name": "Unbekannt",

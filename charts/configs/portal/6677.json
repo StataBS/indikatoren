@@ -1,47 +1,11 @@
 {
   "series": [
     {
-      "name": "Anzahl",
+      "name": "Polen",
       "data": [
         [
-          "Polen",
-          829
-        ],
-        [
-          "Ungarn",
-          802
-        ],
-        [
-          "Slowakei",
-          575
-        ],
-        [
-          "Rumänien",
-          535
-        ],
-        [
-          "Bulgarien",
-          279
-        ],
-        [
-          "Tschechien",
-          243
-        ],
-        [
-          "Slowenien",
-          206
-        ],
-        [
-          "Litauen",
-          100
-        ],
-        [
-          "Lettland",
-          82
-        ],
-        [
-          "Estland",
-          32
+          "Anzahl",
+          887
         ]
       ],
       "turboThreshold": 0

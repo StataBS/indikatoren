@@ -5,47 +5,47 @@
       "data": [
         [
           "Schweiz",
-          45.33018081
+          45.05
         ],
         [
           "Deutschland",
-          43.1440069
+          42.69
         ],
         [
           "Italien",
-          35.53107107
+          35.63
         ],
         [
           "Türkei",
-          25.18731873
+          25.39
         ],
         [
-          "EU-17 & EFTA",
-          36.27620034
+          "EU-17 + EFTA",
+          36.4
         ],
         [
           "EU-Ost",
-          32.11055899
+          32.2
         ],
         [
           "Balkan",
-          23.67234704
+          23.76
         ],
         [
-          "Mittel- & Südamerika",
-          31.71076327
+          "Mittel- und Südamerika",
+          32.03
         ],
         [
           "Arabische Länder",
-          24.49706392
+          24.71
         ],
         [
           "Afrikanische Länder",
-          24.87899228
+          24.89
         ],
         [
           "Übrige Länder",
-          32.80828855
+          32.65
         ]
       ],
       "turboThreshold": 0

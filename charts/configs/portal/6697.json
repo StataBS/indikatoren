@@ -6,27 +6,27 @@
       "data": [
         [
           "Oberes Kader",
-          90.7
+          96.1
         ],
         [
           "Mittleres Kader",
-          88.1
+          93.8
         ],
         [
           "Mittleres Fachkader",
-          88.5
+          88.6
         ],
         [
           "Unteres Kader",
-          93.7
+          87.1
         ],
         [
           "Unteres Fachkader",
-          95.8
+          90.5
         ],
         [
           "Ohne Kaderfunktion",
-          85.2
+          84.9
         ]
       ],
       "name": "Schweiz",
@@ -38,23 +38,23 @@
       "data": [
         [
           "Oberes Kader",
-          61.3
+          59.8
         ],
         [
           "Mittleres Kader",
-          55
+          52.6
         ],
         [
           "Mittleres Fachkader",
-          38.5
+          39.5
         ],
         [
           "Unteres Kader",
-          55.1
+          56.7
         ],
         [
           "Unteres Fachkader",
-          61.9
+          62.2
         ],
         [
           "Ohne Kaderfunktion",
@@ -70,27 +70,27 @@
       "data": [
         [
           "Oberes Kader",
-          29.3
+          36.2
         ],
         [
           "Mittleres Kader",
-          33.2
+          41.1
         ],
         [
           "Mittleres Fachkader",
-          50
+          49.1
         ],
         [
           "Unteres Kader",
-          38.6
+          30.5
         ],
         [
           "Unteres Fachkader",
-          33.9
+          28.4
         ],
         [
           "Ohne Kaderfunktion",
-          53.3
+          53
         ]
       ],
       "name": "Schweizerinnen",
@@ -102,27 +102,27 @@
       "data": [
         [
           "Oberes Kader",
-          9.3
+          3.9
         ],
         [
           "Mittleres Kader",
-          11.9
+          6.2
         ],
         [
           "Mittleres Fachkader",
-          11.5
+          11.4
         ],
         [
           "Unteres Kader",
-          6.3
+          12.9
         ],
         [
           "Unteres Fachkader",
-          4.2
+          9.5
         ],
         [
           "Ohne Kaderfunktion",
-          14.8
+          15.1
         ]
       ],
       "name": "Ausland",
@@ -134,27 +134,27 @@
       "data": [
         [
           "Oberes Kader",
-          2.7
+          1.6
         ],
         [
           "Mittleres Kader",
-          7.4
-        ],
-        [
-          "Mittleres Fachkader",
-          4.8
-        ],
-        [
-          "Unteres Kader",
           4.3
         ],
         [
+          "Mittleres Fachkader",
+          4.4
+        ],
+        [
+          "Unteres Kader",
+          6.2
+        ],
+        [
           "Unteres Fachkader",
-          1.7
+          2.7
         ],
         [
           "Ohne Kaderfunktion",
-          6
+          5.9
         ]
       ],
       "name": "Ausländer",
@@ -166,27 +166,27 @@
       "data": [
         [
           "Oberes Kader",
-          6.7
+          2.4
         ],
         [
           "Mittleres Kader",
-          4.5
-        ],
-        [
-          "Mittleres Fachkader",
-          6.7
-        ],
-        [
-          "Unteres Kader",
           1.9
         ],
         [
+          "Mittleres Fachkader",
+          7
+        ],
+        [
+          "Unteres Kader",
+          6.7
+        ],
+        [
           "Unteres Fachkader",
-          2.5
+          6.8
         ],
         [
           "Ohne Kaderfunktion",
-          8.9
+          9.2
         ]
       ],
       "name": "Ausländerinnen",

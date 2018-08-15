@@ -7,15 +7,15 @@
       "data": [
         [
           "Männer",
-          23.07
+          22.93
         ],
         [
           "Frauen",
-          22.28
+          22.26
         ],
         [
           "Total",
-          22.69
+          22.61
         ]
       ],
       "name": "Deutschland",
@@ -28,15 +28,15 @@
       "data": [
         [
           "Männer",
-          12.77
+          12.8
         ],
         [
           "Frauen",
-          11
+          10.91
         ],
         [
           "Total",
-          11.91
+          11.88
         ]
       ],
       "name": "Italien",
@@ -49,15 +49,15 @@
       "data": [
         [
           "Männer",
-          8.85
+          8.7
         ],
         [
           "Frauen",
-          8.98
+          8.89
         ],
         [
           "Total",
-          8.91
+          8.79
         ]
       ],
       "name": "Türkei",
@@ -70,18 +70,18 @@
       "data": [
         [
           "Männer",
-          22.75
+          22.74
         ],
         [
           "Frauen",
-          20.3
+          20.28
         ],
         [
           "Total",
-          21.57
+          21.55
         ]
       ],
-      "name": "EU-17 & EFTA",
+      "name": "EU-17 + EFTA",
       "turboThreshold": 0
     },
     {
@@ -91,15 +91,15 @@
       "data": [
         [
           "Männer",
-          4.36
+          4.68
         ],
         [
           "Frauen",
-          6.11
+          6.39
         ],
         [
           "Total",
-          5.2
+          5.5
         ]
       ],
       "name": "EU-Ost",
@@ -112,15 +112,15 @@
       "data": [
         [
           "Männer",
-          11.4
+          11.16
         ],
         [
           "Frauen",
-          12.05
+          11.71
         ],
         [
           "Total",
-          11.71
+          11.42
         ]
       ],
       "name": "Balkan",
@@ -133,18 +133,18 @@
       "data": [
         [
           "Männer",
-          1.79
+          1.77
         ],
         [
           "Frauen",
-          3.11
+          2.99
         ],
         [
           "Total",
-          2.42
+          2.36
         ]
       ],
-      "name": "Mittel- & Südamerika",
+      "name": "Mittel- und Südamerika",
       "turboThreshold": 0
     },
     {
@@ -154,15 +154,15 @@
       "data": [
         [
           "Männer",
-          2.24
+          2.35
         ],
         [
           "Frauen",
-          1.74
+          1.88
         ],
         [
           "Total",
-          2
+          2.12
         ]
       ],
       "name": "Arabische Länder",
@@ -175,15 +175,15 @@
       "data": [
         [
           "Männer",
-          2.55
+          2.6
         ],
         [
           "Frauen",
-          2.21
+          2.28
         ],
         [
           "Total",
-          2.39
+          2.44
         ]
       ],
       "name": "Afrikanische Länder",
@@ -196,15 +196,15 @@
       "data": [
         [
           "Männer",
-          10.23
+          10.28
         ],
         [
           "Frauen",
-          12.22
+          12.43
         ],
         [
           "Total",
-          11.19
+          11.32
         ]
       ],
       "name": "Übrige Länder",

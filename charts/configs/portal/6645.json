@@ -1,47 +1,11 @@
 {
   "series": [
     {
-      "name": "Anzahl",
+      "name": "Deutschland",
       "data": [
         [
-          "Deutschland",
-          16066
-        ],
-        [
-          "Italien",
-          8436
-        ],
-        [
-          "Türkei",
-          6312
-        ],
-        [
-          "EU-17 + EFTA",
-          15272
-        ],
-        [
-          "EU-Ost",
-          3683
-        ],
-        [
-          "Balkan",
-          8293
-        ],
-        [
-          "Mittel- und Südamerika",
-          1717
-        ],
-        [
-          "Arabische Länder",
-          1416
-        ],
-        [
-          "Afrikanische Länder",
-          1691
-        ],
-        [
-          "Übrige Länder",
-          7922
+          "Anzahl",
+          16189
         ]
       ],
       "turboThreshold": 0

@@ -7,15 +7,15 @@
       "data": [
         [
           "Altstadt GB",
-          28.2
+          29.6
         ],
         [
           "Vorstädte",
-          23.5
+          23.1
         ],
         [
           "Am Ring",
-          25.7
+          25.1
         ],
         [
           "Breite",
@@ -23,23 +23,23 @@
         ],
         [
           "St. Alban",
-          22.6
+          21.7
         ],
         [
           "Gundeld.",
-          20.4
+          20.6
         ],
         [
           "Bruderholz",
-          33.1
+          31.8
         ],
         [
           "Bachletten",
-          32.2
+          33
         ],
         [
           "Gotthelf",
-          30.8
+          30.7
         ],
         [
           "Iselin",
@@ -47,47 +47,47 @@
         ],
         [
           "St. Johann",
-          17.7
+          17.6
         ],
         [
           "Altstadt KB",
-          21.9
+          22.4
         ],
         [
           "Clara",
-          15.7
+          15.6
         ],
         [
           "Wettstein",
-          31
+          31.9
         ],
         [
           "Hirzbrun.",
-          27.3
+          26.6
         ],
         [
           "Rosental",
-          16
+          15.6
         ],
         [
           "Matthäus",
-          17.1
+          17.5
         ],
         [
           "Klybeck",
-          11
+          10.8
         ],
         [
           "Kleinhün.",
-          14.1
+          13.7
         ],
         [
           "Riehen",
-          43.3
+          43
         ],
         [
           "Bettingen",
-          63.7
+          58.7
         ]
       ],
       "name": "Deutschland",
@@ -100,7 +100,7 @@
       "data": [
         [
           "Altstadt GB",
-          9.7
+          9.1
         ],
         [
           "Vorstädte",
@@ -108,79 +108,79 @@
         ],
         [
           "Am Ring",
-          12.2
-        ],
-        [
-          "Breite",
-          12.7
-        ],
-        [
-          "St. Alban",
-          10.2
-        ],
-        [
-          "Gundeld.",
-          12.8
-        ],
-        [
-          "Bruderholz",
-          10.8
-        ],
-        [
-          "Bachletten",
-          12.9
-        ],
-        [
-          "Gotthelf",
-          11.4
-        ],
-        [
-          "Iselin",
-          14.3
-        ],
-        [
-          "St. Johann",
-          11.3
-        ],
-        [
-          "Altstadt KB",
-          10.7
-        ],
-        [
-          "Clara",
-          12.2
-        ],
-        [
-          "Wettstein",
           11.8
         ],
         [
-          "Hirzbrun.",
-          14.4
+          "Breite",
+          12.9
         ],
         [
-          "Rosental",
-          8.9
+          "St. Alban",
+          9.6
         ],
         [
-          "Matthäus",
-          11
+          "Gundeld.",
+          12.7
         ],
         [
-          "Klybeck",
-          15.2
+          "Bruderholz",
+          11.6
         ],
         [
-          "Kleinhün.",
-          14.4
+          "Bachletten",
+          12.3
         ],
         [
-          "Riehen",
+          "Gotthelf",
+          11.7
+        ],
+        [
+          "Iselin",
+          13.8
+        ],
+        [
+          "St. Johann",
+          11.5
+        ],
+        [
+          "Altstadt KB",
           9.9
         ],
         [
+          "Clara",
+          12.5
+        ],
+        [
+          "Wettstein",
+          13.1
+        ],
+        [
+          "Hirzbrun.",
+          14.2
+        ],
+        [
+          "Rosental",
+          8.7
+        ],
+        [
+          "Matthäus",
+          11.2
+        ],
+        [
+          "Klybeck",
+          14.5
+        ],
+        [
+          "Kleinhün.",
+          15
+        ],
+        [
+          "Riehen",
+          10.2
+        ],
+        [
           "Bettingen",
-          5.4
+          6.3
         ]
       ],
       "name": "Italien",
@@ -193,19 +193,19 @@
       "data": [
         [
           "Altstadt GB",
-          3.2
+          3.7
         ],
         [
           "Vorstädte",
-          2.5
+          2.3
         ],
         [
           "Am Ring",
-          3.4
+          2.9
         ],
         [
           "Breite",
-          9.1
+          9.3
         ],
         [
           "St. Alban",
@@ -213,63 +213,63 @@
         ],
         [
           "Gundeld.",
-          14.1
+          13.6
         ],
         [
           "Bruderholz",
-          3.3
-        ],
-        [
-          "Bachletten",
           3.6
         ],
         [
+          "Bachletten",
+          3.7
+        ],
+        [
           "Gotthelf",
-          4
+          4.2
         ],
         [
           "Iselin",
-          12
+          12.5
         ],
         [
           "St. Johann",
-          11.3
+          11.1
         ],
         [
           "Altstadt KB",
-          3.9
+          4
         ],
         [
           "Clara",
-          6.2
+          6.5
         ],
         [
           "Wettstein",
-          4.8
+          5.1
         ],
         [
           "Hirzbrun.",
-          12.1
+          12.2
         ],
         [
           "Rosental",
-          9.9
+          9.5
         ],
         [
           "Matthäus",
-          9.8
+          9.7
         ],
         [
           "Klybeck",
-          15.5
+          15
         ],
         [
           "Kleinhün.",
-          13.2
+          12.9
         ],
         [
           "Riehen",
-          4.9
+          4.6
         ],
         [
           "Bettingen",
@@ -286,67 +286,67 @@
       "data": [
         [
           "Altstadt GB",
-          29.6
+          28.7
         ],
         [
           "Vorstädte",
-          29.9
+          31
         ],
         [
           "Am Ring",
-          26.7
+          27
         ],
         [
           "Breite",
-          21.3
+          21.5
         ],
         [
           "St. Alban",
-          30.2
+          28.5
         ],
         [
           "Gundeld.",
-          16.6
+          17.9
         ],
         [
           "Bruderholz",
-          28
+          27.7
         ],
         [
           "Bachletten",
-          24.6
+          25.4
         ],
         [
           "Gotthelf",
-          23.5
+          22.6
         ],
         [
           "Iselin",
-          21.3
+          20.3
         ],
         [
           "St. Johann",
-          24.2
+          23.9
         ],
         [
           "Altstadt KB",
-          24
+          23.6
         ],
         [
           "Clara",
-          20
+          19.2
         ],
         [
           "Wettstein",
-          22.7
+          23.5
         ],
         [
           "Hirzbrun.",
-          17.6
+          17.5
         ],
         [
           "Rosental",
-          18.7
+          18.3
         ],
         [
           "Matthäus",
@@ -354,22 +354,22 @@
         ],
         [
           "Klybeck",
-          19
+          19.5
         ],
         [
           "Kleinhün.",
-          11.2
+          11.3
         ],
         [
           "Riehen",
-          18
+          17.9
         ],
         [
           "Bettingen",
-          13.6
+          13.5
         ]
       ],
-      "name": "EU-17 & EFTA",
+      "name": "EU-17 + EFTA",
       "turboThreshold": 0
     },
     {
@@ -383,39 +383,39 @@
         ],
         [
           "Vorstädte",
-          7.5
+          6.9
         ],
         [
           "Am Ring",
-          5.9
+          6.6
         ],
         [
           "Breite",
-          6.1
+          6.2
         ],
         [
           "St. Alban",
-          5.1
+          5.3
         ],
         [
           "Gundeld.",
-          4.2
+          4.5
         ],
         [
           "Bruderholz",
-          5.6
+          5.9
         ],
         [
           "Bachletten",
-          4.8
+          5
         ],
         [
           "Gotthelf",
-          5.2
+          6
         ],
         [
           "Iselin",
-          5.3
+          5.6
         ],
         [
           "St. Johann",
@@ -423,43 +423,43 @@
         ],
         [
           "Altstadt KB",
-          10.7
+          10
         ],
         [
           "Clara",
-          5.6
+          5.1
         ],
         [
           "Wettstein",
-          4.2
+          4.8
         ],
         [
           "Hirzbrun.",
-          5
+          5.8
         ],
         [
           "Rosental",
-          6.2
+          6
         ],
         [
           "Matthäus",
-          4.5
+          5
         ],
         [
           "Klybeck",
-          5.3
+          6.1
         ],
         [
           "Kleinhün.",
-          4.7
+          5
         ],
         [
           "Riehen",
-          3.8
+          4.7
         ],
         [
           "Bettingen",
-          6.1
+          5.6
         ]
       ],
       "name": "EU-Ost",
@@ -472,19 +472,19 @@
       "data": [
         [
           "Altstadt GB",
-          1.3
+          1.9
         ],
         [
           "Vorstädte",
-          3.5
+          3.3
         ],
         [
           "Am Ring",
-          5
+          4.8
         ],
         [
           "Breite",
-          14.3
+          13.6
         ],
         [
           "St. Alban",
@@ -492,7 +492,7 @@
         ],
         [
           "Gundeld.",
-          16
+          15.2
         ],
         [
           "Bruderholz",
@@ -504,7 +504,7 @@
         ],
         [
           "Gotthelf",
-          7.5
+          7.2
         ],
         [
           "Iselin",
@@ -512,15 +512,15 @@
         ],
         [
           "St. Johann",
-          12.6
+          12.4
         ],
         [
           "Altstadt KB",
-          8.8
+          9.1
         ],
         [
           "Clara",
-          18.1
+          17.3
         ],
         [
           "Wettstein",
@@ -528,31 +528,31 @@
         ],
         [
           "Hirzbrun.",
-          11.4
+          10.6
         ],
         [
           "Rosental",
-          15
+          15.6
         ],
         [
           "Matthäus",
-          17.8
+          17.2
         ],
         [
           "Klybeck",
-          20.2
+          19.7
         ],
         [
           "Kleinhün.",
-          21.2
+          21.9
         ],
         [
           "Riehen",
-          6.2
+          6.1
         ],
         [
           "Bettingen",
-          1.4
+          1.7
         ]
       ],
       "name": "Balkan",
@@ -565,7 +565,7 @@
       "data": [
         [
           "Altstadt GB",
-          0.6
+          1
         ],
         [
           "Vorstädte",
@@ -573,15 +573,15 @@
         ],
         [
           "Am Ring",
-          1.9
+          2.1
         ],
         [
           "Breite",
-          3.2
+          3
         ],
         [
           "St. Alban",
-          3.2
+          3.1
         ],
         [
           "Gundeld.",
@@ -589,19 +589,19 @@
         ],
         [
           "Bruderholz",
-          2
+          2.3
         ],
         [
           "Bachletten",
-          2.2
+          2.3
         ],
         [
           "Gotthelf",
-          2.5
+          2.1
         ],
         [
           "Iselin",
-          2.6
+          2.4
         ],
         [
           "St. Johann",
@@ -609,19 +609,19 @@
         ],
         [
           "Altstadt KB",
-          3.6
+          3.2
         ],
         [
           "Clara",
-          2.8
+          2.9
         ],
         [
           "Wettstein",
-          1.8
+          1.7
         ],
         [
           "Hirzbrun.",
-          3
+          2.5
         ],
         [
           "Rosental",
@@ -633,22 +633,22 @@
         ],
         [
           "Klybeck",
-          1.9
+          1.8
         ],
         [
           "Kleinhün.",
-          2
+          1.9
         ],
         [
           "Riehen",
-          2.4
+          2.1
         ],
         [
           "Bettingen",
-          0.7
+          1
         ]
       ],
-      "name": "Mittel- & Südamerika",
+      "name": "Mittel- und Südamerika",
       "turboThreshold": 0
     },
     {
@@ -662,7 +662,7 @@
         ],
         [
           "Vorstädte",
-          0.8
+          1
         ],
         [
           "Am Ring",
@@ -670,27 +670,27 @@
         ],
         [
           "Breite",
-          1.2
+          1.5
         ],
         [
           "St. Alban",
-          1
+          2.6
         ],
         [
           "Gundeld.",
-          2.4
+          2.3
         ],
         [
           "Bruderholz",
-          0.9
+          1
         ],
         [
           "Bachletten",
-          1.6
+          1.7
         ],
         [
           "Gotthelf",
-          1.7
+          1.8
         ],
         [
           "Iselin",
@@ -698,27 +698,27 @@
         ],
         [
           "St. Johann",
-          2.1
+          2.2
         ],
         [
           "Altstadt KB",
-          1.6
+          2
         ],
         [
           "Clara",
-          1.9
+          2.1
         ],
         [
           "Wettstein",
-          2.6
+          1.1
         ],
         [
           "Hirzbrun.",
-          1.2
+          1.5
         ],
         [
           "Rosental",
-          1.8
+          2.2
         ],
         [
           "Matthäus",
@@ -726,19 +726,19 @@
         ],
         [
           "Klybeck",
-          2.6
+          2.8
         ],
         [
           "Kleinhün.",
-          6.3
+          5.3
         ],
         [
           "Riehen",
-          1.3
+          1.5
         ],
         [
           "Bettingen",
-          0.7
+          0.3
         ]
       ],
       "name": "Arabische Länder",
@@ -751,39 +751,39 @@
       "data": [
         [
           "Altstadt GB",
-          2.2
+          2.4
         ],
         [
           "Vorstädte",
-          1
-        ],
-        [
-          "Am Ring",
-          2.6
-        ],
-        [
-          "Breite",
-          2
-        ],
-        [
-          "St. Alban",
           0.9
         ],
         [
+          "Am Ring",
+          2.5
+        ],
+        [
+          "Breite",
+          2.1
+        ],
+        [
+          "St. Alban",
+          1.2
+        ],
+        [
           "Gundeld.",
-          2.2
+          2.1
         ],
         [
           "Bruderholz",
-          0.6
+          0.8
         ],
         [
           "Bachletten",
-          1.4
+          1.3
         ],
         [
           "Gotthelf",
-          1.8
+          2
         ],
         [
           "Iselin",
@@ -791,47 +791,47 @@
         ],
         [
           "St. Johann",
-          2.8
-        ],
-        [
-          "Altstadt KB",
-          2.1
-        ],
-        [
-          "Clara",
-          1.8
-        ],
-        [
-          "Wettstein",
-          3.3
-        ],
-        [
-          "Hirzbrun.",
-          1.6
-        ],
-        [
-          "Rosental",
           2.9
         ],
         [
+          "Altstadt KB",
+          2.2
+        ],
+        [
+          "Clara",
+          2
+        ],
+        [
+          "Wettstein",
+          1.6
+        ],
+        [
+          "Hirzbrun.",
+          2
+        ],
+        [
+          "Rosental",
+          3
+        ],
+        [
           "Matthäus",
-          3.5
+          3.9
         ],
         [
           "Klybeck",
-          3.7
+          4.1
         ],
         [
           "Kleinhün.",
-          4.3
+          3.7
         ],
         [
           "Riehen",
-          1.3
+          1.2
         ],
         [
           "Bettingen",
-          2.7
+          3.5
         ]
       ],
       "name": "Afrikanische Länder",
@@ -844,15 +844,15 @@
       "data": [
         [
           "Altstadt GB",
-          21
+          19.4
         ],
         [
           "Vorstädte",
-          17.6
+          17.8
         ],
         [
           "Am Ring",
-          15.3
+          15.9
         ],
         [
           "Breite",
@@ -860,71 +860,71 @@
         ],
         [
           "St. Alban",
-          15.5
+          16.6
         ],
         [
           "Gundeld.",
-          8.8
+          8.7
         ],
         [
           "Bruderholz",
-          12.4
-        ],
-        [
-          "Bachletten",
-          11.2
-        ],
-        [
-          "Gotthelf",
-          11.5
-        ],
-        [
-          "Iselin",
-          9.3
-        ],
-        [
-          "St. Johann",
-          9.7
-        ],
-        [
-          "Altstadt KB",
-          12.4
-        ],
-        [
-          "Clara",
-          15.7
-        ],
-        [
-          "Wettstein",
-          13.2
-        ],
-        [
-          "Hirzbrun.",
-          6.4
-        ],
-        [
-          "Rosental",
-          17.9
-        ],
-        [
-          "Matthäus",
           12
         ],
         [
+          "Bachletten",
+          10.1
+        ],
+        [
+          "Gotthelf",
+          11.8
+        ],
+        [
+          "Iselin",
+          10
+        ],
+        [
+          "St. Johann",
+          10.1
+        ],
+        [
+          "Altstadt KB",
+          13.6
+        ],
+        [
+          "Clara",
+          16.7
+        ],
+        [
+          "Wettstein",
+          12.7
+        ],
+        [
+          "Hirzbrun.",
+          6.9
+        ],
+        [
+          "Rosental",
+          18.4
+        ],
+        [
+          "Matthäus",
+          11.1
+        ],
+        [
           "Klybeck",
-          5.5
+          5.7
         ],
         [
           "Kleinhün.",
-          8.5
+          9.2
         ],
         [
           "Riehen",
-          8.9
+          8.7
         ],
         [
           "Bettingen",
-          5.4
+          9
         ]
       ],
       "name": "Übrige Länder",

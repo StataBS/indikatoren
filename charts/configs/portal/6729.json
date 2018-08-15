@@ -4,12 +4,12 @@
       "color": "#661200",
       "data": [
         [
-          "10-14 Jahre",
-          9.9
+          "10 bis 14 Jahre",
+          11.9
         ],
         [
-          "15-17 Jahre",
-          34.9
+          "15 bis 17 Jahre",
+          49.1
         ]
       ],
       "name": "Schweizer",
@@ -19,12 +19,12 @@
       "color": "#dc440e",
       "data": [
         [
-          "10-14 Jahre",
-          4.4
+          "10 bis 14 Jahre",
+          3.5
         ],
         [
-          "15-17 Jahre",
-          9.2
+          "15 bis 17 Jahre",
+          10.6
         ]
       ],
       "name": "Schweizerinnen",
@@ -34,12 +34,12 @@
       "color": "#7f5f1a",
       "data": [
         [
-          "10-14 Jahre",
-          10.4
+          "10 bis 14 Jahre",
+          8.7
         ],
         [
-          "15-17 Jahre",
-          39.5
+          "15 bis 17 Jahre",
+          37.7
         ]
       ],
       "name": "Ausländer",
@@ -49,12 +49,12 @@
       "color": "#ffda80",
       "data": [
         [
-          "10-14 Jahre",
-          8.6
+          "10 bis 14 Jahre",
+          12.2
         ],
         [
-          "15-17 Jahre",
-          15.7
+          "15 bis 17 Jahre",
+          20.9
         ]
       ],
       "name": "Ausländerinnen",

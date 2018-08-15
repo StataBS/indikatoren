@@ -18,7 +18,7 @@
           71
         ],
         [
-          " ",
+          "undefined",
           null
         ],
         [
@@ -34,7 +34,7 @@
           86
         ],
         [
-          "  ",
+          "undefined",
           null
         ],
         [
@@ -50,7 +50,7 @@
           41
         ],
         [
-          "   ",
+          "undefined",
           null
         ],
         [
@@ -66,7 +66,7 @@
           83
         ],
         [
-          "    ",
+          "undefined",
           null
         ],
         [
@@ -82,7 +82,7 @@
           70
         ]
       ],
-      "name": "Sehr grosse",
+      "name": "Sehr zufrieden",
       "turboThreshold": 0
     },
     {
@@ -103,7 +103,7 @@
           87
         ],
         [
-          " ",
+          "undefined",
           null
         ],
         [
@@ -119,7 +119,7 @@
           105
         ],
         [
-          "  ",
+          "undefined",
           null
         ],
         [
@@ -135,7 +135,7 @@
           98
         ],
         [
-          "   ",
+          "undefined",
           null
         ],
         [
@@ -151,7 +151,7 @@
           93
         ],
         [
-          "    ",
+          "undefined",
           null
         ],
         [
@@ -167,7 +167,7 @@
           100
         ]
       ],
-      "name": "Eher grosse",
+      "name": "Eher zufrieden",
       "turboThreshold": 0
     },
     {
@@ -188,7 +188,7 @@
           9
         ],
         [
-          " ",
+          "undefined",
           null
         ],
         [
@@ -204,7 +204,7 @@
           18
         ],
         [
-          "  ",
+          "undefined",
           null
         ],
         [
@@ -220,7 +220,7 @@
           25
         ],
         [
-          "   ",
+          "undefined",
           null
         ],
         [
@@ -236,7 +236,7 @@
           22
         ],
         [
-          "    ",
+          "undefined",
           null
         ],
         [
@@ -252,7 +252,7 @@
           21
         ]
       ],
-      "name": "Eher nicht so grosse",
+      "name": "Eher unzufrieden",
       "turboThreshold": 0
     },
     {
@@ -273,7 +273,7 @@
           1
         ],
         [
-          " ",
+          "undefined",
           null
         ],
         [
@@ -289,7 +289,7 @@
           1
         ],
         [
-          "  ",
+          "undefined",
           null
         ],
         [
@@ -305,7 +305,7 @@
           2
         ],
         [
-          "   ",
+          "undefined",
           null
         ],
         [
@@ -321,7 +321,7 @@
           3
         ],
         [
-          "    ",
+          "undefined",
           null
         ],
         [
@@ -337,7 +337,7 @@
           5
         ]
       ],
-      "name": "Gar keine",
+      "name": "Sehr unzufrieden",
       "turboThreshold": 0
     },
     {
@@ -358,7 +358,7 @@
           5
         ],
         [
-          " ",
+          "undefined",
           null
         ],
         [
@@ -374,7 +374,7 @@
           4
         ],
         [
-          "  ",
+          "undefined",
           null
         ],
         [
@@ -390,7 +390,7 @@
           12
         ],
         [
-          "   ",
+          "undefined",
           null
         ],
         [
@@ -406,7 +406,7 @@
           9
         ],
         [
-          "    ",
+          "undefined",
           null
         ],
         [
@@ -422,7 +422,7 @@
           10
         ]
       ],
-      "name": "Weiss nicht \u002F keine Angabe",
+      "name": "Weiss nicht \u002F Keine Angabe",
       "turboThreshold": 0
     }
   ],

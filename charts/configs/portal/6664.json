@@ -9,43 +9,43 @@
         ],
         [
           "Deutschland",
-          -2.7
+          -2.5
         ],
         [
           "Italien",
-          -14.6
+          -14.4
         ],
         [
           "Türkei",
-          -4.3
+          -3.9
         ],
         [
-          "EU-17 & EFTA",
-          -4.2
+          "EU-17 + EFTA",
+          -4.6
         ],
         [
           "EU-Ost",
-          -1
+          -2.7
         ],
         [
           "Balkan",
-          -6.5
+          -6.9
         ],
         [
-          "Mittel- & Südamerika",
-          -6.3
+          "Mittel- und Südamerika",
+          -4.8
         ],
         [
           "Arabische Länder",
-          10
+          6.2
         ],
         [
           "Afrikanische Länder",
-          3.1
+          3.4
         ],
         [
           "Übrige Länder",
-          1.3
+          0.2
         ]
       ],
       "turboThreshold": 0

@@ -7,11 +7,11 @@
       "data": [
         [
           "Schweizer",
-          23.08
+          13.74
         ],
         [
           "Ausländer",
-          18.84
+          27.4
         ]
       ],
       "name": "Diebstahl",
@@ -24,11 +24,11 @@
       "data": [
         [
           "Schweizer",
-          9.62
+          10.69
         ],
         [
           "Ausländer",
-          1.45
+          4.11
         ]
       ],
       "name": "Sachbeschädigung",
@@ -41,11 +41,11 @@
       "data": [
         [
           "Schweizer",
-          4.81
+          3.82
         ],
         [
           "Ausländer",
-          4.35
+          8.22
         ]
       ],
       "name": "Körperverletzung",
@@ -58,11 +58,11 @@
       "data": [
         [
           "Schweizer",
-          17.31
+          22.9
         ],
         [
           "Ausländer",
-          21.74
+          9.59
         ]
       ],
       "name": "Betäubungsmittelkonsum",
@@ -75,11 +75,11 @@
       "data": [
         [
           "Schweizer",
-          3.85
+          5.34
         ],
         [
           "Ausländer",
-          2.9
+          8.22
         ]
       ],
       "name": "Tätlichkeit",
@@ -92,11 +92,11 @@
       "data": [
         [
           "Schweizer",
-          41.35
+          43.51
         ],
         [
           "Ausländer",
-          50.72
+          42.47
         ]
       ],
       "name": "Übrige",

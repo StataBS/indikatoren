@@ -6,39 +6,39 @@
       "data": [
         [
           "Italien",
-          444
+          419
         ],
         [
           "Türkei",
-          72
+          107
         ],
         [
           "EU-17 & EFTA",
-          1089
+          805
         ],
         [
           "EU-Ost",
-          469
+          478
         ],
         [
           "Balkan",
           156
         ],
         [
-          "Mittel- & Südamerika",
-          140
+          "Mittel- und Südamerika",
+          149
         ],
         [
           "Arabische Länder",
-          67
+          65
         ],
         [
           "Afrikanische Länder",
-          54
+          73
         ],
         [
           "Übrige Länder",
-          628
+          818
         ]
       ],
       "name": "Ausgestellte Gutscheine",
@@ -50,39 +50,39 @@
       "data": [
         [
           "Italien",
-          167
+          198
         ],
         [
           "Türkei",
-          56
+          68
         ],
         [
           "EU-17 & EFTA",
-          359
+          394
         ],
         [
           "EU-Ost",
-          158
+          190
         ],
         [
           "Balkan",
-          105
+          97
         ],
         [
-          "Mittel- & Südamerika",
-          88
+          "Mittel- und Südamerika",
+          99
         ],
         [
           "Arabische Länder",
-          27
+          47
         ],
         [
           "Afrikanische Länder",
-          26
+          41
         ],
         [
           "Übrige Länder",
-          253
+          298
         ]
       ],
       "name": "Eingelöste Gutscheine",

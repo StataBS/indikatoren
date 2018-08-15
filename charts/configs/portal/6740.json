@@ -18,7 +18,7 @@
           87
         ],
         [
-          " ",
+          "undefined",
           null
         ],
         [
@@ -34,7 +34,7 @@
           110
         ],
         [
-          "  ",
+          "undefined",
           null
         ],
         [
@@ -50,12 +50,12 @@
           89
         ],
         [
-          "   ",
+          "undefined",
           null
         ],
         [
-          "2005 Total 807",
-          387
+          "2005 Total",
+          807
         ],
         [
           "2005 Schweiz",
@@ -66,7 +66,7 @@
           119
         ],
         [
-          "     ",
+          "undefined",
           null
         ],
         [
@@ -103,7 +103,7 @@
           56
         ],
         [
-          " ",
+          "undefined",
           null
         ],
         [
@@ -119,7 +119,7 @@
           59
         ],
         [
-          "  ",
+          "undefined",
           null
         ],
         [
@@ -135,12 +135,12 @@
           56
         ],
         [
-          "   ",
+          "undefined",
           null
         ],
         [
-          "2005 Total 807",
-          101
+          "2005 Total",
+          387
         ],
         [
           "2005 Schweiz",
@@ -151,7 +151,7 @@
           59
         ],
         [
-          "     ",
+          "undefined",
           null
         ],
         [
@@ -188,7 +188,7 @@
           4
         ],
         [
-          " ",
+          "undefined",
           null
         ],
         [
@@ -204,7 +204,7 @@
           8
         ],
         [
-          "  ",
+          "undefined",
           null
         ],
         [
@@ -220,12 +220,12 @@
           15
         ],
         [
-          "   ",
+          "undefined",
           null
         ],
         [
-          "2005 Total 807",
-          13
+          "2005 Total",
+          101
         ],
         [
           "2005 Schweiz",
@@ -236,7 +236,7 @@
           11
         ],
         [
-          "     ",
+          "undefined",
           null
         ],
         [
@@ -273,7 +273,7 @@
           1
         ],
         [
-          " ",
+          "undefined",
           null
         ],
         [
@@ -289,7 +289,7 @@
           2
         ],
         [
-          "  ",
+          "undefined",
           null
         ],
         [
@@ -305,12 +305,12 @@
           1
         ],
         [
-          "   ",
+          "undefined",
           null
         ],
         [
-          "2005 Total 807",
-          4
+          "2005 Total",
+          13
         ],
         [
           "2005 Schweiz",
@@ -321,7 +321,7 @@
           1
         ],
         [
-          "     ",
+          "undefined",
           null
         ],
         [
@@ -358,7 +358,7 @@
           1
         ],
         [
-          " ",
+          "undefined",
           null
         ],
         [
@@ -374,7 +374,7 @@
           0
         ],
         [
-          "  ",
+          "undefined",
           null
         ],
         [
@@ -390,12 +390,12 @@
           1
         ],
         [
-          "   ",
+          "undefined",
           null
         ],
         [
-          "2005 Total 807",
-          null
+          "2005 Total",
+          4
         ],
         [
           "2005 Schweiz",
@@ -406,7 +406,7 @@
           1
         ],
         [
-          "     ",
+          "undefined",
           null
         ],
         [
@@ -422,7 +422,7 @@
           1
         ]
       ],
-      "name": "Weiss nicht \u002F keine Angabe",
+      "name": "Weiss nicht \u002F Keine Angabe",
       "turboThreshold": 0
     }
   ],

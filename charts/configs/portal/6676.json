@@ -1,51 +1,11 @@
 {
   "series": [
     {
-      "name": "Anzahl",
+      "name": "Spanien",
       "data": [
         [
-          "Spanien",
-          3718
-        ],
-        [
-          "Portugal",
-          3390
-        ],
-        [
-          "Vereinigtes Königreich",
-          2216
-        ],
-        [
-          "Frankreich",
-          2094
-        ],
-        [
-          "Österreich",
-          1221
-        ],
-        [
-          "Niederlande",
-          734
-        ],
-        [
-          "Griechenland",
-          394
-        ],
-        [
-          "Schweden",
-          312
-        ],
-        [
-          "Belgien",
-          295
-        ],
-        [
-          "Irland",
-          294
-        ],
-        [
-          "Übrige",
-          604
+          "Anzahl",
+          3689
         ]
       ],
       "turboThreshold": 0

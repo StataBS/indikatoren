@@ -1,27 +1,27 @@
 {
   "series": [
     {
-      "name": "Arithmetisches Mitteld der Jahre 2006-2016",
+      "name": "Arithmetisches Mittel der Jahre 2007-2017",
       "data": [
         [
           "Schweiz",
-          1.13
+          1.15
         ],
         [
           "Deutschland",
-          1.09
+          1.11
         ],
         [
           "Italien",
-          1.08
+          1.09
         ],
         [
           "Türkei",
-          2.04
+          1.99
         ],
         [
           "EU-17 + EFTA",
-          1.3
+          1.31
         ],
         [
           "EU-Ost",
@@ -29,23 +29,23 @@
         ],
         [
           "Balkan",
-          2.15
+          2.14
         ],
         [
-          "Nord-, Mittel- und Südamerika",
-          1.59
+          "Mittel- und Südamerika",
+          1.58
         ],
         [
           "Arabische Länder",
-          3.37
+          3.4
         ],
         [
           "Afrikanische Länder",
-          2.56
+          2.64
         ],
         [
           "Übrige Länder",
-          1.57
+          1.54
         ]
       ],
       "turboThreshold": 0

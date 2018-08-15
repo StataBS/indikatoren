@@ -1,35 +1,11 @@
 {
   "series": [
     {
-      "name": "Anzahl",
+      "name": "Indien",
       "data": [
         [
-          "Indien",
-          1614
-        ],
-        [
-          "Vereinigte Staaten",
-          1481
-        ],
-        [
-          "Sri Lanka",
-          860
-        ],
-        [
-          "China",
-          489
-        ],
-        [
-          "Thailand",
-          427
-        ],
-        [
-          "Russland",
-          403
-        ],
-        [
-          "Übrige",
-          2648
+          "Anzahl",
+          1651
         ]
       ],
       "turboThreshold": 0
