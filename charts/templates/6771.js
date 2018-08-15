@@ -96,7 +96,7 @@
 							'<table>'
 							+'<tr><td><span style="color:' + this.color + '">●</span></td> <td>' + this.series.name + ': </td> <td><b>' + Highcharts.numberFormat((this.value),2) + '</b></td></tr><br/>';
 						//add a tooltip row for each column
-						Highcharts.each(columnSeries.points, function(element, index, array){
+						Highcharts.each(columnSeries.points || [], function(element, index, array){
 							(columnSeries.visible) ? tooltipText += ('<tr><td><span style="color:' + element.color + '">●</span></td> <td>' + element.name + ': </td> <td><b>' + Highcharts.numberFormat((element.y),2) + '</b></td></tr><br/>') : undefined ;	
 						});
 						tooltipText += '</table>';

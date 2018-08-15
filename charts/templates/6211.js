@@ -9,7 +9,7 @@
     },
     "min": 0,
     "max": undefined,
-    "title": ""
+    "title": "", 
   },
   {
     "title": {

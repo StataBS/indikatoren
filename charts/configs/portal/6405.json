@@ -6,7 +6,7 @@
       "legendIndex": 0,
       "data": [
         [
-          "Schweizer\u002F-innnen seit Geburt",
+          "Schweizer\u002F-innen seit Geburt",
           42828.087461
         ],
         [
@@ -27,7 +27,7 @@
       "legendIndex": 1,
       "data": [
         [
-          "Schweizer\u002F-innnen seit Geburt",
+          "Schweizer\u002F-innen seit Geburt",
           354.926569
         ],
         [
@@ -63,7 +63,7 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-      	return this.value.replace(" ", "<br/>");
+      	return this.value;
       }
     }
   },

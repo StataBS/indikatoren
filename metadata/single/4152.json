@@ -1,38 +1,29 @@
-{
- "title": "Haushalte mit Familienmietzinsbeiträgen",
- "subtitle": "",
- "kuerzel": "I.13.2.04152",
- "kuerzelKunde": "4.1.A",
- "description": "Haushalte mit Familienmietzinsbeiträgen",
- "id": 4152,
- "thema": "13 Soziale Sicherheit",
- "unterthema": "Sozialleistungen",
- "kennzahlenset": "Wohnraumentwicklung",
- "raeumlicheGliederung": [
-  "Kanton"
- ],
- "aktualisierungsdatum": "2017-03-22T17:53:45.4545",
- "schlagwort": [
-  "Familie"
- ],
- "stufe1": "Ziel 4: Sozialpolitik",
- "stufe2": "4.1 Unterstützung Benachteiligter",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist im gesamten Beobachtungszeitraum stark angestiegen.",
- "erlaeuterungen": "FAMI = Familienmietzinsbeiträge",
- "template": "template001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "05_01_00_00_00_000",
- "parentId": null,
- "children": [],
- "renderLink": [],
- "quellenangabe": [
-  "Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Haushalte mit Familienmietzinsbeiträgen",
+"subtitle":"Basel-Stadt",
+"kuerzel":"I.13.2.4152",
+"kuerzelKunde":"4.1.A",
+"description":"Haushalte mit Familienmietzinsbeiträgen",
+"id":4152,
+"thema":"13 Soziale Sicherheit",
+"unterthema":"Sozialleistungen",
+"kennzahlenset":"Wohnraumentwicklung",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2018-08-15T12:00:00.0000",
+"stufe1":"Ziel 4: Sozialpolitik",
+"stufe2":"4.1 Unterstützung Benachteiligter",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist im gesamten Beobachtungszeitraum stark angestiegen. Ende 2017 beziehen 2 225 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,3% aller Haushalte im Kanton Basel-Stadt.",
+"erlaeuterungen":"Die Familienmietzinsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
+"template":"template001",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"05_01_00_00_00_000",
+"parentId":null,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"],
+"externalLinks":[""]
 }

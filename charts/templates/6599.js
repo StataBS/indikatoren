@@ -19,12 +19,10 @@
     "tickInterval": 1
   },  
   "yAxis": {
-  	 //max: 120000,
-     //tickInterval: 60000,
+  	 max: 75000,
     "labels": {
       "format": "{value:,.0f}",
     },
-	"max": undefined
   },
   "legend": {
     "enabled": true,

@@ -3247,7 +3247,7 @@
 							'<table>'
 							+'<tr><td><span style="color:' + this.color + '">●</span></td> <td>' + this.series.name + ': </td> <td><b>' + Highcharts.numberFormat((this.value),2) + '</b></td></tr><br/>';
 						//add a tooltip row for each column
-						Highcharts.each(columnSeries.points, function(element, index, array){
+						Highcharts.each(columnSeries.points || [], function(element, index, array){
 							(columnSeries.visible) ? tooltipText += ('<tr><td><span style="color:' + element.color + '">●</span></td> <td>' + element.name + ': </td> <td><b>' + Highcharts.numberFormat((element.y),2) + '</b></td></tr><br/>') : undefined ;	
 						});
 						tooltipText += '</table>';
@@ -3912,7 +3912,7 @@
                 	//Add manually drawn legend	
                 	var legendTop = 220;
                 	var legendLeft = 365;
-	                fn.addLegendTitle(chart, 'Wanderung/Umzug', 265, 220); 
+	                fn.addLegendTitle(chart, 265, 220, 'Wanderung/Umzug'); 
 	                
 	                fn.addLegendColumnChart(chart, legendLeft+35,  legendTop+45,  legendColumnValues, color, 'columnLegendHideOnZoom');
 	                
@@ -3929,7 +3929,7 @@
 					fn.addLegendText(chart,        legendLeft-80, legendTop+62,  'Umzug positiv');
 					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+67, 10, color(-1, 1));
 					fn.addLegendText(chart,        legendLeft-80, legendTop+77 , 'Umzug negativ');
-					fn.addLegendTextbold(chart,    legendLeft-98, legendTop+100 , 'Bevölkerungssaldo');	
+					//fn.addLegendTitle(chart,    legendLeft-98, legendTop+100 , 'Bevölkerungssaldo');	
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+105 , 'Bewegung pro 100 Einwohner');
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+108 , '(Saldo total)');
 					
@@ -4021,10 +4021,10 @@
     "floating": true,
     "title": {
       "style": {
-        "fontWeight": "normal",
-        "fontSize": "11px"
+        "fontWeight": "bold",
+        "fontSize": "12px"
       },
-      "text": ""
+      "text": "Bevölkerungssaldo"
     }
   },
   "xAxis": {
@@ -4081,7 +4081,7 @@
 			    } else {
 			      xAxis.series.forEach(function(s) {
 			      	//if series must be hidden due to clicking on legend: hide despite ok position
-			        s.setVisible(true && !s._hide, false);
+			        s.setVisible(true && !s.userOptions._hide, false);
 			        //define column width here and increase with zooming
 			        s.update({pointWidth: s.options.columnWidth * zoomRatio}, false);
 			      });
@@ -4175,8 +4175,8 @@
 				//chart.redraw();
 				fn.positionColumnSeries(chart);
 			},
-    "addLegendTitle": function (chart, title, x, y){
-        		return chart.renderer.label(title, x, y)
+    "addLegendTitle": function (chart, x, y, text){
+        		return chart.renderer.label(text, x, y)
      				.css({
 	                    fontSize: '12px',
 	                    fontWeight: 'bold'
@@ -4200,7 +4200,7 @@
 					.attr({
 						zIndex: 6,
 						fill: color,
-						class: cssClass + ' columnLegend'
+						class: (cssClass || "") + ' columnLegend'
 					})
 					.add();
             },
@@ -4209,7 +4209,7 @@
 					.attr({
 						zIndex: 6,
 						fill: color,
-						class: cssClass + ' columnLegend'})
+						class: (cssClass || "") + ' columnLegend'})
 					.css({
                         fontWeight: 'bold' }).
                      add();
@@ -4291,8 +4291,7 @@
 					//Toggle visible of mapcolumns
 					Highcharts.each(chart.series, function (series) {
 						if (series.userOptions.type == 'column'){
-							//series.setVisible(!series.visible, false);
-							series._hide = !series._hide;
+							series.userOptions._hide = !series.userOptions._hide;
 						}
 					});
 					chart.redraw();
