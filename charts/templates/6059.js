@@ -23,7 +23,6 @@
       "labels": {
       "format": "{value:,.0f}",
     },
-	"max": undefined
   },
   "legend": {
     "enabled": true,
