@@ -1,11 +1,7 @@
 (function(){
     return {
   "xAxis": {
-<<<<<<< HEAD
     "tickInterval": 1,
-=======
-    //"tickInterval": 5,
->>>>>>> master
   },
   "yAxis": {
     "min": 0, 

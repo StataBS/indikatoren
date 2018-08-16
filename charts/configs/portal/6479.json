@@ -580,12 +580,8 @@
         "textOverflow": "none"
       }
     },
-<<<<<<< HEAD
     "tickLength": 0,
     "tickInterval": 1
-=======
-    "tickLength": 0
->>>>>>> master
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
