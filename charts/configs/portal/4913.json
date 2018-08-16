@@ -1,10 +1,6 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "color": "#923F8D",
       "data": [
         [
@@ -75,10 +71,6 @@
       "name": "Einfuhren"
     },
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "color": "#FABD24",
       "data": [
         [
@@ -289,6 +281,11 @@
     }
   },
   "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "series": {
       "dataLabels": {
         "enabled": true,

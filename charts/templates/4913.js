@@ -10,17 +10,9 @@
   },
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },     
       "color": "#923F8D"
     },
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },      
       "color": "#FABD24"
     }
   ],
@@ -28,6 +20,11 @@
     "shared": false
   },
   "plotOptions": {
+    line: {
+      marker: {
+        enabled: false
+      }
+    },
     "series": {
       "dataLabels": {
         "enabled": true,
