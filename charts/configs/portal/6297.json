@@ -540,7 +540,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "style": {
       "fontFamily": "Arial"
     },
@@ -550,7 +550,14 @@
                     }
     },
     "type": "area",
-    "renderTo": "container-6297"
+    "spacing": [
+      6,
+      0,
+      3,
+      2
+    ],
+    "renderTo": "container-6297",
+    "spacingBottom": 13
   },
   "plotOptions": {
     "series": {
@@ -625,9 +632,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
   },
   "legend": {
     "symbolRadius": 0
