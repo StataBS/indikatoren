@@ -1,10 +1,6 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "index": 0,
       "color": "#008AC3",
       "data": [
@@ -32,10 +28,6 @@
       "name": "Schweiz"
     },
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "index": 1,
       "color": "#990300",
       "data": [
@@ -63,10 +55,6 @@
       "name": "Österreich \u002F Deutschland \u002F Liechtenstein"
     },
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "index": 1,
       "color": "orange",
       "data": [
@@ -243,6 +231,9 @@
   },
   "plotOptions": {
     "series": {
+      "marker": {
+        "enabled": false
+      },
       "dataLabels": {
         "enabled": false
       }
