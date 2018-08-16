@@ -101,5 +101,10 @@
           "fontWeight": "normal"
         }
       },
-	};
+    tooltip: {
+        pointFormatter: function () {
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( this.series.name == 'Saldo' ? this.y : Math.abs(this.y), 0, ",", " ") + '</b><br/>';
+        }
+    },
+  };
 }());

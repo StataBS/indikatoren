@@ -367,7 +367,8 @@
       "color": "#000000"
     },
     "text": "nach Staatsangehörigkeit, Alter und Geschlecht, gepoolte Daten 2011 - 2015",
-    "align": "left"
+    "align": "left",
+    "useHTML": true
   },
   "yAxis": {
     "gridLineColor": "#B9CFD7",

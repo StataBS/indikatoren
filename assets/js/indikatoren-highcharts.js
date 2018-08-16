@@ -256,25 +256,19 @@ function getChartUrls(id){
 function lazyRenderChartById(id, chartMetaData, view, suppressNumberInTitle, callbackFn){
   //fire GTM event
   dataLayer.push({'event': 'LazyRenderChart', 'chartId': id, 'view': view});
+
   var container = $(escapeCssChars('#container-' + id));
-  //check if a highcharts-container below the container is already present. 
-  //no highcharts container yet: load data and draw chart. 
-  if (!container.find('div.highcharts-container').length) {     
-    var chartUrls = getChartUrls(id);
-    //get template for requested chart 
-    (chartMetaData === undefined) ? chartMetaData = findChartById(indikatoren, id) : chartMetaData;
-    renderChart(chartUrls['optionsUrl'], chartUrls['templateUrl'], chartUrls['chartUrl'], chartUrls['csvUrl'], chartMetaData, view, suppressNumberInTitle, callbackFn);
-  }
-  //highcharts container exists already: redraw chart without reloading data from network
-  else { 
+  var chartUrls = getChartUrls(id);
+  //get template for requested chart 
+  (chartMetaData === undefined) ? chartMetaData = findChartById(indikatoren, id) : chartMetaData;
+  //highcharts container exists already: delete chart 
+  if (container.find('div.highcharts-container').length) {     
     //find chart in highchart's array of charts
     var chartIndex = container.attr("data-highcharts-chart");
-    //get chartOptions, destroy and recreate
-    var currentChartOptions = Highcharts.charts[chartIndex].options;
-    //destroy and redraw in order to get nice animation
+    //destroy and redraw in order to get nice animation. Lazy loading no longer performed, because of problems with mappie tooltips starting with Highcharts 6.1.1. 
     Highcharts.charts[chartIndex].destroy();
-    container.highcharts(currentChartOptions, callbackFn);
   }
+  renderChart(chartUrls['optionsUrl'], chartUrls['templateUrl'], chartUrls['chartUrl'], chartUrls['csvUrl'], chartMetaData, view, suppressNumberInTitle, callbackFn);
 }
 
 

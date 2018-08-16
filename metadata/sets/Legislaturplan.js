@@ -925,8 +925,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerung nach sozioprofessioneller Kategorie",
-		"subtitle": "",
-		"kuerzel": "I.01.1.06144",
+		"subtitle": "Basel-Stadt, 2016",
+		"kuerzel": "I.01.1.6144",
 		"kuerzelKunde": "4.2",
 		"description": "Bevölkerung nach sozioprofessioneller Kategorie",
 		"thema": "01 Bevölkerung",
@@ -935,15 +935,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-15T12:00:00.0000",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von der baselstädtischen Wohnbevölkerung arbeiteten im Jahr 2015 rund 3 400 Personen im obersten Management.",
+		"lesehilfe": "Von der baselstädtischen Wohnbevölkerung arbeiteten im Jahr 2016 rund 3 400 Personen im obersten Management.",
 		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren. Bei der Interpretation der Ergebnisse muss die Unsicherheit von Stichprobenerhebungen berücksichtigt werden.",
 		"template": "template001",
+		"printformat": "",
 		"orderKey": "04_00_00_00_00_002",
 		"parentId": null,
 		"children": [
@@ -1104,18 +1105,18 @@ var indikatorensetData = [
 		"id": 6149
 	},
 	{
-		"title": "Mittelwert und Median des Reineinkommens in Basel-Stadt",
-		"subtitle": "in Franken",
-		"kuerzel": "I.18.2.06150",
+		"title": "Mittelwert und Median des Reineinkommens",
+		"subtitle": "in Franken, Basel-Stadt",
+		"kuerzel": "I.18.2.6150",
 		"kuerzelKunde": "4.9",
-		"description": "Mittelwert und Median des Reineinkommens in Basel-Stadt",
+		"description": "Mittelwert und Median des Reineinkommens",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-15T12:00:00.0000",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1124,6 +1125,7 @@ var indikatorensetData = [
 		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit 1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ konstant. Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
 		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet.",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "04_00_00_00_00_009",
 		"parentId": null,
 		"children": [

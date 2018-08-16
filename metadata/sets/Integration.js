@@ -207,7 +207,7 @@ var indikatorensetData = [
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
-			"Wohnviertel"
+			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -2322,26 +2322,27 @@ var indikatorensetData = [
 		"id": 6469
 	},
 	{
-		"title": "Mittelwert und Median des Reinvermögens pro Veranlagung",
-		"subtitle": "Stand: Steuerjahr 2014",
-		"kuerzel": "I.18.2.06470",
+		"title": "Mittelwert und Median des Reineinkommens pro Veranlagung",
+		"subtitle": "nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt,<br/>Steuerjahr 2014",
+		"kuerzel": "I.18.2.6470",
 		"kuerzelKunde": "C6-4",
-		"description": "Mittelwert und Median des Reinvermögens pro Veranlagung",
+		"description": "Mittelwert und Median des Reineinkommens pro Veranlagung",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-03-21T13:51:38.3838",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt sowohl 2005 wie auch 2014 für die Gruppe der Schweizer vor. 2005 beträgt er 489 000 Franken, im jahr 2014 614 000 Franken pro Veranlagung. Den kleinsten Wert verzeichnen in beiden verglichenen Jahren Personen aus der Türkei mit knapp 5 300 Franken im Jahr 2005 resp. gut 12 700 Franken pro Veranlagung im Jahr 2014. Die Ländergruppen «EU-Ost» und «Türkei» verzeichnen den höchsten relativen Anstieg innerhalb der beobachteten Zeitspanne.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahre 2005 und 2014; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst",
+		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2014 Personen aus den USA aus, der Wert beträgt über 319 000 Franken. Von ihnen liegen 2014 insgesamt 526 Veranlagungen vor. Es folgen Australien (195 000 Franken, 62 Veranlagungen) und Belgien (177 000 Franken, 108 Veranlagungen).",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2014; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"template": "template001",
+		"printformat": "",
 		"orderKey": "03_00_00_00_00_030",
 		"parentId": null,
 		"children": [],
@@ -2355,29 +2356,33 @@ var indikatorensetData = [
 		"id": 6470
 	},
 	{
-		"title": "Mittelwert des Reineinkommens pro Veranlagung",
-		"subtitle": "nach Staatsangehörigkeit, Top 10 der Mittelwerte",
-		"kuerzel": "I.18.2.06471",
+		"title": "Mittelwert des Reinvermögens pro Veranlagung",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
+		"kuerzel": "I.18.2.6471",
 		"kuerzelKunde": "C6-5",
-		"description": "Mittelwert des Reineinkommens pro Veranlagung",
+		"description": "Mittelwert des Reinvermögens pro Veranlagung",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-03-21T13:51:38.3838",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2014 Personen aus den USA aus, der Wert beträgt über 319 000 Franken. Von ihnen liegen 2014 insgesamt 526 Veranlagungen vor. Es folgen Australien (195 000 Franken, 62 Veranlagungen) und Belgien (177 000 Franken, 108 Veranlagungen).",
+		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt sowohl 2005 wie auch 2014 für die Gruppe der Schweizer vor. 2005 beträgt er 489 000 Franken, im jahr 2014 614 000 Franken pro Veranlagung. Den kleinsten Wert verzeichnen in beiden verglichenen Jahren Personen aus der Türkei mit knapp 5 300 Franken im Jahr 2005 resp. gut 12 700 Franken pro Veranlagung im Jahr 2014. Die Ländergruppen «EU-Ost» und «Türkei» verzeichnen den höchsten relativen Anstieg innerhalb der beobachteten Zeitspanne.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahre 2005 und 2014; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"template": "template001",
+		"printformat": "",
 		"orderKey": "03_00_00_00_00_031",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6711",
+			"6712"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -2641,7 +2646,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen Jahren diversen Schwankungen. Die Höchstwerte wurden 2007  mit 2 023 und 2008  mit 1 798 eingebürgerten Ausländern erreicht. Danach gingen die Einbürgerungen zurück, 2011 erwarben noch 835 Ausländer die Schweizer Staatsangehörigkeit. Zwischen 2012 und 2015 nahm die Zahl der Eingebürgerungen tendeziell wieder zu, im Jahr 2015 erhielten 1 170 Personen das Schweizer Bürgerrecht. 2016 liessen sich 752 Ausländer einbürgern, dies ist der tiefste Wert der letzten zehn Jahre. Die Einbürgerungsziffer verläuft entsprechdend den absoluten Werten und lag 2016 bei 10,6.",
+		"lesehilfe": "Pro 1000 Personen liessen sich 2016 knapp 30 Personen aus arabischen Ländern ordentlich oder erleichtert einbürgern. 2006 hatten Personen aus diesen Ländern noch seltener das Schweizer Bürgerrecht erworben. Vergleichsweise hohe Einbürgerungs&shy;ziffern verzeichneten 2016 auch Personen aus Mittel- und Südamerika (18,6), aus dem Balkan (16,5) sowie aus der Türkei (13,1). Die Einbürgerungsziffern dieser drei Gruppen sind im Vergleich zu 2006 zurückgegangen. Auffällig sind die sehr hohen Ein&shy;bür&shy;ge&shy;rungs&shy;ziffern der Personen aus dem Balkan in den Jahren 2007 und 2008. Diese Spitzen lassen sich u. a. damit erklären, dass damals viele Zugewanderte aus dem ehemaligen Jugoslawien, die Mitte der 1990er-Jahre in die Schweiz gekommen waren, die für eine ordentliche Einbürgerung verlangte zwölfjährige Aufenthaltsdauer erreicht hatten und den Schweizer Pass beantragten.",
 		"erlaeuterungen": "Voraussetzung für eine ordentliche Einbürgerung ist u. a. eine 12-jährige Wohndauer in der Schweiz. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die 5 Jahre in der Schweiz gelebt haben und die seit 3 Jahren verheiratet sind. Die Einbürgerungsziffer wird als Anzahl Einbürgerungen (ordentliche und erleichterte) pro 1000 Ausländer am Jahresende berechnet.",
 		"template": "line001",
 		"orderKey": "04_00_00_00_00_007",
@@ -3029,8 +3034,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beteiligung an Freiwilligenarbeit",
-		"subtitle": "nach Staatsangehörigkeit",
-		"kuerzel": "I.03.2.06492",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
+		"kuerzel": "I.03.2.6492",
 		"kuerzelKunde": "D6-1",
 		"description": "Beteiligung an Freiwilligenarbeit",
 		"thema": "03 Erwerbsleben",
@@ -3039,18 +3044,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-03-21T13:51:37.3737",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die prozentuale Beteiligung an institutionalisierter Freiwilligenarbeit der Schweizer Staatsangehörigen ist von 29,9% im Jahr 2004 auf 23,0% im Jahr 2013 gesunken, bevor der Anteil 2016 (26,1%) wieder zunahm. Bei den Ausländern lag sie tiefer, nämlich mit Ausnahme des Jahres 2010 (17,4%) bei oder leicht unter 10%. Die prozentuale Beteiligung an informeller Freiwilligenarbeit blieb über die Zeit relativ konstant, stieg allerdings aus methodischen Gründen im Jahr 2016 stark an. Auch die Beteiligung an informeller Freiwilligenarbeit ist bei den Ausländern tiefer als bei den Schweizern.",
+		"lesehilfe": "Die prozentuale Beteiligung an institutionalisierter Freiwilligenarbeit der Schweizer Staatsangehörigen ist von 29,9% im Jahr 2004 auf 23,0% im Jahr 2013 gesunken, bevor der Anteil 2016 wieder auf 26,1% zugenommen hat. Bei den Ausländern liegt sie tiefer, nämlich mit Ausnahme des Jahres 2010 (17,4%) bei oder leicht unter 10%. Die prozentuale Beteiligung an informeller Freiwilligenarbeit ist über die Zeit relativ konstant geblieben, steigt allerdings aus methodischen Gründen im Jahr 2016 stark an. Auch die Beteiligung an informeller Freiwilligenarbeit ist bei den Ausländern tiefer als bei den Schweizern.",
 		"erlaeuterungen": "Die institutionalisierte Freiwilligenarbeit umfasst unbezahlte, freiwillige Tätigkeiten in einem Verein, einer Organisationen oder einer Institution. Die informelle Freiwilligenarbeit beinhaltet Hilfeleistungen für Verwandte und Bekannte. Die Frage zur informellen Freiwilligenarbeit wurde im Rahmen der SAKE 2016 überarbeitet, weshalb ein Reihenbruch zwischen 2013 und 2016 nicht auszuschliessen ist.",
 		"template": "template001",
+		"printformat": "",
 		"orderKey": "04_00_00_00_00_019",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6732"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"

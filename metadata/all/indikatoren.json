@@ -2247,8 +2247,8 @@
 	},
 	{
 		"title": "Haushalte mit Familienmietzinsbeiträgen",
-		"subtitle": "",
-		"kuerzel": "I.13.2.04152",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.13.2.4152",
 		"kuerzelKunde": "4.1.A",
 		"description": "Haushalte mit Familienmietzinsbeiträgen",
 		"thema": "13 Soziale Sicherheit",
@@ -2257,15 +2257,16 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-22T17:53:45.4545",
+		"aktualisierungsdatum": "2018-08-15T12:00:00.0000",
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist im gesamten Beobachtungszeitraum stark angestiegen.",
-		"erlaeuterungen": "FAMI = Familienmietzinsbeiträge",
+		"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist im gesamten Beobachtungszeitraum stark angestiegen. Ende 2017 beziehen 2 225 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,3% aller Haushalte im Kanton Basel-Stadt.",
+		"erlaeuterungen": "Die Familienmietzinsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "05_01_00_00_00_000",
 		"parentId": null,
@@ -8310,26 +8311,27 @@
 		"id": 4909
 	},
 	{
-		"title": "Mittlere Jahresteuerung Basel-Stadt im Vergleich zur Schweiz",
+		"title": "Mittlere Jahresteuerung Basel-Stadt und Schweiz",
 		"subtitle": "",
-		"kuerzel": "I.05.1.04911",
+		"kuerzel": "I.05.1.4911",
 		"kuerzelKunde": "",
-		"description": "Mittlere Jahresteuerung Basel-Stadt im Vergleich zur Schweiz",
+		"description": "Mittlere Jahresteuerung Basel-Stadt und Schweiz",
 		"thema": "05 Preise",
 		"unterthema": "Basler Index der Konsumentenpreise",
 		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-15T12:00:00.0000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2000 war die Jahresteuerung sowohl in Basel-Stadt als auch in der Schweiz vier Mal negativ, letztmals 2015 mit -1,2 bzw.  -1,1 Prozent.",
+		"lesehilfe": "Seit 2000 war die Jahresteuerung sowohl in Basel-Stadt als auch in der Schweiz fünf Mal negativ, letztmals 2016 mit -0,2 bzw. -0,4 Prozent.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
@@ -11380,7 +11382,7 @@
 	{
 		"title": "Bewertung der Lebensqualität",
 		"subtitle": "«Wie zufrieden sind Sie mit Parks und Grünanlagen am Wohnort?»",
-		"kuerzel": "I.50.1.05821",
+		"kuerzel": "I.50.1.5821",
 		"kuerzelKunde": "ST 5-2",
 		"description": "Bewertung der Lebensqualität",
 		"thema": "50 Befragungen",
@@ -11390,16 +11392,17 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
-		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2015 vergeben die Bewohnerinnen und Bewohner im Durchschnitt der Lebensqualität im Stadtkanton eine 7,8. 2003 betrug die Durchschnittsnote 7,4.",
-		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt. Da im Datensatz nicht für alle statistischen Wohnviertel genügend Beobachtungen vorliegen, wurden einzelne Wohnviertel zu grösseren Gebietseinheiten zusammengefasst. Es sind dies: Innenstadt = Altstadt Grossbasel, Vorstädte, Altstadt Kleinbasel; Am Ring West = Am Ring, Bachletten, Gotthelf, Iselin; Unteres Kleinbasel = Clara, Rosental, Matthäus, Klybeck, Kleinhüningen; Oberes Kleinbasel = Wettstein, Hirzbrunnen.",
+		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2015 geben die Bewohnerinnen und Bewohner im Durchschnitt der Lebensqualität im Stadtkanton eine 7,8. 2003 betrug die Durchschnittsnote 7,4.",
+		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit &quot;Weiss nicht&quot; oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_00_00_00_00_002",
+		"orderKey": "01_02_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"5165",
@@ -12892,8 +12895,8 @@
 	},
 	{
 		"title": "Entkopplung von Wachstum und Umweltverbrauch",
-		"subtitle": "BIP des Kantons Basel-Stadt in Fr. und ökologischer Fussabdruck in globalen Hektaren pro Kopf",
-		"kuerzel": "I.04.2.06051",
+		"subtitle": "Nominales Bruttoinlandprodukt des Kantons Basel-Stadt in Fr. pro Kopf und ökologischer Fussabdruck der Schweiz in globalen Hektaren pro Kopf",
+		"kuerzel": "I.04.2.6051",
 		"kuerzelKunde": "WE7",
 		"description": "Entkopplung von Wachstum und Umweltverbrauch",
 		"thema": "04 Volkswirtschaft",
@@ -12902,15 +12905,16 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-15T12:00:00.0000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2013 5,3 globale Hektaren pro Kopf. Das Bruttoinlandprodukt pro Kopf des Kantons Basel-Stadt ist zwischen den 1990er-Jahren und 2013 stark gestiegen.",
-		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Das Bruttoinlandprodukt (BIP; Stand der Daten: Juli 2017) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. <br>Der Stand der BIP-Daten ist Juli 2017.",
+		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2014 4,9 globale Hektaren pro Kopf. Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit den 1990er-Jahren stark gestiegen. Seit 2007 blieben die Werte relativ konstant.",
+		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden.",
 		"template": "line001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "06_01_00_00_00_607",
 		"parentId": null,
@@ -13309,7 +13313,7 @@
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
-			"Wohnviertel"
+			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -14784,8 +14788,8 @@
 	},
 	{
 		"title": "Bevölkerung nach sozioprofessioneller Kategorie",
-		"subtitle": "",
-		"kuerzel": "I.01.1.06144",
+		"subtitle": "Basel-Stadt, 2016",
+		"kuerzel": "I.01.1.6144",
 		"kuerzelKunde": "4.2",
 		"description": "Bevölkerung nach sozioprofessioneller Kategorie",
 		"thema": "01 Bevölkerung",
@@ -14794,15 +14798,16 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-15T12:00:00.0000",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von der baselstädtischen Wohnbevölkerung arbeiteten im Jahr 2015 rund 3 400 Personen im obersten Management.",
+		"lesehilfe": "Von der baselstädtischen Wohnbevölkerung arbeiteten im Jahr 2016 rund 3 400 Personen im obersten Management.",
 		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren. Bei der Interpretation der Ergebnisse muss die Unsicherheit von Stichprobenerhebungen berücksichtigt werden.",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_002",
 		"parentId": null,
@@ -14968,18 +14973,18 @@
 		"id": 6149
 	},
 	{
-		"title": "Mittelwert und Median des Reineinkommens in Basel-Stadt",
-		"subtitle": "in Franken",
-		"kuerzel": "I.18.2.06150",
+		"title": "Mittelwert und Median des Reineinkommens",
+		"subtitle": "in Franken, Basel-Stadt",
+		"kuerzel": "I.18.2.6150",
 		"kuerzelKunde": "4.9",
-		"description": "Mittelwert und Median des Reineinkommens in Basel-Stadt",
+		"description": "Mittelwert und Median des Reineinkommens",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-15T12:00:00.0000",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14988,6 +14993,7 @@
 		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit 1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ konstant. Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
 		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet.",
 		"template": "line001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_009",
 		"parentId": null,
@@ -16114,8 +16120,8 @@
 	},
 	{
 		"title": "Anteil Haushalte mit FAMI",
-		"subtitle": "nach Wohnviertel, Stand: 2016",
-		"kuerzel": "I.13.2.06203",
+		"subtitle": "nach Wohnviertel, 2017",
+		"kuerzel": "I.13.2.6203",
 		"kuerzelKunde": "",
 		"description": "Anteil Haushalte mit FAMI",
 		"thema": "13 Soziale Sicherheit",
@@ -16124,15 +16130,16 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-15T12:00:00.0000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2016 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten bei 2,2%. 2011 lag die FAMI-Quote noch bei 1,2%. Kleinhüningen weist mit 5,2% die höchste Beitragsquote auf. Die Vorstädte verzeichnen gegenüber 2012 als einziges Wohnviertel einen Rückgang.",
+		"lesehilfe": "Ende 2017 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten bei 2,3%. 2012 lag die FAMI-Quote noch bei 1,5%. Kleinhüningen weist mit 5,0% die höchste Beitragsquote auf. Die Vorstädte verzeichnen gegenüber 2012 als einziges Wohnviertel einen Rückgang.",
 		"erlaeuterungen": "FAMI = Familienmietzinsbeiträge. Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Familienmietzinsbeiträgen an der Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
 		"template": "mappie001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
@@ -16148,8 +16155,8 @@
 	},
 	{
 		"title": "Anteil Haushalte mit Prämienverbilligung",
-		"subtitle": "nach Wohnviertel, Stand: 2016",
-		"kuerzel": "I.13.2.06204",
+		"subtitle": "nach Wohnviertel, 2017",
+		"kuerzel": "I.13.2.6204",
 		"kuerzelKunde": "",
 		"description": "Anteil Haushalte mit Prämienverbilligung",
 		"thema": "13 Soziale Sicherheit",
@@ -16158,15 +16165,16 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-15T12:00:00.0000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Insgesamt liegt der Anteil der Haushalte mit reiner PV an allen Haushalten bei 14,8%. Das Klybeck weist mit 23,9% die höchste, das Bruderholz mit 8,8% die tiefste PV-Quote auf. Im Vergleich zu 2012 ist die PV-Quote in den meisten Wohnvierteln gestiegen. In der Breite ist sie hingegen um 1,3 Prozentpunkte gesunken.",
+		"lesehilfe": "Insgesamt liegt der Anteil der Haushalte mit reiner PV an allen Haushalten bei 14,7%. Das Klybeck-Quartier weist mit 23,5% die höchste, die Vorstädte mit 8,5% die tiefste PV-Quote auf. Den höchsten Anstieg der PV-Quote im Vergleich zu 2012 ist mit 4,1 Prozentpunkten in Kleinhüningen zu beobachten. In der Altstadt Kleinbasel ist sie im gleichen Zeitraum um 1,3 Prozentpunkte gesunken.",
 		"erlaeuterungen": "Die Prämienverbilligungsquote errechnet sich als Quotient der Anzahl Haushalte mit Prämienverbilligungen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reinen Prämienverbilligungen erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
 		"template": "mappie001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
@@ -16437,8 +16445,8 @@
 	},
 	{
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"subtitle": "Stand: 2017",
-		"kuerzel": "I.01.9.06215",
+		"subtitle": "Basel-Stadt, 2018",
+		"kuerzel": "I.01.9.6215",
 		"kuerzelKunde": "ST 4-4",
 		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
 		"thema": "01 Bevölkerung",
@@ -16447,15 +16455,16 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-15T12:00:00.0000",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2016 umfasste die baselstädtische Wohnbevölkerung rund 198 200 Personen. Das Mittlere Szenario der aktuellen Bevölkerungsszenarien des Kantons Basel-Stadt geht davon aus, dass sich die Zahl der in Basel-Stadt wohnhaften Personen bis 2035 auf etwa 212 600 erhöht.",
-		"erlaeuterungen": "Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href=\"http://www.statistik.bs.ch/zahlen/analysen/bevoelkerungsszenarien.html\" target=\"_blank\">Internetseite des Statistischen Amtes</a>.",
+		"lesehilfe": "Bis zum Jahr 2040 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von rund 199 000 am Ende des Jahres 2017 um 10% auf rund 219 000 Einwohner, was etwa dem Bevölkerungsbestand Mitte der 1970er-Jahre entspricht.",
+		"erlaeuterungen": "Prognosen sind zwangsläufig mit Unsicherheit behaftet. Daher wurden drei Prognoseszenarien erarbeitet, die einen plausiblen Bereich der möglichen zukünftigen Bevölkerungsentwicklung abdecken können. Die Berechnung der vorliegenden Bevölkerungsszenarien erfolgt für den Prognosezeitraum 2018 bis 2040. Das Rechenmodell basiert auf folgender demografischer Grundgleichung: Die Bevölkerung am Ende jedes Jahres entspricht dem Anfangsbestand, zuzüglich der Geburten und Zuwanderungen, abzüglich der Sterbefälle und Abwanderungen. Die Hypothesen, welche für diese vier demografischen Komponenten angenommen werden, bestimmen rechnerisch das Prognoseergebnis, und zwar unter der zentralen Nebenbedingung des vorhandenen Wohnraumes: In einem Stadtkanton wie Basel-Stadt ohne grössere Landreserven bestimmen der vorhandene Wohnraum bzw. die geplanten Wohnraumentwicklungen, insbesondere der grossen Areale, die mögliche Bevölkerungszahl.",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_004",
 		"parentId": null,
@@ -16467,7 +16476,7 @@
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
 		"externalLinks": [
-			""
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'http://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>."
 		],
 		"id": 6215
 	},
@@ -22404,26 +22413,27 @@
 		"id": 6469
 	},
 	{
-		"title": "Mittelwert und Median des Reinvermögens pro Veranlagung",
-		"subtitle": "Stand: Steuerjahr 2014",
-		"kuerzel": "I.18.2.06470",
+		"title": "Mittelwert und Median des Reineinkommens pro Veranlagung",
+		"subtitle": "nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt,<br/>Steuerjahr 2014",
+		"kuerzel": "I.18.2.6470",
 		"kuerzelKunde": "C6-4",
-		"description": "Mittelwert und Median des Reinvermögens pro Veranlagung",
+		"description": "Mittelwert und Median des Reineinkommens pro Veranlagung",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-03-21T13:51:38.3838",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt sowohl 2005 wie auch 2014 für die Gruppe der Schweizer vor. 2005 beträgt er 489 000 Franken, im jahr 2014 614 000 Franken pro Veranlagung. Den kleinsten Wert verzeichnen in beiden verglichenen Jahren Personen aus der Türkei mit knapp 5 300 Franken im Jahr 2005 resp. gut 12 700 Franken pro Veranlagung im Jahr 2014. Die Ländergruppen «EU-Ost» und «Türkei» verzeichnen den höchsten relativen Anstieg innerhalb der beobachteten Zeitspanne.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahre 2005 und 2014; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst",
+		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2014 Personen aus den USA aus, der Wert beträgt über 319 000 Franken. Von ihnen liegen 2014 insgesamt 526 Veranlagungen vor. Es folgen Australien (195 000 Franken, 62 Veranlagungen) und Belgien (177 000 Franken, 108 Veranlagungen).",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2014; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_030",
 		"parentId": null,
@@ -22438,30 +22448,34 @@
 		"id": 6470
 	},
 	{
-		"title": "Mittelwert des Reineinkommens pro Veranlagung",
-		"subtitle": "nach Staatsangehörigkeit, Top 10 der Mittelwerte",
-		"kuerzel": "I.18.2.06471",
+		"title": "Mittelwert des Reinvermögens pro Veranlagung",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
+		"kuerzel": "I.18.2.6471",
 		"kuerzelKunde": "C6-5",
-		"description": "Mittelwert des Reineinkommens pro Veranlagung",
+		"description": "Mittelwert des Reinvermögens pro Veranlagung",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-03-21T13:51:38.3838",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2014 Personen aus den USA aus, der Wert beträgt über 319 000 Franken. Von ihnen liegen 2014 insgesamt 526 Veranlagungen vor. Es folgen Australien (195 000 Franken, 62 Veranlagungen) und Belgien (177 000 Franken, 108 Veranlagungen).",
+		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt sowohl 2005 wie auch 2014 für die Gruppe der Schweizer vor. 2005 beträgt er 489 000 Franken, im jahr 2014 614 000 Franken pro Veranlagung. Den kleinsten Wert verzeichnen in beiden verglichenen Jahren Personen aus der Türkei mit knapp 5 300 Franken im Jahr 2005 resp. gut 12 700 Franken pro Veranlagung im Jahr 2014. Die Ländergruppen «EU-Ost» und «Türkei» verzeichnen den höchsten relativen Anstieg innerhalb der beobachteten Zeitspanne.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahre 2005 und 2014; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_031",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6711",
+			"6712"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -22732,7 +22746,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen Jahren diversen Schwankungen. Die Höchstwerte wurden 2007  mit 2 023 und 2008  mit 1 798 eingebürgerten Ausländern erreicht. Danach gingen die Einbürgerungen zurück, 2011 erwarben noch 835 Ausländer die Schweizer Staatsangehörigkeit. Zwischen 2012 und 2015 nahm die Zahl der Eingebürgerungen tendeziell wieder zu, im Jahr 2015 erhielten 1 170 Personen das Schweizer Bürgerrecht. 2016 liessen sich 752 Ausländer einbürgern, dies ist der tiefste Wert der letzten zehn Jahre. Die Einbürgerungsziffer verläuft entsprechdend den absoluten Werten und lag 2016 bei 10,6.",
+		"lesehilfe": "Pro 1000 Personen liessen sich 2016 knapp 30 Personen aus arabischen Ländern ordentlich oder erleichtert einbürgern. 2006 hatten Personen aus diesen Ländern noch seltener das Schweizer Bürgerrecht erworben. Vergleichsweise hohe Einbürgerungs&shy;ziffern verzeichneten 2016 auch Personen aus Mittel- und Südamerika (18,6), aus dem Balkan (16,5) sowie aus der Türkei (13,1). Die Einbürgerungsziffern dieser drei Gruppen sind im Vergleich zu 2006 zurückgegangen. Auffällig sind die sehr hohen Ein&shy;bür&shy;ge&shy;rungs&shy;ziffern der Personen aus dem Balkan in den Jahren 2007 und 2008. Diese Spitzen lassen sich u. a. damit erklären, dass damals viele Zugewanderte aus dem ehemaligen Jugoslawien, die Mitte der 1990er-Jahre in die Schweiz gekommen waren, die für eine ordentliche Einbürgerung verlangte zwölfjährige Aufenthaltsdauer erreicht hatten und den Schweizer Pass beantragten.",
 		"erlaeuterungen": "Voraussetzung für eine ordentliche Einbürgerung ist u. a. eine 12-jährige Wohndauer in der Schweiz. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die 5 Jahre in der Schweiz gelebt haben und die seit 3 Jahren verheiratet sind. Die Einbürgerungsziffer wird als Anzahl Einbürgerungen (ordentliche und erleichterte) pro 1000 Ausländer am Jahresende berechnet.",
 		"template": "line001",
 		"visibleInPortal": false,
@@ -23132,8 +23146,8 @@
 	},
 	{
 		"title": "Beteiligung an Freiwilligenarbeit",
-		"subtitle": "nach Staatsangehörigkeit",
-		"kuerzel": "I.03.2.06492",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
+		"kuerzel": "I.03.2.6492",
 		"kuerzelKunde": "D6-1",
 		"description": "Beteiligung an Freiwilligenarbeit",
 		"thema": "03 Erwerbsleben",
@@ -23142,19 +23156,22 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-03-21T13:51:37.3737",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die prozentuale Beteiligung an institutionalisierter Freiwilligenarbeit der Schweizer Staatsangehörigen ist von 29,9% im Jahr 2004 auf 23,0% im Jahr 2013 gesunken, bevor der Anteil 2016 (26,1%) wieder zunahm. Bei den Ausländern lag sie tiefer, nämlich mit Ausnahme des Jahres 2010 (17,4%) bei oder leicht unter 10%. Die prozentuale Beteiligung an informeller Freiwilligenarbeit blieb über die Zeit relativ konstant, stieg allerdings aus methodischen Gründen im Jahr 2016 stark an. Auch die Beteiligung an informeller Freiwilligenarbeit ist bei den Ausländern tiefer als bei den Schweizern.",
+		"lesehilfe": "Die prozentuale Beteiligung an institutionalisierter Freiwilligenarbeit der Schweizer Staatsangehörigen ist von 29,9% im Jahr 2004 auf 23,0% im Jahr 2013 gesunken, bevor der Anteil 2016 wieder auf 26,1% zugenommen hat. Bei den Ausländern liegt sie tiefer, nämlich mit Ausnahme des Jahres 2010 (17,4%) bei oder leicht unter 10%. Die prozentuale Beteiligung an informeller Freiwilligenarbeit ist über die Zeit relativ konstant geblieben, steigt allerdings aus methodischen Gründen im Jahr 2016 stark an. Auch die Beteiligung an informeller Freiwilligenarbeit ist bei den Ausländern tiefer als bei den Schweizern.",
 		"erlaeuterungen": "Die institutionalisierte Freiwilligenarbeit umfasst unbezahlte, freiwillige Tätigkeiten in einem Verein, einer Organisationen oder einer Institution. Die informelle Freiwilligenarbeit beinhaltet Hilfeleistungen für Verwandte und Bekannte. Die Frage zur informellen Freiwilligenarbeit wurde im Rahmen der SAKE 2016 überarbeitet, weshalb ein Reihenbruch zwischen 2013 und 2016 nicht auszuschliessen ist.",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_019",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6732"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
@@ -24868,6 +24885,41 @@
 			""
 		],
 		"id": 6599
+	},
+	{
+		"title": "Mietpreisunterschiede nach Wohnviertel gemäss Mietpreisraster",
+		"subtitle": "Abweichungen der Nettomiete vom Referenzwohnviertel Iselin pro m²  in Prozent, November 2017",
+		"kuerzel": "I.09.3.06601",
+		"kuerzelKunde": "",
+		"description": "Mietpreisunterschiede nach Wohnviertel gemäss Mietpreisraster",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Mietpreise",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-02-01T00:00:00.000",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Nettomieten pro m² der Wohnviertel werden im Vergleich zum Referenz-Wohnviertel Iselin dargestellt. Die beiden teuersten Wohnviertel sind demnach Altstadt Grossbasel und Bruderholz mit einer Abweichung zum Referenz-Wohnviertel von 20% bzw. 11%. Die günstigsten Wohnviertel sind Klybeck (-7%), Kleinhüningen (-6%) und Rosental (-5%).",
+		"erlaeuterungen": "Die ausgewiesenen Abweichungen basieren auf dem Mietpreisraster Basel-Stadt. Mittels Regressionsmodell wird dabei insbesondere der Einfluss von Wohnviertel, Zimmerzahl und Gebäudealter auf den Nettomietpreis pro Quadratmeter berechnet. Die ausgewiesenen Abweichungen der Nettomietpreise sind somit bereinigt von Unterschieden in der Grösse der Wohnungen und dem Alter der Gebäude zwischen den Wohnvierteln. Der Mietpreisraster basiert auf Nettomieten der Mietpreiserhebung Basel-Stadt vom November 2017 sowie den Nettomieten der Strukturerhebung für Basel-Stadt aus den Jahren 2010 bis 2015, die auf November 2017 indexiert wurden.",
+		"template": "map002",
+		"visibleInPortal": false,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
+		],
+		"externalLinks": [
+			"Weitere Informationen zum Indikator: <a href = 'http://www.statistik.bs.ch/zahlen/tabellen/9-bau-wohnungswesen/mietpreise.html' target = '_blank'>Mietpreisraster Basel-Stadt</a>"
+		],
+		"id": 6601
 	},
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
