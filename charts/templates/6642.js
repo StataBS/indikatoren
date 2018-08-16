@@ -7,7 +7,9 @@
     }
   },
   "xAxis": {
+    type: 'category',
 	  "tickInterval": 5,
+	  //tickPositions: [1997, 2002, 2007, 2012, 2017],
 	  labels:{
 	  	rortation:0,
 	  }

@@ -586,7 +586,8 @@
       },
       "format": "{value:,.f}%"
     },
-    "tickInterval": 2.5
+    "tickInterval": 2,
+    "max": 6
   },
   "xAxis": {
     "lineColor": "#B9CFD7",

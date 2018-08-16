@@ -33,13 +33,13 @@
     },
   },
   "legend": { 
-  	itemDistance: 1, 
+  	itemDistance: 0, 
   	padding: 0,
   	symbolPadding: 0,
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
      "itemStyle": {
     "fontWeight": "normal"
      },
@@ -58,7 +58,7 @@
   {"color": "#999999", index: 0, legendIndex: 10}, /*Übrige Länder*/
 ],
   "chart": {
-    "marginRight": 8,
+    //"marginRight": 8,
     "type": "column",
     "inverted": true,
   },

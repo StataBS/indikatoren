@@ -696,8 +696,14 @@
       }
     },
     "tickLength": 0,
-    "type": "linear",
-    "tickInterval": 2
+    "tickPositions": [
+      2007,
+      2009,
+      2011,
+      2013,
+      2015,
+      2017
+    ]
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

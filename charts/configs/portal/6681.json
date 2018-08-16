@@ -57,7 +57,7 @@
     "labels": {
       "rotation": 0,
       "formatter": function () {
-      	return this.value;
+      	return this.value.replace(" ", "<br/>");
       }
     }
   },

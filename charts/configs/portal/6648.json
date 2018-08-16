@@ -620,7 +620,15 @@
       "rotation": 0
     },
     "tickLength": 0,
-    "tickInterval": 5
+    "tickPositions": [
+      1998,
+      2001,
+      2004,
+      2007,
+      2010,
+      2013,
+      2017
+    ]
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

@@ -1,12 +1,15 @@
 (function(){
     return {
   "xAxis": {
-  	tickInterval: 5,
+  	//tickInterval: 4,
+  	//tickPositions: [1998, 2003, 2008, 2013, 2017],
+  	tickPositions: [1998, 2001, 2004, 2007, 2010, 2013, 2017],
   	labels: {
 	    rotation: -0   	  
   	}
   },
   "yAxis": {
+  
 	tickInterval: 10,
 	"labels": {
 		  "format": "{value}"

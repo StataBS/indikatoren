@@ -1068,7 +1068,8 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 5
+    "tickAmount": 5,
+    "max": 40
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -1080,7 +1081,15 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickPositions": [
+      1998,
+      2001,
+      2004,
+      2007,
+      2010,
+      2013,
+      2017
+    ]
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

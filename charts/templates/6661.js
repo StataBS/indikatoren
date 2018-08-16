@@ -17,8 +17,9 @@
     }
   },
   "xAxis": {
-  	"type": "linear",
-  	tickInterval: 2,
+  	//tickInterval: 1,
+  	//tickPositions: [2007, 2010, 2013, 2017],
+  	tickPositions: [2007, 2009, 2011, 2013, 2015, 2017],
   },
   "legend": {
     "enabled": true,

@@ -9,7 +9,7 @@
 		}
       },
       "data":{
-      	"switchRowsAndColumns": true
+      	"switchRowsAndColumns": false,
       },
       "series": [ 
           {

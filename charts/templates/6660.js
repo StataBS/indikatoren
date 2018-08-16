@@ -1,7 +1,8 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 3,
+    //"tickInterval": 3,
+    tickPositions: [1998, 2001, 2004, 2007, 2010, 2013, 2017]
   },
   "yAxis": {
     "min": 0, 
@@ -31,6 +32,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     padding: 1,
+    itemDistance: 15,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
@@ -44,5 +46,5 @@
       } 
     }
   }
-}
+};
 }());

@@ -229,7 +229,7 @@
           1
         ]
       ],
-      "name": "Mittel- und Südamerika",
+      "name": "Mittel- & Südamerika",
       "turboThreshold": 0
     },
     {
@@ -379,7 +379,6 @@
                     
                 }
     },
-    "marginRight": 8,
     "type": "column",
     "inverted": true,
     "renderTo": "container-6700",
@@ -471,12 +470,12 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "itemDistance": 1,
+    "itemDistance": 0,
     "symbolPadding": 0,
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right"
   },
   "dataLabels": {
     "enabled": false,

@@ -55,7 +55,7 @@
   "chart": {      
     "type": "column",
     "inverted": true,
-    marginLeft: 150,
+    marginLeft: 120,
   }
 };
 }());
