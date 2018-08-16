@@ -1335,7 +1335,8 @@
       "x": -8,
       "format": "{value}%"
     },
-    "max": 60
+    "max": 60,
+    "tickInterval": 10
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

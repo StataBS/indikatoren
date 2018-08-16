@@ -318,7 +318,8 @@
       },
       "format": "{value}%"
     },
-    "tickAmount": 7
+    "max": 60,
+    "tickInterval": 10
   },
   "xAxis": {
     "lineColor": "#B9CFD7",

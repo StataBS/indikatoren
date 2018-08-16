@@ -138,10 +138,11 @@
 	        return this.name
 	            .replace("ohne", "ohne<br/>")
 	            .replace("mit", "mit<br/>")
-	            .replace("Migrationshintergrund", "Migrations-<br/>hintergrund")
-	            .replace(" der", "<br/>der")
+	            //.replace("Migrationshintergrund", "Migrations-<br/>hintergrund")
+	            //.replace(" der", "<br/>der")
 	            .replace(" und", "<br/>und")
-	            .replace(" Generation", "<br/>Generation")
+	            //.replace(" Generation", "<br/>Generation")
+	            .replace("ersten Generation", "ersten<br/>Generation")
             ;
 	    }
   },

@@ -34,7 +34,7 @@
   },
   "legend": { 
   	//x:-1,
-  	itemDistance: 1, 
+  	itemDistance: 0, 
   	padding: 0,
   	symbolPadding: 0,
     "enabled": true,

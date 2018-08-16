@@ -70,7 +70,6 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-
     "align": "left",
     "itemStyle": {
     "fontWeight": "normal"

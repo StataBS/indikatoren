@@ -9,11 +9,12 @@
   	}
   },
   "yAxis": {
-  
-	tickInterval: 10,
-	"labels": {
-		  "format": "{value}"
-	  }
+    min: 0,
+    max: 50,
+  	tickInterval: 10,
+  	labels: {
+  		  "format": "{value}"
+  	}
   },	
   "tooltip": {
     headerFormat: '<span style="font-size: 10px">{point.key}</span><br/>',

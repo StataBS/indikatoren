@@ -4,7 +4,10 @@
   	tickInterval: 1,
   },
   "yAxis": {
-    tickAmount: 7,
+    //tickAmount: 7,
+    min: 0,
+    max: 60,
+    tickInterval: 10,
 	  "labels": {
 		  "format": "{value}%"
 	  }

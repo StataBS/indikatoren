@@ -14,8 +14,9 @@
      }
   },
   "yAxis": {
-    "min": 0, 
+    min: 0, 
     max: 60,
+    tickInterval: 10,
     //offset: -0,
 	  labels: {
 	    x: -8,

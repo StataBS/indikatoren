@@ -22,7 +22,7 @@
         } 
   },  
   yAxis:{
-  	tickInterval: 50,
+  	tickInterval: 25,
   	max: 100,
   	labels:{
   		y:10,

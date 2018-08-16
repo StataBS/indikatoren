@@ -641,14 +641,15 @@
       "text": ""
     },
     "labels": {
-      "y": 10,
+      "y": 3,
       "style": {
         "fontSize": 10,
         "color": "#000000"
       },
       "format": "{value:,.0f}"
     },
-    "tickInterval": 15000
+    "tickInterval": 15000,
+    "max": 75000
   },
   "navigation": {
     "menuItemStyle": {

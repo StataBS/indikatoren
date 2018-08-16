@@ -607,6 +607,7 @@
       },
       "format": "{value}"
     },
+    "max": 50,
     "tickInterval": 10
   },
   "xAxis": {
