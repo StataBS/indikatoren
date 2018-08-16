@@ -10758,7 +10758,7 @@
 	{
 		"title": "Einbürgerungsziffer der ausländischen Bevölkerung sowie Ausländeranteil",
 		"subtitle": "",
-		"kuerzel": "I.01.6.06149",
+		"kuerzel": "I.01.6.6149",
 		"kuerzelKunde": "4.8",
 		"description": "Einbürgerungsziffer der ausländischen Bevölkerung sowie Ausländeranteil",
 		"thema": "01 Bevölkerung",
@@ -10767,20 +10767,20 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Einbürgerungsziffer (Anzahl ordentlich eingebürgerte Ausländer pro 1000 Ausländer der mittleren Wohnbevölkerung) unterlag in den vergangenen zehn Jahren diversen Schwankungen. Die Höchstwerte wurden 2007 und 2008 erreicht. Danach ging die Einbürgerungsziffer zurück, 2011 lag sie bei den Männern noch bei 7,3 und bei den Frauen bei 10,3. Nach einem tendenziellen Anstieg in den Jahren 2012 bis 2015 sank sie 2016 erneut auf 7,4 bei den Männern und 8,0 bei den Frauen.",
-		"erlaeuterungen": "Die Einbürgerungsziffer wird folgendermassen berechent: Anzahl ordentlich eingebürgerte Ausländer pro 1000 Ausländer der mittleren Wohnbevölkerung; jeweils für Männer und Frauen.",
+		"lesehilfe": "Die Einbürgerungsziffer unterlag in den vergangenen Jahren diversen Schwankungen. Die Höchstwerte wurden 2008 mit 33,7 bei den Männern und mit 38,2 bei den Frauen erreicht. Danach gingen die Einbürgerungsziffern zurück, 2012 erwarben pro 1000 ausländische Männer noch 13,2  und pro 1000 ausländische Frauen noch 15,6 die Schweizer Staatsangehörigkeit. Zwischen 2013 und 2015 nahmen die Einbürgerungsziffern wieder zu. 2016 lagen sie bei 10,3 (Männer) und 12,1 (Frauen), dies sind die tiefsten Werte der betrachteten Jahre. 2017 waren die Werte mit 24,5 (Männer) und 27,9 (Frauen) wieder relativ hoch.",
+		"erlaeuterungen": "Die Einbürgerungsziffer wird folgendermassen berechet: Anzahl ordentlich und erleichtert eingebürgerte Ausländer pro 1000 Ausländer der mittleren Wohnbevölkerung; jeweils für Männer und Frauen.",
 		"template": "line001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_008",
 		"parentId": null,
 		"children": [
-			"6043",
 			"6302"
 		],
 		"renderLink": [],

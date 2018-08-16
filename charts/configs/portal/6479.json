@@ -541,7 +541,7 @@
       }
     },
     "tickLength": 0,
-    "\u002F\u002FtickInterval": 5
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
