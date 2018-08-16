@@ -2,6 +2,7 @@
     return {
   "xAxis": {
     //"tickInterval": 1,
+    tickPositions: [2008, 2010, 2012, 2014, 2017],
   },
   "yAxis": {
     "min": 0, 

@@ -129,7 +129,7 @@
         	padding: 1,
         	itemStyle: {
                 fontWeight: "normal", 
-                fontSize: '9px'
+                fontSize: '11px'
             }
         },
         tooltip: {
