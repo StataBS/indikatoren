@@ -4,35 +4,225 @@
       "color": "#007a2f",
       "index": 6,
       "legendIndex": 0,
-      "data": [],
+      "data": [
+        [
+          "2009 Total",
+          1435
+        ],
+        [
+          "2009 Kein Deutsch",
+          113
+        ],
+        [
+          "2009 Deutsch und weitere",
+          352
+        ],
+        [
+          "2009 Nur Deutsch",
+          970
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2013 Total",
+          898
+        ],
+        [
+          "2013 Kein Deutsch",
+          77
+        ],
+        [
+          "2013 Deutsch und weitere",
+          246
+        ],
+        [
+          "2013 Nur Deutsch",
+          575
+        ]
+      ],
+      "name": "Ja, genutzt",
       "turboThreshold": 0
     },
     {
       "color": "#68ab2b",
       "index": 5,
       "legendIndex": 1,
-      "data": [],
+      "data": [
+        [
+          "2009 Total",
+          1152
+        ],
+        [
+          "2009 Kein Deutsch",
+          196
+        ],
+        [
+          "2009 Deutsch und weitere",
+          402
+        ],
+        [
+          "2009 Nur Deutsch",
+          554
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2013 Total",
+          903
+        ],
+        [
+          "2013 Kein Deutsch",
+          122
+        ],
+        [
+          "2013 Deutsch und weitere",
+          283
+        ],
+        [
+          "2013 Nur Deutsch",
+          498
+        ]
+      ],
+      "name": "Ja, nicht genutzt",
       "turboThreshold": 0
     },
     {
       "color": "#FABD24",
       "index": 4,
       "legendIndex": 2,
-      "data": [],
+      "data": [
+        [
+          "2009 Total",
+          124
+        ],
+        [
+          "2009 Kein Deutsch",
+          37
+        ],
+        [
+          "2009 Deutsch und weitere",
+          44
+        ],
+        [
+          "2009 Nur Deutsch",
+          43
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2013 Total",
+          69
+        ],
+        [
+          "2013 Kein Deutsch",
+          17
+        ],
+        [
+          "2013 Deutsch und weitere",
+          28
+        ],
+        [
+          "2013 Nur Deutsch",
+          24
+        ]
+      ],
+      "name": "Nein, würde genutzt",
       "turboThreshold": 0
     },
     {
       "color": "#DC440E",
       "index": 3,
       "legendIndex": 3,
-      "data": [],
+      "data": [
+        [
+          "2009 Total",
+          179
+        ],
+        [
+          "2009 Kein Deutsch",
+          59
+        ],
+        [
+          "2009 Deutsch und weitere",
+          75
+        ],
+        [
+          "2009 Nur Deutsch",
+          45
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2013 Total",
+          157
+        ],
+        [
+          "2013 Kein Deutsch",
+          65
+        ],
+        [
+          "2013 Deutsch und weitere",
+          55
+        ],
+        [
+          "2013 Nur Deutsch",
+          37
+        ]
+      ],
+      "name": "Nein, würde nicht genutzt",
       "turboThreshold": 0
     },
     {
       "color": "#C8C8C8",
       "index": 1,
       "legendIndex": 5,
-      "data": [],
+      "data": [
+        [
+          "2009 Total",
+          229
+        ],
+        [
+          "2009 Kein Deutsch",
+          62
+        ],
+        [
+          "2009 Deutsch und weitere",
+          112
+        ],
+        [
+          "2009 Nur Deutsch",
+          55
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2013 Total",
+          185
+        ],
+        [
+          "2013 Kein Deutsch",
+          48
+        ],
+        [
+          "2013 Deutsch und weitere",
+          81
+        ],
+        [
+          "2013 Nur Deutsch",
+          56
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],

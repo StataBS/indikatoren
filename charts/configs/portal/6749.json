@@ -4,42 +4,270 @@
       "color": "#007a2f",
       "index": 6,
       "legendIndex": 0,
-      "data": [],
+      "data": [
+        [
+          "2009 Total",
+          251
+        ],
+        [
+          "2009 Kein Deutsch",
+          61
+        ],
+        [
+          "2009 Deutsch und weitere",
+          104
+        ],
+        [
+          "2009 Nur Deutsch",
+          86
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2013 Total",
+          239
+        ],
+        [
+          "2013 Kein Deutsch",
+          59
+        ],
+        [
+          "2013 Deutsch und weitere",
+          99
+        ],
+        [
+          "2013 Nur Deutsch",
+          81
+        ]
+      ],
+      "name": "Stimmt genau",
       "turboThreshold": 0
     },
     {
       "color": "#68ab2b",
       "index": 5,
       "legendIndex": 1,
-      "data": [],
+      "data": [
+        [
+          "2009 Total",
+          1003
+        ],
+        [
+          "2009 Kein Deutsch",
+          143
+        ],
+        [
+          "2009 Deutsch und weitere",
+          327
+        ],
+        [
+          "2009 Nur Deutsch",
+          533
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2013 Total",
+          661
+        ],
+        [
+          "2013 Kein Deutsch",
+          99
+        ],
+        [
+          "2013 Deutsch und weitere",
+          215
+        ],
+        [
+          "2013 Nur Deutsch",
+          347
+        ]
+      ],
+      "name": "Stimmt eher",
       "turboThreshold": 0
     },
     {
       "color": "#FABD24",
       "index": 4,
       "legendIndex": 2,
-      "data": [],
+      "data": [
+        [
+          "2009 Total",
+          669
+        ],
+        [
+          "2009 Kein Deutsch",
+          54
+        ],
+        [
+          "2009 Deutsch und weitere",
+          199
+        ],
+        [
+          "2009 Nur Deutsch",
+          416
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2013 Total",
+          449
+        ],
+        [
+          "2013 Kein Deutsch",
+          40
+        ],
+        [
+          "2013 Deutsch und weitere",
+          118
+        ],
+        [
+          "2013 Nur Deutsch",
+          291
+        ]
+      ],
+      "name": "Stimmt eher nicht",
       "turboThreshold": 0
     },
     {
       "color": "#DC440E",
       "index": 3,
       "legendIndex": 3,
-      "data": [],
+      "data": [
+        [
+          "2009 Total",
+          247
+        ],
+        [
+          "2009 Kein Deutsch",
+          26
+        ],
+        [
+          "2009 Deutsch und weitere",
+          61
+        ],
+        [
+          "2009 Nur Deutsch",
+          160
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2013 Total",
+          129
+        ],
+        [
+          "2013 Kein Deutsch",
+          13
+        ],
+        [
+          "2013 Deutsch und weitere",
+          27
+        ],
+        [
+          "2013 Nur Deutsch",
+          89
+        ]
+      ],
+      "name": "Stimmt gar nicht",
       "turboThreshold": 0
     },
     {
       "color": "#C8C8C8",
       "index": 1,
       "legendIndex": 5,
-      "data": [],
+      "data": [
+        [
+          "2009 Total",
+          730
+        ],
+        [
+          "2009 Kein Deutsch",
+          129
+        ],
+        [
+          "2009 Deutsch und weitere",
+          230
+        ],
+        [
+          "2009 Nur Deutsch",
+          371
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2013 Total",
+          613
+        ],
+        [
+          "2013 Kein Deutsch",
+          90
+        ],
+        [
+          "2013 Deutsch und weitere",
+          190
+        ],
+        [
+          "2013 Nur Deutsch",
+          333
+        ]
+      ],
+      "name": "Weiss nicht",
       "turboThreshold": 0
     },
     {
       "color": "#6F6F6F",
       "index": 0,
       "legendIndex": 6,
-      "data": [],
+      "data": [
+        [
+          "2009 Total",
+          219
+        ],
+        [
+          "2009 Kein Deutsch",
+          54
+        ],
+        [
+          "2009 Deutsch und weitere",
+          64
+        ],
+        [
+          "2009 Nur Deutsch",
+          101
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2013 Total",
+          121
+        ],
+        [
+          "2013 Kein Deutsch",
+          28
+        ],
+        [
+          "2013 Deutsch und weitere",
+          44
+        ],
+        [
+          "2013 Nur Deutsch",
+          49
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
