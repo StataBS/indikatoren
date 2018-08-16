@@ -1040,12 +1040,12 @@
     },
     "enabled": true,
     "layout": "vertical",
-    "verticalAlign": "middle",
+    "verticalAlign": "top",
     "align": "right",
     "y": 7,
     "reversed": true,
     "labelFormatter": function () {
-        return this.name.replace("/ ", "/<br/>");
+        return this.name.split("(")[0]; //replace("/ ", "/<br/>");
     }
   },
   "dataLabels": {

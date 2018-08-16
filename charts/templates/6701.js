@@ -30,13 +30,13 @@
   "legend": { 
     "enabled": true,
     "layout": "vertical",
-    "verticalAlign": "middle",
+    "verticalAlign": "top",
     "align": "right",
     y: 7,
     reversed: true,
     itemMarginBottom: 3,
      "labelFormatter": function () {
-        return this.name.replace("/ ", "/<br/>");
+        return this.name.split("(")[0]; //replace("/ ", "/<br/>");
     },
     "itemStyle": {
         "fontWeight": "normal", 
