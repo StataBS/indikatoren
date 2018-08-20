@@ -73,16 +73,23 @@ menuItems.push(
 menuItems.push({separator: true});
 menuItems.push(
     {
-        "text": "Einbinden - Grafik", 
+        "text": "Einbetten - Grafik", 
         "onclick": function(){            
-            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart.html?id=' + this.renderTo.id.substring(10), '_blank'); 
+            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart.html?hideHeader=true&id=' + this.renderTo.id.substring(10), '_blank'); 
         }
     });
 menuItems.push(
     {
-        "text": "Einbinden - Grafik+Text", 
+        "text": "Einbetten - Grafik+Text", 
         "onclick": function(){            
-            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart-details.html?id=' + this.renderTo.id.substring(10), '_blank'); 
+            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart-details.html?hideHeader=true&id=' + this.renderTo.id.substring(10), '_blank'); 
+        }
+    });
+menuItems.push(
+    {
+        "text": "Verlinken - Grafik+Text", 
+        "onclick": function(){            
+            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart-details.html?hideHeader=false&id=' + this.renderTo.id.substring(10), '_blank'); 
         }
     });
 					    
