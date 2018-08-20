@@ -1778,9 +1778,6 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "labelFormatter": function () {
-        return this.name.slice(0, this.name.indexOf('(Stadt)'));
-      },
     "itemDistance": 5,
     "itemMarginBottom": 5,
     "itemStyle": {

@@ -15,7 +15,7 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>'
   },
  "series": [
-  {"color": "#b00000"}, /*Schweiz*/ 
+  {"color": "#b00000"}, /*Schweiz*/
    { color: "#b00000", 
       linkedTo: ':previous',
         marker: {
@@ -95,8 +95,8 @@
   ],
    "legend": {
    		labelFormatter: function () {
-        //return this.name.slice(0, this.name.indexOf(['(Kanton)', '(Stadt)']));
-        return this.name.slice(0, -8) 
+        return this.name.slice(0, this.name.indexOf('(Stadt)'));
+        //return this.name.slice(0, -8)
       },
     "enabled": true,
     itemDistance: 5, 
