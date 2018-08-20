@@ -5,43 +5,43 @@
       "data": [
         [
           "15-19",
-          -2.1
+          -1.5
         ],
         [
           "20-24",
-          -3.6
+          -2.4
         ],
         [
           "25-29",
-          -3.8
+          -2.5
         ],
         [
           "30-34",
-          -4.3
+          -3.3
         ],
         [
           "35-39",
-          -4.1
-        ],
-        [
-          "40-44",
-          -3.6
-        ],
-        [
-          "45-49",
-          -2.3
-        ],
-        [
-          "50-54",
           -3
         ],
         [
+          "40-44",
+          -2.8
+        ],
+        [
+          "45-49",
+          -2.1
+        ],
+        [
+          "50-54",
+          -2.5
+        ],
+        [
           "55-59",
-          -1.8
+          -1.7
         ],
         [
           "60-64",
-          -2.6
+          -2.1
         ]
       ],
       "name": "Männer",
@@ -52,43 +52,43 @@
       "data": [
         [
           "15-19",
-          2.2
+          1.6
         ],
         [
           "20-24",
-          2.9
+          1.9
         ],
         [
           "25-29",
-          3.2
+          2.3
         ],
         [
           "30-34",
-          4.8
+          3.9
         ],
         [
           "35-39",
-          4.8
-        ],
-        [
-          "40-44",
           3.7
         ],
         [
-          "45-49",
-          3.1
-        ],
-        [
-          "50-54",
+          "40-44",
           2.8
         ],
         [
+          "45-49",
+          2.5
+        ],
+        [
+          "50-54",
+          2.1
+        ],
+        [
           "55-59",
-          2.6
+          2.7
         ],
         [
           "60-64",
-          2.5
+          2.1
         ]
       ],
       "name": "Frauen",
@@ -126,8 +126,8 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
-    "spacingBottom": 70,
+    "height": 415,
+    "spacingBottom": 60,
     "style": {
       "fontFamily": "Arial"
     },
@@ -177,7 +177,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Pyramide der Arbeitslosenquote der Schweizer"
+    "text": "Arbeitslosenquote der Schweizer"
   },
   "subtitle": {
     "style": {
@@ -186,7 +186,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Geschlecht, Stand: 1997",
+    "text": "nach Alter und Geschlecht, Basel-Stadt, 1998",
     "align": "left"
   },
   "yAxis": [
@@ -237,9 +237,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
   },
   "legend": {
     "symbolRadius": 0,

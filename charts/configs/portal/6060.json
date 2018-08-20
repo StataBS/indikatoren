@@ -5,43 +5,43 @@
       "data": [
         [
           "Deutschland",
-          16066
+          16189
         ],
         [
           "Italien",
-          8436
+          8509
         ],
         [
           "Türkei",
-          6312
+          6293
         ],
         [
           "EU-17 + EFTA",
-          15272
+          15433
         ],
         [
           "EU-Ost",
-          3683
+          3942
         ],
         [
           "Balkan",
-          8293
+          8181
         ],
         [
           "Mittel- und Südamerika",
-          1717
+          1689
         ],
         [
           "Arabische Länder",
-          1416
+          1520
         ],
         [
           "Afrikanische Länder",
-          1691
+          1750
         ],
         [
           "Übrige Länder",
-          7922
+          8104
         ]
       ],
       "turboThreshold": 0
@@ -66,8 +66,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 428,
-    "spacingBottom": 55,
+    "height": 415,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
@@ -121,7 +121,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Basel-Stadt, 2017",
     "align": "left"
   },
   "tooltip": {
@@ -140,9 +140,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
     "layout": "vertical",

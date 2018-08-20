@@ -7,23 +7,23 @@
       "data": [
         [
           "Oberes Kader",
-          182
+          177
         ],
         [
           "Mittleres Kader",
-          218
+          224
         ],
         [
           "Mittleres Fachkader",
-          136
+          145
         ],
         [
           "Unteres Kader",
-          389
+          400
         ],
         [
           "Unteres Fachkader",
-          133
+          124
         ]
       ],
       "name": "Schweiz",
@@ -48,7 +48,7 @@
         ],
         [
           "Unteres Kader",
-          38
+          40
         ],
         [
           "Unteres Fachkader",
@@ -139,7 +139,7 @@
         ],
         [
           "Unteres Fachkader",
-          3
+          4
         ]
       ],
       "name": "EU-17 + EFTA",
@@ -343,7 +343,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -374,7 +374,7 @@
     "marginBottom": 75,
     "type": "column",
     "inverted": true,
-    "spacingBottom": 50
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -396,7 +396,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Angestellte in der kantonalen Verwaltung"
+    "text": "Angestellte in der Verwaltung Basel-Stadt"
   },
   "subtitle": {
     "style": {
@@ -405,7 +405,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit und Kaderstufe, Stand: 2009",
+    "text": "nach Staatsangehörigkeit und Kaderstufe, 2010",
     "align": "left"
   },
   "yAxis": {
@@ -444,9 +444,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EFinanzdepartement Basel-Stadt, Zentraler Personaldienst\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EFinanzdepartement Basel-Stadt, Zentraler Personaldienst"
   },
   "legend": {
     "symbolRadius": 0,

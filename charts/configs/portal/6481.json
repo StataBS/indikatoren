@@ -5,19 +5,19 @@
       "data": [
         [
           "Schweizer ohne Migrationshintergrund",
-          78605
+          78083
         ],
         [
           "Schweizer mit Migrationshintergrund",
-          26850
+          27084
         ],
         [
           "Ausländer der ersten Generation",
-          49062
+          50311
         ],
         [
           "Ausländer der zweiten und höheren Generation",
-          4609
+          4553
         ]
       ],
       "turboThreshold": 0
@@ -42,8 +42,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 428,
-    "spacingBottom": 55,
+    "height": 415,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
@@ -91,7 +91,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, gepoolte Daten von 2011 bis 2015",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten von 2012 bis 2016",
     "align": "left"
   },
   "tooltip": {
@@ -110,9 +110,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
   },
   "legend": {
     "layout": "horizontal",

@@ -6,46 +6,46 @@
       "data": [
         [
           "Deutschland",
-          63.7
+          63.8
         ],
         [
           "Italien",
-          94.8
+          94.7
         ],
         [
           "Türkei",
-          47.2
+          46.9
         ],
         [
           "EU-17 + EFTA",
-          79
+          78.9
         ],
         [
           "EU-Ost",
-          43.9
+          42.4
         ],
         [
           "Balkan",
-          49.2
+          52.6
         ],
         [
           "Mittel- und Südamerika",
-          32.1
+          37.4
         ],
         [
           "Arabische Länder",
-          41.8
+          38.5
         ],
         [
           "Afrikanische Länder",
-          35.2
+          33.8
         ],
         [
           "Übrige Länder",
-          26.5
+          26.7
         ]
       ],
-      "name": "1997",
+      "name": "1998",
       "turboThreshold": 0
     },
     {
@@ -54,46 +54,46 @@
       "data": [
         [
           "Deutschland",
-          58.8
+          59.1
         ],
         [
           "Italien",
-          74
+          72.4
         ],
         [
           "Türkei",
-          84.6
+          84.1
         ],
         [
           "EU-17 + EFTA",
-          55
+          55.7
         ],
         [
           "EU-Ost",
-          18.6
+          19.6
         ],
         [
           "Balkan",
-          82.3
+          82.1
         ],
         [
           "Mittel- und Südamerika",
-          43.9
+          44.9
         ],
         [
           "Arabische Länder",
-          32
+          29.8
         ],
         [
           "Afrikanische Länder",
-          38.6
+          39
         ],
         [
           "Übrige Länder",
-          33.1
+          34.8
         ]
       ],
-      "name": "2016",
+      "name": "2017",
       "turboThreshold": 0
     }
   ],
@@ -119,7 +119,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -149,7 +149,7 @@
     "type": "column",
     "inverted": true,
     "renderTo": "container-6073",
-    "spacingBottom": 40
+    "spacingBottom": 30
   },
   "plotOptions": {
     "series": {
@@ -179,7 +179,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -217,9 +217,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
     "symbolRadius": 0,

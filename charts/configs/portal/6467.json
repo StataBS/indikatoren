@@ -22,6 +22,10 @@
           0.284
         ],
         [
+          "Ausland: 2015-2017",
+          0.253
+        ],
+        [
           " ",
           null
         ],
@@ -40,6 +44,10 @@
         [
           "Schweiz: 2012-2014",
           0.227
+        ],
+        [
+          "Schweiz: 2015-2017",
+          0.214
         ]
       ],
       "name": "1. Quintil",
@@ -67,6 +75,10 @@
           0.172
         ],
         [
+          "Ausland: 2015-2017",
+          0.183
+        ],
+        [
           " ",
           null
         ],
@@ -85,6 +97,10 @@
         [
           "Schweiz: 2012-2014",
           0.2
+        ],
+        [
+          "Schweiz: 2015-2017",
+          0.211
         ]
       ],
       "name": "2. Quintil",
@@ -112,6 +128,10 @@
           0.155
         ],
         [
+          "Ausland: 2015-2017",
+          0.144
+        ],
+        [
           " ",
           null
         ],
@@ -130,6 +150,10 @@
         [
           "Schweiz: 2012-2014",
           0.202
+        ],
+        [
+          "Schweiz: 2015-2017",
+          0.193
         ]
       ],
       "name": "3. Quintil",
@@ -157,6 +181,10 @@
           0.151
         ],
         [
+          "Ausland: 2015-2017",
+          0.163
+        ],
+        [
           " ",
           null
         ],
@@ -175,6 +203,10 @@
         [
           "Schweiz: 2012-2014",
           0.187
+        ],
+        [
+          "Schweiz: 2015-2017",
+          0.19
         ]
       ],
       "name": "4. Quintil",
@@ -202,6 +234,10 @@
           0.238
         ],
         [
+          "Ausland: 2015-2017",
+          0.257
+        ],
+        [
           " ",
           null
         ],
@@ -220,6 +256,10 @@
         [
           "Schweiz: 2012-2014",
           0.184
+        ],
+        [
+          "Schweiz: 2015-2017",
+          0.192
         ]
       ],
       "name": "5. Quintil",
@@ -249,7 +289,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -279,7 +319,7 @@
     "renderTo": "container-6467",
     "type": "column",
     "inverted": true,
-    "spacingBottom": 40
+    "spacingBottom": 30
   },
   "plotOptions": {
     "series": {
@@ -310,7 +350,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, 2002 bis 2014, 3-Jahres-Pooling",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2002 bis 2017, 3-Jahres-Pooling",
     "align": "left"
   },
   "yAxis": {
@@ -351,9 +391,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
   },
   "legend": {
     "symbolRadius": 0,

@@ -18,8 +18,8 @@
           0.831
         ],
         [
-          "2011-2015",
-          0.8
+          "2012-2016",
+          0.795
         ]
       ],
       "name": "Schweizer",
@@ -45,9 +45,9 @@
           "high": null
         },
         {
-          "name": "2011-2015",
-          "low": 0.789,
-          "high": 0.81
+          "name": "2012-2016",
+          "low": 0.785,
+          "high": 0.806
         }
       ],
       "name": "Schweizer 95% Vertrauensintervall",
@@ -71,8 +71,8 @@
           0.709
         ],
         [
-          "2011-2015",
-          0.757
+          "2012-2016",
+          0.762
         ]
       ],
       "name": "Schweizerinnen",
@@ -98,9 +98,9 @@
           "high": null
         },
         {
-          "name": "2011-2015",
-          "low": 0.747,
-          "high": 0.768
+          "name": "2012-2016",
+          "low": 0.752,
+          "high": 0.773
         }
       ],
       "name": "Schweizerinnen 95% Vertrauensintervall",
@@ -124,7 +124,7 @@
           0.837
         ],
         [
-          "2011-2015",
+          "2012-2016",
           0.849
         ]
       ],
@@ -151,7 +151,7 @@
           "high": null
         },
         {
-          "name": "2011-2015",
+          "name": "2012-2016",
           "low": 0.838,
           "high": 0.861
         }
@@ -177,8 +177,8 @@
           0.729
         ],
         [
-          "2011-2015",
-          0.716
+          "2012-2016",
+          0.723
         ]
       ],
       "name": "Ausländerinnen",
@@ -204,9 +204,9 @@
           "high": null
         },
         {
-          "name": "2011-2015",
-          "low": 0.701,
-          "high": 0.731
+          "name": "2012-2016",
+          "low": 0.708,
+          "high": 0.738
         }
       ],
       "name": "Ausländerinnen 95% Vertrauensintervall",
@@ -234,7 +234,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -294,7 +294,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit und Geschlecht, gepoolte Daten 2011 bis 2015",
+    "text": "der 15-64-Jährigen nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -336,7 +336,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ)"
   },
   "legend": {
     "symbolRadius": 0,

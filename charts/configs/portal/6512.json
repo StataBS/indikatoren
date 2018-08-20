@@ -282,7 +282,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -297,7 +297,7 @@
     "marginLeft": 195,
     "inverted": true,
     "renderTo": "container-6512",
-    "spacingBottom": 40
+    "spacingBottom": 30
   },
   "title": {
     "style": {
@@ -374,9 +374,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F60\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F60"
   },
   "legend": {
     "layout": "horizontal",

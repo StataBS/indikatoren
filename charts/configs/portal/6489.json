@@ -5,11 +5,11 @@
       "data": [
         [
           "10 bis 14 Jahre",
-          9.9
+          11.9
         ],
         [
           "15 bis 17 Jahre",
-          34.9
+          49.1
         ]
       ],
       "name": "Schweizer",
@@ -20,11 +20,11 @@
       "data": [
         [
           "10 bis 14 Jahre",
-          4.4
+          3.5
         ],
         [
           "15 bis 17 Jahre",
-          9.2
+          10.6
         ]
       ],
       "name": "Schweizerinnen",
@@ -35,11 +35,11 @@
       "data": [
         [
           "10 bis 14 Jahre",
-          10.4
+          8.7
         ],
         [
           "15 bis 17 Jahre",
-          39.5
+          37.7
         ]
       ],
       "name": "Ausländer",
@@ -50,11 +50,11 @@
       "data": [
         [
           "10 bis 14 Jahre",
-          8.6
+          12.2
         ],
         [
           "15 bis 17 Jahre",
-          15.7
+          20.9
         ]
       ],
       "name": "Ausländerinnen",
@@ -82,7 +82,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -112,7 +112,7 @@
     "type": "column",
     "inverted": false,
     "renderTo": "container-6489",
-    "spacingBottom": 50
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -141,7 +141,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Jugendliche zwischen 10 und 17 Jahren nach Staatsaneghörigkeit, Geschlecht und Alter, Stand: 2016",
+    "text": "Jugendliche zwischen 10 und 17 Jahren nach Staatsaneghörigkeit, Geschlecht und Alter, Basel-Stadt, 2017",
     "align": "left"
   },
   "yAxis": {
@@ -179,9 +179,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
   },
   "legend": {
     "symbolRadius": 0,

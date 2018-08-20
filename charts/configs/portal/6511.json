@@ -12,6 +12,10 @@
         [
           "2013",
           852
+        ],
+        [
+          "2017",
+          908
         ]
       ],
       "name": "Deutsch",
@@ -29,6 +33,10 @@
         [
           "2013",
           79
+        ],
+        [
+          "2017",
+          86
         ]
       ],
       "name": "Andere Sprache",
@@ -46,6 +54,10 @@
         [
           "2013",
           99
+        ],
+        [
+          "2017",
+          136
         ]
       ],
       "name": "Keine Angabe",
@@ -106,7 +118,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -120,7 +132,7 @@
     "type": "column",
     "inverted": false,
     "renderTo": "container-6511",
-    "spacingBottom": 40
+    "spacingBottom": 30
   },
   "title": {
     "style": {
@@ -197,9 +209,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F36\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F37"
   },
   "legend": {
     "layout": "vertical",

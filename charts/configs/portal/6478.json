@@ -6,47 +6,47 @@
       "data": [
         [
           "Schweiz",
-          69.93916983
+          69.9
         ],
         [
           "Deutschland",
-          62.9695909
+          62.6
         ],
         [
           "Italien",
-          58.69795222
+          58.52
         ],
         [
           "Türkei",
-          51.16049383
+          51.38
         ],
         [
           "EU-17 + EFTA",
-          61.44411078
+          61.45
         ],
         [
           "EU-Ost",
-          52.99325236
+          53.37
         ],
         [
           "Balkan",
-          49.03116147
+          49.26
         ],
         [
           "Mittel- und Südamerika",
-          58.375
+          57.05
         ],
         [
           "Arabische Länder",
-          49.60365854
+          49.07
         ],
         [
           "Afrikanische Länder",
-          46.74193548
+          44.67
         ],
         [
           "Übrige Länder",
-          60.97945205
+          60.34
         ]
       ],
       "name": "Einpersonenhaushalt",
@@ -58,47 +58,47 @@
       "data": [
         [
           "Schweiz",
-          27.59977652
+          27.66
         ],
         [
           "Deutschland",
-          29.07274712
+          28.89
         ],
         [
           "Italien",
-          23.2288197
+          23.28
         ],
         [
           "Türkei",
-          19.31703424
+          19.49
         ],
         [
           "EU-17 + EFTA",
-          25.57100258
+          25.59
         ],
         [
           "EU-Ost",
-          21.34290844
+          21.36
         ],
         [
           "Balkan",
-          19.01353659
+          19.14
         ],
         [
           "Mittel- und Südamerika",
-          23.07010135
+          23.1
         ],
         [
           "Arabische Länder",
-          19.19524793
+          19.82
         ],
         [
           "Afrikanische Länder",
-          18.82535461
+          19.68
         ],
         [
           "Übrige Länder",
-          25.08126294
+          25.56
         ]
       ],
       "name": "Vierpersonenhaushalt",
@@ -127,7 +127,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -156,7 +156,7 @@
     },
     "type": "column",
     "inverted": true,
-    "spacingBottom": 70,
+    "spacingBottom": 60,
     "renderTo": "container-6478"
   },
   "plotOptions": {
@@ -187,7 +187,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in m² nach Staatsangehörigkeit, Stand: 2016",
+    "text": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2017",
     "align": "left"
   },
   "yAxis": {
@@ -225,9 +225,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
   },
   "legend": {
     "symbolRadius": 0,

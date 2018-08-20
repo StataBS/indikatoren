@@ -7,43 +7,43 @@
       "data": [
         [
           "Deutschland",
-          58.8
+          59.1
         ],
         [
           "Italien",
-          74
+          72.4
         ],
         [
           "Türkei",
-          84.6
+          84.1
         ],
         [
           "EU-17 + EFTA",
-          55
+          55.7
         ],
         [
           "EU-Ost",
-          18.6
+          19.6
         ],
         [
           "Balkan",
-          82.3
+          82.1
         ],
         [
           "Mittel- und Südamerika",
-          43.9
+          44.9
         ],
         [
           "Arabische Länder",
-          32
+          29.8
         ],
         [
           "Afrikanische Länder",
-          38.6
+          39
         ],
         [
           "Übrige Länder",
-          33.1
+          34.8
         ]
       ],
       "name": "C",
@@ -56,23 +56,23 @@
       "data": [
         [
           "Deutschland",
-          36.7
+          36.1
         ],
         [
           "Italien",
-          23.5
+          25.3
         ],
         [
           "Türkei",
-          14.5
+          14.7
         ],
         [
           "EU-17 + EFTA",
-          39.8
+          39.2
         ],
         [
           "EU-Ost",
-          72.2
+          71.2
         ],
         [
           "Balkan",
@@ -80,19 +80,19 @@
         ],
         [
           "Mittel- und Südamerika",
-          51.1
+          50.3
         ],
         [
           "Arabische Länder",
-          36
+          39.1
         ],
         [
           "Afrikanische Länder",
-          42.2
+          43
         ],
         [
           "Übrige Länder",
-          51.4
+          49.5
         ]
       ],
       "name": "B",
@@ -133,15 +133,15 @@
         ],
         [
           "Arabische Länder",
-          19.9
+          21.3
         ],
         [
           "Afrikanische Länder",
-          11.6
+          12.5
         ],
         [
           "Übrige Länder",
-          2.2
+          2.4
         ]
       ],
       "name": "F",
@@ -154,15 +154,15 @@
       "data": [
         [
           "Deutschland",
-          2
+          2.2
         ],
         [
           "Italien",
-          1.5
+          1.3
         ],
         [
           "Türkei",
-          0.2
+          0.3
         ],
         [
           "EU-17 + EFTA",
@@ -170,27 +170,27 @@
         ],
         [
           "EU-Ost",
-          8
+          7.9
         ],
         [
           "Balkan",
-          0.3
+          0.4
         ],
         [
           "Mittel- und Südamerika",
-          2.9
+          2.8
         ],
         [
           "Arabische Länder",
-          1.4
+          1.3
         ],
         [
           "Afrikanische Länder",
-          0.7
+          0.4
         ],
         [
           "Übrige Länder",
-          8.7
+          9
         ]
       ],
       "name": "L",
@@ -211,7 +211,7 @@
         ],
         [
           "Türkei",
-          0.2
+          0.4
         ],
         [
           "EU-17 + EFTA",
@@ -231,15 +231,15 @@
         ],
         [
           "Arabische Länder",
-          10.5
+          8.1
         ],
         [
           "Afrikanische Länder",
-          6.4
+          4.7
         ],
         [
           "Übrige Länder",
-          1.8
+          1.7
         ]
       ],
       "name": "N",
@@ -252,7 +252,7 @@
       "data": [
         [
           "Deutschland",
-          2.5
+          2.6
         ],
         [
           "Italien",
@@ -260,15 +260,15 @@
         ],
         [
           "Türkei",
-          0.2
+          0.1
         ],
         [
           "EU-17 + EFTA",
-          2.2
+          2.1
         ],
         [
           "EU-Ost",
-          1.2
+          1.3
         ],
         [
           "Balkan",
@@ -276,19 +276,19 @@
         ],
         [
           "Mittel- und Südamerika",
-          2
+          1.8
         ],
         [
           "Arabische Länder",
-          0.1
+          0.3
         ],
         [
           "Afrikanische Länder",
-          0.5
+          0.4
         ],
         [
           "Übrige Länder",
-          2.7
+          2.6
         ]
       ],
       "name": "Übrige",
@@ -318,7 +318,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -349,7 +349,7 @@
     "marginBottom": 75,
     "type": "column",
     "inverted": true,
-    "spacingBottom": 40
+    "spacingBottom": 30
   },
   "plotOptions": {
     "series": {
@@ -380,7 +380,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Stand: 2016",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2017",
     "align": "left"
   },
   "yAxis": {
@@ -419,9 +419,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
     "symbolRadius": 0,

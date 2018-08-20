@@ -4,47 +4,47 @@
       "data": [
         [
           "Spanien",
-          3718
+          3689
         ],
         [
           "Portugal",
-          3390
+          3449
         ],
         [
           "Vereinigtes Königreich",
-          2216
+          2207
         ],
         [
           "Frankreich",
-          2094
+          2152
         ],
         [
           "Österreich",
-          1221
+          1220
         ],
         [
           "Niederlande",
-          734
+          758
         ],
         [
           "Griechenland",
-          394
-        ],
-        [
-          "Schweden",
-          312
-        ],
-        [
-          "Belgien",
-          295
+          436
         ],
         [
           "Irland",
-          294
+          304
+        ],
+        [
+          "Belgien",
+          301
+        ],
+        [
+          "Schweden",
+          300
         ],
         [
           "Übrige",
-          604
+          617
         ]
       ],
       "name": "Anzahl",
@@ -70,8 +70,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 428,
-    "spacingBottom": 55,
+    "height": 415,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
@@ -117,7 +117,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Ausländer der Ländergruppe EU-17+EFTA"
+    "text": "Anteil Ausländer der Ländergruppe EU-17 + EFTA"
   },
   "subtitle": {
     "style": {
@@ -126,7 +126,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach einzelnen Staatsangehörigkeiten, Stand: 2016",
+    "text": "nach einzelnen Staatsangehörigkeiten, Basel-Stadt, 2017",
     "align": "left"
   },
   "tooltip": {
@@ -145,9 +145,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
     "layout": "vertical",

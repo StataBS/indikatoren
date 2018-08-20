@@ -6,10 +6,6 @@
       "legendIndex": 0,
       "data": [
         [
-          "1997",
-          33215
-        ],
-        [
           "1998",
           33235
         ],
@@ -84,6 +80,10 @@
         [
           "2016",
           41416
+        ],
+        [
+          "2017",
+          41830
         ]
       ],
       "name": "C",
@@ -94,10 +94,6 @@
       "index": 8,
       "legendIndex": 1,
       "data": [
-        [
-          "1997",
-          15813
-        ],
         [
           "1998",
           15495
@@ -173,6 +169,10 @@
         [
           "2016",
           25049
+        ],
+        [
+          "2017",
+          25309
         ]
       ],
       "name": "B",
@@ -183,10 +183,6 @@
       "index": 7,
       "legendIndex": 2,
       "data": [
-        [
-          "1997",
-          626
-        ],
         [
           "1998",
           467
@@ -262,6 +258,10 @@
         [
           "2016",
           734
+        ],
+        [
+          "2017",
+          818
         ]
       ],
       "name": "F",
@@ -272,10 +272,6 @@
       "index": 6,
       "legendIndex": 3,
       "data": [
-        [
-          "1997",
-          685
-        ],
         [
           "1998",
           674
@@ -351,6 +347,10 @@
         [
           "2016",
           2007
+        ],
+        [
+          "2017",
+          2096
         ]
       ],
       "name": "L",
@@ -361,10 +361,6 @@
       "index": 5,
       "legendIndex": 4,
       "data": [
-        [
-          "1997",
-          902
-        ],
         [
           "1998",
           1290
@@ -440,6 +436,10 @@
         [
           "2016",
           448
+        ],
+        [
+          "2017",
+          399
         ]
       ],
       "name": "N",
@@ -450,10 +450,6 @@
       "index": 4,
       "legendIndex": 5,
       "data": [
-        [
-          "1997",
-          642
-        ],
         [
           "1998",
           623
@@ -529,6 +525,10 @@
         [
           "2016",
           1154
+        ],
+        [
+          "2017",
+          1158
         ]
       ],
       "name": "Übrige",
@@ -558,7 +558,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -589,7 +589,7 @@
     "marginBottom": 75,
     "type": "column",
     "inverted": false,
-    "spacingBottom": 40
+    "spacingBottom": 30
   },
   "plotOptions": {
     "series": {
@@ -620,7 +620,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -658,9 +658,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
     "symbolRadius": 0,

@@ -6,50 +6,50 @@
       "data": [
         [
           "Schweiz",
-          48940
+          48972
         ],
         [
           "Deutschland",
-          63720
+          64369
         ],
         [
           "Italien",
-          46166
+          46458
         ],
         [
           "Türkei",
-          38304
+          37714
         ],
         [
           "EU-17 + EFTA",
-          54562
+          54774
         ],
         [
           "EU-Ost",
-          29450
+          32395
         ],
         [
           "Balkan",
-          44108
+          43854
         ],
         [
           "Mittel- und Südamerika",
-          30054
-        ],
-        [
-          "Arabische Länder",
           32450
         ],
         [
+          "Arabische Länder",
+          33799
+        ],
+        [
           "Afrikanische Länder",
-          32966
+          33480
         ],
         [
           "Übrige Länder",
-          43265
+          43152
         ]
       ],
-      "name": "Median 2005",
+      "name": "Median 2006",
       "turboThreshold": 0
     },
     {
@@ -58,50 +58,50 @@
       "data": [
         [
           "Schweiz",
-          48400
+          48429
         ],
         [
           "Deutschland",
-          70231
+          71043
         ],
         [
           "Italien",
-          46526
+          46799
         ],
         [
           "Türkei",
-          31824
+          30754
         ],
         [
           "EU-17 + EFTA",
-          65187
+          65555
         ],
         [
           "EU-Ost",
-          47396
+          49979
         ],
         [
           "Balkan",
-          40806
+          40684
         ],
         [
           "Mittel- und Südamerika",
-          34688
+          36317
         ],
         [
           "Arabische Länder",
-          25190
+          23460
         ],
         [
           "Afrikanische Länder",
-          20357
+          21599
         ],
         [
           "Übrige Länder",
-          64938
+          67497
         ]
       ],
-      "name": "Median 2014",
+      "name": "Median 2015",
       "turboThreshold": 0
     }
   ],
@@ -127,7 +127,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -157,7 +157,7 @@
     "type": "column",
     "inverted": true,
     "renderTo": "container-6469",
-    "spacingBottom": 40
+    "spacingBottom": 30
   },
   "plotOptions": {
     "series": {
@@ -187,7 +187,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -225,9 +225,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik"
   },
   "legend": {
     "symbolRadius": 0,

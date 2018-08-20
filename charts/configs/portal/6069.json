@@ -6,50 +6,50 @@
       "data": [
         [
           "Schweiz",
-          44.8
+          45.1
         ],
         [
           "Deutschland",
-          14.7
+          14.8
         ],
         [
           "Italien",
-          9.2
+          10.4
         ],
         [
           "Türkei",
-          1.2
+          1.3
         ],
         [
           "EU-17 + EFTA",
-          6.2
+          6.4
         ],
         [
           "EU-Ost",
-          5.5
+          5.3
         ],
         [
           "Balkan",
-          1.8
+          1.9
         ],
         [
           "Mittel- und Südamerika",
-          0.8
+          0.9
         ],
         [
           "Arabische Länder",
-          2.2
+          1.4
         ],
         [
           "Afrikanische Länder",
-          0.3
+          0.2
         ],
         [
           "Übrige Länder",
-          4.3
+          4
         ]
       ],
-      "name": "1997",
+      "name": "1998",
       "turboThreshold": 0
     },
     {
@@ -58,50 +58,50 @@
       "data": [
         [
           "Schweiz",
-          45.5
+          45.4
         ],
         [
           "Deutschland",
-          8.4
+          8.3
         ],
         [
           "Italien",
-          34.1
+          32.7
         ],
         [
           "Türkei",
-          10.7
+          11.7
         ],
         [
           "EU-17 + EFTA",
-          8.8
+          8.7
         ],
         [
           "EU-Ost",
-          2.5
+          2.6
         ],
         [
           "Balkan",
-          10.5
+          11.6
         ],
         [
           "Mittel- und Südamerika",
-          2.1
+          2.4
         ],
         [
           "Arabische Länder",
-          2.3
+          2.9
         ],
         [
           "Afrikanische Länder",
-          0.9
+          1.1
         ],
         [
           "Übrige Länder",
-          3
+          3.3
         ]
       ],
-      "name": "2016",
+      "name": "2017",
       "turboThreshold": 0
     }
   ],
@@ -127,7 +127,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -157,7 +157,7 @@
     "type": "column",
     "inverted": true,
     "renderTo": "container-6069",
-    "spacingBottom": 40
+    "spacingBottom": 30
   },
   "plotOptions": {
     "series": {
@@ -187,7 +187,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -225,9 +225,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
     "symbolRadius": 0,

@@ -7,15 +7,15 @@
       "data": [
         [
           "Ausländer\u002F-innen",
-          36694.114282
+          35912.145376
         ],
         [
           "Eingebürgerte Schweizer\u002F-innen",
-          15873.445861
+          15575.612897
         ],
         [
           "Schweizer\u002F-innen seit Geburt",
-          25244.264834
+          24535.043425
         ]
       ],
       "name": "Sekundarstufe I",
@@ -28,15 +28,15 @@
       "data": [
         [
           "Ausländer\u002F-innen",
-          25245.790682
+          25859.048095
         ],
         [
           "Eingebürgerte Schweizer\u002F-innen",
-          22595.240907
+          22908.778522
         ],
         [
           "Schweizer\u002F-innen seit Geburt",
-          77296.643307
+          75184.256203
         ]
       ],
       "name": "Sekundarstufe II",
@@ -49,15 +49,15 @@
       "data": [
         [
           "Ausländer\u002F-innen",
-          45402.604846
+          47955.165973
         ],
         [
           "Eingebürgerte Schweizer\u002F-innen",
-          15232.238046
+          15683.503886
         ],
         [
           "Schweizer\u002F-innen seit Geburt",
-          54669.007708
+          56447.508803
         ]
       ],
       "name": "Tertiärstufe",
@@ -69,46 +69,27 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
-    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
       }
     },
     "labels": {
-      "rotation": 0,
       "style": {
-        "color": "#000000",
-        "width": 1,
-        "whiteSpace": "nowrap",
-        "textOverflow": "none"
+        "color": "#000000"
       },
+      "useHTML": false,
       "formatter": function () {
       	return this.value;//.replace("Eingebürgerte ", "Eingebürgerte<br/>");
-      },
-      "useHTML": false
-    }
+      }
+    },
+    "tickLength": 0
   },
   "chart": {
-    "events": {
-      "load": function () {
-              this.credits.element.onclick = function() {};
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-            }
-    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -119,10 +100,35 @@
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
-    "type": "column",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
     "inverted": true,
     "renderTo": "container-6091",
-    "spacingBottom": 40
+    "spacingBottom": 30
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
   },
   "title": {
     "style": {
@@ -136,31 +142,15 @@
   "subtitle": {
     "style": {
       "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
       "color": "#000000"
     },
+    "text": "Personen ab 15 Jahren nach Migrationsstatus, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2012 - 2016",
     "align": "left",
-    "useHTML": true,
-    "text": "Personen ab 15 Jahren nach Migrationsstatus, gepoolte Daten 2011 - 2015"
-  },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "stacking": "percent"
-    }
+    "useHTML": true
   },
   "yAxis": {
-    "tickInterval": 20,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -172,15 +162,17 @@
       "text": null
     },
     "labels": {
-      "format": "{value}%",
       "style": {
         "color": "#000000"
       }
-    }
+    },
+    "tickInterval": 20
   },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
-    "shared": false
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
   },
   "credits": {
     "enabled": true,
@@ -193,26 +185,20 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
   },
   "legend": {
+    "symbolRadius": 0,
+    "itemDistance": 5,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
-    "useHTML": false,
     "itemStyle": {
-      "fontWeight": "normal",
-      "textOverflow": null
-    },
-    "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        },
-    "itemDistance": 5,
-    "enabled": true
+      "fontWeight": "normal"
+    }
   },
   "exporting": {
     "filename": 6091

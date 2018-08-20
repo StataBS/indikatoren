@@ -9,10 +9,6 @@
       "legendIndex": 1,
       "data": [
         [
-          "1997",
-          51883
-        ],
-        [
           "1998",
           51784
         ],
@@ -87,6 +83,10 @@
         [
           "2016",
           70808
+        ],
+        [
+          "2017",
+          71610
         ]
       ],
       "name": "Ausländer",
@@ -100,10 +100,6 @@
       },
       "legendIndex": 0,
       "data": [
-        [
-          "1997",
-          142385
-        ],
         [
           "1998",
           140408
@@ -179,6 +175,10 @@
         [
           "2016",
           127398
+        ],
+        [
+          "2017",
+          127378
         ]
       ],
       "name": "Schweizer",
@@ -219,8 +219,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 428,
-    "spacingBottom": 55,
+    "height": 415,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
@@ -243,7 +243,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -281,9 +281,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
     "enabled": true,

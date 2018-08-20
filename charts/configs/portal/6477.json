@@ -5,47 +5,47 @@
       "data": [
         [
           "Schweiz",
-          1.867069234
+          1.88
         ],
         [
           "Deutschland",
-          1.80747881
+          1.82
         ],
         [
           "Italien",
-          2.00458833
+          1.99
         ],
         [
           "Türkei",
-          2.686572684
+          2.68
         ],
         [
-          "EU-17 & EFTA",
-          2.094175806
+          "EU-17 + EFTA",
+          2.09
         ],
         [
           "EU-Ost",
-          2.027190678
+          2.05
         ],
         [
           "Balkan",
-          2.799970783
+          2.8
         ],
         [
-          "Mittel- & Südamerika",
-          2.220171885
+          "Mittel- und Südamerika",
+          2.19
         ],
         [
           "Arabische Länder",
-          2.656674693
+          2.61
         ],
         [
           "Afrikanische Länder",
-          2.442005769
+          2.43
         ],
         [
           "Übrige Länder",
-          2.381934351
+          2.41
         ]
       ],
       "turboThreshold": 0
@@ -73,7 +73,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -102,7 +102,7 @@
     },
     "type": "column",
     "inverted": true,
-    "spacingBottom": 60,
+    "spacingBottom": 50,
     "renderTo": "container-6477"
   },
   "plotOptions": {
@@ -134,7 +134,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Stand: 2016",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2017",
     "align": "left"
   },
   "yAxis": {
@@ -172,9 +172,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
   },
   "legend": {
     "symbolRadius": 0,

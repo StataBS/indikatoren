@@ -5,47 +5,47 @@
       "data": [
         [
           "Schweiz",
-          20.06
+          23.58
         ],
         [
           "Deutschland",
-          7.52
+          6.87
         ],
         [
           "Italien",
-          60
+          70
         ],
         [
           "Türkei",
-          85.71
+          87.5
         ],
         [
           "EU-17 & EFTA",
-          53.85
+          52.21
         ],
         [
           "EU-Ost",
-          58.62
+          60.61
         ],
         [
           "Balkan",
-          81.63
+          81.36
         ],
         [
-          "Mittel- & Südamerika",
-          90
+          "Mittel- und Südamerika",
+          72.73
         ],
         [
           "Arabische Länder",
-          86.67
+          84.62
         ],
         [
           "Afrikanische Länder",
-          78.79
+          74.19
         ],
         [
           "Übrige Länder",
-          72.55
+          76.3
         ]
       ],
       "turboThreshold": 0
@@ -73,7 +73,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -102,7 +102,7 @@
     },
     "type": "column",
     "inverted": true,
-    "spacingBottom": 60,
+    "spacingBottom": 50,
     "renderTo": "container-6515"
   },
   "plotOptions": {
@@ -134,7 +134,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": " nach Staatsangehörigkeit, Stand: 2016",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2017",
     "align": "left"
   },
   "yAxis": {
@@ -172,9 +172,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Bevölkerungsdienste und Migration Basel-Stadt;\u003Cbr\u002F\u003EZentrale Informatikdienste Basel-Stadt ZID\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Bevölkerungsdienste und Migration Basel-Stadt;\u003Cbr\u002F\u003EZentrale Informatikdienste Basel-Stadt ZID"
   },
   "legend": {
     "symbolRadius": 0,

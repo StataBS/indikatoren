@@ -5,43 +5,43 @@
       "data": [
         [
           "15-19",
-          -6.6
+          -3.8
         ],
         [
           "20-24",
-          -10.7
+          -7
         ],
         [
           "25-29",
-          -7.7
+          -5
         ],
         [
           "30-34",
-          -8.7
+          -6.7
         ],
         [
           "35-39",
-          -9.5
+          -7.6
         ],
         [
           "40-44",
-          -7.9
-        ],
-        [
-          "45-49",
-          -8.8
-        ],
-        [
-          "50-54",
           -6.5
         ],
         [
+          "45-49",
+          -6.5
+        ],
+        [
+          "50-54",
+          -4.8
+        ],
+        [
           "55-59",
-          -8.3
+          -5
         ],
         [
           "60-64",
-          -11.1
+          -8.2
         ]
       ],
       "name": "Männer",
@@ -52,43 +52,43 @@
       "data": [
         [
           "15-19",
-          6.5
+          4.6
         ],
         [
           "20-24",
-          13.5
+          9.4
         ],
         [
           "25-29",
-          10.7
+          8.3
         ],
         [
           "30-34",
-          13.4
+          10.7
         ],
         [
           "35-39",
-          11.1
+          10.1
         ],
         [
           "40-44",
-          8.5
+          7.1
         ],
         [
           "45-49",
-          8.2
+          6.4
         ],
         [
           "50-54",
-          5.2
+          5.5
         ],
         [
           "55-59",
-          8.1
+          6.7
         ],
         [
           "60-64",
-          6.4
+          5.3
         ]
       ],
       "name": "Frauen",
@@ -126,8 +126,8 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
-    "spacingBottom": 70,
+    "height": 415,
+    "spacingBottom": 60,
     "style": {
       "fontFamily": "Arial"
     },
@@ -177,7 +177,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Pyramide der Arbeitslosenquote der Ausländer"
+    "text": "Arbeitslosenquote der Ausländer"
   },
   "subtitle": {
     "style": {
@@ -186,7 +186,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Geschlecht, Stand: 1997",
+    "text": "nach Alter und Geschlecht, Basel-Stadt, 1998",
     "align": "left"
   },
   "yAxis": [
@@ -236,9 +236,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
   },
   "legend": {
     "symbolRadius": 0,
