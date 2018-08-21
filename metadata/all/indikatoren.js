@@ -20528,7 +20528,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Ausländeranteil nach Gemeinde und Wohnviertel",
-		"subtitle": "Stand 2017 und Veränderung seit 1998",
+		"subtitle": "Basel-Stadt, Stand 2017 und Veränderung seit 1998",
 		"kuerzel": "I.01.1.6398",
 		"kuerzelKunde": "A1-3",
 		"description": "Ausländeranteil nach Gemeinde und Wohnviertel",
@@ -20544,7 +20544,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2017 wiesen die Wohnviertel Rosental, Mattäus, Klybeck, Kleinhüningen und Clara die höchsten Ausländeranteile auf (≥45%). Die tiefsten Ausländeranteile wurden in den Wohnvierteln Bachletten, Bruderholz, Hirzbrunnen und in der Gemeinde Bettingen verzeichnet (<25%). Seit 1998 am stärksten zugenommen haben die Ausländeranteile in den Wohnvierteln Vorstädte, St. Alban, Am Ring, Bruderholz, Altstadt Grossbasel und Kleinbasel sowie in der Gemeinde Riehen.",
+		"lesehilfe": "Ende 2017 wiesen die Wohnviertel Rosental, Matthäus, Klybeck, Kleinhüningen und Clara die höchsten Ausländeranteile auf (≥45%). Die tiefsten Ausländeranteile wurden in den Wohnvierteln Bachletten, Bruderholz, Hirzbrunnen und in der Gemeinde Bettingen verzeichnet (<25%). Seit 1998 am stärksten zugenommen haben die Ausländeranteile in den Wohnvierteln Vorstädte, St. Alban, Am Ring, Bruderholz, Altstadt Grossbasel und Kleinbasel sowie in der Gemeinde Riehen.",
 		"erlaeuterungen": "",
 		"template": "mappie001",
 		"printformat": "",
