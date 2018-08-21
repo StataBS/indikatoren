@@ -1051,7 +1051,7 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemWidth": 141,
+    "x": -8,
     "itemDistance": 6,
     "itemMarginBottom": 5,
     "itemStyle": {

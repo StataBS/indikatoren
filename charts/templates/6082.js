@@ -29,7 +29,7 @@
   {"color": "#999999"}, /*Übrige Länder*/
   ],
    "legend": {
-   	itemWidth: 141,
+   	x: -8,
     "enabled": true,
     "layout": "horizontal",
     itemDistance: 6,

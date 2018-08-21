@@ -29,7 +29,7 @@
            '#999999',         
         
         ],
-		dataLabels: {
+		/*dataLabels: {
 		                enabled: true,
 		                format: '{point.percentage:.1f}',
 		                distance: 1,
@@ -39,7 +39,7 @@
                         fontWeight: "normal", 
                         fontSize: "12px"
 		                }
-	      }
+	      }*/
       }
     }
     };
