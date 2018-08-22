@@ -6,15 +6,19 @@
       "data": [
         [
           "2010",
-          35
+          34.5
         ],
         [
           "2012",
-          36.2
+          36.1
         ],
         [
           "2014",
-          37.9
+          37.8
+        ],
+        [
+          "2016",
+          38.8
         ]
       ],
       "name": "Anteil Erneuerbare Energie",
@@ -101,7 +105,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -141,7 +145,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-17"
   },
   "legend": {
     "symbolRadius": 0,
