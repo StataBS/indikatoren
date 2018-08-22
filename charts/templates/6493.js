@@ -19,7 +19,7 @@
     "tickInterval": 1
   },  
   "yAxis": {
-  max: 100,
+  	 max: 100,
      //tickInterval: 60000,
     "labels": {
       "format": "{value:,.0f}%",
@@ -34,7 +34,7 @@
     reversed: true,
     itemMarginBottom: 5,
     labelFormatter: function(){
-      return this.name.replace(" ", "<br/>").replace("-", "<br/>");
+      return this.name.replace(" ", "<br/>").replace("-", "-<br/>");
     },
 	  //"y": 30,
     "itemStyle": {
