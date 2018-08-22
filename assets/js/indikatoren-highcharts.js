@@ -103,7 +103,7 @@ function injectMetadataToChartConfig(options, data, view, suppressNumberInTitle)
   options['title']['text'] = (isIndikatorensetView(view)) ? chartNumberToDisplay + data.title : data.title;
   options['subtitle']['text'] = data.subtitle;    
   options['chart']['renderTo'] = 'container-' + data.id;
-  options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join(';<br/>');
+  options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join(';<br/>') + '.';
   //add 10 px space for each line of credits plus -5px for the first line (if not stated otherwise)
   var numberOfCreditsLines = data.quellenangabe.length;
   var aktDatum = Date.parse(data["aktualisierungsdatum"]);
