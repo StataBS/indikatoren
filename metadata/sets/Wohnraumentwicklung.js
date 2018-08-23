@@ -74,7 +74,9 @@ var indikatorensetData = [
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Wohnraumentwicklung",
-		"raeumlicheGliederung": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
 		"aktualisierungsdatum": "2018-08-22T15:38:57.5757",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
