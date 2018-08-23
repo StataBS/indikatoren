@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"Die höchsten Sozialhilfequoten im Kanton weisen Personen unter 20 Jahren auf. Ausländische Männer im Alter von 15 bis 19 Jahren tragen das höchste Sozialhilferisiko. Bei den ausländischen Frauen liegt die Sozialhilfequote bei den 10- bis 14-Jährigen am höchsten.",
 "erlaeuterungen":"Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Seit 2017 können kantonale Werte ausgewiesen werden.",
-"template":"",
+"template":"populationPyramid001_print",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":false,

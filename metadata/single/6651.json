@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"2017 ist die Basis der Alterspyramide der Schweizerinnen und Schweizer etwas breiter als 1998, der Anteil der Kinder und Jugendlichen hat zugenommen.",
 "erlaeuterungen":"Prozentanteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
-"template":"",
+"template":"populationPyramid001_print",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":false,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+"externalLinks":[""] 
 }

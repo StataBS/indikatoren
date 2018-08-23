@@ -187,7 +187,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Pyramide der Arbeitslosenquote der Schweizer"
+    "text": "Arbeitslosenquote der Schweizer"
   },
   "subtitle": {
     "style": {
@@ -196,7 +196,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Geschlecht, Stand: 1997",
+    "text": "nach Alter und Geschlecht, Basel-Stadt, 1998",
     "align": "left"
   },
   "yAxis": [

@@ -161,7 +161,7 @@
                 }
     },
     "renderTo": "container-6686",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "bar": {
@@ -186,7 +186,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Pyramide der Arbeitslosenquote der Schweizer"
+    "text": "Arbeitslosenquote der Schweizer"
   },
   "subtitle": {
     "style": {
@@ -195,7 +195,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Geschlecht, Stand: 2017",
+    "text": "nach Alter und Geschlecht, Basel-Stadt, 2017",
     "align": "left"
   },
   "yAxis": {
@@ -254,9 +254,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
   },
   "legend": {
     "symbolRadius": 0,

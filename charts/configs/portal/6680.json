@@ -48,19 +48,38 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
       }
     },
     "labels": {
+      "rotation": 0,
       "formatter": function () {
       	return this.value.replace(" ", "<br/>");
       }
-    },
-    "tickLength": 0
+    }
   },
   "chart": {
+    "events": {
+      "load": function () {
+                this.credits.element.onclick = function() {};
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }                              
+            }
+    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
@@ -72,51 +91,20 @@
       2
     ],
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Arial",
+      "fontSize": "10px"
     },
     "zoomType": "xy",
-    "events": {
-      "load": function () {
-                    this.credits.element.onclick = function() {};
-                    
-                    //square legends must be placed 3 pixels more to the left that lines, don't know why
-                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
-                    
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                      this.update(
-                        {
-                          legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                          }
-                        }
-                      );
-                    }              
-                    
-                }
-    },
+    "type": "column",
     "inverted": true,
     "spacingRight": 3,
     "renderTo": "container-6680",
     "spacingBottom": 2
   },
-  "plotOptions": {
-    "series": {
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px",
-          "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "black"
-        }
-      }
-    }
-  },
   "title": {
     "style": {
       "fontSize": "10px",
-      "fontWeight": "bold",
+      "fontWeight": "normal",
       "color": "#000000"
     },
     "align": "left",
@@ -124,15 +112,31 @@
   },
   "subtitle": {
     "style": {
-      "fontSize": "10px",
-      "fontWeight": "normal",
-      "fontFamily": "Arial",
+      "fontSize": "12px",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, gepoolte Daten 2012 bis 2016",
-    "align": "left"
+    "align": "left",
+    "text": "Basel-Stadt, gepoolte Daten 2012 bis 2016"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
   },
   "yAxis": {
+    "tickInterval": 20,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -145,26 +149,24 @@
     },
     "labels": {
       "y": 18,
+      "format": "{value}%",
       "style": {
-        "fontSize": 10,
         "color": "#000000",
+        "fontSize": "10px",
         "textOverflow": "none"
       },
       "overflow": "justify"
-    },
-    "tickInterval": 20
-  },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
     }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "credits": {
     "enabled": true,
     "style": {
       "color": "#000000",
-      "fontSize": "10",
+      "fontSize": "10px",
       "cursor": "default"
     },
     "position": {
@@ -177,22 +179,20 @@
   },
   "legend": {
     "padding": 1,
-    "symbolRadius": 0,
-    "itemMarginBottom": 1,
-    "itemStyle": {
-      "fontSize": "10px",
-      "fontWeight": "normal"
-    },
-    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
-  },
-  "dataLabels": {
-    "enabled": false,
-    "style": {
-      "fontSize": 10
-    }
+    "align": "left",
+    "useHTML": true,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontFamily": "Arial",
+      "fontWeight": "normal"
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        },
+    "enabled": true
   },
   "exporting": {
     "filename": 6680
