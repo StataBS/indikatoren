@@ -1,40 +1,29 @@
-{
- "title": "Leerwohnungsquote",
- "subtitle": "nach Wohnviertel in Prozent",
- "kuerzel": "I.09.2.05814",
- "kuerzelKunde": "ST 4-6",
- "description": "Leerwohnungsquote",
- "id": 5814,
- "thema": "09 Bau-, Wohnungswesen",
- "unterthema": "Leerstand",
- "kennzahlenset": "Richtplan",
- "raeumlicheGliederung": [
-  "Wohnviertel"
- ],
- "aktualisierungsdatum": "2017-07-04T09:44:27.2727",
- "schlagwort": [
-  "Wohnung"
- ],
- "stufe1": "Sachgebiet Siedlung - Wohnen",
- "stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Die höchsten Leerwohnungsquote wurden 2016 im Hirzbrunnen, im St. Alban sowie in der Gemeinde Bettingen verzeichnet. Die überwiegende Mehrheit der Wohnviertel erfuhr einen Rückgang der Leerwohnungsquote seit 1998.",
- "erlaeuterungen": "Stichtag ist der 1. Juni.",
- "template": "mappie001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "01_01_00_00_00_006",
- "parentId": 6009,
- "children": [
-  "6246"
- ],
- "renderLink": [],
- "quellenangabe": [
-  "Statistisches Amt Basel-Stadt, Leerstandserhebung"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Leerwohnungsquote nach Gemeinde und Wohnviertel",
+"subtitle":"Basel-Stadt",
+"kuerzel":"I.09.2.05814",
+"kuerzelKunde":"ST 4-6",
+"description":"Leerwohnungsquote nach Gemeinde und Wohnviertel",
+"id":5814,
+"thema":"09 Bau-, Wohnungswesen",
+"unterthema":"Leerstand",
+"kennzahlenset":"Richtplan",
+"raeumlicheGliederung":["Wohnviertel"],
+"aktualisierungsdatum":"2018-08-22T15:36:05.055",
+"stufe1":"Sachgebiet Siedlung - Wohnen",
+"stufe2":"Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Die höchste Leerwohnungsquote aller Wohnviertel wurde 2018 im Wohnviertel Vorstädte verzeichnet.",
+"erlaeuterungen":"Stichtag ist der 1. Juni.",
+"template":"mappie001",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"01_01_00_00_00_006",
+"parentId":6009,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Leerstandserhebung"],
+"externalLinks":[""]
 }
