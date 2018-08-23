@@ -8,14 +8,6 @@
       },
       "data": [
         [
-          1997,
-          24845
-        ],
-        [
-          1998,
-          14888
-        ],
-        [
           1999,
           28533
         ],
@@ -86,6 +78,14 @@
         [
           2016,
           54565
+        ],
+        [
+          2017,
+          59699
+        ],
+        [
+          2018,
+          58024
         ]
       ],
       "name": "Büro"
@@ -97,14 +97,6 @@
         "enabled": false
       },
       "data": [
-        [
-          1997,
-          22716
-        ],
-        [
-          1998,
-          12821
-        ],
         [
           1999,
           21008
@@ -176,6 +168,14 @@
         [
           2016,
           11291
+        ],
+        [
+          2017,
+          20317
+        ],
+        [
+          2018,
+          19178
         ]
       ],
       "name": "Lager"
@@ -226,7 +226,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Quadratmetern",
+    "text": "in Quadratmetern, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -277,7 +277,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: SVIT beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2017-10-27"
+    "text": "Quelle: SVIT beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-22"
   },
   "legend": {
     "enabled": true,

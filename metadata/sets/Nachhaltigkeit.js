@@ -933,7 +933,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
-		"subtitle": "nach Zimmerzahl",
+		"subtitle": "nach Zimmerzahl, Basel-Stadt",
 		"kuerzel": "I.09.2.05195",
 		"kuerzelKunde": "GW17",
 		"description": "Anzahl Leerwohnungen und Leerwohnungsquote",
@@ -943,15 +943,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-22T15:37:44.4444",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Leerwohnungsquote erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die Leerwohnungsquote stetig angestiegen und lag 2017 bei 0,5%.",
-		"erlaeuterungen": "LWQ = Leerwohnungsquote",
+		"lesehilfe": "Die Leerwohnungsquote erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die Leerwohnungsquote stetig angestiegen und liegt 2018 bei 0,7%.",
+		"erlaeuterungen": "LWQ = Leerwohnungsquote.",
 		"template": "template001",
+		"printformat": "",
 		"orderKey": "03_06_00_00_00_317",
 		"parentId": 4138,
 		"children": [],

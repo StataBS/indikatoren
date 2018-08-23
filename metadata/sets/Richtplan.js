@@ -106,8 +106,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Leerwohnungsquote",
-		"subtitle": "in Prozent",
-		"kuerzel": "I.09.2.05813",
+		"subtitle": "in Prozent, Basel-Stadt",
+		"kuerzel": "I.09.2.5813",
 		"kuerzelKunde": "ST 4-5",
 		"description": "Leerwohnungsquote",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -116,7 +116,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-06-26T16:51:11.1111",
+		"aktualisierungsdatum": "2018-08-22T15:39:14.1414",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -125,11 +125,10 @@ var indikatorensetData = [
 		"lesehilfe": "Die Leerwohnungsquote sank seit 2006 kontinuierlich und erreichte 2014 mit 0,2% den tiefsten Wert. Seither steigt sie wieder leicht an.",
 		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_005",
 		"parentId": null,
-		"children": [
-			"6245"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -140,31 +139,30 @@ var indikatorensetData = [
 		"id": 5813
 	},
 	{
-		"title": "Leerwohnungsquote",
-		"subtitle": "nach Wohnviertel in Prozent",
+		"title": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.09.2.05814",
 		"kuerzelKunde": "ST 4-6",
-		"description": "Leerwohnungsquote",
+		"description": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-07-04T09:44:27.2727",
+		"aktualisierungsdatum": "2018-08-22T15:36:05.055",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchsten Leerwohnungsquote wurden 2016 im Hirzbrunnen, im St. Alban sowie in der Gemeinde Bettingen verzeichnet. Die überwiegende Mehrheit der Wohnviertel erfuhr einen Rückgang der Leerwohnungsquote seit 1998.",
+		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2018 im Wohnviertel Vorstädte verzeichnet.",
 		"erlaeuterungen": "Stichtag ist der 1. Juni.",
 		"template": "mappie001",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_006",
 		"parentId": 6009,
-		"children": [
-			"6246"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -707,8 +705,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Leerstehende Industrie- und Gewerbeflächen",
-		"subtitle": "in Quadratmetern",
-		"kuerzel": "I.09.2.06217",
+		"subtitle": "in Quadratmetern, Basel-Stadt",
+		"kuerzel": "I.09.2.6217",
 		"kuerzelKunde": "ST 7-4",
 		"description": "Leerstehende Industrie- und Gewerbeflächen",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -717,18 +715,20 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-22T15:38:02.022",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Büroflächen machen mit gut 54 000 m<sup>2</sup> über die Hälfte aller leeren Geschäftsflächen aus. Der Leerstand von Industrie- und Gewerbeflächen errreichte 2011 mit total knapp 170 000 m<sup>2</sup> den Höchststand in den letzten 20 Jahren.",
+		"lesehilfe": "Die Büroflächen machen mit rund 58 000 m² über die Hälfte aller leeren Geschäftsflächen aus. Der Leerstand von Industrie- und Gewerbeflächen errreichte 2011 mit total knapp 170 000 m² den Höchststand in den letzten 20 Jahren.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "02_04_00_00_00_004",
 		"parentId": null,
 		"children": [
+			"6245",
 			"6262"
 		],
 		"renderLink": [],
