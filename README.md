@@ -164,7 +164,7 @@ Update version numbers in package.json, then run the following command to do a c
 npm run reinstall
 ```
 
-### Develop in a private github repositoriy
+### Develop in a private github repository
 - Develop in a private github repositoriy as you would do in the public repo: Create an issue, create a branch called 'issue-XXX' with XXX being the id of the issue. 
 - When it's time to release the new functionality onto the public repository: 
     - In the private repo, define the public repo as a remote repo named "upstream" (of course use the correct https url, not the following dummy url. Use e.g. the address from the browser and add '.git' at the end): 
