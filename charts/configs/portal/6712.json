@@ -191,7 +191,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Mittelwert des Reineinkommens pro Veranlagung"
+    "text": "Mittelwert des Reinvermögens pro Veranlagung"
   },
   "subtitle": {
     "style": {
@@ -200,7 +200,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Top 10 der Mittelwerte",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt",
     "align": "left"
   },
   "yAxis": {

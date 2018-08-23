@@ -111,7 +111,7 @@
     "type": "column",
     "inverted": true,
     "renderTo": "container-6718",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -145,7 +145,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Stand: 2016",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2017",
     "align": "left"
   },
   "yAxis": {
@@ -185,9 +185,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
   },
   "legend": {
     "padding": 1,

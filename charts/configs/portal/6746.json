@@ -150,7 +150,7 @@
     "marginLeft": 120,
     "marginRight": 9,
     "renderTo": "container-6746",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -182,7 +182,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit Stand: 2016",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2017",
     "align": "left"
   },
   "yAxis": {
@@ -223,9 +223,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung;\u003Cbr\u002F\u003EBevölkerungsdienste und Migration Basel-Stadt"
   },
   "legend": {
     "padding": 1,

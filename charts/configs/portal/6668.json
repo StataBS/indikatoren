@@ -562,7 +562,7 @@
     },
     "type": "line",
     "renderTo": "container-6668",
-    "spacingBottom": 2
+    "spacingBottom": 22
   },
   "title": {
     "style": {
@@ -580,7 +580,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -633,9 +633,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS)"
+    "text": "Quelle: Bundesamt für Statistik (BFS);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bildungsstatistik"
   },
   "legend": {
     "enabled": true,

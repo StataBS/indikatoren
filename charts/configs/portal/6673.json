@@ -69,45 +69,23 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
-    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
       }
     },
     "labels": {
-      "rotation": 0,
       "style": {
-        "color": "#000000",
-        "width": 1,
-        "whiteSpace": "nowrap",
-        "textOverflow": "none",
-        "fontSize": "10px"
+        "fontSize": 10,
+        "color": "#000000"
       },
       "formatter": function () {
       	return this.value.replace("Eingebürgerte", "Eingebürgerte<br/>").replace("seit", "<br/>seit ");
       }
-    }
+    },
+    "tickLength": 0
   },
   "chart": {
-    "events": {
-      "load": function () {
-                this.credits.element.onclick = function() {};
-                //square legends must be placed 3 pixels more to the left that lines, don't know why
-                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-                
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                    }
-                  }
-                );
-              }                              
-            }
-    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
@@ -119,20 +97,51 @@
       2
     ],
     "style": {
-      "fontFamily": "Arial",
-      "fontSize": "10px"
+      "fontFamily": "Arial"
     },
     "zoomType": "xy",
-    "type": "column",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {};
+                    
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                          }
+                        }
+                      );
+                    }              
+                    
+                }
+    },
     "marginRight": 10,
     "inverted": true,
     "renderTo": "container-6673",
     "spacingBottom": 2
   },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      }
+    }
+  },
   "title": {
     "style": {
       "fontSize": "10px",
-      "fontWeight": "normal",
+      "fontWeight": "bold",
       "color": "#000000"
     },
     "align": "left",
@@ -140,31 +149,15 @@
   },
   "subtitle": {
     "style": {
-      "fontSize": "12px",
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
       "color": "#000000"
     },
-    "align": "left",
-    "text": "Personen ab 15 Jahren nach Migrationsstatus, gepoolte Daten 2012 - 2016"
-  },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "stacking": "percent"
-    }
+    "text": "Personen ab 15 Jahren nach Migrationsstatus, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2012 - 2016",
+    "align": "left"
   },
   "yAxis": {
-    "tickInterval": 20,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -177,25 +170,27 @@
     },
     "labels": {
       "y": 18,
-      "format": "{value}%",
       "style": {
+        "fontSize": 10,
         "color": "#000000",
-        "fontSize": "10px",
         "textOverflow": "none"
       },
       "rotation": 0,
       "overflow": "justify"
-    }
+    },
+    "tickInterval": 20
   },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
-    "shared": false
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
   },
   "credits": {
     "enabled": true,
     "style": {
       "color": "#000000",
-      "fontSize": "10px",
+      "fontSize": "10",
       "cursor": "default"
     },
     "position": {
@@ -208,21 +203,23 @@
   },
   "legend": {
     "padding": 1,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "useHTML": true,
+    "symbolRadius": 0,
+    "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px",
-      "fontFamily": "Arial",
       "fontWeight": "normal"
     },
-    "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        },
     "itemDistance": 2,
-    "enabled": true
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": 10
+    }
   },
   "exporting": {
     "filename": 6673

@@ -269,7 +269,7 @@
     "type": "column",
     "inverted": false,
     "renderTo": "container-6693",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -301,7 +301,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit und Geschlecht",
+    "text": "der 15-64-Jährigen nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -344,9 +344,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ)"
   },
   "legend": {
     "padding": 1,

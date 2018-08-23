@@ -1,8 +1,8 @@
-{"title":"Anzahl Angestellte in der kantonalen Verwaltung",
+{"title":"Anzahl Angestellte in der kantonalen Verwaltung Basel-Stadt",
 "subtitle":"nach Staatsangehörigkeit, Geschlecht und Kaderstufe, Stand: 2017",
 "kuerzel":"I.18.3.6698",
 "kuerzelKunde":"C3-5",
-"description":"Anzahl Angestellte in der kantonalen Verwaltung",
+"description":"Anzahl Angestellte in der kantonalen Verwaltung Basel-Stadt",
 "id":6698,
 "thema":"18 Öffentliche Finanzen",
 "unterthema":"Staatspersonal",
@@ -20,10 +20,10 @@
 "printformat":"", 
 "visible":true,
 "visibleInPortal":false,
-"orderKey":"03_00_00_00_00_000",
+"orderKey":"03_00_00_00_00_017",
 "parentId":6423,
 "children":[],
 "renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Finanzdepartement Basel-Stadt, Zentraler Personaldienst"],
 "externalLinks":[""]
 }

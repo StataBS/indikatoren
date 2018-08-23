@@ -542,7 +542,7 @@
     },
     "type": "line",
     "renderTo": "container-6694",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -551,7 +551,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil der Staatsangestellten nach Staatsangehörigkeit"
+    "text": "Anteil der Staatsangestellten Basel-Stadt nach Heimat"
   },
   "subtitle": {
     "style": {
@@ -619,9 +619,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EFinanzdepartement Basel-Stadt, Zentraler Personaldienst"
   },
   "legend": {
     "enabled": true,

@@ -473,7 +473,7 @@
     "renderTo": "container-6695",
     "type": "column",
     "inverted": false,
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -498,7 +498,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl angestellte Ausländer in der kantonalen Verwaltung"
+    "text": "Angestellte Ausländer in der Verwaltung Basel-Stadt"
   },
   "subtitle": {
     "style": {
@@ -548,9 +548,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EFinanzdepartement Basel-Stadt, Zentraler Personaldienst"
   },
   "legend": {
     "padding": 1,

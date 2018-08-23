@@ -145,7 +145,7 @@
     },
     "type": "line",
     "renderTo": "container-6707",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -163,7 +163,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Basel-Stadt, 2017",
     "align": "left"
   },
   "tooltip": {
@@ -204,9 +204,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen"
   },
   "legend": {
     "enabled": true,

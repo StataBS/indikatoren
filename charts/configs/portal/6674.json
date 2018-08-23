@@ -3333,90 +3333,90 @@
       "data": [
         [
           "Altstadt GB",
-          13.208
+          12.923
         ],
         [
           "Vorstädte",
-          17.08
+          17.692
         ],
         [
           "Am Ring",
-          14.336
+          13.493
         ],
         [
           "Breite",
-          11.4
+          11.203
         ],
         [
           "St. Alban",
-          17.219
+          16.425
         ],
         [
           "Gundeldingen",
-          2.082
+          1.837
         ],
         [
           "Bruderholz",
-          13.402
+          13.177
         ],
         [
           "Bachletten",
-          9.765
+          9.372
         ],
         [
           "Gotthelf",
-          9.895
+          9.792
         ],
         [
           "Iselin",
-          11.947
+          11.051
         ],
         [
           "St. Johann",
-          2.357
+          2.298
         ],
         [
           "Altstadt KB",
-          12.589
+          13.392
         ],
         [
           "Clara",
-          5.54
+          5.774
         ],
         [
           "Wettstein",
-          12.053
+          12.272
         ],
         [
           "Hirzbrunnen",
-          9.064
+          8.945
         ],
         [
           "Rosental",
-          7.992
+          7.381
         ],
         [
           "Matthäus",
-          0.694
+          0.536
         ],
         [
           "Klybeck",
-          6.439
+          5.548
         ],
         [
           "Kleinhüningen",
-          8.287
+          8.912
         ],
         [
           "Riehen",
-          14.101
+          13.788
         ],
         [
           "Bettingen",
-          9.747
+          8.503
         ]
       ],
-      "name": "Zunahme seit 1997 in Prozentpunkten"
+      "name": "Zunahme seit 1998 in Prozentpunkten"
     },
     {
       "name": "Rhein",
@@ -3735,7 +3735,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016 und Veränderung seit 1997",
+    "text": "Basel-Stadt, Stand 2017 und Veränderung seit 1998",
     "align": "left"
   },
   "credits": {

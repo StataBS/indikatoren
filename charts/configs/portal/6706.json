@@ -480,7 +480,7 @@
     },
     "type": "line",
     "renderTo": "container-6706",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -498,7 +498,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Top 6 der IV-Bezüger",
+    "text": "Top 6 der IV-Bezüger, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -550,9 +550,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen"
   },
   "legend": {
     "enabled": true,
