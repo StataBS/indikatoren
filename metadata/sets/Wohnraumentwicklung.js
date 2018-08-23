@@ -66,33 +66,30 @@ var indikatorensetData = [
 		"id": 4128
 	},
 	{
-		"title": "Mietpreisentwicklung der Leerwohnungen",
-		"subtitle": "nach Zimmerzahl",
-		"kuerzel": "I.09.2.04129",
+		"title": "Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.2.4129",
 		"kuerzelKunde": "0.1.B-2",
-		"description": "Mietpreisentwicklung der Leerwohnungen",
+		"description": "Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Wohnraumentwicklung",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2018-02-01T00:00:00.0000",
+		"raeumlicheGliederung": [],
+		"aktualisierungsdatum": "2018-08-22T15:38:57.5757",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Mietpreisentwicklung der Leerwohnungen ist im Zehnjahresvergleich leicht ansteigend. Da es grundsätzlich wenige leerstehende 5-Zimmerwohnungen gibt, sind die ausgewiesenen Durchschnittsmieten in dieser Kategorie grösseren Schwankungen unterworfen bzw. können wie im Jahr 2014 aufgrund zu kleiner Stichprobe gar nicht berechnet werden.",
-		"erlaeuterungen": "Bei den Mietpreisen für Leerwohnungen handelt es sich um Angebotsmieten, nicht um Bestandsmieten. 2014 kann keine Durchschnittsmiete für leerstehende 5-Zimmerwohnungen angegeben werden, weil in dieser Kategorie zu wenige Beobachtungen vorlagen.",
+		"erlaeuterungen": "Ohne Wohnungen in Einfamilienhäusern, ohne Wohnungen mit Zwischennutzung (eingeschränkte Mieterrechte, besonders günstig), ohne möblierte Wohnungen (besonders teuer) und mit Genossenschaftswohnungen.",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
-		],
+		"quellenangabe": [],
 		"externalLinks": [
 			""
 		],
@@ -369,8 +366,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
-		"subtitle": "nach Zimmerzahl",
-		"kuerzel": "I.09.2.04138",
+		"subtitle": "nach Zimmerzahl, Basel-Stadt",
+		"kuerzel": "I.09.2.4138",
 		"kuerzelKunde": "1.2.F-1",
 		"description": "Anzahl Leerwohnungen und Leerwohnungsquote",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -379,15 +376,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-02-28T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-22T15:37:12.1212",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Leerwohnungsquoten erreichten im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die Leerwohnungsquote stetig angestiegen und lag 2017 bei 0,5%.",
-		"erlaeuterungen": "LWQ = Leerwohnungsquote",
+		"lesehilfe": "Die Leerwohnungsquote erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die Leerwohnungsquote stetig angestiegen und liegt 2018 bei 0,7%.",
+		"erlaeuterungen": "LWQ = Leerwohnungsquote.",
 		"template": "template001",
+		"printformat": "",
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [
@@ -404,8 +402,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
-		"subtitle": "nach Wohnflächenkategorie, Stand 2015 bis 2017",
-		"kuerzel": "I.09.2.04139",
+		"subtitle": "nach Grösse der Wohnung, Basel-Stadt",
+		"kuerzel": "I.09.2.4139",
 		"kuerzelKunde": "1.2.F-2",
 		"description": "Anzahl Leerwohnungen und Leerwohnungsquote",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -414,15 +412,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-02-01T00:00:00.0000",
+		"aktualisierungsdatum": "2018-08-22T15:38:32.3232",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit knapp 0,4% bei Wohnungen ab 150 m² gemessen. Diese hatten 2015 mit gut 0,5% noch den höchsten Wert erreicht.",
+		"lesehilfe": "Im Jahr 2018 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit knapp 0,5% bei Wohnungen ab 150 m² gemessen.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"printformat": "",
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
