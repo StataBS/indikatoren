@@ -3637,8 +3637,8 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 640,
-    "height": 312,
+    "width": 992,
+    "height": 484,
     "spacing": [
       2,
       2,
@@ -3698,18 +3698,18 @@
 	                var maxValueInLegend = 15; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, pieSizeSeries.name + " ", 430, 165);
+	                fn.addLegendTitle(chart, pieSizeSeries.name + " ", 782, 345);
 	                
-	                fn.addLegendCircle(chart, 445, 195, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), "#7F5F1A");
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 459, 185);
-	                fn.addLegendCircle(chart, 445, 220, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), "#7F5F1A");
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 459, 210);
+	                fn.addLegendCircle(chart, 800, 380, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), "#7F5F1A");
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 820, 370);
+	                fn.addLegendCircle(chart, 800, 400, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), "#7F5F1A");
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 820, 389);
 
 					//fn.addLegendSquare(chart, 270, 250, 10, '#7F5F1A');
 					//fn.addLegendLabel(chart, 'Zunahme', 300, 245);
 					//fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
 					//fn.addLegendLabel(chart, 'Abnahme', 300, 270);
-					fn.addLegendTitle(chart, 'Ausländeranteil 2016 in % ', 430, 240);
+					fn.addLegendTitle(chart, choroplethSeries.name, 782, 415);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
