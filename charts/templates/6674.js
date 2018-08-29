@@ -15,8 +15,8 @@
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -243,
-			//"y": 3,
+			"x": -405,
+			"y": -50,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {
@@ -89,6 +89,8 @@
 			}
 		],
 		chart: {
+			"width": 992,
+            "height": 484,
 			events: {
 	            load: function (e) {
 	            	
@@ -153,15 +155,15 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	                fn.addLegendTitle(chart, choroplethSeries.name , 320, 210);
-	                fn.addLegendTitle(chart, pieSizeSeries.name , 465, 210);
+	                fn.addLegendTitle(chart, choroplethSeries.name , 510, 335);
+	                fn.addLegendTitle(chart, pieSizeSeries.name , 630, 335);
 	                
-	             	fn.addLegendCircle(chart, 473, 246, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 490, 236, true);
-	                fn.addLegendCircle(chart, 473, 265, 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 490, 256, true);
-	                fn.addLegendCircle(chart, 473, 290, 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 490, 280, true);
+	             	fn.addLegendCircle(chart, 640, 370, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 650, 358, true);
+	                fn.addLegendCircle(chart, 640, 389, 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 650, 378, true);
+	                fn.addLegendCircle(chart, 640, 414, 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 650, 402, true);
 					
 					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
 					//fn.addLegendLabel(chart, 'Zunahme', 580, 236);
