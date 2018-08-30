@@ -477,7 +477,8 @@
       },
       "format": "{value:,.0f}%"
     },
-    "max": 100
+    "max": 100,
+    "rotation": 0
   },
   "navigation": {
     "menuItemStyle": {

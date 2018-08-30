@@ -102,6 +102,7 @@
       "labels": {
         "step": 1,
         "style": {
+          "fontSize": "10px",
           "color": "#000000"
         }
       },
@@ -215,7 +216,8 @@
             	},
         "style": {
           "color": "#000000",
-          "textOverflow": "none"
+          "textOverflow": "none",
+          "fontSize": "10px"
         }
       },
       "plotLines": [
@@ -259,7 +261,7 @@
     "padding": 1,
     "itemStyle": {
       "fontWeight": "normal",
-      "fontSize": "11px"
+      "fontSize": "10px"
     },
     "enabled": true,
     "layout": "horizontal",

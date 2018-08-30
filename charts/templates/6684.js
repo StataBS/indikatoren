@@ -35,9 +35,11 @@
                 formatter: function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
             	},
-                "style": {
+    "style": {
                     "color": "#000000",
-                    textOverflow: 'none'
+                    textOverflow: 'none',
+                     fontSize: '9px'
+                    
                 }
             },
             plotLines: [{
@@ -58,9 +60,12 @@
                 type: 'category',
                 labels: {
     	        	step: 1,
-	                style: {
-	                    color: "#000000"
-	                }
+     "style": {
+                    "color": "#000000",
+                    textOverflow: 'none',
+                     fontSize: '9px'
+                    
+                }
                 }, 
                 tickLength: 0, 
 	            title: {

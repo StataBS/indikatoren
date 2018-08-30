@@ -364,7 +364,7 @@
     "padding": 1,
     "itemStyle": {
       "fontWeight": "normal",
-      "fontSize": "11px"
+      "fontSize": "10px"
     },
     "enabled": true,
     "layout": "horizontal",

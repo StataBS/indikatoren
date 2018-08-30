@@ -35,10 +35,12 @@
                 formatter: function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
             	},
-                "style": {
-                    "color": "#000000", 
-                    fontSize: '9px'
-                }, 
+                 "style": {
+                    "color": "#000000",
+                    textOverflow: 'none',
+                     fontSize: '9px'
+                    
+                },
                 distance: -50, 
             },
             plotLines: [{
@@ -58,11 +60,14 @@
                 reversed: false,
                 type: 'category',
                 labels: {
+                	//"rotation": -45,
     	        	step: 1,
-	                style: {
-	                    color: "#000000", 
-	                    fontSize: '9px'
-	                }
+	                 "style": {
+                    "color": "#000000",
+                    textOverflow: 'none',
+                     fontSize: '9px'
+                    
+                }
                 }, 
                 tickLength: 0, 
 	            title: {
