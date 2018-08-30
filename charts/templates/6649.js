@@ -38,7 +38,7 @@
                  "style": {
                     "color": "#000000",
                     textOverflow: 'none',
-                     fontSize: '9px'
+                     fontSize: '10px'
                     
                 },
                 distance: -50, 
@@ -65,7 +65,7 @@
 	                 "style": {
                     "color": "#000000",
                     textOverflow: 'none',
-                     fontSize: '9px'
+                     fontSize: '10px'
                     
                 }
                 }, 

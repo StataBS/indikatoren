@@ -39,7 +39,7 @@
                    "style": {
                     "color": "#000000",
                     textOverflow: 'none',
-                     fontSize: '9px'
+                     fontSize: '10px'
                     
                 }
             },
@@ -64,7 +64,7 @@
 	                  "style": {
                     "color": "#000000",
                     textOverflow: 'none',
-                     fontSize: '9px'
+                     fontSize: '10px'
                     
                 }
                 }, 

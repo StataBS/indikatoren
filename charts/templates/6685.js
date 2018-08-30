@@ -36,7 +36,7 @@
                 "style": {
                     "color": "#000000",
                     textOverflow: 'none',
-                     fontSize: '9px'
+                     fontSize: '10px'
                     
                 }
             },
@@ -61,14 +61,14 @@
 	                "style": {
                     "color": "#000000",
                     textOverflow: 'none',
-                     fontSize: '9px'
+                     fontSize: '10px'
                     
                 }
                 }, 
                 tickLength: 0, 
 	            title: {
                 style: {
-	                    fontSize: '9px',
+	                    fontSize: '10px',
                     	textOverflow: 'none',
 	                	color: "#000000"
 	                }
