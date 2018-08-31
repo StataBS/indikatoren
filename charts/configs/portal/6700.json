@@ -439,7 +439,7 @@
       "format": "{value:,.0f}",
       "rotation": 0
     },
-    "tickInterval": 100
+    "tickInterval": 250
   },
   "navigation": {
     "menuItemStyle": {
@@ -475,7 +475,10 @@
     "enabled": true,
     "layout": "vertical",
     "verticalAlign": "middle",
-    "align": "right"
+    "align": "right",
+    "labelFormatter": function (){
+    	return this.name.replace("und", "u.");	
+     }
   },
   "dataLabels": {
     "enabled": false,

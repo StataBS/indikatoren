@@ -476,7 +476,10 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "labelFormatter": function (){
+    	return this.name.replace("und", "u.");	
+     }
   },
   "dataLabels": {
     "enabled": false,

@@ -1820,7 +1820,7 @@
     "padding": 0,
     "itemDistance": 1,
     "labelFormatter": function (){
-      return this.name.split("(")[0];//.replace(" und Süd", " <br/>und Süd");
+      return this.name.split("(")[0].replace("und", "u.");//.replace(" und Süd", " <br/>und Süd");
     }
   },
   "exporting": {

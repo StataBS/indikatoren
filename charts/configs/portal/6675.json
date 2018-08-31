@@ -1084,7 +1084,10 @@
     "y": -25,
     "align": "right",
     "itemDistance": 1,
-    "reversed": true
+    "reversed": true,
+    "labelFormatter": function (){
+      return this.name.replace("und", "u.");
+    }
   },
   "dataLabels": {
     "enabled": false,

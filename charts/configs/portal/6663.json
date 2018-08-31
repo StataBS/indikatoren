@@ -1,10 +1,7 @@
 {
   "series": [
     {
-      "color": "#B00000",
-      "marker": {
-        "enabled": false
-      },
+      "color": "#b00000",
       "data": [
         [
           1998,
@@ -90,11 +87,7 @@
       "name": "Schweiz"
     },
     {
-      "color": "#007A2F",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
+      "color": "#672773",
       "data": [
         [
           1998,
@@ -180,11 +173,7 @@
       "name": "Deutschland"
     },
     {
-      "color": "#4f81bd",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
+      "color": "#007a2f",
       "data": [
         [
           1998,
@@ -270,11 +259,7 @@
       "name": "Italien"
     },
     {
-      "color": "#662673",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
+      "color": "#fabd24",
       "data": [
         [
           1998,
@@ -360,10 +345,7 @@
       "name": "Türkei"
     },
     {
-      "color": "#7F5F1A",
-      "marker": {
-        "enabled": false
-      },
+      "color": "#b475ab",
       "data": [
         [
           1998,
@@ -449,11 +431,7 @@
       "name": "EU-17 + EFTA"
     },
     {
-      "color": "#FABD24",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
+      "color": "#71a3b5",
       "data": [
         [
           1998,
@@ -539,11 +517,7 @@
       "name": "EU-Ost"
     },
     {
-      "color": "#3C3C3C",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
+      "color": "#b9cfd7",
       "data": [
         [
           1998,
@@ -629,11 +603,7 @@
       "name": "Balkan"
     },
     {
-      "color": "#2B0099",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
+      "color": "#ff8028",
       "data": [
         [
           1998,
@@ -719,11 +689,7 @@
       "name": "Mittel- und Südamerika"
     },
     {
-      "color": "#E7CEE2",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
+      "color": "#73ba7c",
       "data": [
         [
           1998,
@@ -809,11 +775,7 @@
       "name": "Arabische Länder"
     },
     {
-      "color": "#A8C3CA",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
+      "color": "#9f7c5a",
       "data": [
         [
           1998,
@@ -899,11 +861,7 @@
       "name": "Afrikanische Länder"
     },
     {
-      "color": "#8AB77D",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
+      "color": "#999999",
       "data": [
         [
           1998,
@@ -1119,7 +1077,10 @@
       "fontWeight": "normal"
     },
     "padding": 1,
-    "itemDistance": 1
+    "itemDistance": 1,
+    "labelFormatter": function (){
+		    return this.name.replace("und", "u.");
+		  }
   },
   "exporting": {
     "enabled": false,

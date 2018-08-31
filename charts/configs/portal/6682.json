@@ -453,6 +453,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
+    "marginRight": 5,
     "renderTo": "container-6682",
     "spacingBottom": 12
   },
@@ -539,7 +540,10 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 1
+    "padding": 1,
+    "labelFormatter": function (){
+      return this.name.replace("&", "u.");
+    }
   },
   "exporting": {
     "enabled": false,

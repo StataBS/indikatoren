@@ -165,7 +165,10 @@
     "itemMarginBottom": 1,
     "style": {
       "fontSize": "12px"
-    }
+    },
+    "labelFormatter": function (){
+		    return this.name.replace("und", "u.");
+		}
   },
   "exporting": {
     "filename": 6645

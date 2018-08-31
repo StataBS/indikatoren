@@ -310,7 +310,10 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "y": 3
+      "y": 3,
+      "formatter": function (){
+		    return this.value.replace("und", "u.");
+		  }
     },
     "tickLength": 0,
     "min": 0,

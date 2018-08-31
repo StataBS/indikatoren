@@ -176,6 +176,7 @@
       "fontFamily": "Arial"
     },
     "type": "area",
+    "marginRight": 5,
     "renderTo": "container-6726",
     "spacingBottom": 12
   },

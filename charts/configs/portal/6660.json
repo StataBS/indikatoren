@@ -990,7 +990,10 @@
       "fontWeight": "normal"
     },
     "padding": 1,
-    "itemDistance": 15
+    "itemDistance": 15,
+    "labelFormatter": function (){
+		    return this.name.replace("und", "u.");
+		  }
   },
   "exporting": {
     "enabled": false,

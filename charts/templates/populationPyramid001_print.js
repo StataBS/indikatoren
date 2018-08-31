@@ -78,7 +78,7 @@
                 style: {
                 	color: "#000000",
                     textOverflow: 'none', 
-                    fontSize: '9px'
+                    fontSize: '10px'
                 }
             }
         },
@@ -96,7 +96,7 @@
                 style: {
                 	color: "#000000",
                     textOverflow: 'none', 
-                    fontSize: '9px'
+                    fontSize: '10px'
                 }, 
                 distance: -50, 
                 //Display absolute value
@@ -129,7 +129,7 @@
         	padding: 1,
         	itemStyle: {
                 fontWeight: "normal", 
-                fontSize: '11px'
+                fontSize: '10px'
             }
         },
         tooltip: {

@@ -361,7 +361,10 @@
     "enabled": true,
     "layout": "vertical",
     "verticalAlign": "middle",
-    "align": "right"
+    "align": "right",
+    "labelFormatter": function (){
+		    return this.name.replace("und", "u.");
+		}
   },
   "dataLabels": {
     "enabled": false,

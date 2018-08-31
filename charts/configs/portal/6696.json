@@ -431,10 +431,10 @@
         "color": "#000000"
       },
       "step": 1,
-      "rotation": 0
+      "rotation": -45
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -530,7 +530,6 @@
       },
       "format": "{value:,.0f}"
     },
-    "max": 5000,
     "tickInterval": 1000
   },
   "navigation": {

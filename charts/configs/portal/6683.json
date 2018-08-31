@@ -102,13 +102,17 @@
       "labels": {
         "step": 1,
         "style": {
-          "color": "#000000"
+          "color": "#000000",
+          "textOverflow": "none",
+          "fontSize": "10px"
         }
       },
       "tickLength": 0,
       "title": {
         "style": {
-          "color": "#000000"
+          "color": "#000000",
+          "textOverflow": "none",
+          "fontSize": "10px"
         }
       },
       "tickColor": "#FFFFFF",
@@ -201,6 +205,8 @@
   "yAxis": [
     {
       "min": 0,
+      "max": 15,
+      "tickInterval": 5,
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
       "title": {
@@ -212,7 +218,9 @@
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
             	},
         "style": {
-          "color": "#000000"
+          "color": "#000000",
+          "textOverflow": "none",
+          "fontSize": "10px"
         }
       },
       "plotLines": [
@@ -256,7 +264,7 @@
     "padding": 1,
     "itemStyle": {
       "fontWeight": "normal",
-      "fontSize": "11px"
+      "fontSize": "10px"
     },
     "enabled": true,
     "layout": "horizontal",

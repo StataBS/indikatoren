@@ -125,7 +125,10 @@
       "padding": -100,
       "x": -5,
       "y": 3,
-      "rotation": 0
+      "rotation": 0,
+      "formatter": function (){
+        return this.value.replace("und", "u.");
+      }
     },
     "tickLength": 0
   },

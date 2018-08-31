@@ -6,21 +6,51 @@
 (function(){
 
     return {
-    	"legend": {
+		"legend": {
+    		useHTML: true,
 			"title": {
-				"text": ""
-			}
+				"text": null, 
+				style: {'fontWeight':' bold'}
 			},
-		"colorAxis": {
-			//"min": undefined,
-			"minColor": "#eff6e9",
-			"maxColor": "#4b7b1f",
-			"labels": {
-				"formatter": function () {
-					return Highcharts.numberFormat((this.value),0); 
+			"layout": "vertical",
+			//"verticalAlign": "middle",
+			"align": "right",
+			"x": -405,
+			"y": -50,
+			itemMarginBottom: 2, 
+			symbolRadius: 0,
+			itemStyle: {
+				fontWeight: 'normal'
 				}
-			}
 		},
+         colorAxis: {
+            dataClassColor: 'category',
+        	dataClasses: [{
+        		from: 0,
+                to:24.999,
+                color: '#D7E8D2',
+                name:  "<span style='color: rgba(0,0,0,0)'>0,34</span> < 24,9"
+            },{
+                from:25,
+                to: 31.999,
+                color: '#73B97C',
+                name: "25,0 −  31,9"
+            },{
+                from:32,
+                to: 37.999,
+                color: '#73B97C',
+                name: "32,0 −  37,9"
+            },{
+                from: 38,
+                to: 44.999,
+                 color: '#007A2F',
+                 name: "38,0 − 44,9"
+            },{
+                from: 45,
+                color: '#0A3B19',
+                name:  "<span style='color: rgba(0,0,0,0)'>0,80</span> ≥ 45,0"
+            }], 
+        },
         "data": {
 		    "seriesMapping": [
 		      {
@@ -50,7 +80,7 @@
 				tooltip: {
 					pointFormatter: function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + ' </b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),3) + '</b><br/>';
 					}
 				}
 			}, 
@@ -59,6 +89,8 @@
 			}
 		],
 		chart: {
+			"width": 992,
+            "height": 484,
 			events: {
 	            load: function (e) {
 	            	
@@ -74,8 +106,29 @@
 					
 					//pie diameters in px
 					var maxPieDiameter = 20;
-
-					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
+					
+					//configuration of categorical pie sizes
+					var pieSizeCatConfig = 
+	[
+						{
+							name: "\u00A0\u00A0\u00A0\u00A0\u00A0 < \u00A0 8,0",
+							from: 0,
+							to: 7.999, 
+							diameter: 5
+						},
+						{
+							name: ' 8,0 − 12,9',
+							from: 8,
+							to: 12.999,
+							diameter: 10
+						},
+						{
+							name: "\u00A0\u00A0\u00A0\u00A0\u00A0 ≥  13,0",
+							from: 13,							
+							to: 1000000000,
+							diameter: 20
+						}
+					];
 					
 					//define different colors for positive and negative values
 	                var color = function(value){
@@ -87,38 +140,35 @@
 						return {
 	                        sizeFormatter: function () {
 	                            var fn = this.chart.options.customFunctions;
-								return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
-								//return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
+								//return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
+								return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + '  </b><br/>';
-	                            
-	                        },
-	                    },
-					}
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
+	                            }
+	                        }
+	                    };
 					};
-					 var pieSizeCatConfig;
+					
 					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
-	                
-					//pie values in legend
-	                var minValueInLegend = 1; 
-	                var maxValueInLegend = 15; 
-	                
-                	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, pieSizeSeries.name + " ", 430, 165);
-	                
-	                fn.addLegendCircle(chart, 445, 195, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), "#7F5F1A");
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 459, 185);
-	                fn.addLegendCircle(chart, 445, 220, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), "#7F5F1A");
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 459, 210);
 
-					//fn.addLegendSquare(chart, 270, 250, 10, '#7F5F1A');
-					//fn.addLegendLabel(chart, 'Zunahme', 300, 245);
-					//fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
-					//fn.addLegendLabel(chart, 'Abnahme', 300, 270);
-					fn.addLegendTitle(chart, choroplethSeries.name, 430, 240);
+	                //Add manually drawn legend
+	                fn.addLegendTitle(chart, choroplethSeries.name , 510, 335);
+	                fn.addLegendTitle(chart, pieSizeSeries.name , 630, 335);
+	                
+	             	fn.addLegendCircle(chart, 640, 370, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 650, 358, true);
+	                fn.addLegendCircle(chart, 640, 389, 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 650, 378, true);
+	                fn.addLegendCircle(chart, 640, 414, 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 650, 402, true);
+					
+					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
+					//fn.addLegendLabel(chart, 'Zunahme', 580, 236);
+					//fn.addLegendSquare(chart, 565, 256, 10, '#FABD24');
+					//fn.addLegendLabel(chart, 'Abnahme', 580, 252);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);

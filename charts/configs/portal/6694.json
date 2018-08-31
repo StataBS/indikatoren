@@ -586,7 +586,7 @@
       },
       "format": "{value:,.f}%"
     },
-    "tickInterval": 2,
+    "tickInterval": 1,
     "max": 6
   },
   "xAxis": {
@@ -596,16 +596,11 @@
       "style": {
         "fontSize": 10,
         "color": "#000000"
-      }
+      },
+      "rotation": -45
     },
     "tickLength": 0,
-    "tickPositions": [
-      2008,
-      2010,
-      2012,
-      2014,
-      2017
-    ]
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -634,7 +629,10 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0
+    "padding": 0,
+    "labelFormatter": function (){
+      return this.name.replace("&", "u.");
+    }
   },
   "exporting": {
     "enabled": false,

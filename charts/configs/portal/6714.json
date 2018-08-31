@@ -181,7 +181,8 @@
             	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
             },
       "align": "left",
-      "x": -70
+      "x": -70,
+      "useHTML": false
     }
   },
   "chart": {
@@ -219,6 +220,7 @@
     },
     "zoomType": "xy",
     "type": "column",
+    "marginLeft": 75,
     "inverted": true,
     "renderTo": "container-6714",
     "spacingBottom": 2

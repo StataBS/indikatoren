@@ -495,7 +495,10 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0
+    "padding": 0,
+    "labelFormatter": function (){
+      return this.name.replace("&", "u.");
+    }
   },
   "exporting": {
     "enabled": false,

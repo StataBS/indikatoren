@@ -207,7 +207,8 @@
         "step": 1,
         "style": {
           "color": "#000000",
-          "fontSize": "9px"
+          "textOverflow": "none",
+          "fontSize": "10px"
         }
       },
       "tickLength": 0,
@@ -318,7 +319,8 @@
             	},
         "style": {
           "color": "#000000",
-          "fontSize": "9px"
+          "textOverflow": "none",
+          "fontSize": "10px"
         },
         "distance": -50
       },
@@ -363,7 +365,7 @@
     "padding": 1,
     "itemStyle": {
       "fontWeight": "normal",
-      "fontSize": "11px"
+      "fontSize": "10px"
     },
     "enabled": true,
     "layout": "horizontal",

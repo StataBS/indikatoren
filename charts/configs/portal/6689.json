@@ -1370,7 +1370,7 @@
         "color": "#000000"
       },
       "formatter": function (){
-        return this.value.split(" ")[0];
+        return this.value.split("-")[0];
       }
     },
     "tickLength": 0,

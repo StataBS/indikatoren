@@ -903,7 +903,9 @@
       "style": {
         "fontSize": 10,
         "color": "#000000"
-      }
+      },
+      "step": 1,
+      "rotation": -45
     },
     "tickLength": 0,
     "tickInterval": 1
@@ -938,7 +940,7 @@
     "padding": 0,
     "itemDistance": 5,
     "labelFormatter": function (){
-      return this.name.replace("und ", "und<br/>");
+      return this.name.replace("und", "u.");
     }
   },
   "exporting": {
