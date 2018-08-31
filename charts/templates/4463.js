@@ -23,26 +23,14 @@
 
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "index": 0,
       "color": "#008AC3"
     },
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "index": 1,
       "color": "#990300"
     },
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "index": 1,
       "color": "orange"
     }
@@ -58,6 +46,9 @@
   },  
   "plotOptions": {
     "series": {
+      marker: {
+        enabled: false
+      },
       "dataLabels": {
         "enabled": false
       }

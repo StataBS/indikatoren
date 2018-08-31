@@ -12,7 +12,7 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },     
       "color": "#83522E"
     }
@@ -24,7 +24,7 @@
   "plotOptions": {
     "series": {
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
         "allowOverlap": true,
           y: 30,
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869

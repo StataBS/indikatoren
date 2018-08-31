@@ -1,10 +1,6 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "color": "#923F8D",
       "data": [
         [
@@ -75,10 +71,6 @@
       "name": "Einfuhren"
     },
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "color": "#FABD24",
       "data": [
         [
@@ -244,7 +236,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Zollverwaltung EZV\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Eidgenössische Zollverwaltung EZV.\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
   },
   "legend": {
     "enabled": false,
@@ -289,6 +281,11 @@
     }
   },
   "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "series": {
       "dataLabels": {
         "enabled": true,

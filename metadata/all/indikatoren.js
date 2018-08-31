@@ -1448,34 +1448,33 @@ var indikatoren = [
 		"id": 4128
 	},
 	{
-		"title": "Mietpreisentwicklung der Leerwohnungen",
-		"subtitle": "nach Zimmerzahl",
-		"kuerzel": "I.09.2.04129",
+		"title": "Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.2.4129",
 		"kuerzelKunde": "0.1.B-2",
-		"description": "Mietpreisentwicklung der Leerwohnungen",
+		"description": "Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-02-01T00:00:00.0000",
+		"aktualisierungsdatum": "2018-08-22T15:38:57.5757",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Mietpreisentwicklung der Leerwohnungen ist im Zehnjahresvergleich leicht ansteigend. Da es grundsätzlich wenige leerstehende 5-Zimmerwohnungen gibt, sind die ausgewiesenen Durchschnittsmieten in dieser Kategorie grösseren Schwankungen unterworfen bzw. können wie im Jahr 2014 aufgrund zu kleiner Stichprobe gar nicht berechnet werden.",
-		"erlaeuterungen": "Bei den Mietpreisen für Leerwohnungen handelt es sich um Angebotsmieten, nicht um Bestandsmieten. 2014 kann keine Durchschnittsmiete für leerstehende 5-Zimmerwohnungen angegeben werden, weil in dieser Kategorie zu wenige Beobachtungen vorlagen.",
+		"erlaeuterungen": "Ohne Wohnungen in Einfamilienhäusern, ohne Wohnungen mit Zwischennutzung (eingeschränkte Mieterrechte, besonders günstig), ohne möblierte Wohnungen (besonders teuer) und mit Genossenschaftswohnungen.",
 		"template": "line001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
-		],
+		"quellenangabe": [],
 		"externalLinks": [
 			""
 		],
@@ -1760,8 +1759,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
-		"subtitle": "nach Zimmerzahl",
-		"kuerzel": "I.09.2.04138",
+		"subtitle": "nach Zimmerzahl, Basel-Stadt",
+		"kuerzel": "I.09.2.4138",
 		"kuerzelKunde": "1.2.F-1",
 		"description": "Anzahl Leerwohnungen und Leerwohnungsquote",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -1770,15 +1769,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-02-28T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-22T15:37:12.1212",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Leerwohnungsquoten erreichten im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die Leerwohnungsquote stetig angestiegen und lag 2017 bei 0,5%.",
-		"erlaeuterungen": "LWQ = Leerwohnungsquote",
+		"lesehilfe": "Die Leerwohnungsquote erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die Leerwohnungsquote stetig angestiegen und liegt 2018 bei 0,7%.",
+		"erlaeuterungen": "LWQ = Leerwohnungsquote.",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
@@ -1796,8 +1796,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
-		"subtitle": "nach Wohnflächenkategorie, Stand 2015 bis 2017",
-		"kuerzel": "I.09.2.04139",
+		"subtitle": "nach Grösse der Wohnung, Basel-Stadt",
+		"kuerzel": "I.09.2.4139",
 		"kuerzelKunde": "1.2.F-2",
 		"description": "Anzahl Leerwohnungen und Leerwohnungsquote",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -1806,15 +1806,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-02-01T00:00:00.0000",
+		"aktualisierungsdatum": "2018-08-22T15:38:32.3232",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit knapp 0,4% bei Wohnungen ab 150 m² gemessen. Diese hatten 2015 mit gut 0,5% noch den höchsten Wert erreicht.",
+		"lesehilfe": "Im Jahr 2018 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit knapp 0,5% bei Wohnungen ab 150 m² gemessen.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
@@ -1871,8 +1872,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteile der Haushalte",
-		"subtitle": "nach Art des Haushalts",
-		"kuerzel": "I.01.2.04141",
+		"subtitle": "nach Art des Haushalts, Basel-Stadt",
+		"kuerzel": "I.01.2.4141",
 		"kuerzelKunde": "1.4.A1",
 		"description": "Anteile der Haushalte",
 		"thema": "01 Bevölkerung",
@@ -1881,15 +1882,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-20T10:44:40.4040",
+		"aktualisierungsdatum": "2018-08-21T08:45:07.077",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2016 rund 47% aus.",
+		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2017 46% aus, 41% sind Familienhaushalte und 13% werden den Nichtfamilienhaushalten zugeordnet.",
 		"erlaeuterungen": "Nichtfamilienhaushalte sind Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind. Die übrigen Mehrpersonenhaushalte werden zu den Familienhaushalten gezählt.",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_04_00_00_00_000",
 		"parentId": null,
@@ -6546,8 +6548,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
-		"subtitle": "",
-		"kuerzel": "I.01.6.04722",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.01.6.4722",
 		"kuerzelKunde": "2.1.03",
 		"description": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
 		"thema": "01 Bevölkerung",
@@ -6556,21 +6558,21 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-02-28T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-21T08:41:47.4747",
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen Jahren diversen Schwankungen. Die Höchstwerte wurden 2007  mit 2 023 und 2008  mit 1 798 eingebürgerten Ausländern erreicht. Danach gingen die Einbürgerungen zurück, 2011 erwarben noch 835 Ausländer die Schweizer Staatsangehörigkeit. Zwischen 2012 und 2015 nahm die Zahl der Eingebürgerungen tendenziell wieder zu, im Jahr 2015 erhielten 1 170 Personen das Schweizer Bürgerrecht. 2016 liessen sich 752 Ausländer einbürgern, dies ist der tiefste Wert der letzten zehn Jahre. Die Einbürgerungsziffer verläuft entsprechdend den absoluten Werten und lag 2016 bei 10,6.",
+		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen Jahren diversen Schwankungen. Der Höchstwert wurde 2008 mit 1 798 eingebürgerten Ausländern erreicht. Danach gingen die Einbürgerungen zurück, 2011 erwarben noch 835 Ausländer die Schweizer Staatsangehörigkeit. Zwischen 2012 und 2015 nahm die Zahl der Eingebürgerungen tendenziell wieder zu, im Jahr 2015 erhielten 1 170 Personen das Schweizer Bürgerrecht. 2016 liessen sich 752 Ausländer einbürgern, dies ist der tiefste Wert der letzten zehn Jahre. 2017 lag die Zahl der Eingebürgerten wieder bei 1 282, dies ist der höchste Wert der letzten zehn Jahre. Die Einbürgerungsziffer verläuft entsprechend den absoluten Werten und liegt 2017 bei 17,9.",
 		"erlaeuterungen": "Voraussetzung für eine ordentliche Einbürgerung ist u. a. eine 12-jährige Wohndauer in der Schweiz. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die 5 Jahre in der Schweiz gelebt haben und die seit 3 Jahren verheiratet sind. Die Einbürgerungsziffer wird als Anzahl Einbürgerungen (ordentliche und erleichterte) pro 1000 Ausländer am Jahresende berechnet.",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"6043",
-			"6479"
+			"6043"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -8243,26 +8245,27 @@ var indikatoren = [
 		"id": 4875
 	},
 	{
-		"title": "Bruttowertschöpfung nach Branchengruppe in Mio. Franken",
-		"subtitle": "",
-		"kuerzel": "I.04.1.04908",
+		"title": "Bruttowertschöpfung nach Branchengruppe",
+		"subtitle": "in Mio. Franken, Basel-Stadt",
+		"kuerzel": "I.04.1.4908",
 		"kuerzelKunde": "",
-		"description": "Bruttowertschöpfung nach Branchengruppe in Mio. Franken",
+		"description": "Bruttowertschöpfung nach Branchengruppe",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Basler Index der Konsumentenpreise",
 		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-22T13:37:50.5050",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branchengruppe Bau und Herstellung von Waren macht mit über 12,5 Mrd. Franken im Jahr 2013 wie in sämtlichen anderen Beobachtungsjahren den grössten Anteil an der Bruttowertschöpfung des Kantons Basel-Stadt aus.",
-		"erlaeuterungen": "Bau u. Herst. v. Waren umfasst: Bergbau und Gewinnung von Steinen und Erden, Herstellung von Waren, Bau; Handel und Informationsdienstl. umfasst: Handel und Reparatur von Fahrzeugen, Transport, Informationsdienstleistungen und Telekommunikation, Beherbergung und Gastronomie; Wirtschaftl. Dienstl. u. Unterhaltung umfasst: Grundstücks- und Wohnungswesen, sonstige freiberufliche, wissenschaftliche und technische Tätigkeiten, wirtschaftliche Dienstleistungen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen; Finanzen und Versicherungen umfasst: Erbringung von Finanzdienstleistungen und Versicherungen; Versorgung und Bildung umfasst: Energieversorgung, Wasserversorgung, Sammlung, Behandlung und Beseitigung von Abfällen, Erziehung und Unterricht, Gesundheitswesen; Private Haushalte umfasst: Private Haushalte als Hersteller; Landwirtschaft umfasst: Landwirtschaft, Forstwirtschaft und Fischerei.",
+		"lesehilfe": "Die Branchengruppe Bau und Herstellung von Waren macht mit über 12,3 Mrd. Franken im Jahr 2015 wie in sämtlichen anderen Beobachtungsjahren den grössten Anteil an der Bruttowertschöpfung des Kantons Basel-Stadt aus.",
+		"erlaeuterungen": "2015 provisorisch. Die Bezeichnung der Branchengruppen sind in den meisten Fällen in der Legende verkürzt dargestellt. Im Detail umfassen sie &nbsp;folgenden Untergruppen: «Landwirtschaft etc.»: Landwirtschaft, Forstwirtschaft und Fischerei; «Bau, Herstellung von Waren»: Bergbau und Gewinnung von Steinen und Erden, Herstellung von Waren, Bau; «Versorgung und Bildung»: Energieversorgung, Wasserversorgung, Sammlung, Behandlung und Beseitigung von Abfällen, Erziehung und Unterricht, Gesundheitswesen; «Fahrzeuge, Transport, IT, Gastronomie»: Handel und Reparatur von Fahrzeugen, Transport, Informationsdienstleistungen und Telekommunikation, Beherbergung und Gastronomie; «Finanzen und Versicherungen»: Erbringung von Finanzdienstleistungen und Versicherungen; «Wirtsch. Dienstl. U. Unterhaltung»: Grundstücks- und Wohnungswesen, sonstige freiberufliche, wissenschaftliche und technische Tätigkeiten, wirtschaftliche Dienstleistungen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen.",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
@@ -8843,24 +8846,25 @@ var indikatoren = [
 	{
 		"title": "Anzahl Neugründungen in Basel-Stadt",
 		"subtitle": "in ausgewählten Branchen",
-		"kuerzel": "I.03.2.05041",
+		"kuerzel": "I.06.2.5041",
 		"kuerzelKunde": "2.3",
 		"description": "Anzahl Neugründungen in Basel-Stadt",
-		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte",
+		"thema": "06 Produktion, Handel",
+		"unterthema": "Neugründungen",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.0000",
+		"aktualisierungsdatum": "2018-08-17T08:58:32.3232",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die meisten neuen Unternehmen wurden in allen drei Jahren im Bereich der Unternehmensdienstleistungen gegründet. Das Total der Neugründungen erreichte 2014 mit 1 352 Neugründungen den Höchstwert.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Jahr 2015 wurden in Basel-Stadt 1 146 neue Unternehmen gegründet, 206 weniger als im Jahr 2014. Knapp 30% der neuen Unternehmen wurden 2015 im Bereich der Unternehmensdienstleistungen (freiberufliche, technische und wirtschaftliche Dienstleistungen) gegründet.",
+		"erlaeuterungen": "Unter Neugründungen sind Unternehmen gemeint, die effektiv neugegründet wurden. Die Statistik der Neugründungen basiert auf der Grundgesamtheit der Statistik der Unternehmensstruktur (STATENT).",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_003",
 		"parentId": null,
@@ -10574,7 +10578,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
-		"subtitle": "nach Zimmerzahl",
+		"subtitle": "nach Zimmerzahl, Basel-Stadt",
 		"kuerzel": "I.09.2.05195",
 		"kuerzelKunde": "GW17",
 		"description": "Anzahl Leerwohnungen und Leerwohnungsquote",
@@ -10584,15 +10588,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-22T15:37:44.4444",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Leerwohnungsquote erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die Leerwohnungsquote stetig angestiegen und lag 2017 bei 0,5%.",
-		"erlaeuterungen": "LWQ = Leerwohnungsquote",
+		"lesehilfe": "Die Leerwohnungsquote erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die Leerwohnungsquote stetig angestiegen und liegt 2018 bei 0,7%.",
+		"erlaeuterungen": "LWQ = Leerwohnungsquote.",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "03_06_00_00_00_317",
 		"parentId": 4138,
@@ -11130,8 +11135,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Leerwohnungsquote",
-		"subtitle": "in Prozent",
-		"kuerzel": "I.09.2.05813",
+		"subtitle": "in Prozent, Basel-Stadt",
+		"kuerzel": "I.09.2.5813",
 		"kuerzelKunde": "ST 4-5",
 		"description": "Leerwohnungsquote",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -11140,7 +11145,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-06-26T16:51:11.1111",
+		"aktualisierungsdatum": "2018-08-22T15:39:14.1414",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -11149,12 +11154,11 @@ var indikatoren = [
 		"lesehilfe": "Die Leerwohnungsquote sank seit 2006 kontinuierlich und erreichte 2014 mit 0,2% den tiefsten Wert. Seither steigt sie wieder leicht an.",
 		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
 		"template": "line001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_005",
 		"parentId": null,
-		"children": [
-			"6245"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -11165,32 +11169,31 @@ var indikatoren = [
 		"id": 5813
 	},
 	{
-		"title": "Leerwohnungsquote",
-		"subtitle": "nach Wohnviertel in Prozent",
+		"title": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.09.2.05814",
 		"kuerzelKunde": "ST 4-6",
-		"description": "Leerwohnungsquote",
+		"description": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-07-04T09:44:27.2727",
+		"aktualisierungsdatum": "2018-08-22T15:36:05.055",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchsten Leerwohnungsquote wurden 2016 im Hirzbrunnen, im St. Alban sowie in der Gemeinde Bettingen verzeichnet. Die überwiegende Mehrheit der Wohnviertel erfuhr einen Rückgang der Leerwohnungsquote seit 1998.",
+		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2018 im Wohnviertel Vorstädte verzeichnet.",
 		"erlaeuterungen": "Stichtag ist der 1. Juni.",
 		"template": "mappie001",
-		"visibleInPortal": false,
+		"printformat": "",
+		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_006",
 		"parentId": 6009,
-		"children": [
-			"6246"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -11635,42 +11638,6 @@ var indikatoren = [
 			""
 		],
 		"id": 6007
-	},
-	{
-		"title": "Leerwohnungsquote",
-		"subtitle": "nach Wohnviertel",
-		"kuerzel": "I.09.2.06009",
-		"kuerzelKunde": "",
-		"description": "Leerwohnungsquote",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Leerstand",
-		"kennzahlenset": "",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2017-08-14T15:31:35.3535",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2017 in Bettingen verzeichnet.",
-		"erlaeuterungen": "Stichtag ist der 1. Juni.",
-		"template": "mappie001",
-		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [
-			"5814"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 6009
 	},
 	{
 		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
@@ -15343,8 +15310,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
-		"subtitle": "",
-		"kuerzel": "I.08.3.06161",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.08.3.6161",
 		"kuerzelKunde": "7.2",
 		"description": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
 		"thema": "08 Energie",
@@ -15353,18 +15320,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-17T09:27:17.1717",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2010 lag der Anteil der erneuerbaren Energieträger bei 35,0%. Zwei Jahre später fiel der Wert mit 36,2% bereits höher aus. Im Jahr 2014  stammte 37,9% der Energie aus erneuerbaren Quellen.",
+		"lesehilfe": "Im Jahr 2010 lag der Anteil der erneuerbaren Energieträger bei 34,5%. Zwei Jahre später fiel der Wert mit 36,1% bereits höher aus. Im Jahr 2014  stammte 37,8% der Energie aus erneuerbaren Quellen, 2016 waren es bereits 38,8%.",
 		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Schlamm, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).<br><br>Die Summe der Verbräuche der erneuerbaren Energien wird durch den Gesamtenergieverbrauch dividiert.",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_002",
-		"parentId": 3094,
+		"parentId": null,
 		"children": [
 			"5795",
 			"6313"
@@ -16515,8 +16483,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Leerstehende Industrie- und Gewerbeflächen",
-		"subtitle": "in Quadratmetern",
-		"kuerzel": "I.09.2.06217",
+		"subtitle": "in Quadratmetern, Basel-Stadt",
+		"kuerzel": "I.09.2.6217",
 		"kuerzelKunde": "ST 7-4",
 		"description": "Leerstehende Industrie- und Gewerbeflächen",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -16525,19 +16493,21 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-22T15:38:02.022",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Büroflächen machen mit gut 54 000 m<sup>2</sup> über die Hälfte aller leeren Geschäftsflächen aus. Der Leerstand von Industrie- und Gewerbeflächen errreichte 2011 mit total knapp 170 000 m<sup>2</sup> den Höchststand in den letzten 20 Jahren.",
+		"lesehilfe": "Die Büroflächen machen mit rund 58 000 m² über die Hälfte aller leeren Geschäftsflächen aus. Der Leerstand von Industrie- und Gewerbeflächen errreichte 2011 mit total knapp 170 000 m² den Höchststand in den letzten 20 Jahren.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_04_00_00_00_004",
 		"parentId": null,
 		"children": [
+			"6245",
 			"6262"
 		],
 		"renderLink": [],
@@ -24934,9 +24904,9 @@ var indikatoren = [
 		],
 		"delimiter": "",
 		"properties": [
-			"http://ld.data-bs.ch/property/jahr",
-			"http://ld.data-bs.ch/property/raum",
-			"http://ld.data-bs.ch/property/bevolkerung"
+			"https://ld.data-bs.ch/property/jahr",
+			"https://ld.data-bs.ch/property/raum",
+			"https://ld.data-bs.ch/property/bevolkerung"
 		],
 		"id": 6623
 	},

@@ -3,14 +3,10 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "color": "#83522E",
       "data": [
-        [
-          1998,
-          1.519192074785
-        ],
         [
           1999,
           1.540636450188
@@ -82,6 +78,14 @@
         [
           2016,
           0.416770398237
+        ],
+        [
+          2017,
+          0.500366568914
+        ],
+        [
+          2018,
+          0.711174164916
         ]
       ],
       "name": "Leerwohnungsquote in %"
@@ -132,7 +136,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Prozent",
+    "text": "in Prozent, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -183,7 +187,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung\u003Cbr\u002F\u003EZuletzt geändert: 2017-6-26"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-22"
   },
   "legend": {
     "enabled": false,
@@ -230,7 +234,7 @@
   "plotOptions": {
     "series": {
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
         "allowOverlap": true,
         "y": 30,
         "formatter": function () {

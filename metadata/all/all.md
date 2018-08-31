@@ -353,7 +353,7 @@ id | visible | visibleInPortal | indikatorenset
 5799 | true | false | Umwelt
 5800 | true | false | Umwelt
 5813 | true | true | Richtplan
-5814 | true | false | Richtplan
+5814 | true | true | Richtplan
 5815 | true | false | Richtplan
 5816 | true | false | Richtplan
 5817 | true | true | Richtplan
@@ -371,7 +371,7 @@ id | visible | visibleInPortal | indikatorenset
 5901 | true | true | Richtplan
 6005 | false |  | Richtplan
 6007 | true | false | Richtplan
-6009 | true | true | 
+6009 | false |  | 
 6011 | true | true | Wanderungen
 6012 | true | true | Wanderungen
 6013 | true | true | Wanderungen

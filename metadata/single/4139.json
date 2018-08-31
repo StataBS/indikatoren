@@ -1,40 +1,29 @@
-{
- "title": "Anzahl Leerwohnungen und Leerwohnungsquote",
- "subtitle": "nach Wohnflächenkategorie, Stand 2015 bis 2017",
- "kuerzel": "I.09.2.04139",
- "kuerzelKunde": "1.2.F-2",
- "description": "Anzahl Leerwohnungen und Leerwohnungsquote",
- "id": 4139,
- "thema": "09 Bau-, Wohnungswesen",
- "unterthema": "Leerstand",
- "kennzahlenset": "Wohnraumentwicklung",
- "raeumlicheGliederung": [
-  "Kanton"
- ],
- "aktualisierungsdatum": "2018-02-01T00:00:00.0000",
- "schlagwort": [
-  "Gebäude",
-  "Haushalt"
- ],
- "stufe1": "Ziel 1: Gesellschaftspolitik",
- "stufe2": "1.2 Wohnraum erhalten und erneuern",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Im Jahr 2017 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit knapp 0,4% bei Wohnungen ab 150 m² gemessen. Diese hatten 2015 mit gut 0,5% noch den höchsten Wert erreicht.",
- "erlaeuterungen": "",
- "template": "template001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "02_02_00_00_00_000",
- "parentId": null,
- "children": [],
- "renderLink": [],
- "quellenangabe": [
-  "Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
-  "Statistisches Amt Basel-Stadt, Leerstandserhebung"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Anzahl Leerwohnungen und Leerwohnungsquote",
+"subtitle":"nach Grösse der Wohnung, Basel-Stadt",
+"kuerzel":"I.09.2.4139",
+"kuerzelKunde":"1.2.F-2",
+"description":"Anzahl Leerwohnungen und Leerwohnungsquote",
+"id":4139,
+"thema":"09 Bau-, Wohnungswesen",
+"unterthema":"Leerstand",
+"kennzahlenset":"Wohnraumentwicklung",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2018-08-22T15:38:32.3232",
+"stufe1":"Ziel 1: Gesellschaftspolitik",
+"stufe2":"1.2 Wohnraum erhalten und erneuern",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Im Jahr 2018 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit knapp 0,5% bei Wohnungen ab 150 m² gemessen.",
+"erlaeuterungen":"",
+"template":"template001",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"02_02_00_00_00_000",
+"parentId":null,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)","Statistisches Amt Basel-Stadt, Leerstandserhebung"],
+"externalLinks":[""]
 }

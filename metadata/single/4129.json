@@ -1,39 +1,29 @@
-{
- "title": "Mietpreisentwicklung der Leerwohnungen",
- "subtitle": "nach Zimmerzahl",
- "kuerzel": "I.09.2.04129",
- "kuerzelKunde": "0.1.B-2",
- "description": "Mietpreisentwicklung der Leerwohnungen",
- "id": 4129,
- "thema": "09 Bau-, Wohnungswesen",
- "unterthema": "Leerstand",
- "kennzahlenset": "Wohnraumentwicklung",
- "raeumlicheGliederung": [
-  "Kanton"
- ],
- "aktualisierungsdatum": "2018-02-01T00:00:00.0000",
- "schlagwort": [
-  "Gebäude",
-  "Haushalt"
- ],
- "stufe1": "Leitgedanke",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Die Mietpreisentwicklung der Leerwohnungen ist im Zehnjahresvergleich leicht ansteigend. Da es grundsätzlich wenige leerstehende 5-Zimmerwohnungen gibt, sind die ausgewiesenen Durchschnittsmieten in dieser Kategorie grösseren Schwankungen unterworfen bzw. können wie im Jahr 2014 aufgrund zu kleiner Stichprobe gar nicht berechnet werden.",
- "erlaeuterungen": "Bei den Mietpreisen für Leerwohnungen handelt es sich um Angebotsmieten, nicht um Bestandsmieten. 2014 kann keine Durchschnittsmiete für leerstehende 5-Zimmerwohnungen angegeben werden, weil in dieser Kategorie zu wenige Beobachtungen vorlagen.",
- "template": "line001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "01_00_00_00_00_000",
- "parentId": null,
- "children": [],
- "renderLink": [],
- "quellenangabe": [
-  "Statistisches Amt Basel-Stadt, Leerstandserhebung"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl",
+"subtitle":"Basel-Stadt",
+"kuerzel":"I.09.2.4129",
+"kuerzelKunde":"0.1.B-2",
+"description":"Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl",
+"id":4129,
+"thema":"09 Bau-, Wohnungswesen",
+"unterthema":"Leerstand",
+"kennzahlenset":"Wohnraumentwicklung",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2018-08-22T15:38:57.5757",
+"stufe1":"Leitgedanke",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Die Mietpreisentwicklung der Leerwohnungen ist im Zehnjahresvergleich leicht ansteigend. Da es grundsätzlich wenige leerstehende 5-Zimmerwohnungen gibt, sind die ausgewiesenen Durchschnittsmieten in dieser Kategorie grösseren Schwankungen unterworfen bzw. können wie im Jahr 2014 aufgrund zu kleiner Stichprobe gar nicht berechnet werden.",
+"erlaeuterungen":"Ohne Wohnungen in Einfamilienhäusern, ohne Wohnungen mit Zwischennutzung (eingeschränkte Mieterrechte, besonders günstig), ohne möblierte Wohnungen (besonders teuer) und mit Genossenschaftswohnungen.",
+"template":"line001",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"01_00_00_00_00_000",
+"parentId":null,
+"children":[],
+"renderLink":[],
+"quellenangabe":[],
+"externalLinks":[""]
 }
