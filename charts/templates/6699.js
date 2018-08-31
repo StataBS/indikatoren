@@ -42,7 +42,10 @@
     "verticalAlign": "top",
     "align": "left",
      "itemStyle": {
-    "fontWeight": "normal"
+      "fontWeight": "normal"
+     },
+     labelFormatter: function(){
+    	return this.name.replace("und", "u.");	
      },
   },
  "series": [

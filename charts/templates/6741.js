@@ -37,11 +37,15 @@
   	}
   },
   "series": [
-    { "color": "#007a2f", index: 4, legendIndex: 0}, // dunkelgrün
-    { "color": "#68ab2b", index: 3, legendIndex: 1}, // grün
+    { "color": "#999999", index: 0, legendIndex: 0}, // grau
+    { "color": "#dc440e", index: 1, legendIndex: 1}, // rot
     { "color": "#ffbb58", index: 2, legendIndex: 2}, // orange
-    { "color": "#dc440e", index: 1, legendIndex: 3}, // rot
-    { "color": "#999999", index: 0, legendIndex: 4}, // grau
+    { "color": "#68ab2b", index: 3, legendIndex: 3}, // grün
+    { "color": "#007a2f", index: 4, legendIndex: 4}, // dunkelgrün
+    
+    
+    
+    
   ],
   "legend": { 
     "enabled": true,
@@ -49,7 +53,7 @@
     "verticalAlign": "middle",
     "align": "right",
     y: -13,
-    reversed: true,
+    reversed: false,
     itemMarginBottom: 3,
      "labelFormatter": function () {
         return this.name.replace("/ ", "/<br/>");
@@ -65,7 +69,7 @@
 chart: { 
 	 marginBottom: 75,
      inverted: false,
-     width: 665, 
+     //width: 665, 
      spacingTop: 5,
   },
 };

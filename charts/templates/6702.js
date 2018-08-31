@@ -115,7 +115,7 @@
     //"itemMarginBottom": 5,
     "align": "left",
     labelFormatter: function(){
-      return this.name.split("(")[0];//.replace(" und Süd", " <br/>und Süd");
+      return this.name.split("(")[0].replace("und", "u.");//.replace(" und Süd", " <br/>und Süd");
     },
     "itemStyle": {
       "fontWeight": "normal"

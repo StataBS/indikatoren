@@ -16,6 +16,9 @@
     	x:-5,
     	y: 3,
       "rotation": 0,
+		  formatter: function(){
+        return this.value.replace("und", "u.");
+      },
       style: { 
   		  textOverflow: 'none' // prevents ellipsis
   		} 

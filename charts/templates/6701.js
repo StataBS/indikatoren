@@ -36,7 +36,7 @@
     reversed: true,
     itemMarginBottom: 3,
      "labelFormatter": function () {
-        return this.name.split("(")[0]; //replace("/ ", "/<br/>");
+        return this.name.split("(")[0].replace("und", "u."); //replace("/ ", "/<br/>");
     },
     "itemStyle": {
         "fontWeight": "normal", 

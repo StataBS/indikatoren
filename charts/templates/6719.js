@@ -8,14 +8,17 @@
       }
    },
   "xAxis": {
-    "type": "category",
-    "labels": {
+    type: "category",
+    labels: {
       x: -5,
       y: 3,
       step: 1,
-      "rotation": 0,
-       padding: -100,
-         } 
+      rotation: 0,
+      padding: -100,
+      formatter: function () {
+        return this.value.replace("und","u.");
+      }
+    } 
   },
   "yAxis": {
   	tickInterval: 10,

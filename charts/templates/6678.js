@@ -34,7 +34,7 @@
     labels: {
       step: 1,
       formatter: function() {
-      	return this.value;
+      	return this.value.replace("und", "u.");
       },
       style: undefined
     }

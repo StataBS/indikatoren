@@ -18,7 +18,10 @@
     "type": "category",
     "tickInterval": 1,
     labels: {
-      y: 3
+      y: 3,
+      formatter: function(){
+		    return this.value.replace("und", "u.");
+		  },
     }
   },  
   "yAxis": {

@@ -76,7 +76,7 @@
     "labels": {
       "style": {
       	"fontSize": 10,
-        "color": "#000000"
+        "color": "#000000", 
       }
     },
     "tickLength": 0

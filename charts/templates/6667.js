@@ -1,9 +1,10 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 5,
+    tickInterval: 1,
     labels:{
-    	rotation:0,
+    	rotation: -45,
+    	step: 1,
     }
     
   },
@@ -48,5 +49,5 @@
       } 
     }
   }
-}
+};
 }());

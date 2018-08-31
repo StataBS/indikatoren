@@ -25,8 +25,12 @@
     tickAmount: 6
   },
   "xAxis": {
-  	"type": "category",
-  	tickInterval: 5,
+  	//"type": "category",
+  	tickInterval: 1,
+  	labels: {
+  	    step: 1,
+  	    rotation: -45,
+  	},
   },
   "legend": {
     "enabled": true,

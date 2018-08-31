@@ -42,7 +42,12 @@ global Highcharts
     "type": "category",
 		style: { 
 			textOverflow: 'none' // prevents ellipsis
-		} 
+		},
+		labels: {
+		  formatter: function(){
+        return this.value.replace("und", "u.");
+      },
+		}
   },
   "yAxis": {
     "labels": {

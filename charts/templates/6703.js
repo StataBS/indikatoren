@@ -22,13 +22,13 @@
             }     
         },
         yAxis:[{
-            //max: 7,
-            //tickInterval: 1,
-            min:0,
+            tickInterval: 10,
+            min: 0,
+            max: 30,
             title: {
                 text: null
             },
-            "labels": {
+            labels: {
             	step: 1,
                 formatter: function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";

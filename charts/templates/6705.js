@@ -2,6 +2,10 @@
     return {
   "xAxis": {
     "tickInterval": 1,
+    labels: {
+      step: 1,
+      rotation: -45,
+    },
   },
   "yAxis": {
     "min": 0, 
@@ -38,7 +42,7 @@
       "fontWeight": "normal"
     }, 
     labelFormatter: function(){
-      return this.name.replace("und ", "und<br/>");
+      return this.name.replace("und", "u.");
     },
   },
   "plotOptions": {

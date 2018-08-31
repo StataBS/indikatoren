@@ -15,16 +15,21 @@
       x: -5,
       step: 1,
       y: 3,
-      "rotation": 0 
+      rotation: 0,
+      formatter: function(){
+    	  return this.value.replace("und", "u.");	
+      },
+      
     } 
   },
   "yAxis": {
     tickInterval: 0.5,
     "labels": {
        y: 18,
-      //"format": "{value:,.1f}"
-    }    
+      "format": "{value:,.1f}"
+    }, 
   },
+  
   
   series: [{
     name: 'Ländergruppe'
@@ -61,9 +66,10 @@
   "chart": {      
     "type": "column",
     "inverted": true,
+    //marginBottom: 10, 
     //spacing: [15,3,8,3] 	
   }
-}
+};
 }());
 
 

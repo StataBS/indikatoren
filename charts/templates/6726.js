@@ -1,7 +1,8 @@
 (function(){
     return {
    "chart": {
-    "type": "area",
+        type: "area",
+        marginRight: 5,
    },
   plotOptions: {
         /*series: {
@@ -19,7 +20,7 @@
         }
   },
   "yAxis": {
-      tickAmount: 6,
+    tickAmount: 6,
     "labels": {
       "format": "{value:,.0f}",
     }

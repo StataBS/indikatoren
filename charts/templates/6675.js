@@ -31,7 +31,10 @@
     reversed: true,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    }, 
+    labelFormatter: function(){
+      return this.name.replace("und", "u.");
+    },
   },
  "series": [
   {"color": "#672773", index: 9, legendIndex: 0}, /*Deutschland*/

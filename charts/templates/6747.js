@@ -13,10 +13,14 @@
  	tickInterval: 1,
     "type": "category",
     "labels": {
-      "rotation": 0,
+      rotation: 0,
        	step: 1,
        	x: -5,
-       	y: 3
+       	y: 3,
+      formatter: function(){
+        return this.value.replace("und", "u.");
+      },
+
     } 
   },
   "yAxis": {

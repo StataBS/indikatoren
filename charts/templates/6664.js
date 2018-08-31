@@ -13,6 +13,10 @@
     "type": "category",
     "labels": {
       "rotation": -45, 
+      formatter: function(){
+		    return this.value.replace("und", "u.");
+		  },
+
     } 
   },
   "yAxis": {

@@ -1,15 +1,18 @@
 (function(){
     return {
   "xAxis": {
-    //"tickInterval": 1,
-    tickPositions: [2008, 2010, 2012, 2014, 2017],
+    "tickInterval": 1,
+    //tickPositions: [2008, 2010, 2012, 2014, 2017],
+    labels: {
+      rotation: -45, 
+    },
   },
   "yAxis": {
     "min": 0, 
-    tickInterval: 2,
+    tickInterval: 1,
     max: 6,
 	  "labels": {
-		  "format": "{value:,.f}%"
+		  "format": "{value:,.f}%", 
 	  }
   },	
   "tooltip": {
@@ -36,7 +39,10 @@
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    }, 
+    labelFormatter: function(){
+      return this.name.replace("&", "u.");
+    },
   },
   "plotOptions": {
     "line": {

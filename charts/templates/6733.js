@@ -15,8 +15,11 @@
     "type": "category",
     "tickInterval": 1,
     labels:{
-    rotation:-45,
-    step:1,
+      rotation:-45,
+      step: 1,
+      formatter: function(){
+        return this.value.replace("und","u.");
+      },
     }
   },  
   "yAxis": {
@@ -53,7 +56,7 @@
     "align": "right",
     reversed: true,
     labelFormatter: function(){
-      return this.name.replace(" ", "<br/>").replace("-", "<br/>");
+      return this.name.replace(" ", "<br/>").replace("-", "-<br/>");
     },
     "itemStyle": {
       "fontWeight": "normal", 

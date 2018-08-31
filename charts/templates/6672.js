@@ -26,7 +26,7 @@
       step: 1,
       y: 3,
       formatter: function() {
-      	return this.value;
+      	return this.value.replace("und", "u.");
       },
       style: undefined
     }

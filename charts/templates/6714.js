@@ -5,6 +5,7 @@
         "labels": {
            align: "left",
            x:-70,
+           useHTML: false,
             "formatter": function() {
                 //add sum of observations of visible series to the axis label
                 var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
@@ -25,7 +26,7 @@
   	tickInterval: 25,
   	max: 100,
   	labels:{
-  		y:10,
+  		y: 10,
   		"type": "category",
   		rotation: 0,
   	}
@@ -57,11 +58,11 @@
     }
   },
 "chart": {    
-	//marginLeft: 75, 
-	 //marginLeft: 150, 
+	 marginLeft: 75,
+	 //marginRight: 5,
 	 //marginBottom: 100,
      "inverted": true,
       //"height": 500,
   },
-}
+};
 }());

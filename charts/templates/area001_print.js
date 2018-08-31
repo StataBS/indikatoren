@@ -50,7 +50,7 @@
           "text": ''
         },
         "labels": {
-          y: 3
+          y: 3,
           "style": {
             "color": "#000000"
           }
@@ -61,7 +61,7 @@
         lineWidth: 0.5,
         "labels": {
           "style": {
-            "color": "#000000"
+            "color": "#000000", 
           }
         },
         "tickLength": 0

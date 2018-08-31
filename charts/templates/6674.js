@@ -118,7 +118,7 @@
 					//fn.addLegendLabel(chart, 'Zunahme', 300, 245);
 					//fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
 					//fn.addLegendLabel(chart, 'Abnahme', 300, 270);
-					fn.addLegendTitle(chart, 'Ausländeranteil 2016 in % ', 430, 240);
+					fn.addLegendTitle(chart, choroplethSeries.name, 430, 240);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);

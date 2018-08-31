@@ -15,14 +15,14 @@
   },
   "xAxis": {
     type: 'category',
-    tickInterval: 2,
+    tickInterval: 1,
     labels: {
       step: 1,
-      rotation: 0
+      rotation: -45
     }
   },  
   "yAxis": {
-  	 max: 5000,
+  	 //max: 5000,
   	 tickInterval: 1000,
     "labels": {
       "format": "{value:,.0f}",

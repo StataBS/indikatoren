@@ -14,6 +14,9 @@
       y: 3, 
       padding: 0,
       step: 1,
+      formatter: function(){
+		    return this.value.replace("und", "u.");
+		  },
     } 
   },
   yAxis: {
@@ -37,7 +40,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     }, 
-    padding: 1
+    padding: 1,
   },
    tooltip: {
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',

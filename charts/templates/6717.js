@@ -16,7 +16,10 @@
       x: -5,
       y: 3,
       step: 1,
-      "rotation": 0 
+      "rotation": 0,
+      formatter: function(){
+    	  return this.value.replace("und", "u.");	
+      },
     } 
   },
   "yAxis": {
@@ -52,7 +55,7 @@
 	  //"y": 35,    
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
   },
    tooltip: {
     headerFormat: '<span style="font-size: 10px">{series.name}</span><br/>',

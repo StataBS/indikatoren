@@ -13,7 +13,11 @@
     "labels": {
       y: 3,
       step: 1,
-      "rotation": 0 
+      rotation: 0,
+      formatter: function(){
+		    return this.value.replace("und", "u.");
+		  },
+      
     } 
   },
   "yAxis": {

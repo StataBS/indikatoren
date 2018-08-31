@@ -90,7 +90,11 @@
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    labelFormatter: function(){
+		    return this.name.replace("und", "u.");
+		  },
+
   },
   "plotOptions": {
     "line": {

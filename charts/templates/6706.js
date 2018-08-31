@@ -2,6 +2,10 @@
     return {
   "xAxis": {
     "tickInterval": 1,
+    labels: {
+      step: 1,
+      rotation: -45,
+    },
   },
   "yAxis": {
     "min": 0, 

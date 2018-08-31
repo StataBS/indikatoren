@@ -14,6 +14,8 @@
     "type": "category",
     labels:{
     	rotation: -45,
+    	padding: 0,
+    	step: 1,
     }
   },  
   "yAxis": {

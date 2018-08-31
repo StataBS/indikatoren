@@ -35,7 +35,10 @@
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    }, 
+    labelFormatter: function(){
+      return this.name.replace("&", "u.");
+    },
   },
   "plotOptions": {
     "line": {
@@ -44,6 +47,9 @@
         "symbol": "circle",
       } 
     }
+  }, 
+  chart: {
+    marginRight: 5
   }
-}
+};
 }());

@@ -25,11 +25,11 @@
     }
   },  
   "yAxis": {
-    tickInterval: 100,
+    tickInterval: 250,
     labels: {
     	y: 18,
       "format": "{value:,.0f}",
-        rotation:0,
+        rotation: 0,
     },
   },
   "legend": { 
@@ -41,8 +41,12 @@
     "verticalAlign": "middle",
     "align": "right",
      "itemStyle": {
-    "fontWeight": "normal"
+      "fontWeight": "normal"
      },
+    labelFormatter: function(){
+    	return this.name.replace("und", "u.");	
+     },
+
   },
  "series": [
   {"color": "#B00000", index: 10, legendIndex: 0}, /*Schweiz*/

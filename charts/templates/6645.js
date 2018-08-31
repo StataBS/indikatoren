@@ -2,8 +2,11 @@
     return {
       legend:{
       	style: {
-		fontSize: "12px"
-		}
+		    fontSize: "12px"
+		},
+		labelFormatter: function(){
+		    return this.name.replace("und", "u.");
+		},
       },
       "data":{
       	"switchRowsAndColumns": false

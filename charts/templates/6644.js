@@ -18,9 +18,9 @@
   "xAxis": {
   	min: 0,
     "type": "category",
-    "tickInterval": 2,
+    "tickInterval": 1,
     labels:{
-    	rotation:0,
+    	rotation: -45,
     }
   },  
   "yAxis": {
@@ -41,7 +41,10 @@
     reversed: true,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    }, 
+    labelFormatter: function(){
+      return this.name.replace("und", "u.");
+    },
   },
  "series": [
   {"color": "#672773", index: 9, legendIndex: 0}, /*Deutschland*/

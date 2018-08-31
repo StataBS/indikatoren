@@ -1,102 +1,52 @@
 (function(){
     return {
-  "plotOptions": {
-    "series": {
-      "stacking": "normal",
-      /*"pointWidth": 35,*/
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      }
-    }
-  },
   "xAxis": {
-  	tickInterval:2,
-    "type": "category",    
-    labels:{
-    	rotation:0,
-    }
-  },  
-  "yAxis": [
-    {
-      gridLineColor: '#B9CFD7', 
-      gridLineWidth: 0.5,
-      tickAmount: 5,
-      "title": {
-          "style": {
-              "color": "#000000",
-              "fontSize": null
-          },
-          "text": null
-      },
-      "labels": {
-          "style": {
-          "color": "#000000"
-          },
-          "format": "{value:,.0f}",
-      },
-      "reversedStacks": true
-    },
-    {
-      gridLineColor: '#B9CFD7', 
-      gridLineWidth: 0.5,
-      tickAmount: 5,
-      "min": 0,
-      "title": {
-          "style": {
-              "color": "#000000",
-              "fontSize": null
-          },
-          "text": null
-      },      
-      "labels": {
-        "format": "{value:,0f}",
-        "style": {
-          "color": "#000000"
-        }              
-      },
-      "opposite": true
-    }
+    "tickInterval": 1,
+  },
+  "yAxis": {
+    "min": 0, 
+    tickInterval: 10,
+	  "labels": {
+		  "format": "{value}%"
+	  }
+  },	
+  "tooltip": {
+    "shared": false, 
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b>%<br/>'
+  },
+ "series": [
+  {"color": "#672773"}, /*Deutschland*/
+  {"color": "#007a2f"}, /*Italien*/
+  {"color": "#fabd24"}, /*Türkei*/
+  {"color": "#b475ab"}, /*EU-17 & EFTA*/
+  {"color": "#71a3b5"}, /*EU-Ost */
+  {"color": "#b9cfd7"}, /*Balkan*/
+  {"color": "#ff8028"}, /*Mittel- & Südamerika */
+  {"color": "#73ba7c"}, /*Arabische Länder */
+  {"color": "#9f7c5a"}, /*Afrikanische Länder*/
+  {"color": "#999999"}, /*Übrige Länder*/
   ],
-  "tooltip": {    
-    "shared": true,
-    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-    //"footerFormat": 'Total: <b>{point.total:,.0f}</b>',
-  },  
-  "legend": { 
-     //y: 35,
-     itemMarginBottom: 5,
+   "legend": {
     "enabled": true,
+    itemDistance: 5,
     "layout": "horizontal",
     "verticalAlign": "top",
+    //"itemMarginBottom": 0,
     "align": "left",
     "itemStyle": {
-    "fontWeight": "normal"
-    
+      "fontWeight": "normal"
+    }, 
+    labelFormatter: function(){
+      return this.name.replace("und","u.");
+    },
   },
-},
-  "series": [
-    {
-      "color": "#FABD24",
-      "type": "column", 
-      "legendIndex": 1
-    },
-    {
-      "color": "#008AC3",
-      "type": "column", 
-      "legendIndex": 2
-    },
-    {
-      "color": "#9F7C5A",
-      "type": "line",
-      "yAxis": 1,
-      "stacking": null, 
-      "legendIndex": 0
-    }    
-  ],
-  "chart": {
-    "type": "column"
+  "plotOptions": {
+    "line": {
+      "marker":{
+        "enabled": false,
+        "symbol": "circle",
+      } 
+    }
   }
-	}
+}
 }());
