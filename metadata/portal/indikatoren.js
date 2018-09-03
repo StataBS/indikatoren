@@ -5693,18 +5693,18 @@ var indikatoren = [
 		"id": 4908
 	},
 	{
-		"title": "Basler Index der Konsumentenpreise seit 1982 (Dez. 1982 = 100)",
-		"subtitle": "",
-		"kuerzel": "I.05.1.04909",
+		"title": "Jahresmittel Basler Index der Konsumentenpreise",
+		"subtitle": "Basis Dezember 1982 = 100",
+		"kuerzel": "I.05.1.4909",
 		"kuerzelKunde": "",
-		"description": "Basler Index der Konsumentenpreise seit 1982 (Dez. 1982 = 100)",
+		"description": "Jahresmittel Basler Index der Konsumentenpreise",
 		"thema": "05 Preise",
 		"unterthema": "Basler Index der Konsumentenpreise",
 		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-03T17:43:56.5656",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -5713,13 +5713,15 @@ var indikatoren = [
 		"lesehilfe": "Seit 1983 ist das Preisniveau in Basel-Stadt um 60% gestiegen.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt"
+			"Statistisches Amt Basel-Stadt",
+			"Bundesamt für Statistik (BFS)"
 		],
 		"externalLinks": [
 			""
@@ -7982,7 +7984,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
