@@ -96,7 +96,10 @@
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "itemStyle": {
+        "fontWeight": "normal"
+    }    
   }, 
   customFunctions: {
     //usage example: 

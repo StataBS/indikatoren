@@ -631,13 +631,13 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
     "symbolWidth": 30,
     "y": 15,
     "itemWidth": 160,
-    "itemMarginBottom": 5,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "itemMarginBottom": 5
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){

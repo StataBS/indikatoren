@@ -397,15 +397,15 @@
     "verticalAlign": "top",
     "align": "right",
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "width": 40
+    },
     "useHTML": true,
     "y": -45,
     "itemMarginBottom": 5,
     "width": 210,
     "itemWidth": 70,
-    "itemStyle": {
-      "fontWeight": "normal",
-      "width": 40
-    },
     "title": {
       "text": "Effektiv:\u003Cbr\u002F\u003EAuf Basis Zimmerzahl 2008:",
       "style": {

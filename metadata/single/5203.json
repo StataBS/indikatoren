@@ -1,40 +1,29 @@
-{
- "title": "Zu- und Wegpendler nach Herkunft und Ziel",
- "subtitle": "",
- "kuerzel": "I.11.5.05203",
- "kuerzelKunde": "ST 4-12",
- "description": "Zu- und Wegpendler nach Herkunft und Ziel",
- "id": 5203,
- "thema": "11 Verkehr",
- "unterthema": "Pendler",
- "kennzahlenset": "Richtplan",
- "raeumlicheGliederung": [
-  "Kanton"
- ],
- "aktualisierungsdatum": "2017-06-12T14:43:40.4040",
- "schlagwort": [
-  "Pendler"
- ],
- "stufe1": "Sachgebiet Siedlung - Wohnen",
- "stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Im Jahr 2015 pendeln gut 100 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund zwei Drittel von ihnen aus der Schweiz. Etwas mehr als 24 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 76 000 Personen - der höchste in der beobachteten Zeitspanne.",
- "erlaeuterungen": "",
- "template": "template001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "01_01_00_00_00_012",
- "parentId": null,
- "children": [
-  "6244"
- ],
- "renderLink": [],
- "quellenangabe": [
-  "Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Zu- und Wegpendler nach Herkunft und Ziel",
+"subtitle":"Basel-Stadt",
+"kuerzel":"I.11.5.5203",
+"kuerzelKunde":"ST 4-12",
+"description":"Zu- und Wegpendler nach Herkunft und Ziel",
+"id":5203,
+"thema":"11 Verkehr",
+"unterthema":"Pendler",
+"kennzahlenset":"Richtplan",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2018-09-03T17:28:17.1717",
+"stufe1":"Sachgebiet Siedlung - Wohnen",
+"stufe2":"Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Im Jahr 2016 pendeln gut 102 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund zwei Drittel von ihnen aus der Schweiz. Etwas weniger als 25 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 77 000 Personen - der höchste in der beobachteten Zeitspanne.",
+"erlaeuterungen":"Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Zahl der Zupendler aus dem Ausland basiert bis 2000 auf den gültigen Grenzgängerbewilligungen Ende November (2000: Ende Dezember) gemäss Bundesamt für Migration und seit 2010 auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal).",
+"template":"template001",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"01_01_00_00_00_012",
+"parentId":null,
+"children":["6244"],
+"renderLink":[],
+"quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)","Bundesamt für Statistik (BFS), Volkszählung (VZ)"],
+"externalLinks":[""]
 }

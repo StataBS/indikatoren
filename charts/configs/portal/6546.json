@@ -772,15 +772,15 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
     "itemWidth": 100,
     "labelFormatter": function (){
       //only return last word
       return this.name.split(" ").slice(-1);
     },
-    "itemMarginBottom": 5,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "itemMarginBottom": 5
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){
