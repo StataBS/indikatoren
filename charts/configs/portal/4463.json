@@ -23,6 +23,14 @@
         [
           2014,
           0.935
+        ],
+        [
+          2015,
+          0.944
+        ],
+        [
+          2016,
+          0.943
         ]
       ],
       "name": "Schweiz"
@@ -50,9 +58,17 @@
         [
           2014,
           0.974
+        ],
+        [
+          2015,
+          0.972
+        ],
+        [
+          2016,
+          0.97
         ]
       ],
-      "name": "Österreich \u002F Deutschland \u002F Liechtenstein"
+      "name": "Österreich\u002FDeutschland\u002FLiechtenstein"
     },
     {
       "index": 1,
@@ -77,6 +93,14 @@
         [
           2014,
           0.415
+        ],
+        [
+          2015,
+          0.405
+        ],
+        [
+          2016,
+          0.395
         ]
       ],
       "name": "Restliches Ausland"
@@ -118,7 +142,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Personen, welche zu Hause «deutsch» oder «schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010 bis 2014"
+    "text": "Zu Hause gesprochene Sprachen"
   },
   "subtitle": {
     "style": {
@@ -127,13 +151,13 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Anteil Personen, welche zu Hause «Deutsch» oder «Schweizerdeutsch» sprechen, nach Staatsangehörigkeit, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
     "shared": false,
     "pointFormatter": function (){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ':<br/><b>' + Highcharts.numberFormat((this.y*100),1) + '% </b>deutsch oder schweizerdeutsch,<br/><b>' + Highcharts.numberFormat(((1-this.y)*100),1) + '% </b>nicht deutsch oder schweizerdeutsch<br/>'
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ':<br/><b>' + Highcharts.numberFormat((this.y*100),1) + '% </b>Deutsch oder Schweizerdeutsch,<br/><b>' + Highcharts.numberFormat(((1-this.y)*100),1) + '% </b>nicht Deutsch oder Schweizerdeutsch<br/>'
     }
   },
   "yAxis": {
@@ -183,7 +207,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-3"
   },
   "legend": {
     "enabled": true,
@@ -191,6 +215,9 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
     "itemMarginBottom": 5,
     "x": 35
   },

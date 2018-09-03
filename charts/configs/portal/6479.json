@@ -604,11 +604,11 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemDistance": 5,
-    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "itemDistance": 5,
+    "itemMarginBottom": 5
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){

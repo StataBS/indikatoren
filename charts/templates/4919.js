@@ -7,13 +7,13 @@
 	  }
   },
   "xAxis": {
-      "tickInterval": 5
+      //"tickInterval": 2,
   },
   "series": [
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "index": 0,
       "color": "#008AC3"
@@ -22,16 +22,16 @@
   "plotOptions": {
     "series": {
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
-          formatter: function() {
+          /*formatter: function() {
             var first = this.series.data[0];
             var last  = this.series.data[this.series.data.length - 1];
             if (this.point.y === first.y || this.point.y === last.y ) {
               return Highcharts.numberFormat(this.point.y, 0, ",", " ");
             }
             return "";
-          }
+          }*/
       }
     }
   }

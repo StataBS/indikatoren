@@ -578,12 +578,12 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "symbolWidth": 30,
-    "itemWidth": 220,
-    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "symbolWidth": 30,
+    "itemWidth": 220,
+    "itemMarginBottom": 5
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){

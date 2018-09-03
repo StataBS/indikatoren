@@ -143,10 +143,10 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "x": 35,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "x": 35
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){
