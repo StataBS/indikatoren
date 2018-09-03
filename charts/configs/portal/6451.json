@@ -778,11 +778,11 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemWidth": 1000,
-    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "itemWidth": 1000,
+    "itemMarginBottom": 5
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){

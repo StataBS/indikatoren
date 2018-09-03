@@ -15,27 +15,27 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
   },
   "series": [
-    {"color": "#B00000",
+    {"color": "#6F6F6F",
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* dunkelrot */
     	{"color": "#007A2F",
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* dunkelgrün */
     	{"color": "#4f81bd",
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* dunkelblau */
     	{"color": "#662673",
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* dunkelviolett */
   ],

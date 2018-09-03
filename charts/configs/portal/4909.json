@@ -3,7 +3,7 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "index": 0,
       "color": "#000000",
@@ -251,7 +251,10 @@
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){
@@ -292,7 +295,7 @@
     "series": {
       "dataLabels": {
         "y": -10,
-        "enabled": true,
+        "enabled": false,
         "formatter": function () {
             var first = this.series.data[0];
             var last  = this.series.data[this.series.data.length - 1];

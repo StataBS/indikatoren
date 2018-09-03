@@ -37,7 +37,7 @@
   ],
   "tooltip": {
     "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ':<br/><b>' + Highcharts.numberFormat((this.y*100),1) + '% </b>deutsch oder schweizerdeutsch,<br/><b>' + Highcharts.numberFormat(((1-this.y)*100),1) + '% </b>nicht deutsch oder schweizerdeutsch<br/>'
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ':<br/><b>' + Highcharts.numberFormat((this.y*100),1) + '% </b>Deutsch oder Schweizerdeutsch,<br/><b>' + Highcharts.numberFormat(((1-this.y)*100),1) + '% </b>nicht Deutsch oder Schweizerdeutsch<br/>'
     },
     "shared": false
   },  

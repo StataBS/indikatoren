@@ -363,11 +363,11 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "x": 45,
-    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "x": 45,
+    "itemMarginBottom": 5
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){

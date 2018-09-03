@@ -709,11 +709,11 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemDistance": 0,
-    "itemMarginBottom": 2,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "itemDistance": 0,
+    "itemMarginBottom": 2
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){

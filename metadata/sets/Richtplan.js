@@ -71,8 +71,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
-		"subtitle": "",
-		"kuerzel": "I.11.5.05203",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.11.5.5203",
 		"kuerzelKunde": "ST 4-12",
 		"description": "Zu- und Wegpendler nach Herkunft und Ziel",
 		"thema": "11 Verkehr",
@@ -81,15 +81,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-06-12T14:43:40.4040",
+		"aktualisierungsdatum": "2018-09-03T17:28:17.1717",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2015 pendeln gut 100 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund zwei Drittel von ihnen aus der Schweiz. Etwas mehr als 24 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 76 000 Personen - der höchste in der beobachteten Zeitspanne.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Jahr 2016 pendeln gut 102 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund zwei Drittel von ihnen aus der Schweiz. Etwas weniger als 25 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 77 000 Personen - der höchste in der beobachteten Zeitspanne.",
+		"erlaeuterungen": "Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Zahl der Zupendler aus dem Ausland basiert bis 2000 auf den gültigen Grenzgängerbewilligungen Ende November (2000: Ende Dezember) gemäss Bundesamt für Migration und seit 2010 auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal).",
 		"template": "template001",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_012",
 		"parentId": null,
 		"children": [
@@ -97,7 +98,8 @@ var indikatorensetData = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
 		],
 		"externalLinks": [
 			""
@@ -358,7 +360,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -492,7 +494,7 @@ var indikatorensetData = [
 	{
 		"title": "Kontinentale Erreichbarkeit",
 		"subtitle": "Stadt Basel im nationalen Vergleich",
-		"kuerzel": "I.11.6.05891",
+		"kuerzel": "I.11.6.5891",
 		"kuerzelKunde": "ST 8-1",
 		"description": "Kontinentale Erreichbarkeit",
 		"thema": "11 Verkehr",
@@ -507,9 +509,10 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel hat sich zwischen 1996 und 2014 verbessert. Die Entwicklung bei den anderen Schweizer Städten verläuft im gleichen Zeitraum ähnlich. Die Stadt Zürich bewegt sich auf einem leicht höheren Niveau als Basel und Genf, die Erreichbarkeit der Stadt Bern liegt etwas darunter.",
+		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel und der anderen Schweizer Städte hat sich zwischen 1996 und 2016 verbessert, wobei sie in den letzten Jahren eher unverändert blieb. Die Stadt Zürich bewegt sich auf einem leicht höheren Niveau als Basel und Genf, die Erreichbarkeit der Stadt Bern liegt etwas darunter.",
 		"erlaeuterungen": "Kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "02_05_00_00_00_001",
 		"parentId": null,
 		"children": [
