@@ -50,7 +50,7 @@ npm run build
 
 ## URL Parameters
 
-- Most of the URL Paramaters outlibned below can be used in combination. 
+- Most of the URL Paramaters outlined below can be used in combination. 
 - Use ? to separate server + document from the list of parameters, then & before 2nd, 3rd (and so on) oparameter in the URL. See examples for stufe below. 
 - Filter parameters can be used even if the respective filter element is hidden. 
 - Url encoding of filter parameter values is automatically performed by the browser, just type in the value in the browser's url bar and hit enter. 
@@ -164,7 +164,7 @@ Update version numbers in package.json, then run the following command to do a c
 npm run reinstall
 ```
 
-### Develop in a private github repositoriy
+### Develop in a private github repository
 - Develop in a private github repositoriy as you would do in the public repo: Create an issue, create a branch called 'issue-XXX' with XXX being the id of the issue. 
 - When it's time to release the new functionality onto the public repository: 
     - In the private repo, define the public repo as a remote repo named "upstream" (of course use the correct https url, not the following dummy url. Use e.g. the address from the browser and add '.git' at the end): 

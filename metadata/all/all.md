@@ -624,6 +624,29 @@ id | visible | visibleInPortal | indikatorenset
 6370 | true | false | Legislaturplan (Print)
 6371 | true | false | Legislaturplan (Print)
 6372 | true | false | Legislaturplan (Print)
+6373 | true | true | Gefragte Karten
+6374 | true | true | Gefragte Karten
+6375 | true | true | Gefragte Karten
+6376 | true | true | Gefragte Karten
+6377 | true | true | Gefragte Karten
+6378 | true | true | Gefragte Karten
+6379 | true | true | Gefragte Karten
+6380 | true | true | Gefragte Karten
+6381 | true | true | Gefragte Karten
+6382 | true | true | Gefragte Karten
+6383 | true | true | Gefragte Karten
+6384 | true | true | Gefragte Karten
+6385 | true | true | Gefragte Karten
+6386 | true | true | Gefragte Karten
+6387 | true | true | Gefragte Karten
+6388 | true | true | Gefragte Karten
+6389 | true | true | Gefragte Karten
+6390 | true | true | Gefragte Karten
+6391 | true | true | Gefragte Karten
+6392 | true | true | Gefragte Karten
+6394 | true | true | Gefragte Karten
+6395 | true | true | Gefragte Karten
+6396 | true | true | Gefragte Karten
 6398 | true | true | Integration
 6399 | true | true | Integration
 6400 | true | true | Integration
@@ -778,6 +801,8 @@ id | visible | visibleInPortal | indikatorenset
 6759 | true | true | Wohnviertel
 6771 | true | false | Wanderungen (Print)
 6774 | true | false | Wanderungen (Print)
+6778 | true | true | Gefragte Karten
+9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
 9998 | true | false | Test

@@ -42,12 +42,14 @@ function go(){
         });
     });
     
+    //exporter.logLevel(4);
     exporter.initPool(
         {
             maxWorkers: 1,
             initialWorkers: 1,
             workLimit: 10
         });
+        
     createSvgImages(chartDetails);
 }
 
