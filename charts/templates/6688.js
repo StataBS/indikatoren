@@ -2,12 +2,14 @@
     return {
   "xAxis": {
   	type: 'category',
-    tickInterval: 10,
     labels: { 
       //rotation: 0,
       formatter: function(){
-        return this.value.split("-")[0];
+        //return the month 06 so that the label is centered over the year
+        return (this.value.includes('-06') ? this.value.split("-")[0] : '');
       },
+      step: 1,
+      rotation: -45,
   		style: { 
   		//textOverflow: 'none' 
   		} 

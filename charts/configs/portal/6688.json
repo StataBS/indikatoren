@@ -1370,11 +1370,13 @@
         "color": "#000000"
       },
       "formatter": function (){
-        return this.value.split("-")[0];
-      }
+        //return the month 06 so that the label is centered over the year
+        return (this.value.includes('-06') ? this.value.split("-")[0] : '');
+      },
+      "step": 1,
+      "rotation": -45
     },
-    "tickLength": 0,
-    "tickInterval": 10
+    "tickLength": 0
   },
   "chart": {
     "events": {
