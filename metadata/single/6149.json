@@ -1,46 +1,29 @@
-{
- "title": "Einbürgerungsziffer der ausländischen Bevölkerung sowie Ausländeranteil",
- "subtitle": "",
- "kuerzel": "I.01.6.06149",
- "kuerzelKunde": "4.8",
- "description": "Einbürgerungsziffer der ausländischen Bevölkerung sowie Ausländeranteil",
- "id": 6149,
- "thema": "01 Bevölkerung",
- "unterthema": "Einbürgerungen",
- "kennzahlenset": "Legislaturplan",
- "raeumlicheGliederung": [
-  "Kanton"
- ],
- "aktualisierungsdatum": "2017-11-29T00:00:00.000",
- "schlagwort": [
-  "Ausländer",
-  "Bevölkerung",
-  "Ausland",
-  "Einbürgerung",
-  "Migrationshintergrund",
-  "Migration"
- ],
- "stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Die Einbürgerungsziffer (Anzahl ordentlich eingebürgerte Ausländer pro 1000 Ausländer der mittleren Wohnbevölkerung) unterlag in den vergangenen zehn Jahren diversen Schwankungen. Die Höchstwerte wurden 2007 und 2008 erreicht. Danach ging die Einbürgerungsziffer zurück, 2011 lag sie bei den Männern noch bei 7,3 und bei den Frauen bei 10,3. Nach einem tendenziellen Anstieg in den Jahren 2012 bis 2015 sank sie 2016 erneut auf 7,4 bei den Männern und 8,0 bei den Frauen.",
- "erlaeuterungen": "Die Einbürgerungsziffer wird folgendermassen berechent: Anzahl ordentlich eingebürgerte Ausländer pro 1000 Ausländer der mittleren Wohnbevölkerung; jeweils für Männer und Frauen.",
- "template": "line001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "04_00_00_00_00_008",
- "parentId": null,
- "children": [
-  "6043",
-  "6302"
- ],
- "renderLink": [],
- "quellenangabe": [
-  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Einbürgerungsziffer der ausländischen Bevölkerung sowie Ausländeranteil",
+"subtitle":"Basel-Stadt",
+"kuerzel":"I.01.6.6149",
+"kuerzelKunde":"4.8",
+"description":"Einbürgerungsziffer der ausländischen Bevölkerung sowie Ausländeranteil",
+"id":6149,
+"thema":"01 Bevölkerung",
+"unterthema":"Einbürgerungen",
+"kennzahlenset":"Legislaturplan",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2018-09-05T13:54:30.3030",
+"stufe1":"Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Die Einbürgerungsziffer unterlag in den vergangenen Jahren diversen Schwankungen. Die Höchstwerte wurden 2007 mit 32,4 bei den Männern und mit 36,9 bei den Frauen erreicht. Danach gingen die Einbürgerungsziffern zurück, bis 2011 bei den Männern und bis 2012 bei den Frauen. In den Jahren bis 2015 stiegen die Einbürgerungsziffern in der Tendenz wieder. 2016 wurden mit 9,8 (Männer) und 11,5 (Frauen) die niedrigsten Werte der abgebildeten Jahre registriert. 2017 liessen sich pro 1000 ausländische Männer 16,5 einbürgern, pro 1000 ausländische Frauen 19,4.",
+"erlaeuterungen":"Die Einbürgerungsziffer wird folgendermassen berechet: Anzahl ordentlich und erleichtert eingebürgerte Ausländer pro 1000 Ausländer der Wohnbevölkerung am Jahresende; jeweils für Männer und Frauen.",
+"template":"line001",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"04_00_00_00_00_008",
+"parentId":null,
+"children":["6302"],
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
+"externalLinks":[""]
 }

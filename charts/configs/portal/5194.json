@@ -65,6 +65,10 @@
         [
           2016,
           172013
+        ],
+        [
+          2017,
+          172013
         ]
       ],
       "name": "Theater"
@@ -134,6 +138,10 @@
         ],
         [
           2016,
+          171861
+        ],
+        [
+          2017,
           171861
         ]
       ],
@@ -205,6 +213,10 @@
         [
           2016,
           629843
+        ],
+        [
+          2017,
+          646086
         ]
       ],
       "name": "Kinos"
@@ -275,6 +287,10 @@
         [
           2016,
           1374857
+        ],
+        [
+          2017,
+          1487910
         ]
       ],
       "name": "Museen"
@@ -345,6 +361,10 @@
         [
           2016,
           1270137
+        ],
+        [
+          2017,
+          null
         ]
       ],
       "name": "Stadtbibliothek"
@@ -395,7 +415,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -446,7 +466,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Jeweilige Institutionen;\u003Cbr\u002F\u003EProCinema.\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: Jeweilige Institutionen;\u003Cbr\u002F\u003EProCinema.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
   "legend": {
     "enabled": true,
