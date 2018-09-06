@@ -14,16 +14,8 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>'
   },
   "series": [
-    {"color": "#008AC3 ",
-      "marker": {
-        "enabled": true
-      }    
-    }, /* blau */
-	{"color": "#B00000",
-      "marker": {
-        "enabled": true
-      }    
-    }, /* rot */
+    {"color": "#008AC3 "}, /* blau */
+	  {"color": "#B00000"}, /* rot */
   ],
   "legend": {
     "enabled": true,
