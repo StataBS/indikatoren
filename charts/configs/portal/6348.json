@@ -133,7 +133,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -162,7 +162,7 @@
     },
     "type": "column",
     "inverted": false,
-    "spacingBottom": 50,
+    "spacingBottom": 40,
     "renderTo": "container-6348"
   },
   "plotOptions": {
@@ -232,9 +232,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Credit Suisse Group AG.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Credit Suisse Group AG."
   },
   "legend": {
     "symbolRadius": 0,

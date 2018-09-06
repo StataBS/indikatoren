@@ -16,12 +16,12 @@
   "series": [
     {"color": "#008AC3 ",
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* blau */
-	{"color": "#B00000",
+	{"color": "#DC440E",
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* rot */
   ],

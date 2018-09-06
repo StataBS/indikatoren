@@ -463,7 +463,7 @@ id | visible | visibleInPortal | indikatorenset
 6143 | true | false | Legislaturplan
 6144 | true | true | Legislaturplan
 6146 | true | true | Legislaturplan
-6147 | true | true | Legislaturplan
+6147 | true | false | Legislaturplan
 6148 | true | true | Legislaturplan
 6149 | true | true | Legislaturplan
 6150 | true | true | Legislaturplan

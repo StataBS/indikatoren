@@ -51,7 +51,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -81,7 +81,7 @@
     "type": "column",
     "inverted": false,
     "renderTo": "container-6134",
-    "spacingBottom": 40
+    "spacingBottom": 30
   },
   "plotOptions": {
     "series": {
@@ -149,9 +149,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Eidgenössische Steuerverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Eidgenössische Steuerverwaltung."
   },
   "legend": {
     "symbolRadius": 0,

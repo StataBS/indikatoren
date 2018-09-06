@@ -1,40 +1,29 @@
-{
- "title": "Standortqualitätsindikator (SQI)",
- "subtitle": "Basel-Stadt im kantonalen Vergleich, Stand: 2016",
- "kuerzel": "I.04.2.06348",
- "kuerzelKunde": "1.2",
- "description": "Standortqualitätsindikator (SQI)",
- "id": 6348,
- "thema": "04 Volkswirtschaft",
- "unterthema": "Konjunktur",
- "kennzahlenset": "Legislaturplan",
- "raeumlicheGliederung": [
-  "Kanton"
- ],
- "aktualisierungsdatum": "2017-11-29T00:00:00.000",
- "schlagwort": [
-  "Arbeit"
- ],
- "stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Basel-Stadt liegt mit einem Wert von 0,84 hinter Zug, Zürich und Aargau auf dem vierten Rang aller Kantone.",
- "erlaeuterungen": "Der Standortqualitätsindikator drückt die Attraktivität der Schweizer Kantone und Regionen als synthetischen Indikator im Vergleich zum Schweizer Durchschnitt von null aus. Werte zwischen –0.3 und +0.3 können als Mittelfeld bezeichnet werden, höhere Werte bedeuten  eine überdurchschnittliche Attraktivität, tiefere Werte eine geringere. Die Komponenten der Standortqualität sind steuerliche Attraktivität für natürliche und juristische Personen, Verfügbarkeit von Fachkräften und hochqualifizierten Personen sowie die Erreichbarkeit als Summe aller Beschäftigungs- oder Bevölkerungspotenziale im in- und ausländischen Einzugsgebiet bzw. des Passagieraufkommens am jeweiligen Flughafen.",
- "template": "template001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "01_00_00_00_00_002",
- "parentId": null,
- "children": [
-  "6372"
- ],
- "renderLink": [],
- "quellenangabe": [
-  "Credit Suisse Group AG"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Standortqualitätsindikator (SQI)",
+"subtitle":"Basel-Stadt im kantonalen Vergleich, Stand: 2016",
+"kuerzel":"I.04.2.6348",
+"kuerzelKunde":"1.2",
+"description":"Standortqualitätsindikator (SQI)",
+"id":6348,
+"thema":"04 Volkswirtschaft",
+"unterthema":"Konjunktur",
+"kennzahlenset":"Legislaturplan",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"",
+"stufe1":"Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"<Bitte neue Lesehilfe erfassen>",
+"erlaeuterungen":"Der Standortqualitätsindikator drückt die Attraktivität der Schweizer Kantone und Regionen als synthetischen Indikator im Vergleich zum Schweizer Durchschnitt von null aus. Werte zwischen –0.3 und +0.3 können als Mittelfeld bezeichnet werden, höhere Werte bedeuten  eine überdurchschnittliche Attraktivität, tiefere Werte eine geringere. Die Komponenten der Standortqualität sind steuerliche Attraktivität für natürliche und juristische Personen, Verfügbarkeit von Fachkräften und hochqualifizierten Personen sowie die Erreichbarkeit als Summe aller Beschäftigungs- oder Bevölkerungspotenziale im in- und ausländischen Einzugsgebiet bzw. des Passagieraufkommens am jeweiligen Flughafen.",
+"template":"template001",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"01_00_00_00_00_002",
+"parentId":null,
+"children":["6372"],
+"renderLink":[],
+"quellenangabe":["Credit Suisse Group AG"],
+"externalLinks":[""]
 }

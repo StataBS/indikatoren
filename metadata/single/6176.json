@@ -1,41 +1,29 @@
-{
- "title": "Anzahl Straftaten nach StGB pro 1000 Einwohner",
- "subtitle": "",
- "kuerzel": "I.19.1.06176",
- "kuerzelKunde": "10.1",
- "description": "Anzahl Straftaten nach StGB pro 1000 Einwohner",
- "id": 6176,
- "thema": "19 Rechtspflege",
- "unterthema": "Polizei",
- "kennzahlenset": "Legislaturplan",
- "raeumlicheGliederung": [
-  "Kanton"
- ],
- "aktualisierungsdatum": "2017-11-29T00:00:00.000",
- "schlagwort": [
-  "Sicherheit"
- ],
- "stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Die Anzahl Straftaten nach Strafgesetzbuch pro 1000 Einwohner beträgt 2016 etwas mehr als 107. Im Jahr 2012 lag der Wert über 140 und damit am höchsten innerhalb des beobachteten Zeitraums.",
- "erlaeuterungen": "Auf die ständige Wohnbevölkerung am Hauptwohnsitz am Jahresende berechnet. Wohnbevölkerung: Vorjahreszahlen.",
- "template": "line001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "10_00_00_00_00_001",
- "parentId": null,
- "children": [
-  "6323"
- ],
- "renderLink": [],
- "quellenangabe": [
-  "Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)",
-  "Polizeiliche Kriminalitätsstatistk (PKS)"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Anzahl Straftaten nach StGB pro 1000 Einwohner",
+"subtitle":"Basel-Stadt",
+"kuerzel":"I.19.1.6176",
+"kuerzelKunde":"10.1",
+"description":"Anzahl Straftaten nach StGB pro 1000 Einwohner",
+"id":6176,
+"thema":"19 Rechtspflege",
+"unterthema":"Polizei",
+"kennzahlenset":"Legislaturplan",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"",
+"stufe1":"Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Die Anzahl Straftaten nach Strafgesetzbuch pro 1000 Einwohner beträgt 2017 etwas mehr als 110. Im Jahr 2012 lag der Wert über 140 und damit am höchsten innerhalb des beobachteten Zeitraums.",
+"erlaeuterungen":"Auf die ständige Wohnbevölkerung am Hauptwohnsitz am Jahresende berechnet. Wohnbevölkerung: Vorjahreszahlen.",
+"template":"line001",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"10_00_00_00_00_001",
+"parentId":null,
+"children":["6323"],
+"renderLink":[],
+"quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)","Polizeiliche Kriminalitätsstatistk (PKS)"],
+"externalLinks":[""]
 }

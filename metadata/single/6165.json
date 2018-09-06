@@ -1,44 +1,29 @@
-{
- "title": "CO<sub>2</sub>-Emissionen",
- "subtitle": "in Tonnen",
- "kuerzel": "I.02.5.06165",
- "kuerzelKunde": "7.5",
- "description": "CO<sub>2</sub>-Emissionen",
- "id": 6165,
- "thema": "02 Raum, Umwelt",
- "unterthema": "Luftschadstoffe",
- "kennzahlenset": "Legislaturplan",
- "raeumlicheGliederung": [
-  "Kanton"
- ],
- "aktualisierungsdatum": "2017-11-29T00:00:00.000",
- "schlagwort": [
-  "Nachhaltigkeit",
-  "Umwelt",
-  "Luft"
- ],
- "stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2010 und 2014 von 898 113 Tonnen auf 755 095 Tonnen ab. Das entspricht einer Reduktion von 16%.",
- "erlaeuterungen": "Die CO<sub>2</sub>-Emission berechnet sich aus der Summe der Verbräuche aller fossilen Brennstoffe sowie Abfall multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Verbrauch durch die mittlere Bevölkerung dividiert.  Erneuerbare Brennstoffe wie Holz oder Biogas sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanalge (KVA) verbrannte Hauskehricht wird als 50% erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet.",
- "template": "template001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "07_00_00_00_00_005",
- "parentId": null,
- "children": [
-  "4299",
-  "6031",
-  "6316"
- ],
- "renderLink": [],
- "quellenangabe": [
-  "Statistisches Amt Basel-Stadt, Energiestatistik"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"CO<sub>2</sub>-Emissionen",
+"subtitle":"in Tonnen, Basel-Stadt",
+"kuerzel":"I.02.5.6165",
+"kuerzelKunde":"7.5",
+"description":"CO<sub>2</sub>-Emissionen",
+"id":6165,
+"thema":"02 Raum, Umwelt",
+"unterthema":"Luftschadstoffe",
+"kennzahlenset":"Legislaturplan",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"",
+"stufe1":"Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2010 und 2016 von 910 740 Tonnen auf 741 614 Tonnen ab. Das entspricht einer Reduktion von 19%. Dies entspricht einem Rückgang von 4,7 Tonnen auf 3,7 Tonnen CO<sub>2</sub> pro Kopf.",
+"erlaeuterungen":"Die CO<sub>2</sub>-Emission berechnet sich aus der Summe der Verbräuche aller fossilen Brennstoffe sowie Abfall multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Verbrauch durch die mittlere Bevölkerung dividiert. &nbsp;Erneuerbare Brennstoffe wie Holz oder Biogas sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird als 50% erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet.",
+"template":"template001",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"07_00_00_00_00_005",
+"parentId":null,
+"children":["4299","6031","6316"],
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Energiestatistik"],
+"externalLinks":[""]
 }

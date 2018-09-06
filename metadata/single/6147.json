@@ -1,44 +1,29 @@
-{
- "title": "Verhältnis der Löhne von Frauen und Männern in Basel-Stadt",
- "subtitle": "",
- "kuerzel": "I.03.3.06147",
- "kuerzelKunde": "4.6",
- "description": "Verhältnis der Löhne von Frauen und Männern in Basel-Stadt",
- "id": 6147,
- "thema": "03 Erwerbsleben",
- "unterthema": "Löhne ",
- "kennzahlenset": "Legislaturplan",
- "raeumlicheGliederung": [
-  "Kanton"
- ],
- "aktualisierungsdatum": "2017-11-29T00:00:00.000",
- "schlagwort": [
-  "Geschlecht",
-  "Arbeit",
-  "Erwerb",
-  "Beschäftigte"
- ],
- "stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "In Basel-Stadt erreichen die Löhne der Frauen seit Jahren im Durchschnitt rund 80% der Löhne der Männer. Im Jahr 2014 lag das Verhältnis bei 82%.",
- "erlaeuterungen": "Diese Ergebnisse basieren auf einer Sonderauswertung der LSE für Basel-Stadt. Die Zahlen 2012 und 2014 sind statistisch unsicher (Variationskoeffizient grösser als 5%). Grundlage ist der Median des monatlichen Bruttolohns, standardisiert, im privaten Sektor (ohne Landwirtschaft).",
- "template": "line001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "04_00_00_00_00_006",
- "parentId": null,
- "children": [
-  "6037",
-  "6300"
- ],
- "renderLink": [],
- "quellenangabe": [
-  "Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Verhältnis der Löhne von Frauen und Männern",
+"subtitle":"im privaten Sektor in der Nordwestschweiz",
+"kuerzel":"I.03.3.06147",
+"kuerzelKunde":"4.6",
+"description":"Verhältnis der Löhne von Frauen und Männern",
+"id":6147,
+"thema":"03 Erwerbsleben",
+"unterthema":"Löhne ",
+"kennzahlenset":"Legislaturplan",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2018-09-05T10:10:07.077",
+"stufe1":"Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"In der Nordwestschweiz erreicht der Medianlohn der Frauen im Jahr 2016 rund 5 920 Franken. Dies entspricht 86% des Medianlohns der Männer (6 850 Fr.). Der Lohnunterschied hat sich gegenüber 2014 kaum verändert, ist jedoch geringer als vor 10 Jahren (2006 betrug das Lohnverhältnis rund 81%).",
+"erlaeuterungen":"Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u.a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
+"template":"line001",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"04_00_00_00_00_006",
+"parentId":6037,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"],
+"externalLinks":[""]
 }
