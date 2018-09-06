@@ -11,7 +11,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-05T11:38:27.2727",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
@@ -780,7 +780,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-05T16:18:31.3131",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
