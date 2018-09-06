@@ -387,8 +387,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Einwohner pro ÖV-Güteklasse",
-		"subtitle": "Stand 2016",
-		"kuerzel": "I.11.2.05822",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.11.2.5822",
 		"kuerzelKunde": "ST 6-1",
 		"description": "Anteil Einwohner pro ÖV-Güteklasse",
 		"thema": "11 Verkehr",
@@ -397,15 +397,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-06-26T14:00:15.1515",
+		"aktualisierungsdatum": "2018-09-06T13:11:21.2121",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 6: Erschliessungsqualität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Über zwei Drittel der Einwohner in Basel-Stadt wohnen in einem Gebiet der ÖV-Güteklasse A und damit in einer Zone mit sehr guter Anbindung an den öffentlichen Verkehr. Gut 30% in einem Gebiet der Güteklasse B.",
+		"lesehilfe": "Fast zwei Drittel der Einwohner in Basel-Stadt wohnen in einem Gebiet der ÖV-Güteklasse A und damit in einer Zone mit sehr guter Anbindung an den öffentlichen Verkehr. Gut 30% in einem Gebiet der Güteklasse B. Der Unterschied zwischen den Jahren 2016 und 2017 ist minimal.",
 		"erlaeuterungen": "Die ÖV-Güteklassen sind ein Mass für die räumliche Erschliessungsqualität durch den öffentlichen Verkehr. Die Güteklassen werden zweistufig bestimmt: Die Art der Verkehrsmittel und das Kursintervall weisen jeder Haltestelle eine bestimmte Kategorie zu. Die Haltestellenkategorie in Verbindung mit der Distanz des Wohnorts einer Person zur Haltestelle ergibt dann die ÖV-Güteklasse für eine bestimmte Person.",
-		"template": "pie001",
+		"template": "befragungen001",
+		"printformat": "",
 		"orderKey": "01_03_00_00_00_001",
 		"parentId": null,
 		"children": [
@@ -417,7 +418,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/data/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target = '_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
-			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=340&cps=2614062.08,1267876.03,50000&nodefault&layers=stadtplan_grau_osm_50000,gueteklassen' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
+			"<a href = 'https://map.geo.bs.ch/ngeodesktop?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2612508&map_y=1267331&map_zoom=2&tree_groups=G%C3%BCteklassen%20%C3%B6ffentlicher%20Verkehr&tree_group_layers_G%C3%BCteklassen%20%C3%B6ffentlicher%20Verkehr=GO_GueteklassenOeV' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
 		],
 		"id": 5822
 	},
