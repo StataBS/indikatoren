@@ -199,6 +199,13 @@
       "fontWeight": "normal"
     }
   },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    }
+  },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){
           

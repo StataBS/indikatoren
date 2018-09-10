@@ -970,6 +970,19 @@
       "fontWeight": "normal"
     }
   },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){
           
@@ -1003,14 +1016,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
     }
   },
   "exporting": {

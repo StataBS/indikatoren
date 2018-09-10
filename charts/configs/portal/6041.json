@@ -148,6 +148,14 @@
     },
     "x": 35
   },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "pointWidth": 20
+    }
+  },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){
           
@@ -181,11 +189,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "pointWidth": 20
     }
   },
   "exporting": {

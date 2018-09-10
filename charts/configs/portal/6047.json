@@ -400,6 +400,16 @@
     "symbolPadding": 1,
     "padding": 0
   },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "pointPadding": 0,
+      "groupPadding": 0.1,
+      "borderWidth": 0
+    }
+  },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){
           
@@ -433,13 +443,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "pointPadding": 0,
-      "groupPadding": 0.1,
-      "borderWidth": 0
     }
   },
   "exporting": {

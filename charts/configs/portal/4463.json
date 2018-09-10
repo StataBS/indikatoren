@@ -221,6 +221,16 @@
     "itemMarginBottom": 5,
     "x": 35
   },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "dataLabels": {
+        "enabled": false
+      }
+    }
+  },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){
           
@@ -254,16 +264,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "marker": {
-        "enabled": false
-      },
-      "dataLabels": {
-        "enabled": false
-      }
     }
   },
   "exporting": {
