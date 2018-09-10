@@ -323,6 +323,17 @@
     "x": 40,
     "itemMarginBottom": 5
   },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "stacking": "normal",
+      "pointPadding": 0,
+      "groupPadding": 0.5,
+      "borderWidth": 0
+    }
+  },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){
           
@@ -356,14 +367,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "stacking": "normal",
-      "pointPadding": 0,
-      "groupPadding": 0.5,
-      "borderWidth": 0
     }
   },
   "exporting": {

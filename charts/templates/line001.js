@@ -101,6 +101,13 @@
         "fontWeight": "normal"
     }    
   }, 
+  plotOptions: {
+    series: {
+      marker: {
+        enabled: false
+      }
+    }
+  },
   customFunctions: {
     //usage example: 
     //yAxis.events.afterSetExtremes: function(){ 
