@@ -520,18 +520,6 @@ var afterFilter = function(result, jQ){
 
     //$('#total_indikatoren').text(result.length);    
 
-    //define how counts in dropdowns or checkboxes are rendered 
-    var optionCountRenderFunction = function(c, count){c.text(c.val() + ' (' + count + ')') };
-    var checkboxCountRenderFunction = function(c, count){c.next().text(c.val() + ' (' + count + ')')};
-    //render new counts after each control
-    updateCountsExclusive('#thema_criteria :input:gt(0)', 'thema', checkboxCountRenderFunction, result, jQ);        
-    updateCountsExclusive('#raeumlicheGliederung_filter > option', 'raeumlicheGliederung', optionCountRenderFunction, result, jQ);
-
-    //hide dropdowns if no specific values present, or select the single specific value
-    //selectSingleEntryOrHideDropdown('#unterthema_filter');
-    //selectSingleEntryOrHideDropdown('#stufe2_filter');
-    
-
     //prepare query String object for filtering stufe1 - stufe5
     var query = (window['FJS'] && window['FJS']['last_query'] ? window.FJS.last_query : undefined);
     var baseQuery = (query ? (query.criteria ? query.criteria.where : undefined) : undefined);
@@ -547,6 +535,21 @@ var afterFilter = function(result, jQ){
     
     var baseQueryCopyUnterthema = $.extend(true, {}, baseQuery);
     renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema', baseQueryCopyUnterthema);
+    
+    //define how counts in dropdowns or checkboxes are rendered 
+    var optionCountRenderFunction = function(c, count){c.text(c.val() + ' (' + count + ')') };
+    var checkboxCountRenderFunction = function(c, count){c.next().text(c.val() + ' (' + count + ')')};
+    
+    //render new counts after each control
+    //if no 'where' criteria are defined in last query, use updateCountsInclusive(), otherwise updateCountsExclusive
+    var updateFunction = (query && query.criteria && query.criteria.where ? updateCountsExclusive : updateCountsInclusive);
+    updateFunction('#thema_criteria :input:gt(0)', 'thema', checkboxCountRenderFunction, result, jQ);        
+    updateFunction('#raeumlicheGliederung_filter > option', 'raeumlicheGliederung', optionCountRenderFunction, result, jQ);
+
+    //hide dropdowns if no specific values present, or select the single specific value
+    //selectSingleEntryOrHideDropdown('#unterthema_filter');
+    //selectSingleEntryOrHideDropdown('#stufe2_filter');
+    
     
     //for multiselect dropdowns: rebuild control after select tag is updated
     $('#raeumlicheGliederung_filter').multiselect('rebuild');
@@ -604,7 +607,6 @@ var afterFilter = function(result, jQ){
 
     //Add Counts in brackets after each option
     //calculate number of results that would be found if current value was _additionally_ filtered by (i.e. inclusive any filtercriteria of the current control)
-    /*
     function updateCountsInclusive(selector, key, renderFunction, result, jQ){
           var items  = $(selector);
           //iterate over each displayed value of the criterion 
@@ -619,7 +621,7 @@ var afterFilter = function(result, jQ){
             renderFunction(c, count);
           });      
     }
-    */
+    
 
     //hide dropdown if no specific entry present, select the  specific entry if it is the only one present  
     function selectSingleEntryOrHideDropdown(selector){
