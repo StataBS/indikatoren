@@ -7071,11 +7071,7 @@
       "x": 10,
       "y": -25
     },
-<<<<<<< HEAD
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung\u003Cbr\u002F\u003EZuletzt geändert: 8\u002F14\u002F2017"
-=======
     "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2017-8-14"
->>>>>>> master
   },
   "colorAxis": {
     "min": 0,
