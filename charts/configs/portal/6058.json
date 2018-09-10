@@ -297,6 +297,17 @@
     "itemWidth": 100,
     "itemMarginBottom": 5
   },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "area": {
+      "stacking": "normal",
+      "lineWidth": 0
+    }
+  },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){
           
@@ -330,12 +341,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "area": {
-      "stacking": "normal",
-      "lineWidth": 0
     }
   },
   "exporting": {

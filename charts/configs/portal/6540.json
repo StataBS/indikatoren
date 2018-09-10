@@ -2,9 +2,6 @@
   "series": [
     {
       "color": "rgb(220, 68, 14)",
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2008,
@@ -51,9 +48,6 @@
     },
     {
       "color": "rgb(68, 141, 43)",
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2008,
@@ -100,9 +94,6 @@
     },
     {
       "color": "rgb(250, 189, 36)",
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2008,
@@ -149,6 +140,9 @@
     },
     {
       "color": "rgb(220, 68, 14)",
+      "marker": {
+        "enabled": true
+      },
       "data": [
         [
           2008,
@@ -195,6 +189,9 @@
     },
     {
       "color": "rgb(68, 141, 43)",
+      "marker": {
+        "enabled": true
+      },
       "data": [
         [
           2008,
@@ -241,6 +238,9 @@
     },
     {
       "color": "rgb(250, 189, 36)",
+      "marker": {
+        "enabled": true
+      },
       "data": [
         [
           2008,
@@ -418,6 +418,20 @@
         return this.name.slice(-5);
     }
   },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "symbol": "circle",
+        "lineWidth": 2,
+        "lineColor": null
+      }
+    }
+  },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){
           
@@ -451,15 +465,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "line": {
-      "marker": {
-        "symbol": "circle",
-        "lineWidth": 2,
-        "lineColor": null
-      }
     }
   },
   "exporting": {

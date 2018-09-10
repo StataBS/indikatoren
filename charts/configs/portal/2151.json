@@ -742,6 +742,16 @@
       "fontWeight": "normal"
     }
   },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "stacking": "normal",
+      "groupPadding": 0,
+      "borderWidth": 0
+    }
+  },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){
           
@@ -775,13 +785,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "stacking": "normal",
-      "groupPadding": 0,
-      "borderWidth": 0
     }
   },
   "exporting": {

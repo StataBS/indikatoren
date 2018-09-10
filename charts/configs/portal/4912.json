@@ -287,6 +287,24 @@
       "fontWeight": "normal"
     }
   },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "dataLabels": {
+        "y": 25,
+        "enabled": true,
+        "formatter": function () {
+                  var first = this.series.data[0];
+                  var last  = this.series.data[this.series.data.length - 1];
+                  if (this.x === first.x || this.x === last.x) {
+                    return Highcharts.numberFormat(this.y, 0  , ",", " ");
+                  }
+                }
+      }
+    }
+  },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){
           
@@ -320,21 +338,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "y": 25,
-        "enabled": true,
-        "formatter": function () {
-                  var first = this.series.data[0];
-                  var last  = this.series.data[this.series.data.length - 1];
-                  if (this.x === first.x || this.x === last.x) {
-                    return Highcharts.numberFormat(this.y, 0  , ",", " ");
-                  }
-                }
-      }
     }
   },
   "exporting": {
