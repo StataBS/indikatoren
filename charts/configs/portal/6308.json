@@ -295,12 +295,10 @@
     "itemMarginBottom": 5
   },
   "plotOptions": {
-    "line": {
+    "series": {
       "marker": {
         "enabled": false
-      }
-    },
-    "series": {
+      },
       "dataLabels": {
         "enabled": false,
         "allowOverlap": true,
@@ -313,6 +311,11 @@
                 }
                 return "";
               }
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false
       }
     }
   },

@@ -223,7 +223,13 @@
       "fontSize": "10px"
     }
   },
-  "plotOptions": {},
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    }
+  },
   "exporting": {
     "filename": 6242
   }

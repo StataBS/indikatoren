@@ -100,6 +100,13 @@
     "align": "right",
     "symbolRadius": 0,
     itemStyle:{"fontSize": "10px"}
-  }
+  },
+  plotOptions: {
+    series: {
+      marker: {
+        enabled: false
+      }
+    }
+  },
 	};
 }());

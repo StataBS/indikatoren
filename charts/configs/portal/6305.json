@@ -717,6 +717,11 @@
     "itemMarginBottom": 1
   },
   "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "line": {
       "connectNulls": true,
       "marker": {

@@ -188,6 +188,9 @@
   },
   "plotOptions": {
     "series": {
+      "marker": {
+        "enabled": false
+      },
       "pointPadding": 100,
       "borderWidth": 0,
       "pointWidth": 30,
