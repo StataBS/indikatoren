@@ -329,6 +329,13 @@
     },
     "itemWidth": 75
   },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    }
+  },
   "exporting": {
     "filename": 6273
   }
