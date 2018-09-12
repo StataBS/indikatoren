@@ -31,7 +31,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2151
+		"id": 2151,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Grenzgänger nach Wohnort und Geschlecht",
@@ -65,7 +66,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2152
+		"id": 2152,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Grenzgänger nach Alter",
@@ -99,7 +101,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2153
+		"id": 2153,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Grenzgänger in Industrie und Baugewerbe",
@@ -133,7 +136,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2161
+		"id": 2161,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Grenzgänger im Dienstleistungssektor (I)",
@@ -167,7 +171,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2163
+		"id": 2163,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Grenzgänger nach Kanton",
@@ -201,7 +206,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2173
+		"id": 2173,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nominales Bruttoinlandprodukt pro Kopf nach Kanton",
@@ -235,7 +241,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2400
+		"id": 2400,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wachstumsrate des realen BIP nach Kanton",
@@ -270,7 +277,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2401
+		"id": 2401,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil an der nominalen Wertschöpfung nach Branche",
@@ -305,7 +313,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2402
+		"id": 2402,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wertschöpfungsentwicklung in Industrie und Baugewerbe",
@@ -339,7 +348,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2404
+		"id": 2404,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (I)",
@@ -373,7 +383,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2405
+		"id": 2405,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitslosenquote nach Alter",
@@ -407,7 +418,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2423
+		"id": 2423,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitslosenquote nach Herkunft und Geschlecht",
@@ -441,7 +453,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2424
+		"id": 2424,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitslose nach Ländergruppe",
@@ -475,7 +488,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2426
+		"id": 2426,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitslose in Industrie und Baugewerbe",
@@ -509,7 +523,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2428
+		"id": 2428,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitslose im Dienstleistungssektor (I)",
@@ -543,7 +558,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2429
+		"id": 2429,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitslosenquote nach Kanton",
@@ -578,7 +594,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2459
+		"id": 2459,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zuwanderung von Erwerbstätigen nach Arbeitskanton",
@@ -612,7 +629,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2461
+		"id": 2461,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zuwanderung von Erwerbstätigen nach Geschlecht",
@@ -647,7 +665,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2462
+		"id": 2462,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zuwanderung von Erwerbstätigen nach Aufenthaltsbewilligung",
@@ -681,7 +700,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2463
+		"id": 2463,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zuwanderung von Erwerbstätigen nach Herkunft",
@@ -715,7 +735,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2464
+		"id": 2464,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zuwanderung von Erwerbstätigen in Industrie und Baugewerbe",
@@ -749,7 +770,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2465
+		"id": 2465,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (I)",
@@ -783,7 +805,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2466
+		"id": 2466,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
@@ -820,7 +843,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2501
+		"id": 2501,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschäftigung in Industrie und Baugewerbe",
@@ -854,7 +878,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2528
+		"id": 2528,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschäftigung im Dienstleistungssektor (I)",
@@ -888,7 +913,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2529
+		"id": 2529,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschäftigung nach Kanton",
@@ -922,7 +948,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2547
+		"id": 2547,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bezügerinnen und Bezüger von Prämienverbilligung",
@@ -957,7 +984,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2917
+		"id": 2917,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe",
@@ -993,7 +1021,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2952
+		"id": 2952,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
@@ -1029,7 +1058,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2953
+		"id": 2953,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
@@ -1065,7 +1095,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 2956
+		"id": 2956,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitstage von Meldepflichtigen nach Einsatzkanton",
@@ -1099,7 +1130,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 3027
+		"id": 3027,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Meldepflichtige nach Einsatzkanton",
@@ -1133,7 +1165,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 3028
+		"id": 3028,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitstage von Meldepflichtigen nach Erwerbsstatus",
@@ -1167,7 +1200,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 3029
+		"id": 3029,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil der weiblichen Meldepflichtigen nach Erwerbsstatus",
@@ -1201,7 +1235,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 3030
+		"id": 3030,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitstage von Meldepflichtigen in Industrie und Baugewerbe",
@@ -1235,7 +1270,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 3031
+		"id": 3031,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitstage von Meldepflichtigen im Dienstleistungssektor (I)",
@@ -1269,7 +1305,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 3032
+		"id": 3032,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
@@ -1305,7 +1342,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 3051
+		"id": 3051,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Durch BaselArea unterstützte internationale Ansiedlungen",
@@ -1341,7 +1379,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 3086
+		"id": 3086,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Globale und kontinentale Erreichbarkeit",
@@ -1379,7 +1418,8 @@
 			"Weiterführende Informationen: <a href = 'https://www.bak-economics.com/en/solutions/regional-analysis/region-international/location-factors/erreichbarkeit/' target = '_blank'>BAK Economics</a> und",
 			"<a href = 'http://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/erreichbarkeit.html' target = '_blank'>Amt für Mobilität</a>"
 		],
-		"id": 3104
+		"id": 3104,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot",
@@ -1413,7 +1453,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4127
+		"id": 4127,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mietpreisentwicklung",
@@ -1447,7 +1488,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4128
+		"id": 4128,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl",
@@ -1480,7 +1522,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4129
+		"id": 4129,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mietpreisentwicklung der 3-Zimmer-Wohnungen",
@@ -1514,7 +1557,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4130
+		"id": 4130,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wohnungsbelegung",
@@ -1548,7 +1592,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4131
+		"id": 4131,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
@@ -1585,7 +1630,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4132
+		"id": 4132,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Wohnungen",
@@ -1619,7 +1665,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4133
+		"id": 4133,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteile am Wohnungsbestand",
@@ -1653,7 +1700,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4134
+		"id": 4134,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nettowohnungsproduktion",
@@ -1689,7 +1737,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4135
+		"id": 4135,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Umbausaldo",
@@ -1723,7 +1772,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4136
+		"id": 4136,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl neu erstellte Wohnungen",
@@ -1757,7 +1807,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4137
+		"id": 4137,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
@@ -1794,7 +1845,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4138
+		"id": 4138,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
@@ -1830,7 +1882,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4139
+		"id": 4139,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -1870,7 +1923,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4140
+		"id": 4140,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteile der Haushalte",
@@ -1905,7 +1959,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4141
+		"id": 4141,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteile der Familienhaushalte",
@@ -1939,7 +1994,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4142
+		"id": 4142,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Genossenschaftswohnungen und Anteil am Bestand",
@@ -1973,7 +2029,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4143
+		"id": 4143,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot - nur Familien",
@@ -2007,7 +2064,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4144
+		"id": 4144,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wohneigentumsquote",
@@ -2041,7 +2099,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4145
+		"id": 4145,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
@@ -2075,7 +2134,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4146
+		"id": 4146,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Saldo des Steuerertrages von Zu- und Wegzügern",
@@ -2109,7 +2169,8 @@
 		"externalLinks": [
 			"Siehe <a href='http://www.statistik.bs.ch/zahlen/analysen/steuerstatistik.html' target='_blank'>Weiterführende Informationen zur Steuerstatistik und zur Methodik</a>."
 		],
-		"id": 4147
+		"id": 4147,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
@@ -2143,7 +2204,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4148
+		"id": 4148,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Freiraumfläche und Anteil an der Gesamtfläche",
@@ -2177,7 +2239,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4149
+		"id": 4149,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
@@ -2213,7 +2276,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4150
+		"id": 4150,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
@@ -2247,7 +2311,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4151
+		"id": 4151,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Haushalte mit Familienmietzinsbeiträgen",
@@ -2282,7 +2347,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4152
+		"id": 4152,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ausbezahlte Familienmietzinsbeiträge",
@@ -2316,7 +2382,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4153
+		"id": 4153,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bestand an Notwohnungen und ihre Belegung",
@@ -2350,7 +2417,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4154
+		"id": 4154,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
@@ -2384,7 +2452,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4155
+		"id": 4155,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
@@ -2418,7 +2487,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4156
+		"id": 4156,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Fläche wertvoller Naturräume",
@@ -2453,7 +2523,8 @@
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4211
+		"id": 4211,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil erneuerbarer Energien (ohne Mobilität)",
@@ -2487,7 +2558,8 @@
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0603' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4221
+		"id": 4221,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Energiepreise Schweiz",
@@ -2522,7 +2594,8 @@
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/themen/05/02.html' target = '_blank'>Landesindex der Konsumentenpreise (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0601' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4222
+		"id": 4222,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Neue erneuerbare Energien",
@@ -2557,7 +2630,8 @@
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0604' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4223
+		"id": 4223,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Eigenproduktion Strom",
@@ -2592,7 +2666,8 @@
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0605' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4224
+		"id": 4224,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Energieimportabhängigkeit",
@@ -2627,7 +2702,8 @@
 			"<a href = 'http://www.statistik-bs.ch/tabellen/t08' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0606' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4225
+		"id": 4225,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Energiebezugsfläche mit Minergie-P® und A®-Standard",
@@ -2663,7 +2739,8 @@
 			"<a href = 'http://www.aue.bs.ch/energie/gebaeude-energie.html' target = '_blank'>Gebäude und Energie (AUE BS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0609' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4226
+		"id": 4226,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Spezifischer Heizenergieverbrauch von neuen Bauten",
@@ -2698,7 +2775,8 @@
 			"<a href = 'http://www.aue.bs.ch/energie/gebaeude-energie.html' target = '_blank'>Gebäude und Energie (AUE BS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0610' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4227
+		"id": 4227,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Heizgradtage",
@@ -2732,7 +2810,8 @@
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0611' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4228
+		"id": 4228,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Energieeffizienz",
@@ -2767,7 +2846,8 @@
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/raum-umwelt/ressourcen/umweltindikatorensystem/nutzung-natuerliche-ressourcen/energieeffizienz.html' target = '_blank'>Energieeffizienz Schweiz (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0612' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4229
+		"id": 4229,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bruttoenergieverbrauch nach Energieträger",
@@ -2802,7 +2882,8 @@
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0602' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4230
+		"id": 4230,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "AOX-Fracht Abwasser",
@@ -2837,7 +2918,8 @@
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983281/index.html#app4' target = '_blank'>Gewässerschutzverordnung, Anhang 3.1</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1604' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4231
+		"id": 4231,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nitrat im Grundwasser",
@@ -2872,7 +2954,8 @@
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983281/index.html' target = '_blank'>Gewässerschutzverordnung (GSchV, SR 814.201)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1602' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4232
+		"id": 4232,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wasserverbrauch Haushalte und Kleingewerbe",
@@ -2906,7 +2989,8 @@
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1605' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4233
+		"id": 4233,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wasserverbrauch Gewerbe und Industrie",
@@ -2940,7 +3024,8 @@
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1606' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4234
+		"id": 4234,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gelöster Organischer Kohlenstoff (DOC)",
@@ -2975,7 +3060,8 @@
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983281/index.html#app4' target = '_blank'>Gewässerschutzverordnung, Anhang 3.1</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1607' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4236
+		"id": 4236,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wassertemperatur Grundwasser",
@@ -3010,7 +3096,8 @@
 			"<a href = 'http://www.aue.bs.ch/wasser/grundwasser/grundwasserpegel-grundwasserqualitaet.html' target = '_blank'>Hydrologisches Jahrbuch BS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4237
+		"id": 4237,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Pflanzenschutzmittel im Grundwasser",
@@ -3044,7 +3131,8 @@
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1611' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4238
+		"id": 4238,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ausbaugrad der Abwasserreinigungsanlagen",
@@ -3078,7 +3166,8 @@
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1614' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4239
+		"id": 4239,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wassertemperatur Oberflächengewässer",
@@ -3113,7 +3202,8 @@
 			"<a href = 'http://www.aue.bs.ch/umweltanalytik/rheinueberwachungsstation-weil-am-rhein.html' target = '_blank'>Rheinüberwachungsstation Weil am Rhein (RÜS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1609' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4240
+		"id": 4240,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Medikamentenkonsum",
@@ -3148,7 +3238,8 @@
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/erhebungen/sgb.html' target = '_blank'>Bundesamt für Statistik, Schweizerische Gesundheitsbefragung</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1617' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4241
+		"id": 4241,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Biodiversität der Fliessgewässer",
@@ -3182,7 +3273,8 @@
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1613' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4243
+		"id": 4243,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Organische Spurenstoffe in Gewässern",
@@ -3216,7 +3308,8 @@
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1612' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4244
+		"id": 4244,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Revitalisierungsrate Oberflächengewässer",
@@ -3251,7 +3344,8 @@
 			"<a href = 'http://www.aue.bs.ch/wasser/oberflaechengewaesser/lebensraum.html' target = '_blank'>AUE BS, Lebensraum Oberflächengewässer</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1616' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4245
+		"id": 4245,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Betriebseinheiten im Geltungsbereich der Störfallverordnung (StFV)",
@@ -3286,7 +3380,8 @@
 			"<a href = 'http://www.admin.ch/opc/de/classified-compilation/19910033/index.html' target = '_blank'>Verordnung über den Schutz vor Störfällen (Störfallverordnung, StFV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-14-1401' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4246
+		"id": 4246,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Störfälle und Ereignisse",
@@ -3321,7 +3416,8 @@
 			"<a href = 'http://www.kantonslabor.bs.ch/umwelt/anlagensicherheit.html' target = '_blank'>Störfallvorsorge BS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-14-1403' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4247
+		"id": 4247,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bodennutzung",
@@ -3356,7 +3452,8 @@
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target = '_blank'>Arealstatistik Schweiz (Methode)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0506' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4249
+		"id": 4249,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nutzung der landwirtschaftlichen Nutzfläche",
@@ -3391,7 +3488,8 @@
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/land-forstwirtschaft/landwirtschaft.html' target = '_blank'>Landwirtschaftliche Strukturerhebung (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0507' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4250
+		"id": 4250,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gewicht der Landwirtschaftsmaschinen",
@@ -3426,7 +3524,8 @@
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/themen/11/03/blank/02.html' target = '_blank'>Strassenfahrzeugbestand (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0505' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4252
+		"id": 4252,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bodenversiegelung",
@@ -3461,7 +3560,8 @@
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target = '_blank'>Arealstatistik Schweiz (Methode)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0502' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4253
+		"id": 4253,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Landwirtschaftliche Nutzfläche",
@@ -3496,7 +3596,8 @@
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/land-forstwirtschaft/landwirtschaft.html' target = '_blank'>Landwirtschaftliche Strukturerhebung (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0503' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4254
+		"id": 4254,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Siedlungsfläche",
@@ -3531,7 +3632,8 @@
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target = '_blank'>Arealstatistik Schweiz (Methode)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0501' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4255
+		"id": 4255,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Aktiv begleitete Sanierungen",
@@ -3566,7 +3668,8 @@
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983151/index.html' target = '_blank'>Altlasten-Verordnung (SR 814.680)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0207' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4257
+		"id": 4257,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Belastete Standorte nach ihrer altlastenrechtlichen Bewertung",
@@ -3601,7 +3704,8 @@
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?instance=default&language=de&theme=186' target = '_blank'>Kataster der belasteten Standorte im Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0205' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4258
+		"id": 4258,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Abgeschlossene Sanierungen",
@@ -3636,7 +3740,8 @@
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983151/index.html' target = '_blank'>Altlasten-Verordnung (SR 814.680)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0206' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4259
+		"id": 4259,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Belastete Standorte",
@@ -3671,7 +3776,8 @@
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?instance=default&language=de&theme=186' target = '_blank'>Kataster der belasteten Standorte im Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0204' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4260
+		"id": 4260,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Altlastenrechtlich beurteilte Baugesuche",
@@ -3706,7 +3812,8 @@
 			"<a href = 'http://www.aue.bs.ch/altlasten-boden/bauen-auf-belasteten-standorten.html' target = '_blank'>Kanton Basel-Stadt: Bauen auf belasteten Standorten</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0208' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4261
+		"id": 4261,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Unbeabsichtigte Freisetzung von gentechnisch veränderten Organismen",
@@ -3741,7 +3848,8 @@
 			"<a href = 'http://www.kantonslabor.bs.ch/berichte/jahresberichte.html' target = '_blank'>Jahresberichte Kantonales Laboratorium Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0403' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4262
+		"id": 4262,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Hochsicherheitslaboratorien in Biotechnologiebetrieben",
@@ -3776,7 +3884,8 @@
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=67&nodefault&layers=stadtplan_grau_osm_25000,gefkatasterex' target = '_blank'>Gefahrenkataster BS (Kataster der Störfallverordnung)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0401' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4263
+		"id": 4263,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beanstandungen bei Inspektionen",
@@ -3811,7 +3920,8 @@
 			"<a href = 'http://www.kantonslabor.bs.ch/umwelt/anlagensicherheit/biosicherheit.html' target = '_blank'>Kantonales Laboratorium Basel-Stadt, Biosicherheit</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0404' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4264
+		"id": 4264,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Tätigkeiten mit gentechnisch veränderten und pathogenen Organismen",
@@ -3846,7 +3956,8 @@
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/20100803/201506010000/814.912.pdf' target = '_blank'>Einschliessungsverordnung (ESV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0402' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4265
+		"id": 4265,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Fluglärm",
@@ -3882,7 +3993,8 @@
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19860372/index.html#app5' target = '_blank'>Lärmschutz-Verordnung (LSV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1005' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4266
+		"id": 4266,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Lärmreklamationen",
@@ -3918,7 +4030,8 @@
 			"<a href = 'http://www.aue.bs.ch/laerm/laermsorgen.html' target = '_blank'>Beschwerdeformular Lärmbelästigung Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1003' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4267
+		"id": 4267,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Eingebaute Schallschutzfenster",
@@ -3954,7 +4067,8 @@
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19860372/index.html' target = '_blank'>Lärmschutz-Verordnung (LSV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1004' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4268
+		"id": 4268,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Lärmbelastete Personen",
@@ -3989,7 +4103,8 @@
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=19&cps=2612411.74,1267773.51,25000&nodefault&layers=stadtplan_grau_osm_25000,strlaermtag' target = '_blank'>Strassenlärmkataster BS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1002' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4269
+		"id": 4269,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Lärmmindernder Strassenbelag",
@@ -4023,7 +4138,8 @@
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1008' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4270
+		"id": 4270,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Stickoxid-Emissionen",
@@ -4060,7 +4176,8 @@
 			"<a href = 'http://www.bafu.admin.ch/luft/00585/10763/index.html?lang=de' target = '_blank'>Informationen zu Stickoxiden (BAFU)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1101' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4272
+		"id": 4272,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Emissionen flüchtiger organischer Verbindungen (VOC)",
@@ -4097,7 +4214,8 @@
 			"<a href = 'http://www.bafu.admin.ch/luft/index.html?lang=de' target = '_blank'>BAFU: Informationen zum Thema Luft</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1102' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4273
+		"id": 4273,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Feinstaub-Emissionen (PM10)",
@@ -4134,7 +4252,8 @@
 			"<a href = 'http://www.bafu.admin.ch/luft/index.html?lang=de' target = '_blank'>BAFU: Informationen zum Thema Luft</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1103' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4274
+		"id": 4274,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Langzeitbelastungsindex",
@@ -4173,7 +4292,8 @@
 			"<a href = 'http://www.bafu.admin.ch/luft/index.html?lang=de' target = '_blank'>BAFU: Informationen zum Thema Luft</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1104' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4275
+		"id": 4275,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Rindviehbestand",
@@ -4208,7 +4328,8 @@
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/lb/01.html' target = '_blank'>Landwirtschaftliche Betriebsstrukturerhebung BFS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1105' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4276
+		"id": 4276,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Handlungsbedarf Luftschadstoffe",
@@ -4244,7 +4365,8 @@
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1108' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4277
+		"id": 4277,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Feinstaub-Immissionen",
@@ -4280,7 +4402,8 @@
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1109' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4278
+		"id": 4278,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Grenzwertüberschreitungen Ozon",
@@ -4316,7 +4439,8 @@
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1110' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4279
+		"id": 4279,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gesundheitskosten der Luftverschmutzung",
@@ -4353,7 +4477,8 @@
 			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung' target = '_blank'>Lufthygieneamt beider Basel: Luftreinhalteplan beider Basel 2016</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1107' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4280
+		"id": 4280,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Stickstoffdioxid-Immissionen",
@@ -4389,7 +4514,8 @@
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1111' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4281
+		"id": 4281,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nutzungsdruck",
@@ -4423,7 +4549,8 @@
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1508' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4283
+		"id": 4283,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Biotopwert",
@@ -4458,7 +4585,8 @@
 			"<a href = 'https://www.lfi.ch/index.php' target = '_blank'>Schweizerisches Landesforstinventar (LFI)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1509' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4284
+		"id": 4284,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Stickstoffeintrag Wald",
@@ -4493,7 +4621,8 @@
 			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung' target = '_blank'>Luftreinhalteplan beider Basel</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1505' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4285
+		"id": 4285,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zwangsnutzungen",
@@ -4527,7 +4656,8 @@
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1506' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4287
+		"id": 4287,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Waldreservate",
@@ -4562,7 +4692,8 @@
 			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/landw-zentrum-ebenrain/natur/naturschutz/naturschutz-im-wald' target = '_blank'>Naturschutz im Wald (LZE)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1511' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4288
+		"id": 4288,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Waldrandpflege",
@@ -4597,7 +4728,8 @@
 			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/landw-zentrum-ebenrain/natur/naturschutz/naturschutz-im-wald' target = '_blank'>Naturschutz im Wald (LZE)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1514' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4290
+		"id": 4290,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gepflegte Jungwaldfläche",
@@ -4631,7 +4763,8 @@
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1512' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4291
+		"id": 4291,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "In der Luft stabile Stoffe in Kälte- und Wärmepumpenanlagen",
@@ -4666,7 +4799,8 @@
 			"<a href = 'http://www.admin.ch/opc/de/classified-compilation/20021520/index.html#app30' target = '_blank'>Chemikalien-Risikoreduktions-Verordnung (ChemRRV), Anhang 2.10 - Kältemittel</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-13-1301' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4292
+		"id": 4292,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ozonschichtabbauende Stoffe in Kälteanlagen",
@@ -4701,7 +4835,8 @@
 			"<a href = 'http://www.admin.ch/opc/de/classified-compilation/20021520/index.html#app30' target = '_blank'>Chemikalien-Risikoreduktions-Verordnung (ChemRRV), Anhang 2.10 - Kältemittel</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-13-1303' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4293
+		"id": 4293,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ozonschichtabbauende Stoffe (Halone) in Löschanlagen",
@@ -4736,7 +4871,8 @@
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/20021520/index.html#app31' target = '_blank'>Chemikalien-Risikoreduktions-Verordnung (ChemRRV), Anhang 2.11 - Löschmittel</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-13-1304' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4294
+		"id": 4294,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Elektroautos",
@@ -4771,7 +4907,8 @@
 			"<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0805' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4298
+		"id": 4298,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen",
@@ -4806,7 +4943,8 @@
 			"<a href = 'http://www.bafu.admin.ch/klima/index.html?lang=de' target = '_blank'>Bundesamt für Umwelt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0808' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4299
+		"id": 4299,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Hitzetage",
@@ -4840,7 +4978,8 @@
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4300
+		"id": 4300,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Jahresmitteltemperatur",
@@ -4875,7 +5014,8 @@
 			"<a href = 'http://www.klimabasel.ch/' target = '_blank'>Meteorologischer Verein der Region Basel</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0803' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4301
+		"id": 4301,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen Neuzulassungen",
@@ -4910,7 +5050,8 @@
 			"<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0806' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4302
+		"id": 4302,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Strukturen der Fliessgewässer",
@@ -4945,7 +5086,8 @@
 			"<a href = 'http://www.modul-stufen-konzept.ch/fg/index' target = '_blank'>Modul-Stufen-Konzept</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1608' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4303
+		"id": 4303,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Kantonale Unterschutzstellungen",
@@ -4980,7 +5122,8 @@
 			"<a href = 'http://www.stadtgaertnerei.bs.ch/oekologische-verantwortung/naturschutzkonzept.html' target = '_blank'>Naturschutz BS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-03-0301' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4305
+		"id": 4305,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Invasive gebietsfremde Arten",
@@ -5015,7 +5158,8 @@
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19920136/index.html' target = '_blank'>Übereinkommen über die Biologische Vielfalt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-03-0302' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4306
+		"id": 4306,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Biodiversitätsförderflächen in der Landwirtschaft",
@@ -5049,7 +5193,8 @@
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-03-0305' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4307
+		"id": 4307,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Landschaftszerschneidung",
@@ -5084,7 +5229,8 @@
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/publikationen.assetdetail.344054.html' target = '_blank'>Landschaftszerschneidung Schweiz</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-03-0303' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4308
+		"id": 4308,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bauzonenflächenbeanspruchung",
@@ -5118,7 +5264,8 @@
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-09-0902' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4309
+		"id": 4309,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Freiheitsgrad",
@@ -5153,7 +5300,8 @@
 			"<a href = 'http://www.planungsamt.bs.ch/planungsgrundlagen-konzepte/konzepte/freiraumkonzept.html' target = '_blank'>Freiraumkonzept BS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-09-0903' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4310
+		"id": 4310,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Fläche der Bauzone",
@@ -5189,7 +5337,8 @@
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=20' target = '_blank'>Zonenplan BS (GeoViewer)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-09-0901' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4312
+		"id": 4312,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Hochwasser",
@@ -5225,7 +5374,8 @@
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=320' target = '_blank'>Gefahrenkarte Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0702' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4314
+		"id": 4314,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Investitionen in den Schutz vor Naturgefahren",
@@ -5259,7 +5409,8 @@
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0704' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4315
+		"id": 4315,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gebäudeschäden durch Hochwasser und Rutschungen",
@@ -5295,7 +5446,8 @@
 			"<a href = 'http://www.gesetzessammlung.bs.ch/frontend/versions/3977' target = '_blank'>Gebäudeversicherungsgesetz Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0705' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4316
+		"id": 4316,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerung",
@@ -5331,7 +5483,8 @@
 			"<a href = 'http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Einwohner: Zentrale Begriffe BS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1702' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4318
+		"id": 4318,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Verkehrsleistungsindex",
@@ -5366,7 +5519,8 @@
 			"<a href = 'http://www.medienmitteilungen.bs.ch/verkehrspolitisches_leitbild_juni_2015.pdf' target = '_blank'>Verkehrspolitisches Leitbild und Massnahmenplan, Juni 2015</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1705' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4319
+		"id": 4319,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wohnfläche",
@@ -5401,7 +5555,8 @@
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/bau-wohnungswesen/wohnungen/wohnverhaeltnisse.html' target = '_blank'>Wohnverhältnisse Schweiz (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1703' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4320
+		"id": 4320,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Stromverbrauch pro Einwohner",
@@ -5436,7 +5591,8 @@
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0607' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4321
+		"id": 4321,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Stromverbrauch nach Produktionsart",
@@ -5471,7 +5627,8 @@
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0613' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4322
+		"id": 4322,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bruttoinlandprodukt",
@@ -5507,7 +5664,8 @@
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/volkswirtschaft/erhebungen/bipkt.html' target = '_blank'>BIP der Kantone (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1701' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4323
+		"id": 4323,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Motorfahrzeuge",
@@ -5542,7 +5700,8 @@
 			"<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1704' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4325
+		"id": 4325,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Erdbebenertüchtigung von Bauwerken",
@@ -5577,7 +5736,8 @@
 			"<a href = 'https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/fachinformationen-erdbeben/schutz-vor-erdbeben/erdbebengerechtes-bauen/erdbebensichere-neubauten.html' target = '_blank'>Erdbebensichere Neubauten (BAFU)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0703' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4329
+		"id": 4329,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Auf Deponien abgelagerte Abfälle",
@@ -5611,7 +5771,8 @@
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0106' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4330
+		"id": 4330,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Recyclingquote",
@@ -5646,7 +5807,8 @@
 			"<a href = 'http://www.aue.bs.ch/abfaelle.html' target = '_blank'>Amt für Umwelt und Energie Basel-Stadt: Abfälle</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0102' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4331
+		"id": 4331,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bauabfälle",
@@ -5681,7 +5843,8 @@
 			"<a href = 'http://www.aue.bs.ch/abfaelle/industrie-gewerbe/bauabfaelle.html' target = '_blank'>Bauabfälle (Kanton Basel-Stadt)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0108' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4332
+		"id": 4332,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sonderabfälle",
@@ -5716,7 +5879,8 @@
 			"<a href = 'http://www.aue.bs.ch/abfaelle/industrie-gewerbe/bauabfaelle.html' target = '_blank'>Bauabfälle (Kanton Basel-Stadt)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0109' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4333
+		"id": 4333,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Abfallverbrennung",
@@ -5751,7 +5915,8 @@
 			"<a href = 'https://www.iwb.ch/Ueber-uns/Kehrichtverwertung.html' target = '_blank'>KVA Basel (IWB)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0104' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4334
+		"id": 4334,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Deponierte Klärschlammasche",
@@ -5785,7 +5950,8 @@
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0107' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4335
+		"id": 4335,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Verbrennungsrückstände",
@@ -5820,7 +5986,8 @@
 			"<a href = 'https://www.iwb.ch/Ueber-uns/Kehrichtverwertung/Alles-ueber-die-KVA.html' target = '_blank'>KVA Basel (IWB): Reststoffentsorgung</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0105' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4336
+		"id": 4336,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Siedlungsabfälle",
@@ -5855,7 +6022,8 @@
 			"<a href = 'http://www.aue.bs.ch/abfaelle.html' target = '_blank'>Amt für Umwelt und Energie Basel-Stadt: Abfälle</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0101' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4337
+		"id": 4337,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Abgebrochene Bruttogeschossfläche",
@@ -5890,7 +6058,8 @@
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/9-bau-wohnungswesen.html' target = '_blank'>Bau- und Wohnungswesen BS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0103' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4338
+		"id": 4338,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Ausländer nach Art der Bewilligung seit 2006",
@@ -5924,7 +6093,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4339
+		"id": 4339,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wasserabfluss via ARA",
@@ -5960,7 +6130,8 @@
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4348
+		"id": 4348,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ablauffracht nach ARA",
@@ -5996,7 +6167,8 @@
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4350
+		"id": 4350,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Erneuerbarer Strom",
@@ -6032,7 +6204,8 @@
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4352
+		"id": 4352,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Brutvogelindex",
@@ -6066,7 +6239,8 @@
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4355
+		"id": 4355,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Umbau- und Unterhaltsarbeiten",
@@ -6100,7 +6274,8 @@
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4356
+		"id": 4356,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschäftigte in Branchen mit hoher Arbeitsproduktivität",
@@ -6135,7 +6310,8 @@
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4359
+		"id": 4359,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Qualifikationsniveau",
@@ -6169,7 +6345,8 @@
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4360
+		"id": 4360,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nettoverschuldungsquotient",
@@ -6203,7 +6380,8 @@
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4361
+		"id": 4361,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Verkehrsberuhigte Zonen",
@@ -6237,7 +6415,8 @@
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4364
+		"id": 4364,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Einbruchdiebstähle",
@@ -6273,7 +6452,8 @@
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4367
+		"id": 4367,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Familienergänzendes Kinderbetreuungsangebot",
@@ -6308,7 +6488,8 @@
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4374
+		"id": 4374,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014",
@@ -6342,7 +6523,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4462
+		"id": 4462,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zu Hause gesprochene Sprachen",
@@ -6377,7 +6559,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4463
+		"id": 4463,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Erhaltenene Hilfeleistungen",
@@ -6411,7 +6594,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4716
+		"id": 4716,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Erhaltene materielle Hilfeleistungen",
@@ -6445,7 +6629,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4718
+		"id": 4718,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
@@ -6479,7 +6664,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4719
+		"id": 4719,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung des Wohnorts",
@@ -6513,7 +6699,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4720
+		"id": 4720,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung des Wohnquartiers",
@@ -6547,7 +6734,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4721
+		"id": 4721,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
@@ -6584,7 +6772,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4722
+		"id": 4722,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
@@ -6621,7 +6810,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4724
+		"id": 4724,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sozialhilfequote",
@@ -6659,7 +6849,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4822
+		"id": 4822,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Ausländer",
@@ -6697,7 +6888,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4823
+		"id": 4823,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Personen ohne Religionszugehörigkeit",
@@ -6735,7 +6927,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4824
+		"id": 4824,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
@@ -6774,7 +6967,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4825
+		"id": 4825,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gymnasialquote",
@@ -6812,7 +7006,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4826
+		"id": 4826,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Altersquotient",
@@ -6851,7 +7046,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4827
+		"id": 4827,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sesshaftigkeit",
@@ -6889,7 +7085,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4828
+		"id": 4828,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Jugendquotient",
@@ -6927,7 +7124,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4829
+		"id": 4829,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Baujahr Wohngebäude",
@@ -6965,7 +7163,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4830
+		"id": 4830,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Einfamilienhäuser",
@@ -7004,7 +7203,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4831
+		"id": 4831,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Grünflächen",
@@ -7043,7 +7243,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4832
+		"id": 4832,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Fläche pro Wohnung",
@@ -7082,7 +7283,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4833
+		"id": 4833,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
@@ -7123,7 +7325,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4834
+		"id": 4834,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
@@ -7162,7 +7365,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4835
+		"id": 4835,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
@@ -7200,7 +7404,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4836
+		"id": 4836,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Erwerbstätigenquote",
@@ -7239,7 +7444,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4837
+		"id": 4837,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
@@ -7277,7 +7483,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4838
+		"id": 4838,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitslosenquote",
@@ -7317,7 +7524,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4839
+		"id": 4839,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Unterstützung von Freunden oder Nachbarn",
@@ -7351,7 +7559,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4848
+		"id": 4848,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung des Verhältnisses zur Nachbarschaft",
@@ -7385,7 +7594,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4849
+		"id": 4849,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zusammensetzung des Freundeskreises",
@@ -7421,7 +7631,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4850
+		"id": 4850,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
@@ -7455,7 +7666,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4851
+		"id": 4851,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sicherheitsgefühl im Alltag",
@@ -7489,7 +7701,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4852
+		"id": 4852,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bedrohungen und Angriffe",
@@ -7523,7 +7736,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4853
+		"id": 4853,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sicherheitsgefühl nachts im Quartier",
@@ -7557,7 +7771,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4854
+		"id": 4854,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung des Ausländeranteils",
@@ -7591,7 +7806,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4855
+		"id": 4855,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
@@ -7625,7 +7841,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4856
+		"id": 4856,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der Schulen in Basel-Stadt",
@@ -7659,7 +7876,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4857
+		"id": 4857,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der Chancengleichheit",
@@ -7693,7 +7911,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4858
+		"id": 4858,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der kantonalen Verwaltung",
@@ -7729,7 +7948,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4859
+		"id": 4859,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der kantonalen Steuern",
@@ -7765,7 +7985,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4860
+		"id": 4860,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der eigenen wirtschaftlichen Situation",
@@ -7799,7 +8020,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4861
+		"id": 4861,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der Bildungschancen",
@@ -7833,7 +8055,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4862
+		"id": 4862,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Steuerveranlagungen mit Zuwendungen",
@@ -7867,7 +8090,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4863
+		"id": 4863,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Freiwillige Tätigkeit",
@@ -7901,7 +8125,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4864
+		"id": 4864,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
@@ -7935,7 +8160,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4865
+		"id": 4865,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren",
@@ -7970,7 +8196,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4866
+		"id": 4866,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
@@ -8005,7 +8232,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4867
+		"id": 4867,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl/-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren",
@@ -8040,7 +8268,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4868
+		"id": 4868,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
@@ -8075,7 +8304,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4869
+		"id": 4869,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Engagement in Organisationen und Vereinen",
@@ -8111,7 +8341,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4870
+		"id": 4870,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wahlbeteiligung an National- und Grossratswahlen",
@@ -8147,7 +8378,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4871
+		"id": 4871,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Interesse an der Politik in Basel-Stadt",
@@ -8181,7 +8413,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4872
+		"id": 4872,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Politikinteresse der über 54-Jährigen",
@@ -8215,7 +8448,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4874
+		"id": 4874,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
@@ -8249,7 +8483,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4875
+		"id": 4875,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bruttowertschöpfung nach Branchengruppe",
@@ -8284,7 +8519,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4908
+		"id": 4908,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Jahresmittel Basler Index der Konsumentenpreise",
@@ -8320,7 +8556,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4909
+		"id": 4909,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittlere Jahresteuerung Basel-Stadt und Schweiz",
@@ -8356,7 +8593,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4911
+		"id": 4911,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Betreibungen seit 1974",
@@ -8390,7 +8628,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4912
+		"id": 4912,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wert der Ein- und Ausfuhren nach resp. aus Basel-Stadt",
@@ -8425,7 +8664,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4913
+		"id": 4913,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Landwirtschaftliche Nutzfläche und Anzahl Landwirtschaftsbetriebe",
@@ -8459,7 +8699,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4914
+		"id": 4914,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Privater Motorisierungsgrad",
@@ -8498,7 +8739,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4917
+		"id": 4917,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Private Personenwagen pro Haushalt",
@@ -8539,7 +8781,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4918
+		"id": 4918,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Grundpfandbelastung",
@@ -8574,7 +8817,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4919
+		"id": 4919,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung des Frauenanteils im grossen Rat",
@@ -8610,7 +8854,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4922
+		"id": 4922,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Gewaltstraftaten pro 100000 Einwohner",
@@ -8644,7 +8889,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4923
+		"id": 4923,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gedanken über die Arbeitsstelle",
@@ -8678,7 +8924,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4931
+		"id": 4931,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gründe für Gedanken über die Arbeitsstelle",
@@ -8712,7 +8959,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4932
+		"id": 4932,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Politikinteresse der unter 30-Jährigen",
@@ -8746,7 +8994,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4933
+		"id": 4933,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Hospitalisierungen in baselstädtischen Spitälern nach Hauptbereich",
@@ -8781,7 +9030,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4947
+		"id": 4947,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Pflegetage in baselstädtischen Spitälern nach Hauptbereich",
@@ -8816,7 +9066,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4948
+		"id": 4948,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner",
@@ -8852,7 +9103,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5033
+		"id": 5033,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Neugründungen in Basel-Stadt",
@@ -8889,7 +9141,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5041
+		"id": 5041,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bezüger von Prämienverbilligungen",
@@ -8927,7 +9180,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5066
+		"id": 5066,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sozialhilfequote",
@@ -8963,7 +9217,8 @@
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=soz_sozhilfe.soz_quote' target='_blank'>Basler Atlas</a>."
 		],
-		"id": 5109
+		"id": 5109,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Ausländer",
@@ -8999,7 +9254,8 @@
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevheim.anteil_al' target='_blank'>Basler Atlas</a>."
 		],
-		"id": 5110
+		"id": 5110,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Personen ohne Religionszugehörigkeit",
@@ -9035,7 +9291,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5111
+		"id": 5111,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
@@ -9072,7 +9329,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5112
+		"id": 5112,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Gymnasialquote",
@@ -9108,7 +9366,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5113
+		"id": 5113,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Altersquotient",
@@ -9145,7 +9404,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5114
+		"id": 5114,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Sesshaftigkeit",
@@ -9181,7 +9441,8 @@
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevsess.anteil_sess10' target='_blank'>Basler Atlas</a>."
 		],
-		"id": 5115
+		"id": 5115,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Jugendquotient",
@@ -9217,7 +9478,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5116
+		"id": 5116,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Baujahr Wohngebäude",
@@ -9253,7 +9515,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5117
+		"id": 5117,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Einfamilienhäuser",
@@ -9290,7 +9553,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5118
+		"id": 5118,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Grünflächen",
@@ -9327,7 +9591,8 @@
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=ru_gruen.gruenflaeche_ant' target='_blank'>Basler Atlas</a>."
 		],
-		"id": 5119
+		"id": 5119,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Fläche pro Wohnung",
@@ -9364,7 +9629,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5120
+		"id": 5120,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
@@ -9402,7 +9668,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5121
+		"id": 5121,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
@@ -9439,7 +9706,8 @@
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_ver.vermoegen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
 		],
-		"id": 5122
+		"id": 5122,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
@@ -9475,7 +9743,8 @@
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_eink.einkommen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
 		],
-		"id": 5123
+		"id": 5123,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Erwerbstätigenquote",
@@ -9512,7 +9781,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5124
+		"id": 5124,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
@@ -9548,7 +9818,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5125
+		"id": 5125,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Arbeitslosenquote",
@@ -9586,7 +9857,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5126
+		"id": 5126,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Privater Motorisierungsgrad",
@@ -9623,7 +9895,8 @@
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=11_fahrzeuge.11_motorisierungsgrad' target='_blank'>Basler Atlas</a>."
 		],
-		"id": 5130
+		"id": 5130,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Private Personenwagen pro Haushalt",
@@ -9660,7 +9933,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5131
+		"id": 5131,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
@@ -9694,7 +9968,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5138
+		"id": 5138,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerungspyramide am Jahresende",
@@ -9728,7 +10003,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5142
+		"id": 5142,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Altersquotient",
@@ -9762,7 +10038,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5144
+		"id": 5144,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Jugendquotient",
@@ -9796,7 +10073,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5147
+		"id": 5147,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Saldo aus Geburten und Todesfällen",
@@ -9830,7 +10108,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5148
+		"id": 5148,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Geburtenziffer nach Staatsangehörigkeit",
@@ -9864,7 +10143,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5149
+		"id": 5149,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
@@ -9898,7 +10178,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5155
+		"id": 5155,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wanderungen: Schweizer",
@@ -9932,7 +10213,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5156
+		"id": 5156,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wanderungen: Ausländer",
@@ -9966,7 +10248,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5157
+		"id": 5157,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nettoschuldenquote und Nettoschulden pro Kopf",
@@ -10001,7 +10284,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5160
+		"id": 5160,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -10035,7 +10319,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5161
+		"id": 5161,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
@@ -10070,7 +10355,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5162
+		"id": 5162,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bewertung der Lebensqualität",
@@ -10104,7 +10390,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5165
+		"id": 5165,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
@@ -10142,7 +10429,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5178
+		"id": 5178,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Lebenserwartung bei Geburt",
@@ -10176,7 +10464,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5180
+		"id": 5180,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Empfundene gesundheitliche Verfassung",
@@ -10210,7 +10499,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5181
+		"id": 5181,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Übergewichtige Kinder",
@@ -10244,7 +10534,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5182
+		"id": 5182,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
@@ -10279,7 +10570,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5183
+		"id": 5183,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sozialhilfequote nach Altersgruppe",
@@ -10314,7 +10606,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5184
+		"id": 5184,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
@@ -10349,7 +10642,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5185
+		"id": 5185,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Strassenverkehrsunfälle und verunfallte Personen",
@@ -10383,7 +10677,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5186
+		"id": 5186,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
@@ -10417,7 +10712,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5188
+		"id": 5188,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Störfälle und Ereignisse",
@@ -10452,7 +10748,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5189
+		"id": 5189,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Höchste abgeschlossene Ausbildung",
@@ -10486,7 +10783,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5191
+		"id": 5191,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Besuchte Weiterbildungen und Kurse in den letzten zwölf Monaten",
@@ -10520,7 +10818,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5192
+		"id": 5192,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Staatsausgaben für Kultur und Freizeit",
@@ -10554,7 +10853,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5193
+		"id": 5193,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Besuche in Theater, Kinos und Museen",
@@ -10590,7 +10890,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5194
+		"id": 5194,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
@@ -10625,7 +10926,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5195
+		"id": 5195,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mietpreisindex",
@@ -10659,7 +10961,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5196
+		"id": 5196,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Übermässig mit Lärm belastete Wohnbevölkerung",
@@ -10693,7 +10996,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5197
+		"id": 5197,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Grünfläche pro Kopf nach Wohnviertel",
@@ -10728,7 +11032,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5198
+		"id": 5198,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ausgaben für Umbau- und Unterhaltsarbeiten",
@@ -10762,7 +11067,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5199
+		"id": 5199,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerungsdichte",
@@ -10798,7 +11104,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5201
+		"id": 5201,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerungsdichte",
@@ -10834,7 +11141,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5202
+		"id": 5202,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
@@ -10872,7 +11180,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5203
+		"id": 5203,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ökologischer Fussabdruck der Schweiz",
@@ -10907,7 +11216,8 @@
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/oekologischer-fussabdruck.html' target = '_blank'>Bundesamt für Statistik: Der ökologische Fussabdruck der Schweiz</a>",
 			"Aktuelle Daten des <a href = 'http://data.footprintnetwork.org/#/countryTrends?cn=211&type=BCpc,EFCpc' target = '_blank'>Global Footprint Network</a>"
 		],
-		"id": 5793
+		"id": 5793,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
@@ -10941,7 +11251,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5794
+		"id": 5794,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil erneuerbarer Energien am Bruttoenergieverbrauch",
@@ -10975,7 +11286,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5795
+		"id": 5795,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
@@ -11010,7 +11322,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5796
+		"id": 5796,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nachhaltige Holznutzung",
@@ -11045,7 +11358,8 @@
 			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-wald/wald/waldentwicklung' target = '_blank'>Waldplanung (Amt für Wald beider Basel)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1504' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 5797
+		"id": 5797,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Waldfläche",
@@ -11080,7 +11394,8 @@
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target = '_blank'>Arealstatistik Schweiz (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1501' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 5798
+		"id": 5798,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil biologisch bewirtschafteter Landwirtschaftsfläche",
@@ -11115,7 +11430,8 @@
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/land-forstwirtschaft/erhebungen/stru.html' target = '_blank'>Landwirtschaftliche Strukturerhebung (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0511' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 5799
+		"id": 5799,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Holzernte nach Sortimenten",
@@ -11150,7 +11466,8 @@
 			"Mehr unter: <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/land-forstwirtschaft/erhebungen/fs.html' target = '_blank'>Schweizerische Forststatistik (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1503' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 5800
+		"id": 5800,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Leerwohnungsquote",
@@ -11185,7 +11502,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5813
+		"id": 5813,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
@@ -11220,7 +11538,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5814
+		"id": 5814,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -11255,7 +11574,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5815
+		"id": 5815,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nettowohnungsproduktion",
@@ -11291,7 +11611,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5816
+		"id": 5816,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nettowohnungsproduktion",
@@ -11327,7 +11648,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5817
+		"id": 5817,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
@@ -11363,7 +11685,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5818
+		"id": 5818,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
@@ -11399,7 +11722,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5819
+		"id": 5819,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bewertung der Lebensqualität",
@@ -11437,7 +11761,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5821
+		"id": 5821,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Einwohner pro ÖV-Güteklasse",
@@ -11475,7 +11800,8 @@
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/data/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target = '_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
 			"<a href = 'https://map.geo.bs.ch/ngeodesktop?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2612508&map_y=1267331&map_zoom=2&tree_groups=G%C3%BCteklassen%20%C3%B6ffentlicher%20Verkehr&tree_group_layers_G%C3%BCteklassen%20%C3%B6ffentlicher%20Verkehr=GO_GueteklassenOeV' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
 		],
-		"id": 5822
+		"id": 5822,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschäftigtendichte",
@@ -11512,7 +11838,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5823
+		"id": 5823,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
@@ -11548,7 +11875,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5825
+		"id": 5825,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Kontinentale Erreichbarkeit",
@@ -11586,7 +11914,8 @@
 			"Weiterführende Informationen <a href = 'https://www.bak-economics.com/en/solutions/regional-analysis/region-international/location-factors/erreichbarkeit/' target = '_blank'>BAK Economics</a>, und",
 			"<a href = 'http://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/erreichbarkeit.html' target = '_blank'>Amt für Mobilität</a>"
 		],
-		"id": 5891
+		"id": 5891,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
@@ -11623,7 +11952,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5901
+		"id": 5901,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Verkehrsleistungsindex",
@@ -11659,7 +11989,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6007
+		"id": 6007,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
@@ -11696,7 +12027,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6011
+		"id": 6011,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
@@ -11732,7 +12064,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6012
+		"id": 6012,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland",
@@ -11768,7 +12101,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6013
+		"id": 6013,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland, bei denen die Staatsangehörigkeit dem Zuzugsland entspricht",
@@ -11804,7 +12138,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6016
+		"id": 6016,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland und Geschlecht",
@@ -11840,7 +12175,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6017
+		"id": 6017,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",
@@ -11876,7 +12212,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6018
+		"id": 6018,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
@@ -11912,7 +12249,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6019
+		"id": 6019,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
@@ -11949,7 +12287,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6021
+		"id": 6021,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
@@ -11986,7 +12325,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6022
+		"id": 6022,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Zugezogene, Weggezogene und Wanderungssaldo",
@@ -12022,7 +12362,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6023
+		"id": 6023,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der aus dem Ausland Zugezogenen",
@@ -12058,7 +12399,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6024
+		"id": 6024,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
@@ -12095,7 +12437,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6025
+		"id": 6025,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
@@ -12129,7 +12472,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6026
+		"id": 6026,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Kopf",
@@ -12164,7 +12508,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6027
+		"id": 6027,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteile der Verkehrsmittel",
@@ -12198,7 +12543,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6028
+		"id": 6028,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Luftqualität: Langzeitbelastung der Luft",
@@ -12232,7 +12578,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6029
+		"id": 6029,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wasserqualität: AOX-Konzentration",
@@ -12266,7 +12613,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6030
+		"id": 6030,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen",
@@ -12301,7 +12649,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6031
+		"id": 6031,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Hitzetage",
@@ -12335,7 +12684,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6033
+		"id": 6033,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
@@ -12369,7 +12719,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6034
+		"id": 6034,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sicherheitsgefühl im Alltag",
@@ -12403,7 +12754,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6035
+		"id": 6035,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
@@ -12437,7 +12789,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6036
+		"id": 6036,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Verhältnis der Löhne von Frauen und Männern",
@@ -12475,7 +12828,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6037
+		"id": 6037,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Übertritte nach der obligatorischen Schulzeit",
@@ -12509,7 +12863,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6039
+		"id": 6039,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Freiwillige Tätigkeit",
@@ -12543,7 +12898,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6040
+		"id": 6040,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beteiligung der Bevölkerung an Freiwilligenarbeit",
@@ -12577,7 +12933,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6041
+		"id": 6041,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wahlbeteiligung an National- und Grossratswahlen",
@@ -12611,7 +12968,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6042
+		"id": 6042,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
@@ -12645,7 +13003,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6043
+		"id": 6043,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung des Frauenanteils im grossen Rat",
@@ -12681,7 +13040,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6044
+		"id": 6044,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bruttoinlandprodukt in Franken pro Einwohner",
@@ -12715,7 +13075,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6045
+		"id": 6045,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Beschäftigte nach Sektor",
@@ -12749,7 +13110,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6046
+		"id": 6046,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Branchenanteile an der nominalen Wertschöpfung",
@@ -12783,7 +13145,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6047
+		"id": 6047,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil der Beschäftigten in innovativen Branchen",
@@ -12817,7 +13180,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6048
+		"id": 6048,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Aufwendungen für Forschung und Entwicklung",
@@ -12851,7 +13215,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6049
+		"id": 6049,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
@@ -12885,7 +13250,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6050
+		"id": 6050,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entkopplung von Wachstum und Umweltverbrauch",
@@ -12921,7 +13287,8 @@
 		"externalLinks": [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/oekologischer-fussabdruck.html' target = '_blank'>Bundesamt für Statistik: Der ökologische Fussabdruck der Schweiz</a>"
 		],
-		"id": 6051
+		"id": 6051,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nettoerwerbstätigenquote nach Geschlecht und Heimat",
@@ -12955,7 +13322,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6052
+		"id": 6052,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
@@ -12989,7 +13357,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6053
+		"id": 6053,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens in Basel-Stadt",
@@ -13023,7 +13392,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6054
+		"id": 6054,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
@@ -13057,7 +13427,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6055
+		"id": 6055,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Voll- und Teilzeiterwerbstätige nach Geschlecht",
@@ -13091,7 +13462,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6056
+		"id": 6056,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ausländeranteil",
@@ -13125,7 +13497,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6057
+		"id": 6057,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerung nach Staatsangehörigkeit",
@@ -13159,7 +13532,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6058
+		"id": 6058,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Ausländer nach Staatsangehörigkeit",
@@ -13193,7 +13567,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6059
+		"id": 6059,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ausländer nach Staatsangehörigkeit",
@@ -13227,7 +13602,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6060
+		"id": 6060,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Übrige Ausländer",
@@ -13261,7 +13637,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6061
+		"id": 6061,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ausländer nach Staatsangehörigkeit und Geschlecht",
@@ -13295,7 +13672,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6062
+		"id": 6062,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Durchschnittsalter der Wohnbevölkerung",
@@ -13329,7 +13707,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6063
+		"id": 6063,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
@@ -13363,7 +13742,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6064
+		"id": 6064,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
@@ -13397,7 +13777,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6065
+		"id": 6065,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
@@ -13431,7 +13812,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6066
+		"id": 6066,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
@@ -13465,7 +13847,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6067
+		"id": 6067,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Jugendquotient nach Staatsangehörigkeit",
@@ -13499,7 +13882,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6068
+		"id": 6068,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Altersquotient nach Staatsangehörigkeit",
@@ -13533,7 +13917,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6069
+		"id": 6069,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ausländeranteil nach Alter",
@@ -13567,7 +13952,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6070
+		"id": 6070,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Ausländer nach Art der Bewilligung",
@@ -13601,7 +13987,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6071
+		"id": 6071,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ausländer nach Art der Bewilligung",
@@ -13635,7 +14022,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6072
+		"id": 6072,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Ausländer mit Niederlassungsbewilligung",
@@ -13669,7 +14057,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6073
+		"id": 6073,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Median der Aufenthaltsdauer der Ausländer",
@@ -13704,7 +14093,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6074
+		"id": 6074,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil der in der Schweiz geborenen Ausländer",
@@ -13738,7 +14128,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6075
+		"id": 6075,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Lebendgeborene nach Staatsangehörigkeit",
@@ -13772,7 +14163,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6076
+		"id": 6076,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zusammengefasste Geburtenziffer",
@@ -13806,7 +14198,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6077
+		"id": 6077,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Segregationsindex nach Staatsangehörigkeit",
@@ -13841,7 +14234,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6078
+		"id": 6078,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Veränderung des Segregationsindex",
@@ -13875,7 +14269,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6079
+		"id": 6079,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gymnasialquote nach Staatsangehörigkeit",
@@ -13910,7 +14305,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6080
+		"id": 6080,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gymnasialquote nach Staatsangehörigkeit und Geschlecht",
@@ -13945,7 +14341,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6081
+		"id": 6081,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Hochschulquote nach Staatsangehörigkeit",
@@ -13981,7 +14378,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6082
+		"id": 6082,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Hochschulquote nach Staatsangehörigkeit und Geschlecht",
@@ -14017,7 +14415,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6083
+		"id": 6083,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Lernendenquote nach Staatsangehörigkeit",
@@ -14052,7 +14451,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6084
+		"id": 6084,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Lernendenquote nach Staatsangehörigkeit und Geschlecht",
@@ -14087,7 +14487,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6085
+		"id": 6085,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Erwachsene mit höchstem Abschluss Sekundarstufe I",
@@ -14121,7 +14522,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6088
+		"id": 6088,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
@@ -14155,7 +14557,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6090
+		"id": 6090,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
@@ -14189,7 +14592,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6091
+		"id": 6091,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bruttoinlandprodukt in Franken pro Einwohner",
@@ -14226,7 +14630,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6124
+		"id": 6124,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
@@ -14263,7 +14668,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6126
+		"id": 6126,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Kantonales Wettbewerbsprofil",
@@ -14299,7 +14705,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6127
+		"id": 6127,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuereinnahmen aus Quellensteuer",
@@ -14335,7 +14742,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6128
+		"id": 6128,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "NFA-Ressourcenindex",
@@ -14371,7 +14779,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6129
+		"id": 6129,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
@@ -14407,7 +14816,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6130
+		"id": 6130,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -14449,7 +14859,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6131
+		"id": 6131,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
@@ -14487,7 +14898,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6132
+		"id": 6132,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der kantonalen Steuern",
@@ -14523,7 +14935,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6133
+		"id": 6133,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -14560,7 +14973,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6134
+		"id": 6134,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Höchste abgeschlossene Ausbildung",
@@ -14597,7 +15011,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6136
+		"id": 6136,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
@@ -14634,7 +15049,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6137
+		"id": 6137,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -14670,7 +15086,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6138
+		"id": 6138,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Aufwendungen für Forschung und Entwicklung",
@@ -14707,7 +15124,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6140
+		"id": 6140,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil der Beschäftigten in innovativen Branchen",
@@ -14745,7 +15163,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6141
+		"id": 6141,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
@@ -14779,7 +15198,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6143
+		"id": 6143,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerung nach sozioprofessioneller Kategorie",
@@ -14816,7 +15236,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6144
+		"id": 6144,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
@@ -14854,7 +15275,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6146
+		"id": 6146,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Verhältnis der Löhne von Frauen und Männern",
@@ -14889,7 +15311,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6147
+		"id": 6147,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitnehmende in Leitungsfunktionen",
@@ -14927,7 +15350,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6148
+		"id": 6148,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Einbürgerungsziffer der ausländischen Bevölkerung sowie Ausländeranteil",
@@ -14964,7 +15388,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6149
+		"id": 6149,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens",
@@ -15002,7 +15427,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6150
+		"id": 6150,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Geschlecht",
@@ -15038,7 +15464,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6151
+		"id": 6151,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Segregationsindex nach Staatsangehörigkeit",
@@ -15077,7 +15504,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6152
+		"id": 6152,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Verkehrsleistungsindex",
@@ -15116,7 +15544,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6154
+		"id": 6154,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Transit durch die Region Basel",
@@ -15152,7 +15581,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6155
+		"id": 6155,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Jährlich durch  Stau generierte Verzögerungszeit",
@@ -15188,7 +15618,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6156
+		"id": 6156,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Luftqualität: Langzeitbelastung der Luft",
@@ -15226,7 +15657,8 @@
 			"<a href = 'https://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>"
 		],
-		"id": 6157
+		"id": 6157,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen Verkehr",
@@ -15263,7 +15695,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6158
+		"id": 6158,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Übermässig mit Lärm belastete Wohnbevölkerung",
@@ -15301,7 +15734,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6159
+		"id": 6159,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
@@ -15340,7 +15774,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6160
+		"id": 6160,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
@@ -15378,7 +15813,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6161
+		"id": 6161,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
@@ -15416,7 +15852,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6163
+		"id": 6163,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wasserqualität: AOX-Konzentration",
@@ -15454,7 +15891,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6164
+		"id": 6164,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen",
@@ -15493,7 +15931,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6165
+		"id": 6165,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wassertemperatur Grundwasser",
@@ -15531,7 +15970,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6166
+		"id": 6166,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Besuche in Theater, Kinos und Museen",
@@ -15570,7 +16010,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6169
+		"id": 6169,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -15606,7 +16047,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6170
+		"id": 6170,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -15642,7 +16084,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6172
+		"id": 6172,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bezügerinnen und Bezüger von Prämienverbilligung",
@@ -15680,7 +16123,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6173
+		"id": 6173,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Stationäre Fälle in Basler Spitälern",
@@ -15716,7 +16160,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6175
+		"id": 6175,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Straftaten nach StGB pro 1000 Einwohner",
@@ -15754,7 +16199,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6176
+		"id": 6176,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Strassenverkehrsunfälle",
@@ -15791,7 +16237,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6177
+		"id": 6177,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Störfälle und Ereignisse",
@@ -15829,7 +16276,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6179
+		"id": 6179,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
@@ -15867,7 +16315,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6181
+		"id": 6181,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sozialhilfequote nach Altersgruppe",
@@ -15906,7 +16355,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6182
+		"id": 6182,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
@@ -15945,7 +16395,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6183
+		"id": 6183,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -15981,7 +16432,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6184
+		"id": 6184,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
@@ -16017,7 +16469,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6185
+		"id": 6185,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der kantonalen Verwaltung",
@@ -16053,7 +16506,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6186
+		"id": 6186,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
@@ -16089,7 +16543,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6201
+		"id": 6201,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
@@ -16125,7 +16580,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6202
+		"id": 6202,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Haushalte mit FAMI",
@@ -16160,7 +16616,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6203
+		"id": 6203,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Haushalte mit Prämienverbilligung",
@@ -16195,7 +16652,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6204
+		"id": 6204,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Kantonales BIP im Vergleich zu den Staatsausgaben",
@@ -16232,7 +16690,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6205
+		"id": 6205,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
@@ -16268,7 +16727,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6206
+		"id": 6206,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Lernende an Basler Berufsfachschulen",
@@ -16304,7 +16764,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6209
+		"id": 6209,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Plätze in Tagesbetreuungsangeboten",
@@ -16340,7 +16801,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6210
+		"id": 6210,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nettoschuldenquote und Nettoschulden pro Kopf",
@@ -16378,7 +16840,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6211
+		"id": 6211,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Alter",
@@ -16414,7 +16877,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6213
+		"id": 6213,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerung am Jahresende und Anzahl Wohnungen",
@@ -16451,7 +16915,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6214
+		"id": 6214,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
@@ -16488,7 +16953,8 @@
 		"externalLinks": [
 			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'http://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>."
 		],
-		"id": 6215
+		"id": 6215,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
@@ -16524,7 +16990,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6216
+		"id": 6216,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Leerstehende Industrie- und Gewerbeflächen",
@@ -16562,7 +17029,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6217
+		"id": 6217,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
@@ -16598,7 +17066,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6218
+		"id": 6218,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Indexierter Verlauf der Haushalte in Begegnungszonen",
@@ -16635,7 +17104,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6220
+		"id": 6220,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Einkommensklasse",
@@ -16671,7 +17141,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6228
+		"id": 6228,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Beschäftigte nach Branche",
@@ -16710,7 +17181,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6236
+		"id": 6236,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -16746,7 +17218,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6239
+		"id": 6239,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -16782,7 +17255,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6240
+		"id": 6240,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerungsdichte",
@@ -16816,7 +17290,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6242
+		"id": 6242,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerungsdichte",
@@ -16850,7 +17325,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6243
+		"id": 6243,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
@@ -16884,7 +17360,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6244
+		"id": 6244,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Leerwohnungsquote",
@@ -16918,7 +17395,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6245
+		"id": 6245,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Leerwohnungsquote",
@@ -16952,7 +17430,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6246
+		"id": 6246,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -16987,7 +17466,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6247
+		"id": 6247,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nettowohnungsproduktion",
@@ -17021,7 +17501,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6248
+		"id": 6248,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nettowohnungsproduktion",
@@ -17055,7 +17536,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6249
+		"id": 6249,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
@@ -17089,7 +17571,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6250
+		"id": 6250,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
@@ -17123,7 +17606,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6251
+		"id": 6251,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bewertung der Lebensqualität",
@@ -17158,7 +17642,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6252
+		"id": 6252,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Einwohner pro ÖV-Güteklasse",
@@ -17192,7 +17677,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6253
+		"id": 6253,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschäftigtendichte",
@@ -17226,7 +17712,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6254
+		"id": 6254,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
@@ -17260,7 +17747,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6255
+		"id": 6255,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Kontinentale Erreichbarkeit",
@@ -17294,7 +17782,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6256
+		"id": 6256,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
@@ -17329,7 +17818,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6257
+		"id": 6257,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Verkehrsleistungsindex",
@@ -17363,7 +17853,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6258
+		"id": 6258,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerung am Jahresende und Anzahl Wohnungen",
@@ -17398,7 +17889,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6259
+		"id": 6259,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
@@ -17432,7 +17924,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6260
+		"id": 6260,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
@@ -17466,7 +17959,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6261
+		"id": 6261,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Leerstehende Industrie- und Gewerbeflächen",
@@ -17500,7 +17994,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6262
+		"id": 6262,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
@@ -17534,7 +18029,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6263
+		"id": 6263,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Indexierter Verlauf der Haushalte in Begegnungszonen",
@@ -17569,7 +18065,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6264
+		"id": 6264,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Beschäftigte nach Branche",
@@ -17603,7 +18100,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6265
+		"id": 6265,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Herkunft",
@@ -17639,7 +18137,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6266
+		"id": 6266,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
@@ -17674,7 +18173,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6273
+		"id": 6273,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe",
@@ -17708,7 +18208,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6274
+		"id": 6274,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
@@ -17743,7 +18244,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6275
+		"id": 6275,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
@@ -17777,7 +18279,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6276
+		"id": 6276,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
@@ -17811,7 +18314,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6277
+		"id": 6277,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Globale und kontinentale Erreichbarkeit",
@@ -17845,7 +18349,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6278
+		"id": 6278,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner",
@@ -17879,7 +18384,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6279
+		"id": 6279,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung",
@@ -17914,7 +18420,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6281
+		"id": 6281,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bruttoinlandprodukt in Franken pro Einwohner",
@@ -17948,7 +18455,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6282
+		"id": 6282,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
@@ -17982,7 +18490,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6283
+		"id": 6283,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Kantonales Wettbewerbsprofil",
@@ -18016,7 +18525,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6284
+		"id": 6284,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuereinnahmen aus Quellensteuer",
@@ -18050,7 +18560,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6285
+		"id": 6285,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "NFA-Ressourcenindex",
@@ -18084,7 +18595,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6286
+		"id": 6286,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
@@ -18118,7 +18630,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6287
+		"id": 6287,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -18152,7 +18665,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6288
+		"id": 6288,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
@@ -18186,7 +18700,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6289
+		"id": 6289,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der kantonalen Steuern",
@@ -18220,7 +18735,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6290
+		"id": 6290,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -18254,7 +18770,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6291
+		"id": 6291,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Höchste abgeschlossene Ausbildung",
@@ -18288,7 +18805,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6292
+		"id": 6292,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
@@ -18322,7 +18840,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6293
+		"id": 6293,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -18356,7 +18875,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6294
+		"id": 6294,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft",
@@ -18390,7 +18910,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6295
+		"id": 6295,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil der Beschäftigten in innovativen Branchen an der gesamten Beschäftigung (Vollzeitäquivalente)",
@@ -18424,7 +18945,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6296
+		"id": 6296,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
@@ -18458,7 +18980,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6297
+		"id": 6297,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerung nach sozioprofessioneller Kategorie",
@@ -18492,7 +19015,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6298
+		"id": 6298,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
@@ -18526,7 +19050,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6299
+		"id": 6299,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Verhältnis der Löhne von Frauen und Männern in Basel-Stadt",
@@ -18560,7 +19085,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6300
+		"id": 6300,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Arbeitnehmende in Unternehmensleitung oder Vorgesetztenfunktion nach Geschlecht",
@@ -18594,7 +19120,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6301
+		"id": 6301,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Einbürgerungsziffer der Ausländer sowie Ausländeranteil",
@@ -18628,7 +19155,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6302
+		"id": 6302,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens im Kanton Basel-Stadt",
@@ -18662,7 +19190,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6303
+		"id": 6303,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Geschlecht",
@@ -18696,7 +19225,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6304
+		"id": 6304,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Segregationsindex nach Staatsangehörigkeit",
@@ -18730,7 +19260,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6305
+		"id": 6305,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Verkehrsleistungsindex",
@@ -18764,7 +19295,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6306
+		"id": 6306,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Transit durch die Region Basel",
@@ -18798,7 +19330,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6307
+		"id": 6307,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Jährlich durch  Stau generierte Verzögerungszeit",
@@ -18832,7 +19365,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6308
+		"id": 6308,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO2) und Feinstaub (PM10)",
@@ -18866,7 +19400,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6309
+		"id": 6309,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen Verkehr",
@@ -18900,7 +19435,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6310
+		"id": 6310,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Übermässig mit Lärm belastete Wohnbevölkerung",
@@ -18934,7 +19470,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6311
+		"id": 6311,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
@@ -18968,7 +19505,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6312
+		"id": 6312,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
@@ -19002,7 +19540,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6313
+		"id": 6313,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
@@ -19036,7 +19575,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6314
+		"id": 6314,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wasserqualität: AOX-Fracht",
@@ -19070,7 +19610,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6315
+		"id": 6315,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen",
@@ -19104,7 +19645,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6316
+		"id": 6316,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wassertemperatur Grundwasser",
@@ -19138,7 +19680,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6317
+		"id": 6317,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Besuche in Theater, Kinos und Museen",
@@ -19173,7 +19716,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6318
+		"id": 6318,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -19207,7 +19751,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6319
+		"id": 6319,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -19241,7 +19786,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6320
+		"id": 6320,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Bezüger von Prämienverbilligungen",
@@ -19275,7 +19821,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6321
+		"id": 6321,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Stationäre Fälle in Basler Spitälern",
@@ -19309,7 +19856,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6322
+		"id": 6322,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Straftaten nach StGB pro 1000 Einwohner",
@@ -19344,7 +19892,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6323
+		"id": 6323,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Strassenverkehrsunfälle",
@@ -19378,7 +19927,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6324
+		"id": 6324,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Störfälle und Ereignisse",
@@ -19412,7 +19962,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6326
+		"id": 6326,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
@@ -19447,7 +19998,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6327
+		"id": 6327,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sozialhilfequote nach Altersgruppe",
@@ -19482,7 +20034,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6328
+		"id": 6328,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
@@ -19517,7 +20070,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6329
+		"id": 6329,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -19551,7 +20105,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6330
+		"id": 6330,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
@@ -19585,7 +20140,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6331
+		"id": 6331,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der kantonalen Verwaltung",
@@ -19619,7 +20175,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6332
+		"id": 6332,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
@@ -19653,7 +20210,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6333
+		"id": 6333,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
@@ -19687,7 +20245,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6334
+		"id": 6334,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Kantonales BIP im Vergleich zu den Staatsausgaben",
@@ -19722,7 +20281,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6335
+		"id": 6335,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
@@ -19756,7 +20316,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6336
+		"id": 6336,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Lernende an Basler Berufsfachschulen",
@@ -19790,7 +20351,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6337
+		"id": 6337,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Plätze in Tagesbetreuungsangeboten",
@@ -19824,7 +20386,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6338
+		"id": 6338,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken",
@@ -19858,7 +20421,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6339
+		"id": 6339,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Alter",
@@ -19892,7 +20456,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6340
+		"id": 6340,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Einkommensklasse",
@@ -19926,7 +20491,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6341
+		"id": 6341,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -19960,7 +20526,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6342
+		"id": 6342,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -19994,7 +20561,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6343
+		"id": 6343,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Herkunft",
@@ -20028,7 +20596,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6344
+		"id": 6344,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Medianprämie pro Prämienregion",
@@ -20066,7 +20635,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6346
+		"id": 6346,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Beschäftigte nach Branche",
@@ -20101,7 +20671,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6347
+		"id": 6347,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Standortqualitätsindikator (SQI)",
@@ -20138,7 +20709,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6348
+		"id": 6348,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -20173,7 +20745,8 @@
 		"externalLinks": [
 			"Weitere  Informationen zu den Haushaltstypen sind hier zu finden: <a href = 'http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Häufig gefragt: Einwohner</a>."
 		],
-		"id": 6363
+		"id": 6363,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -20208,7 +20781,8 @@
 		"externalLinks": [
 			"Informationen zu den Haushaltstypen sind hier zu finden: <a href = 'http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Häufig gefragt: Einwohner</a>."
 		],
-		"id": 6364
+		"id": 6364,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -20243,7 +20817,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6365
+		"id": 6365,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -20278,7 +20853,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6366
+		"id": 6366,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Durch BaselArea unterstützte internationale Ansiedlungen",
@@ -20312,7 +20888,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6368
+		"id": 6368,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Neugründungen in Basel-Stadt",
@@ -20346,7 +20923,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6369
+		"id": 6369,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Medianprämie pro Prämienregion",
@@ -20381,7 +20959,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6370
+		"id": 6370,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Beschäftigte nach Branche",
@@ -20415,7 +20994,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6371
+		"id": 6371,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Standortqualitätsindikator (SQI)",
@@ -20449,7 +21029,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6372
+		"id": 6372,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sesshaftigkeit nach Wohnviertel",
@@ -20489,7 +21070,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6373
+		"id": 6373,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Reinvermögen nach Wohnviertel",
@@ -20529,7 +21111,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6374
+		"id": 6374,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Unter 20-Jährige nach Wohnviertel",
@@ -20569,7 +21152,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6375
+		"id": 6375,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Über 64-Jährige nach Wohnviertel",
@@ -20609,7 +21193,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6376
+		"id": 6376,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Gebäudedichte nach Wohnviertel",
@@ -20649,7 +21234,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6377
+		"id": 6377,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Wohnungsdichte nach Wohnviertel",
@@ -20689,7 +21275,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6378
+		"id": 6378,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Leerwohnungen nach Wohnviertel",
@@ -20729,7 +21316,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6379
+		"id": 6379,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Sozialhilfe nach Wohnviertel",
@@ -20769,7 +21357,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6380
+		"id": 6380,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Ausländische Bevölkerung nach Wohnviertel",
@@ -20809,7 +21398,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6381
+		"id": 6381,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Reineinkommen nach Wohnviertel",
@@ -20849,7 +21439,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6382
+		"id": 6382,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Arbeitsstätten nach Wohnviertel",
@@ -20890,7 +21481,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6383
+		"id": 6383,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Beschäftigte nach Wohnviertel",
@@ -20931,7 +21523,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6384
+		"id": 6384,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Sesshaftigkeit nach Wohnviertel",
@@ -20969,6 +21562,7 @@
 		"externalLinks": [
 			""
 		],
+		"darstellungsart": "Karte kategoriell",
 		"id": 6385
 	},
 	{
@@ -21007,6 +21601,7 @@
 		"externalLinks": [
 			""
 		],
+		"darstellungsart": "Karte kategoriell",
 		"id": 6386
 	},
 	{
@@ -21045,6 +21640,7 @@
 		"externalLinks": [
 			""
 		],
+		"darstellungsart": "Karte kategoriell",
 		"id": 6387
 	},
 	{
@@ -21083,6 +21679,7 @@
 		"externalLinks": [
 			""
 		],
+		"darstellungsart": "Karte kategoriell",
 		"id": 6388
 	},
 	{
@@ -21121,6 +21718,7 @@
 		"externalLinks": [
 			""
 		],
+		"darstellungsart": "Karte kategoriell",
 		"id": 6389
 	},
 	{
@@ -21159,6 +21757,7 @@
 		"externalLinks": [
 			""
 		],
+		"darstellungsart": "Karte kategoriell",
 		"id": 6390
 	},
 	{
@@ -21197,6 +21796,7 @@
 		"externalLinks": [
 			""
 		],
+		"darstellungsart": "Karte kategoriell",
 		"id": 6391
 	},
 	{
@@ -21235,6 +21835,7 @@
 		"externalLinks": [
 			""
 		],
+		"darstellungsart": "Karte kategoriell",
 		"id": 6392
 	},
 	{
@@ -21273,6 +21874,7 @@
 		"externalLinks": [
 			""
 		],
+		"darstellungsart": "Karte kategoriell",
 		"id": 6394
 	},
 	{
@@ -21312,6 +21914,7 @@
 		"externalLinks": [
 			""
 		],
+		"darstellungsart": "Karte kategoriell",
 		"id": 6395
 	},
 	{
@@ -21351,6 +21954,7 @@
 		"externalLinks": [
 			""
 		],
+		"darstellungsart": "Karte kategoriell",
 		"id": 6396
 	},
 	{
@@ -21385,7 +21989,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6398
+		"id": 6398,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Ausländer nach Staatsangehörigkeit",
@@ -21419,7 +22024,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6399
+		"id": 6399,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Ausländer der Ländergruppe EU-17+EFTA",
@@ -21453,7 +22059,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6400
+		"id": 6400,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Ausländer der Ländergruppe EU-Ost",
@@ -21487,7 +22094,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6401
+		"id": 6401,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Personen mit Hauptsprache Deutsch",
@@ -21521,7 +22129,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6402
+		"id": 6402,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Ausländer mit Hauptsprache Deutsch nach Alter",
@@ -21555,7 +22164,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6403
+		"id": 6403,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gesprochene Hauptsprachen nach Migrationsstatus",
@@ -21589,7 +22199,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6404
+		"id": 6404,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bei der Arbeit gesprochene Sprachen",
@@ -21623,7 +22234,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6405
+		"id": 6405,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitslosenquote nach Staatsangehörigkeit",
@@ -21658,7 +22270,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6406
+		"id": 6406,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Pyramide der Arbeitslosenquote der Ausländer",
@@ -21693,7 +22306,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6407
+		"id": 6407,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Pyramide der Arbeitslosenquote der Schweizer",
@@ -21728,7 +22342,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6408
+		"id": 6408,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Pyramide der Arbeitslosenquote der Ausländer",
@@ -21763,7 +22378,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6409
+		"id": 6409,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Pyramide der Arbeitslosenquote der Schweizer",
@@ -21798,7 +22414,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6410
+		"id": 6410,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Arbeitslose in ausgewählten Berufsgruppen",
@@ -21832,7 +22449,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6411
+		"id": 6411,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl monatlich ausgesteuerte Schweizer",
@@ -21866,7 +22484,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6412
+		"id": 6412,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl monatlich ausgesteuerte Ausländer",
@@ -21900,7 +22519,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6413
+		"id": 6413,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Erwerbstätigenquote",
@@ -21934,7 +22554,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6415
+		"id": 6415,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Erwerbstätigenquote nach Staatsangehörigkeit",
@@ -21968,7 +22589,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6416
+		"id": 6416,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Erwerbstätigenquote",
@@ -22002,7 +22624,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6417
+		"id": 6417,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Erwerbsquote",
@@ -22036,7 +22659,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6418
+		"id": 6418,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil der Staatsangestellten nach Staatsangehörigkeit",
@@ -22071,7 +22695,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6419
+		"id": 6419,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl angestellte Ausländer in der kantonalen Verwaltung",
@@ -22106,7 +22731,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6420
+		"id": 6420,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl angestellte Schweizer in der kantonalen Verwaltung",
@@ -22141,7 +22767,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6421
+		"id": 6421,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Angestellte in der kantonalen Verwaltung",
@@ -22176,7 +22803,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6422
+		"id": 6422,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Angestellte in der kantonalen Verwaltung",
@@ -22211,7 +22839,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6423
+		"id": 6423,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Angestellte in der kantonalen Verwaltung",
@@ -22246,7 +22875,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6424
+		"id": 6424,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Angestellte in der kantonalen Verwaltung",
@@ -22281,7 +22911,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6425
+		"id": 6425,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Sozialhilfebeziehende nach Staatsangehörigkeit",
@@ -22315,7 +22946,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6426
+		"id": 6426,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sozialhilfequote nach Staatsangehörigkeit",
@@ -22349,7 +22981,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6427
+		"id": 6427,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Pyramide der Sozialhilfequote der Ausländer",
@@ -22383,7 +23016,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6428
+		"id": 6428,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Pyramide der Sozialhilfequote der Schweizer",
@@ -22417,7 +23051,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6429
+		"id": 6429,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "IV-Quote nach Staatsangehörigkeit",
@@ -22452,7 +23087,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6430
+		"id": 6430,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "IV-Quote nach Staatsangehörigkeit",
@@ -22487,7 +23123,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6431
+		"id": 6431,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "IV-Quote nach Staatsangehörigkeit und Alter",
@@ -22522,7 +23159,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6432
+		"id": 6432,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Jahresmitteltemperatur",
@@ -22556,7 +23194,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6434
+		"id": 6434,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitnehmende in Leitungsfunktionen",
@@ -22591,7 +23230,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6435
+		"id": 6435,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der Kantonspolizei",
@@ -22627,7 +23267,8 @@
 		"externalLinks": [
 			"Der Ergebnisbericht von 2015 ist auf der <a href = 'http://www.polizei.bs.ch/ueber-uns/kundenbefragungen.html' target = '_blank'>Internetseite der Kantonspolizei</a> publiziert."
 		],
-		"id": 6437
+		"id": 6437,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der Kantonspolizei",
@@ -22663,7 +23304,8 @@
 		"externalLinks": [
 			"Der Ergebnisbericht von 2015 ist auf der <a href = 'http://www.polizei.bs.ch/ueber-uns/kundenbefragungen.html' target = '_blank'>Internetseite der Kantonspolizei</a> publiziert."
 		],
-		"id": 6438
+		"id": 6438,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (II)",
@@ -22697,7 +23339,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6448
+		"id": 6448,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (III)",
@@ -22731,7 +23374,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6449
+		"id": 6449,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Grenzgänger im Dienstleistungssektor (II)",
@@ -22765,7 +23409,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6450
+		"id": 6450,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Grenzgänger im Dienstleistungssektor (III)",
@@ -22799,7 +23444,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6451
+		"id": 6451,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitstage von Meldepflichtigen im Dienstleistungssektor (II)",
@@ -22833,7 +23479,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6452
+		"id": 6452,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitstage von Meldepflichtigen im Dienstleistungssektor (III)",
@@ -22867,7 +23514,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6453
+		"id": 6453,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschäftigung nach Geschlecht",
@@ -22901,7 +23549,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6454
+		"id": 6454,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Durchschnittlicher Beschäftigungsgrad nach Geschlecht",
@@ -22935,7 +23584,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6455
+		"id": 6455,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschäftigung im Dienstleistungssektor (II)",
@@ -22969,7 +23619,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6456
+		"id": 6456,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschäftigung im Dienstleistungssektor (III)",
@@ -23003,7 +23654,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6457
+		"id": 6457,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschäftigung nach Branche",
@@ -23037,7 +23689,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6459
+		"id": 6459,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitslosenquote nach Branche",
@@ -23071,7 +23724,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6460
+		"id": 6460,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Grenzgänger pro Beschäftigen nach Branche",
@@ -23106,7 +23760,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6461
+		"id": 6461,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zuwanderung pro Beschäftigten nach Branche",
@@ -23140,7 +23795,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6462
+		"id": 6462,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Meldepflichtige pro Beschäftigten nach Branche",
@@ -23174,7 +23830,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6463
+		"id": 6463,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Löhne nach Branche",
@@ -23208,7 +23865,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6464
+		"id": 6464,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens",
@@ -23242,7 +23900,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6467
+		"id": 6467,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittelwert des Reineinkommens pro Veranlagung",
@@ -23276,7 +23935,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6468
+		"id": 6468,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Median des Reineinkommens pro Veranlagung",
@@ -23310,7 +23970,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6469
+		"id": 6469,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens pro Veranlagung",
@@ -23345,7 +24006,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6470
+		"id": 6470,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittelwert des Reinvermögens pro Veranlagung",
@@ -23383,7 +24045,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6471
+		"id": 6471,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit dem Arbeitsplatzangebot",
@@ -23417,7 +24080,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6472
+		"id": 6472,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Einschätzung der wirtschaftlichen Lage",
@@ -23451,7 +24115,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6473
+		"id": 6473,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Familienmietzinsbeitragsquote nach Staatsangehörigkeit",
@@ -23485,7 +24150,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6474
+		"id": 6474,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -23521,7 +24187,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6475
+		"id": 6475,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -23556,7 +24223,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6476
+		"id": 6476,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittlere Anzahl Personen pro Haushalt",
@@ -23591,7 +24259,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6477
+		"id": 6477,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -23626,7 +24295,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6478
+		"id": 6478,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit",
@@ -23660,7 +24330,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6479
+		"id": 6479,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl ordentlich Eingebürgerte",
@@ -23694,7 +24365,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6480
+		"id": 6480,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Personen mit und ohne Migrationshintergrund",
@@ -23728,7 +24400,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6481
+		"id": 6481,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene",
@@ -23763,7 +24436,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6482
+		"id": 6482,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene",
@@ -23798,7 +24472,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6483
+		"id": 6483,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene",
@@ -23833,7 +24508,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6484
+		"id": 6484,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschuldigte ausländische Erwachsene",
@@ -23868,7 +24544,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6485
+		"id": 6485,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschuldigte Jugendliche pro 1000 Jugendliche",
@@ -23903,7 +24580,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6487
+		"id": 6487,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschuldigte Jugendliche pro 1000 Jugendliche",
@@ -23938,7 +24616,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6488
+		"id": 6488,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschuldigte Jugendliche pro 1000 Jugendliche",
@@ -23973,7 +24652,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6489
+		"id": 6489,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschuldigte ausländische Jugendliche",
@@ -24008,7 +24688,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6490
+		"id": 6490,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschuldigte Jugendliche nach Straftatbestand",
@@ -24042,7 +24723,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6491
+		"id": 6491,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beteiligung an Freiwilligenarbeit",
@@ -24079,7 +24761,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6492
+		"id": 6492,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
@@ -24113,7 +24796,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6493
+		"id": 6493,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
@@ -24147,7 +24831,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6494
+		"id": 6494,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Interesse an der Politik in Basel-Stadt",
@@ -24181,7 +24866,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6495
+		"id": 6495,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
@@ -24215,7 +24901,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6496
+		"id": 6496,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit dem Kulturangebot",
@@ -24249,7 +24936,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6499
+		"id": 6499,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
@@ -24284,7 +24972,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6502
+		"id": 6502,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot nach Heimat",
@@ -24318,7 +25007,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6504
+		"id": 6504,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitslose im Dienstleistungssektor (II)",
@@ -24352,7 +25042,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6505
+		"id": 6505,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitslose im Dienstleistungssektor (III)",
@@ -24386,7 +25077,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6506
+		"id": 6506,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung des Wohnorts nach Heimat",
@@ -24420,7 +25112,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6507
+		"id": 6507,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung des Wohnquartiers nach Heimat",
@@ -24454,7 +25147,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6508
+		"id": 6508,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der Zusammensetzung der Quartierbevölkerung nach Heimat",
@@ -24488,7 +25182,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6509
+		"id": 6509,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nachfrage nach nicht in der Schweiz geborenen Bekannten",
@@ -24522,7 +25217,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6510
+		"id": 6510,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sprachen im Freundeskreis",
@@ -24556,7 +25252,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6511
+		"id": 6511,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bekanntheit und Nutzung der Mütter- und Väterberatung nach gesprochener Sprache",
@@ -24590,7 +25287,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6512
+		"id": 6512,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bekanntheit und Nutzung von Elternbildungsangeboten nach gesprochener Sprache",
@@ -24624,7 +25322,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6513
+		"id": 6513,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Gutscheine für Gratis-Deutschkurse",
@@ -24659,7 +25358,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6514
+		"id": 6514,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung",
@@ -24694,7 +25394,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6515
+		"id": 6515,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der Bildungschancen nach gesprochener Sprache",
@@ -24728,7 +25429,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6516
+		"id": 6516,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der individuellen Förderung der Kinder nach gesprochener Sprache",
@@ -24762,7 +25464,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6517
+		"id": 6517,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (II)",
@@ -24796,7 +25499,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6520
+		"id": 6520,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (III)",
@@ -24830,7 +25534,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6521
+		"id": 6521,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Medianlohn in der Schweiz, der Nordwestschweiz und Zürich",
@@ -24864,7 +25569,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6522
+		"id": 6522,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Medianlohn nach Geschlecht",
@@ -24898,7 +25604,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6523
+		"id": 6523,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Medianlohn nach Alter",
@@ -24932,7 +25639,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6524
+		"id": 6524,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Medianlohn in der Privatwirtschaft nach Bewilligungsart",
@@ -24966,7 +25674,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6525
+		"id": 6525,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Medianlohn in Industrie und Baugewerbe",
@@ -25000,7 +25709,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6526
+		"id": 6526,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Medianlohn im Dienstleistungssektor (I)",
@@ -25034,7 +25744,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6527
+		"id": 6527,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Medianlohn im Dienstleistungssektor (II)",
@@ -25068,7 +25779,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6528
+		"id": 6528,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Medianlohn im Dienstleistungssektor (III)",
@@ -25102,7 +25814,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6529
+		"id": 6529,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschäftigung nach Grösse der Arbeitsstätte und Kanton",
@@ -25136,7 +25849,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6531
+		"id": 6531,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Geöffnete Betriebe nach Hotelkategorie",
@@ -25170,7 +25884,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6537
+		"id": 6537,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Durchschnittliche Betriebsgrösse",
@@ -25204,7 +25919,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6538
+		"id": 6538,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zimmerangebot und Auslastung nach Hotelkategorie",
@@ -25238,7 +25954,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6539
+		"id": 6539,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nettozimmerauslastung nach Wochentag",
@@ -25272,7 +25989,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6540
+		"id": 6540,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Betriebsstruktur",
@@ -25306,7 +26024,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6541
+		"id": 6541,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Angebotene Betten nach Hotelkategorie",
@@ -25340,7 +26059,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6542
+		"id": 6542,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der mittleren Aufenthaltsdauer",
@@ -25374,7 +26094,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6543
+		"id": 6543,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Aufenthaltsdauer im Monatsmittel",
@@ -25408,7 +26129,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6544
+		"id": 6544,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Logiernächte nach Monat und Herkunft",
@@ -25442,7 +26164,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6545
+		"id": 6545,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Logiernächte nach Herkunft der Gäste",
@@ -25476,7 +26199,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6546
+		"id": 6546,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Logiernächte nach Herkunft der Gäste",
@@ -25510,7 +26234,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6547
+		"id": 6547,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Logiernächte der Top-Märkte",
@@ -25544,7 +26269,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6548
+		"id": 6548,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wachstumsbeiträge der Top-Märkte",
@@ -25578,7 +26304,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6549
+		"id": 6549,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Ausländer nach Alter und Art der Bewilligung",
@@ -25612,7 +26339,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6570
+		"id": 6570,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Saldo aus Anzahl Baumpflanzungen und -fällungen",
@@ -25646,7 +26374,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6574
+		"id": 6574,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ankünfte nach Monat und Herkunft",
@@ -25680,7 +26409,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6576
+		"id": 6576,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerung nach Staatsangehörigkeit",
@@ -25714,7 +26444,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6592
+		"id": 6592,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ausländeranteil",
@@ -25748,7 +26479,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6597
+		"id": 6597,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Ausländer nach Staatsangehörigkeit",
@@ -25784,7 +26516,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6599
+		"id": 6599,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mietpreisunterschiede nach Wohnviertel gemäss Mietpreisraster",
@@ -25819,7 +26552,8 @@
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.statistik.bs.ch/zahlen/tabellen/9-bau-wohnungswesen/mietpreise.html' target = '_blank'>Mietpreisraster Basel-Stadt</a>"
 		],
-		"id": 6601
+		"id": 6601,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
@@ -25859,7 +26593,8 @@
 			"https://ld.data-bs.ch/property/raum",
 			"https://ld.data-bs.ch/property/bevolkerung"
 		],
-		"id": 6623
+		"id": 6623,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Altstadt Grossbasel",
@@ -25894,7 +26629,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6630
+		"id": 6630,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Vorstädte",
@@ -25929,7 +26665,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6631
+		"id": 6631,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Am Ring",
@@ -25964,7 +26701,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6632
+		"id": 6632,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Breite",
@@ -25999,7 +26737,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6633
+		"id": 6633,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar St. Alban",
@@ -26034,7 +26773,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6634
+		"id": 6634,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Gundeldingen",
@@ -26069,7 +26809,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6635
+		"id": 6635,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Bruderholz",
@@ -26104,7 +26845,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6636
+		"id": 6636,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Bachletten",
@@ -26139,7 +26881,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6637
+		"id": 6637,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Gotthelf",
@@ -26174,7 +26917,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6638
+		"id": 6638,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Iselin",
@@ -26209,7 +26953,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6639
+		"id": 6639,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar St. Johann",
@@ -26244,7 +26989,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6640
+		"id": 6640,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Altstadt Kleinbasel",
@@ -26279,7 +27025,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6641
+		"id": 6641,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Clara",
@@ -26314,7 +27061,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6751
+		"id": 6751,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Wettstein",
@@ -26349,7 +27097,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6752
+		"id": 6752,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Hirzbrunnen",
@@ -26384,7 +27133,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6753
+		"id": 6753,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Rosental",
@@ -26419,7 +27169,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6754
+		"id": 6754,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Matthäus",
@@ -26454,7 +27205,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6755
+		"id": 6755,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Klybeck",
@@ -26489,7 +27241,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6756
+		"id": 6756,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Kleinhüningen",
@@ -26524,7 +27277,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6757
+		"id": 6757,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Riehen",
@@ -26559,7 +27313,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6758
+		"id": 6758,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Bettingen",
@@ -26594,7 +27349,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6759
+		"id": 6759,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
@@ -26629,7 +27385,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6771
+		"id": 6771,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
@@ -26664,7 +27421,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6774
+		"id": 6774,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Ausländische Bevölkerung nach Wohnviertel",
@@ -26702,6 +27460,7 @@
 		"externalLinks": [
 			""
 		],
+		"darstellungsart": "Karte kategoriell",
 		"id": 6778
 	},
 	{
@@ -26740,7 +27499,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 9995
+		"id": 9995,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Quartierradar Altstadt Grossbasel",
@@ -26775,7 +27535,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 9996
+		"id": 9996,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Test Title",
@@ -26810,7 +27571,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 9997
+		"id": 9997,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Fläche nach Art der Bodenbedeckung",
@@ -26843,7 +27605,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 9998
+		"id": 9998,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Test Daten",
@@ -26882,6 +27645,7 @@
 		"externalLinks": [
 			""
 		],
-		"id": 9999
+		"id": 9999,
+		"darstellungsart": "Karte kontinuierlich"
 	}
 ]
