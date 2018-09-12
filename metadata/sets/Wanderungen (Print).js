@@ -31,8 +31,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6771,
-		"darstellungsart": "Karte kontinuierlich"
+		"id": 6771
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
@@ -66,7 +65,6 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6774,
-		"darstellungsart": "Karte kontinuierlich"
+		"id": 6774
 	}
 ];

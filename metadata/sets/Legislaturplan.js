@@ -33,8 +33,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2501,
-		"darstellungsart": "Grafik"
+		"id": 2501
 	},
 	{
 		"title": "Beurteilung der Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe",
@@ -69,8 +68,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2952,
-		"darstellungsart": "Grafik"
+		"id": 2952
 	},
 	{
 		"title": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
@@ -105,8 +103,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2953,
-		"darstellungsart": "Grafik"
+		"id": 2953
 	},
 	{
 		"title": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
@@ -141,8 +138,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2956,
-		"darstellungsart": "Grafik"
+		"id": 2956
 	},
 	{
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
@@ -177,8 +173,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 3051,
-		"darstellungsart": "Grafik"
+		"id": 3051
 	},
 	{
 		"title": "Durch BaselArea unterstützte internationale Ansiedlungen",
@@ -213,8 +208,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 3086,
-		"darstellungsart": "Grafik"
+		"id": 3086
 	},
 	{
 		"title": "Globale und kontinentale Erreichbarkeit",
@@ -251,8 +245,7 @@ var indikatorensetData = [
 			"Weiterführende Informationen: <a href = 'https://www.bak-economics.com/en/solutions/regional-analysis/region-international/location-factors/erreichbarkeit/' target = '_blank'>BAK Economics</a> und",
 			"<a href = 'http://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/erreichbarkeit.html' target = '_blank'>Amt für Mobilität</a>"
 		],
-		"id": 3104,
-		"darstellungsart": "Grafik"
+		"id": 3104
 	},
 	{
 		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner",
@@ -287,8 +280,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5033,
-		"darstellungsart": "Grafik"
+		"id": 5033
 	},
 	{
 		"title": "Anzahl Neugründungen in Basel-Stadt",
@@ -324,8 +316,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5041,
-		"darstellungsart": "Grafik"
+		"id": 5041
 	},
 	{
 		"title": "Bezüger von Prämienverbilligungen",
@@ -362,8 +353,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5066,
-		"darstellungsart": "Grafik"
+		"id": 5066
 	},
 	{
 		"title": "Bruttoinlandprodukt in Franken pro Einwohner",
@@ -399,8 +389,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6124,
-		"darstellungsart": "Grafik"
+		"id": 6124
 	},
 	{
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
@@ -436,8 +425,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6126,
-		"darstellungsart": "Grafik"
+		"id": 6126
 	},
 	{
 		"title": "Kantonales Wettbewerbsprofil",
@@ -472,8 +460,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6127,
-		"darstellungsart": "Grafik"
+		"id": 6127
 	},
 	{
 		"title": "Steuereinnahmen aus Quellensteuer",
@@ -508,8 +495,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6128,
-		"darstellungsart": "Grafik"
+		"id": 6128
 	},
 	{
 		"title": "NFA-Ressourcenindex",
@@ -544,8 +530,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6129,
-		"darstellungsart": "Grafik"
+		"id": 6129
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
@@ -580,8 +565,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6130,
-		"darstellungsart": "Grafik"
+		"id": 6130
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -622,8 +606,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6131,
-		"darstellungsart": "Grafik"
+		"id": 6131
 	},
 	{
 		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
@@ -660,8 +643,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6132,
-		"darstellungsart": "Grafik"
+		"id": 6132
 	},
 	{
 		"title": "Beurteilung der kantonalen Steuern",
@@ -696,8 +678,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6133,
-		"darstellungsart": "Grafik"
+		"id": 6133
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -733,8 +714,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6134,
-		"darstellungsart": "Grafik"
+		"id": 6134
 	},
 	{
 		"title": "Höchste abgeschlossene Ausbildung",
@@ -770,8 +750,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6136,
-		"darstellungsart": "Grafik"
+		"id": 6136
 	},
 	{
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
@@ -807,8 +786,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6137,
-		"darstellungsart": "Grafik"
+		"id": 6137
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -843,8 +821,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6138,
-		"darstellungsart": "Grafik"
+		"id": 6138
 	},
 	{
 		"title": "Aufwendungen für Forschung und Entwicklung",
@@ -880,8 +857,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6140,
-		"darstellungsart": "Grafik"
+		"id": 6140
 	},
 	{
 		"title": "Anteil der Beschäftigten in innovativen Branchen",
@@ -918,8 +894,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6141,
-		"darstellungsart": "Grafik"
+		"id": 6141
 	},
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
@@ -952,8 +927,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6143,
-		"darstellungsart": "Grafik"
+		"id": 6143
 	},
 	{
 		"title": "Bevölkerung nach sozioprofessioneller Kategorie",
@@ -989,8 +963,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6144,
-		"darstellungsart": "Grafik"
+		"id": 6144
 	},
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
@@ -1027,8 +1000,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6146,
-		"darstellungsart": "Grafik"
+		"id": 6146
 	},
 	{
 		"title": "Verhältnis der Löhne von Frauen und Männern",
@@ -1062,8 +1034,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6147,
-		"darstellungsart": "Grafik"
+		"id": 6147
 	},
 	{
 		"title": "Arbeitnehmende in Leitungsfunktionen",
@@ -1100,8 +1071,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6148,
-		"darstellungsart": "Grafik"
+		"id": 6148
 	},
 	{
 		"title": "Einbürgerungsziffer der ausländischen Bevölkerung sowie Ausländeranteil",
@@ -1137,8 +1107,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6149,
-		"darstellungsart": "Grafik"
+		"id": 6149
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens",
@@ -1175,8 +1144,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6150,
-		"darstellungsart": "Grafik"
+		"id": 6150
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Geschlecht",
@@ -1211,8 +1179,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6151,
-		"darstellungsart": "Grafik"
+		"id": 6151
 	},
 	{
 		"title": "Segregationsindex nach Staatsangehörigkeit",
@@ -1250,8 +1217,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6152,
-		"darstellungsart": "Grafik"
+		"id": 6152
 	},
 	{
 		"title": "Verkehrsleistungsindex",
@@ -1289,8 +1255,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6154,
-		"darstellungsart": "Grafik"
+		"id": 6154
 	},
 	{
 		"title": "Transit durch die Region Basel",
@@ -1325,8 +1290,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6155,
-		"darstellungsart": "Grafik"
+		"id": 6155
 	},
 	{
 		"title": "Jährlich durch  Stau generierte Verzögerungszeit",
@@ -1361,8 +1325,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6156,
-		"darstellungsart": "Grafik"
+		"id": 6156
 	},
 	{
 		"title": "Luftqualität: Langzeitbelastung der Luft",
@@ -1399,8 +1362,7 @@ var indikatorensetData = [
 			"<a href = 'https://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>"
 		],
-		"id": 6157,
-		"darstellungsart": "Grafik"
+		"id": 6157
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen Verkehr",
@@ -1436,8 +1398,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6158,
-		"darstellungsart": "Grafik"
+		"id": 6158
 	},
 	{
 		"title": "Übermässig mit Lärm belastete Wohnbevölkerung",
@@ -1474,8 +1435,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6159,
-		"darstellungsart": "Grafik"
+		"id": 6159
 	},
 	{
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
@@ -1513,8 +1473,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6160,
-		"darstellungsart": "Grafik"
+		"id": 6160
 	},
 	{
 		"title": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
@@ -1551,8 +1510,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6161,
-		"darstellungsart": "Grafik"
+		"id": 6161
 	},
 	{
 		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
@@ -1589,8 +1547,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6163,
-		"darstellungsart": "Grafik"
+		"id": 6163
 	},
 	{
 		"title": "Wasserqualität: AOX-Konzentration",
@@ -1627,8 +1584,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6164,
-		"darstellungsart": "Grafik"
+		"id": 6164
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen",
@@ -1666,8 +1622,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6165,
-		"darstellungsart": "Grafik"
+		"id": 6165
 	},
 	{
 		"title": "Wassertemperatur Grundwasser",
@@ -1704,8 +1659,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6166,
-		"darstellungsart": "Grafik"
+		"id": 6166
 	},
 	{
 		"title": "Anzahl Besuche in Theater, Kinos und Museen",
@@ -1743,8 +1697,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6169,
-		"darstellungsart": "Grafik"
+		"id": 6169
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -1779,8 +1732,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6170,
-		"darstellungsart": "Grafik"
+		"id": 6170
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -1815,8 +1767,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6172,
-		"darstellungsart": "Grafik"
+		"id": 6172
 	},
 	{
 		"title": "Bezügerinnen und Bezüger von Prämienverbilligung",
@@ -1853,8 +1804,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6173,
-		"darstellungsart": "Grafik"
+		"id": 6173
 	},
 	{
 		"title": "Stationäre Fälle in Basler Spitälern",
@@ -1889,8 +1839,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6175,
-		"darstellungsart": "Grafik"
+		"id": 6175
 	},
 	{
 		"title": "Anzahl Straftaten nach StGB pro 1000 Einwohner",
@@ -1927,8 +1876,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6176,
-		"darstellungsart": "Grafik"
+		"id": 6176
 	},
 	{
 		"title": "Anzahl Strassenverkehrsunfälle",
@@ -1964,8 +1912,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6177,
-		"darstellungsart": "Grafik"
+		"id": 6177
 	},
 	{
 		"title": "Anzahl Störfälle und Ereignisse",
@@ -2002,8 +1949,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6179,
-		"darstellungsart": "Grafik"
+		"id": 6179
 	},
 	{
 		"title": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
@@ -2040,8 +1986,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6181,
-		"darstellungsart": "Grafik"
+		"id": 6181
 	},
 	{
 		"title": "Sozialhilfequote nach Altersgruppe",
@@ -2079,8 +2024,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6182,
-		"darstellungsart": "Grafik"
+		"id": 6182
 	},
 	{
 		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
@@ -2118,8 +2062,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6183,
-		"darstellungsart": "Grafik"
+		"id": 6183
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -2154,8 +2097,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6184,
-		"darstellungsart": "Grafik"
+		"id": 6184
 	},
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
@@ -2190,8 +2132,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6185,
-		"darstellungsart": "Grafik"
+		"id": 6185
 	},
 	{
 		"title": "Beurteilung der kantonalen Verwaltung",
@@ -2226,8 +2167,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6186,
-		"darstellungsart": "Grafik"
+		"id": 6186
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
@@ -2262,8 +2202,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6201,
-		"darstellungsart": "Grafik"
+		"id": 6201
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
@@ -2298,8 +2237,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6202,
-		"darstellungsart": "Grafik"
+		"id": 6202
 	},
 	{
 		"title": "Kantonales BIP im Vergleich zu den Staatsausgaben",
@@ -2335,8 +2273,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6205,
-		"darstellungsart": "Grafik"
+		"id": 6205
 	},
 	{
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
@@ -2371,8 +2308,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6206,
-		"darstellungsart": "Grafik"
+		"id": 6206
 	},
 	{
 		"title": "Anzahl Lernende an Basler Berufsfachschulen",
@@ -2407,8 +2343,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6209,
-		"darstellungsart": "Grafik"
+		"id": 6209
 	},
 	{
 		"title": "Anzahl Plätze in Tagesbetreuungsangeboten",
@@ -2443,8 +2378,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6210,
-		"darstellungsart": "Grafik"
+		"id": 6210
 	},
 	{
 		"title": "Nettoschuldenquote und Nettoschulden pro Kopf",
@@ -2481,8 +2415,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6211,
-		"darstellungsart": "Grafik"
+		"id": 6211
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Alter",
@@ -2517,8 +2450,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6213,
-		"darstellungsart": "Grafik"
+		"id": 6213
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Einkommensklasse",
@@ -2553,8 +2485,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6228,
-		"darstellungsart": "Grafik"
+		"id": 6228
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -2589,8 +2520,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6239,
-		"darstellungsart": "Grafik"
+		"id": 6239
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -2625,8 +2555,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6240,
-		"darstellungsart": "Grafik"
+		"id": 6240
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Herkunft",
@@ -2661,8 +2590,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6266,
-		"darstellungsart": "Grafik"
+		"id": 6266
 	},
 	{
 		"title": "Medianprämie pro Prämienregion",
@@ -2699,8 +2627,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6346,
-		"darstellungsart": "Grafik"
+		"id": 6346
 	},
 	{
 		"title": "Anzahl Beschäftigte nach Branche",
@@ -2734,8 +2661,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6347,
-		"darstellungsart": "Grafik"
+		"id": 6347
 	},
 	{
 		"title": "Standortqualitätsindikator (SQI)",
@@ -2771,8 +2697,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6348,
-		"darstellungsart": "Grafik"
+		"id": 6348
 	},
 	{
 		"title": "Beurteilung der Kantonspolizei",
@@ -2807,8 +2732,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Der Ergebnisbericht von 2015 ist auf der <a href = 'http://www.polizei.bs.ch/ueber-uns/kundenbefragungen.html' target = '_blank'>Internetseite der Kantonspolizei</a> publiziert."
 		],
-		"id": 6437,
-		"darstellungsart": "Grafik"
+		"id": 6437
 	},
 	{
 		"title": "Beurteilung der Kantonspolizei",
@@ -2843,7 +2767,6 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Der Ergebnisbericht von 2015 ist auf der <a href = 'http://www.polizei.bs.ch/ueber-uns/kundenbefragungen.html' target = '_blank'>Internetseite der Kantonspolizei</a> publiziert."
 		],
-		"id": 6438,
-		"darstellungsart": "Grafik"
+		"id": 6438
 	}
 ];

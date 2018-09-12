@@ -30,8 +30,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6537,
-		"darstellungsart": "Grafik"
+		"id": 6537
 	},
 	{
 		"title": "Durchschnittliche Betriebsgrösse",
@@ -64,8 +63,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6538,
-		"darstellungsart": "Grafik"
+		"id": 6538
 	},
 	{
 		"title": "Zimmerangebot und Auslastung nach Hotelkategorie",
@@ -98,8 +96,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6539,
-		"darstellungsart": "Grafik"
+		"id": 6539
 	},
 	{
 		"title": "Nettozimmerauslastung nach Wochentag",
@@ -132,8 +129,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6540,
-		"darstellungsart": "Grafik"
+		"id": 6540
 	},
 	{
 		"title": "Entwicklung der Betriebsstruktur",
@@ -166,8 +162,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6541,
-		"darstellungsart": "Grafik"
+		"id": 6541
 	},
 	{
 		"title": "Angebotene Betten nach Hotelkategorie",
@@ -200,8 +195,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6542,
-		"darstellungsart": "Grafik"
+		"id": 6542
 	},
 	{
 		"title": "Entwicklung der mittleren Aufenthaltsdauer",
@@ -234,8 +228,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6543,
-		"darstellungsart": "Grafik"
+		"id": 6543
 	},
 	{
 		"title": "Aufenthaltsdauer im Monatsmittel",
@@ -268,8 +261,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6544,
-		"darstellungsart": "Grafik"
+		"id": 6544
 	},
 	{
 		"title": "Logiernächte nach Monat und Herkunft",
@@ -302,8 +294,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6545,
-		"darstellungsart": "Grafik"
+		"id": 6545
 	},
 	{
 		"title": "Entwicklung der Logiernächte nach Herkunft der Gäste",
@@ -336,8 +327,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6546,
-		"darstellungsart": "Grafik"
+		"id": 6546
 	},
 	{
 		"title": "Logiernächte nach Herkunft der Gäste",
@@ -370,8 +360,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6547,
-		"darstellungsart": "Grafik"
+		"id": 6547
 	},
 	{
 		"title": "Entwicklung der Logiernächte der Top-Märkte",
@@ -404,8 +393,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6548,
-		"darstellungsart": "Grafik"
+		"id": 6548
 	},
 	{
 		"title": "Wachstumsbeiträge der Top-Märkte",
@@ -438,8 +426,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6549,
-		"darstellungsart": "Grafik"
+		"id": 6549
 	},
 	{
 		"title": "Ankünfte nach Monat und Herkunft",
@@ -472,7 +459,6 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6576,
-		"darstellungsart": "Grafik"
+		"id": 6576
 	}
 ];
