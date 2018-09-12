@@ -1,6 +1,6 @@
 /*
     global $
-    
+    global rheinDataEPSG2056
     global scalebarDataEPSG2056
     global Highcharts
 */
@@ -66,6 +66,7 @@
     	},    
         "mapNavigation": {
             "enabled": true,
+            enableDoubleClickZoom: false, 
             "buttonOptions": {
                 "align": "left",
                 "verticalAlign": 'bottom'
@@ -98,6 +99,52 @@
 				}
 			}
     	},
+    	
+    	/* series with fixed data that should be added to the series object before merging with csv data */
+    	beforeSeries: [
+            {      
+                //Outline Wohnviertel if all choropleth shapes have been deselected through classed colorAxis, see https://forum.highcharts.com/highmaps-usage-f14/outline-shapes-hidden-by-click-onto-classed-coloraxis-t40837/
+				name: "WohnviertelOutline",
+              	enableMouseTracking: false,
+                color: '#ededed',
+                borderWidth: 1,
+                borderColor: '#fbfbfb',
+				"animation": true,
+				"mapData": geojson_wohnviertelEPSG2056,
+				"joinBy": ['TXT', 'Wohnviertel Id'],
+				"keys": ['Wohnviertel Id', 'value'],
+                "states": {
+                  "hover": {
+                    "enabled": false,
+                    "borderColor": "#BADA55",
+                    "brightness": 0
+                  }
+                },
+                "data": [
+                  [1,-999],
+                  [2,-999],
+                  [3,-999],
+                  [4,-999],
+                  [5,-999],
+                  [6,-999],
+                  [7,-999],
+                  [8,-999],
+                  [9,-999],
+                  [10,-999],
+                  [11,-999],
+                  [12,-999],
+                  [13,-999],
+                  [14,-999],
+                  [15,-999],
+                  [16,-999],
+                  [17,-999],
+                  [18,-999],
+                  [19,-999],
+                  [20,-999],
+                  [30,-999]
+                ],    	            
+			}
+	    ],    	    	
     	
 		/* series with fixed data that should be added to the series object after merging with csv data */
 		"afterSeries": [
@@ -135,6 +182,36 @@
 				}
     		}
 		], 
+		
+		
+		//make sure charts are exported as displayed
+		exporting: {
+			menuItemDefinitions: {
+		        downloadPNG: {
+			            onclick: function () {
+			            	this.options.customFunctions.exportCurrentSVG(this, 'image/png');
+			            },
+		        },
+		        downloadJPEG: {
+			            onclick: function () {
+			            	this.options.customFunctions.exportCurrentSVG(this, 'image/jpeg');
+			            },
+		        },
+		        downloadPDF: {
+			            onclick: function () {
+			            	this.options.customFunctions.exportCurrentSVG(this, "application/pdf");
+			            },
+		        },
+		        downloadSVG: {
+			            onclick: function () {
+			            	this.options.customFunctions.exportCurrentSVG(this, 'image/svg+xml');
+			            },
+		        },
+	        }
+		},
+		
+		
+		
 		customFunctions: {
 		    
 			//calculate pie size using categories defined in the conf object
@@ -428,10 +505,17 @@
     		            class: cssClass + ' pieLegend'
     	        	}).add();
                 },
-                                
+                addLegendRectangle: function(chart, x, y, width, height, fill, cssClass){
+                	return chart.renderer.rect(x, y, width, height).attr({
+    		            'stroke-width':0,
+    		            fill: fill,
+    		            zIndex: 6,
+    		            class: cssClass
+    	        	}).add();
+                },                                
 
 				//Add click handler to bubbleLegend items
-				AddPieLegendClickHandler: function(chart){
+				AddPieLegendClickHandler: function(chart, colorPassive){
 					var divId = chart['renderTo']['id'] || 'dummySettingForExportServer';
 					var divIdString = '#' + divId;
 				    $(divIdString + ' .pieLegend').click(function(){
@@ -447,30 +531,44 @@
 						//if useHTMl is true, text is in span elements within DIVs classed .pieLegend. Add the class to these spans
 						$(divIdString + ' .pieLegend>span').addClass('pieLegend').addClass('pieLegendHtmlText');
 						//toggle active state of legend elements
-						var pieLegendItems = $('.pieLegend');
+						var pieLegendItems = $(divIdString + ' .pieLegend');
 						//backup original color
 						pieLegendItems.each(function(i, v){
 							if (!$(this).attr('fill_active')) {
 								//if no fill color is defined, set to  black
-								$(this).attr('fill_active', $(this).attr('fill') || 'black');	
+								$(this).attr('fill_active', $(this).attr('fill') || 'black');
+								$(this).attr('fill', $(this).attr('fill') || 'black');	
 							}
 							if (!$(this).attr('stroke_active')) {
-								$(this).attr('stroke_active', $(this).attr('stroke') || null);	
+								$(this).attr('stroke_active', $(this).attr('stroke') || null);
+								$(this).attr('stroke', $(this).attr('stroke') || null);	
 							}
 						});
 						//toggle color
+						
+						var whiteTransp = 'rgba(255,255,255, 0)';
+						var grey = '#cccccc';
+						//if no passiveColor is given, default to white transparent
+						var passiveColor = colorPassive || whiteTransp;
+						
 						if (pieLegendItems.attr('fill') == pieLegendItems.attr('fill_active')){
-							//set all to grey
-							pieLegendItems.attr('fill', '#cccccc');
-							//if stroke is present, toggle it
+							//set all to grey or the predefined color
+							
+							//if fill is present, toggle it
 							pieLegendItems.each(function(i, v){
-								//if stroke_active is present, set it to grey
-								if ($(this).attr('stroke_active')) {
-									$(this).attr('stroke', '#cccccc');
+								//if fill_active is present, set it to transparent white
+								if ($(this).attr('fill_active')) {
+									$(this).attr('fill', $(this).attr('fill_passive') || passiveColor);
 								}
+								//if stroke_active is present, set it to transparent white
+								if ($(this).attr('stroke_active')) {
+									$(this).attr('stroke', passiveColor);
+								}
+
 							});
+							
 							//same for html text spans
-							$(divIdString + ' .pieLegendHtmlText').css('color', '#cccccc');
+							$(divIdString + ' .pieLegendHtmlText').css('color', passiveColor);
 						} 
 						else {
 							pieLegendItems.each(function(i, v){
@@ -479,10 +577,30 @@
 								$(this).attr('stroke', $(this).attr('stroke_active'));	
 							});
 							//same for html text spans
-							$(divIdString + ' .pieLegendHtmlText').css('color', 'black');
+							//$(divIdString + ' .pieLegendHtmlText').css('color', $(this).attr('color_active') || 'black');
+							$(divIdString + ' .pieLegendHtmlText').each(function(i,v){
+								$(this).css('color', $(this).attr('color_active') || 'black');
+							});
 						}
 					});
-				}          	
+				},
+				
+
+				//override function getSVG to make sure charts are exported as displayed, see https://forum.highcharts.com/highcharts-usage/how-to-force-export-server-to-render-current-svg-t40838/
+				exportCurrentSVG: function(chart, type){
+					var origFn = Highcharts.Chart.prototype.getSVG;
+					Highcharts.Chart.prototype.getSVG = function() {
+						console.log("Using current SVG to export.");
+						var svg = chart.getChartHTML();
+						svg = chart.sanitizeSVG(svg);
+						return svg;
+					};		            	
+		            chart.exportChart({type: type || 'image/png'});
+		            Highcharts.Chart.prototype.getSVG = origFn;					
+				}, 
+				
+				
+				
 		}
     };
     }()

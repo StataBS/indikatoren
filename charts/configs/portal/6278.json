@@ -501,11 +501,12 @@
     "margin": 3,
     "itemWidth": 120
   },
-  "exporting": {
-    "enabled": false,
-    "filename": 6278
-  },
   "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "line": {
       "connectNulls": true,
       "marker": {
@@ -513,5 +514,9 @@
         "symbol": "circle"
       }
     }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6278
   }
 }

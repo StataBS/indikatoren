@@ -209,11 +209,12 @@
     "padding": 0,
     "itemWidth": 80
   },
-  "exporting": {
-    "enabled": false,
-    "filename": 6324
-  },
   "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "line": {
       "connectNulls": true,
       "marker": {
@@ -221,5 +222,9 @@
         "symbol": "circle"
       }
     }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6324
   }
 }

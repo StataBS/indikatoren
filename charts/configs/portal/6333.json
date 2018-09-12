@@ -384,16 +384,21 @@
     "itemWidth": 54,
     "margin": 2
   },
-  "exporting": {
-    "enabled": false,
-    "filename": 6333
-  },
   "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "line": {
       "marker": {
         "enabled": false,
         "symbol": "circle"
       }
     }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6333
   }
 }

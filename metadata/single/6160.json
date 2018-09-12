@@ -1,42 +1,29 @@
-{
- "title": "Endenergieverbrauch nach Verbrauchergruppe",
- "subtitle": "in Mio. kWh",
- "kuerzel": "I.08.1.06160",
- "kuerzelKunde": "7.1",
- "description": "Endenergieverbrauch nach Verbrauchergruppe",
- "id": 6160,
- "thema": "08 Energie",
- "unterthema": "Verbrauch",
- "kennzahlenset": "Legislaturplan",
- "raeumlicheGliederung": [
-  "Kanton"
- ],
- "aktualisierungsdatum": "2017-11-29T00:00:00.000",
- "schlagwort": [
-  "Energie"
- ],
- "stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2014 um 16% auf 4 630 Mio. kWh abgenommen. Der Rückgang verteilt sich gleichmässig auf die Verbrauchergruppen Wohnen und Nichtwohnen und ist primär der milden Witterung geschuldet. Das Jahr 2014 hatte rund 17% weniger Heizgradtage als das Jahr 2012.",
- "erlaeuterungen": "",
- "template": "template001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "07_00_00_00_00_001",
- "parentId": null,
- "children": [
-  "4953",
-  "5794",
-  "6312"
- ],
- "renderLink": [],
- "quellenangabe": [
-  "Statistisches Amt Basel-Stadt, Energiestatistik"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Endenergieverbrauch nach Verbrauchergruppe",
+"subtitle":"in Mio. kWh, Basel-Stadt",
+"kuerzel":"I.08.1.6160",
+"kuerzelKunde":"7.1",
+"description":"Endenergieverbrauch nach Verbrauchergruppe",
+"id":6160,
+"thema":"08 Energie",
+"unterthema":"Verbrauch",
+"kennzahlenset":"Legislaturplan",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2018-08-15T10:47:41.4141",
+"stufe1":"Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Der Endenergieverbrauch hat zwischen 2010 und 2016 um 15,6% auf 4 668 Mio. kWh abgenommen. Der Rückgang verteilt sich in etwa gleichmässig auf die Verbrauchergruppen Wohnen und Nichtwohnen und ist primär der milden Witterung geschuldet. Das Jahr 2016 hatte rund 8,1% weniger Heizgradtage als das Jahr 2010.",
+"erlaeuterungen":"",
+"template":"template001",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"07_00_00_00_00_001",
+"parentId":null,
+"children":["4953","5794","6312"],
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Energiestatistik"],
+"externalLinks":[""]
 }

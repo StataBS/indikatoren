@@ -337,16 +337,19 @@
     "padding": 0,
     "itemDistance": 0
   },
-  "exporting": {
-    "enabled": false,
-    "filename": 6248
-  },
   "plotOptions": {
     "series": {
+      "marker": {
+        "enabled": false
+      },
       "stacking": "normal",
       "pointPadding": 0,
       "groupPadding": 0.5,
       "borderColor": 0
     }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6248
   }
 }

@@ -718,11 +718,12 @@
     "margin": 6,
     "itemDistance": 5
   },
-  "exporting": {
-    "enabled": false,
-    "filename": 6305
-  },
   "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "line": {
       "connectNulls": true,
       "marker": {
@@ -730,5 +731,9 @@
         "symbol": "circle"
       }
     }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6305
   }
 }

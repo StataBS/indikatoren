@@ -175,12 +175,11 @@
     },
     "padding": 0
   },
-  "exporting": {
-    "enabled": false,
-    "filename": 6321
-  },
   "plotOptions": {
     "series": {
+      "marker": {
+        "enabled": false
+      },
       "dataLabels": {
         "enabled": true,
         "allowOverlap": true,
@@ -195,5 +194,9 @@
           }
       }
     }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6321
   }
 }

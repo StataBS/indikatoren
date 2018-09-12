@@ -290,6 +290,13 @@
     "padding": 0,
     "itemWidth": 500
   },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    }
+  },
   "exporting": {
     "enabled": false,
     "filename": 6339

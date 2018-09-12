@@ -297,17 +297,11 @@
     "padding": 0,
     "itemWidth": 50
   },
-  "exporting": {
-    "enabled": false,
-    "filename": 6308
-  },
   "plotOptions": {
-    "line": {
+    "series": {
       "marker": {
         "enabled": false
-      }
-    },
-    "series": {
+      },
       "dataLabels": {
         "enabled": false,
         "allowOverlap": true,
@@ -321,6 +315,15 @@
                 return "";
               }
       }
+    },
+    "line": {
+      "marker": {
+        "enabled": false
+      }
     }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6308
   }
 }

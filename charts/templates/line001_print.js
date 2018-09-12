@@ -107,6 +107,13 @@
     },
     padding: 0,
   }, 
+  plotOptions: {
+    series: {
+      marker: {
+        enabled: false
+      }
+    }
+  },  
   exporting: {
     enabled: false
   }

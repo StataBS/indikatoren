@@ -215,8 +215,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickInterval": 5,
-    "max": 20
+    "tickInterval": 5
   },
   "navigation": {
     "menuItemStyle": {

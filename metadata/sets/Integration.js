@@ -30,7 +30,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6057
+		"id": 6057,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerung nach Staatsangehörigkeit",
@@ -63,7 +64,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6058
+		"id": 6058,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Ausländer nach Staatsangehörigkeit",
@@ -96,7 +98,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6059
+		"id": 6059,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ausländer nach Staatsangehörigkeit",
@@ -129,7 +132,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6060
+		"id": 6060,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Übrige Ausländer",
@@ -162,7 +166,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6061
+		"id": 6061,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ausländer nach Staatsangehörigkeit und Geschlecht",
@@ -195,7 +200,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6062
+		"id": 6062,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Durchschnittsalter der Wohnbevölkerung",
@@ -228,7 +234,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6063
+		"id": 6063,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
@@ -261,7 +268,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6064
+		"id": 6064,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
@@ -294,7 +302,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6065
+		"id": 6065,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
@@ -327,7 +336,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6066
+		"id": 6066,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
@@ -360,7 +370,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6067
+		"id": 6067,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Jugendquotient nach Staatsangehörigkeit",
@@ -393,7 +404,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6068
+		"id": 6068,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Altersquotient nach Staatsangehörigkeit",
@@ -426,7 +438,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6069
+		"id": 6069,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ausländeranteil nach Alter",
@@ -459,7 +472,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6070
+		"id": 6070,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Ausländer nach Art der Bewilligung",
@@ -492,7 +506,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6071
+		"id": 6071,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ausländer nach Art der Bewilligung",
@@ -525,7 +540,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6072
+		"id": 6072,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Ausländer mit Niederlassungsbewilligung",
@@ -558,7 +574,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6073
+		"id": 6073,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Median der Aufenthaltsdauer der Ausländer",
@@ -592,7 +609,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6074
+		"id": 6074,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil der in der Schweiz geborenen Ausländer",
@@ -625,7 +643,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6075
+		"id": 6075,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Lebendgeborene nach Staatsangehörigkeit",
@@ -658,7 +677,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6076
+		"id": 6076,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zusammengefasste Geburtenziffer",
@@ -691,29 +711,31 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6077
+		"id": 6077,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Segregationsindex nach Staatsangehörigkeit",
-		"subtitle": "",
-		"kuerzel": "I.01.1.06078",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.01.5.06078",
 		"kuerzelKunde": "A5-1",
 		"description": "Segregationsindex nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"unterthema": "Wanderungen",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-05T16:01:53.5353",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2016 wiesen Personen aus dem Balkan (31,8), der Türkei (30,4), arabischen (26,7) und afrikanischen Ländern (25,6) die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese vier Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert waren. Der niedrigste Index ergab sich 2016 für die Deutschen (7,7). Der Segregationsindex der Schweizer lag im Jahr 2016 bei 17,9.",
-		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betracheten Gruppe interpretieren, der in eine anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
+		"lesehilfe": "2017 wiesen Personen aus dem Balkan (31,7), der Türkei (29,8), afrikanischen (26,4) und arabischen Ländern (23,6) die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese vier Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert waren. Der niedrigste Index ergab sich 2017 für die Deutschen (7,8). Der Segregationsindex der Schweizer lag im Jahr 2017 bei 17,5.",
+		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in eine anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "01_00_00_00_00_027",
 		"parentId": 6152,
 		"children": [],
@@ -724,7 +746,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6078
+		"id": 6078,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Veränderung des Segregationsindex",
@@ -757,7 +780,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6079
+		"id": 6079,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gymnasialquote nach Staatsangehörigkeit",
@@ -791,7 +815,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6080
+		"id": 6080,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gymnasialquote nach Staatsangehörigkeit und Geschlecht",
@@ -825,7 +850,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6081
+		"id": 6081,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Hochschulquote nach Staatsangehörigkeit",
@@ -860,7 +886,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6082
+		"id": 6082,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Hochschulquote nach Staatsangehörigkeit und Geschlecht",
@@ -895,7 +922,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6083
+		"id": 6083,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Lernendenquote nach Staatsangehörigkeit",
@@ -929,7 +957,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6084
+		"id": 6084,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Lernendenquote nach Staatsangehörigkeit und Geschlecht",
@@ -963,7 +992,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6085
+		"id": 6085,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Erwachsene mit höchstem Abschluss Sekundarstufe I",
@@ -996,7 +1026,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6088
+		"id": 6088,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
@@ -1029,7 +1060,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6090
+		"id": 6090,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
@@ -1062,7 +1094,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6091
+		"id": 6091,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ausländeranteil nach Gemeinde und Wohnviertel",
@@ -1095,7 +1128,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6398
+		"id": 6398,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Ausländer nach Staatsangehörigkeit",
@@ -1128,7 +1162,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6399
+		"id": 6399,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Ausländer der Ländergruppe EU-17+EFTA",
@@ -1161,7 +1196,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6400
+		"id": 6400,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Ausländer der Ländergruppe EU-Ost",
@@ -1194,7 +1230,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6401
+		"id": 6401,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Personen mit Hauptsprache Deutsch",
@@ -1227,7 +1264,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6402
+		"id": 6402,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Ausländer mit Hauptsprache Deutsch nach Alter",
@@ -1260,7 +1298,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6403
+		"id": 6403,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gesprochene Hauptsprachen nach Migrationsstatus",
@@ -1293,7 +1332,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6404
+		"id": 6404,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bei der Arbeit gesprochene Sprachen",
@@ -1326,7 +1366,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6405
+		"id": 6405,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitslosenquote nach Staatsangehörigkeit",
@@ -1360,7 +1401,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6406
+		"id": 6406,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Pyramide der Arbeitslosenquote der Ausländer",
@@ -1394,7 +1436,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6407
+		"id": 6407,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Pyramide der Arbeitslosenquote der Schweizer",
@@ -1428,7 +1471,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6408
+		"id": 6408,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Pyramide der Arbeitslosenquote der Ausländer",
@@ -1462,7 +1506,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6409
+		"id": 6409,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Pyramide der Arbeitslosenquote der Schweizer",
@@ -1496,7 +1541,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6410
+		"id": 6410,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Arbeitslose in ausgewählten Berufsgruppen",
@@ -1529,7 +1575,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6411
+		"id": 6411,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl monatlich ausgesteuerte Schweizer",
@@ -1562,7 +1609,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6412
+		"id": 6412,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl monatlich ausgesteuerte Ausländer",
@@ -1595,7 +1643,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6413
+		"id": 6413,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Erwerbstätigenquote",
@@ -1628,7 +1677,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6415
+		"id": 6415,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Erwerbstätigenquote nach Staatsangehörigkeit",
@@ -1661,7 +1711,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6416
+		"id": 6416,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Erwerbstätigenquote",
@@ -1694,7 +1745,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6417
+		"id": 6417,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Erwerbsquote",
@@ -1727,7 +1779,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6418
+		"id": 6418,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil der Staatsangestellten nach Staatsangehörigkeit",
@@ -1761,7 +1814,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6419
+		"id": 6419,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl angestellte Ausländer in der kantonalen Verwaltung",
@@ -1795,7 +1849,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6420
+		"id": 6420,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl angestellte Schweizer in der kantonalen Verwaltung",
@@ -1829,7 +1884,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6421
+		"id": 6421,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Angestellte in der kantonalen Verwaltung",
@@ -1863,7 +1919,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6422
+		"id": 6422,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Angestellte in der kantonalen Verwaltung",
@@ -1897,7 +1954,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6423
+		"id": 6423,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Angestellte in der kantonalen Verwaltung",
@@ -1931,7 +1989,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6424
+		"id": 6424,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Angestellte in der kantonalen Verwaltung",
@@ -1965,7 +2024,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6425
+		"id": 6425,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Sozialhilfebeziehende nach Staatsangehörigkeit",
@@ -1998,7 +2058,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6426
+		"id": 6426,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sozialhilfequote nach Staatsangehörigkeit",
@@ -2031,7 +2092,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6427
+		"id": 6427,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Pyramide der Sozialhilfequote der Ausländer",
@@ -2064,7 +2126,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6428
+		"id": 6428,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Pyramide der Sozialhilfequote der Schweizer",
@@ -2097,7 +2160,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6429
+		"id": 6429,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "IV-Quote nach Staatsangehörigkeit",
@@ -2131,7 +2195,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6430
+		"id": 6430,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "IV-Quote nach Staatsangehörigkeit",
@@ -2165,7 +2230,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6431
+		"id": 6431,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "IV-Quote nach Staatsangehörigkeit und Alter",
@@ -2199,7 +2265,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6432
+		"id": 6432,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens",
@@ -2232,7 +2299,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6467
+		"id": 6467,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittelwert des Reineinkommens pro Veranlagung",
@@ -2265,7 +2333,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6468
+		"id": 6468,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Median des Reineinkommens pro Veranlagung",
@@ -2298,7 +2367,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6469
+		"id": 6469,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens pro Veranlagung",
@@ -2332,7 +2402,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6470
+		"id": 6470,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittelwert des Reinvermögens pro Veranlagung",
@@ -2369,7 +2440,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6471
+		"id": 6471,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit dem Arbeitsplatzangebot",
@@ -2402,7 +2474,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6472
+		"id": 6472,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Einschätzung der wirtschaftlichen Lage",
@@ -2435,7 +2508,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6473
+		"id": 6473,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Familienmietzinsbeitragsquote nach Staatsangehörigkeit",
@@ -2468,7 +2542,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6474
+		"id": 6474,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -2503,7 +2578,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6475
+		"id": 6475,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -2537,7 +2613,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6476
+		"id": 6476,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittlere Anzahl Personen pro Haushalt",
@@ -2571,7 +2648,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6477
+		"id": 6477,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -2605,7 +2683,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6478
+		"id": 6478,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit",
@@ -2638,7 +2717,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6479
+		"id": 6479,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl ordentlich Eingebürgerte",
@@ -2671,7 +2751,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6480
+		"id": 6480,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Personen mit und ohne Migrationshintergrund",
@@ -2704,7 +2785,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6481
+		"id": 6481,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene",
@@ -2738,7 +2820,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6482
+		"id": 6482,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene",
@@ -2772,7 +2855,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6483
+		"id": 6483,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene",
@@ -2806,7 +2890,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6484
+		"id": 6484,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschuldigte ausländische Erwachsene",
@@ -2840,7 +2925,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6485
+		"id": 6485,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschuldigte Jugendliche pro 1000 Jugendliche",
@@ -2874,7 +2960,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6487
+		"id": 6487,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschuldigte Jugendliche pro 1000 Jugendliche",
@@ -2908,7 +2995,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6488
+		"id": 6488,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschuldigte Jugendliche pro 1000 Jugendliche",
@@ -2942,7 +3030,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6489
+		"id": 6489,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschuldigte ausländische Jugendliche",
@@ -2976,7 +3065,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6490
+		"id": 6490,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschuldigte Jugendliche nach Straftatbestand",
@@ -3009,7 +3099,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6491
+		"id": 6491,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beteiligung an Freiwilligenarbeit",
@@ -3045,7 +3136,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6492
+		"id": 6492,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
@@ -3078,7 +3170,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6493
+		"id": 6493,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
@@ -3111,7 +3204,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6494
+		"id": 6494,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Interesse an der Politik in Basel-Stadt",
@@ -3144,7 +3238,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6495
+		"id": 6495,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
@@ -3177,7 +3272,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6496
+		"id": 6496,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit dem Kulturangebot",
@@ -3210,7 +3306,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6499
+		"id": 6499,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot nach Heimat",
@@ -3243,7 +3340,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6504
+		"id": 6504,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung des Wohnorts nach Heimat",
@@ -3276,7 +3374,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6507
+		"id": 6507,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung des Wohnquartiers nach Heimat",
@@ -3309,7 +3408,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6508
+		"id": 6508,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der Zusammensetzung der Quartierbevölkerung nach Heimat",
@@ -3342,7 +3442,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6509
+		"id": 6509,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nachfrage nach nicht in der Schweiz geborenen Bekannten",
@@ -3375,7 +3476,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6510
+		"id": 6510,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sprachen im Freundeskreis",
@@ -3408,7 +3510,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6511
+		"id": 6511,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bekanntheit und Nutzung der Mütter- und Väterberatung nach gesprochener Sprache",
@@ -3441,7 +3544,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6512
+		"id": 6512,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bekanntheit und Nutzung von Elternbildungsangeboten nach gesprochener Sprache",
@@ -3474,7 +3578,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6513
+		"id": 6513,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Gutscheine für Gratis-Deutschkurse",
@@ -3508,7 +3613,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6514
+		"id": 6514,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung",
@@ -3542,7 +3648,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6515
+		"id": 6515,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der Bildungschancen nach gesprochener Sprache",
@@ -3575,7 +3682,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6516
+		"id": 6516,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der individuellen Förderung der Kinder nach gesprochener Sprache",
@@ -3608,7 +3716,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6517
+		"id": 6517,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Ausländer nach Alter und Art der Bewilligung",
@@ -3641,6 +3750,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6570
+		"id": 6570,
+		"darstellungsart": "Grafik"
 	}
 ];

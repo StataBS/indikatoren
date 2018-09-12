@@ -327,11 +327,12 @@
     "padding": 0,
     "margin": 3
   },
-  "exporting": {
-    "enabled": false,
-    "filename": 6307
-  },
   "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "line": {
       "connectNulls": true,
       "marker": {
@@ -339,5 +340,9 @@
         "symbol": "circle"
       }
     }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6307
   }
 }

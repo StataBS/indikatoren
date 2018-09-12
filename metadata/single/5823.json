@@ -1,40 +1,29 @@
-{
- "title": "Beschäftigtendichte",
- "subtitle": "Anzahl Beschäftigte pro Hektar",
- "kuerzel": "I.03.2.05823",
- "kuerzelKunde": "ST 7-2",
- "description": "Beschäftigtendichte",
- "id": 5823,
- "thema": "03 Erwerbsleben",
- "unterthema": "Beschäftigte ",
- "kennzahlenset": "Richtplan",
- "raeumlicheGliederung": [
-  "Kanton"
- ],
- "aktualisierungsdatum": "2017-06-26T14:38:43.4343",
- "schlagwort": [
-  "Beschäftigte"
- ],
- "stufe1": "Sachgebiet Siedlung - Wirtschaft",
- "stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2015 in Vollzeitäquivalente (VZÄ) umgerechnet rund 151 600 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von etwa 41 Beschäftigten (VZÄ) pro Hektar. Dieser Wert hat sich in den letzten Jahren kaum verändert.",
- "erlaeuterungen": "Die Unternehmensstatistik (STATENT) basiert auf den AHV-Registerdaten. Als beschäftigt gilt jede Person mit AHV-pflichtigem Einkommen. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus einer Schätzung basierend auf den Beschäftigtenzahlen.",
- "template": "line001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "02_04_00_00_00_002",
- "parentId": null,
- "children": [
-  "6254"
- ],
- "renderLink": [],
- "quellenangabe": [
-  "Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Beschäftigtendichte",
+"subtitle":"Anzahl Beschäftigte pro Hektar, Basel-Stadt",
+"kuerzel":"I.03.2.5823",
+"kuerzelKunde":"ST 7-2",
+"description":"Beschäftigtendichte",
+"id":5823,
+"thema":"03 Erwerbsleben",
+"unterthema":"Beschäftigte ",
+"kennzahlenset":"Richtplan",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2018-09-07T10:01:16.1616",
+"stufe1":"Sachgebiet Siedlung - Wirtschaft",
+"stufe2":"Strategie 7: Raum für die Entwicklung der Wirtschaft",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Im Kanton Basel-Stadt arbeiteten 2016 in Vollzeitäquivalente (VZÄ) umgerechnet rund 151 300 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von etwa 42 Beschäftigten (VZÄ) pro Hektar. Dieser Wert hat sich in den letzten Jahren kaum verändert.",
+"erlaeuterungen":"Die Unternehmensstatistik (STATENT) basiert auf den AHV-Registerdaten. Als beschäftigt gilt jede Person mit AHV-pflichtigem Einkommen. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
+"template":"line001",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"02_04_00_00_00_002",
+"parentId":null,
+"children":["6254"],
+"renderLink":[],
+"quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"],
+"externalLinks":[""]
 }

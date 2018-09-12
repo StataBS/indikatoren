@@ -545,16 +545,21 @@
       return this.name.replace("&", "u.");
     }
   },
-  "exporting": {
-    "enabled": false,
-    "filename": 6682
-  },
   "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "line": {
       "marker": {
         "enabled": false,
         "symbol": "circle"
       }
     }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6682
   }
 }

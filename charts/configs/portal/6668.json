@@ -651,16 +651,21 @@
     },
     "padding": 0
   },
-  "exporting": {
-    "enabled": false,
-    "filename": 6668
-  },
   "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "line": {
       "marker": {
         "enabled": false,
         "symbol": "circle"
       }
     }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6668
   }
 }

@@ -178,15 +178,18 @@
     },
     "padding": 0
   },
-  "exporting": {
-    "enabled": false,
-    "filename": 6326
-  },
   "plotOptions": {
     "series": {
+      "marker": {
+        "enabled": false
+      },
       "pointPadding": 0,
       "borderWidth": 0,
       "itemWidth": 10
     }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6326
   }
 }

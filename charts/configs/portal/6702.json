@@ -1823,11 +1823,12 @@
       return this.name.split("(")[0].replace("und", "u.");//.replace(" und Süd", " <br/>und Süd");
     }
   },
-  "exporting": {
-    "enabled": false,
-    "filename": 6702
-  },
   "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "line": {
       "marker": {
         "enabled": false,
@@ -1835,5 +1836,9 @@
         "radius": 1.5
       }
     }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6702
   }
 }

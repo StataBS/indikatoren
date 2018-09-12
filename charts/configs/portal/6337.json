@@ -190,12 +190,11 @@
     },
     "padding": 0
   },
-  "exporting": {
-    "enabled": false,
-    "filename": 6337
-  },
   "plotOptions": {
     "series": {
+      "marker": {
+        "enabled": false
+      },
       "pointPadding": 100,
       "borderWidth": 0,
       "pointWidth": 30,
@@ -206,5 +205,9 @@
       },
       "stacking": "normal"
     }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6337
   }
 }

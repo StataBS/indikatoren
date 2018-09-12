@@ -406,7 +406,28 @@
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "dataLabels": {
+        "enabled": true,
+        "allowOverlap": true,
+        "formatter": function () {
+              var last  = this.series.data[this.series.data.length - 1];
+              if (this.point.category === last.category  && this.point.y === last.y) {
+                return this.series.name;
+              }
+              return "";
+            }
+      }
+    }
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){
@@ -441,21 +462,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "enabled": true,
-        "allowOverlap": true,
-        "formatter": function () {
-              var last  = this.series.data[this.series.data.length - 1];
-              if (this.point.category === last.category  && this.point.y === last.y) {
-                return this.series.name;
-              }
-              return "";
-            }
-      }
     }
   },
   "exporting": {

@@ -189,11 +189,12 @@
     "x": 25,
     "itemWidth": 200
   },
-  "exporting": {
-    "enabled": false,
-    "filename": 6264
-  },
   "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "line": {
       "connectNulls": true,
       "marker": {
@@ -201,5 +202,9 @@
         "symbol": "circle"
       }
     }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6264
   }
 }

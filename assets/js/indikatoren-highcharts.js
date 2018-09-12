@@ -44,9 +44,14 @@ function createChartConfig(data, chartOptions, template, chartMetaData, view, su
     var injectedOptions = injectMetadataToChartConfig(options, chartMetaData, view, suppressNumberInTitle);
     //replace . in labels with spaces - necessary for space between column groups
     var replacedOptions = createEmptyLabels(injectedOptions);
+    //add beforeSeries as last series
+    var beforeSeriesOptions = replacedOptions;     
+    if (beforeSeriesOptions.beforeSeries) {beforeSeriesOptions.series = replacedOptions.beforeSeries.concat(replacedOptions.series)} 
+    delete beforeSeriesOptions.beforeSeries;
+
     //add afterSeries as last series
-    var afterSeriesOptions = replacedOptions;     
-    if (afterSeriesOptions.afterSeries) {afterSeriesOptions.series = replacedOptions.series.concat(replacedOptions.afterSeries)} 
+    var afterSeriesOptions = beforeSeriesOptions;     
+    if (afterSeriesOptions.afterSeries) {afterSeriesOptions.series = beforeSeriesOptions.series.concat(beforeSeriesOptions.afterSeries)} 
     delete afterSeriesOptions.afterSeries;
 
     callbackFn(afterSeriesOptions);

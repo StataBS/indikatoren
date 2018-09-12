@@ -241,14 +241,19 @@
     },
     "padding": 0
   },
-  "exporting": {
-    "enabled": false,
-    "filename": 6730
-  },
   "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "area": {
       "stacking": "normal",
       "lineWidth": 0
     }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6730
   }
 }

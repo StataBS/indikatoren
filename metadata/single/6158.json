@@ -1,42 +1,29 @@
-{
- "title": "CO<sub>2</sub>-Emissionen Verkehr",
- "subtitle": "in Tonnen",
- "kuerzel": "I.02.5.06158",
- "kuerzelKunde": "5.5",
- "description": "CO<sub>2</sub>-Emissionen Verkehr",
- "id": 6158,
- "thema": "02 Raum, Umwelt",
- "unterthema": "Luftschadstoffe",
- "kennzahlenset": "Legislaturplan",
- "raeumlicheGliederung": [
-  "Kanton"
- ],
- "aktualisierungsdatum": "2017-11-29T00:00:00.000",
- "schlagwort": [
-  "Nachhaltigkeit",
-  "Umwelt",
-  "Luft"
- ],
- "stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "2014 waren die durch den Verkehr verursachten CO<sub>2</sub>-Emissionen sowohl total als auch pro Kopf geringer als noch 2010.",
- "erlaeuterungen": "Die CO<sub>2</sub>-Produktion des Verkehrs berechnet sich aus der Summe der Verbräuche von Benzin und Diesel multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Verbrauch durch die mittlere Bevölkerung dividiert. Die Verbräuche von Benzin und Diesel werden im Gesamtverkehrsmodell modelliert.",
- "template": "template001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "05_00_00_00_00_005",
- "parentId": null,
- "children": [
-  "6310"
- ],
- "renderLink": [],
- "quellenangabe": [
-  "Statistisches Amt Basel-Stadt, Energiestatistik"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"CO<sub>2</sub>-Emissionen Verkehr",
+"subtitle":"in Tonnen, Basel-Stadt",
+"kuerzel":"I.02.5.6158",
+"kuerzelKunde":"5.5",
+"description":"CO<sub>2</sub>-Emissionen Verkehr",
+"id":6158,
+"thema":"02 Raum, Umwelt",
+"unterthema":"Luftschadstoffe",
+"kennzahlenset":"Legislaturplan",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2018-09-05T16:07:06.066",
+"stufe1":"Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Sowohl die Produktion von CO<sub>2</sub> aus fossilen Brennstoffen wie auch der Pro-Kopf-Verbrauch von CO<sub>2</sub> haben sich seit 2010 stetig verringert.",
+"erlaeuterungen":"Die CO<sub>2</sub> Produktion des Verkehrs berechnet sich aus der Summe der Verbräuche von Benzin und Diesel multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub> durch die mittlere Bevölkerung dividiert. Die Verbräuche von Benzin und Diesel werden im Gesamtverkehrsmodell modelliert.",
+"template":"template001",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"05_00_00_00_00_005",
+"parentId":null,
+"children":["6310"],
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Energiestatistik"],
+"externalLinks":[""]
 }

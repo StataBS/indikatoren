@@ -995,16 +995,21 @@
 		    return this.name.replace("und", "u.");
 		  }
   },
-  "exporting": {
-    "enabled": false,
-    "filename": 6660
-  },
   "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "line": {
       "marker": {
         "enabled": false,
         "symbol": "circle"
       }
     }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6660
   }
 }

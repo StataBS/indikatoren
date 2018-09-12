@@ -1082,11 +1082,12 @@
 		    return this.name.replace("und", "u.");
 		  }
   },
-  "exporting": {
-    "enabled": false,
-    "filename": 6663
-  },
   "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "line": {
       "connectNulls": true,
       "marker": {
@@ -1094,5 +1095,9 @@
         "symbol": "circle"
       }
     }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6663
   }
 }

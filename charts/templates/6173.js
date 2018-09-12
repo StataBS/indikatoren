@@ -12,7 +12,7 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },     
       "color": "#8b2223"
     }
@@ -21,7 +21,7 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
     "shared": false
   },
-  "plotOptions": {
+  /*"plotOptions": {
     "series": {
       "dataLabels": {
         "enabled": true,
@@ -40,7 +40,7 @@
     },
     
     
-  }
+  }*/
 }
 }());
 
