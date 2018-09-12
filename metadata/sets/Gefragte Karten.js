@@ -36,7 +36,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6373
+		"id": 6373,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Reinvermögen nach Wohnviertel",
@@ -75,7 +76,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6374
+		"id": 6374,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Unter 20-Jährige nach Wohnviertel",
@@ -114,7 +116,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6375
+		"id": 6375,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Über 64-Jährige nach Wohnviertel",
@@ -153,7 +156,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6376
+		"id": 6376,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Gebäudedichte nach Wohnviertel",
@@ -192,7 +196,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6377
+		"id": 6377,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Wohnungsdichte nach Wohnviertel",
@@ -231,7 +236,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6378
+		"id": 6378,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Leerwohnungen nach Wohnviertel",
@@ -270,7 +276,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6379
+		"id": 6379,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Sozialhilfe nach Wohnviertel",
@@ -309,7 +316,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6380
+		"id": 6380,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Ausländische Bevölkerung nach Wohnviertel",
@@ -348,7 +356,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6381
+		"id": 6381,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Reineinkommen nach Wohnviertel",
@@ -387,7 +396,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6382
+		"id": 6382,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Arbeitsstätten nach Wohnviertel",
@@ -427,7 +437,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6383
+		"id": 6383,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Beschäftigte nach Wohnviertel",
@@ -467,7 +478,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6384
+		"id": 6384,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Sesshaftigkeit nach Wohnviertel",
@@ -504,6 +516,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
+		"darstellungsart": "Karte kategoriell",
 		"id": 6385
 	},
 	{
@@ -541,6 +554,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
+		"darstellungsart": "Karte kategoriell",
 		"id": 6386
 	},
 	{
@@ -578,6 +592,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
+		"darstellungsart": "Karte kategoriell",
 		"id": 6387
 	},
 	{
@@ -615,6 +630,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
+		"darstellungsart": "Karte kategoriell",
 		"id": 6388
 	},
 	{
@@ -652,6 +668,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
+		"darstellungsart": "Karte kategoriell",
 		"id": 6389
 	},
 	{
@@ -689,6 +706,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
+		"darstellungsart": "Karte kategoriell",
 		"id": 6390
 	},
 	{
@@ -726,6 +744,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
+		"darstellungsart": "Karte kategoriell",
 		"id": 6391
 	},
 	{
@@ -763,6 +782,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
+		"darstellungsart": "Karte kategoriell",
 		"id": 6392
 	},
 	{
@@ -800,6 +820,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
+		"darstellungsart": "Karte kategoriell",
 		"id": 6394
 	},
 	{
@@ -838,6 +859,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
+		"darstellungsart": "Karte kategoriell",
 		"id": 6395
 	},
 	{
@@ -876,6 +898,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
+		"darstellungsart": "Karte kategoriell",
 		"id": 6396
 	},
 	{
@@ -913,6 +936,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
+		"darstellungsart": "Karte kategoriell",
 		"id": 6778
 	}
 ];
