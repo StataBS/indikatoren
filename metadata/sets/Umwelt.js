@@ -30,7 +30,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0603' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4221
+		"id": 4221,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Energiepreise Schweiz",
@@ -64,7 +65,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/themen/05/02.html' target = '_blank'>Landesindex der Konsumentenpreise (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0601' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4222
+		"id": 4222,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Neue erneuerbare Energien",
@@ -98,7 +100,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0604' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4223
+		"id": 4223,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Eigenproduktion Strom",
@@ -132,7 +135,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0605' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4224
+		"id": 4224,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Energieimportabhängigkeit",
@@ -166,7 +170,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.statistik-bs.ch/tabellen/t08' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0606' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4225
+		"id": 4225,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Energiebezugsfläche mit Minergie-P® und A®-Standard",
@@ -201,7 +206,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.aue.bs.ch/energie/gebaeude-energie.html' target = '_blank'>Gebäude und Energie (AUE BS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0609' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4226
+		"id": 4226,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Spezifischer Heizenergieverbrauch von neuen Bauten",
@@ -235,7 +241,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.aue.bs.ch/energie/gebaeude-energie.html' target = '_blank'>Gebäude und Energie (AUE BS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0610' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4227
+		"id": 4227,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Heizgradtage",
@@ -268,7 +275,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0611' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4228
+		"id": 4228,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Energieeffizienz",
@@ -302,7 +310,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/raum-umwelt/ressourcen/umweltindikatorensystem/nutzung-natuerliche-ressourcen/energieeffizienz.html' target = '_blank'>Energieeffizienz Schweiz (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0612' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4229
+		"id": 4229,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bruttoenergieverbrauch nach Energieträger",
@@ -336,7 +345,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0602' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4230
+		"id": 4230,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "AOX-Fracht Abwasser",
@@ -370,7 +380,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983281/index.html#app4' target = '_blank'>Gewässerschutzverordnung, Anhang 3.1</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1604' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4231
+		"id": 4231,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nitrat im Grundwasser",
@@ -404,7 +415,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983281/index.html' target = '_blank'>Gewässerschutzverordnung (GSchV, SR 814.201)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1602' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4232
+		"id": 4232,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wasserverbrauch Haushalte und Kleingewerbe",
@@ -437,7 +449,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1605' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4233
+		"id": 4233,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wasserverbrauch Gewerbe und Industrie",
@@ -470,7 +483,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1606' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4234
+		"id": 4234,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gelöster Organischer Kohlenstoff (DOC)",
@@ -504,7 +518,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983281/index.html#app4' target = '_blank'>Gewässerschutzverordnung, Anhang 3.1</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1607' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4236
+		"id": 4236,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wassertemperatur Grundwasser",
@@ -538,7 +553,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.aue.bs.ch/wasser/grundwasser/grundwasserpegel-grundwasserqualitaet.html' target = '_blank'>Hydrologisches Jahrbuch BS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4237
+		"id": 4237,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Pflanzenschutzmittel im Grundwasser",
@@ -571,7 +587,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1611' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4238
+		"id": 4238,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ausbaugrad der Abwasserreinigungsanlagen",
@@ -604,7 +621,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1614' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4239
+		"id": 4239,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wassertemperatur Oberflächengewässer",
@@ -638,7 +656,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.aue.bs.ch/umweltanalytik/rheinueberwachungsstation-weil-am-rhein.html' target = '_blank'>Rheinüberwachungsstation Weil am Rhein (RÜS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1609' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4240
+		"id": 4240,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Medikamentenkonsum",
@@ -672,7 +691,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/erhebungen/sgb.html' target = '_blank'>Bundesamt für Statistik, Schweizerische Gesundheitsbefragung</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1617' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4241
+		"id": 4241,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Biodiversität der Fliessgewässer",
@@ -705,7 +725,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1613' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4243
+		"id": 4243,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Organische Spurenstoffe in Gewässern",
@@ -738,7 +759,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1612' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4244
+		"id": 4244,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Revitalisierungsrate Oberflächengewässer",
@@ -772,7 +794,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.aue.bs.ch/wasser/oberflaechengewaesser/lebensraum.html' target = '_blank'>AUE BS, Lebensraum Oberflächengewässer</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1616' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4245
+		"id": 4245,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Betriebseinheiten im Geltungsbereich der Störfallverordnung (StFV)",
@@ -806,7 +829,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.admin.ch/opc/de/classified-compilation/19910033/index.html' target = '_blank'>Verordnung über den Schutz vor Störfällen (Störfallverordnung, StFV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-14-1401' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4246
+		"id": 4246,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Störfälle und Ereignisse",
@@ -840,7 +864,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.kantonslabor.bs.ch/umwelt/anlagensicherheit.html' target = '_blank'>Störfallvorsorge BS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-14-1403' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4247
+		"id": 4247,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bodennutzung",
@@ -874,7 +899,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target = '_blank'>Arealstatistik Schweiz (Methode)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0506' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4249
+		"id": 4249,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nutzung der landwirtschaftlichen Nutzfläche",
@@ -908,7 +934,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/land-forstwirtschaft/landwirtschaft.html' target = '_blank'>Landwirtschaftliche Strukturerhebung (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0507' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4250
+		"id": 4250,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gewicht der Landwirtschaftsmaschinen",
@@ -942,7 +969,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/themen/11/03/blank/02.html' target = '_blank'>Strassenfahrzeugbestand (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0505' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4252
+		"id": 4252,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bodenversiegelung",
@@ -976,7 +1004,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target = '_blank'>Arealstatistik Schweiz (Methode)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0502' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4253
+		"id": 4253,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Landwirtschaftliche Nutzfläche",
@@ -1010,7 +1039,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/land-forstwirtschaft/landwirtschaft.html' target = '_blank'>Landwirtschaftliche Strukturerhebung (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0503' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4254
+		"id": 4254,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Siedlungsfläche",
@@ -1044,7 +1074,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target = '_blank'>Arealstatistik Schweiz (Methode)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0501' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4255
+		"id": 4255,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Aktiv begleitete Sanierungen",
@@ -1078,7 +1109,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983151/index.html' target = '_blank'>Altlasten-Verordnung (SR 814.680)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0207' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4257
+		"id": 4257,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Belastete Standorte nach ihrer altlastenrechtlichen Bewertung",
@@ -1112,7 +1144,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?instance=default&language=de&theme=186' target = '_blank'>Kataster der belasteten Standorte im Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0205' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4258
+		"id": 4258,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Abgeschlossene Sanierungen",
@@ -1146,7 +1179,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983151/index.html' target = '_blank'>Altlasten-Verordnung (SR 814.680)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0206' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4259
+		"id": 4259,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Belastete Standorte",
@@ -1180,7 +1214,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?instance=default&language=de&theme=186' target = '_blank'>Kataster der belasteten Standorte im Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0204' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4260
+		"id": 4260,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Altlastenrechtlich beurteilte Baugesuche",
@@ -1214,7 +1249,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.aue.bs.ch/altlasten-boden/bauen-auf-belasteten-standorten.html' target = '_blank'>Kanton Basel-Stadt: Bauen auf belasteten Standorten</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0208' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4261
+		"id": 4261,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Unbeabsichtigte Freisetzung von gentechnisch veränderten Organismen",
@@ -1248,7 +1284,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.kantonslabor.bs.ch/berichte/jahresberichte.html' target = '_blank'>Jahresberichte Kantonales Laboratorium Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0403' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4262
+		"id": 4262,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Hochsicherheitslaboratorien in Biotechnologiebetrieben",
@@ -1282,7 +1319,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=67&nodefault&layers=stadtplan_grau_osm_25000,gefkatasterex' target = '_blank'>Gefahrenkataster BS (Kataster der Störfallverordnung)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0401' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4263
+		"id": 4263,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beanstandungen bei Inspektionen",
@@ -1316,7 +1354,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.kantonslabor.bs.ch/umwelt/anlagensicherheit/biosicherheit.html' target = '_blank'>Kantonales Laboratorium Basel-Stadt, Biosicherheit</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0404' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4264
+		"id": 4264,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Tätigkeiten mit gentechnisch veränderten und pathogenen Organismen",
@@ -1350,7 +1389,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/20100803/201506010000/814.912.pdf' target = '_blank'>Einschliessungsverordnung (ESV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0402' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4265
+		"id": 4265,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Fluglärm",
@@ -1385,7 +1425,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19860372/index.html#app5' target = '_blank'>Lärmschutz-Verordnung (LSV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1005' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4266
+		"id": 4266,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Lärmreklamationen",
@@ -1420,7 +1461,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.aue.bs.ch/laerm/laermsorgen.html' target = '_blank'>Beschwerdeformular Lärmbelästigung Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1003' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4267
+		"id": 4267,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Eingebaute Schallschutzfenster",
@@ -1455,7 +1497,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19860372/index.html' target = '_blank'>Lärmschutz-Verordnung (LSV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1004' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4268
+		"id": 4268,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Lärmbelastete Personen",
@@ -1489,7 +1532,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=19&cps=2612411.74,1267773.51,25000&nodefault&layers=stadtplan_grau_osm_25000,strlaermtag' target = '_blank'>Strassenlärmkataster BS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1002' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4269
+		"id": 4269,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Lärmmindernder Strassenbelag",
@@ -1522,7 +1566,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1008' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4270
+		"id": 4270,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Stickoxid-Emissionen",
@@ -1558,7 +1603,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.bafu.admin.ch/luft/00585/10763/index.html?lang=de' target = '_blank'>Informationen zu Stickoxiden (BAFU)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1101' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4272
+		"id": 4272,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Emissionen flüchtiger organischer Verbindungen (VOC)",
@@ -1594,7 +1640,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.bafu.admin.ch/luft/index.html?lang=de' target = '_blank'>BAFU: Informationen zum Thema Luft</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1102' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4273
+		"id": 4273,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Feinstaub-Emissionen (PM10)",
@@ -1630,7 +1677,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.bafu.admin.ch/luft/index.html?lang=de' target = '_blank'>BAFU: Informationen zum Thema Luft</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1103' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4274
+		"id": 4274,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Langzeitbelastungsindex",
@@ -1668,7 +1716,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.bafu.admin.ch/luft/index.html?lang=de' target = '_blank'>BAFU: Informationen zum Thema Luft</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1104' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4275
+		"id": 4275,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Rindviehbestand",
@@ -1702,7 +1751,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/lb/01.html' target = '_blank'>Landwirtschaftliche Betriebsstrukturerhebung BFS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1105' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4276
+		"id": 4276,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Handlungsbedarf Luftschadstoffe",
@@ -1737,7 +1787,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1108' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4277
+		"id": 4277,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Feinstaub-Immissionen",
@@ -1772,7 +1823,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1109' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4278
+		"id": 4278,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Grenzwertüberschreitungen Ozon",
@@ -1807,7 +1859,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1110' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4279
+		"id": 4279,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gesundheitskosten der Luftverschmutzung",
@@ -1843,7 +1896,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung' target = '_blank'>Lufthygieneamt beider Basel: Luftreinhalteplan beider Basel 2016</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1107' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4280
+		"id": 4280,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Stickstoffdioxid-Immissionen",
@@ -1878,7 +1932,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1111' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4281
+		"id": 4281,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nutzungsdruck",
@@ -1911,7 +1966,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1508' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4283
+		"id": 4283,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Biotopwert",
@@ -1945,7 +2001,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.lfi.ch/index.php' target = '_blank'>Schweizerisches Landesforstinventar (LFI)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1509' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4284
+		"id": 4284,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Stickstoffeintrag Wald",
@@ -1979,7 +2036,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung' target = '_blank'>Luftreinhalteplan beider Basel</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1505' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4285
+		"id": 4285,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zwangsnutzungen",
@@ -2012,7 +2070,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1506' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4287
+		"id": 4287,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Waldreservate",
@@ -2046,7 +2105,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/landw-zentrum-ebenrain/natur/naturschutz/naturschutz-im-wald' target = '_blank'>Naturschutz im Wald (LZE)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1511' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4288
+		"id": 4288,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Waldrandpflege",
@@ -2080,7 +2140,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/landw-zentrum-ebenrain/natur/naturschutz/naturschutz-im-wald' target = '_blank'>Naturschutz im Wald (LZE)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1514' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4290
+		"id": 4290,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gepflegte Jungwaldfläche",
@@ -2113,7 +2174,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1512' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4291
+		"id": 4291,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "In der Luft stabile Stoffe in Kälte- und Wärmepumpenanlagen",
@@ -2147,7 +2209,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.admin.ch/opc/de/classified-compilation/20021520/index.html#app30' target = '_blank'>Chemikalien-Risikoreduktions-Verordnung (ChemRRV), Anhang 2.10 - Kältemittel</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-13-1301' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4292
+		"id": 4292,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ozonschichtabbauende Stoffe in Kälteanlagen",
@@ -2181,7 +2244,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.admin.ch/opc/de/classified-compilation/20021520/index.html#app30' target = '_blank'>Chemikalien-Risikoreduktions-Verordnung (ChemRRV), Anhang 2.10 - Kältemittel</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-13-1303' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4293
+		"id": 4293,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ozonschichtabbauende Stoffe (Halone) in Löschanlagen",
@@ -2215,7 +2279,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/20021520/index.html#app31' target = '_blank'>Chemikalien-Risikoreduktions-Verordnung (ChemRRV), Anhang 2.11 - Löschmittel</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-13-1304' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4294
+		"id": 4294,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Elektroautos",
@@ -2249,7 +2314,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0805' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4298
+		"id": 4298,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen",
@@ -2283,7 +2349,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.bafu.admin.ch/klima/index.html?lang=de' target = '_blank'>Bundesamt für Umwelt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0808' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4299
+		"id": 4299,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Hitzetage",
@@ -2316,7 +2383,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4300
+		"id": 4300,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Jahresmitteltemperatur",
@@ -2350,7 +2418,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.klimabasel.ch/' target = '_blank'>Meteorologischer Verein der Region Basel</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0803' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4301
+		"id": 4301,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen Neuzulassungen",
@@ -2384,7 +2453,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0806' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4302
+		"id": 4302,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Strukturen der Fliessgewässer",
@@ -2418,7 +2488,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.modul-stufen-konzept.ch/fg/index' target = '_blank'>Modul-Stufen-Konzept</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1608' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4303
+		"id": 4303,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Kantonale Unterschutzstellungen",
@@ -2452,7 +2523,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.stadtgaertnerei.bs.ch/oekologische-verantwortung/naturschutzkonzept.html' target = '_blank'>Naturschutz BS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-03-0301' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4305
+		"id": 4305,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Invasive gebietsfremde Arten",
@@ -2486,7 +2558,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19920136/index.html' target = '_blank'>Übereinkommen über die Biologische Vielfalt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-03-0302' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4306
+		"id": 4306,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Biodiversitätsförderflächen in der Landwirtschaft",
@@ -2519,7 +2592,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-03-0305' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4307
+		"id": 4307,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Landschaftszerschneidung",
@@ -2553,7 +2627,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/publikationen.assetdetail.344054.html' target = '_blank'>Landschaftszerschneidung Schweiz</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-03-0303' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4308
+		"id": 4308,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bauzonenflächenbeanspruchung",
@@ -2586,7 +2661,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-09-0902' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4309
+		"id": 4309,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Freiheitsgrad",
@@ -2620,7 +2696,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.planungsamt.bs.ch/planungsgrundlagen-konzepte/konzepte/freiraumkonzept.html' target = '_blank'>Freiraumkonzept BS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-09-0903' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4310
+		"id": 4310,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Fläche der Bauzone",
@@ -2655,7 +2732,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=20' target = '_blank'>Zonenplan BS (GeoViewer)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-09-0901' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4312
+		"id": 4312,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Hochwasser",
@@ -2690,7 +2768,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=320' target = '_blank'>Gefahrenkarte Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0702' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4314
+		"id": 4314,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Investitionen in den Schutz vor Naturgefahren",
@@ -2723,7 +2802,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0704' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4315
+		"id": 4315,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gebäudeschäden durch Hochwasser und Rutschungen",
@@ -2758,7 +2838,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.gesetzessammlung.bs.ch/frontend/versions/3977' target = '_blank'>Gebäudeversicherungsgesetz Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0705' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4316
+		"id": 4316,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerung",
@@ -2793,7 +2874,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Einwohner: Zentrale Begriffe BS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1702' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4318
+		"id": 4318,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Verkehrsleistungsindex",
@@ -2827,7 +2909,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.medienmitteilungen.bs.ch/verkehrspolitisches_leitbild_juni_2015.pdf' target = '_blank'>Verkehrspolitisches Leitbild und Massnahmenplan, Juni 2015</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1705' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4319
+		"id": 4319,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wohnfläche",
@@ -2861,7 +2944,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/bau-wohnungswesen/wohnungen/wohnverhaeltnisse.html' target = '_blank'>Wohnverhältnisse Schweiz (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1703' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4320
+		"id": 4320,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Stromverbrauch pro Einwohner",
@@ -2895,7 +2979,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0607' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4321
+		"id": 4321,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Stromverbrauch nach Produktionsart",
@@ -2929,7 +3014,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0613' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4322
+		"id": 4322,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bruttoinlandprodukt",
@@ -2964,7 +3050,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/volkswirtschaft/erhebungen/bipkt.html' target = '_blank'>BIP der Kantone (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1701' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4323
+		"id": 4323,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Motorfahrzeuge",
@@ -2998,7 +3085,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1704' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4325
+		"id": 4325,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Erdbebenertüchtigung von Bauwerken",
@@ -3032,7 +3120,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/fachinformationen-erdbeben/schutz-vor-erdbeben/erdbebengerechtes-bauen/erdbebensichere-neubauten.html' target = '_blank'>Erdbebensichere Neubauten (BAFU)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0703' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4329
+		"id": 4329,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Auf Deponien abgelagerte Abfälle",
@@ -3065,7 +3154,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0106' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4330
+		"id": 4330,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Recyclingquote",
@@ -3099,7 +3189,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.aue.bs.ch/abfaelle.html' target = '_blank'>Amt für Umwelt und Energie Basel-Stadt: Abfälle</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0102' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4331
+		"id": 4331,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bauabfälle",
@@ -3133,7 +3224,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.aue.bs.ch/abfaelle/industrie-gewerbe/bauabfaelle.html' target = '_blank'>Bauabfälle (Kanton Basel-Stadt)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0108' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4332
+		"id": 4332,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sonderabfälle",
@@ -3167,7 +3259,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.aue.bs.ch/abfaelle/industrie-gewerbe/bauabfaelle.html' target = '_blank'>Bauabfälle (Kanton Basel-Stadt)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0109' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4333
+		"id": 4333,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Abfallverbrennung",
@@ -3201,7 +3294,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.iwb.ch/Ueber-uns/Kehrichtverwertung.html' target = '_blank'>KVA Basel (IWB)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0104' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4334
+		"id": 4334,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Deponierte Klärschlammasche",
@@ -3234,7 +3328,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0107' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4335
+		"id": 4335,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Verbrennungsrückstände",
@@ -3268,7 +3363,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.iwb.ch/Ueber-uns/Kehrichtverwertung/Alles-ueber-die-KVA.html' target = '_blank'>KVA Basel (IWB): Reststoffentsorgung</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0105' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4336
+		"id": 4336,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Siedlungsabfälle",
@@ -3302,7 +3398,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.aue.bs.ch/abfaelle.html' target = '_blank'>Amt für Umwelt und Energie Basel-Stadt: Abfälle</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0101' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4337
+		"id": 4337,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Abgebrochene Bruttogeschossfläche",
@@ -3336,7 +3433,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/9-bau-wohnungswesen.html' target = '_blank'>Bau- und Wohnungswesen BS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0103' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4338
+		"id": 4338,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nachhaltige Holznutzung",
@@ -3370,7 +3468,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-wald/wald/waldentwicklung' target = '_blank'>Waldplanung (Amt für Wald beider Basel)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1504' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 5797
+		"id": 5797,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Waldfläche",
@@ -3404,7 +3503,8 @@ var indikatorensetData = [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target = '_blank'>Arealstatistik Schweiz (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1501' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 5798
+		"id": 5798,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil biologisch bewirtschafteter Landwirtschaftsfläche",
@@ -3438,7 +3538,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/land-forstwirtschaft/erhebungen/stru.html' target = '_blank'>Landwirtschaftliche Strukturerhebung (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0511' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 5799
+		"id": 5799,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Holzernte nach Sortimenten",
@@ -3472,6 +3573,7 @@ var indikatorensetData = [
 			"Mehr unter: <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/land-forstwirtschaft/erhebungen/fs.html' target = '_blank'>Schweizerische Forststatistik (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1503' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 5800
+		"id": 5800,
+		"darstellungsart": "Grafik"
 	}
 ];
