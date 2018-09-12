@@ -34,7 +34,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4822
+		"id": 4822,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Ausländer",
@@ -71,7 +72,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4823
+		"id": 4823,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Personen ohne Religionszugehörigkeit",
@@ -108,7 +110,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4824
+		"id": 4824,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
@@ -146,7 +149,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4825
+		"id": 4825,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gymnasialquote",
@@ -183,7 +187,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4826
+		"id": 4826,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Altersquotient",
@@ -221,7 +226,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4827
+		"id": 4827,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sesshaftigkeit",
@@ -258,7 +264,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4828
+		"id": 4828,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Jugendquotient",
@@ -295,7 +302,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4829
+		"id": 4829,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Baujahr Wohngebäude",
@@ -332,7 +340,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4830
+		"id": 4830,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Einfamilienhäuser",
@@ -370,7 +379,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4831
+		"id": 4831,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Grünflächen",
@@ -408,7 +418,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4832
+		"id": 4832,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Fläche pro Wohnung",
@@ -446,7 +457,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4833
+		"id": 4833,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
@@ -486,7 +498,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4834
+		"id": 4834,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
@@ -524,7 +537,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4835
+		"id": 4835,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
@@ -561,7 +575,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4836
+		"id": 4836,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Erwerbstätigenquote",
@@ -599,7 +614,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4837
+		"id": 4837,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
@@ -636,7 +652,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4838
+		"id": 4838,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitslosenquote",
@@ -675,7 +692,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4839
+		"id": 4839,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sozialhilfequote",
@@ -710,7 +728,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=soz_sozhilfe.soz_quote' target='_blank'>Basler Atlas</a>."
 		],
-		"id": 5109
+		"id": 5109,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Ausländer",
@@ -745,7 +764,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevheim.anteil_al' target='_blank'>Basler Atlas</a>."
 		],
-		"id": 5110
+		"id": 5110,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Personen ohne Religionszugehörigkeit",
@@ -780,7 +800,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5111
+		"id": 5111,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
@@ -816,7 +837,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5112
+		"id": 5112,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Gymnasialquote",
@@ -851,7 +873,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5113
+		"id": 5113,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Altersquotient",
@@ -887,7 +910,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5114
+		"id": 5114,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Sesshaftigkeit",
@@ -922,7 +946,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevsess.anteil_sess10' target='_blank'>Basler Atlas</a>."
 		],
-		"id": 5115
+		"id": 5115,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Jugendquotient",
@@ -957,7 +982,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5116
+		"id": 5116,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Baujahr Wohngebäude",
@@ -992,7 +1018,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5117
+		"id": 5117,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Einfamilienhäuser",
@@ -1028,7 +1055,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5118
+		"id": 5118,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Grünflächen",
@@ -1064,7 +1092,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=ru_gruen.gruenflaeche_ant' target='_blank'>Basler Atlas</a>."
 		],
-		"id": 5119
+		"id": 5119,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Fläche pro Wohnung",
@@ -1100,7 +1129,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5120
+		"id": 5120,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
@@ -1137,7 +1167,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5121
+		"id": 5121,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
@@ -1173,7 +1204,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_ver.vermoegen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
 		],
-		"id": 5122
+		"id": 5122,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
@@ -1208,7 +1240,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_eink.einkommen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
 		],
-		"id": 5123
+		"id": 5123,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Erwerbstätigenquote",
@@ -1244,7 +1277,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5124
+		"id": 5124,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
@@ -1279,7 +1313,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5125
+		"id": 5125,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Arbeitslosenquote",
@@ -1316,7 +1351,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5126
+		"id": 5126,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Quartierradar Altstadt Grossbasel",
@@ -1350,7 +1386,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6630
+		"id": 6630,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Vorstädte",
@@ -1384,7 +1421,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6631
+		"id": 6631,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Am Ring",
@@ -1418,7 +1456,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6632
+		"id": 6632,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Breite",
@@ -1452,7 +1491,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6633
+		"id": 6633,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar St. Alban",
@@ -1486,7 +1526,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6634
+		"id": 6634,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Gundeldingen",
@@ -1520,7 +1561,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6635
+		"id": 6635,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Bruderholz",
@@ -1554,7 +1596,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6636
+		"id": 6636,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Bachletten",
@@ -1588,7 +1631,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6637
+		"id": 6637,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Gotthelf",
@@ -1622,7 +1666,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6638
+		"id": 6638,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Iselin",
@@ -1656,7 +1701,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6639
+		"id": 6639,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar St. Johann",
@@ -1690,7 +1736,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6640
+		"id": 6640,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Altstadt Kleinbasel",
@@ -1724,7 +1771,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6641
+		"id": 6641,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Clara",
@@ -1758,7 +1806,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6751
+		"id": 6751,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Wettstein",
@@ -1792,7 +1841,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6752
+		"id": 6752,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Hirzbrunnen",
@@ -1826,7 +1876,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6753
+		"id": 6753,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Rosental",
@@ -1860,7 +1911,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6754
+		"id": 6754,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Matthäus",
@@ -1894,7 +1946,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6755
+		"id": 6755,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Klybeck",
@@ -1928,7 +1981,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6756
+		"id": 6756,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Kleinhüningen",
@@ -1962,7 +2016,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6757
+		"id": 6757,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Riehen",
@@ -1996,7 +2051,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6758
+		"id": 6758,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quartierradar Bettingen",
@@ -2030,6 +2086,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6759
+		"id": 6759,
+		"darstellungsart": "Grafik"
 	}
 ];
