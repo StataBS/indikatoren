@@ -65,7 +65,6 @@ npm run build
 | thema | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?thema=14%20Gesundheit) |  | Pre-populates the thema filter. 
 | unterthema | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?thema=14%20Gesundheit&unterthema=Spit%C3%A4ler) |  | Pre-populates the thema filter. 
 | raeumlicheGliederung | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?raeumlicheGliederung=Kanton) |  | Pre-populates the raeumlicheGliederung filter.  
-| darstellungsart | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?darstellungsart=Karte) |  | Pre-populates the Darstellungsart filter.  
 | stufe1, stufe2, stufe3 | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?Indikatorenset=Arbeitsmarkt&stufe=3&stufe1=Monitoring%20Basler%20Arbeitsmarkt&stufe2=Bruttoinlandprodukt%20und%20Wertsch%C3%B6pfung) |  | Pre-populates the filter for stufe1, stufe2 and stufe3. 
 | hideSidebar | Portal | [Example](https://statabs.github.io/indikatoren/?hideSidebar=true) | false | Hides the sidebar that contains full text search text box, reset button, thema filter, and räumliche Gliederung filter. 
 | hideSearch | Portal | [Example](https://statabs.github.io/indikatoren/?hideSearch=true) | false | Hides the full text search text box. 
@@ -73,7 +72,6 @@ npm run build
 | hideThema | Portal | [Example](https://statabs.github.io/indikatoren/?hideThema=true) | false | Hides the Thema filter control. 
 | hideUnterthema | Portal | [Example](https://statabs.github.io/indikatoren/?hideUnterthema=true) | false | Hides the Unterthema filter control. 
 | hideRaeumlicheGliederung | Portal | [Example](https://statabs.github.io/indikatoren/?hideRaeumlicheGliederung=true) | false | Hides the Räumliche Gliederung filter control. 
-| hideDarstellungsart | Portal | [Example](https://statabs.github.io/indikatoren/?hideDarstellungsart=true) | false | Hides the Darstellungsart filter control. 
 | id | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401) |  | Defines the id of the chart to be displayed. 
 | hideHeaeder | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideHeader=true) | false | Hides the header containing bs.ch logo, StatA text and Link to Indikatorenportal, decreases left margin. 
 | hideTitle | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideTitle=true) | false | Hides the chart Title in the html text below the chart. 

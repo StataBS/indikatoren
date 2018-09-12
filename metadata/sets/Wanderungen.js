@@ -33,8 +33,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6011,
-		"darstellungsart": "Grafik"
+		"id": 6011
 	},
 	{
 		"title": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
@@ -69,8 +68,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6012,
-		"darstellungsart": "Grafik"
+		"id": 6012
 	},
 	{
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland",
@@ -105,8 +103,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6013,
-		"darstellungsart": "Grafik"
+		"id": 6013
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland, bei denen die Staatsangehörigkeit dem Zuzugsland entspricht",
@@ -141,8 +138,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6016,
-		"darstellungsart": "Grafik"
+		"id": 6016
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland und Geschlecht",
@@ -177,8 +173,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6017,
-		"darstellungsart": "Grafik"
+		"id": 6017
 	},
 	{
 		"title": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",
@@ -213,8 +208,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6018,
-		"darstellungsart": "Grafik"
+		"id": 6018
 	},
 	{
 		"title": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
@@ -249,8 +243,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6019,
-		"darstellungsart": "Grafik"
+		"id": 6019
 	},
 	{
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
@@ -286,8 +279,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6021,
-		"darstellungsart": "Grafik"
+		"id": 6021
 	},
 	{
 		"title": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
@@ -323,8 +315,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6022,
-		"darstellungsart": "Karte kontinuierlich"
+		"id": 6022
 	},
 	{
 		"title": "Zugezogene, Weggezogene und Wanderungssaldo",
@@ -359,8 +350,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6023,
-		"darstellungsart": "Grafik"
+		"id": 6023
 	},
 	{
 		"title": "Entwicklung der aus dem Ausland Zugezogenen",
@@ -395,8 +385,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6024,
-		"darstellungsart": "Grafik"
+		"id": 6024
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
@@ -432,7 +421,6 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6025,
-		"darstellungsart": "Karte kontinuierlich"
+		"id": 6025
 	}
 ];

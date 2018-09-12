@@ -40,9 +40,6 @@ files.forEach(function(filepath){
 	    var idFromFileName = path.basename(filepath, path.extname(filepath));
         delete indikator.id;
         indikator.id = parseInt(idFromFileName, 10);
-        
-        //handle missing darstellungsart
-        indikator.darstellungsart = (indikator.darstellungsart || (indikator.template.includes("map") ? "Karte kontinuierlich" : "Grafik"));
          
         saveToIndikatorensetJson(indikator.id, indikator, console);
     }
