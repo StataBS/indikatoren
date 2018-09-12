@@ -31,8 +31,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4211,
-		"darstellungsart": "Grafik"
+		"id": 4211
 	},
 	{
 		"title": "Wasserabfluss via ARA",
@@ -67,8 +66,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4348,
-		"darstellungsart": "Grafik"
+		"id": 4348
 	},
 	{
 		"title": "Ablauffracht nach ARA",
@@ -103,8 +101,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4350,
-		"darstellungsart": "Grafik"
+		"id": 4350
 	},
 	{
 		"title": "Erneuerbarer Strom",
@@ -139,8 +136,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4352,
-		"darstellungsart": "Grafik"
+		"id": 4352
 	},
 	{
 		"title": "Brutvogelindex",
@@ -173,8 +169,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4355,
-		"darstellungsart": "Grafik"
+		"id": 4355
 	},
 	{
 		"title": "Umbau- und Unterhaltsarbeiten",
@@ -207,8 +202,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4356,
-		"darstellungsart": "Grafik"
+		"id": 4356
 	},
 	{
 		"title": "Beschäftigte in Branchen mit hoher Arbeitsproduktivität",
@@ -242,8 +236,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4359,
-		"darstellungsart": "Grafik"
+		"id": 4359
 	},
 	{
 		"title": "Qualifikationsniveau",
@@ -276,8 +269,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4360,
-		"darstellungsart": "Grafik"
+		"id": 4360
 	},
 	{
 		"title": "Nettoverschuldungsquotient",
@@ -310,8 +302,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4361,
-		"darstellungsart": "Grafik"
+		"id": 4361
 	},
 	{
 		"title": "Verkehrsberuhigte Zonen",
@@ -344,8 +335,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4364,
-		"darstellungsart": "Grafik"
+		"id": 4364
 	},
 	{
 		"title": "Einbruchdiebstähle",
@@ -380,8 +370,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4367,
-		"darstellungsart": "Grafik"
+		"id": 4367
 	},
 	{
 		"title": "Familienergänzendes Kinderbetreuungsangebot",
@@ -415,7 +404,6 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4374,
-		"darstellungsart": "Grafik"
+		"id": 4374
 	}
 ];

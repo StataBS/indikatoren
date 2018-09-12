@@ -30,8 +30,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2151,
-		"darstellungsart": "Grafik"
+		"id": 2151
 	},
 	{
 		"title": "Grenzgänger nach Wohnort und Geschlecht",
@@ -64,8 +63,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2152,
-		"darstellungsart": "Grafik"
+		"id": 2152
 	},
 	{
 		"title": "Grenzgänger nach Alter",
@@ -98,8 +96,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2153,
-		"darstellungsart": "Grafik"
+		"id": 2153
 	},
 	{
 		"title": "Grenzgänger in Industrie und Baugewerbe",
@@ -132,8 +129,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2161,
-		"darstellungsart": "Grafik"
+		"id": 2161
 	},
 	{
 		"title": "Grenzgänger im Dienstleistungssektor (I)",
@@ -166,8 +162,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2163,
-		"darstellungsart": "Grafik"
+		"id": 2163
 	},
 	{
 		"title": "Grenzgänger nach Kanton",
@@ -200,8 +195,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2173,
-		"darstellungsart": "Grafik"
+		"id": 2173
 	},
 	{
 		"title": "Nominales Bruttoinlandprodukt pro Kopf nach Kanton",
@@ -234,8 +228,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2400,
-		"darstellungsart": "Grafik"
+		"id": 2400
 	},
 	{
 		"title": "Wachstumsrate des realen BIP nach Kanton",
@@ -269,8 +262,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2401,
-		"darstellungsart": "Grafik"
+		"id": 2401
 	},
 	{
 		"title": "Anteil an der nominalen Wertschöpfung nach Branche",
@@ -304,8 +296,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2402,
-		"darstellungsart": "Grafik"
+		"id": 2402
 	},
 	{
 		"title": "Wertschöpfungsentwicklung in Industrie und Baugewerbe",
@@ -338,8 +329,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2404,
-		"darstellungsart": "Grafik"
+		"id": 2404
 	},
 	{
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (I)",
@@ -372,8 +362,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2405,
-		"darstellungsart": "Grafik"
+		"id": 2405
 	},
 	{
 		"title": "Arbeitslosenquote nach Alter",
@@ -406,8 +395,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2423,
-		"darstellungsart": "Grafik"
+		"id": 2423
 	},
 	{
 		"title": "Arbeitslosenquote nach Herkunft und Geschlecht",
@@ -440,8 +428,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2424,
-		"darstellungsart": "Grafik"
+		"id": 2424
 	},
 	{
 		"title": "Arbeitslose nach Ländergruppe",
@@ -474,8 +461,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2426,
-		"darstellungsart": "Grafik"
+		"id": 2426
 	},
 	{
 		"title": "Arbeitslose in Industrie und Baugewerbe",
@@ -508,8 +494,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2428,
-		"darstellungsart": "Grafik"
+		"id": 2428
 	},
 	{
 		"title": "Arbeitslose im Dienstleistungssektor (I)",
@@ -542,8 +527,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2429,
-		"darstellungsart": "Grafik"
+		"id": 2429
 	},
 	{
 		"title": "Arbeitslosenquote nach Kanton",
@@ -577,8 +561,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2459,
-		"darstellungsart": "Grafik"
+		"id": 2459
 	},
 	{
 		"title": "Zuwanderung von Erwerbstätigen nach Arbeitskanton",
@@ -611,8 +594,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2461,
-		"darstellungsart": "Grafik"
+		"id": 2461
 	},
 	{
 		"title": "Zuwanderung von Erwerbstätigen nach Geschlecht",
@@ -646,8 +628,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2462,
-		"darstellungsart": "Grafik"
+		"id": 2462
 	},
 	{
 		"title": "Zuwanderung von Erwerbstätigen nach Aufenthaltsbewilligung",
@@ -680,8 +661,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2463,
-		"darstellungsart": "Grafik"
+		"id": 2463
 	},
 	{
 		"title": "Zuwanderung von Erwerbstätigen nach Herkunft",
@@ -714,8 +694,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2464,
-		"darstellungsart": "Grafik"
+		"id": 2464
 	},
 	{
 		"title": "Zuwanderung von Erwerbstätigen in Industrie und Baugewerbe",
@@ -748,8 +727,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2465,
-		"darstellungsart": "Grafik"
+		"id": 2465
 	},
 	{
 		"title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (I)",
@@ -782,8 +760,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2466,
-		"darstellungsart": "Grafik"
+		"id": 2466
 	},
 	{
 		"title": "Beschäftigung in Industrie und Baugewerbe",
@@ -816,8 +793,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2528,
-		"darstellungsart": "Grafik"
+		"id": 2528
 	},
 	{
 		"title": "Beschäftigung im Dienstleistungssektor (I)",
@@ -850,8 +826,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2529,
-		"darstellungsart": "Grafik"
+		"id": 2529
 	},
 	{
 		"title": "Beschäftigung nach Kanton",
@@ -884,8 +859,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2547,
-		"darstellungsart": "Grafik"
+		"id": 2547
 	},
 	{
 		"title": "Arbeitstage von Meldepflichtigen nach Einsatzkanton",
@@ -918,8 +892,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 3027,
-		"darstellungsart": "Grafik"
+		"id": 3027
 	},
 	{
 		"title": "Meldepflichtige nach Einsatzkanton",
@@ -952,8 +925,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 3028,
-		"darstellungsart": "Grafik"
+		"id": 3028
 	},
 	{
 		"title": "Arbeitstage von Meldepflichtigen nach Erwerbsstatus",
@@ -986,8 +958,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 3029,
-		"darstellungsart": "Grafik"
+		"id": 3029
 	},
 	{
 		"title": "Anteil der weiblichen Meldepflichtigen nach Erwerbsstatus",
@@ -1020,8 +991,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 3030,
-		"darstellungsart": "Grafik"
+		"id": 3030
 	},
 	{
 		"title": "Arbeitstage von Meldepflichtigen in Industrie und Baugewerbe",
@@ -1054,8 +1024,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 3031,
-		"darstellungsart": "Grafik"
+		"id": 3031
 	},
 	{
 		"title": "Arbeitstage von Meldepflichtigen im Dienstleistungssektor (I)",
@@ -1088,8 +1057,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 3032,
-		"darstellungsart": "Grafik"
+		"id": 3032
 	},
 	{
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (II)",
@@ -1122,8 +1090,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6448,
-		"darstellungsart": "Grafik"
+		"id": 6448
 	},
 	{
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (III)",
@@ -1156,8 +1123,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6449,
-		"darstellungsart": "Grafik"
+		"id": 6449
 	},
 	{
 		"title": "Grenzgänger im Dienstleistungssektor (II)",
@@ -1190,8 +1156,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6450,
-		"darstellungsart": "Grafik"
+		"id": 6450
 	},
 	{
 		"title": "Grenzgänger im Dienstleistungssektor (III)",
@@ -1224,8 +1189,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6451,
-		"darstellungsart": "Grafik"
+		"id": 6451
 	},
 	{
 		"title": "Arbeitstage von Meldepflichtigen im Dienstleistungssektor (II)",
@@ -1258,8 +1222,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6452,
-		"darstellungsart": "Grafik"
+		"id": 6452
 	},
 	{
 		"title": "Arbeitstage von Meldepflichtigen im Dienstleistungssektor (III)",
@@ -1292,8 +1255,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6453,
-		"darstellungsart": "Grafik"
+		"id": 6453
 	},
 	{
 		"title": "Beschäftigung nach Geschlecht",
@@ -1326,8 +1288,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6454,
-		"darstellungsart": "Grafik"
+		"id": 6454
 	},
 	{
 		"title": "Durchschnittlicher Beschäftigungsgrad nach Geschlecht",
@@ -1360,8 +1321,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6455,
-		"darstellungsart": "Grafik"
+		"id": 6455
 	},
 	{
 		"title": "Beschäftigung im Dienstleistungssektor (II)",
@@ -1394,8 +1354,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6456,
-		"darstellungsart": "Grafik"
+		"id": 6456
 	},
 	{
 		"title": "Beschäftigung im Dienstleistungssektor (III)",
@@ -1428,8 +1387,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6457,
-		"darstellungsart": "Grafik"
+		"id": 6457
 	},
 	{
 		"title": "Beschäftigung nach Branche",
@@ -1462,8 +1420,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6459,
-		"darstellungsart": "Grafik"
+		"id": 6459
 	},
 	{
 		"title": "Arbeitslosenquote nach Branche",
@@ -1496,8 +1453,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6460,
-		"darstellungsart": "Grafik"
+		"id": 6460
 	},
 	{
 		"title": "Grenzgänger pro Beschäftigen nach Branche",
@@ -1531,8 +1487,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6461,
-		"darstellungsart": "Grafik"
+		"id": 6461
 	},
 	{
 		"title": "Zuwanderung pro Beschäftigten nach Branche",
@@ -1565,8 +1520,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6462,
-		"darstellungsart": "Grafik"
+		"id": 6462
 	},
 	{
 		"title": "Meldepflichtige pro Beschäftigten nach Branche",
@@ -1599,8 +1553,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6463,
-		"darstellungsart": "Grafik"
+		"id": 6463
 	},
 	{
 		"title": "Löhne nach Branche",
@@ -1633,8 +1586,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6464,
-		"darstellungsart": "Grafik"
+		"id": 6464
 	},
 	{
 		"title": "Arbeitslose im Dienstleistungssektor (II)",
@@ -1667,8 +1619,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6505,
-		"darstellungsart": "Grafik"
+		"id": 6505
 	},
 	{
 		"title": "Arbeitslose im Dienstleistungssektor (III)",
@@ -1701,8 +1652,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6506,
-		"darstellungsart": "Grafik"
+		"id": 6506
 	},
 	{
 		"title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (II)",
@@ -1735,8 +1685,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6520,
-		"darstellungsart": "Grafik"
+		"id": 6520
 	},
 	{
 		"title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (III)",
@@ -1769,8 +1718,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6521,
-		"darstellungsart": "Grafik"
+		"id": 6521
 	},
 	{
 		"title": "Medianlohn in der Schweiz, der Nordwestschweiz und Zürich",
@@ -1803,8 +1751,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6522,
-		"darstellungsart": "Grafik"
+		"id": 6522
 	},
 	{
 		"title": "Medianlohn nach Geschlecht",
@@ -1837,8 +1784,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6523,
-		"darstellungsart": "Grafik"
+		"id": 6523
 	},
 	{
 		"title": "Medianlohn nach Alter",
@@ -1871,8 +1817,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6524,
-		"darstellungsart": "Grafik"
+		"id": 6524
 	},
 	{
 		"title": "Medianlohn in der Privatwirtschaft nach Bewilligungsart",
@@ -1905,8 +1850,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6525,
-		"darstellungsart": "Grafik"
+		"id": 6525
 	},
 	{
 		"title": "Medianlohn in Industrie und Baugewerbe",
@@ -1939,8 +1883,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6526,
-		"darstellungsart": "Grafik"
+		"id": 6526
 	},
 	{
 		"title": "Medianlohn im Dienstleistungssektor (I)",
@@ -1973,8 +1916,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6527,
-		"darstellungsart": "Grafik"
+		"id": 6527
 	},
 	{
 		"title": "Medianlohn im Dienstleistungssektor (II)",
@@ -2007,8 +1949,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6528,
-		"darstellungsart": "Grafik"
+		"id": 6528
 	},
 	{
 		"title": "Medianlohn im Dienstleistungssektor (III)",
@@ -2041,8 +1982,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6529,
-		"darstellungsart": "Grafik"
+		"id": 6529
 	},
 	{
 		"title": "Beschäftigung nach Grösse der Arbeitsstätte und Kanton",
@@ -2075,7 +2015,6 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6531,
-		"darstellungsart": "Grafik"
+		"id": 6531
 	}
 ];

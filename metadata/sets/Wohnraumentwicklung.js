@@ -30,8 +30,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4127,
-		"darstellungsart": "Grafik"
+		"id": 4127
 	},
 	{
 		"title": "Mietpreisentwicklung",
@@ -64,8 +63,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4128,
-		"darstellungsart": "Grafik"
+		"id": 4128
 	},
 	{
 		"title": "Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl",
@@ -97,8 +95,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4129,
-		"darstellungsart": "Grafik"
+		"id": 4129
 	},
 	{
 		"title": "Mietpreisentwicklung der 3-Zimmer-Wohnungen",
@@ -131,8 +128,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4130,
-		"darstellungsart": "Grafik"
+		"id": 4130
 	},
 	{
 		"title": "Wohnungsbelegung",
@@ -165,8 +161,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4131,
-		"darstellungsart": "Grafik"
+		"id": 4131
 	},
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
@@ -202,8 +197,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4132,
-		"darstellungsart": "Grafik"
+		"id": 4132
 	},
 	{
 		"title": "Anzahl Wohnungen",
@@ -236,8 +230,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4133,
-		"darstellungsart": "Grafik"
+		"id": 4133
 	},
 	{
 		"title": "Anteile am Wohnungsbestand",
@@ -270,8 +263,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4134,
-		"darstellungsart": "Grafik"
+		"id": 4134
 	},
 	{
 		"title": "Nettowohnungsproduktion",
@@ -306,8 +298,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4135,
-		"darstellungsart": "Grafik"
+		"id": 4135
 	},
 	{
 		"title": "Umbausaldo",
@@ -340,8 +331,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4136,
-		"darstellungsart": "Grafik"
+		"id": 4136
 	},
 	{
 		"title": "Anzahl neu erstellte Wohnungen",
@@ -374,8 +364,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4137,
-		"darstellungsart": "Grafik"
+		"id": 4137
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
@@ -411,8 +400,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4138,
-		"darstellungsart": "Grafik"
+		"id": 4138
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
@@ -447,8 +435,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4139,
-		"darstellungsart": "Grafik"
+		"id": 4139
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -487,8 +474,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4140,
-		"darstellungsart": "Grafik"
+		"id": 4140
 	},
 	{
 		"title": "Anteile der Haushalte",
@@ -522,8 +508,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4141,
-		"darstellungsart": "Grafik"
+		"id": 4141
 	},
 	{
 		"title": "Anteile der Familienhaushalte",
@@ -556,8 +541,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4142,
-		"darstellungsart": "Grafik"
+		"id": 4142
 	},
 	{
 		"title": "Anzahl Genossenschaftswohnungen und Anteil am Bestand",
@@ -590,8 +574,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4143,
-		"darstellungsart": "Grafik"
+		"id": 4143
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot - nur Familien",
@@ -624,8 +607,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4144,
-		"darstellungsart": "Grafik"
+		"id": 4144
 	},
 	{
 		"title": "Wohneigentumsquote",
@@ -658,8 +640,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4145,
-		"darstellungsart": "Grafik"
+		"id": 4145
 	},
 	{
 		"title": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
@@ -692,8 +673,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4146,
-		"darstellungsart": "Grafik"
+		"id": 4146
 	},
 	{
 		"title": "Saldo des Steuerertrages von Zu- und Wegzügern",
@@ -726,8 +706,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Siehe <a href='http://www.statistik.bs.ch/zahlen/analysen/steuerstatistik.html' target='_blank'>Weiterführende Informationen zur Steuerstatistik und zur Methodik</a>."
 		],
-		"id": 4147,
-		"darstellungsart": "Grafik"
+		"id": 4147
 	},
 	{
 		"title": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
@@ -760,8 +739,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4148,
-		"darstellungsart": "Grafik"
+		"id": 4148
 	},
 	{
 		"title": "Freiraumfläche und Anteil an der Gesamtfläche",
@@ -794,8 +772,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4149,
-		"darstellungsart": "Grafik"
+		"id": 4149
 	},
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
@@ -830,8 +807,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4150,
-		"darstellungsart": "Grafik"
+		"id": 4150
 	},
 	{
 		"title": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
@@ -864,8 +840,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4151,
-		"darstellungsart": "Grafik"
+		"id": 4151
 	},
 	{
 		"title": "Haushalte mit Familienmietzinsbeiträgen",
@@ -899,8 +874,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4152,
-		"darstellungsart": "Grafik"
+		"id": 4152
 	},
 	{
 		"title": "Ausbezahlte Familienmietzinsbeiträge",
@@ -933,8 +907,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4153,
-		"darstellungsart": "Grafik"
+		"id": 4153
 	},
 	{
 		"title": "Bestand an Notwohnungen und ihre Belegung",
@@ -967,8 +940,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4154,
-		"darstellungsart": "Grafik"
+		"id": 4154
 	},
 	{
 		"title": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
@@ -1001,8 +973,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4155,
-		"darstellungsart": "Grafik"
+		"id": 4155
 	},
 	{
 		"title": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
@@ -1035,7 +1006,6 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4156,
-		"darstellungsart": "Grafik"
+		"id": 4156
 	}
 ];

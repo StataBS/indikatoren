@@ -116,7 +116,6 @@ function resetPortalFilter(FJS, view){
     $("#stufe3_filter").prop('selectedIndex', 0);
     $("#stufe2_filter").prop('selectedIndex', 0);
     $("#stufe1_filter").prop('selectedIndex', 0);
-    $("#darstellungsart_filter").multiselect('selectAll', false).multiselect('updateButtonText');
     FJS.filter();
   }
   //portal view
@@ -125,7 +124,6 @@ function resetPortalFilter(FJS, view){
     $("#thema_criteria :radio:first()").prop('checked', true);
     $("#unterthema_filter").prop('selectedIndex', 0);
     $("#raeumlicheGliederung_filter").multiselect('selectAll', false).multiselect('updateButtonText');
-    $("#darstellungsart_filter").multiselect('selectAll', false).multiselect('updateButtonText');
     FJS.filter();
   }
 }
@@ -163,7 +161,6 @@ function initializeFilterJS(indikatorenset, perPage){
     FJS.addCriteria({field: "stufe1", ele: "#stufe1_filter", all: "all"});
     FJS.addCriteria({field: "stufe2", ele: "#stufe2_filter", all: "all"});
     FJS.addCriteria({field: "stufe3", ele: "#stufe3_filter", all: "all"});
-    FJS.addCriteria({field: "darstellungsart", ele: "#darstellungsart_filter", all: "all"});      
   }  
   else {
     //Portal view
@@ -176,7 +173,6 @@ function initializeFilterJS(indikatorenset, perPage){
     FJS.addCriteria({field: "thema", ele: "#thema_criteria input:radio", all: "Alle"});
     FJS.addCriteria({field: "unterthema", ele: "#unterthema_filter", all: "all"});
     FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});      
-    FJS.addCriteria({field: "darstellungsart", ele: "#darstellungsart_filter", all: "all"});      
 
     //reset all filter criteria
     $("#portal-reset-button").click(function(){
@@ -264,7 +260,6 @@ function preparePortalView(){
   $("#main-control-element-indikatorenset").remove();    
   renderThema();
   renderMultiselectDropdownFromJson(["Schweiz", "Grossregion", "Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite"], '', '#raeumlicheGliederung_filter', false);
-  renderMultiselectDropdownFromJson(indikatoren, 'darstellungsart', '#darstellungsart_filter', false);
 
   //prepare query String object for filtering thema and unterthema
   var baseQuery = {};
@@ -281,12 +276,7 @@ function preparePortalView(){
   var raeumlicheGliederungUrlParameterValue = window.decodeURIComponent($.url('?raeumlicheGliederung'));
   if (raeumlicheGliederungUrlParameterValue != "undefined"){
     setMultiselectValue("#raeumlicheGliederung_filter", raeumlicheGliederungUrlParameterValue);
-  }
-  var darstellungsartUrlParameterValue = window.decodeURIComponent($.url('?darstellungsart'));
-  if (darstellungsartUrlParameterValue != "undefined"){
-    setMultiselectValue("#darstellungsart_filter", darstellungsartUrlParameterValue);
-  }
-  
+  }  
   //hide elements upon request
   if (window.decodeURIComponent($.url('?hideSidebar')) === 'true'){
     $('#sidebar-element').hide();
@@ -298,7 +288,6 @@ function preparePortalView(){
   if (window.decodeURIComponent($.url('?hideResetButton')) === 'true'){$('#portal-reset-button').hide()}
   if (window.decodeURIComponent($.url('?hideThema')) === 'true'){$('#thema').hide()}
   if (window.decodeURIComponent($.url('?hideRaeumlicheGliederung')) === 'true'){$('#raeumlicheGliederung').hide()}
-  if (window.decodeURIComponent($.url('?hideDarstellungsart')) === 'true'){$('#darstellungsart').hide()}
 }
 
 
@@ -311,11 +300,11 @@ function setMultiselectValue(selector, value){
 
 //change DOM and render controls to accomodate indikatorenset view
 function prepareIndikatorensetView(indikatorenset){
-  $("#sidebar-element").hide();
+  $("#sidebar-element").remove();
   //Change bootstrap col size in order to fill width 
   $("#main-element").removeClass();
   $("#main-element").addClass('col-xs-12');
-  $("#main-control-element-portal").hide();
+  $("#main-control-element-portal").remove();
     
   renderDropdownFromJson(indikatoren, 'kennzahlenset', '#kennzahlenset_filter', 'kennzahlenset');
   //select requested Indikatorenset in dropdown
@@ -328,13 +317,11 @@ function prepareIndikatorensetView(indikatorenset){
   renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'orderKey', baseQuery);
   renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'orderKey', baseQuery);
   renderDropdownFromJson(indikatoren, 'stufe3', '#stufe3_filter', 'orderKey', baseQuery);
-  renderDropdownFromJson(indikatoren, 'darstellungsart', '#darstellungsart_filter', 'orderKey', baseQuery);
   
   //pre-populate fields with url parameter values
   setDropdownValFromUrlParameter('stufe1');
   setDropdownValFromUrlParameter('stufe2');
   setDropdownValFromUrlParameter('stufe3');
-  setDropdownValFromUrlParameter('darstellungsart');
 }
 
 //check if field value exists before setting value of dropdown  
@@ -558,7 +545,6 @@ var afterFilter = function(result, jQ){
     var updateFunction = (query && query.criteria && query.criteria.where ? updateCountsExclusive : updateCountsInclusive);
     updateFunction('#thema_criteria :input:gt(0)', 'thema', checkboxCountRenderFunction, result, jQ);        
     updateFunction('#raeumlicheGliederung_filter > option', 'raeumlicheGliederung', optionCountRenderFunction, result, jQ);
-    updateFunction('#darstellungsart_filter > option', 'darstellungsart', optionCountRenderFunction, result, jQ);
 
     //hide dropdowns if no specific values present, or select the single specific value
     //selectSingleEntryOrHideDropdown('#unterthema_filter');
@@ -567,7 +553,6 @@ var afterFilter = function(result, jQ){
     
     //for multiselect dropdowns: rebuild control after select tag is updated
     $('#raeumlicheGliederung_filter').multiselect('rebuild');
-    $('#darstellungsart_filter').multiselect('rebuild');
     
     //if results fit in a single page: hide pagination, use bootstrap invisible class to leave row height intact    
     (result.length <= perPage) ? $('#pagination').addClass('invisible') : $('#pagination').removeClass('invisible');

@@ -30,8 +30,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6242,
-		"darstellungsart": "Grafik"
+		"id": 6242
 	},
 	{
 		"title": "Bevölkerungsdichte",
@@ -64,8 +63,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6243,
-		"darstellungsart": "Karte kontinuierlich"
+		"id": 6243
 	},
 	{
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
@@ -98,8 +96,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6244,
-		"darstellungsart": "Grafik"
+		"id": 6244
 	},
 	{
 		"title": "Leerwohnungsquote",
@@ -132,8 +129,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6245,
-		"darstellungsart": "Grafik"
+		"id": 6245
 	},
 	{
 		"title": "Leerwohnungsquote",
@@ -166,8 +162,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6246,
-		"darstellungsart": "Karte kontinuierlich"
+		"id": 6246
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -201,8 +196,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6247,
-		"darstellungsart": "Grafik"
+		"id": 6247
 	},
 	{
 		"title": "Nettowohnungsproduktion",
@@ -235,8 +229,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6248,
-		"darstellungsart": "Grafik"
+		"id": 6248
 	},
 	{
 		"title": "Nettowohnungsproduktion",
@@ -269,8 +262,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6249,
-		"darstellungsart": "Grafik"
+		"id": 6249
 	},
 	{
 		"title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
@@ -303,8 +295,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6250,
-		"darstellungsart": "Karte kontinuierlich"
+		"id": 6250
 	},
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
@@ -337,8 +328,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6251,
-		"darstellungsart": "Grafik"
+		"id": 6251
 	},
 	{
 		"title": "Bewertung der Lebensqualität",
@@ -372,8 +362,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6252,
-		"darstellungsart": "Grafik"
+		"id": 6252
 	},
 	{
 		"title": "Anteil Einwohner pro ÖV-Güteklasse",
@@ -406,8 +395,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6253,
-		"darstellungsart": "Grafik"
+		"id": 6253
 	},
 	{
 		"title": "Beschäftigtendichte",
@@ -440,8 +428,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6254,
-		"darstellungsart": "Grafik"
+		"id": 6254
 	},
 	{
 		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
@@ -474,8 +461,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6255,
-		"darstellungsart": "Karte kontinuierlich"
+		"id": 6255
 	},
 	{
 		"title": "Kontinentale Erreichbarkeit",
@@ -508,8 +494,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6256,
-		"darstellungsart": "Grafik"
+		"id": 6256
 	},
 	{
 		"title": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
@@ -543,8 +528,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6257,
-		"darstellungsart": "Grafik"
+		"id": 6257
 	},
 	{
 		"title": "Verkehrsleistungsindex",
@@ -577,8 +561,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6258,
-		"darstellungsart": "Grafik"
+		"id": 6258
 	},
 	{
 		"title": "Bevölkerung am Jahresende und Anzahl Wohnungen",
@@ -612,8 +595,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6259,
-		"darstellungsart": "Grafik"
+		"id": 6259
 	},
 	{
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
@@ -646,8 +628,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6260,
-		"darstellungsart": "Grafik"
+		"id": 6260
 	},
 	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
@@ -680,8 +661,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6261,
-		"darstellungsart": "Grafik"
+		"id": 6261
 	},
 	{
 		"title": "Leerstehende Industrie- und Gewerbeflächen",
@@ -714,8 +694,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6262,
-		"darstellungsart": "Grafik"
+		"id": 6262
 	},
 	{
 		"title": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
@@ -748,8 +727,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6263,
-		"darstellungsart": "Grafik"
+		"id": 6263
 	},
 	{
 		"title": "Indexierter Verlauf der Haushalte in Begegnungszonen",
@@ -783,8 +761,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6264,
-		"darstellungsart": "Grafik"
+		"id": 6264
 	},
 	{
 		"title": "Anzahl Beschäftigte nach Branche",
@@ -817,7 +794,6 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6265,
-		"darstellungsart": "Grafik"
+		"id": 6265
 	}
 ];
