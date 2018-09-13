@@ -527,8 +527,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteile der Familienhaushalte",
-		"subtitle": "nach Art der Zusammensetzung",
-		"kuerzel": "I.01.2.04142",
+		"subtitle": "nach Art der Zusammensetzung, Basel-Stadt",
+		"kuerzel": "I.01.2.4142",
 		"kuerzelKunde": "1.4.A2",
 		"description": "Anteile der Familienhaushalte",
 		"thema": "01 Bevölkerung",
@@ -537,15 +537,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-20T10:46:00.000",
+		"aktualisierungsdatum": "2018-09-12T14:04:26.2626",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil kinderloser Familien an allen Familien sank von 41,3% im Jahr 2011 auf 39,1% im Jahr 2014. 2015 stieg er wieder auf 41,0%. Im Jahr 2016 gab es einen erneuten Rückgang und der Anteil kinderloser Familien lag noch bei 38,4%.",
+		"lesehilfe": "Der Anteil kinderloser Familien an allen Familien sank von 41,3% im Jahr 2011 auf 39,1% im Jahr 2014. 2015 stieg er wieder auf 41,0%. In den Jahren 2016 und 2017 gab es einen erneuten Rückgang und der Anteil kinderloser Familien lag noch bei 37,9%.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_04_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -556,8 +558,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4142,
-		"darstellungsart": "Grafik"
+		"id": 4142
 	},
 	{
 		"title": "Anzahl Genossenschaftswohnungen und Anteil am Bestand",
