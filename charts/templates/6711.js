@@ -14,7 +14,7 @@
       "rotation": -45 
     } 
   },
-     "yAxis": [{
+   "yAxis": [{
      tickAmount: 5,
     "labels": {
       "format": "{value:,.0f}",
@@ -39,7 +39,7 @@
       }
     },
 	"min": 0,
-     max: 600,
+     //max: 600,
      tickAmount: 5,
     "gridLineWidth": 0,
     "opposite": true

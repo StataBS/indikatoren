@@ -3,8 +3,10 @@
  	"xAxis": {
         "type": "category",
         "labels": {
-           align: "left",
-           x:-70,
+           //align: "left",
+           x: -6,
+           y: 10,
+           rotation: -90,
            useHTML: false,
             "formatter": function() {
                 //add sum of observations of visible series to the axis label
@@ -18,7 +20,7 @@
                 //use N if all series are visible, otherwise use n
                 var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
                 //check for value that contains only spaces
-            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + '<br/>(' + nString + sum + ')';
             }
         } 
   },  
@@ -48,7 +50,7 @@
     { "color": "#007a2f", index: 4, legendIndex: 0}, // dunkelgrün
   ],
 "legend": {
-    enabled:true,
+    enabled: true,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5, // space between legend boxes
@@ -61,8 +63,9 @@
 	 marginLeft: 75,
 	 //marginRight: 5,
 	 //marginBottom: 100,
-     "inverted": true,
+     "inverted": false,
       //"height": 500,
+      width: 665,
   },
 };
 }());

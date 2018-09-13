@@ -16,7 +16,11 @@
   "xAxis": {
   	min: 0,
     "type": "category",
-    "tickInterval": 1
+    "tickInterval": 1, 
+    labels: {
+      padding: 0,
+      step: 1,
+    }
   },  
   "yAxis": {
   	 max: 1,

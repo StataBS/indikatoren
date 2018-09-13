@@ -10,7 +10,7 @@
     "type": "category"
   },
   "yAxis": {
-    max: 40,
+    max: 50,
     tickInterval: 10,
     "labels": {
       "format": "{value}" 
