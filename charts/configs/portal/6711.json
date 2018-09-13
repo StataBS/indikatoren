@@ -271,7 +271,6 @@
         }
       },
       "min": 0,
-      "max": 600,
       "tickAmount": 5,
       "gridLineWidth": 0,
       "opposite": true

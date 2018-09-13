@@ -171,7 +171,7 @@
       },
       "format": "{value}"
     },
-    "max": 40,
+    "max": 50,
     "tickInterval": 10
   },
   "navigation": {

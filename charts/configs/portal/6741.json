@@ -6,27 +6,83 @@
       "legendIndex": 0,
       "data": [
         [
-          "2015",
-          82
+          "2015 Total",
+          315
         ],
         [
-          "2011",
-          64
+          "2015 Schweiz",
+          277
         ],
         [
-          "2005",
-          73
+          "2015 Ausland",
+          38
         ],
         [
-          "2007",
-          86
+          " ",
+          null
         ],
         [
-          "2003",
-          76
+          "2011 Total",
+          465
+        ],
+        [
+          "2011 Schweiz",
+          399
+        ],
+        [
+          "2011 Ausland",
+          66
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 Total",
+          211
+        ],
+        [
+          "2007 Schweiz",
+          190
+        ],
+        [
+          "2007 Ausland",
+          21
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005 Total",
+          276
+        ],
+        [
+          "2005 Schweiz",
+          238
+        ],
+        [
+          "2005 Ausland",
+          38
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2003 Total",
+          301
+        ],
+        [
+          "2003 Schweiz",
+          258
+        ],
+        [
+          "2003 Ausland",
+          43
         ]
       ],
-      "name": "Weiss nicht \u002F Keine Angabe",
+      "name": "Sehr zufrieden",
       "turboThreshold": 0
     },
     {
@@ -35,27 +91,83 @@
       "legendIndex": 1,
       "data": [
         [
-          "2015",
-          20
+          "2015 Total",
+          885
         ],
         [
-          "2011",
-          33
+          "2015 Schweiz",
+          782
         ],
         [
-          "2005",
-          55
+          "2015 Ausland",
+          103
         ],
         [
-          "2007",
-          31
+          " ",
+          null
         ],
         [
-          "2003",
-          39
+          "2011 Total",
+          751
+        ],
+        [
+          "2011 Schweiz",
+          637
+        ],
+        [
+          "2011 Ausland",
+          114
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 Total",
+          971
+        ],
+        [
+          "2007 Schweiz",
+          858
+        ],
+        [
+          "2007 Ausland",
+          113
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005 Total",
+          831
+        ],
+        [
+          "2005 Schweiz",
+          711
+        ],
+        [
+          "2005 Ausland",
+          120
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2003 Total",
+          842
+        ],
+        [
+          "2003 Schweiz",
+          721
+        ],
+        [
+          "2003 Ausland",
+          121
         ]
       ],
-      "name": "Unzufrieden",
+      "name": "Eher zufrieden",
       "turboThreshold": 0
     },
     {
@@ -64,24 +176,80 @@
       "legendIndex": 2,
       "data": [
         [
-          "2015",
+          "2015 Total",
           156
         ],
         [
-          "2011",
+          "2015 Schweiz",
+          139
+        ],
+        [
+          "2015 Ausland",
+          17
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2011 Total",
           164
         ],
         [
-          "2005",
-          245
+          "2011 Schweiz",
+          145
         ],
         [
-          "2007",
+          "2011 Ausland",
+          19
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 Total",
           185
         ],
         [
-          "2003",
+          "2007 Schweiz",
+          165
+        ],
+        [
+          "2007 Ausland",
+          20
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005 Total",
+          245
+        ],
+        [
+          "2005 Schweiz",
+          218
+        ],
+        [
+          "2005 Ausland",
+          27
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2003 Total",
           214
+        ],
+        [
+          "2003 Schweiz",
+          198
+        ],
+        [
+          "2003 Ausland",
+          16
         ]
       ],
       "name": "Eher unzufrieden",
@@ -93,27 +261,83 @@
       "legendIndex": 3,
       "data": [
         [
-          "2015",
-          885
+          "2015 Total",
+          20
         ],
         [
-          "2011",
-          751
+          "2015 Schweiz",
+          19
         ],
         [
-          "2005",
-          831
+          "2015 Ausland",
+          1
         ],
         [
-          "2007",
-          971
+          " ",
+          null
         ],
         [
-          "2003",
-          842
+          "2011 Total",
+          33
+        ],
+        [
+          "2011 Schweiz",
+          26
+        ],
+        [
+          "2011 Ausland",
+          7
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 Total",
+          31
+        ],
+        [
+          "2007 Schweiz",
+          28
+        ],
+        [
+          "2007 Ausland",
+          3
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005 Total",
+          55
+        ],
+        [
+          "2005 Schweiz",
+          49
+        ],
+        [
+          "2005 Ausland",
+          6
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2003 Total",
+          39
+        ],
+        [
+          "2003 Schweiz",
+          35
+        ],
+        [
+          "2003 Ausland",
+          4
         ]
       ],
-      "name": "Eher zufrieden",
+      "name": "Ganz unzufrieden",
       "turboThreshold": 0
     },
     {
@@ -122,27 +346,83 @@
       "legendIndex": 4,
       "data": [
         [
-          "2015",
-          315
+          "2015 Total",
+          82
         ],
         [
-          "2011",
-          465
+          "2015 Schweiz",
+          73
         ],
         [
-          "2005",
-          276
+          "2015 Ausland",
+          9
         ],
         [
-          "2007",
-          211
+          " ",
+          null
         ],
         [
-          "2003",
-          301
+          "2011 Total",
+          64
+        ],
+        [
+          "2011 Schweiz",
+          59
+        ],
+        [
+          "2011 Ausland",
+          5
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 Total",
+          86
+        ],
+        [
+          "2007 Schweiz",
+          70
+        ],
+        [
+          "2007 Ausland",
+          16
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005 Total",
+          73
+        ],
+        [
+          "2005 Schweiz",
+          60
+        ],
+        [
+          "2005 Ausland",
+          13
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2003 Total",
+          76
+        ],
+        [
+          "2003 Schweiz",
+          57
+        ],
+        [
+          "2003 Ausland",
+          19
         ]
       ],
-      "name": "Sehr zufrieden",
+      "name": "Weiss nicht \u002F keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -206,7 +486,7 @@
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
+    "width": 665,
     "height": 208,
     "spacing": [
       2,

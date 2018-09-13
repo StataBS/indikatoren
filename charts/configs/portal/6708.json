@@ -280,7 +280,9 @@
       "style": {
         "fontSize": 10,
         "color": "#000000"
-      }
+      },
+      "padding": 0,
+      "step": 1
     },
     "tickLength": 0,
     "min": 0,
