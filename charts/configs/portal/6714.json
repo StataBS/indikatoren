@@ -1,9 +1,9 @@
 {
   "series": [
     {
-      "color": "#999999",
-      "index": 0,
-      "legendIndex": 4,
+      "color": "#007a2f",
+      "index": 4,
+      "legendIndex": 0,
       "data": [
         [
           "2015 Total",
@@ -82,13 +82,13 @@
           26
         ]
       ],
-      "name": "Sehr zufrieden",
+      "name": "Sehr gut",
       "turboThreshold": 0
     },
     {
-      "color": "#dc440e",
-      "index": 1,
-      "legendIndex": 3,
+      "color": "#68ab2b",
+      "index": 3,
+      "legendIndex": 1,
       "data": [
         [
           "2015 Total",
@@ -167,7 +167,7 @@
           134
         ]
       ],
-      "name": "Eher zufrieden",
+      "name": "Eher gut",
       "turboThreshold": 0
     },
     {
@@ -252,13 +252,13 @@
           34
         ]
       ],
-      "name": "Eher unzufrieden",
+      "name": "Eher nicht so gut",
       "turboThreshold": 0
     },
     {
-      "color": "#68ab2b",
-      "index": 3,
-      "legendIndex": 1,
+      "color": "#dc440e",
+      "index": 1,
+      "legendIndex": 3,
       "data": [
         [
           "2015 Total",
@@ -337,13 +337,13 @@
           7
         ]
       ],
-      "name": "Sehr unzufrieden",
+      "name": "Gar nicht gut",
       "turboThreshold": 0
     },
     {
-      "color": "#007a2f",
-      "index": 4,
-      "legendIndex": 0,
+      "color": "#999999",
+      "index": 0,
+      "legendIndex": 4,
       "data": [
         [
           "2015 Total",
@@ -422,7 +422,7 @@
           5
         ]
       ],
-      "name": "Weiss nicht \u002F Keine Angabe",
+      "name": "Weiss nicht\u002FKeine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -501,9 +501,10 @@
     "zoomType": "xy",
     "type": "column",
     "marginLeft": 75,
+    "spacingBottom": 4,
+    "spacingTop": 5,
     "inverted": false,
-    "renderTo": "container-6714",
-    "spacingBottom": 2
+    "renderTo": "container-6714"
   },
   "title": {
     "style": {
@@ -556,7 +557,7 @@
       "text": ""
     },
     "labels": {
-      "y": 10,
+      "y": 3,
       "format": "{value}%",
       "style": {
         "color": "#000000",
@@ -602,6 +603,8 @@
             return this.name.replace('/ ', '/<br/>');
         },
     "enabled": true,
+    "reversed": true,
+    "y": -4,
     "itemMarginBottom": 5
   },
   "exporting": {

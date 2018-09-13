@@ -28,7 +28,7 @@
   	tickInterval: 25,
   	max: 100,
   	labels:{
-  		y: 10,
+  		//y: 10,
   		"type": "category",
   		rotation: 0,
   	}
@@ -43,14 +43,16 @@
   	}
   },
   "series": [
-    { "color": "#999999", index: 0, legendIndex: 4}, // grau
-    { "color": "#dc440e", index: 1, legendIndex: 3}, // rot
-    { "color": "#ffbb58", index: 2, legendIndex: 2}, // orange
-    { "color": "#68ab2b", index: 3, legendIndex: 1}, // grün
     { "color": "#007a2f", index: 4, legendIndex: 0}, // dunkelgrün
+    { "color": "#68ab2b", index: 3, legendIndex: 1}, // grün
+    { "color": "#ffbb58", index: 2, legendIndex: 2}, // orange
+    { "color": "#dc440e", index: 1, legendIndex: 3}, // rot
+    { "color": "#999999", index: 0, legendIndex: 4}, // grau
   ],
 "legend": {
     enabled: true,
+    reversed: true,
+    y: -4,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5, // space between legend boxes
@@ -61,6 +63,8 @@
   },
 "chart": {    
 	 marginLeft: 75,
+	 spacingBottom: 4,
+	 spacingTop: 5,
 	 //marginRight: 5,
 	 //marginBottom: 100,
      "inverted": false,
