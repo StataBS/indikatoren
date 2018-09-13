@@ -282,6 +282,7 @@
   },
   "yAxis": [
     {
+      "max": 7,
       "tickInterval": 1,
       "min": 0,
       "gridLineColor": "#B9CFD7",
@@ -290,6 +291,7 @@
         "text": null
       },
       "labels": {
+        "rotation": 0,
         "formatter": function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
             	},

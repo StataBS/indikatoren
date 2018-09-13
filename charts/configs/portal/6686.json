@@ -222,8 +222,8 @@
             	},
       "rotation": 0
     },
-    "max": 6,
-    "tickInterval": 1,
+    "max": 12,
+    "tickInterval": 2,
     "min": 0,
     "plotLines": [
       {

@@ -37,15 +37,11 @@
   	}
   },
   "series": [
-    { "color": "#999999", index: 0, legendIndex: 0}, // grau
-    { "color": "#dc440e", index: 1, legendIndex: 1}, // rot
-    { "color": "#ffbb58", index: 2, legendIndex: 2}, // orange
-    { "color": "#68ab2b", index: 3, legendIndex: 3}, // grün
-    { "color": "#007a2f", index: 4, legendIndex: 4}, // dunkelgrün
-    
-    
-    
-    
+    { "color": "#007a2f"}, // dunkelgrün
+    { "color": "#68ab2b"}, // grün
+    { "color": "#ffbb58"}, // orange
+    { "color": "#dc440e"}, // rot
+    { "color": "#999999"}, // grau
   ],
   "legend": { 
     "enabled": true,

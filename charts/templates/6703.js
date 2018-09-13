@@ -22,7 +22,7 @@
             }     
         },
         yAxis:[{
-            tickInterval: 10,
+            tickInterval: 5,
             min: 0,
             max: 30,
             title: {
@@ -33,11 +33,10 @@
                 formatter: function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
             	},
-                  "style": {
-                    "color": "#000000",
+                style: {
+                    color: "#000000",
                     textOverflow: 'none',
-                     fontSize: '10px'
-                    
+                    fontSize: '10px'
                 }
             },
             plotLines: [{

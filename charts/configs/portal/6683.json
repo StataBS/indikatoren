@@ -205,8 +205,8 @@
   "yAxis": [
     {
       "min": 0,
-      "max": 15,
-      "tickInterval": 5,
+      "max": 12,
+      "tickInterval": 2,
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
       "title": {

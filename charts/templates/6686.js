@@ -22,22 +22,21 @@
             }     
         },
         yAxis:{
-            max: 6,
-            tickInterval: 1,
+            max: 12,
+            tickInterval: 2,
             min: 0,
             title: {
                 text: null
             },
-            "labels": {
+            labels: {
                 rotation: 0,
                 formatter: function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
             	},
-                   "style": {
-                    "color": "#000000",
+                style: {
+                    color: "#000000",
                     textOverflow: 'none',
-                     fontSize: '10px'
-                    
+                    fontSize: '10px'
                 }
             },
             plotLines: [{

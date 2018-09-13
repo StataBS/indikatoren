@@ -22,7 +22,7 @@
             }     
         },
         yAxis:[{
-            //max: 7,
+            max: 7,
             tickInterval: 1,
             min: 0,
             gridLineColor: '#B9CFD7',
@@ -31,14 +31,15 @@
                 text: null
             },
             //offset: -5,
-            "labels": {
+            labels: {
+                rotation: 0,
                 formatter: function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
             	},
-                 "style": {
-                    "color": "#000000",
+                style: {
+                    color: "#000000",
                     textOverflow: 'none',
-                     fontSize: '10px'
+                    fontSize: '10px'
                     
                 },
                 distance: -50, 

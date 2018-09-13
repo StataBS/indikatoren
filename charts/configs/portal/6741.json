@@ -1,9 +1,7 @@
 {
   "series": [
     {
-      "color": "#999999",
-      "index": 0,
-      "legendIndex": 0,
+      "color": "#007a2f",
       "data": [
         [
           "2015 Total",
@@ -86,9 +84,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#dc440e",
-      "index": 1,
-      "legendIndex": 1,
+      "color": "#68ab2b",
       "data": [
         [
           "2015 Total",
@@ -172,8 +168,6 @@
     },
     {
       "color": "#ffbb58",
-      "index": 2,
-      "legendIndex": 2,
       "data": [
         [
           "2015 Total",
@@ -256,9 +250,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#68ab2b",
-      "index": 3,
-      "legendIndex": 3,
+      "color": "#dc440e",
       "data": [
         [
           "2015 Total",
@@ -341,9 +333,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#007a2f",
-      "index": 4,
-      "legendIndex": 4,
+      "color": "#999999",
       "data": [
         [
           "2015 Total",

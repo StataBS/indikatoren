@@ -232,7 +232,8 @@
   },
   "yAxis": [
     {
-      "tickInterval": 2,
+      "max": 30,
+      "tickInterval": 5,
       "min": 0,
       "title": {
         "text": null

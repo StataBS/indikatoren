@@ -23,20 +23,20 @@
         },
         yAxis:[{
             min: 0,
-            max: 15,
-            tickInterval: 5,
+            max: 12,
+            tickInterval: 2,
             gridLineColor: '#B9CFD7',
             gridLineWidth: 0.5,
             title: {
                 text: null
             },
-            "labels": {
+            labels: {
             	step: 1,
                 formatter: function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
             	},
-                   "style": {
-                    "color": "#000000",
+                style: {
+                    color: "#000000",
                     textOverflow: 'none',
                      fontSize: '10px'
                     
