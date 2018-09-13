@@ -1,9 +1,11 @@
 (function(){
   return {
     "yAxis": [{
-    	"min": 0,
-      "max": 200000,
-      "tickInterval": 50000,
+    	min: 0,
+      max: 200000,
+      //"tickInterval": 50000,
+      tickAmount: 6,
+      alignTicks: true,
     	title: {
           text: null,
           "color": "#000000",
@@ -18,9 +20,11 @@
 
     },
     {
-    	"min": 90,
-       max: 120,
-      "tickInterval": 7.5,
+    	//"min": 95,
+       //max: 115,
+      tickInterval: 5,
+      tickAmount: 6,
+      alignTicks: true,
       "title": {
           "style": {
           "color": "#000000",
@@ -29,7 +33,7 @@
         "text": null
       },
       "labels": {
-        "format": "{value:,.1f}",
+        "format": "{value:,.0f}",
          style:{
          		color: "black",
          },
