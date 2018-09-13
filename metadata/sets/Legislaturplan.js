@@ -1295,7 +1295,7 @@ var indikatorensetData = [
 	{
 		"title": "Transit durch die Region Basel",
 		"subtitle": "in Brutto-Tonnen nach Verkehrsträger",
-		"kuerzel": "I.06.4.06155",
+		"kuerzel": "I.06.4.6155",
 		"kuerzelKunde": "5.3",
 		"description": "Transit durch die Region Basel",
 		"thema": "06 Produktion, Handel",
@@ -1304,15 +1304,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-12T14:00:02.022",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse  seit 2010 kontinuierlich ab. Der Transit auf den Schienen hat seit 2007 zugenommen.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse seit 2010 kontinuierlich ab. Auch der Transit auf  Schienen ist nach einer längeren Wachstumsphase seit 2015 rückläufig.",
+		"erlaeuterungen": "Die Region Basel besteht aus den Zollzonen Basel rechts, Basel links, Flughafen Basel-Mülhausen und Rheinhafen BS/BL. Mit Transit wird die Ware gemeint, welche die Schweiz durchquert. Am jeweiligen Zollamt wird die Ware registriert, welche in die resp. aus der Region transportiert wird. Für die Pipeline wird nur der Eingang angezeigt, da keine Waren aus der Region durch die Pipeline transportiert werden.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "05_00_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -1325,8 +1327,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6155,
-		"darstellungsart": "Grafik"
+		"id": 6155
 	},
 	{
 		"title": "Jährlich durch  Stau generierte Verzögerungszeit",
