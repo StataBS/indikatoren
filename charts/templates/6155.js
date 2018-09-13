@@ -1,7 +1,7 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 1,
+    "tickInterval": 1
   },
   "yAxis": {
 	"labels": {
@@ -14,17 +14,20 @@
   },
   "series": [
     {"color": "#FABD24",
-    legendIndex: 0,
+      legendIndex: 0,
     }, /* hellgelb */
-    	{"color": "#7F5F1A",
-   legendIndex: 2,
-    }, /* dunkelgelb */
-    	{"color": "#008AC3",
+    {"color": "#7F5F1A",
+     legendIndex: 2,
+	  }, /* dunkelgelb */
+    {"color": "#008AC3",
      legendIndex: 1,
     }, /* hellblau */
     	{"color": "#2B0099",
      legendIndex: 3,
     }, /* dunkelblau */
+  	{"color": "#68AB2B",
+     legendIndex: 5,
+    }, /* violett */
   ],
   "legend": {
     "enabled": true,
@@ -39,12 +42,8 @@
   "plotOptions": {
     "line": {
 	  "connectNulls": true,
-      "marker":{
-        "enabled": false,
-        "symbol": "circle",
-      }
     }
   }
-}
+};
 }());
  
