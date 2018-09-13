@@ -203,6 +203,57 @@
         ]
       ],
       "name": "Strasse Eingang"
+    },
+    {
+      "color": "#68AB2B",
+      "legendIndex": 5,
+      "data": [
+        [
+          2007,
+          4393165
+        ],
+        [
+          2008,
+          4112209
+        ],
+        [
+          2009,
+          3211597
+        ],
+        [
+          2010,
+          2316394
+        ],
+        [
+          2011,
+          3046603
+        ],
+        [
+          2012,
+          1862414
+        ],
+        [
+          2013,
+          622155
+        ],
+        [
+          2014,
+          1769525
+        ],
+        [
+          2015,
+          1900627
+        ],
+        [
+          2016,
+          510261
+        ],
+        [
+          2017,
+          1506172
+        ]
+      ],
+      "name": "Pipeline Eingang"
     }
   ],
   "chart": {
@@ -321,11 +372,7 @@
       }
     },
     "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
+      "connectNulls": true
     }
   },
   "customFunctions": {
