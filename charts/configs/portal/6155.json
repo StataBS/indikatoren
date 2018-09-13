@@ -3,9 +3,6 @@
     {
       "color": "#FABD24",
       "legendIndex": 0,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2007,
@@ -46,6 +43,10 @@
         [
           2016,
           14161516
+        ],
+        [
+          2017,
+          13781296
         ]
       ],
       "name": "Schiene Ausgang"
@@ -53,10 +54,6 @@
     {
       "color": "#7F5F1A",
       "legendIndex": 2,
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2007,
@@ -97,6 +94,10 @@
         [
           2016,
           18121077
+        ],
+        [
+          2017,
+          16865292
         ]
       ],
       "name": "Schiene Eingang"
@@ -104,10 +105,6 @@
     {
       "color": "#008AC3",
       "legendIndex": 1,
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2007,
@@ -148,6 +145,10 @@
         [
           2016,
           2184931
+        ],
+        [
+          2017,
+          2150476
         ]
       ],
       "name": "Strasse Ausgang"
@@ -155,10 +156,6 @@
     {
       "color": "#2B0099",
       "legendIndex": 3,
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2007,
@@ -199,6 +196,10 @@
         [
           2016,
           1747475
+        ],
+        [
+          2017,
+          1777024
         ]
       ],
       "name": "Strasse Eingang"
@@ -249,7 +250,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": " in Brutto-Tonnen nach Verkehrsträger",
+    "text": "in Brutto-Tonnen nach Verkehrsträger",
     "align": "left"
   },
   "tooltip": {
@@ -284,7 +285,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -300,7 +301,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Zollverwaltung EZV.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Eidgenössische Zollverwaltung EZV.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-12"
   },
   "legend": {
     "enabled": true,
@@ -311,7 +312,6 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemWidth": 180,
     "itemMarginBottom": 5
   },
   "plotOptions": {

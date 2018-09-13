@@ -1928,8 +1928,8 @@
 	},
 	{
 		"title": "Anteile der Familienhaushalte",
-		"subtitle": "nach Art der Zusammensetzung",
-		"kuerzel": "I.01.2.04142",
+		"subtitle": "nach Art der Zusammensetzung, Basel-Stadt",
+		"kuerzel": "I.01.2.4142",
 		"kuerzelKunde": "1.4.A2",
 		"description": "Anteile der Familienhaushalte",
 		"thema": "01 Bevölkerung",
@@ -1938,15 +1938,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-20T10:46:00.000",
+		"aktualisierungsdatum": "2018-09-12T14:04:26.2626",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil kinderloser Familien an allen Familien sank von 41,3% im Jahr 2011 auf 39,1% im Jahr 2014. 2015 stieg er wieder auf 41,0%. Im Jahr 2016 gab es einen erneuten Rückgang und der Anteil kinderloser Familien lag noch bei 38,4%.",
+		"lesehilfe": "Der Anteil kinderloser Familien an allen Familien sank von 41,3% im Jahr 2011 auf 39,1% im Jahr 2014. 2015 stieg er wieder auf 41,0%. In den Jahren 2016 und 2017 gab es einen erneuten Rückgang und der Anteil kinderloser Familien lag noch bei 37,9%.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_04_00_00_00_000",
 		"parentId": null,
@@ -1958,8 +1960,7 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4142,
-		"darstellungsart": "Grafik"
+		"id": 4142
 	},
 	{
 		"title": "Anzahl Genossenschaftswohnungen und Anteil am Bestand",
@@ -11247,7 +11248,7 @@
 	{
 		"title": "Transit durch die Region Basel",
 		"subtitle": "in Brutto-Tonnen nach Verkehrsträger",
-		"kuerzel": "I.06.4.06155",
+		"kuerzel": "I.06.4.6155",
 		"kuerzelKunde": "5.3",
 		"description": "Transit durch die Region Basel",
 		"thema": "06 Produktion, Handel",
@@ -11256,15 +11257,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-12T14:00:02.022",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse  seit 2010 kontinuierlich ab. Der Transit auf den Schienen hat seit 2007 zugenommen.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse seit 2010 kontinuierlich ab. Auch der Transit auf  Schienen ist nach einer längeren Wachstumsphase seit 2015 rückläufig.",
+		"erlaeuterungen": "Die Region Basel besteht aus den Zollzonen Basel rechts, Basel links, Flughafen Basel-Mülhausen und Rheinhafen BS/BL. Mit Transit wird die Ware gemeint, welche die Schweiz durchquert. Am jeweiligen Zollamt wird die Ware registriert, welche in die resp. aus der Region transportiert wird. Für die Pipeline wird nur der Eingang angezeigt, da keine Waren aus der Region durch die Pipeline transportiert werden.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_003",
 		"parentId": null,
@@ -11278,8 +11281,7 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6155,
-		"darstellungsart": "Grafik"
+		"id": 6155
 	},
 	{
 		"title": "Jährlich durch  Stau generierte Verzögerungszeit",
