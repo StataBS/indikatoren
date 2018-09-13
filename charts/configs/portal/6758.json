@@ -1,0 +1,293 @@
+{
+  "series": [
+    {
+      "data": [
+        {
+          "name": "Anteil&nbsp;Sozialhilfeempfänger",
+          "Wohnviertel": "Riehen",
+          "y": 8,
+          "Wert": 0.0369328834
+        },
+        {
+          "name": "Anteil&nbsp;Ausländer",
+          "Wohnviertel": "Riehen",
+          "y": 5,
+          "Wert": 0.2609673791
+        },
+        {
+          "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
+          "Wohnviertel": "Riehen",
+          "y": 10,
+          "Wert": 0.4805961755
+        },
+        {
+          "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
+          "Wohnviertel": "Riehen",
+          "y": 3,
+          "Wert": 0.1628540045
+        },
+        {
+          "name": "Gymnasialquote",
+          "Wohnviertel": "Riehen",
+          "y": 14,
+          "Wert": 0.5512820513
+        },
+        {
+          "name": "Altersquotient",
+          "Wohnviertel": "Riehen",
+          "y": 21,
+          "Wert": 0.4815329799
+        },
+        {
+          "name": "Anteil&nbsp;Sesshafte",
+          "Wohnviertel": "Riehen",
+          "y": 20,
+          "Wert": 0.4280089989
+        },
+        {
+          "name": "Jugendquotient",
+          "Wohnviertel": "Riehen",
+          "y": 20,
+          "Wert": 0.3726427392
+        },
+        {
+          "name": "Baujahr&nbsp;Wohngebäude",
+          "Wohnviertel": "Riehen",
+          "y": 20,
+          "Wert": 1957.6253324
+        },
+        {
+          "name": "Anteil Einfamilienhäuser",
+          "Wohnviertel": "Riehen",
+          "y": 18,
+          "Wert": 0.6565143824
+        },
+        {
+          "name": "Anteil&nbsp;Grünfläche",
+          "Wohnviertel": "Riehen",
+          "y": 20,
+          "Wert": 0.7956226483
+        },
+        {
+          "name": "Fläche&nbsp;pro&nbsp;Wohnung",
+          "Wohnviertel": "Riehen",
+          "y": 19,
+          "Wert": 102.73655706
+        },
+        {
+          "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
+          "Wohnviertel": "Riehen",
+          "y": 16,
+          "Wert": 47.494001816
+        },
+        {
+          "name": "Vermögenssteuer",
+          "Wohnviertel": "Riehen",
+          "y": 16,
+          "Wert": 3075.9103589
+        },
+        {
+          "name": "Einkommenssteuer",
+          "Wohnviertel": "Riehen",
+          "y": 16,
+          "Wert": 13428.811448
+        },
+        {
+          "name": "Erwerbstätigenquote",
+          "Wohnviertel": "Riehen",
+          "y": 13,
+          "Wert": 0.74117237
+        },
+        {
+          "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
+          "Wohnviertel": "Riehen",
+          "y": 4,
+          "Wert": 0.1686329241
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Riehen",
+          "y": 1,
+          "Wert": 0.0193855888
+        }
+      ],
+      "name": "Wert",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "fontSize": "10px"
+      },
+      "useHTML": false,
+      "formatter": function (){
+                    return (this.value + "").replace(/&nbsp;/g, "\u00A0");
+                }
+    },
+    "tickLength": 0,
+    "tickmarkPlacement": "on",
+    "lineWidth": 0,
+    "tickInterval": 1,
+    "gridLineColor": "white"
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {};
+                    //draw spider backgrounds
+                    //colors of StatA Bereiche: violett3 #923F8D, gruen3 #68AB2B, blau3 #689199
+                    var top = -Math.PI/2;
+                    var endPurple = top + 2*Math.PI/18*8;
+                    var endGreen = endPurple + 2*Math.PI/18*5;
+                    var endBlue = top;
+                    var centerX = 242.5;
+                    var centerY = 212.5;
+                    var radius = 136;
+                    this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
+                        fill: '#923F8D',
+                        stroke: '#923F8D',
+                        'stroke-width': 0,
+                        'fill-opacity': 0.5
+                    }).add();
+                    this.renderer.arc(centerX, centerY, radius, 0, endPurple, endGreen).attr({
+                        fill: '#68AB2B',
+                        stroke: '#68AB2B',
+                        'stroke-width': 0,
+                        'fill-opacity': 0.5
+                    }).add();
+                    this.renderer.arc(centerX, centerY, radius, 0, endGreen, endBlue).attr({
+                        fill: '#689199',
+                        stroke: '#689199',
+                        'stroke-width': 0, 
+                        'fill-opacity': 0.5
+                    }).add();
+                }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "area",
+    "polar": true,
+    "renderTo": "container-6758"
+  },
+  "pane": {},
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Quartierradar Riehen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Ausgabe 2018",
+    "align": "left"
+  },
+  "plotOptions": {
+    "area": {
+      "lineColor": "white",
+      "lineWidth": 0.5
+    },
+    "series": {
+      "lineWidth": 1,
+      "color": "#808080",
+      "marker": {
+        "enabled": false
+      },
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "yAxis": {
+    "lineColor": "white",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "y": 11,
+      "x": 0,
+      "overflow": "justified",
+      "style": {
+        "color": "white",
+        "textOverflow": "none",
+        "fontSize": "10px"
+      }
+    },
+    "min": 1,
+    "max": 21,
+    "tickInterval": 7,
+    "showFirstLabel": false,
+    "showLastLabel": true,
+    "gridLineInterpolation": "polygon",
+    "lineWidth": 0,
+    "gridLineColor": "white"
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-6-14"
+  },
+  "legend": {
+    "enabled": false,
+    "symbolRadius": 0
+  },
+  "tooltip": {
+    "padding": 0,
+    "useHTML": true,
+    "formatter": function () {
+              return "" + 
+              '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
+                '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
+                '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ' <b>' + this.point.y + '</b><br/>' + 
+              '</div>';
+          }
+  },
+  "exporting": {
+    "allowHTML": false,
+    "filename": 6758
+  }
+}

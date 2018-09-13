@@ -15,31 +15,31 @@
   "series": [
     {"color": "#B00000",
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* dunkelrot */
     	{"color": "#007A2F",
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* dunkelgrün */
     	{"color": "#4f81bd",
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* dunkelblau */
     	{"color": "#662673",
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* dunkelviolett */
     	{"color": "#FABD24",
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* dunkelviolett */
   ],

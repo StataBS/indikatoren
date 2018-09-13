@@ -274,7 +274,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 665,
-    "height": 208,
+    "height": 221,
     "spacing": [
       7,
       3,
@@ -286,7 +286,8 @@
     },
     "type": "line",
     "alignTicks": false,
-    "renderTo": "container-6257"
+    "renderTo": "container-6257",
+    "spacingBottom": 28
   },
   "title": {
     "style": {
@@ -369,9 +370,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2017-7-19"
   },
   "legend": {
     "enabled": true,
@@ -384,6 +385,13 @@
       "fontWeight": "normal"
     },
     "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    }
   },
   "exporting": {
     "filename": 6257

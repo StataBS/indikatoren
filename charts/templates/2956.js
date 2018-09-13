@@ -36,8 +36,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    //"x": 40,
-	//"y": 65,    
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -49,8 +47,6 @@
   "chart": {      
     "type": "column",
     "inverted": false,
-     //"marginBottom": 75,
-     //"marginTop": 75,
   },
    "labelFormatter": function () {
             return this.name;

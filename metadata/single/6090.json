@@ -1,29 +1,40 @@
-{"title":"Bevölkerung nach höchster abgeschlossener Ausbildung",
-"subtitle":"Personen ab 15 Jahren nach Staatsangehörigkeit, gepoolte Daten 2011 - 2015",
-"kuerzel":"I.15.7.06090",
-"kuerzelKunde":"B4-2",
-"description":"Bevölkerung nach höchster abgeschlossener Ausbildung",
-"id":6090,
-"thema":"15 Bildung",
-"unterthema":"Bildungsabschlüsse",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Bevölkerung","Staatsangehörigkeit","Ausbildung"],
-"stufe1":"Kapitel B Schule und Bildung",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Bei Personen aus Deutschland (68%), EU-Ost (53%), EU-17 + EFTA (50%) und Mittel- und Südamerika (39%) ist der Anteil Personen mit Tertiärausbildung grösser als bei den Schweizer Staatsangehörigen (33%). Geringe Anteile der Tertiärausbildung weisen Personen aus der Türkei und dem Balkan (je 11%) auf.",
-"erlaeuterungen":"Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe:  Höhere Fachschule, Fachhochschule, Universität.",
-"template":"befragungen001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_00_00_00_00_008",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)"],
-"externalLinks":[""]
+{
+ "title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
+ "subtitle": "Personen ab 15 Jahren nach Staatsangehörigkeit, gepoolte Daten 2011 - 2015",
+ "kuerzel": "I.15.7.06090",
+ "kuerzelKunde": "B4-2",
+ "description": "Bevölkerung nach höchster abgeschlossener Ausbildung",
+ "id": 6090,
+ "thema": "15 Bildung",
+ "unterthema": "Bildungsabschlüsse",
+ "kennzahlenset": "Integration",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-21T00:00:00.000",
+ "schlagwort": [
+  "Bevölkerung",
+  "Staatsangehörigkeit",
+  "Ausbildung"
+ ],
+ "stufe1": "Kapitel B Schule und Bildung",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Bei Personen aus Deutschland (68%), EU-Ost (53%), EU-17 + EFTA (50%) und Mittel- und Südamerika (39%) ist der Anteil Personen mit Tertiärausbildung grösser als bei den Schweizer Staatsangehörigen (33%). Geringe Anteile der Tertiärausbildung weisen Personen aus der Türkei und dem Balkan (je 11%) auf.",
+ "erlaeuterungen": "Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe:  Höhere Fachschule, Fachhochschule, Universität.",
+ "template": "befragungen001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_00_00_00_00_008",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

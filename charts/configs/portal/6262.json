@@ -501,7 +501,8 @@
       "fontFamily": "Arial"
     },
     "type": "area",
-    "renderTo": "container-6262"
+    "renderTo": "container-6262",
+    "spacingBottom": 8
   },
   "title": {
     "style": {
@@ -559,7 +560,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: SVIT beider Basel"
+    "text": "Quelle: SVIT beider Basel."
   },
   "legend": {
     "enabled": true,
@@ -576,6 +577,11 @@
     "itemMarginBottom": 5
   },
   "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "area": {
       "stacking": "normal",
       "lineWidth": 0

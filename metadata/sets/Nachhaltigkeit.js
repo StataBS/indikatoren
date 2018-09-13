@@ -1,7 +1,7 @@
 var indikatorensetData = [
 	{
 		"title": "Bezügerinnen und Bezüger von Prämienverbilligung",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.13.2.02917",
 		"kuerzelKunde": "GW6",
 		"description": "Bezügerinnen und Bezüger von Prämienverbilligung",
@@ -11,15 +11,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-05T11:38:27.2727",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2016 erhält etwas mehr als ein Viertel der in Basel-Stadt wohnhaften Personen Prämienverbilligung.",
+		"lesehilfe": "2017 erhält mit rund 50 000 Bezügerinnen und Bezügern etwas mehr als ein Viertel der in Basel-Stadt wohnhaften Personen Prämienverbilligung.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "03_02_00_00_00_306",
 		"parentId": 6173,
 		"children": [],
@@ -30,7 +31,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2917
+		"id": 2917,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
@@ -63,7 +65,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5138
+		"id": 5138,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerungspyramide am Jahresende",
@@ -96,7 +99,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5142
+		"id": 5142,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Altersquotient",
@@ -129,7 +133,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5144
+		"id": 5144,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Jugendquotient",
@@ -162,7 +167,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5147
+		"id": 5147,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Saldo aus Geburten und Todesfällen",
@@ -195,7 +201,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5148
+		"id": 5148,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Geburtenziffer nach Staatsangehörigkeit",
@@ -228,7 +235,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5149
+		"id": 5149,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
@@ -242,7 +250,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -261,7 +269,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5155
+		"id": 5155,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wanderungen: Schweizer",
@@ -275,7 +284,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -294,7 +303,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5156
+		"id": 5156,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wanderungen: Ausländer",
@@ -308,7 +318,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -327,11 +337,12 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5157
+		"id": 5157,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nettoschuldenquote und Nettoschulden pro Kopf",
-		"subtitle": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Kopf in Franken",
+		"subtitle": "Nettoschuldenquote Basel-Stadt in Promille des BIP der Schweiz und Nettoschulden Basel-Stadt pro Kopf in Franken",
 		"kuerzel": "I.04.1.05160",
 		"kuerzelKunde": "SH1",
 		"description": "Nettoschuldenquote und Nettoschulden pro Kopf",
@@ -341,15 +352,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-05T15:55:32.3232",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Finanzhaushalt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Nettoschulden haben sich seit dem Jahr 2000 von 19 132 auf 9 950 Franken pro Kopf im Jahr 2016 reduziert. Die Nettoschuldenquote liegt 2016 bei 3,0 ‰ des schweizerischen BIP.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Nettoschuldenquote ist seit dem Jahr 2000 ebenso wie die Nettoschulden pro Kopf zurückgegangen. 2017 liegen die Quote bei 2,9 Promille und die Schulden bei 9 643 Franken pro Kopf.",
+		"erlaeuterungen": "Die Nettoschuldenquote wird in Bezug auf das Schweizer Bruttoinlandprokukt berechnet.",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "02_01_00_00_00_201",
 		"parentId": 6211,
 		"children": [],
@@ -360,7 +372,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5160
+		"id": 5160,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -393,29 +406,31 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5161
+		"id": 5161,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
 		"subtitle": "in Mio. Franken",
-		"kuerzel": "I.04.1.05162",
+		"kuerzel": "I.18.2.05162",
 		"kuerzelKunde": "SH3",
 		"description": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-05T11:13:25.2525",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Finanzhaushalt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Folgen der Finanz- und Wirtschaftskrise, die 2008 begann, wurden vor allem beim Steuerertrag der juristischen Personen deutlich. 2016 betrug ihr Ertrag 837,1 Mio. Franken. Der Ertrag aus direkten Steuern natürlicher Personen betrug 2016 1,872 Mrd. Franken.",
+		"lesehilfe": "Die Folgen der Finanz- und Wirtschaftskrise, die 2008 begann, wurden vor allem beim Steuerertrag der juristischen Personen deutlich. 2017 betrug deren Ertrag 816,9 Mio. Franken. Der Ertrag aus direkten Steuern natürlicher Personen betrug 2017 über 1,8 Mrd. Franken.",
 		"erlaeuterungen": "Steuereinnahmen gemäss Jahresrechnung des Kantons Basel-Stadt; direkte Steuern natürlicher und juristischer Personen. Im Gegensatz zur Steuerstatistik auf das Kalenderjahr bezogen, nicht auf das Steuerjahr.",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "02_01_00_00_00_203",
 		"parentId": 6132,
 		"children": [],
@@ -426,7 +441,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5162
+		"id": 5162,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bewertung der Lebensqualität",
@@ -459,7 +475,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5165
+		"id": 5165,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
@@ -473,7 +490,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Lebensqualität",
 		"stufe3": "",
@@ -496,7 +513,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5178
+		"id": 5178,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Lebenserwartung bei Geburt",
@@ -510,7 +528,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
@@ -529,7 +547,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5180
+		"id": 5180,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Empfundene gesundheitliche Verfassung",
@@ -543,7 +562,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
@@ -562,7 +581,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5181
+		"id": 5181,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Übergewichtige Kinder",
@@ -595,7 +615,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5182
+		"id": 5182,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
@@ -609,7 +630,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Existenzsicherung",
 		"stufe3": "",
@@ -629,7 +650,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5183
+		"id": 5183,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sozialhilfequote nach Altersgruppe",
@@ -643,7 +665,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Existenzsicherung",
 		"stufe3": "",
@@ -663,7 +685,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5184
+		"id": 5184,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
@@ -677,7 +700,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Existenzsicherung",
 		"stufe3": "",
@@ -697,7 +720,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5185
+		"id": 5185,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Strassenverkehrsunfälle und verunfallte Personen",
@@ -711,7 +735,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
@@ -730,7 +754,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5186
+		"id": 5186,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
@@ -763,11 +788,12 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5188
+		"id": 5188,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Störfälle und Ereignisse",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.14.3.05189",
 		"kuerzelKunde": "GW12",
 		"description": "Anzahl Störfälle und Ereignisse",
@@ -777,15 +803,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-05T16:18:31.3131",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2016 sind bei der Chemiefachberatung des Kantons 9 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
-		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten. Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IRFB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten:<br><br/><br/>a) ausserhalb des Betriebsareals,<br/> b) auf oder ausserhalb des Verkehrswegs,<br/> c) ausserhalb der Rohrleitungsanlage.<br/><br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt aber im Ermessen der zuständigen Fachstelle.",
+		"lesehilfe": "2017 sind bei der Chemiefachberatung des Kantons 10 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
+		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten. Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IRFB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: <br><br>a) ausserhalb des Betriebsareals, <br>b) auf oder ausserhalb des Verkehrswegs, <br>c) ausserhalb der Rohrleitungsanlage. <br><br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt aber im Ermessen der zuständigen Fachstelle.",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "03_04_00_00_00_312",
 		"parentId": 6179,
 		"children": [],
@@ -796,7 +823,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5189
+		"id": 5189,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Höchste abgeschlossene Ausbildung",
@@ -810,7 +838,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
@@ -829,7 +857,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5191
+		"id": 5191,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Besuchte Weiterbildungen und Kurse in den letzten zwölf Monaten",
@@ -843,7 +872,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
@@ -862,7 +891,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5192
+		"id": 5192,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Staatsausgaben für Kultur und Freizeit",
@@ -876,7 +906,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
@@ -895,11 +925,12 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5193
+		"id": 5193,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Besuche in Theater, Kinos und Museen",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.16.1.05194",
 		"kuerzelKunde": "GW16",
 		"description": "Anzahl Besuche in Theater, Kinos und Museen",
@@ -909,15 +940,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-05T13:47:47.4747",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Vor allem die Kinobesuche haben im Lauf der Zeit abgenommen: von 1,31 Mio. im Jahr 2002 auf 0,63 Mio. im Jahr 2016. Bei den Theatern und Museen blieben die Zahlen vergleichsweise konstant.",
+		"lesehilfe": "Vor allem die Kinobesuche haben im Lauf der Zeit abgenommen: von 1,31 Mio. im Jahr 2002 auf 0,65 Mio. im Jahr 2017. Bei den Theatern und Museen blieben die Zahlen vergleichsweise konstant.",
 		"erlaeuterungen": "In den Kategorien «Theater» und «Kleintheater» entspricht die Zahl für das Jahr 2015 der Saison 2015/2016.",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "03_05_00_00_00_316",
 		"parentId": 6169,
 		"children": [],
@@ -929,11 +961,12 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5194
+		"id": 5194,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
-		"subtitle": "nach Zimmerzahl",
+		"subtitle": "nach Zimmerzahl, Basel-Stadt",
 		"kuerzel": "I.09.2.05195",
 		"kuerzelKunde": "GW17",
 		"description": "Anzahl Leerwohnungen und Leerwohnungsquote",
@@ -943,15 +976,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-22T15:37:44.4444",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Leerwohnungsquote erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die Leerwohnungsquote stetig angestiegen und lag 2017 bei 0,5%.",
-		"erlaeuterungen": "LWQ = Leerwohnungsquote",
+		"lesehilfe": "Die Leerwohnungsquote erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die Leerwohnungsquote stetig angestiegen und liegt 2018 bei 0,7%.",
+		"erlaeuterungen": "LWQ = Leerwohnungsquote.",
 		"template": "template001",
+		"printformat": "",
 		"orderKey": "03_06_00_00_00_317",
 		"parentId": 4138,
 		"children": [],
@@ -962,7 +996,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5195
+		"id": 5195,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mietpreisindex",
@@ -976,7 +1011,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
@@ -995,7 +1030,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5196
+		"id": 5196,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Übermässig mit Lärm belastete Wohnbevölkerung",
@@ -1028,7 +1064,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5197
+		"id": 5197,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Grünfläche pro Kopf nach Wohnviertel",
@@ -1042,7 +1079,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-03-16T14:52:33.3333",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.0000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
@@ -1062,7 +1099,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5198
+		"id": 5198,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ausgaben für Umbau- und Unterhaltsarbeiten",
@@ -1095,7 +1133,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5199
+		"id": 5199,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ökologischer Fussabdruck der Schweiz",
@@ -1115,8 +1154,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2013 5,3 globale Hektaren pro Kopf.",
-		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er wird von Global Footprint Network berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden.",
+		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2014 4,9 globale Hektaren pro Kopf.",
+		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er wird durch die Non-Profit Organisation \"Global Footprint Network\" für alle Länder weltweit berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden.",
 		"template": "line001",
 		"orderKey": "04_01_00_00_00_401",
 		"parentId": null,
@@ -1126,9 +1165,11 @@ var indikatorensetData = [
 			"Global Footprint Network"
 		],
 		"externalLinks": [
-			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/oekologischer-fussabdruck.html' target = '_blank'>Bundesamt für Statistik: Der ökologische Fussabdruck der Schweiz</a>"
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/oekologischer-fussabdruck.html' target = '_blank'>Bundesamt für Statistik: Der ökologische Fussabdruck der Schweiz</a>",
+			"Aktuelle Daten des <a href = 'http://data.footprintnetwork.org/#/countryTrends?cn=211&type=BCpc,EFCpc' target = '_blank'>Global Footprint Network</a>"
 		],
-		"id": 5793
+		"id": 5793,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
@@ -1142,7 +1183,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1161,7 +1202,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5794
+		"id": 5794,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil erneuerbarer Energien am Bruttoenergieverbrauch",
@@ -1175,7 +1217,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1194,29 +1236,31 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5795
+		"id": 5795,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
-		"subtitle": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf",
-		"kuerzel": "I.09.6.05796",
+		"subtitle": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf, Basel-Stadt",
+		"kuerzel": "I.02.6.05796",
 		"kuerzelKunde": "NL4",
 		"description": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
-		"thema": "09 Bau-, Wohnungswesen",
+		"thema": "02 Raum, Umwelt",
 		"unterthema": "Entsorgung",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-05T16:41:28.2828",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und 2016 von ca. 194 auf 151 kg pro Kopf. Die Recyclingquote stieg von ca. 41% auf fast 45%.",
+		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und 2017 von ca. 194 auf 158 kg pro Kopf. Die Recyclingquote liegt wie im Jahr 2000 aktuell bei ca. 42%.",
 		"erlaeuterungen": "Die Berechnungsmethode für die Recyclingquote wurde vom Amt für Umwelt und Energie im Jahr 2016 rückwirkend für alle abgebildeten Jahre revidiert (dezentrale Kompostierung nicht mehr eingerechnet). Dies führt zu einem tieferen Recyclinganteil im Vergleich zu früheren Berechnungen.",
 		"template": "template001",
+		"printformat": "",
 		"orderKey": "04_01_00_00_00_404",
 		"parentId": 6163,
 		"children": [],
@@ -1227,7 +1271,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5796
+		"id": 5796,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
@@ -1241,7 +1286,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1260,7 +1305,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6026
+		"id": 6026,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Kopf",
@@ -1274,7 +1320,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1294,7 +1340,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6027
+		"id": 6027,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteile der Verkehrsmittel",
@@ -1308,7 +1355,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1327,7 +1374,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6028
+		"id": 6028,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Luftqualität: Langzeitbelastung der Luft",
@@ -1341,7 +1389,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1360,7 +1408,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6029
+		"id": 6029,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wasserqualität: AOX-Konzentration",
@@ -1374,7 +1423,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1393,11 +1442,12 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6030
+		"id": 6030,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen",
-		"subtitle": "in Tonnen",
+		"subtitle": "in Tonnen, Basel-Stadt",
 		"kuerzel": "I.02.5.06031",
 		"kuerzelKunde": "NL10",
 		"description": "CO<sub>2</sub>-Emissionen",
@@ -1407,15 +1457,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-05T16:37:16.1616",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2010 und 2014 von 898 113 Tonnen auf 755 095 Tonnen ab. Das entspricht einer Reduktion von 16%.",
-		"erlaeuterungen": "Die CO<sub>2</sub>-Emission berechnet sich aus der Summe der Verbräuche aller fossilen Brennstoffe sowie Abfall multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Verbrauch durch die mittlere Bevölkerung dividiert.  Erneuerbare Brennstoffe wie Holz oder Biogas sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanalge (KVA) verbrannte Hauskehricht wird als 50% erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet.",
+		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2010 und 2016 von 910 740 Tonnen auf 741 614 Tonnen ab. Das entspricht einer Reduktion von 19%. Dies entspricht einem Rückgang von 4,7 Tonnen auf 3,7 Tonnen CO<sub>2</sub> pro Kopf.",
+		"erlaeuterungen": "Die CO<sub>2</sub>-Emission berechnet sich aus der Summe der Verbräuche aller fossilen Brennstoffe sowie Abfall multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Verbrauch durch die mittlere Bevölkerung dividiert. &nbsp;Erneuerbare Brennstoffe wie Holz oder Biogas sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird als 50% erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet.",
 		"template": "template001",
+		"printformat": "",
 		"orderKey": "04_02_00_00_00_410",
 		"parentId": 6165,
 		"children": [],
@@ -1426,7 +1477,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6031
+		"id": 6031,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Hitzetage",
@@ -1440,7 +1492,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
@@ -1459,7 +1511,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6033
+		"id": 6033,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
@@ -1473,7 +1526,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Friedliches Zusammenleben",
 		"stufe3": "",
@@ -1492,7 +1545,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6034
+		"id": 6034,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sicherheitsgefühl im Alltag",
@@ -1506,7 +1560,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Friedliches Zusammenleben",
 		"stufe3": "",
@@ -1525,7 +1579,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6035
+		"id": 6035,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
@@ -1539,7 +1594,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
@@ -1558,12 +1613,13 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6036
+		"id": 6036,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Verhältnis der Löhne von Frauen und Männern",
-		"subtitle": "in der Nordwestschweiz",
-		"kuerzel": "I.03.3.06037",
+		"subtitle": "im privaten Sektor in der Nordwestschweiz",
+		"kuerzel": "I.03.3.6037",
 		"kuerzelKunde": "GZ4",
 		"description": "Verhältnis der Löhne von Frauen und Männern",
 		"thema": "03 Erwerbsleben",
@@ -1572,18 +1628,22 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-05T10:09:50.5050",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Nordwestschweiz erreichen die Löhne der Frauen seit Jahren im Durchschnitt rund 80% der Löhne der Männer. Dieses Verhältnis nahm von rund 83% im Jahr 2012 auf rund 86% im Jahr 2014 zu.",
-		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert, im privaten Sektor (ohne Landwirtschaft).",
+		"lesehilfe": "In der Nordwestschweiz erreicht der Medianlohn der Frauen im Jahr 2016 rund 5 920 Franken. Dies entspricht 86% des Medianlohns der Männer (6 850 Fr.). Der Lohnunterschied hat sich gegenüber 2014 kaum verändert, ist jedoch geringer als vor 10 Jahren (2006 betrug das Lohnverhältnis rund 81%).",
+		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u.a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "05_02_00_00_00_504",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6147",
+			"6300"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -1591,7 +1651,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6037
+		"id": 6037,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Übertritte nach der obligatorischen Schulzeit",
@@ -1605,7 +1666,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
@@ -1624,7 +1685,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6039
+		"id": 6039,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Freiwillige Tätigkeit",
@@ -1638,7 +1700,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
@@ -1657,7 +1719,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6040
+		"id": 6040,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beteiligung der Bevölkerung an Freiwilligenarbeit",
@@ -1671,7 +1734,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
@@ -1690,7 +1753,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6041
+		"id": 6041,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wahlbeteiligung an National- und Grossratswahlen",
@@ -1704,7 +1768,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
@@ -1723,7 +1787,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6042
+		"id": 6042,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
@@ -1737,7 +1802,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
@@ -1756,7 +1821,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6043
+		"id": 6043,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung des Frauenanteils im grossen Rat",
@@ -1770,7 +1836,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
@@ -1791,7 +1857,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6044
+		"id": 6044,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bruttoinlandprodukt in Franken pro Einwohner",
@@ -1805,7 +1872,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -1824,7 +1891,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6045
+		"id": 6045,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Beschäftigte nach Sektor",
@@ -1838,7 +1906,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -1857,7 +1925,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6046
+		"id": 6046,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Branchenanteile an der nominalen Wertschöpfung",
@@ -1871,7 +1940,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -1890,7 +1959,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6047
+		"id": 6047,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil der Beschäftigten in innovativen Branchen",
@@ -1904,7 +1974,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -1923,7 +1993,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6048
+		"id": 6048,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Aufwendungen für Forschung und Entwicklung",
@@ -1937,7 +2008,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -1956,7 +2027,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6049
+		"id": 6049,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
@@ -1970,7 +2042,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -1989,12 +2061,13 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6050
+		"id": 6050,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entkopplung von Wachstum und Umweltverbrauch",
-		"subtitle": "BIP des Kantons Basel-Stadt in Fr. und ökologischer Fussabdruck in globalen Hektaren pro Kopf",
-		"kuerzel": "I.04.2.06051",
+		"subtitle": "Nominales Bruttoinlandprodukt des Kantons Basel-Stadt in Fr. pro Kopf und ökologischer Fussabdruck der Schweiz in globalen Hektaren pro Kopf",
+		"kuerzel": "I.04.2.6051",
 		"kuerzelKunde": "WE7",
 		"description": "Entkopplung von Wachstum und Umweltverbrauch",
 		"thema": "04 Volkswirtschaft",
@@ -2003,15 +2076,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-15T12:00:00.0000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2013 5,3 globale Hektaren pro Kopf. Das Bruttoinlandprodukt pro Kopf des Kantons Basel-Stadt ist zwischen den 1990er-Jahren und 2013 stark gestiegen.",
-		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Das Bruttoinlandprodukt (BIP; Stand der Daten: Juli 2017) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. <br>Der Stand der BIP-Daten ist Juli 2017.",
+		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2014 4,9 globale Hektaren pro Kopf. Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit den 1990er-Jahren stark gestiegen. Seit 2007 blieben die Werte relativ konstant.",
+		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden.",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "06_01_00_00_00_607",
 		"parentId": null,
 		"children": [],
@@ -2023,7 +2097,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/oekologischer-fussabdruck.html' target = '_blank'>Bundesamt für Statistik: Der ökologische Fussabdruck der Schweiz</a>"
 		],
-		"id": 6051
+		"id": 6051,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nettoerwerbstätigenquote nach Geschlecht und Heimat",
@@ -2056,7 +2131,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6052
+		"id": 6052,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
@@ -2070,7 +2146,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
@@ -2089,7 +2165,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6053
+		"id": 6053,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens in Basel-Stadt",
@@ -2103,7 +2180,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
@@ -2122,7 +2199,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6054
+		"id": 6054,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
@@ -2136,7 +2214,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
@@ -2155,7 +2233,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6055
+		"id": 6055,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Voll- und Teilzeiterwerbstätige nach Geschlecht",
@@ -2188,7 +2267,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6056
+		"id": 6056,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Jahresmitteltemperatur",
@@ -2202,7 +2282,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
@@ -2221,29 +2301,31 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6434
+		"id": 6434,
+		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Anteil Arbeitnehmende in Unternehmensleitung oder mit Vorgesetztenfunktion nach Geschlecht",
-		"subtitle": "",
-		"kuerzel": "I.03.2.06435",
+		"title": "Arbeitnehmende in Leitungsfunktionen",
+		"subtitle": "nach Geschlecht, Basel-Stadt",
+		"kuerzel": "I.03.1.06435",
 		"kuerzelKunde": "GZ5",
-		"description": "Anteil Arbeitnehmende in Unternehmensleitung oder mit Vorgesetztenfunktion nach Geschlecht",
+		"description": "Arbeitnehmende in Leitungsfunktionen",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte",
+		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-05T11:32:37.3737",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2016 bei den Männern etwa 38%, bei den Frauen rund 27%.",
+		"lesehilfe": "Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2017 bei den Männern etwa 33%, bei den Frauen rund 21%.",
 		"erlaeuterungen": "Die Ergebnisse basieren auf der Hochrechnung einer Stichprobenerhebung von rund 1&nbsp;500 in Basel-Stadt wohnhaften Personen. Bei der Interpretation der Ergebnisse muss die Unsicherheit von Stichprobenerhebungen berücksichtigt werden.",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "05_02_00_00_00_505",
 		"parentId": 6148,
 		"children": [],
@@ -2254,7 +2336,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6435
+		"id": 6435,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Saldo aus Anzahl Baumpflanzungen und -fällungen",
@@ -2268,7 +2351,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
@@ -2287,7 +2370,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6574
+		"id": 6574,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerung nach Staatsangehörigkeit",
@@ -2301,7 +2385,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -2320,7 +2404,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6592
+		"id": 6592,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ausländeranteil",
@@ -2334,7 +2419,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -2353,7 +2438,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6597
+		"id": 6597,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Ausländer nach Staatsangehörigkeit",
@@ -2367,7 +2453,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -2388,6 +2474,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6599
+		"id": 6599,
+		"darstellungsart": "Grafik"
 	}
 ];

@@ -112,7 +112,8 @@
     },
     "type": "column",
     "inverted": true,
-    "renderTo": "container-6298"
+    "renderTo": "container-6298",
+    "spacingBottom": 3
   },
   "plotOptions": {
     "series": {
@@ -190,7 +191,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)."
   },
   "legend": {
     "symbolRadius": 0,

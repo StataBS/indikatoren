@@ -429,7 +429,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -444,7 +444,8 @@
     "y": 20,
     "marginLeft": 130,
     "inverted": true,
-    "renderTo": "container-6437"
+    "renderTo": "container-6437",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -517,9 +518,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Justiz- und Sicherheitsdepartement des Kantons Basel-Stadt, Kundenbefragung 2012, F 51"
+    "text": "Quelle: Justiz- und Sicherheitsdepartement des Kantons Basel-Stadt, Kundenbefragung 2012, F 51.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
   },
   "legend": {
     "layout": "vertical",

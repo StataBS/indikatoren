@@ -1,29 +1,39 @@
-{"title":"Anzahl Gutscheine für Gratis-Deutschkurse",
-"subtitle":"nach Staatsangehörigkeit Stand: 2016",
-"kuerzel":"I.15.6.06514",
-"kuerzelKunde":"B5-1",
-"description":"Anzahl Gutscheine für Gratis-Deutschkurse",
-"id":6514,
-"thema":"15 Bildung",
-"unterthema":"Bildungsniveau",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Bildung"],
-"stufe1":"Kapitel B Schule und Bildung",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Im Jahr 2016 wurden 3 119 Gutscheine ausgestellt, demgegenüber wurden 1 239 Gutscheine eingelöst. Die grösste Anzahl Gutscheine (1 089) ist bei den Personen aus EU-17 und EFTA-Staaten ausgestellt worden.",
-"erlaeuterungen":"Neuzugezogene erhalten im Kanton Basel-Stadt die rechtlich verankerte Möglichkeit, einen Gratis-Deutschkurs zu besuchen. Anspruchsberechtigt sind volljährige, nicht deutschsprachige Migrantinnen und Migranten in ihrem ersten Aufenthaltsjahr in der Schweiz bzw. im Kanton, die über eine Aufenthaltsbewilligung B verfügen. Da Gutscheine jeweils ein Jahr gültig sind, entsprechen die Personen, welche die ausgestellten Gutscheine erhalten haben, nicht zwingend den Personen, welche die Gutscheine eingelöst haben. Personen aus dem Asylbereich sind hier ausgenommen, da sie über die Sozialhilfe spezifisch im Spracherwerb gefördert werden.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_00_00_00_00_010",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung","Bevölkerungsdienste und Migration Basel-Stadt"],
-"externalLinks":[""]
+{
+ "title": "Anzahl Gutscheine für Gratis-Deutschkurse",
+ "subtitle": "nach Staatsangehörigkeit Stand: 2016",
+ "kuerzel": "I.15.6.06514",
+ "kuerzelKunde": "B5-1",
+ "description": "Anzahl Gutscheine für Gratis-Deutschkurse",
+ "id": 6514,
+ "thema": "15 Bildung",
+ "unterthema": "Bildungsniveau",
+ "kennzahlenset": "Integration",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-21T00:00:00.000",
+ "schlagwort": [
+  "Bildung"
+ ],
+ "stufe1": "Kapitel B Schule und Bildung",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Im Jahr 2016 wurden 3 119 Gutscheine ausgestellt, demgegenüber wurden 1 239 Gutscheine eingelöst. Die grösste Anzahl Gutscheine (1 089) ist bei den Personen aus EU-17 und EFTA-Staaten ausgestellt worden.",
+ "erlaeuterungen": "Neuzugezogene erhalten im Kanton Basel-Stadt die rechtlich verankerte Möglichkeit, einen Gratis-Deutschkurs zu besuchen. Anspruchsberechtigt sind volljährige, nicht deutschsprachige Migrantinnen und Migranten in ihrem ersten Aufenthaltsjahr in der Schweiz bzw. im Kanton, die über eine Aufenthaltsbewilligung B verfügen. Da Gutscheine jeweils ein Jahr gültig sind, entsprechen die Personen, welche die ausgestellten Gutscheine erhalten haben, nicht zwingend den Personen, welche die Gutscheine eingelöst haben. Personen aus dem Asylbereich sind hier ausgenommen, da sie über die Sozialhilfe spezifisch im Spracherwerb gefördert werden.",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_00_00_00_00_010",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung",
+  "Bevölkerungsdienste und Migration Basel-Stadt"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

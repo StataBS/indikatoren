@@ -1,0 +1,293 @@
+{
+  "series": [
+    {
+      "data": [
+        {
+          "name": "Anteil&nbsp;Sozialhilfeempfänger",
+          "Wohnviertel": "Kleinhüningen",
+          "y": 20,
+          "Wert": 0.1332630098
+        },
+        {
+          "name": "Anteil&nbsp;Ausländer",
+          "Wohnviertel": "Kleinhüningen",
+          "y": 18,
+          "Wert": 0.4743319269
+        },
+        {
+          "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
+          "Wohnviertel": "Kleinhüningen",
+          "y": 1,
+          "Wert": 0.3948663854
+        },
+        {
+          "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
+          "Wohnviertel": "Kleinhüningen",
+          "y": 5,
+          "Wert": 0.1952813067
+        },
+        {
+          "name": "Gymnasialquote",
+          "Wohnviertel": "Kleinhüningen",
+          "y": 9,
+          "Wert": 0.3673469388
+        },
+        {
+          "name": "Altersquotient",
+          "Wohnviertel": "Kleinhüningen",
+          "y": 9,
+          "Wert": 0.285391991
+        },
+        {
+          "name": "Anteil&nbsp;Sesshafte",
+          "Wohnviertel": "Kleinhüningen",
+          "y": 14,
+          "Wert": 0.3516174402
+        },
+        {
+          "name": "Jugendquotient",
+          "Wohnviertel": "Kleinhüningen",
+          "y": 18,
+          "Wert": 0.3186689227
+        },
+        {
+          "name": "Baujahr&nbsp;Wohngebäude",
+          "Wohnviertel": "Kleinhüningen",
+          "y": 17,
+          "Wert": 1946.4011976
+        },
+        {
+          "name": "Anteil Einfamilienhäuser",
+          "Wohnviertel": "Kleinhüningen",
+          "y": 10,
+          "Wert": 0.1556886228
+        },
+        {
+          "name": "Anteil&nbsp;Grünfläche",
+          "Wohnviertel": "Kleinhüningen",
+          "y": 9,
+          "Wert": 0.2267642282
+        },
+        {
+          "name": "Fläche&nbsp;pro&nbsp;Wohnung",
+          "Wohnviertel": "Kleinhüningen",
+          "y": 7,
+          "Wert": 70.42468773
+        },
+        {
+          "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
+          "Wohnviertel": "Kleinhüningen",
+          "y": 2,
+          "Wert": 32.477628228
+        },
+        {
+          "name": "Vermögenssteuer",
+          "Wohnviertel": "Kleinhüningen",
+          "y": 2,
+          "Wert": 206.8607831
+        },
+        {
+          "name": "Einkommenssteuer",
+          "Wohnviertel": "Kleinhüningen",
+          "y": 2,
+          "Wert": 4908.5997514
+        },
+        {
+          "name": "Erwerbstätigenquote",
+          "Wohnviertel": "Kleinhüningen",
+          "y": 2,
+          "Wert": 0.6593773305
+        },
+        {
+          "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
+          "Wohnviertel": "Kleinhüningen",
+          "y": 18,
+          "Wert": 2.1589777005
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Kleinhüningen",
+          "y": 19,
+          "Wert": 0.0631074121
+        }
+      ],
+      "name": "Wert",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "fontSize": "10px"
+      },
+      "useHTML": false,
+      "formatter": function (){
+                    return (this.value + "").replace(/&nbsp;/g, "\u00A0");
+                }
+    },
+    "tickLength": 0,
+    "tickmarkPlacement": "on",
+    "lineWidth": 0,
+    "tickInterval": 1,
+    "gridLineColor": "white"
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {};
+                    //draw spider backgrounds
+                    //colors of StatA Bereiche: violett3 #923F8D, gruen3 #68AB2B, blau3 #689199
+                    var top = -Math.PI/2;
+                    var endPurple = top + 2*Math.PI/18*8;
+                    var endGreen = endPurple + 2*Math.PI/18*5;
+                    var endBlue = top;
+                    var centerX = 242.5;
+                    var centerY = 212.5;
+                    var radius = 136;
+                    this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
+                        fill: '#923F8D',
+                        stroke: '#923F8D',
+                        'stroke-width': 0,
+                        'fill-opacity': 0.5
+                    }).add();
+                    this.renderer.arc(centerX, centerY, radius, 0, endPurple, endGreen).attr({
+                        fill: '#68AB2B',
+                        stroke: '#68AB2B',
+                        'stroke-width': 0,
+                        'fill-opacity': 0.5
+                    }).add();
+                    this.renderer.arc(centerX, centerY, radius, 0, endGreen, endBlue).attr({
+                        fill: '#689199',
+                        stroke: '#689199',
+                        'stroke-width': 0, 
+                        'fill-opacity': 0.5
+                    }).add();
+                }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "area",
+    "polar": true,
+    "renderTo": "container-6757"
+  },
+  "pane": {},
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Quartierradar Kleinhüningen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Ausgabe 2018",
+    "align": "left"
+  },
+  "plotOptions": {
+    "area": {
+      "lineColor": "white",
+      "lineWidth": 0.5
+    },
+    "series": {
+      "lineWidth": 1,
+      "color": "#808080",
+      "marker": {
+        "enabled": false
+      },
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "yAxis": {
+    "lineColor": "white",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "y": 11,
+      "x": 0,
+      "overflow": "justified",
+      "style": {
+        "color": "white",
+        "textOverflow": "none",
+        "fontSize": "10px"
+      }
+    },
+    "min": 1,
+    "max": 21,
+    "tickInterval": 7,
+    "showFirstLabel": false,
+    "showLastLabel": true,
+    "gridLineInterpolation": "polygon",
+    "lineWidth": 0,
+    "gridLineColor": "white"
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-6-14"
+  },
+  "legend": {
+    "enabled": false,
+    "symbolRadius": 0
+  },
+  "tooltip": {
+    "padding": 0,
+    "useHTML": true,
+    "formatter": function () {
+              return "" + 
+              '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
+                '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
+                '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ' <b>' + this.point.y + '</b><br/>' + 
+              '</div>';
+          }
+  },
+  "exporting": {
+    "allowHTML": false,
+    "filename": 6757
+  }
+}

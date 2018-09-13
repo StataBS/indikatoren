@@ -482,7 +482,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 500,
+    "height": 513,
     "spacing": [
       10,
       10,
@@ -496,7 +496,8 @@
     "type": "column",
     "marginLeft": 150,
     "inverted": true,
-    "renderTo": "container-6499"
+    "renderTo": "container-6499",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -572,9 +573,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_12"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_12.\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
   },
   "legend": {
     "layout": "horizontal",

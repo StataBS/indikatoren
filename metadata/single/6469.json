@@ -1,29 +1,39 @@
-{"title":"Median des Reineinkommens pro Veranlagung",
-"subtitle":"nach Staatsangehörigkeit",
-"kuerzel":"I.18.2.06469",
-"kuerzelKunde":"C6-3",
-"description":"Median des Reineinkommens pro Veranlagung",
-"id":6469,
-"thema":"18 Öffentliche Finanzen",
-"unterthema":"Steuern",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Einkommen","Staatsangehörigkeit"],
-"stufe1":"Kapitel C Erwerb und Auskommen",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Der höchste Median des Reineinkommesn im Jahr 2014 liegt wie bereits 2005 bei Veranlagungen von Personen aus Deutschland vor. 2014 beträgt er über 70 000 Franken. Den kleinsten Median verzeichnet 2014 die Gruppe «Afrikanische Länder» mit ca. 20 000 Franken. Der grösste Anstieg des Medians von 2005 bis 2014 wurde bei Veranlagungen von Personen aus den übrigen Ländern registriert.",
-"erlaeuterungen":"Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahre 2005 und 2014; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_00_00_00_00_029",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Steuerstatistik"],
-"externalLinks":[""]
+{
+ "title": "Median des Reineinkommens pro Veranlagung",
+ "subtitle": "nach Staatsangehörigkeit",
+ "kuerzel": "I.18.2.06469",
+ "kuerzelKunde": "C6-3",
+ "description": "Median des Reineinkommens pro Veranlagung",
+ "id": 6469,
+ "thema": "18 Öffentliche Finanzen",
+ "unterthema": "Steuern",
+ "kennzahlenset": "Integration",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-21T00:00:00.000",
+ "schlagwort": [
+  "Einkommen",
+  "Staatsangehörigkeit"
+ ],
+ "stufe1": "Kapitel C Erwerb und Auskommen",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Der höchste Median des Reineinkommesn im Jahr 2014 liegt wie bereits 2005 bei Veranlagungen von Personen aus Deutschland vor. 2014 beträgt er über 70 000 Franken. Den kleinsten Median verzeichnet 2014 die Gruppe «Afrikanische Länder» mit ca. 20 000 Franken. Der grösste Anstieg des Medians von 2005 bis 2014 wurde bei Veranlagungen von Personen aus den übrigen Ländern registriert.",
+ "erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahre 2005 und 2014; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "03_00_00_00_00_029",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Steuerstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

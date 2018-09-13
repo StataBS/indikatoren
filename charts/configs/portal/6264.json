@@ -99,7 +99,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6264"
+    "renderTo": "container-6264",
+    "spacingBottom": 18
   },
   "title": {
     "style": {
@@ -169,7 +170,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EPlanungsamt Basel-Stadt"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EPlanungsamt Basel-Stadt."
   },
   "legend": {
     "enabled": true,
@@ -186,6 +187,11 @@
     "itemMarginBottom": 5
   },
   "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "line": {
       "connectNulls": true,
       "marker": {

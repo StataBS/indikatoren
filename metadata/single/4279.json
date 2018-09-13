@@ -1,29 +1,40 @@
-{"title":"Grenzwertüberschreitungen Ozon",
-"subtitle":"Anzahl Grenzwertüberschreitungen",
-"kuerzel":"I.02.15.04279",
-"kuerzelKunde":"1110",
-"description":"Grenzwertüberschreitungen Ozon",
-"id":4279,
-"thema":"02 Raum, Umwelt",
-"unterthema":"Luft",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Luft"],
-"stufe1":"Thema Luft",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Anzahl Stunden-Mittelwerte pro Jahr, welche über dem in der Luftreinhalte-Verordnung (LRV) gesetzlich festgelegten Grenzwert von 120 &mu;g/m<sup>3</sup> liegen, unterschieden nach Art der Lage der Messstationen.<br><br>Die Anzahl Grenzwertüberschreitungen basiert auf den Stunden-Mittelwerten verschiedener Messstationen in den Kantonen Basel-Stadt und Basel-Landschaft: Ländliche Höhenlagen (Chrischona, Brunnersberg, Chaumont (NABEL)), Agglomeration (Binningen (NABEL), Dornach (SO)), Stadt Basel (Basel St.Johanns-Platz). Pro Kategorie wird der Mittelwert über die Anzahl Überschreitungen der einzelnen Stationen gebildet. Für Details zu den Stationen siehe Link \"Luftqualität in der Nordwestschweiz\" unter weiterführende Informationen.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"11_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Lufthygieneamt beider Basel"],
-"externalLinks":["<a href = 'http://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>","<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1110' target = '_blank'>Umweltbericht beider Basel</a>"]
+{
+ "title": "Grenzwertüberschreitungen Ozon",
+ "subtitle": "Anzahl Grenzwertüberschreitungen",
+ "kuerzel": "I.02.15.04279",
+ "kuerzelKunde": "1110",
+ "description": "Grenzwertüberschreitungen Ozon",
+ "id": 4279,
+ "thema": "02 Raum, Umwelt",
+ "unterthema": "Luft",
+ "kennzahlenset": "Umwelt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-07-11T00:00:00.000",
+ "schlagwort": [
+  "Luft"
+ ],
+ "stufe1": "Thema Luft",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "",
+ "erlaeuterungen": "Anzahl Stunden-Mittelwerte pro Jahr, welche über dem in der Luftreinhalte-Verordnung (LRV) gesetzlich festgelegten Grenzwert von 120 &mu;g/m<sup>3</sup> liegen, unterschieden nach Art der Lage der Messstationen.<br><br>Die Anzahl Grenzwertüberschreitungen basiert auf den Stunden-Mittelwerten verschiedener Messstationen in den Kantonen Basel-Stadt und Basel-Landschaft: Ländliche Höhenlagen (Chrischona, Brunnersberg, Chaumont (NABEL)), Agglomeration (Binningen (NABEL), Dornach (SO)), Stadt Basel (Basel St.Johanns-Platz). Pro Kategorie wird der Mittelwert über die Anzahl Überschreitungen der einzelnen Stationen gebildet. Für Details zu den Stationen siehe Link \"Luftqualität in der Nordwestschweiz\" unter weiterführende Informationen.",
+ "template": "dotplot",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "11_00_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Lufthygieneamt beider Basel"
+ ],
+ "externalLinks": [
+  "<a href = 'http://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
+  "<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
+  "Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1110' target = '_blank'>Umweltbericht beider Basel</a>"
+ ]
 }

@@ -182,7 +182,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -212,7 +212,8 @@
     "marginBottom": 75,
     "marginTop": 75,
     "type": "column",
-    "renderTo": "container-4948"
+    "renderTo": "container-4948",
+    "spacingBottom": 50
   },
   "plotOptions": {
     "series": {
@@ -281,9 +282,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
   },
   "legend": {
     "symbolRadius": 0,

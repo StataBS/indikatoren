@@ -1,29 +1,38 @@
-{"title":"Investitionen in den Schutz vor Naturgefahren",
-"subtitle":"Tausend CHF",
-"kuerzel":"I.02.11.04315",
-"kuerzelKunde":"0704",
-"description":"Investitionen in den Schutz vor Naturgefahren",
-"id":4315,
-"thema":"02 Raum, Umwelt",
-"unterthema":"Naturgefahren",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Naturgefahren"],
-"stufe1":"Thema Naturgefahren",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0704' target='_blank'>Umweltbericht beider Basel</a>.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"07_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Amt für Wald beider Basel; Tiefbauamt Basel-Stadt"],
-"externalLinks":["Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0704' target = '_blank'>Umweltbericht beider Basel</a>"]
+{
+ "title": "Investitionen in den Schutz vor Naturgefahren",
+ "subtitle": "Tausend CHF",
+ "kuerzel": "I.02.11.04315",
+ "kuerzelKunde": "0704",
+ "description": "Investitionen in den Schutz vor Naturgefahren",
+ "id": 4315,
+ "thema": "02 Raum, Umwelt",
+ "unterthema": "Naturgefahren",
+ "kennzahlenset": "Umwelt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-07-11T00:00:00.000",
+ "schlagwort": [
+  "Naturgefahren"
+ ],
+ "stufe1": "Thema Naturgefahren",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "",
+ "erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0704' target='_blank'>Umweltbericht beider Basel</a>.",
+ "template": "dotplot",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "07_00_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Amt für Wald beider Basel; Tiefbauamt Basel-Stadt"
+ ],
+ "externalLinks": [
+  "Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0704' target = '_blank'>Umweltbericht beider Basel</a>"
+ ]
 }

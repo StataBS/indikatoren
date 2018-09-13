@@ -827,7 +827,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -857,7 +857,8 @@
     "renderTo": "container-6426",
     "marginBottom": 75,
     "type": "column",
-    "inverted": false
+    "inverted": false,
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -924,9 +925,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
   },
   "legend": {
     "symbolRadius": 0,

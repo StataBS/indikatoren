@@ -1,29 +1,38 @@
-{"title":"Arbeitslosenquote nach Branche",
-"subtitle":"Basel-Stadt",
-"kuerzel":"I.03.4.06460",
-"kuerzelKunde":"2.2-01",
-"description":"Arbeitslosenquote nach Branche",
-"id":6460,
-"thema":"03 Erwerbsleben",
-"unterthema":"Arbeitslose ",
-"kennzahlenset":"Arbeitsmarkt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Arbeitslosigkeit"],
-"stufe1":"Übersicht Basler Arbeitsmarkt",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die mittlere Arbeitslosenquote ist 2017 mit 11,1% im Baugewerbe am höchsten. Im Vergleich zum Vorjahr (12,7%) ist sie etwas gesunken. Ebenfalls hohe Arbeitslosenquoten finden sich 2017 im Gastgewerbe mit 8,1%, in der Dienstleistungssammelkategorie Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen, in der z. B. auch das Reinigungsgewerbe sowie der Gartenbau enthalten sind, mit 6,5% sowie in der Industrie (exkl. Chemie und Pharma) mit 5,5%. Am tiefsten sind die Arbeitslosenquoten in den Branchen Erziehung und Unterricht (2,1%), Chemie und Pharma (2,2%) sowie Öffentliche Verwaltung und Sozialversicherungen (2,7%). Die mittlere Arbeitslosigkeit in Basel-Stadt beträgt 2017 3,8%.",
-"erlaeuterungen":"Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich mit der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_201",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"],
-"externalLinks":[""]
+{
+ "title": "Arbeitslosenquote nach Branche",
+ "subtitle": "Basel-Stadt",
+ "kuerzel": "I.03.4.06460",
+ "kuerzelKunde": "2.2-01",
+ "description": "Arbeitslosenquote nach Branche",
+ "id": 6460,
+ "thema": "03 Erwerbsleben",
+ "unterthema": "Arbeitslose ",
+ "kennzahlenset": "Arbeitsmarkt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-14T00:00:00.000",
+ "schlagwort": [
+  "Arbeitslosigkeit"
+ ],
+ "stufe1": "Übersicht Basler Arbeitsmarkt",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die mittlere Arbeitslosenquote ist 2017 mit 11,1% im Baugewerbe am höchsten. Im Vergleich zum Vorjahr (12,7%) ist sie etwas gesunken. Ebenfalls hohe Arbeitslosenquoten finden sich 2017 im Gastgewerbe mit 8,1%, in der Dienstleistungssammelkategorie Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen, in der z. B. auch das Reinigungsgewerbe sowie der Gartenbau enthalten sind, mit 6,5% sowie in der Industrie (exkl. Chemie und Pharma) mit 5,5%. Am tiefsten sind die Arbeitslosenquoten in den Branchen Erziehung und Unterricht (2,1%), Chemie und Pharma (2,2%) sowie Öffentliche Verwaltung und Sozialversicherungen (2,7%). Die mittlere Arbeitslosigkeit in Basel-Stadt beträgt 2017 3,8%.",
+ "erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich mit der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen.",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_00_00_00_00_201",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

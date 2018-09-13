@@ -3632,8 +3632,8 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -3672,9 +3672,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
+    "text": "Quelle: Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
   },
   "colorAxis": {
     "min": 0,
@@ -3731,6 +3731,16 @@
                         this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),1) + '</b><br/>' + 
                         'Rang <b>' + other_point.value + '</b>';
                 }
+            }
+  },
+  "customFunctions": {
+    "addLegendRectangle": function (chart, x, y, width, height, fill, cssClass){
+            	return chart.renderer.rect(x, y, width, height).attr({
+    	            'stroke-width':0,
+    	            fill: fill,
+    	            zIndex: 6,
+    	            class: cssClass
+            	}).add();
             }
   },
   "exporting": {

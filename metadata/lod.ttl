@@ -1,0 +1,14 @@
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://ld.data-bs.ch/property/jahr> a qb:ComponentSpecification, qb:DimensionProperty ;
+  rdfs:label "Jahr" ;
+  qb:dimension <https://ld.data-bs.ch/property/jahr> .
+
+<https://ld.data-bs.ch/property/raum> a qb:ComponentSpecification, qb:DimensionProperty ;
+  rdfs:label "Raum" ;
+  qb:dimension <https://ld.data-bs.ch/property/raum> .
+
+<https://ld.data-bs.ch/property/bevolkerung> a qb:ComponentSpecification, qb:MeasureProperty ;
+  rdfs:label "Bevölkerung" ;
+  qb:measure <https://ld.data-bs.ch/property/bevolkerung> .

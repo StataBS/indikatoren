@@ -103,7 +103,8 @@
                 }
     },
     "type": "column",
-    "renderTo": "container-6316"
+    "renderTo": "container-6316",
+    "spacingBottom": 8
   },
   "plotOptions": {
     "series": {
@@ -190,7 +191,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik."
   },
   "legend": {
     "symbolRadius": 0,

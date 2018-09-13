@@ -47,8 +47,6 @@
   "chart": {      
     "type": "column",
     "inverted": false,
-     //"marginBottom": 75,
-     //"marginTop": 75,
   },
    "labelFormatter": function () {
             return this.name;

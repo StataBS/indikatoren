@@ -11,6 +11,10 @@
         [
           "2013 (N=1038)",
           25.5
+        ],
+        [
+          "2017 (N=1146)",
+          25.5
         ]
       ],
       "name": "Ja",
@@ -27,6 +31,10 @@
         [
           "2013 (N=1038)",
           65.6
+        ],
+        [
+          "2017 (N=1146)",
+          63.3
         ]
       ],
       "name": "Nein",
@@ -43,6 +51,10 @@
         [
           "2013 (N=1038)",
           8.9
+        ],
+        [
+          "2017 (N=1146)",
+          11.3
         ]
       ],
       "name": "Keine Angabe",
@@ -91,8 +103,8 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 30,
+    "height": 428,
+    "spacingBottom": 40,
     "style": {
       "fontFamily": "Arial"
     },
@@ -169,9 +181,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F28"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F28.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-10"
   },
   "legend": {
     "reversed": true,

@@ -1,29 +1,38 @@
-{"title":"Wasserverbrauch Gewerbe und Industrie",
-"subtitle":"Millionen Kubikmeter",
-"kuerzel":"I.02.19.04234",
-"kuerzelKunde":"1606",
-"description":"Wasserverbrauch Gewerbe und Industrie",
-"id":4234,
-"thema":"02 Raum, Umwelt",
-"unterthema":"Wasser",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Wasser"],
-"stufe1":"Thema Wasser",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Jährliche Brauchwassermenge der Industrie und des Gewerbes. Der Indikator umfasst sowohl den Verbrauch aus dem öffentlichen Netz als auch die privaten Grundwasserförderungen. <br><br>Im Kanton Basel-Stadt werden die Daten zum Wasserverbrauch von den Industriellen Werke Basel (IWB) (Summe von Verbrauch durch Gewerbe, Temporär, Bau, Industrie) und dem Amt für Umwelt und Energie (Grundwasserförderung privat) erhoben.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"16_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Amt für Umwelt und Energie Basel-Stadt; Industrielle Werke Basel-Stadt (IWB)"],
-"externalLinks":["Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1606' target = '_blank'>Umweltbericht beider Basel</a>"]
+{
+ "title": "Wasserverbrauch Gewerbe und Industrie",
+ "subtitle": "Millionen Kubikmeter",
+ "kuerzel": "I.02.19.04234",
+ "kuerzelKunde": "1606",
+ "description": "Wasserverbrauch Gewerbe und Industrie",
+ "id": 4234,
+ "thema": "02 Raum, Umwelt",
+ "unterthema": "Wasser",
+ "kennzahlenset": "Umwelt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-07-11T00:00:00.000",
+ "schlagwort": [
+  "Wasser"
+ ],
+ "stufe1": "Thema Wasser",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "",
+ "erlaeuterungen": "Jährliche Brauchwassermenge der Industrie und des Gewerbes. Der Indikator umfasst sowohl den Verbrauch aus dem öffentlichen Netz als auch die privaten Grundwasserförderungen. <br><br>Im Kanton Basel-Stadt werden die Daten zum Wasserverbrauch von den Industriellen Werke Basel (IWB) (Summe von Verbrauch durch Gewerbe, Temporär, Bau, Industrie) und dem Amt für Umwelt und Energie (Grundwasserförderung privat) erhoben.",
+ "template": "dotplot",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "16_00_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Amt für Umwelt und Energie Basel-Stadt; Industrielle Werke Basel-Stadt (IWB)"
+ ],
+ "externalLinks": [
+  "Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1606' target = '_blank'>Umweltbericht beider Basel</a>"
+ ]
 }

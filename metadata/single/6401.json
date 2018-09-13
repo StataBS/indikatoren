@@ -1,29 +1,40 @@
-{"title":"Anteil Ausländer der Ländergruppe EU-Ost",
-"subtitle":"nach einzelnen Staatsangehörigkeiten, Stand: 2016",
-"kuerzel":"I.01.1.06401",
-"kuerzelKunde":"A1-7",
-"description":"Anteil Ausländer der Ländergruppe EU-Ost",
-"id":6401,
-"thema":"01 Bevölkerung",
-"unterthema":"Bestand und Struktur ",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Bevölkerung","Ausland","Staatsangehörigkeit"],
-"stufe1":"Kapitel A Bevölkerungsstruktur",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Von 3 683 Personen, die Ende 2016 zur Kategorie «EU-Ost» zählten, bildeten Polen, Ungarn und Slowaken die grössten Bevölkerungruppen.",
-"erlaeuterungen":"",
-"template":"pie001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_007",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Anteil Ausländer der Ländergruppe EU-Ost",
+ "subtitle": "nach einzelnen Staatsangehörigkeiten, Stand: 2016",
+ "kuerzel": "I.01.1.06401",
+ "kuerzelKunde": "A1-7",
+ "description": "Anteil Ausländer der Ländergruppe EU-Ost",
+ "id": 6401,
+ "thema": "01 Bevölkerung",
+ "unterthema": "Bestand und Struktur ",
+ "kennzahlenset": "Integration",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-21T00:00:00.000",
+ "schlagwort": [
+  "Bevölkerung",
+  "Ausland",
+  "Staatsangehörigkeit"
+ ],
+ "stufe1": "Kapitel A Bevölkerungsstruktur",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Von 3 683 Personen, die Ende 2016 zur Kategorie «EU-Ost» zählten, bildeten Polen, Ungarn und Slowaken die grössten Bevölkerungruppen.",
+ "erlaeuterungen": "",
+ "template": "pie001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_00_00_00_00_007",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

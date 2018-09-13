@@ -3,9 +3,6 @@
     {
       "color": "#FABD24",
       "legendIndex": 0,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2007,
@@ -46,6 +43,10 @@
         [
           2016,
           14161516
+        ],
+        [
+          2017,
+          13781296
         ]
       ],
       "name": "Schiene Ausgang"
@@ -53,10 +54,6 @@
     {
       "color": "#7F5F1A",
       "legendIndex": 2,
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2007,
@@ -97,6 +94,10 @@
         [
           2016,
           18121077
+        ],
+        [
+          2017,
+          16865292
         ]
       ],
       "name": "Schiene Eingang"
@@ -104,10 +105,6 @@
     {
       "color": "#008AC3",
       "legendIndex": 1,
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2007,
@@ -148,6 +145,10 @@
         [
           2016,
           2184931
+        ],
+        [
+          2017,
+          2150476
         ]
       ],
       "name": "Strasse Ausgang"
@@ -155,10 +156,6 @@
     {
       "color": "#2B0099",
       "legendIndex": 3,
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2007,
@@ -199,9 +196,64 @@
         [
           2016,
           1747475
+        ],
+        [
+          2017,
+          1777024
         ]
       ],
       "name": "Strasse Eingang"
+    },
+    {
+      "color": "#68AB2B",
+      "legendIndex": 5,
+      "data": [
+        [
+          2007,
+          4393165
+        ],
+        [
+          2008,
+          4112209
+        ],
+        [
+          2009,
+          3211597
+        ],
+        [
+          2010,
+          2316394
+        ],
+        [
+          2011,
+          3046603
+        ],
+        [
+          2012,
+          1862414
+        ],
+        [
+          2013,
+          622155
+        ],
+        [
+          2014,
+          1769525
+        ],
+        [
+          2015,
+          1900627
+        ],
+        [
+          2016,
+          510261
+        ],
+        [
+          2017,
+          1506172
+        ]
+      ],
+      "name": "Pipeline Eingang"
     }
   ],
   "chart": {
@@ -225,8 +277,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -249,7 +301,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": " in Brutto-Tonnen nach Verkehrsträger",
+    "text": "in Brutto-Tonnen nach Verkehrsträger",
     "align": "left"
   },
   "tooltip": {
@@ -284,7 +336,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -298,9 +350,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Eidgenössische Zollverwaltung EZV"
+    "text": "Quelle: Eidgenössische Zollverwaltung EZV.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-12"
   },
   "legend": {
     "enabled": true,
@@ -308,19 +360,54 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemWidth": 180,
-    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "itemMarginBottom": 5
   },
   "plotOptions": {
-    "line": {
-      "connectNulls": true,
+    "series": {
       "marker": {
-        "enabled": false,
-        "symbol": "circle"
+        "enabled": false
       }
+    },
+    "line": {
+      "connectNulls": true
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
     }
   },
   "exporting": {

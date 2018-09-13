@@ -1,29 +1,44 @@
-{"title":"Durch BaselArea unterstützte internationale Ansiedlungen",
-"subtitle":"in BS, BL, JU",
-"kuerzel":"I.04.1.03086",
-"kuerzelKunde":"2.4",
-"description":"Durch BaselArea unterstützte internationale Ansiedlungen",
-"id":3086,
-"thema":"04 Volkswirtschaft",
-"unterthema":"Volkseinkommen",
-"kennzahlenset":"Legislaturplan",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2015-12-17T00:00:00.000",
-"schlagwort":["Ausland","Niederlassung","Arbeit","Erwerbstätigkeit","Standort"],
-"stufe1":"Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Anzahl von durch BaselArea unterstützte internationale Ansiedlungen ist von 2012 bis 2015 rückläufig. 2016 werden mit 31 Ansiedlungen die meisten innerhalb des Beobachtungszeitraums gezählt.",
-"erlaeuterungen":"Die Anzahl von durch BaselArea unterstützten internationalen Ansiedlungen beinhalten seit 2013 auch ausländische Firmengründungen im Kanton Jura.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_00_00_00_00_004",
-"parentId":null,
-"children":["6368"],
-"renderLink":[],
-"quellenangabe":["BaselArea"],
-"externalLinks":[""]
+{
+ "title": "Durch BaselArea unterstützte internationale Ansiedlungen",
+ "subtitle": "in BS, BL, JU",
+ "kuerzel": "I.04.1.03086",
+ "kuerzelKunde": "2.4",
+ "description": "Durch BaselArea unterstützte internationale Ansiedlungen",
+ "id": 3086,
+ "thema": "04 Volkswirtschaft",
+ "unterthema": "Volkseinkommen",
+ "kennzahlenset": "Legislaturplan",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-11-29T00:00:00.000",
+ "schlagwort": [
+  "Ausland",
+  "Niederlassung",
+  "Arbeit",
+  "Erwerbstätigkeit",
+  "Standort"
+ ],
+ "stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die Anzahl von durch BaselArea unterstützte internationale Ansiedlungen ist von 2012 bis 2015 rückläufig. 2016 werden mit 31 Ansiedlungen die meisten innerhalb des Beobachtungszeitraums gezählt.",
+ "erlaeuterungen": "Die Anzahl von durch BaselArea unterstützten internationalen Ansiedlungen beinhalten seit 2013 auch ausländische Firmengründungen im Kanton Jura.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_00_00_00_00_004",
+ "parentId": null,
+ "children": [
+  "6368"
+ ],
+ "renderLink": [],
+ "quellenangabe": [
+  "BaselArea"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

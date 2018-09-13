@@ -1,29 +1,39 @@
-{"title":"Sozialhilfequote nach Altersgruppe",
-"subtitle":"",
-"kuerzel":"I.13.2.05184",
-"kuerzelKunde":"GW8",
-"description":"Sozialhilfequote nach Altersgruppe",
-"id":5184,
-"thema":"13 Soziale Sicherheit",
-"unterthema":"Sozialleistungen",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Einkommen"],
-"stufe1":"Bereich Grundbedürfnisse und Wohlergehen",
-"stufe2":"Existenzsicherung",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Minderjährige weisen 2017 mit 13,8% die höchste Sozialhilfequote aus. Die Sozialhilfequote der 51- bis 65-Jährigen ist vergleichsweise gering, steigt aber über den gesamten Zeitverlauf kontinuierlich.",
-"erlaeuterungen":"Nur Stadt Basel, ohne Riehen und Bettingen.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_03_00_00_00_308",
-"parentId":6182,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, Sozialhilfestatistik","Departement für Wirtschaft, Soziales und Umwelt"],
-"externalLinks":[""]
+{
+ "title": "Sozialhilfequote nach Altersgruppe",
+ "subtitle": "",
+ "kuerzel": "I.13.2.05184",
+ "kuerzelKunde": "GW8",
+ "description": "Sozialhilfequote nach Altersgruppe",
+ "id": 5184,
+ "thema": "13 Soziale Sicherheit",
+ "unterthema": "Sozialleistungen",
+ "kennzahlenset": "Nachhaltigkeit",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-04-03T00:00:00.000",
+ "schlagwort": [
+  "Einkommen"
+ ],
+ "stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+ "stufe2": "Existenzsicherung",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Minderjährige weisen 2017 mit 13,8% die höchste Sozialhilfequote aus. Die Sozialhilfequote der 51- bis 65-Jährigen ist vergleichsweise gering, steigt aber über den gesamten Zeitverlauf kontinuierlich.",
+ "erlaeuterungen": "Nur Stadt Basel, ohne Riehen und Bettingen.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "03_03_00_00_00_308",
+ "parentId": 6182,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt des Kantons Basel-Stadt, Sozialhilfestatistik",
+  "Departement für Wirtschaft, Soziales und Umwelt"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

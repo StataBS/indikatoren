@@ -1,29 +1,38 @@
-{"title":"Anzahl Lebendgeborene nach Staatsangehörigkeit",
-"subtitle":"",
-"kuerzel":"I.01.3.06076",
-"kuerzelKunde":"A4-2",
-"description":"Anzahl Lebendgeborene nach Staatsangehörigkeit",
-"id":6076,
-"thema":"01 Bevölkerung",
-"unterthema":"Geburten und Todesfälle",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Staatsangehörigkeit"],
-"stufe1":"Kapitel A Bevölkerungsstruktur",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Zahl der Lebendgeborenen hat zwischen 2006 und 2016 zugenommen. Dies gilt für die meisten ausländischen Ländergruppen und auch für die Schweizer. Zurückgegangen ist die Zahl der Geburten nur bei Türken und Personen aus dem Balkan. Kaum verändert hat sie sich bei Mittel- und Südamerikanern (-2).",
-"erlaeuterungen":"",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_025",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Anzahl Lebendgeborene nach Staatsangehörigkeit",
+ "subtitle": "",
+ "kuerzel": "I.01.3.06076",
+ "kuerzelKunde": "A4-2",
+ "description": "Anzahl Lebendgeborene nach Staatsangehörigkeit",
+ "id": 6076,
+ "thema": "01 Bevölkerung",
+ "unterthema": "Geburten und Todesfälle",
+ "kennzahlenset": "Integration",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-21T00:00:00.000",
+ "schlagwort": [
+  "Staatsangehörigkeit"
+ ],
+ "stufe1": "Kapitel A Bevölkerungsstruktur",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die Zahl der Lebendgeborenen hat zwischen 2006 und 2016 zugenommen. Dies gilt für die meisten ausländischen Ländergruppen und auch für die Schweizer. Zurückgegangen ist die Zahl der Geburten nur bei Türken und Personen aus dem Balkan. Kaum verändert hat sie sich bei Mittel- und Südamerikanern (-2).",
+ "erlaeuterungen": "",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_00_00_00_00_025",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

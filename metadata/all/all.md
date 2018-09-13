@@ -353,7 +353,7 @@ id | visible | visibleInPortal | indikatorenset
 5799 | true | false | Umwelt
 5800 | true | false | Umwelt
 5813 | true | true | Richtplan
-5814 | true | false | Richtplan
+5814 | true | true | Richtplan
 5815 | true | false | Richtplan
 5816 | true | false | Richtplan
 5817 | true | true | Richtplan
@@ -371,7 +371,7 @@ id | visible | visibleInPortal | indikatorenset
 5901 | true | true | Richtplan
 6005 | false |  | Richtplan
 6007 | true | false | Richtplan
-6009 | true | true | 
+6009 | false |  | 
 6011 | true | true | Wanderungen
 6012 | true | true | Wanderungen
 6013 | true | true | Wanderungen
@@ -463,7 +463,7 @@ id | visible | visibleInPortal | indikatorenset
 6143 | true | false | Legislaturplan
 6144 | true | true | Legislaturplan
 6146 | true | true | Legislaturplan
-6147 | true | true | Legislaturplan
+6147 | true | false | Legislaturplan
 6148 | true | true | Legislaturplan
 6149 | true | true | Legislaturplan
 6150 | true | true | Legislaturplan
@@ -624,6 +624,29 @@ id | visible | visibleInPortal | indikatorenset
 6370 | true | false | Legislaturplan (Print)
 6371 | true | false | Legislaturplan (Print)
 6372 | true | false | Legislaturplan (Print)
+6373 | true | true | Gefragte Karten
+6374 | true | true | Gefragte Karten
+6375 | true | true | Gefragte Karten
+6376 | true | true | Gefragte Karten
+6377 | true | true | Gefragte Karten
+6378 | true | true | Gefragte Karten
+6379 | true | true | Gefragte Karten
+6380 | true | true | Gefragte Karten
+6381 | true | true | Gefragte Karten
+6382 | true | true | Gefragte Karten
+6383 | true | true | Gefragte Karten
+6384 | true | true | Gefragte Karten
+6385 | true | true | Gefragte Karten
+6386 | true | true | Gefragte Karten
+6387 | true | true | Gefragte Karten
+6388 | true | true | Gefragte Karten
+6389 | true | true | Gefragte Karten
+6390 | true | true | Gefragte Karten
+6391 | true | true | Gefragte Karten
+6392 | true | true | Gefragte Karten
+6394 | true | true | Gefragte Karten
+6395 | true | true | Gefragte Karten
+6396 | true | true | Gefragte Karten
 6398 | true | true | Integration
 6399 | true | true | Integration
 6400 | true | true | Integration
@@ -753,6 +776,33 @@ id | visible | visibleInPortal | indikatorenset
 6592 | true | false | Nachhaltigkeit
 6597 | true | false | Nachhaltigkeit
 6599 | true | true | Nachhaltigkeit
+6601 | true | false | 
+6623 | true | true | 
+6630 | true | true | Wohnviertel
+6631 | true | true | Wohnviertel
+6632 | true | true | Wohnviertel
+6633 | true | true | Wohnviertel
+6634 | true | true | Wohnviertel
+6635 | true | true | Wohnviertel
+6636 | true | true | Wohnviertel
+6637 | true | true | Wohnviertel
+6638 | true | true | Wohnviertel
+6639 | true | true | Wohnviertel
+6640 | true | true | Wohnviertel
+6641 | true | true | Wohnviertel
+6751 | true | true | Wohnviertel
+6752 | true | true | Wohnviertel
+6753 | true | true | Wohnviertel
+6754 | true | true | Wohnviertel
+6755 | true | true | Wohnviertel
+6756 | true | true | Wohnviertel
+6757 | true | true | Wohnviertel
+6758 | true | true | Wohnviertel
+6759 | true | true | Wohnviertel
+6771 | true | false | Wanderungen (Print)
+6774 | true | false | Wanderungen (Print)
+6778 | true | true | Gefragte Karten
+9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
 9998 | true | false | Test

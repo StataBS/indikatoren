@@ -118,7 +118,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6324"
+    "renderTo": "container-6324",
+    "spacingBottom": 8
   },
   "title": {
     "style": {
@@ -190,7 +191,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt"
+    "text": "Quelle: Kantonspolizei Basel-Stadt."
   },
   "legend": {
     "enabled": false,
@@ -206,6 +207,11 @@
     "itemMarginBottom": 5
   },
   "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "line": {
       "connectNulls": true,
       "marker": {

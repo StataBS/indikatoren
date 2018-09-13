@@ -8,13 +8,20 @@
     return {
     	"legend": {
 			"title": {
-				"text": ""
+				"text": "Bevölkerungssaldo"
 			}
 			},
 		"colorAxis": {
 			//"min": undefined,
-			"minColor": "#eff6e9",
-			"maxColor": "#4b7b1f",
+			//"minColor": "#eff6e9",
+			//"maxColor": "#4b7b1f",
+			stops: [
+	            [0, 'rgb(0,135,135)'],
+	            [0.25, 'rgb(230,230,230)'],
+	            [0.9, 'rgb(103,39,115)']
+	        ],
+	        min: -1,
+			max: 5,
 			"labels": {
 				"formatter": function () {
 					return Highcharts.numberFormat((this.value),0); 
@@ -67,7 +74,7 @@
 							'<table>'
 							+'<tr><td><span style="color:' + this.color + '">●</span></td> <td>' + this.series.name + ': </td> <td><b>' + Highcharts.numberFormat((this.value),2) + '</b></td></tr><br/>';
 						//add a tooltip row for each column
-						Highcharts.each(columnSeries.points, function(element, index, array){
+						Highcharts.each(columnSeries.points || [], function(element, index, array){
 							(columnSeries.visible) ? tooltipText += ('<tr><td><span style="color:' + element.color + '">●</span></td> <td>' + element.name + ': </td> <td><b>' + Highcharts.numberFormat((element.y),2) + '</b></td></tr><br/>') : undefined ;	
 						});
 						tooltipText += '</table>';
@@ -142,6 +149,7 @@
 					
 					//put the columns on the map
 					fn.drawColumns(chart, columnSeries, choroplethSeries, columnSeriesConfig, color, chartHeight, columnWidth);
+
 	                
 					//column values in legend
 					var legendColumnValues = [5, 2.5]; 
@@ -149,7 +157,7 @@
                 	//Add manually drawn legend	
                 	var legendTop = 220;
                 	var legendLeft = 365;
-	                fn.addLegendTitle(chart, 'Wanderung/Umzug', 265, 215);
+	                fn.addLegendTitle(chart, 265, 220, 'Wanderung/Umzug'); 
 	                
 	                fn.addLegendColumnChart(chart, legendLeft+35,  legendTop+45,  legendColumnValues, color, 'columnLegendHideOnZoom');
 	                
@@ -157,16 +165,16 @@
 	                //fn.addLegendText(chart,        legendLeft+71, legendTop+45,  ',', undefined, 'columnLegendHideOnZoom');
 	                fn.addLegendText(chart,        legendLeft+63, legendTop+45,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
 
-					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+20,  10, color(1, 0));
-					fn.addLegendText(chart,        legendLeft-80, legendTop+30,  'Wanderung positiv');
-					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+35,  10, color(-1, 0));
-					fn.addLegendText(chart,        legendLeft-80, legendTop+45,  'Wanderung negativ');
+					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+22,  10, color(1, 0));
+					fn.addLegendText(chart,        legendLeft-80, legendTop+32,  'Wanderung positiv');
+					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+37,  10, color(-1, 0));
+					fn.addLegendText(chart,        legendLeft-80, legendTop+47,  'Wanderung negativ');
 					
-					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+50,  10, color(1, 1));
-					fn.addLegendText(chart,        legendLeft-80, legendTop+60,  'Umzug positiv');
-					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+65, 10, color(-1, 1));
-					fn.addLegendText(chart,        legendLeft-80, legendTop+75 , 'Umzug negativ');
-					fn.addLegendTextbold(chart,    legendLeft-98, legendTop+100 , 'Bevölkerungssaldo');	
+					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+52,  10, color(1, 1));
+					fn.addLegendText(chart,        legendLeft-80, legendTop+62,  'Umzug positiv');
+					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+67, 10, color(-1, 1));
+					fn.addLegendText(chart,        legendLeft-80, legendTop+77 , 'Umzug negativ');
+					//fn.addLegendTitle(chart,    legendLeft-98, legendTop+100 , 'Bevölkerungssaldo');	
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+105 , 'Bewegung pro 100 Einwohner');
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+108 , '(Saldo total)');
 					

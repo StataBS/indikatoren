@@ -56,8 +56,6 @@
     }
   ],
   "chart": {
-    "marginBottom": 65,
-    "marginTop": 85,
     "type": "column",
     "inverted": true
   }

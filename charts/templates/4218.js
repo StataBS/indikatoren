@@ -38,8 +38,6 @@
   },  
   "chart": {
     "renderTo": "container-I.01.1.0015",    
-    "marginBottom": 65,
-    "marginTop": 75,
     "type": "column",
     "inverted": true
   }

@@ -89,8 +89,6 @@
     "shared": false
   },
   "chart": {
-    "marginBottom": 65,
-    "marginTop": 100,
     "type": "line",
     "alignTicks": false,
   }

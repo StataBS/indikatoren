@@ -42,11 +42,16 @@ files.forEach(function(filepath){
         delete indikator.visible;
         delete indikator.option;
         delete indikator.schlagwort;
+        delete indikator.tableSchema;
+        delete indikator.publishLod;
         
 	    //retrieve id from filename instead of from file contents
 	    var idFromFileName = path.basename(filepath, path.extname(filepath));
         delete indikator.id;
         indikator.id = parseInt(idFromFileName, 10);
+        
+        //handle missing darstellungsart
+        indikator.darstellungsart = (indikator.darstellungsart || (indikator.template.includes("map") ? "Karte kontinuierlich" : "Grafik"));
         
         visibleIndikatoren.push(indikator);
 

@@ -100,7 +100,8 @@
     },
     "type": "column",
     "inverted": false,
-    "renderTo": "container-6326"
+    "renderTo": "container-6326",
+    "spacingBottom": 8
   },
   "title": {
     "style": {
@@ -160,7 +161,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"
+    "text": "Quelle: Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit."
   },
   "legend": {
     "enabled": false,
@@ -175,6 +176,9 @@
   },
   "plotOptions": {
     "series": {
+      "marker": {
+        "enabled": false
+      },
       "pointPadding": 0,
       "borderWidth": 0,
       "itemWidth": 10

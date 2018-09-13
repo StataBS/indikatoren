@@ -3,21 +3,21 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "color": "#8b2223",
       "data": [
         [
           2011,
-          39.973265
+          39.973266
         ],
         [
           2012,
-          40.21803
+          40.218031
         ],
         [
           2013,
-          40.798944
+          40.798945
         ],
         [
           2014,
@@ -25,7 +25,11 @@
         ],
         [
           2015,
-          41.029328
+          40.972121
+        ],
+        [
+          2016,
+          42.167556
         ]
       ],
       "name": "Beschäftigte pro ha"
@@ -52,8 +56,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -76,12 +80,12 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Beschäftigte pro Hektar",
+    "text": "Anzahl Beschäftigte pro Hektar, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -124,21 +128,27 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-7"
   },
   "legend": {
     "enabled": false,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
   },
   "plotOptions": {
     "series": {
+      "marker": {
+        "enabled": false
+      },
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
         "allowOverlap": true,
         "y": 30,
         "formatter": function () {
@@ -150,6 +160,41 @@
             return "";
           }
       }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
     }
   },
   "exporting": {

@@ -77,12 +77,12 @@
         ],                
 		series: [
             {
-              color: "#B00000", // rot
+              color: "#71A3B5", // rot
               //borderWidth: 0,
               //pointWidth: 15
             }, 
             {
-              color: "#008AC3", //blau
+              color: "#73B97C", //blau
               //borderWidth: 0,
               //pointWidth: 15
             },

@@ -1,29 +1,38 @@
-{"title":"Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
-"subtitle":"",
-"kuerzel":"I.09.6.06314",
-"kuerzelKunde":"7.3",
-"description":"Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
-"id":6314,
-"thema":"09 Bau-, Wohnungswesen",
-"unterthema":"Entsorgung",
-"kennzahlenset":"Legislaturplan (Print)",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Abfall"],
-"stufe1":"Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und 2016 von ca. 194 auf 151 kg pro Kopf. Die Recyclingquote stieg von ca. 41% auf fast 45%.",
-"erlaeuterungen":"Die Berechnungsmethode für die Recyclingquote wurde vom Amt für Umwelt und Energie im Jahr 2016 rückwirkend für alle abgebildeten Jahre revidiert (dezentrale Kompostierung nicht mehr eingerechnet). Dies führt zu einem tieferen Recyclinganteil im Vergleich zu früheren Berechnungen.",
-"template":"template001_print",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"07_00_00_00_00_000",
-"parentId":6163,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"externalLinks":[""]
+{
+ "title": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
+ "subtitle": "",
+ "kuerzel": "I.09.6.06314",
+ "kuerzelKunde": "7.3",
+ "description": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
+ "id": 6314,
+ "thema": "09 Bau-, Wohnungswesen",
+ "unterthema": "Entsorgung",
+ "kennzahlenset": "Legislaturplan (Print)",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "",
+ "schlagwort": [
+  "Abfall"
+ ],
+ "stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und 2016 von ca. 194 auf 151 kg pro Kopf. Die Recyclingquote stieg von ca. 41% auf fast 45%.",
+ "erlaeuterungen": "Die Berechnungsmethode für die Recyclingquote wurde vom Amt für Umwelt und Energie im Jahr 2016 rückwirkend für alle abgebildeten Jahre revidiert (dezentrale Kompostierung nicht mehr eingerechnet). Dies führt zu einem tieferen Recyclinganteil im Vergleich zu früheren Berechnungen.",
+ "template": "template001_print",
+ "visible": true,
+ "visibleInPortal": false,
+ "orderKey": "07_00_00_00_00_000",
+ "parentId": 6163,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Amt für Umwelt und Energie Basel-Stadt"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

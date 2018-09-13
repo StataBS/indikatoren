@@ -3262,7 +3262,7 @@
         ],
         [
           5,
-          0.0293703729
+          0.0295674895
         ],
         [
           3,
@@ -3278,7 +3278,7 @@
         ],
         [
           15,
-          0.0402258999
+          0.0404742079
         ],
         [
           6,
@@ -3294,7 +3294,7 @@
         ],
         [
           11,
-          0.050352553
+          0.050458782
         ],
         [
           13,
@@ -3306,7 +3306,7 @@
         ],
         [
           17,
-          0.0554710741
+          0.0555946177
         ],
         [
           19,
@@ -3318,12 +3318,14 @@
         ],
         [
           18,
-          0.0716586613
+          0.0719648949
         ]
       ]
     },
     {
       "visible": false,
+      "showInLegend": false,
+      "colorAxis": false,
       "data": [
         [
           1,
@@ -3632,8 +3634,8 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 65,
     "style": {
       "fontFamily": "Arial"
     },
@@ -3672,9 +3674,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-6-14"
   },
   "colorAxis": {
     "min": 0,
@@ -3731,6 +3733,16 @@
                         this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value*100),1) + '%</b><br/>' + 
                         'Rang <b>' + other_point.value + '</b>';
                 }
+            }
+  },
+  "customFunctions": {
+    "addLegendRectangle": function (chart, x, y, width, height, fill, cssClass){
+            	return chart.renderer.rect(x, y, width, height).attr({
+    	            'stroke-width':0,
+    	            fill: fill,
+    	            zIndex: 6,
+    	            class: cssClass
+            	}).add();
             }
   },
   "exporting": {

@@ -50,7 +50,7 @@ npm run build
 
 ## URL Parameters
 
-- Most of the URL Paramaters outlibned below can be used in combination. 
+- Most of the URL Paramaters outlined below can be used in combination. 
 - Use ? to separate server + document from the list of parameters, then & before 2nd, 3rd (and so on) oparameter in the URL. See examples for stufe below. 
 - Filter parameters can be used even if the respective filter element is hidden. 
 - Url encoding of filter parameter values is automatically performed by the browser, just type in the value in the browser's url bar and hit enter. 
@@ -65,6 +65,7 @@ npm run build
 | thema | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?thema=14%20Gesundheit) |  | Pre-populates the thema filter. 
 | unterthema | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?thema=14%20Gesundheit&unterthema=Spit%C3%A4ler) |  | Pre-populates the thema filter. 
 | raeumlicheGliederung | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?raeumlicheGliederung=Kanton) |  | Pre-populates the raeumlicheGliederung filter.  
+| darstellungsart | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?darstellungsart=Karte) |  | Pre-populates the Darstellungsart filter.  
 | stufe1, stufe2, stufe3 | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?Indikatorenset=Arbeitsmarkt&stufe=3&stufe1=Monitoring%20Basler%20Arbeitsmarkt&stufe2=Bruttoinlandprodukt%20und%20Wertsch%C3%B6pfung) |  | Pre-populates the filter for stufe1, stufe2 and stufe3. 
 | hideSidebar | Portal | [Example](https://statabs.github.io/indikatoren/?hideSidebar=true) | false | Hides the sidebar that contains full text search text box, reset button, thema filter, and räumliche Gliederung filter. 
 | hideSearch | Portal | [Example](https://statabs.github.io/indikatoren/?hideSearch=true) | false | Hides the full text search text box. 
@@ -72,6 +73,7 @@ npm run build
 | hideThema | Portal | [Example](https://statabs.github.io/indikatoren/?hideThema=true) | false | Hides the Thema filter control. 
 | hideUnterthema | Portal | [Example](https://statabs.github.io/indikatoren/?hideUnterthema=true) | false | Hides the Unterthema filter control. 
 | hideRaeumlicheGliederung | Portal | [Example](https://statabs.github.io/indikatoren/?hideRaeumlicheGliederung=true) | false | Hides the Räumliche Gliederung filter control. 
+| hideDarstellungsart | Portal | [Example](https://statabs.github.io/indikatoren/?hideDarstellungsart=true) | false | Hides the Darstellungsart filter control. 
 | id | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401) |  | Defines the id of the chart to be displayed. 
 | hideHeaeder | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideHeader=true) | false | Hides the header containing bs.ch logo, StatA text and Link to Indikatorenportal, decreases left margin. 
 | hideTitle | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideTitle=true) | false | Hides the chart Title in the html text below the chart. 
@@ -164,7 +166,7 @@ Update version numbers in package.json, then run the following command to do a c
 npm run reinstall
 ```
 
-### Develop in a private github repositoriy
+### Develop in a private github repository
 - Develop in a private github repositoriy as you would do in the public repo: Create an issue, create a branch called 'issue-XXX' with XXX being the id of the issue. 
 - When it's time to release the new functionality onto the public repository: 
     - In the private repo, define the public repo as a remote repo named "upstream" (of course use the correct https url, not the following dummy url. Use e.g. the address from the browser and add '.git' at the end): 

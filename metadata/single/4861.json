@@ -1,29 +1,39 @@
-{"title":"Beurteilung der eigenen wirtschaftlichen Situation",
-"subtitle":"«Wie geht es Ihnen wirtschaftlich gesehen im Moment?»",
-"kuerzel":"I.50.1.04861",
-"kuerzelKunde":"2.3.02",
-"description":"Beurteilung der eigenen wirtschaftlichen Situation",
-"id":4861,
-"thema":"50 Befragungen",
-"unterthema":"Bevölkerungsbefragung",
-"kennzahlenset":"Gesellschaftlicher-Zusammenhalt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Einkommen","Beurteilung"],
-"stufe1":"Kernbereich 2: Verbundenheit",
-"stufe2":"2.3 Gerechtigkeitsempfinden",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"89,7% der befragten Personen ging es 2015 wirtschaftlich gesehen sehr gut oder eher gut. Im Vergleich zu 2011 entspricht dies einem Anstieg um 2,5 Prozentpunkte. Für diese Frage wurde die Stichprobe der Bevölkerungsbefragung zugunsten der Vergleichbarkeit für den Städtevergleich ab 2005 gesplittet bzw. reduziert, weshalb ab 2005 weniger Antworten vorliegen.",
-"erlaeuterungen":"",
-"template":"befragungenProzent001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"02_03_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14b"],
-"externalLinks":[""]
+{
+ "title": "Beurteilung der eigenen wirtschaftlichen Situation",
+ "subtitle": "«Wie geht es Ihnen wirtschaftlich gesehen im Moment?»",
+ "kuerzel": "I.50.1.04861",
+ "kuerzelKunde": "2.3.02",
+ "description": "Beurteilung der eigenen wirtschaftlichen Situation",
+ "id": 4861,
+ "thema": "50 Befragungen",
+ "unterthema": "Bevölkerungsbefragung",
+ "kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2016-09-21T00:00:00.000",
+ "schlagwort": [
+  "Einkommen",
+  "Beurteilung"
+ ],
+ "stufe1": "Kernbereich 2: Verbundenheit",
+ "stufe2": "2.3 Gerechtigkeitsempfinden",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "89,7% der befragten Personen ging es 2015 wirtschaftlich gesehen sehr gut oder eher gut. Im Vergleich zu 2011 entspricht dies einem Anstieg um 2,5 Prozentpunkte. Für diese Frage wurde die Stichprobe der Bevölkerungsbefragung zugunsten der Vergleichbarkeit für den Städtevergleich ab 2005 gesplittet bzw. reduziert, weshalb ab 2005 weniger Antworten vorliegen.",
+ "erlaeuterungen": "",
+ "template": "befragungenProzent001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "02_03_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14b"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

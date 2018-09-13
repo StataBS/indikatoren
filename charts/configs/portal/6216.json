@@ -349,7 +349,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -362,7 +362,8 @@
     "zoomType": "xy",
     "type": "column",
     "inverted": true,
-    "renderTo": "container-6216"
+    "renderTo": "container-6216",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -433,9 +434,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"
+    "text": "Quelle: Bevölkerungsbefragung Basel-Stadt 2015, Frage F6.\u003Cbr\u002F\u003EZuletzt geändert: 2017-10-27"
   },
   "legend": {
     "layout": "vertical",

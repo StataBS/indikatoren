@@ -1,30 +1,39 @@
-{"title":"Wohnbevölkerung gemäss Bevölkerungsszenarien",
-"subtitle":"Stand: 2017",
-"kuerzel":"I.01.9.06260",
-"kuerzelKunde":"ST 4-4",
-"description":"Wohnbevölkerung gemäss Bevölkerungsszenarien",
-"id":6260,
-"thema":"01 Bevölkerung",
-"unterthema":"Szenarien",
-"kennzahlenset":"Richtplan (Print)",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Bevölkerung"],
-"stufe1":"Sachgebiet Siedlung - Wohnen",
-"stufe2":"Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Ende 2016 umfasste die baselstädtische Wohnbevölkerung rund 198 200 Personen. Das Mittlere Szenario der aktuellen Bevölkerungsszenarien des Kantons Basel-Stadt geht davon aus, dass sich die Zahl der in Basel-Stadt wohnhaften Personen bis 2035 auf etwa 212 600 erhöht.",
-"erlaeuterungen":"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der < href=\"http://www.statistik.bs.ch/zahlen/analysen/bevoelkerungsszenarien.html.\">Internetseite des Statistischen Amtes</a>",
-"template":"template001_print",
-"option":"options001",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"01_01_00_00_00_000",
-"parentId":6215,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"],
-"externalLinks":[""]
+{
+ "title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
+ "subtitle": "Stand: 2017",
+ "kuerzel": "I.01.9.06260",
+ "kuerzelKunde": "ST 4-4",
+ "description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
+ "id": 6260,
+ "thema": "01 Bevölkerung",
+ "unterthema": "Szenarien",
+ "kennzahlenset": "Richtplan (Print)",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "",
+ "schlagwort": [
+  "Bevölkerung"
+ ],
+ "stufe1": "Sachgebiet Siedlung - Wohnen",
+ "stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Ende 2016 umfasste die baselstädtische Wohnbevölkerung rund 198 200 Personen. Das Mittlere Szenario der aktuellen Bevölkerungsszenarien des Kantons Basel-Stadt geht davon aus, dass sich die Zahl der in Basel-Stadt wohnhaften Personen bis 2035 auf etwa 212 600 erhöht.",
+ "erlaeuterungen": "Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der < href=\"http://www.statistik.bs.ch/zahlen/analysen/bevoelkerungsszenarien.html.\">Internetseite des Statistischen Amtes</a>",
+ "template": "template001_print",
+ "option": "options001",
+ "visible": true,
+ "visibleInPortal": false,
+ "orderKey": "01_01_00_00_00_000",
+ "parentId": 6215,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

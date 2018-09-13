@@ -31,7 +31,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4211
+		"id": 4211,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wasserabfluss via ARA",
@@ -45,7 +46,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
 		"stufe1": "Umwelt",
 		"stufe2": "U7: Wasserhaushalt",
 		"stufe3": "",
@@ -66,7 +67,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4348
+		"id": 4348,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ablauffracht nach ARA",
@@ -80,7 +82,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
 		"stufe1": "Umwelt",
 		"stufe2": "U7: Wasserhaushalt",
 		"stufe3": "",
@@ -101,7 +103,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4350
+		"id": 4350,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Erneuerbarer Strom",
@@ -115,7 +118,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
 		"stufe1": "Umwelt",
 		"stufe2": "U3: Energiequalität",
 		"stufe3": "",
@@ -136,7 +139,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4352
+		"id": 4352,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Brutvogelindex",
@@ -150,7 +154,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
 		"stufe1": "Umwelt",
 		"stufe2": "U1: Biodiversität",
 		"stufe3": "",
@@ -169,7 +173,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4355
+		"id": 4355,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Umbau- und Unterhaltsarbeiten",
@@ -183,7 +188,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
 		"stufe1": "Wirtschaft",
 		"stufe2": "W4: Investitionen",
 		"stufe3": "",
@@ -202,7 +207,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4356
+		"id": 4356,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschäftigte in Branchen mit hoher Arbeitsproduktivität",
@@ -216,7 +222,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
 		"stufe1": "Wirtschaft",
 		"stufe2": "W8: Wirtschaftsstruktur",
 		"stufe3": "",
@@ -236,7 +242,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4359
+		"id": 4359,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Qualifikationsniveau",
@@ -250,7 +257,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
 		"stufe1": "Wirtschaft",
 		"stufe2": "W9: Know-how",
 		"stufe3": "",
@@ -269,7 +276,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4360
+		"id": 4360,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nettoverschuldungsquotient",
@@ -283,7 +291,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
 		"stufe1": "Wirtschaft",
 		"stufe2": "W10: Öffentlicher Haushalt",
 		"stufe3": "",
@@ -302,7 +310,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4361
+		"id": 4361,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Verkehrsberuhigte Zonen",
@@ -316,7 +325,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
 		"stufe1": "Gesellschaft",
 		"stufe2": "G1: Lärm / Wohnqualität",
 		"stufe3": "",
@@ -335,7 +344,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4364
+		"id": 4364,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Einbruchdiebstähle",
@@ -349,7 +359,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
 		"stufe1": "Gesellschaft",
 		"stufe2": "G4: Sicherheit",
 		"stufe3": "",
@@ -370,7 +380,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4367
+		"id": 4367,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Familienergänzendes Kinderbetreuungsangebot",
@@ -384,7 +395,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
 		"stufe1": "Gesellschaft",
 		"stufe2": "G11: Chancengleichheit",
 		"stufe3": "",
@@ -404,6 +415,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4374
+		"id": 4374,
+		"darstellungsart": "Grafik"
 	}
 ];

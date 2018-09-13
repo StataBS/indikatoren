@@ -1,29 +1,39 @@
-{"title":"Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-"subtitle":"",
-"kuerzel":"I.19.1.04869",
-"kuerzelKunde":"3.2.04",
-"description":"Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-"id":4869,
-"thema":"19 Rechtspflege",
-"unterthema":"Polizei",
-"kennzahlenset":"Gesellschaftlicher-Zusammenhalt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Verbrechen"],
-"stufe1":"Kernbereich 3: Gemeinwohlorientierung",
-"stufe2":"3.2 Anerkennung sozialer Regeln",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Zahl der Anzeigen wegen Körperverletzung pro 1000 Einwohner ab 18 Jahren erhöhte sich von 2008 bis 2011 kontinuierlich auf 3,9. In der Folge sank diese Quote wieder, 2014 lag sie bei 3,0.",
-"erlaeuterungen":"",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_02_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"],
-"externalLinks":[""]
+{
+ "title": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
+ "subtitle": "",
+ "kuerzel": "I.19.1.04869",
+ "kuerzelKunde": "3.2.04",
+ "description": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
+ "id": 4869,
+ "thema": "19 Rechtspflege",
+ "unterthema": "Polizei",
+ "kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2016-09-21T00:00:00.000",
+ "schlagwort": [
+  "Verbrechen"
+ ],
+ "stufe1": "Kernbereich 3: Gemeinwohlorientierung",
+ "stufe2": "3.2 Anerkennung sozialer Regeln",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die Zahl der Anzeigen wegen Körperverletzung pro 1000 Einwohner ab 18 Jahren erhöhte sich von 2008 bis 2011 kontinuierlich auf 3,9. In der Folge sank diese Quote wieder, 2014 lag sie bei 3,0.",
+ "erlaeuterungen": "",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "03_02_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+  "Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

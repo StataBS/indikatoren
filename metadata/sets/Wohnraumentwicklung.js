@@ -30,7 +30,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4127
+		"id": 4127,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mietpreisentwicklung",
@@ -63,40 +64,41 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4128
+		"id": 4128,
+		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Mietpreisentwicklung der Leerwohnungen",
-		"subtitle": "nach Zimmerzahl",
-		"kuerzel": "I.09.2.04129",
+		"title": "Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.2.4129",
 		"kuerzelKunde": "0.1.B-2",
-		"description": "Mietpreisentwicklung der Leerwohnungen",
+		"description": "Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-19T15:46:38.3838",
+		"aktualisierungsdatum": "2018-08-22T15:38:57.5757",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Mietpreisentwicklung der Leerwohnungen ist im Zehnjahresvergleich leicht ansteigend. Da es grundsätzlich wenige leerstehende 5-Zimmerwohnungen gibt, sind die ausgewiesenen Durchschnittsmieten in dieser Kategorie grösseren Schwankungen unterworfen bzw. können wie im Jahr 2014 aufgrund zu kleiner Stichprobe gar nicht berechnet werden.",
-		"erlaeuterungen": "Bei den Mietpreisen für Leerwohnungen handelt es sich um Angebotsmieten, nicht um Bestandsmieten. 2014 kann keine Durchschnittsmiete für leerstehende 5-Zimmerwohnungen angegeben werden, weil in dieser Kategorie zu wenige Beobachtungen vorlagen.",
+		"erlaeuterungen": "Ohne Wohnungen in Einfamilienhäusern, ohne Wohnungen mit Zwischennutzung (eingeschränkte Mieterrechte, besonders günstig), ohne möblierte Wohnungen (besonders teuer) und mit Genossenschaftswohnungen.",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
-		],
+		"quellenangabe": [],
 		"externalLinks": [
 			""
 		],
-		"id": 4129
+		"id": 4129,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mietpreisentwicklung der 3-Zimmer-Wohnungen",
@@ -129,7 +131,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4130
+		"id": 4130,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wohnungsbelegung",
@@ -162,7 +165,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4131
+		"id": 4131,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
@@ -176,19 +180,20 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-22T18:38:03.033",
+		"aktualisierungsdatum": "2018-05-07T09:38:03.033",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.1 Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "In der 10-Jahresspanne von 2008 bis 2017 nahm die Bevölkerung in Basel-Stadt von 188 556 auf 198 988 Personen zu. Dies entspricht einem Wachstum um 5,0%.",
-		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774 - 1847: Kantonale Volkszählungen; 1850 - 1900: Eidgenössische Volkszählungen; 1901 - 2011: Fortschreibung der kantonalen Bevölkerungsstatistik; Ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
+		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "stock001",
 		"orderKey": "02_01_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"6143"
+			"6143",
+			"6297"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -197,7 +202,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4132
+		"id": 4132,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Wohnungen",
@@ -230,7 +236,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4133
+		"id": 4133,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteile am Wohnungsbestand",
@@ -263,7 +270,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4134
+		"id": 4134,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nettowohnungsproduktion",
@@ -298,7 +306,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4135
+		"id": 4135,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Umbausaldo",
@@ -331,7 +340,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4136
+		"id": 4136,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl neu erstellte Wohnungen",
@@ -364,12 +374,13 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4137
+		"id": 4137,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
-		"subtitle": "nach Zimmerzahl",
-		"kuerzel": "I.09.2.04138",
+		"subtitle": "nach Zimmerzahl, Basel-Stadt",
+		"kuerzel": "I.09.2.4138",
 		"kuerzelKunde": "1.2.F-1",
 		"description": "Anzahl Leerwohnungen und Leerwohnungsquote",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -378,15 +389,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-22T15:37:12.1212",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Leerwohnungsquoten erreichten im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die Leerwohnungsquote stetig angestiegen und lag 2017 bei 0,5%.",
-		"erlaeuterungen": "LWQ = Leerwohnungsquote",
+		"lesehilfe": "Die Leerwohnungsquote erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die Leerwohnungsquote stetig angestiegen und liegt 2018 bei 0,7%.",
+		"erlaeuterungen": "LWQ = Leerwohnungsquote.",
 		"template": "template001",
+		"printformat": "",
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [
@@ -399,12 +411,13 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4138
+		"id": 4138,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
-		"subtitle": "nach Wohnflächenkategorie, Stand 2015 bis 2017",
-		"kuerzel": "I.09.2.04139",
+		"subtitle": "nach Grösse der Wohnung, Basel-Stadt",
+		"kuerzel": "I.09.2.4139",
 		"kuerzelKunde": "1.2.F-2",
 		"description": "Anzahl Leerwohnungen und Leerwohnungsquote",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -413,15 +426,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-08-18T09:23:29.2929",
+		"aktualisierungsdatum": "2018-08-22T15:38:32.3232",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit knapp 0,4% bei Wohnungen ab 150 m² gemessen. Diese hatten 2015 mit gut 0,5% noch den höchsten Wert erreicht.",
+		"lesehilfe": "Im Jahr 2018 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit knapp 0,5% bei Wohnungen ab 150 m² gemessen.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"printformat": "",
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -433,7 +447,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4139
+		"id": 4139,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -472,12 +487,13 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4140
+		"id": 4140,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteile der Haushalte",
-		"subtitle": "nach Art des Haushalts",
-		"kuerzel": "I.01.2.04141",
+		"subtitle": "nach Art des Haushalts, Basel-Stadt",
+		"kuerzel": "I.01.2.4141",
 		"kuerzelKunde": "1.4.A1",
 		"description": "Anteile der Haushalte",
 		"thema": "01 Bevölkerung",
@@ -486,15 +502,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-20T10:44:40.4040",
+		"aktualisierungsdatum": "2018-08-21T08:45:07.077",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2016 rund 47% aus.",
+		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2017 46% aus, 41% sind Familienhaushalte und 13% werden den Nichtfamilienhaushalten zugeordnet.",
 		"erlaeuterungen": "Nichtfamilienhaushalte sind Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind. Die übrigen Mehrpersonenhaushalte werden zu den Familienhaushalten gezählt.",
 		"template": "template001",
+		"printformat": "",
 		"orderKey": "02_04_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -505,12 +522,13 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4141
+		"id": 4141,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteile der Familienhaushalte",
-		"subtitle": "nach Art der Zusammensetzung",
-		"kuerzel": "I.01.2.04142",
+		"subtitle": "nach Art der Zusammensetzung, Basel-Stadt",
+		"kuerzel": "I.01.2.4142",
 		"kuerzelKunde": "1.4.A2",
 		"description": "Anteile der Familienhaushalte",
 		"thema": "01 Bevölkerung",
@@ -519,15 +537,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-20T10:46:00.000",
+		"aktualisierungsdatum": "2018-09-12T14:04:26.2626",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil kinderloser Familien an allen Familien sank von 41,3% im Jahr 2011 auf 39,1% im Jahr 2014. 2015 stieg er wieder auf 41,0%. Im Jahr 2016 gab es einen erneuten Rückgang und der Anteil kinderloser Familien lag noch bei 38,4%.",
+		"lesehilfe": "Der Anteil kinderloser Familien an allen Familien sank von 41,3% im Jahr 2011 auf 39,1% im Jahr 2014. 2015 stieg er wieder auf 41,0%. In den Jahren 2016 und 2017 gab es einen erneuten Rückgang und der Anteil kinderloser Familien lag noch bei 37,9%.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_04_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -571,7 +591,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4143
+		"id": 4143,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot - nur Familien",
@@ -604,7 +625,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4144
+		"id": 4144,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wohneigentumsquote",
@@ -637,7 +659,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4145
+		"id": 4145,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
@@ -670,7 +693,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4146
+		"id": 4146,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Saldo des Steuerertrages von Zu- und Wegzügern",
@@ -703,7 +727,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Siehe <a href='http://www.statistik.bs.ch/zahlen/analysen/steuerstatistik.html' target='_blank'>Weiterführende Informationen zur Steuerstatistik und zur Methodik</a>."
 		],
-		"id": 4147
+		"id": 4147,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
@@ -736,7 +761,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4148
+		"id": 4148,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Freiraumfläche und Anteil an der Gesamtfläche",
@@ -750,7 +776,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-18T09:58:14.1414",
+		"aktualisierungsdatum": "2018-02-01T00:00:00.0000",
 		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.2 Freiräume",
 		"stufe3": "",
@@ -769,7 +795,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4149
+		"id": 4149,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
@@ -804,7 +831,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4150
+		"id": 4150,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
@@ -837,12 +865,13 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4151
+		"id": 4151,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Haushalte mit Familienmietzinsbeiträgen",
-		"subtitle": "",
-		"kuerzel": "I.13.2.04152",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.13.2.4152",
 		"kuerzelKunde": "4.1.A",
 		"description": "Haushalte mit Familienmietzinsbeiträgen",
 		"thema": "13 Soziale Sicherheit",
@@ -851,15 +880,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-22T17:53:45.4545",
+		"aktualisierungsdatum": "2018-08-15T12:00:00.0000",
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist im gesamten Beobachtungszeitraum stark angestiegen.",
-		"erlaeuterungen": "FAMI = Familienmietzinsbeiträge",
+		"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist im gesamten Beobachtungszeitraum stark angestiegen. Ende 2017 beziehen 2 225 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,3% aller Haushalte im Kanton Basel-Stadt.",
+		"erlaeuterungen": "Die Familienmietzinsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
 		"template": "template001",
+		"printformat": "",
 		"orderKey": "05_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -870,7 +900,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4152
+		"id": 4152,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ausbezahlte Familienmietzinsbeiträge",
@@ -884,7 +915,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-24T15:24:49.4949",
+		"aktualisierungsdatum": "2018-02-01T00:00:00.0000",
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
@@ -903,7 +934,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4153
+		"id": 4153,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bestand an Notwohnungen und ihre Belegung",
@@ -936,7 +968,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4154
+		"id": 4154,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
@@ -969,7 +1002,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4155
+		"id": 4155,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
@@ -1002,6 +1036,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4156
+		"id": 4156,
+		"darstellungsart": "Grafik"
 	}
 ];

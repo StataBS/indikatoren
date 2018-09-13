@@ -1,29 +1,39 @@
-{"title":"Quintilsverteilung des Äquivalenz-Haushaltseinkommens",
-"subtitle":"nach Staatsangehörigkeit, 2002 bis 2014, 3-Jahres-Pooling",
-"kuerzel":"I.03.3.06467",
-"kuerzelKunde":"C6-1",
-"description":"Quintilsverteilung des Äquivalenz-Haushaltseinkommens",
-"id":6467,
-"thema":"03 Erwerbsleben",
-"unterthema":"Löhne ",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Haushalt","Staatsangehörigkeit"],
-"stufe1":"Kapitel C Erwerb und Auskommen",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Bei den Ausländern ist im Kanton Basel-Stadt im Mittel der Jahre 2012 bis 2014 der Anteil Personen mit einem Äquivalenz-Haushaltseinkommen im 1. Quintil (28,4%) und im 5. Quintil (23,8%) grösser als in der Einkommensverteilung der gesamten ständigen Wohnbevölkerung in der Schweiz (gemäss Definition 20% für jedes Quintil). Bei den Schweizern ist der Anteil im 1. Quintil (22,7%) im Kanton Basel-Stadt höher, der Anteil im 5. Quintil (18,4%) hingegen tiefer als in der landesweiten Verteilung.",
-"erlaeuterungen":"Äquivalenzhaushaltseinkommen: Um den Unterschieden bezüglich Haushaltsgrösse und -zusammensetzung Rechnung zu tragen, wird das Haushaltseinkommen in ein Einkommen eines Einpersonenhaushalts umgerechnet, indem es durch die «Äquivalenzgrösse» dividiert wird. Diese wird berechnet, indem die Haushaltsmitglieder gewichtet werden: Die erste erwachsene Person mit 1,0, die zweite und jede weitere im Alter von 15 und mehr Jahren mit 0,5 sowie jedes Kind unter 15 Jahren mit 0,3. Quintile: Das Quintil gibt Auskunft über die Position des Haushalts in Bezug auf die schweizweite Einkommensverteilung. Die Verteilung der Einkommen wird in fünf gleiche Gruppen eingeteilt. Das erste Quintil entspricht den 20% der Haushalte mit den geringsten Einkommen, das fünfte Quintil denjenigen mit den höchsten Einkommen. Die Grenzen der Quintile variieren je nach Erhebungsjahr.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_00_00_00_00_027",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"],
-"externalLinks":[""]
+{
+ "title": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens",
+ "subtitle": "nach Staatsangehörigkeit, 2002 bis 2014, 3-Jahres-Pooling",
+ "kuerzel": "I.03.3.06467",
+ "kuerzelKunde": "C6-1",
+ "description": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens",
+ "id": 6467,
+ "thema": "03 Erwerbsleben",
+ "unterthema": "Löhne ",
+ "kennzahlenset": "Integration",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-21T00:00:00.000",
+ "schlagwort": [
+  "Haushalt",
+  "Staatsangehörigkeit"
+ ],
+ "stufe1": "Kapitel C Erwerb und Auskommen",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Bei den Ausländern ist im Kanton Basel-Stadt im Mittel der Jahre 2012 bis 2014 der Anteil Personen mit einem Äquivalenz-Haushaltseinkommen im 1. Quintil (28,4%) und im 5. Quintil (23,8%) grösser als in der Einkommensverteilung der gesamten ständigen Wohnbevölkerung in der Schweiz (gemäss Definition 20% für jedes Quintil). Bei den Schweizern ist der Anteil im 1. Quintil (22,7%) im Kanton Basel-Stadt höher, der Anteil im 5. Quintil (18,4%) hingegen tiefer als in der landesweiten Verteilung.",
+ "erlaeuterungen": "Äquivalenzhaushaltseinkommen: Um den Unterschieden bezüglich Haushaltsgrösse und -zusammensetzung Rechnung zu tragen, wird das Haushaltseinkommen in ein Einkommen eines Einpersonenhaushalts umgerechnet, indem es durch die «Äquivalenzgrösse» dividiert wird. Diese wird berechnet, indem die Haushaltsmitglieder gewichtet werden: Die erste erwachsene Person mit 1,0, die zweite und jede weitere im Alter von 15 und mehr Jahren mit 0,5 sowie jedes Kind unter 15 Jahren mit 0,3. Quintile: Das Quintil gibt Auskunft über die Position des Haushalts in Bezug auf die schweizweite Einkommensverteilung. Die Verteilung der Einkommen wird in fünf gleiche Gruppen eingeteilt. Das erste Quintil entspricht den 20% der Haushalte mit den geringsten Einkommen, das fünfte Quintil denjenigen mit den höchsten Einkommen. Die Grenzen der Quintile variieren je nach Erhebungsjahr.",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "03_00_00_00_00_027",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

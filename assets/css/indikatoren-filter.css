@@ -282,3 +282,7 @@ h1{
 a {
     outline:none!important
 }
+
+.pieLegend {
+    cursor: pointer;
+}

@@ -135,7 +135,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6317"
+    "renderTo": "container-6317",
+    "spacingBottom": 8
   },
   "title": {
     "style": {
@@ -206,7 +207,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt."
   },
   "legend": {
     "enabled": false,
@@ -220,6 +221,9 @@
   },
   "plotOptions": {
     "series": {
+      "marker": {
+        "enabled": false
+      },
       "dataLabels": {
         "enabled": true,
         "allowOverlap": true,

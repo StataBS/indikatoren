@@ -353,7 +353,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6293"
+    "renderTo": "container-6293",
+    "spacingBottom": 8
   },
   "title": {
     "style": {
@@ -426,7 +427,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik."
   },
   "legend": {
     "enabled": true,
@@ -443,6 +444,11 @@
     "margin": 3
   },
   "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "line": {
       "connectNulls": true,
       "marker": {

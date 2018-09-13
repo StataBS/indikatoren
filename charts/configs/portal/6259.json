@@ -756,7 +756,8 @@
                 }
     },
     "alignTicks": false,
-    "renderTo": "container-6259"
+    "renderTo": "container-6259",
+    "spacingBottom": 18
   },
   "plotOptions": {
     "series": {
@@ -866,7 +867,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik."
   },
   "legend": {
     "symbolRadius": 0,

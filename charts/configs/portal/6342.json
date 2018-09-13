@@ -82,7 +82,8 @@
     },
     "type": "column",
     "inverted": false,
-    "renderTo": "container-6342"
+    "renderTo": "container-6342",
+    "spacingBottom": 8
   },
   "plotOptions": {
     "series": {
@@ -157,7 +158,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Eidgenössische Finanzverwaltung"
+    "text": "Quelle: Eidgenössische Finanzverwaltung."
   },
   "legend": {
     "symbolRadius": 0,

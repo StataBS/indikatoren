@@ -1,29 +1,40 @@
-{"title":"Beschuldigte ausländische Erwachsene",
-"subtitle":"Personen ab 18 Jahren nach Aufenthaltsstatus",
-"kuerzel":"I.19.1.06485",
-"kuerzelKunde":"D4-4",
-"description":"Beschuldigte ausländische Erwachsene",
-"id":6485,
-"thema":"19 Rechtspflege",
-"unterthema":"Polizei",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Bewilligung","Beschuldigte"],
-"stufe1":"Kapitel D Politik und Zusammenleben",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Von 2009 bis 2016 sank die Anzahl der in Basel-Stadt wohnhaften beschuldigten Ausländerinnen und Ausländer mit einer C-Bewilligung von 530 auf 503. Die Anzahl beschuldigter Ausländerinnen und Ausländer mit einer B-Bewilligung stiegt dagegen leicht von 267 auf 271 Personen.",
-"erlaeuterungen":"Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder dem Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"04_00_00_00_00_013",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"],
-"externalLinks":[""]
+{
+ "title": "Beschuldigte ausländische Erwachsene",
+ "subtitle": "Personen ab 18 Jahren nach Aufenthaltsstatus",
+ "kuerzel": "I.19.1.06485",
+ "kuerzelKunde": "D4-4",
+ "description": "Beschuldigte ausländische Erwachsene",
+ "id": 6485,
+ "thema": "19 Rechtspflege",
+ "unterthema": "Polizei",
+ "kennzahlenset": "Integration",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-21T00:00:00.000",
+ "schlagwort": [
+  "Bewilligung",
+  "Beschuldigte"
+ ],
+ "stufe1": "Kapitel D Politik und Zusammenleben",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Von 2009 bis 2016 sank die Anzahl der in Basel-Stadt wohnhaften beschuldigten Ausländerinnen und Ausländer mit einer C-Bewilligung von 530 auf 503. Die Anzahl beschuldigter Ausländerinnen und Ausländer mit einer B-Bewilligung stiegt dagegen leicht von 267 auf 271 Personen.",
+ "erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder dem Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "04_00_00_00_00_013",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+  "Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

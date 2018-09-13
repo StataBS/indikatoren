@@ -112,7 +112,8 @@
     },
     "type": "column",
     "renderTo": "container-6337",
-    "inverted": false
+    "inverted": false,
+    "spacingBottom": 8
   },
   "title": {
     "style": {
@@ -172,7 +173,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik."
   },
   "legend": {
     "enabled": true,
@@ -187,6 +188,9 @@
   },
   "plotOptions": {
     "series": {
+      "marker": {
+        "enabled": false
+      },
       "pointPadding": 100,
       "borderWidth": 0,
       "pointWidth": 30,

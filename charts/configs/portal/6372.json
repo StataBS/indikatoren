@@ -166,7 +166,8 @@
     },
     "type": "column",
     "inverted": false,
-    "renderTo": "container-6372"
+    "renderTo": "container-6372",
+    "spacingBottom": 8
   },
   "plotOptions": {
     "series": {
@@ -243,7 +244,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Credit Suisse Group AG"
+    "text": "Quelle: Credit Suisse Group AG."
   },
   "legend": {
     "symbolRadius": 0,

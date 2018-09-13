@@ -1,29 +1,39 @@
-{"title":"Kantonales BIP im Vergleich zu den Staatsausgaben",
-"subtitle":"indexiert (1995 = 100)",
-"kuerzel":"I.18.1.06335",
-"kuerzelKunde":"2.9",
-"description":"Kantonales BIP im Vergleich zu den Staatsausgaben",
-"id":6335,
-"thema":"18 Öffentliche Finanzen",
-"unterthema":"Staatsrechnung",
-"kennzahlenset":"Legislaturplan (Print)",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["BIP"],
-"stufe1":"Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft.",
-"template":"line001_print",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"02_00_00_00_00_000",
-"parentId":6205,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Eidgenössische Finanzverwaltung","BAK Economics"],
-"externalLinks":[""]
+{
+ "title": "Kantonales BIP im Vergleich zu den Staatsausgaben",
+ "subtitle": "indexiert (1995 = 100)",
+ "kuerzel": "I.18.1.06335",
+ "kuerzelKunde": "2.9",
+ "description": "Kantonales BIP im Vergleich zu den Staatsausgaben",
+ "id": 6335,
+ "thema": "18 Öffentliche Finanzen",
+ "unterthema": "Staatsrechnung",
+ "kennzahlenset": "Legislaturplan (Print)",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "",
+ "schlagwort": [
+  "BIP"
+ ],
+ "stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "",
+ "erlaeuterungen": "Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft.",
+ "template": "line001_print",
+ "visible": true,
+ "visibleInPortal": false,
+ "orderKey": "02_00_00_00_00_000",
+ "parentId": 6205,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Eidgenössische Finanzverwaltung",
+  "BAK Economics"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

@@ -761,7 +761,8 @@
     "type": "column",
     "marginLeft": 165,
     "inverted": true,
-    "renderTo": "container-6341"
+    "renderTo": "container-6341",
+    "spacingBottom": 1
   },
   "title": {
     "style": {
@@ -838,7 +839,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4."
   },
   "legend": {
     "layout": "vertical",

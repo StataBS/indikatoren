@@ -1,29 +1,38 @@
-{"title":"Beurteilung des Verhältnisses zur Nachbarschaft",
-"subtitle":"«Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.»",
-"kuerzel":"I.50.2.04849",
-"kuerzelKunde":"1.1.04",
-"description":"Beurteilung des Verhältnisses zur Nachbarschaft",
-"id":4849,
-"thema":"50 Befragungen",
-"unterthema":"Familienbefragung",
-"kennzahlenset":"Gesellschaftlicher-Zusammenhalt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Nachbarschaft"],
-"stufe1":"Kernbereich 1: Soziale Beziehungen",
-"stufe2":"1.1 Soziale Netze",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"2009 gaben 90,4% und 2013 89,6% der Familien an, ein gutes Verhältnis zu ihren Nachbarinnen und Nachbarn zu pflegen.",
-"erlaeuterungen":"",
-"template":"befragungenProzent001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_01_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F19c"],
-"externalLinks":[""]
+{
+ "title": "Beurteilung des Verhältnisses zur Nachbarschaft",
+ "subtitle": "«Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.»",
+ "kuerzel": "I.50.2.04849",
+ "kuerzelKunde": "1.1.04",
+ "description": "Beurteilung des Verhältnisses zur Nachbarschaft",
+ "id": 4849,
+ "thema": "50 Befragungen",
+ "unterthema": "Familienbefragung",
+ "kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2016-09-21T00:00:00.000",
+ "schlagwort": [
+  "Nachbarschaft"
+ ],
+ "stufe1": "Kernbereich 1: Soziale Beziehungen",
+ "stufe2": "1.1 Soziale Netze",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "2009 gaben 90,4% und 2013 89,6% der Familien an, ein gutes Verhältnis zu ihren Nachbarinnen und Nachbarn zu pflegen.",
+ "erlaeuterungen": "",
+ "template": "befragungenProzent001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_01_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F19c"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

@@ -258,7 +258,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -285,7 +285,8 @@
             }
           }
     },
-    "renderTo": "container-4135"
+    "renderTo": "container-4135",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -379,9 +380,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-1-18"
   },
   "legend": {
     "symbolRadius": 0,

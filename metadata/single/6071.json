@@ -1,29 +1,39 @@
-{"title":"Anzahl Ausländer nach Art der Bewilligung",
-"subtitle":"",
-"kuerzel":"I.01.1.06071",
-"kuerzelKunde":"A3-1",
-"description":"Anzahl Ausländer nach Art der Bewilligung",
-"id":6071,
-"thema":"01 Bevölkerung",
-"unterthema":"Bestand und Struktur ",
-"kennzahlenset":"Integration",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Ausland","Bewilligung"],
-"stufe1":"Kapitel A Bevölkerungsstruktur",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Der Grossteil der ausländischen Einwohner (2016: 41 416) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. Gut halb so viele Ausländer besitzen eine Aufenthaltsbewilligung (2016: 25 049). Von 1997 (685) bis 2006 (4 022) stieg die Zahl der Personen mit Kurzaufenthaltsbewilligungen. Seither nimmt sie wieder ab (2016: 2 445).",
-"erlaeuterungen":"Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
-"template":"template001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_019",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+{
+ "title": "Anzahl Ausländer nach Art der Bewilligung",
+ "subtitle": "",
+ "kuerzel": "I.01.1.06071",
+ "kuerzelKunde": "A3-1",
+ "description": "Anzahl Ausländer nach Art der Bewilligung",
+ "id": 6071,
+ "thema": "01 Bevölkerung",
+ "unterthema": "Bestand und Struktur ",
+ "kennzahlenset": "Integration",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-03-21T00:00:00.000",
+ "schlagwort": [
+  "Ausland",
+  "Bewilligung"
+ ],
+ "stufe1": "Kapitel A Bevölkerungsstruktur",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Der Grossteil der ausländischen Einwohner (2016: 41 416) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. Gut halb so viele Ausländer besitzen eine Aufenthaltsbewilligung (2016: 25 049). Von 1997 (685) bis 2006 (4 022) stieg die Zahl der Personen mit Kurzaufenthaltsbewilligungen. Seither nimmt sie wieder ab (2016: 2 445).",
+ "erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
+ "template": "template001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_00_00_00_00_019",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

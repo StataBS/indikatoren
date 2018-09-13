@@ -22,10 +22,14 @@
         ],
         [
           "2015",
-          14.842948
+          14.876566
+        ],
+        [
+          "2016",
+          14.979787
         ]
       ],
-      "name": "Industrie",
+      "name": "Industrie Total",
       "turboThreshold": 0
     },
     {
@@ -50,10 +54,14 @@
         ],
         [
           "2015",
-          1.7449017
+          1.7420451
+        ],
+        [
+          "2016",
+          1.7488902
         ]
       ],
-      "name": "Dienstleistungen",
+      "name": "Dienstleistungen Total",
       "turboThreshold": 0
     }
   ],
@@ -79,7 +87,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -108,7 +116,8 @@
     },
     "type": "column",
     "inverted": false,
-    "renderTo": "container-6141"
+    "renderTo": "container-6141",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -138,7 +147,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "an der gesamten Beschäftigung (in Vollzeitäquivalenten)",
+    "text": "an der gesamten Beschäftigung (in Vollzeitäquivalenten), Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -176,9 +185,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-6"
   },
   "legend": {
     "symbolRadius": 0,

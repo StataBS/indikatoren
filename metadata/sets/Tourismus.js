@@ -11,7 +11,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -30,7 +30,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6537
+		"id": 6537,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Durchschnittliche Betriebsgrösse",
@@ -44,7 +45,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -63,7 +64,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6538
+		"id": 6538,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zimmerangebot und Auslastung nach Hotelkategorie",
@@ -77,7 +79,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -96,7 +98,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6539
+		"id": 6539,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nettozimmerauslastung nach Wochentag",
@@ -110,7 +113,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -129,7 +132,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6540
+		"id": 6540,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Betriebsstruktur",
@@ -143,7 +147,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -162,7 +166,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6541
+		"id": 6541,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Angebotene Betten nach Hotelkategorie",
@@ -176,7 +181,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -195,7 +200,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6542
+		"id": 6542,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der mittleren Aufenthaltsdauer",
@@ -209,7 +215,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -228,7 +234,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6543
+		"id": 6543,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Aufenthaltsdauer im Monatsmittel",
@@ -242,7 +249,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -261,7 +268,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6544
+		"id": 6544,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Logiernächte nach Monat und Herkunft",
@@ -275,7 +283,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -294,7 +302,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6545
+		"id": 6545,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Logiernächte nach Herkunft der Gäste",
@@ -308,7 +317,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -327,7 +336,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6546
+		"id": 6546,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Logiernächte nach Herkunft der Gäste",
@@ -341,7 +351,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -360,7 +370,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6547
+		"id": 6547,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Logiernächte der Top-Märkte",
@@ -374,7 +385,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -393,7 +404,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6548
+		"id": 6548,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wachstumsbeiträge der Top-Märkte",
@@ -407,7 +419,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -426,7 +438,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6549
+		"id": 6549,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ankünfte nach Monat und Herkunft",
@@ -440,7 +453,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -459,6 +472,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6576
+		"id": 6576,
+		"darstellungsart": "Grafik"
 	}
 ];

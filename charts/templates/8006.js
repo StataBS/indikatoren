@@ -156,11 +156,11 @@
 	                fn.addLegendTitle(chart, pieSizeSeries.name, 460, 200);
 	                
 	                fn.addLegendCircle(chart, 465, 231, 0.5*pieSizeCatConfig[0].diameter, 'grey');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 478, 221, true);
+	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 478, 221, undefined, true);
 	                fn.addLegendCircle(chart, 465, 248, 0.5*pieSizeCatConfig[1].diameter, 'grey');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 478, 237, true);
+	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 478, 237, undefined, true);
 	                fn.addLegendCircle(chart, 465, 265, 0.5*pieSizeCatConfig[2].diameter, 'grey');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 478, 255, true);
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 478, 255, undefined, true);
 					
 					fn.addLegendSquare(chart, 565, 225, 10, '#7F5F1A');
 					fn.addLegendLabel(chart, 'Zunahme', 580, 221);

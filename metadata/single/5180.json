@@ -1,29 +1,38 @@
-{"title":"Lebenserwartung bei Geburt",
-"subtitle":"nach Geschlecht in Jahren",
-"kuerzel":"I.14.3.05180",
-"kuerzelKunde":"GW3",
-"description":"Lebenserwartung bei Geburt",
-"id":5180,
-"thema":"14 Gesundheit",
-"unterthema":"Sterblichkeit",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Alter"],
-"stufe1":"Bereich Grundbedürfnisse und Wohlergehen",
-"stufe2":"Gesundheit",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Lebenserwartung bei Geburt für Frauen liegt im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2016 liegen bei 84,4 Jahren (Frauen) und 80,4 Jahren (Männer).",
-"erlaeuterungen":"Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"03_02_00_00_00_303",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS)"],
-"externalLinks":[""]
+{
+ "title": "Lebenserwartung bei Geburt",
+ "subtitle": "nach Geschlecht in Jahren",
+ "kuerzel": "I.14.3.05180",
+ "kuerzelKunde": "GW3",
+ "description": "Lebenserwartung bei Geburt",
+ "id": 5180,
+ "thema": "14 Gesundheit",
+ "unterthema": "Sterblichkeit",
+ "kennzahlenset": "Nachhaltigkeit",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-04-03T00:00:00.000",
+ "schlagwort": [
+  "Alter"
+ ],
+ "stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+ "stufe2": "Gesundheit",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die Lebenserwartung bei Geburt für Frauen liegt im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2016 liegen bei 84,4 Jahren (Frauen) und 80,4 Jahren (Männer).",
+ "erlaeuterungen": "Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "03_02_00_00_00_303",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Bundesamt für Statistik (BFS)"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

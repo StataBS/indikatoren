@@ -438,7 +438,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -449,7 +449,8 @@
       "fontFamily": "Arial"
     },
     "type": "area",
-    "renderTo": "container-6548"
+    "renderTo": "container-6548",
+    "spacingBottom": 55
   },
   "title": {
     "style": {
@@ -517,9 +518,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-15"
   },
   "tooltip": {
     "shared": false,

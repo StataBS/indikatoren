@@ -223,7 +223,8 @@
                     
                 }
     },
-    "renderTo": "container-6263"
+    "renderTo": "container-6263",
+    "spacingBottom": 8
   },
   "plotOptions": {
     "series": {
@@ -301,7 +302,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)."
   },
   "legend": {
     "symbolRadius": 0,

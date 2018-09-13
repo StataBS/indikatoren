@@ -17,7 +17,7 @@
           1
         ]
       ],
-      "name": "Chemische Industrie",
+      "name": "Chemie\u002FPharma",
       "turboThreshold": 0
     },
     {
@@ -284,7 +284,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -313,7 +313,8 @@
     },
     "type": "column",
     "inverted": false,
-    "renderTo": "container-5041"
+    "renderTo": "container-5041",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -381,9 +382,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO).\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-17"
   },
   "legend": {
     "symbolRadius": 0,

@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#000000",
+      "color": "rgb(111,111,111)",
       "data": [
         [
           2000,
@@ -66,12 +66,20 @@
         [
           2015,
           -1.2
+        ],
+        [
+          2016,
+          -0.2
+        ],
+        [
+          2017,
+          0.8
         ]
       ],
       "name": "Basler Index"
     },
     {
-      "color": "#DC440E",
+      "color": "rgb(176,0,0)",
       "data": [
         [
           2000,
@@ -136,6 +144,14 @@
         [
           2015,
           -1.1
+        ],
+        [
+          2016,
+          -0.4
+        ],
+        [
+          2017,
+          0.5
         ]
       ],
       "name": "Landesindex"
@@ -145,7 +161,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -174,7 +190,8 @@
     },
     "renderTo": "container-4911",
     "type": "column",
-    "marginBottom": 65
+    "marginBottom": 65,
+    "spacingBottom": 50
   },
   "plotOptions": {
     "series": {
@@ -183,7 +200,8 @@
         "style": {
           "fontSize": "10px"
         }
-      }
+      },
+      "pointPadding": 0
     }
   },
   "title": {
@@ -193,7 +211,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Mittlere Jahresteuerung Basel-Stadt im Vergleich zur Schweiz"
+    "text": "Mittlere Jahresteuerung Basel-Stadt und Schweiz"
   },
   "subtitle": {
     "style": {
@@ -220,7 +238,8 @@
       }
     },
     "tickLength": 0,
-    "type": "Year"
+    "type": "Year",
+    "tickInterval": 2
   },
   "yAxis": {
     "gridLineColor": "#B9CFD7",
@@ -257,9 +276,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS)"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-15"
   },
   "legend": {
     "symbolRadius": 0,

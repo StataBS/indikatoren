@@ -71,14 +71,12 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 75,
     "style": {
       "fontFamily": "Arial"
     },
     "type": "line",
-    "marginBottom": 85,
-    "marginTop": 75,
     "renderTo": "container-4350"
   },
   "title": {
@@ -132,19 +130,25 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -45
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EProRheno AG;\u003Cbr\u002F\u003EStatistisches Amt Basel-Landschaft"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EProRheno AG;\u003Cbr\u002F\u003EStatistisches Amt Basel-Landschaft.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-14"
   },
   "legend": {
     "enabled": false,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
   },
   "plotOptions": {
     "series": {
+      "marker": {
+        "enabled": false
+      },
       "dataLabels": {
         "enabled": true,
         "formatter": function () {
@@ -156,6 +160,41 @@
             return "";
           }
       }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
     }
   },
   "exporting": {

@@ -8,6 +8,9 @@
   "chart": {
     "inverted": true
   }, 
+  subtitle: {
+    useHTML: true,
+  },
   legend: {
     itemDistance: 5,
     "enabled": true,
@@ -21,8 +24,9 @@
   },  
   xAxis: {
     labels: {
+      useHTML: false,
       formatter: function() {
-      	return this.value.replace(" ", "<br/>");
+      	return this.value;//.replace("Eingebürgerte ", "Eingebürgerte<br/>");
       }
     }
   },

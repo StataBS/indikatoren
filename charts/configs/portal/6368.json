@@ -80,7 +80,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       7,
       3,
@@ -92,7 +92,8 @@
     },
     "type": "column",
     "inverted": false,
-    "renderTo": "container-6368"
+    "renderTo": "container-6368",
+    "spacingBottom": 18
   },
   "title": {
     "style": {
@@ -150,9 +151,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: BaselArea"
+    "text": "Quelle: BaselArea.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
   },
   "legend": {
     "enabled": false,
@@ -167,6 +168,9 @@
   },
   "plotOptions": {
     "series": {
+      "marker": {
+        "enabled": false
+      },
       "pointPadding": 0,
       "borderWidth": 0
     }

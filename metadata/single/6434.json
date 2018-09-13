@@ -1,29 +1,40 @@
-{"title":"Jahresmitteltemperatur",
-"subtitle":"in °C",
-"kuerzel":"I.02.3.06434",
-"kuerzelKunde":"NL13",
-"description":"Jahresmitteltemperatur",
-"id":6434,
-"thema":"02 Raum, Umwelt",
-"unterthema":"Witterung",
-"kennzahlenset":"Nachhaltigkeit",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Biodiversität","Klima","Wasser"],
-"stufe1":"Bereich Natürliche Lebensgrundlagen",
-"stufe2":"Klimawandel",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Das Mittel der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2017 11,5&nbsp;°C.",
-"erlaeuterungen":"Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M; 47°33&#039; N / 7°35&#039; E).",
-"template":"line001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"04_02_00_00_00_413",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Meteorologischer Verein der Region Basel"],
-"externalLinks":[""]
+{
+ "title": "Jahresmitteltemperatur",
+ "subtitle": "in °C",
+ "kuerzel": "I.02.3.06434",
+ "kuerzelKunde": "NL13",
+ "description": "Jahresmitteltemperatur",
+ "id": 6434,
+ "thema": "02 Raum, Umwelt",
+ "unterthema": "Witterung",
+ "kennzahlenset": "Nachhaltigkeit",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2018-04-03T00:00:00.000",
+ "schlagwort": [
+  "Biodiversität",
+  "Klima",
+  "Wasser"
+ ],
+ "stufe1": "Bereich Natürliche Lebensgrundlagen",
+ "stufe2": "Klimawandel",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Das Mittel der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2017 11,5&nbsp;°C.",
+ "erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M; 47°33&#039; N / 7°35&#039; E).",
+ "template": "line001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "04_02_00_00_00_413",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Meteorologischer Verein der Region Basel"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

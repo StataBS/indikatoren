@@ -1,29 +1,40 @@
-{"title":"Zufriedenheit mit dem Wohnungsangebot",
-"subtitle":"«Wie zufrieden sind sie mit dem Wohnungsangebot?»",
-"kuerzel":"I.50.1.04127",
-"kuerzelKunde":"0.1.A",
-"description":"Zufriedenheit mit dem Wohnungsangebot",
-"id":4127,
-"thema":"50 Befragungen",
-"unterthema":"Bevölkerungsbefragung",
-"kennzahlenset":"Wohnraumentwicklung",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2017-01-19T14:07:53.5353",
-"schlagwort":["Gebäude","Haushalt","Zufriedenheit"],
-"stufe1":"Leitgedanke",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"Die Hälfte der Befragten ist mit dem Wohnungsangebot «eher zufrieden» oder «sehr zufrieden». Seit der ersten Bevölkerungsbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte.",
-"erlaeuterungen":"",
-"template":"befragungen001",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"01_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_9"],
-"externalLinks":[""]
+{
+ "title": "Zufriedenheit mit dem Wohnungsangebot",
+ "subtitle": "«Wie zufrieden sind sie mit dem Wohnungsangebot?»",
+ "kuerzel": "I.50.1.04127",
+ "kuerzelKunde": "0.1.A",
+ "description": "Zufriedenheit mit dem Wohnungsangebot",
+ "id": 4127,
+ "thema": "50 Befragungen",
+ "unterthema": "Bevölkerungsbefragung",
+ "kennzahlenset": "Wohnraumentwicklung",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-01-19T14:07:53.5353",
+ "schlagwort": [
+  "Gebäude",
+  "Haushalt",
+  "Zufriedenheit"
+ ],
+ "stufe1": "Leitgedanke",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "Die Hälfte der Befragten ist mit dem Wohnungsangebot «eher zufrieden» oder «sehr zufrieden». Seit der ersten Bevölkerungsbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte.",
+ "erlaeuterungen": "",
+ "template": "befragungen001",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "01_00_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_9"
+ ],
+ "externalLinks": [
+  ""
+ ]
 }

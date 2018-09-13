@@ -1,29 +1,38 @@
-{"title":"Hitzetage",
-"subtitle":"Anzahl Tage",
-"kuerzel":"I.02.12.04300",
-"kuerzelKunde":"0801",
-"description":"Hitzetage",
-"id":4300,
-"thema":"02 Raum, Umwelt",
-"unterthema":"Klima",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Klima"],
-"stufe1":"Thema Klima",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat.<br><br>Die Summe der Tage eines Jahres, an denen das Maximum der Lufttemperatur über 30 °C liegt ergibt die Anzahl Hitzetage pro Jahr. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33&#039; N / 7°35&#039; E).",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":false,
-"orderKey":"08_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Meteorologischer Verein der Region Basel"],
-"externalLinks":["Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"]
+{
+ "title": "Hitzetage",
+ "subtitle": "Anzahl Tage",
+ "kuerzel": "I.02.12.04300",
+ "kuerzelKunde": "0801",
+ "description": "Hitzetage",
+ "id": 4300,
+ "thema": "02 Raum, Umwelt",
+ "unterthema": "Klima",
+ "kennzahlenset": "Umwelt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-07-11T00:00:00.000",
+ "schlagwort": [
+  "Klima"
+ ],
+ "stufe1": "Thema Klima",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "",
+ "erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat.<br><br>Die Summe der Tage eines Jahres, an denen das Maximum der Lufttemperatur über 30 °C liegt ergibt die Anzahl Hitzetage pro Jahr. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33&#039; N / 7°35&#039; E).",
+ "template": "dotplot",
+ "visible": true,
+ "visibleInPortal": false,
+ "orderKey": "08_00_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Meteorologischer Verein der Region Basel"
+ ],
+ "externalLinks": [
+  "Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
+ ]
 }

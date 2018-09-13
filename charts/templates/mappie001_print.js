@@ -21,7 +21,7 @@
         },
         "title": {
             "style": {
-                "fontSize": "10px",
+                "fontSize": "9px",
                 "fontWeight": "bold",
                 "fontFamily": "Arial",
                 "color": "#000000"
@@ -30,7 +30,7 @@
         },
         "subtitle": {
             "style": {
-                "fontSize": "10px",
+                "fontSize": "9px",
                 "fontWeight": "normal",
                 "fontFamily": "Arial",
                 "color": "#000000"
@@ -42,7 +42,7 @@
             "enabled": true,
             "style": {
                 "color": "#000000",
-                "fontSize": "10px",
+                "fontSize": "9px",
                 "cursor": "default"
             },
             "position": {
@@ -56,7 +56,7 @@
     		"gridLineColor": "#fbfbfb",	
             "gridLineWidth": 1,
             "labels": {	
-    		    "style": {"color": "black", "cursor": "default", "fontSize": "10px", "textOverflow": "none"}
+    		    "style": {"color": "black", "cursor": "default", "fontSize": "9px", "textOverflow": "none"}
     		},
     		"marker": {
                     "color": "black"
@@ -73,11 +73,11 @@
     		"enabled": true, 
             "align": "right",
             "floating": true,
-            itemStyle: {fontSize: "10px"},
+            itemStyle: {fontSize: "9px"},
             "title": {
                 "style": {
                     "fontWeight": "normal", 
-                    "fontSize": "10px"
+                    "fontSize": "9px"
                 }
             }
     	}, 
@@ -123,7 +123,7 @@
 					formatter: function(){
 						return '1 km';
 					}, 
-					style: {fontSize: "10px", fontWeight: "normal", color: 'black'},
+					style: {fontSize: "9px", fontWeight: "normal", color: 'black'},
 					y: -10
 				}
     		}
@@ -290,7 +290,7 @@
     	                        zIndex: 6, // Keep pies above connector lines
     	                        borderWidth: 1,
     	                        tooltip: {
-	                        	    headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
+	                        	    headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 9px"> {series.name} </span><br/>',
 		                            pointFormatter: function () {
 		                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
 		                            }
@@ -360,7 +360,7 @@
     	        addLegendTitle: function(chart, title, x, y){
             		return chart.renderer.label(title, x, y)
          				.css({
-    	                    fontSize: '10px',
+    	                    fontSize: '9px',
     	                    fontWeight: 'bold'
     	                })
     	                .attr({
@@ -369,34 +369,44 @@
     			        }).add();	                
                 },
     	                
-                addLegendCircle: function(chart, x, y, radius, fill){
+                addLegendCircle: function(chart, x, y, radius, fill, cssClass){
                 	return chart.renderer.circle(x, y, radius, fill).attr({
     				    fill: fill,
     				    stroke: fill,
     				    'stroke-width': 1, 
     				    zIndex: 6,
-    				    class: 'pieLegend'
+    				    class: cssClass + ' pieLegend'
     				}).add();
                 },
     	                
     	                
-                addLegendLabel: function(chart, text, x, y, useHtml){
+                addLegendLabel: function(chart, text, x, y, cssClass, useHtml){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
 					.css({
-	                    fontSize: '10px'
+	                    fontSize: '9px'
 	                })
     				.attr({
     					zIndex: 6,
-    					class: 'pieLegend'
+    					class: cssClass + ' pieLegend'
     				}).add();
                 },
                 
-                addLegendSquare: function(chart, x, y, width, fill){
+                 addLegendLabelbold: function(chart, text, x, y, cssClass, useHtml){
+    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).
+    				attr({
+    					zIndex: 6,
+    					class: cssClass +' pieLegend'	})
+    				.css({
+                        fontWeight: 'bold' }).
+                     add();
+                },
+                
+                addLegendSquare: function(chart, x, y, width, fill, cssClass){
                 	return chart.renderer.rect(x, y, width, width, 0).attr({
     		            'stroke-width':0,
     		            fill: fill,
     		            zIndex: 6,
-    		            class: 'pieLegend'
+    		            class: cssClass + ' pieLegend'
     	        	}).add();
                 },
                 
@@ -404,7 +414,9 @@
 
 				//Add click handler to bubbleLegend items
 				AddPieLegendClickHandler: function(chart){
-				    $('.pieLegend').click(function(){
+					var divId = chart['renderTo']['id'] || 'dummySettingForExportServer';
+					var divIdString = '#' + divId;
+				    $(divIdString + ' .pieLegend').click(function(){
 						//Toggle visible of mappies
 						Highcharts.each(chart.series, function (series) {
 							if (series.userOptions.type == 'mappie'){
@@ -415,9 +427,9 @@
 						
 						
 						//if useHTMl is true, text is in span elements within DIVs classed .pieLegend. Add the class to these spans
-						$('.pieLegend>span').addClass('pieLegend').addClass('pieLegendHtmlText');
+						$(divIdString + ' .pieLegend>span').addClass('pieLegend').addClass('pieLegendHtmlText');
 						//toggle active state of legend elements
-						var pieLegendItems = $('.pieLegend');
+						var pieLegendItems = $(divIdString + ' .pieLegend');
 						//backup original color
 						pieLegendItems.each(function(i, v){
 							if (!$(this).attr('fill_active')) {
@@ -440,7 +452,7 @@
 								}
 							});
 							//same for html text spans
-							$('.pieLegendHtmlText').css('color', '#cccccc');
+							$(divIdString + ' .pieLegendHtmlText').css('color', '#cccccc');
 						} 
 						else {
 							pieLegendItems.each(function(i, v){
@@ -449,11 +461,10 @@
 								$(this).attr('stroke', $(this).attr('stroke_active'));	
 							});
 							//same for html text spans
-							$('.pieLegendHtmlText').css('color', 'black');
+							$(divIdString + ' .pieLegendHtmlText').css('color', 'black');
 						}
 					});
-				}       
-
+				}
 		    }
 		};
     }()

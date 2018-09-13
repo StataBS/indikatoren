@@ -1,29 +1,39 @@
-{"title":"Elektroautos",
-"subtitle":"Anzahl Fahrzeuge",
-"kuerzel":"I.11.1.04298",
-"kuerzelKunde":"0805",
-"description":"Elektroautos",
-"id":4298,
-"thema":"11 Verkehr",
-"unterthema":"Motorfahrzeuge",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Klima"],
-"stufe1":"Thema Klima",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0805' target='_blank'>Umweltbericht beider Basel</a>.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"08_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle"],
-"externalLinks":["<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0805' target = '_blank'>Umweltbericht beider Basel</a>"]
+{
+ "title": "Elektroautos",
+ "subtitle": "Anzahl Fahrzeuge",
+ "kuerzel": "I.11.1.04298",
+ "kuerzelKunde": "0805",
+ "description": "Elektroautos",
+ "id": 4298,
+ "thema": "11 Verkehr",
+ "unterthema": "Motorfahrzeuge",
+ "kennzahlenset": "Umwelt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-07-11T00:00:00.000",
+ "schlagwort": [
+  "Klima"
+ ],
+ "stufe1": "Thema Klima",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "",
+ "erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0805' target='_blank'>Umweltbericht beider Basel</a>.",
+ "template": "dotplot",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "08_00_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle"
+ ],
+ "externalLinks": [
+  "<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>",
+  "Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0805' target = '_blank'>Umweltbericht beider Basel</a>"
+ ]
 }

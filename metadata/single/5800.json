@@ -1,29 +1,39 @@
-{"title":"Holzernte nach Sortimenten",
-"subtitle":"Kubikmeter",
-"kuerzel":"I.07.1.05800",
-"kuerzelKunde":"1503",
-"description":"Holzernte nach Sortimenten",
-"id":5800,
-"thema":"07 Landwirtschaft",
-"unterthema":"Landwirtschaft",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Wald"],
-"stufe1":"Thema Wald",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1503' target='_blank'>Umweltbericht beider Basel</a>.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"15_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Amt für Wald beider Basel"],
-"externalLinks":["Mehr unter: <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/land-forstwirtschaft/erhebungen/fs.html' target = '_blank'>Schweizerische Forststatistik (BFS)</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1503' target = '_blank'>Umweltbericht beider Basel</a>"]
+{
+ "title": "Holzernte nach Sortimenten",
+ "subtitle": "Kubikmeter",
+ "kuerzel": "I.07.1.05800",
+ "kuerzelKunde": "1503",
+ "description": "Holzernte nach Sortimenten",
+ "id": 5800,
+ "thema": "07 Landwirtschaft",
+ "unterthema": "Landwirtschaft",
+ "kennzahlenset": "Umwelt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-07-11T00:00:00.000",
+ "schlagwort": [
+  "Wald"
+ ],
+ "stufe1": "Thema Wald",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "",
+ "erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1503' target='_blank'>Umweltbericht beider Basel</a>.",
+ "template": "dotplot",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "15_00_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Amt für Wald beider Basel"
+ ],
+ "externalLinks": [
+  "Mehr unter: <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/land-forstwirtschaft/erhebungen/fs.html' target = '_blank'>Schweizerische Forststatistik (BFS)</a>",
+  "Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1503' target = '_blank'>Umweltbericht beider Basel</a>"
+ ]
 }

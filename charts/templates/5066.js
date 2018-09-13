@@ -39,9 +39,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	//"y": 40,
-	//"x": 40,
-	"itemMarginBottom": 5,
+	  "itemMarginBottom": 5,
     "itemStyle": {
     "fontWeight": "normal"
     }
@@ -58,6 +56,9 @@
       "index": 1,
       "type": "line",
       "yAxis": 1,
+       "marker": {
+        "enabled": false
+      },
       "tooltip": {
        "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>'
       }
@@ -67,7 +68,6 @@
     "shared": true,
   },
   "chart": {
-    "marginBottom": 65,
     "type": "line",
     "alignTicks": false
   }

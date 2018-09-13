@@ -96,7 +96,6 @@ plotOptions: {
   		"shared": true
 		   },
   "chart": {
-    "marginBottom": 75,
     "alignTicks": false
   }
 }

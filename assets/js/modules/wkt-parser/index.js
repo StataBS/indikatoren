@@ -43,7 +43,7 @@ function cleanWKT(wkt) {
           wkt.to_meter = wkt.UNIT.convert*wkt.DATUM.SPHEROID.a;
         }
       } else {
-        wkt.to_meter = wkt.UNIT.convert, 10;
+        wkt.to_meter = wkt.UNIT.convert;
       }
     }
   }
@@ -90,6 +90,10 @@ function cleanWKT(wkt) {
       wkt.a = geogcs.DATUM.SPHEROID.a;
       wkt.rf = parseFloat(geogcs.DATUM.SPHEROID.rf, 10);
     }
+
+    if (geogcs.DATUM && geogcs.DATUM.TOWGS84) {
+      wkt.datum_params = geogcs.DATUM.TOWGS84;
+    }
     if (~wkt.datumCode.indexOf('osgb_1936')) {
       wkt.datumCode = 'osgb36';
     }
@@ -102,6 +106,9 @@ function cleanWKT(wkt) {
     }
     if (wkt.datumCode === 'ch1903+') {
       wkt.datumCode = 'ch1903';
+    }
+    if (~wkt.datumCode.indexOf('israel')) {
+      wkt.datumCode = 'isr93';
     }
   }
   if (wkt.b && !isFinite(wkt.b)) {

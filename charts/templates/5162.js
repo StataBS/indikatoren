@@ -13,29 +13,8 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
   "series": [
-    {"color": "#B00000",
-      "marker": {
-        "enabled": true
-      }    
-    }, /* dunkelrot */
-    	/*{"color": "#007A2F",
-	visible:true,
-      "marker": {
-        "enabled": true
-      }    
-    }, // dunkelgrün */
-    	{"color": "#4f81bd",
-	visible:true,
-      "marker": {
-        "enabled": true
-      }    
-    }, //dunkelblau 
-    	/*{"color": "#662673",
-	visible:true,
-      "marker": {
-        "enabled": true
-      }    
-    },  dunkelviolett */
+    {"color": "#B00000",}, //dunkelrot
+    {"color": "#4f81bd",}, //dunkelblau 
   ],
   "legend": {
     "enabled": true,

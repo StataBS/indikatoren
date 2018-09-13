@@ -106,7 +106,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -119,7 +119,8 @@
     "zoomType": "xy",
     "type": "column",
     "inverted": false,
-    "renderTo": "container-6511"
+    "renderTo": "container-6511",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -196,9 +197,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F36"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F36.\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
   },
   "legend": {
     "layout": "vertical",

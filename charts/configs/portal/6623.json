@@ -1,0 +1,450 @@
+{
+  "series": [
+    {
+      "data": [
+        [
+          -6153667200000,
+          15040
+        ],
+        [
+          -4859913600000,
+          16674
+        ],
+        [
+          -4228761600000,
+          21219
+        ],
+        [
+          -4165603200000,
+          22199
+        ],
+        [
+          -3850070400000,
+          25787
+        ],
+        [
+          -3755376000000,
+          27170
+        ],
+        [
+          -3439756800000,
+          37915
+        ],
+        [
+          -3124224000000,
+          44122
+        ],
+        [
+          -2808604800000,
+          60550
+        ],
+        [
+          -2556144000000,
+          69809
+        ],
+        [
+          -2177539200000,
+          109161
+        ],
+        [
+          -1862006400000,
+          132276
+        ],
+        [
+          -1546387200000,
+          135976
+        ],
+        [
+          -1230854400000,
+          148063
+        ],
+        [
+          -883699200000,
+          162105
+        ],
+        [
+          -599702400000,
+          183543
+        ],
+        [
+          -284083200000,
+          206746
+        ],
+        [
+          31449600000,
+          212857
+        ],
+        [
+          62985600000,
+          209948
+        ],
+        [
+          94608000000,
+          207297
+        ],
+        [
+          126144000000,
+          204642
+        ],
+        [
+          157680000000,
+          201039
+        ],
+        [
+          189216000000,
+          197809
+        ],
+        [
+          220838400000,
+          193806
+        ],
+        [
+          252374400000,
+          190474
+        ],
+        [
+          283910400000,
+          187984
+        ],
+        [
+          315446400000,
+          185980
+        ],
+        [
+          347068800000,
+          184490
+        ],
+        [
+          378604800000,
+          182944
+        ],
+        [
+          410140800000,
+          181967
+        ],
+        [
+          441676800000,
+          181373
+        ],
+        [
+          473299200000,
+          180703
+        ],
+        [
+          504835200000,
+          180290
+        ],
+        [
+          536371200000,
+          177985
+        ],
+        [
+          567907200000,
+          176843
+        ],
+        [
+          599529600000,
+          175233
+        ],
+        [
+          631065600000,
+          174679
+        ],
+        [
+          662601600000,
+          175257
+        ],
+        [
+          694137600000,
+          176902
+        ],
+        [
+          725760000000,
+          177181
+        ],
+        [
+          757296000000,
+          177835
+        ],
+        [
+          788832000000,
+          177106
+        ],
+        [
+          820368000000,
+          175855
+        ],
+        [
+          851990400000,
+          174350
+        ],
+        [
+          883526400000,
+          172235
+        ],
+        [
+          915062400000,
+          170242
+        ],
+        [
+          946598400000,
+          168294
+        ],
+        [
+          978220800000,
+          166848
+        ],
+        [
+          1009756800000,
+          165548
+        ],
+        [
+          1041292800000,
+          166120
+        ],
+        [
+          1072828800000,
+          166286
+        ],
+        [
+          1104451200000,
+          166646
+        ],
+        [
+          1135987200000,
+          166203
+        ],
+        [
+          1167523200000,
+          165968
+        ],
+        [
+          1199059200000,
+          166217
+        ],
+        [
+          1230681600000,
+          167763
+        ],
+        [
+          1262217600000,
+          169037
+        ],
+        [
+          1293753600000,
+          168804
+        ],
+        [
+          1325289600000,
+          170331
+        ],
+        [
+          1356912000000,
+          171428
+        ],
+        [
+          1388448000000,
+          173330
+        ],
+        [
+          1419984000000,
+          174286
+        ],
+        [
+          1451520000000,
+          175131
+        ],
+        [
+          1483142400000,
+          176015
+        ],
+        [
+          1514678400000,
+          176461
+        ]
+      ],
+      "name": "Bevölkerung Stadt Basel"
+    }
+  ],
+  "xAxis": {
+    "type": "datetime",
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "ordinal": false,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "endOnTick": true,
+    "startOnTick": true,
+    "showFirstLabel": true,
+    "showLastLabel": true
+  },
+  "isStock": true,
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 40,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "events": {
+      "load": function () {
+                  this.credits.element.onclick = function() {};
+                  //for top-left legends with no x defined: move legend to x position of first yAxis
+                  if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                    this.update(
+                      {
+                        legend: {
+                          x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                        }
+                      }
+                    );
+                  }              
+                }
+    },
+    "type": "area",
+    "marginTop": 60,
+    "renderTo": "container-6623"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "marker": {
+        "enabled": false,
+        "radius": 4
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Bevölkerungsbestand am Jahresende"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Stadt Basel",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "showLastLabel": true,
+    "endOnTick": true,
+    "opposite": false
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-5-7"
+  },
+  "legend": {
+    "symbolRadius": 0
+  },
+  "rangeSelector": {
+    "verticalAlign": "bottom",
+    "buttonPosition": {},
+    "buttons": [
+      {
+        "count": 10,
+        "type": "year",
+        "text": "10 J"
+      },
+      {
+        "count": 20,
+        "type": "year",
+        "text": "20 J"
+      },
+      {
+        "count": 50,
+        "type": "year",
+        "text": "50 J"
+      },
+      {
+        "count": 100,
+        "type": "year",
+        "text": "100 J"
+      },
+      {
+        "type": "all",
+        "text": "Alle J"
+      }
+    ],
+    "buttonSpacing": 15,
+    "inputEnabled": false,
+    "selected": 2,
+    "inputDateFormat": "%Y",
+    "inputEditDateFormat": "%Y"
+  },
+  "navigator": {
+    "margin": 10,
+    "height": 30,
+    "series": {
+      "includeInCSVExport": false
+    },
+    "outlineColor": "#B9CFD7"
+  },
+  "tooltip": {
+    "dateTimeLabelFormats": {
+      "day": "%A, %e. %b, %Y"
+    }
+  },
+  "exporting": {
+    "csv": {
+      "dateFormat": "%d.%m.%Y"
+    },
+    "filename": 6623
+  }
+}

@@ -44,9 +44,14 @@ function createChartConfig(data, chartOptions, template, chartMetaData, view, su
     var injectedOptions = injectMetadataToChartConfig(options, chartMetaData, view, suppressNumberInTitle);
     //replace . in labels with spaces - necessary for space between column groups
     var replacedOptions = createEmptyLabels(injectedOptions);
+    //add beforeSeries as last series
+    var beforeSeriesOptions = replacedOptions;     
+    if (beforeSeriesOptions.beforeSeries) {beforeSeriesOptions.series = replacedOptions.beforeSeries.concat(replacedOptions.series)} 
+    delete beforeSeriesOptions.beforeSeries;
+
     //add afterSeries as last series
-    var afterSeriesOptions = replacedOptions;     
-    if (afterSeriesOptions.afterSeries) {afterSeriesOptions.series = replacedOptions.series.concat(replacedOptions.afterSeries)} 
+    var afterSeriesOptions = beforeSeriesOptions;     
+    if (afterSeriesOptions.afterSeries) {afterSeriesOptions.series = beforeSeriesOptions.series.concat(beforeSeriesOptions.afterSeries)} 
     delete afterSeriesOptions.afterSeries;
 
     callbackFn(afterSeriesOptions);
@@ -103,9 +108,24 @@ function injectMetadataToChartConfig(options, data, view, suppressNumberInTitle)
   options['title']['text'] = (isIndikatorensetView(view)) ? chartNumberToDisplay + data.title : data.title;
   options['subtitle']['text'] = data.subtitle;    
   options['chart']['renderTo'] = 'container-' + data.id;
-  options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join(';<br/>');
+  options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join(';<br/>') + '.';
   //add 10 px space for each line of credits plus -5px for the first line (if not stated otherwise)
-  options['credits']['position']['y'] = (options['credits']['position']['y'] || -5) + (-10 * data.quellenangabe.length);
+  var numberOfCreditsLines = data.quellenangabe.length;
+  var aktDatum = Date.parse(data["aktualisierungsdatum"]);
+  //if valid aktualisierungsdatum: construct last entry in credits
+  if (view != 'print' && isNaN(aktDatum) == false)
+  {
+    var aktDatumText = 'Zuletzt geändert: ' + (new Date(aktDatum)).toLocaleDateString('de-CH');
+    numberOfCreditsLines += 1;
+    options['credits']['text'] += ("<br/>" + aktDatumText);
+    //add 13 pixels to chart height to make space
+    options['chart']['height'] = parseInt(options['chart']['height'], 10) + 13;
+  }
+  
+  options['credits']['position']['y'] = (options['credits']['position']['y'] || -5) + (-10 * numberOfCreditsLines);
+  //increase spacingBottom to prevent overlapping xAxis.label with credits
+  options['chart']['spacingBottom'] = (options['chart']['spacingBottom'] || options['chart']['spacing'][2] || 0) + ((numberOfCreditsLines-1) * 10);
+
   //make sure node exists before deferencing it
   options['exporting'] = (options['exporting'] || {});
   options['exporting']['filename'] = data.id;
@@ -241,25 +261,19 @@ function getChartUrls(id){
 function lazyRenderChartById(id, chartMetaData, view, suppressNumberInTitle, callbackFn){
   //fire GTM event
   dataLayer.push({'event': 'LazyRenderChart', 'chartId': id, 'view': view});
+
   var container = $(escapeCssChars('#container-' + id));
-  //check if a highcharts-container below the container is already present. 
-  //no highcharts container yet: load data and draw chart. 
-  if (!container.find('div.highcharts-container').length) {     
-    var chartUrls = getChartUrls(id);
-    //get template for requested chart 
-    (chartMetaData === undefined) ? chartMetaData = findChartById(indikatoren, id) : chartMetaData;
-    renderChart(chartUrls['optionsUrl'], chartUrls['templateUrl'], chartUrls['chartUrl'], chartUrls['csvUrl'], chartMetaData, view, suppressNumberInTitle, callbackFn);
-  }
-  //highcharts container exists already: redraw chart without reloading data from network
-  else { 
+  var chartUrls = getChartUrls(id);
+  //get template for requested chart 
+  (chartMetaData === undefined) ? chartMetaData = findChartById(indikatoren, id) : chartMetaData;
+  //highcharts container exists already: delete chart 
+  if (container.find('div.highcharts-container').length) {     
     //find chart in highchart's array of charts
     var chartIndex = container.attr("data-highcharts-chart");
-    //get chartOptions, destroy and recreate
-    var currentChartOptions = Highcharts.charts[chartIndex].options;
-    //destroy and redraw in order to get nice animation
+    //destroy and redraw in order to get nice animation. Lazy loading no longer performed, because of problems with mappie tooltips starting with Highcharts 6.1.1. 
     Highcharts.charts[chartIndex].destroy();
-    container.highcharts(currentChartOptions, callbackFn);
   }
+  renderChart(chartUrls['optionsUrl'], chartUrls['templateUrl'], chartUrls['chartUrl'], chartUrls['csvUrl'], chartMetaData, view, suppressNumberInTitle, callbackFn);
 }
 
 

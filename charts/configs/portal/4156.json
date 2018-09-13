@@ -135,7 +135,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -147,7 +147,8 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "renderTo": "container-4156"
+    "renderTo": "container-4156",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -217,9 +218,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10_c"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10_c.\u003Cbr\u002F\u003EZuletzt geändert: 2017-2-17"
   },
   "legend": {
     "layout": "vertical",

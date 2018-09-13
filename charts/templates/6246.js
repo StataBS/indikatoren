@@ -28,7 +28,7 @@
                    dataClasses: [{
                 to: 0.2999,
                 color: '#D7E8D2',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;0,30"
+                name:  "<span style='color: rgba(0,0,0,0)'>27,0</span> <;0,30"
             }, {
                 from: 0.3,
                 to:  0.3999,
@@ -47,7 +47,7 @@
             },{
                 from: 0.6,
                 color: '#0A3B19',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;0,60"
+                name:  "<span style='color: rgba(0,0,0,0)'>27,0</span> ≥ 0,60"
             }], 
         },
         "data": {
@@ -164,11 +164,11 @@
                      add();
 	                
 	                fn.addLegendCircle(chart, 473, 246, 0.5*pieSizeCatConfig[0].diameter, 'grey');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 485, 236, true);
+	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 485, 236, undefined, true);
 	                fn.addLegendCircle(chart, 473, 263, 0.5*pieSizeCatConfig[1].diameter, 'grey');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 485, 253, true);
+	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 485, 253, undefined, true);
 	                fn.addLegendCircle(chart, 473, 280, 0.5*pieSizeCatConfig[2].diameter, 'grey');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 485, 270, true);
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 485, 270, undefined, true);
 					
 					fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
 					fn.addLegendLabel(chart, 'Zunahme', 580, 236);

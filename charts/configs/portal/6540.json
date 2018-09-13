@@ -2,9 +2,6 @@
   "series": [
     {
       "color": "rgb(220, 68, 14)",
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2008,
@@ -51,9 +48,6 @@
     },
     {
       "color": "rgb(68, 141, 43)",
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2008,
@@ -100,9 +94,6 @@
     },
     {
       "color": "rgb(250, 189, 36)",
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2008,
@@ -149,6 +140,9 @@
     },
     {
       "color": "rgb(220, 68, 14)",
+      "marker": {
+        "enabled": true
+      },
       "data": [
         [
           2008,
@@ -195,6 +189,9 @@
     },
     {
       "color": "rgb(68, 141, 43)",
+      "marker": {
+        "enabled": true
+      },
       "data": [
         [
           2008,
@@ -241,6 +238,9 @@
     },
     {
       "color": "rgb(250, 189, 36)",
+      "marker": {
+        "enabled": true
+      },
       "data": [
         [
           2008,
@@ -310,8 +310,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -387,9 +387,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-15"
   },
   "legend": {
     "enabled": true,
@@ -397,15 +397,15 @@
     "verticalAlign": "top",
     "align": "right",
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "width": 40
+    },
     "useHTML": true,
     "y": -45,
     "itemMarginBottom": 5,
     "width": 210,
     "itemWidth": 70,
-    "itemStyle": {
-      "fontWeight": "normal",
-      "width": 40
-    },
     "title": {
       "text": "Effektiv:\u003Cbr\u002F\u003EAuf Basis Zimmerzahl 2008:",
       "style": {
@@ -419,12 +419,52 @@
     }
   },
   "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "line": {
       "marker": {
         "symbol": "circle",
         "lineWidth": 2,
         "lineColor": null
       }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
     }
   },
   "exporting": {

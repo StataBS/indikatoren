@@ -203,7 +203,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -216,7 +216,8 @@
     "zoomType": "xy",
     "type": "column",
     "inverted": true,
-    "renderTo": "container-6090"
+    "renderTo": "container-6090",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -233,6 +234,7 @@
       "color": "#000000"
     },
     "align": "left",
+    "useHTML": true,
     "text": "Personen ab 15 Jahren nach Staatsangehörigkeit, gepoolte Daten 2011 - 2015"
   },
   "navigation": {
@@ -286,9 +288,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
   },
   "legend": {
     "layout": "horizontal",

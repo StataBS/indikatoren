@@ -266,7 +266,8 @@
     },
     "renderTo": "container-6329",
     "type": "column",
-    "inverted": false
+    "inverted": false,
+    "spacingBottom": 18
   },
   "plotOptions": {
     "series": {
@@ -343,7 +344,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003EDepartement für Wirtschaft, Soziales und Umwelt"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003EDepartement für Wirtschaft, Soziales und Umwelt."
   },
   "legend": {
     "symbolRadius": 0,

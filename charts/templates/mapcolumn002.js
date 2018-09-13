@@ -99,6 +99,7 @@
     	},    
         "mapNavigation": {
             "enabled": true,
+            enableDoubleClickZoom: false, 
             "buttonOptions": {
                 "align": "left",
                 "verticalAlign": 'bottom'
@@ -110,8 +111,8 @@
             "floating": true,
             "title": {
                 "style": {
-                    "fontWeight": "normal", 
-                    "fontSize": "11px"
+                    "fontWeight": "bold", 
+                    "fontSize": "12px"
                 }
             }
     	}, 
@@ -169,6 +170,33 @@
 			}
 		},		
 
+
+		//make sure charts are exported as displayed
+		exporting: {
+			menuItemDefinitions: {
+		        downloadPNG: {
+			            onclick: function () {
+			            	this.options.customFunctions.exportCurrentSVG(this, 'image/png');
+			            },
+		        },
+		        downloadJPEG: {
+			            onclick: function () {
+			            	this.options.customFunctions.exportCurrentSVG(this, 'image/jpeg');
+			            },
+		        },
+		        downloadPDF: {
+			            onclick: function () {
+			            	this.options.customFunctions.exportCurrentSVG(this, "application/pdf");
+			            },
+		        },
+		        downloadSVG: {
+			            onclick: function () {
+			            	this.options.customFunctions.exportCurrentSVG(this, 'image/svg+xml');
+			            },
+		        },
+	        }
+		},
+
 		
 		customFunctions: {
 			
@@ -214,7 +242,7 @@
 			    } else {
 			      xAxis.series.forEach(function(s) {
 			      	//if series must be hidden due to clicking on legend: hide despite ok position
-			        s.setVisible(true && !s._hide, false);
+			        s.setVisible(true && !s.userOptions._hide, false);
 			        //define column width here and increase with zooming
 			        s.update({pointWidth: s.options.columnWidth * zoomRatio}, false);
 			      });
@@ -313,8 +341,8 @@
 		    
 		    
             //helper functions for column legend
-	        addLegendTitle: function(chart, title, x, y){
-        		return chart.renderer.label(title, x, y)
+	        addLegendTitle: function(chart, x, y, text){
+        		return chart.renderer.label(text, x, y)
      				.css({
 	                    fontSize: '12px',
 	                    fontWeight: 'bold'
@@ -341,16 +369,17 @@
 					.attr({
 						zIndex: 6,
 						fill: color,
-						class: cssClass + ' columnLegend'
+						class: (cssClass || "") + ' columnLegend'
 					})
 					.add();
             },
+            
             addLegendTextbold: function(chart, x, y, text, color, cssClass, useHtml){
 				return chart.renderer.text(text, x, y, undefined, undefined, undefined, useHtml)
 					.attr({
 						zIndex: 6,
 						fill: color,
-						class: cssClass + ' columnLegend'})
+						class: (cssClass || "") + ' columnLegend'})
 					.css({
                         fontWeight: 'bold' }).
                      add();
@@ -438,8 +467,7 @@
 					//Toggle visible of mapcolumns
 					Highcharts.each(chart.series, function (series) {
 						if (series.userOptions.type == 'column'){
-							//series.setVisible(!series.visible, false);
-							series._hide = !series._hide;
+							series.userOptions._hide = !series.userOptions._hide;
 						}
 					});
 					chart.redraw();
@@ -483,7 +511,22 @@
 						$(divIdString + ' .columnLegendHtmlText').css('color', 'black');
 					}
 				});
-			}      
+			},      
+			
+			//override function getSVG to make sure charts are exported as displayed, see https://forum.highcharts.com/highcharts-usage/how-to-force-export-server-to-render-current-svg-t40838/
+			exportCurrentSVG: function(chart, type){
+				var origFn = Highcharts.Chart.prototype.getSVG;
+				Highcharts.Chart.prototype.getSVG = function() {
+					console.log("Using current SVG to export.");
+					var svg = chart.getChartHTML();
+					svg = chart.sanitizeSVG(svg);
+					return svg;
+				};		            	
+                chart.exportChart({type: type || 'image/png'});
+                Highcharts.Chart.prototype.getSVG = origFn;					
+			}, 
+			
+			
 		}
     }; 
     }()

@@ -1,29 +1,39 @@
-{"title":"Störfälle und Ereignisse",
-"subtitle":"Anzahl Störfällen und Ereignissen",
-"kuerzel":"I.02.18.04247",
-"kuerzelKunde":"1403",
-"description":"Störfälle und Ereignisse",
-"id":4247,
-"thema":"02 Raum, Umwelt",
-"unterthema":"Störfälle",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Störfälle"],
-"stufe1":"Thema Störfälle",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-14-1403' target='_blank'>Umweltbericht beider Basel</a>.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"14_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Kantonales Laboratorium Basel-Stadt"],
-"externalLinks":["<a href = 'http://www.kantonslabor.bs.ch/umwelt/anlagensicherheit.html' target = '_blank'>Störfallvorsorge BS</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-14-1403' target = '_blank'>Umweltbericht beider Basel</a>"]
+{
+ "title": "Störfälle und Ereignisse",
+ "subtitle": "Anzahl Störfällen und Ereignissen",
+ "kuerzel": "I.02.18.04247",
+ "kuerzelKunde": "1403",
+ "description": "Störfälle und Ereignisse",
+ "id": 4247,
+ "thema": "02 Raum, Umwelt",
+ "unterthema": "Störfälle",
+ "kennzahlenset": "Umwelt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-07-11T00:00:00.000",
+ "schlagwort": [
+  "Störfälle"
+ ],
+ "stufe1": "Thema Störfälle",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "",
+ "erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-14-1403' target='_blank'>Umweltbericht beider Basel</a>.",
+ "template": "dotplot",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "14_00_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Kantonales Laboratorium Basel-Stadt"
+ ],
+ "externalLinks": [
+  "<a href = 'http://www.kantonslabor.bs.ch/umwelt/anlagensicherheit.html' target = '_blank'>Störfallvorsorge BS</a>",
+  "Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-14-1403' target = '_blank'>Umweltbericht beider Basel</a>"
+ ]
 }

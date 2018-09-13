@@ -1,29 +1,39 @@
-{"title":"Spezifischer Heizenergieverbrauch von neuen Bauten",
-"subtitle":"Liter Heizöläquivalente pro Quadratmeter",
-"kuerzel":"I.08.1.04227",
-"kuerzelKunde":"0610",
-"description":"Spezifischer Heizenergieverbrauch von neuen Bauten",
-"id":4227,
-"thema":"08 Energie",
-"unterthema":"Verbrauch",
-"kennzahlenset":"Umwelt",
-"raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"",
-"schlagwort":["Energie"],
-"stufe1":"Thema Energie",
-"stufe2":"",
-"stufe3":"",
-"stufe4":"",
-"stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0610' target='_blank'>Umweltbericht beider Basel</a>.",
-"template":"dotplot",
-"visible":true,
-"visibleInPortal":true,
-"orderKey":"06_00_00_00_00_000",
-"parentId":null,
-"children":[],
-"renderLink":[],
-"quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"externalLinks":["<a href = 'http://www.aue.bs.ch/energie/gebaeude-energie.html' target = '_blank'>Gebäude und Energie (AUE BS)</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0610' target = '_blank'>Umweltbericht beider Basel</a>"]
+{
+ "title": "Spezifischer Heizenergieverbrauch von neuen Bauten",
+ "subtitle": "Liter Heizöläquivalente pro Quadratmeter",
+ "kuerzel": "I.08.1.04227",
+ "kuerzelKunde": "0610",
+ "description": "Spezifischer Heizenergieverbrauch von neuen Bauten",
+ "id": 4227,
+ "thema": "08 Energie",
+ "unterthema": "Verbrauch",
+ "kennzahlenset": "Umwelt",
+ "raeumlicheGliederung": [
+  "Kanton"
+ ],
+ "aktualisierungsdatum": "2017-07-11T00:00:00.000",
+ "schlagwort": [
+  "Energie"
+ ],
+ "stufe1": "Thema Energie",
+ "stufe2": "",
+ "stufe3": "",
+ "stufe4": "",
+ "stufe5": "",
+ "lesehilfe": "",
+ "erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0610' target='_blank'>Umweltbericht beider Basel</a>.",
+ "template": "dotplot",
+ "visible": true,
+ "visibleInPortal": true,
+ "orderKey": "06_00_00_00_00_000",
+ "parentId": null,
+ "children": [],
+ "renderLink": [],
+ "quellenangabe": [
+  "Amt für Umwelt und Energie Basel-Stadt"
+ ],
+ "externalLinks": [
+  "<a href = 'http://www.aue.bs.ch/energie/gebaeude-energie.html' target = '_blank'>Gebäude und Energie (AUE BS)</a>",
+  "Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0610' target = '_blank'>Umweltbericht beider Basel</a>"
+ ]
 }

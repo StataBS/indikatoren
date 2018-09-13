@@ -83,7 +83,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6285"
+    "renderTo": "container-6285",
+    "spacingBottom": 8
   },
   "title": {
     "style": {
@@ -155,7 +156,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt"
+    "text": "Quelle: Steuerstatistik Basel-Stadt."
   },
   "legend": {
     "enabled": false,
@@ -169,6 +170,9 @@
   },
   "plotOptions": {
     "series": {
+      "marker": {
+        "enabled": false
+      },
       "dataLabels": {
         "enabled": true,
         "allowOverlap": true,

@@ -20,7 +20,7 @@
       "text": null
     },
     "labels": {
-      "format": "{value:,.1f}",
+      "format": "{value:,.0f}%",
       "style": {
         "color": "#000000"
       }
@@ -38,7 +38,7 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },     
       "color": "#008AC3",
       "yAxis": 0,
@@ -49,9 +49,9 @@
         {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },     
-      "color": "#68AB2B",
+      "color": "#DC440E",
       "yAxis": 0,
 	 "tooltip": {
 		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
@@ -60,9 +60,9 @@
             {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },     
-      "color": "#662673",
+      "color": "#8A8A8A",
       "yAxis": 1,
 	 "tooltip": {
 		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>',

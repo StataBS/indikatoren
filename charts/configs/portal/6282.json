@@ -326,7 +326,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6282"
+    "renderTo": "container-6282",
+    "spacingBottom": 8
   },
   "title": {
     "style": {
@@ -399,7 +400,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: BAK Economics"
+    "text": "Quelle: BAK Economics."
   },
   "legend": {
     "enabled": true,
@@ -417,6 +418,11 @@
     "itemMarginBottom": 5
   },
   "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "line": {
       "connectNulls": true,
       "marker": {

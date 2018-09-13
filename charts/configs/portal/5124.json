@@ -3238,92 +3238,94 @@
       "data": [
         [
           18,
-          0.6085441
+          0.6147351
         ],
         [
           19,
-          0.632004
+          0.6593773
         ],
         [
           13,
-          0.6597515
+          0.6647432
         ],
         [
           17,
-          0.6766771
+          0.6812807
         ],
         [
           11,
-          0.7007318
-        ],
-        [
-          10,
-          0.7022998
-        ],
-        [
-          16,
-          0.7069896
-        ],
-        [
-          15,
-          0.7221371
-        ],
-        [
-          4,
-          0.7366764
-        ],
-        [
-          7,
-          0.7414838
-        ],
-        [
-          20,
-          0.7426001
-        ],
-        [
-          30,
-          0.7426001
+          0.7033538
         ],
         [
           12,
-          0.7428789
+          0.7043903
+        ],
+        [
+          10,
+          0.7057801
+        ],
+        [
+          15,
+          0.7095861
+        ],
+        [
+          16,
+          0.7270216
         ],
         [
           5,
-          0.7457145
+          0.728567
         ],
         [
-          6,
-          0.7515027
+          7,
+          0.7357069
+        ],
+        [
+          4,
+          0.7402545
+        ],
+        [
+          20,
+          0.7411724
+        ],
+        [
+          30,
+          0.7411724
         ],
         [
           9,
-          0.7561848
+          0.7497291
+        ],
+        [
+          6,
+          0.7611024
         ],
         [
           2,
-          0.7795234
+          0.7730197
         ],
         [
           8,
-          0.7890182
+          0.780543
         ],
         [
           14,
-          0.7898663
+          0.8001765
         ],
         [
           3,
-          0.7999316
+          0.8011046
         ],
         [
           1,
-          0.8330483
+          0.8563774
         ]
       ]
     },
     {
       "visible": false,
+      "showInLegend": false,
+      "colorAxis": false,
       "data": [
         [
           1,
@@ -3347,11 +3349,11 @@
         ],
         [
           6,
-          "Iselin"
+          "Altstadt Kleinbasel"
         ],
         [
           7,
-          "Rosental"
+          "Iselin"
         ],
         [
           8,
@@ -3359,35 +3361,35 @@
         ],
         [
           9,
-          "Breite"
+          "Rosental"
         ],
         [
           10,
-          "Bruderholz"
-        ],
-        [
-          11,
-          "Riehen"
-        ],
-        [
-          12,
-          "Bettingen"
-        ],
-        [
-          13,
-          "Altstadt Kleinbasel"
-        ],
-        [
-          14,
           "St. Alban"
         ],
         [
+          11,
+          "Bruderholz"
+        ],
+        [
+          12,
+          "Breite"
+        ],
+        [
+          13,
+          "Riehen"
+        ],
+        [
+          14,
+          "Bettingen"
+        ],
+        [
           15,
-          "Gundeldingen"
+          "Gotthelf"
         ],
         [
           16,
-          "Gotthelf"
+          "Gundeldingen"
         ],
         [
           17,
@@ -3632,8 +3634,8 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -3658,7 +3660,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: gepoolte Daten 2011-2015",
+    "text": "Stand: gepoolte Daten 2012-2016",
     "align": "left"
   },
   "credits": {
@@ -3672,9 +3674,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-6-14"
   },
   "colorAxis": {
     "gridLineColor": "#fbfbfb",
@@ -3730,6 +3732,16 @@
                         this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value*100),1) + '%</b><br/>' + 
                         'Rang <b>' + other_point.value + '</b>';
                 }
+            }
+  },
+  "customFunctions": {
+    "addLegendRectangle": function (chart, x, y, width, height, fill, cssClass){
+            	return chart.renderer.rect(x, y, width, height).attr({
+    	            'stroke-width':0,
+    	            fill: fill,
+    	            zIndex: 6,
+    	            class: cssClass
+            	}).add();
             }
   },
   "exporting": {
