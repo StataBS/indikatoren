@@ -30,8 +30,8 @@ script:
 - npm run deploy
 after_success:
 branches:
-  except:
-  - gh-pages
+  only:
+  - master
 env:
   global:
   - SSH_KEY="id_rsa"
