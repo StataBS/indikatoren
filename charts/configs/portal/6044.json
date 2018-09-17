@@ -56,7 +56,7 @@
           0.31
         ]
       ],
-      "name": "Gewählte"
+      "name": "Grossratswahlen"
     },
     {
       "color": "#923F8D",
@@ -181,7 +181,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -241,7 +241,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: Staatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-17"
   },
   "legend": {
     "symbolRadius": 0,

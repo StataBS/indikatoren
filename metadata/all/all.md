@@ -278,7 +278,6 @@ id | visible | visibleInPortal | indikatorenset
 4918 | true | true | 
 4919 | true | true | 
 4920 | false |  | Archiv
-4922 | true | true | 
 4923 | true | true | 
 4931 | true | true | Gesellschaftlicher-Zusammenhalt
 4932 | true | true | Gesellschaftlicher-Zusammenhalt
@@ -400,7 +399,7 @@ id | visible | visibleInPortal | indikatorenset
 6041 | true | true | Nachhaltigkeit
 6042 | true | false | Nachhaltigkeit
 6043 | true | false | Nachhaltigkeit
-6044 | true | false | Nachhaltigkeit
+6044 | true | true | Nachhaltigkeit
 6045 | true | false | Nachhaltigkeit
 6046 | true | true | Nachhaltigkeit
 6047 | true | true | Nachhaltigkeit

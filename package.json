@@ -4,7 +4,7 @@
   "description": "Indikatorenportal Statistisches Amt Basel-Stadt",
   "dependencies": {
     "@statabs/statabs-filter": "2.1.1",
-    "bootstrap": "3.3.7",
+    "bootstrap": "4.1.3",
     "bootstrap-multiselect": "0.9.13-1",
     "highcharts": "6.1.1",
     "jquery": "3.2.0",
