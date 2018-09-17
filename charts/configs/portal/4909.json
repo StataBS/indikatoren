@@ -3,18 +3,18 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "index": 0,
       "color": "#000000",
       "data": [
         [
           1982,
-          100
+          97.6
         ],
         [
           1983,
-          101.3
+          101.2
         ],
         [
           1984,
@@ -98,7 +98,7 @@
         ],
         [
           2004,
-          153.6
+          153.5
         ],
         [
           2005,
@@ -114,11 +114,11 @@
         ],
         [
           2008,
-          162.3
+          162.2
         ],
         [
           2009,
-          161.7
+          161.6
         ],
         [
           2010,
@@ -130,7 +130,7 @@
         ],
         [
           2012,
-          162.6
+          162.5
         ],
         [
           2013,
@@ -143,6 +143,14 @@
         [
           2015,
           160.2
+        ],
+        [
+          2016,
+          160
+        ],
+        [
+          2017,
+          161.1
         ]
       ],
       "name": "Jahresmittel"
@@ -170,7 +178,7 @@
     "zoomType": "xy",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacingBottom": 65,
     "style": {
       "fontFamily": "Arial"
     },
@@ -184,7 +192,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Basler Index der Konsumentenpreise seit 1982 (Dez. 1982 = 100)"
+    "text": "Jahresmittel Basler Index der Konsumentenpreise"
   },
   "subtitle": {
     "style": {
@@ -193,7 +201,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basis Dezember 1982 = 100",
     "align": "left"
   },
   "tooltip": {
@@ -242,16 +250,37 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-3"
   },
   "legend": {
     "enabled": false,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "dataLabels": {
+        "y": -10,
+        "enabled": false,
+        "formatter": function () {
+            var first = this.series.data[0];
+            var last  = this.series.data[this.series.data.length - 1];
+            if (this.x === first.x || this.x === last.x) {
+              return Highcharts.numberFormat(this.y, 0  , ",", " ");
+            }
+          }
+      }
+    }
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){
@@ -286,21 +315,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "y": -10,
-        "enabled": true,
-        "formatter": function () {
-            var first = this.series.data[0];
-            var last  = this.series.data[this.series.data.length - 1];
-            if (this.x === first.x || this.x === last.x) {
-              return Highcharts.numberFormat(this.y, 0  , ",", " ");
-            }
-          }
-      }
     }
   },
   "exporting": {

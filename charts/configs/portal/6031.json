@@ -10,18 +10,22 @@
       "data": [
         [
           "2010",
-          898113.313733465
+          910740.057886314
         ],
         [
           "2012",
-          831949.485219155
+          833179.516664555
         ],
         [
           "2014",
-          755094.785461333
+          764522.468207413
+        ],
+        [
+          "2016",
+          741614.435790437
         ]
       ],
-      "name": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen Total",
+      "name": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen in Tonnen",
       "turboThreshold": 0
     },
     {
@@ -37,18 +41,22 @@
       "data": [
         [
           "2010",
-          4.67898947481825
+          4.74477226869179
         ],
         [
           "2012",
-          4.31285373363999
+          4.3192302574627
         ],
         [
           "2014",
-          3.85083476363092
+          3.89891408977394
+        ],
+        [
+          "2016",
+          3.74692782045025
         ]
       ],
-      "name": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen pro Kopf (rechte Skala)",
+      "name": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen in Tonnen pro Kopf (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -133,7 +141,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Tonnen",
+    "text": "in Tonnen, Basel-Stadt",
     "align": "left"
   },
   "yAxis": [
@@ -182,7 +190,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
   "legend": {
     "symbolRadius": 0,

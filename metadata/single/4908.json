@@ -1,40 +1,29 @@
-{
- "title": "Bruttowertschöpfung nach Branchengruppe in Mio. Franken",
- "subtitle": "",
- "kuerzel": "I.04.1.04908",
- "kuerzelKunde": "",
- "description": "Bruttowertschöpfung nach Branchengruppe in Mio. Franken",
- "id": 4908,
- "thema": "04 Volkswirtschaft",
- "unterthema": "Basler Index der Konsumentenpreise",
- "kennzahlenset": "",
- "raeumlicheGliederung": [
-  "Kanton"
- ],
- "aktualisierungsdatum": "2016-09-21T00:00:00.000",
- "schlagwort": [
-  "Einkommen",
-  "BIP"
- ],
- "stufe1": "",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Die Branchengruppe Bau und Herstellung von Waren macht mit über 12,5 Mrd. Franken im Jahr 2013 wie in sämtlichen anderen Beobachtungsjahren den grössten Anteil an der Bruttowertschöpfung des Kantons Basel-Stadt aus.",
- "erlaeuterungen": "Bau u. Herst. v. Waren umfasst: Bergbau und Gewinnung von Steinen und Erden, Herstellung von Waren, Bau; Handel und Informationsdienstl. umfasst: Handel und Reparatur von Fahrzeugen, Transport, Informationsdienstleistungen und Telekommunikation, Beherbergung und Gastronomie; Wirtschaftl. Dienstl. u. Unterhaltung umfasst: Grundstücks- und Wohnungswesen, sonstige freiberufliche, wissenschaftliche und technische Tätigkeiten, wirtschaftliche Dienstleistungen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen; Finanzen und Versicherungen umfasst: Erbringung von Finanzdienstleistungen und Versicherungen; Versorgung und Bildung umfasst: Energieversorgung, Wasserversorgung, Sammlung, Behandlung und Beseitigung von Abfällen, Erziehung und Unterricht, Gesundheitswesen; Private Haushalte umfasst: Private Haushalte als Hersteller; Landwirtschaft umfasst: Landwirtschaft, Forstwirtschaft und Fischerei.",
- "template": "template001",
- "option": "options001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "_000",
- "parentId": null,
- "children": [],
- "renderLink": [],
- "quellenangabe": [
-  "Bundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Bruttowertschöpfung nach Branchengruppe",
+"subtitle":"in Mio. Franken, Basel-Stadt",
+"kuerzel":"I.04.1.4908",
+"kuerzelKunde":"",
+"description":"Bruttowertschöpfung nach Branchengruppe",
+"id":4908,
+"thema":"04 Volkswirtschaft",
+"unterthema":"Basler Index der Konsumentenpreise",
+"kennzahlenset":"",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2018-08-22T13:37:50.5050",
+"stufe1":"",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Die Branchengruppe Bau und Herstellung von Waren macht mit über 12,3 Mrd. Franken im Jahr 2015 wie in sämtlichen anderen Beobachtungsjahren den grössten Anteil an der Bruttowertschöpfung des Kantons Basel-Stadt aus. ",
+"erlaeuterungen":"2015 provisorisch. Die Bezeichnung der Branchengruppen sind in den meisten Fällen in der Legende verkürzt dargestellt. Im Detail umfassen sie &nbsp;folgenden Untergruppen: «Landwirtschaft etc.»: Landwirtschaft, Forstwirtschaft und Fischerei; «Bau, Herstellung von Waren»: Bergbau und Gewinnung von Steinen und Erden, Herstellung von Waren, Bau; «Versorgung und Bildung»: Energieversorgung, Wasserversorgung, Sammlung, Behandlung und Beseitigung von Abfällen, Erziehung und Unterricht, Gesundheitswesen; «Fahrzeuge, Transport, IT, Gastronomie»: Handel und Reparatur von Fahrzeugen, Transport, Informationsdienstleistungen und Telekommunikation, Beherbergung und Gastronomie; «Finanzen und Versicherungen»: Erbringung von Finanzdienstleistungen und Versicherungen; «Wirtsch. Dienstl. U. Unterhaltung»: Grundstücks- und Wohnungswesen, sonstige freiberufliche, wissenschaftliche und technische Tätigkeiten, wirtschaftliche Dienstleistungen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen.",
+"template":"template001",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"_000",
+"parentId":null,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Bundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung"],
+"externalLinks":[""]
 }

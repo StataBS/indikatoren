@@ -7,10 +7,6 @@
       "visible": false,
       "data": [
         [
-          2006,
-          199
-        ],
-        [
           2007,
           192
         ],
@@ -53,9 +49,13 @@
         [
           2017,
           68
+        ],
+        [
+          2018,
+          117
         ]
       ],
-      "name": "1-Zimmer"
+      "name": "1 Zimmer"
     },
     {
       "color": "#ffbb58",
@@ -63,10 +63,6 @@
       "legendIndex": 4,
       "visible": false,
       "data": [
-        [
-          2006,
-          365
-        ],
         [
           2007,
           330
@@ -110,9 +106,13 @@
         [
           2017,
           164
+        ],
+        [
+          2018,
+          251
         ]
       ],
-      "name": "2-Zimmer"
+      "name": "2 Zimmer"
     },
     {
       "color": "#007a2f",
@@ -120,10 +120,6 @@
       "legendIndex": 6,
       "visible": false,
       "data": [
-        [
-          2006,
-          546
-        ],
         [
           2007,
           572
@@ -167,9 +163,13 @@
         [
           2017,
           202
+        ],
+        [
+          2018,
+          267
         ]
       ],
-      "name": "3-Zimmer"
+      "name": "3 Zimmer"
     },
     {
       "color": "#923f8d",
@@ -177,10 +177,6 @@
       "legendIndex": 8,
       "visible": false,
       "data": [
-        [
-          2006,
-          275
-        ],
         [
           2007,
           272
@@ -224,9 +220,13 @@
         [
           2017,
           84
+        ],
+        [
+          2018,
+          99
         ]
       ],
-      "name": "4-Zimmer"
+      "name": "4 Zimmer"
     },
     {
       "color": "#2B0099",
@@ -234,10 +234,6 @@
       "legendIndex": 10,
       "visible": false,
       "data": [
-        [
-          2006,
-          86
-        ],
         [
           2007,
           102
@@ -281,9 +277,13 @@
         [
           2017,
           28
+        ],
+        [
+          2018,
+          48
         ]
       ],
-      "name": "5+-Zimmer"
+      "name": "5+ Zimmer"
     },
     {
       "color": "#8A8A8A",
@@ -291,10 +291,6 @@
       "legendIndex": 0,
       "visible": true,
       "data": [
-        [
-          2006,
-          1471
-        ],
         [
           2007,
           1468
@@ -338,6 +334,10 @@
         [
           2017,
           546
+        ],
+        [
+          2018,
+          782
         ]
       ],
       "name": "Anzahl leere Wohnungen"
@@ -352,10 +352,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2006,
-          1.405933402148
-        ],
         [
           2007,
           1.401539019686
@@ -399,9 +395,13 @@
         [
           2017,
           0.500366568914
+        ],
+        [
+          2018,
+          0.711174164916
         ]
       ],
-      "name": "LWQ alle Whg. (rechte Skala)"
+      "name": "LWQ alle Wohnungen (rechte Skala)"
     },
     {
       "color": "#B00000",
@@ -414,10 +414,6 @@
       },
       "visible": false,
       "data": [
-        [
-          2006,
-          1.706396844452
-        ],
         [
           2007,
           1.650618982118
@@ -461,9 +457,13 @@
         [
           2017,
           0.614383809179
+        ],
+        [
+          2018,
+          1.044176706827
         ]
       ],
-      "name": "LWQ 1-Zimmer"
+      "name": "LWQ 1 Zimmer"
     },
     {
       "color": "#ffbb58",
@@ -476,10 +476,6 @@
       },
       "visible": false,
       "data": [
-        [
-          2006,
-          1.46263273893
-        ],
         [
           2007,
           1.327380234101
@@ -523,9 +519,13 @@
         [
           2017,
           0.644932950568
+        ],
+        [
+          2018,
+          0.977376270394
         ]
       ],
-      "name": "LWQ 2-Zimmer"
+      "name": "LWQ 2 Zimmer"
     },
     {
       "color": "#007a2f",
@@ -538,10 +538,6 @@
       },
       "visible": false,
       "data": [
-        [
-          2006,
-          1.402193173938
-        ],
         [
           2007,
           1.467494484067
@@ -585,9 +581,13 @@
         [
           2017,
           0.496998326936
+        ],
+        [
+          2018,
+          0.65263621031
         ]
       ],
-      "name": "LWQ 3-Zimmer"
+      "name": "LWQ 3 Zimmer"
     },
     {
       "color": "#923f8d",
@@ -600,10 +600,6 @@
       },
       "visible": false,
       "data": [
-        [
-          2006,
-          1.574487575861
-        ],
         [
           2007,
           1.548974943052
@@ -647,9 +643,13 @@
         [
           2017,
           0.439353522673
+        ],
+        [
+          2018,
+          0.513485477178
         ]
       ],
-      "name": "LWQ 4-Zimmer"
+      "name": "LWQ 4 Zimmer"
     },
     {
       "color": "#2B0099",
@@ -662,10 +662,6 @@
       },
       "visible": false,
       "data": [
-        [
-          2006,
-          0.740996036532
-        ],
         [
           2007,
           0.870976005464
@@ -709,9 +705,13 @@
         [
           2017,
           0.217729393468
+        ],
+        [
+          2018,
+          0.3726129483
         ]
       ],
-      "name": "LWQ 5+-Zimmer"
+      "name": "LWQ 5+ Zimmer"
     }
   ],
   "chart": {
@@ -785,7 +785,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Zimmerzahl",
+    "text": "nach Zimmerzahl, Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -861,17 +861,21 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-22"
   },
   "legend": {
     "symbolRadius": 0,
     "enabled": true,
     "layout": "horizontal",
-    "itemDistance": 5,
+    "itemDistance": -10,
+    "padding": 0,
+    "symbolPadding": 3,
     "verticalAlign": "top",
     "align": "left",
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "whitespace": "nowrap"
     }
   },
   "tooltip": {

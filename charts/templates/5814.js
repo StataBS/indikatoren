@@ -102,7 +102,7 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 	                
 					//pie values in legend
-	                var minValueInLegend = 0.02; 
+	                var minValueInLegend = 0.5; 
 	                var maxValueInLegend = 3; 
 	                
                 	//Add manually drawn legend	
@@ -111,18 +111,18 @@
 	                .css({
                         fontWeight: 'bold' }).
                      add();*/
-	                
-	                fn.addLegendCircle(chart, 355, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),2,","," ")+ ' Prozentpunkte', 370, 245);
-	                fn.addLegendCircle(chart, 355, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,","," ")+ ' Prozentpunkte', 370, 270);
+	     
+					fn.addLegendCircle(chart, 365, 265, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),1,","," ") + ' Prozentpunkte', 380, 255, 'pieLegendHideOnZoom');
+	                fn.addLegendCircle(chart, 365, 290, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),1,","," ") + ' Prozentpunkte', 380, 280, 'pieLegendHideOnZoom');
 
-					fn.addLegendSquare(chart, 270, 250, 10, '#7F5F1A');
-					fn.addLegendLabel(chart, 'Zunahme', 280, 245);
-					fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
-					fn.addLegendLabel(chart, 'Abnahme', 280, 270);
-					fn.addLegendLabelbold(chart, 'Leerwohnungsquote', 265, 300);
-					
+					fn.addLegendSquare(chart, 270, 260, 10, '#7F5F1A');
+					fn.addLegendLabel(chart, 'Zunahme', 290, 255);
+					fn.addLegendSquare(chart, 270, 285, 10, '#FABD24');
+					fn.addLegendLabel(chart, 'Abnahme', 290, 280);
+					fn.addLegendTitle(chart, choroplethSeries.name, 265, 310)
+
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
 	            }

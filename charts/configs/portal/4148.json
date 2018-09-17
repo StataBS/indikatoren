@@ -136,14 +136,35 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)\u003Cbr\u002F\u003EZuletzt geändert: 2017-1-24"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 2017-1-24"
   },
   "legend": {
     "enabled": false,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "dataLabels": {
+        "enabled": true,
+        "formatter": function () {
+		    var first = this.series.data[0];
+			var last  = this.series.data[this.series.data.length - 1];
+		    if (this.point.y === first.y || this.point.y === last.y ) {
+			  return Highcharts.numberFormat(this.point.y, 0, ",", " ");
+			}
+			return "";
+          }
+      }
+    }
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){
@@ -178,21 +199,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "enabled": true,
-        "formatter": function () {
-		    var first = this.series.data[0];
-			var last  = this.series.data[this.series.data.length - 1];
-		    if (this.point.y === first.y || this.point.y === last.y ) {
-			  return Highcharts.numberFormat(this.point.y, 0, ",", " ");
-			}
-			return "";
-          }
-      }
     }
   },
   "exporting": {

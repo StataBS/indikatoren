@@ -1,81 +1,149 @@
 {
   "series": [
     {
-      "name": "2016",
+      "color": "#672773",
+      "index": 14,
+      "legendIndex": 0,
       "data": [
         [
-          "Güteklasse A",
+          "2016",
           128051
         ],
         [
-          "Güteklasse B",
+          "2017",
+          127410
+        ]
+      ],
+      "name": "Güteklasse A",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#E7CEE2",
+      "index": 13,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2016",
           61401
         ],
         [
-          "Güteklasse C",
+          "2017",
+          62854
+        ]
+      ],
+      "name": "Güteklasse B",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "index": 12,
+      "legendIndex": 2,
+      "data": [
+        [
+          "2016",
           7195
         ],
         [
-          "Güteklasse D",
+          "2017",
+          7118
+        ]
+      ],
+      "name": "Güteklasse C",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73BA7C",
+      "index": 11,
+      "legendIndex": 3,
+      "data": [
+        [
+          "2016",
           603
         ],
         [
-          "Güteklasse E",
-          168
+          "2017",
+          642
         ]
       ],
+      "name": "Güteklasse D",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58",
+      "index": 10,
+      "legendIndex": 4,
+      "data": [
+        [
+          "2016",
+          168
+        ],
+        [
+          "2017",
+          166
+        ]
+      ],
+      "name": "Güteklasse E",
       "turboThreshold": 0
     }
   ],
   "xAxis": {
     "type": "category",
-    "uniqueNames": false,
-    "labels": {
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
       "style": {
         "color": "#000000"
       }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+                  	 return this.value;
+            }
     }
   },
   "chart": {
     "events": {
       "load": function () {
-                  this.credits.element.onclick = function() {};
-              }
+              this.credits.element.onclick = function() {};
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+            }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "pie",
-    "renderTo": "container-5822"
-  },
-  "plotOptions": {
-    "pie": {
-      "borderWidth": 0,
-      "allowPointSelect": true,
-      "cursor": true,
-      "showInLegend": true,
-      "dataLabels": {
-        "enabled": true,
-        "distance": 10,
-        "format": "{point.percentage:.1f}%",
-        "style": {
-          "color": "black"
-        }
-      },
-      "colors": [
-        "#B00000",
-        "#FF8028",
-        "#E6E600",
-        "#68AB2B ",
-        "#008AC3"
-      ]
-    }
+    "zoomType": "xy",
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-5822",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -89,19 +157,56 @@
   "subtitle": {
     "style": {
       "fontSize": "12px",
-      "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand 2016",
-    "align": "left"
+    "align": "left",
+    "text": "Basel-Stadt"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    },
+    "column": {
+      "groupPadding": 0,
+      "pointWidth": 90
+    }
+  },
+  "yAxis": {
+    "tickInterval": 25,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value}%",
+      "style": {
+        "color": "#000000"
+      }
+    }
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -114,18 +219,24 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Mobilität Basel-Stadt\u003Cbr\u002F\u003EZuletzt geändert: 2017-6-26"
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-6"
   },
   "legend": {
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
-    "useHTML": true,
+    "useHTML": false,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null
     },
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        },
+    "enabled": true,
+    "reversed": true
   },
   "exporting": {
     "filename": 5822

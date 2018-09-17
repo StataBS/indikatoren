@@ -3,7 +3,7 @@
     {
       "color": "#B00000",
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -65,6 +65,10 @@
         [
           2016,
           172013
+        ],
+        [
+          2017,
+          172013
         ]
       ],
       "name": "Theater"
@@ -73,7 +77,7 @@
       "color": "#007A2F",
       "visible": true,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -135,6 +139,10 @@
         [
           2016,
           171861
+        ],
+        [
+          2017,
+          171861
         ]
       ],
       "name": "Kleintheater"
@@ -143,7 +151,7 @@
       "color": "#4f81bd",
       "visible": true,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -205,6 +213,10 @@
         [
           2016,
           629843
+        ],
+        [
+          2017,
+          646086
         ]
       ],
       "name": "Kinos"
@@ -213,7 +225,7 @@
       "color": "#662673",
       "visible": true,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -275,6 +287,10 @@
         [
           2016,
           1374857
+        ],
+        [
+          2017,
+          1487910
         ]
       ],
       "name": "Museen"
@@ -283,7 +299,7 @@
       "color": "#FABD24",
       "visible": true,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -345,6 +361,10 @@
         [
           2016,
           1270137
+        ],
+        [
+          2017,
+          null
         ]
       ],
       "name": "Stadtbibliothek"
@@ -395,7 +415,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -446,7 +466,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Jeweilige Institutionen;\u003Cbr\u002F\u003EProCinema\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Jeweilige Institutionen;\u003Cbr\u002F\u003EProCinema.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
   "legend": {
     "enabled": true,
@@ -454,9 +474,23 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
     }
   },
   "customFunctions": {
@@ -492,15 +526,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
     }
   },
   "exporting": {

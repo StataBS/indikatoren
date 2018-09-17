@@ -1,60 +1,11 @@
 {
   "series": [
     {
+      "color": "#FABD24 ",
       "marker": {
-        "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
-      "color": "#923F8D",
       "data": [
-        [
-          2000,
-          11842292
-        ],
-        [
-          2001,
-          14448047
-        ],
-        [
-          2002,
-          15858620
-        ],
-        [
-          2003,
-          17162598
-        ],
-        [
-          2004,
-          17643215
-        ],
-        [
-          2005,
-          19975214
-        ],
-        [
-          2006,
-          17445086
-        ],
-        [
-          2007,
-          16592640
-        ],
-        [
-          2008,
-          13963269
-        ],
-        [
-          2009,
-          9622960
-        ],
-        [
-          2010,
-          8557011
-        ],
-        [
-          2011,
-          6213835
-        ],
         [
           2012,
           6353156
@@ -69,81 +20,48 @@
         ],
         [
           2015,
-          4981081
+          4982710
+        ],
+        [
+          2016,
+          8513332
+        ],
+        [
+          2017,
+          8072208
         ]
       ],
       "name": "Einfuhren"
     },
     {
+      "color": "#923F8D",
       "marker": {
-        "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
-      "color": "#FABD24",
       "data": [
         [
-          2000,
-          21452588
-        ],
-        [
-          2001,
-          24625363
-        ],
-        [
-          2002,
-          27633513
-        ],
-        [
-          2003,
-          27851204
-        ],
-        [
-          2004,
-          30982827
-        ],
-        [
-          2005,
-          35533471
-        ],
-        [
-          2006,
-          42081568
-        ],
-        [
-          2007,
-          44857264
-        ],
-        [
-          2008,
-          46731808
-        ],
-        [
-          2009,
-          46692572
-        ],
-        [
-          2010,
-          46467023
-        ],
-        [
-          2011,
-          44826748
-        ],
-        [
           2012,
-          48152900
+          21503000
         ],
         [
           2013,
-          48741759
+          22041000
         ],
         [
           2014,
-          50275546
+          22038000
         ],
         [
           2015,
-          47545096
+          20865000
+        ],
+        [
+          2016,
+          22634644
+        ],
+        [
+          2017,
+          24004638
         ]
       ],
       "name": "Ausfuhren"
@@ -185,7 +103,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Wert der Ein- und Ausfuhren nach resp. aus Basel-Stadt in 1000 Franken"
+    "text": "Wert der Ein- und Ausfuhren nach resp. aus Basel-Stadt"
   },
   "subtitle": {
     "style": {
@@ -194,14 +112,14 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "in 1000 Franken",
     "align": "left"
   },
   "tooltip": {
-    "shared": false
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
-    "min": 0,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "title": {
@@ -215,7 +133,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.f}"
     }
   },
   "xAxis": {
@@ -228,7 +146,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -244,14 +162,32 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Zollverwaltung EZV\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Eidgenössische Zollverwaltung EZV.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-3"
   },
   "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
-    "symbolRadius": 0
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){
@@ -286,21 +222,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "enabled": true,
-        "allowOverlap": true,
-        "formatter": function () {
-            var last  = this.series.data[this.series.data.length - 1];
-            if (this.point.category === last.category  && this.point.y === last.y) {
-              return this.series.name;
-            }
-            return "";
-          }
-      }
     }
   },
   "exporting": {

@@ -2,21 +2,10 @@
   "series": [
     {
       "color": "#008AC3 ",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
-          2006,
-          38.2
-        ],
-        [
-          2007,
-          37.3
-        ],
-        [
           2008,
-          44.3
+          44.2
         ],
         [
           2009,
@@ -24,23 +13,23 @@
         ],
         [
           2010,
-          35.9
+          37.2
         ],
         [
           2011,
-          35
+          34.4
         ],
         [
           2012,
-          39.3
-        ],
-        [
-          2013,
           38.6
         ],
         [
+          2013,
+          38
+        ],
+        [
           2014,
-          37.8
+          36.8
         ],
         [
           2015,
@@ -49,24 +38,17 @@
         [
           2016,
           37.7
+        ],
+        [
+          2017,
+          33.5
         ]
       ],
       "name": "Männer"
     },
     {
       "color": "#B00000",
-      "marker": {
-        "enabled": true
-      },
       "data": [
-        [
-          2006,
-          25.8
-        ],
-        [
-          2007,
-          26
-        ],
         [
           2008,
           29.2
@@ -85,7 +67,7 @@
         ],
         [
           2012,
-          20.9
+          20.6
         ],
         [
           2013,
@@ -102,6 +84,10 @@
         [
           2016,
           26.6
+        ],
+        [
+          2017,
+          21.4
         ]
       ],
       "name": "Frauen"
@@ -143,7 +129,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Arbeitnehmende in Unternehmensleitung oder mit Vorgesetztenfunktion nach Geschlecht"
+    "text": "Arbeitnehmende in Leitungsfunktionen"
   },
   "subtitle": {
     "style": {
@@ -152,7 +138,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "nach Geschlecht, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -202,7 +188,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
   "legend": {
     "enabled": true,
@@ -210,10 +196,24 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemWidth": 100,
-    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
+    },
+    "itemWidth": 100,
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
     }
   },
   "customFunctions": {
@@ -249,15 +249,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
     }
   },
   "exporting": {

@@ -383,7 +383,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
   },
   "legend": {
     "enabled": true,
@@ -391,13 +391,23 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemDistance": 5,
-    "symbolPadding": 1,
-    "padding": 0,
     "itemStyle": {
       "fontWeight": "normal",
       "textOverflow": null,
       "whitspace": "nowrap"
+    },
+    "itemDistance": 5,
+    "symbolPadding": 1,
+    "padding": 0
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "pointPadding": 0,
+      "groupPadding": 0.1,
+      "borderWidth": 0
     }
   },
   "customFunctions": {
@@ -433,13 +443,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "pointPadding": 0,
-      "groupPadding": 0.1,
-      "borderWidth": 0
     }
   },
   "exporting": {

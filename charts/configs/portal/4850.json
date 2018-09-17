@@ -10,6 +10,10 @@
         [
           "2013 (N=1038)",
           8.5
+        ],
+        [
+          "2017 (N=1146)",
+          9.3
         ]
       ],
       "name": "Nur Mädchen",
@@ -25,6 +29,10 @@
         [
           "2013 (N=1038)",
           8.1
+        ],
+        [
+          "2017 (N=1146)",
+          9.1
         ]
       ],
       "name": "Nur Jungen",
@@ -40,6 +48,10 @@
         [
           "2013 (N=1038)",
           78.7
+        ],
+        [
+          "2017 (N=1146)",
+          73.5
         ]
       ],
       "name": "Mädchen und Jungen",
@@ -55,6 +67,10 @@
         [
           "2013 (N=1038)",
           0.8
+        ],
+        [
+          "2017 (N=1146)",
+          1.4
         ]
       ],
       "name": "Kein Freundeskreis",
@@ -70,6 +86,10 @@
         [
           "2013 (N=1038)",
           3.9
+        ],
+        [
+          "2017 (N=1146)",
+          6.7
         ]
       ],
       "name": "Keine Angabe",
@@ -198,7 +218,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F34\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F34.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-10"
   },
   "legend": {
     "reversed": true,

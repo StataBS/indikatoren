@@ -309,7 +309,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2017-10-27"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2017-10-27"
   },
   "legend": {
     "enabled": true,
@@ -317,10 +317,21 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "x": 40,
-    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
+    },
+    "x": 40,
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "stacking": "normal",
+      "pointPadding": 0,
+      "groupPadding": 0.5,
+      "borderWidth": 0
     }
   },
   "customFunctions": {
@@ -356,14 +367,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "stacking": "normal",
-      "pointPadding": 0,
-      "groupPadding": 0.5,
-      "borderWidth": 0
     }
   },
   "exporting": {

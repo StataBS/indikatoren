@@ -6,14 +6,6 @@
       "legendIndex": 0,
       "data": [
         [
-          "2006",
-          498
-        ],
-        [
-          "2007",
-          452
-        ],
-        [
           "2008",
           460
         ],
@@ -46,8 +38,16 @@
           527
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2016",
-          371
+          526
+        ],
+        [
+          "2017",
+          491
         ]
       ],
       "name": "Bis 3 Monate",
@@ -58,14 +58,6 @@
       "index": 1,
       "legendIndex": 1,
       "data": [
-        [
-          "2006",
-          1049
-        ],
-        [
-          "2007",
-          862
-        ],
         [
           "2008",
           818
@@ -99,8 +91,16 @@
           1001
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2016",
-          1118
+          1066
+        ],
+        [
+          "2017",
+          1051
         ]
       ],
       "name": "4 bis 12 Monate",
@@ -111,14 +111,6 @@
       "index": 2,
       "legendIndex": 2,
       "data": [
-        [
-          "2006",
-          1948
-        ],
-        [
-          "2007",
-          1527
-        ],
         [
           "2008",
           1273
@@ -152,8 +144,16 @@
           1477
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2016",
-          1710
+          1662
+        ],
+        [
+          "2017",
+          1661
         ]
       ],
       "name": "13 bis 36 Monate",
@@ -164,14 +164,6 @@
       "index": 3,
       "legendIndex": 3,
       "data": [
-        [
-          "2006",
-          2092
-        ],
-        [
-          "2007",
-          2199
-        ],
         [
           "2008",
           2158
@@ -205,8 +197,16 @@
           2509
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2016",
-          2840
+          2785
+        ],
+        [
+          "2017",
+          2828
         ]
       ],
       "name": "Über 36 Monate",
@@ -287,7 +287,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": ""
+    "text": "Stadt Basel (bis 2015) resp. Kanton Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -346,7 +346,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003EDepartement für Wirtschaft, Soziales und Umwelt\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003EDepartement für Wirtschaft, Soziales und Umwelt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
   "legend": {
     "layout": "horizontal",

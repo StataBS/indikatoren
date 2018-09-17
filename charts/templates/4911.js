@@ -1,7 +1,8 @@
 (function(){
     return {
   "plotOptions": {
-    "series": {      
+    "series": {  
+       pointPadding: 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -10,7 +11,8 @@
     },
   },
   "xAxis": {
-    "type": "Year"    
+    "type": "Year",
+    tickInterval: 2,
   },
   "yAxis": {
     "labels": {
@@ -19,10 +21,10 @@
   },
   "series": [
     {
-      "color": "#000000"       
+      "color": "rgb(111,111,111)"       
     },
     {
-      "color": "#DC440E"
+      "color": "rgb(176,0,0)"
     }
   ],
   "legend": {

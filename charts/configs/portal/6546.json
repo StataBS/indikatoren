@@ -764,7 +764,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-15"
   },
   "legend": {
     "enabled": true,
@@ -772,14 +772,25 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
     "itemWidth": 100,
     "labelFormatter": function (){
       //only return last word
       return this.name.split(" ").slice(-1);
     },
-    "itemMarginBottom": 5,
-    "itemStyle": {
-      "fontWeight": "normal"
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "area": {
+      "stacking": "normal",
+      "lineWidth": 0
     }
   },
   "customFunctions": {
@@ -815,12 +826,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "area": {
-      "stacking": "normal",
-      "lineWidth": 0
     }
   },
   "exporting": {

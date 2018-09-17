@@ -135,7 +135,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S22\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S22.\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
   },
   "legend": {
     "enabled": false,
@@ -143,9 +143,17 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "x": 35,
     "itemStyle": {
       "fontWeight": "normal"
+    },
+    "x": 35
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "pointWidth": 20
     }
   },
   "customFunctions": {
@@ -181,11 +189,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "pointWidth": 20
     }
   },
   "exporting": {

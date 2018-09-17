@@ -1,41 +1,29 @@
-{
- "title": "Anzahl Leerwohnungen und Leerwohnungsquote",
- "subtitle": "nach Zimmerzahl",
- "kuerzel": "I.09.2.04138",
- "kuerzelKunde": "1.2.F-1",
- "description": "Anzahl Leerwohnungen und Leerwohnungsquote",
- "id": 4138,
- "thema": "09 Bau-, Wohnungswesen",
- "unterthema": "Leerstand",
- "kennzahlenset": "Wohnraumentwicklung",
- "raeumlicheGliederung": [
-  "Kanton"
- ],
- "aktualisierungsdatum": "2018-02-28T00:00:00.000",
- "schlagwort": [
-  "Gebäude",
-  "Haushalt"
- ],
- "stufe1": "Ziel 1: Gesellschaftspolitik",
- "stufe2": "1.2 Wohnraum erhalten und erneuern",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Die Leerwohnungsquoten erreichten im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die Leerwohnungsquote stetig angestiegen und lag 2017 bei 0,5%.",
- "erlaeuterungen": "LWQ = Leerwohnungsquote",
- "template": "template001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "02_02_00_00_00_000",
- "parentId": null,
- "children": [
-  "5195"
- ],
- "renderLink": [],
- "quellenangabe": [
-  "Statistisches Amt Basel-Stadt, Leerstandserhebung"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Anzahl Leerwohnungen und Leerwohnungsquote",
+"subtitle":"nach Zimmerzahl, Basel-Stadt",
+"kuerzel":"I.09.2.4138",
+"kuerzelKunde":"1.2.F-1",
+"description":"Anzahl Leerwohnungen und Leerwohnungsquote",
+"id":4138,
+"thema":"09 Bau-, Wohnungswesen",
+"unterthema":"Leerstand",
+"kennzahlenset":"Wohnraumentwicklung",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2018-08-22T15:37:12.1212",
+"stufe1":"Ziel 1: Gesellschaftspolitik",
+"stufe2":"1.2 Wohnraum erhalten und erneuern",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Die Leerwohnungsquote erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die Leerwohnungsquote stetig angestiegen und liegt 2018 bei 0,7%.",
+"erlaeuterungen":"LWQ = Leerwohnungsquote.",
+"template":"template001",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"02_02_00_00_00_000",
+"parentId":null,
+"children":["5195"],
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Leerstandserhebung"],
+"externalLinks":[""]
 }

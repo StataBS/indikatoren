@@ -272,7 +272,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt"
+    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt."
   },
   "legend": {
     "enabled": true,
@@ -286,6 +286,13 @@
     },
     "itemWidth": 500,
     "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    }
   },
   "exporting": {
     "filename": 6339

@@ -1,42 +1,29 @@
-{
- "title": "Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung",
- "subtitle": "",
- "kuerzel": "I.13.2.05066",
- "kuerzelKunde": "11.1",
- "description": "Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung",
- "id": 5066,
- "thema": "13 Soziale Sicherheit",
- "unterthema": "Sozialleistungen",
- "kennzahlenset": "Legislaturplan",
- "raeumlicheGliederung": [
-  "Kanton"
- ],
- "aktualisierungsdatum": "2017-01-03T15:35:31.3131",
- "schlagwort": [
-  "Bevölkerung",
-  "Hilfeleistung"
- ],
- "stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Mit rund 50 000 Beziehenden erhalten 2016 etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
- "erlaeuterungen": "PV: Prämienverbilligungen",
- "template": "template001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "11_00_00_00_00_001",
- "parentId": null,
- "children": [
-  "6281"
- ],
- "renderLink": [],
- "quellenangabe": [
-  "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-  "Amt für Sozialbeiträge, Abteilung Prämienverbilligungen"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Bezüger von Prämienverbilligungen",
+"subtitle":"inkl. Bezügern von Sozialhilfe und Ergänzungsleistungen, Basel-Stadt",
+"kuerzel":"I.13.2.5066",
+"kuerzelKunde":"11.1",
+"description":"Bezüger von Prämienverbilligungen",
+"id":5066,
+"thema":"13 Soziale Sicherheit",
+"unterthema":"Sozialleistungen",
+"kennzahlenset":"Legislaturplan",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2018-09-05T11:14:55.5555",
+"stufe1":"Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Mit rund 50 000 Beziehenden erhalten 2017 etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
+"erlaeuterungen":"PV: Prämienverbilligungen.",
+"template":"template001",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"11_00_00_00_00_001",
+"parentId":null,
+"children":["6281"],
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Amt für Sozialbeiträge, Abteilung Prämienverbilligungen"],
+"externalLinks":[""]
 }

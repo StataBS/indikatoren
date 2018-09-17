@@ -44,9 +44,14 @@ function createChartConfig(data, chartOptions, template, chartMetaData, view, su
     var injectedOptions = injectMetadataToChartConfig(options, chartMetaData, view, suppressNumberInTitle);
     //replace . in labels with spaces - necessary for space between column groups
     var replacedOptions = createEmptyLabels(injectedOptions);
+    //add beforeSeries as last series
+    var beforeSeriesOptions = replacedOptions;     
+    if (beforeSeriesOptions.beforeSeries) {beforeSeriesOptions.series = replacedOptions.beforeSeries.concat(replacedOptions.series)} 
+    delete beforeSeriesOptions.beforeSeries;
+
     //add afterSeries as last series
-    var afterSeriesOptions = replacedOptions;     
-    if (afterSeriesOptions.afterSeries) {afterSeriesOptions.series = replacedOptions.series.concat(replacedOptions.afterSeries)} 
+    var afterSeriesOptions = beforeSeriesOptions;     
+    if (afterSeriesOptions.afterSeries) {afterSeriesOptions.series = beforeSeriesOptions.series.concat(beforeSeriesOptions.afterSeries)} 
     delete afterSeriesOptions.afterSeries;
 
     callbackFn(afterSeriesOptions);
@@ -103,7 +108,7 @@ function injectMetadataToChartConfig(options, data, view, suppressNumberInTitle)
   options['title']['text'] = (isIndikatorensetView(view)) ? chartNumberToDisplay + data.title : data.title;
   options['subtitle']['text'] = data.subtitle;    
   options['chart']['renderTo'] = 'container-' + data.id;
-  options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join(';<br/>');
+  options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join(';<br/>') + '.';
   //add 10 px space for each line of credits plus -5px for the first line (if not stated otherwise)
   var numberOfCreditsLines = data.quellenangabe.length;
   var aktDatum = Date.parse(data["aktualisierungsdatum"]);

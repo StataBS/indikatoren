@@ -2,9 +2,6 @@
   "series": [
     {
       "color": "#B00000",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2006,
@@ -49,16 +46,16 @@
         [
           2016,
           1872
+        ],
+        [
+          2017,
+          1808.4
         ]
       ],
       "name": "Direkte Steuern natürliche Personen"
     },
     {
       "color": "#4f81bd",
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2006,
@@ -103,6 +100,10 @@
         [
           2016,
           837.1
+        ],
+        [
+          2017,
+          816.9
         ]
       ],
       "name": "Direkte Steuern juristische Personen"
@@ -204,7 +205,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
   "legend": {
     "enabled": true,
@@ -212,9 +213,23 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
     }
   },
   "customFunctions": {
@@ -250,15 +265,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
     }
   },
   "exporting": {

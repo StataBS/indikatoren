@@ -3972,7 +3972,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2018-6-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-6-20"
   },
   "colorAxis": {
     "min": -1,
@@ -4010,6 +4010,7 @@
   },
   "mapNavigation": {
     "enabled": true,
+    "enableDoubleClickZoom": false,
     "buttonOptions": {
       "align": "left",
       "verticalAlign": "bottom"
@@ -4041,6 +4042,31 @@
 					}
 				}
     }
+  },
+  "exporting": {
+    "menuItemDefinitions": {
+      "downloadPNG": {
+        "onclick": function () {
+			            	this.options.customFunctions.exportCurrentSVG(this, 'image/png');
+			            }
+      },
+      "downloadJPEG": {
+        "onclick": function () {
+			            	this.options.customFunctions.exportCurrentSVG(this, 'image/jpeg');
+			            }
+      },
+      "downloadPDF": {
+        "onclick": function () {
+			            	this.options.customFunctions.exportCurrentSVG(this, "application/pdf");
+			            }
+      },
+      "downloadSVG": {
+        "onclick": function () {
+			            	this.options.customFunctions.exportCurrentSVG(this, 'image/svg+xml');
+			            }
+      }
+    },
+    "filename": 6022
   },
   "customFunctions": {
     "redrawEnabled": true,
@@ -4335,9 +4361,17 @@
 						$(divIdString + ' .columnLegendHtmlText').css('color', 'black');
 					}
 				});
+			},
+    "exportCurrentSVG": function (chart, type){
+				var origFn = Highcharts.Chart.prototype.getSVG;
+				Highcharts.Chart.prototype.getSVG = function() {
+					console.log("Using current SVG to export.");
+					var svg = chart.getChartHTML();
+					svg = chart.sanitizeSVG(svg);
+					return svg;
+				};		            	
+                chart.exportChart({type: type || 'image/png'});
+                Highcharts.Chart.prototype.getSVG = origFn;					
 			}
-  },
-  "exporting": {
-    "filename": 6022
   }
 }

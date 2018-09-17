@@ -3676,7 +3676,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2017-12-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2017-12-18"
   },
   "colorAxis": {
     "gridLineColor": "#fbfbfb",
@@ -3732,6 +3732,16 @@
                         this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value*100),1) + '%</b><br/>' + 
                         'Rang <b>' + other_point.value + '</b>';
                 }
+            }
+  },
+  "customFunctions": {
+    "addLegendRectangle": function (chart, x, y, width, height, fill, cssClass){
+            	return chart.renderer.rect(x, y, width, height).attr({
+    	            'stroke-width':0,
+    	            fill: fill,
+    	            zIndex: 6,
+    	            class: cssClass
+            	}).add();
             }
   },
   "exporting": {

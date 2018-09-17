@@ -319,7 +319,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003EGesundheitsdepartement Basel-Stadt"
+    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003EGesundheitsdepartement Basel-Stadt."
   },
   "legend": {
     "enabled": true,
@@ -334,16 +334,21 @@
     "margin": 2,
     "itemMarginBottom": 5
   },
-  "exporting": {
-    "enabled": false,
-    "filename": 6370
-  },
   "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "line": {
       "marker": {
         "enabled": false,
         "symbol": "circle"
       }
     }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6370
   }
 }

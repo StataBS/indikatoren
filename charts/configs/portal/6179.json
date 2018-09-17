@@ -107,6 +107,10 @@
         [
           2016,
           9
+        ],
+        [
+          2017,
+          10
         ]
       ],
       "name": "Anzahl Störfälle und Ereignisse"
@@ -158,7 +162,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -191,11 +195,12 @@
         "color": "#000000",
         "textOverflow": "none"
       },
-      "rotation": 0
+      "rotation": -45,
+      "step": 2
     },
     "tickLength": 0,
     "type": "linear",
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -211,7 +216,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
   "legend": {
     "enabled": false,
@@ -221,6 +226,16 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "itemWidth": 10
     }
   },
   "customFunctions": {
@@ -256,13 +271,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "pointPadding": 0,
-      "borderWidth": 0,
-      "itemWidth": 10
     }
   },
   "exporting": {

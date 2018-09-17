@@ -17,7 +17,7 @@
           1
         ]
       ],
-      "name": "Chemische Industrie",
+      "name": "Chemie\u002FPharma",
       "turboThreshold": 0
     },
     {
@@ -384,7 +384,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO).\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-17"
   },
   "legend": {
     "symbolRadius": 0,
