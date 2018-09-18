@@ -686,7 +686,7 @@
           13.7
         ]
       ],
-      "name": "Mittel- und Südamerika"
+      "name": "Mittel- u. Südamerika"
     },
     {
       "color": "#73ba7c",
@@ -968,8 +968,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -992,7 +992,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -1042,9 +1042,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
   "legend": {
     "enabled": true,
@@ -1052,10 +1052,23 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
-    "itemDistance": 5,
     "itemStyle": {
       "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5,
+    "itemDistance": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
     }
   },
   "customFunctions": {
@@ -1091,14 +1104,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
     }
   },
   "exporting": {

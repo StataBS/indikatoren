@@ -14,7 +14,7 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "index": 0,
       "color": "#000000"
@@ -24,7 +24,7 @@
     "series": {
       "dataLabels": {
         "y": -10,
-        "enabled": true,
+        "enabled": false,
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
           formatter: function() {
             var first = this.series.data[0];

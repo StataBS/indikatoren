@@ -1,3 +1,7 @@
+/*
+global Highcharts
+*/
+
 (function(){
     return {
    "yAxis": {

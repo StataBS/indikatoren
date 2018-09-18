@@ -32,6 +32,10 @@
         [
           "2015",
           18692
+        ],
+        [
+          "2016",
+          18878
         ]
       ],
       "name": "Pharmaindustrie",
@@ -69,6 +73,10 @@
         [
           "2015",
           8719
+        ],
+        [
+          "2016",
+          8608
         ]
       ],
       "name": "Übriges verarbeit. Gewerbe",
@@ -106,6 +114,10 @@
         [
           "2015",
           9526
+        ],
+        [
+          "2016",
+          9466
         ]
       ],
       "name": "Bau, Energie, Wasser",
@@ -143,6 +155,10 @@
         [
           "2015",
           27297
+        ],
+        [
+          "2016",
+          26353
         ]
       ],
       "name": "Handel und Verkehr",
@@ -180,6 +196,10 @@
         [
           "2015",
           11514
+        ],
+        [
+          "2016",
+          11181
         ]
       ],
       "name": "Finanzen, Versicherung",
@@ -217,6 +237,10 @@
         [
           "2015",
           36690
+        ],
+        [
+          "2016",
+          36959
         ]
       ],
       "name": "Unternehmens-DL, Freiberufe",
@@ -254,6 +278,10 @@
         [
           "2015",
           18923
+        ],
+        [
+          "2016",
+          19184
         ]
       ],
       "name": "Öff. Verwaltung und Bildung",
@@ -291,6 +319,10 @@
         [
           "2015",
           29558
+        ],
+        [
+          "2016",
+          30636
         ]
       ],
       "name": "Gesundheits- und Sozialwesen",
@@ -328,6 +360,10 @@
         [
           "2015",
           29834
+        ],
+        [
+          "2016",
+          29416
         ]
       ],
       "name": "Übrige Branchen",
@@ -348,7 +384,8 @@
       "style": {
         "color": "#000000"
       },
-      "step": 1
+      "step": 1,
+      "rotation": -45
     },
     "tickLength": 0,
     "tickInterval": 1
@@ -417,7 +454,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -458,7 +495,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
   "legend": {
     "symbolRadius": 0,

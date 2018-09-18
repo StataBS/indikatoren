@@ -3,21 +3,21 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "color": "#8b2223",
       "data": [
         [
           2011,
-          39.973265
+          39.973266
         ],
         [
           2012,
-          40.21803
+          40.218031
         ],
         [
           2013,
-          40.798944
+          40.798945
         ],
         [
           2014,
@@ -25,7 +25,11 @@
         ],
         [
           2015,
-          41.029328
+          40.972121
+        ],
+        [
+          2016,
+          42.167556
         ]
       ],
       "name": "Beschäftigte pro ha"
@@ -76,12 +80,12 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Beschäftigte pro Hektar",
+    "text": "Anzahl Beschäftigte pro Hektar, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -126,14 +130,37 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)\u003Cbr\u002F\u003EZuletzt geändert: 2017-6-26"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-7"
   },
   "legend": {
     "enabled": false,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "dataLabels": {
+        "enabled": false,
+        "allowOverlap": true,
+        "y": 30,
+        "formatter": function () {
+            var last = this.series.data[this.series.data.length - 1];
+            var first = this.series.data[0];
+            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
+              return Highcharts.numberFormat(this.point.y, 1, ",", " ");
+            }
+            return "";
+          }
+      }
+    }
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){
@@ -168,23 +195,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "enabled": true,
-        "allowOverlap": true,
-        "y": 30,
-        "formatter": function () {
-            var last = this.series.data[this.series.data.length - 1];
-            var first = this.series.data[0];
-            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 1, ",", " ");
-            }
-            return "";
-          }
-      }
     }
   },
   "exporting": {

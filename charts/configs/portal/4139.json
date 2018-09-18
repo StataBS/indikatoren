@@ -6,38 +6,6 @@
       "data": [
         [
           "bis 29 m²",
-          13
-        ],
-        [
-          "30-49 m²",
-          53
-        ],
-        [
-          "50-69 m²",
-          68
-        ],
-        [
-          "70-99 m²",
-          124
-        ],
-        [
-          "100-149 m²",
-          70
-        ],
-        [
-          "150+ m²",
-          33
-        ]
-      ],
-      "name": "2015",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#68ab2b",
-      "visible": false,
-      "data": [
-        [
-          "bis 29 m²",
           14
         ],
         [
@@ -65,7 +33,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#0a3b19",
+      "color": "#68ab2b",
+      "visible": false,
       "data": [
         [
           "bis 29 m²",
@@ -96,47 +65,38 @@
       "turboThreshold": 0
     },
     {
-      "color": "#ff8028",
-      "marker": {
-        "enabled": false
-      },
-      "yAxis": 1,
-      "type": "line",
-      "visible": false,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "color": "#0a3b19",
       "data": [
         [
           "bis 29 m²",
-          0.451388888888
+          40
         ],
         [
           "30-49 m²",
-          0.393993458221
+          131
         ],
         [
           "50-69 m²",
-          0.217502558853
+          216
         ],
         [
           "70-99 m²",
-          0.332172515403
+          270
         ],
         [
           "100-149 m²",
-          0.432312252964
+          95
         ],
         [
           "150+ m²",
-          0.536410923276
+          30
         ]
       ],
-      "name": "LWQ 2015",
+      "name": "2018",
       "turboThreshold": 0
     },
     {
-      "color": "#923f8d",
+      "color": "#ff8028",
       "marker": {
         "enabled": false
       },
@@ -176,12 +136,13 @@
       "turboThreshold": 0
     },
     {
-      "color": "#b00000",
+      "color": "#923f8d",
       "marker": {
         "enabled": false
       },
       "yAxis": 1,
       "type": "line",
+      "visible": false,
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
@@ -212,6 +173,45 @@
         ]
       ],
       "name": "LWQ 2017",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "marker": {
+        "enabled": false
+      },
+      "yAxis": 1,
+      "type": "line",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "bis 29 m²",
+          1.287415513357
+        ],
+        [
+          "30-49 m²",
+          0.945370570831
+        ],
+        [
+          "50-69 m²",
+          0.676500986564
+        ],
+        [
+          "70-99 m²",
+          0.708140998741
+        ],
+        [
+          "100-149 m²",
+          0.568045922028
+        ],
+        [
+          "150+ m²",
+          0.482780817509
+        ]
+      ],
+      "name": "LWQ 2018",
       "turboThreshold": 0
     }
   ],
@@ -296,7 +296,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnflächenkategorie, Stand 2015 bis 2017",
+    "text": "nach Grösse der Wohnung, Basel-Stadt",
     "align": "left"
   },
   "yAxis": [
@@ -357,7 +357,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Leerstandserhebung\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-1"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-22"
   },
   "legend": {
     "symbolRadius": 0,

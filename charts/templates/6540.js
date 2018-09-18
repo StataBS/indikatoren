@@ -45,30 +45,30 @@ global Highcharts
   "series": [
     {
       color: 'rgb(220, 68, 14)',
-      marker:{
-        enabled: false
-      }
     },
     {
       color: 'rgb(68, 141, 43)',
-      marker:{
-        enabled: false
-      }
     },
     {
       color: 'rgb(250, 189, 36)',
-      marker:{
-        enabled: false
-      }
     },
     {
       color: 'rgb(220, 68, 14)',
+      marker:{
+        enabled: true,
+      }
     },
     {
       color: 'rgb(68, 141, 43)',
+      marker:{
+        enabled: true,
+      }
     },
     {
       color: 'rgb(250, 189, 36)',
+      marker:{
+        enabled: true,
+      }
     }
   ],
   "legend": {

@@ -3,104 +3,108 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "color": "#8b2223",
       "data": [
         [
           1994,
-          13.8
+          13.80048
         ],
         [
           1995,
-          13.9
+          13.91751
         ],
         [
           1996,
-          13.7
+          13.68646
         ],
         [
           1997,
-          13.6
+          13.62674
         ],
         [
           1998,
-          13.6
+          13.60893
         ],
         [
           1999,
-          13.7
+          13.71587
         ],
         [
           2000,
-          13.8
+          13.79591
         ],
         [
           2001,
-          13.9
+          13.8645
         ],
         [
           2002,
-          13.9
+          13.86005
         ],
         [
           2003,
-          14
+          14.02129
         ],
         [
           2004,
-          14.2
+          14.16306
         ],
         [
           2005,
-          14.1
+          14.06938
         ],
         [
           2006,
-          13.9
+          13.93354
         ],
         [
           2007,
-          14
+          14.0182
         ],
         [
           2008,
-          14
+          13.97718
         ],
         [
           2009,
-          14
+          13.95817
         ],
         [
           2010,
-          14.3
+          14.29422
         ],
         [
           2011,
-          14.3
+          14.30248
         ],
         [
           2012,
-          14.5
+          14.54477
         ],
         [
           2013,
-          14.5
+          14.47147
         ],
         [
           2014,
-          14.6
+          14.58597
         ],
         [
           2015,
-          14.7
+          14.72809
         ],
         [
           2016,
-          14.7
+          14.7222
+        ],
+        [
+          2017,
+          14.83439
         ]
       ],
-      "name": "Kanton Basel-Stadt"
+      "name": "Mittlere Grundwassertemperatur"
     }
   ],
   "chart": {
@@ -148,7 +152,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in °C",
+    "text": "in °C, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -170,7 +174,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f} °C"
+      "format": "{value:,.0f}"
     }
   },
   "xAxis": {
@@ -198,14 +202,27 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
   "legend": {
     "enabled": false,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "dataLabels": {
+        "enabled": false
+      }
+    }
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){
@@ -240,23 +257,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "enabled": true,
-        "allowOverlap": true,
-        "y": 30,
-        "formatter": function () {
-            var last = this.series.data[this.series.data.length - 1];
-            var first = this.series.data[0];
-            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 1, ",", " ");
-            }
-            return "";
-          }
-      }
     }
   },
   "exporting": {

@@ -400,7 +400,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: BAK Economics"
+    "text": "Quelle: BAK Economics."
   },
   "legend": {
     "enabled": true,
@@ -418,6 +418,11 @@
     "itemMarginBottom": 5
   },
   "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "line": {
       "connectNulls": true,
       "marker": {

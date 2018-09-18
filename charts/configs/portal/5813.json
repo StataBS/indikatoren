@@ -3,14 +3,10 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "color": "#83522E",
       "data": [
-        [
-          1998,
-          1.519192074785
-        ],
         [
           1999,
           1.540636450188
@@ -82,6 +78,14 @@
         [
           2016,
           0.416770398237
+        ],
+        [
+          2017,
+          0.500366568914
+        ],
+        [
+          2018,
+          0.711174164916
         ]
       ],
       "name": "Leerwohnungsquote in %"
@@ -132,7 +136,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Prozent",
+    "text": "in Prozent, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -183,14 +187,37 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung\u003Cbr\u002F\u003EZuletzt geändert: 2017-6-26"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-22"
   },
   "legend": {
     "enabled": false,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "dataLabels": {
+        "enabled": false,
+        "allowOverlap": true,
+        "y": 30,
+        "formatter": function () {
+            var last = this.series.data[this.series.data.length - 1];
+            var first = this.series.data[0];
+            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
+              return Highcharts.numberFormat(this.point.y,2, ",", " ");
+            }
+            return "";
+          }
+      }
+    }
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){
@@ -225,23 +252,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "enabled": true,
-        "allowOverlap": true,
-        "y": 30,
-        "formatter": function () {
-            var last = this.series.data[this.series.data.length - 1];
-            var first = this.series.data[0];
-            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y,2, ",", " ");
-            }
-            return "";
-          }
-      }
     }
   },
   "exporting": {

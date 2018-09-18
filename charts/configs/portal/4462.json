@@ -6,7 +6,7 @@
       "data": [
         [
           "2010",
-          76740
+          76741
         ],
         [
           "2011",
@@ -18,14 +18,22 @@
         ],
         [
           "2013",
-          78587
+          78586
         ],
         [
           "2014",
-          76574
+          76573
+        ],
+        [
+          "2015",
+          78477
+        ],
+        [
+          "2016",
+          77740
         ]
       ],
-      "name": "Schweiz ohne Migrationshintergrund",
+      "name": "Schweizer ohne Migrationshintergrund",
       "turboThreshold": 0
     },
     {
@@ -42,7 +50,7 @@
         ],
         [
           "2012",
-          26407
+          26406
         ],
         [
           "2013",
@@ -51,9 +59,17 @@
         [
           "2014",
           28708
+        ],
+        [
+          "2015",
+          26029
+        ],
+        [
+          "2016",
+          27015
         ]
       ],
-      "name": "Schweiz mit Migrationshintergrund",
+      "name": "Schweizer mit Migrationshintergrund",
       "turboThreshold": 0
     },
     {
@@ -79,6 +95,14 @@
         [
           "2014",
           50542
+        ],
+        [
+          "2015",
+          51320
+        ],
+        [
+          "2016",
+          52619
         ]
       ],
       "name": "Ausländer mit Migrationshintergrund (1. Generation)",
@@ -107,6 +131,14 @@
         [
           "2014",
           4317
+        ],
+        [
+          "2015",
+          4581
+        ],
+        [
+          "2016",
+          4486
         ]
       ],
       "name": "Ausländer mit Migrationshintergrund (2. Generation)",
@@ -118,11 +150,11 @@
       "data": [
         [
           "2010",
-          0
+          null
         ],
         [
           "2011",
-          0
+          null
         ],
         [
           "2012",
@@ -135,6 +167,14 @@
         [
           "2014",
           223
+        ],
+        [
+          "2015",
+          141
+        ],
+        [
+          "2016",
+          108
         ]
       ],
       "name": "Ausländer ohne Migrationshintergrund (3. Generation)",
@@ -213,7 +253,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz \u002F Ausland) 2010 bis 2014"
+    "text": "Personen mit und ohne Migrationshintergrund"
   },
   "subtitle": {
     "style": {
@@ -222,7 +262,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -263,7 +303,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-14"
   },
   "legend": {
     "symbolRadius": 0,

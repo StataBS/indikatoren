@@ -7,6 +7,10 @@
       "pointWidth": "20",
       "data": [
         [
+          2005,
+          52422
+        ],
+        [
           2006,
           52177
         ],
@@ -49,19 +53,30 @@
         [
           2016,
           51229
+        ],
+        [
+          2017,
+          51887
         ]
       ],
-      "name": "Beziehende von Prämienverbilligung (inkl. SH\u002FEL)"
+      "name": "PV-Beziehende (inkl. SH\u002FEL)"
     },
     {
       "color": "#7d60a0",
       "index": 1,
       "type": "line",
       "yAxis": 1,
+      "marker": {
+        "enabled": false
+      },
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
+        [
+          2005,
+          27.8959131545338
+        ],
         [
           2006,
           27.7844636619238
@@ -84,7 +99,7 @@
         ],
         [
           2011,
-          27.250150981903
+          27.2178425825776
         ],
         [
           2012,
@@ -105,9 +120,13 @@
         [
           2016,
           25.8463416849137
+        ],
+        [
+          2017,
+          26.07544173518
         ]
       ],
-      "name": "Anteil PV-Beziehende an Wohnbev. (rechte Achse)"
+      "name": "Anteil PV-Beziehende an Wohnbev. In % (rechte Achse)"
     }
   ],
   "chart": {
@@ -163,7 +182,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung"
+    "text": "Bezüger von Prämienverbilligungen"
   },
   "subtitle": {
     "style": {
@@ -172,7 +191,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "inkl. Bezügern von Sozialhilfe und Ergänzungsleistungen, Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -241,7 +260,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EAmt für Sozialbeiträge, Abteilung Prämienverbilligungen\u003Cbr\u002F\u003EZuletzt geändert: 2017-1-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EAmt für Sozialbeiträge, Abteilung Prämienverbilligungen.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
   "legend": {
     "symbolRadius": 0,

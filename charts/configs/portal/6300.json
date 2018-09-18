@@ -143,7 +143,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)."
   },
   "legend": {
     "enabled": false,
@@ -157,6 +157,9 @@
   },
   "plotOptions": {
     "series": {
+      "marker": {
+        "enabled": false
+      },
       "dataLabels": {
         "enabled": true,
         "allowOverlap": true,

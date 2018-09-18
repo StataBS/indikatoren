@@ -3,15 +3,11 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "index": 4,
       "color": "#DC440E",
       "data": [
-        [
-          "2006",
-          604
-        ],
         [
           "2007",
           592
@@ -46,7 +42,7 @@
         ],
         [
           "2015",
-          1015
+          804
         ],
         [
           "2016",
@@ -55,23 +51,23 @@
         [
           "2017",
           919
+        ],
+        [
+          "2018",
+          928
         ]
       ],
-      "name": "1-Zimmer",
+      "name": "1 Zimmer",
       "turboThreshold": 0
     },
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "index": 3,
       "color": "#933F8D",
       "data": [
-        [
-          "2006",
-          994
-        ],
         [
           "2007",
           965
@@ -106,32 +102,32 @@
         ],
         [
           "2015",
-          1355
+          1299
         ],
         [
           "2016",
-          1440
+          1446
         ],
         [
           "2017",
           1294
+        ],
+        [
+          "2018",
+          1367
         ]
       ],
-      "name": "2-Zimmer",
+      "name": "2 Zimmer",
       "turboThreshold": 0
     },
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "index": 2,
       "color": "#68AB2B",
       "data": [
-        [
-          "2006",
-          1405
-        ],
         [
           "2007",
           1388
@@ -166,32 +162,32 @@
         ],
         [
           "2015",
-          1817
+          1833
         ],
         [
           "2016",
-          1705
+          1748
         ],
         [
           "2017",
           1617
+        ],
+        [
+          "2018",
+          1589
         ]
       ],
-      "name": "3-Zimmer",
+      "name": "3 Zimmer",
       "turboThreshold": 0
     },
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "index": 1,
       "color": "#689199",
       "data": [
-        [
-          "2006",
-          2033
-        ],
         [
           "2007",
           1891
@@ -226,32 +222,32 @@
         ],
         [
           "2015",
-          2284
+          2294
         ],
         [
           "2016",
-          2393
+          2418
         ],
         [
           "2017",
           2468
+        ],
+        [
+          "2018",
+          2175
         ]
       ],
-      "name": "4-Zimmer",
+      "name": "4 Zimmer",
       "turboThreshold": 0
     },
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "index": 0,
       "color": "#008AC3",
       "data": [
-        [
-          "2006",
-          2282
-        ],
         [
           "2007",
           2330
@@ -295,9 +291,13 @@
         [
           "2017",
           3112
+        ],
+        [
+          "2018",
+          2985
         ]
       ],
-      "name": "5-Zimmer",
+      "name": "5 Zimmer",
       "turboThreshold": 0
     }
   ],
@@ -336,7 +336,7 @@
     "zoomType": "xy",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
@@ -350,7 +350,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Mietpreisentwicklung der Leerwohnungen"
+    "text": "Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl"
   },
   "subtitle": {
     "style": {
@@ -359,7 +359,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Zimmerzahl",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -395,16 +395,37 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-1"
+    "text": "Quelle: .\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-22"
   },
   "legend": {
     "enabled": false,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "dataLabels": {
+        "enabled": true,
+        "allowOverlap": true,
+        "formatter": function () {
+              var last  = this.series.data[this.series.data.length - 1];
+              if (this.point.category === last.category  &&  this.point.y === last.y ) {
+                return this.series.name;
+              }
+              return "";
+            }
+      }
+    }
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){
@@ -439,21 +460,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "enabled": true,
-        "allowOverlap": true,
-        "formatter": function () {
-              var last  = this.series.data[this.series.data.length - 1];
-              if (this.point.category === last.category  &&  this.point.y === last.y ) {
-                return this.series.name;
-              }
-              return "";
-            }
-      }
     }
   },
   "exporting": {

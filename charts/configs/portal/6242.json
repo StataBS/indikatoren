@@ -211,7 +211,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2017-7-6"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2017-7-6"
   },
   "legend": {
     "enabled": false,
@@ -223,7 +223,13 @@
       "fontSize": "10px"
     }
   },
-  "plotOptions": {},
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    }
+  },
   "exporting": {
     "filename": 6242
   }

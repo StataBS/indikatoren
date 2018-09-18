@@ -1,8 +1,8 @@
 {
   "series": [
     {
-      "color": "#B00000",
-      "legendIndex": 2,
+      "color": "#474747",
+      "legendIndex": 0,
       "data": [
         [
           2010,
@@ -45,7 +45,7 @@
     },
     {
       "color": "#662673",
-      "legendIndex": 2,
+      "legendIndex": 1,
       "data": [
         [
           2010,
@@ -131,7 +131,7 @@
     },
     {
       "color": "#007A2F",
-      "legendIndex": 0,
+      "legendIndex": 3,
       "data": [
         [
           2010,
@@ -174,7 +174,7 @@
     },
     {
       "color": "#E6E600",
-      "legendIndex": 0,
+      "legendIndex": 4,
       "data": [
         [
           2010,
@@ -261,7 +261,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt im kantonalen Vergleich; in Franken.",
+    "text": "in Franken, Basel-Stadt im kantonalen Vergleich",
     "align": "left"
   },
   "tooltip": {
@@ -312,7 +312,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003EGesundheitsdepartement Basel-Stadt\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003EGesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
   "legend": {
     "enabled": true,
@@ -320,10 +320,23 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemWidth": 150,
-    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
+    },
+    "itemWidth": 150,
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
     }
   },
   "customFunctions": {
@@ -359,14 +372,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
     }
   },
   "exporting": {

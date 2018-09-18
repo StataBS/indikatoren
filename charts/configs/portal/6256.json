@@ -304,7 +304,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics\u003Cbr\u002F\u003EZuletzt geändert: 2017-8-17"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2017-8-17"
   },
   "legend": {
     "enabled": true,
@@ -321,6 +321,11 @@
     "itemMarginBottom": 5
   },
   "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
     "line": {
       "connectNulls": true,
       "marker": {

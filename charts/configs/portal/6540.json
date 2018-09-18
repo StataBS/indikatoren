@@ -2,9 +2,6 @@
   "series": [
     {
       "color": "rgb(220, 68, 14)",
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2008,
@@ -51,9 +48,6 @@
     },
     {
       "color": "rgb(68, 141, 43)",
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2008,
@@ -100,9 +94,6 @@
     },
     {
       "color": "rgb(250, 189, 36)",
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2008,
@@ -149,6 +140,9 @@
     },
     {
       "color": "rgb(220, 68, 14)",
+      "marker": {
+        "enabled": true
+      },
       "data": [
         [
           2008,
@@ -195,6 +189,9 @@
     },
     {
       "color": "rgb(68, 141, 43)",
+      "marker": {
+        "enabled": true
+      },
       "data": [
         [
           2008,
@@ -241,6 +238,9 @@
     },
     {
       "color": "rgb(250, 189, 36)",
+      "marker": {
+        "enabled": true
+      },
       "data": [
         [
           2008,
@@ -389,7 +389,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-15"
   },
   "legend": {
     "enabled": true,
@@ -397,15 +397,15 @@
     "verticalAlign": "top",
     "align": "right",
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "width": 40
+    },
     "useHTML": true,
     "y": -45,
     "itemMarginBottom": 5,
     "width": 210,
     "itemWidth": 70,
-    "itemStyle": {
-      "fontWeight": "normal",
-      "width": 40
-    },
     "title": {
       "text": "Effektiv:\u003Cbr\u002F\u003EAuf Basis Zimmerzahl 2008:",
       "style": {
@@ -416,6 +416,20 @@
         //remove text before year on each item with odd index
         //return (this.index % 3 != 0) ? this.name.slice(-5) : this.name;
         return this.name.slice(-5);
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "symbol": "circle",
+        "lineWidth": 2,
+        "lineColor": null
+      }
     }
   },
   "customFunctions": {
@@ -451,15 +465,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "line": {
-      "marker": {
-        "symbol": "circle",
-        "lineWidth": 2,
-        "lineColor": null
-      }
     }
   },
   "exporting": {

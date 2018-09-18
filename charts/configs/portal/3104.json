@@ -1,379 +1,411 @@
 {
   "series": [
     {
-      "color": "#B00000",
+      "color": "#6F6F6F",
       "legendIndex": 1,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
           2000,
-          107.5853
+          107.59
         ],
         [
           2002,
-          106.8432
+          106.84
         ],
         [
           2003,
-          104.8577
+          104.86
         ],
         [
           2004,
-          106.5483
+          106.55
         ],
         [
           2006,
-          106.6269
+          106.63
         ],
         [
           2008,
-          107.2311
+          107.23
         ],
         [
           2010,
-          107.8557
+          107.86
         ],
         [
           2012,
-          108.5761
+          108.58
         ],
         [
           2014,
-          107.9746
+          107.97
+        ],
+        [
+          2016,
+          108.61
         ]
       ],
-      "name": "BS global"
+      "name": "Basel global"
     },
     {
       "color": "#007A2F",
       "legendIndex": 3,
       "visible": true,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
           2000,
-          105.1817
+          105.18
         ],
         [
           2002,
-          103.9817
+          103.98
         ],
         [
           2003,
-          101.9157
+          101.92
         ],
         [
           2004,
-          103.7479
+          103.75
         ],
         [
           2006,
-          104.3733
+          104.37
         ],
         [
           2008,
-          105.5164
+          105.52
         ],
         [
           2010,
-          106.3234
+          106.32
         ],
         [
           2012,
-          106.9653
+          106.97
         ],
         [
           2014,
-          106.1885
+          106.19
+        ],
+        [
+          2016,
+          107.15
         ]
       ],
-      "name": "BE global"
-    },
-    {
-      "color": "#4f81bd",
-      "legendIndex": 5,
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
-      "data": [
-        [
-          2000,
-          106.9877
-        ],
-        [
-          2002,
-          106.5614
-        ],
-        [
-          2003,
-          105.4989
-        ],
-        [
-          2004,
-          107.8142
-        ],
-        [
-          2006,
-          107.7053
-        ],
-        [
-          2008,
-          107.2748
-        ],
-        [
-          2010,
-          107.9276
-        ],
-        [
-          2012,
-          108.3006
-        ],
-        [
-          2014,
-          108.4709
-        ]
-      ],
-      "name": "GE global"
+      "name": "Bern global"
     },
     {
       "color": "#2B0099",
+      "legendIndex": 5,
+      "visible": true,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2000,
+          106.99
+        ],
+        [
+          2002,
+          106.56
+        ],
+        [
+          2003,
+          105.5
+        ],
+        [
+          2004,
+          107.81
+        ],
+        [
+          2006,
+          107.71
+        ],
+        [
+          2008,
+          107.27
+        ],
+        [
+          2010,
+          107.93
+        ],
+        [
+          2012,
+          108.3
+        ],
+        [
+          2014,
+          108.47
+        ],
+        [
+          2016,
+          108.09
+        ]
+      ],
+      "name": "Genf global"
+    },
+    {
+      "color": "#B00000",
       "legendIndex": 7,
       "visible": true,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
           2000,
-          113.6136
+          113.61
         ],
         [
           2002,
-          112.5612
+          112.56
         ],
         [
           2003,
-          110.1057
+          110.11
         ],
         [
           2004,
-          112.066
+          112.07
         ],
         [
           2006,
-          111.3452
+          111.35
         ],
         [
           2008,
-          111.4037
+          111.4
         ],
         [
           2010,
-          112.5485
+          112.55
         ],
         [
           2012,
-          113.3995
+          113.4
         ],
         [
           2014,
-          112.5891
+          112.59
+        ],
+        [
+          2016,
+          113.53
         ]
       ],
-      "name": "ZH global"
+      "name": "Zürich global"
     },
     {
-      "color": "#E64900",
+      "color": "#C8C8C8",
       "visible": false,
       "legendIndex": 2,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
           2000,
-          126.6112
+          126.61
         ],
         [
           2002,
-          124.9015
+          124.9
         ],
         [
           2003,
-          117.8925
+          117.89
         ],
         [
           2004,
-          119.0159
+          119.02
         ],
         [
           2006,
-          117.1611
+          117.16
         ],
         [
           2008,
-          135.3056
+          134.17
         ],
         [
           2010,
-          135.9693
+          134.88
         ],
         [
           2012,
-          135.2396
+          134.24
         ],
         [
           2014,
-          134.6885
+          133.62
+        ],
+        [
+          2016,
+          133.74
         ]
       ],
-      "name": "BS kontinental"
+      "name": "Basel kontinental"
     },
     {
-      "color": "#68AB2B",
+      "color": "#73B97C",
       "legendIndex": 4,
       "visible": false,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
           2000,
-          108.4681
+          108.47
         ],
         [
           2002,
-          104.3611
+          104.36
         ],
         [
           2003,
-          100.2264
+          100.23
         ],
         [
           2004,
-          101.1864
+          101.19
         ],
         [
           2006,
-          104.8436
+          104.84
         ],
         [
           2008,
-          119.6274
+          118.03
         ],
         [
           2010,
-          121.6514
+          120.08
         ],
         [
           2012,
-          124.955
+          123.51
         ],
         [
           2014,
-          120.8834
+          119.4
+        ],
+        [
+          2016,
+          118.59
         ]
       ],
-      "name": "BE kontinental"
+      "name": "Bern kontinental"
     },
     {
       "color": "#008AC3",
       "legendIndex": 6,
       "visible": false,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
           2000,
-          124.9565
+          124.96
         ],
         [
           2002,
-          127.3041
+          127.3
         ],
         [
           2003,
-          123.2102
+          123.21
         ],
         [
           2004,
-          122.5876
+          122.59
         ],
         [
           2006,
-          122.2398
+          122.24
         ],
         [
           2008,
-          136.8721
+          135.82
         ],
         [
           2010,
-          135.9837
+          134.97
         ],
         [
           2012,
-          137.5492
+          136.53
         ],
         [
           2014,
-          137.8176
+          136.77
+        ],
+        [
+          2016,
+          135.55
         ]
       ],
-      "name": "GE kontinental"
+      "name": "Genf kontinental"
     },
     {
-      "color": "#B375AB",
+      "color": "#FF8028",
       "legendIndex": 8,
       "visible": false,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
           2000,
-          141.9549
+          141.95
         ],
         [
           2002,
-          137.1414
+          137.14
         ],
         [
           2003,
-          132.7222
+          132.72
         ],
         [
           2004,
-          132.0871
+          132.09
         ],
         [
           2006,
-          130.3061
+          130.31
         ],
         [
           2008,
-          148.028
+          147.06
         ],
         [
           2010,
-          148.6229
+          147.71
         ],
         [
           2012,
-          148.4009
+          147.55
         ],
         [
           2014,
-          147.5576
+          146.71
+        ],
+        [
+          2016,
+          146
         ]
       ],
-      "name": "ZH kontinental"
+      "name": "Zürich kontinental"
     }
   ],
   "chart": {
@@ -444,9 +476,7 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    },
-    "max": 150,
-    "tickInterval": 25
+    }
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -474,7 +504,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
   "legend": {
     "enabled": true,
@@ -482,10 +512,24 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemWidth": 200,
-    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
+    },
+    "itemWidth": 200,
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
     }
   },
   "customFunctions": {
@@ -521,15 +565,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
     }
   },
   "exporting": {

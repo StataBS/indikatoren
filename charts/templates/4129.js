@@ -15,7 +15,7 @@
       {
         "marker": {
           "symbol": "circle",
-          "enabled": true
+          "enabled": false
         },
         "index": 4,
         "color": "#DC440E"
@@ -23,7 +23,7 @@
       {
         "marker": {
           "symbol": "circle",
-          "enabled": true
+          "enabled": false
         },
         "index": 3,
         "color": "#933F8D"
@@ -31,7 +31,7 @@
       {
         "marker": {
           "symbol": "circle",
-          "enabled": true
+          "enabled": false
         },
         "index": 2,
         "color": "#68AB2B"
@@ -39,7 +39,7 @@
       {
         "marker": {
           "symbol": "circle",
-          "enabled": true
+          "enabled": false
         },
         "index": 1,
         "color": "#689199"
@@ -47,7 +47,7 @@
       {
         "marker": {
           "symbol": "circle",
-          "enabled": true
+          "enabled": false
         },
         "index": 0,
         "color": "#008AC3"

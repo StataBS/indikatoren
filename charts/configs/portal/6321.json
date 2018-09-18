@@ -159,7 +159,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Amt für Sozialbeiträge, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"
+    "text": "Quelle: Amt für Sozialbeiträge, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge."
   },
   "legend": {
     "enabled": false,
@@ -173,6 +173,9 @@
   },
   "plotOptions": {
     "series": {
+      "marker": {
+        "enabled": false
+      },
       "dataLabels": {
         "enabled": true,
         "allowOverlap": true,

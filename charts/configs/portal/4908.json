@@ -5,14 +5,6 @@
       "legendIndex": 0,
       "data": [
         [
-          "2008",
-          4
-        ],
-        [
-          "2009",
-          4
-        ],
-        [
           "2010",
           4
         ],
@@ -26,6 +18,14 @@
         ],
         [
           "2013",
+          4
+        ],
+        [
+          "2014",
+          5
+        ],
+        [
+          "2015",
           4
         ]
       ],
@@ -37,31 +37,31 @@
       "legendIndex": 1,
       "data": [
         [
-          "2008",
-          739
-        ],
-        [
-          "2009",
-          736
-        ],
-        [
           "2010",
-          754
+          12881
         ],
         [
           "2011",
-          768
+          12751
         ],
         [
           "2012",
-          764
+          13056
         ],
         [
           "2013",
-          763
+          13135
+        ],
+        [
+          "2014",
+          13284
+        ],
+        [
+          "2015",
+          13265
         ]
       ],
-      "name": "Private Haushalte",
+      "name": "Bau, Herstellung von Waren",
       "turboThreshold": 0
     },
     {
@@ -69,28 +69,28 @@
       "legendIndex": 2,
       "data": [
         [
-          "2008",
-          1749
-        ],
-        [
-          "2009",
-          1864
-        ],
-        [
           "2010",
-          1854
+          1932
         ],
         [
           "2011",
-          1864
+          1948
         ],
         [
           "2012",
-          2083
+          2151
         ],
         [
           "2013",
-          1913
+          1932
+        ],
+        [
+          "2014",
+          1945
+        ],
+        [
+          "2015",
+          2069
         ]
       ],
       "name": "Versorgung und Bildung",
@@ -101,31 +101,31 @@
       "legendIndex": 3,
       "data": [
         [
-          "2008",
-          1764
-        ],
-        [
-          "2009",
-          1850
-        ],
-        [
           "2010",
-          1875
+          4995
         ],
         [
           "2011",
-          1960
+          5050
         ],
         [
           "2012",
-          2028
+          5099
         ],
         [
           "2013",
-          2062
+          5084
+        ],
+        [
+          "2014",
+          5194
+        ],
+        [
+          "2015",
+          5071
         ]
       ],
-      "name": "Öffentliche Verwaltung",
+      "name": "Fahrzeuge, Transport, IT, Gastronomie",
       "turboThreshold": 0
     },
     {
@@ -133,28 +133,28 @@
       "legendIndex": 4,
       "data": [
         [
-          "2008",
-          3107
-        ],
-        [
-          "2009",
-          2986
-        ],
-        [
           "2010",
-          2847
+          2855
         ],
         [
           "2011",
-          3337
+          3352
         ],
         [
           "2012",
-          3169
+          3294
         ],
         [
           "2013",
-          2885
+          2910
+        ],
+        [
+          "2014",
+          2774
+        ],
+        [
+          "2015",
+          2802
         ]
       ],
       "name": "Finanzen und Versicherungen",
@@ -165,28 +165,28 @@
       "legendIndex": 5,
       "data": [
         [
-          "2008",
-          3984
-        ],
-        [
-          "2009",
-          4200
-        ],
-        [
           "2010",
-          4358
+          4922
         ],
         [
           "2011",
-          4539
+          5109
         ],
         [
           "2012",
-          4628
+          5276
         ],
         [
           "2013",
-          4904
+          5406
+        ],
+        [
+          "2014",
+          5662
+        ],
+        [
+          "2015",
+          5693
         ]
       ],
       "name": "Wirtsch. Dienstl. u. Unterhaltung",
@@ -197,31 +197,31 @@
       "legendIndex": 6,
       "data": [
         [
-          "2008",
-          4909
-        ],
-        [
-          "2009",
-          4783
-        ],
-        [
           "2010",
-          4974
+          1878
         ],
         [
           "2011",
-          5028
+          1960
         ],
         [
           "2012",
-          5023
+          2016
         ],
         [
           "2013",
-          4953
+          2060
+        ],
+        [
+          "2014",
+          2117
+        ],
+        [
+          "2015",
+          2133
         ]
       ],
-      "name": "Handel u. Informationsdienstl",
+      "name": "Öffentliche Verwaltung",
       "turboThreshold": 0
     },
     {
@@ -229,31 +229,31 @@
       "legendIndex": 7,
       "data": [
         [
-          "2008",
-          12702
-        ],
-        [
-          "2009",
-          12323
-        ],
-        [
           "2010",
-          12409
+          47
         ],
         [
           "2011",
-          12275
+          45
         ],
         [
           "2012",
-          12436
+          47
         ],
         [
           "2013",
-          12527
+          46
+        ],
+        [
+          "2014",
+          48
+        ],
+        [
+          "2015",
+          50
         ]
       ],
-      "name": "Bau u. Herst. v. Waren",
+      "name": "Private Haushalte",
       "turboThreshold": 0
     }
   ],
@@ -319,7 +319,7 @@
           "fontSize": "10px"
         }
       },
-      "pointWidth": 25,
+      "pointWidth": 15,
       "stacking": "normal"
     }
   },
@@ -330,7 +330,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bruttowertschöpfung nach Branchengruppe in Mio. Franken"
+    "text": "Bruttowertschöpfung nach Branchengruppe"
   },
   "subtitle": {
     "style": {
@@ -339,7 +339,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "in Mio. Franken, Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -358,7 +358,9 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 4000,
+    "max": 32000
   },
   "navigation": {
     "menuItemStyle": {
@@ -379,7 +381,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-22"
   },
   "legend": {
     "symbolRadius": 0,

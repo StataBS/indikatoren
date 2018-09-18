@@ -96,8 +96,18 @@
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "itemStyle": {
+        "fontWeight": "normal"
+    }    
   }, 
+  plotOptions: {
+    series: {
+      marker: {
+        enabled: false
+      }
+    }
+  },
   customFunctions: {
     //usage example: 
     //yAxis.events.afterSetExtremes: function(){ 

@@ -53,9 +53,9 @@
     }        
   ],
   "chart": {    
-    "marginBottom": 75,
-    "marginTop": 75,
+    "marginBottom": 85,
+    //"marginTop": 75,
     "type": "column"
   }
-	}
+	};
 }());

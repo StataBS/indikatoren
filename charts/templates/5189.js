@@ -10,9 +10,10 @@
    },
   "xAxis": {
     "type": "linear",
-    tickInterval: 2,
-    "labels": {
-      "rotation": 0 
+    tickInterval: 1,
+    labels: {
+      rotation: -45,
+      step: 2,
     } 
   },
   "yAxis": {

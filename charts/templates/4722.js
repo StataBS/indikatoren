@@ -85,6 +85,9 @@
     {
       "color": "#9F7C5A",
       "type": "line",
+      marker: {
+        enabled: false
+      },
       "yAxis": 1,
       "stacking": null, 
       "legendIndex": 0

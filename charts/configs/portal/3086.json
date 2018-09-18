@@ -145,7 +145,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BaselArea\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: BaselArea.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
   },
   "legend": {
     "enabled": false,
@@ -155,6 +155,16 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "pointWidth": 40
     }
   },
   "customFunctions": {
@@ -190,13 +200,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "pointPadding": 0,
-      "borderWidth": 0,
-      "pointWidth": 40
     }
   },
   "exporting": {

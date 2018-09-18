@@ -15,6 +15,10 @@
         [
           "2014",
           1332
+        ],
+        [
+          "2016",
+          1555
         ]
       ],
       "name": "Wohnen",
@@ -35,6 +39,10 @@
         [
           "2014",
           2309
+        ],
+        [
+          "2016",
+          2046
         ]
       ],
       "name": "Nichtwohnen",
@@ -55,6 +63,10 @@
         [
           "2014",
           808
+        ],
+        [
+          "2016",
+          853
         ]
       ],
       "name": "Verkehr",
@@ -75,6 +87,10 @@
         [
           "2014",
           181
+        ],
+        [
+          "2016",
+          215
         ]
       ],
       "name": "Verlust",
@@ -166,7 +182,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Mio. kWh",
+    "text": "in Mio. kWh, Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -206,7 +222,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-15"
   },
   "legend": {
     "symbolRadius": 0,
