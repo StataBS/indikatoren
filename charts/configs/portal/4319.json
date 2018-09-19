@@ -1,7 +1,7 @@
 {
   "chart": {
     "renderTo": "container_1705",
-    "type": "column",
+    "type": "line",
     "width": "485",
     "height": "415",
     "spacingBottom": 50,
@@ -70,9 +70,6 @@
 									'padding': 0
 								})
 								.add().on('click',function(){
-									 /*window.top.location.href = "?i=1705&format=ubdb&format_menu=1";*/
-									 /*window.open("?i=1705&format=ub", "Indikator-Details");*/
-									 /*window.open("http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren/TID/1705.html", "Indikator-Details");*/
 									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1705", "Indikator-Details";
 								});
 						
@@ -104,25 +101,62 @@
 										//window.open("http://www.statistik.bs.ch", '_blank'); // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
 									}
 								}
+								
+								//#added 20.04.2018, copied from JB
+								//for top-left legends with no x defined: move legend to x position of first yAxis
+								//if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+								this.legend.update({ x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding});
+				
 							}
     }
   },
   "title": {
     "text": "Verkehrsleistungsindex",
+    "useHTML": true,
     "align": "left",
     "style": {
-      "fontSize": "1.1em",
+      "fontSize": "1.1666em",
       "fontWeight": "bold",
       "color": "#000000"
     }
   },
   "subtitle": {
-    "text": "Indexwert (Basis 2010 = 100)",
+    "text": "Indexwert (Basis 2010 = 100), Basel-Stadt",
+    "useHTML": true,
     "align": "left",
     "style": {
-      "fontSize": "0.9em",
+      "fontSize": "1em",
       "color": "#000000"
     }
+  },
+  "legend": {
+    "enabled": true,
+    "floating": false,
+    "layout": "horizontal",
+    "align": "left",
+    "verticalAlign": "top",
+    "padding": 12,
+    "itemMarginBottom": 5,
+    "borderWidth": 0,
+    "shadow": false,
+    "backgroundColor": "none",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "fontSize": "1em"
+    }
+  },
+  "tooltip": {
+    "style": {
+      "fontSize": "1em"
+    },
+    "hideDelay": 200,
+    "padding": 8,
+    "headerFormat": "\u003Cspan class=\"user-tooltip\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class=\"user-tooltip-indent\"\u003E{point.key}:",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E (Indexwert) \u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
+    "footerFormat": "",
+    "useHTML": true,
+    "outside": false
   },
   "xAxis": {
     "categories": [
@@ -132,10 +166,11 @@
       2013,
       2014,
       2015,
-      2016
+      2016,
+      2017
     ],
     "floor": 0,
-    "ceiling": 6,
+    "ceiling": 7,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -143,7 +178,7 @@
     },
     "labels": {
       "style": {
-        "fontSize": "0.9em",
+        "fontSize": "0.91666em",
         "color": "#000000"
       }
     },
@@ -156,7 +191,7 @@
         "enabled": true,
         "text": "",
         "style": {
-          "fontSize": "0.9em",
+          "fontSize": "0.91666em",
           "color": "#000000"
         },
         "align": "middle"
@@ -165,7 +200,7 @@
         "enabled": true,
         "overflow": "justify",
         "style": {
-          "fontSize": "0.9em",
+          "fontSize": "0.91666em",
           "color": "#000000"
         },
         "formatter": function () {
@@ -182,7 +217,7 @@
         "enabled": true,
         "text": "",
         "style": {
-          "fontSize": "0.9em",
+          "fontSize": "0.91666em",
           "color": "#000000"
         },
         "align": "middle"
@@ -191,23 +226,13 @@
         "enabled": true,
         "overflow": "justify",
         "style": {
-          "fontSize": "0.9em",
+          "fontSize": "0.91666em",
           "color": "#000000"
         }
       },
       "index": 1
     }
   ],
-  "tooltip": {
-    "style": {
-      "fontSize": "1em"
-    },
-    "hideDelay": 200,
-    "headerFormat": "\u003Cspan style=\"width: 80px\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style=\"padding-left: 15px; line-height: 1.4em;\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E (Indexwert) \u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
-    "footerFormat": "",
-    "useHTML": true
-  },
   "plotOptions": {
     "bar": {
       "dataLabels": {
@@ -226,23 +251,25 @@
     },
     "column": {
       "pointPlacement": null
-    }
-  },
-  "legend": {
-    "enabled": true,
-    "floating": false,
-    "layout": "horizontal",
-    "align": "left",
-    "verticalAlign": "top",
-    "padding": 12,
-    "borderWidth": 0,
-    "backgroundColor": "none",
-    "shadow": false,
-    "itemMarginBottom": 5,
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal",
-      "fontSize": "1em"
+    },
+    "arearange": {
+      "lineWidth": 0,
+      "fillOpacity": 0.1,
+      "zIndex": -1,
+      "legend": {
+        "fillOpacity": 0.1
+      },
+      "tooltip": {
+        "crosshairs": true,
+        "shared": true
+      },
+      "marker": {
+        "states": {
+          "hover": {
+            "enabled": false
+          }
+        }
+      }
     }
   },
   "credits": {
@@ -250,7 +277,7 @@
     "text": "Quelle: Amt für Mobilität Basel-Stadt",
     "style": {
       "color": "#000000",
-      "fontSize": "0.8em",
+      "fontSize": "0.8333em",
       "cursor": "default",
       "width": "465px"
     },
@@ -291,38 +318,10 @@
   },
   "navigator": {
     "enabled": false,
-    "series": [
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#FF8028"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#DC440E"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#B00000"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#661200"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#D3E2E4"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "line",
-        "color": "#A8C3CA"
-      }
-    ],
+    "series": {
+      "type": "line",
+      "stacking": false
+    },
     "xAxis": {
       "gridLineWidth": 0,
       "labels": {
@@ -346,7 +345,8 @@
         98.5,
         98.2,
         97.1,
-        97.2
+        97.2,
+        95.2
       ],
       "visible": true,
       "_symbolIndex": 0
@@ -366,7 +366,8 @@
         100.7,
         101.1,
         100.9,
-        101
+        101.4,
+        100.2
       ],
       "visible": true,
       "_symbolIndex": 1
@@ -381,43 +382,24 @@
       "valueSuffix": "Indexwert (Basis 2010 = 100)",
       "data": [
         100,
-        103.1,
-        106.8,
-        null,
-        106.5,
-        null,
-        null
+        102.6,
+        104.3,
+        104.7,
+        106.2,
+        109.5,
+        108.7,
+        107.5
       ],
-      "visible": true,
+      "visible": false,
       "_symbolIndex": 2
     },
     {
       "includeInCSVExport": true,
       "type": "line",
       "showInNavigator": true,
-      "name": "ÖV BVB\u002FBLT",
+      "name": "Velo (wetterbereinigt)",
       "color": "#661200",
       "id": "BS1705_4",
-      "valueSuffix": "Indexwert (Basis 2010 = 100)",
-      "data": [
-        100,
-        102.6,
-        104.2,
-        105.3,
-        105.5,
-        109,
-        108.4
-      ],
-      "visible": true,
-      "_symbolIndex": 3
-    },
-    {
-      "includeInCSVExport": true,
-      "type": "line",
-      "showInNavigator": true,
-      "name": "Velo (wetterbereinigt)",
-      "color": "#D3E2E4",
-      "id": "BS1705_5",
       "valueSuffix": "Indexwert (Basis 2010 = 100)",
       "data": [
         100,
@@ -426,18 +408,19 @@
         103.9,
         114.7,
         118.4,
-        122.9
+        122.9,
+        125.6
       ],
-      "visible": true,
-      "_symbolIndex": 4
+      "visible": false,
+      "_symbolIndex": 3
     },
     {
       "includeInCSVExport": true,
       "type": "line",
       "showInNavigator": true,
       "name": "Fussgänger",
-      "color": "#A8C3CA",
-      "id": "BS1705_6",
+      "color": "#D3E2E4",
+      "id": "BS1705_5",
       "valueSuffix": "Indexwert (Basis 2010 = 100)",
       "data": [
         null,
@@ -446,10 +429,11 @@
         100,
         107,
         103,
-        102.5
+        102.5,
+        103.7
       ],
-      "visible": true,
-      "_symbolIndex": 0
+      "visible": false,
+      "_symbolIndex": 4
     }
   ]
 }
