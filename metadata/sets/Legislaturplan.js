@@ -995,7 +995,7 @@ var indikatorensetData = [
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
 		"subtitle": "«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Bitte geben Sie mir an, ob das eine sehr grosse, eher grosse, eher nicht so grosse oder gar keine Bereicherung für den Kanton Basel-Stadt ist.»",
-		"kuerzel": "I.50.1.06146",
+		"kuerzel": "I.50.1.6146",
 		"kuerzelKunde": "4.5",
 		"description": "Beurteilung von gesellschaftlicher Vielfalt",
 		"thema": "50 Befragungen",
@@ -1004,15 +1004,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-17T16:37:28.2828",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter Basel-Stadts als eine sehr oder eher grosse Bereicherung für den Kanton.",
+		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter des Kantons Basel-Stadt als eine sehr oder eher grosse Bereicherung für den Kanton.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "04_00_00_00_00_005",
 		"parentId": null,
 		"children": [
@@ -1027,8 +1029,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6146,
-		"darstellungsart": "Grafik"
+		"id": 6146
 	},
 	{
 		"title": "Verhältnis der Löhne von Frauen und Männern",
@@ -2008,8 +2009,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
-		"subtitle": "",
-		"kuerzel": "I.13.2.06181",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.13.2.6181",
 		"kuerzelKunde": "11.2",
 		"description": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
 		"thema": "13 Soziale Sicherheit",
@@ -2018,7 +2019,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-16T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-18T16:01:08.088",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2027,6 +2028,8 @@ var indikatorensetData = [
 		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2017 Familienmietzinsbeiträge. In 14,7% der Haushalte bezieht mindestens eine Person reine Prämienverbilligung.",
 		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge<br>Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "11_00_00_00_00_002",
 		"parentId": null,
 		"children": [
@@ -2041,8 +2044,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6181,
-		"darstellungsart": "Grafik"
+		"id": 6181
 	},
 	{
 		"title": "Sozialhilfequote nach Altersgruppe",
@@ -2378,7 +2380,7 @@ var indikatorensetData = [
 	{
 		"title": "Anzahl Lernende an Basler Berufsfachschulen",
 		"subtitle": "nach Herkunft",
-		"kuerzel": "I.15.3.06209",
+		"kuerzel": "I.15.3.6209",
 		"kuerzelKunde": "3.2",
 		"description": "Anzahl Lernende an Basler Berufsfachschulen",
 		"thema": "15 Bildung",
@@ -2387,7 +2389,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-19T09:27:39.3939",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2396,6 +2398,8 @@ var indikatorensetData = [
 		"lesehilfe": "Die Gesamtzahl der Lernenden ist seit 2011 mit Ausnahme von 2014 rückläufig. Bei Lernenden ohne Schweizer Pass ist in diesem Zeitraum eine leichte Zunahme zu beobachten.",
 		"erlaeuterungen": "Dargestellt werden die Lernenden der Ausbildungsgänge EFZ (Eidgenössisches Fähigkeitszeugnis) und EBA (Eidgenössisches Berufsattest) der vier grossen Basler Berufsfachschulen Allgemeine Gewerbeschule (AGS), Berufsfachschule (BFS), Schule für Gestaltung (SfG) sowie Handelsschule KV (HKV).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "03_00_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -2408,8 +2412,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6209,
-		"darstellungsart": "Grafik"
+		"id": 6209
 	},
 	{
 		"title": "Anzahl Plätze in Tagesbetreuungsangeboten",
