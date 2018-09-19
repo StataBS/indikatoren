@@ -4,8 +4,7 @@
         series: {
             pointPadding: 0,
             borderWidth: 0,
-			itemWidth: 10, 
-
+			      itemWidth: 10, 
         }
    },
   "xAxis": {
@@ -19,7 +18,8 @@
     "labels": {
       "format": "{value:,.0f}",
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "fontSize": "10px",
       }
     },
     "title": ""
@@ -35,7 +35,8 @@
     "labels": {
       "format": "{value:,.0f}",
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "fontSize": "10px",
       }
     },
 	"min": 0,

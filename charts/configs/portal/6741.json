@@ -551,10 +551,10 @@
       "style": {
         "color": "#000000",
         "fontSize": "10px"
-      },
-      "type": "category"
+      }
     },
-    "max": 100
+    "max": 100,
+    "reversedStacks": false
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
@@ -594,7 +594,7 @@
     },
     "enabled": true,
     "y": -13,
-    "reversed": false,
+    "reversed": true,
     "itemMarginBottom": 3
   },
   "exporting": {

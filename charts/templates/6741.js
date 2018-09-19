@@ -26,9 +26,7 @@
   yAxis:{
   	tickInterval: 25,
   	max: 100,
-  	labels:{
-  	   "type": "category",
-  	}
+  	reversedStacks: false,
   },
   plotOptions: {
   	column: {
@@ -49,7 +47,7 @@
     "verticalAlign": "middle",
     "align": "right",
     y: -13,
-    reversed: false,
+    reversed: true,
     itemMarginBottom: 3,
      "labelFormatter": function () {
         return this.name.replace("/ ", "/<br/>");
