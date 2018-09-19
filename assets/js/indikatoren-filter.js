@@ -311,11 +311,11 @@ function setMultiselectValue(selector, value){
 
 //change DOM and render controls to accomodate indikatorenset view
 function prepareIndikatorensetView(indikatorenset){
-  $("#sidebar-element").hide();
+  $("#sidebar-element").remove();
   //Change bootstrap col size in order to fill width 
   $("#main-element").removeClass();
   $("#main-element").addClass('col-xs-12');
-  $("#main-control-element-portal").hide();
+  $("#main-control-element-portal").remove();
     
   renderDropdownFromJson(indikatoren, 'kennzahlenset', '#kennzahlenset_filter', 'kennzahlenset');
   //select requested Indikatorenset in dropdown

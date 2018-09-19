@@ -1,40 +1,30 @@
-{
- "title": "Anzahl Lernende an Basler Berufsfachschulen",
- "subtitle": "nach Herkunft",
- "kuerzel": "I.15.3.06209",
- "kuerzelKunde": "3.2",
- "description": "Anzahl Lernende an Basler Berufsfachschulen",
- "id": 6209,
- "thema": "15 Bildung",
- "unterthema": "Berufsfachschulen",
- "kennzahlenset": "Legislaturplan",
- "raeumlicheGliederung": [
-  "Kanton"
- ],
- "aktualisierungsdatum": "2017-11-29T00:00:00.000",
- "schlagwort": [
-  "Bildung"
- ],
- "stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Die Gesamtzahl der Lernenden ist seit 2011 mit Ausnahme von 2014 rückläufig. Bei Lernenden ohne Schweizer Pass ist in diesem Zeitraum eine leichte Zunahme zu beobachten.",
- "erlaeuterungen": "Dargestellt werden die Lernenden der Ausbildungsgänge EFZ (Eidgenössisches Fähigkeitszeugnis) und EBA (Eidgenössisches Berufsattest) der vier grossen Basler Berufsfachschulen Allgemeine Gewerbeschule (AGS), Berufsfachschule (BFS), Schule für Gestaltung (SfG) sowie Handelsschule KV (HKV).",
- "template": "line001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "03_00_00_00_00_003",
- "parentId": null,
- "children": [
-  "6337"
- ],
- "renderLink": [],
- "quellenangabe": [
-  "Statistisches Amt Basel-Stadt, Bildungsstatistik"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Anzahl Lernende an Basler Berufsfachschulen",
+"subtitle":"nach Herkunft",
+"kuerzel":"I.15.3.6209",
+"kuerzelKunde":"3.2",
+"description":"Anzahl Lernende an Basler Berufsfachschulen",
+"id":6209,
+"thema":"15 Bildung",
+"unterthema":"Berufsfachschulen",
+"kennzahlenset":"Legislaturplan",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2018-09-19T09:27:39.3939",
+"stufe1":"Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Die Gesamtzahl der Lernenden ist seit 2011 mit Ausnahme von 2014 rückläufig. Bei Lernenden ohne Schweizer Pass ist in diesem Zeitraum eine leichte Zunahme zu beobachten.",
+"erlaeuterungen":"Dargestellt werden die Lernenden der Ausbildungsgänge EFZ (Eidgenössisches Fähigkeitszeugnis) und EBA (Eidgenössisches Berufsattest) der vier grossen Basler Berufsfachschulen Allgemeine Gewerbeschule (AGS), Berufsfachschule (BFS), Schule für Gestaltung (SfG) sowie Handelsschule KV (HKV).",
+"template":"line001",
+"darstellungsart":"Grafik",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"03_00_00_00_00_003",
+"parentId":null,
+"children":["6337"],
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Bildungsstatistik"],
+"externalLinks":[""]
 }

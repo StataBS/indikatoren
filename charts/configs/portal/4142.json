@@ -27,9 +27,13 @@
         [
           2016,
           15418
+        ],
+        [
+          2017,
+          15267
         ]
       ],
-      "name": "verheiratete \u002F registrierte Paare ohne Kinder"
+      "name": "Verheiratete\u002Fregistrierte Paare ohne Kinder"
     },
     {
       "color": "#689199",
@@ -58,6 +62,10 @@
         [
           2016,
           13701
+        ],
+        [
+          2017,
+          13875
         ]
       ],
       "name": "Paare mit minderjährigen Kindern"
@@ -89,9 +97,13 @@
         [
           2016,
           4019
+        ],
+        [
+          2017,
+          3960
         ]
       ],
-      "name": "Einelternfamilien mit minderjährigen Kindern"
+      "name": "Einelternhaushalte mit minderjährigen Kindern"
     },
     {
       "color": "#008ac3",
@@ -120,6 +132,10 @@
         [
           2016,
           7048
+        ],
+        [
+          2017,
+          7150
         ]
       ],
       "name": "Eltern(-teil) mit nur volljährigen Kindern"
@@ -188,7 +204,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Art der Zusammensetzung",
+    "text": "nach Art der Zusammensetzung, Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -244,7 +260,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2017-3-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-12"
   },
   "legend": {
     "symbolRadius": 0,

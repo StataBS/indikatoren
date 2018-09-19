@@ -13,31 +13,31 @@
       "data": [
         [
           2005,
-          187920
+          187463
         ],
         [
           2006,
-          187792
+          187368
         ],
         [
           2007,
-          188000
+          187684
         ],
         [
           2008,
-          189556
+          189274
         ],
         [
           2009,
-          190815
+          190045
         ],
         [
           2010,
-          190799
+          190333
         ],
         [
           2011,
-          192304
+          192076
         ],
         [
           2012,
@@ -85,51 +85,51 @@
         ],
         [
           2006,
-          99.931885908897
+          99.949323
         ],
         [
           2007,
-          100.042571306939
+          100.11789
         ],
         [
           2008,
-          100.870583226905
+          100.96606
         ],
         [
           2009,
-          101.540549169859
+          101.37734
         ],
         [
           2010,
-          101.532034908471
+          101.53097
         ],
         [
           2011,
-          102.332907620263
+          102.46075
         ],
         [
           2012,
-          102.947530864197
+          103.1985
         ],
         [
           2013,
-          104.011813537675
+          104.26538
         ],
         [
           2014,
-          104.550340570455
+          104.80521
         ],
         [
           2015,
-          104.940400170285
+          105.19623
         ],
         [
           2016,
-          105.473605789697
+          105.73073
         ],
         [
           2017,
-          105.889740315027
+          106.14788
         ]
       ],
       "name": "Bevölkerung indexiert (rechte Skala)"
@@ -191,7 +191,7 @@
         ],
         [
           2016,
-          null
+          190681
         ],
         [
           2017,
@@ -227,7 +227,7 @@
         ],
         [
           2008,
-          103.839457
+          103.83946
         ],
         [
           2009,
@@ -239,27 +239,27 @@
         ],
         [
           2011,
-          107.022702
+          107.0227
         ],
         [
           2012,
-          108.854509
+          108.85451
         ],
         [
           2013,
-          109.904916
+          109.90492
         ],
         [
           2014,
-          111.546904
+          111.5469
         ],
         [
           2015,
-          111.068864
+          111.06886
         ],
         [
           2016,
-          null
+          111.02694
         ],
         [
           2017,
@@ -306,7 +306,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Index der Bevölkerungs- und Beschäftigtenentwicklung"
+    "text": "Bevölkerungs- und Beschäftigtenentwicklung"
   },
   "subtitle": {
     "style": {
@@ -315,7 +315,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Werte 2005 = 100",
+    "text": "Basel-Stadt, Indexwert (Basis 2005 = 100)",
     "align": "left"
   },
   "tooltip": {
@@ -325,7 +325,8 @@
     {
       "min": 0,
       "max": 200000,
-      "tickInterval": 50000,
+      "tickAmount": 6,
+      "alignTicks": true,
       "title": {
         "text": null,
         "color": "#000000",
@@ -339,9 +340,9 @@
       }
     },
     {
-      "min": 90,
-      "max": 120,
-      "tickInterval": 7.5,
+      "tickInterval": 5,
+      "tickAmount": 6,
+      "alignTicks": true,
       "title": {
         "style": {
           "color": "#000000",
@@ -350,7 +351,7 @@
         "text": null
       },
       "labels": {
-        "format": "{value:,.1f}",
+        "format": "{value:,.0f}",
         "style": {
           "color": "black"
         }
@@ -384,7 +385,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-1-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2017-7-19"
   },
   "legend": {
     "enabled": true,

@@ -1526,7 +1526,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-17T16:39:08.088",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Friedliches Zusammenleben",
 		"stufe3": "",
@@ -1535,6 +1535,8 @@ var indikatorensetData = [
 		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter des Kantons Basel-Stadt als eine sehr oder eher grosse Bereicherung für den Kanton.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "05_01_00_00_00_501",
 		"parentId": 6146,
 		"children": [],
@@ -1545,8 +1547,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6034,
-		"darstellungsart": "Grafik"
+		"id": 6034
 	},
 	{
 		"title": "Sicherheitsgefühl im Alltag",
@@ -1826,8 +1827,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Entwicklung des Frauenanteils im grossen Rat",
-		"subtitle": "",
-		"kuerzel": "I.17.3.06044",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.17.3.6044",
 		"kuerzelKunde": "GZ10",
 		"description": "Entwicklung des Frauenanteils im grossen Rat",
 		"thema": "17 Politik",
@@ -1836,7 +1837,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-17T13:46:15.1515",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
@@ -1845,8 +1846,10 @@ var indikatorensetData = [
 		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Grossratskandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im basel-städtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase erstmals wieder rückläufig und verharrt auch 2016 bei 31%.",
 		"erlaeuterungen": "Der Grosse Rat umfasst seit den Gesamterneuerungswahlen 2008 gemäss der neuen, 2005 vom Basler Stimmvolk verabschiedeten Kantonsverfassung nur noch 100 Grossratssitze. Die in der Grafik dargestellten Anteile beziehen sich auf das am Wahlsonntag erzielte Ergebnis. Der tatsächliche Frauenanteil kann infolge personeller Wechsel während einer Legislaturperiode mehrmals ändern.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "05_03_00_00_00_511",
-		"parentId": 4922,
+		"parentId": null,
 		"children": [
 			"4922"
 		],
@@ -1857,8 +1860,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6044,
-		"darstellungsart": "Grafik"
+		"id": 6044
 	},
 	{
 		"title": "Bruttoinlandprodukt in Franken pro Einwohner",

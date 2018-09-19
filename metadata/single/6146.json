@@ -1,45 +1,30 @@
-{
- "title": "Beurteilung von gesellschaftlicher Vielfalt",
- "subtitle": "«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Bitte geben Sie mir an, ob das eine sehr grosse, eher grosse, eher nicht so grosse oder gar keine Bereicherung für den Kanton Basel-Stadt ist.»",
- "kuerzel": "I.50.1.06146",
- "kuerzelKunde": "4.5",
- "description": "Beurteilung von gesellschaftlicher Vielfalt",
- "id": 6146,
- "thema": "50 Befragungen",
- "unterthema": "Bevölkerungsbefragung",
- "kennzahlenset": "Legislaturplan",
- "raeumlicheGliederung": [
-  "Kanton"
- ],
- "aktualisierungsdatum": "2017-11-29T00:00:00.000",
- "schlagwort": [
-  "Ausländer",
-  "Bevölkerung",
-  "Ausland",
-  "Geburtsort"
- ],
- "stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter Basel-Stadts als eine sehr oder eher grosse Bereicherung für den Kanton.",
- "erlaeuterungen": "",
- "template": "befragungen001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "04_00_00_00_00_005",
- "parentId": null,
- "children": [
-  "4719",
-  "6034",
-  "6299"
- ],
- "renderLink": [],
- "quellenangabe": [
-  "Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Beurteilung von gesellschaftlicher Vielfalt",
+"subtitle":"«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Bitte geben Sie mir an, ob das eine sehr grosse, eher grosse, eher nicht so grosse oder gar keine Bereicherung für den Kanton Basel-Stadt ist.»",
+"kuerzel":"I.50.1.6146",
+"kuerzelKunde":"4.5",
+"description":"Beurteilung von gesellschaftlicher Vielfalt",
+"id":6146,
+"thema":"50 Befragungen",
+"unterthema":"Bevölkerungsbefragung",
+"kennzahlenset":"Legislaturplan",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2018-09-17T16:37:28.2828",
+"stufe1":"Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter des Kantons Basel-Stadt als eine sehr oder eher grosse Bereicherung für den Kanton.",
+"erlaeuterungen":"",
+"template":"befragungen001",
+"darstellungsart":"",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"04_00_00_00_00_005",
+"parentId":null,
+"children":["4719","6034","6299"],
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18"],
+"externalLinks":[""]
 }

@@ -191,7 +191,16 @@
                             <!--option value="all">Kennzahlenset</option -->    
                           </select>
                         </fieldset>
-                    </div>                
+                    </div>         
+                    
+                    <!-- Invisible, only used for filtering if in Indikatorenset View -->
+                    <div class="hidden" id="darstellungsart">
+                      <fieldset id="darstellungsart_criteria" >
+                        <legend>Darstellungform</legend>
+                        <select class="form-control" id="darstellungsart_filter"  multiple="multiple">
+                        </select>
+                      </fieldset>
+                    </div>
                                 
                     <div class="per-page">
                       Per Page: <span id="per_page" class="content"></span>

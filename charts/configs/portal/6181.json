@@ -2,37 +2,34 @@
   "series": [
     {
       "color": "#008AC3",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2011,
-          1.2
+          1.2038108622
         ],
         [
           2012,
-          1.5
+          1.5303306005
         ],
         [
           2013,
-          1.7
+          1.7469959199
         ],
         [
           2014,
-          1.9
+          1.9029641345
         ],
         [
           2015,
-          2
+          2.03620141
         ],
         [
           2016,
-          2.2
+          2.180589994
         ],
         [
           2017,
-          2.3
+          2.2729130062
         ]
       ],
       "name": "Familienmietzinsbeiträge"
@@ -40,37 +37,34 @@
     {
       "color": "#007A2F",
       "visible": true,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2011,
-          14.1
+          14.079937175
         ],
         [
           2012,
-          14.2
+          14.161436078
         ],
         [
           2013,
-          14.2
+          14.20591557
         ],
         [
           2014,
-          14.2
+          14.24315086
         ],
         [
           2015,
-          14
+          13.952584134
         ],
         [
           2016,
-          14.5
+          14.527402782
         ],
         [
           2017,
-          14.7
+          14.724390144
         ]
       ],
       "name": "Prämienverbilligung"
@@ -121,7 +115,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -171,7 +165,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-18"
   },
   "legend": {
     "enabled": true,
@@ -182,7 +176,6 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemWidth": 500,
     "itemMarginBottom": 5
   },
   "plotOptions": {
