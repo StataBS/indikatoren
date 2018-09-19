@@ -1526,7 +1526,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-17T16:39:08.088",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Friedliches Zusammenleben",
 		"stufe3": "",
@@ -1535,6 +1535,8 @@ var indikatorensetData = [
 		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter des Kantons Basel-Stadt als eine sehr oder eher grosse Bereicherung für den Kanton.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "05_01_00_00_00_501",
 		"parentId": 6146,
 		"children": [],
@@ -1545,8 +1547,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6034,
-		"darstellungsart": "Grafik"
+		"id": 6034
 	},
 	{
 		"title": "Sicherheitsgefühl im Alltag",
