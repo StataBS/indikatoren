@@ -25,8 +25,8 @@
     }    
   },
   "series": [
-  {"color": "#73B97C", "visible": true}, /* grün*/
-  {"color": "#E6E600", "visible": true}, /* gelb */
+  {"color": "#008AC3", "visible": true}, /* blau*/
+  {"color": "#B00000", "visible": true}, /* rot */
   {"color": "#3C3C3C", "visible": true} /* schwarz */
   ],
   "legend": {
