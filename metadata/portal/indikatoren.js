@@ -11759,7 +11759,7 @@ var indikatoren = [
 	{
 		"title": "Stationäre Fälle in Basler Spitälern",
 		"subtitle": "Nach Hauptbereich und Wohnort",
-		"kuerzel": "I.14.1.06175",
+		"kuerzel": "I.14.1.6175",
 		"kuerzelKunde": "9.5",
 		"description": "Stationäre Fälle in Basler Spitälern",
 		"thema": "14 Gesundheit",
@@ -11768,15 +11768,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-20T11:32:29.2929",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2016 wurden zum ersten Mal im Beobachtungszeitraum mehr ausserkantonale Patienten (40 481) behandelt als Patienten mit Wohnort im Kanton Basel-Stadt (38 585). Von den insgesamt 38 585 Fällen aus dem Stadtkanton können über 77% dem Hauptbereich der Akutsomatik zugerechnet werden. Bei den ausserkantonalen Fällen macht der Anteil der Akutsomatik hingegen über 91% aus.",
+		"lesehilfe": "Im Jahr 2017 wurden mehr ausserkantonale Patienten (45 278) behandelt als Patienten mit Wohnort im Kanton Basel-Stadt (35 502). Von den insgesamt 35 502 Fällen aus dem Stadtkanton können knapp 80% dem Hauptbereich der Akutsomatik zugerechnet werden. Bei den ausserkantonalen Fällen macht der Anteil der Akutsomatik hingegen über 88% aus.",
 		"erlaeuterungen": "Gezählt werden alle stationären Fälle mit Austritt im jeweiligen Erhebungsjahr (A-Fälle). Die Aufteilung in BS und Nicht-BS erfolgt anhand des Wohnorts der Patienten. Patienten mit Wohnsitz im Ausland sind in den Nicht-BS-Fällen eingeschlossen. Die Aufteilung in die Hauptbereiche erfolgt anhand der Hauptkostenstelle.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "09_00_00_00_00_005",
 		"parentId": null,
@@ -11790,8 +11792,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6175,
-		"darstellungsart": "Grafik"
+		"id": 6175
 	},
 	{
 		"title": "Anzahl Straftaten nach StGB pro 1000 Einwohner",
@@ -12931,8 +12932,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "nach Haushaltsgrösse und Haushaltstyp in m², Stand: 2016",
-		"kuerzel": "I.09.1.06364",
+		"subtitle": "nach Haushaltsgrösse und Haushaltstyp in m², Basel-Stadt, 2017",
+		"kuerzel": "I.09.1.6364",
 		"kuerzelKunde": "",
 		"description": "Mittlere Wohnfläche pro Person",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -12941,15 +12942,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-20T11:12:40.4040",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Je mehr Personen in einem Haushalt wohnen, desto kleiner ist die Wohnfläche pro Kopf. In einem Einpersonenhaushalt beträgt diese 67,0&nbsp;m². In einem Familienhaushalt mit 5 Personen beträgt die Wohnfläche pro Kopf  20,2&nbsp;m².",
+		"lesehilfe": "Je mehr Personen in einem Haushalt wohnen, desto kleiner ist die mittlere Wohnfläche pro Kopf. In einem Einpersonenhaushalt beträgt diese 66,8&nbsp;m². In einem Familienhaushalt mit 5 und mehr Personen beträgt die Wohnfläche pro Kopf  20,0&nbsp;m².",
 		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
@@ -12962,13 +12965,12 @@ var indikatoren = [
 		"externalLinks": [
 			"Informationen zu den Haushaltstypen sind hier zu finden: <a href = 'http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Häufig gefragt: Einwohner</a>."
 		],
-		"id": 6364,
-		"darstellungsart": "Grafik"
+		"id": 6364
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "nach Staatsangehörigkeit und Geschlecht in m², Stand: 2016",
-		"kuerzel": "I.09.1.06365",
+		"subtitle": "nach Staatsangehörigkeit und Geschlecht in m², Basel-Stadt, 2017",
+		"kuerzel": "I.09.1.6365",
 		"kuerzelKunde": "",
 		"description": "Mittlere Wohnfläche pro Person",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -12977,15 +12979,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-20T11:18:02.022",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Schweizer weisen im Durchschnitt pro Kopf einen um 11&nbsp;m² höheren Wohnflächenverbrauch auf als Ausländer. Ein geschlechtsspezifischer Unterschied des mittleren Wohnflächenverbrauchs pro Person wie bei den Schweizern (Männer: 43,2&nbsp;m², Frauen: 47,2&nbsp;m²) ist bei den ausländischen Staatsangehörigen nicht zu finden.",
+		"lesehilfe": "Schweizer weisen im Durchschnitt pro Kopf einen um 11&nbsp;m² höheren Wohnflächenverbrauch auf als Ausländer. Ein geschlechtsspezifischer Unterschied des mittleren Wohnflächenverbrauchs pro Person wie bei den Schweizern (Männer: 43,0&nbsp;m², Frauen: 46,9&nbsp;m²) ist bei den ausländischen Staatsangehörigen nicht zu finden.",
 		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
@@ -12998,13 +13002,12 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6365,
-		"darstellungsart": "Grafik"
+		"id": 6365
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "nach Alter und Geschlecht in m², Stand: 2016",
-		"kuerzel": "I.09.1.06366",
+		"subtitle": "nach Alter und Geschlecht in m², Basel-Stadt, 2017",
+		"kuerzel": "I.09.1.6366",
 		"kuerzelKunde": "",
 		"description": "Mittlere Wohnfläche pro Person",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -13013,15 +13016,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-20T11:27:19.1919",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnfläche pro Person nimmt mit zunehmendem Alter zu. Frauen ab 55 Jahren haben einen 5 bis 10&nbsp;m² grösseren Wohnflächenverbrauch pro Kopf als Männer derselben Altersgruppe.",
+		"lesehilfe": "Die mittlere Wohnfläche pro Person nimmt mit zunehmendem Alter zu. Frauen ab 55 Jahren haben einen 4 bis fast 10&nbsp;m² grösseren Wohnflächenverbrauch pro Kopf als Männer derselben Altersgruppe.",
 		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
 		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
@@ -13034,8 +13039,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6366,
-		"darstellungsart": "Grafik"
+		"id": 6366
 	},
 	{
 		"title": "Sesshaftigkeit nach Wohnviertel",
