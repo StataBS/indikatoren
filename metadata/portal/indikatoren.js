@@ -6007,26 +6007,28 @@ var indikatoren = [
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Landwirtschaftliche Nutzfläche und Anzahl Landwirtschaftsbetriebe",
-		"subtitle": "",
-		"kuerzel": "I.07.1.04914",
+		"title": "Landwirtschaft: Nutzfläche und Betriebe",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.07.1.4914",
 		"kuerzelKunde": "",
-		"description": "Landwirtschaftliche Nutzfläche und Anzahl Landwirtschaftsbetriebe",
+		"description": "Landwirtschaft: Nutzfläche und Betriebe",
 		"thema": "07 Landwirtschaft",
 		"unterthema": "Landwirtschaft",
 		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-21T09:35:14.1414",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Sowohl die Anzahl landwirtschaftlicher Betriebe als auch die Nutzfläche sind in den letzten Jahren tendenziell rückläufig.",
+		"lesehilfe": "Sowohl die Anzahl landwirtschaftlicher Betriebe als auch die Nutzfläche sind im Vergleich zu 1990 tendenziell rückläufig.",
 		"erlaeuterungen": "Die landwirtschaftliche Nutzfläche eines baselstädtischen Betriebes kann auch im Ausland liegen.",
-		"template": "line001",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
@@ -6038,8 +6040,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 4914,
-		"darstellungsart": "Grafik"
+		"id": 4914
 	},
 	{
 		"title": "Privater Motorisierungsgrad",
