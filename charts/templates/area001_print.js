@@ -11,7 +11,7 @@
     		"zoomType": "xy",
             "width": 641,
     		"height": 415,
-        	spacing: [2,2,2,2],
+      	spacing: [2,2,2,2], /*top, right, bottom and left */
     		"style": {
     		  "fontFamily": "Arial"
     		},
@@ -50,7 +50,7 @@
           "text": ''
         },
         "labels": {
-          y: 3
+          y: 3,
           "style": {
             "color": "#000000"
           }
@@ -61,7 +61,7 @@
         lineWidth: 0.5,
         "labels": {
           "style": {
-            "color": "#000000"
+            "color": "#000000", 
           }
         },
         "tickLength": 0

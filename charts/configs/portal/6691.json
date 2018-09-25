@@ -1,0 +1,288 @@
+{
+  "series": [
+    {
+      "index": 0,
+      "color": "#B375AB",
+      "tooltip": {
+        "pointFormatter": function (){
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y),1) + '%</b><br/>';
+        }
+      },
+      "data": [
+        [
+          "Schweiz",
+          0.74
+        ],
+        [
+          "Deutschland",
+          0.874
+        ],
+        [
+          "Italien",
+          0.675
+        ],
+        [
+          "Türkei",
+          0.504
+        ],
+        [
+          "EU-17 + EFTA",
+          0.787
+        ],
+        [
+          "EU-Ost",
+          0.764
+        ],
+        [
+          "Balkan",
+          0.568
+        ],
+        [
+          "Mittel- und Südamerika",
+          0.542
+        ],
+        [
+          "Arabische Länder",
+          0.563
+        ],
+        [
+          "Afrikanische Länder",
+          0.579
+        ],
+        [
+          "Übrige Länder",
+          0.683
+        ]
+      ],
+      "name": "Erwerbstätigenquote",
+      "turboThreshold": 0
+    },
+    {
+      "index": 1,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function (){
+          return this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100 * this.high),1) + '%</b><br/>';
+        }
+      },
+      "data": [
+        {
+          "name": "Schweiz",
+          "low": 0.733,
+          "high": 0.748
+        },
+        {
+          "name": "Deutschland",
+          "low": 0.859,
+          "high": 0.889
+        },
+        {
+          "name": "Italien",
+          "low": 0.641,
+          "high": 0.708
+        },
+        {
+          "name": "Türkei",
+          "low": 0.467,
+          "high": 0.542
+        },
+        {
+          "name": "EU-17 + EFTA",
+          "low": 0.766,
+          "high": 0.808
+        },
+        {
+          "name": "EU-Ost",
+          "low": 0.718,
+          "high": 0.81
+        },
+        {
+          "name": "Balkan",
+          "low": 0.535,
+          "high": 0.601
+        },
+        {
+          "name": "Mittel- und Südamerika",
+          "low": 0.471,
+          "high": 0.613
+        },
+        {
+          "name": "Arabische Länder",
+          "low": 0.469,
+          "high": 0.658
+        },
+        {
+          "name": "Afrikanische Länder",
+          "low": 0.498,
+          "high": 0.66
+        },
+        {
+          "name": "Übrige Länder",
+          "low": 0.649,
+          "high": 0.717
+        }
+      ],
+      "name": "95% Vertrauensintervall",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "formatter": function (){
+        return this.value.replace("und", "u.");
+      }
+    },
+    "tickLength": 0,
+    "style": {
+      "textOverflow": "none"
+    }
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 320,
+    "height": 208,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {};
+                    
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                          }
+                        }
+                      );
+                    }              
+                    
+                }
+    },
+    "marginRight": 18,
+    "type": "column",
+    "inverted": true,
+    "marginLeft": 120,
+    "renderTo": "container-6691",
+    "spacingBottom": 2
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Erwerbstätigenquote nach Staatsangehörigkeit"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "der 15-64-Jährigen in Basel-Stadt, gepoolte Daten 2012 bis 2016",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 15,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "formatter": function (){
+            return Highcharts.numberFormat((100 * this.value),0)+'%';                
+        }
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)."
+  },
+  "legend": {
+    "padding": 1,
+    "symbolRadius": 0,
+    "itemMarginBottom": 1,
+    "itemStyle": {
+      "fontSize": "10px"
+    },
+    "enabled": false
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": 10
+    }
+  },
+  "exporting": {
+    "filename": 6691
+  }
+}

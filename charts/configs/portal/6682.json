@@ -1,0 +1,565 @@
+{
+  "series": [
+    {
+      "color": "#b00000",
+      "data": [
+        [
+          2010,
+          3.3
+        ],
+        [
+          2011,
+          2.9
+        ],
+        [
+          2012,
+          2.9
+        ],
+        [
+          2013,
+          2.9
+        ],
+        [
+          2014,
+          2.7
+        ],
+        [
+          2015,
+          2.8
+        ],
+        [
+          2016,
+          2.9
+        ],
+        [
+          2017,
+          2.9
+        ]
+      ],
+      "name": "Schweiz"
+    },
+    {
+      "color": "#672773",
+      "data": [
+        [
+          2010,
+          3.1
+        ],
+        [
+          2011,
+          2.8
+        ],
+        [
+          2012,
+          2.9
+        ],
+        [
+          2013,
+          3.1
+        ],
+        [
+          2014,
+          2.9
+        ],
+        [
+          2015,
+          3.3
+        ],
+        [
+          2016,
+          3.5
+        ],
+        [
+          2017,
+          3.2
+        ]
+      ],
+      "name": "Deutschland"
+    },
+    {
+      "color": "#007a2f",
+      "data": [
+        [
+          2010,
+          5.5
+        ],
+        [
+          2011,
+          4.9
+        ],
+        [
+          2012,
+          4.4
+        ],
+        [
+          2013,
+          4.6
+        ],
+        [
+          2014,
+          4.6
+        ],
+        [
+          2015,
+          4.6
+        ],
+        [
+          2016,
+          5.2
+        ],
+        [
+          2017,
+          5.3
+        ]
+      ],
+      "name": "Italien"
+    },
+    {
+      "color": "#fabd24",
+      "data": [
+        [
+          2010,
+          11.7
+        ],
+        [
+          2011,
+          9.4
+        ],
+        [
+          2012,
+          8.6
+        ],
+        [
+          2013,
+          9.1
+        ],
+        [
+          2014,
+          8.1
+        ],
+        [
+          2015,
+          8
+        ],
+        [
+          2016,
+          8.5
+        ],
+        [
+          2017,
+          8.1
+        ]
+      ],
+      "name": "Türkei"
+    },
+    {
+      "color": "#b475ab",
+      "data": [
+        [
+          2010,
+          3.4
+        ],
+        [
+          2011,
+          3.5
+        ],
+        [
+          2012,
+          3.8
+        ],
+        [
+          2013,
+          4.2
+        ],
+        [
+          2014,
+          4.4
+        ],
+        [
+          2015,
+          5.2
+        ],
+        [
+          2016,
+          5.5
+        ],
+        [
+          2017,
+          5.5
+        ]
+      ],
+      "name": "EU-17 & EFTA"
+    },
+    {
+      "color": "#71a3b5",
+      "data": [
+        [
+          2010,
+          3.2
+        ],
+        [
+          2011,
+          3.7
+        ],
+        [
+          2012,
+          4.5
+        ],
+        [
+          2013,
+          5.9
+        ],
+        [
+          2014,
+          6.8
+        ],
+        [
+          2015,
+          8.5
+        ],
+        [
+          2016,
+          12
+        ],
+        [
+          2017,
+          11.6
+        ]
+      ],
+      "name": "EU-Ost"
+    },
+    {
+      "color": "#b9cfd7",
+      "data": [
+        [
+          2010,
+          8.9
+        ],
+        [
+          2011,
+          7.3
+        ],
+        [
+          2012,
+          7
+        ],
+        [
+          2013,
+          6.9
+        ],
+        [
+          2014,
+          6.8
+        ],
+        [
+          2015,
+          7.3
+        ],
+        [
+          2016,
+          7
+        ],
+        [
+          2017,
+          6.8
+        ]
+      ],
+      "name": "Balkan"
+    },
+    {
+      "color": "#ff8028",
+      "data": [
+        [
+          2010,
+          6
+        ],
+        [
+          2011,
+          5.9
+        ],
+        [
+          2012,
+          6.5
+        ],
+        [
+          2013,
+          6.6
+        ],
+        [
+          2014,
+          5.1
+        ],
+        [
+          2015,
+          5.7
+        ],
+        [
+          2016,
+          6.1
+        ],
+        [
+          2017,
+          5.5
+        ]
+      ],
+      "name": "Mittel- & Südamerika"
+    },
+    {
+      "color": "#73ba7c",
+      "data": [
+        [
+          2010,
+          9.6
+        ],
+        [
+          2011,
+          7.3
+        ],
+        [
+          2012,
+          7.1
+        ],
+        [
+          2013,
+          7
+        ],
+        [
+          2014,
+          7.4
+        ],
+        [
+          2015,
+          7.6
+        ],
+        [
+          2016,
+          7.8
+        ],
+        [
+          2017,
+          8
+        ]
+      ],
+      "name": "Arabische Länder"
+    },
+    {
+      "color": "#9f7c5a",
+      "data": [
+        [
+          2010,
+          9.5
+        ],
+        [
+          2011,
+          6.4
+        ],
+        [
+          2012,
+          8
+        ],
+        [
+          2013,
+          7.4
+        ],
+        [
+          2014,
+          6.4
+        ],
+        [
+          2015,
+          8
+        ],
+        [
+          2016,
+          8
+        ],
+        [
+          2017,
+          7.6
+        ]
+      ],
+      "name": "Afrikanische Länder"
+    },
+    {
+      "color": "#999999",
+      "data": [
+        [
+          2010,
+          3.6
+        ],
+        [
+          2011,
+          3.5
+        ],
+        [
+          2012,
+          3.3
+        ],
+        [
+          2013,
+          3
+        ],
+        [
+          2014,
+          3.2
+        ],
+        [
+          2015,
+          3.5
+        ],
+        [
+          2016,
+          3.9
+        ],
+        [
+          2017,
+          3.8
+        ]
+      ],
+      "name": "Übrige Länder"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 208,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "marginRight": 5,
+    "renderTo": "container-6682",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Arbeitslosenquote nach Staatsangehörigkeit"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "tickInterval": 5
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik."
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 1,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "padding": 1,
+    "labelFormatter": function (){
+      return this.name.replace("&", "u.");
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6682
+  }
+}

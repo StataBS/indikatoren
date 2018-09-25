@@ -26,7 +26,7 @@
           5
         ]
       ],
-      "name": "Weiss nicht \u002F Keine Angabe",
+      "name": "Weiss nicht\u002FKeine Angabe",
       "turboThreshold": 0
     },
     {
@@ -55,7 +55,7 @@
           11
         ]
       ],
-      "name": "Sehr unzufrieden",
+      "name": "Gar nicht gut",
       "turboThreshold": 0
     },
     {
@@ -84,7 +84,7 @@
           87
         ]
       ],
-      "name": "Eher unzufrieden",
+      "name": "Eher nicht so gut",
       "turboThreshold": 0
     },
     {
@@ -113,7 +113,7 @@
           585
         ]
       ],
-      "name": "Eher zufrieden",
+      "name": "Eher gut",
       "turboThreshold": 0
     },
     {
@@ -142,7 +142,7 @@
           313
         ]
       ],
-      "name": "Sehr zufrieden",
+      "name": "Sehr gut",
       "turboThreshold": 0
     }
   ],

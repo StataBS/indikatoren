@@ -1,0 +1,382 @@
+{
+  "series": [
+    {
+      "color": "#672773",
+      "index": 9,
+      "legendIndex": 0,
+      "data": [
+        [
+          "Männer",
+          22.93
+        ],
+        [
+          "Frauen",
+          22.26
+        ],
+        [
+          "Total",
+          22.61
+        ]
+      ],
+      "name": "Deutschland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007a2f",
+      "index": 8,
+      "legendIndex": 1,
+      "data": [
+        [
+          "Männer",
+          12.8
+        ],
+        [
+          "Frauen",
+          10.91
+        ],
+        [
+          "Total",
+          11.88
+        ]
+      ],
+      "name": "Italien",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fabd24",
+      "index": 7,
+      "legendIndex": 2,
+      "data": [
+        [
+          "Männer",
+          8.7
+        ],
+        [
+          "Frauen",
+          8.89
+        ],
+        [
+          "Total",
+          8.79
+        ]
+      ],
+      "name": "Türkei",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b475ab",
+      "index": 6,
+      "legendIndex": 3,
+      "data": [
+        [
+          "Männer",
+          22.74
+        ],
+        [
+          "Frauen",
+          20.28
+        ],
+        [
+          "Total",
+          21.55
+        ]
+      ],
+      "name": "EU-17 + EFTA",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#71a3b5",
+      "index": 5,
+      "legendIndex": 4,
+      "data": [
+        [
+          "Männer",
+          4.68
+        ],
+        [
+          "Frauen",
+          6.39
+        ],
+        [
+          "Total",
+          5.5
+        ]
+      ],
+      "name": "EU-Ost",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b9cfd7",
+      "index": 4,
+      "legendIndex": 5,
+      "data": [
+        [
+          "Männer",
+          11.16
+        ],
+        [
+          "Frauen",
+          11.71
+        ],
+        [
+          "Total",
+          11.42
+        ]
+      ],
+      "name": "Balkan",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "index": 3,
+      "legendIndex": 6,
+      "data": [
+        [
+          "Männer",
+          1.77
+        ],
+        [
+          "Frauen",
+          2.99
+        ],
+        [
+          "Total",
+          2.36
+        ]
+      ],
+      "name": "Mittel- und Südamerika",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73ba7c",
+      "index": 2,
+      "legendIndex": 7,
+      "data": [
+        [
+          "Männer",
+          2.35
+        ],
+        [
+          "Frauen",
+          1.88
+        ],
+        [
+          "Total",
+          2.12
+        ]
+      ],
+      "name": "Arabische Länder",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9f7c5a",
+      "index": 1,
+      "legendIndex": 8,
+      "data": [
+        [
+          "Männer",
+          2.6
+        ],
+        [
+          "Frauen",
+          2.28
+        ],
+        [
+          "Total",
+          2.44
+        ]
+      ],
+      "name": "Afrikanische Länder",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#999999",
+      "index": 0,
+      "legendIndex": 9,
+      "data": [
+        [
+          "Männer",
+          10.28
+        ],
+        [
+          "Frauen",
+          12.43
+        ],
+        [
+          "Total",
+          11.32
+        ]
+      ],
+      "name": "Übrige Länder",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0,
+    "min": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 320,
+    "height": 208,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {};
+                    
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                          }
+                        }
+                      );
+                    }              
+                    
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "spacingTop": 7,
+    "renderTo": "container-6647",
+    "spacingBottom": 2
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      },
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Ausländer nach Staatsangehörigkeit und Geschlecht"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt, 2017",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "max": 100,
+    "tickAmount": 5
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik."
+  },
+  "legend": {
+    "padding": 1,
+    "symbolRadius": 0,
+    "itemMarginBottom": 1,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "reversed": true,
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "labelFormatter": function (){
+		    return this.name.replace("und", "u.");
+		}
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": 10
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 6647
+  }
+}

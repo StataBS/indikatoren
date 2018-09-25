@@ -1,0 +1,267 @@
+{
+  "series": [
+    {
+      "color": "#007A2F",
+      "visible": true,
+      "data": [
+        [
+          "Deutschland",
+          5.3
+        ],
+        [
+          "Italien",
+          14.7
+        ],
+        [
+          "Türkei",
+          16.4
+        ],
+        [
+          "EU-17 + EFTA",
+          5.2
+        ],
+        [
+          "EU-Ost",
+          3.3
+        ],
+        [
+          "Balkan",
+          16
+        ],
+        [
+          "Mittel- und Südamerika",
+          6
+        ],
+        [
+          "Arabische Länder",
+          3.9
+        ],
+        [
+          "Afrikanische Länder",
+          6.1
+        ],
+        [
+          "Übrige Länder",
+          4.2
+        ]
+      ],
+      "name": "Basel-Stadt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "visible": true,
+      "data": [
+        [
+          "Deutschland",
+          7.3
+        ],
+        [
+          "Italien",
+          23.1
+        ],
+        [
+          "Türkei",
+          20.2
+        ],
+        [
+          "EU-17 + EFTA",
+          6.6
+        ],
+        [
+          "EU-Ost",
+          4.2
+        ],
+        [
+          "Balkan",
+          18.7
+        ],
+        [
+          "Mittel- und Südamerika",
+          7.8
+        ],
+        [
+          "Arabische Länder",
+          9.1
+        ],
+        [
+          "Afrikanische Länder",
+          8.8
+        ],
+        [
+          "Übrige Länder",
+          5.5
+        ]
+      ],
+      "name": "Schweiz",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "sytep": 1,
+      "y": 3,
+      "rotation": 0,
+      "formatter": function (){
+		    return this.value.replace("und", "u.");
+		  }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 320,
+    "height": 208,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {};
+                    
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                          }
+                        }
+                      );
+                    }              
+                    
+                }
+    },
+    "type": "column",
+    "inverted": true,
+    "marginLeft": 120,
+    "renderTo": "container-6659",
+    "spacingBottom": 2
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      },
+      "pointPadding": 0,
+      "pointWidth": 5
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Median der Aufenthaltsdauer der Ausländer"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in Jahren, 2017",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 18,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 5
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik."
+  },
+  "legend": {
+    "padding": 1,
+    "symbolRadius": 0,
+    "itemMarginBottom": 1,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": 10
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 6659
+  }
+}

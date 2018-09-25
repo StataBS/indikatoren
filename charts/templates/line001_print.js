@@ -7,10 +7,12 @@
 
               //for top-left legends with no x defined: move legend to x position of first yAxis
               if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
                 this.update(
                   {
                     legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
                     }
                   }
                 );
@@ -21,10 +23,10 @@
 		"backgroundColor": "#fbfbfb",
 		"zoomType": "xy",
 		"width": 320,
-    	"height": 208,
-    	spacing: [7,3,8,3], /*top, right, bottom and left */
+  	"height": 208,
+  	spacing: [2,2,2,2], /*top, right, bottom and left */
 		"style": {
-		 "fontFamily": "Arial"
+		  "fontFamily": "Arial"
 		},
 		"type": "line"    
 		},
@@ -74,7 +76,7 @@
     "labels": {
       "style": {
       	"fontSize": 10,
-        "color": "#000000"
+        "color": "#000000", 
       }
     },
     "tickLength": 0
@@ -99,14 +101,21 @@
     "verticalAlign": "middle",
     "align": "right",
     "symbolRadius": 0,
-    itemStyle:{"fontSize": "10px"}
-  },
+    itemMarginBottom: 1,
+    itemStyle:{
+      fontSize: "10px"
+    },
+    padding: 0,
+  }, 
   plotOptions: {
     series: {
       marker: {
         enabled: false
       }
     }
-  },
+  },  
+  exporting: {
+    enabled: false
+  }
 	};
 }());

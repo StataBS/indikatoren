@@ -180,10 +180,12 @@
 
               //for top-left legends with no x defined: move legend to x position of first yAxis
               if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
                 this.update(
                   {
                     legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
                     }
                   }
                 );
@@ -196,10 +198,10 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
@@ -207,7 +209,7 @@
     "type": "line",
     "spacingTop": 10,
     "renderTo": "container-6308",
-    "spacingBottom": 8
+    "spacingBottom": 2
   },
   "title": {
     "style": {
@@ -287,12 +289,13 @@
     "verticalAlign": "middle",
     "align": "right",
     "symbolRadius": 0,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "itemWidth": 50,
-    "itemMarginBottom": 5
+    "padding": 0,
+    "itemWidth": 50
   },
   "plotOptions": {
     "series": {
@@ -320,6 +323,7 @@
     }
   },
   "exporting": {
+    "enabled": false,
     "filename": 6308
   }
 }

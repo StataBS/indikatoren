@@ -10,8 +10,8 @@
         "chart": {		
             "borderColor": "#fbfbfb",
             "backgroundColor": "#fbfbfb",
-            "width": 640,
-            "height": 312,
+			"width": 992,
+            "height": 484,
             spacing: [2,2,2,2],
             "style": {
                 "fontFamily": "Arial"
@@ -21,7 +21,7 @@
         },
         "title": {
             "style": {
-                "fontSize": "9px",
+                "fontSize": "15px",
                 "fontWeight": "bold",
                 "fontFamily": "Arial",
                 "color": "#000000"
@@ -30,7 +30,7 @@
         },
         "subtitle": {
             "style": {
-                "fontSize": "9px",
+                "fontSize": "15px",
                 "fontWeight": "normal",
                 "fontFamily": "Arial",
                 "color": "#000000"
@@ -42,7 +42,7 @@
             "enabled": true,
             "style": {
                 "color": "#000000",
-                "fontSize": "9px",
+                "fontSize": "15px",
                 "cursor": "default"
             },
             "position": {
@@ -56,7 +56,7 @@
     		"gridLineColor": "#fbfbfb",	
             "gridLineWidth": 1,
             "labels": {	
-    		    "style": {"color": "black", "cursor": "default", "fontSize": "9px", "textOverflow": "none"}
+    		    "style": {"color": "black", "cursor": "default", "fontSize": "15px", "textOverflow": "none"}
     		},
     		"marker": {
                     "color": "black"
@@ -73,11 +73,11 @@
     		"enabled": true, 
             "align": "right",
             "floating": true,
-            itemStyle: {fontSize: "9px"},
+            itemStyle: {fontSize: "15px"},
             "title": {
                 "style": {
                     "fontWeight": "normal", 
-                    "fontSize": "9px"
+                    "fontSize": "15px"
                 }
             }
     	}, 
@@ -123,7 +123,7 @@
 					formatter: function(){
 						return '1 km';
 					}, 
-					style: {fontSize: "9px", fontWeight: "normal", color: 'black'},
+					style: {fontSize: "15px", fontWeight: "normal", color: 'black'},
 					y: -10
 				}
     		}
@@ -290,7 +290,7 @@
     	                        zIndex: 6, // Keep pies above connector lines
     	                        borderWidth: 1,
     	                        tooltip: {
-	                        	    headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 9px"> {series.name} </span><br/>',
+	                        	    headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 15px"> {series.name} </span><br/>',
 		                            pointFormatter: function () {
 		                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
 		                            }
@@ -360,7 +360,7 @@
     	        addLegendTitle: function(chart, title, x, y){
             		return chart.renderer.label(title, x, y)
          				.css({
-    	                    fontSize: '9px',
+    	                    fontSize: '15px',
     	                    fontWeight: 'bold'
     	                })
     	                .attr({
@@ -383,7 +383,7 @@
                 addLegendLabel: function(chart, text, x, y, cssClass, useHtml){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
 					.css({
-	                    fontSize: '9px'
+	                    fontSize: '15px'
 	                })
     				.attr({
     					zIndex: 6,
