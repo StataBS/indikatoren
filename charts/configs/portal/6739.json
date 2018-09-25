@@ -1,0 +1,613 @@
+{
+  "series": [
+    {
+      "color": "#007a2f",
+      "index": 4,
+      "legendIndex": 0,
+      "data": [
+        [
+          "2015 Total",
+          1080
+        ],
+        [
+          "2015 Schweiz",
+          968
+        ],
+        [
+          "2015 Ausland",
+          112
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2011 Total",
+          1145
+        ],
+        [
+          "2011 Schweiz",
+          982
+        ],
+        [
+          "2011 Ausland",
+          163
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 Total",
+          959
+        ],
+        [
+          "2007 Schweiz",
+          850
+        ],
+        [
+          "2007 Ausland",
+          109
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005 Total",
+          942
+        ],
+        [
+          "2005 Schweiz",
+          807
+        ],
+        [
+          "2005 Ausland",
+          135
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2003 Total",
+          967
+        ],
+        [
+          "2003 Schweiz",
+          849
+        ],
+        [
+          "2003 Ausland",
+          118
+        ]
+      ],
+      "name": "Sehr zufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68ab2b",
+      "index": 3,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2015 Total",
+          379
+        ],
+        [
+          "2015 Schweiz",
+          325
+        ],
+        [
+          "2015 Ausland",
+          54
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2011 Total",
+          341
+        ],
+        [
+          "2011 Schweiz",
+          291
+        ],
+        [
+          "2011 Ausland",
+          50
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 Total",
+          485
+        ],
+        [
+          "2007 Schweiz",
+          424
+        ],
+        [
+          "2007 Ausland",
+          61
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005 Total",
+          508
+        ],
+        [
+          "2005 Schweiz",
+          440
+        ],
+        [
+          "2005 Ausland",
+          68
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2003 Total",
+          467
+        ],
+        [
+          "2003 Schweiz",
+          392
+        ],
+        [
+          "2003 Ausland",
+          75
+        ]
+      ],
+      "name": "Eher zufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffbb58",
+      "index": 2,
+      "legendIndex": 2,
+      "data": [
+        [
+          "2015 Total",
+          30
+        ],
+        [
+          "2015 Schweiz",
+          25
+        ],
+        [
+          "2015 Ausland",
+          5
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2011 Total",
+          19
+        ],
+        [
+          "2011 Schweiz",
+          18
+        ],
+        [
+          "2011 Ausland",
+          1
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 Total",
+          53
+        ],
+        [
+          "2007 Schweiz",
+          45
+        ],
+        [
+          "2007 Ausland",
+          8
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005 Total",
+          48
+        ],
+        [
+          "2005 Schweiz",
+          41
+        ],
+        [
+          "2005 Ausland",
+          7
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2003 Total",
+          51
+        ],
+        [
+          "2003 Schweiz",
+          40
+        ],
+        [
+          "2003 Ausland",
+          11
+        ]
+      ],
+      "name": "Eher unzufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#dc440e",
+      "index": 1,
+      "legendIndex": 3,
+      "data": [
+        [
+          "2015 Total",
+          11
+        ],
+        [
+          "2015 Schweiz",
+          10
+        ],
+        [
+          "2015 Ausland",
+          1
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2011 Total",
+          9
+        ],
+        [
+          "2011 Schweiz",
+          9
+        ],
+        [
+          "2011 Ausland",
+          0
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 Total",
+          7
+        ],
+        [
+          "2007 Schweiz",
+          7
+        ],
+        [
+          "2007 Ausland",
+          0
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005 Total",
+          11
+        ],
+        [
+          "2005 Schweiz",
+          11
+        ],
+        [
+          "2005 Ausland",
+          0
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2003 Total",
+          9
+        ],
+        [
+          "2003 Schweiz",
+          7
+        ],
+        [
+          "2003 Ausland",
+          2
+        ]
+      ],
+      "name": "Sehr unzufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#999999",
+      "index": 0,
+      "legendIndex": 4,
+      "data": [
+        [
+          "2015 Total",
+          6
+        ],
+        [
+          "2015 Schweiz",
+          5
+        ],
+        [
+          "2015 Ausland",
+          1
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2011 Total",
+          2
+        ],
+        [
+          "2011 Schweiz",
+          2
+        ],
+        [
+          "2011 Ausland",
+          0
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 Total",
+          5
+        ],
+        [
+          "2007 Schweiz",
+          5
+        ],
+        [
+          "2007 Ausland",
+          0
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005 Total",
+          1
+        ],
+        [
+          "2005 Schweiz",
+          1
+        ],
+        [
+          "2005 Ausland",
+          0
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2003 Total",
+          3
+        ],
+        [
+          "2003 Schweiz",
+          3
+        ],
+        [
+          "2003 Ausland",
+          0
+        ]
+      ],
+      "name": "Weiss nicht \u002F Keine Angabe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": -90,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none",
+        "fontSize": "10px"
+      },
+      "formatter": function () {
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                //check for value that contains only spaces
+            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + '<br/>(' + nString + sum + ')';
+            },
+      "x": -6,
+      "y": 10,
+      "align": "right"
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                this.credits.element.onclick = function() {};
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }                              
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 665,
+    "height": 208,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial",
+      "fontSize": "10px"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "marginBottom": 75,
+    "inverted": false,
+    "spacingTop": 5,
+    "renderTo": "container-6739",
+    "spacingBottom": 2
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Beurteilung des Wohnorts nach Heimat"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?»"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    },
+    "column": {
+      "groupPadding": 0
+    }
+  },
+  "yAxis": {
+    "tickInterval": 25,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "format": "{value}%",
+      "style": {
+        "color": "#000000",
+        "fontSize": "10px"
+      },
+      "type": "category"
+    },
+    "max": 100
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F1c."
+  },
+  "legend": {
+    "padding": 0,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "useHTML": true,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontFamily": "Arial",
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "whitespace": "nowrap"
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+        return this.name.replace("/ ", "/<br/>");
+    },
+    "enabled": true,
+    "y": -13,
+    "reversed": true,
+    "itemMarginBottom": 3
+  },
+  "exporting": {
+    "filename": 6739
+  }
+}

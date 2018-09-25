@@ -1,0 +1,253 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "index": 2,
+      "legendIndex": 0,
+      "data": [
+        [
+          "Bau- und Ausbaugewerbe",
+          19.4
+        ],
+        [
+          "Gastgewerbe, pers. DL",
+          30.3
+        ],
+        [
+          "Technische Berufe, Informatik",
+          40.1
+        ],
+        [
+          "Industrie und Gewerbe",
+          44.8
+        ],
+        [
+          "Land- und Forstwirtschaft",
+          47.8
+        ],
+        [
+          "Handels- und Verkehrsberufe",
+          50.2
+        ],
+        [
+          "Gesundheit, Lehre, Kultur",
+          58.6
+        ],
+        [
+          "Banken, Versicherungen o.ä.",
+          63.6
+        ]
+      ],
+      "name": "Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "index": 1,
+      "legendIndex": 1,
+      "data": [
+        [
+          "Bau- und Ausbaugewerbe",
+          80.6
+        ],
+        [
+          "Gastgewerbe, pers. DL",
+          69.7
+        ],
+        [
+          "Technische Berufe, Informatik",
+          59.9
+        ],
+        [
+          "Industrie und Gewerbe",
+          55.2
+        ],
+        [
+          "Land- und Forstwirtschaft",
+          52.2
+        ],
+        [
+          "Handels- und Verkehrsberufe",
+          49.8
+        ],
+        [
+          "Gesundheit, Lehre, Kultur",
+          41.4
+        ],
+        [
+          "Banken, Versicherungen o.ä.",
+          36.4
+        ]
+      ],
+      "name": "Ausland",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "y": 3,
+      "padding": 0
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 320,
+    "height": 208,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {};
+                    
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                          }
+                        }
+                      );
+                    }              
+                    
+                }
+    },
+    "marginRight": 6,
+    "type": "column",
+    "inverted": true,
+    "marginLeft": 150,
+    "renderTo": "container-6687",
+    "spacingBottom": 2
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      },
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anteil Arbeitslose in ausgewählten Berufsgruppen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2017",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 15,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "rotation": 0,
+      "format": "{value:,.0f}%"
+    },
+    "max": 100,
+    "tickInterval": 20
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik."
+  },
+  "legend": {
+    "padding": 1,
+    "symbolRadius": 0,
+    "itemMarginBottom": 1,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": 10
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 6687
+  }
+}

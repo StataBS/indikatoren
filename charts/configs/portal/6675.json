@@ -1,0 +1,1106 @@
+{
+  "series": [
+    {
+      "color": "#672773",
+      "index": 9,
+      "legendIndex": 0,
+      "data": [
+        [
+          "Altstadt GB",
+          29.6
+        ],
+        [
+          "Vorstädte",
+          23.1
+        ],
+        [
+          "Am Ring",
+          25.1
+        ],
+        [
+          "Breite",
+          20.8
+        ],
+        [
+          "St. Alban",
+          21.7
+        ],
+        [
+          "Gundeld.",
+          20.6
+        ],
+        [
+          "Bruderholz",
+          31.8
+        ],
+        [
+          "Bachletten",
+          33
+        ],
+        [
+          "Gotthelf",
+          30.7
+        ],
+        [
+          "Iselin",
+          17.8
+        ],
+        [
+          "St. Johann",
+          17.6
+        ],
+        [
+          "Altstadt KB",
+          22.4
+        ],
+        [
+          "Clara",
+          15.6
+        ],
+        [
+          "Wettstein",
+          31.9
+        ],
+        [
+          "Hirzbrun.",
+          26.6
+        ],
+        [
+          "Rosental",
+          15.6
+        ],
+        [
+          "Matthäus",
+          17.5
+        ],
+        [
+          "Klybeck",
+          10.8
+        ],
+        [
+          "Kleinhün.",
+          13.7
+        ],
+        [
+          "Riehen",
+          43
+        ],
+        [
+          "Bettingen",
+          58.7
+        ]
+      ],
+      "name": "Deutschland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007a2f",
+      "index": 8,
+      "legendIndex": 1,
+      "data": [
+        [
+          "Altstadt GB",
+          9.1
+        ],
+        [
+          "Vorstädte",
+          11.4
+        ],
+        [
+          "Am Ring",
+          11.8
+        ],
+        [
+          "Breite",
+          12.9
+        ],
+        [
+          "St. Alban",
+          9.6
+        ],
+        [
+          "Gundeld.",
+          12.7
+        ],
+        [
+          "Bruderholz",
+          11.6
+        ],
+        [
+          "Bachletten",
+          12.3
+        ],
+        [
+          "Gotthelf",
+          11.7
+        ],
+        [
+          "Iselin",
+          13.8
+        ],
+        [
+          "St. Johann",
+          11.5
+        ],
+        [
+          "Altstadt KB",
+          9.9
+        ],
+        [
+          "Clara",
+          12.5
+        ],
+        [
+          "Wettstein",
+          13.1
+        ],
+        [
+          "Hirzbrun.",
+          14.2
+        ],
+        [
+          "Rosental",
+          8.7
+        ],
+        [
+          "Matthäus",
+          11.2
+        ],
+        [
+          "Klybeck",
+          14.5
+        ],
+        [
+          "Kleinhün.",
+          15
+        ],
+        [
+          "Riehen",
+          10.2
+        ],
+        [
+          "Bettingen",
+          6.3
+        ]
+      ],
+      "name": "Italien",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fabd24",
+      "index": 7,
+      "legendIndex": 2,
+      "data": [
+        [
+          "Altstadt GB",
+          3.7
+        ],
+        [
+          "Vorstädte",
+          2.3
+        ],
+        [
+          "Am Ring",
+          2.9
+        ],
+        [
+          "Breite",
+          9.3
+        ],
+        [
+          "St. Alban",
+          5.8
+        ],
+        [
+          "Gundeld.",
+          13.6
+        ],
+        [
+          "Bruderholz",
+          3.6
+        ],
+        [
+          "Bachletten",
+          3.7
+        ],
+        [
+          "Gotthelf",
+          4.2
+        ],
+        [
+          "Iselin",
+          12.5
+        ],
+        [
+          "St. Johann",
+          11.1
+        ],
+        [
+          "Altstadt KB",
+          4
+        ],
+        [
+          "Clara",
+          6.5
+        ],
+        [
+          "Wettstein",
+          5.1
+        ],
+        [
+          "Hirzbrun.",
+          12.2
+        ],
+        [
+          "Rosental",
+          9.5
+        ],
+        [
+          "Matthäus",
+          9.7
+        ],
+        [
+          "Klybeck",
+          15
+        ],
+        [
+          "Kleinhün.",
+          12.9
+        ],
+        [
+          "Riehen",
+          4.6
+        ],
+        [
+          "Bettingen",
+          0.3
+        ]
+      ],
+      "name": "Türkei",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b475ab",
+      "index": 6,
+      "legendIndex": 3,
+      "data": [
+        [
+          "Altstadt GB",
+          28.7
+        ],
+        [
+          "Vorstädte",
+          31
+        ],
+        [
+          "Am Ring",
+          27
+        ],
+        [
+          "Breite",
+          21.5
+        ],
+        [
+          "St. Alban",
+          28.5
+        ],
+        [
+          "Gundeld.",
+          17.9
+        ],
+        [
+          "Bruderholz",
+          27.7
+        ],
+        [
+          "Bachletten",
+          25.4
+        ],
+        [
+          "Gotthelf",
+          22.6
+        ],
+        [
+          "Iselin",
+          20.3
+        ],
+        [
+          "St. Johann",
+          23.9
+        ],
+        [
+          "Altstadt KB",
+          23.6
+        ],
+        [
+          "Clara",
+          19.2
+        ],
+        [
+          "Wettstein",
+          23.5
+        ],
+        [
+          "Hirzbrun.",
+          17.5
+        ],
+        [
+          "Rosental",
+          18.3
+        ],
+        [
+          "Matthäus",
+          19.5
+        ],
+        [
+          "Klybeck",
+          19.5
+        ],
+        [
+          "Kleinhün.",
+          11.3
+        ],
+        [
+          "Riehen",
+          17.9
+        ],
+        [
+          "Bettingen",
+          13.5
+        ]
+      ],
+      "name": "EU-17 + EFTA",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#71a3b5",
+      "index": 5,
+      "legendIndex": 4,
+      "data": [
+        [
+          "Altstadt GB",
+          3.5
+        ],
+        [
+          "Vorstädte",
+          6.9
+        ],
+        [
+          "Am Ring",
+          6.6
+        ],
+        [
+          "Breite",
+          6.2
+        ],
+        [
+          "St. Alban",
+          5.3
+        ],
+        [
+          "Gundeld.",
+          4.5
+        ],
+        [
+          "Bruderholz",
+          5.9
+        ],
+        [
+          "Bachletten",
+          5
+        ],
+        [
+          "Gotthelf",
+          6
+        ],
+        [
+          "Iselin",
+          5.6
+        ],
+        [
+          "St. Johann",
+          5.8
+        ],
+        [
+          "Altstadt KB",
+          10
+        ],
+        [
+          "Clara",
+          5.1
+        ],
+        [
+          "Wettstein",
+          4.8
+        ],
+        [
+          "Hirzbrun.",
+          5.8
+        ],
+        [
+          "Rosental",
+          6
+        ],
+        [
+          "Matthäus",
+          5
+        ],
+        [
+          "Klybeck",
+          6.1
+        ],
+        [
+          "Kleinhün.",
+          5
+        ],
+        [
+          "Riehen",
+          4.7
+        ],
+        [
+          "Bettingen",
+          5.6
+        ]
+      ],
+      "name": "EU-Ost",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b9cfd7",
+      "index": 4,
+      "legendIndex": 5,
+      "data": [
+        [
+          "Altstadt GB",
+          1.9
+        ],
+        [
+          "Vorstädte",
+          3.3
+        ],
+        [
+          "Am Ring",
+          4.8
+        ],
+        [
+          "Breite",
+          13.6
+        ],
+        [
+          "St. Alban",
+          5.5
+        ],
+        [
+          "Gundeld.",
+          15.2
+        ],
+        [
+          "Bruderholz",
+          3.2
+        ],
+        [
+          "Bachletten",
+          5.3
+        ],
+        [
+          "Gotthelf",
+          7.2
+        ],
+        [
+          "Iselin",
+          11.6
+        ],
+        [
+          "St. Johann",
+          12.4
+        ],
+        [
+          "Altstadt KB",
+          9.1
+        ],
+        [
+          "Clara",
+          17.3
+        ],
+        [
+          "Wettstein",
+          4.6
+        ],
+        [
+          "Hirzbrun.",
+          10.6
+        ],
+        [
+          "Rosental",
+          15.6
+        ],
+        [
+          "Matthäus",
+          17.2
+        ],
+        [
+          "Klybeck",
+          19.7
+        ],
+        [
+          "Kleinhün.",
+          21.9
+        ],
+        [
+          "Riehen",
+          6.1
+        ],
+        [
+          "Bettingen",
+          1.7
+        ]
+      ],
+      "name": "Balkan",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "index": 3,
+      "legendIndex": 6,
+      "data": [
+        [
+          "Altstadt GB",
+          1
+        ],
+        [
+          "Vorstädte",
+          2.3
+        ],
+        [
+          "Am Ring",
+          2.1
+        ],
+        [
+          "Breite",
+          3
+        ],
+        [
+          "St. Alban",
+          3.1
+        ],
+        [
+          "Gundeld.",
+          2.4
+        ],
+        [
+          "Bruderholz",
+          2.3
+        ],
+        [
+          "Bachletten",
+          2.3
+        ],
+        [
+          "Gotthelf",
+          2.1
+        ],
+        [
+          "Iselin",
+          2.4
+        ],
+        [
+          "St. Johann",
+          2.4
+        ],
+        [
+          "Altstadt KB",
+          3.2
+        ],
+        [
+          "Clara",
+          2.9
+        ],
+        [
+          "Wettstein",
+          1.7
+        ],
+        [
+          "Hirzbrun.",
+          2.5
+        ],
+        [
+          "Rosental",
+          2.6
+        ],
+        [
+          "Matthäus",
+          2.4
+        ],
+        [
+          "Klybeck",
+          1.8
+        ],
+        [
+          "Kleinhün.",
+          1.9
+        ],
+        [
+          "Riehen",
+          2.1
+        ],
+        [
+          "Bettingen",
+          1
+        ]
+      ],
+      "name": "Mittel- und Südamerika",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73ba7c",
+      "index": 2,
+      "legendIndex": 7,
+      "data": [
+        [
+          "Altstadt GB",
+          0.7
+        ],
+        [
+          "Vorstädte",
+          1
+        ],
+        [
+          "Am Ring",
+          1.3
+        ],
+        [
+          "Breite",
+          1.5
+        ],
+        [
+          "St. Alban",
+          2.6
+        ],
+        [
+          "Gundeld.",
+          2.3
+        ],
+        [
+          "Bruderholz",
+          1
+        ],
+        [
+          "Bachletten",
+          1.7
+        ],
+        [
+          "Gotthelf",
+          1.8
+        ],
+        [
+          "Iselin",
+          3.1
+        ],
+        [
+          "St. Johann",
+          2.2
+        ],
+        [
+          "Altstadt KB",
+          2
+        ],
+        [
+          "Clara",
+          2.1
+        ],
+        [
+          "Wettstein",
+          1.1
+        ],
+        [
+          "Hirzbrun.",
+          1.5
+        ],
+        [
+          "Rosental",
+          2.2
+        ],
+        [
+          "Matthäus",
+          2.4
+        ],
+        [
+          "Klybeck",
+          2.8
+        ],
+        [
+          "Kleinhün.",
+          5.3
+        ],
+        [
+          "Riehen",
+          1.5
+        ],
+        [
+          "Bettingen",
+          0.3
+        ]
+      ],
+      "name": "Arabische Länder",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9f7c5a",
+      "index": 1,
+      "legendIndex": 8,
+      "data": [
+        [
+          "Altstadt GB",
+          2.4
+        ],
+        [
+          "Vorstädte",
+          0.9
+        ],
+        [
+          "Am Ring",
+          2.5
+        ],
+        [
+          "Breite",
+          2.1
+        ],
+        [
+          "St. Alban",
+          1.2
+        ],
+        [
+          "Gundeld.",
+          2.1
+        ],
+        [
+          "Bruderholz",
+          0.8
+        ],
+        [
+          "Bachletten",
+          1.3
+        ],
+        [
+          "Gotthelf",
+          2
+        ],
+        [
+          "Iselin",
+          2.8
+        ],
+        [
+          "St. Johann",
+          2.9
+        ],
+        [
+          "Altstadt KB",
+          2.2
+        ],
+        [
+          "Clara",
+          2
+        ],
+        [
+          "Wettstein",
+          1.6
+        ],
+        [
+          "Hirzbrun.",
+          2
+        ],
+        [
+          "Rosental",
+          3
+        ],
+        [
+          "Matthäus",
+          3.9
+        ],
+        [
+          "Klybeck",
+          4.1
+        ],
+        [
+          "Kleinhün.",
+          3.7
+        ],
+        [
+          "Riehen",
+          1.2
+        ],
+        [
+          "Bettingen",
+          3.5
+        ]
+      ],
+      "name": "Afrikanische Länder",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#999999",
+      "index": 0,
+      "legendIndex": 9,
+      "data": [
+        [
+          "Altstadt GB",
+          19.4
+        ],
+        [
+          "Vorstädte",
+          17.8
+        ],
+        [
+          "Am Ring",
+          15.9
+        ],
+        [
+          "Breite",
+          9.2
+        ],
+        [
+          "St. Alban",
+          16.6
+        ],
+        [
+          "Gundeld.",
+          8.7
+        ],
+        [
+          "Bruderholz",
+          12
+        ],
+        [
+          "Bachletten",
+          10.1
+        ],
+        [
+          "Gotthelf",
+          11.8
+        ],
+        [
+          "Iselin",
+          10
+        ],
+        [
+          "St. Johann",
+          10.1
+        ],
+        [
+          "Altstadt KB",
+          13.6
+        ],
+        [
+          "Clara",
+          16.7
+        ],
+        [
+          "Wettstein",
+          12.7
+        ],
+        [
+          "Hirzbrun.",
+          6.9
+        ],
+        [
+          "Rosental",
+          18.4
+        ],
+        [
+          "Matthäus",
+          11.1
+        ],
+        [
+          "Klybeck",
+          5.7
+        ],
+        [
+          "Kleinhün.",
+          9.2
+        ],
+        [
+          "Riehen",
+          8.7
+        ],
+        [
+          "Bettingen",
+          9
+        ]
+      ],
+      "name": "Übrige Länder",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "rotation": -45
+    },
+    "tickLength": 0,
+    "min": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 665,
+    "height": 208,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {};
+                    
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                          }
+                        }
+                      );
+                    }              
+                    
+                }
+    },
+    "marginBottom": 63,
+    "type": "column",
+    "inverted": false,
+    "spacingTop": 7,
+    "renderTo": "container-6675",
+    "spacingBottom": 2
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      },
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Ausländer nach Staatsangehörigkeit"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "nach Gemeinde und Wohnviertel, 2017",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "max": 100,
+    "tickInterval": 25
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik."
+  },
+  "legend": {
+    "padding": 1,
+    "symbolRadius": 0,
+    "itemMarginBottom": 1,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "y": -25,
+    "align": "right",
+    "itemDistance": 1,
+    "reversed": true,
+    "labelFormatter": function (){
+      return this.name.replace("und", "u.");
+    }
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": 10
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6675
+  }
+}

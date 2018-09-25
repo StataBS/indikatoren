@@ -8,8 +8,8 @@
             },
             "borderColor": "#fbfbfb",
             "backgroundColor": "#fbfbfb",
-            "width": 485,
-            "height": 415,
+			"width": 992,
+            "height": 484,
             "spacingBottom": 45,
             "style": {
                 "fontFamily": "Arial"
