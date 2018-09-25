@@ -2,9 +2,6 @@
   "series": [
     {
       "color": "#B00000",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2005,
@@ -53,16 +50,16 @@
         [
           2016,
           84.4
+        ],
+        [
+          2017,
+          84.4
         ]
       ],
       "name": "Frauen"
     },
     {
       "color": "#4f81bd",
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2005,
@@ -111,6 +108,10 @@
         [
           2016,
           80.4
+        ],
+        [
+          2017,
+          80.9
         ]
       ],
       "name": "Männer"
@@ -161,7 +162,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Geschlecht in Jahren",
+    "text": "nach Geschlecht in Jahren, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -212,7 +213,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-25"
   },
   "legend": {
     "enabled": true,

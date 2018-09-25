@@ -48,7 +48,7 @@
 						if (item.kennzahlenset == indikatorenset){
 							//console.log('Creating iframe for ' + index + ' (' + item.id + ')');
 							$('<iframe/>', {
-								src: 'chart.html?id=' + item.id + '&thumbnailOfflineExporting=false&kuerzelKundeAsFilename=true&thumbnailType=png&view=print&exportServer=' + protocol + '://' + hostname + ':8081',
+								src: 'chart.html?id=' + item.id + '&thumbnailOfflineExporting=false&kuerzelKundeAsFilename=false&thumbnailType=png&view=print&exportServer=' + protocol + '://' + hostname + ':8081',
 								frameborder: 0,
 								class: "noScrolling",
 								scrolling: "no",

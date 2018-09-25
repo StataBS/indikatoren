@@ -1,39 +1,30 @@
-{
- "title": "Übermässig mit Lärm belastete Wohnbevölkerung",
- "subtitle": "in %",
- "kuerzel": "I.02.14.05197",
- "kuerzelKunde": "GW19",
- "description": "Übermässig mit Lärm belastete Wohnbevölkerung",
- "id": 5197,
- "thema": "02 Raum, Umwelt",
- "unterthema": "Lärm",
- "kennzahlenset": "Nachhaltigkeit",
- "raeumlicheGliederung": [
-  "Kanton"
- ],
- "aktualisierungsdatum": "2017-03-13T17:03:27.2727",
- "schlagwort": [
-  "Bevölkerung",
-  "Umwelt"
- ],
- "stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
- "stufe2": "Wohnen",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB(A) ausgesetzt sind, betrug 2008 24,6%. Bei 14,5% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16,2% der Grenzwert in der Nacht.",
- "erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Stufen II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmission an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
- "template": "template001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "03_06_00_00_00_319",
- "parentId": 6159,
- "children": [],
- "renderLink": [],
- "quellenangabe": [
-  "Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Übermässig mit Lärm belastete Wohnbevölkerung",
+"subtitle":"Basel-Stadt",
+"kuerzel":"I.02.14.05197",
+"kuerzelKunde":"GW19",
+"description":"Übermässig mit Lärm belastete Wohnbevölkerung",
+"id":5197,
+"thema":"02 Raum, Umwelt",
+"unterthema":"Lärm",
+"kennzahlenset":"Nachhaltigkeit",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2018-09-24T09:57:37.3737",
+"stufe1":"Bereich Grundbedürfnisse und Wohlergehen",
+"stufe2":"Wohnen",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB(A) ausgesetzt sind, betrug 2008 24,6%. Bei 14,5% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16,2% der Grenzwert in der Nacht.",
+"erlaeuterungen":"Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeits&shy;stufen&shy;plan den Empfindlichkeitsstufen (ES) II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmissionen an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
+"template":"template001",
+"darstellungsart":"Grafik",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"03_06_00_00_00_319",
+"parentId":6159,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster"],
+"externalLinks":[""]
 }
