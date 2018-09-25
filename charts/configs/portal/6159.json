@@ -5,56 +5,56 @@
       "data": [
         [
           "2000",
-          13.3752315217908
+          13.4
         ],
         [
           "2003",
-          14.912066697781
+          14.9
         ],
         [
           "2008",
-          14.4737677173683
+          14.5
         ]
       ],
       "name": "Über Grenzwert am Tag",
       "turboThreshold": 0
     },
     {
-      "color": "#4f81bd",
+      "color": "#923f8d",
       "data": [
         [
           "2000",
-          17.040003799332
+          17
         ],
         [
           "2003",
-          19.4010140438712
+          19.4
         ],
         [
           "2008",
-          16.2354558916861
+          16.2
         ]
       ],
       "name": "Über Grenzwert in der Nacht",
       "turboThreshold": 0
     },
     {
-      "color": "#9A86A6",
+      "color": "#b375ab",
       "data": [
         [
           "2000",
-          25.9573524988523
+          26
         ],
         [
           "2003",
-          25.6311256311256
+          25.6
         ],
         [
           "2008",
-          24.5657922572456
+          24.6
         ]
       ],
-      "name": "Über 50 dB (A) in der Nacht",
+      "name": "Über 50 dB(A) in der Nacht",
       "turboThreshold": 0
     }
   ],
@@ -138,7 +138,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in %",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -178,7 +178,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-24"
   },
   "legend": {
     "symbolRadius": 0,

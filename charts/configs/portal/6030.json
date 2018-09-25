@@ -2,9 +2,6 @@
   "series": [
     {
       "color": "#CD9C00",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2004,
@@ -60,18 +57,22 @@
         ],
         [
           2017,
-          null
+          0.035
         ]
       ],
       "name": "AOX"
     },
     {
       "color": "#3C3C3C",
-      "visible": true,
+      "dashStyle": "ShortDash",
       "marker": {
-        "enabled": false
+        "enabled": false,
+        "states": {
+          "hover": {
+            "enabled": false
+          }
+        }
       },
-      "dashStyle": "LongDash",
       "data": [
         [
           2004,
@@ -127,10 +128,10 @@
         ],
         [
           2017,
-          null
+          0.08
         ]
       ],
-      "name": "AOX Grenzwert"
+      "name": "AOX-Grenzwert"
     }
   ],
   "chart": {
@@ -178,12 +179,12 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Milligramm pro Liter gereinigtem Abwasser",
+    "text": "in Milligramm pro Liter gereinigtem Abwasser in der ARA Basel",
     "align": "left"
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.3f} mg\u002Fl\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -228,7 +229,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-24"
   },
   "legend": {
     "enabled": true,
@@ -239,7 +240,6 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "symbolWidth": 30,
     "itemMarginBottom": 5
   },
   "plotOptions": {
