@@ -76,10 +76,10 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
@@ -89,12 +89,15 @@
       "load": function () {
                     this.credits.element.onclick = function() {};
                     
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
                     //for top-left legends with no x defined: move legend to x position of first yAxis
                     if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
                       this.update(
                         {
                           legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
                           }
                         }
                       );
@@ -104,7 +107,7 @@
     },
     "type": "column",
     "renderTo": "container-6316",
-    "spacingBottom": 8
+    "spacingBottom": 2
   },
   "plotOptions": {
     "series": {
@@ -194,7 +197,9 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik."
   },
   "legend": {
+    "padding": 1,
     "symbolRadius": 0,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
@@ -203,7 +208,6 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left"
   },
   "dataLabels": {

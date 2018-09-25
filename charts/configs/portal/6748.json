@@ -1,0 +1,461 @@
+{
+  "series": [
+    {
+      "color": "#007a2f",
+      "index": 6,
+      "legendIndex": 0,
+      "data": [
+        [
+          "2009 Total",
+          310
+        ],
+        [
+          "2009 Kein Deutsch",
+          88
+        ],
+        [
+          "2009 Deutsch und weitere",
+          125
+        ],
+        [
+          "2009 Nur Deutsch",
+          97
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2013 Total",
+          269
+        ],
+        [
+          "2013 Kein Deutsch",
+          65
+        ],
+        [
+          "2013 Deutsch und weitere",
+          112
+        ],
+        [
+          "2013 Nur Deutsch",
+          92
+        ]
+      ],
+      "name": "Stimmt genau",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68ab2b",
+      "index": 5,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2009 Total",
+          924
+        ],
+        [
+          "2009 Kein Deutsch",
+          119
+        ],
+        [
+          "2009 Deutsch und weitere",
+          276
+        ],
+        [
+          "2009 Nur Deutsch",
+          529
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2013 Total",
+          636
+        ],
+        [
+          "2013 Kein Deutsch",
+          95
+        ],
+        [
+          "2013 Deutsch und weitere",
+          192
+        ],
+        [
+          "2013 Nur Deutsch",
+          349
+        ]
+      ],
+      "name": "Stimmt eher",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "index": 4,
+      "legendIndex": 2,
+      "data": [
+        [
+          "2009 Total",
+          762
+        ],
+        [
+          "2009 Kein Deutsch",
+          83
+        ],
+        [
+          "2009 Deutsch und weitere",
+          219
+        ],
+        [
+          "2009 Nur Deutsch",
+          460
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2013 Total",
+          487
+        ],
+        [
+          "2013 Kein Deutsch",
+          52
+        ],
+        [
+          "2013 Deutsch und weitere",
+          150
+        ],
+        [
+          "2013 Nur Deutsch",
+          285
+        ]
+      ],
+      "name": "Stimmt eher nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "index": 3,
+      "legendIndex": 3,
+      "data": [
+        [
+          "2009 Total",
+          348
+        ],
+        [
+          "2009 Kein Deutsch",
+          42
+        ],
+        [
+          "2009 Deutsch und weitere",
+          133
+        ],
+        [
+          "2009 Nur Deutsch",
+          173
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2013 Total",
+          204
+        ],
+        [
+          "2013 Kein Deutsch",
+          26
+        ],
+        [
+          "2013 Deutsch und weitere",
+          53
+        ],
+        [
+          "2013 Nur Deutsch",
+          125
+        ]
+      ],
+      "name": "Stimmt gar nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 1,
+      "legendIndex": 5,
+      "data": [
+        [
+          "2009 Total",
+          582
+        ],
+        [
+          "2009 Kein Deutsch",
+          98
+        ],
+        [
+          "2009 Deutsch und weitere",
+          174
+        ],
+        [
+          "2009 Nur Deutsch",
+          310
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2013 Total",
+          506
+        ],
+        [
+          "2013 Kein Deutsch",
+          73
+        ],
+        [
+          "2013 Deutsch und weitere",
+          143
+        ],
+        [
+          "2013 Nur Deutsch",
+          290
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 0,
+      "legendIndex": 6,
+      "data": [
+        [
+          "2009 Total",
+          193
+        ],
+        [
+          "2009 Kein Deutsch",
+          37
+        ],
+        [
+          "2009 Deutsch und weitere",
+          58
+        ],
+        [
+          "2009 Nur Deutsch",
+          98
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2013 Total",
+          110
+        ],
+        [
+          "2013 Kein Deutsch",
+          18
+        ],
+        [
+          "2013 Deutsch und weitere",
+          43
+        ],
+        [
+          "2013 Nur Deutsch",
+          49
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none",
+        "fontSize": "10px"
+      },
+      "formatter": function () {
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                var category = this.value.replace("und weitere", "u.a.");
+                //check for value that contains only spaces
+            	return (category.replace(/\s/g,"") == "") ? category : category + ' (' + nString + sum + ')';
+            },
+      "align": "left",
+      "x": -135,
+      "y": 3
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                this.credits.element.onclick = function() {};
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }                              
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 320,
+    "height": 208,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial",
+      "fontSize": "10px"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "marginLeft": 140,
+    "marginRight": 5,
+    "inverted": true,
+    "renderTo": "container-6748",
+    "spacingBottom": 2
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Beurteilung der Bildungschancen nach gesprochener Sprache"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "«Alle Kinder erhalten die gleichen Bildungschancen.»"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    },
+    "column": {
+      "groupPadding": 0
+    }
+  },
+  "yAxis": {
+    "tickInterval": 50,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 15,
+      "format": "{value}%",
+      "style": {
+        "color": "#000000",
+        "fontSize": "10px",
+        "textOverflow": "none"
+      },
+      "type": "category",
+      "rotation": 0
+    },
+    "max": 100
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F16a_3."
+  },
+  "legend": {
+    "padding": 1,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "useHTML": true,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontFamily": "Arial",
+      "fontWeight": "normal",
+      "textOverflow": "none"
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        },
+    "x": -1,
+    "margin": 10,
+    "itemDistance": 1,
+    "enabled": true,
+    "symbolPadding": 1
+  },
+  "exporting": {
+    "filename": 6748
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "series": [
+    {
+      "color": "#b00000",
+      "legendIndex": 0,
+      "data": [
+        [
+          2010,
+          48.05
+        ],
+        [
+          2011,
+          48.38
+        ],
+        [
+          2012,
+          46.89
+        ],
+        [
+          2013,
+          46
+        ],
+        [
+          2014,
+          46.49
+        ],
+        [
+          2015,
+          46.82
+        ],
+        [
+          2016,
+          49.75
+        ],
+        [
+          2017,
+          51.79
+        ]
+      ],
+      "name": "Schweiz"
+    },
+    {
+      "color": "#661200",
+      "legendIndex": 2,
+      "dashStyle": "LongDash",
+      "data": [
+        [
+          2010,
+          44.62
+        ],
+        [
+          2011,
+          44.46
+        ],
+        [
+          2012,
+          43.66
+        ],
+        [
+          2013,
+          41.66
+        ],
+        [
+          2014,
+          42.01
+        ],
+        [
+          2015,
+          42.56
+        ],
+        [
+          2016,
+          45.94
+        ],
+        [
+          2017,
+          46.69
+        ]
+      ],
+      "name": "Schweizer"
+    },
+    {
+      "color": "#dc440e",
+      "legendIndex": 4,
+      "dashStyle": "LongDash",
+      "data": [
+        [
+          2010,
+          51.47
+        ],
+        [
+          2011,
+          52.53
+        ],
+        [
+          2012,
+          50.26
+        ],
+        [
+          2013,
+          50.65
+        ],
+        [
+          2014,
+          51.66
+        ],
+        [
+          2015,
+          51.76
+        ],
+        [
+          2016,
+          53.95
+        ],
+        [
+          2017,
+          57.44
+        ]
+      ],
+      "name": "Schweizerinnen"
+    },
+    {
+      "color": "#cd9c00",
+      "legendIndex": 1,
+      "data": [
+        [
+          2010,
+          24.47
+        ],
+        [
+          2011,
+          22.85
+        ],
+        [
+          2012,
+          20.67
+        ],
+        [
+          2013,
+          21.33
+        ],
+        [
+          2014,
+          24.6
+        ],
+        [
+          2015,
+          23.11
+        ],
+        [
+          2016,
+          26.05
+        ],
+        [
+          2017,
+          29.05
+        ]
+      ],
+      "name": "Ausland"
+    },
+    {
+      "color": "#7f5f1a",
+      "legendIndex": 2,
+      "dashStyle": "LongDash",
+      "data": [
+        [
+          2010,
+          21.46
+        ],
+        [
+          2011,
+          20.47
+        ],
+        [
+          2012,
+          19.77
+        ],
+        [
+          2013,
+          17.33
+        ],
+        [
+          2014,
+          20.7
+        ],
+        [
+          2015,
+          22.43
+        ],
+        [
+          2016,
+          21.77
+        ],
+        [
+          2017,
+          24.88
+        ]
+      ],
+      "name": "Ausländer"
+    },
+    {
+      "color": "#ffda80",
+      "legendIndex": 5,
+      "dashStyle": "LongDash",
+      "data": [
+        [
+          2010,
+          27.38
+        ],
+        [
+          2011,
+          25.24
+        ],
+        [
+          2012,
+          21.62
+        ],
+        [
+          2013,
+          25.29
+        ],
+        [
+          2014,
+          28.38
+        ],
+        [
+          2015,
+          23.78
+        ],
+        [
+          2016,
+          30.55
+        ],
+        [
+          2017,
+          33.42
+        ]
+      ],
+      "name": "Ausländerinnen"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 208,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6666",
+    "spacingBottom": 2
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Gymnasialquote nach Staatsangehörigkeit und Geschlecht"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E%\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "max": 60,
+    "tickInterval": 10
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik."
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 1,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "padding": 0
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6666
+  }
+}

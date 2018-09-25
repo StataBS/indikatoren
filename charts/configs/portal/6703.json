@@ -1,0 +1,315 @@
+{
+  "series": [
+    {
+      "color": "#7f5f1a",
+      "data": [
+        [
+          "0-4",
+          -18.6
+        ],
+        [
+          "5-9",
+          -16.42
+        ],
+        [
+          "10-14",
+          -17.23
+        ],
+        [
+          "15-19",
+          -26.47
+        ],
+        [
+          "20-24",
+          -15.81
+        ],
+        [
+          "25-29",
+          -8.62
+        ],
+        [
+          "30-34",
+          -8.49
+        ],
+        [
+          "35-39",
+          -8.2
+        ],
+        [
+          "40-44",
+          -9.24
+        ],
+        [
+          "45-49",
+          -10.13
+        ],
+        [
+          "50-54",
+          -9.84
+        ],
+        [
+          "55-59",
+          -11.29
+        ],
+        [
+          "60-64",
+          -10.94
+        ],
+        [
+          "65 u.m.",
+          -0.64
+        ]
+      ],
+      "name": "Männer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffda80",
+      "data": [
+        [
+          "0-4",
+          15.89
+        ],
+        [
+          "5-9",
+          16.91
+        ],
+        [
+          "10-14",
+          19.03
+        ],
+        [
+          "15-19",
+          18.51
+        ],
+        [
+          "20-24",
+          12.46
+        ],
+        [
+          "25-29",
+          9.06
+        ],
+        [
+          "30-34",
+          8.75
+        ],
+        [
+          "35-39",
+          8.84
+        ],
+        [
+          "40-44",
+          10.33
+        ],
+        [
+          "45-49",
+          9.38
+        ],
+        [
+          "50-54",
+          8.84
+        ],
+        [
+          "55-59",
+          9.93
+        ],
+        [
+          "60-64",
+          4.68
+        ],
+        [
+          "65 u.m.",
+          0.8
+        ]
+      ],
+      "name": "Frauen",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": [
+    {
+      "reversed": false,
+      "type": "category",
+      "labels": {
+        "step": 1,
+        "style": {
+          "color": "#000000",
+          "textOverflow": "none",
+          "fontSize": "10px"
+        }
+      },
+      "tickLength": 0,
+      "title": {
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickColor": "#FFFFFF"
+    },
+    {
+      "type": "category",
+      "visible": false,
+      "opposite": true,
+      "reversed": false,
+      "linkedTo": 0
+    }
+  ],
+  "chart": {
+    "marginRight": 11,
+    "type": "bar",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 320,
+    "height": 208,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+                    this.credits.element.onclick = function() {};
+                    
+                    //create symmetric xAxes
+                    var fn = this.options.customFunctions;
+                    fn.createSymmetricAxis(this.yAxis[0]);
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top'){ // && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                          }
+                        }
+                      );
+                    }
+                }
+    },
+    "renderTo": "container-6703",
+    "spacingBottom": 2
+  },
+  "plotOptions": {
+    "bar": {
+      "grouping": false
+    },
+    "series": {
+      "stacking": null,
+      "pointPadding": 0,
+      "borderWidth": 0.2,
+      "groupPadding": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Sozialhilfequote der Ausländer"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "nach Alter und Geschlecht, Basel-Stadt, 2017",
+    "align": "left"
+  },
+  "yAxis": [
+    {
+      "tickInterval": 5,
+      "min": 0,
+      "max": 30,
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "step": 1,
+        "formatter": function () {
+                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
+            	},
+        "style": {
+          "color": "#000000",
+          "textOverflow": "none",
+          "fontSize": "10px"
+        }
+      },
+      "plotLines": [
+        {
+          "value": 0,
+          "color": "white",
+          "width": 1,
+          "zIndex": 4
+        }
+      ],
+      "events": {
+        "afterSetExtremes": function (args){
+            	    this.chart.options.customFunctions.createSymmetricAxis(this);
+                }
+      }
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik."
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "padding": 1,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "fontSize": "10px"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "center",
+    "x": 2
+  },
+  "tooltip": {
+    "pointFormatter": function () {
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y),1, ",", " ") + '%</b><br/>';
+            }
+  },
+  "customFunctions": {
+    "createSymmetricAxis": function (axis){
+                var absMax = Math.max(Math.abs(axis.min), Math.abs(axis.max));
+                axis.setExtremes(-absMax, absMax);
+        	}
+  },
+  "exporting": {
+    "filename": 6703
+  }
+}

@@ -251,12 +251,15 @@
       "load": function () {
                     this.credits.element.onclick = function() {};
                     
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
                     //for top-left legends with no x defined: move legend to x position of first yAxis
                     if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
                       this.update(
                         {
                           legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
                           }
                         }
                       );
@@ -355,7 +358,9 @@
     "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2017-6-12"
   },
   "legend": {
+    "padding": 1,
     "symbolRadius": 0,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
@@ -363,7 +368,6 @@
     "enabled": true,
     "layout": "vertical",
     "verticalAlign": "middle",
-    "itemMarginBottom": 5,
     "align": "right"
   },
   "dataLabels": {
