@@ -116,10 +116,10 @@
     "width": 320,
     "height": 221,
     "spacing": [
-      7,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
@@ -129,12 +129,15 @@
       "load": function () {
                     this.credits.element.onclick = function() {};
                     
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
                     //for top-left legends with no x defined: move legend to x position of first yAxis
                     if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
                       this.update(
                         {
                           legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
                           }
                         }
                       );
@@ -145,7 +148,7 @@
     "type": "line",
     "alignTicks": false,
     "renderTo": "container-6281",
-    "spacingBottom": 28
+    "spacingBottom": 22
   },
   "plotOptions": {
     "series": {
@@ -255,7 +258,9 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EAmt für Sozialbeiträge, Abteilung Prämienverbilligungen.\u003Cbr\u002F\u003EZuletzt geändert: 2017-1-3"
   },
   "legend": {
+    "padding": 3,
     "symbolRadius": 0,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
@@ -265,11 +270,9 @@
     "verticalAlign": "top",
     "align": "left",
     "margin": 3,
-    "padding": 3,
     "labelFormatter": function (){
   	  return this.name.replace("(rechte", "<br/>(rechte");
-  	},
-    "itemMarginBottom": 5
+  	}
   },
   "dataLabels": {
     "enabled": false,

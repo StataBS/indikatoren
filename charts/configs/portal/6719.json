@@ -1,0 +1,278 @@
+{
+  "series": [
+    {
+      "color": "#246370",
+      "visible": true,
+      "data": [
+        [
+          "Schweiz",
+          69.9
+        ],
+        [
+          "Deutschland",
+          62.6
+        ],
+        [
+          "Italien",
+          58.52
+        ],
+        [
+          "Türkei",
+          51.38
+        ],
+        [
+          "EU-17 + EFTA",
+          61.45
+        ],
+        [
+          "EU-Ost",
+          53.37
+        ],
+        [
+          "Balkan",
+          49.26
+        ],
+        [
+          "Mittel- und Südamerika",
+          57.05
+        ],
+        [
+          "Arabische Länder",
+          49.07
+        ],
+        [
+          "Afrikanische Länder",
+          44.67
+        ],
+        [
+          "Übrige Länder",
+          60.34
+        ]
+      ],
+      "name": "Einpersonenhaushalt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "visible": true,
+      "data": [
+        [
+          "Schweiz",
+          27.66
+        ],
+        [
+          "Deutschland",
+          28.89
+        ],
+        [
+          "Italien",
+          23.28
+        ],
+        [
+          "Türkei",
+          19.49
+        ],
+        [
+          "EU-17 + EFTA",
+          25.59
+        ],
+        [
+          "EU-Ost",
+          21.36
+        ],
+        [
+          "Balkan",
+          19.14
+        ],
+        [
+          "Mittel- und Südamerika",
+          23.1
+        ],
+        [
+          "Arabische Länder",
+          19.82
+        ],
+        [
+          "Afrikanische Länder",
+          19.68
+        ],
+        [
+          "Übrige Länder",
+          25.56
+        ]
+      ],
+      "name": "Vierpersonenhaushalt",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "x": -5,
+      "y": 3,
+      "step": 1,
+      "rotation": 0,
+      "padding": -100,
+      "formatter": function () {
+        return this.value.replace("und","u.");
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 320,
+    "height": 208,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {};
+                    
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                          }
+                        }
+                      );
+                    }              
+                    
+                }
+    },
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-6719",
+    "spacingBottom": 12
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      },
+      "pointPadding": 0,
+      "groupPadding": 0.1
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Mittlere Wohnfläche pro Person"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2017",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 10,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 10
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik."
+  },
+  "legend": {
+    "padding": 1,
+    "symbolRadius": 0,
+    "itemMarginBottom": 1,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "x": -1,
+    "itemWidth": 150,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": 10
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 6719
+  }
+}

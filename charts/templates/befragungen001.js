@@ -1,7 +1,3 @@
-/* 
-    global Highcharts
-*/
-
 (function(){
     return {
     "chart": {

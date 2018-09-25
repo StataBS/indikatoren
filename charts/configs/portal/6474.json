@@ -227,6 +227,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "margin": 20,
     "itemWidth": 150,
     "itemMarginBottom": 5
   },
