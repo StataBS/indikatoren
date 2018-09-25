@@ -78,18 +78,18 @@
         }    
       },
       "colors": [
-        "#B00000", // red 
-        "#2B0099", // blue1 
-        "#008AC3", // blue2 
-        "#008AC3", // blue2 
-        "#B6CFD7", // blue3
-        "#B6CFD7", // blue3
-        "#008AC3", // blue2
-        "#B6CFD7", // blue3
-        "#B6CFD7", // blue3
-        "#B6CFD7", // blue3  
-        "#008AC3", // blue2 
-        "#007A2F"
+        "#68AB2B", // green
+        "#68AB2B", // green
+        "#68AB2B", // green 
+        "#68AB2B", // green 
+        "#68AB2B", // green
+        "#68AB2B", // green
+        "#68AB2B", // green
+        "#68AB2B", // green
+        "#68AB2B", // green
+        "#68AB2B", // green 
+        "#68AB2B", // green 
+        "#68AB2B"
       ],  
       "legend": {
         "enabled": false,
@@ -120,7 +120,8 @@
           "pointWidth": 10,
           },
         "column": {
-                "colorByPoint": true 
+                "colorByPoint": true,
+                grouping: false,
             } 
       },
 };
