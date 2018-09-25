@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#008AC3",
+      "color": "#2B0099",
       "marker": {
         "enabled": false
       },
@@ -112,13 +112,13 @@
         ],
         [
           2017,
-          null
+          27.71
         ]
       ],
-      "name": "Stickstoffdioxid (NO\u003Csup\u003E2\u003C\u002Fsup\u003E)"
+      "name": "Stickstoffdioxid (NO\u003Csub\u003E2\u003C\u002Fsub\u003E)"
     },
     {
-      "color": "#68AB2B",
+      "color": "#007A2F",
       "visible": true,
       "marker": {
         "enabled": false
@@ -230,17 +230,17 @@
         ],
         [
           2017,
-          null
+          16.22
         ]
       ],
       "name": "Feinstaub (PM10)"
     },
     {
-      "color": "#2B0099",
+      "color": "#008AC3",
       "marker": {
         "enabled": false
       },
-      "dashStyle": "LongDash",
+      "dashStyle": "ShortDash",
       "data": [
         [
           1991,
@@ -348,18 +348,18 @@
         ],
         [
           2017,
-          null
+          30
         ]
       ],
-      "name": "Langzeitgrenzwert NO2"
+      "name": "Langzeitgrenzwert NO\u003Csub\u003E2\u003C\u002Fsub\u003E"
     },
     {
-      "color": "#007A2F",
+      "color": "#68AB2B",
       "visible": true,
       "marker": {
         "enabled": false
       },
-      "dashStyle": "LongDash",
+      "dashStyle": "ShortDash",
       "data": [
         [
           1991,
@@ -467,7 +467,7 @@
         ],
         [
           2017,
-          null
+          20
         ]
       ],
       "name": "Langzeitgrenzwert PM10"
@@ -519,12 +519,13 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Jahresmittelwerte für Stickstoffdioxid (NO\u003Csub\u003E2\u003C\u002Fsub\u003E) und Feinstaub (PM10) in Mikrogramm pro m\u003Csup\u003E3\u003C\u002Fsup\u003E",
+    "text": "Jahresmittelwerte für Stickstoffdioxid (NO\u003Csub\u003E2\u003C\u002Fsub\u003E) und Feinstaub (PM10) in Mikrogramm pro m\u003Csup\u003E3\u003C\u002Fsup\u003E, Basel-Stadt",
     "align": "left",
     "useHTML": true
   },
   "tooltip": {
     "shared": false,
+    "useHTML": true,
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
@@ -570,7 +571,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Lufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Lufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-24"
   },
   "legend": {
     "enabled": true,
@@ -581,8 +582,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "symbolWidth": 30,
-    "itemWidth": 220,
+    "useHTML": true,
     "itemMarginBottom": 5
   },
   "plotOptions": {
@@ -635,6 +635,7 @@
     }
   },
   "exporting": {
+    "allowHTML": true,
     "filename": 6157
   }
 }
