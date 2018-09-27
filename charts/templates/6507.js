@@ -1,3 +1,6 @@
+/* 
+global Highcharts
+*/
 (function(){
     return {
  	"xAxis": {
@@ -16,9 +19,9 @@
                     return accumulator + series.yData[indexOfCurrentValue];
                 }, 0);
                 //use N if all series are visible, otherwise use n
-                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
-                //check for value empty values
-            	return (this.value == "undefined") ? "" : this.value + ' (' + nString + sum + ')';
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' :  'n='; 
+                //check for value that contains only spaces
+            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
             }
         } 
   },  
