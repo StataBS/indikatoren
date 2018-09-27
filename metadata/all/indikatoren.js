@@ -10723,17 +10723,17 @@ var indikatoren = [
 	},
 	{
 		"title": "Höchste abgeschlossene Ausbildung",
-		"subtitle": "«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»",
-		"kuerzel": "I.15.6.05191",
+		"subtitle": "Nach Geschlecht, Staatsangehörigkeit und Altersklasse, Stand: 2015 <br>«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»",
+		"kuerzel": "I.50.1.05191",
 		"kuerzelKunde": "GW13",
 		"description": "Höchste abgeschlossene Ausbildung",
-		"thema": "15 Bildung",
-		"unterthema": "Bildungsniveau",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-26T11:16:14.1414",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
@@ -10742,6 +10742,8 @@ var indikatoren = [
 		"lesehilfe": "9,2% der Befragten haben einen obligatorischen Schulabschluss. 40,6% aller Befragten absolvierten ein Studium an einer Fachhochschule oder Universität. Ein deutlicher Unterschied zwischen den Geschlechtern ist hier zu beobachten: Bei den Männern liegt der Anteil bei 46,4%, bei den Frauen bei 35,7%.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "03_05_00_00_00_313",
 		"parentId": 6136,
@@ -10753,8 +10755,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 5191,
-		"darstellungsart": "Grafik"
+		"id": 5191
 	},
 	{
 		"title": "Besuchte Weiterbildungen und Kurse in den letzten zwölf Monaten",
@@ -14955,7 +14956,7 @@ var indikatoren = [
 	{
 		"title": "Höchste abgeschlossene Ausbildung",
 		"subtitle": "Nach Geschlecht, Staatsangehörigkeit und Altersklasse, Stand: 2015 <br>«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»",
-		"kuerzel": "I.50.1.06136",
+		"kuerzel": "I.50.1.6136",
 		"kuerzelKunde": "3.3",
 		"description": "Höchste abgeschlossene Ausbildung",
 		"thema": "50 Befragungen",
@@ -14964,7 +14965,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-26T11:15:54.5454",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14973,6 +14974,8 @@ var indikatoren = [
 		"lesehilfe": "9,2% der Befragten haben einen obligatorischen Schulabschluss. 40,6% aller Befragten absolvierten ein Studium an einer Fachhochschule oder Universität. Ein deutlicher Unterschied zwischen den Geschlechtern ist hier zu beobachten: Bei den Männern liegt der Anteil bei 46,4%, bei den Frauen bei 35,7%.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_004",
 		"parentId": null,
@@ -14987,8 +14990,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6136,
-		"darstellungsart": "Grafik"
+		"id": 6136
 	},
 	{
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
