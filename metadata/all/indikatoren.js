@@ -31437,7 +31437,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Gesamteinnahmen des Kantons betragen über die Jahre gesehen zwischen knapp 4 Mrd. und über 5 Mrd. Franken (im Jahr 2007 aufgrund der Spezialfinanzierung in Höhe von über 1 Mrd. Franken zur Ausfinanzierung der Pensionskasse Basel-Stadt). Seit dem Jahr 2012 sind die Werte nach dem neuen Rechnungslegungsmodell HRM2 dargestellt, was den Vergleich erschwert. 2015 beträgt der Ertrag aus Einkommens- und Vermögenssteuern fast 1,8 Mrd. Franken, der Anteil am Gesamtertrag beträgt 40,7%.",
-		"erlaeuterungen": "Der Jahresbericht des Kantons Basel-Stadt weist Erträge aus, die während eines Kalenderjahres verbucht wurden. Dies unterscheidet sich somit von der Steuerstatistik Basel-Stadt, der Veranlagungsdaten zugrundeliegen, die auf ein bestimmtes Steuerjahr bezogen sind – unabhängig davon, wann die Steuer letztlich bezahlt worden ist.",
+		"erlaeuterungen": "Der Jahresbericht des Kantons Basel-Stadt weist Erträge aus, die während eines Kalenderjahres verbucht wurden. Dies unterscheidet sich somit von der Steuerstatistik Basel-Stadt, der Veranlagungsdaten zugrundeliegen, die auf ein bestimmtes Steuerjahr bezogen sind – unabhängig davon, wann die Steuer letztlich bezahlt worden ist. NP = Natürliche Personen; JP = Juristische Personen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
