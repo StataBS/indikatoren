@@ -1,0 +1,399 @@
+{
+  "series": [
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          2006,
+          100
+        ],
+        [
+          2007,
+          100
+        ],
+        [
+          2008,
+          100
+        ],
+        [
+          2009,
+          101
+        ],
+        [
+          2010,
+          102
+        ],
+        [
+          2011,
+          102
+        ],
+        [
+          2012,
+          103
+        ],
+        [
+          2013,
+          104
+        ],
+        [
+          2014,
+          104
+        ],
+        [
+          2015,
+          104
+        ]
+      ],
+      "name": "Veranlagungen"
+    },
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          2006,
+          100
+        ],
+        [
+          2007,
+          103
+        ],
+        [
+          2008,
+          103
+        ],
+        [
+          2009,
+          104
+        ],
+        [
+          2010,
+          106
+        ],
+        [
+          2011,
+          105
+        ],
+        [
+          2012,
+          107
+        ],
+        [
+          2013,
+          110
+        ],
+        [
+          2014,
+          114
+        ],
+        [
+          2015,
+          113
+        ]
+      ],
+      "name": "Reineinkommen"
+    },
+    {
+      "color": "#662673",
+      "data": [
+        [
+          2006,
+          100
+        ],
+        [
+          2007,
+          96
+        ],
+        [
+          2008,
+          89
+        ],
+        [
+          2009,
+          97
+        ],
+        [
+          2010,
+          94
+        ],
+        [
+          2011,
+          91
+        ],
+        [
+          2012,
+          102
+        ],
+        [
+          2013,
+          115
+        ],
+        [
+          2014,
+          127
+        ],
+        [
+          2015,
+          114
+        ]
+      ],
+      "name": "Reinvermögen"
+    },
+    {
+      "color": "#67401E",
+      "legendIndex": 4,
+      "data": [
+        [
+          2006,
+          100
+        ],
+        [
+          2007,
+          98
+        ],
+        [
+          2008,
+          95
+        ],
+        [
+          2009,
+          91
+        ],
+        [
+          2010,
+          94
+        ],
+        [
+          2011,
+          96
+        ],
+        [
+          2012,
+          100
+        ],
+        [
+          2013,
+          99
+        ],
+        [
+          2014,
+          101
+        ],
+        [
+          2015,
+          103
+        ]
+      ],
+      "name": "Einkommens- und Vermögenssteuerertrag"
+    },
+    {
+      "color": "#DC440E",
+      "data": [
+        [
+          2006,
+          100
+        ],
+        [
+          2007,
+          100
+        ],
+        [
+          2008,
+          101
+        ],
+        [
+          2009,
+          102
+        ],
+        [
+          2010,
+          102
+        ],
+        [
+          2011,
+          102
+        ],
+        [
+          2012,
+          103
+        ],
+        [
+          2013,
+          104
+        ],
+        [
+          2014,
+          105
+        ],
+        [
+          2015,
+          105
+        ]
+      ],
+      "name": "Bevölkerung"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6899"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Veranlagungen, Bevölkerung und Summe von Reineinkommen, -vermögen und Steuerertrag"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "indexiert (2006 = 100), Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 80,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-27"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemDistance": 5,
+    "labelFormatter": function (){
+      return this.name.replace("und ", "und<br/>");
+    },
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 6899
+  }
+}
