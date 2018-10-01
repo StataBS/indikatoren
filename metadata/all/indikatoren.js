@@ -10150,26 +10150,28 @@ var indikatoren = [
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Wanderungen: Schweizer",
-		"subtitle": "Stand: 2007 bis 2016",
-		"kuerzel": "I.01.5.05156",
+		"title": "Wanderungen der Schweizer",
+		"subtitle": "Summe 2008 bis 2017",
+		"kuerzel": "I.01.5.5156",
 		"kuerzelKunde": "BE8.2",
-		"description": "Wanderungen: Schweizer",
+		"description": "Wanderungen der Schweizer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-28T08:54:35.3535",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Zwischen 2007 und 2016 wiesen die zu- und weggezogenen Schweizer einzig in den Fünfjahresklassen der 15- bis 19-Jährigen sowie der 20- bis 24-Jährigen positive Wanderungssaldi auf. Deutlich mehr Weg- als Zuzüge verzeichneten die Schweizer im Alter zwischen 30 und 34 Jahren.",
+		"lesehilfe": "Zwischen 2008 und 2017 wiesen die Schweizer einzig in den Fünfjahresklassen der 15- bis 19-Jährigen sowie der 20- bis 24-Jährigen substanzielle Wanderunggewinne auf (+1 012 und +4 584). Leicht positiv fallen die Wanderungssaldi auch bei den 75- bis 79-Jährigen sowie bei den 80- bis 84-Jährigen aus. Am deutlichsten überstieg die Zahl der Wegzüge jene der Zuzüge bei den Schweizern im Alter zwischen 30 und 34 Jahren (-2 064).",
 		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung.",
 		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_111",
 		"parentId": null,
@@ -10181,30 +10183,31 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 5156,
-		"darstellungsart": "Grafik"
+		"id": 5156
 	},
 	{
-		"title": "Wanderungen: Ausländer",
-		"subtitle": "Stand: 2007 bis 2016",
-		"kuerzel": "I.01.5.05157",
+		"title": "Wanderungen der Ausländer",
+		"subtitle": "Summe 2008 bis 2017",
+		"kuerzel": "I.01.5.5157",
 		"kuerzelKunde": "BE8.3",
-		"description": "Wanderungen: Ausländer",
+		"description": "Wanderungen der Ausländer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-28T08:57:04.044",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In allen elf Fünfjahresklassen zwischen 0 und 54 Jahren ergaben sich bei den zu- und weggezogenen ausländischen Staatsangehörigen der Jahre 2007 bis 2016 Wanderungsgewinne. Am deutlichsten zeigte sich dies bei den Ausländern im Alter zwischen 25 und 29 Jahren, bei welchen der Zuzugsüberschuss 7 252 betrug. Kleine Wanderungsverluste zeigen sich in den Altersklassen ab 55 Jahren.",
+		"lesehilfe": "In allen elf Fünfjahresklassen zwischen 0 und 54 Jahren ergaben sich bei den ausländischen Staatsangehörigen der Jahre 2008 bis 2017 Wanderungsgewinne. Am deutlichsten zeigte sich dies bei den Ausländern im Alter zwischen 25 und 29 Jahren, bei welchen der Zuzugsüberschuss 7 054 betrug. Kleine Wanderungsverluste zeigen sich in den Altersklassen ab 55 Jahren.",
 		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung.",
 		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_112",
 		"parentId": null,
@@ -10216,8 +10219,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 5157,
-		"darstellungsart": "Grafik"
+		"id": 5157
 	},
 	{
 		"title": "Nettoschuldenquote und Nettoschulden pro Kopf",
