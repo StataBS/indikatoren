@@ -1052,7 +1052,10 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "formatter": function (){
+          return this.value.replace("-", "/");
+        }
     },
     "tickLength": 0
   },
