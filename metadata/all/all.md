@@ -910,6 +910,27 @@ id | visible | visibleInPortal | indikatorenset
 6771 | true | false | Wanderungen (Print)
 6774 | true | false | Wanderungen (Print)
 6778 | true | true | Gefragte Karten
+6896 | true | true | Steuern
+6897 | true | true | Steuern
+6898 | true | true | Steuern
+6899 | true | true | Steuern
+6900 | true | true | Steuern
+6901 | true | true | Steuern
+6902 | true | true | Steuern
+6903 | true | true | Steuern
+6904 | true | true | Steuern
+6905 | true | true | Steuern
+6906 | true | true | Steuern
+6907 | true | true | Steuern
+6908 | true | true | Steuern
+6909 | true | true | Steuern
+6910 | true | true | Steuern
+6911 | true | true | Steuern
+6912 | true | true | Steuern
+6980 | true | true | Steuern
+6981 | true | true | Steuern
+6982 | true | true | Steuern
+6983 | true | true | Steuern
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
