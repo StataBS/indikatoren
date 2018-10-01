@@ -1,0 +1,634 @@
+{
+  "series": [
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          "Altstadt GB",
+          24306397
+        ],
+        [
+          "Vorstädte",
+          51436406
+        ],
+        [
+          "Am Ring",
+          61226404
+        ],
+        [
+          "Breite",
+          37168747
+        ],
+        [
+          "St. Alban",
+          93814703
+        ],
+        [
+          "Gundeldingen",
+          73483560
+        ],
+        [
+          "Bruderholz",
+          88803478
+        ],
+        [
+          "Bachletten",
+          85137805
+        ],
+        [
+          "Gotthelf",
+          39813093
+        ],
+        [
+          "Iselin",
+          59212432
+        ],
+        [
+          "St. Johann",
+          62321476
+        ],
+        [
+          "Altstadt KB",
+          12183128
+        ],
+        [
+          "Clara",
+          13503233
+        ],
+        [
+          "Wettstein",
+          31236447
+        ],
+        [
+          "Hirzbrunnen",
+          37233577
+        ],
+        [
+          "Rosental",
+          13401011
+        ],
+        [
+          "Matthäus",
+          53031998
+        ],
+        [
+          "Klybeck",
+          20055510
+        ],
+        [
+          "Kleinhüning.",
+          7757957
+        ],
+        [
+          "Riehen",
+          150241735
+        ],
+        [
+          "Bettingen",
+          7766497
+        ]
+      ],
+      "name": "Ertrag Einkommen 2006",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#083038",
+      "data": [
+        [
+          "Altstadt GB",
+          27901106
+        ],
+        [
+          "Vorstädte",
+          49197631
+        ],
+        [
+          "Am Ring",
+          70596565
+        ],
+        [
+          "Breite",
+          40062655
+        ],
+        [
+          "St. Alban",
+          104234098
+        ],
+        [
+          "Gundeldingen",
+          83517575
+        ],
+        [
+          "Bruderholz",
+          98192822
+        ],
+        [
+          "Bachletten",
+          92431802
+        ],
+        [
+          "Gotthelf",
+          36241772
+        ],
+        [
+          "Iselin",
+          61515633
+        ],
+        [
+          "St. Johann",
+          71727742
+        ],
+        [
+          "Altstadt KB",
+          13872898
+        ],
+        [
+          "Clara",
+          14938272
+        ],
+        [
+          "Wettstein",
+          37215879
+        ],
+        [
+          "Hirzbrunnen",
+          39814503
+        ],
+        [
+          "Rosental",
+          20215000
+        ],
+        [
+          "Matthäus",
+          57148208
+        ],
+        [
+          "Klybeck",
+          18263130
+        ],
+        [
+          "Kleinhüning.",
+          7897937
+        ],
+        [
+          "Riehen",
+          157895965
+        ],
+        [
+          "Bettingen",
+          12223809
+        ]
+      ],
+      "name": "Ertrag Einkommen 2015",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B375AB",
+      "data": [
+        [
+          "Altstadt GB",
+          7949509
+        ],
+        [
+          "Vorstädte",
+          22924397
+        ],
+        [
+          "Am Ring",
+          11471685
+        ],
+        [
+          "Breite",
+          2557501
+        ],
+        [
+          "St. Alban",
+          26763855
+        ],
+        [
+          "Gundeldingen",
+          4378502
+        ],
+        [
+          "Bruderholz",
+          47653308
+        ],
+        [
+          "Bachletten",
+          13926954
+        ],
+        [
+          "Gotthelf",
+          14380233
+        ],
+        [
+          "Iselin",
+          3517138
+        ],
+        [
+          "St. Johann",
+          5353969
+        ],
+        [
+          "Altstadt KB",
+          1992838
+        ],
+        [
+          "Clara",
+          780209
+        ],
+        [
+          "Wettstein",
+          4211793
+        ],
+        [
+          "Hirzbrunnen",
+          3437297
+        ],
+        [
+          "Rosental",
+          490460
+        ],
+        [
+          "Matthäus",
+          3388346
+        ],
+        [
+          "Klybeck",
+          693017
+        ],
+        [
+          "Kleinhüning.",
+          277215
+        ],
+        [
+          "Riehen",
+          34692472
+        ],
+        [
+          "Bettingen",
+          1796344
+        ]
+      ],
+      "name": "Ertrag Vermögen 2006",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#662673",
+      "data": [
+        [
+          "Altstadt GB",
+          9236982
+        ],
+        [
+          "Vorstädte",
+          18491552
+        ],
+        [
+          "Am Ring",
+          12858196
+        ],
+        [
+          "Breite",
+          2819645
+        ],
+        [
+          "St. Alban",
+          37240805
+        ],
+        [
+          "Gundeldingen",
+          6379289
+        ],
+        [
+          "Bruderholz",
+          90104006
+        ],
+        [
+          "Bachletten",
+          15231211
+        ],
+        [
+          "Gotthelf",
+          4033372
+        ],
+        [
+          "Iselin",
+          4365376
+        ],
+        [
+          "St. Johann",
+          5555050
+        ],
+        [
+          "Altstadt KB",
+          1784181
+        ],
+        [
+          "Clara",
+          1239004
+        ],
+        [
+          "Wettstein",
+          4591550
+        ],
+        [
+          "Hirzbrunnen",
+          3890548
+        ],
+        [
+          "Rosental",
+          802570
+        ],
+        [
+          "Matthäus",
+          4449656
+        ],
+        [
+          "Klybeck",
+          760890
+        ],
+        [
+          "Kleinhüning.",
+          332839
+        ],
+        [
+          "Riehen",
+          36166554
+        ],
+        [
+          "Bettingen",
+          9752939
+        ]
+      ],
+      "name": "Ertrag Vermögen 2015",
+      "turboThreshold": 0
+    },
+    {
+      "color": "orange",
+      "type": "scatter",
+      "yAxis": 1,
+      "marker": {
+        "enabled": true,
+        "radius": 2
+      },
+      "tooltip": {
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "Altstadt GB",
+          1675
+        ],
+        [
+          "Vorstädte",
+          2999
+        ],
+        [
+          "Am Ring",
+          6239
+        ],
+        [
+          "Breite",
+          5497
+        ],
+        [
+          "St. Alban",
+          6439
+        ],
+        [
+          "Gundeldingen",
+          11541
+        ],
+        [
+          "Bruderholz",
+          4986
+        ],
+        [
+          "Bachletten",
+          8112
+        ],
+        [
+          "Gotthelf",
+          4191
+        ],
+        [
+          "Iselin",
+          9739
+        ],
+        [
+          "St. Johann",
+          10894
+        ],
+        [
+          "Altstadt KB",
+          1588
+        ],
+        [
+          "Clara",
+          2438
+        ],
+        [
+          "Wettstein",
+          3455
+        ],
+        [
+          "Hirzbrunnen",
+          5289
+        ],
+        [
+          "Rosental",
+          3158
+        ],
+        [
+          "Matthäus",
+          9052
+        ],
+        [
+          "Klybeck",
+          4093
+        ],
+        [
+          "Kleinhüning.",
+          1609
+        ],
+        [
+          "Riehen",
+          11758
+        ],
+        [
+          "Bettingen",
+          628
+        ]
+      ],
+      "name": "Anzahl Veranlagungen 2015 (rechte Skala)",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "step": 1,
+      "rotation": -45
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-6906"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Ertrag aus  Einkommens- und Vermögensssteuer"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in Franken, Basel-Stadt, 2006 und 2015",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": [
+    {
+      "labels": {
+        "format": "{value:,.0f}"
+      },
+      "style": {
+        "color": "#000000"
+      },
+      "title": ""
+    },
+    {
+      "opposite": true,
+      "labels": {
+        "format": "{value:,.0f}"
+      },
+      "style": {
+        "color": "#000000"
+      },
+      "title": ""
+    }
+  ],
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-27"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemDistance": 5,
+    "labelFormatter": function (){
+      return this.name.replace(" (", "<br/>(");
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "pointPadding": 0,
+      "borderWidth": 0
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 6906
+  }
+}

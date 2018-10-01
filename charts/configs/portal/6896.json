@@ -1,0 +1,610 @@
+{
+  "series": [
+    {
+      "color": "#007A2F",
+      "index": 0,
+      "legendIndex": 5,
+      "data": [
+        [
+          "2006",
+          570500000
+        ],
+        [
+          "2007",
+          1643200000
+        ],
+        [
+          "2008",
+          787300000
+        ],
+        [
+          "2009",
+          750500000
+        ],
+        [
+          "2010",
+          731600000
+        ],
+        [
+          "2011",
+          788500000
+        ],
+        [
+          "2012",
+          384904266
+        ],
+        [
+          "2013",
+          377611900
+        ],
+        [
+          "2014",
+          408900000
+        ],
+        [
+          "2015",
+          372200000
+        ]
+      ],
+      "name": "Übriges",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#083038",
+      "index": 1,
+      "legendIndex": 4,
+      "data": [
+        [
+          "2006",
+          237800000
+        ],
+        [
+          "2007",
+          271900000
+        ],
+        [
+          "2008",
+          358400000
+        ],
+        [
+          "2009",
+          290400000
+        ],
+        [
+          "2010",
+          236000000
+        ],
+        [
+          "2011",
+          265200000
+        ],
+        [
+          "2012",
+          301400000
+        ],
+        [
+          "2013",
+          384900000
+        ],
+        [
+          "2014",
+          395200000
+        ],
+        [
+          "2015",
+          452100000
+        ]
+      ],
+      "name": "Finanzertrag",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923F8D",
+      "index": 2,
+      "legendIndex": 3,
+      "data": [
+        [
+          "2006",
+          null
+        ],
+        [
+          "2007",
+          null
+        ],
+        [
+          "2008",
+          null
+        ],
+        [
+          "2009",
+          null
+        ],
+        [
+          "2010",
+          null
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2012",
+          500000000
+        ],
+        [
+          "2013",
+          530500000
+        ],
+        [
+          "2014",
+          561100000
+        ],
+        [
+          "2015",
+          599400000
+        ]
+      ],
+      "name": "Transferertrag",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "index": 3,
+      "legendIndex": 2,
+      "data": [
+        [
+          "2006",
+          998700000
+        ],
+        [
+          "2007",
+          1050000000
+        ],
+        [
+          "2008",
+          1108300000
+        ],
+        [
+          "2009",
+          1100900000
+        ],
+        [
+          "2010",
+          1451800000
+        ],
+        [
+          "2011",
+          1153300000
+        ],
+        [
+          "2012",
+          387700000
+        ],
+        [
+          "2013",
+          419000000
+        ],
+        [
+          "2014",
+          502200000
+        ],
+        [
+          "2015",
+          401100000
+        ]
+      ],
+      "name": "Entgelte",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#999999",
+      "index": 4,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2006",
+          712700000
+        ],
+        [
+          "2007",
+          781600000
+        ],
+        [
+          "2008",
+          935200000
+        ],
+        [
+          "2009",
+          700600000
+        ],
+        [
+          "2010",
+          770800000
+        ],
+        [
+          "2011",
+          733400000
+        ],
+        [
+          "2012",
+          638246802
+        ],
+        [
+          "2013",
+          677819399
+        ],
+        [
+          "2014",
+          696700000
+        ],
+        [
+          "2015",
+          734700000
+        ]
+      ],
+      "name": "Gewinn- und Kapitalsteuern (JP)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "index": 5,
+      "legendIndex": 0,
+      "data": [
+        [
+          "2006",
+          1460100000
+        ],
+        [
+          "2007",
+          1513400000
+        ],
+        [
+          "2008",
+          1556900000
+        ],
+        [
+          "2009",
+          1511000000
+        ],
+        [
+          "2010",
+          1751400000
+        ],
+        [
+          "2011",
+          1689400000
+        ],
+        [
+          "2012",
+          1577548932
+        ],
+        [
+          "2013",
+          1474568701
+        ],
+        [
+          "2014",
+          1553200000
+        ],
+        [
+          "2015",
+          1755300000
+        ]
+      ],
+      "name": "Einkommens- und Vermögenssteuern (NP)",
+      "turboThreshold": 0
+    },
+    {
+      "index": 6,
+      "legendIndex": 6,
+      "color": "#B00000",
+      "type": "scatter",
+      "marker": {
+        "enabled": true,
+        "symbol": "circle",
+        "radius": 4
+      },
+      "yAxis": 1,
+      "data": [
+        [
+          "2006",
+          36.7
+        ],
+        [
+          "2007",
+          28.8
+        ],
+        [
+          "2008",
+          32.8
+        ],
+        [
+          "2009",
+          34.7
+        ],
+        [
+          "2010",
+          35.4
+        ],
+        [
+          "2011",
+          36.5
+        ],
+        [
+          "2012",
+          41.6
+        ],
+        [
+          "2013",
+          38.2
+        ],
+        [
+          "2014",
+          37.7
+        ],
+        [
+          "2015",
+          40.7
+        ]
+      ],
+      "name": "Anteil NP (rechte Skala)",
+      "turboThreshold": 0
+    },
+    {
+      "index": 7,
+      "legendIndex": 7,
+      "color": "#662673",
+      "type": "scatter",
+      "marker": {
+        "enabled": true,
+        "symbol": "circle",
+        "radius": 4
+      },
+      "stacking": false,
+      "yAxis": 1,
+      "data": [
+        [
+          "2006",
+          17.9
+        ],
+        [
+          "2007",
+          14.9
+        ],
+        [
+          "2008",
+          19.7
+        ],
+        [
+          "2009",
+          16.1
+        ],
+        [
+          "2010",
+          15.6
+        ],
+        [
+          "2011",
+          15.8
+        ],
+        [
+          "2012",
+          16.8
+        ],
+        [
+          "2013",
+          17.5
+        ],
+        [
+          "2014",
+          16.9
+        ],
+        [
+          "2015",
+          17
+        ]
+      ],
+      "name": "Anteil JP (rechte Skala)",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "step": 1
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-6896"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Zusammensetzung der Gesamteinnahmen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in Franken, Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "tickAmount": 4,
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      }
+    },
+    {
+      "opposite": true,
+      "min": 0,
+      "tickAmount": 4,
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "style": {
+          "color": "#000000"
+        },
+        "formatter": function () {
+               return  this.value + "%";
+            }
+      }
+    }
+  ],
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-27"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "labelFormatter": function (){
+        return this.name.replace("und ", "und<br/>");
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "pointPadding": 0,
+      "stacking": "normal",
+      "borderWidth": 0
+    },
+    "scatter": {
+      "yAxis": 1,
+      "tooltip": {
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+        "pointFormatter": function (){ 
+              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat( this.y, 1, ",", " ") + '%</b><br/>';
+          }
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 6896
+  }
+}

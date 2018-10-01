@@ -1,0 +1,556 @@
+{
+  "series": [
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          "Altstadt GB",
+          12454669
+        ],
+        [
+          "Vorstädte",
+          8011683
+        ],
+        [
+          "Am Ring",
+          13716817
+        ],
+        [
+          "Breite",
+          6938102
+        ],
+        [
+          "St. Alban",
+          20095492
+        ],
+        [
+          "Gundeldingen",
+          15998569
+        ],
+        [
+          "Bruderholz",
+          9113719
+        ],
+        [
+          "Bachletten",
+          8829130
+        ],
+        [
+          "Gotthelf",
+          5009615
+        ],
+        [
+          "Iselin",
+          9824979
+        ],
+        [
+          "St. Johann",
+          11498407
+        ],
+        [
+          "Altstadt KB",
+          2231840
+        ],
+        [
+          "Clara",
+          3607937
+        ],
+        [
+          "Wettstein",
+          5423391
+        ],
+        [
+          "Hirzbrunnen",
+          1930409
+        ],
+        [
+          "Rosental",
+          4366105
+        ],
+        [
+          "Matthäus",
+          12837922
+        ],
+        [
+          "Klybeck",
+          2961136
+        ],
+        [
+          "Kleinhüning.",
+          553662
+        ],
+        [
+          "Riehen",
+          14228365
+        ],
+        [
+          "Bettingen",
+          906636
+        ]
+      ],
+      "name": "Quellensteuerertrag 2008",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "data": [
+        [
+          "Altstadt GB",
+          7822527
+        ],
+        [
+          "Vorstädte",
+          17464532
+        ],
+        [
+          "Am Ring",
+          20927391
+        ],
+        [
+          "Breite",
+          9477788
+        ],
+        [
+          "St. Alban",
+          24719887
+        ],
+        [
+          "Gundeldingen",
+          21974175
+        ],
+        [
+          "Bruderholz",
+          12190721
+        ],
+        [
+          "Bachletten",
+          10671509
+        ],
+        [
+          "Gotthelf",
+          7291451
+        ],
+        [
+          "Iselin",
+          14345802
+        ],
+        [
+          "St. Johann",
+          22722628
+        ],
+        [
+          "Altstadt KB",
+          4368879
+        ],
+        [
+          "Clara",
+          4854687
+        ],
+        [
+          "Wettstein",
+          10440625
+        ],
+        [
+          "Hirzbrunnen",
+          5478393
+        ],
+        [
+          "Rosental",
+          12874288
+        ],
+        [
+          "Matthäus",
+          21576967
+        ],
+        [
+          "Klybeck",
+          3807153
+        ],
+        [
+          "Kleinhüning.",
+          1499023
+        ],
+        [
+          "Riehen",
+          18370208
+        ],
+        [
+          "Bettingen",
+          598361
+        ]
+      ],
+      "name": "Quellensteuerertrag 2016",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B375AB",
+      "type": "scatter",
+      "marker": {
+        "symbol": "circle",
+        "radius": 3
+      },
+      "data": [
+        [
+          "Altstadt GB",
+          229
+        ],
+        [
+          "Vorstädte",
+          543
+        ],
+        [
+          "Am Ring",
+          1222
+        ],
+        [
+          "Breite",
+          647
+        ],
+        [
+          "St. Alban",
+          847
+        ],
+        [
+          "Gundeldingen",
+          1889
+        ],
+        [
+          "Bruderholz",
+          385
+        ],
+        [
+          "Bachletten",
+          579
+        ],
+        [
+          "Gotthelf",
+          540
+        ],
+        [
+          "Iselin",
+          1300
+        ],
+        [
+          "St. Johann",
+          1879
+        ],
+        [
+          "Altstadt KB",
+          227
+        ],
+        [
+          "Clara",
+          412
+        ],
+        [
+          "Wettstein",
+          465
+        ],
+        [
+          "Hirzbrunnen",
+          259
+        ],
+        [
+          "Rosental",
+          591
+        ],
+        [
+          "Matthäus",
+          1937
+        ],
+        [
+          "Klybeck",
+          574
+        ],
+        [
+          "Kleinhüning.",
+          171
+        ],
+        [
+          "Riehen",
+          976
+        ],
+        [
+          "Bettingen",
+          74
+        ]
+      ],
+      "name": "Anzahl Veranlagungen 2008 (rechte Skala)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#662673",
+      "type": "scatter",
+      "marker": {
+        "symbol": "circle",
+        "radius": 3
+      },
+      "stacking": false,
+      "data": [
+        [
+          "Altstadt GB",
+          305
+        ],
+        [
+          "Vorstädte",
+          929
+        ],
+        [
+          "Am Ring",
+          1788
+        ],
+        [
+          "Breite",
+          971
+        ],
+        [
+          "St. Alban",
+          1242
+        ],
+        [
+          "Gundeldingen",
+          2446
+        ],
+        [
+          "Bruderholz",
+          523
+        ],
+        [
+          "Bachletten",
+          940
+        ],
+        [
+          "Gotthelf",
+          714
+        ],
+        [
+          "Iselin",
+          2050
+        ],
+        [
+          "St. Johann",
+          2855
+        ],
+        [
+          "Altstadt KB",
+          459
+        ],
+        [
+          "Clara",
+          708
+        ],
+        [
+          "Wettstein",
+          706
+        ],
+        [
+          "Hirzbrunnen",
+          607
+        ],
+        [
+          "Rosental",
+          1412
+        ],
+        [
+          "Matthäus",
+          2948
+        ],
+        [
+          "Klybeck",
+          1000
+        ],
+        [
+          "Kleinhüning.",
+          343
+        ],
+        [
+          "Riehen",
+          1322
+        ],
+        [
+          "Bettingen",
+          110
+        ]
+      ],
+      "name": "Anzahl Veranlagungen 2016 (rechte Skala)",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "step": 1,
+      "rotation": -45
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "type": "column",
+    "renderTo": "container-6911",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": null,
+      "pointPadding": 0
+    },
+    "scatter": {
+      "yAxis": 1,
+      "tooltip": {
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+        "pointFormatter": function (){ 
+              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 0, ",", " ") + '</b><br/>';
+          }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Quellensteuerertrag"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in Franken, Basel-Stadt, 2008 und 2016",
+    "align": "left"
+  },
+  "yAxis": [
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      }
+    },
+    {
+      "opposite": true,
+      "min": 0,
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      }
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-27"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "labelFormatter": function (){
+         return this.name.replace(' (', '<br/>(');
+     },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemDistance": 1,
+    "padding": 1
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 6911
+  }
+}
