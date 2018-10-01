@@ -1,0 +1,584 @@
+{
+  "series": [
+    {
+      "color": "#FFDA80",
+      "index": 0,
+      "type": "column",
+      "yAxis": 0,
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "legendIndex": 1,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "Altstadt GB",
+          32255906
+        ],
+        [
+          "Vorstädte",
+          74360803
+        ],
+        [
+          "Am Ring",
+          72698089
+        ],
+        [
+          "Breite",
+          39726248
+        ],
+        [
+          "St. Alban",
+          120578558
+        ],
+        [
+          "Gundeldingen",
+          77862062
+        ],
+        [
+          "Bruderholz",
+          136456786
+        ],
+        [
+          "Bachletten",
+          99064759
+        ],
+        [
+          "Gotthelf",
+          54193326
+        ],
+        [
+          "Iselin",
+          62729570
+        ],
+        [
+          "St. Johann",
+          67675445
+        ],
+        [
+          "Altstadt KB",
+          14175966
+        ],
+        [
+          "Clara",
+          14283442
+        ],
+        [
+          "Wettstein",
+          35448240
+        ],
+        [
+          "Hirzbrunnen",
+          40670874
+        ],
+        [
+          "Rosental",
+          13891471
+        ],
+        [
+          "Matthäus",
+          56420344
+        ],
+        [
+          "Klybeck",
+          20748527
+        ],
+        [
+          "Kleinhüning.",
+          8035172
+        ],
+        [
+          "Riehen",
+          184934207
+        ],
+        [
+          "Bettingen",
+          9562841
+        ]
+      ],
+      "name": "Ertrag 2006",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 1,
+      "type": "line",
+      "yAxis": 1,
+      "marker": {
+        "enabled": false
+      },
+      "legendIndex": 2,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "Altstadt GB",
+          1235772636
+        ],
+        [
+          "Vorstädte",
+          1235772636
+        ],
+        [
+          "Am Ring",
+          1235772636
+        ],
+        [
+          "Breite",
+          1235772636
+        ],
+        [
+          "St. Alban",
+          1235772636
+        ],
+        [
+          "Gundeldingen",
+          1235772636
+        ],
+        [
+          "Bruderholz",
+          1235772636
+        ],
+        [
+          "Bachletten",
+          1235772636
+        ],
+        [
+          "Gotthelf",
+          1235772636
+        ],
+        [
+          "Iselin",
+          1235772636
+        ],
+        [
+          "St. Johann",
+          1235772636
+        ],
+        [
+          "Altstadt KB",
+          1235772636
+        ],
+        [
+          "Clara",
+          1235772636
+        ],
+        [
+          "Wettstein",
+          1235772636
+        ],
+        [
+          "Hirzbrunnen",
+          1235772636
+        ],
+        [
+          "Rosental",
+          1235772636
+        ],
+        [
+          "Matthäus",
+          1235772636
+        ],
+        [
+          "Klybeck",
+          1235772636
+        ],
+        [
+          "Kleinhüning.",
+          1235772636
+        ],
+        [
+          "Riehen",
+          1235772636
+        ],
+        [
+          "Bettingen",
+          1235772636
+        ]
+      ],
+      "name": "Ertrag Basel-Stadt 2006 (rechte Skala)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#7F5F1A",
+      "index": 0,
+      "type": "column",
+      "yAxis": 0,
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "legendIndex": 3,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "Altstadt GB",
+          37138088
+        ],
+        [
+          "Vorstädte",
+          67689183
+        ],
+        [
+          "Am Ring",
+          83454761
+        ],
+        [
+          "Breite",
+          42882300
+        ],
+        [
+          "St. Alban",
+          141474903
+        ],
+        [
+          "Gundeldingen",
+          89896864
+        ],
+        [
+          "Bruderholz",
+          188296828
+        ],
+        [
+          "Bachletten",
+          107663013
+        ],
+        [
+          "Gotthelf",
+          40275144
+        ],
+        [
+          "Iselin",
+          65881009
+        ],
+        [
+          "St. Johann",
+          77282792
+        ],
+        [
+          "Altstadt KB",
+          15657079
+        ],
+        [
+          "Clara",
+          16177276
+        ],
+        [
+          "Wettstein",
+          41807429
+        ],
+        [
+          "Hirzbrunnen",
+          43705051
+        ],
+        [
+          "Rosental",
+          21017570
+        ],
+        [
+          "Matthäus",
+          61597864
+        ],
+        [
+          "Klybeck",
+          19024020
+        ],
+        [
+          "Kleinhüning.",
+          8230776
+        ],
+        [
+          "Riehen",
+          194062519
+        ],
+        [
+          "Bettingen",
+          21976748
+        ]
+      ],
+      "name": "Ertrag 2015",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 1,
+      "type": "line",
+      "yAxis": 1,
+      "legendIndex": 3,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          "Altstadt GB",
+          1385191217
+        ],
+        [
+          "Vorstädte",
+          1385191217
+        ],
+        [
+          "Am Ring",
+          1385191217
+        ],
+        [
+          "Breite",
+          1385191217
+        ],
+        [
+          "St. Alban",
+          1385191217
+        ],
+        [
+          "Gundeldingen",
+          1385191217
+        ],
+        [
+          "Bruderholz",
+          1385191217
+        ],
+        [
+          "Bachletten",
+          1385191217
+        ],
+        [
+          "Gotthelf",
+          1385191217
+        ],
+        [
+          "Iselin",
+          1385191217
+        ],
+        [
+          "St. Johann",
+          1385191217
+        ],
+        [
+          "Altstadt KB",
+          1385191217
+        ],
+        [
+          "Clara",
+          1385191217
+        ],
+        [
+          "Wettstein",
+          1385191217
+        ],
+        [
+          "Hirzbrunnen",
+          1385191217
+        ],
+        [
+          "Rosental",
+          1385191217
+        ],
+        [
+          "Matthäus",
+          1385191217
+        ],
+        [
+          "Klybeck",
+          1385191217
+        ],
+        [
+          "Kleinhüning.",
+          1385191217
+        ],
+        [
+          "Riehen",
+          1385191217
+        ],
+        [
+          "Bettingen",
+          1385191217
+        ]
+      ],
+      "name": "Ertrag Basel-Stadt 2015 (rechte Skala)",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "step": 1,
+      "rotation": -45
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "alignTicks": false,
+    "renderTo": "container-6909"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Gesamtertrag aus Einkommens- und Vermögenssteuer"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in Franken, Basel-Stadt, 2006 und 2015",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "yAxis": [
+    {
+      "tickAmount": 5,
+      "min": 0,
+      "title": {
+        "text": null,
+        "color": "#000000",
+        "fontSize": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
+      }
+    },
+    {
+      "tickAmount": 5,
+      "min": 0,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
+      },
+      "opposite": true
+    }
+  ],
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-27"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "nowrap",
+      "whiteSpace": "nowrap"
+    },
+    "itemWidth": 140,
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 6909
+  }
+}

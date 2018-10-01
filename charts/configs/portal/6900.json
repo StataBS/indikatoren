@@ -1,0 +1,315 @@
+{
+  "series": [
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          2006,
+          62984
+        ],
+        [
+          2007,
+          65318
+        ],
+        [
+          2008,
+          64910
+        ],
+        [
+          2009,
+          65107
+        ],
+        [
+          2010,
+          65751
+        ],
+        [
+          2011,
+          64818
+        ],
+        [
+          2012,
+          65189
+        ],
+        [
+          2013,
+          66943
+        ],
+        [
+          2014,
+          68538
+        ],
+        [
+          2015,
+          68248
+        ]
+      ],
+      "name": "Mittelwert Reineinkommen"
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          2006,
+          48563
+        ],
+        [
+          2007,
+          49530
+        ],
+        [
+          2008,
+          47442
+        ],
+        [
+          2009,
+          47980
+        ],
+        [
+          2010,
+          48072
+        ],
+        [
+          2011,
+          48350
+        ],
+        [
+          2012,
+          48409
+        ],
+        [
+          2013,
+          48816
+        ],
+        [
+          2014,
+          49044
+        ],
+        [
+          2015,
+          49142
+        ]
+      ],
+      "name": "Median Reineinkommen"
+    },
+    {
+      "color": "#083038",
+      "yAxis": 1,
+      "data": [
+        [
+          2006,
+          1023135594
+        ],
+        [
+          2007,
+          1069643932
+        ],
+        [
+          2008,
+          1041456578
+        ],
+        [
+          2009,
+          1058394894
+        ],
+        [
+          2010,
+          1088317926
+        ],
+        [
+          2011,
+          1057636852
+        ],
+        [
+          2012,
+          1065215842
+        ],
+        [
+          2013,
+          1084939722
+        ],
+        [
+          2014,
+          1115435105
+        ],
+        [
+          2015,
+          1115105002
+        ]
+      ],
+      "name": "Ertrag aus Einkommenssteuer (rechte Skala)"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6900"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Mittelwert und Median des Reineinkommens, Summe des Ertrags aus Einkommenssteuer"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in Franken, Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": [
+    {
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "title": ""
+    },
+    {
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "max": 1500000000,
+      "gridLineWidth": 0,
+      "opposite": true
+    }
+  ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-27"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 6900
+  }
+}

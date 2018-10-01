@@ -1,0 +1,374 @@
+{
+  "series": [
+    {
+      "color": "#007a2f",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 0,
+      "data": [
+        [
+          2005,
+          22455019
+        ],
+        [
+          2006,
+          23063839
+        ],
+        [
+          2007,
+          23901841
+        ],
+        [
+          2008,
+          15669900
+        ],
+        [
+          2009,
+          12701128
+        ],
+        [
+          2010,
+          13871865
+        ],
+        [
+          2011,
+          15450187
+        ],
+        [
+          2012,
+          16666516
+        ],
+        [
+          2013,
+          16959954
+        ],
+        [
+          2014,
+          17418000
+        ]
+      ],
+      "name": "Ertrag Grundstücksteuern"
+    },
+    {
+      "color": "#DC440E",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 1,
+      "data": [
+        [
+          2005,
+          130786769
+        ],
+        [
+          2006,
+          127051351
+        ],
+        [
+          2007,
+          131526059
+        ],
+        [
+          2008,
+          130144479
+        ],
+        [
+          2009,
+          131231240
+        ],
+        [
+          2010,
+          129712441
+        ],
+        [
+          2011,
+          116370771
+        ],
+        [
+          2012,
+          108317154
+        ],
+        [
+          2013,
+          133050144
+        ],
+        [
+          2014,
+          134545000
+        ]
+      ],
+      "name": "Ertrag Kapitalsteuern"
+    },
+    {
+      "color": "#B00000",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 2,
+      "data": [
+        [
+          2005,
+          639379433
+        ],
+        [
+          2006,
+          662809438
+        ],
+        [
+          2007,
+          790091445
+        ],
+        [
+          2008,
+          603782261
+        ],
+        [
+          2009,
+          626110994
+        ],
+        [
+          2010,
+          530571499
+        ],
+        [
+          2011,
+          449178880
+        ],
+        [
+          2012,
+          509340739
+        ],
+        [
+          2013,
+          544278335
+        ],
+        [
+          2014,
+          542697000
+        ]
+      ],
+      "name": "Ertrag Gewinnsteuern"
+    },
+    {
+      "yAxis": 1,
+      "color": "#ffbb58",
+      "index": 1,
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
+      "legendIndex": 3,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2005,
+          9802
+        ],
+        [
+          2006,
+          9885
+        ],
+        [
+          2007,
+          10051
+        ],
+        [
+          2008,
+          10179
+        ],
+        [
+          2009,
+          10075
+        ],
+        [
+          2010,
+          10335
+        ],
+        [
+          2011,
+          10541
+        ],
+        [
+          2012,
+          10803
+        ],
+        [
+          2013,
+          10782
+        ],
+        [
+          2014,
+          10959
+        ]
+      ],
+      "name": "Veranlagungen (rechte Skala)"
+    }
+  ],
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "renderTo": "container-6981",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal",
+      "pointPadding": 0,
+      "groupPadding": 0.5
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Gewinn- und Kapitalsteuer"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in Franken, Basel-Stadt",
+    "align": "left"
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "yAxis": [
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      }
+    },
+    {
+      "opposite": true,
+      "min": 0,
+      "max": 11000,
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      }
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-27"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemMarginBottom": 5,
+    "itemDistance": 2,
+    "padding": 1,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "shared": true
+  },
+  "exporting": {
+    "filename": 6981
+  }
+}
