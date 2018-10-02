@@ -7,14 +7,14 @@
         }
   },
   "yAxis": {
-  	max: 4000,
+  	max: 200000,
     "labels": {
       "format": "{value:,.0f}",
     }
   },
   "xAxis": {
   	"type": "category",
-   "tickInterval": 10,
+   "tickInterval": 1,
           "labels": {
           	step: 1,
             //"rotation": 0,
