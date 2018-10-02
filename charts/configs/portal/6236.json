@@ -388,7 +388,7 @@
       "rotation": -45
     },
     "tickLength": 0,
-    "tickInterval": 10
+    "tickInterval": 1
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -474,7 +474,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "max": 4000
+    "max": 200000
   },
   "navigation": {
     "menuItemStyle": {
