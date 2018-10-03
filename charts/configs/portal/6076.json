@@ -682,10 +682,12 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      }
+      },
+      "step": 2
     },
     "tickLength": 0,
-    "type": "linear"
+    "type": "linear",
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
