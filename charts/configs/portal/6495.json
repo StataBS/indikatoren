@@ -586,15 +586,14 @@
     "itemStyle": {
       "fontWeight": "normal",
       "textOverflow": null,
-      "whitespace": "nowrap"
+      "whiteSpace": "nowrap"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
         return this.name;
     },
     "enabled": true,
-    "alignColumns": false,
-    "itemDistance": 15
+    "itemWidth": 150
   },
   "exporting": {
     "filename": 6495

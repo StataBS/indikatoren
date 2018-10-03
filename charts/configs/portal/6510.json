@@ -500,17 +500,16 @@
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
-      "textOverflow": null
+      "textOverflow": null,
+      "whiteSpace": "nowrap"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
+            return this.name;
         },
     "enabled": true,
-    "reversed": true,
-    "_labelFormatter": function () {
-            return this.name;
-        }
+    "itemWidth": 140,
+    "reversed": true
   },
   "exporting": {
     "filename": 6510

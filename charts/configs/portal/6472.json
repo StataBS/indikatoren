@@ -585,13 +585,15 @@
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
-      "textOverflow": null
+      "textOverflow": null,
+      "whiteSpace": "nowrap"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        },
-    "enabled": true
+        return this.name;
+    },
+    "enabled": true,
+    "itemWidth": 150
   },
   "exporting": {
     "filename": 6472

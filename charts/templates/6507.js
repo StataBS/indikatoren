@@ -48,14 +48,16 @@ global Highcharts
   "legend": { 
     "enabled": true,
     "layout": "horizontal",
-   "itemWidth": 150,
+   "itemWidth": 140,
     "verticalAlign": "top",
     "align": "left",
      "labelFormatter": function () {
             return this.name;
         },
-    "itemStyle": {
-    "fontWeight": "normal"
+    itemStyle: {
+        fontWeight: "normal", 
+        textOverflow: null, 
+        whiteSpace: 'nowrap'
     }
   },
 

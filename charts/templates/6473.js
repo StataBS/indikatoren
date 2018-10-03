@@ -53,7 +53,9 @@
             return this.name;
         },
     "itemStyle": {
-    "fontWeight": "normal"
+        fontWeight: "normal",
+        textOverflow: null,
+        whiteSpace: "nowrap",
     }
   },
 

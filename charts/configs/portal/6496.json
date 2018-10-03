@@ -460,7 +460,8 @@
             	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
             },
       "align": "left",
-      "x": -130
+      "x": -130,
+      "y": 2
     }
   },
   "chart": {
@@ -585,7 +586,8 @@
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
-      "textOverflow": null
+      "textOverflow": null,
+      "whiteSpace": "nowrap"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
@@ -595,7 +597,7 @@
     "itemDistance": 5,
     "padding": 0,
     "symbolPadding": 3,
-    "alignColumns": false
+    "itemWidth": 140
   },
   "exporting": {
     "filename": 6496

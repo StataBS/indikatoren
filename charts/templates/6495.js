@@ -47,15 +47,14 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    alignColumns: false, 
-    itemDistance: 15, 
-     "labelFormatter": function () {
+    itemWidth: 150,
+    labelFormatter: function () {
         return this.name;
     },
-    "itemStyle": {
-        "fontWeight": "normal", 
+    itemStyle: {
+        fontWeight: "normal", 
         textOverflow: null, 
-        whitespace: 'nowrap'
+        whiteSpace: 'nowrap'
     }
   },
 
@@ -64,5 +63,5 @@
      "inverted": true,
       "height": 500,
   },
-}
+};
 }());
