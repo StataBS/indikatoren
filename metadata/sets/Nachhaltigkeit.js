@@ -763,8 +763,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
-		"subtitle": "",
-		"kuerzel": "I.19.1.05188",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.19.1.5188",
 		"kuerzelKunde": "GW11",
 		"description": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
 		"thema": "19 Rechtspflege",
@@ -773,18 +773,22 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-14T14:15:17.1717",
+		"aktualisierungsdatum": "2018-10-02T11:43:59.5959",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Gewaltstraftaten (vorsätzliche Tötungs- und Körperverletzungsdelikte, Raub, Vergewaltigung) pro 100 000 Einwohner der mittleren Wohnbevölkerung ging von 2005 bis 2007 zurück. Danach stieg die Zahl bis zum Jahr 2011 kontinuierlich. Seither wird wieder ein Rückgang verzeichnet.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Zahl der Gewaltstraftaten pro 100 000 Einwohner ist im Jahr 2017  im Vergleich zum Vorjahr von 358 auf 316 zurückgegangen.",
+		"erlaeuterungen": "Unter Gewaltstraftaten werden Straftatbestände zusammengefasst, welche die vorsätzliche Anwendung von Gewalt gegen Personen beinhalten. Für den Indikator sind dies Tötungsdelikte (Art. 111-113/116), schwere, sowie einfache Körperverletzung (Art. 122-123), Raub (Art. 140) und Vergewaltigung (Art. 190). Die Anzahl pro Einwohner wird anhand der mittleren Wohnbevölkerung berechnet.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "03_04_00_00_00_311",
-		"parentId": 4923,
-		"children": [],
+		"parentId": null,
+		"children": [
+			"4923"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
@@ -792,8 +796,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5188,
-		"darstellungsart": "Grafik"
+		"id": 5188
 	},
 	{
 		"title": "Anzahl Störfälle und Ereignisse",
@@ -1906,8 +1909,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anzahl Beschäftigte nach Sektor",
-		"subtitle": "in Vollzeitäquivalenten",
-		"kuerzel": "I.03.2.06046",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"kuerzel": "I.03.2.6046",
 		"kuerzelKunde": "WE2",
 		"description": "Anzahl Beschäftigte nach Sektor",
 		"thema": "03 Erwerbsleben",
@@ -1916,15 +1919,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-02T11:24:25.2525",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In Basel-Stadt waren im Jahr 2015 rund 152 000 Beschäftigte in Vollzeitäquivalenten (VZÄ) tätig. Dies entspricht einer Zunahme um 12,8% gegenüber 2005. Im Jahr 2015 waren 77% der VZÄ im sekundären Sektor und 23% im Dienstleistungssektor beschäftigt.",
-		"erlaeuterungen": "Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
+		"lesehilfe": "In Basel-Stadt waren im Jahr 2016 rund 151 000 Beschäftigte (in Vollzeitäquivalenten) tätig. Dies entspricht einer Zunahme um 12,6% gegenüber 2005. Im Jahr 2016 entfielen 77% der Vollzeitäquivalente  auf den sekundären Sektor und 23% auf den Dienstleistungssektor.",
+		"erlaeuterungen": "In der Statistik der Unternehmensstruktur (STATENT) werden Beschäftigte berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2300 Franken im Jahr AHV-Beiträge zahlen müssen. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit)  in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "06_01_00_00_00_602",
 		"parentId": null,
 		"children": [],
@@ -1935,8 +1940,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6046,
-		"darstellungsart": "Grafik"
+		"id": 6046
 	},
 	{
 		"title": "Branchenanteile an der nominalen Wertschöpfung",
