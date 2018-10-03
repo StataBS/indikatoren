@@ -9779,8 +9779,8 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:05.055",
-		"stufe1": "",
+		"aktualisierungsdatum": "2018-10-03T11:07:53.5353",
+		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -9791,7 +9791,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_019",
+		"orderKey": "01_00_00_00_00_019",
 		"parentId": null,
 		"children": [
 			"6656"
@@ -16107,7 +16107,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "in m² nach Staatsangehörigkeit",
+		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt",
 		"kuerzel": "I.09.1.6475",
 		"kuerzelKunde": "D2-1",
 		"description": "Mittlere Wohnfläche pro Person",
@@ -16117,7 +16117,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:03.033",
+		"aktualisierungsdatum": "2018-10-03T11:07:50.5050",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -18254,8 +18254,8 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:05.055",
-		"stufe1": "",
+		"aktualisierungsdatum": "2018-10-03T11:07:52.5252",
+		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -18266,7 +18266,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_022",
+		"orderKey": "01_00_00_00_00_022",
 		"parentId": null,
 		"children": [
 			"6750"
