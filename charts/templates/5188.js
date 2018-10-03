@@ -12,21 +12,17 @@
   },
   "xAxis": {
     "type": "category",
-    tickInterval: 2,
+    tickInterval: 2
   }, 
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "index": 0,
       "color": "#B375AB"
     }
   ],
   "tooltip": {
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
   },
+/*
   "plotOptions": {
     "series": {
       "dataLabels": {
@@ -43,5 +39,6 @@
       }
     }
   }
+*/
 	}
 }());
