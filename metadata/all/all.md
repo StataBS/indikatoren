@@ -420,7 +420,7 @@ id | visible | visibleInPortal | indikatorenset
 6061 | true | false | Integration
 6062 | true | true | Integration
 6063 | true | true | Integration
-6064 | true | true | Integration
+6064 | true | false | Integration
 6065 | true | true | Integration
 6066 | true | true | Integration
 6067 | true | true | Integration
