@@ -550,8 +550,7 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E%\u003Cbr\u002F\u003E"
+    "shared": false
   },
   "yAxis": {
     "min": 0,
@@ -567,8 +566,7 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "format": "{value}%"
+      }
     }
   },
   "xAxis": {

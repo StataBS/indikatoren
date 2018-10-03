@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#73B97C",
+      "color": "#008AC3",
       "visible": true,
       "data": [
         [
@@ -10,14 +10,14 @@
         ],
         [
           "Schweiz",
-          43.18
+          42.96
         ]
       ],
       "name": "Männlich",
       "turboThreshold": 0
     },
     {
-      "color": "#E6E600",
+      "color": "#B00000",
       "visible": true,
       "data": [
         [
@@ -26,7 +26,7 @@
         ],
         [
           "Schweiz",
-          47.21
+          46.87
         ]
       ],
       "name": "Weiblich",
@@ -42,7 +42,7 @@
         ],
         [
           "Schweiz",
-          45.33
+          45.05
         ]
       ],
       "name": "Total",
@@ -130,7 +130,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit und Geschlecht in m², Stand: 2016",
+    "text": "nach Staatsangehörigkeit und Geschlecht in m², Basel-Stadt, 2017",
     "align": "left",
     "useHTML": true
   },
@@ -172,7 +172,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-20"
   },
   "legend": {
     "symbolRadius": 0,

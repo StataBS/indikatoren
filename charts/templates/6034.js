@@ -10,16 +10,10 @@
     { "color": "#dc440e", index: 1, legendIndex: 1}, // rot
     { "color": "#999999", index: 0, legendIndex: 0}, // grau
   ],
-  /*"legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-	 "y": 70,
-	 itemWidth: 500, 
-      "itemStyle": {
-        "fontWeight": "normal"
-      }
-  },*/
-	}
+    legend: {
+    labelFormatter: function(){
+      return this.name.replace("/", " /<br/>");
+    }
+  },
+	};
 }());

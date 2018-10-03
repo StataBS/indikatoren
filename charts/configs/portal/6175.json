@@ -99,7 +99,7 @@
           34347
         ],
         [
-          "         ",
+          "        ",
           null
         ],
         [
@@ -109,6 +109,18 @@
         [
           "2016 Nicht-BS",
           36999
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2017 BS",
+          28361
+        ],
+        [
+          "2017 Nicht-BS",
+          40050
         ]
       ],
       "name": "Akutsomatik",
@@ -213,7 +225,7 @@
           857
         ],
         [
-          "         ",
+          "        ",
           null
         ],
         [
@@ -223,6 +235,18 @@
         [
           "2016 Nicht-BS",
           927
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2017 BS",
+          3117
+        ],
+        [
+          "2017 Nicht-BS",
+          1962
         ]
       ],
       "name": "Geriatrie",
@@ -327,7 +351,7 @@
           1012
         ],
         [
-          "         ",
+          "        ",
           null
         ],
         [
@@ -337,6 +361,18 @@
         [
           "2016 Nicht-BS",
           1023
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2017 BS",
+          2288
+        ],
+        [
+          "2017 Nicht-BS",
+          1441
         ]
       ],
       "name": "Psychiatrie",
@@ -441,7 +477,7 @@
           1456
         ],
         [
-          "         ",
+          "        ",
           null
         ],
         [
@@ -451,6 +487,18 @@
         [
           "2016 Nicht-BS",
           1532
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2017 BS",
+          1736
+        ],
+        [
+          "2017 Nicht-BS",
+          1825
         ]
       ],
       "name": "Rehabilitation",
@@ -563,9 +611,7 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    },
-    "max": 42000,
-    "tickInterval": 10500
+    }
   },
   "navigation": {
     "menuItemStyle": {
@@ -586,7 +632,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-20"
   },
   "legend": {
     "symbolRadius": 0,

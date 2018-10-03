@@ -1,40 +1,30 @@
-{
- "title": "Verkehrsleistungsindex",
- "subtitle": "Indexwert (Basis 2010 = 100)",
- "kuerzel": "I.02.6.06007",
- "kuerzelKunde": "ST 6-2",
- "description": "Verkehrsleistungsindex",
- "id": 6007,
- "thema": "02 Raum, Umwelt",
- "unterthema": "Mobilitätsverhalten",
- "kennzahlenset": "Richtplan",
- "raeumlicheGliederung": [
-  "Kanton"
- ],
- "aktualisierungsdatum": "2017-10-27T00:00:00.000",
- "schlagwort": [
-  "Lärm"
- ],
- "stufe1": "Sachgebiet Siedlung - Wohnen",
- "stufe2": "Strategie 6: Erschliessungsqualität",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Von 2010 bis 2016 haben vor allem die Verkehrsmittel Velo und ÖV BVB/BLT einen Anstieg erfahren. Während demselben Zeitraum hat die Nutzung des Verkehrsmittel MIV Stadtstrassennetz abgenommen.",
- "erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet.<br/> <br/>Autoverkehr: Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 35 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Der Index umfasst die Verkehrsleistung aller Motorfahrzeuge (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes.<br/><br/>Veloverkehr: Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Da der Veloverkehr stark wetterabhängig ist, wurde vom Statistischen Amt des Kantons Basel-Stadt ein Modell entwickelt, welches es zulässt, den Wettereinfluss aus der Verkehrsentwicklung herauszurechnen.<br/><br/>Fussverkehr: Der Index für den Fussverkehr basiert auf rund 17 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr (ÖV): Der Index des öffentlichen Verkehrs wird auf Basis der Verkehrsdaten von Tram- und Buslinien der BVB und der BLT und den S-Bahnen (nur alle zwei Jahre), abgegrenzt auf das Gebiet des Kantons Basel-Stadt, berechnet. Der Gesamtindex für den ÖV kann im jeweiligen Jahr erst im Herbst veröffentlicht werden, sobald die Daten für die S-Bahnen vorliegen.<br/> <br/>Aus der Veränderung an den Zählstellen wird die Veränderung auf dem ganzen Kantonsgebiet abgeleitet, indem jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet wird.<br/> <br/>Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
- "template": "line001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "01_03_00_00_00_002",
- "parentId": 6154,
- "children": [
-  "6258"
- ],
- "renderLink": [],
- "quellenangabe": [
-  "Amt für Mobilität Basel-Stadt"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Verkehrsleistungsindex",
+"subtitle":"Indexwert (Basis 2010 = 100), Basel-Stadt",
+"kuerzel":"I.11.6.06007",
+"kuerzelKunde":"ST 6-2",
+"description":"Verkehrsleistungsindex",
+"id":6007,
+"thema":"11 Verkehr",
+"unterthema":"Mobilitätsverhalten",
+"kennzahlenset":"Richtplan",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2018-09-25T11:41:47.4747",
+"stufe1":"Thema Querschnittsindikatoren",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf Kantonsgebiet liegt 2017 um 0,2%, diejenige des Veloverkehrs um 25,6% höher als im Jahr 2010. Der Wert für Fussgänger stieg von 2013 bis 2014 um 7 Prozentpunkte, sank dann aber wieder und liegt 2017 bei einem Indexwert von 103,7.",
+"erlaeuterungen":"Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Die Veränderung gegenüber dem Referenzjahr 2010 wird in Prozent dargestellt (indexiert, 2010 = 100). <br/><br/>Der Verkehrsleistungsindex basiert auf den an automatischen Zählstellen erfassten Verkehrsaufkommen der einzelnen Kategorien, aus welchen mit Modellen die Verkehrsleistung für den gesamten Kanton abgeleitet werden. Für den Auto- und Veloverkehr wird jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet. Die Zählstellen des Fussverkehrs werden über den «Mikrozensus Verkehr» gewichtet.<br/><br/>Autoverkehr:<br/>Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 40 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Er umfasst die Verkehrsleistung aller Motorfahrzeuge auf baselstädtischem Kantonsgebiet (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes. Der MIV Total entspricht der Verkehrsleistung auf allen Strassen des Kantonsgebiets, der MIV Stadtstrassennetz derjenigen ohne die Autobahnen.<br/><br/>Veloverkehr:<br/>Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Der Einfluss des Wetters auf den Veloverkehr wird mittels eines Modells herausgerechnet.<br/><br/>Fussverkehr:<br/>Der Index für den Fussverkehr basiert auf rund 18 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr:<br/>Der Index des öffentlichen Verkehrs basiert auf den Verkehrsleistungen der Tram-, Bus- und S-Bahn-Linien auf dem Gebiet des Kantons Basel-Stadt.",
+"template":"line001",
+"darstellungsart":"Grafik",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"17_00_00_00_00_002",
+"parentId":6154,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Amt für Mobilität Basel-Stadt"],
+"externalLinks":[""]
 }

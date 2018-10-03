@@ -683,7 +683,7 @@
         "color": "#000000",
         "textOverflow": "none"
       },
-      "step": 2
+      "step": 1
     },
     "tickLength": 0,
     "type": "linear",

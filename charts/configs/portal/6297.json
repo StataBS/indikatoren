@@ -541,6 +541,12 @@
     "backgroundColor": "#fbfbfb",
     "width": 320,
     "height": 221,
+    "spacing": [
+      6,
+      0,
+      3,
+      2
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -550,12 +556,6 @@
                     }
     },
     "type": "area",
-    "spacing": [
-      6,
-      0,
-      3,
-      2
-    ],
     "renderTo": "container-6297",
     "spacingBottom": 13
   },

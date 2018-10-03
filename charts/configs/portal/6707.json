@@ -1,0 +1,242 @@
+{
+  "series": [
+    {
+      "color": "#b00000",
+      "data": [
+        [
+          "18-19",
+          1.2
+        ],
+        [
+          "20-24",
+          1.97
+        ],
+        [
+          "25-29",
+          2.2
+        ],
+        [
+          "30-34",
+          3.5
+        ],
+        [
+          "35-39",
+          5.06
+        ],
+        [
+          "40-44",
+          7.32
+        ],
+        [
+          "45-49",
+          9.44
+        ],
+        [
+          "50-54",
+          12.05
+        ],
+        [
+          "55-59",
+          14.93
+        ],
+        [
+          "60-64",
+          15.43
+        ]
+      ],
+      "name": "Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#cd9c00",
+      "data": [
+        [
+          "18-19",
+          0.68
+        ],
+        [
+          "20-24",
+          1.12
+        ],
+        [
+          "25-29",
+          0.89
+        ],
+        [
+          "30-34",
+          0.95
+        ],
+        [
+          "35-39",
+          1.22
+        ],
+        [
+          "40-44",
+          2.4
+        ],
+        [
+          "45-49",
+          4.32
+        ],
+        [
+          "50-54",
+          7.39
+        ],
+        [
+          "55-59",
+          13.03
+        ],
+        [
+          "60-64",
+          22.53
+        ]
+      ],
+      "name": "Ausland",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "rotation": -45
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 208,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6707",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "IV-Quote nach Staatsangehörigkeit und Alter"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt, 2017",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003EAlter: {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "tickAmount": 6
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen."
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 1,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "padding": 0,
+    "itemWidth": 100
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6707
+  }
+}

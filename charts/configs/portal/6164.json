@@ -2,53 +2,50 @@
   "series": [
     {
       "color": "#CD9C00",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2004,
-          0.092
+          0.09216667
         ],
         [
           2005,
-          0.064
+          0.06425
         ],
         [
           2006,
-          0.056
+          0.05583333
         ],
         [
           2007,
-          0.048
+          0.04825
         ],
         [
           2008,
-          0.041
+          0.04116667
         ],
         [
           2009,
-          0.056
+          0.05558333
         ],
         [
           2010,
-          0.05
+          0.04975
         ],
         [
           2011,
-          0.057
+          0.05708333
         ],
         [
           2012,
-          0.042
+          0.04233333
         ],
         [
           2013,
-          0.043
+          0.04258334
         ],
         [
           2014,
-          0.05
+          0.04960791
         ],
         [
           2015,
@@ -57,17 +54,25 @@
         [
           2016,
           0.046
+        ],
+        [
+          2017,
+          0.035
         ]
       ],
       "name": "AOX"
     },
     {
       "color": "#3C3C3C",
-      "visible": true,
+      "dashStyle": "ShortDash",
       "marker": {
-        "enabled": false
+        "enabled": false,
+        "states": {
+          "hover": {
+            "enabled": false
+          }
+        }
       },
-      "dashStyle": "LongDash",
       "data": [
         [
           2004,
@@ -119,6 +124,10 @@
         ],
         [
           2016,
+          0.08
+        ],
+        [
+          2017,
           0.08
         ]
       ],
@@ -170,7 +179,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Milligramm pro Liter gereinigtem Abwasser",
+    "text": "in Milligramm pro Liter gereinigtem Abwasser in der ARA Basel",
     "align": "left"
   },
   "tooltip": {
@@ -220,7 +229,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-24"
   },
   "legend": {
     "enabled": true,
@@ -231,8 +240,6 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "symbolWidth": 30,
-    "itemWidth": 500,
     "itemMarginBottom": 5
   },
   "plotOptions": {

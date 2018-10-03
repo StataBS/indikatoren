@@ -6,14 +6,7 @@
   "yAxis": {
     "min": 0, 
     //tickInterval: 10,
-	  "labels": {
-		  "format": "{value}%"
-	  }
   },	
-  "tooltip": {
-    "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b>%<br/>'
-  },
  "series": [
   {"color": "#672773"}, /*Deutschland*/
   {"color": "#007a2f"}, /*Italien*/

@@ -667,6 +667,7 @@
       "style": {
         "color": "#000000",
         "width": 1,
+        "whiteSpace": "nowrap",
         "textOverflow": "none",
         "fontSize": "10px"
       },
@@ -692,14 +693,20 @@
   "chart": {
     "events": {
       "load": function () {
-                this.credits.element.onclick = function() {
-                    /*
-                    window.open(
-                    "http://www.statistik.bs.ch",
-                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
-                    );
-                    */
-                }
+                this.credits.element.onclick = function() {};
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }                              
             }
     },
     "borderColor": "#fbfbfb",
@@ -801,16 +808,15 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4."
   },
   "legend": {
+    "padding": 0,
     "layout": "vertical",
     "verticalAlign": "middle",
-    "itemMarginBottom": 5,
     "align": "right",
     "useHTML": true,
     "itemStyle": {
       "fontSize": "10px",
       "fontFamily": "Arial",
-      "fontWeight": "normal",
-      "width": 95
+      "fontWeight": "normal"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {

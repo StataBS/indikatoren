@@ -1,0 +1,449 @@
+{
+  "series": [
+    {
+      "index": 0,
+      "color": "#661200",
+      "tooltip": {
+        "pointFormatter": function (){
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y),1) + '%</b><br/>';
+        }
+      },
+      "data": [
+        [
+          "15-24 Jahre",
+          0.443
+        ],
+        [
+          "25-34 Jahre",
+          0.85
+        ],
+        [
+          "35-44 Jahre",
+          0.878
+        ],
+        [
+          "45-54 Jahre",
+          0.845
+        ],
+        [
+          "55-64 Jahre",
+          0.699
+        ]
+      ],
+      "name": "Schweizer",
+      "turboThreshold": 0
+    },
+    {
+      "index": 1,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function (){
+          return this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100 * this.high),1) + '%</b><br/>';
+        }
+      },
+      "data": [
+        {
+          "name": "15-24 Jahre",
+          "low": 0.411,
+          "high": 0.475
+        },
+        {
+          "name": "25-34 Jahre",
+          "low": 0.829,
+          "high": 0.872
+        },
+        {
+          "name": "35-44 Jahre",
+          "low": 0.858,
+          "high": 0.898
+        },
+        {
+          "name": "45-54 Jahre",
+          "low": 0.825,
+          "high": 0.864
+        },
+        {
+          "name": "55-64 Jahre",
+          "low": 0.674,
+          "high": 0.723
+        }
+      ],
+      "name": "Schweizer 95% Vertrauensintervall",
+      "turboThreshold": 0
+    },
+    {
+      "index": 2,
+      "color": "#dc440e",
+      "tooltip": {
+        "pointFormatter": function (){
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y),1) + '%</b><br/>';
+        }
+      },
+      "data": [
+        [
+          "15-24 Jahre",
+          0.504
+        ],
+        [
+          "25-34 Jahre",
+          0.839
+        ],
+        [
+          "35-44 Jahre",
+          0.835
+        ],
+        [
+          "45-54 Jahre",
+          0.816
+        ],
+        [
+          "55-64 Jahre",
+          0.622
+        ]
+      ],
+      "name": "Schweizerinnen",
+      "turboThreshold": 0
+    },
+    {
+      "index": 3,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function (){
+          return this.series.name + ': <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100 * this.high),1) + '%</b><br/>';
+        }
+      },
+      "data": [
+        {
+          "name": "15-24 Jahre",
+          "low": 0.471,
+          "high": 0.537
+        },
+        {
+          "name": "25-34 Jahre",
+          "low": 0.82,
+          "high": 0.858
+        },
+        {
+          "name": "35-44 Jahre",
+          "low": 0.813,
+          "high": 0.856
+        },
+        {
+          "name": "45-54 Jahre",
+          "low": 0.797,
+          "high": 0.835
+        },
+        {
+          "name": "55-64 Jahre",
+          "low": 0.599,
+          "high": 0.646
+        }
+      ],
+      "name": "Schweizerinnen 95% Vertrauensintervall",
+      "turboThreshold": 0
+    },
+    {
+      "index": 4,
+      "color": "#7f5f1a",
+      "tooltip": {
+        "pointFormatter": function (){
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y),1) + '%</b><br/>';
+        }
+      },
+      "data": [
+        [
+          "15-24 Jahre",
+          0.486
+        ],
+        [
+          "25-34 Jahre",
+          0.86
+        ],
+        [
+          "35-44 Jahre",
+          0.847
+        ],
+        [
+          "45-54 Jahre",
+          0.808
+        ],
+        [
+          "55-64 Jahre",
+          0.549
+        ]
+      ],
+      "name": "Ausländer",
+      "turboThreshold": 0
+    },
+    {
+      "index": 5,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function (){
+          return this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100 * this.high),1) + '%</b><br/>';
+        }
+      },
+      "data": [
+        {
+          "name": "15-24 Jahre",
+          "low": 0.431,
+          "high": 0.54
+        },
+        {
+          "name": "25-34 Jahre",
+          "low": 0.838,
+          "high": 0.883
+        },
+        {
+          "name": "35-44 Jahre",
+          "low": 0.825,
+          "high": 0.869
+        },
+        {
+          "name": "45-54 Jahre",
+          "low": 0.781,
+          "high": 0.834
+        },
+        {
+          "name": "55-64 Jahre",
+          "low": 0.507,
+          "high": 0.592
+        }
+      ],
+      "name": "Ausländer 95% Vertrauensintervall",
+      "turboThreshold": 0
+    },
+    {
+      "index": 6,
+      "color": "#ffda80",
+      "tooltip": {
+        "pointFormatter": function (){
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y),1) + '%</b><br/>';
+        }
+      },
+      "data": [
+        [
+          "15-24 Jahre",
+          0.418
+        ],
+        [
+          "25-34 Jahre",
+          0.734
+        ],
+        [
+          "35-44 Jahre",
+          0.729
+        ],
+        [
+          "45-54 Jahre",
+          0.689
+        ],
+        [
+          "55-64 Jahre",
+          0.455
+        ]
+      ],
+      "name": "Ausländerinnen",
+      "turboThreshold": 0
+    },
+    {
+      "index": 7,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function (){
+          return this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100 * this.high),1) + '%</b><br/>';
+        }
+      },
+      "data": [
+        {
+          "name": "15-24 Jahre",
+          "low": 0.364,
+          "high": 0.472
+        },
+        {
+          "name": "25-34 Jahre",
+          "low": 0.707,
+          "high": 0.761
+        },
+        {
+          "name": "35-44 Jahre",
+          "low": 0.702,
+          "high": 0.756
+        },
+        {
+          "name": "45-54 Jahre",
+          "low": 0.655,
+          "high": 0.723
+        },
+        {
+          "name": "55-64 Jahre",
+          "low": 0.406,
+          "high": 0.504
+        }
+      ],
+      "name": "Ausländerinnen 95% Vertrauensintervall",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "formatter": function (){
+        return this.value.replace(" Jahre", "");
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 320,
+    "height": 208,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {};
+                    
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                          }
+                        }
+                      );
+                    }              
+                    
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-6692",
+    "spacingBottom": 2
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      },
+      "pointPadding": 0,
+      "groupPadding": 0.1
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Erwerbstätigenquote"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2012 bis 2016",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "formatter": function (){
+            return Highcharts.numberFormat((100 * this.value),0)+'%';                
+        }
+    },
+    "tickInterval": 0.25
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)."
+  },
+  "legend": {
+    "padding": 1,
+    "symbolRadius": 0,
+    "itemMarginBottom": 1,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": 10
+    }
+  },
+  "exporting": {
+    "filename": 6692
+  }
+}

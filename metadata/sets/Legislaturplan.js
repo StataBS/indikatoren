@@ -183,7 +183,7 @@ var indikatorensetData = [
 	{
 		"title": "Durch BaselArea unterstützte internationale Ansiedlungen",
 		"subtitle": "in BS, BL, JU",
-		"kuerzel": "I.04.1.03086",
+		"kuerzel": "I.04.1.3086",
 		"kuerzelKunde": "2.4",
 		"description": "Durch BaselArea unterstützte internationale Ansiedlungen",
 		"thema": "04 Volkswirtschaft",
@@ -192,15 +192,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-02T10:51:44.4444",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl von durch BaselArea unterstützte internationale Ansiedlungen ist von 2012 bis 2015 rückläufig. 2016 werden mit 31 Ansiedlungen die meisten innerhalb des Beobachtungszeitraums gezählt.",
-		"erlaeuterungen": "Die Anzahl von durch BaselArea unterstützten internationalen Ansiedlungen beinhalten seit 2013 auch ausländische Firmengründungen im Kanton Jura.",
+		"lesehilfe": "Die Anzahl von durch BaselArea unterstützte Ansiedlungen von Firmen aus dem Ausland ging im Jahr 2017 auf 21 Ansiedlungen zurück, nachdem sie 2016 mit 31 Ansiedlungen die meisten innerhalb des Beobachtungszeitraums gezählt wurden.",
+		"erlaeuterungen": "Die Anzahl von durch BaselArea unterstützten internationalen Ansiedlungen beinhalten seit 2013 auch ausländische Firmenansiedlungen im Kanton Jura.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_00_00_00_00_004",
 		"parentId": null,
 		"children": [
@@ -213,8 +215,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 3086,
-		"darstellungsart": "Grafik"
+		"id": 3086
 	},
 	{
 		"title": "Globale und kontinentale Erreichbarkeit",
@@ -739,7 +740,7 @@ var indikatorensetData = [
 	{
 		"title": "Höchste abgeschlossene Ausbildung",
 		"subtitle": "Nach Geschlecht, Staatsangehörigkeit und Altersklasse, Stand: 2015 <br>«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»",
-		"kuerzel": "I.50.1.06136",
+		"kuerzel": "I.50.1.6136",
 		"kuerzelKunde": "3.3",
 		"description": "Höchste abgeschlossene Ausbildung",
 		"thema": "50 Befragungen",
@@ -748,7 +749,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-26T11:15:54.5454",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -757,6 +758,8 @@ var indikatorensetData = [
 		"lesehilfe": "9,2% der Befragten haben einen obligatorischen Schulabschluss. 40,6% aller Befragten absolvierten ein Studium an einer Fachhochschule oder Universität. Ein deutlicher Unterschied zwischen den Geschlechtern ist hier zu beobachten: Bei den Männern liegt der Anteil bei 46,4%, bei den Frauen bei 35,7%.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "03_00_00_00_00_004",
 		"parentId": null,
 		"children": [
@@ -770,8 +773,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6136,
-		"darstellungsart": "Grafik"
+		"id": 6136
 	},
 	{
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
@@ -895,15 +897,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-06T09:14:13.1313",
+		"aktualisierungsdatum": "2018-09-17T11:05:40.4040",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Insgesamt waren 2016 knapp 17% der Beschäftigten (in Vollzeitäquivalenten) in Basel-Stadt in innovativen Branchen tätig, der Grossteil davon in der Industrie.",
-		"erlaeuterungen": "Als innovative Branchen gelten (NOGA 2-Steller in Klammer): Herstellung von chemischen (20) und pharmazeutischen Produkten (21), Gummi- und Kunststoffwaren (22), elektronischen und optischen Produkten (26), elektrischen Ausrüstungen (27), Maschinenbau (28), sonstiger Fahrzeugbau (30), Herstellung von medizinischen und zahnmedizinischen Apparaten und Materialien (325), Reparatur und Installation von Maschinen und Ausrüstungen (33), Forschung und Entwicklung (72). Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen.",
+		"erlaeuterungen": "Als innovative Branchen gelten (Code der Allgemeinen Systematik der Wirtschaftszweige (NOGA) in Klammern): Herstellung von chemischen (20) und pharmazeutischen Produkten (21), Gummi- und Kunststoffwaren (22), elektronischen und optischen Produkten (26), elektrischen Ausrüstungen (27), Maschinenbau (28), sonstiger Fahrzeugbau (30), Herstellung von medizinischen und zahnmedizinischen Apparaten und Materialien (325), Reparatur und Installation von Maschinen und Ausrüstungen (33), Forschung und Entwicklung (72). Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_009",
 		"parentId": null,
@@ -918,8 +921,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6141,
-		"darstellungsart": "Grafik"
+		"id": 6141
 	},
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
@@ -995,7 +997,7 @@ var indikatorensetData = [
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
 		"subtitle": "«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Bitte geben Sie mir an, ob das eine sehr grosse, eher grosse, eher nicht so grosse oder gar keine Bereicherung für den Kanton Basel-Stadt ist.»",
-		"kuerzel": "I.50.1.06146",
+		"kuerzel": "I.50.1.6146",
 		"kuerzelKunde": "4.5",
 		"description": "Beurteilung von gesellschaftlicher Vielfalt",
 		"thema": "50 Befragungen",
@@ -1004,15 +1006,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-17T16:37:28.2828",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter Basel-Stadts als eine sehr oder eher grosse Bereicherung für den Kanton.",
+		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter des Kantons Basel-Stadt als eine sehr oder eher grosse Bereicherung für den Kanton.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "04_00_00_00_00_005",
 		"parentId": null,
 		"children": [
@@ -1027,8 +1031,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6146,
-		"darstellungsart": "Grafik"
+		"id": 6146
 	},
 	{
 		"title": "Verhältnis der Löhne von Frauen und Männern",
@@ -1255,8 +1258,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Verkehrsleistungsindex",
-		"subtitle": "Indexwert (Basis 2010 = 100)",
-		"kuerzel": "I.11.6.06154",
+		"subtitle": "Indexwert (Basis 2010 = 100), Basel-Stadt",
+		"kuerzel": "I.11.6.6154",
 		"kuerzelKunde": "5.2",
 		"description": "Verkehrsleistungsindex",
 		"thema": "11 Verkehr",
@@ -1265,15 +1268,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-25T11:41:34.3434",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf Kantonsgebiet liegt 2016 um 1%, diejenige des Veloverkehrs um 22,9% höher als im Jahr 2010. Der Wert für Fussgänger stieg von 2013 bis 2014 um 7 Prozentpunkte, sank dann aber bis 2016 wieder auf einen Indexwert von 102,5.",
-		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet.<br/> <br/>Autoverkehr:<br/>Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 35 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Der Index umfasst die Verkehrsleistung aller Motorfahrzeuge (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes.<br/><br/>Veloverkehr:<br/> Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Da der Veloverkehr stark wetterabhängig ist, wurde vom Statistischen Amt des Kantons Basel-Stadt ein Modell entwickelt, welches es zulässt, den Wettereinfluss aus der Verkehrsentwicklung herauszurechnen.<br/><br/>Fussverkehr:<br/>Der Index für den Fussverkehr basiert auf rund 17 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr (ÖV):<br/>Der Index des öffentlichen Verkehrs wird auf Basis der Verkehrsdaten von Tram- und Buslinien der BVB und der BLT und den S-Bahnen (nur alle zwei Jahre), abgegrenzt auf das Gebiet des Kantons Basel-Stadt, berechnet. Der Gesamtindex für den ÖV kann im jeweiligen Jahr erst im Herbst veröffentlicht werden, sobald die Daten für die S-Bahnen vorliegen.<br/> <br/>Aus der Veränderung an den Zählstellen wird die Veränderung auf dem ganzen Kantonsgebiet abgeleitet, indem jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet wird.<br/> <br/>Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
+		"lesehilfe": "Die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf Kantonsgebiet liegt 2017 um 0,2%, diejenige des Veloverkehrs um 25,6% höher als im Jahr 2010. Der Wert für Fussgänger stieg von 2013 bis 2014 um 7 Prozentpunkte, sank dann aber wieder und liegt 2017 bei einem Indexwert von 103,7.",
+		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Die Veränderung gegenüber dem Referenzjahr 2010 wird in Prozent dargestellt (indexiert, 2010 = 100). <br/><br/>Der Verkehrsleistungsindex basiert auf den an automatischen Zählstellen erfassten Verkehrsaufkommen der einzelnen Kategorien, aus welchen mit Modellen die Verkehrsleistung für den gesamten Kanton abgeleitet werden. Für den Auto- und Veloverkehr wird jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet. Die Zählstellen des Fussverkehrs werden über den «Mikrozensus Verkehr» gewichtet.<br/><br/>Autoverkehr:<br/>Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 40 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Er umfasst die Verkehrsleistung aller Motorfahrzeuge auf baselstädtischem Kantonsgebiet (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes. Der MIV Total entspricht der Verkehrsleistung auf allen Strassen des Kantonsgebiets, der MIV Stadtstrassennetz derjenigen ohne die Autobahnen.<br/><br/>Veloverkehr:<br/>Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Der Einfluss des Wetters auf den Veloverkehr wird mittels eines Modells herausgerechnet.<br/><br/>Fussverkehr:<br/>Der Index für den Fussverkehr basiert auf rund 18 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr:<br/>Der Index des öffentlichen Verkehrs basiert auf den Verkehrsleistungen der Tram-, Bus- und S-Bahn-Linien auf dem Gebiet des Kantons Basel-Stadt.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "05_00_00_00_00_002",
 		"parentId": null,
 		"children": [
@@ -1289,8 +1294,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6154,
-		"darstellungsart": "Grafik"
+		"id": 6154
 	},
 	{
 		"title": "Transit durch die Region Basel",
@@ -1367,8 +1371,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Luftqualität: Langzeitbelastung der Luft",
-		"subtitle": "in Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10) in Mikrogramm pro m<sup>3</sup>",
-		"kuerzel": "I.02.5.06157",
+		"subtitle": "Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10) in Mikrogramm pro m<sup>3</sup>, Basel-Stadt",
+		"kuerzel": "I.02.5.6157",
 		"kuerzelKunde": "7.7",
 		"description": "Luftqualität: Langzeitbelastung der Luft",
 		"thema": "02 Raum, Umwelt",
@@ -1377,15 +1381,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-24T09:50:51.5151",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Sowohl die Stickstoffdioxid- als auch die Feinstaubkonzentrationen lagen 2016 mit 27,8 resp. 16,1 Mikrogramm pro Kubikmeter unter dem jeweiligen Grenzwert.",
-		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>.",
+		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "07_00_00_00_00_007",
 		"parentId": null,
 		"children": [
@@ -1400,8 +1406,7 @@ var indikatorensetData = [
 			"<a href = 'https://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>"
 		],
-		"id": 6157,
-		"darstellungsart": "Grafik"
+		"id": 6157
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen Verkehr",
@@ -1442,8 +1447,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Übermässig mit Lärm belastete Wohnbevölkerung",
-		"subtitle": "in %",
-		"kuerzel": "I.02.14.06159",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.02.14.6159",
 		"kuerzelKunde": "7.8",
 		"description": "Übermässig mit Lärm belastete Wohnbevölkerung",
 		"thema": "02 Raum, Umwelt",
@@ -1452,15 +1457,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-24T09:50:51.5151",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB(A) ausgesetzt sind, betrug 2008 24,6%. Bei 14,5% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16,2% der Grenzwert in der Nacht.",
-		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Stufen II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmission an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
+		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeits&shy;stufen&shy;plan den Empfindlichkeitsstufen (ES) II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmissionen an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "07_00_00_00_00_008",
 		"parentId": null,
 		"children": [
@@ -1475,8 +1482,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6159,
-		"darstellungsart": "Grafik"
+		"id": 6159
 	},
 	{
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
@@ -1595,8 +1601,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wasserqualität: AOX-Konzentration",
-		"subtitle": "in Milligramm pro Liter gereinigtem Abwasser",
-		"kuerzel": "I.02.19.06164",
+		"subtitle": "in Milligramm pro Liter gereinigtem Abwasser in der ARA Basel",
+		"kuerzel": "I.02.19.6164",
 		"kuerzelKunde": "7.4",
 		"description": "Wasserqualität: AOX-Konzentration",
 		"thema": "02 Raum, Umwelt",
@@ -1605,15 +1611,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-24T11:49:46.4646",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2016 0,046 mg/l gereinigtem Abwasser. Sie lag damit unter dem Grenzwert von 0,08 mg/l.",
-		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) mehrmals pro Jahr in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0.08 mg/l definiert. <br><br>Für die Wasserqualität ist entscheidend, wie viele Schadstoffe trotz Kläranlagen ins Wasser gelangen. Eine Zunahme des AOX-Indikators bedeutet eine unerwünschte Belastung der Gewässer, eine Abnahme entspricht einer Verbesserung der Wasserqualität. Organische Halogenverbindungen sind bereits in geringen Mengen schädlich, schwer biologisch abbaubar und reichern sich im Fettgewebe von Tieren und Menschen an. <br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
+		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2017 0,035 mg/l gereinigtes Abwasser. Sie lag damit unter dem Grenzwert von 0,08 mg/l.",
+		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. Der Indikator zeigt den Jahresmittelwert in Milligramm AOX pro Liter. <br><br>Im Auslauf der ARA wird mehrmals pro Jahr die AOX-Konzentration in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0.08 mg/l definiert.<br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "07_00_00_00_00_004",
 		"parentId": null,
 		"children": [
@@ -1628,8 +1636,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6164,
-		"darstellungsart": "Grafik"
+		"id": 6164
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen",
@@ -1860,7 +1867,7 @@ var indikatorensetData = [
 	{
 		"title": "Stationäre Fälle in Basler Spitälern",
 		"subtitle": "Nach Hauptbereich und Wohnort",
-		"kuerzel": "I.14.1.06175",
+		"kuerzel": "I.14.1.6175",
 		"kuerzelKunde": "9.5",
 		"description": "Stationäre Fälle in Basler Spitälern",
 		"thema": "14 Gesundheit",
@@ -1869,15 +1876,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-20T11:32:29.2929",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2016 wurden zum ersten Mal im Beobachtungszeitraum mehr ausserkantonale Patienten (40 481) behandelt als Patienten mit Wohnort im Kanton Basel-Stadt (38 585). Von den insgesamt 38 585 Fällen aus dem Stadtkanton können über 77% dem Hauptbereich der Akutsomatik zugerechnet werden. Bei den ausserkantonalen Fällen macht der Anteil der Akutsomatik hingegen über 91% aus.",
+		"lesehilfe": "Im Jahr 2017 wurden mehr ausserkantonale Patienten (45 278) behandelt als Patienten mit Wohnort im Kanton Basel-Stadt (35 502). Von den insgesamt 35 502 Fällen aus dem Stadtkanton können knapp 80% dem Hauptbereich der Akutsomatik zugerechnet werden. Bei den ausserkantonalen Fällen macht der Anteil der Akutsomatik hingegen über 88% aus.",
 		"erlaeuterungen": "Gezählt werden alle stationären Fälle mit Austritt im jeweiligen Erhebungsjahr (A-Fälle). Die Aufteilung in BS und Nicht-BS erfolgt anhand des Wohnorts der Patienten. Patienten mit Wohnsitz im Ausland sind in den Nicht-BS-Fällen eingeschlossen. Die Aufteilung in die Hauptbereiche erfolgt anhand der Hauptkostenstelle.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "09_00_00_00_00_005",
 		"parentId": null,
 		"children": [
@@ -1890,8 +1899,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6175,
-		"darstellungsart": "Grafik"
+		"id": 6175
 	},
 	{
 		"title": "Anzahl Straftaten nach StGB pro 1000 Einwohner",
@@ -2008,8 +2016,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
-		"subtitle": "",
-		"kuerzel": "I.13.2.06181",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.13.2.6181",
 		"kuerzelKunde": "11.2",
 		"description": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
 		"thema": "13 Soziale Sicherheit",
@@ -2018,7 +2026,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-16T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-18T16:01:08.088",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2027,6 +2035,8 @@ var indikatorensetData = [
 		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2017 Familienmietzinsbeiträge. In 14,7% der Haushalte bezieht mindestens eine Person reine Prämienverbilligung.",
 		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge<br>Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "11_00_00_00_00_002",
 		"parentId": null,
 		"children": [
@@ -2041,8 +2051,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6181,
-		"darstellungsart": "Grafik"
+		"id": 6181
 	},
 	{
 		"title": "Sozialhilfequote nach Altersgruppe",
@@ -2378,7 +2387,7 @@ var indikatorensetData = [
 	{
 		"title": "Anzahl Lernende an Basler Berufsfachschulen",
 		"subtitle": "nach Herkunft",
-		"kuerzel": "I.15.3.06209",
+		"kuerzel": "I.15.3.6209",
 		"kuerzelKunde": "3.2",
 		"description": "Anzahl Lernende an Basler Berufsfachschulen",
 		"thema": "15 Bildung",
@@ -2387,7 +2396,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-19T09:27:39.3939",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2396,6 +2405,8 @@ var indikatorensetData = [
 		"lesehilfe": "Die Gesamtzahl der Lernenden ist seit 2011 mit Ausnahme von 2014 rückläufig. Bei Lernenden ohne Schweizer Pass ist in diesem Zeitraum eine leichte Zunahme zu beobachten.",
 		"erlaeuterungen": "Dargestellt werden die Lernenden der Ausbildungsgänge EFZ (Eidgenössisches Fähigkeitszeugnis) und EBA (Eidgenössisches Berufsattest) der vier grossen Basler Berufsfachschulen Allgemeine Gewerbeschule (AGS), Berufsfachschule (BFS), Schule für Gestaltung (SfG) sowie Handelsschule KV (HKV).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "03_00_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -2408,8 +2419,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6209,
-		"darstellungsart": "Grafik"
+		"id": 6209
 	},
 	{
 		"title": "Anzahl Plätze in Tagesbetreuungsangeboten",

@@ -19,7 +19,12 @@
     "tickInterval": 1
   },  
   "yAxis": {
+<<<<<<< HEAD
   	 max: 100,
+=======
+	 max: 100,
+	 "rotation": 0,
+>>>>>>> master
      //tickInterval: 60000,
     "labels": {
       "format": "{value:,.0f}%",

@@ -5,11 +5,11 @@
       "data": [
         [
           "Einpersonenhaushalte",
-          66.96
+          66.8
         ],
         [
           "Familienhaushalte",
-          32.6
+          32.5
         ],
         [
           "Verheiratete\u002Fregistrierte Paare ohne Kinder",
@@ -49,7 +49,7 @@
         ],
         [
           "Nichtfamilienhaushalte",
-          36.52
+          36.32
         ]
       ],
       "name": "Mittlere Wohnfläche",
@@ -68,11 +68,11 @@
         ],
         [
           "Verheiratete\u002Fregistrierte Paare ohne Kinder",
-          46.11
+          46.05
         ],
         [
           "Paare mit minderjährigen Kindern",
-          25.08
+          25.12
         ],
         [
           "Verheiratete Paare mit Kindern",
@@ -84,7 +84,7 @@
         ],
         [
           "Einelternhaushalte mit minderj. Kindern",
-          30.03
+          29.95
         ],
         [
           "Ohne weitere Personen",
@@ -100,7 +100,7 @@
         ],
         [
           "Eltern(-teil) mit nur volljährigen Kindern",
-          33.22
+          33.06
         ],
         [
           "Nichtfamilienhaushalte",
@@ -131,11 +131,11 @@
         ],
         [
           "Verheiratete Paare mit Kindern",
-          24.88
+          24.89
         ],
         [
           "Unverheiratete Paare mit Kindern",
-          26.8
+          26.96
         ],
         [
           "Einelternhaushalte mit minderj. Kindern",
@@ -143,15 +143,15 @@
         ],
         [
           "Ohne weitere Personen",
-          32.79
+          32.65
         ],
         [
           "Mit Grosseltern(-teil)",
-          25.28
+          23
         ],
         [
           "Mit weiteren Personen",
-          25.58
+          25.49
         ],
         [
           "Eltern(-teil) mit nur volljährigen Kindern",
@@ -276,7 +276,8 @@
       "pointWidth": 10
     },
     "column": {
-      "colorByPoint": true
+      "colorByPoint": true,
+      "grouping": false
     }
   },
   "title": {
@@ -295,7 +296,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Haushaltstyp in m², Stand: 2016",
+    "text": "nach Haushaltstyp in m², Basel-Stadt, 2017",
     "align": "left",
     "useHTML": true
   },
@@ -336,7 +337,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-24"
   },
   "legend": {
     "symbolRadius": 0,
@@ -349,18 +350,18 @@
     }
   },
   "colors": [
-    "#B00000",
-    "#2B0099",
-    "#008AC3",
-    "#008AC3",
-    "#B6CFD7",
-    "#B6CFD7",
-    "#008AC3",
-    "#B6CFD7",
-    "#B6CFD7",
-    "#B6CFD7",
-    "#008AC3",
-    "#007A2F"
+    "#68AB2B",
+    "#68AB2B",
+    "#68AB2B",
+    "#68AB2B",
+    "#68AB2B",
+    "#68AB2B",
+    "#68AB2B",
+    "#68AB2B",
+    "#68AB2B",
+    "#68AB2B",
+    "#68AB2B",
+    "#68AB2B"
   ],
   "tooltip": {
     "headerFormat": "",

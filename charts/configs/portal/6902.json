@@ -1,0 +1,565 @@
+{
+  "series": [
+    {
+      "color": "#A8C3CA",
+      "index": 0,
+      "type": "column",
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "legendIndex": 1,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "Altstadt GB",
+          49652
+        ],
+        [
+          "Vorstädte",
+          51549
+        ],
+        [
+          "Am Ring",
+          49271
+        ],
+        [
+          "Breite",
+          47250
+        ],
+        [
+          "St. Alban",
+          58963
+        ],
+        [
+          "Gundeldingen",
+          45698
+        ],
+        [
+          "Bruderholz",
+          62653
+        ],
+        [
+          "Bachletten",
+          56663
+        ],
+        [
+          "Gotthelf",
+          48999
+        ],
+        [
+          "Iselin",
+          45797
+        ],
+        [
+          "St. Johann",
+          42320
+        ],
+        [
+          "Altstadt KB",
+          40455
+        ],
+        [
+          "Clara",
+          39953
+        ],
+        [
+          "Wettstein",
+          52238
+        ],
+        [
+          "Hirzbrunnen",
+          49743
+        ],
+        [
+          "Rosental",
+          39951
+        ],
+        [
+          "Matthäus",
+          39377
+        ],
+        [
+          "Klybeck",
+          41565
+        ],
+        [
+          "Kleinhüning.",
+          41584
+        ],
+        [
+          "Riehen",
+          62570
+        ],
+        [
+          "Bettingen",
+          64899
+        ]
+      ],
+      "name": "Median 2006",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 1,
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
+      "legendIndex": 2,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "Altstadt GB",
+          48563
+        ],
+        [
+          "Vorstädte",
+          48563
+        ],
+        [
+          "Am Ring",
+          48563
+        ],
+        [
+          "Breite",
+          48563
+        ],
+        [
+          "St. Alban",
+          48563
+        ],
+        [
+          "Gundeldingen",
+          48563
+        ],
+        [
+          "Bruderholz",
+          48563
+        ],
+        [
+          "Bachletten",
+          48563
+        ],
+        [
+          "Gotthelf",
+          48563
+        ],
+        [
+          "Iselin",
+          48563
+        ],
+        [
+          "St. Johann",
+          48563
+        ],
+        [
+          "Altstadt KB",
+          48563
+        ],
+        [
+          "Clara",
+          48563
+        ],
+        [
+          "Wettstein",
+          48563
+        ],
+        [
+          "Hirzbrunnen",
+          48563
+        ],
+        [
+          "Rosental",
+          48563
+        ],
+        [
+          "Matthäus",
+          48563
+        ],
+        [
+          "Klybeck",
+          48563
+        ],
+        [
+          "Kleinhüning.",
+          48563
+        ],
+        [
+          "Riehen",
+          48563
+        ],
+        [
+          "Bettingen",
+          48563
+        ]
+      ],
+      "name": "Median Basel-Stadt 2006",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
+      "index": 0,
+      "type": "column",
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "legendIndex": 3,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "Altstadt GB",
+          51000
+        ],
+        [
+          "Vorstädte",
+          58511
+        ],
+        [
+          "Am Ring",
+          52788
+        ],
+        [
+          "Breite",
+          47242
+        ],
+        [
+          "St. Alban",
+          61125
+        ],
+        [
+          "Gundeldingen",
+          47248
+        ],
+        [
+          "Bruderholz",
+          65114
+        ],
+        [
+          "Bachletten",
+          57698
+        ],
+        [
+          "Gotthelf",
+          50790
+        ],
+        [
+          "Iselin",
+          44777
+        ],
+        [
+          "St. Johann",
+          41997
+        ],
+        [
+          "Altstadt KB",
+          42122
+        ],
+        [
+          "Clara",
+          40433
+        ],
+        [
+          "Wettstein",
+          54256
+        ],
+        [
+          "Hirzbrunnen",
+          51368
+        ],
+        [
+          "Rosental",
+          42854
+        ],
+        [
+          "Matthäus",
+          38545
+        ],
+        [
+          "Klybeck",
+          37400
+        ],
+        [
+          "Kleinhüning.",
+          41403
+        ],
+        [
+          "Riehen",
+          63689
+        ],
+        [
+          "Bettingen",
+          68594
+        ]
+      ],
+      "name": "Median 2015",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#474747",
+      "index": 1,
+      "type": "line",
+      "legendIndex": 3,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          "Altstadt GB",
+          49142
+        ],
+        [
+          "Vorstädte",
+          49142
+        ],
+        [
+          "Am Ring",
+          49142
+        ],
+        [
+          "Breite",
+          49142
+        ],
+        [
+          "St. Alban",
+          49142
+        ],
+        [
+          "Gundeldingen",
+          49142
+        ],
+        [
+          "Bruderholz",
+          49142
+        ],
+        [
+          "Bachletten",
+          49142
+        ],
+        [
+          "Gotthelf",
+          49142
+        ],
+        [
+          "Iselin",
+          49142
+        ],
+        [
+          "St. Johann",
+          49142
+        ],
+        [
+          "Altstadt KB",
+          49142
+        ],
+        [
+          "Clara",
+          49142
+        ],
+        [
+          "Wettstein",
+          49142
+        ],
+        [
+          "Hirzbrunnen",
+          49142
+        ],
+        [
+          "Rosental",
+          49142
+        ],
+        [
+          "Matthäus",
+          49142
+        ],
+        [
+          "Klybeck",
+          49142
+        ],
+        [
+          "Kleinhüning.",
+          49142
+        ],
+        [
+          "Riehen",
+          49142
+        ],
+        [
+          "Bettingen",
+          49142
+        ]
+      ],
+      "name": "Median Basel-Stadt 2015",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "step": 1,
+      "rotation": -45
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "alignTicks": false,
+    "renderTo": "container-6902"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Median des Reineinkommens"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in Franken, Basel-Stadt, 2006 und 2015",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null,
+      "color": "#000000",
+      "fontSize": null
+    },
+    "labels": {
+      "style": {
+        "color": "black"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-27"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "nowrap",
+      "whiteSpace": "nowrap"
+    },
+    "itemWidth": 140,
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 6902
+  }
+}

@@ -79,15 +79,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-17T16:38:10.1010",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter Basel-Stadts als eine sehr oder eher grosse Bereicherung für den Kanton.",
+		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter des Kantons Basel-Stadt als eine sehr oder eher grosse Bereicherung für den Kanton.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_03_00_00_00_000",
 		"parentId": 6146,
 		"children": [],
@@ -98,8 +100,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4719,
-		"darstellungsart": "Grafik"
+		"id": 4719
 	},
 	{
 		"title": "Beurteilung des Wohnorts",
@@ -181,15 +182,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-08-21T08:41:47.4747",
+		"aktualisierungsdatum": "2018-10-02T10:44:36.3636",
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen Jahren diversen Schwankungen. Der Höchstwert wurde 2008 mit 1 798 eingebürgerten Ausländern erreicht. Danach gingen die Einbürgerungen zurück, 2011 erwarben noch 835 Ausländer die Schweizer Staatsangehörigkeit. Zwischen 2012 und 2015 nahm die Zahl der Eingebürgerungen tendenziell wieder zu, im Jahr 2015 erhielten 1 170 Personen das Schweizer Bürgerrecht. 2016 liessen sich 752 Ausländer einbürgern, dies ist der tiefste Wert der letzten zehn Jahre. 2017 lag die Zahl der Eingebürgerten wieder bei 1 282, dies ist der höchste Wert der letzten zehn Jahre. Die Einbürgerungsziffer verläuft entsprechend den absoluten Werten und liegt 2017 bei 17,9.",
-		"erlaeuterungen": "Voraussetzung für eine ordentliche Einbürgerung ist u. a. eine 12-jährige Wohndauer in der Schweiz. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die 5 Jahre in der Schweiz gelebt haben und die seit 3 Jahren verheiratet sind. Die Einbürgerungsziffer wird als Anzahl Einbürgerungen (ordentliche und erleichterte) pro 1000 Ausländer am Jahresende berechnet.",
+		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen zehn Jahren diversen Schwankungen. Der Höchstwert wurde 2008 mit 1 798 eingebürgerten Ausländern erreicht. Danach gingen die Einbürgerungen zurück, 2011 erwarben noch 835 Ausländer die Schweizer Staatsangehörigkeit. Seit 2012 nimmt die Zahl der Einbürgerungen tendeziell wieder zu, im Jahr 2015 erhielten 1 166 Personen das Schweizer Bürgerrecht. 2016 liessen sich 752 Ausländer einbürgern, dies ist der tiefste Wert der letzten zehn Jahre. 2017 lag die Zahl der Eingebürgerten wieder bei 1 282. Die Einbürgerungsziffer verläuft parallel zu den absoluten Werten und liegt 2017 bei 17,9.",
+		"erlaeuterungen": "Für eine ordentliche Einbürgerung muss eine Person u. a. zwölf Jahre in der Schweiz gewohnt haben. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die insgesamt fünf Jahre in der Schweiz gelebt haben und seit drei Jahren verheiratet sind oder die, wenn sie im Ausland leben, seit sechs Jahren verheiratet sind. Seit Anfang 2018 gelten teilweise neue Bestimmungen, so wird für ordentliche Einbürgerungen eine Niederlassungsbewilligung C vorausgesetzt und die Wohnsitzfrist beträgt noch zehn Jahre. Neu können sich auch junge Ausländer der dritten Generation erleichtert einbürgern lassen. Diese Änderungen werden jedoch frühestens in den Zahlen des Jahres 2019 eine Rolle spielen, da zwischen dem Einreichen eines Einbürgerungsgesuchs und der Einbürgerung zwei bis drei Jahre vergehen.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "02_01_00_00_00_000",
 		"parentId": null,
@@ -203,8 +205,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4722,
-		"darstellungsart": "Grafik"
+		"id": 4722
 	},
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",

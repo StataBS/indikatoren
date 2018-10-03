@@ -27,6 +27,10 @@
         [
           "2016",
           3940
+        ],
+        [
+          "2017",
+          3836
         ]
       ],
       "name": "Schweiz",
@@ -59,6 +63,10 @@
         [
           "2016",
           1409
+        ],
+        [
+          "2017",
+          1413
         ]
       ],
       "name": "Ausland",
@@ -165,7 +173,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-19"
   },
   "legend": {
     "enabled": true,

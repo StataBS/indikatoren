@@ -1312,7 +1312,7 @@
 	{
 		"title": "Durch BaselArea unterstützte internationale Ansiedlungen",
 		"subtitle": "in BS, BL, JU",
-		"kuerzel": "I.04.1.03086",
+		"kuerzel": "I.04.1.3086",
 		"kuerzelKunde": "2.4",
 		"description": "Durch BaselArea unterstützte internationale Ansiedlungen",
 		"thema": "04 Volkswirtschaft",
@@ -1321,15 +1321,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-02T10:51:44.4444",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl von durch BaselArea unterstützte internationale Ansiedlungen ist von 2012 bis 2015 rückläufig. 2016 werden mit 31 Ansiedlungen die meisten innerhalb des Beobachtungszeitraums gezählt.",
-		"erlaeuterungen": "Die Anzahl von durch BaselArea unterstützten internationalen Ansiedlungen beinhalten seit 2013 auch ausländische Firmengründungen im Kanton Jura.",
+		"lesehilfe": "Die Anzahl von durch BaselArea unterstützte Ansiedlungen von Firmen aus dem Ausland ging im Jahr 2017 auf 21 Ansiedlungen zurück, nachdem sie 2016 mit 31 Ansiedlungen die meisten innerhalb des Beobachtungszeitraums gezählt wurden.",
+		"erlaeuterungen": "Die Anzahl von durch BaselArea unterstützten internationalen Ansiedlungen beinhalten seit 2013 auch ausländische Firmenansiedlungen im Kanton Jura.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_004",
 		"parentId": null,
@@ -1343,8 +1345,7 @@
 		"externalLinks": [
 			""
 		],
-		"id": 3086,
-		"darstellungsart": "Grafik"
+		"id": 3086
 	},
 	{
 		"title": "Globale und kontinentale Erreichbarkeit",
@@ -4088,15 +4089,16 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-08-21T08:41:47.4747",
+		"aktualisierungsdatum": "2018-10-02T10:44:36.3636",
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen Jahren diversen Schwankungen. Der Höchstwert wurde 2008 mit 1 798 eingebürgerten Ausländern erreicht. Danach gingen die Einbürgerungen zurück, 2011 erwarben noch 835 Ausländer die Schweizer Staatsangehörigkeit. Zwischen 2012 und 2015 nahm die Zahl der Eingebürgerungen tendenziell wieder zu, im Jahr 2015 erhielten 1 170 Personen das Schweizer Bürgerrecht. 2016 liessen sich 752 Ausländer einbürgern, dies ist der tiefste Wert der letzten zehn Jahre. 2017 lag die Zahl der Eingebürgerten wieder bei 1 282, dies ist der höchste Wert der letzten zehn Jahre. Die Einbürgerungsziffer verläuft entsprechend den absoluten Werten und liegt 2017 bei 17,9.",
-		"erlaeuterungen": "Voraussetzung für eine ordentliche Einbürgerung ist u. a. eine 12-jährige Wohndauer in der Schweiz. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die 5 Jahre in der Schweiz gelebt haben und die seit 3 Jahren verheiratet sind. Die Einbürgerungsziffer wird als Anzahl Einbürgerungen (ordentliche und erleichterte) pro 1000 Ausländer am Jahresende berechnet.",
+		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen zehn Jahren diversen Schwankungen. Der Höchstwert wurde 2008 mit 1 798 eingebürgerten Ausländern erreicht. Danach gingen die Einbürgerungen zurück, 2011 erwarben noch 835 Ausländer die Schweizer Staatsangehörigkeit. Seit 2012 nimmt die Zahl der Einbürgerungen tendeziell wieder zu, im Jahr 2015 erhielten 1 166 Personen das Schweizer Bürgerrecht. 2016 liessen sich 752 Ausländer einbürgern, dies ist der tiefste Wert der letzten zehn Jahre. 2017 lag die Zahl der Eingebürgerten wieder bei 1 282. Die Einbürgerungsziffer verläuft parallel zu den absoluten Werten und liegt 2017 bei 17,9.",
+		"erlaeuterungen": "Für eine ordentliche Einbürgerung muss eine Person u. a. zwölf Jahre in der Schweiz gewohnt haben. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die insgesamt fünf Jahre in der Schweiz gelebt haben und seit drei Jahren verheiratet sind oder die, wenn sie im Ausland leben, seit sechs Jahren verheiratet sind. Seit Anfang 2018 gelten teilweise neue Bestimmungen, so wird für ordentliche Einbürgerungen eine Niederlassungsbewilligung C vorausgesetzt und die Wohnsitzfrist beträgt noch zehn Jahre. Neu können sich auch junge Ausländer der dritten Generation erleichtert einbürgern lassen. Diese Änderungen werden jedoch frühestens in den Zahlen des Jahres 2019 eine Rolle spielen, da zwischen dem Einreichen eines Einbürgerungsgesuchs und der Einbürgerung zwei bis drei Jahre vergehen.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_000",
@@ -4111,8 +4113,7 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4722,
-		"darstellungsart": "Grafik"
+		"id": 4722
 	},
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
@@ -6007,26 +6008,28 @@
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Landwirtschaftliche Nutzfläche und Anzahl Landwirtschaftsbetriebe",
-		"subtitle": "",
-		"kuerzel": "I.07.1.04914",
+		"title": "Landwirtschaft: Nutzfläche und Betriebe",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.07.1.4914",
 		"kuerzelKunde": "",
-		"description": "Landwirtschaftliche Nutzfläche und Anzahl Landwirtschaftsbetriebe",
+		"description": "Landwirtschaft: Nutzfläche und Betriebe",
 		"thema": "07 Landwirtschaft",
 		"unterthema": "Landwirtschaft",
 		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-21T09:35:14.1414",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Sowohl die Anzahl landwirtschaftlicher Betriebe als auch die Nutzfläche sind in den letzten Jahren tendenziell rückläufig.",
+		"lesehilfe": "Sowohl die Anzahl landwirtschaftlicher Betriebe als auch die Nutzfläche sind im Vergleich zu 1990 tendenziell rückläufig.",
 		"erlaeuterungen": "Die landwirtschaftliche Nutzfläche eines baselstädtischen Betriebes kann auch im Ausland liegen.",
-		"template": "line001",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
@@ -6038,8 +6041,7 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4914,
-		"darstellungsart": "Grafik"
+		"id": 4914
 	},
 	{
 		"title": "Privater Motorisierungsgrad",
@@ -6157,43 +6159,6 @@
 			""
 		],
 		"id": 4919,
-		"darstellungsart": "Grafik"
-	},
-	{
-		"title": "Entwicklung des Frauenanteils im grossen Rat",
-		"subtitle": "",
-		"kuerzel": "I.17.3.04922",
-		"kuerzelKunde": "",
-		"description": "Entwicklung des Frauenanteils im grossen Rat",
-		"thema": "17 Politik",
-		"unterthema": "Wahlen",
-		"kennzahlenset": "",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Grossratskandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im basel-städtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase erstmals wieder rückläufig und verharrt auch 2016 bei 31%.",
-		"erlaeuterungen": "Der Grosse Rat umfasst seit den Gesamterneuerungswahlen 2008 gemäss der neuen, 2005 vom Basler Stimmvolk verabschiedeten Kantonsverfassung nur noch 100 Grossratssitze. Die in der Grafik dargestellten Anteile beziehen sich auf das am Wahlsonntag erzielte Ergebnis. Der tatsächliche Frauenanteil kann infolge personeller Wechsel während einer Legislaturperiode mehrmals ändern.",
-		"template": "template001",
-		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [
-			"6044"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatskanzlei Basel-Stadt"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4922,
 		"darstellungsart": "Grafik"
 	},
 	{
@@ -7452,26 +7417,28 @@
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Wanderungen: Schweizer",
-		"subtitle": "Stand: 2007 bis 2016",
-		"kuerzel": "I.01.5.05156",
+		"title": "Wanderungen der Schweizer",
+		"subtitle": "Summe 2008 bis 2017",
+		"kuerzel": "I.01.5.5156",
 		"kuerzelKunde": "BE8.2",
-		"description": "Wanderungen: Schweizer",
+		"description": "Wanderungen der Schweizer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-28T08:54:35.3535",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Zwischen 2007 und 2016 wiesen die zu- und weggezogenen Schweizer einzig in den Fünfjahresklassen der 15- bis 19-Jährigen sowie der 20- bis 24-Jährigen positive Wanderungssaldi auf. Deutlich mehr Weg- als Zuzüge verzeichneten die Schweizer im Alter zwischen 30 und 34 Jahren.",
+		"lesehilfe": "Zwischen 2008 und 2017 wiesen die Schweizer einzig in den Fünfjahresklassen der 15- bis 19-Jährigen sowie der 20- bis 24-Jährigen substanzielle Wanderunggewinne auf (+1 012 und +4 584). Leicht positiv fallen die Wanderungssaldi auch bei den 75- bis 79-Jährigen sowie bei den 80- bis 84-Jährigen aus. Am deutlichsten überstieg die Zahl der Wegzüge jene der Zuzüge bei den Schweizern im Alter zwischen 30 und 34 Jahren (-2 064).",
 		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung.",
 		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_111",
 		"parentId": null,
@@ -7483,30 +7450,31 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5156,
-		"darstellungsart": "Grafik"
+		"id": 5156
 	},
 	{
-		"title": "Wanderungen: Ausländer",
-		"subtitle": "Stand: 2007 bis 2016",
-		"kuerzel": "I.01.5.05157",
+		"title": "Wanderungen der Ausländer",
+		"subtitle": "Summe 2008 bis 2017",
+		"kuerzel": "I.01.5.5157",
 		"kuerzelKunde": "BE8.3",
-		"description": "Wanderungen: Ausländer",
+		"description": "Wanderungen der Ausländer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-28T08:57:04.044",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In allen elf Fünfjahresklassen zwischen 0 und 54 Jahren ergaben sich bei den zu- und weggezogenen ausländischen Staatsangehörigen der Jahre 2007 bis 2016 Wanderungsgewinne. Am deutlichsten zeigte sich dies bei den Ausländern im Alter zwischen 25 und 29 Jahren, bei welchen der Zuzugsüberschuss 7 252 betrug. Kleine Wanderungsverluste zeigen sich in den Altersklassen ab 55 Jahren.",
+		"lesehilfe": "In allen elf Fünfjahresklassen zwischen 0 und 54 Jahren ergaben sich bei den ausländischen Staatsangehörigen der Jahre 2008 bis 2017 Wanderungsgewinne. Am deutlichsten zeigte sich dies bei den Ausländern im Alter zwischen 25 und 29 Jahren, bei welchen der Zuzugsüberschuss 7 054 betrug. Kleine Wanderungsverluste zeigen sich in den Altersklassen ab 55 Jahren.",
 		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung.",
 		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_112",
 		"parentId": null,
@@ -7518,8 +7486,7 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5157,
-		"darstellungsart": "Grafik"
+		"id": 5157
 	},
 	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
@@ -7562,8 +7529,8 @@
 	},
 	{
 		"title": "Lebenserwartung bei Geburt",
-		"subtitle": "nach Geschlecht in Jahren",
-		"kuerzel": "I.14.3.05180",
+		"subtitle": "nach Geschlecht in Jahren, Basel-Stadt",
+		"kuerzel": "I.14.3.5180",
 		"kuerzelKunde": "GW3",
 		"description": "Lebenserwartung bei Geburt",
 		"thema": "14 Gesundheit",
@@ -7572,15 +7539,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-25T12:06:44.4444",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Lebenserwartung bei Geburt für Frauen liegt im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2016 liegen bei 84,4 Jahren (Frauen) und 80,4 Jahren (Männer).",
+		"lesehilfe": "Die Lebenserwartung bei Geburt für Frauen liegt im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2017 liegen bei 84,4 Jahren (Frauen) und 80,9 Jahren (Männer).",
 		"erlaeuterungen": "Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_303",
 		"parentId": null,
@@ -7592,8 +7561,7 @@
 		"externalLinks": [
 			""
 		],
-		"id": 5180,
-		"darstellungsart": "Grafik"
+		"id": 5180
 	},
 	{
 		"title": "Empfundene gesundheitliche Verfassung",
@@ -7699,6 +7667,44 @@
 		],
 		"id": 5186,
 		"darstellungsart": "Grafik"
+	},
+	{
+		"title": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.19.1.5188",
+		"kuerzelKunde": "GW11",
+		"description": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
+		"thema": "19 Rechtspflege",
+		"unterthema": "Polizei",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-10-02T11:43:59.5959",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Sicherheit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Zahl der Gewaltstraftaten pro 100 000 Einwohner ist im Jahr 2017  im Vergleich zum Vorjahr von 358 auf 316 zurückgegangen.",
+		"erlaeuterungen": "Unter Gewaltstraftaten werden Straftatbestände zusammengefasst, welche die vorsätzliche Anwendung von Gewalt gegen Personen beinhalten. Für den Indikator sind dies Tötungsdelikte (Art. 111-113/116), schwere, sowie einfache Körperverletzung (Art. 122-123), Raub (Art. 140) und Vergewaltigung (Art. 190). Die Anzahl pro Einwohner wird anhand der mittleren Wohnbevölkerung berechnet.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "03_04_00_00_00_311",
+		"parentId": null,
+		"children": [
+			"4923"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5188
 	},
 	{
 		"title": "Besuchte Weiterbildungen und Kurse in den letzten zwölf Monaten",
@@ -9136,9 +9142,47 @@
 		"darstellungsart": "Grafik"
 	},
 	{
+		"title": "Entwicklung des Frauenanteils im grossen Rat",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.17.3.6044",
+		"kuerzelKunde": "GZ10",
+		"description": "Entwicklung des Frauenanteils im grossen Rat",
+		"thema": "17 Politik",
+		"unterthema": "Wahlen",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-09-17T13:46:15.1515",
+		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
+		"stufe2": "Gesellschaftliche Verantwortung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Grossratskandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im basel-städtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase erstmals wieder rückläufig und verharrt auch 2016 bei 31%.",
+		"erlaeuterungen": "Der Grosse Rat umfasst seit den Gesamterneuerungswahlen 2008 gemäss der neuen, 2005 vom Basler Stimmvolk verabschiedeten Kantonsverfassung nur noch 100 Grossratssitze. Die in der Grafik dargestellten Anteile beziehen sich auf das am Wahlsonntag erzielte Ergebnis. Der tatsächliche Frauenanteil kann infolge personeller Wechsel während einer Legislaturperiode mehrmals ändern.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "05_03_00_00_00_511",
+		"parentId": null,
+		"children": [
+			"4922"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatskanzlei Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6044
+	},
+	{
 		"title": "Anzahl Beschäftigte nach Sektor",
-		"subtitle": "in Vollzeitäquivalenten",
-		"kuerzel": "I.03.2.06046",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"kuerzel": "I.03.2.6046",
 		"kuerzelKunde": "WE2",
 		"description": "Anzahl Beschäftigte nach Sektor",
 		"thema": "03 Erwerbsleben",
@@ -9147,15 +9191,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-02T11:24:25.2525",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In Basel-Stadt waren im Jahr 2015 rund 152 000 Beschäftigte in Vollzeitäquivalenten (VZÄ) tätig. Dies entspricht einer Zunahme um 12,8% gegenüber 2005. Im Jahr 2015 waren 77% der VZÄ im sekundären Sektor und 23% im Dienstleistungssektor beschäftigt.",
-		"erlaeuterungen": "Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
+		"lesehilfe": "In Basel-Stadt waren im Jahr 2016 rund 151 000 Beschäftigte (in Vollzeitäquivalenten) tätig. Dies entspricht einer Zunahme um 12,6% gegenüber 2005. Im Jahr 2016 entfielen 77% der Vollzeitäquivalente  auf den sekundären Sektor und 23% auf den Dienstleistungssektor.",
+		"erlaeuterungen": "In der Statistik der Unternehmensstruktur (STATENT) werden Beschäftigte berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2300 Franken im Jahr AHV-Beiträge zahlen müssen. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit)  in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "06_01_00_00_00_602",
 		"parentId": null,
@@ -9167,8 +9213,7 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6046,
-		"darstellungsart": "Grafik"
+		"id": 6046
 	},
 	{
 		"title": "Branchenanteile an der nominalen Wertschöpfung",
@@ -10768,7 +10813,7 @@
 	{
 		"title": "Höchste abgeschlossene Ausbildung",
 		"subtitle": "Nach Geschlecht, Staatsangehörigkeit und Altersklasse, Stand: 2015 <br>«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»",
-		"kuerzel": "I.50.1.06136",
+		"kuerzel": "I.50.1.6136",
 		"kuerzelKunde": "3.3",
 		"description": "Höchste abgeschlossene Ausbildung",
 		"thema": "50 Befragungen",
@@ -10777,7 +10822,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-26T11:15:54.5454",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -10786,6 +10831,8 @@
 		"lesehilfe": "9,2% der Befragten haben einen obligatorischen Schulabschluss. 40,6% aller Befragten absolvierten ein Studium an einer Fachhochschule oder Universität. Ein deutlicher Unterschied zwischen den Geschlechtern ist hier zu beobachten: Bei den Männern liegt der Anteil bei 46,4%, bei den Frauen bei 35,7%.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_004",
 		"parentId": null,
@@ -10800,8 +10847,7 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6136,
-		"darstellungsart": "Grafik"
+		"id": 6136
 	},
 	{
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
@@ -10891,15 +10937,16 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-06T09:14:13.1313",
+		"aktualisierungsdatum": "2018-09-17T11:05:40.4040",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Insgesamt waren 2016 knapp 17% der Beschäftigten (in Vollzeitäquivalenten) in Basel-Stadt in innovativen Branchen tätig, der Grossteil davon in der Industrie.",
-		"erlaeuterungen": "Als innovative Branchen gelten (NOGA 2-Steller in Klammer): Herstellung von chemischen (20) und pharmazeutischen Produkten (21), Gummi- und Kunststoffwaren (22), elektronischen und optischen Produkten (26), elektrischen Ausrüstungen (27), Maschinenbau (28), sonstiger Fahrzeugbau (30), Herstellung von medizinischen und zahnmedizinischen Apparaten und Materialien (325), Reparatur und Installation von Maschinen und Ausrüstungen (33), Forschung und Entwicklung (72). Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen.",
+		"erlaeuterungen": "Als innovative Branchen gelten (Code der Allgemeinen Systematik der Wirtschaftszweige (NOGA) in Klammern): Herstellung von chemischen (20) und pharmazeutischen Produkten (21), Gummi- und Kunststoffwaren (22), elektronischen und optischen Produkten (26), elektrischen Ausrüstungen (27), Maschinenbau (28), sonstiger Fahrzeugbau (30), Herstellung von medizinischen und zahnmedizinischen Apparaten und Materialien (325), Reparatur und Installation von Maschinen und Ausrüstungen (33), Forschung und Entwicklung (72). Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_009",
@@ -10915,8 +10962,7 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6141,
-		"darstellungsart": "Grafik"
+		"id": 6141
 	},
 	{
 		"title": "Bevölkerung nach sozioprofessioneller Kategorie",
@@ -10959,7 +11005,7 @@
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
 		"subtitle": "«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Bitte geben Sie mir an, ob das eine sehr grosse, eher grosse, eher nicht so grosse oder gar keine Bereicherung für den Kanton Basel-Stadt ist.»",
-		"kuerzel": "I.50.1.06146",
+		"kuerzel": "I.50.1.6146",
 		"kuerzelKunde": "4.5",
 		"description": "Beurteilung von gesellschaftlicher Vielfalt",
 		"thema": "50 Befragungen",
@@ -10968,15 +11014,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-17T16:37:28.2828",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter Basel-Stadts als eine sehr oder eher grosse Bereicherung für den Kanton.",
+		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter des Kantons Basel-Stadt als eine sehr oder eher grosse Bereicherung für den Kanton.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_005",
 		"parentId": null,
@@ -10992,8 +11040,7 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6146,
-		"darstellungsart": "Grafik"
+		"id": 6146
 	},
 	{
 		"title": "Arbeitnehmende in Leitungsfunktionen",
@@ -11190,8 +11237,8 @@
 	},
 	{
 		"title": "Verkehrsleistungsindex",
-		"subtitle": "Indexwert (Basis 2010 = 100)",
-		"kuerzel": "I.11.6.06154",
+		"subtitle": "Indexwert (Basis 2010 = 100), Basel-Stadt",
+		"kuerzel": "I.11.6.6154",
 		"kuerzelKunde": "5.2",
 		"description": "Verkehrsleistungsindex",
 		"thema": "11 Verkehr",
@@ -11200,15 +11247,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-25T11:41:34.3434",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf Kantonsgebiet liegt 2016 um 1%, diejenige des Veloverkehrs um 22,9% höher als im Jahr 2010. Der Wert für Fussgänger stieg von 2013 bis 2014 um 7 Prozentpunkte, sank dann aber bis 2016 wieder auf einen Indexwert von 102,5.",
-		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet.<br/> <br/>Autoverkehr:<br/>Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 35 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Der Index umfasst die Verkehrsleistung aller Motorfahrzeuge (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes.<br/><br/>Veloverkehr:<br/> Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Da der Veloverkehr stark wetterabhängig ist, wurde vom Statistischen Amt des Kantons Basel-Stadt ein Modell entwickelt, welches es zulässt, den Wettereinfluss aus der Verkehrsentwicklung herauszurechnen.<br/><br/>Fussverkehr:<br/>Der Index für den Fussverkehr basiert auf rund 17 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr (ÖV):<br/>Der Index des öffentlichen Verkehrs wird auf Basis der Verkehrsdaten von Tram- und Buslinien der BVB und der BLT und den S-Bahnen (nur alle zwei Jahre), abgegrenzt auf das Gebiet des Kantons Basel-Stadt, berechnet. Der Gesamtindex für den ÖV kann im jeweiligen Jahr erst im Herbst veröffentlicht werden, sobald die Daten für die S-Bahnen vorliegen.<br/> <br/>Aus der Veränderung an den Zählstellen wird die Veränderung auf dem ganzen Kantonsgebiet abgeleitet, indem jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet wird.<br/> <br/>Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
+		"lesehilfe": "Die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf Kantonsgebiet liegt 2017 um 0,2%, diejenige des Veloverkehrs um 25,6% höher als im Jahr 2010. Der Wert für Fussgänger stieg von 2013 bis 2014 um 7 Prozentpunkte, sank dann aber wieder und liegt 2017 bei einem Indexwert von 103,7.",
+		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Die Veränderung gegenüber dem Referenzjahr 2010 wird in Prozent dargestellt (indexiert, 2010 = 100). <br/><br/>Der Verkehrsleistungsindex basiert auf den an automatischen Zählstellen erfassten Verkehrsaufkommen der einzelnen Kategorien, aus welchen mit Modellen die Verkehrsleistung für den gesamten Kanton abgeleitet werden. Für den Auto- und Veloverkehr wird jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet. Die Zählstellen des Fussverkehrs werden über den «Mikrozensus Verkehr» gewichtet.<br/><br/>Autoverkehr:<br/>Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 40 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Er umfasst die Verkehrsleistung aller Motorfahrzeuge auf baselstädtischem Kantonsgebiet (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes. Der MIV Total entspricht der Verkehrsleistung auf allen Strassen des Kantonsgebiets, der MIV Stadtstrassennetz derjenigen ohne die Autobahnen.<br/><br/>Veloverkehr:<br/>Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Der Einfluss des Wetters auf den Veloverkehr wird mittels eines Modells herausgerechnet.<br/><br/>Fussverkehr:<br/>Der Index für den Fussverkehr basiert auf rund 18 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr:<br/>Der Index des öffentlichen Verkehrs basiert auf den Verkehrsleistungen der Tram-, Bus- und S-Bahn-Linien auf dem Gebiet des Kantons Basel-Stadt.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_002",
 		"parentId": null,
@@ -11225,8 +11274,7 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6154,
-		"darstellungsart": "Grafik"
+		"id": 6154
 	},
 	{
 		"title": "Transit durch die Region Basel",
@@ -11305,8 +11353,8 @@
 	},
 	{
 		"title": "Luftqualität: Langzeitbelastung der Luft",
-		"subtitle": "in Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10) in Mikrogramm pro m<sup>3</sup>",
-		"kuerzel": "I.02.5.06157",
+		"subtitle": "Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10) in Mikrogramm pro m<sup>3</sup>, Basel-Stadt",
+		"kuerzel": "I.02.5.6157",
 		"kuerzelKunde": "7.7",
 		"description": "Luftqualität: Langzeitbelastung der Luft",
 		"thema": "02 Raum, Umwelt",
@@ -11315,15 +11363,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-24T09:50:51.5151",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Sowohl die Stickstoffdioxid- als auch die Feinstaubkonzentrationen lagen 2016 mit 27,8 resp. 16,1 Mikrogramm pro Kubikmeter unter dem jeweiligen Grenzwert.",
-		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>.",
+		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_007",
 		"parentId": null,
@@ -11339,8 +11389,7 @@
 			"<a href = 'https://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>"
 		],
-		"id": 6157,
-		"darstellungsart": "Grafik"
+		"id": 6157
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen Verkehr",
@@ -11382,8 +11431,8 @@
 	},
 	{
 		"title": "Übermässig mit Lärm belastete Wohnbevölkerung",
-		"subtitle": "in %",
-		"kuerzel": "I.02.14.06159",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.02.14.6159",
 		"kuerzelKunde": "7.8",
 		"description": "Übermässig mit Lärm belastete Wohnbevölkerung",
 		"thema": "02 Raum, Umwelt",
@@ -11392,15 +11441,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-24T09:50:51.5151",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB(A) ausgesetzt sind, betrug 2008 24,6%. Bei 14,5% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16,2% der Grenzwert in der Nacht.",
-		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Stufen II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmission an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
+		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeits&shy;stufen&shy;plan den Empfindlichkeitsstufen (ES) II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmissionen an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_008",
 		"parentId": null,
@@ -11416,8 +11467,7 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6159,
-		"darstellungsart": "Grafik"
+		"id": 6159
 	},
 	{
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
@@ -11539,8 +11589,8 @@
 	},
 	{
 		"title": "Wasserqualität: AOX-Konzentration",
-		"subtitle": "in Milligramm pro Liter gereinigtem Abwasser",
-		"kuerzel": "I.02.19.06164",
+		"subtitle": "in Milligramm pro Liter gereinigtem Abwasser in der ARA Basel",
+		"kuerzel": "I.02.19.6164",
 		"kuerzelKunde": "7.4",
 		"description": "Wasserqualität: AOX-Konzentration",
 		"thema": "02 Raum, Umwelt",
@@ -11549,15 +11599,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-24T11:49:46.4646",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2016 0,046 mg/l gereinigtem Abwasser. Sie lag damit unter dem Grenzwert von 0,08 mg/l.",
-		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) mehrmals pro Jahr in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0.08 mg/l definiert. <br><br>Für die Wasserqualität ist entscheidend, wie viele Schadstoffe trotz Kläranlagen ins Wasser gelangen. Eine Zunahme des AOX-Indikators bedeutet eine unerwünschte Belastung der Gewässer, eine Abnahme entspricht einer Verbesserung der Wasserqualität. Organische Halogenverbindungen sind bereits in geringen Mengen schädlich, schwer biologisch abbaubar und reichern sich im Fettgewebe von Tieren und Menschen an. <br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
+		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2017 0,035 mg/l gereinigtes Abwasser. Sie lag damit unter dem Grenzwert von 0,08 mg/l.",
+		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. Der Indikator zeigt den Jahresmittelwert in Milligramm AOX pro Liter. <br><br>Im Auslauf der ARA wird mehrmals pro Jahr die AOX-Konzentration in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0.08 mg/l definiert.<br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_004",
 		"parentId": null,
@@ -11573,8 +11625,7 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6164,
-		"darstellungsart": "Grafik"
+		"id": 6164
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen",
@@ -11737,7 +11788,7 @@
 	{
 		"title": "Stationäre Fälle in Basler Spitälern",
 		"subtitle": "Nach Hauptbereich und Wohnort",
-		"kuerzel": "I.14.1.06175",
+		"kuerzel": "I.14.1.6175",
 		"kuerzelKunde": "9.5",
 		"description": "Stationäre Fälle in Basler Spitälern",
 		"thema": "14 Gesundheit",
@@ -11746,15 +11797,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-20T11:32:29.2929",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2016 wurden zum ersten Mal im Beobachtungszeitraum mehr ausserkantonale Patienten (40 481) behandelt als Patienten mit Wohnort im Kanton Basel-Stadt (38 585). Von den insgesamt 38 585 Fällen aus dem Stadtkanton können über 77% dem Hauptbereich der Akutsomatik zugerechnet werden. Bei den ausserkantonalen Fällen macht der Anteil der Akutsomatik hingegen über 91% aus.",
+		"lesehilfe": "Im Jahr 2017 wurden mehr ausserkantonale Patienten (45 278) behandelt als Patienten mit Wohnort im Kanton Basel-Stadt (35 502). Von den insgesamt 35 502 Fällen aus dem Stadtkanton können knapp 80% dem Hauptbereich der Akutsomatik zugerechnet werden. Bei den ausserkantonalen Fällen macht der Anteil der Akutsomatik hingegen über 88% aus.",
 		"erlaeuterungen": "Gezählt werden alle stationären Fälle mit Austritt im jeweiligen Erhebungsjahr (A-Fälle). Die Aufteilung in BS und Nicht-BS erfolgt anhand des Wohnorts der Patienten. Patienten mit Wohnsitz im Ausland sind in den Nicht-BS-Fällen eingeschlossen. Die Aufteilung in die Hauptbereiche erfolgt anhand der Hauptkostenstelle.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "09_00_00_00_00_005",
 		"parentId": null,
@@ -11768,8 +11821,7 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6175,
-		"darstellungsart": "Grafik"
+		"id": 6175
 	},
 	{
 		"title": "Anzahl Straftaten nach StGB pro 1000 Einwohner",
@@ -11889,8 +11941,8 @@
 	},
 	{
 		"title": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
-		"subtitle": "",
-		"kuerzel": "I.13.2.06181",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.13.2.6181",
 		"kuerzelKunde": "11.2",
 		"description": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
 		"thema": "13 Soziale Sicherheit",
@@ -11899,7 +11951,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-16T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-18T16:01:08.088",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -11908,6 +11960,8 @@
 		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2017 Familienmietzinsbeiträge. In 14,7% der Haushalte bezieht mindestens eine Person reine Prämienverbilligung.",
 		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge<br>Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "11_00_00_00_00_002",
 		"parentId": null,
@@ -11923,8 +11977,7 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6181,
-		"darstellungsart": "Grafik"
+		"id": 6181
 	},
 	{
 		"title": "Sozialhilfequote nach Altersgruppe",
@@ -12230,7 +12283,7 @@
 	{
 		"title": "Anzahl Lernende an Basler Berufsfachschulen",
 		"subtitle": "nach Herkunft",
-		"kuerzel": "I.15.3.06209",
+		"kuerzel": "I.15.3.6209",
 		"kuerzelKunde": "3.2",
 		"description": "Anzahl Lernende an Basler Berufsfachschulen",
 		"thema": "15 Bildung",
@@ -12239,7 +12292,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-19T09:27:39.3939",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -12248,6 +12301,8 @@
 		"lesehilfe": "Die Gesamtzahl der Lernenden ist seit 2011 mit Ausnahme von 2014 rückläufig. Bei Lernenden ohne Schweizer Pass ist in diesem Zeitraum eine leichte Zunahme zu beobachten.",
 		"erlaeuterungen": "Dargestellt werden die Lernenden der Ausbildungsgänge EFZ (Eidgenössisches Fähigkeitszeugnis) und EBA (Eidgenössisches Berufsattest) der vier grossen Basler Berufsfachschulen Allgemeine Gewerbeschule (AGS), Berufsfachschule (BFS), Schule für Gestaltung (SfG) sowie Handelsschule KV (HKV).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_003",
 		"parentId": null,
@@ -12261,8 +12316,7 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6209,
-		"darstellungsart": "Grafik"
+		"id": 6209
 	},
 	{
 		"title": "Anzahl Plätze in Tagesbetreuungsangeboten",
@@ -12871,8 +12925,8 @@
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "nach Haushaltstyp in m², Stand: 2016",
-		"kuerzel": "I.09.1.06363",
+		"subtitle": "nach Haushaltstyp in m², Basel-Stadt, 2017",
+		"kuerzel": "I.09.1.6363",
 		"kuerzelKunde": "",
 		"description": "Mittlere Wohnfläche pro Person",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -12881,15 +12935,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-24T11:47:07.077",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der durchschnittliche Wohnflächenverbrauch pro Kopf ist bei Personen, welche in Einpersonenhaushalten leben, am höchsten (60,7&nbsp;m²). Der tiefste Wert der Wohnfläche pro Kopf ist bei Personen zu finden, welche im Haushaltstyp «Verheiratete Paare mit Kindern» leben (24,9&nbsp;m²).",
+		"lesehilfe": "Der durchschnittliche Wohnflächenverbrauch pro Kopf ist bei Personen, welche in Einpersonenhaushalten leben, am höchsten (66,8&nbsp;m²). Der tiefste Wert der Wohnfläche pro Kopf ist bei Personen zu finden, welche im Haushaltstyp «Einelternhaushalte mit minderjährigen Kindern mit Grosseltern(-teil)» leben (23,0&nbsp;m²).",
 		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.<br>Minderjährige Kinder: unter 18 Jahre, volljährige Kinder: 18 Jahre und älter. <br>Beim Haushaltstyp «Unverheiratete Paare mit Kindern» ist mindestens ein gemeinsames Kind vorhanden. Nichtfamilienhaushalte sind zum Beispiel Wohngemeinschaften oder unverheiratete Paare ohne mindestens ein gemeinsames Kind.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
@@ -12902,13 +12958,12 @@
 		"externalLinks": [
 			"Weitere  Informationen zu den Haushaltstypen sind hier zu finden: <a href = 'http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Häufig gefragt: Einwohner</a>."
 		],
-		"id": 6363,
-		"darstellungsart": "Grafik"
+		"id": 6363
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "nach Haushaltsgrösse und Haushaltstyp in m², Stand: 2016",
-		"kuerzel": "I.09.1.06364",
+		"subtitle": "nach Haushaltsgrösse und Haushaltstyp in m², Basel-Stadt, 2017",
+		"kuerzel": "I.09.1.6364",
 		"kuerzelKunde": "",
 		"description": "Mittlere Wohnfläche pro Person",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -12917,15 +12972,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-20T11:12:40.4040",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Je mehr Personen in einem Haushalt wohnen, desto kleiner ist die Wohnfläche pro Kopf. In einem Einpersonenhaushalt beträgt diese 67,0&nbsp;m². In einem Familienhaushalt mit 5 Personen beträgt die Wohnfläche pro Kopf  20,2&nbsp;m².",
+		"lesehilfe": "Je mehr Personen in einem Haushalt wohnen, desto kleiner ist die mittlere Wohnfläche pro Kopf. In einem Einpersonenhaushalt beträgt diese 66,8&nbsp;m². In einem Familienhaushalt mit 5 und mehr Personen beträgt die Wohnfläche pro Kopf  20,0&nbsp;m².",
 		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
@@ -12938,13 +12995,12 @@
 		"externalLinks": [
 			"Informationen zu den Haushaltstypen sind hier zu finden: <a href = 'http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Häufig gefragt: Einwohner</a>."
 		],
-		"id": 6364,
-		"darstellungsart": "Grafik"
+		"id": 6364
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "nach Staatsangehörigkeit und Geschlecht in m², Stand: 2016",
-		"kuerzel": "I.09.1.06365",
+		"subtitle": "nach Staatsangehörigkeit und Geschlecht in m², Basel-Stadt, 2017",
+		"kuerzel": "I.09.1.6365",
 		"kuerzelKunde": "",
 		"description": "Mittlere Wohnfläche pro Person",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -12953,15 +13009,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-20T11:18:02.022",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Schweizer weisen im Durchschnitt pro Kopf einen um 11&nbsp;m² höheren Wohnflächenverbrauch auf als Ausländer. Ein geschlechtsspezifischer Unterschied des mittleren Wohnflächenverbrauchs pro Person wie bei den Schweizern (Männer: 43,2&nbsp;m², Frauen: 47,2&nbsp;m²) ist bei den ausländischen Staatsangehörigen nicht zu finden.",
+		"lesehilfe": "Schweizer weisen im Durchschnitt pro Kopf einen um 11&nbsp;m² höheren Wohnflächenverbrauch auf als Ausländer. Ein geschlechtsspezifischer Unterschied des mittleren Wohnflächenverbrauchs pro Person wie bei den Schweizern (Männer: 43,0&nbsp;m², Frauen: 46,9&nbsp;m²) ist bei den ausländischen Staatsangehörigen nicht zu finden.",
 		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
@@ -12974,13 +13032,12 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6365,
-		"darstellungsart": "Grafik"
+		"id": 6365
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "nach Alter und Geschlecht in m², Stand: 2016",
-		"kuerzel": "I.09.1.06366",
+		"subtitle": "nach Alter und Geschlecht in m², Basel-Stadt, 2017",
+		"kuerzel": "I.09.1.6366",
 		"kuerzelKunde": "",
 		"description": "Mittlere Wohnfläche pro Person",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -12989,15 +13046,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-20T11:27:19.1919",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnfläche pro Person nimmt mit zunehmendem Alter zu. Frauen ab 55 Jahren haben einen 5 bis 10&nbsp;m² grösseren Wohnflächenverbrauch pro Kopf als Männer derselben Altersgruppe.",
+		"lesehilfe": "Die mittlere Wohnfläche pro Person nimmt mit zunehmendem Alter zu. Frauen ab 55 Jahren haben einen 4 bis fast 10&nbsp;m² grösseren Wohnflächenverbrauch pro Kopf als Männer derselben Altersgruppe.",
 		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
 		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
@@ -13010,8 +13069,7 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6366,
-		"darstellungsart": "Grafik"
+		"id": 6366
 	},
 	{
 		"title": "Sesshaftigkeit nach Wohnviertel",
@@ -19222,5 +19280,761 @@
 		],
 		"darstellungsart": "Karte kategoriell",
 		"id": 6778
+	},
+	{
+		"title": "Zusammensetzung der Gesamteinnahmen",
+		"subtitle": "in Franken, Basel-Stadt",
+		"kuerzel": "I.18.2.06896",
+		"kuerzelKunde": "1-1",
+		"description": "Zusammensetzung der Gesamteinnahmen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Steuern",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
+		"stufe1": "Ertrag des Kantons",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Gesamteinnahmen des Kantons betragen über die Jahre gesehen zwischen knapp 4 Mrd. und über 5 Mrd. Franken (im Jahr 2007 aufgrund der Spezialfinanzierung in Höhe von über 1 Mrd. Franken zur Ausfinanzierung der Pensionskasse Basel-Stadt). Seit dem Jahr 2012 sind die Werte nach dem neuen Rechnungslegungsmodell HRM2 dargestellt, was den Vergleich erschwert. 2015 beträgt der Ertrag aus Einkommens- und Vermögenssteuern fast 1,8 Mrd. Franken, der Anteil am Gesamtertrag beträgt 40,7%.",
+		"erlaeuterungen": "Der Jahresbericht des Kantons Basel-Stadt weist Erträge aus, die während eines Kalenderjahres verbucht wurden. Dies unterscheidet sich somit von der Steuerstatistik Basel-Stadt, der Veranlagungsdaten zugrundeliegen, die auf ein bestimmtes Steuerjahr bezogen sind – unabhängig davon, wann die Steuer letztlich bezahlt worden ist. NP = Natürliche Personen; JP = Juristische Personen.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_001",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Jahresbericht des Kantons Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6896
+	},
+	{
+		"title": "Entwicklung des Ertrags aus Steuern",
+		"subtitle": "in Franken, Basel-Stadt",
+		"kuerzel": "I.18.2.06897",
+		"kuerzelKunde": "1-2",
+		"description": "Entwicklung des Ertrags aus Steuern",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Steuern",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
+		"stufe1": "Ertrag des Kantons",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die einzelnen Steuerertragsarten haben sich seit 2006 unterschiedlich entwickelt. Grössere Schwankungen liegen vor allem bei der Gewinnsteuer vor, zwischen 2006 und 2014 ist der Wert nominal um 18,1% zurückgegangen. 2006, vor Beginn der Finanz- und Wirtschaftskrise, lag er am höchsten Der Ertrag aus Vermögenssteuern ist von 2006 bis 2015 um 27,0% gestiegen. Insbesondere bei den juristischen Personen zeigen sich die Auswirkungen der wirtschaftlichen Entwicklung nach 2007. Der Ertrag aus Einkommenssteuern ist seit 2006 um 9,0% gestiegen. Mehr als verdoppelt hat sich seit 2006 der Ertrag aus Quellenbesteuerung.",
+		"erlaeuterungen": "Der Jahresbericht des Kantons Basel-Stadt weist Erträge aus, die während eines Kalenderjahres verbucht wurden. Dies unterscheidet sich somit von der Steuerstatistik Basel-Stadt, der Veranlagungsdaten zugrundeliegen, die auf ein bestimmtes Steuerjahr bezogen sind – unabhängig davon, wann die Steuer letztlich bezahlt worden ist.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_002",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Jahresbericht des Kantons Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6897
+	},
+	{
+		"title": "Veranlagungen natürlicher Personen und Bevölkerung",
+		"subtitle": "nach Tarif und Alter, Basel-Stadt, 2015",
+		"kuerzel": "I.18.2.06898",
+		"kuerzelKunde": "2-1",
+		"description": "Veranlagungen natürlicher Personen und Bevölkerung",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Steuern",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
+		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2015 gibt es insgesamt 115 380 Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen. Nicht berücksichtigt sind Veranlagungen von Auswärtigen (insgesamt 8 063 Veranlagungen) und von Unterjährigen (5 160 Veranlagungen). Nach Tarif betrachtet stammen 78 329 Veranlagungen von Alleinstehenden (Anteil 67,9%), 31 312 von Verheirateten (27,1 %) und 5 739 von Alleinstehenden mit Kind oder einer anderen unterstützten Person (5,0%).",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen, ohne Auswärtige, ohne Wochenaufenthalter.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_001",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6898
+	},
+	{
+		"title": "Veranlagungen, Bevölkerung und Summe von Reineinkommen, -vermögen und Steuerertrag",
+		"subtitle": "indexiert (2006 = 100), Basel-Stadt",
+		"kuerzel": "I.18.2.06899",
+		"kuerzelKunde": "2-2",
+		"description": "Veranlagungen, Bevölkerung und Summe von Reineinkommen, -vermögen und Steuerertrag",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Steuern",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
+		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die indexierten Linien für die Wohnbevölkerung in Basel-Stadt und die Anzahl der Veranlagungen laufen relativ gleichmässig. Die grössten Schwankungen seit 2006 zeigt das Reinvermögen, dass seit 2006 nominal 13,8% gewachsen ist. Das Reineinkommen stieg um 13,0%. Der Ertrag aus Einkommens- und Vermögenssteuer lag 2015 um 2,8% über jenem von 2006. Der grössere Anstieg des Reinvermögens zwischen 2011 und 2014 lag unter anderem am steigenden Wert von Kapitalanlagen bzw. Wertschriften.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen, ohne Auswärtige, ohne Wochenaufenthalter.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_002",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6899
+	},
+	{
+		"title": "Mittelwert und Median des Reineinkommens, Summe des Ertrags aus Einkommenssteuer",
+		"subtitle": "in Franken, Basel-Stadt",
+		"kuerzel": "I.18.2.06900",
+		"kuerzelKunde": "2-3",
+		"description": "Mittelwert und Median des Reineinkommens, Summe des Ertrags aus Einkommenssteuer",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Steuern",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
+		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mittelwert und Median des Reineinkommens pro Veranlagung bewegen sich relativ konstant. Im Jahr 2015 beträgt der Mittelwert 68 248 Franken (+8,4% seit 2006, -0,4% gegenüber 2014), der Median 49 142 Franken (+1,2% seit 2006, +0,2% gegenüber 2014). Der Mittelwert ist seit 2006 also stärker gestiegen als der Median; der Mittelwert reagiert zum Beispiel stärker auf eine Zunahme der höheren Einkommen. Der Ertrag aus Einkommenssteuer beträgt 1,115 Mrd. Franken 2015 (fast unverändert gegenüber dem Vorjahr und +9,0% seit 2006).",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen, ohne Auswärtige, ohne Wochenaufenthalter.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_003",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6900
+	},
+	{
+		"title": "Mittelwert des Reineinkommens",
+		"subtitle": "in Franken, Basel-Stadt, 2006 und 2015",
+		"kuerzel": "I.18.2.06901",
+		"kuerzelKunde": "2-4",
+		"description": "Mittelwert des Reineinkommens",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Steuern",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
+		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Ausser in den Wohnvierteln Klybeck und Gotthelf ist überall ein Anstieg des Mittelwertes pro Veranlagung im Vergleich zum Steuerjahr 2006 zu verzeichnen. Am stärksten fällt er in Bettingen und in den Wohnvierteln Altstadt Grossbasel und Bruderholz aus. In Klybeck ist der Mittelwert 2015 um 4,6% kleiner als 2006. Der Mittelwert aller Veranlagungen im Kanton stieg um 8,4%.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen, ohne Auswärtige, ohne Wochenaufenthalter.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_004",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6901
+	},
+	{
+		"title": "Median des Reineinkommens",
+		"subtitle": "in Franken, Basel-Stadt, 2006 und 2015",
+		"kuerzel": "I.18.2.06902",
+		"kuerzelKunde": "2-5",
+		"description": "Median des Reineinkommens",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Steuern",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
+		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Median des Reineinkommens pro Veranlagung ist zwischen 2006 und 2015 in fünf Wohnvierteln zurückgegangen, am stärksten in Klybeck (-10,0%). Die grösste relative Zunahme zeigt das Wohnviertel Vorstädte mit 13,5%. Der Median aller Veranlagungen im gesamten Kanton ist um 1,2% gestiegen.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen, ohne Auswärtige, ohne Wochenaufenthalter.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_005",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6902
+	},
+	{
+		"title": "Mittelwert und Median des Reinvermögens, Summe des Ertrags aus Vermögenssteuer",
+		"subtitle": "in Franken, Basel-Stadt",
+		"kuerzel": "I.18.2.06903",
+		"kuerzelKunde": "2-6",
+		"description": "Mittelwert und Median des Reinvermögens, Summe des Ertrags aus Vermögenssteuer",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Steuern",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
+		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Median des Reinvermögens ist seit 2006 überwiegend gestiegen, insgesamt um 40,8% von 11 561 auf 16 281 Franken. Der Mittelwert und der Ertrag aus Vermögenssteuer zeigen grössere Schwankungen. Seit 2006 ist der Mittelwert um 9,1% auf 440  302 Franken gestiegen, der Ertrag um 27,0% auf über 270 Mio. Franken. Im Vergleich zum Vorjahr sind beide Werte etwas zurückgegangen, der Mittelwert um 10,1%, der Ertrag um 11,5%. Dass der Median des Reinvermögens gestiegen ist, zeigt, dass sich die tieferen Vermögen im allgemeinen insgesamt positiv entwickelt haben. Allerdings sind die Werte des Medians im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen, ohne Auswärtige, ohne Wochenaufenthalter.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_006",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6903
+	},
+	{
+		"title": "Mittelwert des Reinvermögens",
+		"subtitle": "in Franken, Basel-Stadt, 2006 und 2015",
+		"kuerzel": "I.18.2.06904",
+		"kuerzelKunde": "2-7",
+		"description": "Mittelwert des Reinvermögens",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Steuern",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
+		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Den höchsten Mittelwert des Reinvermögens im Jahr 2015 weist mit über 2,5 Mio. Franken das Wohnviertel Bruderholz auf, gefolgt von Bettingen mit knapp 2,4 Mio. Franken. Auch 2006 lag der höchste Wert im Wohnviertel Bruderholz.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen, ohne Auswärtige, ohne Wochenaufenthalter.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_007",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6904
+	},
+	{
+		"title": "Median des Reinvermögens",
+		"subtitle": "in Franken, Basel-Stadt, 2006 und 2015",
+		"kuerzel": "I.18.2.06905",
+		"kuerzelKunde": "2-8",
+		"description": "Median des Reinvermögens",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Steuern",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
+		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der höchste Median des Reinvermögens 2015 wird mit 78  649 Franken in der Einwohnergemeinde Bettingen verzeichnet. Bereits 2006 war hier der höchste Median zu beobachten.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen, ohne Auswärtige, ohne Wochenaufenthalter.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_008",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6905
+	},
+	{
+		"title": "Ertrag aus  Einkommens- und Vermögensssteuer",
+		"subtitle": "in Franken, Basel-Stadt, 2006 und 2015",
+		"kuerzel": "I.18.2.06906",
+		"kuerzelKunde": "2-9",
+		"description": "Ertrag aus  Einkommens- und Vermögensssteuer",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Steuern",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
+		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die einzelnen Wohnviertel und Gemeinden tragen unterschiedlich zum Steuerertrag des Kantons bei. Dies liegt einerseits an der grösseren Anzahl an Steuerpflichtigen (zum Beispiel Gundeldingen, St. Johann, Riehen), andererseits am höheren durchschnittlichen Ertrag pro Veranlagung (zum Beispiel Bruderholz oder St. Alban). In den meisten Wohnvierteln bzw. Gemeinden fällt der Steuerertrag beider Steuerarten 2015 höher aus als 2006. Der höchste Betrag an Einkommenssteuer liegt 2015 in Riehen vor (einschliesslich Gemeindesteuer), er beträgt fast 158 Mio. Franken. Der höchste Wert für die Vermögenssteuer liegt im Wohnviertel Bruderholz mit über 90 Mio. Franken vor.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen, ohne Auswärtige, ohne Wochenaufenthalter.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_009",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6906
+	},
+	{
+		"title": "Veranlagungen und Summe Einkommenssteuer nach Stufen des steuerbaren Einkommens",
+		"subtitle": "in Franken, Basel-Stadt, 2015",
+		"kuerzel": "I.18.2.06907",
+		"kuerzelKunde": "2-10",
+		"description": "Veranlagungen und Summe Einkommenssteuer nach Stufen des steuerbaren Einkommens",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Steuern",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
+		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Bei 25,1% aller Veranlagungen (28 968 von 115 380) beträgt das steuerbare Einkommen 0 Franken, somit muss keine Einkommenssteuer bezahlt werden. Der grösste Anteil bei den Veranlagungen (25,4%) – die Gruppe mit einem steuerbaren Einkommen von 1 bis 24 999 Franken – bezahlt zusammen rund 82 Mio. Franken Einkommenssteuer; dies sind 7,3% des gesamten Einkommenssteuerertrags. Von Veranlagungen mit einem steuerbaren Einkommen von 200 000 Franken und mehr (3 051 oder 2,6% aller Veranlagungen) stammt ein Einkommenssteuerertrag von über 303 Mio. Franken (27,2% des Einkommenssteuertrags). Von über 73% aller Veranlagungen (Einkommenssklassen von 0 bis 49 999 Franken) stammt insgesamt 26,3% des Einkommenssteuerertrags. Im Vergleich zum Steuerjahr 2006 hat sich die Verteilung vor allem im Bereich der niedrigeren Einkommen verändert. Betrug der Anteil der Veranlagungen mit einem steuerbaren Einkommen von unter 25 000 Franken im Jahr 2006 29,0%, so waren es 2015 50,5% – was zum grossen Teil auf die Neugestaltung der Sozialabzüge im Jahr 2008 zurückzuführen ist.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen, ohne Auswärtige, ohne Wochenaufenthalter.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_010",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6907
+	},
+	{
+		"title": "Veranlagungen und Summe Vermögenssteuer nach Stufen des steuerbaren Vermögens",
+		"subtitle": "in Franken, Basel-Stadt, 2015",
+		"kuerzel": "I.18.2.06908",
+		"kuerzelKunde": "2-11",
+		"description": "Veranlagungen und Summe Vermögenssteuer nach Stufen des steuerbaren Vermögens",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Steuern",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
+		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Bei der Vermögenssteuer sind die Anteile der Vermögensklassen noch etwas ungleicher verteilt als bei der Einkommenssteuer. Bei 71,4% aller Veranlagungen (82 353 von 115 380) betrug das steuerbare Vermögen 0 Franken, somit musste keine Vermögenssteuer bezahlt werden. Bei 2 796 Veranlagungen (2,4%) mit einem steuerbaren Vermögen von 2 Mio. Franken und mehr betrug die Vermögenssteuer insgesamt fast 216 Mio. Franken (79,9% des gesamten Vermögenssteuerertrags). Von über 90% aller Veranlagungen (Vermögenssklassen von 0 bis 499 999 Franken) stammen insgesamt 5,4% des Vermögenssteuerertrags. Im Vergleich zum Steuerjahr 2006 haben sich die Anteile der verschiedenen Vermögensklassen nicht wesentlich geändert.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen, ohne Auswärtige, ohne Wochenaufenthalter.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_011",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6908
+	},
+	{
+		"title": "Gesamtertrag aus Einkommens- und Vermögenssteuer",
+		"subtitle": "in Franken, Basel-Stadt, 2006 und 2015",
+		"kuerzel": "I.18.2.06909",
+		"kuerzelKunde": "2-12",
+		"description": "Gesamtertrag aus Einkommens- und Vermögenssteuer",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Steuern",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
+		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Den höchsten Ertrag aus Einkommens- und Vermögenssteuer 2015 verzeichnet die Einwohnergemeinde Riehen mit über 194 Mio. Franken (+4,9% gegenüber 2006), gefolgt von Bruderholz mit mehr als 188 Mio. Franken (+38,0%). Den kleinsten Ertrag steuert Kleinhüningen mit 8,2 Mio. Franken bei (+2,4%). Im Jahr 2015 beträgt der Wert für den gesamten Kanton 1,385 Milliarden Franken, +12,1% mehr als im Steuerjahr 2006.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen, ohne Auswärtige, ohne Wochenaufenthalter.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_012",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6909
+	},
+	{
+		"title": "Summe der Ertrags aus Einkommens- und Vermögenssteuer von Zugezogenen und Weggezogenen",
+		"subtitle": "in Franken, Basel-Stadt",
+		"kuerzel": "I.18.2.06910",
+		"kuerzelKunde": "3-1",
+		"description": "Summe der Ertrags aus Einkommens- und Vermögenssteuer von Zugezogenen und Weggezogenen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Steuern",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
+		"stufe1": "Wanderung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Seit dem Jahr 2009 liegt jedes Jahr ein positiver Saldo des Steuerertrags von Zuzügern und Wegzügern vor. 2015 betrug er fast 2,8 Mio. Franken. Sowohl bei der Einkommenssteuer (2,1 Mio. Franken) als auch bei der Vermögenssteuer (680 000 Franken) wurde ein Plus verzeichnet. Von Zuzügern lagen für das Steuerjahr 2015 insgesamt 5 081 Veranlagungen vor, von Wegzügern des Vorjahres 4 399 Veranlagungen.",
+		"erlaeuterungen": "Die Methodik zur Untersuchung des Wanderungseffekts unterscheidet sich von den übrigen Auswertungen. Die Analyse der Effekte auf den Ertrag aus Einkommens- und Vermögenssteuer durch Zu- und Abwanderung im Kanton Basel-Stadt wird durch verschiedene methodische Aspekte erschwert. Seit der eidgenössischen Steuerharmonisierung im Jahr 2002 ist für die Steuerpflicht innerhalb der Schweiz der Wohnsitz am 31. Dezember massgebend. Es liegen daher in Basel-Stadt in der Regel keine Daten zur Einkommens- und Vermögenssituation im Jahr des Wegzugs vor. Für die Steuerstatistik der Wegzügerinnen und Wegzüger wurden daher die Steuerdaten des jeweiligen Vorjahres verwendet. Für die Zugezogenen und die ganzjährig Niedergelassenen sind die Steuerdaten des Berichtsjahres vorhanden und wurden für die Analyse verwendet. Bei der Definition der Zuzüger wurde berücksichtigt, dass Ausländer ohne Niederlassungsbewilligung in der Regel an der Quelle veranlagt werden. Aus diesem Grund wurde ein Zuzug erst bei einer Niederlassung als solcher gezählt. Quellensteuerpflichtige sind in der Regel nicht erfasst, ausser sie werden nachträglich ordentlich veranlagt. Dies ist zum Beispiel der Fall, wenn die Einkünfte mehr als 120 000 Franken im Kalenderjahr betragen.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_001",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6910
+	},
+	{
+		"title": "Quellensteuerertrag",
+		"subtitle": "in Franken, Basel-Stadt, 2008 und 2016",
+		"kuerzel": "I.18.2.06911",
+		"kuerzelKunde": "4-1",
+		"description": "Quellensteuerertrag",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Steuern",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
+		"stufe1": "Quellensteuer",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Bei der Quellensteuer liegen die neusten Daten bereits für das Jahr 2016 vor. Detaillierte Angaben wie nach Wohnviertel sind erst ab dem Jahr 2008 vorhanden, deshalb ist ein Zehnjahresvergleich nicht möglich. Innerhalb von neun Jahren hat sowohl die Anzahl Veranlagungen als auch der Ertrag aus Quellensteuer von in Basel-Stadt wohnhaften Personen stark zugenommen. Die meisten Veranlagungen liegen 2016 im Wohnviertel Matthäus vor (2 948) vor. Der höchste Ertrag wird im Wohnviertel St. Alban mit 24,7 Mio. Franken verzeichnet.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Daten aus der Quellenbesteuerung in Basel-Stadt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_00_00_00_00_001",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6911
+	},
+	{
+		"title": "Quellensteuerertrag nach Status",
+		"subtitle": "in Franken, Basel-Stadt, 2008 und 2016",
+		"kuerzel": "I.18.2.06912",
+		"kuerzelKunde": "4-2",
+		"description": "Quellensteuerertrag nach Status",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Steuern",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
+		"stufe1": "Quellensteuer",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die bedeutendsten Erträge aus Quellenbesteuerung stammen aus Erwerbseinkommen, 2016 sind dies fast 278 Mio. Franken (+55,9% gegenüber 2008). Der Ertrag der Grenzgänger aus Deutschland u .a. (einschliesslich einige wenige aus anderen Staaten) beträgt 2016 insgesamt  86,4 Mio. Franken (+29,4% gegenüber 2008). Die meisten Grenzgänger aus Frankreich zahlen keine direkte Quellensteuer in Basel-Stadt – der Fiskalausgleich, den es aus Frankreich für sie gibt, ist der Vollständigkeit halber aufgeführt (70,7 Mio. Franken, +6,0% gegenüber 2008). Eine gewisse Bedeutung haben auch die Quellensteuererträge, die aufgrund von Kapitalleistungen anfallen. 2016 betragen sie insgesamt 24,9 Mio. Franken. In den meisten Kategorien hat auch die Anzahl der Veranlagungen seit 2008 stark zugenommen, beim Erwerb von 17 821 auf 30 987 (+73,9%), bei den Grenzgängern aus Deutschland u. a. von 20 554 auf 25 251 (+22,9%). Insgesamt beträgt der Quellensteuerertrag 2016 405 Mio. Franken, 48,2% mehr als 2008 und 0,4% mehr als im Jahr 2015.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Daten aus der Quellenbesteuerung in Basel-Stadt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_00_00_00_00_002",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6912
+	},
+	{
+		"title": "Mittelwert des Gesamtsteuerertrag sowie Anteil von Einkommens- und Vermögenssteuerertrag",
+		"subtitle": "in Franken, Basel-Stadt, 2015",
+		"kuerzel": "I.18.2.06980",
+		"kuerzelKunde": "2-13",
+		"description": "Mittelwert des Gesamtsteuerertrag sowie Anteil von Einkommens- und Vermögenssteuerertrag",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Steuern",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-09-27T14:45:06.066",
+		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Mittelwert des Gesamtsteuerertrags pro Veranlagung im Jahr 2015 fällt in den hell gefärbten Wohnvierteln eher niedrig aus, in den dunkleren eher hoch. Die grösste Summe des Gesamtertrags tragen Bruderholz und Riehen bei, was durch die Grösse der Kreise symbolisiert wird. Der Anteil an Vermögenssteuer ist zum Beispiel im Wohnviertel Bruderholz besonders ausgeprägt. Eher klein fällt der Gesamtertrag in den Wohnvierteln Kleinhüningen, Clara oder Altstadt Kleinbasel aus.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen, ohne Auswärtige, ohne Wochenaufenthalter.",
+		"template": "mappie002",
+		"darstellungsart": "Karte kontinuierlich",
+		"printformat": "map",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_013",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6980
+	},
+	{
+		"title": "Gewinn- und Kapitalsteuer",
+		"subtitle": "in Franken, Basel-Stadt",
+		"kuerzel": "I.18.2.06981",
+		"kuerzelKunde": "5-1",
+		"description": "Gewinn- und Kapitalsteuer",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Steuern",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-09-27T14:45:06.066",
+		"stufe1": "Juristische Personen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Für die juristischen Personen liegen die neuesten Daten für das Steuerjahr 2014 vor. Zuletzt beträgt der Steuerertrag von ihnen bei insgesamt fast 11 000 Veranlagungen zusammen ca. 700 Mio. Franken. Die bedeutendste Steuerart, die Gewinnsteuer, trug fast 543 Mio. dazu bei. Kapitalsteuer wurden rund 135 Mio. Franken entrichtet, Grundstücksteuer 17,4 Mio. Franken. Seit 2005 schwankte der Gesamtertrag etwas, insgesamt ging er zwischen 2005 und 2014 um 12,4% zurück. Im Vergleich zum Vorjahr blieb der Ertrag 2014 fast unverändert.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von juristischen Personen.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "05_00_00_00_00_001",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6981
+	},
+	{
+		"title": "Steuerertrag juristischer Personen nach Stufen der Gesamtsteuer",
+		"subtitle": "in Franken, Basel-Stadt, 2014",
+		"kuerzel": "I.18.2.06982",
+		"kuerzelKunde": "5.2",
+		"description": "Steuerertrag juristischer Personen nach Stufen der Gesamtsteuer",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Steuern",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-09-27T14:45:06.066",
+		"stufe1": "Juristische Personen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2014 gibt es insgesamt 10 959 Veranlagungen von juristischen Personen in Basel-Stadt. 1 094 (10,0%) von ihnen müssen keine Gewinn-, Kapital- oder Grundstücksteuer bezahlen. Bei der grossen Mehrheit ( 6 975 Veranlagungen bzw. 63,6%) liegt der Steuerbetrag zwischen 1 und 4 999 Franken, der Ertrag belief sich auf etwas mehr als 7 Mio. Franken. In der obersten Kategorie – mit einem Steuerbetrag von über 1 Mio. Franken pro Veranlagung – gibt es 62 Veranlagungen (0,6% von allen), deren Steuerbetrag sich auf ca. 531 Mio. Franken (76,5% des gesamten Steuerbetrags) beläuft.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von juristischen Personen.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "05_00_00_00_00_002",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6982
+	},
+	{
+		"title": "Steuerertrag juristischer Personen nach Stufen des steuersatzbestimmenden Gewinns",
+		"subtitle": "in Franken, Basel-Stadt, 2014",
+		"kuerzel": "I.18.2.06983",
+		"kuerzelKunde": "5-3",
+		"description": "Steuerertrag juristischer Personen nach Stufen des steuersatzbestimmenden Gewinns",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Steuern",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-09-27T14:45:06.066",
+		"stufe1": "Juristische Personen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mehr als die Hälfte (57,4%) der juristischen Personen weisen einen steuersatzbestimmenden Gewinn von 0 Franken auf. Juristische Personen, die keine Gewinnsteuer entrichten müssen, zahlen in der Regel als Alternativsteuer die Grundstücksteuer. Von ihnen stammen insgesamt 34,8 Mio. Franken, dies sind 5,0% des Gesamtertrags. Am anderen Ende entrichten insgesamt 512 juristische Personen (4,7%) mit einem satzbestimmenden Gewinn von über 1 Mio. Franken einen Steuerbetrag von zusammen über 601 Mio. Franken (86,5% der gesamten Steuer der juristischen Personen).",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von juristischen Personen.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "05_00_00_00_00_003",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6983
 	}
 ]

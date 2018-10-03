@@ -27,7 +27,7 @@
   	"type": "linear",
   	tickInterval: 1, 
   	labels: {
-  	  step: 2,
+  	  step: 1,
   	},
   },
   "legend": {

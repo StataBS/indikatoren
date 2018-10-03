@@ -4,111 +4,111 @@
       "data": [
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
-          "Wohnviertel": "Hirzbrunnen",
-          "y": 11,
-          "Wert": 0.048733362
+          "Wohnviertel": "Gotthelf",
+          "y": 10,
+          "Wert": 0.046390258
         },
         {
           "name": "Anteil&nbsp;Ausländer",
-          "Wohnviertel": "Hirzbrunnen",
-          "y": 4,
-          "Wert": 0.249463289
+          "Wohnviertel": "Gotthelf",
+          "y": 6,
+          "Wert": 0.2752971876
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          "Wohnviertel": "Hirzbrunnen",
-          "y": 15,
-          "Wert": 0.4971017604
+          "Wohnviertel": "Gotthelf",
+          "y": 16,
+          "Wert": 0.5010147869
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
-          "Wohnviertel": "Hirzbrunnen",
-          "y": 4,
-          "Wert": 0.1886155855
+          "Wohnviertel": "Gotthelf",
+          "y": 18,
+          "Wert": 0.2869757174
         },
         {
           "name": "Gymnasialquote",
-          "Wohnviertel": "Hirzbrunnen",
-          "y": 10,
-          "Wert": 0.4277108434
+          "Wohnviertel": "Gotthelf",
+          "y": 16,
+          "Wert": 0.578313253
         },
         {
           "name": "Altersquotient",
-          "Wohnviertel": "Hirzbrunnen",
-          "y": 19,
-          "Wert": 0.422836584
+          "Wohnviertel": "Gotthelf",
+          "y": 14,
+          "Wert": 0.3449315704
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
-          "Wohnviertel": "Hirzbrunnen",
-          "y": 17,
-          "Wert": 0.3984542722
+          "Wohnviertel": "Gotthelf",
+          "y": 15,
+          "Wert": 0.3545955349
         },
         {
           "name": "Jugendquotient",
-          "Wohnviertel": "Hirzbrunnen",
-          "y": 19,
-          "Wert": 0.3412232532
+          "Wohnviertel": "Gotthelf",
+          "y": 11,
+          "Wert": 0.2551612155
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
-          "Wohnviertel": "Hirzbrunnen",
-          "y": 16,
-          "Wert": 1941.7718078
+          "Wohnviertel": "Gotthelf",
+          "y": 5,
+          "Wert": 1924.7530612
         },
         {
           "name": "Anteil Einfamilienhäuser",
-          "Wohnviertel": "Hirzbrunnen",
-          "y": 19,
-          "Wert": 0.6972187105
+          "Wohnviertel": "Gotthelf",
+          "y": 16,
+          "Wert": 0.3693877551
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
-          "Wohnviertel": "Hirzbrunnen",
-          "y": 18,
-          "Wert": 0.5903189074
+          "Wohnviertel": "Gotthelf",
+          "y": 14,
+          "Wert": 0.3240684495
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
-          "Wohnviertel": "Hirzbrunnen",
-          "y": 12,
-          "Wert": 80.960734102
+          "Wohnviertel": "Gotthelf",
+          "y": 11,
+          "Wert": 74.544131911
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
-          "Wohnviertel": "Hirzbrunnen",
-          "y": 10,
-          "Wert": 38.967116725
+          "Wohnviertel": "Gotthelf",
+          "y": 11,
+          "Wert": 41.130126881
         },
         {
           "name": "Vermögenssteuer",
-          "Wohnviertel": "Hirzbrunnen",
-          "y": 10,
-          "Wert": 735.59236151
+          "Wohnviertel": "Gotthelf",
+          "y": 11,
+          "Wert": 962.38892866
         },
         {
           "name": "Einkommenssteuer",
-          "Wohnviertel": "Hirzbrunnen",
-          "y": 10,
-          "Wert": 7527.794101
+          "Wohnviertel": "Gotthelf",
+          "y": 11,
+          "Wert": 8647.5237414
         },
         {
           "name": "Erwerbstätigenquote",
-          "Wohnviertel": "Hirzbrunnen",
-          "y": 8,
-          "Wert": 0.7095861405
+          "Wohnviertel": "Gotthelf",
+          "y": 15,
+          "Wert": 0.7497290566
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
-          "Wohnviertel": "Hirzbrunnen",
-          "y": 9,
-          "Wert": 0.3361931625
+          "Wohnviertel": "Gotthelf",
+          "y": 8,
+          "Wert": 0.2957959879
         },
         {
           "name": "Arbeitslosenquote",
-          "Wohnviertel": "Hirzbrunnen",
-          "y": 11,
-          "Wert": 0.0404742079
+          "Wohnviertel": "Gotthelf",
+          "y": 9,
+          "Wert": 0.0344512819
         }
       ],
       "name": "Wert",

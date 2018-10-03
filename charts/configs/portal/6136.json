@@ -6,44 +6,44 @@
       "legendIndex": 0,
       "data": [
         [
-          "weiblich",
+          "Weiblich",
           95
         ],
         [
-          "männlich",
+          "Männlich",
           44
         ],
         [
           "Schweiz",
-          114
+          null
         ],
         [
           "Ausland",
-          25
+          null
         ],
         [
-          "18-29",
+          "18-29 J.",
           14
         ],
         [
-          "30-39",
+          "30-39 J.",
           5
         ],
         [
-          "40-49",
+          "40-49 J.",
           14
         ],
         [
-          "50-59",
+          "50-59 J.",
           17
         ],
         [
-          "60 u.m.",
+          "60 J. u.m.",
           89
         ],
         [
           "Total",
-          139
+          null
         ]
       ],
       "name": "Oblig. Schule",
@@ -55,44 +55,44 @@
       "legendIndex": 1,
       "data": [
         [
-          "weiblich",
+          "Weiblich",
           10
         ],
         [
-          "männlich",
+          "Männlich",
           4
         ],
         [
           "Schweiz",
-          13
+          114
         ],
         [
           "Ausland",
-          1
+          25
         ],
         [
-          "18-29",
+          "18-29 J.",
           3
         ],
         [
-          "30-39",
+          "30-39 J.",
           1
         ],
         [
-          "40-49",
+          "40-49 J.",
           2
         ],
         [
-          "50-59",
+          "50-59 J.",
           0
         ],
         [
-          "60 u.m.",
+          "60 J. u.m.",
           8
         ],
         [
           "Total",
-          14
+          139
         ]
       ],
       "name": "Berufsvorb. Schule",
@@ -104,44 +104,44 @@
       "legendIndex": 2,
       "data": [
         [
-          "weiblich",
+          "Weiblich",
           327
         ],
         [
-          "männlich",
+          "Männlich",
           250
         ],
         [
           "Schweiz",
-          527
+          13
         ],
         [
           "Ausland",
-          50
+          1
         ],
         [
-          "18-29",
+          "18-29 J.",
           22
         ],
         [
-          "30-39",
+          "30-39 J.",
           35
         ],
         [
-          "40-49",
+          "40-49 J.",
           46
         ],
         [
-          "50-59",
+          "50-59 J.",
           85
         ],
         [
-          "60 u.m.",
+          "60 J. u.m.",
           389
         ],
         [
           "Total",
-          577
+          14
         ]
       ],
       "name": "Berufslehre",
@@ -153,44 +153,44 @@
       "legendIndex": 3,
       "data": [
         [
-          "weiblich",
+          "Weiblich",
           9
         ],
         [
-          "männlich",
+          "Männlich",
           12
         ],
         [
           "Schweiz",
-          18
+          527
         ],
         [
           "Ausland",
-          3
+          50
         ],
         [
-          "18-29",
+          "18-29 J.",
           1
         ],
         [
-          "30-39",
+          "30-39 J.",
           4
         ],
         [
-          "40-49",
+          "40-49 J.",
           3
         ],
         [
-          "50-59",
+          "50-59 J.",
           5
         ],
         [
-          "60 u.m.",
+          "60 J. u.m.",
           8
         ],
         [
           "Total",
-          21
+          577
         ]
       ],
       "name": "DMS",
@@ -202,44 +202,44 @@
       "legendIndex": 4,
       "data": [
         [
-          "weiblich",
+          "Weiblich",
           53
         ],
         [
-          "männlich",
+          "Männlich",
           49
         ],
         [
           "Schweiz",
-          89
+          18
         ],
         [
           "Ausland",
-          13
+          3
         ],
         [
-          "18-29",
+          "18-29 J.",
           36
         ],
         [
-          "30-39",
+          "30-39 J.",
           9
         ],
         [
-          "40-49",
+          "40-49 J.",
           10
         ],
         [
-          "50-59",
+          "50-59 J.",
           12
         ],
         [
-          "60 u.m.",
+          "60 J. u.m.",
           35
         ],
         [
           "Total",
-          102
+          21
         ]
       ],
       "name": "Matura",
@@ -251,12 +251,61 @@
       "legendIndex": 5,
       "data": [
         [
-          "weiblich",
+          "Weiblich",
           28
         ],
         [
-          "männlich",
+          "Männlich",
           5
+        ],
+        [
+          "Schweiz",
+          89
+        ],
+        [
+          "Ausland",
+          13
+        ],
+        [
+          "18-29 J.",
+          0
+        ],
+        [
+          "30-39 J.",
+          0
+        ],
+        [
+          "40-49 J.",
+          2
+        ],
+        [
+          "50-59 J.",
+          11
+        ],
+        [
+          "60 J. u.m.",
+          20
+        ],
+        [
+          "Total",
+          102
+        ]
+      ],
+      "name": "Lehrkräfte-Seminar",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffbb58",
+      "index": 6,
+      "legendIndex": 6,
+      "data": [
+        [
+          "Weiblich",
+          146
+        ],
+        [
+          "Männlich",
+          133
         ],
         [
           "Schweiz",
@@ -267,77 +316,28 @@
           1
         ],
         [
-          "18-29",
-          0
-        ],
-        [
-          "30-39",
-          0
-        ],
-        [
-          "40-49",
-          2
-        ],
-        [
-          "50-59",
-          11
-        ],
-        [
-          "60 u.m.",
-          20
-        ],
-        [
-          "Total",
-          33
-        ]
-      ],
-      "name": "Seminar",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#ffbb58",
-      "index": 6,
-      "legendIndex": 6,
-      "data": [
-        [
-          "weiblich",
-          146
-        ],
-        [
-          "männlich",
-          133
-        ],
-        [
-          "Schweiz",
-          255
-        ],
-        [
-          "Ausland",
-          24
-        ],
-        [
-          "18-29",
+          "18-29 J.",
           9
         ],
         [
-          "30-39",
+          "30-39 J.",
           23
         ],
         [
-          "40-49",
+          "40-49 J.",
           43
         ],
         [
-          "50-59",
+          "50-59 J.",
           66
         ],
         [
-          "60 u.m.",
+          "60 J. u.m.",
           138
         ],
         [
           "Total",
-          279
+          33
         ]
       ],
       "name": "Höhere Fachschule",
@@ -349,44 +349,44 @@
       "legendIndex": 7,
       "data": [
         [
-          "weiblich",
+          "Weiblich",
           146
         ],
         [
-          "männlich",
+          "Männlich",
           186
         ],
         [
           "Schweiz",
-          276
+          255
         ],
         [
           "Ausland",
-          56
+          24
         ],
         [
-          "18-29",
+          "18-29 J.",
           12
         ],
         [
-          "30-39",
+          "30-39 J.",
           42
         ],
         [
-          "40-49",
+          "40-49 J.",
           53
         ],
         [
-          "50-59",
+          "50-59 J.",
           76
         ],
         [
-          "60 u.m.",
+          "60 J. u.m.",
           149
         ],
         [
           "Total",
-          332
+          279
         ]
       ],
       "name": "Universität",
@@ -398,44 +398,44 @@
       "legendIndex": 8,
       "data": [
         [
-          "weiblich",
+          "Weiblich",
           3
         ],
         [
-          "männlich",
+          "Männlich",
           4
         ],
         [
           "Schweiz",
-          7
+          276
         ],
         [
           "Ausland",
+          56
+        ],
+        [
+          "18-29 J.",
           0
         ],
         [
-          "18-29",
-          0
-        ],
-        [
-          "30-39",
+          "30-39 J.",
           1
         ],
         [
-          "40-49",
+          "40-49 J.",
           1
         ],
         [
-          "50-59",
+          "50-59 J.",
           1
         ],
         [
-          "60 u.m.",
+          "60 J. u.m.",
           4
         ],
         [
           "Total",
-          7
+          332
         ]
       ],
       "name": "Andere Ausbildung",
@@ -447,44 +447,44 @@
       "legendIndex": 9,
       "data": [
         [
-          "weiblich",
+          "Weiblich",
           1
         ],
         [
-          "männlich",
+          "Männlich",
           1
         ],
         [
           "Schweiz",
-          2
+          7
         ],
         [
           "Ausland",
           0
         ],
         [
-          "18-29",
+          "18-29 J.",
           0
         ],
         [
-          "30-39",
+          "30-39 J.",
           0
         ],
         [
-          "40-49",
+          "40-49 J.",
           0
         ],
         [
-          "50-59",
+          "50-59 J.",
           0
         ],
         [
-          "60 u.m.",
+          "60 J. u.m.",
           2
         ],
         [
           "Total",
-          2
+          7
         ]
       ],
       "name": "Keine Angabe",
@@ -632,7 +632,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, S15A.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, S15A.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-26"
   },
   "legend": {
     "layout": "vertical",

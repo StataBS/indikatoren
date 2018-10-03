@@ -3,21 +3,27 @@
     "chart": {		
         "events":{
             "load": function() {
-                this.credits.element.onclick = function() {
-                    /*
-                    window.open(
-                    "http://www.statistik.bs.ch",
-                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
-                    );
-                    */
-                }
+                this.credits.element.onclick = function() {};
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }                              
             }
         },
         "borderColor": "#fbfbfb",
         "backgroundColor": "#fbfbfb",
        	"width": 320,
     	"height": 208, 
-        spacing: [8,0,3,2],
+    	spacing: [2,2,2,2], /*top, right, bottom and left */
          "style": {
 			"fontFamily": "Arial",
 			"fontSize": "10px",
@@ -91,14 +97,26 @@
         },
         "labels": {
             "rotation": 0,
-           "style": {
+            "style": {
                 "color": "#000000",
                 "width": 1,
+                 whiteSpace: 'nowrap', 
                 "textOverflow": "none",
                 "fontSize": "10px",
             },
-            "formatter": function() {
-            	return this.value.replace(" ", "<br/>");
+              "formatter": function() {
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
             }
         }
     },
@@ -120,16 +138,17 @@
         }
     },
     "legend": {
+    	 padding: 0,
         "layout": "vertical",
         "verticalAlign": "middle",
-        "itemMarginBottom": 5,     
+        //"itemMarginBottom": 5,     
         "align": "right",
         "useHTML": true,
         "itemStyle": {
         	"fontSize": "10px",
         	fontFamily: "Arial",
             "fontWeight": "normal",
-            "width": 95,
+            //"width": 95,
         },
         "symbolRadius": 0,
         "labelFormatter": function () {
