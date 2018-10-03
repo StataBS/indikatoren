@@ -7722,6 +7722,46 @@
     "filename": 6381
   },
   "customFunctions": {
+    "hideOnZoom": function (e, selector){
+				var divId = e['target']['chart']['renderTo']['id'] || 'dummySettingForExportServer';
+				var divIdString = '#' + divId;
+				divIdString = '';
+				//only care about zoom events, not pan
+				if (e.trigger != 'pan'){
+					//determine current zoom level
+					var zoom = (e.dataMax - e.dataMin) / (e.max - e.min);
+					$(divIdString + selector).attr('visibility', zoom == 1 ? 'inherit' : 'hidden');
+				}
+			},
+    "recalculateOnZoom": function (e, zoomableLabels){
+				if (e.target.chart){
+					var fn = e.target.chart.userOptions.customFunctions;
+					fn.hideOnZoom(e, '.pieLegendHideOnZoom');
+					
+					//wait for zoom animation to be finished before attempting calculation of zoom
+					if (Array.isArray(zoomableLabels)){
+						setTimeout(function(context){
+							zoomableLabels.forEach(function(v, i, a){
+							//catch exception that occurs only in Highcharts Export Server for 6379. todo: fix in 6379
+							try {
+								var yAxis = e.target.chart.yAxis[0];
+								var zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+								if (!v.initialText) {v.initialText = v.text; }
+								var legendValue = (zoom == 1 ? v.initialText : v.legendLabelZoomFormatter(v.initialValue / zoom / zoom));
+								v.label.destroy(); 
+								v.text = legendValue;
+								v.label = fn.addLegendLabel(e.target.chart, v.text, v.x, v.y, v.cssClass, v.useHtml, v.align);
+								//handle right-align
+								if (v.align == 'right'){
+									v.label.attr({x: v.x - v.label.width});
+								}
+							}
+							catch(e){console.log(e)}
+							});
+						}, 750); //default jQuery animmation is 500 ms, see https://api.highcharts.com/highmaps/chart.animation 
+					}
+				}
+			},
     "pieSizeCategorical": function (value, conf){
 				for (var i=0; i < conf.length; i++ ){
 					if (value >= conf[i].from && value < conf[i].to) {
@@ -7972,11 +8012,21 @@
     				    class: cssClass + ' pieLegend'
     				}).add();
                 },
-    "addLegendLabel": function (chart, text, x, y, cssClass, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
+    "addLegendLabel": function (chart, text, x, y, cssClass, useHtml, align){
+                	var label = 
+    				chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
+                	.css({
+					 fontSize: "12px", fontFamily: "Arial", fontWeight: 'normal', fontStyle: "normal"
+                	})    				
+    				.attr({
     					zIndex: 6,
-    					class: cssClass + ' pieLegend'
+    					class: cssClass + ' pieLegend', 
     				}).add();
+    				//handle right-align
+					if (align == 'right'){
+						label.attr({x: x - label.width});
+					}
+    				return label;
                 },
     "addLegendLabelbold": function (chart, text, x, y, cssClass, useHtml){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).

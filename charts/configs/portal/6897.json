@@ -1,0 +1,395 @@
+{
+  "series": [
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          2006,
+          1023135594
+        ],
+        [
+          2007,
+          1069643932
+        ],
+        [
+          2008,
+          1041456578
+        ],
+        [
+          2009,
+          1058394894
+        ],
+        [
+          2010,
+          1088317926
+        ],
+        [
+          2011,
+          1057636852
+        ],
+        [
+          2012,
+          1065215842
+        ],
+        [
+          2013,
+          1084939722
+        ],
+        [
+          2014,
+          1115435105
+        ],
+        [
+          2015,
+          1115105002
+        ]
+      ],
+      "name": "Einkommenssteuer"
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          2006,
+          212637042
+        ],
+        [
+          2007,
+          209167422
+        ],
+        [
+          2008,
+          224932947
+        ],
+        [
+          2009,
+          233134442
+        ],
+        [
+          2010,
+          232052561
+        ],
+        [
+          2011,
+          205791635
+        ],
+        [
+          2012,
+          232163337
+        ],
+        [
+          2013,
+          279250054
+        ],
+        [
+          2014,
+          305305031
+        ],
+        [
+          2015,
+          270086215
+        ]
+      ],
+      "name": "Vermögenssteuer"
+    },
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          2006,
+          200131849
+        ],
+        [
+          2007,
+          248449270
+        ],
+        [
+          2008,
+          263094268
+        ],
+        [
+          2009,
+          295020922
+        ],
+        [
+          2010,
+          299631962
+        ],
+        [
+          2011,
+          313767616
+        ],
+        [
+          2012,
+          332632079
+        ],
+        [
+          2013,
+          365275691
+        ],
+        [
+          2014,
+          380892266
+        ],
+        [
+          2015,
+          403731511
+        ]
+      ],
+      "name": "Quellensteuer"
+    },
+    {
+      "color": "#B00000",
+      "data": [
+        [
+          2006,
+          662809438
+        ],
+        [
+          2007,
+          790091445
+        ],
+        [
+          2008,
+          603782261
+        ],
+        [
+          2009,
+          626110994
+        ],
+        [
+          2010,
+          530571499
+        ],
+        [
+          2011,
+          449178880
+        ],
+        [
+          2012,
+          509340739
+        ],
+        [
+          2013,
+          544278335
+        ],
+        [
+          2014,
+          542697000
+        ],
+        [
+          2015,
+          null
+        ]
+      ],
+      "name": "Gewinnsteuer"
+    },
+    {
+      "color": "#DC440E",
+      "data": [
+        [
+          2006,
+          127051351
+        ],
+        [
+          2007,
+          131526059
+        ],
+        [
+          2008,
+          130144479
+        ],
+        [
+          2009,
+          131231240
+        ],
+        [
+          2010,
+          129712441
+        ],
+        [
+          2011,
+          116370771
+        ],
+        [
+          2012,
+          108317154
+        ],
+        [
+          2013,
+          133050144
+        ],
+        [
+          2014,
+          134545000
+        ],
+        [
+          2015,
+          null
+        ]
+      ],
+      "name": "Kapitalsteuer"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6897"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Entwicklung des Ertrags aus Steuern"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in Franken, Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-27"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemDistance": 5,
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 6897
+  }
+}

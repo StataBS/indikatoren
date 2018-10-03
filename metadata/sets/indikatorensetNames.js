@@ -16,5 +16,6 @@ var indikatorensetNames = [
 	"Tourismus",
 	"Integration (Print)",
 	"Wanderungen (Print)",
+	"Steuern",
 	"Test"
 ];
