@@ -10402,7 +10402,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2018-10-03T11:07:48.4848",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -10410,7 +10410,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Bei Personen aus Deutschland (70%), EU-Ost (56%), EU-17 + EFTA (50%) und Mittel- und Südamerika (38%) ist der Anteil an Personen mit Tertiärausbildung grösser als bei den Schweizer Staatsangehörigen (34%). Geringe Anteile an tertiär Ausgebildeten weisen Personen aus der Türkei und dem Balkan (je 12%) auf.",
 		"erlaeuterungen": "Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe:  Höhere Fachschule, Fachhochschule, Universität.",
-		"template": "template001",
+		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -10440,7 +10440,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2018-10-03T11:07:48.4848",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -10448,7 +10448,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Ausländische Staatsangehörige weisen den höchsten Anteil an Personen mit Tertiärausbildung (40%) sowie mit Sekundarstufe-I-Ausbildung (33%) auf.",
 		"erlaeuterungen": "Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe:  Höhere Fachschule, Fachhochschule, Universität.",
-		"template": "template001",
+		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -14084,7 +14084,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2018-10-03T11:07:48.4848",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -14092,7 +14092,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Abgesehen von Deutschen und Schweizern gaben Personen aus dem Balkan (46,8%), der Türkei (39,2%) und Italien (37,4%) am häufigsten Deutsch als Hauptsprache an, während die geringsten Anteile bei Personen aus den EU-17 + EFTA-Ländern (30,9%), Mittel- und Südamerika (30,3%) und der Kategorie «Übrige Länder»&nbsp;(22,6%) zu beobachten sind.",
 		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst.",
-		"template": "template001",
+		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -14122,7 +14122,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2018-10-03T11:07:48.4848",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -14130,7 +14130,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Der Anteil deutschsprachiger Ausländerinnen und Ausländer ist bei den 15-bis 24-Jährigen (70,7%) am grössten, während er bei den 40- bis &nbsp;64-Jährigen (46,7%) und den über 65-Jährigen (39,6%) geringer ist.",
 		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst.",
-		"template": "template001",
+		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -14160,7 +14160,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2018-10-03T11:07:48.4848",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -14168,7 +14168,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Eingebürgerte Schweizerinnen und Schweizer gaben im Mittel der Jahre 2012 bis 2016 zu 80,0% Deutsch als Hauptsprache an, während es bei den Ausländerinnen und Ausländern lediglich 50,7% waren.",
 		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst.",
-		"template": "template001",
+		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -14198,7 +14198,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2018-10-03T11:07:48.4848",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -14206,7 +14206,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Bei der Arbeit sprechen 97,7% der eingebürgerten Schweizerinnen und Schweizer Deutsch oder Schweizerdeutsch, während es bei den Ausländerinnen und Ausländern lediglich 81,2% sind.",
 		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d.h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst.",
-		"template": "template001",
+		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
