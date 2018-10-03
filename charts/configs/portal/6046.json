@@ -12,6 +12,10 @@
           107149
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2011",
           113469
         ],
@@ -29,7 +33,11 @@
         ],
         [
           "2015",
-          116698
+          116517
+        ],
+        [
+          "2016",
+          116366
         ]
       ],
       "name": "Handel und Dienstleistungen",
@@ -45,6 +53,10 @@
         [
           "2008",
           32366
+        ],
+        [
+          " ",
+          null
         ],
         [
           "2011",
@@ -64,7 +76,11 @@
         ],
         [
           "2015",
-          34852
+          34822
+        ],
+        [
+          "2016",
+          34951
         ]
       ],
       "name": "Industrie, Energie und Baugewerbe",
@@ -80,6 +96,10 @@
         [
           "2008",
           50
+        ],
+        [
+          " ",
+          null
         ],
         [
           "2011",
@@ -100,6 +120,10 @@
         [
           "2015",
           82
+        ],
+        [
+          "2016",
+          44
         ]
       ],
       "name": "Land- und Forstwirtschaft",
@@ -187,7 +211,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Vollzeitäquivalenten",
+    "text": "in Vollzeitäquivalenten, Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -226,7 +250,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-2"
   },
   "legend": {
     "symbolRadius": 0,
