@@ -925,7 +925,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.1.06143",
 		"kuerzelKunde": "4.1",
 		"description": "Bevölkerungsbestand am Jahresende",
@@ -935,7 +935,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-05-07T09:38:03.033",
+		"aktualisierungsdatum": "2018-10-04T17:41:57.5757",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -944,6 +944,8 @@ var indikatorensetData = [
 		"lesehilfe": "In der 10-Jahresspanne von 2008 bis 2017 nahm die Bevölkerung in Basel-Stadt von 188 556 auf 198 988 Personen zu. Dies entspricht einem Wachstum um 5,0%.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "04_00_00_00_00_001",
 		"parentId": 4132,
 		"children": [],
@@ -954,8 +956,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6143,
-		"darstellungsart": "Grafik"
+		"id": 6143
 	},
 	{
 		"title": "Bevölkerung nach sozioprofessioneller Kategorie",
