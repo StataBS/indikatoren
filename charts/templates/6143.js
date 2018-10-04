@@ -1,6 +1,7 @@
 (function(){
     return {
         chart: {
+            marginTop:70,
         	type: 'area'
         },
         xAxis: {
