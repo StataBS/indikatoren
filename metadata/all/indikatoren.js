@@ -7959,7 +7959,7 @@ var indikatoren = [
 	{
 		"title": "Beurteilung der kantonalen Steuern",
 		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?»",
-		"kuerzel": "I.50.1.04860",
+		"kuerzel": "I.50.1.4860",
 		"kuerzelKunde": "2.3.01",
 		"description": "Beurteilung der kantonalen Steuern",
 		"thema": "50 Befragungen",
@@ -7968,7 +7968,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-08T12:11:39.3939",
+		"aktualisierungsdatum": "2018-10-05T09:35:08.088",
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
@@ -7976,12 +7976,14 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "2015 gaben mit 56,4% mehr als die Hälfte der Befragten an, dass die kantonalen Steuern und Gebühren beibehalten werden sollten. Dieser Anteil fällt im Vergleich zu den Vorjahren deutlich höher aus (2011: 45,6%, 2007: 30,0%).",
 		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"template": "befragungen001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_03_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"6133"
+			"6133",
+			"6290"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -14898,7 +14900,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-05T11:57:29.2929",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14907,12 +14909,11 @@ var indikatoren = [
 		"lesehilfe": "2015 gaben mit 56,4% mehr als die Hälfte der Befragten an, dass die kantonalen Steuern und Gebühren beibehalten werden sollten. Dieser Anteil fällt im Vergleich zu den Vorjahren deutlich höher aus (2011: 45,6%, 2007: 30,0%).",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "02_00_00_00_00_017",
 		"parentId": 4860,
-		"children": [
-			"6290"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8"
