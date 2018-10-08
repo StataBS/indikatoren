@@ -1598,8 +1598,8 @@
 	},
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
-		"subtitle": "",
-		"kuerzel": "I.01.1.04132",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.01.1.4132",
 		"kuerzelKunde": "1.1.A",
 		"description": "Bevölkerungsbestand am Jahresende",
 		"thema": "01 Bevölkerung",
@@ -1608,7 +1608,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-05-07T09:38:03.033",
+		"aktualisierungsdatum": "2018-10-04T17:41:22.2222",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.1 Bevölkerung",
 		"stufe3": "",
@@ -1617,6 +1617,8 @@
 		"lesehilfe": "In der 10-Jahresspanne von 2008 bis 2017 nahm die Bevölkerung in Basel-Stadt von 188 556 auf 198 988 Personen zu. Dies entspricht einem Wachstum um 5,0%.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_000",
 		"parentId": null,
@@ -1631,8 +1633,7 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4132,
-		"darstellungsart": "Grafik"
+		"id": 4132
 	},
 	{
 		"title": "Anzahl Wohnungen",
@@ -7958,7 +7959,7 @@
 	{
 		"title": "Beurteilung der kantonalen Steuern",
 		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?»",
-		"kuerzel": "I.50.1.04860",
+		"kuerzel": "I.50.1.4860",
 		"kuerzelKunde": "2.3.01",
 		"description": "Beurteilung der kantonalen Steuern",
 		"thema": "50 Befragungen",
@@ -7967,7 +7968,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-08T12:11:39.3939",
+		"aktualisierungsdatum": "2018-10-05T09:35:08.088",
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
@@ -7975,12 +7976,14 @@
 		"stufe5": "",
 		"lesehilfe": "2015 gaben mit 56,4% mehr als die Hälfte der Befragten an, dass die kantonalen Steuern und Gebühren beibehalten werden sollten. Dieser Anteil fällt im Vergleich zu den Vorjahren deutlich höher aus (2011: 45,6%, 2007: 30,0%).",
 		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"template": "befragungen001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_03_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"6133"
+			"6133",
+			"6290"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -14897,7 +14900,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-05T11:57:29.2929",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14906,12 +14909,11 @@
 		"lesehilfe": "2015 gaben mit 56,4% mehr als die Hälfte der Befragten an, dass die kantonalen Steuern und Gebühren beibehalten werden sollten. Dieser Anteil fällt im Vergleich zu den Vorjahren deutlich höher aus (2011: 45,6%, 2007: 30,0%).",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "02_00_00_00_00_017",
 		"parentId": 4860,
-		"children": [
-			"6290"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8"
@@ -15153,7 +15155,7 @@
 	},
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.1.06143",
 		"kuerzelKunde": "4.1",
 		"description": "Bevölkerungsbestand am Jahresende",
@@ -15163,7 +15165,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-05-07T09:38:03.033",
+		"aktualisierungsdatum": "2018-10-04T17:41:57.5757",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15172,6 +15174,8 @@
 		"lesehilfe": "In der 10-Jahresspanne von 2008 bis 2017 nahm die Bevölkerung in Basel-Stadt von 188 556 auf 198 988 Personen zu. Dies entspricht einem Wachstum um 5,0%.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "04_00_00_00_00_001",
 		"parentId": 4132,
@@ -15183,8 +15187,7 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6143,
-		"darstellungsart": "Grafik"
+		"id": 6143
 	},
 	{
 		"title": "Bevölkerung nach sozioprofessioneller Kategorie",
