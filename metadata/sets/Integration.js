@@ -1937,18 +1937,18 @@ var indikatorensetData = [
 		"id": 6418
 	},
 	{
-		"title": "Anteil der Staatsangestellten Basel-Stadt nach Heimat",
+		"title": "Anteil der Staatsangestellten Basel-Stadt nach Staatsangehörigkeit",
 		"subtitle": "",
 		"kuerzel": "I.18.3.6419",
 		"kuerzelKunde": "C3-1",
-		"description": "Anteil der Staatsangestellten Basel-Stadt nach Heimat",
+		"description": "Anteil der Staatsangestellten Basel-Stadt nach Staatsangehörigkeit",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2018-10-03T11:07:49.4949",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
