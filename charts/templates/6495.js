@@ -47,7 +47,8 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    itemWidth: 150,
+    itemWidth: 81,
+    padding: 1,
     labelFormatter: function () {
         return this.name;
     },
