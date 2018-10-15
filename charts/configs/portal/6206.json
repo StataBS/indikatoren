@@ -47,9 +47,13 @@
         [
           2017,
           1.3
+        ],
+        [
+          2018,
+          1.2
         ]
       ],
-      "name": "Weiterbildungsschule"
+      "name": "Weiterbildungsschule\u002FSek"
     },
     {
       "color": "#662673",
@@ -98,9 +102,13 @@
         [
           2017,
           8.7
+        ],
+        [
+          2018,
+          16.7
         ]
       ],
-      "name": "Spezialangebote WBS"
+      "name": "Spezialangebote WBS\u002FSek"
     },
     {
       "color": "#008AC3",
@@ -149,6 +157,10 @@
         [
           2017,
           9.9
+        ],
+        [
+          2018,
+          5.1
         ]
       ],
       "name": "Zentrum für Brückenangebote"
@@ -200,6 +212,10 @@
         [
           2017,
           11.4
+        ],
+        [
+          2018,
+          22.1
         ]
       ],
       "name": "Allg. Gewerbeschule"
@@ -254,6 +270,10 @@
         [
           2017,
           10
+        ],
+        [
+          2018,
+          8.7
         ]
       ],
       "name": "Berufsfachschule"
@@ -304,7 +324,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Schultyp",
+    "text": "nach Schultyp, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -355,7 +375,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-9"
   },
   "legend": {
     "enabled": true,

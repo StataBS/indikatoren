@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#B00000",
+      "color": "#6F6F6F",
       "legendIndex": 2,
       "data": [
         [
@@ -44,7 +44,7 @@
       "name": "Basel"
     },
     {
-      "color": "#662673",
+      "color": "#923F8D",
       "legendIndex": 2,
       "data": [
         [
@@ -209,7 +209,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Jährlich durch  Stau generierte Verzögerungszeit"
+    "text": "Jährlich durch Stau generierte Verzögerungszeit"
   },
   "subtitle": {
     "style": {
@@ -269,7 +269,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: TomTom International.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: TomTom International.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },
   "legend": {
     "enabled": true,
