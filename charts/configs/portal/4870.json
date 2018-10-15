@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#71A3B5",
-      "index": 0,
+      "index": 2,
       "data": [
         [
           "2009 (N=881)",
@@ -22,7 +22,7 @@
     },
     {
       "color": "#FFBB58",
-      "index": 2,
+      "index": 0,
       "data": [
         [
           "2009 (N=881)",
@@ -186,7 +186,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F28.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-10"
   },
   "legend": {
-    "reversed": true,
+    "reversed": false,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,

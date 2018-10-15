@@ -1,9 +1,7 @@
 {
   "series": [
     {
-      "color": "#007A2F",
-      "index": 4,
-      "legendIndex": 4,
+      "color": "#007a2f",
       "data": [
         [
           "2003",
@@ -30,9 +28,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#73BA7C",
-      "index": 3,
-      "legendIndex": 3,
+      "color": "#68ab2b",
       "data": [
         [
           "2003",
@@ -59,9 +55,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FFBB58",
-      "index": 2,
-      "legendIndex": 2,
+      "color": "#ffbb58",
       "data": [
         [
           "2003",
@@ -88,9 +82,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FF8028",
-      "index": 1,
-      "legendIndex": 1,
+      "color": "#dc440e",
       "data": [
         [
           "2003",
@@ -117,9 +109,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#C8C8C8",
-      "index": 0,
-      "legendIndex": 0,
+      "color": "#999999",
       "data": [
         [
           "2003",
@@ -266,7 +256,8 @@
       "style": {
         "color": "#000000"
       }
-    }
+    },
+    "reversedStacks": false
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
@@ -298,9 +289,10 @@
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        }
+    "labelFormatter": function (){
+            return this.name.replace("/", " /<br/>");
+        },
+    "reversed": true
   },
   "exporting": {
     "filename": 5138

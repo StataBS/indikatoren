@@ -3,11 +3,11 @@
     "series": [
         {
             "color": "#71A3B5", 
-            "index": 0            
+            "index": 2            
         },
         {
             "color": "#FFBB58", 
-            "index": 2
+            "index": 0
         },
         {
             "color": "#8A8A8A", 
@@ -18,7 +18,7 @@
         "type": "category"
   },
   "legend": {
-      "reversed": true
+      "reversed": false
   }
 	}
 }());

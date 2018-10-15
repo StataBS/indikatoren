@@ -1,11 +1,8 @@
 {
   "series": [
     {
-      "color": "#ff8028",
+      "color": "#6F6F6F",
       "index": 1,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2006,
@@ -106,7 +103,7 @@
       "name": "Bern"
     },
     {
-      "color": "#672773",
+      "color": "#FABD24",
       "index": 3,
       "data": [
         [

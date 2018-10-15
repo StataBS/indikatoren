@@ -1,9 +1,9 @@
 {
   "series": [
     {
-      "color": "#B00000",
+      "color": "#6F6F6F",
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -98,7 +98,7 @@
       "name": "Kanton Basel-Stadt"
     },
     {
-      "color": "#007A2F",
+      "color": "#B00000",
       "visible": true,
       "marker": {
         "enabled": false

@@ -2,9 +2,6 @@
   "series": [
     {
       "color": "#008AC3",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2011,
@@ -40,9 +37,6 @@
     {
       "color": "#007A2F",
       "visible": true,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2011,

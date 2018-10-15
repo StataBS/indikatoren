@@ -15,13 +15,13 @@
   },
  "series": [
     {
-		"color": "#B00000",
+		"color": "#6F6F6F",
     	"legendIndex": 2
-    }, /* rot */
+    }, /* Basel */
     {
-		"color": "#662673",
+		"color": "#923F8D",
     	"legendIndex": 2
-    }, /* violett */
+    }, /* Genf */
     {
 		"color": "#008AC3",
     	"legendIndex": 2

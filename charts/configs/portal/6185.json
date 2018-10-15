@@ -2,8 +2,6 @@
   "series": [
     {
       "color": "#007a2f",
-      "index": 4,
-      "legendIndex": 4,
       "data": [
         [
           "2003",
@@ -31,8 +29,6 @@
     },
     {
       "color": "#68ab2b",
-      "index": 3,
-      "legendIndex": 3,
       "data": [
         [
           "2003",
@@ -60,8 +56,6 @@
     },
     {
       "color": "#ffbb58",
-      "index": 2,
-      "legendIndex": 2,
       "data": [
         [
           "2003",
@@ -89,8 +83,6 @@
     },
     {
       "color": "#dc440e",
-      "index": 1,
-      "legendIndex": 1,
       "data": [
         [
           "2003",
@@ -118,8 +110,6 @@
     },
     {
       "color": "#999999",
-      "index": 0,
-      "legendIndex": 0,
       "data": [
         [
           "2003",
@@ -266,7 +256,8 @@
       "style": {
         "color": "#000000"
       }
-    }
+    },
+    "reversedStacks": false
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
@@ -298,9 +289,10 @@
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        }
+    "labelFormatter": function (){
+            return this.name.replace("/", " /<br/>");
+        },
+    "reversed": true
   },
   "exporting": {
     "filename": 6185
