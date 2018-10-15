@@ -1298,7 +1298,7 @@ var indikatorensetData = [
 	{
 		"title": "Beschäftigung nach Geschlecht",
 		"subtitle": "Anzahl Beschäftigte und Vollzeitäquivalente, Basel-Stadt",
-		"kuerzel": "I.03.2.06454",
+		"kuerzel": "I.03.2.6454",
 		"kuerzelKunde": "3.2-03",
 		"description": "Beschäftigung nach Geschlecht",
 		"thema": "03 Erwerbsleben",
@@ -1307,15 +1307,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-15T09:26:33.3333",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2015 beträgt die Beschäftigung bei den Frauen rund 63 200 VZÄ (90 000 Beschäftigte), was einem Zuwachs um rund 400 VZÄ gegenüber dem Vorjahr entspricht. Bei den Männern ist die Beschäftigung im gleichen Zeitraum um rund 1 000 VZÄ auf 88 400 VZÄ (100 100 Beschäftigte) gesunken.",
-		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen.",
+		"lesehilfe": "Im Jahr 2016 beträgt die Beschäftigung bei den Frauen rund 63 900 VZÄ (90 600 Beschäftigte), was einem Zuwachs um rund 400 VZÄ gegenüber dem Vorjahr entspricht. Bei den Männern ist die Beschäftigung im gleichen Zeitraum um rund 500 VZÄ auf 87 500 VZÄ (100 100 Beschäftigte) gesunken.",
+		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_02_00_00_00_203",
 		"parentId": null,
 		"children": [],
@@ -1326,13 +1328,12 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6454,
-		"darstellungsart": "Grafik"
+		"id": 6454
 	},
 	{
 		"title": "Durchschnittlicher Beschäftigungsgrad nach Geschlecht",
 		"subtitle": "Anteil der Vollzeitäquivalente an den Beschäftigten, Basel-Stadt",
-		"kuerzel": "I.03.2.06455",
+		"kuerzel": "I.03.2.6455",
 		"kuerzelKunde": "3.2-04",
 		"description": "Durchschnittlicher Beschäftigungsgrad nach Geschlecht",
 		"thema": "03 Erwerbsleben",
@@ -1341,15 +1342,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-15T09:28:18.1818",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf Vollzeitstellen umgerechnet entsprechen die 190 800 Beschäftigten aus dem Jahr 2015 rund 151 600 VZÄ. Daraus resultiert ein durchschnittlicher Beschäftigungsgrad von 79%. Der durchschnittliche Beschäftigungsgrad der Männer liegt im Jahr 2015 bei 88%, während er bei den Frauen 70% beträgt.",
-		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen.",
+		"lesehilfe": "Die 190 700 Beschäftigten aus dem Jahr 2016 entsprechen umgerechnet rund 151 400  Vollzeitäquivalenten (VZÄ). Daraus resultiert für den Kanton Basel-Stadt ein durchschnittlicher Beschäftigungsgrad von 79%. Der durchschnittliche Beschäftigungsgrad der Männer liegt im Jahr 2016 bei 87%, während er bei den Frauen 71% beträgt.",
+		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_02_00_00_00_204",
 		"parentId": null,
 		"children": [],
@@ -1360,8 +1363,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6455,
-		"darstellungsart": "Grafik"
+		"id": 6455
 	},
 	{
 		"title": "Beschäftigung im Dienstleistungssektor (II)",
@@ -2046,8 +2048,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beschäftigung nach Grösse der Arbeitsstätte und Kanton",
-		"subtitle": "Anteil der Vollzeitäquivalente, Stand: 2015",
-		"kuerzel": "I.03.2.06531",
+		"subtitle": "Anteil der Vollzeitäquivalente, 2016",
+		"kuerzel": "I.03.2.6531",
 		"kuerzelKunde": "3.2-02",
 		"description": "Beschäftigung nach Grösse der Arbeitsstätte und Kanton",
 		"thema": "03 Erwerbsleben",
@@ -2056,15 +2058,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-15T09:31:11.1111",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von den rund 151 600 VZÄ im Kanton Basel-Stadt im Jahr 2015, sind 35% in grossen Arbeitsstätten (250 VZÄ und mehr) tätig. Im Kanton Basel-Landschaft sind lediglich 13% der VZÄ in grossen Arbeitsstätten beschäftigt. Auch in den Kantonen Aargau und Zürich fällt dieser Anteil mit 18% bzw. 23% tiefer aus.",
-		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen.",
+		"lesehilfe": "Von den rund 151 400 Beschäftigten in Vollzeitäquivalenten (VZÄ) im Kanton Basel-Stadt im Jahr 2016 sind 35% in grossen Arbeitsstätten (250 VZÄ und mehr) tätig. Im Kanton Basel-Landschaft sind lediglich 13% der VZÄ in grossen Arbeitsstätten beschäftigt. Auch in den Kantonen Aargau und Zürich fällt dieser Anteil mit 18% bzw. 24% tiefer aus.",
+		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_02_00_00_00_202",
 		"parentId": null,
 		"children": [],
@@ -2075,7 +2079,6 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6531,
-		"darstellungsart": "Grafik"
+		"id": 6531
 	}
 ];

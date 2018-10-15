@@ -47,6 +47,10 @@
         [
           2016,
           164520
+        ],
+        [
+          2017,
+          164520
         ]
       ],
       "name": "Basel"
@@ -97,6 +101,10 @@
         ],
         [
           2016,
+          146744
+        ],
+        [
+          2017,
           146744
         ]
       ],
@@ -149,6 +157,10 @@
         [
           2016,
           178506
+        ],
+        [
+          2017,
+          178506
         ]
       ],
       "name": "Genf"
@@ -200,6 +212,10 @@
         [
           2016,
           138874
+        ],
+        [
+          2017,
+          138891
         ]
       ],
       "name": "Liestal"
@@ -251,6 +267,10 @@
         [
           2016,
           147394
+        ],
+        [
+          2017,
+          147400
         ]
       ],
       "name": "Zürich"
@@ -352,7 +372,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Steuerverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Eidgenössische Steuerverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-8"
   },
   "legend": {
     "enabled": true,

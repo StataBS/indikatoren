@@ -50,6 +50,10 @@
         [
           2016,
           1656
+        ],
+        [
+          2017,
+          1681
         ]
       ],
       "name": "Subventionierte Tagesheime"
@@ -104,6 +108,10 @@
         [
           2016,
           1949
+        ],
+        [
+          2017,
+          1893
         ]
       ],
       "name": "Nicht subventionierte Tagesheime"
@@ -158,6 +166,10 @@
         [
           2016,
           466
+        ],
+        [
+          2017,
+          456
         ]
       ],
       "name": "Firmen-Tagesheime"
@@ -212,6 +224,10 @@
         [
           2016,
           90
+        ],
+        [
+          2017,
+          85
         ]
       ],
       "name": "Tagesfamilien"
@@ -266,6 +282,10 @@
         [
           2016,
           4161
+        ],
+        [
+          2017,
+          4115
         ]
       ],
       "name": "Total"
@@ -316,7 +336,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -367,7 +387,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-8"
   },
   "legend": {
     "enabled": true,

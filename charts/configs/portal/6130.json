@@ -47,6 +47,10 @@
         [
           2016,
           17936
+        ],
+        [
+          2017,
+          17936
         ]
       ],
       "name": "Basel"
@@ -97,6 +101,10 @@
         ],
         [
           2016,
+          8929
+        ],
+        [
+          2017,
           8929
         ]
       ],
@@ -149,6 +157,10 @@
         [
           2016,
           15523
+        ],
+        [
+          2017,
+          15523
         ]
       ],
       "name": "Genf"
@@ -199,6 +211,10 @@
         ],
         [
           2016,
+          12529
+        ],
+        [
+          2017,
           12529
         ]
       ],
@@ -251,6 +267,10 @@
         [
           2016,
           14500
+        ],
+        [
+          2017,
+          14501
         ]
       ],
       "name": "Zürich"
@@ -352,7 +372,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Steuerverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Eidgenössische Steuerverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-8"
   },
   "legend": {
     "enabled": true,

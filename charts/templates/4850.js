@@ -2,19 +2,24 @@
     return {
         "series": [
             {
-            "color": "#B475AB"
+            "color": "#B475AB",
+            "index": 4 
             },
             {
-            "color": "#71A3B5"
+            "color": "#71A3B5",
+            "index": 3 
             },
             {
-            "color": "#FFBB58"
+            "color": "#FFBB58",
+            "index": 2 
             },
             {
-            "color": "#C8C8C8"
+            "color": "#C8C8C8",
+            "index": 1 
             },
             {
-            "color": "#8A8A8A"
+            "color": "#8A8A8A",
+            "index": 0 
             }        
         ],
         "xAxis": {

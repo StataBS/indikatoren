@@ -157,7 +157,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach ausgewählten Wirtschaftsbranchen;  Stand 2010 bis 2013",
+    "text": "nach ausgewählten Wirtschaftsbranchen, 2010 bis 2013",
     "align": "left"
   },
   "yAxis": {
@@ -175,7 +175,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value}"
+      "format": "{value:,.1f}"
     },
     "min": 0,
     "max": 0.5
@@ -199,7 +199,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2016-12-5"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-10"
   },
   "legend": {
     "symbolRadius": 0,
