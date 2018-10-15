@@ -39,6 +39,10 @@
         [
           "2016",
           447116
+        ],
+        [
+          "2017",
+          445806
         ]
       ],
       "name": "Akutsomatik",
@@ -83,6 +87,10 @@
         [
           "2016",
           86999
+        ],
+        [
+          "2017",
+          89870
         ]
       ],
       "name": "Geriatrie",
@@ -127,6 +135,10 @@
         [
           "2016",
           135709
+        ],
+        [
+          "2017",
+          127945
         ]
       ],
       "name": "Psychiatrie",
@@ -171,6 +183,10 @@
         [
           "2016",
           115163
+        ],
+        [
+          "2017",
+          104152
         ]
       ],
       "name": "Rehabilitation",
@@ -299,7 +315,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-14"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-9"
   },
   "legend": {
     "symbolRadius": 0,

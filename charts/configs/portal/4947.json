@@ -35,6 +35,14 @@
         [
           "2015",
           63748
+        ],
+        [
+          "2016",
+          66865
+        ],
+        [
+          "2017",
+          68411
         ]
       ],
       "name": "Akutsomatik",
@@ -75,6 +83,14 @@
         [
           "2015",
           4866
+        ],
+        [
+          "2016",
+          4818
+        ],
+        [
+          "2017",
+          5079
         ]
       ],
       "name": "Geriatrie",
@@ -115,6 +131,14 @@
         [
           "2015",
           3701
+        ],
+        [
+          "2016",
+          3783
+        ],
+        [
+          "2017",
+          3729
         ]
       ],
       "name": "Psychiatrie",
@@ -155,6 +179,14 @@
         [
           "2015",
           3506
+        ],
+        [
+          "2016",
+          3600
+        ],
+        [
+          "2017",
+          3561
         ]
       ],
       "name": "Rehabilitation",
@@ -232,7 +264,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Hospitalisierungen in baselstädtischen Spitälern nach Hauptbereich"
+    "text": "Hospitalisierungen in baselstädtischen Spitälern"
   },
   "subtitle": {
     "style": {
@@ -241,7 +273,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "nach Hauptbereich",
     "align": "left"
   },
   "yAxis": {
@@ -282,7 +314,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-9"
   },
   "legend": {
     "symbolRadius": 0,

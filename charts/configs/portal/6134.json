@@ -14,7 +14,7 @@
         ],
         [
           "Genf",
-          2791
+          2485
         ],
         [
           "Liestal",
@@ -22,10 +22,10 @@
         ],
         [
           "Zürich",
-          4136
+          3891
         ]
       ],
-      "name": "2016",
+      "name": "2017",
       "turboThreshold": 0
     }
   ],
@@ -111,7 +111,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von \u003Cbr\u002F\u003E 100 000 Fr.; Stand: 2016",
+    "text": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von \u003Cbr\u002F\u003E 100 000 Fr., 2017",
     "align": "left"
   },
   "yAxis": {
@@ -151,7 +151,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Steuerverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Eidgenössische Steuerverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-9"
   },
   "legend": {
     "symbolRadius": 0,

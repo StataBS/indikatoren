@@ -182,15 +182,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-08-21T08:41:47.4747",
+		"aktualisierungsdatum": "2018-10-02T10:44:36.3636",
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen Jahren diversen Schwankungen. Der Höchstwert wurde 2008 mit 1 798 eingebürgerten Ausländern erreicht. Danach gingen die Einbürgerungen zurück, 2011 erwarben noch 835 Ausländer die Schweizer Staatsangehörigkeit. Zwischen 2012 und 2015 nahm die Zahl der Eingebürgerungen tendenziell wieder zu, im Jahr 2015 erhielten 1 170 Personen das Schweizer Bürgerrecht. 2016 liessen sich 752 Ausländer einbürgern, dies ist der tiefste Wert der letzten zehn Jahre. 2017 lag die Zahl der Eingebürgerten wieder bei 1 282, dies ist der höchste Wert der letzten zehn Jahre. Die Einbürgerungsziffer verläuft entsprechend den absoluten Werten und liegt 2017 bei 17,9.",
-		"erlaeuterungen": "Voraussetzung für eine ordentliche Einbürgerung ist u. a. eine 12-jährige Wohndauer in der Schweiz. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die 5 Jahre in der Schweiz gelebt haben und die seit 3 Jahren verheiratet sind. Die Einbürgerungsziffer wird als Anzahl Einbürgerungen (ordentliche und erleichterte) pro 1000 Ausländer am Jahresende berechnet.",
+		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen zehn Jahren diversen Schwankungen. Der Höchstwert wurde 2008 mit 1 798 eingebürgerten Ausländern erreicht. Danach gingen die Einbürgerungen zurück, 2011 erwarben noch 835 Ausländer die Schweizer Staatsangehörigkeit. Seit 2012 nimmt die Zahl der Einbürgerungen tendeziell wieder zu, im Jahr 2015 erhielten 1 166 Personen das Schweizer Bürgerrecht. 2016 liessen sich 752 Ausländer einbürgern, dies ist der tiefste Wert der letzten zehn Jahre. 2017 lag die Zahl der Eingebürgerten wieder bei 1 282. Die Einbürgerungsziffer verläuft parallel zu den absoluten Werten und liegt 2017 bei 17,9.",
+		"erlaeuterungen": "Für eine ordentliche Einbürgerung muss eine Person u. a. zwölf Jahre in der Schweiz gewohnt haben. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die insgesamt fünf Jahre in der Schweiz gelebt haben und seit drei Jahren verheiratet sind oder die, wenn sie im Ausland leben, seit sechs Jahren verheiratet sind. Seit Anfang 2018 gelten teilweise neue Bestimmungen, so wird für ordentliche Einbürgerungen eine Niederlassungsbewilligung C vorausgesetzt und die Wohnsitzfrist beträgt noch zehn Jahre. Neu können sich auch junge Ausländer der dritten Generation erleichtert einbürgern lassen. Diese Änderungen werden jedoch frühestens in den Zahlen des Jahres 2019 eine Rolle spielen, da zwischen dem Einreichen eines Einbürgerungsgesuchs und der Einbürgerung zwei bis drei Jahre vergehen.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "02_01_00_00_00_000",
 		"parentId": null,
@@ -204,13 +205,12 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4722,
-		"darstellungsart": "Grafik"
+		"id": 4722
 	},
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
-		"subtitle": "«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?»",
-		"kuerzel": "I.50.1.04724",
+		"subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?»",
+		"kuerzel": "I.50.1.4724",
 		"kuerzelKunde": "2.2.01",
 		"description": "Vertretung der Anliegen der Bevölkerung durch Behörden",
 		"thema": "50 Befragungen",
@@ -219,20 +219,23 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-13T17:10:58.5858",
+		"aktualisierungsdatum": "2018-10-09T10:00:25.2525",
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 fühlten sich 68,2% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2011 entspricht dies einem Rückgang um 2,2 Prozentpunkte. In den vorhergehenden Befragungsjahren lag die Zufriedenheit mit der Vertretung durch die Behörden jeweils deutlich unter derjenigen von 2011 und 2015 und die Frage konnte deutlich häufiger nicht beantwortet werden.",
-		"erlaeuterungen": "",
+		"lesehilfe": "2015 fühlten sich 68% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2011 entspricht dies einem Rückgang um 2 Prozentpunkte. In den vorhergehenden Befragungsjahren lag die Zufriedenheit mit der Vertretung durch die Behörden jeweils deutlich unter derjenigen von 2011 und 2015 und die Frage konnte deutlich häufiger nicht beantwortet werden.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Während jeweils rund sechs Wochen werden im Februar und März 1500 zufällig ausgewählte Einwohnerinnen und Einwohner im Kanton Basel-Stadt telefonisch zu einem breiten Spektrum von Themen befragt, welche die staatliche Tätigkeit abbilden.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"5138",
-			"6185"
+			"6185",
+			"6331"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -241,8 +244,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4724,
-		"darstellungsart": "Grafik"
+		"id": 4724
 	},
 	{
 		"title": "Unterstützung von Freunden oder Nachbarn",
@@ -324,16 +326,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-10T15:23:51.5151",
+		"aktualisierungsdatum": "2018-10-09T10:54:55.5555",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 geben 73,5% der befragten Jugendlichen an, sowohl Mädchen als auch Jungen in ihrem Freundeskreis zu haben. Jeweils gut 9% haben entweder nur Mädchen respektive nur Jungen im Freundeskreis. 1,4% geben an, keine Freunde zu haben. 2013 betrug der Anteil gemischtgeschlechtlicher Freundeskreise 78,7%, 2009 lag er bei bei 80,6%.",
+		"lesehilfe": "2017 geben 73,5% der befragten Jugendlichen an, sowohl Mädchen als auch Jungen in ihrem Freundeskreis zu haben. Jeweils gut 9% haben entweder nur Mädchen respektive nur Jungen im Freundeskreis. 1,4% geben an, keine Freunde zu haben. 2013 gaben 78,8% an, Mädchen und Jungen im Freundeskreis zu haben, 2009 lag der entsprechende Anteil bei 80,6%.",
 		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
-		"darstellungArt": "",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "01_01_00_00_00_000",
 		"parentId": null,
@@ -345,8 +347,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4850,
-		"darstellungsart": "Grafik"
+		"id": 4850
 	},
 	{
 		"title": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
@@ -659,7 +660,7 @@ var indikatorensetData = [
 	{
 		"title": "Beurteilung der kantonalen Steuern",
 		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?»",
-		"kuerzel": "I.50.1.04860",
+		"kuerzel": "I.50.1.4860",
 		"kuerzelKunde": "2.3.01",
 		"description": "Beurteilung der kantonalen Steuern",
 		"thema": "50 Befragungen",
@@ -668,7 +669,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-08T12:11:39.3939",
+		"aktualisierungsdatum": "2018-10-05T11:57:19.1919",
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
@@ -676,11 +677,14 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "2015 gaben mit 56,4% mehr als die Hälfte der Befragten an, dass die kantonalen Steuern und Gebühren beibehalten werden sollten. Dieser Anteil fällt im Vergleich zu den Vorjahren deutlich höher aus (2011: 45,6%, 2007: 30,0%).",
 		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_03_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"6133"
+			"6133",
+			"6290"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -689,8 +693,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4860,
-		"darstellungsart": "Grafik"
+		"id": 4860
 	},
 	{
 		"title": "Beurteilung der eigenen wirtschaftlichen Situation",
@@ -1014,16 +1017,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-10T15:24:29.2929",
+		"aktualisierungsdatum": "2018-10-08T09:26:48.4848",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 geben 25,5% der Jugendlichen an, sich in einer Organisation, in einem Verein oder Ähnlichem zu engagieren, exakt gleich viele wie in der Befragung von 2013. 2009 lag dieser Wert bei 12,0%.",
+		"lesehilfe": "2017 geben 25,5% der Jugendlichen an, sich in einer Organisation, in einem Verein oder ähnlichem zu engagieren, exakt gleich viele wie in der Befragung von 2013. 2009 lag dieser Wert bei 12,0%.",
 		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
-		"darstellungArt": "",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_03_00_00_00_000",
 		"parentId": null,
@@ -1035,8 +1038,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4870,
-		"darstellungsart": "Grafik"
+		"id": 4870
 	},
 	{
 		"title": "Wahlbeteiligung an National- und Grossratswahlen",

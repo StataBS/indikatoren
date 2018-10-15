@@ -47,6 +47,10 @@
         [
           2017,
           4.9
+        ],
+        [
+          2018,
+          3.1
         ]
       ],
       "name": "Mädchen"
@@ -98,6 +102,10 @@
         [
           2017,
           6.4
+        ],
+        [
+          2018,
+          4.2
         ]
       ],
       "name": "Knaben"
@@ -105,9 +113,6 @@
     {
       "color": "#3c3c3c",
       "legendIndex": 1,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2007,
@@ -152,6 +157,10 @@
         [
           2017,
           5.8
+        ],
+        [
+          2018,
+          3.7
         ]
       ],
       "name": "Total"
@@ -202,7 +211,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Geschlecht",
+    "text": "nach Geschlecht, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -253,7 +262,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-8"
   },
   "legend": {
     "enabled": true,
