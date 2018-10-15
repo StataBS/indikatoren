@@ -15,10 +15,10 @@
     }    
   },
   "series": [
-  {"color": "#8a8a8a"}, /* Schweiz = hellgrau */
-  {"color": "#ff8028"}, /* BS = orange */
-  {"color": "#256370",
-  	"visible": false}, /* GE = dunkelblau */
+  {"color": "#B00000"}, /* Schweiz = dunkelrot */
+  {"color": "#6F6F6F"}, /* BS = dunkelgrau */
+  {"color": "#FABD24",
+  	"visible": false}, /* GE = gelb */
   {"color": "#71a3b5",
   	"visible": false}  /* ZH = hellblau */
   ],

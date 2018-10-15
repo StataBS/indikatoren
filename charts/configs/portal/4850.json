@@ -2,18 +2,19 @@
   "series": [
     {
       "color": "#B475AB",
+      "index": 4,
       "data": [
         [
-          "2009 (N=881)",
-          7
+          "2009",
+          62
         ],
         [
-          "2013 (N=1038)",
-          8.5
+          "2013",
+          88
         ],
         [
-          "2017 (N=1146)",
-          9.3
+          "2017",
+          107
         ]
       ],
       "name": "Nur Mädchen",
@@ -21,18 +22,19 @@
     },
     {
       "color": "#71A3B5",
+      "index": 3,
       "data": [
         [
-          "2009 (N=881)",
-          6.6
+          "2009",
+          58
         ],
         [
-          "2013 (N=1038)",
-          8.1
+          "2013",
+          84
         ],
         [
-          "2017 (N=1146)",
-          9.1
+          "2017",
+          104
         ]
       ],
       "name": "Nur Jungen",
@@ -40,18 +42,19 @@
     },
     {
       "color": "#FFBB58",
+      "index": 2,
       "data": [
         [
-          "2009 (N=881)",
-          80.6
+          "2009",
+          710
         ],
         [
-          "2013 (N=1038)",
-          78.7
+          "2013",
+          817
         ],
         [
-          "2017 (N=1146)",
-          73.5
+          "2017",
+          842
         ]
       ],
       "name": "Mädchen und Jungen",
@@ -59,18 +62,19 @@
     },
     {
       "color": "#C8C8C8",
+      "index": 1,
       "data": [
         [
-          "2009 (N=881)",
-          1.4
+          "2009",
+          12
         ],
         [
-          "2013 (N=1038)",
-          0.8
+          "2013",
+          8
         ],
         [
-          "2017 (N=1146)",
-          1.4
+          "2017",
+          16
         ]
       ],
       "name": "Kein Freundeskreis",
@@ -78,18 +82,19 @@
     },
     {
       "color": "#8A8A8A",
+      "index": 0,
       "data": [
         [
-          "2009 (N=881)",
-          4.4
+          "2009",
+          39
         ],
         [
-          "2013 (N=1038)",
-          3.9
+          "2013",
+          41
         ],
         [
-          "2017 (N=1146)",
-          6.7
+          "2017",
+          77
         ]
       ],
       "name": "Keine Angabe",
@@ -112,10 +117,22 @@
       "style": {
         "color": "#000000",
         "width": 1,
+        "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
       "formatter": function () {
-            	return this.value.replace(" ", "<br/>");
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
             }
     }
   },
@@ -139,13 +156,19 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
-    "spacingBottom": 40,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "type": "column",
-    "renderTo": "container-4850"
+    "renderTo": "container-4850",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -183,7 +206,6 @@
   },
   "yAxis": {
     "tickInterval": 10,
-    "reversedStacks": false,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -202,7 +224,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
     "shared": false
   },
   "credits": {
@@ -218,10 +240,9 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F34.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F34.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-9"
   },
   "legend": {
-    "reversed": true,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
@@ -229,8 +250,8 @@
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
-      "width": 150,
-      "textOverflow": null
+      "textOverflow": null,
+      "width": 150
     },
     "symbolRadius": 0,
     "labelFormatter": function () {

@@ -9,103 +9,103 @@
         ],
         [
           "ZH",
-          96.5
+          96.6
         ],
         [
           "BS",
-          88.4
+          94.4
         ],
         [
           "AG",
           82.1
         ],
         [
-          "LU",
-          79.3
+          "SZ",
+          77.7
         ],
         [
-          "NW",
+          "LU",
           77.4
         ],
         [
           "VD",
-          76.9
+          76.3
         ],
         [
-          "SZ",
-          75.7
+          "NW",
+          73.5
         ],
         [
           "BL",
-          72.8
-        ],
-        [
-          "GE",
-          70.4
+          72.1
         ],
         [
           "TG",
-          66.2
+          69.8
         ],
         [
-          "FR",
-          64.7
-        ],
-        [
-          "SG",
-          63.8
-        ],
-        [
-          "OW",
-          63.8
+          "GE",
+          69.1
         ],
         [
           "SH",
-          63.2
+          68.3
         ],
         [
-          "SO",
-          62.7
+          "SG",
+          66.3
+        ],
+        [
+          "FR",
+          66.2
         ],
         [
           "BE",
-          60.9
+          63
+        ],
+        [
+          "SO",
+          62.9
         ],
         [
           "AR",
-          59.7
+          62.7
         ],
         [
-          "AI",
-          59.2
-        ],
-        [
-          "NE",
-          55.8
+          "OW",
+          61.5
         ],
         [
           "TI",
-          51.8
+          57.9
+        ],
+        [
+          "NE",
+          57.4
+        ],
+        [
+          "AI",
+          55.7
         ],
         [
           "GL",
-          49.9
+          54.1
         ],
         [
           "UR",
-          43
+          50.8
         ],
         [
           "GR",
-          41.9
+          44.8
         ],
         [
           "VS",
-          36.8
+          42.7
         ],
         [
           "JU",
-          36.1
+          35
         ]
       ],
       "turboThreshold": 0
@@ -194,7 +194,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt im kantonalen Vergleich, Stand: 2016",
+    "text": "Basel-Stadt im kantonalen Vergleich, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -235,7 +235,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: UBS Switzerland AG.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: UBS Switzerland AG.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-9"
   },
   "legend": {
     "symbolRadius": 0,

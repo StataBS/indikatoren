@@ -14,7 +14,7 @@
   },  
   plotOptions: {
   	column: {
-  		groupPadding: 0,
+  		groupPadding: 0.2,
   	}
   },
  "series": [
