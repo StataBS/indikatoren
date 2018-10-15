@@ -25,10 +25,7 @@
     {
     	"color": "#3c3c3c", /* schwarz */
     	"legendIndex": 1,
-    	"marker": {
-        	"enabled": true
-    	}
-    },
+        },
   ],
   "legend": {
     "enabled": true,

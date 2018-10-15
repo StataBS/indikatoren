@@ -40,13 +40,15 @@
     	{"color": "#3C3C3C",
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* schwarz */
   ],
   "legend": {
     "enabled": true,
-    itemDistance: 5,
+    width:600,
+    itemWidth: 216,
+    itemDistance: 1,
     padding: 0,
     "layout": "horizontal",
     "verticalAlign": "top",

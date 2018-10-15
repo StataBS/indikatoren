@@ -13,15 +13,9 @@
   },
   "series": [
     {"color": "#008AC3",
-      "marker": {
-        "enabled": true
-      }    
     }, /* dunkelrot */
-    	{"color": "#007A2F",
-	visible:true,
-      "marker": {
-        "enabled": true
-      }    
+    {"color": "#007A2F",
+    	visible:true,
     }, /* dunkelgrün */
   ],
   "legend": {
