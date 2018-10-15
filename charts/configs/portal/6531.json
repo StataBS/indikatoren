@@ -7,23 +7,23 @@
       "data": [
         [
           "BS",
-          27812
+          27874
         ],
         [
           "BL",
-          32796
+          32923
         ],
         [
           "AG",
-          77221
+          77597
         ],
         [
           "ZH",
-          195964
+          193618
         ],
         [
           "CH",
-          1176210
+          1169440
         ]
       ],
       "name": "bis 9 VZÄ",
@@ -36,23 +36,23 @@
       "data": [
         [
           "BS",
-          31906
+          31929
         ],
         [
           "BL",
-          33304
+          33256
         ],
         [
           "AG",
-          71529
+          71543
         ],
         [
           "ZH",
-          205148
+          201217
         ],
         [
           "CH",
-          1102929
+          1093812
         ]
       ],
       "name": "10 bis 49 VZÄ",
@@ -65,23 +65,23 @@
       "data": [
         [
           "BS",
-          38328
+          38479
         ],
         [
           "BL",
-          35916
+          36093
         ],
         [
           "AG",
-          66456
+          66477
         ],
         [
           "ZH",
-          203100
+          200883
         ],
         [
           "CH",
-          1020688
+          1012661
         ]
       ],
       "name": "50 bis 249 VZÄ",
@@ -94,23 +94,23 @@
       "data": [
         [
           "BS",
-          53586
+          53139
         ],
         [
           "BL",
-          15270
+          15267
         ],
         [
           "AG",
-          46543
+          46719
         ],
         [
           "ZH",
-          184286
+          183855
         ],
         [
           "CH",
-          699381
+          698027
         ]
       ],
       "name": "250 VZÄ u.m.",
@@ -191,7 +191,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil der Vollzeitäquivalente, Stand: 2015"
+    "text": "Anteil der Vollzeitäquivalente, 2016"
   },
   "navigation": {
     "menuItemStyle": {
@@ -210,7 +210,7 @@
       "stacking": "percent"
     },
     "column": {
-      "groupPadding": 0
+      "groupPadding": 0.2
     }
   },
   "yAxis": {
@@ -249,7 +249,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-15"
   },
   "legend": {
     "layout": "horizontal",

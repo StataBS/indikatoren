@@ -23,13 +23,17 @@
         [
           2015,
           100788
+        ],
+        [
+          2016,
+          100110
         ]
       ],
       "name": "Männer (Beschäftigte)"
     },
     {
       "stack": 1,
-      "color": "#923F8D",
+      "color": "#DC440E",
       "data": [
         [
           2011,
@@ -50,13 +54,17 @@
         [
           2015,
           89965
+        ],
+        [
+          2016,
+          90571
         ]
       ],
       "name": "Frauen (Beschäftigte)"
     },
     {
       "stack": 2,
-      "color": "#A8C3CA",
+      "color": "#00bAf3",
       "data": [
         [
           2011,
@@ -76,14 +84,18 @@
         ],
         [
           2015,
-          88446
+          87987
+        ],
+        [
+          2016,
+          87484
         ]
       ],
       "name": "Männer (VZÄ)"
     },
     {
       "stack": 2,
-      "color": "#B375AB",
+      "color": "#F05A23",
       "data": [
         [
           2011,
@@ -103,7 +115,11 @@
         ],
         [
           2015,
-          63186
+          63434
+        ],
+        [
+          2016,
+          63877
         ]
       ],
       "name": "Frauen (VZÄ)"
@@ -231,7 +247,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-15"
   },
   "legend": {
     "symbolRadius": 0,

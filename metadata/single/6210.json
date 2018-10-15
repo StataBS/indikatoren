@@ -1,40 +1,30 @@
-{
- "title": "Anzahl Plätze in Tagesbetreuungsangeboten",
- "subtitle": "",
- "kuerzel": "I.13.2.06210",
- "kuerzelKunde": "4.4",
- "description": "Anzahl Plätze in Tagesbetreuungsangeboten",
- "id": 6210,
- "thema": "13 Soziale Sicherheit",
- "unterthema": "Sozialleistungen",
- "kennzahlenset": "Legislaturplan",
- "raeumlicheGliederung": [
-  "Kanton"
- ],
- "aktualisierungsdatum": "2017-11-29T00:00:00.000",
- "schlagwort": [
-  "Familie"
- ],
- "stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Das Angebot an Tagesbetreuungsplätzen wurde seit 2016 kontinuierlich ausgebaut. 2016 stehen insgesamt 4 161 Plätze zur Verfügung, davon befinden sich 90 Plätze in Tagesfamilien.",
- "erlaeuterungen": "Stichwoche im Oktober.",
- "template": "line001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "04_00_00_00_00_004",
- "parentId": null,
- "children": [
-  "6338"
- ],
- "renderLink": [],
- "quellenangabe": [
-  "Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Anzahl Plätze in Tagesbetreuungsangeboten",
+"subtitle":"Basel-Stadt",
+"kuerzel":"I.13.2.6210",
+"kuerzelKunde":"4.4",
+"description":"Anzahl Plätze in Tagesbetreuungsangeboten",
+"id":6210,
+"thema":"13 Soziale Sicherheit",
+"unterthema":"Sozialleistungen",
+"kennzahlenset":"Legislaturplan",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2018-10-08T12:12:38.3838",
+"stufe1":"Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Das Angebot an Tagesbetreuungsplätzen wurde von 2006 bis 2016 kontinuierlich ausgebaut, bevor 2017 ein leichter Rückgang erfolgte. 2017 stehen insgesamt 4 115 Plätze zur Verfügung, davon befinden sich 85 Plätze in Tagesfamilien.",
+"erlaeuterungen":"Stichwoche im Oktober.",
+"template":"line001",
+"darstellungsart":"Grafik",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"04_00_00_00_00_004",
+"parentId":null,
+"children":["6338"],
+"renderLink":[],
+"quellenangabe":["Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"],
+"externalLinks":[""]
 }

@@ -14,7 +14,7 @@
         ],
         [
           "Genf",
-          15093
+          14956
         ],
         [
           "Liestal",
@@ -25,7 +25,7 @@
           11039
         ]
       ],
-      "name": "2016",
+      "name": "2017",
       "turboThreshold": 0
     }
   ],
@@ -111,7 +111,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ledige mit einem Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2016",
+    "text": "Ledige mit einem Bruttoarbeitseinkommen von 100 000 Fr.; 2017",
     "align": "left"
   },
   "yAxis": {
@@ -151,7 +151,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-10"
   },
   "legend": {
     "symbolRadius": 0,

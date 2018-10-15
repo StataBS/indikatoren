@@ -564,6 +564,7 @@
                   }              
                 }
     },
+    "marginTop": 70,
     "type": "area",
     "renderTo": "container-6143"
   },
@@ -596,7 +597,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -639,7 +640,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-5-7"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-4"
   },
   "legend": {
     "symbolRadius": 0
