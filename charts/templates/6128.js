@@ -9,12 +9,7 @@
 	"tickInterval": 1,
   },
   "series": [
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },     
-      "color": "#8b2223"
+    {"color": "#8b2223"
     }
   ],
   "tooltip": {
@@ -24,7 +19,7 @@
   "plotOptions": {
     "series": {
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
         "allowOverlap": true,
           y: 40,
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869

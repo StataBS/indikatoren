@@ -15,11 +15,6 @@
     "xAxis": {
       "type": "category",
      //"tickInterval": 1
-     labels: {
-        formatter: function(){
-          return this.value.replace("-", "/");
-        },
-      },
     },
     "legend": {
       "enabled": true,

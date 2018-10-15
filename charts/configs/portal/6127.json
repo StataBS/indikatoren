@@ -14,11 +14,11 @@
         ],
         [
           "Humankapital",
-          97
+          100
         ],
         [
           "Arbeitsmarkt",
-          15
+          30
         ],
         [
           "Erreichbarkeit",
@@ -26,15 +26,15 @@
         ],
         [
           "Einzugsgebiet",
-          86
+          89
         ],
         [
           "Kostenumfeld",
-          24
+          17
         ],
         [
           "Staatsfinanzen",
-          33
+          54
         ]
       ],
       "name": "Basel-Stadt",
@@ -46,35 +46,35 @@
       "data": [
         [
           "Wirtschaftsstruktur",
-          55.5
+          61
         ],
         [
           "Innovation",
-          32.5
+          30
         ],
         [
           "Humankapital",
-          42.5
+          30
         ],
         [
           "Arbeitsmarkt",
-          68
+          71
         ],
         [
           "Erreichbarkeit",
-          55
+          58
         ],
         [
           "Einzugsgebiet",
-          34
+          32
         ],
         [
           "Kostenumfeld",
-          72.5
+          71
         ],
         [
           "Staatsfinanzen",
-          65
+          72
         ]
       ],
       "name": "Mediankanton",
@@ -163,7 +163,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt im Vergleich zum Median-Kanton, Stand: 2016",
+    "text": "Basel-Stadt im Vergleich zum Median-Kanton, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -204,7 +204,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: UBS Switzerland AG.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: UBS Switzerland AG.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-9"
   },
   "legend": {
     "symbolRadius": 0,

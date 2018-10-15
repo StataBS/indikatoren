@@ -1,10 +1,6 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "color": "#8b2223",
       "data": [
         [
@@ -46,6 +42,10 @@
         [
           2015,
           403731511.1
+        ],
+        [
+          2016,
+          405215788.1
         ]
       ],
       "name": "Einnahmen aus Quellensteuer"
@@ -96,7 +96,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Franken",
+    "text": "in Franken, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -147,7 +147,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-8"
   },
   "legend": {
     "enabled": false,
@@ -165,7 +165,7 @@
         "enabled": false
       },
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
         "allowOverlap": true,
         "y": 40,
         "formatter": function () {

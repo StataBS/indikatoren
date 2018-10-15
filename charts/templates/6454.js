@@ -28,15 +28,15 @@
         },
         {
             stack: 1,
-            color: '#923F8D'
+            color: '#DC440E'
         },
         {
             stack: 2,
-            color: '#A8C3CA'
+            color: '#00bAf3'
         },
         {
             stack: 2,
-            color: '#B375AB'
+            color: '#F05A23'
         }
       ],
       "legend": {
