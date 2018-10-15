@@ -33,7 +33,7 @@ https.get(urlBase + "verzeichnis.txt", listOfCharts => {
             
             //checkout js and overwrite tsv for each chart with a branch number other than null
             if (row.Branch){
-                console.log('checking out ' + row.Indikator + '.js from branch ' + row.Branch + '...');
+                console.log('checking out ' + row.Indikator + '.js and ' + row.Indikator + '.tsv from branch ' + row.Branch + '...');
                 child_process.exec('git checkout origin/issue-' + row.Branch + ' -- charts/templates/' + row.Indikator + '.js');
                 child_process.exec('git checkout origin/issue-' + row.Branch + ' -- data/' + row.Indikator + '.tsv');
             }
