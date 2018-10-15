@@ -11,7 +11,7 @@
   "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": -45 
+      "rotation": -45,
     } 
   },
   "yAxis": [{
@@ -19,7 +19,6 @@
       "format": "{value:,.0f}",
       "style": {
         color: "#000000", 
-        fontSize: 10,
       }
     },
     "min": 0,
@@ -39,7 +38,6 @@
       "format": "{value:,.0f}",
       "style": {
         color: "#000000", 
-        fontSize: 10,
       }
     },
     "min": 0,
