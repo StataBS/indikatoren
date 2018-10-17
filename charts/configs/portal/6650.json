@@ -347,6 +347,7 @@
       "fontSize": "10px"
     },
     "enabled": true,
+    "x": 7,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "center"
