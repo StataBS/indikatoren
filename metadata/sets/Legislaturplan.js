@@ -1497,7 +1497,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
-		"subtitle": "in Mio. kWh, Basel-Stadt",
+		"subtitle": "in GWh, Basel-Stadt",
 		"kuerzel": "I.08.1.6160",
 		"kuerzelKunde": "7.1",
 		"description": "Endenergieverbrauch nach Verbrauchergruppe",
@@ -1507,14 +1507,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T17:04:30.3030",
+		"aktualisierungsdatum": "2018-10-17T16:25:57.5757",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2016 um 15,6% auf 4 668 Mio. kWh abgenommen. Der Rückgang verteilt sich in etwa gleichmässig auf die Verbrauchergruppen Wohnen und Nichtwohnen und ist primär der milden Witterung geschuldet. Das Jahr 2016 hatte rund 8,1% weniger Heizgradtage als das Jahr 2010.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2016 um 15,6% auf 4 668 GWh abgenommen. Der Rückgang verteilt sich in etwa gleichmässig auf die Verbrauchergruppen Wohnen und Nichtwohnen und ist primär der milden Witterung geschuldet. Das Jahr 2016 hatte rund 8,1% weniger Heizgradtage als das Jahr 2010.",
+		"erlaeuterungen": "Der Endenergieverbrauch ist die Energiemenge, welche die Endverbraucher an ihrer Parzellengrenze beziehen. Diese kann direkt vom Energielieferanten stammen, aus einer Umwandlungsstufe kommen oder direkt der Natur für den Eigenbedarf entnommen sein.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
