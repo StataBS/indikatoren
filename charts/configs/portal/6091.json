@@ -174,7 +174,9 @@
     "labels": {
       "format": "{value}%",
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
       }
     }
   },
