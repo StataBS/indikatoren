@@ -31,9 +31,9 @@
            '#FABD24',
            '#E6E600',
         ],
-		dataLabels: {
+		/*dataLabels: {
 		                enabled: true,
-		                format: '{point.percentage:.1f}%',
+		                format: '{point.percentage:.1f}',
 		                distance: 10,
 		                style: {
 		                    color: 'black',
@@ -41,7 +41,7 @@
                         fontWeight: "normal", 
                         fontSize: "12px"
 		                }
-	      }
+	      }*/
       }
     }
     };

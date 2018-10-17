@@ -6,7 +6,7 @@
     labels: { 
       rotation: -45,
       formatter: function(){
-        return this.value.split(" ")[0];
+        return this.value.split("-")[0];
       },
   		style: { 
   		//textOverflow: 'none' 

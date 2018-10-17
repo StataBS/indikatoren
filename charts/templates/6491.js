@@ -35,11 +35,11 @@
     }
   },
  "series": [
-  {"color": "#672773", index: 5, legendIndex: 0}, 
-  {"color": "#b475ab", index: 4, legendIndex: 1},
-  {"color": "#73ba7c", index: 3, legendIndex: 2}, 
-  {"color": "#fabd24", index: 2, legendIndex: 3}, 
-  {"color": "#007a2f", index: 1, legendIndex: 4},
+  {"color": "#008AC3", index: 5, legendIndex: 0}, 
+  {"color": "#68AB2B", index: 4, legendIndex: 1},
+  {"color": "#E6E600", index: 3, legendIndex: 2}, 
+  {"color": "#FABD24", index: 2, legendIndex: 3}, 
+  {"color": "#DC440E", index: 1, legendIndex: 4},
   {"color": "#999999", index: 0, legendIndex: 5}, 
   ],
   "chart": {

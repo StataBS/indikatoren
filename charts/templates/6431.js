@@ -15,12 +15,12 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>'
   },
  "series": [
- {"color":  "#fabd24"}, /**/
-  {"color": "#b9cfd7"}, /**/
+ {"color":  "#b00000"}, /**/
   {"color": "#007a2f"}, /**/
-  {"color": "#b00000"}, /**/
+  {"color": "#662673"}, /**/
   {"color": "#E7CEE2"}, /**/
-  {"color": "#672773"}, /* */
+  {"color": "#fabd24"}, /**/
+  {"color": "#b9cfd7"}, /* */
   ],
    "legend": {
     "enabled": true,

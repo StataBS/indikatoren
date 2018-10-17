@@ -337,7 +337,7 @@
           0
         ]
       ],
-      "name": "Weiss nicht \u002F keine Angabe",
+      "name": "Weiss nicht \u002F Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -490,7 +490,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F17a.\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F17a.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },
   "legend": {
     "layout": "horizontal",
@@ -500,17 +500,16 @@
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
-      "textOverflow": null
+      "textOverflow": null,
+      "whiteSpace": "nowrap"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
+            return this.name;
         },
     "enabled": true,
-    "reversed": true,
-    "_labelFormatter": function () {
-            return this.name;
-        }
+    "itemWidth": 140,
+    "reversed": true
   },
   "exporting": {
     "filename": 6510

@@ -11,23 +11,23 @@
       "data": [
         [
           "15-24 Jahre",
-          0.457
+          0.443
         ],
         [
           "25-34 Jahre",
-          0.857
+          0.85
         ],
         [
           "35-44 Jahre",
-          0.884
+          0.878
         ],
         [
           "45-54 Jahre",
-          0.844
+          0.845
         ],
         [
           "55-64 Jahre",
-          0.701
+          0.699
         ]
       ],
       "name": "Schweizer",
@@ -44,18 +44,18 @@
       "data": [
         {
           "name": "15-24 Jahre",
-          "low": 0.426,
-          "high": 0.489
+          "low": 0.411,
+          "high": 0.475
         },
         {
           "name": "25-34 Jahre",
-          "low": 0.836,
-          "high": 0.878
+          "low": 0.829,
+          "high": 0.872
         },
         {
           "name": "35-44 Jahre",
-          "low": 0.864,
-          "high": 0.904
+          "low": 0.858,
+          "high": 0.898
         },
         {
           "name": "45-54 Jahre",
@@ -64,8 +64,8 @@
         },
         {
           "name": "55-64 Jahre",
-          "low": 0.676,
-          "high": 0.725
+          "low": 0.674,
+          "high": 0.723
         }
       ],
       "name": "Schweizer 95% Vertrauensintervall",
@@ -82,23 +82,23 @@
       "data": [
         [
           "15-24 Jahre",
-          0.508
+          0.504
         ],
         [
           "25-34 Jahre",
-          0.841
+          0.839
         ],
         [
           "35-44 Jahre",
-          0.826
+          0.835
         ],
         [
           "45-54 Jahre",
-          0.817
+          0.816
         ],
         [
           "55-64 Jahre",
-          0.61
+          0.622
         ]
       ],
       "name": "Schweizerinnen",
@@ -115,28 +115,28 @@
       "data": [
         {
           "name": "15-24 Jahre",
-          "low": 0.476,
-          "high": 0.54
+          "low": 0.471,
+          "high": 0.537
         },
         {
           "name": "25-34 Jahre",
-          "low": 0.821,
-          "high": 0.86
+          "low": 0.82,
+          "high": 0.858
         },
         {
           "name": "35-44 Jahre",
-          "low": 0.804,
-          "high": 0.848
+          "low": 0.813,
+          "high": 0.856
         },
         {
           "name": "45-54 Jahre",
-          "low": 0.799,
-          "high": 0.836
+          "low": 0.797,
+          "high": 0.835
         },
         {
           "name": "55-64 Jahre",
-          "low": 0.586,
-          "high": 0.634
+          "low": 0.599,
+          "high": 0.646
         }
       ],
       "name": "Schweizerinnen 95% Vertrauensintervall",
@@ -153,23 +153,23 @@
       "data": [
         [
           "15-24 Jahre",
-          0.47
+          0.486
         ],
         [
           "25-34 Jahre",
-          0.877
+          0.86
         ],
         [
           "35-44 Jahre",
-          0.832
+          0.847
         ],
         [
           "45-54 Jahre",
-          0.799
+          0.808
         ],
         [
           "55-64 Jahre",
-          0.544
+          0.549
         ]
       ],
       "name": "Ausländer",
@@ -186,28 +186,28 @@
       "data": [
         {
           "name": "15-24 Jahre",
-          "low": 0.416,
-          "high": 0.524
+          "low": 0.431,
+          "high": 0.54
         },
         {
           "name": "25-34 Jahre",
-          "low": 0.855,
-          "high": 0.898
+          "low": 0.838,
+          "high": 0.883
         },
         {
           "name": "35-44 Jahre",
-          "low": 0.809,
-          "high": 0.856
+          "low": 0.825,
+          "high": 0.869
         },
         {
           "name": "45-54 Jahre",
-          "low": 0.771,
-          "high": 0.826
+          "low": 0.781,
+          "high": 0.834
         },
         {
           "name": "55-64 Jahre",
-          "low": 0.501,
-          "high": 0.587
+          "low": 0.507,
+          "high": 0.592
         }
       ],
       "name": "Ausländer 95% Vertrauensintervall",
@@ -224,23 +224,23 @@
       "data": [
         [
           "15-24 Jahre",
-          0.429
+          0.418
         ],
         [
           "25-34 Jahre",
-          0.742
+          0.734
         ],
         [
           "35-44 Jahre",
-          0.731
+          0.729
         ],
         [
           "45-54 Jahre",
-          0.669
+          0.689
         ],
         [
           "55-64 Jahre",
-          0.424
+          0.455
         ]
       ],
       "name": "Ausländerinnen",
@@ -257,28 +257,28 @@
       "data": [
         {
           "name": "15-24 Jahre",
-          "low": 0.375,
-          "high": 0.482
+          "low": 0.364,
+          "high": 0.472
         },
         {
           "name": "25-34 Jahre",
-          "low": 0.715,
-          "high": 0.769
+          "low": 0.707,
+          "high": 0.761
         },
         {
           "name": "35-44 Jahre",
-          "low": 0.704,
-          "high": 0.758
+          "low": 0.702,
+          "high": 0.756
         },
         {
           "name": "45-54 Jahre",
-          "low": 0.634,
-          "high": 0.704
+          "low": 0.655,
+          "high": 0.723
         },
         {
           "name": "55-64 Jahre",
-          "low": 0.376,
-          "high": 0.471
+          "low": 0.406,
+          "high": 0.504
         }
       ],
       "name": "Ausländerinnen 95% Vertrauensintervall",
@@ -366,7 +366,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Alter und Geschlecht, gepoolte Daten 2011 - 2015",
+    "text": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2012 bis 2016",
     "align": "left",
     "useHTML": true
   },
@@ -409,7 +409,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },
   "legend": {
     "symbolRadius": 0,

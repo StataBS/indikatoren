@@ -46,12 +46,19 @@
   	 //x:-5,
      //y: 35,
     "enabled": true,
+    itemWidth: 150,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
     "itemStyle": {
-    "fontWeight": "normal"
+        fontWeight: "normal",
+        textOverflow: null,
+        whiteSpace: "nowrap",
+    }, 
+    labelFormatter: function () {
+        return this.name;
     }
+
   },
 
 "chart": {     
