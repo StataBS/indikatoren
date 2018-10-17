@@ -59,17 +59,19 @@
   index: 2, "yAxis": 0, visible: true}, /*orange*/
 	{"color": "#cd9c00",
   index: 1, "yAxis": 0, visible: true}, /*hellbraun*/
-      {
+  {
 	  "color": "#E6E6E6",
 	  "index": 0,
-      "legendIndex": 12,
-      "type": "column",
-      "borderWidth": 0,
-      "yAxis": 1,
-      /*"tooltip": {
-    		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-       }*/
-    }, // grau
+    "legendIndex": 12,
+    "type": "column",
+    "borderWidth": 0,
+    "yAxis": 1,
+    states: {
+      hover: {
+        brightness: -0.05,
+      }
+    },
+  }, // grau
   ],
   "legend": {
     "enabled": true,
