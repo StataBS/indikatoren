@@ -5,31 +5,31 @@
       "data": [
         [
           "Indien",
-          1614
+          1651
         ],
         [
           "Vereinigte Staaten",
-          1481
+          1522
         ],
         [
           "Sri Lanka",
-          860
+          846
         ],
         [
           "China",
-          489
-        ],
-        [
-          "Thailand",
-          427
+          486
         ],
         [
           "Russland",
-          403
+          425
+        ],
+        [
+          "Thailand",
+          419
         ],
         [
           "Übrige",
-          2648
+          2755
         ]
       ],
       "turboThreshold": 0
@@ -69,15 +69,7 @@
       "cursor": true,
       "showInLegend": true,
       "dataLabels": {
-        "enabled": true,
-        "format": "{point.percentage:.1f}%",
-        "distance": 10,
-        "style": {
-          "color": "black",
-          "textOutline": "0px black",
-          "fontWeight": "normal",
-          "fontSize": "12px"
-        }
+        "enabled": false
       },
       "colors": [
         "#B00000",
@@ -106,7 +98,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach einzelnen Staatsangehörigkeiten, Stand: 2016",
+    "text": "nach einzelnen Staatsangehörigkeiten, Basel-Stadt, 2017",
     "align": "left"
   },
   "tooltip": {
@@ -127,7 +119,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },
   "legend": {
     "layout": "vertical",

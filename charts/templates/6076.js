@@ -25,6 +25,10 @@
   },
   "xAxis": {
   	"type": "linear",
+  	tickInterval: 1, 
+  	labels: {
+  	  step: 1,
+  	},
   },
   "legend": {
     "enabled": true,

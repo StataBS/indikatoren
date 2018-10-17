@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Ausländeranteil 2016 in %",
+      "name": "Ausländeranteil 2017 in %",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          27.062
+          28.417
         ],
         [
           2,
-          38.232
+          38.405
         ],
         [
           3,
-          34.88
+          36.198
         ],
         [
           4,
-          32.397
+          32.862
         ],
         [
           5,
-          31.635
+          33.106
         ],
         [
           6,
-          39.06
+          39.301
         ],
         [
           7,
-          24.153
+          23.981
         ],
         [
           8,
-          21.778
+          21.425
         ],
         [
           9,
-          27.761
+          27.53
         ],
         [
           10,
-          37.513
+          37.913
         ],
         [
           11,
-          43.4
+          43.009
         ],
         [
           12,
-          37.66
+          37.175
         ],
         [
           13,
-          46.334
+          46.743
         ],
         [
           14,
-          31.799
+          31.139
         ],
         [
           15,
-          23.998
+          24.946
         ],
         [
           16,
-          55.739
+          55.778
         ],
         [
           17,
-          50.621
+          50.57
         ],
         [
           18,
-          51.666
+          52.35
         ],
         [
           19,
-          46.906
+          47.433
         ],
         [
           20,
-          25.542
+          26.097
         ],
         [
           30,
-          24.79
+          24.181
         ]
       ]
     },
@@ -6658,90 +6658,90 @@
       "data": [
         [
           "Altstadt GB",
-          11.853
+          12.923
         ],
         [
           "Vorstädte",
-          16.907
+          17.692
         ],
         [
           "Am Ring",
-          13.018
+          13.493
         ],
         [
           "Breite",
-          10.935
+          11.203
         ],
         [
           "St. Alban",
-          15.748
+          16.425
         ],
         [
           "Gundeldingen",
-          1.842
+          1.837
         ],
         [
           "Bruderholz",
-          13.574
+          13.177
         ],
         [
           "Bachletten",
-          10.118
+          9.372
         ],
         [
           "Gotthelf",
-          10.126
+          9.792
         ],
         [
           "Iselin",
-          11.547
+          11.051
         ],
         [
           "St. Johann",
-          2.749
+          2.298
         ],
         [
           "Altstadt KB",
-          13.074
+          13.392
         ],
         [
           "Clara",
-          5.13
+          5.774
         ],
         [
           "Wettstein",
-          12.712
+          12.272
         ],
         [
           "Hirzbrunnen",
-          8.116
+          8.945
         ],
         [
           "Rosental",
-          7.953
+          7.381
         ],
         [
           "Matthäus",
-          0.745
+          0.536
         ],
         [
           "Klybeck",
-          5.755
+          5.548
         ],
         [
           "Kleinhüningen",
-          7.76
+          8.912
         ],
         [
           "Riehen",
-          13.546
+          13.788
         ],
         [
           "Bettingen",
-          10.356
+          8.503
         ]
       ],
-      "name": "Zunahme seit 1997 in Prozentpunkten"
+      "name": "Zunahme seit 1998 in Prozentpunkten"
     },
     {
       "name": "Rhein",
@@ -7031,7 +7031,7 @@
 					//fn.addLegendLabel(chart, 'Zunahme', 300, 245);
 					//fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
 					//fn.addLegendLabel(chart, 'Abnahme', 300, 270);
-					fn.addLegendTitle(chart, 'Ausländeranteil 2016 in % ', 265, 300);
+					fn.addLegendTitle(chart, 'Ausländeranteil 2017 in % ', 265, 300);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
@@ -7056,7 +7056,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016 und Veränderung seit 1997",
+    "text": "Basel-Stadt, Stand 2017 und Veränderung seit 1998",
     "align": "left"
   },
   "credits": {
@@ -7072,7 +7072,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },
   "colorAxis": {
     "min": 0,

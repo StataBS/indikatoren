@@ -1,7 +1,7 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 5,
+    "tickInterval": 2,
   },
   "yAxis": {
     "min": 0, 
@@ -29,6 +29,7 @@
   {"color": "#999999"}, /*Übrige Länder*/
   ],
    "legend": {
+   	x: -8,
     "enabled": true,
     "layout": "horizontal",
     itemDistance: 6,
