@@ -452,6 +452,7 @@
     "x": -1,
     "margin": 10,
     "itemDistance": 1,
+    "itemMarginBottom": 2,
     "enabled": true,
     "symbolPadding": 1
   },

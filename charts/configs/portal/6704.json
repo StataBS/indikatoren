@@ -293,10 +293,10 @@
       "fontSize": "10px"
     },
     "enabled": true,
+    "x": 7,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "center",
-    "x": 3
+    "align": "center"
   },
   "tooltip": {
     "pointFormatter": function () {

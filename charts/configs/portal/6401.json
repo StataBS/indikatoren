@@ -5,35 +5,35 @@
       "data": [
         [
           "Polen",
-          829
+          887
         ],
         [
           "Ungarn",
-          802
+          813
         ],
         [
           "Slowakei",
-          575
+          611
         ],
         [
           "Rumänien",
-          535
+          604
         ],
         [
           "Bulgarien",
-          279
+          319
         ],
         [
           "Tschechien",
-          243
+          241
         ],
         [
           "Slowenien",
-          206
+          225
         ],
         [
           "Litauen",
-          100
+          127
         ],
         [
           "Lettland",
@@ -41,7 +41,7 @@
         ],
         [
           "Estland",
-          32
+          33
         ]
       ],
       "turboThreshold": 0
@@ -81,15 +81,7 @@
       "cursor": true,
       "showInLegend": true,
       "dataLabels": {
-        "enabled": true,
-        "format": "{point.percentage:.1f}%",
-        "distance": 20,
-        "style": {
-          "color": "black",
-          "textOutline": "0px black",
-          "fontWeight": "normal",
-          "fontSize": "12px"
-        }
+        "enabled": false
       },
       "colors": [
         "#B00000",
@@ -122,7 +114,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach einzelnen Staatsangehörigkeiten, Stand: 2016",
+    "text": "nach einzelnen Staatsangehörigkeiten, Basel-Stadt, 2017",
     "align": "left"
   },
   "tooltip": {
@@ -143,7 +135,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },
   "legend": {
     "layout": "vertical",

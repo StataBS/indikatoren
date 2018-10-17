@@ -11,14 +11,14 @@
   "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": -45 
+      "rotation": -45,
     } 
   },
-     "yAxis": [{
+  "yAxis": [{
     "labels": {
       "format": "{value:,.0f}",
       "style": {
-        "color": "#000000"
+        color: "#000000", 
       }
     },
     "min": 0,
@@ -37,7 +37,7 @@
     "labels": {
       "format": "{value:,.0f}",
       "style": {
-        "color": "#000000"
+        color: "#000000", 
       }
     },
     "min": 0,
@@ -68,8 +68,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    //"x": 25,
-	  //"y": 60,    
+    itemDistance: 10,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -82,5 +81,5 @@
     "type": "column",
     "inverted": false
   }
-}
+};
 }());

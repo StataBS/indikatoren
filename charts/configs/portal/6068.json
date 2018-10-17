@@ -6,50 +6,50 @@
       "data": [
         [
           "Schweiz",
-          24.3
+          24.6
         ],
         [
           "Deutschland",
-          10.9
+          11.7
         ],
         [
           "Italien",
-          27.2
+          26.7
         ],
         [
           "Türkei",
-          69.5
+          66.3
         ],
         [
           "EU-17 + EFTA",
-          25.7
+          25
         ],
         [
           "EU-Ost",
-          18.4
+          17
         ],
         [
           "Balkan",
-          54.5
+          55.5
         ],
         [
           "Mittel- und Südamerika",
-          25.9
+          24.4
         ],
         [
           "Arabische Länder",
-          26.4
+          25.8
         ],
         [
           "Afrikanische Länder",
-          36.3
+          35
         ],
         [
           "Übrige Länder",
-          32.6
+          32.3
         ]
       ],
-      "name": "1997",
+      "name": "1998",
       "turboThreshold": 0
     },
     {
@@ -58,7 +58,7 @@
       "data": [
         [
           "Schweiz",
-          27.4
+          28
         ],
         [
           "Deutschland",
@@ -66,11 +66,11 @@
         ],
         [
           "Italien",
-          21.1
+          20.7
         ],
         [
           "Türkei",
-          30.4
+          29.5
         ],
         [
           "EU-17 + EFTA",
@@ -78,30 +78,30 @@
         ],
         [
           "EU-Ost",
-          16
+          17
         ],
         [
           "Balkan",
-          33.1
+          32.3
         ],
         [
           "Mittel- und Südamerika",
-          16.9
+          15.4
         ],
         [
           "Arabische Länder",
-          40.1
+          43.8
         ],
         [
           "Afrikanische Länder",
-          42
+          42.5
         ],
         [
           "Übrige Länder",
-          28.9
+          28.6
         ]
       ],
-      "name": "2016",
+      "name": "2017",
       "turboThreshold": 0
     }
   ],
@@ -187,7 +187,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -227,7 +227,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },
   "legend": {
     "symbolRadius": 0,

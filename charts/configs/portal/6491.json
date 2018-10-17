@@ -1,85 +1,85 @@
 {
   "series": [
     {
-      "color": "#672773",
+      "color": "#008AC3",
       "index": 5,
       "legendIndex": 0,
       "data": [
         [
           "Schweizer",
-          23.08
+          13.74
         ],
         [
           "Ausländer",
-          18.84
+          27.4
         ]
       ],
       "name": "Diebstahl",
       "turboThreshold": 0
     },
     {
-      "color": "#b475ab",
+      "color": "#68AB2B",
       "index": 4,
       "legendIndex": 1,
       "data": [
         [
           "Schweizer",
-          9.62
+          10.69
         ],
         [
           "Ausländer",
-          1.45
+          4.11
         ]
       ],
       "name": "Sachbeschädigung",
       "turboThreshold": 0
     },
     {
-      "color": "#73ba7c",
+      "color": "#E6E600",
       "index": 3,
       "legendIndex": 2,
       "data": [
         [
           "Schweizer",
-          4.81
+          3.82
         ],
         [
           "Ausländer",
-          4.35
+          8.22
         ]
       ],
       "name": "Körperverletzung",
       "turboThreshold": 0
     },
     {
-      "color": "#fabd24",
+      "color": "#FABD24",
       "index": 2,
       "legendIndex": 3,
       "data": [
         [
           "Schweizer",
-          17.31
+          22.9
         ],
         [
           "Ausländer",
-          21.74
+          9.59
         ]
       ],
       "name": "Betäubungsmittelkonsum",
       "turboThreshold": 0
     },
     {
-      "color": "#007a2f",
+      "color": "#DC440E",
       "index": 1,
       "legendIndex": 4,
       "data": [
         [
           "Schweizer",
-          3.85
+          5.34
         ],
         [
           "Ausländer",
-          2.9
+          8.22
         ]
       ],
       "name": "Tätlichkeit",
@@ -92,11 +92,11 @@
       "data": [
         [
           "Schweizer",
-          41.35
+          43.51
         ],
         [
           "Ausländer",
-          50.72
+          42.47
         ]
       ],
       "name": "Übrige",
@@ -187,7 +187,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Jugendliche zwischen 10 und 17 Jahren, Stand: 2016",
+    "text": "zwischen 10 und 17 Jahren, Basel-Stadt, 2017",
     "align": "left"
   },
   "yAxis": {
@@ -228,7 +228,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Polizeiliche Kriminalitätsstatistk (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Polizeiliche Kriminalitätsstatistk (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },
   "legend": {
     "symbolRadius": 0,

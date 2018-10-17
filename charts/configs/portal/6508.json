@@ -54,8 +54,8 @@
           null
         ],
         [
-          "2005 Total 807",
-          387
+          "2005 Total",
+          807
         ],
         [
           "2005 Schweiz",
@@ -66,7 +66,7 @@
           119
         ],
         [
-          "     ",
+          "    ",
           null
         ],
         [
@@ -139,8 +139,8 @@
           null
         ],
         [
-          "2005 Total 807",
-          101
+          "2005 Total",
+          387
         ],
         [
           "2005 Schweiz",
@@ -151,7 +151,7 @@
           59
         ],
         [
-          "     ",
+          "    ",
           null
         ],
         [
@@ -224,8 +224,8 @@
           null
         ],
         [
-          "2005 Total 807",
-          13
+          "2005 Total",
+          101
         ],
         [
           "2005 Schweiz",
@@ -236,7 +236,7 @@
           11
         ],
         [
-          "     ",
+          "    ",
           null
         ],
         [
@@ -309,8 +309,8 @@
           null
         ],
         [
-          "2005 Total 807",
-          4
+          "2005 Total",
+          13
         ],
         [
           "2005 Schweiz",
@@ -321,7 +321,7 @@
           1
         ],
         [
-          "     ",
+          "    ",
           null
         ],
         [
@@ -394,8 +394,8 @@
           null
         ],
         [
-          "2005 Total 807",
-          null
+          "2005 Total",
+          4
         ],
         [
           "2005 Schweiz",
@@ -406,7 +406,7 @@
           1
         ],
         [
-          "     ",
+          "    ",
           null
         ],
         [
@@ -422,7 +422,7 @@
           1
         ]
       ],
-      "name": "Weiss nicht \u002F keine Angabe",
+      "name": "Weiss nicht \u002F Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -575,7 +575,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F2b.\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F2b.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },
   "legend": {
     "layout": "horizontal",
@@ -585,14 +585,15 @@
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
-      "textOverflow": null
+      "textOverflow": null,
+      "whiteSpace": "nowrap"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name;
         },
     "enabled": true,
-    "itemWidth": 150
+    "itemWidth": 140
   },
   "exporting": {
     "filename": 6508
