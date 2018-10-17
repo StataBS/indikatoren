@@ -25,6 +25,7 @@
             //max: 7,
             //tickInterval: 1,
             min:0,
+            max: 30,
             title: {
                 text: null
             },
