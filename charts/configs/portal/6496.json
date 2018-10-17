@@ -422,7 +422,7 @@
           10
         ]
       ],
-      "name": "Weiss nicht \u002F keine Angabe",
+      "name": "Weiss nicht \u002F Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -460,7 +460,8 @@
             	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
             },
       "align": "left",
-      "x": -130
+      "x": -130,
+      "y": 2
     }
   },
   "chart": {
@@ -575,7 +576,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18.\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },
   "legend": {
     "layout": "horizontal",
@@ -585,7 +586,8 @@
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
-      "textOverflow": null
+      "textOverflow": null,
+      "whiteSpace": "nowrap"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
@@ -595,7 +597,7 @@
     "itemDistance": 5,
     "padding": 0,
     "symbolPadding": 3,
-    "alignColumns": false
+    "itemWidth": 140
   },
   "exporting": {
     "filename": 6496

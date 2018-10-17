@@ -29,9 +29,9 @@
            '#3C3C3C',
            '#923F8D',
            ],
-		dataLabels: {
+		/*dataLabels: {
 		                enabled: true,
-		                format: '{point.percentage:.1f}%',
+		                format: '{point.percentage:.1f}',
 		                distance: 20,
 		                style: {
 		                    color: 'black',
@@ -39,7 +39,7 @@
                         fontWeight: "normal", 
                         fontSize: "12px"
 		                }
-	      }
+	      }*/
       }
     }
     };

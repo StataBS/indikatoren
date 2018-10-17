@@ -5,23 +5,23 @@
       "data": [
         [
           "18-24 Jahre",
-          38.3
+          29.5
         ],
         [
           "25-34 Jahre",
-          20
+          16.6
         ],
         [
           "35-44 Jahre",
-          19.5
+          21.1
         ],
         [
           "45-59 Jahre",
-          14.8
+          14.7
         ],
         [
-          "ab 60 Jahre",
-          4.8
+          "60 Jahre u.m.",
+          5.2
         ]
       ],
       "name": "Schweizer",
@@ -32,22 +32,22 @@
       "data": [
         [
           "18-24 Jahre",
-          7.9
+          5.5
         ],
         [
           "25-34 Jahre",
-          6.7
+          7.9
         ],
         [
           "35-44 Jahre",
-          6.7
+          5.8
         ],
         [
           "45-59 Jahre",
-          4.8
+          5.8
         ],
         [
-          "ab 60 Jahre",
+          "60 Jahre u.m.",
           1.7
         ]
       ],
@@ -59,23 +59,23 @@
       "data": [
         [
           "18-24 Jahre",
-          73.1
+          62.1
         ],
         [
           "25-34 Jahre",
-          32.5
+          26.7
         ],
         [
           "35-44 Jahre",
-          25.1
+          23.4
         ],
         [
           "45-59 Jahre",
-          14.2
+          14.3
         ],
         [
-          "ab 60 Jahre",
-          9
+          "60 Jahre u.m.",
+          9.4
         ]
       ],
       "name": "Ausländer",
@@ -86,7 +86,7 @@
       "data": [
         [
           "18-24 Jahre",
-          17.1
+          13.9
         ],
         [
           "25-34 Jahre",
@@ -94,15 +94,15 @@
         ],
         [
           "35-44 Jahre",
-          7.7
+          8.8
         ],
         [
           "45-59 Jahre",
-          6.9
+          7.4
         ],
         [
-          "ab 60 Jahre",
-          4
+          "60 Jahre u.m.",
+          3.6
         ]
       ],
       "name": "Ausländerinnen",
@@ -190,7 +190,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Geschlecht und Alter, Stand: 2016",
+    "text": "nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2017",
     "align": "left"
   },
   "yAxis": {
@@ -230,7 +230,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },
   "legend": {
     "symbolRadius": 0,

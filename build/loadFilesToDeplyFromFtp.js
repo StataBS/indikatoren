@@ -27,6 +27,7 @@ https.get(urlBase + "verzeichnis.txt", listOfCharts => {
                     //stream.on("finish", function() {});
                 });
             };
+            //for each line: download and save json / tsv
             console.log('downloading files for '+ row.Indikator + '...');
             downloadFileContents(urlBase + row.Indikator + '.json', 'metadata/single/' + row.Indikator + '.json');
             downloadFileContents(urlBase + row.Indikator + '.tsv', 'data/' + row.Indikator + '.tsv');
@@ -39,10 +40,14 @@ https.get(urlBase + "verzeichnis.txt", listOfCharts => {
             }
         });
         console.log('...done!');
+        console.log('=== Test Links: ==+');
+        
+        //open browser tab for visual check
+        records.forEach(row => {
+            console.log('https://' + process.env.C9_HOSTNAME + '/chart-details.html?id=' + row.Indikator);
+        });
   });
 });
 
-//for each line: download and save json / tsv
-//if branch is present: checkout js from origin
 
 

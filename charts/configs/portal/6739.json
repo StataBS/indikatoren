@@ -82,7 +82,7 @@
           118
         ]
       ],
-      "name": "Sehr zufrieden",
+      "name": "Sehr gerne",
       "turboThreshold": 0
     },
     {
@@ -167,7 +167,7 @@
           75
         ]
       ],
-      "name": "Eher zufrieden",
+      "name": "Eher gerne",
       "turboThreshold": 0
     },
     {
@@ -252,7 +252,7 @@
           11
         ]
       ],
-      "name": "Eher unzufrieden",
+      "name": "Eher ungern",
       "turboThreshold": 0
     },
     {
@@ -337,7 +337,7 @@
           2
         ]
       ],
-      "name": "Sehr unzufrieden",
+      "name": "Sehr ungern",
       "turboThreshold": 0
     },
     {

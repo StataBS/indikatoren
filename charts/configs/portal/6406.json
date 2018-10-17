@@ -30,6 +30,10 @@
         [
           2016,
           2.9
+        ],
+        [
+          2017,
+          2.9
         ]
       ],
       "name": "Schweiz"
@@ -64,6 +68,10 @@
         [
           2016,
           3.5
+        ],
+        [
+          2017,
+          3.2
         ]
       ],
       "name": "Deutschland"
@@ -98,6 +106,10 @@
         [
           2016,
           5.2
+        ],
+        [
+          2017,
+          5.3
         ]
       ],
       "name": "Italien"
@@ -132,6 +144,10 @@
         [
           2016,
           8.5
+        ],
+        [
+          2017,
+          8.1
         ]
       ],
       "name": "Türkei"
@@ -166,9 +182,13 @@
         [
           2016,
           5.5
+        ],
+        [
+          2017,
+          5.5
         ]
       ],
-      "name": "EU-17 & EFTA"
+      "name": "EU-17 + EFTA"
     },
     {
       "color": "#71a3b5",
@@ -200,6 +220,10 @@
         [
           2016,
           12
+        ],
+        [
+          2017,
+          11.6
         ]
       ],
       "name": "EU-Ost"
@@ -234,6 +258,10 @@
         [
           2016,
           7
+        ],
+        [
+          2017,
+          6.8
         ]
       ],
       "name": "Balkan"
@@ -268,9 +296,13 @@
         [
           2016,
           6.1
+        ],
+        [
+          2017,
+          5.5
         ]
       ],
-      "name": "Mittel- & Südamerika"
+      "name": "Mittel- u. Südamerika"
     },
     {
       "color": "#73ba7c",
@@ -302,6 +334,10 @@
         [
           2016,
           7.8
+        ],
+        [
+          2017,
+          8
         ]
       ],
       "name": "Arabische Länder"
@@ -336,6 +372,10 @@
         [
           2016,
           8
+        ],
+        [
+          2017,
+          7.6
         ]
       ],
       "name": "Afrikanische Länder"
@@ -370,6 +410,10 @@
         [
           2016,
           3.9
+        ],
+        [
+          2017,
+          3.8
         ]
       ],
       "name": "Übrige Länder"
@@ -420,7 +464,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -471,7 +515,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },
   "legend": {
     "enabled": true,

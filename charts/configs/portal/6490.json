@@ -14,7 +14,7 @@
         ],
         [
           2012,
-          68
+          70
         ],
         [
           2013,
@@ -22,7 +22,7 @@
         ],
         [
           2014,
-          47
+          48
         ],
         [
           2015,
@@ -31,6 +31,10 @@
         [
           2016,
           49
+        ],
+        [
+          2017,
+          43
         ]
       ],
       "name": "C-Bew."
@@ -57,7 +61,7 @@
         ],
         [
           2014,
-          23
+          24
         ],
         [
           2015,
@@ -66,6 +70,10 @@
         [
           2016,
           9
+        ],
+        [
+          2017,
+          21
         ]
       ],
       "name": "B-Bew."
@@ -100,7 +108,11 @@
         ],
         [
           2016,
-          11
+          12
+        ],
+        [
+          2017,
+          9
         ]
       ],
       "name": "Übrige"
@@ -151,7 +163,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Jugendliche zwischen 10 und 17 Jahren nach Aufenthaltsstatus",
+    "text": "zwischen 10 und 17 Jahren nach Aufenthaltsstatus, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -201,7 +213,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },
   "legend": {
     "enabled": true,

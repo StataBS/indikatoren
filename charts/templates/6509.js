@@ -45,15 +45,17 @@
   "legend": { 
      //y: 55,
     "enabled": true,
-    itemWidth: 150,
+    itemWidth: 140,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
      "labelFormatter": function () {
             return this.name;
         },
-    "itemStyle": {
-    "fontWeight": "normal"
+    itemStyle: {
+        fontWeight: "normal", 
+        textOverflow: null, 
+        whiteSpace: 'nowrap'
     }
   },
 
