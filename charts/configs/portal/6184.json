@@ -417,6 +417,11 @@
       "type": "column",
       "borderWidth": 0,
       "yAxis": 1,
+      "states": {
+        "hover": {
+          "brightness": -0.05
+        }
+      },
       "data": [
         [
           2008,
