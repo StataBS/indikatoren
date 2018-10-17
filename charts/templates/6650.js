@@ -108,6 +108,7 @@
 	    ],
     "legend": {
         "enabled": true,
+        x: 7,
         "layout": "horizontal",
         "verticalAlign": "top",
         "align": "center",

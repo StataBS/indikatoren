@@ -60,6 +60,7 @@
     margin: 10,
     padding: 1,
     itemDistance: 1,
+    itemMarginBottom: 2, 
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
