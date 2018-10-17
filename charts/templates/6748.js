@@ -60,14 +60,15 @@
     margin: 10,
     padding: 1,
     itemDistance: 1,
+    itemMarginBottom: 2,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
     //width: 320,
     symbolPadding: 1,
-    "itemStyle": {
-        "fontWeight": "normal",
+    itemStyle: {
+        fontWeight: "normal",
         textOverflow: "none", 
     },
   },
