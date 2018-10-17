@@ -542,9 +542,9 @@
     "width": 320,
     "height": 221,
     "spacing": [
-      2,
-      2,
-      2,
+      6,
+      0,
+      3,
       2
     ],
     "style": {
@@ -557,7 +557,7 @@
     },
     "type": "area",
     "renderTo": "container-6297",
-    "spacingBottom": 12
+    "spacingBottom": 13
   },
   "plotOptions": {
     "series": {

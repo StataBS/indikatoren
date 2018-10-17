@@ -12,6 +12,10 @@
         [
           "2013",
           852
+        ],
+        [
+          "2017",
+          908
         ]
       ],
       "name": "Deutsch",
@@ -29,6 +33,10 @@
         [
           "2013",
           79
+        ],
+        [
+          "2017",
+          86
         ]
       ],
       "name": "Andere Sprache",
@@ -46,6 +54,10 @@
         [
           "2013",
           99
+        ],
+        [
+          "2017",
+          136
         ]
       ],
       "name": "Keine Angabe",
@@ -199,7 +211,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F36.\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F37.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },
   "legend": {
     "layout": "vertical",
