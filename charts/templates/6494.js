@@ -34,7 +34,7 @@
     reversed: true,
     itemMarginBottom: 5,
     labelFormatter: function(){
-      return this.name.replace(" ", "<br/>").replace("-", "<br/>");
+      return this.name.replace(" ", "<br/>").replace("-", "-<br/>");
     },
 	  //"y": 30,
     "itemStyle": {

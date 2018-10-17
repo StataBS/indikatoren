@@ -5,10 +5,6 @@
       "legendIndex": 0,
       "data": [
         [
-          1997,
-          46.4
-        ],
-        [
           1998,
           46.5
         ],
@@ -83,6 +79,10 @@
         [
           2016,
           46.1
+        ],
+        [
+          2017,
+          46
         ]
       ],
       "name": "Schweiz"
@@ -92,10 +92,6 @@
       "legendIndex": 2,
       "dashStyle": "LongDash",
       "data": [
-        [
-          1997,
-          43.4
-        ],
         [
           1998,
           43.5
@@ -171,6 +167,10 @@
         [
           2016,
           43.8
+        ],
+        [
+          2017,
+          43.8
         ]
       ],
       "name": "Schweizer"
@@ -180,10 +180,6 @@
       "legendIndex": 4,
       "dashStyle": "LongDash",
       "data": [
-        [
-          1997,
-          48.8
-        ],
         [
           1998,
           48.9
@@ -259,6 +255,10 @@
         [
           2016,
           48.1
+        ],
+        [
+          2017,
+          47.9
         ]
       ],
       "name": "Schweizerinnen"
@@ -267,10 +267,6 @@
       "color": "#cd9c00",
       "legendIndex": 1,
       "data": [
-        [
-          1997,
-          32.4
-        ],
         [
           1998,
           32.7
@@ -325,7 +321,7 @@
         ],
         [
           2011,
-          36.2
+          36.1
         ],
         [
           2012,
@@ -346,6 +342,10 @@
         [
           2016,
           36.9
+        ],
+        [
+          2017,
+          37
         ]
       ],
       "name": "Ausland"
@@ -355,10 +355,6 @@
       "legendIndex": 2,
       "dashStyle": "LongDash",
       "data": [
-        [
-          1997,
-          33
-        ],
         [
           1998,
           33.3
@@ -401,7 +397,7 @@
         ],
         [
           2008,
-          36.3
+          36.2
         ],
         [
           2009,
@@ -434,6 +430,10 @@
         [
           2016,
           37.3
+        ],
+        [
+          2017,
+          37.4
         ]
       ],
       "name": "Ausländer"
@@ -443,10 +443,6 @@
       "legendIndex": 5,
       "dashStyle": "LongDash",
       "data": [
-        [
-          1997,
-          31.7
-        ],
         [
           1998,
           31.9
@@ -522,6 +518,10 @@
         [
           2016,
           36.4
+        ],
+        [
+          2017,
+          36.6
         ]
       ],
       "name": "Ausländerinnen"
@@ -572,7 +572,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit und Geschlecht",
+    "text": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -624,7 +624,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },
   "legend": {
     "enabled": true,

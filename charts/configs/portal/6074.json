@@ -6,19 +6,19 @@
       "data": [
         [
           "Deutschland",
-          5.2
+          5.3
         ],
         [
           "Italien",
-          16.4
+          14.7
         ],
         [
           "Türkei",
-          15.9
+          16.4
         ],
         [
           "EU-17 + EFTA",
-          5
+          5.2
         ],
         [
           "EU-Ost",
@@ -26,23 +26,23 @@
         ],
         [
           "Balkan",
-          15.5
+          16
         ],
         [
           "Mittel- und Südamerika",
-          5.9
+          6
         ],
         [
           "Arabische Länder",
-          3.7
+          3.9
         ],
         [
           "Afrikanische Länder",
-          5.6
+          6.1
         ],
         [
           "Übrige Länder",
-          4.1
+          4.2
         ]
       ],
       "name": "Basel-Stadt",
@@ -54,43 +54,43 @@
       "data": [
         [
           "Deutschland",
-          7
+          7.3
         ],
         [
           "Italien",
-          25
+          23.1
         ],
         [
           "Türkei",
-          19.6
+          20.2
         ],
         [
           "EU-17 + EFTA",
-          6.5
+          6.6
         ],
         [
           "EU-Ost",
-          3.8
+          4.2
         ],
         [
           "Balkan",
-          18.2
+          18.7
         ],
         [
           "Mittel- und Südamerika",
-          7.4
+          7.8
         ],
         [
           "Arabische Länder",
-          9
+          9.1
         ],
         [
           "Afrikanische Länder",
-          8.2
+          8.8
         ],
         [
           "Übrige Länder",
-          5.4
+          5.5
         ]
       ],
       "name": "Schweiz",
@@ -179,7 +179,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Jahren, Stand: 2016",
+    "text": "in Jahren, 2017",
     "align": "left"
   },
   "yAxis": {
@@ -219,7 +219,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },
   "legend": {
     "symbolRadius": 0,

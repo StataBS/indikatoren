@@ -4,10 +4,6 @@
       "color": "#672773",
       "data": [
         [
-          1997,
-          12.1
-        ],
-        [
           1998,
           12.1
         ],
@@ -82,6 +78,10 @@
         [
           2016,
           10.8
+        ],
+        [
+          2017,
+          10.9
         ]
       ],
       "name": "Deutschland"
@@ -89,10 +89,6 @@
     {
       "color": "#007a2f",
       "data": [
-        [
-          1997,
-          37.1
-        ],
         [
           1998,
           37.1
@@ -168,6 +164,10 @@
         [
           2016,
           28.6
+        ],
+        [
+          2017,
+          28
         ]
       ],
       "name": "Italien"
@@ -175,10 +175,6 @@
     {
       "color": "#fabd24",
       "data": [
-        [
-          1997,
-          27.3
-        ],
         [
           1998,
           27.8
@@ -254,6 +250,10 @@
         [
           2016,
           27.1
+        ],
+        [
+          2017,
+          26.8
         ]
       ],
       "name": "Türkei"
@@ -261,10 +261,6 @@
     {
       "color": "#b475ab",
       "data": [
-        [
-          1997,
-          20.9
-        ],
         [
           1998,
           21.1
@@ -340,17 +336,17 @@
         [
           2016,
           15.2
+        ],
+        [
+          2017,
+          15.4
         ]
       ],
-      "name": "EU-17 & EFTA"
+      "name": "EU-17 + EFTA"
     },
     {
       "color": "#71a3b5",
       "data": [
-        [
-          1997,
-          8.5
-        ],
         [
           1998,
           7.4
@@ -426,6 +422,10 @@
         [
           2016,
           7
+        ],
+        [
+          2017,
+          7
         ]
       ],
       "name": "EU-Ost"
@@ -433,10 +433,6 @@
     {
       "color": "#b9cfd7",
       "data": [
-        [
-          1997,
-          17.5
-        ],
         [
           1998,
           18
@@ -512,6 +508,10 @@
         [
           2016,
           26.2
+        ],
+        [
+          2017,
+          26
         ]
       ],
       "name": "Balkan"
@@ -519,10 +519,6 @@
     {
       "color": "#ff8028",
       "data": [
-        [
-          1997,
-          2.6
-        ],
         [
           1998,
           2.9
@@ -598,17 +594,17 @@
         [
           2016,
           6.9
+        ],
+        [
+          2017,
+          6.7
         ]
       ],
-      "name": "Mittel- & Südamerika"
+      "name": "Mittel- und Südamerika"
     },
     {
       "color": "#73ba7c",
       "data": [
-        [
-          1997,
-          13.7
-        ],
         [
           1998,
           13.3
@@ -684,6 +680,10 @@
         [
           2016,
           13.8
+        ],
+        [
+          2017,
+          14.6
         ]
       ],
       "name": "Arabische Länder"
@@ -691,10 +691,6 @@
     {
       "color": "#9f7c5a",
       "data": [
-        [
-          1997,
-          9
-        ],
         [
           1998,
           8.4
@@ -770,6 +766,10 @@
         [
           2016,
           17
+        ],
+        [
+          2017,
+          18.3
         ]
       ],
       "name": "Afrikanische Länder"
@@ -777,10 +777,6 @@
     {
       "color": "#999999",
       "data": [
-        [
-          1997,
-          13.7
-        ],
         [
           1998,
           13.9
@@ -856,6 +852,10 @@
         [
           2016,
           10.3
+        ],
+        [
+          2017,
+          10.2
         ]
       ],
       "name": "Übrige Länder"
@@ -906,7 +906,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -958,7 +958,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },
   "legend": {
     "enabled": true,

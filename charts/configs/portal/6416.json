@@ -11,27 +11,27 @@
       "data": [
         [
           "Schweiz",
-          0.741
+          0.74
         ],
         [
           "Deutschland",
-          0.876
+          0.874
         ],
         [
           "Italien",
-          0.678
+          0.675
         ],
         [
           "Türkei",
-          0.496
+          0.504
         ],
         [
           "EU-17 + EFTA",
-          0.785
+          0.787
         ],
         [
           "EU-Ost",
-          0.767
+          0.764
         ],
         [
           "Balkan",
@@ -39,19 +39,19 @@
         ],
         [
           "Mittel- und Südamerika",
-          0.574
+          0.542
         ],
         [
           "Arabische Länder",
-          0.526
+          0.563
         ],
         [
           "Afrikanische Länder",
-          0.595
+          0.579
         ],
         [
           "Übrige Länder",
-          0.667
+          0.683
         ]
       ],
       "name": "Erwerbstätigenquote",
@@ -68,58 +68,58 @@
       "data": [
         {
           "name": "Schweiz",
-          "low": 0.734,
-          "high": 0.749
+          "low": 0.733,
+          "high": 0.748
         },
         {
           "name": "Deutschland",
-          "low": 0.861,
-          "high": 0.891
+          "low": 0.859,
+          "high": 0.889
         },
         {
           "name": "Italien",
-          "low": 0.645,
-          "high": 0.711
+          "low": 0.641,
+          "high": 0.708
         },
         {
           "name": "Türkei",
-          "low": 0.459,
-          "high": 0.533
+          "low": 0.467,
+          "high": 0.542
         },
         {
           "name": "EU-17 + EFTA",
-          "low": 0.764,
-          "high": 0.806
+          "low": 0.766,
+          "high": 0.808
         },
         {
           "name": "EU-Ost",
-          "low": 0.719,
-          "high": 0.815
+          "low": 0.718,
+          "high": 0.81
         },
         {
           "name": "Balkan",
           "low": 0.535,
-          "high": 0.6
+          "high": 0.601
         },
         {
           "name": "Mittel- und Südamerika",
-          "low": 0.504,
-          "high": 0.643
+          "low": 0.471,
+          "high": 0.613
         },
         {
           "name": "Arabische Länder",
-          "low": 0.426,
-          "high": 0.626
+          "low": 0.469,
+          "high": 0.658
         },
         {
           "name": "Afrikanische Länder",
-          "low": 0.51,
-          "high": 0.681
+          "low": 0.498,
+          "high": 0.66
         },
         {
           "name": "Übrige Länder",
-          "low": 0.632,
-          "high": 0.701
+          "low": 0.649,
+          "high": 0.717
         }
       ],
       "name": "95% Vertrauensintervall",
@@ -208,7 +208,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Gepoolte Daten 2011 bis 2015",
+    "text": "der 15-64-Jährigen in Basel-Stadt, gepoolte Daten 2012 bis 2016",
     "align": "left"
   },
   "yAxis": {
@@ -250,7 +250,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },
   "legend": {
     "symbolRadius": 0,
