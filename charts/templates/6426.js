@@ -27,9 +27,6 @@
 	"max": undefined
   },
 	"legend": {
-	   		labelFormatter: function () {
-	        return this.name.slice(0, this.name.indexOf('(Stadt)'));
-	      },
     "enabled": true,
     itemDistance: 3, 
     "layout": "horizontal",

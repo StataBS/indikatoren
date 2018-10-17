@@ -78,7 +78,7 @@
           6163
         ]
       ],
-      "name": "Schweiz (Stadt)",
+      "name": "Schweiz",
       "turboThreshold": 0
     },
     {
@@ -159,7 +159,7 @@
           466
         ]
       ],
-      "name": "Deutschland (Stadt)",
+      "name": "Deutschland",
       "turboThreshold": 0
     },
     {
@@ -240,7 +240,7 @@
           515
         ]
       ],
-      "name": "Italien (Stadt)",
+      "name": "Italien",
       "turboThreshold": 0
     },
     {
@@ -321,7 +321,7 @@
           1322
         ]
       ],
-      "name": "Türkei (Stadt)",
+      "name": "Türkei",
       "turboThreshold": 0
     },
     {
@@ -402,7 +402,7 @@
           695
         ]
       ],
-      "name": "EU-17 + EFTA  (Stadt)",
+      "name": "EU-17 + EFTA",
       "turboThreshold": 0
     },
     {
@@ -483,7 +483,7 @@
           368
         ]
       ],
-      "name": "EU-Ost (Stadt)",
+      "name": "EU-Ost",
       "turboThreshold": 0
     },
     {
@@ -564,7 +564,7 @@
           988
         ]
       ],
-      "name": "Balkan (Stadt)",
+      "name": "Balkan",
       "turboThreshold": 0
     },
     {
@@ -645,7 +645,7 @@
           284
         ]
       ],
-      "name": "Nord-, Mittel- und Südamerika (Stadt)",
+      "name": "Mittel- und Südamerika",
       "turboThreshold": 0
     },
     {
@@ -726,7 +726,7 @@
           960
         ]
       ],
-      "name": "Arabische Länder (Stadt)",
+      "name": "Arabische Länder",
       "turboThreshold": 0
     },
     {
@@ -807,7 +807,7 @@
           953
         ]
       ],
-      "name": "Afrikanische Länder (Stadt)",
+      "name": "Afrikanische Länder",
       "turboThreshold": 0
     },
     {
@@ -888,7 +888,7 @@
           853
         ]
       ],
-      "name": "Übrige Länder (Stadt)",
+      "name": "Übrige Länder",
       "turboThreshold": 0
     }
   ],
@@ -1019,9 +1019,6 @@
   },
   "legend": {
     "symbolRadius": 0,
-    "labelFormatter": function () {
-	        return this.name.slice(0, this.name.indexOf('(Stadt)'));
-	      },
     "enabled": true,
     "itemDistance": 3,
     "layout": "horizontal",

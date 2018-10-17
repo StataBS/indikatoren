@@ -352,6 +352,7 @@
       "format": "{value}%",
       "style": {
         "color": "#000000",
+        "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
       "type": "category",
