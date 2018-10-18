@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#CD9C00",
+      "color": "#7F5F1A",
       "visible": true,
       "data": [
         [
@@ -182,7 +182,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-15"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-18"
   },
   "legend": {
     "symbolRadius": 0,
