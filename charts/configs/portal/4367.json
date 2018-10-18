@@ -39,8 +39,7 @@
         "color": "#000000"
       }
     },
-    "tickLength": 0,
-    "tickInterval": 1
+    "tickLength": 0
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -73,8 +72,6 @@
             }
           }
     },
-    "marginBottom": 85,
-    "marginTop": 75,
     "type": "column",
     "renderTo": "container-4367",
     "spacingBottom": 60
@@ -85,16 +82,7 @@
       "dataLabels": {
         "style": {
           "fontSize": "10px"
-        },
-        "enabled": true,
-        "formatter": function () {
-            var last  = this.series.data[this.series.data.length - 1];
-            var first  = this.series.data[0];
-            if (this.point.x === first.x || this.point.x === last.x) {
-              return Highcharts.numberFormat(this.point.y, 2, ",", " ");
-            }
-            return "";
-          }
+        }
       }
     }
   },
@@ -154,14 +142,11 @@
       "x": 10,
       "y": -45
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik des jährlichen Bevölkerungsstandes, 1981-2010 (ESPOP).\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik des jährlichen Bevölkerungsstandes, 1981-2010 (ESPOP).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-18"
   },
   "legend": {
     "symbolRadius": 0,
     "enabled": false
-  },
-  "tooltip": {
-    "shared": false
   },
   "exporting": {
     "filename": 4367
