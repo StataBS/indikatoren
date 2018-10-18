@@ -111,7 +111,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von\u003Cbr\u002F\u003E 100 000 Fr.; 2017",
+    "text": "Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von 100 000 Fr., 2017",
     "align": "left"
   },
   "yAxis": {
@@ -151,7 +151,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-9"
+    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-17"
   },
   "legend": {
     "symbolRadius": 0,

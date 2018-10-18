@@ -13,7 +13,7 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "index": 0,
       "color": "#FF8028"
@@ -23,17 +23,16 @@
     "series": {
       "dataLabels": {
               "y": 25,
-              "enabled": true,
+              "enabled": false,
                 //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
-                formatter: function() {
-                  var first = this.series.data[0];
-                  var last  = this.series.data[this.series.data.length - 1];
-                  if (this.x === first.x || this.x === last.x) {
-                    return Highcharts.numberFormat(this.y, 0  , ",", " ");
+              //  formatter: function() {
+               //   var first = this.series.data[0];
+                //  var last  = this.series.data[this.series.data.length - 1];
+                  //if (this.x === first.x || this.x === last.x) {
+                    //return Highcharts.numberFormat(this.y, 0  , ",", " ");
                   }
                 } 
       }
     }
   }
-	}
-}());
+	());

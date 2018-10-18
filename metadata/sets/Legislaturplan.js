@@ -371,7 +371,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bruttoinlandprodukt in Franken pro Einwohner",
-		"subtitle": "nach Kanton",
+		"subtitle": "in ausgewählten Kantonen",
 		"kuerzel": "I.04.1.6124",
 		"kuerzelKunde": "2.1",
 		"description": "Bruttoinlandprodukt in Franken pro Einwohner",
@@ -381,7 +381,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-10T10:42:58.5858",
+		"aktualisierungsdatum": "2018-10-17T17:18:04.044",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -710,7 +710,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"subtitle": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von <br/> 100 000 Fr., 2017",
+		"subtitle": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Fr., 2017",
 		"kuerzel": "I.18.2.6134",
 		"kuerzelKunde": "2.12a",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -720,7 +720,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-09T09:51:58.5858",
+		"aktualisierungsdatum": "2018-10-17T16:58:43.4343",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1497,7 +1497,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
-		"subtitle": "in Mio. kWh, Basel-Stadt",
+		"subtitle": "in GWh, Basel-Stadt",
 		"kuerzel": "I.08.1.6160",
 		"kuerzelKunde": "7.1",
 		"description": "Endenergieverbrauch nach Verbrauchergruppe",
@@ -1507,14 +1507,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T17:04:30.3030",
+		"aktualisierungsdatum": "2018-10-17T16:25:57.5757",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2016 um 15,6% auf 4 668 Mio. kWh abgenommen. Der Rückgang verteilt sich in etwa gleichmässig auf die Verbrauchergruppen Wohnen und Nichtwohnen und ist primär der milden Witterung geschuldet. Das Jahr 2016 hatte rund 8,1% weniger Heizgradtage als das Jahr 2010.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2016 um 15,6% auf 4 668 GWh abgenommen. Der Rückgang verteilt sich in etwa gleichmässig auf die Verbrauchergruppen Wohnen und Nichtwohnen und ist primär der milden Witterung geschuldet. Das Jahr 2016 hatte rund 8,1% weniger Heizgradtage als das Jahr 2010.",
+		"erlaeuterungen": "Der Endenergieverbrauch ist die Energiemenge, welche die Endverbraucher an ihrer Parzellengrenze beziehen. Diese kann direkt vom Energielieferanten stammen, aus einer Umwandlungsstufe kommen oder direkt der Natur für den Eigenbedarf entnommen sein.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2584,7 +2584,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"subtitle": "Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von<br/> 100 000 Fr.; 2017",
+		"subtitle": "Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von 100 000 Fr., 2017",
 		"kuerzel": "I.18.2.6239",
 		"kuerzelKunde": "2.12b",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -2594,7 +2594,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-09T09:52:37.3737",
+		"aktualisierungsdatum": "2018-10-17T16:58:43.4343",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2621,7 +2621,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"subtitle": "Ledige mit einem Bruttoarbeitseinkommen von 100 000 Fr.; 2017",
+		"subtitle": "Ledige mit einem Bruttoarbeitseinkommen von 100 000 Fr., 2017",
 		"kuerzel": "I.18.2.6240",
 		"kuerzelKunde": "2.12c",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -2631,7 +2631,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-10T11:04:37.3737",
+		"aktualisierungsdatum": "2018-10-17T16:58:43.4343",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
