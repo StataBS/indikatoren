@@ -5942,26 +5942,28 @@ var indikatoren = [
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Anzahl Betreibungen seit 1974",
-		"subtitle": "",
-		"kuerzel": "I.06.3.04912",
+		"title": "Anzahl Betreibungen",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.06.3.4912",
 		"kuerzelKunde": "",
-		"description": "Anzahl Betreibungen seit 1974",
+		"description": "Anzahl Betreibungen",
 		"thema": "06 Produktion, Handel",
 		"unterthema": "Betreibungen und Konkurse",
 		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-17T17:30:20.2020",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit den 1990er-Jahren hat sich die Anzahl Betreibungen im Kanton Basel-Stadt von 40 000 auf knapp 80 000 Fälle im Jahr verdoppelt.",
+		"lesehilfe": "Die Anzahl der Betreibungen im Kanton Basel-Stadt hat sich in den vergangenen Jahrzehnten erhöht und beträgt aktuell 71 000.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
@@ -5973,8 +5975,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 4912,
-		"darstellungsart": "Grafik"
+		"id": 4912
 	},
 	{
 		"title": "Wert der Ein- und Ausfuhren nach resp. aus Basel-Stadt",
@@ -6164,41 +6165,6 @@ var indikatoren = [
 			""
 		],
 		"id": 4919,
-		"darstellungsart": "Grafik"
-	},
-	{
-		"title": "Anzahl Gewaltstraftaten pro 100000 Einwohner",
-		"subtitle": "",
-		"kuerzel": "I.19.3.04923",
-		"kuerzelKunde": "",
-		"description": "Anzahl Gewaltstraftaten pro 100000 Einwohner",
-		"thema": "19 Rechtspflege",
-		"unterthema": "Strafvollzug",
-		"kennzahlenset": "",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Zahl der Gewaltstraftaten (vorsätzliche Tötungs- und Körperverletzungsdelikte, Raub, Vergewaltigung) pro 100 000 Einwohner der mittleren Wohnbevölkerung ging von 2005 bis 2007 zurück. Danach stieg die Zahl bis zum Jahr 2011 kontinuierlich. Seither wird wieder ein Rückgang verzeichnet.",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4923,
 		"darstellungsart": "Grafik"
 	},
 	{
@@ -10477,7 +10443,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bruttoinlandprodukt in Franken pro Einwohner",
-		"subtitle": "nach Kanton",
+		"subtitle": "in ausgewählten Kantonen",
 		"kuerzel": "I.04.1.6124",
 		"kuerzelKunde": "2.1",
 		"description": "Bruttoinlandprodukt in Franken pro Einwohner",
@@ -10487,7 +10453,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-10T10:42:58.5858",
+		"aktualisierungsdatum": "2018-10-17T17:18:04.044",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -10789,7 +10755,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"subtitle": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von <br/> 100 000 Fr., 2017",
+		"subtitle": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Fr., 2017",
 		"kuerzel": "I.18.2.6134",
 		"kuerzelKunde": "2.12a",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -10799,7 +10765,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-09T09:51:58.5858",
+		"aktualisierungsdatum": "2018-10-17T16:58:43.4343",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -12759,7 +12725,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"subtitle": "Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von<br/> 100 000 Fr.; 2017",
+		"subtitle": "Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von 100 000 Fr., 2017",
 		"kuerzel": "I.18.2.6239",
 		"kuerzelKunde": "2.12b",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -12769,7 +12735,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-09T09:52:37.3737",
+		"aktualisierungsdatum": "2018-10-17T16:58:43.4343",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -12797,7 +12763,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"subtitle": "Ledige mit einem Bruttoarbeitseinkommen von 100 000 Fr.; 2017",
+		"subtitle": "Ledige mit einem Bruttoarbeitseinkommen von 100 000 Fr., 2017",
 		"kuerzel": "I.18.2.6240",
 		"kuerzelKunde": "2.12c",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -12807,7 +12773,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-10T11:04:37.3737",
+		"aktualisierungsdatum": "2018-10-17T16:58:43.4343",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",

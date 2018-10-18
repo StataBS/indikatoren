@@ -351,7 +351,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Kanton",
+    "text": "in ausgewählten Kantonen",
     "align": "left"
   },
   "tooltip": {
@@ -402,7 +402,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-10"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-17"
   },
   "legend": {
     "enabled": true,
