@@ -278,7 +278,7 @@ id | visible | visibleInPortal | indikatorenset
 4918 | true | true | 
 4919 | true | true | 
 4920 | false |  | Archiv
-4923 | true | true | 
+4923 | false |  | 
 4931 | true | true | Gesellschaftlicher-Zusammenhalt
 4932 | true | true | Gesellschaftlicher-Zusammenhalt
 4933 | true | true | Gesellschaftlicher-Zusammenhalt
