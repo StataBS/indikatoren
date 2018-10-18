@@ -17,12 +17,11 @@
     }
   ],
   "tooltip": {
+    valueDecimals: 1,
     "shared": false
   },
   "chart": {
-    "marginBottom": 65,
-    "marginTop": 75,
     "type": "column"
   }
-	}
+	};
 }());

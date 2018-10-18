@@ -74,8 +74,6 @@
             }
           }
     },
-    "marginBottom": 75,
-    "marginTop": 75,
     "type": "column",
     "renderTo": "container-6176",
     "spacingBottom": 50
@@ -86,16 +84,7 @@
       "dataLabels": {
         "style": {
           "fontSize": "10px"
-        },
-        "enabled": false,
-        "formatter": function () {
-            var last  = this.series.data[this.series.data.length - 1];
-            var first  = this.series.data[0];
-            if (this.point.y === first.y || this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 1, ",", " ");
-            }
-            return "";
-          }
+        }
       }
     }
   },

@@ -74,8 +74,6 @@
             }
           }
     },
-    "marginBottom": 65,
-    "marginTop": 75,
     "type": "column",
     "renderTo": "container-4868",
     "spacingBottom": 50
@@ -170,6 +168,7 @@
     "enabled": false
   },
   "tooltip": {
+    "valueDecimals": 1,
     "shared": false
   },
   "exporting": {

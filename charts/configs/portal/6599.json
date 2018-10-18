@@ -933,9 +933,7 @@
       "fontFamily": "Arial"
     },
     "type": "column",
-    "renderTo": "container-6599",
-    "marginBottom": 75,
-    "inverted": false
+    "renderTo": "container-6599"
   },
   "title": {
     "style": {
@@ -1013,11 +1011,6 @@
       "pointPadding": 100,
       "borderWidth": 0,
       "pointWidth": 10,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
       "stacking": "normal"
     }
   },
