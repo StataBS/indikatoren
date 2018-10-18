@@ -8176,30 +8176,35 @@ var indikatoren = [
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"subtitle": "",
-		"kuerzel": "I.19.1.04866",
+		"title": "Angezeigte Straftaten betreffend Strafgesetzbuch",
+		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
+		"kuerzel": "I.19.1.4866",
 		"kuerzelKunde": "3.2.01",
-		"description": "Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren",
+		"description": "Angezeigte Straftaten betreffend Strafgesetzbuch",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-18T15:58:47.4747",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der angezeigten Straftaten pro 1000 Einwohner ab 18 Jahren war von 2008 bis 2010 relativ stabil, sie bewegte sich zwischen 121,2 und 125,3. Danach stieg die Quote und erreichte 2012 163,5. Die beiden letzten Jahre zeigen nun wieder einen Rückgang der Anzahl Straftaten pro 1000 Einwohner.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Jahr 2017 wurden pro 1000 Einwohner 130,1 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), berechnet auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6176",
+			"6323"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -8208,30 +8213,31 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 4866,
-		"darstellungsart": "Grafik"
+		"id": 4866
 	},
 	{
-		"title": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"subtitle": "",
-		"kuerzel": "I.19.1.04867",
+		"title": "Angezeigte Straftaten betreffend Veruntreuung/Betrug",
+		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
+		"kuerzel": "I.19.1.4867",
 		"kuerzelKunde": "3.2.02",
-		"description": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
+		"description": "Angezeigte Straftaten betreffend Veruntreuung/Betrug",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-18T15:58:47.4747",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Quote erhöhte sich zwischen 2008 und 2009 von 4,5 auf 5,5. In den beiden folgenden Jahre ging sie zurück. Seit 2012 steigt sie in der Tendenz erneut, 2014 wurden pro 1000 18-Jährige und Ältere 6,6 Anzeigen wegen Veruntreuung und Betrug erfasst.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Jahr 2017 wurden auf 1000 Einwohner 6,1 Anzeigen wegen Veruntreuung oder Betrug erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Veruntreuung oder Betrug (Art. 138 und 142). Berechnet auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
@@ -8244,30 +8250,31 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 4867,
-		"darstellungsart": "Grafik"
+		"id": 4867
 	},
 	{
-		"title": "Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl/-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"subtitle": "",
-		"kuerzel": "I.19.1.04868",
+		"title": "Angezeigte Straftaten betreffend Diebstahl",
+		"subtitle": "ohne Fahrzeugdiebstahl und -entwendung, pro 1000 Einwohner, Basel-Stadt",
+		"kuerzel": "I.19.1.4868",
 		"kuerzelKunde": "3.2.03",
-		"description": "Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl/-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren",
+		"description": "Angezeigte Straftaten betreffend Diebstahl",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-18T15:58:47.4747",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Quote bewegte sich in den Jahren 2008 bis 2011 zwischen rund 61 und 66. 2012 wurden mit 86 deutlich mehr Anzeigen pro 1000 18-jährige und ältere Einwohner erfasst. Danach ging die Anzeigenquote wegen Diebstahl wieder zurück, im Jahr 2014 lag sie noch bei etwa 63.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Jahr 2017 wurden auf 1000 Einwohner 35,4 Anzeigen wegen Diebstahl erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Diebstahl (Art. 139). Berechnet auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
@@ -8280,30 +8287,31 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 4868,
-		"darstellungsart": "Grafik"
+		"id": 4868
 	},
 	{
-		"title": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
-		"subtitle": "",
-		"kuerzel": "I.19.1.04869",
+		"title": "Angezeigte Straftaten betreffend Körperverletzung",
+		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
+		"kuerzel": "I.19.1.4869",
 		"kuerzelKunde": "3.2.04",
-		"description": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
+		"description": "Angezeigte Straftaten betreffend Körperverletzung",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-18T15:58:47.4747",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Anzeigen wegen Körperverletzung pro 1000 Einwohner ab 18 Jahren erhöhte sich von 2008 bis 2011 kontinuierlich auf 3,9. In der Folge sank diese Quote wieder, 2014 lag sie bei 3,0.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Jahr 2017 wurden auf 1000 Einwohner 2,5 Anzeigen wegen Körperverletzung ersattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Körperverletzung (Art. 122). Berechnet auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
@@ -8316,8 +8324,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 4869,
-		"darstellungsart": "Grafik"
+		"id": 4869
 	},
 	{
 		"title": "Engagement in Organisationen und Vereinen",
@@ -14784,13 +14791,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-08T12:05:40.4040",
+		"aktualisierungsdatum": "2018-10-18T17:03:45.4545",
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Ertrag aus der Quellenbesteuerung steigt seit vielen Jahren kontinuierlich. Zuletzt lag er bei über 400 Mio. Franken.",
+		"lesehilfe": "Der Ertrag aus der Quellenbesteuerung steigt seit vielen Jahren kontinuierlich. Zuletzt lag er bei 439 Mio. Franken.",
 		"erlaeuterungen": "Der Ertrag aus der Quellenbesteuerung ist hier gemäss Steuerstatistik Basel-Stadt nach Steuerjahr dargestellt. Er unterscheidet sich vom Ertrag nach Kalenderjahr, wie er im Jahresbericht des Kantons Basel-Stadt dargestellt ist. Enthalten ist auch der Anteil, der an den Bund fliesst.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -16242,43 +16249,41 @@ var indikatoren = [
 		"id": 6175
 	},
 	{
-		"title": "Anzahl Straftaten nach StGB pro 1000 Einwohner",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.19.1.6176",
+		"title": "Angezeigte Straftaten betreffend Strafgesetzbuch",
+		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
+		"kuerzel": "I.19.1.06176",
 		"kuerzelKunde": "10.1",
-		"description": "Anzahl Straftaten nach StGB pro 1000 Einwohner",
+		"description": "Angezeigte Straftaten betreffend Strafgesetzbuch",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T11:39:46.4646",
+		"aktualisierungsdatum": "2018-10-18T15:58:47.4747",
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl Straftaten nach Strafgesetzbuch pro 1000 Einwohner beträgt 2017 etwas mehr als 110. Im Jahr 2012 lag der Wert über 140 und damit am höchsten innerhalb des beobachteten Zeitraums.",
-		"erlaeuterungen": "Auf die ständige Wohnbevölkerung am Hauptwohnsitz am Jahresende berechnet. Wohnbevölkerung: Vorjahreszahlen.",
-		"template": "line001",
+		"lesehilfe": "Im Jahr 2017 wurden pro 1000 Einwohner 130,1 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), berechnet auf die ständige Wohnbevölkerung am Jahresende.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "10_00_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"6323"
-		],
+		"parentId": 4866,
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)",
-			"Polizeiliche Kriminalitätsstatistk (PKS)"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
 		"externalLinks": [
 			""
 		],
-		"id": 6176,
-		"darstellungsart": "Grafik"
+		"id": 6176
 	},
 	{
 		"title": "Anzahl Strassenverkehrsunfälle",
@@ -26802,7 +26807,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anzahl Ausländer nach Staatsangehörigkeit",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.1.06599",
 		"kuerzelKunde": "BE1",
 		"description": "Anzahl Ausländer nach Staatsangehörigkeit",
@@ -26812,21 +26817,21 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-18T17:09:42.4242",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2016 bildeten die Deutschen mit 16 066 Personen die grösste Bevölkerungsgruppe im Kanton. Ihre Anzahl ist seit 2002 kontinuierlich gestiegen. Diesem Anstieg steht ein Rückgang der Anzahl Italiener, Türken und Personen aus dem Balkan gegenüber, wobei die Anzahl Italiener seit 2013 wieder leicht zugenommen hat.",
+		"lesehilfe": "Ende 2017 bildeten die Deutschen mit 16 189 Personen die grösste Bevölkerungsgruppe im Kanton. Ihre Anzahl ist seit 2002 kontinuierlich gestiegen. Diesem Anstieg steht ein Rückgang der Anzahl Italiener, Türken und Personen aus dem Balkan gegenüber, wobei die Anzahl Italiener seit 2013 wieder leicht zugenommen hat.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_101",
-		"parentId": null,
-		"children": [
-			"6059"
-		],
+		"parentId": 6059,
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -26834,8 +26839,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6599,
-		"darstellungsart": "Grafik"
+		"id": 6599
 	},
 	{
 		"title": "Mietpreisunterschiede nach Wohnviertel gemäss Mietpreisraster",

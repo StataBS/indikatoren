@@ -494,13 +494,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-08T12:05:40.4040",
+		"aktualisierungsdatum": "2018-10-18T17:03:45.4545",
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Ertrag aus der Quellenbesteuerung steigt seit vielen Jahren kontinuierlich. Zuletzt lag er bei über 400 Mio. Franken.",
+		"lesehilfe": "Der Ertrag aus der Quellenbesteuerung steigt seit vielen Jahren kontinuierlich. Zuletzt lag er bei 439 Mio. Franken.",
 		"erlaeuterungen": "Der Ertrag aus der Quellenbesteuerung ist hier gemäss Steuerstatistik Basel-Stadt nach Steuerjahr dargestellt. Er unterscheidet sich vom Ertrag nach Kalenderjahr, wie er im Jahresbericht des Kantons Basel-Stadt dargestellt ist. Enthalten ist auch der Anteil, der an den Bund fliesst.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -1914,42 +1914,40 @@ var indikatorensetData = [
 		"id": 6175
 	},
 	{
-		"title": "Anzahl Straftaten nach StGB pro 1000 Einwohner",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.19.1.6176",
+		"title": "Angezeigte Straftaten betreffend Strafgesetzbuch",
+		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
+		"kuerzel": "I.19.1.06176",
 		"kuerzelKunde": "10.1",
-		"description": "Anzahl Straftaten nach StGB pro 1000 Einwohner",
+		"description": "Angezeigte Straftaten betreffend Strafgesetzbuch",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T11:39:46.4646",
+		"aktualisierungsdatum": "2018-10-18T15:58:47.4747",
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl Straftaten nach Strafgesetzbuch pro 1000 Einwohner beträgt 2017 etwas mehr als 110. Im Jahr 2012 lag der Wert über 140 und damit am höchsten innerhalb des beobachteten Zeitraums.",
-		"erlaeuterungen": "Auf die ständige Wohnbevölkerung am Hauptwohnsitz am Jahresende berechnet. Wohnbevölkerung: Vorjahreszahlen.",
-		"template": "line001",
+		"lesehilfe": "Im Jahr 2017 wurden pro 1000 Einwohner 130,1 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), berechnet auf die ständige Wohnbevölkerung am Jahresende.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "10_00_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"6323"
-		],
+		"parentId": 4866,
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)",
-			"Polizeiliche Kriminalitätsstatistk (PKS)"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
 		"externalLinks": [
 			""
 		],
-		"id": 6176,
-		"darstellungsart": "Grafik"
+		"id": 6176
 	},
 	{
 		"title": "Anzahl Strassenverkehrsunfälle",
