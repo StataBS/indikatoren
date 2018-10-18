@@ -5,11 +5,6 @@
       pointPadding: 100,
       borderWidth: 0,
       "pointWidth": 10,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
       "stacking": "normal"
     }
   },
@@ -46,16 +41,11 @@
   {"color": "#999999", index: 0, legendIndex: 9}, /*Übrige Länder*/
 ],
   "chart": {
-    "renderTo": 'container-I.01.1.0016', 
-    "marginBottom": 75,
-    //"marginTop": 75,
     "type": "column",
-    "inverted": false
   },
   "tooltip": {
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
   //"footerFormat": 'Total: <b>{point.total:,.0f}</b>',
-   "shared": false
   },
-}
+};
 }());
