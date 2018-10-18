@@ -8,6 +8,7 @@
         }
   },
   "yAxis": {
+      tickInterval: 2000,
     "labels": {
       "format": "{value:,.0f}",
        "formatter": function(){
@@ -17,25 +18,19 @@
   },
   "xAxis": {
   	"type": "category",
-   "tickInterval": 1,
+    "tickInterval": 1,
           "labels": {
           	step: 1,
-            //"rotation": 0,
-            //"rotation": -90,
         }  
   },
  "legend": { 
-     //y: 45,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "itemStyle": {
-    "fontWeight": "normal"
-    }
+    padding: 0,
+    itemDistance: 2,
   },
-
-
  "series": [
 	 {"color": "#E7CEE2", index: 15}, /* */
 	 {"color": "#923F8D", index: 14}, /* */
@@ -57,9 +52,9 @@
     },
   },  
   "chart": {
-  	height: 600,
+  	//height: 600,
   	type: "column",
-    "inverted": false,
+    inverted: false,
   }
 };
 }());

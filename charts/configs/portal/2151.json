@@ -661,7 +661,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 613,
+    "height": 428,
     "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
@@ -714,7 +714,8 @@
       "formatter": function (){
         return Highcharts.numberFormat((this.value),0)+''; 
       }
-    }
+    },
+    "tickInterval": 2000
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -730,7 +731,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-18"
   },
   "legend": {
     "enabled": true,
@@ -740,7 +741,9 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "padding": 0,
+    "itemDistance": 2
   },
   "plotOptions": {
     "series": {
