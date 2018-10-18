@@ -380,7 +380,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
-		"subtitle": "pro Kopf in Franken",
+		"subtitle": "pro Kopf in Franken, Basel-Stadt",
 		"kuerzel": "I.04.1.05161",
 		"kuerzelKunde": "SH2",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
@@ -390,15 +390,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-13T17:07:19.1919",
+		"aktualisierungsdatum": "2018-10-18T11:44:47.4747",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Finanzhaushalt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2008 erhöht. Den höchsten Anteil an den Gesamtausgaben hat die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Der hohe Wert von «Allgemeine Verwaltung» 2008 ist auf die Ausfinanzierung der Deckungslücke der Pensionskasse zurückzuführen.",
+		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2008 erhöht. Den höchsten Anteil an den Gesamtausgaben hat 2016 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Allgemeine Verwaltung». Die erhöhten Werte von «Allgemeine Verwaltung» 2008 und 2016 stehen jeweils in erster Linie mit der Pensionskassenreform in Zusammenhang.",
 		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössischen Finanzverwaltung (EFV) wegen des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept an, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_01_00_00_00_202",
 		"parentId": 6131,
 		"children": [],
@@ -409,8 +411,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5161,
-		"darstellungsart": "Grafik"
+		"id": 5161
 	},
 	{
 		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",

@@ -595,8 +595,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
-		"subtitle": "pro Kopf in Franken",
-		"kuerzel": "I.04.1.06131",
+		"subtitle": "pro Kopf in Franken, Basel-Stadt",
+		"kuerzel": "I.04.1.6131",
 		"kuerzelKunde": "2.8",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
 		"thema": "04 Volkswirtschaft",
@@ -605,25 +605,30 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-18T11:44:06.066",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2008 erhöht. Den höchsten Anteil an den Gesamtausgaben hat die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Der hohe Wert von «Allgemeine Verwaltung» 2008 ist auf die Ausfinanzierung der Deckungslücke der Pensionskasse zurückzuführen.",
+		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2008 erhöht. Den höchsten Anteil an den Gesamtausgaben hat 2016 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Allgemeine Verwaltung». Die erhöhten Werte von «Allgemeine Verwaltung» 2008 und 2016 stehen jeweils in erster Linie mit der Pensionskassenreform in Zusammenhang.",
 		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössischen Finanzverwaltung (EFV) wegen des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept an, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_00_00_00_00_008",
 		"parentId": null,
 		"children": [
 			"5161",
-			"5193",
 			"6138",
 			"6170",
 			"6172",
 			"6184",
-			"6288"
+			"6288",
+			"6294",
+			"6319",
+			"6320",
+			"6330"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -632,8 +637,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6131,
-		"darstellungsart": "Grafik"
+		"id": 6131
 	},
 	{
 		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
@@ -1803,7 +1807,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
-		"subtitle": "pro Kopf in Franken",
+		"subtitle": "pro Kopf in Franken, Basel-Stadt",
 		"kuerzel": "I.04.1.06172",
 		"kuerzelKunde": "9.2",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
@@ -1813,20 +1817,20 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-18T11:46:02.022",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Funktion Gesundheit hat einen Anteil von 12,3% am Ausgabentotal 2016. Pro Kopf betragen die Ausgaben 3 094 Franken, 0,8% weniger als im Jahr 2008.",
+		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2008 erhöht. Den höchsten Anteil an den Gesamtausgaben hat 2016 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Allgemeine Verwaltung». Die erhöhten Werte von «Allgemeine Verwaltung» 2008 und 2016 stehen jeweils in erster Linie mit der Pensionskassenreform in Zusammenhang.",
 		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössischen Finanzverwaltung (EFV) wegen des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept an, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "09_00_00_00_00_002",
 		"parentId": 6131,
-		"children": [
-			"6320"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
@@ -1834,8 +1838,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6172,
-		"darstellungsart": "Grafik"
+		"id": 6172
 	},
 	{
 		"title": "Bezügerinnen und Bezüger von Prämienverbilligung",
@@ -2144,7 +2147,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
-		"subtitle": "pro Kopf in Franken",
+		"subtitle": "pro Kopf in Franken, Basel-Stadt",
 		"kuerzel": "I.04.1.06184",
 		"kuerzelKunde": "11.5",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
@@ -2154,20 +2157,20 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-18T11:45:17.1717",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Funktion Soziale Sicherheit hat einen Anteil von 18,1% am Ausgabentotal 2016. Pro Kopf betragen die Ausgaben 4 557 Franken. Seit 2008 ist dieser Betrag um über 20% gestiegen.",
+		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2008 erhöht. Den höchsten Anteil an den Gesamtausgaben hat 2016 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Allgemeine Verwaltung». Die erhöhten Werte von «Allgemeine Verwaltung» 2008 und 2016 stehen jeweils in erster Linie mit der Pensionskassenreform in Zusammenhang.",
 		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössischen Finanzverwaltung (EFV) wegen des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept an, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "11_00_00_00_00_005",
 		"parentId": 6131,
-		"children": [
-			"6330"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
@@ -2175,8 +2178,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6184,
-		"darstellungsart": "Grafik"
+		"id": 6184
 	},
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
