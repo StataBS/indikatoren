@@ -350,7 +350,7 @@ var indikatorensetData = [
 	{
 		"title": "Einbruchdiebstähle",
 		"subtitle": "pro 1000 Einwohner in der Stadt Basel",
-		"kuerzel": "I.19.3.04367",
+		"kuerzel": "I.19.3.4367",
 		"kuerzelKunde": "G04",
 		"description": "Einbruchdiebstähle",
 		"thema": "19 Rechtspflege",
@@ -359,7 +359,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-18T18:11:26.2626",
 		"stufe1": "Gesellschaft",
 		"stufe2": "G4: Sicherheit",
 		"stufe3": "",
@@ -368,6 +368,8 @@ var indikatorensetData = [
 		"lesehilfe": "Die Anzahl Einbruchdiebstähle in der Stadt Basel lag 2015 bei 3,79 pro 1000 Einwohnern.",
 		"erlaeuterungen": "Anzahl der von der Polizei pro 1000 Einwohner (ständige Wohnbevölkerung am 31.&nbsp;Dezember) und Jahr registrierten Einbruchdiebstähle (inkl. Versuche) in Ein- und Mehrfamilienhäuser. Die Einbruchdiebstähle in Keller, Speicher und weitere Nebenräume sind eingeschlossen (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "03_43_00_00_00_540",
 		"parentId": null,
 		"children": [],
@@ -380,8 +382,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4367,
-		"darstellungsart": "Grafik"
+		"id": 4367
 	},
 	{
 		"title": "Familienergänzendes Kinderbetreuungsangebot",
