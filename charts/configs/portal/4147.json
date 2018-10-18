@@ -59,6 +59,10 @@
         [
           2014,
           4.1
+        ],
+        [
+          2015,
+          2.8
         ]
       ],
       "name": "Saldo in Mio. Franken"
@@ -185,7 +189,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-1-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-18"
   },
   "legend": {
     "symbolRadius": 0,
