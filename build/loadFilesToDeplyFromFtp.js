@@ -37,8 +37,8 @@ https.get(urlBase + "verzeichnis.txt", listOfCharts => {
                 console.log('checking out ' + row.Indikator + '.js and ' + row.Indikator + '.tsv from branch ' + row.Branch + '...');
                 var gitJsCommand = 'git checkout origin/issue-' + row.Branch + ' -- charts/templates/' + row.Indikator + '.js';
                 console.log(gitJsCommand);
-                child_process.exec(gitJsCommand);
-                child_process.exec('git checkout origin/issue-' + row.Branch + ' -- data/' + row.Indikator + '.tsv');
+                child_process.execSync(gitJsCommand);
+                child_process.execSync('git checkout origin/issue-' + row.Branch + ' -- data/' + row.Indikator + '.tsv');
             }
         });
         console.log('...done!');
