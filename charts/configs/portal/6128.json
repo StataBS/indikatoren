@@ -46,6 +46,10 @@
         [
           2016,
           405215788.1
+        ],
+        [
+          2017,
+          438781747
         ]
       ],
       "name": "Einnahmen aus Quellensteuer"
@@ -147,7 +151,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-8"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-18"
   },
   "legend": {
     "enabled": false,
