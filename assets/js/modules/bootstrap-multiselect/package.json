@@ -21,7 +21,7 @@
   "_resolved": "https://registry.npmjs.org/bootstrap-multiselect/-/bootstrap-multiselect-0.9.13-1.tgz",
   "_shasum": "2c57cee260b18d7f01a4edd9d65f25df0425fd2a",
   "_spec": "bootstrap-multiselect@0.9.13-1",
-  "_where": "/home/travis/build/statabs-test/indikatoren",
+  "_where": "/home/ubuntu/workspace",
   "author": {
     "name": "David Stutz"
   },

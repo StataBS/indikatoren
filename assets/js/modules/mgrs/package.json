@@ -21,7 +21,7 @@
   "_resolved": "https://registry.npmjs.org/mgrs/-/mgrs-1.0.0.tgz",
   "_shasum": "fb91588e78c90025672395cb40b25f7cd6ad1829",
   "_spec": "mgrs@1.0.0",
-  "_where": "/home/travis/build/statabs-test/indikatoren/node_modules/proj4",
+  "_where": "/home/ubuntu/workspace/node_modules/proj4",
   "author": {
     "name": "proj4 team"
   },

@@ -21,7 +21,7 @@
   "_resolved": "https://registry.npmjs.org/seedrandom/-/seedrandom-2.4.3.tgz",
   "_shasum": "2438504dad33917314bff18ac4d794f16d6aaecc",
   "_spec": "seedrandom@2.4.3",
-  "_where": "/home/travis/build/statabs-test/indikatoren",
+  "_where": "/home/ubuntu/workspace",
   "author": {
     "name": "David Bau"
   },
