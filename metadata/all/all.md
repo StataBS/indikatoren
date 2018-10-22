@@ -506,7 +506,7 @@ id | visible | visibleInPortal | indikatorenset
 6213 | true | true | Legislaturplan
 6214 | true | true | Richtplan
 6215 | true | true | Richtplan
-6216 | true | true | Richtplan
+6216 | true | false | Richtplan
 6217 | true | true | Richtplan
 6218 | true | true | Richtplan
 6220 | true | true | Richtplan
