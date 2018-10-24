@@ -43,17 +43,14 @@
     }
   },
  "series": [
-  {"color": "#083038", "index": 0, "legendIndex":0}, /*gelb*/
-  {"color": "#246370", "index": 1, "legendIndex":1}, /*blau1*/
-  {"color": "#689199", "index": 2, "legendIndex":2}, /*blau2*/
-  {"color": "#A8C3CA", "index": 3, "legendIndex":3}, /*blau3*/
-  {"color": "#D3E2E4", "index": 4, "legendIndex":4}, /*blau4*/
-  {"color": "#FABD24", "index": 5, "legendIndex":5}, /*blau5*/
+  {"color": "#083038", "index": 5, "legendIndex":0}, /*gelb*/
+  {"color": "#246370", "index": 4, "legendIndex":1}, /*blau1*/
+  {"color": "#689199", "index": 3, "legendIndex":2}, /*blau2*/
+  {"color": "#A8C3CA", "index": 2, "legendIndex":3}, /*blau3*/
+  {"color": "#D3E2E4", "index": 1, "legendIndex":4}, /*blau4*/
+  {"color": "#FABD24", "index": 0, "legendIndex":5}, /*blau5*/
   ],
   "chart": {
-    //"renderTo": 'container-I.01.1.0016', 
-    "marginBottom": 75,
-    //"marginTop": 75,
     "type": "column",
     "inverted": true,
      marginLeft: 70, 

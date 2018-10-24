@@ -1,7 +1,7 @@
 var indikatorensetData = [
 	{
 		"title": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
-		"subtitle": "Basel-Stadt im nationalen Vergleich, 2017",
+		"subtitle": "Basel-Stadt im Vergleich mit der Schweiz und ausgewählten Kantonen, 2017",
 		"kuerzel": "I.04.1.2501",
 		"kuerzelKunde": "2.2",
 		"description": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
@@ -12,7 +12,7 @@ var indikatorensetData = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2018-10-10T10:46:30.3030",
+		"aktualisierungsdatum": "2018-10-23T13:41:30.3030",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -32,9 +32,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 2501,
+		"chart-id": 2501,
+		"filter": "",
 		"id": 2501
 	},
 	{
@@ -112,7 +116,7 @@ var indikatorensetData = [
 	{
 		"title": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
 		"subtitle": "«Wie zufrieden sind Sie mit der Gesundheitsversorgung?»",
-		"kuerzel": "I.50.1.02956",
+		"kuerzel": "I.50.1.2956",
 		"kuerzelKunde": "9.4",
 		"description": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
 		"thema": "50 Befragungen",
@@ -121,15 +125,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-12-14T12:19:48.4848",
+		"aktualisierungsdatum": "2018-10-23T12:18:26.2626",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "96,6% der Befragten sind sehr oder eher zufrieden mit der Gesundheitsversorgung. Die Zufriedenheit mit der Gesundheitsversorgung unterscheidet sich nach Geschlecht und Herkunft nicht. Ein Unterschied besteht bei den Altersgruppen. Bei den 30- bis 39-Jährigen ist die Zufriedenheit mit 91,3% am tiefsten.",
-		"erlaeuterungen": "Für die Zufriedenheit werden die Antwortkategorien \"Sehr zufrieden\" und \"Eher zufrieden\" zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
+		"erlaeuterungen": "Für die Zufriedenheit werden die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "09_00_00_00_00_004",
 		"parentId": null,
 		"children": [
@@ -139,11 +145,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_8"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2956,
-		"darstellungsart": "Grafik"
+		"data-id": 2956,
+		"chart-id": 2956,
+		"filter": "",
+		"id": 2956
 	},
 	{
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
@@ -184,7 +193,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Durch BaselArea unterstützte internationale Ansiedlungen",
-		"subtitle": "in BS, BL, JU",
+		"subtitle": "in den Kantonen Basel-Stadt, Basel-Landschaft und Jura",
 		"kuerzel": "I.04.1.3086",
 		"kuerzelKunde": "2.4",
 		"description": "Durch BaselArea unterstützte internationale Ansiedlungen",
@@ -194,7 +203,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-02T10:51:44.4444",
+		"aktualisierungsdatum": "2018-10-23T13:42:39.3939",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -214,14 +223,18 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"BaselArea"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 3086,
+		"chart-id": 3086,
+		"filter": "",
 		"id": 3086
 	},
 	{
 		"title": "Globale und kontinentale Erreichbarkeit",
-		"subtitle": "Stadt Basel im nationalen Vergleich",
+		"subtitle": "Stadt Basel im Vergleich mit ausgewählten Schweizer Städten",
 		"kuerzel": "I.11.6.3104",
 		"kuerzelKunde": "5.1",
 		"description": "Globale und kontinentale Erreichbarkeit",
@@ -231,7 +244,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T09:58:51.5151",
+		"aktualisierungsdatum": "2018-10-23T13:52:40.4040",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -240,6 +253,7 @@ var indikatorensetData = [
 		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel und der anderen Schweizer Städten hat sich zwischen 1996 und 2016 verbessert, wobei sie in den letzten Jahren eher unverändert blieb. Die Stadt Zürich bewegt sich auf einem leicht höheren Niveau als Basel und Genf, die Erreichbarkeit der Stadt Bern liegt etwas darunter. Die Entwicklung bei der globalen Erreichbarkeit verläuft bei allen Städten parallel und mit wenig Veränderungen über die Jahre. Basel liegt bei diesem Indikator zusammen mit Genf und Bern unterhalb des Niveaus von Zürich.",
 		"erlaeuterungen": "Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002; globale Erreichbarkeit = Erreichbarkeit von Regionen ausserhalb Europas; kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Ihnen liegen Strassenerreichbarkeit, Bahnfahr- und Flugpläne zugrunde. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "05_00_00_00_00_001",
 		"parentId": null,
@@ -250,12 +264,15 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Weiterführende Informationen: <a href = 'https://www.bak-economics.com/en/solutions/regional-analysis/region-international/location-factors/erreichbarkeit/' target = '_blank'>BAK Economics</a> und",
 			"<a href = 'http://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/erreichbarkeit.html' target = '_blank'>Amt für Mobilität</a>"
 		],
-		"id": 3104,
-		"darstellungsart": "Grafik"
+		"data-id": 3104,
+		"chart-id": 3104,
+		"filter": "",
+		"id": 3104
 	},
 	{
 		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner",
@@ -371,7 +388,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bruttoinlandprodukt in Franken pro Einwohner",
-		"subtitle": "in ausgewählten Kantonen",
+		"subtitle": "Basel-Stadt im Vergleich mit ausgewählten Kantonen",
 		"kuerzel": "I.04.1.6124",
 		"kuerzelKunde": "2.1",
 		"description": "Bruttoinlandprodukt in Franken pro Einwohner",
@@ -381,7 +398,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-17T17:18:04.044",
+		"aktualisierungsdatum": "2018-10-23T13:39:39.3939",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -402,9 +419,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6124,
+		"chart-id": 6124,
+		"filter": "",
 		"id": 6124
 	},
 	{
@@ -1058,7 +1079,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T10:10:07.077",
+		"aktualisierungsdatum": "2018-10-23T13:46:59.5959",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1067,6 +1088,7 @@ var indikatorensetData = [
 		"lesehilfe": "In der Nordwestschweiz erreicht der Medianlohn der Frauen im Jahr 2016 rund 5 920 Franken. Dies entspricht 86% des Medianlohns der Männer (6 850 Fr.). Der Lohnunterschied hat sich gegenüber 2014 kaum verändert, ist jedoch geringer als vor 10 Jahren (2006 betrug das Lohnverhältnis rund 81%).",
 		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u.a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "04_00_00_00_00_006",
 		"parentId": 6037,
@@ -1075,11 +1097,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6147,
-		"darstellungsart": "Grafik"
+		"data-id": 6147,
+		"chart-id": 6147,
+		"filter": "",
+		"id": 6147
 	},
 	{
 		"title": "Arbeitnehmende in Leitungsfunktionen",
@@ -1348,7 +1373,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Jährlich durch Stau generierte Verzögerungszeit",
-		"subtitle": "Basel im nationalen Vergleich",
+		"subtitle": "Stadt Basel im Vergleich mit ausgewählten Schweizer Städten",
 		"kuerzel": "I.11.6.6156",
 		"kuerzelKunde": "5.4",
 		"description": "Jährlich durch Stau generierte Verzögerungszeit",
@@ -1358,14 +1383,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T16:14:41.4141",
+		"aktualisierungsdatum": "2018-10-23T11:28:19.1919",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Verzögerungszeit für den motorisierten Individualverkehr betrug in der Stadt Basel im Jahr 2016 rund 27%. Eine Verzögerungszeit von 27% bedeutet, dass eine durchschnittliche Reise 27% länger dauert, als dies unter staufreien Bedingungen der Fall wäre.",
-		"erlaeuterungen": "Die Zahlen basieren auf gesammelten Verkehrsdaten des Navigationsgeräte-Herstellers TomTom. Damit die urbanen Flächen für die der Index berechnet wird international vergleichbar sind, wurden sie von TomTom individuell definiert. Detaillierte Informationen zu den TomTom Staudaten und der angewandten Methodik sind hier zu finden: <br/>-  <a href='https://www.google.ch/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwi10_XS-c_XAhVS46QKHf26CBUQFggoMAA&url=http%3A%2F%2Fwww.congres-atecitsfrance.fr%2Fwp-content%2Fuploads%2F2013%2F12%2FCOHN_com085-Atelier-A7.pdf&usg=AOvVaw2VO2AxK37y7-LebxQcI6el' target='_blank'>TomTom Traffic Index: Toward a Global Measure  </a> <br/> -  <a href='https://www.tomtom.com/en_gb/trafficindex/about' target='_blank'>TomTom Traffic Index: About  </a> <br/>-  TomTom Traffic Index: <a href='https://www.tomtom.com/en_gb/trafficindex/city/basel' target='_blank'>Basel</a>, <a href='https://www.tomtom.com/en_gb/trafficindex/city/GNV' target='_blank'>Genf</a>, <a href='https://www.tomtom.com/en_gb/trafficindex/city/ZUR' target='_blank'>Zürich</a>, <a href='https://www.tomtom.com/en_gb/trafficindex/city/bern' target='_blank'>Bern</a>",
+		"erlaeuterungen": "Die Zahlen basieren auf gesammelten Verkehrsdaten des Navigationsgeräte-Herstellers TomTom. Damit die urbanen Flächen für die der Index berechnet wird international vergleichbar sind, wurden sie von TomTom individuell definiert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -1378,9 +1403,17 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"TomTom International"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Detaillierte Informationen zu den TomTom Staudaten und der angewandten Methodik sind hier zu finden: <a href = 'https://www.tomtom.com/en_gb/trafficindex/about' target = '_blank'>TomTom Traffic Index</a>.",
+			"Die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/basel' target = '_blank'>Basel</a>;",
+			"die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/GNV' target = '_blank'>Genf</a>;",
+			"die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/ZUR' target = '_blank'>Zürich</a>;",
+			"die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/bern' target = '_blank'>Bern</a>."
 		],
+		"data-id": 6156,
+		"chart-id": 6156,
+		"filter": "",
 		"id": 6156
 	},
 	{
@@ -1538,26 +1571,27 @@ var indikatorensetData = [
 		"id": 6160
 	},
 	{
-		"title": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
+		"title": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.08.3.6161",
 		"kuerzelKunde": "7.2",
-		"description": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
+		"description": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
 		"thema": "08 Energie",
 		"unterthema": "Erneuerbare",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-08-17T09:27:17.1717",
+		"aktualisierungsdatum": "2018-10-24T11:01:28.2828",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2010 lag der Anteil der erneuerbaren Energieträger bei 34,5%. Zwei Jahre später fiel der Wert mit 36,1% bereits höher aus. Im Jahr 2014  stammte 37,8% der Energie aus erneuerbaren Quellen, 2016 waren es bereits 38,8%.",
+		"lesehilfe": "Im Jahr 2010 lag der Anteil der erneuerbaren Energieträger bei 34,5%. Zwei Jahre später fiel der Wert mit 36,1% bereits höher aus. Im Jahr 2014  stammte 37,9% der Energie aus erneuerbaren Quellen, 2016 waren es bereits 38,8%.",
 		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Schlamm, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).<br><br>Die Summe der Verbräuche der erneuerbaren Energien wird durch den Gesamtenergieverbrauch dividiert.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "07_00_00_00_00_002",
 		"parentId": null,
@@ -1569,11 +1603,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6161,
-		"darstellungsart": "Grafik"
+		"data-id": 6161,
+		"chart-id": 6161,
+		"filter": "",
+		"id": 6161
 	},
 	{
 		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
@@ -2188,7 +2225,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-09T10:01:16.1616",
+		"aktualisierungsdatum": "2018-10-22T10:57:01.011",
 		"stufe1": "Ziel 12:  Der Service public ist modern und kundenfreundlich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2223,7 +2260,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-22T10:56:15.1515",
 		"stufe1": "Ziel 12:  Der Service public ist modern und kundenfreundlich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2232,11 +2269,11 @@ var indikatorensetData = [
 		"lesehilfe": "73,7% der befragten Personen schätzten 2015 ihren letzten Kontakt, den sie mit der Verwaltung des Kantons Basel-Stadt hatten, als positiv ein. Das sind 3,8 Prozentpunkte weniger als 2011, aber mehr als in der Befragung von 2007 (64,4%).",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "12_00_00_00_00_002",
 		"parentId": 4859,
-		"children": [
-			"6332"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F19a"
@@ -2244,8 +2281,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6186,
-		"darstellungsart": "Grafik"
+		"id": 6186
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
@@ -2692,7 +2728,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Medianprämie pro Prämienregion",
-		"subtitle": "in Franken, Basel-Stadt im kantonalen Vergleich",
+		"subtitle": "in Franken, Basel-Stadt im Vergleich mit ausgewählten Kantonen",
 		"kuerzel": "I.14.4.6346",
 		"kuerzelKunde": "9.1",
 		"description": "Medianprämie pro Prämienregion",
@@ -2702,7 +2738,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T15:59:20.2020",
+		"aktualisierungsdatum": "2018-10-23T12:19:46.4646",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2711,6 +2747,7 @@ var indikatorensetData = [
 		"lesehilfe": "In den teuersten Prämienregionen aller verglichenen Kantone steigen die Medianprämien seit 2010 setig an. Basel-Stadt liegt zusammen mit Genf an der Spitze dieser Rangliste.",
 		"erlaeuterungen": "Verglichen wird der Medianwert der Standardprämien aller Versicherer in den Vergleichskantonen. Standardprämie: Monatsprämie der Obligatorischen Krankenpflegeversicherung gemäss dem Bundesgesetz über die Krankenversicherung (KVG) für Erwachsene, Franchise Fr. 300, mit Unfalldeckung, ohne besondere Versicherungsmodelle mit eingeschränkter Arztwahl gemäss Art. 62 KVG. Der Medianwert ist der Wert einer Zahlenreihe, der an der mittleren (zentralen) Stelle steht, wenn man die Werte der Größe nach sortiert.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "09_00_00_00_00_001",
 		"parentId": null,
@@ -2722,11 +2759,14 @@ var indikatorensetData = [
 			"Bundesamt für Gesundheit (BAG)",
 			"Gesundheitsdepartement Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6346,
-		"darstellungsart": "Grafik"
+		"data-id": 6346,
+		"chart-id": 6346,
+		"filter": "",
+		"id": 6346
 	},
 	{
 		"title": "Anzahl Beschäftigte nach Branche",

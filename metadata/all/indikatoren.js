@@ -811,7 +811,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
-		"subtitle": "Basel-Stadt im nationalen Vergleich, 2017",
+		"subtitle": "Basel-Stadt im Vergleich mit der Schweiz und ausgewählten Kantonen, 2017",
 		"kuerzel": "I.04.1.2501",
 		"kuerzelKunde": "2.2",
 		"description": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
@@ -822,7 +822,7 @@ var indikatoren = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2018-10-10T10:46:30.3030",
+		"aktualisierungsdatum": "2018-10-23T13:41:30.3030",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -843,9 +843,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 2501,
+		"chart-id": 2501,
+		"filter": "",
 		"id": 2501
 	},
 	{
@@ -1066,7 +1070,7 @@ var indikatoren = [
 	{
 		"title": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
 		"subtitle": "«Wie zufrieden sind Sie mit der Gesundheitsversorgung?»",
-		"kuerzel": "I.50.1.02956",
+		"kuerzel": "I.50.1.2956",
 		"kuerzelKunde": "9.4",
 		"description": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
 		"thema": "50 Befragungen",
@@ -1075,15 +1079,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-12-14T12:19:48.4848",
+		"aktualisierungsdatum": "2018-10-23T12:18:26.2626",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "96,6% der Befragten sind sehr oder eher zufrieden mit der Gesundheitsversorgung. Die Zufriedenheit mit der Gesundheitsversorgung unterscheidet sich nach Geschlecht und Herkunft nicht. Ein Unterschied besteht bei den Altersgruppen. Bei den 30- bis 39-Jährigen ist die Zufriedenheit mit 91,3% am tiefsten.",
-		"erlaeuterungen": "Für die Zufriedenheit werden die Antwortkategorien \"Sehr zufrieden\" und \"Eher zufrieden\" zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
+		"erlaeuterungen": "Für die Zufriedenheit werden die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "09_00_00_00_00_004",
 		"parentId": null,
@@ -1094,11 +1100,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_8"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2956,
-		"darstellungsart": "Grafik"
+		"data-id": 2956,
+		"chart-id": 2956,
+		"filter": "",
+		"id": 2956
 	},
 	{
 		"title": "Arbeitstage von Meldepflichtigen nach Einsatzkanton",
@@ -1350,7 +1359,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Durch BaselArea unterstützte internationale Ansiedlungen",
-		"subtitle": "in BS, BL, JU",
+		"subtitle": "in den Kantonen Basel-Stadt, Basel-Landschaft und Jura",
 		"kuerzel": "I.04.1.3086",
 		"kuerzelKunde": "2.4",
 		"description": "Durch BaselArea unterstützte internationale Ansiedlungen",
@@ -1360,7 +1369,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-02T10:51:44.4444",
+		"aktualisierungsdatum": "2018-10-23T13:42:39.3939",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1381,14 +1390,18 @@ var indikatoren = [
 		"quellenangabe": [
 			"BaselArea"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 3086,
+		"chart-id": 3086,
+		"filter": "",
 		"id": 3086
 	},
 	{
 		"title": "Globale und kontinentale Erreichbarkeit",
-		"subtitle": "Stadt Basel im nationalen Vergleich",
+		"subtitle": "Stadt Basel im Vergleich mit ausgewählten Schweizer Städten",
 		"kuerzel": "I.11.6.3104",
 		"kuerzelKunde": "5.1",
 		"description": "Globale und kontinentale Erreichbarkeit",
@@ -1398,7 +1411,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T09:58:51.5151",
+		"aktualisierungsdatum": "2018-10-23T13:52:40.4040",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1407,6 +1420,7 @@ var indikatoren = [
 		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel und der anderen Schweizer Städten hat sich zwischen 1996 und 2016 verbessert, wobei sie in den letzten Jahren eher unverändert blieb. Die Stadt Zürich bewegt sich auf einem leicht höheren Niveau als Basel und Genf, die Erreichbarkeit der Stadt Bern liegt etwas darunter. Die Entwicklung bei der globalen Erreichbarkeit verläuft bei allen Städten parallel und mit wenig Veränderungen über die Jahre. Basel liegt bei diesem Indikator zusammen mit Genf und Bern unterhalb des Niveaus von Zürich.",
 		"erlaeuterungen": "Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002; globale Erreichbarkeit = Erreichbarkeit von Regionen ausserhalb Europas; kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Ihnen liegen Strassenerreichbarkeit, Bahnfahr- und Flugpläne zugrunde. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_001",
@@ -1418,12 +1432,15 @@ var indikatoren = [
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Weiterführende Informationen: <a href = 'https://www.bak-economics.com/en/solutions/regional-analysis/region-international/location-factors/erreichbarkeit/' target = '_blank'>BAK Economics</a> und",
 			"<a href = 'http://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/erreichbarkeit.html' target = '_blank'>Amt für Mobilität</a>"
 		],
-		"id": 3104,
-		"darstellungsart": "Grafik"
+		"data-id": 3104,
+		"chart-id": 3104,
+		"filter": "",
+		"id": 3104
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot",
@@ -2360,7 +2377,7 @@ var indikatoren = [
 	{
 		"title": "Ausbezahlte Familienmietzinsbeiträge",
 		"subtitle": "Basel-Stadt, in Franken",
-		"kuerzel": "I.13.2.04153",
+		"kuerzel": "I.13.2.4153",
 		"kuerzelKunde": "4.1.B",
 		"description": "Ausbezahlte Familienmietzinsbeiträge",
 		"thema": "13 Soziale Sicherheit",
@@ -2369,7 +2386,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-02-01T00:00:00.0000",
+		"aktualisierungsdatum": "2018-10-23T15:37:17.1717",
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
@@ -2378,6 +2395,8 @@ var indikatoren = [
 		"lesehilfe": "Die ausbezahlten Familienmietzinsbeiträge sind seit 2008 stark gestiegen und betragen 2017 rund 10,7 Mio. Franken.",
 		"erlaeuterungen": "Die Leistungen nach Wohnraumfördergesetz liefen per Ende 2008 aus. Das Gesetz wurde per 1.1.2009 aufgehoben. Dies hatte einen Einfluss auf die Anzahl unterstützter Mietverhältnisse nach Mietbeitragsgesetz.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "05_01_00_00_00_000",
 		"parentId": null,
@@ -2386,11 +2405,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Amt für Sozialbeiträge Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4153,
-		"darstellungsart": "Grafik"
+		"data-id": 4153,
+		"chart-id": 4153,
+		"filter": "",
+		"id": 4153
 	},
 	{
 		"title": "Bestand an Notwohnungen und ihre Belegung",
@@ -9962,8 +9984,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Altersquotient",
-		"subtitle": "",
-		"kuerzel": "I.01.1.05144",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.01.1.5144",
 		"kuerzelKunde": "BE3",
 		"description": "Altersquotient",
 		"thema": "01 Bevölkerung",
@@ -9972,7 +9994,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-13T15:47:44.4444",
+		"aktualisierungsdatum": "2018-10-23T15:40:09.099",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -9981,6 +10003,8 @@ var indikatoren = [
 		"lesehilfe": "Der Altersquotient ist zwischen 2008 und 2017 leicht gesunken. Dies ist darauf zurückzuführen, dass die Zahl der Personen im Erwerbsalter stärker zugenommen hat als diejenige der Senioren.",
 		"erlaeuterungen": "Der Altersquotient bezeichnet die Anzahl 65-Jährige und Ältere pro 100 20- bis 64-Jährige.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_103",
 		"parentId": null,
@@ -9989,16 +10013,19 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5144,
-		"darstellungsart": "Grafik"
+		"data-id": 5144,
+		"chart-id": 5144,
+		"filter": "",
+		"id": 5144
 	},
 	{
 		"title": "Jugendquotient",
-		"subtitle": "",
-		"kuerzel": "I.01.1.05147",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.01.1.5147",
 		"kuerzelKunde": "BE4",
 		"description": "Jugendquotient",
 		"thema": "01 Bevölkerung",
@@ -10007,7 +10034,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-13T16:34:54.5454",
+		"aktualisierungsdatum": "2018-10-23T15:58:43.4343",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -10016,6 +10043,8 @@ var indikatoren = [
 		"lesehilfe": "Der Jugendquotient ist von 2008 bis 2011 leicht zurückgegangen. Dies liegt daran, dass die Zahl der Jugendlichen deutlich weniger stark gestiegen ist als jene der Personen im Erwerbsalter. Seit 2013 steigt der Jugendquotient wieder.",
 		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl 0- bis 19-Jähriger pro 100 20- bis 64-Jährige.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_104",
 		"parentId": null,
@@ -10024,11 +10053,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5147,
-		"darstellungsart": "Grafik"
+		"data-id": 5147,
+		"chart-id": 5147,
+		"filter": "",
+		"id": 5147
 	},
 	{
 		"title": "Saldo aus Geburten und Todesfällen",
@@ -10897,18 +10929,18 @@ var indikatoren = [
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Mietpreisindex",
+		"title": "Mietpreisindex Basel-Stadt",
 		"subtitle": "Indexwert (Basis 2015 = 100)",
-		"kuerzel": "I.09.3.05196",
+		"kuerzel": "I.09.3.5196",
 		"kuerzelKunde": "GW18",
-		"description": "Mietpreisindex",
+		"description": "Mietpreisindex Basel-Stadt",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Mietpreise",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-23T16:07:41.4141",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
@@ -10917,6 +10949,8 @@ var indikatoren = [
 		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von berechneten 80,4 Punkten im Jahr 1995 auf den aktuellen Wert von 102,8 im November 2017.",
 		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1-6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_06_00_00_00_318",
 		"parentId": null,
@@ -10925,11 +10959,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5196,
-		"darstellungsart": "Grafik"
+		"data-id": 5196,
+		"chart-id": 5196,
+		"filter": "",
+		"id": 5196
 	},
 	{
 		"title": "Übermässig mit Lärm belastete Wohnbevölkerung",
@@ -11039,18 +11076,18 @@ var indikatoren = [
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Bevölkerungsdichte",
+		"title": "Bevölkerungsdichte Basel-Stadt",
 		"subtitle": "Anzahl Einwohner pro Hektar",
-		"kuerzel": "I.01.1.05201",
+		"kuerzel": "I.01.1.5201",
 		"kuerzelKunde": "ST 4-2",
-		"description": "Bevölkerungsdichte",
+		"description": "Bevölkerungsdichte Basel-Stadt",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-01-16T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-23T15:54:04.044",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -11059,6 +11096,8 @@ var indikatoren = [
 		"lesehilfe": "Bis 2002 verzeichnete Basel-Stadt sinkende Bevölkerungszahlen. Seit 2007 nimmt die baselstädtische Wohnbevölkerung und mit ihr die Bevölkerungsdichte wieder zu.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_002",
 		"parentId": null,
@@ -11069,11 +11108,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5201,
-		"darstellungsart": "Grafik"
+		"data-id": 5201,
+		"chart-id": 5201,
+		"filter": "",
+		"id": 5201
 	},
 	{
 		"title": "Bevölkerungsdichte",
@@ -12776,7 +12818,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T10:09:50.5050",
+		"aktualisierungsdatum": "2018-10-23T13:46:59.5959",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
@@ -12785,6 +12827,7 @@ var indikatoren = [
 		"lesehilfe": "In der Nordwestschweiz erreicht der Medianlohn der Frauen im Jahr 2016 rund 5 920 Franken. Dies entspricht 86% des Medianlohns der Männer (6 850 Fr.). Der Lohnunterschied hat sich gegenüber 2014 kaum verändert, ist jedoch geringer als vor 10 Jahren (2006 betrug das Lohnverhältnis rund 81%).",
 		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u.a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "05_02_00_00_00_504",
@@ -12797,16 +12840,19 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6037,
-		"darstellungsart": "Grafik"
+		"data-id": 6037,
+		"chart-id": 6037,
+		"filter": "",
+		"id": 6037
 	},
 	{
 		"title": "Übertritte nach der obligatorischen Schulzeit",
-		"subtitle": "im Schuljahr 2016/17",
-		"kuerzel": "I.15.1.06039",
+		"subtitle": "im Schuljahr 2017/18, Basel-Stadt",
+		"kuerzel": "I.15.1.6039",
 		"kuerzelKunde": "GZ6",
 		"description": "Übertritte nach der obligatorischen Schulzeit",
 		"thema": "15 Bildung",
@@ -12815,7 +12861,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-22T11:53:22.2222",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
@@ -12824,6 +12870,8 @@ var indikatoren = [
 		"lesehilfe": "Nach wie vor treten Schülerinnen nach der obligatorischen Schulzeit deutlich häufiger ins Gymnasium oder eine weiterführende Schule ein als Schüler, letztere besuchen danach hingegen häufiger eine berufliche Grundbildung. Noch deutlicher sind die Unterschiede, wenn die Schülerinnen und Schüler nach Staatsangehörigkeit oder Erstsprache gruppiert werden.",
 		"erlaeuterungen": "Jährliche Befragung von Schulabgängerinnen und Schulabgängern durch das Erziehungsdepartement Basel-Stadt.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "05_02_00_00_00_506",
 		"parentId": null,
@@ -12835,8 +12883,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6039,
-		"darstellungsart": "Grafik"
+		"id": 6039
 	},
 	{
 		"title": "Freiwillige Tätigkeit",
@@ -14668,7 +14715,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bruttoinlandprodukt in Franken pro Einwohner",
-		"subtitle": "in ausgewählten Kantonen",
+		"subtitle": "Basel-Stadt im Vergleich mit ausgewählten Kantonen",
 		"kuerzel": "I.04.1.6124",
 		"kuerzelKunde": "2.1",
 		"description": "Bruttoinlandprodukt in Franken pro Einwohner",
@@ -14678,7 +14725,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-17T17:18:04.044",
+		"aktualisierungsdatum": "2018-10-23T13:39:39.3939",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14700,9 +14747,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6124,
+		"chart-id": 6124,
+		"filter": "",
 		"id": 6124
 	},
 	{
@@ -15373,7 +15424,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T10:10:07.077",
+		"aktualisierungsdatum": "2018-10-23T13:46:59.5959",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15382,6 +15433,7 @@ var indikatoren = [
 		"lesehilfe": "In der Nordwestschweiz erreicht der Medianlohn der Frauen im Jahr 2016 rund 5 920 Franken. Dies entspricht 86% des Medianlohns der Männer (6 850 Fr.). Der Lohnunterschied hat sich gegenüber 2014 kaum verändert, ist jedoch geringer als vor 10 Jahren (2006 betrug das Lohnverhältnis rund 81%).",
 		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u.a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "04_00_00_00_00_006",
@@ -15391,11 +15443,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6147,
-		"darstellungsart": "Grafik"
+		"data-id": 6147,
+		"chart-id": 6147,
+		"filter": "",
+		"id": 6147
 	},
 	{
 		"title": "Arbeitnehmende in Leitungsfunktionen",
@@ -15671,7 +15726,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Jährlich durch Stau generierte Verzögerungszeit",
-		"subtitle": "Basel im nationalen Vergleich",
+		"subtitle": "Stadt Basel im Vergleich mit ausgewählten Schweizer Städten",
 		"kuerzel": "I.11.6.6156",
 		"kuerzelKunde": "5.4",
 		"description": "Jährlich durch Stau generierte Verzögerungszeit",
@@ -15681,14 +15736,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T16:14:41.4141",
+		"aktualisierungsdatum": "2018-10-23T11:28:19.1919",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Verzögerungszeit für den motorisierten Individualverkehr betrug in der Stadt Basel im Jahr 2016 rund 27%. Eine Verzögerungszeit von 27% bedeutet, dass eine durchschnittliche Reise 27% länger dauert, als dies unter staufreien Bedingungen der Fall wäre.",
-		"erlaeuterungen": "Die Zahlen basieren auf gesammelten Verkehrsdaten des Navigationsgeräte-Herstellers TomTom. Damit die urbanen Flächen für die der Index berechnet wird international vergleichbar sind, wurden sie von TomTom individuell definiert. Detaillierte Informationen zu den TomTom Staudaten und der angewandten Methodik sind hier zu finden: <br/>-  <a href='https://www.google.ch/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwi10_XS-c_XAhVS46QKHf26CBUQFggoMAA&url=http%3A%2F%2Fwww.congres-atecitsfrance.fr%2Fwp-content%2Fuploads%2F2013%2F12%2FCOHN_com085-Atelier-A7.pdf&usg=AOvVaw2VO2AxK37y7-LebxQcI6el' target='_blank'>TomTom Traffic Index: Toward a Global Measure  </a> <br/> -  <a href='https://www.tomtom.com/en_gb/trafficindex/about' target='_blank'>TomTom Traffic Index: About  </a> <br/>-  TomTom Traffic Index: <a href='https://www.tomtom.com/en_gb/trafficindex/city/basel' target='_blank'>Basel</a>, <a href='https://www.tomtom.com/en_gb/trafficindex/city/GNV' target='_blank'>Genf</a>, <a href='https://www.tomtom.com/en_gb/trafficindex/city/ZUR' target='_blank'>Zürich</a>, <a href='https://www.tomtom.com/en_gb/trafficindex/city/bern' target='_blank'>Bern</a>",
+		"erlaeuterungen": "Die Zahlen basieren auf gesammelten Verkehrsdaten des Navigationsgeräte-Herstellers TomTom. Damit die urbanen Flächen für die der Index berechnet wird international vergleichbar sind, wurden sie von TomTom individuell definiert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -15702,9 +15757,17 @@ var indikatoren = [
 		"quellenangabe": [
 			"TomTom International"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Detaillierte Informationen zu den TomTom Staudaten und der angewandten Methodik sind hier zu finden: <a href = 'https://www.tomtom.com/en_gb/trafficindex/about' target = '_blank'>TomTom Traffic Index</a>.",
+			"Die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/basel' target = '_blank'>Basel</a>;",
+			"die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/GNV' target = '_blank'>Genf</a>;",
+			"die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/ZUR' target = '_blank'>Zürich</a>;",
+			"die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/bern' target = '_blank'>Bern</a>."
 		],
+		"data-id": 6156,
+		"chart-id": 6156,
+		"filter": "",
 		"id": 6156
 	},
 	{
@@ -15866,26 +15929,27 @@ var indikatoren = [
 		"id": 6160
 	},
 	{
-		"title": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
+		"title": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.08.3.6161",
 		"kuerzelKunde": "7.2",
-		"description": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
+		"description": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
 		"thema": "08 Energie",
 		"unterthema": "Erneuerbare",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-08-17T09:27:17.1717",
+		"aktualisierungsdatum": "2018-10-24T11:01:28.2828",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2010 lag der Anteil der erneuerbaren Energieträger bei 34,5%. Zwei Jahre später fiel der Wert mit 36,1% bereits höher aus. Im Jahr 2014  stammte 37,8% der Energie aus erneuerbaren Quellen, 2016 waren es bereits 38,8%.",
+		"lesehilfe": "Im Jahr 2010 lag der Anteil der erneuerbaren Energieträger bei 34,5%. Zwei Jahre später fiel der Wert mit 36,1% bereits höher aus. Im Jahr 2014  stammte 37,9% der Energie aus erneuerbaren Quellen, 2016 waren es bereits 38,8%.",
 		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Schlamm, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).<br><br>Die Summe der Verbräuche der erneuerbaren Energien wird durch den Gesamtenergieverbrauch dividiert.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_002",
@@ -15898,11 +15962,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6161,
-		"darstellungsart": "Grafik"
+		"data-id": 6161,
+		"chart-id": 6161,
+		"filter": "",
+		"id": 6161
 	},
 	{
 		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
@@ -16533,7 +16600,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-09T10:01:16.1616",
+		"aktualisierungsdatum": "2018-10-22T10:57:01.011",
 		"stufe1": "Ziel 12:  Der Service public ist modern und kundenfreundlich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16569,7 +16636,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-22T10:56:15.1515",
 		"stufe1": "Ziel 12:  Der Service public ist modern und kundenfreundlich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16578,12 +16645,12 @@ var indikatoren = [
 		"lesehilfe": "73,7% der befragten Personen schätzten 2015 ihren letzten Kontakt, den sie mit der Verwaltung des Kantons Basel-Stadt hatten, als positiv ein. Das sind 3,8 Prozentpunkte weniger als 2011, aber mehr als in der Befragung von 2007 (64,4%).",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "12_00_00_00_00_002",
 		"parentId": 4859,
-		"children": [
-			"6332"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F19a"
@@ -16591,8 +16658,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6186,
-		"darstellungsart": "Grafik"
+		"id": 6186
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
@@ -17048,32 +17114,32 @@ var indikatoren = [
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
-		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» Stand: 2015",
+		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
+		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» <br> Stand: 2015",
 		"kuerzel": "I.50.1.06216",
 		"kuerzelKunde": "ST 5-3",
-		"description": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
+		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-22T09:27:35.3535",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 hatten die befragten Personen die Gelegenheit verschiedene Punkte, die für den Wohnort wichtig sind, einzuschätzen. Am zufriedensten sind die befragten Einwohnerinnen und Einwohner mit den Öffentlichen Verkehrsmitteln, gefolgt von den Grünanlagen. Am wenigsten zufrieden sind Sie mit den Parkplätzen und dem Angebot an Wohnungen.",
-		"erlaeuterungen": "2003: N=1495, 2005: N=1509, 2007: N=1505, 2011: N=1516, 2015: N=1504.",
+		"lesehilfe": "2015 hatten die befragten Personen die Gelegenheit, 23 Punkte, die für den Wohnort wichtig sind, zu bewerten. Am zufriedensten sind sie mit der generellen Vielfalt der Einkaufsmöglichkeiten in Basel, gefolgt von den öffentlichen Verkehrsmitteln und der Gesundheitsversorgung. Beim Thema Parkplätze gehen die Meinungen auseinander: Der Anteil Zufriedener und der Anteil Unzufriedener halten sich in etwa die Waage.",
+		"erlaeuterungen": "Frage 6 zur Zufriedenheit ist eine Filterfrage und wurde nur den Personen gestellt, die Frage 5 zur Wichtigkeit nicht mit «Keine Angabe» beantwortet haben.",
 		"template": "befragungen001",
-		"visibleInPortal": true,
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
 		"orderKey": "01_02_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"6261"
-		],
+		"parentId": 5178,
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"
@@ -17081,8 +17147,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6216,
-		"darstellungsart": "Grafik"
+		"id": 6216
 	},
 	{
 		"title": "Leerstehende Industrie- und Gewerbeflächen",
@@ -20694,7 +20759,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Medianprämie pro Prämienregion",
-		"subtitle": "in Franken, Basel-Stadt im kantonalen Vergleich",
+		"subtitle": "in Franken, Basel-Stadt im Vergleich mit ausgewählten Kantonen",
 		"kuerzel": "I.14.4.6346",
 		"kuerzelKunde": "9.1",
 		"description": "Medianprämie pro Prämienregion",
@@ -20704,7 +20769,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T15:59:20.2020",
+		"aktualisierungsdatum": "2018-10-23T12:19:46.4646",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20713,6 +20778,7 @@ var indikatoren = [
 		"lesehilfe": "In den teuersten Prämienregionen aller verglichenen Kantone steigen die Medianprämien seit 2010 setig an. Basel-Stadt liegt zusammen mit Genf an der Spitze dieser Rangliste.",
 		"erlaeuterungen": "Verglichen wird der Medianwert der Standardprämien aller Versicherer in den Vergleichskantonen. Standardprämie: Monatsprämie der Obligatorischen Krankenpflegeversicherung gemäss dem Bundesgesetz über die Krankenversicherung (KVG) für Erwachsene, Franchise Fr. 300, mit Unfalldeckung, ohne besondere Versicherungsmodelle mit eingeschränkter Arztwahl gemäss Art. 62 KVG. Der Medianwert ist der Wert einer Zahlenreihe, der an der mittleren (zentralen) Stelle steht, wenn man die Werte der Größe nach sortiert.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "09_00_00_00_00_001",
@@ -20725,11 +20791,14 @@ var indikatoren = [
 			"Bundesamt für Gesundheit (BAG)",
 			"Gesundheitsdepartement Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6346,
-		"darstellungsart": "Grafik"
+		"data-id": 6346,
+		"chart-id": 6346,
+		"filter": "",
+		"id": 6346
 	},
 	{
 		"title": "Anzahl Beschäftigte nach Branche",

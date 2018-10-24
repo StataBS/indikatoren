@@ -1,17 +1,17 @@
 var indikatorensetData = [
 	{
-		"title": "Bevölkerungsdichte",
+		"title": "Bevölkerungsdichte Basel-Stadt",
 		"subtitle": "Anzahl Einwohner pro Hektar",
-		"kuerzel": "I.01.1.05201",
+		"kuerzel": "I.01.1.5201",
 		"kuerzelKunde": "ST 4-2",
-		"description": "Bevölkerungsdichte",
+		"description": "Bevölkerungsdichte Basel-Stadt",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-01-16T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-23T15:54:04.044",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -20,6 +20,8 @@ var indikatorensetData = [
 		"lesehilfe": "Bis 2002 verzeichnete Basel-Stadt sinkende Bevölkerungszahlen. Seit 2007 nimmt die baselstädtische Wohnbevölkerung und mit ihr die Bevölkerungsdichte wieder zu.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_002",
 		"parentId": null,
 		"children": [
@@ -29,11 +31,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5201,
-		"darstellungsart": "Grafik"
+		"data-id": 5201,
+		"chart-id": 5201,
+		"filter": "",
+		"id": 5201
 	},
 	{
 		"title": "Bevölkerungsdichte",
@@ -693,31 +698,31 @@ var indikatorensetData = [
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
-		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» Stand: 2015",
+		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
+		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» <br> Stand: 2015",
 		"kuerzel": "I.50.1.06216",
 		"kuerzelKunde": "ST 5-3",
-		"description": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
+		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-22T09:27:35.3535",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 hatten die befragten Personen die Gelegenheit verschiedene Punkte, die für den Wohnort wichtig sind, einzuschätzen. Am zufriedensten sind die befragten Einwohnerinnen und Einwohner mit den Öffentlichen Verkehrsmitteln, gefolgt von den Grünanlagen. Am wenigsten zufrieden sind Sie mit den Parkplätzen und dem Angebot an Wohnungen.",
-		"erlaeuterungen": "2003: N=1495, 2005: N=1509, 2007: N=1505, 2011: N=1516, 2015: N=1504.",
+		"lesehilfe": "2015 hatten die befragten Personen die Gelegenheit, 23 Punkte, die für den Wohnort wichtig sind, zu bewerten. Am zufriedensten sind sie mit der generellen Vielfalt der Einkaufsmöglichkeiten in Basel, gefolgt von den öffentlichen Verkehrsmitteln und der Gesundheitsversorgung. Beim Thema Parkplätze gehen die Meinungen auseinander: Der Anteil Zufriedener und der Anteil Unzufriedener halten sich in etwa die Waage.",
+		"erlaeuterungen": "Frage 6 zur Zufriedenheit ist eine Filterfrage und wurde nur den Personen gestellt, die Frage 5 zur Wichtigkeit nicht mit «Keine Angabe» beantwortet haben.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_02_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"6261"
-		],
+		"parentId": 5178,
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"
@@ -725,8 +730,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6216,
-		"darstellungsart": "Grafik"
+		"id": 6216
 	},
 	{
 		"title": "Leerstehende Industrie- und Gewerbeflächen",
