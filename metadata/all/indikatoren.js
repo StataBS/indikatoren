@@ -15929,18 +15929,18 @@ var indikatoren = [
 		"id": 6160
 	},
 	{
-		"title": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
+		"title": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.08.3.6161",
 		"kuerzelKunde": "7.2",
-		"description": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
+		"description": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
 		"thema": "08 Energie",
 		"unterthema": "Erneuerbare",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-23T11:05:08.088",
+		"aktualisierungsdatum": "2018-10-24T11:01:28.2828",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",

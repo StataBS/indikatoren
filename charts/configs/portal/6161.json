@@ -96,7 +96,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil erneuerbare Energie am Bruttoenergieverbrauch"
+    "text": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch"
   },
   "subtitle": {
     "style": {
@@ -145,7 +145,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-23"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-24"
   },
   "legend": {
     "symbolRadius": 0,
