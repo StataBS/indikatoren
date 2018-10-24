@@ -218,7 +218,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel im nationalen Vergleich",
+    "text": "Stadt Basel im Vergleich mit ausgewählten Schweizer Städten",
     "align": "left"
   },
   "tooltip": {
@@ -269,7 +269,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: TomTom International.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: TomTom International.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-23"
   },
   "legend": {
     "enabled": true,

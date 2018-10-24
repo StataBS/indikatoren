@@ -1,5 +1,5 @@
 {"title":"Durch BaselArea unterstützte internationale Ansiedlungen",
-"subtitle":"in BS, BL, JU",
+"subtitle":"in den Kantonen Basel-Stadt, Basel-Landschaft und Jura",
 "kuerzel":"I.04.1.3086",
 "kuerzelKunde":"2.4",
 "description":"Durch BaselArea unterstützte internationale Ansiedlungen",
@@ -8,7 +8,7 @@
 "unterthema":"Volkseinkommen",
 "kennzahlenset":"Legislaturplan",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-02T10:51:44.4444",
+"aktualisierungsdatum":"2018-10-23T13:42:39.3939",
 "stufe1":"Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 "stufe2":"",
 "stufe3":"",
@@ -26,5 +26,9 @@
 "children":["6368"],
 "renderLink":[],
 "quellenangabe":["BaselArea"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":3086, 
+"chart-id":3086, 
+"filter":""
 }
