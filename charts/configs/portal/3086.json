@@ -109,7 +109,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in BS, BL, JU",
+    "text": "in den Kantonen Basel-Stadt, Basel-Landschaft und Jura",
     "align": "left"
   },
   "tooltip": {
@@ -149,7 +149,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BaselArea.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-2"
+    "text": "Quelle: BaselArea.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-23"
   },
   "legend": {
     "enabled": false,

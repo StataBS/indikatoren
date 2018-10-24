@@ -908,7 +908,7 @@ var indikatorensetData = [
 	{
 		"title": "Ausbezahlte Familienmietzinsbeiträge",
 		"subtitle": "Basel-Stadt, in Franken",
-		"kuerzel": "I.13.2.04153",
+		"kuerzel": "I.13.2.4153",
 		"kuerzelKunde": "4.1.B",
 		"description": "Ausbezahlte Familienmietzinsbeiträge",
 		"thema": "13 Soziale Sicherheit",
@@ -917,7 +917,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-02-01T00:00:00.0000",
+		"aktualisierungsdatum": "2018-10-23T15:37:17.1717",
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
@@ -926,6 +926,8 @@ var indikatorensetData = [
 		"lesehilfe": "Die ausbezahlten Familienmietzinsbeiträge sind seit 2008 stark gestiegen und betragen 2017 rund 10,7 Mio. Franken.",
 		"erlaeuterungen": "Die Leistungen nach Wohnraumfördergesetz liefen per Ende 2008 aus. Das Gesetz wurde per 1.1.2009 aufgehoben. Dies hatte einen Einfluss auf die Anzahl unterstützter Mietverhältnisse nach Mietbeitragsgesetz.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "05_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -933,11 +935,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Amt für Sozialbeiträge Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4153,
-		"darstellungsart": "Grafik"
+		"data-id": 4153,
+		"chart-id": 4153,
+		"filter": "",
+		"id": 4153
 	},
 	{
 		"title": "Bestand an Notwohnungen und ihre Belegung",

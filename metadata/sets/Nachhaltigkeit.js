@@ -105,8 +105,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Altersquotient",
-		"subtitle": "",
-		"kuerzel": "I.01.1.05144",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.01.1.5144",
 		"kuerzelKunde": "BE3",
 		"description": "Altersquotient",
 		"thema": "01 Bevölkerung",
@@ -115,7 +115,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-13T15:47:44.4444",
+		"aktualisierungsdatum": "2018-10-23T15:40:09.099",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -124,6 +124,8 @@ var indikatorensetData = [
 		"lesehilfe": "Der Altersquotient ist zwischen 2008 und 2017 leicht gesunken. Dies ist darauf zurückzuführen, dass die Zahl der Personen im Erwerbsalter stärker zugenommen hat als diejenige der Senioren.",
 		"erlaeuterungen": "Der Altersquotient bezeichnet die Anzahl 65-Jährige und Ältere pro 100 20- bis 64-Jährige.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_103",
 		"parentId": null,
 		"children": [],
@@ -131,16 +133,19 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5144,
-		"darstellungsart": "Grafik"
+		"data-id": 5144,
+		"chart-id": 5144,
+		"filter": "",
+		"id": 5144
 	},
 	{
 		"title": "Jugendquotient",
-		"subtitle": "",
-		"kuerzel": "I.01.1.05147",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.01.1.5147",
 		"kuerzelKunde": "BE4",
 		"description": "Jugendquotient",
 		"thema": "01 Bevölkerung",
@@ -149,7 +154,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-13T16:34:54.5454",
+		"aktualisierungsdatum": "2018-10-23T15:58:43.4343",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -158,6 +163,8 @@ var indikatorensetData = [
 		"lesehilfe": "Der Jugendquotient ist von 2008 bis 2011 leicht zurückgegangen. Dies liegt daran, dass die Zahl der Jugendlichen deutlich weniger stark gestiegen ist als jene der Personen im Erwerbsalter. Seit 2013 steigt der Jugendquotient wieder.",
 		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl 0- bis 19-Jähriger pro 100 20- bis 64-Jährige.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_104",
 		"parentId": null,
 		"children": [],
@@ -165,11 +172,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5147,
-		"darstellungsart": "Grafik"
+		"data-id": 5147,
+		"chart-id": 5147,
+		"filter": "",
+		"id": 5147
 	},
 	{
 		"title": "Saldo aus Geburten und Todesfällen",
@@ -1014,18 +1024,18 @@ var indikatorensetData = [
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Mietpreisindex",
+		"title": "Mietpreisindex Basel-Stadt",
 		"subtitle": "Indexwert (Basis 2015 = 100)",
-		"kuerzel": "I.09.3.05196",
+		"kuerzel": "I.09.3.5196",
 		"kuerzelKunde": "GW18",
-		"description": "Mietpreisindex",
+		"description": "Mietpreisindex Basel-Stadt",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Mietpreise",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-23T16:07:41.4141",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
@@ -1034,6 +1044,8 @@ var indikatorensetData = [
 		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von berechneten 80,4 Punkten im Jahr 1995 auf den aktuellen Wert von 102,8 im November 2017.",
 		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1-6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "03_06_00_00_00_318",
 		"parentId": null,
 		"children": [],
@@ -1041,11 +1053,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5196,
-		"darstellungsart": "Grafik"
+		"data-id": 5196,
+		"chart-id": 5196,
+		"filter": "",
+		"id": 5196
 	},
 	{
 		"title": "Übermässig mit Lärm belastete Wohnbevölkerung",
@@ -1647,7 +1662,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T10:09:50.5050",
+		"aktualisierungsdatum": "2018-10-23T13:46:59.5959",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
@@ -1656,6 +1671,7 @@ var indikatorensetData = [
 		"lesehilfe": "In der Nordwestschweiz erreicht der Medianlohn der Frauen im Jahr 2016 rund 5 920 Franken. Dies entspricht 86% des Medianlohns der Männer (6 850 Fr.). Der Lohnunterschied hat sich gegenüber 2014 kaum verändert, ist jedoch geringer als vor 10 Jahren (2006 betrug das Lohnverhältnis rund 81%).",
 		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u.a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "05_02_00_00_00_504",
 		"parentId": null,
@@ -1667,11 +1683,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6037,
-		"darstellungsart": "Grafik"
+		"data-id": 6037,
+		"chart-id": 6037,
+		"filter": "",
+		"id": 6037
 	},
 	{
 		"title": "Übertritte nach der obligatorischen Schulzeit",
