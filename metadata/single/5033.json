@@ -8,14 +8,14 @@
 "unterthema":"Volkseinkommen",
 "kennzahlenset":"Legislaturplan",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-10T10:45:25.2525",
+"aktualisierungsdatum":"2018-10-24T11:15:31.3131",
 "stufe1":"Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"In Basel-Stadt werden am meisten Patente in der Pharmazeutischen Industrie angemeldet. Im Kanton Zürich werden vor allem in der Branche Elektronik, Optik und Maschinenbau Patente angemeldet.",
-"erlaeuterungen":"Die transnationalen Patentanmeldungen bestehen aus Patenten, die von Forschenden am European Patent Office (EPO) oder über das Patent Cooperation Treaty (PCT)-Verfahren (gleichzeitige Patentanmeldung bei einer Vielzahl von nationalen Patentämtern) angemeldet wurden. Die über das PCT-Verfahren zum EPO gelangenden Patentanmeldungen werden nur einmal gezählt. Die Regionalisierung der Patentdaten erfolgt nach der Wohnadresse der beteiligten Forscher und wird von der OECD durchgeführt (REGPAT database). Die Patentanmeldungen sind pro 1000 Einwohner im Mittel über mehrer Jahre abgebildet.",
+"erlaeuterungen":"Die transnationalen Patentanmeldungen bestehen aus Patenten, die von Forschenden am European Patent Office (EPO) oder über das Patent Cooperation Treaty (PCT)-Verfahren (gleichzeitige Patentanmeldung bei einer Vielzahl von nationalen Patentämtern) angemeldet wurden. Die über das PCT-Verfahren zum EPO gelangenden Patentanmeldungen werden nur einmal gezählt. Die Regionalisierung der Patentdaten erfolgt nach der Wohnadresse der beteiligten Forscher und wird von der OECD durchgeführt (REGPAT database). Die Patentanmeldungen sind pro 1000 Einwohner im Mittel über mehrere Jahre abgebildet.",
 "template":"template001",
 "darstellungsart":"Grafik",
 "printformat":"", 
@@ -26,5 +26,9 @@
 "children":["6279"],
 "renderLink":[],
 "quellenangabe":["BAK Economics"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":5033, 
+"chart-id":5033, 
+"filter":""
 }

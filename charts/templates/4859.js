@@ -33,7 +33,7 @@
     "xAxis": {
         "type": "category"
     }
-	}
+	};
 }());
 
  

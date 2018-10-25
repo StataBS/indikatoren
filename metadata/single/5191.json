@@ -8,13 +8,13 @@
 "unterthema":"Bevölkerungsbefragung",
 "kennzahlenset":"Nachhaltigkeit",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-04T14:43:13.1313",
+"aktualisierungsdatum":"2018-10-24T11:13:00.000",
 "stufe1":"Bereich Grundbedürfnisse und Wohlergehen",
 "stufe2":"Bildung",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"9,2% der Befragten haben einen obligatorischen Schulabschluss. 40,6% aller Befragten absolvierten ein Studium an einer Fachhochschule oder Universität. Ein deutlicher Unterschied zwischen den Geschlechtern ist hier zu beobachten: Bei den Männern liegt der Anteil bei 46,4%, bei den Frauen bei 35,7%.",
+"lesehilfe":"9,2% der Befragten haben einen obligatorischen Schulabschluss. 40,6% aller Befragten absolvierten ein Studium an einer Fachhochschule oder Universität. Ein deutlicher Unterschied ist zwischen den Geschlechtern zu beobachten: Bei den Männern liegt der Anteil bei 46,4%, bei den Frauen bei 35,7%.",
 "erlaeuterungen":"",
 "template":"befragungen001",
 "darstellungsart":"Grafik",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, S15A"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":5191, 
+"chart-id":5191, 
+"filter":""
 }
