@@ -152,6 +152,7 @@
                     }
                 }
     },
+    "marginRight": 15,
     "renderTo": "container-6409"
   },
   "plotOptions": {
@@ -198,7 +199,7 @@
       "labels": {
         "step": 1,
         "formatter": function () {
-                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
+                	return Highcharts.numberFormat(Math.abs(this.value), 1, ",", " ")+"%";
             	},
         "style": {
           "color": "#000000"
