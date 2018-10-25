@@ -7,7 +7,7 @@
       "legend": {
         "enabled": true,
         "layout": "vertical",
-        "verticalAlign": "top",
+        "verticalAlign": "middle",
         "align": "right",
     	  //"y": 40,
     	  //itemWidth: 90, 
