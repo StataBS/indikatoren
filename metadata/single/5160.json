@@ -8,14 +8,14 @@
 "unterthema":"Volkseinkommen",
 "kennzahlenset":"Nachhaltigkeit",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-05T08:58:15.1515",
+"aktualisierungsdatum":"2018-10-24T11:07:33.3333",
 "stufe1":"Bereich Staatliches Handeln",
 "stufe2":"Finanzhaushalt",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Nettoschuldenquote ist seit dem Jahr 2000 ebenso wie die Nettoschulden pro Kopf zurückgegangen. 2017 liegen die Quote bei 2,9 Promille und die Schulden bei 9 643 Franken pro Kopf.",
-"erlaeuterungen":"Die Nettoschuldenquote wird in Bezug auf das Schweizer Bruttoinlandprokukt berechnet.",
+"erlaeuterungen":"Die Nettoschuldenquote wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet.",
 "template":"line001",
 "darstellungsart":"Grafik",
 "printformat":"", 
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Jahresbericht des Kantons Basel-Stadt"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":5160, 
+"chart-id":5160, 
+"filter":""
 }
