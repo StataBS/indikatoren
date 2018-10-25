@@ -8,14 +8,14 @@
 "unterthema":"Steuern",
 "kennzahlenset":"Legislaturplan",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-17T16:58:43.4343",
+"aktualisierungsdatum":"2018-10-24T11:09:12.1212",
 "stufe1":"Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"In Basel beträgt die Steuerbelastung 2017 im ausgewählten Modellfall 15 547 Franken. In den fünf Kantonshauptorten liegt sie in Liestal am höchsten, in Zürich am tiefsten.",
-"erlaeuterungen":"Die Werte zeigen die Steuerbelastung (Kantons-, Gmeinde- und Kirchensteuern) in Franken für Ledige mit einem Bruttoarbeitseinkommen von 100 000 Franken im Jahr 2016.",
+"erlaeuterungen":"Die Werte zeigen die Steuerbelastung (Kantons-, Gmeinde- und Kirchensteuern) in Franken für Ledige mit einem Bruttoarbeitseinkommen von 100&nbsp;000 Franken im Jahr 2016.",
 "template":"template001",
 "darstellungsart":"Grafik",
 "printformat":"", 
@@ -26,5 +26,9 @@
 "children":["6343"],
 "renderLink":[],
 "quellenangabe":["Eidgenössische Finanzverwaltung"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6240, 
+"chart-id":6240, 
+"filter":""
 }

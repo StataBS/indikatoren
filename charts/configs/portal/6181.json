@@ -5,31 +5,31 @@
       "data": [
         [
           2011,
-          1.2038108622
+          1.2
         ],
         [
           2012,
-          1.5303306005
+          1.5
         ],
         [
           2013,
-          1.7469959199
+          1.7
         ],
         [
           2014,
-          1.9029641345
+          1.9
         ],
         [
           2015,
-          2.03620141
+          2
         ],
         [
           2016,
-          2.180589994
+          2.2
         ],
         [
           2017,
-          2.2729130062
+          2.3
         ]
       ],
       "name": "Familienmietzinsbeiträge"
@@ -40,31 +40,31 @@
       "data": [
         [
           2011,
-          14.079937175
+          14.1
         ],
         [
           2012,
-          14.161436078
+          14.2
         ],
         [
           2013,
-          14.20591557
+          14.2
         ],
         [
           2014,
-          14.24315086
+          14.2
         ],
         [
           2015,
-          13.952584134
+          14
         ],
         [
           2016,
-          14.527402782
+          14.5
         ],
         [
           2017,
-          14.724390144
+          14.7
         ]
       ],
       "name": "Prämienverbilligung"
@@ -165,7 +165,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-24"
   },
   "legend": {
     "enabled": true,

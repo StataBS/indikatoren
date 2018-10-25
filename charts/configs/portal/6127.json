@@ -163,7 +163,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt im Vergleich zum Median-Kanton, 2018",
+    "text": "Basel-Stadt im Vergleich zum Mediankanton, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -204,7 +204,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: UBS Switzerland AG.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-9"
+    "text": "Quelle: UBS Switzerland AG.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-24"
   },
   "legend": {
     "symbolRadius": 0,
