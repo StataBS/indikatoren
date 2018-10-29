@@ -1,5 +1,5 @@
 {"title":"Bruttoinlandprodukt in Franken pro Einwohner",
-"subtitle":"nach Kanton",
+"subtitle":"Basel-Stadt im Vergleich mit ausgewählten Kantonen",
 "kuerzel":"I.04.1.06045",
 "kuerzelKunde":"WE1",
 "description":"Bruttoinlandprodukt in Franken pro Einwohner",
@@ -8,7 +8,7 @@
 "unterthema":"Volkseinkommen",
 "kennzahlenset":"Nachhaltigkeit",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-10T10:48:08.088",
+"aktualisierungsdatum":"2018-10-25T14:22:18.1818",
 "stufe1":"Bereich Wirtschaftliche Entfaltung",
 "stufe2":"Wirtschaftssystem",
 "stufe3":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["BAK Economics"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6124, 
+"chart-id":6124, 
+"filter":""
 }
