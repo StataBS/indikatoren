@@ -811,7 +811,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
-		"subtitle": "Basel-Stadt im Vergleich mit der Schweiz und ausgewählten Kantonen, 2017",
+		"subtitle": "Basel-Stadt im Vergleich mit der Schweiz, 2017",
 		"kuerzel": "I.04.1.2501",
 		"kuerzelKunde": "2.2",
 		"description": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
@@ -822,7 +822,7 @@ var indikatoren = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2018-10-23T13:41:30.3030",
+		"aktualisierungsdatum": "2018-10-25T17:13:24.2424",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -6068,7 +6068,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-10T10:44:13.1313",
+		"aktualisierungsdatum": "2018-10-26T10:40:38.3838",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -6087,9 +6087,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Landwirtschaftliche Strukturerhebung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4914,
+		"chart-id": 4914,
+		"filter": "",
 		"id": 4914
 	},
 	{
@@ -10530,7 +10534,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-23T13:39:39.3939",
+		"aktualisierungsdatum": "2018-10-25T14:22:18.1818",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",

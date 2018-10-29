@@ -11,8 +11,7 @@
       }
     },
     "min": 0,
-    "max": 50
-  },
+    },
   {
     "title": {
       "text": null

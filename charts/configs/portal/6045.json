@@ -351,7 +351,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Kanton",
+    "text": "Basel-Stadt im Vergleich mit ausgewählten Kantonen",
     "align": "left"
   },
   "tooltip": {
@@ -402,7 +402,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-10"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-25"
   },
   "legend": {
     "enabled": true,
@@ -412,9 +412,7 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    "x": 45,
-    "itemMarginBottom": 5
+    }
   },
   "plotOptions": {
     "series": {
