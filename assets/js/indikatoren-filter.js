@@ -547,6 +547,8 @@ var afterFilter = function(result, jQ){
     renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'orderKey', baseQueryCopy);    
     
     var baseQueryCopyUnterthema = $.extend(true, {}, baseQuery);
+    //make sure currently selected unterthema does not filter the unterthema dropdown
+    delete baseQueryCopyUnterthema['unterthema' + '.$in'];
     renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema', baseQueryCopyUnterthema);
     
     //define how counts in dropdowns or checkboxes are rendered 
