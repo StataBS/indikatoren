@@ -35,10 +35,10 @@
     }
   },
  "series": [
-  {"color": "#007a2f", "index": 0, "legendIndex":0}, /*grün dunkel2*/
-  {"color": "#68ab2b", "index": 1, "legendIndex":2}, /*grün mittel*/
-  {"color": "#923f8d", "index": 2, "legendIndex":1}, 
-  {"color": "#b375ab", "index": 3, "legendIndex":3}, 
+  {"color": "#923f8d", "index": 0, "legendIndex":0}, /*grün dunkel2*/
+  {"color": "#b375ab", "index": 1, "legendIndex":2}, /*grün mittel*/
+  {"color": "#007a2f", "index": 2, "legendIndex":1}, 
+  {"color": "#68ab2b", "index": 3, "legendIndex":3}, 
   ],
   "chart": {
     "marginBottom": 75,
@@ -48,8 +48,8 @@
   },
   "tooltip": {
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
-  "footerFormat": 'Total: <b>{point.total:,.0f}</b>',
-   "shared": true
+  "footerFormat": 'Total: <b>{point.total:,.1f}</b>',
+   "shared": false
   },
 }
 }());
