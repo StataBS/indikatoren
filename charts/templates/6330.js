@@ -6,10 +6,11 @@
   "yAxis": [
     {
       "labels": {
-        "format": "{value:,.0f}",
+        format: "{value:,.0f}",
         y: 3,
-        "style": {
-          "color": "#000000"
+        style: {
+          color: "#000000",
+          fontSize: '10px',
         }
       },
       "min": 0,
@@ -21,15 +22,16 @@
       "title": {
         "style": {
           "color": "#000000",
-          "fontSize": null
+          "fontSize": null,
         },
         "text": null
       },
-      "labels": {
-        "format": "{value:,.0f}",
+      labels: {
+        format: "{value:,.0f}",
         y: 3,
-        "style": {
-          "color": "#000000"
+        style: {
+          color: "#000000", 
+          fontSize: '10px',
         }
       },
       "min": 0,
@@ -78,12 +80,8 @@
   ],
   "legend": {
     "enabled": true,
-    //"x": 10,
-    //"y": 35,
-    "itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

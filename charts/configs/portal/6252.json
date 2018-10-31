@@ -442,6 +442,7 @@
   },
   "legend": {
     "padding": 0,
+    "itemMarginBottom": 4,
     "layout": "vertical",
     "verticalAlign": "top",
     "align": "right",
@@ -454,8 +455,7 @@
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
-        },
-    "itemMarginBottom": 4
+        }
   },
   "exporting": {
     "filename": 6252

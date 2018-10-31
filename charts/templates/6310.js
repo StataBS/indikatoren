@@ -22,7 +22,8 @@
     "labels": {
       "format": "{value:,.0f}",
        "style": {
-       "color": "black"
+          color: "black", 
+          fontSize: '10px',
         },
     },
     "min": 0,  
@@ -35,7 +36,8 @@
     "labels": {
       "format": "{value:,.1f}",
        "style": {
-       "color": "black"
+         color: "black",
+         fontSize: '10px',
         },
     },
     "min": 0,
@@ -73,10 +75,8 @@
   }, 
   "legend": {
     "enabled": true,
-    //"y": 35,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
      "fontWeight": "normal"
@@ -87,5 +87,5 @@
     //"marginTop": 75,
     "type": "column"
   }
-}
+};
 }());

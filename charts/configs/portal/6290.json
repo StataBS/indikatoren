@@ -102,7 +102,7 @@
         ],
         [
           "2007",
-          null
+          0
         ],
         [
           "2011",
@@ -113,7 +113,7 @@
           79
         ]
       ],
-      "name": "Weiss nicht\u002F keine Angabe",
+      "name": "Weiss nicht \u002F Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -149,8 +149,8 @@
                 //use N if all series are visible, otherwise use n
                 var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
                 var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
-            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
-            }
+            	return this.value + " (" + nString + sum + ")";      
+        }
     }
   },
   "chart": {
@@ -175,7 +175,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -188,8 +188,10 @@
     },
     "zoomType": "xy",
     "type": "column",
+    "spacingTop": 5,
+    "inverted": true,
     "renderTo": "container-6290",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -226,7 +228,7 @@
     }
   },
   "yAxis": {
-    "tickInterval": 10,
+    "tickInterval": 25,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -261,26 +263,30 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8.\u003Cbr\u002F\u003EZuletzt geändert: 2017-3-8"
   },
   "legend": {
     "padding": 0,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "itemMarginBottom": 2,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "useHTML": true,
     "itemStyle": {
       "fontSize": "10px",
       "fontFamily": "Arial",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "whiteSpace": "nowrap"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        },
-    "reversed": false
+        return this.name;
+      },
+    "reversed": true,
+    "alignColumns": false,
+    "itemWidth": 77
   },
   "exporting": {
     "filename": 6290

@@ -1,7 +1,13 @@
 (function(){
     return {
+      chart: {
+        spacingTop: 5,
+      },
   "xAxis": {
     "tickInterval": 1,
+    labels: {
+      step: 2,
+    },
   },
   "yAxis": {
     "min": 0, 
@@ -26,16 +32,12 @@
     {
     	"color": "#3c3c3c", /* schwarz */
     	"legendIndex": 1,
-    	"marker": {
-        	"enabled": true
-    	}
     },
   ],
   "legend": {
     "enabled": true,
     "layout": "vertical",
     "verticalAlign": "middle",
-    "itemMarginBottom": 5,
     "align": "right",
     "itemStyle": {
       "fontWeight": "normal"

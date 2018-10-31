@@ -6,54 +6,54 @@
       "data": [
         [
           "Oberstes Management",
-          3389
+          3383
         ],
         [
           "Freie und gleichgestellte Berufe",
-          3231
+          2389
         ],
         [
           "Andere Selbstständige",
-          7281
+          6088
         ],
         [
           "Akademische Berufe und oberes Kader",
-          24704
+          26686
         ],
         [
           "Intermediäre Berufe",
-          21084
+          23454
         ],
         [
           "Qualifizierte nichtmanuelle Berufe",
-          15857
+          15367
         ],
         [
           "Qualifizierte manuelle Berufe",
-          4138
+          4749
         ],
         [
           "Ungelernte Angestellte und Arbeiter",
-          6930
+          6753
         ],
         [
           "Lernende in dualer berufl. Grundbildung",
-          2723
+          2253
         ],
         [
           "Nicht zuteilbare Erwerbstätige",
-          5649
+          5517
         ],
         [
           "Erwerbslose",
-          7201
+          6640
         ],
         [
           "Nichterwerbspersonen",
-          59644
+          59372
         ]
       ],
-      "name": "2015",
+      "name": "2016",
       "turboThreshold": 0
     }
   ],
@@ -69,7 +69,7 @@
     },
     "labels": {
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "rotation": 0,
@@ -81,8 +81,8 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 600,
-    "height": 208,
+    "width": 665,
+    "height": 221,
     "spacing": [
       1,
       1,
@@ -116,7 +116,7 @@
     "type": "column",
     "inverted": true,
     "renderTo": "container-6298",
-    "spacingBottom": 3
+    "spacingBottom": 13
   },
   "plotOptions": {
     "series": {
@@ -149,7 +149,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt, 2016",
     "align": "left"
   },
   "yAxis": {
@@ -166,7 +166,7 @@
     "labels": {
       "y": 12,
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "format": "{value:,.0f}",
@@ -192,14 +192,14 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)."
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-14"
   },
   "legend": {
-    "padding": 1,
+    "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 1,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
@@ -212,7 +212,7 @@
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": 10
+      "fontSize": "10px"
     }
   },
   "tooltip": {

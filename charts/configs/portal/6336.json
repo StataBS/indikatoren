@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#B00000",
-      "legendIndex": 2,
+      "legendIndex": 4,
       "data": [
         [
           2007,
@@ -47,13 +47,17 @@
         [
           2017,
           1.3
+        ],
+        [
+          2018,
+          1.2
         ]
       ],
-      "name": "Weiterbildungsschule"
+      "name": "Weiterbildungsschule\u002FSek"
     },
     {
       "color": "#662673",
-      "legendIndex": 2,
+      "legendIndex": 1,
       "data": [
         [
           2007,
@@ -98,13 +102,17 @@
         [
           2017,
           8.7
+        ],
+        [
+          2018,
+          16.7
         ]
       ],
-      "name": "Spezialangebote WBS"
+      "name": "Spezialangebote WBS\u002FSek"
     },
     {
       "color": "#008AC3",
-      "legendIndex": 2,
+      "legendIndex": 3,
       "data": [
         [
           2007,
@@ -149,6 +157,10 @@
         [
           2017,
           9.9
+        ],
+        [
+          2018,
+          5.1
         ]
       ],
       "name": "Zentrum für Brückenangebote"
@@ -200,13 +212,17 @@
         [
           2017,
           11.4
+        ],
+        [
+          2018,
+          22.1
         ]
       ],
       "name": "Allg. Gewerbeschule"
     },
     {
       "color": "#FABD24",
-      "legendIndex": 1,
+      "legendIndex": 2,
       "marker": {
         "enabled": false
       },
@@ -254,6 +270,10 @@
         [
           2017,
           10
+        ],
+        [
+          2018,
+          8.7
         ]
       ],
       "name": "Berufsfachschule"
@@ -281,7 +301,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
-    "width": 320,
+    "width": 665,
     "height": 208,
     "spacing": [
       2,
@@ -293,6 +313,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
+    "spacingTop": 5,
     "renderTo": "container-6336",
     "spacingBottom": 2
   },
@@ -346,8 +367,10 @@
     "lineWidth": 0.5,
     "labels": {
       "style": {
-        "fontSize": 10,
-        "color": "#000000"
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
       }
     },
     "tickLength": 0,
@@ -371,19 +394,18 @@
   },
   "legend": {
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal",
       "textOverflow": null,
       "whiteSpace": "nowrap"
     },
-    "padding": 0,
-    "itemWidth": 130
+    "padding": 0
   },
   "plotOptions": {
     "series": {

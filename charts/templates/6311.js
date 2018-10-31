@@ -32,10 +32,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    //"x": 25,
-	  //"y": 25,  
-	  //"itemWidth": 300,
-	  itemMarginBottom: 5,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -48,7 +44,7 @@
     "type": "column",
     "inverted": false
   }
-}
+};
 }());
 
  

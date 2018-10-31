@@ -75,6 +75,7 @@
       "legend": {
       	padding: 0,
       	margin: 0,
+        itemMarginBottom: 2,
         "layout": "vertical",
         "verticalAlign": "middle",
         //"itemMarginBottom": 5,     
@@ -85,7 +86,6 @@
             "fontSize": "10px"
         },
         "symbolRadius": 0,
-        itemMarginBottom: 1
       }
 	};
 }());

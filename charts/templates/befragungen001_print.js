@@ -138,17 +138,17 @@
         }
     },
     "legend": {
-    	 padding: 0,
+        padding: 0,
+        itemMarginBottom: 2,
         "layout": "vertical",
         "verticalAlign": "middle",
         //"itemMarginBottom": 5,     
         "align": "right",
         "useHTML": true,
         "itemStyle": {
-        	"fontSize": "10px",
+        	fontSize: "10px",
         	fontFamily: "Arial",
-            "fontWeight": "normal",
-            //"width": 95,
+            fontWeight: "normal",
         },
         "symbolRadius": 0,
         "labelFormatter": function () {

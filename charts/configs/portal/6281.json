@@ -7,6 +7,10 @@
       "pointWidth": "15",
       "data": [
         [
+          2005,
+          52422
+        ],
+        [
           2006,
           52177
         ],
@@ -49,19 +53,30 @@
         [
           2016,
           51229
+        ],
+        [
+          2017,
+          51887
         ]
       ],
-      "name": "Beziehende von Prämienverbilligung (inkl. SH\u002FEL)"
+      "name": "PV-Beziehende (inkl. SH\u002FEL)"
     },
     {
       "color": "#7d60a0",
       "index": 1,
       "type": "line",
+      "marker": {
+        "enabled": false
+      },
       "yAxis": 1,
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
+        [
+          2005,
+          27.8959131545338
+        ],
         [
           2006,
           27.7844636619238
@@ -84,7 +99,7 @@
         ],
         [
           2011,
-          27.250150981903
+          27.2178425825776
         ],
         [
           2012,
@@ -105,9 +120,13 @@
         [
           2016,
           25.8463416849137
+        ],
+        [
+          2017,
+          26.07544173518
         ]
       ],
-      "name": "Anteil PV-Beziehende an Wohnbev. (rechte Achse)"
+      "name": "Anteil PV-Beziehende an der Wohnbevölkerung (rechte Skala)"
     }
   ],
   "chart": {
@@ -170,7 +189,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung"
+    "text": "Bezüger von Prämienverbilligungen"
   },
   "subtitle": {
     "style": {
@@ -179,7 +198,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "inkl. Bezügern von Sozialhilfe und Ergänzungsleistungen, Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -193,9 +212,10 @@
     },
     "labels": {
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
-      }
+      },
+      "step": 2
     },
     "tickLength": 0,
     "tickInterval": 1
@@ -206,7 +226,8 @@
         "y": 3,
         "format": "{value:,.0f}",
         "style": {
-          "color": "#000000"
+          "color": "#000000",
+          "fontSize": "10px"
         }
       },
       "min": 0,
@@ -226,7 +247,8 @@
         "format": "{value:,.0f}%",
         "y": 3,
         "style": {
-          "color": "#000000"
+          "color": "#000000",
+          "fontSize": "10px"
         }
       },
       "min": 0,
@@ -255,12 +277,12 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EAmt für Sozialbeiträge, Abteilung Prämienverbilligungen.\u003Cbr\u002F\u003EZuletzt geändert: 2017-1-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EAmt für Sozialbeiträge, Abteilung Prämienverbilligungen.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
   "legend": {
-    "padding": 3,
+    "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
@@ -269,7 +291,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "margin": 3,
     "labelFormatter": function (){
   	  return this.name.replace("(rechte", "<br/>(rechte");
   	}
@@ -277,7 +298,7 @@
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": 10
+      "fontSize": "10px"
     }
   },
   "tooltip": {

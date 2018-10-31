@@ -154,6 +154,7 @@
   "legend": {
     "padding": 0,
     "margin": 0,
+    "itemMarginBottom": 2,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
@@ -163,7 +164,6 @@
       "fontSize": "10px"
     },
     "symbolRadius": 0,
-    "itemMarginBottom": 1,
     "style": {
       "fontSize": "12px"
     }

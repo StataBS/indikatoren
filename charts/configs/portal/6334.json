@@ -1,11 +1,7 @@
 {
   "series": [
     {
-      "color": "#ff8028",
-      "index": 1,
-      "marker": {
-        "enabled": true
-      },
+      "color": "#6F6F6F",
       "data": [
         [
           2006,
@@ -50,13 +46,16 @@
         [
           2016,
           164520
+        ],
+        [
+          2017,
+          164520
         ]
       ],
       "name": "Basel"
     },
     {
       "color": "#007a2f",
-      "index": 2,
       "data": [
         [
           2006,
@@ -101,13 +100,16 @@
         [
           2016,
           146744
+        ],
+        [
+          2017,
+          146744
         ]
       ],
       "name": "Bern"
     },
     {
-      "color": "#672773",
-      "index": 3,
+      "color": "#ff8028",
       "data": [
         [
           2006,
@@ -152,13 +154,16 @@
         [
           2016,
           178506
+        ],
+        [
+          2017,
+          178506
         ]
       ],
       "name": "Genf"
     },
     {
       "color": "#b00000",
-      "index": 4,
       "data": [
         [
           2006,
@@ -203,13 +208,16 @@
         [
           2016,
           138874
+        ],
+        [
+          2017,
+          138891
         ]
       ],
       "name": "Liestal"
     },
     {
-      "color": "#a0bec8",
-      "index": 5,
+      "color": "#256370",
       "data": [
         [
           2006,
@@ -254,6 +262,10 @@
         [
           2016,
           147394
+        ],
+        [
+          2017,
+          147400
         ]
       ],
       "name": "Zürich"
@@ -346,8 +358,10 @@
     "lineWidth": 0.5,
     "labels": {
       "style": {
-        "fontSize": 10,
-        "color": "#000000"
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
       }
     },
     "tickLength": 0,
@@ -375,14 +389,13 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 2,
-    "itemWidth": 54,
-    "margin": 2
+    "padding": 0,
+    "itemDistance": 7
   },
   "plotOptions": {
     "series": {
