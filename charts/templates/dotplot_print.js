@@ -109,8 +109,10 @@
             }
         },
         "legend": {
-    		"enabled": false,
-            "symbolRadius": 0
+    		enabled: false,
+            symbolRadius: 0, 
+            padding: 0,
+            itemMarginBottom: 2,
     	},
         "tooltip": {
             "formatter": function(args){

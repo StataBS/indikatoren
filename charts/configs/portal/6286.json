@@ -1,22 +1,235 @@
 {
   "series": [
     {
-      "color": "#CD9C00",
+      "color": "#689199",
       "visible": true,
       "data": [
         [
-          "Basel-Stadt",
-          149.6338322
+          "ZG",
+          247.7
         ],
         [
-          "Zürich",
-          120.3679726
+          "SZ",
+          172.4
         ],
         [
-          "Genf",
-          146.0623559
+          "NW",
+          159.5
+        ],
+        [
+          "BS",
+          149.5
+        ],
+        [
+          "GE",
+          145.3
+        ],
+        [
+          "ZH",
+          120.5
+        ],
+        [
+          "OW",
+          119.3
+        ],
+        [
+          "VD",
+          99.6
+        ],
+        [
+          "TI",
+          97.1
+        ],
+        [
+          "BL",
+          96.8
+        ],
+        [
+          "SH",
+          91.7
+        ],
+        [
+          "NE",
+          90.5
+        ],
+        [
+          "LU",
+          89
+        ],
+        [
+          "IR",
+          88.8
+        ],
+        [
+          "AR",
+          85.3
+        ],
+        [
+          "AG",
+          83.8
+        ],
+        [
+          "GR",
+          83.3
+        ],
+        [
+          "FR",
+          79.9
+        ],
+        [
+          "SG",
+          78.8
+        ],
+        [
+          "TG",
+          78.4
+        ],
+        [
+          "BE",
+          76.6
+        ],
+        [
+          "SO",
+          73
+        ],
+        [
+          "GL",
+          71.2
+        ],
+        [
+          "UR",
+          70.1
+        ],
+        [
+          "VS",
+          66.1
+        ],
+        [
+          "JU",
+          65.2
         ]
       ],
+      "name": "Ressourcenindex nach Kanton",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B00000",
+      "index": 1,
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
+      "legendIndex": 2,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "ZG",
+          100
+        ],
+        [
+          "SZ",
+          100
+        ],
+        [
+          "NW",
+          100
+        ],
+        [
+          "BS",
+          100
+        ],
+        [
+          "GE",
+          100
+        ],
+        [
+          "ZH",
+          100
+        ],
+        [
+          "OW",
+          100
+        ],
+        [
+          "VD",
+          100
+        ],
+        [
+          "TI",
+          100
+        ],
+        [
+          "BL",
+          100
+        ],
+        [
+          "SH",
+          100
+        ],
+        [
+          "NE",
+          100
+        ],
+        [
+          "LU",
+          100
+        ],
+        [
+          "IR",
+          100
+        ],
+        [
+          "AR",
+          100
+        ],
+        [
+          "AG",
+          100
+        ],
+        [
+          "GR",
+          100
+        ],
+        [
+          "FR",
+          100
+        ],
+        [
+          "SG",
+          100
+        ],
+        [
+          "TG",
+          100
+        ],
+        [
+          "BE",
+          100
+        ],
+        [
+          "SO",
+          100
+        ],
+        [
+          "GL",
+          100
+        ],
+        [
+          "UR",
+          100
+        ],
+        [
+          "VS",
+          100
+        ],
+        [
+          "JU",
+          100
+        ]
+      ],
+      "name": "Durchschnitt Schweiz",
       "turboThreshold": 0
     }
   ],
@@ -32,7 +245,7 @@
     },
     "labels": {
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "rotation": 0
@@ -42,7 +255,7 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
+    "width": 665,
     "height": 208,
     "spacing": [
       2,
@@ -76,6 +289,7 @@
     },
     "type": "column",
     "inverted": false,
+    "spacingTop": 5,
     "renderTo": "container-6286",
     "spacingBottom": 2
   },
@@ -90,8 +304,7 @@
           "color": "black"
         }
       },
-      "pointPadding": 0,
-      "pointWidth": 40
+      "pointPadding": 0
     }
   },
   "title": {
@@ -127,7 +340,7 @@
     "labels": {
       "y": 3,
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "format": "{value:,.0f}"
@@ -155,14 +368,14 @@
     "text": "Quelle: Eidgenössische Finanzverwaltung."
   },
   "legend": {
-    "padding": 1,
+    "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 1,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "enabled": false,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left"
@@ -170,7 +383,7 @@
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": 10
+      "fontSize": "10px"
     }
   },
   "tooltip": {

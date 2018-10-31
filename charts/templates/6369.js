@@ -26,7 +26,6 @@
     enabled:true,
     "layout": "vertical",
     "verticalAlign": "middle",
-    "itemMarginBottom": 1, 
     "align": "right",
     "itemStyle": {
       "fontWeight": "normal"
@@ -53,6 +52,7 @@
   "chart": {
   	type: "column",
     "inverted": false,
+    spacingTop: 5,
   }
 };
 }());

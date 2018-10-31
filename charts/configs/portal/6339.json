@@ -1,10 +1,6 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "color": "#008AC3",
       "data": [
         [
@@ -33,19 +29,19 @@
         ],
         [
           2006,
-          4.7
+          4.73230268766426
         ],
         [
           2007,
-          5.5
+          5.47021580300814
         ],
         [
           2008,
-          5.1
+          5.11291971406451
         ],
         [
           2009,
-          4.6
+          4.5534495412844
         ],
         [
           2010,
@@ -74,15 +70,15 @@
         [
           2016,
           3
+        ],
+        [
+          2017,
+          2.9
         ]
       ],
-      "name": "Nettoschuldenquote in ‰ (linke Skala)"
+      "name": "Nettoschuldenquote"
     },
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "color": "#68AB2B",
       "yAxis": 1,
       "data": [
@@ -112,15 +108,15 @@
         ],
         [
           2006,
-          12231
+          12230.9937911601
         ],
         [
           2007,
-          14875.5
+          14875.500350445
         ],
         [
           2008,
-          14389.8
+          14389.8349904802
         ],
         [
           2009,
@@ -153,9 +149,13 @@
         [
           2016,
           9950
+        ],
+        [
+          2017,
+          9643
         ]
       ],
-      "name": "Nettoschulden pro Kopf in Franken (rechte Skala)"
+      "name": "Nettoschulden pro Kopf (rechte Skala)"
     }
   ],
   "chart": {
@@ -181,7 +181,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -193,7 +193,7 @@
     },
     "type": "line",
     "renderTo": "container-6339",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -202,7 +202,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken"
+    "text": "Nettoschuldenquote und Nettoschulden pro Kopf"
   },
   "subtitle": {
     "style": {
@@ -211,7 +211,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Nettoschuldenquote Basel-Stadt in Promille des BIP der Schweiz und Nettoschulden Basel-Stadt pro Kopf in Franken",
     "align": "left"
   },
   "tooltip": {
@@ -223,11 +223,13 @@
       "labels": {
         "format": "{value:,.0f}‰",
         "style": {
-          "color": "#000000"
+          "color": "#000000",
+          "fontSize": "10px"
         }
       },
       "min": 0,
-      "title": ""
+      "title": "",
+      "tickAmount": 5
     },
     {
       "title": {
@@ -240,11 +242,13 @@
       "labels": {
         "format": "{value:,.0f} Fr.",
         "style": {
-          "color": "#000000"
+          "color": "#000000",
+          "fontSize": "10px"
         }
       },
       "min": 0,
       "gridLineWidth": 0,
+      "tickAmount": 5,
       "opposite": true
     }
   ],
@@ -253,8 +257,10 @@
     "lineWidth": 0.5,
     "labels": {
       "style": {
-        "fontSize": 10,
-        "color": "#000000"
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
       }
     },
     "tickLength": 0,
@@ -272,9 +278,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt."
+    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
   "legend": {
     "enabled": true,
@@ -282,13 +288,12 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0,
-    "itemWidth": 500
+    "padding": 0
   },
   "plotOptions": {
     "series": {

@@ -142,7 +142,7 @@
           51
         ]
       ],
-      "name": "Weiss nicht \u002F keine Angabe",
+      "name": "Weiss nicht \u002F Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -167,19 +167,19 @@
         "fontSize": "10px"
       },
       "formatter": function () {
-                //add sum of observations of visible series to the axis label
-                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
-                    return val.visible;
-                });
-                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-                    return accumulator + series.yData[indexOfCurrentValue];
-                }, 0);
-                //use N if all series are visible, otherwise use n
-                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
-                var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
-            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
-            }
+                  //add sum of observations of visible series to the axis label
+                  var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                      return val.visible;
+                  });
+                  var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                  var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                      return accumulator + series.yData[indexOfCurrentValue];
+                  }, 0);
+                  //use N if all series are visible, otherwise use n
+                  var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                  var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+              	return this.value + ' (' + nString + sum + ')';      
+          }
     }
   },
   "chart": {
@@ -204,7 +204,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -217,9 +217,10 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "spacingTop": 12,
+    "spacingTop": 5,
+    "inverted": true,
     "renderTo": "container-6299",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -256,7 +257,7 @@
     }
   },
   "yAxis": {
-    "tickInterval": 10,
+    "tickInterval": 25,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -291,25 +292,31 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-17"
   },
   "legend": {
     "padding": 0,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "itemMarginBottom": 2,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "useHTML": true,
     "itemStyle": {
       "fontSize": "10px",
       "fontFamily": "Arial",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        }
+          console.log(this.name);
+            return this.name;
+        },
+    "reversed": true,
+    "itemWidth": 117
   },
   "exporting": {
     "filename": 6299

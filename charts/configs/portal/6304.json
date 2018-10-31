@@ -711,7 +711,7 @@
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 600,
+    "width": 665,
     "height": 208,
     "spacing": [
       1,
@@ -809,6 +809,7 @@
   },
   "legend": {
     "padding": 0,
+    "itemMarginBottom": 2,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",

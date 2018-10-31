@@ -99,7 +99,7 @@
           34347
         ],
         [
-          "         ",
+          "        ",
           null
         ],
         [
@@ -109,6 +109,18 @@
         [
           "2016 Nicht-BS",
           36999
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2017 BS",
+          28361
+        ],
+        [
+          "2017 Nicht-BS",
+          40050
         ]
       ],
       "name": "Akutsomatik",
@@ -213,7 +225,7 @@
           857
         ],
         [
-          "         ",
+          "        ",
           null
         ],
         [
@@ -223,6 +235,18 @@
         [
           "2016 Nicht-BS",
           927
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2017 BS",
+          3117
+        ],
+        [
+          "2017 Nicht-BS",
+          1962
         ]
       ],
       "name": "Geriatrie",
@@ -327,7 +351,7 @@
           1012
         ],
         [
-          "         ",
+          "        ",
           null
         ],
         [
@@ -337,6 +361,18 @@
         [
           "2016 Nicht-BS",
           1023
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2017 BS",
+          2288
+        ],
+        [
+          "2017 Nicht-BS",
+          1441
         ]
       ],
       "name": "Psychiatrie",
@@ -441,7 +477,7 @@
           1456
         ],
         [
-          "         ",
+          "        ",
           null
         ],
         [
@@ -451,6 +487,18 @@
         [
           "2016 Nicht-BS",
           1532
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2017 BS",
+          1736
+        ],
+        [
+          "2017 Nicht-BS",
+          1825
         ]
       ],
       "name": "Rehabilitation",
@@ -469,7 +517,7 @@
     },
     "labels": {
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "step": 1,
@@ -486,7 +534,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -517,9 +565,9 @@
                     
                 }
     },
+    "spacingBottom": 15,
     "inverted": false,
-    "renderTo": "container-6322",
-    "spacingBottom": 2
+    "renderTo": "container-6322"
   },
   "plotOptions": {
     "series": {
@@ -569,13 +617,18 @@
     "labels": {
       "y": 3,
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "format": "{value:,.0f}"
     },
-    "max": 42000,
-    "tickInterval": 10500
+    "tickPositions": [
+      0,
+      12500,
+      25000,
+      37500,
+      50000
+    ]
   },
   "navigation": {
     "menuItemStyle": {
@@ -594,28 +647,26 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-20"
   },
   "legend": {
-    "padding": 2,
+    "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "itemWidth": 120,
-    "margin": 2
+    "align": "left"
   },
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": 10
+      "fontSize": "10px"
     }
   },
   "tooltip": {

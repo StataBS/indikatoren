@@ -12,7 +12,7 @@
         "zoomType": "xy",
         "events":{
                 "load": function() {
-                    this.credits.element.onclick = function() {}
+                    this.credits.element.onclick = function() {};
                 }
         }
     }, 
@@ -25,5 +25,5 @@
                 "name": "Anzahl"
             }        
         ]
-	}
+	};
 }());

@@ -14,37 +14,43 @@
   },
   "xAxis": {
     "type": "category",
-	"tickInterval": 2	
+	  //"tickInterval": 2	
+	  labels: {
+	    padding: 0,
+	    rotation: 0,
+	  },
   },  
-"yAxis": [{
+yAxis: [{
   	title: {
         text: null
     },
-    "labels": {
-      "format": "{value:,.0f} kg",
+    labels: {
+      format: "{value:,.0f} kg",
       y: 3,
-      "style": {
-       "color": "#000000"
-        },
+      style: {
+       color: "#000000",
+       fontSize: '10px',
+      },
     },
-    "min": 0,  
+    min: 0,  
     tickAmount: 5
   },
   {
     title: {
         text: null
     },
-    "labels": {
-      "format": "{value:,.0f}%",
+    labels: {
+      format: "{value:,.0f}%",
       y: 3,
-       "style": {
-       "color": "#000000"
-        },
+       style: {
+       color: "#000000",
+       fontSize: '10px',
+      },
     },
-    "min": 0,
+    min: 0,
     tickAmount: 5,
     max: 50,
-    "opposite": true
+    opposite: true
   }
   ],
   "series": [
@@ -84,18 +90,16 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
-    symbolPadding: 3,
-    symbolWidth: 10,
     "align": "left",
+    itemDistance: 10,
+    symbolWidth: 10,
     "itemStyle": {
      "fontWeight": "normal"
     }
   },
   "chart": {    
-    //"marginBottom": 75,
-    //"marginTop": 75,
-    "type": "column"
+    type: "column",
+    width: 665,
   }
-}
+};
 }());

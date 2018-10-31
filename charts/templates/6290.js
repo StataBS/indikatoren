@@ -8,11 +8,47 @@
 ],
   "xAxis": {
       "type": "category",
+      labels: {
+        "formatter": function() {
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+            	return this.value + " (" + nString + sum + ")";      
+        },
+      },
   },
-  "legend": {
-      "reversed": false
+  yAxis: {
+    tickInterval: 25,
+  },
+  legend: {
+      reversed: true, 
+      alignColumns: false,
+      itemWidth: 77,
+      layout: 'horizontal',
+      align: 'left',
+      verticalAlign: 'top',
+      labelFormatter: function () {
+        return this.name;
+      },
+      itemStyle: {
+        textOverflow: undefined,
+        whiteSpace: 'nowrap',
+      }
+
+  },
+  chart: {
+      spacingTop: 5,
+      inverted: true,
   }
-	}
+};
 }());
 
  

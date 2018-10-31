@@ -299,6 +299,7 @@
   },
   "legend": {
     "padding": 1,
+    "itemMarginBottom": 2,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",

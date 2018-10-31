@@ -39,9 +39,13 @@
         [
           "2016",
           31
+        ],
+        [
+          "2017",
+          21
         ]
       ],
-      "name": "Basel-Stadt und Basel-Landschaft",
+      "name": "Anzahl",
       "turboThreshold": 0
     }
   ],
@@ -52,8 +56,10 @@
     "lineWidth": 0.5,
     "labels": {
       "style": {
-        "fontSize": 10,
-        "color": "#000000"
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
       },
       "rotation": 0
     },
@@ -94,6 +100,7 @@
     },
     "type": "column",
     "inverted": false,
+    "spacingTop": 5,
     "renderTo": "container-6368",
     "spacingBottom": 12
   },
@@ -155,7 +162,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BaselArea.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: BaselArea.\u003Cbr\u002F\u003EZuletzt geändert: 2015-12-17"
   },
   "legend": {
     "enabled": false,
@@ -163,7 +170,7 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 1,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"

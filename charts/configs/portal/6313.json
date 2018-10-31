@@ -6,15 +6,19 @@
       "data": [
         [
           "2010",
-          35
+          34.5
         ],
         [
           "2012",
-          36.2
+          36.1
         ],
         [
           "2014",
-          37.9
+          37.8
+        ],
+        [
+          "2016",
+          38.8
         ]
       ],
       "name": "Anteil Erneuerbare Energie",
@@ -33,7 +37,7 @@
     },
     "labels": {
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       }
     },
@@ -43,7 +47,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -76,8 +80,9 @@
     },
     "type": "column",
     "inverted": false,
+    "spacingTop": 5,
     "renderTo": "container-6313",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -89,8 +94,7 @@
           "fontWeight": "normal",
           "color": "black"
         }
-      },
-      "pointWidth": 30
+      }
     }
   },
   "title": {
@@ -109,7 +113,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -126,11 +130,12 @@
     "labels": {
       "y": 3,
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "format": "{value:,.0f}%"
     },
+    "max": 40,
     "tickAmount": 5
   },
   "navigation": {
@@ -150,14 +155,14 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-17"
   },
   "legend": {
-    "padding": 1,
+    "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 1,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
@@ -165,13 +170,12 @@
     "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "x": 35
+    "align": "left"
   },
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": 10
+      "fontSize": "10px"
     }
   },
   "tooltip": {

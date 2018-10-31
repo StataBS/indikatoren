@@ -124,9 +124,10 @@
         "reversed": true,
         "layout": "vertical",
         "verticalAlign": "middle",
-        "itemMarginBottom": 5,     
         "align": "right",
         "useHTML": true,
+        padding: 0,
+        itemMarginBottom: 2,
         "itemStyle": {
         	"fontSize": "10px",
         	fontFamily: "Arial",

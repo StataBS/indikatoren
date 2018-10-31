@@ -587,6 +587,7 @@
   },
   "legend": {
     "padding": 0,
+    "itemMarginBottom": 3,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
@@ -604,8 +605,7 @@
     },
     "enabled": true,
     "y": -13,
-    "reversed": true,
-    "itemMarginBottom": 3
+    "reversed": true
   },
   "exporting": {
     "filename": 6735

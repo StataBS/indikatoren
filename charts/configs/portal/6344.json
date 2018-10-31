@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#007a2f",
-      "index": 8,
+      "index": 9,
       "legendIndex": 0,
       "data": [
         [
@@ -711,7 +711,7 @@
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 600,
+    "width": 665,
     "height": 208,
     "spacing": [
       2,
@@ -809,6 +809,7 @@
   },
   "legend": {
     "padding": 0,
+    "itemMarginBottom": 2,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",

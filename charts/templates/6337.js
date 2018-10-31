@@ -30,20 +30,16 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	//"y": 35,
-	//"width": 200,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "series": [
   {"color": "#b00000", "index": 5}, /*rot */
-  {"color": "#2f656b", "index": 4}, /*dunkelblau */
+  {"color": "#246370", "index": 4}, /*dunkelblau */
   ],
   "chart": {
     "renderTo": 'container-I.01.1.0016', 
-    //"marginBottom": 75,
-    //"marginTop": 75,
     "type": "column",
     "inverted": false
   },
@@ -52,5 +48,5 @@
   "footerFormat": 'Total: <b>{point.total:,.0f}</b>',
    "shared": true
   },
-}
+};
 }());

@@ -502,6 +502,7 @@
   },
   "legend": {
     "padding": 0,
+    "itemMarginBottom": 3,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
@@ -518,8 +519,7 @@
         return this.name.replace("/ ", "/<br/>");
     },
     "enabled": true,
-    "y": -5,
-    "itemMarginBottom": 3
+    "y": -5
   },
   "exporting": {
     "filename": 6742

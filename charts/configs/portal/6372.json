@@ -9,7 +9,7 @@
         ],
         [
           "ZH",
-          1.41
+          1.4
         ],
         [
           "AG",
@@ -17,71 +17,71 @@
         ],
         [
           "BS",
-          0.84
+          0.86
         ],
         [
           "NW",
           0.71
         ],
         [
-          "LU",
-          0.66
+          "SZ",
+          0.67
         ],
         [
-          "SZ",
+          "LU",
           0.64
         ],
         [
+          "AR",
+          0.32
+        ],
+        [
           "OW",
-          0.29
+          0.27
         ],
         [
           "TG",
-          0.25
-        ],
-        [
-          "AR",
           0.24
         ],
         [
           "BL",
-          0.17
+          0.16
         ],
         [
           "SH",
-          0.13
+          0.1
         ],
         [
           "GE",
-          0.08
+          0.06
         ],
         [
           "AI",
-          -0.15
+          -0.11
         ],
         [
           "SG",
-          -0.19
+          -0.2
         ],
         [
           "SO",
-          -0.22
+          -0.23
         ],
         [
           "VD",
-          -0.44
+          -0.36
         ],
         [
           "BE",
-          -0.62
+          -0.64
         ],
         [
           "NE",
-          -0.63
+          -0.66
         ],
         [
           "UR",
-          -0.66
+          -0.75
         ],
         [
           "GL",
@@ -89,23 +89,23 @@
         ],
         [
           "FR",
-          -0.95
+          -0.98
         ],
         [
           "TI",
-          -1.01
+          -1.04
         ],
         [
           "GR",
-          -1.15
+          -1.09
         ],
         [
           "VS",
-          -1.56
+          -1.58
         ],
         [
           "JU",
-          -1.83
+          -1.84
         ]
       ],
       "turboThreshold": 0
@@ -123,7 +123,7 @@
     },
     "labels": {
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "rotation": -90,
@@ -135,7 +135,7 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 600,
+    "width": 665,
     "height": 208,
     "spacing": [
       2,
@@ -169,8 +169,9 @@
     },
     "type": "column",
     "inverted": false,
-    "renderTo": "container-6372",
-    "spacingBottom": 2
+    "spacingBottom": 5,
+    "spacingTop": 5,
+    "renderTo": "container-6372"
   },
   "plotOptions": {
     "series": {
@@ -221,7 +222,7 @@
     "labels": {
       "y": 3,
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "format": "{value:,.1f}"
@@ -250,9 +251,9 @@
     "text": "Quelle: Credit Suisse Group AG."
   },
   "legend": {
-    "padding": 1,
+    "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 1,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
@@ -266,7 +267,7 @@
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": 10
+      "fontSize": "10px"
     }
   },
   "colors": [

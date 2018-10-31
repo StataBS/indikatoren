@@ -1,4 +1,4 @@
-daten_jahr Wohnort	Akutsomatik	Geriatrie	Psychiatrie	Rehabilitation
+﻿daten_jahr Wohnort	Akutsomatik	Geriatrie	Psychiatrie	Rehabilitation
 2008 BS	27758	3629	2299	1409
 2008 Nicht-BS	27123	182	1333	1107
 .
@@ -22,6 +22,9 @@ daten_jahr Wohnort	Akutsomatik	Geriatrie	Psychiatrie	Rehabilitation
 .......
 2015 BS	29401	4009	2689	2050
 2015 Nicht-BS	34347	857	1012	1456
-.........
+........
 2016 BS	29866	3891	2760	2068
 2016 Nicht-BS	36999	927	1023	1532
+.........
+2017 BS	28361	3117	2288	1736
+2017 Nicht-BS	40050	1962	1441	1825

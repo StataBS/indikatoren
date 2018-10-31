@@ -1,10 +1,6 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "color": "#8b2223",
       "data": [
         [
@@ -46,6 +42,14 @@
         [
           2015,
           403731511.1
+        ],
+        [
+          2016,
+          405215788.1
+        ],
+        [
+          2017,
+          438781747
         ]
       ],
       "name": "Einnahmen aus Quellensteuer"
@@ -85,6 +89,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
+    "spacingTop": 5,
     "renderTo": "container-6285",
     "spacingBottom": 2
   },
@@ -137,8 +142,10 @@
     "lineWidth": 0.5,
     "labels": {
       "style": {
-        "fontSize": 10,
-        "color": "#000000"
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
       }
     },
     "tickLength": 0,
@@ -166,7 +173,7 @@
     "verticalAlign": "middle",
     "align": "right",
     "symbolRadius": 0,
-    "itemMarginBottom": 1,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px"
     },
@@ -176,19 +183,6 @@
     "series": {
       "marker": {
         "enabled": false
-      },
-      "dataLabels": {
-        "enabled": true,
-        "allowOverlap": true,
-        "y": 40,
-        "formatter": function () {
-            var last = this.series.data[this.series.data.length - 1];
-            var first = this.series.data[0];
-            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 0, ",", " ");
-            }
-            return "";
-          }
       }
     }
   },

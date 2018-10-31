@@ -7,8 +7,9 @@
         }
   },
   "yAxis": {
-  	max: 42000,
-  	tickInterval: 10500,
+  	tickPositions: [0, 12500, 25000, 37500, 50000],
+  	//tickInterval: 10500,
+  	//tickAmount: 4,
     "labels": {
       "format": "{value:,.0f}",
         //padding: 0,
@@ -32,11 +33,7 @@
  "legend": {
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5, 
     "align": "left",
-    itemWidth: 120,
-    margin: 2,
-    padding: 2,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -76,6 +73,7 @@
   },
   "chart": {
   	  //marginLeft: 95,
+  	  spacingBottom: 5,
      "inverted": false,
      //width: 600, 
      //spacing: [1,1,3,1]

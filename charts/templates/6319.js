@@ -4,37 +4,39 @@
     "tickInterval": 1
   },
     "yAxis": [{
-    "labels": {
-      "format": "{value:,.0f}",
+    labels: {
+      format: "{value:,.0f}",
       y: 3,
-      "style": {
-        "color": "#000000"
+      style: {
+        color: "#000000",
+        fontSize: '10px', 
       }
     },
-    "min": 0,
-    "max": undefined,
+    min: 0,
+    max: undefined,
     tickAmount: 5,
-    "title": ""
+    title: ""
   },
   {
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
+    title: {
+      style: {
+        color: "#000000",
+        fontSize: null
       },
-      "text": null
+      text: null
     },
-    "labels": {
-      "format": "{value:,.0f}",
+    labels: {
+      format: "{value:,.0f}",
       y: 3,
-      "style": {
-        "color": "#000000"
+      style: {
+        color: "#000000",
+        fontSize: '10px',
       }
     },
-    "min": 0,
+    min: 0,
     tickAmount: 5,
-    "gridLineWidth": 0,
-    "opposite": true
+    gridLineWidth: 0,
+    opposite: true
   }
   ],
   "tooltip": {
@@ -76,12 +78,8 @@
   ],
   "legend": {
     "enabled": true,
-    //"x": 45,
-    //"y": 35,
-    //"itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

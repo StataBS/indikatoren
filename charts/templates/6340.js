@@ -52,7 +52,7 @@
     "chart": {      
     	 marginLeft: 125,
          "inverted": true,
-         width: 600
+         width: 665
       },
     };
 }());

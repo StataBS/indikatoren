@@ -15,32 +15,17 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
  "series": [
- 	{"color": "#ff8028",
-    "index": 1,
- 	  "marker": {
-        "enabled": true
-    }
- 	}, /*orange BS*/
- 	{"color": "#007a2f",
- 	   "index": 2
- 	}, /*grün BE*/
-	{"color": "#672773",
- 	   "index": 3}, /*violett GE*/
-	{"color": "#b00000",
- 	   "index": 4}, /*rot Liestal*/
-	{"color": "#a0bec8",
- 	   "index": 5}, /*hellblau ZH*/
+ 	{"color": "#6F6F6F",}, /*dunkelgrau BS*/
+ 	{"color": "#007a2f",}, /*grün BE*/
+	{"color": "#ff8028",}, /*orange GE*/
+	{"color": "#b00000",}, /*rot Liestal*/
+	{"color": "#256370",}, /*dunkelblau ZH*/
 	  ],
   "legend": {
     "enabled": true,
-    //"x": 45,
-    //"y": 55,
-    itemWidth: 54,
-    margin: 2,
-    padding: 2,
+    itemDistance: 7,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

@@ -5,15 +5,15 @@
       "data": [
         [
           "2000",
-          13.3752315217908
+          13.4
         ],
         [
           "2003",
-          14.912066697781
+          14.9
         ],
         [
           "2008",
-          14.4737677173683
+          14.5
         ]
       ],
       "name": "Über Grenzwert am Tag",
@@ -24,15 +24,15 @@
       "data": [
         [
           "2000",
-          17.040003799332
+          17
         ],
         [
           "2003",
-          19.4010140438712
+          19.4
         ],
         [
           "2008",
-          16.2354558916861
+          16.2
         ]
       ],
       "name": "Über Grenzwert in der Nacht",
@@ -43,18 +43,18 @@
       "data": [
         [
           "2000",
-          25.9573524988523
+          26
         ],
         [
           "2003",
-          25.6311256311256
+          25.6
         ],
         [
           "2008",
-          24.5657922572456
+          24.6
         ]
       ],
-      "name": "Über 50 dB (A) in der Nacht",
+      "name": "Über 50 dB(A) in der Nacht",
       "turboThreshold": 0
     }
   ],
@@ -70,7 +70,7 @@
     },
     "labels": {
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       }
     },
@@ -80,7 +80,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -114,7 +114,7 @@
     "type": "column",
     "inverted": false,
     "renderTo": "container-6311",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -146,7 +146,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in %",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -163,7 +163,7 @@
     "labels": {
       "y": 3,
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "format": "{value}%"
@@ -188,14 +188,14 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster."
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-24"
   },
   "legend": {
-    "padding": 1,
+    "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
@@ -208,7 +208,7 @@
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": 10
+      "fontSize": "10px"
     }
   },
   "tooltip": {

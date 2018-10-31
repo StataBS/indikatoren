@@ -684,6 +684,8 @@ id | visible | visibleInPortal | indikatorenset
 6435 | true | false | Nachhaltigkeit
 6437 | true | true | Legislaturplan
 6438 | true | true | Legislaturplan
+6442 | true | false | Legislaturplan (Print)
+6443 | true | false | Legislaturplan (Print)
 6448 | true | true | Arbeitsmarkt
 6449 | true | true | Arbeitsmarkt
 6450 | true | true | Arbeitsmarkt

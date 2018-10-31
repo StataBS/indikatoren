@@ -341,7 +341,8 @@
   },
   "legend": {
     "symbolRadius": 0,
-    "padding": 1,
+    "padding": 0,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontWeight": "normal",
       "fontSize": "10px"
@@ -359,7 +360,7 @@
   },
   "customFunctions": {
     "createSymmetricAxis": function (axis){
-                var absMax = Math.max(Math.abs(axis.min), Math.abs(axis.max));
+                var absMax = Math.max(Math.abs(axis.dataMin), Math.abs(axis.dataMax));
                 axis.setExtremes(-absMax, absMax);
         	}
   },

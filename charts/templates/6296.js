@@ -14,7 +14,7 @@
   "yAxis": {
     tickAmount: 5,
     "labels": {
-        "format": "{value:,.1f}%",
+        "format": "{value}%",
     },
 	"max": undefined
   },
@@ -23,9 +23,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    //"x": 20,
-	  //"y": 45,
-  	//"width": 200,
     "itemStyle": {
       "fontWeight": "normal"
     }
