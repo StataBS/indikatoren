@@ -44,7 +44,7 @@
   "chart": {      
     "type": "column",
     "inverted": false,
-    //"spacingTop": 100
+    "spacingTop": 5
   }
 }
 }());

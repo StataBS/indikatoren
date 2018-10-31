@@ -89,7 +89,7 @@
     },
     "labels": {
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       }
     },
@@ -183,7 +183,7 @@
     "labels": {
       "y": 3,
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "format": "{value:,.1f}"
@@ -214,7 +214,7 @@
     "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2016-12-5"
   },
   "legend": {
-    "padding": 2,
+    "padding": 0,
     "symbolRadius": 0,
     "itemMarginBottom": 2,
     "itemStyle": {
@@ -225,13 +225,12 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "margin": 5,
     "itemWidth": 300
   },
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": 10
+      "fontSize": "10px"
     }
   },
   "tooltip": {

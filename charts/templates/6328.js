@@ -1,89 +1,129 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval":2
+    "tickInterval": 1,
+    labels: {
+      y: 12
+    },
   },
   "yAxis": {
-    tickAmount: 5,
-  	"labels": {
-  		"format": "{value:,.0f}%"
-  	}
+	"labels": {
+		"format": "{value:,.0f}%"
+	}
   },	
   "tooltip": {
     "shared": false, 
-	  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>'
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>'
   },
   "series": [
-    {
-      "color": "#B00000",
-      visible:true,
-      "marker": {
-        "enabled": false
-    }    
+    { 
+      color: "#B00000", 
+      id: '0',
     }, /* dunkelrot */
   	{
-  	  "color": "#007A2F",
-	    visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* dunkelgrün */
-  	{
-  	  "color": "#4f81bd",
-	    visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* dunkelblau */
-  	{
-  	  "color": "#662673",
-    	visible:true,
-          "marker": {
-            "enabled": false
-      }    
-    }, /* dunkelviolett */
+  	  color: "#007A2F",
+  	  id: '1',
+  	}, /* dunkelgrün */
     {
-      "color": "#7F5F1A",
-      visible:true,
-      "marker": {
-        "enabled": false
-      }    
+  	  color: "#4f81bd",
+  	  id: '2',
+  	}, /* dunkelblau */
+  	{
+  	  color: "#662673", 
+  	  id: '3', 
+  	}, /* dunkelviolett */
+  	{
+      color: "#7F5F1A", 
+      id: '4'
     }, /* dunkelbraun */
+    {
+  	  color: "#FABD24", 
+  	  id: '5'
+  	}, /* dunkelgelb */
   	{
-  	  "color": "#FABD24",
-	    visible:true,
-      "marker": {
-        "enabled": false
+  	  color: "#3C3C3C", 
+  	  id: '6'
+  	}, /* schwarz */
+    { 
+      color: "#B00000", /* dunkelrot */
+      linkedTo: '0',
+        marker: {
+          enabled: true,
+        }    
+    }, 
+    { 
+      color: "#007A2F", /* dunkelgrün */
+	    showInLegend: false,
+	    linkedTo: '1',
+      marker: {
+        enabled: true,
       }    
-    }, /* dunkelgelb */
-  	{
-  	  "color": "#3C3C3C",
-	    visible:true,
-      "marker": {
-        "enabled": true
+    }, 
+    { 
+      color: "#4f81bd", /* dunkelblau */
+	    showInLegend: false,
+	    linkedTo: '2',
+        marker: {
+        enabled: true,
       }    
-    }, /* schwarz */
+    }, 
+  	{ 
+  	  color: "#662673", /* dunkelviolett */
+	    showInLegend: false,
+	    linkedTo: '3',
+      marker: {
+        enabled: true,
+      }    
+    }, 
+    { 
+      color: "#7F5F1A", /* dunkelbraun */
+      linkedTo: '4',
+      marker: {
+        enabled: true,
+      }    
+    }, 
+  	{ 
+  	  color: "#FABD24", /* dunkelgelb */
+	    showInLegend: false,
+	    linkedTo: '5',
+      marker: {
+        enabled: true, 
+      }    
+    }, 
+  	{ 
+  	  color: "#3C3C3C", /* schwarz */
+	    showInLegend: false,
+	    linkedTo: '6',
+      marker: {
+        enabled: true, 
+      }    
+    }, 
   ],
-  "legend": {
+   "legend": {
+   		labelFormatter: function () {
+        return this.name.slice(0, this.name.indexOf('(Stadt)'));
+      },
     "enabled": true,
-    "itemMarginBottom": 5,
+    itemDistance: 5, 
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
-    }, 
-    verticalAlign: 'middle',
+    }
   },
   "plotOptions": {
     "line": {
-	  "connectNulls": true,
       "marker":{
         "enabled": false,
         "symbol": "circle",
+        radius: 2
       }
     }
+  }, 
+  chart: {
+    spacingTop: 5,
   },
-  chart:{
-	  //marginBottom: 70
-  }
 };
 }());
  

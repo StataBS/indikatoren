@@ -72,8 +72,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 35,
-	  //"y": 35,    
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -86,7 +84,8 @@
   "chart": {      
     "type": "column",
     "inverted": false,
-    width: 600
+    width: 665,
+    marginTop: 5,
     //"spacingBottom": 40
   }
 }

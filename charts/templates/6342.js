@@ -22,16 +22,13 @@
     }    
   },
   "series": [
-  {"color": "#CD9C00", "visible": true}, /* hellbraun*/
-  //{"color": "#83522E", "visible": true} /* dunkelbraun */
+    {"color": "#CD9C00", "visible": true}, /* hellbraun*/
   ],
   "legend": {
     "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    //"x": 25,
-	//"y": 55,    
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -43,7 +40,7 @@
   "chart": {      
     "type": "column",
     "inverted": false,
-    //"spacingTop": 100
+    "spacingTop": 5
   }
-}
+};
 }());

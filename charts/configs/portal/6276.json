@@ -273,17 +273,17 @@
     },
     "labels": {
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
-      "rotation": -90
+      "rotation": -45
     },
     "tickLength": 0
   },
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
+    "width": 665,
     "height": 221,
     "spacing": [
       2,
@@ -367,7 +367,7 @@
     "labels": {
       "y": 3,
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "format": "{value}%"
@@ -397,9 +397,9 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_8.\u003Cbr\u002F\u003EZuletzt geändert: 2016-12-14"
   },
   "legend": {
-    "padding": 1,
+    "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 1,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
@@ -408,21 +408,18 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "itemWidth": 52
+    "itemDistance": 10
   },
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": 10
+      "fontSize": "10px"
     }
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
-  "labelFormatter": function () {
-            return this.name;
-        },
   "exporting": {
     "filename": 6276
   }

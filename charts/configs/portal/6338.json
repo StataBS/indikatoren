@@ -3,9 +3,6 @@
     {
       "color": "#B00000",
       "legendIndex": 4,
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2006,
@@ -50,16 +47,17 @@
         [
           2016,
           1656
+        ],
+        [
+          2017,
+          1681
         ]
       ],
-      "name": "Subv. Tagesheime"
+      "name": "Subventionierte Tagesheime"
     },
     {
       "color": "#4f81bd",
       "legendIndex": 2,
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2006,
@@ -104,16 +102,17 @@
         [
           2016,
           1949
+        ],
+        [
+          2017,
+          1893
         ]
       ],
-      "name": "Nicht subv. Tagesheime"
+      "name": "Nicht subventionierte Tagesheime"
     },
     {
       "color": "#662673",
       "legendIndex": 1,
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2006,
@@ -158,6 +157,10 @@
         [
           2016,
           466
+        ],
+        [
+          2017,
+          456
         ]
       ],
       "name": "Firmen-Tagesheime"
@@ -165,9 +168,6 @@
     {
       "color": "#FABD24",
       "legendIndex": 3,
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2006,
@@ -212,6 +212,10 @@
         [
           2016,
           90
+        ],
+        [
+          2017,
+          85
         ]
       ],
       "name": "Tagesfamilien"
@@ -219,9 +223,6 @@
     {
       "color": "#3C3C3C",
       "legendIndex": 0,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2006,
@@ -266,6 +267,10 @@
         [
           2016,
           4161
+        ],
+        [
+          2017,
+          4115
         ]
       ],
       "name": "Total"
@@ -358,8 +363,10 @@
     "lineWidth": 0.5,
     "labels": {
       "style": {
-        "fontSize": 10,
-        "color": "#000000"
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
       }
     },
     "tickLength": 0,
@@ -387,14 +394,12 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0,
-    "margin": 1,
-    "itemDistance": 5
+    "padding": 0
   },
   "plotOptions": {
     "series": {

@@ -90,6 +90,8 @@
         "verticalAlign": "middle",
         "align": "right",
         "symbolRadius": 0,
+        padding: 0,
+        itemMarginBottom: 2,
         "itemStyle": {
           "fontWeight": "normal"
         }

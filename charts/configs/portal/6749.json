@@ -435,6 +435,7 @@
   },
   "legend": {
     "padding": 1,
+    "itemMarginBottom": 2,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
@@ -452,7 +453,6 @@
     "x": -1,
     "margin": 10,
     "itemDistance": 1,
-    "itemMarginBottom": 2,
     "enabled": true,
     "symbolPadding": 1
   },

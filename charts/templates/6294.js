@@ -6,9 +6,10 @@
     "yAxis": [{
     "labels": {
       y: 3,
-      "format": "{value:,.0f}",
-      "style": {
-        "color": "#000000"
+      format: "{value:,.0f}",
+      style: {
+        color: "#000000", 
+        fontSize: '10px',
       }
     },
     "min": 0,
@@ -24,11 +25,12 @@
       },
       "text": null
     },
-    "labels": {
+    labels: {
       y: 3,
-      "format": "{value:,.0f}",
-      "style": {
-        "color": "#000000"
+      format: "{value:,.0f}",
+      style: {
+        color: "#000000", 
+        fontSize: '10px', 
       }
     },
     "min": 0,
@@ -77,10 +79,8 @@
   ],
   "legend": {
     "enabled": true,
-    "itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

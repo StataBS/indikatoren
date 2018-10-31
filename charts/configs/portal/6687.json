@@ -95,7 +95,7 @@
     },
     "labels": {
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "y": 3,
@@ -193,7 +193,7 @@
     "labels": {
       "y": 15,
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000",
         "textOverflow": "none"
       },
@@ -227,7 +227,7 @@
   "legend": {
     "padding": 1,
     "symbolRadius": 0,
-    "itemMarginBottom": 1,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
@@ -240,7 +240,7 @@
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": 10
+      "fontSize": "10px"
     }
   },
   "tooltip": {

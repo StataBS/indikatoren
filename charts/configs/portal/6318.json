@@ -2,9 +2,6 @@
   "series": [
     {
       "color": "#B00000",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2002,
@@ -64,17 +61,17 @@
         ],
         [
           2016,
-          null
+          172013
+        ],
+        [
+          2017,
+          172013
         ]
       ],
       "name": "Theater"
     },
     {
       "color": "#007A2F",
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2002,
@@ -118,33 +115,33 @@
         ],
         [
           2012,
-          175949
+          175289
         ],
         [
           2013,
-          167940
+          171317
         ],
         [
           2014,
-          154708
+          156935
         ],
         [
           2015,
-          160127
+          175272
         ],
         [
           2016,
-          null
+          171861
+        ],
+        [
+          2017,
+          171861
         ]
       ],
       "name": "Kleintheater"
     },
     {
       "color": "#4f81bd",
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2002,
@@ -205,16 +202,16 @@
         [
           2016,
           629843
+        ],
+        [
+          2017,
+          646086
         ]
       ],
       "name": "Kinos"
     },
     {
       "color": "#662673",
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2002,
@@ -275,16 +272,16 @@
         [
           2016,
           1374857
+        ],
+        [
+          2017,
+          1487910
         ]
       ],
       "name": "Museen"
     },
     {
       "color": "#FABD24",
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2002,
@@ -345,6 +342,10 @@
         [
           2016,
           1270137
+        ],
+        [
+          2017,
+          null
         ]
       ],
       "name": "Stadtbibliothek"
@@ -373,7 +374,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -385,7 +386,7 @@
     },
     "type": "line",
     "renderTo": "container-6318",
-    "spacingBottom": 12
+    "spacingBottom": 22
   },
   "title": {
     "style": {
@@ -403,7 +404,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -436,9 +437,12 @@
     "lineWidth": 0.5,
     "labels": {
       "style": {
-        "fontSize": 10,
-        "color": "#000000"
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
       },
+      "step": 1,
       "rotation": -45
     },
     "tickLength": 0,
@@ -456,9 +460,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Jeweilige Institutionen;\u003Cbr\u002F\u003EProCinema."
+    "text": "Quelle: Jeweilige Institutionen;\u003Cbr\u002F\u003EProCinema.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
   "legend": {
     "enabled": true,
@@ -466,7 +470,7 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"

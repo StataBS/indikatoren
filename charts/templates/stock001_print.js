@@ -99,7 +99,9 @@
             }
         },
         "legend": {
-            "symbolRadius": 0
+            "symbolRadius": 0, 
+            padding: 0,
+            itemMarginBottom: 2,
         }, 
         "rangeSelector": {
             //floating: false,

@@ -19,23 +19,23 @@
  "series": [
     {
 		"color": "#B00000",
-    	"legendIndex": 2
+    	"legendIndex": 4,
     }, /* rot */
     {
 		"color": "#662673",
-    	"legendIndex": 2
+    	"legendIndex": 1
     }, /* violett */
     {
 		"color": "#008AC3",
-    	"legendIndex": 2
+    	"legendIndex": 3,
     }, /* blau */
     {
     	"color": "#007A2F", 
-    	"legendIndex": 0
+    	"legendIndex": 0,
     }, /* grün */
     {
     	"color": "#FABD24", /* dunkelgelb */
-    	"legendIndex": 1,
+    	"legendIndex": 2,
     	"marker": {
         	"enabled": false
     	}
@@ -43,13 +43,11 @@
   ],
    "legend": {
     "enabled": true,
-    itemWidth: 130,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "itemMarginBottom": 5,
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "itemStyle": {
-      "fontWeight": "normal", 
+      fontWeight: "normal", 
       textOverflow: null,
       whiteSpace: 'nowrap',
     }
@@ -61,6 +59,10 @@
         "symbol": "circle",
       } 
     }
-  }
-}
+  }, 
+  chart: {
+    width: 665, 
+    spacingTop: 5,
+  },
+};
 }());

@@ -18,47 +18,29 @@
     {
       "color": "#B00000",
       legendIndex: 4,
-      "marker": {
-        "enabled": false
-      }    
     }, /* dunkelrot */
   	{
   	  "color": "#4f81bd",
   	  legendIndex: 2,
-      "marker": {
-        "enabled": false
-      }    
     }, /* dunkelblau */
   	{
   	  "color": "#662673",
   	  legendIndex: 1,
-      "marker": {
-        "enabled": false
-      }    
     }, /* dunkelviolett */
   	{
   	  "color": "#FABD24",
   	  legendIndex: 3,
-      "marker": {
-        "enabled": false
-      }    
     }, /* dunkelgelb */
   	{
   	  "color": "#3C3C3C",
 	    legendIndex: 0,
-      "marker": {
-        "enabled": true
-      }    
     }, /* schwarz */
   ],
   "legend": {
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
-    margin: 1,
-    itemDistance: 5,
     "itemStyle": {
       "fontWeight": "normal"
     }

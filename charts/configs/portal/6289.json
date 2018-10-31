@@ -1,10 +1,7 @@
 {
   "series": [
     {
-      "color": "#B00000",
-      "marker": {
-        "enabled": true
-      },
+      "color": "#CD9C00",
       "data": [
         [
           2006,
@@ -49,16 +46,16 @@
         [
           2016,
           1872
+        ],
+        [
+          2017,
+          1808.4
         ]
       ],
       "name": "Direkte Steuern natürliche Personen"
     },
     {
-      "color": "#4f81bd",
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
+      "color": "#923F8D",
       "data": [
         [
           2006,
@@ -103,6 +100,10 @@
         [
           2016,
           837.1
+        ],
+        [
+          2017,
+          816.9
         ]
       ],
       "name": "Direkte Steuern juristische Personen"
@@ -131,7 +132,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -143,7 +144,7 @@
     },
     "type": "line",
     "renderTo": "container-6289",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -194,8 +195,10 @@
     "lineWidth": 0.5,
     "labels": {
       "style": {
-        "fontSize": 10,
-        "color": "#000000"
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
       }
     },
     "tickLength": 0,
@@ -213,9 +216,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt."
+    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
   "legend": {
     "enabled": true,
@@ -223,7 +226,7 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"

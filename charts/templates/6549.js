@@ -92,7 +92,7 @@
                 	//overflow: "none",
                 	//crop: false,
                     style: {
-                        fontSize: 10,
+                        fontSize: '10px',
                         color: 'black',
                         fontWeight: 'normal',
                         textShadow: 'none',

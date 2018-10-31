@@ -14,11 +14,11 @@
         ],
         [
           "Humankapital",
-          97
+          100
         ],
         [
           "Arbeitsmarkt",
-          15
+          30
         ],
         [
           "Erreichbarkeit",
@@ -26,15 +26,15 @@
         ],
         [
           "Einzugsgebiet",
-          86
+          89
         ],
         [
           "Kostenumfeld",
-          24
+          17
         ],
         [
           "Staatsfinanzen",
-          33
+          54
         ]
       ],
       "name": "Basel-Stadt",
@@ -46,35 +46,35 @@
       "data": [
         [
           "Wirtschaftsstruktur",
-          55.5
+          61
         ],
         [
           "Innovation",
-          32.5
+          30
         ],
         [
           "Humankapital",
-          42.5
+          30
         ],
         [
           "Arbeitsmarkt",
-          68
+          71
         ],
         [
           "Erreichbarkeit",
-          55
+          58
         ],
         [
           "Einzugsgebiet",
-          34
+          32
         ],
         [
           "Kostenumfeld",
-          72.5
+          71
         ],
         [
           "Staatsfinanzen",
-          65
+          72
         ]
       ],
       "name": "Mediankanton",
@@ -93,7 +93,7 @@
     },
     "labels": {
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "rotation": 0,
@@ -189,7 +189,7 @@
     "labels": {
       "y": 12,
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "format": "{value:,.0f}"
@@ -218,9 +218,9 @@
     "text": "Quelle: UBS Switzerland AG."
   },
   "legend": {
-    "padding": 1,
+    "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 1,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
@@ -233,7 +233,7 @@
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": 10
+      "fontSize": "10px"
     }
   },
   "tooltip": {

@@ -15,24 +15,14 @@
   },
   "series": [
     {"color": "#008AC3 ",
-      "marker": {
-        "enabled": true
-      }    
     }, /* blau */
 	{"color": "#B00000",
-      "marker": {
-        "enabled": true
-      }    
     }, /* rot */
   ],
   "legend": {
     "enabled": true,
-    //"x": 30,
-    //"y": 25,
-    //"itemWidth": 1000,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

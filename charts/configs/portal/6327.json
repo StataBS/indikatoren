@@ -2,67 +2,68 @@
   "series": [
     {
       "color": "#008AC3",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2011,
-          1.2
+          1.2038108622
         ],
         [
           2012,
-          1.5
+          1.5303306005
         ],
         [
           2013,
-          1.7
+          1.7469959199
         ],
         [
           2014,
-          1.9
+          1.9029641345
         ],
         [
           2015,
-          2
+          2.03620141
         ],
         [
           2016,
-          2.2
+          2.180589994
+        ],
+        [
+          2017,
+          2.2729130062
         ]
       ],
       "name": "Familienmietzinsbeiträge"
     },
     {
       "color": "#007A2F",
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2011,
-          14.1
+          14.079937175
         ],
         [
           2012,
-          14.2
+          14.161436078
         ],
         [
           2013,
-          14.2
+          14.20591557
         ],
         [
           2014,
-          14.2
+          14.24315086
         ],
         [
           2015,
-          14
+          13.952584134
         ],
         [
           2016,
-          14.5
+          14.527402782
+        ],
+        [
+          2017,
+          14.724390144
         ]
       ],
       "name": "Prämienverbilligung"
@@ -91,7 +92,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -103,7 +104,7 @@
     },
     "type": "line",
     "renderTo": "container-6327",
-    "spacingBottom": 12
+    "spacingBottom": 22
   },
   "title": {
     "style": {
@@ -121,7 +122,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -147,15 +148,17 @@
       },
       "format": "{value:,.0f}%"
     },
-    "tickAmount": 5
+    "tickAmount": 6
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
     "labels": {
       "style": {
-        "fontSize": 10,
-        "color": "#000000"
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
       }
     },
     "tickLength": 0,
@@ -173,9 +176,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS)."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-18"
   },
   "legend": {
     "enabled": true,
@@ -183,13 +186,12 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0,
-    "itemWidth": 500
+    "padding": 0
   },
   "plotOptions": {
     "series": {

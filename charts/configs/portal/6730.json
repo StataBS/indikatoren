@@ -204,8 +204,10 @@
     "lineWidth": 0.5,
     "labels": {
       "style": {
-        "fontSize": 10,
-        "color": "#000000"
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
       }
     },
     "tickLength": 0,

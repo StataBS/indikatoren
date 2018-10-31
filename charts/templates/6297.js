@@ -12,7 +12,10 @@
             tickInterval: 5 * 12 * 30 * 24 * 3600 * 1000,
             min: Date.UTC(1967, 12, 30),
             labels: {
-                rotation: -45
+                rotation: -45, 
+                style: {
+                    fontSize: '10px',
+                },
             }
             //range: 50 * 12 * 30 * 24 * 3600 * 1000, //50 years
         },
@@ -22,7 +25,10 @@
             showLastLabel: true,
             endOnTick: true,
             labels: {
-            	format: '{value:,.0f}'
+            	format: '{value:,.0f}', 
+            	style: {
+            	    fontSize: '10px',
+            	},
             }, 
             opposite: false
         },

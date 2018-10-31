@@ -1,10 +1,15 @@
 (function(){
     return {
       chart: {
-        spacing: [1,3,3,3], /*top, right, bottom and left */
+        spacing: [5,3,3,3], /*top, right, bottom and left */
+        width: 665,
       },
   "xAxis": {
-    "tickInterval": 2
+    "tickInterval": 1,
+    labels: {
+      step: 1,
+      rotation: -45,
+    },
   },
   "yAxis": {
     max: 40, 
@@ -18,80 +23,25 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
   "series": [
-    {"color": "#B00000",
-      "marker": {
-        "enabled": false
-      }    
-    }, /* dunkelrot */
-    	{"color": "#007A2F",
-	visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* dunkelgrün */
-    	{"color": "#4f81bd",
-	visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* dunkelblau */
-    	{"color": "#662673",
-	visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* dunkelviolett */
-        {"color": "#7F5F1A",
-      "marker": {
-        "enabled": false
-      }    
-    }, /* dunkelbraun */
-    	{"color": "#FABD24",
-	visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* dunkelgelb */
-    	{"color": "#3C3C3C",
-	visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* schwarz */
-    	{"color": "#2B0099",
-	visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* dunkelblau */
-    	{"color": "#E7CEE2",
-	visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* hellviolett */
-    	{"color": "#A8C3CA",
-	visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* hellblau */
-    	{"color": "#8AB77D",
-	visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* hellgrün */
-  ],
-  "legend": {
-    "enabled": true,
-    margin: 6,
-    padding: 1,
+    {"color": "#b00000"}, /*Schweiz*/
+    {"color": "#672773"}, /*Deutschland*/
+    {"color": "#007a2f"}, /*Italien*/
+    {"color": "#fabd24"}, /*Türkei*/
+    {"color": "#b475ab"}, /*EU-17 & EFTA*/
+    {"color": "#71a3b5"}, /*EU-Ost */
+    {"color": "#b9cfd7"}, /*Balkan*/
+    {"color": "#ff8028"}, /*Mittel- & Südamerika */
+    {"color": "#73ba7c"}, /*Arabische Länder */
+    {"color": "#9f7c5a"}, /*Afrikanische Länder*/
+    {"color": "#999999"}, /*Übrige Länder*/
+    ],
+  legend: {
+    enabled: true,
     itemDistance: 5,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "itemMarginBottom": 1,
-    "align": "left",
+    y: -20,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -105,6 +55,6 @@
       }
     }
   }
-}
+};
 }());
  

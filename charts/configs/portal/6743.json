@@ -222,6 +222,7 @@
   },
   "legend": {
     "padding": 0,
+    "itemMarginBottom": 5,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
@@ -235,8 +236,7 @@
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "enabled": true,
-    "itemMarginBottom": 5
+    "enabled": true
   },
   "exporting": {
     "filename": 6743

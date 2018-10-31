@@ -1,43 +1,43 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "color": "#8b2223",
       "data": [
         [
           2009,
-          108
+          107.7
         ],
         [
           2010,
-          103.8
+          104.1
         ],
         [
           2011,
-          115.6
+          114.8
         ],
         [
           2012,
-          140.7
+          139.8
         ],
         [
           2013,
-          124.3
+          123
         ],
         [
           2014,
-          109.9
+          109.4
         ],
         [
           2015,
-          106.7
+          106.3
         ],
         [
           2016,
-          107.1
+          106.5
+        ],
+        [
+          2017,
+          110.1
         ]
       ],
       "name": "Straftaten nach StGB"
@@ -66,7 +66,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -77,8 +77,10 @@
       "fontFamily": "Arial"
     },
     "type": "line",
+    "spacingTop": 5,
+    "marginRight": 5,
     "renderTo": "container-6323",
-    "spacingBottom": 12
+    "spacingBottom": 22
   },
   "title": {
     "style": {
@@ -96,7 +98,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -128,8 +130,10 @@
     "lineWidth": 0.5,
     "labels": {
       "style": {
-        "fontSize": 10,
-        "color": "#000000"
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
       }
     },
     "tickLength": 0,
@@ -147,9 +151,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP);\u003Cbr\u002F\u003EPolizeiliche Kriminalitätsstatistk (PKS)."
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP);\u003Cbr\u002F\u003EPolizeiliche Kriminalitätsstatistk (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
   "legend": {
     "enabled": false,
@@ -157,7 +161,7 @@
     "verticalAlign": "middle",
     "align": "right",
     "symbolRadius": 0,
-    "itemMarginBottom": 1,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px"
     },
@@ -167,19 +171,6 @@
     "series": {
       "marker": {
         "enabled": false
-      },
-      "dataLabels": {
-        "enabled": true,
-        "allowOverlap": true,
-        "y": 30,
-        "formatter": function () {
-            var last = this.series.data[this.series.data.length - 1];
-            var first = this.series.data[0];
-            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 0, ",", " ");
-            }
-            return "";
-          }
       }
     }
   },

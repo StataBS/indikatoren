@@ -85,10 +85,11 @@
     "shared": false
   },
   "chart": {      
-    width: 600,
+    width: 665,
     "type": "column",
     "inverted": false,
-    //"spacingBottom": 40
+    spacingBottom: 5,
+    spacingTop: 5,
   }
 }
 }());

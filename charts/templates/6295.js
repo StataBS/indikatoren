@@ -30,8 +30,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    //"x": 25,
-	  //"y": 55,    
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -43,7 +41,7 @@
   "chart": {      
     "type": "column",
     "inverted": false,
-    //"spacingTop": 100
+    "spacingBottom": 3
   }
-}
+};
 }());

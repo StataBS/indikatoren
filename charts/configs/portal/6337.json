@@ -27,13 +27,17 @@
         [
           "2016",
           3940
+        ],
+        [
+          "2017",
+          3836
         ]
       ],
       "name": "Schweiz",
       "turboThreshold": 0
     },
     {
-      "color": "#2f656b",
+      "color": "#246370",
       "index": 4,
       "data": [
         [
@@ -59,6 +63,10 @@
         [
           "2016",
           1409
+        ],
+        [
+          "2017",
+          1413
         ]
       ],
       "name": "Ausland",
@@ -72,8 +80,10 @@
     "lineWidth": 0.5,
     "labels": {
       "style": {
-        "fontSize": 10,
-        "color": "#000000"
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
       }
     },
     "tickLength": 0,
@@ -102,7 +112,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -115,7 +125,7 @@
     "type": "column",
     "renderTo": "container-6337",
     "inverted": false,
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -173,9 +183,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-19"
   },
   "legend": {
     "enabled": true,
@@ -183,7 +193,7 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 1,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"

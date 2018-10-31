@@ -73,10 +73,12 @@
   "xAxis": {
     lineColor: '#B9CFD7', 
     lineWidth: 0.5,
-    "labels": {
-      "style": {
-      	"fontSize": 10,
-        "color": "#000000", 
+    labels: {
+      style: {
+      	fontSize: '10px',
+        color: "#000000", 
+        textOverflow: null,
+        whiteSpace: 'nowrap',
       }
     },
     "tickLength": 0
@@ -101,7 +103,7 @@
     "verticalAlign": "middle",
     "align": "right",
     "symbolRadius": 0,
-    itemMarginBottom: 1,
+    itemMarginBottom: 2,
     itemStyle:{
       fontSize: "10px"
     },

@@ -5,7 +5,8 @@
       y: 3,
       "format": "{value:,.0f}",
       "style": {
-        "color": "#000000"
+        color: "#000000", 
+        fontSize: '10px',
       }
     },
     "min": 0,
@@ -25,7 +26,8 @@
       "format": "{value:,.0f}%",
       y: 3,
       "style": {
-        "color": "#000000"
+        color: "#000000", 
+        fontSize: '10px',
       }
     },
     "min": 0,
@@ -36,23 +38,21 @@
   }
   ],
   "xAxis": {
-    "tickInterval": 1
+    "tickInterval": 1,
+    labels: {
+      step: 2,
+    },
   },
   "legend": {
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    margin: 3, 
-    padding: 3,
-  	//"y": 40,
-  	//"x": 40,
   	//line break before (rechte Achse)
   	labelFormatter: function(){
   	  return this.name.replace("(rechte", "<br/>(rechte");
   	},
-  	"itemMarginBottom": 5,
-      "itemStyle": {
+    "itemStyle": {
       "fontWeight": "normal"
       }
     },
@@ -67,6 +67,9 @@
       "color": "#7d60a0",
       "index": 1,
       "type": "line",
+      marker: {
+        enabled: false
+      },
       "yAxis": 1,
       "tooltip": {
        "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>'

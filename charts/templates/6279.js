@@ -32,11 +32,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    margin: 5,
-    padding: 2,
-    itemMarginBottom: 2,
-    //"x": 25,
-  	//"y": 55,  
   	"itemWidth": 300,
       "itemStyle": {
         "fontWeight": "normal"
