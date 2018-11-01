@@ -434,7 +434,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-4"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-31"
   },
   "legend": {
     "enabled": true,
@@ -445,7 +445,6 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemWidth": 500,
     "itemMarginBottom": 5
   },
   "plotOptions": {
