@@ -4,7 +4,8 @@
     "tickInterval": 1
   },
   "yAxis": {
-    "min": undefined, 
+    "min": undefined,
+    tickInterval: 2,
   	"labels": {
   		"format": "{value:,.f}"
   	}
@@ -14,15 +15,15 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
   },
   "series": [
-    {"color": "#b00000 ",
+    {"color": "#68AB2B ",
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     
     }, /* rot */
 	{"color": "#672773",
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     },/* blau  */
   ],
@@ -32,6 +33,7 @@
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "align": "left",
+    itemDistance: 15,
     "itemStyle": {
       "fontWeight": "normal"
     }

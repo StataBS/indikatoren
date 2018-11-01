@@ -38,11 +38,8 @@
       }    
     }, /* scharz */
   ],
-  "legend": {
+ "legend": {
     "enabled": true,
-    //"x": 45,
-    //"y": 35,
-    "itemWidth": 500,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

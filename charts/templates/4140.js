@@ -16,7 +16,7 @@ global Highcharts
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },     
       "color": "#008AC3"
     }
@@ -25,10 +25,15 @@ global Highcharts
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f} m²</b><br/>',
     "shared": false
   },
+  "chart": {
+   //"marginBottom": 75,
+    "marginTop": 60,
+    "type": "column"
+  },
   "plotOptions": {
     "series": {
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
         "allowOverlap": true,
           y: 30,
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
