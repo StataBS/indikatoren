@@ -1,9 +1,9 @@
 {
   "series": [
     {
-      "color": "#b00000 ",
+      "color": "#68AB2B ",
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -29,6 +29,10 @@
         [
           2016,
           102.4756852
+        ],
+        [
+          2017,
+          108.394975
         ]
       ],
       "name": "Haushalte in Begegnungszonen"
@@ -36,7 +40,7 @@
     {
       "color": "#672773",
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -62,6 +66,10 @@
         [
           2016,
           101.3305242
+        ],
+        [
+          2017,
+          101.0855252
         ]
       ],
       "name": "Haushalte in der Stadt Basel"
@@ -112,7 +120,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Werte 2011 = 100",
+    "text": "Basel, Werte 2011 = 100",
     "align": "left"
   },
   "tooltip": {
@@ -134,7 +142,8 @@
         "color": "#000000"
       },
       "format": "{value:,.f}"
-    }
+    },
+    "tickInterval": 2
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -162,7 +171,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EPlanungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2017-10-27"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EPlanungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-31"
   },
   "legend": {
     "enabled": true,
@@ -173,7 +182,8 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemMarginBottom": 5
+    "itemMarginBottom": 5,
+    "itemDistance": 15
   },
   "plotOptions": {
     "series": {

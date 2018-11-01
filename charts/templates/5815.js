@@ -1,8 +1,12 @@
+/*
+global Highcharts
+*/
+
 (function(){
     return {
    "yAxis": {
       "labels": {
-      "format": "{value:,.0f} m²",
+      "format": "{value:,.f}",
     }
   },
   "xAxis": {
@@ -12,19 +16,24 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },     
-      "color": "#83522E"
+      "color": "#008AC3"
     }
   ],
   "tooltip": {
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f} m²</b><br/>',
     "shared": false
   },
+  "chart": {
+   //"marginBottom": 75,
+    "marginTop": 60,
+    "type": "column"
+  },
   "plotOptions": {
     "series": {
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
         "allowOverlap": true,
           y: 30,
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869

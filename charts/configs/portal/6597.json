@@ -3,89 +3,89 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "color": "#cd9c00",
       "data": [
         [
-          1997,
-          26.755828738809
-        ],
-        [
           1998,
-          27.013184399414
+          26.94388944389
         ],
         [
           1999,
-          27.523259055122
+          27.48059102115
         ],
         [
           2000,
-          27.876052084496
+          27.55605869754
         ],
         [
           2001,
-          28.077606303244
+          28.02236496724
         ],
         [
           2002,
-          28.87269632742
+          28.86248238828
         ],
         [
           2003,
-          29.465021013426
+          29.43071794299
         ],
         [
           2004,
-          29.965990545265
+          29.93399760184
         ],
         [
           2005,
-          30.435291613452
+          30.4273376613
         ],
         [
           2006,
-          31.191957058873
+          31.13765424192
         ],
         [
           2007,
-          31.339361702127
+          31.26158862769
         ],
         [
           2008,
-          31.827006267277
+          31.72437841436
         ],
         [
           2009,
-          32.584440426591
+          32.45389249914
         ],
         [
           2010,
-          33.112856985623
+          32.64384000673
         ],
         [
           2011,
-          33.504243281471
+          33.36960369854
         ],
         [
           2012,
-          33.871259543365
+          33.87125954337
         ],
         [
           2013,
-          34.560700709611
+          34.56070070961
         ],
         [
           2014,
-          35.007202080714
+          35.00720208071
         ],
         [
           2015,
-          35.286809598182
+          35.28680959818
         ],
         [
           2016,
-          35.724448301262
+          35.72444830126
+        ],
+        [
+          2017,
+          35.98709469918
         ]
       ],
       "name": "Ausländeranteil"
@@ -127,7 +127,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": " Ausländeranteil"
+    "text": "Ausländeranteil"
   },
   "subtitle": {
     "style": {
@@ -136,7 +136,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -187,7 +187,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-31"
   },
   "legend": {
     "enabled": false,
@@ -203,19 +203,6 @@
     "series": {
       "marker": {
         "enabled": false
-      },
-      "dataLabels": {
-        "enabled": true,
-        "allowOverlap": true,
-        "y": 40,
-        "formatter": function () {
-            var last = this.series.data[this.series.data.length - 1];
-            var first = this.series.data[0];
-            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 1, ",", " ") + '%';
-            }
-            return "";
-          }
       }
     }
   },
