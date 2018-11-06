@@ -51,6 +51,10 @@
         [
           2016,
           4161
+        ],
+        [
+          2017,
+          4161
         ]
       ],
       "name": "Tagesbetreuung"
@@ -106,6 +110,10 @@
         [
           2016,
           832
+        ],
+        [
+          2017,
+          896
         ]
       ],
       "name": "Tagesstrukturen in den Quartieren"
@@ -156,11 +164,15 @@
         ],
         [
           2015,
-          4096
+          4796
         ],
         [
           2016,
-          4272
+          5644
+        ],
+        [
+          2017,
+          6966
         ]
       ],
       "name": "Tagesstrukturen in den Schulen"
@@ -216,6 +228,10 @@
         [
           2016,
           195
+        ],
+        [
+          2017,
+          198
         ]
       ],
       "name": "Tagesferien"
@@ -266,7 +282,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -316,7 +332,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-1"
   },
   "legend": {
     "enabled": true,

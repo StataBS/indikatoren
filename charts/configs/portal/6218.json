@@ -16,6 +16,10 @@
           28.9
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2010",
           25.6
         ],
@@ -38,6 +42,10 @@
         [
           "2015",
           23.8
+        ],
+        [
+          "2016",
+          22.5
         ]
       ],
       "name": "Sekundarstufe I",
@@ -57,6 +65,10 @@
         [
           "2000",
           40.6
+        ],
+        [
+          " ",
+          null
         ],
         [
           "2010",
@@ -81,6 +93,10 @@
         [
           "2015",
           38
+        ],
+        [
+          "2016",
+          37.3
         ]
       ],
       "name": "Sekundarstufe II",
@@ -100,6 +116,10 @@
         [
           "2000",
           19.8
+        ],
+        [
+          " ",
+          null
         ],
         [
           "2010",
@@ -124,6 +144,10 @@
         [
           "2015",
           38.2
+        ],
+        [
+          "2016",
+          40.2
         ]
       ],
       "name": "Tertiärstufe",
@@ -143,6 +167,10 @@
         [
           "2000",
           10.6
+        ],
+        [
+          " ",
+          null
         ],
         [
           "2010",
@@ -166,6 +194,10 @@
         ],
         [
           "2015",
+          null
+        ],
+        [
+          "2016",
           null
         ]
       ],
@@ -222,7 +254,7 @@
           }
     },
     "renderTo": "container-6218",
-    "spacingBottom": 40
+    "spacingBottom": 50
   },
   "plotOptions": {
     "series": {
@@ -253,7 +285,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -292,9 +324,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2017-10-27"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-2"
   },
   "legend": {
     "symbolRadius": 0,
