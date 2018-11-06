@@ -5,73 +5,6 @@
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
-          8176
-        ],
-        [
-          "Chemie, Pharma",
-          18295
-        ],
-        [
-          "Baugewerbe",
-          7318
-        ],
-        [
-          "Handel, Reparatur",
-          12700
-        ],
-        [
-          "Verkehr, Lagerei",
-          10916
-        ],
-        [
-          "Gastgewerbe",
-          7163
-        ],
-        [
-          "Information, Kommunikation",
-          4437
-        ],
-        [
-          "Finanz-, Versicherungs-DL",
-          10121
-        ],
-        [
-          "Beratung, Planung, Forschung, Immobilien",
-          18830
-        ],
-        [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          5728
-        ],
-        [
-          "Personalvermittlung, -überlassung",
-          6594
-        ],
-        [
-          "Öffentliche Verwaltung, Sozialversicherungen",
-          5093
-        ],
-        [
-          "Erziehung, Unterricht",
-          7669
-        ],
-        [
-          "Gesundheits-, Sozialwesen",
-          20373
-        ],
-        [
-          "Kultur, Unterhaltung, pers. DL",
-          7289
-        ]
-      ],
-      "name": "2013",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#689199",
-      "data": [
-        [
-          "Industrie (exkl. Chemie, Pharma)",
           8075
         ],
         [
@@ -135,51 +68,51 @@
       "turboThreshold": 0
     },
     {
-      "color": "#246370",
+      "color": "#689199",
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
-          8208
+          8144
         ],
         [
           "Chemie, Pharma",
-          18844
+          18854
         ],
         [
           "Baugewerbe",
-          7800
+          7825
         ],
         [
           "Handel, Reparatur",
-          12404
+          12423
         ],
         [
           "Verkehr, Lagerei",
-          9760
+          9816
         ],
         [
           "Gastgewerbe",
-          7400
+          7388
         ],
         [
           "Information, Kommunikation",
-          4029
+          4097
         ],
         [
           "Finanz-, Versicherungs-DL",
-          10074
+          10213
         ],
         [
           "Beratung, Planung, Forschung, Immobilien",
-          19171
+          18857
         ],
         [
           "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          5915
+          5775
         ],
         [
           "Personalvermittlung, -überlassung",
-          6041
+          6086
         ],
         [
           "Öffentliche Verwaltung, Sozialversicherungen",
@@ -187,18 +120,85 @@
         ],
         [
           "Erziehung, Unterricht",
-          7852
+          7901
         ],
         [
           "Gesundheits-, Sozialwesen",
-          21312
+          21414
         ],
         [
           "Kultur, Unterhaltung, pers. DL",
-          7527
+          7333
         ]
       ],
       "name": "2015",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
+      "data": [
+        [
+          "Industrie (exkl. Chemie, Pharma)",
+          8148
+        ],
+        [
+          "Chemie, Pharma",
+          19030
+        ],
+        [
+          "Baugewerbe",
+          7774
+        ],
+        [
+          "Handel, Reparatur",
+          12138
+        ],
+        [
+          "Verkehr, Lagerei",
+          9420
+        ],
+        [
+          "Gastgewerbe",
+          7190
+        ],
+        [
+          "Information, Kommunikation",
+          3952
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          9910
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien",
+          19008
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          5749
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          6254
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          5409
+        ],
+        [
+          "Erziehung, Unterricht",
+          7932
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          22139
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          7265
+        ]
+      ],
+      "name": "2016",
       "turboThreshold": 0
     }
   ],
@@ -290,7 +290,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, in Vollzeitäquivalenten",
+    "text": "in Vollzeitäquivalenten, Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -331,7 +331,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-1"
   },
   "legend": {
     "symbolRadius": 0,

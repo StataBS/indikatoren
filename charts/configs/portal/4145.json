@@ -1,10 +1,6 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "index": 0,
       "color": "#008AC3",
       "data": [
@@ -70,7 +66,8 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
+    "type": "column",
+    "marginTop": 60,
     "renderTo": "container-4145"
   },
   "title": {
@@ -89,7 +86,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -113,7 +110,6 @@
       },
       "format": "{value}%"
     },
-    "max": 16,
     "tickInterval": 2
   },
   "xAxis": {
@@ -127,7 +123,7 @@
     },
     "tickLength": 0,
     "showLastLabel": true,
-    "endOnTick": true
+    "tickInterval": 2
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -143,7 +139,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-1-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-2"
   },
   "legend": {
     "enabled": false,
@@ -161,7 +157,7 @@
         "enabled": false
       },
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
         "formatter": function () {
             var first = this.series.data[0];
             var last  = this.series.data[this.series.data.length - 1];

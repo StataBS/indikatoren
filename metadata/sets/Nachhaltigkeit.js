@@ -187,8 +187,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Saldo aus Geburten und Todesfällen",
-		"subtitle": "",
-		"kuerzel": "I.01.1.05148",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.01.1.5148",
 		"kuerzelKunde": "BE6",
 		"description": "Saldo aus Geburten und Todesfällen",
 		"thema": "01 Bevölkerung",
@@ -197,15 +197,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-14T12:02:20.2020",
+		"aktualisierungsdatum": "2018-11-01T09:54:17.1717",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Jahren 2007 bis 2015 überstieg die Zahl der Todesfälle stets diejenige der Geburten. 2016 hingegen gab es mehr Lebendgeborene als Gestorbene, der Saldo aus Geburten und Todesfällen betrug 152.",
+		"lesehilfe": "In den Jahren 2008 bis 2017 überstieg die Zahl der Todesfälle diejenige der Geburten meist. Lediglich im Jahr 2016 gab es mehr Lebendgeborene als Gestorbene, der Saldo aus Geburten und Todesfällen betrug 152.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_107",
 		"parentId": null,
 		"children": [],
@@ -213,11 +215,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5148,
-		"darstellungsart": "Grafik"
+		"data-id": 5148,
+		"chart-id": 5148,
+		"filter": "",
+		"id": 5148
 	},
 	{
 		"title": "Geburtenziffer nach Staatsangehörigkeit",
@@ -1341,8 +1346,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
-		"subtitle": "",
-		"kuerzel": "I.02.10.06026",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.02.10.6026",
 		"kuerzelKunde": "NL5",
 		"description": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
 		"thema": "02 Raum, Umwelt",
@@ -1351,7 +1356,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-02T09:18:42.4242",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1360,6 +1365,8 @@ var indikatorensetData = [
 		"lesehilfe": "Auf gut der Hälfte der Kantonsfläche (2017: 51%) ist der Boden von Grünflächen bedeckt. Gewässer haben im Kanton Basel-Stadt mit 3,6% einen nur sehr geringen Anteil an der Gesamtfläche. Die Flächenanteile der drei Bodenbedeckungskategorien verändern sich über die Zeit nur minimal.",
 		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Befestigte Flächen sind: Bahn-, Tram-, Hafen- und Fabrikareale; Strassen, Wege, Trottoirs und Verkehrsinseln; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; übrige befestigte Flächen. Unter Gewässer fallen sowohl stehende als auch fliessende Gewässer. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100&nbsp;m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "04_01_00_00_00_405",
 		"parentId": null,
 		"children": [],
@@ -1367,11 +1374,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6026,
-		"darstellungsart": "Grafik"
+		"data-id": 6026,
+		"chart-id": 6026,
+		"filter": "",
+		"id": 6026
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -2323,8 +2333,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
-		"subtitle": "",
-		"kuerzel": "I.13.2.06055",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.13.2.6055",
 		"kuerzelKunde": "WE11",
 		"description": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
 		"thema": "13 Soziale Sicherheit",
@@ -2333,15 +2343,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-01T14:36:30.3030",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl angebotener Plätze in der Tagesbetreuung (Tagesheime oder Tagesfamilien) sowie in den Tagesstrukturen der Schulen erfuhr in den letzten Jahren ein stetiges Wachstum. In der Stichwoche 2016 lag diese bei 4 161, respektive 4 272. In den Tagesstrukturen der Quartiere wurden 2016 832 Plätze angeboten, in den Tagesferien 195.",
-		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September, bei den Tagesferien handelt es sich um die durchschnittliche Anzahl angebotener Plätze innerhalb eines Kalenderjahres.<br>Tagesbetreung: Stichwoche im Oktober.",
+		"lesehilfe": "Die Anzahl angebotener Plätze in der Tagesbetreuung (Tagesheime oder Tagesfamilien) sowie in den Tagesstrukturen der Schulen erfuhr in den letzten Jahren ein stetiges Wachstum. In der Stichwoche 2017 lag diese bei 4 115, respektive 6 966. In den Tagesstrukturen der Quartiere wurden 2017 insgesamt 896 Plätze angeboten, in den Tagesferien 198.",
+		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September. Bei den Tagesferien handelt es sich um die durchschnittliche Anzahl angebotener Plätze innerhalb eines Kalenderjahres. Seit 2015 werden auch Plätze in den Sekundarschulen angeboten. Die Anzahl Tagesstrukturplätze an den Schulen wurde deshalb für die Jahre 2015 und 2016 rückwirkend angepasst.<br>Tagesbetreung: Stichwoche im Oktober.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "06_02_00_00_00_611",
 		"parentId": null,
 		"children": [],
@@ -2349,11 +2361,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6055,
-		"darstellungsart": "Grafik"
+		"data-id": 6055,
+		"chart-id": 6055,
+		"filter": "",
+		"id": 6055
 	},
 	{
 		"title": "Anteil Voll- und Teilzeiterwerbstätige nach Geschlecht",
