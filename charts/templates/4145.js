@@ -2,12 +2,13 @@
     return {
   "xAxis": {
     "showLastLabel": true,
-    "endOnTick": true
+    tickInterval: 2,
+    //"endOnTick": true
   },
     
   "yAxis": {
     "min": 0,
-    "max": 16,
+   // "max": 16,
     "tickInterval": 2,
     "labels": {
       "format": "{value}%"
@@ -15,10 +16,6 @@
   },
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "index": 0,
       "color": "#008AC3"
     }
@@ -27,10 +24,16 @@
     pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b>%<br/>',
     shared: true
   },
+  "chart": {
+   //"marginBottom": 75,
+    "marginTop": 60,
+    "type": "column"
+  },
+  
   "plotOptions": {
     "series": {
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
           formatter: function() {
             var first = this.series.data[0];

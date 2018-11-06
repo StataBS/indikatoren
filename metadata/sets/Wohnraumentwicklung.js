@@ -635,8 +635,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohneigentumsquote",
-		"subtitle": "",
-		"kuerzel": "I.09.1.04145",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.1.4145",
 		"kuerzelKunde": "1.6.A",
 		"description": "Wohneigentumsquote",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -645,15 +645,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-01-18T13:50:12.1212",
+		"aktualisierungsdatum": "2018-11-02T09:17:12.1212",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.6 Förderung von Wohneigentum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Eigentumsquote stieg bis ins Jahr 2014 an und blieb anschliessend stabil bei rund 15%.",
-		"erlaeuterungen": "Die Wohneigentumsquote wird als Anteil Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt sind, and den bewohnten Wohnungen berechnet.",
+		"lesehilfe": "Die Eigentumsquote beträgt seit 2015 rund 15%.",
+		"erlaeuterungen": "Die Wohneigentumsquote wird als Anteil Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt sind, an den bewohnten Wohnungen berechnet. Die Daten 1990 und 2000 stammen aus den eidg. Volkszählungen, seit 2012 kann die Eigentumsquote jährlich registerbasiert ausgeweisen werden.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_06_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -661,11 +663,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4145,
-		"darstellungsart": "Grafik"
+		"data-id": 4145,
+		"chart-id": 4145,
+		"filter": "",
+		"id": 4145
 	},
 	{
 		"title": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",

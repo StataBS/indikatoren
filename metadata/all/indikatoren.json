@@ -2101,8 +2101,8 @@
 	},
 	{
 		"title": "Wohneigentumsquote",
-		"subtitle": "",
-		"kuerzel": "I.09.1.04145",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.1.4145",
 		"kuerzelKunde": "1.6.A",
 		"description": "Wohneigentumsquote",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -2111,15 +2111,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-01-18T13:50:12.1212",
+		"aktualisierungsdatum": "2018-11-02T09:17:12.1212",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.6 Förderung von Wohneigentum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Eigentumsquote stieg bis ins Jahr 2014 an und blieb anschliessend stabil bei rund 15%.",
-		"erlaeuterungen": "Die Wohneigentumsquote wird als Anteil Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt sind, and den bewohnten Wohnungen berechnet.",
+		"lesehilfe": "Die Eigentumsquote beträgt seit 2015 rund 15%.",
+		"erlaeuterungen": "Die Wohneigentumsquote wird als Anteil Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt sind, an den bewohnten Wohnungen berechnet. Die Daten 1990 und 2000 stammen aus den eidg. Volkszählungen, seit 2012 kann die Eigentumsquote jährlich registerbasiert ausgeweisen werden.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_06_00_00_00_000",
 		"parentId": null,
@@ -2128,11 +2130,14 @@
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4145,
-		"darstellungsart": "Grafik"
+		"data-id": 4145,
+		"chart-id": 4145,
+		"filter": "",
+		"id": 4145
 	},
 	{
 		"title": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
@@ -10110,8 +10115,8 @@
 	},
 	{
 		"title": "Saldo aus Geburten und Todesfällen",
-		"subtitle": "",
-		"kuerzel": "I.01.1.05148",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.01.1.5148",
 		"kuerzelKunde": "BE6",
 		"description": "Saldo aus Geburten und Todesfällen",
 		"thema": "01 Bevölkerung",
@@ -10120,15 +10125,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-14T12:02:20.2020",
+		"aktualisierungsdatum": "2018-11-01T09:54:17.1717",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Jahren 2007 bis 2015 überstieg die Zahl der Todesfälle stets diejenige der Geburten. 2016 hingegen gab es mehr Lebendgeborene als Gestorbene, der Saldo aus Geburten und Todesfällen betrug 152.",
+		"lesehilfe": "In den Jahren 2008 bis 2017 überstieg die Zahl der Todesfälle diejenige der Geburten meist. Lediglich im Jahr 2016 gab es mehr Lebendgeborene als Gestorbene, der Saldo aus Geburten und Todesfällen betrug 152.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_107",
 		"parentId": null,
@@ -10137,11 +10144,14 @@
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5148,
-		"darstellungsart": "Grafik"
+		"data-id": 5148,
+		"chart-id": 5148,
+		"filter": "",
+		"id": 5148
 	},
 	{
 		"title": "Geburtenziffer nach Staatsangehörigkeit",
@@ -12542,8 +12552,8 @@
 	},
 	{
 		"title": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
-		"subtitle": "",
-		"kuerzel": "I.02.10.06026",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.02.10.6026",
 		"kuerzelKunde": "NL5",
 		"description": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
 		"thema": "02 Raum, Umwelt",
@@ -12552,7 +12562,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-02T09:18:42.4242",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -12561,6 +12571,8 @@
 		"lesehilfe": "Auf gut der Hälfte der Kantonsfläche (2017: 51%) ist der Boden von Grünflächen bedeckt. Gewässer haben im Kanton Basel-Stadt mit 3,6% einen nur sehr geringen Anteil an der Gesamtfläche. Die Flächenanteile der drei Bodenbedeckungskategorien verändern sich über die Zeit nur minimal.",
 		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Befestigte Flächen sind: Bahn-, Tram-, Hafen- und Fabrikareale; Strassen, Wege, Trottoirs und Verkehrsinseln; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; übrige befestigte Flächen. Unter Gewässer fallen sowohl stehende als auch fliessende Gewässer. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100&nbsp;m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_01_00_00_00_405",
 		"parentId": null,
@@ -12569,11 +12581,14 @@
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6026,
-		"darstellungsart": "Grafik"
+		"data-id": 6026,
+		"chart-id": 6026,
+		"filter": "",
+		"id": 6026
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -13551,8 +13566,8 @@
 	},
 	{
 		"title": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
-		"subtitle": "",
-		"kuerzel": "I.13.2.06055",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.13.2.6055",
 		"kuerzelKunde": "WE11",
 		"description": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
 		"thema": "13 Soziale Sicherheit",
@@ -13561,15 +13576,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-01T14:36:30.3030",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl angebotener Plätze in der Tagesbetreuung (Tagesheime oder Tagesfamilien) sowie in den Tagesstrukturen der Schulen erfuhr in den letzten Jahren ein stetiges Wachstum. In der Stichwoche 2016 lag diese bei 4 161, respektive 4 272. In den Tagesstrukturen der Quartiere wurden 2016 832 Plätze angeboten, in den Tagesferien 195.",
-		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September, bei den Tagesferien handelt es sich um die durchschnittliche Anzahl angebotener Plätze innerhalb eines Kalenderjahres.<br>Tagesbetreung: Stichwoche im Oktober.",
+		"lesehilfe": "Die Anzahl angebotener Plätze in der Tagesbetreuung (Tagesheime oder Tagesfamilien) sowie in den Tagesstrukturen der Schulen erfuhr in den letzten Jahren ein stetiges Wachstum. In der Stichwoche 2017 lag diese bei 4 115, respektive 6 966. In den Tagesstrukturen der Quartiere wurden 2017 insgesamt 896 Plätze angeboten, in den Tagesferien 198.",
+		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September. Bei den Tagesferien handelt es sich um die durchschnittliche Anzahl angebotener Plätze innerhalb eines Kalenderjahres. Seit 2015 werden auch Plätze in den Sekundarschulen angeboten. Die Anzahl Tagesstrukturplätze an den Schulen wurde deshalb für die Jahre 2015 und 2016 rückwirkend angepasst.<br>Tagesbetreung: Stichwoche im Oktober.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "06_02_00_00_00_611",
 		"parentId": null,
@@ -13578,11 +13595,14 @@
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6055,
-		"darstellungsart": "Grafik"
+		"data-id": 6055,
+		"chart-id": 6055,
+		"filter": "",
+		"id": 6055
 	},
 	{
 		"title": "Anteil Voll- und Teilzeiterwerbstätige nach Geschlecht",
@@ -17423,8 +17443,8 @@
 	},
 	{
 		"title": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
-		"subtitle": "",
-		"kuerzel": "I.15.6.06218",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.15.6.6218",
 		"kuerzelKunde": "ST 8-2",
 		"description": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
 		"thema": "15 Bildung",
@@ -17433,15 +17453,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-02T09:19:49.4949",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 1990 hat sich der Anteil der Personen mit einer Ausbildung auf Tertiärstufe kontinuierlich erhöht. 2015 beträgt dieser Anteil 38%. Ebenfalls 38% der baselstädtischen Wohnbevölkerung besitzt eine höchste abgeschlossene Ausbildung auf Niveau Sekundarstufe 2 und 24% auf Niveau Sekundarstufe 1.",
-		"erlaeuterungen": "Die Sekundarstufe I umfasst Ausbildungen bis maximal der obligatorischen Schule. Unter Sekundarstufe II ist die berufliche Grundbildung, z. B. eine Berufslehre, sowie die allgemeinbildende Schule, z. B. die gymnasiale Maturität, zusammengefasst. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. die höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen, wie z. B. ein Bachelor- oder Masterstudium.",
+		"lesehilfe": "Seit 1990 hat sich der Anteil der Personen mit einer Ausbildung auf Tertiärstufe kontinuierlich erhöht. 2016 beträgt dieser Anteil 40%. Rund 37% der baselstädtischen Wohnbevölkerung besitzt eine höchste abgeschlossene Ausbildung auf Niveau Sekundarstufe II und 23% auf Niveau Sekundarstufe I.",
+		"erlaeuterungen": "Die Sekundarstufe I umfasst Ausbildungen bis maximal der obligatorischen Schule. Unter Sekundarstufe II ist die berufliche Grundbildung, z. B. eine Berufslehre, sowie die allgemeinbildende Schule, z. B. die gymnasiale Maturität, zusammengefasst. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. die höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen, wie z. B. ein Bachelor- oder Masterstudium. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), ab 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung).",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_05_00_00_00_002",
 		"parentId": null,
@@ -17450,13 +17472,17 @@
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6218,
-		"darstellungsart": "Grafik"
+		"data-id": 6218,
+		"chart-id": 6218,
+		"filter": "",
+		"id": 6218
 	},
 	{
 		"title": "Indexierter Verlauf der Haushalte in Begegnungszonen",
@@ -24333,8 +24359,8 @@
 	},
 	{
 		"title": "Beschäftigung nach Branche",
-		"subtitle": "Basel-Stadt, in Vollzeitäquivalenten",
-		"kuerzel": "I.03.2.06459",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"kuerzel": "I.03.2.6459",
 		"kuerzelKunde": "2.1-01",
 		"description": "Beschäftigung nach Branche",
 		"thema": "03 Erwerbsleben",
@@ -24343,15 +24369,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-01T14:41:08.088",
 		"stufe1": "Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 21 000 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind in Basel-Stadt 2015 im Gesundheits- und Sozialwesen tätig und somit etwa 14% der Gesamtbeschäftigung. Im Vergleich zum Vorjahr ist dies eine Steigerung von 3,0%. Je 19 000 VZÄ oder 12% der Gesamtbeschäftigung arbeiten in der Dienstleistungsgruppe Beratung, Planung, Forschung, Immobilienwesen sowie in der Branche Chemische und Pharmazeutische Industrie. Dabei ist Letztere mit 2,0% im Vergleich zum Vorjahr wie schon in den Jahren zuvor weiter gewachsen. Ebenfalls über 1,0% Wachstum verzeichneten die Branchen Kultur, Unterhaltung und persönliche Dienstleistungen (+1,9%), Industrie (ohne Chemie und Pharma, +1,6%) sowie Gastgewerbe (+1,0%). Geschrumpft sind insbesondere die Branchen Verkehr und Lagerei (-8,9%), Personalvermittlung und -überlassung (-6,8%), Information und Kommunikation (-4,7%), Erziehung und Unterricht (-2,0%), Handel und Reparatur (-1,3%) sowie Finanz- und Versicherungsdienstleistungen (-1,1%).",
-		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Die Referenzperiode ist jeweils der Dezember des Jahres.",
+		"lesehilfe": "Rund 22 000 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind in Basel-Stadt 2016 im Gesundheits- und Sozialwesen tätig, was etwa 15% der Gesamtbeschäftigung entspricht. Im Vergleich zum Vorjahr bedeutet dies eine Steigerung von 3,4%. Je 19 000 VZÄ oder 13% der Gesamtbeschäftigung sind in der Dienstleistungsgruppe Beratung, Planung, Forschung, Immobilienwesen sowie in der Branche Chemische und Pharmazeutische Industrie tätig. Dabei ist Letztere mit 0,9% im Vergleich zum Vorjahr wie schon in den Jahren zuvor weiter gewachsen. Über 1,0% Wachstum verzeichneten die Branchen Öffentliche Verwaltung und Sozialversicherungen (+3,8%) sowie Personalvermittlung und -überlassung  (+2,8%). Geschrumpft sind insbesondere die Branchen Verkehr und Lagerei (-4,0%), Information und Kommunikation (-3,5%), Finanz- und Versicherungsdienstleistungen (-3,0%), Gastgewerbe (-2,7%) sowie Handel und Reparatur (-2,3%).",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_101",
 		"parentId": null,
@@ -24360,11 +24388,14 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6459,
-		"darstellungsart": "Grafik"
+		"data-id": 6459,
+		"chart-id": 6459,
+		"filter": "",
+		"id": 6459
 	},
 	{
 		"title": "Arbeitslosenquote nach Branche",
