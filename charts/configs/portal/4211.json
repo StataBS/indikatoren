@@ -152,6 +152,9 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
     "enabled": false
   },
   "tooltip": {

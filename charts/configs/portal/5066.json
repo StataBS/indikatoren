@@ -264,14 +264,14 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "itemMarginBottom": 5,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "itemMarginBottom": 5
   },
   "tooltip": {
     "shared": true

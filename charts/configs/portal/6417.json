@@ -413,14 +413,14 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
     "enabled": true,
     "itemDistance": 5,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "align": "left"
   },
   "exporting": {
     "filename": 6417

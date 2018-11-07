@@ -354,16 +354,16 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
     "itemMarginBottom": 5,
     "itemDistance": 2,
-    "padding": 1,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "padding": 1
   },
   "tooltip": {
     "shared": true

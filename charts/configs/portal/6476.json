@@ -178,14 +178,14 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
     "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 35,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "x": 35
   },
   "colors": [
     "#b00000",

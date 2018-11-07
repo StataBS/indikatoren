@@ -1515,16 +1515,16 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
     "x": 45,
     "itemDistance": 10,
-    "itemMarginBottom": 5,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "itemMarginBottom": 5
   },
   "tooltip": {},
   "exporting": {
