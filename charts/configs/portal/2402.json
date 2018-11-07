@@ -580,15 +580,15 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
     "x": -1,
     "enabled": true,
     "layout": "horizontal",
     "itemWidth": 1000,
     "verticalAlign": "top",
-    "align": "left",
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "align": "left"
   },
   "tooltip": {
     "pointFormatter": function (){

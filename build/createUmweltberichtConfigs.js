@@ -59,17 +59,19 @@ while (ubFileList.length > 0) {
                     //charts = this.evaluate(getCharts);
                     //save options of first chart into file
                     //var content = serialize(charts[0].options, {space: 2});
-                    var content = casper.fetchText('#serialized_highcharts');
+                    var jsContent = casper.fetchText('#serialized_highcharts');
                     
                     var path = 'charts/configs/portal/' + id + '.json';
                     casper.echo('Saving contents to ' + path + '...');
-                    fs.write(path, content, 'w');
+                    fs.write(path, jsContent, 'w');
                     
-                    var tsvContent = casper.fetchText('#data-tsv');
-                    var tsvPath = 'data/' + id + '.tsv';
-                    casper.echo('Saving tsv contents to ' + tsvPath + '...');
-                    fs.write(tsvPath, tsvContent, 'w');
-                    
+                    //get tsv from umweltbericht if necessary
+                    if(currentConfig.datenInChartIntegriert == "undefined" || currentConfig.datenInChartIntegriert){
+                        var tsvContent = casper.fetchText('#data-tsv');
+                        var tsvPath = 'data/' + id + '.tsv';
+                        casper.echo('Saving tsv contents to ' + tsvPath + '...');
+                        fs.write(tsvPath, tsvContent, 'w');
+                    }
 
                     //casper.capture('screenshots/' + id + '.png');
                 });

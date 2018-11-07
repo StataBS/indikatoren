@@ -217,14 +217,14 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
     "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 35,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "x": 35
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

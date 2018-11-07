@@ -265,16 +265,16 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "width": 40
+    },
     "useHTML": true,
     "y": -40,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "align": "right",
-    "itemStyle": {
-      "fontWeight": "normal",
-      "width": 40
-    },
     "width": 200,
     "itemWidth": 70,
     "labelFormatter": function (){

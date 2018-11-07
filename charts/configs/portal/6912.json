@@ -429,13 +429,13 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
     "labelFormatter": function (){
     	return this.name.replace(' (', '<br/>(');
   	}
