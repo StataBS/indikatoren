@@ -866,16 +866,16 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
     "x": 45,
     "itemMarginBottom": 5,
-    "itemWidth": 500,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "itemWidth": 500
   },
   "tooltip": {
     "shared": true

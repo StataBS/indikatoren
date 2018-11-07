@@ -330,15 +330,15 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
     "itemMarginBottom": 5,
-    "itemWidth": 300,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "itemWidth": 300
   },
   "tooltip": {},
   "exporting": {

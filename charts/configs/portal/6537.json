@@ -187,15 +187,15 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
     "reversed": true,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
-    "useHTML": false,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "useHTML": false
   },
   "exporting": {
     "filename": 6537

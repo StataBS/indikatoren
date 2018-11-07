@@ -182,6 +182,9 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
     "enabled": false,
     "layout": "vertical",
     "verticalAlign": "middle",

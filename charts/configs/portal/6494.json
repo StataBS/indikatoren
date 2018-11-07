@@ -502,6 +502,9 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
     "enabled": true,
     "layout": "vertical",
     "verticalAlign": "middle",
@@ -510,9 +513,6 @@
     "itemMarginBottom": 5,
     "labelFormatter": function (){
       return this.name.replace(" ", "<br/>").replace("-", "-<br/>");
-    },
-    "itemStyle": {
-      "fontWeight": "normal"
     }
   },
   "tooltip": {
