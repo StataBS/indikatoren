@@ -66,7 +66,7 @@ while (ubFileList.length > 0) {
                     fs.write(path, jsContent, 'w');
                     
                     //get tsv from umweltbericht if necessary
-                    if(currentConfig.datenInChartIntegriert == undefined || currentConfig.datenInChartIntegriert){
+                    if(currentConfig.datenInChartIntegriert == "undefined" || currentConfig.datenInChartIntegriert){
                         var tsvContent = casper.fetchText('#data-tsv');
                         var tsvPath = 'data/' + id + '.tsv';
                         casper.echo('Saving tsv contents to ' + tsvPath + '...');
