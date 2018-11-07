@@ -636,17 +636,17 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "whiteSpace": "nowrap"
+    },
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
     "itemMarginBottom": 5,
-    "itemWidth": 200,
-    "itemStyle": {
-      "fontWeight": "normal",
-      "textOverflow": null,
-      "whiteSpace": "nowrap"
-    }
+    "itemWidth": 200
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

@@ -865,18 +865,18 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "whitespace": "nowrap"
+    },
     "enabled": true,
     "layout": "horizontal",
     "itemDistance": -10,
     "padding": 0,
     "symbolPadding": 3,
     "verticalAlign": "top",
-    "align": "left",
-    "itemStyle": {
-      "fontWeight": "normal",
-      "textOverflow": null,
-      "whitespace": "nowrap"
-    }
+    "align": "left"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

@@ -21,7 +21,7 @@ var getChartsHashes = function(globString){
         fs.writeFileSync(filepath, fileContentsStripped);
         var indikator = JSON.parse(fileContentsStripped);
         if (indikator.visible == undefined || indikator.visible == true) {
-            console.log(filepath + ' is visible, proceeding with adding to hash object...');
+            //console.log(filepath + ' is visible, proceeding with adding to hash object...');
             hashes[indikator.id] = {metadata: hashFiles.sync({files: filepath})};
             hashes[indikator.id]['chartConfig'] = hashFiles.sync({files: 'charts/templates/' + indikator.id + '.js'});
             hashes[indikator.id]['data'] = hashFiles.sync({files: 'data/' + indikator.id + '.tsv'});
@@ -29,7 +29,7 @@ var getChartsHashes = function(globString){
             hashes[indikator.id]['template'] = hashFiles.sync({files: 'charts/templates/' + indikator.template + '.js'});
         }
         else {
-            console.log(filepath + ' NOT visible, ignoring');
+            //console.log(filepath + ' NOT visible, ignoring');
         }
     });  
     return hashes;

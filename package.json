@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "casperjs": "1.1.4",
+    "clone": "2.1.2",
     "copy-node-modules": "1.0.3",
     "csv": "4.0.0",
     "forever": "0.15.3",

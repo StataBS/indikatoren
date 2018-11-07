@@ -234,13 +234,13 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
-    "align": "right",
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "align": "right"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",

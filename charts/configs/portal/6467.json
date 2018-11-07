@@ -397,16 +397,16 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "symbolPadding": 1,
     "itemDistance": 1,
     "padding": 0,
-    "align": "left",
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "align": "left"
   },
   "tooltip": {
     "pointFormatter": function (){
