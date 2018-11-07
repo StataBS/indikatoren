@@ -2536,7 +2536,7 @@ var indikatoren = [
 	{
 		"title": "Anteil erneuerbarer Energien (ohne Mobilität)",
 		"subtitle": "Prozent",
-		"kuerzel": "I.08.3.04221",
+		"kuerzel": "I.08.3.4221",
 		"kuerzelKunde": "0603",
 		"description": "Anteil erneuerbarer Energien (ohne Mobilität)",
 		"thema": "08 Energie",
@@ -2545,15 +2545,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Anteil erneuerbarer Energien am Bruttoenergieverbrauch. Als erneuerbare Energien werden Energieträger bezeichnet, welche kontinuierlich oder in Zyklen auf natürliche Weise anfallen. Zu den erneuerbaren Energien gehören einerseits die klassischen Energieträger Wasserkraft und Holz, andererseits die neuen erneuerbaren Energieträger Wind, Sonne, Biotreibstoffe, Biogas und Umweltwärme.<br><br>Summe der Verbräuche erneuerbarer Energien dividiert durch den gesamten Energieverbrauch.<br>Folgende Energieträger werden als erneuerbar berücksichtigt:<br>Sonnenenergie, Windenergie, Wasserkraft, Deponie-/Klär-/Biogas, Holzenergie und Umweltenergie. Im Kanton Basel-Stadt werden zudem 50% der Energieproduktion aus der Kehrichtverbrennung als erneuerbar berücksichtigt.",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Anteil erneuerbarer Energien am Bruttoenergieverbrauch. Als erneuerbare Energien werden Energieträger bezeichnet, welche kontinuierlich oder in Zyklen auf natürliche Weise anfallen. Zu den erneuerbaren Energien gehören einerseits die klassischen Energieträger Wasserkraft und Holz, andererseits die neuen erneuerbaren Energieträger Wind, Sonne, Biotreibstoffe, Biogas und Umweltwärme.<br><br><br><br>Summe der Verbräuche erneuerbarer Energien dividiert durch den gesamten Energieverbrauch.<br>Folgende Energieträger werden als erneuerbar berücksichtigt:<br>Sonnenenergie, Windenergie, Wasserkraft, Deponie-/Klär-/Biogas, Holzenergie und Umweltenergie. <br>Im Kanton Basel-Stadt werden zudem 50% der Energieproduktion aus der Kehrichtverbrennung als erneuerbar berücksichtigt.<br>",
 		"template": "empty",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "06_00_00_00_00_000",
 		"parentId": null,
@@ -2562,17 +2564,19 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0603' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"datenInChartIntegriert": false,
-		"id": 4221,
-		"darstellungsart": "Grafik"
+		"data-id": 4221,
+		"chart-id": 4221,
+		"filter": "",
+		"id": 4221
 	},
 	{
 		"title": "Neue erneuerbare Energien",
 		"subtitle": "Gigawattstunden",
-		"kuerzel": "I.08.3.04223",
+		"kuerzel": "I.08.3.4223",
 		"kuerzelKunde": "0604",
 		"description": "Neue erneuerbare Energien",
 		"thema": "08 Energie",
@@ -2581,15 +2585,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Der Indikator zeigt die jährliche Produktion von neuen erneuerbaren Energien im Kantonsgebiet. Darunter fallen Sonnenenergie, Umweltwärme, Biomasse, Windenergie sowie erneuerbare Anteile der Energiegewinnung in Kehrichtverbrennungs- und Abwasserreinigungsanlagen.<br><br>Die hier berücksichtigten Energieträger werden entweder direkt bei den Anlagebetreibern erhoben (Windenergie, Deponie-/Klär-/Biogas etc.) oder geschätzt (z.B. Umweltwärme).  Die Zahlen basieren auf der kantonalen Energiestatistik.Für den Kanton Basel-Stadt sind die Zahlen vor 2010 der Statistik der erneuerbaren Energien des Amtes für Umwelt und Energie entnommen. Aufgrund methodischer Änderungen sind sie nur bedingt mit den Daten ab 2010 vergleichbar.",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Der Indikator zeigt die jährliche Produktion von neuen erneuerbaren Energien im Kantonsgebiet. Darunter fallen Sonnenenergie, Umweltwärme, Biomasse, Windenergie sowie erneuerbare Anteile der Energiegewinnung in Kehrichtverbrennungs- und Abwasserreinigungsanlagen.<br><br><br><br>Die hier berücksichtigten Energieträger werden entweder direkt bei den Anlagebetreibern erhoben (Windenergie, Deponie-/Klär-/Biogas etc.) oder geschätzt (z.B. Umweltwärme).  Die Zahlen basieren auf der kantonalen Energiestatistik.<br>Für den Kanton Basel-Stadt sind die Zahlen vor 2010 der Statistik der erneuerbaren Energien des Amtes für Umwelt und Energie entnommen. Aufgrund methodischer Änderungen sind sie nur bedingt mit den Daten ab 2010 vergleichbar.<br>",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "06_00_00_00_00_000",
 		"parentId": null,
@@ -2598,17 +2604,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt; Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0604' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4223,
-		"darstellungsart": "Grafik"
+		"data-id": 4223,
+		"chart-id": 4223,
+		"filter": "",
+		"id": 4223
 	},
 	{
 		"title": "Eigenproduktion Strom",
 		"subtitle": "Gigawattstunden",
-		"kuerzel": "I.08.2.04224",
+		"kuerzel": "I.08.2.4224",
 		"kuerzelKunde": "0605",
 		"description": "Eigenproduktion Strom",
 		"thema": "08 Energie",
@@ -2617,15 +2626,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Menge an Strom, welche innerhalb des Kantonsgebiets produziert wird.<br><br>Die Daten werden im Rahmen der kantonalen Energiestatistik bei den Energieversorgungsunternehmen sowie bei Betreibern von grossen oder speziellen Anlagen (z.B. Elektrizitätsproduktion mittels Wärmekraftkoppelungsanlagen) erhoben. Die Elektrizitätsproduktion durch Photovoltaik wird basierend auf den Panelflächen abgeschätzt.",
-		"template": "dotplot",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Menge an Strom, welche innerhalb des Kantonsgebiets produziert wird.<br><br><br><br>Die Daten werden im Rahmen der kantonalen Energiestatistik bei den Energieversorgungsunternehmen sowie bei Betreibern von grossen oder speziellen Anlagen (z.B. Elektrizitätsproduktion mittels Wärmekraftkoppelungsanlagen) erhoben. Die Elektrizitätsproduktion durch Photovoltaik wird basierend auf den Panelflächen abgeschätzt.<br>",
+		"template": "empty",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "06_00_00_00_00_000",
 		"parentId": null,
@@ -2634,17 +2645,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0605' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4224,
-		"darstellungsart": "Grafik"
+		"data-id": 4224,
+		"chart-id": 4224,
+		"filter": "",
+		"id": 4224
 	},
 	{
 		"title": "Energieimportabhängigkeit",
 		"subtitle": "Prozent",
-		"kuerzel": "I.08.2.04225",
+		"kuerzel": "I.08.2.4225",
 		"kuerzelKunde": "0606",
 		"description": "Energieimportabhängigkeit",
 		"thema": "08 Energie",
@@ -2653,15 +2667,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Anteil der von ausserhalb des Kantons importierten Energie am gesamten Bruttoenergieeinsatz.<br><br>Summe der von ausserhalb des Kantons importierten Energie dividiert durch den gesamten Energieverbrauch. Die kantonale Energiestatistik dient als Datengrundlage der Berechnung.",
-		"template": "dotplot",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Anteil der von ausserhalb des Kantons importierten Energie am gesamten Bruttoenergieeinsatz.<br><br><br><br>Summe der von ausserhalb des Kantons importierten Energie dividiert durch den gesamten Energieverbrauch. Die kantonale Energiestatistik dient als Datengrundlage der Berechnung.<br>",
+		"template": "empty",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "06_00_00_00_00_000",
 		"parentId": null,
@@ -2670,17 +2686,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"<a href = 'http://www.statistik-bs.ch/tabellen/t08' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0606' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4225,
-		"darstellungsart": "Grafik"
+		"data-id": 4225,
+		"chart-id": 4225,
+		"filter": "",
+		"id": 4225
 	},
 	{
 		"title": "Energieeffizienz",
 		"subtitle": "Indexwert (Basis 1995 = 100)",
-		"kuerzel": "I.08.1.04229",
+		"kuerzel": "I.08.1.4229",
 		"kuerzelKunde": "0612",
 		"description": "Energieeffizienz",
 		"thema": "08 Energie",
@@ -2689,15 +2708,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Entwicklung des Energieverbrauchs im Verhältnis zum Bruttoinlandprodukt (BIP) und zur Bevölkerung.<br><br>Skalierung des Bruttoenergieverbrauchs über das Bruttoinlandprodukt (BIP) sowie die Wohnbevölkerung (mittlere Wohnbevölkerung). Sämtliche Werte werden mit dem Basisjahr 1995 indexiert. Die Daten zum BIP stammen von BAK Basel, die Angaben zur Bevölkerungsentwicklung werden der kantonalen Bevölkerungsstatistik entnommen.",
-		"template": "dotplot",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Entwicklung des Energieverbrauchs im Verhältnis zum Bruttoinlandprodukt (BIP) und zur Bevölkerung.<br><br><br><br>Skalierung des Bruttoenergieverbrauchs über das Bruttoinlandprodukt (BIP) sowie die Wohnbevölkerung (mittlere Wohnbevölkerung). Sämtliche Werte werden mit dem Basisjahr 1995 indexiert. Die Daten zum BIP stammen von BAK Basel, die Angaben zur Bevölkerungsentwicklung werden der kantonalen Bevölkerungsstatistik entnommen.<br>",
+		"template": "empty",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "06_00_00_00_00_000",
 		"parentId": null,
@@ -2706,17 +2727,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/raum-umwelt/ressourcen/umweltindikatorensystem/nutzung-natuerliche-ressourcen/energieeffizienz.html' target = '_blank'>Energieeffizienz Schweiz (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0612' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4229,
-		"darstellungsart": "Grafik"
+		"data-id": 4229,
+		"chart-id": 4229,
+		"filter": "",
+		"id": 4229
 	},
 	{
 		"title": "Bruttoenergieverbrauch nach Energieträger",
 		"subtitle": "Gigawattstunden",
-		"kuerzel": "I.08.1.04230",
+		"kuerzel": "I.08.1.4230",
 		"kuerzelKunde": "0602",
 		"description": "Bruttoenergieverbrauch nach Energieträger",
 		"thema": "08 Energie",
@@ -2725,15 +2749,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Bruttoenergieverbrauch pro Jahr nach Energieträger. Der Bruttoverbrauch zeigt die Energie in der Form, in welcher sie in den Kanton importiert oder im Kanton aus natürlichen Quellen gewonnen wird (ohne Flugtreibstoffe). Im Gegensatz dazu bildet der Endenergieverbrauch die Energie in der Form ab, wie sie beim Endverbraucher eingesetzt wird. Die Differenz zwischen den beiden Grössen entspricht den Zu- respektive Abgängen in Folge der Umwandlung in Elektrizität und Fernwärme.<br><br>Der Bruttoenergieverbrauch wird für die leitungsgebundenen Energieträger erhoben und für die nicht leitungsgebundenen Energieträger geschätzt. Für detaillierte Angaben zur Methodik siehe weiterführende Informationen.",
-		"template": "dotplot",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Bruttoenergieverbrauch pro Jahr nach Energieträger. Der Bruttoverbrauch zeigt die Energie in der Form, in welcher sie in den Kanton importiert oder im Kanton aus natürlichen Quellen gewonnen wird (ohne Flugtreibstoffe). Im Gegensatz dazu bildet der Endenergieverbrauch die Energie in der Form ab, wie sie beim Endverbraucher eingesetzt wird. Die Differenz zwischen den beiden Grössen entspricht den Zu- respektive Abgängen in Folge der Umwandlung in Elektrizität und Fernwärme.<br><br><br><br>Der Bruttoenergieverbrauch wird für die leitungsgebundenen Energieträger erhoben und für die nicht leitungsgebundenen Energieträger geschätzt. Für detaillierte Angaben zur Methodik siehe weiterführende Informationen.<br>",
+		"template": "empty",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "06_00_00_00_00_000",
 		"parentId": null,
@@ -2742,17 +2768,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0602' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4230,
-		"darstellungsart": "Grafik"
+		"data-id": 4230,
+		"chart-id": 4230,
+		"filter": "",
+		"id": 4230
 	},
 	{
 		"title": "Wasserverbrauch Haushalte und Kleingewerbe",
 		"subtitle": "Millionen Kubikmeter",
-		"kuerzel": "I.02.19.04233",
+		"kuerzel": "I.02.19.4233",
 		"kuerzelKunde": "1605",
 		"description": "Wasserverbrauch Haushalte und Kleingewerbe",
 		"thema": "02 Raum, Umwelt",
@@ -2761,15 +2790,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Jährliche Wassermenge ab dem öffentlichen Netz, welche durch Haushalte und Kleingewerbe verbraucht wird. Private Quellen und Grundwasserfassungen werden dabei nicht berücksichtigt. <br><br>Im Kanton Basel-Stadt werden die Daten zum Wasserverbrauch von den Industriellen Werke Basel (IWB) erhoben.",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Jährliche Wassermenge ab dem öffentlichen Netz, welche durch Haushalte und Kleingewerbe verbraucht wird. Private Quellen und Grundwasserfassungen werden dabei nicht berücksichtigt. <br><br><br><br>Im Kanton Basel-Stadt werden die Daten zum Wasserverbrauch von den Industriellen Werke Basel (IWB) erhoben.<br>",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "16_00_00_00_00_000",
 		"parentId": null,
@@ -2778,16 +2809,19 @@ var indikatoren = [
 		"quellenangabe": [
 			"Industrielle Werke Basel (IWB)"
 		],
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1605' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4233,
-		"darstellungsart": "Grafik"
+		"data-id": 4233,
+		"chart-id": 4233,
+		"filter": "",
+		"id": 4233
 	},
 	{
 		"title": "Wasserverbrauch Gewerbe und Industrie",
 		"subtitle": "Millionen Kubikmeter",
-		"kuerzel": "I.02.19.04234",
+		"kuerzel": "I.02.19.4234",
 		"kuerzelKunde": "1606",
 		"description": "Wasserverbrauch Gewerbe und Industrie",
 		"thema": "02 Raum, Umwelt",
@@ -2796,15 +2830,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Jährliche Brauchwassermenge der Industrie und des Gewerbes. Der Indikator umfasst sowohl den Verbrauch aus dem öffentlichen Netz als auch die privaten Grundwasserförderungen. <br><br>Im Kanton Basel-Stadt werden die Daten zum Wasserverbrauch von den Industriellen Werke Basel (IWB) (Summe von Verbrauch durch Gewerbe, Temporär, Bau, Industrie) und dem Amt für Umwelt und Energie (Grundwasserförderung privat) erhoben.",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Jährliche Brauchwassermenge der Industrie und des Gewerbes. Der Indikator umfasst sowohl den Verbrauch aus dem öffentlichen Netz als auch die privaten Grundwasserförderungen. <br><br><br><br>Im Kanton Basel-Stadt werden die Daten zum Wasserverbrauch von den Industriellen Werke Basel (IWB) (Summe von Verbrauch durch Gewerbe, Temporär, Bau, Industrie) und dem Amt für Umwelt und Energie (Grundwasserförderung privat) erhoben.<br>",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "16_00_00_00_00_000",
 		"parentId": null,
@@ -2813,16 +2849,19 @@ var indikatoren = [
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt; Industrielle Werke Basel-Stadt (IWB)"
 		],
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1606' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4234,
-		"darstellungsart": "Grafik"
+		"data-id": 4234,
+		"chart-id": 4234,
+		"filter": "",
+		"id": 4234
 	},
 	{
 		"title": "Bodennutzung",
 		"subtitle": "Hektaren",
-		"kuerzel": "I.02.10.04249",
+		"kuerzel": "I.02.10.4249",
 		"kuerzelKunde": "0506",
 		"description": "Bodennutzung",
 		"thema": "02 Raum, Umwelt",
@@ -2831,15 +2870,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Entwicklung der Bodennutzung nach Nutzungsart.<br><br>Der Indikator berücksichtigt die vier Hauptkategorien der Arealstatistik (Standardnomenklatur NOAS04):<br>- Siedlungsflächen<br>- Landwirtschaftsflächen<br>- Bestockte Flächen (Wald und Gehölze)<br>- Unproduktive Flächen (Gewässer, Fels und Geröll etc.)<br><br>Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopografie (Stichpunktprobenerhebung im Abstand von 100 x 100m). <br><br>Die hier dargestellten Werte zur Landwirtschaftsfläche sind nicht zwingend identisch mit der landwirtschaftlichen Nutzfläche gemäss der landwirtschaftlichen Betriebsstrukturerhebung (BFS). In der landwirtschaftlichen Betriebsstrukturerhebung ist der Landwirtschaftsbetrieb die grundlegende statistische Einheit. Die Nutzfläche eines Betriebs wird jenem Kanton zugeteilt, in welchem der Betrieb registriert ist. Die Werte der Arealstatistik hingegen basieren auf der Auswertung von Luftbildern.Im Kanton Basel-Stadt werden 3&#039;698 Punkte erfasst.",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Entwicklung der Bodennutzung nach Nutzungsart.<br><br><br><br>Der Indikator berücksichtigt die vier Hauptkategorien der Arealstatistik (Standardnomenklatur NOAS04):<br>- Siedlungsflächen<br>- Landwirtschaftsflächen<br>- Bestockte Flächen (Wald und Gehölze)<br>- Unproduktive Flächen (Gewässer, Fels und Geröll etc.)<br><br>Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopografie (Stichpunktprobenerhebung im Abstand von 100 x 100m). <br><br>Die hier dargestellten Werte zur Landwirtschaftsfläche sind nicht zwingend identisch mit der landwirtschaftlichen Nutzfläche gemäss der landwirtschaftlichen Betriebsstrukturerhebung (BFS). In der landwirtschaftlichen Betriebsstrukturerhebung ist der Landwirtschaftsbetrieb die grundlegende statistische Einheit. Die Nutzfläche eines Betriebs wird jenem Kanton zugeteilt, in welchem der Betrieb registriert ist. Die Werte der Arealstatistik hingegen basieren auf der Auswertung von Luftbildern.<br>Im Kanton Basel-Stadt werden 3&#039;698 Punkte erfasst. <br>",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_000",
 		"parentId": null,
@@ -2848,17 +2889,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
 		],
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target = '_blank'>Arealstatistik Schweiz (Methode)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0506' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4249,
-		"darstellungsart": "Grafik"
+		"data-id": 4249,
+		"chart-id": 4249,
+		"filter": "",
+		"id": 4249
 	},
 	{
 		"title": "Bodenversiegelung",
 		"subtitle": "Hektaren",
-		"kuerzel": "I.02.10.04253",
+		"kuerzel": "I.02.10.4253",
 		"kuerzelKunde": "0502",
 		"description": "Bodenversiegelung",
 		"thema": "02 Raum, Umwelt",
@@ -2867,15 +2911,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Fläche an versiegelten Böden. Von Bodenversiegelung spricht man, wenn die Bodenoberfläche mit praktisch undurchlässigen Materialien abgedeckt oder überdeckt wird. Der Austausch von Wasser, Luft und Energie zwischen Atmosphäre und Boden wird praktisch verhindert. Von Bedeutung sind dabei vor allem Gebäude, Verkehrsflächen, Energieversorgungsanlagen und Deponien. <br><br>Zu den versiegelten Böden werden in der Arealstatistik (Nomenklatur der Bodenbedeckung NOLC04) folgende Kategorien  gezählt:<br>- Befestigte Flächen (z.B. Verkehrsflächen)<br>- Gebäude<br>- Treibhäuser<br><br>Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopographie (Stichpunktprobenerhebung im Abstand von 100 x 100m).<br><br>Für detaillierte Angaben zur Methodik siehe weiterführende Informationen.Im Kanton Basel-Stadt werden 3&#039;698 Punkte erfasst.",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Fläche an versiegelten Böden. Von Bodenversiegelung spricht man, wenn die Bodenoberfläche mit praktisch undurchlässigen Materialien abgedeckt oder überdeckt wird. Der Austausch von Wasser, Luft und Energie zwischen Atmosphäre und Boden wird praktisch verhindert. Von Bedeutung sind dabei vor allem Gebäude, Verkehrsflächen, Energieversorgungsanlagen und Deponien. <br><br><br><br>Zu den versiegelten Böden werden in der Arealstatistik (Nomenklatur der Bodenbedeckung NOLC04) folgende Kategorien  gezählt:<br>- Befestigte Flächen (z.B. Verkehrsflächen)<br>- Gebäude<br>- Treibhäuser<br><br>Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopographie (Stichpunktprobenerhebung im Abstand von 100 x 100m).<br><br>Für detaillierte Angaben zur Methodik siehe weiterführende Informationen.<br>Im Kanton Basel-Stadt werden 3&#039;698 Punkte erfasst. <br>",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_000",
 		"parentId": null,
@@ -2884,17 +2930,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
 		],
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target = '_blank'>Arealstatistik Schweiz (Methode)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0502' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4253,
-		"darstellungsart": "Grafik"
+		"data-id": 4253,
+		"chart-id": 4253,
+		"filter": "",
+		"id": 4253
 	},
 	{
 		"title": "Landwirtschaftliche Nutzfläche",
 		"subtitle": "Hektaren",
-		"kuerzel": "I.07.1.04254",
+		"kuerzel": "I.07.1.4254",
 		"kuerzelKunde": "0503",
 		"description": "Landwirtschaftliche Nutzfläche",
 		"thema": "07 Landwirtschaft",
@@ -2903,15 +2952,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Der Indikator zeigt die Entwicklung der landwirtschaftlichen Nutzfläche insgesamt sowie die Anteile der verschiedenen Nutzungskategorien.<br><br>Die Daten zur landwirtschaftlichen Nutzfläche werden im Rahmen der landwirtschaftlichen Strukturerhebung vom Bundesamt für Statistik (BFS) erhoben. Die Erhebung basiert auf der Koordination der administrativen Daten, welche im Rahmen der Direktzahlungsverordnung anfallen.<br><br>Als landwirtschaftliche Nutzfläche gilt die einem Betrieb zugeordnete, für den Pflanzenbau genutzte Fläche (ohne Sömmerungsflächen), die dem Bewirtschafter ganzjährig zur Verfügung steht und die ausschliesslich vom Betrieb aus bewirtschaftet wird. Unter die Kategorie «Übrige landwirtschaftliche Nutzfläche» fallen beispielsweise Hecken oder Feldgehölze. Detaillierte Angaben zu den Begriffen der landwirtschaftlichen Strukturerhebung sind unter den weiterführenden Informationen zu finden (Landwirtschaftliche Begriffsverordnung).<br><br>Die hier dargestellten Werte zur landwirtschaftlichen Nutzfläche sind nicht zwingend identisch mit der Landwirtschaftsfläche gemäss Arealstatistik (BFS). In der landwirtschaftlichen Betriebsstrukturerhebung ist der Landwirtschaftsbetrieb die grundlegende statistische Einheit. Die Nutzfläche eines Betriebs wird jenem Kanton zugeteilt, in welchem der Betrieb registriert ist. Die Werte der Arealstatistik hingegen basieren auf der Auswertung von Luftbildern.",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Der Indikator zeigt die Entwicklung der landwirtschaftlichen Nutzfläche insgesamt sowie die Anteile der verschiedenen Nutzungskategorien.<br><br><br><br>Die Daten zur landwirtschaftlichen Nutzfläche werden im Rahmen der landwirtschaftlichen Strukturerhebung vom Bundesamt für Statistik (BFS) erhoben. Die Erhebung basiert auf der Koordination der administrativen Daten, welche im Rahmen der Direktzahlungsverordnung anfallen.<br><br>Als landwirtschaftliche Nutzfläche gilt die einem Betrieb zugeordnete, für den Pflanzenbau genutzte Fläche (ohne Sömmerungsflächen), die dem Bewirtschafter ganzjährig zur Verfügung steht und die ausschliesslich vom Betrieb aus bewirtschaftet wird. Unter die Kategorie «Übrige landwirtschaftliche Nutzfläche» fallen beispielsweise Hecken oder Feldgehölze. Detaillierte Angaben zu den Begriffen der landwirtschaftlichen Strukturerhebung sind unter den weiterführenden Informationen zu finden (Landwirtschaftliche Begriffsverordnung).<br><br>Die hier dargestellten Werte zur landwirtschaftlichen Nutzfläche sind nicht zwingend identisch mit der Landwirtschaftsfläche gemäss Arealstatistik (BFS). In der landwirtschaftlichen Betriebsstrukturerhebung ist der Landwirtschaftsbetrieb die grundlegende statistische Einheit. Die Nutzfläche eines Betriebs wird jenem Kanton zugeteilt, in welchem der Betrieb registriert ist. Die Werte der Arealstatistik hingegen basieren auf der Auswertung von Luftbildern.<br>",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_000",
 		"parentId": null,
@@ -2920,17 +2971,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
 		],
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/land-forstwirtschaft/landwirtschaft.html' target = '_blank'>Landwirtschaftliche Strukturerhebung (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0503' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4254,
-		"darstellungsart": "Grafik"
+		"data-id": 4254,
+		"chart-id": 4254,
+		"filter": "",
+		"id": 4254
 	},
 	{
 		"title": "Siedlungsfläche",
 		"subtitle": "Hektaren",
-		"kuerzel": "I.02.1.04255",
+		"kuerzel": "I.02.1.4255",
 		"kuerzelKunde": "0501",
 		"description": "Siedlungsfläche",
 		"thema": "02 Raum, Umwelt",
@@ -2939,15 +2993,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Entwicklung der Siedlungsflächen. Als Siedlungsflächen gelten in der Arealstatistik alle Flächen, bei welchen die Bodennutzung überwiegend durch Arbeiten, Wohnen, Erholung und Verkehr geprägt ist. Die Siedlungsflächen können somit auch ausserhalb der Bauzonen liegen. Zudem können sie auch Grünflächen enthalten, sofern diese Siedlungszwecken dienen (Erholungs- und Parkanlagen, Hausgärten, Golfplätze etc.).<br><br>Zu den Siedlungsflächen werden in der Arealstatistik die folgenden Kategorien gezählt (Standardnomenklatur NOAS04_17):<br>- Industrie- und Gewerbeareal<br>- Gebäudeareal<br>- Verkehrsflächen<br>- Besondere Siedlungsflächen (Deponien, Baustellen etc.)<br>- Erholungs- und Grünanlagen<br><br>Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopografie (Stichpunktprobenerhebung im Abstand von 100 x 100m).<br><br>Für detaillierte Angaben zur Methodik siehe weiterführende Informationen.Im Kanton Basel-Stadt werden 3&#039;698 Punkte erfasst.",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Entwicklung der Siedlungsflächen. Als Siedlungsflächen gelten in der Arealstatistik alle Flächen, bei welchen die Bodennutzung überwiegend durch Arbeiten, Wohnen, Erholung und Verkehr geprägt ist. Die Siedlungsflächen können somit auch ausserhalb der Bauzonen liegen. Zudem können sie auch Grünflächen enthalten, sofern diese Siedlungszwecken dienen (Erholungs- und Parkanlagen, Hausgärten, Golfplätze etc.).<br><br><br><br>Zu den Siedlungsflächen werden in der Arealstatistik die folgenden Kategorien gezählt (Standardnomenklatur NOAS04_17):<br>- Industrie- und Gewerbeareal<br>- Gebäudeareal<br>- Verkehrsflächen<br>- Besondere Siedlungsflächen (Deponien, Baustellen etc.)<br>- Erholungs- und Grünanlagen<br><br>Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopografie (Stichpunktprobenerhebung im Abstand von 100 x 100m).<br><br>Für detaillierte Angaben zur Methodik siehe weiterführende Informationen.<br>Im Kanton Basel-Stadt werden 3&#039;698 Punkte erfasst. <br>",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_000",
 		"parentId": null,
@@ -2956,17 +3012,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
 		],
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target = '_blank'>Arealstatistik Schweiz (Methode)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0501' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4255,
-		"darstellungsart": "Grafik"
+		"data-id": 4255,
+		"chart-id": 4255,
+		"filter": "",
+		"id": 4255
 	},
 	{
 		"title": "Eingebaute Schallschutzfenster",
 		"subtitle": "Anzahl Fenster",
-		"kuerzel": "I.02.14.04268",
+		"kuerzel": "I.02.14.4268",
 		"kuerzelKunde": "1004",
 		"description": "Eingebaute Schallschutzfenster",
 		"thema": "02 Raum, Umwelt",
@@ -2975,15 +3034,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Das Umweltschutzgesetz sieht vor, dass die Lärmsanierung in erster Linie an der Quelle erfolgen soll. Da dies im innerstädtischen Bereich respektive in Kernzonen von Dörfern nicht immer möglich ist, werden als Ersatzmassnahme Schallschutzfenster eingebaut. Der Indikator zeigt, wie viele Schallschutzfenster aufgrund von Strassenlärmsanierungen mit Kantons- und Bundesbeiträgen eingebaut wurden.<br><br>Alle bis zum Erhebungsjahr eingebauten Schallschutzfenster, welche durch Kantons- und Bundesbeiträge finanziert wurden, werden als Summe im Erhebungsjahr dargestellt.",
+		"lesehilfe": "<Bitte hier die neue Lesehilfe eingeben>",
+		"erlaeuterungen": "Das Umweltschutzgesetz sieht vor, dass die Lärmsanierung in erster Linie an der Quelle erfolgen soll. Da dies im innerstädtischen Bereich respektive in Kernzonen von Dörfern nicht immer möglich ist, werden als Ersatzmassnahme Schallschutzfenster eingebaut. Der Indikator zeigt, wie viele Schallschutzfenster aufgrund von Strassenlärmsanierungen mit Kantons- und Bundesbeiträgen eingebaut wurden.<br><br><br><br>Alle bis zum Erhebungsjahr eingebauten Schallschutzfenster, welche durch Kantons- und Bundesbeiträge finanziert wurden, werden als Summe im Erhebungsjahr dargestellt.<br>",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "10_00_00_00_00_000",
 		"parentId": null,
@@ -2992,18 +3053,21 @@ var indikatoren = [
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.aue.bs.ch/laerm/verkehrslaerm/schallschutzfensterbeitraege.html' target = '_blank'>Schallschutzfensterbeiträge</a>",
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19860372/index.html' target = '_blank'>Lärmschutz-Verordnung (LSV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1004' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4268,
-		"darstellungsart": "Grafik"
+		"data-id": 4268,
+		"chart-id": 4268,
+		"filter": "",
+		"id": 4268
 	},
 	{
 		"title": "Langzeitbelastungsindex",
 		"subtitle": "Indexwert",
-		"kuerzel": "I.02.15.04275",
+		"kuerzel": "I.02.15.4275",
 		"kuerzelKunde": "1104",
 		"description": "Langzeitbelastungsindex",
 		"thema": "02 Raum, Umwelt",
@@ -3012,15 +3076,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Der Langzeitbelastungsindex (LBI) ist ein Mischindex zur Luftbelastung, der den Auswirkungen auf die menschliche Gesundheit durch die chronische Einwirkung von verschmutzter Luft Rechnung trägt. Er kann Werte von 1 (gering) bis 6 (sehr hoch) annehmen.<br><br>Der LBI wird auf Basis der jährlichen Werte der Konzentrationen der drei Schadstoffe Feinstaub (PM10), Stickstoffdioxid (NO<sub>2</sub>) und Ozon (O<sub>3</sub>) berechnet. Die Konzentrationen dieser drei Schadstoffe werden in Bezug zu den Immissionsgrenzwerten der Luftreinhalte-Verordnung (LRV) gesetzt. Die sich daraus ergebenden Werte werden zusätzlich aufgrund der unterschiedlichen chronischen gesundheitlichen Auswirkungen dieser Schadstoffe gewichtet (6 für PM10, 3 für NO<sub>2</sub>, 1 für O<sub>3</sub>). Die Berechnung des LBI ist in der Empfehlung Nr. 27 der Schweizerischen Gesellschaft der Lufthygiene-Fachleute (Cercl'Air) im Detail beschrieben.",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Der Langzeitbelastungsindex (LBI) ist ein Mischindex zur Luftbelastung, der den Auswirkungen auf die menschliche Gesundheit durch die chronische Einwirkung von verschmutzter Luft Rechnung trägt. Er kann Werte von 1 (gering) bis 6 (sehr hoch) annehmen.<br><br><br><br>Der LBI wird auf Basis der jährlichen Werte der Konzentrationen der drei Schadstoffe Feinstaub (PM10), Stickstoffdioxid (NO<sub>2</sub>) und Ozon (O<sub>3</sub>) berechnet. Die Konzentrationen dieser drei Schadstoffe werden in Bezug zu den Immissionsgrenzwerten der Luftreinhalte-Verordnung (LRV) gesetzt. Die sich daraus ergebenden Werte werden zusätzlich aufgrund der unterschiedlichen chronischen gesundheitlichen Auswirkungen dieser Schadstoffe gewichtet (6 für PM10, 3 für NO<sub>2</sub>, 1 für O<sub>3</sub>). Die Berechnung des LBI ist in der Empfehlung Nr. 27 der Schweizerischen Gesellschaft der Lufthygiene-Fachleute (Cercl'Air) im Detail beschrieben.<br>",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "11_00_00_00_00_000",
 		"parentId": null,
@@ -3029,6 +3095,7 @@ var indikatoren = [
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
 		],
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'https://cerclair.ch/assets/src/pdf/27b_2015_06_10_D_Langzeit_Luftbelastungs_Index.pdf' target = '_blank'>Empfehlung Nr. 27 der Schweizerischen Gesellschaft der Lufthygiene-Fachleute (Cercl'Air)</a>",
 			"<a href = 'http://www.baselland.ch/Lufthygiene.273902.0.html' target = '_blank'>Lufthygieneamt beider Basel</a>",
@@ -3037,13 +3104,15 @@ var indikatoren = [
 			"<a href = 'http://www.bafu.admin.ch/luft/index.html?lang=de' target = '_blank'>BAFU: Informationen zum Thema Luft</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1104' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4275,
-		"darstellungsart": "Grafik"
+		"data-id": 4275,
+		"chart-id": 4275,
+		"filter": "",
+		"id": 4275
 	},
 	{
 		"title": "Rindviehbestand",
 		"subtitle": "Anzahl Rinder",
-		"kuerzel": "I.07.1.04276",
+		"kuerzel": "I.07.1.4276",
 		"kuerzelKunde": "1105",
 		"description": "Rindviehbestand",
 		"thema": "07 Landwirtschaft",
@@ -3052,15 +3121,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Der Indikator zeigt den Rindviehbestand aller im Kanton registrierten Landwirtschaftsbetriebe.<br><br>Der Rindviehbestand wird im Rahmen der Landwirtschaftlichen Betriebsstrukturhebung durch das Bundesamt für Statistik für alle Kantone und Gemeinden nach schweizweit einheitlichen Kriterien und identischer Methodik ermittelt. Die Erhebung basiert auf der Koordination der administrativen Daten im Rahmen der Direktzahlungsverordnung. Die landwirtschaftliche Strukturerhebung berücksichtigt alle Landwirtschaftsbetriebe.",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Der Indikator zeigt den Rindviehbestand aller im Kanton registrierten Landwirtschaftsbetriebe.<br><br><br><br>Der Rindviehbestand wird im Rahmen der Landwirtschaftlichen Betriebsstrukturhebung durch das Bundesamt für Statistik für alle Kantone und Gemeinden nach schweizweit einheitlichen Kriterien und identischer Methodik ermittelt. Die Erhebung basiert auf der Koordination der administrativen Daten im Rahmen der Direktzahlungsverordnung. Die landwirtschaftliche Strukturerhebung berücksichtigt alle Landwirtschaftsbetriebe.<br>",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "11_00_00_00_00_000",
 		"parentId": null,
@@ -3069,17 +3140,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
 		],
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/lb/01.html' target = '_blank'>Landwirtschaftliche Betriebsstrukturerhebung BFS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1105' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4276,
-		"darstellungsart": "Grafik"
+		"data-id": 4276,
+		"chart-id": 4276,
+		"filter": "",
+		"id": 4276
 	},
 	{
 		"title": "Feinstaub-Immissionen",
 		"subtitle": "Mikrogramm pro Kubikmeter",
-		"kuerzel": "I.02.15.04278",
+		"kuerzel": "I.02.15.4278",
 		"kuerzelKunde": "1109",
 		"description": "Feinstaub-Immissionen",
 		"thema": "02 Raum, Umwelt",
@@ -3088,15 +3162,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Feinstaub-Immissionen an verschiedenen Messstandorten in den Kantonen Basel-Stadt und Basel-Landschaft. Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 &mu;g/m<sup>3</sup>. <br><br>Die Jahresmittelwerte berechnen sich aus den Messdaten verschiedener Stationen in den Kantonen Basel-Stadt und Basel-Landschaft: Stark verkehrsexponiert (Basel Feldbergstrasse, Muttenz A2 Hard), Stadt Basel (Basel St. Johanns-Platz) und Agglomeration (Binningen (NABEL), Dornach (SO)). Für Details zu den Stationen siehe Link \"Luftqualität in der Nordwestschweiz\" unter weiterführende Informationen.",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Feinstaub-Immissionen an verschiedenen Messstandorten in den Kantonen Basel-Stadt und Basel-Landschaft. Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 &mu;g/m<sup>3</sup>. <br><br><br><br>Die Jahresmittelwerte berechnen sich aus den Messdaten verschiedener Stationen in den Kantonen Basel-Stadt und Basel-Landschaft: Stark verkehrsexponiert (Basel Feldbergstrasse, Muttenz A2 Hard), Stadt Basel (Basel St. Johanns-Platz) und Agglomeration (Binningen (NABEL), Dornach (SO)). Für Details zu den Stationen siehe Link \"Luftqualität in der Nordwestschweiz\" unter weiterführende Informationen.<br>",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "11_00_00_00_00_000",
 		"parentId": null,
@@ -3105,18 +3181,21 @@ var indikatoren = [
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
 		],
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1109' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4278,
-		"darstellungsart": "Grafik"
+		"data-id": 4278,
+		"chart-id": 4278,
+		"filter": "",
+		"id": 4278
 	},
 	{
 		"title": "Grenzwertüberschreitungen Ozon",
 		"subtitle": "Anzahl Grenzwertüberschreitungen",
-		"kuerzel": "I.02.15.04279",
+		"kuerzel": "I.02.15.4279",
 		"kuerzelKunde": "1110",
 		"description": "Grenzwertüberschreitungen Ozon",
 		"thema": "02 Raum, Umwelt",
@@ -3125,15 +3204,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Anzahl Stunden-Mittelwerte pro Jahr, welche über dem in der Luftreinhalte-Verordnung (LRV) gesetzlich festgelegten Grenzwert von 120 &mu;g/m<sup>3</sup> liegen, unterschieden nach Art der Lage der Messstationen.<br><br>Die Anzahl Grenzwertüberschreitungen basiert auf den Stunden-Mittelwerten verschiedener Messstationen in den Kantonen Basel-Stadt und Basel-Landschaft: Ländliche Höhenlagen (Chrischona, Brunnersberg, Chaumont (NABEL)), Agglomeration (Binningen (NABEL), Dornach (SO)), Stadt Basel (Basel St.Johanns-Platz). Pro Kategorie wird der Mittelwert über die Anzahl Überschreitungen der einzelnen Stationen gebildet. Für Details zu den Stationen siehe Link \"Luftqualität in der Nordwestschweiz\" unter weiterführende Informationen.",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Anzahl Stunden-Mittelwerte pro Jahr, welche über dem in der Luftreinhalte-Verordnung (LRV) gesetzlich festgelegten Grenzwert von 120 &mu;g/m<sup>3</sup> liegen, unterschieden nach Art der Lage der Messstationen.<br><br><br><br>Die Anzahl Grenzwertüberschreitungen basiert auf den Stunden-Mittelwerten verschiedener Messstationen in den Kantonen Basel-Stadt und Basel-Landschaft: Ländliche Höhenlagen (Chrischona, Brunnersberg, Chaumont (NABEL)), Agglomeration (Binningen (NABEL), Dornach (SO)), Stadt Basel (Basel St.Johanns-Platz). Pro Kategorie wird der Mittelwert über die Anzahl Überschreitungen der einzelnen Stationen gebildet. Für Details zu den Stationen siehe Link \"Luftqualität in der Nordwestschweiz\" unter weiterführende Informationen.<br>",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "11_00_00_00_00_000",
 		"parentId": null,
@@ -3142,18 +3223,21 @@ var indikatoren = [
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
 		],
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1110' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4279,
-		"darstellungsart": "Grafik"
+		"data-id": 4279,
+		"chart-id": 4279,
+		"filter": "",
+		"id": 4279
 	},
 	{
 		"title": "Stickstoffdioxid-Immissionen",
 		"subtitle": "Mikrogramm pro Kubikmeter",
-		"kuerzel": "I.02.15.04281",
+		"kuerzel": "I.02.15.4281",
 		"kuerzelKunde": "1111",
 		"description": "Stickstoffdioxid-Immissionen",
 		"thema": "02 Raum, Umwelt",
@@ -3162,15 +3246,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid-Immissionen im Vergleich zum gesetzlich festgelegten Grenzwert gemäss Luftreinhalte-Verordnung. Sie entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr.<br><br>Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen in den Kantonen Basel-Stadt und Basel-Landschaft: Stark verkehrsexponiert (Basel Feldbergstrasse, Muttenz A2 Hard, Basel Schwarzwaldallee, Basel Breite, Basel Steinengraben), Stadt Basel (St. Johanns-Platz, Spalenring, Dreirosenbrücke Süd), Agglomeration (Binningen (NABEL), Dornach (SO), Reinach Dorf), Ländlich (Schönenbuch). Die Messungen der Kategorie \"Ländlich\" (Schönenbuch) wurden 2016 eingestellt. Für Details zu den Stationen siehe Link \"Luftqualität in der Nordwestschweiz\" unter weiterführende Informationen.",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid-Immissionen im Vergleich zum gesetzlich festgelegten Grenzwert gemäss Luftreinhalte-Verordnung. Sie entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr.<br><br><br><br>Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen in den Kantonen Basel-Stadt und Basel-Landschaft: Stark verkehrsexponiert (Basel Feldbergstrasse, Muttenz A2 Hard, Basel Schwarzwaldallee, Basel Breite, Basel Steinengraben), Stadt Basel (St. Johanns-Platz, Spalenring, Dreirosenbrücke Süd), Agglomeration (Binningen (NABEL), Dornach (SO), Reinach Dorf), Ländlich (Schönenbuch). Die Messungen der Kategorie \"Ländlich\" (Schönenbuch) wurden 2016 eingestellt. Für Details zu den Stationen siehe Link \"Luftqualität in der Nordwestschweiz\" unter weiterführende Informationen. <br>",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "11_00_00_00_00_000",
 		"parentId": null,
@@ -3179,18 +3265,21 @@ var indikatoren = [
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
 		],
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1111' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4281,
-		"darstellungsart": "Grafik"
+		"data-id": 4281,
+		"chart-id": 4281,
+		"filter": "",
+		"id": 4281
 	},
 	{
 		"title": "Jahresmitteltemperatur",
 		"subtitle": "°C",
-		"kuerzel": "I.02.12.04301",
+		"kuerzel": "I.02.12.4301",
 		"kuerzelKunde": "0803",
 		"description": "Jahresmitteltemperatur",
 		"thema": "02 Raum, Umwelt",
@@ -3199,15 +3288,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr gemessenen Lufttemperatur. Das 30-jährige gleitende Mittel der Lufttemperatur ist ein Indikator für den längerfristigen Entwicklungstrend der Lufttemperatur.<br><br>Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Der Wert des 30-jährigen gleitenden Mittels eines Jahres ist der Mittelwert der Jahresmittelwerte über einen Zeitraum von -14 bis +15 Jahren und zeigt die längerfristige, geglättete Entwicklung. <br>Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M; 47°33&#039; N / 7°35&#039; E; seit 1929). Die historischen Messungen vor 1929 fanden an verschiedenen Orten in und um Basel statt, u.a. am Heuberg 16 (1755-1804) oder beim Bernoullianum (1874-1941), und wurden auf den heutigen Standort reduziert, d.h. statistisch angeglichen (siehe M. Bider, H. Schüepp & H. von Rudloff (1958): Die Reduktion der 200jährigen Basler Temperaturreihe. Archiv für Meteorologie, Geophysik und Bioklimatologie, Serie B, Band 9, Heft 3/4, S. 360-412. Springer-Verlag, Wien).",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr gemessenen Lufttemperatur. Das 30-jährige gleitende Mittel der Lufttemperatur ist ein Indikator für den längerfristigen Entwicklungstrend der Lufttemperatur.<br><br><br><br>Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Der Wert des 30-jährigen gleitenden Mittels eines Jahres ist der Mittelwert der Jahresmittelwerte über einen Zeitraum von -14 bis +15 Jahren und zeigt die längerfristige, geglättete Entwicklung. <br>Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M; 47°33&#039; N / 7°35&#039; E; seit 1929). Die historischen Messungen vor 1929 fanden an verschiedenen Orten in und um Basel statt, u.a. am Heuberg 16 (1755-1804) oder beim Bernoullianum (1874-1941), und wurden auf den heutigen Standort reduziert, d.h. statistisch angeglichen (siehe M. Bider, H. Schüepp & H. von Rudloff (1958): Die Reduktion der 200jährigen Basler Temperaturreihe. Archiv für Meteorologie, Geophysik und Bioklimatologie, Serie B, Band 9, Heft 3/4, S. 360-412. Springer-Verlag, Wien).<br>",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "08_00_00_00_00_000",
 		"parentId": null,
@@ -3216,17 +3307,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
 		],
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.klimabasel.ch/' target = '_blank'>Meteorologischer Verein der Region Basel</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0803' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4301,
-		"darstellungsart": "Grafik"
+		"data-id": 4301,
+		"chart-id": 4301,
+		"filter": "",
+		"id": 4301
 	},
 	{
 		"title": "Bevölkerung",
 		"subtitle": "Anzahl Personen der mittleren Wohnbevölkerung",
-		"kuerzel": "I.01.1.04318",
+		"kuerzel": "I.01.1.4318",
 		"kuerzelKunde": "1702",
 		"description": "Bevölkerung",
 		"thema": "01 Bevölkerung",
@@ -3235,15 +3329,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Die mittlere Wohnbevölkerung entspricht der im Durchschnitt eines Kalenderjahres im Kanton wohnhaften Bevölkerung. <br><br>Für detaillierte Angaben zur Methodik der kantonalen Bevölkerungsstatistik siehe weiterführende Informationen.",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Die mittlere Wohnbevölkerung entspricht der im Durchschnitt eines Kalenderjahres im Kanton wohnhaften Bevölkerung. <br><br><br><br>Für detaillierte Angaben zur Methodik der kantonalen Bevölkerungsstatistik siehe weiterführende Informationen.<br><br>",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "17_00_00_00_00_000",
 		"parentId": null,
@@ -3252,18 +3348,21 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/1-bevoelkerung.html' target = '_blank'>Bevölkerungsstatistik BS</a>",
 			"<a href = 'http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Einwohner: Zentrale Begriffe BS</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1702' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4318,
-		"darstellungsart": "Grafik"
+		"data-id": 4318,
+		"chart-id": 4318,
+		"filter": "",
+		"id": 4318
 	},
 	{
 		"title": "Stromverbrauch pro Einwohner",
 		"subtitle": "Megawattstunden",
-		"kuerzel": "I.08.1.04321",
+		"kuerzel": "I.08.1.4321",
 		"kuerzelKunde": "0607",
 		"description": "Stromverbrauch pro Einwohner",
 		"thema": "08 Energie",
@@ -3272,15 +3371,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Jährlicher Stromverbrauch pro Einwohner.<br><br>Skalierung des Stromverbrauchs über die mittlere Wohnbevölkerung. Die Daten zum Stromverbrauch werden im Rahmen der kantonalen Energiestatistik bei den Energieversorgungsunternehmen erhoben.",
-		"template": "dotplot",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Jährlicher Stromverbrauch pro Einwohner.<br><br><br><br>Skalierung des Stromverbrauchs über die mittlere Wohnbevölkerung. Die Daten zum Stromverbrauch werden im Rahmen der kantonalen Energiestatistik bei den Energieversorgungsunternehmen erhoben.<br>",
+		"template": "empty",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "06_00_00_00_00_000",
 		"parentId": null,
@@ -3289,17 +3390,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0607' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4321,
-		"darstellungsart": "Grafik"
+		"data-id": 4321,
+		"chart-id": 4321,
+		"filter": "",
+		"id": 4321
 	},
 	{
 		"title": "Stromverbrauch nach Produktionsart",
 		"subtitle": "Gigawattstunden",
-		"kuerzel": "I.08.1.04322",
+		"kuerzel": "I.08.1.4322",
 		"kuerzelKunde": "0613",
 		"description": "Stromverbrauch nach Produktionsart",
 		"thema": "08 Energie",
@@ -3308,15 +3412,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Jährlicher Stromverbrauch nach Produktionsart.<br><br>Die Daten zum Stromverbrauch werden im Rahmen der Energiestatistik bei den Energieversorgungsunternehmen erhoben.",
-		"template": "dotplot",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Jährlicher Stromverbrauch nach Produktionsart.<br><br><br><br>Die Daten zum Stromverbrauch werden im Rahmen der Energiestatistik bei den Energieversorgungsunternehmen erhoben.<br>",
+		"template": "empty",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "06_00_00_00_00_000",
 		"parentId": null,
@@ -3325,17 +3431,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0613' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4322,
-		"darstellungsart": "Grafik"
+		"data-id": 4322,
+		"chart-id": 4322,
+		"filter": "",
+		"id": 4322
 	},
 	{
 		"title": "Bruttoinlandprodukt",
-		"subtitle": "Millionen CHF",
-		"kuerzel": "I.04.1.04323",
+		"subtitle": "Basel-Stadt, in Millionen CHF",
+		"kuerzel": "I.04.1.4323",
 		"kuerzelKunde": "1701",
 		"description": "Bruttoinlandprodukt",
 		"thema": "04 Volkswirtschaft",
@@ -3344,35 +3453,40 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen).<br><br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen).<br><br><br><br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).<br>",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "17_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"BAK Economics",
-			"Bundesamt für Statistik (BFS)"
+			"Bundesamt für Statistik (BFS)",
+			"BAK Economics"
 		],
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/volkswirtschaft/erhebungen/bipkt.html' target = '_blank'>BIP der Kantone (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1701' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4323,
-		"darstellungsart": "Grafik"
+		"data-id": 4323,
+		"chart-id": 4323,
+		"filter": "",
+		"id": 4323
 	},
 	{
 		"title": "Motorfahrzeuge",
 		"subtitle": "Anzahl Motorfahrzeuge; Anzahl Personenwagen pro 1000 Einwohner",
-		"kuerzel": "I.11.1.04325",
+		"kuerzel": "I.11.1.4325",
 		"kuerzelKunde": "1704",
 		"description": "Motorfahrzeuge",
 		"thema": "11 Verkehr",
@@ -3381,15 +3495,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Der Motorfahrzeugbestand entspricht der Anzahl an verkehrsberechtigten Motorfahrzeugen, der Motorisierungsgrad der Anzahl Personenwagen pro 1000 Einwohner.<br><br>Die Daten basieren auf der Auswertung (Stichtag) der durch die Motorfahrzeugkontrolle zugelassenen Fahrzeuge. Der Motorfahrzeugbestand (linke Skala) umfasst die folgenden Fahrzeugkategorien:<br>- Personenwagen<br>- Lieferwagen<br>- Lastwagen<br>- Sattelschlepper<br>- Car, Autobus, Kleinbus<br>- Motorräder<br>- Übrige: Arbeitsmaschinen, Industrietraktoren etc.<br><br>Zur Berechnung des Motorisierungsgrades (rechte Skala) werden hingegen nur Personenwagen berücksichtigt.",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Der Motorfahrzeugbestand entspricht der Anzahl an verkehrsberechtigten Motorfahrzeugen, der Motorisierungsgrad der Anzahl Personenwagen pro 1000 Einwohner.<br><br><br><br>Die Daten basieren auf der Auswertung (Stichtag) der durch die Motorfahrzeugkontrolle zugelassenen Fahrzeuge. Der Motorfahrzeugbestand (linke Skala) umfasst die folgenden Fahrzeugkategorien:<br>- Personenwagen<br>- Lieferwagen<br>- Lastwagen<br>- Sattelschlepper<br>- Car, Autobus, Kleinbus<br>- Motorräder<br>- Übrige: Arbeitsmaschinen, Industrietraktoren etc.<br><br>Zur Berechnung des Motorisierungsgrades (rechte Skala) werden hingegen nur Personenwagen berücksichtigt. <br>",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "17_00_00_00_00_000",
 		"parentId": null,
@@ -3398,17 +3514,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1704' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4325,
-		"darstellungsart": "Grafik"
+		"data-id": 4325,
+		"chart-id": 4325,
+		"filter": "",
+		"id": 4325
 	},
 	{
 		"title": "Recyclingquote",
 		"subtitle": "Prozent",
-		"kuerzel": "I.02.6.04331",
+		"kuerzel": "I.02.6.4331",
 		"kuerzelKunde": "0102",
 		"description": "Recyclingquote",
 		"thema": "02 Raum, Umwelt",
@@ -3417,15 +3536,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Die Recyclingquote gibt Aufschluss über den Anteil an separat verwerteten Siedlungsabfällen (ohne Sammlung bei Verkaufsstellen) am Gesamtvolumen der Siedlungsabfälle. Siedlungsabfälle enthalten die aus Haushalten stammenden Abfälle sowie andere Abfälle vergleichbarer Zusammensetzung.<br><br>Die Recyclingquote wird berechnet, indem die Menge an separat gesammelten Abfallkategorien dem Gesamtvolumen an Siedlungsabfällen gegenübergestellt wird. Die kantonale Abfallstatistik bildet dabei die Datengrundlage. Die folgenden Altstofffraktionen werden für die Recyclingquote berücksichtigt: <br><br>- Altpapier und Karton <br>- Altglas<br>- Altmetall/Alu/Weissblech<br>- Grüngut<br>- Textilien<br><br>Im Kanton Basel-Stadt werden zusätzlich Sonderabfälle mit berücksichtigt.",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Die Recyclingquote gibt Aufschluss über den Anteil an separat verwerteten Siedlungsabfällen (ohne Sammlung bei Verkaufsstellen) am Gesamtvolumen der Siedlungsabfälle. Siedlungsabfälle enthalten die aus Haushalten stammenden Abfälle sowie andere Abfälle vergleichbarer Zusammensetzung.<br><br><br><br>Die Recyclingquote wird berechnet, indem die Menge an separat gesammelten Abfallkategorien dem Gesamtvolumen an Siedlungsabfällen gegenübergestellt wird. Die kantonale Abfallstatistik bildet dabei die Datengrundlage. Die folgenden Altstofffraktionen werden für die Recyclingquote berücksichtigt: <br><br>- Altpapier und Karton <br>- Altglas<br>- Altmetall/Alu/Weissblech<br>- Grüngut<br>- Textilien<br><br><br>Im Kanton Basel-Stadt werden zusätzlich Sonderabfälle mit berücksichtigt.<br>",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
@@ -3434,17 +3555,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.aue.bs.ch/abfaelle.html' target = '_blank'>Amt für Umwelt und Energie Basel-Stadt: Abfälle</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0102' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4331,
-		"darstellungsart": "Grafik"
+		"data-id": 4331,
+		"chart-id": 4331,
+		"filter": "",
+		"id": 4331
 	},
 	{
 		"title": "Siedlungsabfälle",
 		"subtitle": "Kilogramm pro Einwohner",
-		"kuerzel": "I.02.6.04337",
+		"kuerzel": "I.02.6.4337",
 		"kuerzelKunde": "0101",
 		"description": "Siedlungsabfälle",
 		"thema": "02 Raum, Umwelt",
@@ -3453,15 +3577,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Jährliche Menge an Siedlungsabfällen pro Einwohner, welche durch die Gemeinden gesammelt werden. Abfälle, welche von privaten Entsorgungsdiensten gesammelt werden, sind darin nicht berücksichtigt.<br><br>Der Indikator umfasst die in den Kehrichtverbrennungsanlagen verbrannten Siedlungsabfälle und die gesammelten Altstoffe aus Separatsammlungen (pro Einwohner der mittleren Wohnbevölkerung). Die Siedlungsabfälle enthalten die aus Haushalten stammenden Abfälle sowie andere Abfälle vergleichbarer Zusammensetzung. <br>Folgende Abfallkategorien werden dabei berücksichtigt:<br><br>- Hauskehricht, Sperrgut<br>- Papier, Karton <br>- Glas<br>- Metalle (inkl. Aluminium und Weissblech)<br>- Textilien<br>- Grüngut<br><br>Im Kanton Basel-Stadt werden zusätzlich Sonderabfälle mit berücksichtigt.",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Jährliche Menge an Siedlungsabfällen pro Einwohner, welche durch die Gemeinden gesammelt werden. Abfälle, welche von privaten Entsorgungsdiensten gesammelt werden, sind darin nicht berücksichtigt.<br><br><br><br>Der Indikator umfasst die in den Kehrichtverbrennungsanlagen verbrannten Siedlungsabfälle und die gesammelten Altstoffe aus Separatsammlungen (pro Einwohner der mittleren Wohnbevölkerung). Die Siedlungsabfälle enthalten die aus Haushalten stammenden Abfälle sowie andere Abfälle vergleichbarer Zusammensetzung. <br>Folgende Abfallkategorien werden dabei berücksichtigt:<br><br>- Hauskehricht, Sperrgut<br>- Papier, Karton <br>- Glas<br>- Metalle (inkl. Aluminium und Weissblech)<br>- Textilien<br>- Grüngut<br><br><br>Im Kanton Basel-Stadt werden zusätzlich Sonderabfälle mit berücksichtigt.<br>",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
@@ -3470,12 +3596,15 @@ var indikatoren = [
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.aue.bs.ch/abfaelle.html' target = '_blank'>Amt für Umwelt und Energie Basel-Stadt: Abfälle</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0101' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4337,
-		"darstellungsart": "Grafik"
+		"data-id": 4337,
+		"chart-id": 4337,
+		"filter": "",
+		"id": 4337
 	},
 	{
 		"title": "Anzahl Ausländer nach Art der Bewilligung",
@@ -8116,7 +8245,7 @@ var indikatoren = [
 	{
 		"title": "Waldfläche",
 		"subtitle": "Prozent",
-		"kuerzel": "I.07.1.05798",
+		"kuerzel": "I.07.1.5798",
 		"kuerzelKunde": "1501",
 		"description": "Waldfläche",
 		"thema": "07 Landwirtschaft",
@@ -8125,15 +8254,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Anteil der Waldfläche an der gesamten Kantonsfläche.<br><br>Die Daten basieren auf der Arealstatistik. Der Wald gemäss Arealstatistik umfasst geschlossene und aufgelöste Waldflächen, jedoch nicht Gebüschwald und Gehölze.<br><br>Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopografie (Punktstichprobenerhebung im Abstand von 100 x 100m).Im Kanton Basel-Stadt werden 3&#039;698 Punkte erfasst.",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "Anteil der Waldfläche an der gesamten Kantonsfläche.<br><br><br><br>Die Daten basieren auf der Arealstatistik. Der Wald gemäss Arealstatistik umfasst geschlossene und aufgelöste Waldflächen, jedoch nicht Gebüschwald und Gehölze.<br><br>Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopografie (Punktstichprobenerhebung im Abstand von 100 x 100m).<br>Im Kanton Basel-Stadt werden 3&#039;698 Punkte erfasst. <br>",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "15_00_00_00_00_000",
 		"parentId": null,
@@ -8142,12 +8273,15 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
 		],
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target = '_blank'>Arealstatistik Schweiz (BFS)</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1501' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 5798,
-		"darstellungsart": "Grafik"
+		"data-id": 5798,
+		"chart-id": 5798,
+		"filter": "",
+		"id": 5798
 	},
 	{
 		"title": "Leerwohnungsquote",

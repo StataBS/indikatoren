@@ -1,39 +1,42 @@
 {
- "title": "Wassertemperatur Grundwasser",
- "subtitle": "°C",
- "kuerzel": "I.02.19.04237",
- "kuerzelKunde": "1610",
- "description": "Wassertemperatur Grundwasser",
- "id": 4237,
- "thema": "02 Raum, Umwelt",
- "unterthema": "Wasser",
- "kennzahlenset": "Umwelt",
- "raeumlicheGliederung": [
-  "Kanton"
- ],
- "aktualisierungsdatum": "2017-07-11T00:00:00.000",
- "schlagwort": [
-  "Wasser"
- ],
- "stufe1": "Thema Wasser",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "",
- "erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target='_blank'>Umweltbericht beider Basel</a>.",
- "template": "dotplot",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "16_00_00_00_00_000",
- "parentId": 6166,
- "children": [],
- "renderLink": [],
- "quellenangabe": [
-  "Amt für Umwelt und Energie Basel-Stadt"
- ],
- "externalLinks": [
-  "<a href = 'http://www.aue.bs.ch/wasser/grundwasser/grundwasserpegel-grundwasserqualitaet.html' target = '_blank'>Hydrologisches Jahrbuch BS</a>",
-  "Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target = '_blank'>Umweltbericht beider Basel</a>"
- ]
+  "title": "Wassertemperatur Grundwasser",
+  "subtitle": "in °C, Basel-Stadt",
+  "kuerzel": "I.02.19.04237",
+  "kuerzelKunde": "1610",
+  "description": "Wassertemperatur Grundwasser",
+  "id": 4237,
+  "thema": "02 Raum, Umwelt",
+  "unterthema": "Wasser",
+  "kennzahlenset": "Umwelt",
+  "raeumlicheGliederung": [
+    "Kanton"
+  ],
+  "aktualisierungsdatum": "2018-10-23T11:35:46.4646",
+  "stufe1": "Thema Wasser",
+  "stufe2": "",
+  "stufe3": "",
+  "stufe4": "",
+  "stufe5": "",
+  "lesehilfe": "Die mittlere Grundwassertemperatur im Kanton Basel-Stadt betrug im Jahr 2017 14,8 °C.",
+  "erlaeuterungen": "In Basel-Stadt wird die Grundwassertemperatur an 82 Messstellen kontinuierlich gemessen und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt.",
+  "template": "empty",
+  "darstellungsart": "Grafik",
+  "printformat": "",
+  "visible": true,
+  "visibleInPortal": true,
+  "orderKey": "16_00_00_00_00_000",
+  "parentId": 6166,
+  "children": [],
+  "renderLink": [],
+  "quellenangabe": [
+    "Amt für Umwelt und Energie Basel-Stadt"
+  ],
+  "datenInChartIntegriert": false,
+  "externalLinks": [
+    "<a href = 'http://www.aue.bs.ch/wasser/grundwasser/grundwasserpegel-grundwasserqualitaet.html' target = '_blank'>Hydrologisches Jahrbuch BS</a>",
+    "Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target = '_blank'>Umweltbericht beider Basel</a>"
+  ],
+  "data-id": 4237,
+  "chart-id": 4237,
+  "filter": ""
 }

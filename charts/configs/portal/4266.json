@@ -171,10 +171,11 @@
       2013,
       2014,
       2015,
-      2016
+      2016,
+      2017
     ],
     "floor": 0,
-    "ceiling": 11,
+    "ceiling": 12,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -354,7 +355,8 @@
         46,
         46.3,
         48.5,
-        47.3
+        47.3,
+        48.2
       ],
       "visible": true,
       "_symbolIndex": 0
@@ -380,6 +382,7 @@
       "id": "BS&BL1005_5",
       "valueSuffix": "Dezibel dB(A)",
       "data": [
+        55,
         55,
         55,
         55,

@@ -161,10 +161,11 @@
   "xAxis": {
     "categories": [
       2015,
-      2016
+      2016,
+      2017
     ],
     "floor": 0,
-    "ceiling": 1,
+    "ceiling": 2,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -336,7 +337,8 @@
       "valueSuffix": "Kilometer",
       "data": [
         4,
-        5.5
+        5.5,
+        7.6
       ],
       "visible": true
     }

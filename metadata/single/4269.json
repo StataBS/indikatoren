@@ -1,39 +1,42 @@
 {
- "title": "Lärmbelastete Personen",
- "subtitle": "Prozent (Anteil an Bevölkerung)",
- "kuerzel": "I.02.14.04269",
- "kuerzelKunde": "1002",
- "description": "Lärmbelastete Personen",
- "id": 4269,
- "thema": "02 Raum, Umwelt",
- "unterthema": "Lärm",
- "kennzahlenset": "Umwelt",
- "raeumlicheGliederung": [
-  "Kanton"
- ],
- "aktualisierungsdatum": "2017-07-11T00:00:00.000",
- "schlagwort": [
-  "Lärm"
- ],
- "stufe1": "Thema Lärm",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "",
- "erlaeuterungen": "Der Indikator gibt den Anteil an Personen an, die in Gebäuden wohnen, bei welchen die Immissionsgrenzwerte für Strassenverkehrslärm der schweizerischen Lärmschutz-Verordnung (LSV) überschritten werden.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmission an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
- "template": "dotplot",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "10_00_00_00_00_000",
- "parentId": 6159,
- "children": [],
- "renderLink": [],
- "quellenangabe": [
-  "Amt für Umwelt und Energie Basel-Stadt"
- ],
- "externalLinks": [
-  "<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=19&cps=2612411.74,1267773.51,25000&nodefault&layers=stadtplan_grau_osm_25000,strlaermtag' target = '_blank'>Strassenlärmkataster BS</a>",
-  "Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1002' target = '_blank'>Umweltbericht beider Basel</a>"
- ]
+  "title": "Übermässig mit Lärm belastete Wohnbevölkerung",
+  "subtitle": "Basel-Stadt",
+  "kuerzel": "I.02.14.04269",
+  "kuerzelKunde": "1002",
+  "description": "Übermässig mit Lärm belastete Wohnbevölkerung",
+  "id": 4269,
+  "thema": "02 Raum, Umwelt",
+  "unterthema": "Lärm",
+  "kennzahlenset": "Umwelt",
+  "raeumlicheGliederung": [
+    "Kanton"
+  ],
+  "aktualisierungsdatum": "2018-10-24T11:57:40.4040",
+  "stufe1": "Thema Lärm",
+  "stufe2": "",
+  "stufe3": "",
+  "stufe4": "",
+  "stufe5": "",
+  "lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB(A) ausgesetzt sind, betrug 2008 24,6%. Bei 14,5% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16,2% der Grenzwert in der Nacht.",
+  "erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeits&shy;stufen&shy;plan den Empfindlichkeitsstufen (ES) II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmissionen an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z.B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen ist, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
+  "template": "empty",
+  "darstellungsart": "",
+  "printformat": "",
+  "visible": true,
+  "visibleInPortal": true,
+  "orderKey": "10_00_00_00_00_000",
+  "parentId": 6159,
+  "children": [],
+  "renderLink": [],
+  "quellenangabe": [
+    "Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster"
+  ],
+  "datenInChartIntegriert": false,
+  "externalLinks": [
+    "<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=19&cps=2612411.74,1267773.51,25000&nodefault&layers=stadtplan_grau_osm_25000,strlaermtag' target = '_blank'>Strassenlärmkataster BS</a>",
+    "Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1002' target = '_blank'>Umweltbericht beider Basel</a>"
+  ],
+  "data-id": 4269,
+  "chart-id": 4269,
+  "filter": ""
 }
