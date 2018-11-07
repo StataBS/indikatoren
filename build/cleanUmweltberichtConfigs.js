@@ -10,12 +10,12 @@ var files = glob.sync(metadataPathBase + "*.json");
 files.forEach(function(filepath){
     var metadataFileContents = fs.readFileSync(filepath, 'utf8');
     var indikator = JSON.parse(metadataFileContents);
-    if (indikator.kennzahlenset == 'Umwelt' && indikator.id == 4221){
-        //try{
+    if (indikator.kennzahlenset == 'Umwelt' /*&& indikator.id == 4221*/){
+        try{
             var configFileContents = fs.readFileSync(configPathBase + indikator.id + '.json', 'utf8');
             var config = deserialize(configFileContents);
-
-            if (!indikator.datenInChartIntegriert){
+            //if property datenInChartIntegriert is defined and st to false
+            if (indikator.datenInChartIntegriert != undefined && !indikator.datenInChartIntegriert){
                 //clone object, see https://stackoverflow.com/a/44299805
                 let configForJs = clone(config);
                 //remove series.data series.name from each series in the config so that tsv is used instead
@@ -66,13 +66,11 @@ files.forEach(function(filepath){
             
             var stringifiedOptions = serialize(config, {space: 2});
             fs.writeFileSync(configPathBase + indikator.id + '.json', stringifiedOptions);
-         /*   
         }
         catch (error){
             //silently ignore errors
-            console.log(error);
+            //console.log(error);
         }
-        */
 
     }
 });
