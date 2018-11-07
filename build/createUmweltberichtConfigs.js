@@ -65,11 +65,13 @@ while (ubFileList.length > 0) {
                     casper.echo('Saving contents to ' + path + '...');
                     fs.write(path, jsContent, 'w');
                     
-                    var tsvContent = casper.fetchText('#data-tsv');
-                    var tsvPath = 'data/' + id + '.tsv';
-                    casper.echo('Saving tsv contents to ' + tsvPath + '...');
-                    fs.write(tsvPath, tsvContent, 'w');
-                    
+                    //get tsv from umweltbericht if necessary
+                    if(currentConfig.datenInChartIntegriert == undefined || currentConfig.datenInChartIntegriert){
+                        var tsvContent = casper.fetchText('#data-tsv');
+                        var tsvPath = 'data/' + id + '.tsv';
+                        casper.echo('Saving tsv contents to ' + tsvPath + '...');
+                        fs.write(tsvPath, tsvContent, 'w');
+                    }
 
                     //casper.capture('screenshots/' + id + '.png');
                 });

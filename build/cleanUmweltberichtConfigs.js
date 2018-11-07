@@ -6,10 +6,17 @@ var templatePathBase = "charts/templates/";
 var serialize = require('serialize-javascript');
 var clone = require('clone');
 
+
 var files = glob.sync(metadataPathBase + "*.json");
 files.forEach(function(filepath){
     var metadataFileContents = fs.readFileSync(filepath, 'utf8');
-    var indikator = JSON.parse(metadataFileContents);
+    
+    //strip whitespace from start of file and save file
+    //replace 'nice' quotes with technical quotes - 'nice' quotes are usually created when pasting content from word, link hrefs do not work with those quotes
+    var metadataFileContentsStripped = metadataFileContents.slice(metadataFileContents.indexOf('{')).replace(/’/g, "'");
+    fs.writeFileSync(filepath, metadataFileContentsStripped);
+
+    var indikator = JSON.parse(metadataFileContentsStripped);
     if (indikator.kennzahlenset == 'Umwelt' /*&& indikator.id == 4221*/){
         try{
             var configFileContents = fs.readFileSync(configPathBase + indikator.id + '.json', 'utf8');
