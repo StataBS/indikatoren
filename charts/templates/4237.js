@@ -329,7 +329,6 @@
       "valueSuffix": "°C",
       "visible": true,
       "_symbolIndex": 1
-    },
-    []
+    }
   ]
 };}());
