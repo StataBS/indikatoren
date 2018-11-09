@@ -8,7 +8,7 @@
 "unterthema":"Beschäftigte ",
 "kennzahlenset":"Nachhaltigkeit",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-02T11:24:25.2525",
+"aktualisierungsdatum":"2018-11-08T16:33:54.5454",
 "stufe1":"Bereich Wirtschaftliche Entfaltung",
 "stufe2":"Wirtschaftssystem",
 "stufe3":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6046, 
+"chart-id":6046, 
+"filter":""
 }
