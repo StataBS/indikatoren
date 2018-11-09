@@ -115,7 +115,7 @@
     "zoomType": "xy",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
@@ -185,8 +185,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
+      "x": 10
     },
     "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-24"
   },

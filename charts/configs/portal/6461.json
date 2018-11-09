@@ -272,8 +272,7 @@
     "marginBottom": 70,
     "type": "column",
     "inverted": true,
-    "renderTo": "container-6461",
-    "spacingBottom": 50
+    "renderTo": "container-6461"
   },
   "plotOptions": {
     "series": {
@@ -343,8 +342,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -35
+      "x": 10
     },
     "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
   },

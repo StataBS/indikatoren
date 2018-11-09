@@ -325,8 +325,7 @@
     },
     "type": "column",
     "inverted": true,
-    "renderTo": "container-6708",
-    "spacingBottom": 2
+    "renderTo": "container-6708"
   },
   "plotOptions": {
     "series": {
@@ -402,8 +401,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -15
+      "x": 10
     },
     "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)."
   },

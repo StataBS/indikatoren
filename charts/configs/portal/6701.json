@@ -950,8 +950,7 @@
     "renderTo": "container-6701",
     "type": "column",
     "inverted": false,
-    "spacingTop": 5,
-    "spacingBottom": 2
+    "spacingTop": 5
   },
   "plotOptions": {
     "series": {
@@ -1023,8 +1022,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -15
+      "x": 10
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik."
   },

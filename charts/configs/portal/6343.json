@@ -86,8 +86,7 @@
     "type": "column",
     "inverted": false,
     "spacingTop": 5,
-    "renderTo": "container-6343",
-    "spacingBottom": 2
+    "renderTo": "container-6343"
   },
   "plotOptions": {
     "series": {
@@ -159,8 +158,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -15
+      "x": 10
     },
     "text": "Quelle: Eidgenössische Finanzverwaltung."
   },

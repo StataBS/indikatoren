@@ -81,8 +81,7 @@
     "type": "column",
     "inverted": false,
     "spacingTop": 5,
-    "renderTo": "container-6313",
-    "spacingBottom": 12
+    "renderTo": "container-6313"
   },
   "plotOptions": {
     "series": {
@@ -154,8 +153,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
+      "x": 10
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-17"
   },

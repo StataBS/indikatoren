@@ -140,8 +140,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6242",
-    "spacingBottom": 18
+    "renderTo": "container-6242"
   },
   "title": {
     "style": {
@@ -212,8 +211,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
+      "x": 10
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2017-7-6"
   },

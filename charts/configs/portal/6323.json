@@ -79,8 +79,7 @@
     "type": "line",
     "spacingTop": 5,
     "marginRight": 5,
-    "renderTo": "container-6323",
-    "spacingBottom": 22
+    "renderTo": "container-6323"
   },
   "title": {
     "style": {
@@ -150,8 +149,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -35
+      "x": 10
     },
     "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP);\u003Cbr\u002F\u003EPolizeiliche Kriminalitätsstatistk (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },

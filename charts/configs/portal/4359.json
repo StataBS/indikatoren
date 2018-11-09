@@ -88,8 +88,7 @@
     "marginBottom": 75,
     "marginTop": 75,
     "type": "column",
-    "renderTo": "container-4359",
-    "spacingBottom": 50
+    "renderTo": "container-4359"
   },
   "plotOptions": {
     "series": {
@@ -163,8 +162,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -35
+      "x": 10
     },
     "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EVolkswirtschaftliche Gesamtrechnung (VGR).\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-14"
   },

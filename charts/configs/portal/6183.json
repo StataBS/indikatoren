@@ -268,7 +268,7 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "spacingBottom": 65,
+    "spacingBottom": 45,
     "inverted": false,
     "renderTo": "container-6183"
   },
@@ -345,8 +345,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -35
+      "x": 10
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003EDepartement für Wirtschaft, Soziales und Umwelt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },

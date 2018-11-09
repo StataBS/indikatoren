@@ -57,8 +57,7 @@
       "fontFamily": "Arial"
     },
     "type": "pie",
-    "renderTo": "container-6253",
-    "spacingBottom": 12
+    "renderTo": "container-6253"
   },
   "plotOptions": {
     "pie": {
@@ -121,8 +120,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
+      "x": 10
     },
     "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2017-6-26"
   },

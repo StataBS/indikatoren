@@ -221,8 +221,7 @@
           }
     },
     "alignTicks": false,
-    "renderTo": "container-5199",
-    "spacingBottom": 40
+    "renderTo": "container-5199"
   },
   "plotOptions": {
     "series": {
@@ -323,8 +322,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
+      "x": 10
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-16"
   },

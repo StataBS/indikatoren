@@ -305,8 +305,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6334",
-    "spacingBottom": 2
+    "renderTo": "container-6334"
   },
   "title": {
     "style": {
@@ -378,8 +377,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -15
+      "x": 10
     },
     "text": "Quelle: Eidgenössische Steuerverwaltung."
   },

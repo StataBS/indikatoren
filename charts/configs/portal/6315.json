@@ -160,8 +160,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6315",
-    "spacingBottom": 12
+    "renderTo": "container-6315"
   },
   "title": {
     "style": {
@@ -232,8 +231,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
+      "x": 10
     },
     "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-24"
   },

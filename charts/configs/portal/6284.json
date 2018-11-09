@@ -138,8 +138,7 @@
     },
     "type": "column",
     "inverted": true,
-    "renderTo": "container-6284",
-    "spacingBottom": 2
+    "renderTo": "container-6284"
   },
   "plotOptions": {
     "series": {
@@ -212,8 +211,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -15
+      "x": 10
     },
     "text": "Quelle: UBS Switzerland AG."
   },

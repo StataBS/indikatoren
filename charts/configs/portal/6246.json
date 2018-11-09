@@ -3741,8 +3741,7 @@
 					fn.AddPieLegendClickHandler(chart);
 	            }
     },
-    "renderTo": "container-6246",
-    "spacingBottom": 12
+    "renderTo": "container-6246"
   },
   "title": {
     "style": {
@@ -3774,8 +3773,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
+      "x": 10
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2017-7-4"
   },
