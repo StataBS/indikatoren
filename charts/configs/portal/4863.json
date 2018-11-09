@@ -81,8 +81,7 @@
     "marginBottom": 65,
     "marginTop": 75,
     "type": "column",
-    "renderTo": "container-4863",
-    "spacingBottom": 40
+    "renderTo": "container-4863"
   },
   "plotOptions": {
     "series": {
@@ -175,8 +174,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
+      "x": 10
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2017-2-28"
   },

@@ -561,8 +561,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6668",
-    "spacingBottom": 22
+    "renderTo": "container-6668"
   },
   "title": {
     "style": {
@@ -635,8 +634,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -35
+      "x": 10
     },
     "text": "Quelle: Bundesamt für Statistik (BFS);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bildungsstatistik."
   },

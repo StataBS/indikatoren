@@ -157,11 +157,9 @@
             }
           }
     },
-    "marginBottom": 100,
     "type": "column",
     "inverted": false,
-    "renderTo": "container-6484",
-    "spacingBottom": 50
+    "renderTo": "container-6484"
   },
   "plotOptions": {
     "series": {
@@ -227,8 +225,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -35
+      "x": 10
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },

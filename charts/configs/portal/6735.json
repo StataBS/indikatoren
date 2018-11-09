@@ -503,8 +503,7 @@
     "inverted": false,
     "marginBottom": 75,
     "spacingTop": 5,
-    "renderTo": "container-6735",
-    "spacingBottom": 2
+    "renderTo": "container-6735"
   },
   "title": {
     "style": {
@@ -580,8 +579,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -15
+      "x": 10
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F20."
   },

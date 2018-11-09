@@ -129,7 +129,7 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
-    "spacingBottom": 40,
+    "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
     },
@@ -205,8 +205,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
+      "x": 10
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F57a.\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
   },

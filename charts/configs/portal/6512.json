@@ -296,8 +296,7 @@
     "type": "column",
     "marginLeft": 195,
     "inverted": true,
-    "renderTo": "container-6512",
-    "spacingBottom": 40
+    "renderTo": "container-6512"
   },
   "title": {
     "style": {
@@ -374,8 +373,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
+      "x": 10
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F60.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },

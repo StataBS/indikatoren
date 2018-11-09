@@ -317,8 +317,7 @@
     },
     "type": "column",
     "inverted": false,
-    "renderTo": "container-6276",
-    "spacingBottom": 12
+    "renderTo": "container-6276"
   },
   "plotOptions": {
     "series": {
@@ -391,8 +390,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
+      "x": 10
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_8.\u003Cbr\u002F\u003EZuletzt geändert: 2016-12-14"
   },

@@ -84,8 +84,7 @@
     "marginBottom": 85,
     "marginTop": 75,
     "type": "column",
-    "renderTo": "container-4352",
-    "spacingBottom": 60
+    "renderTo": "container-4352"
   },
   "plotOptions": {
     "series": {
@@ -160,8 +159,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -45
+      "x": 10
     },
     "text": "Quelle: Swissgrid SA;\u003Cbr\u002F\u003ESwisspower;\u003Cbr\u002F\u003EVerband Schweizerischer Elektrizitätsunternehmen VSE.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-14"
   },

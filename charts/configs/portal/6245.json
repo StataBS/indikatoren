@@ -136,8 +136,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6245",
-    "spacingBottom": 18
+    "renderTo": "container-6245"
   },
   "title": {
     "style": {
@@ -207,8 +206,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
+      "x": 10
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2017-6-26"
   },

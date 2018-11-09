@@ -101,8 +101,7 @@
     "type": "column",
     "inverted": false,
     "spacingTop": 5,
-    "renderTo": "container-6368",
-    "spacingBottom": 12
+    "renderTo": "container-6368"
   },
   "title": {
     "style": {
@@ -159,8 +158,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
+      "x": 10
     },
     "text": "Quelle: BaselArea.\u003Cbr\u002F\u003EZuletzt geändert: 2015-12-17"
   },

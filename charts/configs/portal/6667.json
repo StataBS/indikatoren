@@ -981,8 +981,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6667",
-    "spacingBottom": 2
+    "renderTo": "container-6667"
   },
   "title": {
     "style": {
@@ -1055,8 +1054,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -15
+      "x": 10
     },
     "text": "Quelle: Bundesamt für Statistik (BFS)."
   },

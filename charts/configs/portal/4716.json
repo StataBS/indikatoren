@@ -288,8 +288,7 @@
     "zoomType": "xy",
     "type": "column",
     "inverted": true,
-    "renderTo": "container-4716",
-    "spacingBottom": 40
+    "renderTo": "container-4716"
   },
   "title": {
     "style": {
@@ -361,8 +360,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
+      "x": 10
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F74c-e.\u003Cbr\u002F\u003EZuletzt geändert: 2017-3-8"
   },

@@ -92,8 +92,7 @@
     },
     "type": "column",
     "inverted": false,
-    "renderTo": "container-6088",
-    "spacingBottom": 50
+    "renderTo": "container-6088"
   },
   "plotOptions": {
     "series": {
@@ -162,8 +161,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -35
+      "x": 10
     },
     "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },

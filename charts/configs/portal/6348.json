@@ -162,7 +162,7 @@
     },
     "type": "column",
     "inverted": false,
-    "spacingBottom": 50,
+    "spacingBottom": 40,
     "renderTo": "container-6348"
   },
   "plotOptions": {
@@ -231,8 +231,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
+      "x": 10
     },
     "text": "Quelle: Credit Suisse Group AG.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-9"
   },

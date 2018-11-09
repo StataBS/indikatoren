@@ -164,8 +164,7 @@
                     }
                 }
     },
-    "renderTo": "container-6683",
-    "spacingBottom": 12
+    "renderTo": "container-6683"
   },
   "plotOptions": {
     "bar": {
@@ -254,8 +253,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
+      "x": 10
     },
     "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik."
   },

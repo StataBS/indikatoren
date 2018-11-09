@@ -127,8 +127,7 @@
     },
     "type": "column",
     "inverted": false,
-    "renderTo": "container-5033",
-    "spacingBottom": 40
+    "renderTo": "container-5033"
   },
   "plotOptions": {
     "series": {
@@ -196,8 +195,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
+      "x": 10
     },
     "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-24"
   },
