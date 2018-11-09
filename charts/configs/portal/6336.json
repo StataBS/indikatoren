@@ -314,8 +314,7 @@
     },
     "type": "line",
     "spacingTop": 5,
-    "renderTo": "container-6336",
-    "spacingBottom": 2
+    "renderTo": "container-6336"
   },
   "title": {
     "style": {
@@ -387,8 +386,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -15
+      "x": 10
     },
     "text": "Quelle: Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung."
   },

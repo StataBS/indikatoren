@@ -373,8 +373,7 @@
     "renderTo": "container-6425",
     "marginBottom": 75,
     "type": "column",
-    "inverted": true,
-    "spacingBottom": 40
+    "inverted": true
   },
   "plotOptions": {
     "series": {
@@ -442,8 +441,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
+      "x": 10
     },
     "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },

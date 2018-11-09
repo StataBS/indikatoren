@@ -434,8 +434,7 @@
     },
     "renderTo": "container-6733",
     "type": "column",
-    "inverted": false,
-    "spacingBottom": 2
+    "inverted": false
   },
   "plotOptions": {
     "series": {
@@ -508,8 +507,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -15
+      "x": 10
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik."
   },

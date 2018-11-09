@@ -369,8 +369,7 @@
     "zoomType": "xy",
     "type": "column",
     "inverted": true,
-    "renderTo": "container-6261",
-    "spacingBottom": 2
+    "renderTo": "container-6261"
   },
   "title": {
     "style": {
@@ -442,8 +441,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -15
+      "x": 10
     },
     "text": "Quelle: Bevölkerungsbefragung Basel-Stadt 2015, Frage F6."
   },

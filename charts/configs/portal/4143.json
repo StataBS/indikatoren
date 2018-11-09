@@ -144,8 +144,7 @@
     },
     "type": "line",
     "alignTicks": false,
-    "renderTo": "container-4143",
-    "spacingBottom": 40
+    "renderTo": "container-4143"
   },
   "plotOptions": {
     "series": {
@@ -243,8 +242,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
+      "x": 10
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-1-18"
   },

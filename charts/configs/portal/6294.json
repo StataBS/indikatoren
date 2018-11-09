@@ -542,8 +542,7 @@
                     
                 }
     },
-    "renderTo": "container-6294",
-    "spacingBottom": 2
+    "renderTo": "container-6294"
   },
   "plotOptions": {
     "series": {
@@ -656,8 +655,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -15
+      "x": 10
     },
     "text": "Quelle: Eidgenössische Finanzverwaltung."
   },

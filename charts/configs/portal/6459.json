@@ -260,8 +260,7 @@
     "marginLeft": 200,
     "type": "column",
     "inverted": true,
-    "renderTo": "container-6459",
-    "spacingBottom": 40
+    "renderTo": "container-6459"
   },
   "plotOptions": {
     "series": {
@@ -328,8 +327,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
+      "x": 10
     },
     "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-1"
   },

@@ -90,8 +90,7 @@
     },
     "type": "line",
     "spacingTop": 5,
-    "renderTo": "container-6285",
-    "spacingBottom": 2
+    "renderTo": "container-6285"
   },
   "title": {
     "style": {
@@ -162,8 +161,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -15
+      "x": 10
     },
     "text": "Quelle: Steuerstatistik Basel-Stadt."
   },

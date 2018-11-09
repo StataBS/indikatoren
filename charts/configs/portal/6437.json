@@ -444,8 +444,7 @@
     "y": 20,
     "marginLeft": 130,
     "inverted": true,
-    "renderTo": "container-6437",
-    "spacingBottom": 40
+    "renderTo": "container-6437"
   },
   "title": {
     "style": {
@@ -519,8 +518,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
+      "x": 10
     },
     "text": "Quelle: Justiz- und Sicherheitsdepartement des Kantons Basel-Stadt, Kundenbefragung 2012, F 51.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-24"
   },

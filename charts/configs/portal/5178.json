@@ -576,8 +576,7 @@
     "type": "column",
     "marginLeft": 200,
     "inverted": true,
-    "renderTo": "container-5178",
-    "spacingBottom": 40
+    "renderTo": "container-5178"
   },
   "title": {
     "style": {
@@ -652,8 +651,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
+      "x": 10
     },
     "text": "Quelle: Bevölkerungsbefragung Basel-Stadt 2015, Frage F6.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-19"
   },

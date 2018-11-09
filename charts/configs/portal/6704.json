@@ -192,8 +192,7 @@
                     }
                 }
     },
-    "renderTo": "container-6704",
-    "spacingBottom": 2
+    "renderTo": "container-6704"
   },
   "plotOptions": {
     "bar": {
@@ -280,8 +279,7 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10,
-      "y": -15
+      "x": 10
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik."
   },
