@@ -266,7 +266,8 @@
     "type": "column",
     "marginLeft": 150,
     "inverted": true,
-    "renderTo": "container-6028"
+    "renderTo": "container-6028",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -341,7 +342,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -25
     },
     "text": "Quelle: Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr.\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
   },

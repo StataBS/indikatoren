@@ -385,7 +385,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6318"
+    "renderTo": "container-6318",
+    "spacingBottom": 22
   },
   "title": {
     "style": {
@@ -458,7 +459,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -35
     },
     "text": "Quelle: Jeweilige Institutionen;\u003Cbr\u002F\u003EProCinema.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },

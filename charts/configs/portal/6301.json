@@ -127,7 +127,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6301"
+    "renderTo": "container-6301",
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -196,7 +197,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -25
     },
     "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },

@@ -1069,7 +1069,8 @@
     },
     "type": "column",
     "inverted": false,
-    "renderTo": "container-2152"
+    "renderTo": "container-2152",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -1136,7 +1137,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -25
     },
     "text": "Quelle: Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
   },

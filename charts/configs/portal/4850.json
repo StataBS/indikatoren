@@ -167,7 +167,8 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "renderTo": "container-4850"
+    "renderTo": "container-4850",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -238,7 +239,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -25
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F34.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-9"
   },

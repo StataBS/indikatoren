@@ -122,13 +122,11 @@ function injectMetadataToChartConfig(options, data, view, suppressNumberInTitle)
     options['chart']['height'] = parseInt(options['chart']['height'], 10) + 13;
   }
   
-  //options['credits']['position']['y'] = (options['credits']['position']['y'] || -5) + (-10 * numberOfCreditsLines);
+  options['credits']['position']['y'] = (options['credits']['position']['y'] || -5) + (-10 * numberOfCreditsLines);
   //increase spacingBottom to prevent overlapping xAxis.label with credits if credits are to be shown
-  /*
   if (view != 'print'){
   	options['chart']['spacingBottom'] = (options['chart']['spacingBottom'] || options['chart']['spacing'][2] || 0) + ((numberOfCreditsLines-1) * 10);
   }
-  */
 
   //make sure node exists before deferencing it
   options['exporting'] = (options['exporting'] || {});
@@ -176,7 +174,7 @@ function createEmptyLabels(options){
 //load global options, template, chartOptions from external scripts, load csv data from external file, and render chart to designated div
 function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn){
   //Umwelt data are rendered directly from json, not from csv + json files
-  if (chartMetaData.datenInChartIntegriert == true || chartMetaData.datenInChartIntegriert == "undefined"){
+  if (chartMetaData.datenInChartIntegriert == false || (chartMetaData.datenInChartIntegriert === undefined && chartMetaData.kennzahlenset != "Umwelt")){
     //load scripts one after the other, then load csv and draw the chart
     $.when(    
         //$.getScript(globalOptionsUrl),

@@ -273,7 +273,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6666"
+    "renderTo": "container-6666",
+    "spacingBottom": 2
   },
   "title": {
     "style": {
@@ -345,7 +346,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -15
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik."
   },

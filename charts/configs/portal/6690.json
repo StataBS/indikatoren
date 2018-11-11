@@ -268,7 +268,8 @@
     },
     "type": "column",
     "inverted": false,
-    "renderTo": "container-6690"
+    "renderTo": "container-6690",
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -342,7 +343,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -25
     },
     "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ)."
   },

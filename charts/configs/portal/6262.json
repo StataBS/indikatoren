@@ -505,7 +505,8 @@
       "fontFamily": "Arial"
     },
     "type": "area",
-    "renderTo": "container-6262"
+    "renderTo": "container-6262",
+    "spacingBottom": 2
   },
   "title": {
     "style": {
@@ -560,7 +561,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -15
     },
     "text": "Quelle: SVIT beider Basel."
   },
