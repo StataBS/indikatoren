@@ -746,7 +746,7 @@
           }
     },
     "type": "column",
-    "spacingBottom": 28,
+    "spacingBottom": 38,
     "renderTo": "container-5195"
   },
   "plotOptions": {
@@ -858,7 +858,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -25
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-22"
   },

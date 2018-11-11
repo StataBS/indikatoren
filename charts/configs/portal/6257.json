@@ -288,7 +288,8 @@
     },
     "type": "line",
     "alignTicks": false,
-    "renderTo": "container-6257"
+    "renderTo": "container-6257",
+    "spacingBottom": 22
   },
   "title": {
     "style": {
@@ -372,7 +373,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -35
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2017-7-19"
   },

@@ -112,7 +112,8 @@
     },
     "type": "column",
     "inverted": false,
-    "renderTo": "container-6049"
+    "renderTo": "container-6049",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -179,7 +180,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -25
     },
     "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-24"
   },

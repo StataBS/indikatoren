@@ -150,7 +150,8 @@
     },
     "renderTo": "container-6044",
     "marginBottom": 65,
-    "type": "column"
+    "type": "column",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -237,7 +238,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -25
     },
     "text": "Quelle: Staatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-17"
   },

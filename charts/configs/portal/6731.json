@@ -161,7 +161,8 @@
     },
     "renderTo": "container-6731",
     "type": "column",
-    "inverted": false
+    "inverted": false,
+    "spacingBottom": 2
   },
   "plotOptions": {
     "series": {
@@ -236,7 +237,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -15
     },
     "text": "Quelle: Polizeiliche Kriminalitätsstatistk (PKS)."
   },

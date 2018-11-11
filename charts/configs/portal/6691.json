@@ -189,7 +189,8 @@
     "type": "column",
     "inverted": true,
     "marginLeft": 120,
-    "renderTo": "container-6691"
+    "renderTo": "container-6691",
+    "spacingBottom": 2
   },
   "plotOptions": {
     "series": {
@@ -261,7 +262,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -15
     },
     "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)."
   },

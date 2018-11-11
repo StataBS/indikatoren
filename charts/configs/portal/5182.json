@@ -1233,7 +1233,8 @@
     },
     "type": "scatter",
     "inverted": false,
-    "renderTo": "container-5182"
+    "renderTo": "container-5182",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -1303,7 +1304,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -25
     },
     "text": "Quelle: Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-9"
   },

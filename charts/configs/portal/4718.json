@@ -288,7 +288,8 @@
     "zoomType": "xy",
     "type": "column",
     "inverted": true,
-    "renderTo": "container-4718"
+    "renderTo": "container-4718",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -360,7 +361,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -25
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F54e.\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
   },

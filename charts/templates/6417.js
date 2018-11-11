@@ -143,6 +143,9 @@ global Highcharts
   }, 
   subtitle: {
     useHTML: true
-  }
+  }, 
+  exporting: {
+    allowHTML: true,
+  },
 	};
 }());

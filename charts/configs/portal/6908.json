@@ -171,7 +171,8 @@
     "zoomType": "xy",
     "type": "column",
     "inverted": false,
-    "renderTo": "container-6908"
+    "renderTo": "container-6908",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -246,7 +247,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -25
     },
     "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-27"
   },

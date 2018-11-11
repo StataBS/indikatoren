@@ -326,7 +326,8 @@
           }
     },
     "type": "column",
-    "renderTo": "container-6912"
+    "renderTo": "container-6912",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -421,7 +422,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -25
     },
     "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-27"
   },

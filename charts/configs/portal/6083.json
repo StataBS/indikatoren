@@ -549,7 +549,7 @@
     "zoomType": "xy",
     "width": 485,
     "height": 428,
-    "spacingBottom": 60,
+    "spacingBottom": 90,
     "style": {
       "fontFamily": "Arial"
     },
@@ -620,7 +620,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -45
     },
     "text": "Quelle: Bundesamt für Statistik (BFS);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },

@@ -6868,7 +6868,7 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
-    "spacingBottom": 45,
+    "spacingBottom": 65,
     "style": {
       "fontFamily": "Arial"
     },
@@ -6906,7 +6906,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -35
     },
     "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-1"
   },
