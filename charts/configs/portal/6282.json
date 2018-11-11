@@ -329,7 +329,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6282"
+    "renderTo": "container-6282",
+    "spacingBottom": 2
   },
   "title": {
     "style": {
@@ -401,7 +402,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -15
     },
     "text": "Quelle: BAK Economics."
   },

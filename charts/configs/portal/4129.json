@@ -394,7 +394,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -15
     },
     "text": "Quelle: .\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-22"
   },

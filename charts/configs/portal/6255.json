@@ -3733,7 +3733,8 @@
 					fn.AddPieLegendClickHandler(chart);
 	            }
     },
-    "renderTo": "container-6255"
+    "renderTo": "container-6255",
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -3765,7 +3766,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -25
     },
     "text": "Quelle: Planungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2017-7-4"
   },

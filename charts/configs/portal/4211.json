@@ -70,7 +70,8 @@
           }
     },
     "type": "column",
-    "renderTo": "container-4211"
+    "renderTo": "container-4211",
+    "spacingBottom": 50
   },
   "plotOptions": {
     "series": {
@@ -144,7 +145,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -35
     },
     "text": "Quelle: Amt für Wald beider Basel;\u003Cbr\u002F\u003EStadtgärtnerei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-17"
   },

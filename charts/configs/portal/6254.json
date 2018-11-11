@@ -76,7 +76,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6254"
+    "renderTo": "container-6254",
+    "spacingBottom": 18
   },
   "title": {
     "style": {
@@ -145,7 +146,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -25
     },
     "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2017-6-26"
   },

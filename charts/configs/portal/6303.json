@@ -463,7 +463,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6303"
+    "renderTo": "container-6303",
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -535,7 +536,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -25
     },
     "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-14"
   },

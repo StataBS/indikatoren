@@ -77,7 +77,7 @@
     "zoomType": "xy",
     "width": 485,
     "height": 428,
-    "spacingBottom": 45,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -148,7 +148,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -25
     },
     "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-18"
   },

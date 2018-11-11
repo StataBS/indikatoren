@@ -267,7 +267,8 @@
                     
                 }
     },
-    "renderTo": "container-6244"
+    "renderTo": "container-6244",
+    "spacingBottom": 18
   },
   "plotOptions": {
     "series": {
@@ -351,7 +352,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -25
     },
     "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2017-6-12"
   },

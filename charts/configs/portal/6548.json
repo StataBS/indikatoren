@@ -449,7 +449,8 @@
       "fontFamily": "Arial"
     },
     "type": "area",
-    "renderTo": "container-6548"
+    "renderTo": "container-6548",
+    "spacingBottom": 55
   },
   "title": {
     "style": {
@@ -516,7 +517,8 @@
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
-      "x": 10
+      "x": 10,
+      "y": -25
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-15"
   },
