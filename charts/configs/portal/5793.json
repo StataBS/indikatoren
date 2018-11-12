@@ -248,8 +248,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -321,9 +321,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Global Footprint Network."
+    "text": "Quelle: Global Footprint Network.\u003Cbr\u002F\u003EZuletzt geändert: 2018-5-8"
   },
   "legend": {
     "enabled": false,
@@ -341,7 +341,7 @@
         "enabled": false
       },
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
         "allowOverlap": true,
         "y": 40,
         "formatter": function () {
