@@ -336,7 +336,7 @@
     "zoomType": "xy",
     "width": 485,
     "height": 428,
-    "spacingBottom": 45,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -350,7 +350,8 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl"
+    "margin": 30,
+    "text": "Mietpreisentwicklung der Leerwohnungen"
   },
   "subtitle": {
     "style": {
@@ -359,7 +360,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt",
+    "text": "nach Zimmerzahl, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -395,19 +396,20 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: .\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-13"
   },
   "legend": {
-    "enabled": false,
+    "enabled": true,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "itemMarginBottom": 5
   },
   "plotOptions": {
     "series": {
@@ -415,7 +417,7 @@
         "enabled": false
       },
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
         "allowOverlap": true,
         "formatter": function () {
               var last  = this.series.data[this.series.data.length - 1];

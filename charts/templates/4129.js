@@ -1,5 +1,8 @@
 (function(){
   return {
+      title: {
+        margin: 30
+    },
     "yAxis": {
       "labels": {
         "format": "{value:,.0f}",
@@ -51,12 +54,24 @@
         },
         "index": 0,
         "color": "#008AC3"
-      }
+      },
+        
     ],
+    
+    "legend": {
+         "enabled": true, 
+         "layout": "vertical",
+         "verticalAlign": "middle",
+         "itemMarginBottom": 5,
+         "align": "right",
+         "itemStyle": {
+         "fontWeight": "normal"
+        },
+    },
     "plotOptions": {
       "series": {
         "dataLabels": {
-          "enabled": true,
+          "enabled": false,
           "allowOverlap": true,
             //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
             formatter: function() {
