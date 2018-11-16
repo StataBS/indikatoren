@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#B00000",
+      "color": "#008AC3",
       "stacking": "normal",
       "stack": "male",
       "legendIndex": 0,
@@ -448,7 +448,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#008AC3",
+      "color": "#00bAf3",
       "stacking": "normal",
       "stack": "male",
       "legendIndex": 2,
@@ -895,7 +895,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#d00000",
+      "color": "#B00000",
       "stacking": "normal",
       "stack": "female",
       "legendIndex": 1,
@@ -1342,7 +1342,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#00bAf3",
+      "color": "#d00000",
       "stacking": "normal",
       "stack": "female",
       "legendIndex": 3,
@@ -1843,6 +1843,7 @@
                 }
     },
     "marginRight": 15,
+    "marginBottom": 70,
     "renderTo": "container-5142"
   },
   "plotOptions": {
@@ -1877,7 +1878,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit und Geschlecht, Stand: 2017",
+    "text": "nach Alter in Jahren, Basel-Stadt, 2017",
     "align": "left"
   },
   "yAxis": [
@@ -1930,7 +1931,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2017-3-1"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-15"
   },
   "legend": {
     "symbolRadius": 0,
