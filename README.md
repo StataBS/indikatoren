@@ -1,6 +1,12 @@
 # Indikatorenportal Statistisches Amt Basel-Stadt 
 Find and display statistical indicators from the canton of Basel-Stadt, Switzerland. See live version [here](http://www.statistik.bs.ch/zahlen/indikatoren/).  
 
+## Update charts from ftp server
+- In a terminal window within c9.io, run the following command: 
+```javascript
+npm run build:deployNewCharts
+```
+- Build, commit and push as explained further down. 
 
 ## Create png files of each chart within an indikatorenset
 - In a terminal window within c9.io, run the following command: 
@@ -159,7 +165,10 @@ The build script does the following things:
 - npm run build:save_checksums: Saves checksums of all files to metadata/all/hasesAfterBuild.json so that during next build, npm run build:find_changed_charts can find changes. 
 - npm run build:copy_modules: Copies npm modules that are required for the live website (defined in packages.json, key "dependencies") to assets/js/modules. 
 - npm run build:copy_data_per_set: Copies tsv files to a folder defined by the chart's kennzahlenset (data/sets/[kennzahlenset]/[id].tsv)
-
+- npm run build:deployNewCharts: Downloads data, metadata and config for charts that are ready to be updated: 
+    - It downloads the file https://indikatoren.statabs.ch/verzeichnis.txt which contains all charts that are ready to be updated in csv format with columns "indikator", "branch". 
+    - For each chart that is ready to be updated, it downloads its respective tsv and metadata json file from https://indikatoren.statabs.ch/
+    - If a branch name ist given for a chart, it retrieves that chart's js file through git from origin/[branch name]. 
 ### Update dependencies
 Update version numbers in package.json, then run the following command to do a clean reinstall: 
 ```javascript
