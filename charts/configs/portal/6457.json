@@ -46,9 +46,13 @@
         [
           2015,
           5214
+        ],
+        [
+          2016,
+          5409
         ]
       ],
-      "name": "Öffentliche Verwaltung, Sozialversicherungen"
+      "name": "Öffentliche Verwaltung,  \u003Cbr\u002F\u003ESozialversicherungen"
     },
     {
       "color": "#008AC3",
@@ -95,7 +99,11 @@
         ],
         [
           2015,
-          7852
+          7901
+        ],
+        [
+          2016,
+          7932
         ]
       ],
       "name": "Erziehung, Unterricht"
@@ -145,7 +153,11 @@
         ],
         [
           2015,
-          21312
+          21414
+        ],
+        [
+          2016,
+          22139
         ]
       ],
       "name": "Gesundheits-, Sozialwesen"
@@ -195,7 +207,11 @@
         ],
         [
           2015,
-          7527
+          7333
+        ],
+        [
+          2016,
+          7265
         ]
       ],
       "name": "Kultur, Unterhaltung, pers. DL"
@@ -227,8 +243,7 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
-    "marginRight": 18,
+    "type": "column",
     "renderTo": "container-6457"
   },
   "title": {
@@ -270,7 +285,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 5000
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -282,7 +298,21 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickPositions": [
+      2005,
+      2008,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ]
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -298,7 +328,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-26"
   },
   "legend": {
     "enabled": true,
@@ -309,6 +339,8 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "width": 460,
+    "itemWidth": 230,
     "itemMarginBottom": 5
   },
   "plotOptions": {
@@ -316,13 +348,10 @@
       "marker": {
         "enabled": false
       },
-      "connectNulls": true
-    },
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
+      "stacking": null,
+      "pointPadding": 0,
+      "groupPadding": 0.1,
+      "borderWidth": 0
     }
   },
   "customFunctions": {

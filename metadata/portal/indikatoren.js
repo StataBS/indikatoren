@@ -855,7 +855,7 @@ var indikatoren = [
 	{
 		"title": "Beschäftigung in Industrie und Baugewerbe",
 		"subtitle": "Anzahl Vollzeitäquivalente, Basel-Stadt",
-		"kuerzel": "I.03.2.02528",
+		"kuerzel": "I.03.2.2528",
 		"kuerzelKunde": "3.2-05",
 		"description": "Beschäftigung in Industrie und Baugewerbe",
 		"thema": "03 Erwerbsleben",
@@ -864,28 +864,35 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-26T10:27:24.2424",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Branche der Chemischen und Pharmazeutischen Industrie sind 2015 rund 18 800 Beschäftigte in VZÄ tätig, was einem Wachstum von 2,0% gegenüber dem Vorjahr entspricht. Auch die Industrie (exkl. Chemie, Pharma) und das Baugewerbe verzeichnen einen Anstieg der VZÄ um 1,6% bzw. 0,8% im Vergleich zum Jahr 2014.",
-		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
+		"lesehilfe": "In der Branche der Chemischen und Pharmazeutischen Industrie sind 2016 in Vollzeitäquivalente (VZÄ) umgerechnet rund 19 000 Beschäftigte tätig, was einem Wachstum von 0,9% gegenüber dem Vorjahr entspricht. In der Industrie (exkl. Chemie, Pharma) hat sich die Beschäftigung im gleichen Zeitraum kaum verändert, während das Baugewerbe einen Rückgang der Beschäftigung in VZÄ um 0,7% verzeichnet.",
+		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_205",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7026"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2528,
-		"darstellungsart": "Grafik"
+		"data-id": 2528,
+		"chart-id": 2528,
+		"filter": "",
+		"id": 2528
 	},
 	{
 		"title": "Beschäftigung im Dienstleistungssektor (I)",
@@ -5923,15 +5930,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-08-22T13:37:50.5050",
+		"aktualisierungsdatum": "2018-11-26T10:24:15.1515",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branchengruppe Bau und Herstellung von Waren macht mit über 12,3 Mrd. Franken im Jahr 2015 wie in sämtlichen anderen Beobachtungsjahren den grössten Anteil an der Bruttowertschöpfung des Kantons Basel-Stadt aus.",
-		"erlaeuterungen": "2015 provisorisch. Die Bezeichnung der Branchengruppen sind in den meisten Fällen in der Legende verkürzt dargestellt. Im Detail umfassen sie &nbsp;folgenden Untergruppen: «Landwirtschaft etc.»: Landwirtschaft, Forstwirtschaft und Fischerei; «Bau, Herstellung von Waren»: Bergbau und Gewinnung von Steinen und Erden, Herstellung von Waren, Bau; «Versorgung und Bildung»: Energieversorgung, Wasserversorgung, Sammlung, Behandlung und Beseitigung von Abfällen, Erziehung und Unterricht, Gesundheitswesen; «Fahrzeuge, Transport, IT, Gastronomie»: Handel und Reparatur von Fahrzeugen, Transport, Informationsdienstleistungen und Telekommunikation, Beherbergung und Gastronomie; «Finanzen und Versicherungen»: Erbringung von Finanzdienstleistungen und Versicherungen; «Wirtsch. Dienstl. U. Unterhaltung»: Grundstücks- und Wohnungswesen, sonstige freiberufliche, wissenschaftliche und technische Tätigkeiten, wirtschaftliche Dienstleistungen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen.",
+		"lesehilfe": "Die Branchengruppe Bau und Herstellung von Waren macht mit über 14,4 Mrd. Franken im Jahr 2016 wie in sämtlichen anderen Beobachtungsjahren den grössten Anteil an der Bruttowertschöpfung des Kantons Basel-Stadt aus.",
+		"erlaeuterungen": "2016 provisorisch. Die Bezeichnung der Branchengruppen sind in den meisten Fällen in der Legende verkürzt dargestellt. Im Detail umfassen sie &nbsp;folgenden Untergruppen: «Landwirtschaft etc.»: Landwirtschaft, Forstwirtschaft und Fischerei; «Bau, Herstellung von Waren»: Bergbau und Gewinnung von Steinen und Erden, Herstellung von Waren, Bau; «Versorgung und Bildung»: Energieversorgung, Wasserversorgung, Sammlung, Behandlung und Beseitigung von Abfällen, Erziehung und Unterricht, Gesundheitswesen; «Fahrzeuge, Transport, IT, Gastronomie»: Handel und Reparatur von Fahrzeugen, Transport, Informationsdienstleistungen und Telekommunikation, Beherbergung und Gastronomie; «Finanzen und Versicherungen»: Erbringung von Finanzdienstleistungen und Versicherungen; «Wirtsch. Dienstl. u. Unterhaltung»: Grundstücks- und Wohnungswesen, sonstige freiberufliche, wissenschaftliche und technische Tätigkeiten, wirtschaftliche Dienstleistungen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
@@ -5941,11 +5949,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4908,
-		"darstellungsart": "Grafik"
+		"data-id": 4908,
+		"chart-id": 4908,
+		"filter": "",
+		"id": 4908
 	},
 	{
 		"title": "Jahresmittel Basler Index der Konsumentenpreise",
@@ -15784,7 +15795,7 @@ var indikatoren = [
 	{
 		"title": "Beschäftigung im Dienstleistungssektor (II)",
 		"subtitle": "Anzahl Vollzeitäquivalente, Basel-Stadt",
-		"kuerzel": "I.03.2.06456",
+		"kuerzel": "I.03.2.6456",
 		"kuerzelKunde": "3.2-07",
 		"description": "Beschäftigung im Dienstleistungssektor (II)",
 		"thema": "03 Erwerbsleben",
@@ -15793,33 +15804,40 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-26T10:28:11.1111",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branche Beratung, Planung, Forschung und Immobilien verzeichnet im Jahr 2015 erstmals einen Rückgang der VZÄ um 0,6%, nachdem sie seit 2005 stetig gewachsen war. Die Beschäftigung bei den Finanz- und Versicherungsdienstleistungen  sowie bei der Personalvermittlung und -überlassung weist zwischen 2014 und 2015 einen Rückgang um 1,1% bzw. 6,8% auf. In der  Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen hat die Beschäftigung im selben Zeitraum um 0,9% zugenommen.",
-		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
+		"lesehilfe": "Die Branche Beratung, Planung, Forschung und Immobilien verzeichnet im Jahr 2016 einen Anstieg der Beschäftigung in Vollzeitäquivalenten (VZÄ) um 0,8%. Ebenfalls zugenommen hat die Beschäftigung in VZÄ zwischen 2015 und 2016 bei der Personalvermittlung und -überlassung, und zwar um 2,8%. Die Finanz- und Versicherungsdienstleistungen sowie die Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen weisen im selben Zeitraum einen Rückgang der Beschäftigung in VZÄ um 3,0% bzw. 0,5% auf.",
+		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_207",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7043"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6456,
-		"darstellungsart": "Grafik"
+		"data-id": 6456,
+		"chart-id": 6456,
+		"filter": "",
+		"id": 6456
 	},
 	{
 		"title": "Beschäftigung im Dienstleistungssektor (III)",
 		"subtitle": "Anzahl Vollzeitäquivalente, Basel-Stadt",
-		"kuerzel": "I.03.2.06457",
+		"kuerzel": "I.03.2.6457",
 		"kuerzelKunde": "3.2-08",
 		"description": "Beschäftigung im Dienstleistungssektor (III)",
 		"thema": "03 Erwerbsleben",
@@ -15828,28 +15846,35 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-26T10:30:44.4444",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Gesundheits- und Sozialwesen liegt die Beschäftigung im Jahr 2015 bei rund 21 300 VZÄ, was einem Wachstum von 3,0% gegenüber dem Vorjahr entspricht. Auch in der Branche Öffentliche Verwaltung und Sozialversicherungen sowie in der Branche Kultur, Unterhaltung und persönliche Dienstleistungen hat die Beschäftigung zugenommen, und zwar um 0,8% bzw. 1,9%. Die Branche Erziehung und Unterricht verzeichnet im Jahr 2015 einen Rückgang der VZÄ um 2,0% gegenüber dem Vorjahr.",
-		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
+		"lesehilfe": "Im Gesundheits- und Sozialwesen liegt die Beschäftigung im Jahr 2016 bei rund 22 100 Vollzeitäquivalenten (VZÄ), was einem Wachstum von 3,4% gegenüber dem Vorjahr entspricht. Auch in der Branche Erziehung und Unterricht sowie in der Branche Öffentliche Verwaltung und Sozialversicherungen hat die Beschäftigung in VZÄ zugenommen, und zwar um 0,4% bzw. 3,8%. Die Branche Kultur, Unterhaltung und persönliche Dienstleistungen verzeichnet im Jahr 2016 einen Rückgang der VZÄ um 0,9% gegenüber dem Vorjahr.",
+		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_208",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7044"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6457,
-		"darstellungsart": "Grafik"
+		"data-id": 6457,
+		"chart-id": 6457,
+		"filter": "",
+		"id": 6457
 	},
 	{
 		"title": "Beschäftigung nach Branche",
