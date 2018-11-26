@@ -27,6 +27,10 @@
         [
           "2015",
           4
+        ],
+        [
+          "2016",
+          4
         ]
       ],
       "name": "Landwirtschaft etc.",
@@ -59,6 +63,10 @@
         [
           "2015",
           13265
+        ],
+        [
+          "2016",
+          14399
         ]
       ],
       "name": "Bau, Herstellung von Waren",
@@ -91,6 +99,10 @@
         [
           "2015",
           2069
+        ],
+        [
+          "2016",
+          2036
         ]
       ],
       "name": "Versorgung und Bildung",
@@ -123,6 +135,10 @@
         [
           "2015",
           5071
+        ],
+        [
+          "2016",
+          4999
         ]
       ],
       "name": "Fahrzeuge, Transport, IT, Gastronomie",
@@ -155,6 +171,10 @@
         [
           "2015",
           2802
+        ],
+        [
+          "2016",
+          2728
         ]
       ],
       "name": "Finanzen und Versicherungen",
@@ -187,6 +207,10 @@
         [
           "2015",
           5693
+        ],
+        [
+          "2016",
+          5728
         ]
       ],
       "name": "Wirtsch. Dienstl. u. Unterhaltung",
@@ -219,6 +243,10 @@
         [
           "2015",
           2133
+        ],
+        [
+          "2016",
+          2159
         ]
       ],
       "name": "Öffentliche Verwaltung",
@@ -251,6 +279,10 @@
         [
           "2015",
           50
+        ],
+        [
+          "2016",
+          52
         ]
       ],
       "name": "Private Haushalte",
@@ -319,7 +351,6 @@
           "fontSize": "10px"
         }
       },
-      "pointWidth": 15,
       "stacking": "normal"
     }
   },
@@ -359,8 +390,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickInterval": 4000,
-    "max": 32000
+    "tickAmount": 8
   },
   "navigation": {
     "menuItemStyle": {
@@ -381,12 +411,14 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-22"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-26"
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "width": 125,
+      "textOverflow": null
     },
     "layout": "vertical",
     "verticalAlign": "middle",
