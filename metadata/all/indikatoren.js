@@ -26247,7 +26247,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2018-12-03T15:01:38.3838",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -26266,12 +26266,15 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bevölkerungsdienste und Migration Basel-Stadt",
-			"Zentrale Informatikdienste Basel-Stadt ZID"
+			"Bevölkerungsdienste und Migration Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6515,
+		"chart-id": 6515,
+		"filter": "",
 		"id": 6515
 	},
 	{
