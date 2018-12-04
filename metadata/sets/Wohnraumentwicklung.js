@@ -35,8 +35,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Mietpreisentwicklung",
-		"subtitle": "nach Zimmerzahl",
-		"kuerzel": "I.09.3.04128",
+		"subtitle": "Wohnungen nach Zimmerzahl, Basel-Stadt",
+		"kuerzel": "I.09.3.4128",
 		"kuerzelKunde": "0.1.B-1",
 		"description": "Mietpreisentwicklung",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -45,15 +45,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-20T14:42:08.088",
+		"aktualisierungsdatum": "2018-12-04T09:38:44.4444",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Seit 2008 ist bei allen Zimmerkategorien eine steigende Tendenz der Mietpreise (Nettomieten) zu beobachten.",
-		"erlaeuterungen": "Es handelt sich hier im Gegensatz zu den Mietpreisen der Leerwohnungen um Bestandsmieten.<br/>Die Mietpreisangaben stützen sich auf systematische Stichprobenerhebungen, die 5% der Miet- und Genossenschaftswohnungen umfassen. Einzelne Mittelwerte basieren deshalb nur auf wenigen Mietpreisangaben.",
+		"erlaeuterungen": "Es handelt sich hier im Gegensatz zu den Mietpreisen der Leerwohnungen um Bestandsmieten.<br/>Die Mietpreisangaben stützen sich auf systematische Stichprobenerhebungen, die 5% der Miet- und Genossenschaftswohnungen umfassen. Wohnungen mit mehr als 5 Zimmern werden in der Abbildung nicht berücksichtigt.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -61,11 +63,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4128,
-		"darstellungsart": "Grafik"
+		"data-id": 4128,
+		"chart-id": 4128,
+		"filter": "",
+		"id": 4128
 	},
 	{
 		"title": "Mietpreisentwicklung der Leerwohnungen",
@@ -108,8 +113,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Mietpreisentwicklung der 3-Zimmer-Wohnungen",
-		"subtitle": "",
-		"kuerzel": "I.09.3.04130",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.3.4130",
 		"kuerzelKunde": "0.1.B-3",
 		"description": "Mietpreisentwicklung der 3-Zimmer-Wohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -118,15 +123,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-05-22T08:59:06.066",
+		"aktualisierungsdatum": "2018-12-04T11:03:07.077",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Nettomietpreise der Genossenschaftswohnungen sind in den letzten 10 Jahren im Durchschnitt ein Drittel günstiger als die Mietpreise der übrigen Mietwohnungen.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die Linien zeigen ungewichtete Durchschnitte der Wohnungspreise. Die Punkte zeigen gewichtete Durchschnittsmietpreise, die anhand der im Gebäude- und Wohnungsregister auftretenden Häufigkeit von Wohnungen (Stand November 2015) berechnet werden.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -134,11 +141,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4130,
-		"darstellungsart": "Grafik"
+		"data-id": 4130,
+		"chart-id": 4130,
+		"filter": "",
+		"id": 4130
 	},
 	{
 		"title": "Wohnungsbelegung",
