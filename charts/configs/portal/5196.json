@@ -94,9 +94,13 @@
         [
           2017,
           102.8
+        ],
+        [
+          2018,
+          104
         ]
       ],
-      "name": "Mietpreisindex"
+      "name": "Index"
     }
   ],
   "chart": {
@@ -179,7 +183,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 3
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -195,7 +199,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-23"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-12-4"
   },
   "legend": {
     "enabled": false,
