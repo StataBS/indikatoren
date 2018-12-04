@@ -3,15 +3,11 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "index": 0,
-      "color": "#008AC3",
+      "color": "#B375AB",
       "data": [
-        [
-          "2005",
-          705
-        ],
         [
           "2006",
           727
@@ -55,23 +51,27 @@
         [
           "2016",
           849
+        ],
+        [
+          "2017",
+          857
+        ],
+        [
+          "2018",
+          886
         ]
       ],
-      "name": "Genossenschaftswohnungen",
+      "name": "Genossenschaften",
       "turboThreshold": 0
     },
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "index": 1,
-      "color": "#990300",
+      "color": "#CD9C00",
       "data": [
-        [
-          "2005",
-          1090
-        ],
         [
           "2006",
           1104
@@ -90,7 +90,7 @@
         ],
         [
           "2010",
-          1117
+          1177
         ],
         [
           "2011",
@@ -115,9 +115,149 @@
         [
           "2016",
           1263
+        ],
+        [
+          "2017",
+          1281
+        ],
+        [
+          "2018",
+          1288
         ]
       ],
-      "name": "Ohne Genossenschaftswohnungen",
+      "name": "Ohne Genossenschaften",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "radius": 3,
+        "enabled": true
+      },
+      "type": "scatter",
+      "index": 2,
+      "color": "#662673",
+      "data": [
+        [
+          "2006",
+          null
+        ],
+        [
+          "2007",
+          null
+        ],
+        [
+          "2008",
+          null
+        ],
+        [
+          "2009",
+          null
+        ],
+        [
+          "2010",
+          null
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2012",
+          null
+        ],
+        [
+          "2013",
+          null
+        ],
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          849
+        ],
+        [
+          "2017",
+          859
+        ],
+        [
+          "2018",
+          875
+        ]
+      ],
+      "name": "Genossenschaften gewichtet",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "radius": 3,
+        "enabled": true
+      },
+      "type": "scatter",
+      "index": 3,
+      "color": "#7F5F1A",
+      "data": [
+        [
+          "2006",
+          null
+        ],
+        [
+          "2007",
+          null
+        ],
+        [
+          "2008",
+          null
+        ],
+        [
+          "2009",
+          null
+        ],
+        [
+          "2010",
+          null
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2012",
+          null
+        ],
+        [
+          "2013",
+          null
+        ],
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          1199
+        ],
+        [
+          "2017",
+          1212
+        ],
+        [
+          "2018",
+          1224
+        ]
+      ],
+      "name": "Ohne Genossenschaften gew.",
       "turboThreshold": 0
     }
   ],
@@ -179,7 +319,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -217,17 +357,21 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2017-5-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-12-4"
   },
   "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "itemMarginBottom": 7,
+    "itemDistance": 6,
+    "itemWidth": 205,
+    "padding": 1
   },
   "plotOptions": {
     "series": {
@@ -235,7 +379,7 @@
         "enabled": false
       },
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
         "formatter": function () {
               var last  = this.series.data[this.series.data.length - 1];
               if (this.point.category === last.category  &&  this.point.y === last.y ) {
@@ -243,6 +387,12 @@
               }
               return "";
             }
+      }
+    },
+    "scatter": {
+      "tooltip": {
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       }
     }
   },
