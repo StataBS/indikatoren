@@ -41,7 +41,7 @@
   },
   "plotOptions": {
     "line": {
-	  "connectNulls": true,
+	    //"connectNulls": false,
       "marker":{
         "enabled": false,
         "symbol": "circle",
