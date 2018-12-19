@@ -97,16 +97,7 @@
       "dataLabels": {
         "style": {
           "fontSize": "10px"
-        },
-        "enabled": true,
-        "formatter": function () {
-            var last  = this.series.data[this.series.data.length - 1];
-            var first  = this.series.data[0];
-            if (this.point.x === first.x || this.point.x === last.x) {
-              return Highcharts.numberFormat(this.point.y, 2, ",", " ") + '%';
-            } 
-            return "";
-          }
+        }
       }
     }
   },
@@ -166,7 +157,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EVolkswirtschaftliche Gesamtrechnung (VGR).\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EVolkswirtschaftliche Gesamtrechnung (VGR).\u003Cbr\u002F\u003EZuletzt geändert: 2018-12-18"
   },
   "legend": {
     "symbolRadius": 0,
