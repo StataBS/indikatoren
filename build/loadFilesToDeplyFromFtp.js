@@ -42,7 +42,7 @@ https.get(urlBase + "verzeichnis.txt", listOfCharts => {
             }
         });
         console.log('...done!');
-        console.log('=== Test Links: ==+');
+        console.log('=== Test Links: ===');
         
         //open browser tab for visual check
         records.forEach(row => {
