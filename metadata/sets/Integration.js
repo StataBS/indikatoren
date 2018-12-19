@@ -4014,14 +4014,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:05.055",
+		"aktualisierungsdatum": "2018-12-19T10:01:41.4141",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2013 stimmten 41% der befragten Familien der im Titel formulierten Aussage mindestens eher zu. Familien, welche nur eine andere Sprache als deutsch sprechen, stimmen mit 48% deutlich häufiger zu als Familien, welche nur deutsch (36%) bzw. deutsch und eine andere Sprache (45%) sprechen.",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009 und 2013 vor. Von insgesamt 5000 zufällig ermittelten und angeschriebenen Familien haben 2013 mehr als 2200 Familien an der schriftlichen Befragung teilgenommen.",
+		"lesehilfe": "Im Jahr 2017 stimmten 45,6% der befragten Familien der im Titel formulierten Aussage eher oder genau zu. Familien, welche nur eine andere Sprache als Deutsch sprechen, stimmen mit 51,6% deutlich häufiger zu als Familien, welche nur deutsch (41,4%) bzw. deutsch und eine andere Sprache (48,8%) sprechen. Seit 2009 wird diese Frage zunehmend positiver beurteilt.",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -4034,9 +4034,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F49d"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6517,
+		"chart-id": 6517,
+		"filter": "",
 		"id": 6517
 	},
 	{
