@@ -1,20 +1,16 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "index": 0,
       "color": "#B375AB",
       "data": [
         [
           2010,
-          160306
+          160312
         ],
         [
           2011,
-          161628
+          161634
         ],
         [
           2012,
@@ -34,7 +30,11 @@
         ],
         [
           2016,
-          166234
+          166244
+        ],
+        [
+          2017,
+          166703
         ]
       ],
       "name": "Einwohner mit Hauptwohnsitz ab 18 Jahren"
@@ -136,7 +136,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 2017-1-24"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 2018-12-19"
   },
   "legend": {
     "enabled": false,
@@ -152,17 +152,6 @@
     "series": {
       "marker": {
         "enabled": false
-      },
-      "dataLabels": {
-        "enabled": true,
-        "formatter": function () {
-		    var first = this.series.data[0];
-			var last  = this.series.data[this.series.data.length - 1];
-		    if (this.point.y === first.y || this.point.y === last.y ) {
-			  return Highcharts.numberFormat(this.point.y, 0, ",", " ");
-			}
-			return "";
-          }
       }
     }
   },
