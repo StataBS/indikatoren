@@ -174,7 +174,7 @@ function createEmptyLabels(options){
 //load global options, template, chartOptions from external scripts, load csv data from external file, and render chart to designated div
 function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn){
   //Umwelt data are rendered directly from json, not from csv + json files
-  if (chartMetaData.datenInChartIntegriert == true || chartMetaData.datenInChartIntegriert == "undefined"){
+  if (chartMetaData.datenInChartIntegriert == false || (chartMetaData.datenInChartIntegriert === undefined && chartMetaData.kennzahlenset != "Umwelt")){
     //load scripts one after the other, then load csv and draw the chart
     $.when(    
         //$.getScript(globalOptionsUrl),

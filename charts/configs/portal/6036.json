@@ -337,7 +337,6 @@
       }
     },
     "line": {
-      "connectNulls": true,
       "marker": {
         "enabled": false,
         "symbol": "circle"

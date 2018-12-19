@@ -45,7 +45,11 @@
         ],
         [
           2015,
-          8208
+          8144
+        ],
+        [
+          2016,
+          8148
         ]
       ],
       "name": "Industrie (exkl. Chemie, Pharma)"
@@ -95,7 +99,11 @@
         ],
         [
           2015,
-          18844
+          18854
+        ],
+        [
+          2016,
+          19030
         ]
       ],
       "name": "Chemie, Pharma"
@@ -145,7 +153,11 @@
         ],
         [
           2015,
-          7800
+          7825
+        ],
+        [
+          2016,
+          7774
         ]
       ],
       "name": "Baugewerbe"
@@ -177,7 +189,7 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
+    "type": "column",
     "renderTo": "container-2528"
   },
   "title": {
@@ -231,7 +243,21 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickPositions": [
+      2005,
+      2008,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ]
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -247,7 +273,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-26"
   },
   "legend": {
     "enabled": true,
@@ -258,7 +284,8 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemWidth": 300,
+    "width": 460,
+    "itemWidth": 230,
     "itemMarginBottom": 5
   },
   "plotOptions": {
@@ -266,13 +293,10 @@
       "marker": {
         "enabled": false
       },
-      "connectNulls": true
-    },
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
+      "stacking": null,
+      "pointPadding": 0,
+      "groupPadding": 0.1,
+      "borderWidth": 0
     }
   },
   "customFunctions": {

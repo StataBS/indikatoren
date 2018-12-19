@@ -423,6 +423,7 @@
     "align": "left"
   },
   "exporting": {
+    "allowHTML": true,
     "filename": 6417
   }
 }

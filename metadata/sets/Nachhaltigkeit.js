@@ -75,8 +75,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerungspyramide am Jahresende",
-		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Stand: 2017",
-		"kuerzel": "I.01.1.05142",
+		"subtitle": "nach Alter in Jahren, Basel-Stadt, 2017",
+		"kuerzel": "I.01.1.5142",
 		"kuerzelKunde": "BE2",
 		"description": "Bevölkerungspyramide am Jahresende",
 		"thema": "01 Bevölkerung",
@@ -85,7 +85,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-01T13:06:51.5151",
+		"aktualisierungsdatum": "2018-11-15T09:33:03.033",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -94,6 +94,8 @@ var indikatorensetData = [
 		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass es in den höheren Altersgruppen zahlreiche Schweizerinnen gibt.",
 		"erlaeuterungen": "",
 		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_102",
 		"parentId": null,
 		"children": [],
@@ -101,11 +103,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5142,
-		"darstellungsart": "Grafik"
+		"data-id": 5142,
+		"chart-id": 5142,
+		"filter": "",
+		"id": 5142
 	},
 	{
 		"title": "Altersquotient",
@@ -771,8 +776,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Strassenverkehrsunfälle und verunfallte Personen",
-		"subtitle": "",
-		"kuerzel": "I.11.7.05186",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.11.7.5186",
 		"kuerzelKunde": "GW10",
 		"description": "Strassenverkehrsunfälle und verunfallte Personen",
 		"thema": "11 Verkehr",
@@ -781,15 +786,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-29T10:21:05.055",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Unfälle lag 2016 bei insgesamt 1 140. Diese setzt sich zusammen aus 871 durch die Polizei rapportierte Unfälle und 269 beanzeigte Parkschäden. Insgesamt gab es 490 verunfallte Personen: 389 Leichtverletzte, 97 Schwerverletzte und 4 Getötete.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Auf den baselstädtischen Strassen wurden 2017 bei 835 durch die Polizei rapportierten Unfällen 446 Personen verletzt, eine davon tödlich. Dies ist die tiefste Zahl von Verkehrstoten im Kanton Basel-Stadt seit Beginn der statistischen Erhebung von Verkehrsunfällen.",
+		"erlaeuterungen": "Seit 2017 sind bei der Anzahl Unfälle beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "03_04_00_00_00_310",
 		"parentId": null,
 		"children": [],
@@ -797,11 +804,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5186,
-		"darstellungsart": "Grafik"
+		"data-id": 5186,
+		"chart-id": 5186,
+		"filter": "",
+		"id": 5186
 	},
 	{
 		"title": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
@@ -1070,14 +1080,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-23T16:07:41.4141",
+		"aktualisierungsdatum": "2018-12-04T17:09:22.2222",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von berechneten 80,4 Punkten im Jahr 1995 auf den aktuellen Wert von 102,8 im November 2017.",
-		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1-6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden.",
+		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von 80,4 Punkten im Jahr 1995 auf den aktuellen Wert von 104,0 im November 2018.",
+		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -1173,8 +1183,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Ausgaben für Umbau- und Unterhaltsarbeiten",
-		"subtitle": "in 1 000 Franken sowie Anteil am Total der Bauausgaben",
-		"kuerzel": "I.09.1.05199",
+		"subtitle": "in 1000 Franken sowie Anteil am Total der Bauausgaben, Basel-Stadt",
+		"kuerzel": "I.09.1.5199",
 		"kuerzelKunde": "GW21",
 		"description": "Ausgaben für Umbau- und Unterhaltsarbeiten",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -1183,27 +1193,32 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-02-16T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-07T09:20:22.2222",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Infrastruktur",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Total der Bauausgaben stieg seit 2011 bis 2015 kontinuierlich an. Der Anteil Ausgaben für Umbau- und Unterhaltsarbeiten lag in den meisten Jahren leicht unterhalb oder oberhalb der 50%-Marke. Der tiefste Wert ergab sich 2010 mit einem Anteil von 35% an den totalen Bauausgaben.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Das Total der Bauausgaben stieg seit 2011 ausser 2016 kontinuierlich an. Der Anteil der Ausgaben für Umbau- und Unterhaltsarbeiten lag in den meisten Jahren über der 50%-Marke. Der tiefste Wert ergab sich 2008 mit einem Anteil von 46,4% und der höchste 2011 mit 63% an den totalen Bauausgaben.",
+		"erlaeuterungen": "Gegenüber den Vorjahren haben sich die Werte verändert. Die Bauausgaben des Bundes beziehungsweise der Bundesbetriebe können nicht mehr nach Neubau-, Umbau- oder Unterhaltsarbeiten unterschieden werden. Im Total der Bauausgaben wie auch bei den Umbau- und Unterhaltsarbeiten sind deshalb diese Werte nicht mehr in der Berechnung enthalten. Bei den Ausgaben für Umbau- und Unterhaltsarbeiten wurden neu auch nicht projektbezogene Daten berücksichtigt. Insgesamt erhöhten sich durch die Anpassungen die Anteile der Umbau- und Unterhaltsarbeiten.<br><br>Die Bauausgaben umfassen die öffentlichen und privaten Bauinvestitionen und die öffentlichen Unterhaltsarbeiten. Die Bauinvestitionen umfassen sämtliche Ausgaben, die bei der Realisierung eines Bauwerks anfallen. Dazu gehören Ausgaben für Vorbereitungs- und Umgebungsarbeiten innerhalb der Grundstücksgrenzen, sanitäre Installationen, Lüftungsanlagen, Heizungen und alle übrigen mit dem Bauprojekt fest verbundenen Einrichtungen sowie Architektenhonorare und Baunebenkosten. Nicht enthalten sind Kosten für Landerwerb sowie maschinelle und sonstige bewegliche Einrichtungen.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "03_07_00_00_00_321",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
+			"Statistisches Amt Basel-Stadt, Baustatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5199,
-		"darstellungsart": "Grafik"
+		"data-id": 5199,
+		"chart-id": 5199,
+		"filter": "",
+		"id": 5199
 	},
 	{
 		"title": "Ökologischer Fussabdruck der Schweiz",
@@ -1217,7 +1232,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-05-08T17:43:01.011",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -2017,7 +2032,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-02T11:24:25.2525",
+		"aktualisierungsdatum": "2018-11-08T16:33:54.5454",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -2035,9 +2050,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6046,
+		"chart-id": 6046,
+		"filter": "",
 		"id": 6046
 	},
 	{

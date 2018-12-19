@@ -45,7 +45,11 @@
         ],
         [
           2015,
-          10074
+          10213
+        ],
+        [
+          2016,
+          9910
         ]
       ],
       "name": "Finanz-, Versicherungs-DL"
@@ -95,10 +99,14 @@
         ],
         [
           2015,
-          19171
+          18857
+        ],
+        [
+          2016,
+          19008
         ]
       ],
-      "name": "Beratung, Planung, Forschung, Immobilien"
+      "name": "Beratung, Planung, Forschung,\u003Cbr\u002F\u003EImmobilien"
     },
     {
       "color": "#DC440E",
@@ -145,10 +153,14 @@
         ],
         [
           2015,
-          5915
+          5775
+        ],
+        [
+          2016,
+          5749
         ]
       ],
-      "name": "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL"
+      "name": "Gebäudebetreuung, Sicherheit, \u003Cbr\u002F\u003Esonst. wirtsch. DL"
     },
     {
       "color": "#B00000",
@@ -195,10 +207,14 @@
         ],
         [
           2015,
-          6041
+          6086
+        ],
+        [
+          2016,
+          6254
         ]
       ],
-      "name": "Personalvermittlung, -überlassung"
+      "name": "Personalvermittlung, \u003Cbr\u002F\u003E-überlassung"
     }
   ],
   "chart": {
@@ -227,8 +243,7 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
-    "marginRight": 18,
+    "type": "column",
     "renderTo": "container-6456"
   },
   "title": {
@@ -270,7 +285,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 5000
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -282,7 +298,21 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickPositions": [
+      2005,
+      2008,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ]
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -298,7 +328,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-26"
   },
   "legend": {
     "enabled": true,
@@ -309,6 +339,8 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "width": 430,
+    "itemWidth": 215,
     "itemMarginBottom": 5
   },
   "plotOptions": {
@@ -316,13 +348,10 @@
       "marker": {
         "enabled": false
       },
-      "connectNulls": true
-    },
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
+      "stacking": null,
+      "pointPadding": 0,
+      "groupPadding": 0.1,
+      "borderWidth": 0
     }
   },
   "customFunctions": {

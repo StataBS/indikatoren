@@ -2,9 +2,6 @@
   "series": [
     {
       "color": "#6F6F6F",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2005,
@@ -48,7 +45,11 @@
         ],
         [
           2015,
-          151633
+          151421
+        ],
+        [
+          2016,
+          151362
         ]
       ],
       "name": "BS"
@@ -98,7 +99,11 @@
         ],
         [
           2015,
-          117286
+          117540
+        ],
+        [
+          2016,
+          117336
         ]
       ],
       "name": "BL"
@@ -148,7 +153,11 @@
         ],
         [
           2015,
-          261749
+          262337
+        ],
+        [
+          2016,
+          265251
         ]
       ],
       "name": "AG"
@@ -198,7 +207,11 @@
         ],
         [
           2015,
-          788498
+          779574
+        ],
+        [
+          2016,
+          787274
         ]
       ],
       "name": "ZH"
@@ -230,7 +243,7 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
+    "type": "column",
     "renderTo": "container-2547"
   },
   "title": {
@@ -284,7 +297,21 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickPositions": [
+      2005,
+      2008,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ]
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -300,7 +327,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-22"
   },
   "legend": {
     "enabled": true,
@@ -318,13 +345,10 @@
       "marker": {
         "enabled": false
       },
-      "connectNulls": true
-    },
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
+      "stacking": null,
+      "pointPadding": 0,
+      "groupPadding": 0.1,
+      "borderWidth": 0
     }
   },
   "customFunctions": {

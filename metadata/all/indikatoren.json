@@ -855,7 +855,7 @@
 	{
 		"title": "Beschäftigung in Industrie und Baugewerbe",
 		"subtitle": "Anzahl Vollzeitäquivalente, Basel-Stadt",
-		"kuerzel": "I.03.2.02528",
+		"kuerzel": "I.03.2.2528",
 		"kuerzelKunde": "3.2-05",
 		"description": "Beschäftigung in Industrie und Baugewerbe",
 		"thema": "03 Erwerbsleben",
@@ -864,33 +864,40 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-26T10:27:24.2424",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Branche der Chemischen und Pharmazeutischen Industrie sind 2015 rund 18 800 Beschäftigte in VZÄ tätig, was einem Wachstum von 2,0% gegenüber dem Vorjahr entspricht. Auch die Industrie (exkl. Chemie, Pharma) und das Baugewerbe verzeichnen einen Anstieg der VZÄ um 1,6% bzw. 0,8% im Vergleich zum Jahr 2014.",
-		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
+		"lesehilfe": "In der Branche der Chemischen und Pharmazeutischen Industrie sind 2016 in Vollzeitäquivalente (VZÄ) umgerechnet rund 19 000 Beschäftigte tätig, was einem Wachstum von 0,9% gegenüber dem Vorjahr entspricht. In der Industrie (exkl. Chemie, Pharma) hat sich die Beschäftigung im gleichen Zeitraum kaum verändert, während das Baugewerbe einen Rückgang der Beschäftigung in VZÄ um 0,7% verzeichnet.",
+		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_205",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7026"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2528,
-		"darstellungsart": "Grafik"
+		"data-id": 2528,
+		"chart-id": 2528,
+		"filter": "",
+		"id": 2528
 	},
 	{
 		"title": "Beschäftigung im Dienstleistungssektor (I)",
 		"subtitle": "Anzahl Vollzeitäquivalente, Basel-Stadt",
-		"kuerzel": "I.03.2.02529",
+		"kuerzel": "I.03.2.2529",
 		"kuerzelKunde": "3.2-06",
 		"description": "Beschäftigung im Dienstleistungssektor (I)",
 		"thema": "03 Erwerbsleben",
@@ -899,15 +906,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-22T09:20:07.077",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branche Handel und Reparatur verzeichnet zwischen 2014 und 2015 einen Rückgang der Beschäftigung in VZÄ um 1,3%. Stark rückläufig ist die Beschäftigung in den Branchen Verkehr und Lagerei mit -8,9% sowie Information und Kommunikation mit -4,7%. Das Gastgewerbe setzt das Beschäftigungswachstum aus den vergangenen Jahren fort und weist einen Anstieg der VZÄ um 1,0% im Vergleich zum Vorjahr auf.",
-		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
+		"lesehilfe": "Die Branche Handel und Reparatur verzeichnet zwischen 2015 und 2016 einen Rückgang der Beschäftigung in Vollzeitäquivalenten (VZÄ) um 2,3%. Ebenfalls rückläufig ist die Beschäftigung in VZÄ in den Branchen Verkehr und Lagerei mit -4,0% sowie Information und Kommunikation mit -3,5%. Das Gastgewerbe setzt das Beschäftigungswachstum der vergangenen Jahre nicht fort und weist stattdessen einen Rückgang der VZÄ um 2,7% im Vergleich zum Vorjahr auf.",
+		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_206",
 		"parentId": null,
@@ -916,16 +925,19 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2529,
-		"darstellungsart": "Grafik"
+		"data-id": 2529,
+		"chart-id": 2529,
+		"filter": "",
+		"id": 2529
 	},
 	{
 		"title": "Beschäftigung nach Kanton",
 		"subtitle": "Anzahl Vollzeitäquivalente",
-		"kuerzel": "I.03.2.02547",
+		"kuerzel": "I.03.2.2547",
 		"kuerzelKunde": "3.2-01",
 		"description": "Beschäftigung nach Kanton",
 		"thema": "03 Erwerbsleben",
@@ -934,15 +946,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-22T09:19:31.3131",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Beschäftigung in Basel-Stadt liegt 2015 bei rund 190 800 Beschäftigten, was umgerechnet 151 600 VZÄ entspricht. Dies ist ein Rückgang der VZÄ um 0,4% gegenüber dem Vorjahr. Die Vergleichskantone verzeichnen alle einen Anstieg der Beschäftigung in VZÄ. Einzig im Kanton Zürich liegt das Wachstum mit 0,7% über dem Schweizer Durchschnitt (+0,5%).",
-		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
+		"lesehilfe": "Im Kanton Basel-Stadt waren 2016 rund 190 700 Beschäftigte tätig, was umgerechnet rund 151 400 Vollzeitäquivalenten (VZÄ) entspricht. Damit ist die Anzahl der VZÄ verglichen mit dem Vorjahr nahezu unverändert. Der Kanton Basel-Landschaft verzeichnet einen Rückgang der VZÄ um 0,2%. In den Kantonen Zürich und Aargau steigt die Anzahl der VZÄ um 1,0% bzw. 1,1%.",
+		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_201",
 		"parentId": null,
@@ -951,11 +965,14 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2547,
-		"darstellungsart": "Grafik"
+		"data-id": 2547,
+		"chart-id": 2547,
+		"filter": "",
+		"id": 2547
 	},
 	{
 		"title": "Bezügerinnen und Bezüger von Prämienverbilligung",
@@ -1484,8 +1501,8 @@
 	},
 	{
 		"title": "Mietpreisentwicklung",
-		"subtitle": "nach Zimmerzahl",
-		"kuerzel": "I.09.3.04128",
+		"subtitle": "Wohnungen nach Zimmerzahl, Basel-Stadt",
+		"kuerzel": "I.09.3.4128",
 		"kuerzelKunde": "0.1.B-1",
 		"description": "Mietpreisentwicklung",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -1494,15 +1511,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-20T14:42:08.088",
+		"aktualisierungsdatum": "2018-12-04T09:38:44.4444",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Seit 2008 ist bei allen Zimmerkategorien eine steigende Tendenz der Mietpreise (Nettomieten) zu beobachten.",
-		"erlaeuterungen": "Es handelt sich hier im Gegensatz zu den Mietpreisen der Leerwohnungen um Bestandsmieten.<br/>Die Mietpreisangaben stützen sich auf systematische Stichprobenerhebungen, die 5% der Miet- und Genossenschaftswohnungen umfassen. Einzelne Mittelwerte basieren deshalb nur auf wenigen Mietpreisangaben.",
+		"erlaeuterungen": "Es handelt sich hier im Gegensatz zu den Mietpreisen der Leerwohnungen um Bestandsmieten.<br/>Die Mietpreisangaben stützen sich auf systematische Stichprobenerhebungen, die 5% der Miet- und Genossenschaftswohnungen umfassen. Wohnungen mit mehr als 5 Zimmern werden in der Abbildung nicht berücksichtigt.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
@@ -1511,25 +1530,28 @@
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4128,
-		"darstellungsart": "Grafik"
+		"data-id": 4128,
+		"chart-id": 4128,
+		"filter": "",
+		"id": 4128
 	},
 	{
-		"title": "Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl",
-		"subtitle": "Basel-Stadt",
+		"title": "Mietpreisentwicklung der Leerwohnungen",
+		"subtitle": "nach Zimmerzahl, Basel-Stadt",
 		"kuerzel": "I.09.2.4129",
 		"kuerzelKunde": "0.1.B-2",
-		"description": "Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl",
+		"description": "Mietpreisentwicklung der Leerwohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-08-22T15:38:57.5757",
+		"aktualisierungsdatum": "2018-11-13T09:12:39.3939",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
@@ -1538,23 +1560,29 @@
 		"lesehilfe": "Die Mietpreisentwicklung der Leerwohnungen ist im Zehnjahresvergleich leicht ansteigend. Da es grundsätzlich wenige leerstehende 5-Zimmerwohnungen gibt, sind die ausgewiesenen Durchschnittsmieten in dieser Kategorie grösseren Schwankungen unterworfen bzw. können wie im Jahr 2014 aufgrund zu kleiner Stichprobe gar nicht berechnet werden.",
 		"erlaeuterungen": "Ohne Wohnungen in Einfamilienhäusern, ohne Wohnungen mit Zwischennutzung (eingeschränkte Mieterrechte, besonders günstig), ohne möblierte Wohnungen (besonders teuer) und mit Genossenschaftswohnungen.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4129,
-		"darstellungsart": "Grafik"
+		"data-id": 4129,
+		"chart-id": 4129,
+		"filter": "",
+		"id": 4129
 	},
 	{
 		"title": "Mietpreisentwicklung der 3-Zimmer-Wohnungen",
-		"subtitle": "",
-		"kuerzel": "I.09.3.04130",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.3.4130",
 		"kuerzelKunde": "0.1.B-3",
 		"description": "Mietpreisentwicklung der 3-Zimmer-Wohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -1563,15 +1591,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-05-22T08:59:06.066",
+		"aktualisierungsdatum": "2018-12-04T11:03:07.077",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Nettomietpreise der Genossenschaftswohnungen sind in den letzten 10 Jahren im Durchschnitt ein Drittel günstiger als die Mietpreise der übrigen Mietwohnungen.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die Linien zeigen ungewichtete Durchschnitte der Wohnungspreise. Die Punkte zeigen gewichtete Durchschnittsmietpreise, die anhand der im Gebäude- und Wohnungsregister auftretenden Häufigkeit von Wohnungen (Stand November 2015) berechnet werden.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
@@ -1580,11 +1610,14 @@
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4130,
-		"darstellungsart": "Grafik"
+		"data-id": 4130,
+		"chart-id": 4130,
+		"filter": "",
+		"id": 4130
 	},
 	{
 		"title": "Wohnungsbelegung",
@@ -6816,7 +6849,7 @@
 	{
 		"title": "Beschäftigte in Branchen mit hoher Arbeitsproduktivität",
 		"subtitle": "Anteil am Total der Beschäftigten in der Stadt Basel",
-		"kuerzel": "I.03.2.04359",
+		"kuerzel": "I.03.2.4359",
 		"kuerzelKunde": "W08",
 		"description": "Beschäftigte in Branchen mit hoher Arbeitsproduktivität",
 		"thema": "03 Erwerbsleben",
@@ -6825,15 +6858,17 @@
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
+		"aktualisierungsdatum": "2018-12-18T14:53:14.1414",
 		"stufe1": "Wirtschaft",
 		"stufe2": "W8: Wirtschaftsstruktur",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil Beschäftigte in Branchen mit hoher Arbeitsproduktivität lag 2015 in der Stadt Basel bei 40,31%.",
-		"erlaeuterungen": "Anteil Beschäftigte (in Vollzeitäquivalenten) in Branchen mit hoher Arbeitsproduktivität am Total der Beschäftigten (in Vollzeitäquivalenten) in den Sektoren 1, 2 und 3. Die Branchen mit hoher Arbeitsproduktivität sind jene, deren Arbeitsproduktivität über dem schweizerischen Durchschnitt liegt (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
+		"erlaeuterungen": "Anteil Beschäftigte (in Vollzeitäquivalenten) in Branchen mit hoher Arbeitsproduktivität am Total der Beschäftigten (in Vollzeitäquivalenten) in den Sektoren 1, 2 und 3. Zwischen 2013 und 2015 findet ein Reihenbruch statt, siehe folgender Link. Die Branchen mit hoher Arbeitsproduktivität sind jene, deren Arbeitsproduktivität über dem schweizerischen Durchschnitt liegt (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_26_00_00_00_380",
 		"parentId": null,
@@ -6843,11 +6878,14 @@
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
 			"Volkswirtschaftliche Gesamtrechnung (VGR)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4359,
-		"darstellungsart": "Grafik"
+		"data-id": 4359,
+		"chart-id": 4359,
+		"filter": "",
+		"id": 4359
 	},
 	{
 		"title": "Qualifikationsniveau",
@@ -9067,15 +9105,16 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-08-22T13:37:50.5050",
+		"aktualisierungsdatum": "2018-11-26T10:24:15.1515",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branchengruppe Bau und Herstellung von Waren macht mit über 12,3 Mrd. Franken im Jahr 2015 wie in sämtlichen anderen Beobachtungsjahren den grössten Anteil an der Bruttowertschöpfung des Kantons Basel-Stadt aus.",
-		"erlaeuterungen": "2015 provisorisch. Die Bezeichnung der Branchengruppen sind in den meisten Fällen in der Legende verkürzt dargestellt. Im Detail umfassen sie &nbsp;folgenden Untergruppen: «Landwirtschaft etc.»: Landwirtschaft, Forstwirtschaft und Fischerei; «Bau, Herstellung von Waren»: Bergbau und Gewinnung von Steinen und Erden, Herstellung von Waren, Bau; «Versorgung und Bildung»: Energieversorgung, Wasserversorgung, Sammlung, Behandlung und Beseitigung von Abfällen, Erziehung und Unterricht, Gesundheitswesen; «Fahrzeuge, Transport, IT, Gastronomie»: Handel und Reparatur von Fahrzeugen, Transport, Informationsdienstleistungen und Telekommunikation, Beherbergung und Gastronomie; «Finanzen und Versicherungen»: Erbringung von Finanzdienstleistungen und Versicherungen; «Wirtsch. Dienstl. U. Unterhaltung»: Grundstücks- und Wohnungswesen, sonstige freiberufliche, wissenschaftliche und technische Tätigkeiten, wirtschaftliche Dienstleistungen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen.",
+		"lesehilfe": "Die Branchengruppe Bau und Herstellung von Waren macht mit über 14,4 Mrd. Franken im Jahr 2016 wie in sämtlichen anderen Beobachtungsjahren den grössten Anteil an der Bruttowertschöpfung des Kantons Basel-Stadt aus.",
+		"erlaeuterungen": "2016 provisorisch. Die Bezeichnung der Branchengruppen sind in den meisten Fällen in der Legende verkürzt dargestellt. Im Detail umfassen sie &nbsp;folgenden Untergruppen: «Landwirtschaft etc.»: Landwirtschaft, Forstwirtschaft und Fischerei; «Bau, Herstellung von Waren»: Bergbau und Gewinnung von Steinen und Erden, Herstellung von Waren, Bau; «Versorgung und Bildung»: Energieversorgung, Wasserversorgung, Sammlung, Behandlung und Beseitigung von Abfällen, Erziehung und Unterricht, Gesundheitswesen; «Fahrzeuge, Transport, IT, Gastronomie»: Handel und Reparatur von Fahrzeugen, Transport, Informationsdienstleistungen und Telekommunikation, Beherbergung und Gastronomie; «Finanzen und Versicherungen»: Erbringung von Finanzdienstleistungen und Versicherungen; «Wirtsch. Dienstl. u. Unterhaltung»: Grundstücks- und Wohnungswesen, sonstige freiberufliche, wissenschaftliche und technische Tätigkeiten, wirtschaftliche Dienstleistungen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
@@ -9085,11 +9124,14 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4908,
-		"darstellungsart": "Grafik"
+		"data-id": 4908,
+		"chart-id": 4908,
+		"filter": "",
+		"id": 4908
 	},
 	{
 		"title": "Jahresmittel Basler Index der Konsumentenpreise",
@@ -10492,8 +10534,8 @@
 	},
 	{
 		"title": "Bevölkerungspyramide am Jahresende",
-		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Stand: 2017",
-		"kuerzel": "I.01.1.05142",
+		"subtitle": "nach Alter in Jahren, Basel-Stadt, 2017",
+		"kuerzel": "I.01.1.5142",
 		"kuerzelKunde": "BE2",
 		"description": "Bevölkerungspyramide am Jahresende",
 		"thema": "01 Bevölkerung",
@@ -10502,7 +10544,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-01T13:06:51.5151",
+		"aktualisierungsdatum": "2018-11-15T09:33:03.033",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -10511,6 +10553,8 @@
 		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass es in den höheren Altersgruppen zahlreiche Schweizerinnen gibt.",
 		"erlaeuterungen": "",
 		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_102",
 		"parentId": null,
@@ -10519,11 +10563,14 @@
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5142,
-		"darstellungsart": "Grafik"
+		"data-id": 5142,
+		"chart-id": 5142,
+		"filter": "",
+		"id": 5142
 	},
 	{
 		"title": "Altersquotient",
@@ -11207,8 +11254,8 @@
 	},
 	{
 		"title": "Strassenverkehrsunfälle und verunfallte Personen",
-		"subtitle": "",
-		"kuerzel": "I.11.7.05186",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.11.7.5186",
 		"kuerzelKunde": "GW10",
 		"description": "Strassenverkehrsunfälle und verunfallte Personen",
 		"thema": "11 Verkehr",
@@ -11217,15 +11264,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-29T10:21:05.055",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Unfälle lag 2016 bei insgesamt 1 140. Diese setzt sich zusammen aus 871 durch die Polizei rapportierte Unfälle und 269 beanzeigte Parkschäden. Insgesamt gab es 490 verunfallte Personen: 389 Leichtverletzte, 97 Schwerverletzte und 4 Getötete.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Auf den baselstädtischen Strassen wurden 2017 bei 835 durch die Polizei rapportierten Unfällen 446 Personen verletzt, eine davon tödlich. Dies ist die tiefste Zahl von Verkehrstoten im Kanton Basel-Stadt seit Beginn der statistischen Erhebung von Verkehrsunfällen.",
+		"erlaeuterungen": "Seit 2017 sind bei der Anzahl Unfälle beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_04_00_00_00_310",
 		"parentId": null,
@@ -11234,11 +11283,14 @@
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5186,
-		"darstellungsart": "Grafik"
+		"data-id": 5186,
+		"chart-id": 5186,
+		"filter": "",
+		"id": 5186
 	},
 	{
 		"title": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
@@ -11514,14 +11566,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-23T16:07:41.4141",
+		"aktualisierungsdatum": "2018-12-04T17:09:22.2222",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von berechneten 80,4 Punkten im Jahr 1995 auf den aktuellen Wert von 102,8 im November 2017.",
-		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1-6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden.",
+		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von 80,4 Punkten im Jahr 1995 auf den aktuellen Wert von 104,0 im November 2018.",
+		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -11620,8 +11672,8 @@
 	},
 	{
 		"title": "Ausgaben für Umbau- und Unterhaltsarbeiten",
-		"subtitle": "in 1 000 Franken sowie Anteil am Total der Bauausgaben",
-		"kuerzel": "I.09.1.05199",
+		"subtitle": "in 1000 Franken sowie Anteil am Total der Bauausgaben, Basel-Stadt",
+		"kuerzel": "I.09.1.5199",
 		"kuerzelKunde": "GW21",
 		"description": "Ausgaben für Umbau- und Unterhaltsarbeiten",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -11630,28 +11682,33 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-02-16T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-07T09:20:22.2222",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Infrastruktur",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Total der Bauausgaben stieg seit 2011 bis 2015 kontinuierlich an. Der Anteil Ausgaben für Umbau- und Unterhaltsarbeiten lag in den meisten Jahren leicht unterhalb oder oberhalb der 50%-Marke. Der tiefste Wert ergab sich 2010 mit einem Anteil von 35% an den totalen Bauausgaben.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Das Total der Bauausgaben stieg seit 2011 ausser 2016 kontinuierlich an. Der Anteil der Ausgaben für Umbau- und Unterhaltsarbeiten lag in den meisten Jahren über der 50%-Marke. Der tiefste Wert ergab sich 2008 mit einem Anteil von 46,4% und der höchste 2011 mit 63% an den totalen Bauausgaben.",
+		"erlaeuterungen": "Gegenüber den Vorjahren haben sich die Werte verändert. Die Bauausgaben des Bundes beziehungsweise der Bundesbetriebe können nicht mehr nach Neubau-, Umbau- oder Unterhaltsarbeiten unterschieden werden. Im Total der Bauausgaben wie auch bei den Umbau- und Unterhaltsarbeiten sind deshalb diese Werte nicht mehr in der Berechnung enthalten. Bei den Ausgaben für Umbau- und Unterhaltsarbeiten wurden neu auch nicht projektbezogene Daten berücksichtigt. Insgesamt erhöhten sich durch die Anpassungen die Anteile der Umbau- und Unterhaltsarbeiten.<br><br>Die Bauausgaben umfassen die öffentlichen und privaten Bauinvestitionen und die öffentlichen Unterhaltsarbeiten. Die Bauinvestitionen umfassen sämtliche Ausgaben, die bei der Realisierung eines Bauwerks anfallen. Dazu gehören Ausgaben für Vorbereitungs- und Umgebungsarbeiten innerhalb der Grundstücksgrenzen, sanitäre Installationen, Lüftungsanlagen, Heizungen und alle übrigen mit dem Bauprojekt fest verbundenen Einrichtungen sowie Architektenhonorare und Baunebenkosten. Nicht enthalten sind Kosten für Landerwerb sowie maschinelle und sonstige bewegliche Einrichtungen.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_07_00_00_00_321",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
+			"Statistisches Amt Basel-Stadt, Baustatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5199,
-		"darstellungsart": "Grafik"
+		"data-id": 5199,
+		"chart-id": 5199,
+		"filter": "",
+		"id": 5199
 	},
 	{
 		"title": "Bevölkerungsdichte Basel-Stadt",
@@ -11783,7 +11840,7 @@
 		"raeumlicheGliederung": [
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-05-08T17:43:01.011",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -13753,7 +13810,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-02T11:24:25.2525",
+		"aktualisierungsdatum": "2018-11-08T16:33:54.5454",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -13772,9 +13829,13 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6046,
+		"chart-id": 6046,
+		"filter": "",
 		"id": 6046
 	},
 	{
@@ -24802,7 +24863,7 @@
 	{
 		"title": "Beschäftigung im Dienstleistungssektor (II)",
 		"subtitle": "Anzahl Vollzeitäquivalente, Basel-Stadt",
-		"kuerzel": "I.03.2.06456",
+		"kuerzel": "I.03.2.6456",
 		"kuerzelKunde": "3.2-07",
 		"description": "Beschäftigung im Dienstleistungssektor (II)",
 		"thema": "03 Erwerbsleben",
@@ -24811,33 +24872,40 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-26T10:28:11.1111",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branche Beratung, Planung, Forschung und Immobilien verzeichnet im Jahr 2015 erstmals einen Rückgang der VZÄ um 0,6%, nachdem sie seit 2005 stetig gewachsen war. Die Beschäftigung bei den Finanz- und Versicherungsdienstleistungen  sowie bei der Personalvermittlung und -überlassung weist zwischen 2014 und 2015 einen Rückgang um 1,1% bzw. 6,8% auf. In der  Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen hat die Beschäftigung im selben Zeitraum um 0,9% zugenommen.",
-		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
+		"lesehilfe": "Die Branche Beratung, Planung, Forschung und Immobilien verzeichnet im Jahr 2016 einen Anstieg der Beschäftigung in Vollzeitäquivalenten (VZÄ) um 0,8%. Ebenfalls zugenommen hat die Beschäftigung in VZÄ zwischen 2015 und 2016 bei der Personalvermittlung und -überlassung, und zwar um 2,8%. Die Finanz- und Versicherungsdienstleistungen sowie die Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen weisen im selben Zeitraum einen Rückgang der Beschäftigung in VZÄ um 3,0% bzw. 0,5% auf.",
+		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_207",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7043"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6456,
-		"darstellungsart": "Grafik"
+		"data-id": 6456,
+		"chart-id": 6456,
+		"filter": "",
+		"id": 6456
 	},
 	{
 		"title": "Beschäftigung im Dienstleistungssektor (III)",
 		"subtitle": "Anzahl Vollzeitäquivalente, Basel-Stadt",
-		"kuerzel": "I.03.2.06457",
+		"kuerzel": "I.03.2.6457",
 		"kuerzelKunde": "3.2-08",
 		"description": "Beschäftigung im Dienstleistungssektor (III)",
 		"thema": "03 Erwerbsleben",
@@ -24846,28 +24914,35 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-26T10:30:44.4444",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Gesundheits- und Sozialwesen liegt die Beschäftigung im Jahr 2015 bei rund 21 300 VZÄ, was einem Wachstum von 3,0% gegenüber dem Vorjahr entspricht. Auch in der Branche Öffentliche Verwaltung und Sozialversicherungen sowie in der Branche Kultur, Unterhaltung und persönliche Dienstleistungen hat die Beschäftigung zugenommen, und zwar um 0,8% bzw. 1,9%. Die Branche Erziehung und Unterricht verzeichnet im Jahr 2015 einen Rückgang der VZÄ um 2,0% gegenüber dem Vorjahr.",
-		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
+		"lesehilfe": "Im Gesundheits- und Sozialwesen liegt die Beschäftigung im Jahr 2016 bei rund 22 100 Vollzeitäquivalenten (VZÄ), was einem Wachstum von 3,4% gegenüber dem Vorjahr entspricht. Auch in der Branche Erziehung und Unterricht sowie in der Branche Öffentliche Verwaltung und Sozialversicherungen hat die Beschäftigung in VZÄ zugenommen, und zwar um 0,4% bzw. 3,8%. Die Branche Kultur, Unterhaltung und persönliche Dienstleistungen verzeichnet im Jahr 2016 einen Rückgang der VZÄ um 0,9% gegenüber dem Vorjahr.",
+		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_208",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7044"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6457,
-		"darstellungsart": "Grafik"
+		"data-id": 6457,
+		"chart-id": 6457,
+		"filter": "",
+		"id": 6457
 	},
 	{
 		"title": "Beschäftigung nach Branche",
@@ -26699,7 +26774,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2018-12-03T15:01:38.3838",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -26718,12 +26793,15 @@
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bevölkerungsdienste und Migration Basel-Stadt",
-			"Zentrale Informatikdienste Basel-Stadt ZID"
+			"Bevölkerungsdienste und Migration Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6515,
+		"chart-id": 6515,
+		"filter": "",
 		"id": 6515
 	},
 	{

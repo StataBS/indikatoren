@@ -58,6 +58,10 @@
         [
           2016,
           945838
+        ],
+        [
+          2017,
+          910310
         ]
       ],
       "name": "Umbau- und Unterhaltsarbeiten"
@@ -120,6 +124,10 @@
         [
           2016,
           1855800
+        ],
+        [
+          2017,
+          1964200
         ]
       ],
       "name": "Gesamte Bauausgaben"
@@ -131,10 +139,10 @@
       "yAxis": 1,
       "legendIndex": 3,
       "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -184,6 +192,10 @@
         [
           2016,
           50.966591227503
+        ],
+        [
+          2017,
+          46.3450768760819
         ]
       ],
       "name": "Anteil am Total der Bausgaben (rechte Skala)"
@@ -250,7 +262,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in 1 000 Franken sowie Anteil am Total der Bauausgaben",
+    "text": "in 1000 Franken sowie Anteil am Total der Bauausgaben, Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -326,7 +338,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-7"
   },
   "legend": {
     "symbolRadius": 0,

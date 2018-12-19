@@ -157,7 +157,6 @@
             }
           }
     },
-    "marginBottom": 100,
     "type": "column",
     "inverted": false,
     "renderTo": "container-6484",
