@@ -33201,6 +33201,44 @@ var indikatoren = [
 		"id": 6983
 	},
 	{
+		"title": "Privatschulquote",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
+		"kuerzel": "I.15.1.07432",
+		"kuerzelKunde": "",
+		"description": "Privatschulquote",
+		"thema": "15 Bildung",
+		"unterthema": "Schulen und Schulpersonal",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [],
+		"aktualisierungsdatum": "2019-01-08T09:23:33.3333",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2016 werden 9,6% aller Schülerinnen und Schüler in der obligatorischen Schulzeit mit Wohnort Basel-Stadt an einer Privatschule unterrichtet. Bei Schweizern liegt der Anteil bei 6,9%, während er bei den Ausländern 14,0% beträgt.",
+		"erlaeuterungen": "Die Privatschulquote definiert sich als Anteil Schülerinnen und Schüler an einer Privatschule in der obligatorischen Schulzeit an allen Schülerinnen und Schülern in der obligatorischen Schulzeit.<br>Berücksichtigt werden sämtliche Schülerinnen und Schüler mit Wohnort Basel-Stadt, die am jeweiligen Stichtag im September an einer Schule in der Schweiz unterrichtet wurden. Sonderschulen werden nicht zu den Privatschulen gezählt.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Lernenden (SDL)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7432,
+		"chart-id": 7432,
+		"filter": "",
+		"id": 7432
+	},
+	{
 		"title": "Test Daten",
 		"subtitle": "Test",
 		"kuerzel": "",
