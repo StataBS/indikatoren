@@ -6654,7 +6654,7 @@
 	{
 		"title": "Erhaltenene Hilfeleistungen",
 		"subtitle": "«Erhalten Sie oder ein anderes Haushaltsmitglied (finanzielle oder materielle) Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»",
-		"kuerzel": "I.50.2.04716",
+		"kuerzel": "I.50.2.4716",
 		"kuerzelKunde": "1.1.01",
 		"description": "Erhaltenene Hilfeleistungen",
 		"thema": "50 Befragungen",
@@ -6663,28 +6663,33 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-08T13:22:02.022",
+		"aktualisierungsdatum": "2019-01-16T08:56:44.4444",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2013 erhielten 39,7% der Befragten von Freunden oder Bekannten Hilfeleistungen (2009: 46,2%), 28,5% von den Nachbarn (2009: 34,1%). Von den Arbeitskollegen Hilfeleistungen zu bekommen, bejahten 2013 12,1% der Befragten, 2009 waren es 13,3%.",
-		"erlaeuterungen": "2013: N=3119; 2009: N=2231",
+		"lesehilfe": "2017 erhielten 42,4% der Befragten von Freunden oder Bekannten Hilfeleistungen (2013: 39,7%; 2009: 46,2%), 30,5% von den Nachbarn (2013: 28,5%; 2009: 34,1%). Von den Arbeitskollegen Hilfeleistungen zu bekommen, bejahten 2017 11,6% der Befragten, 2013 waren es 12,1%, 2009 13,3%.",
+		"erlaeuterungen": "2017: N=1665; 2013: N=3119; 2009: N=2231",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F74c-e"
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F76c-e"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4716,
-		"darstellungsart": "Grafik"
+		"data-id": 4716,
+		"chart-id": 4716,
+		"filter": "",
+		"id": 4716
 	},
 	{
 		"title": "Erhaltene materielle Hilfeleistungen",
