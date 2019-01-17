@@ -1,8 +1,8 @@
 {
   "series": [
     {
-      "color": "#A8C4CB",
-      "index": 1,
+      "color": "#FABD24",
+      "index": 2,
       "data": [
         [
           "Berufliche Probleme",
@@ -37,8 +37,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#256370",
-      "index": 0,
+      "color": "#007A2F",
+      "index": 1,
       "data": [
         [
           "Berufliche Probleme",
@@ -71,6 +71,42 @@
       ],
       "name": "2013 (N=2231)",
       "turboThreshold": 0
+    },
+    {
+      "color": "#73B97C",
+      "index": 0,
+      "data": [
+        [
+          "Berufliche Probleme",
+          31.89
+        ],
+        [
+          "Gesundheitliche Probleme",
+          23.36
+        ],
+        [
+          "Finanzielle Probleme",
+          8.65
+        ],
+        [
+          "Wohnungsprobleme",
+          21.08
+        ],
+        [
+          "Partnerschaftliche Probleme",
+          35.62
+        ],
+        [
+          "Schulische Probleme der Kinder",
+          26.76
+        ],
+        [
+          "Erziehungsfragen oder -probleme",
+          53.09
+        ]
+      ],
+      "name": "2017 (N=1665)",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -86,7 +122,9 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "formatter": function () {
+            return this.value.replace("Erziehungsfragen oder -probleme", "Erziehungsfragen oder<br/>-probleme")}
     },
     "tickLength": 0
   },
@@ -133,7 +171,8 @@
         "style": {
           "fontSize": "10px"
         }
-      }
+      },
+      "pointPadding": 0
     }
   },
   "title": {
@@ -152,7 +191,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch an Freunde\u002FNachbarn gewendet?»",
+    "text": "«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurückdenken, haben Sie sich in nachfolgenden Situationen auch an Freunde\u002FNachbarn gewendet?»",
     "align": "left"
   },
   "yAxis": {
@@ -192,7 +231,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F72a-g.\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F74a-g.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-16"
   },
   "legend": {
     "symbolRadius": 0,
