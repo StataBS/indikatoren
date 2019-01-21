@@ -619,8 +619,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
-		"subtitle": "Stand: 2015",
-		"kuerzel": "I.03.2.04838",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.03.2.4838",
 		"kuerzelKunde": "WA-4.A",
 		"description": "Arbeitsplätze pro Kopf",
 		"thema": "03 Erwerbsleben",
@@ -629,7 +629,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-27T11:06:15.1515",
+		"aktualisierungsdatum": "2019-01-18T10:26:47.4747",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -638,6 +638,8 @@ var indikatorensetData = [
 		"lesehilfe": "Im Wohnviertel Breite gibt es die wenigsten Arbeitsplätze pro Kopf, im Wohnviertel Vorstädte die meisten.",
 		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.<br> Im Wohnvietel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_03_00_00_00_017",
 		"parentId": null,
 		"children": [
@@ -649,11 +651,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4838,
-		"darstellungsart": "Grafik"
+		"data-id": 4838,
+		"chart-id": 4838,
+		"filter": "",
+		"id": 4838
 	},
 	{
 		"title": "Arbeitslosenquote",
