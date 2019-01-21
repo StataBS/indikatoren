@@ -27,7 +27,7 @@
         ],
         [
           "2013 Total",
-          898
+          906
         ],
         [
           "2013 Kein Deutsch",
@@ -40,6 +40,26 @@
         [
           "2013 Nur Deutsch",
           575
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017 Total",
+          776
+        ],
+        [
+          "2017 Kein Deutsch",
+          74
+        ],
+        [
+          "2017 Deutsch und weitere",
+          205
+        ],
+        [
+          "2017 Nur Deutsch",
+          487
         ]
       ],
       "name": "Ja, genutzt",
@@ -72,7 +92,7 @@
         ],
         [
           "2013 Total",
-          903
+          913
         ],
         [
           "2013 Kein Deutsch",
@@ -85,6 +105,26 @@
         [
           "2013 Nur Deutsch",
           498
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017 Total",
+          633
+        ],
+        [
+          "2017 Kein Deutsch",
+          80
+        ],
+        [
+          "2017 Deutsch und weitere",
+          214
+        ],
+        [
+          "2017 Nur Deutsch",
+          323
         ]
       ],
       "name": "Ja, nicht genutzt",
@@ -130,6 +170,26 @@
         [
           "2013 Nur Deutsch",
           24
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017 Total",
+          62
+        ],
+        [
+          "2017 Kein Deutsch",
+          24
+        ],
+        [
+          "2017 Deutsch und weitere",
+          21
+        ],
+        [
+          "2017 Nur Deutsch",
+          15
         ]
       ],
       "name": "Nein, würde genutzt",
@@ -162,7 +222,7 @@
         ],
         [
           "2013 Total",
-          157
+          158
         ],
         [
           "2013 Kein Deutsch",
@@ -175,6 +235,26 @@
         [
           "2013 Nur Deutsch",
           37
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017 Total",
+          80
+        ],
+        [
+          "2017 Kein Deutsch",
+          37
+        ],
+        [
+          "2017 Deutsch und weitere",
+          20
+        ],
+        [
+          "2017 Nur Deutsch",
+          21
         ]
       ],
       "name": "Nein, würde nicht genutzt",
@@ -220,6 +300,26 @@
         [
           "2013 Nur Deutsch",
           56
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017 Total",
+          114
+        ],
+        [
+          "2017 Kein Deutsch",
+          31
+        ],
+        [
+          "2017 Deutsch und weitere",
+          56
+        ],
+        [
+          "2017 Nur Deutsch",
+          24
         ]
       ],
       "name": "Keine Angabe",
@@ -377,7 +477,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F60.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F60.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-18"
   },
   "legend": {
     "layout": "horizontal",
