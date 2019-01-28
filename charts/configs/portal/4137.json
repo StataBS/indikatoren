@@ -47,11 +47,11 @@
         ],
         [
           2015,
-          788
+          700
         ],
         [
           2016,
-          412
+          350
         ],
         [
           2017,
@@ -59,6 +59,10 @@
         ],
         [
           2018,
+          807
+        ],
+        [
+          2019,
           0
         ]
       ],
@@ -123,7 +127,11 @@
         ],
         [
           2018,
-          400
+          null
+        ],
+        [
+          2019,
+          800
         ]
       ],
       "name": "Neubauprognose"
@@ -138,58 +146,62 @@
       "data": [
         [
           2005,
-          325
+          372
         ],
         [
           2006,
-          325
+          372
         ],
         [
           2007,
-          325
+          372
         ],
         [
           2008,
-          325
+          372
         ],
         [
           2009,
-          325
+          372
         ],
         [
           2010,
-          325
+          372
         ],
         [
           2011,
-          325
+          372
         ],
         [
           2012,
-          325
+          372
         ],
         [
           2013,
-          325
+          372
         ],
         [
           2014,
-          325
+          372
         ],
         [
           2015,
-          325
+          372
         ],
         [
           2016,
-          325
+          372
         ],
         [
           2017,
-          325
+          372
         ],
         [
           2018,
+          372
+        ],
+        [
+          2019,
           null
         ]
       ],
@@ -258,7 +270,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -315,7 +327,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-1-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-28"
   },
   "legend": {
     "symbolRadius": 0,

@@ -8,6 +8,14 @@
       "legendIndex": 0,
       "data": [
         [
+          2005,
+          301
+        ],
+        [
+          2006,
+          353
+        ],
+        [
           2007,
           120
         ],
@@ -41,11 +49,19 @@
         ],
         [
           2015,
-          788
+          700
         ],
         [
           2016,
-          412
+          350
+        ],
+        [
+          2017,
+          369
+        ],
+        [
+          2018,
+          807
         ]
       ],
       "name": "Neubau"
@@ -57,6 +73,14 @@
       "pointWidth": "15",
       "legendIndex": 1,
       "data": [
+        [
+          2005,
+          -14
+        ],
+        [
+          2006,
+          -134
+        ],
         [
           2007,
           -107
@@ -96,6 +120,14 @@
         [
           2016,
           -75
+        ],
+        [
+          2017,
+          -59
+        ],
+        [
+          2018,
+          -114
         ]
       ],
       "name": "Abbruch"
@@ -107,6 +139,14 @@
       "pointWidth": "15",
       "legendIndex": 2,
       "data": [
+        [
+          2005,
+          -72
+        ],
+        [
+          2006,
+          -56
+        ],
         [
           2007,
           -74
@@ -146,6 +186,14 @@
         [
           2016,
           106
+        ],
+        [
+          2017,
+          54
+        ],
+        [
+          2018,
+          67
         ]
       ],
       "name": "Umbausaldo"
@@ -162,6 +210,14 @@
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
+        [
+          2005,
+          215
+        ],
+        [
+          2006,
+          163
+        ],
         [
           2007,
           -61
@@ -196,11 +252,19 @@
         ],
         [
           2015,
-          635
+          547
         ],
         [
           2016,
-          443
+          381
+        ],
+        [
+          2017,
+          364
+        ],
+        [
+          2018,
+          760
         ]
       ],
       "name": "Nettowohnungsproduktion"
@@ -251,14 +315,14 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
     "shared": true
   },
   "yAxis": {
-    "min": -200,
+    "min": 0,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "title": {
@@ -309,7 +373,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2017-10-27"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-28"
   },
   "legend": {
     "enabled": true,

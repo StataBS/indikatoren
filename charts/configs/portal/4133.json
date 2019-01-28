@@ -55,9 +55,13 @@
         [
           "2017",
           11135
+        ],
+        [
+          "2018",
+          11245
         ]
       ],
-      "name": "1-Zimmer",
+      "name": "1 Zimmer",
       "turboThreshold": 0
     },
     {
@@ -115,9 +119,13 @@
         [
           "2017",
           25557
+        ],
+        [
+          "2018",
+          25833
         ]
       ],
-      "name": "2-Zimmer",
+      "name": "2 Zimmer",
       "turboThreshold": 0
     },
     {
@@ -175,9 +183,13 @@
         [
           "2017",
           40753
+        ],
+        [
+          "2018",
+          41077
         ]
       ],
-      "name": "3-Zimmer",
+      "name": "3 Zimmer",
       "turboThreshold": 0
     },
     {
@@ -235,9 +247,13 @@
         [
           "2017",
           19182
+        ],
+        [
+          "2018",
+          19357
         ]
       ],
-      "name": "4-Zimmer",
+      "name": "4 Zimmer",
       "turboThreshold": 0
     },
     {
@@ -295,9 +311,13 @@
         [
           "2017",
           6981
+        ],
+        [
+          "2018",
+          7026
         ]
       ],
-      "name": "5-Zimmer",
+      "name": "5 Zimmer",
       "turboThreshold": 0
     },
     {
@@ -355,9 +375,13 @@
         [
           "2017",
           5882
+        ],
+        [
+          "2018",
+          5902
         ]
       ],
-      "name": "6-Zimmer u. m.",
+      "name": "6 Zimmer u.m.",
       "turboThreshold": 0
     }
   ],
@@ -441,7 +465,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Zimmerzahl",
+    "text": "nach Zimmerzahl, Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -481,7 +505,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-1-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-28"
   },
   "legend": {
     "symbolRadius": 0,
