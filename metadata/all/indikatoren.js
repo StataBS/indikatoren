@@ -6921,7 +6921,7 @@ var indikatoren = [
 	{
 		"title": "Sozialhilfequote",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.13.3.04822",
+		"kuerzel": "I.13.3.4822",
 		"kuerzelKunde": "GS-1.A",
 		"description": "Sozialhilfequote",
 		"thema": "13 Soziale Sicherheit",
@@ -6930,7 +6930,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-12-18T11:37:16.1616",
+		"aktualisierungsdatum": "2018-06-13T09:47:50.5050",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -6939,6 +6939,8 @@ var indikatoren = [
 		"lesehilfe": "Der Anteil Sozialhilfeempfänger ist im Wohnviertel Klybeck am höchsten, in Bettingen am niedrigsten.",
 		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger an der Wohnbevölkerung des Wohnviertels.",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_001",
 		"parentId": null,
@@ -6951,16 +6953,19 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4822,
-		"darstellungsart": "Grafik"
+		"data-id": 4822,
+		"chart-id": 4822,
+		"filter": "",
+		"id": 4822
 	},
 	{
 		"title": "Anteil Ausländer",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.01.1.04823",
+		"kuerzel": "I.01.1.4823",
 		"kuerzelKunde": "GS-2.A",
 		"description": "Anteil Ausländer",
 		"thema": "01 Bevölkerung",
@@ -6978,6 +6983,8 @@ var indikatoren = [
 		"lesehilfe": "Der Ausländeranteil ist im Wohnviertel Bachletten mit 22% am geringsten, im Wohnviertel Rosental mit 56% am höchsten.",
 		"erlaeuterungen": "Anteil der ausländischen Wohnbevölkerung an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_002",
 		"parentId": null,
@@ -6990,16 +6997,19 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4823,
-		"darstellungsart": "Grafik"
+		"data-id": 4823,
+		"chart-id": 4823,
+		"filter": "",
+		"id": 4823
 	},
 	{
 		"title": "Anteil Personen ohne Religionszugehörigkeit",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.01.7.04824",
+		"kuerzel": "I.01.7.4824",
 		"kuerzelKunde": "GS-3.A",
 		"description": "Anteil Personen ohne Religionszugehörigkeit",
 		"thema": "01 Bevölkerung",
@@ -7008,7 +7018,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-12-18T11:37:16.1616",
+		"aktualisierungsdatum": "2017-05-04T14:54:05.055",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -7017,6 +7027,8 @@ var indikatoren = [
 		"lesehilfe": "Der Anteil Personen ohne Religionszugehörigkeit ist im Wohnviertel Kleinhüningen mit 39% am geringsten, im Wohnviertel Altstadt Kleinbasel mit 57% am höchsten.",
 		"erlaeuterungen": "Anteil Personen ohne Religionszugehörigkeit an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_003",
 		"parentId": null,
@@ -7029,11 +7041,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4824,
-		"darstellungsart": "Grafik"
+		"data-id": 4824,
+		"chart-id": 4824,
+		"filter": "",
+		"id": 4824
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
@@ -7047,7 +7062,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"aktualisierungsdatum": "2018-06-21T10:59:37.3737",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -7056,6 +7071,7 @@ var indikatoren = [
 		"lesehilfe": "In der Altstadt Kleinbasel ist der Anteil Personen, die in Einpersonenhaushalten leben, am höchsten, in der Gemeinde Bettingen am niedrigsten.",
 		"erlaeuterungen": "Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten des Wohnviertels in Prozent.",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_004",
@@ -7069,16 +7085,19 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4825,
-		"darstellungsart": "Grafik"
+		"data-id": 4825,
+		"chart-id": 4825,
+		"filter": "",
+		"id": 4825
 	},
 	{
 		"title": "Gymnasialquote",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.15.6.04826",
+		"kuerzel": "I.15.6.4826",
 		"kuerzelKunde": "GS-5.A",
 		"description": "Gymnasialquote",
 		"thema": "15 Bildung",
@@ -7087,7 +7106,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-28T10:59:29.2929",
+		"aktualisierungsdatum": "2018-04-16T11:22:54.5454",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -7096,6 +7115,8 @@ var indikatoren = [
 		"lesehilfe": "Die Gymnasialquote ist im Wohnviertel Bachletten am höchsten, im Wohnviertel Klybeck am niedrigsten.",
 		"erlaeuterungen": "Seit 2016/2017 Anteil der Sek P Schüler (Jahre davor: Anteil der Gymnasiasten) an allen Schülern der 10. und 11. Schulstufe des Wohnviertels an öffentlichen Schulen und mit Elternwohnort Basel-Stadt (Schulstufen einschliesslich zweier obligatorischer Kindergartenstufen gezählt).",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_005",
 		"parentId": null,
@@ -7108,11 +7129,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4826,
-		"darstellungsart": "Grafik"
+		"data-id": 4826,
+		"chart-id": 4826,
+		"filter": "",
+		"id": 4826
 	},
 	{
 		"title": "Altersquotient",
@@ -7126,7 +7150,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"aktualisierungsdatum": "2018-06-21T10:59:37.3737",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -7135,6 +7159,7 @@ var indikatoren = [
 		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am geringsten, im Wohnviertel Riehen am höchsten.",
 		"erlaeuterungen": "Anteil der über 64-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_006",
@@ -7148,16 +7173,19 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4827,
-		"darstellungsart": "Grafik"
+		"data-id": 4827,
+		"chart-id": 4827,
+		"filter": "",
+		"id": 4827
 	},
 	{
 		"title": "Sesshaftigkeit",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.01.1.04828",
+		"kuerzel": "I.01.1.4828",
 		"kuerzelKunde": "GS-7.A",
 		"description": "Sesshaftigkeit",
 		"thema": "01 Bevölkerung",
@@ -7175,6 +7203,8 @@ var indikatoren = [
 		"lesehilfe": "Im Wohnviertel Bruderholz ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, am höchsten. Im Rosentalviertel ist er am niedrigsten. Dies liegt vor allem daran, dass sich im neuen Quartierteil Erlenmatt sehr viele Neuzuzüger niederlassen.",
 		"erlaeuterungen": "Anteil der seit mindestens 10 Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_007",
 		"parentId": null,
@@ -7187,16 +7217,19 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4828,
-		"darstellungsart": "Grafik"
+		"data-id": 4828,
+		"chart-id": 4828,
+		"filter": "",
+		"id": 4828
 	},
 	{
 		"title": "Jugendquotient",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.01.1.04829",
+		"kuerzel": "I.01.1.4829",
 		"kuerzelKunde": "GS-8.A",
 		"description": "Jugendquotient",
 		"thema": "01 Bevölkerung",
@@ -7205,7 +7238,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-28T12:02:02.022",
+		"aktualisierungsdatum": "2018-02-20T13:48:14.1414",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -7214,6 +7247,8 @@ var indikatoren = [
 		"lesehilfe": "Den höchsten Jugendquotient weist das Wohnviertel Bruderholz auf, den niederigsten das Wohnviertel Altstadt Grossbasel.",
 		"erlaeuterungen": "Anteil der unter 20-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_008",
 		"parentId": null,
@@ -7226,16 +7261,19 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4829,
-		"darstellungsart": "Grafik"
+		"data-id": 4829,
+		"chart-id": 4829,
+		"filter": "",
+		"id": 4829
 	},
 	{
 		"title": "Baujahr Wohngebäude",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.09.1.04830",
+		"kuerzel": "I.09.1.4830",
 		"kuerzelKunde": "RU-1.A",
 		"description": "Baujahr Wohngebäude",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -7244,7 +7282,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-28T12:04:17.1717",
+		"aktualisierungsdatum": "2018-02-20T16:18:00.000",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -7253,6 +7291,8 @@ var indikatoren = [
 		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel verfügt über die älteste Bausubstanz, die Gemeinde Bettingen über die modernste.",
 		"erlaeuterungen": "Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_009",
 		"parentId": null,
@@ -7265,11 +7305,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4830,
-		"darstellungsart": "Grafik"
+		"data-id": 4830,
+		"chart-id": 4830,
+		"filter": "",
+		"id": 4830
 	},
 	{
 		"title": "Anteil Einfamilienhäuser",
@@ -7283,7 +7326,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"aktualisierungsdatum": "2018-06-21T10:59:38.3838",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -7292,6 +7335,7 @@ var indikatoren = [
 		"lesehilfe": "Der Anteil Einfamilienhäuser ist in Bettingen am höchsten, im Wohnviertel Clara am niedrigsten.",
 		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels in Prozent.",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_010",
@@ -7305,11 +7349,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4831,
-		"darstellungsart": "Grafik"
+		"data-id": 4831,
+		"chart-id": 4831,
+		"filter": "",
+		"id": 4831
 	},
 	{
 		"title": "Anteil Grünflächen",
@@ -7323,7 +7370,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"aktualisierungsdatum": "2018-06-21T10:59:38.3838",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -7332,6 +7379,7 @@ var indikatoren = [
 		"lesehilfe": "Der Anteil Grünflächen ist in den beiden Landgemeinden Bettingen und Riehen am höchsten. Auch in den Wohnvierteln Bruderholz und Hirzbrunnen liegt er noch über 50%. Am geringsten ist der Anteil Grünflächen in den innenstädtischen Wohnvierteln Altstadt Grossbasel und Altstadt Kleinbasel.",
 		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche des jeweiligen Wohnviertels. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_011",
@@ -7345,11 +7393,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4832,
-		"darstellungsart": "Grafik"
+		"data-id": 4832,
+		"chart-id": 4832,
+		"filter": "",
+		"id": 4832
 	},
 	{
 		"title": "Fläche pro Wohnung",
@@ -7363,7 +7414,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"aktualisierungsdatum": "2018-06-21T10:59:39.3939",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -7372,6 +7423,7 @@ var indikatoren = [
 		"lesehilfe": "Im Wohnviertel Klybeck sind die Wohnungen im Durchschnitt am kleinsten, in der Gemeinde Bettingen am grössten.",
 		"erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_012",
@@ -7385,11 +7437,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4833,
-		"darstellungsart": "Grafik"
+		"data-id": 4833,
+		"chart-id": 4833,
+		"filter": "",
+		"id": 4833
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
@@ -7403,7 +7458,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"aktualisierungsdatum": "2018-06-21T10:59:39.3939",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -7412,6 +7467,7 @@ var indikatoren = [
 		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 32&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, in der Gemeinde Bettingen mit 53&nbsp;m<sup>2</sup> über die höchste.",
 		"erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen.",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_013",
@@ -7427,11 +7483,14 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4834,
-		"darstellungsart": "Grafik"
+		"data-id": 4834,
+		"chart-id": 4834,
+		"filter": "",
+		"id": 4834
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
@@ -7445,7 +7504,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"aktualisierungsdatum": "2018-06-21T10:59:39.3939",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -7454,6 +7513,7 @@ var indikatoren = [
 		"lesehilfe": "Im Wohnviertel Bruderholz wird der höchste Wert pro Veranlagung verzeichnet, im Wohnviertel Klybeck der niedrigste.",
 		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_03_00_00_00_014",
@@ -7467,16 +7527,19 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4835,
-		"darstellungsart": "Grafik"
+		"data-id": 4835,
+		"chart-id": 4835,
+		"filter": "",
+		"id": 4835
 	},
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
 		"subtitle": "Stand: Steuerjahr 2015",
-		"kuerzel": "I.18.2.04836",
+		"kuerzel": "I.18.2.4836",
 		"kuerzelKunde": "WA-2.A",
 		"description": "Einkommenssteuer pro Veranlagung",
 		"thema": "18 Öffentliche Finanzen",
@@ -7485,7 +7548,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-28T11:35:52.5252",
+		"aktualisierungsdatum": "2018-02-20T00:00:00.000",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -7494,6 +7557,8 @@ var indikatoren = [
 		"lesehilfe": "Das Wohnviertel Bruderholz verzeichnet im Durchschnitt die höchste Einkommenssteuer pro Veranlagung, die niedrigsten Werte weist das Wohnviertel Klybeck auf.",
 		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_03_00_00_00_015",
 		"parentId": null,
@@ -7506,11 +7571,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4836,
-		"darstellungsart": "Grafik"
+		"data-id": 4836,
+		"chart-id": 4836,
+		"filter": "",
+		"id": 4836
 	},
 	{
 		"title": "Erwerbstätigenquote",
@@ -7524,7 +7592,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"aktualisierungsdatum": "2018-06-21T10:59:40.4040",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -7533,6 +7601,7 @@ var indikatoren = [
 		"lesehilfe": "Im Mittel der Jahre 2012 bis 2016 ist die Erwerbstätigenquote im Wohnviertel Klybeck am tiefsten (61,5%) und im Wohnviertel Altstadt Grossbasel am grössten (85,6%)",
 		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt.",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_03_00_00_00_016",
@@ -7546,11 +7615,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4837,
-		"darstellungsart": "Grafik"
+		"data-id": 4837,
+		"chart-id": 4837,
+		"filter": "",
+		"id": 4837
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
@@ -7608,7 +7680,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"aktualisierungsdatum": "2018-06-21T10:59:40.4040",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -7617,6 +7689,7 @@ var indikatoren = [
 		"lesehilfe": "Die Gemeinden Riehen und Bettingen verzeichnen die niedrigsten Arbeitslosenquoten, das Wohnviertel Klybeck die höchste.",
 		"erlaeuterungen": "Anteil als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent, jeweils Ende Jahr. Erwerbspersonen aus den Jahren 2010-2014, Hochrechnung auf Basis einer Stichprobe von 5 000 Personen pro Jahr. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet.",
 		"template": "dotplot",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_03_00_00_00_018",
@@ -7631,11 +7704,14 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4839,
-		"darstellungsart": "Grafik"
+		"data-id": 4839,
+		"chart-id": 4839,
+		"filter": "",
+		"id": 4839
 	},
 	{
 		"title": "Unterstützung von Freunden oder Nachbarn",
@@ -9270,7 +9346,7 @@ var indikatoren = [
 	{
 		"title": "Sozialhilfequote",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.13.3.05109",
+		"kuerzel": "I.13.3.5109",
 		"kuerzelKunde": "GS-1.B",
 		"description": "Sozialhilfequote",
 		"thema": "13 Soziale Sicherheit",
@@ -9279,7 +9355,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-12-18T11:37:16.1616",
+		"aktualisierungsdatum": "2018-06-13T09:47:50.5050",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -9288,6 +9364,8 @@ var indikatoren = [
 		"lesehilfe": "Der Anteil Sozialhilfeempfänger ist im Wohnviertel Klybeck am höchsten, in Bettingen am niedrigsten.",
 		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger an der Wohnbevölkerung des Wohnviertels.",
 		"template": "map001",
+		"darstellungsart": "Karte kategoriell",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_01_00_00_00_001",
 		"parentId": 4822,
@@ -9298,16 +9376,19 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=soz_sozhilfe.soz_quote' target='_blank'>Basler Atlas</a>."
 		],
-		"id": 5109,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 5109,
+		"chart-id": 5109,
+		"filter": "",
+		"id": 5109
 	},
 	{
 		"title": "Anteil Ausländer",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.01.1.05110",
+		"kuerzel": "I.01.1.5110",
 		"kuerzelKunde": "GS-2.B",
 		"description": "Anteil Ausländer",
 		"thema": "01 Bevölkerung",
@@ -9316,7 +9397,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-28T10:53:24.2424",
+		"aktualisierungsdatum": "2018-02-20T16:49:57.5757",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -9325,6 +9406,8 @@ var indikatoren = [
 		"lesehilfe": "Der Ausländeranteil ist im Wohnviertel Bachletten mit 22% am geringsten, im Wohnviertel Rosental mit 56% am höchsten.",
 		"erlaeuterungen": "Anteil der ausländischen Wohnbevölkerung an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "map001",
+		"darstellungsart": "Karte kategoriell",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_01_00_00_00_002",
 		"parentId": 4823,
@@ -9335,16 +9418,19 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevheim.anteil_al' target='_blank'>Basler Atlas</a>."
 		],
-		"id": 5110,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 5110,
+		"chart-id": 5110,
+		"filter": "",
+		"id": 5110
 	},
 	{
 		"title": "Anteil Personen ohne Religionszugehörigkeit",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.01.7.05111",
+		"kuerzel": "I.01.7.5111",
 		"kuerzelKunde": "GS-3.B",
 		"description": "Anteil Personen ohne Religionszugehörigkeit",
 		"thema": "01 Bevölkerung",
@@ -9353,7 +9439,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-12-18T11:37:16.1616",
+		"aktualisierungsdatum": "2017-05-04T14:54:05.055",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -9362,6 +9448,8 @@ var indikatoren = [
 		"lesehilfe": "Der Anteil Personen ohne Religionszugehörigkeit ist im Wohnviertel Kleinhüningen mit 39% am geringsten, im Wohnviertel Altstadt Kleinbasel mit 57% am höchsten.",
 		"erlaeuterungen": "Anteil Personen ohne Religionszugehörigkeit an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "map001",
+		"darstellungsart": "Karte kategoriell",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_01_00_00_00_003",
 		"parentId": 4824,
@@ -9372,11 +9460,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5111,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 5111,
+		"chart-id": 5111,
+		"filter": "",
+		"id": 5111
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
@@ -9390,7 +9481,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"aktualisierungsdatum": "2018-06-21T10:59:36.3636",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -9399,6 +9490,7 @@ var indikatoren = [
 		"lesehilfe": "In der Altstadt Kleinbasel ist der Anteil Personen, die in Einpersonenhaushalten leben, am höchsten, in der Gemeinde Bettingen am niedrigsten.",
 		"erlaeuterungen": "Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten des Wohnviertels in Prozent.",
 		"template": "map001",
+		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_01_00_00_00_004",
@@ -9410,16 +9502,19 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5112,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 5112,
+		"chart-id": 5112,
+		"filter": "",
+		"id": 5112
 	},
 	{
 		"title": "Gymnasialquote",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.15.6.05113",
+		"kuerzel": "I.15.6.5113",
 		"kuerzelKunde": "GS-5.B",
 		"description": "Gymnasialquote",
 		"thema": "15 Bildung",
@@ -9428,7 +9523,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-28T10:56:50.5050",
+		"aktualisierungsdatum": "2018-04-16T11:22:54.5454",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -9437,6 +9532,8 @@ var indikatoren = [
 		"lesehilfe": "Die Gymnasialquote ist im Wohnviertel Bachletten am höchsten, im Wohnviertel Klybeck am niedrigsten.",
 		"erlaeuterungen": "Seit 2016/2017 Anteil der Sek P Schüler (Jahre davor: Anteil der Gymnasiasten) an allen Schülern der 10. und 11. Schulstufe des Wohnviertels an öffentlichen Schulen und mit Elternwohnort Basel-Stadt (Schulstufen einschliesslich zweier obligatorischer Kindergartenstufen gezählt).",
 		"template": "map001",
+		"darstellungsart": "Karte kategoriell",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_01_00_00_00_005",
 		"parentId": 4826,
@@ -9447,16 +9544,19 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5113,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 5113,
+		"chart-id": 5113,
+		"filter": "",
+		"id": 5113
 	},
 	{
 		"title": "Altersquotient",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.01.1.5114",
+		"kuerzel": "I.01.1.05114",
 		"kuerzelKunde": "GS-6.B",
 		"description": "Altersquotient",
 		"thema": "01 Bevölkerung",
@@ -9465,7 +9565,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:36.3636",
+		"aktualisierungsdatum": "2018-06-21T10:59:37.3737",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -9474,6 +9574,7 @@ var indikatoren = [
 		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am geringsten, im Wohnviertel Riehen am höchsten.",
 		"erlaeuterungen": "Anteil der über 64-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
 		"template": "map001",
+		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_01_00_00_00_006",
@@ -9485,16 +9586,19 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5114,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 5114,
+		"chart-id": 5114,
+		"filter": "",
+		"id": 5114
 	},
 	{
 		"title": "Sesshaftigkeit",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.01.1.05115",
+		"kuerzel": "I.01.1.5115",
 		"kuerzelKunde": "GS-7.B",
 		"description": "Sesshaftigkeit",
 		"thema": "01 Bevölkerung",
@@ -9503,7 +9607,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-12-18T11:37:16.1616",
+		"aktualisierungsdatum": "2018-02-20T00:00:00.000",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -9512,6 +9616,8 @@ var indikatoren = [
 		"lesehilfe": "Im Wohnviertel Bruderholz ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, am höchsten. Im Rosentalviertel ist er am niedrigsten. Dies liegt vor allem daran, dass sich im neuen Quartierteil Erlenmatt sehr viele Neuzuzüger niederlassen.",
 		"erlaeuterungen": "Anteil der seit mindestens 10 Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "map001",
+		"darstellungsart": "Karte kategoriell",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_01_00_00_00_007",
 		"parentId": 4828,
@@ -9522,16 +9628,19 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevsess.anteil_sess10' target='_blank'>Basler Atlas</a>."
 		],
-		"id": 5115,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 5115,
+		"chart-id": 5115,
+		"filter": "",
+		"id": 5115
 	},
 	{
 		"title": "Jugendquotient",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.01.1.05116",
+		"kuerzel": "I.01.1.5116",
 		"kuerzelKunde": "GS-8.B",
 		"description": "Jugendquotient",
 		"thema": "01 Bevölkerung",
@@ -9540,7 +9649,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-28T12:00:42.4242",
+		"aktualisierungsdatum": "2018-02-20T13:48:14.1414",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -9549,6 +9658,8 @@ var indikatoren = [
 		"lesehilfe": "Den höchsten Jugendquotient weist das Wohnviertel Bruderholz auf, den niederigsten das Wohnviertel Altstadt Grossbasel.",
 		"erlaeuterungen": "Anteil der unter 20-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
 		"template": "map001",
+		"darstellungsart": "Karte kategoriell",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_01_00_00_00_008",
 		"parentId": 4829,
@@ -9559,16 +9670,19 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5116,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 5116,
+		"chart-id": 5116,
+		"filter": "",
+		"id": 5116
 	},
 	{
 		"title": "Baujahr Wohngebäude",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.09.1.05117",
+		"kuerzel": "I.09.1.5117",
 		"kuerzelKunde": "RU-1.B",
 		"description": "Baujahr Wohngebäude",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -9577,7 +9691,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-28T12:03:09.099",
+		"aktualisierungsdatum": "2018-02-20T16:18:00.000",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -9586,6 +9700,8 @@ var indikatoren = [
 		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel verfügt über die älteste Bausubstanz, die Gemeinde Bettingen über die modernste.",
 		"erlaeuterungen": "Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
 		"template": "map001",
+		"darstellungsart": "Karte kategoriell",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_009",
 		"parentId": 4830,
@@ -9596,11 +9712,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5117,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 5117,
+		"chart-id": 5117,
+		"filter": "",
+		"id": 5117
 	},
 	{
 		"title": "Anteil Einfamilienhäuser",
@@ -9614,7 +9733,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:36.3636",
+		"aktualisierungsdatum": "2018-06-21T10:59:35.3535",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -9623,6 +9742,7 @@ var indikatoren = [
 		"lesehilfe": "Der Anteil Einfamilienhäuser ist in Bettingen am höchsten, im Wohnviertel Clara am niedrigsten.",
 		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels in Prozent.",
 		"template": "map001",
+		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_010",
@@ -9634,11 +9754,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5118,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 5118,
+		"chart-id": 5118,
+		"filter": "",
+		"id": 5118
 	},
 	{
 		"title": "Anteil Grünflächen",
@@ -9652,7 +9775,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:36.3636",
+		"aktualisierungsdatum": "2018-06-21T10:59:35.3535",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -9661,6 +9784,7 @@ var indikatoren = [
 		"lesehilfe": "Der Anteil Grünflächen ist in den beiden Landgemeinden Bettingen und Riehen am höchsten. Auch in den Wohnvierteln Bruderholz und Hirzbrunnen liegt er noch über 50%. Am geringsten ist der Anteil Grünflächen in den innenstädtischen Wohnvierteln Altstadt Grossbasel und Altstadt Kleinbasel.",
 		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche des jeweiligen Wohnviertels. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "map001",
+		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_011",
@@ -9672,11 +9796,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=ru_gruen.gruenflaeche_ant' target='_blank'>Basler Atlas</a>."
 		],
-		"id": 5119,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 5119,
+		"chart-id": 5119,
+		"filter": "",
+		"id": 5119
 	},
 	{
 		"title": "Fläche pro Wohnung",
@@ -9690,7 +9817,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:36.3636",
+		"aktualisierungsdatum": "2018-06-21T10:59:34.3434",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -9699,6 +9826,7 @@ var indikatoren = [
 		"lesehilfe": "Im Wohnviertel Klybeck sind die Wohnungen im Durchschnitt am kleinsten, in der Gemeinde Bettingen am grössten.",
 		"erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
 		"template": "map001",
+		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_012",
@@ -9710,11 +9838,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5120,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 5120,
+		"chart-id": 5120,
+		"filter": "",
+		"id": 5120
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
@@ -9728,7 +9859,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:36.3636",
+		"aktualisierungsdatum": "2018-06-21T10:59:39.3939",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -9737,6 +9868,7 @@ var indikatoren = [
 		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 32&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, in der Gemeinde Bettingen mit 53&nbsp;m<sup>2</sup> über die höchste.",
 		"erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen.",
 		"template": "map001",
+		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_013",
@@ -9749,11 +9881,14 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5121,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 5121,
+		"chart-id": 5121,
+		"filter": "",
+		"id": 5121
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
@@ -9767,7 +9902,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:36.3636",
+		"aktualisierungsdatum": "2018-06-21T10:59:33.3333",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -9776,6 +9911,7 @@ var indikatoren = [
 		"lesehilfe": "Im Wohnviertel Bruderholz wird der höchste Wert pro Veranlagung verzeichnet, im Wohnviertel Klybeck der niedrigste.",
 		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "map001",
+		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_03_00_00_00_014",
@@ -9787,16 +9923,19 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_ver.vermoegen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
 		],
-		"id": 5122,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 5122,
+		"chart-id": 5122,
+		"filter": "",
+		"id": 5122
 	},
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
 		"subtitle": "Stand: Steuerjahr 2015",
-		"kuerzel": "I.18.2.05123",
+		"kuerzel": "I.18.2.5123",
 		"kuerzelKunde": "WA-2.B",
 		"description": "Einkommenssteuer pro Veranlagung",
 		"thema": "18 Öffentliche Finanzen",
@@ -9805,7 +9944,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-28T11:34:18.1818",
+		"aktualisierungsdatum": "2018-02-20T00:00:00.000",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -9814,6 +9953,8 @@ var indikatoren = [
 		"lesehilfe": "Das Wohnviertel Bruderholz verzeichnet im Durchschnitt die höchste Einkommenssteuer pro Veranlagung, die niedrigsten Werte weist das Wohnviertel Klybeck auf.",
 		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "map001",
+		"darstellungsart": "Karte kategoriell",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_03_00_00_00_015",
 		"parentId": 4836,
@@ -9824,16 +9965,19 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_eink.einkommen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
 		],
-		"id": 5123,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 5123,
+		"chart-id": 5123,
+		"filter": "",
+		"id": 5123
 	},
 	{
 		"title": "Erwerbstätigenquote",
 		"subtitle": "Stand: gepoolte Daten 2012-2016",
-		"kuerzel": "I.03.1.5124",
+		"kuerzel": "I.03.1.05124",
 		"kuerzelKunde": "WA-3.B",
 		"description": "Erwerbstätigenquote",
 		"thema": "03 Erwerbsleben",
@@ -9842,7 +9986,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:36.3636",
+		"aktualisierungsdatum": "2018-06-21T10:59:40.4040",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -9851,6 +9995,7 @@ var indikatoren = [
 		"lesehilfe": "Im Mittel der Jahre 2012 bis 2016 ist die Erwerbstätigenquote im Wohnviertel Klybeck am tiefsten (61,5%) und im Wohnviertel Altstadt Grossbasel am grössten (85,6%)",
 		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt.",
 		"template": "map001",
+		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_03_00_00_00_016",
@@ -9862,15 +10007,18 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5124,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 5124,
+		"chart-id": 5124,
+		"filter": "",
+		"id": 5124
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
-		"subtitle": "Stand: 2015",
+		"subtitle": "Stand: 2016",
 		"kuerzel": "I.03.2.05125",
 		"kuerzelKunde": "WA-4.B",
 		"description": "Arbeitsplätze pro Kopf",
@@ -9880,7 +10028,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-28T12:43:32.3232",
+		"aktualisierungsdatum": "2018-02-06T00:00:00.000",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -9889,6 +10037,8 @@ var indikatoren = [
 		"lesehilfe": "Im Wohnviertel Breite gibt es die wenigsten Arbeitsplätze pro Kopf, im Wohnviertel Vorstädte die meisten.",
 		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.<br> Im Wohnvietel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "map001",
+		"darstellungsart": "Karte kategoriell",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_03_00_00_00_017",
 		"parentId": 4838,
@@ -9899,16 +10049,19 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5125,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 5125,
+		"chart-id": 5125,
+		"filter": "",
+		"id": 5125
 	},
 	{
 		"title": "Arbeitslosenquote",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.03.4.5126",
+		"kuerzel": "I.03.4.05126",
 		"kuerzelKunde": "WA-5.B",
 		"description": "Arbeitslosenquote",
 		"thema": "03 Erwerbsleben",
@@ -9917,7 +10070,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:36.3636",
+		"aktualisierungsdatum": "2018-06-21T10:59:40.4040",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -9926,6 +10079,7 @@ var indikatoren = [
 		"lesehilfe": "Die Gemeinden Riehen und Bettingen verzeichnen die niedrigsten Arbeitslosenquoten, das Wohnviertel Klybeck die höchste.",
 		"erlaeuterungen": "Anteil als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent, jeweils Ende Jahr. Erwerbspersonen aus den Jahren 2010-2014, Hochrechnung auf Basis einer Stichprobe von 5 000 Personen pro Jahr. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet.",
 		"template": "map001",
+		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_03_00_00_00_018",
@@ -9938,11 +10092,14 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5126,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 5126,
+		"chart-id": 5126,
+		"filter": "",
+		"id": 5126
 	},
 	{
 		"title": "Privater Motorisierungsgrad",
@@ -21628,7 +21785,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Sesshaftigkeit nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.06373",
 		"kuerzelKunde": "C1-4",
 		"description": "Sesshaftigkeit nach Wohnviertel",
@@ -21638,13 +21795,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:32.3232",
+		"aktualisierungsdatum": "2019-01-25T22:10:41.4141",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (43%) und Bachletten (42%) sowie in den Gemeinden Riehen und Bettingen (je 43%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Vorstädte (28%), Altstadt Kleinbasel (27%) und Rosental (21%).",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz und Bachletten (je 42%) sowie in der Gemeinden Riehen (43%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (29%), Vorstädte (28%) und Rosental (20%).",
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"template": "map002",
 		"darstellungsart": "Karte kontinuierlich",
@@ -21653,10 +21810,12 @@ var indikatoren = [
 		"orderKey": "02_00_00_00_00_004",
 		"parentId": null,
 		"children": [
-			"6385"
+			"6385",
+			"6778"
 		],
 		"renderLink": [
-			"6385"
+			"6385",
+			"6778"
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -21717,24 +21876,24 @@ var indikatoren = [
 		"id": 6374
 	},
 	{
-		"title": "Unter 20-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
+		"title": "Personen unter 20 Jahre nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.06375",
 		"kuerzelKunde": "C1-1",
-		"description": "Unter 20-Jährige nach Wohnviertel",
+		"description": "Personen unter 20 Jahre nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:33.3333",
+		"aktualisierungsdatum": "2019-01-25T22:14:33.3333",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am niedrigsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung in den Wohnvierteln Altstadt Grossbasel, Vorstädte, Altstadt Kleinbasel (je 11%) und Clara (12%). Am höchsten ist der Anteil der Kinder und Jugendlichen in den Wohnvierteln Bruderholz (21%), Rosental (20%) und Kleinhüningen (20%) sowie in der Gemeinde Riehen (20%).",
+		"lesehilfe": "Am niedrigsten ist der Anteil der Personen unter 20 Jahre an der Gesamtbevölkerung in den Wohnvierteln Vorstädte, Altstadt Kleinbasel (je 11%) und Altstadt Grossbasel (12%). Am höchsten ist der Anteil der Kinder und Jugendlichen in den Wohnvierteln Bruderholz (22%), Hirzbrunnen, Kleinhüningen sowie in der Gemeinde Riehen ( je 20%).",
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
@@ -21742,12 +21901,8 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_001",
 		"parentId": null,
-		"children": [
-			"6387"
-		],
-		"renderLink": [
-			"6387"
-		],
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -21762,24 +21917,24 @@ var indikatoren = [
 		"id": 6375
 	},
 	{
-		"title": "Über 64-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
+		"title": "Personen über 64 Jahre nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.06376",
 		"kuerzelKunde": "C1-2",
-		"description": "Über 64-Jährige nach Wohnviertel",
+		"description": "Personen über 64 Jahre nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:33.3333",
+		"aktualisierungsdatum": "2019-01-25T22:15:23.2323",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am niedrigsten ist der Anteil der 65-Jährigen und Älteren an der Gesamtbevölkerung in den Wohnvierteln Rosental (9%), Matthäus (13%) und Klybeck (14%). Der höchste Anteil 65-Jähriger und Älterer weisen die Wohnviertel Vorstädte (24%), St. Alban (26%) und Hirzbrunnen (24%) sowie die Gemeinden Riehen (26%) und Bettingen (24%) auf. &nbsp;",
+		"lesehilfe": "Am niedrigsten ist der Anteil der 65-Jährigen und Älteren an der Gesamtbevölkerung in den Wohnvierteln Rosental (9%), Matthäus (13%) und Klybeck (14%). Die höchsten Anteile 65-Jähriger und Älterer weisen die Wohnviertel St. Alban (25%), Vorstädte (24%) und Hirzbrunnen (24%) sowie die Gemeinden Riehen (26%) und Bettingen (24%) auf.",
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
@@ -21988,7 +22143,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Ausländische Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.06381",
 		"kuerzelKunde": "C1-3",
 		"description": "Ausländische Bevölkerung nach Wohnviertel",
@@ -21998,13 +22153,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:33.3333",
+		"aktualisierungsdatum": "2019-01-25T22:16:51.5151",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2017 war der Ausländeranteil in den Wohnvierteln Rosental (56%), Matthäus (50%) und Klybeck (52%) am höchsten. Den niedrigsten Ausländeranteil wiesen die Wohnviertel Bruderholz (24%) und Bachletten (21%) sowie die Gemeinde Bettingen auf (24%). In den Wohnvierteln Klybeck und Kleinhüningen bildeteten die Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln sind es die Deutschen.",
+		"lesehilfe": "Ende 2018 war der Ausländeranteil in den Wohnvierteln Rosental (56%), Matthäus (51%) und Klybeck (52%) am höchsten. Den niedrigsten Ausländeranteil wiesen die Wohnviertel Bruderholz (25%) und Bachletten (22%) sowie die Gemeinde Bettingen auf (25%). In den Wohnvierteln Klybeck und  Kleinhüningen bildeteten die Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln sind es die Deutschen.",
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"template": "mappie002",
 		"darstellungsart": "Karte kontinuierlich",
@@ -22012,12 +22167,8 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_003",
 		"parentId": null,
-		"children": [
-			"6778"
-		],
-		"renderLink": [
-			"6778"
-		],
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -22170,7 +22321,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Sesshaftigkeit nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.06385",
 		"kuerzelKunde": "K1-4",
 		"description": "Sesshaftigkeit nach Wohnviertel",
@@ -22180,13 +22331,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:32.3232",
+		"aktualisierungsdatum": "2019-01-25T22:10:41.4141",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (43%) und Bachletten (42%) sowie in den Gemeinden Riehen und Bettingen (je 43%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Vorstädte (28%), Altstadt Kleinbasel (27%) und Rosental (21%).",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz und Bachletten (je 42%) sowie in der Gemeinden Riehen (43%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (29%), Vorstädte (28%) und Rosental (20%).",
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"template": "map002",
 		"darstellungsart": "Karte kategoriell",
@@ -27642,7 +27793,7 @@ var indikatoren = [
 		"title": "Quartierradar Altstadt Grossbasel",
 		"subtitle": "Ausgabe 2018",
 		"kuerzel": "I.02.1.6630",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "QR-01",
 		"description": "Quartierradar Altstadt Grossbasel",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -27650,15 +27801,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"aktualisierungsdatum": "2018-06-21T11:00:02.022",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Altstadt Grossbasel leben sehr viele Personen in Einpersonenhaushalten und der Anteil Personen ohne Religionszugehörigkeit ist hoch, ebenso die Gymnasialquote. Die Bausubstanz ist die älteste im ganzen Kanton. Die durchschnittliche Wohnfläche pro Einwohner ist gross. Ausserdem gibt es im Wohnviertel die zweitmeisten Arbeitsplätze pro Einwohner und die höchste Erwerbstätigenquote.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_001",
@@ -27668,17 +27820,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6630,
-		"darstellungsart": "Grafik"
+		"data-id": 6630,
+		"chart-id": 6630,
+		"filter": "",
+		"id": 6630
 	},
 	{
 		"title": "Quartierradar Vorstädte",
 		"subtitle": "Ausgabe 2018",
 		"kuerzel": "I.02.1.6631",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "QR-02",
 		"description": "Quartierradar Vorstädte",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -27686,15 +27841,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"aktualisierungsdatum": "2018-06-21T10:59:41.4141",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Vorstädte leben sehr viele Personen in Einpersonenhaushalten und der Anteil Personen ohne Religionszugehörigkeit ist hoch. Die Bausubstanz ist eine der ältesten im Kanton. Die durchschnittliche Wohnfläche pro Einwohner ist gross. Ausserdem verfügt das Wohnviertel über die meisten Arbeitsplätzen pro Kopf, eine hohe Erwerbstätigenquote sowie hohe Vermögens- und Einkommenssteuerwerte.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_002",
@@ -27704,17 +27860,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6631,
-		"darstellungsart": "Grafik"
+		"data-id": 6631,
+		"chart-id": 6631,
+		"filter": "",
+		"id": 6631
 	},
 	{
 		"title": "Quartierradar Am Ring",
 		"subtitle": "Ausgabe 2018",
 		"kuerzel": "I.02.1.6632",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "QR-03",
 		"description": "Quartierradar Am Ring",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -27722,15 +27881,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"aktualisierungsdatum": "2018-06-21T11:00:03.033",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Am Ring leben viele Personen ohne Religionszugehörigkeit und der Anteil Personen, die in Einpersonenhaushalten wohnen, ist hoch. Die Bausubstanz zählt zu den ältesten im Kanton. Ausserdem ist die Erwerbstätigenquote sehr hoch und die Arbeitslosenquote eher niedrig.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_003",
@@ -27740,17 +27900,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6632,
-		"darstellungsart": "Grafik"
+		"data-id": 6632,
+		"chart-id": 6632,
+		"filter": "",
+		"id": 6632
 	},
 	{
 		"title": "Quartierradar Breite",
 		"subtitle": "Ausgabe 2018",
 		"kuerzel": "I.02.1.6633",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "QR-04",
 		"description": "Quartierradar Breite",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -27758,15 +27921,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"aktualisierungsdatum": "2018-06-21T10:59:41.4141",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Beim Wohnviertel Breite sticht der Anteil Personen, die in Einpersonenhaushalten leben, etwas hervor, ebenso der Anteil Grünflächen und das mittlere Baujahr der Gebäude. Einfamilienhäuser gibt es wenige und die Wohnungen sind eher klein. Ausserdem weist das Wohnviertel bei den Arbeitsplätzen pro Kopf den geringsten Anteil auf.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_004",
@@ -27776,17 +27940,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6633,
-		"darstellungsart": "Grafik"
+		"data-id": 6633,
+		"chart-id": 6633,
+		"filter": "",
+		"id": 6633
 	},
 	{
 		"title": "Quartierradar St. Alban",
 		"subtitle": "Ausgabe 2018",
 		"kuerzel": "I.02.1.6634",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "QR-05",
 		"description": "Quartierradar St. Alban",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -27794,15 +27961,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"aktualisierungsdatum": "2018-06-21T10:59:42.4242",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Beim Wohnviertel St. Alban sticht der zweithöchste Altersquotient hervor, wobei der Jugendquotient auch im oberen Drittel rangiert. Die Wohnungen sind überdurchschnittlich gross, ebenso die Wohnfläche pro Kopf. Ausserdem zeichnet sich das Wohnviertel durch einen sehr hohen Anteil Arbeitsplätzen pro Einwohner aus. Ebenfalls hoch sind die Werte der Einkommens- und Vermögenssteuer.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_005",
@@ -27812,17 +27980,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6634,
-		"darstellungsart": "Grafik"
+		"data-id": 6634,
+		"chart-id": 6634,
+		"filter": "",
+		"id": 6634
 	},
 	{
 		"title": "Quartierradar Gundeldingen",
 		"subtitle": "Ausgabe 2018",
 		"kuerzel": "I.02.1.6635",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "QR-06",
 		"description": "Quartierradar Gundeldingen",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -27830,15 +28001,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"aktualisierungsdatum": "2018-06-21T10:59:42.4242",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Das Wohnviertel Gundeldingen verzeichnet einen hohen Ausländeranteil. Ausserdem leben dort viele Personen in Einpersonenhaushalten. Die Gymnasialquote ist die zweitniedrigste im Kanton. Einfamilienhäuser gibt es im Wohnviertel wenige. Die Erwerbstätigenquote hingegen ist hoch.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_006",
@@ -27848,17 +28020,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6635,
-		"darstellungsart": "Grafik"
+		"data-id": 6635,
+		"chart-id": 6635,
+		"filter": "",
+		"id": 6635
 	},
 	{
 		"title": "Quartierradar Bruderholz",
 		"subtitle": "Ausgabe 2018",
 		"kuerzel": "I.02.1.6636",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "QR-07",
 		"description": "Quartierradar Bruderholz",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -27866,15 +28041,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"aktualisierungsdatum": "2018-06-21T10:59:43.4343",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Das Wohnviertel Bruderholz hat einen geringen Anteil Ausländer und Sozialhilfeempfänger. Sowohl der Jugend- als auch der Altersquotient sind sehr hoch und die Sesshaftigkeit ist ausgeprägt. Der Anteil Grünflächen ist gross und es gibt viele Einfamilienhäuser sowie grosse Wohnungen. Ausserdem sind die Erträge aus Vermögens- und Einkommenssteuer die höchsten im ganzen Kanton.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_007",
@@ -27884,17 +28060,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6636,
-		"darstellungsart": "Grafik"
+		"data-id": 6636,
+		"chart-id": 6636,
+		"filter": "",
+		"id": 6636
 	},
 	{
 		"title": "Quartierradar Bachletten",
 		"subtitle": "Ausgabe 2018",
 		"kuerzel": "I.02.1.6637",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "QR-08",
 		"description": "Quartierradar Bachletten",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -27902,15 +28081,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"aktualisierungsdatum": "2018-06-21T10:59:43.4343",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Bachletten wohnen anteilsmässig die wenigsten Ausländer. Die Sesshaftigkeit ist stark ausgeprägt und die Gymnasialquote die höchste im Kanton. Das Wohnviertel hat einen hohen Anteil Einfamilienhäusern und Grünflächen. Ausserdem ist die Erwerbstätigenquote im Wohnviertel hoch, die Anzahl Arbeitsplätze pro Kopf dagegen gering.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_008",
@@ -27920,17 +28100,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6637,
-		"darstellungsart": "Grafik"
+		"data-id": 6637,
+		"chart-id": 6637,
+		"filter": "",
+		"id": 6637
 	},
 	{
 		"title": "Quartierradar Gotthelf",
 		"subtitle": "Ausgabe 2018",
 		"kuerzel": "I.02.1.6638",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "QR-09",
 		"description": "Quartierradar Gotthelf",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -27938,15 +28121,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"aktualisierungsdatum": "2018-06-21T10:59:44.4444",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Beim Wohnviertel Gotthelf sticht der Anteil der Personen, die in Einpersonenhaushalten leben, etwas hervor. Auch der Anteil Personen ohne Religionszugehörigkeit und die Gymnasialquote liegen im oberen Drittel. Das Wohnviertel verfügt über einen relativ grossen Anteil Einfamilienhäuser und Grünflächen sowie eine alte Bausubstanz. Die Erwerbstätigenquote ist relativ hoch.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_009",
@@ -27956,17 +28140,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6638,
-		"darstellungsart": "Grafik"
+		"data-id": 6638,
+		"chart-id": 6638,
+		"filter": "",
+		"id": 6638
 	},
 	{
 		"title": "Quartierradar Iselin",
 		"subtitle": "Ausgabe 2018",
 		"kuerzel": "I.02.1.6639",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "QR-10",
 		"description": "Quartierradar Iselin",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -27974,15 +28161,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"aktualisierungsdatum": "2018-06-21T10:59:44.4444",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Iselin sticht der hohe Anteil Sozialhilfeempfänger hervor. Personen ohne Religionszugehörigkeit leben wenige im Wohnviertel. Der Anteil Grünflächen ist ausgeprägt. Die durchschnittliche Fläche pro Wohnung gehört mit zu den geringsten im Kanton. Ausserdem verfügt das Wohnviertel über wenige Arbeitsplätze pro Kopf sowie eine geringe Erwerbstätigenquote.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_010",
@@ -27992,17 +28180,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6639,
-		"darstellungsart": "Grafik"
+		"data-id": 6639,
+		"chart-id": 6639,
+		"filter": "",
+		"id": 6639
 	},
 	{
 		"title": "Quartierradar St. Johann",
 		"subtitle": "Ausgabe 2018",
 		"kuerzel": "I.02.1.6640",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "QR-11",
 		"description": "Quartierradar St. Johann",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -28010,15 +28201,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"aktualisierungsdatum": "2018-06-21T10:59:45.4545",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Das Wohnviertel St. Johann verzeichnet einen hohen Anteil Ausländer und Sozialhilfeempfänger. Der Altersquotient ist niedrig. Die Wohnfläche pro Wohnung und die Wohnfläche pro Kopf sind vergleichsweise gering. Der Anteil Einfamilienhäuser sticht etwas hervor. Die Erwerbstätigenquote ist tief, ebenso die Erträge aus der Einkommenssteuer.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_011",
@@ -28028,17 +28220,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6640,
-		"darstellungsart": "Grafik"
+		"data-id": 6640,
+		"chart-id": 6640,
+		"filter": "",
+		"id": 6640
 	},
 	{
 		"title": "Quartierradar Altstadt Kleinbasel",
 		"subtitle": "Ausgabe 2018",
 		"kuerzel": "I.02.1.6641",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "QR-12",
 		"description": "Quartierradar Altstadt Kleinbasel",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -28046,15 +28241,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"aktualisierungsdatum": "2018-06-21T10:59:45.4545",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Altstadt Kleinbasel leben die meisten Personen ohne Religionszugehörigkeit und der Anteil Personen, die in Einpersonenhaushalten wohnen, ist der höchste. Der Jugendquotient ist der zweitniedrigste im ganzen Kanton. Die Bausubstanz ist sehr alt und der Anteil Grünflächen gering. Ausserdem verfügt das Wohnviertel über einen relativ hohen Anteil Arbeitsplätzen pro Kopf sowie eine hohe Arbeitslosenquote.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_012",
@@ -28064,11 +28260,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6641,
-		"darstellungsart": "Grafik"
+		"data-id": 6641,
+		"chart-id": 6641,
+		"filter": "",
+		"id": 6641
 	},
 	{
 		"title": "Ausländeranteil",
@@ -32036,7 +32235,7 @@ var indikatoren = [
 		"title": "Quartierradar Clara",
 		"subtitle": "Ausgabe 2018",
 		"kuerzel": "I.02.1.6751",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "QR-13",
 		"description": "Quartierradar Clara",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -32044,15 +32243,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"aktualisierungsdatum": "2018-06-21T10:59:46.4646",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Das Wohnviertel Clara verzeichnet einen hohen Anteil Ausländer und Sozialhilfeempfänger. Der Jugendquotient und die Gymnasialquote sind niedrig. Der Anteil Einfamilienhäusern ist der niedrigste im ganzen Kanton. Ausserdem ist die Erwerbstätigenquote sehr gering. Die Arbeitslosenquote hingegen liegt im oberen Drittel.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_013",
@@ -32062,17 +32262,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6751,
-		"darstellungsart": "Grafik"
+		"data-id": 6751,
+		"chart-id": 6751,
+		"filter": "",
+		"id": 6751
 	},
 	{
 		"title": "Quartierradar Wettstein",
 		"subtitle": "Ausgabe 2018",
 		"kuerzel": "I.02.1.6752",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "QR-14",
 		"description": "Quartierradar Wettstein",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -32080,15 +32283,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:38.3838",
+		"aktualisierungsdatum": "2018-06-21T10:59:46.4646",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Wettstein ist der Anteil Personen ohne Religionszugehörigkeit einer der höchsten im ganzen Kanton. Die Sesshaftigkeit ist ausgeprägt und die Gymnasialquote hoch. Der Jugendquotient und der Anteil Ausländer sind dagegen niedrig. Die Wohnungen sind im Durchschnitt relativ gross. Ausserdem verzeichnet das Wohnviertel einen hohen Anteil Arbeitsplätze pro Kopf sowie eine sehr hohe Erwerbstätigenquote.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_014",
@@ -32098,17 +32302,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6752,
-		"darstellungsart": "Grafik"
+		"data-id": 6752,
+		"chart-id": 6752,
+		"filter": "",
+		"id": 6752
 	},
 	{
 		"title": "Quartierradar Hirzbrunnen",
 		"subtitle": "Ausgabe 2018",
 		"kuerzel": "I.02.1.6753",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "QR-15",
 		"description": "Quartierradar Hirzbrunnen",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -32116,15 +32323,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:38.3838",
+		"aktualisierungsdatum": "2018-06-21T10:59:47.4747",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Hirzbrunnen ist die Sesshaftigkeit ausgeprägt. Ebenfalls mit zu den höchsten Werten im Kanton zählen sowohl der Jugend- als auch der Altersquotient. Dagegen leben wenige Personen in Einpersonenhaushalten und auch der Ausländeranteil ist gering. Das Wohnviertel zeichnet sich durch einen hohen Anteil Grünflächen und Einfamilienhäusern aus. Ausserdem verzeichnet das Wohnviertel eine Erwerbstätigenquote und einen Anteil Arbeitsplätzen pro Kopf, die im unteren Mittelfeld liegen, ebenso wie die Arbeitslosenquote und die Steuererträge.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_015",
@@ -32134,17 +32342,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6753,
-		"darstellungsart": "Grafik"
+		"data-id": 6753,
+		"chart-id": 6753,
+		"filter": "",
+		"id": 6753
 	},
 	{
 		"title": "Quartierradar Rosental",
 		"subtitle": "Ausgabe 2018",
 		"kuerzel": "I.02.1.6754",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "QR-16",
 		"description": "Quartierradar Rosental",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -32152,15 +32363,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:38.3838",
+		"aktualisierungsdatum": "2018-06-21T10:59:47.4747",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Rosental sind die Einwohner am wenigsten sesshaft. Der Altersquotient ist der tiefste im ganzen Kanton, der Anteil Ausländer dagegen der höchste. Das Wohnviertel weist einen niedrigen Anteil Einfamilienhäusern aus und verfügt mit der Erlenmatt-Siedlung über relativ viele Neubauten. Ausserdem verzeichnet das Wohnviertel eine der höchsten Arbeitslosenquoten. Die Steuererträge sind vergleichsweise gering.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_016",
@@ -32170,17 +32382,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6754,
-		"darstellungsart": "Grafik"
+		"data-id": 6754,
+		"chart-id": 6754,
+		"filter": "",
+		"id": 6754
 	},
 	{
 		"title": "Quartierradar Matthäus",
 		"subtitle": "Ausgabe 2018",
 		"kuerzel": "I.02.1.6755",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "QR-17",
 		"description": "Quartierradar Matthäus",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -32188,15 +32403,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:38.3838",
+		"aktualisierungsdatum": "2018-06-21T10:59:48.4848",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Das Wohnviertel Matthäus verzeichnet einen hohen Anteil Ausländer und Sozialhilfeempfänger. Der Altersquotient ist der zweitniedrigste im Kanton. Die Wohnungen gehören zu den kleinsten im Kantonsgebiet, die Wohnfläche pro Kopf ist ebenso wie der Anteil Einfamilienhäuser tief. Das Wohnviertel weist wenige Arbeitsplätze pro Kopf und geringe Steuererträge auf. Die Arbeitslosenquote ist eine der höchsten im Kanton.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_017",
@@ -32206,17 +32422,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6755,
-		"darstellungsart": "Grafik"
+		"data-id": 6755,
+		"chart-id": 6755,
+		"filter": "",
+		"id": 6755
 	},
 	{
 		"title": "Quartierradar Klybeck",
 		"subtitle": "Ausgabe 2018",
 		"kuerzel": "I.02.1.6756",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "QR-18",
 		"description": "Quartierradar Klybeck",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -32224,15 +32443,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:38.3838",
+		"aktualisierungsdatum": "2018-06-21T10:59:48.4848",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Das Wohnviertel Klybeck verzeichnet den höchsten Anteil Sozialhilfeempfänger und einen hohen Ausländeranteil. Altersquotient und Anteil Personen ohne Religionszugehörigkeit sind dagegen niedrig. Die Wohnungen und die Wohnfläche pro Kopf sind die kleinsten im Kanton. Das Wohnviertel weist die niedrigsten Steuererträge und die geringste Erwerbstätigenquote auf. Die Arbeitslosenquote ist die höchste im Kanton.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_018",
@@ -32242,17 +32462,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6756,
-		"darstellungsart": "Grafik"
+		"data-id": 6756,
+		"chart-id": 6756,
+		"filter": "",
+		"id": 6756
 	},
 	{
 		"title": "Quartierradar Kleinhüningen",
 		"subtitle": "Ausgabe 2018",
 		"kuerzel": "I.02.1.6757",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "QR-19",
 		"description": "Quartierradar Kleinhüningen",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -32260,15 +32483,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:38.3838",
+		"aktualisierungsdatum": "2018-06-21T10:59:49.4949",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Beim Wohnviertel Kleinhüningen sticht der zweithöchste Anteil Sozialhilfeempfänger hervor. Der Anteil Personen ohne Religionszugehörigkeit ist dagegen der niedrigste im Kanton. Die Bauten im Wohnviertel sind neueren Datums, die Wohnfläche pro Kopf eine der kleinsten im Kanton. Ausserdem verzeichnet das Wohnviertel eine der höchsten Arbeitslosenquoten und die Steuererträge gehören mit zu den niedrigsten im Kanton.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_019",
@@ -32278,17 +32502,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6757,
-		"darstellungsart": "Grafik"
+		"data-id": 6757,
+		"chart-id": 6757,
+		"filter": "",
+		"id": 6757
 	},
 	{
 		"title": "Quartierradar Riehen",
 		"subtitle": "Ausgabe 2018",
 		"kuerzel": "I.02.1.6758",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "QR-20",
 		"description": "Quartierradar Riehen",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -32296,15 +32523,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:38.3838",
+		"aktualisierungsdatum": "2018-06-21T10:59:49.4949",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Alters- und der Jugendquotient sowie der Anteil Sesshafter sind in der Gemeinde Riehen stark ausgeprägt. Der Anteil Einpersonenhaushalte dagegen ist gering. Die Gemeinde verfügt über einen hohen Anteil Grünflächen und Einfamilienhäusern sowie grosse Wohnungen und viel Wohnfläche pro Kopf. Ausserdem liegen die Erträge aus Einkommens- und Vermögenssteuer im oberen Drittel.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_020",
@@ -32314,17 +32542,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6758,
-		"darstellungsart": "Grafik"
+		"data-id": 6758,
+		"chart-id": 6758,
+		"filter": "",
+		"id": 6758
 	},
 	{
 		"title": "Quartierradar Bettingen",
 		"subtitle": "Ausgabe 2018",
 		"kuerzel": "I.02.1.6759",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "QR-21",
 		"description": "Quartierradar Bettingen",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -32332,15 +32563,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-14T09:46:38.3838",
+		"aktualisierungsdatum": "2018-06-21T10:59:50.5050",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Alters- und der Jugendquotient sowie der Anteil Sesshafter sind in der Gemeinde Bettingen stark ausgeprägt. Der Anteil Sozialhilfeempfänger und der Anteil Einpersonenhaushalte sind der tiefste im ganzen Kanton. Bettingen verfügt über den grössten Grünflächen- und Einfamilienhausanteil sowie die grössten Wohnungen und die meiste Wohnfläche pro Kopf. Ausserdem ist die Arbeitslosenquote niedrig.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_021",
@@ -32350,11 +32582,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6759,
-		"darstellungsart": "Grafik"
+		"data-id": 6759,
+		"chart-id": 6759,
+		"filter": "",
+		"id": 6759
 	},
 	{
 		"title": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
@@ -32470,6 +32705,126 @@ var indikatoren = [
 		"chart-id": 6778,
 		"filter": "",
 		"id": 6778
+	},
+	{
+		"title": "Alterspyramide nach Geschlecht und Heimat",
+		"subtitle": "Altstadt Grossbasel, 2017",
+		"kuerzel": "I.01.1.06893",
+		"kuerzelKunde": "GS-01.D",
+		"description": "Alterspyramide nach Geschlecht und Heimat",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:21:26.2626",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Bevölkerungspyramide",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Altstadt Grossbasel mehr Männer als Frauen. Der Anteil der 50-Jährigen ist sowohl bei den Männern als auch bei den Frauen höher.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_01_01_00_00_001",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6893,
+		"chart-id": 6893,
+		"filter": "1",
+		"id": 6893
+	},
+	{
+		"title": "Alterspyramide nach Geschlecht und Heimat",
+		"subtitle": "Vorstädte, 2017",
+		"kuerzel": "I.01.1.06894",
+		"kuerzelKunde": "GS-02.D",
+		"description": "Alterspyramide nach Geschlecht und Heimat",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:49:07.077",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Bevölkerungspyramide",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Wohnviertel Vorstädte ist der Anteil der über 70-Jährigen im Vergleich zur Bevölkerung des Gesamtkantons relativ hoch.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_01_01_00_00_002",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6893,
+		"chart-id": 6893,
+		"filter": "2",
+		"id": 6894
+	},
+	{
+		"title": "Alterspyramide nach Geschlecht und Heimat",
+		"subtitle": "Am Ring, 2017",
+		"kuerzel": "I.01.1.06895",
+		"kuerzelKunde": "GS-03.D",
+		"description": "Alterspyramide nach Geschlecht und Heimat",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:49:06.066",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Bevölkerungspyramide",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im  Wohnviertel am Ring mehr jüngere Männer. Ansonsten ist die Altersverteilung ähnlich wie diejenige des Gesamtkantons.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_01_01_00_00_003",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6893,
+		"chart-id": 6893,
+		"filter": "3",
+		"id": 6895
 	},
 	{
 		"title": "Zusammensetzung der Gesamteinnahmen",
@@ -33084,6 +33439,2410 @@ var indikatoren = [
 		"id": 6912
 	},
 	{
+		"title": "Alterspyramide nach Geschlecht und Heimat",
+		"subtitle": "Breite, 2017",
+		"kuerzel": "I.01.1.06915",
+		"kuerzelKunde": "GS-04.D",
+		"description": "Alterspyramide nach Geschlecht und Heimat",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:49:05.055",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Bevölkerungspyramide",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Breite vor allem die weibliche Bevölkerung etwas älter.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_01_01_00_00_004",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6893,
+		"chart-id": 6893,
+		"filter": "4",
+		"id": 6915
+	},
+	{
+		"title": "Alterspyramide nach Geschlecht und Heimat",
+		"subtitle": "St. Alban, 2017",
+		"kuerzel": "I.01.1.06916",
+		"kuerzelKunde": "GS-05.D",
+		"description": "Alterspyramide nach Geschlecht und Heimat",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:49:05.055",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Bevölkerungspyramide",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons verjüngt sich jene des Wohnviertels St. Alban nach oben weniger, somit ist die Bevölkerung älter.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_01_01_00_00_005",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6893,
+		"chart-id": 6893,
+		"filter": "5",
+		"id": 6916
+	},
+	{
+		"title": "Alterspyramide nach Geschlecht und Heimat",
+		"subtitle": "Gundeldingen, 2017",
+		"kuerzel": "I.01.1.06917",
+		"kuerzelKunde": "GS-06.D",
+		"description": "Alterspyramide nach Geschlecht und Heimat",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:49:04.044",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Bevölkerungspyramide",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Gundeldingen die Gruppe der 20- bis 45-Jährigen stärker vertreten. Nach oben verläuft die Pyramide spitzer.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_01_01_00_00_006",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6893,
+		"chart-id": 6893,
+		"filter": "6",
+		"id": 6917
+	},
+	{
+		"title": "Alterspyramide nach Geschlecht und Heimat",
+		"subtitle": "Bruderholz, 2017",
+		"kuerzel": "I.01.1.06918",
+		"kuerzelKunde": "GS-07.D",
+		"description": "Alterspyramide nach Geschlecht und Heimat",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:49:04.044",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Bevölkerungspyramide",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Bruderholz viele Kinder und Jugendliche. Auch die Gruppe zwischen 40 und 50 Jahren ist grösser als im Gesamtkanton. Diese Struktur spiegelt den hohen Anteil von Familien im Wohnviertel wider.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_01_01_00_00_007",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6893,
+		"chart-id": 6893,
+		"filter": "7",
+		"id": 6918
+	},
+	{
+		"title": "Alterspyramide nach Geschlecht und Heimat",
+		"subtitle": "Bachletten, 2017",
+		"kuerzel": "I.01.1.06919",
+		"kuerzelKunde": "GS-08.D",
+		"description": "Alterspyramide nach Geschlecht und Heimat",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:49:03.033",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Bevölkerungspyramide",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Bachletten der Anteil der 50- bis 59-Jährigen relativ hoch. Ausländerinnen und Ausländer wohnen seltener im Wohnviertel.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_01_01_00_00_008",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6893,
+		"chart-id": 6893,
+		"filter": "8",
+		"id": 6919
+	},
+	{
+		"title": "Alterspyramide nach Geschlecht und Heimat",
+		"subtitle": "Gotthelf, 2017",
+		"kuerzel": "I.01.1.06920",
+		"kuerzelKunde": "GS-09.D",
+		"description": "Alterspyramide nach Geschlecht und Heimat",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:49:03.033",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Bevölkerungspyramide",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Gotthelf die Bevölkerung zwischen 30 und 39 Jahren weniger stark vertreten.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_01_01_00_00_009",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6893,
+		"chart-id": 6893,
+		"filter": "9",
+		"id": 6920
+	},
+	{
+		"title": "Alterspyramide nach Geschlecht und Heimat",
+		"subtitle": "Iselin, 2017",
+		"kuerzel": "I.01.1.06921",
+		"kuerzelKunde": "GS-10.D",
+		"description": "Alterspyramide nach Geschlecht und Heimat",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:49:02.022",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Bevölkerungspyramide",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Bevölkerungspyramide des Wohnviertels Iselin weicht kaum von jener des Gesamtkantons ab. Die grösste Gruppe ist die Bevölkerung zwischen 25 und 29 Jahren. Nach oben nimmt die Pyramide bei den Männern stärker ab als bei den Frauen.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_01_01_00_00_010",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6893,
+		"chart-id": 6893,
+		"filter": "10",
+		"id": 6921
+	},
+	{
+		"title": "Alterspyramide nach Geschlecht und Heimat",
+		"subtitle": "St. Johann, 2017",
+		"kuerzel": "I.01.1.06922",
+		"kuerzelKunde": "GS-11.D",
+		"description": "Alterspyramide nach Geschlecht und Heimat",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:49:02.022",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Bevölkerungspyramide",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons läuft jene für das Wohnviertel St. Johann  nach oben spitzer zu. Die Bevölkerung ist  somit insgesamt etwas jünger. Der Ausländeranteil ist höher als im Gesamtkanton.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_01_01_00_00_011",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6893,
+		"chart-id": 6893,
+		"filter": "11",
+		"id": 6922
+	},
+	{
+		"title": "Alterspyramide nach Geschlecht und Heimat",
+		"subtitle": "Altstadt Kleinbasel, 2017",
+		"kuerzel": "I.01.1.06923",
+		"kuerzelKunde": "GS-12.D",
+		"description": "Alterspyramide nach Geschlecht und Heimat",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:49:01.011",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Bevölkerungspyramide",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Altstadt Kleinbasel der Anteil der Bevölkerung im Erwerbsalter (20 bis 64 Jahre) hoch.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_01_01_00_00_012",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6893,
+		"chart-id": 6893,
+		"filter": "12",
+		"id": 6923
+	},
+	{
+		"title": "Alterspyramide nach Geschlecht und Heimat",
+		"subtitle": "Clara, 2017",
+		"kuerzel": "I.01.1.06924",
+		"kuerzelKunde": "GS-13.D",
+		"description": "Alterspyramide nach Geschlecht und Heimat",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:49:01.011",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Bevölkerungspyramide",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zur Bevölkerungs des Gesamtkantons leben im Wohnviertel Clara mehr Männer als Frauen im erwerbsfähigen Alter. Ab 80 Jahren ist der Anteil der Frauen höher als jener der Männer.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_01_01_00_00_013",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6893,
+		"chart-id": 6893,
+		"filter": "13",
+		"id": 6924
+	},
+	{
+		"title": "Alterspyramide nach Geschlecht und Heimat",
+		"subtitle": "Wettstein, 2017",
+		"kuerzel": "I.01.1.06925",
+		"kuerzelKunde": "GS-14.D",
+		"description": "Alterspyramide nach Geschlecht und Heimat",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:49:00.000",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Bevölkerungspyramide",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Wettstein der Anteil der ausländischen Staatsangehörigen bei den Kindern und Jugendlichen niedrig.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_01_01_00_00_014",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6893,
+		"chart-id": 6893,
+		"filter": "14",
+		"id": 6925
+	},
+	{
+		"title": "Alterspyramide nach Geschlecht und Heimat",
+		"subtitle": "Hirzbrunnen, 2017",
+		"kuerzel": "I.01.1.06926",
+		"kuerzelKunde": "GS-15.D",
+		"description": "Alterspyramide nach Geschlecht und Heimat",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:49:00.000",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Bevölkerungspyramide",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons läuft jene des Wohnviertels Hirzbrunnen nach oben weniger spitz zu. Die Bevölkerung ist daher älter. Der Anteil der Kinder ist höher als im Gesamtkanton.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_01_01_00_00_015",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6893,
+		"chart-id": 6893,
+		"filter": "15",
+		"id": 6926
+	},
+	{
+		"title": "Alterspyramide nach Geschlecht und Heimat",
+		"subtitle": "Rosental, 2017",
+		"kuerzel": "I.01.1.06927",
+		"kuerzelKunde": "GS-16.D",
+		"description": "Alterspyramide nach Geschlecht und Heimat",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:59.5959",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Bevölkerungspyramide",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons läuft jene des Wohnviertels Rosental  nach oben hin spitzer zu. Die Bevölkerung ist somit jünger. Der Anteil der ausländischen Bevölkerung ist grösser als im Gesamtkanton.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_01_01_00_00_016",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6893,
+		"chart-id": 6893,
+		"filter": "16",
+		"id": 6927
+	},
+	{
+		"title": "Alterspyramide nach Geschlecht und Heimat",
+		"subtitle": "Matthäus, 2017",
+		"kuerzel": "I.01.1.06928",
+		"kuerzelKunde": "GS-17.D",
+		"description": "Alterspyramide nach Geschlecht und Heimat",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:59.5959",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Bevölkerungspyramide",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons läuft jene des Wohnviertels Matthäus etwas spitzer nach oben zu, und die Bevölkerung ist somit etwas jünger. Die Bevölkerungsgruppe zwischen 25 und 34 Jahren ist insbesondere bei den Frauen sehr stark vertreten.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_01_01_00_00_017",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6893,
+		"chart-id": 6893,
+		"filter": "17",
+		"id": 6928
+	},
+	{
+		"title": "Alterspyramide nach Geschlecht und Heimat",
+		"subtitle": "Klybeck, 2017",
+		"kuerzel": "I.01.1.06929",
+		"kuerzelKunde": "GS-18.D",
+		"description": "Alterspyramide nach Geschlecht und Heimat",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:58.5858",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Bevölkerungspyramide",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons sind im Wohnviertel Klybeck Personen im Erwerbsalter zwischen 20 und 64 Jahren stärker vertreten. Die ältere Bevölkerung ist dagegen schwächer repräsentiert. Der Anteil der ausländischen Bevölkerung ist grösser als im Gesamtkanton.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_01_01_00_00_018",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6893,
+		"chart-id": 6893,
+		"filter": "18",
+		"id": 6929
+	},
+	{
+		"title": "Alterspyramide nach Geschlecht und Heimat",
+		"subtitle": "Kleinhüningen, 2017",
+		"kuerzel": "I.01.1.06930",
+		"kuerzelKunde": "GS-19.D",
+		"description": "Alterspyramide nach Geschlecht und Heimat",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:58.5858",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Bevölkerungspyramide",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons sind die Altersstrukturen der weiblichen und der männlichen Bevölkerung im Wohnviertel Kleinhüningen sehr unterschiedlich. Bei den Frauen sind die Fünfjahresgruppen zwischen 35 und 64 Jahren jeweils ähnlich gross. Bei den Männern zeigen sich hingegen deutliche Unterschiede. Die 55- bis 59-Jährigen sind wesentlich zahlreicher als die 40- bis 44-Jährigen.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_01_01_00_00_018",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6893,
+		"chart-id": 6893,
+		"filter": "19",
+		"id": 6930
+	},
+	{
+		"title": "Alterspyramide nach Geschlecht und Heimat",
+		"subtitle": "Riehen, 2017",
+		"kuerzel": "I.01.1.06931",
+		"kuerzelKunde": "GS-20.D",
+		"description": "Alterspyramide nach Geschlecht und Heimat",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Gemeinde"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:57.5757",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Bevölkerungspyramide",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons sind in der Gemeinde Riehen Kinder und Jugendliche stärker vertreten. Auch die Gruppe der Personen zwischen 45 und 59 Jahren wohnt anteilsmässig häufiger in Riehen als im Gesamtkanton. Diese Struktur spiegelt den hohen Anteil von Familien in der Gemeinde wider.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_01_01_00_00_020",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6893,
+		"chart-id": 6893,
+		"filter": "20",
+		"id": 6931
+	},
+	{
+		"title": "Alterspyramide nach Geschlecht und Heimat",
+		"subtitle": "Bettingen, 2017",
+		"kuerzel": "I.01.1.06932",
+		"kuerzelKunde": "GS-21.D",
+		"description": "Alterspyramide nach Geschlecht und Heimat",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Gemeinde"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:57.5757",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Bevölkerungspyramide",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons fällt bei der Gemeinde Bettingen auf, dass die Bevölkerungsgruppe der 45-Jährigen und Älteren derart stark vertreten ist, dass die Abbildung kaum mehr einer Pyramide ähnelt.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_01_01_00_00_021",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6893,
+		"chart-id": 6893,
+		"filter": "30",
+		"id": 6932
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "Altstadt Grossbasel",
+		"kuerzel": "I.01.1.06933",
+		"kuerzelKunde": "GS-01.C",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:56.5656",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Staatsangehörigkeit",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Altstadt Grossbasel mehr Franzosen, Briten und US-Amerikaner. Letztere haben in keinem anderen Wohnviertel einen so hohen Anteil. Personen aus den Balkanländern und aus Indien sind weniger vertreten als im kantonalen Durchschnitt.",
+		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_02_02_00_00_001",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6933,
+		"chart-id": 6933,
+		"filter": "1",
+		"id": 6933
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "Vorstädte",
+		"kuerzel": "I.01.1.06935",
+		"kuerzelKunde": "GS-02.C",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:55.5555",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Staatsangehörigkeit",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Vorstädte weniger Türken und Personen aus den Balkanländern. US-Amerikaner, Briten und Franzosen sind stärker vertreten.",
+		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_02_02_00_00_002",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6933,
+		"chart-id": 6933,
+		"filter": "2",
+		"id": 6935
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "Am Ring",
+		"kuerzel": "I.01.1.06936",
+		"kuerzelKunde": "GS-03.C",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:55.5555",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Staatsangehörigkeit",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Am Ring weniger Türken. Wie im Gesamtkanton stellen die Deutschen die grösste Bevölkerungsgruppe dar.",
+		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_02_02_00_00_003",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6933,
+		"chart-id": 6933,
+		"filter": "3",
+		"id": 6936
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "Breite",
+		"kuerzel": "I.01.1.06937",
+		"kuerzelKunde": "GS-04.C",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:55.5555",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Staatsangehörigkeit",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Anteil Personen mit polnischer Staatsbürgerschaft ist im Wohnviertel Breite höher als im  kantonalen Durchschnitt. Kleiner fallen hingegen die Anteile bei den US-Amerikanern, Briten, Franzosen und Deutschen aus. Letztere bilden - wie im gesamten Kanton - die grösste ausländische Bevölkerungsgruppe im Wohnviertel.",
+		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_02_02_00_00_004",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6933,
+		"chart-id": 6933,
+		"filter": "4",
+		"id": 6937
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "St. Alban",
+		"kuerzel": "I.01.1.06938",
+		"kuerzelKunde": "GS-05.C",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:54.5454",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Staatsangehörigkeit",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im  Wohnviertel St. Alban mehr Franzosen, Briten und US-Amerikaner. Personen aus den Balkanländern sind hingegen vergleichsweise weniger vertreten.",
+		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_02_02_00_00_005",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6933,
+		"chart-id": 6933,
+		"filter": "5",
+		"id": 6938
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "Gundeldingen",
+		"kuerzel": "I.01.1.06939",
+		"kuerzelKunde": "GS-06.C",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:54.5454",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Staatsangehörigkeit",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Wohnviertel Gundeldingen wohnen im Vergleich zum kantonalen Durchschnitt mehr Türken und Personen aus den Balkanländern. Unterdurchschnittlich vertreten sind hingegen US-Amerikaner.",
+		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_02_02_00_00_006",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6933,
+		"chart-id": 6933,
+		"filter": "6",
+		"id": 6939
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "Bruderholz",
+		"kuerzel": "I.01.1.06940",
+		"kuerzelKunde": "GS-07.C",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:53.5353",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Staatsangehörigkeit",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zum gesamten Kanton wohnen im Wohnviertel Bruderholz überdurchschnittlich viele Schweizer, die Anteile anderer Staatsangehörigkeiten fallen kleiner aus. Die Deutschen bilden die grösste ausländische Bevölkerungsgruppe, gefolgt von den Briten, Franzosen und US-Amerikanern.",
+		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_02_02_00_00_007",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6933,
+		"chart-id": 6933,
+		"filter": "7",
+		"id": 6940
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "Bachletten",
+		"kuerzel": "I.01.1.06941",
+		"kuerzelKunde": "GS-08.C",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:53.5353",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Staatsangehörigkeit",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Anteil Schweizer ist im Wohnviertel Bachletten innerhalb des Kantons am grössten, die Anteile anderer Staatsangehörigkeiten fallen vergleichsweise kleiner aus. Die grösste ausländische Bevölkerungsgruppe bilden die Deutschen, gefolgt von den Italienern, Briten und Franzosen.",
+		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_02_02_00_00_008",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6933,
+		"chart-id": 6933,
+		"filter": "8",
+		"id": 6941
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "Gotthelf",
+		"kuerzel": "I.01.1.06942",
+		"kuerzelKunde": "GS-09.C",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:52.5252",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Staatsangehörigkeit",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Gotthelf weniger Türken und  Personen aus den Balkanländern. Wie im Gesamtkanton stellen die Deutschen die grösste Bevölkerungsgruppe dar.",
+		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_02_02_00_00_009",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6933,
+		"chart-id": 6933,
+		"filter": "9",
+		"id": 6942
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "Iselin",
+		"kuerzel": "I.01.1.06943",
+		"kuerzelKunde": "GS-10.C",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:52.5252",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Staatsangehörigkeit",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Anteil Deutscher ist im Wohnviertel Iselin geringer als im kantonalen Durchschnitt. Überdurchschnittlich vertreten sind hingegen die  Italiener, Türken, Spanier und Portugiesen.",
+		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_02_02_00_00_010",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6933,
+		"chart-id": 6933,
+		"filter": "10",
+		"id": 6943
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "St. Johann",
+		"kuerzel": "I.01.1.06944",
+		"kuerzelKunde": "GS-11.C",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:51.5151",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Staatsangehörigkeit",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Wohnviertel St. Johann wohnen mehr Portugiesen, Spanier, Türken und Sri Lanker und etwas weniger Deutsche, Franzosen und Briten als im kantonalen Durchschnitt.",
+		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_02_02_00_00_011",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6933,
+		"chart-id": 6933,
+		"filter": "11",
+		"id": 6944
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "Altstadt Kleinbasel",
+		"kuerzel": "I.01.1.06945",
+		"kuerzelKunde": "TG-GS-AB-12",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Staatsangehörigkeit",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Altstadt Kleinbasel weniger Türken und Portugiesen. Der Anteil Österreicher ist innerhalb des Kantons am grössten. Zu berücksichtigen ist, dass das Wohnviertel insgesamt eine im kantonalen Vergleich sehr tiefe Einwohnerzahl hat.",
+		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_02_02_00_00_012",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6933,
+		"chart-id": 6933,
+		"filter": "12",
+		"id": 6945
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "Clara",
+		"kuerzel": "I.01.1.06946",
+		"kuerzelKunde": "GS-13.C",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:51.5151",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Staatsangehörigkeit",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zum kantonalen Durschnitt wohnen im Wohnviertel Clara mehr Inder, Italiener, Spanier und Personen aus den Balkanländern. Unterdurschnittlich vertreten sind Deutsche und Briten.",
+		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_02_02_00_00_013",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6933,
+		"chart-id": 6933,
+		"filter": "13",
+		"id": 6946
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "Wettstein",
+		"kuerzel": "I.01.1.06947",
+		"kuerzelKunde": "GS-14.C",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:50.5050",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Staatsangehörigkeit",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Wettstein weniger Türken und Personen aus den Balkanländern. Wie auch im Kanton stellen im Wohnviertel die Deutschen die grösste ausländische Bevölkerungsgruppe dar.",
+		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_02_02_00_00_014",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6933,
+		"chart-id": 6933,
+		"filter": "14",
+		"id": 6947
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "Hirzbrunnen",
+		"kuerzel": "I.01.1.06948",
+		"kuerzelKunde": "GS-15.C",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:50.5050",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Staatsangehörigkeit",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das Wohnviertel Hirzbrunnen hat innerhalb des Kantons einen der höchsten Anteile an Schweizern, die Anteile anderer Staatsangehörigkeiten liegen unter dem Kantonsdurchschnitt. Die grösste ausländische Bevölkerungsgruppe bilden wie im Gesamtkanton die Deutschen, wobei der Wert auch hier unter dem kantonalen Durchschnitt liegt.",
+		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_02_02_00_00_015",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6933,
+		"chart-id": 6933,
+		"filter": "15",
+		"id": 6948
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "Rosental",
+		"kuerzel": "I.01.1.06949",
+		"kuerzelKunde": "GS-16.C",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:49.4949",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Staatsangehörigkeit",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Wohnviertel Rosental wohnen deutlich mehr Türken, Portugiesen, Personen aus den Balkanländern und Inder als im kantonalen Durchschnitt. Der Anteil an Personen mit indischer Staatsangehörigkeit ist innerhalb des Kantons im Wohnviertel Rosental am grössten.",
+		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_02_02_00_00_016",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6933,
+		"chart-id": 6933,
+		"filter": "16",
+		"id": 6949
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "Matthäus",
+		"kuerzel": "I.01.1.06951",
+		"kuerzelKunde": "GS-17.C",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:49.4949",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Staatsangehörigkeit",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zur kantonalen Entwicklung fällt auf, dass der Ausländeranteil im Wohnviertel Matthäus in den letzten 20 Jahren kaum gestiegen ist, in den letzten vier Jahren sogar etwas zurückgegangen ist.  Insgesamt ist der Ausländeranteil allerdings einer der höchsten im gesamten Kanton.",
+		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_02_02_00_00_017",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6933,
+		"chart-id": 6933,
+		"filter": "17",
+		"id": 6951
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "Klybeck",
+		"kuerzel": "I.01.1.06952",
+		"kuerzelKunde": "GS-18.C",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:48.4848",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Staatsangehörigkeit",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zur kantonalen Entwicklung fällt besonders auf, dass der Ausländeranteil im Wohnviertel Klybeck in den letzten 20 Jahren nicht so stark gestiegen ist. Insgesamt ist der Ausländeranteil allerdings einer der höchsten im gesamten Kanton. Türken, Italiener und Personen aus den Balkanländern stellen die grössten Gruppen. Portugiesen sind im kantonalen Vergleich stärker vertreten, Deutsche weniger.",
+		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_02_02_00_00_018",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6933,
+		"chart-id": 6933,
+		"filter": "18",
+		"id": 6952
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "Kleinhüningen",
+		"kuerzel": "I.01.1.06953",
+		"kuerzelKunde": "GS-19.C",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:48.4848",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Staatsangehörigkeit",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zur kantonalen Entwicklung fällt auf, dass der Ausländeranteil im Wohnviertel Kleinhüningen in den letzten 20 Jahren nicht so stark gestiegen ist. Insgesamt ist der Ausländeranteil allerdings einer der höchsten im gesamten Kanton. Der Anteil Italiener ist deutlich zurückgegangen. Im kantonalen Vergleich wohnen mehr Portugiesen und weniger Deutsche im Wohnviertel.",
+		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_02_02_00_00_019",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6933,
+		"chart-id": 6933,
+		"filter": "19",
+		"id": 6953
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "Gemeinde Riehen",
+		"kuerzel": "I.01.1.06954",
+		"kuerzelKunde": "GS-20.C",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Gemeinde"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:47.4747",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Staatsangehörigkeit",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Gemeinde Riehen hat innerhalb des Kantons einen der höchsten Anteile an Schweizern, die Anteile der meisten anderen Staatsangehörigkeiten liegen unter dem Kantonsdurchschnitt. Ausnahme bilden die Deutschen, welche im Vergleich mit dem kantonalen Durchschnitt in Riehen deutlich stärker vertreten sind.",
+		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_02_02_00_00_020",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6933,
+		"chart-id": 6933,
+		"filter": "20",
+		"id": 6954
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "Gemeinde Bettingen",
+		"kuerzel": "I.01.1.06955",
+		"kuerzelKunde": "GS-21.C",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Gemeinde"
+		],
+		"aktualisierungsdatum": "2019-01-25T21:48:47.4747",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Staatsangehörigkeit",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen in der Gemeinde Bettingen deutlich mehr Deutsche. Andere Nationalitäten sind kaum vertreten.",
+		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_02_02_00_00_021",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6933,
+		"chart-id": 6933,
+		"filter": "30",
+		"id": 6955
+	},
+	{
+		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"subtitle": "Altstadt Grossbasel, 2017",
+		"kuerzel": "I.09.1.06956",
+		"kuerzelKunde": "TG-RU-WZ-01",
+		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Wohnungen",
+		"stufe3": "Raum und Umwelt",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zum Gesamtkanton sind im Wohnviertel Altstadt Grossbasel die Anteile der Einzimmer- und Zweizimmerwohnungen grösser.",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_03_03_00_00_001",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Baustatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "1",
+		"id": 6956
+	},
+	{
+		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"subtitle": "Vorstädte, 2017",
+		"kuerzel": "I.09.1.06957",
+		"kuerzelKunde": "RU-02.E",
+		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-28T09:43:53.5353",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Wohnungen",
+		"stufe3": "Raum und Umwelt",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Vorstädte am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton deutlich häufiger Einzimmerwohnungen, seltener hingegen Zweizimmerwohnungen.",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_03_03_00_00_002",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "2",
+		"id": 6957
+	},
+	{
+		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"subtitle": "Am Ring, 2017",
+		"kuerzel": "I.09.1.06958",
+		"kuerzelKunde": "RU-03.E",
+		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-28T09:44:19.1919",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Wohnungen",
+		"stufe3": "Raum und Umwelt",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Wohnviertel Am Ring ist die Verteilung ähnlich wie im Gesamtkanton. Am häufigsten gibt es Dreizimmerwohnungen, gefolgt von Zwei- und Vierzimmerwohnungen.",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_03_03_00_00_003",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "3",
+		"id": 6958
+	},
+	{
+		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"subtitle": "Breite, 2017",
+		"kuerzel": "I.09.1.06959",
+		"kuerzelKunde": "RU-04.E",
+		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-28T09:44:42.4242",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Wohnungen",
+		"stufe3": "Raum und Umwelt",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Wohnviertel Breite liegt der Anteil der Dreizimmerwohnungen deutlich und der Anteil der Zweizimmerwohnungen leicht über dem kantonalen Durchschnitt. Wohnungen mit 6 und mehr Zimmern gibt es seltener.",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_03_03_00_00_004",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "4",
+		"id": 6959
+	},
+	{
+		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"subtitle": "St. Alban, 2017",
+		"kuerzel": "I.09.1.06960",
+		"kuerzelKunde": "RU-05.E",
+		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-28T09:45:09.099",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Wohnungen",
+		"stufe3": "Raum und Umwelt",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel St. Alban am häufigsten Dreizimmerwohnungen. Allerdings ist im Vergleich zum Gesamtkanton der Anteil mit Wohnungen mit vier und mehr Zimmern höher. Wohnungen mit ein und zwei Zimmern sind seltener.",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_03_03_00_00_005",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "5",
+		"id": 6960
+	},
+	{
+		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"subtitle": "Gundeldingen, 2017",
+		"kuerzel": "I.09.1.06961",
+		"kuerzelKunde": "RU-06.E",
+		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-28T09:45:34.3434",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Wohnungen",
+		"stufe3": "Raum und Umwelt",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Gundeldingen am häufigsten Dreizimmerwohnungen gefolgt von Zwei- und Vierzimmerwohnungen. Der Anteil an Wohnungen mit bis zu drei Zimmern ist etwas höher als im kantonalen Vergleich, der von Wohnungen mit vier und mehr Zimmern etwas niedriger.",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_03_03_00_00_006",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "6",
+		"id": 6961
+	},
+	{
+		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"subtitle": "Bruderholz, 2017",
+		"kuerzel": "I.09.1.06962",
+		"kuerzelKunde": "RU-07.E",
+		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [],
+		"aktualisierungsdatum": "2019-01-28T09:46:14.1414",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Wohnungen",
+		"stufe3": "Raum und Umwelt",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zum Gesamtkanton gibt es im Wohnviertel Bruderholz einen höheren Anteil von Wohnungen mit sechs und mehr Zimmern. Auch Wohnungen mit vier und fünf Zimmern gibt es häufiger als im kantonalen Durchschnitt. Dafür gibt es deutlich seltener Einzimmerwohnungen.",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_03_03_00_00_007",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "7",
+		"id": 6962
+	},
+	{
+		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"subtitle": "Bachletten, 2017",
+		"kuerzel": "I.09.1.06963",
+		"kuerzelKunde": "RU-08.E",
+		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-28T09:46:37.3737",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Wohnungen",
+		"stufe3": "Raum und Umwelt",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Bachletten am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton häufiger Wohnungen mit fünf und mehr Zimmern. Dafür gibt es seltener Wohnungen mit ein und zwei Zimmern.",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_03_03_00_00_008",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "8",
+		"id": 6963
+	},
+	{
+		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"subtitle": "Gotthelf, 2017",
+		"kuerzel": "I.09.1.06964",
+		"kuerzelKunde": "RU-09.E",
+		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-28T09:47:04.044",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Wohnungen",
+		"stufe3": "Raum und Umwelt",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Anteil Drei- und Zweizimmerwohnungen im Wohnviertel Gotthelf entspricht dem kantonalen Durchschnitt. Der Anteil an Einzimmerwohnungen ist im Gesamtvergleich etwas höher.",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_03_03_00_00_009",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "9",
+		"id": 6964
+	},
+	{
+		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"subtitle": "Iselin, 2017",
+		"kuerzel": "I.09.1.06965",
+		"kuerzelKunde": "RU-10.E",
+		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-28T09:49:07.077",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Wohnungen",
+		"stufe3": "Raum und Umwelt",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Iselin am häufigsten Dreizimmerwohnungen gefolgt von Zwei- und Vierzimmerwohnungen. Insbesondere der Anteil an Zweizimmerwohnungen ist deutlich höher als im Gesamtkanton. Wohnungen mit fünf und mehr Zimmern gibt es seltener.",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_03_03_00_00_010",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "10",
+		"id": 6965
+	},
+	{
+		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"subtitle": "St. Johann, 2017",
+		"kuerzel": "I.09.1.06966",
+		"kuerzelKunde": "RU-11.E",
+		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-28T09:49:35.3535",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Wohnungen",
+		"stufe3": "Raum und Umwelt",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel St. Johann am häufigsten Dreizimmerwohnungen, gefolgt von Zwei- und Vierzimmerwohnungen. Wohnungen mit fünf und mehr Zimmern gibt es im kantonalen Vergleich etwas seltener.",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_03_03_00_00_011",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "11",
+		"id": 6966
+	},
+	{
+		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"subtitle": "Altstadt Kleinbasel, 2017",
+		"kuerzel": "I.09.1.06967",
+		"kuerzelKunde": "RU-12.E",
+		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-28T09:50:04.044",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Wohnungen",
+		"stufe3": "Raum und Umwelt",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Altstadt Kleinbasel am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton deutlich mehr Zwei- und Einzimmerwohnungen.",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_03_03_00_00_012",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "12",
+		"id": 6967
+	},
+	{
+		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"subtitle": "Clara, 2017",
+		"kuerzel": "I.09.1.06968",
+		"kuerzelKunde": "RU-13.E",
+		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-28T09:50:31.3131",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Wohnungen",
+		"stufe3": "Raum und Umwelt",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Altstadt Kleinbasel am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton deutlich höhere Anteile bei den Zwei- und insbesondere bei den Einzimmerwohnungen.",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_03_03_00_00_013",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "13",
+		"id": 6968
+	},
+	{
+		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"subtitle": "Wettstein, 2017",
+		"kuerzel": "I.09.1.06969",
+		"kuerzelKunde": "RU-14.E",
+		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-28T09:51:00.000",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Wohnungen",
+		"stufe3": "Raum und Umwelt",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Wettstein am häufigsten Dreizimmerwohnungen. Der Anteil liegt allerdings deutlich über dem kantonalen Durchschnitt. Der Anteil an Einzimmerwohnungen dagegen ist niedriger.",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_03_03_00_00_014",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "14",
+		"id": 6969
+	},
+	{
+		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"subtitle": "Hirzbrunnen, 2017",
+		"kuerzel": "I.09.1.06970",
+		"kuerzelKunde": "RU-15.E",
+		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-28T09:51:32.3232",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Wohnungen",
+		"stufe3": "Raum und Umwelt",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Hirzbrunnen am häufigsten Dreizimmerwohnungen. Im Wohnviertel Hirzbrunnen liegt der Anteil allerdings deutlich über dem kantonalen Durchschnitt, der Anteil an Ein- und Zweizimmerwohnungen dagegen darunter. Wohnungen mit vier und fünf Zimmern gibt es häufiger.",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_03_03_00_00_015",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "15",
+		"id": 6970
+	},
+	{
+		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"subtitle": "Rosental, 2017",
+		"kuerzel": "I.09.1.06971",
+		"kuerzelKunde": "RU-16.E",
+		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-28T09:51:59.5959",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Wohnungen",
+		"stufe3": "Raum und Umwelt",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Rosental am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich deutlich häufiger Zweizimmerwohnungen. Wohnungen mit sechs und mehr Zimmern gibt es kaum.",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_03_03_00_00_016",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "16",
+		"id": 6971
+	},
+	{
+		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"subtitle": "Matthäus, 2017",
+		"kuerzel": "I.09.1.06972",
+		"kuerzelKunde": "RU-17.E",
+		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-28T09:52:24.2424",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Wohnungen",
+		"stufe3": "Raum und Umwelt",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Matthäus am häufigsten Dreizimmerwohnungen. Der Anteil an Zwei- und Einzimmerwohnungen liegt über dem kantonalen Durchschnitt, derjenige von Wohnungen mit vier und mehr Zimmern darunter.",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_03_03_00_00_017",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "17",
+		"id": 6972
+	},
+	{
+		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"subtitle": "Klybeck, 2017",
+		"kuerzel": "I.09.1.06973",
+		"kuerzelKunde": "RU-18.E",
+		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-28T09:52:47.4747",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Wohnungen",
+		"stufe3": "Raum und Umwelt",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Klybeck am häufigsten Dreizimmerwohnungen. Allerdings gibt es fast genauso viele Zweizimmerwohnungen und damit einen deutlich höheren Anteil im Vergleich zum Gesamtkanton (36%). Das Wohnviertel Klybeck weist damit den höchsten Anteil an Zweizimmerwohnungen aus.",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_03_03_00_00_018",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "18",
+		"id": 6973
+	},
+	{
+		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"subtitle": "Kleinhüningen, 2017",
+		"kuerzel": "I.09.1.06974",
+		"kuerzelKunde": "RU-19.E",
+		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-01-28T09:53:13.1313",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Wohnungen",
+		"stufe3": "Raum und Umwelt",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Hälfte aller Wohnungen im Wohnviertel Kleinhüningen sind Dreizimmerwohnungen. Damit liegt der Anteil deutlich höher als im Gesamtkanton. Der Anteil an Wohnungen mit vier und mehr Zimmern dagegen ist mit 2% kantonsweit der niedrigste.",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_03_03_00_00_019",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "19",
+		"id": 6974
+	},
+	{
+		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"subtitle": "Gemeinde Riehen, 2017",
+		"kuerzel": "I.09.1.06975",
+		"kuerzelKunde": "RU-20.E",
+		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Gemeinde"
+		],
+		"aktualisierungsdatum": "2019-01-28T09:53:41.4141",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Wohnungen",
+		"stufe3": "Raum und Umwelt",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Wie im Gesamtkanton gibt es in der Gemeinde Riehen am häufigsten Dreizimmerwohnungen. Im Vergleich zum Gesamtkanton gibt es allerdings deutlichhäufiger Wohnungen mit vier und mehr Zimmern. Einzimmerwohnungen gibt es dagegen seltener.",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_03_03_00_00_020",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "20",
+		"id": 6975
+	},
+	{
+		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"subtitle": "Gemeinde Bettingen, 2017",
+		"kuerzel": "I.09.1.06976",
+		"kuerzelKunde": "RU-21.E",
+		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Gemeinde"
+		],
+		"aktualisierungsdatum": "2019-01-28T09:54:05.055",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Wohnungen",
+		"stufe3": "Raum und Umwelt",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In der Gemeinde Bettingen gibt es den höchsten Anteil an Wohnungen mit fünf Zimmern gefolgt von Wohnungen mit sechs und mehr Zimmern sowie Vierzimmerwohnungen. Dagegen weist die Gemeinde kantonsweit die geringsten Anteile an Zwei- und Dreizimmerwohnungen auf.",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_03_03_00_00_021",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "30",
+		"id": 6976
+	},
+	{
 		"title": "Mittelwert des Gesamtsteuerertrag sowie Anteil von Einkommens- und Vermögenssteuerertrag",
 		"subtitle": "in Franken, Basel-Stadt, 2015",
 		"kuerzel": "I.18.2.06980",
@@ -33226,6 +35985,126 @@ var indikatoren = [
 			""
 		],
 		"id": 6983
+	},
+	{
+		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"subtitle": "Kanton Basel-Stadt, 2017",
+		"kuerzel": "I.09.1.06988",
+		"kuerzelKunde": "RU-99.E",
+		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-01-28T09:54:35.3535",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Wohnungen",
+		"stufe3": "Raum und Umwelt",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Am häufigsten gibt es in Basel-Stadt Dreizimmerwohnungen, am seltensten Wohnungen mit sechs und mehr Zimmern. Seit 2008 steigt der gesamte Wohnungsbestand leicht und stetig an. Am stärksten war das Wachstum bei den Fünf- bzw. Vierzimmerwohnungen (+10,9% bzw. 8,6% seit 2008). Rückläufig war dagegen die Entwicklung bei den Einzimmerwohnungen (-3,2%).",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_03_03_00_00_022",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6956,
+		"chart-id": 6988,
+		"filter": "99",
+		"id": 6988
+	},
+	{
+		"title": "Bevölkerungspyramide am Jahresende",
+		"subtitle": "nach Alter in Jahren, Basel-Stadt, 2017",
+		"kuerzel": "I.01.1.06989",
+		"kuerzelKunde": "",
+		"description": "Bevölkerungspyramide am Jahresende",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-11-15T09:33:03.033",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Bevölkerungspyramide",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass es in den höheren Altersgruppen zahlreiche Schweizerinnen gibt.",
+		"erlaeuterungen": "",
+		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "04_01_01_00_00_022",
+		"parentId": 5142,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 5142,
+		"chart-id": 5142,
+		"filter": "",
+		"id": 6989
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "Kanton Basel-Stadt",
+		"kuerzel": "I.01.1.06990",
+		"kuerzelKunde": "TG-GS-AB-BS",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Staatsangehörigkeit",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_02_02_00_00_022",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6933,
+		"chart-id": 6933,
+		"filter": "99",
+		"id": 6990
 	},
 	{
 		"title": "Privatschulquote",

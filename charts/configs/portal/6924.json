@@ -1,0 +1,655 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "stacking": "normal",
+      "stack": "female",
+      "legendIndex": 1,
+      "index": 2,
+      "data": [
+        [
+          "0-4",
+          37
+        ],
+        [
+          "5-9",
+          25
+        ],
+        [
+          "10-14",
+          24
+        ],
+        [
+          "15-19",
+          33
+        ],
+        [
+          "20-24",
+          75
+        ],
+        [
+          "25-29",
+          83
+        ],
+        [
+          "30-34",
+          72
+        ],
+        [
+          "35-39",
+          44
+        ],
+        [
+          "40-44",
+          46
+        ],
+        [
+          "45-49",
+          61
+        ],
+        [
+          "50-54",
+          69
+        ],
+        [
+          "55-59",
+          82
+        ],
+        [
+          "60-64",
+          60
+        ],
+        [
+          "65-69",
+          77
+        ],
+        [
+          "70-74",
+          62
+        ],
+        [
+          "75-79",
+          84
+        ],
+        [
+          "80-84",
+          77
+        ],
+        [
+          "85-89",
+          75
+        ],
+        [
+          "90-94",
+          43
+        ],
+        [
+          "95-99",
+          14
+        ],
+        [
+          "100+",
+          2
+        ]
+      ],
+      "name": "Schweizerinnen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "stacking": "normal",
+      "stack": "male",
+      "legendIndex": 0,
+      "index": 3,
+      "data": [
+        [
+          "0-4",
+          -34
+        ],
+        [
+          "5-9",
+          -24
+        ],
+        [
+          "10-14",
+          -16
+        ],
+        [
+          "15-19",
+          -36
+        ],
+        [
+          "20-24",
+          -65
+        ],
+        [
+          "25-29",
+          -82
+        ],
+        [
+          "30-34",
+          -86
+        ],
+        [
+          "35-39",
+          -74
+        ],
+        [
+          "40-44",
+          -68
+        ],
+        [
+          "45-49",
+          -69
+        ],
+        [
+          "50-54",
+          -78
+        ],
+        [
+          "55-59",
+          -83
+        ],
+        [
+          "60-64",
+          -62
+        ],
+        [
+          "65-69",
+          -66
+        ],
+        [
+          "70-74",
+          -60
+        ],
+        [
+          "75-79",
+          -48
+        ],
+        [
+          "80-84",
+          -35
+        ],
+        [
+          "85-89",
+          -33
+        ],
+        [
+          "90-94",
+          -10
+        ],
+        [
+          "95-99",
+          0
+        ],
+        [
+          "100+",
+          -1
+        ]
+      ],
+      "name": "Schweizer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#d00000",
+      "stacking": "normal",
+      "stack": "female",
+      "legendIndex": 3,
+      "index": 0,
+      "data": [
+        [
+          "0-4",
+          50
+        ],
+        [
+          "5-9",
+          39
+        ],
+        [
+          "10-14",
+          28
+        ],
+        [
+          "15-19",
+          25
+        ],
+        [
+          "20-24",
+          46
+        ],
+        [
+          "25-29",
+          107
+        ],
+        [
+          "30-34",
+          123
+        ],
+        [
+          "35-39",
+          98
+        ],
+        [
+          "40-44",
+          71
+        ],
+        [
+          "45-49",
+          63
+        ],
+        [
+          "50-54",
+          51
+        ],
+        [
+          "55-59",
+          57
+        ],
+        [
+          "60-64",
+          47
+        ],
+        [
+          "65-69",
+          26
+        ],
+        [
+          "70-74",
+          18
+        ],
+        [
+          "75-79",
+          19
+        ],
+        [
+          "80-84",
+          12
+        ],
+        [
+          "85-89",
+          0
+        ],
+        [
+          "90-94",
+          4
+        ],
+        [
+          "95-99",
+          0
+        ],
+        [
+          "100+",
+          0
+        ]
+      ],
+      "name": "Ausländerinnen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#00bAf3",
+      "stacking": "normal",
+      "stack": "male",
+      "legendIndex": 2,
+      "index": 1,
+      "data": [
+        [
+          "0-4",
+          -40
+        ],
+        [
+          "5-9",
+          -27
+        ],
+        [
+          "10-14",
+          -41
+        ],
+        [
+          "15-19",
+          -25
+        ],
+        [
+          "20-24",
+          -51
+        ],
+        [
+          "25-29",
+          -111
+        ],
+        [
+          "30-34",
+          -134
+        ],
+        [
+          "35-39",
+          -109
+        ],
+        [
+          "40-44",
+          -100
+        ],
+        [
+          "45-49",
+          -84
+        ],
+        [
+          "50-54",
+          -83
+        ],
+        [
+          "55-59",
+          -64
+        ],
+        [
+          "60-64",
+          -52
+        ],
+        [
+          "65-69",
+          -49
+        ],
+        [
+          "70-74",
+          -25
+        ],
+        [
+          "75-79",
+          -13
+        ],
+        [
+          "80-84",
+          -14
+        ],
+        [
+          "85-89",
+          -3
+        ],
+        [
+          "90-94",
+          0
+        ],
+        [
+          "95-99",
+          0
+        ],
+        [
+          "100+",
+          0
+        ]
+      ],
+      "name": "Ausländer",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "Clara",
+          13
+        ],
+        [
+          "Clara",
+          13
+        ],
+        [
+          "Clara",
+          13
+        ],
+        [
+          "Clara",
+          13
+        ],
+        [
+          "Clara",
+          13
+        ],
+        [
+          "Clara",
+          13
+        ],
+        [
+          "Clara",
+          13
+        ],
+        [
+          "Clara",
+          13
+        ],
+        [
+          "Clara",
+          13
+        ],
+        [
+          "Clara",
+          13
+        ],
+        [
+          "Clara",
+          13
+        ],
+        [
+          "Clara",
+          13
+        ],
+        [
+          "Clara",
+          13
+        ],
+        [
+          "Clara",
+          13
+        ],
+        [
+          "Clara",
+          13
+        ],
+        [
+          "Clara",
+          13
+        ],
+        [
+          "Clara",
+          13
+        ],
+        [
+          "Clara",
+          13
+        ],
+        [
+          "Clara",
+          13
+        ],
+        [
+          "Clara",
+          13
+        ],
+        [
+          "Clara",
+          13
+        ]
+      ],
+      "name": "Wohnviertel_Id",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": [
+    {
+      "reversed": false,
+      "type": "category",
+      "labels": {
+        "step": 1,
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickLength": 0,
+      "title": {
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickColor": "#FFFFFF"
+    },
+    {
+      "type": "category",
+      "visible": false,
+      "opposite": true,
+      "reversed": false,
+      "linkedTo": 0
+    }
+  ],
+  "chart": {
+    "type": "bar",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 40,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+                    this.credits.element.onclick = function() {};
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top'){
+                      this.update({
+                         legend: {
+                           x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 105 //fixed offset instead of /charts/templates/populationPyramid001.js
+                         }
+                      });
+                    }
+                }
+    },
+    "marginRight": 15,
+    "renderTo": "container-6924"
+  },
+  "plotOptions": {
+    "bar": {
+      "grouping": false
+    },
+    "series": {
+      "stacking": null,
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "groupPadding": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Alterspyramide nach Geschlecht und Heimat"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Clara, 2017",
+    "align": "left"
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "step": 1,
+        "formatter": function () {
+                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
+            	},
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "plotLines": [
+        {
+          "value": 0,
+          "color": "white",
+          "width": 1,
+          "zIndex": 4
+        }
+      ],
+      "events": {
+        "afterSetExtremes": function (args){
+            	    this.chart.options.customFunctions.createSymmetricAxis(this);
+                }
+      }
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-25"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemWidth": 140,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormatter": function () {
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 0, ",", " ") + '</b><br/>';
+            },
+    "shared": true,
+    "formatter": function () { //sum values correctly
+                var s = '<span style="font-size: 12px">' + this.points[0].series.chart.series[4].data[0].name + ':</span><br/> <span style="font-size: 12px">Alter: <b>' + this.points[0].key + '</b></span><br/>';
+                var sum = 0;
+                $.each(this.points, function(i, point) {
+                    var v = Math.sqrt(this.y*this.y); //make - to + again
+                    s += '<span style="color:'+point.series.color+'">\u25CF</span> '+point.series.name+': <b>'+v+'</b><br/>';
+                    sum += v;
+                });
+                s += 'Total: <b>'+ sum + '</b>';
+                return s;
+            }
+  },
+  "customFunctions": {
+    "createSymmetricAxis": function (axis){
+                var absMax = Math.max(Math.abs(axis.dataMin), Math.abs(axis.dataMax));
+                axis.setExtremes(-absMax, absMax);
+        	},
+    "filter": "13",
+    "data-id": 6893
+  },
+  "exporting": {
+    "filename": 6924
+  }
+}

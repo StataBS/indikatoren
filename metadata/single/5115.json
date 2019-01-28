@@ -1,6 +1,6 @@
 {"title":"Sesshaftigkeit",
 "subtitle":"Stand: 2017",
-"kuerzel":"I.01.1.05115",
+"kuerzel":"I.01.1.5115",
 "kuerzelKunde":"GS-7.B",
 "description":"Sesshaftigkeit",
 "id":5115,
@@ -8,7 +8,7 @@
 "unterthema":"Bestand und Struktur ",
 "kennzahlenset":"Wohnviertel",
 "raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2017-12-18T11:37:16.1616",
+"aktualisierungsdatum":"2018-02-20T00:00:00.000",
 "stufe1":"Teil 3: Karten",
 "stufe2":"Gesellschaft und Soziales",
 "stufe3":"",
@@ -17,6 +17,8 @@
 "lesehilfe":"Im Wohnviertel Bruderholz ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, am höchsten. Im Rosentalviertel ist er am niedrigsten. Dies liegt vor allem daran, dass sich im neuen Quartierteil Erlenmatt sehr viele Neuzuzüger niederlassen.",
 "erlaeuterungen":"Anteil der seit mindestens 10 Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 "template":"map001",
+"darstellungsart":"Karte kategoriell",
+"printformat":"", 
 "visible":true,
 "visibleInPortal":true,
 "orderKey":"03_01_00_00_00_007",
@@ -24,5 +26,9 @@
 "children":[],
 "renderLink":["4828"],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":["Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevsess.anteil_sess10' target='_blank'>Basler Atlas</a>."]
+"datenInChartIntegriert":false,
+"externalLinks":["Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevsess.anteil_sess10' target='_blank'>Basler Atlas</a>."],
+"data-id":5115, 
+"chart-id":5115, 
+"filter":""
 }

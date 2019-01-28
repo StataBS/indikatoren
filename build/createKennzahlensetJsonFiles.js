@@ -29,7 +29,7 @@ files.forEach(function(filepath){
         if(!indikator.orderKey){
             indikator.orderKey = indikator.kuerzelKunde;
         }
-        console.log('Adding chart ' + indikator.id + ' to Indikatorenset ' + indikator.kennzahlenset + '...');
+        //console.log('Adding chart ' + indikator.id + ' to Indikatorenset ' + indikator.kennzahlenset + '...');
         //clean up
          delete indikator.visible;
          delete indikator.visibleInPortal;
@@ -47,7 +47,7 @@ files.forEach(function(filepath){
         saveToIndikatorensetJson(indikator.id, indikator, console);
     }
     else {
-        console.log('Chart ' + indikator.id + ' is invisible", ignoring.');
+        //console.log('Chart ' + indikator.id + ' is invisible, ignoring.');
     }
 });
  
@@ -66,7 +66,7 @@ function saveIndikatorenSets(indikatorensets){
         var setNameJson = JSON.stringify(indikatorenset);
         var setName = setNameJson.replace(/["']/g, "");
         if (indikatorenset != {}){
-            console.log('Creating file for Indikatorenset ' + setName);
+            //console.log('Creating file for Indikatorenset ' + setName);
             var fs = require('fs');
             var setJson = "var indikatorensetData = " + JSON.stringify(indikatorensets[indikatorenset], null, '\t') + ";";
             fs.writeFileSync('metadata/sets/' + setName + '.js', setJson);

@@ -1,0 +1,655 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "stacking": "normal",
+      "stack": "female",
+      "legendIndex": 1,
+      "index": 2,
+      "data": [
+        [
+          "0-4",
+          174
+        ],
+        [
+          "5-9",
+          177
+        ],
+        [
+          "10-14",
+          140
+        ],
+        [
+          "15-19",
+          162
+        ],
+        [
+          "20-24",
+          176
+        ],
+        [
+          "25-29",
+          187
+        ],
+        [
+          "30-34",
+          206
+        ],
+        [
+          "35-39",
+          202
+        ],
+        [
+          "40-44",
+          184
+        ],
+        [
+          "45-49",
+          196
+        ],
+        [
+          "50-54",
+          245
+        ],
+        [
+          "55-59",
+          267
+        ],
+        [
+          "60-64",
+          248
+        ],
+        [
+          "65-69",
+          252
+        ],
+        [
+          "70-74",
+          271
+        ],
+        [
+          "75-79",
+          228
+        ],
+        [
+          "80-84",
+          211
+        ],
+        [
+          "85-89",
+          156
+        ],
+        [
+          "90-94",
+          76
+        ],
+        [
+          "95-99",
+          22
+        ],
+        [
+          "100+",
+          1
+        ]
+      ],
+      "name": "Schweizerinnen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "stacking": "normal",
+      "stack": "male",
+      "legendIndex": 0,
+      "index": 3,
+      "data": [
+        [
+          "0-4",
+          -180
+        ],
+        [
+          "5-9",
+          -194
+        ],
+        [
+          "10-14",
+          -161
+        ],
+        [
+          "15-19",
+          -184
+        ],
+        [
+          "20-24",
+          -182
+        ],
+        [
+          "25-29",
+          -194
+        ],
+        [
+          "30-34",
+          -159
+        ],
+        [
+          "35-39",
+          -196
+        ],
+        [
+          "40-44",
+          -150
+        ],
+        [
+          "45-49",
+          -198
+        ],
+        [
+          "50-54",
+          -231
+        ],
+        [
+          "55-59",
+          -195
+        ],
+        [
+          "60-64",
+          -208
+        ],
+        [
+          "65-69",
+          -182
+        ],
+        [
+          "70-74",
+          -199
+        ],
+        [
+          "75-79",
+          -161
+        ],
+        [
+          "80-84",
+          -123
+        ],
+        [
+          "85-89",
+          -77
+        ],
+        [
+          "90-94",
+          -32
+        ],
+        [
+          "95-99",
+          -4
+        ],
+        [
+          "100+",
+          -1
+        ]
+      ],
+      "name": "Schweizer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#d00000",
+      "stacking": "normal",
+      "stack": "female",
+      "legendIndex": 3,
+      "index": 0,
+      "data": [
+        [
+          "0-4",
+          75
+        ],
+        [
+          "5-9",
+          59
+        ],
+        [
+          "10-14",
+          44
+        ],
+        [
+          "15-19",
+          36
+        ],
+        [
+          "20-24",
+          57
+        ],
+        [
+          "25-29",
+          98
+        ],
+        [
+          "30-34",
+          134
+        ],
+        [
+          "35-39",
+          158
+        ],
+        [
+          "40-44",
+          114
+        ],
+        [
+          "45-49",
+          86
+        ],
+        [
+          "50-54",
+          70
+        ],
+        [
+          "55-59",
+          57
+        ],
+        [
+          "60-64",
+          34
+        ],
+        [
+          "65-69",
+          36
+        ],
+        [
+          "70-74",
+          22
+        ],
+        [
+          "75-79",
+          24
+        ],
+        [
+          "80-84",
+          20
+        ],
+        [
+          "85-89",
+          8
+        ],
+        [
+          "90-94",
+          4
+        ],
+        [
+          "95-99",
+          0
+        ],
+        [
+          "100+",
+          0
+        ]
+      ],
+      "name": "Ausländerinnen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#00bAf3",
+      "stacking": "normal",
+      "stack": "male",
+      "legendIndex": 2,
+      "index": 1,
+      "data": [
+        [
+          "0-4",
+          -69
+        ],
+        [
+          "5-9",
+          -68
+        ],
+        [
+          "10-14",
+          -47
+        ],
+        [
+          "15-19",
+          -32
+        ],
+        [
+          "20-24",
+          -43
+        ],
+        [
+          "25-29",
+          -106
+        ],
+        [
+          "30-34",
+          -143
+        ],
+        [
+          "35-39",
+          -149
+        ],
+        [
+          "40-44",
+          -133
+        ],
+        [
+          "45-49",
+          -93
+        ],
+        [
+          "50-54",
+          -85
+        ],
+        [
+          "55-59",
+          -52
+        ],
+        [
+          "60-64",
+          -45
+        ],
+        [
+          "65-69",
+          -35
+        ],
+        [
+          "70-74",
+          -30
+        ],
+        [
+          "75-79",
+          -32
+        ],
+        [
+          "80-84",
+          -18
+        ],
+        [
+          "85-89",
+          -7
+        ],
+        [
+          "90-94",
+          -1
+        ],
+        [
+          "95-99",
+          0
+        ],
+        [
+          "100+",
+          0
+        ]
+      ],
+      "name": "Ausländer",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "Hirzbrunnen",
+          15
+        ],
+        [
+          "Hirzbrunnen",
+          15
+        ],
+        [
+          "Hirzbrunnen",
+          15
+        ],
+        [
+          "Hirzbrunnen",
+          15
+        ],
+        [
+          "Hirzbrunnen",
+          15
+        ],
+        [
+          "Hirzbrunnen",
+          15
+        ],
+        [
+          "Hirzbrunnen",
+          15
+        ],
+        [
+          "Hirzbrunnen",
+          15
+        ],
+        [
+          "Hirzbrunnen",
+          15
+        ],
+        [
+          "Hirzbrunnen",
+          15
+        ],
+        [
+          "Hirzbrunnen",
+          15
+        ],
+        [
+          "Hirzbrunnen",
+          15
+        ],
+        [
+          "Hirzbrunnen",
+          15
+        ],
+        [
+          "Hirzbrunnen",
+          15
+        ],
+        [
+          "Hirzbrunnen",
+          15
+        ],
+        [
+          "Hirzbrunnen",
+          15
+        ],
+        [
+          "Hirzbrunnen",
+          15
+        ],
+        [
+          "Hirzbrunnen",
+          15
+        ],
+        [
+          "Hirzbrunnen",
+          15
+        ],
+        [
+          "Hirzbrunnen",
+          15
+        ],
+        [
+          "Hirzbrunnen",
+          15
+        ]
+      ],
+      "name": "Wohnviertel_Id",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": [
+    {
+      "reversed": false,
+      "type": "category",
+      "labels": {
+        "step": 1,
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickLength": 0,
+      "title": {
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickColor": "#FFFFFF"
+    },
+    {
+      "type": "category",
+      "visible": false,
+      "opposite": true,
+      "reversed": false,
+      "linkedTo": 0
+    }
+  ],
+  "chart": {
+    "type": "bar",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 40,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+                    this.credits.element.onclick = function() {};
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top'){
+                      this.update({
+                         legend: {
+                           x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 105 //fixed offset instead of /charts/templates/populationPyramid001.js
+                         }
+                      });
+                    }
+                }
+    },
+    "marginRight": 15,
+    "renderTo": "container-6926"
+  },
+  "plotOptions": {
+    "bar": {
+      "grouping": false
+    },
+    "series": {
+      "stacking": null,
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "groupPadding": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Alterspyramide nach Geschlecht und Heimat"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Hirzbrunnen, 2017",
+    "align": "left"
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "step": 1,
+        "formatter": function () {
+                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
+            	},
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "plotLines": [
+        {
+          "value": 0,
+          "color": "white",
+          "width": 1,
+          "zIndex": 4
+        }
+      ],
+      "events": {
+        "afterSetExtremes": function (args){
+            	    this.chart.options.customFunctions.createSymmetricAxis(this);
+                }
+      }
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-25"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemWidth": 140,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormatter": function () {
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 0, ",", " ") + '</b><br/>';
+            },
+    "shared": true,
+    "formatter": function () { //sum values correctly
+                var s = '<span style="font-size: 12px">' + this.points[0].series.chart.series[4].data[0].name + ':</span><br/> <span style="font-size: 12px">Alter: <b>' + this.points[0].key + '</b></span><br/>';
+                var sum = 0;
+                $.each(this.points, function(i, point) {
+                    var v = Math.sqrt(this.y*this.y); //make - to + again
+                    s += '<span style="color:'+point.series.color+'">\u25CF</span> '+point.series.name+': <b>'+v+'</b><br/>';
+                    sum += v;
+                });
+                s += 'Total: <b>'+ sum + '</b>';
+                return s;
+            }
+  },
+  "customFunctions": {
+    "createSymmetricAxis": function (axis){
+                var absMax = Math.max(Math.abs(axis.dataMin), Math.abs(axis.dataMax));
+                axis.setExtremes(-absMax, absMax);
+        	},
+    "filter": "15",
+    "data-id": 6893
+  },
+  "exporting": {
+    "filename": 6926
+  }
+}

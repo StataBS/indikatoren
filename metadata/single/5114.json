@@ -1,6 +1,6 @@
 {"title":"Altersquotient",
 "subtitle":"Stand: 2017",
-"kuerzel":"I.01.1.5114",
+"kuerzel":"I.01.1.05114",
 "kuerzelKunde":"GS-6.B",
 "description":"Altersquotient",
 "id":5114,
@@ -8,7 +8,7 @@
 "unterthema":"Bestand und Struktur ",
 "kennzahlenset":"Wohnviertel",
 "raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2018-06-14T09:46:36.3636",
+"aktualisierungsdatum":"2018-06-21T10:59:37.3737",
 "stufe1":"Teil 3: Karten",
 "stufe2":"Gesellschaft und Soziales",
 "stufe3":"",
@@ -17,6 +17,7 @@
 "lesehilfe":"Der Altersquotient ist im Wohnviertel Rosental am geringsten, im Wohnviertel Riehen am höchsten.",
 "erlaeuterungen":"Anteil der über 64-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
 "template":"map001",
+"darstellungsart":"Karte kategoriell",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,
@@ -25,5 +26,9 @@
 "children":[],
 "renderLink":["4827"],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":5114, 
+"chart-id":5114, 
+"filter":""
 }

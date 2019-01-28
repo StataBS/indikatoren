@@ -23,18 +23,18 @@
         },
         yAxis:[{
             //max: 15,
-            //tickInterval: 1,
+            tickInterval: 5,
             min:0,
             title: {
                 text: null
             },
-            "labels": {
+            labels: {
             	step: 1,
                 formatter: function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
             	},
-                "style": {
-                    "color": "#000000"
+                style: {
+                    color: "#000000"
                 }
             },
             plotLines: [{

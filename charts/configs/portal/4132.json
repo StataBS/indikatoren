@@ -643,7 +643,10 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-4"
   },
   "legend": {
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
   },
   "rangeSelector": {
     "verticalAlign": "bottom",
