@@ -23,7 +23,10 @@ https.get(urlBase + "verzeichnis.txt", listOfCharts => {
             const downloadFileContents = (url, filePath) => {
                 const file = fs.createWriteStream(filePath);
                 https.get(url, fileContents => {
-                    const stream = fileContents.pipe(file);
+
+                    fileContents.on('data', (d) => {
+                        const stream = fileContents.pipe(file);
+                    });                    
                     //stream.on("finish", function() {});
                 })
                 .on('error', e => {
