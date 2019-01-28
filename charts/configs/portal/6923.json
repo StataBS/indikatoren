@@ -1,0 +1,655 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "stacking": "normal",
+      "stack": "female",
+      "legendIndex": 1,
+      "index": 2,
+      "data": [
+        [
+          "0-4",
+          29
+        ],
+        [
+          "5-9",
+          15
+        ],
+        [
+          "10-14",
+          12
+        ],
+        [
+          "15-19",
+          15
+        ],
+        [
+          "20-24",
+          36
+        ],
+        [
+          "25-29",
+          81
+        ],
+        [
+          "30-34",
+          66
+        ],
+        [
+          "35-39",
+          42
+        ],
+        [
+          "40-44",
+          29
+        ],
+        [
+          "45-49",
+          40
+        ],
+        [
+          "50-54",
+          49
+        ],
+        [
+          "55-59",
+          43
+        ],
+        [
+          "60-64",
+          48
+        ],
+        [
+          "65-69",
+          45
+        ],
+        [
+          "70-74",
+          34
+        ],
+        [
+          "75-79",
+          59
+        ],
+        [
+          "80-84",
+          27
+        ],
+        [
+          "85-89",
+          32
+        ],
+        [
+          "90-94",
+          15
+        ],
+        [
+          "95-99",
+          7
+        ],
+        [
+          "100+",
+          0
+        ]
+      ],
+      "name": "Schweizerinnen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "stacking": "normal",
+      "stack": "male",
+      "legendIndex": 0,
+      "index": 3,
+      "data": [
+        [
+          "0-4",
+          -31
+        ],
+        [
+          "5-9",
+          -16
+        ],
+        [
+          "10-14",
+          -23
+        ],
+        [
+          "15-19",
+          -21
+        ],
+        [
+          "20-24",
+          -41
+        ],
+        [
+          "25-29",
+          -66
+        ],
+        [
+          "30-34",
+          -89
+        ],
+        [
+          "35-39",
+          -61
+        ],
+        [
+          "40-44",
+          -47
+        ],
+        [
+          "45-49",
+          -46
+        ],
+        [
+          "50-54",
+          -56
+        ],
+        [
+          "55-59",
+          -76
+        ],
+        [
+          "60-64",
+          -61
+        ],
+        [
+          "65-69",
+          -61
+        ],
+        [
+          "70-74",
+          -48
+        ],
+        [
+          "75-79",
+          -27
+        ],
+        [
+          "80-84",
+          -24
+        ],
+        [
+          "85-89",
+          -21
+        ],
+        [
+          "90-94",
+          -8
+        ],
+        [
+          "95-99",
+          -1
+        ],
+        [
+          "100+",
+          0
+        ]
+      ],
+      "name": "Schweizer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#d00000",
+      "stacking": "normal",
+      "stack": "female",
+      "legendIndex": 3,
+      "index": 0,
+      "data": [
+        [
+          "0-4",
+          13
+        ],
+        [
+          "5-9",
+          13
+        ],
+        [
+          "10-14",
+          11
+        ],
+        [
+          "15-19",
+          12
+        ],
+        [
+          "20-24",
+          32
+        ],
+        [
+          "25-29",
+          66
+        ],
+        [
+          "30-34",
+          84
+        ],
+        [
+          "35-39",
+          64
+        ],
+        [
+          "40-44",
+          35
+        ],
+        [
+          "45-49",
+          42
+        ],
+        [
+          "50-54",
+          38
+        ],
+        [
+          "55-59",
+          22
+        ],
+        [
+          "60-64",
+          7
+        ],
+        [
+          "65-69",
+          8
+        ],
+        [
+          "70-74",
+          7
+        ],
+        [
+          "75-79",
+          6
+        ],
+        [
+          "80-84",
+          3
+        ],
+        [
+          "85-89",
+          2
+        ],
+        [
+          "90-94",
+          1
+        ],
+        [
+          "95-99",
+          0
+        ],
+        [
+          "100+",
+          0
+        ]
+      ],
+      "name": "Ausländerinnen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#00bAf3",
+      "stacking": "normal",
+      "stack": "male",
+      "legendIndex": 2,
+      "index": 1,
+      "data": [
+        [
+          "0-4",
+          -21
+        ],
+        [
+          "5-9",
+          -10
+        ],
+        [
+          "10-14",
+          -11
+        ],
+        [
+          "15-19",
+          -9
+        ],
+        [
+          "20-24",
+          -15
+        ],
+        [
+          "25-29",
+          -46
+        ],
+        [
+          "30-34",
+          -79
+        ],
+        [
+          "35-39",
+          -71
+        ],
+        [
+          "40-44",
+          -42
+        ],
+        [
+          "45-49",
+          -32
+        ],
+        [
+          "50-54",
+          -32
+        ],
+        [
+          "55-59",
+          -27
+        ],
+        [
+          "60-64",
+          -17
+        ],
+        [
+          "65-69",
+          -10
+        ],
+        [
+          "70-74",
+          -7
+        ],
+        [
+          "75-79",
+          -12
+        ],
+        [
+          "80-84",
+          -9
+        ],
+        [
+          "85-89",
+          0
+        ],
+        [
+          "90-94",
+          0
+        ],
+        [
+          "95-99",
+          0
+        ],
+        [
+          "100+",
+          0
+        ]
+      ],
+      "name": "Ausländer",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "Altstadt Kleinbasel",
+          12
+        ],
+        [
+          "Altstadt Kleinbasel",
+          12
+        ],
+        [
+          "Altstadt Kleinbasel",
+          12
+        ],
+        [
+          "Altstadt Kleinbasel",
+          12
+        ],
+        [
+          "Altstadt Kleinbasel",
+          12
+        ],
+        [
+          "Altstadt Kleinbasel",
+          12
+        ],
+        [
+          "Altstadt Kleinbasel",
+          12
+        ],
+        [
+          "Altstadt Kleinbasel",
+          12
+        ],
+        [
+          "Altstadt Kleinbasel",
+          12
+        ],
+        [
+          "Altstadt Kleinbasel",
+          12
+        ],
+        [
+          "Altstadt Kleinbasel",
+          12
+        ],
+        [
+          "Altstadt Kleinbasel",
+          12
+        ],
+        [
+          "Altstadt Kleinbasel",
+          12
+        ],
+        [
+          "Altstadt Kleinbasel",
+          12
+        ],
+        [
+          "Altstadt Kleinbasel",
+          12
+        ],
+        [
+          "Altstadt Kleinbasel",
+          12
+        ],
+        [
+          "Altstadt Kleinbasel",
+          12
+        ],
+        [
+          "Altstadt Kleinbasel",
+          12
+        ],
+        [
+          "Altstadt Kleinbasel",
+          12
+        ],
+        [
+          "Altstadt Kleinbasel",
+          12
+        ],
+        [
+          "Altstadt Kleinbasel",
+          12
+        ]
+      ],
+      "name": "Wohnviertel_Id",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": [
+    {
+      "reversed": false,
+      "type": "category",
+      "labels": {
+        "step": 1,
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickLength": 0,
+      "title": {
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickColor": "#FFFFFF"
+    },
+    {
+      "type": "category",
+      "visible": false,
+      "opposite": true,
+      "reversed": false,
+      "linkedTo": 0
+    }
+  ],
+  "chart": {
+    "type": "bar",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+                    this.credits.element.onclick = function() {};
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top'){
+                      this.update({
+                         legend: {
+                           x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 105 //fixed offset instead of /charts/templates/populationPyramid001.js
+                         }
+                      });
+                    }
+                }
+    },
+    "marginRight": 15,
+    "renderTo": "container-6923"
+  },
+  "plotOptions": {
+    "bar": {
+      "grouping": false
+    },
+    "series": {
+      "stacking": null,
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "groupPadding": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Alterspyramide nach Geschlecht und Heimat"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Altstadt Kleinbasel, 2017",
+    "align": "left"
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "step": 1,
+        "formatter": function () {
+                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
+            	},
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "plotLines": [
+        {
+          "value": 0,
+          "color": "white",
+          "width": 1,
+          "zIndex": 4
+        }
+      ],
+      "events": {
+        "afterSetExtremes": function (args){
+            	    this.chart.options.customFunctions.createSymmetricAxis(this);
+                }
+      }
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik."
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemWidth": 140,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormatter": function () {
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 0, ",", " ") + '</b><br/>';
+            },
+    "shared": true,
+    "formatter": function () { //sum values correctly
+                var s = '<span style="font-size: 12px">' + this.points[0].series.chart.series[4].data[0].name + ':</span><br/> <span style="font-size: 12px">Alter: <b>' + this.points[0].key + '</b></span><br/>';
+                var sum = 0;
+                $.each(this.points, function(i, point) {
+                    var v = Math.sqrt(this.y*this.y); //make - to + again
+                    s += '<span style="color:'+point.series.color+'">\u25CF</span> '+point.series.name+': <b>'+v+'</b><br/>';
+                    sum += v;
+                });
+                s += 'Total: <b>'+ sum + '</b>';
+                return s;
+            }
+  },
+  "customFunctions": {
+    "createSymmetricAxis": function (axis){
+                var absMax = Math.max(Math.abs(axis.dataMin), Math.abs(axis.dataMax));
+                axis.setExtremes(-absMax, absMax);
+        	},
+    "filter": "12",
+    "data-id": 6893
+  },
+  "exporting": {
+    "filename": 6923
+  }
+}

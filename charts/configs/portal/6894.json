@@ -1,0 +1,655 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "stacking": "normal",
+      "stack": "female",
+      "legendIndex": 1,
+      "index": 2,
+      "data": [
+        [
+          "0-4",
+          47
+        ],
+        [
+          "5-9",
+          26
+        ],
+        [
+          "10-14",
+          26
+        ],
+        [
+          "15-19",
+          36
+        ],
+        [
+          "20-24",
+          103
+        ],
+        [
+          "25-29",
+          123
+        ],
+        [
+          "30-34",
+          79
+        ],
+        [
+          "35-39",
+          84
+        ],
+        [
+          "40-44",
+          55
+        ],
+        [
+          "45-49",
+          79
+        ],
+        [
+          "50-54",
+          89
+        ],
+        [
+          "55-59",
+          108
+        ],
+        [
+          "60-64",
+          106
+        ],
+        [
+          "65-69",
+          127
+        ],
+        [
+          "70-74",
+          127
+        ],
+        [
+          "75-79",
+          143
+        ],
+        [
+          "80-84",
+          105
+        ],
+        [
+          "85-89",
+          84
+        ],
+        [
+          "90-94",
+          63
+        ],
+        [
+          "95-99",
+          16
+        ],
+        [
+          "100+",
+          3
+        ]
+      ],
+      "name": "Schweizerinnen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "stacking": "normal",
+      "stack": "male",
+      "legendIndex": 0,
+      "index": 3,
+      "data": [
+        [
+          "0-4",
+          -46
+        ],
+        [
+          "5-9",
+          -35
+        ],
+        [
+          "10-14",
+          -20
+        ],
+        [
+          "15-19",
+          -42
+        ],
+        [
+          "20-24",
+          -88
+        ],
+        [
+          "25-29",
+          -124
+        ],
+        [
+          "30-34",
+          -114
+        ],
+        [
+          "35-39",
+          -81
+        ],
+        [
+          "40-44",
+          -66
+        ],
+        [
+          "45-49",
+          -98
+        ],
+        [
+          "50-54",
+          -138
+        ],
+        [
+          "55-59",
+          -99
+        ],
+        [
+          "60-64",
+          -94
+        ],
+        [
+          "65-69",
+          -96
+        ],
+        [
+          "70-74",
+          -97
+        ],
+        [
+          "75-79",
+          -91
+        ],
+        [
+          "80-84",
+          -63
+        ],
+        [
+          "85-89",
+          -48
+        ],
+        [
+          "90-94",
+          -17
+        ],
+        [
+          "95-99",
+          -3
+        ],
+        [
+          "100+",
+          0
+        ]
+      ],
+      "name": "Schweizer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#d00000",
+      "stacking": "normal",
+      "stack": "female",
+      "legendIndex": 3,
+      "index": 0,
+      "data": [
+        [
+          "0-4",
+          35
+        ],
+        [
+          "5-9",
+          33
+        ],
+        [
+          "10-14",
+          28
+        ],
+        [
+          "15-19",
+          42
+        ],
+        [
+          "20-24",
+          42
+        ],
+        [
+          "25-29",
+          104
+        ],
+        [
+          "30-34",
+          149
+        ],
+        [
+          "35-39",
+          106
+        ],
+        [
+          "40-44",
+          109
+        ],
+        [
+          "45-49",
+          77
+        ],
+        [
+          "50-54",
+          89
+        ],
+        [
+          "55-59",
+          33
+        ],
+        [
+          "60-64",
+          34
+        ],
+        [
+          "65-69",
+          14
+        ],
+        [
+          "70-74",
+          17
+        ],
+        [
+          "75-79",
+          11
+        ],
+        [
+          "80-84",
+          4
+        ],
+        [
+          "85-89",
+          8
+        ],
+        [
+          "90-94",
+          2
+        ],
+        [
+          "95-99",
+          0
+        ],
+        [
+          "100+",
+          0
+        ]
+      ],
+      "name": "Ausländerinnen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#00bAf3",
+      "stacking": "normal",
+      "stack": "male",
+      "legendIndex": 2,
+      "index": 1,
+      "data": [
+        [
+          "0-4",
+          -50
+        ],
+        [
+          "5-9",
+          -31
+        ],
+        [
+          "10-14",
+          -42
+        ],
+        [
+          "15-19",
+          -24
+        ],
+        [
+          "20-24",
+          -33
+        ],
+        [
+          "25-29",
+          -109
+        ],
+        [
+          "30-34",
+          -132
+        ],
+        [
+          "35-39",
+          -112
+        ],
+        [
+          "40-44",
+          -105
+        ],
+        [
+          "45-49",
+          -103
+        ],
+        [
+          "50-54",
+          -93
+        ],
+        [
+          "55-59",
+          -54
+        ],
+        [
+          "60-64",
+          -41
+        ],
+        [
+          "65-69",
+          -20
+        ],
+        [
+          "70-74",
+          -18
+        ],
+        [
+          "75-79",
+          -7
+        ],
+        [
+          "80-84",
+          -8
+        ],
+        [
+          "85-89",
+          -7
+        ],
+        [
+          "90-94",
+          0
+        ],
+        [
+          "95-99",
+          0
+        ],
+        [
+          "100+",
+          0
+        ]
+      ],
+      "name": "Ausländer",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "Vorstädte",
+          2
+        ],
+        [
+          "Vorstädte",
+          2
+        ],
+        [
+          "Vorstädte",
+          2
+        ],
+        [
+          "Vorstädte",
+          2
+        ],
+        [
+          "Vorstädte",
+          2
+        ],
+        [
+          "Vorstädte",
+          2
+        ],
+        [
+          "Vorstädte",
+          2
+        ],
+        [
+          "Vorstädte",
+          2
+        ],
+        [
+          "Vorstädte",
+          2
+        ],
+        [
+          "Vorstädte",
+          2
+        ],
+        [
+          "Vorstädte",
+          2
+        ],
+        [
+          "Vorstädte",
+          2
+        ],
+        [
+          "Vorstädte",
+          2
+        ],
+        [
+          "Vorstädte",
+          2
+        ],
+        [
+          "Vorstädte",
+          2
+        ],
+        [
+          "Vorstädte",
+          2
+        ],
+        [
+          "Vorstädte",
+          2
+        ],
+        [
+          "Vorstädte",
+          2
+        ],
+        [
+          "Vorstädte",
+          2
+        ],
+        [
+          "Vorstädte",
+          2
+        ],
+        [
+          "Vorstädte",
+          2
+        ]
+      ],
+      "name": "Wohnviertel_Id",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": [
+    {
+      "reversed": false,
+      "type": "category",
+      "labels": {
+        "step": 1,
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickLength": 0,
+      "title": {
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickColor": "#FFFFFF"
+    },
+    {
+      "type": "category",
+      "visible": false,
+      "opposite": true,
+      "reversed": false,
+      "linkedTo": 0
+    }
+  ],
+  "chart": {
+    "type": "bar",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+                    this.credits.element.onclick = function() {};
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top'){
+                      this.update({
+                         legend: {
+                           x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 105 //fixed offset instead of /charts/templates/populationPyramid001.js
+                         }
+                      });
+                    }
+                }
+    },
+    "marginRight": 15,
+    "renderTo": "container-6894"
+  },
+  "plotOptions": {
+    "bar": {
+      "grouping": false
+    },
+    "series": {
+      "stacking": null,
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "groupPadding": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Alterspyramide nach Geschlecht und Heimat"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Vorstädte, 2017",
+    "align": "left"
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "step": 1,
+        "formatter": function () {
+                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
+            	},
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "plotLines": [
+        {
+          "value": 0,
+          "color": "white",
+          "width": 1,
+          "zIndex": 4
+        }
+      ],
+      "events": {
+        "afterSetExtremes": function (args){
+            	    this.chart.options.customFunctions.createSymmetricAxis(this);
+                }
+      }
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik."
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemWidth": 140,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormatter": function () {
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 0, ",", " ") + '</b><br/>';
+            },
+    "shared": true,
+    "formatter": function () { //sum values correctly
+                var s = '<span style="font-size: 12px">' + this.points[0].series.chart.series[4].data[0].name + ':</span><br/> <span style="font-size: 12px">Alter: <b>' + this.points[0].key + '</b></span><br/>';
+                var sum = 0;
+                $.each(this.points, function(i, point) {
+                    var v = Math.sqrt(this.y*this.y); //make - to + again
+                    s += '<span style="color:'+point.series.color+'">\u25CF</span> '+point.series.name+': <b>'+v+'</b><br/>';
+                    sum += v;
+                });
+                s += 'Total: <b>'+ sum + '</b>';
+                return s;
+            }
+  },
+  "customFunctions": {
+    "createSymmetricAxis": function (axis){
+                var absMax = Math.max(Math.abs(axis.dataMin), Math.abs(axis.dataMax));
+                axis.setExtremes(-absMax, absMax);
+        	},
+    "filter": "2",
+    "data-id": 6893
+  },
+  "exporting": {
+    "filename": 6894
+  }
+}

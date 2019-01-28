@@ -357,7 +357,10 @@
     "text": "Quelle: Meteorologischer Verein der Region Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
   },
   "legend": {
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
   },
   "rangeSelector": {
     "verticalAlign": "bottom",

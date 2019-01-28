@@ -28,13 +28,13 @@
             title: {
                 text: null
             },
-            "labels": {
+            labels: {
             	step: 1,
                 formatter: function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 1, ",", " ")+"%";
             	},
-                "style": {
-                    "color": "#000000"
+                style: {
+                    color: "#000000"
                 }
             },
             plotLines: [{
@@ -116,7 +116,7 @@
         },
         chart:{
         	spacingBottom: 50,
-        	marginRight: 15,
+        	marginRight: 15, 
         }
 	};
 }());

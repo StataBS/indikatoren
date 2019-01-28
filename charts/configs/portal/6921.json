@@ -1,0 +1,655 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "stacking": "normal",
+      "stack": "female",
+      "legendIndex": 1,
+      "index": 2,
+      "data": [
+        [
+          "0-4",
+          239
+        ],
+        [
+          "5-9",
+          198
+        ],
+        [
+          "10-14",
+          188
+        ],
+        [
+          "15-19",
+          222
+        ],
+        [
+          "20-24",
+          420
+        ],
+        [
+          "25-29",
+          567
+        ],
+        [
+          "30-34",
+          407
+        ],
+        [
+          "35-39",
+          312
+        ],
+        [
+          "40-44",
+          267
+        ],
+        [
+          "45-49",
+          315
+        ],
+        [
+          "50-54",
+          446
+        ],
+        [
+          "55-59",
+          393
+        ],
+        [
+          "60-64",
+          322
+        ],
+        [
+          "65-69",
+          334
+        ],
+        [
+          "70-74",
+          300
+        ],
+        [
+          "75-79",
+          255
+        ],
+        [
+          "80-84",
+          238
+        ],
+        [
+          "85-89",
+          193
+        ],
+        [
+          "90-94",
+          63
+        ],
+        [
+          "95-99",
+          20
+        ],
+        [
+          "100+",
+          3
+        ]
+      ],
+      "name": "Schweizerinnen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "stacking": "normal",
+      "stack": "male",
+      "legendIndex": 0,
+      "index": 3,
+      "data": [
+        [
+          "0-4",
+          -227
+        ],
+        [
+          "5-9",
+          -215
+        ],
+        [
+          "10-14",
+          -193
+        ],
+        [
+          "15-19",
+          -268
+        ],
+        [
+          "20-24",
+          -317
+        ],
+        [
+          "25-29",
+          -436
+        ],
+        [
+          "30-34",
+          -374
+        ],
+        [
+          "35-39",
+          -280
+        ],
+        [
+          "40-44",
+          -252
+        ],
+        [
+          "45-49",
+          -279
+        ],
+        [
+          "50-54",
+          -368
+        ],
+        [
+          "55-59",
+          -358
+        ],
+        [
+          "60-64",
+          -288
+        ],
+        [
+          "65-69",
+          -276
+        ],
+        [
+          "70-74",
+          -191
+        ],
+        [
+          "75-79",
+          -165
+        ],
+        [
+          "80-84",
+          -121
+        ],
+        [
+          "85-89",
+          -113
+        ],
+        [
+          "90-94",
+          -34
+        ],
+        [
+          "95-99",
+          -3
+        ],
+        [
+          "100+",
+          -1
+        ]
+      ],
+      "name": "Schweizer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#d00000",
+      "stacking": "normal",
+      "stack": "female",
+      "legendIndex": 3,
+      "index": 0,
+      "data": [
+        [
+          "0-4",
+          157
+        ],
+        [
+          "5-9",
+          155
+        ],
+        [
+          "10-14",
+          122
+        ],
+        [
+          "15-19",
+          116
+        ],
+        [
+          "20-24",
+          202
+        ],
+        [
+          "25-29",
+          321
+        ],
+        [
+          "30-34",
+          417
+        ],
+        [
+          "35-39",
+          357
+        ],
+        [
+          "40-44",
+          306
+        ],
+        [
+          "45-49",
+          226
+        ],
+        [
+          "50-54",
+          215
+        ],
+        [
+          "55-59",
+          166
+        ],
+        [
+          "60-64",
+          119
+        ],
+        [
+          "65-69",
+          90
+        ],
+        [
+          "70-74",
+          54
+        ],
+        [
+          "75-79",
+          47
+        ],
+        [
+          "80-84",
+          32
+        ],
+        [
+          "85-89",
+          19
+        ],
+        [
+          "90-94",
+          8
+        ],
+        [
+          "95-99",
+          2
+        ],
+        [
+          "100+",
+          0
+        ]
+      ],
+      "name": "Ausländerinnen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#00bAf3",
+      "stacking": "normal",
+      "stack": "male",
+      "legendIndex": 2,
+      "index": 1,
+      "data": [
+        [
+          "0-4",
+          -167
+        ],
+        [
+          "5-9",
+          -149
+        ],
+        [
+          "10-14",
+          -143
+        ],
+        [
+          "15-19",
+          -130
+        ],
+        [
+          "20-24",
+          -146
+        ],
+        [
+          "25-29",
+          -329
+        ],
+        [
+          "30-34",
+          -413
+        ],
+        [
+          "35-39",
+          -383
+        ],
+        [
+          "40-44",
+          -296
+        ],
+        [
+          "45-49",
+          -294
+        ],
+        [
+          "50-54",
+          -236
+        ],
+        [
+          "55-59",
+          -194
+        ],
+        [
+          "60-64",
+          -127
+        ],
+        [
+          "65-69",
+          -97
+        ],
+        [
+          "70-74",
+          -61
+        ],
+        [
+          "75-79",
+          -51
+        ],
+        [
+          "80-84",
+          -30
+        ],
+        [
+          "85-89",
+          -8
+        ],
+        [
+          "90-94",
+          -2
+        ],
+        [
+          "95-99",
+          -1
+        ],
+        [
+          "100+",
+          0
+        ]
+      ],
+      "name": "Ausländer",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "Iselin",
+          10
+        ],
+        [
+          "Iselin",
+          10
+        ],
+        [
+          "Iselin",
+          10
+        ],
+        [
+          "Iselin",
+          10
+        ],
+        [
+          "Iselin",
+          10
+        ],
+        [
+          "Iselin",
+          10
+        ],
+        [
+          "Iselin",
+          10
+        ],
+        [
+          "Iselin",
+          10
+        ],
+        [
+          "Iselin",
+          10
+        ],
+        [
+          "Iselin",
+          10
+        ],
+        [
+          "Iselin",
+          10
+        ],
+        [
+          "Iselin",
+          10
+        ],
+        [
+          "Iselin",
+          10
+        ],
+        [
+          "Iselin",
+          10
+        ],
+        [
+          "Iselin",
+          10
+        ],
+        [
+          "Iselin",
+          10
+        ],
+        [
+          "Iselin",
+          10
+        ],
+        [
+          "Iselin",
+          10
+        ],
+        [
+          "Iselin",
+          10
+        ],
+        [
+          "Iselin",
+          10
+        ],
+        [
+          "Iselin",
+          10
+        ]
+      ],
+      "name": "Wohnviertel_Id",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": [
+    {
+      "reversed": false,
+      "type": "category",
+      "labels": {
+        "step": 1,
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickLength": 0,
+      "title": {
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickColor": "#FFFFFF"
+    },
+    {
+      "type": "category",
+      "visible": false,
+      "opposite": true,
+      "reversed": false,
+      "linkedTo": 0
+    }
+  ],
+  "chart": {
+    "type": "bar",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+                    this.credits.element.onclick = function() {};
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top'){
+                      this.update({
+                         legend: {
+                           x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 105 //fixed offset instead of /charts/templates/populationPyramid001.js
+                         }
+                      });
+                    }
+                }
+    },
+    "marginRight": 15,
+    "renderTo": "container-6921"
+  },
+  "plotOptions": {
+    "bar": {
+      "grouping": false
+    },
+    "series": {
+      "stacking": null,
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "groupPadding": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Alterspyramide nach Geschlecht und Heimat"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Iselin, 2017",
+    "align": "left"
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "step": 1,
+        "formatter": function () {
+                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
+            	},
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "plotLines": [
+        {
+          "value": 0,
+          "color": "white",
+          "width": 1,
+          "zIndex": 4
+        }
+      ],
+      "events": {
+        "afterSetExtremes": function (args){
+            	    this.chart.options.customFunctions.createSymmetricAxis(this);
+                }
+      }
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik."
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemWidth": 140,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormatter": function () {
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 0, ",", " ") + '</b><br/>';
+            },
+    "shared": true,
+    "formatter": function () { //sum values correctly
+                var s = '<span style="font-size: 12px">' + this.points[0].series.chart.series[4].data[0].name + ':</span><br/> <span style="font-size: 12px">Alter: <b>' + this.points[0].key + '</b></span><br/>';
+                var sum = 0;
+                $.each(this.points, function(i, point) {
+                    var v = Math.sqrt(this.y*this.y); //make - to + again
+                    s += '<span style="color:'+point.series.color+'">\u25CF</span> '+point.series.name+': <b>'+v+'</b><br/>';
+                    sum += v;
+                });
+                s += 'Total: <b>'+ sum + '</b>';
+                return s;
+            }
+  },
+  "customFunctions": {
+    "createSymmetricAxis": function (axis){
+                var absMax = Math.max(Math.abs(axis.dataMin), Math.abs(axis.dataMax));
+                axis.setExtremes(-absMax, absMax);
+        	},
+    "filter": "10",
+    "data-id": 6893
+  },
+  "exporting": {
+    "filename": 6921
+  }
+}

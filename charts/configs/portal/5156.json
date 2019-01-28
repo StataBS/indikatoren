@@ -438,7 +438,7 @@
   },
   "customFunctions": {
     "createSymmetricAxis": function (axis){
-                var absMax = Math.max(Math.abs(axis.min), Math.abs(axis.max));
+                var absMax = Math.max(Math.abs(axis.dataMin), Math.abs(axis.dataMax));
                 axis.setExtremes(-absMax, absMax);
         	}
   },

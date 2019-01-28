@@ -1,0 +1,655 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "stacking": "normal",
+      "stack": "female",
+      "legendIndex": 1,
+      "index": 2,
+      "data": [
+        [
+          "0-4",
+          258
+        ],
+        [
+          "5-9",
+          226
+        ],
+        [
+          "10-14",
+          195
+        ],
+        [
+          "15-19",
+          224
+        ],
+        [
+          "20-24",
+          461
+        ],
+        [
+          "25-29",
+          551
+        ],
+        [
+          "30-34",
+          437
+        ],
+        [
+          "35-39",
+          310
+        ],
+        [
+          "40-44",
+          264
+        ],
+        [
+          "45-49",
+          291
+        ],
+        [
+          "50-54",
+          372
+        ],
+        [
+          "55-59",
+          360
+        ],
+        [
+          "60-64",
+          311
+        ],
+        [
+          "65-69",
+          268
+        ],
+        [
+          "70-74",
+          263
+        ],
+        [
+          "75-79",
+          214
+        ],
+        [
+          "80-84",
+          233
+        ],
+        [
+          "85-89",
+          246
+        ],
+        [
+          "90-94",
+          146
+        ],
+        [
+          "95-99",
+          50
+        ],
+        [
+          "100+",
+          6
+        ]
+      ],
+      "name": "Schweizerinnen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "stacking": "normal",
+      "stack": "male",
+      "legendIndex": 0,
+      "index": 3,
+      "data": [
+        [
+          "0-4",
+          -230
+        ],
+        [
+          "5-9",
+          -205
+        ],
+        [
+          "10-14",
+          -192
+        ],
+        [
+          "15-19",
+          -232
+        ],
+        [
+          "20-24",
+          -357
+        ],
+        [
+          "25-29",
+          -429
+        ],
+        [
+          "30-34",
+          -402
+        ],
+        [
+          "35-39",
+          -353
+        ],
+        [
+          "40-44",
+          -305
+        ],
+        [
+          "45-49",
+          -301
+        ],
+        [
+          "50-54",
+          -390
+        ],
+        [
+          "55-59",
+          -365
+        ],
+        [
+          "60-64",
+          -303
+        ],
+        [
+          "65-69",
+          -256
+        ],
+        [
+          "70-74",
+          -206
+        ],
+        [
+          "75-79",
+          -152
+        ],
+        [
+          "80-84",
+          -126
+        ],
+        [
+          "85-89",
+          -109
+        ],
+        [
+          "90-94",
+          -38
+        ],
+        [
+          "95-99",
+          -8
+        ],
+        [
+          "100+",
+          -1
+        ]
+      ],
+      "name": "Schweizer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#d00000",
+      "stacking": "normal",
+      "stack": "female",
+      "legendIndex": 3,
+      "index": 0,
+      "data": [
+        [
+          "0-4",
+          232
+        ],
+        [
+          "5-9",
+          170
+        ],
+        [
+          "10-14",
+          149
+        ],
+        [
+          "15-19",
+          135
+        ],
+        [
+          "20-24",
+          192
+        ],
+        [
+          "25-29",
+          401
+        ],
+        [
+          "30-34",
+          533
+        ],
+        [
+          "35-39",
+          491
+        ],
+        [
+          "40-44",
+          355
+        ],
+        [
+          "45-49",
+          300
+        ],
+        [
+          "50-54",
+          279
+        ],
+        [
+          "55-59",
+          193
+        ],
+        [
+          "60-64",
+          150
+        ],
+        [
+          "65-69",
+          100
+        ],
+        [
+          "70-74",
+          77
+        ],
+        [
+          "75-79",
+          62
+        ],
+        [
+          "80-84",
+          24
+        ],
+        [
+          "85-89",
+          14
+        ],
+        [
+          "90-94",
+          7
+        ],
+        [
+          "95-99",
+          1
+        ],
+        [
+          "100+",
+          0
+        ]
+      ],
+      "name": "Ausländerinnen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#00bAf3",
+      "stacking": "normal",
+      "stack": "male",
+      "legendIndex": 2,
+      "index": 1,
+      "data": [
+        [
+          "0-4",
+          -243
+        ],
+        [
+          "5-9",
+          -185
+        ],
+        [
+          "10-14",
+          -139
+        ],
+        [
+          "15-19",
+          -152
+        ],
+        [
+          "20-24",
+          -189
+        ],
+        [
+          "25-29",
+          -369
+        ],
+        [
+          "30-34",
+          -523
+        ],
+        [
+          "35-39",
+          -547
+        ],
+        [
+          "40-44",
+          -436
+        ],
+        [
+          "45-49",
+          -343
+        ],
+        [
+          "50-54",
+          -327
+        ],
+        [
+          "55-59",
+          -231
+        ],
+        [
+          "60-64",
+          -192
+        ],
+        [
+          "65-69",
+          -119
+        ],
+        [
+          "70-74",
+          -77
+        ],
+        [
+          "75-79",
+          -50
+        ],
+        [
+          "80-84",
+          -37
+        ],
+        [
+          "85-89",
+          -6
+        ],
+        [
+          "90-94",
+          -4
+        ],
+        [
+          "95-99",
+          0
+        ],
+        [
+          "100+",
+          0
+        ]
+      ],
+      "name": "Ausländer",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "St. Johann",
+          11
+        ],
+        [
+          "St. Johann",
+          11
+        ],
+        [
+          "St. Johann",
+          11
+        ],
+        [
+          "St. Johann",
+          11
+        ],
+        [
+          "St. Johann",
+          11
+        ],
+        [
+          "St. Johann",
+          11
+        ],
+        [
+          "St. Johann",
+          11
+        ],
+        [
+          "St. Johann",
+          11
+        ],
+        [
+          "St. Johann",
+          11
+        ],
+        [
+          "St. Johann",
+          11
+        ],
+        [
+          "St. Johann",
+          11
+        ],
+        [
+          "St. Johann",
+          11
+        ],
+        [
+          "St. Johann",
+          11
+        ],
+        [
+          "St. Johann",
+          11
+        ],
+        [
+          "St. Johann",
+          11
+        ],
+        [
+          "St. Johann",
+          11
+        ],
+        [
+          "St. Johann",
+          11
+        ],
+        [
+          "St. Johann",
+          11
+        ],
+        [
+          "St. Johann",
+          11
+        ],
+        [
+          "St. Johann",
+          11
+        ],
+        [
+          "St. Johann",
+          11
+        ]
+      ],
+      "name": "Wohnviertel_Id",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": [
+    {
+      "reversed": false,
+      "type": "category",
+      "labels": {
+        "step": 1,
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickLength": 0,
+      "title": {
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickColor": "#FFFFFF"
+    },
+    {
+      "type": "category",
+      "visible": false,
+      "opposite": true,
+      "reversed": false,
+      "linkedTo": 0
+    }
+  ],
+  "chart": {
+    "type": "bar",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+                    this.credits.element.onclick = function() {};
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top'){
+                      this.update({
+                         legend: {
+                           x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 105 //fixed offset instead of /charts/templates/populationPyramid001.js
+                         }
+                      });
+                    }
+                }
+    },
+    "marginRight": 15,
+    "renderTo": "container-6922"
+  },
+  "plotOptions": {
+    "bar": {
+      "grouping": false
+    },
+    "series": {
+      "stacking": null,
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "groupPadding": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Alterspyramide nach Geschlecht und Heimat"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "St. Johann, 2017",
+    "align": "left"
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "step": 1,
+        "formatter": function () {
+                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
+            	},
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "plotLines": [
+        {
+          "value": 0,
+          "color": "white",
+          "width": 1,
+          "zIndex": 4
+        }
+      ],
+      "events": {
+        "afterSetExtremes": function (args){
+            	    this.chart.options.customFunctions.createSymmetricAxis(this);
+                }
+      }
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik."
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemWidth": 140,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormatter": function () {
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 0, ",", " ") + '</b><br/>';
+            },
+    "shared": true,
+    "formatter": function () { //sum values correctly
+                var s = '<span style="font-size: 12px">' + this.points[0].series.chart.series[4].data[0].name + ':</span><br/> <span style="font-size: 12px">Alter: <b>' + this.points[0].key + '</b></span><br/>';
+                var sum = 0;
+                $.each(this.points, function(i, point) {
+                    var v = Math.sqrt(this.y*this.y); //make - to + again
+                    s += '<span style="color:'+point.series.color+'">\u25CF</span> '+point.series.name+': <b>'+v+'</b><br/>';
+                    sum += v;
+                });
+                s += 'Total: <b>'+ sum + '</b>';
+                return s;
+            }
+  },
+  "customFunctions": {
+    "createSymmetricAxis": function (axis){
+                var absMax = Math.max(Math.abs(axis.dataMin), Math.abs(axis.dataMax));
+                axis.setExtremes(-absMax, absMax);
+        	},
+    "filter": "11",
+    "data-id": 6893
+  },
+  "exporting": {
+    "filename": 6922
+  }
+}

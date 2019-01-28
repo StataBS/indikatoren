@@ -6,13 +6,16 @@ fs.removeSync('data/sets/');
 files.forEach(function(filepath){
     var fileContents = fs.readFileSync(filepath, 'utf8');
     var indikator = JSON.parse(fileContents);
-    var id = indikator.id;
-    var indikatorenset = indikator.kennzahlenset;
-    var destDir = 'data/sets/' + (indikatorenset ? indikatorenset : '(empty)');
-    var destFile = destDir + '/' + id + '.tsv';
-    var sourceFile = 'data/' + id + '.tsv';
-    fs.ensureDirSync(destDir);
-    if (indikator.visible){
-        fs.copySync(sourceFile, destFile);
+    //do not copy data if this chart uses data from another chart
+    if (!indikator["data-id"]){
+        var id = indikator.id;
+        var indikatorenset = indikator.kennzahlenset;
+        var destDir = 'data/sets/' + (indikatorenset ? indikatorenset : '(empty)');
+        var destFile = destDir + '/' + id + '.tsv';
+        var sourceFile = 'data/' + id + '.tsv';
+        fs.ensureDirSync(destDir);
+        if (indikator.visible){
+            fs.copySync(sourceFile, destFile);
+        }
     }
 });
