@@ -25,6 +25,9 @@ https.get(urlBase + "verzeichnis.txt", listOfCharts => {
                 https.get(url, fileContents => {
                     const stream = fileContents.pipe(file);
                     //stream.on("finish", function() {});
+                })
+                .on('error', e => {
+                    console.log(e);
                 });
             };
             //for each line: download and save json / tsv
@@ -37,8 +40,13 @@ https.get(urlBase + "verzeichnis.txt", listOfCharts => {
                 console.log('checking out ' + row.Indikator + '.js and ' + row.Indikator + '.tsv from branch ' + row.Branch + '...');
                 var gitJsCommand = 'git checkout origin/issue-' + row.Branch + ' -- charts/templates/' + row.Indikator + '.js';
                 console.log(gitJsCommand);
-                child_process.execSync(gitJsCommand);
-                child_process.execSync('git checkout origin/issue-' + row.Branch + ' -- data/' + row.Indikator + '.tsv');
+                try{
+                    child_process.execSync(gitJsCommand);
+                    child_process.execSync('git checkout origin/issue-' + row.Branch + ' -- data/' + row.Indikator + '.tsv');
+                }
+                catch(error){
+                    //console.log(JSON.stringify(error));
+                }
             }
         });
         console.log('...done!');
