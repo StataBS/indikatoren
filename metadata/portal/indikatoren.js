@@ -13472,7 +13472,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Sesshaftigkeit nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.06373",
 		"kuerzelKunde": "C1-4",
 		"description": "Sesshaftigkeit nach Wohnviertel",
@@ -13482,13 +13482,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:32.3232",
+		"aktualisierungsdatum": "2019-01-25T22:10:41.4141",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (43%) und Bachletten (42%) sowie in den Gemeinden Riehen und Bettingen (je 43%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Vorstädte (28%), Altstadt Kleinbasel (27%) und Rosental (21%).",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz und Bachletten (je 42%) sowie in der Gemeinden Riehen (43%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (29%), Vorstädte (28%) und Rosental (20%).",
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"template": "map002",
 		"darstellungsart": "Karte kontinuierlich",
@@ -13497,10 +13497,12 @@ var indikatoren = [
 		"orderKey": "02_00_00_00_00_004",
 		"parentId": null,
 		"children": [
-			"6385"
+			"6385",
+			"6778"
 		],
 		"renderLink": [
-			"6385"
+			"6385",
+			"6778"
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -13572,7 +13574,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:33.3333",
+		"aktualisierungsdatum": "2019-01-25T22:14:33.3333",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -13613,7 +13615,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:33.3333",
+		"aktualisierungsdatum": "2019-01-25T22:15:23.2323",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -13828,7 +13830,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Ausländische Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.06381",
 		"kuerzelKunde": "C1-3",
 		"description": "Ausländische Bevölkerung nach Wohnviertel",
@@ -13838,13 +13840,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:33.3333",
+		"aktualisierungsdatum": "2019-01-25T22:16:51.5151",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2017 war der Ausländeranteil in den Wohnvierteln Rosental (56%), Matthäus (50%) und Klybeck (52%) am höchsten. Den niedrigsten Ausländeranteil wiesen die Wohnviertel Bruderholz (24%) und Bachletten (21%) sowie die Gemeinde Bettingen auf (24%). In den Wohnvierteln Klybeck und Kleinhüningen bildeteten die Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln sind es die Deutschen.",
+		"lesehilfe": "Ende 2018 war der Ausländeranteil in den Wohnvierteln Rosental (56%), Matthäus (51%) und Klybeck (52%) am höchsten. Den niedrigsten Ausländeranteil wiesen die Wohnviertel Bruderholz (25%) und Bachletten (22%) sowie die Gemeinde Bettingen auf (25%). In den Wohnvierteln Klybeck und  Kleinhüningen bildeteten die Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln sind es die Deutschen.",
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"template": "mappie002",
 		"darstellungsart": "Karte kontinuierlich",
@@ -13852,12 +13854,8 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_003",
 		"parentId": null,
-		"children": [
-			"6778"
-		],
-		"renderLink": [
-			"6778"
-		],
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -14010,7 +14008,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Sesshaftigkeit nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.06385",
 		"kuerzelKunde": "K1-4",
 		"description": "Sesshaftigkeit nach Wohnviertel",
@@ -14020,13 +14018,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:32.3232",
+		"aktualisierungsdatum": "2019-01-25T22:10:41.4141",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (43%) und Bachletten (42%) sowie in den Gemeinden Riehen und Bettingen (je 43%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Vorstädte (28%), Altstadt Kleinbasel (27%) und Rosental (21%).",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz und Bachletten (je 42%) sowie in der Gemeinden Riehen (43%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (29%), Vorstädte (28%) und Rosental (20%).",
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"template": "map002",
 		"darstellungsart": "Karte kategoriell",
@@ -19908,9 +19906,9 @@ var indikatoren = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Altstadt Grossbasel; 2017",
+		"subtitle": "Altstadt Grossbasel, 2017",
 		"kuerzel": "I.01.1.06893",
-		"kuerzelKunde": "TG-GS-AP-01",
+		"kuerzelKunde": "GS-01.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -19918,7 +19916,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:21:26.2626",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -19950,7 +19948,7 @@ var indikatoren = [
 		"title": "Alterspyramide nach Geschlecht und Heimat",
 		"subtitle": "Vorstädte, 2017",
 		"kuerzel": "I.01.1.06894",
-		"kuerzelKunde": "TG-GS-AP-02",
+		"kuerzelKunde": "GS-02.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -19958,7 +19956,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:49:07.077",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -19990,7 +19988,7 @@ var indikatoren = [
 		"title": "Alterspyramide nach Geschlecht und Heimat",
 		"subtitle": "Am Ring, 2017",
 		"kuerzel": "I.01.1.06895",
-		"kuerzelKunde": "TG-GS-AP-03",
+		"kuerzelKunde": "GS-03.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -19998,7 +19996,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:49:06.066",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -20642,7 +20640,7 @@ var indikatoren = [
 		"title": "Alterspyramide nach Geschlecht und Heimat",
 		"subtitle": "Breite, 2017",
 		"kuerzel": "I.01.1.06915",
-		"kuerzelKunde": "TG-GS-AP-04",
+		"kuerzelKunde": "GS-04.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -20650,7 +20648,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:49:05.055",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -20682,7 +20680,7 @@ var indikatoren = [
 		"title": "Alterspyramide nach Geschlecht und Heimat",
 		"subtitle": "St. Alban, 2017",
 		"kuerzel": "I.01.1.06916",
-		"kuerzelKunde": "TG-GS-AP-05",
+		"kuerzelKunde": "GS-05.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -20690,7 +20688,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:49:05.055",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -20722,7 +20720,7 @@ var indikatoren = [
 		"title": "Alterspyramide nach Geschlecht und Heimat",
 		"subtitle": "Gundeldingen, 2017",
 		"kuerzel": "I.01.1.06917",
-		"kuerzelKunde": "TG-GS-AP-06",
+		"kuerzelKunde": "GS-06.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -20730,7 +20728,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:49:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -20762,7 +20760,7 @@ var indikatoren = [
 		"title": "Alterspyramide nach Geschlecht und Heimat",
 		"subtitle": "Bruderholz, 2017",
 		"kuerzel": "I.01.1.06918",
-		"kuerzelKunde": "TG-GS-AP-07",
+		"kuerzelKunde": "GS-07.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -20770,7 +20768,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:49:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -20802,7 +20800,7 @@ var indikatoren = [
 		"title": "Alterspyramide nach Geschlecht und Heimat",
 		"subtitle": "Bachletten, 2017",
 		"kuerzel": "I.01.1.06919",
-		"kuerzelKunde": "TG-GS-AP-08",
+		"kuerzelKunde": "GS-08.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -20810,7 +20808,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:49:03.033",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -20842,7 +20840,7 @@ var indikatoren = [
 		"title": "Alterspyramide nach Geschlecht und Heimat",
 		"subtitle": "Gotthelf, 2017",
 		"kuerzel": "I.01.1.06920",
-		"kuerzelKunde": "TG-GS-AP-09",
+		"kuerzelKunde": "GS-09.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -20850,13 +20848,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:49:03.033",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Gotthelf  die Bevölkerung zwischen 30 und 39 Jahren weniger stark vertreten.",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Gotthelf die Bevölkerung zwischen 30 und 39 Jahren weniger stark vertreten.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -20882,7 +20880,7 @@ var indikatoren = [
 		"title": "Alterspyramide nach Geschlecht und Heimat",
 		"subtitle": "Iselin, 2017",
 		"kuerzel": "I.01.1.06921",
-		"kuerzelKunde": "TG-GS-AP-10",
+		"kuerzelKunde": "GS-10.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -20890,7 +20888,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:49:02.022",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -20922,7 +20920,7 @@ var indikatoren = [
 		"title": "Alterspyramide nach Geschlecht und Heimat",
 		"subtitle": "St. Johann, 2017",
 		"kuerzel": "I.01.1.06922",
-		"kuerzelKunde": "TG-GS-AP-11",
+		"kuerzelKunde": "GS-11.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -20930,7 +20928,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:49:02.022",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -20962,7 +20960,7 @@ var indikatoren = [
 		"title": "Alterspyramide nach Geschlecht und Heimat",
 		"subtitle": "Altstadt Kleinbasel, 2017",
 		"kuerzel": "I.01.1.06923",
-		"kuerzelKunde": "TG-GS-AP-12",
+		"kuerzelKunde": "GS-12.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -20970,7 +20968,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:49:01.011",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -21002,7 +21000,7 @@ var indikatoren = [
 		"title": "Alterspyramide nach Geschlecht und Heimat",
 		"subtitle": "Clara, 2017",
 		"kuerzel": "I.01.1.06924",
-		"kuerzelKunde": "TG-GS-AP-13",
+		"kuerzelKunde": "GS-13.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -21010,13 +21008,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:49:01.011",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerungs des Gesamtkantons leben im Wohnviertel Clara mehr Männer als Frauen im erwerbsfähigen Alter. Ab 80 Jahren ist der Anteil der Frauen höher als derjenige der Männer.",
+		"lesehilfe": "Im Vergleich zur Bevölkerungs des Gesamtkantons leben im Wohnviertel Clara mehr Männer als Frauen im erwerbsfähigen Alter. Ab 80 Jahren ist der Anteil der Frauen höher als jener der Männer.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -21042,7 +21040,7 @@ var indikatoren = [
 		"title": "Alterspyramide nach Geschlecht und Heimat",
 		"subtitle": "Wettstein, 2017",
 		"kuerzel": "I.01.1.06925",
-		"kuerzelKunde": "TG-GS-AP-14",
+		"kuerzelKunde": "GS-14.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -21050,7 +21048,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:49:00.000",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -21082,7 +21080,7 @@ var indikatoren = [
 		"title": "Alterspyramide nach Geschlecht und Heimat",
 		"subtitle": "Hirzbrunnen, 2017",
 		"kuerzel": "I.01.1.06926",
-		"kuerzelKunde": "TG-GS-AP-15",
+		"kuerzelKunde": "GS-15.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -21090,13 +21088,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:49:00.000",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons läuft jene des Wohnviertels Hirzbrunnen nach oben weniger spitz zu. Die Bevölkerung ist daher älter. Auch der Anteil der Kinder ist höher als im Gesamtkanton.",
+		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons läuft jene des Wohnviertels Hirzbrunnen nach oben weniger spitz zu. Die Bevölkerung ist daher älter. Der Anteil der Kinder ist höher als im Gesamtkanton.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -21122,7 +21120,7 @@ var indikatoren = [
 		"title": "Alterspyramide nach Geschlecht und Heimat",
 		"subtitle": "Rosental, 2017",
 		"kuerzel": "I.01.1.06927",
-		"kuerzelKunde": "TG-GS-AP-16",
+		"kuerzelKunde": "GS-16.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -21130,7 +21128,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:59.5959",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -21162,7 +21160,7 @@ var indikatoren = [
 		"title": "Alterspyramide nach Geschlecht und Heimat",
 		"subtitle": "Matthäus, 2017",
 		"kuerzel": "I.01.1.06928",
-		"kuerzelKunde": "TG-GS-AP-17",
+		"kuerzelKunde": "GS-17.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -21170,7 +21168,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:59.5959",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -21202,7 +21200,7 @@ var indikatoren = [
 		"title": "Alterspyramide nach Geschlecht und Heimat",
 		"subtitle": "Klybeck, 2017",
 		"kuerzel": "I.01.1.06929",
-		"kuerzelKunde": "TG-GS-AP-18",
+		"kuerzelKunde": "GS-18.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -21210,7 +21208,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:58.5858",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -21242,7 +21240,7 @@ var indikatoren = [
 		"title": "Alterspyramide nach Geschlecht und Heimat",
 		"subtitle": "Kleinhüningen, 2017",
 		"kuerzel": "I.01.1.06930",
-		"kuerzelKunde": "TG-GS-AP-19",
+		"kuerzelKunde": "GS-19.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -21250,7 +21248,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:58.5858",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -21282,7 +21280,7 @@ var indikatoren = [
 		"title": "Alterspyramide nach Geschlecht und Heimat",
 		"subtitle": "Riehen, 2017",
 		"kuerzel": "I.01.1.06931",
-		"kuerzelKunde": "TG-GS-AP-20",
+		"kuerzelKunde": "GS-20.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -21291,7 +21289,7 @@ var indikatoren = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:57.5757",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -21323,7 +21321,7 @@ var indikatoren = [
 		"title": "Alterspyramide nach Geschlecht und Heimat",
 		"subtitle": "Bettingen, 2017",
 		"kuerzel": "I.01.1.06932",
-		"kuerzelKunde": "TG-GS-AP-21",
+		"kuerzelKunde": "GS-21.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -21332,13 +21330,13 @@ var indikatoren = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:57.5757",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons fällt für die Gemeinde Bettingen auf, dass die Bevölkerungsgruppe der 45-Jährigen und Älteren derart stark vertreten ist, dass die Abbildung kaum mehr einer Pyramide ähnelt.",
+		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons fällt bei der Gemeinde Bettingen auf, dass die Bevölkerungsgruppe der 45-Jährigen und Älteren derart stark vertreten ist, dass die Abbildung kaum mehr einer Pyramide ähnelt.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -21364,7 +21362,7 @@ var indikatoren = [
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Altstadt Grossbasel",
 		"kuerzel": "I.01.1.06933",
-		"kuerzelKunde": "TG-GS-AB-01",
+		"kuerzelKunde": "GS-01.C",
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -21372,7 +21370,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:56.5656",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
@@ -21386,9 +21384,7 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "04_02_02_00_00_001",
 		"parentId": null,
-		"children": [
-			"7047"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -21406,7 +21402,7 @@ var indikatoren = [
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Vorstädte",
 		"kuerzel": "I.01.1.06935",
-		"kuerzelKunde": "TG-GS-AB-02",
+		"kuerzelKunde": "GS-02.C",
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -21414,7 +21410,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:55.5555",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
@@ -21446,7 +21442,7 @@ var indikatoren = [
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Am Ring",
 		"kuerzel": "I.01.1.06936",
-		"kuerzelKunde": "TG-GS-AB-03",
+		"kuerzelKunde": "GS-03.C",
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -21454,13 +21450,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:55.5555",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel am Ring weniger Türken. Wie im Gesamtkanton stellen die Deutschen die grösste Bevölkerungsgruppe dar.",
+		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Am Ring weniger Türken. Wie im Gesamtkanton stellen die Deutschen die grösste Bevölkerungsgruppe dar.",
 		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
@@ -21486,7 +21482,7 @@ var indikatoren = [
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Breite",
 		"kuerzel": "I.01.1.06937",
-		"kuerzelKunde": "TG-GS-AB-04",
+		"kuerzelKunde": "GS-04.C",
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -21494,7 +21490,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:55.5555",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
@@ -21526,7 +21522,7 @@ var indikatoren = [
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "St. Alban",
 		"kuerzel": "I.01.1.06938",
-		"kuerzelKunde": "TG-GS-AB-05",
+		"kuerzelKunde": "GS-05.C",
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -21534,7 +21530,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:54.5454",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
@@ -21566,7 +21562,7 @@ var indikatoren = [
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Gundeldingen",
 		"kuerzel": "I.01.1.06939",
-		"kuerzelKunde": "TG-GS-AB-06",
+		"kuerzelKunde": "GS-06.C",
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -21574,7 +21570,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:54.5454",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
@@ -21606,7 +21602,7 @@ var indikatoren = [
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Bruderholz",
 		"kuerzel": "I.01.1.06940",
-		"kuerzelKunde": "TG-GS-AB-07",
+		"kuerzelKunde": "GS-07.C",
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -21614,7 +21610,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:53.5353",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
@@ -21646,7 +21642,7 @@ var indikatoren = [
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Bachletten",
 		"kuerzel": "I.01.1.06941",
-		"kuerzelKunde": "TG-GS-AB-08",
+		"kuerzelKunde": "GS-08.C",
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -21654,7 +21650,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:53.5353",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
@@ -21686,7 +21682,7 @@ var indikatoren = [
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Gotthelf",
 		"kuerzel": "I.01.1.06942",
-		"kuerzelKunde": "TG-GS-AB-09",
+		"kuerzelKunde": "GS-09.C",
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -21694,7 +21690,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:52.5252",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
@@ -21726,7 +21722,7 @@ var indikatoren = [
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Iselin",
 		"kuerzel": "I.01.1.06943",
-		"kuerzelKunde": "TG-GS-AB-10",
+		"kuerzelKunde": "GS-10.C",
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -21734,7 +21730,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:52.5252",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
@@ -21766,7 +21762,7 @@ var indikatoren = [
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "St. Johann",
 		"kuerzel": "I.01.1.06944",
-		"kuerzelKunde": "TG-GS-AB-11",
+		"kuerzelKunde": "GS-11.C",
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -21774,7 +21770,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:51.5151",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
@@ -21846,7 +21842,7 @@ var indikatoren = [
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Clara",
 		"kuerzel": "I.01.1.06946",
-		"kuerzelKunde": "TG-GS-AB-13",
+		"kuerzelKunde": "GS-13.C",
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -21854,7 +21850,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:51.5151",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
@@ -21886,7 +21882,7 @@ var indikatoren = [
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Wettstein",
 		"kuerzel": "I.01.1.06947",
-		"kuerzelKunde": "TG-GS-AB-14",
+		"kuerzelKunde": "GS-14.C",
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -21894,7 +21890,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:50.5050",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
@@ -21926,7 +21922,7 @@ var indikatoren = [
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Hirzbrunnen",
 		"kuerzel": "I.01.1.06948",
-		"kuerzelKunde": "TG-GS-AB-15",
+		"kuerzelKunde": "GS-15.C",
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -21934,7 +21930,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:50.5050",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
@@ -21966,7 +21962,7 @@ var indikatoren = [
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Rosental",
 		"kuerzel": "I.01.1.06949",
-		"kuerzelKunde": "TG-GS-AB-16",
+		"kuerzelKunde": "GS-16.C",
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -21974,7 +21970,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:49.4949",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
@@ -22006,7 +22002,7 @@ var indikatoren = [
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Matthäus",
 		"kuerzel": "I.01.1.06951",
-		"kuerzelKunde": "TG-GS-AB-17",
+		"kuerzelKunde": "GS-17.C",
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -22014,7 +22010,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:49.4949",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
@@ -22046,7 +22042,7 @@ var indikatoren = [
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Klybeck",
 		"kuerzel": "I.01.1.06952",
-		"kuerzelKunde": "TG-GS-AB-18",
+		"kuerzelKunde": "GS-18.C",
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -22054,7 +22050,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:48.4848",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
@@ -22086,7 +22082,7 @@ var indikatoren = [
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Kleinhüningen",
 		"kuerzel": "I.01.1.06953",
-		"kuerzelKunde": "TG-GS-AB-19",
+		"kuerzelKunde": "GS-19.C",
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -22094,7 +22090,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:48.4848",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
@@ -22126,7 +22122,7 @@ var indikatoren = [
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Gemeinde Riehen",
 		"kuerzel": "I.01.1.06954",
-		"kuerzelKunde": "TG-GS-AB-20",
+		"kuerzelKunde": "GS-20.C",
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -22135,7 +22131,7 @@ var indikatoren = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:47.4747",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
@@ -22167,7 +22163,7 @@ var indikatoren = [
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Gemeinde Bettingen",
 		"kuerzel": "I.01.1.06955",
-		"kuerzelKunde": "TG-GS-AB-21",
+		"kuerzelKunde": "GS-21.C",
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -22176,7 +22172,7 @@ var indikatoren = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-25T21:48:47.4747",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
@@ -22248,7 +22244,7 @@ var indikatoren = [
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"subtitle": "Vorstädte, 2017",
 		"kuerzel": "I.09.1.06957",
-		"kuerzelKunde": "TG-RU-WZ-02",
+		"kuerzelKunde": "RU-02.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -22256,13 +22252,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-28T09:43:53.5353",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Vorstädte am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton deutlich häufiger Einzimmerwohnungen, aber etwas weniger häufig Zweizimmerwohnungen.",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Vorstädte am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton deutlich häufiger Einzimmerwohnungen, seltener hingegen Zweizimmerwohnungen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -22273,7 +22269,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -22288,7 +22284,7 @@ var indikatoren = [
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"subtitle": "Am Ring, 2017",
 		"kuerzel": "I.09.1.06958",
-		"kuerzelKunde": "TG-RU-WZ-03",
+		"kuerzelKunde": "RU-03.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -22296,7 +22292,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-28T09:44:19.1919",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -22313,7 +22309,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -22328,7 +22324,7 @@ var indikatoren = [
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"subtitle": "Breite, 2017",
 		"kuerzel": "I.09.1.06959",
-		"kuerzelKunde": "TG-RU-WZ-04",
+		"kuerzelKunde": "RU-04.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -22336,13 +22332,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-28T09:44:42.4242",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Breite liegen der Anteil der Dreizimmerwohnungen deutlich und die Anteile der Zweizimmerwohnungen leicht über dem kantonalen Durchschnitt. Wohnungen mit 6 und mehr Zimmern gibt es seltener.",
+		"lesehilfe": "Im Wohnviertel Breite liegt der Anteil der Dreizimmerwohnungen deutlich und der Anteil der Zweizimmerwohnungen leicht über dem kantonalen Durchschnitt. Wohnungen mit 6 und mehr Zimmern gibt es seltener.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -22353,7 +22349,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -22368,7 +22364,7 @@ var indikatoren = [
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"subtitle": "St. Alban, 2017",
 		"kuerzel": "I.09.1.06960",
-		"kuerzelKunde": "TG-RU-WZ-05",
+		"kuerzelKunde": "RU-05.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -22376,13 +22372,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-28T09:45:09.099",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel St. Alban am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton anteilmässig mehr Wohnungen mit vier und mehr Zimmern. Wohnungen mit ein und zwei Zimmern sind seltener.",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel St. Alban am häufigsten Dreizimmerwohnungen. Allerdings ist im Vergleich zum Gesamtkanton der Anteil mit Wohnungen mit vier und mehr Zimmern höher. Wohnungen mit ein und zwei Zimmern sind seltener.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -22393,7 +22389,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -22408,7 +22404,7 @@ var indikatoren = [
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"subtitle": "Gundeldingen, 2017",
 		"kuerzel": "I.09.1.06961",
-		"kuerzelKunde": "TG-RU-WZ-06",
+		"kuerzelKunde": "RU-06.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -22416,7 +22412,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-28T09:45:34.3434",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -22433,7 +22429,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -22448,19 +22444,19 @@ var indikatoren = [
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"subtitle": "Bruderholz, 2017",
 		"kuerzel": "I.09.1.06962",
-		"kuerzelKunde": "TG-RU-WZ-07",
+		"kuerzelKunde": "RU-07.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-28T09:46:14.1414",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zum Gesamtkanton gibt es im Wohnviertel Bruderholz anteilmässig deutlich mehr Wohnungen mit 6 und mehr Zimmern. Auch Wohnungen mit fünf und vier Zimmern gibt es häufiger als im kantonalen Durchschnitt. Dafür gibt es deutlich seltener Einzimmerwohnungen.",
+		"lesehilfe": "Im Vergleich zum Gesamtkanton gibt es im Wohnviertel Bruderholz einen höheren Anteil von Wohnungen mit sechs und mehr Zimmern. Auch Wohnungen mit vier und fünf Zimmern gibt es häufiger als im kantonalen Durchschnitt. Dafür gibt es deutlich seltener Einzimmerwohnungen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -22470,7 +22466,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -22484,7 +22482,7 @@ var indikatoren = [
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"subtitle": "Bachletten, 2017",
 		"kuerzel": "I.09.1.06963",
-		"kuerzelKunde": "TG-RU-WZ-08",
+		"kuerzelKunde": "RU-08.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -22492,7 +22490,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-28T09:46:37.3737",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -22509,7 +22507,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -22524,7 +22522,7 @@ var indikatoren = [
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"subtitle": "Gotthelf, 2017",
 		"kuerzel": "I.09.1.06964",
-		"kuerzelKunde": "TG-RU-WZ-09",
+		"kuerzelKunde": "RU-09.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -22532,13 +22530,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-28T09:47:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Drei- und Zweizimmerwohnungen im Wohnviertel Gotthelf entspricht genau dem kantonalen Durchschnitt. Der Anteil an Einzimmerwohnungen ist im Gesamtvergleich etwas höher.",
+		"lesehilfe": "Der Anteil Drei- und Zweizimmerwohnungen im Wohnviertel Gotthelf entspricht dem kantonalen Durchschnitt. Der Anteil an Einzimmerwohnungen ist im Gesamtvergleich etwas höher.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -22549,7 +22547,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -22564,7 +22562,7 @@ var indikatoren = [
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"subtitle": "Iselin, 2017",
 		"kuerzel": "I.09.1.06965",
-		"kuerzelKunde": "TG-RU-WZ-10",
+		"kuerzelKunde": "RU-10.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -22572,13 +22570,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-28T09:49:07.077",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Iselin am häufigsten Dreizimmerwohnungen gefolgt von Zwei- und Vierzimmerwohnungen. Insbesondere der Anteil an Zweizimmerwohnungen ist deutlich höher als im Gesamtkanton. Wohnungen mit 5 und mehr Zimmern gibt es seltener.",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Iselin am häufigsten Dreizimmerwohnungen gefolgt von Zwei- und Vierzimmerwohnungen. Insbesondere der Anteil an Zweizimmerwohnungen ist deutlich höher als im Gesamtkanton. Wohnungen mit fünf und mehr Zimmern gibt es seltener.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -22589,7 +22587,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -22604,7 +22602,7 @@ var indikatoren = [
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"subtitle": "St. Johann, 2017",
 		"kuerzel": "I.09.1.06966",
-		"kuerzelKunde": "TG-RU-WZ-11",
+		"kuerzelKunde": "RU-11.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -22612,13 +22610,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-28T09:49:35.3535",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel St. Johann am häufigsten Dreizimmerwohnungen, gefolgt von Zwei- und Vierzimmerwohnungen. Wohnungen mit fünf und mehr Zimmern gibt es im kantonalen Vergleich im Wohnviertel etwas seltener.",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel St. Johann am häufigsten Dreizimmerwohnungen, gefolgt von Zwei- und Vierzimmerwohnungen. Wohnungen mit fünf und mehr Zimmern gibt es im kantonalen Vergleich etwas seltener.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -22629,7 +22627,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -22644,7 +22642,7 @@ var indikatoren = [
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"subtitle": "Altstadt Kleinbasel, 2017",
 		"kuerzel": "I.09.1.06967",
-		"kuerzelKunde": "TG-RU-WZ-12",
+		"kuerzelKunde": "RU-12.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -22652,7 +22650,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-28T09:50:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -22669,7 +22667,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -22684,7 +22682,7 @@ var indikatoren = [
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"subtitle": "Clara, 2017",
 		"kuerzel": "I.09.1.06968",
-		"kuerzelKunde": "TG-RU-WZ-13",
+		"kuerzelKunde": "RU-13.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -22692,13 +22690,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-28T09:50:31.3131",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Altstadt Kleinbasel am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton anteilmässig deutlich mehr Zwei- und insbesondere Einzimmerwohnungen.",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Altstadt Kleinbasel am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton deutlich höhere Anteile bei den Zwei- und insbesondere bei den Einzimmerwohnungen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -22709,7 +22707,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -22724,7 +22722,7 @@ var indikatoren = [
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"subtitle": "Wettstein, 2017",
 		"kuerzel": "I.09.1.06969",
-		"kuerzelKunde": "TG-RU-WZ-14",
+		"kuerzelKunde": "RU-14.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -22732,7 +22730,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-28T09:51:00.000",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -22749,7 +22747,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -22764,7 +22762,7 @@ var indikatoren = [
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"subtitle": "Hirzbrunnen, 2017",
 		"kuerzel": "I.09.1.06970",
-		"kuerzelKunde": "TG-RU-WZ-15",
+		"kuerzelKunde": "RU-15.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -22772,7 +22770,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-28T09:51:32.3232",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -22789,7 +22787,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -22804,7 +22802,7 @@ var indikatoren = [
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"subtitle": "Rosental, 2017",
 		"kuerzel": "I.09.1.06971",
-		"kuerzelKunde": "TG-RU-WZ-16",
+		"kuerzelKunde": "RU-16.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -22812,13 +22810,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-28T09:51:59.5959",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Rosental am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton deutlich häufiger Zweizimmerwohnungen. Wohnungen mit sechs und mehr Zimmern gibt es gar nicht.",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Rosental am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich deutlich häufiger Zweizimmerwohnungen. Wohnungen mit sechs und mehr Zimmern gibt es kaum.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -22829,7 +22827,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -22844,7 +22842,7 @@ var indikatoren = [
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"subtitle": "Matthäus, 2017",
 		"kuerzel": "I.09.1.06972",
-		"kuerzelKunde": "TG-RU-WZ-17",
+		"kuerzelKunde": "RU-17.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -22852,7 +22850,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-28T09:52:24.2424",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -22869,7 +22867,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -22884,7 +22882,7 @@ var indikatoren = [
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"subtitle": "Klybeck, 2017",
 		"kuerzel": "I.09.1.06973",
-		"kuerzelKunde": "TG-RU-WZ-18",
+		"kuerzelKunde": "RU-18.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -22892,13 +22890,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-28T09:52:47.4747",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Klybeck am häufigsten Dreizimmerwohnungen. Allerdings gibt es fast genauso viele Zweizimmerwohnungen und damit anteilmässig im Vergleich zum Gesamtkanton deutlich mehr (36%). Das Wohnviertel Klybeck weist damit den höchsten Anteil an Zweizimmerwohnungen aus.",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Klybeck am häufigsten Dreizimmerwohnungen. Allerdings gibt es fast genauso viele Zweizimmerwohnungen und damit einen deutlich höheren Anteil im Vergleich zum Gesamtkanton (36%). Das Wohnviertel Klybeck weist damit den höchsten Anteil an Zweizimmerwohnungen aus.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -22909,7 +22907,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -22924,7 +22922,7 @@ var indikatoren = [
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"subtitle": "Kleinhüningen, 2017",
 		"kuerzel": "I.09.1.06974",
-		"kuerzelKunde": "TG-RU-WZ-19",
+		"kuerzelKunde": "RU-19.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -22932,7 +22930,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-28T09:53:13.1313",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -22949,7 +22947,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -22964,7 +22962,7 @@ var indikatoren = [
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"subtitle": "Gemeinde Riehen, 2017",
 		"kuerzel": "I.09.1.06975",
-		"kuerzelKunde": "TG-RU-WZ-20",
+		"kuerzelKunde": "RU-20.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -22973,7 +22971,7 @@ var indikatoren = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-28T09:53:41.4141",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -22990,7 +22988,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -23005,7 +23003,7 @@ var indikatoren = [
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"subtitle": "Gemeinde Bettingen, 2017",
 		"kuerzel": "I.09.1.06976",
-		"kuerzelKunde": "TG-RU-WZ-21",
+		"kuerzelKunde": "RU-21.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -23014,13 +23012,13 @@ var indikatoren = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-28T09:54:05.055",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Gemeinde Bettingen gibt es anteilmässig am meisten Wohnungen mit Fünfzimmern gefolgt von Wohnungen mit sechs und mehr Zimmern und Vierzimmerwohnungen. Dagegen weist die Landgemeinde kantonsweit die geringsten Anteile an Zwei- und Dreizimmerwohnungen auf.",
+		"lesehilfe": "In der Gemeinde Bettingen gibt es den höchsten Anteil an Wohnungen mit fünf Zimmern gefolgt von Wohnungen mit sechs und mehr Zimmern sowie Vierzimmerwohnungen. Dagegen weist die Gemeinde kantonsweit die geringsten Anteile an Zwei- und Dreizimmerwohnungen auf.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -23031,7 +23029,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -23190,7 +23188,7 @@ var indikatoren = [
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"subtitle": "Kanton Basel-Stadt, 2017",
 		"kuerzel": "I.09.1.06988",
-		"kuerzelKunde": "TG-RU-WZ-BS",
+		"kuerzelKunde": "RU-99.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -23198,13 +23196,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-01-28T09:54:35.3535",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2008 steigt der gesamte Wohnungsbestand leicht und stetig an. Am stärksten war das Wachstum bei den Fünf- bzw. Vierzimmerwohnungen (+10,9% bzw. 8,6% seit 2008). Rückläufig war dagegen die Entwicklung bei den Einzimmerwohnungen (-3,2%). Am häufigsten gibt es Dreizimmerwohnungen im Kanton, am seltensten Wohnungen mit sechs und mehr Zimmern.",
+		"lesehilfe": "Am häufigsten gibt es in Basel-Stadt Dreizimmerwohnungen, am seltensten Wohnungen mit sechs und mehr Zimmern. Seit 2008 steigt der gesamte Wohnungsbestand leicht und stetig an. Am stärksten war das Wachstum bei den Fünf- bzw. Vierzimmerwohnungen (+10,9% bzw. 8,6% seit 2008). Rückläufig war dagegen die Entwicklung bei den Einzimmerwohnungen (-3,2%).",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -23215,7 +23213,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
