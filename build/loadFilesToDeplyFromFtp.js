@@ -21,13 +21,13 @@ https.get(urlBase + "verzeichnis.txt", listOfCharts => {
         records.forEach(row => {
             
             const downloadFileContents = (url, filePath) => {
-                https.get(url, fileContents => {
-
-                    fileContents.on('data', (d) => {
+                https.get(url, response => {
+                    //console.log('statusCode:', response.statusCode);
+                    if (response.statusCode == 200){
                         const file = fs.createWriteStream(filePath);
-                        const stream = fileContents.pipe(file);
-                    });                    
-                    //stream.on("finish", function() {});
+                        const stream = response.pipe(file);
+                        //stream.on("finish", function() {});
+                    }
                 })
                 .on('error', e => {
                     console.log(e);
@@ -61,6 +61,5 @@ https.get(urlBase + "verzeichnis.txt", listOfCharts => {
         });
   });
 });
-
 
 
