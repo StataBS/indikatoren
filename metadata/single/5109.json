@@ -1,6 +1,6 @@
 {"title":"Sozialhilfequote",
 "subtitle":"Stand: 2017",
-"kuerzel":"I.13.3.05109",
+"kuerzel":"I.13.3.5109",
 "kuerzelKunde":"GS-1.B",
 "description":"Sozialhilfequote",
 "id":5109,
@@ -8,7 +8,7 @@
 "unterthema":"Sozialhilfe und Notwohnen",
 "kennzahlenset":"Wohnviertel",
 "raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2017-12-18T11:37:16.1616",
+"aktualisierungsdatum":"2018-06-13T09:47:50.5050",
 "stufe1":"Teil 3: Karten",
 "stufe2":"Gesellschaft und Soziales",
 "stufe3":"",
@@ -17,6 +17,8 @@
 "lesehilfe":"Der Anteil Sozialhilfeempfänger ist im Wohnviertel Klybeck am höchsten, in Bettingen am niedrigsten.",
 "erlaeuterungen":"Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger an der Wohnbevölkerung des Wohnviertels.",
 "template":"map001",
+"darstellungsart":"Karte kategoriell",
+"printformat":"", 
 "visible":true,
 "visibleInPortal":true,
 "orderKey":"03_01_00_00_00_001",
@@ -24,5 +26,9 @@
 "children":[],
 "renderLink":["4822"],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Sozialhilfestatistik"],
-"externalLinks":["Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=soz_sozhilfe.soz_quote' target='_blank'>Basler Atlas</a>."]
+"datenInChartIntegriert":false,
+"externalLinks":["Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=soz_sozhilfe.soz_quote' target='_blank'>Basler Atlas</a>."],
+"data-id":5109, 
+"chart-id":5109, 
+"filter":""
 }

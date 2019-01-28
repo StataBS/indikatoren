@@ -23,8 +23,8 @@ var getChartsHashes = function(globString){
         if (indikator.visible == undefined || indikator.visible == true) {
             //console.log(filepath + ' is visible, proceeding with adding to hash object...');
             hashes[indikator.id] = {metadata: hashFiles.sync({files: filepath})};
-            hashes[indikator.id]['chartConfig'] = hashFiles.sync({files: 'charts/templates/' + indikator.id + '.js'});
-            hashes[indikator.id]['data'] = hashFiles.sync({files: 'data/' + indikator.id + '.tsv'});
+            hashes[indikator.id]['chartConfig'] = hashFiles.sync({files: 'charts/templates/' + (indikator["chart-id"] || indikator.id) + '.js'});
+            hashes[indikator.id]['data'] = hashFiles.sync({files: 'data/' + (indikator["data-id"] || indikator.id) + '.tsv'});
             hashes[indikator.id]['configs/portal'] = hashFiles.sync({files: 'configs/portal/' + indikator.id + '.json'});
             hashes[indikator.id]['template'] = hashFiles.sync({files: 'charts/templates/' + indikator.template + '.js'});
         }

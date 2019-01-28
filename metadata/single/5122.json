@@ -8,7 +8,7 @@
 "unterthema":"Steuern",
 "kennzahlenset":"Wohnviertel",
 "raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2018-06-14T09:46:36.3636",
+"aktualisierungsdatum":"2018-06-21T10:59:33.3333",
 "stufe1":"Teil 3: Karten",
 "stufe2":"Wirtschaft und Arbeit",
 "stufe3":"",
@@ -17,6 +17,7 @@
 "lesehilfe":"Im Wohnviertel Bruderholz wird der höchste Wert pro Veranlagung verzeichnet, im Wohnviertel Klybeck der niedrigste.",
 "erlaeuterungen":"Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 "template":"map001",
+"darstellungsart":"Karte kategoriell",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,
@@ -25,5 +26,9 @@
 "children":[],
 "renderLink":["4835"],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Steuerstatistik"],
-"externalLinks":["Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_ver.vermoegen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."]
+"datenInChartIntegriert":false,
+"externalLinks":["Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_ver.vermoegen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."],
+"data-id":5122, 
+"chart-id":5122, 
+"filter":""
 }

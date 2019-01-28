@@ -109,7 +109,10 @@
             }
         },
         "legend": {
-            "symbolRadius": 0
+            symbolRadius: 0, 
+            itemStyle: {
+                fontWeight: "normal",
+            },
         }, 
         "rangeSelector": {
             verticalAlign: 'bottom',

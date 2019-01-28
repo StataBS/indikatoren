@@ -1,6 +1,6 @@
 {"title":"Gymnasialquote",
 "subtitle":"Stand: 2017",
-"kuerzel":"I.15.6.05113",
+"kuerzel":"I.15.6.5113",
 "kuerzelKunde":"GS-5.B",
 "description":"Gymnasialquote",
 "id":5113,
@@ -8,7 +8,7 @@
 "unterthema":"Bildungsniveau",
 "kennzahlenset":"Wohnviertel",
 "raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2018-02-28T10:56:50.5050",
+"aktualisierungsdatum":"2018-04-16T11:22:54.5454",
 "stufe1":"Teil 3: Karten",
 "stufe2":"Gesellschaft und Soziales",
 "stufe3":"",
@@ -17,6 +17,8 @@
 "lesehilfe":"Die Gymnasialquote ist im Wohnviertel Bachletten am höchsten, im Wohnviertel Klybeck am niedrigsten.",
 "erlaeuterungen":"Seit 2016/2017 Anteil der Sek P Schüler (Jahre davor: Anteil der Gymnasiasten) an allen Schülern der 10. und 11. Schulstufe des Wohnviertels an öffentlichen Schulen und mit Elternwohnort Basel-Stadt (Schulstufen einschliesslich zweier obligatorischer Kindergartenstufen gezählt).",
 "template":"map001",
+"darstellungsart":"Karte kategoriell",
+"printformat":"", 
 "visible":true,
 "visibleInPortal":true,
 "orderKey":"03_01_00_00_00_005",
@@ -24,5 +26,9 @@
 "children":[],
 "renderLink":["4826"],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bildungsstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":5113, 
+"chart-id":5113, 
+"filter":""
 }

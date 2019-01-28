@@ -37,7 +37,7 @@ files.forEach(function(filepath){
     //add id and indikatorenset of current indikator to catalog, the rest will be overwritten later on
 	allIndikatoren[indikator.id] = {'id': indikator.id, 'visible': '', 'visibleInPortal': '', 'indikatorenset': indikator.kennzahlenset };    
     if (indikator.visible == undefined || indikator.visible == true) {
-        console.log(filepath + ' is visible, adding to all/indikatoren.json...');
+        //console.log(filepath + ' is visible, adding to all/indikatoren.json...');
         //clean up: if visible == false, chart will not be included in all/indikatoren.json, thus property not needed anymore. 
         delete indikator.visible;
         delete indikator.option;
@@ -63,7 +63,7 @@ files.forEach(function(filepath){
         allIndikatoren[indikator.id]['visible'] = true;
     }
     else {
-        console.log(filepath + ' NOT visible, ignoring');
+        //console.log(filepath + ' NOT visible, ignoring');
         allIndikatoren[indikator.id].visible = false;
     }
 });
@@ -75,7 +75,7 @@ visibleIndikatoren.forEach((element, i, arr) => {
 	if(element.visibleInPortal){
 		//is chart member of a print kennzahlenset?
 		if ((element.kennzahlenset == "Umwelt" && element.erlaeuterungen.indexOf("Eine detaillierte Beschreibung des Indikators") == 0 ) || element.kennzahlenset == "Test" ) {
-			console.log(element.id + ' is in Test or a print kennzahlenset [' + element.kennzahlenset + '], or in Umwelt Kennzahlenset without an expressive field erlaeuterungen [' + element.erlaeuterungen.substring(0, 10) + '...] setting visibleInPortal to false...');
+			//console.log(element.id + ' is in Test or a print kennzahlenset [' + element.kennzahlenset + '], or in Umwelt Kennzahlenset without an expressive field erlaeuterungen [' + element.erlaeuterungen.substring(0, 10) + '...] setting visibleInPortal to false...');
 			element.visibleInPortal = false;
 		}
 		else {
@@ -92,16 +92,16 @@ visibleIndikatoren.forEach((element, i, arr) => {
 				if (mother && mother["visibleInPortal"]){
 					//is mother also in renderLink, so that both need to be displayed?
 					if (element.renderLink.indexOf(String(mother.id)) > -1){
-						console.log(element.id + ' has a parent which is also defined in renderLink, leaving visibleInPortal at true...');
+						//console.log(element.id + ' has a parent which is also defined in renderLink, leaving visibleInPortal at true...');
 					}
 					else {
-						console.log(element.id + ' has a parent with an available metadata file, setting visibleInPortal to false...');
+						//console.log(element.id + ' has a parent with an available metadata file, setting visibleInPortal to false...');
 						element.visibleInPortal = false;
 					}
 				}
 				//mother chart must be in an unpublished kennzahlenset
 				else {
-					console.log(element.id + ' does not have a mother with an available metadata file and visibleInPortal == true, leaving visibleInPortal at true...');
+					//console.log(element.id + ' does not have a mother with an available metadata file and visibleInPortal == true, leaving visibleInPortal at true...');
 				}
 			//}q
 		}
@@ -110,7 +110,7 @@ visibleIndikatoren.forEach((element, i, arr) => {
 		}
 	}
 	else {
-		console.log(element.id + ' has visibleInPortal set to false, ignoring for indikatorenInPortal');
+		//console.log(element.id + ' has visibleInPortal set to false, ignoring for indikatorenInPortal');
 	}
 	
 	//update catalog of all indikatoren with current data

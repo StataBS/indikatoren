@@ -114,10 +114,10 @@ function saveChartConfig(indikator, view, console){
     });
 
     try{
-        var csv = (fs.readFileSync('data/' + indikator.id + '.tsv', 'utf8'));
+        var csv = (fs.readFileSync('data/' + (indikator["data-id"] || indikator.id) + '.tsv', 'utf8'));
         //remove quotes from data
         var dataWithoutQuotes = csv.replace(/"/g, "");
-        var result = execute('charts/templates/' + indikator.id + '.js', {Highcharts: Highcharts, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, console: console});
+        var result = execute('charts/templates/' + (indikator["chart-id"] || indikator.id) + '.js', {Highcharts: Highcharts, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, console: console});
         var options = (result.result || {} );
     
         //disable animations and prevent exceptions

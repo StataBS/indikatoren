@@ -8,7 +8,7 @@
 "unterthema":"Gebäude und Wohnungen",
 "kennzahlenset":"Wohnviertel",
 "raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2018-06-14T09:46:36.3636",
+"aktualisierungsdatum":"2018-06-21T10:59:35.3535",
 "stufe1":"Teil 3: Karten",
 "stufe2":"Raum und Umwelt",
 "stufe3":"",
@@ -17,6 +17,7 @@
 "lesehilfe":"Der Anteil Einfamilienhäuser ist in Bettingen am höchsten, im Wohnviertel Clara am niedrigsten.",
 "erlaeuterungen":"Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels in Prozent.",
 "template":"map001",
+"darstellungsart":"Karte kategoriell",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,
@@ -25,5 +26,9 @@
 "children":[],
 "renderLink":["4831"],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":5118, 
+"chart-id":5118, 
+"filter":""
 }

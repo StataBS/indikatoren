@@ -8,7 +8,7 @@
 "unterthema":"Gebäude und Wohnungen",
 "kennzahlenset":"Wohnviertel",
 "raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2018-06-14T09:46:36.3636",
+"aktualisierungsdatum":"2018-06-21T10:59:34.3434",
 "stufe1":"Teil 3: Karten",
 "stufe2":"Raum und Umwelt",
 "stufe3":"",
@@ -17,6 +17,7 @@
 "lesehilfe":"Im Wohnviertel Klybeck sind die Wohnungen im Durchschnitt am kleinsten, in der Gemeinde Bettingen am grössten.",
 "erlaeuterungen":"Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
 "template":"map001",
+"darstellungsart":"Karte kategoriell",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,
@@ -25,5 +26,9 @@
 "children":[],
 "renderLink":["4833"],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":5120, 
+"chart-id":5120, 
+"filter":""
 }

@@ -31,11 +31,11 @@
             var other_series = args.chart.series[other_series_index];
             var other_point = other_series.data[this_point_index];
             return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                this.point.name +': <b>' + Highcharts.numberFormat(this.y,3,",", "") + '</b><br/>' + 
+                this.point.name +': <b>' + Highcharts.numberFormat(this.y, 2, ",", "") + '</b><br/>' + 
                 'Rang <b>' + other_point.y + '</b>';
         }
     }
-	}
+	};
 }());
 
 //Colors of StatA Bereiche: violett3 #923F8D, gruen3 #68AB2B, blau3 #689199

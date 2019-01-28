@@ -67,7 +67,15 @@ menuItems.push(
     {
         "text": "Daten - TSV/CSV", 
         "onclick": function(){            
-            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/data/' + this.renderTo.id.substring(10) + ".tsv", '_blank'); 
+            //determine if the chart has its own tsv file or should link to the tsv of another chart
+            var chartId;
+            if (this.options["customFunctions"] && this.options["customFunctions"]["data-id"]){
+                chartId = this.options["customFunctions"]["data-id"];
+            }
+            else {
+                chartId = this.renderTo.id.substring(10);
+            }
+            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/data/' + chartId + ".tsv", '_blank'); 
         }
     });
 menuItems.push({separator: true});
